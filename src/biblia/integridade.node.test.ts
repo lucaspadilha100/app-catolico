@@ -18,7 +18,7 @@ const livro = (codigo: string): string[][] =>
 const moderna: Record<string, number[]> = {};
 for (const linha of readFileSync(join(raiz, "fontes/versificacao/org.vrs"), "utf8").split("\n")) {
   const [codigo, ...caps] = linha.trim().split(/\s+/);
-  if (codigo && NUMERACAO_MODERNA.includes(codigo)) moderna[codigo] = caps.map((c) => Number(c.split(":")[1]));
+  if (codigo && NUMERACAO_MODERNA.includes(codigo)) moderna[codigo] = caps.map((c: string) => Number(c.split(":")[1]));
 }
 
 const referencias = new Set<string>();

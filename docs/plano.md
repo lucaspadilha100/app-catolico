@@ -52,7 +52,12 @@ Legenda: ✅ pronto · 🔨 em andamento · ⬜ a fazer · 👤 precisa do dono
 - ✅ 👤 Amostra em linguagem atual aprovada (Mc 1 e Sl 22, segunda versão)
 - ✅ Revisão em linguagem atual dos quatro Evangelhos (3.777 versículos),
   conferida capítulo a capítulo; dúvidas em `fontes/biblia/revisao/<LIVRO>-notas.md`
-- ⬜ Revisão em linguagem atual: Salmos → resto do Novo Testamento → Antigo Testamento
+- ✅ Revisão em linguagem atual dos 150 Salmos (numeração grega, como nas
+  Bíblias católicas do Brasil); dúvidas em `fontes/biblia/revisao/PSA-notas.md`
+- ✅ Evangelhos na ordem e divisão de versículos atuais (Mt 5,4-5 e outros 8 casos)
+- ✅ Teste de integridade: numeração e toda leitura da liturgia de 2024 a 2035
+- 🔨 Recuperar versículos perdidos na extração dos PDFs (`fontes/biblia/faltando.txt`)
+- ⬜ Revisão em linguagem atual: resto do Novo Testamento → Antigo Testamento
 - ⬜ Corrigir as pendências (versículos grudados, OCR)
 - ⬜ 👤 Leitura dos Evangelhos e Salmos revisados
 - ⬜ Introdução curta dos 73 livros
