@@ -150,9 +150,15 @@ Nada de licença paga por ora. Então:
   `em-revisao` (a tela mostra "Texto em revisão") ou `revisado`.
   `fontes/biblia/pendencias.txt`: capítulos cuja contagem de versículos não
   bate com a Vulgata (quase sempre um versículo grudado no vizinho).
-- Revisão **nível 2** (pendente de aprovação do dono, amostra em Mc 1 e Sl 22):
-  ortografia atual + palavras arcaicas trocadas, tom bíblico mantido. Corrige
-  também o OCR, SEMPRE olhando o PDF de 1950, nunca de memória.
+- Revisão em **linguagem atual** (pedido do dono, 10/11/2026: a primeira amostra
+  "ficou ruim de ler"): falas entre aspas, frases curtas na ordem natural,
+  menos "E" no começo, palavras de hoje, "vós" mantido. Amostra em Mc 1 e Sl 22
+  aguardando aprovação. Corrige também o OCR, SEMPRE olhando o PDF de 1950.
+- ⚠️ **Nunca usar outra tradução como modelo de frase** (Ave-Maria, CNBB,
+  Jerusalém, Pastoral). O dono mostrou a Ave-Maria como exemplo de leitura: vale
+  o ESTILO, nunca o texto. Reescrever a partir do Figueiredo, versículo a versículo.
+- Quando o Figueiredo se afasta do latim (ex.: Mc 1,24 "o Santo Deus"), **segue o
+  Figueiredo** (decisão do dono, 10/11/2026) e o caso vai para uma lista.
 - ⚠️ Os Salmos seguem a edição de 1950: 113 (1-8) + "113 bis" guardado como
   113,9-26; o 115 começa no versículo 10 e o 147 no 12. A tabela
   hebraico → Vulgata (`src/biblia/dados/mapa-hebraico.json`) já é essa.

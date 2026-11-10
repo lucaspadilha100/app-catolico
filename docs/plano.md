@@ -48,9 +48,9 @@ Legenda: ✅ pronto · 🔨 em andamento · ⬜ a fazer · 👤 precisa do dono
 - ✅ Tela Bíblia: livros, capítulos, leitura, "ir para" (Mc 4, Jo 3,16)
 - ✅ Progresso: capítulos lidos, % por livro e da Bíblia, continuar lendo
 - ✅ Liturgia do dia com o texto completo das leituras
-- ⬜ 👤 Aprovar a amostra do nível 2 (Mc 1 e Sl 22) e a regra para quando o
-  Figueiredo se afasta do latim
-- ⬜ Revisão nível 2 em lotes, olhando o PDF: Evangelhos → Salmos → Novo
+- ✅ 👤 Regra de fidelidade: quando o Figueiredo se afasta do latim, segue o Figueiredo
+- ⬜ 👤 Aprovar a amostra em linguagem atual (Mc 1 e Sl 22, segunda versão)
+- ⬜ Revisão em linguagem atual, em lotes, olhando o PDF: Evangelhos → Salmos → Novo
   Testamento → Antigo Testamento, com conferência automática a cada lote
 - ⬜ Corrigir as pendências (versículos grudados, OCR)
 - ⬜ 👤 Leitura dos Evangelhos e Salmos revisados
