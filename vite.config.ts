@@ -36,6 +36,7 @@ export default defineConfig({
         globPatterns: ["**/*.{js,css,html,png,svg,woff2,json}"],
         globIgnores: ["biblia/**", "imagens/santos/**"],
         navigateFallback: "/index.html",
+        importScripts: ["sw-lembretes.js"],
         runtimeCaching: [
           {
             urlPattern: ({ url }) => url.pathname.startsWith("/biblia/") && url.pathname.endsWith(".json"),

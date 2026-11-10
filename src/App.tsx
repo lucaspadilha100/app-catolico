@@ -32,6 +32,7 @@ const Conta = lazy(() => import("@/pages/Conta"));
 const Privacidade = lazy(() => import("@/pages/Conta").then((m) => ({ default: m.Privacidade })));
 const Termos = lazy(() => import("@/pages/Conta").then((m) => ({ default: m.Termos })));
 const Mais = lazy(() => import("@/pages/Mais"));
+const Lembretes = lazy(() => import("@/pages/Lembretes"));
 const NaoEncontrada = lazy(() => import("@/pages/Simples").then((m) => ({ default: m.NaoEncontrada })));
 const Missas = lazy(() => import("@/pages/Missas").then((m) => ({ default: m.Missas })));
 const ParoquiaPagina = lazy(() => import("@/pages/Missas").then((m) => ({ default: m.ParoquiaPagina })));
@@ -107,6 +108,7 @@ export default function App() {
         <Route path="painel" element={<Painel />} />
         <Route path="painel/paroquia/:id" element={<EditarParoquia />} />
         <Route path="mais" element={<Mais />} />
+        <Route path="lembretes" element={<Lembretes />} />
         <Route path="*" element={<NaoEncontrada />} />
       </Route>
     </Routes>

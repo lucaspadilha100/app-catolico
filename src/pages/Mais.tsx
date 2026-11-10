@@ -1,5 +1,5 @@
 import { useState, type ReactNode } from "react";
-import { CalendarDays, Church, FileText, Heart, LayoutDashboard, NotebookPen, Share2, ShieldCheck, Sparkles, UserRound } from "lucide-react";
+import { Bell, CalendarDays, Church, FileText, Heart, LayoutDashboard, NotebookPen, Share2, ShieldCheck, Sparkles, UserRound } from "lucide-react";
 import { usePreferencias, type Letra, type Tema } from "@/lib/preferencias";
 import { Cartao, Grupo, ItemLista, LINHA, TituloPagina } from "@/components/Cartao";
 import { DIOCESES } from "@/liturgia/dioceses";
@@ -110,6 +110,7 @@ export default function Mais() {
         </Grupo>
 
         <Grupo titulo="Para você">
+          <ItemLista icone={Bell} titulo="Lembretes" detalhe="Evangelho, Ângelus, terço, novena" para="/lembretes" />
           <ItemLista icone={NotebookPen} titulo="Diário espiritual" detalhe="Diário e propósitos" para="/diario" />
         </Grupo>
 

@@ -5,6 +5,7 @@ import { useDiaLiturgico } from "@/lib/useDiaLiturgico";
 import { Rolagem } from "@/components/Rolagem";
 import { BoasVindas } from "@/components/BoasVindas";
 import { Carregando } from "@/components/Devocao";
+import { renovarSeFaltar } from "@/lembretes/lembretes";
 import { NOME_DO_APP } from "@/marca";
 import { contarAbertura } from "@/conta/uso";
 
@@ -47,6 +48,11 @@ export default function Layout() {
     reenviar();
     window.addEventListener("online", reenviar);
     return () => window.removeEventListener("online", reenviar);
+  }, []);
+
+  useEffect(() => {
+    const t = setTimeout(renovarSeFaltar, 3000);
+    return () => clearTimeout(t);
   }, []);
 
   useEffect(() => {
