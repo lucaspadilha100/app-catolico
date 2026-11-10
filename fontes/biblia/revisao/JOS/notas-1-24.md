@@ -42,3 +42,9 @@ Js 19,30: Figueiredo: "Afe" (letra perdida) | Vulgata: "Aphec" | Douay-Rheims: "
 Js 19,15: "Jedala" (Vulgata "Jerala", Douay-Rheims "Jedala"): mantido o Figueiredo.
 Js 21,14: Figueiredo: "Esterno" (OCR de "Estemo") | Vulgata: "Esthemo" | Douay-Rheims: "Esthemo" | decidido: "Estemo".
 Js 21,15: Figueiredo: "Helon" | Vulgata: "Holon" | Douay-Rheims: "Holon" | decidido: "Holon" (letra trocada).
+Js 22,10: Figueiredo: "às reprêsas do Jordão" (represa hoje é barragem) | Vulgata: "ad tumulos Jordanis" | Douay-Rheims: "to banks of the Jordan" | decidido: "aos cabeços do Jordão", como o próprio Figueiredo traduz a mesma palavra em 22,11.
+Js 22,19: número solto ("Í9") no começo do versículo; retirado.
+Js 22,22: a Vulgata repete "Fortissimus Deus Dominus" duas vezes; o Figueiredo diz uma só: mantido o Figueiredo.
+Js 22,25: Figueiredo: "apartem os nossos do têrmo do Senhor" (troca de letras de "temor") | Vulgata: "a timore Domini" | Douay-Rheims: "from the fear of the Lord" | decidido: "do temor do Senhor".
+Js 22,31: Figueiredo: "o Senhor é convosco" | Vulgata: "nobiscum sit Dominus" | Douay-Rheims: "the Lord is with us" | hebraico: "no meio de nós" | decidido: "está conosco" (erro de impressão; quem fala é Fineias).
+Js 22,32: número de página ("^ 348 —") no meio do versículo; retirado.
