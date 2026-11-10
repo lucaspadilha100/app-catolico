@@ -119,12 +119,14 @@ Legenda: ✅ pronto · 🔨 em andamento · ⬜ a fazer · 👤 precisa do dono
 - ✅ Teste: nenhum Evangelho sem reflexão nesses 12 anos
 - ⬜ 👤 Revisão das reflexões, a começar pelos domingos (`docs/reflexoes/a-revisar.md`)
 
-### Leva 9. Confissão e vida espiritual ⬜
-- ⬜ Exame de consciência por estado de vida, com o nº do Catecismo
-- ⬜ Guia da confissão e guia da missa
-- ⬜ Falecidos com lembretes (7º dia, 30 dias, aniversário)
-- ⬜ Diário espiritual e propósitos
-- ⬜ (Tudo guardado no aparelho; a conta entra na Leva 10)
+### Leva 9. Confissão e vida espiritual 🔨
+- ✅ Exame de consciência por estado de vida (criança, jovem, adulto, casado), 119 perguntas com o nº do Catecismo
+- ✅ Cofre com PIN: exame, propósitos e diário embaralhados no aparelho; "Fui me confessar" apaga os pecados e guarda os propósitos e a data
+- ✅ Guia da confissão e guia da missa (com a postura em cada parte)
+- ✅ Falecidos com 7º dia, 30º dia e aniversário na tela Hoje; aniversário de batismo
+- ✅ Diário espiritual e propósitos
+- ⬜ 👤 Revisar o exame e os guias (`docs/confissao/a-revisar.md`)
+- ⬜ Sincronizar com a conta (Leva 10)
 
 ### Leva 10. Conta e sincronização ⬜
 - ⬜ Banco no Supabase com regras de acesso (RLS) e testes das regras

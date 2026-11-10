@@ -142,6 +142,11 @@ function ExameAberto({ exame }: { exame: TipoExame }) {
                             <span className="min-w-0 flex-1">
                               <span className="block leading-snug">{i.texto}</span>
                               <span className="text-xs text-tinta-suave">CIC {i.cic}</span>
+                              {i.id === "m5-propria-vida" && (
+                                <span className="mt-1 block text-sm font-medium text-tinta">
+                                  Se você pensa em tirar a própria vida, ligue 188 (CVV), de graça, a qualquer hora.
+                                </span>
+                              )}
                             </span>
                           </button>
                         </li>

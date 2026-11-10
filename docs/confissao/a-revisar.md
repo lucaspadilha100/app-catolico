@@ -17,3 +17,19 @@
 - Jejum eucarístico de uma hora; idosos e doentes dispensados (cân. 919 §3).
 - O Creio do app é o dos Apóstolos; o texto diz que na Missa pode ser também o
   niceno-constantinopolitano.
+
+## Exame de consciência (`src/confissao/exame.ts`)
+- 119 perguntas em 12 seções (10 mandamentos, preceitos, pecados capitais):
+  criança 41, jovem 81, adulto 80, casado 91. Números do CIC conferidos no
+  Catecismo de vatican.va (edição de Portugal).
+- Nome dos mandamentos na forma usada no Brasil: conferir no Catecismo da
+  CNBB impresso.
+- Situações de vida delicadas: união livre (2390), nova união depois de
+  separação (2384), fertilização in vitro (2376-2377).
+- Item sobre atentar contra a própria vida (2280-2283): a tela mostra o
+  telefone do CVV (188) junto da pergunta.
+- Citações aproximadas: m3-bagunca e m3-respeito (1387, 2691), m3-inteira
+  (2042), m6-respeito-corpo (2337-2338, 2521-2522), cp-preguica (2733).
+- O PIN protege contra quem pega o celular; não é proteção contra perícia
+  técnica (PIN curto). Na Leva 10, antes de sincronizar, avaliar senha mais
+  longa.
