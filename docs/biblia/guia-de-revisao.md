@@ -16,12 +16,20 @@ Tom aprovado pelo dono em 10/11/2026 (amostra: Marcos 1 e Salmo 22).
 
 ## Fontes de conferência e como decidir
 Decisão do dono (10/11/2026): as dúvidas se resolvem pelas fontes, sem
-esperar por ele. Régua, nunca texto: o latim da **Vulgata Clementina**
-(`fontes/vulgata/`) e a **Douay-Rheims**, Bíblia católica aprovada, traduzida
-da Vulgata (`fontes/douay-rheims/`). As duas em domínio público.
+esperar por ele, e **toda a Bíblia é conferida com pelo menos três fontes**.
+Régua, nunca texto, todas livres de direitos:
+1. o latim da **Vulgata Clementina** (`fontes/vulgata/`), de onde o
+   Figueiredo traduziu;
+2. a **Douay-Rheims**, Bíblia católica aprovada, traduzida da Vulgata
+   (`fontes/douay-rheims/`);
+3. o **texto original** (`fontes/originais/`): hebraico no Antigo Testamento,
+   grego da Septuaginta nos deuterocanônicos, grego no Novo Testamento.
+O original ajuda a entender o sentido; quando ele difere da Vulgata por
+tradição textual, vale a Vulgata (é a Bíblia que o Figueiredo traduziu).
 - **Erro evidente da edição de 1950** (palavra que contradiz o contexto, letra
-  trocada, negação invertida) e a Vulgata e a Douay-Rheims concordam em outra
-  leitura: corrige por elas. Ex.: Sl 104,18 "o erro" → "o ferro"; Sl 89,13
+  trocada, negação invertida, palavra ou frase que falta) e a Vulgata e a
+  Douay-Rheims concordam em outra leitura, sem o original contrariar: corrige
+  por elas. Ex.: Sl 104,18 "o erro" → "o ferro"; Sl 89,13
   "inexorável" → "deixa-te aplacar"; Sl 24,3 "amigos" → "inimigos".
 - **Escolha de tradução do Figueiredo que faz sentido** (mesmo diferente do
   latim): fica o Figueiredo.
