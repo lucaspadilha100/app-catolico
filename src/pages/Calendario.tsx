@@ -162,7 +162,7 @@ export default function Calendario() {
           </ul>
         )}
         <Link
-          to={mesmoDia(l.data, h) ? "/liturgia" : `/liturgia?data=${paraIso(l.data)}`}
+          to={mesmoDia(l.data, h) ? "/liturgia" : `/liturgia/${paraIso(l.data)}`}
           className="mt-5 flex min-h-12 items-center justify-center rounded-xl bg-destaque px-4 font-semibold text-sobre-destaque"
         >
           Liturgia do dia

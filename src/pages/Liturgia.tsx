@@ -1,5 +1,5 @@
 import { useMemo } from "react";
-import { Link, useSearchParams } from "react-router-dom";
+import { Link, useParams, useSearchParams } from "react-router-dom";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { deIso, hoje, paraIso, somaDias, dataPorExtenso } from "@/liturgia/datas";
 import { diaLiturgico, NOME_DA_COR, NOME_DO_GRAU } from "@/liturgia/calendario";
@@ -51,7 +51,8 @@ function ListaDeLeituras({ missa }: { missa: Missa }) {
 
 export default function Liturgia() {
   const [params] = useSearchParams();
-  const data = deIso(params.get("data") ?? "") ?? hoje();
+  const { data: dataDoCaminho } = useParams();
+  const data = deIso(dataDoCaminho ?? params.get("data") ?? "") ?? hoje();
   const iso = paraIso(data);
   const { diocese } = usePreferencias().preferencias;
   const l = useMemo(() => diaLiturgico(deIso(iso)!, diocese), [iso, diocese]);
@@ -59,7 +60,7 @@ export default function Liturgia() {
 
   const navegar = (dias: number) => {
     const alvo = paraIso(somaDias(data, dias));
-    return alvo === paraIso(hoje()) ? "/liturgia" : `/liturgia?data=${alvo}`;
+    return alvo === paraIso(hoje()) ? "/liturgia" : `/liturgia/${alvo}`;
   };
 
   const grau = l.celebracao && l.celebracao.grau !== "memoria" ? NOME_DO_GRAU[l.celebracao.grau] : "";

@@ -5,12 +5,13 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && npm run paginas",
+    "paginas": "vite build --ssr scripts/paginas/entrada.ts --outDir dist-paginas --emptyOutDir && node scripts/paginas/gerar.mjs",
     "preview": "vite preview",
     "typecheck": "tsc -b --force",
     "test": "vitest run",
     "verificar": "npm run typecheck && npm test && npm run build",
-    "cap:sync": "npm run build && cap sync",
+    "cap:sync": "vite build && cap sync",
     "gerar": "node scripts/gerar-lecionario.mjs",
     "gerar:biblia": "node scripts/gerar-biblia.mjs",
     "gerar:santos": "node --experimental-strip-types scripts/santos/imagens.mjs"

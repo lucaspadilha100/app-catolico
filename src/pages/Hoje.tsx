@@ -91,7 +91,7 @@ export default function Hoje() {
       "",
       ...leituras.map((x) => `${ROTULO_CURTO[x.tipo]}: ${x.referencia}`),
     ].join("\n");
-    const url = `${base}/liturgia?data=${iso}`;
+    const url = `${base}/liturgia/${iso}`;
     if (navigator.share) {
       try {
         await navigator.share({ title: "Liturgia do dia", text: texto, url });

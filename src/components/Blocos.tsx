@@ -70,7 +70,7 @@ function UmBloco({ b, data }: { b: Bloco; data?: Dia }) {
       </div>
     );
   if ("ir" in b) {
-    const para = b.ir === "liturgia" ? (data ? `/liturgia?data=${paraIso(data)}` : "/liturgia") : b.ir;
+    const para = b.ir === "liturgia" ? (data ? `/liturgia/${paraIso(data)}` : "/liturgia") : b.ir;
     return (
       <Link
         to={para}

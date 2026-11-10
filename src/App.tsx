@@ -31,6 +31,7 @@ export default function App() {
     <Routes>
       <Route element={<Layout />}>
         <Route index element={<Hoje />} />
+        <Route path="liturgia/:data" element={<Liturgia />} />
         <Route path="liturgia" element={<Liturgia />} />
         <Route path="rezar" element={<Rezar />} />
         <Route path="rezar/terco" element={<Terco />} />
