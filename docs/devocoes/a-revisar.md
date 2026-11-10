@@ -67,3 +67,18 @@ ponto de atenção.
 - Outubro, dia 29: terço missionário (uma dezena por continente), sem
   atribuir a ninguém. Do dia 19 ao 27 há botão da novena de São Judas.
 - Sl 45,10-16 (maio, dia 23) começa no meio da frase no nosso texto.
+
+## Novenas de São José, Santo Antônio (trezena), São Judas Tadeu e São Miguel
+- Santo Antônio, como tradição: Montepaolo, defesa dos endividados em Pádua, a
+  carta de São Francisco sobre o ensino da teologia, o hino a Nossa Senhora e
+  "vejo o meu Senhor", a visão do Menino Jesus. Como fato: Lisboa, fim do século
+  XII; Coimbra; os mártires do Marrocos em 1220; Assis em 1221; canonização por
+  Gregório IX menos de um ano depois da morte; Doutor da Igreja em 1946.
+  "Achar coisas perdidas" foi levado para a conversão; nenhuma simpatia.
+- São Judas: Tadeu das listas e autor da Carta de Judas como tradição. A nossa
+  Bíblia traz "irmão de Tiago" em Lc 6,16 e At 1,13.
+- São Miguel: alusão ao ofertório da antiga Missa de Requiem; conferir as
+  paráfrases do CIC 328-330, 336, 391-392, 395.
+- São José: Pio IX, Patrono da Igreja em 1870; CIC 1014 (boa morte); José do
+  Egito como figura. A ladainha de São José entra todo dia (é longa: pode virar
+  só um botão).
