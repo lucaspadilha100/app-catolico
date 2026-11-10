@@ -5,3 +5,5 @@ Tb 1,16: número solto "1" no fim do versículo (resto de nota ou página): reti
 Tb 1,23-24: Figueiredo: v23 termina com "rei" solto e v24 diz "assassinaram o seus próprios filhos" | Vulgata: "occiderunt regem filii ipsius" | Douay-Rheims: "the king was killed by his own sons" | decidido: a palavra "rei" voltou ao v24 ("os próprios filhos do rei o assassinaram") e saiu do v23.
 Tb 1,18: "tendo em ódio aos filhos de Israel em sua presença" (Vulgata "exosos haberet in conspectu suo") vertido "que via com ódio os filhos de Israel"; conferir se o dono prefere mais literal.
 Tb 2,11: "lixo quente" (Vulgata "calida stercora", DR "hot dung") vertido "excremento quente": "lixo" de 1950 tem esse sentido, que hoje se perdeu.
+Tb 3,4: "entregues à pirataria" (Vulgata "in direptionem", DR "to spoil") vertido "entregues ao saque".
+Tb 3,16: número solto "1" depois de "marido" (resto de nota): retirado.

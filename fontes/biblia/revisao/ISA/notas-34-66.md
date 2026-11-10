@@ -33,3 +33,5 @@ Is 46,3: a fonte diz "vós com quem anelo no meu seio" (OCR estragado); pela Vul
 Is 46,4: a fonte diz "até à velhice e até me virem as cãs" (as cãs seriam de Deus); a Vulgata ("usque ad senectam ego ipse, et usque ad canos ego portabo") e a Douay-Rheims ("to your grey hairs") falam da velhice do povo; ficou "até a velhice e até os cabelos brancos", sem o "me". Conferir no PDF.
 Is 47,2: OCR "Amla com a mó, e 11101 a farinha" lido pela Vulgata ("Tolle molam, et mole farinam") como "Toma a mó e mói a farinha". "levanta o teu vestido" mantido (Vulgata "revela crura").
 Is 47,6: "arrojei de mim como proterva a minha herança" mantido no sentido do Figueiredo (Vulgata "contaminavi hæreditatem meam", profanei a minha herança); escolha de tradução, não erro evidente.
+Is 48,1: OCR "vós eis que vos chamais" lido "vós que vos chamais".
+Is 48,18: "como os pegas do mar" (OCR de "pegos", Vulgata "gurgites maris") ficou "como as águas profundas do mar"; 48,19 "burgalhau" ficou "cascalho".
