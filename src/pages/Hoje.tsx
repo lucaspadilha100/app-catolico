@@ -3,7 +3,10 @@ import { BookOpenText, ChevronRight, Church, Sparkles, CircleDot, ListChecks } f
 import { emAndamento } from "@/devocao/andamento";
 import { useDevocoesGuardadas } from "@/devocao/progresso";
 import { diaLiturgico } from "@/liturgia/calendario";
-import { somaDias, diaDaSemana } from "@/liturgia/datas";
+import { somaDias, diaDaSemana, paraIso } from "@/liturgia/datas";
+import { useEffect, useState } from "react";
+import { santosDaDataMMDD } from "@/santos/santos";
+import type { Santo } from "@/santos/tipos";
 import { ehDiaDePreceito, NOME_DA_PENITENCIA, penitenciaDoDia } from "@/liturgia/preceitos";
 import { usePreferencias } from "@/lib/preferencias";
 import { useDiaLiturgico } from "@/lib/useDiaLiturgico";
@@ -34,6 +37,21 @@ export default function Hoje() {
   const l = useDiaLiturgico();
   const andamento = emAndamento(l.data).slice(0, 4);
   const { diocese } = usePreferencias().preferencias;
+  const mmdd = paraIso(l.data).slice(5).replace("-", "");
+  const [santosDoDia, setSantosDoDia] = useState<Santo[]>([]);
+  useEffect(() => {
+    let ativo = true;
+    santosDaDataMMDD(mmdd)
+      .then((x) => ativo && setSantosDoDia(x))
+      .catch(() => {});
+    return () => {
+      ativo = false;
+    };
+  }, [mmdd]);
+  const linkDoSanto = (nome: string) => {
+    const s = santosDoDia.find((x) => x.nome === nome);
+    return s ? `/santos/${s.id}` : `/santos?dia=${mmdd}`;
+  };
   const amanha = diaLiturgico(somaDias(l.data, 1), diocese);
   const avisos = [
     ehDiaDePreceito(l) && diaDaSemana(l.data) !== 0 ? "Hoje: missa obrigatória" : "",
@@ -138,7 +156,11 @@ export default function Hoje() {
           <TituloCartao icone={Sparkles}>{l.santos.length > 1 ? "Santos do dia" : "Santo do dia"}</TituloCartao>
           <ul className="mt-3 flex flex-col divide-y divide-borda">
             {l.santos.map((s) => (
-              <li key={s.nome} className="flex items-start gap-3 py-2.5 first:pt-0 last:pb-0">
+              <li key={s.nome}>
+                <Link
+                  to={linkDoSanto(s.nome)}
+                  className="flex items-start gap-3 py-2.5"
+                >
                 <span
                   className={`mt-1.5 size-2.5 shrink-0 rounded-full ${COR_PONTO[s.cor]}`}
                   aria-label={`Cor ${NOME_DA_COR[s.cor].toLowerCase()}`}
@@ -147,6 +169,8 @@ export default function Hoje() {
                   <span className="block font-leitura text-[1.05rem] font-semibold leading-snug text-marca">{s.nome}</span>
                   <span className="text-sm text-tinta-suave">{NOME_DO_GRAU[s.grau]}</span>
                 </span>
+                <ChevronRight className="mt-1 size-5 shrink-0 text-tinta-suave" aria-hidden />
+                </Link>
               </li>
             ))}
           </ul>
