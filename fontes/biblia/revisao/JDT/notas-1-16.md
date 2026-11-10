@@ -25,3 +25,7 @@ Jt 8,4: número solto "1" no fim do versículo: retirado.
 Jt 8,5: Figueiredo: "no anelar superior de sua casa" | Vulgata: "in superioribus domus suæ" | decidido: "no andar de cima" (OCR).
 Jt 8,26: "não nos impacientemos" mantido do Figueiredo, embora a Vulgata diga "non ulciscamur nos" (DR "let us not revenge ourselves"); conferir se o dono prefere seguir o latim.
 Jt 8,34: "príncipe de Judá" vertido "chefe de Judá" (Ozias é chefe da cidade, 6,11).
+Jt 9,2: Figueiredo: "ultrajaram com afronta o poder de uma virgem" | Vulgata: "denudaverunt femur virginis in confusionem" | Douay-Rheims: "uncovered the virgin unto confusion" | decidido: "o pudor de uma virgem" (provável erro de OCR, "poder" por "pudor"; conferir no PDF).
+Jt 9,4: asterisco e número solto "* 1" no fim do versículo: retirados.
+Jt 9,11: "a majestade de teu altar" mantido do Figueiredo (Vulgata "cornu altaris tui").
+Jt 9,18: "teu pacto" vertido "tua aliança" (termo fixo); "para que a tua casa permaneça em te santificar" vertido "permaneça na tua santidade" (Vulgata "in sanctificatione tua").
