@@ -109,7 +109,7 @@ function Seletor({ livro, cap, buscar, aoFechar }: { livro: Livro; cap: number; 
       <div key={l.codigo} id={`livro-${l.codigo}`} className="scroll-mt-1">
         <button
           type="button"
-          onClick={() => (l.capitulos === 1 ? ir(caminho(l, 1)) : setAberto(expandido ? null : l.codigo))}
+          onClick={() => setAberto(expandido ? null : l.codigo)}
           aria-expanded={expandido}
           className="flex min-h-14 w-full items-center gap-3 py-2 text-left"
         >
