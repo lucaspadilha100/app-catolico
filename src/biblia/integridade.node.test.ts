@@ -25,7 +25,7 @@ const referencias = new Set<string>();
 const lecionario = dados as unknown as Lecionario;
 for (let d = deIso("2024-01-01")!; paraIso(d) <= "2035-12-31"; d = somaDias(d, 1)) {
   for (const missa of leiturasDoDia(diaLiturgico(d), lecionario)) {
-    for (const l of missa.leituras) referencias.add(l.canonica);
+    for (const l of missa.leituras) if (l.canonica) referencias.add(l.canonica);
   }
 }
 

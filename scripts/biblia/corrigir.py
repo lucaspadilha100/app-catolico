@@ -18,6 +18,10 @@ TROCAR = [
     ('1SA', 18, 11, 'vêzes. \'', 'vêzes.', 'ronaldomelofz: aspa solta'),
 ]
 
+ACRESCENTAR = [
+    ('JHN', 9, 8, ' Respondiam uns: Êste é.', 'PDF de 1950 (joao/9.pdf): a transcrição perdeu a frase final'),
+]
+
 
 def aplicar(livros, aviso=print):
     for cod, c, k, trecho, tirar, pôr, _ in SEPARAR:
@@ -39,3 +43,7 @@ def aplicar(livros, aviso=print):
             vs[k] = vs[k].replace(errado, certo)
         elif certo not in vs.get(k, ''):
             aviso(f'corrigir: {cod} {c}:{k} sem {errado!r}')
+    for cod, c, k, acrescimo, _ in ACRESCENTAR:
+        vs = livros[cod][c]
+        if acrescimo.strip() not in vs.get(k, ''):
+            vs[k] = vs.get(k, '').rstrip() + acrescimo
