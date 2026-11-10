@@ -22,6 +22,3 @@ Ez 34,17: "entre rez e rez" → "entre ovelha e ovelha" (Vulgata "inter pecus et
 Ez 34,11-12: "visitar as ovelhas" → "cuidar delas" (Vulgata "visitabo"); o dono confere se prefere "visitar".
 Ez 36: lido na liturgia (36,16-28, Vigília Pascal; 36,23-28): conferido versículo a versículo com as três réguas.
 Ez 36,21: "eu lhes perdoei por amor do meu santo nome" → "tive compaixão deles por amor do meu santo nome" (Vulgata "peperci nomini sancto meo", "poupei o meu santo nome"); mantido o sentido do Figueiredo; o dono confere.
-Ez 36,7: "Levantei a minha mão" → "Levantei a minha mão para jurar" (gesto de juramento; Vulgata "levavi manum meam"); o dono confere se tira "para jurar".
-Ez 36,36: "que eu o Senhor o tenho falado, e executado" → "falei e o farei" (Vulgata "locutus sim, et fecerim"); o dono confere se prefere "e o fiz".
-Ez 36,35: "ficaram com toda a segurança fortificadas" → "estão agora povoadas e bem fortificadas" (Vulgata "munitæ sederunt"); "povoadas" explica o "sederunt".
