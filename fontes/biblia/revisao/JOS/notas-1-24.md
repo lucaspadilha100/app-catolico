@@ -40,3 +40,5 @@ Js 18,28: Figueiredo: "Jebtis" (OCR) | Vulgata: "Jebus" | Douay-Rheims: "Jebus" 
 Js 19,28: Figueiredo: "Dana" | Vulgata: "Cana" | Douay-Rheims: "Cana" | decidido: "Cana" (letra trocada).
 Js 19,30: Figueiredo: "Afe" (letra perdida) | Vulgata: "Aphec" | Douay-Rheims: "Aphec" | decidido: "Afec".
 Js 19,15: "Jedala" (Vulgata "Jerala", Douay-Rheims "Jedala"): mantido o Figueiredo.
+Js 21,14: Figueiredo: "Esterno" (OCR de "Estemo") | Vulgata: "Esthemo" | Douay-Rheims: "Esthemo" | decidido: "Estemo".
+Js 21,15: Figueiredo: "Helon" | Vulgata: "Holon" | Douay-Rheims: "Holon" | decidido: "Holon" (letra trocada).
