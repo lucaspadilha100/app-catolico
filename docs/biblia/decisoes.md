@@ -120,3 +120,53 @@ Gl 4,24 | Figueiredo: "os dois testamentos" | Vulgata: duo testamenta; Douay-Rhe
 - 2Cor 3,6: "Novo Testamento" → "nova aliança".
 - 1 Coríntios, 2 Coríntios e Gálatas: "igreja(s)" com minúscula → "Igreja(s)", para o termo ser o mesmo em todo o Novo Testamento (1Cor 14,28.34.35; 2Cor 8,1.18.19.23.24; 11,8.28; 12,13; Gl 1,2.22).
 - Nomes: "Get" → "Gat" nos títulos (Sl 8,1 e 80,1), como em Sl 55,1; "Aquimelec" → "Aquimeleque" (Sl 33,1 e 51,2), a mesma pessoa. O hebraico do Sl 34,1 diz Abimelec, mas vale a Vulgata (Achimelech).
+
+## Conferências com as três fontes
+
+Cada livro foi conferido versículo a versículo com a Vulgata, a Douay-Rheims e o original. Cada relatório traz, em "Corrigido", o que mudou (antes, depois e motivo) e, em "Decidido pelas fontes", as dúvidas resolvidas, inclusive as que mantiveram o Figueiredo.
+
+| Relatório | Linhas em Corrigido | Linhas em Decidido pelas fontes |
+|---|---|---|
+| [GEN-1-25](../../fontes/biblia/revisao/conferencia/GEN-1-25.md) | 10 | 38 |
+| [GEN-26-50](../../fontes/biblia/revisao/conferencia/GEN-26-50.md) | 13 | 30 |
+| [EXO-1-20](../../fontes/biblia/revisao/conferencia/EXO-1-20.md) | 16 | 22 |
+| [EXO-21-40](../../fontes/biblia/revisao/conferencia/EXO-21-40.md) | 11 | 24 |
+| [LEV](../../fontes/biblia/revisao/conferencia/LEV.md) | 17 | 44 |
+| [NUM](../../fontes/biblia/revisao/conferencia/NUM.md) | 22 | 55 |
+| [DEU-3fontes](../../fontes/biblia/revisao/conferencia/DEU-3fontes.md) | 10 | 10 |
+| [DEU](../../fontes/biblia/revisao/conferencia/DEU.md) | 49 | 23 |
+| [JOS-JDG-RUT](../../fontes/biblia/revisao/conferencia/JOS-JDG-RUT.md) | 27 | 34 |
+| [1SA](../../fontes/biblia/revisao/conferencia/1SA.md) | 45 | 27 |
+| [2SA](../../fontes/biblia/revisao/conferencia/2SA.md) | 26 | 30 |
+| [1KI-2KI](../../fontes/biblia/revisao/conferencia/1KI-2KI.md) | 48 | 68 |
+| [1CH](../../fontes/biblia/revisao/conferencia/1CH.md) | 67 | 51 |
+| [2CH](../../fontes/biblia/revisao/conferencia/2CH.md) | 49 | 60 |
+| [EZR-NEH](../../fontes/biblia/revisao/conferencia/EZR-NEH.md) | 35 | 51 |
+| [TOB-JDT](../../fontes/biblia/revisao/conferencia/TOB-JDT.md) | 26 | 75 |
+| [EST](../../fontes/biblia/revisao/conferencia/EST.md) | 1 | 24 |
+| [1MA](../../fontes/biblia/revisao/conferencia/1MA.md) | 24 | 30 |
+| [2MA](../../fontes/biblia/revisao/conferencia/2MA.md) | 14 | 25 |
+| [JOB](../../fontes/biblia/revisao/conferencia/JOB.md) | 19 | 47 |
+| [PSA-1-75-3fontes](../../fontes/biblia/revisao/conferencia/PSA-1-75-3fontes.md) | 26 | 22 |
+| [PSA-1-75](../../fontes/biblia/revisao/conferencia/PSA-1-75.md) | 16 | 17 |
+| [PSA-76-150-3fontes](../../fontes/biblia/revisao/conferencia/PSA-76-150-3fontes.md) | 13 | 16 |
+| [PSA-76-150](../../fontes/biblia/revisao/conferencia/PSA-76-150.md) | 15 | 19 |
+| [PRO](../../fontes/biblia/revisao/conferencia/PRO.md) | 21 | 46 |
+| [ECC-SNG](../../fontes/biblia/revisao/conferencia/ECC-SNG.md) | 5 | 27 |
+| [ISA-1-33](../../fontes/biblia/revisao/conferencia/ISA-1-33.md) | 20 | 36 |
+| [ISA-34-66](../../fontes/biblia/revisao/conferencia/ISA-34-66.md) | 7 | 43 |
+| [JER](../../fontes/biblia/revisao/conferencia/JER.md) | 77 | 58 |
+| [LAM-BAR-WIS](../../fontes/biblia/revisao/conferencia/LAM-BAR-WIS.md) | 25 | 34 |
+| [HOS-a-MIC](../../fontes/biblia/revisao/conferencia/HOS-a-MIC.md) | 7 | 18 |
+| [NAM-a-MAL](../../fontes/biblia/revisao/conferencia/NAM-a-MAL.md) | 28 | 47 |
+| [MAT-MRK-3fontes](../../fontes/biblia/revisao/conferencia/MAT-MRK-3fontes.md) | 21 | 16 |
+| [MAT-MRK](../../fontes/biblia/revisao/conferencia/MAT-MRK.md) | 5 | 21 |
+| [LUK-JHN-3fontes](../../fontes/biblia/revisao/conferencia/LUK-JHN-3fontes.md) | 31 | 10 |
+| [LUK-JHN](../../fontes/biblia/revisao/conferencia/LUK-JHN.md) | 31 | 13 |
+| [ACT](../../fontes/biblia/revisao/conferencia/ACT.md) | 23 | 39 |
+| [ROM](../../fontes/biblia/revisao/conferencia/ROM.md) | 12 | 31 |
+| [1CO-2CO-GAL](../../fontes/biblia/revisao/conferencia/1CO-2CO-GAL.md) | 64 | 77 |
+| [EPH-a-JUD](../../fontes/biblia/revisao/conferencia/EPH-a-JUD.md) | 39 | 73 |
+| [1TH-a-PHM](../../fontes/biblia/revisao/conferencia/1TH-a-PHM.md) | 8 | 34 |
+| [HEB-JAS](../../fontes/biblia/revisao/conferencia/HEB-JAS.md) | 7 | 52 |
+| [REV](../../fontes/biblia/revisao/conferencia/REV.md) | 31 | 36 |
