@@ -90,12 +90,19 @@ Legenda: ✅ pronto · 🔨 em andamento · ⬜ a fazer · 👤 precisa do dono
 - ⬜ 👤 Leitura das orações em português (forma tradicional de reza no Brasil)
 - ⬜ Rosário completo (4 mistérios seguidos)
 
-### Leva 6. Devoções ⬜
-- ⬜ Novenas com acompanhamento e início automático antes da festa
-- ⬜ Consagração a Nossa Senhora em 33 dias
-- ⬜ Via-Sacra, Semana Santa e Tríduo guiados
-- ⬜ Pequeno Ofício de Nossa Senhora
-- ⬜ Desafios por tempo litúrgico e meses temáticos
+### Leva 6. Devoções 🔨
+- ✅ 18 novenas (6 de Nossa Senhora, 4 do Senhor, 8 de santos, com a Trezena de Santo Antônio), que começam sozinhas na data da festa e marcam "4º dia de 9"
+- ✅ Consagração a Nossa Senhora em 33 dias (Montfort), escolhendo a festa e o dia
+- ✅ Via-Sacra guiada, com o Stabat Mater
+- ✅ Semana Santa dia a dia, com Hora Santa na Quinta-feira
+- ✅ Pequeno Ofício de Nossa Senhora, as oito horas, no tempo comum
+- ✅ Tempos e meses: Advento com Maria, Quaresma, maio, junho, setembro (Bíblia), outubro e novembro
+- ✅ "Em andamento" na tela Hoje e "você rezou N dias nesta semana"
+- ✅ Novas orações: Veni Creator, Ave Maris Stella, Magnificat, Te Deum, Stabat Mater, ladainhas do Espírito Santo e do Nome de Jesus
+- ✅ Testes: datas de todas as novenas e tempos, toda leitura existe, toda oração ligada existe
+- ⬜ 👤 Revisar os textos (`docs/devocoes/a-revisar.md` lista os pontos de cada um)
+- ⬜ Pequeno Ofício no Advento e no Natal; Ofício dos Defuntos
+- ⬜ Lembrete da novena (entra com as notificações, Leva 15 e 16)
 
 ### Leva 7. Santos e calendário ⬜
 - ⬜ História de cada santo (texto próprio) e imagem em domínio público

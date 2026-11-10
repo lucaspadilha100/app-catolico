@@ -165,7 +165,7 @@ describe("orações novas", () => {
   it("têm português e latim, sem travessão", () => {
     for (const o of MAIS_ORACOES) {
       expect(o.pt.length, o.id).toBeGreaterThan(0);
-      expect(o.la?.length, `${o.id} em latim`).toBeGreaterThan(0);
+      if (!o.semLatim) expect(o.la?.length, `${o.id} em latim`).toBeGreaterThan(0);
       for (const t of todosOsTextos(o)) expect(t, o.id).not.toMatch(/[—–]/);
     }
   });

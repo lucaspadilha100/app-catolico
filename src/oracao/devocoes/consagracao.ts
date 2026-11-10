@@ -471,6 +471,7 @@ const oracoes: Oracao[] = [
   },
   {
     id: "consagracao-a-nossa-senhora",
+    semLatim: true,
     nome: "Consagração a Jesus pelas mãos de Maria",
     latim: "",
     grupo: "marianas",

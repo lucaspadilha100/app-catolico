@@ -17,6 +17,7 @@ export interface Oracao {
   pt: Linha[];
   la?: Linha[];
   lista?: false;
+  semLatim?: true;
 }
 
 export const NOME_DO_GRUPO: Record<GrupoDeOracoes, string> = {

@@ -154,3 +154,23 @@ ponto de atenção.
   (suprimida em 1955). Matinas terminam no Te Deum.
 - Traduções: "os doces cantos do drama sagrado", "pelas mulheres devotas",
   "Virgem sagrada", "intacta", "vencestes" (as heresias). Hinos em prosa fiel.
+
+## Consagração a Nossa Senhora (São Luís de Montfort)
+- Fontes: o Tratado em francês, edições de 1843 e 1896, e Faber (1863), no
+  archive.org. Não foram usados o "33 Days to Morning Glory" nem traduções
+  brasileiras.
+- O ato de consagração foi traduzido do francês (o texto anexado ao Tratado).
+  Não tem latim original, por isso aparece só em português. Mantém "escravo de
+  amor", "pecador infiel" e "ingrato", fiéis a Montfort.
+- Ladainha do Espírito Santo: não é ladainha aprovada para uso público. Usada a
+  forma latina antiga do Coeleste Palmetum (Nakatenus, 1756). A forma comum no
+  Brasil ("…entrai em nossos corações") não tem latim autêntico. Traduções a
+  conferir: "concilias praesides" (unis os que a presidem), "terram rectam"
+  (por caminho reto).
+- Orações dos 12 dias e a Ladainha de Nossa Senhora nas semanas 1 e 2 vêm das
+  edições montfortinas tradicionais, não do texto de Montfort.
+- Oração de Santo Agostinho (nº 67 e 230 do Tratado): atribuição duvidosa; traz
+  "quem não vos ama seja anátema", fiel ao latim, mas duro.
+- Capítulos da Imitação de Cristo citados de memória (I,1/2/14/16/21/22/25;
+  II,11/12; III,8): conferir. Dia 24: Caná como as últimas palavras de Maria
+  nos Evangelhos.

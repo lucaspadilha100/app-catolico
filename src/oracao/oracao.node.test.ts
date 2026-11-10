@@ -23,6 +23,7 @@ describe("orações", () => {
   it("toda oração da lista tem português e latim", () => {
     for (const o of ORACOES_DA_LISTA) {
       expect(temTexto(o.pt), `${o.id} em português`).toBe(true);
+      if (o.semLatim) continue;
       expect(temTexto(o.la), `${o.id} em latim`).toBe(true);
       expect(o.latim, `${o.id} nome latino`).not.toBe("");
     }
