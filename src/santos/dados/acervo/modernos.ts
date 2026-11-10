@@ -193,7 +193,7 @@ const acervo: AcervoDeSantos = {
       nomes: ["Luís", "Luísa"],
       resumo: "Padre italiano que fundou os Servos da Caridade e as Filhas de Santa Maria da Providência para os mais frágeis.",
       historia: [
-        "Luís Guanella nasceu em Fraciscio, um vilarejo dos Alpes italianos, em 19 de dezembro de 1842, numa família numerosa de camponeses. Foi ordenado padre em 1866. Desde o começo do ministério, cuidou dos pobres das montanhas e dos que ninguém queria acolher.",
+        "Luís Guanella nasceu em Fraciscio, um vilarejo dos Alpes italianos, em 19 de dezembro de 1842, numa família numerosa de camponeses. Foi ordenado padre em 1866. Desde o começo do ministério, cuidou dos pobres das montanhas e dos que ninguém queria acolher. Passou alguns anos com São João Bosco em Turim, onde aprendeu muito sobre a educação dos jovens pobres.",
         "Encontrou muitas resistências, mas não desanimou. Fundou as Filhas de Santa Maria da Providência e os Servos da Caridade, chamados guanelianos, para acolher idosos abandonados, crianças pobres e, sobretudo, pessoas com deficiência mental, que naquele tempo eram muito desprezadas. Dizia que essas pessoas eram os preferidos de Deus. Também promoveu a Pia União do Trânsito de São José, para rezar pelos agonizantes.",
         "Morreu em Como, em 24 de outubro de 1915. Foi canonizado pelo Papa Bento XVI em 23 de outubro de 2011. Os guanelianos e as irmãs guanelianas trabalham também no Brasil, com casas de acolhida e paróquias.",
       ],
