@@ -65,7 +65,7 @@ function rotuloDoDia(d: Date, agora: Date): string {
   const diff = Math.round((diaDe(d) - diaDe(agora)) / 86_400_000);
   if (diff === 0) return "Hoje";
   if (diff === 1) return `Amanhã, ${NOME_DO_DIA[d.getDay()]!.toLowerCase()}`;
-  return `${NOME_DO_DIA[d.getDay()]}, ${d.getDate()}/${String(d.getMonth() + 1).padStart(2, "0")}`;
+  return NOME_DO_DIA[d.getDay()]!;
 }
 
 function Chips<T extends string>({ opcoes, valor, onChange, rolar }: { opcoes: readonly (readonly [T, string])[]; valor: T; onChange: (v: T) => void; rolar?: boolean }) {
@@ -74,12 +74,12 @@ function Chips<T extends string>({ opcoes, valor, onChange, rolar }: { opcoes: r
     if (!rolar) return;
     const ativo = caixa.current?.querySelector<HTMLElement>('[aria-pressed="true"]');
     const c = caixa.current;
-    if (ativo && c) c.scrollTo({ left: Math.max(0, ativo.offsetLeft - c.clientWidth / 2 + ativo.clientWidth / 2), behavior: "smooth" });
+    if (ativo && c && c.scrollWidth > c.clientWidth) c.scrollTo({ left: Math.max(0, ativo.offsetLeft - c.clientWidth / 2 + ativo.clientWidth / 2), behavior: "smooth" });
   }, [rolar, valor]);
   return (
     <div
       ref={caixa}
-      className={rolar ? "-mx-4 flex gap-2 overflow-x-auto px-4 pb-1 [scrollbar-width:none] md:-mx-8 md:px-8" : "flex flex-wrap gap-2"}
+      className={rolar ? "-mx-4 flex gap-2 overflow-x-auto px-4 pb-1 [scrollbar-width:none] md:mx-0 md:flex-wrap md:overflow-visible md:px-0 md:pb-0" : "flex flex-wrap gap-2"}
       role="group"
     >
       {opcoes.map(([v, nome]) => (
@@ -469,7 +469,7 @@ export function Missas() {
     ["amanha", "Amanhã"],
     ...[2, 3, 4, 5, 6].map((off) => {
       const d = new Date(agora.getFullYear(), agora.getMonth(), agora.getDate() + off);
-      return [DIA_POR_CHAVE[d.getDay()]!, `${NOME_CURTO_DO_DIA[d.getDay()]} ${d.getDate()}`] as const;
+      return [DIA_POR_CHAVE[d.getDay()]!, NOME_CURTO_DO_DIA[d.getDay()]!] as const;
     }),
   ];
   const off = deslocamento(quando, agora);
