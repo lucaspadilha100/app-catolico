@@ -31,6 +31,14 @@ configurado desde o início) · **Supabase** plano gratuito (projeto
 - O app abre e reza **sem conta**. Conta (Google ou e-mail) é opcional:
   sincronizar entre aparelhos e comunidade.
 
+## Acabamento profissional (pedido do dono, 10/11/2026)
+- **Sem cara de IA.** Código sem comentários explicativos (só o raro que evita
+  um erro real); nomes claros falam por si.
+- **Texto do app sem travessão** (— ou –) e sem frase de efeito, emoji ou tom
+  de "assistente". Escrita sóbria, como um app de editora católica: vírgula,
+  ponto, dois-pontos.
+- Sem texto explicando a tela ou o botão; fica o que é conteúdo ou estado.
+
 ## Verificar de verdade
 `npm run verificar` = `typecheck` (`tsc -b --force`) + `test` (vitest) +
 `build` (o esbuild/Vite não checa tipos). Rode antes de todo commit.

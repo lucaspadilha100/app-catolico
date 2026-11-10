@@ -29,14 +29,12 @@ function Marca({ className = "" }: { className?: string }) {
 export default function Layout() {
   const liturgia = useDiaLiturgico();
 
-  // A cor litúrgica do dia tinge o app inteiro (ver index.css).
   useEffect(() => {
     document.documentElement.dataset.cor = liturgia.cor;
   }, [liturgia.cor]);
 
   return (
     <div className="min-h-dvh md:flex">
-      {/* Computador: menu lateral */}
       <aside className="sticky top-0 hidden h-dvh w-60 shrink-0 flex-col gap-6 border-r border-borda bg-cartao px-4 py-6 md:flex">
         <Marca className="px-2" />
         <nav className="flex flex-col gap-1">
@@ -59,7 +57,6 @@ export default function Layout() {
       </aside>
 
       <div className="min-w-0 flex-1">
-        {/* Celular: barra do topo */}
         <header className="sticky top-0 z-10 border-b border-borda bg-papel/90 px-4 pb-2 pt-[max(0.5rem,env(safe-area-inset-top))] backdrop-blur md:hidden">
           <Marca />
         </header>
@@ -69,7 +66,6 @@ export default function Layout() {
         </main>
       </div>
 
-      {/* Celular: abas de baixo */}
       <nav className="fixed inset-x-0 bottom-0 z-10 grid grid-cols-5 border-t border-borda bg-cartao/95 pb-[env(safe-area-inset-bottom)] backdrop-blur md:hidden">
         {MENU.map(({ para, nome, icone: Icone }) => (
           <NavLink

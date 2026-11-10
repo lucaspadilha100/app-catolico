@@ -1,10 +1,3 @@
-// Calendário litúrgico do Brasil, calculado no aparelho (sem servidor).
-//
-// Fase 1: tempos, semanas, ciclos e as celebrações MÓVEIS (as que dependem
-// da Páscoa e do Advento). Santos e solenidades de data fixa entram na Fase 2.
-//
-// No Brasil, Epifania e Ascensão vão para o DOMINGO; Corpus Christi fica na
-// quinta-feira.
 
 import {
   type Dia,
@@ -26,14 +19,10 @@ export type CicloFerial = "I" | "II";
 export interface DiaLiturgico {
   data: Dia;
   tempo: Tempo;
-  /** Semana dentro do tempo (Tempo Comum 1–34, Advento 1–4, Quaresma 1–5, Páscoa 1–7). */
   semana: number | null;
   cor: CorLiturgica;
-  /** Celebração própria do dia (móvel), se houver. */
   celebracao: string | null;
-  /** "Terça-feira da 32ª semana do Tempo Comum" */
   titulo: string;
-  /** Ano litúrgico (o ano civil em que ele TERMINA). */
   anoLiturgico: number;
   cicloDominical: CicloDominical;
   cicloFerial: CicloFerial;
@@ -56,7 +45,6 @@ export const NOME_DA_COR: Record<CorLiturgica, string> = {
   vermelho: "Vermelho",
 };
 
-/** Domingo de Páscoa (algoritmo gregoriano anônimo / Meeus). */
 export function pascoa(ano: number): Dia {
   const a = ano % 19;
   const b = Math.floor(ano / 100);
@@ -75,16 +63,13 @@ export function pascoa(ano: number): Dia {
   return dia(ano, mes, diaDoMes);
 }
 
-/** 1º domingo do Advento: 4 domingos antes do Natal (entre 27/11 e 3/12). */
 export const primeiroDomingoDoAdvento = (ano: number): Dia => somaDias(domingoAntes(dia(ano, 12, 25)), -21);
 
-/** Epifania no Brasil: o domingo entre 2 e 8 de janeiro. */
 export function epifania(ano: number): Dia {
   const d2 = dia(ano, 1, 2);
   return somaDias(d2, (7 - diaDaSemana(d2)) % 7);
 }
 
-/** Batismo do Senhor: domingo depois da Epifania; se a Epifania cai em 7 ou 8, na segunda-feira seguinte. */
 export function batismoDoSenhor(ano: number): Dia {
   const e = epifania(ano);
   return e.getUTCDate() >= 7 ? somaDias(e, 1) : somaDias(e, 7);
@@ -93,7 +78,6 @@ export function batismoDoSenhor(ano: number): Dia {
 export const quartaDeCinzas = (ano: number): Dia => somaDias(pascoa(ano), -46);
 export const pentecostes = (ano: number): Dia => somaDias(pascoa(ano), 49);
 
-/** Sagrada Família: domingo na oitava do Natal; sem domingo, 30/12. */
 export function sagradaFamilia(ano: number): Dia {
   for (let d = 26; d <= 31; d++) {
     const data = dia(ano, 12, d);
@@ -102,7 +86,6 @@ export function sagradaFamilia(ano: number): Dia {
   return dia(ano, 12, 30);
 }
 
-/** "32º Domingo" (masculino) · "32ª semana" (feminino) */
 const ordM = (n: number) => `${n}º`;
 const ordF = (n: number) => `${n}ª`;
 
@@ -121,7 +104,7 @@ function celebracaoMovel(d: Dia): { nome: string; cor: CorLiturgica } | null {
   if (igual(somaDias(p, -7))) return { nome: "Domingo de Ramos e da Paixão do Senhor", cor: "vermelho" };
   if (igual(somaDias(p, -3))) return { nome: "Quinta-feira Santa", cor: "branco" };
   if (igual(somaDias(p, -2))) return { nome: "Sexta-feira da Paixão", cor: "vermelho" };
-  if (igual(somaDias(p, -1))) return { nome: "Sábado Santo — Vigília Pascal", cor: "branco" };
+  if (igual(somaDias(p, -1))) return { nome: "Sábado Santo", cor: "branco" };
   if (igual(p)) return { nome: "Domingo de Páscoa", cor: "branco" };
   if (igual(somaDias(p, 7))) return { nome: "Domingo da Divina Misericórdia", cor: "branco" };
   if (igual(somaDias(p, 42))) return { nome: "Ascensão do Senhor", cor: "branco" };

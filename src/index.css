@@ -1,7 +1,6 @@
 @import "tailwindcss";
 @import "./fontes.css";
 
-/* ── Cores da marca e da tela ─────────────────────────────────────────── */
 :root {
   --papel: #fcf7ee;
   --cartao: #fffdf8;
@@ -24,10 +23,6 @@
   color-scheme: dark;
 }
 
-/* ── Cor litúrgica do dia: o DESTAQUE do app ──────────────────────────────
-   --destaque        fundo forte (cartão do dia, botão principal)
-   --sobre-destaque  texto em cima dele (no dourado é escuro: branco não lê)
-   --destaque-texto  ícone/texto em destaque sobre o papel                  */
 :root,
 :root[data-cor="verde"] {
   --destaque: #2e7a4d;
@@ -86,7 +81,6 @@
   --font-leitura: "Literata Variable", Georgia, serif;
 }
 
-/* ── Tamanho da letra e modo simples (Mais → Preferências) ─────────────── */
 :root[data-letra="grande"],
 :root[data-simples="1"][data-letra="normal"] {
   font-size: 112.5%;
@@ -102,14 +96,12 @@ body {
   -webkit-tap-highlight-color: transparent;
 }
 
-/* Campo com menos de 16 px faz o iPhone dar zoom. */
 input,
 select,
 textarea {
   font-size: max(16px, 1rem);
 }
 
-/* O símbolo da marca pinta na cor do texto (claro e escuro). */
 .simbolo {
   display: inline-block;
   background-color: currentColor;

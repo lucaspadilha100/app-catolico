@@ -23,7 +23,6 @@ export function EmPreparacao() {
   );
 }
 
-/** Linha de lista que leva a outra tela (ou mostra "Em preparação" se ainda não existe). */
 export function ItemLista({
   icone: Icone,
   titulo,

@@ -55,15 +55,14 @@ export const MISTERIOS: Record<GrupoDeMisterios, Misterios> = {
   },
 };
 
-// Distribuição proposta por São João Paulo II (Rosarium Virginis Mariae, 38).
 const POR_DIA_DA_SEMANA: GrupoDeMisterios[] = [
-  "gloriosos", // domingo
-  "gozosos", // segunda
-  "dolorosos", // terça
-  "gloriosos", // quarta
-  "luminosos", // quinta
-  "dolorosos", // sexta
-  "gozosos", // sábado
+  "gloriosos",
+  "gozosos",
+  "dolorosos",
+  "gloriosos",
+  "luminosos",
+  "dolorosos",
+  "gozosos",
 ];
 
 export const misteriosDoDia = (d: Dia): Misterios => MISTERIOS[POR_DIA_DA_SEMANA[diaDaSemana(d)]!];

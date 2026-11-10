@@ -2,7 +2,6 @@ import { useEffect, useMemo, useState } from "react";
 import { hoje, paraIso, deIso } from "@/liturgia/datas";
 import { diaLiturgico } from "@/liturgia/calendario";
 
-/** O dia litúrgico de hoje; vira sozinho à meia-noite (app aberto de um dia para o outro). */
 export function useDiaLiturgico() {
   const [iso, setIso] = useState(() => paraIso(hoje()));
 

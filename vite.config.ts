@@ -30,7 +30,6 @@ export default defineConfig({
         ],
       },
       workbox: {
-        // Todo o app (e, nas próximas fases, a Bíblia e a liturgia) funciona offline.
         globPatterns: ["**/*.{js,css,html,png,svg,woff2,json}"],
         navigateFallback: "/index.html",
       },

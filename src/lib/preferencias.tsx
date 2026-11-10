@@ -6,11 +6,9 @@ export type Letra = "normal" | "grande" | "maior";
 export interface Preferencias {
   tema: Tema;
   letra: Letra;
-  /** Modo simples: letra maior e menos coisas na tela (pensado para os mais velhos). */
   simples: boolean;
 }
 
-// ⚠️ A mesma chave é lida no index.html, antes do React (para não piscar).
 const CHAVE = "santinho-preferencias";
 const PADRAO: Preferencias = { tema: "sistema", letra: "normal", simples: false };
 
@@ -55,9 +53,7 @@ export function PreferenciasProvider({ children }: { children: ReactNode }) {
       const nova = { ...atual, ...parcial };
       try {
         localStorage.setItem(CHAVE, JSON.stringify(nova));
-      } catch {
-        // navegador sem armazenamento (aba anônima): vale só até fechar
-      }
+      } catch {}
       return nova;
     });
   }, []);
