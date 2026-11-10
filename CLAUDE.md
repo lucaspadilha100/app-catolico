@@ -169,7 +169,8 @@ Nada de licença paga por ora. Então:
   `avisos_biblia` do Supabase (só INSERT, ninguém lê pela API; o dono lê no
   painel), com o nome do arquivo do livro (sabe-se a versão do texto). Sem
   internet ou sem a tabela, fica no aparelho e reenvia depois (`biblia/avisos.ts`).
-  Migração `supabase/migrations/20261110000000_avisos_biblia.sql`.
+  Migração `supabase/migrations/20261110000000_avisos_biblia.sql`: aplicada e
+  conferida em 10/11/2026 (RLS ligada, 1 regra).
 - `fontes/vulgata/`: latim da Vulgata Clementina (domínio público), régua da
   conferência de fidelidade; não aparece no app.
 - Leitura da liturgia que começa no meio de uma fala ganha as aspas que faltam
