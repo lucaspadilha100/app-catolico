@@ -12,3 +12,7 @@ Jt 5,9: Figueiredo: "assistir em Cararn" | Vulgata: "habitarent in Charan" | dec
 Jt 5,14: "onde ninguém assistiu" (Vulgata "vel filius hominis requievit") vertido "onde ninguém parava".
 Jt 5,24: Figueiredo: "informa-te tu se este povo tem cometido algum pecado ... E vamos a êles" | Vulgata: "perquire si est aliqua iniquitas ... ascendamus ad illos" | decidido: acrescentado "Nesse caso" para a frase não parecer ordem de atacar de qualquer jeito; conferir se o dono prefere sem.
 Jt 5,28: número solto "1" no fim do versículo: retirado.
+Jt 6,1: Figueiredo: "Holofernes, fortemente endurecido" | Vulgata: "indignatus Holofernes vehementer" | Douay-Rheims: "being in a violent passion" | decidido: "muito irritado" (provável erro por "enfurecido"; conferir no PDF).
+Jt 6,13: número solto "1" depois de "cólera": retirado.
+Jt 6,15: "os que presumem de ti" vertido "os que confiam em ti" (Vulgata "præsumentes de te", DR "them that trust on thee"); "atende ao voto dos que tu santificaste" mantido do Figueiredo (Vulgata "faciem sanctorum tuorum attende").
+Jt 6,21: "fizeram oração dentro da igreja" (Vulgata "intra ecclesiam") vertido "oraram reunidos em assembleia", pelo termo fixo do Antigo Testamento.
