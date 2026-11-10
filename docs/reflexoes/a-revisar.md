@@ -32,3 +32,16 @@ O teste garante que todo Evangelho que o app mostra de 2025 a 2036 tem a sua.
 - Lc 24,44: segue o Figueiredo ("Isto que estais vendo é o que queriam
   dizer…"), mais solto que o latim.
 - Lc 16,22: "foi sepultado no inferno", fiel ao Figueiredo e à Vulgata.
+
+## Lucas 1 a 6 (LUK-1)
+- Toques de um dia só (conferido: cada trecho cai só nesse dia): Mãe de Deus
+  (Lc 2,16-21), quinta depois da Epifania (Lc 4,14-22), sábado depois das
+  Cinzas (Lc 5,27-32), Missa do Crisma (Lc 4,16-21), Guadalupe (Lc 1,39-47).
+- Guadalupe "padroeira da América Latina" (São Pio X, 1910); Judas "que a
+  tradição chama Tadeu"; a liturgia celebra o nascimento só de Jesus, Maria e
+  João; a barca de Pedro como imagem da Igreja; a manjedoura e o altar.
+- CIC citados: 430, 490-491, 495, 523, 525, 533, 536, 538-540, 545, 966, 971,
+  1286, 1438, 1441, 1656, 1716-1717, 1861, 2173, 2600, 2619, 2844, 2851.
+- Bíblia (não citadas na reflexão): Lc 4,34 "és o Santo Deus" (Figueiredo,
+  como Mc 1,24); Lc 6,1 "sábado segundo-primeiro" (Vulgata); Lc 4,19 "e o dia
+  da retribuição" (acréscimo da Vulgata); Lc 2,49 "do serviço de meu Pai".
