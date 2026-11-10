@@ -220,7 +220,7 @@ const mes: MesDeSantos = {
         "No Ocidente, desde o papa São Gregório Magno, ela foi muitas vezes identificada com a pecadora que ungiu os pés de Jesus e com Maria de Betânia. Os Evangelhos não dizem isso, e a liturgia de hoje a apresenta pelo que eles contam: discípula fiel e testemunha da ressurreição. Em 2016 o papa Francisco elevou sua memória a festa.",
         "Maria Madalena ensina a procurar o Senhor com amor perseverante e a anunciar que Ele vive.",
       ],
-      imagem: { artic: 21445, titulo: "Mary Magdalene", artista: "Moretto da Brescia", data: "1540–50" },
+      imagem: { artic: 21445, titulo: "Mary Magdalene", artista: "Moretto da Brescia", data: "1540/50" },
     },
     {
       id: "santa-brigida",
@@ -265,7 +265,7 @@ const mes: MesDeSantos = {
         "Tiago ensina a beber o cálice do Senhor com coragem.",
       ],
       padroeiro: ["da Espanha", "dos peregrinos"],
-      imagem: { artic: 102100, titulo: "Saint James the Great", artista: "Desconhecido", data: "1450–1500" },
+      imagem: { artic: 102100, titulo: "Saint James the Great", artista: "Desconhecido", data: "1450/1500" },
     },
     {
       id: "sao-cristovao",
@@ -334,7 +334,7 @@ const mes: MesDeSantos = {
       nome: "Santo Inácio de Loyola, presbítero",
       data: "0731",
       calendario: true,
-      nomes: ["Inácio", "Inês"],
+      nomes: ["Inácio"],
       resumo: "Soldado basco que se converteu durante a convalescença e fundou a Companhia de Jesus.",
       historia: [
         "Inácio nasceu em 1491 no castelo de Loyola, no País Basco, na Espanha. Foi pajem na corte e depois soldado. Em 1521, defendendo Pamplona contra os franceses, uma bala de canhão feriu gravemente suas pernas.",
