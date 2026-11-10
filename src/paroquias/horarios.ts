@@ -10,6 +10,7 @@ export const hhmm = (h: string) => {
 
 const isoLocal = (d: Date) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
 const semanaDoMes = (d: Date) => Math.floor((d.getDate() - 1) / 7) + 1;
+const ultimaDoMes = (d: Date) => new Date(d.getFullYear(), d.getMonth(), d.getDate() + 7).getMonth() !== d.getMonth();
 
 export interface Ocorrencia {
   quando: Date;
@@ -26,7 +27,7 @@ export function proximasOcorrencias(horarios: Horario[], agora: Date, dias = 7):
       const excecoes = doTipo.filter((h) => h.data === iso);
       const valendo = excecoes.length
         ? excecoes
-        : doTipo.filter((h) => h.data === null && h.dia_semana === d.getDay() && (!h.semanas?.length || h.semanas.includes(semanaDoMes(d))));
+        : doTipo.filter((h) => h.data === null && h.dia_semana === d.getDay() && (!h.semanas?.length || h.semanas.includes(semanaDoMes(d)) || (h.semanas.includes(6) && ultimaDoMes(d))));
       for (const h of valendo) {
         if (h.cancelado) continue;
         const [hh, mm] = h.hora.split(":").map(Number);
@@ -42,7 +43,7 @@ export function proximasOcorrencias(horarios: Horario[], agora: Date, dias = 7):
 
 export function descreverSemanas(semanas: number[] | null): string {
   if (!semanas?.length) return "";
-  const nomes = semanas.map((s) => (s === 5 ? "5º" : `${s}º`));
+  const nomes = semanas.map((s) => (s === 6 ? "último" : `${s}º`));
   return nomes.length === 1 ? `${nomes[0]} do mês` : `${nomes.slice(0, -1).join(", ")} e ${nomes.at(-1)} do mês`;
 }
 

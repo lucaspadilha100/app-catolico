@@ -116,8 +116,34 @@ describe("busca", () => {
     expect(r2.rows.map((x) => `${x.quando} ${x.nome} ${x.observacao}`.trim())).toEqual(["2026-11-15 17:00:00 Catedral Metropolitana Missa da festa"]);
   });
 
+  it("último domingo do mês", async () => {
+    await como("authenticated", ADMIN, "insert into public.horarios (paroquia_id, tipo, dia_semana, hora, semanas) values ($1, 'missa', 0, '10:00', '{6}')", [capela]);
+    const ultimo = await como("anon", null, "select quando::text from public.agenda_perto(-5.795, -35.211, '2026-11-29 09:30', 2, 'missa', 20)");
+    expect(ultimo.rows.map((x) => x.quando)).toContain("2026-11-29 10:00:00");
+    const outro = await como("anon", null, "select quando::text from public.agenda_perto(-5.795, -35.211, '2026-11-22 09:30', 2, 'missa', 20)");
+    expect(outro.rows.map((x) => x.quando)).not.toContain("2026-11-22 10:00:00");
+  });
+
   it("confissão hoje", async () => {
     const r = await como("anon", null, "select quando::text from public.agenda_perto(-5.795, -35.211, '2026-11-18 08:00', 12, 'confissao', 20)");
     expect(r.rows.map((x) => x.quando)).toEqual(["2026-11-18 15:00:00"]);
+  });
+});
+
+describe("dados de Natal (planilha do Missas.com.br)", () => {
+  it("entram inteiros, podem rodar de novo e têm cara de verdade", async () => {
+    const banco = await criarBanco({ comDados: true });
+    const c = comoEm(banco);
+    const p = await c("anon", null, "select count(*)::int as n, count(lat)::int as com_ponto from public.paroquias where fonte = 'Missas.com.br'");
+    expect(p.rows[0]).toEqual({ n: 58, com_ponto: 50 });
+    const h = await c("anon", null, "select tipo, count(*)::int as n from public.horarios group by tipo order by tipo");
+    expect(h.rows).toEqual([
+      { tipo: "confissao", n: 56 },
+      { tipo: "missa", n: 398 },
+    ]);
+    const domingo = await c("anon", null, "select count(*)::int as n from public.agenda_perto(-5.80, -35.21, '2026-11-15 06:00', 18, 'missa', 30, 100)");
+    expect(Number(domingo.rows[0]!.n)).toBeGreaterThan(40);
+    const busca = await c("anon", null, "select nome from public.buscar_paroquias('catedral')");
+    expect(busca.rows.map((x) => x.nome)).toContain("Paróquia da Catedral");
   });
 });

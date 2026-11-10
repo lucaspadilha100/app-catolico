@@ -448,6 +448,18 @@ export function ParoquiaPagina() {
         <Link to={`/missas/sugerir?paroquia=${p.id}`} className="flex min-h-12 items-center justify-center rounded-xl border border-borda bg-cartao font-semibold text-tinta">
           Informar horário errado ou novo
         </Link>
+        {p.fonte && (
+          <p className="pt-2 text-center text-sm text-tinta-suave">
+            Fonte:{" "}
+            {p.fonte === "Missas.com.br" ? (
+              <a href="https://missas.com.br" target="_blank" rel="noreferrer" className="underline underline-offset-2">
+                Missas.com.br
+              </a>
+            ) : (
+              p.fonte
+            )}
+          </p>
+        )}
         {podeEditar && (
           <Link to={`/painel/paroquia/${p.id}`} className="flex min-h-12 items-center justify-center gap-2 rounded-xl font-semibold text-destaque-texto">
             <Pencil className="size-4" aria-hidden /> Editar

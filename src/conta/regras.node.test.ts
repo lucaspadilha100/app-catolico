@@ -22,12 +22,10 @@ async function como(papel: "anon" | "authenticated", usuario: string | null, sql
 beforeAll(async () => {
   db = new PGlite();
   await db.exec(readFileSync(join(raiz, "supabase/testes/base.sql"), "utf8"));
-  for (const arquivo of readdirSync(join(raiz, "supabase/migrations")).sort()) {
-    await db.exec(readFileSync(join(raiz, "supabase/migrations", arquivo), "utf8"));
-  }
-  for (const arquivo of readdirSync(join(raiz, "supabase/migrations")).sort()) {
-    await db.exec(readFileSync(join(raiz, "supabase/migrations", arquivo), "utf8"));
-  }
+  for (let vez = 0; vez < 2; vez++)
+    for (const arquivo of readdirSync(join(raiz, "supabase/migrations")).sort()) {
+      await db.exec(readFileSync(join(raiz, "supabase/migrations", arquivo), "utf8"));
+    }
   await db.query("insert into auth.users (id) values ($1), ($2)", [A, B]);
 });
 

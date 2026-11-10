@@ -38,6 +38,7 @@ export interface Paroquia extends Omit<ParoquiaResumo, "distancia_km"> {
   site: string;
   email: string;
   ativa: boolean;
+  fonte: string;
   atualizado_em: string;
 }
 

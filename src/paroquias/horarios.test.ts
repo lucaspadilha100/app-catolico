@@ -31,6 +31,13 @@ describe("próximos horários (mesma regra do banco)", () => {
     expect(proximasOcorrencias(lista, new Date(2026, 10, 1, 6, 0), 0)).toHaveLength(1);
     expect(proximasOcorrencias(lista, domingo, 0)).toHaveLength(0);
   });
+  it("só no último domingo do mês", () => {
+    const lista = [h({ dia_semana: 0, hora: "10:00", semanas: [6] })];
+    expect(proximasOcorrencias(lista, new Date(2026, 10, 29, 6, 0), 0)).toHaveLength(1);
+    expect(proximasOcorrencias(lista, new Date(2026, 10, 22, 6, 0), 0)).toHaveLength(0);
+    expect(descreverSemanas([6])).toBe("último do mês");
+  });
+
   it("confissão com fim ainda aparece enquanto não acabou", () => {
     const lista = [h({ tipo: "confissao", dia_semana: 0, hora: "07:00", hora_fim: "09:00" })];
     expect(proximasOcorrencias(lista, domingo, 0)).toHaveLength(1);

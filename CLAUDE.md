@@ -54,6 +54,10 @@ configurado desde o início) · **Supabase** plano gratuito (projeto
   (`insert into public.administradores ...`), nenhuma tela dá esse poder.
   Gestor de paróquia (secretaria) quem dá é o admin, pelo painel
   (`adicionar_gestor`), e isso marca a paróquia como verificada.
+- Migração que só traz DADOS leva `_dados_` no nome (ex.: a carga das
+  paróquias de Natal, gerada por `scripts/paroquias/importar_planilha.py` a
+  partir de `fontes/paroquias/`, com ids fixos e `on conflict do nothing`):
+  os testes de regra rodam sem ela; um teste próprio confere a carga.
 - O cliente do Supabase só carrega para quem entra na conta (import
   dinâmico). A contagem de uso é um `fetch` solto, sem identificar ninguém.
 
@@ -137,7 +141,7 @@ Nada de licença paga por ora. Então:
 | Texto próprio (reflexões, santos, novenas, guias) | Texto copiado de sites, livros, Wikipedia |
 | Pinturas antigas em domínio público (conferir cada uma) | Imagem de banco de imagens, foto da internet |
 | Embed/link de playlist do Spotify | Letra de música |
-| Horários informados por paróquias e fiéis | Dados copiados de outros sites (o do "missas perto de mim" do RN só com o OK do autor) |
+| Horários informados por paróquias e fiéis; a planilha do Missas.com.br (decisão do dono, 11/11/2026, com crédito na página) | Dados copiados de outros sites sem decisão do dono |
 | Fontes e ícones de licença livre | Marca/logo da CNBB ou que sugira app "oficial" da Igreja |
 
 - ⚠️ **Bíblia: reescrever SEMPRE a partir do texto do Figueiredo, versículo a
