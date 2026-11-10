@@ -115,6 +115,10 @@ com o que acontece quando bate e o plano para passar dele.
   Calendário e terço do dia são CALCULADOS no aparelho.
 - **Banco só para o que é de alguém**, sempre com paginação, índice e RLS.
   Nunca baixar uma tabela inteira; lista é página; busca é no banco.
+  Lista que cresce com o país (cidades, igrejas, horários, painel) é BUSCA
+  ou PÁGINA ("Mostrar mais"), com a contagem feita no banco; nunca uma
+  lista com tudo para escolher. Sem digitar, só o que é da pessoa:
+  recentes e o que está perto.
 - **Dados versionados**: arquivo de conteúdo tem versão no nome
   (cache eterno no CDN e no aparelho; mudou, nome novo).
 - **Tempo real só onde precisa** (terço ao vivo), por canal de grupo, sem
