@@ -73,3 +73,16 @@ O teste garante que todo Evangelho que o app mostra de 2025 a 2036 tem a sua.
   2447, 2840.
 - Bíblia: Mt 25,1 "do esposo e da esposa" e Mt 28,1 "Na tarde do sábado, ao
   amanhecer" seguem a Vulgata.
+
+## Lucas 7 a 14 (LUK-2)
+- Doutrina: "irmãos" de Jesus como parentes próximos (CIC 500); blasfêmia
+  contra o Espírito Santo como recusa deliberada da misericórdia (CIC 1864);
+  "odiar" pai e mãe lido como dar a Cristo o primeiro lugar; a pecadora de
+  Lc 7 não identificada com Madalena; Lc 14,23 "obriga-os a entrar" lido como
+  insistência do convite.
+- CIC citados: 87, 500, 555, 863, 967, 1032, 1335, 1864, 2761.
+- Bíblia: Lc 9,51 dizia "o tempo da sua Assunção" (latim assumptionis), que
+  hoje soa como a Assunção de Maria; ficou "o tempo em que ele seria elevado
+  ao céu", mesmo sentido. Lc 11,13 "o espírito bom" (Vulgata, onde o grego
+  tem Espírito Santo). Lc 9,43b-45: o app ainda não corta meio versículo nas
+  leituras do lecionário, então o v. 43 aparece inteiro.
