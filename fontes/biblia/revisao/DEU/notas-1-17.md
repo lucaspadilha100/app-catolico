@@ -52,3 +52,4 @@ Dt 16,3: Figueiredo: "comerás pão sem fermento, pão de" (cortado) | Vulgata: 
 Dt 16,11: Figueiredo: "que vivem contigo: no lugar" (cortado) | Vulgata: "quem elegerit Dominus Deus tuus, ut habitet nomen ejus ibi" | Douay-Rheims: "which the Lord thy God shall choose, that his name may dwell there" | decidido: restaurado pelo latim; em restaurados.json.
 Dt 16,8: "porque é a coleta do Senhor teu Deus" (Vulgata "collecta", reunião sagrada) vertido "porque é a assembleia do Senhor teu Deus" (termo fixo do Antigo Testamento).
 Dt 16,18: "em tôdas as tuas portas" vertido "em todas as cidades" (porta = cidade, como o próprio contexto diz).
+Dt 5,18: decidido "Não cometerás adultério" | Figueiredo: "Não fornicarás" | Vulgata: non moechaberis; Douay-Rheims: neither shalt thou commit adultery | igual a Ex 20,14, Mt 5,27 e Mt 19,18 já revisados
