@@ -25,7 +25,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "PSA 91:9-13", poema: true },
         {
           texto:
-            "Hoje a Igreja celebra os Santos Anjos da Guarda, que Deus põe ao lado de cada um de nós desde o nascimento (CIC 336). A oração mais repetida do Rosário começa com as palavras de um anjo, Gabriel, à Virgem Maria. Rezar o terço é unir a nossa voz à saudação do céu.",
+            "Hoje a Igreja celebra os Santos Anjos da Guarda, que Deus põe ao lado de cada um de nós desde o começo da vida (CIC 336). A oração mais repetida do Rosário começa com as palavras de um anjo, Gabriel, à Virgem Maria. Rezar o terço é unir a nossa voz à saudação do céu.",
         },
         { pratica: "Reze hoje a oração ao Santo Anjo com as crianças da sua casa ou por elas." },
         { rezar: "santo-anjo" },
@@ -104,7 +104,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "LUK 2:33-38" },
         {
           texto:
-            "Maria e José oferecem o Menino a Deus no Templo. Simeão anuncia a espada de dor, e a velha Ana, que servia a Deus noite e dia, fala do Menino a todos os que esperavam. Oferecemos também a Deus a nossa vida, com as suas alegrias e as suas dores.",
+            "Maria e José oferecem o Menino a Deus no Templo. Simeão anuncia a espada de dor, e a profetisa Ana, já idosa, que servia a Deus noite e dia, fala do Menino a todos os que esperavam. Oferecemos também a Deus a nossa vida, com as suas alegrias e as suas dores.",
         },
         { pratica: "Ofereça hoje a Deus, logo cedo, todo o seu dia, e repita o oferecimento antes de dormir." },
         novenaDeAparecida,
@@ -352,7 +352,7 @@ const conteudo: ConteudoDoDesafio = {
           texto:
             "Maria é coroada Rainha do céu e da terra, unida ao seu Filho na glória (CIC 966). A Igreja vê nela a mulher vestida de sol, mãe que protege os seus filhos nas lutas desta vida. Terminamos os vinte mistérios entregando-nos às suas mãos de Mãe e Rainha.",
         },
-        { pratica: "Reze hoje a Salve-Rainha com calma e escolha uma virtude de Maria para imitar no próximo mês." },
+        { pratica: "Reze hoje a Salve-Rainha com calma e escolha uma virtude de Maria para imitar nesta semana." },
         { rezar: "salve-rainha" },
         novenaDeSaoJudas,
         terco,
@@ -403,7 +403,7 @@ const conteudo: ConteudoDoDesafio = {
             "Amanhã a Igreja celebra Todos os Santos, a grande nuvem de testemunhas que correram a carreira da fé com os olhos em Jesus. Muitos deles rezavam o terço todos os dias. O mês do Rosário termina, mas o terço pode continuar sendo, com Maria, o nosso caminho até Jesus.",
         },
         { pratica: "Decida em que momento do dia vai continuar rezando o terço, ou ao menos uma dezena, a partir de amanhã." },
-        { rezar: "agradecimento-do-terco" },
+        { rezar: "lembrai-vos" },
         terco,
       ],
     },

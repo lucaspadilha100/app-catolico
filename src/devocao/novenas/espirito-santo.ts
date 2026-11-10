@@ -162,7 +162,7 @@ const conteudo: ConteudoDaNovena = {
     { rezar: "pai-nosso" },
     { rezar: "ave-maria" },
     { rezar: "gloria" },
-    { rezar: "vinde-espirito-santo" },
+    { rezar: "veni-creator" },
     { linhas: [{ v: "Espírito Santo, doce hóspede da alma,", r: "permanecei conosco." }] },
   ],
 };
