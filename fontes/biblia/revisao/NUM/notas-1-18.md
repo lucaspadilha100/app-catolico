@@ -30,3 +30,6 @@ Nm 12,2: nota de rodapé grudada no fim ("lavra hebraica chonner que vale dez ef
 Nm 12,12: Figueiredo: "e que esta não fique como morta, e como um abôr" (o resto se perdeu na edição) | Vulgata: "et ut abortivum quod projicitur de vulva matris suæ: ecce jam medium carnis ejus devoratum est a lepra" | Douay-Rheims: "as an abortive that is cast forth from the mother's womb. Lo, now one half of her flesh is consumed with the leprosy" | decidido: restaurado pelo latim; em restaurados.json.
 Nm 12,16: a fonte tem 16 versículos e a Vulgata 15 (na Vulgata a partida de Haserot abre o cap. 13). Mantido como na fonte; conferir 13,1.
 Nm 12,1: "Maria" (a irmã de Moisés) mantido como no Figueiredo; "nesciamente" (12,11) vertido "por loucura".
+Nm 13,1: a fonte repete aqui a partida de Haserot que já fechou o cap. 12 (12,16); mantidos os dois, como na fonte (a Vulgata só a tem aqui). Conferir no PDF.
+Nm 13,24: Figueiredo: "o qual levaram dois ho" (o resto se perdeu na edição) | Vulgata: "quem portaverunt in vecte duo viri. De malis quoque granatis et de ficis loci illius tulerunt" | Douay-Rheims: "which two men carried upon a lever. They took also of the pomegranates and of the figs of that place" | decidido: restaurado pelo latim; em restaurados.json.
+Nm 13,9: "Osée" vertido "Oseias" (grafia atual); "Jefone" acentuado "Jefoné".
