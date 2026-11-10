@@ -34,3 +34,14 @@ público, CC0), baixadas por `npm run gerar:santos`.
 - Sem imagem de propósito: Francisco de Paula, Atanásio, Maria Madalena de
   Pazzi, Estanislau e Adalberto (obras de homônimos). Tirada a de Filipe e
   Tiago (a gravura mostra uma figura só).
+
+## Junho e julho
+- Nhá Chica (14/6, fora do calendário geral): morte em 14/6/1895, beatificada
+  em Baependi em 4/5/2013; nascimento "por volta de 1810" (fontes divergem);
+  "família pobre e negra" (não confirmado se a mãe era escravizada).
+- São Cristóvão (25/7): fora do calendário geral desde 1969, no Martirológio;
+  a lenda do Menino como tradição; padroeiro dos motoristas por costume.
+- Irineu mártir "segundo a tradição"; doutor da Igreja por Francisco em 2022.
+  Apolinário e São Pedro: tradição não confirmada. Maria Madalena: a
+  identificação com a pecadora é tradição ocidental.
+- Tirada a imagem de Fisher e More (o retrato mostrava só More).

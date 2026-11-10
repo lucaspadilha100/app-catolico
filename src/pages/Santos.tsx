@@ -173,10 +173,11 @@ export function SantoPagina() {
         <p className="mt-2 text-tinta-suave">{s.resumo}</p>
       </header>
       {s.padroeiro && s.padroeiro.length > 0 && (
-        <div className="flex flex-wrap gap-2">
+        <div className="flex flex-wrap items-center gap-2">
+          <span className="text-xs font-semibold uppercase tracking-wide text-destaque-texto">Padroado</span>
           {s.padroeiro.map((p) => (
             <span key={p} className="rounded-full bg-marca-fundo px-3 py-1 text-sm text-tinta">
-              Padroeiro {p}
+              {p}
             </span>
           ))}
         </div>

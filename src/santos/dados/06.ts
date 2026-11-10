@@ -207,7 +207,6 @@ const mes: MesDeSantos = {
         "Eles lembram que a consciência fiel a Deus está acima de qualquer cargo ou poder.",
       ],
       padroeiro: ["dos governantes e políticos (São Tomás More)"],
-      imagem: { artic: 126205, titulo: "Sir Thomas More, Lord Chancellor", artista: "Francesco Bartolozzi", data: "1793" },
     },
     {
       id: "natividade-de-sao-joao-batista",
