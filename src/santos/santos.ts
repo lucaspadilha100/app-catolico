@@ -36,8 +36,13 @@ export const NOME_DO_GRUPO: Record<string, string> = {
 
 export const SELO: Record<string, string> = { beato: "Beato", veneravel: "Venerável", servo: "Servo de Deus" };
 
+const TITULOS = /^(São|Santo|Santa|Santos|Santas|Beato|Beata|Beatos|Venerável|Servo de Deus|Serva de Deus|Nossa Senhora (da|do|das|dos|de)?|Bem-aventurad[ao])\s+/;
+
+export const nomeParaOrdenar = (nome: string) => normalizar(nome.replace(TITULOS, ""));
+
 export const seloDoSanto = (s: Santo): string | null => {
   if (!s.situacao || !SELO[s.situacao]) return null;
+  if (/^(Beat[oa]s?|Venerável|Serv[oa] de Deus)\b/.test(s.nome)) return null;
   const feminino = /^(Beata|Santa|Serva|Venerável Madre|Venerável Irmã)\b/.test(s.nome);
   if (s.situacao === "beato") return feminino ? "Beata" : "Beato";
   if (s.situacao === "servo") return feminino ? "Serva de Deus" : "Servo de Deus";

@@ -3,7 +3,7 @@ import { Link, useParams, useSearchParams } from "react-router-dom";
 import { ChevronRight, Heart, Search } from "lucide-react";
 import { diaEMes, dia, hoje, paraIso } from "@/liturgia/datas";
 import { NOVENAS } from "@/devocao/catalogo";
-import { NOME_DO_GRUPO, buscarSantos, caminhoDaImagem, santosDoNome, seloDoSanto, todosOsSantos, useSantosDeDevocao } from "@/santos/santos";
+import { NOME_DO_GRUPO, buscarSantos, nomeParaOrdenar, caminhoDaImagem, santosDoNome, seloDoSanto, todosOsSantos, useSantosDeDevocao } from "@/santos/santos";
 import type { Santo } from "@/santos/tipos";
 import { Cartao, TituloPagina } from "@/components/Cartao";
 import { Carregando, Indisponivel, Voltar, useConteudo } from "@/components/Devocao";
@@ -108,7 +108,7 @@ function Grupos({ todos }: { todos: Santo[] }) {
     else p.set("grupo", g);
     setParams(p, { replace: true });
   };
-  const lista = grupo ? todos.filter((s) => s.grupo === grupo).sort((a, b) => a.nome.localeCompare(b.nome, "pt-BR")) : [];
+  const lista = grupo ? todos.filter((s) => s.grupo === grupo).sort((a, b) => nomeParaOrdenar(a.nome).localeCompare(nomeParaOrdenar(b.nome), "pt-BR")) : [];
   return (
     <section className="flex flex-col gap-3">
       <h2 className="px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto">Conhecer</h2>
