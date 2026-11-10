@@ -54,3 +54,7 @@ Ez 45,11: "O seu peso será igual" → "A sua medida será igual" (Vulgata "æqu
 Ez 46,6: Figueiredo: "E seis cordeiros, e seis carneiros serão sem mancha" | Vulgata: "et sex agni et arietes immaculati erunt" | Douay-Rheims: "and the six lambs, and the rams" | decidido: "os seis cordeiros e os carneiros" (o segundo "seis" sem apoio nas réguas).
 Ez 46,20: Figueiredo: "a fim de que eles as não levem ao átrio exterior, e se santifique o povo" | Vulgata: "ut non efferant in atrium exterius, et sanctificetur populus" | decidido: "para não as levarem ao átrio exterior e não santificarem o povo" (o "não" vale para as duas partes, como em 44,19).
 Ez 46,8: "porta oriental" mantido (a Vulgata diz só "portæ"): escolha do Figueiredo. "primeiro dia de cada mês" → "lua nova" (Vulgata "calendæ"; 46,1.3.6). "terreiro" → "pátio" (46,21-23).
+Ez 47: lido na liturgia (47,1-9.12; 47,1-2.8-9.12): conferido versículo a versículo.
+Ez 47,1: legenda de gravura grudada no começo ("PLO, E QUE VAI TER AO MAR MORTO, CUJAS ÁGUAS"); retirada, texto conferido inteiro pela Vulgata.
+Ez 47,8: "montões de saibro do oriente" → "dunas de areia do oriente" (Vulgata "tumulos sabuli orientalis"); "as águas do mar ficarão sadias" mantido ("do mar" é do Figueiredo; a Vulgata diz só "aquæ").
+Ez 47,19: "meio-dia" mantido aqui porque o Figueiredo junta "lado austral do meio-dia" (Vulgata "plaga australis meridiana"): "O lado sul, para o meio-dia".
