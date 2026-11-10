@@ -60,3 +60,17 @@ público, CC0), baixadas por `npm run gerar:santos`.
   Stein), Natanael (Bartolomeu), Levi (Mateus), Regina, Neves.
 - Imagens tiradas: São Bernardo (desenho com um rei) e Santa Rosa de Lima
   (figura pequena e escura). A da Exaltação da Cruz é uma crucifixão comum.
+
+## Novembro e dezembro
+- Finados (2/11) e Santa Bárbara (4/12, fora do calendário geral desde 1969,
+  história quase toda lenda) incluídos.
+- Apresentação de Nossa Senhora (21/11): padroeira de Natal-RN, o achado da
+  imagem no Potengi em 21/11/1753 "segundo a tradição".
+- A conferir: Gertrudes "única santa chamada de Grande"; 117 mártires do
+  Vietnã entre 1745 e 1862; o cacique Nheçu e Caaró (Caibaté-RS) nos mártires
+  de 19/11; João Câncio padroeiro da Polônia; Silvestre entre os primeiros
+  santos não mártires venerados em Roma; a explicação da casa de Loreto.
+- Padroados: Martinho de Lima (justiça social), Imaculada (Estados Unidos),
+  Guadalupe (América, Ecclesia in America, 1999).
+- Imagens de cena de martírio sem sangue: Becket (miniatura) e Estêvão (letra
+  iluminada).

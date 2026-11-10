@@ -302,7 +302,7 @@ const mes: MesDeSantos = {
         "A festa foi instituída pelo papa Pio XII em 1954, no Ano Mariano, com a encíclica sobre a realeza de Maria, e era celebrada em 31 de maio. Na reforma do calendário depois do Concílio Vaticano II, foi colocada em 22 de agosto, oito dias depois da Assunção, para mostrar a ligação entre os dois mistérios.",
         "A realeza de Maria não é de poder, mas de serviço e de intercessão. Ela que se chamou serva do Senhor é hoje a Rainha que reza por nós junto do Filho.",
       ],
-      imagem: { artic: 68456, titulo: "The Coronation of the Virgin", artista: "Artista inglês desconhecido", data: "15th century" },
+      imagem: { artic: 68456, titulo: "The Coronation of the Virgin", artista: "Artista inglês desconhecido", data: "século XV" },
     },
     {
       id: "santa-rosa-de-lima",

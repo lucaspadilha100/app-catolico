@@ -237,7 +237,7 @@ const mes: MesDeSantos = {
         "Era muito alegre e brincalhão, e usava o humor para combater o orgulho, em si mesmo e nos outros. Muitos o procuravam para conselho, entre eles cardeais e papas. Por sua ação na cidade, é chamado apóstolo de Roma.",
         "Morreu em 26 de maio de 1595 e foi canonizado em 1622 pelo papa Gregório XV. Filipe ensina que a santidade combina com a alegria.",
       ],
-      imagem: { artic: 34669, titulo: "Vision of Saint Philip Neri", artista: "Desconhecido", data: "after 1614" },
+      imagem: { artic: 34669, titulo: "Vision of Saint Philip Neri", artista: "Desconhecido", data: "depois de 1614" },
     },
     {
       id: "santo-agostinho-de-cantuaria",
@@ -280,7 +280,7 @@ const mes: MesDeSantos = {
         "A festa foi celebrada primeiro pelos franciscanos, no século XIII, e estendida a toda a Igreja em 1389. Por muito tempo foi celebrada em 2 de julho. Desde 1969 é em 31 de maio, entre a Anunciação e o nascimento de João Batista, e encerra o mês de maio, dedicado a Nossa Senhora.",
         "A Visitação mostra Maria como a primeira a levar Jesus aos outros, com pressa e serviço.",
       ],
-      imagem: { artic: 4155, titulo: "The Visitation, from The Life of the Virgin", artista: "Albrecht Dürer", data: "c. 1504, published 1511" },
+      imagem: { artic: 4155, titulo: "The Visitation, from The Life of the Virgin", artista: "Albrecht Dürer", data: "c. 1504, publicado em 1511" },
     },
   ],
 };

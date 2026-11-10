@@ -224,7 +224,7 @@ const mes: MesDeSantos = {
         "A festa convida a oferecer a Deus a própria vida, como Maria fez, e a viver essa entrega no dia a dia.",
       ],
       padroeiro: ["de Natal (RN)"],
-      imagem: { artic: 43921, titulo: "The Presentation of the Virgin in the Temple, from The Life of the Virgin", artista: "Albrecht Dürer", data: "c. 1503-04, published 1511" },
+      imagem: { artic: 43921, titulo: "The Presentation of the Virgin in the Temple, from The Life of the Virgin", artista: "Albrecht Dürer", data: "c. 1503-1504, publicado em 1511" },
     },
     {
       id: "santa-cecilia",

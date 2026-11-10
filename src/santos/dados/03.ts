@@ -13,7 +13,7 @@ const mes: MesDeSantos = {
       historia: [
         "Casimiro nasceu em Cracóvia, em 3 de outubro de 1458. Era filho do rei Casimiro IV, que governava a Polônia e a Lituânia, e da rainha Isabel da Áustria. Recebeu uma educação cuidadosa, com mestres que lhe ensinaram as letras e a fé.",
         "Aos treze anos, o pai o enviou à frente de um exército para disputar o trono da Hungria. A campanha fracassou, e Casimiro voltou para casa. Mais tarde, quando o rei estava na Lituânia, governou a Polônia em seu nome por algum tempo, com justiça e prudência.",
-        "Na corte, levava uma vida de oração e simplicidade. Era muito devoto da Eucaristia e de Nossa Senhora, ajudava os pobres e recusou o casamento que lhe propunham, desejando viver em castidade. Adoeceu de tuberculose e morreu em Grodno, em 4 de março de 1484, com apenas vinte e cinco anos. Foi sepultado na catedral de Vílnius, onde está até hoje. Foi canonizado em 1602.",
+        "Na corte, levava uma vida de oração e simplicidade. Era muito devoto da Eucaristia e de Nossa Senhora, ajudava os pobres e, segundo os seus antigos biógrafos, recusou o casamento que lhe propunham, desejando viver em castidade. Adoeceu de tuberculose e morreu em Grodno, em 4 de março de 1484, com apenas vinte e cinco anos. Foi sepultado na catedral de Vílnius, onde está até hoje. Sua canonização foi confirmada em 1602 pelo papa Clemente VIII.",
         "Casimiro mostra que é possível ser fiel a Deus em qualquer ambiente, mesmo cercado de poder e riqueza. É padroeiro da Lituânia.",
       ],
       padroeiro: ["da Lituânia"],
@@ -26,7 +26,7 @@ const mes: MesDeSantos = {
       nomes: ["Perpétua", "Felicidade"],
       resumo: "Duas jovens mães de Cartago, uma nobre e uma escrava, mártires no ano 203.",
       historia: [
-        "No ano 203, na cidade de Cartago, no norte da África, um grupo de catecúmenos, pessoas que se preparavam para o batismo, foi preso por ordem do imperador Sétimo Severo, que proibira a conversão ao cristianismo. Entre eles estavam Víbia Perpétua, jovem de família nobre, de vinte e dois anos, que amamentava um filho pequeno, e Felicidade, uma escrava que estava grávida.",
+        "No ano 203, na cidade de Cartago, no norte da África, um grupo de catecúmenos, pessoas que se preparavam para o batismo, foi preso durante a perseguição do tempo do imperador Sétimo Severo. Entre eles estavam Víbia Perpétua, jovem de família nobre, de vinte e dois anos, que amamentava um filho pequeno, e Felicidade, uma escrava que estava grávida.",
         "Perpétua escreveu na prisão um relato do que viveu: as súplicas do pai, que não era cristão e lhe pedia que renegasse a fé; a angústia pelo filho; e visões que a fortaleciam para o martírio. Esse texto, completado por outro autor depois da morte deles, chegou até nós e é um dos documentos mais preciosos da Igreja antiga.",
         "Felicidade deu à luz uma menina na prisão, poucos dias antes do martírio, e a criança foi entregue a uma cristã para ser criada. Em 7 de março de 203, os presos foram levados à arena, expostos a animais ferozes e por fim mortos à espada. O relato conta que Perpétua e Felicidade se deram o beijo da paz antes de morrer.",
         "Os seus nomes estão na Oração Eucarística I. Elas ensinam que, em Cristo, nobres e escravos são irmãos.",
@@ -41,8 +41,8 @@ const mes: MesDeSantos = {
       resumo: "Português que fundou em Granada um hospital para os pobres e deu origem à Ordem Hospitaleira.",
       historia: [
         "João Cidade nasceu em Montemor-o-Novo, em Portugal, em 1495. Ainda menino, foi parar na Espanha, onde trabalhou como pastor. Foi soldado, andou por várias terras e, já com mais de quarenta anos, vendia livros em Granada.",
-        "Por volta de 1537, ouviu um sermão de São João de Ávila e ficou tão abalado que passou a pedir perdão pelos pecados em altos brados pelas ruas. Tomado por louco, foi internado num hospital, onde viu como os doentes mentais eram maltratados. Ao sair, decidiu dedicar a vida aos doentes pobres.",
-        "Alugou uma casa em Granada e passou a recolher doentes, mendigos e abandonados. Saía pelas ruas pedindo esmolas com as palavras: “Fazei bem a vós mesmos, irmãos”. Cuidava de cada um com respeito, separando os doentes conforme a necessidade, o que era novidade para a época. Por isso o povo passou a chamá-lo João de Deus. Morreu em Granada, em 8 de março de 1550. Seus companheiros deram origem à Ordem Hospitaleira de São João de Deus, aprovada em 1572.",
+        "Certo dia, em Granada, ouviu um sermão de São João de Ávila e ficou tão abalado que passou a pedir perdão pelos pecados em altos brados pelas ruas. Tomado por louco, foi internado num hospital, onde viu como os doentes mentais eram maltratados. Ao sair, decidiu dedicar a vida aos doentes pobres.",
+        "Alugou uma casa em Granada e passou a recolher doentes, mendigos e abandonados. Saía pelas ruas pedindo esmolas com as palavras: “Fazei bem a vós mesmos, irmãos”. Cuidava de cada um com respeito, separando os doentes conforme a necessidade, o que era novidade para a época. Ficou conhecido como João de Deus. Morreu em Granada, em 8 de março de 1550. Seus companheiros deram origem à Ordem Hospitaleira de São João de Deus, aprovada em 1572.",
         "Foi canonizado em 1690. É padroeiro dos doentes, dos hospitais e dos que trabalham na saúde.",
       ],
       padroeiro: ["dos doentes", "dos hospitais", "dos enfermeiros"],
@@ -56,8 +56,8 @@ const mes: MesDeSantos = {
       resumo: "Esposa, mãe e fundadora das Oblatas, que serviu os pobres de Roma.",
       historia: [
         "Francisca nasceu em Roma, em 1384, numa família nobre. Desejava entrar num convento, mas, seguindo a vontade dos pais, casou-se muito jovem com Lourenço Ponziani. Viveu com ele um casamento feliz por quarenta anos e teve filhos, dois dos quais morreram ainda pequenos.",
-        "Roma passava então por guerras, epidemias e fome. Francisca, com a cunhada Vanozza, visitava os doentes, cuidava dos pobres e distribuía o que a família tinha. Nunca deixou de lado os deveres de esposa e mãe, e costumava dizer que a mulher casada deve, quando preciso, deixar a oração para servir a família.",
-        "Em 1425 reuniu um grupo de mulheres que se ofereciam a Deus para servir os necessitados, sem votos de clausura. Assim nasceram as Oblatas de Maria, que mais tarde passaram a viver em comunidade na casa de Tor de' Specchi, em Roma. Depois da morte do marido, em 1436, Francisca juntou-se a elas. Segundo a tradição, recebia a ajuda visível do seu anjo da guarda.",
+        "Roma passava então por guerras, epidemias e fome. Francisca, com a cunhada Vanozza, visitava os doentes, cuidava dos pobres e distribuía o que a família tinha. Nunca deixou de lado os deveres de esposa e mãe, e conta-se que dizia que a mulher casada deve, quando preciso, deixar a oração para servir a família.",
+        "Em 1425 reuniu um grupo de mulheres que se ofereciam a Deus para servir os necessitados, sem votos religiosos e sem clausura. Assim nasceram as Oblatas de Maria, que mais tarde passaram a viver em comunidade na casa de Tor de' Specchi, em Roma. Depois da morte do marido, em 1436, Francisca juntou-se a elas. Segundo a tradição, recebia a ajuda visível do seu anjo da guarda.",
         "Morreu em 9 de março de 1440 e foi canonizada em 1608. Francisca ensina que a santidade se constrói também nas tarefas de cada dia em casa.",
       ],
       padroeiro: ["dos motoristas"],
@@ -72,7 +72,7 @@ const mes: MesDeSantos = {
       historia: [
         "Patrício nasceu na Britânia romana, provavelmente no fim do século IV. Seu pai era diácono e seu avô, padre. Aos dezesseis anos, foi capturado por piratas e levado como escravo para a Irlanda, onde cuidou de rebanhos por seis anos. Ele mesmo conta que, sozinho no campo, começou a rezar muitas vezes por dia e descobriu o amor de Deus.",
         "Conseguiu fugir e voltar para a família. Algum tempo depois, sentiu-se chamado a voltar à terra onde tinha sido escravo para anunciar o Evangelho. Preparou-se, foi ordenado e, já como bispo, voltou à Irlanda. Segundo a tradição, isso foi por volta de 432.",
-        "Percorreu a ilha durante décadas, batizou muita gente, ordenou padres e fundou igrejas. Enfrentou oposição e perigos, mas não desistiu. Escreveu uma Confissão, em que conta a sua vida com humildade e dá graças a Deus, e uma carta contra um chefe que tinha matado e escravizado cristãos. São os textos mais antigos da Igreja da Irlanda. Segundo a tradição, morreu em 17 de março, por volta de 461.",
+        "Percorreu a ilha durante décadas, batizou muita gente, ordenou padres e fundou igrejas. Enfrentou oposição e perigos, mas não desistiu. Escreveu uma Confissão, em que conta a sua vida com humildade e dá graças a Deus, e uma carta contra um chefe que tinha matado e escravizado cristãos. Estão entre os textos mais antigos da Igreja da Irlanda. Segundo a tradição, morreu em 17 de março, por volta de 461.",
         "A tradição popular conta que ele usava o trevo de três folhas para explicar a Santíssima Trindade. É padroeiro da Irlanda.",
       ],
       padroeiro: ["da Irlanda"],
@@ -130,8 +130,8 @@ const mes: MesDeSantos = {
       nomes: ["Anunciação", "Anunciada"],
       resumo: "Solenidade do anúncio do anjo a Maria e da encarnação do Filho de Deus.",
       historia: [
-        "O Evangelho de São Lucas conta que Deus enviou o anjo Gabriel a Nazaré, a uma virgem prometida em casamento a José, chamada Maria. O anjo a saudou: “Alegra-te, cheia de graça, o Senhor está contigo”, e anunciou que ela conceberia e daria à luz um filho, a quem chamaria Jesus, o Filho do Altíssimo.",
-        "Maria perguntou como isso seria possível, e o anjo respondeu que o Espírito Santo viria sobre ela e o poder do Altíssimo a cobriria com a sua sombra. Maria então respondeu: “Eis a serva do Senhor. Faça-se em mim segundo a tua palavra”. Naquele momento, o Filho eterno de Deus se fez homem no seio de Maria. Como diz São João, o Verbo se fez carne e habitou entre nós.",
+        "O Evangelho de São Lucas conta que Deus enviou o anjo Gabriel a Nazaré, a uma virgem prometida em casamento a José, chamada Maria. O anjo a saudou: “Deus te salve, cheia de graça, o Senhor é contigo”, e anunciou que ela conceberia e daria à luz um filho, a quem chamaria Jesus, o Filho do Altíssimo.",
+        "Maria perguntou como isso seria possível, e o anjo respondeu que o Espírito Santo viria sobre ela e o poder do Altíssimo a cobriria com a sua sombra. Maria então respondeu: “Eis aqui a escrava do Senhor; faça-se em mim segundo a tua palavra”. Naquele momento, o Filho eterno de Deus se fez homem no seio de Maria. Como diz São João, o Verbo se fez carne e habitou entre nós.",
         "A solenidade é celebrada nove meses antes do Natal. Por muito tempo foi vista como festa de Nossa Senhora, e desde a reforma do calendário de 1969 recebe o nome de Anunciação do Senhor, porque celebra a encarnação de Cristo, sem deixar de honrar o sim de Maria. Quando cai na Semana Santa ou na oitava da Páscoa, é transferida para depois. A oração do Ângelus recorda este mistério todos os dias.",
         "No Credo desta missa, todos se ajoelham às palavras que falam da encarnação, como no Natal.",
       ],

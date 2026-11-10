@@ -43,7 +43,7 @@ const mes: MesDeSantos = {
         "A festa nasceu em Jerusalém, ligada à dedicação de uma igreja construída onde a tradição situava a casa de Ana, perto da piscina de Betesda. Do Oriente passou a Roma, onde o papa Sérgio I, no fim do século VII, mandou celebrá-la com procissão. A data de 8 de setembro marcou também a da Imaculada Conceição, nove meses antes, em 8 de dezembro.",
         "A Igreja celebra o nascimento de apenas três pessoas: Jesus, Maria e João Batista, porque o nascimento de cada um está ligado à vinda do Salvador. O nascimento de Maria é como a aurora que anuncia o dia: nela Deus começava a cumprir as suas promessas.",
       ],
-      imagem: { artic: 4149, titulo: "The Birth of the Virgin, from The Life of the Virgin", artista: "Albrecht Dürer", data: "c. 1503-04, published 1511" },
+      imagem: { artic: 4149, titulo: "The Birth of the Virgin, from The Life of the Virgin", artista: "Albrecht Dürer", data: "c. 1503-1504, publicado em 1511" },
     },
     {
       id: "sao-pedro-claver",

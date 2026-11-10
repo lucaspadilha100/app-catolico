@@ -17,7 +17,7 @@ const mes: MesDeSantos = {
         "Foi canonizado em 1622, junto com Santo Inácio, pelo papa Gregório XV. Ensina o zelo de anunciar Cristo a quem ainda não o conhece.",
       ],
       padroeiro: ["das missões"],
-      imagem: { artic: 90802, titulo: "St. Francis Xavier, Apostle of the Indies", artista: "Jean-Charles Pellerin", data: "late 18th or early 19th century" },
+      imagem: { artic: 90802, titulo: "St. Francis Xavier, Apostle of the Indies", artista: "Jean-Charles Pellerin", data: "fim do século XVIII ou início do XIX" },
     },
     {
       id: "sao-joao-damasceno",
@@ -244,7 +244,7 @@ const mes: MesDeSantos = {
         "São atribuídos a ele o quarto Evangelho, três cartas e o livro do Apocalipse, escrito na ilha de Patmos. Seus escritos falam muito do amor: Deus é amor, e quem permanece no amor permanece em Deus. Por causa da profundidade do seu Evangelho, seu símbolo é a águia.",
         "Segundo a tradição, viveu seus últimos anos em Éfeso, na atual Turquia, e morreu idoso, no fim do século I. Ensina a permanecer perto de Jesus e de Maria, e a amar os irmãos.",
       ],
-      imagem: { artic: 5848, titulo: "Landscape with Saint John on Patmos", artista: "Nicolas Poussin", data: "1640" },
+      imagem: { artic: 68, titulo: "Saint John the Evangelist", artista: "Paolo Farinati", data: "1567" },
     },
     {
       id: "santos-inocentes",

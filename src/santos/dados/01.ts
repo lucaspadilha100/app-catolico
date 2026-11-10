@@ -82,7 +82,7 @@ const mes: MesDeSantos = {
       nomes: ["Antão", "Antônio", "Antônia"],
       resumo: "Eremita do deserto do Egito, chamado pai dos monges.",
       historia: [
-        "Antão nasceu por volta do ano 251, no Egito, numa família cristã de lavradores. Perdeu os pais quando tinha uns vinte anos. Pouco depois, ouviu na igreja as palavras de Jesus: “Se queres ser perfeito, vai, vende o que tens e dá aos pobres”. Tomou-as para si, distribuiu os seus bens e confiou a irmã mais nova a uma comunidade de virgens.",
+        "Antão nasceu por volta do ano 251, no Egito, numa família cristã de lavradores. Perdeu os pais quando tinha uns vinte anos. Pouco depois, ouviu na igreja as palavras de Jesus: “Se queres ser perfeito, vai, vende o que tens e dá-o aos pobres”. Tomou-as para si, distribuiu os seus bens e confiou a irmã mais nova a uma comunidade de virgens.",
         "Viveu primeiro perto da sua aldeia, aprendendo com ascetas mais velhos, e depois retirou-se cada vez mais para o deserto. Rezava, trabalhava com as mãos e jejuava. Santo Atanásio, que o conheceu, escreveu a sua vida e conta as duras lutas espirituais que ele enfrentou contra as tentações.",
         "Muitos foram procurá-lo para aprender a viver com Deus, e à sua volta nasceram comunidades de eremitas. Por isso é chamado pai dos monges. Saiu do deserto duas vezes para ir a Alexandria: na perseguição, para animar os cristãos presos, e mais tarde para apoiar a fé contra os arianos. Morreu em 356, com mais de cem anos, perto do Mar Vermelho.",
         "Antão ensina que a oração, o trabalho e o combate contra o pecado levam à paz do coração.",
