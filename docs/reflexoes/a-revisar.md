@@ -58,3 +58,18 @@ O teste garante que todo Evangelho que o app mostra de 2025 a 2036 tem a sua.
 - Bíblia: Jo 2,4 "que importa isso a mim e a vós?" é o Figueiredo (o latim diz
   "a ti"; o "vós" é o tratamento respeitoso à Mãe), fica. Jo 8,25 "Eu sou o
   princípio" segue a Vulgata.
+
+## Mateus 14 a 28 (MAT-2)
+- Mt 19,3-12: indissolubilidade do matrimônio válido e consumado entre
+  batizados (CIC 1614-1615, 1640), sem comentar "a não ser por causa de
+  adultério" (19,9).
+- Paixão: "os autores da Paixão foram todos os pecadores, e não um povo"
+  (CIC 597-598); 27,25 não comentado.
+- Leituras dos Padres: Mt 16,28 e a Transfiguração; a moeda de César e a
+  imagem de Deus no homem.
+- CIC citados: 232-234, 336, 543, 552-553, 555, 568, 597-598, 618, 638, 645,
+  881-882, 1021, 1022, 1033, 1040, 1116, 1243, 1250-1252, 1335, 1435,
+  1444-1445, 1504, 1614-1615, 1620, 1640, 2052-2053, 2055, 2150, 2240, 2242,
+  2447, 2840.
+- Bíblia: Mt 25,1 "do esposo e da esposa" e Mt 28,1 "Na tarde do sábado, ao
+  amanhecer" seguem a Vulgata.
