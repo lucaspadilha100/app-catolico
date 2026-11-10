@@ -1,85 +1,137 @@
-# Santinho — plano de construção
+# Santinho: plano de construção
 
-A ordem em que o app é feito. O que está em `docs/definicao.md` entra todo;
-aqui está só a SEQUÊNCIA. Cada fase vai para a `main` e aparece na Vercel,
-então o app fica visível e testável desde a fase 1.
+Tudo o que está em `docs/definicao.md`, dividido em LEVAS. Cada leva termina
+com o app funcionando, testado, na `main` e com prévia das telas enviada ao
+dono. A ordem é de propósito: primeiro o conteúdo que funciona sem servidor
+(leve, offline, custo zero), depois o que precisa de conta e banco, por fim o
+celular e o lançamento.
 
-## Com o dono (fora do código)
-- [ ] INPI: conferir "Santinho" nas classes 9, 41 e 45 (busca.inpi.gov.br → Marca)
-- [ ] Registrar `appsantinho.com.br` (~R$ 40/ano, pode ser no CPF)
-- [x] Supabase: chave publicável enviada (está no `.env`) — a secreta nunca
-- [ ] Vercel: criar o projeto ligado ao repositório `app-catolico`
-      (Add New → Project → importar `app-catolico`; o `vercel.json` já configura o resto)
-- [ ] Conversar com o autor do "missas perto de mim" do RN (parceria e dados)
-- [ ] Revisar o conteúdo que a IA escrever (prioridade: Evangelhos, Salmos,
-      reflexões de domingo, exame de consciência)
+Legenda: ✅ pronto · 🔨 em andamento · ⬜ a fazer · 👤 precisa do dono
 
-## Fase 1 — Esqueleto ✅ (10/11/2026)
-1. [x] React + TypeScript + Vite + Tailwind; Capacitor (Android e iOS) desde o
-   início; PWA (instala e funciona offline).
-2. [x] Identidade: ícone, cores, Literata (leitura) + Inter (tela), tema claro/
-   escuro, **cor litúrgica como destaque**, tamanho de letra e modo simples.
-3. [x] Navegação (Hoje · Rezar · Bíblia · Missas · Mais). Hoje já mostra o dia
-   litúrgico calculado e o terço do dia; Terço mostra os 4 grupos de mistérios.
-4. [x] Cliente do Supabase pronto (sem exigir login). [ ] Projeto na Vercel (dono).
-5. [x] `npm run verificar` (typecheck + testes + build); 14 testes do calendário.
+## Feito
 
-## Fase 2 — Motor litúrgico (a base da tela Hoje)
-1. Calendário litúrgico do Brasil calculado no aparelho: Páscoa, tempos,
-   solenidades transferidas, ciclos A/B/C e I/II, cor do dia, preceitos,
-   jejum e abstinência.
-2. Santoral: geral + próprios do Brasil + beatos; festas da Arquidiocese de Natal.
-3. Tabela de **referências** das leituras de cada dia (todos os ciclos).
-4. Conversão da numeração dos Salmos (Vulgata ↔ liturgia).
-5. Testes contra datas conhecidas (vários anos).
+### Leva 0. Definição ✅
+- ✅ Produto definido com o dono (`docs/definicao.md`)
+- ✅ Regras do projeto (`CLAUDE.md`), nome Santinho e ícone final
 
-## Fase 3 — Bíblia (corre em paralelo às fases 2 e 4)
-1. Achar uma digitalização boa do Figueiredo; estruturar por livro/capítulo/versículo.
-2. Amostra (um capítulo de Marcos e um Salmo) no nível 2 para o dono aprovar o tom.
-3. Revisão em lotes, sempre a partir do Figueiredo, com as conferências
-   automáticas (contagem, nada faltando/sobrando, relatório de mudanças).
-4. Introdução de cada livro (73).
+### Leva 1. Esqueleto ✅
+- ✅ Web + PWA (instala e funciona offline) + Android e iOS (Capacitor)
+- ✅ Navegação: Hoje · Rezar · Bíblia · Missas · Mais
+- ✅ Tema claro e escuro, tamanho da letra, modo simples
+- ✅ Cor litúrgica do dia pintando o app
 
-## Fase 4 — Conteúdo próprio (IA + revisão)
-Orações (PT e latim) · mistérios do terço com meditações · Terço da
-Misericórdia e de São Miguel · Pequeno Ofício de Nossa Senhora · ladainhas ·
-novenas e Consagração em 33 dias · Via-Sacra e Semana Santa · desafios ·
-santos do ano (+ imagens em domínio público) · exame de consciência por
-estado de vida (com nº do Catecismo) · guias da confissão e da missa ·
-reflexões de todo o ciclo.
+### Leva 2. Calendário litúrgico ✅
+- ✅ Tempos, semanas, ciclos A/B/C e par/ímpar, cor do dia
+- ✅ Todos os santos do ano: Calendário Romano e Próprio do Brasil
+- ✅ Precedência (o que se celebra em cada dia) e transferências do Brasil
+- ✅ Conferido dia a dia com o calendário publicado de 2024 a 2027
+- ✅ Tela Hoje com celebração, memória e santos do dia
 
-## Fase 5 — As telas do núcleo
-Hoje · Terço (modo contas) · Bíblia (busca, marcações, notas, planos) ·
-Orações · Novenas e desafios · Santos · Calendário · Confissão e guias ·
-Falecidos · Diário e propósitos · Boas-vindas em 3 passos · compartilhar
-liturgia (WhatsApp) e versículo (imagem) · playlists · páginas abertas ao
-Google (cada dia, capítulo, santo).
+## A fazer
 
-## Fase 6 — Conta e privacidade
-Login opcional (Google e e-mail) · sincronização (marcações, notas, falecidos,
-diário, progresso) · **exame criptografado com PIN** · apagar conta · política
-de privacidade e termos de uso · métricas anônimas.
+### Leva 3. Lecionário (as leituras de cada dia) ⬜
+- ⬜ Referências de todos os dias: domingos A/B/C, semana I/II, Advento,
+  Natal, Quaresma, Páscoa, solenidades, festas e santos, próprio do Brasil
+- ⬜ Conversão da numeração dos Salmos (liturgia ↔ Vulgata)
+- ⬜ Tela Liturgia do dia com as referências (o texto entra na Leva 4)
+- ⬜ Teste: todo dia de 2024 a 2035 tem leituras
 
-## Fase 7 — Missas perto de mim
-Perfis oficiais das paróquias · horários de missa/confissão/adoração e
-exceções · busca por perto/cidade/horário · selo de atualização · sugestões e
-correções com fila de revisão · paróquia verificada · "Minha paróquia" no
-Hoje · dados iniciais de Natal/RN.
+### Leva 4. Bíblia ⬜
+- ⬜ Texto do Figueiredo digitalizado e estruturado por versículo
+- ⬜ 👤 Amostra no nível 2 (um capítulo de Marcos e um Salmo) para aprovar o tom
+- ⬜ Revisão em lotes: Evangelhos → Salmos → Novo Testamento → Antigo Testamento,
+  com conferência automática a cada lote
+- ⬜ 👤 Leitura dos Evangelhos e Salmos revisados
+- ⬜ Introdução curta dos 73 livros
+- ⬜ Tela Bíblia: livros, capítulos, leitura, busca, marcações e notas
+- ⬜ Liturgia do dia com o texto completo das leituras
 
-## Fase 8 — Comunidade
-Intenções guiadas com "rezei por você" · grupos por convite · terço ao vivo
-sincronizado · campanhas coletivas · denúncia e moderação.
+### Leva 5. Terço e orações ⬜
+- ⬜ Terço guiado completo: oferecimento, mistérios, dezenas, modo contas
+  (toque e vibração), intenção, contador pessoal
+- ⬜ Meditação curta dos 20 mistérios com a passagem bíblica
+- ⬜ Terço da Misericórdia, Terço de São Miguel
+- ⬜ Orações tradicionais em português e latim
+- ⬜ Ângelus e Regina Caeli, manhã, noite, refeições, ladainhas
 
-## Fase 9 — Celular
-Builds Android e iOS pelo Capacitor · notificações locais (lembretes) ·
-vibração no terço · widget do evangelho · ícones e telas de abertura.
+### Leva 6. Devoções ⬜
+- ⬜ Novenas com acompanhamento e início automático antes da festa
+- ⬜ Consagração a Nossa Senhora em 33 dias
+- ⬜ Via-Sacra, Semana Santa e Tríduo guiados
+- ⬜ Pequeno Ofício de Nossa Senhora
+- ⬜ Desafios por tempo litúrgico e meses temáticos
 
-## Fase 10 — Lançamento
-Android na Play Store (conta pessoal nova exige **12 testadores por 14 dias**
-— grupo de oração e amigos) · lançamento em Natal: paróquias, grupos,
-WhatsApp, Instagram, páginas católicas · mensagens de abordagem prontas.
+### Leva 7. Santos e calendário ⬜
+- ⬜ História de cada santo (texto próprio) e imagem em domínio público
+- ⬜ Busca de santos, santos de devoção, "seu santo"
+- ⬜ Tela Calendário: mês, dia, festas, preceitos, jejum e abstinência
+- ⬜ Festas da Arquidiocese de Natal
 
-## Fase 11 — Com apoio
-Página "Apoie" (PIX + transparência) · App Store (iOS) · áudio com IA ·
-terço com voz · licenças · associação sem fins lucrativos · plano para
-paróquias · outras dioceses.
+### Leva 8. Reflexões ⬜
+- ⬜ Reflexão de todos os domingos e solenidades (ciclos A, B e C)
+- ⬜ Reflexão de todos os dias de semana (anos I e II e tempos fortes)
+- ⬜ 👤 Revisão das reflexões, a começar pelos domingos
+
+### Leva 9. Confissão e vida espiritual ⬜
+- ⬜ Exame de consciência por estado de vida, com o nº do Catecismo
+- ⬜ Guia da confissão e guia da missa
+- ⬜ Falecidos com lembretes (7º dia, 30 dias, aniversário)
+- ⬜ Diário espiritual e propósitos
+- ⬜ (Tudo guardado no aparelho; a conta entra na Leva 10)
+
+### Leva 10. Conta e sincronização ⬜
+- ⬜ Banco no Supabase com regras de acesso (RLS) e testes das regras
+- ⬜ 👤 Colar os blocos SQL no Supabase
+- ⬜ Login opcional (Google e e-mail) e apagar conta
+- ⬜ Sincronizar marcações, notas, falecidos, diário, progresso
+- ⬜ Exame de consciência criptografado com PIN
+- ⬜ Política de privacidade, termos de uso, métricas anônimas
+
+### Leva 11. Missas e paróquias ⬜
+- ⬜ Perfil oficial da paróquia: endereço, mapa, secretaria, Instagram, site
+- ⬜ Horários de missa, confissão e adoração, com exceções
+- ⬜ Busca "perto de mim", por cidade e por horário
+- ⬜ Sugerir correção, horário ou paróquia; selo "confirmado há N dias"
+- ⬜ Painel de revisão do dono e paróquia verificada
+- ⬜ "Minha paróquia" na tela Hoje
+- ⬜ 👤 Dados iniciais de Natal (parceria com o "missas perto de mim" do RN)
+
+### Leva 12. Terço da Juventude ⬜
+- ⬜ Cadastro pela paróquia ou por qualquer grupo
+- ⬜ Busca "perto de mim" junto com Missas
+- ⬜ Roteiro do encontro: quem conduz, leituras, músicas, intenções, avisos
+- ⬜ Terço ao vivo sincronizado (o grupo acompanha pelo celular)
+- ⬜ Lembrete do encontro da semana
+
+### Leva 13. Comunidade ⬜
+- ⬜ Intenções guiadas com "rezei por você"
+- ⬜ Grupos por convite (família, grupo de oração, pastoral)
+- ⬜ Campanhas coletivas
+- ⬜ Denúncia e moderação
+
+### Leva 14. Música ⬜
+- ⬜ 👤 Montar as playlists por tempo e tema com o dono
+- ⬜ Tela Músicas e repertório sugerido da missa de domingo
+
+### Leva 15. Acabamento ⬜
+- ⬜ Boas-vindas em 3 passos
+- ⬜ Lembretes (evangelho, Ângelus, terço, novena, falecidos)
+- ⬜ Compartilhar liturgia no WhatsApp e versículo como imagem
+- ⬜ Páginas abertas ao Google (cada dia, capítulo, santo, paróquia)
+- ⬜ Revisão de acessibilidade e de desempenho em celular simples
+
+### Leva 16. Celular ⬜
+- ⬜ Builds Android e iOS, ícones e tela de abertura
+- ⬜ Notificações locais, vibração no terço, widget do evangelho
+- ⬜ 👤 Teste em aparelho (Android Studio; iPhone precisa de Mac)
+
+### Leva 17. Lançamento ⬜
+- ⬜ 👤 Vercel, domínio `appsantinho.com.br`, INPI
+- ⬜ 👤 Conta Google Play e 12 testadores por 14 dias
+- ⬜ Lançamento em Natal e mensagens de divulgação
+
+## Depois, com apoio
+Página "Apoie" (PIX e transparência) · App Store · áudio com IA (evangelho,
+reflexão, terço guiado, Bíblia narrada) · terço com voz · licenças (CNBB,
+editoras) · associação sem fins lucrativos · plano para paróquias · outras
+dioceses.
