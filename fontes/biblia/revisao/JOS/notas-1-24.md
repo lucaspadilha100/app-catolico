@@ -48,3 +48,6 @@ Js 22,22: a Vulgata repete "Fortissimus Deus Dominus" duas vezes; o Figueiredo d
 Js 22,25: Figueiredo: "apartem os nossos do têrmo do Senhor" (troca de letras de "temor") | Vulgata: "a timore Domini" | Douay-Rheims: "from the fear of the Lord" | decidido: "do temor do Senhor".
 Js 22,31: Figueiredo: "o Senhor é convosco" | Vulgata: "nobiscum sit Dominus" | Douay-Rheims: "the Lord is with us" | hebraico: "no meio de nós" | decidido: "está conosco" (erro de impressão; quem fala é Fineias).
 Js 22,32: número de página ("^ 348 —") no meio do versículo; retirado.
+Js 24,14: Figueiredo: "na Mesopotâmia e rio Egito" (OCR) | Vulgata: "in Mesopotamia et in Ægypto" | Douay-Rheims: "in Mesopotamia and in Egypt" | decidido: "e no Egito".
+Js 24,32: Figueiredo: "aos filhos de Hebron pai de Siquem" | Vulgata: "a filiis Hemor patris Sichem" | Douay-Rheims: "of the sons of Hemor the father of Sichem" | decidido: "Hemor" (Hebron é a cidade; erro da edição).
+Js 24,25: "Fêz portanto Josué o concêrto" vertido "fez a aliança", pelo termo fixo.
