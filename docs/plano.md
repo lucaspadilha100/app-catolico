@@ -179,7 +179,7 @@ Legenda: ✅ pronto · 🔨 em andamento · ⬜ a fazer · 👤 precisa do dono
 - ⬜ 👤 Decidir sobre o OpenStreetMap: as igrejas que vieram só do mapa
   mostram "© colaboradores do OpenStreetMap" (licença aberta ODbL, pede o
   crédito; quem copiar a lista inteira do app tem de manter a mesma licença)
-- ⬜ Mapa (OpenFreeMap, só ao tocar em "Mapa"), se o dono quiser
+- ✅ Sem mapa dentro do app (decisão do dono): "Como chegar" abre o app de mapas do celular (Mapas da Apple no iPhone, Google Maps no Android e no computador)
 
 ### Leva 12. Terço da Juventude 🔨
 - ✅ Cadastro por qualquer pessoa com conta (paróquia ou comunidade, dia,

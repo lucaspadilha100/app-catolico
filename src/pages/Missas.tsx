@@ -22,6 +22,7 @@ import {
 import { NOME_DO_TIPO_DE_HORARIO, NOME_DO_TIPO_DE_IGREJA, type Horario, type IgrejaComHorarios, type ItemDaAgenda, type ParoquiaResumo, type TipoDeHorario } from "@/paroquias/tipos";
 import { useLocal } from "@/paroquias/useLocal";
 import { ENDERECO_DO_SITE } from "@/marca";
+import { linkComoChegar } from "@/lib/comoChegar";
 import { Cartao, LINHA, LISTA, TituloCartao, TituloPagina } from "@/components/Cartao";
 import { Cabecalho, Carregando, Indisponivel, Voltar } from "@/components/Devocao";
 import { NaoEncontrada } from "@/pages/Simples";
@@ -880,7 +881,7 @@ export function ParoquiaPagina() {
 
       <div className="flex flex-col gap-2">
         <a
-          href={`https://www.google.com/maps/dir/?api=1&destination=${destino}`}
+          href={linkComoChegar(destino)}
           target="_blank"
           rel="noreferrer"
           className="flex min-h-12 items-center justify-center gap-2 rounded-xl bg-destaque font-semibold text-sobre-destaque"

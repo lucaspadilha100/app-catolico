@@ -24,6 +24,7 @@ import {
 import { useTercosSeguidos } from "@/tercos/seguidos";
 import type { Dezena, Encontro, Terco } from "@/tercos/tipos";
 import { ENDERECO_DO_SITE } from "@/marca";
+import { linkComoChegar } from "@/lib/comoChegar";
 import { Cartao, Grupo, LINHA, TituloCartao, TituloPagina } from "@/components/Cartao";
 import { Cabecalho, Carregando, Indisponivel, Voltar } from "@/components/Devocao";
 import { TercoGuiado, type Posicao } from "@/components/TercoGuiado";
@@ -272,7 +273,7 @@ export function TercoPagina() {
         </button>
       </div>
       {(t.endereco || t.lat !== null) && (
-        <a href={`https://www.google.com/maps/dir/?api=1&destination=${destino}`} target="_blank" rel="noreferrer" className={SECUNDARIO}>
+        <a href={linkComoChegar(destino)} target="_blank" rel="noreferrer" className={SECUNDARIO}>
           <Navigation className="size-5" aria-hidden /> Como chegar
         </a>
       )}
