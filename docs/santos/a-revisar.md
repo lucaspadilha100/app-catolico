@@ -121,3 +121,13 @@ Santa Bárbara.
 - A confirmar: Candeias em Juazeiro do Norte, Monte Serrat em Santos (8/9),
   Rocio padroeira do Paraná (1939/1977), "das gestantes" para N. Sra. do Ó.
 - Imagem tirada: Nossa Senhora do Pilar (figura seminua no canto).
+
+## Acervo: jovens (`src/santos/dados/acervo/jovens.ts`)
+- 40 (18 santos, 22 beatos). Carlo Acutis (12/10) e Pier Giorgio Frassati
+  (4/7), canonizados em 7/9/2025 por Leão XIV.
+- Datas a conferir: Domingos Sávio 6/5 (salesianos; morreu em 9/3), Teresa
+  dos Andes 13/7 (morreu em 12/4), Kostka 15/8 e Berchmans 13/8 (os jesuítas
+  celebram em 13/11 e 26/11), Marcel Callo 19/4, Rolando Rivi 29/5, Imelda
+  12 ou 13/5, Okelo e Irwa (fontes divergem), mártires de Tlaxcala 23/9 (sem
+  fonte), Sagheddu 22/4, Rafael Arnáiz 26/4, Bakanja 15/8.
+- Tarcísio menino e acólito, a pomba de Eulália: como tradição.

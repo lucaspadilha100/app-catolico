@@ -47,7 +47,6 @@ const acervo: AcervoDeSantos = {
         "Ali foi chamado para atender um rapaz que estava morrendo e percebeu que ele não sabia quase nada de Deus. Esse encontro o levou a fundar, em 2 de janeiro de 1817, os Pequenos Irmãos de Maria, conhecidos como Irmãos Maristas, dedicados a ensinar e a educar na fé as crianças e os jovens, sobretudo os mais abandonados. Construiu com as próprias mãos a casa de formação de L'Hermitage e confiou toda a obra a Nossa Senhora.",
         "Morreu em 6 de junho de 1840. Foi canonizado por São João Paulo II em 18 de abril de 1999. Os Irmãos Maristas estão presentes em muitos países, também no Brasil, com escolas, colégios e obras sociais.",
       ],
-      padroeiro: ["dos educadores maristas"],
     },
     {
       id: "sao-daniel-comboni",
@@ -123,7 +122,6 @@ const acervo: AcervoDeSantos = {
         "No seu tempo, milhões de italianos deixavam o país em busca de trabalho, sobretudo nas Américas, e muitos ficavam sem nenhum amparo, nem material nem espiritual. Scalabrini sentiu essa dor como sua. Em 1887 fundou a Congregação dos Missionários de São Carlos, os scalabrinianos, e em 1895 as Irmãs Missionárias de São Carlos Borromeu, para acompanhar os migrantes. Visitou as comunidades de migrantes nos Estados Unidos e no Brasil.",
         "Morreu em Piacenza, em 1º de junho de 1905. Foi beatificado em 1997 e canonizado pelo Papa Francisco em 9 de outubro de 2022. Os scalabrinianos estão muito presentes no Brasil, junto aos migrantes e refugiados.",
       ],
-      padroeiro: ["dos migrantes"],
     },
     {
       id: "sao-vicente-pallotti",
@@ -137,7 +135,7 @@ const acervo: AcervoDeSantos = {
       historia: [
         "Vicente Pallotti nasceu em Roma, em 21 de abril de 1795, e foi ordenado padre em 1818. Viveu toda a vida na cidade, onde era muito procurado como confessor e diretor espiritual. Atendia estudantes, soldados, presos, doentes e pobres, e organizava escolas noturnas para artesãos e camponeses.",
         "Estava convencido de que todo batizado, e não só os padres e religiosos, é chamado a colaborar na missão da Igreja. Por isso fundou, em 1835, a União do Apostolado Católico, que reunia padres, religiosos e leigos. Dela nasceram a Sociedade do Apostolado Católico, cujos membros são os padres e irmãos palotinos, e as Irmãs Palotinas. Antecipou em mais de um século o que o Concílio Vaticano II ensinaria sobre os leigos.",
-        "Morreu em Roma, em 22 de janeiro de 1850, depois de ter cedido a sua capa a um pobre numa noite fria. Foi canonizado pelo Papa São João XXIII em 20 de janeiro de 1963. Os palotinos chegaram ao Brasil com os imigrantes e têm muitas paróquias e obras no país.",
+        "Conta-se que adoeceu depois de ceder a sua capa a um pobre numa noite fria. Morreu em Roma, em 22 de janeiro de 1850. Foi canonizado pelo Papa São João XXIII em 20 de janeiro de 1963. Os palotinos chegaram ao Brasil com os imigrantes e têm muitas paróquias e obras no país.",
       ],
     },
     {
@@ -225,7 +223,7 @@ const acervo: AcervoDeSantos = {
       nomes: ["João"],
       resumo: "Padre de Verona que confiou tudo à Providência e fundou os Pobres Servos da Divina Providência.",
       historia: [
-        "João Calábria nasceu em Verona, na Itália, em 8 de outubro de 1873, numa família muito pobre. O pai morreu cedo, e ele teve de trabalhar desde menino. Com a ajuda de um padre, pôde estudar e entrar no seminário, mas antes fez o serviço militar, onde cuidou de soldados doentes.",
+        "João Calábria nasceu em Verona, na Itália, em 8 de outubro de 1873, numa família muito pobre. O pai morreu cedo, e ele teve de trabalhar desde menino. Com a ajuda de um padre, pôde estudar e, depois do serviço militar, entrar no seminário.",
         "Ainda seminarista, numa noite de 1897, encontrou um menino abandonado na rua e o levou para casa. Foi o começo de uma obra para acolher crianças e jovens sem família. Foi ordenado padre em 1901 e fundou a Casa dos Bons Meninos, que deu origem aos Pobres Servos e às Pobres Servas da Divina Providência. Não aceitava garantias de dinheiro: queria que a obra vivesse só da confiança em Deus, que cuida dos seus filhos.",
         "Também trabalhou pela unidade dos cristãos e manteve amizade com irmãos de outras Igrejas. Morreu em Verona, em 4 de dezembro de 1954. Foi canonizado por São João Paulo II em 18 de abril de 1999.",
       ],
@@ -241,7 +239,7 @@ const acervo: AcervoDeSantos = {
       resumo: "Padre italiano que fundou a Família Paulina para anunciar o Evangelho pela imprensa e pelos meios de comunicação.",
       historia: [
         "Tiago Alberione nasceu em San Lorenzo di Fossano, na Itália, em 4 de abril de 1884, numa família de camponeses. Na noite de passagem de 1900 para 1901, em adoração diante do Santíssimo na catedral de Alba, sentiu o chamado a fazer alguma coisa pelas pessoas do novo século. Foi ordenado padre em 1907.",
-        "Percebeu que a imprensa, e depois o cinema, o rádio e outros meios, podiam levar o Evangelho a muita gente. Em 1914 fundou a Pia Sociedade de São Paulo, os padres e irmãos paulinos, e em 1915, com a Beata Tecla Merlo, as Filhas de São Paulo, as irmãs paulinas. Depois fundou outras congregações e institutos, que juntos formam a Família Paulina. Tomou São Paulo como modelo do apóstolo que usa todos os meios para anunciar Cristo.",
+        "Percebeu que a imprensa, e depois o cinema, o rádio e outros meios, podiam levar o Evangelho a muita gente. Em 1914 fundou a Pia Sociedade de São Paulo, os padres e irmãos paulinos, e em 1915, com a Venerável Tecla Merlo, as Filhas de São Paulo, as irmãs paulinas. Depois fundou outras congregações e institutos, que juntos formam a Família Paulina. Tomou São Paulo como modelo do apóstolo que usa todos os meios para anunciar Cristo.",
         "Morreu em Roma, em 26 de novembro de 1971, depois de receber a visita de São Paulo VI. Foi beatificado por São João Paulo II em 27 de abril de 2003. No Brasil, paulinos e paulinas são conhecidos pelas livrarias, editoras e meios de comunicação católicos.",
       ],
     },
@@ -289,7 +287,6 @@ const acervo: AcervoDeSantos = {
         "No inverno de 1839, em Saint-Servan, acolheu em casa uma idosa cega e paralítica que não tinha ninguém, e lhe deu a própria cama. Logo vieram outras idosas e outras moças para ajudar. Assim nasceram as Irmãzinhas dos Pobres, que viviam de pedir esmola de porta em porta para sustentar os idosos. Pouco tempo depois, um padre que orientava o grupo tirou dela a direção da obra. Joana aceitou e passou mais de 25 anos escondida, trabalhando em silêncio e ajudando a formar as noviças, que nem sabiam que ela era a fundadora.",
         "Morreu em 29 de agosto de 1879. Foi canonizada pelo Papa Bento XVI em 11 de outubro de 2009. A sua memória é celebrada em 30 de agosto.",
       ],
-      padroeiro: ["dos idosos"],
     },
     {
       id: "santa-madalena-sofia-barat",
@@ -303,7 +300,7 @@ const acervo: AcervoDeSantos = {
       historia: [
         "Madalena Sofia Barat nasceu em Joigny, na França, em 12 de dezembro de 1779. O irmão mais velho, que se tornou padre, deu a ela uma formação muito sólida, coisa rara para uma menina daquele tempo. Ela queria ser carmelita, mas o caminho de Deus foi outro.",
         "Depois da Revolução Francesa, muitas escolas católicas tinham sido fechadas. Em 1800, com outras jovens, consagrou-se ao Coração de Jesus, e no ano seguinte abriu em Amiens a primeira escola. Assim nasceu a Sociedade do Sagrado Coração de Jesus, dedicada à educação das meninas e moças, das famílias ricas e das pobres. Com pouco mais de vinte anos foi eleita superiora e governou a congregação por mais de sessenta anos, fundando casas em vários países da Europa e da América.",
-        "Era firme e humilde, e dizia que, para educar, é preciso antes amar. Morreu em Paris, em 25 de maio de 1865. Foi canonizada pelo Papa Pio XI em 24 de maio de 1925.",
+        "Era firme e humilde. Morreu em Paris, em 25 de maio de 1865. Foi canonizada pelo Papa Pio XI em 24 de maio de 1925.",
       ],
     },
     {
@@ -317,7 +314,7 @@ const acervo: AcervoDeSantos = {
       resumo: "Religiosa italiana que fundou as Missionárias do Sagrado Coração e serviu os imigrantes nas Américas.",
       historia: [
         "Francisca Cabrini nasceu em Sant'Angelo Lodigiano, na Itália, em 15 de julho de 1850, a última de treze filhos. Formou-se professora e, por causa da saúde fraca, não foi aceita em algumas congregações. Em 1880, em Codogno, fundou as Missionárias do Sagrado Coração de Jesus e acrescentou ao nome o de São Francisco Xavier, padroeiro das missões.",
-        "Sonhava em ir para a China, mas o Papa Leão XIII a orientou a ir não para o Oriente, e sim para o Ocidente, onde milhões de italianos viviam como imigrantes pobres. Em 1889 chegou a Nova York. Daí em diante abriu escolas, orfanatos e hospitais nos Estados Unidos, na América Latina e na Europa. Atravessou o oceano dezenas de vezes, apesar do medo da água, e se tornou cidadã americana em 1909.",
+        "Sonhava em ir para a China, mas o Papa Leão XIII a orientou a ir não para o Oriente, e sim para o Ocidente, onde milhões de italianos viviam como imigrantes pobres. Em 1889 chegou a Nova York. Daí em diante abriu escolas, orfanatos e hospitais nos Estados Unidos, na América Latina e na Europa. Atravessou o oceano muitas vezes e se tornou cidadã americana em 1909.",
         "Morreu em Chicago, em 22 de dezembro de 1917. Foi canonizada pelo Papa Pio XII em 7 de julho de 1946, a primeira cidadã dos Estados Unidos a ser declarada santa. Nos Estados Unidos, a sua memória é celebrada em 13 de novembro.",
       ],
       padroeiro: ["dos imigrantes"],
@@ -394,10 +391,9 @@ const acervo: AcervoDeSantos = {
       resumo: "Catequista leigo da Papua-Nova Guiné, morto por defender a fé e o matrimônio cristão.",
       historia: [
         "Pedro To Rot nasceu por volta de 1912, em Rakunai, na ilha da Nova Bretanha, hoje parte da Papua-Nova Guiné. Era filho de um chefe da aldeia que tinha recebido o batismo. Estudou numa escola de catequistas dos missionários e, ainda jovem, tornou-se catequista na sua aldeia. Casou-se em 1936 e teve filhos.",
-        "Durante a Segunda Guerra Mundial, o exército japonês ocupou a ilha e prendeu os missionários. Pedro passou a cuidar sozinho da comunidade: reunia o povo para rezar, batizava, preparava casamentos, visitava os doentes e levava a comunhão, que um padre preso lhe confiava. Os ocupantes proibiram o culto e voltaram a permitir que os homens tivessem várias mulheres. Pedro se opôs em público e defendeu o casamento de um só homem com uma só mulher.",
+        "Durante a Segunda Guerra Mundial, o exército japonês ocupou a ilha e prendeu os missionários. Pedro passou a cuidar sozinho da comunidade: reunia o povo para rezar, batizava, preparava casamentos e visitava os doentes. Os ocupantes proibiram o culto e voltaram a permitir que os homens tivessem várias mulheres. Pedro se opôs em público e defendeu o casamento de um só homem com uma só mulher.",
         "Foi preso em 1945 e morto na prisão, em julho daquele ano. Foi beatificado por São João Paulo II em 1995 e canonizado pelo Papa Leão XIV em 19 de outubro de 2025, o primeiro santo do seu país.",
       ],
-      padroeiro: ["dos catequistas"],
     },
     {
       id: "santo-inacio-maloyan",
@@ -410,7 +406,7 @@ const acervo: AcervoDeSantos = {
       resumo: "Arcebispo armênio católico de Mardin, morto em 1915 por não renegar a fé.",
       historia: [
         "Inácio Maloyan nasceu em 1869, em Mardin, cidade que hoje fica no sudeste da Turquia, numa família armênia católica. Formou-se no convento de Bzommar, no Líbano, e foi ordenado padre em 1896. Trabalhou no Egito e, em 1911, foi nomeado arcebispo de Mardin, a sua cidade natal.",
-        "Em 1915, durante a perseguição contra os armênios no Império Otomano, foi preso com padres e muitos fiéis da sua diocese. As autoridades lhe ofereceram a liberdade se aceitasse deixar a fé cristã. Ele recusou e animou os companheiros a permanecerem firmes. Antes de morrer, os presos puderam ainda receber a comunhão.",
+        "Em 1915, durante a perseguição contra os armênios no Império Otomano, foi preso com padres e muitos fiéis da sua diocese. As autoridades lhe ofereceram a liberdade se aceitasse deixar a fé cristã. Ele recusou e animou os companheiros a permanecerem firmes. Segundo os relatos, antes de serem mortos, o arcebispo pôde ainda dar a comunhão aos companheiros.",
         "Foi morto em 11 de junho de 1915, junto com centenas de cristãos. Foi beatificado por São João Paulo II em 2001 e canonizado pelo Papa Leão XIV em 19 de outubro de 2025. É lembrado como testemunha da fé dos cristãos do Oriente, que tantas vezes pagaram com a vida a fidelidade a Cristo.",
       ],
     },
@@ -497,11 +493,11 @@ const acervo: AcervoDeSantos = {
       situacao: "beato",
       pais: "Argélia",
       nomes: ["Pedro", "Cristiano", "Henrique"],
-      resumo: "Dezenove religiosos e um bispo mortos na Argélia nos anos 1990, entre eles os monges de Tibhirine.",
+      resumo: "Um bispo e dezoito religiosos e religiosas mortos na Argélia nos anos 1990, entre eles os monges de Tibhirine.",
       historia: [
         "Nos anos 1990, a Argélia viveu uma guerra civil marcada por atentados de grupos armados extremistas. Milhares de argelinos morreram. Alguns religiosos e religiosas católicos decidiram ficar no país, ao lado do povo muçulmano com quem viviam e trabalhavam, mesmo sabendo do perigo. Entre 1994 e 1996, dezenove deles foram assassinados.",
         "O primeiro foi o irmão marista Henrique Vergès, morto em 8 de maio de 1994, junto com uma irmã, na biblioteca onde atendiam estudantes em Argel. Em 1996 foram sequestrados e mortos sete monges trapistas do mosteiro de Tibhirine, entre eles o prior Cristiano de Chergé, que deixou um testamento espiritual em que perdoava antecipadamente quem o matasse. Em 1º de agosto de 1996, Pedro Claverie, bispo de Orã, morreu num atentado a bomba com o seu jovem motorista muçulmano.",
-        "Os dezenove foram beatificados em Orã, em 8 de dezembro de 2018, a primeira beatificação num país de maioria muçulmana. A sua memória é celebrada em 8 de maio. São lembrados como testemunhas do amor que permanece e do diálogo com os irmãos muçulmanos.",
+        "Os dezenove foram beatificados em Orã, em 8 de dezembro de 2018. A sua memória é celebrada em 8 de maio. São lembrados como testemunhas do amor que permanece e do diálogo com os irmãos muçulmanos.",
       ],
     },
     {
@@ -640,7 +636,7 @@ const acervo: AcervoDeSantos = {
         "Em 1955 casou-se com o engenheiro Pietro Molla e tiveram três filhos. Em 1961, grávida do quarto filho, descobriu um tumor no útero. Diante das opções médicas, pediu que se salvasse a criança, mesmo que isso lhe custasse a vida. Em 21 de abril de 1962 nasceu Gianna Emanuela. A mãe morreu uma semana depois, em 28 de abril de 1962, aos 39 anos.",
         "Foi beatificada em 1994 e canonizada por São João Paulo II em 16 de maio de 2004, com a presença do marido e dos filhos. O milagre aprovado para a canonização aconteceu no Brasil, com uma gestante de Franca, em São Paulo. É lembrada como exemplo de amor à vida e à família.",
       ],
-      padroeiro: ["das mães", "das gestantes"],
+      padroeiro: ["das mães"],
     },
     {
       id: "santos-luis-e-zelia-martin",
@@ -656,7 +652,6 @@ const acervo: AcervoDeSantos = {
         "Tiveram nove filhos, dos quais quatro morreram pequenos. As cinco filhas que sobreviveram foram religiosas, e a caçula é Santa Teresinha do Menino Jesus. Em casa rezavam juntos, iam à missa cedo, guardavam o domingo, ajudavam os pobres e trabalhavam com honestidade. As cartas de Zélia mostram uma mãe cheia de fé, de bom humor e de preocupação com cada filha.",
         "Zélia morreu de câncer em 28 de agosto de 1877. Luís mudou-se com as filhas para Lisieux, aceitou que todas se consagrassem a Deus e passou os últimos anos com uma grave doença que lhe afetou a mente. Morreu em 29 de julho de 1894. Foram beatificados em 2008 e canonizados pelo Papa Francisco em 18 de outubro de 2015, durante o Sínodo sobre a família.",
       ],
-      padroeiro: ["dos casais", "das famílias"],
     },
     {
       id: "sao-bartolo-longo",
@@ -672,7 +667,6 @@ const acervo: AcervoDeSantos = {
         "Indo cuidar de terras no vale de Pompeia, encontrou um povo pobre e sem instrução religiosa. Decidiu difundir ali o Rosário. Em 1875 conseguiu um velho quadro de Nossa Senhora do Rosário, e em 1876 começou a construir uma igreja, que se tornou o grande Santuário de Pompeia. Escreveu a Súplica a Nossa Senhora de Pompeia, rezada até hoje, e a novena do Rosário de 54 dias se espalhou a partir dali. Casou-se com a condessa Mariana de Fusco, com quem fundou obras para órfãos e para os filhos de presos.",
         "Morreu em Pompeia, em 5 de outubro de 1926. Foi beatificado em 1980 e canonizado pelo Papa Leão XIV em 19 de outubro de 2025.",
       ],
-      padroeiro: ["dos devotos do Rosário"],
     },
     {
       id: "sao-jose-gregorio-hernandez",
@@ -688,7 +682,6 @@ const acervo: AcervoDeSantos = {
         "Quis duas vezes deixar tudo pela vida religiosa: foi para a Cartuxa, na Itália, e depois estudou no seminário em Roma, mas a saúde não permitiu que continuasse. Entendeu que Deus o queria leigo, servindo como médico. Era terceiro franciscano, ia à missa todos os dias e atendia os pobres de graça, muitas vezes dando também o dinheiro para os remédios. O povo o chamava de médico dos pobres.",
         "Em 29 de junho de 1919, em Caracas, quando ia levar remédio a uma doente pobre, foi atropelado por um carro e morreu. Foi beatificado em 2021 e canonizado pelo Papa Leão XIV em 19 de outubro de 2025, o primeiro santo da Venezuela. A sua memória é celebrada em 26 de outubro, dia do seu nascimento.",
       ],
-      padroeiro: ["dos médicos", "dos estudantes de medicina"],
     },
     {
       id: "sao-artemides-zatti",
@@ -704,7 +697,6 @@ const acervo: AcervoDeSantos = {
         "Ao cuidar de um padre doente, contraiu tuberculose e foi mandado para Viedma, na Patagônia, onde havia um pequeno hospital. Prometeu a Nossa Senhora Auxiliadora que, se ficasse curado, dedicaria a vida aos doentes. Curou-se e cumpriu a promessa: tornou-se irmão salesiano, não padre, e por cerca de quarenta anos cuidou do hospital e da farmácia de Viedma. Percorria a cidade de bicicleta para atender os doentes em casa, sobretudo os pobres, a qualquer hora do dia ou da noite.",
         "Era alegre, rezava muito e confiava na Providência para sustentar o hospital. Morreu em Viedma, em 15 de março de 1951. Foi beatificado em 2002 e canonizado pelo Papa Francisco em 9 de outubro de 2022.",
       ],
-      padroeiro: ["dos enfermeiros"],
     },
     {
       id: "sao-jose-gabriel-brochero",
@@ -781,7 +773,6 @@ const acervo: AcervoDeSantos = {
         "Aos 31 anos entrou nos capuchinhos como irmão leigo e recebeu o nome de Conrado. Foi enviado ao convento de Santa Ana, em Altötting, o maior santuário mariano da Alemanha, e ali foi porteiro durante 41 anos. Atendia os peregrinos, os pobres que pediam comida e as crianças que vinham à porta. Recebia todos com paciência e bondade, mesmo nos dias mais cheios. Nos intervalos, rezava num pequeno recanto de onde podia ver o sacrário.",
         "Morreu em 21 de abril de 1894. Foi beatificado em 1930 e canonizado pelo Papa Pio XI em 20 de maio de 1934. Ensina que o serviço humilde, feito por amor, é caminho de santidade.",
       ],
-      padroeiro: ["dos porteiros"],
     },
     {
       id: "sao-leopoldo-mandic",
@@ -797,7 +788,6 @@ const acervo: AcervoDeSantos = {
         "Desejava ir como missionário ao Oriente, para trabalhar pela união dos cristãos ortodoxos com a Igreja Católica, mas os superiores o mantiveram na Itália. Em Pádua, onde viveu a maior parte da vida, ficava muitas horas por dia no confessionário, atendendo pessoas de todas as condições. Era conhecido pela misericórdia: dizia que, se o Senhor o repreendesse por ser bondoso demais, responderia que o exemplo tinha vindo d'Ele. Ofereceu a vida pela unidade dos cristãos.",
         "Morreu em Pádua, em 30 de julho de 1942. Foi beatificado em 1976 e canonizado por São João Paulo II em 16 de outubro de 1983. Nos capuchinhos, a sua memória é celebrada em 12 de maio.",
       ],
-      padroeiro: ["dos confessores"],
     },
     {
       id: "beato-frederico-ozanam",
@@ -813,7 +803,6 @@ const acervo: AcervoDeSantos = {
         "Em 1833, quando era estudante, um colega o desafiou a mostrar as obras da fé dos católicos. Com alguns amigos, e orientados pela Irmã Rosália Rendu, Filha da Caridade, começou a visitar famílias pobres em casa. Assim nasceu a Conferência de Caridade, que se tornou a Sociedade de São Vicente de Paulo e se espalhou pelo mundo. Ozanam defendia que a caridade não basta sem a justiça e escreveu sobre a situação dos operários.",
         "Casou-se em 1841 com Amélia Soulacroix e tiveram uma filha. Doente, morreu em Marselha, em 8 de setembro de 1853, aos 40 anos. Foi beatificado por São João Paulo II em Paris, em 22 de agosto de 1997. A sua memória é celebrada em 9 de setembro. Os vicentinos são muito presentes nas paróquias do Brasil.",
       ],
-      padroeiro: ["dos vicentinos"],
     },
     {
       id: "beata-paulina-jaricot",
@@ -841,7 +830,7 @@ const acervo: AcervoDeSantos = {
       resumo: "O último imperador da Áustria, que buscou a paz na Primeira Guerra Mundial e morreu no exílio na Madeira.",
       historia: [
         "Carlos de Habsburgo nasceu em 17 de agosto de 1887, na Áustria, e foi educado na fé católica. Em 21 de outubro de 1911 casou-se com a princesa Zita de Bourbon-Parma, com quem teve oito filhos. Viviam uma vida de oração em família.",
-        "Em 1916, no meio da Primeira Guerra Mundial, tornou-se imperador da Áustria e rei da Hungria. Desde o começo procurou acabar com a guerra e apoiou as propostas de paz do Papa Bento XV. Tentou proteger a população civil, proibiu certos métodos de guerra e criou iniciativas de assistência social. As suas tentativas de paz fracassaram.",
+        "Em 1916, no meio da Primeira Guerra Mundial, tornou-se imperador da Áustria e rei da Hungria. Desde o começo procurou acabar com a guerra e apoiou as propostas de paz do Papa Bento XV. Tentou proteger a população civil, procurou diminuir o sofrimento da população e criou iniciativas de assistência social. As suas tentativas de paz fracassaram.",
         "Com a derrota, em 1918, deixou o governo e foi para o exílio, que terminou na ilha da Madeira, em Portugal. Ali viveu pobremente com a família. Adoeceu de pneumonia e morreu em Funchal, em 1º de abril de 1922, aos 34 anos, perdoando os inimigos. Foi beatificado por São João Paulo II em 3 de outubro de 2004. A sua memória é celebrada em 21 de outubro, aniversário do casamento.",
       ],
     },
