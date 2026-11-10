@@ -46,3 +46,5 @@ Dt 12,23: "o sangue lhes serve de alma ... não deves comer a alma com a carne" 
 Dt 14,5: "o unicórnio" (Vulgata "pygargum", um antílope) e "camelo pardo" (girafa) mantidos como no Figueiredo; "órige" atualizado para "órix".
 Dt 14,18: "onocrótalo" vertido "pelicano" (é o mesmo animal); "caradrio", "porfirião", "ixião" e "querogrilo" (14,7) mantidos, sem equivalente seguro.
 Dt 14,21: Figueiredo "Mas dá-a para que a coma, ou vende-a ao peregrino" (a dois destinatários?) | Vulgata: "Peregrino ... da ut comedat, aut vende ei" | Douay-Rheims: "Give it to the stranger ... to eat, or sell it to him" | decidido: pelo latim, o estrangeiro é quem recebe nos dois casos ("Dá-o ao estrangeiro ... ou vende-o a ele"); a ordem do Figueiredo só deixou a frase ambígua.
+Dt 15,14: Figueiredo: "e do teu lugar" | Vulgata: "et torculari tuo" | Douay-Rheims: "and thy winepress" | decidido: "do teu lagar" (letra trocada na edição de 1950).
+Dt 15,14: "far-lhe-ás o alforje para o caminho" vertido "lhe darás provisões para o caminho".

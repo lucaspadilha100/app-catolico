@@ -39,3 +39,6 @@ Nm 14,28: Figueiredo: "assim vo-lo-ei de eu fazer" (frase truncada na edição) 
 Nm 14,18: o Figueiredo passa da terceira pessoa ("O Senhor é paciente") à segunda ("tu que visitas"), como a Vulgata ("qui visitas"); mantido.
 Nm 15,25: Figueiredo: "porque não pescaram voluntariamente" | Vulgata: "quoniam non sponte peccaverunt" | Douay-Rheims: "because they sinned ignorantly" | decidido: "pecaram" (letra a mais na edição).
 Nm 15,4: "efi" vertido "efá" e "dizimas" (15,6.9) "décimos".
+Nm 16,10: Figueiredo: "Foi acaso para isso que êle chamou para junto" + nota de rodapé no lugar do resto ("o último da família. Núm 3, 19-30. A revolta de Coré deveria ferir…") | Vulgata: "idcirco ad se fecit accedere te et omnes fratres tuos filios Levi, ut vobis etiam sacerdotium vindicetis" | Douay-Rheims: "Did he therefore make thee and all thy brethren the sons of Levi to approach unto him, that you should challenge to yourselves the priesthood also" | decidido: nota retirada e texto restaurado pelo latim; em restaurados.json. O conferir acusa tamanho (0.39) por causa da nota longa da fonte.
+Nm 16,14: Figueiredo: "Por certo que tu nos meteste numa terra…" (ironia de Datan e Abiron, Vulgata "Revera induxisti nos") | decidido: mantida a ironia, com ponto de exclamação.
+Nm 16,30: "desçam vivos ao inferno" (Vulgata "in infernum") mantido como no Figueiredo (também 16,33).
