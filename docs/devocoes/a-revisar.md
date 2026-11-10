@@ -111,3 +111,21 @@ ponto de atenção.
   Vigília depois do anoitecer; "mãe de todas as santas vigílias" (Santo
   Agostinho); jejum pascal (Sacrosanctum Concilium 110).
 - "Domingo da Páscoa na Ressurreição do Senhor", forma do Missal no Brasil.
+
+## Novenas de Nossa Senhora (Aparecida, Imaculada, Graças, Carmo, Apresentação, Fátima)
+- Apresentação: 21/11/1753, o caixote nas pedras do Potengi e a Pedra do Rosário
+  como tradição (a Arquidiocese diz que não há documento da época). Omitidos: se
+  a imagem trazia o Menino e a inscrição "onde esta imagem aparecer…". Conferir
+  "padroeira de Natal e da sua Arquidiocese".
+- Aparecida: nomes dos três pescadores, 1717, Paraíba do Sul, corpo e depois
+  cabeça, Pio XI em 1930. Pesca abundante e imagem na casa de um pescador como
+  tradição.
+- Graças: 18/19 de julho e 27 de novembro de 1830, Rue du Bac; detalhes da
+  medalha atribuídos ao relato de Santa Catarina Labouré.
+- Carmo: escapulário a São Simão Stock como "a tradição carmelita conta"; sem
+  privilégio sabatino; "não é amuleto" (CIC 1670, 2111).
+- Fátima: agosto "dias depois, nos Valinhos" (sem o dia); visão do inferno com
+  sobriedade; aprovação pelo bispo de Leiria em 1930; falas em discurso
+  indireto, sem copiar as Memórias de Lúcia.
+- CIC citados: 410-411, 488-492, 618, 829, 968, 970, 972, 1033-1035, 1451, 1670,
+  2111, 2518-2519, 2709.
