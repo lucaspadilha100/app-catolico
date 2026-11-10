@@ -100,12 +100,33 @@ export async function salvarParoquia(dados: Partial<Paroquia> & { id?: string })
   const { id, ...resto } = dados;
   delete (resto as Record<string, unknown>).atualizado_em;
   delete (resto as Record<string, unknown>).busca;
+  delete (resto as Record<string, unknown>).conferida_em;
   if (id) {
     ou(await c.from("paroquias").update(resto).eq("id", id));
     return id;
   }
   const r = ou(await c.from("paroquias").insert(resto).select("id").single()) as { id: string };
   return r.id;
+}
+
+export interface ParoquiaDoPainel {
+  id: string;
+  nome: string;
+  bairro: string;
+  cidade: string;
+  lat: number | null;
+  conferida_em: string | null;
+  ativa: boolean;
+}
+
+export async function paroquiasDoPainel(): Promise<ParoquiaDoPainel[]> {
+  const c = await cliente();
+  return ou(await c.from("paroquias").select("id, nome, bairro, cidade, lat, conferida_em, ativa").order("nome").limit(1000)) as ParoquiaDoPainel[];
+}
+
+export async function marcarConferida(id: string, conferida: boolean) {
+  const c = await cliente();
+  ou(await c.from("paroquias").update({ conferida_em: conferida ? new Date().toISOString() : null }).eq("id", id));
 }
 
 export async function salvarHorario(h: Omit<Horario, "id"> & { id?: string }) {

@@ -55,7 +55,8 @@ describe("paróquias", () => {
     await como("authenticated", GESTOR_ID, "insert into public.horarios (paroquia_id, tipo, dia_semana, hora) values ($1, 'adoracao', 4, '20:00')", [matriz]);
     const outra = await como("authenticated", GESTOR_ID, "update public.paroquias set telefone = '1' where id = $1", [capela]);
     expect(outra.affectedRows ?? 0).toBe(0);
-    await como("authenticated", GESTOR_ID, "update public.paroquias set verificada = false, ativa = false where id = $1", [matriz]);
+    await como("authenticated", GESTOR_ID, "update public.paroquias set verificada = false, ativa = false, conferida_em = now() where id = $1", [matriz]);
+    expect((await db.query("select conferida_em from public.paroquias where id = $1", [matriz])).rows[0]).toEqual({ conferida_em: null });
     expect((await db.query("select verificada, ativa, telefone from public.paroquias where id = $1", [matriz])).rows[0]).toEqual({ verificada: true, ativa: true, telefone: "8432210000" });
     await como("authenticated", GESTOR_ID, "insert into public.avisos_paroquia (paroquia_id, texto, ate) values ($1, 'Festa da padroeira', '2099-11-21')", [matriz]);
     expect((await como("anon", null, "select texto from public.avisos_paroquia")).rows).toEqual([{ texto: "Festa da padroeira" }]);

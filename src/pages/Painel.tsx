@@ -6,11 +6,13 @@ import {
   adicionarGestor,
   apagarAviso,
   apagarHorario,
-  buscarParoquias,
   carregarParoquia,
   confirmarParoquia,
   coordenadasDoEndereco,
+  marcarConferida,
   minhasParoquiasDeGestor,
+  paroquiasDoPainel,
+  type ParoquiaDoPainel,
   revisarSugestao,
   salvarAviso,
   salvarHorario,
@@ -20,7 +22,7 @@ import {
   type ParoquiaCompleta,
 } from "@/paroquias/api";
 import { descreverSemanas, hhmm, NOME_DO_DIA } from "@/paroquias/horarios";
-import { NOME_DO_TIPO_DE_HORARIO, NOME_DO_TIPO_DE_IGREJA, type Horario, type Paroquia, type ParoquiaResumo, type Sugestao, type TipoDeHorario } from "@/paroquias/tipos";
+import { NOME_DO_TIPO_DE_HORARIO, NOME_DO_TIPO_DE_IGREJA, type Horario, type Paroquia, type Sugestao, type TipoDeHorario } from "@/paroquias/tipos";
 import { Cartao } from "@/components/Cartao";
 import { Cabecalho, Carregando, Voltar } from "@/components/Devocao";
 
@@ -119,27 +121,59 @@ function Sugestoes() {
   );
 }
 
-function BuscarParaEditar() {
+function ListaDoPainel() {
+  const [lista, setLista] = useState<ParoquiaDoPainel[] | null>(null);
+  const [filtro, setFiltro] = useState<"conferir" | "conferidas" | "todas">("conferir");
   const [termo, setTermo] = useState("");
-  const [lista, setLista] = useState<ParoquiaResumo[]>([]);
   useEffect(() => {
-    if (termo.trim().length < 2) {
-      setLista([]);
-      return;
-    }
-    const t = setTimeout(() => void buscarParoquias({ termo: termo.trim(), raioKm: 5000, limite: 20 }).then(setLista).catch(() => setLista([])), 300);
-    return () => clearTimeout(t);
-  }, [termo]);
+    paroquiasDoPainel()
+      .then(setLista)
+      .catch(() => setLista([]));
+  }, []);
+  if (lista === null) return <Carregando />;
+  const t = termo
+    .normalize("NFD")
+    .replace(/\p{M}/gu, "")
+    .toLowerCase()
+    .trim();
+  const visiveis = lista
+    .filter((p) => (filtro === "conferir" ? !p.conferida_em : filtro === "conferidas" ? !!p.conferida_em : true))
+    .filter((p) => !t || `${p.nome} ${p.bairro} ${p.cidade}`.normalize("NFD").replace(/\p{M}/gu, "").toLowerCase().includes(t));
+  const contagem = { conferir: lista.filter((p) => !p.conferida_em).length, conferidas: lista.filter((p) => p.conferida_em).length, todas: lista.length };
   return (
     <section className="flex flex-col gap-2">
       <h2 className="px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto">Paróquias</h2>
-      <input value={termo} onChange={(e) => setTermo(e.target.value)} placeholder="Buscar para editar" aria-label="Buscar para editar" className={CAMPO} />
-      {lista.map((p) => (
-        <Link key={p.id} to={`/painel/paroquia/${p.id}`} className="flex min-h-12 items-center justify-between rounded-xl border border-borda bg-cartao px-4">
-          <span>
-            {p.nome} <span className="text-sm text-tinta-suave">· {p.cidade}</span>
+      <div className="flex flex-wrap gap-2" role="group">
+        {(
+          [
+            ["conferir", "Para conferir"],
+            ["conferidas", "Conferidas"],
+            ["todas", "Todas"],
+          ] as const
+        ).map(([v, nome]) => (
+          <button
+            key={v}
+            type="button"
+            aria-pressed={filtro === v}
+            onClick={() => setFiltro(v)}
+            className={`min-h-10 rounded-full border px-4 text-sm font-medium ${filtro === v ? "border-transparent bg-destaque text-sobre-destaque" : "border-borda bg-cartao text-tinta"}`}
+          >
+            {nome} ({contagem[v]})
+          </button>
+        ))}
+      </div>
+      <input value={termo} onChange={(e) => setTermo(e.target.value)} placeholder="Filtrar pelo nome ou bairro" aria-label="Filtrar" className={CAMPO} />
+      {visiveis.map((p) => (
+        <Link key={p.id} to={`/painel/paroquia/${p.id}`} className="flex min-h-14 items-center gap-3 rounded-xl border border-borda bg-cartao px-4 py-2">
+          <span className="min-w-0 flex-1">
+            <span className="block leading-snug text-tinta">{p.nome}</span>
+            <span className="block text-sm text-tinta-suave">
+              {[p.bairro, p.cidade, p.lat === null && "sem mapa", !p.ativa && "oculta", p.conferida_em && `conferida em ${new Date(p.conferida_em).toLocaleDateString("pt-BR")}`]
+                .filter(Boolean)
+                .join(" · ")}
+            </span>
           </span>
-          <ChevronRight className="size-5 text-tinta-suave" aria-hidden />
+          <ChevronRight className="size-5 shrink-0 text-tinta-suave" aria-hidden />
         </Link>
       ))}
     </section>
@@ -180,7 +214,7 @@ export function Painel() {
                 <Plus className="size-5" aria-hidden /> Nova paróquia
               </Link>
               <Sugestoes />
-              <BuscarParaEditar />
+              <ListaDoPainel />
             </>
           )}
         </>
@@ -514,6 +548,16 @@ export function EditarParoquia() {
           <button type="button" onClick={() => void confirmarParoquia(id).then(recarregar)} className={BOTAO_CLARO}>
             Os horários foram conferidos hoje
           </button>
+          {acesso.admin && (
+            <Cartao className="flex flex-col gap-3">
+              <p className="text-tinta">
+                {dados.paroquia.conferida_em ? `Dados conferidos em ${new Date(dados.paroquia.conferida_em).toLocaleDateString("pt-BR")}` : "Dados ainda não conferidos"}
+              </p>
+              <button type="button" onClick={() => void marcarConferida(id, !dados.paroquia.conferida_em).then(recarregar)} className={dados.paroquia.conferida_em ? BOTAO_CLARO : BOTAO}>
+                {dados.paroquia.conferida_em ? "Desfazer conferência" : "Marcar como conferida"}
+              </button>
+            </Cartao>
+          )}
           {dados.paroquia.verificada && <Avisos dados={dados} aoMudar={recarregar} />}
           {acesso.admin && (
             <Cartao className="flex flex-col gap-3">
