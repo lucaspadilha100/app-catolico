@@ -36,3 +36,6 @@ Jt 10,20: "o adorou, prostrando-se em terra" vertido "prostrou-se diante dele, i
 Jt 11,6: asterisco e número solto "* 1" depois de "tu": retirados.
 Jt 11,9: Figueiredo: "E porque os filhos de Israel ofenderam o seu Deus" | Vulgata: "quoniam sciunt se offendisse Deum suum" | Douay-Rheims: "because the children of Israel know they have offended" | decidido: "sabem que ofenderam" (palavra que falta na edição de 1950).
 Jt 11,18: "aos seus oficiais" vertido "aos seus servos" (Vulgata "pueris ejus", DR "servants").
+Jt 12,2: "para não vir sôbre mim a indignação" mantido do Figueiredo (Vulgata "offensio", DR "sin").
+Jt 12,4: Figueiredo: "à tenda, que ela tinha ordenado" | Vulgata: "in tabernaculum quod præceperat" | Douay-Rheims: "which he had commanded" | decidido: "a tenda que ele tinha mandado" (Holofernes deu a ordem em 12,1).
+Jt 12,14: número solto "1" no fim do versículo: retirado.
