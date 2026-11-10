@@ -31,6 +31,28 @@ configurado desde o início) · **Supabase** plano gratuito (projeto
 - O app abre e reza **sem conta**. Conta (Google ou e-mail) é opcional:
   sincronizar entre aparelhos e comunidade.
 
+## Banco (Supabase)
+- Migração nova em `supabase/migrations/` (timestamp sequencial). A
+  **integração do Supabase com o GitHub aplica sozinha** o que chega na `main`
+  (conferido em 11/11/2026: a 20261111000000 entrou sem ninguém colar SQL).
+  ⚠️ Por isso toda migração precisa poder rodar de novo sem erro (`if not
+  exists`, `create or replace`, `drop policy if exists`): o teste roda todas
+  duas vezes.
+- **Toda regra tem teste** em `src/conta/regras.node.test.ts`: Postgres em
+  memória (PGlite) com um `auth` falso (`supabase/testes/base.sql`), papéis
+  `anon` e `authenticated`. O teste também barra: tabela pública sem RLS,
+  função DEFINER sem `search_path`, função executável por `anon` fora da
+  lista.
+- ⚠️ Nunca `using (true)` nem `auth.uid() is not null` em dado de pessoa:
+  `usuario_id = (select auth.uid())`. Toda função nova: `revoke execute ...
+  from public, anon` e `grant` explícito.
+- Sincronização (`src/conta/sincronizar.ts`): tabela `sincronizacao`, uma
+  linha por chave do localStorage (`CHAVES_SINCRONIZADAS`). Chave nova que é
+  da pessoa entra na lista e, se der para juntar, em `mesclar`. O cofre já
+  sobe embaralhado com o PIN.
+- O cliente do Supabase só carrega para quem entra na conta (import
+  dinâmico). A contagem de uso é um `fetch` solto, sem identificar ninguém.
+
 ## Acabamento profissional (pedido do dono, 10/11/2026)
 - **Sem cara de IA.** Código sem comentários explicativos (só o raro que evita
   um erro real); nomes claros falam por si.

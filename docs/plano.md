@@ -129,13 +129,14 @@ Legenda: ✅ pronto · 🔨 em andamento · ⬜ a fazer · 👤 precisa do dono
 - ⬜ 👤 Revisar o exame e os guias (`docs/confissao/a-revisar.md`)
 - ⬜ Sincronizar com a conta (Leva 10)
 
-### Leva 10. Conta e sincronização ⬜
-- ⬜ Banco no Supabase com regras de acesso (RLS) e testes das regras
-- ⬜ 👤 Colar os blocos SQL no Supabase
-- ⬜ Login opcional (Google e e-mail) e apagar conta
-- ⬜ Sincronizar marcações, notas, falecidos, diário, progresso
-- ⬜ Exame de consciência criptografado com PIN
-- ⬜ Política de privacidade, termos de uso, métricas anônimas
+### Leva 10. Conta e sincronização 🔨
+- ✅ Banco com regras de acesso, testadas num Postgres em memória; a integração do GitHub aplicou a migração sozinha
+- ✅ Tela Conta: entrar com e-mail (link) ou Google, sair, apagar a conta
+- ✅ Sincronização entre aparelhos: novenas, dias de oração, falecidos, santos de devoção, leitura da Bíblia, terços, preferências e o cofre (exame, propósitos e diário embaralhados com o PIN)
+- ✅ Política de privacidade e termos de uso
+- ✅ Contagem anônima de uso (quantas aberturas por dia, sem identificar ninguém)
+- ⬜ 👤 Supabase: endereço do site e de retorno do login; provedor Google; e-mail próprio (SMTP) para o link de entrada chegar a qualquer pessoa
+- ⬜ 👤 Contato do responsável na política de privacidade (`src/conta/textos.ts`, `CONTATO`)
 
 ### Leva 11. Missas e paróquias ⬜
 - ⬜ Perfil oficial da paróquia: endereço, mapa, secretaria, Instagram, site
