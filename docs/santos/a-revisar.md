@@ -45,3 +45,18 @@ público, CC0), baixadas por `npm run gerar:santos`.
   Apolinário e São Pedro: tradição não confirmada. Maria Madalena: a
   identificação com a pecadora é tradição ocidental.
 - Tirada a imagem de Fisher e More (o retrato mostrava só More).
+
+## Agosto e setembro
+- Santa Dulce: 13/8/1933, hábito e nome Dulce (conferido em jornais e no Senado).
+- Tradições marcadas como tais: diáconos de Sisto II, a grelha de São Lourenço,
+  o cativeiro de Vicente de Paulo em Túnis, a liquefação do sangue de São
+  Januário (sem pronunciamento oficial da Igreja). Cosme e Damião: os doces
+  das crianças, sem falar do sincretismo. Santa Maria Maior: o papa Francisco
+  sepultado ali (2025).
+- Padroados de costume: Caetano (pão e trabalho, desempregados), Lourenço
+  (cozinheiros), Gregório (músicos, professores), Belarmino (catequistas),
+  Mateus (contadores).
+- Nomes do "seu santo" escolhidos: Inês (Teresa de Calcutá), Edite (Edith
+  Stein), Natanael (Bartolomeu), Levi (Mateus), Regina, Neves.
+- Imagens tiradas: São Bernardo (desenho com um rei) e Santa Rosa de Lima
+  (figura pequena e escura). A da Exaltação da Cruz é uma crucifixão comum.

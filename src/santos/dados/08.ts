@@ -276,7 +276,6 @@ const mes: MesDeSantos = {
         "Sua palavra atraía muita gente para a vida monástica, e a Ordem Cisterciense se espalhou por toda a Europa. Mesmo amando o silêncio do claustro, foi chamado a ajudar a Igreja em grandes questões: trabalhou para acabar com um cisma no papado, aconselhou papas e bispos e, a pedido do papa Eugênio III, que tinha sido monge em Claraval, pregou a Segunda Cruzada.",
         "Escreveu sermões sobre o Cântico dos Cânticos, um tratado sobre o amor de Deus e homilias sobre Nossa Senhora, em que convida o cristão a olhar para a estrela e chamar por Maria. Morreu em 20 de agosto de 1153. Foi canonizado em 1174 e declarado doutor da Igreja em 1830. Por causa da doçura dos seus escritos, é chamado de Doutor Melífluo.",
       ],
-      imagem: { artic: 3205, titulo: "King Henry of France and Saint Bernard of Clairvaux", artista: "Johann Christoph Lischka" },
     },
     {
       id: "sao-pio-x",
@@ -303,7 +302,7 @@ const mes: MesDeSantos = {
         "A festa foi instituída pelo papa Pio XII em 1954, no Ano Mariano, com a encíclica sobre a realeza de Maria, e era celebrada em 31 de maio. Na reforma do calendário depois do Concílio Vaticano II, foi colocada em 22 de agosto, oito dias depois da Assunção, para mostrar a ligação entre os dois mistérios.",
         "A realeza de Maria não é de poder, mas de serviço e de intercessão. Ela que se chamou serva do Senhor é hoje a Rainha que reza por nós junto do Filho.",
       ],
-      imagem: { artic: 68456, titulo: "The Coronation of the Virgin", artista: "English", data: "15th century" },
+      imagem: { artic: 68456, titulo: "The Coronation of the Virgin", artista: "Artista inglês desconhecido", data: "15th century" },
     },
     {
       id: "santa-rosa-de-lima",
@@ -318,7 +317,6 @@ const mes: MesDeSantos = {
         "Morreu em 24 de agosto de 1617, com apenas 31 anos. Foi canonizada em 1671 pelo papa Clemente X, a primeira santa nascida nas Américas. É padroeira de Lima, do Peru e da América Latina, onde a sua festa é celebrada neste dia.",
       ],
       padroeiro: ["da América Latina", "do Peru"],
-      imagem: { artic: 191202, titulo: "The Madonna with SS. Catherine, Rose from Lima, and Agnes from Montepulciano", artista: "Jean Honoré Fragonard", data: "1763/64" },
     },
     {
       id: "sao-bartolomeu",
@@ -374,7 +372,7 @@ const mes: MesDeSantos = {
         "Pouco depois, em Óstia, quando se preparavam para voltar à África, Mônica adoeceu. Pediu que a enterrassem em qualquer lugar e que só se lembrassem dela no altar do Senhor. Morreu em 387, com 56 anos. É padroeira das mães e das esposas, e exemplo de oração perseverante.",
       ],
       padroeiro: ["das mães", "das esposas"],
-      imagem: { artic: 102096, titulo: "Panels from the Altarpiece of The Assumption of the Virgin with Saints: Saint Monica", artista: "Italian", data: "1450-75" },
+      imagem: { artic: 102096, titulo: "Panels from the Altarpiece of The Assumption of the Virgin with Saints: Saint Monica", artista: "Artista italiano desconhecido", data: "1450-75" },
     },
     {
       id: "santo-agostinho",
