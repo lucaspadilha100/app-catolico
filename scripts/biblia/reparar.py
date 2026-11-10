@@ -20,6 +20,11 @@ def reparar_capitulo(versos):
             if ant is None: continue
             t=vs[ant]
             m=re.search(r'(?:^|(?<=[\s.;:!?]))'+LIXO+str(k)+r'\s+(?=[A-ZÁÉÍÓÚÂÊÔÀ«"])',t)
+            if not (m and m.start()>3):
+                var=''.join({'1':'[1Iil]','0':'[0Oo]','5':'[5S]','6':'[6G]'}.get(ch,ch) for ch in str(k))
+                m=None
+                for m0 in re.finditer(r'(?<=[.;:!?,] )[“"\'*]?'+var+r'[.\'"]?\s*(?=[A-ZÁÉÍÓÚÂÊÔÀ«"](?:[a-zà-ú]|\s))',t):
+                    if m0.start()>3: m=m0; break
             if m and m.start()>3:
                 vs[ant]=t[:m.start()].strip(); vs[k]=t[m.end():].strip(); mudou=True; break
     return vs

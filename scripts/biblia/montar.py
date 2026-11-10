@@ -1,6 +1,5 @@
 import json,os,re,sys
-sys.path.insert(0,os.getcwd())
-from pdf_parse import versos as versos_pdf
+sys.path.insert(0,os.getcwd()); sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)))
 destino='/home/user/app-catolico/fontes/biblia/figueiredo-1950'
 os.makedirs(destino,exist_ok=True)
 vul={}
@@ -8,6 +7,7 @@ for l in open('/home/user/app-catolico/fontes/versificacao/vul.vrs'):
     m=re.match(r'^([1-3A-Z]{3}) ((?:\d+:\d+ ?)+)$',l.strip())
     if m: vul[m.group(1)]=[int(x.split(':')[1]) for x in m.group(2).split()]
 CAPS={'EST':16,'SIR':51}
+CLEM={f[:3]:[len(c) for c in json.load(open('/home/user/app-catolico/fontes/vulgata/'+f))['capitulos']] for f in os.listdir('/home/user/app-catolico/fontes/vulgata') if f.endswith('.json')}
 livros={}; origem={}
 for f in os.listdir('bt/caps'):
     d=json.load(open('bt/caps/'+f))
@@ -28,10 +28,17 @@ if 'PSA' in livros:
     for k,t in bis.items(): livros['PSA'][113][8+k]=re.sub(r'\(\s*\d+\s*[)}\]]','',t).strip()
     print('Salmo 113 bis:',len(bis),'versículos')
 ocr=json.load(open('ocr-reparado.json'))
-for f in sorted(os.listdir('pdf1950')):
-    cod,c=f[:-4].split('_'); c=int(c)
-    if cod in origem and origem[cod]=='transcrição': continue
-    livros.setdefault(cod,{})[c]=versos_pdf('pdf1950/'+f,c); origem[cod]='pdf'
+from pdf_parse import livro as livro_pdf
+pdfs={}
+for f in os.listdir('pdf1950'):
+    if not os.path.getsize('pdf1950/'+f): continue
+    cod,c=f[:-4].split('_'); pdfs.setdefault(cod,[]).append(int(c))
+avisos=[]
+for cod,cs in sorted(pdfs.items()):
+    if origem.get(cod)=='transcrição': continue
+    n=CAPS.get(cod,len(vul[cod]))
+    livros[cod]=livro_pdf([f'pdf1950/{cod}_{c}.pdf' for c in sorted(cs)],n,aviso=lambda a,cod=cod: avisos.append(f'{cod}: {a}'),totais={i+1:v for i,v in enumerate(CLEM.get(cod,vul[cod]))})
+    origem[cod]='pdf'
 import subprocess
 quebras=set()
 for caps in livros.values():
@@ -69,6 +76,9 @@ for cod,caps in livros.items():
         for k in vs:
             novo,n=CAB.subn(' ',vs[k]); vs[k]=re.sub(r'\s+',' ',novo).strip(); removidos+=n
 print('cabeçalhos removidos do texto:',removidos)
+from corrigir import aplicar
+aplicar(livros,aviso=avisos.append)
+open('avisos-montagem.txt','w').write('\n'.join(avisos))
 relatorio=[]; tot=ok=0
 for cod,caps in sorted(livros.items()):
     n=CAPS.get(cod,len(vul.get(cod,[])) or max(caps))
@@ -79,7 +89,7 @@ for cod,caps in sorted(livros.items()):
         arr=[]
         for k in range(1,m+1):
             arr.append(vs.get(k,''))
-        esperado=vul.get(cod,[]); e=esperado[c-1] if c<=len(esperado) else None
+        esperado=CLEM.get(cod,vul.get(cod,[])); e=esperado[c-1] if c<=len(esperado) else None
         tot+=1
         vazios=[k+1 for k,t in enumerate(arr) if not t]
         if (e is None or e==m) and not vazios and m>0: ok+=1
