@@ -196,7 +196,7 @@ describe("dados de Natal (planilha do Missas.com.br)", () => {
     expect(rn.rows[0]).toEqual({ igrejas: 794, cidades: 165 });
     const caico = await c("anon", null, "select count(*)::int as n from public.buscar_paroquias('catedral sant ana caico')");
     expect(Number(caico.rows[0]!.n)).toBeGreaterThan(0);
-    const corrigidas = await c("anon", null, "select cidade from public.paroquias where nome like 'Área Pastoral de Nossa Senhora d%' order by nome");
+    const corrigidas = await c("anon", null, "select cidade from public.paroquias where fonte = 'Missas.com.br' and nome like 'Área Pastoral de Nossa Senhora d%' order by nome");
     expect(corrigidas.rows).toEqual([{ cidade: "Ceará-Mirim" }, { cidade: "Rio do Fogo" }]);
     await expect(c("anon", null, "select * from public.notas_paroquia")).rejects.toThrow();
     const h = await c("anon", null, "select tipo, count(*)::int as n from public.horarios group by tipo order by tipo");
@@ -204,7 +204,7 @@ describe("dados de Natal (planilha do Missas.com.br)", () => {
       { tipo: "confissao", n: 60 },
       { tipo: "missa", n: 397 },
     ]);
-    const santana = await c("anon", null, "select nome, bairro, (select count(*)::int from public.horarios h where h.paroquia_id = p.id and h.tipo = 'missa') as missas, conferida_em is not null as conferida from public.paroquias p where nome like 'Paróquia de Sant''Ana%' order by nome");
+    const santana = await c("anon", null, "select nome, bairro, (select count(*)::int from public.horarios h where h.paroquia_id = p.id and h.tipo = 'missa') as missas, conferida_em is not null as conferida from public.paroquias p where nome like 'Paróquia de Sant''Ana%' and cidade = 'Natal' order by nome");
     expect(santana.rows).toEqual([
       { nome: "Paróquia de Sant'Ana, Capim Macio", bairro: "Capim Macio", missas: 3, conferida: true },
       { nome: "Paróquia de Sant'Ana, Soledade II", bairro: "Potengi", missas: 9, conferida: true },
