@@ -18,3 +18,8 @@ Js 11,18: traço e letra soltos ("________ r") no fim do versículo; retirados.
 Js 12,2: lixo de OCR no meio do versículo ("desde o meio dq - m ^ vaie, e metade cie Gaíaad") lido "desde o meio do vale e metade de Galaad", pela Vulgata ("mediæ partis in valle, dimidiæque Galaad").
 Js 12,6: Figueiredo: "aos da tribo de Rúben, e aos da tribo de Manasses" (faltam Gad e a "meia" tribo) | Vulgata: "Rubenitis, et Gaditis, et dimidiæ tribui Manasse" | Douay-Rheims: "to the Rubenites, and Gadites, and the half tribe of Manasses" | decidido: restaurado "aos da tribo de Rúben, aos da tribo de Gad e à meia tribo de Manassés".
 Js 12,23: Figueiredo: "das nações de Galgai" (OCR) | Vulgata: "gentium Galgal" | Douay-Rheims: "the nations of Galgal" | decidido: "Galgal".
+Js 13,11: Figueiredo: "Gefuri" (OCR) | Vulgata: "Gessuri" | Douay-Rheims: "Gessuri" | decidido: "Gessuri", como em 13,2 e 13,13.
+Js 13,16: número de página ("— 319 —") no meio do versículo; retirado.
+Js 13,20: Figueiredo: "Belbfogor" (OCR) | Vulgata: "Bethphogor" | Douay-Rheims: "Bethphogor" | decidido: "Betfogor".
+Js 13,26: Figueiredo: "Ramot. Maste ... desde Manim" (OCR) | Vulgata: "Ramoth, Masphe ... a Manaim" | Douay-Rheims: "Ramoth, Masphe ... from Manaim" | decidido: "Ramot, Masfe ... desde Manaim".
+Js 13,31: Figueiredo: "Edxai" (OCR) | Vulgata: "Edrai" | Douay-Rheims: "Edrai" | decidido: "Edrai".
