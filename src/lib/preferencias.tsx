@@ -42,6 +42,12 @@ export function PreferenciasProvider({ children }: { children: ReactNode }) {
   const [preferencias, setPreferencias] = useState<Preferencias>(ler);
 
   useEffect(() => {
+    const ouvir = (e: StorageEvent) => e.key === CHAVE && setPreferencias(ler());
+    window.addEventListener("storage", ouvir);
+    return () => window.removeEventListener("storage", ouvir);
+  }, []);
+
+  useEffect(() => {
     aplicar(preferencias);
     if (preferencias.tema !== "sistema") return;
     const mq = matchMedia("(prefers-color-scheme: dark)");

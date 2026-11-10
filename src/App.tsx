@@ -17,6 +17,7 @@ import Exame from "@/pages/Exame";
 import { GuiaDaConfissao, GuiaDaMissa } from "@/pages/Guias";
 import Falecidos from "@/pages/Falecidos";
 import DiarioEspiritual from "@/pages/Diario";
+import Conta, { Privacidade, Termos } from "@/pages/Conta";
 import Mais from "@/pages/Mais";
 import { Missas, NaoEncontrada } from "@/pages/Simples";
 import { Biblia, BibliaCapitulo, BibliaLivro } from "@/pages/Biblia";
@@ -47,6 +48,9 @@ export default function App() {
         <Route path="rezar/missa" element={<GuiaDaMissa />} />
         <Route path="rezar/falecidos" element={<Falecidos />} />
         <Route path="diario" element={<DiarioEspiritual />} />
+        <Route path="conta" element={<Conta />} />
+        <Route path="privacidade" element={<Privacidade />} />
+        <Route path="termos" element={<Termos />} />
         <Route path="biblia" element={<Biblia />} />
         <Route path="biblia/:livro" element={<BibliaLivro />} />
         <Route path="biblia/:livro/:capitulo" element={<BibliaCapitulo />} />

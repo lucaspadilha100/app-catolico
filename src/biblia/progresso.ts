@@ -30,6 +30,13 @@ function ler(): Leitura {
 let atual: Leitura = typeof localStorage === "undefined" ? VAZIA : ler();
 const ouvintes = new Set<() => void>();
 
+if (typeof window !== "undefined")
+  window.addEventListener("storage", (e) => {
+    if (e.key !== CHAVE) return;
+    atual = ler();
+    ouvintes.forEach((o) => o());
+  });
+
 function gravar(nova: Leitura) {
   atual = nova;
   try {

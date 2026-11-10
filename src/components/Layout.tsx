@@ -3,6 +3,7 @@ import { NavLink, Link, Outlet } from "react-router-dom";
 import { BookOpen, Church, HandHeart, Menu, Sunrise, type LucideIcon } from "lucide-react";
 import { useDiaLiturgico } from "@/lib/useDiaLiturgico";
 import { Rolagem } from "@/components/Rolagem";
+import { contarAbertura } from "@/conta/uso";
 
 interface ItemMenu {
   para: string;
@@ -42,6 +43,11 @@ export default function Layout() {
     reenviar();
     window.addEventListener("online", reenviar);
     return () => window.removeEventListener("online", reenviar);
+  }, []);
+
+  useEffect(() => {
+    const t = setTimeout(contarAbertura, 5000);
+    return () => clearTimeout(t);
   }, []);
 
   useEffect(() => {

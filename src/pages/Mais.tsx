@@ -1,8 +1,9 @@
 import type { ReactNode } from "react";
-import { CalendarDays, NotebookPen, Heart, Music, Sparkles, Users } from "lucide-react";
+import { UserRound, CalendarDays, NotebookPen, Heart, Music, Sparkles, Users } from "lucide-react";
 import { usePreferencias, type Letra, type Tema } from "@/lib/preferencias";
 import { Cartao, ItemLista, TituloPagina } from "@/components/Cartao";
 import { DIOCESES } from "@/liturgia/dioceses";
+import { useConta } from "@/conta/useConta";
 
 function Escolha<T extends string>({
   rotulo,
@@ -61,12 +62,14 @@ function Interruptor({ rotulo, ligado, onChange, children }: { rotulo: string; l
 
 export default function Mais() {
   const { preferencias: p, mudar } = usePreferencias();
+  const { pronto, email } = useConta();
 
   return (
     <div>
       <TituloPagina>Mais</TituloPagina>
 
       <div className="flex flex-col gap-3">
+        <ItemLista icone={UserRound} titulo="Conta" detalhe={pronto ? (email ?? "Sem conta") : undefined} para="/conta" />
         <ItemLista icone={Sparkles} titulo="Santos" para="/santos" />
         <ItemLista icone={CalendarDays} titulo="Calendário litúrgico" para="/calendario" />
         <ItemLista icone={NotebookPen} titulo="Diário espiritual" detalhe="Diário e propósitos" para="/diario" />

@@ -1,5 +1,5 @@
-import { createContext, useCallback, useContext, useMemo, useRef, useState, type ReactNode } from "react";
-import { abrirCofre, apagarCofre, criarCofre, existeCofre, selar, type CofreAberto, type ConteudoDoCofre } from "./cofre";
+import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState, type ReactNode } from "react";
+import { CHAVE_DO_COFRE, abrirCofre, apagarCofre, criarCofre, existeCofre, selar, type CofreAberto, type ConteudoDoCofre } from "./cofre";
 
 interface Contexto {
   existe: boolean;
@@ -17,6 +17,16 @@ export function CofreProvider({ children }: { children: ReactNode }) {
   const [existe, setExiste] = useState(existeCofre);
   const [aberto, setAberto] = useState<CofreAberto | null>(null);
   const fila = useRef(Promise.resolve());
+
+  useEffect(() => {
+    const ouvir = (e: StorageEvent) => {
+      if (e.key !== CHAVE_DO_COFRE) return;
+      setExiste(existeCofre());
+      setAberto(null);
+    };
+    window.addEventListener("storage", ouvir);
+    return () => window.removeEventListener("storage", ouvir);
+  }, []);
 
   const criar = useCallback(async (pin: string) => {
     const c = await criarCofre(pin);
