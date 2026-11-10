@@ -6,3 +6,13 @@ Jr 31,22: "Uma mulher cercará a um varão" mantido com "varão" (Vulgata "femin
 Jr 31,39: Figueiredo: "o cardei ela medida" (OCR) | Vulgata: "norma mensuræ" | Douay-Rheims: "the measuring line" | decidido: "o cordel de medir".
 Jr 32,12: Figueiredo: "a Bante, filho de Neri" (OCR) | Vulgata: "Baruch filio Neri" | Douay-Rheims: "Baruch the son of Neri" | decidido: "Baruc".
 Jr 32,9: Figueiredo: "dez sidos" (OCR) | Vulgata: "decem argenteos" | Douay-Rheims: "ten pieces of silver" | decidido: "dez siclos de prata".
+Jr 36,4-5: Figueiredo: "Bante" (OCR, também em 32,12) | Vulgata: "Baruch" | Douay-Rheims: "Baruch" | decidido: "Baruc".
+Jr 36,12: Figueiredo: "Sedecias, filho de Hammias" (OCR) | Vulgata: "Sedecias filius Hananiæ" | Douay-Rheims: "Sedecias the son of Hananias" | decidido: "Hananias".
+Jr 36,26: Figueiredo: "a Jeremias, filho de Amelec" | Vulgata: "Jeremiel filio Amelech" | Douay-Rheims: "Jerameel the son of Amelech" | decidido: "Jeremiel" (provável erro de leitura que confundia o nome com o do profeta, preso no mesmo versículo).
+Jr 36,23: sinal solto "( S)" no fim do versículo (OCR); retirado.
+Jr 38,1: Figueiredo: "Safadas, filho de Matan" (OCR) | Vulgata: "Saphatias filius Mathan" | Douay-Rheims: "Saphatias the son of Mathan" | decidido: "Safatias".
+Jr 38,22: Figueiredo: fim cortado no OCR ("e se aparta- ~n ~ ~ .") | Vulgata: "et recesserunt a te" | Douay-Rheims: "and they have departed from thee" | decidido: "e se afastaram de ti".
+Jr 37,15; 38,6-13: "lago" (Vulgata "lacus") é a cisterna; ficou "cisterna".
+Jr 39,3: Figueiredo: "Sereset" na primeira vez (OCR) | Vulgata: "Sereser" | Douay-Rheims: "Sereser" | decidido: "Sereser".
+Jr 39,5: sinal solto "( S)" no fim do versículo (OCR); retirado.
+Jr 39,9-13; 40-52: "general do exército" (magister militum) ficou "comandante da guarda" para Nabuzardan.
