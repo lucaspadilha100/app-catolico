@@ -12,7 +12,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "PSA 25:1-5", poema: true },
         {
           texto:
-            "Começa hoje o Advento, o tempo em que a Igreja se prepara para celebrar a primeira vinda do Senhor, no Natal, e renova o desejo da sua volta no fim dos tempos (CIC 524). Desde muito tempo, a missa deste domingo começa com as palavras deste salmo: a vós, Senhor, elevo a minha alma. Ninguém esperou Jesus como Maria, que o trouxe no seio durante nove meses. Com ela aprendemos a esperar com paciência e confiança.",
+            "Começa hoje o Advento, o tempo em que a Igreja se prepara para celebrar a primeira vinda do Senhor, no Natal, e renova o desejo da sua volta no fim dos tempos (CIC 524). Há muitos séculos a missa deste domingo começa com as primeiras palavras deste salmo, em latim Ad te levavi: a ti, Senhor, elevei a minha alma. Ninguém esperou Jesus como Maria, que o trouxe no seio durante nove meses. Com ela aprendemos a esperar com paciência e confiança.",
         },
         {
           pratica:
