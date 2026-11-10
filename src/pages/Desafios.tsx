@@ -17,7 +17,7 @@ function quando(desafio: Desafio): string {
   if (p) return `Dia ${p.posicao + 1} de ${diasDaJanela(p.janela)}`;
   const { inicio } = proximoDesafio(desafio, d);
   const faltam = diferencaEmDias(inicio, d);
-  return faltam === 1 ? "Começa amanhã" : `Começa em ${diaEMes(inicio)}`;
+  return faltam === 1 ? "Começa amanhã" : `Começa em ${diaEMes(inicio, d)}`;
 }
 
 export function Desafios() {

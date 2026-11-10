@@ -2,7 +2,6 @@ import { useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import { Check, ChevronLeft, ChevronRight } from "lucide-react";
 import { carregarViaSacra } from "@/devocao/conteudo";
-import { ordinal } from "@/devocao/calendario";
 import { registrarOracao } from "@/devocao/progresso";
 import { Blocos } from "@/components/Blocos";
 import { Cabecalho, Carregando, Indisponivel, Voltar, useConteudo } from "@/components/Devocao";
@@ -28,7 +27,7 @@ export default function ViaSacra() {
   return (
     <div className="flex flex-col gap-5">
       <Voltar para="/rezar">Rezar</Voltar>
-      <Cabecalho titulo="Via-Sacra" subtitulo={passo >= 1 && passo <= total ? `${ordinal(passo)} estação de ${total}` : undefined} />
+      <Cabecalho titulo="Via-Sacra" subtitulo={passo >= 1 && passo <= total ? `${passo}ª estação de ${total}` : undefined} />
 
       {conteudo === null ? (
         <Carregando />
@@ -75,7 +74,7 @@ export default function ViaSacra() {
                 onClick={() => (passo === total + 1 ? concluir() : ir(passo + 1))}
                 className="flex min-h-14 items-center justify-center gap-2 rounded-2xl bg-destaque px-4 text-lg font-semibold text-sobre-destaque"
               >
-                {passo === 0 ? "Começar" : passo === total ? "Oração final" : passo === total + 1 ? "Concluir" : `${ordinal(passo + 1)} estação`}
+                {passo === 0 ? "Começar" : passo === total ? "Oração final" : passo === total + 1 ? "Concluir" : `${passo + 1}ª estação`}
                 {passo <= total && <ChevronRight className="size-6" aria-hidden />}
               </button>
             </div>

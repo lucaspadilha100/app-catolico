@@ -22,7 +22,7 @@ function quando(n: Novena): string {
   const faltam = diferencaEmDias(inicio, d);
   if (faltam === 1) return "Começa amanhã";
   if (faltam <= 7) return `Começa em ${faltam} dias`;
-  return `Começa em ${diaEMes(inicio)}`;
+  return `Começa em ${diaEMes(inicio, d)}`;
 }
 
 function ItemDeNovena({ n }: { n: Novena }) {

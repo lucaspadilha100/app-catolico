@@ -48,9 +48,9 @@ function Escolha() {
             className="flex min-h-16 flex-col justify-center rounded-xl border border-borda bg-cartao px-4 py-3 text-left transition-colors hover:border-destaque-texto/40"
           >
             <span className="font-leitura text-[1.05rem] font-medium text-marca">
-              {f.nome}, {diaEMes(f.data)}
+              {f.nome}, {diaEMes(f.data, d)}
             </span>
-            <span className="text-sm text-tinta-suave">{faltam === 0 ? "Começa hoje" : `Começa em ${diaEMes(inicio)}`}</span>
+            <span className="text-sm text-tinta-suave">{faltam === 0 ? "Começa hoje" : `Começa em ${diaEMes(inicio, d)}`}</span>
           </button>
         );
       })}
