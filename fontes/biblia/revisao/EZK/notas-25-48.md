@@ -42,3 +42,6 @@ Ez 42,18: legenda de gravura grudada no fim ("AQUI É ONDE COMEM OS SACERDOTES")
 Ez 42,6: "as colunas que tinham não eram como as colunas dos átrios" mantido (Vulgata "non habebant columnas, sicut erant columnæ atriorum", "não tinham colunas como as dos átrios"): leitura do Figueiredo; o dono confere.
 Ez 42,13: "porão o Santo dos Santos" → "porão as coisas santíssimas" (Vulgata "ibi ponent Sancta sanctorum", as ofertas santíssimas; Douay-Rheims "the most holy things"); "câmaras do Tesouro" → "salas do tesouro".
 Ez 42,20: as quatro medidas de 42,16-19 são "quinhentas canas" e a de 42,20 "quinhentos côvados", como no Figueiredo e na Vulgata.
+Ez 43,7: "sepulcros dos seus reis" mantido (Vulgata "ruinis regum", os cadáveres dos reis): escolha do Figueiredo; o mesmo em 43,9. "postes" → "batentes" (43,8).
+Ez 43,13: "seio" do altar → "base" (Vulgata "sinus"); o mesmo em 43,14.17. "cornos" → "chifres" (43,15.20). Sinal "( S)" no fim de 43,18 (OCR); retirado.
+Ez 43,26: "encherão as suas mãos" mantido literal (Vulgata "implebunt manum ejus", consagrar; Douay-Rheims "consecrate it"); o dono confere se prefere "o consagrarão".
