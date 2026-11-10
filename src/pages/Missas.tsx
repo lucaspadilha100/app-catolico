@@ -25,6 +25,7 @@ import { ENDERECO_DO_SITE } from "@/marca";
 import { Cartao, LINHA, LISTA, TituloCartao, TituloPagina } from "@/components/Cartao";
 import { Cabecalho, Carregando, Indisponivel, Voltar } from "@/components/Devocao";
 import { NaoEncontrada } from "@/pages/Simples";
+import { agendaDeTercos } from "@/tercos/api";
 
 const TIPOS: TipoDeHorario[] = ["missa", "confissao", "adoracao"];
 const PERIODOS = [
@@ -176,7 +177,7 @@ function MostrarMais({ onClick, buscando, children }: { onClick: () => void; bus
   );
 }
 
-function PorHorario({ itens, agora }: { itens: ItemDaAgenda[]; agora: Date }) {
+function PorHorario({ itens, agora, base = "/missas/paroquia/" }: { itens: ItemDaAgenda[]; agora: Date; base?: string }) {
   const dias = new Map<number, ItemDaAgenda[]>();
   for (const i of itens) {
     const d = diaDe(dataDoItem(i));
@@ -195,7 +196,7 @@ function PorHorario({ itens, agora }: { itens: ItemDaAgenda[]; agora: Date }) {
               const quanto = comecou && i.ate ? `até ${hhmm(i.ate)}` : emQuanto(q, agora);
               return (
                 <li key={`${i.paroquia_id}-${i.quando}`}>
-                  <Link to={`/missas/paroquia/${i.paroquia_id}`} className="flex min-h-16 items-center gap-3 px-4 py-2.5">
+                  <Link to={`${base}${i.paroquia_id}`} className="flex min-h-16 items-center gap-3 px-4 py-2.5">
                     <span className="flex w-[4.5rem] shrink-0 flex-col">
                       <span className="text-lg font-semibold leading-tight text-destaque-texto">
                         {hhmm(i.quando.slice(11, 16))}
@@ -429,6 +430,7 @@ export function Missas() {
   const { preferencias, mudar } = usePreferencias();
   const { local, estado, pedir } = useLocal();
   const termo = params.get("q") ?? "";
+  const ehTerco = params.get("tipo") === "terco";
   const tipo = (TIPOS.includes(params.get("tipo") as TipoDeHorario) ? params.get("tipo") : "missa") as TipoDeHorario;
   const quandoBruto = params.get("quando") ?? "agora";
   const periodo = (PERIODOS.some(([v]) => v === params.get("periodo")) ? params.get("periodo") : "") as Periodo;
@@ -485,10 +487,15 @@ export function Missas() {
   const chave = consulta ? JSON.stringify(consulta) : null;
   const vazioJa = async <T,>(): Promise<T[]> => [];
 
-  const agenda = usePaginas<ItemDaAgenda>(ordem === "horario" ? chave : null, 30, (pular) =>
+  const tercos = usePaginas<ItemDaAgenda>(ehTerco ? chave : null, 30, (pular) =>
+    consulta && !consulta.passou
+      ? agendaDeTercos(consulta, pular, 30).then((r) => r.map((x) => ({ paroquia_id: x.terco_id, nome: x.nome, bairro: x.bairro, cidade: x.cidade, distancia_km: x.distancia_km, quando: x.quando, ate: null, observacao: x.observacao, total: x.total })))
+      : vazioJa(),
+  );
+  const agenda = usePaginas<ItemDaAgenda>(!ehTerco && ordem === "horario" ? chave : null, 30, (pular) =>
     consulta && !consulta.passou ? agendaDeHorarios(consulta, pular, 30) : vazioJa(),
   );
-  const igrejas = usePaginas<IgrejaComHorarios>(ordem === "igreja" ? chave : null, 20, (pular) =>
+  const igrejas = usePaginas<IgrejaComHorarios>(!ehTerco && ordem === "igreja" ? chave : null, 20, (pular) =>
     consulta && !consulta.passou ? igrejasComHorarios(consulta, pular, 20) : vazioJa(),
   );
   const t = termo.trim();
@@ -521,14 +528,18 @@ export function Missas() {
   ];
   const off = deslocamento(quando, agora);
   const diaAtivo = off === null ? "agora" : off === 0 ? "hoje" : off === 1 ? "amanha" : DIA_POR_CHAVE[(agora.getDay() + off) % 7]!;
-  const nomeDoTipo = NOME_DO_TIPO_DE_HORARIO[tipo].toLowerCase();
+  const vazio = ehTerco ? "Nenhum terço neste período." : `Nenhuma ${NOME_DO_TIPO_DE_HORARIO[tipo].toLowerCase()} neste período.`;
   const resumoOnde = modo === "cidade" ? `${cidade!.cidade}${cidade!.uf ? `, ${cidade!.uf}` : ""}` : `Perto de mim · até ${raio} km`;
   const proximoRaio = RAIOS.find((r) => r > raio);
-  const atual = ordem === "horario" ? agenda : igrejas;
+  const atual = ehTerco ? tercos : ordem === "horario" ? agenda : igrejas;
   const contagem =
     atual.carregando || atual.total === null
       ? ""
-      : ordem === "horario"
+      : ehTerco
+        ? atual.total === 1
+          ? "1 terço"
+          : `${atual.total} terços`
+        : ordem === "horario"
         ? atual.total === 1
           ? "1 horário"
           : `${atual.total} horários`
@@ -606,20 +617,26 @@ export function Missas() {
 
           {modo !== "nenhum" && (
             <>
-              <Chips opcoes={TIPOS.map((x) => [x, NOME_DO_TIPO_DE_HORARIO[x]] as const)} valor={tipo} onChange={(v) => mudarParams({ tipo: v === "missa" ? null : v })} />
+              <Chips
+                opcoes={[...TIPOS.map((x) => [x, NOME_DO_TIPO_DE_HORARIO[x]] as const), ["terco", "Terço"] as const]}
+                valor={ehTerco ? "terco" : tipo}
+                onChange={(v) => mudarParams({ tipo: v === "missa" ? null : v })}
+              />
               <Chips rolar opcoes={dias} valor={diaAtivo} onChange={(v) => mudarParams({ quando: v === "agora" ? null : v, periodo: v === "agora" ? null : periodo || null })} />
               {quando !== "agora" && <Segmentos cheio opcoes={PERIODOS} valor={periodo} onChange={(v) => mudarParams({ periodo: v || null })} />}
 
               <div className="flex items-center justify-between gap-3 pt-1">
                 <span className="text-sm text-tinta-suave">{contagem}</span>
-                <Segmentos
-                  opcoes={[
-                    ["horario", "Por horário"],
-                    ["igreja", "Por igreja"],
-                  ] as const}
-                  valor={ordem}
-                  onChange={(v) => mudarParams({ ordem: v === "horario" ? null : v })}
-                />
+                {!ehTerco && (
+                  <Segmentos
+                    opcoes={[
+                      ["horario", "Por horário"],
+                      ["igreja", "Por igreja"],
+                    ] as const}
+                    valor={ordem}
+                    onChange={(v) => mudarParams({ ordem: v === "horario" ? null : v })}
+                  />
+                )}
               </div>
 
               {atual.carregando ? (
@@ -627,7 +644,9 @@ export function Missas() {
               ) : atual.erro ? (
                 <Indisponivel />
               ) : atual.itens.length === 0 ? (
-                <p className="py-4 text-center text-tinta-suave">{`Nenhuma ${nomeDoTipo} neste período.`}</p>
+                <p className="py-4 text-center text-tinta-suave">{vazio}</p>
+              ) : ehTerco ? (
+                <PorHorario itens={tercos.itens} agora={agora} base="/tercos/" />
               ) : ordem === "horario" ? (
                 <PorHorario itens={agenda.itens} agora={agora} />
               ) : (
@@ -635,13 +654,18 @@ export function Missas() {
               )}
               {!atual.carregando && atual.temMais && (
                 <MostrarMais onClick={atual.mais} buscando={atual.buscandoMais}>
-                  {ordem === "horario" ? "Mais horários" : "Mais igrejas"}
+                  {ehTerco ? "Mais terços" : ordem === "horario" ? "Mais horários" : "Mais igrejas"}
                 </MostrarMais>
               )}
               {!atual.carregando && !atual.erro && (atual.total ?? 0) < 3 && modo === "perto" && proximoRaio && (
                 <button type="button" onClick={() => mudarParams({ raio: String(proximoRaio) })} className="min-h-11 rounded-xl border border-borda bg-cartao font-medium text-destaque-texto">
                   Procurar até {proximoRaio} km
                 </button>
+              )}
+              {ehTerco && (
+                <Link to="/tercos/novo" className="flex min-h-12 items-center justify-center gap-2 rounded-xl border border-dashed border-borda font-semibold text-destaque-texto">
+                  <Plus className="size-4" aria-hidden /> Cadastrar o terço do seu grupo
+                </Link>
               )}
             </>
           )}

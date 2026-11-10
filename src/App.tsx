@@ -23,6 +23,7 @@ import { NaoEncontrada } from "@/pages/Simples";
 import { Missas, ParoquiaPagina, Sugerir } from "@/pages/Missas";
 import { EditarParoquia, Painel } from "@/pages/Painel";
 import { Biblia, BibliaCapitulo, BibliaLivro } from "@/pages/Biblia";
+import { AoVivo, EditarEncontro, EditarTerco, TercoPagina, Tercos } from "@/pages/Tercos";
 
 export default function App() {
   return (
@@ -64,6 +65,12 @@ export default function App() {
         <Route path="missas" element={<Missas />} />
         <Route path="missas/paroquia/:id" element={<ParoquiaPagina />} />
         <Route path="missas/sugerir" element={<Sugerir />} />
+        <Route path="tercos" element={<Tercos />} />
+        <Route path="tercos/novo" element={<EditarTerco />} />
+        <Route path="tercos/:id" element={<TercoPagina />} />
+        <Route path="tercos/:id/editar" element={<EditarTerco />} />
+        <Route path="tercos/:id/encontro" element={<EditarEncontro />} />
+        <Route path="tercos/:id/ao-vivo" element={<AoVivo />} />
         <Route path="painel" element={<Painel />} />
         <Route path="painel/paroquia/:id" element={<EditarParoquia />} />
         <Route path="mais" element={<Mais />} />

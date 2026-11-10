@@ -142,30 +142,48 @@ function ModoContas({
   );
 }
 
+export interface Posicao {
+  passo: number;
+  conta: number;
+}
+
+export interface ControleDoTerco {
+  posicao: Posicao;
+  aoMudar?: (p: Posicao) => void;
+  aoTerminar?: () => void;
+  extra?: (passo: Passo) => ReactNode;
+}
+
 export function TercoGuiado({
   chave,
   tipo,
   titulo,
   passos,
   aoSair,
+  controle,
 }: {
   chave: string;
   tipo: string;
   titulo: string;
   passos: Passo[];
   aoSair: () => void;
+  controle?: ControleDoTerco;
 }) {
-  const [posicao, setPosicao] = useState(() => {
+  const [posicaoLocal, setPosicaoLocal] = useState(() => {
     const a = lerAndamento(chave);
     if (!a || a.passo >= passos.length) return { passo: 0, conta: 0 };
     return { passo: a.passo, conta: Math.min(a.conta, contasDoPasso(passos[a.passo]!) - 1) };
   });
+  const posicao = controle ? controle.posicao : posicaoLocal;
+  const aoMudar = controle?.aoMudar;
+  const setPosicao = useCallback((p: Posicao) => (controle ? aoMudar?.(p) : setPosicaoLocal(p)), [controle, aoMudar]);
+  const acompanhando = Boolean(controle && !aoMudar);
   const [concluido, setConcluido] = useState<number | null>(null);
   const [lingua, setLingua] = useGuardado<Lingua>(CHAVE_LINGUA, "pt");
   const [modoContas, setModoContas] = useGuardado<boolean>(CHAVE_MODO_CONTAS, false);
   const [intencao] = useGuardado<string>(CHAVE_INTENCAO, "");
 
-  const passo = passos[posicao.passo]!;
+  const passo = passos[Math.min(posicao.passo, passos.length - 1)]!;
   const total = contasDoPasso(passo);
 
   const unidades = useMemo(() => passos.reduce((s, p) => s + contasDoPasso(p), 0), [passos]);
@@ -175,8 +193,8 @@ export function TercoGuiado({
   );
 
   useEffect(() => {
-    if (concluido === null) guardarAndamento(chave, posicao);
-  }, [chave, posicao, concluido]);
+    if (concluido === null && !controle) guardarAndamento(chave, posicao);
+  }, [chave, posicao, concluido, controle]);
 
   useEffect(() => {
     if (!modoContas) window.scrollTo({ top: 0 });
@@ -194,10 +212,11 @@ export function TercoGuiado({
       return;
     }
     if (modoContas) vibrar([60, 100, 60, 100, 60]);
-    guardarAndamento(chave, null);
+    if (!controle) guardarAndamento(chave, null);
+    controle?.aoTerminar?.();
     setModoContas(false);
     setConcluido(contarTercoRezado(tipo));
-  }, [posicao, total, passos.length, modoContas, chave, tipo, setModoContas]);
+  }, [posicao, total, passos.length, modoContas, chave, tipo, setModoContas, setPosicao, controle]);
 
   const voltar = useCallback(() => {
     if (posicao.conta > 0) setPosicao({ passo: posicao.passo, conta: posicao.conta - 1 });
@@ -205,10 +224,10 @@ export function TercoGuiado({
       const anterior = posicao.passo - 1;
       setPosicao({ passo: anterior, conta: contasDoPasso(passos[anterior]!) - 1 });
     }
-  }, [posicao, passos]);
+  }, [posicao, passos, setPosicao]);
 
   useEffect(() => {
-    if (concluido !== null) return;
+    if (concluido !== null || acompanhando) return;
     const tecla = (e: KeyboardEvent) => {
       const alvo = e.target as HTMLElement;
       if (alvo.closest("input, textarea, button, a")) return;
@@ -222,7 +241,7 @@ export function TercoGuiado({
     };
     window.addEventListener("keydown", tecla);
     return () => window.removeEventListener("keydown", tecla);
-  }, [avancar, voltar, concluido]);
+  }, [avancar, voltar, concluido, acompanhando]);
 
   if (concluido !== null) {
     return (
@@ -238,7 +257,7 @@ export function TercoGuiado({
           <button
             type="button"
             onClick={() => {
-              setPosicao({ passo: 0, conta: 0 });
+              if (!controle) setPosicao({ passo: 0, conta: 0 });
               setConcluido(null);
             }}
             className="flex min-h-14 items-center justify-center gap-2 rounded-2xl border border-borda bg-cartao px-5 font-semibold text-tinta"
@@ -259,7 +278,7 @@ export function TercoGuiado({
 
   return (
     <div className="flex flex-col gap-5">
-      {modoContas && (
+      {modoContas && !acompanhando && (
         <ModoContas
           passo={passo}
           conta={posicao.conta}
@@ -280,14 +299,21 @@ export function TercoGuiado({
           <X className="size-5" aria-hidden />
         </button>
         <p className="min-w-0 flex-1 truncate font-medium text-tinta-suave">{titulo}</p>
-        <button
-          type="button"
-          onClick={() => setModoContas(true)}
-          className="flex min-h-11 shrink-0 items-center gap-2 rounded-xl border border-borda bg-cartao px-3 text-sm font-medium text-tinta-suave"
-        >
-          <Hand className="size-5" aria-hidden />
-          Contas
-        </button>
+        {acompanhando ? (
+          <span className="flex min-h-11 shrink-0 items-center gap-2 rounded-xl bg-marca-fundo px-3 text-sm font-semibold text-destaque-texto">
+            <span className="size-2 animate-pulse rounded-full bg-[#c0392b]" aria-hidden />
+            Ao vivo
+          </span>
+        ) : (
+          <button
+            type="button"
+            onClick={() => setModoContas(true)}
+            className="flex min-h-11 shrink-0 items-center gap-2 rounded-xl border border-borda bg-cartao px-3 text-sm font-medium text-tinta-suave"
+          >
+            <Hand className="size-5" aria-hidden />
+            Contas
+          </button>
+        )}
       </div>
 
       <div
@@ -320,6 +346,8 @@ export function TercoGuiado({
         </div>
       )}
 
+      {controle?.extra?.(passo)}
+
       {passo.misterio ? <ConteudoDoMisterio passo={passo} /> : <ConteudoDaOracao passo={passo} lingua={lingua} />}
 
       {passo.oracao && oracao(passo.oracao).la && (
@@ -328,6 +356,7 @@ export function TercoGuiado({
         </div>
       )}
 
+      {!acompanhando && (
       <div className="sticky bottom-[calc(4.75rem+env(safe-area-inset-bottom))] z-[5] grid grid-cols-[auto_1fr] gap-3 md:bottom-6">
         <button
           type="button"
@@ -347,6 +376,7 @@ export function TercoGuiado({
           <ChevronRight className="size-6" aria-hidden />
         </button>
       </div>
+      )}
     </div>
   );
 }

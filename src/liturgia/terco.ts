@@ -66,3 +66,5 @@ const POR_DIA_DA_SEMANA: GrupoDeMisterios[] = [
 ];
 
 export const misteriosDoDia = (d: Dia): Misterios => MISTERIOS[POR_DIA_DA_SEMANA[diaDaSemana(d)]!];
+
+export const grupoDoDiaDaSemana = (dia: number): GrupoDeMisterios => POR_DIA_DA_SEMANA[dia]!;

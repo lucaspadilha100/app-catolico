@@ -27,6 +27,9 @@ import {
 import { descreverSemanas, hhmm, NOME_DO_DIA } from "@/paroquias/horarios";
 import { NOME_DO_TIPO_DE_HORARIO, NOME_DO_TIPO_DE_IGREJA, type Horario, type Paroquia, type Sugestao, type TipoDeHorario } from "@/paroquias/tipos";
 import { Cartao } from "@/components/Cartao";
+import { revisarTerco, tercosParaRevisar } from "@/tercos/api";
+import type { Terco } from "@/tercos/tipos";
+import { quandoDoTerco } from "@/pages/Tercos";
 import { Cabecalho, Carregando, Voltar } from "@/components/Devocao";
 
 const CAMPO = "min-h-12 w-full rounded-xl border border-borda bg-papel px-3 text-base";
@@ -73,6 +76,38 @@ function useAcesso() {
 export function useTemPainel(): boolean {
   const a = useAcesso();
   return !!a && (a.admin || a.minhas.length > 0);
+}
+
+function TercosParaRevisar() {
+  const [lista, setLista] = useState<Terco[] | null>(null);
+  const recarregar = useCallback(() => {
+    tercosParaRevisar()
+      .then(setLista)
+      .catch(() => setLista([]));
+  }, []);
+  useEffect(recarregar, [recarregar]);
+  if (!lista?.length) return null;
+  return (
+    <section className="flex flex-col gap-2">
+      <h2 className="px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto">Terços para revisar ({lista.length})</h2>
+      {lista.map((t) => (
+        <Cartao key={t.id} className="flex flex-col gap-3 p-4">
+          <Link to={`/tercos/${t.id}`} className="flex flex-col">
+            <span className="font-medium text-tinta">{t.nome}</span>
+            <span className="text-sm text-tinta-suave">{[quandoDoTerco(t), t.comunidade, t.bairro, t.cidade].filter(Boolean).join(" · ")}</span>
+          </Link>
+          <div className="grid grid-cols-2 gap-2">
+            <button type="button" onClick={() => void revisarTerco(t.id, "aprovado").then(recarregar)} className={BOTAO}>
+              Aprovar
+            </button>
+            <button type="button" onClick={() => void revisarTerco(t.id, "recusado").then(recarregar)} className="min-h-12 rounded-xl border border-borda bg-cartao font-semibold text-tinta">
+              Recusar
+            </button>
+          </div>
+        </Cartao>
+      ))}
+    </section>
+  );
 }
 
 function Sugestoes() {
@@ -252,6 +287,7 @@ export function Painel() {
               <Link to="/painel/paroquia/nova" className={`${BOTAO} flex items-center justify-center gap-2`}>
                 <Plus className="size-5" aria-hidden /> Nova paróquia
               </Link>
+              <TercosParaRevisar />
               <Sugestoes />
               <ListaDoPainel />
             </>
