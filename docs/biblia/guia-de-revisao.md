@@ -38,7 +38,9 @@ tradição textual, vale a Vulgata (é a Bíblia que o Figueiredo traduziu).
 - Tudo o que for corrigido pela régua vai para `docs/biblia/decisoes.md`.
 - **Texto restaurado** (frase que a edição de 1950 perdeu) entra INTEIRO: nunca
   encurtar para passar no conferir. Ponha o versículo ("cap,v") em
-  `fontes/biblia/revisao/<LIVRO>/restaurados.json`, que libera o limite de tamanho.
+  `fontes/biblia/revisao/<LIVRO>/restaurados.json`, que libera o limite de tamanho. Versículo que ficou curto porque a fonte trazia
+  nota de rodapé ou cabeçalho grudado vai em `notas-removidas.json` (mesmo formato),
+  depois de conferir pela Vulgata que o texto está inteiro.
 
 ## Termos fixos
 - "nova aliança" (testamento do sangue: Mt 26,28; Mc 14,24; Lc 22,20; 1Cor 11,25)

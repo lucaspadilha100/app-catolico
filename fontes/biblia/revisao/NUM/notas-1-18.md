@@ -37,3 +37,5 @@ Nm 14,9: cabeçalho de página ("— 60 — Números 14, 10-16") grudado no meio
 Nm 14,16: Figueiredo: "Êle não pode introduzir o povo no país, que lhe" (o resto se perdeu na edição) | Vulgata: "pro qua juraverat: idcirco occidit eos in solitudine" | Douay-Rheims: "for which he had sworn, therefore did he kill them in the wilderness" | decidido: restaurado pelo latim; em restaurados.json.
 Nm 14,28: Figueiredo: "assim vo-lo-ei de eu fazer" (frase truncada na edição) | Vulgata: "sic faciam vobis" | Douay-Rheims: "so will I do to you" | decidido: "assim vos farei".
 Nm 14,18: o Figueiredo passa da terceira pessoa ("O Senhor é paciente") à segunda ("tu que visitas"), como a Vulgata ("qui visitas"); mantido.
+Nm 15,25: Figueiredo: "porque não pescaram voluntariamente" | Vulgata: "quoniam non sponte peccaverunt" | Douay-Rheims: "because they sinned ignorantly" | decidido: "pecaram" (letra a mais na edição).
+Nm 15,4: "efi" vertido "efá" e "dizimas" (15,6.9) "décimos".

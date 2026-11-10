@@ -22,11 +22,13 @@ export function mesmaDivisaoDaFonte(livro, capitulo) {
   return !DIVISAO_REFEITA[livro]?.includes(capitulo);
 }
 
-export function versiculosRestaurados(livro) {
-  const caminho = join(raiz, "fontes/biblia/revisao", livro, "restaurados.json");
+function lista(livro, arquivo) {
   try {
-    return new Set(JSON.parse(readFileSync(caminho, "utf8")));
+    return new Set(JSON.parse(readFileSync(join(raiz, "fontes/biblia/revisao", livro, arquivo), "utf8")));
   } catch {
     return new Set();
   }
 }
+
+export const versiculosRestaurados = (livro) => lista(livro, "restaurados.json");
+export const versiculosSemNota = (livro) => lista(livro, "notas-removidas.json");

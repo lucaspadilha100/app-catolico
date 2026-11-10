@@ -1,7 +1,7 @@
 import { readFileSync, existsSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { mesmaDivisaoDaFonte, versiculosEsperados, versiculosRestaurados } from "./biblia/numeracao.mjs";
+import { mesmaDivisaoDaFonte, versiculosEsperados, versiculosRestaurados, versiculosSemNota } from "./biblia/numeracao.mjs";
 
 const raiz = join(dirname(fileURLToPath(import.meta.url)), "..");
 const livros = process.argv.slice(2);
@@ -23,6 +23,7 @@ for (const codigo of livros) {
   };
   const problemas = [];
   const restaurados = versiculosRestaurados(codigo);
+  const semNota = versiculosSemNota(codigo);
   fonte.capitulos.forEach((cap, c) => {
     const rev = revisado.capitulos[c] ?? [];
     const esperado = versiculosEsperados(codigo, c + 1, fonte);
@@ -34,7 +35,7 @@ for (const codigo of livros) {
       if (Boolean(original.trim()) !== Boolean(novo.trim())) problemas.push(`${onde}: vazio em um e não no outro`);
       if (!original.trim() || !novo.trim()) return;
       const razao = novo.length / original.length;
-      if (razao < 0.55 || (razao > 1.6 && !restaurados.has(onde))) problemas.push(`${onde}: tamanho muito diferente (${razao.toFixed(2)})`);
+      if ((razao < 0.55 && !semNota.has(onde)) || (razao > 1.6 && !restaurados.has(onde))) problemas.push(`${onde}: tamanho muito diferente (${razao.toFixed(2)})`);
       if (/[—–]/.test(novo)) problemas.push(`${onde}: travessão`);
       if (/[êô](?![a-z]*$)/.test(novo.replace(/\b(você|três|mês|português|pôde|têm|vêm|lê|crê|vê|dê|pôr|avô|avós?|bebê)\b/gi, ""))) {
         if (/\b(êle|êles|tôda|tôdas|sôbre|êste|êsse|aquêle|dêle|nêle)\b/i.test(novo)) problemas.push(`${onde}: grafia de 1950`);

@@ -1,7 +1,7 @@
 import { readFileSync, existsSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { mesmaDivisaoDaFonte, versiculosEsperados, versiculosRestaurados } from "./biblia/numeracao.mjs";
+import { mesmaDivisaoDaFonte, versiculosEsperados, versiculosRestaurados, versiculosSemNota } from "./biblia/numeracao.mjs";
 
 const raiz = join(dirname(fileURLToPath(import.meta.url)), "..");
 const [codigo, capArg] = process.argv.slice(2);
@@ -20,6 +20,7 @@ else {
   const esperado = versiculosEsperados(codigo, cap, fonte);
   if (novo.length !== esperado) problemas.push(`${novo.length} versículos, esperado ${esperado}`);
   const restaurados = versiculosRestaurados(codigo);
+  const semNota = versiculosSemNota(codigo);
   const mesmaDivisao = novo.length === original.length && mesmaDivisaoDaFonte(codigo, cap);
   const total = novo.join(" ").length / original.join(" ").length;
   if (total < 0.7 || total > 1.4) problemas.push(`capítulo com tamanho muito diferente (${total.toFixed(2)})`);
@@ -28,7 +29,7 @@ else {
     if (mesmaDivisao && Boolean(o.trim()) !== Boolean(String(n).trim())) problemas.push(`v${i + 1}: vazio em um e não no outro`);
     if (o.trim() && String(n).trim()) {
       const r = String(n).length / o.length;
-      if (r < 0.55 || (r > 1.6 && !restaurados.has(`${cap},${i + 1}`))) problemas.push(`v${i + 1}: tamanho muito diferente (${r.toFixed(2)})`);
+      if ((r < 0.55 && !semNota.has(`${cap},${i + 1}`)) || (r > 1.6 && !restaurados.has(`${cap},${i + 1}`))) problemas.push(`v${i + 1}: tamanho muito diferente (${r.toFixed(2)})`);
     }
     if (/[—–]/.test(n)) problemas.push(`v${i + 1}: travessão`);
     if (/\b(êle|êles|tôda|tôdas|sôbre|êste|êsse|aquêle|dêle|nêle|êsses|dêles)\b/i.test(n)) problemas.push(`v${i + 1}: grafia de 1950`);
