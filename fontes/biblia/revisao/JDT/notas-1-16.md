@@ -53,3 +53,9 @@ Jt 15,7: número solto "1" antes de "campo": retirado.
 Jt 15,9: "o sumo pontífice Joacim" vertido "o sumo sacerdote Joaquim" (termo fixo; nome na forma portuguesa).
 Jt 15,10: Figueiredo: "A qual tendo saído a recebê-los" | Vulgata: "Quæ cum exisset ad illum" | Douay-Rheims: "to him" | decidido: "para recebê-lo" (o sumo sacerdote).
 Jt 15,11: "obraste varonilmente" vertido "agiste com coragem" (Vulgata "fecisti viriliter"); conferir se o dono prefere "como homem forte". "não só ... mas também" do Figueiredo voltou ao "por isso ... e por isso" do latim, que é o mesmo sentido.
+Jt 16,3: "faz em pó os exércitos" mantido como escolha do Figueiredo (Vulgata "conterens bella").
+Jt 16,5: "esgotou as torrentes" vertido "secou as torrentes" (Vulgata "obturavit", DR "stopped up"); "da parte do Aquilão" vertido "do norte".
+Jt 16,8: "desmarcados gigantes" vertido "gigantes enormes"; "filhos de Titã" mantido (Vulgata "filii Titan").
+Jt 16,17: Figueiredo: "Tôdas as tuas criaturas te obedeçam" | Vulgata: "Tibi serviat" | decidido: "te sirvam", mesmo sentido.
+Jt 16,23: "arnezes" (Vulgata "vasa bellica") vertido "armas"; "pavilhão" vertido "mosquiteiro", como em 10,19 e 13,10.
+Jt 16,28: "deu carta de alforria à sua escrava" vertido "deu a liberdade à sua criada" (Vulgata "dimisit abram suam liberam"); conferir se o dono prefere manter "escrava".
