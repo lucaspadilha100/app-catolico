@@ -51,3 +51,6 @@ Ez 44,11: "sacristães" mantido (Vulgata "æditui"): escolha do Figueiredo.
 Ez 45,10-14: "efi" → "efá", "sido" → "siclo" (OCR; Vulgata "siclus"), "bato", "coro", "hin", "mina", "óbolos". Números conferidos: 20 óbolos; 20+25+15 siclos = uma mina; 1/6 de efá por coro; 10 batos = 1 coro.
 Ez 45,1-6: "medidas" (sem unidade no Figueiredo e na Vulgata) mantido; 25 000 x 10 000; 500 x 500 e 50 côvados; 25 000 x 10 000 para os levitas; 5 000 x 25 000 para a cidade.
 Ez 45,11: "O seu peso será igual" → "A sua medida será igual" (Vulgata "æqua libratio"); o dono confere.
+Ez 46,6: Figueiredo: "E seis cordeiros, e seis carneiros serão sem mancha" | Vulgata: "et sex agni et arietes immaculati erunt" | Douay-Rheims: "and the six lambs, and the rams" | decidido: "os seis cordeiros e os carneiros" (o segundo "seis" sem apoio nas réguas).
+Ez 46,20: Figueiredo: "a fim de que eles as não levem ao átrio exterior, e se santifique o povo" | Vulgata: "ut non efferant in atrium exterius, et sanctificetur populus" | decidido: "para não as levarem ao átrio exterior e não santificarem o povo" (o "não" vale para as duas partes, como em 44,19).
+Ez 46,8: "porta oriental" mantido (a Vulgata diz só "portæ"): escolha do Figueiredo. "primeiro dia de cada mês" → "lua nova" (Vulgata "calendæ"; 46,1.3.6). "terreiro" → "pátio" (46,21-23).
