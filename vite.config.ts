@@ -35,7 +35,7 @@ export default defineConfig({
         navigateFallback: "/index.html",
         runtimeCaching: [
           {
-            urlPattern: ({ url }) => url.pathname.startsWith("/biblia/"),
+            urlPattern: ({ url }) => url.pathname.startsWith("/biblia/") && url.pathname.endsWith(".json"),
             handler: "CacheFirst",
             options: { cacheName: "biblia", expiration: { maxEntries: 200 } },
           },

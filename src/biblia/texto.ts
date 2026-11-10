@@ -1,4 +1,7 @@
 import { livroPorCodigo } from "./livros";
+import estado from "./dados/estado.json";
+
+const ARQUIVOS = estado as Record<string, { arquivo: string }>;
 
 export const VERSAO_DA_BIBLIA = "f1";
 
@@ -27,7 +30,7 @@ const cache = new Map<string, Promise<LivroDaBiblia>>();
 export function carregarLivro(codigo: string): Promise<LivroDaBiblia> {
   let promessa = cache.get(codigo);
   if (!promessa) {
-    promessa = fetch(`/biblia/${VERSAO_DA_BIBLIA}/${codigo}.json`).then((r) => {
+    promessa = fetch(`/biblia/${VERSAO_DA_BIBLIA}/${ARQUIVOS[codigo]?.arquivo ?? `${codigo}.json`}`).then((r) => {
       if (!r.ok) throw new Error(`Livro ${codigo} indisponível`);
       return r.json() as Promise<LivroDaBiblia>;
     });

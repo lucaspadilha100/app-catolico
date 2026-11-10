@@ -4,6 +4,7 @@ import { LIVROS } from "./livros";
 
 interface EstadoDoLivro {
   revisao: "transcrito" | "em-revisao" | "revisado";
+  arquivo: string;
   versiculos: number[];
 }
 

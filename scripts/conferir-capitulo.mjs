@@ -1,0 +1,36 @@
+import { readFileSync, existsSync } from "node:fs";
+import { dirname, join } from "node:path";
+import { fileURLToPath } from "node:url";
+
+const raiz = join(dirname(fileURLToPath(import.meta.url)), "..");
+const [codigo, capArg] = process.argv.slice(2);
+const cap = Number(capArg);
+const fonte = JSON.parse(readFileSync(join(raiz, "fontes/biblia/figueiredo-1950", `${codigo}.json`), "utf8"));
+const caminho = join(raiz, "fontes/biblia/revisao/partes", codigo, `${cap}.json`);
+if (!existsSync(caminho)) {
+  console.log(`falta ${caminho}`);
+  process.exit(1);
+}
+const original = fonte.capitulos[cap - 1];
+const novo = JSON.parse(readFileSync(caminho, "utf8"));
+const problemas = [];
+if (!Array.isArray(novo)) problemas.push("o arquivo precisa ser uma lista de versículos");
+else {
+  if (novo.length !== original.length) problemas.push(`${novo.length} versículos, esperado ${original.length}`);
+  original.forEach((o, i) => {
+    const n = novo[i] ?? "";
+    if (Boolean(o.trim()) !== Boolean(String(n).trim())) problemas.push(`v${i + 1}: vazio em um e não no outro`);
+    if (o.trim() && String(n).trim()) {
+      const r = String(n).length / o.length;
+      if (r < 0.55 || r > 1.6) problemas.push(`v${i + 1}: tamanho muito diferente (${r.toFixed(2)})`);
+    }
+    if (/[—–]/.test(n)) problemas.push(`v${i + 1}: travessão`);
+    if (/\b(êle|êles|tôda|tôdas|sôbre|êste|êsse|aquêle|dêle|nêle|êsses|dêles)\b/i.test(n)) problemas.push(`v${i + 1}: grafia de 1950`);
+  });
+  const t = novo.join(" ");
+  const a = (t.match(/“/g) ?? []).length;
+  const f = (t.match(/”/g) ?? []).length;
+  if (Math.abs(a - f) > 1) problemas.push(`aspas: ${a} “ e ${f} ”`);
+}
+console.log(problemas.length ? `${codigo} ${cap}: ${problemas.join("; ")}` : `${codigo} ${cap}: ok`);
+process.exit(problemas.length ? 1 : 0);

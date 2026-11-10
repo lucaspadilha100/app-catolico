@@ -1,4 +1,5 @@
-import { readFileSync, writeFileSync, mkdirSync, readdirSync, existsSync } from "node:fs";
+import { readFileSync, writeFileSync, mkdirSync, readdirSync, existsSync, rmSync } from "node:fs";
+import { createHash } from "node:crypto";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -6,6 +7,7 @@ const raiz = join(dirname(fileURLToPath(import.meta.url)), "..");
 const VERSAO = "f1";
 const fonte = join(raiz, "fontes/biblia/figueiredo-1950");
 const destino = join(raiz, "public/biblia", VERSAO);
+const revisao = join(raiz, "fontes/biblia/revisao");
 
 const ortografia = JSON.parse(readFileSync(join(raiz, "fontes/biblia/ortografia.json"), "utf8"));
 
@@ -29,26 +31,47 @@ function atualizar(texto) {
     .trim();
 }
 
+rmSync(destino, { recursive: true, force: true });
 mkdirSync(destino, { recursive: true });
 const estado = {};
 let versiculos = 0;
 let trocas = 0;
+let revisados = 0;
 for (const arquivo of readdirSync(fonte).filter((f) => f.endsWith(".json"))) {
   const livro = JSON.parse(readFileSync(join(fonte, arquivo), "utf8"));
-  const capitulos = livro.capitulos.map((cap) =>
-    cap.map((v) => {
+  let capitulosRevisados = 0;
+  const capitulos = livro.capitulos.map((cap, c) => {
+    const caminho = join(revisao, livro.codigo, `${c + 1}.json`);
+    if (existsSync(caminho)) {
+      const novo = JSON.parse(readFileSync(caminho, "utf8"));
+      if (!Array.isArray(novo) || novo.length !== cap.length) throw new Error(`${livro.codigo} ${c + 1}: revisão com ${novo.length} versículos, esperado ${cap.length}`);
+      capitulosRevisados++;
+      versiculos += cap.length;
+      revisados += cap.length;
+      return novo.map((v) => String(v).trim());
+    }
+    return cap.map((v) => {
       versiculos++;
       const novo = atualizar(v);
       if (novo !== v) trocas++;
       return novo;
-    }),
-  );
-  writeFileSync(join(destino, `${livro.codigo}.json`), JSON.stringify({ codigo: livro.codigo, capitulos }));
+    });
+  });
+  const conteudo = JSON.stringify({ codigo: livro.codigo, capitulos });
+  const hash = createHash("sha256").update(conteudo).digest("hex").slice(0, 10);
+  writeFileSync(join(destino, `${livro.codigo}.${hash}.json`), conteudo);
   estado[livro.codigo] = {
-    revisao: livro.origem === "transcrição" ? "transcrito" : "em-revisao",
+    revisao:
+      capitulosRevisados === capitulos.length
+        ? "revisado"
+        : livro.origem === "transcrição"
+          ? "transcrito"
+          : "em-revisao",
+    arquivo: `${livro.codigo}.${hash}.json`,
     versiculos: capitulos.map((c) => c.filter(Boolean).length),
   };
 }
+console.log(`${revisados} versículos revisados`);
 console.log(`${versiculos} versículos; ${trocas} com a ortografia atualizada`);
 
 writeFileSync(join(raiz, "src/biblia/dados/estado.json"), JSON.stringify(estado));
@@ -71,4 +94,4 @@ mkdirSync(dirname(destinoMapa), { recursive: true });
 writeFileSync(destinoMapa, JSON.stringify(mapa));
 console.log(`mapa hebraico → Vulgata: ${Object.values(mapa).reduce((n, l) => n + l.length, 0)} faixas`);
 
-if (!existsSync(join(destino, "PSA.json"))) console.log("Atenção: Salmos ausentes");
+if (!estado.PSA) console.log("Atenção: Salmos ausentes");
