@@ -167,7 +167,18 @@ Legenda: ✅ pronto · 🔨 em andamento · ⬜ a fazer · 👤 precisa do dono
 - ⬜ 👤 Conferir as outras igrejas uma a uma no Painel (as notas dizem o que
   ficou em dúvida: Rainha da Paz repetida, N. S. de Lourdes, Imaculada,
   Comunidade Reviver, Áreas Pastorais)
-- ⬜ Capelas das paróquias (Sant'Ana e outras)
+- ✅ RN inteiro: 735 igrejas novas (matrizes, capelas, comunidades,
+  santuários) em 165 das 167 cidades, dos sites das três dioceses (Natal,
+  Mossoró e Caicó, com o Anuário 2026), cada uma com nota de fonte e
+  confiança no Painel; 327 com ponto no mapa (as outras aparecem pela cidade)
+- ⬜ 👤 Jundiá e Senador Georgino Avelino: nenhuma igreja achada na pesquisa
+- ⬜ 👤 Conferir no Painel as de confiança "média" (muitas capelas de Assu e
+  Mossoró vêm só do mapa) e os casos anotados (endereços divergentes,
+  comunidades de Maxaranguape em Ceará-Mirim, capelas de Taipu e São José
+  de Mipibu que a pesquisa não achou)
+- ⬜ 👤 Decidir sobre o OpenStreetMap: as igrejas que vieram só do mapa
+  mostram "© colaboradores do OpenStreetMap" (licença aberta ODbL, pede o
+  crédito; quem copiar a lista inteira do app tem de manter a mesma licença)
 - ⬜ Mapa (OpenFreeMap, só ao tocar em "Mapa"), se o dono quiser
 
 ### Leva 12. Terço da Juventude 🔨
