@@ -300,7 +300,7 @@ function ListaDeIntencoes({ grupo, versao }: { grupo?: string; versao: number })
   return (
     <div className="flex flex-col gap-3">
       <ul className={LISTA}>
-        {lista.map((i) => (
+        {lista.filter((i) => grupo || i.autor_id !== eu).map((i) => (
           <ItemDeIntencao
             key={i.id}
             i={i}

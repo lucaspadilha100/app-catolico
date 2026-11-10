@@ -197,11 +197,21 @@ Legenda: ✅ pronto · 🔨 em andamento · ⬜ a fazer · 👤 precisa do dono
 - ⬜ Lembrete do encontro da semana para quem segue (com as notificações, Leva 15 e 16)
 - ⬜ 👤 Revisar e aprovar os primeiros terços cadastrados no Painel
 
-### Leva 13. Comunidade ⬜
-- ⬜ Intenções guiadas com "rezei por você"
-- ⬜ Grupos por convite (família, grupo de oração, pastoral)
-- ⬜ Campanhas coletivas
-- ⬜ Denúncia e moderação
+### Leva 13. Comunidade 🔨
+- ✅ Intenções guiadas: tipo (saúde, trabalho, família, falecido, conversão,
+  estudos, gestação, vocação, paz, gratidão) e primeiro nome, sem texto livre;
+  "Rezei por você" com contador (uma vez por pessoa); ficam 30 dias; até 3
+  pedidos abertos por pessoa
+- ✅ Denúncia sempre à mão: três denúncias de pessoas com conta escondem o
+  pedido; o admin revê no Painel (mostrar de novo ou apagar)
+- ✅ Grupos por convite (família, grupo de oração, pastoral): link de convite,
+  pedidos só do grupo, o dono tira pessoas e troca o link
+- ✅ Terço ao vivo do grupo: qualquer membro começa e conduz, os outros acompanham
+- ✅ Campanhas de oração: o admin cria no Painel ("1 milhão de terços"), todos
+  somam, com a barra na tela Hoje e em Intenções
+- ✅ Regras testadas (42 casos) e teste de ponta a ponta com duas contas no banco
+- ⬜ 👤 Criar a primeira campanha no Painel, quando quiser lançar
+- ⬜ Aviso para quem pediu: "N pessoas rezaram por você" (com as notificações)
 
 ### Leva 14. Música ⬜
 - ⬜ 👤 Montar as playlists por tempo e tema com o dono
