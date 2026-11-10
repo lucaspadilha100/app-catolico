@@ -1,5 +1,6 @@
 import { readFileSync, writeFileSync, mkdirSync, readdirSync, existsSync, rmSync } from "node:fs";
 import { createHash } from "node:crypto";
+import { NUMERACAO_MODERNA, versiculosEsperados } from "./biblia/numeracao.mjs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -44,10 +45,11 @@ for (const arquivo of readdirSync(fonte).filter((f) => f.endsWith(".json"))) {
     const caminho = join(revisao, livro.codigo, `${c + 1}.json`);
     if (existsSync(caminho)) {
       const novo = JSON.parse(readFileSync(caminho, "utf8"));
-      if (!Array.isArray(novo) || novo.length !== cap.length) throw new Error(`${livro.codigo} ${c + 1}: revisão com ${novo.length} versículos, esperado ${cap.length}`);
+      const esperado = versiculosEsperados(livro.codigo, c + 1, livro);
+      if (!Array.isArray(novo) || novo.length !== esperado) throw new Error(`${livro.codigo} ${c + 1}: revisão com ${novo.length} versículos, esperado ${esperado}`);
       capitulosRevisados++;
-      versiculos += cap.length;
-      revisados += cap.length;
+      versiculos += novo.length;
+      revisados += novo.length;
       return novo.map((v) => String(v).trim());
     }
     return cap.map((v) => {
@@ -79,7 +81,7 @@ writeFileSync(join(raiz, "src/biblia/dados/estado.json"), JSON.stringify(estado)
 const mapa = {};
 for (const linha of readFileSync(join(raiz, "fontes/versificacao/vul.vrs"), "utf8").split("\n")) {
   const m = /^([1-3A-Z]{3}) (\d+):(\d+)(?:-(\d+))? = ([1-3A-Z]{3}) (\d+):(\d+)(?:-(\d+))?/.exec(linha);
-  if (!m) continue;
+  if (!m || (NUMERACAO_MODERNA.has(m[1]) && estado[m[1]]?.revisao === "revisado")) continue;
   const [, livro, cv, vv1, vv2, , ch, vh1, vh2] = m;
   const iniV = Number(vv1);
   const iniH = Number(vh1);

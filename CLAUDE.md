@@ -160,6 +160,10 @@ Nada de licença paga por ora. Então:
   `revisado`. Evangelhos prontos em 10/11/2026.
 - Cada livro sai como `public/biblia/f1/<LIVRO>.<hash>.json` (nome em
   `estado.json`): texto mudou, nome muda, e o aparelho baixa só esse livro.
+- ⚠️ Livro revisado segue a ORDEM e a divisão de versículos das Bíblias
+  católicas de hoje (Nova Vulgata, `org.vrs`), não a da Vulgata antiga (pedido
+  do dono, 10/11/2026: Mt 5,4-5). Salmos ficam na numeração grega. Lista em
+  `scripts/biblia/numeracao.mjs`; o mapa hebraico deixa de converter esses livros.
 - Leitura da liturgia que começa no meio de uma fala ganha as aspas que faltam
   (`equilibrarAspas`).
 - ⚠️ **Nunca usar outra tradução como modelo de frase** (Ave-Maria, CNBB,

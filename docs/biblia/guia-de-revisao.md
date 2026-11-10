@@ -14,6 +14,17 @@ Tom aprovado pelo dono em 10/11/2026 (amostra: Marcos 1 e Salmo 22).
 - **Cada versículo continua sendo o mesmo versículo**: mesmo número, mesma
   quantidade. Versículo vazio no original continua vazio.
 
+## Ordem e numeração
+- Os Evangelhos (e, daqui em diante, os livros revisados) seguem a **ordem e a
+  divisão de versículos das Bíblias católicas de hoje e do lecionário** (Nova
+  Vulgata, tabela aberta `fontes/versificacao/org.vrs`), não a da Vulgata antiga
+  que o Figueiredo usou. Mudam o lugar e o corte do versículo; as palavras
+  continuam as do Figueiredo. Ex.: Mt 5,4 "os que choram" e 5,5 "os mansos".
+- Livro novo com numeração atual entra em `NUMERACAO_MODERNA` e, se o corte
+  mudou, em `DIVISAO_REFEITA` (`scripts/biblia/numeracao.mjs`).
+- Os Salmos continuam na numeração grega (Sl 22 "O Senhor é meu pastor"), como
+  nas Bíblias católicas do Brasil.
+
 ## O tom
 - **Falas entre aspas curvas** “ ”. Fala dentro de fala: ‘ ’.
 - **Frases curtas e na ordem natural** do português de hoje.

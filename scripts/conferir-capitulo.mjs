@@ -1,6 +1,7 @@
 import { readFileSync, existsSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
+import { mesmaDivisaoDaFonte, versiculosEsperados } from "./biblia/numeracao.mjs";
 
 const raiz = join(dirname(fileURLToPath(import.meta.url)), "..");
 const [codigo, capArg] = process.argv.slice(2);
@@ -16,10 +17,14 @@ const novo = JSON.parse(readFileSync(caminho, "utf8"));
 const problemas = [];
 if (!Array.isArray(novo)) problemas.push("o arquivo precisa ser uma lista de versículos");
 else {
-  if (novo.length !== original.length) problemas.push(`${novo.length} versículos, esperado ${original.length}`);
-  original.forEach((o, i) => {
-    const n = novo[i] ?? "";
-    if (Boolean(o.trim()) !== Boolean(String(n).trim())) problemas.push(`v${i + 1}: vazio em um e não no outro`);
+  const esperado = versiculosEsperados(codigo, cap, fonte);
+  if (novo.length !== esperado) problemas.push(`${novo.length} versículos, esperado ${esperado}`);
+  const mesmaDivisao = novo.length === original.length && mesmaDivisaoDaFonte(codigo, cap);
+  const total = novo.join(" ").length / original.join(" ").length;
+  if (total < 0.7 || total > 1.4) problemas.push(`capítulo com tamanho muito diferente (${total.toFixed(2)})`);
+  novo.forEach((n, i) => {
+    const o = mesmaDivisao ? original[i] : "";
+    if (mesmaDivisao && Boolean(o.trim()) !== Boolean(String(n).trim())) problemas.push(`v${i + 1}: vazio em um e não no outro`);
     if (o.trim() && String(n).trim()) {
       const r = String(n).length / o.length;
       if (r < 0.55 || r > 1.6) problemas.push(`v${i + 1}: tamanho muito diferente (${r.toFixed(2)})`);

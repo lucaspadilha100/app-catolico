@@ -1,6 +1,7 @@
 import { readFileSync, existsSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
+import { mesmaDivisaoDaFonte, versiculosEsperados } from "./biblia/numeracao.mjs";
 
 const raiz = join(dirname(fileURLToPath(import.meta.url)), "..");
 const livros = process.argv.slice(2);
@@ -23,9 +24,11 @@ for (const codigo of livros) {
   const problemas = [];
   fonte.capitulos.forEach((cap, c) => {
     const rev = revisado.capitulos[c] ?? [];
-    if (rev.length !== cap.length) problemas.push(`${c + 1}: ${rev.length} versículos, esperado ${cap.length}`);
-    cap.forEach((original, v) => {
-      const novo = rev[v] ?? "";
+    const esperado = versiculosEsperados(codigo, c + 1, fonte);
+    if (rev.length !== esperado) problemas.push(`${c + 1}: ${rev.length} versículos, esperado ${esperado}`);
+    const mesmaDivisao = rev.length === cap.length && mesmaDivisaoDaFonte(codigo, c + 1);
+    rev.forEach((novo, v) => {
+      const original = mesmaDivisao ? cap[v] : novo;
       const onde = `${c + 1},${v + 1}`;
       if (Boolean(original.trim()) !== Boolean(novo.trim())) problemas.push(`${onde}: vazio em um e não no outro`);
       if (!original.trim() || !novo.trim()) return;

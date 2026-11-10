@@ -36,6 +36,12 @@ describe("numeração hebraica para a da Vulgata", () => {
   it("livros sem diferença ficam iguais", () => {
     expect(paraVulgata("MRK", 1, 14, m)).toEqual([1, 14]);
   });
+
+  it("os Evangelhos revisados já estão na numeração atual", () => {
+    expect(paraVulgata("JHN", 6, 52, m)).toEqual([6, 52]);
+    expect(paraVulgata("MRK", 9, 2, m)).toEqual([9, 2]);
+    expect(paraVulgata("MAT", 17, 15, m)).toEqual([17, 15]);
+  });
 });
 
 describe("livros", () => {
