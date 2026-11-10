@@ -29,7 +29,10 @@ const HINO_MEMENTO: Bloco[] = [
   },
 ];
 
-const salmo = (leitura: string, titulo: string): Bloco[] => [{ leitura, titulo, poema: true }, { rezar: "gloria" }];
+const salmo = (leitura: string, titulo: string, inicio?: string, fim?: string): Bloco[] => [
+  { leitura, titulo, poema: true, ...(inicio && { inicio }), ...(fim && { fim }) },
+  { rezar: "gloria" },
+];
 
 const comAntifona = (antifona: string, ...salmos: Bloco[][]): Bloco[] => [
   { antifona },
@@ -100,7 +103,7 @@ const LICOES: Bloco[] = [
     ],
   },
   bencao("A Virgem Maria, com o seu piedoso Filho, nos abençoe."),
-  { leitura: "SIR 24:11-13", titulo: "Primeira lição" },
+  { leitura: "SIR 24:11-13", titulo: "Primeira lição", inicio: "Em todos eles busquei descanso" },
   TU_AUTEM,
   {
     titulo: "Responsório",
@@ -203,7 +206,7 @@ const conteudo: ConteudoDoOficio = {
         ...ABERTURA,
         ...comAntifona(
           "Maria foi elevada ao céu; os anjos se alegram e, cantando louvores, bendizem o Senhor.",
-          salmo("PSA 93:1-5", "Salmo 92"),
+          salmo("PSA 93:1-5", "Salmo 92", "O Senhor reinou, vestiu-se"),
         ),
         ...comAntifona(
           "A Virgem Maria foi elevada ao tálamo celeste, onde o Rei dos reis está sentado num trono de estrelas.",
@@ -216,16 +219,16 @@ const conteudo: ConteudoDoOficio = {
         ...comAntifona(
           "Bendita sois vós, filha, pelo Senhor, porque por vós recebemos o fruto da vida.",
           [
-            { leitura: "DAN 3:57-88", titulo: "Cântico dos três jovens", poema: true },
+            { leitura: "DAN 3:57-88", titulo: "Cântico dos três jovens", poema: true, fim: "acima de tudo para sempre." },
             { linhas: ["Bendigamos o Pai e o Filho com o Espírito Santo; louvemo-lo e exaltemo-lo para sempre."] },
             { leitura: "DAN 3:56", poema: true },
           ],
         ),
         ...comAntifona(
           "Sois bela e formosa, filha de Jerusalém, terrível como um exército em ordem de batalha.",
-          salmo("PSA 148:1-14", "Salmo 148"),
+          salmo("PSA 148:1-14", "Salmo 148", "Louvai o Senhor desde os céus", "o povo que se aproxima dele."),
         ),
-        { leitura: "SNG 6:9", titulo: "Capítulo" },
+        { leitura: "SNG 6:9", titulo: "Capítulo", inicio: "As filhas a viram" },
         gracas,
         { titulo: "Hino" },
         {
@@ -240,7 +243,7 @@ const conteudo: ConteudoDoOficio = {
         { rubrica: PASCAL },
         ...comAntifona(
           "Bem-aventurada Mãe de Deus, Maria, sempre Virgem, templo do Senhor, santuário do Espírito Santo: só vós, sem exemplo, agradastes a Nosso Senhor Jesus Cristo. Rogai pelo povo, intervinde pelo clero, intercedei pelas mulheres devotas.",
-          salmo("LUK 1:68-79", "Cântico de Zacarias"),
+          salmo("LUK 1:68-79", "Cântico de Zacarias", "Bendito seja o Senhor", "no caminho da paz."),
         ),
         ...conclusao(ORACAO_LAUDES),
         { rubrica: "Se a Prima não se reza logo em seguida, diz-se o Pai-nosso em silêncio e conclui-se assim:" },
@@ -259,9 +262,9 @@ const conteudo: ConteudoDoOficio = {
           "Maria foi elevada ao céu; os anjos se alegram e, cantando louvores, bendizem o Senhor.",
           salmo("PSA 54:3-9", "Salmo 53"),
           salmo("PSA 85:2-14", "Salmo 84"),
-          salmo("PSA 117:1-2", "Salmo 116"),
+          salmo("PSA 117:1-2", "Salmo 116", "Louvai o Senhor, todas as nações"),
         ),
-        { leitura: "SNG 6:10", titulo: "Capítulo" },
+        { leitura: "SNG 6:10", titulo: "Capítulo", fim: "em campo?" },
         gracas,
         { linhas: [{ v: "Permiti que eu vos louve, Virgem sagrada.", r: "Dai-me força contra os vossos inimigos." }] },
         ...conclusao(
@@ -278,9 +281,9 @@ const conteudo: ConteudoDoOficio = {
         ...HINO_MEMENTO,
         ...comAntifona(
           "A Virgem Maria foi elevada ao tálamo celeste, onde o Rei dos reis está sentado num trono de estrelas.",
-          salmo("PSA 120:1-7", "Salmo 119"),
-          salmo("PSA 121:1-8", "Salmo 120"),
-          salmo("PSA 122:1-9", "Salmo 121"),
+          salmo("PSA 120:1-7", "Salmo 119", "Quando me vi atribulado"),
+          salmo("PSA 121:1-8", "Salmo 120", "Levantei os meus olhos para os montes"),
+          salmo("PSA 122:1-9", "Salmo 121", "Alegrei-me com o que me disseram"),
         ),
         { leitura: "SIR 24:15", titulo: "Capítulo" },
         gracas,
@@ -299,9 +302,9 @@ const conteudo: ConteudoDoOficio = {
         ...HINO_MEMENTO,
         ...comAntifona(
           "Corremos atrás do perfume dos vossos unguentos; as jovens vos amaram muito.",
-          salmo("PSA 123:1-4", "Salmo 122"),
-          salmo("PSA 124:1-8", "Salmo 123"),
-          salmo("PSA 125:1-5", "Salmo 124"),
+          salmo("PSA 123:1-4", "Salmo 122", "Levantei os meus olhos para ti"),
+          salmo("PSA 124:1-8", "Salmo 123", "Se o Senhor não tivesse"),
+          salmo("PSA 125:1-5", "Salmo 124", "Os que confiam no Senhor"),
         ),
         { leitura: "SIR 24:16", titulo: "Capítulo" },
         gracas,
@@ -320,11 +323,11 @@ const conteudo: ConteudoDoOficio = {
         ...HINO_MEMENTO,
         ...comAntifona(
           "Sois bela e formosa, filha de Jerusalém, terrível como um exército em ordem de batalha.",
-          salmo("PSA 126:1-6", "Salmo 125"),
-          salmo("PSA 127:1-5", "Salmo 126"),
-          salmo("PSA 128:1-6", "Salmo 127"),
+          salmo("PSA 126:1-6", "Salmo 125", "Quando o Senhor fizer voltar"),
+          salmo("PSA 127:1-5", "Salmo 126", "Se o Senhor não edificar"),
+          salmo("PSA 128:1-6", "Salmo 127", "Bem-aventurados todos"),
         ),
-        { leitura: "SIR 24:19-20", titulo: "Capítulo" },
+        { leitura: "SIR 24:19-20", titulo: "Capítulo", inicio: "nas praças" },
         gracas,
         { linhas: [{ v: "Depois do parto, ó Virgem, permanecestes intacta.", r: "Mãe de Deus, intercedei por nós." }] },
         ...conclusao(
@@ -340,23 +343,23 @@ const conteudo: ConteudoDoOficio = {
         ...ABERTURA,
         ...comAntifona(
           "Enquanto o Rei estava à mesa, o meu nardo exalou o seu perfume suave.",
-          salmo("PSA 110:1-7", "Salmo 109"),
+          salmo("PSA 110:1-7", "Salmo 109", "Disse o Senhor ao meu Senhor"),
         ),
         ...comAntifona(
           "A sua mão esquerda está sob a minha cabeça, e a sua direita me abraçará.",
-          salmo("PSA 113:1-9", "Salmo 112"),
+          salmo("PSA 113:1-9", "Salmo 112", "Louvai o Senhor, ó meninos"),
         ),
         ...comAntifona(
           "Sou morena, mas formosa, filhas de Jerusalém; por isso o Rei me amou e me fez entrar nos seus aposentos.",
-          salmo("PSA 122:1-9", "Salmo 121"),
+          salmo("PSA 122:1-9", "Salmo 121", "Alegrei-me com o que me disseram"),
         ),
         ...comAntifona(
           "Já passou o inverno, a chuva cessou e se foi; levanta-te, minha amiga, e vem.",
-          salmo("PSA 127:1-5", "Salmo 126"),
+          salmo("PSA 127:1-5", "Salmo 126", "Se o Senhor não edificar"),
         ),
         ...comAntifona(
           "Vós vos tornastes bela e suave em vossas delícias, santa Mãe de Deus.",
-          salmo("PSA 147:12-20", "Salmo 147"),
+          salmo("PSA 147:12-20", "Salmo 147", undefined, "não lhes manifestou os seus juízos."),
         ),
         { leitura: "SIR 24:14", titulo: "Capítulo" },
         gracas,
@@ -365,7 +368,7 @@ const conteudo: ConteudoDoOficio = {
         { rubrica: PASCAL },
         ...comAntifona(
           "Mãe bem-aventurada e Virgem intacta, Rainha gloriosa do mundo, intercedei por nós junto do Senhor.",
-          salmo("LUK 1:46-55", "Cântico de Nossa Senhora"),
+          salmo("LUK 1:46-55", "Cântico de Nossa Senhora", "A minha alma glorifica", "descendência para sempre."),
         ),
         ...conclusao(
           "Oremos. Senhor Deus, concedei a nós, vossos servos, vos pedimos, gozar sempre de saúde da alma e do corpo e, pela gloriosa intercessão da bem-aventurada sempre Virgem Maria, ser livres da tristeza presente e alcançar a alegria eterna. Por Cristo, Senhor nosso. Amém.",
@@ -380,9 +383,9 @@ const conteudo: ConteudoDoOficio = {
         { rezar: "ave-maria" },
         { linhas: [{ v: "Convertei-nos, ó Deus, nosso Salvador.", r: "E afastai de nós a vossa ira." }] },
         ...DEUS_VINDE,
-        ...salmo("PSA 129:1-8", "Salmo 128"),
-        ...salmo("PSA 130:1-8", "Salmo 129"),
-        ...salmo("PSA 131:1-3", "Salmo 130"),
+        ...salmo("PSA 129:1-8", "Salmo 128", "Muitas vezes me atacaram"),
+        ...salmo("PSA 130:1-8", "Salmo 129", "Do mais profundo"),
+        ...salmo("PSA 131:1-3", "Salmo 130", "Senhor, o meu coração"),
         ...HINO_MEMENTO,
         { leitura: "SIR 24:24", titulo: "Capítulo" },
         gracas,
@@ -392,7 +395,7 @@ const conteudo: ConteudoDoOficio = {
         { rubrica: PASCAL },
         ...comAntifona(
           "À vossa proteção recorremos, santa Mãe de Deus: não desprezeis as nossas súplicas nas nossas necessidades, mas livrai-nos sempre de todos os perigos, Virgem gloriosa e bendita.",
-          salmo("LUK 2:29-32", "Cântico de Simeão"),
+          salmo("LUK 2:29-32", "Cântico de Simeão", "Agora, Senhor", "do teu povo, Israel."),
         ),
         {
           linhas: [
@@ -427,7 +430,7 @@ const conteudo: ConteudoDoOficio = {
       ),
       ...comAntifona(
         "Diante do leito desta Virgem, cantai-nos sempre de novo os doces cantos do drama sagrado.",
-        salmo("PSA 24:1-10", "Salmo 23"),
+        salmo("PSA 24:1-10", "Salmo 23", "Do Senhor é a terra"),
       ),
       ...LICOES,
     ],
@@ -442,22 +445,22 @@ const conteudo: ConteudoDoOficio = {
       ),
       ...comAntifona(
         "Como a de quem vive na alegria, assim é em vós a morada de todos nós, santa Mãe de Deus.",
-        salmo("PSA 87:1-7", "Salmo 86"),
+        salmo("PSA 87:1-7", "Salmo 86", "Os seus alicerces"),
       ),
       ...LICOES,
     ],
     [
       ...comAntifona(
         "Alegrai-vos, Virgem Maria: só vós vencestes todas as heresias no mundo inteiro.",
-        salmo("PSA 96:1-13", "Salmo 95"),
+        salmo("PSA 96:1-13", "Salmo 95", "Cantai ao Senhor um cântico novo"),
       ),
       ...comAntifona(
         "Permiti que eu vos louve, Virgem sagrada; dai-me força contra os vossos inimigos.",
-        salmo("PSA 97:1-12", "Salmo 96"),
+        salmo("PSA 97:1-12", "Salmo 96", "O Senhor reinou: exulte"),
       ),
       ...comAntifona(
         "Depois do parto, ó Virgem, permanecestes intacta; Mãe de Deus, intercedei por nós.",
-        salmo("PSA 98:1-9", "Salmo 97"),
+        salmo("PSA 98:1-9", "Salmo 97", "Cantai ao Senhor um cântico novo"),
       ),
       ...LICOES,
     ],
