@@ -60,6 +60,15 @@ configurado desde o início) · **Supabase** plano gratuito (projeto
   os testes de regra rodam sem ela; um teste próprio confere a carga.
 - O cliente do Supabase só carrega para quem entra na conta (import
   dinâmico). A contagem de uso é um `fetch` solto, sem identificar ninguém.
+- **Lembretes** (`supabase/functions/lembretes/`): a função lê
+  `lembrete_inscricoes` com a service_role e manda Web Push; o pg_cron a chama
+  a cada 5 minutos (migração 20261122000000). Segredos SÓ no painel do Supabase
+  (Edge Functions > Secrets): `VAPID_PUBLICA` e `VAPID_PRIVADA`; a pública
+  também está em `src/lembretes/lembretes.ts`. A regra de quando avisar mora em
+  `regras.ts` (testada em `src/lembretes/regras.test.ts`). Função sem "Verify
+  JWT": chamá-la só envia o que já está na hora, uma vez por dia por tipo.
+  Teto: percorre todas as inscrições a cada chamada, em páginas de 500; com
+  dezenas de milhares, dividir por fuso/hora.
 
 ## Acabamento profissional (pedido do dono, 10/11/2026)
 - **Sem cara de IA.** Código sem comentários explicativos (só o raro que evita

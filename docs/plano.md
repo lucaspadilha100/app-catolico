@@ -233,8 +233,12 @@ Legenda: ✅ pronto · 🔨 em andamento · ⬜ a fazer · 👤 precisa do dono
   (3.028 páginas no primeiro build)
 - ✅ App mais leve: cada tela carrega quando é aberta (o arquivo inicial caiu
   de 685 KB para 301 KB)
-- ⬜ Lembretes (evangelho, Ângelus, terço, novena, falecidos): entram com as
-  notificações do app de celular (Leva 16); no site, o navegador não garante
+- ✅ Lembretes por notificação (Evangelho do dia, Ângelus, terço, novena),
+  cada um com a sua hora, no app instalado (iPhone com o app na Tela de
+  Início, Android, computador); função `lembretes` no Supabase a cada 5 minutos
+- ⬜ 👤 Ligar os lembretes no Supabase (chaves, função e agendamento: 3 passos)
+- ⬜ Lembrete dos falecidos (7º e 30º dia, aniversário) e "N pessoas rezaram por você"
+- ✅ Sem zoom ao tocar duas vezes no app instalado
 - ⬜ 👤 Google Search Console: cadastrar o site e enviar o sitemap (quando
   houver o domínio definitivo, para não perder o histórico)
 - ⬜ Revisão de acessibilidade com leitor de tela
