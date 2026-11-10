@@ -22,3 +22,10 @@ Ez 34,17: "entre rez e rez" → "entre ovelha e ovelha" (Vulgata "inter pecus et
 Ez 34,11-12: "visitar as ovelhas" → "cuidar delas" (Vulgata "visitabo"); o dono confere se prefere "visitar".
 Ez 36: lido na liturgia (36,16-28, Vigília Pascal; 36,23-28): conferido versículo a versículo com as três réguas.
 Ez 36,21: "eu lhes perdoei por amor do meu santo nome" → "tive compaixão deles por amor do meu santo nome" (Vulgata "peperci nomini sancto meo", "poupei o meu santo nome"); mantido o sentido do Figueiredo; o dono confere.
+Ez 37: lido na liturgia (37,1-14; 37,12-14; 37,21-28): conferido versículo a versículo. Na visão dos ossos, o Senhor fala com o profeta em diálogo ("me disse"): a fala vai entre aspas, e o oráculo que ele manda dizer, entre ‘ ’.
+Ez 37,16: "pedaço de tábua" / "lenho" → "pedaço de madeira" / "madeira" (Vulgata "lignum"), o mesmo em todo o trecho. "concerto de paz... pacto" → "aliança de paz... aliança eterna" (37,26; termo fixo). "Tabernáculo" → "morada" (37,27).
+Ez 37,11: "nós fomos cortados" → "fomos exterminados" (Vulgata "abscissi sumus"); o dono confere.
+Ez 39,7: Figueiredo: "E eles saberão" | Vulgata: "et scient gentes" | Douay-Rheims: "and the Gentiles shall know" | decidido: "E as nações saberão".
+Ez 39,13: Figueiredo: "em que eu foi glorificado" (erro de impressão) | Vulgata: "glorificatus sum" | decidido: "fui glorificado".
+Ez 39,9: "E eles as consumirão no fogo sete anos" → "Com eles manterão o fogo durante sete anos" (Vulgata "succendent ea igni septem annis"); o dono confere.
+Ez 39,11: "O vale dos passageiros" → "o vale dos Viajantes" (Vulgata "vallem viatorum").
