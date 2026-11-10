@@ -10,9 +10,11 @@ const esperar = (ms) => new Promise((r) => setTimeout(r, ms));
 const baixar = (url) => execFileSync("curl", ["-sSf", "-A", AGENTE, "-H", `AIC-User-Agent: ${AGENTE}`, url], { maxBuffer: 50_000_000 });
 
 const santos = [];
-for (const arquivo of readdirSync(join(raiz, "src/santos/dados")).sort()) {
-  const m = await import(join(raiz, "src/santos/dados", arquivo));
-  santos.push(...m.default.santos);
+for (const pasta of ["src/santos/dados", "src/santos/dados/acervo"]) {
+  for (const arquivo of readdirSync(join(raiz, pasta)).filter((a) => a.endsWith(".ts")).sort()) {
+    const m = await import(join(raiz, pasta, arquivo));
+    santos.push(...m.default.santos);
+  }
 }
 
 const usados = new Set();
