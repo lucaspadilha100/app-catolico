@@ -49,6 +49,11 @@ tradição textual, vale a Vulgata (é a Bíblia que o Figueiredo traduziu).
 - "Igreja" no Novo Testamento; "assembleia" no Antigo (Salmos incluídos)
 - "chefes dos sacerdotes" (príncipes dos sacerdotes, pontífices); "sumo
   sacerdote" para um só; "denário"; "barco"; "Em verdade vos digo"; "gentios"
+- "filisteus" para "Palestina/palestinos" do Figueiredo (o povo antigo)
+- "prostrar-se" / "inclinar-se diante de" quando "adorar" é reverência a uma
+  pessoa; "adorar" só para Deus (ou ídolos)
+- "aliança" para "concerto"; nomes de lugar na grafia atual (Betel, Harã,
+  Siquém); Aram (filho de Sem) e Arã (irmão de Abrão), nunca "Arão" para eles
 - Sem referências cruzadas entre parênteses nos títulos.
 
 ## Ordem e numeração
