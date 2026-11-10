@@ -143,12 +143,17 @@ describe("dados de Natal (planilha do Missas.com.br)", () => {
     const fora = await c("anon", null, "select cidade from public.paroquias where nome = 'Paróquia de Nossa Senhora da Penha'");
     expect(fora.rows[0]).toEqual({ cidade: "Monte Alegre" });
     const notas = await banco.query("select count(*)::int as n from public.notas_paroquia");
-    expect(notas.rows[0]).toEqual({ n: 58 });
+    expect(notas.rows[0]).toEqual({ n: 59 });
     await expect(c("anon", null, "select * from public.notas_paroquia")).rejects.toThrow();
     const h = await c("anon", null, "select tipo, count(*)::int as n from public.horarios group by tipo order by tipo");
     expect(h.rows).toEqual([
-      { tipo: "confissao", n: 56 },
-      { tipo: "missa", n: 398 },
+      { tipo: "confissao", n: 60 },
+      { tipo: "missa", n: 397 },
+    ]);
+    const santana = await c("anon", null, "select nome, bairro, (select count(*)::int from public.horarios h where h.paroquia_id = p.id and h.tipo = 'missa') as missas, conferida_em is not null as conferida from public.paroquias p where nome like 'Paróquia de Sant''Ana%' order by nome");
+    expect(santana.rows).toEqual([
+      { nome: "Paróquia de Sant'Ana, Capim Macio", bairro: "Capim Macio", missas: 3, conferida: true },
+      { nome: "Paróquia de Sant'Ana, Soledade II", bairro: "Potengi", missas: 9, conferida: true },
     ]);
     const domingo = await c("anon", null, "select count(*)::int as n from public.agenda_perto(-5.80, -35.21, '2026-11-15 06:00', 18, 'missa', 30, 100)");
     expect(Number(domingo.rows[0]!.n)).toBeGreaterThan(40);
