@@ -50,6 +50,10 @@ configurado desde o início) · **Supabase** plano gratuito (projeto
   linha por chave do localStorage (`CHAVES_SINCRONIZADAS`). Chave nova que é
   da pessoa entra na lista e, se der para juntar, em `mesclar`. O cofre já
   sobe embaralhado com o PIN.
+- **Administrador** (painel de paróquias): só nasce pelo SQL Editor
+  (`insert into public.administradores ...`), nenhuma tela dá esse poder.
+  Gestor de paróquia (secretaria) quem dá é o admin, pelo painel
+  (`adicionar_gestor`), e isso marca a paróquia como verificada.
 - O cliente do Supabase só carrega para quem entra na conta (import
   dinâmico). A contagem de uso é um `fetch` solto, sem identificar ninguém.
 

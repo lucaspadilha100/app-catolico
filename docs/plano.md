@@ -140,14 +140,15 @@ Legenda: ✅ pronto · 🔨 em andamento · ⬜ a fazer · 👤 precisa do dono
 - ⬜ Entrar com Apple: obrigatório na App Store quando há login do Google (Leva 16)
 - ⬜ 👤 Contato do responsável na política de privacidade (`src/conta/textos.ts`, `CONTATO`)
 
-### Leva 11. Missas e paróquias ⬜
-- ⬜ Perfil oficial da paróquia: endereço, mapa, secretaria, Instagram, site
-- ⬜ Horários de missa, confissão e adoração, com exceções
-- ⬜ Busca "perto de mim", por cidade e por horário
-- ⬜ Sugerir correção, horário ou paróquia; selo "confirmado há N dias"
-- ⬜ Painel de revisão do dono e paróquia verificada
-- ⬜ "Minha paróquia" na tela Hoje
-- ⬜ 👤 Dados iniciais de Natal (parceria com o "missas perto de mim" do RN)
+### Leva 11. Missas e paróquias 🔨
+- ✅ Perfil da paróquia: endereço, como chegar, secretaria, WhatsApp, Instagram, site, avisos
+- ✅ Horários de missa, confissão e adoração, com semanas do mês e datas especiais
+- ✅ Busca perto de mim (agora, hoje, domingo), por nome, bairro e cidade
+- ✅ Sugerir correção, horário ou paróquia nova (com conta); selo "confirmado há N dias"
+- ✅ Painel: fila de sugestões, cadastro e edição, paróquia verificada (a secretaria edita a própria página)
+- ✅ Minha paróquia na tela Hoje
+- ⬜ 👤 Virar administrador (um comando no SQL Editor, uma vez só)
+- ⬜ 👤 Cadastrar as paróquias de Natal (ou dar acesso às secretarias)
 
 ### Leva 12. Terço da Juventude ⬜
 - ⬜ Cadastro pela paróquia ou por qualquer grupo
