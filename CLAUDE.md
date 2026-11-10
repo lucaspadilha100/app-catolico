@@ -23,10 +23,39 @@ configurado desde o início) · **Supabase** plano gratuito (projeto
 - Páginas públicas pré-renderizadas para o Google: liturgia de cada dia,
   capítulo da Bíblia, santo, paróquia ("liturgia diária hoje" é das buscas
   mais feitas do Brasil — é a divulgação gratuita).
-- URL e anon key do Supabase podem ir no repo (são públicas, vão no bundle).
-  ⚠️ `service_role` nunca entra no repo.
+- URL e chave PUBLICÁVEL do Supabase (`sb_publishable_…`, a antiga "anon key")
+  ficam no `.env`, VERSIONADO de propósito (são públicas, vão no bundle).
+  ⚠️ `service_role` / `sb_secret_…` nunca entram no repo.
+- O ambiente cloud do Claude pode não alcançar `*.supabase.co`: teste ao vivo
+  só com o host liberado.
 - O app abre e reza **sem conta**. Conta (Google ou e-mail) é opcional:
   sincronizar entre aparelhos e comunidade.
+
+## Verificar de verdade
+`npm run verificar` = `typecheck` (`tsc -b --force`) + `test` (vitest) +
+`build` (o esbuild/Vite não checa tipos). Rode antes de todo commit.
+Conferir tela: celular 360 px (também 320), claro e escuro, sem rolar de lado.
+
+## Estrutura
+```
+src/liturgia/     o motor: datas.ts (dia sem hora, em UTC), calendario.ts
+                  (tempos, semanas, ciclos, cor, celebrações móveis), terco.ts
+                  — TUDO com teste em *.test.ts (datas conhecidas de vários anos)
+src/lib/          preferencias.tsx (tema, letra, modo simples), useDiaLiturgico,
+                  supabase.ts
+src/components/   Layout (menu lateral no PC, abas embaixo no celular), Cartao
+src/pages/        uma tela por arquivo; rota nova entra no App.tsx e no MENU
+public/           ícones do PWA gerados de docs/marca/icone-santinho-quadrado.png
+android/ ios/     projetos nativos do Capacitor (iOS por SPM, sem CocoaPods)
+```
+- Depois de mudar a web para o celular: `npm run cap:sync` (build + `cap sync`).
+- ⚠️ `appId` = `br.com.appsantinho` é PERMANENTE nas lojas.
+- Datas litúrgicas são "dia sem hora" (UTC à meia-noite): nunca `new Date()`
+  solto em conta de calendário, senão o fuso empurra o dia.
+- A cor litúrgica do dia vai em `data-cor` no `<html>` e pinta `--destaque`;
+  no BRANCO o destaque é dourado com texto escuro (branco não lê).
+- Fontes: só o subconjunto latino (`src/fontes.css`, arquivos OFL copiados),
+  para o cache offline ficar leve.
 
 ## Custo zero — regra de arquitetura
 - O que é IGUAL para todos (Bíblia, liturgia, orações, santos, novenas,

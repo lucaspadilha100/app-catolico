@@ -1,0 +1,119 @@
+@import "tailwindcss";
+@import "./fontes.css";
+
+/* ── Cores da marca e da tela ─────────────────────────────────────────── */
+:root {
+  --papel: #fcf7ee;
+  --cartao: #fffdf8;
+  --borda: #eadcc3;
+  --tinta: #2b1a0c;
+  --tinta-suave: #6d5845;
+  --marca: #341e0d;
+  --marca-fundo: #fbf0dd;
+  color-scheme: light;
+}
+
+:root[data-tema="escuro"] {
+  --papel: #15100c;
+  --cartao: #1f1813;
+  --borda: #3a2e24;
+  --tinta: #f3e9da;
+  --tinta-suave: #bfae98;
+  --marca: #f3e2c4;
+  --marca-fundo: #2a2018;
+  color-scheme: dark;
+}
+
+/* ── Cor litúrgica do dia: o DESTAQUE do app ──────────────────────────────
+   --destaque        fundo forte (cartão do dia, botão principal)
+   --sobre-destaque  texto em cima dele (no dourado é escuro: branco não lê)
+   --destaque-texto  ícone/texto em destaque sobre o papel                  */
+:root,
+:root[data-cor="verde"] {
+  --destaque: #2e7a4d;
+  --sobre-destaque: #ffffff;
+  --destaque-texto: #2e7a4d;
+}
+:root[data-cor="roxo"] {
+  --destaque: #64398f;
+  --sobre-destaque: #ffffff;
+  --destaque-texto: #64398f;
+}
+:root[data-cor="rosa"] {
+  --destaque: #b4507a;
+  --sobre-destaque: #ffffff;
+  --destaque-texto: #a8456e;
+}
+:root[data-cor="vermelho"] {
+  --destaque: #a9271f;
+  --sobre-destaque: #ffffff;
+  --destaque-texto: #a9271f;
+}
+:root[data-cor="branco"] {
+  --destaque: #c9a13b;
+  --sobre-destaque: #2b1a0c;
+  --destaque-texto: #8a6714;
+}
+:root[data-tema="escuro"][data-cor="verde"],
+:root[data-tema="escuro"]:not([data-cor]) {
+  --destaque-texto: #6cc08f;
+}
+:root[data-tema="escuro"][data-cor="roxo"] {
+  --destaque-texto: #b597e0;
+}
+:root[data-tema="escuro"][data-cor="rosa"] {
+  --destaque-texto: #e89bbb;
+}
+:root[data-tema="escuro"][data-cor="vermelho"] {
+  --destaque-texto: #ee7b72;
+}
+:root[data-tema="escuro"][data-cor="branco"] {
+  --destaque-texto: #e2c06a;
+}
+
+@theme inline {
+  --color-papel: var(--papel);
+  --color-cartao: var(--cartao);
+  --color-borda: var(--borda);
+  --color-tinta: var(--tinta);
+  --color-tinta-suave: var(--tinta-suave);
+  --color-marca: var(--marca);
+  --color-marca-fundo: var(--marca-fundo);
+  --color-destaque: var(--destaque);
+  --color-sobre-destaque: var(--sobre-destaque);
+  --color-destaque-texto: var(--destaque-texto);
+  --font-sans: "Inter Variable", system-ui, sans-serif;
+  --font-leitura: "Literata Variable", Georgia, serif;
+}
+
+/* ── Tamanho da letra e modo simples (Mais → Preferências) ─────────────── */
+:root[data-letra="grande"],
+:root[data-simples="1"][data-letra="normal"] {
+  font-size: 112.5%;
+}
+:root[data-letra="maior"] {
+  font-size: 125%;
+}
+
+body {
+  background: var(--papel);
+  color: var(--tinta);
+  font-family: var(--font-sans);
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Campo com menos de 16 px faz o iPhone dar zoom. */
+input,
+select,
+textarea {
+  font-size: max(16px, 1rem);
+}
+
+/* O símbolo da marca pinta na cor do texto (claro e escuro). */
+.simbolo {
+  display: inline-block;
+  background-color: currentColor;
+  mask: url("/simbolo.png") center / contain no-repeat;
+  -webkit-mask: url("/simbolo.png") center / contain no-repeat;
+  aspect-ratio: 392 / 312;
+}

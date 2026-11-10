@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Santinho</title>
+    <meta name="description" content="Liturgia diária, terço, Bíblia e orações. Gratuito e sem anúncios." />
+    <meta name="theme-color" content="#FBF0DD" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-santinho-32.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <script>
+      // Aplica tema e tamanho de letra ANTES do React, para a tela não piscar.
+      try {
+        var p = JSON.parse(localStorage.getItem("santinho-preferencias") || "{}");
+        var r = document.documentElement;
+        var escuro = p.tema === "escuro" || (p.tema !== "claro" && matchMedia("(prefers-color-scheme: dark)").matches);
+        r.dataset.tema = escuro ? "escuro" : "claro";
+        r.dataset.letra = p.letra || "normal";
+        if (p.simples) r.dataset.simples = "1";
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

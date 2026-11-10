@@ -7,20 +7,22 @@ então o app fica visível e testável desde a fase 1.
 ## Com o dono (fora do código)
 - [ ] INPI: conferir "Santinho" nas classes 9, 41 e 45 (busca.inpi.gov.br → Marca)
 - [ ] Registrar `appsantinho.com.br` (~R$ 40/ano, pode ser no CPF)
-- [ ] Supabase: mandar a **anon key** (Project Settings → API) — a `service_role` nunca
+- [x] Supabase: chave publicável enviada (está no `.env`) — a secreta nunca
 - [ ] Vercel: criar o projeto ligado ao repositório `app-catolico`
+      (Add New → Project → importar `app-catolico`; o `vercel.json` já configura o resto)
 - [ ] Conversar com o autor do "missas perto de mim" do RN (parceria e dados)
 - [ ] Revisar o conteúdo que a IA escrever (prioridade: Evangelhos, Salmos,
       reflexões de domingo, exame de consciência)
 
-## Fase 1 — Esqueleto
-1. Projeto React + TypeScript + Vite + Tailwind; Capacitor configurado (iOS e
-   Android) desde o início; PWA (instalar e funcionar offline).
-2. Identidade: ícone, cores, tipografia, tema claro/escuro, **cor litúrgica
-   como destaque**, modo simples para idosos.
-3. Navegação principal (Hoje · Rezar · Bíblia · Missas · Mais) e telas vazias.
-4. Supabase ligado (sem exigir login); deploy na Vercel.
-5. Testes e verificação (typecheck + build) desde o primeiro commit.
+## Fase 1 — Esqueleto ✅ (10/11/2026)
+1. [x] React + TypeScript + Vite + Tailwind; Capacitor (Android e iOS) desde o
+   início; PWA (instala e funciona offline).
+2. [x] Identidade: ícone, cores, Literata (leitura) + Inter (tela), tema claro/
+   escuro, **cor litúrgica como destaque**, tamanho de letra e modo simples.
+3. [x] Navegação (Hoje · Rezar · Bíblia · Missas · Mais). Hoje já mostra o dia
+   litúrgico calculado e o terço do dia; Terço mostra os 4 grupos de mistérios.
+4. [x] Cliente do Supabase pronto (sem exigir login). [ ] Projeto na Vercel (dono).
+5. [x] `npm run verificar` (typecheck + testes + build); 14 testes do calendário.
 
 ## Fase 2 — Motor litúrgico (a base da tela Hoje)
 1. Calendário litúrgico do Brasil calculado no aparelho: Páscoa, tempos,
