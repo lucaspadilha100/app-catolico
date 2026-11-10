@@ -219,7 +219,7 @@ function PorHorario({ itens, agora }: { itens: ItemDaAgenda[]; agora: Date }) {
   );
 }
 
-function PorIgreja({ igrejas, agora }: { igrejas: IgrejaComHorarios[]; agora: Date }) {
+function PorIgreja({ igrejas, agora, comDia }: { igrejas: IgrejaComHorarios[]; agora: Date; comDia: boolean }) {
   return (
     <ul className="flex flex-col divide-y divide-borda rounded-2xl border border-borda bg-cartao">
       {igrejas.map((p) => (
@@ -231,7 +231,7 @@ function PorIgreja({ igrejas, agora }: { igrejas: IgrejaComHorarios[]; agora: Da
               <span className="mt-1.5 flex flex-wrap gap-1.5">
                 {p.horarios.map((h) => {
                   const q = new Date(h.quando.replace(" ", "T"));
-                  const outroDia = diaDe(q) !== diaDe(agora);
+                  const outroDia = comDia && diaDe(q) !== diaDe(agora);
                   const hora = hhmm(h.quando.slice(11, 16));
                   return (
                     <span key={h.quando} className="rounded-lg bg-marca-fundo px-2 py-0.5 text-sm font-semibold text-destaque-texto">
@@ -629,7 +629,7 @@ export function Missas() {
               ) : ordem === "horario" ? (
                 <PorHorario itens={agenda.itens} agora={agora} />
               ) : (
-                <PorIgreja igrejas={igrejas.itens} agora={agora} />
+                <PorIgreja igrejas={igrejas.itens} agora={agora} comDia={quando === "agora"} />
               )}
               {!atual.carregando && atual.temMais && (
                 <MostrarMais onClick={atual.mais} buscando={atual.buscandoMais}>

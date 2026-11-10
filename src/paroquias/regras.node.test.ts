@@ -168,8 +168,9 @@ describe("busca", () => {
     ]);
     const manha = await como("anon", null, `select nome from public.agenda_de_horarios(${args}, 40, 'Natal', 'RN', 0, '2026-11-22 12:00')`);
     expect(manha.rows.map((x) => x.nome)).toEqual(["Catedral Metropolitana", "Capela de São Pedro"]);
-    const perto = await como("anon", null, "select cidade from public.cidades_com_paroquias('', -5.88, -35.17)");
-    expect(perto.rows).toEqual([{ cidade: "Natal" }]);
+    await como("authenticated", ADMIN, "insert into public.paroquias (nome, cidade, uf) values ('Capela sem mapa', 'Natal', 'RN')");
+    const perto = await como("anon", null, "select cidade, total from public.cidades_com_paroquias('', -5.88, -35.17)");
+    expect(perto.rows).toEqual([{ cidade: "Natal", total: 3 }]);
   });
 
   it("confissão hoje", async () => {
