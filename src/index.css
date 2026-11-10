@@ -66,7 +66,26 @@
   --destaque-texto: #e2c06a;
 }
 
+:root {
+  --dia: var(--destaque);
+  --sobre-dia: var(--sobre-destaque);
+  --borda-dia: transparent;
+}
+:root[data-cor="branco"] {
+  --dia: #fbf3df;
+  --sobre-dia: #2b1a0c;
+  --borda-dia: #d9b75a;
+}
+:root[data-tema="escuro"][data-cor="branco"] {
+  --dia: #2a2216;
+  --sobre-dia: #f3e9da;
+  --borda-dia: #8a6a22;
+}
+
 @theme inline {
+  --color-dia: var(--dia);
+  --color-sobre-dia: var(--sobre-dia);
+  --color-borda-dia: var(--borda-dia);
   --color-papel: var(--papel);
   --color-cartao: var(--cartao);
   --color-borda: var(--borda);

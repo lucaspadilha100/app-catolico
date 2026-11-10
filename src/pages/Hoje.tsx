@@ -25,16 +25,14 @@ export default function Hoje() {
 
   return (
     <div className="flex flex-col gap-4">
-      <section className="rounded-3xl bg-destaque p-6 text-sobre-destaque shadow-sm">
+      <section className="rounded-3xl border border-borda-dia bg-dia p-6 text-sobre-dia shadow-sm">
         <p className="text-sm font-medium opacity-90">{dataPorExtenso(l.data)}</p>
         <h1 className="mt-2 font-leitura text-2xl font-semibold leading-snug sm:text-3xl">{l.titulo}</h1>
         {subtitulo && <p className="mt-2 text-sm font-medium opacity-90">{subtitulo}</p>}
         <div className="mt-4 flex flex-wrap gap-2 text-xs font-semibold">
-          <span className="rounded-full bg-black/15 px-3 py-1">Cor: {NOME_DA_COR[l.cor]}</span>
-          <span className="rounded-full bg-black/15 px-3 py-1">Ano {l.cicloDominical}</span>
-          <span className="rounded-full bg-black/15 px-3 py-1">
-            Semana {l.cicloFerial === "I" ? "ímpar (I)" : "par (II)"}
-          </span>
+          <span className="rounded-full bg-black/10 px-3 py-1">Cor: {NOME_DA_COR[l.cor]}</span>
+          <span className="rounded-full bg-black/10 px-3 py-1">Ano {l.cicloDominical}</span>
+          <span className="rounded-full bg-black/10 px-3 py-1">Ano {l.cicloFerial === "I" ? "ímpar" : "par"}</span>
         </div>
       </section>
 
