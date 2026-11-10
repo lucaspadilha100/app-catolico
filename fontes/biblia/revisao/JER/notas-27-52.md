@@ -20,3 +20,5 @@ Jr 41,1: Figueiredo: "e os grándes reis" | Vulgata: "et optimates regis" | Doua
 Jr 41,17: Figueiredo: "Camaão" | Vulgata: "Chamaam" | decidido: "Camaam" (o "ão" parece leitura errada do OCR).
 Jr 44,30: Figueiredo: "Faraó Efreo" | Vulgata: "Pharaonem Ephree" | Douay-Rheims: "Pharao Ephree" | decidido: "o faraó Efree" (provável OCR).
 Jr 44,19: Figueiredo: "Assim é que nós sacrificamos" | Vulgata: "Quod si nos sacrificamus" | Douay-Rheims: "And if we offer sacrifice" | decidido: "E se nós oferecemos sacrifícios", pelas duas réguas (a pergunta que segue só faz sentido assim).
+Jr 46,7: Figueiredo: "sobe como no" (OCR) | Vulgata: "quasi flumen ascendit" | Douay-Rheims: "cometh up as a flood" | decidido: "como um rio".
+Jr 46,17: "Chamai daqui em diante a Faraó" mantido (Vulgata "Vocate nomen Pharaonis", Douay-Rheims "Call ye the name of Pharao"): escolha do Figueiredo.
