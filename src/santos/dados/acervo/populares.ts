@@ -79,7 +79,7 @@ const acervo: AcervoDeSantos = {
       historia: [
         "Antônio nasceu no norte da África, no fim do século XV, e ainda jovem foi capturado e vendido como escravo na Sicília. Serviu uma família da região de Noto, onde conheceu a fé cristã e foi batizado. Mais tarde recebeu a liberdade.",
         "Livre, escolheu uma vida pobre e escondida. Segundo os relatos guardados em Noto, viveu como eremita, em oração e penitência, e repartia com os pobres e os doentes o pouco que tinha. Morreu em 14 de março de 1549 ou 1550, com fama de santidade. Por isso é chamado também Antônio Etíope ou Antônio de Noto. A origem do nome Categeró não é conhecida com segurança.",
-        "O seu culto nasceu do povo da Sicília e passou para Portugal e para o Brasil. Aqui foi querido pelas irmandades negras, como a do Rosário dos Pretos, em Salvador, onde ainda é venerado. O povo o chama de santo, mas não há canonização: o seu nome não consta do Martirológio Romano, e a devoção se apoia num culto antigo e local. São João Paulo II lembrou-o como exemplo de santidade e de acolhida. A sua vida mostra que a graça de Deus alcança quem o mundo põe no último lugar.",
+        "O seu culto nasceu do povo da Sicília e passou para Portugal e para o Brasil. Aqui foi querido pelas irmandades negras, como a do Rosário dos Pretos, em Salvador, onde ainda é venerado. O povo o chama de santo, mas não há canonização: o seu nome não consta do Martirológio Romano, e a devoção se apoia num culto antigo e local. A sua vida mostra que a graça de Deus alcança quem o mundo põe no último lugar.",
       ],
     },
     {
@@ -146,7 +146,6 @@ const acervo: AcervoDeSantos = {
         "Vinte e cinco anos depois, um novo processo, autorizado pelo papa Calisto III, anulou a sentença e declarou a sua inocência. Joana foi beatificada em 1909 e canonizada em 1920 pelo papa Bento XV. É padroeira secundária da França. Ela mostra a coragem de quem obedece a Deus e a paciência de quem sofre uma injustiça cometida até por homens da Igreja.",
       ],
       padroeiro: ["da França", "dos soldados"],
-      imagem: { artic: 145841, titulo: "Joan of Arc", artista: "Henri Chapu", data: "1875-1900" },
     },
     {
       id: "santo-onofre",
@@ -554,7 +553,7 @@ const acervo: AcervoDeSantos = {
       resumo: "Virgem e mártir dos primeiros séculos, muito venerada na Idade Média, cuja história chegou cheia de lendas.",
       historia: [
         "Sabe-se muito pouco com segurança sobre Santa Margarida, chamada Marina pelos cristãos do Oriente. O Martirológio Romano diz apenas que se acredita que tenha consagrado a Cristo a sua virgindade e que morreu mártir em Antioquia da Pisídia, na atual Turquia, provavelmente numa das perseguições do começo do século IV.",
-        "A narrativa da sua vida, escrita muito depois, é cheia de lendas. Segundo ela, era filha de um sacerdote pagão e foi criada por uma ama cristã. Recusou casar-se com um governador romano para não renegar a fé, foi presa e torturada. Na prisão, conta a lenda, o demônio lhe apareceu como um dragão, e ela o venceu com o sinal da cruz. Por isso é pintada com um dragão a seus pés. Já no século V um documento da Igreja de Roma considerou essa narrativa sem valor.",
+        "A narrativa da sua vida, escrita muito depois, é cheia de lendas. Segundo ela, era filha de um sacerdote pagão e foi criada por uma ama cristã. Recusou casar-se com um governador romano para não renegar a fé, foi presa e torturada. Na prisão, conta a lenda, o demônio lhe apareceu como um dragão, e ela o venceu com o sinal da cruz. Por isso é pintada com um dragão a seus pés.",
         "Mesmo assim, a sua devoção foi enorme na Idade Média. Santa Margarida é uma das vozes que Santa Joana d'Arc dizia ouvir e era invocada pelas mulheres na hora do parto. Em 1969 foi tirada do calendário geral, mas permanece no Martirológio. A sua memória recorda as jovens mártires que preferiram Cristo à própria vida.",
       ],
       padroeiro: ["das gestantes, por costume antigo"],
@@ -651,7 +650,7 @@ const acervo: AcervoDeSantos = {
       historia: [
         "O Martirológio Romano lembra Santa Quitéria em 22 de maio, como virgem, na região de Aire, no sudoeste da França, onde o seu túmulo é venerado desde a Antiguidade. Provavelmente viveu entre os séculos IV e V. Fora disso, não temos dados seguros sobre a sua vida.",
         "A tradição da Península Ibérica conta uma história cheia de lendas: Quitéria seria filha de um governador romano da Galiza, nascida com outras oito irmãs no mesmo parto. A mãe, pagã, teria mandado matá-las, mas foram salvas e criadas por uma cristã. Já moça, Quitéria recusou casar-se com um pagão e fugiu. Foi alcançada e decapitada por não renegar a fé. Essas narrativas não podem ser confirmadas.",
-        "A devoção chegou ao Brasil com os portugueses, e várias cidades levam o seu nome, no Ceará, em Minas Gerais e no Maranhão. Por costume antigo, é invocada contra a raiva, a doença transmitida pelos cães. Santa Quitéria recorda as jovens que, nos primeiros séculos, guardaram a fé até o fim.",
+        "A devoção chegou ao Brasil com os portugueses, e cidades do Ceará e do Maranhão levam o seu nome. Por costume antigo, é invocada contra a raiva, a doença transmitida pelos cães. Santa Quitéria recorda as jovens que, nos primeiros séculos, guardaram a fé até o fim.",
       ],
     },
     {
@@ -699,7 +698,6 @@ const acervo: AcervoDeSantos = {
         "Em 1589 partiu como missionário para a América. Depois de uma viagem difícil, com naufrágio no caminho, foi enviado para a região de Tucumán, no atual norte da Argentina, e para as terras vizinhas do Paraguai. Por mais de dez anos andou a pé por grandes distâncias, aprendeu as línguas dos povos indígenas, pregou, batizou e defendeu os índios. A tradição conta que tocava violino para alegrar e reunir as pessoas.",
         "Mais tarde foi chamado a Lima, no Peru, onde pregava nas praças convidando à conversão e cuidava dos pobres e doentes. Morreu ali em 14 de julho de 1610, já com fama de santidade. Foi canonizado em 1726. O Martirológio Romano lembra que percorreu a América do Sul ensinando aos indígenas e aos colonos espanhóis a novidade da vida cristã. Ele é exemplo de missionário que se faz próximo de cada povo.",
       ],
-      padroeiro: ["da Argentina", "do Paraguai"],
     },
     {
       id: "sao-bartolomeu-dos-martires",

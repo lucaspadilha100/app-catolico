@@ -162,3 +162,19 @@ Santa Bárbara.
 - Fora por falta de biografia confiável: Antonieta Farani, Madre Maria dos
   Anjos Amorim, Vicenta Guilarte, Mons. Ângelo Angioni, Maria de Lourdes
   Guarda e outros.
+
+## Acervo: devoção popular (`src/santos/dados/acervo/populares.ts`)
+- 46 santos antigos fora do calendário geral, com a data do Martirológio
+  Romano (2004): São Longuinho, São Roque, Santa Apolônia, Santo Amaro,
+  São Dimas, Joana d'Arc, Geraldo Majela, Raimundo Nonato, Elesbão…
+- Lenda dita como lenda; os "três pulinhos" de São Longuinho como costume
+  popular, sem fundamento na doutrina. Santa Filomena não entrou.
+- Decidir: Santa Ifigênia (não está no Martirológio atual; usado 21/9) e
+  Antônio de Categeró (sem canonização nem beatificação formal achada;
+  ficou "Beato", culto antigo e local, data de 14/3 de fontes devocionais).
+- Beato Gonçalo de Amarante (culto aprovado por Pio IV em 1561), achado
+  também como "São Gonçalo".
+- Datas do Martirológio diferentes das festas locais: Elesbão 15/5 (27/10),
+  Nuno 1/11 (Portugal 6/11), Rosália 4/9 (Palermo em julho).
+- A conferir: Pio XII e Santa Zita padroeira das domésticas; igrejas de
+  Santa Ifigênia e Santo Elesbão; Categeró no Rosário dos Pretos de Salvador.

@@ -106,6 +106,7 @@ Legenda: ✅ pronto · 🔨 em andamento · ⬜ a fazer · 👤 precisa do dono
 
 ### Leva 7. Santos e calendário 🔨
 - ✅ História de todos os santos e festas do calendário do Brasil (cerca de 230), mais os de devoção popular (Expedito, Cristóvão, Bárbara) e os beatos Nhá Chica e Lindalva
+- ✅ Acervo além do calendário: santos, beatos, veneráveis e servos de Deus do Brasil, jovens (Carlo Acutis, Frassati), Nossa Senhora (títulos e aparições), dos nossos tempos, devoção popular e veneráveis do mundo, com selo e "Conhecer" por grupo
 - ✅ 69 imagens em domínio público (Art Institute of Chicago), com crédito na tela
 - ✅ Busca de santos, "Meus santos" e "Seu santo" (pelo nome e pelo dia do nascimento)
 - ✅ Tela Calendário: mês, cor, festas, missa obrigatória, jejum e penitência; aviso na tela Hoje
