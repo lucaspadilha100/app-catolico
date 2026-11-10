@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import mapa from "./dados/mapa-hebraico.json";
-import { intervalosDaReferencia, paraVulgata, type MapaHebraico } from "./texto";
+import { equilibrarAspas, intervalosDaReferencia, paraVulgata, type MapaHebraico } from "./texto";
 import { LIVROS, livroPorSlug } from "./livros";
 
 describe("referências", () => {
@@ -44,5 +44,20 @@ describe("livros", () => {
     expect(new Set(LIVROS.map((l) => l.slug)).size).toBe(73);
     expect(livroPorSlug("jo")?.codigo).toBe("JOB");
     expect(livroPorSlug("joao")?.codigo).toBe("JHN");
+  });
+});
+
+describe("aspas de um trecho", () => {
+  it("abre a fala que começou antes e fecha a que continua depois", () => {
+    const anteriores = ["Jesus disse: “Escutai.", "Um homem tinha dois filhos."];
+    expect(equilibrarAspas(anteriores, ["Disse o mais novo: ‘Pai, dá-me a parte.’", "E ele repartiu."])).toEqual([
+      "“Disse o mais novo: ‘Pai, dá-me a parte.’",
+      "E ele repartiu.”",
+    ]);
+  });
+
+  it("não mexe no trecho que já está completo nem no apóstrofo", () => {
+    const trecho = ["Ele disse: “Bebei d’água.”"];
+    expect(equilibrarAspas(["Veio a Jesus."], trecho)).toEqual(trecho);
   });
 });

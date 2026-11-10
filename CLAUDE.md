@@ -152,8 +152,16 @@ Nada de licença paga por ora. Então:
   bate com a Vulgata (quase sempre um versículo grudado no vizinho).
 - Revisão em **linguagem atual** (pedido do dono, 10/11/2026: a primeira amostra
   "ficou ruim de ler"): falas entre aspas, frases curtas na ordem natural,
-  menos "E" no começo, palavras de hoje, "vós" mantido. Amostra em Mc 1 e Sl 22
-  aguardando aprovação. Corrige também o OCR, SEMPRE olhando o PDF de 1950.
+  menos "E" no começo, palavras de hoje, "vós" mantido. Guia:
+  `docs/biblia/guia-de-revisao.md`. Corrige também o OCR, SEMPRE olhando o PDF de 1950.
+- Revisado mora em `fontes/biblia/revisao/<LIVRO>/<cap>.json` (lista de
+  versículos); `node scripts/conferir-capitulo.mjs <LIVRO> <cap>` confere. O
+  gerador usa o capítulo revisado quando existe; livro inteiro revisado vira
+  `revisado`. Evangelhos prontos em 10/11/2026.
+- Cada livro sai como `public/biblia/f1/<LIVRO>.<hash>.json` (nome em
+  `estado.json`): texto mudou, nome muda, e o aparelho baixa só esse livro.
+- Leitura da liturgia que começa no meio de uma fala ganha as aspas que faltam
+  (`equilibrarAspas`).
 - ⚠️ **Nunca usar outra tradução como modelo de frase** (Ave-Maria, CNBB,
   Jerusalém, Pastoral). O dono mostrou a Ave-Maria como exemplo de leitura: vale
   o ESTILO, nunca o texto. Reescrever a partir do Figueiredo, versículo a versículo.

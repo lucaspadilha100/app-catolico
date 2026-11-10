@@ -45,8 +45,11 @@ Tom aprovado pelo dono em 10/11/2026 (amostra: Marcos 1 e Salmo 22).
 Texto completo da amostra aprovada: `docs/biblia/amostra-aprovada.json`.
 
 ## Formato do trabalho
-- Saída: `fontes/biblia/revisao/<LIVRO>.json`, mesmo formato da fonte:
-  `{ "codigo": "MRK", "capitulos": [["v1", "v2", ...], ...] }`.
+- Saída: um arquivo por capítulo, `fontes/biblia/revisao/<LIVRO>/<capítulo>.json`,
+  só com a lista dos versículos: `["v1", "v2", ...]`.
+- `node scripts/conferir-capitulo.mjs <LIVRO> <capítulo>` a cada capítulo.
+- Termos fixos: "chefes dos sacerdotes" (príncipes dos sacerdotes, pontífices);
+  "sumo sacerdote" (um só: Caifás, Anás); "barco"; "Em verdade vos digo".
 - Dúvidas (texto do Figueiredo estranho, possível erro de digitação, divergência
   do latim mantida) vão para `fontes/biblia/revisao/<LIVRO>-notas.md`, uma linha
   por caso: `Mc 1,24: ...`.

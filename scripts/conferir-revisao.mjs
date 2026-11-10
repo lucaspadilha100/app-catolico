@@ -7,18 +7,20 @@ const livros = process.argv.slice(2);
 let falhas = 0;
 
 for (const codigo of livros) {
-  const caminho = join(raiz, "fontes/biblia/revisao", `${codigo}.json`);
-  if (!existsSync(caminho)) {
+  const pasta = join(raiz, "fontes/biblia/revisao", codigo);
+  if (!existsSync(pasta)) {
     console.log(`${codigo}: sem revisão`);
     falhas++;
     continue;
   }
   const fonte = JSON.parse(readFileSync(join(raiz, "fontes/biblia/figueiredo-1950", `${codigo}.json`), "utf8"));
-  const revisado = JSON.parse(readFileSync(caminho, "utf8"));
+  const revisado = {
+    capitulos: fonte.capitulos.map((_, c) => {
+      const caminho = join(pasta, `${c + 1}.json`);
+      return existsSync(caminho) ? JSON.parse(readFileSync(caminho, "utf8")) : [];
+    }),
+  };
   const problemas = [];
-  if (revisado.capitulos.length !== fonte.capitulos.length) {
-    problemas.push(`capítulos: ${revisado.capitulos.length}, esperado ${fonte.capitulos.length}`);
-  }
   fonte.capitulos.forEach((cap, c) => {
     const rev = revisado.capitulos[c] ?? [];
     if (rev.length !== cap.length) problemas.push(`${c + 1}: ${rev.length} versículos, esperado ${cap.length}`);

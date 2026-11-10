@@ -6,7 +6,7 @@ const raiz = join(dirname(fileURLToPath(import.meta.url)), "..");
 const [codigo, capArg] = process.argv.slice(2);
 const cap = Number(capArg);
 const fonte = JSON.parse(readFileSync(join(raiz, "fontes/biblia/figueiredo-1950", `${codigo}.json`), "utf8"));
-const caminho = join(raiz, "fontes/biblia/revisao/partes", codigo, `${cap}.json`);
+const caminho = join(raiz, "fontes/biblia/revisao", codigo, `${cap}.json`);
 if (!existsSync(caminho)) {
   console.log(`falta ${caminho}`);
   process.exit(1);

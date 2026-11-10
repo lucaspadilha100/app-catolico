@@ -49,9 +49,10 @@ Legenda: ✅ pronto · 🔨 em andamento · ⬜ a fazer · 👤 precisa do dono
 - ✅ Progresso: capítulos lidos, % por livro e da Bíblia, continuar lendo
 - ✅ Liturgia do dia com o texto completo das leituras
 - ✅ 👤 Regra de fidelidade: quando o Figueiredo se afasta do latim, segue o Figueiredo
-- ⬜ 👤 Aprovar a amostra em linguagem atual (Mc 1 e Sl 22, segunda versão)
-- ⬜ Revisão em linguagem atual, em lotes, olhando o PDF: Evangelhos → Salmos → Novo
-  Testamento → Antigo Testamento, com conferência automática a cada lote
+- ✅ 👤 Amostra em linguagem atual aprovada (Mc 1 e Sl 22, segunda versão)
+- ✅ Revisão em linguagem atual dos quatro Evangelhos (3.777 versículos),
+  conferida capítulo a capítulo; dúvidas em `fontes/biblia/revisao/<LIVRO>-notas.md`
+- ⬜ Revisão em linguagem atual: Salmos → resto do Novo Testamento → Antigo Testamento
 - ⬜ Corrigir as pendências (versículos grudados, OCR)
 - ⬜ 👤 Leitura dos Evangelhos e Salmos revisados
 - ⬜ Introdução curta dos 73 livros

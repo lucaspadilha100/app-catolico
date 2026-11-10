@@ -94,6 +94,33 @@ export function intervalosDaReferencia(canonica: string): Intervalo[] {
 
 const NUMERACAO_DA_VULGATA = new Set(["DAN", "TOB", "JDT", "EST", "1MA", "2MA", "WIS", "SIR", "BAR"]);
 
+const PARES: Record<string, string> = { "“": "”", "‘": "’" };
+
+function aspasAbertas(textos: string[], inicio: string[] = []): string[] {
+  const pilha = [...inicio];
+  for (const texto of textos) {
+    [...texto].forEach((ch, i, letras) => {
+      if (ch === "“" || ch === "‘") pilha.push(ch);
+      else if (ch === "”" || ch === "’") {
+        if (ch === "’" && /\p{L}/u.test(letras[i - 1] ?? "") && /\p{L}/u.test(letras[i + 1] ?? "")) return;
+        const topo = pilha.lastIndexOf(ch === "”" ? "“" : "‘");
+        if (topo >= 0) pilha.splice(topo);
+      }
+    });
+  }
+  return pilha;
+}
+
+export function equilibrarAspas(anteriores: string[], trecho: string[]): string[] {
+  if (!trecho.length) return trecho;
+  const abertas = aspasAbertas(anteriores);
+  const resultado = [...trecho];
+  resultado[0] = abertas.join("") + resultado[0];
+  const pendentes = aspasAbertas(resultado);
+  resultado[resultado.length - 1] += pendentes.reverse().map((a) => PARES[a]).join("");
+  return resultado;
+}
+
 export async function textoDaReferencia(canonica: string): Promise<Trecho[]> {
   const intervalos = intervalosDaReferencia(canonica);
   const mapaH = await carregarMapaHebraico();
@@ -115,6 +142,11 @@ export async function textoDaReferencia(canonica: string): Promise<Trecho[]> {
         if (texto) versiculos.push({ capitulo: c, versiculo: v, texto });
       }
     }
+    const textos = equilibrarAspas(
+      (dados.capitulos[c1 - 1] ?? []).slice(0, v1 - 1),
+      versiculos.map((v) => v.texto),
+    );
+    versiculos.forEach((v, i) => (v.texto = textos[i]!));
     const anterior = trechos[trechos.length - 1];
     if (anterior && anterior.livro === livro) anterior.versiculos.push(...versiculos);
     else trechos.push({ livro, versiculos });
