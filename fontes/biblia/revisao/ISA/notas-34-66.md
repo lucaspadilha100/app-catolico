@@ -67,3 +67,8 @@ Is 60,1: a fonte traz "(})" no fim (resto de chamada de nota); removido. Versíc
 Is 60,6: "técuas de camelos" (palavra que não se acha) ficou "manadas de camelos" (Vulgata "inundatio camelorum"). Conferir no PDF.
 Is 60,14: "adorarão os rastos dos teus pés" ficou "se prostrarão diante das pegadas dos teus pés" (termo fixo).
 Is 60,22: "e o mais pequeno sôbre à nação mais forte" mantido no sentido do Figueiredo ("mais que a nação mais forte"); a Vulgata diz "in gentem fortissimam" (se tornará uma nação fortíssima).
+Is 61,1: OCR muito estragado ("j)ara evangelizar áàs irtài1sós") lido pela Vulgata ("ad annuntiandum mansuetis") como "para evangelizar os mansos". Versículo lido em Lc 4,18 e na liturgia; conferir no PDF.
+Is 61,3: "Para pôr aos que choram de Sião" (Vulgata "ut ponerem lugentibus Sion", frase sem complemento também no latim) ficou "para prover os que choram em Sião".
+Is 61,11: OCR "o lomor" lido "o louvor".
+Is 62,2: "o teu ínclito" ficou "o teu Glorioso" (Vulgata "inclytum tuum"), em maiúscula como "o teu Justo".
+Is 62,8: o juramento do Figueiredo segue a forma hebraica ("Se eu der o teu trigo... E se os filhos alheios beberem o teu vinho"), que em português fica sem fim; ficou com o sentido de juramento, "Nunca mais darei... nem os estrangeiros beberão" (Douay-Rheims "Surely I will no more give"). O dono decide.

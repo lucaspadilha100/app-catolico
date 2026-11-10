@@ -33,3 +33,6 @@ Jt 10,4: número solto "1" depois de "tal": retirado.
 Jt 10,5: "garrafinha de vinho, e uma almotolia de azeite" vertido "odre de vinho, vasilha de azeite" (Vulgata "ascoperam vini, et vas olei").
 Jt 10,18: Figueiredo: "que devamos com razão pelejar contra êles para as possuirmos?" | Vulgata: "ut non pro his merito pugnare contra eos debeamus?" | decidido: "Não temos razão para lutar contra eles por causa delas?"; o "para as possuirmos" do Figueiredo ficou de fora por não estar no latim; conferir se o dono prefere manter.
 Jt 10,20: "o adorou, prostrando-se em terra" vertido "prostrou-se diante dele, inclinando-se até o chão" (adorar só para Deus); "os oficiais" vertido "os servos" (Vulgata "servi").
+Jt 11,6: asterisco e número solto "* 1" depois de "tu": retirados.
+Jt 11,9: Figueiredo: "E porque os filhos de Israel ofenderam o seu Deus" | Vulgata: "quoniam sciunt se offendisse Deum suum" | Douay-Rheims: "because the children of Israel know they have offended" | decidido: "sabem que ofenderam" (palavra que falta na edição de 1950).
+Jt 11,18: "aos seus oficiais" vertido "aos seus servos" (Vulgata "pueris ejus", DR "servants").
