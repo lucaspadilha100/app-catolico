@@ -1,4 +1,3 @@
-
 import {
   type Dia,
   dia,
@@ -10,6 +9,7 @@ import {
   domingoAteHoje,
   nomeDoDiaDaSemana,
 } from "./datas";
+import { type Celebracao, type Grau, FINADOS, santosDaData } from "./santoral";
 
 export type Tempo = "advento" | "natal" | "comum" | "quaresma" | "triduo" | "pascoa";
 export type CorLiturgica = "verde" | "roxo" | "rosa" | "branco" | "vermelho";
@@ -21,8 +21,10 @@ export interface DiaLiturgico {
   tempo: Tempo;
   semana: number | null;
   cor: CorLiturgica;
-  celebracao: string | null;
   titulo: string;
+  celebracao: Celebracao | null;
+  facultativas: Celebracao[];
+  santos: Celebracao[];
   anoLiturgico: number;
   cicloDominical: CicloDominical;
   cicloFerial: CicloFerial;
@@ -43,6 +45,15 @@ export const NOME_DA_COR: Record<CorLiturgica, string> = {
   rosa: "Rosa",
   branco: "Branco",
   vermelho: "Vermelho",
+};
+
+export const NOME_DO_GRAU: Record<Grau, string> = {
+  "dia-santo": "",
+  solenidade: "Solenidade",
+  "festa-do-senhor": "Festa",
+  festa: "Festa",
+  memoria: "Memória",
+  facultativa: "Memória facultativa",
 };
 
 export function pascoa(ano: number): Dia {
@@ -86,99 +97,219 @@ export function sagradaFamilia(ano: number): Dia {
   return dia(ano, 12, 30);
 }
 
+const domingoEntre = (ano: number, mes: number, primeiroDia: number): Dia => {
+  const inicio = dia(ano, mes, primeiroDia);
+  return somaDias(inicio, (7 - diaDaSemana(inicio)) % 7);
+};
+
 const ordM = (n: number) => `${n}º`;
 const ordF = (n: number) => `${n}ª`;
+const mmdd = (d: Dia) => `${String(d.getUTCMonth() + 1).padStart(2, "0")}${String(d.getUTCDate()).padStart(2, "0")}`;
 
-function celebracaoMovel(d: Dia): { nome: string; cor: CorLiturgica } | null {
+interface Candidato {
+  celebracao: Celebracao;
+  precedencia: number;
+  temporal?: boolean;
+}
+
+const PRECEDENCIA: Record<Grau, number> = {
+  "dia-santo": 3,
+  solenidade: 3,
+  "festa-do-senhor": 5,
+  festa: 7,
+  memoria: 10,
+  facultativa: 12,
+};
+
+const senhor = (nome: string, cor: CorLiturgica = "branco"): Celebracao => ({ nome, grau: "festa-do-senhor", cor });
+const solenidade = (nome: string, cor: CorLiturgica = "branco"): Celebracao => ({ nome, grau: "solenidade", cor });
+const diaSanto = (nome: string, cor: CorLiturgica = "branco"): Celebracao => ({ nome, grau: "dia-santo", cor });
+
+function celebracaoDoTempo(d: Dia): Candidato | null {
   const ano = d.getUTCFullYear();
   const p = pascoa(ano);
   const a1 = primeiroDomingoDoAdvento(ano);
   const igual = (x: Dia) => mesmoDia(d, x);
+  const c = (celebracao: Celebracao, precedencia: number): Candidato => ({ celebracao, precedencia, temporal: true });
 
-  if (igual(dia(ano, 12, 25))) return { nome: "Natal do Senhor", cor: "branco" };
-  if (igual(dia(ano, 1, 1))) return { nome: "Santa Maria, Mãe de Deus", cor: "branco" };
-  if (igual(sagradaFamilia(ano))) return { nome: "Sagrada Família", cor: "branco" };
-  if (igual(epifania(ano))) return { nome: "Epifania do Senhor", cor: "branco" };
-  if (igual(batismoDoSenhor(ano))) return { nome: "Batismo do Senhor", cor: "branco" };
-  if (igual(quartaDeCinzas(ano))) return { nome: "Quarta-feira de Cinzas", cor: "roxo" };
-  if (igual(somaDias(p, -7))) return { nome: "Domingo de Ramos e da Paixão do Senhor", cor: "vermelho" };
-  if (igual(somaDias(p, -3))) return { nome: "Quinta-feira Santa", cor: "branco" };
-  if (igual(somaDias(p, -2))) return { nome: "Sexta-feira da Paixão", cor: "vermelho" };
-  if (igual(somaDias(p, -1))) return { nome: "Sábado Santo", cor: "branco" };
-  if (igual(p)) return { nome: "Domingo de Páscoa", cor: "branco" };
-  if (igual(somaDias(p, 7))) return { nome: "Domingo da Divina Misericórdia", cor: "branco" };
-  if (igual(somaDias(p, 42))) return { nome: "Ascensão do Senhor", cor: "branco" };
-  if (igual(somaDias(p, 49))) return { nome: "Pentecostes", cor: "vermelho" };
-  if (igual(somaDias(p, 56))) return { nome: "Santíssima Trindade", cor: "branco" };
-  if (igual(somaDias(p, 60))) return { nome: "Corpus Christi", cor: "branco" };
-  if (igual(somaDias(p, 68))) return { nome: "Sagrado Coração de Jesus", cor: "branco" };
-  if (igual(somaDias(a1, -7))) return { nome: "Nosso Senhor Jesus Cristo, Rei do Universo", cor: "branco" };
+  if (igual(somaDias(p, -3))) return c(diaSanto("Quinta-feira Santa"), 1);
+  if (igual(somaDias(p, -2))) return c(diaSanto("Sexta-feira da Paixão do Senhor", "vermelho"), 1);
+  if (igual(somaDias(p, -1))) return c(diaSanto("Sábado Santo"), 1);
+  if (igual(p)) return c(diaSanto("Domingo da Páscoa na Ressurreição do Senhor"), 1);
+  if (igual(dia(ano, 12, 25))) return c(solenidade("Natal do Senhor"), 2);
+  if (igual(epifania(ano))) return c(solenidade("Epifania do Senhor"), 2);
+  if (igual(somaDias(p, 42))) return c(solenidade("Ascensão do Senhor"), 2);
+  if (igual(somaDias(p, 49))) return c(solenidade("Pentecostes", "vermelho"), 2);
+  if (igual(somaDias(p, -7))) return c(diaSanto("Domingo de Ramos da Paixão do Senhor", "vermelho"), 2);
+  if (igual(quartaDeCinzas(ano))) return c(diaSanto("Quarta-feira de Cinzas", "roxo"), 2);
+  if (igual(somaDias(p, 7))) return c(diaSanto("2º Domingo da Páscoa ou da Divina Misericórdia"), 2);
+  if (igual(dia(ano, 1, 1))) return c(solenidade("Santa Maria, Mãe de Deus"), 3);
+  if (igual(somaDias(p, 56))) return c(solenidade("Santíssima Trindade"), 3);
+  if (igual(somaDias(p, 60))) return c(solenidade("Santíssimo Corpo e Sangue de Cristo"), 3);
+  if (igual(somaDias(p, 68))) return c(solenidade("Sagrado Coração de Jesus"), 3);
+  if (igual(somaDias(a1, -7))) return c(solenidade("Nosso Senhor Jesus Cristo, Rei do Universo"), 3);
+  if (igual(batismoDoSenhor(ano))) return c(senhor("Batismo do Senhor"), 5);
+  if (igual(sagradaFamilia(ano))) return c(senhor("Sagrada Família de Jesus, Maria e José"), 5);
+  if (igual(somaDias(p, 50))) return c({ nome: "Bem-aventurada Virgem Maria, Mãe da Igreja", grau: "memoria", cor: "branco" }, 10);
+  if (igual(somaDias(p, 69))) return c({ nome: "Imaculado Coração de Maria", grau: "memoria", cor: "branco" }, 10);
   return null;
 }
 
-export function diaLiturgico(d: Dia): DiaLiturgico {
+type Movida = "jose" | "anunciacao" | "pedroPaulo" | "assuncao" | "todosSantos" | "joaoBatista";
+
+function dataDaSolenidade(qual: Movida, ano: number): Dia {
+  const p = pascoa(ano);
+  const ramos = somaDias(p, -7);
+  const naSemanaSantaOuOitava = (d: Dia) => diferencaEmDias(d, ramos) >= 0 && diferencaEmDias(d, p) <= 7;
+  switch (qual) {
+    case "jose": {
+      const d = dia(ano, 3, 19);
+      if (naSemanaSantaOuOitava(d)) return somaDias(ramos, -1);
+      return diaDaSemana(d) === 0 ? somaDias(d, 1) : d;
+    }
+    case "anunciacao": {
+      const d = dia(ano, 3, 25);
+      if (naSemanaSantaOuOitava(d)) return somaDias(p, 8);
+      return diaDaSemana(d) === 0 ? somaDias(d, 1) : d;
+    }
+    case "pedroPaulo":
+      return domingoEntre(ano, 6, 28);
+    case "assuncao":
+      return domingoEntre(ano, 8, 15);
+    case "todosSantos":
+      return diaDaSemana(dia(ano, 11, 2)) === 0 ? dia(ano, 11, 1) : domingoEntre(ano, 11, 1);
+    case "joaoBatista": {
+      const d = dia(ano, 6, 24);
+      if (mesmoDia(d, somaDias(p, 68))) return dia(ano, 6, 23);
+      if (mesmoDia(d, somaDias(p, 60))) return dia(ano, 6, 25);
+      return d;
+    }
+  }
+}
+
+const MOVIDAS: [string, Movida][] = [
+  ["0319", "jose"],
+  ["0325", "anunciacao"],
+  ["0629", "pedroPaulo"],
+  ["0815", "assuncao"],
+  ["1101", "todosSantos"],
+  ["0624", "joaoBatista"],
+];
+const DATAS_MOVIDAS = new Set(MOVIDAS.map(([data]) => data));
+
+function santosDoDia(d: Dia): Celebracao[] {
+  const ano = d.getUTCFullYear();
+  const hoje = mmdd(d);
+  const lista = santosDaData(hoje).filter((s) => !(s.grau === "solenidade" && DATAS_MOVIDAS.has(hoje)));
+  for (const [data, qual] of MOVIDAS) {
+    if (mesmoDia(d, dataDaSolenidade(qual, ano))) {
+      const solene = santosDaData(data).find((s) => s.grau === "solenidade");
+      if (solene) lista.unshift(solene);
+    }
+  }
+  if (hoje === "1102") lista.unshift(FINADOS);
+  return lista;
+}
+
+interface BaseDoTempo {
+  tempo: Tempo;
+  semana: number | null;
+  cor: CorLiturgica;
+  precedencia: number;
+}
+
+function baseDoTempo(d: Dia): BaseDoTempo {
   const ano = d.getUTCFullYear();
   const a1 = primeiroDomingoDoAdvento(ano);
   const p = pascoa(ano);
   const cinzas = quartaDeCinzas(ano);
   const batismo = batismoDoSenhor(ano);
-
-  let tempo: Tempo;
-  let semana: number | null = null;
-  let cor: CorLiturgica;
+  const domingo = diaDaSemana(d) === 0;
 
   if (diferencaEmDias(d, a1) >= 0) {
     if (diferencaEmDias(d, dia(ano, 12, 25)) >= 0) {
-      tempo = "natal";
-      cor = "branco";
-    } else {
-      tempo = "advento";
-      semana = Math.floor(diferencaEmDias(d, a1) / 7) + 1;
-      cor = semana === 3 && diaDaSemana(d) === 0 ? "rosa" : "roxo";
+      return { tempo: "natal", semana: null, cor: "branco", precedencia: domingo ? 6 : 9 };
     }
-  } else if (diferencaEmDias(d, batismo) <= 0) {
-    tempo = "natal";
-    cor = "branco";
-  } else if (diferencaEmDias(d, cinzas) < 0) {
-    tempo = "comum";
-    semana = Math.floor(diferencaEmDias(d, domingoAteHoje(batismo)) / 7) + 1;
-    cor = "verde";
-  } else if (diferencaEmDias(d, somaDias(p, -3)) < 0) {
-    tempo = "quaresma";
+    const semana = Math.floor(diferencaEmDias(d, a1) / 7) + 1;
+    const privilegiado = d.getUTCMonth() === 11 && d.getUTCDate() >= 17;
+    return {
+      tempo: "advento",
+      semana,
+      cor: semana === 3 && domingo ? "rosa" : "roxo",
+      precedencia: domingo ? 2 : privilegiado ? 9 : 13,
+    };
+  }
+  if (diferencaEmDias(d, batismo) <= 0) {
+    return { tempo: "natal", semana: null, cor: "branco", precedencia: domingo ? 6 : 13 };
+  }
+  if (diferencaEmDias(d, cinzas) < 0) {
+    const semana = Math.floor(diferencaEmDias(d, domingoAteHoje(batismo)) / 7) + 1;
+    return { tempo: "comum", semana, cor: "verde", precedencia: domingo ? 6 : 13 };
+  }
+  if (diferencaEmDias(d, somaDias(p, -3)) < 0) {
     const primeiroDomingo = somaDias(cinzas, 4);
-    semana = diferencaEmDias(d, primeiroDomingo) < 0 ? 0 : Math.floor(diferencaEmDias(d, primeiroDomingo) / 7) + 1;
-    cor = mesmoDia(d, somaDias(p, -21)) ? "rosa" : "roxo";
-  } else if (diferencaEmDias(d, p) < 0) {
-    tempo = "triduo";
-    cor = "branco";
-  } else if (diferencaEmDias(d, pentecostes(ano)) <= 0) {
-    tempo = "pascoa";
-    semana = Math.floor(diferencaEmDias(d, p) / 7) + 1;
-    cor = "branco";
-  } else {
-    tempo = "comum";
-    const cristoRei = somaDias(a1, -7);
-    semana = 34 - diferencaEmDias(cristoRei, domingoAteHoje(d)) / 7;
-    cor = "verde";
+    const semana = diferencaEmDias(d, primeiroDomingo) < 0 ? 0 : Math.floor(diferencaEmDias(d, primeiroDomingo) / 7) + 1;
+    const santa = diferencaEmDias(d, somaDias(p, -7)) >= 0;
+    return {
+      tempo: "quaresma",
+      semana,
+      cor: mesmoDia(d, somaDias(p, -21)) ? "rosa" : "roxo",
+      precedencia: domingo || santa ? 2 : 9,
+    };
+  }
+  if (diferencaEmDias(d, p) < 0) {
+    return { tempo: "triduo", semana: null, cor: "branco", precedencia: 1 };
+  }
+  if (diferencaEmDias(d, pentecostes(ano)) <= 0) {
+    const semana = Math.floor(diferencaEmDias(d, p) / 7) + 1;
+    return { tempo: "pascoa", semana, cor: "branco", precedencia: domingo || semana === 1 ? 2 : 13 };
+  }
+  const cristoRei = somaDias(a1, -7);
+  const semana = 34 - diferencaEmDias(cristoRei, domingoAteHoje(d)) / 7;
+  return { tempo: "comum", semana, cor: "verde", precedencia: domingo ? 6 : 13 };
+}
+
+export function diaLiturgico(d: Dia): DiaLiturgico {
+  const ano = d.getUTCFullYear();
+  const base = baseDoTempo(d);
+  const doTempo = celebracaoDoTempo(d);
+
+  const candidatos: Candidato[] = doTempo ? [doTempo] : [];
+  for (const s of santosDoDia(d)) {
+    const imaculadaNoAdvento = s.nome.startsWith("Imaculada Conceição") && base.precedencia === 2;
+    candidatos.push({ celebracao: s, precedencia: imaculadaNoAdvento ? 1.5 : PRECEDENCIA[s.grau] });
+  }
+  candidatos.sort((a, b) => a.precedencia - b.precedencia || Number(!a.temporal) - Number(!b.temporal));
+
+  const melhor = candidatos[0];
+  const principal =
+    melhor && melhor.precedencia < 12 && (melhor.precedencia < base.precedencia || melhor.temporal) ? melhor : null;
+  const nivel = principal ? principal.precedencia : base.precedencia;
+
+  let facultativas: Celebracao[] = [];
+  if (nivel >= 9) {
+    facultativas = candidatos
+      .filter((c) => c !== principal && c.precedencia >= 10)
+      .map((c) => ({ ...c.celebracao, grau: "facultativa" as const, cor: nivel === 9 ? base.cor : c.celebracao.cor }));
   }
 
-  const movel = celebracaoMovel(d);
-  if (movel) cor = movel.cor;
+  const celebracao = principal?.celebracao ?? null;
+  const ehMemoria = celebracao?.grau === "memoria";
 
-  const anoLiturgico = diferencaEmDias(d, a1) >= 0 ? ano + 1 : ano;
-  const cicloDominical = (["C", "A", "B"] as const)[anoLiturgico % 3]!;
-  const cicloFerial: CicloFerial = anoLiturgico % 2 === 1 ? "I" : "II";
+  const anoLiturgico = diferencaEmDias(d, primeiroDomingoDoAdvento(ano)) >= 0 ? ano + 1 : ano;
 
   return {
     data: d,
-    tempo,
-    semana,
-    cor,
-    celebracao: movel?.nome ?? null,
-    titulo: movel?.nome ?? tituloDoDia(d, tempo, semana),
+    tempo: base.tempo,
+    semana: base.semana,
+    cor: celebracao ? celebracao.cor : base.cor,
+    titulo: celebracao && !ehMemoria ? celebracao.nome : tituloDoDia(d, base.tempo, base.semana),
+    celebracao,
+    facultativas,
+    santos: principal && !principal.temporal ? [principal.celebracao, ...facultativas] : facultativas,
     anoLiturgico,
-    cicloDominical,
-    cicloFerial,
+    cicloDominical: (["C", "A", "B"] as const)[anoLiturgico % 3]!,
+    cicloFerial: anoLiturgico % 2 === 1 ? "I" : "II",
   };
 }
 
@@ -191,13 +322,12 @@ function tituloDoDia(d: Dia, tempo: Tempo, semana: number | null): string {
     case "advento":
       return domingo ? `${ordM(semana!)} Domingo do Advento` : `${nomeDia} da ${ordF(semana!)} semana do Advento`;
     case "natal":
-      if (diferencaEmDias(d, dia(ano, 12, 25)) > 0 || (d.getUTCMonth() === 0 && d.getUTCDate() === 1))
-        return `${nomeDia} da Oitava do Natal`;
+      if (d.getUTCMonth() === 11) return `${nomeDia} na Oitava do Natal`;
+      if (domingo) return "2º Domingo depois do Natal";
+      if (diferencaEmDias(d, epifania(ano)) > 0) return `${nomeDia} depois da Epifania`;
       return `${nomeDia} do Tempo do Natal`;
     case "comum":
-      return domingo
-        ? `${ordM(semana!)} Domingo do Tempo Comum`
-        : `${nomeDia} da ${ordF(semana!)} semana do Tempo Comum`;
+      return domingo ? `${ordM(semana!)} Domingo do Tempo Comum` : `${nomeDia} da ${ordF(semana!)} semana do Tempo Comum`;
     case "quaresma": {
       const p = pascoa(ano);
       if (diferencaEmDias(d, somaDias(p, -7)) > 0) return `${nomeDia} da Semana Santa`;
@@ -207,7 +337,7 @@ function tituloDoDia(d: Dia, tempo: Tempo, semana: number | null): string {
     case "triduo":
       return nomeDia;
     case "pascoa":
-      if (semana === 1) return `${nomeDia} da Oitava da Páscoa`;
+      if (semana === 1) return `${nomeDia} na Oitava da Páscoa`;
       return domingo ? `${ordM(semana!)} Domingo da Páscoa` : `${nomeDia} da ${ordF(semana!)} semana da Páscoa`;
   }
 }

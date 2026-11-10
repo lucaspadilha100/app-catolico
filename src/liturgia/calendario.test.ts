@@ -60,8 +60,10 @@ describe("dia litúrgico", () => {
     const l = diaLiturgico(d("2026-11-10"));
     expect(l.tempo).toBe("comum");
     expect(l.semana).toBe(32);
-    expect(l.cor).toBe("verde");
+    expect(l.cor).toBe("branco");
     expect(l.titulo).toBe("Terça-feira da 32ª semana do Tempo Comum");
+    expect(l.celebracao?.nome).toBe("São Leão Magno, papa e doutor da Igreja");
+    expect(l.celebracao?.grau).toBe("memoria");
     expect(l.cicloDominical).toBe("A");
     expect(l.cicloFerial).toBe("II");
   });
@@ -80,7 +82,7 @@ describe("dia litúrgico", () => {
   });
 
   it("Cristo Rei e a virada do ano litúrgico", () => {
-    expect(diaLiturgico(d("2026-11-22")).celebracao).toBe("Nosso Senhor Jesus Cristo, Rei do Universo");
+    expect(diaLiturgico(d("2026-11-22")).celebracao?.nome).toBe("Nosso Senhor Jesus Cristo, Rei do Universo");
     const a1 = diaLiturgico(d("2026-11-29"));
     expect(a1.tempo).toBe("advento");
     expect(a1.titulo).toBe("1º Domingo do Advento");
@@ -91,14 +93,14 @@ describe("dia litúrgico", () => {
 
   it("Advento: Gaudete é rosa", () => {
     expect(diaLiturgico(d("2026-12-13")).cor).toBe("rosa");
-    expect(diaLiturgico(d("2026-12-14")).cor).toBe("roxo");
+    expect(diaLiturgico(d("2026-12-15")).cor).toBe("roxo");
     expect(diaLiturgico(d("2026-12-24")).tempo).toBe("advento");
   });
 
   it("Natal até o Batismo do Senhor", () => {
     expect(diaLiturgico(d("2026-12-25")).titulo).toBe("Natal do Senhor");
     expect(diaLiturgico(d("2026-12-25")).cicloDominical).toBe("B");
-    expect(diaLiturgico(d("2026-12-29")).titulo).toBe("Terça-feira da Oitava do Natal");
+    expect(diaLiturgico(d("2026-12-29")).titulo).toBe("Terça-feira na Oitava do Natal");
     expect(diaLiturgico(d("2027-01-01")).titulo).toBe("Santa Maria, Mãe de Deus");
     expect(diaLiturgico(d("2027-01-05")).tempo).toBe("natal");
     expect(diaLiturgico(d("2027-01-10")).titulo).toBe("Batismo do Senhor");
@@ -117,12 +119,36 @@ describe("dia litúrgico", () => {
   });
 
   it("Tempo Pascal", () => {
-    expect(diaLiturgico(d("2027-03-28")).titulo).toBe("Domingo de Páscoa");
-    expect(diaLiturgico(d("2027-03-30")).titulo).toBe("Terça-feira da Oitava da Páscoa");
-    expect(diaLiturgico(d("2027-04-04")).titulo).toBe("Domingo da Divina Misericórdia");
+    expect(diaLiturgico(d("2027-03-28")).titulo).toBe("Domingo da Páscoa na Ressurreição do Senhor");
+    expect(diaLiturgico(d("2027-03-30")).titulo).toBe("Terça-feira na Oitava da Páscoa");
+    expect(diaLiturgico(d("2027-04-04")).titulo).toBe("2º Domingo da Páscoa ou da Divina Misericórdia");
     expect(diaLiturgico(d("2026-05-17")).titulo).toBe("Ascensão do Senhor");
     expect(diaLiturgico(d("2026-05-24")).cor).toBe("vermelho");
-    expect(diaLiturgico(d("2026-06-04")).titulo).toBe("Corpus Christi");
+    expect(diaLiturgico(d("2026-06-04")).titulo).toBe("Santíssimo Corpo e Sangue de Cristo");
+  });
+});
+
+describe("santos e transferências do Brasil", () => {
+  it("próprio do Brasil", () => {
+    expect(diaLiturgico(d("2026-10-12")).titulo).toBe("Nossa Senhora da Conceição Aparecida, padroeira do Brasil");
+    expect(diaLiturgico(d("2027-10-25")).celebracao?.nome).toBe("Santo Antônio de Sant'Ana Galvão, presbítero");
+    expect(diaLiturgico(d("2026-10-06")).facultativas.map((s) => s.nome)).toContain("Santa Faustina Kowalska, virgem");
+  });
+
+  it("São Pedro e São Paulo, Assunção e Todos os Santos no domingo", () => {
+    expect(diaLiturgico(d("2026-06-28")).titulo).toBe("São Pedro e São Paulo, apóstolos");
+    expect(diaLiturgico(d("2026-06-29")).celebracao).toBeNull();
+    expect(diaLiturgico(d("2027-07-04")).titulo).toBe("São Pedro e São Paulo, apóstolos");
+    expect(diaLiturgico(d("2026-08-16")).titulo).toBe("Assunção de Nossa Senhora");
+    expect(diaLiturgico(d("2027-11-07")).titulo).toBe("Todos os Santos");
+    expect(diaLiturgico(d("2025-11-01")).titulo).toBe("Todos os Santos");
+  });
+
+  it("memória na Quaresma vira facultativa", () => {
+    const l = diaLiturgico(d("2026-02-23"));
+    expect(l.celebracao).toBeNull();
+    expect(l.cor).toBe("roxo");
+    expect(l.facultativas[0]?.nome).toBe("São Policarpo, bispo e mártir");
   });
 });
 

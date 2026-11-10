@@ -76,6 +76,29 @@ android/ ios/     projetos nativos do Capacitor (iOS por SPM, sem CocoaPods)
   em ciclos (domingos A/B/C, semana I/II): conteúdo feito uma vez serve para
   sempre.
 
+## Escala: nascer pronto para crescer (pedido do dono, 10/11/2026)
+Nenhuma limitação escondida. Tudo o que tem teto precisa estar escrito aqui,
+com o que acontece quando bate e o plano para passar dele.
+
+- **Conteúdo é estático e servido pelo CDN** (Bíblia, liturgia, santos,
+  orações): 1 ou 1 milhão de pessoas custa o mesmo e não toca no banco.
+  Calendário e terço do dia são CALCULADOS no aparelho.
+- **Banco só para o que é de alguém**, sempre com paginação, índice e RLS.
+  Nunca baixar uma tabela inteira; lista é página; busca é no banco.
+- **Dados versionados**: arquivo de conteúdo tem versão no nome
+  (cache eterno no CDN e no aparelho; mudou, nome novo).
+- **Tempo real só onde precisa** (terço ao vivo), por canal de grupo, sem
+  escutar tabela inteira.
+- **Nada de serviço pago escondido** (IA, mapas, e-mail): se entrar, entra
+  aqui com o custo.
+
+| Serviço (plano grátis) | Teto que importa | Quando bate | Saída |
+|---|---|---|---|
+| Supabase | 500 MB de banco, 50 mil usuários ativos/mês, 5 GB de saída/mês, 200 conexões de tempo real simultâneas | Comunidade/terço ao vivo crescendo | Plano Pro (US$ 25/mês) |
+| Supabase | Projeto grátis PAUSA após 7 dias sem uso | Só antes do lançamento | Uso real impede a pausa |
+| Vercel Hobby | 100 GB de banda/mês; uso NÃO comercial | Pedir doação pode contar como comercial | Cloudflare Pages (grátis, permite) ou Vercel Pro |
+| Mapas | Só OpenStreetMap/links "como chegar" | Nunca (sem chave paga) | Ver antes de trocar |
+
 ## Direito autoral — o app NÃO pode cair
 Nada de licença paga por ora. Então:
 

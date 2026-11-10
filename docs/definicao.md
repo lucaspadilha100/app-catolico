@@ -47,6 +47,22 @@ voz ao vivo) entra quando houver apoio.
 - Contador pessoal de terços rezados (sem cobrança, sem culpa).
 - *Com apoio:* terço guiado em áudio.
 
+## Terço da Juventude
+Pedido do dono (10/11/2026): quase toda paróquia tem o seu, e merece espaço
+próprio, além do terço pessoal.
+
+- **Cadastro do terço**, pela paróquia OU por qualquer grupo (não depende da
+  paróquia estar no app): nome, paróquia/comunidade (opcional), dia e
+  horário, endereço, Instagram/WhatsApp de contato, foto.
+- **Encontrar:** "Terço da Juventude perto de mim", na mesma busca de Missas.
+- **Roteiro do encontro:** mistérios do dia, quem conduz cada dezena, a
+  leitura de cada mistério, as músicas entre as dezenas (título e link,
+  nunca a letra), intenções do grupo, avisos.
+- **Rezar junto com o celular na mão:** quem conduz avança, todos acompanham
+  na tela (o mesmo terço ao vivo sincronizado), inclusive quem está longe.
+- Lembrete do encontro da semana para quem segue aquele terço.
+- O responsável edita; o grupo é revisado como paróquia (fila de revisão).
+
 ## Bíblia
 - 73 livros, Figueiredo revisado (nível 2).
 - **Introdução curta de cada livro** (autor, época, do que trata), IA +
