@@ -48,3 +48,6 @@ Ez 43,26: "encherão as suas mãos" mantido literal (Vulgata "implebunt manum ej
 Ez 44: o Senhor fala ao profeta em diálogo ("o Senhor me disse"): a fala vai entre aspas, e o oráculo que ele manda dizer (44,6-31), entre ‘ ’.
 Ez 44,19: sinal "( 4-)" no fim (OCR); retirado. "tomarão sentido não santifiquem o povo" → "para não santificarem o povo com as suas vestes".
 Ez 44,11: "sacristães" mantido (Vulgata "æditui"): escolha do Figueiredo.
+Ez 45,10-14: "efi" → "efá", "sido" → "siclo" (OCR; Vulgata "siclus"), "bato", "coro", "hin", "mina", "óbolos". Números conferidos: 20 óbolos; 20+25+15 siclos = uma mina; 1/6 de efá por coro; 10 batos = 1 coro.
+Ez 45,1-6: "medidas" (sem unidade no Figueiredo e na Vulgata) mantido; 25 000 x 10 000; 500 x 500 e 50 côvados; 25 000 x 10 000 para os levitas; 5 000 x 25 000 para a cidade.
+Ez 45,11: "O seu peso será igual" → "A sua medida será igual" (Vulgata "æqua libratio"); o dono confere.
