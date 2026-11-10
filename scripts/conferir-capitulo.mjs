@@ -22,7 +22,8 @@ else {
   const restaurados = versiculosRestaurados(codigo);
   const semNota = versiculosSemNota(codigo);
   const mesmaDivisao = novo.length === original.length && mesmaDivisaoDaFonte(codigo, cap);
-  const total = novo.join(" ").length / original.join(" ").length;
+  const conta = (lista) => lista.filter((_, i) => !semNota.has(`${cap},${i + 1}`)).join(" ").length;
+  const total = mesmaDivisao ? conta(novo) / Math.max(conta(original), 1) : novo.join(" ").length / original.join(" ").length;
   if (total < 0.7 || total > 1.4) problemas.push(`capítulo com tamanho muito diferente (${total.toFixed(2)})`);
   novo.forEach((n, i) => {
     const o = mesmaDivisao ? original[i] : "";
