@@ -16,7 +16,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "REV 7:9-14" },
         {
           texto:
-            "Em 1º de novembro a Igreja recorda todos os santos, conhecidos e desconhecidos, a multidão que ninguém pode contar. No Brasil, quando a data cai em dia de semana, a solenidade passa para o domingo seguinte. Entre esses santos estão muitas pessoas simples, que viveram com fidelidade e já veem a Deus.",
+            "Em 1º de novembro a Igreja recorda todos os santos, conhecidos e desconhecidos, a multidão que ninguém pode contar. No Brasil, quando a data cai em dia de semana, a solenidade é celebrada no domingo entre 1º e 7 de novembro. Entre esses santos estão muitas pessoas simples, que viveram com fidelidade e já veem a Deus.",
         },
         indulgencia,
         {

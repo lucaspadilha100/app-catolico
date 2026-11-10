@@ -82,3 +82,32 @@ ponto de atenção.
 - São José: Pio IX, Patrono da Igreja em 1870; CIC 1014 (boa morte); José do
   Egito como figura. A ladainha de São José entra todo dia (é longa: pode virar
   só um botão).
+
+## Junho, mês do Sagrado Coração, e Novembro, mês dos fiéis defuntos
+- No Brasil, São Pedro e São Paulo vão para o domingo entre 28/6 e 4/7, e Todos
+  os Santos para o domingo entre 1º e 7/11 (corrigido: o texto dizia "domingo
+  seguinte"; é a regra que o calendário do app já usa).
+- Primeira sexta-feira: "a tradição liga" à perseverança, "não é garantia
+  automática"; promessas só em termos gerais. Hora santa: o pedido contado por
+  Santa Margarida Maria; São Cláudio de La Colombière como diretor espiritual.
+- Indulgência de 1º a 8/11 segundo o Enchiridion, concessão 29. Ficaram de
+  fora: o bispo pode transferir a visita do dia 2; a confissão pode ser alguns
+  dias antes ou depois.
+- Cremação (dia 12): CIC 2301 e Ad resurgendum cum Christo (2016), sem citar a
+  instrução. Inferno e juízo: CIC 1022, 1033-1037.
+- Rm 5,6 começa com "Por que razão, então…", que soa estranho fora do contexto.
+
+## Via-Sacra e Semana Santa
+- Stabat Mater: latim na forma do Missal ("Flammis ne urar succensus", "fac me
+  cruce inebriari"), escrito de memória porque a fonte online não abriu:
+  conferir com o Missal ou o Liber Usualis. Tradução própria, em prosa.
+- Títulos das estações variam entre devocionários; as estações 3, 4, 6, 7, 9 e
+  13 dizem que o fato vem da tradição.
+- Rubrica da indulgência da Via-Sacra (Enchiridion, concessão 13): conferir.
+- Jejum: "uma só refeição completa e um pouco de alimento em outras duas";
+  "quem está doente ou tem outro motivo sério está dispensado".
+- Fatos litúrgicos para conferir no Missal: sinos no Glória da Quinta; adoração
+  sem solenidade depois da meia-noite; comunhão no Sábado só como viático; a
+  Vigília depois do anoitecer; "mãe de todas as santas vigílias" (Santo
+  Agostinho); jejum pascal (Sacrosanctum Concilium 110).
+- "Domingo da Páscoa na Ressurreição do Senhor", forma do Missal no Brasil.

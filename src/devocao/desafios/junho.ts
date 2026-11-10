@@ -360,7 +360,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "JHN 21:15-19" },
         {
           texto:
-            "O dia 29 de junho é dedicado a São Pedro e São Paulo, colunas da Igreja; no Brasil, quando a data cai em dia de semana, a solenidade passa para o domingo seguinte. Depois de ter negado o Mestre três vezes, Pedro ouve três vezes a pergunta: tu me amas? O Coração de Jesus não humilha quem caiu: confia de novo e lhe entrega uma missão.",
+            "O dia 29 de junho é dedicado a São Pedro e São Paulo, colunas da Igreja; no Brasil, quando a data cai em dia de semana, a solenidade é celebrada no domingo entre 28 de junho e 4 de julho. Depois de ter negado o Mestre três vezes, Pedro ouve três vezes a pergunta: tu me amas? O Coração de Jesus não humilha quem caiu: confia de novo e lhe entrega uma missão.",
         },
         { pratica: "Reze hoje pelo Papa, sucessor de Pedro, e pelo bispo da sua diocese." },
       ],
