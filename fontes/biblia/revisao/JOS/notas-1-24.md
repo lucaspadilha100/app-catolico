@@ -37,3 +37,6 @@ Js 18,14: Figueiredo: "termina-se em Cariatiarim" | Vulgata: "in Cariath-baal, q
 Js 18,26: Figueiredo: "Arnosa" (OCR) | Vulgata: "Amosa" | Douay-Rheims: "Amosa" | decidido: "Amosa".
 Js 18,27: Figueiredo: "Tareia" (OCR) | Vulgata: "Tharela" | Douay-Rheims: "Tharala" | decidido: "Tarela".
 Js 18,28: Figueiredo: "Jebtis" (OCR) | Vulgata: "Jebus" | Douay-Rheims: "Jebus" | decidido: "Jebus".
+Js 19,28: Figueiredo: "Dana" | Vulgata: "Cana" | Douay-Rheims: "Cana" | decidido: "Cana" (letra trocada).
+Js 19,30: Figueiredo: "Afe" (letra perdida) | Vulgata: "Aphec" | Douay-Rheims: "Aphec" | decidido: "Afec".
+Js 19,15: "Jedala" (Vulgata "Jerala", Douay-Rheims "Jedala"): mantido o Figueiredo.
