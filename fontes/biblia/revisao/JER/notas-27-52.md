@@ -27,3 +27,7 @@ Jr 48,13: Figueiredo: "por causa de Camas" (OCR) | Vulgata: "a Chamos" | Douay-R
 Jr 48,34: Figueiredo: "Desde Segar" (OCR) | Vulgata: "a Segor" | Douay-Rheims: "from Segor" | decidido: "Segor".
 Jr 48,42: número de página "- 381 -" grudado no fim do versículo (OCR); retirado.
 Jr 48,25: "poder" mantido para "cornu" (escolha do Figueiredo).
+Jr 49,1: cabeçalho de página grudado no começo do versículo ("smros, E DOS CEDARENOS. DA DISPERSÃO E TORNADA 1", OCR); retirado. Também saíram sinais soltos em 49,7 ("( s)"), 49,23 ("Jeremias 49, 24-3~") e 49,39 ("aa").
+Jr 49,3: Figueiredo: "Gritai, filhos de Rabat" | Vulgata: "clamate, filiæ Rabbath" | Douay-Rheims: "cry, ye daughters of Rabbath" | decidido: "filhas" (provável OCR).
+Jr 49,17: Figueiredo: "dará multa vaia à tôdas as suas perdas" (OCR) | Vulgata: "sibilabit super omnes plagas ejus" | Douay-Rheims: "shall hiss at all its plagues" | decidido: "assobiará diante de todas as suas pragas".
+Jr 49,21: "mar Roxo" ficou "mar Vermelho".

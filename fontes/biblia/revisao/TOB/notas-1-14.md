@@ -19,3 +19,8 @@ Tb 6,17: "o cavalo e o macho" vertido "o cavalo e o burro" (Vulgata "mulus"); co
 Tb 6,21: "filhos robustos" vertido "filhos sadios" (Vulgata "incolumes", DR "sound").
 Tb 7: a Douay-Rheims deste capítulo vem com os versículos 4-7 deslocados em relação à Vulgata e ao Figueiredo (corte diferente); o texto confere.
 Tb 7,19: "e se pôs a chorar" mantido sem dizer quem chorou, como o Figueiredo e a Vulgata ("lacrimata est").
+Tb 8,7: o Figueiredo mistura "bendigam-vos" e "tuas criaturas"; ficou tudo no "tu" da oração.
+Tb 8,8: "limo da terra" vertido "barro da terra".
+Tb 8,10: número solto "1" no fim do versículo: retirado.
+Tb 8,23: "esconjurou" (Vulgata "adjuravit") vertido "pediu com insistência".
+Tb 8,24: "depois da sua morte" mantido como o Figueiredo (Vulgata "post obitum eorum", dos dois).
