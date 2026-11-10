@@ -23,3 +23,4 @@ Js 13,16: número de página ("— 319 —") no meio do versículo; retirado.
 Js 13,20: Figueiredo: "Belbfogor" (OCR) | Vulgata: "Bethphogor" | Douay-Rheims: "Bethphogor" | decidido: "Betfogor".
 Js 13,26: Figueiredo: "Ramot. Maste ... desde Manim" (OCR) | Vulgata: "Ramoth, Masphe ... a Manaim" | Douay-Rheims: "Ramoth, Masphe ... from Manaim" | decidido: "Ramot, Masfe ... desde Manaim".
 Js 13,31: Figueiredo: "Edxai" (OCR) | Vulgata: "Edrai" | Douay-Rheims: "Edrai" | decidido: "Edrai".
+Js 14,15: "ali está enterrado Adão, que foi o maior entre os Enacins" (Vulgata "Adam maximus ibi inter Enacim situs est"; o hebraico lê "o homem maior entre os enacins", nome de Arbe): mantido o Figueiredo, que segue a Vulgata.
