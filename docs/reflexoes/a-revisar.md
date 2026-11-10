@@ -101,3 +101,17 @@ O teste garante que todo Evangelho que o app mostra de 2025 a 2036 tem a sua.
 - Bíblia, palavras antigas: "Fazei penitência" (Mt 3,2; 4,17), "Raca",
   "alqueire", "côvado", "asse", "pães da proposição", "pão nosso, necessário à
   nossa subsistência" (Mt 6,11, o "supersubstantialem" da Vulgata).
+
+## Marcos (MRK-1)
+- Doutrina: irmãos de Jesus (CIC 500); "está fora de si" atribuído só aos
+  parentes; pecado contra o Espírito Santo (CIC 1864) com consolo para quem
+  teme tê-lo cometido; divórcio (CIC 1614) com um parágrafo pastoral; Mc 9,38-40
+  com CIC 819 (elementos de santificação fora da Igreja visível); inferno
+  (CIC 1035) e as imagens de cortar a mão; unção dos doentes (CIC 1511); Éfeta.
+- CIC citados: 464, 500, 523, 536, 539, 550, 555, 556, 603, 644, 659, 673, 819,
+  858, 993, 1035, 1250, 1257, 1324, 1335, 1366, 1374, 1430, 1441, 1503, 1511,
+  1614, 1846, 1853, 1864, 2083, 2173, 2185, 2218, 2240, 2473, 2544, 2602, 2610,
+  2667, 2840.
+- Bíblia: Mc 4,41 dizia "Quem pensas que é este" (singular, falando entre
+  si); ficou "Quem será este". Ficam como no Figueiredo: Mc 1,24 "o Santo
+  Deus", Mc 11,22 "Tende a fé de Deus", Mc 3,2 "Os judeus o observavam".

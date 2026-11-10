@@ -113,10 +113,11 @@ Legenda: ✅ pronto · 🔨 em andamento · ⬜ a fazer · 👤 precisa do dono
 - ⬜ 👤 Revisar as histórias (`docs/santos/a-revisar.md`) e o calendário de Natal com o Diretório Litúrgico da arquidiocese
 - ⬜ Outras dioceses, aos poucos
 
-### Leva 8. Reflexões ⬜
-- ⬜ Reflexão de todos os domingos e solenidades (ciclos A, B e C)
-- ⬜ Reflexão de todos os dias de semana (anos I e II e tempos fortes)
-- ⬜ 👤 Revisão das reflexões, a começar pelos domingos
+### Leva 8. Reflexões 🔨
+- ✅ Reflexão de cada Evangelho que o app mostra de 2025 a 2036 (454 passagens: domingos A, B e C, dias de semana, festas e santos), com uma pergunta para a oração
+- ✅ Na Liturgia do dia e em resumo na tela Hoje
+- ✅ Teste: nenhum Evangelho sem reflexão nesses 12 anos
+- ⬜ 👤 Revisão das reflexões, a começar pelos domingos (`docs/reflexoes/a-revisar.md`)
 
 ### Leva 9. Confissão e vida espiritual ⬜
 - ⬜ Exame de consciência por estado de vida, com o nº do Catecismo
