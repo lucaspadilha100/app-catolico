@@ -28,6 +28,7 @@ import { descreverSemanas, hhmm, NOME_DO_DIA } from "@/paroquias/horarios";
 import { NOME_DO_TIPO_DE_HORARIO, NOME_DO_TIPO_DE_IGREJA, type Horario, type Paroquia, type Sugestao, type TipoDeHorario } from "@/paroquias/tipos";
 import { Cartao } from "@/components/Cartao";
 import { revisarTerco, tercosParaRevisar } from "@/tercos/api";
+import { NOME_DA_ORACAO_DA_CAMPANHA, apagarIntencao, fraseDaIntencao, intencoesEscondidas, moderar, salvarCampanha, type Campanha, type Intencao } from "@/comunidade/api";
 import type { Terco } from "@/tercos/tipos";
 import { quandoDoTerco } from "@/pages/Tercos";
 import { Cabecalho, Carregando, Voltar } from "@/components/Devocao";
@@ -76,6 +77,85 @@ function useAcesso() {
 export function useTemPainel(): boolean {
   const a = useAcesso();
   return !!a && (a.admin || a.minhas.length > 0);
+}
+
+function Moderacao() {
+  const [lista, setLista] = useState<Intencao[] | null>(null);
+  const recarregar = useCallback(() => {
+    intencoesEscondidas()
+      .then(setLista)
+      .catch(() => setLista([]));
+  }, []);
+  useEffect(recarregar, [recarregar]);
+  if (!lista?.length) return null;
+  return (
+    <section className="flex flex-col gap-2">
+      <h2 className="px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto">Intenções escondidas por denúncias ({lista.length})</h2>
+      {lista.map((i) => (
+        <Cartao key={i.id} className="flex flex-col gap-3 p-4">
+          <span className="font-medium text-tinta">{fraseDaIntencao(i.tipo, i.nome)}</span>
+          <div className="grid grid-cols-2 gap-2">
+            <button type="button" onClick={() => void moderar(i.id, false).then(recarregar)} className={BOTAO_CLARO}>
+              Mostrar de novo
+            </button>
+            <button type="button" onClick={() => void apagarIntencao(i.id).then(recarregar)} className="min-h-11 rounded-xl border border-borda bg-cartao font-semibold text-[#a9271f]">
+              Apagar
+            </button>
+          </div>
+        </Cartao>
+      ))}
+    </section>
+  );
+}
+
+function NovaCampanha() {
+  const [aberto, setAberto] = useState(false);
+  const [titulo, setTitulo] = useState("");
+  const [oracao, setOracao] = useState<Campanha["oracao"]>("terco");
+  const [meta, setMeta] = useState("100000");
+  const hoje = new Date().toLocaleDateString("sv-SE");
+  const [inicio, setInicio] = useState(hoje);
+  const [fim, setFim] = useState(hoje);
+  const [estado, setEstado] = useState("");
+  if (!aberto)
+    return (
+      <button type="button" onClick={() => setAberto(true)} className={BOTAO_CLARO}>
+        Nova campanha de oração
+      </button>
+    );
+  return (
+    <Cartao className="flex flex-col gap-3 p-4">
+      <input value={titulo} onChange={(e) => setTitulo(e.target.value)} placeholder="Um milhão de terços pelo Brasil" maxLength={120} className={CAMPO} />
+      <select value={oracao} onChange={(e) => setOracao(e.target.value as Campanha["oracao"])} className={CAMPO}>
+        {(Object.keys(NOME_DA_ORACAO_DA_CAMPANHA) as Campanha["oracao"][]).map((o) => (
+          <option key={o} value={o}>
+            {NOME_DA_ORACAO_DA_CAMPANHA[o][1]}
+          </option>
+        ))}
+      </select>
+      <input value={meta} onChange={(e) => setMeta(e.target.value.replace(/\D/g, ""))} inputMode="numeric" aria-label="Meta" className={CAMPO} />
+      <div className="grid grid-cols-2 gap-2">
+        <input type="date" value={inicio} onChange={(e) => setInicio(e.target.value)} aria-label="Início" className={CAMPO} />
+        <input type="date" value={fim} onChange={(e) => setFim(e.target.value)} aria-label="Fim" className={CAMPO} />
+      </div>
+      {estado && <p className="text-sm text-tinta-suave">{estado}</p>}
+      <button
+        type="button"
+        disabled={titulo.trim().length < 3 || !Number(meta) || fim < inicio}
+        onClick={() =>
+          void salvarCampanha({ titulo: titulo.trim(), oracao, meta: Number(meta), inicio, fim })
+            .then(() => {
+              setEstado("Campanha criada.");
+              setAberto(false);
+            })
+            .catch(() => setEstado("Não foi possível criar."))
+        }
+        className={BOTAO}
+      >
+        Criar campanha
+      </button>
+    </Cartao>
+  );
 }
 
 function TercosParaRevisar() {
@@ -288,6 +368,8 @@ export function Painel() {
                 <Plus className="size-5" aria-hidden /> Nova paróquia
               </Link>
               <TercosParaRevisar />
+              <Moderacao />
+              <NovaCampanha />
               <Sugestoes />
               <ListaDoPainel />
             </>

@@ -16,6 +16,7 @@ import { NOME_DA_COR, NOME_DO_GRAU, NOME_DO_TEMPO, type CorLiturgica } from "@/l
 import { misteriosDoDia } from "@/liturgia/terco";
 import { Cartao, TituloCartao } from "@/components/Cartao";
 import { MinhaParoquia } from "@/pages/Missas";
+import { CartaoDaCampanha } from "@/pages/Comunidade";
 import type { TipoLeitura } from "@/liturgia/lecionario";
 import { useLeituras } from "@/lib/useLeituras";
 import { ReflexaoResumo, evangelhoDaMissa } from "@/components/Reflexao";
@@ -215,6 +216,8 @@ export default function Hoje() {
           </ul>
         </Cartao>
       )}
+
+      <CartaoDaCampanha />
 
       {minhaParoquia ? (
         <MinhaParoquia />

@@ -1,4 +1,4 @@
-import { Users, BookHeart, CalendarHeart, Church, HeartHandshake, CircleDot, Cross, Crown, Flame, HandHeart, ListOrdered, Moon, ScrollText, Footprints, Shield, Sprout } from "lucide-react";
+import { Users, UsersRound, BookHeart, CalendarHeart, Church, HeartHandshake, CircleDot, Cross, Crown, Flame, HandHeart, ListOrdered, Moon, ScrollText, Footprints, Shield, Sprout } from "lucide-react";
 import { useDiaLiturgico } from "@/lib/useDiaLiturgico";
 import { misteriosDoDia } from "@/liturgia/terco";
 import { diaEMes } from "@/liturgia/datas";
@@ -49,6 +49,10 @@ export default function Rezar() {
             detalhe={santa !== null ? `Hoje: ${NOMES_DA_SEMANA_SANTA[santa]}` : `Domingo de Ramos: ${diaEMes(domingoDeRamos(ano))}`}
             para="/rezar/semana-santa"
           />
+        </Grupo>
+        <Grupo titulo="Comunidade">
+          <ItemLista icone={HeartHandshake} titulo="Intenções" detalhe="Peça e reze pelos outros" para="/intencoes" />
+          <ItemLista icone={UsersRound} titulo="Grupos" detalhe="Família, grupo de oração, pastoral" para="/grupos" />
         </Grupo>
         <Grupo titulo="Vida cristã">
           <ItemLista icone={Cross} titulo="Exame de consciência" para="/rezar/exame" />
