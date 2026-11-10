@@ -29,3 +29,5 @@ Js 15,10: Figueiredo: "de Jiaala" (OCR) | Vulgata: "de Baala" | Douay-Rheims: "f
 Js 15,26: Figueiredo: "Sarna" (OCR provável de "Sama") | Vulgata: "Sama" | Douay-Rheims: "Sama" | decidido: "Sama".
 Js 15,28: Figueiredo: "Hasersula" | Vulgata: "Hasersual" | Douay-Rheims: "Hasersual" | decidido: "Hasersual" (letras trocadas).
 Js 15,40: Figueiredo: "Kebon" | Vulgata: "Chebbon" | Douay-Rheims: "Chebbon" | decidido: "Quebon" (grafia portuguesa do mesmo nome).
+Js 17,4: Figueiredo: "E José lhes deu seu quinhão" (José já tinha morrido; quem reparte é Josué, citado no mesmo versículo) | Vulgata: "Deditque eis" | Douay-Rheims: "And he gave them" | decidido: "Josué lhes deu" (troca de letra na edição).
+Js 17,11: asterisco solto no fim do versículo; retirado.
