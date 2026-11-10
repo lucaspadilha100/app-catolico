@@ -45,3 +45,16 @@ O teste garante que todo Evangelho que o app mostra de 2025 a 2036 tem a sua.
 - Bíblia (não citadas na reflexão): Lc 4,34 "és o Santo Deus" (Figueiredo,
   como Mc 1,24); Lc 6,1 "sábado segundo-primeiro" (Vulgata); Lc 4,19 "e o dia
   da retribuição" (acréscimo da Vulgata); Lc 2,49 "do serviço de meu Pai".
+
+## João 1 a 10 (JHN-1)
+- Discurso do Pão da Vida: presença real "de modo verdadeiro, real e
+  substancial" (CIC 1374), transubstanciação (1376), adoração (1378), estado de
+  graça (1385). Jo 6,60-69: "a carne de nada serve" como o modo só humano de
+  entender, não negação da Eucaristia (CIC 1336). É o ponto mais delicado.
+- Natanael como Bartolomeu "segundo a tradição"; "Eu sou" (Jo 8,58) como eco
+  do nome divino revelado a Moisés.
+- CIC citados: 234, 336, 458, 461, 586, 608, 679, 694, 754, 1215, 1216, 1335,
+  1374, 1376, 1378, 1385, 1391, 1613, 1846, 2560, 2618.
+- Bíblia: Jo 2,4 "que importa isso a mim e a vós?" é o Figueiredo (o latim diz
+  "a ti"; o "vós" é o tratamento respeitoso à Mãe), fica. Jo 8,25 "Eu sou o
+  princípio" segue a Vulgata.
