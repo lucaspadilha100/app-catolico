@@ -95,7 +95,15 @@ src/pages/        uma tela por arquivo; rota nova entra no App.tsx e no MENU
 public/           ícones do PWA gerados de docs/marca/icone-santinho-quadrado.png
 android/ ios/     projetos nativos do Capacitor (iOS por SPM, sem CocoaPods)
 ```
-- Depois de mudar a web para o celular: `npm run cap:sync` (build + `cap sync`).
+- Depois de mudar a web para o celular: `npm run cap:sync` (`vite build` +
+  `cap sync`; as páginas para o Google ficam só no site). Tudo o que é do
+  celular passa por `src/lib/nativo.ts` (`ehNativo`, `compartilhar`, `vibrar`)
+  e `components/PonteNativa.tsx` (Voltar do Android, toque na notificação,
+  barra de status, tela de abertura). Lembretes: no app de loja são agendados
+  no aparelho (`@capacitor/local-notifications`, até 60 pendentes, renovados a
+  cada abertura); no site instalado, Web Push pelo Supabase.
+- Ícones e telas de abertura saem de `assets/` com `npx capacitor-assets
+  generate`; o ícone de notificação do Android é `ic_stat_santinho`.
 - ⚠️ `appId` = `br.com.appsantinho` é PERMANENTE nas lojas.
 - Datas litúrgicas são "dia sem hora" (UTC à meia-noite): nunca `new Date()`
   solto em conta de calendário, senão o fuso empurra o dia.

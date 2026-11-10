@@ -243,10 +243,18 @@ Legenda: ✅ pronto · 🔨 em andamento · ⬜ a fazer · 👤 precisa do dono
   houver o domínio definitivo, para não perder o histórico)
 - ⬜ Revisão de acessibilidade com leitor de tela
 
-### Leva 16. Celular ⬜
-- ⬜ Builds Android e iOS, ícones e tela de abertura
-- ⬜ Notificações locais, vibração no terço, widget do evangelho
-- ⬜ 👤 Teste em aparelho (Android Studio; iPhone precisa de Mac)
+### Leva 16. Celular 🔨
+- ✅ Recursos nativos (Capacitor): lembretes agendados no próprio celular (sem
+  servidor; o Evangelho de cada um dos próximos 30 dias com a referência),
+  vibração no terço (também no iPhone), compartilhar nativo (texto e imagem do
+  versículo), botão Voltar do Android, barra de status no tema, tela de abertura
+- ✅ Ícones do app (Android e iPhone) e ícone de notificação gerados da marca
+  (`assets/`, `npx capacitor-assets generate`)
+- ✅ Android monta: APK de teste de 13 MB (`android/`, `./gradlew assembleDebug`)
+- ⬜ Widget do Evangelho do dia (código nativo; o do iPhone precisa de Mac)
+- ⬜ 👤 Teste em aparelho Android (o APK de teste) e no iPhone (precisa de Mac
+  com Xcode e conta de desenvolvedor da Apple, US$ 99 por ano)
+- ⬜ Assinatura de produção do Android (chave guardada pelo dono) e versão para a loja
 
 ### Leva 17. Lançamento ⬜
 - ✅ 👤 Vercel ligado ao GitHub (cada push publica) e Supabase aplicando as migrações sozinho
