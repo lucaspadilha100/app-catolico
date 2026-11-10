@@ -1,56 +1,104 @@
-import { useEffect, useMemo, useState, type FormEvent } from "react";
+import { useEffect, useMemo, useState, type FormEvent, type ReactNode } from "react";
 import { Link, useParams, useSearchParams } from "react-router-dom";
-import { BadgeCheck, ChevronRight, Globe, Heart, AtSign, LocateFixed, Mail, MapPin, MessageCircle, Navigation, Pencil, Phone, Plus, Search } from "lucide-react";
+import { AtSign, BadgeCheck, Check, ChevronDown, ChevronRight, Clock, Globe, Heart, LocateFixed, Mail, MapPin, MessageCircle, Navigation, Pencil, Phone, Plus, Search, Share2 } from "lucide-react";
 import { usePreferencias } from "@/lib/preferencias";
 import { useConta } from "@/conta/useConta";
-import { agendaPerto, buscarParoquias, carregarParoquia, enviarSugestao, type ParoquiaCompleta } from "@/paroquias/api";
-import { agoraLocal, descreverSemanas, hhmm, NOME_DO_DIA, proximasOcorrencias, quandoPorExtenso } from "@/paroquias/horarios";
+import { agendaDeHorarios, carregarParoquia, cidadesComParoquias, enviarSugestao, procurarParoquias, type Cidade, type ParoquiaCompleta } from "@/paroquias/api";
+import {
+  agoraLocal,
+  agruparDias,
+  descreverHorario,
+  descreverSemanas,
+  DIA_POR_CHAVE,
+  emQuanto,
+  hhmm,
+  NOME_CURTO_DO_DIA,
+  NOME_DO_DIA,
+  proximasOcorrencias,
+  quandoPorExtenso,
+  telefoneLegivel,
+  textoDaGrade,
+} from "@/paroquias/horarios";
 import { NOME_DO_TIPO_DE_HORARIO, NOME_DO_TIPO_DE_IGREJA, type Horario, type ItemDaAgenda, type ParoquiaResumo, type TipoDeHorario } from "@/paroquias/tipos";
 import { useLocal } from "@/paroquias/useLocal";
+import { ENDERECO_DO_SITE } from "@/marca";
 import { Cartao, TituloCartao, TituloPagina } from "@/components/Cartao";
 import { Cabecalho, Carregando, Indisponivel, Voltar } from "@/components/Devocao";
 import { NaoEncontrada } from "@/pages/Simples";
 
 const TIPOS: TipoDeHorario[] = ["missa", "confissao", "adoracao"];
-const QUANDO = [
-  ["agora", "Agora"],
-  ["hoje", "Hoje"],
-  ["domingo", "Domingo"],
+const PERIODOS = [
+  ["", "Dia todo"],
+  ["manha", "Manhã"],
+  ["tarde", "Tarde"],
+  ["noite", "Noite"],
 ] as const;
-type Quando = (typeof QUANDO)[number][0];
+type Periodo = (typeof PERIODOS)[number][0];
+const FAIXA: Record<Periodo, [number, number]> = { "": [0, 24], manha: [5, 12], tarde: [12, 18], noite: [18, 24] };
+const RAIOS = [2, 5, 10, 20, 50];
+const RAIO_PADRAO = 10;
+const TOLERANCIA = 15 * 60_000;
 
 const km = (d: number | null) => (d === null ? "" : d < 1 ? `${Math.round(d * 1000)} m` : `${d.toFixed(1).replace(".", ",")} km`);
+const dataDoItem = (i: ItemDaAgenda) => new Date(i.quando.replace(" ", "T"));
+const diaDe = (d: Date) => new Date(d.getFullYear(), d.getMonth(), d.getDate()).getTime();
 
-function janela(quando: Quando, agora: Date): { inicio: Date; horas: number } {
-  if (quando === "agora") return { inicio: agora, horas: 12 };
-  if (quando === "hoje") return { inicio: agora, horas: Math.max(1, 24 - agora.getHours()) };
-  const falta = (7 - agora.getDay()) % 7;
-  const domingo = new Date(agora.getFullYear(), agora.getMonth(), agora.getDate() + falta);
-  return { inicio: falta === 0 ? agora : domingo, horas: falta === 0 ? Math.max(1, 24 - agora.getHours()) : 24 };
+function deslocamento(dia: string, agora: Date): number | null {
+  if (dia === "agora") return null;
+  if (dia === "hoje") return 0;
+  if (dia === "amanha") return 1;
+  const i = DIA_POR_CHAVE.indexOf(dia as (typeof DIA_POR_CHAVE)[number]);
+  return i < 0 ? null : (i - agora.getDay() + 7) % 7;
 }
 
-function useParametro(chave: string, padrao = ""): [string, (v: string) => void] {
-  const [params, setParams] = useSearchParams();
-  const valor = params.get(chave) ?? padrao;
-  const mudar = (v: string) => {
-    const p = new URLSearchParams(params);
-    if (v && v !== padrao) p.set(chave, v);
-    else p.delete(chave);
-    setParams(p, { replace: true });
-  };
-  return [valor, mudar];
+function janela(dia: string, periodo: Periodo, agora: Date): { inicio: Date; fim: Date } {
+  const off = deslocamento(dia, agora);
+  if (off === null) return { inicio: new Date(agora.getTime() - TOLERANCIA), fim: new Date(agora.getTime() + 12 * 3_600_000) };
+  const [a, b] = FAIXA[periodo];
+  let inicio = new Date(agora.getFullYear(), agora.getMonth(), agora.getDate() + off, a);
+  const fim = new Date(agora.getFullYear(), agora.getMonth(), agora.getDate() + off, b);
+  if (off === 0 && agora.getTime() - TOLERANCIA > inicio.getTime()) inicio = new Date(agora.getTime() - TOLERANCIA);
+  return { inicio, fim };
 }
 
-function Chips<T extends string>({ opcoes, valor, onChange }: { opcoes: readonly (readonly [T, string])[]; valor: T; onChange: (v: T) => void }) {
+function rotuloDoDia(d: Date, agora: Date): string {
+  const diff = Math.round((diaDe(d) - diaDe(agora)) / 86_400_000);
+  if (diff === 0) return "Hoje";
+  if (diff === 1) return `Amanhã, ${NOME_DO_DIA[d.getDay()]!.toLowerCase()}`;
+  return `${NOME_DO_DIA[d.getDay()]}, ${d.getDate()}/${String(d.getMonth() + 1).padStart(2, "0")}`;
+}
+
+function Chips<T extends string>({ opcoes, valor, onChange, rolar }: { opcoes: readonly (readonly [T, string])[]; valor: T; onChange: (v: T) => void; rolar?: boolean }) {
   return (
-    <div className="flex flex-wrap gap-2" role="group">
+    <div
+      className={rolar ? "-mx-4 flex gap-2 overflow-x-auto px-4 pb-1 [scrollbar-width:none] md:-mx-8 md:px-8" : "flex flex-wrap gap-2"}
+      role="group"
+    >
       {opcoes.map(([v, nome]) => (
         <button
           key={v}
           type="button"
           aria-pressed={v === valor}
           onClick={() => onChange(v)}
-          className={`min-h-10 rounded-full border px-4 text-sm font-medium ${v === valor ? "border-transparent bg-destaque text-sobre-destaque" : "border-borda bg-cartao text-tinta"}`}
+          className={`min-h-10 shrink-0 rounded-full border px-4 text-sm font-medium whitespace-nowrap ${v === valor ? "border-transparent bg-destaque text-sobre-destaque" : "border-borda bg-cartao text-tinta"}`}
+        >
+          {nome}
+        </button>
+      ))}
+    </div>
+  );
+}
+
+function Segmentos<T extends string>({ opcoes, valor, onChange }: { opcoes: readonly (readonly [T, string])[]; valor: T; onChange: (v: T) => void }) {
+  return (
+    <div className="flex rounded-full border border-borda bg-cartao p-0.5" role="group">
+      {opcoes.map(([v, nome]) => (
+        <button
+          key={v}
+          type="button"
+          aria-pressed={v === valor}
+          onClick={() => onChange(v)}
+          className={`min-h-9 rounded-full px-3.5 text-sm font-medium ${v === valor ? "bg-marca-fundo text-destaque-texto" : "text-tinta-suave"}`}
         >
           {nome}
         </button>
@@ -74,26 +122,192 @@ function ItemDeParoquia({ p }: { p: ParoquiaResumo }) {
   );
 }
 
-function Agenda({ itens }: { itens: ItemDaAgenda[] }) {
-  const agora = new Date();
+function PorHorario({ itens, agora }: { itens: ItemDaAgenda[]; agora: Date }) {
+  const dias = new Map<number, ItemDaAgenda[]>();
+  for (const i of itens) {
+    const d = diaDe(dataDoItem(i));
+    dias.set(d, [...(dias.get(d) ?? []), i]);
+  }
+  const variosDias = dias.size > 1 || [...dias.keys()][0] !== diaDe(agora);
   return (
-    <ul className="flex flex-col divide-y divide-borda rounded-2xl border border-borda bg-cartao">
-      {itens.map((i) => {
-        const q = new Date(i.quando.replace(" ", "T"));
-        return (
-          <li key={`${i.paroquia_id}-${i.quando}`}>
-            <Link to={`/missas/paroquia/${i.paroquia_id}`} className="flex min-h-14 items-center gap-3 px-4 py-2.5">
-              <span className="w-24 shrink-0 font-semibold text-destaque-texto">{quandoPorExtenso(q, agora)}</span>
-              <span className="min-w-0 flex-1">
-                <span className="block font-leitura leading-snug text-marca">{i.nome}</span>
-                <span className="block text-sm text-tinta-suave">{[i.observacao, i.bairro, km(i.distancia_km)].filter(Boolean).join(" · ")}</span>
+    <div className="flex flex-col gap-4">
+      {[...dias.entries()].map(([d, lista]) => (
+        <section key={d}>
+          {variosDias && <h2 className="mb-2 px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto">{rotuloDoDia(new Date(d), agora)}</h2>}
+          <ul className="flex flex-col divide-y divide-borda rounded-2xl border border-borda bg-cartao">
+            {lista.map((i) => {
+              const q = dataDoItem(i);
+              const comecou = q.getTime() < agora.getTime();
+              const quanto = comecou && i.ate ? `até ${hhmm(i.ate)}` : emQuanto(q, agora);
+              return (
+                <li key={`${i.paroquia_id}-${i.quando}`}>
+                  <Link to={`/missas/paroquia/${i.paroquia_id}`} className="flex min-h-16 items-center gap-3 px-4 py-2.5">
+                    <span className="flex w-[4.5rem] shrink-0 flex-col">
+                      <span className="text-lg font-semibold leading-tight text-destaque-texto">
+                        {hhmm(i.quando.slice(11, 16))}
+                        {i.ate && !comecou && <span className="text-sm font-medium text-tinta-suave"> às {hhmm(i.ate)}</span>}
+                      </span>
+                      {quanto && <span className="text-xs text-tinta-suave">{quanto}</span>}
+                    </span>
+                    <span className="min-w-0 flex-1">
+                      <span className="block font-leitura leading-snug text-marca">{i.nome}</span>
+                      <span className="block text-sm text-tinta-suave">{[i.bairro, km(i.distancia_km), i.observacao].filter(Boolean).join(" · ")}</span>
+                    </span>
+                    <ChevronRight className="size-5 shrink-0 text-tinta-suave" aria-hidden />
+                  </Link>
+                </li>
+              );
+            })}
+          </ul>
+        </section>
+      ))}
+    </div>
+  );
+}
+
+function PorIgreja({ itens, igrejas, agora, vazio }: { itens: ItemDaAgenda[]; igrejas: ParoquiaResumo[]; agora: Date; vazio: string }) {
+  const [verOutras, setVerOutras] = useState(false);
+  const porIgreja = new Map<string, ItemDaAgenda[]>();
+  for (const i of itens) porIgreja.set(i.paroquia_id, [...(porIgreja.get(i.paroquia_id) ?? []), i]);
+  const comHorario = igrejas.filter((p) => porIgreja.has(p.id));
+  const semHorario = igrejas.filter((p) => !porIgreja.has(p.id));
+  const linha = (p: ParoquiaResumo) => {
+    const lista = porIgreja.get(p.id) ?? [];
+    return (
+      <li key={p.id}>
+        <Link to={`/missas/paroquia/${p.id}`} className="flex min-h-16 items-center gap-3 px-4 py-3">
+          <span className="min-w-0 flex-1">
+            <span className="block font-leitura leading-snug text-marca">{p.nome}</span>
+            <span className="block text-sm text-tinta-suave">{[p.bairro, km(p.distancia_km)].filter(Boolean).join(" · ")}</span>
+            {lista.length > 0 && (
+              <span className="mt-1.5 flex flex-wrap gap-1.5">
+                {lista.map((i) => {
+                  const q = dataDoItem(i);
+                  const outroDia = diaDe(q) !== diaDe(agora);
+                  return (
+                    <span key={i.quando} className="rounded-lg bg-marca-fundo px-2 py-0.5 text-sm font-semibold text-destaque-texto">
+                      {outroDia ? `${NOME_CURTO_DO_DIA[q.getDay()]} ` : ""}
+                      {i.ate ? `${hhmm(i.quando.slice(11, 16))} às ${hhmm(i.ate)}` : hhmm(i.quando.slice(11, 16))}
+                    </span>
+                  );
+                })}
               </span>
-              <ChevronRight className="size-5 shrink-0 text-tinta-suave" aria-hidden />
-            </Link>
-          </li>
-        );
-      })}
-    </ul>
+            )}
+          </span>
+          <ChevronRight className="size-5 shrink-0 text-tinta-suave" aria-hidden />
+        </Link>
+      </li>
+    );
+  };
+  return (
+    <div className="flex flex-col gap-3">
+      {comHorario.length ? (
+        <ul className="flex flex-col divide-y divide-borda rounded-2xl border border-borda bg-cartao">{comHorario.map(linha)}</ul>
+      ) : (
+        <p className="py-4 text-center text-tinta-suave">{vazio}</p>
+      )}
+      {semHorario.length > 0 &&
+        (verOutras ? (
+          <ul className="flex flex-col divide-y divide-borda rounded-2xl border border-borda bg-cartao opacity-80">{semHorario.map(linha)}</ul>
+        ) : (
+          <button type="button" onClick={() => setVerOutras(true)} className="flex min-h-11 items-center justify-center gap-1 text-sm font-medium text-tinta-suave">
+            Outras igrejas ({semHorario.length}) <ChevronDown className="size-4" aria-hidden />
+          </button>
+        ))}
+    </div>
+  );
+}
+
+function EscolherOnde({
+  modo,
+  cidade,
+  raio,
+  estadoLocal,
+  onPerto,
+  onCidade,
+  onRaio,
+}: {
+  modo: "perto" | "cidade" | "nenhum";
+  cidade: Cidade | null;
+  raio: number;
+  estadoLocal: string;
+  onPerto: () => void;
+  onCidade: (c: Cidade) => void;
+  onRaio: (r: number) => void;
+}) {
+  const [filtro, setFiltro] = useState("");
+  const [cidades, setCidades] = useState<Cidade[] | null | "erro">(null);
+  useEffect(() => {
+    let ativo = true;
+    const espera = setTimeout(
+      () =>
+        cidadesComParoquias(filtro.trim())
+          .then((r) => ativo && setCidades(r))
+          .catch(() => ativo && setCidades("erro")),
+      filtro ? 250 : 0,
+    );
+    return () => {
+      ativo = false;
+      clearTimeout(espera);
+    };
+  }, [filtro]);
+
+  return (
+    <Cartao className="flex flex-col gap-4 p-4">
+      <div className="flex flex-col gap-2">
+        <button
+          type="button"
+          onClick={onPerto}
+          disabled={estadoLocal === "buscando"}
+          aria-pressed={modo === "perto"}
+          className={`flex min-h-12 items-center justify-center gap-2 rounded-xl font-semibold disabled:opacity-60 ${modo === "perto" ? "border border-destaque-texto/50 bg-marca-fundo text-destaque-texto" : "bg-destaque text-sobre-destaque"}`}
+        >
+          {modo === "perto" ? <Check className="size-5" aria-hidden /> : <LocateFixed className="size-5" aria-hidden />}
+          {estadoLocal === "buscando" ? "Procurando" : "Perto de mim"}
+        </button>
+        {estadoLocal === "negado" && <p className="text-center text-sm text-tinta-suave">A localização está bloqueada para este app.</p>}
+        {estadoLocal === "erro" && <p className="text-center text-sm text-tinta-suave">Não foi possível achar a sua localização.</p>}
+        {modo === "perto" && (
+          <Chips opcoes={RAIOS.map((r) => [String(r), `${r} km`] as const)} valor={String(raio)} onChange={(v) => onRaio(Number(v))} />
+        )}
+      </div>
+      <div className="flex flex-col gap-2">
+        <label className="flex min-h-11 items-center gap-2 rounded-xl border border-borda bg-papel px-3 focus-within:border-destaque-texto">
+          <MapPin className="size-5 shrink-0 text-tinta-suave" aria-hidden />
+          <input
+            value={filtro}
+            onChange={(e) => setFiltro(e.target.value)}
+            placeholder="Cidade"
+            aria-label="Cidade"
+            type="search"
+            autoComplete="off"
+            className="min-w-0 flex-1 bg-transparent py-2 text-base outline-none placeholder:text-tinta-suave/70"
+          />
+        </label>
+        {cidades === null ? null : cidades === "erro" ? (
+          <Indisponivel />
+        ) : cidades.length ? (
+          <ul className="flex flex-col divide-y divide-borda">
+            {cidades.map((c) => {
+              const atual = modo === "cidade" && cidade?.cidade === c.cidade && cidade.uf === c.uf;
+              return (
+                <li key={`${c.cidade}-${c.uf}`}>
+                  <button type="button" onClick={() => onCidade(c)} aria-pressed={atual} className="flex min-h-12 w-full items-center gap-2 px-1 text-left">
+                    <span className={`flex-1 font-medium ${atual ? "text-destaque-texto" : "text-tinta"}`}>
+                      {c.cidade}, {c.uf}
+                    </span>
+                    <span className="text-sm text-tinta-suave">{c.total === 1 ? "1 igreja" : `${c.total} igrejas`}</span>
+                    {atual && <Check className="size-4 text-destaque-texto" aria-hidden />}
+                  </button>
+                </li>
+              );
+            })}
+          </ul>
+        ) : (
+          <p className="py-2 text-center text-sm text-tinta-suave">Nenhuma cidade com igrejas cadastradas.</p>
+        )}
+      </div>
+    </Cartao>
   );
 }
 
@@ -116,15 +330,15 @@ export function MinhaParoquia() {
   return (
     <Cartao>
       <TituloCartao icone={Heart}>Minha paróquia</TituloCartao>
-      <Link to={`/missas/paroquia/${minhaParoquia}`} className="mt-2 block font-leitura text-xl font-semibold text-marca">
-        {dados?.paroquia.nome ?? minhaParoquiaNome}
+      <Link to={`/missas/paroquia/${minhaParoquia}`} className="mt-2 flex items-center gap-2 font-leitura text-xl font-semibold text-marca">
+        <span className="flex-1">{dados?.paroquia.nome ?? minhaParoquiaNome}</span>
+        <ChevronRight className="size-5 shrink-0 text-tinta-suave" aria-hidden />
       </Link>
       {proximas.length > 0 && (
-        <ul className="mt-2 flex flex-col gap-1">
+        <ul className="mt-2 flex flex-wrap gap-1.5">
           {proximas.map((o) => (
-            <li key={o.horario.id + o.quando.toISOString()} className="text-tinta">
-              Missa: {quandoPorExtenso(o.quando, agora)}
-              {o.horario.observacao && <span className="text-tinta-suave"> · {o.horario.observacao}</span>}
+            <li key={o.horario.id + o.quando.toISOString()} className="rounded-lg bg-marca-fundo px-2.5 py-1 text-sm font-semibold text-destaque-texto">
+              {quandoPorExtenso(o.quando, agora)}
             </li>
           ))}
         </ul>
@@ -139,39 +353,76 @@ export function MinhaParoquia() {
 }
 
 export function Missas() {
-  const [termo, setTermo] = useParametro("q");
-  const [tipo, setTipo] = useParametro("tipo", "missa");
-  const [quando, setQuando] = useParametro("quando", "agora");
+  const [params, setParams] = useSearchParams();
+  const { preferencias, mudar } = usePreferencias();
   const { local, estado, pedir } = useLocal();
+  const termo = params.get("q") ?? "";
+  const tipo = (TIPOS.includes(params.get("tipo") as TipoDeHorario) ? params.get("tipo") : "missa") as TipoDeHorario;
+  const quandoBruto = params.get("quando") ?? "agora";
+  const periodo = (PERIODOS.some(([v]) => v === params.get("periodo")) ? params.get("periodo") : "") as Periodo;
+  const ordem = params.get("ordem") === "igreja" ? "igreja" : "horario";
+  const raio = RAIOS.includes(Number(params.get("raio"))) ? Number(params.get("raio")) : RAIO_PADRAO;
+  const [agora, setAgora] = useState(() => new Date());
+  const quando = quandoBruto === "agora" || deslocamento(quandoBruto, agora) !== null ? quandoBruto : "agora";
+
+  const cidade = useMemo<Cidade | null>(() => {
+    const c = params.get("cidade");
+    if (c) return { cidade: c, uf: params.get("uf") ?? "", total: 0 };
+    const [pc, puf] = preferencias.cidadeDasMissas.split("|");
+    return pc ? { cidade: pc, uf: puf ?? "", total: 0 } : null;
+  }, [params, preferencias.cidadeDasMissas]);
+  const modo = cidade ? "cidade" : local ? "perto" : "nenhum";
+  const [abrirOnde, setAbrirOnde] = useState(false);
+
   const [agenda, setAgenda] = useState<ItemDaAgenda[] | null | "erro">(null);
-  const [perto, setPerto] = useState<ParoquiaResumo[] | null>(null);
+  const [igrejas, setIgrejas] = useState<ParoquiaResumo[] | null>(null);
   const [achadas, setAchadas] = useState<ParoquiaResumo[] | null | "erro">(null);
-  const tipoValido = (TIPOS.includes(tipo as TipoDeHorario) ? tipo : "missa") as TipoDeHorario;
-  const quandoValido = (QUANDO.some(([v]) => v === quando) ? quando : "agora") as Quando;
+
+  const mudarParams = (m: Record<string, string | null>) => {
+    const p = new URLSearchParams(params);
+    for (const [k, v] of Object.entries(m)) {
+      if (v) p.set(k, v);
+      else p.delete(k);
+    }
+    setParams(p, { replace: true });
+  };
 
   useEffect(() => {
-    if (!local) return;
+    const t = setInterval(() => setAgora(new Date()), 60_000);
+    return () => clearInterval(t);
+  }, []);
+
+  const j = useMemo(() => janela(quando, periodo, agora), [quando, periodo, agora]);
+  const onde = useMemo(() => (modo === "cidade" ? { cidade } : modo === "perto" ? { local, raioKm: raio } : null), [modo, cidade, local, raio]);
+
+  useEffect(() => {
+    if (!onde) return;
     let ativo = true;
+    if (j.fim <= j.inicio) {
+      setAgenda([]);
+      return;
+    }
     setAgenda(null);
-    const j = janela(quandoValido, new Date());
-    agendaPerto({ local, inicio: agoraLocal(j.inicio), horas: j.horas, tipo: tipoValido })
-      .then((r) => ativo && setAgenda(r))
+    const horas = Math.max(1, Math.ceil((j.fim.getTime() - j.inicio.getTime()) / 3_600_000));
+    agendaDeHorarios({ ...onde, inicio: agoraLocal(j.inicio), horas, tipo })
+      .then((r) => ativo && setAgenda(r.filter((i) => dataDoItem(i) < j.fim)))
       .catch(() => ativo && setAgenda("erro"));
     return () => {
       ativo = false;
     };
-  }, [local, tipoValido, quandoValido]);
+  }, [onde, j.inicio.getTime(), j.fim.getTime(), tipo]);
 
   useEffect(() => {
-    if (!local) return;
+    if (!onde) return;
     let ativo = true;
-    buscarParoquias({ local, raioKm: 10, limite: 20 })
-      .then((r) => ativo && setPerto(r))
-      .catch(() => ativo && setPerto([]));
+    setIgrejas(null);
+    procurarParoquias({ ...onde, limite: 100 })
+      .then((r) => ativo && setIgrejas(r))
+      .catch(() => ativo && setIgrejas([]));
     return () => {
       ativo = false;
     };
-  }, [local]);
+  }, [onde]);
 
   useEffect(() => {
     const t = termo.trim();
@@ -181,7 +432,7 @@ export function Missas() {
     }
     let ativo = true;
     const espera = setTimeout(() => {
-      buscarParoquias({ termo: t, local, raioKm: 3000, limite: 40 })
+      procurarParoquias({ termo: t, local, raioKm: 3000, limite: 40 })
         .then((r) => ativo && setAchadas(r))
         .catch(() => ativo && setAchadas("erro"));
     }, 300);
@@ -191,17 +442,45 @@ export function Missas() {
     };
   }, [termo, local]);
 
+  function escolherPerto() {
+    mudar({ cidadeDasMissas: "" });
+    mudarParams({ cidade: null, uf: null });
+    pedir();
+    setAbrirOnde(false);
+  }
+
+  function escolherCidade(c: Cidade) {
+    mudar({ cidadeDasMissas: `${c.cidade}|${c.uf}` });
+    mudarParams({ cidade: c.cidade, uf: c.uf, raio: null });
+    setAbrirOnde(false);
+  }
+
+  const dias: (readonly [string, string])[] = [
+    ["agora", "Agora"],
+    ["hoje", "Hoje"],
+    ["amanha", "Amanhã"],
+    ...[2, 3, 4, 5, 6].map((off) => {
+      const d = new Date(agora.getFullYear(), agora.getMonth(), agora.getDate() + off);
+      return [DIA_POR_CHAVE[d.getDay()]!, `${NOME_CURTO_DO_DIA[d.getDay()]} ${d.getDate()}`] as const;
+    }),
+  ];
+  const off = deslocamento(quando, agora);
+  const diaAtivo = off === null ? "agora" : off === 0 ? "hoje" : off === 1 ? "amanha" : DIA_POR_CHAVE[(agora.getDay() + off) % 7]!;
+  const nomeDoTipo = NOME_DO_TIPO_DE_HORARIO[tipo].toLowerCase();
+  const resumoOnde = modo === "cidade" ? `${cidade!.cidade}${cidade!.uf ? `, ${cidade!.uf}` : ""}` : `Perto de mim · até ${raio} km`;
+  const proximoRaio = RAIOS.find((r) => r > raio);
+
   return (
-    <div className="flex flex-col gap-5">
+    <div className="flex flex-col gap-4">
       <TituloPagina>Missas</TituloPagina>
       <MinhaParoquia />
       <label className="flex min-h-12 items-center gap-2 rounded-xl border border-borda bg-cartao px-3 focus-within:border-destaque-texto">
         <Search className="size-5 shrink-0 text-tinta-suave" aria-hidden />
         <input
           value={termo}
-          onChange={(e) => setTermo(e.target.value)}
-          placeholder="Paróquia, bairro ou cidade"
-          aria-label="Buscar paróquia"
+          onChange={(e) => mudarParams({ q: e.target.value })}
+          placeholder="Igreja, padroeiro ou bairro"
+          aria-label="Buscar igreja"
           type="search"
           enterKeyHint="search"
           autoComplete="off"
@@ -221,44 +500,77 @@ export function Missas() {
             ))}
           </div>
         ) : (
-          <p className="py-6 text-center text-tinta-suave">Nenhuma paróquia encontrada.</p>
+          <p className="py-6 text-center text-tinta-suave">Nenhuma igreja encontrada.</p>
         )
       ) : (
         <>
-          <Chips opcoes={TIPOS.map((t) => [t, NOME_DO_TIPO_DE_HORARIO[t]] as const)} valor={tipoValido} onChange={setTipo} />
-          <Chips opcoes={QUANDO} valor={quandoValido} onChange={setQuando} />
-          {!local ? (
-            <div className="flex flex-col gap-2">
-              <button type="button" onClick={pedir} disabled={estado === "buscando"} className="flex min-h-14 items-center justify-center gap-2 rounded-2xl bg-destaque text-lg font-semibold text-sobre-destaque disabled:opacity-60">
-                <LocateFixed className="size-5" aria-hidden />
-                {estado === "buscando" ? "Procurando" : "Perto de mim"}
-              </button>
-              {estado === "negado" && <p className="text-center text-sm text-tinta-suave">A localização está bloqueada para este app. Busque pelo nome, bairro ou cidade.</p>}
-              {estado === "erro" && <p className="text-center text-sm text-tinta-suave">Não foi possível achar a sua localização.</p>}
-            </div>
-          ) : agenda === null ? (
-            <Carregando />
-          ) : agenda === "erro" ? (
-            <Indisponivel />
-          ) : agenda.length ? (
-            <Agenda itens={agenda} />
-          ) : (
-            <p className="py-4 text-center text-tinta-suave">Nenhum horário cadastrado perto daqui.</p>
+          {modo !== "nenhum" && (
+            <button
+              type="button"
+              onClick={() => setAbrirOnde(!abrirOnde)}
+              aria-expanded={abrirOnde}
+              className="flex min-h-12 items-center gap-2 rounded-xl border border-borda bg-cartao px-4 text-left"
+            >
+              <MapPin className="size-5 shrink-0 text-destaque-texto" aria-hidden />
+              <span className="min-w-0 flex-1 font-medium text-tinta">{resumoOnde}</span>
+              <span className="text-sm font-medium text-destaque-texto">Mudar</span>
+              <ChevronDown className={`size-4 text-destaque-texto transition-transform ${abrirOnde ? "rotate-180" : ""}`} aria-hidden />
+            </button>
           )}
-          {perto && perto.length > 0 && (
-            <section>
-              <h2 className="mb-2 px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto">Igrejas perto</h2>
-              <div className="flex flex-col gap-2">
-                {perto.map((p) => (
-                  <ItemDeParoquia key={p.id} p={p} />
-                ))}
+          {(modo === "nenhum" || abrirOnde) && (
+            <EscolherOnde
+              modo={modo}
+              cidade={cidade}
+              raio={raio}
+              estadoLocal={estado}
+              onPerto={escolherPerto}
+              onCidade={escolherCidade}
+              onRaio={(r) => mudarParams({ raio: r === RAIO_PADRAO ? null : String(r) })}
+            />
+          )}
+
+          {modo !== "nenhum" && (
+            <>
+              <Chips opcoes={TIPOS.map((t) => [t, NOME_DO_TIPO_DE_HORARIO[t]] as const)} valor={tipo} onChange={(v) => mudarParams({ tipo: v === "missa" ? null : v })} />
+              <Chips rolar opcoes={dias} valor={diaAtivo} onChange={(v) => mudarParams({ quando: v === "agora" ? null : v, periodo: v === "agora" ? null : periodo || null })} />
+              {quando !== "agora" && <Chips opcoes={PERIODOS} valor={periodo} onChange={(v) => mudarParams({ periodo: v || null })} />}
+
+              <div className="flex items-center justify-between gap-3 pt-1">
+                <span className="text-sm text-tinta-suave">
+                  {Array.isArray(agenda) ? (agenda.length === 1 ? "1 horário" : `${agenda.length} horários`) : ""}
+                </span>
+                <Segmentos
+                  opcoes={[
+                    ["horario", "Por horário"],
+                    ["igreja", "Por igreja"],
+                  ] as const}
+                  valor={ordem}
+                  onChange={(v) => mudarParams({ ordem: v === "horario" ? null : v })}
+                />
               </div>
-            </section>
+
+              {agenda === null || (ordem === "igreja" && igrejas === null) ? (
+                <Carregando />
+              ) : agenda === "erro" ? (
+                <Indisponivel />
+              ) : ordem === "igreja" ? (
+                <PorIgreja itens={agenda} igrejas={igrejas ?? []} agora={agora} vazio={`Nenhuma ${nomeDoTipo} neste período.`} />
+              ) : agenda.length ? (
+                <PorHorario itens={agenda} agora={agora} />
+              ) : (
+                <p className="py-4 text-center text-tinta-suave">{`Nenhuma ${nomeDoTipo} neste período.`}</p>
+              )}
+              {Array.isArray(agenda) && agenda.length < 3 && modo === "perto" && proximoRaio && (
+                <button type="button" onClick={() => mudarParams({ raio: String(proximoRaio) })} className="min-h-11 rounded-xl border border-borda bg-cartao font-medium text-destaque-texto">
+                  Procurar até {proximoRaio} km
+                </button>
+              )}
+            </>
           )}
         </>
       )}
 
-      <Link to="/missas/sugerir" className="flex min-h-12 items-center justify-center gap-2 rounded-xl border border-borda bg-papel font-semibold text-destaque-texto">
+      <Link to="/missas/sugerir" className="mt-2 flex min-h-12 items-center justify-center gap-2 rounded-xl border border-borda bg-papel font-semibold text-destaque-texto">
         <Plus className="size-4" aria-hidden /> Sugerir paróquia
       </Link>
     </div>
@@ -271,33 +583,39 @@ function diasDoConfirmado(iso: string | null): string {
   return n <= 0 ? "Horários confirmados hoje" : n === 1 ? "Horários confirmados ontem" : `Horários confirmados há ${n} dias`;
 }
 
-function GradeDeHorarios({ horarios }: { horarios: Horario[] }) {
-  const semanais = horarios.filter((h) => h.data === null);
-  const hoje = new Date().toLocaleDateString("sv-SE");
+function GradeDeHorarios({ horarios, agora }: { horarios: Horario[]; agora: Date }) {
+  const hoje = agora.toLocaleDateString("sv-SE");
   const excecoes = horarios.filter((h) => h.data !== null && h.data >= hoje).sort((a, b) => (a.data! + a.hora).localeCompare(b.data! + b.hora));
   return (
     <div className="flex flex-col gap-4">
       {TIPOS.map((t) => {
-        const doTipo = semanais.filter((h) => h.tipo === t);
-        if (!doTipo.length) return null;
+        const grupos = agruparDias(horarios.filter((h) => h.tipo === t));
+        if (!grupos.length) return null;
         return (
-          <Cartao key={t}>
+          <Cartao key={t} className="p-4 sm:p-5">
             <h2 className="font-leitura text-xl font-semibold text-marca">{NOME_DO_TIPO_DE_HORARIO[t]}</h2>
             <ul className="mt-2 flex flex-col divide-y divide-borda">
-              {[0, 1, 2, 3, 4, 5, 6].map((d) => {
-                const doDia = doTipo.filter((h) => h.dia_semana === d).sort((a, b) => a.hora.localeCompare(b.hora));
-                if (!doDia.length) return null;
+              {grupos.map((g) => {
+                const ehHoje = g.dias.includes(agora.getDay());
+                const observacoes = [...new Set(g.horarios.map((h) => h.observacao).filter(Boolean))];
                 return (
-                  <li key={d} className="grid grid-cols-[6.5rem_1fr] gap-2 py-2">
-                    <span className="font-medium text-tinta">{NOME_DO_DIA[d]}</span>
-                    <span className="flex flex-col">
-                      {doDia.map((h) => (
-                        <span key={h.id} className="text-tinta">
-                          {hhmm(h.hora)}
-                          {h.hora_fim && ` às ${hhmm(h.hora_fim)}`}
-                          {(h.semanas?.length || h.observacao) && (
-                            <span className="text-sm text-tinta-suave"> · {[descreverSemanas(h.semanas), h.observacao].filter(Boolean).join(" · ")}</span>
-                          )}
+                  <li key={g.rotulo} className="flex flex-col gap-1.5 py-3 sm:grid sm:grid-cols-[9.5rem_1fr] sm:gap-3">
+                    <span className="flex items-center gap-2 font-medium text-tinta">
+                      {g.rotulo}
+                      {ehHoje && <span className="rounded-full bg-destaque px-2 py-0.5 text-xs font-semibold text-sobre-destaque">hoje</span>}
+                    </span>
+                    <span className="flex flex-col gap-1.5">
+                      <span className="flex flex-wrap gap-1.5">
+                        {g.horarios.map((h) => (
+                          <span key={h.id} className="rounded-lg bg-marca-fundo px-2.5 py-1 font-semibold text-destaque-texto">
+                            {descreverHorario(h)}
+                            {h.semanas?.length ? <span className="font-medium text-tinta-suave"> · {descreverSemanas(h.semanas)}</span> : null}
+                          </span>
+                        ))}
+                      </span>
+                      {observacoes.map((o) => (
+                        <span key={o} className="text-sm text-tinta-suave">
+                          {o}
                         </span>
                       ))}
                     </span>
@@ -309,15 +627,15 @@ function GradeDeHorarios({ horarios }: { horarios: Horario[] }) {
         );
       })}
       {excecoes.length > 0 && (
-        <Cartao>
+        <Cartao className="p-4 sm:p-5">
           <h2 className="font-leitura text-xl font-semibold text-marca">Datas especiais</h2>
           <ul className="mt-2 flex flex-col gap-1.5">
             {excecoes.map((h) => {
               const [a, m, d] = h.data!.split("-");
               return (
                 <li key={h.id} className="text-tinta">
-                  <span className="font-medium">{`${d}/${m}${a !== String(new Date().getFullYear()) ? `/${a}` : ""}`}</span> · {NOME_DO_TIPO_DE_HORARIO[h.tipo]}{" "}
-                  {h.cancelado ? "não haverá" : hhmm(h.hora)}
+                  <span className="font-medium">{`${d}/${m}${a !== String(agora.getFullYear()) ? `/${a}` : ""}`}</span> · {NOME_DO_TIPO_DE_HORARIO[h.tipo]}{" "}
+                  {h.cancelado ? "não haverá" : descreverHorario(h)}
                   {h.observacao && <span className="text-tinta-suave"> · {h.observacao}</span>}
                 </li>
               );
@@ -329,12 +647,46 @@ function GradeDeHorarios({ horarios }: { horarios: Horario[] }) {
   );
 }
 
-function Contato({ href, icone: Icone, children }: { href: string; icone: typeof Phone; children: string }) {
+function Contato({ href, icone: Icone, rotulo, children }: { href: string; icone: typeof Phone; rotulo: string; children: ReactNode }) {
   return (
-    <a href={href} target="_blank" rel="noreferrer" className="flex min-h-12 items-center gap-3 rounded-xl border border-borda bg-cartao px-4 font-medium text-tinta">
-      <Icone className="size-5 shrink-0 text-destaque-texto" aria-hidden />
-      <span className="min-w-0 flex-1 truncate">{children}</span>
-    </a>
+    <li>
+      <a href={href} target="_blank" rel="noreferrer" className="flex min-h-14 items-center gap-3 px-4 py-2">
+        <Icone className="size-5 shrink-0 text-destaque-texto" aria-hidden />
+        <span className="min-w-0 flex-1">
+          <span className="block text-xs text-tinta-suave">{rotulo}</span>
+          <span className="block truncate font-medium text-tinta">{children}</span>
+        </span>
+        <ChevronRight className="size-4 shrink-0 text-tinta-suave" aria-hidden />
+      </a>
+    </li>
+  );
+}
+
+function ProximoHorario({ horarios, agora }: { horarios: Horario[]; agora: Date }) {
+  const missas = proximasOcorrencias(horarios.filter((h) => h.tipo === "missa"), new Date(agora.getTime() - TOLERANCIA), 7).slice(0, 2);
+  const confissoes = proximasOcorrencias(horarios.filter((h) => h.tipo === "confissao"), agora, 0);
+  if (!missas.length && !confissoes.length) return null;
+  const [primeira, depois] = missas;
+  const quanto = primeira ? emQuanto(primeira.quando, agora) : "";
+  return (
+    <Cartao className="p-4 sm:p-5">
+      {primeira && (
+        <>
+          <TituloCartao icone={Clock}>Próxima missa</TituloCartao>
+          <p className="mt-1.5 font-leitura text-2xl font-semibold text-marca">
+            {quandoPorExtenso(primeira.quando, agora)}
+            {quanto && <span className="ml-2 font-sans text-base font-medium text-tinta-suave">{quanto}</span>}
+          </p>
+          {primeira.horario.observacao && <p className="text-sm text-tinta-suave">{primeira.horario.observacao}</p>}
+          {depois && <p className="mt-1 text-tinta-suave">Depois: {quandoPorExtenso(depois.quando, agora)}</p>}
+        </>
+      )}
+      {confissoes.length > 0 && (
+        <p className={`text-tinta ${primeira ? "mt-3 border-t border-borda pt-3" : ""}`}>
+          <span className="font-medium">Confissão hoje:</span> {confissoes.map((c) => descreverHorario(c.horario)).join(", ")}
+        </p>
+      )}
+    </Cartao>
   );
 }
 
@@ -344,6 +696,7 @@ export function ParoquiaPagina() {
   const { preferencias, mudar } = usePreferencias();
   const { email } = useConta();
   const [confirmado, setConfirmado] = useState(false);
+  const [copiado, setCopiado] = useState(false);
 
   useEffect(() => {
     let ativo = true;
@@ -363,7 +716,7 @@ export function ParoquiaPagina() {
   const { paroquia: p, horarios, avisos, podeEditar } = dados;
   const minha = preferencias.minhaParoquia === p.id;
   const destino = p.lat !== null && p.lng !== null ? `${p.lat},${p.lng}` : encodeURIComponent(`${p.endereco}, ${p.bairro}, ${p.cidade} - ${p.uf}`);
-  const proximas = proximasOcorrencias(horarios.filter((h) => h.tipo === "missa"), agora, 7).slice(0, 2);
+  const endereco = [p.endereco, p.bairro, `${p.cidade} - ${p.uf}`].filter(Boolean).join(", ");
 
   async function confirmar() {
     if (!email) return;
@@ -371,35 +724,60 @@ export function ParoquiaPagina() {
     setConfirmado(true);
   }
 
+  async function compartilhar() {
+    const base = location.protocol.startsWith("http") ? location.origin : ENDERECO_DO_SITE;
+    const url = `${base}/missas/paroquia/${p.id}`;
+    const texto = [p.nome, endereco, "", textoDaGrade(horarios, NOME_DO_TIPO_DE_HORARIO)].join("\n").trim();
+    if (navigator.share) {
+      try {
+        await navigator.share({ title: p.nome, text: texto, url });
+      } catch {}
+      return;
+    }
+    try {
+      await navigator.clipboard.writeText(`${texto}\n\n${url}`);
+      setCopiado(true);
+      setTimeout(() => setCopiado(false), 2500);
+    } catch {}
+  }
+
   return (
-    <div className="flex flex-col gap-5">
+    <div className="flex flex-col gap-4">
       <Voltar para="/missas">Missas</Voltar>
       <Cabecalho
         titulo={p.nome}
         subtitulo={[NOME_DO_TIPO_DE_IGREJA[p.tipo], p.padroeiro && `Padroeiro: ${p.padroeiro}`, p.diocese].filter(Boolean).join(" · ")}
       />
-      <div className="flex flex-wrap gap-2 text-sm">
-        {p.verificada && (
-          <span className="flex items-center gap-1 rounded-full bg-marca-fundo px-3 py-1 font-medium text-destaque-texto">
-            <BadgeCheck className="size-4" aria-hidden /> Verificada
-          </span>
-        )}
-        {p.confirmado_em && <span className="rounded-full bg-marca-fundo px-3 py-1 text-tinta">{diasDoConfirmado(p.confirmado_em)}</span>}
-      </div>
+      {(p.verificada || p.confirmado_em) && (
+        <div className="flex flex-wrap gap-2 text-sm">
+          {p.verificada && (
+            <span className="flex items-center gap-1 rounded-full bg-marca-fundo px-3 py-1 font-medium text-destaque-texto">
+              <BadgeCheck className="size-4" aria-hidden /> Verificada
+            </span>
+          )}
+          {p.confirmado_em && <span className="rounded-full bg-marca-fundo px-3 py-1 text-tinta">{diasDoConfirmado(p.confirmado_em)}</span>}
+        </div>
+      )}
 
-      {proximas.length > 0 && (
-        <p className="text-lg text-tinta">
-          Próxima missa: <strong>{quandoPorExtenso(proximas[0]!.quando, agora)}</strong>
+      {(p.endereco || p.bairro) && (
+        <p className="flex items-start gap-2 text-tinta">
+          <MapPin className="mt-0.5 size-5 shrink-0 text-destaque-texto" aria-hidden />
+          <span>
+            {endereco}
+            {p.cep && <span className="text-tinta-suave">{`, CEP ${p.cep.slice(0, 5)}-${p.cep.slice(5)}`}</span>}
+          </span>
         </p>
       )}
 
       {avisos.map((a) => (
-        <p key={a.id} className="rounded-2xl bg-marca-fundo px-4 py-3 text-tinta">
+        <p key={a.id} className="rounded-2xl border border-destaque-texto/30 bg-marca-fundo px-4 py-3 text-tinta">
           {a.texto}
         </p>
       ))}
 
-      <div className="grid grid-cols-1 gap-2 sm:grid-cols-2">
+      <ProximoHorario horarios={horarios} agora={agora} />
+
+      <div className="flex flex-col gap-2">
         <a
           href={`https://www.google.com/maps/dir/?api=1&destination=${destino}`}
           target="_blank"
@@ -408,32 +786,55 @@ export function ParoquiaPagina() {
         >
           <Navigation className="size-5" aria-hidden /> Como chegar
         </a>
-        <button
-          type="button"
-          onClick={() => mudar(minha ? { minhaParoquia: "", minhaParoquiaNome: "" } : { minhaParoquia: p.id, minhaParoquiaNome: p.nome })}
-          aria-pressed={minha}
-          className={`flex min-h-12 items-center justify-center gap-2 rounded-xl font-semibold ${minha ? "border border-borda bg-cartao text-destaque-texto" : "border border-borda bg-papel text-tinta"}`}
-        >
-          <Heart className={`size-5 ${minha ? "fill-current" : ""}`} aria-hidden /> {minha ? "Minha paróquia" : "Escolher como minha paróquia"}
-        </button>
+        <div className="grid grid-cols-2 gap-2">
+          <button
+            type="button"
+            onClick={() => mudar(minha ? { minhaParoquia: "", minhaParoquiaNome: "" } : { minhaParoquia: p.id, minhaParoquiaNome: p.nome })}
+            aria-pressed={minha}
+            className={`flex min-h-12 items-center justify-center gap-2 rounded-xl border px-2 text-sm font-semibold ${minha ? "border-destaque-texto/50 bg-marca-fundo text-destaque-texto" : "border-borda bg-cartao text-tinta"}`}
+          >
+            <Heart className={`size-5 shrink-0 ${minha ? "fill-current" : ""}`} aria-hidden /> Minha paróquia
+          </button>
+          <button type="button" onClick={() => void compartilhar()} className="flex min-h-12 items-center justify-center gap-2 rounded-xl border border-borda bg-cartao px-2 text-sm font-semibold text-tinta">
+            {copiado ? <Check className="size-5 shrink-0" aria-hidden /> : <Share2 className="size-5 shrink-0" aria-hidden />}
+            {copiado ? "Copiado" : "Compartilhar"}
+          </button>
+        </div>
       </div>
 
-      {(p.endereco || p.bairro) && (
-        <p className="flex items-start gap-2 text-tinta">
-          <MapPin className="mt-0.5 size-5 shrink-0 text-destaque-texto" aria-hidden />
-          <span>{[p.endereco, p.bairro, `${p.cidade} - ${p.uf}`, p.cep && `CEP ${p.cep.slice(0, 5)}-${p.cep.slice(5)}`].filter(Boolean).join(", ")}</span>
-        </p>
+      {horarios.length ? <GradeDeHorarios horarios={horarios} agora={agora} /> : <p className="text-tinta-suave">Ainda sem horários cadastrados.</p>}
+
+      {(p.telefone || p.whatsapp || p.instagram || p.site || p.email) && (
+        <Cartao className="p-0">
+          <ul className="flex flex-col divide-y divide-borda">
+            {p.telefone && (
+              <Contato href={`tel:+55${p.telefone}`} icone={Phone} rotulo="Secretaria">
+                {telefoneLegivel(p.telefone)}
+              </Contato>
+            )}
+            {p.whatsapp && (
+              <Contato href={`https://wa.me/55${p.whatsapp}`} icone={MessageCircle} rotulo="WhatsApp da secretaria">
+                {telefoneLegivel(p.whatsapp)}
+              </Contato>
+            )}
+            {p.instagram && (
+              <Contato href={`https://instagram.com/${p.instagram}`} icone={AtSign} rotulo="Instagram">
+                {`@${p.instagram}`}
+              </Contato>
+            )}
+            {p.site && (
+              <Contato href={p.site.startsWith("http") ? p.site : `https://${p.site}`} icone={Globe} rotulo="Site">
+                {p.site.replace(/^https?:\/\//, "")}
+              </Contato>
+            )}
+            {p.email && (
+              <Contato href={`mailto:${p.email}`} icone={Mail} rotulo="E-mail">
+                {p.email}
+              </Contato>
+            )}
+          </ul>
+        </Cartao>
       )}
-
-      {horarios.length ? <GradeDeHorarios horarios={horarios} /> : <p className="text-tinta-suave">Ainda sem horários cadastrados.</p>}
-
-      <div className="flex flex-col gap-2">
-        {p.telefone && <Contato href={`tel:+55${p.telefone}`} icone={Phone}>{`Secretaria: (${p.telefone.slice(0, 2)}) ${p.telefone.slice(2)}`}</Contato>}
-        {p.whatsapp && <Contato href={`https://wa.me/55${p.whatsapp}`} icone={MessageCircle}>WhatsApp da secretaria</Contato>}
-        {p.instagram && <Contato href={`https://instagram.com/${p.instagram}`} icone={AtSign}>{`@${p.instagram}`}</Contato>}
-        {p.site && <Contato href={p.site.startsWith("http") ? p.site : `https://${p.site}`} icone={Globe}>{p.site.replace(/^https?:\/\//, "")}</Contato>}
-        {p.email && <Contato href={`mailto:${p.email}`} icone={Mail}>{p.email}</Contato>}
-      </div>
 
       <div className="flex flex-col gap-2 border-t border-borda pt-5">
         {email ? (

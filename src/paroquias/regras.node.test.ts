@@ -125,6 +125,33 @@ describe("busca", () => {
     expect(outro.rows.map((x) => x.quando)).not.toContain("2026-11-22 10:00:00");
   });
 
+  it("por cidade, sem localização, e a lista de cidades", async () => {
+    const r = await como("anon", null, "select nome, distancia_km from public.procurar_paroquias('', null, null, 15, 30, 0, 'natal', 'rn')");
+    expect(r.rows).toEqual([
+      { nome: "Capela de São Pedro", distancia_km: null },
+      { nome: "Catedral Metropolitana", distancia_km: null },
+    ]);
+    const longe = await como("anon", null, "select nome, round(distancia_km)::int as km from public.procurar_paroquias('', -5.1878, -37.3440, 5, 30, 0, 'Natal', 'RN')");
+    expect(longe.rows.map((x) => x.nome)).toEqual(["Catedral Metropolitana", "Capela de São Pedro"]);
+    expect(longe.rows[0]!.km).toBeGreaterThan(200);
+    const fora = await como("anon", null, "select nome from public.procurar_paroquias('', null, null, 15, 30, 0, 'Mossoró', 'RN')");
+    expect(fora.rows).toEqual([]);
+    const agenda = await como("anon", null, "select nome, quando::text from public.agenda_de_horarios(null, null, '2026-11-22 07:00', 14, 'missa', 15, 40, 'Natal', 'RN')");
+    expect(agenda.rows.map((x) => `${x.quando} ${x.nome}`)).toEqual([
+      "2026-11-22 08:00:00 Catedral Metropolitana",
+      "2026-11-22 09:00:00 Capela de São Pedro",
+      "2026-11-22 19:00:00 Catedral Metropolitana",
+    ]);
+    const raio = await como("anon", null, "select distinct nome from public.agenda_de_horarios(-5.795, -35.211, '2026-11-22 07:00', 14, 'missa', 3)");
+    expect(raio.rows).toEqual([{ nome: "Catedral Metropolitana" }]);
+    const nada = await como("anon", null, "select count(*)::int as n from public.agenda_de_horarios(null, null, '2026-11-15 07:00', 14, 'missa')");
+    expect(nada.rows[0]).toEqual({ n: 0 });
+    const cidades = await como("anon", null, "select cidade, uf, total from public.cidades_com_paroquias()");
+    expect(cidades.rows).toEqual([{ cidade: "Natal", uf: "RN", total: 2 }]);
+    const busca = await como("anon", null, "select cidade from public.cidades_com_paroquias('nat')");
+    expect(busca.rows).toEqual([{ cidade: "Natal" }]);
+  });
+
   it("confissão hoje", async () => {
     const r = await como("anon", null, "select quando::text from public.agenda_perto(-5.795, -35.211, '2026-11-18 08:00', 12, 'confissao', 20)");
     expect(r.rows.map((x) => x.quando)).toEqual(["2026-11-18 15:00:00"]);

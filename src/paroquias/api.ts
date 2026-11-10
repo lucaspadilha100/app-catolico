@@ -41,6 +41,56 @@ export async function agendaPerto(p: { local: Local; inicio: string; horas: numb
   ) as ItemDaAgenda[];
 }
 
+export interface Cidade {
+  cidade: string;
+  uf: string;
+  total: number;
+}
+
+export interface Onde {
+  local?: Local | null;
+  raioKm?: number;
+  cidade?: Cidade | null;
+}
+
+export async function procurarParoquias(p: Onde & { termo?: string; limite?: number }): Promise<ParoquiaResumo[]> {
+  const c = await cliente();
+  return ou(
+    await c.rpc("procurar_paroquias", {
+      p_termo: p.termo ?? "",
+      p_lat: p.local?.lat ?? null,
+      p_lng: p.local?.lng ?? null,
+      p_raio_km: p.raioKm ?? 10,
+      p_limite: p.limite ?? 100,
+      p_pular: 0,
+      p_cidade: p.cidade?.cidade ?? "",
+      p_uf: p.cidade?.uf ?? "",
+    }),
+  ) as ParoquiaResumo[];
+}
+
+export async function agendaDeHorarios(p: Onde & { inicio: string; horas: number; tipo: TipoDeHorario }): Promise<ItemDaAgenda[]> {
+  const c = await cliente();
+  return ou(
+    await c.rpc("agenda_de_horarios", {
+      p_lat: p.local?.lat ?? null,
+      p_lng: p.local?.lng ?? null,
+      p_inicio: p.inicio,
+      p_horas: p.horas,
+      p_tipo: p.tipo,
+      p_raio_km: p.raioKm ?? 10,
+      p_limite: 300,
+      p_cidade: p.cidade?.cidade ?? "",
+      p_uf: p.cidade?.uf ?? "",
+    }),
+  ) as ItemDaAgenda[];
+}
+
+export async function cidadesComParoquias(termo = ""): Promise<Cidade[]> {
+  const c = await cliente();
+  return ou(await c.rpc("cidades_com_paroquias", { p_termo: termo, p_limite: 30 })) as Cidade[];
+}
+
 export interface ParoquiaCompleta {
   paroquia: Paroquia;
   horarios: Horario[];
