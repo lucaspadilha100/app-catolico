@@ -10,7 +10,7 @@ Conferidos versículo a versículo (revisado × Figueiredo 1950 × Vulgata Cleme
 - Mc 12,38 | antes: gostam de andar com roupas compridas | depois: gostam de andar com roupas largas | o Figueiredo diz "roupas largas"; "compridas" é outro adjetivo, não está nele.
 - Mc 15,19 | antes: cuspiam nele | depois: cuspiam-lhe no rosto | o Figueiredo diz "lhe cuspiam no rosto"; "no rosto" tinha sumido (o latim só diz "conspuebant eum", mas vale o Figueiredo).
 
-## Para o dono decidir
+## Decidido pelas fontes (ver docs/biblia/decisoes.md)
 
 Casos em que o texto de 1950 parece ter erro de impressão ou de transcrição, ou em que há escolha de termo. Onde digo "a revisão já está assim", o revisor já mudou o Figueiredo e só falta o seu OK.
 
