@@ -34,3 +34,7 @@ Ez 40,3: "como a vista de arame" → "como o aspecto do bronze" (arame = bronze 
 Ez 40,38: "postigo" → "entrada" (Vulgata "ostium"); o mesmo em 40,40.
 Ez 40,43: Figueiredo: "E sobre as três mesas se punham as carnes" | Vulgata: "super mensas autem carnes oblationis" | Douay-Rheims: "upon the tables was the flesh of the offering" | decidido: "Sobre as mesas" ("três" sem apoio nas réguas; provável erro de impressão).
 Ez 40,46: "Sadoc" mantido (grafia do Figueiredo).
+Ez 41,1: "postes" → "pilares" (Vulgata "frontes"); o mesmo em 41,3.
+Ez 41,6: "trinta e três em cada andar" mantido (Vulgata "bis triginta tria", "duas vezes trinta e três"): leitura do Figueiredo; o dono confere.
+Ez 41,22: Figueiredo: "A altura do altar de madeira era de três côvados: E os seus cantos..." (falta a medida do comprimento) | Vulgata: "trium cubitorum altitudo, et longitudo ejus duorum cubitorum" | Douay-Rheims: "three cubits high: and the length thereof was two cubits" | decidido: restaurado "e dois côvados de comprimento".
+Ez 41,24: "nestas duas batentes" → "nessas duas portas" (Vulgata "in duobus ostiis").
