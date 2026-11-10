@@ -22,3 +22,10 @@ Is 42,19: "enviei os meus profetas" mantido como no Figueiredo (Vulgata "nuntios
 Is 43,19: OCR "se não podia anelar" lido "não se podia andar" (como em 43,20).
 Is 43,20: Figueiredo: "Porque de águas no deserto" | Vulgata: quia dedi in deserto aquas | Douay-Rheims: because I have given waters | decidido: "porque dei águas no deserto" (letra trocada).
 Is 43,28: "contaminei os príncipes do santuário" ficou "profanei" (Vulgata "contaminavi principes sanctos").
+Is 44,5: Figueiredo: "Êste dirá: Eu sou o Senhor" | Vulgata: Domini ego sum | Douay-Rheims: I am the Lord's | decidido: "Eu sou do Senhor" (a edição de 1950 perdeu o "do"; o hebraico concorda).
+Is 44,18: OCR "nies" lido "Êles"; 44,19 "farei cu Ítm ídolo" lido "farei eu um ídolo".
+Is 44,26: o Figueiredo diz só "suscito a palavra dos meus profetas"; a Vulgata tem "suscitans verbum servi sui, et consilium nuntiorum suorum complens" (a palavra do seu servo e o conselho dos seus mensageiros). Mantido o Figueiredo, que resume as duas frases; conferir no PDF se falta uma linha.
+Is 45: a edição de 1950 tem 26 versículos (a Vulgata, 25): o 23 da Vulgata vem em dois (23 e 24) e daí em diante a numeração da fonte fica um à frente (fonte 25 = Vulgata 24; fonte 26 = Vulgata 25). Mantida a estrutura da fonte.
+Is 45,1: "a Ciro, o meu Cristo" mantido como no Figueiredo (Vulgata "christo meo"); o dono decide se prefere "o meu ungido".
+Is 45,4: "Eu te assemelhei" mantido (Vulgata "assimilavi te"); frase obscura.
+Is 45,14: "te adorarão" ficou "prostrar-se-ão diante de ti" (termo fixo: reverência a quem não é Deus).

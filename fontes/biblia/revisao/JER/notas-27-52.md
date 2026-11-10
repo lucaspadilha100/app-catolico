@@ -16,3 +16,5 @@ Jr 37,15; 38,6-13: "lago" (Vulgata "lacus") é a cisterna; ficou "cisterna".
 Jr 39,3: Figueiredo: "Sereset" na primeira vez (OCR) | Vulgata: "Sereser" | Douay-Rheims: "Sereser" | decidido: "Sereser".
 Jr 39,5: sinal solto "( S)" no fim do versículo (OCR); retirado.
 Jr 39,9-13; 40-52: "general do exército" (magister militum) ficou "comandante da guarda" para Nabuzardan.
+Jr 41,1: Figueiredo: "e os grándes reis" | Vulgata: "et optimates regis" | Douay-Rheims: "and the nobles of the king" | decidido: "com os grandes do rei".
+Jr 41,17: Figueiredo: "Camaão" | Vulgata: "Chamaam" | decidido: "Camaam" (o "ão" parece leitura errada do OCR).
