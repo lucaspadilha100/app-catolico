@@ -29,3 +29,7 @@ Jt 9,2: Figueiredo: "ultrajaram com afronta o poder de uma virgem" | Vulgata: "d
 Jt 9,4: asterisco e número solto "* 1" no fim do versículo: retirados.
 Jt 9,11: "a majestade de teu altar" mantido do Figueiredo (Vulgata "cornu altaris tui").
 Jt 9,18: "teu pacto" vertido "tua aliança" (termo fixo); "para que a tua casa permaneça em te santificar" vertido "permaneça na tua santidade" (Vulgata "in sanctificatione tua").
+Jt 10,4: número solto "1" depois de "tal": retirado.
+Jt 10,5: "garrafinha de vinho, e uma almotolia de azeite" vertido "odre de vinho, vasilha de azeite" (Vulgata "ascoperam vini, et vas olei").
+Jt 10,18: Figueiredo: "que devamos com razão pelejar contra êles para as possuirmos?" | Vulgata: "ut non pro his merito pugnare contra eos debeamus?" | decidido: "Não temos razão para lutar contra eles por causa delas?"; o "para as possuirmos" do Figueiredo ficou de fora por não estar no latim; conferir se o dono prefere manter.
+Jt 10,20: "o adorou, prostrando-se em terra" vertido "prostrou-se diante dele, inclinando-se até o chão" (adorar só para Deus); "os oficiais" vertido "os servos" (Vulgata "servi").
