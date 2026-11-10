@@ -13,7 +13,7 @@ import {
   registrarAbertura,
   useLeituraDaBiblia,
 } from "@/biblia/progresso";
-import { Cartao, TituloPagina } from "@/components/Cartao";
+import { Cartao, LISTA, TituloPagina } from "@/components/Cartao";
 import { NaoEncontrada } from "@/pages/Simples";
 import { Voltar } from "@/components/Voltar";
 import { BarraDoVersiculo } from "@/components/AvisarErro";
@@ -45,7 +45,7 @@ function IrPara() {
         <input
           value={texto}
           onChange={(e) => setTexto(e.target.value)}
-          placeholder="Ir para… (ex.: Mc 4, Salmo 22, Jo 3,16)"
+          placeholder="Livro ou passagem (Jo 3,16)"
           className="min-w-0 flex-1 bg-transparent py-2 outline-none placeholder:text-tinta-suave/70"
           enterKeyHint="go"
           autoComplete="off"
@@ -96,16 +96,16 @@ export function Biblia() {
         </Link>
       )}
 
-      <Cartao className="flex flex-col gap-3">
-        <div className="flex items-baseline justify-between gap-3">
-          <span className="font-medium">Bíblia completa</span>
-          <span className="font-leitura text-2xl font-semibold text-marca">{geral}%</span>
-        </div>
-        <Barra valor={geral} />
-        <span className="text-sm text-tinta-suave">
-          {capitulosLidos(leitura)} de 1.334 capítulos lidos
-        </span>
-      </Cartao>
+      {capitulosLidos(leitura) > 0 && (
+        <Cartao className="flex flex-col gap-3">
+          <div className="flex items-baseline justify-between gap-3">
+            <span className="font-medium">Bíblia completa</span>
+            <span className="font-leitura text-2xl font-semibold text-marca">{geral}%</span>
+          </div>
+          <Barra valor={geral} />
+          <span className="text-sm text-tinta-suave">{capitulosLidos(leitura)} de 1.334 capítulos lidos</span>
+        </Cartao>
+      )}
 
       <div className="grid grid-cols-2 gap-2" role="tablist">
         {(["AT", "NT"] as const).map((t) => (
@@ -118,7 +118,7 @@ export function Biblia() {
               t === testamento ? "border-transparent bg-destaque text-sobre-destaque" : "border-borda bg-cartao text-tinta-suave"
             }`}
           >
-            {t === "AT" ? "Antigo Testamento" : "Novo Testamento"}
+            {t === "AT" ? "Antigo" : "Novo"}
           </button>
         ))}
       </div>
@@ -127,14 +127,14 @@ export function Biblia() {
         {GRUPOS_DA_BIBLIA.filter((g) => g.testamento === testamento).map(({ grupo }) => (
           <section key={grupo}>
             <h2 className="mb-2 px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto">{grupo}</h2>
-            <div className="grid grid-cols-1 gap-2 sm:grid-cols-2">
+            <div className={LISTA}>
               {LIVROS.filter((l) => l.grupo === grupo && l.testamento === testamento).map((l) => {
                 const p = percentualDoLivro(leitura, l.codigo);
                 return (
                   <Link
                     key={l.codigo}
                     to={`/biblia/${l.slug}`}
-                    className="flex min-h-14 flex-col justify-center gap-2 rounded-xl border border-borda bg-cartao px-4 py-3"
+                    className="flex min-h-12 flex-col justify-center gap-1.5 px-4 py-2.5 transition-colors hover:bg-marca-fundo/60"
                   >
                     <span className="flex items-baseline justify-between gap-3">
                       <span className="font-leitura text-[1.05rem] font-medium text-marca">{l.nome}</span>

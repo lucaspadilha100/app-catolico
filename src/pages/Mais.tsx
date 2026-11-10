@@ -1,9 +1,9 @@
-import type { ReactNode } from "react";
-import { LayoutDashboard, UserRound, CalendarDays, NotebookPen, Heart, Music, Sparkles, Users } from "lucide-react";
+import { useState, type ReactNode } from "react";
+import { CalendarDays, Church, FileText, Heart, LayoutDashboard, NotebookPen, Share2, ShieldCheck, Sparkles, UserRound } from "lucide-react";
 import { usePreferencias, type Letra, type Tema } from "@/lib/preferencias";
-import { Cartao, ItemLista, TituloPagina } from "@/components/Cartao";
+import { Cartao, Grupo, ItemLista, LINHA, TituloPagina } from "@/components/Cartao";
 import { DIOCESES } from "@/liturgia/dioceses";
-import { NOME_DO_APP } from "@/marca";
+import { ENDERECO_DO_SITE, NOME_DO_APP } from "@/marca";
 import { useConta } from "@/conta/useConta";
 import { useTemPainel } from "@/pages/Painel";
 
@@ -62,6 +62,33 @@ function Interruptor({ rotulo, ligado, onChange, children }: { rotulo: string; l
   );
 }
 
+function Compartilhar() {
+  const [copiado, setCopiado] = useState(false);
+  async function compartilhar() {
+    const url = location.protocol.startsWith("http") ? location.origin : ENDERECO_DO_SITE;
+    const texto = `${NOME_DO_APP}: liturgia do dia, terço, Bíblia, orações e horários de missa. Gratuito e sem anúncios.`;
+    if (navigator.share) {
+      try {
+        await navigator.share({ title: NOME_DO_APP, text: texto, url });
+      } catch {}
+      return;
+    }
+    try {
+      await navigator.clipboard.writeText(`${texto}\n${url}`);
+      setCopiado(true);
+      setTimeout(() => setCopiado(false), 2500);
+    } catch {}
+  }
+  return (
+    <button type="button" onClick={() => void compartilhar()} className={`${LINHA} w-full text-left`}>
+      <span className="grid size-10 shrink-0 place-items-center rounded-xl bg-marca-fundo text-destaque-texto">
+        <Share2 className="size-5" aria-hidden />
+      </span>
+      <span className="min-w-0 flex-1 font-medium">{copiado ? "Link copiado" : `Indicar o ${NOME_DO_APP}`}</span>
+    </button>
+  );
+}
+
 export default function Mais() {
   const { preferencias: p, mudar } = usePreferencias();
   const { pronto, email } = useConta();
@@ -71,58 +98,78 @@ export default function Mais() {
     <div>
       <TituloPagina>Mais</TituloPagina>
 
-      <div className="flex flex-col gap-3">
-        <ItemLista icone={UserRound} titulo="Conta" detalhe={pronto ? (email ?? "Sem conta") : undefined} para="/conta" />
-        {temPainel && <ItemLista icone={LayoutDashboard} titulo="Painel" para="/painel" />}
-        <ItemLista icone={Sparkles} titulo="Santos" para="/santos" />
-        <ItemLista icone={CalendarDays} titulo="Calendário litúrgico" para="/calendario" />
-        <ItemLista icone={NotebookPen} titulo="Diário espiritual" detalhe="Diário e propósitos" para="/diario" />
-        <ItemLista icone={Users} titulo="Intenções e grupos" />
-        <ItemLista icone={Music} titulo="Músicas" />
-      </div>
+      <div className="flex flex-col gap-6">
+        <Grupo>
+          <ItemLista icone={UserRound} titulo="Conta" detalhe={pronto ? (email ?? "Sem conta") : undefined} para="/conta" />
+          {temPainel && <ItemLista icone={LayoutDashboard} titulo="Painel" para="/painel" />}
+        </Grupo>
 
-      <h2 className="mb-3 mt-8 font-leitura text-xl font-semibold text-marca">Preferências</h2>
-      <Cartao className="flex flex-col gap-6">
-        <Escolha<Tema>
-          rotulo="Aparência"
-          valor={p.tema}
-          onChange={(tema) => mudar({ tema })}
-          opcoes={[
-            { valor: "sistema", nome: "Automática" },
-            { valor: "claro", nome: "Clara" },
-            { valor: "escuro", nome: "Escura" },
-          ]}
-        />
-        <Escolha<Letra>
-          rotulo="Tamanho da letra"
-          valor={p.letra}
-          onChange={(letra) => mudar({ letra })}
-          opcoes={[
-            { valor: "normal", nome: "Normal" },
-            { valor: "grande", nome: "Grande" },
-            { valor: "maior", nome: "Maior" },
-          ]}
-        />
-        <Escolha<string>
-          rotulo="Calendário da diocese"
-          valor={p.diocese}
-          onChange={(diocese) => mudar({ diocese })}
-          opcoes={[
-            { valor: "", nome: "Brasil" },
-            ...DIOCESES.map((d) => ({ valor: d.id, nome: d.nome.replace("Arquidiocese de ", "").replace("Diocese de ", "") })),
-          ]}
-        />
-        <label className="flex flex-col gap-2">
-          <span className="font-medium">Dia do seu batismo</span>
-          <input
-            type="date"
-            value={p.batismo}
-            onChange={(e) => mudar({ batismo: e.target.value })}
-            className="min-h-12 rounded-xl border border-borda bg-papel px-3 text-base"
-          />
-        </label>
-        <Interruptor rotulo="Modo simples" ligado={p.simples} onChange={(simples) => mudar({ simples })} />
-      </Cartao>
+        <Grupo titulo="Conhecer">
+          <ItemLista icone={Sparkles} titulo="Santos" para="/santos" />
+          <ItemLista icone={CalendarDays} titulo="Calendário litúrgico" para="/calendario" />
+        </Grupo>
+
+        <Grupo titulo="Para você">
+          <ItemLista icone={NotebookPen} titulo="Diário espiritual" detalhe="Diário e propósitos" para="/diario" />
+        </Grupo>
+
+        <section>
+          <h2 className="mb-2 px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto">Preferências</h2>
+          <Cartao className="flex flex-col gap-6">
+            <Escolha<Tema>
+              rotulo="Aparência"
+              valor={p.tema}
+              onChange={(tema) => mudar({ tema })}
+              opcoes={[
+                { valor: "sistema", nome: "Automática" },
+                { valor: "claro", nome: "Clara" },
+                { valor: "escuro", nome: "Escura" },
+              ]}
+            />
+            <Escolha<Letra>
+              rotulo="Tamanho da letra"
+              valor={p.letra}
+              onChange={(letra) => mudar({ letra })}
+              opcoes={[
+                { valor: "normal", nome: "Normal" },
+                { valor: "grande", nome: "Grande" },
+                { valor: "maior", nome: "Maior" },
+              ]}
+            />
+            <label className="flex flex-col gap-2">
+              <span className="font-medium">Calendário da diocese</span>
+              <select value={p.diocese} onChange={(e) => mudar({ diocese: e.target.value })} className="min-h-12 rounded-xl border border-borda bg-papel px-3 text-base">
+                <option value="">Brasil</option>
+                {DIOCESES.map((d) => (
+                  <option key={d.id} value={d.id}>
+                    {d.nome}
+                  </option>
+                ))}
+              </select>
+            </label>
+            <label className="flex flex-col gap-2">
+              <span className="font-medium">Dia do seu batismo</span>
+              <input
+                type="date"
+                value={p.batismo}
+                onChange={(e) => mudar({ batismo: e.target.value })}
+                className="min-h-12 rounded-xl border border-borda bg-papel px-3 text-base"
+              />
+            </label>
+            <Interruptor rotulo="Modo simples" ligado={p.simples} onChange={(simples) => mudar({ simples })} />
+          </Cartao>
+        </section>
+
+        <Grupo titulo="Ajudar">
+          <ItemLista icone={Church} titulo="Sugerir paróquia" para="/missas/sugerir" />
+          <Compartilhar />
+        </Grupo>
+
+        <Grupo titulo="Sobre">
+          <ItemLista icone={ShieldCheck} titulo="Privacidade" para="/privacidade" />
+          <ItemLista icone={FileText} titulo="Termos de uso" para="/termos" />
+        </Grupo>
+      </div>
 
       <p className="mt-8 flex items-center justify-center gap-1.5 text-center text-sm text-tinta-suave">
         <Heart className="size-4" aria-hidden /> {NOME_DO_APP} · gratuito e sem anúncios

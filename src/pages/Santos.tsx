@@ -14,7 +14,7 @@ import {
   useSantosDeDevocao,
 } from "@/santos/santos";
 import type { Santo } from "@/santos/tipos";
-import { Cartao, TituloPagina } from "@/components/Cartao";
+import { Cartao, LINHA, LISTA, TituloPagina } from "@/components/Cartao";
 import { Cabecalho, Carregando, Indisponivel, Voltar, useConteudo } from "@/components/Devocao";
 import { NaoEncontrada } from "@/pages/Simples";
 
@@ -35,7 +35,7 @@ export function ItemDeSanto({ s }: { s: Santo }) {
   return (
     <Link
       to={`/santos/${s.id}`}
-      className="flex min-h-16 items-center gap-3 rounded-xl border border-borda bg-cartao px-3 py-2.5 transition-colors hover:border-destaque-texto/40"
+      className="flex min-h-16 items-center gap-3 px-3 py-2.5 transition-colors hover:bg-marca-fundo/60"
     >
       {img ? (
         <img src={img} alt="" loading="lazy" className="size-12 shrink-0 rounded-lg object-cover object-top" />
@@ -56,7 +56,7 @@ function Lista({ titulo, santos }: { titulo?: string; santos: Santo[] }) {
   return (
     <section>
       {titulo && <h2 className="mb-2 px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto">{titulo}</h2>}
-      <div className="grid grid-cols-1 gap-2 sm:grid-cols-2">
+      <div className={LISTA}>
         {santos.map((s) => (
           <ItemDeSanto key={s.id} s={s} />
         ))}
@@ -79,7 +79,7 @@ function useParametro(chave: string): [string, (v: string) => void] {
 
 function ItemDeAtalho({ para, titulo, contagem, icone }: { para: string; titulo: string; contagem?: number; icone?: "pessoa" }) {
   return (
-    <Link to={para} className="flex min-h-14 items-center gap-3 rounded-xl border border-borda bg-cartao px-4 py-3 transition-colors hover:border-destaque-texto/40">
+    <Link to={para} className={LINHA}>
       {icone === "pessoa" && <UserRound className="size-5 shrink-0 text-destaque-texto" aria-hidden />}
       <span className="min-w-0 flex-1 font-medium text-tinta">{titulo}</span>
       {contagem !== undefined && <span className="text-sm text-tinta-suave">{contagem}</span>}
@@ -127,11 +127,13 @@ export function Santos() {
       ) : (
         <>
           <Lista titulo={pedido ? `Santos de ${dataDoSanto(mmdd)}` : "Santos de hoje"} santos={todos.filter((s) => s.data === mmdd).sort((a, b) => Number(b.calendario) - Number(a.calendario))} />
-          <ItemDeAtalho para="/santos/seu-santo" titulo="Seu santo" icone="pessoa" />
+          <div className={LISTA}>
+            <ItemDeAtalho para="/santos/seu-santo" titulo="Seu santo" icone="pessoa" />
+          </div>
           <Lista titulo="Meus santos" santos={todos.filter((s) => devocao.includes(s.id)).sort(porNome)} />
           <section className="flex flex-col gap-2">
             <h2 className="px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto">Conhecer</h2>
-            <div className="grid grid-cols-1 gap-2 sm:grid-cols-2">
+            <div className={LISTA}>
             {Object.keys(NOME_DO_GRUPO)
               .filter((g) => todos.some((s) => s.grupo === g))
               .map((g) => (

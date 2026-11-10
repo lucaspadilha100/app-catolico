@@ -22,7 +22,7 @@ import {
 import { NOME_DO_TIPO_DE_HORARIO, NOME_DO_TIPO_DE_IGREJA, type Horario, type IgrejaComHorarios, type ItemDaAgenda, type ParoquiaResumo, type TipoDeHorario } from "@/paroquias/tipos";
 import { useLocal } from "@/paroquias/useLocal";
 import { ENDERECO_DO_SITE } from "@/marca";
-import { Cartao, TituloCartao, TituloPagina } from "@/components/Cartao";
+import { Cartao, LINHA, LISTA, TituloCartao, TituloPagina } from "@/components/Cartao";
 import { Cabecalho, Carregando, Indisponivel, Voltar } from "@/components/Devocao";
 import { NaoEncontrada } from "@/pages/Simples";
 
@@ -117,7 +117,7 @@ function Segmentos<T extends string>({ opcoes, valor, onChange, cheio }: { opcoe
 
 function ItemDeParoquia({ p }: { p: ParoquiaResumo }) {
   return (
-    <Link to={`/missas/paroquia/${p.id}`} className="flex min-h-16 items-center gap-3 rounded-xl border border-borda bg-cartao px-4 py-3 transition-colors hover:border-destaque-texto/40">
+    <Link to={`/missas/paroquia/${p.id}`} className={`${LINHA} min-h-16`}>
       <span className="min-w-0 flex-1">
         <span className="flex items-center gap-1.5 font-leitura text-[1.05rem] font-medium leading-snug text-marca">
           {p.nome}
@@ -561,9 +561,11 @@ export function Missas() {
           <Indisponivel />
         ) : achadas.itens.length ? (
           <div className="flex flex-col gap-2">
-            {achadas.itens.map((p) => (
-              <ItemDeParoquia key={p.id} p={p} />
-            ))}
+            <div className={LISTA}>
+              {achadas.itens.map((p) => (
+                <ItemDeParoquia key={p.id} p={p} />
+              ))}
+            </div>
             {achadas.temMais && (
               <MostrarMais onClick={achadas.mais} buscando={achadas.buscandoMais}>
                 Mostrar mais
@@ -645,10 +647,11 @@ export function Missas() {
           )}
         </>
       )}
-
-      <Link to="/missas/sugerir" className="mt-2 flex min-h-12 items-center justify-center gap-2 rounded-xl border border-borda bg-papel font-semibold text-destaque-texto">
-        <Plus className="size-4" aria-hidden /> Sugerir paróquia
-      </Link>
+      {t.length >= 2 && !achadas.carregando && !achadas.temMais && (
+        <Link to="/missas/sugerir" className="flex min-h-12 items-center justify-center gap-2 rounded-xl border border-dashed border-borda font-semibold text-destaque-texto">
+          <Plus className="size-4" aria-hidden /> Sugerir paróquia
+        </Link>
+      )}
     </div>
   );
 }

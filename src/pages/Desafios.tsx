@@ -6,7 +6,7 @@ import { diasDaJanela, etapaDaPosicao, posicaoNoDesafio, proximoDesafio } from "
 import { chaveDoDesafio } from "@/devocao/andamento";
 import { alternarFeito, lerAcompanhamento, useDevocoesGuardadas } from "@/devocao/progresso";
 import { carregarDesafio } from "@/devocao/conteudo";
-import { TituloPagina } from "@/components/Cartao";
+import { LINHA, LISTA, TituloPagina } from "@/components/Cartao";
 import { Blocos } from "@/components/Blocos";
 import { BotaoRezei, Cabecalho, Carregando, EscolhaDeDia, Indisponivel, Voltar, useConteudo } from "@/components/Devocao";
 import { NaoEncontrada } from "@/pages/Simples";
@@ -29,12 +29,12 @@ export function Desafios() {
     <div>
       <Voltar para="/rezar">Rezar</Voltar>
       <TituloPagina>Tempos e meses</TituloPagina>
-      <div className="flex flex-col gap-2">
+      <div className={LISTA}>
         {ordem.map((x) => (
           <Link
             key={x.id}
             to={`/rezar/desafios/${x.id}`}
-            className="flex min-h-16 items-center gap-3 rounded-xl border border-borda bg-cartao px-4 py-3 transition-colors hover:border-destaque-texto/40"
+            className={`${LINHA} min-h-16`}
           >
             <span className="min-w-0 flex-1">
               <span className="block font-leitura text-[1.05rem] font-medium text-marca">{x.nome}</span>

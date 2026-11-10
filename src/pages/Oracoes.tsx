@@ -11,7 +11,7 @@ import {
   type Oracao,
 } from "@/oracao/oracoes";
 import { CHAVE_LINGUA, useGuardado, type Lingua } from "@/oracao/guardado";
-import { Cartao, TituloPagina } from "@/components/Cartao";
+import { Cartao, LINHA, LISTA, TituloPagina } from "@/components/Cartao";
 import { EscolhaDeLingua, TextoDaOracao, linhasNaLingua } from "@/components/TextoDaOracao";
 import { Voltar } from "@/components/Voltar";
 import { NaoEncontrada } from "@/pages/Simples";
@@ -20,7 +20,7 @@ function ItemDeOracao({ o }: { o: Oracao }) {
   return (
     <Link
       to={`/rezar/oracoes/${o.id}`}
-      className="flex min-h-14 items-center gap-3 rounded-xl border border-borda bg-cartao px-4 py-3 transition-colors hover:border-destaque-texto/40"
+      className={LINHA}
     >
       <span className="min-w-0 flex-1">
         <span className="block font-leitura text-[1.05rem] font-medium text-marca">{o.nome}</span>
@@ -62,7 +62,7 @@ export function Oracoes() {
 
       {termo.trim() ? (
         achadas.length ? (
-          <div className="flex flex-col gap-2">
+          <div className={LISTA}>
             {achadas.map((o) => (
               <ItemDeOracao key={o.id} o={o} />
             ))}
@@ -77,7 +77,7 @@ export function Oracoes() {
           return (
             <section key={g}>
               <h2 className="mb-2 px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto">{NOME_DO_GRUPO[g]}</h2>
-              <div className="grid grid-cols-1 gap-2 sm:grid-cols-2">
+              <div className={LISTA}>
                 {doGrupo.map((o) => (
                   <ItemDeOracao key={o.id} o={o} />
                 ))}
@@ -96,7 +96,7 @@ export function Ladainhas() {
     <div>
       <Voltar para="/rezar">Rezar</Voltar>
       <TituloPagina>Ladainhas</TituloPagina>
-      <div className="flex flex-col gap-2">
+      <div className={LISTA}>
         {oracoesDoTempo(tempo)
           .filter((o) => o.grupo === "ladainhas")
           .map((o) => (

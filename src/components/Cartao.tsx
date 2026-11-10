@@ -15,6 +15,18 @@ export function TituloCartao({ icone: Icone, children }: { icone: LucideIcon; ch
   );
 }
 
+export const LISTA = "flex flex-col divide-y divide-borda overflow-hidden rounded-2xl border border-borda bg-cartao shadow-sm";
+export const LINHA = "flex min-h-14 items-center gap-3 px-4 py-3 transition-colors hover:bg-marca-fundo/60";
+
+export function Grupo({ titulo, children }: { titulo?: string; children: ReactNode }) {
+  return (
+    <section>
+      {titulo && <h2 className="mb-2 px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto">{titulo}</h2>}
+      <div className={LISTA}>{children}</div>
+    </section>
+  );
+}
+
 export function EmPreparacao() {
   return (
     <span className="inline-flex items-center rounded-full bg-marca-fundo px-2.5 py-0.5 text-xs font-medium text-tinta-suave">
@@ -36,7 +48,7 @@ export function ItemLista({
 }) {
   const conteudo = (
     <>
-      <span className="grid size-11 shrink-0 place-items-center rounded-xl bg-marca-fundo text-destaque-texto">
+      <span className="grid size-10 shrink-0 place-items-center rounded-xl bg-marca-fundo text-destaque-texto">
         <Icone className="size-5" aria-hidden />
       </span>
       <span className="min-w-0 flex-1">
@@ -46,9 +58,9 @@ export function ItemLista({
       {para ? <ChevronRight className="size-5 text-tinta-suave" aria-hidden /> : <EmPreparacao />}
     </>
   );
-  const classe = "flex min-h-16 items-center gap-3 rounded-2xl border border-borda bg-cartao px-4 py-3";
+  const classe = "flex min-h-16 items-center gap-3 px-4 py-2.5";
   return para ? (
-    <Link to={para} className={`${classe} transition-colors hover:border-destaque-texto/40`}>
+    <Link to={para} className={`${classe} transition-colors hover:bg-marca-fundo/60`}>
       {conteudo}
     </Link>
   ) : (

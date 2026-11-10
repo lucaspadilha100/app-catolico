@@ -7,7 +7,7 @@ import { ordinal, proximaNovena } from "@/devocao/calendario";
 import { chaveDaNovena, diaSugeridoDaNovena } from "@/devocao/andamento";
 import { alternarFeito, acompanhamentoVigente, guardarAcompanhamento, useDevocoesGuardadas } from "@/devocao/progresso";
 import { carregarNovena } from "@/devocao/conteudo";
-import { TituloPagina } from "@/components/Cartao";
+import { LINHA, LISTA, TituloPagina } from "@/components/Cartao";
 import { Blocos } from "@/components/Blocos";
 import { BotaoRezei, Cabecalho, Carregando, EscolhaDeDia, Indisponivel, Voltar, useConteudo } from "@/components/Devocao";
 import { NaoEncontrada } from "@/pages/Simples";
@@ -29,7 +29,7 @@ function ItemDeNovena({ n }: { n: Novena }) {
   return (
     <Link
       to={`/rezar/novenas/${n.id}`}
-      className="flex min-h-16 items-center gap-3 rounded-xl border border-borda bg-cartao px-4 py-3 transition-colors hover:border-destaque-texto/40"
+      className={`${LINHA} min-h-16`}
     >
       <span className="min-w-0 flex-1">
         <span className="block font-leitura text-[1.05rem] font-medium text-marca">{n.nome}</span>
@@ -54,7 +54,7 @@ export function Novenas() {
     lista.length ? (
       <section>
         <h2 className="mb-2 px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto">{titulo}</h2>
-        <div className="grid grid-cols-1 gap-2 sm:grid-cols-2">
+        <div className={LISTA}>
           {lista.map((n) => (
             <ItemDeNovena key={n.id} n={n} />
           ))}

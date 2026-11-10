@@ -1,4 +1,3 @@
-import type { ReactNode } from "react";
 import { BookHeart, CalendarHeart, Church, HeartHandshake, CircleDot, Cross, Crown, Flame, HandHeart, ListOrdered, Moon, ScrollText, Footprints, Shield, Sprout } from "lucide-react";
 import { useDiaLiturgico } from "@/lib/useDiaLiturgico";
 import { misteriosDoDia } from "@/liturgia/terco";
@@ -6,18 +5,9 @@ import { diaEMes } from "@/liturgia/datas";
 import { emAndamento } from "@/devocao/andamento";
 import { diaDaSemanaSanta, domingoDeRamos, NOMES_DA_SEMANA_SANTA } from "@/devocao/calendario";
 import { diasDeOracaoNaSemana, useDevocoesGuardadas } from "@/devocao/progresso";
-import { ItemLista, TituloPagina } from "@/components/Cartao";
+import { Grupo, ItemLista, TituloPagina } from "@/components/Cartao";
 import { pascoa } from "@/liturgia/calendario";
 import { diferencaEmDias } from "@/liturgia/datas";
-
-function Grupo({ titulo, children }: { titulo: string; children: ReactNode }) {
-  return (
-    <section>
-      <h2 className="mb-2 px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto">{titulo}</h2>
-      <div className="flex flex-col gap-2">{children}</div>
-    </section>
-  );
-}
 
 export default function Rezar() {
   useDevocoesGuardadas();
