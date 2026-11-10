@@ -6,6 +6,7 @@ import { formatarReferencia } from "@/liturgia/lecionario";
 import { MEDITACOES, passosDaMisericordia, passosDeSaoMiguel, passosDoRosario, type Passo } from "@/oracao/terco";
 import { andamentoMaisRecente, guardarAndamento, lerAndamento } from "@/oracao/guardado";
 import { Cartao, TituloPagina } from "@/components/Cartao";
+import { Voltar } from "@/components/Voltar";
 import { InicioDoTerco, TercoGuiado } from "@/components/TercoGuiado";
 
 const ORDEM: GrupoDeMisterios[] = ["gozosos", "luminosos", "dolorosos", "gloriosos"];
@@ -57,6 +58,7 @@ export default function Terco() {
 
   return (
     <div>
+      <Voltar para="/rezar">Rezar</Voltar>
       <TituloPagina>Terço</TituloPagina>
       <InicioDoTerco
         tipo="rosario"
@@ -116,6 +118,7 @@ function TercoSimples({ tipo, titulo, passos }: { tipo: string; titulo: string; 
   const andamento = lerAndamento(tipo);
   return (
     <div>
+      <Voltar para="/rezar">Rezar</Voltar>
       <TituloPagina>{titulo}</TituloPagina>
       <InicioDoTerco
         tipo={tipo}

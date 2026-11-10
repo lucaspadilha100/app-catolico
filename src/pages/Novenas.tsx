@@ -64,7 +64,10 @@ export function Novenas() {
 
   return (
     <div className="flex flex-col gap-6">
-      <TituloPagina>Novenas</TituloPagina>
+      <div>
+        <Voltar para="/rezar">Rezar</Voltar>
+        <TituloPagina>Novenas</TituloPagina>
+      </div>
       <Secao titulo="Agora" lista={agora} />
       <Secao titulo="Em breve" lista={proximas} />
       {GRUPOS.map((g) => (

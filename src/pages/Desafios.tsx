@@ -27,6 +27,7 @@ export function Desafios() {
   );
   return (
     <div>
+      <Voltar para="/rezar">Rezar</Voltar>
       <TituloPagina>Tempos e meses</TituloPagina>
       <div className="flex flex-col gap-2">
         {ordem.map((x) => (

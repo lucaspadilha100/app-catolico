@@ -15,6 +15,7 @@ import {
 } from "@/biblia/progresso";
 import { Cartao, TituloPagina } from "@/components/Cartao";
 import { NaoEncontrada } from "@/pages/Simples";
+import { Voltar } from "@/components/Voltar";
 import { BarraDoVersiculo } from "@/components/AvisarErro";
 
 function Barra({ valor, fina = false }: { valor: number; fina?: boolean }) {
@@ -161,9 +162,7 @@ export function BibliaLivro() {
 
   return (
     <div className="flex flex-col gap-4">
-      <Link to={`/biblia${livro.testamento === "NT" ? "?t=NT" : ""}`} className="inline-flex min-h-10 items-center gap-1 self-start text-sm font-medium text-tinta-suave">
-        <ChevronLeft className="size-4" /> Bíblia
-      </Link>
+      <Voltar para={`/biblia${livro.testamento === "NT" ? "?t=NT" : ""}`}>Bíblia</Voltar>
       <div>
         <TituloPagina>{livro.nome}</TituloPagina>
         <div className="-mt-3 flex items-center gap-3">
@@ -259,9 +258,7 @@ export function BibliaCapitulo() {
 
   return (
     <div>
-      <Link to={`/biblia/${livro.slug}`} className="mb-3 inline-flex min-h-10 items-center gap-1 text-sm font-medium text-tinta-suave">
-        <ChevronLeft className="size-4" /> {livro.nome}
-      </Link>
+      <Voltar para={`/biblia/${livro.slug}`}>{livro.nome}</Voltar>
       <TituloPagina>{titulo}</TituloPagina>
       {emRevisao && <p className="-mt-3 mb-4 text-sm text-tinta-suave">Texto em revisão</p>}
 

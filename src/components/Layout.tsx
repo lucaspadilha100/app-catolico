@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { NavLink, Link, Outlet } from "react-router-dom";
 import { BookOpen, Church, HandHeart, Menu, Sunrise, type LucideIcon } from "lucide-react";
 import { useDiaLiturgico } from "@/lib/useDiaLiturgico";
+import { Rolagem } from "@/components/Rolagem";
 
 interface ItemMenu {
   para: string;
@@ -49,6 +50,7 @@ export default function Layout() {
 
   return (
     <div className="min-h-dvh md:flex">
+      <Rolagem />
       <aside className="sticky top-0 hidden h-dvh w-60 shrink-0 flex-col gap-6 border-r border-borda bg-cartao px-4 py-6 md:flex">
         <Marca className="px-2" />
         <nav className="flex flex-col gap-1">

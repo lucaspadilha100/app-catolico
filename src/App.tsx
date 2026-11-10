@@ -12,7 +12,7 @@ import ViaSacra from "@/pages/ViaSacra";
 import SemanaSanta from "@/pages/SemanaSanta";
 import Oficio from "@/pages/Oficio";
 import Calendario from "@/pages/Calendario";
-import { SantoPagina, Santos } from "@/pages/Santos";
+import { GrupoDeSantos, SantoPagina, Santos, SeuSanto } from "@/pages/Santos";
 import Exame from "@/pages/Exame";
 import { GuiaDaConfissao, GuiaDaMissa } from "@/pages/Guias";
 import Falecidos from "@/pages/Falecidos";
@@ -52,6 +52,8 @@ export default function App() {
         <Route path="biblia/:livro/:capitulo" element={<BibliaCapitulo />} />
         <Route path="calendario" element={<Calendario />} />
         <Route path="santos" element={<Santos />} />
+        <Route path="santos/seu-santo" element={<SeuSanto />} />
+        <Route path="santos/grupo/:grupo" element={<GrupoDeSantos />} />
         <Route path="santos/:id" element={<SantoPagina />} />
         <Route path="missas" element={<Missas />} />
         <Route path="mais" element={<Mais />} />

@@ -1,10 +1,13 @@
-import { useMemo } from "react";
+import { useEffect, useMemo, useState } from "react";
+import { santosDaDataMMDD } from "@/santos/santos";
+import type { Santo } from "@/santos/tipos";
 import { Link, useSearchParams } from "react-router-dom";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { dataPorExtenso, deIso, dia, diaDaSemana, hoje, mesmoDia, paraIso, somaDias } from "@/liturgia/datas";
 import { diaLiturgico, NOME_DA_COR, NOME_DO_GRAU, type CorLiturgica, type DiaLiturgico } from "@/liturgia/calendario";
 import { ehDiaDePreceito, NOME_DA_PENITENCIA, penitenciaDoDia } from "@/liturgia/preceitos";
 import { usePreferencias } from "@/lib/preferencias";
+import { Voltar } from "@/components/Voltar";
 import { Cartao, TituloPagina } from "@/components/Cartao";
 
 const MESES = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
@@ -47,6 +50,17 @@ export default function Calendario() {
   }, [ano, mes, diocese]);
 
   const l = dias[escolhido.getUTCDate() - 1]!;
+  const mmdd = paraIso(l.data).slice(5).replace("-", "");
+  const [santosDoDia, setSantosDoDia] = useState<Santo[]>([]);
+  useEffect(() => {
+    let ativo = true;
+    santosDaDataMMDD(mmdd)
+      .then((x) => ativo && setSantosDoDia(x))
+      .catch(() => {});
+    return () => {
+      ativo = false;
+    };
+  }, [mmdd]);
   const ir = (d: Date) => setParams(mesmoDia(d, h) ? {} : { dia: paraIso(d) }, { replace: true });
   const mesVizinho = (n: number) => ir(dia(mes + n > 12 ? ano + 1 : mes + n < 1 ? ano - 1 : ano, ((mes - 1 + n + 12) % 12) + 1, 1));
   const preceito = ehDiaDePreceito(l);
@@ -55,7 +69,10 @@ export default function Calendario() {
 
   return (
     <div className="flex flex-col gap-5">
-      <TituloPagina>Calendário</TituloPagina>
+      <div>
+        <Voltar para="/mais">Mais</Voltar>
+        <TituloPagina>Calendário</TituloPagina>
+      </div>
 
       <Cartao className="p-3 sm:p-5">
         <div className="mb-3 flex items-center justify-between">
@@ -117,32 +134,39 @@ export default function Calendario() {
           {penitencia && <span className="rounded-full bg-[#64398f] px-3 py-1 text-white">{NOME_DA_PENITENCIA[penitencia]}</span>}
         </div>
         {l.santos.length > 0 && (
-          <ul className="mt-4 flex flex-col gap-1.5">
-            {l.santos.map((s) => (
-              <li key={s.nome} className="flex items-start gap-2">
-                <span className={`mt-2 size-2 shrink-0 rounded-full ${COR_DA_BOLINHA[s.cor]}`} />
-                <span>
-                  {s.nome}
-                  {NOME_DO_GRAU[s.grau] && <span className="text-sm text-tinta-suave"> · {NOME_DO_GRAU[s.grau]}</span>}
-                </span>
-              </li>
-            ))}
+          <ul className="mt-3 flex flex-col divide-y divide-borda">
+            {l.santos.map((s) => {
+              const historia = santosDoDia.find((x) => x.nome === s.nome);
+              const conteudo = (
+                <>
+                  <span className={`mt-2 size-2 shrink-0 rounded-full ${COR_DA_BOLINHA[s.cor]}`} />
+                  <span className="min-w-0 flex-1">
+                    {s.nome}
+                    {NOME_DO_GRAU[s.grau] && <span className="text-sm text-tinta-suave"> · {NOME_DO_GRAU[s.grau]}</span>}
+                  </span>
+                </>
+              );
+              return (
+                <li key={s.nome}>
+                  {historia ? (
+                    <Link to={`/santos/${historia.id}`} className="flex min-h-12 items-start gap-2 py-2.5">
+                      {conteudo}
+                      <ChevronRight className="mt-0.5 size-5 shrink-0 text-tinta-suave" aria-hidden />
+                    </Link>
+                  ) : (
+                    <div className="flex items-start gap-2 py-2.5">{conteudo}</div>
+                  )}
+                </li>
+              );
+            })}
           </ul>
         )}
-        <div className="mt-5 grid grid-cols-1 gap-2 sm:grid-cols-2">
-          <Link
-            to={mesmoDia(l.data, h) ? "/liturgia" : `/liturgia?data=${paraIso(l.data)}`}
-            className="flex min-h-12 items-center justify-center rounded-xl bg-destaque px-4 font-semibold text-sobre-destaque"
-          >
-            Liturgia do dia
-          </Link>
-          <Link
-            to={`/santos?dia=${paraIso(l.data).slice(5).replace("-", "")}`}
-            className="flex min-h-12 items-center justify-center rounded-xl border border-borda bg-papel px-4 font-semibold text-destaque-texto"
-          >
-            Santos do dia
-          </Link>
-        </div>
+        <Link
+          to={mesmoDia(l.data, h) ? "/liturgia" : `/liturgia?data=${paraIso(l.data)}`}
+          className="mt-5 flex min-h-12 items-center justify-center rounded-xl bg-destaque px-4 font-semibold text-sobre-destaque"
+        >
+          Liturgia do dia
+        </Link>
       </Cartao>
 
       {doMes.length > 0 && (

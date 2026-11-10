@@ -8,6 +8,7 @@ import { useLeituras } from "@/lib/useLeituras";
 import { usePreferencias } from "@/lib/preferencias";
 import { Cartao } from "@/components/Cartao";
 import { TextoDaLeitura } from "@/components/TextoBiblico";
+import { Voltar } from "@/components/Voltar";
 import { ReflexaoCompleta, evangelhoDaMissa } from "@/components/Reflexao";
 
 function rotulo(l: Leitura): string {
@@ -65,6 +66,7 @@ export default function Liturgia() {
 
   return (
     <div className="flex flex-col gap-4">
+      <Voltar para="/">Hoje</Voltar>
       <div className="flex items-center justify-between gap-2">
         <Link
           to={navegar(-1)}

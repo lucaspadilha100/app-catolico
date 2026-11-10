@@ -1,6 +1,5 @@
-import { useState } from "react";
-import { Link, Navigate, useParams } from "react-router-dom";
-import { ChevronLeft, ChevronRight, Search } from "lucide-react";
+import { Link, Navigate, useParams, useSearchParams } from "react-router-dom";
+import { ChevronRight, Search } from "lucide-react";
 import { useDiaLiturgico } from "@/lib/useDiaLiturgico";
 import {
   NOME_DO_GRUPO,
@@ -14,6 +13,7 @@ import {
 import { CHAVE_LINGUA, useGuardado, type Lingua } from "@/oracao/guardado";
 import { Cartao, TituloPagina } from "@/components/Cartao";
 import { EscolhaDeLingua, TextoDaOracao, linhasNaLingua } from "@/components/TextoDaOracao";
+import { Voltar } from "@/components/Voltar";
 import { NaoEncontrada } from "@/pages/Simples";
 
 function ItemDeOracao({ o }: { o: Oracao }) {
@@ -33,13 +33,18 @@ function ItemDeOracao({ o }: { o: Oracao }) {
 
 export function Oracoes() {
   const { tempo } = useDiaLiturgico();
-  const [termo, setTermo] = useState("");
+  const [params, setParams] = useSearchParams();
+  const termo = params.get("q") ?? "";
+  const setTermo = (v: string) => setParams(v ? { q: v } : {}, { replace: true });
   const todas = oracoesDoTempo(tempo);
   const achadas = buscarOracoes(todas, termo);
 
   return (
     <div className="flex flex-col gap-5">
-      <TituloPagina>Orações</TituloPagina>
+      <div>
+        <Voltar para="/rezar">Rezar</Voltar>
+        <TituloPagina>Orações</TituloPagina>
+      </div>
 
       <label className="flex min-h-12 items-center gap-2 rounded-xl border border-borda bg-cartao px-3 focus-within:border-destaque-texto">
         <Search className="size-5 shrink-0 text-tinta-suave" aria-hidden />
@@ -89,6 +94,7 @@ export function Ladainhas() {
   const { tempo } = useDiaLiturgico();
   return (
     <div>
+      <Voltar para="/rezar">Rezar</Voltar>
       <TituloPagina>Ladainhas</TituloPagina>
       <div className="flex flex-col gap-2">
         {oracoesDoTempo(tempo)
@@ -114,10 +120,7 @@ export function OracaoPagina() {
 
   return (
     <div className="flex flex-col gap-4">
-      <Link to={voltar.para} className="-ml-1 flex min-h-11 w-fit items-center gap-1 pr-3 font-medium text-tinta-suave">
-        <ChevronLeft className="size-5" aria-hidden />
-        {voltar.nome}
-      </Link>
+      <Voltar para={voltar.para}>{voltar.nome}</Voltar>
 
       <header>
         <h1 className="font-leitura text-3xl font-semibold leading-tight tracking-tight text-marca">{o.nome}</h1>

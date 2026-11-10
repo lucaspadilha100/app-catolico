@@ -1,16 +1,8 @@
 import { useEffect, useState, type ReactNode } from "react";
-import { Link } from "react-router-dom";
-import { Check, ChevronLeft } from "lucide-react";
+import { Check } from "lucide-react";
 import { ordinal } from "@/devocao/calendario";
 
-export function Voltar({ para, children }: { para: string; children: ReactNode }) {
-  return (
-    <Link to={para} className="-ml-1 flex min-h-11 w-fit items-center gap-1 pr-3 font-medium text-tinta-suave">
-      <ChevronLeft className="size-5" aria-hidden />
-      {children}
-    </Link>
-  );
-}
+export { Voltar } from "@/components/Voltar";
 
 export function Cabecalho({ titulo, subtitulo }: { titulo: string; subtitulo?: string }) {
   return (

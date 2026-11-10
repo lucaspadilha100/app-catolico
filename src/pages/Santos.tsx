@@ -1,18 +1,36 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link, useParams, useSearchParams } from "react-router-dom";
-import { ChevronRight, Heart, Search } from "lucide-react";
+import { ChevronRight, Heart, Search, UserRound } from "lucide-react";
 import { diaEMes, dia, hoje, paraIso } from "@/liturgia/datas";
 import { NOVENAS } from "@/devocao/catalogo";
-import { NOME_DO_GRUPO, buscarSantos, nomeParaOrdenar, caminhoDaImagem, santosDoNome, seloDoSanto, todosOsSantos, useSantosDeDevocao } from "@/santos/santos";
+import {
+  NOME_DO_GRUPO,
+  buscarSantos,
+  caminhoDaImagem,
+  nomeParaOrdenar,
+  santosDoNome,
+  seloDoSanto,
+  todosOsSantos,
+  useSantosDeDevocao,
+} from "@/santos/santos";
 import type { Santo } from "@/santos/tipos";
 import { Cartao, TituloPagina } from "@/components/Cartao";
-import { Carregando, Indisponivel, Voltar, useConteudo } from "@/components/Devocao";
+import { Cabecalho, Carregando, Indisponivel, Voltar, useConteudo } from "@/components/Devocao";
 import { NaoEncontrada } from "@/pages/Simples";
 
+const MESES = ["Jan", "Fev", "Mar", "Abr", "Mai", "Jun", "Jul", "Ago", "Set", "Out", "Nov", "Dez"];
 const mmddDe = (d: Date) => paraIso(d).slice(5).replace("-", "");
 const dataDoSanto = (mmdd: string) => diaEMes(dia(2028, Number(mmdd.slice(0, 2)), Number(mmdd.slice(2))));
+const porNome = (a: Santo, b: Santo) => nomeParaOrdenar(a.nome).localeCompare(nomeParaOrdenar(b.nome), "pt-BR");
+const porData = (a: Santo, b: Santo) => a.data.localeCompare(b.data) || porNome(a, b);
 
-function ItemDeSanto({ s }: { s: Santo }) {
+export const useTodosOsSantos = () => useConteudo(todosOsSantos, "todos-os-santos");
+
+export function linhaDoSanto(s: Santo): string {
+  return [seloDoSanto(s), s.dataDe === "falecimento" ? `faleceu em ${dataDoSanto(s.data)}` : dataDoSanto(s.data), s.pais].filter(Boolean).join(" · ");
+}
+
+export function ItemDeSanto({ s }: { s: Santo }) {
   const img = caminhoDaImagem(s);
   return (
     <Link
@@ -26,20 +44,18 @@ function ItemDeSanto({ s }: { s: Santo }) {
       )}
       <span className="min-w-0 flex-1">
         <span className="block font-leitura text-[1.05rem] font-medium leading-snug text-marca">{s.nome}</span>
-        <span className="block text-sm text-tinta-suave">
-          {[seloDoSanto(s), s.dataDe === "falecimento" ? `faleceu em ${dataDoSanto(s.data)}` : dataDoSanto(s.data), s.pais].filter(Boolean).join(" · ")}
-        </span>
+        <span className="block text-sm text-tinta-suave">{linhaDoSanto(s)}</span>
       </span>
       <ChevronRight className="size-5 shrink-0 text-tinta-suave" aria-hidden />
     </Link>
   );
 }
 
-function Lista({ titulo, santos }: { titulo: string; santos: Santo[] }) {
+function Lista({ titulo, santos }: { titulo?: string; santos: Santo[] }) {
   if (!santos.length) return null;
   return (
     <section>
-      <h2 className="mb-2 px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto">{titulo}</h2>
+      {titulo && <h2 className="mb-2 px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto">{titulo}</h2>}
       <div className="grid grid-cols-1 gap-2 sm:grid-cols-2">
         {santos.map((s) => (
           <ItemDeSanto key={s.id} s={s} />
@@ -49,98 +65,43 @@ function Lista({ titulo, santos }: { titulo: string; santos: Santo[] }) {
   );
 }
 
-function SeuSanto({ todos }: { todos: Santo[] }) {
+function useParametro(chave: string): [string, (v: string) => void] {
   const [params, setParams] = useSearchParams();
-  const nome = params.get("nome") ?? "";
-  const nascimento = params.get("nascimento") ?? "";
-  const [d, m] = nascimento.split("/").map(Number);
-  const doNome = useMemo(() => santosDoNome(todos, nome), [todos, nome]);
-  const doDia = d && m ? todos.filter((s) => s.data === `${String(m).padStart(2, "0")}${String(d).padStart(2, "0")}`) : [];
-  const mudar = (chave: string, valor: string) => {
+  const valor = params.get(chave) ?? "";
+  const mudar = (v: string) => {
     const p = new URLSearchParams(params);
-    if (valor) p.set(chave, valor);
+    if (v) p.set(chave, v);
     else p.delete(chave);
     setParams(p, { replace: true });
   };
-
-  return (
-    <Cartao>
-      <h2 className="font-leitura text-xl font-semibold text-marca">Seu santo</h2>
-      <div className="mt-3 grid grid-cols-1 gap-3 sm:grid-cols-2">
-        <label className="flex flex-col gap-1">
-          <span className="text-sm font-medium text-tinta-suave">Seu nome</span>
-          <input
-            value={nome}
-            onChange={(e) => mudar("nome", e.target.value)}
-            autoComplete="given-name"
-            className="min-h-12 rounded-xl border border-borda bg-papel px-3 text-base"
-          />
-        </label>
-        <label className="flex flex-col gap-1">
-          <span className="text-sm font-medium text-tinta-suave">Dia em que nasceu</span>
-          <input
-            value={nascimento}
-            onChange={(e) => mudar("nascimento", e.target.value.replace(/[^\d/]/g, "").slice(0, 5))}
-            placeholder="dd/mm"
-            inputMode="numeric"
-            className="min-h-12 rounded-xl border border-borda bg-papel px-3 text-base"
-          />
-        </label>
-      </div>
-      {(doNome.length > 0 || doDia.length > 0) && (
-        <div className="mt-4 flex flex-col gap-4">
-          <Lista titulo="Do seu nome" santos={doNome} />
-          <Lista titulo="Do dia do seu nascimento" santos={doDia} />
-        </div>
-      )}
-      {nome.trim().length > 2 && !doNome.length && <p className="mt-3 text-tinta-suave">Nenhum santo com esse nome no calendário.</p>}
-    </Cartao>
-  );
+  return [valor, mudar];
 }
 
-function Grupos({ todos }: { todos: Santo[] }) {
-  const [params, setParams] = useSearchParams();
-  const grupo = params.get("grupo");
-  const grupos = Object.keys(NOME_DO_GRUPO).filter((g) => todos.some((s) => s.grupo === g));
-  const escolher = (g: string) => {
-    const p = new URLSearchParams(params);
-    if (g === grupo) p.delete("grupo");
-    else p.set("grupo", g);
-    setParams(p, { replace: true });
-  };
-  const lista = grupo ? todos.filter((s) => s.grupo === grupo).sort((a, b) => nomeParaOrdenar(a.nome).localeCompare(nomeParaOrdenar(b.nome), "pt-BR")) : [];
+function ItemDeAtalho({ para, titulo, contagem, icone }: { para: string; titulo: string; contagem?: number; icone?: "pessoa" }) {
   return (
-    <section className="flex flex-col gap-3">
-      <h2 className="px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto">Conhecer</h2>
-      <div className="flex flex-wrap gap-2">
-        {grupos.map((g) => (
-          <button
-            key={g}
-            type="button"
-            aria-pressed={g === grupo}
-            onClick={() => escolher(g)}
-            className={`min-h-10 rounded-full border px-4 text-sm font-medium ${g === grupo ? "border-transparent bg-destaque text-sobre-destaque" : "border-borda bg-cartao text-tinta"}`}
-          >
-            {NOME_DO_GRUPO[g]}
-          </button>
-        ))}
-      </div>
-      {lista.length > 0 && <Lista titulo={`${NOME_DO_GRUPO[grupo!]} (${lista.length})`} santos={lista} />}
-    </section>
+    <Link to={para} className="flex min-h-14 items-center gap-3 rounded-xl border border-borda bg-cartao px-4 py-3 transition-colors hover:border-destaque-texto/40">
+      {icone === "pessoa" && <UserRound className="size-5 shrink-0 text-destaque-texto" aria-hidden />}
+      <span className="min-w-0 flex-1 font-medium text-tinta">{titulo}</span>
+      {contagem !== undefined && <span className="text-sm text-tinta-suave">{contagem}</span>}
+      <ChevronRight className="size-5 shrink-0 text-tinta-suave" aria-hidden />
+    </Link>
   );
 }
 
 export function Santos() {
-  const todos = useConteudo(todosOsSantos, "todos-os-santos");
-  const [params] = useSearchParams();
-  const [termo, setTermo] = useState("");
+  const todos = useTodosOsSantos();
+  const [termo, setTermo] = useParametro("q");
   const [devocao] = useSantosDeDevocao();
+  const [params] = useSearchParams();
   const pedido = params.get("dia");
   const mmdd = pedido && /^\d{4}$/.test(pedido) ? pedido : mmddDe(hoje());
 
   return (
     <div className="flex flex-col gap-5">
-      <TituloPagina>Santos</TituloPagina>
+      <div>
+        <Voltar para="/mais">Mais</Voltar>
+        <TituloPagina>Santos</TituloPagina>
+      </div>
       <label className="flex min-h-12 items-center gap-2 rounded-xl border border-borda bg-cartao px-3 focus-within:border-destaque-texto">
         <Search className="size-5 shrink-0 text-tinta-suave" aria-hidden />
         <input
@@ -161,23 +122,111 @@ export function Santos() {
       ) : termo.trim() ? (
         (() => {
           const achados = buscarSantos(todos, termo);
-          return achados.length ? <Lista titulo="Resultado" santos={achados} /> : <p className="py-8 text-center text-tinta-suave">Nenhum santo encontrado.</p>;
+          return achados.length ? <Lista titulo={`Resultado (${achados.length})`} santos={achados} /> : <p className="py-8 text-center text-tinta-suave">Nenhum santo encontrado.</p>;
         })()
       ) : (
         <>
-          <Lista titulo={pedido ? `Santos de ${dataDoSanto(mmdd)}` : "Santos de hoje"} santos={todos.filter((s) => s.data === mmdd)} />
-          <Lista titulo="Meus santos" santos={todos.filter((s) => devocao.includes(s.id))} />
-          <Grupos todos={todos} />
-          <SeuSanto todos={todos} />
+          <Lista titulo={pedido ? `Santos de ${dataDoSanto(mmdd)}` : "Santos de hoje"} santos={todos.filter((s) => s.data === mmdd).sort((a, b) => Number(b.calendario) - Number(a.calendario))} />
+          <ItemDeAtalho para="/santos/seu-santo" titulo="Seu santo" icone="pessoa" />
+          <Lista titulo="Meus santos" santos={todos.filter((s) => devocao.includes(s.id)).sort(porNome)} />
+          <section className="flex flex-col gap-2">
+            <h2 className="px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto">Conhecer</h2>
+            <div className="grid grid-cols-1 gap-2 sm:grid-cols-2">
+            {Object.keys(NOME_DO_GRUPO)
+              .filter((g) => todos.some((s) => s.grupo === g))
+              .map((g) => (
+                <ItemDeAtalho key={g} para={`/santos/grupo/${g}`} titulo={NOME_DO_GRUPO[g]!} contagem={todos.filter((s) => s.grupo === g).length} />
+              ))}
+            </div>
+          </section>
         </>
       )}
     </div>
   );
 }
 
+export function SeuSanto() {
+  const todos = useTodosOsSantos();
+  const [nome, setNome] = useParametro("nome");
+  const [nascimento, setNascimento] = useParametro("nascimento");
+  const [d, m] = nascimento.split("/").map(Number);
+  const lista = todos && todos !== "erro" ? todos : [];
+  const doNome = useMemo(() => santosDoNome(lista, nome).sort(porNome), [lista, nome]);
+  const doDia = d && m ? lista.filter((s) => s.data === `${String(m).padStart(2, "0")}${String(d).padStart(2, "0")}`) : [];
+
+  return (
+    <div className="flex flex-col gap-5">
+      <Voltar para="/santos">Santos</Voltar>
+      <Cabecalho titulo="Seu santo" />
+      <Cartao>
+        <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+          <label className="flex flex-col gap-1">
+            <span className="text-sm font-medium text-tinta-suave">Seu nome</span>
+            <input value={nome} onChange={(e) => setNome(e.target.value)} autoComplete="given-name" className="min-h-12 rounded-xl border border-borda bg-papel px-3 text-base" />
+          </label>
+          <label className="flex flex-col gap-1">
+            <span className="text-sm font-medium text-tinta-suave">Dia em que nasceu</span>
+            <input
+              value={nascimento}
+              onChange={(e) => {
+                const so = e.target.value.replace(/\D/g, "").slice(0, 4);
+                setNascimento(so.length > 2 ? `${so.slice(0, 2)}/${so.slice(2)}` : so);
+              }}
+              placeholder="dd/mm"
+              inputMode="numeric"
+              className="min-h-12 rounded-xl border border-borda bg-papel px-3 text-base"
+            />
+          </label>
+        </div>
+      </Cartao>
+      {todos === null && <Carregando />}
+      <Lista titulo="Do seu nome" santos={doNome} />
+      <Lista titulo="Do dia em que você nasceu" santos={doDia} />
+      {nome.trim().length > 2 && todos && todos !== "erro" && !doNome.length && <p className="text-tinta-suave">Nenhum santo com esse nome.</p>}
+    </div>
+  );
+}
+
+export function GrupoDeSantos() {
+  const { grupo = "" } = useParams();
+  const todos = useTodosOsSantos();
+  const [mes, setMes] = useParametro("mes");
+  if (!NOME_DO_GRUPO[grupo]) return <NaoEncontrada />;
+  const doGrupo = todos && todos !== "erro" ? todos.filter((s) => s.grupo === grupo) : [];
+  const calendario = grupo === "calendario";
+  const mesAtual = mes && /^(0[1-9]|1[0-2])$/.test(mes) ? mes : paraIso(hoje()).slice(5, 7);
+  const lista = calendario ? doGrupo.filter((s) => s.data.startsWith(mesAtual)).sort(porData) : doGrupo.sort(porNome);
+
+  return (
+    <div className="flex flex-col gap-5">
+      <Voltar para="/santos">Santos</Voltar>
+      <Cabecalho titulo={NOME_DO_GRUPO[grupo]!} subtitulo={doGrupo.length ? `${doGrupo.length}` : undefined} />
+      {calendario && (
+        <div className="grid grid-cols-6 gap-1.5" role="group" aria-label="Mês">
+          {MESES.map((nome, i) => {
+            const v = String(i + 1).padStart(2, "0");
+            return (
+              <button
+                key={v}
+                type="button"
+                aria-pressed={v === mesAtual}
+                onClick={() => setMes(v)}
+                className={`min-h-10 rounded-lg border text-sm font-medium ${v === mesAtual ? "border-transparent bg-destaque text-sobre-destaque" : "border-borda bg-cartao text-tinta"}`}
+              >
+                {nome}
+              </button>
+            );
+          })}
+        </div>
+      )}
+      {todos === null ? <Carregando /> : todos === "erro" ? <Indisponivel /> : <Lista santos={lista} />}
+    </div>
+  );
+}
+
 export function SantoPagina() {
   const { id = "" } = useParams();
-  const todos = useConteudo(todosOsSantos, "todos-os-santos");
+  const todos = useTodosOsSantos();
   const [devocao, alternar] = useSantosDeDevocao();
   const [imagemFalhou, setImagemFalhou] = useState(false);
   useEffect(() => setImagemFalhou(false), [id]);
@@ -204,7 +253,7 @@ export function SantoPagina() {
       )}
       <header>
         <p className="text-sm font-medium text-tinta-suave">
-          {[seloDoSanto(s), s.dataDe === "falecimento" ? `Faleceu em ${dataDoSanto(s.data)}` : dataDoSanto(s.data), s.pais].filter(Boolean).join(" · ")}
+          {linhaDoSanto(s)}
         </p>
         <h1 className="mt-1 font-leitura text-3xl font-semibold leading-tight tracking-tight text-marca">{s.nome}</h1>
         <p className="mt-2 text-tinta-suave">{s.resumo}</p>
