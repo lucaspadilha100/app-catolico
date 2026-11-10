@@ -13,3 +13,5 @@ Is 38,15: "Repassei" no passado, como no Figueiredo (a Vulgata tem futuro, "reco
 Is 39,2: "das melhores confeições" ficou "dos melhores unguentos" (Vulgata "unguenti optimi"); "gabinetes das suas alfaias" ficou "armazéns dos seus objetos".
 Is 40,9: "tu que anuncias o Evangelho a Sião/Jerusalém" mantido como no Figueiredo (Vulgata "qui evangelizas"); o dono decide se prefere "a boa-nova".
 Is 40,19: OCR "a está tua" lido "a estátua".
+Is 41,14: "ó bichinho de Jacó" ficou "verme de Jacó" (Vulgata "vermis"; "bichinho" hoje soa carinhoso).
+Is 41,27: "eu darei a Jerusalém um evangelista" mantido como no Figueiredo (Vulgata "evangelistam").
