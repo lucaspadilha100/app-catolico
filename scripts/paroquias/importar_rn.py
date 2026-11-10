@@ -21,10 +21,19 @@ def sem_acento(t):
     return "".join(c for c in unicodedata.normalize("NFD", t or "") if unicodedata.category(c) != "Mn").lower()
 
 
-def chave(nome, cidade):
+def base(nome):
     n = sem_acento(re.sub(r"\(.*?\)", "", nome))
-    n = re.sub(r"\b(paroquia|capela|igreja|matriz|comunidade|santuario|de|da|do|das|dos|e)\b", " ", n)
-    return sem_acento(cidade) + "|" + " ".join(n.split())
+    return " ".join(re.sub(r"[^a-z0-9 ]", " ", n).split())
+
+
+def chave(nome, cidade, bairro="", tipo=""):
+    classe = "matriz" if tipo in MATRIZES else "outra"
+    return "|".join([sem_acento(cidade), base(nome), " ".join(sem_acento(bairro).split()), classe])
+
+
+def chave_existente(nome, cidade, tipo):
+    classe = "matriz" if tipo in MATRIZES or tipo == "" else "outra"
+    return "|".join([sem_acento(cidade), base(nome), classe])
 
 
 def sql(v):
@@ -80,7 +89,7 @@ def fonte_de(r):
 
 
 def main():
-    existentes = {chave(p["nome"], p["cidade"]) for p in json.loads((RAIZ / "fontes/paroquias/ja-no-app-2026-11-12.json").read_text())}
+    existentes = {chave_existente(p["nome"], p["cidade"], p.get("tipo", "")) for p in json.loads((RAIZ / "fontes/paroquias/ja-no-app-2026-11-12.json").read_text())}
     vistos = set()
     linhas = []
     notas = []
@@ -97,13 +106,13 @@ def main():
                 completo = f"{nome} ({paroquia})"
                 if len(completo) <= 160:
                     nome = completo
-            k = chave(nome, cidade)
-            if k in existentes or k in vistos:
+            bairro = limpar(r.get("bairro"), 120)
+            k = chave(nome, cidade, bairro, tipo) + "|" + base(paroquia) + "|" + (f"{round(r['lat'], 3)},{round(r['lng'], 3)}" if r.get("lat") is not None and r.get("lng") is not None else "")
+            if chave_existente(nome, cidade, tipo) in existentes or k in vistos:
                 continue
             vistos.add(k)
             pid = str(uuid.uuid5(ESPACO, "rn|" + k))
             endereco = limpar(r.get("endereco"), 240)
-            bairro = limpar(r.get("bairro"), 120)
             lat, lng = r.get("lat"), r.get("lng")
             aproximado = False
             if lat is None or lng is None:

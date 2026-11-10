@@ -191,7 +191,13 @@ describe("dados de Natal (planilha do Missas.com.br)", () => {
     const fora = await c("anon", null, "select cidade from public.paroquias where nome = 'Paróquia de Nossa Senhora da Penha'");
     expect(fora.rows[0]).toEqual({ cidade: "Monte Alegre" });
     const notas = await banco.query("select count(*)::int as n from public.notas_paroquia");
-    expect(notas.rows[0]).toEqual({ n: 59 });
+    expect(notas.rows[0]).toEqual({ n: 794 });
+    const rn = await c("anon", null, "select count(*)::int as igrejas, count(distinct cidade)::int as cidades from public.paroquias where uf = 'RN'");
+    expect(rn.rows[0]).toEqual({ igrejas: 794, cidades: 165 });
+    const caico = await c("anon", null, "select count(*)::int as n from public.buscar_paroquias('catedral sant ana caico')");
+    expect(Number(caico.rows[0]!.n)).toBeGreaterThan(0);
+    const corrigidas = await c("anon", null, "select cidade from public.paroquias where nome like 'Área Pastoral de Nossa Senhora d%' order by nome");
+    expect(corrigidas.rows).toEqual([{ cidade: "Ceará-Mirim" }, { cidade: "Rio do Fogo" }]);
     await expect(c("anon", null, "select * from public.notas_paroquia")).rejects.toThrow();
     const h = await c("anon", null, "select tipo, count(*)::int as n from public.horarios group by tipo order by tipo");
     expect(h.rows).toEqual([
