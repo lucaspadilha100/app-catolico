@@ -157,7 +157,13 @@ Nada de licença paga por ora. Então:
 - Revisado mora em `fontes/biblia/revisao/<LIVRO>/<cap>.json` (lista de
   versículos); `node scripts/conferir-capitulo.mjs <LIVRO> <cap>` confere. O
   gerador usa o capítulo revisado quando existe; livro inteiro revisado vira
-  `revisado`. Evangelhos prontos em 10/11/2026.
+  `revisado`. Os 73 livros revisados e conferidos em 10-11/11/2026.
+- ⚠️ **Toda mudança no texto da Bíblia passa pelas três réguas** (pedido do dono:
+  "a Bíblia tem que estar perfeita"): `node scripts/biblia/lado-a-lado.mjs <LIVRO> <cap>`
+  mostra revisado, Figueiredo, Vulgata, Douay-Rheims e original; decide-se pelas
+  regras do guia, e o caso vai para `fontes/biblia/revisao/conferencia/`.
+  Texto restaurado inteiro em `restaurados.json`; versículo que a edição não
+  imprimiu em `acrescentados.json`; nota de rodapé tirada em `notas-removidas.json`.
 - Cada livro sai como `public/biblia/f1/<LIVRO>.<hash>.json` (nome em
   `estado.json`): texto mudou, nome muda, e o aparelho baixa só esse livro.
 - ⚠️ Livro revisado segue a ORDEM e a divisão de versículos das Bíblias

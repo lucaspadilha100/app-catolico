@@ -28,6 +28,14 @@
   edição de 1950 não são usados.
 - **Ortografia atual**: conferida com o dicionário pt-BR do projeto VERO
   (pacote dictionary-pt, LGPL/MPL), usado só na montagem.
+- **Revisão em linguagem atual**: feita a partir do Figueiredo, versículo a
+  versículo, e conferida com três fontes, usadas só como régua (não aparecem
+  no app): Vulgata Clementina (Clementine Vulgate Project, domínio público);
+  Douay-Rheims, revisão de Challoner (domínio público, via
+  github.com/scrollmapper/bible_databases); textos originais: Westminster
+  Leningrad Codex (Open Scriptures Hebrew Bible), Septuaginta de Swete
+  (base LXX-Swete-1930, de eliranwong) e Byzantine Textform 2013
+  (Robinson-Pierpont), todos de texto em domínio público.
 
 ## Fontes de texto
 - Inter e Literata, licença SIL Open Font License 1.1.

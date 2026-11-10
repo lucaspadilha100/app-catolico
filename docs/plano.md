@@ -56,10 +56,17 @@ Legenda: ✅ pronto · 🔨 em andamento · ⬜ a fazer · 👤 precisa do dono
   Bíblias católicas do Brasil); dúvidas em `fontes/biblia/revisao/PSA-notas.md`
 - ✅ Evangelhos na ordem e divisão de versículos atuais (Mt 5,4-5 e outros 8 casos)
 - ✅ Teste de integridade: numeração e toda leitura da liturgia de 2024 a 2035
-- 🔨 Recuperar versículos perdidos na extração dos PDFs (`fontes/biblia/faltando.txt`)
-- ⬜ Revisão em linguagem atual: resto do Novo Testamento → Antigo Testamento
-- ⬜ Corrigir as pendências (versículos grudados, OCR)
-- ⬜ 👤 Leitura dos Evangelhos e Salmos revisados
+- ✅ Versículos perdidos na extração dos PDFs recuperados (de 1.245 para 3,
+  que a própria edição de 1950 junta ou omite)
+- ✅ Revisão em linguagem atual dos 73 livros
+- ✅ Conferência de fidelidade de TODOS os versículos com três fontes
+  (Vulgata, Douay-Rheims e original hebraico/grego), decidida pelas fontes
+  (decisão do dono); registro em `docs/biblia/decisoes.md` e
+  `fontes/biblia/revisao/conferencia/`
+- ✅ Botão "Avisar erro" no versículo
+- 🔨 Passada final de nomes próprios (mesma grafia na Bíblia toda)
+- ⬜ 👤 Leitura dos Evangelhos e Salmos revisados (e, se possível, um padre ou
+  catequista da paróquia)
 - ⬜ Introdução curta dos 73 livros
 - ⬜ Busca no texto, marcações e notas, planos de leitura
 
