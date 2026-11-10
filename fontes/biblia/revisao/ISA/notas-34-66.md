@@ -29,3 +29,7 @@ Is 45: a edição de 1950 tem 26 versículos (a Vulgata, 25): o 23 da Vulgata ve
 Is 45,1: "a Ciro, o meu Cristo" mantido como no Figueiredo (Vulgata "christo meo"); o dono decide se prefere "o meu ungido".
 Is 45,4: "Eu te assemelhei" mantido (Vulgata "assimilavi te"); frase obscura.
 Is 45,14: "te adorarão" ficou "prostrar-se-ão diante de ti" (termo fixo: reverência a quem não é Deus).
+Is 46,3: a fonte diz "vós com quem anelo no meu seio" (OCR estragado); pela Vulgata ("qui portamini a meo utero") ficou "vós a quem levo no meu seio". Conferir no PDF.
+Is 46,4: a fonte diz "até à velhice e até me virem as cãs" (as cãs seriam de Deus); a Vulgata ("usque ad senectam ego ipse, et usque ad canos ego portabo") e a Douay-Rheims ("to your grey hairs") falam da velhice do povo; ficou "até a velhice e até os cabelos brancos", sem o "me". Conferir no PDF.
+Is 47,2: OCR "Amla com a mó, e 11101 a farinha" lido pela Vulgata ("Tolle molam, et mole farinam") como "Toma a mó e mói a farinha". "levanta o teu vestido" mantido (Vulgata "revela crura").
+Is 47,6: "arrojei de mim como proterva a minha herança" mantido no sentido do Figueiredo (Vulgata "contaminavi hæreditatem meam", profanei a minha herança); escolha de tradução, não erro evidente.

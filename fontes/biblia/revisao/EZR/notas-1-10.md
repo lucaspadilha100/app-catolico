@@ -9,6 +9,7 @@ Esd 2,48: Figueiredo: "Vecoda" | Vulgata: "Necoda" | Douay-Rheims: "Necoda" | de
 Esd 2,51: Figueiredo: "Hatur" | Vulgata: "Harhur" | Douay-Rheims: "Harhur" | decidido: "Harhur" (hebraico Harhur).
 Esd 2,53: Figueiredo: "Berços" | Vulgata: "Bercos" | Douay-Rheims: "Bercos" | decidido: "Bercos" (cedilha do OCR).
 Esd 2,55: Figueiredo: "Solai" | Vulgata: "Sotai" | Douay-Rheims: "Sotai" | decidido: "Sotai" (OCR).
+Esd 2,5: "Areia" do Figueiredo vertido "Area" (Vulgata "Area"), para não ser lido como a palavra comum; o mesmo em Ne 6,18 e 7,10.
 Esd 2,49: "Facéia" do Figueiredo mantido como "Faceia" (Vulgata "Phasea"); conferir se o dono prefere "Faseia".
 Esd 2,63: "Santo dos Santos" (Vulgata "de Sancto sanctorum", as coisas santíssimas) vertido "das coisas santíssimas", que é o sentido de comer delas.
 Esd 3,7: Figueiredo: "aos lírios" | Vulgata: "Tyriisque" | Douay-Rheims: "Tyrians" | decidido: "aos tírios" (OCR).
@@ -18,7 +19,7 @@ Esd 5,1: Figueiredo: "profetaram" | Vulgata: "Prophetaverunt" | decidido: "profe
 Esd 5,8: "se estão pondo os sobrados sôbre as paredes" vertido "já se põe o madeiramento sobre as paredes" (Vulgata "ligna ponuntur in parietibus", DR "timber is laid in the walls").
 Esd 6,11: "se arranque um pau de sua casa" vertido "arranque-se uma viga da sua casa" (Vulgata "lignum", DR "a beam").
 Esd 7,23: Figueiredo: "sede pontualmente na casa do Deus do Céu" | Vulgata: "tribuatur diligenter in domo Dei cæli" | Douay-Rheims: "let it be given diligently" | decidido: "dê-se com pontualidade" (OCR de "se dê").
-Esd 8,2: Figueiredo: "Harto" | Vulgata: "Hattus" | Douay-Rheims: "Hattus" | decidido: "Hatus" (OCR).
+Esd 8,2: Figueiredo: "Harto" | Vulgata: "Hattus" | Douay-Rheims: "Hattus" | decidido: "Hato" (OCR; "Hato" é a forma que o Figueiredo usa para o mesmo nome em Ne 3,10; 10,4; 12,2).
 Esd 8,15: resto de impressão "(4 5 )" e "1 *" retirados; nada falta pelo latim.
 Esd 8,28: "Vós sois os Santos do Senhor" vertido "Vós sois consagrados ao Senhor" (Vulgata "Vos sancti Domini"); conferir se o dono prefere o literal "Vós sois santos do Senhor".
 Esd 10,30: Figueiredo: "Calai" | Vulgata: "Chalal" | Douay-Rheims: "Chalal" | decidido: "Calal" (OCR).
