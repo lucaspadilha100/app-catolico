@@ -1,7 +1,12 @@
 import { NOVENAS } from "@/devocao/catalogo";
 import { diaSugeridoDaNovena } from "@/devocao/andamento";
 import { hoje, paraIso } from "@/liturgia/datas";
-import type { Lembretes, NovenaLembrada } from "../../supabase/functions/lembretes/regras";
+import { minutosDe, type Lembretes, type NovenaLembrada } from "../../supabase/functions/lembretes/regras";
+import { ehNativo } from "@/lib/nativo";
+import { diaLiturgico } from "@/liturgia/calendario";
+import { carregarLecionario, leiturasDoDia } from "@/liturgia/lecionario";
+import { MISTERIOS, grupoDoDiaDaSemana } from "@/liturgia/terco";
+import { somaDias } from "@/liturgia/datas";
 
 export type { Lembretes };
 
@@ -38,8 +43,76 @@ export const instalado = () =>
 export const ehIphone = () => /iPhone|iPad|iPod/.test(navigator.userAgent) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
 
 export function suportado(): boolean {
+  if (ehNativo()) return true;
   return typeof window !== "undefined" && "serviceWorker" in navigator && "PushManager" in window && "Notification" in window;
 }
+
+export function permitido(): boolean {
+  if (ehNativo()) return true;
+  return suportado() && Notification.permission === "granted";
+}
+
+const dioceseEscolhida = () => {
+  try {
+    return (JSON.parse(localStorage.getItem("santinho-preferencias") ?? "{}") as { diocese?: string }).diocese ?? "";
+  } catch {
+    return "";
+  }
+};
+
+async function agendarNoAparelho(l: Lembretes): Promise<"ativo" | "negado" | "erro"> {
+  try {
+    const { LocalNotifications } = await import("@capacitor/local-notifications");
+    const permissao = await LocalNotifications.requestPermissions();
+    if (permissao.display !== "granted") return "negado";
+    const pendentes = await LocalNotifications.getPending();
+    if (pendentes.notifications.length) await LocalNotifications.cancel({ notifications: pendentes.notifications.map((n) => ({ id: n.id })) });
+    const agora = Date.now();
+    const lista: { id: number; title: string; body: string; schedule: Record<string, unknown>; extra: { url: string } }[] = [];
+    const quando = (iso: string, minutos: number) => {
+      const [a, m, d] = iso.split("-").map(Number);
+      return new Date(a!, m! - 1, d!, Math.floor(minutos / 60), minutos % 60);
+    };
+    const hojeLocal = new Date().toLocaleDateString("sv-SE");
+    const ev = minutosDe(l.evangelho);
+    if (ev !== null) {
+      const lecionario = await carregarLecionario();
+      const base = hoje();
+      for (let k = 0; k < 30; k++) {
+        const d = somaDias(base, k);
+        const iso = paraIso(d);
+        const at = quando(iso, ev);
+        if (at.getTime() <= agora) continue;
+        const referencia = leiturasDoDia(diaLiturgico(d, dioceseEscolhida()), lecionario)[0]?.leituras.find((x) => x.tipo === "evangelho")?.referencia;
+        lista.push({ id: 1000 + k, title: "Evangelho do dia", body: referencia ? `${referencia}. Leia e reze com a liturgia de hoje.` : "Leia e reze com a liturgia de hoje.", schedule: { at, allowWhileIdle: true }, extra: { url: `/liturgia/${iso}` } });
+      }
+    }
+    if (l.angelus) lista.push({ id: 2000, title: "Ângelus", body: "O Anjo do Senhor anunciou a Maria.", schedule: { on: { hour: 12, minute: 0 }, allowWhileIdle: true }, extra: { url: "/rezar/oracoes/angelus" } });
+    const te = minutosDe(l.terco);
+    if (te !== null)
+      for (let dia = 0; dia < 7; dia++)
+        lista.push({ id: 3000 + dia, title: "Hora do terço", body: `Hoje: ${MISTERIOS[grupoDoDiaDaSemana(dia)].nome}.`, schedule: { on: { weekday: dia + 1, hour: Math.floor(te / 60), minute: te % 60 }, allowWhileIdle: true }, extra: { url: "/rezar/terco" } });
+    const no = minutosDe(l.novena);
+    if (no !== null)
+      novenasSeguidas().forEach((n, i) => {
+        for (let dia = 1; dia <= n.dias; dia++) {
+          const iso = paraIso(somaDias(deIsoLocal(n.inicio), dia - 1));
+          const at = quando(iso, no);
+          if (at.getTime() <= agora || iso < hojeLocal) continue;
+          lista.push({ id: 4000 + i * 40 + dia, title: n.titulo, body: `Dia ${dia} de ${n.dias}.`, schedule: { at, allowWhileIdle: true }, extra: { url: n.para } });
+        }
+      });
+    if (lista.length) await LocalNotifications.schedule({ notifications: lista.slice(0, 60) });
+    return "ativo";
+  } catch {
+    return "erro";
+  }
+}
+
+const deIsoLocal = (iso: string) => {
+  const [a, m, d] = iso.split("-").map(Number);
+  return new Date(Date.UTC(a!, m! - 1, d!));
+};
 
 function chaveEmBytes(base64: string): Uint8Array<ArrayBuffer> {
   const b = atob((base64 + "=".repeat((4 - (base64.length % 4)) % 4)).replace(/-/g, "+").replace(/_/g, "/"));
@@ -86,6 +159,11 @@ async function enviar(sub: PushSubscription, lembretes: Lembretes) {
 }
 
 export async function ativar(lembretes: Lembretes): Promise<"ativo" | "negado" | "erro"> {
+  if (ehNativo()) {
+    const r = await agendarNoAparelho(lembretes);
+    if (r === "ativo") guardar({ ativo: true, lembretes, enviadoEm: paraIso(hoje()) });
+    return r;
+  }
   if (!suportado()) return "erro";
   const permissao = await Notification.requestPermission();
   if (permissao !== "granted") return "negado";
@@ -101,6 +179,11 @@ export async function ativar(lembretes: Lembretes): Promise<"ativo" | "negado" |
 }
 
 export async function atualizar(lembretes: Lembretes): Promise<boolean> {
+  if (ehNativo()) {
+    const ok = (await agendarNoAparelho(lembretes)) === "ativo";
+    guardar({ ativo: true, lembretes, enviadoEm: ok ? paraIso(hoje()) : lerGuardado().enviadoEm });
+    return ok;
+  }
   try {
     const sub = await inscricao(false);
     if (!sub) return false;
@@ -114,6 +197,15 @@ export async function atualizar(lembretes: Lembretes): Promise<boolean> {
 }
 
 export async function desativar() {
+  if (ehNativo()) {
+    try {
+      const { LocalNotifications } = await import("@capacitor/local-notifications");
+      const pendentes = await LocalNotifications.getPending();
+      if (pendentes.notifications.length) await LocalNotifications.cancel({ notifications: pendentes.notifications.map((n) => ({ id: n.id })) });
+    } catch {}
+    guardar({ ...lerGuardado(), ativo: false });
+    return;
+  }
   try {
     const sub = await inscricao(false);
     if (sub) {
@@ -126,7 +218,7 @@ export async function desativar() {
 
 export function renovarSeFaltar() {
   const g = lerGuardado();
-  if (!g.ativo || !suportado() || Notification.permission !== "granted") return;
+  if (!g.ativo || !permitido()) return;
   if (g.enviadoEm === paraIso(hoje())) return;
   void atualizar(g.lembretes);
 }

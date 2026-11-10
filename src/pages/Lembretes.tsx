@@ -1,6 +1,7 @@
 import { useState, type ReactNode } from "react";
 import { Bell, BellOff, Check } from "lucide-react";
-import { ativar, atualizar, desativar, ehIphone, instalado, lerGuardado, suportado, type Lembretes as TipoLembretes } from "@/lembretes/lembretes";
+import { ativar, atualizar, desativar, ehIphone, instalado, lerGuardado, permitido, suportado, type Lembretes as TipoLembretes } from "@/lembretes/lembretes";
+import { ehNativo } from "@/lib/nativo";
 import { Cartao } from "@/components/Cartao";
 import { Cabecalho, Voltar } from "@/components/Devocao";
 
@@ -33,8 +34,8 @@ export default function Lembretes() {
   const [estado, setEstado] = useState<"" | "ativando" | "negado" | "erro" | "salvo">("");
   const l = g.lembretes;
   const pode = suportado();
-  const precisaInstalar = ehIphone() && !instalado();
-  const permissao = pode ? Notification.permission : "default";
+  const precisaInstalar = !ehNativo() && ehIphone() && !instalado();
+  const permissao = ehNativo() ? (g.ativo ? "granted" : "default") : pode ? Notification.permission : "default";
 
   async function mudar(novo: TipoLembretes) {
     setG({ ...g, lembretes: novo });
@@ -88,7 +89,7 @@ export default function Lembretes() {
             </Linha>
           </div>
 
-          {g.ativo && permissao === "granted" ? (
+          {g.ativo && permitido() ? (
             <>
               {estado === "salvo" && (
                 <p className="flex items-center justify-center gap-2 text-sm font-medium text-destaque-texto">

@@ -3,7 +3,8 @@ import { Bell, CalendarDays, Church, FileText, Heart, LayoutDashboard, NotebookP
 import { usePreferencias, type Letra, type Tema } from "@/lib/preferencias";
 import { Cartao, Grupo, ItemLista, LINHA, TituloPagina } from "@/components/Cartao";
 import { DIOCESES } from "@/liturgia/dioceses";
-import { ENDERECO_DO_SITE, NOME_DO_APP } from "@/marca";
+import { NOME_DO_APP } from "@/marca";
+import { compartilhar, enderecoPublico } from "@/lib/nativo";
 import { useConta } from "@/conta/useConta";
 import { useTemPainel } from "@/pages/Painel";
 
@@ -64,23 +65,15 @@ function Interruptor({ rotulo, ligado, onChange, children }: { rotulo: string; l
 
 function Compartilhar() {
   const [copiado, setCopiado] = useState(false);
-  async function compartilhar() {
-    const url = location.protocol.startsWith("http") ? location.origin : ENDERECO_DO_SITE;
+  async function indicar() {
     const texto = `${NOME_DO_APP}: liturgia do dia, terço, Bíblia, orações e horários de missa. Gratuito e sem anúncios.`;
-    if (navigator.share) {
-      try {
-        await navigator.share({ title: NOME_DO_APP, text: texto, url });
-      } catch {}
-      return;
-    }
-    try {
-      await navigator.clipboard.writeText(`${texto}\n${url}`);
+    if ((await compartilhar({ titulo: NOME_DO_APP, texto, url: enderecoPublico() })) === "copiado") {
       setCopiado(true);
       setTimeout(() => setCopiado(false), 2500);
-    } catch {}
+    }
   }
   return (
-    <button type="button" onClick={() => void compartilhar()} className={`${LINHA} w-full text-left`}>
+    <button type="button" onClick={() => void indicar()} className={`${LINHA} w-full text-left`}>
       <span className="grid size-10 shrink-0 place-items-center rounded-xl bg-marca-fundo text-destaque-texto">
         <Share2 className="size-5" aria-hidden />
       </span>

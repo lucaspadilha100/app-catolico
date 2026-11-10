@@ -21,7 +21,7 @@ import {
 } from "@/paroquias/horarios";
 import { NOME_DO_TIPO_DE_HORARIO, NOME_DO_TIPO_DE_IGREJA, type Horario, type IgrejaComHorarios, type ItemDaAgenda, type ParoquiaResumo, type TipoDeHorario } from "@/paroquias/tipos";
 import { useLocal } from "@/paroquias/useLocal";
-import { ENDERECO_DO_SITE } from "@/marca";
+import { compartilhar, enderecoPublico } from "@/lib/nativo";
 import { linkComoChegar } from "@/lib/comoChegar";
 import { Cartao, LINHA, LISTA, TituloCartao, TituloPagina } from "@/components/Cartao";
 import { Cabecalho, Carregando, Indisponivel, Voltar } from "@/components/Devocao";
@@ -826,21 +826,12 @@ export function ParoquiaPagina() {
     setConfirmado(true);
   }
 
-  async function compartilhar() {
-    const base = location.protocol.startsWith("http") ? location.origin : ENDERECO_DO_SITE;
-    const url = `${base}/missas/paroquia/${p.id}`;
+  async function enviar() {
     const texto = [p.nome, endereco, "", textoDaGrade(horarios, NOME_DO_TIPO_DE_HORARIO)].join("\n").trim();
-    if (navigator.share) {
-      try {
-        await navigator.share({ title: p.nome, text: texto, url });
-      } catch {}
-      return;
-    }
-    try {
-      await navigator.clipboard.writeText(`${texto}\n\n${url}`);
+    if ((await compartilhar({ titulo: p.nome, texto, url: `${enderecoPublico()}/missas/paroquia/${p.id}` })) === "copiado") {
       setCopiado(true);
       setTimeout(() => setCopiado(false), 2500);
-    } catch {}
+    }
   }
 
   return (
@@ -897,7 +888,7 @@ export function ParoquiaPagina() {
           >
             <Heart className={`size-5 shrink-0 ${minha ? "fill-current" : ""}`} aria-hidden /> Minha paróquia
           </button>
-          <button type="button" onClick={() => void compartilhar()} className="flex min-h-12 items-center justify-center gap-2 rounded-xl border border-borda bg-cartao px-2 text-sm font-semibold text-tinta">
+          <button type="button" onClick={() => void enviar()} className="flex min-h-12 items-center justify-center gap-2 rounded-xl border border-borda bg-cartao px-2 text-sm font-semibold text-tinta">
             {copiado ? <Check className="size-5 shrink-0" aria-hidden /> : <Share2 className="size-5 shrink-0" aria-hidden />}
             {copiado ? "Copiado" : "Compartilhar"}
           </button>

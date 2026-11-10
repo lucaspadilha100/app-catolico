@@ -35,7 +35,7 @@ import {
   type TercoDoGrupo,
   type TipoDeIntencao,
 } from "@/comunidade/api";
-import { ENDERECO_DO_SITE } from "@/marca";
+import { compartilhar, enderecoPublico } from "@/lib/nativo";
 import { Cartao, Grupo as GrupoDeLinhas, LINHA, LISTA, TituloPagina } from "@/components/Cartao";
 import { Cabecalho, Carregando, Indisponivel, Voltar } from "@/components/Devocao";
 import { TercoGuiado, type Posicao } from "@/components/TercoGuiado";
@@ -69,22 +69,7 @@ function haQuanto(iso: string): string {
   return `há ${dias} dias`;
 }
 
-const base = () => (location.protocol.startsWith("http") ? location.origin : ENDERECO_DO_SITE);
-
-async function compartilhar(titulo: string, texto: string, url: string): Promise<boolean> {
-  if (navigator.share) {
-    try {
-      await navigator.share({ title: titulo, text: texto, url });
-    } catch {}
-    return false;
-  }
-  try {
-    await navigator.clipboard.writeText(`${texto}\n${url}`);
-    return true;
-  } catch {
-    return false;
-  }
-}
+const base = enderecoPublico;
 
 function ItemDeIntencao({ i, eu, aoApagar }: { i: Intencao; eu: string | null; aoApagar?: () => void }) {
   const [rezei, setRezei] = useState(() => lerRezei().includes(i.id));
@@ -531,7 +516,7 @@ export function GrupoPagina() {
   const souDono = eu === grupo.dono_id;
 
   async function convidar() {
-    const ok = await compartilhar(grupo.nome, `Entre no grupo ${grupo.nome} para rezarmos juntos.`, `${base()}/grupos/entrar/${grupo.codigo}`);
+    const ok = (await compartilhar({ titulo: grupo.nome, texto: `Entre no grupo ${grupo.nome} para rezarmos juntos.`, url: `${base()}/grupos/entrar/${grupo.codigo}` })) === "copiado";
     if (ok) {
       setCopiado(true);
       setTimeout(() => setCopiado(false), 2500);

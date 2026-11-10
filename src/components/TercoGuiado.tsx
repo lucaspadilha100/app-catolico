@@ -19,12 +19,7 @@ import {
 import { Cartao } from "@/components/Cartao";
 import { EscolhaDeLingua, TextoDaOracao, linhasNaLingua } from "@/components/TextoDaOracao";
 import { TextoDaLeitura } from "@/components/TextoBiblico";
-
-const vibrar = (padrao: number | number[]) => {
-  try {
-    navigator.vibrate?.(padrao);
-  } catch {}
-};
+import { vibrar } from "@/lib/nativo";
 
 const plural = (n: number) => `${n} ${n === 1 ? "terço rezado" : "terços rezados"}`;
 

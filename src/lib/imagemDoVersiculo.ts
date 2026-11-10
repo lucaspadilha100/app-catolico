@@ -1,4 +1,5 @@
 import { NOME_DO_APP } from "@/marca";
+import { compartilhar } from "@/lib/nativo";
 
 const LARGURA = 1080;
 const ALTURA = 1350;
@@ -84,20 +85,8 @@ export async function compartilharVersiculo(texto: string, referencia: string): 
   try {
     const blob = await imagemDoVersiculo(texto, referencia);
     const nome = `${referencia.replace(/[^\p{L}\p{N}]+/gu, "-")}.png`;
-    const arquivo = new File([blob], nome, { type: "image/png" });
-    if (navigator.canShare?.({ files: [arquivo] })) {
-      try {
-        await navigator.share({ files: [arquivo], title: referencia });
-      } catch {}
-      return "compartilhado";
-    }
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement("a");
-    a.href = url;
-    a.download = nome;
-    a.click();
-    setTimeout(() => URL.revokeObjectURL(url), 5000);
-    return "baixado";
+    const r = await compartilhar({ titulo: referencia, imagem: { blob, nome } });
+    return r === "copiado" ? "compartilhado" : r;
   } catch {
     return "erro";
   }

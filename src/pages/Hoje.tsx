@@ -16,7 +16,7 @@ import { NOME_DA_COR, NOME_DO_GRAU, NOME_DO_TEMPO, type CorLiturgica } from "@/l
 import { misteriosDoDia } from "@/liturgia/terco";
 import { Cartao, LISTA, TituloCartao } from "@/components/Cartao";
 import { ProximaMissa } from "@/components/ProximaMissa";
-import { ENDERECO_DO_SITE } from "@/marca";
+import { compartilhar, enderecoPublico } from "@/lib/nativo";
 import { CartaoDaCampanha } from "@/components/Campanha";
 import type { TipoLeitura } from "@/liturgia/lecionario";
 import { useLeituras } from "@/lib/useLeituras";
@@ -81,9 +81,8 @@ export default function Hoje() {
     ? `Memória de ${memoria.nome}`
     : [grau, l.celebracao ? NOME_DO_TEMPO[l.tempo] : ""].filter(Boolean).join(" · ");
 
-  async function compartilhar() {
+  async function enviarLiturgia() {
     const leituras = (missas?.[0]?.leituras ?? []).filter((x) => !x.ou && x.forma !== "breve" && ROTULO_CURTO[x.tipo]);
-    const base = location.protocol.startsWith("http") ? location.origin : ENDERECO_DO_SITE;
     const iso = paraIso(l.data);
     const texto = [
       `Liturgia de ${dataPorExtenso(l.data).toLowerCase()}`,
@@ -91,14 +90,9 @@ export default function Hoje() {
       "",
       ...leituras.map((x) => `${ROTULO_CURTO[x.tipo]}: ${x.referencia}`),
     ].join("\n");
-    const url = `${base}/liturgia/${iso}`;
-    if (navigator.share) {
-      try {
-        await navigator.share({ title: "Liturgia do dia", text: texto, url });
-      } catch {}
-      return;
-    }
-    window.open(`https://wa.me/?text=${encodeURIComponent(`${texto}\n\n${url}`)}`, "_blank", "noopener");
+    const url = `${enderecoPublico()}/liturgia/${iso}`;
+    const r = await compartilhar({ titulo: "Liturgia do dia", texto, url });
+    if (r === "erro") window.open(`https://wa.me/?text=${encodeURIComponent(`${texto}\n\n${url}`)}`, "_blank", "noopener");
   }
 
   const linha = "flex min-h-14 items-center gap-3 px-4 py-2.5 transition-colors hover:bg-marca-fundo/60";
@@ -125,7 +119,7 @@ export default function Hoje() {
       <Cartao>
         <div className="flex items-center justify-between gap-2">
           <TituloCartao icone={BookOpenText}>Liturgia do dia</TituloCartao>
-          <button type="button" onClick={() => void compartilhar()} aria-label="Compartilhar a liturgia" className="-mr-2 grid size-10 place-items-center rounded-full text-tinta-suave hover:bg-marca-fundo">
+          <button type="button" onClick={() => void enviarLiturgia()} aria-label="Compartilhar a liturgia" className="-mr-2 grid size-10 place-items-center rounded-full text-tinta-suave hover:bg-marca-fundo">
             <Share2 className="size-5" aria-hidden />
           </button>
         </div>

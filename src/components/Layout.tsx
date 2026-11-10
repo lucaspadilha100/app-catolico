@@ -6,6 +6,7 @@ import { Rolagem } from "@/components/Rolagem";
 import { BoasVindas } from "@/components/BoasVindas";
 import { Carregando } from "@/components/Devocao";
 import { renovarSeFaltar } from "@/lembretes/lembretes";
+import { PonteNativa } from "@/components/PonteNativa";
 import { NOME_DO_APP } from "@/marca";
 import { contarAbertura } from "@/conta/uso";
 
@@ -67,6 +68,7 @@ export default function Layout() {
   return (
     <div className="min-h-dvh md:flex">
       <Rolagem />
+      <PonteNativa />
       {pathname === "/" && <BoasVindas />}
       <aside className="sticky top-0 hidden h-dvh w-60 shrink-0 flex-col gap-6 border-r border-borda bg-cartao px-4 py-6 md:flex">
         <Marca className="px-2" />

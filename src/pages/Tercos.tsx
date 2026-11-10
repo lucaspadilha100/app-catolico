@@ -23,7 +23,7 @@ import {
 } from "@/tercos/api";
 import { useTercosSeguidos } from "@/tercos/seguidos";
 import type { Dezena, Encontro, Terco } from "@/tercos/tipos";
-import { ENDERECO_DO_SITE } from "@/marca";
+import { compartilhar, enderecoPublico } from "@/lib/nativo";
 import { linkComoChegar } from "@/lib/comoChegar";
 import { Cartao, Grupo, LINHA, TituloCartao, TituloPagina } from "@/components/Cartao";
 import { Cabecalho, Carregando, Indisponivel, Voltar } from "@/components/Devocao";
@@ -217,21 +217,12 @@ export function TercoPagina() {
   const endereco = [t.endereco, t.bairro, `${t.cidade} - ${t.uf}`].filter(Boolean).join(", ");
   const destino = t.lat !== null && t.lng !== null ? `${t.lat},${t.lng}` : encodeURIComponent(endereco);
 
-  async function compartilhar() {
-    const base = location.protocol.startsWith("http") ? location.origin : ENDERECO_DO_SITE;
-    const url = `${base}/tercos/${t.id}`;
+  async function enviar() {
     const texto = [t.nome, quandoDoTerco(t), endereco].join("\n");
-    if (navigator.share) {
-      try {
-        await navigator.share({ title: t.nome, text: texto, url });
-      } catch {}
-      return;
-    }
-    try {
-      await navigator.clipboard.writeText(`${texto}\n${url}`);
+    if ((await compartilhar({ titulo: t.nome, texto, url: `${enderecoPublico()}/tercos/${t.id}` })) === "copiado") {
       setCopiado(true);
       setTimeout(() => setCopiado(false), 2500);
-    } catch {}
+    }
   }
 
   return (
@@ -268,7 +259,7 @@ export function TercoPagina() {
         >
           <Heart className={`size-5 shrink-0 ${segue ? "fill-current" : ""}`} aria-hidden /> {segue ? "Seguindo" : "Seguir"}
         </button>
-        <button type="button" onClick={() => void compartilhar()} className="flex min-h-12 items-center justify-center gap-2 rounded-xl border border-borda bg-cartao px-2 text-sm font-semibold text-tinta">
+        <button type="button" onClick={() => void enviar()} className="flex min-h-12 items-center justify-center gap-2 rounded-xl border border-borda bg-cartao px-2 text-sm font-semibold text-tinta">
           <Share2 className="size-5 shrink-0" aria-hidden /> {copiado ? "Copiado" : "Compartilhar"}
         </button>
       </div>
