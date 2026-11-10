@@ -9,3 +9,5 @@ Ez 28,14: "que estendia as suas asas e protegia a arca e o propiciatório" manti
 Ez 28,13: "cornalina" mantido para "onyx" (escolha do Figueiredo).
 Ez 29,3: nota de rodapé grudada no fim ("O lUO l1l ~mu - No Nilo e nas suas inundações punham os"); retirada, texto conferido inteiro pela Vulgata. O mesmo em Ez 29,10 ("de castigo? s. Jerônimo não aponta outra...") e legenda de gravura em Ez 29,20 ("ME RENDEU COM O SEU EXÉRCITO UM GRANDE"); sinal "( S)" em Ez 29,13.
 Ez 29,18: "todos os ombros ficaram pelados" → "esfolados" (Vulgata "depilatus").
+Ez 30,5: nota de rodapé grudada no fim ("s. Jerônimo entende isto de Zorobabel, que nasceu em Babilônia,"); retirada, texto conferido inteiro pela Vulgata. "terra do concerto" → "terra da aliança".
+Ez 30,3: "dia de nublado" → "dia de nuvens" (Vulgata "dies nubis").
