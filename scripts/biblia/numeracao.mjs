@@ -4,7 +4,7 @@ import { fileURLToPath } from "node:url";
 
 const raiz = join(dirname(fileURLToPath(import.meta.url)), "../..");
 
-export const NUMERACAO_MODERNA = new Set(["MAT", "MRK", "LUK", "JHN"]);
+export const NUMERACAO_MODERNA = new Set(["MAT", "MRK", "LUK", "JHN", "ACT", "2CO", "1TH", "2TH", "3JN"]);
 
 const moderna = {};
 for (const linha of readFileSync(join(raiz, "fontes/versificacao/org.vrs"), "utf8").split("\n")) {
@@ -18,7 +18,7 @@ export function versiculosEsperados(livro, capitulo, fonte) {
   return fonte.capitulos[capitulo - 1].length + acrescentados;
 }
 
-const DIVISAO_REFEITA = { MAT: [5, 17], MRK: [4, 8, 9], LUK: [17], JHN: [5, 6, 7, 11] };
+const DIVISAO_REFEITA = { MAT: [5, 17], MRK: [4, 8, 9], LUK: [17], JHN: [5, 6, 7, 11], ACT: [7, 14, 19], "2CO": [1], "1TH": [4], "2TH": [2], "3JN": [1] };
 
 export function mesmaDivisaoDaFonte(livro, capitulo) {
   return !DIVISAO_REFEITA[livro]?.includes(capitulo);

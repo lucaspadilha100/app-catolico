@@ -67,6 +67,8 @@ tradição textual, vale a Vulgata (é a Bíblia que o Figueiredo traduziu).
 - Nomes: a mesma pessoa ou lugar com a mesma grafia em toda a Bíblia (Gat,
   Joaquim o pai e Joaquin o filho, rei de Judá; Amnon, filho de Davi; Jeroão)
 - "Assim diz o Senhor" (nunca "Isto diz o Senhor").
+- "inferno" / "infernos" como no Figueiredo também quando é a morada dos mortos
+  (o "desceu aos infernos" do Credo); nunca "morada dos mortos" nem "sheol"
 - Profetas: o oráculo (o Senhor falando pela boca do profeta, "Assim diz o
   Senhor...") vai SEM aspas; aspas só em diálogo e em fala citada dentro do
   oráculo (como em Jeremias 1-26 e nos profetas menores).

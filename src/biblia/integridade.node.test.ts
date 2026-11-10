@@ -10,7 +10,7 @@ import { intervalosDaReferencia, textoDaReferencia } from "./texto";
 
 const raiz = join(__dirname, "../..");
 const ESTADO = estado as Record<string, { revisao: string; arquivo: string; versiculos: number[] }>;
-const NUMERACAO_MODERNA = ["MAT", "MRK", "LUK", "JHN"];
+const NUMERACAO_MODERNA = ["MAT", "MRK", "LUK", "JHN", "ACT", "2CO", "1TH", "2TH", "3JN"];
 
 const livro = (codigo: string): string[][] =>
   JSON.parse(readFileSync(join(raiz, "public/biblia/f1", ESTADO[codigo]!.arquivo), "utf8")).capitulos;
