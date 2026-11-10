@@ -1,8 +1,9 @@
 import type { CapacitorConfig } from "@capacitor/cli";
+import { NOME_DO_APP } from "./src/marca";
 
 const config: CapacitorConfig = {
   appId: "br.com.appsantinho",
-  appName: "Santinho",
+  appName: NOME_DO_APP,
   webDir: "dist",
 };
 

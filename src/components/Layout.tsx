@@ -3,6 +3,7 @@ import { NavLink, Link, Outlet } from "react-router-dom";
 import { BookOpen, Church, HandHeart, Menu, Sunrise, type LucideIcon } from "lucide-react";
 import { useDiaLiturgico } from "@/lib/useDiaLiturgico";
 import { Rolagem } from "@/components/Rolagem";
+import { NOME_DO_APP } from "@/marca";
 import { contarAbertura } from "@/conta/uso";
 
 interface ItemMenu {
@@ -23,7 +24,7 @@ function Marca({ className = "" }: { className?: string }) {
   return (
     <Link to="/" className={`flex items-center gap-2.5 text-marca ${className}`}>
       <span className="simbolo w-9" aria-hidden />
-      <span className="font-leitura text-xl font-semibold tracking-tight">Santinho</span>
+      <span className="font-leitura text-xl font-semibold tracking-tight">{NOME_DO_APP}</span>
     </Link>
   );
 }

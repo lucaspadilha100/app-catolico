@@ -4,6 +4,9 @@ import react from "@vitejs/plugin-react";
 import tailwindcss from "@tailwindcss/vite";
 import { VitePWA } from "vite-plugin-pwa";
 import { fileURLToPath, URL } from "node:url";
+import { NOME_DO_APP } from "./src/marca";
+
+process.env.VITE_NOME_DO_APP = NOME_DO_APP;
 
 export default defineConfig({
   plugins: [
@@ -13,8 +16,8 @@ export default defineConfig({
       registerType: "autoUpdate",
       includeAssets: ["favicon-santinho-32.png", "apple-touch-icon.png"],
       manifest: {
-        name: "Santinho",
-        short_name: "Santinho",
+        name: NOME_DO_APP,
+        short_name: NOME_DO_APP,
         description: "Liturgia diária, terço, Bíblia e orações. Gratuito e sem anúncios.",
         lang: "pt-BR",
         start_url: "/",

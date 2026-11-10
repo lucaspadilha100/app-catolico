@@ -3,6 +3,7 @@ import { UserRound, CalendarDays, NotebookPen, Heart, Music, Sparkles, Users } f
 import { usePreferencias, type Letra, type Tema } from "@/lib/preferencias";
 import { Cartao, ItemLista, TituloPagina } from "@/components/Cartao";
 import { DIOCESES } from "@/liturgia/dioceses";
+import { NOME_DO_APP } from "@/marca";
 import { useConta } from "@/conta/useConta";
 
 function Escolha<T extends string>({
@@ -121,7 +122,7 @@ export default function Mais() {
       </Cartao>
 
       <p className="mt-8 flex items-center justify-center gap-1.5 text-center text-sm text-tinta-suave">
-        <Heart className="size-4" aria-hidden /> Santinho · gratuito e sem anúncios
+        <Heart className="size-4" aria-hidden /> {NOME_DO_APP} · gratuito e sem anúncios
       </p>
     </div>
   );

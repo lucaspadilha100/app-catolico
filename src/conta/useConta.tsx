@@ -11,7 +11,8 @@ interface Contexto {
   ultima: Date | null;
   carregar: () => Promise<SupabaseClient>;
   entrarComGoogle: () => Promise<string | null>;
-  entrarComEmail: (email: string) => Promise<string | null>;
+  entrarComSenha: (email: string, senha: string) => Promise<string | null>;
+  criarConta: (email: string, senha: string) => Promise<{ erro: string | null; confirmar: boolean }>;
   sincronizarAgora: () => Promise<void>;
   sair: () => Promise<void>;
   apagarConta: () => Promise<string | null>;
@@ -26,6 +27,20 @@ const temSessaoGuardada = () => {
     return false;
   }
 };
+
+export function traduzir(mensagem: string): string {
+  const m = mensagem.toLowerCase();
+  if (m.includes("invalid login credentials")) return "E-mail ou senha incorretos.";
+  if (m.includes("already registered") || m.includes("already been registered")) return "Já existe uma conta com este e-mail.";
+  if (m.includes("password should be") || m.includes("weak password") || m.includes("at least")) return "A senha precisa de pelo menos 8 caracteres, com letras e números.";
+  if (m.includes("email not confirmed")) return "Falta confirmar o e-mail desta conta.";
+  if (m.includes("invalid") && m.includes("email")) return "Confira o e-mail digitado.";
+  if (m.includes("rate limit") || m.includes("too many")) return "Muitas tentativas. Espere alguns minutos e tente de novo.";
+  if (m.includes("signups not allowed") || m.includes("signup is disabled")) return "Criar conta está desligado no momento.";
+  if (m.includes("provider is not enabled") || m.includes("unsupported provider")) return "Entrar com Google ainda não está disponível.";
+  if (m.includes("fetch") || m.includes("network")) return "Sem conexão. Tente de novo com internet.";
+  return "Não foi possível agora. Tente de novo em alguns minutos.";
+}
 
 const voltarPara = () => `${window.location.origin}/conta`;
 
@@ -99,14 +114,25 @@ export function ContaProvider({ children }: { children: ReactNode }) {
   const entrarComGoogle = useCallback(async () => {
     const c = cliente ?? (await carregar());
     const { error } = await c.auth.signInWithOAuth({ provider: "google", options: { redirectTo: voltarPara() } });
-    return error ? error.message : null;
+    return error ? traduzir(error.message) : null;
   }, [cliente, carregar]);
 
-  const entrarComEmail = useCallback(
-    async (endereco: string) => {
+  const entrarComSenha = useCallback(
+    async (endereco: string, senha: string) => {
       const c = cliente ?? (await carregar());
-      const { error } = await c.auth.signInWithOtp({ email: endereco, options: { emailRedirectTo: voltarPara() } });
-      return error ? error.message : null;
+      const { error } = await c.auth.signInWithPassword({ email: endereco, password: senha });
+      return error ? traduzir(error.message) : null;
+    },
+    [cliente, carregar],
+  );
+
+  const criarConta = useCallback(
+    async (endereco: string, senha: string) => {
+      const c = cliente ?? (await carregar());
+      const { data, error } = await c.auth.signUp({ email: endereco, password: senha, options: { emailRedirectTo: voltarPara() } });
+      if (error) return { erro: traduzir(error.message), confirmar: false };
+      if (data.user && data.user.identities?.length === 0) return { erro: "Já existe uma conta com este e-mail.", confirmar: false };
+      return { erro: null, confirmar: !data.session };
     },
     [cliente, carregar],
   );
@@ -129,8 +155,8 @@ export function ContaProvider({ children }: { children: ReactNode }) {
   }, [cliente]);
 
   const valor = useMemo(
-    () => ({ pronto, email, estado, ultima, carregar, entrarComGoogle, entrarComEmail, sincronizarAgora, sair, apagarConta }),
-    [pronto, email, estado, ultima, carregar, entrarComGoogle, entrarComEmail, sincronizarAgora, sair, apagarConta],
+    () => ({ pronto, email, estado, ultima, carregar, entrarComGoogle, entrarComSenha, criarConta, sincronizarAgora, sair, apagarConta }),
+    [pronto, email, estado, ultima, carregar, entrarComGoogle, entrarComSenha, criarConta, sincronizarAgora, sair, apagarConta],
   );
   return <Ctx.Provider value={valor}>{children}</Ctx.Provider>;
 }

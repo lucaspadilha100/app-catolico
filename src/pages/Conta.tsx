@@ -9,60 +9,119 @@ import { Cabecalho, Carregando, Voltar } from "@/components/Devocao";
 const horas = (d: Date) => d.toLocaleTimeString("pt-BR", { hour: "2-digit", minute: "2-digit" });
 
 function Entrar() {
-  const { entrarComEmail, entrarComGoogle } = useConta();
+  const { entrarComSenha, criarConta, entrarComGoogle } = useConta();
+  const [modo, setModo] = useState<"entrar" | "criar">("entrar");
   const [email, setEmail] = useState("");
-  const [estado, setEstado] = useState<"" | "enviando" | "enviado">("");
+  const [senha, setSenha] = useState("");
+  const [repetir, setRepetir] = useState("");
+  const [ocupado, setOcupado] = useState(false);
   const [erro, setErro] = useState("");
+  const [confirmar, setConfirmar] = useState(false);
+
+  const senhaBoa = senha.length >= 8 && /\d/.test(senha) && /\p{L}/u.test(senha);
+  const pode = email.includes("@") && (modo === "entrar" ? senha.length > 0 : senhaBoa && senha === repetir);
 
   async function enviar(e: FormEvent) {
     e.preventDefault();
+    if (!pode) return;
     setErro("");
-    setEstado("enviando");
-    const falha = await entrarComEmail(email.trim());
-    setEstado(falha ? "" : "enviado");
-    if (falha) setErro("Não foi possível enviar agora. Tente de novo em alguns minutos.");
+    setOcupado(true);
+    if (modo === "entrar") {
+      const falha = await entrarComSenha(email.trim(), senha);
+      if (falha) setErro(falha);
+    } else {
+      const r = await criarConta(email.trim(), senha);
+      if (r.erro) setErro(r.erro);
+      else if (r.confirmar) setConfirmar(true);
+    }
+    setOcupado(false);
   }
 
   async function google() {
     setErro("");
     const falha = await entrarComGoogle();
-    if (falha) setErro("Entrar com Google ainda não está disponível.");
+    if (falha) setErro(falha);
   }
+
+  const trocar = (m: "entrar" | "criar") => {
+    setModo(m);
+    setErro("");
+    setRepetir("");
+  };
+
+  if (confirmar)
+    return (
+      <Cartao>
+        <p className="text-tinta">
+          Conta criada. Falta confirmar o endereço <strong>{email}</strong> pelo link que enviamos por e-mail.
+        </p>
+      </Cartao>
+    );
 
   return (
     <div className="flex flex-col gap-4">
       <Cartao className="flex flex-col gap-4">
-        <button type="button" onClick={google} className="min-h-12 rounded-xl border border-borda bg-papel font-semibold text-tinta">
-          Entrar com Google
-        </button>
+        <div className="grid grid-cols-2 rounded-xl border border-borda bg-papel p-1" role="tablist">
+          {(
+            [
+              ["entrar", "Entrar"],
+              ["criar", "Criar conta"],
+            ] as const
+          ).map(([v, nome]) => (
+            <button
+              key={v}
+              type="button"
+              role="tab"
+              aria-selected={modo === v}
+              onClick={() => trocar(v)}
+              className={`min-h-10 rounded-lg text-sm font-semibold ${modo === v ? "bg-destaque text-sobre-destaque" : "text-tinta-suave"}`}
+            >
+              {nome}
+            </button>
+          ))}
+        </div>
+        <form onSubmit={enviar} className="flex flex-col gap-3">
+          <label className="flex flex-col gap-1">
+            <span className="text-sm font-medium text-tinta-suave">E-mail</span>
+            <input type="email" required value={email} onChange={(e) => setEmail(e.target.value)} autoComplete="email" className="min-h-12 rounded-xl border border-borda bg-papel px-3 text-base" />
+          </label>
+          <label className="flex flex-col gap-1">
+            <span className="text-sm font-medium text-tinta-suave">Senha</span>
+            <input
+              type="password"
+              required
+              value={senha}
+              onChange={(e) => setSenha(e.target.value)}
+              autoComplete={modo === "entrar" ? "current-password" : "new-password"}
+              className="min-h-12 rounded-xl border border-borda bg-papel px-3 text-base"
+            />
+          </label>
+          {modo === "criar" && (
+            <>
+              <label className="flex flex-col gap-1">
+                <span className="text-sm font-medium text-tinta-suave">Repita a senha</span>
+                <input type="password" required value={repetir} onChange={(e) => setRepetir(e.target.value)} autoComplete="new-password" className="min-h-12 rounded-xl border border-borda bg-papel px-3 text-base" />
+              </label>
+              <ul className="flex flex-col gap-0.5 text-sm">
+                <li className={senha.length >= 8 ? "text-destaque-texto" : "text-tinta-suave"}>Pelo menos 8 caracteres</li>
+                <li className={/\d/.test(senha) && /\p{L}/u.test(senha) ? "text-destaque-texto" : "text-tinta-suave"}>Letras e números</li>
+                {repetir && senha !== repetir && <li className="text-[#a9271f]">As duas senhas não são iguais</li>}
+              </ul>
+            </>
+          )}
+          <button type="submit" disabled={!pode || ocupado} className="min-h-12 rounded-xl bg-destaque font-semibold text-sobre-destaque disabled:opacity-50">
+            {ocupado ? "Aguarde" : modo === "entrar" ? "Entrar" : "Criar conta"}
+          </button>
+        </form>
+        {erro && <p className="text-sm font-medium text-[#a9271f]">{erro}</p>}
         <div className="flex items-center gap-3 text-sm text-tinta-suave">
           <span className="h-px flex-1 bg-borda" />
           ou
           <span className="h-px flex-1 bg-borda" />
         </div>
-        {estado === "enviado" ? (
-          <p className="text-tinta">
-            Enviamos um link para <strong>{email}</strong>. Abra o e-mail neste aparelho e toque no link.
-          </p>
-        ) : (
-          <form onSubmit={enviar} className="flex flex-col gap-3">
-            <label className="flex flex-col gap-1">
-              <span className="text-sm font-medium text-tinta-suave">E-mail</span>
-              <input
-                type="email"
-                required
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                autoComplete="email"
-                className="min-h-12 rounded-xl border border-borda bg-papel px-3 text-base"
-              />
-            </label>
-            <button type="submit" disabled={estado === "enviando" || !email.includes("@")} className="min-h-12 rounded-xl bg-destaque font-semibold text-sobre-destaque disabled:opacity-50">
-              {estado === "enviando" ? "Enviando" : "Receber link de entrada"}
-            </button>
-          </form>
-        )}
-        {erro && <p className="text-sm font-medium text-[#a9271f]">{erro}</p>}
+        <button type="button" onClick={google} className="min-h-12 rounded-xl border border-borda bg-papel font-semibold text-tinta">
+          Continuar com Google
+        </button>
       </Cartao>
       <p className="px-1 text-sm text-tinta-suave">
         Ao entrar, você concorda com os{" "}

@@ -131,11 +131,13 @@ Legenda: ✅ pronto · 🔨 em andamento · ⬜ a fazer · 👤 precisa do dono
 
 ### Leva 10. Conta e sincronização 🔨
 - ✅ Banco com regras de acesso, testadas num Postgres em memória; a integração do GitHub aplicou a migração sozinha
-- ✅ Tela Conta: entrar com e-mail (link) ou Google, sair, apagar a conta
+- ✅ Tela Conta: criar conta e entrar com e-mail e senha, ou com Google; sair; apagar a conta
 - ✅ Sincronização entre aparelhos: novenas, dias de oração, falecidos, santos de devoção, leitura da Bíblia, terços, preferências e o cofre (exame, propósitos e diário embaralhados com o PIN)
 - ✅ Política de privacidade e termos de uso
 - ✅ Contagem anônima de uso (quantas aberturas por dia, sem identificar ninguém)
-- ⬜ 👤 Supabase: endereço do site e de retorno do login; provedor Google; e-mail próprio (SMTP) para o link de entrada chegar a qualquer pessoa
+- ⬜ 👤 Supabase: desligar "Confirm email", endereço do site e de retorno, provedor Google
+- ⬜ "Esqueci a senha" e confirmação de e-mail: quando houver domínio e envio de e-mail próprio (SMTP)
+- ⬜ Entrar com Apple: obrigatório na App Store quando há login do Google (Leva 16)
 - ⬜ 👤 Contato do responsável na política de privacidade (`src/conta/textos.ts`, `CONTATO`)
 
 ### Leva 11. Missas e paróquias ⬜
