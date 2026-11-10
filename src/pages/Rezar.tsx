@@ -1,3 +1,4 @@
+import type { ReactNode } from "react";
 import { BookHeart, CalendarHeart, Church, HeartHandshake, CircleDot, Cross, Crown, Flame, HandHeart, ListOrdered, Moon, ScrollText, Footprints, Shield, Sprout } from "lucide-react";
 import { useDiaLiturgico } from "@/lib/useDiaLiturgico";
 import { misteriosDoDia } from "@/liturgia/terco";
@@ -8,6 +9,15 @@ import { diasDeOracaoNaSemana, useDevocoesGuardadas } from "@/devocao/progresso"
 import { ItemLista, TituloPagina } from "@/components/Cartao";
 import { pascoa } from "@/liturgia/calendario";
 import { diferencaEmDias } from "@/liturgia/datas";
+
+function Grupo({ titulo, children }: { titulo: string; children: ReactNode }) {
+  return (
+    <section>
+      <h2 className="mb-2 px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto">{titulo}</h2>
+      <div className="flex flex-col gap-2">{children}</div>
+    </section>
+  );
+}
 
 export default function Rezar() {
   useDevocoesGuardadas();
@@ -28,27 +38,33 @@ export default function Rezar() {
           Você rezou {semana === 1 ? "1 dia" : `${semana} dias`} nesta semana
         </p>
       )}
-      <div className="flex flex-col gap-3">
-        <ItemLista icone={CircleDot} titulo="Terço" detalhe={`Hoje: ${misteriosDoDia(l.data).nome}`} para="/rezar/terco" />
-        <ItemLista icone={HandHeart} titulo="Orações" detalhe="Em português e latim" para="/rezar/oracoes" />
-        <ItemLista icone={ListOrdered} titulo="Novenas" detalhe={novena ? `${novena.titulo}: ${novena.detalhe.toLowerCase()}` : undefined} para="/rezar/novenas" />
-        <ItemLista icone={Sprout} titulo="Tempos e meses" detalhe={desafio ? `${desafio.titulo}: ${desafio.detalhe.toLowerCase()}` : undefined} para="/rezar/desafios" />
-        <ItemLista icone={Flame} titulo="Terço da Misericórdia" para="/rezar/misericordia" />
-        <ItemLista icone={Shield} titulo="Terço de São Miguel" para="/rezar/sao-miguel" />
-        <ItemLista icone={Crown} titulo="Consagração a Nossa Senhora" detalhe={consagracao?.detalhe ?? "Em 33 dias"} para="/rezar/consagracao" />
-        <ItemLista icone={Moon} titulo="Pequeno Ofício de Nossa Senhora" para="/rezar/oficio" />
-        <ItemLista icone={Footprints} titulo="Via-Sacra" para="/rezar/via-sacra" />
-        <ItemLista
-          icone={CalendarHeart}
-          titulo="Semana Santa"
-          detalhe={santa !== null ? `Hoje: ${NOMES_DA_SEMANA_SANTA[santa]}` : `Domingo de Ramos: ${diaEMes(domingoDeRamos(ano))}`}
-          para="/rezar/semana-santa"
-        />
-        <ItemLista icone={ScrollText} titulo="Ladainhas" para="/rezar/ladainhas" />
-        <ItemLista icone={Cross} titulo="Exame de consciência" para="/rezar/exame" />
-        <ItemLista icone={HeartHandshake} titulo="Como se confessar" para="/rezar/confissao" />
-        <ItemLista icone={Church} titulo="A Missa, parte por parte" para="/rezar/missa" />
-        <ItemLista icone={BookHeart} titulo="Pelos falecidos" para="/rezar/falecidos" />
+      <div className="flex flex-col gap-6">
+        <Grupo titulo="Todos os dias">
+          <ItemLista icone={CircleDot} titulo="Terço" detalhe={`Hoje: ${misteriosDoDia(l.data).nome}`} para="/rezar/terco" />
+          <ItemLista icone={HandHeart} titulo="Orações" detalhe="Em português e latim" para="/rezar/oracoes" />
+          <ItemLista icone={ScrollText} titulo="Ladainhas" para="/rezar/ladainhas" />
+          <ItemLista icone={Moon} titulo="Pequeno Ofício de Nossa Senhora" para="/rezar/oficio" />
+        </Grupo>
+        <Grupo titulo="Devoções">
+          <ItemLista icone={ListOrdered} titulo="Novenas" detalhe={novena ? `${novena.titulo}: ${novena.detalhe.toLowerCase()}` : undefined} para="/rezar/novenas" />
+          <ItemLista icone={Sprout} titulo="Tempos e meses" detalhe={desafio ? `${desafio.titulo}: ${desafio.detalhe.toLowerCase()}` : undefined} para="/rezar/desafios" />
+          <ItemLista icone={Flame} titulo="Terço da Misericórdia" para="/rezar/misericordia" />
+          <ItemLista icone={Shield} titulo="Terço de São Miguel" para="/rezar/sao-miguel" />
+          <ItemLista icone={Crown} titulo="Consagração a Nossa Senhora" detalhe={consagracao?.detalhe ?? "Em 33 dias"} para="/rezar/consagracao" />
+          <ItemLista icone={Footprints} titulo="Via-Sacra" para="/rezar/via-sacra" />
+          <ItemLista
+            icone={CalendarHeart}
+            titulo="Semana Santa"
+            detalhe={santa !== null ? `Hoje: ${NOMES_DA_SEMANA_SANTA[santa]}` : `Domingo de Ramos: ${diaEMes(domingoDeRamos(ano))}`}
+            para="/rezar/semana-santa"
+          />
+        </Grupo>
+        <Grupo titulo="Vida cristã">
+          <ItemLista icone={Cross} titulo="Exame de consciência" para="/rezar/exame" />
+          <ItemLista icone={HeartHandshake} titulo="Como se confessar" para="/rezar/confissao" />
+          <ItemLista icone={Church} titulo="A Missa, parte por parte" para="/rezar/missa" />
+          <ItemLista icone={BookHeart} titulo="Pelos falecidos" para="/rezar/falecidos" />
+        </Grupo>
       </div>
     </div>
   );
