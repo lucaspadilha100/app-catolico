@@ -117,7 +117,7 @@ const mes: MesDeSantos = {
       historia: [
         "Henrique nasceu em 973 na Baviera, filho do duque Henrique, e recebeu boa educação cristã, em parte do bispo Santo Volfgango de Ratisbona. Em 995 tornou-se duque da Baviera, em 1002 rei da Germânia e em 1014 foi coroado imperador em Roma pelo papa Bento VIII. Foi casado com Santa Cunegundes.",
         "Como governante teve de enfrentar guerras e revoltas, mas procurou manter a paz e a justiça. Apoiou a reforma da vida monástica e do clero, que então começava a partir de mosteiros como Cluny, escolheu bispos dignos e ajudou os pobres. Em 1007 fundou a diocese de Bamberg e construiu sua catedral, onde está sepultado com a esposa.",
-        "Morreu em 13 de julho de 1024. Foi canonizado em 1146 pelo papa Eugênio III.",
+        "Morreu em 13 de julho de 1024, no castelo de Grone, perto de Göttingen. Foi canonizado em 1146 pelo papa Eugênio III. Sua esposa, Cunegundes, que depois de viúva se fez monja, foi canonizada em 1200.",
         "Henrique mostra que é possível exercer o poder político com fé, buscando o bem do povo e da Igreja.",
       ],
     },

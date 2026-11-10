@@ -28,7 +28,7 @@ const mes: MesDeSantos = {
       historia: [
         "Marcelino era padre e Pedro exercia o ministério de exorcista na Igreja de Roma no começo do século IV. Morreram durante a grande perseguição do imperador Diocleciano, por volta do ano 304.",
         "O papa São Dâmaso, poucas décadas depois, deixou uma inscrição em versos sobre eles. Ali conta que ouviu, quando menino, o relato do próprio carrasco: os dois foram levados a um bosque fora da cidade, obrigados a cavar a própria sepultura e ali decapitados, para que ninguém achasse seus corpos. Mesmo assim os cristãos os encontraram e os sepultaram nas catacumbas da Via Labicana.",
-        "O imperador Constantino mandou erguer uma basílica junto ao túmulo deles, e seus nomes entraram na Oração Eucarística I, o Cânon Romano, onde são lembrados até hoje.",
+        "O imperador Constantino mandou erguer uma basílica junto ao túmulo deles, e ali perto foi sepultada sua mãe, Santa Helena, e seus nomes entraram na Oração Eucarística I, o Cânon Romano, onde são lembrados até hoje.",
         "Pouco se sabe da vida dos dois. Basta saber que preferiram morrer a negar a Cristo e que a Igreja de Roma nunca os esqueceu.",
       ],
     },
@@ -278,7 +278,7 @@ const mes: MesDeSantos = {
       historia: [
         "Em julho do ano 64 um grande incêndio destruiu boa parte de Roma. Correu o boato de que o próprio imperador Nero mandara atear o fogo. Para desviar a culpa, ele acusou os cristãos, um grupo ainda pequeno e malvisto.",
         "O historiador romano Tácito, que não era cristão, conta que uma grande multidão foi presa e morta com crueldade, em espetáculos nos jardins do imperador. O papa São Clemente, numa carta escrita poucas décadas depois, também fala desses mártires. Seus nomes não ficaram registrados.",
-        "A memória foi colocada no dia seguinte à solenidade de São Pedro e São Paulo, que morreram na mesma perseguição, para honrar todos aqueles fiéis anônimos que formavam a primeira comunidade cristã de Roma.",
+        "A memória entrou no calendário geral na reforma de 1969. Foi colocada no dia seguinte à solenidade de São Pedro e São Paulo, que morreram na mesma perseguição, para honrar todos aqueles fiéis anônimos que formavam a primeira comunidade cristã de Roma.",
         "Estes mártires sem nome lembram que a Igreja foi construída também pela fidelidade de pessoas simples, conhecidas só de Deus.",
       ],
     },

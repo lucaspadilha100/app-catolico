@@ -22,3 +22,15 @@ público, CC0), baixadas por `npm run gerar:santos`.
 - Frei Galvão: as "pílulas" ficaram de fora.
 - Imagem tirada: "The Guardian Angel" (Jacopo de' Barbari) para os Anjos da
   Guarda, por ter figuras de peito descoberto e um caduceu.
+
+## Abril e maio
+- Santo Expedito (19/4, fora do calendário): nome em antigas listas de
+  mártires de Melitene, por volta de 303; o corvo ("cras"/"hodie") é lenda;
+  não está no Calendário Romano geral. Situação no Martirológio atual não
+  confirmada.
+- Gregório VII sem data de canonização. Fátima: idades 10, 8 e 7 anos.
+  Cristeros: 25 mártires, de 1915 a 1937. Fidélis, Isidoro, Atanásio (17 anos
+  de exílio): conferir.
+- Sem imagem de propósito: Francisco de Paula, Atanásio, Maria Madalena de
+  Pazzi, Estanislau e Adalberto (obras de homônimos). Tirada a de Filipe e
+  Tiago (a gravura mostra uma figura só).

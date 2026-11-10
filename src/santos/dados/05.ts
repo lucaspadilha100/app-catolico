@@ -46,7 +46,6 @@ const mes: MesDeSantos = {
         "Os dois são celebrados no mesmo dia porque as suas relíquias foram colocadas juntas na Basílica dos Santos Apóstolos, em Roma, no século VI. Desde 1969 a festa é em 3 de maio.",
         "Filipe e Tiago lembram que conhecer Jesus é conhecer o Pai, e que a fé se mostra nas obras.",
       ],
-      imagem: { artic: 140635, titulo: "Saint Philip and Saint James the Lesser", artista: "Israhel van Meckenem, the younger", data: "1490/1503" },
     },
     {
       id: "sao-joao-de-avila",
