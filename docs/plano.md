@@ -64,13 +64,14 @@ Legenda: ✅ pronto · 🔨 em andamento · ⬜ a fazer · 👤 precisa do dono
   (decisão do dono); registro em `docs/biblia/decisoes.md` e
   `fontes/biblia/revisao/conferencia/`
 - ✅ Botão "Avisar erro" no versículo
-- 🔨 Passada final de nomes próprios (mesma grafia na Bíblia toda)
+- ✅ Passada final de nomes próprios: 129 nomes na mesma grafia na Bíblia toda
+  (`fontes/biblia/revisao/conferencia/nomes.md`)
 - ⬜ 👤 Leitura dos Evangelhos e Salmos revisados (e, se possível, um padre ou
   catequista da paróquia)
 - ⬜ Introdução curta dos 73 livros
 - ⬜ Busca no texto, marcações e notas, planos de leitura
 
-### Leva 5. Terço e orações ✅
+### Leva 5. Terço e orações 🔨
 - ✅ Terço guiado completo: sinal da cruz, oferecimento, Creio, três Ave-Marias,
   mistérios com passagem bíblica e meditação, dezenas, oração de Fátima,
   Salve-Rainha e oração final; modo contas (toque na tela inteira e vibração),
