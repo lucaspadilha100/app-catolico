@@ -7,3 +7,6 @@ Tb 1,18: "tendo em ódio aos filhos de Israel em sua presença" (Vulgata "exosos
 Tb 2,11: "lixo quente" (Vulgata "calida stercora", DR "hot dung") vertido "excremento quente": "lixo" de 1950 tem esse sentido, que hoje se perdeu.
 Tb 3,4: "entregues à pirataria" (Vulgata "in direptionem", DR "to spoil") vertido "entregues ao saque".
 Tb 3,16: número solto "1" depois de "marido" (resto de nota): retirado.
+Tb 4,17: Figueiredo "com os pobres e com os que tem fome" | Vulgata "cum esurientibus et egenis" | decidido: mantida a ideia, na ordem do latim ("os famintos e os necessitados").
+Tb 4,21-22: "o seu escrito" (chirographum) vertido "o recibo que ele assinou" / "o seu recibo"; em 1,17 ficou "um escrito de sua própria mão", como o Figueiredo, porque ali a frase é ambígua.
+Tb 4,22: número solto "1" depois de "dele": retirado.
