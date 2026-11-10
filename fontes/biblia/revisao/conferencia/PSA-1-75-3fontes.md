@@ -4,7 +4,11 @@ Segunda passada. 1207 versículos conferidos com o Figueiredo 1950, a Vulgata
 Clementina, a Douay-Rheims e o hebraico (Westminster Leningrad Codex, numeração
 hebraica: Sl 9 = Sl 9-10; Sl 10-75 = Sl 11-76). As correções da primeira passada
 (`PSA-1-75.md`) e as decisões de `docs/biblia/decisoes.md` foram mantidas. O Sl 22
-é a amostra aprovada pelo dono e não foi mexido.
+é a amostra aprovada pelo dono e não foi mexido. As cinco linhas (R, F, V, D,
+hebraico) de todos os versículos foram lidas; a saída de
+`scripts/biblia/lado-a-lado.mjs PSA <N> PSA <N+1>` foi conferida, linha a linha,
+contra o que foi lido (mesmas fontes, mesmo alinhamento, nenhuma diferença), e os
+versículos corrigidos foram relidos nela.
 
 ## Corrigido
 

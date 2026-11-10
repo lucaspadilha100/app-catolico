@@ -1,6 +1,6 @@
 # Conferência de fidelidade: Apocalipse (REV)
 
-405 versículos conferidos (Ap 1 a 22), revisado × Figueiredo 1950, com três réguas: Vulgata Clementina, Douay-Rheims e o grego original (Byzantine Textform 2013). Onde o grego difere da Vulgata por tradição textual (5,8 "recebeu" × "aperuisset"; 6,8 "a eles" × "illi"; 10,8 "a voz que ouvi" × "audivi vocem"; 10,11 "dizem" × "dixit"; 17,11 "ele é o oitavo" × "ipsa octava"; 22,14 "guardam os mandamentos" × "lavant stolas"), valeu a Vulgata. Todas as notas do revisor (`REV/notas-1-22.md`) que tratam de sentido estão resolvidas abaixo. Todos os capítulos passam em `conferir-capitulo.mjs` e `conferir-revisao.mjs`.
+405 versículos conferidos (Ap 1 a 22), revisado × Figueiredo 1950, com três réguas: Vulgata Clementina, Douay-Rheims e o grego original (Byzantine Textform 2013). Onde o grego difere da Vulgata por tradição textual (5,8 "recebeu" × "aperuisset"; 6,8 "a eles" × "illi"; 10,8 "a voz que ouvi" × "audivi vocem"; 10,11 "dizem" × "dixit"; 17,11 "ele é o oitavo" × "ipsa octava"; 22,14 "guardam os mandamentos" × "lavant stolas"), valeu a Vulgata. Cada versículo foi lido nas cinco linhas (revisado, Figueiredo, Vulgata, Douay-Rheims e grego), com `scripts/biblia/lado-a-lado.mjs`. Todas as notas do revisor (`REV/notas-1-22.md`) que tratam de sentido estão resolvidas abaixo. Todos os capítulos passam em `conferir-capitulo.mjs` e `conferir-revisao.mjs`.
 
 ## Corrigido
 
@@ -71,4 +71,6 @@ Ap 18,23 | Figueiredo: "nos teus encantamentos erraram tôdas as gentes" | Vulga
 Ap 19,10; 22,8 | Figueiredo: "para o adorar" | Vulgata: ut adorarem eum | decidido: mantido "adorar" | é a adoração que o anjo recusa ("Adora a Deus")
 Ap 19,20; 20,9-10.14-15; 21,8 | Figueiredo: "tanque ardente de fogo" | Vulgata: stagnum ignis; Douay-Rheims: pool of fire | decidido: mantido "lago de fogo" | a Vulgata sustenta (stagnum)
 Ap 20,5 | Figueiredo: "não tornarão à vida" | Vulgata: non vixerunt; Douay-Rheims: lived not | decidido: mantido o futuro do Figueiredo ("não voltarão à vida") | escolha do Figueiredo
+Ap 21,3 | Figueiredo: "voz vinda do trono" | Vulgata: de throno; Douay-Rheims: from the throne; grego: εκ του ουρανου | decidido: mantido "do trono" | vale a Vulgata
+Ap 22,19 | Figueiredo: "a sua parte do livro da vida" | Vulgata: de libro vitæ; Douay-Rheims: out of the book of life; grego: απο του ξυλου της ζωης | decidido: mantido "do livro da vida" | vale a Vulgata
 Ap 22,14 | Figueiredo: "lavam as suas vestiduras no sangue do Cordeiro" | Vulgata: lavant stolas suas in sanguine Agni; Douay-Rheims: wash their robes; grego bizantino: ποιουντες τας εντολας αυτου | decidido: mantido o Figueiredo | vale a Vulgata
