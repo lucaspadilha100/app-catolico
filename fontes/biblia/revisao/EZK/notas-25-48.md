@@ -5,3 +5,5 @@ Ez 26,9: "mantas de guerra e vaivéns" → "manteletes e aríetes" (Vulgata "vin
 Ez 26,20: "lago" (Vulgata "lacum") → "cova", como lugar dos mortos.
 Ez 27,5: "faia de Sanir" mantido (Vulgata "abietibus", abetos): escolha do Figueiredo.
 Ez 27,26: Figueiredo: "te quebrou no coração do" (palavra perdida no fim da linha) | Vulgata: "in corde maris" | Douay-Rheims: "in the heart of the sea" | decidido: "no coração do mar".
+Ez 28,14: "que estendia as suas asas e protegia a arca e o propiciatório" mantido (Vulgata só "cherub extentus, et protegens"): explicação que o Figueiredo pôs no texto; o dono confere se fica.
+Ez 28,13: "cornalina" mantido para "onyx" (escolha do Figueiredo).

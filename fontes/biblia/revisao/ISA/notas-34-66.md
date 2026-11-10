@@ -82,3 +82,5 @@ Is 65,10: "de colheita de gados" (Vulgata "in cubile armentorum") ficou "de abri
 Is 65,15: "para juramento aos meus escolhidos" ficou "como fórmula de juramento" (Vulgata "in juramentum"; a Douay-Rheims entende maldição).
 Is 65,16: "do Deus da verdade" mantido como no Figueiredo (Vulgata "in Deo, amen").
 Is 65,18: Figueiredo: "Mas vós folgareis, e exultarei para sempre" | Vulgata: gaudebitis et exsultabitis | Douay-Rheims: you shall be glad and rejoice | decidido: "vos alegrareis e exultareis" (letra perdida, exultarei/exultareis).
+Is 66,9: as duas perguntas com "diz o Senhor" no meio ficaram com o "diz o Senhor" à frente de cada uma, para a frase não quebrar.
+Is 66,23: "se mudarão noutras festas de cada mês, e o sábado noutro sábado" ficou "se seguirão de mês em mês, e o sábado, de sábado em sábado" (Vulgata "erit mensis ex mense, et sabbatum ex sabbato").
