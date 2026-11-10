@@ -40,3 +40,10 @@ Ap 19,6: "Porque reinou o Senhor" ficou "começou a reinar" (latim "regnavit"); 
 Ap 19,8: "as justificações dos Santos" virou "as obras justas dos santos" (latim "justificationes"); conferir se o dono prefere "justificações".
 Ap 19,10: mantido "para adorá-lo" (é a adoração que o anjo recusa: "Adora a Deus"); o mesmo em 22,8.
 Ap 19,20: "tanque ardente de fogo e de enxofre" virou "lago de fogo que arde com enxofre" (latim "stagnum"), igual em 20,9-10.14-15 e 21,8.
+Ap 2,13: "a cadeira de satanás" virou "o trono de Satanás" (latim "sedes"); "cadeiras" dos anciãos (11,16) e de 20,4 viraram "tronos".
+Ap 2-3: o recado de cada carta ficou entre aspas, depois de "Escreve ao anjo da Igreja de ...:", fechando no "Quem tem ouvidos".
+Ap 16,15: a fala de Cristo no meio da narração ("Eis aí venho como ladrão") ficou entre aspas, sem dizer quem fala, como no texto.
+Ap 20,5: mantido o futuro do Figueiredo ("não tornarão à vida"; latim "non vixerunt").
+Ap 22,1: a fonte trazia grudado um cabeçalho ("... O AUTOR DESTA PROFECIA. 1"); removido.
+Ap 22,5: a fonte trazia uma nota de rodapé no meio da frase ("mas S. João faz especialmente alusão a Ez 47,1."); removida.
+Ap 22,14: mantido "lavam as suas vestiduras no sangue do Cordeiro" do Figueiredo e da Vulgata (o grego bizantino traz "guardam os seus mandamentos"); "para terem parte na árvore da vida" ficou "para terem direito à árvore da vida" (latim "ut sit potestas eorum").

@@ -31,3 +31,9 @@ Js 15,28: Figueiredo: "Hasersula" | Vulgata: "Hasersual" | Douay-Rheims: "Hasers
 Js 15,40: Figueiredo: "Kebon" | Vulgata: "Chebbon" | Douay-Rheims: "Chebbon" | decidido: "Quebon" (grafia portuguesa do mesmo nome).
 Js 17,4: Figueiredo: "E José lhes deu seu quinhão" (José já tinha morrido; quem reparte é Josué, citado no mesmo versículo) | Vulgata: "Deditque eis" | Douay-Rheims: "And he gave them" | decidido: "Josué lhes deu" (troca de letra na edição).
 Js 17,11: asterisco solto no fim do versículo; retirado.
+Js 18,1: número de página ("— 331 —") no fim do versículo; retirado.
+Js 18,14: "da banda de África" (Vulgata "contra Africum", o vento do sudoeste): vertido "do lado do sudoeste", para o leitor não pensar no continente; conferir se o dono prefere manter "da banda da África".
+Js 18,14: Figueiredo: "termina-se em Cariatiarim" | Vulgata: "in Cariath-baal, quæ vocatur et Cariathiarim" | Douay-Rheims: "Cariathbaal, which is called also Cariathiarim" | decidido: mantido o Figueiredo (o sentido não muda; pode ser abreviação do tradutor).
+Js 18,26: Figueiredo: "Arnosa" (OCR) | Vulgata: "Amosa" | Douay-Rheims: "Amosa" | decidido: "Amosa".
+Js 18,27: Figueiredo: "Tareia" (OCR) | Vulgata: "Tharela" | Douay-Rheims: "Tharala" | decidido: "Tarela".
+Js 18,28: Figueiredo: "Jebtis" (OCR) | Vulgata: "Jebus" | Douay-Rheims: "Jebus" | decidido: "Jebus".
