@@ -28,3 +28,5 @@ Tb 9,9: "esmoler" vertido "caridoso com os pobres" (Vulgata "eleemosynas facient
 Tb 10,4: número solto "1" depois de "inconsoláveis": retirado.
 Tb 11,8: número solto "1" depois de "certo que": retirado.
 Tb 11,14: "belida" (Vulgata "albugo", DR "a white skin") vertido "película branca".
+Tb 12,3: Figueiredo: "êle encheu de alegria a seus pais" | Vulgata: "gaudium parentibus ejus fecit" | Douay-Rheims: "he gave joy to her parents" | decidido: "os pais dela", para não parecer que são os pais de Tobias, que estão ouvindo.
+Tb 12,7: "é coisa de honra manifestar e publicar" vertido "é coisa honrosa revelar e proclamar".

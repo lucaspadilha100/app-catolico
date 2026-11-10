@@ -31,3 +31,6 @@ Jr 49,1: cabeçalho de página grudado no começo do versículo ("smros, E DOS C
 Jr 49,3: Figueiredo: "Gritai, filhos de Rabat" | Vulgata: "clamate, filiæ Rabbath" | Douay-Rheims: "cry, ye daughters of Rabbath" | decidido: "filhas" (provável OCR).
 Jr 49,17: Figueiredo: "dará multa vaia à tôdas as suas perdas" (OCR) | Vulgata: "sibilabit super omnes plagas ejus" | Douay-Rheims: "shall hiss at all its plagues" | decidido: "assobiará diante de todas as suas pragas".
 Jr 49,21: "mar Roxo" ficou "mar Vermelho".
+Jr 50,9: Figueiredo: "e trarei conhaste la mão direita, e na esquerda um ralo, de que mais tarde tra Babilônia grandes exércitos" (OCR misturou linhas de outro texto) | Vulgata: "et adducam in Babylonem congregationem gentium magnarum" | Douay-Rheims: "and will bring against Babylon an assembly of great nations" | decidido: "e farei vir contra a Babilônia grandes exércitos de nações", tirando o trecho estranho.
+Jr 50,17: sinal solto "(S)" no fim do versículo (OCR); retirado.
+Jr 50,15: "deu as mãos" (Vulgata "dedit manum", render-se) ficou "se rendeu".

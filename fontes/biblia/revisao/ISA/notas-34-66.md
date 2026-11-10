@@ -40,3 +40,9 @@ Is 49,7 e 49,23: "te adorarão" ficou "se prostrarão diante de ti" (termo fixo)
 Is 50,7: OCR "não foi confundido" lido "não fui confundido" (Vulgata "non sum confusus").
 Is 51,1: "a caverna do lago" (Vulgata "cavernam laci", a cova) ficou "a escavação da cova".
 Is 51,20: "assim como o orige tomado no laço" ficou "como o órix preso no laço" (Vulgata "oryx").
+Is 52,6: a fonte traz "( S)" no fim (resto de chamada de nota); removido.
+Is 52,8: OCR "fües bantarão a voz" lido "Êles levantarão a voz" (Vulgata "levaverunt vocem").
+Is 52,10: "verão o Salvador, que nosso Deus nos há de enviar" mantido como no Figueiredo (Vulgata "salutare Dei nostri", a salvação do nosso Deus).
+Is 53,1: Figueiredo "Quem deu crédito ao que nos ouviu?" ficou "ao que ouviu de nós" (Vulgata "auditui nostro", o que anunciamos). Versículo da Sexta-feira Santa.
+Is 53,2: "não tinha parecença do que era, e por isso nós o estranhamos" mantido no sentido do Figueiredo (Vulgata "et desideravimus eum", Douay-Rheims "that we should be desirous of him"); escolha de tradução do Figueiredo. O dono decide.
+Is 53,10 e 53,12: "a sua alma" (anima) ficou "a sua vida" quando é dar a vida; "na sua enfermidade" ficou "no sofrimento".
