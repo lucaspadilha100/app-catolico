@@ -46,3 +46,6 @@ Jt 13,23: "0 J filha ... que há 11 a terra" (OCR): lido "Ó filha ... que há n
 Jt 13,27: Figueiredo: "cortou esta noite pela minha mão o chefe de todos os incrédulos" | Vulgata: "caput omnium incredulorum incidit" | Douay-Rheims: "hath cut off the head of all the unbelievers" | decidido: "cortou ... a cabeça do chefe de todos os incrédulos", juntando o "chefe" do Figueiredo e a "cabeça" do latim (o jogo de "caput"); conferir.
 Jt 13,30: "e a adorou" vertido "prostrou-se diante dela" (adorar só para Deus).
 Jt 13,31: "bendita do teu Senhor" vertido "bendita do teu Deus" (Vulgata "a Deo tuo"); "em tôda a casa de Jacó" mantido (Vulgata "in omni tabernaculo Jacob").
+Jt 14,6: "vendo a maravilha" vertido "vendo o poder" (Vulgata "virtutem", termo fixo); "deixadas as superstições da gentilidade" vertido "deixou os ritos dos gentios" (Vulgata "relicto gentilitatis ritu").
+Jt 14,8: número solto "9" no fim do versículo (resto de numeração): retirado.
+Jt 14,16: Figueiredo: "Uma mulher hebréia" | Vulgata: "Una mulier hebræa" | decidido: "Uma só mulher hebreia", como no latim.
