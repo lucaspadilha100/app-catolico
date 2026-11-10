@@ -28,7 +28,11 @@ export function ReflexaoCompleta({ canonica }: { canonica: string | null }) {
   const r = useReflexao(canonica);
   const { hash } = useLocation();
   useEffect(() => {
-    if (r && hash === "#reflexao") document.getElementById("reflexao")?.scrollIntoView({ block: "start" });
+    if (!r || hash !== "#reflexao") return;
+    const ir = () => document.getElementById("reflexao")?.scrollIntoView({ block: "start" });
+    ir();
+    const t = setTimeout(ir, 700);
+    return () => clearTimeout(t);
   }, [r, hash]);
   if (!r) return null;
   return (
