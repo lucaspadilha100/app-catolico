@@ -38,3 +38,7 @@ Ez 41,1: "postes" → "pilares" (Vulgata "frontes"); o mesmo em 41,3.
 Ez 41,6: "trinta e três em cada andar" mantido (Vulgata "bis triginta tria", "duas vezes trinta e três"): leitura do Figueiredo; o dono confere.
 Ez 41,22: Figueiredo: "A altura do altar de madeira era de três côvados: E os seus cantos..." (falta a medida do comprimento) | Vulgata: "trium cubitorum altitudo, et longitudo ejus duorum cubitorum" | Douay-Rheims: "three cubits high: and the length thereof was two cubits" | decidido: restaurado "e dois côvados de comprimento".
 Ez 41,24: "nestas duas batentes" → "nessas duas portas" (Vulgata "in duobus ostiis").
+Ez 42,18: legenda de gravura grudada no fim ("AQUI É ONDE COMEM OS SACERDOTES"); retirada, texto conferido pela Vulgata.
+Ez 42,6: "as colunas que tinham não eram como as colunas dos átrios" mantido (Vulgata "non habebant columnas, sicut erant columnæ atriorum", "não tinham colunas como as dos átrios"): leitura do Figueiredo; o dono confere.
+Ez 42,13: "porão o Santo dos Santos" → "porão as coisas santíssimas" (Vulgata "ibi ponent Sancta sanctorum", as ofertas santíssimas; Douay-Rheims "the most holy things"); "câmaras do Tesouro" → "salas do tesouro".
+Ez 42,20: as quatro medidas de 42,16-19 são "quinhentas canas" e a de 42,20 "quinhentos côvados", como no Figueiredo e na Vulgata.
