@@ -72,3 +72,7 @@ Is 61,3: "Para pôr aos que choram de Sião" (Vulgata "ut ponerem lugentibus Sio
 Is 61,11: OCR "o lomor" lido "o louvor".
 Is 62,2: "o teu ínclito" ficou "o teu Glorioso" (Vulgata "inclytum tuum"), em maiúscula como "o teu Justo".
 Is 62,8: o juramento do Figueiredo segue a forma hebraica ("Se eu der o teu trigo... E se os filhos alheios beberem o teu vinho"), que em português fica sem fim; ficou com o sentido de juramento, "Nunca mais darei... nem os estrangeiros beberão" (Douay-Rheims "Surely I will no more give"). O dono decide.
+Is 63,1-6: o diálogo (pergunta do profeta, resposta do Senhor) ficou sem aspas, como os demais oráculos; só 63,8 ("Apesar de tudo, este é o meu povo") leva aspas.
+Is 63,11: a fonte traz "( S)" no fim; removido. As perguntas "Onde está aquele que..." seguem até 63,13, que fecha com interrogação (como na Vulgata).
+Is 63,16 e 64,8: "nosso pai", dito a Deus, ficou com maiúscula ("o nosso Pai").
+Is 64: o hebraico começa um versículo antes (o 64,1 da Vulgata é o fim de 63,19 no hebraico); a numeração segue a fonte. A fonte traz "(l)" no fim de 64,1; removido.

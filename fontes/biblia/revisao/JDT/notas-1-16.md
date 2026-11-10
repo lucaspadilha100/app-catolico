@@ -39,3 +39,10 @@ Jt 11,18: "aos seus oficiais" vertido "aos seus servos" (Vulgata "pueris ejus", 
 Jt 12,2: "para não vir sôbre mim a indignação" mantido do Figueiredo (Vulgata "offensio", DR "sin").
 Jt 12,4: Figueiredo: "à tenda, que ela tinha ordenado" | Vulgata: "in tabernaculum quod præceperat" | Douay-Rheims: "which he had commanded" | decidido: "a tenda que ele tinha mandado" (Holofernes deu a ordem em 12,1).
 Jt 12,14: número solto "1" no fim do versículo: retirado.
+Jt 13,10.19: "pavilhão" (Vulgata "conopeum") vertido "mosquiteiro", como o próprio Figueiredo diz em 10,19 para a mesma palavra.
+Jt 13,13: número solto "1" no fim do versículo: retirado.
+Jt 13,19: "onde o Senhor nosso Deus o degolou" vertido "o feriu" (Vulgata "percussit"); conferir se o dono prefere manter "degolou".
+Jt 13,23: "0 J filha ... que há 11 a terra" (OCR): lido "Ó filha ... que há na terra".
+Jt 13,27: Figueiredo: "cortou esta noite pela minha mão o chefe de todos os incrédulos" | Vulgata: "caput omnium incredulorum incidit" | Douay-Rheims: "hath cut off the head of all the unbelievers" | decidido: "cortou ... a cabeça do chefe de todos os incrédulos", juntando o "chefe" do Figueiredo e a "cabeça" do latim (o jogo de "caput"); conferir.
+Jt 13,30: "e a adorou" vertido "prostrou-se diante dela" (adorar só para Deus).
+Jt 13,31: "bendita do teu Senhor" vertido "bendita do teu Deus" (Vulgata "a Deo tuo"); "em tôda a casa de Jacó" mantido (Vulgata "in omni tabernaculo Jacob").
