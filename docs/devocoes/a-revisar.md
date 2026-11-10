@@ -140,3 +140,17 @@ ponto de atenção.
   Pe. Figueiredo, que traduziu a Vulgata para o português.
 - Setembro, dia 9: Êx 20 começa pela proibição de imagens; a prática pede os
   mandamentos "como estão no catecismo".
+
+## Pequeno Ofício de Nossa Senhora
+- Base: "The Little Office of the Blessed Virgin Mary… in Latin and English"
+  (Nova York, 1915, archive.org `littleofficeofbl00newy`), conferida com os
+  arquivos do Divinum Officium (`horas/Latin/Commune/C10`, `C11`, `C12`).
+- Só a forma do tempo comum (de 3 de fevereiro ao Advento). Fora: formas do
+  Advento e do Natal, mudanças completas do Tempo Pascal (só rubricas), festas
+  marianas, Ofício dos Defuntos, "Aperi, Domine" e "Sacrosanctae".
+- As três lições (Eclo 24) são as mesmas nos três noturnos, como na edição.
+- Rubrica do fim das Laudes ("Se a Prima não se reza logo em seguida…") é
+  acréscimo pelo costume do Breviário. Comemoração de todos os santos omitida
+  (suprimida em 1955). Matinas terminam no Te Deum.
+- Traduções: "os doces cantos do drama sagrado", "pelas mulheres devotas",
+  "Virgem sagrada", "intacta", "vencestes" (as heresias). Hinos em prosa fiel.

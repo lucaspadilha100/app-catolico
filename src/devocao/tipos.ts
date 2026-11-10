@@ -5,7 +5,7 @@ export type Revisao = "a revisar pelo dono" | "revisado";
 export type Bloco =
   | { titulo: string }
   | { texto: string }
-  | { leitura: string; titulo?: string; poema?: boolean }
+  | { leitura: string; titulo?: string; poema?: boolean; inicio?: string; fim?: string }
   | { rezar: string; vezes?: number }
   | { linhas: Linha[]; titulo?: string }
   | { antifona: string }

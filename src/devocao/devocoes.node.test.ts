@@ -44,12 +44,12 @@ function textosDoBloco(b: Bloco): string[] {
   return [];
 }
 
-const leituras = new Set<string>();
+const leituras = new Map<string, { inicio?: string; fim?: string }>();
 
 function conferirBlocos(onde: string, blocos: Bloco[], { noturno = false } = {}) {
   for (const b of blocos) {
     const chaves = Object.keys(b);
-    if ("leitura" in b) leituras.add(b.leitura);
+    if ("leitura" in b) leituras.set(`${b.leitura}|${b.inicio ?? ""}|${b.fim ?? ""}`, { inicio: b.inicio, fim: b.fim });
     else if ("rezar" in b) expect(ORACOES[b.rezar], `${onde}: oração ${b.rezar}`).toBeDefined();
     else if ("linhas" in b) {
       expect(b.linhas.length, onde).toBeGreaterThan(0);
@@ -178,7 +178,8 @@ describe("orações novas", () => {
 
 describe("leituras", () => {
   it("toda leitura citada existe e tem texto", async () => {
-    for (const referencia of leituras) {
+    for (const [chave, { inicio, fim }] of leituras) {
+      const referencia = chave.split("|")[0]!;
       const intervalos = intervalosDaReferencia(referencia);
       expect(intervalos.length, referencia).toBeGreaterThan(0);
       let esperados = 0;
@@ -190,6 +191,8 @@ describe("leituras", () => {
       expect(versiculos.length, referencia).toBeGreaterThan(0);
       if (intervalos.every((i) => i.de[0] === i.ate[0])) expect(versiculos.length, referencia).toBe(esperados);
       for (const v of versiculos) expect(v.texto.trim(), referencia).not.toBe("");
+      if (inicio) expect(versiculos[0]!.texto, `${referencia}: início "${inicio}"`).toContain(inicio);
+      if (fim) expect(versiculos.at(-1)!.texto, `${referencia}: fim "${fim}"`).toContain(fim);
     }
   });
 });

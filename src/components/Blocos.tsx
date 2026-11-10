@@ -31,7 +31,7 @@ function UmBloco({ b, data }: { b: Bloco; data?: Dia }) {
       <div className="rounded-2xl border border-borda bg-cartao p-4 sm:p-5">
         {b.titulo && <p className={`${ROTULO} mb-1`}>{b.titulo}</p>}
         <p className="font-leitura text-lg font-semibold text-destaque-texto">{referenciaParaLer(b.leitura)}</p>
-        <TextoDaLeitura canonica={b.leitura} poema={!!b.poema} />
+        <TextoDaLeitura canonica={b.leitura} poema={!!b.poema} inicio={b.inicio} fim={b.fim} />
       </div>
     );
   if ("rezar" in b) {
