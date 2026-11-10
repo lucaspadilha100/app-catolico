@@ -64,6 +64,10 @@ tradição textual, vale a Vulgata (é a Bíblia que o Figueiredo traduziu).
   Siquém); Aram (filho de Sem) e Arã (irmão de Abrão), nunca "Arão" para eles
 - Nomes: a mesma pessoa ou lugar com a mesma grafia em toda a Bíblia (Gat,
   Joaquim o pai e Joaquin o filho, rei de Judá; Amnon, filho de Davi; Jeroão)
+- "Assim diz o Senhor" (nunca "Isto diz o Senhor").
+- Profetas: o oráculo (o Senhor falando pela boca do profeta, "Assim diz o
+  Senhor...") vai SEM aspas; aspas só em diálogo e em fala citada dentro do
+  oráculo (como em Jeremias 1-26 e nos profetas menores).
 - Sem referências cruzadas entre parênteses nos títulos.
 
 ## Ordem e numeração

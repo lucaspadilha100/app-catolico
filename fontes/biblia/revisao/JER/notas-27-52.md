@@ -40,3 +40,4 @@ Jr 51,35: Figueiredo: "A sua injustiça contra mim" | Vulgata: "Iniquitas advers
 Jr 52,31-33: "Joaquim" mantido para o rei levado cativo (Vulgata "Joachin", Douay-Rheims "Joachin", o Jeconias de 27,20); o Figueiredo usa o mesmo nome do pai. O dono decide se fica "Joaquin" para distinguir.
 Jr 52,12: Figueiredo: "que mandava pelo rei de Babilônia em Jerusalém" | Vulgata: "qui stabat coram rege Babylonis, in Jerusalem" | Douay-Rheims: "who stood before the king of Babylon, into Jerusalem" | decidido: mantido o sentido do Figueiredo ("que comandava em Jerusalém em nome do rei da Babilônia").
 Jr 52,30: número de página "~ 407" grudado no meio do versículo (OCR); retirado.
+Jr 27-52: nomes alinhados com Jr 1-26: "Aicam" (Aicão no Figueiredo), "Safã", "Elnatã"; "Aquilão" ficou "norte" e "Meio-dia" ficou "sul", como em 1-26. Mantidos da Vulgata/Figueiredo: Masfat, Joanan, Carée, Jonatan, Nabuzardan, Gabaon, Hesebon, Ascalon, Tafnis, Magdalo, Faturés.

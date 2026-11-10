@@ -16,3 +16,12 @@ Jt 6,1: Figueiredo: "Holofernes, fortemente endurecido" | Vulgata: "indignatus H
 Jt 6,13: número solto "1" depois de "cólera": retirado.
 Jt 6,15: "os que presumem de ti" vertido "os que confiam em ti" (Vulgata "præsumentes de te", DR "them that trust on thee"); "atende ao voto dos que tu santificaste" mantido do Figueiredo (Vulgata "faciem sanctorum tuorum attende").
 Jt 6,21: "fizeram oração dentro da igreja" (Vulgata "intra ecclesiam") vertido "oraram reunidos em assembleia", pelo termo fixo do Antigo Testamento.
+Jt 7,4: "fizesse resplandecer sôbre êles a sua misericórdia" mantido "sobre eles" (Vulgata "super populum suum"): escolha do Figueiredo.
+Jt 7,15.17: o Figueiredo alterna "faze ajuntar" (a Ozias) e "entregueis" (aos chefes), e a Vulgata tem plural nos dois; mantida a alternância do Figueiredo.
+Jt 7,17: "o qual se torna mais dilatado pelo ardor da sede" vertido "e não mais longo pelo ardor da sede".
+Jt 7,24: número solto "1" no fim do versículo: retirado.
+Jt 8,1: Figueiredo: "filho de Janor" | Vulgata: "Jamnor" | Douay-Rheims: "Jamnor" | decidido: "Jamnor" (OCR). "Melquia", "Natania" vertidos "Melquias", "Natanias".
+Jt 8,4: número solto "1" no fim do versículo: retirado.
+Jt 8,5: Figueiredo: "no anelar superior de sua casa" | Vulgata: "in superioribus domus suæ" | decidido: "no andar de cima" (OCR).
+Jt 8,26: "não nos impacientemos" mantido do Figueiredo, embora a Vulgata diga "non ulciscamur nos" (DR "let us not revenge ourselves"); conferir se o dono prefere seguir o latim.
+Jt 8,34: "príncipe de Judá" vertido "chefe de Judá" (Ozias é chefe da cidade, 6,11).

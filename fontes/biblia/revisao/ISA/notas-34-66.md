@@ -58,3 +58,12 @@ Is 56,9: a fonte traz "( S)" no fim; removido.
 Is 56,12: a fala dos pastores ("Vinde, tomemos vinho...") ficou entre aspas, sem verbo de dizer, como na fonte.
 Is 57,4: OCR "mpa geração bastarda" lido "uma geração bastarda".
 Is 57,15: mantida a construção do Figueiredo ("o seu santo nome habita nas alturas"), que difere da Vulgata ("sanctum nomen ejus: in excelso et in sancto habitans").
+Is 58,3: a pergunta do povo ("Por que jejuamos...") ficou entre aspas, sem verbo de dizer, como na fonte.
+Is 58,13: o fim do versículo na fonte ("e se não acha a tua vontade para falares palavras") é truncado; ficou "nem fazendo a tua vontade, falando as tuas palavras" (Vulgata "et non invenitur voluntas tua, ut loquaris sermonem").
+Is 59,11: "meditando rolaremos como pombas" ("rolar" no sentido antigo de arrulhar) ficou "gemeremos como pombas" (Vulgata "gememus").
+Is 59,16: "êle salvou para si o seu braço" (Vulgata "salvavit sibi brachium suum") ficou "o seu braço lhe trouxe a salvação".
+Is 59,19: Figueiredo: "Quando êle vier como um rei impetuoso" | Vulgata: quasi fluvius violentus | Douay-Rheims: as a violent stream | decidido: "como um rio impetuoso" (letra trocada, rio/rei).
+Is 60,1: a fonte traz "(})" no fim (resto de chamada de nota); removido. Versículo da Epifania.
+Is 60,6: "técuas de camelos" (palavra que não se acha) ficou "manadas de camelos" (Vulgata "inundatio camelorum"). Conferir no PDF.
+Is 60,14: "adorarão os rastos dos teus pés" ficou "se prostrarão diante das pegadas dos teus pés" (termo fixo).
+Is 60,22: "e o mais pequeno sôbre à nação mais forte" mantido no sentido do Figueiredo ("mais que a nação mais forte"); a Vulgata diz "in gentem fortissimam" (se tornará uma nação fortíssima).
