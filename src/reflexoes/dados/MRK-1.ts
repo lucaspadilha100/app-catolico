@@ -439,7 +439,7 @@ const parte: ParteDasReflexoes = {
       paragrafos: [
         "No Templo, os chefes dos sacerdotes, os escribas e os anciãos interrogam Jesus: “Com que autoridade fazes essas coisas?” Ele tinha acabado de expulsar os vendedores. Jesus responde com outra pergunta: o batismo de João vinha do céu ou dos homens?",
         "Eles discutem entre si, não para buscar a verdade, mas para ver qual resposta lhes convém. Se dissessem que vinha do céu, teriam de explicar por que não creram; se dissessem que vinha dos homens, teriam problema com o povo. Respondem: “Não sabemos.” E Jesus também não lhes responde. Quem não quer reconhecer a verdade que já viu não está pronto para receber mais.",
-        "Esse modo de pensar não é só deles. Também nós às vezes calculamos o que convém dizer, fugimos das perguntas que exigiriam mudança e ficamos no “não sei” para não nos comprometer. Jesus pede sinceridade. Quem busca a verdade com o coração reto encontra nele a autoridade de Deus.",
+        "Esse modo de pensar não é só deles. Também nós às vezes calculamos o que convém dizer, fugimos das perguntas que exigiriam mudança e dizemos que não sabemos, só para não nos comprometer. Jesus pede sinceridade. Quem busca a verdade com o coração reto encontra nele a autoridade de Deus.",
       ],
       pergunta: "Que verdade eu evito encarar porque me obrigaria a mudar?",
     },
