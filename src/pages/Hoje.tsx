@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
-import { BookOpenText, Church, Sparkles, CircleDot } from "lucide-react";
+import { BookOpenText, ChevronRight, Church, Sparkles, CircleDot, ListChecks } from "lucide-react";
+import { emAndamento } from "@/devocao/andamento";
+import { useDevocoesGuardadas } from "@/devocao/progresso";
 import { useDiaLiturgico } from "@/lib/useDiaLiturgico";
 import { dataPorExtenso } from "@/liturgia/datas";
 import { NOME_DA_COR, NOME_DO_GRAU, NOME_DO_TEMPO, type CorLiturgica } from "@/liturgia/calendario";
@@ -24,7 +26,9 @@ const ROTULO_CURTO: Partial<Record<TipoLeitura, string>> = {
 };
 
 export default function Hoje() {
+  useDevocoesGuardadas();
   const l = useDiaLiturgico();
+  const andamento = emAndamento(l.data).slice(0, 4);
   const terco = misteriosDoDia(l.data);
   const missas = useLeituras(l);
   const memoria = l.celebracao?.grau === "memoria" ? l.celebracao : null;
@@ -92,6 +96,25 @@ export default function Hoje() {
           Rezar o terço
         </Link>
       </Cartao>
+
+      {andamento.length > 0 && (
+        <Cartao>
+          <TituloCartao icone={ListChecks}>Em andamento</TituloCartao>
+          <ul className="mt-2 flex flex-col divide-y divide-borda">
+            {andamento.map((i) => (
+              <li key={i.para}>
+                <Link to={i.para} className="flex min-h-14 items-center gap-3 py-2.5">
+                  <span className="min-w-0 flex-1">
+                    <span className="block font-leitura text-[1.05rem] font-semibold leading-snug text-marca">{i.titulo}</span>
+                    <span className="text-sm text-tinta-suave">{i.detalhe}</span>
+                  </span>
+                  <ChevronRight className="size-5 shrink-0 text-tinta-suave" aria-hidden />
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </Cartao>
+      )}
 
       {l.santos.length > 0 && (
         <Cartao>

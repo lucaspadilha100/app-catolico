@@ -1,4 +1,5 @@
 import { useCallback, useState } from "react";
+import { registrarOracao } from "@/devocao/progresso";
 
 function ler<T>(chave: string, padrao: T): T {
   try {
@@ -70,5 +71,6 @@ export function contarTercoRezado(tipo: string): number {
   const todos = ler<Record<string, number>>(CHAVE_REZADOS, {});
   todos[tipo] = (todos[tipo] ?? 0) + 1;
   gravar(CHAVE_REZADOS, todos);
+  registrarOracao();
   return todos[tipo]!;
 }

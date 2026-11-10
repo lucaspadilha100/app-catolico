@@ -1,4 +1,5 @@
 import type { Tempo } from "@/liturgia/calendario";
+import { MAIS_ORACOES } from "./oracoes-devocoes";
 
 export type Linha =
   | string
@@ -6,7 +7,7 @@ export type Linha =
   | { invocacoes: string[]; resposta: string }
   | { rezar: string };
 
-export type GrupoDeOracoes = "principais" | "marianas" | "dia" | "ladainhas" | "terco";
+export type GrupoDeOracoes = "principais" | "marianas" | "hinos" | "dia" | "ladainhas" | "terco";
 
 export interface Oracao {
   id: string;
@@ -21,12 +22,13 @@ export interface Oracao {
 export const NOME_DO_GRUPO: Record<GrupoDeOracoes, string> = {
   principais: "Orações principais",
   marianas: "Nossa Senhora",
+  hinos: "Hinos",
   dia: "Ao longo do dia",
   ladainhas: "Ladainhas",
   terco: "Do terço",
 };
 
-export const ORDEM_DOS_GRUPOS: GrupoDeOracoes[] = ["principais", "marianas", "dia", "ladainhas", "terco"];
+export const ORDEM_DOS_GRUPOS: GrupoDeOracoes[] = ["principais", "marianas", "hinos", "dia", "ladainhas", "terco"];
 
 const KYRIE_PT: Linha[] = [
   { v: "Senhor, tende piedade de nós.", r: "Senhor, tende piedade de nós." },
@@ -811,6 +813,8 @@ const LISTA: Oracao[] = [
     ],
   },
 ];
+
+LISTA.push(...MAIS_ORACOES);
 
 export const ORACOES: Record<string, Oracao> = Object.fromEntries(LISTA.map((o) => [o.id, o]));
 

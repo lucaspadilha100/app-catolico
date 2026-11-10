@@ -40,3 +40,5 @@ export const nomeDoDiaDaSemana = (d: Dia): string => NOMES_DIAS[diaDaSemana(d)]!
 
 export const dataPorExtenso = (d: Dia): string =>
   `${nomeDoDiaDaSemana(d)}, ${d.getUTCDate()} de ${NOMES_MESES[d.getUTCMonth()]} de ${d.getUTCFullYear()}`;
+
+export const diaEMes = (d: Dia): string => `${d.getUTCDate()} de ${NOMES_MESES[d.getUTCMonth()]}`;
