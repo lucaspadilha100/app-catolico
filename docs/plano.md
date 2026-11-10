@@ -170,12 +170,21 @@ Legenda: ✅ pronto · 🔨 em andamento · ⬜ a fazer · 👤 precisa do dono
 - ⬜ Capelas das paróquias (Sant'Ana e outras)
 - ⬜ Mapa (OpenFreeMap, só ao tocar em "Mapa"), se o dono quiser
 
-### Leva 12. Terço da Juventude ⬜
-- ⬜ Cadastro pela paróquia ou por qualquer grupo
-- ⬜ Busca "perto de mim" junto com Missas
-- ⬜ Roteiro do encontro: quem conduz, leituras, músicas, intenções, avisos
-- ⬜ Terço ao vivo sincronizado (o grupo acompanha pelo celular)
-- ⬜ Lembrete do encontro da semana
+### Leva 12. Terço da Juventude 🔨
+- ✅ Cadastro por qualquer pessoa com conta (paróquia ou comunidade, dia,
+  hora, semanas do mês, endereço, Instagram, WhatsApp), no máximo 5 por
+  pessoa; nasce "aguardando revisão" e o admin aprova no Painel
+- ✅ Busca junto com Missas (chip "Terço": perto de mim, cidade, dia, período)
+- ✅ Roteiro do encontro: mistérios (os do dia, ou outros), quem conduz cada
+  dezena, música entre as dezenas (título e link, nunca a letra), intenções, avisos
+- ✅ Terço ao vivo: o responsável conduz e todos acompanham pelo celular,
+  inclusive de longe (testado com duas telas no banco de verdade)
+- ✅ Seguir um terço (guardado e sincronizado com a conta); compartilhar no WhatsApp
+- ✅ Regras de acesso testadas (quem cadastra, aprova, monta e conduz)
+- ⬜ Foto do grupo (precisa de armazenamento de imagens)
+- ⬜ Mais de um responsável por terço (hoje só quem cadastrou e o admin)
+- ⬜ Lembrete do encontro da semana para quem segue (com as notificações, Leva 15 e 16)
+- ⬜ 👤 Revisar e aprovar os primeiros terços cadastrados no Painel
 
 ### Leva 13. Comunidade ⬜
 - ⬜ Intenções guiadas com "rezei por você"
