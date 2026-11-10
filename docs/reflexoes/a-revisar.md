@@ -86,3 +86,18 @@ O teste garante que todo Evangelho que o app mostra de 2025 a 2036 tem a sua.
   ao céu", mesmo sentido. Lc 11,13 "o espírito bom" (Vulgata, onde o grego
   tem Espírito Santo). Lc 9,43b-45: o app ainda não corta meio versículo nas
   leituras do lecionário, então o v. 43 aparece inteiro.
+
+## Mateus 1 a 13 (MAT-1)
+- "Irmãos" de Jesus como parentes próximos; "não a conheceu enquanto…" com a
+  virgindade perpétua (CIC 499-500).
+- Mt 5,32 e 19,9: a exceção "a não ser por causa de fornicação" não foi
+  interpretada; só a indissolubilidade (CIC 1640, 2382).
+- Mt 11,12 "os violentos arrebatam o Reino" lido como decisão firme contra o
+  próprio pecado, "segundo a tradição da Igreja": confirmar.
+- Mt 11,2-11: não se diz que João duvidou.
+- CIC citados: 305, 478, 490-492, 496-497, 499-500, 528, 536, 538-540, 577-582,
+  862, 880-881, 1038-1042, 1434, 1438, 1441-1442, 1640, 1717, 2068, 2154,
+  2185, 2270, 2382, 2840.
+- Bíblia, palavras antigas: "Fazei penitência" (Mt 3,2; 4,17), "Raca",
+  "alqueire", "côvado", "asse", "pães da proposição", "pão nosso, necessário à
+  nossa subsistência" (Mt 6,11, o "supersubstantialem" da Vulgata).
