@@ -36,7 +36,7 @@ Conferidos versículo a versículo (revisado × Figueiredo 1950 × Vulgata Cleme
 - Jo 16,28 | antes: ...vim ao mundo; agora deixo outra vez o mundo e volto para o Pai. | depois: ...vim ao mundo; outra vez deixo o mundo e volto para o Pai. | "agora" não está no Figueiredo ("Outra vez deixo o mundo") nem no latim
 - Jo 18,9; 18,32; 19,24 | antes: Assim se cumpria a palavra que ele (Jesus) tinha dito... | depois: Era para que se cumprisse a palavra que ele (Jesus) tinha dito... | o mesmo de Jo 12,38: o Figueiredo diz "Para se cumprir" (finalidade)
 
-## Para o dono decidir
+## Decidido pelas fontes (ver docs/biblia/decisoes.md)
 
 Casos em que o texto da nossa fonte parece ter perdido uma palavra ou ter erro de impressão, ou em que há escolha de termo. Onde digo "a revisão já está assim", o revisor já mudou o Figueiredo e só falta o seu OK.
 
@@ -56,3 +56,13 @@ Casos em que o texto da nossa fonte parece ter perdido uma palavra ou ter erro d
 ## Notas do revisor
 
 As notas de `LUK-notas.md` e `JHN-notas.md` foram conferidas. A de Lc 2,36 ("desde a sua virgindade") foi resolvida em "Corrigido". As de sentido que pedem decisão estão acima (Lc 1,48; Lc 22,18; Jo 19,38; e os erros de digitação do item 6). As demais registram escolhas de tradução do Figueiredo mantidas pelo revisor (Lc 3,16; 3,38; 4,19; 9,55; 13,32; 17,22; 22,69; Jo 2,4; 5,37; 6,58; 8,24; 8,25; 12,16; 14,31; 19,29; 21,22), troca de palavra antiga sem mudança de sentido ou ajuste de divisão de versículos já refletido na numeração atual; nada a mudar. A nota de Lc 17,35-37 está desatualizada: a revisão já segue a divisão atual (35 as mulheres, 36 os do campo, 37 a pergunta e a resposta), com o conteúdo inteiro do Figueiredo.
+
+### Aplicado em 10/11/2026 (Vulgata + Douay-Rheims + PDF de 1950)
+- Lc 22,20 | Figueiredo: "o Novo Testamento no meu sangue" | Vulgata: novum testamentum; Douay-Rheims: new testament | decidido: "a nova aliança", termo fixo nos quatro relatos da Ceia
+- Jo 19,38 | Figueiredo: "ainda que era por medo dos judeus" | Vulgata: occultus autem propter metum; Douay-Rheims: but secretly for fear | decidido: "mas às ocultas, por medo dos judeus" | omissão da edição
+- Jo 9,8 | transcrição sem a frase final; PDF de 1950: "Respondiam uns: Êste é." | decidido: restaurada ("Uns respondiam: “É ele.”"), também na fonte figueiredo-1950
+- Jo 20,15 | Figueiredo (PDF de 1950) sem "A quem procuras?" | Vulgata: quem quaeris?; Douay-Rheims: whom seekest thou? | decidido: acrescentada | omissão da edição
+- Lc 22,18 | Figueiredo: "fruto da vida" | Vulgata: generatione vitis; Douay-Rheims: fruit of the vine | decidido: "fruto da videira"
+- Lc 11,42; Jo 5,3; Jo 18,9; Jo 21,21 | erros de digitação da fonte corrigidos pelo revisor | decidido: mantidas as correções (latim confirma)
+- Jo 8,58 | Figueiredo: "sou eu" | Vulgata: ego sum; Douay-Rheims: I am | decidido: "eu sou"
+- Lc 1,48 | Figueiredo: "baixeza" | Vulgata: humilitatem; Douay-Rheims: humility | decidido: "pequenez" (sentido de condição humilde, sem o peso pejorativo de hoje)
