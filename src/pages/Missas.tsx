@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState, type FormEvent, type ReactNode } from "react";
+import { useEffect, useMemo, useRef, useState, type FormEvent, type ReactNode } from "react";
 import { Link, useParams, useSearchParams } from "react-router-dom";
 import { AtSign, BadgeCheck, Check, ChevronDown, ChevronRight, Clock, Globe, Heart, LocateFixed, Mail, MapPin, MessageCircle, Navigation, Pencil, Phone, Plus, Search, Share2 } from "lucide-react";
 import { usePreferencias } from "@/lib/preferencias";
@@ -69,8 +69,16 @@ function rotuloDoDia(d: Date, agora: Date): string {
 }
 
 function Chips<T extends string>({ opcoes, valor, onChange, rolar }: { opcoes: readonly (readonly [T, string])[]; valor: T; onChange: (v: T) => void; rolar?: boolean }) {
+  const caixa = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    if (!rolar) return;
+    const ativo = caixa.current?.querySelector<HTMLElement>('[aria-pressed="true"]');
+    const c = caixa.current;
+    if (ativo && c) c.scrollTo({ left: Math.max(0, ativo.offsetLeft - c.clientWidth / 2 + ativo.clientWidth / 2), behavior: "smooth" });
+  }, [rolar, valor]);
   return (
     <div
+      ref={caixa}
       className={rolar ? "-mx-4 flex gap-2 overflow-x-auto px-4 pb-1 [scrollbar-width:none] md:-mx-8 md:px-8" : "flex flex-wrap gap-2"}
       role="group"
     >
@@ -89,16 +97,16 @@ function Chips<T extends string>({ opcoes, valor, onChange, rolar }: { opcoes: r
   );
 }
 
-function Segmentos<T extends string>({ opcoes, valor, onChange }: { opcoes: readonly (readonly [T, string])[]; valor: T; onChange: (v: T) => void }) {
+function Segmentos<T extends string>({ opcoes, valor, onChange, cheio }: { opcoes: readonly (readonly [T, string])[]; valor: T; onChange: (v: T) => void; cheio?: boolean }) {
   return (
-    <div className="flex rounded-full border border-borda bg-cartao p-0.5" role="group">
+    <div className={`flex rounded-full border border-borda bg-cartao p-0.5 ${cheio ? "w-full" : ""}`} role="group">
       {opcoes.map(([v, nome]) => (
         <button
           key={v}
           type="button"
           aria-pressed={v === valor}
           onClick={() => onChange(v)}
-          className={`min-h-9 rounded-full px-3.5 text-sm font-medium ${v === valor ? "bg-marca-fundo text-destaque-texto" : "text-tinta-suave"}`}
+          className={`min-h-9 rounded-full text-sm font-medium whitespace-nowrap ${cheio ? "flex-1 px-1" : "px-3.5"} ${v === valor ? "bg-marca-fundo text-destaque-texto" : "text-tinta-suave"}`}
         >
           {nome}
         </button>
@@ -533,7 +541,7 @@ export function Missas() {
             <>
               <Chips opcoes={TIPOS.map((t) => [t, NOME_DO_TIPO_DE_HORARIO[t]] as const)} valor={tipo} onChange={(v) => mudarParams({ tipo: v === "missa" ? null : v })} />
               <Chips rolar opcoes={dias} valor={diaAtivo} onChange={(v) => mudarParams({ quando: v === "agora" ? null : v, periodo: v === "agora" ? null : periodo || null })} />
-              {quando !== "agora" && <Chips opcoes={PERIODOS} valor={periodo} onChange={(v) => mudarParams({ periodo: v || null })} />}
+              {quando !== "agora" && <Segmentos cheio opcoes={PERIODOS} valor={periodo} onChange={(v) => mudarParams({ periodo: v || null })} />}
 
               <div className="flex items-center justify-between gap-3 pt-1">
                 <span className="text-sm text-tinta-suave">
@@ -597,7 +605,7 @@ function GradeDeHorarios({ horarios, agora }: { horarios: Horario[]; agora: Date
             <ul className="mt-2 flex flex-col divide-y divide-borda">
               {grupos.map((g) => {
                 const ehHoje = g.dias.includes(agora.getDay());
-                const observacoes = [...new Set(g.horarios.map((h) => h.observacao).filter(Boolean))];
+                const comum = g.horarios.every((h) => h.observacao === g.horarios[0]!.observacao) ? g.horarios[0]!.observacao : "";
                 return (
                   <li key={g.rotulo} className="flex flex-col gap-1.5 py-3 sm:grid sm:grid-cols-[9.5rem_1fr] sm:gap-3">
                     <span className="flex items-center gap-2 font-medium text-tinta">
@@ -609,15 +617,13 @@ function GradeDeHorarios({ horarios, agora }: { horarios: Horario[]; agora: Date
                         {g.horarios.map((h) => (
                           <span key={h.id} className="rounded-lg bg-marca-fundo px-2.5 py-1 font-semibold text-destaque-texto">
                             {descreverHorario(h)}
-                            {h.semanas?.length ? <span className="font-medium text-tinta-suave"> · {descreverSemanas(h.semanas)}</span> : null}
+                            {(h.semanas?.length || (!comum && h.observacao)) && (
+                              <span className="font-medium text-tinta-suave"> · {[descreverSemanas(h.semanas), !comum && h.observacao].filter(Boolean).join(" · ")}</span>
+                            )}
                           </span>
                         ))}
                       </span>
-                      {observacoes.map((o) => (
-                        <span key={o} className="text-sm text-tinta-suave">
-                          {o}
-                        </span>
-                      ))}
+                      {comum && <span className="text-sm text-tinta-suave">{comum}</span>}
                     </span>
                   </li>
                 );
@@ -654,7 +660,7 @@ function Contato({ href, icone: Icone, rotulo, children }: { href: string; icone
         <Icone className="size-5 shrink-0 text-destaque-texto" aria-hidden />
         <span className="min-w-0 flex-1">
           <span className="block text-xs text-tinta-suave">{rotulo}</span>
-          <span className="block truncate font-medium text-tinta">{children}</span>
+          <span className="block font-medium text-tinta [overflow-wrap:anywhere]">{children}</span>
         </span>
         <ChevronRight className="size-4 shrink-0 text-tinta-suave" aria-hidden />
       </a>
