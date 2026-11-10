@@ -1,4 +1,4 @@
-import { BookHeart, CalendarHeart, CircleDot, Cross, Crown, Flame, HandHeart, ListOrdered, Moon, ScrollText, Footprints, Shield, Sprout } from "lucide-react";
+import { BookHeart, CalendarHeart, Church, HeartHandshake, CircleDot, Cross, Crown, Flame, HandHeart, ListOrdered, Moon, ScrollText, Footprints, Shield, Sprout } from "lucide-react";
 import { useDiaLiturgico } from "@/lib/useDiaLiturgico";
 import { misteriosDoDia } from "@/liturgia/terco";
 import { diaEMes } from "@/liturgia/datas";
@@ -45,8 +45,10 @@ export default function Rezar() {
           para="/rezar/semana-santa"
         />
         <ItemLista icone={ScrollText} titulo="Ladainhas" para="/rezar/ladainhas" />
-        <ItemLista icone={Cross} titulo="Exame de consciência" />
-        <ItemLista icone={BookHeart} titulo="Pelos falecidos" />
+        <ItemLista icone={Cross} titulo="Exame de consciência" para="/rezar/exame" />
+        <ItemLista icone={HeartHandshake} titulo="Como se confessar" para="/rezar/confissao" />
+        <ItemLista icone={Church} titulo="A Missa, parte por parte" para="/rezar/missa" />
+        <ItemLista icone={BookHeart} titulo="Pelos falecidos" para="/rezar/falecidos" />
       </div>
     </div>
   );

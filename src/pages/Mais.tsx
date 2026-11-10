@@ -1,5 +1,5 @@
 import type { ReactNode } from "react";
-import { CalendarDays, Heart, Music, Sparkles, Users } from "lucide-react";
+import { CalendarDays, NotebookPen, Heart, Music, Sparkles, Users } from "lucide-react";
 import { usePreferencias, type Letra, type Tema } from "@/lib/preferencias";
 import { Cartao, ItemLista, TituloPagina } from "@/components/Cartao";
 import { DIOCESES } from "@/liturgia/dioceses";
@@ -69,6 +69,7 @@ export default function Mais() {
       <div className="flex flex-col gap-3">
         <ItemLista icone={Sparkles} titulo="Santos" para="/santos" />
         <ItemLista icone={CalendarDays} titulo="Calendário litúrgico" para="/calendario" />
+        <ItemLista icone={NotebookPen} titulo="Diário espiritual" detalhe="Diário e propósitos" para="/diario" />
         <ItemLista icone={Users} titulo="Intenções e grupos" />
         <ItemLista icone={Music} titulo="Músicas" />
       </div>
@@ -104,6 +105,15 @@ export default function Mais() {
             ...DIOCESES.map((d) => ({ valor: d.id, nome: d.nome.replace("Arquidiocese de ", "").replace("Diocese de ", "") })),
           ]}
         />
+        <label className="flex flex-col gap-2">
+          <span className="font-medium">Dia do seu batismo</span>
+          <input
+            type="date"
+            value={p.batismo}
+            onChange={(e) => mudar({ batismo: e.target.value })}
+            className="min-h-12 rounded-xl border border-borda bg-papel px-3 text-base"
+          />
+        </label>
         <Interruptor rotulo="Modo simples" ligado={p.simples} onChange={(simples) => mudar({ simples })} />
       </Cartao>
 

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { BookOpenText, ChevronRight, Church, Sparkles, CircleDot, ListChecks } from "lucide-react";
+import { BookOpenText, ChevronRight, Droplets, Flower2, Church, Sparkles, CircleDot, ListChecks } from "lucide-react";
 import { emAndamento } from "@/devocao/andamento";
 import { useDevocoesGuardadas } from "@/devocao/progresso";
 import { diaLiturgico } from "@/liturgia/calendario";
@@ -9,6 +9,7 @@ import { santosDaDataMMDD } from "@/santos/santos";
 import type { Santo } from "@/santos/tipos";
 import { ehDiaDePreceito, NOME_DA_PENITENCIA, penitenciaDoDia } from "@/liturgia/preceitos";
 import { usePreferencias } from "@/lib/preferencias";
+import { NOME_DA_LEMBRANCA, aniversarioDeBatismo, lembrancasDeHoje, useFalecidos } from "@/vida/lembrancas";
 import { useDiaLiturgico } from "@/lib/useDiaLiturgico";
 import { dataPorExtenso } from "@/liturgia/datas";
 import { NOME_DA_COR, NOME_DO_GRAU, NOME_DO_TEMPO, type CorLiturgica } from "@/liturgia/calendario";
@@ -37,7 +38,16 @@ export default function Hoje() {
   useDevocoesGuardadas();
   const l = useDiaLiturgico();
   const andamento = emAndamento(l.data).slice(0, 4);
-  const { diocese } = usePreferencias().preferencias;
+  const { diocese, batismo } = usePreferencias().preferencias;
+  const [falecidos] = useFalecidos();
+  const lembrancas = [
+    ...lembrancasDeHoje(falecidos, l.data).map(({ falecido, lembranca }) =>
+      lembranca.tipo === "aniversario"
+        ? `${lembranca.anos} ${lembranca.anos === 1 ? "ano" : "anos"} do falecimento de ${falecido.nome}`
+        : `${NOME_DA_LEMBRANCA[lembranca.tipo]} do falecimento de ${falecido.nome}`,
+    ),
+  ];
+  const anosDeBatismo = aniversarioDeBatismo(batismo, l.data);
   const mmdd = paraIso(l.data).slice(5).replace("-", "");
   const [santosDoDia, setSantosDoDia] = useState<Santo[]>([]);
   useEffect(() => {
@@ -134,6 +144,31 @@ export default function Hoje() {
           Rezar o terço
         </Link>
       </Cartao>
+
+      {lembrancas.length > 0 && (
+        <Cartao>
+          <TituloCartao icone={Flower2}>Pelos falecidos</TituloCartao>
+          <ul className="mt-3 flex flex-col gap-1.5">
+            {lembrancas.map((t) => (
+              <li key={t} className="font-leitura text-[1.05rem] text-marca">
+                {t}
+              </li>
+            ))}
+          </ul>
+          <Link to="/rezar/falecidos" className="mt-4 flex min-h-12 items-center justify-center rounded-xl border border-borda bg-papel px-4 font-semibold text-destaque-texto">
+            Rezar por eles
+          </Link>
+        </Cartao>
+      )}
+
+      {anosDeBatismo && (
+        <Cartao>
+          <TituloCartao icone={Droplets}>Aniversário do seu batismo</TituloCartao>
+          <p className="mt-3 font-leitura text-xl font-semibold text-marca">
+            {anosDeBatismo} {anosDeBatismo === 1 ? "ano" : "anos"} de batizado
+          </p>
+        </Cartao>
+      )}
 
       {andamento.length > 0 && (
         <Cartao>
