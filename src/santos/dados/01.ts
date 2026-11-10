@@ -68,7 +68,7 @@ const mes: MesDeSantos = {
       nomes: ["Hilário", "Hilária"],
       resumo: "Bispo de Poitiers, na França, que sofreu o exílio por defender a divindade de Cristo.",
       historia: [
-        "Hilário nasceu por volta do ano 315, em Poitiers, na Gália, atual França, numa família pagã e rica. Recebeu boa educação e, procurando o sentido da vida, chegou à fé cristã pela leitura das Escrituras. Era casado quando foi batizado. Por volta de 350, o povo de Poitiers o escolheu como bispo.",
+        "Hilário nasceu por volta do ano 315, em Poitiers, na Gália, atual França, numa família pagã e rica. Recebeu boa educação e, procurando o sentido da vida, chegou à fé cristã pela leitura das Escrituras. Segundo a tradição, era casado e tinha uma filha. Por volta de 350, o povo de Poitiers o escolheu como bispo.",
         "Naquele tempo, a heresia ariana, que negava que Jesus fosse Deus como o Pai, tinha o apoio do imperador Constâncio II. Hilário recusou-se a condenar Santo Atanásio, defensor da fé do Concílio de Niceia, e por isso foi exilado na Frígia, na Ásia Menor, em 356.",
         "No exílio, escreveu a sua obra principal, um tratado sobre a Santíssima Trindade. Voltou a Poitiers por volta de 360 e continuou a trabalhar para reconduzir à fé os bispos que tinham cedido ao erro. Acolheu e orientou São Martinho, futuro bispo de Tours. Morreu por volta de 367.",
         "O papa Pio IX o declarou doutor da Igreja em 1851. Hilário ensina a defender a verdade sem ódio e a buscar a unidade da fé.",
@@ -130,7 +130,7 @@ const mes: MesDeSantos = {
       historia: [
         "Inês é uma das mártires mais veneradas de Roma. Morreu muito jovem, com cerca de doze ou treze anos, provavelmente no início do século IV, na perseguição de Diocleciano. Santo Ambrósio e o papa São Dâmaso escreveram sobre ela poucas décadas depois, o que mostra como a sua memória era viva.",
         "Segundo a tradição, Inês tinha prometido a sua vida a Cristo e recusou os pedidos de casamento que recebeu. Denunciada como cristã, permaneceu firme diante das ameaças e foi condenada à morte. Santo Ambrósio admira que uma menina, ainda pequena para entender o mundo, tenha dado um testemunho tão forte.",
-        "Foi sepultada na Via Nomentana, onde, no século IV, se construiu uma basílica em sua honra. No dia da sua festa, são abençoados ali dois cordeiros, cuja lã é usada para tecer os pálios que o papa entrega aos arcebispos. O cordeiro lembra o seu nome, parecido com a palavra latina agnus, e a sua inocência.",
+        "Foi sepultada na Via Nomentana, onde, no século IV, se construiu uma basílica em sua honra. No dia da sua festa, em Roma, são abençoados dois cordeiros, cuja lã é usada para tecer os pálios que o papa entrega aos arcebispos. O cordeiro lembra o seu nome, parecido com a palavra latina agnus, e a sua inocência.",
         "O nome de Inês está na Oração Eucarística I. Ela ensina que a fé não depende da idade e que Deus dá força aos pequenos.",
       ],
       padroeiro: ["das meninas e das jovens"],
@@ -144,7 +144,7 @@ const mes: MesDeSantos = {
       nomes: ["Vicente", "Vicência"],
       resumo: "Diácono de Saragoça, na Espanha, morto em Valência na perseguição de Diocleciano.",
       historia: [
-        "Vicente era diácono da Igreja de Saragoça, na Espanha, e ajudava o bispo Valério, que tinha dificuldade para falar. Por isso cabia a ele pregar ao povo. Na perseguição de Diocleciano, os dois foram presos e levados a Valência, diante do governador Daciano.",
+        "Vicente era diácono da Igreja de Saragoça, na Espanha, e ajudava o bispo Valério. Segundo os antigos relatos, o bispo tinha dificuldade para falar, e por isso cabia a Vicente pregar ao povo. Na perseguição de Diocleciano, os dois foram presos e levados a Valência, diante do governador Daciano.",
         "O bispo foi mandado para o exílio. Vicente, que respondia por ambos com firmeza, foi submetido a duros tormentos e deixado numa prisão escura. Não renegou a fé e morreu no ano de 304. Santo Agostinho pregou vários sermões no dia da sua festa, e o poeta Prudêncio escreveu um hino em sua honra, o que mostra como ele era conhecido em toda a Igreja.",
         "A devoção a São Vicente espalhou-se pela Espanha e por Portugal. Suas relíquias foram levadas para Lisboa no século XII, e ele é o padroeiro daquela cidade. No Brasil, a cidade de São Vicente, no litoral de São Paulo, primeira vila fundada pelos portugueses no país, em 1532, leva o seu nome.",
         "Vicente ensina que o serviço da caridade e o anúncio da Palavra pedem fidelidade também na hora da prova.",
@@ -218,7 +218,7 @@ const mes: MesDeSantos = {
       resumo: "Frade dominicano, um dos maiores teólogos da Igreja, autor da Suma Teológica.",
       historia: [
         "Tomás nasceu por volta de 1225, no castelo de Roccasecca, perto de Aquino, no sul da Itália, numa família nobre. Aos cinco anos foi levado ao mosteiro beneditino de Monte Cassino. Estudou depois em Nápoles, onde conheceu os dominicanos e decidiu entrar na ordem. A família se opôs e chegou a retê-lo por cerca de um ano, mas ele não desistiu.",
-        "Estudou em Paris e em Colônia com Santo Alberto Magno. Era calado, e os colegas o chamavam de “boi mudo”, mas o mestre previu que a sua doutrina seria ouvida no mundo inteiro. Ensinou em Paris e em várias cidades da Itália. Escreveu muito, sobretudo a Suma Teológica, em que mostra que a fé e a razão não se contradizem.",
+        "Estudou em Paris e em Colônia com Santo Alberto Magno. Era calado, e conta-se que os colegas o chamavam de “boi mudo”, e que o mestre previu que a sua doutrina seria ouvida no mundo inteiro. Ensinou em Paris e em várias cidades da Itália. Escreveu muito, sobretudo a Suma Teológica, em que mostra que a fé e a razão não se contradizem.",
         "A pedido do papa Urbano IV, compôs os textos da missa e do ofício de Corpus Christi, com hinos que a Igreja canta até hoje. Em dezembro de 1273, depois de uma experiência de oração durante a missa, deixou de escrever. Morreu em 7 de março de 1274, na abadia de Fossanova, a caminho do Concílio de Lyon.",
         "Foi canonizado em 1323 e declarado doutor da Igreja em 1567. Sua memória é celebrada no dia em que as suas relíquias foram levadas para Toulouse, em 1369.",
       ],
