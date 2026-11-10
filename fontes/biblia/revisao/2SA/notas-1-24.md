@@ -43,3 +43,4 @@
 2Sm 23,23: "escrivão da Puridade" (puridade = segredo): vertido "encarregado dos assuntos secretos" (Vulgata "a secreto").
 2Sm 24,23: "o rei Areuna deu tudo ao rei" (Vulgata "Areuna rex regi"): mantido.
 2Sm 18,33 / 19,1: a divisão segue o Figueiredo e a Vulgata; no hebraico o 18,33 é o 19,1 e o capítulo 19 tem 44 versículos.
+2Sm 3 e 13: "Amon" (filho de Davi) virou "Amnon", para não confundir com os amonitas (Vulgata Amnon; Douay-Rheims Amnon)
