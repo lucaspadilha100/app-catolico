@@ -8,6 +8,7 @@ import { useLeituras } from "@/lib/useLeituras";
 import { usePreferencias } from "@/lib/preferencias";
 import { Cartao } from "@/components/Cartao";
 import { TextoDaLeitura } from "@/components/TextoBiblico";
+import { ReflexaoCompleta, evangelhoDaMissa } from "@/components/Reflexao";
 
 function rotulo(l: Leitura): string {
   if (l.ou) return "ou";
@@ -103,6 +104,7 @@ export default function Liturgia() {
           </Cartao>
         ))
       )}
+      {missas && <ReflexaoCompleta canonica={evangelhoDaMissa(missas[0])} />}
     </div>
   );
 }

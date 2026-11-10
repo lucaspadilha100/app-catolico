@@ -16,6 +16,7 @@ import { misteriosDoDia } from "@/liturgia/terco";
 import { Cartao, TituloCartao, EmPreparacao } from "@/components/Cartao";
 import type { TipoLeitura } from "@/liturgia/lecionario";
 import { useLeituras } from "@/lib/useLeituras";
+import { ReflexaoResumo, evangelhoDaMissa } from "@/components/Reflexao";
 
 const COR_PONTO: Record<CorLiturgica, string> = {
   verde: "bg-[#2e7a4d]",
@@ -110,6 +111,8 @@ export default function Hoje() {
           Ver a liturgia completa
         </Link>
       </Cartao>
+
+      {missas && <ReflexaoResumo canonica={evangelhoDaMissa(missas[0])} para="/liturgia#reflexao" />}
 
       <Cartao>
         <TituloCartao icone={CircleDot}>Terço de hoje</TituloCartao>
