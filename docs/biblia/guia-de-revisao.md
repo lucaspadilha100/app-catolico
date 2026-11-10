@@ -14,6 +14,32 @@ Tom aprovado pelo dono em 10/11/2026 (amostra: Marcos 1 e Salmo 22).
 - **Cada versículo continua sendo o mesmo versículo**: mesmo número, mesma
   quantidade. Versículo vazio no original continua vazio.
 
+## Fontes de conferência e como decidir
+Decisão do dono (10/11/2026): as dúvidas se resolvem pelas fontes, sem
+esperar por ele. Régua, nunca texto: o latim da **Vulgata Clementina**
+(`fontes/vulgata/`) e a **Douay-Rheims**, Bíblia católica aprovada, traduzida
+da Vulgata (`fontes/douay-rheims/`). As duas em domínio público.
+- **Erro evidente da edição de 1950** (palavra que contradiz o contexto, letra
+  trocada, negação invertida) e a Vulgata e a Douay-Rheims concordam em outra
+  leitura: corrige por elas. Ex.: Sl 104,18 "o erro" → "o ferro"; Sl 89,13
+  "inexorável" → "deixa-te aplacar"; Sl 24,3 "amigos" → "inimigos".
+- **Escolha de tradução do Figueiredo que faz sentido** (mesmo diferente do
+  latim): fica o Figueiredo.
+- **Interpretação do revisor** (explicação acrescentada, sujeito trocado):
+  volta ao sentido literal do Figueiredo.
+- Tudo o que for corrigido pela régua vai para `docs/biblia/decisoes.md`.
+
+## Termos fixos
+- "nova aliança" (testamento do sangue: Mt 26,28; Mc 14,24; Lc 22,20; 1Cor 11,25)
+- "poder" quando "virtude" é força (de Deus, de Cristo, dos milagres);
+  "Senhor dos exércitos" / "Deus dos exércitos" para "Senhor das virtudes";
+  "virtude" fica quando é qualidade moral
+- "loucura" para "estultícia"; "fraqueza" para "enfermidade" quando é fraqueza
+- "Igreja" no Novo Testamento; "assembleia" no Antigo (Salmos incluídos)
+- "chefes dos sacerdotes" (príncipes dos sacerdotes, pontífices); "sumo
+  sacerdote" para um só; "denário"; "barco"; "Em verdade vos digo"; "gentios"
+- Sem referências cruzadas entre parênteses nos títulos.
+
 ## Ordem e numeração
 - Os Evangelhos (e, daqui em diante, os livros revisados) seguem a **ordem e a
   divisão de versículos das Bíblias católicas de hoje e do lecionário** (Nova
