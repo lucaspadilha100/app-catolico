@@ -21,6 +21,35 @@
   </head>
   <body>
     <div id="root"></div>
+    <script>
+      (function () {
+        var erros = [];
+        window.addEventListener("error", function (e) {
+          erros.push((e.message || "erro") + (e.filename ? " (" + e.filename.split("/").pop() + ":" + e.lineno + ")" : ""));
+        });
+        window.addEventListener("unhandledrejection", function (e) {
+          erros.push("promessa: " + (e.reason && (e.reason.message || e.reason)));
+        });
+        window.__recarregarApp = function () {
+          var feito = function () { location.replace("/?r=" + Date.now()); };
+          try {
+            var passos = [];
+            if (navigator.serviceWorker) passos.push(navigator.serviceWorker.getRegistrations().then(function (rs) { return Promise.all(rs.map(function (r) { return r.unregister(); })); }));
+            if (window.caches) passos.push(caches.keys().then(function (ks) { return Promise.all(ks.map(function (k) { return caches.delete(k); })); }));
+            Promise.all(passos).then(feito, feito);
+          } catch (e) { feito(); }
+        };
+        setTimeout(function () {
+          var raiz = document.getElementById("root");
+          if (!raiz || raiz.children.length) return;
+          raiz.innerHTML =
+            '<div style="font-family:-apple-system,system-ui,sans-serif;padding:48px 24px;max-width:28rem;margin:0 auto;color:#341E0D;background:#FBF0DD;min-height:100vh;box-sizing:border-box">' +
+            '<p style="font-size:20px;font-weight:600;margin:0 0 12px">O app não abriu.</p>' +
+            '<button onclick="window.__recarregarApp()" style="font-size:17px;font-weight:600;padding:14px 20px;border-radius:14px;border:0;background:#C9A13B;color:#2A1A0A;width:100%">Recarregar o app</button>' +
+            '<p style="font-size:13px;opacity:.7;margin-top:20px;word-break:break-word">' + (erros.length ? erros.slice(0, 3).join("<br>").replace(/</g, "&lt;").replace(/&lt;br>/g, "<br>") : "sem erro registrado") + " · " + navigator.userAgent.replace(/</g, "") + "</p></div>";
+        }, 6000);
+      })();
+    </script>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
