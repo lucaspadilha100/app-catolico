@@ -125,12 +125,39 @@ const senhor = (nome: string, cor: CorLiturgica = "branco"): Celebracao => ({ no
 const solenidade = (nome: string, cor: CorLiturgica = "branco"): Celebracao => ({ nome, grau: "solenidade", cor });
 const diaSanto = (nome: string, cor: CorLiturgica = "branco"): Celebracao => ({ nome, grau: "dia-santo", cor });
 
+const ID_DO_TEMPO: Record<string, string> = {
+  "Quinta-feira Santa": "quinta-santa",
+  "Sexta-feira da Paixão do Senhor": "sexta-santa",
+  "Sábado Santo": "sabado-santo",
+  "Domingo da Páscoa na Ressurreição do Senhor": "pascoa",
+  "Natal do Senhor": "natal",
+  "Epifania do Senhor": "epifania",
+  "Ascensão do Senhor": "ascensao",
+  "Pentecostes": "pentecostes",
+  "Domingo de Ramos da Paixão do Senhor": "ramos",
+  "Quarta-feira de Cinzas": "cinzas",
+  "2º Domingo da Páscoa ou da Divina Misericórdia": "misericordia",
+  "Santa Maria, Mãe de Deus": "mae-de-deus",
+  "Santíssima Trindade": "trindade",
+  "Santíssimo Corpo e Sangue de Cristo": "corpus",
+  "Sagrado Coração de Jesus": "sagrado-coracao",
+  "Nosso Senhor Jesus Cristo, Rei do Universo": "cristo-rei",
+  "Batismo do Senhor": "batismo",
+  "Sagrada Família de Jesus, Maria e José": "sagrada-familia",
+  "Bem-aventurada Virgem Maria, Mãe da Igreja": "mae-da-igreja",
+  "Imaculado Coração de Maria": "imaculado-coracao",
+};
+
 function celebracaoDoTempo(d: Dia): Candidato | null {
   const ano = d.getUTCFullYear();
   const p = pascoa(ano);
   const a1 = primeiroDomingoDoAdvento(ano);
   const igual = (x: Dia) => mesmoDia(d, x);
-  const c = (celebracao: Celebracao, precedencia: number): Candidato => ({ celebracao, precedencia, temporal: true });
+  const c = (celebracao: Celebracao, precedencia: number): Candidato => ({
+    celebracao: { ...celebracao, id: ID_DO_TEMPO[celebracao.nome] },
+    precedencia,
+    temporal: true,
+  });
 
   if (igual(somaDias(p, -3))) return c(diaSanto("Quinta-feira Santa"), 1);
   if (igual(somaDias(p, -2))) return c(diaSanto("Sexta-feira da Paixão do Senhor", "vermelho"), 1);

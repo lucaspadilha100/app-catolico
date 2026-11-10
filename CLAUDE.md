@@ -126,6 +126,17 @@ Nada de licença paga por ora. Então:
   Evangelhos, Salmos, reflexões de domingo, exame de consciência.
 - Nada de IA respondendo dúvidas de fé no app (por ora).
 
+## Lecionário
+- `npm run gerar` refaz `src/liturgia/dados/lecionario.json` a partir de
+  `fontes/` (ver `fontes/LEIAME.md`). Não editar o JSON à mão: muda o gerador.
+- Referência canônica = código do livro + numeração HEBRAICA (a do lecionário
+  brasileiro): `PSA 80:2ac.3b`. A tela mostra `Sl 79(80),2ac.3b`.
+- Deuterocanônicos não têm tabela aberta de versificação: a numeração do
+  Brasil está em `NUMERACAO_DO_BRASIL` no gerador (Eclo, Tb, Dn 3).
+- Memória usa as leituras do dia de semana; usa as PRÓPRIAS só quando são
+  obrigatórias (códigos `.001`/`.101` da fonte e memórias de Nossa Senhora).
+- O JSON é carregado sob demanda (arquivo próprio no build, cache offline).
+
 ## Bíblia
 - Figueiredo, revisão **nível 2**: ortografia atual + palavras arcaicas
   trocadas, tom bíblico mantido ("Eu vos digo", "Bem-aventurados").

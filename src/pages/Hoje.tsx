@@ -5,6 +5,8 @@ import { dataPorExtenso } from "@/liturgia/datas";
 import { NOME_DA_COR, NOME_DO_GRAU, NOME_DO_TEMPO, type CorLiturgica } from "@/liturgia/calendario";
 import { misteriosDoDia } from "@/liturgia/terco";
 import { Cartao, TituloCartao, EmPreparacao } from "@/components/Cartao";
+import type { TipoLeitura } from "@/liturgia/lecionario";
+import { useLeituras } from "@/lib/useLeituras";
 
 const COR_PONTO: Record<CorLiturgica, string> = {
   verde: "bg-[#2e7a4d]",
@@ -14,9 +16,17 @@ const COR_PONTO: Record<CorLiturgica, string> = {
   branco: "bg-[#e6dcc8] ring-1 ring-[#c9a13b]",
 };
 
+const ROTULO_CURTO: Partial<Record<TipoLeitura, string>> = {
+  primeira: "1ª leitura",
+  salmo: "Salmo",
+  segunda: "2ª leitura",
+  evangelho: "Evangelho",
+};
+
 export default function Hoje() {
   const l = useDiaLiturgico();
   const terco = misteriosDoDia(l.data);
+  const missas = useLeituras(l);
   const memoria = l.celebracao?.grau === "memoria" ? l.celebracao : null;
   const grau = l.celebracao && !memoria ? NOME_DO_GRAU[l.celebracao.grau] : "";
   const subtitulo = memoria
@@ -37,11 +47,29 @@ export default function Hoje() {
       </section>
 
       <Cartao>
-        <div className="flex items-center justify-between gap-3">
-          <TituloCartao icone={BookOpenText}>Liturgia do dia</TituloCartao>
-          <EmPreparacao />
-        </div>
-        <p className="mt-3 text-tinta-suave">Leituras, salmo, evangelho e reflexão.</p>
+        <TituloCartao icone={BookOpenText}>Liturgia do dia</TituloCartao>
+        {missas === null ? (
+          <div className="mt-3 h-20 animate-pulse rounded-xl bg-marca-fundo" />
+        ) : (
+          <ul className="mt-3 grid grid-cols-[5.5rem_1fr] gap-x-3 gap-y-2">
+            {(missas[0]?.leituras ?? [])
+              .filter((x) => !x.ou && x.forma !== "breve" && x.tipo !== "aclamacao" && x.tipo !== "sequencia" && x.tipo !== "procissao")
+              .map((x) => (
+                <li key={x.tipo + x.referencia} className="col-span-2 grid grid-cols-subgrid items-baseline">
+                  <span className="text-sm text-tinta-suave">{ROTULO_CURTO[x.tipo]}</span>
+                  <span className={`font-leitura ${x.tipo === "evangelho" ? "font-semibold text-marca" : ""}`}>
+                    {x.referencia}
+                  </span>
+                </li>
+              ))}
+          </ul>
+        )}
+        <Link
+          to="/liturgia"
+          className="mt-5 flex min-h-12 items-center justify-center rounded-xl border border-borda bg-papel px-4 font-semibold text-destaque-texto"
+        >
+          Ver a liturgia completa
+        </Link>
       </Cartao>
 
       <Cartao>

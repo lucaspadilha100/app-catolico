@@ -27,14 +27,18 @@ Legenda: ✅ pronto · 🔨 em andamento · ⬜ a fazer · 👤 precisa do dono
 - ✅ Conferido dia a dia com o calendário publicado de 2024 a 2027
 - ✅ Tela Hoje com celebração, memória e santos do dia
 
-## A fazer
+### Leva 3. Lecionário ✅
+- ✅ Referências de todos os dias: domingos A/B/C, semana I/II, Advento,
+  Natal (4 missas), Quaresma, Tríduo, Vigília Pascal, Páscoa, solenidades,
+  festas, santos e próprio do Brasil (Aparecida, Guadalupe)
+- ✅ Versículos na numeração do lecionário brasileiro; Salmos "Sl 22(23)";
+  Eclesiástico, Tobias e Daniel na numeração do Brasil
+- ✅ Memórias: leituras do dia de semana, ou as próprias quando obrigatórias
+- ✅ Tela Liturgia do dia (navega entre os dias) e resumo na tela Hoje
+- ✅ Teste: todo dia de 2024 a 2035 tem leituras; 95% idêntico, referência por
+  referência, à liturgia brasileira publicada (o resto é diferença de formato)
 
-### Leva 3. Lecionário (as leituras de cada dia) ⬜
-- ⬜ Referências de todos os dias: domingos A/B/C, semana I/II, Advento,
-  Natal, Quaresma, Páscoa, solenidades, festas e santos, próprio do Brasil
-- ⬜ Conversão da numeração dos Salmos (liturgia ↔ Vulgata)
-- ⬜ Tela Liturgia do dia com as referências (o texto entra na Leva 4)
-- ⬜ Teste: todo dia de 2024 a 2035 tem leituras
+## A fazer
 
 ### Leva 4. Bíblia ⬜
 - ⬜ Texto do Figueiredo digitalizado e estruturado por versículo
