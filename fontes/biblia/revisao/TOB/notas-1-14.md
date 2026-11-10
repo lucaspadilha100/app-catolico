@@ -12,3 +12,10 @@ Tb 4,21-22: "o seu escrito" (chirographum) vertido "o recibo que ele assinou" / 
 Tb 4,22: número solto "1" depois de "dele": retirado.
 Tb 5,17: "mercenário" (Vulgata "mercenarii", DR "him thou hirest") vertido "empregado", como no guia ("jornaleiros" → "empregados").
 Tb 5,19: asterisco e número solto "1" ("a *tua geração. 1"): retirados.
+Tb 6,1: número solto "1" no fim do versículo: retirado.
+Tb 6,14: Figueiredo: "Eu sei que ela fóra já casada" | Vulgata: "Audio quia tradita est" | Douay-Rheims: "I hear" | decidido: "Ouço dizer", porque o próprio versículo continua "e também soube" e a palavra parece trocada; conferir no PDF.
+Tb 6,15: "até a sepultura" mantido do Figueiredo (Vulgata "ad inferos").
+Tb 6,17: "o cavalo e o macho" vertido "o cavalo e o burro" (Vulgata "mulus"); conferir se o dono prefere "mula".
+Tb 6,21: "filhos robustos" vertido "filhos sadios" (Vulgata "incolumes", DR "sound").
+Tb 7: a Douay-Rheims deste capítulo vem com os versículos 4-7 deslocados em relação à Vulgata e ao Figueiredo (corte diferente); o texto confere.
+Tb 7,19: "e se pôs a chorar" mantido sem dizer quem chorou, como o Figueiredo e a Vulgata ("lacrimata est").
