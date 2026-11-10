@@ -1,20 +1,6 @@
 import { Link } from "react-router-dom";
-import { BookOpen, Church, MapPin, NotebookPen, Search, Bookmark, Clock, BadgeCheck } from "lucide-react";
+import { Church, MapPin, Clock, BadgeCheck } from "lucide-react";
 import { ItemLista, TituloPagina } from "@/components/Cartao";
-
-export function Biblia() {
-  return (
-    <div>
-      <TituloPagina>Bíblia</TituloPagina>
-      <div className="flex flex-col gap-3">
-        <ItemLista icone={BookOpen} titulo="Antigo e Novo Testamento" detalhe="73 livros" />
-        <ItemLista icone={Search} titulo="Buscar na Bíblia" />
-        <ItemLista icone={Bookmark} titulo="Marcações e notas" />
-        <ItemLista icone={NotebookPen} titulo="Planos de leitura" detalhe="Bíblia em um ano, Evangelhos em 30 dias…" />
-      </div>
-    </div>
-  );
-}
 
 export function Missas() {
   return (

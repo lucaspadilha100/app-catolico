@@ -21,5 +21,13 @@
   Brasil; as diferenças de numeração do Eclesiástico, Tobias e Daniel foram
   ajustadas para a numeração brasileira.
 
+## Bíblia
+- **Tradução**: Pe. Antônio Pereira de Figueiredo (1725-1797), domínio público.
+- **Edição base**: 1950. Transcrição e PDFs de bibliatraduzida.com; cópia de
+  apoio em github.com/ronaldomelofz/abibliasagrada. As notas e comentários da
+  edição de 1950 não são usados.
+- **Ortografia atual**: conferida com o dicionário pt-BR do projeto VERO
+  (pacote dictionary-pt, LGPL/MPL), usado só na montagem.
+
 ## Fontes de texto
 - Inter e Literata, licença SIL Open Font License 1.1.

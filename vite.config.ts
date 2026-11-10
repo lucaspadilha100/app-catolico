@@ -31,7 +31,15 @@ export default defineConfig({
       },
       workbox: {
         globPatterns: ["**/*.{js,css,html,png,svg,woff2,json}"],
+        globIgnores: ["biblia/**"],
         navigateFallback: "/index.html",
+        runtimeCaching: [
+          {
+            urlPattern: ({ url }) => url.pathname.startsWith("/biblia/"),
+            handler: "CacheFirst",
+            options: { cacheName: "biblia", expiration: { maxEntries: 200 } },
+          },
+        ],
       },
     }),
   ],

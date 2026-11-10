@@ -1,10 +1,11 @@
-import { useMemo } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { Link, useSearchParams } from "react-router-dom";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { deIso, hoje, paraIso, somaDias, dataPorExtenso } from "@/liturgia/datas";
 import { diaLiturgico, NOME_DA_COR, NOME_DO_GRAU } from "@/liturgia/calendario";
 import { NOME_DA_LEITURA, type Leitura, type Missa } from "@/liturgia/lecionario";
 import { useLeituras } from "@/lib/useLeituras";
+import { textoDaReferencia, type Trecho } from "@/biblia/texto";
 import { Cartao } from "@/components/Cartao";
 
 function rotulo(l: Leitura): string {
@@ -14,13 +15,46 @@ function rotulo(l: Leitura): string {
   return nome;
 }
 
+function TextoDaLeitura({ canonica, poema }: { canonica: string; poema: boolean }) {
+  const [trechos, setTrechos] = useState<Trecho[] | null>(null);
+  const [erro, setErro] = useState(false);
+
+  useEffect(() => {
+    let ativo = true;
+    setTrechos(null);
+    setErro(false);
+    textoDaReferencia(canonica)
+      .then((t) => ativo && setTrechos(t))
+      .catch(() => ativo && setErro(true));
+    return () => {
+      ativo = false;
+    };
+  }, [canonica]);
+
+  if (erro) return null;
+  if (!trechos) return <div className="mt-2 h-16 animate-pulse rounded-lg bg-marca-fundo" />;
+  const versiculos = trechos.flatMap((t) => t.versiculos);
+  if (!versiculos.length) return null;
+
+  return (
+    <div className={`mt-2 font-leitura text-[1.05rem] leading-[1.8] text-tinta ${poema ? "flex flex-col gap-1" : "sm:text-justify"}`}>
+      {versiculos.map((v) => (
+        <span key={`${v.capitulo}:${v.versiculo}`} className={poema ? "block" : undefined}>
+          <sup className="mr-1 align-[0.35em] font-sans text-[0.65em] font-semibold text-destaque-texto">{v.versiculo}</sup>
+          {v.texto}{" "}
+        </span>
+      ))}
+    </div>
+  );
+}
+
 function ListaDeLeituras({ missa }: { missa: Missa }) {
   return (
     <ol className="flex flex-col">
       {missa.leituras.map((l, i) => (
         <li
           key={`${l.tipo}-${i}`}
-          className={`flex flex-col gap-0.5 py-3 sm:flex-row sm:items-baseline sm:gap-4 ${
+          className={`flex flex-col gap-0.5 py-4 sm:flex-row sm:items-baseline sm:gap-4 ${
             l.ou || l.forma === "breve" ? "border-t-0 pt-0 pl-4 sm:pl-0" : "border-t border-borda first:border-t-0 first:pt-0"
           }`}
         >
@@ -31,9 +65,14 @@ function ListaDeLeituras({ missa }: { missa: Missa }) {
           >
             {rotulo(l)}
           </span>
-          <span className={`font-leitura text-lg ${l.tipo === "evangelho" && !l.ou && l.forma !== "breve" ? "font-semibold text-marca" : ""}`}>
-            {l.referencia}
-          </span>
+          <div className="min-w-0 flex-1">
+            <span className={`font-leitura text-lg ${l.tipo === "evangelho" && !l.ou && l.forma !== "breve" ? "font-semibold text-marca" : ""}`}>
+              {l.referencia}
+            </span>
+            {l.canonica && !l.ou && l.forma !== "breve" && l.tipo !== "aclamacao" && (
+              <TextoDaLeitura canonica={l.canonica} poema={l.tipo === "salmo"} />
+            )}
+          </div>
         </li>
       ))}
     </ol>

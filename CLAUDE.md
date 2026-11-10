@@ -138,15 +138,29 @@ Nada de licença paga por ora. Então:
 - O JSON é carregado sob demanda (arquivo próprio no build, cache offline).
 
 ## Bíblia
-- Figueiredo, revisão **nível 2**: ortografia atual + palavras arcaicas
-  trocadas, tom bíblico mantido ("Eu vos digo", "Bem-aventurados").
-- Guardada por **livro + capítulo + versículo**, numa camada TROCÁVEL (no dia
-  de uma licença, troca a tradução sem perder marcações e notas).
-- Conferência automática a cada lote: contagem de versículos, nenhum faltando
-  ou sobrando, relatório do que mudou.
-- ⚠️ O Figueiredo segue a **Vulgata**: Salmos com numeração diferente da
-  liturgia ("Sl 22(23)") e acréscimos de Daniel/Ester — tabela de conversão
-  obrigatória, senão a liturgia puxa o salmo errado.
+- Texto base: Figueiredo, **edição de 1950**, em `fontes/biblia/figueiredo-1950/`
+  (numeração da Vulgata). Como foi montado: `scripts/biblia/LEIAME.md`.
+  `npm run gerar:biblia` aplica a ortografia atual e gera
+  `public/biblia/f1/<LIVRO>.json` (um arquivo por livro, baixado sob demanda,
+  guardado offline pelo service worker; NÃO entra no pré-cache).
+- ⚠️ A versão está no caminho (`f1`): texto mudou, versão nova, senão o cache
+  eterno do aparelho segura o texto velho.
+- 16 livros vêm de transcrição limpa; os outros, do OCR dos PDFs, com erros de
+  letra. `src/biblia/dados/estado.json` marca cada livro: `transcrito`,
+  `em-revisao` (a tela mostra "Texto em revisão") ou `revisado`.
+  `fontes/biblia/pendencias.txt`: capítulos cuja contagem de versículos não
+  bate com a Vulgata (quase sempre um versículo grudado no vizinho).
+- Revisão **nível 2** (pendente de aprovação do dono, amostra em Mc 1 e Sl 22):
+  ortografia atual + palavras arcaicas trocadas, tom bíblico mantido. Corrige
+  também o OCR, SEMPRE olhando o PDF de 1950, nunca de memória.
+- ⚠️ Os Salmos seguem a edição de 1950: 113 (1-8) + "113 bis" guardado como
+  113,9-26; o 115 começa no versículo 10 e o 147 no 12. A tabela
+  hebraico → Vulgata (`src/biblia/dados/mapa-hebraico.json`) já é essa.
+- Daniel e os deuterocanônicos não passam pela tabela (o lecionário já usa a
+  numeração da Vulgata); a oração de Ester (Est 4,17k-z) vai para Est 14.
+- Progresso de leitura (`src/biblia/progresso.ts`): capítulos lidos e "continuar
+  lendo" no aparelho (`santinho-leitura`); percentual pesado por versículos.
+  Sincroniza com a conta na Leva 10.
 
 ## Privacidade (LGPD)
 - ⚠️ **Exame de consciência é criptografado no aparelho com um PIN que só a

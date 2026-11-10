@@ -40,15 +40,22 @@ Legenda: ✅ pronto · 🔨 em andamento · ⬜ a fazer · 👤 precisa do dono
 
 ## A fazer
 
-### Leva 4. Bíblia ⬜
-- ⬜ Texto do Figueiredo digitalizado e estruturado por versículo
-- ⬜ 👤 Amostra no nível 2 (um capítulo de Marcos e um Salmo) para aprovar o tom
-- ⬜ Revisão em lotes: Evangelhos → Salmos → Novo Testamento → Antigo Testamento,
-  com conferência automática a cada lote
+### Leva 4. Bíblia 🔨
+- ✅ Texto do Figueiredo (edição de 1950), 73 livros, 35.198 versículos,
+  estruturado por versículo; 940 de 1.334 capítulos batendo exatamente com a
+  Vulgata, o resto listado em `fontes/biblia/pendencias.txt`
+- ✅ Ortografia atual automática (nível 1) conferida no dicionário
+- ✅ Tela Bíblia: livros, capítulos, leitura, "ir para" (Mc 4, Jo 3,16)
+- ✅ Progresso: capítulos lidos, % por livro e da Bíblia, continuar lendo
+- ✅ Liturgia do dia com o texto completo das leituras
+- ⬜ 👤 Aprovar a amostra do nível 2 (Mc 1 e Sl 22) e a regra para quando o
+  Figueiredo se afasta do latim
+- ⬜ Revisão nível 2 em lotes, olhando o PDF: Evangelhos → Salmos → Novo
+  Testamento → Antigo Testamento, com conferência automática a cada lote
+- ⬜ Corrigir as pendências (versículos grudados, OCR)
 - ⬜ 👤 Leitura dos Evangelhos e Salmos revisados
 - ⬜ Introdução curta dos 73 livros
-- ⬜ Tela Bíblia: livros, capítulos, leitura, busca, marcações e notas
-- ⬜ Liturgia do dia com o texto completo das leituras
+- ⬜ Busca no texto, marcações e notas, planos de leitura
 
 ### Leva 5. Terço e orações ⬜
 - ⬜ Terço guiado completo: oferecimento, mistérios, dezenas, modo contas

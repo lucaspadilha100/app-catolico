@@ -11,7 +11,8 @@
     "test": "vitest run",
     "verificar": "npm run typecheck && npm test && npm run build",
     "cap:sync": "npm run build && cap sync",
-    "gerar": "node scripts/gerar-lecionario.mjs"
+    "gerar": "node scripts/gerar-lecionario.mjs",
+    "gerar:biblia": "node scripts/gerar-biblia.mjs"
   },
   "dependencies": {
     "@capacitor/android": "^7.6.10",
