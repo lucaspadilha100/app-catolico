@@ -127,6 +127,7 @@ Cada livro foi conferido versículo a versículo com a Vulgata, a Douay-Rheims e
 
 | Relatório | Linhas em Corrigido | Linhas em Decidido pelas fontes |
 |---|---|---|
+| [nomes](../../fontes/biblia/revisao/conferencia/nomes.md) | 0 | 0 |
 | [GEN-1-25](../../fontes/biblia/revisao/conferencia/GEN-1-25.md) | 10 | 38 |
 | [GEN-26-50](../../fontes/biblia/revisao/conferencia/GEN-26-50.md) | 13 | 30 |
 | [EXO-1-20](../../fontes/biblia/revisao/conferencia/EXO-1-20.md) | 16 | 22 |
@@ -153,10 +154,15 @@ Cada livro foi conferido versículo a versículo com a Vulgata, a Douay-Rheims e
 | [PSA-76-150](../../fontes/biblia/revisao/conferencia/PSA-76-150.md) | 15 | 19 |
 | [PRO](../../fontes/biblia/revisao/conferencia/PRO.md) | 21 | 46 |
 | [ECC-SNG](../../fontes/biblia/revisao/conferencia/ECC-SNG.md) | 5 | 27 |
+| [SIR-1-25](../../fontes/biblia/revisao/conferencia/SIR-1-25.md) | 21 | 21 |
+| [SIR-26-51](../../fontes/biblia/revisao/conferencia/SIR-26-51.md) | 12 | 26 |
 | [ISA-1-33](../../fontes/biblia/revisao/conferencia/ISA-1-33.md) | 20 | 36 |
 | [ISA-34-66](../../fontes/biblia/revisao/conferencia/ISA-34-66.md) | 7 | 43 |
 | [JER](../../fontes/biblia/revisao/conferencia/JER.md) | 77 | 58 |
 | [LAM-BAR-WIS](../../fontes/biblia/revisao/conferencia/LAM-BAR-WIS.md) | 25 | 34 |
+| [EZK-1-24](../../fontes/biblia/revisao/conferencia/EZK-1-24.md) | 32 | 30 |
+| [EZK-25-48](../../fontes/biblia/revisao/conferencia/EZK-25-48.md) | 21 | 49 |
+| [DAN](../../fontes/biblia/revisao/conferencia/DAN.md) | 15 | 40 |
 | [HOS-a-MIC](../../fontes/biblia/revisao/conferencia/HOS-a-MIC.md) | 7 | 18 |
 | [NAM-a-MAL](../../fontes/biblia/revisao/conferencia/NAM-a-MAL.md) | 28 | 47 |
 | [MAT-MRK-3fontes](../../fontes/biblia/revisao/conferencia/MAT-MRK-3fontes.md) | 21 | 16 |
@@ -165,7 +171,7 @@ Cada livro foi conferido versículo a versículo com a Vulgata, a Douay-Rheims e
 | [LUK-JHN](../../fontes/biblia/revisao/conferencia/LUK-JHN.md) | 31 | 13 |
 | [ACT](../../fontes/biblia/revisao/conferencia/ACT.md) | 23 | 39 |
 | [ROM](../../fontes/biblia/revisao/conferencia/ROM.md) | 12 | 31 |
-| [1CO-2CO-GAL](../../fontes/biblia/revisao/conferencia/1CO-2CO-GAL.md) | 64 | 77 |
+| [1CO-2CO-GAL](../../fontes/biblia/revisao/conferencia/1CO-2CO-GAL.md) | 64 | 78 |
 | [EPH-a-JUD](../../fontes/biblia/revisao/conferencia/EPH-a-JUD.md) | 39 | 73 |
 | [1TH-a-PHM](../../fontes/biblia/revisao/conferencia/1TH-a-PHM.md) | 8 | 34 |
 | [HEB-JAS](../../fontes/biblia/revisao/conferencia/HEB-JAS.md) | 7 | 52 |

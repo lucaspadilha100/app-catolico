@@ -148,3 +148,4 @@ Gl 5,25 | Figueiredo: "conduzammo-nos" | Vulgata: Spiritu et ambulemus; Douay-Rh
 Gl 6,1 | Figueiredo: "se algum como homem fôr surpreendido" | Vulgata: si præoccupatus fuerit homo | decidido: mantido "se alguém, como homem, for surpreendido", como em decisoes.md | conferido de novo
 Gl 6,7-8 | Figueiredo e Vulgata: "aquilo que semear o homem, isso também segará" no v8 | grego: no fim do v7 | decidido: mantido no v8 | vale a Vulgata
 Gl 6,10 | Figueiredo: "aos domésticos da fé" | Vulgata: ad domesticos fidei | decidido: mantido "aos da família da fé", como em decisoes.md | conferido de novo
+Gl 4,6 | Figueiredo: "Pai, Pai" | Vulgata: Abba, Pater; Douay-Rheims: Abba, Father; grego: Abba ho patēr | decidido: "Abbá, Pai!" | igual a Rm 8,15 e Mc 14,36 revisados
