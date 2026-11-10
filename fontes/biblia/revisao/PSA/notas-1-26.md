@@ -23,3 +23,14 @@ Sl 17,34: a fonte diz "como de servos"; o latim é "tamquam cervorum". Provável
 Sl 17,35: a fonte muda de pessoa no meio ("Que adestra... E formaste"); mantido.
 Sl 18,7: a fonte traz só "a sua saída é desde uma extremidade dêle: E não há quem se esconda do seu calor"; falta a parte do percurso até a outra extremidade (latim "et occursus eius usque ad summum eius"). Possível linha perdida na transcrição. Conferir no PDF.
 Sl 18,9 e 17,23: "justiças" (latim "iustitiae") ficou "decretos".
+Sl 19,5: a fonte diz "E cumpre todos os teus desígnios" (indicativo, no meio de pedidos); ficou "e cumpra todos os teus planos".
+Sl 19,7: "Nos potentados a salvação é da sua direita" (latim "in potentatibus") ficou "pelo seu poder vem a salvação da sua direita".
+Sl 20,13: "Nos teus resíduos prepararás o rosto dêles" é obscuro (latim "in reliquiis tuis praeparabis vultum eorum"); mantido ao pé da letra. Conferir.
+Sl 21,1: "Ayyeleth asch-schakhar" mantido na grafia da fonte.
+Sl 21,7: "bichinho" (latim "vermis") ficou "um pequeno verme".
+Sl 21,23 e 21,26; Sl 25,12: "Igreja" / "igrejas" (latim "ecclesia") mantidos como no Figueiredo; o dono decide se fica "assembleia".
+Sl 23,10: "O Senhor das virtudes" (latim "Dominus virtutum", as forças do céu) mantido; hoje "virtudes" soa como qualidade moral. O dono decide.
+Sl 24,3: a fonte diz "Nem me insultem meus amigos"; o latim é "inimici mei" (inimigos). Provável erro de transcrição; mantido "amigos" até conferir o PDF.
+Sl 24,14: "testamento" (latim "testamentum") ficou "aliança", como no v10.
+Sl 24,21: a fonte diz só "Porque tenho esperado", sem "em ti"; mantido.
+Sl 26,12: "às almas dos que me atribulam" (latim "in animas", a vontade) ficou "ao desejo dos que me afligem".
