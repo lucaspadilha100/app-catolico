@@ -221,13 +221,23 @@ Legenda: ✅ pronto · 🔨 em andamento · ⬜ a fazer · 👤 precisa do dono
 - ✅ Listas agrupadas no app inteiro (um cartão por seção), Mais reorganizado
   (sem itens "em preparação"; Ajudar e Sobre), janelas de tela cheia ao lado
   da barra lateral no computador
-- ⬜ Tela Hoje mais curta, com a próxima missa da sua paróquia no topo
-- ⬜ Rezar com o que está em andamento em cima
-- ⬜ Boas-vindas em 3 passos
-- ⬜ Lembretes (evangelho, Ângelus, terço, novena, falecidos)
-- ⬜ Compartilhar liturgia no WhatsApp e versículo como imagem
-- ⬜ Páginas abertas ao Google (cada dia, capítulo, santo, paróquia)
-- ⬜ Revisão de acessibilidade e de desempenho em celular simples
+- ✅ Tela Hoje mais curta: próxima missa da sua paróquia no topo, o que rezar
+  numa lista só (terço, em andamento, falecidos, batismo), santos em lista
+- ✅ Rezar com o que está em andamento em cima
+- ✅ Boas-vindas em 3 passos (tamanho da letra, cidade, paróquia), cada um com
+  "Pular", só na primeira abertura
+- ✅ Compartilhar a liturgia no WhatsApp; versículo como imagem (moldura de santinho)
+- ✅ Páginas abertas ao Google, geradas a cada publicação: liturgia de cada dia
+  (uma semana para trás e 400 dias para a frente, com leituras e reflexão), os
+  1.334 capítulos da Bíblia, os santos e as igrejas; sitemap.xml e robots.txt
+  (3.028 páginas no primeiro build)
+- ✅ App mais leve: cada tela carrega quando é aberta (o arquivo inicial caiu
+  de 685 KB para 301 KB)
+- ⬜ Lembretes (evangelho, Ângelus, terço, novena, falecidos): entram com as
+  notificações do app de celular (Leva 16); no site, o navegador não garante
+- ⬜ 👤 Google Search Console: cadastrar o site e enviar o sitemap (quando
+  houver o domínio definitivo, para não perder o histórico)
+- ⬜ Revisão de acessibilidade com leitor de tela
 
 ### Leva 16. Celular ⬜
 - ⬜ Builds Android e iOS, ícones e tela de abertura

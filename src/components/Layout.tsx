@@ -1,9 +1,10 @@
-import { useEffect } from "react";
+import { Suspense, useEffect } from "react";
 import { NavLink, Link, Outlet, useLocation } from "react-router-dom";
 import { BookOpen, Church, HandHeart, Menu, Sunrise, type LucideIcon } from "lucide-react";
 import { useDiaLiturgico } from "@/lib/useDiaLiturgico";
 import { Rolagem } from "@/components/Rolagem";
 import { BoasVindas } from "@/components/BoasVindas";
+import { Carregando } from "@/components/Devocao";
 import { NOME_DO_APP } from "@/marca";
 import { contarAbertura } from "@/conta/uso";
 
@@ -88,7 +89,9 @@ export default function Layout() {
         </header>
 
         <main className="mx-auto w-full max-w-2xl px-4 pb-28 pt-5 md:px-8 md:pb-12 md:pt-10">
-          <Outlet />
+          <Suspense fallback={<Carregando />}>
+            <Outlet />
+          </Suspense>
         </main>
       </div>
 
