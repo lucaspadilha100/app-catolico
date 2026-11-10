@@ -7,6 +7,7 @@ const raiz = join(import.meta.dirname, "../..");
 const destino = join(raiz, "public/imagens/santos");
 const AGENTE = "SantinhoApp/0.1 (app catolico gratuito)";
 const esperar = (ms) => new Promise((r) => setTimeout(r, ms));
+const baixar = (url) => execFileSync("curl", ["-sSf", "-A", AGENTE, "-H", `AIC-User-Agent: ${AGENTE}`, url], { maxBuffer: 50_000_000 });
 
 const santos = [];
 for (const arquivo of readdirSync(join(raiz, "src/santos/dados")).sort()) {
@@ -20,18 +21,18 @@ for (const s of santos.filter((x) => x.imagem)) {
   const nome = `${s.id}-${s.imagem.artic}.webp`;
   usados.add(nome);
   if (existsSync(join(destino, nome))) continue;
-  const info = await (await fetch(`https://api.artic.edu/api/v1/artworks/${s.imagem.artic}?fields=id,image_id,is_public_domain,title`, { headers: { "AIC-User-Agent": AGENTE } })).json();
+  const info = JSON.parse(baixar(`https://api.artic.edu/api/v1/artworks/${s.imagem.artic}?fields=id,image_id,is_public_domain,title`).toString());
   if (!info.data?.is_public_domain || !info.data.image_id) {
     console.log(`SEM IMAGEM LIVRE: ${s.id} (${s.imagem.artic})`);
     continue;
   }
-  const r = await fetch(`https://www.artic.edu/iiif/2/${info.data.image_id}/full/843,/0/default.jpg`, { headers: { "AIC-User-Agent": AGENTE } });
-  if (!r.ok) {
-    console.log(`FALHOU ${s.id}: ${r.status}`);
+  const jpg = join(temp, "a.jpg");
+  try {
+    writeFileSync(jpg, baixar(`https://www.artic.edu/iiif/2/${info.data.image_id}/full/843,/0/default.jpg`));
+  } catch {
+    console.log(`FALHOU ${s.id}`);
     continue;
   }
-  const jpg = join(temp, "a.jpg");
-  writeFileSync(jpg, Buffer.from(await r.arrayBuffer()));
   execFileSync("convert", [jpg, "-resize", "600x800>", "-strip", "-quality", "72", join(destino, nome)]);
   console.log(`ok ${nome}`);
   await esperar(400);

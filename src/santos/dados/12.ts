@@ -47,7 +47,6 @@ const mes: MesDeSantos = {
         "Em 1969, sua memória foi retirada do calendário geral da Igreja, por falta de dados históricos seguros. Continua, porém, inscrita no Martirológio Romano, e a devoção a ela é legítima. Venerá-la é honrar os muitos cristãos que, nos primeiros séculos, preferiram a morte a negar a fé.",
       ],
       padroeiro: ["dos mineiros", "dos artilheiros"],
-      imagem: { artic: 100347, titulo: "Saint Barbara", artista: "Jean Bellegambe", data: "c. 1520" },
     },
     {
       id: "sao-nicolau",

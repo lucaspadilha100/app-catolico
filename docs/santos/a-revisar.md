@@ -74,3 +74,22 @@ público, CC0), baixadas por `npm run gerar:santos`.
   Guadalupe (América, Ecclesia in America, 1999).
 - Imagens de cena de martírio sem sangue: Becket (miniatura) e Estêvão (letra
   iluminada).
+
+## Janeiro a março
+- Beata Lindalva Justo de Oliveira (7/1, dia do batismo, fixado pela
+  Congregação das Causas dos Santos; fora do calendário geral): título "virgem
+  e mártir" a confirmar; quem presidiu a beatificação ficou de fora.
+- A conferir: São Casimiro canonizado (confirmado em 1602 por Clemente VIII,
+  bula anterior de 1521); São Basílio morto em 379; São Gregório de Narek por
+  volta de 1003.
+- Tradições marcadas: a pomba sobre São Fabiano, São Sebastião e Santa Águeda,
+  o menino de São Brás (a bênção da garganta como sacramental), Escolástica
+  gêmea de Bento, o trevo de São Patrício, o "boi mudo".
+- Padroados de costume: Antão (animais domésticos), Francisca Romana
+  (motoristas), Dom Bosco (Brasília), Ansgário (Escandinávia).
+- Imagem tirada: Santa Águeda (prato com os seios, iconografia tradicional).
+  Cátedra de São Pedro usa uma imagem do próprio Pedro.
+
+## Imagens que o museu não entregou (sem imagem)
+São Filipe Néri, São Caetano, Santo Agostinho, Santa Catarina de Alexandria,
+Santa Bárbara.

@@ -104,11 +104,14 @@ Legenda: ✅ pronto · 🔨 em andamento · ⬜ a fazer · 👤 precisa do dono
 - ⬜ Pequeno Ofício no Advento e no Natal; Ofício dos Defuntos
 - ⬜ Lembrete da novena (entra com as notificações, Leva 15 e 16)
 
-### Leva 7. Santos e calendário ⬜
-- ⬜ História de cada santo (texto próprio) e imagem em domínio público
-- ⬜ Busca de santos, santos de devoção, "seu santo"
-- ⬜ Tela Calendário: mês, dia, festas, preceitos, jejum e abstinência
-- ⬜ Festas da Arquidiocese de Natal
+### Leva 7. Santos e calendário 🔨
+- ✅ História de todos os santos e festas do calendário do Brasil (cerca de 230), mais os de devoção popular (Expedito, Cristóvão, Bárbara) e os beatos Nhá Chica e Lindalva
+- ✅ 69 imagens em domínio público (Art Institute of Chicago), com crédito na tela
+- ✅ Busca de santos, "Meus santos" e "Seu santo" (pelo nome e pelo dia do nascimento)
+- ✅ Tela Calendário: mês, cor, festas, missa obrigatória, jejum e penitência; aviso na tela Hoje
+- ✅ Calendário da Arquidiocese de Natal (Mártires de Cunhaú e Uruaçu, Dedicação da Catedral, Nossa Senhora da Apresentação), escolhido em Mais
+- ⬜ 👤 Revisar as histórias (`docs/santos/a-revisar.md`) e o calendário de Natal com o Diretório Litúrgico da arquidiocese
+- ⬜ Outras dioceses, aos poucos
 
 ### Leva 8. Reflexões ⬜
 - ⬜ Reflexão de todos os domingos e solenidades (ciclos A, B e C)

@@ -56,3 +56,11 @@ it("ids únicos no ano", () => {
   const ids = Object.values(meses).flatMap((m) => m.default.santos.map((s) => s.id));
   expect(new Set(ids).size).toBe(ids.length);
 });
+
+it("toda imagem citada foi baixada para public/imagens/santos", async () => {
+  const { existsSync } = await import("node:fs");
+  const { join } = await import("node:path");
+  for (const m of Object.values(meses))
+    for (const s of m.default.santos)
+      if (s.imagem) expect(existsSync(join(__dirname, "../../public/imagens/santos", `${s.id}-${s.imagem.artic}.webp`)), s.id).toBe(true);
+});

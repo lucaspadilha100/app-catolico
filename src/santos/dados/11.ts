@@ -298,7 +298,6 @@ const mes: MesDeSantos = {
         "Em 1969, sua memória saiu do calendário geral por falta de dados históricos seguros. Em 2002, foi restituída como memória facultativa, pela longa devoção do povo cristão. Santa Catarina lembra que o estudo e a inteligência podem servir à fé, e que a verdade de Cristo merece ser defendida com coragem.",
       ],
       padroeiro: ["dos estudantes", "dos filósofos"],
-      imagem: { artic: 31599, titulo: "Saint Catherine of Alexandria", artista: "Peter Paul Rubens", data: "1620/21" },
     },
     {
       id: "santo-andre",

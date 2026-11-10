@@ -111,7 +111,6 @@ const mes: MesDeSantos = {
         "Morreu em Nápoles, em 7 de agosto de 1547, e foi canonizado em 1671. No Brasil e na Argentina é muito popular como padroeiro do pão e do trabalho, e muita gente recorre a ele quando está sem emprego.",
       ],
       padroeiro: ["do pão e do trabalho", "dos desempregados"],
-      imagem: { artic: 129765, titulo: "Virgin and Child Appearing to Saint Cajetan of Thiene", artista: "Domenico Maria Canuti", data: "1681/82" },
     },
     {
       id: "sao-domingos",
@@ -387,7 +386,6 @@ const mes: MesDeSantos = {
         "Foi bispo por mais de trinta anos, pregando, julgando causas do povo e defendendo a fé. Escreveu muitíssimo, sobretudo as \"Confissões\", em que conta a própria vida diante de Deus, e \"A Cidade de Deus\". Nas \"Confissões\" diz a Deus que nos fez para Ele, e que o nosso coração vive inquieto enquanto não descansa n'Ele. Morreu em 28 de agosto de 430, enquanto os vândalos cercavam a cidade.",
       ],
       padroeiro: ["dos teólogos"],
-      imagem: { artic: 86114, titulo: "Saint Augustine", artista: "Federico Zuccaro", data: "c. 1560" },
     },
     {
       id: "martirio-de-sao-joao-batista",

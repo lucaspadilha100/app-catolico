@@ -62,7 +62,6 @@ const mes: MesDeSantos = {
         "Águeda ensina a coragem de permanecer fiel a Cristo quando o mundo exige que se renuncie a Ele.",
       ],
       padroeiro: ["de Catânia", "contra o fogo"],
-      imagem: { artic: 35229, titulo: "Saint Agatha", artista: "Vergós Workshop", data: "c. 1500" },
     },
     {
       id: "santos-paulo-miki-e-companheiros",

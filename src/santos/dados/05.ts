@@ -237,7 +237,6 @@ const mes: MesDeSantos = {
         "Era muito alegre e brincalhão, e usava o humor para combater o orgulho, em si mesmo e nos outros. Muitos o procuravam para conselho, entre eles cardeais e papas. Por sua ação na cidade, é chamado apóstolo de Roma.",
         "Morreu em 26 de maio de 1595 e foi canonizado em 1622 pelo papa Gregório XV. Filipe ensina que a santidade combina com a alegria.",
       ],
-      imagem: { artic: 34669, titulo: "Vision of Saint Philip Neri", artista: "Desconhecido", data: "depois de 1614" },
     },
     {
       id: "santo-agostinho-de-cantuaria",
