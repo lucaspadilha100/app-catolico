@@ -15,6 +15,7 @@ import {
 } from "@/biblia/progresso";
 import { Cartao, TituloPagina } from "@/components/Cartao";
 import { NaoEncontrada } from "@/pages/Simples";
+import { BarraDoVersiculo } from "@/components/AvisarErro";
 
 function Barra({ valor, fina = false }: { valor: number; fina?: boolean }) {
   return (
@@ -199,6 +200,7 @@ export function BibliaCapitulo() {
   const [erro, setErro] = useState(false);
   const leitura = useLeituraDaBiblia();
   const fim = useRef<HTMLDivElement>(null);
+  const [selecionado, setSelecionado] = useState<number | null>(null);
   const valido = Boolean(livro) && Number.isInteger(cap) && cap >= 1 && cap <= (livro?.capitulos ?? 0);
 
   useEffect(() => {
@@ -212,6 +214,16 @@ export function BibliaCapitulo() {
       ativo = false;
     };
   }, [livro]);
+
+  useEffect(() => setSelecionado(null), [livro, cap]);
+
+  useEffect(() => {
+    if (selecionado === null) return;
+    const alvo = document.getElementById(`v${selecionado}`);
+    if (alvo && alvo.getBoundingClientRect().bottom > window.innerHeight * 0.4) {
+      alvo.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  }, [selecionado]);
 
   useEffect(() => {
     if (!valido || !livro) return;
@@ -266,7 +278,14 @@ export function BibliaCapitulo() {
           <div className="font-leitura text-[1.125rem] leading-[1.85] text-tinta sm:text-justify">
             {versiculos.map((texto, i) =>
               texto ? (
-                <span key={i} id={`v${i + 1}`} className="scroll-mt-24 target:rounded target:bg-marca-fundo">
+                <span
+                  key={i}
+                  id={`v${i + 1}`}
+                  onClick={() => setSelecionado(selecionado === i + 1 ? null : i + 1)}
+                  className={`scroll-mt-24 cursor-pointer rounded target:bg-marca-fundo ${
+                    selecionado === i + 1 ? "bg-marca-fundo underline decoration-destaque decoration-2 underline-offset-4" : ""
+                  }`}
+                >
                   <sup className="mr-1 align-[0.35em] font-sans text-[0.65em] font-semibold text-destaque-texto">{i + 1}</sup>
                   {texto}{" "}
                 </span>
@@ -288,6 +307,20 @@ export function BibliaCapitulo() {
           {lido && <Check className="size-5" aria-hidden />}
           {lido ? "Capítulo lido" : "Marcar como lido"}
         </button>
+      )}
+
+      {selecionado !== null && versiculos?.[selecionado - 1] && (
+        <BarraDoVersiculo
+          referencia={`${livro.codigo === "PSA" ? "Sl" : livro.abreviatura} ${cap},${selecionado}`}
+          aviso={{
+            livro: livro.codigo,
+            capitulo: cap,
+            versiculo: selecionado,
+            arquivo: ESTADO_DOS_LIVROS[livro.codigo]?.arquivo ?? "",
+            texto_versiculo: versiculos[selecionado - 1]!,
+          }}
+          aoFechar={() => setSelecionado(null)}
+        />
       )}
 
       <nav className="mt-3 grid grid-cols-2 gap-2">

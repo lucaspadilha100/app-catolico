@@ -30,6 +30,20 @@ export default function Layout() {
   const liturgia = useDiaLiturgico();
 
   useEffect(() => {
+    const reenviar = () => {
+      try {
+        if (!localStorage.getItem("santinho-avisos-pendentes")) return;
+      } catch {
+        return;
+      }
+      void import("@/biblia/avisos").then((m) => m.reenviarAvisos());
+    };
+    reenviar();
+    window.addEventListener("online", reenviar);
+    return () => window.removeEventListener("online", reenviar);
+  }, []);
+
+  useEffect(() => {
     document.documentElement.dataset.cor = liturgia.cor;
   }, [liturgia.cor]);
 

@@ -164,6 +164,14 @@ Nada de licença paga por ora. Então:
   católicas de hoje (Nova Vulgata, `org.vrs`), não a da Vulgata antiga (pedido
   do dono, 10/11/2026: Mt 5,4-5). Salmos ficam na numeração grega. Lista em
   `scripts/biblia/numeracao.mjs`; o mapa hebraico deixa de converter esses livros.
+- **Avisar erro** (pedido do dono, 10/11/2026): tocar no versículo abre a barra
+  com "Avisar erro" (`components/AvisarErro.tsx`). Vai para a tabela
+  `avisos_biblia` do Supabase (só INSERT, ninguém lê pela API; o dono lê no
+  painel), com o nome do arquivo do livro (sabe-se a versão do texto). Sem
+  internet ou sem a tabela, fica no aparelho e reenvia depois (`biblia/avisos.ts`).
+  Migração `supabase/migrations/20261110000000_avisos_biblia.sql`.
+- `fontes/vulgata/`: latim da Vulgata Clementina (domínio público), régua da
+  conferência de fidelidade; não aparece no app.
 - Leitura da liturgia que começa no meio de uma fala ganha as aspas que faltam
   (`equilibrarAspas`).
 - ⚠️ **Nunca usar outra tradução como modelo de frase** (Ave-Maria, CNBB,
