@@ -16,4 +16,5 @@ Gn 31,42: "recambiado nu" mantido literal ("despedido nu"; latim "nudum").
 Gn 33,3.7: Figueiredo "adorou a Esaú", "o adoraram"; revisado "inclinou-se diante de Esaú" (adorar no sentido antigo de prostrar-se, para não sugerir culto). Mesma decisão vale para outros "adorar" dirigidos a homens.
 Gn 33,17: "Socote" grafado "Socot" (nome de lugar).
 Gn 34,2: Figueiredo "a furtou, e dormiu com ela, desflorando-a por fôrça"; revisado "raptou-a, dormiu com ela e a violentou".
-Nomes: grafia atual de Bersabé > Bersabeia, Haran > Harã, Gérara > Gerara, Betei > Betel, Faran > Farã, Madian > Madiã, Dan > Dã, Mambre > Mambré, Siquem > Siquém, Arbéia > Arbee (latim "Arbee"), fereseus > ferezeus. Nomes raros (Jescó, Nabajot, Hevilat, Maelete > Maelet, Teldas, Gedlaf, Tabéia > Tabeia) mantidos como no Figueiredo.
+Nomes: grafia atual de Bersabé > Bersabeia, Haran > Harã, Gérara > Gerara, Faran > Farã, Madian > Madiã, Dan > Dã, Mambre > Mambré, Siquem > Siquém, Arbéia > Arbeia, fereseus > ferezeus. Nomes raros (Jescó, Nabajot, Hevilat, Maelete > Maelet, Teldas, Gedlaf, Tabéia > Tabeia) mantidos como no Figueiredo.
+Gn 28,19; 31,13: Figueiredo: "Betei" | Vulgata: "Bethel" | Douay-Rheims: "Bethel" | decidido: "Betel" (erro de transcrição, como nos outros capítulos de Gênesis). "Haran" grafado "Harã" (27,43; 28,10; 29,4).
