@@ -46,3 +46,15 @@ Is 52,10: "verão o Salvador, que nosso Deus nos há de enviar" mantido como no 
 Is 53,1: Figueiredo "Quem deu crédito ao que nos ouviu?" ficou "ao que ouviu de nós" (Vulgata "auditui nostro", o que anunciamos). Versículo da Sexta-feira Santa.
 Is 53,2: "não tinha parecença do que era, e por isso nós o estranhamos" mantido no sentido do Figueiredo (Vulgata "et desideravimus eum", Douay-Rheims "that we should be desirous of him"); escolha de tradução do Figueiredo. O dono decide.
 Is 53,10 e 53,12: "a sua alma" (anima) ficou "a sua vida" quando é dar a vida; "na sua enfermidade" ficou "no sofrimento".
+Is 54,1: a fonte traz grudado um pedaço de nota de rodapé ("~ s. Jerônimo."); removido. "e rincha" (Vulgata "hinni") ficou "grita de júbilo".
+Is 54,3: Figueiredo: "tu te alegrarás para a direita, e para a esquerda" | Vulgata: Ad dexteram enim et ad lævam penetrabis | Douay-Rheims: thou shalt pass on to the right hand, and to the left | decidido: "te alargarás para a direita e para a esquerda" (letra trocada, alargarás/alegrarás, que o 54,2 "Alarga" confirma).
+Is 54,7: Figueiredo: "Por um momento num breve espaço te direi" | Vulgata: Ad punctum in modico dereliqui te | Douay-Rheims: have I forsaken thee | decidido: "eu te deixei" (palavra trocada na edição de 1950).
+Is 54,9: "êste pacto" ficou "esta aliança" (termo fixo).
+Is 54,16: a fonte traz lixo de OCR no fim ("l&afa■"); removido.
+Is 55,13: "Em lugar do espigue" (Vulgata "saliunca", arbusto do deserto) ficou "Em lugar do arbusto"; "espigue" não se entende hoje.
+Is 56,3: Figueiredo: "me separará de um povo" | Vulgata: a populo suo | Douay-Rheims: from his people | decidido: "do seu povo".
+Is 56,8: "Ainda congregarei a êle os seus congregados" ficou "Ainda reunirei junto dele os que lhe pertencem"; a frase da fonte é truncada em português.
+Is 56,9: a fonte traz "( S)" no fim; removido.
+Is 56,12: a fala dos pastores ("Vinde, tomemos vinho...") ficou entre aspas, sem verbo de dizer, como na fonte.
+Is 57,4: OCR "mpa geração bastarda" lido "uma geração bastarda".
+Is 57,15: mantida a construção do Figueiredo ("o seu santo nome habita nas alturas"), que difere da Vulgata ("sanctum nomen ejus: in excelso et in sancto habitans").

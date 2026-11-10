@@ -30,3 +30,10 @@ Tb 11,8: número solto "1" depois de "certo que": retirado.
 Tb 11,14: "belida" (Vulgata "albugo", DR "a white skin") vertido "película branca".
 Tb 12,3: Figueiredo: "êle encheu de alegria a seus pais" | Vulgata: "gaudium parentibus ejus fecit" | Douay-Rheims: "he gave joy to her parents" | decidido: "os pais dela", para não parecer que são os pais de Tobias, que estão ouvindo.
 Tb 12,7: "é coisa de honra manifestar e publicar" vertido "é coisa honrosa revelar e proclamar".
+Tb 13,2: asterisco e número solto "* 1" no fim do versículo: retirados. "Tu levas até à sepultura, e tu ressuscitas" vertido "levas até a sepultura e fazes voltar" (Vulgata "deducis ad inferos, et reducis"); conferir se o dono prefere manter "ressuscitas".
+Tb 13,8: "crendo que êle obrará conosco a sua misericórdia" mantido "conosco" (Vulgata "vobiscum"): escolha do Figueiredo que faz sentido.
+Tb 13,16: Figueiredo: "serão benditos os que se edificarem" | Vulgata: "benedicti erunt qui ædificaverint te" | Douay-Rheims: "that shall build thee up" | decidido: "os que te edificarem" (erro de impressão).
+Tb 13,18: Figueiredo: "Bem-aventurados todos os que se amam" | Vulgata: "qui diligunt te" | Douay-Rheims: "all they that love thee" | decidido: "os que te amam" (erro de impressão).
+Tb 14,9: "adorando o rei de Israel" mantido com "adorar": o rei de Israel aqui é o próprio Deus.
+Tb 14,10: número solto "1" no fim do versículo: retirado.
+Tb 14,13: "a sua iniquidade há de dar cabo dela" vertido "a iniquidade desta cidade a levará ao fim", para ficar claro que é Nínive (v6 e "daqui" no v12); Vulgata "iniquitas ejus finem dabit ei".

@@ -34,3 +34,9 @@ Jr 49,21: "mar Roxo" ficou "mar Vermelho".
 Jr 50,9: Figueiredo: "e trarei conhaste la mão direita, e na esquerda um ralo, de que mais tarde tra Babilônia grandes exércitos" (OCR misturou linhas de outro texto) | Vulgata: "et adducam in Babylonem congregationem gentium magnarum" | Douay-Rheims: "and will bring against Babylon an assembly of great nations" | decidido: "e farei vir contra a Babilônia grandes exércitos de nações", tirando o trecho estranho.
 Jr 50,17: sinal solto "(S)" no fim do versículo (OCR); retirado.
 Jr 50,15: "deu as mãos" (Vulgata "dedit manum", render-se) ficou "se rendeu".
+Jr 51,14: Figueiredo: "homens como de bruxos" (OCR) | Vulgata: "hominibus quasi brucho" | Douay-Rheims: "men as with locusts" | decidido: "como de gafanhotos".
+Jr 51,25: sinal solto "( S)" no fim do versículo (OCR); retirado.
+Jr 51,35: Figueiredo: "A sua injustiça contra mim" | Vulgata: "Iniquitas adversum me" | Douay-Rheims: "The wrong done to me" | decidido: "A injustiça feita contra mim" (o "sua" não tem a quem se referir).
+Jr 52,31-33: "Joaquim" mantido para o rei levado cativo (Vulgata "Joachin", Douay-Rheims "Joachin", o Jeconias de 27,20); o Figueiredo usa o mesmo nome do pai. O dono decide se fica "Joaquin" para distinguir.
+Jr 52,12: Figueiredo: "que mandava pelo rei de Babilônia em Jerusalém" | Vulgata: "qui stabat coram rege Babylonis, in Jerusalem" | Douay-Rheims: "who stood before the king of Babylon, into Jerusalem" | decidido: mantido o sentido do Figueiredo ("que comandava em Jerusalém em nome do rei da Babilônia").
+Jr 52,30: número de página "~ 407" grudado no meio do versículo (OCR); retirado.

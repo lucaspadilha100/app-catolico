@@ -47,7 +47,8 @@ tradição textual, vale a Vulgata (é a Bíblia que o Figueiredo traduziu).
   "aliança" sempre que "testamento/concerto/pacto" é a aliança de Deus com o povo
   (Gl 4,24 "as duas alianças"); "testamento" só onde o argumento é o testamento
   que vale pela morte de quem o fez (Hb 9,16-17)
-- "Josué" quando o "Jesus" do Figueiredo é Josué, filho de Nun (Hb 4,8; At 7,45)
+- "Josué" quando o "Jesus" do Figueiredo é Josué, filho de Nun (Hb 4,8; At 7,45),
+  ou o sumo sacerdote Josué, filho de Josedec (Esdras, Ageu, Zacarias)
 - "poder" quando "virtude" é força (de Deus, de Cristo, dos milagres);
   "Senhor dos exércitos" / "Deus dos exércitos" para "Senhor das virtudes";
   "virtude" fica quando é qualidade moral
