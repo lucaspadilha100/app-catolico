@@ -144,3 +144,21 @@ Santa Bárbara.
   21/11, Jägerstätter 21/5, Álvaro del Portillo 12/5.
 - A conferir: o milagre da canonização de Gianna em Franca-SP; viagens de
   Orione e Scalabrini ao Brasil; o jejum de Alexandrina "segundo os relatos".
+
+## Acervo: Brasil (`src/santos/dados/acervo/brasil.ts`)
+- 47: 12 beatos (Eustáquio, Albertina Berkenbrock, Padre Victor, Benigna,
+  Isabel Cristina, Nazareno Lanciotti beatificado em 13/6/2026…), 28
+  veneráveis (Guido Schäffer, Frei Damião, Padre Ibiapina, Pozzobon, Odetinha,
+  Nelsinho Santana…) e 7 servos de Deus (Dom Helder, Dom Luciano, Padre
+  Cícero, Lola, Antoninho da Rocha Marmo, Padre Léo, Padre João Maria de Natal).
+- Fonte principal: lista "Santos, Bem-aventurados, Veneráveis e Servos de
+  Deus no Brasil" (Dom André Alves dos Santos, OSB, O São Paulo, jul. 2025) e
+  causesanti.va.
+- Datas divergentes: Mariano de la Mata 5/11 (agostinianos; Dicastério 5/4),
+  João Schiavo 27/1 (CNBB 8/7), Bárbara Maix 17/3 (morte; ou 6/11).
+- Padre Cícero: a questão de 1889 contada com sobriedade, ler com atenção.
+  Lola: o jejum só com a Eucaristia "segundo testemunhas"; a Igreja não se
+  pronunciou.
+- Fora por falta de biografia confiável: Antonieta Farani, Madre Maria dos
+  Anjos Amorim, Vicenta Guilarte, Mons. Ângelo Angioni, Maria de Lourdes
+  Guarda e outros.
