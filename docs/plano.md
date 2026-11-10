@@ -135,7 +135,7 @@ Legenda: ✅ pronto · 🔨 em andamento · ⬜ a fazer · 👤 precisa do dono
 - ✅ Sincronização entre aparelhos: novenas, dias de oração, falecidos, santos de devoção, leitura da Bíblia, terços, preferências e o cofre (exame, propósitos e diário embaralhados com o PIN)
 - ✅ Política de privacidade e termos de uso
 - ✅ Contagem anônima de uso (quantas aberturas por dia, sem identificar ninguém)
-- ⬜ 👤 Supabase: desligar "Confirm email", endereço do site e de retorno, provedor Google
+- ✅ Supabase e Google configurados: conta com e-mail e senha sem depender de e-mail; Google ligado e publicado (sem logotipo, para não exigir verificação)
 - ⬜ "Esqueci a senha" e confirmação de e-mail: quando houver domínio e envio de e-mail próprio (SMTP)
 - ⬜ Entrar com Apple: obrigatório na App Store quando há login do Google (Leva 16)
 - ⬜ 👤 Contato do responsável na política de privacidade (`src/conta/textos.ts`, `CONTATO`)
