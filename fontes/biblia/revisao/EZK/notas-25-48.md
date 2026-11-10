@@ -58,3 +58,7 @@ Ez 47: lido na liturgia (47,1-9.12; 47,1-2.8-9.12): conferido versículo a vers�
 Ez 47,1: legenda de gravura grudada no começo ("PLO, E QUE VAI TER AO MAR MORTO, CUJAS ÁGUAS"); retirada, texto conferido inteiro pela Vulgata.
 Ez 47,8: "montões de saibro do oriente" → "dunas de areia do oriente" (Vulgata "tumulos sabuli orientalis"); "as águas do mar ficarão sadias" mantido ("do mar" é do Figueiredo; a Vulgata diz só "aquæ").
 Ez 47,19: "meio-dia" mantido aqui porque o Figueiredo junta "lado austral do meio-dia" (Vulgata "plaga australis meridiana"): "O lado sul, para o meio-dia".
+Ez 48,2: legenda de gravura grudada no fim ("E ESTES SÃO OS NOMES DAS TRIBOS"); retirada. O mesmo em 48,35 ("QUADRO DA DIVISÃO DA TERRA DE ISRAEL" e sinais ilegíveis).
+Ez 48,15: "serão havidas como profanas" → "serão terra comum" (Vulgata "profana erunt", não sagrada); o dono confere.
+Ez 48,35: "O Senhor nela mesma" → "O Senhor está nela" (Vulgata "Dominus ibidem"). Números de 48,8-35 conferidos: 25 000, 10 000, 5 000, 4 500 por lado, 250 de arredores, 18 000 de perímetro.
+Ez 48: "Dan" → "Dã" (como em 27,19); "Zabulon", "Gad", "Neftali" na grafia do Figueiredo.
