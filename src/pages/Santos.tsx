@@ -3,7 +3,7 @@ import { Link, useParams, useSearchParams } from "react-router-dom";
 import { ChevronRight, Heart, Search } from "lucide-react";
 import { diaEMes, dia, hoje, paraIso } from "@/liturgia/datas";
 import { NOVENAS } from "@/devocao/catalogo";
-import { buscarSantos, caminhoDaImagem, santosDoNome, todosOsSantos, useSantosDeDevocao } from "@/santos/santos";
+import { NOME_DO_GRUPO, buscarSantos, caminhoDaImagem, santosDoNome, seloDoSanto, todosOsSantos, useSantosDeDevocao } from "@/santos/santos";
 import type { Santo } from "@/santos/tipos";
 import { Cartao, TituloPagina } from "@/components/Cartao";
 import { Carregando, Indisponivel, Voltar, useConteudo } from "@/components/Devocao";
@@ -26,7 +26,9 @@ function ItemDeSanto({ s }: { s: Santo }) {
       )}
       <span className="min-w-0 flex-1">
         <span className="block font-leitura text-[1.05rem] font-medium leading-snug text-marca">{s.nome}</span>
-        <span className="block text-sm text-tinta-suave">{dataDoSanto(s.data)}</span>
+        <span className="block text-sm text-tinta-suave">
+          {[seloDoSanto(s), s.dataDe === "falecimento" ? `faleceu em ${dataDoSanto(s.data)}` : dataDoSanto(s.data), s.pais].filter(Boolean).join(" · ")}
+        </span>
       </span>
       <ChevronRight className="size-5 shrink-0 text-tinta-suave" aria-hidden />
     </Link>
@@ -96,6 +98,38 @@ function SeuSanto({ todos }: { todos: Santo[] }) {
   );
 }
 
+function Grupos({ todos }: { todos: Santo[] }) {
+  const [params, setParams] = useSearchParams();
+  const grupo = params.get("grupo");
+  const grupos = Object.keys(NOME_DO_GRUPO).filter((g) => todos.some((s) => s.grupo === g));
+  const escolher = (g: string) => {
+    const p = new URLSearchParams(params);
+    if (g === grupo) p.delete("grupo");
+    else p.set("grupo", g);
+    setParams(p, { replace: true });
+  };
+  const lista = grupo ? todos.filter((s) => s.grupo === grupo).sort((a, b) => a.nome.localeCompare(b.nome, "pt-BR")) : [];
+  return (
+    <section className="flex flex-col gap-3">
+      <h2 className="px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto">Conhecer</h2>
+      <div className="flex flex-wrap gap-2">
+        {grupos.map((g) => (
+          <button
+            key={g}
+            type="button"
+            aria-pressed={g === grupo}
+            onClick={() => escolher(g)}
+            className={`min-h-10 rounded-full border px-4 text-sm font-medium ${g === grupo ? "border-transparent bg-destaque text-sobre-destaque" : "border-borda bg-cartao text-tinta"}`}
+          >
+            {NOME_DO_GRUPO[g]}
+          </button>
+        ))}
+      </div>
+      {lista.length > 0 && <Lista titulo={`${NOME_DO_GRUPO[grupo!]} (${lista.length})`} santos={lista} />}
+    </section>
+  );
+}
+
 export function Santos() {
   const todos = useConteudo(todosOsSantos, "todos-os-santos");
   const [params] = useSearchParams();
@@ -133,6 +167,7 @@ export function Santos() {
         <>
           <Lista titulo={pedido ? `Santos de ${dataDoSanto(mmdd)}` : "Santos de hoje"} santos={todos.filter((s) => s.data === mmdd)} />
           <Lista titulo="Meus santos" santos={todos.filter((s) => devocao.includes(s.id))} />
+          <Grupos todos={todos} />
           <SeuSanto todos={todos} />
         </>
       )}
@@ -168,7 +203,9 @@ export function SantoPagina() {
         </figure>
       )}
       <header>
-        <p className="text-sm font-medium text-tinta-suave">{dataDoSanto(s.data)}</p>
+        <p className="text-sm font-medium text-tinta-suave">
+          {[seloDoSanto(s), s.dataDe === "falecimento" ? `Faleceu em ${dataDoSanto(s.data)}` : dataDoSanto(s.data), s.pais].filter(Boolean).join(" · ")}
+        </p>
         <h1 className="mt-1 font-leitura text-3xl font-semibold leading-tight tracking-tight text-marca">{s.nome}</h1>
         <p className="mt-2 text-tinta-suave">{s.resumo}</p>
       </header>

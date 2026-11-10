@@ -4,6 +4,7 @@ import { dia, paraIso, somaDias } from "@/liturgia/datas";
 import type { MesDeSantos } from "./tipos";
 
 const meses = import.meta.glob<{ default: MesDeSantos }>("./dados/*.ts", { eager: true });
+const acervo = import.meta.glob<{ default: MesDeSantos }>("./dados/acervo/*.ts", { eager: true });
 const MESES = ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"];
 
 const datasDoAno = () => {
@@ -52,15 +53,37 @@ describe.each(MESES)("santos do mês %s", (mes) => {
   });
 });
 
-it("ids únicos no ano", () => {
-  const ids = Object.values(meses).flatMap((m) => m.default.santos.map((s) => s.id));
-  expect(new Set(ids).size).toBe(ids.length);
+it("ids e nomes únicos em todo o acervo", () => {
+  const todos = [...Object.values(meses), ...Object.values(acervo)].flatMap((m) => m.default.santos);
+  const repetidos = (xs: string[]) => xs.filter((x, i) => xs.indexOf(x) !== i);
+  expect(repetidos(todos.map((s) => s.id))).toEqual([]);
+  expect(repetidos(todos.map((s) => s.nome))).toEqual([]);
+});
+
+describe.each(Object.keys(acervo))("acervo %s", (arquivo) => {
+  const a = acervo[arquivo]!.default;
+  it("marcado para revisão, fora do calendário, com situação e texto limpo", () => {
+    expect(a.revisao).toBe("a revisar pelo dono");
+    for (const s of a.santos) {
+      expect(s.calendario, s.id).toBe(false);
+      expect(s.situacao, s.id).toBeDefined();
+      expect(s.id, s.nome).toMatch(/^[a-z0-9-]+$/);
+      expect(s.data, s.id).toMatch(/^(0[1-9]|1[0-2])(0[1-9]|[12]\d|3[01])$/);
+      expect(s.resumo.trim(), s.id).not.toBe("");
+      expect(s.historia.length, s.id).toBeGreaterThanOrEqual(2);
+      expect(s.historia.length, s.id).toBeLessThanOrEqual(5);
+      for (const t of [s.nome, s.resumo, ...s.historia, ...s.nomes, ...(s.padroeiro ?? []), s.pais ?? "", s.imagem?.titulo ?? ""]) {
+        expect(t, s.id).not.toMatch(/[—–]/);
+        expect(t, s.id).not.toMatch(/ {2}/);
+      }
+    }
+  });
 });
 
 it("toda imagem citada foi baixada para public/imagens/santos", async () => {
   const { existsSync } = await import("node:fs");
   const { join } = await import("node:path");
-  for (const m of Object.values(meses))
+  for (const m of [...Object.values(meses), ...Object.values(acervo)])
     for (const s of m.default.santos)
       if (s.imagem) expect(existsSync(join(__dirname, "../../public/imagens/santos", `${s.id}-${s.imagem.artic}.webp`)), s.id).toBe(true);
 });

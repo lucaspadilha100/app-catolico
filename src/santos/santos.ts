@@ -1,7 +1,8 @@
 import { useCallback, useEffect, useState } from "react";
-import type { MesDeSantos, Santo } from "./tipos";
+import type { AcervoDeSantos, MesDeSantos, Santo } from "./tipos";
 
 const MODULOS = import.meta.glob<{ default: MesDeSantos }>("./dados/*.ts");
+const ACERVO = import.meta.glob<{ default: AcervoDeSantos }>("./dados/acervo/*.ts");
 
 export const caminhoDaImagem = (s: Santo) => (s.imagem ? `/imagens/santos/${s.id}-${s.imagem.artic}.webp` : null);
 
@@ -12,10 +13,36 @@ export async function santosDoMes(mm: string): Promise<Santo[]> {
 
 export async function todosOsSantos(): Promise<Santo[]> {
   const meses = await Promise.all(Object.keys(MODULOS).sort().map((k) => MODULOS[k]!()));
-  return meses.flatMap((m) => m.default.santos);
+  const chaves = Object.keys(ACERVO).sort();
+  const acervo = await Promise.all(chaves.map((k) => ACERVO[k]!()));
+  const grupo = (k: string) => k.replace("./dados/acervo/", "").replace(".ts", "");
+  return [
+    ...meses.flatMap((m) => m.default.santos.map((s) => ({ ...s, grupo: "calendario" }))),
+    ...acervo.flatMap((m, i) => m.default.santos.map((s) => ({ ...s, grupo: grupo(chaves[i]!) }))),
+  ];
 }
 
 export const santosDaDataMMDD = async (mmdd: string) => (await santosDoMes(mmdd.slice(0, 2))).filter((s) => s.data === mmdd);
+
+export const NOME_DO_GRUPO: Record<string, string> = {
+  brasil: "Do Brasil",
+  jovens: "Jovens",
+  "nossa-senhora": "Nossa Senhora",
+  modernos: "Dos nossos tempos",
+  populares: "Devoção popular",
+  veneraveis: "Veneráveis",
+  calendario: "Do calendário",
+};
+
+export const SELO: Record<string, string> = { beato: "Beato", veneravel: "Venerável", servo: "Servo de Deus" };
+
+export const seloDoSanto = (s: Santo): string | null => {
+  if (!s.situacao || !SELO[s.situacao]) return null;
+  const feminino = /^(Beata|Santa|Serva|Venerável Madre|Venerável Irmã)\b/.test(s.nome);
+  if (s.situacao === "beato") return feminino ? "Beata" : "Beato";
+  if (s.situacao === "servo") return feminino ? "Serva de Deus" : "Servo de Deus";
+  return "Venerável";
+};
 
 export const normalizar = (s: string) =>
   s
