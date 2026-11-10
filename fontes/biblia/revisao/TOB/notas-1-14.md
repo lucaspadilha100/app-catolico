@@ -24,3 +24,5 @@ Tb 8,8: "limo da terra" vertido "barro da terra".
 Tb 8,10: número solto "1" no fim do versículo: retirado.
 Tb 8,23: "esconjurou" (Vulgata "adjuravit") vertido "pediu com insistência".
 Tb 8,24: "depois da sua morte" mantido como o Figueiredo (Vulgata "post obitum eorum", dos dois).
+Tb 9,9: "esmoler" vertido "caridoso com os pobres" (Vulgata "eleemosynas facientis").
+Tb 10,4: número solto "1" depois de "inconsoláveis": retirado.

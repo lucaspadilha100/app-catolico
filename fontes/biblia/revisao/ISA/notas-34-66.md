@@ -37,3 +37,6 @@ Is 48,1: OCR "vós eis que vos chamais" lido "vós que vos chamais".
 Is 48,18: "como os pegas do mar" (OCR de "pegos", Vulgata "gurgites maris") ficou "como as águas profundas do mar"; 48,19 "burgalhau" ficou "cascalho".
 Is 49,6: "converter as fezes de Israel" ficou "converter os restos de Israel" (Vulgata "fæces", borra; "fezes" hoje tem outro sentido). Versículo da liturgia.
 Is 49,7 e 49,23: "te adorarão" ficou "se prostrarão diante de ti" (termo fixo).
+Is 50,7: OCR "não foi confundido" lido "não fui confundido" (Vulgata "non sum confusus").
+Is 51,1: "a caverna do lago" (Vulgata "cavernam laci", a cova) ficou "a escavação da cova".
+Is 51,20: "assim como o orige tomado no laço" ficou "como o órix preso no laço" (Vulgata "oryx").
