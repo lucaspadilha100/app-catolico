@@ -95,7 +95,7 @@ function ModoContas({
   const parar = (e: { stopPropagation: () => void }) => e.stopPropagation();
   return (
     <div
-      className="fixed inset-0 z-50 flex touch-manipulation select-none flex-col bg-papel px-4 pb-[max(1.5rem,env(safe-area-inset-bottom))] pt-[max(1rem,env(safe-area-inset-top))]"
+      className="fixed inset-0 z-50 md:left-60 flex touch-manipulation select-none flex-col bg-papel px-4 pb-[max(1.5rem,env(safe-area-inset-bottom))] pt-[max(1rem,env(safe-area-inset-top))]"
       onClick={avancar}
     >
       <div className="flex items-center justify-between gap-3">

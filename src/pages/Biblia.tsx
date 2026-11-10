@@ -1,6 +1,6 @@
-import { useEffect, useRef, useState, type FormEvent } from "react";
-import { Link, Navigate, useLocation, useNavigate, useParams, useSearchParams } from "react-router-dom";
-import { Check, ChevronDown, ChevronLeft, ChevronRight, Search, X } from "lucide-react";
+import { useEffect, useLayoutEffect, useRef, useState, type FormEvent } from "react";
+import { Navigate, useLocation, useNavigate, useParams, useSearchParams } from "react-router-dom";
+import { Check, ChevronDown, Search, X } from "lucide-react";
 import { LIVROS, livroPorCodigo, livroPorSlug, type Livro } from "@/biblia/livros";
 import { carregarLivro, type LivroDaBiblia } from "@/biblia/texto";
 import { interpretar, livrosQueCombinam } from "@/biblia/busca";
@@ -97,7 +97,7 @@ function Seletor({ livro, cap, buscar, aoFechar }: { livro: Livro; cap: number; 
     };
   }, []);
 
-  const ir = (destino: string) => navegar(destino, { replace: true });
+  const ir = (destino: string) => navegar(destino, { replace: true, state: { ir: Date.now() } });
   const icone = "grid size-11 place-items-center rounded-full text-tinta-suave hover:bg-marca-fundo";
 
   const linha = (l: Livro) => {
@@ -144,7 +144,7 @@ function Seletor({ livro, cap, buscar, aoFechar }: { livro: Livro; cap: number; 
   };
 
   return (
-    <div className="fixed inset-0 z-50 flex flex-col bg-papel" role="dialog" aria-modal="true" aria-label="Livros da Bíblia">
+    <div className="fixed inset-0 z-50 flex flex-col bg-papel md:left-60 md:border-l md:border-borda" role="dialog" aria-modal="true" aria-label="Livros da Bíblia">
       <div className="mx-auto flex w-full max-w-2xl flex-col gap-3 px-4 pb-2 pt-[max(0.75rem,env(safe-area-inset-top))] md:px-8">
         <div className="flex items-center gap-1">
           <h2 className="flex-1 font-leitura text-3xl font-semibold text-marca">Livros</h2>
@@ -194,182 +194,302 @@ export function BibliaLivro() {
   return <Navigate to={caminho(livro, cap)} replace />;
 }
 
-export function BibliaCapitulo() {
-  const { livro: slug, capitulo } = useParams();
-  const [params, setParams] = useSearchParams();
-  const livro = livroPorSlug(slug ?? "");
-  const cap = Number(capitulo);
-  const [dados, setDados] = useState<LivroDaBiblia | null>(null);
-  const [erro, setErro] = useState(false);
-  const leitura = useLeituraDaBiblia();
-  const fim = useRef<HTMLDivElement>(null);
-  const [selecionado, setSelecionado] = useState<number | null>(null);
-  const valido = Boolean(livro) && Number.isInteger(cap) && cap >= 1 && cap <= (livro?.capitulos ?? 0);
-  const escolhendo = params.get("livros");
-  const alvo = Number(useLocation().hash.replace("#v", "")) || 0;
-  const navegar = useNavigate();
+interface Posicao {
+  livro: Livro;
+  cap: number;
+}
 
-  const abrirSeletor = (buscar = false) => {
-    const p = new URLSearchParams(params);
-    p.set("livros", buscar ? "busca" : "1");
-    setParams(p);
-  };
-  const fecharSeletor = () => {
-    if (window.history.state?.idx > 0) navegar(-1);
-    else {
-      const p = new URLSearchParams(params);
-      p.delete("livros");
-      setParams(p, { replace: true });
-    }
-  };
+const chaveDe = (p: Posicao) => `${p.livro.codigo}-${p.cap}`;
+const MAXIMO_NA_TELA = 8;
+const LINHA_DO_TOPO = 140;
+
+function Leitor({
+  inicial,
+  versiculo,
+  aoMudar,
+  aoEscolher,
+}: {
+  inicial: Posicao;
+  versiculo: number;
+  aoMudar: (p: Posicao) => void;
+  aoEscolher: (p: Posicao, buscar: boolean) => void;
+}) {
+  const leitura = useLeituraDaBiblia();
+  const [janela, setJanela] = useState<Posicao[]>([inicial]);
+  const [livros, setLivros] = useState<Record<string, LivroDaBiblia>>({});
+  const [erro, setErro] = useState(false);
+  const [atual, setAtual] = useState<Posicao>(inicial);
+  const [selecionado, setSelecionado] = useState<{ pos: Posicao; v: number } | null>(null);
+  const janelaRef = useRef(janela);
+  janelaRef.current = janela;
+  const atualRef = useRef(atual);
+  atualRef.current = atual;
+  const ocupado = useRef(false);
+  const rolou = useRef(false);
+  const lidos = useRef(new Set<string>());
+  const ultimoY = useRef(0);
+  const ancora = useRef<{ id: string; topo: number } | null>(null);
+  const verificar = useRef<() => void>(() => {});
+
   useEffect(() => {
-    if (!livro) return;
     let ativo = true;
-    setErro(false);
-    carregarLivro(livro.codigo)
-      .then((d) => ativo && setDados(d))
+    carregarLivro(inicial.livro.codigo)
+      .then((d) => {
+        if (!ativo) return;
+        setLivros((l) => ({ ...l, [d.codigo]: d }));
+      })
       .catch(() => ativo && setErro(true));
+    registrarAbertura(inicial.livro.codigo, inicial.cap);
     return () => {
       ativo = false;
     };
-  }, [livro]);
+  }, []);
 
-  useEffect(() => setSelecionado(null), [livro, cap]);
-
+  const primeiroCarregado = Boolean(livros[inicial.livro.codigo]);
   useEffect(() => {
-    if (selecionado === null) return;
-    const alvo = document.getElementById(`v${selecionado}`);
-    if (alvo && alvo.getBoundingClientRect().bottom > window.innerHeight * 0.4) {
-      alvo.scrollIntoView({ behavior: "smooth", block: "start" });
+    if (!primeiroCarregado) return;
+    const alvo = versiculo ? document.getElementById(`${chaveDe(inicial)}-v${versiculo}`) : null;
+    if (alvo) alvo.scrollIntoView({ block: "center" });
+    else window.scrollTo(0, 0);
+    const t = setTimeout(() => verificar.current(), 300);
+    return () => clearTimeout(t);
+  }, [primeiroCarregado]);
+
+  const guardarAncora = () => {
+    const versos = document.querySelectorAll<HTMLElement>("[data-v]");
+    for (const v of versos) {
+      const r = v.getBoundingClientRect();
+      if (r.bottom > LINHA_DO_TOPO) {
+        ancora.current = { id: v.id, topo: r.top };
+        return;
+      }
     }
-  }, [selecionado]);
+  };
+
+  useLayoutEffect(() => {
+    const a = ancora.current;
+    ancora.current = null;
+    if (!a) return;
+    const el = document.getElementById(a.id);
+    if (el) window.scrollBy(0, el.getBoundingClientRect().top - a.topo);
+  }, [janela]);
+
+  const mais = async (passo: 1 | -1) => {
+    if (ocupado.current) return;
+    const j = janelaRef.current;
+    const ponta = passo === 1 ? j[j.length - 1]! : j[0]!;
+    const v = vizinho(ponta.livro, ponta.cap, passo);
+    if (!v) return;
+    ocupado.current = true;
+    try {
+      const d = await carregarLivro(v.livro.codigo);
+      guardarAncora();
+      setLivros((l) => (l[d.codigo] ? l : { ...l, [d.codigo]: d }));
+      setJanela((atualJ) => {
+        const n = passo === 1 ? [...atualJ, v] : [v, ...atualJ];
+        if (n.length <= MAXIMO_NA_TELA) return n;
+        return passo === 1 ? n.slice(n.length - MAXIMO_NA_TELA) : n.slice(0, MAXIMO_NA_TELA);
+      });
+    } catch {
+      setErro(true);
+    } finally {
+      ocupado.current = false;
+    }
+  };
+
+  verificar.current = () => {
+    const altura = window.innerHeight;
+    const doc = document.documentElement;
+    if (doc.scrollHeight - (window.scrollY + altura) < 1600) void mais(1);
+    if (rolou.current && window.scrollY < 900) void mais(-1);
+    const descendo = window.scrollY > ultimoY.current;
+    ultimoY.current = window.scrollY;
+    const secoes = document.querySelectorAll<HTMLElement>("[data-capitulo]");
+    let agora: Posicao | null = null;
+    for (const sec of secoes) {
+      const r = sec.getBoundingClientRect();
+      const pos = janelaRef.current.find((p) => chaveDe(p) === sec.dataset.capitulo);
+      if (!pos) continue;
+      if (!agora || r.top <= LINHA_DO_TOPO) agora = pos;
+      if (rolou.current && descendo && r.bottom <= altura && r.bottom > 0 && !lidos.current.has(chaveDe(pos))) {
+        lidos.current.add(chaveDe(pos));
+        marcarLido(pos.livro.codigo, pos.cap);
+      }
+    }
+    if (agora && chaveDe(agora) !== chaveDe(atualRef.current)) {
+      setAtual(agora);
+      registrarAbertura(agora.livro.codigo, agora.cap);
+      aoMudar(agora);
+    }
+  };
 
   useEffect(() => {
-    if (!valido || !livro) return;
-    registrarAbertura(livro.codigo, cap);
-    const alvo = window.location.hash ? document.querySelector(window.location.hash) : null;
-    if (!alvo) window.scrollTo(0, 0);
-  }, [valido, livro, cap]);
-
-  const carregado = dados?.codigo === livro?.codigo;
-  useEffect(() => {
-    if (!carregado || !livro || !fim.current) return;
-    const marcador = fim.current;
-    const observador = new IntersectionObserver(
-      ([entrada]) => {
-        if (entrada?.isIntersecting && window.scrollY > 120) marcarLido(livro.codigo, cap);
-      },
-      { threshold: 1 },
-    );
-    observador.observe(marcador);
-    return () => observador.disconnect();
-  }, [carregado, livro, cap]);
+    let quadro = 0;
+    const inicio = Date.now();
+    const rolar = () => {
+      if (Date.now() - inicio > 600) rolou.current = true;
+      cancelAnimationFrame(quadro);
+      quadro = requestAnimationFrame(() => verificar.current());
+    };
+    window.addEventListener("scroll", rolar, { passive: true });
+    window.addEventListener("resize", rolar);
+    return () => {
+      window.removeEventListener("scroll", rolar);
+      window.removeEventListener("resize", rolar);
+      cancelAnimationFrame(quadro);
+    };
+  }, []);
 
   useEffect(() => {
-    if (!carregado || !window.location.hash) return;
-    document.querySelector(window.location.hash)?.scrollIntoView({ block: "center" });
-  }, [carregado]);
+    const t = setTimeout(() => verificar.current(), 50);
+    return () => clearTimeout(t);
+  }, [janela, livros]);
 
-  if (!livro || !valido) return <NaoEncontrada />;
-  const versiculos = carregado ? (dados!.capitulos[cap - 1] ?? []) : null;
-  const titulo = nomeDoCapitulo(livro, cap);
-  const lido = (leitura.lidos[livro.codigo] ?? []).includes(cap);
-  const emRevisao = ESTADO_DOS_LIVROS[livro.codigo]?.revisao === "em-revisao";
-  const anterior = vizinho(livro, cap, -1);
-  const proximo = vizinho(livro, cap, 1);
+  const titulo = nomeDoCapitulo(atual.livro, atual.cap);
 
   return (
     <div>
       <div className="sticky top-[calc(max(0.5rem,env(safe-area-inset-top))+2.3rem)] z-[5] -mx-4 -mt-5 mb-2 flex items-center gap-1 bg-papel/95 px-3 py-1.5 backdrop-blur md:top-0 md:-mx-8 md:-mt-10 md:px-7 md:py-3">
-        <button type="button" onClick={() => abrirSeletor()} className="flex min-h-11 min-w-0 items-center gap-1.5 rounded-full px-1 font-leitura text-2xl font-semibold text-marca">
+        <button type="button" onClick={() => aoEscolher(atual, false)} className="flex min-h-11 min-w-0 items-center gap-1.5 rounded-full px-1 font-leitura text-2xl font-semibold text-marca">
           <span className="truncate">{titulo}</span>
           <ChevronDown className="size-5 shrink-0 text-tinta-suave" aria-hidden />
         </button>
         <span className="flex-1" />
-        <button type="button" onClick={() => abrirSeletor(true)} aria-label="Buscar passagem" className="grid size-11 shrink-0 place-items-center rounded-full text-tinta-suave hover:bg-marca-fundo">
+        <button type="button" onClick={() => aoEscolher(atual, true)} aria-label="Buscar passagem" className="grid size-11 shrink-0 place-items-center rounded-full text-tinta-suave hover:bg-marca-fundo">
           <Search className="size-5" aria-hidden />
         </button>
       </div>
+      <h1 className="sr-only">{nomeDoCapitulo(inicial.livro, inicial.cap)}</h1>
 
-      <h1 className="sr-only">{titulo}</h1>
-      {emRevisao && <p className="mb-3 text-center text-sm text-tinta-suave">Texto em revisão</p>}
-
-      <div className="px-1 sm:px-2">
-        {erro ? (
-          <p className="py-8 text-center text-tinta-suave">Sem conexão para abrir este livro.</p>
-        ) : versiculos === null ? (
-          <div className="flex flex-col gap-3">
-            {Array.from({ length: 8 }, (_, i) => (
-              <div key={i} className="h-5 animate-pulse rounded bg-marca-fundo" />
-            ))}
-          </div>
-        ) : (
-          <div className="flex flex-col gap-3.5 font-leitura text-[1.2rem] leading-[1.7] text-tinta">
-            {versiculos.map((texto, i) =>
-              texto ? (
-                <p
-                  key={i}
-                  id={`v${i + 1}`}
-                  onClick={() => setSelecionado(selecionado === i + 1 ? null : i + 1)}
-                  className={`scroll-mt-32 cursor-pointer rounded-md transition-colors target:bg-marca-fundo ${
-                    selecionado === i + 1 ? "bg-marca-fundo underline decoration-destaque decoration-2 underline-offset-4" : alvo === i + 1 ? "bg-marca-fundo" : ""
+      {janela.map((pos, i) => {
+        const dados = livros[pos.livro.codigo];
+        const versiculos = dados?.capitulos[pos.cap - 1];
+        const chave = chaveDe(pos);
+        const lido = (leitura.lidos[pos.livro.codigo] ?? []).includes(pos.cap);
+        const emRevisao = ESTADO_DOS_LIVROS[pos.livro.codigo]?.revisao === "em-revisao";
+        return (
+          <section key={chave} data-capitulo={chave} className={i > 0 ? "pt-12" : ""}>
+            {i > 0 && <h2 className="mb-5 px-1 font-leitura text-2xl font-semibold text-marca">{nomeDoCapitulo(pos.livro, pos.cap)}</h2>}
+            {emRevisao && pos.cap === 1 && <p className="mb-3 px-1 text-sm text-tinta-suave">Texto em revisão</p>}
+            {!versiculos ? (
+              <div className="flex flex-col gap-3 px-1">
+                {Array.from({ length: 8 }, (_, k) => (
+                  <div key={k} className="h-5 animate-pulse rounded bg-marca-fundo" />
+                ))}
+              </div>
+            ) : (
+              <div className="flex flex-col gap-3.5 px-1 font-leitura text-[1.2rem] leading-[1.7] text-tinta sm:px-2">
+                {versiculos.map((texto, k) =>
+                  texto ? (
+                    <p
+                      key={k}
+                      id={`${chave}-v${k + 1}`}
+                      data-v
+                      onClick={() => setSelecionado(selecionado && chaveDe(selecionado.pos) === chave && selecionado.v === k + 1 ? null : { pos, v: k + 1 })}
+                      className={`cursor-pointer rounded-md transition-colors ${
+                        selecionado && chaveDe(selecionado.pos) === chave && selecionado.v === k + 1
+                          ? "bg-marca-fundo underline decoration-destaque decoration-2 underline-offset-4"
+                          : chave === chaveDe(inicial) && versiculo === k + 1
+                            ? "bg-marca-fundo"
+                            : ""
+                      }`}
+                    >
+                      <sup className="mr-1.5 align-[0.4em] font-sans text-[0.6em] font-medium text-tinta-suave">{k + 1}</sup>
+                      {texto}
+                    </p>
+                  ) : null,
+                )}
+                <button
+                  type="button"
+                  onClick={() => marcarLido(pos.livro.codigo, pos.cap, !lido)}
+                  className={`mt-3 flex min-h-10 w-fit items-center gap-1.5 self-center rounded-full px-4 font-sans text-sm font-medium ${
+                    lido ? "bg-marca-fundo text-destaque-texto" : "border border-borda text-tinta-suave"
                   }`}
                 >
-                  <sup className="mr-1.5 align-[0.4em] font-sans text-[0.6em] font-medium text-tinta-suave">{i + 1}</sup>
-                  {texto}
-                </p>
-              ) : null,
+                  {lido && <Check className="size-4" aria-hidden />}
+                  {lido ? "Capítulo lido" : "Marcar como lido"}
+                </button>
+              </div>
             )}
-          </div>
-        )}
-        <div ref={fim} className="clear-both" />
-      </div>
+          </section>
+        );
+      })}
 
-      {versiculos && (
-        <div className="mt-10 flex flex-col gap-2">
-          {proximo && (
-            <Link
-              to={caminho(proximo.livro, proximo.cap)}
-              replace
-              className="flex min-h-14 items-center justify-between gap-2 rounded-xl bg-destaque px-5 font-semibold text-sobre-destaque"
-            >
-              <span>{nomeDoCapitulo(proximo.livro, proximo.cap)}</span>
-              <ChevronRight className="size-5" aria-hidden />
-            </Link>
-          )}
-          <button
-            type="button"
-            onClick={() => marcarLido(livro.codigo, cap, !lido)}
-            className={`flex min-h-12 w-full items-center justify-center gap-2 rounded-xl border font-medium ${
-              lido ? "border-transparent bg-marca-fundo text-destaque-texto" : "border-borda bg-cartao text-tinta-suave"
-            }`}
-          >
-            {lido && <Check className="size-5" aria-hidden />}
-            {lido ? "Capítulo lido" : "Marcar como lido"}
-          </button>
-          {anterior && (
-            <Link to={caminho(anterior.livro, anterior.cap)} replace className="flex min-h-11 items-center justify-center gap-1 text-sm font-medium text-tinta-suave">
-              <ChevronLeft className="size-4" aria-hidden /> {nomeDoCapitulo(anterior.livro, anterior.cap)}
-            </Link>
-          )}
-        </div>
-      )}
+      {erro && <p className="py-8 text-center text-tinta-suave">Sem conexão para abrir este livro.</p>}
+      {!vizinho(janela[janela.length - 1]!.livro, janela[janela.length - 1]!.cap, 1) && <div className="h-16" />}
 
-      {selecionado !== null && versiculos?.[selecionado - 1] && (
+      {selecionado && livros[selecionado.pos.livro.codigo]?.capitulos[selecionado.pos.cap - 1]?.[selecionado.v - 1] && (
         <BarraDoVersiculo
-          referencia={`${livro.codigo === "PSA" ? "Sl" : livro.abreviatura} ${cap},${selecionado}`}
+          referencia={`${selecionado.pos.livro.codigo === "PSA" ? "Sl" : selecionado.pos.livro.abreviatura} ${selecionado.pos.cap},${selecionado.v}`}
           aviso={{
-            livro: livro.codigo,
-            capitulo: cap,
-            versiculo: selecionado,
-            arquivo: ESTADO_DOS_LIVROS[livro.codigo]?.arquivo ?? "",
-            texto_versiculo: versiculos[selecionado - 1]!,
+            livro: selecionado.pos.livro.codigo,
+            capitulo: selecionado.pos.cap,
+            versiculo: selecionado.v,
+            arquivo: ESTADO_DOS_LIVROS[selecionado.pos.livro.codigo]?.arquivo ?? "",
+            texto_versiculo: livros[selecionado.pos.livro.codigo]!.capitulos[selecionado.pos.cap - 1]![selecionado.v - 1]!,
           }}
           aoFechar={() => setSelecionado(null)}
         />
       )}
-
-      {escolhendo && <Seletor livro={livro} cap={cap} buscar={escolhendo === "busca"} aoFechar={fecharSeletor} />}
     </div>
+  );
+}
+
+export function BibliaCapitulo() {
+  const { livro: slug, capitulo } = useParams();
+  const [params, setParams] = useSearchParams();
+  const local = useLocation();
+  const navegar = useNavigate();
+  const livro = livroPorSlug(slug ?? "");
+  const cap = Number(capitulo);
+  const valido = Boolean(livro) && Number.isInteger(cap) && cap >= 1 && cap <= (livro?.capitulos ?? 0);
+  const escolhendo = params.get("livros");
+  const versiculo = Number(local.hash.replace("#v", "")) || 0;
+  const pelaRolagem = useRef("");
+  const [semente, setSemente] = useState(0);
+  const [escolhido, setEscolhido] = useState<Posicao | null>(null);
+  const caminhoAtual = livro ? caminho(livro, cap) : "";
+  const pedido = (local.state as { ir?: number } | null)?.ir ?? 0;
+
+  useEffect(() => {
+    if (caminhoAtual && caminhoAtual === pelaRolagem.current && !local.hash && !pedido) return;
+    pelaRolagem.current = "";
+    setSemente((n) => n + 1);
+  }, [caminhoAtual, local.hash, pedido]);
+
+  if (!livro || !valido) return <NaoEncontrada />;
+
+  const aoMudar = (p: Posicao) => {
+    const destino = caminho(p.livro, p.cap);
+    pelaRolagem.current = destino;
+    const busca = new URLSearchParams(params);
+    busca.delete("livros");
+    const q = busca.toString();
+    navegar(`${destino}${q ? `?${q}` : ""}`, { replace: true });
+  };
+
+  const aoEscolher = (p: Posicao, buscar: boolean) => {
+    setEscolhido(p);
+    const n = new URLSearchParams(params);
+    n.set("livros", buscar ? "busca" : "1");
+    setParams(n);
+  };
+
+  const fecharSeletor = () => {
+    if (window.history.state?.idx > 0) navegar(-1);
+    else {
+      const n = new URLSearchParams(params);
+      n.delete("livros");
+      setParams(n, { replace: true });
+    }
+  };
+
+  const noSeletor = escolhido ?? { livro, cap };
+
+  return (
+    <>
+      <Leitor key={semente} inicial={{ livro, cap }} versiculo={versiculo} aoMudar={aoMudar} aoEscolher={aoEscolher} />
+      {escolhendo && <Seletor livro={noSeletor.livro} cap={noSeletor.cap} buscar={escolhendo === "busca"} aoFechar={fecharSeletor} />}
+    </>
   );
 }

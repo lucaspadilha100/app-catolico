@@ -36,7 +36,7 @@ export function BarraDoVersiculo({ referencia, aviso, aoFechar }: Props) {
   }
 
   return (
-    <div className="fixed inset-x-0 bottom-[calc(4rem+env(safe-area-inset-bottom))] z-20 px-3 pb-3 md:bottom-0 md:pb-6">
+    <div className="fixed inset-x-0 bottom-[calc(4rem+env(safe-area-inset-bottom))] z-20 px-3 pb-3 md:bottom-0 md:left-60 md:pb-6">
       <div
         role="dialog"
         aria-label={`Versículo ${referencia}`}
