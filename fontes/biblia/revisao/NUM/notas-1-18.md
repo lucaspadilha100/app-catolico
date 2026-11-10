@@ -33,3 +33,7 @@ Nm 12,1: "Maria" (a irmã de Moisés) mantido como no Figueiredo; "nesciamente" 
 Nm 13,1: a fonte repete aqui a partida de Haserot que já fechou o cap. 12 (12,16); mantidos os dois, como na fonte (a Vulgata só a tem aqui). Conferir no PDF.
 Nm 13,24: Figueiredo: "o qual levaram dois ho" (o resto se perdeu na edição) | Vulgata: "quem portaverunt in vecte duo viri. De malis quoque granatis et de ficis loci illius tulerunt" | Douay-Rheims: "which two men carried upon a lever. They took also of the pomegranates and of the figs of that place" | decidido: restaurado pelo latim; em restaurados.json.
 Nm 13,9: "Osée" vertido "Oseias" (grafia atual); "Jefone" acentuado "Jefoné".
+Nm 14,9: cabeçalho de página ("— 60 — Números 14, 10-16") grudado no meio do versículo; retirado.
+Nm 14,16: Figueiredo: "Êle não pode introduzir o povo no país, que lhe" (o resto se perdeu na edição) | Vulgata: "pro qua juraverat: idcirco occidit eos in solitudine" | Douay-Rheims: "for which he had sworn, therefore did he kill them in the wilderness" | decidido: restaurado pelo latim; em restaurados.json.
+Nm 14,28: Figueiredo: "assim vo-lo-ei de eu fazer" (frase truncada na edição) | Vulgata: "sic faciam vobis" | Douay-Rheims: "so will I do to you" | decidido: "assim vos farei".
+Nm 14,18: o Figueiredo passa da terceira pessoa ("O Senhor é paciente") à segunda ("tu que visitas"), como a Vulgata ("qui visitas"); mantido.
