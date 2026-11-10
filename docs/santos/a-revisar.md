@@ -93,3 +93,16 @@ público, CC0), baixadas por `npm run gerar:santos`.
 ## Imagens que o museu não entregou (sem imagem)
 São Filipe Néri, São Caetano, Santo Agostinho, Santa Catarina de Alexandria,
 Santa Bárbara.
+
+## Acervo: veneráveis (`src/santos/dados/acervo/veneraveis.ts`)
+- 34 veneráveis (data = dia da morte) e o Beato Fulton Sheen: beatificado em
+  24/9/2026 em Saint Louis (Vatican News, OSV News; conferir).
+- Kapaun e D'Acquisto são veneráveis pelo decreto de oferta da vida
+  (fevereiro de 2025), não por virtudes heroicas: o texto diz isso.
+- Enrique Shaw: milagre aprovado em 18/12/2025, beatificação sem data achada.
+- Datas incertas: decreto de Toussaint (1996 ou 1997), morte de Varela (18 ou
+  25/2/1853), morte de Delille (16 ou 17/11/1862), decreto de Kino (julho de
+  2020).
+- Fatos de biografia: Marthe Robin vivendo só da Eucaristia (dito pelos que a
+  conheceram; a Igreja não se pronunciou), operários que doaram sangue a Shaw,
+  Kino com a sela por travesseiro.
