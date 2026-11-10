@@ -957,6 +957,10 @@ export function ParoquiaPagina() {
               <a href="https://missas.com.br" target="_blank" rel="noreferrer" className="underline underline-offset-2">
                 Missas.com.br
               </a>
+            ) : p.fonte === "OpenStreetMap" ? (
+              <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noreferrer" className="underline underline-offset-2">
+                © colaboradores do OpenStreetMap
+              </a>
             ) : (
               p.fonte
             )}
