@@ -11,3 +11,12 @@ Ez 29,3: nota de rodapé grudada no fim ("O lUO l1l ~mu - No Nilo e nas suas inu
 Ez 29,18: "todos os ombros ficaram pelados" → "esfolados" (Vulgata "depilatus").
 Ez 30,5: nota de rodapé grudada no fim ("s. Jerônimo entende isto de Zorobabel, que nasceu em Babilônia,"); retirada, texto conferido inteiro pela Vulgata. "terra do concerto" → "terra da aliança".
 Ez 30,3: "dia de nublado" → "dia de nuvens" (Vulgata "dies nubis").
+Ez 32,22: sinal "( S)" no fim (OCR); retirado. "Assur" (o povo) → "a Assíria" também em Ez 31,3.
+Ez 32,27: Figueiredo: "E não dormiram com os valentes" | Vulgata: "Et non dormient cum fortibus" | Douay-Rheims: "And they shall not sleep with the brave" | decidido: "Não dormirão".
+Ez 32,32: Figueiredo: "e dormi no meio dos incircuncidados" | Vulgata: "et dormivit in medio incircumcisorum" | Douay-Rheims: "and he hath slept" | decidido: "e ele dormiu".
+Ez 32,20: "precipitaram-no a ele" → "arrastaram o Egito" (Vulgata "attraxerunt eam", o Egito; o pronome do Figueiredo ficaria ambíguo).
+Ez 33,6: "Atalaia" → "sentinela" em todo o capítulo. Sinal "( S)" no fim de Ez 33,22 (OCR); retirado.
+Ez 33,25: "imundícias" (Vulgata "immunditias"; o hebraico diz os ídolos) → "ídolos imundos", como o Figueiredo usa no livro; o dono confere.
+Ez 34,4: Figueiredo: "as que anelavam desgarradas" (OCR) | Vulgata: "quod abjectum est non reduxistis" | decidido: "as desgarradas" (cf. 34,16 "as que andavam desgarradas").
+Ez 34,17: "entre rez e rez" → "entre ovelha e ovelha" (Vulgata "inter pecus et pecus"); o mesmo em 34,20.22. "pacto de paz" → "aliança de paz" (34,25; termo fixo). Lido na liturgia (34,11-12.15-17): conferir com atenção.
+Ez 34,11-12: "visitar as ovelhas" → "cuidar delas" (Vulgata "visitabo"); o dono confere se prefere "visitar".

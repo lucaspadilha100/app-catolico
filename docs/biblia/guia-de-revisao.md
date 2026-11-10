@@ -41,6 +41,8 @@ tradição textual, vale a Vulgata (é a Bíblia que o Figueiredo traduziu).
   `fontes/biblia/revisao/<LIVRO>/restaurados.json`, que libera o limite de tamanho. Versículo que ficou curto porque a fonte trazia
   nota de rodapé ou cabeçalho grudado vai em `notas-removidas.json` (mesmo formato),
   depois de conferir pela Vulgata que o texto está inteiro.
+- **Versículo que a edição de 1950 não imprimiu** (e as três réguas trazem) entra
+  no fim do capítulo, com "cap,v" em `acrescentados.json` (ex.: 2Rs 14,29).
 
 ## Termos fixos
 - "nova aliança" (testamento do sangue: Mt 26,28; Mc 14,24; Lc 22,20; 1Cor 11,25);

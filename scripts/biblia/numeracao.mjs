@@ -13,7 +13,9 @@ for (const linha of readFileSync(join(raiz, "fontes/versificacao/org.vrs"), "utf
 }
 
 export function versiculosEsperados(livro, capitulo, fonte) {
-  return NUMERACAO_MODERNA.has(livro) ? moderna[livro][capitulo - 1] : fonte.capitulos[capitulo - 1].length;
+  if (NUMERACAO_MODERNA.has(livro)) return moderna[livro][capitulo - 1];
+  const acrescentados = [...lista(livro, "acrescentados.json")].filter((r) => r.startsWith(`${capitulo},`)).length;
+  return fonte.capitulos[capitulo - 1].length + acrescentados;
 }
 
 const DIVISAO_REFEITA = { MAT: [5, 17], MRK: [4, 8, 9], LUK: [17], JHN: [5, 6, 7, 11] };
