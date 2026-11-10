@@ -131,3 +131,16 @@ Santa Bárbara.
   12 ou 13/5, Okelo e Irwa (fontes divergem), mártires de Tlaxcala 23/9 (sem
   fonte), Sagheddu 22/4, Rafael Arnáiz 26/4, Bakanja 15/8.
 - Tarcísio menino e acólito, a pomba de Eulália: como tradição.
+
+## Acervo: dos nossos tempos (`src/santos/dados/acervo/modernos.ts`)
+- 55 santos e beatos dos séculos XIX a XXI (fundadores com obras no Brasil,
+  missionários, mártires do século XX, Pio IX e João Paulo I, místicos,
+  leigos) e o Beato Fulton Sheen (movido para cá).
+- Canonizados em 19/10/2025 por Leão XIV: Bártolo Longo, José Gregório
+  Hernández, Maria Troncatti, Pedro To Rot, Inácio Maloyan.
+- Datas escolhidas entre duas: Catarina Labouré 28/11 (Martirológio 31/12),
+  Leopoldo Mandić 12/5 (Martirológio 30/7), Cabrini 22/12 (EUA 13/11),
+  Damião 10/5, Bessette 6/1 (Canadá 7/1). Sem fonte oficial: Clélia Merloni
+  21/11, Jägerstätter 21/5, Álvaro del Portillo 12/5.
+- A conferir: o milagre da canonização de Gianna em Franca-SP; viagens de
+  Orione e Scalabrini ao Brasil; o jejum de Alexandrina "segundo os relatos".

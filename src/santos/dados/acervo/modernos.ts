@@ -834,6 +834,22 @@ const acervo: AcervoDeSantos = {
         "Com a derrota, em 1918, deixou o governo e foi para o exílio, que terminou na ilha da Madeira, em Portugal. Ali viveu pobremente com a família. Adoeceu de pneumonia e morreu em Funchal, em 1º de abril de 1922, aos 34 anos, perdoando os inimigos. Foi beatificado por São João Paulo II em 3 de outubro de 2004. A sua memória é celebrada em 21 de outubro, aniversário do casamento.",
       ],
     },
+    {
+      id: "beato-fulton-sheen",
+      nome: "Beato Fulton Sheen",
+      data: "1209",
+      calendario: false,
+      situacao: "beato",
+      pais: "Estados Unidos",
+      nomes: ["Fulton"],
+      resumo: "Bispo norte-americano que anunciou a fé a milhões de pessoas pelo rádio e pela televisão.",
+      historia: [
+        "Fulton John Sheen nasceu em 1895 em El Paso, no estado de Illinois, nos Estados Unidos. Ordenado padre em 1919, estudou filosofia na Europa e foi professor por muitos anos na Universidade Católica da América, em Washington.",
+        "Tinha um dom raro para explicar a fé com clareza e bom humor. Durante vinte anos pregou num programa de rádio e, a partir de 1951, apresentou na televisão o programa A vida vale a pena ser vivida, assistido por milhões de pessoas, católicas ou não. Escreveu dezenas de livros e dirigiu nos Estados Unidos a Obra da Propagação da Fé, recolhendo ajuda para as missões. Foi bispo auxiliar de Nova York e bispo de Rochester.",
+        "Durante toda a vida de padre fez, todos os dias, uma hora santa diante do Santíssimo Sacramento. Morreu em Nova York em 9 de dezembro de 1979, na sua capela, diante do sacrário.",
+        "Bento XVI o declarou venerável em 2012, e em 2019 o papa Francisco aprovou um milagre por sua intercessão. A beatificação, adiada naquele ano, foi celebrada em 24 de setembro de 2026, em Saint Louis, pelo cardeal Luis Antonio Tagle, em nome do papa Leão XIV. A memória é em 9 de dezembro.",
+      ],
+    },
   ],
 };
 
