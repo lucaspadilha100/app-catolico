@@ -49,7 +49,6 @@
 2Rs 22,8: Figueiredo: "Eu achei um Livro da Lei" | Vulgata: "Librum legis reperi" | Douay-Rheims: "the book of the law" | decidido: "o Livro da Lei" (o próprio Figueiredo diz "deu este Livro"); conferir.
 2Rs 22,14: Figueiredo "filho de Tecuas, filho de Araáz" | Vulgata "filii Thecuæ, filii Araas" | decidido: "Técua", "Araas". "na Segunda" (Vulgata "in Secunda", o bairro novo da cidade): mantido, sem explicar.
 2Rs 23,3: "fêz concerto com o Senhor" (Vulgata "percussit fœdus coram Domino"): vertido "fez aliança diante do Senhor"; "o livro do concerto" = "o livro da aliança" (termo fixo).
-2Rs 23,8: Figueiredo "Gabaa" | Vulgata "Gabaa": mantido o latim, grafado "Gaba"; conferir se o dono prefere "Gabaa".
 2Rs 23,9: Figueiredo: "do pão astno" | Vulgata: "azyma" | Douay-Rheims: "unleavened bread" | decidido: "pão ázimo" (OCR).
 2Rs 23,13: Figueiredo: "Meicom" | Vulgata: "Melchom" | decidido: "Melcom" (OCR).
 2Rs 23,24: Figueiredo omite "immunditias" | Vulgata: "et immunditias, et abominationes" | Douay-Rheims: "and the uncleannesses, and the abominations" | decidido: restaurado "as impurezas". "pitões" vertido "os que invocavam espíritos", como em 21,6.
