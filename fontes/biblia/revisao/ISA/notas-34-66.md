@@ -35,3 +35,5 @@ Is 47,2: OCR "Amla com a mó, e 11101 a farinha" lido pela Vulgata ("Tolle molam
 Is 47,6: "arrojei de mim como proterva a minha herança" mantido no sentido do Figueiredo (Vulgata "contaminavi hæreditatem meam", profanei a minha herança); escolha de tradução, não erro evidente.
 Is 48,1: OCR "vós eis que vos chamais" lido "vós que vos chamais".
 Is 48,18: "como os pegas do mar" (OCR de "pegos", Vulgata "gurgites maris") ficou "como as águas profundas do mar"; 48,19 "burgalhau" ficou "cascalho".
+Is 49,6: "converter as fezes de Israel" ficou "converter os restos de Israel" (Vulgata "fæces", borra; "fezes" hoje tem outro sentido). Versículo da liturgia.
+Is 49,7 e 49,23: "te adorarão" ficou "se prostrarão diante de ti" (termo fixo).

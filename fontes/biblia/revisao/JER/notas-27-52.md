@@ -22,3 +22,8 @@ Jr 44,30: Figueiredo: "Faraó Efreo" | Vulgata: "Pharaonem Ephree" | Douay-Rheim
 Jr 44,19: Figueiredo: "Assim é que nós sacrificamos" | Vulgata: "Quod si nos sacrificamus" | Douay-Rheims: "And if we offer sacrifice" | decidido: "E se nós oferecemos sacrifícios", pelas duas réguas (a pergunta que segue só faz sentido assim).
 Jr 46,7: Figueiredo: "sobe como no" (OCR) | Vulgata: "quasi flumen ascendit" | Douay-Rheims: "cometh up as a flood" | decidido: "como um rio".
 Jr 46,17: "Chamai daqui em diante a Faraó" mantido (Vulgata "Vocate nomen Pharaonis", Douay-Rheims "Call ye the name of Pharao"): escolha do Figueiredo.
+Jr 47,1.4: "palestinos" ficou "filisteus" (termo fixo).
+Jr 48,13: Figueiredo: "por causa de Camas" (OCR) | Vulgata: "a Chamos" | Douay-Rheims: "because of Chamos" | decidido: "Camos".
+Jr 48,34: Figueiredo: "Desde Segar" (OCR) | Vulgata: "a Segor" | Douay-Rheims: "from Segor" | decidido: "Segor".
+Jr 48,42: número de página "- 381 -" grudado no fim do versículo (OCR); retirado.
+Jr 48,25: "poder" mantido para "cornu" (escolha do Figueiredo).
