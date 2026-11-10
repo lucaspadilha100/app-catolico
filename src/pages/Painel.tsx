@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useState, type FormEvent, type ReactNode } from "react";
-import { Link, useNavigate, useParams } from "react-router-dom";
+import { Link, useNavigate, useParams, useSearchParams } from "react-router-dom";
 import { ChevronRight, Plus, Trash2 } from "lucide-react";
 import { useConta } from "@/conta/useConta";
 import {
@@ -14,6 +14,7 @@ import {
   type NotaDaParoquia,
   minhasParoquiasDeGestor,
   paroquiasDoPainel,
+  type FiltroDoPainel,
   type ParoquiaDoPainel,
   revisarSugestao,
   salvarAviso,
@@ -123,25 +124,49 @@ function Sugestoes() {
   );
 }
 
+const POR_PAGINA = 50;
+
 function ListaDoPainel() {
+  const [params, setParams] = useSearchParams();
+  const filtro = (["conferir", "conferidas", "todas"].includes(params.get("filtro") ?? "") ? params.get("filtro") : "conferir") as FiltroDoPainel;
+  const termo = params.get("q") ?? "";
   const [lista, setLista] = useState<ParoquiaDoPainel[] | null>(null);
-  const [filtro, setFiltro] = useState<"conferir" | "conferidas" | "todas">("conferir");
-  const [termo, setTermo] = useState("");
+  const [contagem, setContagem] = useState<Record<FiltroDoPainel, number> | null>(null);
+  const [buscandoMais, setBuscandoMais] = useState(false);
+  const mudar = (k: string, v: string, padrao: string) => {
+    const p = new URLSearchParams(params);
+    if (v && v !== padrao) p.set(k, v);
+    else p.delete(k);
+    setParams(p, { replace: true });
+  };
   useEffect(() => {
-    paroquiasDoPainel()
-      .then(setLista)
-      .catch(() => setLista([]));
-  }, []);
-  if (lista === null) return <Carregando />;
-  const t = termo
-    .normalize("NFD")
-    .replace(/\p{M}/gu, "")
-    .toLowerCase()
-    .trim();
-  const visiveis = lista
-    .filter((p) => (filtro === "conferir" ? !p.conferida_em : filtro === "conferidas" ? !!p.conferida_em : true))
-    .filter((p) => !t || `${p.nome} ${p.bairro} ${p.cidade}`.normalize("NFD").replace(/\p{M}/gu, "").toLowerCase().includes(t));
-  const contagem = { conferir: lista.filter((p) => !p.conferida_em).length, conferidas: lista.filter((p) => p.conferida_em).length, todas: lista.length };
+    let ativo = true;
+    setLista(null);
+    const espera = setTimeout(
+      () =>
+        paroquiasDoPainel({ filtro, termo, pular: 0, limite: POR_PAGINA })
+          .then((r) => {
+            if (!ativo) return;
+            setLista(r.lista);
+            setContagem(r.contagem);
+          })
+          .catch(() => ativo && setLista([])),
+      termo ? 300 : 0,
+    );
+    return () => {
+      ativo = false;
+      clearTimeout(espera);
+    };
+  }, [filtro, termo]);
+  async function mais() {
+    if (!lista) return;
+    setBuscandoMais(true);
+    try {
+      const r = await paroquiasDoPainel({ filtro, termo, pular: lista.length, limite: POR_PAGINA });
+      setLista([...lista, ...r.lista]);
+    } catch {}
+    setBuscandoMais(false);
+  }
   return (
     <section className="flex flex-col gap-2">
       <h2 className="px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto">Paróquias</h2>
@@ -157,27 +182,39 @@ function ListaDoPainel() {
             key={v}
             type="button"
             aria-pressed={filtro === v}
-            onClick={() => setFiltro(v)}
+            onClick={() => mudar("filtro", v, "conferir")}
             className={`min-h-10 rounded-full border px-4 text-sm font-medium ${filtro === v ? "border-transparent bg-destaque text-sobre-destaque" : "border-borda bg-cartao text-tinta"}`}
           >
-            {nome} ({contagem[v]})
+            {nome}
+            {contagem && ` (${contagem[v]})`}
           </button>
         ))}
       </div>
-      <input value={termo} onChange={(e) => setTermo(e.target.value)} placeholder="Filtrar pelo nome ou bairro" aria-label="Filtrar" className={CAMPO} />
-      {visiveis.map((p) => (
-        <Link key={p.id} to={`/painel/paroquia/${p.id}`} className="flex min-h-14 items-center gap-3 rounded-xl border border-borda bg-cartao px-4 py-2">
-          <span className="min-w-0 flex-1">
-            <span className="block leading-snug text-tinta">{p.nome}</span>
-            <span className="block text-sm text-tinta-suave">
-              {[p.bairro, p.cidade, p.lat === null && "sem mapa", !p.ativa && "oculta", p.conferida_em && `conferida em ${new Date(p.conferida_em).toLocaleDateString("pt-BR")}`]
-                .filter(Boolean)
-                .join(" · ")}
-            </span>
-          </span>
-          <ChevronRight className="size-5 shrink-0 text-tinta-suave" aria-hidden />
-        </Link>
-      ))}
+      <input value={termo} onChange={(e) => mudar("q", e.target.value, "")} placeholder="Filtrar pelo nome, bairro ou cidade" aria-label="Filtrar" className={CAMPO} />
+      {lista === null ? (
+        <Carregando />
+      ) : (
+        <>
+          {lista.map((p) => (
+            <Link key={p.id} to={`/painel/paroquia/${p.id}`} className="flex min-h-14 items-center gap-3 rounded-xl border border-borda bg-cartao px-4 py-2">
+              <span className="min-w-0 flex-1">
+                <span className="block leading-snug text-tinta">{p.nome}</span>
+                <span className="block text-sm text-tinta-suave">
+                  {[p.bairro, p.cidade, p.lat === null && "sem mapa", !p.ativa && "oculta", p.conferida_em && `conferida em ${new Date(p.conferida_em).toLocaleDateString("pt-BR")}`]
+                    .filter(Boolean)
+                    .join(" · ")}
+                </span>
+              </span>
+              <ChevronRight className="size-5 shrink-0 text-tinta-suave" aria-hidden />
+            </Link>
+          ))}
+          {contagem && lista.length < contagem[filtro] && (
+            <button type="button" onClick={() => void mais()} disabled={buscandoMais} className="min-h-12 rounded-xl border border-borda bg-cartao font-medium text-destaque-texto disabled:opacity-60">
+              {buscandoMais ? "Carregando" : `Mostrar mais (${contagem[filtro] - lista.length})`}
+            </button>
+          )}
+        </>
+      )}
     </section>
   );
 }

@@ -152,6 +152,26 @@ describe("busca", () => {
     expect(busca.rows).toEqual([{ cidade: "Natal" }]);
   });
 
+  it("em páginas: a contagem vem junto, e por igreja junta os horários", async () => {
+    const args = "null, null, '2026-11-22 07:00', 14, 'missa', 15";
+    const p1 = await como("anon", null, `select nome, total from public.agenda_de_horarios(${args}, 2, 'Natal', 'RN', 0)`);
+    expect(p1.rows).toEqual([
+      { nome: "Catedral Metropolitana", total: 3 },
+      { nome: "Capela de São Pedro", total: 3 },
+    ]);
+    const p2 = await como("anon", null, `select nome from public.agenda_de_horarios(${args}, 2, 'Natal', 'RN', 2)`);
+    expect(p2.rows).toEqual([{ nome: "Catedral Metropolitana" }]);
+    const igrejas = await como("anon", null, "select nome, jsonb_array_length(horarios) as n, total from public.igrejas_com_horarios(-5.795, -35.211, '2026-11-22 07:00', 14, 'missa', 20)");
+    expect(igrejas.rows).toEqual([
+      { nome: "Catedral Metropolitana", n: 2, total: 2 },
+      { nome: "Capela de São Pedro", n: 1, total: 2 },
+    ]);
+    const manha = await como("anon", null, `select nome from public.agenda_de_horarios(${args}, 40, 'Natal', 'RN', 0, '2026-11-22 12:00')`);
+    expect(manha.rows.map((x) => x.nome)).toEqual(["Catedral Metropolitana", "Capela de São Pedro"]);
+    const perto = await como("anon", null, "select cidade from public.cidades_com_paroquias('', -5.88, -35.17)");
+    expect(perto.rows).toEqual([{ cidade: "Natal" }]);
+  });
+
   it("confissão hoje", async () => {
     const r = await como("anon", null, "select quando::text from public.agenda_perto(-5.795, -35.211, '2026-11-18 08:00', 12, 'confissao', 20)");
     expect(r.rows.map((x) => x.quando)).toEqual(["2026-11-18 15:00:00"]);

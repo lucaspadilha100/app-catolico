@@ -59,6 +59,17 @@ export interface ItemDaAgenda {
   quando: string;
   ate: string | null;
   observacao: string;
+  total?: number;
+}
+
+export interface IgrejaComHorarios {
+  paroquia_id: string;
+  nome: string;
+  bairro: string;
+  cidade: string;
+  distancia_km: number | null;
+  horarios: { quando: string; ate: string | null; observacao: string }[];
+  total: number;
 }
 
 export interface Sugestao {

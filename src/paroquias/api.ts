@@ -1,4 +1,4 @@
-import type { AvisoDaParoquia, Horario, ItemDaAgenda, Paroquia, ParoquiaResumo, Sugestao, TipoDeHorario } from "./tipos";
+import type { AvisoDaParoquia, Horario, IgrejaComHorarios, ItemDaAgenda, Paroquia, ParoquiaResumo, Sugestao, TipoDeHorario } from "./tipos";
 
 const cliente = async () => (await import("@/lib/supabase")).supabase;
 
@@ -12,39 +12,11 @@ export interface Local {
   lng: number;
 }
 
-export async function buscarParoquias(p: { termo?: string; local?: Local | null; raioKm?: number; pular?: number; limite?: number }): Promise<ParoquiaResumo[]> {
-  const c = await cliente();
-  return ou(
-    await c.rpc("buscar_paroquias", {
-      p_termo: p.termo ?? "",
-      p_lat: p.local?.lat ?? null,
-      p_lng: p.local?.lng ?? null,
-      p_raio_km: p.raioKm ?? 15,
-      p_limite: p.limite ?? 30,
-      p_pular: p.pular ?? 0,
-    }),
-  ) as ParoquiaResumo[];
-}
-
-export async function agendaPerto(p: { local: Local; inicio: string; horas: number; tipo: TipoDeHorario; raioKm?: number }): Promise<ItemDaAgenda[]> {
-  const c = await cliente();
-  return ou(
-    await c.rpc("agenda_perto", {
-      p_lat: p.local.lat,
-      p_lng: p.local.lng,
-      p_inicio: p.inicio,
-      p_horas: p.horas,
-      p_tipo: p.tipo,
-      p_raio_km: p.raioKm ?? 15,
-      p_limite: 40,
-    }),
-  ) as ItemDaAgenda[];
-}
-
 export interface Cidade {
   cidade: string;
   uf: string;
   total: number;
+  distancia_km?: number | null;
 }
 
 export interface Onde {
@@ -53,7 +25,7 @@ export interface Onde {
   cidade?: Cidade | null;
 }
 
-export async function procurarParoquias(p: Onde & { termo?: string; limite?: number }): Promise<ParoquiaResumo[]> {
+export async function procurarParoquias(p: Onde & { termo?: string; limite?: number; pular?: number }): Promise<ParoquiaResumo[]> {
   const c = await cliente();
   return ou(
     await c.rpc("procurar_paroquias", {
@@ -61,34 +33,50 @@ export async function procurarParoquias(p: Onde & { termo?: string; limite?: num
       p_lat: p.local?.lat ?? null,
       p_lng: p.local?.lng ?? null,
       p_raio_km: p.raioKm ?? 10,
-      p_limite: p.limite ?? 100,
-      p_pular: 0,
+      p_limite: p.limite ?? 20,
+      p_pular: p.pular ?? 0,
       p_cidade: p.cidade?.cidade ?? "",
       p_uf: p.cidade?.uf ?? "",
     }),
   ) as ParoquiaResumo[];
 }
 
-export async function agendaDeHorarios(p: Onde & { inicio: string; horas: number; tipo: TipoDeHorario }): Promise<ItemDaAgenda[]> {
-  const c = await cliente();
-  return ou(
-    await c.rpc("agenda_de_horarios", {
-      p_lat: p.local?.lat ?? null,
-      p_lng: p.local?.lng ?? null,
-      p_inicio: p.inicio,
-      p_horas: p.horas,
-      p_tipo: p.tipo,
-      p_raio_km: p.raioKm ?? 10,
-      p_limite: 300,
-      p_cidade: p.cidade?.cidade ?? "",
-      p_uf: p.cidade?.uf ?? "",
-    }),
-  ) as ItemDaAgenda[];
+export interface Periodo {
+  inicio: string;
+  ate: string;
+  horas: number;
+  tipo: TipoDeHorario;
 }
 
-export async function cidadesComParoquias(termo = ""): Promise<Cidade[]> {
+const argumentosDoPeriodo = (p: Onde & Periodo, pular: number, limite: number) => ({
+  p_lat: p.local?.lat ?? null,
+  p_lng: p.local?.lng ?? null,
+  p_inicio: p.inicio,
+  p_horas: p.horas,
+  p_tipo: p.tipo,
+  p_raio_km: p.raioKm ?? 10,
+  p_limite: limite,
+  p_cidade: p.cidade?.cidade ?? "",
+  p_uf: p.cidade?.uf ?? "",
+  p_pular: pular,
+  p_ate: p.ate,
+});
+
+export async function agendaDeHorarios(p: Onde & Periodo, pular = 0, limite = 30): Promise<ItemDaAgenda[]> {
   const c = await cliente();
-  return ou(await c.rpc("cidades_com_paroquias", { p_termo: termo, p_limite: 30 })) as Cidade[];
+  return ou(await c.rpc("agenda_de_horarios", argumentosDoPeriodo(p, pular, limite))) as ItemDaAgenda[];
+}
+
+export async function igrejasComHorarios(p: Onde & Periodo, pular = 0, limite = 20): Promise<IgrejaComHorarios[]> {
+  const c = await cliente();
+  return ou(await c.rpc("igrejas_com_horarios", argumentosDoPeriodo(p, pular, limite))) as IgrejaComHorarios[];
+}
+
+export async function cidadesComParoquias(p: { termo?: string; local?: Local | null; limite?: number }): Promise<Cidade[]> {
+  const c = await cliente();
+  return ou(
+    await c.rpc("cidades_com_paroquias", { p_termo: p.termo ?? "", p_lat: p.local?.lat ?? null, p_lng: p.local?.lng ?? null, p_limite: p.limite ?? 8 }),
+  ) as Cidade[];
 }
 
 export interface ParoquiaCompleta {
@@ -169,9 +157,46 @@ export interface ParoquiaDoPainel {
   ativa: boolean;
 }
 
-export async function paroquiasDoPainel(): Promise<ParoquiaDoPainel[]> {
+export type FiltroDoPainel = "conferir" | "conferidas" | "todas";
+
+const semAcento = (t: string) =>
+  t
+    .normalize("NFD")
+    .replace(/\p{M}/gu, "")
+    .toLowerCase()
+    .trim();
+
+export async function paroquiasDoPainel(p: { filtro: FiltroDoPainel; termo: string; pular: number; limite: number }): Promise<{
+  lista: ParoquiaDoPainel[];
+  contagem: Record<FiltroDoPainel, number>;
+}> {
   const c = await cliente();
-  return ou(await c.from("paroquias").select("id, nome, bairro, cidade, lat, conferida_em, ativa").order("nome").limit(1000)) as ParoquiaDoPainel[];
+  const palavras = semAcento(p.termo)
+    .split(/\s+/)
+    .filter(Boolean)
+    .map((w) => w.replace(/[%_,()]/g, ""));
+  const montar = <Q extends { like: (col: string, v: string) => Q; is: (col: string, v: null) => Q; not: (col: string, op: string, v: null) => Q }>(q: Q, filtro: FiltroDoPainel) => {
+    let r = q;
+    for (const w of palavras) r = r.like("busca", `%${w}%`);
+    if (filtro === "conferir") r = r.is("conferida_em", null);
+    if (filtro === "conferidas") r = r.not("conferida_em", "is", null);
+    return r;
+  };
+  const contar = async (f: FiltroDoPainel) => {
+    const r = await montar(c.from("paroquias").select("id", { count: "exact", head: true }), f);
+    if (r.error) throw new Error(r.error.message);
+    return r.count ?? 0;
+  };
+  const [lista, conferir, conferidas, todas] = await Promise.all([
+    montar(c.from("paroquias").select("id, nome, bairro, cidade, lat, conferida_em, ativa"), p.filtro)
+      .order("nome")
+      .order("id")
+      .range(p.pular, p.pular + p.limite - 1),
+    contar("conferir"),
+    contar("conferidas"),
+    contar("todas"),
+  ]);
+  return { lista: ou(lista) as ParoquiaDoPainel[], contagem: { conferir, conferidas, todas } };
 }
 
 export interface NotaDaParoquia {
