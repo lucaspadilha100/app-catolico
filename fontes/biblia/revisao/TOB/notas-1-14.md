@@ -10,3 +10,5 @@ Tb 3,16: número solto "1" depois de "marido" (resto de nota): retirado.
 Tb 4,17: Figueiredo "com os pobres e com os que tem fome" | Vulgata "cum esurientibus et egenis" | decidido: mantida a ideia, na ordem do latim ("os famintos e os necessitados").
 Tb 4,21-22: "o seu escrito" (chirographum) vertido "o recibo que ele assinou" / "o seu recibo"; em 1,17 ficou "um escrito de sua própria mão", como o Figueiredo, porque ali a frase é ambígua.
 Tb 4,22: número solto "1" depois de "dele": retirado.
+Tb 5,17: "mercenário" (Vulgata "mercenarii", DR "him thou hirest") vertido "empregado", como no guia ("jornaleiros" → "empregados").
+Tb 5,19: asterisco e número solto "1" ("a *tua geração. 1"): retirados.
