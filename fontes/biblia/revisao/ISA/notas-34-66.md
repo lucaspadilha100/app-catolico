@@ -76,3 +76,9 @@ Is 63,1-6: o diálogo (pergunta do profeta, resposta do Senhor) ficou sem aspas,
 Is 63,11: a fonte traz "( S)" no fim; removido. As perguntas "Onde está aquele que..." seguem até 63,13, que fecha com interrogação (como na Vulgata).
 Is 63,16 e 64,8: "nosso pai", dito a Deus, ficou com maiúscula ("o nosso Pai").
 Is 64: o hebraico começa um versículo antes (o 64,1 da Vulgata é o fim de 63,19 no hebraico); a numeração segue a fonte. A fonte traz "(l)" no fim de 64,1; removido.
+Is 65,6: "o seu pecado se acha escrito diante de mim" mantido como no Figueiredo (a Vulgata diz só "scriptum est coram me").
+Is 65,9: OCR muito estragado ("tarei sair de Ja:.:Ô ui'nã posteridade... os h1ei.Is escolhidos") lido pela Vulgata como "Farei sair de Jacó uma descendência... os meus escolhidos".
+Is 65,10: "de colheita de gados" (Vulgata "in cubile armentorum") ficou "de abrigo para o gado"; provável "acolheita" na edição de 1950.
+Is 65,15: "para juramento aos meus escolhidos" ficou "como fórmula de juramento" (Vulgata "in juramentum"; a Douay-Rheims entende maldição).
+Is 65,16: "do Deus da verdade" mantido como no Figueiredo (Vulgata "in Deo, amen").
+Is 65,18: Figueiredo: "Mas vós folgareis, e exultarei para sempre" | Vulgata: gaudebitis et exsultabitis | Douay-Rheims: you shall be glad and rejoice | decidido: "vos alegrareis e exultareis" (letra perdida, exultarei/exultareis).

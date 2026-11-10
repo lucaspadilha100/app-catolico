@@ -49,3 +49,7 @@ Jt 13,31: "bendita do teu Senhor" vertido "bendita do teu Deus" (Vulgata "a Deo 
 Jt 14,6: "vendo a maravilha" vertido "vendo o poder" (Vulgata "virtutem", termo fixo); "deixadas as superstições da gentilidade" vertido "deixou os ritos dos gentios" (Vulgata "relicto gentilitatis ritu").
 Jt 14,8: número solto "9" no fim do versículo (resto de numeração): retirado.
 Jt 14,16: Figueiredo: "Uma mulher hebréia" | Vulgata: "Una mulier hebræa" | decidido: "Uma só mulher hebreia", como no latim.
+Jt 15,7: número solto "1" antes de "campo": retirado.
+Jt 15,9: "o sumo pontífice Joacim" vertido "o sumo sacerdote Joaquim" (termo fixo; nome na forma portuguesa).
+Jt 15,10: Figueiredo: "A qual tendo saído a recebê-los" | Vulgata: "Quæ cum exisset ad illum" | Douay-Rheims: "to him" | decidido: "para recebê-lo" (o sumo sacerdote).
+Jt 15,11: "obraste varonilmente" vertido "agiste com coragem" (Vulgata "fecisti viriliter"); conferir se o dono prefere "como homem forte". "não só ... mas também" do Figueiredo voltou ao "por isso ... e por isso" do latim, que é o mesmo sentido.
