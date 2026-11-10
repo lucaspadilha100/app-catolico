@@ -71,6 +71,8 @@ Legenda: ✅ pronto · 🔨 em andamento · ⬜ a fazer · 👤 precisa do dono
 - ⬜ Introdução curta dos 73 livros
 - ✅ Leitura direta: abre no capítulo onde parou (ou Gênesis 1), livro e
   capítulo escolhidos no topo, um versículo por parágrafo (10/11/2026)
+- ✅ Leitura contínua: um capítulo emenda no outro ao rolar (até 8 na tela,
+  cada livro baixado só quando a leitura chega nele)
 - ⬜ Grifar versículos (cores) e uma aba com os trechos grifados (pedido do
   dono, 10/11/2026: "como quem grifa a Bíblia"); sincroniza com a conta
 - ⬜ Busca no texto, notas, planos de leitura
@@ -151,8 +153,22 @@ Legenda: ✅ pronto · 🔨 em andamento · ⬜ a fazer · 👤 precisa do dono
 - ✅ Sugerir correção, horário ou paróquia nova (com conta); selo "confirmado há N dias"
 - ✅ Painel: fila de sugestões, cadastro e edição, paróquia verificada (a secretaria edita a própria página)
 - ✅ Minha paróquia na tela Hoje
-- ⬜ 👤 Virar administrador (um comando no SQL Editor, uma vez só)
-- ⬜ 👤 Cadastrar as paróquias de Natal (ou dar acesso às secretarias)
+- ✅ 👤 Administrador criado pelo SQL Editor
+- ✅ 58 igrejas de Natal e região da planilha do Missas.com.br (decisão do
+  dono), completadas por pesquisa (endereço, Instagram, telefone) com nota de
+  fonte e confiança para cada uma; painel "Para conferir / Conferidas"
+- ✅ Sant'Ana separada em duas (Capim Macio e Soledade II), conferidas pelo dono
+- ✅ Tela Missas refeita: perto de mim com raio (2 a 50 km) ou por cidade,
+  dia da semana e período, por horário ou por igreja, "em 20 min"
+- ✅ Pronta para o Brasil inteiro: cidade só por busca (com recentes e
+  vizinhas), horários, igrejas e painel em páginas, contados no banco
+- ✅ Página da paróquia: dias iguais juntos, próxima missa, compartilhar no
+  WhatsApp, contatos num cartão
+- ⬜ 👤 Conferir as outras igrejas uma a uma no Painel (as notas dizem o que
+  ficou em dúvida: Rainha da Paz repetida, N. S. de Lourdes, Imaculada,
+  Comunidade Reviver, Áreas Pastorais)
+- ⬜ Capelas das paróquias (Sant'Ana e outras)
+- ⬜ Mapa (OpenFreeMap, só ao tocar em "Mapa"), se o dono quiser
 
 ### Leva 12. Terço da Juventude ⬜
 - ⬜ Cadastro pela paróquia ou por qualquer grupo
@@ -171,7 +187,12 @@ Legenda: ✅ pronto · 🔨 em andamento · ⬜ a fazer · 👤 precisa do dono
 - ⬜ 👤 Montar as playlists por tempo e tema com o dono
 - ⬜ Tela Músicas e repertório sugerido da missa de domingo
 
-### Leva 15. Acabamento ⬜
+### Leva 15. Acabamento 🔨
+- ✅ Listas agrupadas no app inteiro (um cartão por seção), Mais reorganizado
+  (sem itens "em preparação"; Ajudar e Sobre), janelas de tela cheia ao lado
+  da barra lateral no computador
+- ⬜ Tela Hoje mais curta, com a próxima missa da sua paróquia no topo
+- ⬜ Rezar com o que está em andamento em cima
 - ⬜ Boas-vindas em 3 passos
 - ⬜ Lembretes (evangelho, Ângelus, terço, novena, falecidos)
 - ⬜ Compartilhar liturgia no WhatsApp e versículo como imagem
@@ -184,7 +205,8 @@ Legenda: ✅ pronto · 🔨 em andamento · ⬜ a fazer · 👤 precisa do dono
 - ⬜ 👤 Teste em aparelho (Android Studio; iPhone precisa de Mac)
 
 ### Leva 17. Lançamento ⬜
-- ⬜ 👤 Vercel, domínio `appsantinho.com.br`, INPI
+- ✅ 👤 Vercel ligado ao GitHub (cada push publica) e Supabase aplicando as migrações sozinho
+- ⬜ 👤 Domínio `appsantinho.com.br`, INPI, nome definitivo do app
 - ⬜ 👤 Conta Google Play e 12 testadores por 14 dias
 - ⬜ Lançamento em Natal e mensagens de divulgação
 
