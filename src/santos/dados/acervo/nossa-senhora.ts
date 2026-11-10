@@ -420,7 +420,6 @@ const acervo: AcervoDeSantos = {
         "A coluna lembra a firmeza da fé que Maria sustenta nos que anunciam o Evangelho.",
       ],
       padroeiro: ["da Espanha"],
-      imagem: { artic: 53067, titulo: "Saint James's Vision of the Virgin of the Pillar", artista: "Antonio González Velásquez, I", data: "c. 1750" },
     },
     {
       id: "mae-rainha-de-schoenstatt",

@@ -106,3 +106,18 @@ Santa Bárbara.
 - Fatos de biografia: Marthe Robin vivendo só da Eucaristia (dito pelos que a
   conheceram; a Igreja não se pronunciou), operários que doaram sangue a Shaw,
   Kino com a sela por travesseiro.
+
+## Acervo: Nossa Senhora (`src/santos/dados/acervo/nossa-senhora.ts`)
+- 33 títulos: aparições reconhecidas (Banneux, Pontmain, Caravaggio, Knock,
+  Salete, Bom Socorro, Graças, Kibeho, Beauraing), títulos e imagens
+  (Perpétuo Socorro, Desatadora dos Nós, Auxiliadora, Medianeira, Luján,
+  Czestochowa…) e devoções do Brasil (Navegantes, Candeias, Penha, Nazaré,
+  Rocio, Abadia, Boa Morte, Piedade…).
+- Datas por costume ou móveis: Nazaré (o Círio é no 2º domingo de outubro;
+  usada 11/10), Penha (8/9), Desatadora dos Nós (8/12, fonte fraca),
+  Beauraing (29/11), Knock (17/8, memória na Irlanda).
+- Medianeira: cita a nota "Mater populi fidelis" (DDF, 4/11/2025) sobre o
+  título "medianeira de todas as graças": conferir o tom.
+- A confirmar: Candeias em Juazeiro do Norte, Monte Serrat em Santos (8/9),
+  Rocio padroeira do Paraná (1939/1977), "das gestantes" para N. Sra. do Ó.
+- Imagem tirada: Nossa Senhora do Pilar (figura seminua no canto).
