@@ -1,4 +1,4 @@
-# Santinho — definição do app
+# Minha Igrejinha — definição do app
 
 Decidido com o dono do projeto em 09/11/2026. É a fonte da verdade do que o
 app tem; mudou uma decisão, muda aqui.
@@ -11,7 +11,7 @@ voz ao vivo) entra quando houver apoio.
 
 | Tema | Decisão |
 |---|---|
-| Nome | **Santinho** |
+| Nome | **Minha Igrejinha** |
 | Plataformas | Web (Vercel) + iOS + Android, mesmo código (React + Capacitor) |
 | Conta | Opcional. Abre e reza sem conta; conta para sincronizar e comunidade |
 | Primeira abertura | Boas-vindas em 3 passos, cada um com "Pular": estado de vida · cidade/paróquia · lembretes |

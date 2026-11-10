@@ -12,7 +12,7 @@ export const PRIVACIDADE: Secao[] = [
   {
     titulo: "Quem somos",
     paragrafos: [
-      `O ${NOME_DO_APP} é um aplicativo católico gratuito e sem anúncios. Este texto explica que dados o app usa, para quê, onde ficam e como você pode apagá-los, conforme a Lei Geral de Proteção de Dados (Lei 13.709/2018).`,
+      `O app ${NOME_DO_APP} é um aplicativo católico gratuito e sem anúncios. Este texto explica que dados o app usa, para quê, onde ficam e como você pode apagá-los, conforme a Lei Geral de Proteção de Dados (Lei 13.709/2018).`,
     ],
   },
   {
@@ -59,13 +59,13 @@ export const TERMOS: Secao[] = [
   {
     titulo: "Uso do app",
     paragrafos: [
-      `O ${NOME_DO_APP} é gratuito, sem anúncios, e pode ser usado sem conta. Ao criar uma conta, você concorda com estes termos e com a política de privacidade.`,
+      `O app ${NOME_DO_APP} é gratuito, sem anúncios, e pode ser usado sem conta. Ao criar uma conta, você concorda com estes termos e com a política de privacidade.`,
     ],
   },
   {
     titulo: "Conteúdo",
     paragrafos: [
-      `Os textos de oração, reflexões e histórias dos santos foram preparados com cuidado e seguem a doutrina da Igreja Católica, mas não substituem a orientação de um padre ou os documentos oficiais da Igreja. O ${NOME_DO_APP} não é um aplicativo oficial da Igreja.`,
+      `Os textos de oração, reflexões e histórias dos santos foram preparados com cuidado e seguem a doutrina da Igreja Católica, mas não substituem a orientação de um padre ou os documentos oficiais da Igreja. O app ${NOME_DO_APP} não é um aplicativo oficial da Igreja.`,
       "O texto bíblico é a tradução do Pe. Antônio Pereira de Figueiredo (domínio público), revisado pela equipe em linguagem atual. Se encontrar um erro, use o botão \"Avisar erro\".",
     ],
   },

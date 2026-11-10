@@ -1,4 +1,4 @@
-package br.com.appsantinho;
+package br.com.minhaigrejinha;
 
 import com.getcapacitor.BridgeActivity;
 

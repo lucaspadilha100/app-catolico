@@ -1,4 +1,4 @@
-# Santinho — instruções para o Claude
+# Minha Igrejinha — instruções para o Claude
 
 App católico **gratuito e completo, sem anúncio**, para o católico brasileiro:
 liturgia diária, terço, Bíblia, orações, novenas, santos, missas perto de mim,
@@ -104,7 +104,8 @@ android/ ios/     projetos nativos do Capacitor (iOS por SPM, sem CocoaPods)
   cada abertura); no site instalado, Web Push pelo Supabase.
 - Ícones e telas de abertura saem de `assets/` com `npx capacitor-assets
   generate`; o ícone de notificação do Android é `ic_stat_santinho`.
-- ⚠️ `appId` = `br.com.appsantinho` é PERMANENTE nas lojas.
+- ⚠️ `appId` = `br.com.minhaigrejinha` é PERMANENTE nas lojas (trocado de
+  `br.com.appsantinho` em 10/11/2026, antes de qualquer publicação).
 - Datas litúrgicas são "dia sem hora" (UTC à meia-noite): nunca `new Date()`
   solto em conta de calendário, senão o fuso empurra o dia.
 - A cor litúrgica do dia vai em `data-cor` no `<html>` e pinta `--destaque`;
@@ -259,8 +260,14 @@ Nada de licença paga por ora. Então:
   nunca o celular pessoal do padre.
 
 ## Marca
-- Nome: **Santinho**. Domínio pretendido: `appsantinho.com.br` (livre em
-  09/11/2026, ainda não registrado). Falta conferir o INPI (classes 9, 41, 45).
+- Nome: **Minha Igrejinha** (decisão do dono, 10/11/2026; antes, provisório,
+  "Santinho"). O nome conversa com a logo: o cruzeiro à frente da igrejinha.
+  Mora em `src/marca.ts` (`NOME_DO_APP`); é feminino na frase: "o app Minha
+  Igrejinha". Domínios pretendidos: `minhaigrejinha.com.br` e
+  `minhaigrejinha.org` (livres em 10/11/2026, ainda não registrados). Falta o
+  INPI (classes 9, 41, 45) e o @ no Instagram.
+- ⚠️ As chaves do aparelho continuam `santinho-*` (localStorage), de propósito:
+  trocar apagaria o que cada pessoa guardou.
 - Ícone: `docs/marca/icone-santinho.png` (cantos arredondados) e
   `icone-santinho-quadrado.png` (para as lojas, que aplicam a própria máscara):
   silhueta do cruzeiro à frente da capelinha de torre central.

@@ -1,5 +1,5 @@
 self.addEventListener("push", (evento) => {
-  let aviso = { titulo: "Santinho", corpo: "", url: "/" };
+  let aviso = { titulo: "Minha Igrejinha", corpo: "", url: "/" };
   try {
     aviso = Object.assign(aviso, evento.data ? evento.data.json() : {});
   } catch (e) {}

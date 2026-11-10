@@ -77,7 +77,7 @@ function Compartilhar() {
       <span className="grid size-10 shrink-0 place-items-center rounded-xl bg-marca-fundo text-destaque-texto">
         <Share2 className="size-5" aria-hidden />
       </span>
-      <span className="min-w-0 flex-1 font-medium">{copiado ? "Link copiado" : `Indicar o ${NOME_DO_APP}`}</span>
+      <span className="min-w-0 flex-1 font-medium">{copiado ? "Link copiado" : "Indicar o app"}</span>
     </button>
   );
 }

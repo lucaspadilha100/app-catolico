@@ -1,4 +1,4 @@
-# Santinho: plano de construção
+# Minha Igrejinha: plano de construção
 
 Tudo o que está em `docs/definicao.md`, dividido em LEVAS. Cada leva termina
 com o app funcionando, testado, na `main` e com prévia das telas enviada ao
@@ -258,7 +258,8 @@ Legenda: ✅ pronto · 🔨 em andamento · ⬜ a fazer · 👤 precisa do dono
 
 ### Leva 17. Lançamento ⬜
 - ✅ 👤 Vercel ligado ao GitHub (cada push publica) e Supabase aplicando as migrações sozinho
-- ⬜ 👤 Domínio `appsantinho.com.br`, INPI, nome definitivo do app
+- ✅ 👤 Nome definitivo: **Minha Igrejinha** (10/11/2026)
+- ⬜ 👤 Registrar `minhaigrejinha.com.br` e `minhaigrejinha.org`, conferir INPI e o @ no Instagram
 - ⬜ 👤 Conta Google Play e 12 testadores por 14 dias
 - ⬜ Lançamento em Natal e mensagens de divulgação
 

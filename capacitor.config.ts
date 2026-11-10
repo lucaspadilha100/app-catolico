@@ -2,7 +2,7 @@ import type { CapacitorConfig } from "@capacitor/cli";
 import { NOME_DO_APP } from "./src/marca";
 
 const config: CapacitorConfig = {
-  appId: "br.com.appsantinho",
+  appId: "br.com.minhaigrejinha",
   appName: NOME_DO_APP,
   webDir: "dist",
   backgroundColor: "#FBF0DD",

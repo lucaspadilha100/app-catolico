@@ -178,7 +178,7 @@ export function BoasVindas() {
   const terminar = () => mudar({ boasVindas: true });
 
   return (
-    <div className="fixed inset-0 z-50 overflow-y-auto bg-papel md:left-60" role="dialog" aria-modal="true" aria-label={`Bem-vindo ao ${NOME_DO_APP}`}>
+    <div className="fixed inset-0 z-50 overflow-y-auto bg-papel md:left-60" role="dialog" aria-modal="true" aria-label={`Boas-vindas: ${NOME_DO_APP}`}>
       <div className="mx-auto flex min-h-full w-full max-w-md flex-col gap-5 px-5 pb-[max(2rem,env(safe-area-inset-bottom))] pt-[max(2.5rem,env(safe-area-inset-top))]">
         <div className="flex items-center justify-between">
           <span className="simbolo w-10 text-destaque-texto" aria-hidden />
