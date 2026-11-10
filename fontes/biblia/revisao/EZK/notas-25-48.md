@@ -45,3 +45,6 @@ Ez 42,20: as quatro medidas de 42,16-19 são "quinhentas canas" e a de 42,20 "qu
 Ez 43,7: "sepulcros dos seus reis" mantido (Vulgata "ruinis regum", os cadáveres dos reis): escolha do Figueiredo; o mesmo em 43,9. "postes" → "batentes" (43,8).
 Ez 43,13: "seio" do altar → "base" (Vulgata "sinus"); o mesmo em 43,14.17. "cornos" → "chifres" (43,15.20). Sinal "( S)" no fim de 43,18 (OCR); retirado.
 Ez 43,26: "encherão as suas mãos" mantido literal (Vulgata "implebunt manum ejus", consagrar; Douay-Rheims "consecrate it"); o dono confere se prefere "o consagrarão".
+Ez 44: o Senhor fala ao profeta em diálogo ("o Senhor me disse"): a fala vai entre aspas, e o oráculo que ele manda dizer (44,6-31), entre ‘ ’.
+Ez 44,19: sinal "( 4-)" no fim (OCR); retirado. "tomarão sentido não santifiquem o povo" → "para não santificarem o povo com as suas vestes".
+Ez 44,11: "sacristães" mantido (Vulgata "æditui"): escolha do Figueiredo.
