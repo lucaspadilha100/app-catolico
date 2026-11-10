@@ -1,0 +1,36 @@
+# Conferência de fidelidade: Mateus e Marcos
+
+Conferidos versículo a versículo (revisado × Figueiredo 1950 × Vulgata Clementina): Mateus 1 a 28 (1.071 versículos) e Marcos 1 a 16 (678 versículos), com o alinhamento por conteúdo em Mt 5, Mt 17, Mc 4 e Mc 8,39 → Mc 9.
+
+## Corrigido
+
+- Mc 4,41 | antes: diziam uns aos outros: “Quem é este, a quem até o vento e o mar obedecem?” | depois: diziam uns aos outros: “Quem pensas que é este, a quem até o vento e o mar obedecem?” | o Figueiredo diz "Quem julgas que é êste" (latim "Quis, putas, est iste"); o "julgas" tinha sumido, embora a nota do revisor dissesse que ficou "Quem pensas" (como em Mt 18,1 e 24,45).
+- Mc 6,20 | antes: Pois Herodes tinha respeito por João | depois: Pois Herodes temia João | o Figueiredo diz "Herodes temia a João" (latim "metuebat"); "ter respeito" é interpretação e suaviza o sentido.
+- Mc 10,33 | antes: e o entregarão aos pagãos | depois: e o entregarão aos gentios | o Figueiredo diz "gentios", e é o termo usado no paralelo Mt 20,19 e em todo o resto dos dois livros.
+- Mc 12,38 | antes: gostam de andar com roupas compridas | depois: gostam de andar com roupas largas | o Figueiredo diz "roupas largas"; "compridas" é outro adjetivo, não está nele.
+- Mc 15,19 | antes: cuspiam nele | depois: cuspiam-lhe no rosto | o Figueiredo diz "lhe cuspiam no rosto"; "no rosto" tinha sumido (o latim só diz "conspuebant eum", mas vale o Figueiredo).
+
+## Para o dono decidir
+
+Casos em que o texto de 1950 parece ter erro de impressão ou de transcrição, ou em que há escolha de termo. Onde digo "a revisão já está assim", o revisor já mudou o Figueiredo e só falta o seu OK.
+
+1. **Mt 26,28 e Mc 14,24 (Última Ceia), os dois juntos.** O Figueiredo diz nos dois "o meu sangue do novo testamento" (latim "novi testamenti"). A revisão escreveu "da nova aliança" em Mateus e manteve "do Novo Testamento" em Marcos: hoje os dois Evangelhos dizem coisas diferentes na mesma frase. Opções: "nova aliança" nos dois, ou "novo testamento" nos dois. Recomendo: "nova aliança" nos dois (é o sentido da palavra e é como o fiel ouve na Missa), mas tem de ser igual nos dois.
+2. **Mt 12,11.** O Figueiredo diz "Que homem haverá por acaso entre nós"; o latim diz "entre vós" (Jesus fala aos fariseus). Opções: manter "entre nós" ou corrigir para "entre vós". Recomendo: "entre vós" (quase certo erro de impressão; conferir no PDF). A revisão está com "entre nós".
+3. **Mt 9,15.** O Figueiredo não tem "enquanto o esposo está com eles", que o latim tem ("quamdiu cum illis est sponsus"). Opções: manter sem a frase ou acrescentá-la. Recomendo: conferir no PDF; se faltar também lá, manter sem (vale o Figueiredo). A revisão está sem.
+4. **Mt 20,19.** O Figueiredo diz "para ser escarnecido, e crucificado"; o latim tem também "açoitado" ("flagellandum"). Opções: manter sem "açoitado" ou acrescentar. Recomendo: conferir no PDF; se faltar lá, manter sem. A revisão está sem.
+5. **Mt 15,30.** O Figueiredo diz "lançaram-se a seus pés" (as pessoas se ajoelharam); o latim diz "puseram-nos a seus pés" (deixaram os doentes aos pés de Jesus). Opções: manter ou corrigir para "puseram-nos a seus pés". Recomendo: conferir no PDF; pode ser leitura errada de "lançaram-nos". A revisão está com "Lançaram-se a seus pés".
+6. **Mt 24,15.** O Figueiredo diz "a abominação da desolação... reinando no lugar santo"; o latim diz "estando no lugar santo" (e Mc 13,14 diz "estar onde não deve"). Opções: manter "reinando" ou corrigir para "estando". Recomendo: "estando", se o PDF não tiver "reinando". A revisão está com "reinando".
+7. **Mt 17,23.** O Figueiredo diz "E êles se entristecerão em extremo" (futuro); o latim diz "ficaram muito tristes" (passado, é o narrador contando). A revisão já está no passado ("E eles ficaram muito tristes"). Recomendo: manter o passado (erro de impressão).
+8. **Mt 27,9.** O Figueiredo diz "anunciado ao profeta Jeremias"; o latim diz "pelo profeta". A revisão já está com "pelo profeta Jeremias". Recomendo: manter "pelo" (erro de impressão).
+9. **Mt 26,62.** O Figueiredo diz "o que êste depõe contra ti" (um só), mas são duas testemunhas; o latim diz "o que estes testemunham" (plural, como Mc 14,60). Opções: manter o singular ou corrigir para "o que estes depõem contra ti". Recomendo: o plural. A revisão está no singular.
+10. **Mc 9,6 (na numeração antiga, 9,5).** O Figueiredo diz "Porque não sabia o que diziam"; o latim diz "não sabia o que dizia" (Pedro). Do jeito que está, a frase fica sem sentido ("ele não sabia o que diziam"). Opções: manter ou corrigir para "o que dizia". Recomendo: "Pois ele não sabia o que dizia" (erro de impressão).
+11. **Mc 15,3.** O Figueiredo diz "o príncipe dos sacerdotes o acusava" (um só); o latim diz "os chefes dos sacerdotes o acusavam" (vários, como em 15,1 e 15,10-11). A revisão pôs "o sumo sacerdote", o que deixa a frase ainda mais longe do latim. Opções: manter "o sumo sacerdote" ou corrigir para "os chefes dos sacerdotes o acusavam". Recomendo: o plural.
+12. **Mc 14,15.** O Figueiredo diz "um cenáculo, todo mobilado"; o latim diz "um cenáculo grande". A revisão acrescentou "grande" ("uma sala grande no andar de cima"). Opções: tirar "grande" (vale o Figueiredo) ou manter, se o PDF tiver a palavra. Recomendo: conferir no PDF; se não tiver, tirar.
+13. **Mc 11,22.** O Figueiredo diz "Jesus lhe disse" (só a Pedro); o latim diz "lhes" (a todos). A revisão já está com "Jesus lhes respondeu". Recomendo: manter "lhes" (o versículo seguinte fala a vários: "vos digo").
+14. **Mc 12,42.** O Figueiredo diz "duas pequenas moedas, que importavam um real"; o latim diz "um quadrante". A revisão já pôs "um quadrante", porque "um real" seria lido como a moeda de hoje. Recomendo: manter "um quadrante".
+15. **Mt 26,15.** O Figueiredo diz "Que me quereis vós dar"; a revisão pôs "Quanto me quereis dar". Opções: "Que me quereis dar" ou "Quanto me quereis dar". Recomendo: "Que me quereis dar" (é o Figueiredo, e o sentido já é claro).
+16. **Mt 26,56.** O Figueiredo não marca quem fala em "Mas tudo isto aconteceu para que se cumprissem as Escrituras dos profetas". A revisão pôs a frase como fala de Jesus (dentro das aspas); pode ser comentário do narrador. Recomendo: manter como fala de Jesus (Mc 14,49 traz a mesma frase na boca dele).
+17. **Mt 27,55.** O Figueiredo diz "vindo de longe"; o latim diz "olhando de longe" (como Mc 15,40, "vendo de longe"). A revisão manteve "vindas de longe". Opções: manter ou corrigir para "olhando de longe". Recomendo: conferir no PDF; se lá estiver "vendo", corrigir.
+18. **Mc 9,30.** O Figueiredo diz "caminharam mais além de Galiléia" (pode ser lido como "para lá da Galileia"); o latim diz que atravessavam a Galileia. A revisão pôs "caminharam mais adiante pela Galileia". Recomendo: manter a revisão.
+19. **Mc 8,24.** O Figueiredo (na transcrição) diz "Vejo os homens que andam semeando as árvores", sem sentido; o latim diz "vejo os homens como árvores que andam". A revisão já pôs "Vejo os homens; andam e parecem árvores" (provável "semelhando" mal lido). Recomendo: manter; conferir no PDF.
+20. **Mt 1,2-3.** O Figueiredo escreve "Judas" para o filho de Jacó; a revisão pôs "Judá", como o próprio Figueiredo faz em "Belém de Judá". Recomendo: manter "Judá".
