@@ -18,3 +18,5 @@ Jr 39,5: sinal solto "( S)" no fim do versículo (OCR); retirado.
 Jr 39,9-13; 40-52: "general do exército" (magister militum) ficou "comandante da guarda" para Nabuzardan.
 Jr 41,1: Figueiredo: "e os grándes reis" | Vulgata: "et optimates regis" | Douay-Rheims: "and the nobles of the king" | decidido: "com os grandes do rei".
 Jr 41,17: Figueiredo: "Camaão" | Vulgata: "Chamaam" | decidido: "Camaam" (o "ão" parece leitura errada do OCR).
+Jr 44,30: Figueiredo: "Faraó Efreo" | Vulgata: "Pharaonem Ephree" | Douay-Rheims: "Pharao Ephree" | decidido: "o faraó Efree" (provável OCR).
+Jr 44,19: Figueiredo: "Assim é que nós sacrificamos" | Vulgata: "Quod si nos sacrificamus" | Douay-Rheims: "And if we offer sacrifice" | decidido: "E se nós oferecemos sacrifícios", pelas duas réguas (a pergunta que segue só faz sentido assim).
