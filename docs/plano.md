@@ -69,7 +69,11 @@ Legenda: ✅ pronto · 🔨 em andamento · ⬜ a fazer · 👤 precisa do dono
 - ⬜ 👤 Leitura dos Evangelhos e Salmos revisados (e, se possível, um padre ou
   catequista da paróquia)
 - ⬜ Introdução curta dos 73 livros
-- ⬜ Busca no texto, marcações e notas, planos de leitura
+- ✅ Leitura direta: abre no capítulo onde parou (ou Gênesis 1), livro e
+  capítulo escolhidos no topo, um versículo por parágrafo (10/11/2026)
+- ⬜ Grifar versículos (cores) e uma aba com os trechos grifados (pedido do
+  dono, 10/11/2026: "como quem grifa a Bíblia"); sincroniza com a conta
+- ⬜ Busca no texto, notas, planos de leitura
 
 ### Leva 5. Terço e orações 🔨
 - ✅ Terço guiado completo: sinal da cruz, oferecimento, Creio, três Ave-Marias,
