@@ -2,6 +2,10 @@ import { Link } from "react-router-dom";
 import { BookOpenText, ChevronRight, Church, Sparkles, CircleDot, ListChecks } from "lucide-react";
 import { emAndamento } from "@/devocao/andamento";
 import { useDevocoesGuardadas } from "@/devocao/progresso";
+import { diaLiturgico } from "@/liturgia/calendario";
+import { somaDias, diaDaSemana } from "@/liturgia/datas";
+import { ehDiaDePreceito, NOME_DA_PENITENCIA, penitenciaDoDia } from "@/liturgia/preceitos";
+import { usePreferencias } from "@/lib/preferencias";
 import { useDiaLiturgico } from "@/lib/useDiaLiturgico";
 import { dataPorExtenso } from "@/liturgia/datas";
 import { NOME_DA_COR, NOME_DO_GRAU, NOME_DO_TEMPO, type CorLiturgica } from "@/liturgia/calendario";
@@ -29,6 +33,14 @@ export default function Hoje() {
   useDevocoesGuardadas();
   const l = useDiaLiturgico();
   const andamento = emAndamento(l.data).slice(0, 4);
+  const { diocese } = usePreferencias().preferencias;
+  const amanha = diaLiturgico(somaDias(l.data, 1), diocese);
+  const avisos = [
+    ehDiaDePreceito(l) && diaDaSemana(l.data) !== 0 ? "Hoje: missa obrigatória" : "",
+    ehDiaDePreceito(amanha) && diaDaSemana(amanha.data) !== 0 ? "Amanhã: missa obrigatória" : "",
+    penitenciaDoDia(l) === "jejum-e-abstinencia" ? `Hoje: ${NOME_DA_PENITENCIA["jejum-e-abstinencia"].toLowerCase()}` : "",
+    penitenciaDoDia(amanha) === "jejum-e-abstinencia" ? `Amanhã: ${NOME_DA_PENITENCIA["jejum-e-abstinencia"].toLowerCase()}` : "",
+  ].filter(Boolean);
   const terco = misteriosDoDia(l.data);
   const missas = useLeituras(l);
   const memoria = l.celebracao?.grau === "memoria" ? l.celebracao : null;
@@ -47,6 +59,11 @@ export default function Hoje() {
           <span className="rounded-full bg-black/10 px-3 py-1">Cor: {NOME_DA_COR[l.cor]}</span>
           <span className="rounded-full bg-black/10 px-3 py-1">Ano {l.cicloDominical}</span>
           <span className="rounded-full bg-black/10 px-3 py-1">Ano {l.cicloFerial === "I" ? "ímpar" : "par"}</span>
+          {avisos.map((a) => (
+            <span key={a} className="rounded-full bg-black/20 px-3 py-1">
+              {a}
+            </span>
+          ))}
         </div>
       </section>
 

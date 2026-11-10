@@ -11,6 +11,8 @@ import Consagracao from "@/pages/Consagracao";
 import ViaSacra from "@/pages/ViaSacra";
 import SemanaSanta from "@/pages/SemanaSanta";
 import Oficio from "@/pages/Oficio";
+import Calendario from "@/pages/Calendario";
+import { SantoPagina, Santos } from "@/pages/Santos";
 import Mais from "@/pages/Mais";
 import { Missas, NaoEncontrada } from "@/pages/Simples";
 import { Biblia, BibliaCapitulo, BibliaLivro } from "@/pages/Biblia";
@@ -39,6 +41,9 @@ export default function App() {
         <Route path="biblia" element={<Biblia />} />
         <Route path="biblia/:livro" element={<BibliaLivro />} />
         <Route path="biblia/:livro/:capitulo" element={<BibliaCapitulo />} />
+        <Route path="calendario" element={<Calendario />} />
+        <Route path="santos" element={<Santos />} />
+        <Route path="santos/:id" element={<SantoPagina />} />
         <Route path="missas" element={<Missas />} />
         <Route path="mais" element={<Mais />} />
         <Route path="*" element={<NaoEncontrada />} />

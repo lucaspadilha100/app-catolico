@@ -1,8 +1,10 @@
 import { useEffect, useMemo, useState } from "react";
 import { hoje, paraIso, deIso } from "@/liturgia/datas";
 import { diaLiturgico } from "@/liturgia/calendario";
+import { usePreferencias } from "@/lib/preferencias";
 
 export function useDiaLiturgico() {
+  const { diocese } = usePreferencias().preferencias;
   const [iso, setIso] = useState(() => paraIso(hoje()));
 
   useEffect(() => {
@@ -13,5 +15,5 @@ export function useDiaLiturgico() {
     return () => clearInterval(t);
   }, []);
 
-  return useMemo(() => diaLiturgico(deIso(iso)!), [iso]);
+  return useMemo(() => diaLiturgico(deIso(iso)!, diocese), [iso, diocese]);
 }

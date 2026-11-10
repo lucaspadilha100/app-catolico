@@ -5,6 +5,7 @@ import { deIso, hoje, paraIso, somaDias, dataPorExtenso } from "@/liturgia/datas
 import { diaLiturgico, NOME_DA_COR, NOME_DO_GRAU } from "@/liturgia/calendario";
 import { NOME_DA_LEITURA, type Leitura, type Missa } from "@/liturgia/lecionario";
 import { useLeituras } from "@/lib/useLeituras";
+import { usePreferencias } from "@/lib/preferencias";
 import { Cartao } from "@/components/Cartao";
 import { TextoDaLeitura } from "@/components/TextoBiblico";
 
@@ -50,7 +51,8 @@ export default function Liturgia() {
   const [params] = useSearchParams();
   const data = deIso(params.get("data") ?? "") ?? hoje();
   const iso = paraIso(data);
-  const l = useMemo(() => diaLiturgico(deIso(iso)!), [iso]);
+  const { diocese } = usePreferencias().preferencias;
+  const l = useMemo(() => diaLiturgico(deIso(iso)!, diocese), [iso, diocese]);
   const missas = useLeituras(l);
 
   const navegar = (dias: number) => {

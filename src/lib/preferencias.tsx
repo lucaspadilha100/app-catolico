@@ -7,10 +7,11 @@ export interface Preferencias {
   tema: Tema;
   letra: Letra;
   simples: boolean;
+  diocese: string;
 }
 
 const CHAVE = "santinho-preferencias";
-const PADRAO: Preferencias = { tema: "sistema", letra: "normal", simples: false };
+const PADRAO: Preferencias = { tema: "sistema", letra: "normal", simples: false, diocese: "" };
 
 function ler(): Preferencias {
   try {

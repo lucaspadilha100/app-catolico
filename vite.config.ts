@@ -31,13 +31,18 @@ export default defineConfig({
       },
       workbox: {
         globPatterns: ["**/*.{js,css,html,png,svg,woff2,json}"],
-        globIgnores: ["biblia/**"],
+        globIgnores: ["biblia/**", "imagens/santos/**"],
         navigateFallback: "/index.html",
         runtimeCaching: [
           {
             urlPattern: ({ url }) => url.pathname.startsWith("/biblia/") && url.pathname.endsWith(".json"),
             handler: "CacheFirst",
             options: { cacheName: "biblia", expiration: { maxEntries: 200 } },
+          },
+          {
+            urlPattern: ({ url }) => url.pathname.startsWith("/imagens/santos/"),
+            handler: "CacheFirst",
+            options: { cacheName: "santos", expiration: { maxEntries: 120 } },
           },
         ],
       },

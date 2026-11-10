@@ -2,6 +2,7 @@ import type { ReactNode } from "react";
 import { CalendarDays, Heart, Music, Sparkles, Users } from "lucide-react";
 import { usePreferencias, type Letra, type Tema } from "@/lib/preferencias";
 import { Cartao, ItemLista, TituloPagina } from "@/components/Cartao";
+import { DIOCESES } from "@/liturgia/dioceses";
 
 function Escolha<T extends string>({
   rotulo,
@@ -66,8 +67,8 @@ export default function Mais() {
       <TituloPagina>Mais</TituloPagina>
 
       <div className="flex flex-col gap-3">
-        <ItemLista icone={Sparkles} titulo="Santos" />
-        <ItemLista icone={CalendarDays} titulo="Calendário litúrgico" />
+        <ItemLista icone={Sparkles} titulo="Santos" para="/santos" />
+        <ItemLista icone={CalendarDays} titulo="Calendário litúrgico" para="/calendario" />
         <ItemLista icone={Users} titulo="Intenções e grupos" />
         <ItemLista icone={Music} titulo="Músicas" />
       </div>
@@ -92,6 +93,15 @@ export default function Mais() {
             { valor: "normal", nome: "Normal" },
             { valor: "grande", nome: "Grande" },
             { valor: "maior", nome: "Maior" },
+          ]}
+        />
+        <Escolha<string>
+          rotulo="Calendário da diocese"
+          valor={p.diocese}
+          onChange={(diocese) => mudar({ diocese })}
+          opcoes={[
+            { valor: "", nome: "Brasil" },
+            ...DIOCESES.map((d) => ({ valor: d.id, nome: d.nome.replace("Arquidiocese de ", "").replace("Diocese de ", "") })),
           ]}
         />
         <Interruptor rotulo="Modo simples" ligado={p.simples} onChange={(simples) => mudar({ simples })} />

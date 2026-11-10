@@ -160,3 +160,26 @@ describe("terço", () => {
     expect(misteriosDoDia(d("2026-11-12")).nome).toBe("Mistérios Luminosos");
   });
 });
+
+describe("calendário próprio da diocese", () => {
+  it("em Natal, Nossa Senhora da Apresentação é solenidade no dia 21 de novembro", () => {
+    const geral = diaLiturgico(d("2026-11-21"));
+    expect(geral.celebracao?.grau).toBe("memoria");
+    const natal = diaLiturgico(d("2026-11-21"), "natal");
+    expect(natal.celebracao?.grau).toBe("solenidade");
+    expect(natal.titulo).toContain("Nossa Senhora da Apresentação");
+    expect(natal.santos.map((s) => s.nome)).not.toContain("Apresentação de Nossa Senhora");
+  });
+});
+
+describe("Arquidiocese de Natal", () => {
+  it("Mártires de Cunhaú e Uruaçu: memória no Brasil, solenidade no Rio Grande do Norte", () => {
+    expect(diaLiturgico(d("2025-10-03")).celebracao?.grau).toBe("memoria");
+    expect(diaLiturgico(d("2025-10-03"), "natal").celebracao?.grau).toBe("solenidade");
+  });
+
+  it("Dedicação da Catedral é festa em 15 de novembro e cede ao domingo", () => {
+    expect(diaLiturgico(d("2027-11-15"), "natal").titulo).toBe("Dedicação da Catedral Metropolitana de Natal");
+    expect(diaLiturgico(d("2026-11-15"), "natal").titulo).not.toContain("Dedicação");
+  });
+});

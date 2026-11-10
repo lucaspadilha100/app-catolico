@@ -10,6 +10,7 @@ import {
   nomeDoDiaDaSemana,
 } from "./datas";
 import { type Celebracao, type Grau, FINADOS, santosDaData } from "./santoral";
+import { diocesePorId } from "./dioceses";
 
 export type Tempo = "advento" | "natal" | "comum" | "quaresma" | "triduo" | "pascoa";
 export type CorLiturgica = "verde" | "roxo" | "rosa" | "branco" | "vermelho";
@@ -224,10 +225,15 @@ const MOVIDAS: [string, Movida][] = [
 ];
 const DATAS_MOVIDAS = new Set(MOVIDAS.map(([data]) => data));
 
-function santosDoDia(d: Dia): Celebracao[] {
+function santosDoDia(d: Dia, diocese?: string): Celebracao[] {
   const ano = d.getUTCFullYear();
   const hoje = mmdd(d);
-  const lista = santosDaData(hoje).filter((s) => !(s.grau === "solenidade" && DATAS_MOVIDAS.has(hoje)));
+  let lista = santosDaData(hoje).filter((s) => !(s.grau === "solenidade" && DATAS_MOVIDAS.has(hoje)));
+  for (const p of diocesePorId(diocese)?.proprios ?? []) {
+    if (p.mmdd !== hoje) continue;
+    if (p.substitui) lista = lista.filter((s) => s.nome !== p.substitui);
+    lista.push(p.celebracao);
+  }
   for (const [data, qual] of MOVIDAS) {
     if (mesmoDia(d, dataDaSolenidade(qual, ano))) {
       const solene = santosDaData(data).find((s) => s.grau === "solenidade");
@@ -296,13 +302,13 @@ function baseDoTempo(d: Dia): BaseDoTempo {
   return { tempo: "comum", semana, cor: "verde", precedencia: domingo ? 6 : 13 };
 }
 
-export function diaLiturgico(d: Dia): DiaLiturgico {
+export function diaLiturgico(d: Dia, diocese?: string): DiaLiturgico {
   const ano = d.getUTCFullYear();
   const base = baseDoTempo(d);
   const doTempo = celebracaoDoTempo(d);
 
   const candidatos: Candidato[] = doTempo ? [doTempo] : [];
-  for (const s of santosDoDia(d)) {
+  for (const s of santosDoDia(d, diocese)) {
     const imaculadaNoAdvento = s.nome.startsWith("Imaculada Conceição") && base.precedencia === 2;
     candidatos.push({ celebracao: s, precedencia: imaculadaNoAdvento ? 1.5 : PRECEDENCIA[s.grau] });
   }

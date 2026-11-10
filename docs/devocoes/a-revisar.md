@@ -174,3 +174,21 @@ ponto de atenção.
 - Capítulos da Imitação de Cristo citados de memória (I,1/2/14/16/21/22/25;
   II,11/12; III,8): conferir. Dia 24: Caná como as últimas palavras de Maria
   nos Evangelhos.
+
+## Calendário próprio da Arquidiocese de Natal (`src/liturgia/dioceses.ts`)
+- 3/10, Mártires de Cunhaú e Uruaçu: SOLENIDADE no RN pelo Decreto nº 7/2013
+  de Dom Jaime Vieira Rocha (Tribuna do Norte, "RN ganha mártires como
+  padroeiros"). No Brasil é memória. A conferir: confirmação da Santa Sé e
+  atualização depois da canonização (2017). Sem leituras próprias no app: usa
+  as do dia.
+- 21/11, Nossa Senhora da Apresentação: SOLENIDADE (padroeira principal da
+  cidade; no resto da arquidiocese, pela norma, seria festa). Grau não achado
+  em decreto: conferir no Diretório Litúrgico da arquidiocese.
+- 15/11, Dedicação da Catedral Metropolitana (consagrada em 21/11/1988,
+  aniversário celebrado em 15/11): FESTA na arquidiocese (solenidade só na
+  própria Catedral). Grau pela norma geral, não achado escrito.
+- Não entraram: Santos Reis (co-padroeiros da cidade, 6/1, sem grau
+  litúrgico achado) e a Beata Lindalva (7/1; é de Assú, Diocese de Mossoró,
+  sem memória achada em Natal).
+- Falta o Diretório Litúrgico da arquidiocese para fechar as lacunas
+  (o site arquidiocesedenatal.org.br não abre deste ambiente).
