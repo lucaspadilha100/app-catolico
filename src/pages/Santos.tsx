@@ -160,9 +160,9 @@ export function SantoPagina() {
       <Voltar para="/santos">Santos</Voltar>
       {img && !imagemFalhou && (
         <figure className="overflow-hidden rounded-2xl border border-borda bg-cartao">
-          <img src={img} alt={s.imagem!.titulo} onError={() => setImagemFalhou(true)} className="max-h-[28rem] w-full object-contain bg-marca-fundo" />
+          <img src={img} alt={s.nome} onError={() => setImagemFalhou(true)} className="max-h-[28rem] w-full object-contain bg-marca-fundo" />
           <figcaption className="px-4 py-2 text-xs text-tinta-suave">
-            {s.imagem!.titulo}, {s.imagem!.artista}
+            {s.imagem!.artista}
             {s.imagem!.data ? `, ${s.imagem!.data}` : ""}. Art Institute of Chicago, domínio público.
           </figcaption>
         </figure>
