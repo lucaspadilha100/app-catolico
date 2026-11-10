@@ -129,3 +129,14 @@ ponto de atenção.
   indireto, sem copiar as Memórias de Lúcia.
 - CIC citados: 410-411, 488-492, 618, 829, 968, 970, 972, 1033-1035, 1451, 1670,
   2111, 2518-2519, 2709.
+
+## Advento com Maria e Setembro, mês da Bíblia
+- Antífonas "Ó" (17 a 23/12) traduzidas do latim: uma tradução literal fica
+  perto da Liturgia das Horas, vale comparar. "ERO CRAS" como leitura
+  tradicional.
+- Is 11: "antigos escritores cristãos" viram Maria na vara (virga/virgo).
+- 3º Domingo: o padre "pode usar" o rosa.
+- Setembro, dia 30: São Jerônimo "traduziu a Bíblia para o latim" e a menção ao
+  Pe. Figueiredo, que traduziu a Vulgata para o português.
+- Setembro, dia 9: Êx 20 começa pela proibição de imagens; a prática pede os
+  mandamentos "como estão no catecismo".

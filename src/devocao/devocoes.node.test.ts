@@ -54,7 +54,13 @@ function conferirBlocos(onde: string, blocos: Bloco[], { noturno = false } = {})
     else if ("linhas" in b) {
       expect(b.linhas.length, onde).toBeGreaterThan(0);
       for (const l of b.linhas) if (typeof l !== "string" && "rezar" in l) expect(ORACOES[l.rezar], `${onde}: ${l.rezar}`).toBeDefined();
-    } else if ("ir" in b) expect(ROTAS.some((r) => r.test(b.ir)), `${onde}: rota ${b.ir}`).toBe(true);
+    } else if ("ir" in b) {
+      expect(ROTAS.some((r) => r.test(b.ir)), `${onde}: rota ${b.ir}`).toBe(true);
+      const [, tipo, id] = /^\/rezar\/(oracoes|novenas|desafios)\/(.+)$/.exec(b.ir) ?? [];
+      if (tipo === "oracoes") expect(ORACOES[id!], `${onde}: ${b.ir}`).toBeDefined();
+      if (tipo === "novenas") expect(NOVENAS.some((n) => n.id === id), `${onde}: ${b.ir}`).toBe(true);
+      if (tipo === "desafios") expect(DESAFIOS.some((d) => d.id === id), `${onde}: ${b.ir}`).toBe(true);
+    }
     else if ("noturno" in b) expect(noturno, `${onde}: noturno fora das Matinas`).toBe(true);
     else expect(chaves.length, `${onde}: ${JSON.stringify(b)}`).toBe(1);
     for (const t of textosDoBloco(b)) {
