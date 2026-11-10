@@ -10,6 +10,8 @@ import {
   confirmarParoquia,
   coordenadasDoEndereco,
   marcarConferida,
+  notaDaParoquia,
+  type NotaDaParoquia,
   minhasParoquiasDeGestor,
   paroquiasDoPainel,
   type ParoquiaDoPainel,
@@ -481,6 +483,43 @@ function EditorDeHorarios({ paroquia, horarios, aoMudar }: { paroquia: string; h
   );
 }
 
+const legivel = (url: string) => {
+  const curto = url.replace(/^https?:\/\/(www\.)?/, "");
+  try {
+    return decodeURIComponent(curto);
+  } catch {
+    return curto;
+  }
+};
+
+function NotaDaPesquisa({ id }: { id: string }) {
+  const [nota, setNota] = useState<NotaDaParoquia | null>(null);
+  useEffect(() => {
+    void notaDaParoquia(id)
+      .then(setNota)
+      .catch(() => {});
+  }, [id]);
+  if (!nota || (!nota.texto && !nota.fontes.length)) return null;
+  return (
+    <Cartao className="flex flex-col gap-2 border-destaque-texto/40">
+      <h2 className="font-leitura text-xl font-semibold text-marca">Anotações da pesquisa</h2>
+      {nota.confianca && <p className="text-sm text-tinta-suave">Confiança {nota.confianca === "alta" ? "alta (fonte oficial)" : "média (só busca)"}</p>}
+      {nota.texto && <p className="whitespace-pre-line text-tinta">{nota.texto}</p>}
+      {nota.fontes.length > 0 && (
+        <ul className="flex flex-col gap-1 text-sm">
+          {nota.fontes.map((f) => (
+            <li key={f} className="truncate">
+              <a href={f} target="_blank" rel="noreferrer" className="text-destaque-texto underline underline-offset-2">
+                {legivel(f)}
+              </a>
+            </li>
+          ))}
+        </ul>
+      )}
+    </Cartao>
+  );
+}
+
 function Avisos({ dados, aoMudar }: { dados: ParoquiaCompleta; aoMudar: () => void }) {
   const [texto, setTexto] = useState("");
   const [ate, setAte] = useState("");
@@ -541,6 +580,7 @@ export function EditarParoquia() {
     <div className="flex flex-col gap-5">
       <Voltar para="/painel">Painel</Voltar>
       <Cabecalho titulo={nova ? "Nova paróquia" : (dados?.paroquia.nome ?? "")} />
+      {!nova && acesso.admin && <NotaDaPesquisa id={id} />}
       <FormularioDaParoquia key={id} inicial={nova ? VAZIA : dados!.paroquia} admin={acesso.admin} aoSalvar={(novoId) => (nova ? navegar(`/painel/paroquia/${novoId}`, { replace: true }) : recarregar())} />
       {!nova && dados && (
         <>

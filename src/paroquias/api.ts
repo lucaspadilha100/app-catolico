@@ -124,6 +124,17 @@ export async function paroquiasDoPainel(): Promise<ParoquiaDoPainel[]> {
   return ou(await c.from("paroquias").select("id, nome, bairro, cidade, lat, conferida_em, ativa").order("nome").limit(1000)) as ParoquiaDoPainel[];
 }
 
+export interface NotaDaParoquia {
+  texto: string;
+  fontes: string[];
+  confianca: "" | "alta" | "media";
+}
+
+export async function notaDaParoquia(id: string): Promise<NotaDaParoquia | null> {
+  const c = await cliente();
+  return ou(await c.from("notas_paroquia").select("texto, fontes, confianca").eq("paroquia_id", id).maybeSingle()) as NotaDaParoquia | null;
+}
+
 export async function marcarConferida(id: string, conferida: boolean) {
   const c = await cliente();
   ou(await c.from("paroquias").update({ conferida_em: conferida ? new Date().toISOString() : null }).eq("id", id));

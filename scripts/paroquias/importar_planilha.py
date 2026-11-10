@@ -102,8 +102,8 @@ def geocodificar(consulta, cache, exigir_igreja=None):
         ponto = None
     if ponto and exigir_igreja:
         achado = sem_acentos(r[0].get("display_name", "").split(",")[0])
-        palavras = [w for w in sem_acentos(exigir_igreja).split() if len(w) > 2 and w not in ("paroquia", "igreja", "nossa", "senhora", "das", "dos", "sao", "santo", "santa")]
-        if r[0].get("type") != "place_of_worship" or not all(w in achado for w in palavras):
+        palavras = [w for w in sem_acentos(exigir_igreja).split() if len(w) > 2 and w not in ("paroquia", "igreja", "das", "dos")]
+        if r[0].get("type") != "place_of_worship" or not all(re.search(rf"\\b{w}\\b", achado) for w in palavras) or len(achado.split()) > len(palavras) + 4:
             ponto = None
     cache[chave] = ponto
     return ponto

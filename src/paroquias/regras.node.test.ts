@@ -136,7 +136,15 @@ describe("dados de Natal (planilha do Missas.com.br)", () => {
     const banco = await criarBanco({ comDados: true });
     const c = comoEm(banco);
     const p = await c("anon", null, "select count(*)::int as n, count(lat)::int as com_ponto from public.paroquias where fonte = 'Missas.com.br'");
-    expect(p.rows[0]).toEqual({ n: 58, com_ponto: 50 });
+    expect(p.rows[0]!.n).toBe(58);
+    expect(Number(p.rows[0]!.com_ponto)).toBeGreaterThanOrEqual(52);
+    const saoJose = await c("anon", null, "select nome, round(lat::numeric, 3)::text as lat from public.paroquias where nome in ('Paróquia de São José', 'Paróquia de São José de Anchieta') order by nome");
+    expect(saoJose.rows[0]!.lat).not.toBe(saoJose.rows[1]!.lat);
+    const fora = await c("anon", null, "select cidade from public.paroquias where nome = 'Paróquia de Nossa Senhora da Penha'");
+    expect(fora.rows[0]).toEqual({ cidade: "Monte Alegre" });
+    const notas = await banco.query("select count(*)::int as n from public.notas_paroquia");
+    expect(notas.rows[0]).toEqual({ n: 58 });
+    await expect(c("anon", null, "select * from public.notas_paroquia")).rejects.toThrow();
     const h = await c("anon", null, "select tipo, count(*)::int as n from public.horarios group by tipo order by tipo");
     expect(h.rows).toEqual([
       { tipo: "confissao", n: 56 },
