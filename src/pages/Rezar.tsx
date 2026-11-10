@@ -1,4 +1,4 @@
-import { Users, UsersRound, BookHeart, CalendarHeart, Church, HeartHandshake, CircleDot, Cross, Crown, Flame, HandHeart, ListOrdered, Moon, ScrollText, Footprints, Shield, Sprout } from "lucide-react";
+import { ListChecks, Users, UsersRound, BookHeart, CalendarHeart, Church, HeartHandshake, CircleDot, Cross, Crown, Flame, HandHeart, ListOrdered, Moon, ScrollText, Footprints, Shield, Sprout } from "lucide-react";
 import { useDiaLiturgico } from "@/lib/useDiaLiturgico";
 import { misteriosDoDia } from "@/liturgia/terco";
 import { diaEMes } from "@/liturgia/datas";
@@ -29,6 +29,13 @@ export default function Rezar() {
         </p>
       )}
       <div className="flex flex-col gap-6">
+        {andamento.length > 0 && (
+          <Grupo titulo="Em andamento">
+            {andamento.slice(0, 4).map((i) => (
+              <ItemLista key={i.para} icone={ListChecks} titulo={i.titulo} detalhe={i.detalhe} para={i.para} />
+            ))}
+          </Grupo>
+        )}
         <Grupo titulo="Todos os dias">
           <ItemLista icone={CircleDot} titulo="Terço" detalhe={`Hoje: ${misteriosDoDia(l.data).nome}`} para="/rezar/terco" />
           <ItemLista icone={Users} titulo="Terço da Juventude" detalhe="Encontros perto de você" para="/tercos" />

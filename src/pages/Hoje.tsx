@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { BookOpenText, ChevronRight, Droplets, Flower2, Church, Sparkles, CircleDot, ListChecks } from "lucide-react";
+import { BookOpenText, ChevronRight, Droplets, Flower2, Church, CircleDot, ListChecks, Share2 } from "lucide-react";
 import { emAndamento } from "@/devocao/andamento";
 import { useDevocoesGuardadas } from "@/devocao/progresso";
 import { diaLiturgico } from "@/liturgia/calendario";
@@ -14,8 +14,9 @@ import { useDiaLiturgico } from "@/lib/useDiaLiturgico";
 import { dataPorExtenso } from "@/liturgia/datas";
 import { NOME_DA_COR, NOME_DO_GRAU, NOME_DO_TEMPO, type CorLiturgica } from "@/liturgia/calendario";
 import { misteriosDoDia } from "@/liturgia/terco";
-import { Cartao, TituloCartao } from "@/components/Cartao";
-import { MinhaParoquia } from "@/pages/Missas";
+import { Cartao, LISTA, TituloCartao } from "@/components/Cartao";
+import { ProximaMissa } from "@/pages/Missas";
+import { ENDERECO_DO_SITE } from "@/marca";
 import { CartaoDaCampanha } from "@/pages/Comunidade";
 import type { TipoLeitura } from "@/liturgia/lecionario";
 import { useLeituras } from "@/lib/useLeituras";
@@ -80,16 +81,37 @@ export default function Hoje() {
     ? `Memória de ${memoria.nome}`
     : [grau, l.celebracao ? NOME_DO_TEMPO[l.tempo] : ""].filter(Boolean).join(" · ");
 
+  async function compartilhar() {
+    const leituras = (missas?.[0]?.leituras ?? []).filter((x) => !x.ou && x.forma !== "breve" && ROTULO_CURTO[x.tipo]);
+    const base = location.protocol.startsWith("http") ? location.origin : ENDERECO_DO_SITE;
+    const iso = paraIso(l.data);
+    const texto = [
+      `Liturgia de ${dataPorExtenso(l.data).toLowerCase()}`,
+      l.titulo,
+      "",
+      ...leituras.map((x) => `${ROTULO_CURTO[x.tipo]}: ${x.referencia}`),
+    ].join("\n");
+    const url = `${base}/liturgia?data=${iso}`;
+    if (navigator.share) {
+      try {
+        await navigator.share({ title: "Liturgia do dia", text: texto, url });
+      } catch {}
+      return;
+    }
+    window.open(`https://wa.me/?text=${encodeURIComponent(`${texto}\n\n${url}`)}`, "_blank", "noopener");
+  }
+
+  const linha = "flex min-h-14 items-center gap-3 px-4 py-2.5 transition-colors hover:bg-marca-fundo/60";
+
   return (
     <div className="flex flex-col gap-4">
-      <section className="rounded-3xl border border-borda-dia bg-dia p-6 text-sobre-dia shadow-sm">
+      <section className="rounded-3xl border border-borda-dia bg-dia px-5 py-5 text-sobre-dia shadow-sm">
         <p className="text-sm font-medium opacity-90">{dataPorExtenso(l.data)}</p>
-        <h1 className="mt-2 font-leitura text-2xl font-semibold leading-snug sm:text-3xl">{l.titulo}</h1>
-        {subtitulo && <p className="mt-2 text-sm font-medium opacity-90">{subtitulo}</p>}
-        <div className="mt-4 flex flex-wrap gap-2 text-xs font-semibold">
+        <h1 className="mt-1.5 font-leitura text-2xl font-semibold leading-snug sm:text-3xl">{l.titulo}</h1>
+        {subtitulo && <p className="mt-1.5 text-sm font-medium opacity-90">{subtitulo}</p>}
+        <div className="mt-3 flex flex-wrap gap-2 text-xs font-semibold">
           <span className="rounded-full bg-black/10 px-3 py-1">Cor: {NOME_DA_COR[l.cor]}</span>
           <span className="rounded-full bg-black/10 px-3 py-1">Ano {l.cicloDominical}</span>
-          <span className="rounded-full bg-black/10 px-3 py-1">Ano {l.cicloFerial === "I" ? "ímpar" : "par"}</span>
           {avisos.map((a) => (
             <span key={a} className="rounded-full bg-black/20 px-3 py-1">
               {a}
@@ -98,136 +120,109 @@ export default function Hoje() {
         </div>
       </section>
 
+      <ProximaMissa />
+
       <Cartao>
-        <TituloCartao icone={BookOpenText}>Liturgia do dia</TituloCartao>
+        <div className="flex items-center justify-between gap-2">
+          <TituloCartao icone={BookOpenText}>Liturgia do dia</TituloCartao>
+          <button type="button" onClick={() => void compartilhar()} aria-label="Compartilhar a liturgia" className="-mr-2 grid size-10 place-items-center rounded-full text-tinta-suave hover:bg-marca-fundo">
+            <Share2 className="size-5" aria-hidden />
+          </button>
+        </div>
         {missas === null ? (
           <div className="mt-3 h-20 animate-pulse rounded-xl bg-marca-fundo" />
         ) : (
-          <ul className="mt-3 grid grid-cols-[5.5rem_1fr] gap-x-3 gap-y-2">
+          <ul className="mt-2 grid grid-cols-[5.5rem_1fr] gap-x-3 gap-y-2">
             {(missas[0]?.leituras ?? [])
               .filter((x) => !x.ou && x.forma !== "breve" && x.tipo !== "aclamacao" && x.tipo !== "sequencia" && x.tipo !== "procissao")
               .map((x) => (
                 <li key={x.tipo + x.referencia} className="col-span-2 grid grid-cols-subgrid items-baseline">
                   <span className="text-sm text-tinta-suave">{ROTULO_CURTO[x.tipo]}</span>
-                  <span className={`font-leitura ${x.tipo === "evangelho" ? "font-semibold text-marca" : ""}`}>
-                    {x.referencia}
-                  </span>
+                  <span className={`font-leitura ${x.tipo === "evangelho" ? "font-semibold text-marca" : ""}`}>{x.referencia}</span>
                 </li>
               ))}
           </ul>
         )}
-        <Link
-          to="/liturgia"
-          className="mt-5 flex min-h-12 items-center justify-center rounded-xl border border-borda bg-papel px-4 font-semibold text-destaque-texto"
-        >
-          Ver a liturgia completa
+        <Link to="/liturgia" className="mt-4 flex min-h-12 items-center justify-center rounded-xl bg-destaque px-4 font-semibold text-sobre-destaque">
+          Ler a liturgia
         </Link>
       </Cartao>
 
       {missas && <ReflexaoResumo canonica={evangelhoDaMissa(missas[0])} para="/liturgia#reflexao" />}
 
-      <Cartao>
-        <TituloCartao icone={CircleDot}>Terço de hoje</TituloCartao>
-        <p className="mt-3 font-leitura text-xl font-semibold text-marca">{terco.nome}</p>
-        <ol className="mt-3 flex flex-col gap-2">
-          {terco.misterios.map((m, i) => (
-            <li key={m} className="flex gap-3">
-              <span className="grid size-6 shrink-0 place-items-center rounded-full bg-marca-fundo text-xs font-semibold text-destaque-texto">
-                {i + 1}
-              </span>
-              <span>{m}</span>
-            </li>
-          ))}
-        </ol>
-        <Link
-          to="/rezar/terco"
-          className="mt-5 flex min-h-12 items-center justify-center rounded-xl bg-destaque px-4 font-semibold text-sobre-destaque"
-        >
-          Rezar o terço
-        </Link>
-      </Cartao>
-
-      {lembrancas.length > 0 && (
-        <Cartao>
-          <TituloCartao icone={Flower2}>Pelos falecidos</TituloCartao>
-          <ul className="mt-3 flex flex-col gap-1.5">
-            {lembrancas.map((t) => (
-              <li key={t} className="font-leitura text-[1.05rem] text-marca">
-                {t}
-              </li>
-            ))}
-          </ul>
-          <Link to="/rezar/falecidos" className="mt-4 flex min-h-12 items-center justify-center rounded-xl border border-borda bg-papel px-4 font-semibold text-destaque-texto">
-            Rezar por eles
+      <section>
+        <h2 className="mb-2 px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto">Para rezar hoje</h2>
+        <div className={LISTA}>
+          <Link to="/rezar/terco" className={linha}>
+            <span className="grid size-10 shrink-0 place-items-center rounded-xl bg-marca-fundo text-destaque-texto">
+              <CircleDot className="size-5" aria-hidden />
+            </span>
+            <span className="min-w-0 flex-1">
+              <span className="block font-medium text-tinta">Terço</span>
+              <span className="block text-sm text-tinta-suave">{terco.nome}</span>
+            </span>
+            <ChevronRight className="size-5 shrink-0 text-tinta-suave" aria-hidden />
           </Link>
-        </Cartao>
-      )}
-
-      {anosDeBatismo && (
-        <Cartao>
-          <TituloCartao icone={Droplets}>Aniversário do seu batismo</TituloCartao>
-          <p className="mt-3 font-leitura text-xl font-semibold text-marca">
-            {anosDeBatismo} {anosDeBatismo === 1 ? "ano" : "anos"} de batizado
-          </p>
-        </Cartao>
-      )}
-
-      {andamento.length > 0 && (
-        <Cartao>
-          <TituloCartao icone={ListChecks}>Em andamento</TituloCartao>
-          <ul className="mt-2 flex flex-col divide-y divide-borda">
-            {andamento.map((i) => (
-              <li key={i.para}>
-                <Link to={i.para} className="flex min-h-14 items-center gap-3 py-2.5">
-                  <span className="min-w-0 flex-1">
-                    <span className="block font-leitura text-[1.05rem] font-semibold leading-snug text-marca">{i.titulo}</span>
-                    <span className="text-sm text-tinta-suave">{i.detalhe}</span>
-                  </span>
-                  <ChevronRight className="size-5 shrink-0 text-tinta-suave" aria-hidden />
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </Cartao>
-      )}
+          {andamento.map((i) => (
+            <Link key={i.para} to={i.para} className={linha}>
+              <span className="grid size-10 shrink-0 place-items-center rounded-xl bg-marca-fundo text-destaque-texto">
+                <ListChecks className="size-5" aria-hidden />
+              </span>
+              <span className="min-w-0 flex-1">
+                <span className="block font-medium leading-snug text-tinta">{i.titulo}</span>
+                <span className="block text-sm text-tinta-suave">{i.detalhe}</span>
+              </span>
+              <ChevronRight className="size-5 shrink-0 text-tinta-suave" aria-hidden />
+            </Link>
+          ))}
+          {lembrancas.map((t) => (
+            <Link key={t} to="/rezar/falecidos" className={linha}>
+              <span className="grid size-10 shrink-0 place-items-center rounded-xl bg-marca-fundo text-destaque-texto">
+                <Flower2 className="size-5" aria-hidden />
+              </span>
+              <span className="min-w-0 flex-1 font-medium leading-snug text-tinta">{t}</span>
+              <ChevronRight className="size-5 shrink-0 text-tinta-suave" aria-hidden />
+            </Link>
+          ))}
+          {anosDeBatismo && (
+            <div className={linha}>
+              <span className="grid size-10 shrink-0 place-items-center rounded-xl bg-marca-fundo text-destaque-texto">
+                <Droplets className="size-5" aria-hidden />
+              </span>
+              <span className="min-w-0 flex-1 font-medium text-tinta">
+                {anosDeBatismo} {anosDeBatismo === 1 ? "ano" : "anos"} do seu batismo
+              </span>
+            </div>
+          )}
+        </div>
+      </section>
 
       {l.santos.length > 0 && (
-        <Cartao>
-          <TituloCartao icone={Sparkles}>{l.santos.length > 1 ? "Santos do dia" : "Santo do dia"}</TituloCartao>
-          <ul className="mt-3 flex flex-col divide-y divide-borda">
+        <section>
+          <h2 className="mb-2 px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto">{l.santos.length > 1 ? "Santos do dia" : "Santo do dia"}</h2>
+          <div className={LISTA}>
             {l.santos.map((s) => (
-              <li key={s.nome}>
-                <Link
-                  to={linkDoSanto(s.nome)}
-                  className="flex items-start gap-3 py-2.5"
-                >
-                <span
-                  className={`mt-1.5 size-2.5 shrink-0 rounded-full ${COR_PONTO[s.cor]}`}
-                  aria-label={`Cor ${NOME_DA_COR[s.cor].toLowerCase()}`}
-                />
+              <Link key={s.nome} to={linkDoSanto(s.nome)} className={linha}>
+                <span className={`size-2.5 shrink-0 rounded-full ${COR_PONTO[s.cor]}`} aria-label={`Cor ${NOME_DA_COR[s.cor].toLowerCase()}`} />
                 <span className="min-w-0 flex-1">
                   <span className="block font-leitura text-[1.05rem] font-semibold leading-snug text-marca">{s.nome}</span>
                   <span className="text-sm text-tinta-suave">{NOME_DO_GRAU[s.grau]}</span>
                 </span>
-                <ChevronRight className="mt-1 size-5 shrink-0 text-tinta-suave" aria-hidden />
-                </Link>
-              </li>
+                <ChevronRight className="size-5 shrink-0 text-tinta-suave" aria-hidden />
+              </Link>
             ))}
-          </ul>
-        </Cartao>
+          </div>
+        </section>
       )}
 
       <CartaoDaCampanha />
 
-      {minhaParoquia ? (
-        <MinhaParoquia />
-      ) : (
-        <Cartao>
-          <TituloCartao icone={Church}>Minha paróquia</TituloCartao>
-          <Link to="/missas" className="mt-4 flex min-h-12 items-center justify-center rounded-xl border border-borda bg-papel px-4 font-semibold text-destaque-texto">
-            Escolher minha paróquia
-          </Link>
-        </Cartao>
+      {!minhaParoquia && (
+        <Link to="/missas" className="flex min-h-14 items-center gap-3 rounded-2xl border border-borda bg-cartao px-4 py-3 shadow-sm">
+          <Church className="size-6 shrink-0 text-destaque-texto" aria-hidden />
+          <span className="min-w-0 flex-1 font-semibold text-tinta">Escolher minha paróquia</span>
+          <ChevronRight className="size-5 shrink-0 text-tinta-suave" aria-hidden />
+        </Link>
       )}
     </div>
   );
