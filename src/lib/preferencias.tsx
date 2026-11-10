@@ -9,10 +9,12 @@ export interface Preferencias {
   simples: boolean;
   diocese: string;
   batismo: string;
+  minhaParoquia: string;
+  minhaParoquiaNome: string;
 }
 
 const CHAVE = "santinho-preferencias";
-const PADRAO: Preferencias = { tema: "sistema", letra: "normal", simples: false, diocese: "", batismo: "" };
+const PADRAO: Preferencias = { tema: "sistema", letra: "normal", simples: false, diocese: "", batismo: "", minhaParoquia: "", minhaParoquiaNome: "" };
 
 function ler(): Preferencias {
   try {

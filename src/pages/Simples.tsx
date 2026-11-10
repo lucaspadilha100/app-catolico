@@ -1,20 +1,4 @@
 import { Link } from "react-router-dom";
-import { Church, MapPin, Clock, BadgeCheck } from "lucide-react";
-import { ItemLista, TituloPagina } from "@/components/Cartao";
-
-export function Missas() {
-  return (
-    <div>
-      <TituloPagina>Missas</TituloPagina>
-      <div className="flex flex-col gap-3">
-        <ItemLista icone={MapPin} titulo="Missas perto de mim" />
-        <ItemLista icone={Clock} titulo="Confissão e adoração" />
-        <ItemLista icone={Church} titulo="Minha paróquia" />
-        <ItemLista icone={BadgeCheck} titulo="Sugerir paróquia ou horário" />
-      </div>
-    </div>
-  );
-}
 
 export function NaoEncontrada() {
   return (

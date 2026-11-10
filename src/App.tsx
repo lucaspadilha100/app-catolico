@@ -19,7 +19,9 @@ import Falecidos from "@/pages/Falecidos";
 import DiarioEspiritual from "@/pages/Diario";
 import Conta, { Privacidade, Termos } from "@/pages/Conta";
 import Mais from "@/pages/Mais";
-import { Missas, NaoEncontrada } from "@/pages/Simples";
+import { NaoEncontrada } from "@/pages/Simples";
+import { Missas, ParoquiaPagina, Sugerir } from "@/pages/Missas";
+import { EditarParoquia, Painel } from "@/pages/Painel";
 import { Biblia, BibliaCapitulo, BibliaLivro } from "@/pages/Biblia";
 
 export default function App() {
@@ -60,6 +62,10 @@ export default function App() {
         <Route path="santos/grupo/:grupo" element={<GrupoDeSantos />} />
         <Route path="santos/:id" element={<SantoPagina />} />
         <Route path="missas" element={<Missas />} />
+        <Route path="missas/paroquia/:id" element={<ParoquiaPagina />} />
+        <Route path="missas/sugerir" element={<Sugerir />} />
+        <Route path="painel" element={<Painel />} />
+        <Route path="painel/paroquia/:id" element={<EditarParoquia />} />
         <Route path="mais" element={<Mais />} />
         <Route path="*" element={<NaoEncontrada />} />
       </Route>

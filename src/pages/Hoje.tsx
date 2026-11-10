@@ -14,7 +14,8 @@ import { useDiaLiturgico } from "@/lib/useDiaLiturgico";
 import { dataPorExtenso } from "@/liturgia/datas";
 import { NOME_DA_COR, NOME_DO_GRAU, NOME_DO_TEMPO, type CorLiturgica } from "@/liturgia/calendario";
 import { misteriosDoDia } from "@/liturgia/terco";
-import { Cartao, TituloCartao, EmPreparacao } from "@/components/Cartao";
+import { Cartao, TituloCartao } from "@/components/Cartao";
+import { MinhaParoquia } from "@/pages/Missas";
 import type { TipoLeitura } from "@/liturgia/lecionario";
 import { useLeituras } from "@/lib/useLeituras";
 import { ReflexaoResumo, evangelhoDaMissa } from "@/components/Reflexao";
@@ -38,7 +39,7 @@ export default function Hoje() {
   useDevocoesGuardadas();
   const l = useDiaLiturgico();
   const andamento = emAndamento(l.data).slice(0, 4);
-  const { diocese, batismo } = usePreferencias().preferencias;
+  const { diocese, batismo, minhaParoquia } = usePreferencias().preferencias;
   const [falecidos] = useFalecidos();
   const lembrancas = [
     ...lembrancasDeHoje(falecidos, l.data).map(({ falecido, lembranca }) =>
@@ -215,12 +216,16 @@ export default function Hoje() {
         </Cartao>
       )}
 
-      <Cartao>
-        <div className="flex items-center justify-between gap-3">
+      {minhaParoquia ? (
+        <MinhaParoquia />
+      ) : (
+        <Cartao>
           <TituloCartao icone={Church}>Minha paróquia</TituloCartao>
-          <EmPreparacao />
-        </div>
-      </Cartao>
+          <Link to="/missas" className="mt-4 flex min-h-12 items-center justify-center rounded-xl border border-borda bg-papel px-4 font-semibold text-destaque-texto">
+            Escolher minha paróquia
+          </Link>
+        </Cartao>
+      )}
     </div>
   );
 }

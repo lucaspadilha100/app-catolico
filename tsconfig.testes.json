@@ -9,6 +9,7 @@
   },
   "include": [
     "src/**/*.node.test.ts",
+    "src/**/*.node.ts",
     "src/**/*.json"
   ],
   "exclude": []

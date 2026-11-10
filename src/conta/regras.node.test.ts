@@ -91,11 +91,11 @@ describe("avisos de erro da Bíblia", () => {
 });
 
 describe("funções", () => {
-  it("visitante não executa nenhuma função além de contar_uso", async () => {
+  it("visitante só executa as funções públicas da lista", async () => {
     const r = await db.query<{ nome: string }>(`
       select p.proname as nome from pg_proc p join pg_namespace n on n.oid = p.pronamespace
       where n.nspname = 'public' and has_function_privilege('anon', p.oid, 'execute')`);
-    expect(r.rows.map((x) => x.nome)).toEqual(["contar_uso"]);
+    expect(r.rows.map((x) => x.nome).sort()).toEqual(["agenda_perto", "buscar_paroquias", "contar_uso", "e_admin", "sem_acento"]);
   });
 
   it("toda função definer fixa o search_path", async () => {
