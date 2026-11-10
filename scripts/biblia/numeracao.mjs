@@ -21,3 +21,12 @@ const DIVISAO_REFEITA = { MAT: [5, 17], MRK: [4, 8, 9], LUK: [17], JHN: [5, 6, 7
 export function mesmaDivisaoDaFonte(livro, capitulo) {
   return !DIVISAO_REFEITA[livro]?.includes(capitulo);
 }
+
+export function versiculosRestaurados(livro) {
+  const caminho = join(raiz, "fontes/biblia/revisao", livro, "restaurados.json");
+  try {
+    return new Set(JSON.parse(readFileSync(caminho, "utf8")));
+  } catch {
+    return new Set();
+  }
+}
