@@ -29,3 +29,8 @@ Ez 39,7: Figueiredo: "E eles saberão" | Vulgata: "et scient gentes" | Douay-Rhe
 Ez 39,13: Figueiredo: "em que eu foi glorificado" (erro de impressão) | Vulgata: "glorificatus sum" | decidido: "fui glorificado".
 Ez 39,9: "E eles as consumirão no fogo sete anos" → "Com eles manterão o fogo durante sete anos" (Vulgata "succendent ea igni septem annis"); o dono confere.
 Ez 39,11: "O vale dos passageiros" → "o vale dos Viajantes" (Vulgata "vallem viatorum").
+Ez 40-48: "côvados", "cana", "palmo" mantidos; cada número conferido com a Vulgata e a Douay-Rheims. "gazofilácio" → "sala" (Vulgata "gazophylacium"); "câmara" fica para "thalamus"; "frontispício" → "fachada" (Vulgata "frons"); "Aquilão" → "norte", "meio-dia" → "sul".
+Ez 40,3: "como a vista de arame" → "como o aspecto do bronze" (arame = bronze no português antigo; Vulgata "æris").
+Ez 40,38: "postigo" → "entrada" (Vulgata "ostium"); o mesmo em 40,40.
+Ez 40,43: Figueiredo: "E sobre as três mesas se punham as carnes" | Vulgata: "super mensas autem carnes oblationis" | Douay-Rheims: "upon the tables was the flesh of the offering" | decidido: "Sobre as mesas" ("três" sem apoio nas réguas; provável erro de impressão).
+Ez 40,46: "Sadoc" mantido (grafia do Figueiredo).
