@@ -1,0 +1,140 @@
+import { useState } from "react";
+import { Link, Navigate, useParams } from "react-router-dom";
+import { ChevronLeft, ChevronRight, Search } from "lucide-react";
+import { useDiaLiturgico } from "@/lib/useDiaLiturgico";
+import {
+  NOME_DO_GRUPO,
+  ORACOES,
+  ORDEM_DOS_GRUPOS,
+  buscarOracoes,
+  ehTempoPascal,
+  oracoesDoTempo,
+  type Oracao,
+} from "@/oracao/oracoes";
+import { CHAVE_LINGUA, useGuardado, type Lingua } from "@/oracao/guardado";
+import { Cartao, TituloPagina } from "@/components/Cartao";
+import { EscolhaDeLingua, TextoDaOracao, linhasNaLingua } from "@/components/TextoDaOracao";
+import { NaoEncontrada } from "@/pages/Simples";
+
+function ItemDeOracao({ o }: { o: Oracao }) {
+  return (
+    <Link
+      to={`/rezar/oracoes/${o.id}`}
+      className="flex min-h-14 items-center gap-3 rounded-xl border border-borda bg-cartao px-4 py-3 transition-colors hover:border-destaque-texto/40"
+    >
+      <span className="min-w-0 flex-1">
+        <span className="block font-leitura text-[1.05rem] font-medium text-marca">{o.nome}</span>
+        {o.latim && <span className="block text-sm italic text-tinta-suave">{o.latim}</span>}
+      </span>
+      <ChevronRight className="size-5 shrink-0 text-tinta-suave" aria-hidden />
+    </Link>
+  );
+}
+
+export function Oracoes() {
+  const { tempo } = useDiaLiturgico();
+  const [termo, setTermo] = useState("");
+  const todas = oracoesDoTempo(tempo);
+  const achadas = buscarOracoes(todas, termo);
+
+  return (
+    <div className="flex flex-col gap-5">
+      <TituloPagina>Orações</TituloPagina>
+
+      <label className="flex min-h-12 items-center gap-2 rounded-xl border border-borda bg-cartao px-3 focus-within:border-destaque-texto">
+        <Search className="size-5 shrink-0 text-tinta-suave" aria-hidden />
+        <input
+          value={termo}
+          onChange={(e) => setTermo(e.target.value)}
+          placeholder="Buscar oração"
+          aria-label="Buscar oração"
+          className="min-w-0 flex-1 bg-transparent py-2 outline-none placeholder:text-tinta-suave/70"
+          type="search"
+          enterKeyHint="search"
+          autoComplete="off"
+        />
+      </label>
+
+      {termo.trim() ? (
+        achadas.length ? (
+          <div className="flex flex-col gap-2">
+            {achadas.map((o) => (
+              <ItemDeOracao key={o.id} o={o} />
+            ))}
+          </div>
+        ) : (
+          <p className="py-8 text-center text-tinta-suave">Nenhuma oração encontrada.</p>
+        )
+      ) : (
+        ORDEM_DOS_GRUPOS.map((g) => {
+          const doGrupo = todas.filter((o) => o.grupo === g);
+          if (!doGrupo.length) return null;
+          return (
+            <section key={g}>
+              <h2 className="mb-2 px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto">{NOME_DO_GRUPO[g]}</h2>
+              <div className="grid grid-cols-1 gap-2 sm:grid-cols-2">
+                {doGrupo.map((o) => (
+                  <ItemDeOracao key={o.id} o={o} />
+                ))}
+              </div>
+            </section>
+          );
+        })
+      )}
+    </div>
+  );
+}
+
+export function Ladainhas() {
+  const { tempo } = useDiaLiturgico();
+  return (
+    <div>
+      <TituloPagina>Ladainhas</TituloPagina>
+      <div className="flex flex-col gap-2">
+        {oracoesDoTempo(tempo)
+          .filter((o) => o.grupo === "ladainhas")
+          .map((o) => (
+            <ItemDeOracao key={o.id} o={o} />
+          ))}
+      </div>
+    </div>
+  );
+}
+
+export function OracaoPagina() {
+  const { id = "" } = useParams();
+  const { tempo } = useDiaLiturgico();
+  const [lingua, setLingua] = useGuardado<Lingua>(CHAVE_LINGUA, "pt");
+  const o = ORACOES[id];
+
+  if (!o) return <NaoEncontrada />;
+  if (o.id === "angelus" && ehTempoPascal(tempo)) return <Navigate to="/rezar/oracoes/regina-caeli" replace />;
+
+  const voltar = o.grupo === "ladainhas" ? { para: "/rezar/ladainhas", nome: "Ladainhas" } : { para: "/rezar/oracoes", nome: "Orações" };
+
+  return (
+    <div className="flex flex-col gap-4">
+      <Link to={voltar.para} className="-ml-1 flex min-h-11 w-fit items-center gap-1 pr-3 font-medium text-tinta-suave">
+        <ChevronLeft className="size-5" aria-hidden />
+        {voltar.nome}
+      </Link>
+
+      <header>
+        <h1 className="font-leitura text-3xl font-semibold leading-tight tracking-tight text-marca">{o.nome}</h1>
+        {o.latim && <p className="mt-1 font-leitura italic text-tinta-suave">{o.latim}</p>}
+      </header>
+
+      {o.la && (
+        <div>
+          <EscolhaDeLingua valor={lingua} onChange={setLingua} />
+        </div>
+      )}
+
+      <Cartao>
+        <div lang={lingua === "la" && o.la ? "la" : "pt-BR"}>
+          <TextoDaOracao linhas={linhasNaLingua(o, lingua)} lingua={lingua} />
+        </div>
+      </Cartao>
+    </div>
+  );
+}

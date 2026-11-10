@@ -70,13 +70,24 @@ Legenda: ✅ pronto · 🔨 em andamento · ⬜ a fazer · 👤 precisa do dono
 - ⬜ Introdução curta dos 73 livros
 - ⬜ Busca no texto, marcações e notas, planos de leitura
 
-### Leva 5. Terço e orações ⬜
-- ⬜ Terço guiado completo: oferecimento, mistérios, dezenas, modo contas
-  (toque e vibração), intenção, contador pessoal
-- ⬜ Meditação curta dos 20 mistérios com a passagem bíblica
-- ⬜ Terço da Misericórdia, Terço de São Miguel
-- ⬜ Orações tradicionais em português e latim
-- ⬜ Ângelus e Regina Caeli, manhã, noite, refeições, ladainhas
+### Leva 5. Terço e orações ✅
+- ✅ Terço guiado completo: sinal da cruz, oferecimento, Creio, três Ave-Marias,
+  mistérios com passagem bíblica e meditação, dezenas, oração de Fátima,
+  Salve-Rainha e oração final; modo contas (toque na tela inteira e vibração),
+  intenção, contador pessoal e retomar de onde parou (`src/oracao/terco.ts`,
+  `components/TercoGuiado.tsx`)
+- ✅ Meditação curta dos 20 mistérios com a passagem bíblica (texto da nossa Bíblia)
+- ⬜ 👤 Revisão das 20 meditações dos mistérios (`MEDITACOES.revisao` em
+  `src/oracao/terco.ts` está "a revisar pelo dono"; mudar para "revisado")
+- ✅ Terço da Misericórdia, Terço de São Miguel (o mesmo componente)
+- ✅ Orações tradicionais em português e latim, com busca (`src/oracao/oracoes.ts`)
+- ✅ Ângelus (vira Regina Caeli no Tempo Pascal), manhã, noite, refeições,
+  comunhão espiritual, pelos falecidos e as ladainhas de Nossa Senhora, do
+  Sagrado Coração e de São José
+- ✅ Teste: português e latim em toda oração, referências dos mistérios,
+  contagem de cada terço (53 Ave-Marias no comum) e nenhum travessão
+- ⬜ 👤 Leitura das orações em português (forma tradicional de reza no Brasil)
+- ⬜ Rosário completo (4 mistérios seguidos)
 
 ### Leva 6. Devoções ⬜
 - ⬜ Novenas com acompanhamento e início automático antes da festa

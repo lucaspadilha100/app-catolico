@@ -37,5 +37,12 @@
   (base LXX-Swete-1930, de eliranwong) e Byzantine Textform 2013
   (Robinson-Pierpont), todos de texto em domínio público.
 
+## Orações e terço
+- **Orações em português**: a forma tradicional de reza do povo brasileiro, de
+  uso comum; nenhum texto copiado de livro, site ou edição com direitos.
+- **Orações em latim**: textos tradicionais da Igreja (domínio público),
+  escritos de memória e conferidos entre si; nenhuma fonte externa copiada.
+- **Meditações dos mistérios**: texto próprio; as passagens vêm da Bíblia do app.
+
 ## Fontes de texto
 - Inter e Literata, licença SIL Open Font License 1.1.
