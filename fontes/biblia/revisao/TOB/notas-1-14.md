@@ -26,3 +26,5 @@ Tb 8,23: "esconjurou" (Vulgata "adjuravit") vertido "pediu com insistência".
 Tb 8,24: "depois da sua morte" mantido como o Figueiredo (Vulgata "post obitum eorum", dos dois).
 Tb 9,9: "esmoler" vertido "caridoso com os pobres" (Vulgata "eleemosynas facientis").
 Tb 10,4: número solto "1" depois de "inconsoláveis": retirado.
+Tb 11,8: número solto "1" depois de "certo que": retirado.
+Tb 11,14: "belida" (Vulgata "albugo", DR "a white skin") vertido "película branca".

@@ -54,12 +54,15 @@ tradição textual, vale a Vulgata (é a Bíblia que o Figueiredo traduziu).
 - "loucura" para "estultícia"; "fraqueza" para "enfermidade" quando é fraqueza
 - "Igreja" no Novo Testamento; "assembleia" no Antigo (Salmos incluídos)
 - "chefes dos sacerdotes" (príncipes dos sacerdotes, pontífices); "sumo
-  sacerdote" para um só; "denário"; "barco"; "Em verdade vos digo"; "gentios"
+  sacerdote" para um só quando a Vulgata diz pontifex, sacerdos magnus ou
+  princeps sacerdotum; quando a Vulgata diz só "sacerdos", "sacerdote"; "denário"; "barco"; "Em verdade vos digo"; "gentios"
 - "filisteus" para "Palestina/palestinos" do Figueiredo (o povo antigo)
 - "prostrar-se" / "inclinar-se diante de" quando "adorar" é reverência a uma
   pessoa; "adorar" só para Deus (ou ídolos)
 - "aliança" para "concerto"; nomes de lugar na grafia atual (Betel, Harã,
   Siquém); Aram (filho de Sem) e Arã (irmão de Abrão), nunca "Arão" para eles
+- Nomes: a mesma pessoa ou lugar com a mesma grafia em toda a Bíblia (Gat,
+  Joaquim o pai e Joaquin o filho, rei de Judá; Amnon, filho de Davi; Jeroão)
 - Sem referências cruzadas entre parênteses nos títulos.
 
 ## Ordem e numeração
