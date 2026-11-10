@@ -1,5 +1,6 @@
 import { useEffect, useState, type FormEvent } from "react";
-import { Check, Flag, X } from "lucide-react";
+import { Check, Flag, Share2, X } from "lucide-react";
+import { compartilharVersiculo } from "@/lib/imagemDoVersiculo";
 import { enviarAviso, NOME_DO_AVISO, type Aviso, type TipoDeAviso } from "@/biblia/avisos";
 
 interface Props {
@@ -13,6 +14,7 @@ export function BarraDoVersiculo({ referencia, aviso, aoFechar }: Props) {
   const [tipo, setTipo] = useState<TipoDeAviso | null>(null);
   const [comentario, setComentario] = useState("");
   const [estado, setEstado] = useState<"editando" | "enviando" | "enviado">("editando");
+  const [imagem, setImagem] = useState<"" | "gerando" | "baixado">("");
 
   useEffect(() => {
     setAberto(false);
@@ -44,26 +46,29 @@ export function BarraDoVersiculo({ referencia, aviso, aoFechar }: Props) {
       >
         <div className="flex items-center justify-between gap-3">
           <p className="font-semibold text-tinta">{referencia}</p>
-          <div className="flex items-center gap-1">
-            {!aberto && (
-              <button
-                type="button"
-                onClick={() => setAberto(true)}
-                className="flex min-h-10 items-center gap-2 rounded-xl border border-borda px-3 text-sm font-medium text-tinta-suave"
-              >
-                <Flag className="size-4" aria-hidden /> Avisar erro
-              </button>
-            )}
+          <button type="button" onClick={aoFechar} aria-label="Fechar" className="-mr-2 flex size-10 items-center justify-center rounded-xl text-tinta-suave">
+            <X className="size-5" aria-hidden />
+          </button>
+        </div>
+        {!aberto && (
+          <div className="mt-2 grid grid-cols-2 gap-2">
             <button
               type="button"
-              onClick={aoFechar}
-              aria-label="Fechar"
-              className="flex size-10 items-center justify-center rounded-xl text-tinta-suave"
+              onClick={() => {
+                setImagem("gerando");
+                void compartilharVersiculo(aviso.texto_versiculo, referencia).then((r) => setImagem(r === "baixado" ? "baixado" : ""));
+              }}
+              disabled={imagem === "gerando"}
+              className="flex min-h-11 items-center justify-center gap-2 rounded-xl bg-destaque px-3 text-sm font-semibold text-sobre-destaque disabled:opacity-60"
             >
-              <X className="size-5" aria-hidden />
+              {imagem === "baixado" ? <Check className="size-4" aria-hidden /> : <Share2 className="size-4" aria-hidden />}
+              {imagem === "baixado" ? "Imagem salva" : "Compartilhar"}
+            </button>
+            <button type="button" onClick={() => setAberto(true)} className="flex min-h-11 items-center justify-center gap-2 rounded-xl border border-borda px-3 text-sm font-medium text-tinta-suave">
+              <Flag className="size-4" aria-hidden /> Avisar erro
             </button>
           </div>
-        </div>
+        )}
 
         {aberto && estado === "enviado" && (
           <p className="mt-3 flex items-center gap-2 text-tinta">
