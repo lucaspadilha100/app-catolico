@@ -263,23 +263,28 @@ Legenda: ✅ pronto · 🔨 em andamento · ⬜ a fazer · 👤 precisa do dono
 - ⬜ 👤 Conta Google Play e 12 testadores por 14 dias
 - ⬜ Lançamento em Natal e mensagens de divulgação
 
-### Leva 18. A sua igreja viva ⬜
+### Leva 18. A sua igreja viva 🔨
 O diferencial do app (pedido do dono, 11/11/2026).
-- ⬜ "Sou da equipe desta paróquia": pedido de controle com cargo e contato
-  institucional, fila no Painel, aprovação vira gestor (mais de um por paróquia)
-- ⬜ Mural da paróquia: avisos e eventos em texto, com link (por exemplo, do
-  post no Instagram). Sem fotos (decisão do dono, 11/11/2026: segurar o plano
-  grátis do Supabase o máximo possível)
-- ⬜ Seguir várias igrejas; "Minhas igrejas" na tela Hoje com o que há de novo
-- ⬜ Notificação aos seguidores a cada publicação (no site instalado, pela
-  mesma estrutura dos lembretes; no app de loja precisa de notificação remota:
-  Firebase, grátis, e a chave da Apple)
-- ⬜ Eventos com data e lembrete (festa do padroeiro, novenário, procissão,
-  quermesse, romaria), também na busca de Missas
-- ⬜ Instagram no mural: a paróquia conecta a conta profissional do Instagram
-  e os posts do feed entram sozinhos, com notificação
-- ⬜ 👤 Para o Instagram: conta de desenvolvedor na Meta, app revisado pela Meta
-  (pede domínio e política de privacidade publicados)
+- ✅ "Sou da equipe desta paróquia": pedido com nome, função e contato da
+  paróquia; fila no Painel com o e-mail da conta; aprovar torna gestor e a
+  paróquia verificada (mais de um gestor por paróquia)
+- ✅ Mural da paróquia: avisos e eventos em texto, com link (por exemplo, do
+  post no Instagram), no máximo 10 por dia; sem fotos (decisão do dono)
+- ✅ Seguir várias igrejas (sincroniza com a conta); "Minhas igrejas" na tela
+  Hoje com as publicações dos últimos 30 dias
+- ✅ Aviso aos seguidores a cada publicação, só para paróquias "Pioneira" ou
+  "Plano para paróquias" (o admin escolhe no Painel); liga e desliga em Lembretes
+- ✅ Regras testadas (pedido, aprovação, mural, limite, plano protegido)
+- ⬜ 👤 Os 3 passos do Supabase (os mesmos dos lembretes) para os avisos
+  chegarem no app instalado pelo navegador
+- ⬜ Aviso aos seguidores no app de loja: notificação remota (Firebase, grátis)
+  e 👤 a chave de notificação da Apple
+- ⬜ Eventos na busca de Missas (chip "Eventos")
+- ⬜ Instagram automático no mural: a paróquia conecta a conta profissional e
+  os posts entram sozinhos
+- ⬜ 👤 Para o Instagram automático: conta de desenvolvedor na Meta e app
+  revisado pela Meta (pede domínio e política de privacidade publicados)
+- ⬜ 👤 Escolher as paróquias pioneiras (no Painel: editar a paróquia, Plano)
 
 ### Leva 19. Plano para paróquias ⬜
 - ✅ 👤 O que é grátis e o que é do plano (aprovado pelo dono, 11/11/2026):

@@ -69,6 +69,12 @@ configurado desde o início) · **Supabase** plano gratuito (projeto
   JWT": chamá-la só envia o que já está na hora, uma vez por dia por tipo.
   Teto: percorre todas as inscrições a cada chamada, em páginas de 500; com
   dezenas de milhares, dividir por fuso/hora.
+- **Igreja viva** (migração 20261123000000): `pedidos_de_gestao` (o admin
+  aprova com `revisar_pedido_de_gestao`), `publicacoes_paroquia` (mural, só
+  texto e link; `notificada` só a service_role muda) e `paroquias.plano`
+  (`gratis` | `pioneira` | `paroquia`, só o admin muda). A mesma função
+  `lembretes` avisa quem segue (`lembrete_inscricoes.lembretes.igrejas`) quando
+  a paróquia não é `gratis`.
 
 ## Acabamento profissional (pedido do dono, 10/11/2026)
 - **Sem cara de IA.** Código sem comentários explicativos (só o raro que evita
