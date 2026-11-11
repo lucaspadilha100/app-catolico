@@ -267,7 +267,9 @@ Legenda: ✅ pronto · 🔨 em andamento · ⬜ a fazer · 👤 precisa do dono
 O diferencial do app (pedido do dono, 11/11/2026).
 - ⬜ "Sou da equipe desta paróquia": pedido de controle com cargo e contato
   institucional, fila no Painel, aprovação vira gestor (mais de um por paróquia)
-- ⬜ Mural da paróquia: avisos, fotos e eventos publicados pela equipe
+- ⬜ Mural da paróquia: avisos e eventos em texto, com link (por exemplo, do
+  post no Instagram). Sem fotos (decisão do dono, 11/11/2026: segurar o plano
+  grátis do Supabase o máximo possível)
 - ⬜ Seguir várias igrejas; "Minhas igrejas" na tela Hoje com o que há de novo
 - ⬜ Notificação aos seguidores a cada publicação (no site instalado, pela
   mesma estrutura dos lembretes; no app de loja precisa de notificação remota:
@@ -278,13 +280,11 @@ O diferencial do app (pedido do dono, 11/11/2026).
   e os posts do feed entram sozinhos, com notificação
 - ⬜ 👤 Para o Instagram: conta de desenvolvedor na Meta, app revisado pela Meta
   (pede domínio e política de privacidade publicados)
-- ⬜ 👤 Para as fotos: o armazenamento grátis do Supabase é 1 GB (fotos
-  reduzidas no celular antes de subir, como já fazemos no versículo)
 
 ### Leva 19. Plano para paróquias ⬜
-- ⬜ O que é grátis e o que é do plano (proposta: página, horários e avisos
-  de texto grátis; mural com fotos, notificação, eventos com inscrição e PIX
-  no plano)
+- ✅ 👤 O que é grátis e o que é do plano (aprovado pelo dono, 11/11/2026):
+  página, horários e avisos de texto grátis; notificação aos seguidores,
+  eventos com inscrição e PIX no plano
 - ⬜ Inscrições: batismo, crisma, curso de noivos, catequese (formulário e
   lista para a secretaria)
 - ⬜ Oferta e dízimo por PIX direto na conta da paróquia (o app não toca no dinheiro)
@@ -294,13 +294,17 @@ O diferencial do app (pedido do dono, 11/11/2026).
 - ⬜ 👤 Preço do plano, CNPJ ou associação para receber, conta no meio de pagamento
 
 ### Leva 20. Apoiadores ⬜
-- ⬜ Página "Apoie" com transparência (custos do mês, quanto entrou, para onde foi)
-- ⬜ Avulso por PIX (QR e copia e cola), sem custo de taxa
+Decisão do dono (11/11/2026): sem mostrar quanto foi arrecadado nem prestação
+de contas na tela. O foco é ajudar as pessoas e propagar o Evangelho; se o app
+der dinheiro, não é ruim, só não é o foco.
+- ⬜ Página "Apoie" organizada: por que apoiar (manter o app gratuito, sem
+  anúncios, e ajudar as paróquias), as formas de apoiar e o que o apoiador ganha
+- ⬜ Avulso por PIX (QR e copia e cola), sem taxa
 - ⬜ Mensal (assinatura), quando houver CNPJ ou associação
 - ⬜ Selo de apoiador, temas de cor, acesso antecipado, voto no próximo recurso
 - ⬜ Nas lojas: até haver associação, "Apoie" aparece só no site e no app
   instalado pelo navegador (regra da Apple e do Google)
-- ⬜ 👤 Chave PIX e associação sem fins lucrativos
+- ⬜ 👤 Chave PIX e, para o mensal, CNPJ ou associação sem fins lucrativos
 
 ### Leva 21. Extras ⬜
 - ⬜ Santinhos e convites personalizados (batismo, primeira comunhão, crisma,

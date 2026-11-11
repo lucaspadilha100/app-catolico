@@ -188,8 +188,9 @@ com quem a segue.
 - **Reivindicar a paróquia:** "Sou da equipe desta paróquia" pede o controle;
   o dono confirma pelo contato institucional e a pessoa vira gestora (o
   Painel já sabe dar esse poder). Uma paróquia pode ter mais de um gestor.
-- **Mural da paróquia:** avisos, fotos e eventos publicados pela equipe, na
-  página da paróquia e no "Minhas igrejas" da tela Hoje.
+- **Mural da paróquia:** avisos e eventos em texto, com link (por exemplo, do
+  post no Instagram), na página da paróquia e no "Minhas igrejas" da tela
+  Hoje. Sem fotos, para caber no plano grátis do Supabase.
 - **Seguir igrejas:** além da "minha paróquia", seguir quantas quiser (a
   capela do bairro, a matriz, o santuário).
 - **Notificação para quem segue** a cada publicação nova.
@@ -205,12 +206,12 @@ Regra: liturgia, Bíblia, terço, orações, novenas, santos, missas e a página
 de toda paróquia são de graça para sempre. Paga-se o que é a mais.
 
 - **Plano para paróquias** (a principal fonte): a paróquia paga, o fiel não.
-  Mural com fotos, notificação aos seguidores, eventos com inscrição
+  Notificação aos seguidores, eventos com inscrição
   (batismo, crisma, curso de noivos, catequese), oferta e dízimo por PIX
   direto na conta da paróquia, números de alcance. **Paróquias pioneiras de
   graça** (divulgação). Vendido pelo site, fora das lojas.
-- **Apoiadores:** contribuição avulsa (PIX) e mensal, com página de
-  transparência (quanto entra, para onde vai). O apoiador ganha selo, temas
+- **Apoiadores:** contribuição avulsa (PIX) e mensal, numa página "Apoie"
+  organizada, sem mostrar valores arrecadados. O apoiador ganha selo, temas
   de cor, acesso antecipado e voto no que será feito. Nada de oração a mais.
 - **Extras pagos:** santinhos e convites personalizados (batismo, primeira
   comunhão, crisma, casamento, aniversário, santo de devoção: o modelo
