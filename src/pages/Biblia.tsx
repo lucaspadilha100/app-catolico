@@ -6,6 +6,7 @@ import { PLANOS, descreverDia, diaDoPlano, diasDoPlano, escolherPlano, usePlano,
 import { CORES, chaveDoVersiculo, lerChave, marcaViva, useMarcas, type Cor } from "@/biblia/marcas";
 import { LIVROS, livroPorCodigo, livroPorSlug, type Livro } from "@/biblia/livros";
 import { carregarLivro, type LivroDaBiblia } from "@/biblia/texto";
+import { carregarIntroducoes } from "@/biblia/introducoes";
 import { interpretar, livrosQueCombinam } from "@/biblia/busca";
 import {
   ESTADO_DOS_LIVROS,
@@ -399,6 +400,7 @@ function Leitor({
           <section key={chave} data-capitulo={chave} className={i > 0 ? "pt-12" : ""}>
             {i > 0 && <h2 className="mb-5 px-1 font-leitura text-2xl font-semibold text-marca">{nomeDoCapitulo(pos.livro, pos.cap)}</h2>}
             {emRevisao && pos.cap === 1 && <p className="mb-3 px-1 text-sm text-tinta-suave">Texto em revisão</p>}
+            {pos.cap === 1 && <SobreOLivro codigo={pos.livro.codigo} />}
             {!versiculos ? (
               <div className="flex flex-col gap-3 px-1">
                 {Array.from({ length: 8 }, (_, k) => (
@@ -590,6 +592,33 @@ export function BibliaMarcados() {
         </ul>
       )}
     </div>
+  );
+}
+
+function SobreOLivro({ codigo }: { codigo: string }) {
+  const [partes, setPartes] = useState<string[] | null>(null);
+  useEffect(() => {
+    let ativo = true;
+    carregarIntroducoes()
+      .then((t) => ativo && setPartes(t[codigo] ?? null))
+      .catch(() => {});
+    return () => {
+      ativo = false;
+    };
+  }, [codigo]);
+  if (!partes) return null;
+  return (
+    <details className="group mb-4 rounded-2xl border border-borda bg-cartao px-4 font-sans">
+      <summary className="flex min-h-12 cursor-pointer list-none items-center justify-between gap-2 font-medium text-tinta">
+        Sobre este livro
+        <ChevronDown className="size-5 shrink-0 text-tinta-suave transition-transform group-open:rotate-180" aria-hidden />
+      </summary>
+      <div className="flex flex-col gap-3 pb-4 font-leitura text-[1.05rem] leading-relaxed text-tinta">
+        {partes.map((p, i) => (
+          <p key={i}>{p}</p>
+        ))}
+      </div>
+    </details>
   );
 }
 
