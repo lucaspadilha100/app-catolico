@@ -41,6 +41,8 @@ const ConduzirRoteiro = lazy(() => import("@/pages/Roteiros").then((m) => ({ def
 const Escalas = lazy(() => import("@/pages/Escalas").then((m) => ({ default: m.Escalas })));
 const MinisterioPagina = lazy(() => import("@/pages/Escalas").then((m) => ({ default: m.MinisterioPagina })));
 const EntrarNoMinisterio = lazy(() => import("@/pages/Escalas").then((m) => ({ default: m.EntrarNoMinisterio })));
+const Correntes = lazy(() => import("@/pages/Correntes").then((m) => ({ default: m.Correntes })));
+const CorrenteAberta = lazy(() => import("@/pages/Correntes").then((m) => ({ default: m.CorrenteAberta })));
 const Santinhos = lazy(() => import("@/pages/Santinhos"));
 const Apoie = lazy(() => import("@/pages/Apoie"));
 const Mais = lazy(() => import("@/pages/Mais"));
@@ -136,6 +138,8 @@ export default function App() {
         <Route path="santinhos" element={<Santinhos />} />
         <Route path="roteiros" element={<Roteiros />} />
         <Route path="escalas" element={<Escalas />} />
+        <Route path="correntes" element={<Correntes />} />
+        <Route path="c/:codigo" element={<CorrenteAberta />} />
         <Route path="escalas/m/:id" element={<MinisterioPagina />} />
         <Route path="escalas/entrar/:codigo" element={<EntrarNoMinisterio />} />
         <Route path="roteiros/:id" element={<EditarRoteiro />} />

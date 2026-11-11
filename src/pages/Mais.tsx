@@ -1,5 +1,5 @@
 import { useState, type ReactNode } from "react";
-import { Bell, CalendarClock, CalendarDays, GraduationCap, Image, ListMusic, Church, FileText, HandHeart, Heart, LayoutDashboard, NotebookPen, Share2, ShieldCheck, Sparkles, UserRound } from "lucide-react";
+import { Bell, CalendarClock, CalendarDays, Clock, GraduationCap, Image, ListMusic, Church, FileText, HandHeart, Heart, LayoutDashboard, NotebookPen, Share2, ShieldCheck, Sparkles, UserRound } from "lucide-react";
 import { ehApoiador, usePreferencias, type CorDoApp, type Letra, type Tema } from "@/lib/preferencias";
 import { Cartao, Grupo, ItemLista, LINHA, TituloPagina } from "@/components/Cartao";
 import { DIOCESES } from "@/liturgia/dioceses";
@@ -108,6 +108,7 @@ export default function Mais() {
         <Grupo titulo="Para você">
           <ItemLista icone={Bell} titulo="Lembretes" detalhe="Evangelho, Ângelus, terço, novena" para="/lembretes" />
           <ItemLista icone={NotebookPen} titulo="Diário espiritual" detalhe="Diário e propósitos" para="/diario" />
+          <ItemLista icone={Clock} titulo="Relógio de oração" detalhe="Cada um reza num horário" para="/correntes" />
           <ItemLista icone={CalendarClock} titulo="Escalas" detalhe="Leitores, ministros, coroinhas, canto" para="/escalas" />
           <ItemLista icone={ListMusic} titulo="Roteiros de oração" detalhe="Terço com cantos, meditações e ao vivo" para="/roteiros" />
           <ItemLista icone={Image} titulo="Santinhos e convites" detalhe="Batismo, comunhão, crisma, casamento" para="/santinhos" />

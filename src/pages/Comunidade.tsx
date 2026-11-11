@@ -37,6 +37,7 @@ import {
 } from "@/comunidade/api";
 import { compartilhar, enderecoPublico } from "@/lib/nativo";
 import { Cartao, Grupo as GrupoDeLinhas, LINHA, LISTA, TituloPagina } from "@/components/Cartao";
+import { NovenaDoGrupo } from "@/components/NovenaDoGrupo";
 import { Cabecalho, Carregando, Indisponivel, Voltar } from "@/components/Devocao";
 import { TercoGuiado, type Posicao } from "@/components/TercoGuiado";
 import { NaoEncontrada } from "@/pages/Simples";
@@ -548,6 +549,8 @@ export function GrupoPagina() {
           }}
         />
       )}
+
+      <NovenaDoGrupo grupo={grupo.id} membros={membros} eu={eu} />
 
       <section>
         <h2 className="mb-2 px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto">Pedidos do grupo</h2>

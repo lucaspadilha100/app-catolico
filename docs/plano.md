@@ -400,9 +400,14 @@ participa acompanha no celular, ao vivo, pelo link ou pelo QR code.
 - ✅ Ministérios da paróquia criados pelo Painel; o coordenador da música monta
   o folheto pela página do ministério
 
-### Leva 26. Relógio de oração e novena em grupo ⬜
-Cada um escolhe um horário (por um doente, por uma causa, adoração de 24 horas);
-o grupo reza a novena junto e vê quem rezou.
+### Leva 26. Relógio de oração e novena em grupo ✅
+- ✅ Relógio de oração (Mais → Relógio de oração): quem tem conta cria a
+  corrente (intenção, início, de 12 horas a 30 dias, turnos de 15, 30 ou 60
+  minutos); quem recebe o link escolhe o horário sem precisar de conta, vê
+  quem reza em cada hora, põe o horário na agenda do celular (aviso 10 minutos
+  antes) e pode sair
+- ✅ Novena em grupo (na página do grupo): o grupo começa uma novena do
+  catálogo, cada um marca o dia rezado e todos veem quem rezou
 
 ### Leva 27. Graça alcançada ⬜
 Quem pediu oração conta a graça; quem rezou é avisado.
