@@ -2,6 +2,8 @@ import { Suspense, useEffect } from "react";
 import { NavLink, Link, Outlet, useLocation } from "react-router-dom";
 import { BookOpen, Church, HandHeart, Menu, Sunrise, type LucideIcon } from "lucide-react";
 import { useDiaLiturgico } from "@/lib/useDiaLiturgico";
+import { usePreferencias } from "@/lib/preferencias";
+import { ehNativo } from "@/lib/nativo";
 import { Rolagem } from "@/components/Rolagem";
 import { BoasVindas } from "@/components/BoasVindas";
 import { Carregando } from "@/components/Devocao";
@@ -36,6 +38,7 @@ function Marca({ className = "" }: { className?: string }) {
 export default function Layout() {
   const { pathname } = useLocation();
   const liturgia = useDiaLiturgico();
+  const { diocese } = usePreferencias().preferencias;
 
   useEffect(() => {
     const reenviar = () => {
@@ -64,6 +67,12 @@ export default function Layout() {
   useEffect(() => {
     document.documentElement.dataset.cor = liturgia.cor;
   }, [liturgia.cor]);
+
+  useEffect(() => {
+    if (!ehNativo()) return;
+    const t = setTimeout(() => void import("@/lib/widget").then((m) => m.atualizarWidget(diocese)), 4000);
+    return () => clearTimeout(t);
+  }, [diocese, liturgia.data.getTime()]);
 
   return (
     <div className="min-h-dvh md:flex">

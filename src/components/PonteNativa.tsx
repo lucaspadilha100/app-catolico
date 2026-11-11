@@ -24,7 +24,16 @@ export function PonteNativa() {
         const url = (e.notification.extra as { url?: string } | undefined)?.url;
         if (url) navegar(url);
       });
-      limpar.push(() => void voltar.remove(), () => void tocou.remove());
+      const rota = (url: string) => {
+        try {
+          const caminho = new URL(url).pathname;
+          if (caminho.startsWith("/")) navegar(caminho);
+        } catch {}
+      };
+      const link = await App.addListener("appUrlOpen", (e) => rota(e.url));
+      const inicial = await App.getLaunchUrl().catch(() => undefined);
+      if (inicial?.url) rota(inicial.url);
+      limpar.push(() => void voltar.remove(), () => void tocou.remove(), () => void link.remove());
       await SplashScreen.hide();
     })();
     return () => limpar.forEach((f) => f());
