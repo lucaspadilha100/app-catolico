@@ -441,3 +441,18 @@ participa acompanha no celular, ao vivo, pelo link ou pelo QR code.
 ### Leva 32. Rezando juntos ✅
 - ✅ "Hoje, N pessoas rezaram o terço com o app" (contagem anônima do dia), no
   terço, na Misericórdia e no Rezar agora
+
+### Leva 33. Interface nova ✅
+- ✅ Branco e preto com uma cor só, cartões sem borda, títulos em sem serifa; claro e escuro
+- ✅ Cartão do dia na cor litúrgica (Hoje e Liturgia); contas do terço e progresso na cor do dia
+- ✅ Rezar com arte sacra em domínio público; santo do dia com imagem
+- ✅ Bíblia e menu de baixo mantidos; nota da tradução no fim de cada capítulo
+- ⬜ Ajuste fino das telas menores (Conta, Diário, Painel, Roteiros) e das bordas finas que sobraram
+- ⬜ Uma pintura de Tissot para o Evangelho de cada dia na tela Hoje (conteúdo: escolher e conferir cada imagem)
+
+### Leva 34. Horários do RN ✅ (Mossoró 🔨)
+- ✅ Arquidiocese de Natal: 130 de 133 matrizes com missa de domingo (página oficial de cada paróquia)
+- ✅ Diocese de Caicó: 36 de 37 (página "Horário das Missas" da diocese, editada em 2022)
+- ✅ Capelas ligadas à matriz, área missionária/pastoral e quase-paróquia como tipos próprios, nomes limpos
+- ⬜ 👤 Diocese de Mossoró: 6 de 57; pedir a lista à cúria, (84) 3314-7255, ou nova rodada de busca
+- ⬜ Próximos estados, no mesmo molde (`fontes/paroquias/pesquisa-rn-2026-11/FORMATO.md`)
