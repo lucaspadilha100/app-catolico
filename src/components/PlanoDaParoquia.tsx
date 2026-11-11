@@ -99,7 +99,7 @@ export function Inscricoes({ paroquia, email }: { paroquia: string; email: strin
   if (turmas === null || (!turmas.length && !minhas.length)) return null;
 
   return (
-    <section className="flex flex-col gap-3">
+    <section id="inscricoes" className="flex scroll-mt-24 flex-col gap-3">
       <h2 className={TITULO}>Inscrições</h2>
       {minhas.length > 0 && (
         <Cartao className="flex flex-col gap-2 p-4">

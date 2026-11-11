@@ -292,6 +292,14 @@ export async function muralDaParoquia(paroquia: string, pular = 0, limite = 10):
   return ou(await c.from("publicacoes_paroquia").select("*").eq("paroquia_id", paroquia).order("criado_em", { ascending: false }).order("id").range(pular, pular + limite - 1)) as Publicacao[];
 }
 
+export async function proximoEvento(paroquia: string): Promise<Publicacao | null> {
+  const c = await cliente();
+  const r = ou(
+    await c.from("publicacoes_paroquia").select("*").eq("paroquia_id", paroquia).eq("tipo", "evento").gte("evento_em", new Date().toISOString()).order("evento_em").limit(1),
+  ) as Publicacao[];
+  return r[0] ?? null;
+}
+
 export async function publicar(p: Omit<Publicacao, "id" | "criado_em">) {
   const c = await cliente();
   ou(await c.from("publicacoes_paroquia").insert(p));

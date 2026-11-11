@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState, type FormEvent, type ReactNode } from "react";
-import { Link, useParams, useSearchParams } from "react-router-dom";
+import { Link, useLocation, useParams, useSearchParams } from "react-router-dom";
 import { AtSign, BadgeCheck, Bell, Check, ChevronDown, ChevronRight, Clock, Globe, Heart, LocateFixed, Mail, MapPin, MessageCircle, Navigation, Pencil, Phone, Plus, Search, Share2 } from "lucide-react";
 import { usePreferencias } from "@/lib/preferencias";
 import { useConta } from "@/conta/useConta";
@@ -815,6 +815,19 @@ export function ParoquiaPagina() {
   const [confirmado, setConfirmado] = useState(false);
   const [copiado, setCopiado] = useState(false);
   const [seguidas, alternarSeguida] = useIgrejasSeguidas();
+  const { hash } = useLocation();
+  const carregou = dados !== null && typeof dados === "object";
+
+  useEffect(() => {
+    if (!carregou || !hash) return;
+    let tentativas = 0;
+    const t = setInterval(() => {
+      const el = document.getElementById(hash.slice(1));
+      if (el || ++tentativas > 20) clearInterval(t);
+      el?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }, 150);
+    return () => clearInterval(t);
+  }, [carregou, hash]);
 
   useEffect(() => {
     let ativo = true;
