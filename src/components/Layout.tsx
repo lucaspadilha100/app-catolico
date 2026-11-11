@@ -37,6 +37,7 @@ function Marca({ className = "" }: { className?: string }) {
 
 export default function Layout() {
   const { pathname } = useLocation();
+  const naBiblia = pathname.startsWith("/biblia");
   const liturgia = useDiaLiturgico();
   const { diocese } = usePreferencias().preferencias;
 
@@ -101,11 +102,15 @@ export default function Layout() {
       </aside>
 
       <div className="min-w-0 flex-1">
-        <header className="sticky top-0 z-10 border-b border-borda bg-papel/90 px-4 pb-2 pt-[max(0.5rem,env(safe-area-inset-top))] backdrop-blur md:hidden">
-          <Marca />
-        </header>
+        {naBiblia ? (
+          <header className="sticky top-0 z-10 border-b border-borda bg-papel/90 px-4 pb-2 pt-[max(0.5rem,env(safe-area-inset-top))] backdrop-blur md:hidden">
+            <Marca />
+          </header>
+        ) : (
+          <div className="sticky top-0 z-10 h-[env(safe-area-inset-top)] bg-papel/90 backdrop-blur md:hidden" />
+        )}
 
-        <main className="mx-auto w-full max-w-2xl px-4 pb-28 pt-5 md:px-8 md:pb-12 md:pt-10">
+        <main className={`mx-auto w-full max-w-2xl px-4 pb-28 md:px-8 md:pb-12 md:pt-10 ${naBiblia ? "pt-5" : "pt-4"}`}>
           <Suspense fallback={<Carregando />}>
             <Outlet />
           </Suspense>

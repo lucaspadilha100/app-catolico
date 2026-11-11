@@ -322,7 +322,7 @@ export function RoteiroAberto() {
       <Voltar para="/roteiros">Roteiros</Voltar>
       <Cabecalho titulo={roteiro.titulo} subtitulo={[roteiro.terco, quandoDoRoteiro(roteiro), roteiro.local].filter(Boolean).join(" · ")} />
       {aoVivo && (
-        <div className="sticky top-[calc(max(0.5rem,env(safe-area-inset-top))+2.5rem)] z-[5] flex items-center gap-2 rounded-full bg-primario px-4 py-2 text-sm font-semibold text-sobre-primario shadow md:top-3">
+        <div className="sticky top-[max(0.5rem,env(safe-area-inset-top))] z-[5] flex items-center gap-2 rounded-full bg-primario px-4 py-2 text-sm font-semibold text-sobre-primario shadow md:top-3">
           <Radio className="size-4 shrink-0 animate-pulse" aria-hidden />
           <span className="min-w-0 flex-1 truncate">{atual ? tituloDoBloco(atual) || rotuloDoBloco(atual) : "Ao vivo"}</span>
           <button type="button" onClick={() => setSeguir(!seguir)} aria-pressed={seguir} className="shrink-0 rounded-full bg-black/10 px-3 py-1 text-xs">

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { AudioLines, BookOpen, ChevronRight, Droplets, Flower2, Church, CircleDot, ListChecks, Share2 } from "lucide-react";
+import { AudioLines, BookOpenText, ChevronRight, UserRound, Droplets, Flower2, Church, CircleDot, ListChecks, Share2 } from "lucide-react";
 import { emAndamento } from "@/devocao/andamento";
 import { NOME_DO_MOMENTO, momentoDaHora } from "@/voz/falas";
 import { useDevocoesGuardadas } from "@/devocao/progresso";
@@ -22,6 +22,9 @@ import { CartaoDaCampanha } from "@/components/Campanha";
 import type { TipoLeitura } from "@/liturgia/lecionario";
 import { useLeituras } from "@/lib/useLeituras";
 import { ReflexaoResumo, evangelhoDaMissa } from "@/components/Reflexao";
+import { arteDoEvangelho, caminhoDaArte, type ArteDoEvangelho } from "@/liturgia/arte";
+import { BotaoOuvir, emPartes } from "@/components/Ouvir";
+import { textoDaReferencia } from "@/biblia/texto";
 
 const COR_PONTO: Record<CorLiturgica, string> = {
   verde: "bg-[#2e7a4d]",
@@ -80,11 +83,6 @@ export default function Hoje() {
   ].filter(Boolean);
   const terco = misteriosDoDia(l.data);
   const missas = useLeituras(l);
-  const memoria = l.celebracao?.grau === "memoria" ? l.celebracao : null;
-  const grau = l.celebracao && !memoria ? NOME_DO_GRAU[l.celebracao.grau] : "";
-  const subtitulo = memoria
-    ? `Memória de ${memoria.nome}`
-    : [grau, l.celebracao ? NOME_DO_TEMPO[l.tempo] : ""].filter(Boolean).join(" · ");
 
   async function enviarLiturgia() {
     const leituras = (missas?.[0]?.leituras ?? []).filter((x) => !x.ou && x.forma !== "breve" && ROTULO_CURTO[x.tipo]);
@@ -104,20 +102,54 @@ export default function Hoje() {
   const icone = "grid size-[3.25rem] shrink-0 place-items-center rounded-2xl bg-cartao text-tinta";
   const hora = new Date().getHours();
   const saudacao = hora < 5 || hora >= 18 ? "Boa noite" : hora < 12 ? "Bom dia" : "Boa tarde";
-  const leituras = (missas?.[0]?.leituras ?? []).filter((x) => !x.ou && x.forma !== "breve" && ROTULO_CURTO[x.tipo]);
   const atalhos = [
     { para: "/rezar/agora", icone: AudioLines, titulo: "Rezar agora", detalhe: NOME_DO_MOMENTO[momentoDaHora(hora)] },
     { para: "/rezar/terco", icone: CircleDot, titulo: "Terço", detalhe: terco.nome.replace("Mistérios ", "") },
     { para: "/missas", icone: Church, titulo: "Missas", detalhe: "Perto de você" },
-    { para: "/biblia", icone: BookOpen, titulo: "Bíblia", detalhe: "Continuar lendo" },
+    { para: "/liturgia", icone: BookOpenText, titulo: "Liturgia", detalhe: "Leituras do dia" },
   ];
   const paraRezar = andamento.length + lembrancas.length + (anosDeBatismo ? 1 : 0);
+  const canonica = evangelhoDaMissa(missas?.[0]);
+  const evangelho = missas?.[0]?.leituras.find((x) => x.tipo === "evangelho" && !x.ou && x.forma !== "breve");
+  const [arte, setArte] = useState<ArteDoEvangelho | null>(null);
+  useEffect(() => {
+    let ativo = true;
+    void arteDoEvangelho(canonica).then((a) => ativo && setArte(a));
+    return () => {
+      ativo = false;
+    };
+  }, [canonica]);
+  const ouvirEvangelho = async () => {
+    if (!canonica) return [];
+    const trechos = await textoDaReferencia(canonica);
+    return [`Evangelho. ${evangelho?.referencia ?? ""}.`, ...emPartes(trechos.flatMap((t) => t.versiculos.map((v) => v.texto)))];
+  };
+  const doDia = l.celebracao?.nome ?? NOME_DO_TEMPO[l.tempo];
 
   return (
-    <div className="flex flex-col gap-8">
-      <header>
+    <div className="flex flex-col gap-7">
+      <div className="flex items-center justify-between">
+        <span className="simbolo w-10 text-marca" aria-hidden />
+        <Link to="/conta" aria-label="Minha conta" className="grid size-11 place-items-center rounded-full bg-cartao text-tinta">
+          <UserRound className="size-5" aria-hidden />
+        </Link>
+      </div>
+
+      <header className="-mt-2">
         <h1 className="titulo-pagina">{saudacao}</h1>
-        <p className="mt-1.5 text-[0.9375rem] text-tinta-suave">{dataPorExtenso(l.data).replace(/ de \d{4}$/, "")}</p>
+        <p className="mt-2 flex items-center gap-2 text-[0.9375rem] text-tinta-suave">
+          <span className={`size-2.5 shrink-0 rounded-full ${COR_PONTO[l.cor]}`} aria-label={`Cor ${NOME_DA_COR[l.cor].toLowerCase()}`} />
+          <span className="min-w-0">{`${dataPorExtenso(l.data).replace(/-feira/, "").replace(/ de \d{4}$/, "")} · ${doDia}`}</span>
+        </p>
+        {avisos.length > 0 && (
+          <div className="mt-3 flex flex-wrap gap-2">
+            {avisos.map((a) => (
+              <span key={a} className="rounded-full bg-primario px-3 py-1.5 text-xs font-bold text-sobre-primario">
+                {a}
+              </span>
+            ))}
+          </div>
+        )}
       </header>
 
       <div className="-mx-4 flex snap-x scroll-px-4 gap-2.5 overflow-x-auto px-4 [scrollbar-width:none]">
@@ -132,40 +164,43 @@ export default function Hoje() {
         ))}
       </div>
 
-      <section className="rounded-[1.75rem] border border-borda-dia bg-dia p-5 text-sobre-dia">
-        <div className="flex items-start justify-between gap-2">
-          <p className="pt-1 text-xs font-bold uppercase tracking-[0.08em] opacity-80">Liturgia do dia</p>
-          <button type="button" onClick={() => void enviarLiturgia()} aria-label="Compartilhar a liturgia" className="-mr-2 -mt-1 grid size-10 place-items-center rounded-full hover:bg-black/10">
+      {missas === null ? (
+        <div className="h-[26rem] animate-pulse rounded-[1.75rem] bg-cartao" />
+      ) : (
+        <section className={`relative flex min-h-[26rem] flex-col justify-end overflow-hidden rounded-[1.75rem] ${arte ? "text-white" : "border border-borda-dia bg-dia text-sobre-dia"}`}>
+          {arte && (
+            <>
+              <img src={caminhoDaArte(arte)} alt={arte.obra} className="absolute inset-0 size-full object-cover" />
+              <div className="absolute inset-0 bg-gradient-to-b from-black/0 from-30% to-black/85 to-80%" aria-hidden />
+            </>
+          )}
+          <button
+            type="button"
+            onClick={() => void enviarLiturgia()}
+            aria-label="Compartilhar a liturgia"
+            className={`absolute right-3 top-3 grid size-11 place-items-center rounded-full ${arte ? "bg-black/30 text-white backdrop-blur" : "bg-black/10"}`}
+          >
             <Share2 className="size-5" aria-hidden />
           </button>
-        </div>
-        <h2 className="mt-1 text-[1.75rem] font-extrabold leading-[1.12] tracking-[-0.025em]">{l.titulo}</h2>
-        {subtitulo && <p className="mt-1.5 text-[0.9375rem] font-medium opacity-90">{subtitulo}</p>}
-        <div className="mt-3 flex flex-wrap gap-2 text-xs font-semibold">
-          <span className="rounded-full bg-black/10 px-3 py-1">Cor: {NOME_DA_COR[l.cor]}</span>
-          <span className="rounded-full bg-black/10 px-3 py-1">Ano {l.cicloDominical}</span>
-          {avisos.map((a) => (
-            <span key={a} className="rounded-full bg-black/20 px-3 py-1">
-              {a}
-            </span>
-          ))}
-        </div>
-        {missas === null ? (
-          <div className="mt-5 h-24 animate-pulse rounded-2xl bg-black/10" />
-        ) : (
-          <ul className="mt-5 flex flex-col">
-            {leituras.map((x) => (
-              <li key={x.tipo + x.referencia} className="flex items-baseline justify-between gap-3 border-t border-current/15 py-2.5">
-                <span className="text-[0.9375rem] opacity-80">{ROTULO_CURTO[x.tipo]}</span>
-                <span className={`text-right ${x.tipo === "evangelho" ? "font-extrabold" : "font-semibold"}`}>{x.referencia}</span>
-              </li>
-            ))}
-          </ul>
-        )}
-        <Link to="/liturgia" className="mt-3 flex min-h-12 items-center justify-center rounded-full bg-sobre-dia px-4 font-bold text-dia">
-          Ler a liturgia
-        </Link>
-      </section>
+          <div className="relative flex flex-col gap-2 p-6">
+            <span className="text-xs font-bold uppercase tracking-[0.08em] opacity-85">Evangelho do dia</span>
+            <h2 className="text-[2rem] font-extrabold leading-[1.05] tracking-[-0.03em]">{arte?.titulo ?? l.titulo}</h2>
+            {evangelho && <span className="text-[0.9375rem] opacity-90">{evangelho.referencia}</span>}
+            <div className="mt-3 flex gap-2.5">
+              <Link to="/liturgia?aba=evangelho" className={`flex h-11 items-center rounded-full px-6 text-[0.9375rem] font-bold ${arte ? "bg-white text-[#111113]" : "bg-sobre-dia text-dia"}`}>
+                Ler
+              </Link>
+              {canonica && (
+                <BotaoOuvir
+                  titulo={arte?.titulo ?? "Evangelho do dia"}
+                  partes={ouvirEvangelho}
+                  className={`flex h-11 items-center gap-2 rounded-full px-5 text-[0.9375rem] font-semibold ${arte ? "bg-white/20 text-white backdrop-blur" : "bg-black/10"}`}
+                />
+              )}
+            </div>
+          </div>
+        </section>
+      )}
 
       {missas && <ReflexaoResumo canonica={evangelhoDaMissa(missas[0])} para="/liturgia#reflexao" />}
 
