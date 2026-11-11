@@ -1,6 +1,8 @@
 import { useEffect, useLayoutEffect, useRef, useState, type FormEvent } from "react";
 import { Link, Navigate, useLocation, useNavigate, useParams, useSearchParams } from "react-router-dom";
-import { Bookmark, Check, ChevronDown, NotebookPen, Search, X } from "lucide-react";
+import { Bookmark, CalendarCheck, Check, ChevronDown, ChevronRight, NotebookPen, Search, X } from "lucide-react";
+import { buscarNaBiblia, palavrasDaBusca, trechosEncontrados, type Achado } from "@/biblia/buscaNoTexto";
+import { PLANOS, descreverDia, diaDoPlano, diasDoPlano, escolherPlano, usePlano, type Capitulo } from "@/biblia/planos";
 import { CORES, chaveDoVersiculo, lerChave, marcaViva, useMarcas, type Cor } from "@/biblia/marcas";
 import { LIVROS, livroPorCodigo, livroPorSlug, type Livro } from "@/biblia/livros";
 import { carregarLivro, type LivroDaBiblia } from "@/biblia/texto";
@@ -44,7 +46,10 @@ function IrPara({ aoIr, focar }: { aoIr: (destino: string) => void; focar?: bool
   const enviar = (e: FormEvent) => {
     e.preventDefault();
     const destino = interpretar(texto);
-    if (!destino) return;
+    if (!destino) {
+      if (palavrasDaBusca(texto).length) aoIr(`/biblia/busca?q=${encodeURIComponent(texto.trim())}`);
+      return;
+    }
     aoIr(`/biblia/${destino.livro.slug}/${destino.capitulo}${destino.versiculo ? `#v${destino.versiculo}` : ""}`);
   };
 
@@ -55,16 +60,24 @@ function IrPara({ aoIr, focar }: { aoIr: (destino: string) => void; focar?: bool
         <input
           value={texto}
           onChange={(e) => setTexto(e.target.value)}
-          placeholder="Livro ou passagem (Jo 3,16)"
-          aria-label="Livro ou passagem"
+          placeholder="Livro, passagem ou palavra"
+          aria-label="Livro, passagem ou palavra"
           autoFocus={focar}
           className="min-w-0 flex-1 bg-transparent py-2 text-base outline-none placeholder:text-tinta-suave/70"
           enterKeyHint="go"
           autoComplete="off"
         />
       </label>
-      {sugestoes.length > 0 && !/\d/.test(texto) && (
+      {(sugestoes.length > 0 || palavrasDaBusca(texto).length > 0) && !/\d/.test(texto) && (
         <ul className="absolute inset-x-0 top-full z-20 mt-1 overflow-hidden rounded-xl border border-borda bg-cartao shadow-lg">
+          {palavrasDaBusca(texto).length > 0 && (
+            <li>
+              <button type="button" onClick={() => aoIr(`/biblia/busca?q=${encodeURIComponent(texto.trim())}`)} className="flex min-h-11 w-full items-center gap-2 px-4 text-left hover:bg-marca-fundo">
+                <Search className="size-4 shrink-0 text-tinta-suave" aria-hidden />
+                <span className="min-w-0 truncate">{`Procurar “${texto.trim()}” no texto`}</span>
+              </button>
+            </li>
+          )}
           {sugestoes.map((l) => (
             <li key={l.codigo}>
               <button type="button" onClick={() => aoIr(caminho(l, 1))} className="flex min-h-11 w-full items-center justify-between px-4 text-left hover:bg-marca-fundo">
@@ -157,6 +170,16 @@ function Seletor({ livro, cap, buscar, aoFechar }: { livro: Livro; cap: number; 
           </button>
         </div>
         {busca && <IrPara aoIr={ir} focar />}
+        {!busca && (
+          <div className="flex gap-2">
+            <Link to="/biblia/marcados" replace className="flex min-h-10 items-center gap-1.5 rounded-full border border-borda bg-cartao px-3 text-sm font-medium text-tinta">
+              <Bookmark className="size-4" aria-hidden /> Grifos e notas
+            </Link>
+            <Link to="/biblia/planos" replace className="flex min-h-10 items-center gap-1.5 rounded-full border border-borda bg-cartao px-3 text-sm font-medium text-tinta">
+              <CalendarCheck className="size-4" aria-hidden /> Planos de leitura
+            </Link>
+          </div>
+        )}
       </div>
 
       <div className="flex-1 overflow-y-auto overscroll-contain">
@@ -566,6 +589,248 @@ export function BibliaMarcados() {
           })}
         </ul>
       )}
+    </div>
+  );
+}
+
+function Destacado({ texto, palavras }: { texto: string; palavras: string[] }) {
+  const trechos = trechosEncontrados(texto, palavras);
+  const partes: React.ReactNode[] = [];
+  let i = 0;
+  trechos.forEach(([de, ate], k) => {
+    if (de > i) partes.push(texto.slice(i, de));
+    partes.push(
+      <mark key={k} className="rounded bg-marca-fundo px-0.5 font-semibold text-marca">
+        {texto.slice(de, ate)}
+      </mark>,
+    );
+    i = ate;
+  });
+  partes.push(texto.slice(i));
+  return <>{partes}</>;
+}
+
+const LIMITE_DA_BUSCA = 500;
+const POR_PAGINA_DA_BUSCA = 50;
+
+function Voltar({ para, children }: { para: string; children: string }) {
+  return (
+    <Link to={para} className="flex min-h-11 w-fit items-center gap-1 text-tinta-suave">
+      <ChevronDown className="size-5 rotate-90" aria-hidden /> {children}
+    </Link>
+  );
+}
+
+export function BibliaBusca() {
+  const [params, setParams] = useSearchParams();
+  const q = params.get("q") ?? "";
+  const testamento = (params.get("t") ?? "") as "" | "AT" | "NT";
+  const [texto, setTexto] = useState(q);
+  const [achados, setAchados] = useState<Achado[]>([]);
+  const [lendo, setLendo] = useState<string | null>(null);
+  const [fim, setFim] = useState<{ cortado: boolean } | null>(null);
+  const [erro, setErro] = useState(false);
+  const [mostrar, setMostrar] = useState(POR_PAGINA_DA_BUSCA);
+  const palavras = palavrasDaBusca(q);
+
+  useEffect(() => {
+    let cancelado = false;
+    setAchados([]);
+    setFim(null);
+    setErro(false);
+    setMostrar(POR_PAGINA_DA_BUSCA);
+    if (!palavras.length) return;
+    const livros = LIVROS.filter((l) => !testamento || l.testamento === testamento);
+    buscarNaBiblia(
+      q,
+      (novos, livro) => {
+        if (cancelado) return;
+        setLendo(livro.nome);
+        if (novos.length) setAchados((a) => [...a, ...novos]);
+      },
+      { limite: LIMITE_DA_BUSCA, livros, cancelado: () => cancelado },
+    )
+      .then((r) => !cancelado && setFim({ cortado: r.cortado }))
+      .catch(() => !cancelado && setErro(true))
+      .finally(() => !cancelado && setLendo(null));
+    return () => {
+      cancelado = true;
+    };
+  }, [q, testamento]);
+
+  const enviar = (e: FormEvent) => {
+    e.preventDefault();
+    const n = new URLSearchParams(params);
+    n.set("q", texto.trim());
+    setParams(n, { replace: true });
+  };
+
+  return (
+    <div className="flex flex-col gap-4">
+      <Voltar para="/biblia">Bíblia</Voltar>
+      <h1 className="font-leitura text-3xl font-semibold text-marca">Procurar na Bíblia</h1>
+      <form onSubmit={enviar}>
+        <label className="flex min-h-12 items-center gap-2 rounded-xl border border-borda bg-cartao px-3 focus-within:border-destaque-texto">
+          <Search className="size-5 shrink-0 text-tinta-suave" aria-hidden />
+          <input value={texto} onChange={(e) => setTexto(e.target.value)} placeholder="Palavras" aria-label="Palavras" enterKeyHint="search" className="min-w-0 flex-1 bg-transparent py-2 text-base outline-none" />
+        </label>
+      </form>
+      <div className="flex gap-2" role="group" aria-label="Testamento">
+        {(
+          [
+            ["", "Toda a Bíblia"],
+            ["AT", "Antigo"],
+            ["NT", "Novo"],
+          ] as const
+        ).map(([v, nome]) => (
+          <button
+            key={v}
+            type="button"
+            aria-pressed={testamento === v}
+            onClick={() => {
+              const n = new URLSearchParams(params);
+              if (v) n.set("t", v);
+              else n.delete("t");
+              setParams(n, { replace: true });
+            }}
+            className={`min-h-10 rounded-full border px-3 text-sm font-medium ${testamento === v ? "border-destaque bg-destaque text-sobre-destaque" : "border-borda bg-cartao text-tinta"}`}
+          >
+            {nome}
+          </button>
+        ))}
+      </div>
+      {palavras.length > 0 && (
+        <p className="px-1 text-sm text-tinta-suave" aria-live="polite">
+          {lendo
+            ? `${achados.length} ${achados.length === 1 ? "versículo" : "versículos"} · procurando em ${lendo}`
+            : erro
+              ? "Sem conexão para procurar em toda a Bíblia."
+              : fim
+                ? `${fim.cortado ? `Mais de ${LIMITE_DA_BUSCA}` : achados.length} ${achados.length === 1 ? "versículo" : "versículos"}`
+                : ""}
+        </p>
+      )}
+      {achados.length > 0 && (
+        <ul className="flex flex-col divide-y divide-borda overflow-hidden rounded-2xl border border-borda bg-cartao shadow-sm">
+          {achados.slice(0, mostrar).map((a) => (
+            <li key={`${a.livro.codigo}-${a.capitulo}-${a.versiculo}`}>
+              <Link to={`${caminho(a.livro, a.capitulo)}#v${a.versiculo}`} className="flex flex-col gap-1 px-4 py-3 hover:bg-marca-fundo/60">
+                <span className="text-sm font-semibold text-destaque-texto">{`${a.livro.codigo === "PSA" ? "Sl" : a.livro.abreviatura} ${a.capitulo},${a.versiculo}`}</span>
+                <span className="font-leitura text-tinta">
+                  <Destacado texto={a.texto} palavras={palavras} />
+                </span>
+              </Link>
+            </li>
+          ))}
+        </ul>
+      )}
+      {achados.length > mostrar && (
+        <button type="button" onClick={() => setMostrar((m) => m + POR_PAGINA_DA_BUSCA)} className="min-h-11 text-sm font-medium text-tinta-suave">
+          Mostrar mais
+        </button>
+      )}
+    </div>
+  );
+}
+
+function LinksDoDia({ dia, lidos }: { dia: Capitulo[]; lidos: Record<string, number[]> }) {
+  return (
+    <div className="flex flex-wrap gap-2">
+      {dia.map((c) => {
+        const lido = (lidos[c.livro.codigo] ?? []).includes(c.capitulo);
+        return (
+          <Link
+            key={`${c.livro.codigo}-${c.capitulo}`}
+            to={caminho(c.livro, c.capitulo)}
+            className={`flex min-h-10 items-center gap-1 rounded-full border px-3 text-sm font-medium ${lido ? "border-transparent bg-marca-fundo text-destaque-texto" : "border-borda bg-papel text-tinta"}`}
+          >
+            {lido && <Check className="size-4" aria-hidden />}
+            {`${c.livro.codigo === "PSA" ? "Sl" : c.livro.abreviatura} ${c.capitulo}`}
+          </Link>
+        );
+      })}
+    </div>
+  );
+}
+
+export function BibliaPlanos() {
+  const leitura = useLeituraDaBiblia();
+  const emCurso = usePlano();
+  const [todos, setTodos] = useState(false);
+  const plano = emCurso ? PLANOS.find((p) => p.id === emCurso.id)! : null;
+  const lido = (c: Capitulo) => (leitura.lidos[c.livro.codigo] ?? []).includes(c.capitulo);
+
+  if (!plano || !emCurso)
+    return (
+      <div className="flex flex-col gap-4">
+        <Voltar para="/biblia">Bíblia</Voltar>
+        <h1 className="font-leitura text-3xl font-semibold text-marca">Planos de leitura</h1>
+        <ul className="flex flex-col gap-2">
+          {PLANOS.map((p) => (
+            <li key={p.id}>
+              <button type="button" onClick={() => escolherPlano(p.id)} className="flex min-h-16 w-full items-center gap-3 rounded-2xl border border-borda bg-cartao px-4 py-3 text-left shadow-sm">
+                <span className="min-w-0 flex-1">
+                  <span className="block font-leitura text-lg font-medium text-marca">{p.nome}</span>
+                  <span className="block text-sm text-tinta-suave">{`${p.dias} dias · ${descreverDia(diasDoPlano(p)[0]!)} no primeiro dia`}</span>
+                </span>
+                <ChevronRight className="size-5 shrink-0 text-tinta-suave" aria-hidden />
+              </button>
+            </li>
+          ))}
+        </ul>
+      </div>
+    );
+
+  const dias = diasDoPlano(plano);
+  const hoje = Math.min(diaDoPlano(emCurso.inicio), plano.dias);
+  const feitos = dias.filter((d) => d.every(lido)).length;
+  const atrasados = dias.slice(0, hoje - 1).filter((d) => !d.every(lido)).length;
+  const deHoje = dias[hoje - 1]!;
+  const proximo = deHoje.find((c) => !lido(c)) ?? dias.flat().find((c) => !lido(c));
+
+  return (
+    <div className="flex flex-col gap-4">
+      <Voltar para="/biblia">Bíblia</Voltar>
+      <h1 className="font-leitura text-3xl font-semibold text-marca">{plano.nome}</h1>
+      <div className="flex flex-col gap-2">
+        <Barra valor={Math.round((feitos / plano.dias) * 100)} />
+        <p className="text-sm text-tinta-suave">{`${feitos} de ${plano.dias} dias lidos${atrasados ? ` · ${atrasados} ${atrasados === 1 ? "dia atrasado" : "dias atrasados"}` : ""}`}</p>
+      </div>
+      <section className="flex flex-col gap-3 rounded-2xl border border-borda bg-cartao p-4 shadow-sm">
+        <p className="text-sm font-semibold uppercase tracking-wide text-destaque-texto">{`Dia ${hoje}`}</p>
+        <LinksDoDia dia={deHoje} lidos={leitura.lidos} />
+        {proximo && (
+          <Link to={caminho(proximo.livro, proximo.capitulo)} className="flex min-h-12 items-center justify-center rounded-xl bg-destaque font-semibold text-sobre-destaque">
+            {`Ler ${nomeDoCapitulo(proximo.livro, proximo.capitulo)}`}
+          </Link>
+        )}
+      </section>
+      <section className="flex flex-col gap-2">
+        <h2 className="px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto">Todos os dias</h2>
+        <ol className="flex flex-col divide-y divide-borda overflow-hidden rounded-2xl border border-borda bg-cartao shadow-sm">
+          {dias.slice(0, todos ? dias.length : Math.min(dias.length, hoje + 6)).map((d, i) => (
+            <li key={i} className={`flex items-center gap-3 px-4 py-2.5 ${i + 1 === hoje ? "bg-marca-fundo/60" : ""}`}>
+              <span className="w-14 shrink-0 text-sm text-tinta-suave">{`Dia ${i + 1}`}</span>
+              <span className="min-w-0 flex-1 text-tinta">{descreverDia(d)}</span>
+              {d.every(lido) && <Check className="size-5 shrink-0 text-destaque-texto" aria-label="Lido" />}
+            </li>
+          ))}
+        </ol>
+        {!todos && dias.length > hoje + 6 && (
+          <button type="button" onClick={() => setTodos(true)} className="min-h-11 text-sm font-medium text-tinta-suave">
+            Mostrar todos
+          </button>
+        )}
+      </section>
+      <button
+        type="button"
+        onClick={() => {
+          if (confirm("Deixar este plano? O que você já leu continua marcado.")) escolherPlano(null);
+        }}
+        className="min-h-11 text-sm font-medium text-tinta-suave underline underline-offset-4"
+      >
+        Deixar o plano
+      </button>
     </div>
   );
 }

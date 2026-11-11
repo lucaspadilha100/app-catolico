@@ -13,6 +13,7 @@ export const CHAVES_SINCRONIZADAS = [
   "santinho-tercos-seguidos",
   "santinho-igrejas-seguidas",
   "santinho-marcas",
+  "santinho-plano",
 ] as const;
 
 const CHAVE_META = "santinho-sinc-meta";
