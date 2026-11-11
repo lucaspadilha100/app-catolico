@@ -239,7 +239,7 @@ Legenda: ✅ pronto · 🔨 em andamento · ⬜ a fazer · 👤 precisa do dono
 - ✅ Lembretes por notificação (Evangelho do dia, Ângelus, terço, novena),
   cada um com a sua hora, no app instalado (iPhone com o app na Tela de
   Início, Android, computador); função `lembretes` no Supabase a cada 5 minutos
-- ⬜ 👤 Ligar os lembretes no Supabase (chaves, função e agendamento: 3 passos)
+- ✅ 👤 Lembretes ligados no Supabase (chaves, função e agendamento a cada 5 minutos; conferido em 11/11/2026)
 - ⬜ Lembrete dos falecidos (7º e 30º dia, aniversário) e "N pessoas rezaram por você"
 - ✅ Sem zoom ao tocar duas vezes no app instalado
 - ⬜ 👤 Google Search Console: cadastrar o site e enviar o sitemap (quando
@@ -281,7 +281,7 @@ O diferencial do app (pedido do dono, 11/11/2026).
 - ✅ Aviso aos seguidores a cada publicação, só para paróquias "Pioneira" ou
   "Plano para paróquias" (o admin escolhe no Painel); liga e desliga em Lembretes
 - ✅ Regras testadas (pedido, aprovação, mural, limite, plano protegido)
-- ⬜ 👤 Os 3 passos do Supabase (os mesmos dos lembretes) para os avisos
+- ✅ Os 3 passos do Supabase para os avisos (11/11/2026)
   chegarem no app instalado pelo navegador
 - ⬜ Aviso aos seguidores no app de loja: notificação remota (Firebase, grátis)
   e 👤 a chave de notificação da Apple
@@ -309,7 +309,7 @@ O diferencial do app (pedido do dono, 11/11/2026).
 - ✅ Paróquias pioneiras de graça: o admin escolhe em editar a paróquia, "Plano"
 - ⬜ 👤 Escolher as pioneiras e conferir cada chave PIX com a paróquia (ligar
   para a secretaria antes de marcar "Chave conferida")
-- ⬜ 👤 Implantar de novo a função `lembretes` (agora conta o alcance)
+- ✅ Função `lembretes` publicada com o alcance (11/11/2026)
 - ⬜ Cobrança pelo site (assinatura mensal) com Asaas ou Mercado Pago
 - ⬜ 👤 Preço do plano, CNPJ ou associação para receber, conta no meio de pagamento
 

@@ -67,7 +67,9 @@ configurado desde o início) · **Supabase** plano gratuito (projeto
   também está em `src/lembretes/lembretes.ts`. A regra de quando avisar mora em
   `regras.ts` (testada em `src/lembretes/regras.test.ts`). Função sem "Verify
   JWT": chamá-la só envia o que já está na hora, uma vez por dia por tipo.
-  Teto: percorre todas as inscrições a cada chamada, em páginas de 500; com
+  Publicada e agendada em 11/11/2026 (o painel do Supabase recebe UM arquivo:
+  `index.ts` com o `regras.ts` colado dentro; mudou a função, gere esse arquivo
+  único de novo para o dono colar). Teto: percorre todas as inscrições a cada chamada, em páginas de 500; com
   dezenas de milhares, dividir por fuso/hora.
 - **Igreja viva** (migração 20261123000000): `pedidos_de_gestao` (o admin
   aprova com `revisar_pedido_de_gestao`), `publicacoes_paroquia` (mural, só
