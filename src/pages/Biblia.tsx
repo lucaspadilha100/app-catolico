@@ -1,3 +1,4 @@
+import { BotaoOuvir, emPartes } from "@/components/Ouvir";
 import { useEffect, useLayoutEffect, useRef, useState, type FormEvent } from "react";
 import { Link, Navigate, useLocation, useNavigate, useParams, useSearchParams } from "react-router-dom";
 import { Bookmark, CalendarCheck, Check, ChevronDown, ChevronRight, NotebookPen, Search, X } from "lucide-react";
@@ -381,6 +382,15 @@ function Leitor({
           <ChevronDown className="size-5 shrink-0 text-tinta-suave" aria-hidden />
         </button>
         <span className="flex-1" />
+        <BotaoOuvir
+          compacto
+          titulo={titulo}
+          partes={async () => {
+            const d = await carregarLivro(atual.livro.codigo);
+            return [`${titulo}.`, ...emPartes(d.capitulos[atual.cap - 1] ?? [])];
+          }}
+          className="grid size-11 shrink-0 place-items-center rounded-full text-tinta-suave hover:bg-marca-fundo"
+        />
         <Link to="/biblia/marcados" aria-label="Grifos e notas" className="grid size-11 shrink-0 place-items-center rounded-full text-tinta-suave hover:bg-marca-fundo">
           <Bookmark className="size-5" aria-hidden />
         </Link>

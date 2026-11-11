@@ -10,6 +10,23 @@ import { Cartao } from "@/components/Cartao";
 import { TextoDaLeitura } from "@/components/TextoBiblico";
 import { Voltar } from "@/components/Voltar";
 import { ReflexaoCompleta, evangelhoDaMissa } from "@/components/Reflexao";
+import { BotaoOuvir, emPartes } from "@/components/Ouvir";
+import { textoDaReferencia } from "@/biblia/texto";
+import { livroPorCodigo } from "@/biblia/livros";
+
+const ANUNCIO: Partial<Record<Leitura["tipo"], string>> = { primeira: "Primeira leitura", salmo: "Salmo responsorial", segunda: "Segunda leitura", evangelho: "Evangelho" };
+
+async function partesDaMissa(m: Missa): Promise<string[]> {
+  const r: string[] = [];
+  for (const l of m.leituras) {
+    if (l.ou || l.forma === "breve" || !l.canonica || !ANUNCIO[l.tipo]) continue;
+    const trechos = await textoDaReferencia(l.canonica);
+    const livro = livroPorCodigo(trechos[0]?.livro ?? "");
+    const de = !livro || l.tipo === "salmo" ? "" : l.tipo === "evangelho" ? ` segundo São ${livro.nome}` : `. ${livro.nome}`;
+    r.push(`${ANUNCIO[l.tipo]}${de}.`, ...emPartes(trechos.flatMap((t) => t.versiculos.map((v) => v.texto))));
+  }
+  return r;
+}
 
 function rotulo(l: Leitura): string {
   if (l.ou) return "ou";
@@ -94,6 +111,8 @@ export default function Liturgia() {
             .join(" · ")}
         </p>
       </header>
+
+      {missas?.[0] && <BotaoOuvir titulo={l.titulo} partes={() => partesDaMissa(missas[0]!)} className="flex min-h-12 items-center justify-center gap-2 rounded-xl border border-borda bg-cartao font-semibold text-tinta" />}
 
       {missas === null ? (
         <Cartao>

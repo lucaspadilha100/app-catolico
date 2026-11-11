@@ -429,3 +429,15 @@ participa acompanha no celular, ao vivo, pelo link ou pelo QR code.
   ("Responder em voz alta"); anterior, próximo, pausar
 - ✅ No app de loja, a voz vem do plugin de leitura do aparelho
 - ⬜ 👤 Testar a voz no celular (a qualidade muda de aparelho para aparelho)
+
+### Leva 30. Ouvir a Palavra ✅
+- ✅ "Ouvir" na liturgia do dia (leituras, salmo e Evangelho) e em cada capítulo
+  da Bíblia, com a voz do aparelho (sem custo, sem internet); pausar, velocidade
+
+### Leva 31. Minha paróquia na tela Hoje 🔨
+- ⬜ Cartão da paróquia do fiel: próxima missa, folheto do domingo, eventos,
+  último aviso do mural, inscrições abertas e pedir intenção de missa
+
+### Leva 32. Rezando juntos ⬜
+- ⬜ "Hoje, N pessoas rezaram o terço com o app" (contagem anônima do dia), no
+  terço, na Misericórdia e no Rezar agora
