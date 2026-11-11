@@ -147,3 +147,53 @@ export function planilha(lista: Inscricao[]): string {
   ];
   return `\ufeff${linhas.join("\n")}`;
 }
+
+export interface EncontroDaTurma {
+  id: string;
+  turma_id: string;
+  data: string;
+  hora: string | null;
+  tema: string;
+  material: string;
+  link: string;
+}
+
+export async function encontrosDaTurma(turma: string): Promise<EncontroDaTurma[]> {
+  const c = await cliente();
+  return ou(await c.from("turma_encontros").select("*").eq("turma_id", turma).order("data").order("hora", { nullsFirst: true }).limit(200)) as EncontroDaTurma[];
+}
+
+export async function salvarEncontroDaTurma(e: Omit<EncontroDaTurma, "id"> & { id?: string }) {
+  const c = await cliente();
+  const { id, ...resto } = e;
+  if (id) ou(await c.from("turma_encontros").update(resto).eq("id", id));
+  else ou(await c.from("turma_encontros").insert(resto));
+}
+
+export async function apagarEncontroDaTurma(id: string) {
+  const c = await cliente();
+  ou(await c.from("turma_encontros").delete().eq("id", id));
+}
+
+export async function presencas(encontros: string[]): Promise<{ encontro_id: string; inscricao_id: string; presente: boolean }[]> {
+  if (!encontros.length) return [];
+  const c = await cliente();
+  return ou(await c.from("turma_presencas").select("encontro_id, inscricao_id, presente").in("encontro_id", encontros.slice(0, 200)).limit(5000)) as { encontro_id: string; inscricao_id: string; presente: boolean }[];
+}
+
+export async function marcarPresenca(encontro: string, inscricao: string, presente: boolean) {
+  const c = await cliente();
+  ou(await c.from("turma_presencas").upsert({ encontro_id: encontro, inscricao_id: inscricao, presente, marcado_em: new Date().toISOString() }, { onConflict: "encontro_id,inscricao_id" }));
+}
+
+export async function minhasInscricoesNaTurma(turma: string): Promise<Inscricao[]> {
+  const c = await cliente();
+  const { data } = await c.auth.getSession();
+  if (!data.session) return [];
+  return ou(await c.from("inscricoes").select("*").eq("turma_id", turma).eq("usuario_id", data.session.user.id).neq("situacao", "cancelada")) as Inscricao[];
+}
+
+export async function turmaPorId(turma: string): Promise<{ id: string; titulo: string; tipo: TipoDeTurma; paroquia_id: string; paroquias: { nome: string } | null } | null> {
+  const c = await cliente();
+  return ou(await c.from("turmas").select("id, titulo, tipo, paroquia_id, paroquias(nome)").eq("id", turma).maybeSingle()) as never;
+}

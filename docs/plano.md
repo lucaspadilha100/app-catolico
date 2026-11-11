@@ -414,8 +414,11 @@ participa acompanha no celular, ao vivo, pelo link ou pelo QR code.
   140 letras); o pedido fica visível mais 7 dias com o selo
 - ✅ Quem rezou pelo pedido (com conta) recebe o aviso (função `lembretes`)
 
-### Leva 28. Catequese da paróquia ⬜
-Turmas, encontros, material e presença, com os pais acompanhando.
+### Leva 28. Catequese da paróquia ✅
+- ✅ Nas turmas de inscrição (catequese, crisma, primeira comunhão, noivos), a
+  equipe marca os encontros (dia, hora, tema, material e link) e faz a chamada
+- ✅ A família abre a turma pela página da paróquia (Minhas inscrições) e vê os
+  próximos encontros, o material para casa e a presença do seu catequizando
 
 ### Leva 29. Rezar agora, por voz ⬜
 Um botão escolhe a oração da hora e o celular conduz em voz alta (voz do

@@ -5,7 +5,13 @@ import type { Paroquia } from "@/paroquias/tipos";
 import { chaveValida, normalizarChave, textoDoPix, tipoDaChave, type TipoDeChave } from "@/paroquias/pix";
 import {
   NOME_DA_TURMA,
+  apagarEncontroDaTurma,
   dataCurta,
+  encontrosDaTurma,
+  marcarPresenca,
+  presencas,
+  salvarEncontroDaTurma,
+  type EncontroDaTurma,
   inscricoesDaTurma,
   mudarSituacao,
   numerosDaParoquia,
@@ -483,6 +489,29 @@ export function InscricoesDaTurma() {
     <div className="flex flex-col gap-4">
       <Voltar para={`/painel/paroquia/${id}`}>Paróquia</Voltar>
       <Cabecalho titulo={t.titulo} subtitulo={[NOME_DA_TURMA[t.tipo], detalhesDaTurma(t)].filter(Boolean).join(" · ")} />
+      <div className="grid grid-cols-2 gap-1 rounded-xl border border-borda bg-papel p-1" role="tablist">
+        {(
+          [
+            ["", "Inscrições"],
+            ["encontros", "Encontros"],
+          ] as const
+        ).map(([v, nome]) => (
+          <button
+            key={v}
+            type="button"
+            role="tab"
+            aria-selected={(params.get("aba") ?? "") === v}
+            onClick={() => setParams(v ? { aba: v } : {}, { replace: true })}
+            className={`min-h-10 rounded-lg font-medium ${(params.get("aba") ?? "") === v ? "bg-destaque text-sobre-destaque" : "text-tinta-suave"}`}
+          >
+            {nome}
+          </button>
+        ))}
+      </div>
+      {params.get("aba") === "encontros" ? (
+        <EncontrosNoPainel turma={t.id} />
+      ) : (
+        <>
       <div className="grid grid-cols-2 gap-2">
         <button type="button" onClick={() => void salvarTurma({ id: t.id, paroquia_id: id, aberta: !t.aberta }).then(() => setVersao((v) => v + 1))} className={BOTAO_CLARO}>
           {t.aberta ? "Encerrar inscrições" : "Reabrir inscrições"}
@@ -539,6 +568,98 @@ export function InscricoesDaTurma() {
             </button>
           )}
         </>
+      )}
+        </>
+      )}
+    </div>
+  );
+}
+
+function EncontrosNoPainel({ turma }: { turma: string }) {
+  const [encontros, setEncontros] = useState<EncontroDaTurma[] | null>(null);
+  const [inscritos, setInscritos] = useState<Inscricao[]>([]);
+  const [marcas, setMarcas] = useState<{ encontro_id: string; inscricao_id: string; presente: boolean }[]>([]);
+  const [aberto, setAberto] = useState<string | null>(null);
+  const [novo, setNovo] = useState({ data: "", hora: "", tema: "", material: "", link: "" });
+  const recarregar = useCallback(() => {
+    void encontrosDaTurma(turma).then(async (e) => {
+      setEncontros(e);
+      setMarcas(await presencas(e.map((x) => x.id)));
+    });
+    void todasAsInscricoes(turma).then((l) => setInscritos(l.filter((i) => i.situacao !== "cancelada")));
+  }, [turma]);
+  useEffect(recarregar, [recarregar]);
+  const presente = (e: string, i: string) => marcas.find((m) => m.encontro_id === e && m.inscricao_id === i)?.presente;
+
+  return (
+    <div className="flex flex-col gap-3">
+      <Cartao className="flex flex-col gap-3">
+        <div className="grid grid-cols-2 gap-2">
+          <Campo rotulo="Dia">
+            <input type="date" value={novo.data} onChange={(e) => setNovo({ ...novo, data: e.target.value })} className={`${CAMPO} min-w-0`} />
+          </Campo>
+          <Campo rotulo="Hora">
+            <input type="time" value={novo.hora} onChange={(e) => setNovo({ ...novo, hora: e.target.value })} className={`${CAMPO} min-w-0`} />
+          </Campo>
+        </div>
+        <Campo rotulo="Tema">
+          <input value={novo.tema} onChange={(e) => setNovo({ ...novo, tema: e.target.value })} maxLength={120} className={CAMPO} />
+        </Campo>
+        <Campo rotulo="Material e tarefa para casa">
+          <textarea value={novo.material} onChange={(e) => setNovo({ ...novo, material: e.target.value })} rows={3} maxLength={3000} className={`${CAMPO} py-2`} />
+        </Campo>
+        <Campo rotulo="Link do material">
+          <input value={novo.link} onChange={(e) => setNovo({ ...novo, link: e.target.value.trim() })} inputMode="url" autoCapitalize="none" maxLength={300} className={CAMPO} />
+        </Campo>
+        <button
+          type="button"
+          disabled={!novo.data || novo.tema.trim().length < 2 || (!!novo.link && !novo.link.startsWith("https://"))}
+          onClick={() =>
+            void salvarEncontroDaTurma({ turma_id: turma, data: novo.data, hora: novo.hora || null, tema: novo.tema.trim(), material: novo.material.trim(), link: novo.link }).then(() => {
+              setNovo({ data: "", hora: "", tema: "", material: "", link: "" });
+              recarregar();
+            })
+          }
+          className={BOTAO}
+        >
+          Marcar encontro
+        </button>
+      </Cartao>
+      {encontros === null ? (
+        <Carregando />
+      ) : (
+        <ul className="flex flex-col gap-2">
+          {encontros.map((e) => {
+            const presentes = inscritos.filter((i) => presente(e.id, i.id)).length;
+            return (
+              <li key={e.id} className="rounded-2xl border border-borda bg-cartao">
+                <button type="button" onClick={() => setAberto(aberto === e.id ? null : e.id)} className="flex min-h-14 w-full flex-col justify-center px-4 py-2 text-left">
+                  <span className="font-medium text-tinta">{e.tema}</span>
+                  <span className="text-sm text-tinta-suave">{`${dataCurta(e.data)}${e.hora ? ` · ${e.hora.slice(0, 5)}` : ""} · ${presentes} de ${inscritos.length} presentes`}</span>
+                </button>
+                {aberto === e.id && (
+                  <div className="flex flex-col gap-1 border-t border-borda px-4 py-3">
+                    {inscritos.map((i) => (
+                      <label key={i.id} className="flex min-h-11 items-center gap-3">
+                        <input type="checkbox" checked={!!presente(e.id, i.id)} onChange={(x) => void marcarPresenca(e.id, i.id, x.target.checked).then(recarregar)} className="size-5 accent-destaque" />
+                        <span className="text-tinta">{i.nome}</span>
+                      </label>
+                    ))}
+                    <button
+                      type="button"
+                      onClick={() => {
+                        if (confirm("Apagar este encontro?")) void apagarEncontroDaTurma(e.id).then(recarregar);
+                      }}
+                      className="mt-2 min-h-10 w-fit text-sm font-medium text-[#a9271f]"
+                    >
+                      Apagar encontro
+                    </button>
+                  </div>
+                )}
+              </li>
+            );
+          })}
+        </ul>
       )}
     </div>
   );

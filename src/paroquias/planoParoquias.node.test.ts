@@ -109,3 +109,19 @@ describe("números da paróquia", () => {
     });
   });
 });
+
+describe("catequese", () => {
+  it("a equipe marca encontros e presença; a família vê os da turma e a presença do seu", async () => {
+    await como("authenticated", SECRETARIA, "update public.turmas set aberta = true where id = $1", [turma]);
+    await db.query("update public.turmas set encerra = null, vagas = null where id = $1", [turma]);
+    const enc = (await como("authenticated", SECRETARIA, "insert into public.turma_encontros (turma_id, data, tema, material) values ($1, '2026-12-05', 'O batismo de Jesus', 'Ler Mt 3,13-17 em casa') returning id", [turma])).rows[0]!.id as string;
+    await expect(como("authenticated", FIEL, "insert into public.turma_encontros (turma_id, data, tema) values ($1, '2026-12-05', 'Invasão')", [turma])).rejects.toThrow();
+    const daFiel = ((await db.query("select id from public.inscricoes where usuario_id = $1 and turma_id = $2", [FIEL, turma])).rows[0] as { id: string }).id;
+    await como("authenticated", SECRETARIA, "insert into public.turma_presencas (encontro_id, inscricao_id, presente) values ($1, $2, true)", [enc, daFiel]);
+    await expect(como("authenticated", FIEL, "update public.turma_presencas set presente = false")).resolves.toBeDefined();
+    expect((await db.query("select presente from public.turma_presencas")).rows).toEqual([{ presente: true }]);
+    expect((await como("authenticated", FIEL, "select tema from public.turma_encontros")).rows).toEqual([{ tema: "O batismo de Jesus" }]);
+    expect((await como("authenticated", FIEL, "select presente from public.turma_presencas")).rows).toEqual([{ presente: true }]);
+    expect((await como("authenticated", OUTRO, "select tema from public.turma_encontros")).rows).toHaveLength(0);
+  });
+});

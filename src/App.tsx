@@ -43,6 +43,7 @@ const MinisterioPagina = lazy(() => import("@/pages/Escalas").then((m) => ({ def
 const EntrarNoMinisterio = lazy(() => import("@/pages/Escalas").then((m) => ({ default: m.EntrarNoMinisterio })));
 const Correntes = lazy(() => import("@/pages/Correntes").then((m) => ({ default: m.Correntes })));
 const CorrenteAberta = lazy(() => import("@/pages/Correntes").then((m) => ({ default: m.CorrenteAberta })));
+const Turma = lazy(() => import("@/pages/Turma"));
 const Santinhos = lazy(() => import("@/pages/Santinhos"));
 const Apoie = lazy(() => import("@/pages/Apoie"));
 const Mais = lazy(() => import("@/pages/Mais"));
@@ -138,6 +139,7 @@ export default function App() {
         <Route path="santinhos" element={<Santinhos />} />
         <Route path="roteiros" element={<Roteiros />} />
         <Route path="escalas" element={<Escalas />} />
+        <Route path="turmas/:id" element={<Turma />} />
         <Route path="correntes" element={<Correntes />} />
         <Route path="c/:codigo" element={<CorrenteAberta />} />
         <Route path="escalas/m/:id" element={<MinisterioPagina />} />

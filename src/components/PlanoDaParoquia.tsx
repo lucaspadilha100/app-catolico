@@ -107,12 +107,12 @@ export function Inscricoes({ paroquia, email }: { paroquia: string; email: strin
           <ul className="flex flex-col divide-y divide-borda">
             {minhas.map((i) => (
               <li key={i.id} className="flex items-center gap-3 py-2">
-                <div className="min-w-0 flex-1">
+                <Link to={`/turmas/${i.turma_id}`} className="min-w-0 flex-1">
                   <p className="text-tinta">{i.nome}</p>
                   <p className="text-sm text-tinta-suave">
                     {i.turmas?.titulo ?? ""} · <span className={i.situacao === "confirmada" ? "font-semibold text-destaque-texto" : ""}>{NOME_DA_SITUACAO[i.situacao]}</span>
                   </p>
-                </div>
+                </Link>
                 {i.situacao !== "cancelada" && (
                   <button
                     type="button"
