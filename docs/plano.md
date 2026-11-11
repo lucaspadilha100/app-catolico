@@ -380,7 +380,7 @@ participa acompanha no celular, ao vivo, pelo link ou pelo QR code.
   pode dar a coordenação a outros
 - ✅ Cada um vê "Quando eu sirvo", pede troca; outro da equipe assume a troca ou
   a vaga (regra no banco)
-- ⬜ Lembrete na véspera para quem serve (entra na função `lembretes`)
+- ✅ Lembrete na véspera, às 19h, para quem serve (função `lembretes`)
 
 ### Leva 24. Intenções de missa ✅
 - ✅ A equipe da paróquia liga "Receber pedidos pelo app" (Painel → paróquia)
