@@ -255,3 +255,77 @@ export async function coordenadasDoEndereco(endereco: string): Promise<Local | n
   const lista = (await r.json()) as { lat: string; lon: string }[];
   return lista[0] ? { lat: Number(lista[0].lat), lng: Number(lista[0].lon) } : null;
 }
+
+export interface Publicacao {
+  id: string;
+  paroquia_id: string;
+  tipo: "aviso" | "evento";
+  titulo: string;
+  texto: string;
+  link: string;
+  evento_em: string | null;
+  local: string;
+  criado_em: string;
+}
+
+export async function muralDaParoquia(paroquia: string, pular = 0, limite = 10): Promise<Publicacao[]> {
+  const c = await cliente();
+  return ou(await c.from("publicacoes_paroquia").select("*").eq("paroquia_id", paroquia).order("criado_em", { ascending: false }).order("id").range(pular, pular + limite - 1)) as Publicacao[];
+}
+
+export async function publicar(p: Omit<Publicacao, "id" | "criado_em">) {
+  const c = await cliente();
+  ou(await c.from("publicacoes_paroquia").insert(p));
+}
+
+export async function apagarPublicacao(id: string) {
+  const c = await cliente();
+  ou(await c.from("publicacoes_paroquia").delete().eq("id", id));
+}
+
+const URL_DO_BANCO = import.meta.env.VITE_SUPABASE_URL as string;
+const CHAVE_PUBLICA = import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY as string;
+
+export async function novidadesDasIgrejas(ids: string[]): Promise<(Publicacao & { paroquias: { nome: string } | null })[]> {
+  if (!ids.length) return [];
+  const desde = new Date(Date.now() - 30 * 86_400_000).toISOString();
+  const r = await fetch(
+    `${URL_DO_BANCO}/rest/v1/publicacoes_paroquia?select=*,paroquias(nome)&paroquia_id=in.(${ids.join(",")})&criado_em=gt.${encodeURIComponent(desde)}&order=criado_em.desc&limit=5`,
+    { headers: { apikey: CHAVE_PUBLICA } },
+  );
+  if (!r.ok) return [];
+  return (await r.json()) as (Publicacao & { paroquias: { nome: string } | null })[];
+}
+
+export async function pedirGestao(p: { paroquia_id: string; nome: string; funcao: string; contato: string }) {
+  const c = await cliente();
+  ou(await c.from("pedidos_de_gestao").insert(p));
+}
+
+export async function meuPedidoDeGestao(paroquia: string): Promise<{ situacao: string } | null> {
+  const c = await cliente();
+  const r = ou(await c.from("pedidos_de_gestao").select("situacao").eq("paroquia_id", paroquia).order("criado_em", { ascending: false }).limit(1)) as { situacao: string }[];
+  return r[0] ?? null;
+}
+
+export interface PedidoDeGestao {
+  id: string;
+  paroquia_id: string;
+  paroquia: string;
+  cidade: string;
+  nome: string;
+  funcao: string;
+  contato: string;
+  email: string;
+  criado_em: string;
+}
+
+export async function pedidosDeGestaoAbertos(): Promise<PedidoDeGestao[]> {
+  const c = await cliente();
+  return ou(await c.rpc("pedidos_de_gestao_abertos")) as PedidoDeGestao[];
+}
+
+export async function revisarPedidoDeGestao(id: string, aprovar: boolean) {
+  const c = await cliente();
+  ou(await c.rpc("revisar_pedido_de_gestao", { p_pedido: id, p_aprovar: aprovar }));
+}

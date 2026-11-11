@@ -84,6 +84,7 @@ export default function Lembretes() {
             <Linha titulo="Terço" ligado={Boolean(l.terco)} onLigar={(v) => void mudar({ ...l, terco: v ? "20:00" : undefined })}>
               {hora(l.terco, "terco", "20:00")}
             </Linha>
+            <Linha titulo="Avisos das igrejas que sigo" ligado={l.avisos !== false} onLigar={(v) => void mudar({ ...l, avisos: v })} />
             <Linha titulo="Novena" detalhe="Nos dias das novenas que você reza" ligado={Boolean(l.novena)} onLigar={(v) => void mudar({ ...l, novena: v ? "09:00" : undefined })}>
               {hora(l.novena, "novena", "09:00")}
             </Linha>

@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState, type FormEvent, type ReactNode } from "react";
 import { Link, useParams, useSearchParams } from "react-router-dom";
-import { AtSign, BadgeCheck, Check, ChevronDown, ChevronRight, Clock, Globe, Heart, LocateFixed, Mail, MapPin, MessageCircle, Navigation, Pencil, Phone, Plus, Search, Share2 } from "lucide-react";
+import { AtSign, BadgeCheck, Bell, Check, ChevronDown, ChevronRight, Clock, Globe, Heart, LocateFixed, Mail, MapPin, MessageCircle, Navigation, Pencil, Phone, Plus, Search, Share2 } from "lucide-react";
 import { usePreferencias } from "@/lib/preferencias";
 import { useConta } from "@/conta/useConta";
 import { agendaDeHorarios, carregarParoquia, cidadesComParoquias, enviarSugestao, igrejasComHorarios, procurarParoquias, type Cidade, type Local, type ParoquiaCompleta } from "@/paroquias/api";
@@ -27,6 +27,9 @@ import { Cartao, LINHA, LISTA, TituloCartao, TituloPagina } from "@/components/C
 import { Cabecalho, Carregando, Indisponivel, Voltar } from "@/components/Devocao";
 import { NaoEncontrada } from "@/pages/Simples";
 import { agendaDeTercos } from "@/tercos/api";
+import { Mural, SouDaEquipe } from "@/components/Mural";
+import { useIgrejasSeguidas } from "@/paroquias/seguidas";
+import { avisarMudancaDeIgrejas } from "@/lembretes/lembretes";
 
 const TIPOS: TipoDeHorario[] = ["missa", "confissao", "adoracao"];
 const PERIODOS = [
@@ -799,6 +802,7 @@ export function ParoquiaPagina() {
   const { email } = useConta();
   const [confirmado, setConfirmado] = useState(false);
   const [copiado, setCopiado] = useState(false);
+  const [seguidas, alternarSeguida] = useIgrejasSeguidas();
 
   useEffect(() => {
     let ativo = true;
@@ -817,6 +821,7 @@ export function ParoquiaPagina() {
   if (dados === "erro") return <Indisponivel />;
   const { paroquia: p, horarios, avisos, podeEditar } = dados;
   const minha = preferencias.minhaParoquia === p.id;
+  const sigo = seguidas.includes(p.id);
   const destino = p.lat !== null && p.lng !== null ? `${p.lat},${p.lng}` : encodeURIComponent(`${p.endereco}, ${p.bairro}, ${p.cidade} - ${p.uf}`);
   const endereco = [p.endereco, p.bairro, `${p.cidade} - ${p.uf}`].filter(Boolean).join(", ");
 
@@ -879,21 +884,37 @@ export function ParoquiaPagina() {
         >
           <Navigation className="size-5" aria-hidden /> Como chegar
         </a>
-        <div className="grid grid-cols-2 gap-2">
+        <div className="grid grid-cols-3 gap-2">
           <button
             type="button"
-            onClick={() => mudar(minha ? { minhaParoquia: "", minhaParoquiaNome: "" } : { minhaParoquia: p.id, minhaParoquiaNome: p.nome })}
+            onClick={() => {
+              mudar(minha ? { minhaParoquia: "", minhaParoquiaNome: "" } : { minhaParoquia: p.id, minhaParoquiaNome: p.nome });
+              setTimeout(avisarMudancaDeIgrejas, 300);
+            }}
             aria-pressed={minha}
-            className={`flex min-h-12 items-center justify-center gap-2 rounded-xl border px-2 text-sm font-semibold ${minha ? "border-destaque-texto/50 bg-marca-fundo text-destaque-texto" : "border-borda bg-cartao text-tinta"}`}
+            className={`flex min-h-16 flex-col items-center justify-center gap-1 rounded-xl border px-1 text-xs font-semibold ${minha ? "border-destaque-texto/50 bg-marca-fundo text-destaque-texto" : "border-borda bg-cartao text-tinta"}`}
           >
             <Heart className={`size-5 shrink-0 ${minha ? "fill-current" : ""}`} aria-hidden /> Minha paróquia
           </button>
-          <button type="button" onClick={() => void enviar()} className="flex min-h-12 items-center justify-center gap-2 rounded-xl border border-borda bg-cartao px-2 text-sm font-semibold text-tinta">
+          <button
+            type="button"
+            onClick={() => {
+              alternarSeguida(p.id);
+              setTimeout(avisarMudancaDeIgrejas, 300);
+            }}
+            aria-pressed={sigo}
+            className={`flex min-h-16 flex-col items-center justify-center gap-1 rounded-xl border px-1 text-xs font-semibold ${sigo ? "border-destaque-texto/50 bg-marca-fundo text-destaque-texto" : "border-borda bg-cartao text-tinta"}`}
+          >
+            <Bell className={`size-5 shrink-0 ${sigo ? "fill-current" : ""}`} aria-hidden /> {sigo ? "Seguindo" : "Seguir"}
+          </button>
+          <button type="button" onClick={() => void enviar()} className="flex min-h-16 flex-col items-center justify-center gap-1 rounded-xl border border-borda bg-cartao px-1 text-xs font-semibold text-tinta">
             {copiado ? <Check className="size-5 shrink-0" aria-hidden /> : <Share2 className="size-5 shrink-0" aria-hidden />}
             {copiado ? "Copiado" : "Compartilhar"}
           </button>
         </div>
       </div>
+
+      <Mural paroquia={p.id} podeEditar={podeEditar} />
 
       {horarios.length ? <GradeDeHorarios horarios={horarios} agora={agora} /> : <p className="text-tinta-suave">Ainda sem horários cadastrados.</p>}
 
@@ -942,6 +963,7 @@ export function ParoquiaPagina() {
         <Link to={`/missas/sugerir?paroquia=${p.id}`} className="flex min-h-12 items-center justify-center rounded-xl border border-borda bg-cartao font-semibold text-tinta">
           Informar horário errado ou novo
         </Link>
+        {email && !podeEditar && <SouDaEquipe paroquia={p.id} />}
         {p.fonte && (
           <p className="pt-2 text-center text-sm text-tinta-suave">
             Fonte:{" "}

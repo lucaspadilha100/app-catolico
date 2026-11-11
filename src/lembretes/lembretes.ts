@@ -3,6 +3,7 @@ import { diaSugeridoDaNovena } from "@/devocao/andamento";
 import { hoje, paraIso } from "@/liturgia/datas";
 import { minutosDe, type Lembretes, type NovenaLembrada } from "../../supabase/functions/lembretes/regras";
 import { ehNativo } from "@/lib/nativo";
+import { igrejasQueSigo } from "@/paroquias/seguidas";
 import { diaLiturgico } from "@/liturgia/calendario";
 import { carregarLecionario, leiturasDoDia } from "@/liturgia/lecionario";
 import { MISTERIOS, grupoDoDiaDaSemana } from "@/liturgia/terco";
@@ -15,7 +16,7 @@ const URL_DO_BANCO = import.meta.env.VITE_SUPABASE_URL as string;
 const CHAVE_PUBLICA = import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY as string;
 export const VAPID_PUBLICA = "BDlqlVrwkACqpndHwa9otBwcn3cK-7dZzXvpQibKRKYzdHoZGvnFc3EcMVhW5Y2j-_LWGxcbqwEekCPhbpnmjQM";
 
-export const PADRAO: Lembretes = { evangelho: "07:00", angelus: true, terco: "20:00", novena: "09:00" };
+export const PADRAO: Lembretes = { evangelho: "07:00", angelus: true, terco: "20:00", novena: "09:00", avisos: true };
 
 export interface Guardado {
   ativo: boolean;
@@ -154,7 +155,7 @@ async function enviar(sub: PushSubscription, lembretes: Lembretes) {
     p_p256dh: j.keys?.p256dh,
     p_auth: j.keys?.auth,
     p_fuso: Intl.DateTimeFormat().resolvedOptions().timeZone,
-    p_lembretes: { ...lembretes, novenas: novenasSeguidas() },
+    p_lembretes: { ...lembretes, novenas: novenasSeguidas(), igrejas: lembretes.avisos === false ? [] : igrejasQueSigo() },
   });
 }
 
@@ -214,6 +215,11 @@ export async function desativar() {
     }
   } catch {}
   guardar({ ...lerGuardado(), ativo: false });
+}
+
+export function avisarMudancaDeIgrejas() {
+  const g = lerGuardado();
+  if (g.ativo && permitido() && !ehNativo()) void atualizar(g.lembretes);
 }
 
 export function renovarSeFaltar() {

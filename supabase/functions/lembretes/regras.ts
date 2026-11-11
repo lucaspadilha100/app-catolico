@@ -11,6 +11,8 @@ export interface Lembretes {
   terco?: string;
   novena?: string;
   novenas?: NovenaLembrada[];
+  avisos?: boolean;
+  igrejas?: string[];
 }
 
 export interface Aviso {

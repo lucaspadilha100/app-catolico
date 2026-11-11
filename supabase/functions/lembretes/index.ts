@@ -32,6 +32,52 @@ interface Inscricao {
   falhas: number;
 }
 
+interface Publicacao {
+  id: string;
+  paroquia_id: string;
+  titulo: string;
+  paroquias: { nome: string; plano: string } | null;
+}
+
+async function avisarSeguidores(): Promise<number> {
+  const desde = new Date(Date.now() - 2 * 86_400_000).toISOString();
+  const { data } = await banco
+    .from("publicacoes_paroquia")
+    .select("id, paroquia_id, titulo, paroquias(nome, plano)")
+    .eq("notificada", false)
+    .gt("criado_em", desde)
+    .order("criado_em")
+    .limit(50);
+  let total = 0;
+  for (const p of (data ?? []) as Publicacao[]) {
+    if (p.paroquias && p.paroquias.plano !== "gratis") {
+      const aviso = { tipo: `igreja-${p.id}`, titulo: p.paroquias.nome, corpo: p.titulo, url: `/missas/paroquia/${p.paroquia_id}` };
+      for (let de = 0; ; de += 500) {
+        const { data: subs } = await banco
+          .from("lembrete_inscricoes")
+          .select("endpoint, p256dh, auth, lembretes")
+          .contains("lembretes", { igrejas: [p.paroquia_id] })
+          .order("endpoint")
+          .range(de, de + 499);
+        const lista = (subs ?? []) as Pick<Inscricao, "endpoint" | "p256dh" | "auth" | "lembretes">[];
+        for (const i of lista) {
+          if (i.lembretes.avisos === false) continue;
+          try {
+            await webpush.sendNotification({ endpoint: i.endpoint, keys: { p256dh: i.p256dh, auth: i.auth } }, JSON.stringify(aviso), { TTL: 86_400, urgency: "normal" });
+            total++;
+          } catch (e) {
+            const status = (e as { statusCode?: number }).statusCode;
+            if (status === 404 || status === 410) await banco.from("lembrete_inscricoes").delete().eq("endpoint", i.endpoint);
+          }
+        }
+        if (lista.length < 500) break;
+      }
+    }
+    await banco.from("publicacoes_paroquia").update({ notificada: true }).eq("id", p.id);
+  }
+  return total;
+}
+
 Deno.serve(async () => {
   const agora = new Date();
   let enviados = 0;
@@ -67,5 +113,6 @@ Deno.serve(async () => {
     }
     if (lista.length < 500) break;
   }
-  return new Response(JSON.stringify({ enviados, removidos }), { headers: { "Content-Type": "application/json" } });
+  const avisos = await avisarSeguidores();
+  return new Response(JSON.stringify({ enviados, removidos, avisos }), { headers: { "Content-Type": "application/json" } });
 });

@@ -16,6 +16,9 @@ import {
   paroquiasDoPainel,
   type FiltroDoPainel,
   type ParoquiaDoPainel,
+  pedidosDeGestaoAbertos,
+  revisarPedidoDeGestao,
+  type PedidoDeGestao,
   revisarSugestao,
   salvarAviso,
   salvarHorario,
@@ -155,6 +158,44 @@ function NovaCampanha() {
         Criar campanha
       </button>
     </Cartao>
+  );
+}
+
+function PedidosDeGestao() {
+  const [lista, setLista] = useState<PedidoDeGestao[] | null>(null);
+  const recarregar = useCallback(() => {
+    pedidosDeGestaoAbertos()
+      .then(setLista)
+      .catch(() => setLista([]));
+  }, []);
+  useEffect(recarregar, [recarregar]);
+  if (!lista?.length) return null;
+  return (
+    <section className="flex flex-col gap-2">
+      <h2 className="px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto">Equipes pedindo a página ({lista.length})</h2>
+      {lista.map((g) => (
+        <Cartao key={g.id} className="flex flex-col gap-3 p-4">
+          <Link to={`/missas/paroquia/${g.paroquia_id}`} className="font-medium text-tinta">
+            {g.paroquia} · {g.cidade}
+          </Link>
+          <p className="text-sm text-tinta">
+            {g.nome}, {g.funcao}
+            <br />
+            Contato informado: {g.contato}
+            <br />
+            Conta: {g.email}
+          </p>
+          <div className="grid grid-cols-2 gap-2">
+            <button type="button" onClick={() => void revisarPedidoDeGestao(g.id, true).then(recarregar)} className={BOTAO}>
+              Aprovar
+            </button>
+            <button type="button" onClick={() => void revisarPedidoDeGestao(g.id, false).then(recarregar)} className={BOTAO_CLARO}>
+              Recusar
+            </button>
+          </div>
+        </Cartao>
+      ))}
+    </section>
   );
 }
 
@@ -367,6 +408,7 @@ export function Painel() {
               <Link to="/painel/paroquia/nova" className={`${BOTAO} flex items-center justify-center gap-2`}>
                 <Plus className="size-5" aria-hidden /> Nova paróquia
               </Link>
+              <PedidosDeGestao />
               <TercosParaRevisar />
               <Moderacao />
               <NovaCampanha />
@@ -504,6 +546,15 @@ function FormularioDaParoquia({ inicial, admin, aoSalvar }: { inicial: Partial<P
             <input type="checkbox" checked={p.ativa ?? true} onChange={(e) => setP({ ...p, ativa: e.target.checked })} className="size-5" />
             <span>Aparece no app</span>
           </label>
+        )}
+        {admin && p.id && (
+          <Campo rotulo="Plano">
+            <select value={p.plano ?? "gratis"} onChange={(e) => setP({ ...p, plano: e.target.value as Paroquia["plano"] })} className={CAMPO}>
+              <option value="gratis">Grátis</option>
+              <option value="pioneira">Pioneira (plano de graça)</option>
+              <option value="paroquia">Plano para paróquias</option>
+            </select>
+          </Campo>
         )}
         {estado && <p className="text-sm text-tinta-suave">{estado}</p>}
         <button type="submit" className={BOTAO}>

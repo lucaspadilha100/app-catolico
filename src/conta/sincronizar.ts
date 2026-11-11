@@ -10,6 +10,7 @@ export const CHAVES_SINCRONIZADAS = [
   "santinho-tercos-rezados",
   "santinho-cofre",
   "santinho-tercos-seguidos",
+  "santinho-igrejas-seguidas",
 ] as const;
 
 const CHAVE_META = "santinho-sinc-meta";
@@ -59,6 +60,7 @@ export function mesclar(chave: string, local: string, remoto: string, localMaisN
     case "santinho-dias-de-oracao":
     case "santinho-santos-de-devocao":
     case "santinho-tercos-seguidos":
+    case "santinho-igrejas-seguidas":
       return JSON.stringify((uniao(json(local, []), json(remoto, [])) as string[]).sort());
     case "santinho-tercos-rezados": {
       const a = json<Record<string, number>>(local, {});
@@ -157,7 +159,7 @@ export async function sincronizar(cliente: SupabaseClient): Promise<{ recebidas:
   gravarMetas(metas);
   if (recebidas.length) {
     for (const chave of recebidas) window.dispatchEvent(new StorageEvent("storage", { key: chave }));
-    for (const evento of ["santinho-devocoes", "santinho-falecidos", "santinho-santos-de-devocao", "santinho-tercos-seguidos"]) window.dispatchEvent(new Event(evento));
+    for (const evento of ["santinho-devocoes", "santinho-falecidos", "santinho-santos-de-devocao", "santinho-tercos-seguidos", "santinho-igrejas-seguidas"]) window.dispatchEvent(new Event(evento));
   }
   window.dispatchEvent(new Event(EVENTO_SINCRONIZADO));
   return { recebidas: recebidas.length, enviadas: enviar.length };
