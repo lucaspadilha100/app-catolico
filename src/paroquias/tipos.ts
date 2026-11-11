@@ -40,6 +40,10 @@ export interface Paroquia extends Omit<ParoquiaResumo, "distancia_km"> {
   ativa: boolean;
   fonte: string;
   plano: "gratis" | "pioneira" | "paroquia";
+  pix_chave: string;
+  pix_nome: string;
+  pix_cidade: string;
+  pix_conferido: boolean;
   conferida_em: string | null;
   atualizado_em: string;
 }

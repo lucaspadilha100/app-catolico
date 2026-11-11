@@ -50,6 +50,7 @@ async function avisarSeguidores(): Promise<number> {
     .limit(50);
   let total = 0;
   for (const p of (data ?? []) as Publicacao[]) {
+    let alcance = 0;
     if (p.paroquias && p.paroquias.plano !== "gratis") {
       const aviso = { tipo: `igreja-${p.id}`, titulo: p.paroquias.nome, corpo: p.titulo, url: `/missas/paroquia/${p.paroquia_id}` };
       for (let de = 0; ; de += 500) {
@@ -64,7 +65,7 @@ async function avisarSeguidores(): Promise<number> {
           if (i.lembretes.avisos === false) continue;
           try {
             await webpush.sendNotification({ endpoint: i.endpoint, keys: { p256dh: i.p256dh, auth: i.auth } }, JSON.stringify(aviso), { TTL: 86_400, urgency: "normal" });
-            total++;
+            alcance++;
           } catch (e) {
             const status = (e as { statusCode?: number }).statusCode;
             if (status === 404 || status === 410) await banco.from("lembrete_inscricoes").delete().eq("endpoint", i.endpoint);
@@ -73,7 +74,8 @@ async function avisarSeguidores(): Promise<number> {
         if (lista.length < 500) break;
       }
     }
-    await banco.from("publicacoes_paroquia").update({ notificada: true }).eq("id", p.id);
+    await banco.from("publicacoes_paroquia").update({ notificada: true, alcance }).eq("id", p.id);
+    total += alcance;
   }
   return total;
 }

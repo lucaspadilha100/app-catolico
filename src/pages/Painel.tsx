@@ -35,6 +35,7 @@ import { NOME_DA_ORACAO_DA_CAMPANHA, apagarIntencao, fraseDaIntencao, intencoesE
 import type { Terco } from "@/tercos/tipos";
 import { quandoDoTerco } from "@/pages/Tercos";
 import { Cabecalho, Carregando, Voltar } from "@/components/Devocao";
+import { PixParaConferirLista, PlanoNoPainel } from "@/pages/PainelPlano";
 
 const CAMPO = "min-h-12 w-full rounded-xl border border-borda bg-papel px-3 text-base";
 const BOTAO = "min-h-12 rounded-xl bg-destaque px-4 font-semibold text-sobre-destaque disabled:opacity-50";
@@ -409,6 +410,7 @@ export function Painel() {
                 <Plus className="size-5" aria-hidden /> Nova paróquia
               </Link>
               <PedidosDeGestao />
+              <PixParaConferirLista />
               <TercosParaRevisar />
               <Moderacao />
               <NovaCampanha />
@@ -805,6 +807,7 @@ export function EditarParoquia() {
             </Cartao>
           )}
           {dados.paroquia.verificada && <Avisos dados={dados} aoMudar={recarregar} />}
+          <PlanoNoPainel p={dados.paroquia} admin={acesso.admin} aoMudar={recarregar} />
           {acesso.admin && (
             <Cartao className="flex flex-col gap-3">
               <h2 className="font-leitura text-xl font-semibold text-marca">Secretaria da paróquia</h2>
