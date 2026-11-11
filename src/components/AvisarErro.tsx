@@ -1,5 +1,6 @@
 import { useEffect, useState, type FormEvent } from "react";
-import { Check, Flag, Share2, X } from "lucide-react";
+import { Check, Flag, NotebookPen, Share2, X } from "lucide-react";
+import { CORES, chaveDoVersiculo, marcar, useMarcas, type Cor } from "@/biblia/marcas";
 import { compartilharVersiculo } from "@/lib/imagemDoVersiculo";
 import { enviarAviso, NOME_DO_AVISO, type Aviso, type TipoDeAviso } from "@/biblia/avisos";
 
@@ -15,12 +16,19 @@ export function BarraDoVersiculo({ referencia, aviso, aoFechar }: Props) {
   const [comentario, setComentario] = useState("");
   const [estado, setEstado] = useState<"editando" | "enviando" | "enviado">("editando");
   const [imagem, setImagem] = useState<"" | "gerando" | "baixado">("");
+  const marcas = useMarcas();
+  const chave = chaveDoVersiculo(aviso.livro, aviso.capitulo, aviso.versiculo);
+  const marca = marcas[chave];
+  const [anotando, setAnotando] = useState(false);
+  const [nota, setNota] = useState("");
 
   useEffect(() => {
     setAberto(false);
     setTipo(null);
     setComentario("");
     setEstado("editando");
+    setAnotando(false);
+    setNota(marca?.nota ?? "");
   }, [aviso.livro, aviso.capitulo, aviso.versiculo]);
 
   useEffect(() => {
@@ -50,7 +58,64 @@ export function BarraDoVersiculo({ referencia, aviso, aoFechar }: Props) {
             <X className="size-5" aria-hidden />
           </button>
         </div>
-        {!aberto && (
+        {!aberto && !anotando && (
+          <div className="mt-1 flex items-center gap-2" role="group" aria-label="Grifar">
+            {(Object.keys(CORES) as Cor[]).map((c) => (
+              <button
+                key={c}
+                type="button"
+                aria-label={`Grifar de ${CORES[c].nome.toLowerCase()}`}
+                aria-pressed={marca?.cor === c}
+                onClick={() => marcar(chave, { cor: marca?.cor === c ? null : c, texto: aviso.texto_versiculo })}
+                className={`grid size-11 place-items-center rounded-full border-2 ${marca?.cor === c ? "border-tinta" : "border-transparent"}`}
+              >
+                <span className="size-8 rounded-full border border-borda" style={{ background: CORES[c].fundo }} />
+              </button>
+            ))}
+            <span className="flex-1" />
+            <button
+              type="button"
+              onClick={() => {
+                setNota(marca?.nota ?? "");
+                setAnotando(true);
+              }}
+              className={`flex min-h-11 items-center gap-1.5 rounded-xl border px-3 text-sm font-medium ${marca?.nota ? "border-destaque-texto/40 text-destaque-texto" : "border-borda text-tinta-suave"}`}
+            >
+              <NotebookPen className="size-4" aria-hidden /> {marca?.nota ? "Nota" : "Anotar"}
+            </button>
+          </div>
+        )}
+
+        {anotando && (
+          <div className="mt-2 flex flex-col gap-2">
+            <textarea
+              value={nota}
+              onChange={(e) => setNota(e.target.value)}
+              maxLength={2000}
+              rows={4}
+              aria-label="Nota"
+              autoFocus
+              className="w-full resize-none rounded-xl border border-borda bg-papel px-3 py-2 text-base text-tinta"
+            />
+            <div className="grid grid-cols-2 gap-2">
+              <button type="button" onClick={() => setAnotando(false)} className="min-h-11 rounded-xl border border-borda text-sm font-medium text-tinta">
+                Cancelar
+              </button>
+              <button
+                type="button"
+                onClick={() => {
+                  marcar(chave, { nota, texto: aviso.texto_versiculo });
+                  setAnotando(false);
+                }}
+                className="min-h-11 rounded-xl bg-destaque text-sm font-semibold text-sobre-destaque"
+              >
+                Salvar nota
+              </button>
+            </div>
+          </div>
+        )}
+
+        {!aberto && !anotando && (
           <div className="mt-2 grid grid-cols-2 gap-2">
             <button
               type="button"

@@ -1,6 +1,7 @@
 import { useEffect, useLayoutEffect, useRef, useState, type FormEvent } from "react";
-import { Navigate, useLocation, useNavigate, useParams, useSearchParams } from "react-router-dom";
-import { Check, ChevronDown, Search, X } from "lucide-react";
+import { Link, Navigate, useLocation, useNavigate, useParams, useSearchParams } from "react-router-dom";
+import { Bookmark, Check, ChevronDown, NotebookPen, Search, X } from "lucide-react";
+import { CORES, chaveDoVersiculo, lerChave, marcaViva, useMarcas, type Cor } from "@/biblia/marcas";
 import { LIVROS, livroPorCodigo, livroPorSlug, type Livro } from "@/biblia/livros";
 import { carregarLivro, type LivroDaBiblia } from "@/biblia/texto";
 import { interpretar, livrosQueCombinam } from "@/biblia/busca";
@@ -215,6 +216,7 @@ function Leitor({
   aoEscolher: (p: Posicao, buscar: boolean) => void;
 }) {
   const leitura = useLeituraDaBiblia();
+  const marcas = useMarcas();
   const [janela, setJanela] = useState<Posicao[]>([inicial]);
   const [livros, setLivros] = useState<Record<string, LivroDaBiblia>>({});
   const [erro, setErro] = useState(false);
@@ -355,6 +357,9 @@ function Leitor({
           <ChevronDown className="size-5 shrink-0 text-tinta-suave" aria-hidden />
         </button>
         <span className="flex-1" />
+        <Link to="/biblia/marcados" aria-label="Grifos e notas" className="grid size-11 shrink-0 place-items-center rounded-full text-tinta-suave hover:bg-marca-fundo">
+          <Bookmark className="size-5" aria-hidden />
+        </Link>
         <button type="button" onClick={() => aoEscolher(atual, true)} aria-label="Buscar passagem" className="grid size-11 shrink-0 place-items-center rounded-full text-tinta-suave hover:bg-marca-fundo">
           <Search className="size-5" aria-hidden />
         </button>
@@ -379,14 +384,16 @@ function Leitor({
               </div>
             ) : (
               <div className="flex flex-col gap-3.5 px-1 font-leitura text-[1.2rem] leading-[1.7] text-tinta sm:px-2">
-                {versiculos.map((texto, k) =>
-                  texto ? (
+                {versiculos.map((texto, k) => {
+                  const marca = marcas[chaveDoVersiculo(pos.livro.codigo, pos.cap, k + 1)];
+                  return texto ? (
                     <p
                       key={k}
                       id={`${chave}-v${k + 1}`}
                       data-v
                       onClick={() => setSelecionado(selecionado && chaveDe(selecionado.pos) === chave && selecionado.v === k + 1 ? null : { pos, v: k + 1 })}
-                      className={`cursor-pointer rounded-md transition-colors ${
+                      style={marca?.cor ? { background: CORES[marca.cor].fundo } : undefined}
+                      className={`cursor-pointer rounded-md transition-colors ${marca?.cor ? "-mx-1 px-1" : ""} ${
                         selecionado && chaveDe(selecionado.pos) === chave && selecionado.v === k + 1
                           ? "bg-marca-fundo underline decoration-destaque decoration-2 underline-offset-4"
                           : chave === chaveDe(inicial) && versiculo === k + 1
@@ -396,9 +403,10 @@ function Leitor({
                     >
                       <sup className="mr-1.5 align-[0.4em] font-sans text-[0.6em] font-medium text-tinta-suave">{k + 1}</sup>
                       {texto}
+                      {marca?.nota && <NotebookPen className="ml-1.5 inline size-4 align-[-0.1em] text-destaque-texto" aria-label="Com nota" />}
                     </p>
-                  ) : null,
-                )}
+                  ) : null;
+                })}
                 <button
                   type="button"
                   onClick={() => marcarLido(pos.livro.codigo, pos.cap, !lido)}
@@ -491,5 +499,73 @@ export function BibliaCapitulo() {
       <Leitor key={semente} inicial={{ livro, cap }} versiculo={versiculo} aoMudar={aoMudar} aoEscolher={aoEscolher} />
       {escolhendo && <Seletor livro={noSeletor.livro} cap={noSeletor.cap} buscar={escolhendo === "busca"} aoFechar={fecharSeletor} />}
     </>
+  );
+}
+
+const FILTROS_DE_MARCA: ("todas" | Cor | "notas")[] = ["todas", "amarelo", "verde", "azul", "rosa", "notas"];
+
+export function BibliaMarcados() {
+  const marcas = useMarcas();
+  const [params, setParams] = useSearchParams();
+  const filtro = (params.get("filtro") ?? "todas") as (typeof FILTROS_DE_MARCA)[number];
+  const ordem = new Map(LIVROS.map((l, i) => [l.codigo, i]));
+  const lista = Object.entries(marcas)
+    .filter(([, m]) => marcaViva(m))
+    .map(([chave, m]) => ({ chave, m, onde: lerChave(chave) }))
+    .filter((x): x is { chave: string; m: (typeof marcas)[string]; onde: NonNullable<ReturnType<typeof lerChave>> } => !!x.onde && !!livroPorCodigo(x.onde.livro))
+    .filter((x) => filtro === "todas" || (filtro === "notas" ? !!x.m.nota : x.m.cor === filtro))
+    .sort((a, b) => (ordem.get(a.onde.livro)! - ordem.get(b.onde.livro)!) || a.onde.capitulo - b.onde.capitulo || a.onde.versiculo - b.onde.versiculo);
+
+  return (
+    <div className="flex flex-col gap-4">
+      <Link to="/biblia" className="flex min-h-11 w-fit items-center gap-1 text-tinta-suave">
+        <ChevronDown className="size-5 rotate-90" aria-hidden /> Bíblia
+      </Link>
+      <h1 className="font-leitura text-3xl font-semibold text-marca">Grifos e notas</h1>
+      <div className="flex gap-2 overflow-x-auto pb-1" role="group" aria-label="Filtro">
+        {FILTROS_DE_MARCA.map((f) => (
+          <button
+            key={f}
+            type="button"
+            aria-pressed={filtro === f}
+            onClick={() => setParams(f === "todas" ? {} : { filtro: f }, { replace: true })}
+            className={`flex min-h-10 shrink-0 items-center gap-1.5 rounded-full border px-3 text-sm font-medium ${filtro === f ? "border-destaque bg-destaque text-sobre-destaque" : "border-borda bg-cartao text-tinta"}`}
+          >
+            {f !== "todas" && f !== "notas" && <span className="size-4 rounded-full border border-borda" style={{ background: CORES[f].fundo }} />}
+            {f === "todas" ? "Todos" : f === "notas" ? "Notas" : CORES[f].nome}
+          </button>
+        ))}
+      </div>
+      {!lista.length ? (
+        <p className="text-tinta-suave">Nada por aqui ainda.</p>
+      ) : (
+        <ul className="flex flex-col divide-y divide-borda overflow-hidden rounded-2xl border border-borda bg-cartao shadow-sm">
+          {lista.map(({ chave, m, onde }) => {
+            const livro = livroPorCodigo(onde.livro)!;
+            return (
+              <li key={chave}>
+                <Link to={`${caminho(livro, onde.capitulo)}#v${onde.versiculo}`} className="flex flex-col gap-1.5 px-4 py-3 hover:bg-marca-fundo/60">
+                  <span className="flex items-center gap-2 text-sm font-semibold text-destaque-texto">
+                    {m.cor && <span className="size-3 rounded-full" style={{ background: CORES[m.cor].fundo }} />}
+                    {`${livro.codigo === "PSA" ? "Sl" : livro.abreviatura} ${onde.capitulo},${onde.versiculo}`}
+                  </span>
+                  {m.texto && (
+                    <span className="font-leitura text-tinta" style={m.cor ? { background: CORES[m.cor].fundo } : undefined}>
+                      {m.texto}
+                    </span>
+                  )}
+                  {m.nota && (
+                    <span className="flex items-start gap-1.5 text-sm text-tinta-suave">
+                      <NotebookPen className="mt-0.5 size-4 shrink-0" aria-hidden />
+                      <span className="whitespace-pre-line">{m.nota}</span>
+                    </span>
+                  )}
+                </Link>
+              </li>
+            );
+          })}
+        </ul>
+      )}
+    </div>
   );
 }

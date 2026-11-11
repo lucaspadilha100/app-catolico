@@ -46,6 +46,7 @@ const InscricoesDaTurma = lazy(() => import("@/pages/PainelPlano").then((m) => (
 const Painel = lazy(() => import("@/pages/Painel").then((m) => ({ default: m.Painel })));
 const Biblia = lazy(() => import("@/pages/Biblia").then((m) => ({ default: m.Biblia })));
 const BibliaCapitulo = lazy(() => import("@/pages/Biblia").then((m) => ({ default: m.BibliaCapitulo })));
+const BibliaMarcados = lazy(() => import("@/pages/Biblia").then((m) => ({ default: m.BibliaMarcados })));
 const BibliaLivro = lazy(() => import("@/pages/Biblia").then((m) => ({ default: m.BibliaLivro })));
 const AoVivo = lazy(() => import("@/pages/Tercos").then((m) => ({ default: m.AoVivo })));
 const EditarEncontro = lazy(() => import("@/pages/Tercos").then((m) => ({ default: m.EditarEncontro })));
@@ -89,6 +90,7 @@ export default function App() {
         <Route path="privacidade" element={<Privacidade />} />
         <Route path="termos" element={<Termos />} />
         <Route path="biblia" element={<Biblia />} />
+        <Route path="biblia/marcados" element={<BibliaMarcados />} />
         <Route path="biblia/:livro" element={<BibliaLivro />} />
         <Route path="biblia/:livro/:capitulo" element={<BibliaCapitulo />} />
         <Route path="calendario" element={<Calendario />} />
