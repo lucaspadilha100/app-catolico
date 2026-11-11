@@ -48,3 +48,11 @@ export function TextoDaLeitura({ canonica, poema, inicio, fim }: { canonica: str
     </div>
   );
 }
+
+export function NotaDaTraducao({ className = "" }: { className?: string }) {
+  return (
+    <p className={`font-leitura text-sm italic leading-relaxed text-tinta-suave ${className}`}>
+      Tradução do Padre Antônio Pereira de Figueiredo, edição de 1950, em domínio público, revisada pela equipe em linguagem atual.
+    </p>
+  );
+}

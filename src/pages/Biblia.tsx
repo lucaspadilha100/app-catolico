@@ -1,3 +1,4 @@
+import { NotaDaTraducao } from "@/components/TextoBiblico";
 import { BotaoOuvir, emPartes } from "@/components/Ouvir";
 import { useEffect, useLayoutEffect, useRef, useState, type FormEvent } from "react";
 import { Link, Navigate, useLocation, useNavigate, useParams, useSearchParams } from "react-router-dom";
@@ -452,6 +453,7 @@ function Leitor({
                   {lido && <Check className="size-4" aria-hidden />}
                   {lido ? "Capítulo lido" : "Marcar como lido"}
                 </button>
+                <NotaDaTraducao className="mt-1 text-center" />
               </div>
             )}
           </section>

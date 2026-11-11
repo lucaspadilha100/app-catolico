@@ -7,7 +7,7 @@ import { NOME_DA_LEITURA, type Leitura, type Missa } from "@/liturgia/lecionario
 import { useLeituras } from "@/lib/useLeituras";
 import { usePreferencias } from "@/lib/preferencias";
 import { Cartao } from "@/components/Cartao";
-import { TextoDaLeitura } from "@/components/TextoBiblico";
+import { NotaDaTraducao, TextoDaLeitura } from "@/components/TextoBiblico";
 import { Voltar } from "@/components/Voltar";
 import { ReflexaoCompleta, evangelhoDaMissa } from "@/components/Reflexao";
 import { BotaoOuvir, emPartes } from "@/components/Ouvir";
@@ -126,6 +126,7 @@ export default function Liturgia() {
           </Cartao>
         ))
       )}
+      {missas && missas.length > 0 && <NotaDaTraducao className="px-1" />}
       {missas && <ReflexaoCompleta canonica={evangelhoDaMissa(missas[0])} />}
     </div>
   );
