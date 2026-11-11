@@ -373,9 +373,14 @@ participa acompanha no celular, ao vivo, pelo link ou pelo QR code.
 - ✅ Guardar música para ouvir depois (Roteiros → Músicas guardadas)
 - ⬜ 👤 Testar num terço de verdade: montar, projetar o QR e conduzir
 
-### Leva 23. Escalas da paróquia ⬜
-Leitores, ministros, coroinhas, canto: o coordenador monta a escala, cada um vê
-quando serve, recebe lembrete e pede troca.
+### Leva 23. Escalas da paróquia ✅
+- ✅ Qualquer coordenador cria o ministério (leitores, ministros, coroinhas,
+  canto) e já coordena; a equipe entra pelo link ou QR code do convite
+- ✅ A coordenação monta a escala (dia, hora, celebração, função, quem serve) e
+  pode dar a coordenação a outros
+- ✅ Cada um vê "Quando eu sirvo", pede troca; outro da equipe assume a troca ou
+  a vaga (regra no banco)
+- ⬜ Lembrete na véspera para quem serve (entra na função `lembretes`)
 
 ### Leva 24. Intenções de missa ⬜
 O fiel pede a intenção (falecido, aniversário, ação de graças) com a oferta por
