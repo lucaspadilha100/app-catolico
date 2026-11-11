@@ -1,0 +1,2346 @@
+[
+ {
+  "id_banco": "f2df9f96-1efe-5d32-b19c-89aa262eb36c",
+  "nome": "Basílica de Nossa Senhora da Guia",
+  "categoria": "basilica",
+  "cidade": "Acari",
+  "padroeiro": "Nossa Senhora da Guia",
+  "contatos": {
+   "telefone": "84996296968",
+   "whatsapp": "",
+   "instagram": "basilica_nossasenhoradaguia",
+   "site": "",
+   "email": "paroquiadoacari@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": "f2df9f96-1efe-5d32-b19c-89aa262eb36c",
+    "nome": "Basílica de Nossa Senhora da Guia",
+    "tipo": "matriz",
+    "cidade": "Acari",
+    "localidade": "Centro",
+    "endereco": "Rua da Matriz, 309",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "16:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "16:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "16:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "16:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "0ecc72a9-6680-5041-b619-b89a0117324f",
+    "nome": "Igreja de Nossa Senhora do Rosário",
+    "tipo": "capela",
+    "cidade": "Acari",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "47926a87-b876-5265-8a70-2b37d6bb5b4d",
+    "nome": "Capela da Virgem dos Pobres",
+    "tipo": "capela",
+    "cidade": "Acari",
+    "localidade": "Bairro Dinarte Mariz",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "8ab40aac-c61d-5e88-a238-82db900478a1",
+    "nome": "Capela de Santa Luzia",
+    "tipo": "capela",
+    "cidade": "Acari",
+    "localidade": "Bairro Tarcísio Bezerra Galvão",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "16:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "5c9b696d-d8ce-51f9-85ec-605884540b10",
+    "nome": "Capela de Santa Rita de Cássia",
+    "tipo": "capela",
+    "cidade": "Acari",
+    "localidade": "Bairro Petrópolis",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "16:30",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "28c74d4d-d8f4-534e-bda1-49dd8d6dc51c",
+    "nome": "Capela de São Francisco de Assis",
+    "tipo": "capela",
+    "cidade": "Acari",
+    "localidade": "Bairro Ary de Pinho",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "16:30",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "d8cd6fba-52e9-5bdd-aa28-54ba60db123f",
+    "nome": "Capela de São Sebastião",
+    "tipo": "capela",
+    "cidade": "Acari",
+    "localidade": "Bairro Padre Cortez",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "16:30",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesecaico.com/horario-das-missas/",
+    "data": "2022-09-01",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.instagram.com/basilica_nossasenhoradaguia/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Horários da página da diocese, editada em 01/09/2022."
+ },
+ {
+  "id_banco": "faca2d7c-a29a-5391-9430-d64df7dd1cbd",
+  "nome": "Catedral de Sant'Ana",
+  "categoria": "catedral",
+  "cidade": "Caicó",
+  "padroeiro": "Sant'Ana",
+  "contatos": {
+   "telefone": "84994012474",
+   "whatsapp": "",
+   "instagram": "catedraldesantana",
+   "site": "",
+   "email": "paroquiadesantanadecaico@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": "faca2d7c-a29a-5391-9430-d64df7dd1cbd",
+    "nome": "Catedral de Sant'Ana",
+    "tipo": "matriz",
+    "cidade": "Caicó",
+    "localidade": "Centro",
+    "endereco": "Rua Padre João Maria, 207",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "205f6ee6-8160-5e18-a82f-8e42b1692339",
+    "nome": "Capela de São Sebastião",
+    "tipo": "capela",
+    "cidade": "Caicó",
+    "localidade": "Serrote da Cruz",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Todo dia 20: missa (hora não informada)."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesecaico.com/horario-das-missas/",
+    "data": "2022-09-01",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.facebook.com/catedraldesantana/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Horários da página da diocese, editada em 01/09/2022. Santuário do Rosário em item próprio."
+ },
+ {
+  "id_banco": "f7262858-1801-5b28-9491-c8c93518aa77",
+  "nome": "Paróquia de Nossa Senhora de Fátima",
+  "categoria": "paroquia",
+  "cidade": "Caicó",
+  "padroeiro": "Nossa Senhora de Fátima",
+  "contatos": {
+   "telefone": "84981183595",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiadefatima2015@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": "f7262858-1801-5b28-9491-c8c93518aa77",
+    "nome": "Igreja Matriz de Nossa Senhora de Fátima",
+    "tipo": "matriz",
+    "cidade": "Caicó",
+    "localidade": "Conjunto Vila do Príncipe",
+    "endereco": "Praça Vila do Príncipe, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "07009e36-7bd2-5105-b37a-2ed3b39456ad",
+    "nome": "Capela de São Joaquim",
+    "tipo": "capela",
+    "cidade": "Caicó",
+    "localidade": "Bairro Boa Passagem",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Ermida da Misericórdia",
+    "tipo": "capela",
+    "cidade": "Caicó",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": "Missa da Família"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": "Missa da Família"
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "91cc7e5f-11dd-5546-b7cf-fa9697790240",
+    "nome": "Capela de São Sebastião",
+    "tipo": "capela",
+    "cidade": "Caicó",
+    "localidade": "Recreio",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "179aa4ce-fe43-545b-8803-d033da9a8abc",
+    "nome": "Capela de Santa Luzia",
+    "tipo": "capela",
+    "cidade": "Caicó",
+    "localidade": "Alto da Boa Vista",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "b7ddc03a-e030-541b-80d3-9573d49f7318",
+    "nome": "Capela de São Judas Tadeu",
+    "tipo": "capela",
+    "cidade": "Caicó",
+    "localidade": "Bairro Samanaú",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "fb91e90b-b33d-54b8-871b-f6638fe91f6b",
+    "nome": "Capela de São Francisco de Assis",
+    "tipo": "capela",
+    "cidade": "Caicó",
+    "localidade": "Distrito de Laginhas",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "52adf077-83d3-5e58-99e7-c2bf5efd7c2f",
+    "nome": "Capela de Santa Clara de Assis",
+    "tipo": "capela",
+    "cidade": "Caicó",
+    "localidade": "Nova Caicó",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "16082691-1821-5484-9f51-f16e936ad3b6",
+    "nome": "Capela de Santo Expedito",
+    "tipo": "capela",
+    "cidade": "Caicó",
+    "localidade": "Salviano Santos",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesecaico.com/horario-das-missas/",
+    "data": "2022-09-01",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Horários da página da diocese, editada em 01/09/2022. A fonte cita ainda, sem igreja definida: 1ª sexta 19h, confissão comunitária e missa ao Sagrado Coração; última sexta 19h, Missa da Misericórdia. Capela de São Francisco, Comunidade Nova Caicó e Comunidade Salviano Santos casadas com as do banco pelo santo e pelo bairro."
+ },
+ {
+  "id_banco": "5c1d543e-4862-5ff0-b944-eafd07daafb4",
+  "nome": "Paróquia de Santa Cruz e Nossa Senhora das Dores",
+  "categoria": "paroquia",
+  "cidade": "Caicó",
+  "padroeiro": "Santa Cruz e Nossa Senhora das Dores",
+  "contatos": {
+   "telefone": "8434174710",
+   "whatsapp": "",
+   "instagram": "paroquiasantacruzcaico",
+   "site": "",
+   "email": "psc.caico@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": "5c1d543e-4862-5ff0-b944-eafd07daafb4",
+    "nome": "Igreja Matriz da Santa Cruz",
+    "tipo": "matriz",
+    "cidade": "Caicó",
+    "localidade": "Barra Nova",
+    "endereco": "Praça da Santa Cruz, 27",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "f342f2a3-5278-511c-9c53-440fc4c54ea6",
+    "nome": "Capela de Santa Luzia",
+    "tipo": "capela",
+    "cidade": "Caicó",
+    "localidade": "Vila Sabugi I",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Vila II",
+    "tipo": "comunidade",
+    "cidade": "Caicó",
+    "localidade": "Vila II",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "ecf212a0-cafb-5cfe-bde9-44c3e653fc95",
+    "nome": "Capela de São Pedro e São Paulo",
+    "tipo": "capela",
+    "cidade": "Caicó",
+    "localidade": "Bairro Walfredo Gurgel",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "ce59044e-cf12-55c1-bc9b-0a099a970814",
+    "nome": "Capela de Nossa Senhora do Perpétuo Socorro",
+    "tipo": "capela",
+    "cidade": "Caicó",
+    "localidade": "Casas Populares",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "eac44832-2354-54d1-955f-2c8c789ee42d",
+    "nome": "Capela do Divino Espírito Santo",
+    "tipo": "capela",
+    "cidade": "Caicó",
+    "localidade": "Bairro Frei Damião",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesecaico.com/horario-das-missas/",
+    "data": "2022-09-01",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.instagram.com/paroquiasantacruzcaico/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Horários da página da diocese, editada em 01/09/2022. A fonte diz só \"Vila I\" e \"Vila II\" (quarta 18h e 19h); a Vila I foi casada com a capela de Santa Luzia da Vila Sabugi I."
+ },
+ {
+  "id_banco": "abd09155-be95-5b57-b4de-4dda7afe223f",
+  "nome": "Paróquia de Santa Marta de Betânia",
+  "categoria": "paroquia",
+  "cidade": "Caicó",
+  "padroeiro": "Santa Marta",
+  "contatos": {
+   "telefone": "84991740724",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": "abd09155-be95-5b57-b4de-4dda7afe223f",
+    "nome": "Igreja Matriz de Santa Marta de Betânia",
+    "tipo": "matriz",
+    "cidade": "Caicó",
+    "localidade": "Penedo",
+    "endereco": "Rua José Evaristo de Medeiros",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [],
+  "confianca": "baixa",
+  "observacao": "A página da diocese (editada em 01/09/2022) não traz esta paróquia, talvez criada depois; sem horário."
+ },
+ {
+  "id_banco": "d71a9bfe-d1ea-571b-8136-b3f5bacd8e90",
+  "nome": "Paróquia de Santo Estêvão Diácono",
+  "categoria": "paroquia",
+  "cidade": "Caicó",
+  "padroeiro": "Santo Estêvão",
+  "contatos": {
+   "telefone": "8421440347",
+   "whatsapp": "",
+   "instagram": "pascom_santoestevao",
+   "site": "",
+   "email": "compased@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": "d71a9bfe-d1ea-571b-8136-b3f5bacd8e90",
+    "nome": "Igreja Matriz de Santo Estêvão Diácono",
+    "tipo": "matriz",
+    "cidade": "Caicó",
+    "localidade": "Castelo Branco",
+    "endereco": "Rua Francisco de Assis Medeiros, 711",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "13:00",
+      "semanas": null,
+      "observacao": "Até as 18h, com bênção do Santíssimo"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": "Na 1ª sexta, Missa do Sagrado Coração de Jesus"
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "5251a354-c1f7-57be-8265-5464366316ff",
+    "nome": "Capela de Nossa Senhora da Conceição e Divina Misericórdia",
+    "tipo": "capela",
+    "cidade": "Caicó",
+    "localidade": "Barra da Espingarda",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "5564ebeb-46ba-5344-8c09-d7e020a8313e",
+    "nome": "Capela de Nossa Senhora das Graças",
+    "tipo": "capela",
+    "cidade": "Caicó",
+    "localidade": "Itans",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "17:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa do Sagrado Coração de Jesus"
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "62109d98-1837-56fc-83be-0fb3770b81e1",
+    "nome": "Capela de São Francisco de Assis",
+    "tipo": "capela",
+    "cidade": "Caicó",
+    "localidade": "Sítio Umari",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "5c96c792-3e0b-590f-b299-1c8298a0939e",
+    "nome": "Comunidade Sagrado Coração",
+    "tipo": "comunidade",
+    "cidade": "Caicó",
+    "localidade": "Santa Clara",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:30",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Maynard",
+    "tipo": "comunidade",
+    "cidade": "Caicó",
+    "localidade": "Bairro Maynard",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:30",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesecaico.com/horario-das-missas/",
+    "data": "2022-09-01",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.instagram.com/pascom_santoestevao/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Horários da página da diocese, editada em 01/09/2022. A missa do bairro Santa Clara (2º sábado) foi casada com a Comunidade Sagrado Coração."
+ },
+ {
+  "id_banco": "c87a685e-d14c-5093-9089-27ea09d94e73",
+  "nome": "Paróquia de São Francisco de Assis",
+  "categoria": "paroquia",
+  "cidade": "Caicó",
+  "padroeiro": "São Francisco de Assis",
+  "contatos": {
+   "telefone": "84999906663",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "psfranciscocaico@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": "c87a685e-d14c-5093-9089-27ea09d94e73",
+    "nome": "Igreja Matriz de São Francisco de Assis",
+    "tipo": "matriz",
+    "cidade": "Caicó",
+    "localidade": "Paulo VI",
+    "endereco": "Praça das Flores, 255",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "8ce65a5f-cd78-59db-8fb5-5876fbaae5f9",
+    "nome": "Capela de Nossa Senhora da Glória",
+    "tipo": "capela",
+    "cidade": "Caicó",
+    "localidade": "Bairro Soledade",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "315a53cc-a4ee-58b8-a44d-503a98505b93",
+    "nome": "Capela de São João Batista",
+    "tipo": "capela",
+    "cidade": "Caicó",
+    "localidade": "Bairro João XXIII",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "ce0c6739-ac2e-584a-a758-058453a99008",
+    "nome": "Capela de Santa Luzia",
+    "tipo": "capela",
+    "cidade": "Caicó",
+    "localidade": "Bairro João Paulo II",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesecaico.com/horario-das-missas/",
+    "data": "2022-09-01",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Horários da página da diocese, editada em 01/09/2022."
+ },
+ {
+  "id_banco": "c43ce209-02ef-576d-9a72-acfc4aa3d79c",
+  "nome": "Paróquia de São José",
+  "categoria": "paroquia",
+  "cidade": "Caicó",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "8434211633",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasj.caico@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": "c43ce209-02ef-576d-9a72-acfc4aa3d79c",
+    "nome": "Igreja Matriz de São José",
+    "tipo": "matriz",
+    "cidade": "Caicó",
+    "localidade": "Paraíba",
+    "endereco": "Praça Dom José Delgado, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": [
+       2
+      ],
+      "observacao": "Missa com as crianças"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": "Missa da Hora da Graça"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "3bdb0053-d06b-596a-b021-40df6f400df7",
+    "nome": "Capela de Nossa Senhora das Graças",
+    "tipo": "capela",
+    "cidade": "Caicó",
+    "localidade": "Abrigo",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": "Nem sempre; confirmar com a paróquia"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": "Nem sempre; confirmar com a paróquia"
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "61af1ec4-22eb-5f19-bcf8-73aacc6587f3",
+    "nome": "Capela de Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Caicó",
+    "localidade": "Distrito de Palma",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "7442961f-8bdb-5ca2-ade6-91aa4ae38bf9",
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Caicó",
+    "localidade": "Bairro Penedo",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesecaico.com/horario-das-missas/",
+    "data": "2022-09-01",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.facebook.com/paroquiasaojosedecaico/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Horários da página da diocese, editada em 01/09/2022."
+ },
+ {
+  "id_banco": "585cbfec-029a-5f7a-a93d-28694e3ae066",
+  "nome": "Santuário de Nossa Senhora do Rosário",
+  "categoria": "santuario",
+  "cidade": "Caicó",
+  "padroeiro": "Nossa Senhora do Rosário",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": "585cbfec-029a-5f7a-a93d-28694e3ae066",
+    "nome": "Santuário de Nossa Senhora do Rosário",
+    "tipo": "santuario",
+    "cidade": "Caicó",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": "Até as 19h"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesecaico.com/horario-das-missas/",
+    "data": "2022-09-01",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Horários da página da diocese, editada em 01/09/2022. Santuário da Paróquia de Sant'Ana (Catedral)."
+ },
+ {
+  "id_banco": "6ce65111-06eb-5d35-a3b0-2109bcb685cf",
+  "nome": "Paróquia de São José",
+  "categoria": "paroquia",
+  "cidade": "Carnaúba dos Dantas",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "84987479423",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiacarnauba@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": "6ce65111-06eb-5d35-a3b0-2109bcb685cf",
+    "nome": "Igreja Matriz de São José",
+    "tipo": "matriz",
+    "cidade": "Carnaúba dos Dantas",
+    "localidade": "Centro",
+    "endereco": "Rua José Matias, 126",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Quarta 19h: Missa das Capelinhas, nas casas."
+   },
+   {
+    "id_banco": "eea3d42a-94b5-5929-944d-59bc317364af",
+    "nome": "Capela de São Francisco de Assis",
+    "tipo": "capela",
+    "cidade": "Carnaúba dos Dantas",
+    "localidade": "Comunidade Ermo",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "1a5dd32f-3d87-53a5-aa6f-917c250d24f5",
+    "nome": "Capela de Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Carnaúba dos Dantas",
+    "localidade": "Comunidade Rajada",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "16:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "f73d751b-025c-518f-b9d8-70bf3586e640",
+    "nome": "Capela de Santa Rita de Cássia",
+    "tipo": "capela",
+    "cidade": "Carnaúba dos Dantas",
+    "localidade": "Bairro Santa Rita",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesecaico.com/horario-das-missas/",
+    "data": "2022-09-01",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Horários da página da diocese, editada em 01/09/2022. A fonte cita ainda, sem igreja definida: sábado 8h, Missa da criança; sexta 15h30, missa na Casa dos Idosos; sexta 19h, missa nos conjuntos ou na comunidade. A \"Capela do Monte\" foi posta no Santuário do Monte do Galo (item próprio)."
+ },
+ {
+  "id_banco": "df668235-c024-5fe1-a432-f4102cf7da57",
+  "nome": "Santuário de Nossa Senhora das Vitórias e Santa Luzia",
+  "categoria": "santuario",
+  "cidade": "Carnaúba dos Dantas",
+  "padroeiro": "Nossa Senhora das Vitórias e Santa Luzia",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": "df668235-c024-5fe1-a432-f4102cf7da57",
+    "nome": "Santuário de Nossa Senhora das Vitórias e Santa Luzia",
+    "tipo": "santuario",
+    "cidade": "Carnaúba dos Dantas",
+    "localidade": "Monte do Galo",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": "Missa dos Romeiros"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": "Missa dos Romeiros"
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesecaico.com/horario-das-missas/",
+    "data": "2022-09-01",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Horários da página da diocese, editada em 01/09/2022. Santuário da Paróquia de São José. A fonte diz \"Capela do Monte\" e \"Missa no Monte\"; entendido como este santuário."
+ },
+ {
+  "id_banco": "b45d1eee-543c-5c33-8f02-facf71384099",
+  "nome": "Paróquia de São João Batista",
+  "categoria": "paroquia",
+  "cidade": "Cerro Corá",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "84999627564",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "precursorsaojoaobatista@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": "b45d1eee-543c-5c33-8f02-facf71384099",
+    "nome": "Igreja Matriz de São João Batista",
+    "tipo": "matriz",
+    "cidade": "Cerro Corá",
+    "localidade": "Centro",
+    "endereco": "Avenida São João, 355",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "7abaaa02-fe57-57fe-9bd7-d96784afebe8",
+    "nome": "Capela de Nossa Senhora do Rosário",
+    "tipo": "capela",
+    "cidade": "Cerro Corá",
+    "localidade": "Bairro Tancredo Neves",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesecaico.com/horario-das-missas/",
+    "data": "2022-09-01",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Horários da página da diocese, editada em 01/09/2022."
+ },
+ {
+  "id_banco": "2a68bc8e-859e-5c29-870f-eb37dab871ca",
+  "nome": "Paróquia de Nossa Senhora dos Remédios",
+  "categoria": "paroquia",
+  "cidade": "Cruzeta",
+  "padroeiro": "Nossa Senhora dos Remédios",
+  "contatos": {
+   "telefone": "84991250080",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiadecruzeta@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": "2a68bc8e-859e-5c29-870f-eb37dab871ca",
+    "nome": "Igreja Matriz de Nossa Senhora dos Remédios",
+    "tipo": "matriz",
+    "cidade": "Cruzeta",
+    "localidade": "Centro",
+    "endereco": "Praça João de Góes, 23",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "17:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "c3d5133b-9bc2-50d6-903e-b8deda1e05c6",
+    "nome": "Capela de Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Cruzeta",
+    "localidade": "Alto da Boa Vista",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "787ec272-5892-5720-85a2-a259abf6c705",
+    "nome": "Capela de São José",
+    "tipo": "capela",
+    "cidade": "Cruzeta",
+    "localidade": "Sítio Salgado",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "cba8de2a-ebe4-5671-bb1f-39cd07ac0be2",
+    "nome": "Capela de São Sebastião",
+    "tipo": "capela",
+    "cidade": "Cruzeta",
+    "localidade": "Rio do Meio",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "6d9f5548-b03f-51ec-ad8a-631f8af2b5f6",
+    "nome": "Capela de Nossa Senhora da Conceição",
+    "tipo": "capela",
+    "cidade": "Cruzeta",
+    "localidade": "Perímetro Irrigado",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "6da0ff36-e2ce-5c65-be1f-f96b1b780006",
+    "nome": "Capela de São Pedro",
+    "tipo": "capela",
+    "cidade": "Cruzeta",
+    "localidade": "Alto dos Remédios",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesecaico.com/horario-das-missas/",
+    "data": "2022-09-01",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.facebook.com/paroquia.cruzetarn/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Horários da página da diocese, editada em 01/09/2022."
+ },
+ {
+  "id_banco": "41787583-85b5-5898-b376-365826bb9b40",
+  "nome": "Paróquia da Imaculada Conceição",
+  "categoria": "paroquia",
+  "cidade": "Currais Novos",
+  "padroeiro": "Imaculada Conceição",
+  "contatos": {
+   "telefone": "84988676435",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "imaculadaconceicaocn@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": "41787583-85b5-5898-b376-365826bb9b40",
+    "nome": "Igreja Matriz da Imaculada Conceição",
+    "tipo": "matriz",
+    "cidade": "Currais Novos",
+    "localidade": "JK",
+    "endereco": "Espaço Cultural Monsenhor Ausônio, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesecaico.com/horario-das-missas/",
+    "data": "2022-09-01",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Horários da página da diocese, editada em 01/09/2022."
+ },
+ {
+  "id_banco": "fed684d6-b533-5a0d-ade7-90a57478ecd6",
+  "nome": "Paróquia de Sant'Ana",
+  "categoria": "paroquia",
+  "cidade": "Currais Novos",
+  "padroeiro": "Sant'Ana",
+  "contatos": {
+   "telefone": "84991559974",
+   "whatsapp": "84991559974",
+   "instagram": "paroquiadesantanacnovos",
+   "site": "",
+   "email": "paroquiadesantanacnovos@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": "fed684d6-b533-5a0d-ade7-90a57478ecd6",
+    "nome": "Igreja Matriz de Sant'Ana",
+    "tipo": "matriz",
+    "cidade": "Currais Novos",
+    "localidade": "Centro",
+    "endereco": "Praça Cristo Rei, 94",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Missa do Agricultor"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "06:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "06:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "06:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "29e65406-ce79-523d-81b1-d36348fa709e",
+    "nome": "Capela de Santa Maria Goretti",
+    "tipo": "capela",
+    "cidade": "Currais Novos",
+    "localidade": "Bairro Santa Maria Goretti",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "16:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "7c48f6c2-2302-586c-8869-652af6202e8a",
+    "nome": "Capela dos Santos Reis",
+    "tipo": "capela",
+    "cidade": "Currais Novos",
+    "localidade": "Bairro Sílvio Bezerra de Melo",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "fd7e5b67-332b-5b7d-aa6e-7d9b1e823d75",
+    "nome": "Capela de Nossa Senhora de Lourdes",
+    "tipo": "capela",
+    "cidade": "Currais Novos",
+    "localidade": "Bairro Gilberto Pinheiro",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesecaico.com/horario-das-missas/",
+    "data": "2022-09-01",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.instagram.com/paroquiadesantanacnovos/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Horários da página da diocese, editada em 01/09/2022. Santuário de Nossa Senhora de Fátima em item próprio."
+ },
+ {
+  "id_banco": "2646be41-25ae-5df5-96dc-9fa2b8e1add2",
+  "nome": "Paróquia de São Francisco de Assis",
+  "categoria": "paroquia",
+  "cidade": "Currais Novos",
+  "padroeiro": "São Francisco de Assis",
+  "contatos": {
+   "telefone": "84996161321",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "psaofrancisco.cn@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": "2646be41-25ae-5df5-96dc-9fa2b8e1add2",
+    "nome": "Igreja Matriz de São Francisco de Assis",
+    "tipo": "matriz",
+    "cidade": "Currais Novos",
+    "localidade": "Parque Dourado",
+    "endereco": "Rua Rita Pereira, 87",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "05a0069e-adfd-5bbc-b3f0-2946d14d1aae",
+    "nome": "Capela de Santa Rita de Cássia",
+    "tipo": "capela",
+    "cidade": "Currais Novos",
+    "localidade": "Bairro Alto de Santa Rita",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "7bb89fff-0863-55ad-8f8c-e3bdea131e69",
+    "nome": "Capela de Santa Clara",
+    "tipo": "capela",
+    "cidade": "Currais Novos",
+    "localidade": "Bairro Parque Dourado",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesecaico.com/horario-das-missas/",
+    "data": "2022-09-01",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Horários da página da diocese, editada em 01/09/2022."
+ },
+ {
+  "id_banco": "763b022f-bd74-5f16-a602-6b8d321f7594",
+  "nome": "Santuário de Nossa Senhora de Fátima",
+  "categoria": "santuario",
+  "cidade": "Currais Novos",
+  "padroeiro": "Nossa Senhora de Fátima",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": "763b022f-bd74-5f16-a602-6b8d321f7594",
+    "nome": "Santuário de Nossa Senhora de Fátima",
+    "tipo": "santuario",
+    "cidade": "Currais Novos",
+    "localidade": "Bairro Paizinho Maria",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesecaico.com/horario-das-missas/",
+    "data": "2022-09-01",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Horários da página da diocese, editada em 01/09/2022. Santuário da Paróquia de Sant'Ana de Currais Novos."
+ },
+ {
+  "id_banco": "1dc72e74-bbd9-509f-b5ba-4ee82a3411cb",
+  "nome": "Paróquia de São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "Equador",
+  "padroeiro": "São Sebastião",
+  "contatos": {
+   "telefone": "84987572673",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": "1dc72e74-bbd9-509f-b5ba-4ee82a3411cb",
+    "nome": "Igreja Matriz de São Sebastião",
+    "tipo": "matriz",
+    "cidade": "Equador",
+    "localidade": "Centro",
+    "endereco": "Rua Francisco Sabino de Oliveira, 427",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Última quinta do mês, 16h30: missa. Última terça do mês: Missa das famílias dos terços (hora e igreja não claras)."
+   },
+   {
+    "id_banco": "2d42ae8c-c76a-50c9-a4a9-927e780082fa",
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Equador",
+    "localidade": "Conjunto COHAB",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "16:30",
+      "semanas": null,
+      "observacao": "Missa pelas famílias do Movimento das Capelinhas"
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "acef7f85-9d47-5c06-9f08-675cb4678c8e",
+    "nome": "Capela de Santa Edwiges",
+    "tipo": "capela",
+    "cidade": "Equador",
+    "localidade": "Alto da Bela Vista",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": [
+       2,
+       3,
+       4,
+       5
+      ],
+      "observacao": "Exceto na 1ª quinta do mês"
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "52444b51-ad5b-51d2-88a2-88c3ef5b0ae7",
+    "nome": "Capela de Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Equador",
+    "localidade": "Sítio Jacu",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "7ce15e9c-3010-5788-a582-18230e723c32",
+    "nome": "Capela de Nossa Senhora Virgem dos Pobres",
+    "tipo": "capela",
+    "cidade": "Equador",
+    "localidade": "Sítio Quintos de Cima",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "5f2d2d77-9243-55ba-86b5-ae78d49b1457",
+    "nome": "Capela de Nossa Senhora do Desterro",
+    "tipo": "capela",
+    "cidade": "Equador",
+    "localidade": "Sítio Bolandeira",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Último sábado do mês (4º ou 5º), 19h: missa."
+   },
+   {
+    "id_banco": "b5d11859-e0c2-5e1f-9b7e-72aa418b7f48",
+    "nome": "Capela de Nossa Senhora da Conceição",
+    "tipo": "capela",
+    "cidade": "Equador",
+    "localidade": "Sítio Pau dos Ferros",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "16:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesecaico.com/horario-das-missas/",
+    "data": "2022-09-01",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Horários da página da diocese, editada em 01/09/2022. A fonte cita as comunidades Jacu, Quintos de Cima, Bolandeira e Pau dos Ferros; casadas com as capelas do banco pelo sítio."
+ },
+ {
+  "id_banco": "41cd4f7c-0be1-5459-99af-8ed8f0924987",
+  "nome": "Paróquia de São Sebastião e de Nossa Senhora das Graças",
+  "categoria": "paroquia",
+  "cidade": "Florânia",
+  "padroeiro": "São Sebastião e Nossa Senhora das Graças",
+  "contatos": {
+   "telefone": "84996145662",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiadeflorania@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": "41cd4f7c-0be1-5459-99af-8ed8f0924987",
+    "nome": "Igreja Matriz de São Sebastião",
+    "tipo": "matriz",
+    "cidade": "Florânia",
+    "localidade": "Centro",
+    "endereco": "Praça Padre José Dantas Cortez, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "2ba12d23-7b89-5370-869e-e99c8069b62f",
+    "nome": "Capela de Nossa Senhora do Carmo",
+    "tipo": "capela",
+    "cidade": "Florânia",
+    "localidade": "Serra do Cajueiro",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "b5916c2b-b83e-520e-b326-1ea32401e6eb",
+    "nome": "Capela do Santíssimo Sacramento e Santa Luzia",
+    "tipo": "capela",
+    "cidade": "Florânia",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": "Missa dominical"
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Bom Jesus Aparecido",
+    "tipo": "capela",
+    "cidade": "Florânia",
+    "localidade": "Ipueira Cercada",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "3b8770dd-853a-5a52-b36d-c7b7075cbc96",
+    "nome": "Capela de São José Operário",
+    "tipo": "capela",
+    "cidade": "Florânia",
+    "localidade": "Vila Jucuri",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesecaico.com/horario-das-missas/",
+    "data": "2022-09-01",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Horários da página da diocese, editada em 01/09/2022. Santuário de Nossa Senhora das Graças no lote caico-2."
+ }
+]

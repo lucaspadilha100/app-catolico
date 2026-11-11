@@ -289,12 +289,13 @@ def gerar():
     for p in banco:
         if p["id"] in DESATIVAR:
             mudancas.setdefault(p["id"], {})["ativa"] = False
-    linhas = ["update public.paroquias set matriz_id = null where false;"]
+    linhas = ["alter table public.paroquias disable trigger trg_paroquia_protege;"]
     for pid, m in sorted(mudancas.items()):
         if pid not in por_id or not m:
             continue
         sets = ", ".join(f"{k} = " + ("false" if v is False else f"(select x.id from public.paroquias x where x.id = '{v}')" if k == "matriz_id" else q(v)) for k, v in sorted(m.items()))
         linhas.append(f"update public.paroquias set {sets} where id = '{pid}' and not verificada and conferida_em is null;")
+    linhas.append("alter table public.paroquias enable trigger trg_paroquia_protege;")
     if novas:
         linhas.append("insert into public.paroquias (id, nome, tipo, diocese, endereco, bairro, cidade, uf, matriz_id, fonte) values")
         linhas.append(",\n".join(f"  ('{n['id']}', {q(n['nome'])}, '{n['tipo']}', {q(n['diocese'])}, {q(n['endereco'])}, {q(n['bairro'])}, {q(n['cidade'])}, 'RN', (select x.id from public.paroquias x where x.id = '{n['matriz_id']}'), {q(n['fonte'])})" for n in novas))

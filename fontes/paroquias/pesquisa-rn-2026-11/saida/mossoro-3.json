@@ -1,0 +1,678 @@
+[
+ {
+  "id_banco": "0a6b06bc-0982-53d3-87ab-02c3b3adea07",
+  "nome": "Paróquia de São Paulo Apóstolo",
+  "categoria": "paroquia",
+  "cidade": "Mossoró",
+  "padroeiro": "São Paulo Apóstolo",
+  "contatos": {
+   "telefone": "84999846291",
+   "whatsapp": "",
+   "instagram": "paroquiasaopaulomossoro",
+   "site": "",
+   "email": "paroquia.saopauloapostolo.mossoro@diocesedemossoro.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": "0a6b06bc-0982-53d3-87ab-02c3b3adea07",
+    "nome": "Igreja Matriz de São Paulo Apóstolo",
+    "tipo": "matriz",
+    "cidade": "Mossoró",
+    "localidade": "Aeroporto",
+    "endereco": "Rua João Pedro da Costa, 13",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.instagram.com/paroquiasaopaulomossoro/",
+    "data": "",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.facebook.com/pspamossoro/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "O Instagram da paróquia diz que os horários estão nos destaques (não legíveis sem login). Facebook: pspamossoro."
+ },
+ {
+  "id_banco": "6400902b-7578-5b46-be6d-6097dd87876e",
+  "nome": "Quase-Paróquia São João Paulo II",
+  "categoria": "quase_paroquia",
+  "cidade": "Mossoró",
+  "padroeiro": "São João Paulo II",
+  "contatos": {
+   "telefone": "84999830351",
+   "whatsapp": "",
+   "instagram": "joaopaulo_2210",
+   "site": "",
+   "email": "quaseparoquia.saojoaopauloii@diocesedemossoro.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": "6400902b-7578-5b46-be6d-6097dd87876e",
+    "nome": "Espaço Celebrativo São João Paulo II",
+    "tipo": "matriz",
+    "cidade": "Mossoró",
+    "localidade": "Cidade Jardim, Alto do Sumaré",
+    "endereco": "Rua Jardim Magnólia",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.instagram.com/joaopaulo_2210/",
+    "data": "",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Bio do Instagram da comunidade (ainda como 'Área Pastoral', sem data): missa todo domingo às 19h no Espaço Celebrativo, Cidade Jardim, Sumaré. Só o domingo publicado."
+ },
+ {
+  "id_banco": "43313a8e-e5c1-58ca-8973-8a4edb73b2ba",
+  "nome": "Santuário de Santa Clara",
+  "categoria": "santuario",
+  "cidade": "Mossoró",
+  "padroeiro": "Santa Clara",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": "43313a8e-e5c1-58ca-8973-8a4edb73b2ba",
+    "nome": "Santuário de Santa Clara",
+    "tipo": "santuario",
+    "cidade": "Mossoró",
+    "localidade": "Dom Jaime Câmara",
+    "endereco": "Avenida Herondina Cavalcante Dantas, 22",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [],
+  "confianca": "baixa",
+  "observacao": "Buscas na web (horário de missa + nome + cidade), no Instagram e no Facebook: nenhum horário publicado achado. Site da diocese fora do alcance desta pesquisa."
+ },
+ {
+  "id_banco": "9d32a7ca-6f17-585e-abdb-286d53e4006c",
+  "nome": "Santuário do Sagrado Coração de Jesus",
+  "categoria": "santuario",
+  "cidade": "Mossoró",
+  "padroeiro": "Sagrado Coração de Jesus",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": "9d32a7ca-6f17-585e-abdb-286d53e4006c",
+    "nome": "Santuário do Sagrado Coração de Jesus",
+    "tipo": "santuario",
+    "cidade": "Mossoró",
+    "localidade": "Centro",
+    "endereco": "Praça Coração de Jesus",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [],
+  "confianca": "baixa",
+  "observacao": "Buscas na web (horário de missa + nome + cidade), no Instagram e no Facebook: nenhum horário publicado achado. Site da diocese fora do alcance desta pesquisa."
+ },
+ {
+  "id_banco": "8916f275-4daf-51d0-bec0-5e1c9d79e265",
+  "nome": "Área Missionária Nossa Senhora do Carmo",
+  "categoria": "area_missionaria",
+  "cidade": "Mossoró",
+  "padroeiro": "Nossa Senhora do Carmo",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "nossasenhoradocarmonm",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": "8916f275-4daf-51d0-bec0-5e1c9d79e265",
+    "nome": "Capela de Nossa Senhora do Carmo",
+    "tipo": "matriz",
+    "cidade": "Mossoró",
+    "localidade": "Nova Mossoró",
+    "endereco": "Avenida das Palmeiras III, 842",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.instagram.com/nossasenhoradocarmonm/",
+    "data": "",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Bio do Instagram da capela, sem data e ainda ligada à Paróquia São José (antes da área missionária de 2024): missa todo domingo às 19h. Conferir."
+ },
+ {
+  "id_banco": "8622048e-33fb-5fac-977f-0b34f73e488c",
+  "nome": "Paróquia do Divino Espírito Santo",
+  "categoria": "paroquia",
+  "cidade": "Paraú",
+  "padroeiro": "Divino Espírito Santo",
+  "contatos": {
+   "telefone": "84992277747",
+   "whatsapp": "",
+   "instagram": "pascomtriunfopotiguar",
+   "site": "",
+   "email": "paroquia.parau@diocesedemossoro.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": "8622048e-33fb-5fac-977f-0b34f73e488c",
+    "nome": "Igreja Matriz do Divino Espírito Santo",
+    "tipo": "matriz",
+    "cidade": "Paraú",
+    "localidade": "Centro",
+    "endereco": "Rua Alferes Tonho",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [],
+  "confianca": "baixa",
+  "observacao": "Buscas na web (horário de missa + nome + cidade), no Instagram e no Facebook: nenhum horário publicado achado. Site da diocese fora do alcance desta pesquisa. O perfil pascomtriunfopotiguar não apareceu na busca."
+ },
+ {
+  "id_banco": "45ef3c29-5e55-54a3-8c6b-40cde4138089",
+  "nome": "Paróquia de Nossa Senhora das Dores",
+  "categoria": "paroquia",
+  "cidade": "Patu",
+  "padroeiro": "Nossa Senhora das Dores",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "paroquiapatu",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": "45ef3c29-5e55-54a3-8c6b-40cde4138089",
+    "nome": "Igreja Matriz de Nossa Senhora das Dores",
+    "tipo": "matriz",
+    "cidade": "Patu",
+    "localidade": "Centro",
+    "endereco": "Rua Miguel Godeiro",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.instagram.com/paroquiapatu/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Instagram paroquiapatu confirmado (ParóquiaNSDPatu), mas sem horário na bio. Horários do Santuário do Lima estão no item próprio."
+ },
+ {
+  "id_banco": "d77dcb16-296d-5e2c-82bd-20ff6fd65f68",
+  "nome": "Santuário de Nossa Senhora dos Impossíveis",
+  "categoria": "santuario",
+  "cidade": "Patu",
+  "padroeiro": "Nossa Senhora dos Impossíveis",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "santuariodolimapatu",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": "d77dcb16-296d-5e2c-82bd-20ff6fd65f68",
+    "nome": "Santuário de Nossa Senhora dos Impossíveis",
+    "tipo": "santuario",
+    "cidade": "Patu",
+    "localidade": "Serra do Lima",
+    "endereco": "Serra do Lima",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "11:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.instagram.com/santuariodolimapatu/",
+    "data": "",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Santuário do Lima. Bio do Instagram oficial (sem data): missas quarta 19h, sábado 9h e 17h30, domingo 7h, 9h, 11h e 17h."
+ },
+ {
+  "id_banco": "041fe9eb-f753-5856-a997-0c18ce7f52d1",
+  "nome": "Paróquia de Nossa Senhora da Conceição",
+  "categoria": "paroquia",
+  "cidade": "Pau dos Ferros",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "8433512704",
+   "whatsapp": "",
+   "instagram": "paroquiapaudosferros",
+   "site": "",
+   "email": "paroquia.paudosferros@diocesedemossoro.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": "041fe9eb-f753-5856-a997-0c18ce7f52d1",
+    "nome": "Igreja Matriz de Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "Pau dos Ferros",
+    "localidade": "Centro",
+    "endereco": "Rua 15 de Novembro, 99",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.facebook.com/paroquiapaudosferros/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Buscas na web (horário de missa + nome + cidade), no Instagram e no Facebook: nenhum horário publicado achado. Site da diocese fora do alcance desta pesquisa. Facebook da paróquia: Rua 15 de Novembro, 99, (84) 3351-2704, paroquiapdf@hotmail.com.br, site paroquiadepaudosferros.com.br (não conferido)."
+ },
+ {
+  "id_banco": "51ffc886-8e24-5acc-b5fa-9cd65d785229",
+  "nome": "Paróquia de Nossa Senhora da Conceição",
+  "categoria": "paroquia",
+  "cidade": "Portalegre",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "8433772248",
+   "whatsapp": "",
+   "instagram": "paroquiaportalegre",
+   "site": "",
+   "email": "paroquia.portalegre@diocesedemossoro.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": "51ffc886-8e24-5acc-b5fa-9cd65d785229",
+    "nome": "Igreja Matriz de Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "Portalegre",
+    "localidade": "Centro",
+    "endereco": "Rua Damião Monteiro de Souza, 2",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [],
+  "confianca": "baixa",
+  "observacao": "Buscas na web (horário de missa + nome + cidade), no Instagram e no Facebook: nenhum horário publicado achado. Site da diocese fora do alcance desta pesquisa."
+ },
+ {
+  "id_banco": "2333ae04-376b-59d7-91e6-2750738c8b77",
+  "nome": "Área Missionária de Santa Luzia e Nossa Senhora de Fátima",
+  "categoria": "area_missionaria",
+  "cidade": "Rafael Fernandes",
+  "padroeiro": "Santa Luzia",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": "2333ae04-376b-59d7-91e6-2750738c8b77",
+    "nome": "Igreja de Santa Luzia",
+    "tipo": "matriz",
+    "cidade": "Rafael Fernandes",
+    "localidade": "Centro",
+    "endereco": "Rua Manoel Alexandre",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [],
+  "confianca": "baixa",
+  "observacao": "Buscas na web (horário de missa + nome + cidade), no Instagram e no Facebook: nenhum horário publicado achado. Site da diocese fora do alcance desta pesquisa."
+ },
+ {
+  "id_banco": "5472874b-c0a1-5dc4-b76e-c60f1439eda9",
+  "nome": "Paróquia de Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Serra do Mel",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "84998420045",
+   "whatsapp": "",
+   "instagram": "paroquia_aparecida",
+   "site": "",
+   "email": "paroquia.serradomel@diocesedemossoro.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": "5472874b-c0a1-5dc4-b76e-c60f1439eda9",
+    "nome": "Igreja Matriz de Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Serra do Mel",
+    "localidade": "Vila Brasília",
+    "endereco": "Rua José Samuel Bezerra, 1-B",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [],
+  "confianca": "baixa",
+  "observacao": "Buscas na web (horário de missa + nome + cidade), no Instagram e no Facebook: nenhum horário publicado achado. Site da diocese fora do alcance desta pesquisa. O perfil paroquia_aparecida não apareceu na busca."
+ },
+ {
+  "id_banco": "7c18cb79-5a16-57d9-911b-f1f2d0e08319",
+  "nome": "Área Missionária de Nossa Senhora das Graças",
+  "categoria": "area_missionaria",
+  "cidade": "Severiano Melo",
+  "padroeiro": "Nossa Senhora das Graças",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": "7c18cb79-5a16-57d9-911b-f1f2d0e08319",
+    "nome": "Capela de Nossa Senhora das Graças",
+    "tipo": "matriz",
+    "cidade": "Severiano Melo",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [],
+  "confianca": "baixa",
+  "observacao": "Buscas na web (horário de missa + nome + cidade), no Instagram e no Facebook: nenhum horário publicado achado. Site da diocese fora do alcance desta pesquisa."
+ },
+ {
+  "id_banco": "c3aa864e-8796-5c6b-b808-56aa88a1d633",
+  "nome": "Paróquia de São Francisco de Assis",
+  "categoria": "paroquia",
+  "cidade": "São Francisco do Oeste",
+  "padroeiro": "São Francisco de Assis",
+  "contatos": {
+   "telefone": "84999480039",
+   "whatsapp": "",
+   "instagram": "paroquiasaofranciscosfo",
+   "site": "",
+   "email": "paroquia.saofranciscodoeste@diocesedemossoro.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": "c3aa864e-8796-5c6b-b808-56aa88a1d633",
+    "nome": "Igreja Matriz de São Francisco de Assis",
+    "tipo": "matriz",
+    "cidade": "São Francisco do Oeste",
+    "localidade": "Centro",
+    "endereco": "Rua São Francisco, 59",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [],
+  "confianca": "baixa",
+  "observacao": "Buscas na web (horário de missa + nome + cidade), no Instagram e no Facebook: nenhum horário publicado achado. Site da diocese fora do alcance desta pesquisa."
+ },
+ {
+  "id_banco": "b33e47df-0ac5-51fa-a428-9c9e90a24c39",
+  "nome": "Paróquia de São Miguel Arcanjo",
+  "categoria": "paroquia",
+  "cidade": "São Miguel",
+  "padroeiro": "São Miguel Arcanjo",
+  "contatos": {
+   "telefone": "8433532060",
+   "whatsapp": "",
+   "instagram": "paroquiadesaomiguel",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": "b33e47df-0ac5-51fa-a428-9c9e90a24c39",
+    "nome": "Igreja Matriz de São Miguel Arcanjo",
+    "tipo": "matriz",
+    "cidade": "São Miguel",
+    "localidade": "Centro",
+    "endereco": "Rua Manoel José Carvalho, 31",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.instagram.com/paroquiadesaomiguel/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Instagram paroquiadesaomiguel confirmado (São Miguel, Diocese de Mossoró), sem horário na bio. Buscas na web (horário de missa + nome + cidade), no Instagram e no Facebook: nenhum horário publicado achado. Site da diocese fora do alcance desta pesquisa."
+ },
+ {
+  "id_banco": "3c226218-e0d7-5361-87fa-05c9b7c4612a",
+  "nome": "Santuário Frei Damião",
+  "categoria": "santuario",
+  "cidade": "São Miguel",
+  "padroeiro": "Frei Damião de Bozzano",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": "3c226218-e0d7-5361-87fa-05c9b7c4612a",
+    "nome": "Santuário Frei Damião",
+    "tipo": "santuario",
+    "cidade": "São Miguel",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [],
+  "confianca": "baixa",
+  "observacao": "Buscas na web (horário de missa + nome + cidade), no Instagram e no Facebook: nenhum horário publicado achado. Site da diocese fora do alcance desta pesquisa. Pertence à Paróquia de São Miguel Arcanjo."
+ },
+ {
+  "id_banco": "626197c7-fd22-5813-8145-8660f36f999e",
+  "nome": "Paróquia Sagrada Família",
+  "categoria": "paroquia",
+  "cidade": "Tenente Ananias",
+  "padroeiro": "Sagrada Família",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": "626197c7-fd22-5813-8145-8660f36f999e",
+    "nome": "Igreja Matriz da Sagrada Família",
+    "tipo": "matriz",
+    "cidade": "Tenente Ananias",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [],
+  "confianca": "baixa",
+  "observacao": "Buscas na web (horário de missa + nome + cidade), no Instagram e no Facebook: nenhum horário publicado achado. Site da diocese fora do alcance desta pesquisa."
+ },
+ {
+  "id_banco": "f357a82d-5e42-5a9c-980b-9316e9cadc9f",
+  "nome": "Paróquia do Sagrado Coração de Jesus",
+  "categoria": "paroquia",
+  "cidade": "Umarizal",
+  "padroeiro": "Sagrado Coração de Jesus",
+  "contatos": {
+   "telefone": "8433972242",
+   "whatsapp": "",
+   "instagram": "paroquia_sagrado",
+   "site": "",
+   "email": "paroquia.umarizal@diocesedemossoro.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": "f357a82d-5e42-5a9c-980b-9316e9cadc9f",
+    "nome": "Igreja Matriz do Sagrado Coração de Jesus",
+    "tipo": "matriz",
+    "cidade": "Umarizal",
+    "localidade": "Centro",
+    "endereco": "Rua Zenon de Souza, 209",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.facebook.com/paroquiadoscj/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Buscas na web (horário de missa + nome + cidade), no Instagram e no Facebook: nenhum horário publicado achado. Site da diocese fora do alcance desta pesquisa. Facebook da paróquia: (84) 3397-2242 e pascompscjuzl@gmail.com (Pascom); celular antigo do banco era 84997020336."
+ },
+ {
+  "id_banco": "3e8d1d3a-ace5-5710-a426-78cef509aea1",
+  "nome": "Paróquia de Nossa Senhora da Conceição",
+  "categoria": "paroquia",
+  "cidade": "Upanema",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "84999690805",
+   "whatsapp": "",
+   "instagram": "paroquiadeupanema",
+   "site": "",
+   "email": "paroquia.upanema@diocesedemossoro.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": "3e8d1d3a-ace5-5710-a426-78cef509aea1",
+    "nome": "Igreja Matriz de Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "Upanema",
+    "localidade": "Centro",
+    "endereco": "Praça Padre Adelino de Brito Dantas, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.facebook.com/paroquiadeupanema/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Buscas na web (horário de missa + nome + cidade), no Instagram e no Facebook: nenhum horário publicado achado. Site da diocese fora do alcance desta pesquisa. Facebook paroquiadeupanema confirmado."
+ }
+]

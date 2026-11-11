@@ -1,0 +1,2281 @@
+[
+ {
+  "id_banco": "f327e5a8-dbaf-5530-a92f-887818ce87fa",
+  "nome": "Santuário de Nossa Senhora das Graças",
+  "categoria": "santuario",
+  "cidade": "Florânia",
+  "padroeiro": "Nossa Senhora das Graças",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": "f327e5a8-dbaf-5530-a92f-887818ce87fa",
+    "nome": "Santuário de Nossa Senhora das Graças",
+    "tipo": "santuario",
+    "cidade": "Florânia",
+    "localidade": "Monte das Graças",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesecaico.com/horario-das-missas/",
+    "data": "2022-09",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Horários da página Horário das Missas da Diocese de Caicó, no ar em 11/2026 mas editada pela última vez em 01/09/2022; sem fonte recente que confirme. Santuário da Paróquia de São Sebastião e de Nossa Senhora das Graças (matriz no lote caico-1)."
+ },
+ {
+  "id_banco": "32cf94c2-b824-58ed-98db-fde298700993",
+  "nome": "Área Pastoral de Nossa Senhora do Perpétuo Socorro",
+  "categoria": "area_pastoral",
+  "cidade": "Ipueira",
+  "padroeiro": "Nossa Senhora do Perpétuo Socorro",
+  "contatos": {
+   "telefone": "84996582793",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "areapastoralperpetuosocorro@outlook.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": "32cf94c2-b824-58ed-98db-fde298700993",
+    "nome": "Igreja de Nossa Senhora do Perpétuo Socorro",
+    "tipo": "matriz",
+    "cidade": "Ipueira",
+    "localidade": "Centro",
+    "endereco": "Rua Ana Francisca, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Missa da criança"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": "Missa em honra a Nossa Senhora do Perpétuo Socorro"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": "Missa pelos falecidos"
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesecaico.com/horario-das-missas/",
+    "data": "2022-09",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesecaico.com/wp-content/uploads/2026/08/MIOLO-ANUARIO-2026.pdf",
+    "data": "2026-08",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Horários da página Horário das Missas da Diocese de Caicó, no ar em 11/2026 mas editada pela última vez em 01/09/2022; sem fonte recente que confirme. A diocese a chama de Área Pastoral Autônoma."
+ },
+ {
+  "id_banco": "81dc8039-d795-5c4b-bfa5-9562c27ec132",
+  "nome": "Paróquia de Nossa Senhora dos Aflitos",
+  "categoria": "paroquia",
+  "cidade": "Jardim de Piranhas",
+  "padroeiro": "Nossa Senhora dos Aflitos",
+  "contatos": {
+   "telefone": "84999430152",
+   "whatsapp": "84997018511",
+   "instagram": "",
+   "site": "",
+   "email": "sraflitos@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": "81dc8039-d795-5c4b-bfa5-9562c27ec132",
+    "nome": "Igreja Matriz de Nossa Senhora dos Aflitos",
+    "tipo": "matriz",
+    "cidade": "Jardim de Piranhas",
+    "localidade": "Centro",
+    "endereco": "Praça Padre João Maria, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": "Missa da Hora da Graça"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "16:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Missa das crianças"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "33f10954-11c7-5a7c-a470-b0189601fc78",
+    "nome": "Capela de Santa Cecília",
+    "tipo": "capela",
+    "cidade": "Jardim de Piranhas",
+    "localidade": "Bairro Santa Cecília",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela da Casa das Irmãs",
+    "tipo": "capela",
+    "cidade": "Jardim de Piranhas",
+    "localidade": "Comunidade Madre Francisca Lechner",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "4b51e320-bdc0-5d16-9ceb-c989cce70866",
+    "nome": "Capela de Santa Luzia",
+    "tipo": "capela",
+    "cidade": "Jardim de Piranhas",
+    "localidade": "Comunidade Flores",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "17:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "03631606-1cc5-5c2f-a22f-9c68ed3d030c",
+    "nome": "Capela de Nossa Senhora de Fátima",
+    "tipo": "capela",
+    "cidade": "Jardim de Piranhas",
+    "localidade": "Comunidade Batalha",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "9e719365-8579-5aca-b9a5-0763ed509520",
+    "nome": "Capela de Nossa Senhora da Piedade",
+    "tipo": "capela",
+    "cidade": "Jardim de Piranhas",
+    "localidade": "Comunidade Piedade",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "2547bf9d-a857-5672-a8f4-74063a193206",
+    "nome": "Capela de São Francisco de Assis",
+    "tipo": "capela",
+    "cidade": "Jardim de Piranhas",
+    "localidade": "Comunidade São Francisco",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "9fcbc74c-5c0c-573c-81b6-c75b7fa7359b",
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Jardim de Piranhas",
+    "localidade": "Comunidade Timbaubinha",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "17:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "4ee6e429-f530-5c0f-8c4b-d582eaa53751",
+    "nome": "Capela de São Pedro",
+    "tipo": "capela",
+    "cidade": "Jardim de Piranhas",
+    "localidade": "Povoado Barra de São Pedro",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "7a92081a-dc67-5d27-9631-143c9f66c58f",
+    "nome": "Capela de São José Operário",
+    "tipo": "capela",
+    "cidade": "Jardim de Piranhas",
+    "localidade": "Comunidade Barra de Baixo",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "9be88c30-9fbc-5863-a538-0ab85b5c18c0",
+    "nome": "Capela de São José",
+    "tipo": "capela",
+    "cidade": "Jardim de Piranhas",
+    "localidade": "Comunidade Assembleia",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesecaico.com/horario-das-missas/",
+    "data": "2022-09",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesecaico.com/wp-content/uploads/2026/08/MIOLO-ANUARIO-2026.pdf",
+    "data": "2026-08",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Horários da página Horário das Missas da Diocese de Caicó, no ar em 11/2026 mas editada pela última vez em 01/09/2022; sem fonte recente que confirme."
+ },
+ {
+  "id_banco": "970b138c-33eb-5bf9-8422-628ced28459c",
+  "nome": "Paróquia de Nossa Senhora da Conceição",
+  "categoria": "paroquia",
+  "cidade": "Jardim do Seridó",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "84998076688",
+   "instagram": "",
+   "site": "",
+   "email": "pnscjs.secretaria@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": "970b138c-33eb-5bf9-8422-628ced28459c",
+    "nome": "Igreja Matriz de Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "Jardim do Seridó",
+    "localidade": "Centro",
+    "endereco": "Rua Coronel Felinto Elísio, 226",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Sábado 16h: missa de exéquias, só quando marcada."
+   },
+   {
+    "id_banco": "afc6008f-0840-56b0-8ddc-246a83683944",
+    "nome": "Capela de São Judas Tadeu",
+    "tipo": "capela",
+    "cidade": "Jardim do Seridó",
+    "localidade": "Abrigo de Idosos",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "2cb37765-12c5-529d-a0b7-51a4020f15a0",
+    "nome": "Capela de São Vicente de Paulo",
+    "tipo": "capela",
+    "cidade": "Jardim do Seridó",
+    "localidade": "Conjunto Luzia Leopoldina",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "17bcbd99-dd6c-53fd-8ba4-062a0066509b",
+    "nome": "Capela de São José Operário",
+    "tipo": "capela",
+    "cidade": "Jardim do Seridó",
+    "localidade": "Bairro Bela Vista",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "0f3b7543-21ff-5dd1-bd9b-7b27e4d87acf",
+    "nome": "Capela de Nossa Senhora de Lourdes",
+    "tipo": "capela",
+    "cidade": "Jardim do Seridó",
+    "localidade": "Sítio Recanto",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Missa no 1º e 3º sábado; horário não informado."
+   },
+   {
+    "id_banco": "8693b459-7a5e-514f-80aa-cb90f0b2239f",
+    "nome": "Capela de Nossa Senhora de Fátima",
+    "tipo": "capela",
+    "cidade": "Jardim do Seridó",
+    "localidade": "Sítio Catururé",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Missa no 1º e 3º domingo; horário não informado."
+   },
+   {
+    "id_banco": "8c205247-b09a-50b0-bddd-153de4ccbb3b",
+    "nome": "Capela de São João Batista e Santa Luzia",
+    "tipo": "capela",
+    "cidade": "Jardim do Seridó",
+    "localidade": "Povoado Currais Novos",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Missa no 2º domingo; horário não informado."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesecaico.com/horario-das-missas/",
+    "data": "2022-09",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesecaico.com/wp-content/uploads/2026/08/MIOLO-ANUARIO-2026.pdf",
+    "data": "2026-08",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Horários da página Horário das Missas da Diocese de Caicó, no ar em 11/2026 mas editada pela última vez em 01/09/2022; sem fonte recente que confirme. A fonte cita ainda, sem igreja definida: 1ª sexta 16h Missa do Apostolado da Oração; 1ª quarta 16h Missa na Pia União de Santa Teresinha. A capela do Abrigo foi associada à de São Judas Tadeu (Abrigo de Idosos). Santuário do Sagrado Coração em item próprio."
+ },
+ {
+  "id_banco": "15468b7d-7d9e-5d18-906d-de837224f25c",
+  "nome": "Santuário do Sagrado Coração de Jesus",
+  "categoria": "santuario",
+  "cidade": "Jardim do Seridó",
+  "padroeiro": "Sagrado Coração de Jesus",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": "15468b7d-7d9e-5d18-906d-de837224f25c",
+    "nome": "Santuário do Sagrado Coração de Jesus",
+    "tipo": "santuario",
+    "cidade": "Jardim do Seridó",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "16:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": "Adoração e missa"
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesecaico.com/horario-das-missas/",
+    "data": "2022-09",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Horários da página Horário das Missas da Diocese de Caicó, no ar em 11/2026 mas editada pela última vez em 01/09/2022; sem fonte recente que confirme. Santuário da Paróquia de Nossa Senhora da Conceição."
+ },
+ {
+  "id_banco": "0cf4a087-0296-5ee9-b9ae-688c0e4686c7",
+  "nome": "Paróquia de São Sebastião e de São Miguel Arcanjo",
+  "categoria": "paroquia",
+  "cidade": "Jucurutu",
+  "padroeiro": "São Sebastião e São Miguel Arcanjo",
+  "contatos": {
+   "telefone": "84996843500",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasaosebastiaojucurutu@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": "0cf4a087-0296-5ee9-b9ae-688c0e4686c7",
+    "nome": "Igreja Matriz de São Sebastião",
+    "tipo": "matriz",
+    "cidade": "Jucurutu",
+    "localidade": "Centro",
+    "endereco": "Praça Francisco Carlos de Medeiros, 83",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Todo dia 13, às 12h: Missa de Cura e Libertação."
+   },
+   {
+    "id_banco": "90f0527f-3c4f-59c4-ae13-aa48c443a71e",
+    "nome": "Capela de Sant'Ana",
+    "tipo": "capela",
+    "cidade": "Jucurutu",
+    "localidade": "Distrito de Barra de Santana",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "319eafb6-fccb-5ec3-88ef-d27c211d6697",
+    "nome": "Capela de Nossa Senhora da Guia",
+    "tipo": "capela",
+    "cidade": "Jucurutu",
+    "localidade": "Distrito de Boi Selado",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "50cd37e0-8d69-511d-90ff-1d8398419859",
+    "nome": "Capela de Santa Isabel",
+    "tipo": "capela",
+    "cidade": "Jucurutu",
+    "localidade": "Bairro Santa Isabel",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "cee707b0-8fe4-5252-8ba6-c7b7c2eaef78",
+    "nome": "Capela de Nossa Senhora de Fátima",
+    "tipo": "capela",
+    "cidade": "Jucurutu",
+    "localidade": "Bairro Novo Horizonte",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Domingo 17h: missa ou celebração da Palavra."
+   },
+   {
+    "id_banco": "6fc21cb8-fd7b-53dd-9d5c-e8512116b99a",
+    "nome": "Capela de São Francisco de Assis",
+    "tipo": "capela",
+    "cidade": "Jucurutu",
+    "localidade": "Sítio Pedra do Navio",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Domingo 17h: missa ou celebração da Palavra."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesecaico.com/horario-das-missas/",
+    "data": "2022-09",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesecaico.com/wp-content/uploads/2026/08/MIOLO-ANUARIO-2026.pdf",
+    "data": "2026-08",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Horários da página Horário das Missas da Diocese de Caicó, no ar em 11/2026 mas editada pela última vez em 01/09/2022; sem fonte recente que confirme. A fonte cita também a Capela de São José (Bairro Freitas), domingo 17h, missa ou celebração; não achada no banco com essa localidade."
+ },
+ {
+  "id_banco": "d5dea2a9-dbfd-5932-ad3b-0fa128c77977",
+  "nome": "Paróquia de São Francisco de Assis",
+  "categoria": "paroquia",
+  "cidade": "Lagoa Nova",
+  "padroeiro": "São Francisco de Assis",
+  "contatos": {
+   "telefone": "84996496790",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "psaofranciscodeassis_ln@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": "d5dea2a9-dbfd-5932-ad3b-0fa128c77977",
+    "nome": "Igreja Matriz de São Francisco de Assis",
+    "tipo": "matriz",
+    "cidade": "Lagoa Nova",
+    "localidade": "Centro",
+    "endereco": "Rua Dr. Sílvio Bezerra de Melo, 473",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "471fb207-1286-5650-85b5-777d40cbac1e",
+    "nome": "Capela de Santa Luzia",
+    "tipo": "capela",
+    "cidade": "Lagoa Nova",
+    "localidade": "Sítio Umarizeiro I",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "b3c55e34-75bc-5cb6-acd2-0d96b73980fd",
+    "nome": "Capela de Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Lagoa Nova",
+    "localidade": "Sítio Filgueira",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "5d9f56d6-6bc7-5a3b-a642-f583df3a80e3",
+    "nome": "Capela de Santa Luzia",
+    "tipo": "capela",
+    "cidade": "Lagoa Nova",
+    "localidade": "Sítio Macambira II",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "cf54162f-eff8-5356-952e-6251c798b808",
+    "nome": "Capela de São José",
+    "tipo": "capela",
+    "cidade": "Lagoa Nova",
+    "localidade": "Baixa Grande",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesecaico.com/horario-das-missas/",
+    "data": "2022-09",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesecaico.com/wp-content/uploads/2026/08/MIOLO-ANUARIO-2026.pdf",
+    "data": "2026-08",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Horários da página Horário das Missas da Diocese de Caicó, no ar em 11/2026 mas editada pela última vez em 01/09/2022; sem fonte recente que confirme. A fonte diz só Comunidade Umarizeiro, Filgueira e Macambira; as capelas foram casadas pelo santo com as do banco."
+ },
+ {
+  "id_banco": "fdd22a10-60e3-54ae-b742-119fa5ffb51f",
+  "nome": "Paróquia do Divino Espírito Santo",
+  "categoria": "paroquia",
+  "cidade": "Ouro Branco",
+  "padroeiro": "Divino Espírito Santo",
+  "contatos": {
+   "telefone": "84981111724",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiadodivinoob@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": "fdd22a10-60e3-54ae-b742-119fa5ffb51f",
+    "nome": "Igreja Matriz do Divino Espírito Santo",
+    "tipo": "matriz",
+    "cidade": "Ouro Branco",
+    "localidade": "Divino Espírito Santo",
+    "endereco": "Largo Monsenhor Ernesto, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Sábado 16h: missa de trigésimo dia e afins, na maioria dos sábados. Quinta 18h: Hora da Graça."
+   },
+   {
+    "id_banco": "7882aa65-9ea9-55f1-b3ec-811541953c4b",
+    "nome": "Capela de Nossa Senhora das Graças",
+    "tipo": "capela",
+    "cidade": "Ouro Branco",
+    "localidade": "Bairro Castelo dos Montes",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "ec6c077c-aa31-567c-93c8-df8e6e8ab636",
+    "nome": "Capela de Nossa Senhora de Fátima",
+    "tipo": "capela",
+    "cidade": "Ouro Branco",
+    "localidade": "Comunidade Timbaúba",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "3119d852-ff55-5929-9c9c-579a87696e0f",
+    "nome": "Capela de São Francisco e São Sebastião",
+    "tipo": "capela",
+    "cidade": "Ouro Branco",
+    "localidade": "Comunidade de Lages e Poção",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "e165df69-70da-500f-b0fa-2f7b1b0ae01b",
+    "nome": "Capela de São João Paulo II",
+    "tipo": "capela",
+    "cidade": "Ouro Branco",
+    "localidade": "Comunidade Aroeiras",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "b6e6ca21-5f6b-52bd-8c69-e47fd12fbf58",
+    "nome": "Capela de São Roque",
+    "tipo": "capela",
+    "cidade": "Ouro Branco",
+    "localidade": "Comunidade São Roque",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Duas Ipueiras",
+    "tipo": "comunidade",
+    "cidade": "Ouro Branco",
+    "localidade": "Duas Ipueiras",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesecaico.com/horario-das-missas/",
+    "data": "2022-09",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesecaico.com/wp-content/uploads/2026/08/MIOLO-ANUARIO-2026.pdf",
+    "data": "2026-08",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Horários da página Horário das Missas da Diocese de Caicó, no ar em 11/2026 mas editada pela última vez em 01/09/2022; sem fonte recente que confirme. Casa paroquial: (84) 3477-0076 (anuário)."
+ },
+ {
+  "id_banco": "e106ede3-03cf-5112-9927-69a4e5fc9b36",
+  "nome": "Paróquia de São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "Parelhas",
+  "padroeiro": "São Sebastião",
+  "contatos": {
+   "telefone": "84998406527",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiassdeparelhas@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": "e106ede3-03cf-5112-9927-69a4e5fc9b36",
+    "nome": "Igreja Matriz de São Sebastião",
+    "tipo": "matriz",
+    "cidade": "Parelhas",
+    "localidade": "Centro",
+    "endereco": "Rua Manoel Azevedo, 46",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "040c8c87-a907-5529-8d33-de1f77c6e0dc",
+    "nome": "Capela de São José",
+    "tipo": "capela",
+    "cidade": "Parelhas",
+    "localidade": "Bairro São Sebastião",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "00b2a51b-a4da-53e5-94a8-8a00d43bee8f",
+    "nome": "Capela de São Cristóvão",
+    "tipo": "capela",
+    "cidade": "Parelhas",
+    "localidade": "Bairro Ivan Bezerra",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesecaico.com/horario-das-missas/",
+    "data": "2022-09",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesecaico.com/wp-content/uploads/2026/08/MIOLO-ANUARIO-2026.pdf",
+    "data": "2026-08",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Horários da página Horário das Missas da Diocese de Caicó, no ar em 11/2026 mas editada pela última vez em 01/09/2022; sem fonte recente que confirme. Santuário de Nossa Senhora de Fátima em item próprio."
+ },
+ {
+  "id_banco": "9799ecf3-ff24-5526-86d4-7964e985137f",
+  "nome": "Santuário de Nossa Senhora de Fátima",
+  "categoria": "santuario",
+  "cidade": "Parelhas",
+  "padroeiro": "Nossa Senhora de Fátima",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": "9799ecf3-ff24-5526-86d4-7964e985137f",
+    "nome": "Santuário de Nossa Senhora de Fátima",
+    "tipo": "santuario",
+    "cidade": "Parelhas",
+    "localidade": "Bairro Maria Terceira",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesecaico.com/horario-das-missas/",
+    "data": "2022-09",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Horários da página Horário das Missas da Diocese de Caicó, no ar em 11/2026 mas editada pela última vez em 01/09/2022; sem fonte recente que confirme. Santuário da Paróquia de São Sebastião."
+ },
+ {
+  "id_banco": "3eca40cb-fd1c-5c98-b0cf-4a4fc327f190",
+  "nome": "Paróquia de Sant'Ana",
+  "categoria": "paroquia",
+  "cidade": "Santana do Seridó",
+  "padroeiro": "Sant'Ana",
+  "contatos": {
+   "telefone": "84987093342",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasantana.serido@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": "3eca40cb-fd1c-5c98-b0cf-4a4fc327f190",
+    "nome": "Igreja Matriz de Sant'Ana",
+    "tipo": "matriz",
+    "cidade": "Santana do Seridó",
+    "localidade": "Centro",
+    "endereco": "Avenida Zezé Aprígio, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": "Missa com as crianças"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": [
+       4
+      ],
+      "observacao": "Missa da juventude"
+     }
+    ],
+    "nao_cabe": "Quarta 19h: missa na casa de uma família, cada semana numa casa."
+   },
+   {
+    "id_banco": "1953de96-4966-545d-9f22-a57d2450e642",
+    "nome": "Capela de São Bento",
+    "tipo": "capela",
+    "cidade": "Santana do Seridó",
+    "localidade": "Sítio São Bento",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Verdes",
+    "tipo": "comunidade",
+    "cidade": "Santana do Seridó",
+    "localidade": "Verdes",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "a5b16634-b0be-5d17-8a35-5ea0257417b4",
+    "nome": "Capela de Santa Luzia",
+    "tipo": "capela",
+    "cidade": "Santana do Seridó",
+    "localidade": "Sítio Tuiuiu",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesecaico.com/horario-das-missas/",
+    "data": "2022-09",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesecaico.com/wp-content/uploads/2026/08/MIOLO-ANUARIO-2026.pdf",
+    "data": "2026-08",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Horários da página Horário das Missas da Diocese de Caicó, no ar em 11/2026 mas editada pela última vez em 01/09/2022; sem fonte recente que confirme."
+ },
+ {
+  "id_banco": "2ef7a662-c3d1-5367-a719-836ce0158cc8",
+  "nome": "Paróquia de Nossa Senhora do Ó",
+  "categoria": "paroquia",
+  "cidade": "Serra Negra do Norte",
+  "padroeiro": "Nossa Senhora do Ó",
+  "contatos": {
+   "telefone": "84999784894",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquianossasenhoradoo@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": "2ef7a662-c3d1-5367-a719-836ce0158cc8",
+    "nome": "Igreja Matriz de Nossa Senhora do Ó",
+    "tipo": "matriz",
+    "cidade": "Serra Negra do Norte",
+    "localidade": "Centro",
+    "endereco": "Rua Dom José Delgado, 10",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "17:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "09:00",
+      "semanas": [
+       2
+      ],
+      "observacao": "Missa das crianças"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": "Missa pelos fiéis defuntos"
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "268c1c3c-6d6e-5bc2-bf81-d8f4b5989e3c",
+    "nome": "Capela de Nossa Senhora do Rosário",
+    "tipo": "capela",
+    "cidade": "Serra Negra do Norte",
+    "localidade": "Bairro Ambrozina Bezerra",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "baf69c03-c5b6-5f04-80fe-bf67108dac67",
+    "nome": "Capela de Nossa Senhora de Fátima",
+    "tipo": "capela",
+    "cidade": "Serra Negra do Norte",
+    "localidade": "Sítio Pitombeira",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "1e0ef046-3418-5127-aac7-d258fec3360b",
+    "nome": "Capela de Nossa Senhora do Carmo",
+    "tipo": "capela",
+    "cidade": "Serra Negra do Norte",
+    "localidade": "Sítio Entre Serras",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "1018a809-adbe-5cbe-88a7-2c67673811e7",
+    "nome": "Capela de São João Batista",
+    "tipo": "capela",
+    "cidade": "Serra Negra do Norte",
+    "localidade": "Sítio Pintado",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "ccb7c7a5-869d-58ba-b317-5208a5e1f0d9",
+    "nome": "Capela de São José",
+    "tipo": "capela",
+    "cidade": "Serra Negra do Norte",
+    "localidade": "Sítio Arapuá",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "16:00",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "18a65038-c4ea-556f-a7da-3fffed369b1c",
+    "nome": "Capela de São Cristóvão",
+    "tipo": "capela",
+    "cidade": "Serra Negra do Norte",
+    "localidade": "Sítio Lagoa da Serra",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Missa na 2ª quinta do mês; horário não informado."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesecaico.com/horario-das-missas/",
+    "data": "2022-09",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesecaico.com/wp-content/uploads/2026/08/MIOLO-ANUARIO-2026.pdf",
+    "data": "2026-08",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Horários da página Horário das Missas da Diocese de Caicó, no ar em 11/2026 mas editada pela última vez em 01/09/2022; sem fonte recente que confirme. Há ainda missas em residências no Sítio Câimbra (1º domingo, 16h) e no Sítio Frutuoso (4º domingo, 16h). A Capela do Rosário foi casada com a do Bairro Ambrozina Bezerra."
+ },
+ {
+  "id_banco": "9cd867c9-9633-5ebe-94d9-d366e38d1273",
+  "nome": "Paróquia de Nossa Senhora do Patrocínio",
+  "categoria": "paroquia",
+  "cidade": "São Fernando",
+  "padroeiro": "Nossa Senhora do Patrocínio",
+  "contatos": {
+   "telefone": "84999057690",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "pnossasenhoradopatrocinio@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": "9cd867c9-9633-5ebe-94d9-d366e38d1273",
+    "nome": "Igreja Matriz de Nossa Senhora do Patrocínio",
+    "tipo": "matriz",
+    "cidade": "São Fernando",
+    "localidade": "Centro",
+    "endereco": "Rua Major Antônio Garcia, 44",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "a0028d31-d32a-5a89-8b0a-7114d8adbf81",
+    "nome": "Capela de Nossa Senhora das Dores",
+    "tipo": "capela",
+    "cidade": "São Fernando",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Quinta: adoração ao Santíssimo depois da missa das 8h até as 18h."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesecaico.com/horario-das-missas/",
+    "data": "2022-09",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesecaico.com/wp-content/uploads/2026/08/MIOLO-ANUARIO-2026.pdf",
+    "data": "2026-08",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Horários da página Horário das Missas da Diocese de Caicó, no ar em 11/2026 mas editada pela última vez em 01/09/2022; sem fonte recente que confirme."
+ },
+ {
+  "id_banco": "e477dcfa-cd9d-598e-8726-4bf327b1acca",
+  "nome": "Paróquia de São José",
+  "categoria": "paroquia",
+  "cidade": "São José do Seridó",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "84986880253",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "http://www.saojoseparoquia.blogspot.com",
+   "email": "paroquiasjs@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": "e477dcfa-cd9d-598e-8726-4bf327b1acca",
+    "nome": "Igreja Matriz de São José",
+    "tipo": "matriz",
+    "cidade": "São José do Seridó",
+    "localidade": "Centro",
+    "endereco": "Rua Manoel Theodoro, 215",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "bf14e865-5a74-503d-8544-f4382fd06e9e",
+    "nome": "Capela de Nossa Senhora da Luz",
+    "tipo": "capela",
+    "cidade": "São José do Seridó",
+    "localidade": "Nova Bonita",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "5834313a-b867-5bff-a0c4-1b6f48776d32",
+    "nome": "Capela de São Paulo Apóstolo",
+    "tipo": "capela",
+    "cidade": "São José do Seridó",
+    "localidade": "Sítio São Paulo",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "a4969dd2-f3e8-5a22-bf9d-52abf0c88519",
+    "nome": "Capela de Santa Luzia",
+    "tipo": "capela",
+    "cidade": "São José do Seridó",
+    "localidade": "Caatinga Grande",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "cfd7ae62-263e-5020-aa88-48c5bc664ba1",
+    "nome": "Capela de Nossa Senhora de Fátima",
+    "tipo": "capela",
+    "cidade": "São José do Seridó",
+    "localidade": "Badaruco",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesecaico.com/horario-das-missas/",
+    "data": "2022-09",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesecaico.com/wp-content/uploads/2026/08/MIOLO-ANUARIO-2026.pdf",
+    "data": "2026-08",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Horários da página Horário das Missas da Diocese de Caicó, no ar em 11/2026 mas editada pela última vez em 01/09/2022; sem fonte recente que confirme."
+ },
+ {
+  "id_banco": "76cc15df-c1dd-5f29-b54c-cc38f3c00390",
+  "nome": "Paróquia de São João Batista",
+  "categoria": "paroquia",
+  "cidade": "São João do Sabugi",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "84998285887",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasjoaobatista24@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": "76cc15df-c1dd-5f29-b54c-cc38f3c00390",
+    "nome": "Igreja Matriz de São João Batista",
+    "tipo": "matriz",
+    "cidade": "São João do Sabugi",
+    "localidade": "Centro",
+    "endereco": "Rua Padre Joaquim Félix, 111",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "16aaede6-e3db-5535-81c3-641a98a20b9d",
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "São João do Sabugi",
+    "localidade": "Bairro São José",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "8d67bc7c-9454-5621-b30e-de3beb9314c0",
+    "nome": "Capela de Santo Antônio",
+    "tipo": "capela",
+    "cidade": "São João do Sabugi",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "148ddbfe-7c31-5270-ad06-b439395b2336",
+    "nome": "Capela de São Sebastião",
+    "tipo": "capela",
+    "cidade": "São João do Sabugi",
+    "localidade": "Acampamento do DNOCS",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Caeira",
+    "tipo": "comunidade",
+    "cidade": "São João do Sabugi",
+    "localidade": "Caeira",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Vila da Barra",
+    "tipo": "comunidade",
+    "cidade": "São João do Sabugi",
+    "localidade": "Vila da Barra",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Jerusalém",
+    "tipo": "comunidade",
+    "cidade": "São João do Sabugi",
+    "localidade": "Jerusalém",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesecaico.com/horario-das-missas/",
+    "data": "2022-09",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesecaico.com/wp-content/uploads/2026/08/MIOLO-ANUARIO-2026.pdf",
+    "data": "2026-08",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Horários da página Horário das Missas da Diocese de Caicó, no ar em 11/2026 mas editada pela última vez em 01/09/2022; sem fonte recente que confirme. A fonte põe nesta paróquia uma missa na 1ª sexta, 17h, na Igreja de N. Sra. do Perpétuo Socorro (não ficou claro se é a de Ipueira). Comunidade Acampamento casada com a capela do Acampamento do DNOCS."
+ },
+ {
+  "id_banco": "b829ec6c-d5e5-5a46-bc61-c147d760599a",
+  "nome": "Paróquia de São Vicente Férrer",
+  "categoria": "paroquia",
+  "cidade": "São Vicente",
+  "padroeiro": "São Vicente Férrer",
+  "contatos": {
+   "telefone": "84996863939",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasv2015@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": "b829ec6c-d5e5-5a46-bc61-c147d760599a",
+    "nome": "Igreja Matriz de São Vicente Férrer",
+    "tipo": "matriz",
+    "cidade": "São Vicente",
+    "localidade": "Centro",
+    "endereco": "Rua Manoel Higino de Araújo, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Segunda a sexta 16h e sábado 19h: missa na matriz ou nas comunidades rurais (alternando)."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesecaico.com/horario-das-missas/",
+    "data": "2022-09",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesecaico.com/wp-content/uploads/2026/08/MIOLO-ANUARIO-2026.pdf",
+    "data": "2026-08",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Horários da página Horário das Missas da Diocese de Caicó, no ar em 11/2026 mas editada pela última vez em 01/09/2022; sem fonte recente que confirme. Domingo 16h e sábado 16h: missas nas comunidades rurais, sem dizer quais."
+ },
+ {
+  "id_banco": "5e85833f-3ac1-5083-9fa2-1267fd5b74c9",
+  "nome": "Paróquia de São Francisco de Assis",
+  "categoria": "paroquia",
+  "cidade": "Tenente Laurentino Cruz",
+  "padroeiro": "São Francisco de Assis",
+  "contatos": {
+   "telefone": "84981275251",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasaofrancisco2015@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": "5e85833f-3ac1-5083-9fa2-1267fd5b74c9",
+    "nome": "Igreja Matriz de São Francisco de Assis",
+    "tipo": "matriz",
+    "cidade": "Tenente Laurentino Cruz",
+    "localidade": "Centro",
+    "endereco": "Avenida Manoel Nascimento, 54",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "0e094172-1f9d-5308-abb6-8cd7d680e684",
+    "nome": "Capela de Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Tenente Laurentino Cruz",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       3
+      ],
+      "observacao": "Missa da juventude"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "77689aae-7a2f-5b5e-80ce-bb4614cc056e",
+    "nome": "Capela de Nossa Senhora da Conceição",
+    "tipo": "capela",
+    "cidade": "Tenente Laurentino Cruz",
+    "localidade": "Sítio Cinco Cantos",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "16:00",
+      "semanas": [
+       1,
+       2,
+       3
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "7c3904cd-43b6-5fac-8548-de0b5014134d",
+    "nome": "Capela de São Pedro",
+    "tipo": "capela",
+    "cidade": "Tenente Laurentino Cruz",
+    "localidade": "Sítio Baixa do Mateus",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "7669f41f-940d-5678-84f0-dbe929f82b35",
+    "nome": "Capela de Nossa Senhora da Conceição",
+    "tipo": "capela",
+    "cidade": "Tenente Laurentino Cruz",
+    "localidade": "Sítio Patrício",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesecaico.com/horario-das-missas/",
+    "data": "2022-09",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesecaico.com/wp-content/uploads/2026/08/MIOLO-ANUARIO-2026.pdf",
+    "data": "2026-08",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Horários da página Horário das Missas da Diocese de Caicó, no ar em 11/2026 mas editada pela última vez em 01/09/2022; sem fonte recente que confirme. Todo dia 13: Missa de Cura e Libertação (local e hora não informados). Há missas em casas (Chã da Curicaca 3ª quinta 19h; Assentamento N. Sra. das Vitórias 2º sábado 19h; Muniz, Boa Vista e Canafístola 3º sábado 19h; Sítio José Antônio 2ª sexta 19h)."
+ },
+ {
+  "id_banco": "3f7e5004-438f-5258-aa42-3f43bae67c89",
+  "nome": "Paróquia de São Severino Mártir",
+  "categoria": "paroquia",
+  "cidade": "Timbaúba dos Batistas",
+  "padroeiro": "São Severino Mártir",
+  "contatos": {
+   "telefone": "84999386441",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "saoseverinomartirparoquia@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": "3f7e5004-438f-5258-aa42-3f43bae67c89",
+    "nome": "Igreja Matriz de São Severino Mártir",
+    "tipo": "matriz",
+    "cidade": "Timbaúba dos Batistas",
+    "localidade": "Centro",
+    "endereco": "Praça João Damasceno, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": "44558d19-e488-5c8a-981b-a847f227ae65",
+    "nome": "Capela de Nossa Senhora da Conceição",
+    "tipo": "capela",
+    "cidade": "Timbaúba dos Batistas",
+    "localidade": "Sítio Saudade",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesecaico.com/horario-das-missas/",
+    "data": "2022-09",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesecaico.com/wp-content/uploads/2026/08/MIOLO-ANUARIO-2026.pdf",
+    "data": "2026-08",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Horários da página Horário das Missas da Diocese de Caicó, no ar em 11/2026 mas editada pela última vez em 01/09/2022; sem fonte recente que confirme."
+ }
+]
