@@ -328,8 +328,12 @@ der dinheiro, não é ruim, só não é o foco.
 - ⬜ 👤 Para o mensal: CNPJ ou associação sem fins lucrativos
 
 ### Leva 21. Extras ⬜
-- ⬜ Santinhos e convites personalizados (batismo, primeira comunhão, crisma,
-  casamento, aniversário, santo de devoção): modelo simples grátis, especiais pagos
+- ✅ Santinhos e convites personalizados (Mais → Santinhos e convites):
+  batismo, primeira comunhão, crisma, casamento, aniversário e santo de
+  devoção; lembrança ou convite; pintura de domínio público do acervo dos
+  santos ou só a cruz; frase da nossa Bíblia (teste confere cada uma) ou
+  própria. Feito no aparelho (sem servidor). Moldura simples para todos,
+  dourada para apoiadores (só no site)
 - ⬜ Cursos de formação com texto próprio revisado: catequese de adultos,
   preparação para a crisma, rezar com a Bíblia, a missa explicada
 - ⬜ Áudio por último, quando der para pagar a IA: Evangelho narrado, terço
