@@ -93,7 +93,7 @@ describe("funções", () => {
     const r = await db.query<{ nome: string }>(`
       select p.proname as nome from pg_proc p join pg_namespace n on n.oid = p.pronamespace
       where n.nspname = 'public' and has_function_privilege('anon', p.oid, 'execute')`);
-    expect(r.rows.map((x) => x.nome).sort()).toEqual(["agenda_de_eventos", "agenda_de_horarios", "agenda_de_tercos", "agenda_perto", "buscar_paroquias", "cidades_com_paroquias", "contar_uso", "denunciar_intencao", "e_admin", "horarios_do_periodo", "igrejas_com_horarios", "meus_grupos", "procurar_paroquias", "remover_lembretes", "rezei_por", "salvar_lembretes", "sem_acento", "somar_na_campanha", "turmas_da_paroquia"]);
+    expect(r.rows.map((x) => x.nome).sort()).toEqual(["agenda_de_eventos", "agenda_de_horarios", "agenda_de_tercos", "agenda_perto", "buscar_paroquias", "cidades_com_paroquias", "contar_uso", "denunciar_intencao", "e_admin", "horarios_do_periodo", "igrejas_com_horarios", "meus_grupos", "procurar_paroquias", "remover_lembretes", "rezei_por", "roteiro_estado", "roteiro_por_codigo", "roteiros_do_terco", "salvar_lembretes", "sem_acento", "somar_na_campanha", "turmas_da_paroquia"]);
   });
 
   it("toda função definer fixa o search_path", async () => {

@@ -95,6 +95,15 @@ configurado desde o início) · **Supabase** plano gratuito (projeto
   `--destaque` mas não o `--dia` (a cor litúrgica). "Apoie" não aparece no
   app nativo. Nenhuma tela mostra quanto foi arrecadado (decisão do dono).
 
+- **Roteiros de oração** (migração 20261130000000): `roteiros` com `blocos`
+  (jsonb, tipos em `src/roteiros/tipos.ts`) e o estado ao vivo (`passo`,
+  `conta`, `ao_vivo`). Quem abre pelo link (`/r/<codigo>`) não precisa de conta:
+  lê por `roteiro_por_codigo`; a tabela só quem edita lê (dono, admin, quem
+  conduz o terço ligado). O ao vivo vai por Realtime broadcast no canal
+  `roteiro-<codigo>` (sem tabela no Realtime) e a tela relê o estado a cada
+  15 s por segurança. Leitura do bloco usa a numeração da NOSSA Bíblia (como o
+  leitor mostra), não a do lecionário.
+
 ## Acabamento profissional (pedido do dono, 10/11/2026)
 - **Sem cara de IA.** Código sem comentários explicativos (só o raro que evita
   um erro real); nomes claros falam por si.

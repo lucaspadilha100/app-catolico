@@ -1,5 +1,6 @@
 import type { SupabaseClient } from "@supabase/supabase-js";
 import { mesclarMarcas } from "@/biblia/marcas";
+import { mesclarMusicas } from "@/roteiros/musicas";
 
 export const CHAVES_SINCRONIZADAS = [
   "santinho-preferencias",
@@ -14,6 +15,7 @@ export const CHAVES_SINCRONIZADAS = [
   "santinho-igrejas-seguidas",
   "santinho-marcas",
   "santinho-plano",
+  "santinho-musicas",
 ] as const;
 
 const CHAVE_META = "santinho-sinc-meta";
@@ -65,6 +67,8 @@ export function mesclar(chave: string, local: string, remoto: string, localMaisN
     case "santinho-tercos-seguidos":
     case "santinho-igrejas-seguidas":
       return JSON.stringify((uniao(json(local, []), json(remoto, [])) as string[]).sort());
+    case "santinho-musicas":
+      return JSON.stringify(mesclarMusicas(json(local, []), json(remoto, [])));
     case "santinho-marcas":
       return JSON.stringify(mesclarMarcas(json(local, {}), json(remoto, {})));
     case "santinho-tercos-rezados": {
@@ -164,7 +168,7 @@ export async function sincronizar(cliente: SupabaseClient): Promise<{ recebidas:
   gravarMetas(metas);
   if (recebidas.length) {
     for (const chave of recebidas) window.dispatchEvent(new StorageEvent("storage", { key: chave }));
-    for (const evento of ["santinho-devocoes", "santinho-falecidos", "santinho-santos-de-devocao", "santinho-tercos-seguidos", "santinho-igrejas-seguidas", "santinho-marcas"]) window.dispatchEvent(new Event(evento));
+    for (const evento of ["santinho-devocoes", "santinho-falecidos", "santinho-santos-de-devocao", "santinho-tercos-seguidos", "santinho-igrejas-seguidas", "santinho-marcas", "santinho-musicas"]) window.dispatchEvent(new Event(evento));
   }
   window.dispatchEvent(new Event(EVENTO_SINCRONIZADO));
   return { recebidas: recebidas.length, enviadas: enviar.length };

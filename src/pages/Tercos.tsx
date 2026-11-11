@@ -25,6 +25,8 @@ import {
   type TercoCompleto,
 } from "@/tercos/api";
 import { useTercosSeguidos } from "@/tercos/seguidos";
+import { roteirosDoTerco, type RoteiroDoTerco } from "@/roteiros/api";
+import { quandoDoRoteiro } from "@/roteiros/roteiro";
 import type { Dezena, Encontro, Terco } from "@/tercos/tipos";
 import { compartilhar, enderecoPublico } from "@/lib/nativo";
 import { linkComoChegar } from "@/lib/comoChegar";
@@ -191,6 +193,30 @@ function Contato({ href, icone: Icone, rotulo, children }: { href: string; icone
   );
 }
 
+function RoteirosDoTerco({ terco }: { terco: string }) {
+  const [lista, setLista] = useState<RoteiroDoTerco[]>([]);
+  useEffect(() => {
+    roteirosDoTerco(terco)
+      .then(setLista)
+      .catch(() => {});
+  }, [terco]);
+  if (!lista.length) return null;
+  return (
+    <Grupo titulo="Roteiros">
+      {lista.map((r) => (
+        <Link key={r.codigo} to={`/r/${r.codigo}`} className={LINHA}>
+          {r.ao_vivo ? <Radio className="size-5 shrink-0 animate-pulse text-destaque-texto" aria-hidden /> : <ListMusic className="size-5 shrink-0 text-destaque-texto" aria-hidden />}
+          <span className="min-w-0 flex-1">
+            <span className="block font-medium">{r.titulo}</span>
+            <span className="block text-sm text-tinta-suave">{r.ao_vivo ? "Ao vivo agora" : quandoDoRoteiro(r)}</span>
+          </span>
+          <ChevronRight className="size-5 shrink-0 text-tinta-suave" aria-hidden />
+        </Link>
+      ))}
+    </Grupo>
+  );
+}
+
 function Ajudantes({ terco }: { terco: string }) {
   const [lista, setLista] = useState<{ usuario_id: string; email: string }[]>([]);
   const [email, setEmail] = useState("");
@@ -330,16 +356,13 @@ export function TercoPagina() {
         </Cartao>
       )}
 
+      <RoteirosDoTerco terco={t.id} />
+
       {conduzo && (
         <Grupo titulo="Para quem conduz">
-          <Link to={`/tercos/${t.id}/ao-vivo?data=${encontro?.data ?? proxima ?? isoLocal(new Date())}`} className={LINHA}>
-            <Radio className="size-5 shrink-0 text-destaque-texto" aria-hidden />
-            <span className="min-w-0 flex-1 font-medium">Conduzir ao vivo</span>
-            <ChevronRight className="size-5 shrink-0 text-tinta-suave" aria-hidden />
-          </Link>
-          <Link to={`/tercos/${t.id}/encontro?data=${encontro?.data ?? proxima ?? ""}`} className={LINHA}>
+          <Link to={`/roteiros?terco=${t.id}&nome=${encodeURIComponent(t.nome)}`} className={LINHA}>
             <ListMusic className="size-5 shrink-0 text-destaque-texto" aria-hidden />
-            <span className="min-w-0 flex-1 font-medium">Montar o roteiro</span>
+            <span className="min-w-0 flex-1 font-medium">Montar o roteiro do encontro</span>
             <ChevronRight className="size-5 shrink-0 text-tinta-suave" aria-hidden />
           </Link>
           {responsavel && (

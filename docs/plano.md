@@ -352,3 +352,49 @@ der dinheiro, não é ruim, só não é o foco.
 ## Depois
 App Store (US$ 99 por ano) · terço com voz · licenças (CNBB, editoras) ·
 outras dioceses.
+
+## Diferenciais (pedido do dono, 11/11/2026)
+O fiel é o principal: cada leva resolve algo que hoje vive no papel, no balcão
+da secretaria ou no grupo de WhatsApp.
+
+### Leva 22. Roteiros de oração ✅
+Quem conduz monta o terço (ou a hora santa, a adoração) em blocos; quem
+participa acompanha no celular, ao vivo, pelo link ou pelo QR code.
+- ✅ Blocos: canto (nome, artista, link), imagem do santo, texto (oferecimento,
+  meditação, intenções, pregação, avisos), leitura da Bíblia, mistério, oração
+  com contas; cada bloco com "quem conduz"
+- ✅ Modelos prontos: terço, terço com cantos e meditações (como os terços da
+  juventude), Terço da Misericórdia, em branco
+- ✅ Dia, hora e local; ligado a um Terço da Juventude (o ajudante também
+  conduz) ou solto (grupo de amigos, terço dos homens, das crianças)
+- ✅ Ao vivo: quem conduz avança (as Ave-Marias contadas), todos veem o bloco
+  da vez; QR code e link para projetar ou mandar no grupo; quem abre não precisa
+  de conta
+- ✅ Guardar música para ouvir depois (Roteiros → Músicas guardadas)
+- ⬜ 👤 Testar num terço de verdade: montar, projetar o QR e conduzir
+
+### Leva 23. Escalas da paróquia ⬜
+Leitores, ministros, coroinhas, canto: o coordenador monta a escala, cada um vê
+quando serve, recebe lembrete e pede troca.
+
+### Leva 24. Intenções de missa ⬜
+O fiel pede a intenção (falecido, aniversário, ação de graças) com a oferta por
+PIX direto à paróquia; a secretaria recebe a lista de cada missa.
+
+### Leva 25. Cantos da missa de domingo ⬜
+A equipe de canto publica os títulos e os links dos cantos com as referências
+das leituras: o folheto digital, sem copiar texto protegido.
+
+### Leva 26. Relógio de oração e novena em grupo ⬜
+Cada um escolhe um horário (por um doente, por uma causa, adoração de 24 horas);
+o grupo reza a novena junto e vê quem rezou.
+
+### Leva 27. Graça alcançada ⬜
+Quem pediu oração conta a graça; quem rezou é avisado.
+
+### Leva 28. Catequese da paróquia ⬜
+Turmas, encontros, material e presença, com os pais acompanhando.
+
+### Leva 29. Rezar agora, por voz ⬜
+Um botão escolhe a oração da hora e o celular conduz em voz alta (voz do
+próprio aparelho, sem custo).
