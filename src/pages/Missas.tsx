@@ -877,6 +877,7 @@ export function ParoquiaPagina() {
           <span className="min-w-0 flex-1">
             <span className="text-tinta-suave">{matriz.tipo === "santuario" || matriz.tipo === "mosteiro" ? "Pertence ao " : "Pertence à "}</span>
             <span className="font-medium">{matriz.nome}</span>
+            {matriz.cidade !== p.cidade && <span className="text-tinta-suave">{`, ${matriz.cidade}`}</span>}
           </span>
           <ChevronRight className="size-5 shrink-0 text-tinta-suave" aria-hidden />
         </Link>
