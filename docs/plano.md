@@ -409,8 +409,10 @@ participa acompanha no celular, ao vivo, pelo link ou pelo QR code.
 - ✅ Novena em grupo (na página do grupo): o grupo começa uma novena do
   catálogo, cada um marca o dia rezado e todos veem quem rezou
 
-### Leva 27. Graça alcançada ⬜
-Quem pediu oração conta a graça; quem rezou é avisado.
+### Leva 27. Graça alcançada ✅
+- ✅ Quem pediu oração marca "Graça alcançada" com um testemunho curto (até
+  140 letras); o pedido fica visível mais 7 dias com o selo
+- ✅ Quem rezou pelo pedido (com conta) recebe o aviso (função `lembretes`)
 
 ### Leva 28. Catequese da paróquia ⬜
 Turmas, encontros, material e presença, com os pais acompanhando.

@@ -110,6 +110,37 @@ async function avisarQuemPediu(): Promise<number> {
   return total;
 }
 
+interface GracaAAvisar {
+  id: string;
+  nome: string;
+  graca_texto: string;
+  quem_rezou: string[];
+}
+
+async function avisarGracas(): Promise<number> {
+  const { data } = await banco.rpc("gracas_a_avisar");
+  let total = 0;
+  for (const g of (data ?? []) as GracaAAvisar[]) {
+    for (let de = 0; de < g.quem_rezou.length; de += 200) {
+      const ids = g.quem_rezou.slice(de, de + 200);
+      const { data: subs } = await banco.from("lembrete_inscricoes").select("endpoint, p256dh, auth, lembretes").in("usuario_id", ids);
+      const aviso = { tipo: `graca-${g.id}`, titulo: "Graça alcançada", corpo: g.graca_texto ? `Pelo pedido por ${g.nome}: ${g.graca_texto}` : `O pedido por ${g.nome} foi atendido. Obrigado por rezar.`, url: "/intencoes" };
+      for (const s of (subs ?? []) as Pick<Inscricao, "endpoint" | "p256dh" | "auth" | "lembretes">[]) {
+        if (s.lembretes.oracoes === false) continue;
+        try {
+          await webpush.sendNotification({ endpoint: s.endpoint, keys: { p256dh: s.p256dh, auth: s.auth } }, JSON.stringify(aviso), { TTL: 86_400, urgency: "low" });
+          total++;
+        } catch (e) {
+          const status = (e as { statusCode?: number }).statusCode;
+          if (status === 404 || status === 410) await banco.from("lembrete_inscricoes").delete().eq("endpoint", s.endpoint);
+        }
+      }
+    }
+    await banco.from("intencoes").update({ graca_avisada: true }).eq("id", g.id);
+  }
+  return total;
+}
+
 Deno.serve(async () => {
   const agora = new Date();
   let enviados = 0;
@@ -154,5 +185,6 @@ Deno.serve(async () => {
   }
   const avisos = await avisarSeguidores();
   const oracoes = await avisarQuemPediu();
-  return new Response(JSON.stringify({ enviados, removidos, avisos, oracoes }), { headers: { "Content-Type": "application/json" } });
+  const gracas = await avisarGracas();
+  return new Response(JSON.stringify({ enviados, removidos, avisos, oracoes, gracas }), { headers: { "Content-Type": "application/json" } });
 });

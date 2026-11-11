@@ -36,6 +36,13 @@ export interface Intencao {
   oculta: boolean;
   criado_em: string;
   expira_em: string;
+  graca_em?: string | null;
+  graca_texto?: string;
+}
+
+export async function gracaAlcancada(id: string, texto: string) {
+  const c = await cliente();
+  ou(await c.rpc("graca_alcancada", { p_intencao: id, p_texto: texto }));
 }
 
 export async function meuId(): Promise<string | null> {

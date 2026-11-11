@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef, useState, type FormEvent } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import { CartaoDaCampanha } from "@/components/Campanha";
-import { Check, ChevronRight, Flag, HandHeart, Link2, Plus, Radio, Trash2, UserMinus, Users } from "lucide-react";
+import { Check, ChevronRight, Flag, HandHeart, Link2, Plus, Radio, Sparkles, Trash2, UserMinus, Users } from "lucide-react";
 import { useConta } from "@/conta/useConta";
 import { MISTERIOS, grupoDoDiaDaSemana, type GrupoDeMisterios } from "@/liturgia/terco";
 import { passosDoRosario } from "@/oracao/terco";
@@ -11,6 +11,7 @@ import {
   TIPOS_DE_INTENCAO,
   apagarGrupo,
   apagarIntencao,
+  gracaAlcancada,
   carregarGrupo,
   comecarTercoDoGrupo,
   criarGrupo,
@@ -77,6 +78,9 @@ function ItemDeIntencao({ i, eu, aoApagar }: { i: Intencao; eu: string | null; a
   const [total, setTotal] = useState(i.rezaram);
   const [denunciando, setDenunciando] = useState(false);
   const [denunciada, setDenunciada] = useState(false);
+  const [graca, setGraca] = useState<{ texto: string } | null>(i.graca_em ? { texto: i.graca_texto ?? "" } : null);
+  const [contando, setContando] = useState(false);
+  const [texto, setTexto] = useState("");
 
   async function rezar() {
     if (rezei) return;
@@ -97,6 +101,37 @@ function ItemDeIntencao({ i, eu, aoApagar }: { i: Intencao; eu: string | null; a
   return (
     <li className="flex flex-col gap-3 px-4 py-4">
       <p className="font-leitura text-lg leading-snug text-marca">{fraseDaIntencao(i.tipo, i.nome)}</p>
+      {graca && (
+        <div className="rounded-xl bg-marca-fundo px-3 py-2">
+          <p className="flex items-center gap-1.5 text-sm font-semibold text-destaque-texto">
+            <Sparkles className="size-4" aria-hidden /> Graça alcançada
+          </p>
+          {graca.texto && <p className="mt-1 text-tinta">{graca.texto}</p>}
+        </div>
+      )}
+      {meu && !graca && aoApagar && (
+        contando ? (
+          <form
+            onSubmit={(e) => {
+              e.preventDefault();
+              void gracaAlcancada(i.id, texto).then(() => {
+                setGraca({ texto: texto.trim() });
+                setContando(false);
+              });
+            }}
+            className="flex flex-col gap-2"
+          >
+            <input value={texto} onChange={(e) => setTexto(e.target.value)} placeholder="Conte em poucas palavras" aria-label="Testemunho" maxLength={140} className="min-h-12 w-full rounded-xl border border-borda bg-papel px-3 text-base text-tinta outline-none" />
+            <button type="submit" className="min-h-11 rounded-xl bg-destaque font-semibold text-sobre-destaque">
+              Contar a graça
+            </button>
+          </form>
+        ) : (
+          <button type="button" onClick={() => setContando(true)} className="flex min-h-10 w-fit items-center gap-1.5 rounded-full border border-borda px-4 text-sm font-medium text-destaque-texto">
+            <Sparkles className="size-4" aria-hidden /> Graça alcançada
+          </button>
+        )
+      )}
       <div className="flex items-center gap-2">
         <span className="min-w-0 flex-1 text-sm text-tinta-suave">
           {haQuanto(i.criado_em)}

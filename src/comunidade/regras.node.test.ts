@@ -57,6 +57,18 @@ describe("intenções", () => {
     expect((await db.query("select rezaram, avisado from public.intencoes where id = $1", [pedido])).rows[0]).toEqual({ rezaram: 3, avisado: 2 });
   });
 
+  it("graça alcançada: só quem pediu marca; o aviso só a função marca", async () => {
+    await expect(como("authenticated", BIA, "select public.graca_alcancada($1, 'Invasão')", [pedido])).rejects.toThrow(/permissao/);
+    await como("authenticated", ANA, "select public.graca_alcancada($1, 'Ela saiu do hospital. Obrigada a todos!')", [pedido]);
+    expect((await como("anon", null, "select graca_texto, graca_em is not null as ok from public.intencoes where id = $1", [pedido])).rows).toEqual([{ graca_texto: "Ela saiu do hospital. Obrigada a todos!", ok: true }]);
+    await como("authenticated", ADMIN, "update public.intencoes set graca_avisada = true where id = $1", [pedido]);
+    expect((await db.query("select graca_avisada from public.intencoes where id = $1", [pedido])).rows[0]).toEqual({ graca_avisada: false });
+    await db.query("set role service_role");
+    const r = await db.query<{ quem_rezou: string[] }>("select quem_rezou from public.gracas_a_avisar()");
+    await db.query("reset role");
+    expect(r.rows[0]!.quem_rezou.sort()).toEqual([BIA, CAIO].sort());
+  });
+
   it("três denúncias de pessoas com conta escondem; anônimo registra mas não esconde", async () => {
     for (let i = 0; i < 5; i++) await como("anon", null, "select public.denunciar_intencao($1, 'ofensivo')", [pedido]);
     expect((await como("anon", null, "select id from public.intencoes where id = $1", [pedido])).rows).toHaveLength(1);
