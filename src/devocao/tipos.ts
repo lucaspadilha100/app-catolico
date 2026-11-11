@@ -47,15 +47,21 @@ export interface ConteudoDoRoteiro {
   depois: Bloco[];
 }
 
+export type TempoDoOficio = "advento" | "natal";
+
+export type Noturnos = [Bloco[], Bloco[], Bloco[]];
+
 export interface Hora {
   id: string;
   nome: string;
   latim: string;
   blocos: Bloco[];
+  tempos?: Partial<Record<TempoDoOficio, Bloco[]>>;
 }
 
 export interface ConteudoDoOficio {
   revisao: Revisao;
   horas: Hora[];
-  noturnos: [Bloco[], Bloco[], Bloco[]];
+  noturnos: Noturnos;
+  noturnosDoTempo?: Partial<Record<TempoDoOficio, Noturnos>>;
 }

@@ -6,6 +6,8 @@ import { livroPorCodigo } from "@/biblia/livros";
 import { ORACOES, todosOsTextos, type Linha } from "@/oracao/oracoes";
 import { MAIS_ORACOES } from "@/oracao/oracoes-devocoes";
 import { CURSOS, DESAFIOS, NOVENAS } from "./catalogo";
+import { deIso } from "@/liturgia/datas";
+import { blocosDaHora, tempoDoOficio } from "./tempo-do-oficio";
 import type { Bloco, Etapa } from "./tipos";
 
 const raiz = join(__dirname, "../..");
@@ -176,6 +178,67 @@ describe("consagração, Via-Sacra, Semana Santa e Ofício", () => {
       expect(n.length, `noturno ${i + 1}`).toBeGreaterThan(0);
       conferirBlocos(`noturno ${i + 1}`, n);
     });
+  });
+
+  it("Pequeno Ofício: variações do Advento e do Natal", () => {
+    const c = avulsos["./oficio.ts"]?.default as import("./tipos").ConteudoDoOficio | undefined;
+    if (!c) return;
+    for (const h of c.horas) {
+      expect(h.tempos?.advento, `${h.id} no Advento`).toBeDefined();
+      if (h.id !== "matinas") expect(h.tempos?.natal, `${h.id} no Natal`).toBeDefined();
+      for (const [tempo, blocos] of Object.entries(h.tempos ?? {})) {
+        expect(blocos.length, `${h.id} ${tempo}`).toBeGreaterThan(0);
+        conferirBlocos(`${h.id} ${tempo}`, blocos, { noturno: h.id === "matinas" });
+      }
+    }
+    const advento = c.noturnosDoTempo?.advento;
+    expect(advento).toBeDefined();
+    advento?.forEach((n, i) => conferirBlocos(`noturno ${i + 1} no Advento`, n));
+
+    const matinas = c.horas[0]!;
+    const adventoDeSabado = blocosDaHora(c, matinas, "advento", 2);
+    expect(adventoDeSabado.some((b) => "rezar" in b && b.rezar === "te-deum")).toBe(false);
+    expect(adventoDeSabado.filter((b) => "leitura" in b && b.leitura.startsWith("LUK 1:")).map((b) => "leitura" in b && b.leitura)).toEqual([
+      "LUK 1:26-28",
+      "LUK 1:29-33",
+      "LUK 1:34-38",
+    ]);
+    expect(adventoDeSabado.some((b) => "antifona" in b && b.antifona.startsWith("O Anjo do Senhor"))).toBe(true);
+    expect(blocosDaHora(c, matinas, "natal", 0)).toEqual(blocosDaHora(c, matinas, "comum", 0));
+
+    const vesperas = c.horas.find((h) => h.id === "vesperas")!;
+    const antifonas = (blocos: Bloco[]) => blocos.flatMap((b) => ("antifona" in b ? [b.antifona] : []));
+    expect(antifonas(blocosDaHora(c, vesperas, "advento", 0))[0]).toMatch(/^O anjo Gabriel/);
+    expect(antifonas(blocosDaHora(c, vesperas, "natal", 0))[0]).toMatch(/^Ó admirável troca/);
+    expect(antifonas(blocosDaHora(c, vesperas, "comum", 0))[0]).toMatch(/^Enquanto o Rei/);
+  });
+});
+
+describe("tempo do Pequeno Ofício", () => {
+  const casos: [string, string, string][] = [
+    ["2026-11-27", "completas", "comum"],
+    ["2026-11-28", "laudes", "comum"],
+    ["2026-11-28", "noa", "comum"],
+    ["2026-11-28", "vesperas", "advento"],
+    ["2026-11-28", "completas", "advento"],
+    ["2026-11-29", "matinas", "advento"],
+    ["2026-12-08", "laudes", "advento"],
+    ["2026-12-24", "noa", "advento"],
+    ["2026-12-24", "vesperas", "natal"],
+    ["2026-12-24", "completas", "natal"],
+    ["2026-12-25", "matinas", "natal"],
+    ["2026-12-31", "completas", "natal"],
+    ["2027-01-01", "laudes", "natal"],
+    ["2027-02-02", "completas", "natal"],
+    ["2027-02-03", "matinas", "comum"],
+    ["2025-11-29", "laudes", "comum"],
+    ["2025-11-29", "vesperas", "advento"],
+    ["2027-11-27", "vesperas", "advento"],
+    ["2027-11-26", "vesperas", "comum"],
+    ["2027-06-15", "laudes", "comum"],
+  ];
+  it.each(casos)("%s, %s: %s", (data, hora, tempo) => {
+    expect(tempoDoOficio(deIso(data)!, hora)).toBe(tempo);
   });
 });
 

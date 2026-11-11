@@ -3,7 +3,7 @@ import { ChevronRight } from "lucide-react";
 import { diaDaSemana, hoje } from "@/liturgia/datas";
 import { NOTURNO_DO_DIA } from "@/devocao/calendario";
 import { carregarOficio } from "@/devocao/conteudo";
-import type { Bloco } from "@/devocao/tipos";
+import { NOME_DO_TEMPO_DO_OFICIO, blocosDaHora, tempoDoOficio } from "@/devocao/tempo-do-oficio";
 import { Blocos } from "@/components/Blocos";
 import { Cabecalho, Carregando, Indisponivel, Voltar, useConteudo } from "@/components/Devocao";
 
@@ -19,6 +19,11 @@ const LIMITES: [number, string][] = [
 ];
 
 const horaDeAgora = () => LIMITES.find(([h]) => new Date().getHours() < h)![1];
+
+const comTempo = (subtitulo: string, hora: string) => {
+  const tempo = tempoDoOficio(hoje(), hora);
+  return tempo === "comum" ? subtitulo : `${subtitulo} · ${NOME_DO_TEMPO_DO_OFICIO[tempo]}`;
+};
 
 export default function Oficio() {
   const conteudo = useConteudo(carregarOficio, "oficio");
@@ -42,7 +47,7 @@ export default function Oficio() {
     return (
       <div className="flex flex-col gap-5">
         <Voltar para="/rezar">Rezar</Voltar>
-        <Cabecalho titulo="Pequeno Ofício de Nossa Senhora" subtitulo="Officium Parvum Beatae Mariae Virginis" />
+        <Cabecalho titulo="Pequeno Ofício de Nossa Senhora" subtitulo={comTempo("Officium Parvum Beatae Mariae Virginis", agora)} />
         <div className="flex flex-col gap-2">
           {conteudo.horas.map((h) => (
             <Link
@@ -65,14 +70,13 @@ export default function Oficio() {
     );
   }
 
-  const noturno = conteudo.noturnos[NOTURNO_DO_DIA[diaDaSemana(hoje())]!];
-  const blocos: Bloco[] = hora.blocos.flatMap((b) => ("noturno" in b ? noturno : [b]));
+  const blocos = blocosDaHora(conteudo, hora, tempoDoOficio(hoje(), hora.id), NOTURNO_DO_DIA[diaDaSemana(hoje())]!);
   const proxima = conteudo.horas[indice + 1];
 
   return (
     <div className="flex flex-col gap-5">
       <Voltar para="/rezar/oficio">Pequeno Ofício</Voltar>
-      <Cabecalho titulo={hora.nome} subtitulo={hora.latim} />
+      <Cabecalho titulo={hora.nome} subtitulo={comTempo(hora.latim, hora.id)} />
       <Blocos blocos={blocos} />
       {proxima && (
         <Link
