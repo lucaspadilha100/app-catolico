@@ -3,7 +3,7 @@ import { Link, useParams, useSearchParams } from "react-router-dom";
 import { AtSign, BadgeCheck, Bell, Check, ChevronDown, ChevronRight, Clock, Globe, Heart, LocateFixed, Mail, MapPin, MessageCircle, Navigation, Pencil, Phone, Plus, Search, Share2 } from "lucide-react";
 import { usePreferencias } from "@/lib/preferencias";
 import { useConta } from "@/conta/useConta";
-import { agendaDeHorarios, carregarParoquia, cidadesComParoquias, enviarSugestao, igrejasComHorarios, procurarParoquias, type Cidade, type Local, type ParoquiaCompleta } from "@/paroquias/api";
+import { agendaDeEventos, agendaDeHorarios, carregarParoquia, cidadesComParoquias, enviarSugestao, igrejasComHorarios, procurarParoquias, type Cidade, type Local, type ParoquiaCompleta } from "@/paroquias/api";
 import {
   agoraLocal,
   agruparDias,
@@ -436,6 +436,7 @@ export function Missas() {
   const { local, estado, pedir } = useLocal();
   const termo = params.get("q") ?? "";
   const ehTerco = params.get("tipo") === "terco";
+  const ehEvento = params.get("tipo") === "eventos";
   const tipo = (TIPOS.includes(params.get("tipo") as TipoDeHorario) ? params.get("tipo") : "missa") as TipoDeHorario;
   const quandoBruto = params.get("quando") ?? "agora";
   const periodo = (PERIODOS.some(([v]) => v === params.get("periodo")) ? params.get("periodo") : "") as Periodo;
@@ -480,6 +481,7 @@ export function Missas() {
   const consulta = useMemo(() => {
     if (!onde) return null;
     const j = janela(quando, periodo, new Date());
+    if (ehEvento && quando === "agora") j.fim = new Date(j.inicio.getTime() + 7 * 86_400_000);
     return {
       ...onde,
       tipo,
@@ -488,7 +490,7 @@ export function Missas() {
       horas: Math.max(1, Math.ceil((j.fim.getTime() - j.inicio.getTime()) / 3_600_000)),
       passou: j.fim <= j.inicio,
     };
-  }, [onde, quando, periodo, tipo]);
+  }, [onde, quando, periodo, tipo, ehEvento]);
   const chave = consulta ? JSON.stringify(consulta) : null;
   const vazioJa = async <T,>(): Promise<T[]> => [];
 
@@ -497,10 +499,11 @@ export function Missas() {
       ? agendaDeTercos(consulta, pular, 30).then((r) => r.map((x) => ({ paroquia_id: x.terco_id, nome: x.nome, bairro: x.bairro, cidade: x.cidade, distancia_km: x.distancia_km, quando: x.quando, ate: null, observacao: x.observacao, total: x.total })))
       : vazioJa(),
   );
-  const agenda = usePaginas<ItemDaAgenda>(!ehTerco && ordem === "horario" ? chave : null, 30, (pular) =>
+  const eventos = usePaginas<ItemDaAgenda>(ehEvento ? chave : null, 30, (pular) => (consulta && !consulta.passou ? agendaDeEventos(consulta, pular, 30) : vazioJa()));
+  const agenda = usePaginas<ItemDaAgenda>(!ehTerco && !ehEvento && ordem === "horario" ? chave : null, 30, (pular) =>
     consulta && !consulta.passou ? agendaDeHorarios(consulta, pular, 30) : vazioJa(),
   );
-  const igrejas = usePaginas<IgrejaComHorarios>(!ehTerco && ordem === "igreja" ? chave : null, 20, (pular) =>
+  const igrejas = usePaginas<IgrejaComHorarios>(!ehTerco && !ehEvento && ordem === "igreja" ? chave : null, 20, (pular) =>
     consulta && !consulta.passou ? igrejasComHorarios(consulta, pular, 20) : vazioJa(),
   );
   const t = termo.trim();
@@ -533,10 +536,10 @@ export function Missas() {
   ];
   const off = deslocamento(quando, agora);
   const diaAtivo = off === null ? "agora" : off === 0 ? "hoje" : off === 1 ? "amanha" : DIA_POR_CHAVE[(agora.getDay() + off) % 7]!;
-  const vazio = ehTerco ? "Nenhum terço neste período." : `Nenhuma ${NOME_DO_TIPO_DE_HORARIO[tipo].toLowerCase()} neste período.`;
+  const vazio = ehTerco ? "Nenhum terço neste período." : ehEvento ? "Nenhum evento neste período." : `Nenhuma ${NOME_DO_TIPO_DE_HORARIO[tipo].toLowerCase()} neste período.`;
   const resumoOnde = modo === "cidade" ? `${cidade!.cidade}${cidade!.uf ? `, ${cidade!.uf}` : ""}` : `Perto de mim · até ${raio} km`;
   const proximoRaio = RAIOS.find((r) => r > raio);
-  const atual = ehTerco ? tercos : ordem === "horario" ? agenda : igrejas;
+  const atual = ehTerco ? tercos : ehEvento ? eventos : ordem === "horario" ? agenda : igrejas;
   const contagem =
     atual.carregando || atual.total === null
       ? ""
@@ -544,6 +547,10 @@ export function Missas() {
         ? atual.total === 1
           ? "1 terço"
           : `${atual.total} terços`
+        : ehEvento
+        ? atual.total === 1
+          ? "1 evento"
+          : `${atual.total} eventos`
         : ordem === "horario"
         ? atual.total === 1
           ? "1 horário"
@@ -623,8 +630,8 @@ export function Missas() {
           {modo !== "nenhum" && (
             <>
               <Chips
-                opcoes={[...TIPOS.map((x) => [x, NOME_DO_TIPO_DE_HORARIO[x]] as const), ["terco", "Terço"] as const]}
-                valor={ehTerco ? "terco" : tipo}
+                opcoes={[...TIPOS.map((x) => [x, NOME_DO_TIPO_DE_HORARIO[x]] as const), ["terco", "Terço"] as const, ["eventos", "Eventos"] as const]}
+                valor={ehTerco ? "terco" : ehEvento ? "eventos" : tipo}
                 onChange={(v) => mudarParams({ tipo: v === "missa" ? null : v })}
               />
               <Chips rolar opcoes={dias} valor={diaAtivo} onChange={(v) => mudarParams({ quando: v === "agora" ? null : v, periodo: v === "agora" ? null : periodo || null })} />
@@ -632,7 +639,7 @@ export function Missas() {
 
               <div className="flex items-center justify-between gap-3 pt-1">
                 <span className="text-sm text-tinta-suave">{contagem}</span>
-                {!ehTerco && (
+                {!ehTerco && !ehEvento && (
                   <Segmentos
                     opcoes={[
                       ["horario", "Por horário"],
@@ -652,6 +659,8 @@ export function Missas() {
                 <p className="py-4 text-center text-tinta-suave">{vazio}</p>
               ) : ehTerco ? (
                 <PorHorario itens={tercos.itens} agora={agora} base="/tercos/" />
+              ) : ehEvento ? (
+                <PorHorario itens={eventos.itens} agora={agora} />
               ) : ordem === "horario" ? (
                 <PorHorario itens={agenda.itens} agora={agora} />
               ) : (
@@ -659,7 +668,7 @@ export function Missas() {
               )}
               {!atual.carregando && atual.temMais && (
                 <MostrarMais onClick={atual.mais} buscando={atual.buscandoMais}>
-                  {ehTerco ? "Mais terços" : ordem === "horario" ? "Mais horários" : "Mais igrejas"}
+                  {ehTerco ? "Mais terços" : ehEvento ? "Mais eventos" : ordem === "horario" ? "Mais horários" : "Mais igrejas"}
                 </MostrarMais>
               )}
               {!atual.carregando && !atual.erro && (atual.total ?? 0) < 3 && modo === "perto" && proximoRaio && (

@@ -62,6 +62,24 @@ const argumentosDoPeriodo = (p: Onde & Periodo, pular: number, limite: number) =
   p_ate: p.ate,
 });
 
+export async function agendaDeEventos(p: Onde & Periodo, pular = 0, limite = 30): Promise<ItemDaAgenda[]> {
+  const c = await cliente();
+  const r = ou(
+    await c.rpc("agenda_de_eventos", {
+      p_lat: p.local?.lat ?? null,
+      p_lng: p.local?.lng ?? null,
+      p_inicio: p.inicio,
+      p_horas: p.horas,
+      p_raio_km: p.raioKm ?? 10,
+      p_limite: limite,
+      p_cidade: p.cidade?.cidade ?? "",
+      p_uf: p.cidade?.uf ?? "",
+      p_pular: pular,
+    }),
+  ) as { paroquia_id: string; titulo: string; paroquia: string; cidade: string; distancia_km: number | null; quando: string; local: string; total: number }[];
+  return r.map((e) => ({ paroquia_id: e.paroquia_id, nome: e.titulo, bairro: e.paroquia, cidade: e.cidade, distancia_km: e.distancia_km, quando: e.quando, ate: null, observacao: e.local, total: e.total }));
+}
+
 export async function agendaDeHorarios(p: Onde & Periodo, pular = 0, limite = 30): Promise<ItemDaAgenda[]> {
   const c = await cliente();
   return ou(await c.rpc("agenda_de_horarios", argumentosDoPeriodo(p, pular, limite))) as ItemDaAgenda[];

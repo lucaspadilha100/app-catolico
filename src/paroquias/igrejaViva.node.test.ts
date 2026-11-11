@@ -68,3 +68,13 @@ describe("mural", () => {
     await expect(como("authenticated", SECRETARIA, "insert into public.publicacoes_paroquia (paroquia_id, titulo) values ($1, 'Aviso demais')", [paroquia])).rejects.toThrow(/limite/);
   });
 });
+
+describe("eventos na busca", () => {
+  it("aparecem por cidade e perto, no horário de Brasília", async () => {
+    await db.query("update public.paroquias set lat = -5.80, lng = -35.21 where id = $1", [paroquia]);
+    const r = await como("anon", null, "select titulo, quando::text, paroquia from public.agenda_de_eventos(null, null, '2027-03-19 00:00', 168, 10, 30, 'natal', 'RN')");
+    expect(r.rows).toEqual([{ titulo: "Procissão de São José", quando: "2027-03-19 18:00:00", paroquia: "Paróquia de São José" }]);
+    expect((await como("anon", null, "select titulo from public.agenda_de_eventos(-5.81, -35.20, '2027-03-19 12:00', 12)")).rows).toHaveLength(1);
+    expect((await como("anon", null, "select titulo from public.agenda_de_eventos(-5.81, -35.20, '2027-03-20 12:00', 12)")).rows).toHaveLength(0);
+  });
+});
