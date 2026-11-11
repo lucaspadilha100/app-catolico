@@ -80,3 +80,17 @@ export const FESTAS_DA_CONSAGRACAO: FestaDaConsagracao[] = [
   { nome: "Apresentação de Nossa Senhora", mes: 11, dia: 21 },
   { nome: "Imaculada Conceição", mes: 12, dia: 8 },
 ];
+
+export interface Curso {
+  id: string;
+  nome: string;
+  resumo: string;
+  licoes: number;
+}
+
+export const CURSOS: Curso[] = [
+  { id: "missa-explicada", nome: "A missa explicada", resumo: "O que acontece em cada parte da missa e por quê", licoes: 7 },
+  { id: "rezar-com-a-biblia", nome: "Rezar com a Bíblia", resumo: "Como ler, meditar e rezar a Palavra de Deus", licoes: 6 },
+  { id: "preparacao-para-a-crisma", nome: "Preparação para a crisma", resumo: "O sacramento da confirmação e a vida no Espírito", licoes: 8 },
+  { id: "catequese-de-adultos", nome: "Catequese de adultos", resumo: "A fé da Igreja, do Credo à vida eterna", licoes: 10 },
+];

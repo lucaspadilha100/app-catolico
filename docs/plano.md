@@ -334,8 +334,11 @@ der dinheiro, não é ruim, só não é o foco.
   santos ou só a cruz; frase da nossa Bíblia (teste confere cada uma) ou
   própria. Feito no aparelho (sem servidor). Moldura simples para todos,
   dourada para apoiadores (só no site)
-- ⬜ Cursos de formação com texto próprio revisado: catequese de adultos,
-  preparação para a crisma, rezar com a Bíblia, a missa explicada
+- ✅ Cursos de formação (Mais → Cursos de formação), texto próprio com a
+  leitura da nossa Bíblia em cada lição e o progresso guardado na conta:
+  A missa explicada (7 lições), Rezar com a Bíblia (6), Preparação para a
+  crisma (8), Catequese de adultos (10)
+- ⬜ 👤 Revisar os 4 cursos: pontos em `docs/cursos/a-revisar.md`
 - ⬜ Áudio por último, quando der para pagar a IA: Evangelho narrado, terço
   guiado com voz, Bíblia narrada
 

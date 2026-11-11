@@ -1,5 +1,5 @@
 import { useState, type ReactNode } from "react";
-import { Bell, CalendarDays, Image, Church, FileText, HandHeart, Heart, LayoutDashboard, NotebookPen, Share2, ShieldCheck, Sparkles, UserRound } from "lucide-react";
+import { Bell, CalendarDays, GraduationCap, Image, Church, FileText, HandHeart, Heart, LayoutDashboard, NotebookPen, Share2, ShieldCheck, Sparkles, UserRound } from "lucide-react";
 import { ehApoiador, usePreferencias, type CorDoApp, type Letra, type Tema } from "@/lib/preferencias";
 import { Cartao, Grupo, ItemLista, LINHA, TituloPagina } from "@/components/Cartao";
 import { DIOCESES } from "@/liturgia/dioceses";
@@ -102,6 +102,7 @@ export default function Mais() {
         <Grupo titulo="Conhecer">
           <ItemLista icone={Sparkles} titulo="Santos" para="/santos" />
           <ItemLista icone={CalendarDays} titulo="Calendário litúrgico" para="/calendario" />
+          <ItemLista icone={GraduationCap} titulo="Cursos de formação" para="/cursos" />
         </Grupo>
 
         <Grupo titulo="Para você">

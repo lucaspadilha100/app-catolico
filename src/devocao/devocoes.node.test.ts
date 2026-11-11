@@ -5,7 +5,7 @@ import { intervalosDaReferencia, textoDaReferencia } from "@/biblia/texto";
 import { livroPorCodigo } from "@/biblia/livros";
 import { ORACOES, todosOsTextos, type Linha } from "@/oracao/oracoes";
 import { MAIS_ORACOES } from "@/oracao/oracoes-devocoes";
-import { DESAFIOS, NOVENAS } from "./catalogo";
+import { CURSOS, DESAFIOS, NOVENAS } from "./catalogo";
 import type { Bloco, Etapa } from "./tipos";
 
 const raiz = join(__dirname, "../..");
@@ -19,6 +19,7 @@ beforeAll(() => {
 
 const novenas = import.meta.glob<{ default: import("./tipos").ConteudoDaNovena }>("./novenas/*.ts", { eager: true });
 const desafios = import.meta.glob<{ default: import("./tipos").ConteudoDoDesafio }>("./desafios/*.ts", { eager: true });
+const cursos = import.meta.glob<{ default: import("./tipos").ConteudoDoDesafio }>("./cursos/*.ts", { eager: true });
 const avulsos = import.meta.glob<{ default: unknown }>(["./consagracao.ts", "./via-sacra.ts", "./semana-santa.ts", "./oficio.ts"], {
   eager: true,
 });
@@ -29,6 +30,8 @@ const ROTAS = [
   /^\/rezar\/oracoes\/[a-z0-9-]+$/,
   /^\/rezar\/novenas\/[a-z0-9-]+$/,
   /^\/rezar\/desafios\/[a-z0-9-]+$/,
+  /^\/rezar\/(exame|confissao|missa)$/,
+  /^\/cursos\/[a-z0-9-]+$/,
   /^\/biblia\/[1-3]?[A-Z]{2,3}\/\d+$/,
 ];
 
@@ -105,6 +108,21 @@ describe("desafios", () => {
     expect(c.revisao).toBe("a revisar pelo dono");
     expect(c.etapas).toHaveLength(d.dias);
     conferirEtapas(id, c.etapas);
+  });
+});
+
+describe("cursos", () => {
+  it.each(CURSOS.map((c) => [c.id, c] as const))("%s", (id, curso) => {
+    const c = cursos[`./cursos/${id}.ts`]?.default;
+    expect(c, `falta src/devocao/cursos/${id}.ts`).toBeDefined();
+    if (!c) return;
+    expect(c.revisao).toBe("a revisar pelo dono");
+    expect(c.etapas).toHaveLength(curso.licoes);
+    conferirEtapas(id, c.etapas);
+  });
+
+  it("não há arquivo de curso fora do catálogo", () => {
+    for (const arquivo of Object.keys(cursos)) expect(CURSOS.map((c) => `./cursos/${c.id}.ts`)).toContain(arquivo);
   });
 });
 
