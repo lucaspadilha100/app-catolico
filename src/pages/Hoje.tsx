@@ -101,9 +101,9 @@ export default function Hoje() {
   return (
     <div className="flex flex-col gap-4">
       <section className="rounded-3xl border border-borda-dia bg-dia px-5 py-5 text-sobre-dia shadow-sm">
-        <p className="text-sm font-medium opacity-90">{dataPorExtenso(l.data)}</p>
+        <p className="text-sm font-medium">{dataPorExtenso(l.data)}</p>
         <h1 className="mt-1.5 font-leitura text-2xl font-semibold leading-snug sm:text-3xl">{l.titulo}</h1>
-        {subtitulo && <p className="mt-1.5 text-sm font-medium opacity-90">{subtitulo}</p>}
+        {subtitulo && <p className="mt-1.5 text-sm font-medium">{subtitulo}</p>}
         <div className="mt-3 flex flex-wrap gap-2 text-xs font-semibold">
           <span className="rounded-full bg-black/10 px-3 py-1">Cor: {NOME_DA_COR[l.cor]}</span>
           <span className="rounded-full bg-black/10 px-3 py-1">Ano {l.cicloDominical}</span>

@@ -82,7 +82,7 @@ export default function Terco() {
               }`}
             >
               {g === "completo" ? "Completo" : MISTERIOS[g].nome.replace("Mistérios ", "")}
-              {g === doDia && <span className="block text-[0.7rem] font-normal opacity-80">hoje</span>}
+              {g === doDia && <span className="block text-xs font-medium">hoje</span>}
             </button>
           ))}
         </div>
