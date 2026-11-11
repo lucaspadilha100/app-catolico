@@ -12,6 +12,7 @@ export interface Lembretes {
   novena?: string;
   novenas?: NovenaLembrada[];
   avisos?: boolean;
+  oracoes?: boolean;
   igrejas?: string[];
 }
 

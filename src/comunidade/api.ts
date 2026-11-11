@@ -61,6 +61,7 @@ export async function minhasIntencoes(): Promise<Intencao[]> {
 export async function pedirOracao(tipo: TipoDeIntencao, nome: string, grupo: string | null = null) {
   const c = await cliente();
   ou(await c.from("intencoes").insert({ tipo, nome, grupo_id: grupo }));
+  void import("@/lembretes/lembretes").then((m) => m.avisarMudancaDeIgrejas());
 }
 
 export async function apagarIntencao(id: string) {

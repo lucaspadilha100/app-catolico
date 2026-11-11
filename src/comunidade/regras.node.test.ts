@@ -44,6 +44,19 @@ describe("intenções", () => {
     expect(r.affectedRows ?? 0).toBe(0);
   });
 
+  it("só a função de avisos marca o que já foi avisado", async () => {
+    await como("authenticated", ADMIN, "update public.intencoes set avisado = 50 where id = $1", [pedido]);
+    expect((await db.query("select avisado from public.intencoes where id = $1", [pedido])).rows[0]).toEqual({ avisado: 0 });
+    await db.query("alter role service_role bypassrls");
+    await db.query("grant select, update on public.intencoes to service_role");
+    await db.query("set role service_role");
+    await db.query("update public.intencoes set avisado = rezaram, avisado_em = now() where id = $1", [pedido]);
+    await db.query("reset role");
+    expect((await db.query("select avisado from public.intencoes where id = $1", [pedido])).rows[0]).toEqual({ avisado: 2 });
+    await como("authenticated", CAIO, "select public.rezei_por($1)", [pedido]);
+    expect((await db.query("select rezaram, avisado from public.intencoes where id = $1", [pedido])).rows[0]).toEqual({ rezaram: 3, avisado: 2 });
+  });
+
   it("três denúncias de pessoas com conta escondem; anônimo registra mas não esconde", async () => {
     for (let i = 0; i < 5; i++) await como("anon", null, "select public.denunciar_intencao($1, 'ofensivo')", [pedido]);
     expect((await como("anon", null, "select id from public.intencoes where id = $1", [pedido])).rows).toHaveLength(1);

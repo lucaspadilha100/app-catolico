@@ -16,7 +16,7 @@ const URL_DO_BANCO = import.meta.env.VITE_SUPABASE_URL as string;
 const CHAVE_PUBLICA = import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY as string;
 export const VAPID_PUBLICA = "BDlqlVrwkACqpndHwa9otBwcn3cK-7dZzXvpQibKRKYzdHoZGvnFc3EcMVhW5Y2j-_LWGxcbqwEekCPhbpnmjQM";
 
-export const PADRAO: Lembretes = { evangelho: "07:00", angelus: true, terco: "20:00", novena: "09:00", avisos: true };
+export const PADRAO: Lembretes = { evangelho: "07:00", angelus: true, terco: "20:00", novena: "09:00", avisos: true, oracoes: true };
 
 export interface Guardado {
   ativo: boolean;

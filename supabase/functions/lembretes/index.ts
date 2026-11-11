@@ -80,6 +80,36 @@ async function avisarSeguidores(): Promise<number> {
   return total;
 }
 
+interface IntencaoAAvisar {
+  id: string;
+  autor_id: string;
+  nome: string;
+  novas: number;
+  rezaram: number;
+}
+
+async function avisarQuemPediu(): Promise<number> {
+  const { data } = await banco.rpc("intencoes_a_avisar");
+  let total = 0;
+  for (const i of (data ?? []) as IntencaoAAvisar[]) {
+    const { data: subs } = await banco.from("lembrete_inscricoes").select("endpoint, p256dh, auth, lembretes").eq("usuario_id", i.autor_id).limit(10);
+    const corpo = i.novas === 1 ? `1 pessoa rezou pelo seu pedido por ${i.nome}.` : `${i.novas} pessoas rezaram pelo seu pedido por ${i.nome}.`;
+    const aviso = { tipo: `rezaram-${i.id}`, titulo: "Rezaram por você", corpo, url: "/intencoes" };
+    for (const s of (subs ?? []) as Pick<Inscricao, "endpoint" | "p256dh" | "auth" | "lembretes">[]) {
+      if (s.lembretes.oracoes === false) continue;
+      try {
+        await webpush.sendNotification({ endpoint: s.endpoint, keys: { p256dh: s.p256dh, auth: s.auth } }, JSON.stringify(aviso), { TTL: 86_400, urgency: "low" });
+        total++;
+      } catch (e) {
+        const status = (e as { statusCode?: number }).statusCode;
+        if (status === 404 || status === 410) await banco.from("lembrete_inscricoes").delete().eq("endpoint", s.endpoint);
+      }
+    }
+    await banco.from("intencoes").update({ avisado: i.rezaram, avisado_em: new Date().toISOString() }).eq("id", i.id);
+  }
+  return total;
+}
+
 Deno.serve(async () => {
   const agora = new Date();
   let enviados = 0;
@@ -116,5 +146,6 @@ Deno.serve(async () => {
     if (lista.length < 500) break;
   }
   const avisos = await avisarSeguidores();
-  return new Response(JSON.stringify({ enviados, removidos, avisos }), { headers: { "Content-Type": "application/json" } });
+  const oracoes = await avisarQuemPediu();
+  return new Response(JSON.stringify({ enviados, removidos, avisos, oracoes }), { headers: { "Content-Type": "application/json" } });
 });
