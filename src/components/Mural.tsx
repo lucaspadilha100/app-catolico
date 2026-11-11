@@ -5,7 +5,7 @@ import { NOME_DO_DIA, hhmm } from "@/paroquias/horarios";
 import { Cartao, LISTA } from "@/components/Cartao";
 
 const CAMPO = "min-h-12 w-full rounded-xl border border-borda bg-papel px-3 text-base text-tinta outline-none focus:border-destaque-texto";
-const BOTAO = "flex min-h-12 items-center justify-center gap-2 rounded-xl bg-destaque px-4 font-semibold text-sobre-destaque disabled:opacity-50";
+const BOTAO = "flex min-h-12 items-center justify-center gap-2 rounded-xl bg-primario px-4 font-semibold text-sobre-primario disabled:opacity-50";
 const POR_PAGINA = 10;
 
 function quandoFoi(iso: string): string {
@@ -25,11 +25,11 @@ function ItemDoMural({ p, podeEditar, aoApagar }: { p: Publicacao; podeEditar: b
   return (
     <li className="flex flex-col gap-2 px-4 py-4">
       <div className="flex items-start gap-3">
-        <span className="mt-0.5 grid size-9 shrink-0 place-items-center rounded-xl bg-marca-fundo text-destaque-texto">
+        <span className="mt-0.5 grid size-9 shrink-0 place-items-center rounded-2xl bg-papel text-tinta">
           {p.tipo === "evento" ? <CalendarDays className="size-5" aria-hidden /> : <Megaphone className="size-5" aria-hidden />}
         </span>
         <div className="min-w-0 flex-1">
-          <p className="font-leitura text-lg font-semibold leading-snug text-marca">{p.titulo}</p>
+          <p className="text-lg font-bold leading-snug text-marca tracking-[-0.02em]">{p.titulo}</p>
           <p className="text-sm text-tinta-suave">
             {p.tipo === "evento" && p.evento_em ? [dataDoEvento(p.evento_em), p.local].filter(Boolean).join(" · ") : quandoFoi(p.criado_em)}
           </p>
@@ -99,7 +99,7 @@ function Publicar({ paroquia, aoPublicar }: { paroquia: string; aoPublicar: () =
               ["evento", "Evento"],
             ] as const
           ).map(([v, nome]) => (
-            <button key={v} type="button" aria-pressed={tipo === v} onClick={() => setTipo(v)} className={`min-h-10 rounded-lg font-medium ${tipo === v ? "bg-destaque text-sobre-destaque" : "text-tinta-suave"}`}>
+            <button key={v} type="button" aria-pressed={tipo === v} onClick={() => setTipo(v)} className={`min-h-10 rounded-lg font-medium ${tipo === v ? "bg-primario text-sobre-primario" : "text-tinta-suave"}`}>
               {nome}
             </button>
           ))}
@@ -159,7 +159,7 @@ export function Mural({ paroquia, podeEditar }: { paroquia: string; podeEditar: 
       <div className="flex items-center justify-between gap-2 px-1">
         <h2 className="text-xs font-semibold uppercase tracking-wide text-destaque-texto">Mural</h2>
         {podeEditar && !escrevendo && (
-          <button type="button" onClick={() => setEscrevendo(true)} className="flex min-h-10 items-center gap-1.5 rounded-full bg-destaque px-4 text-sm font-semibold text-sobre-destaque">
+          <button type="button" onClick={() => setEscrevendo(true)} className="flex min-h-10 items-center gap-1.5 rounded-full bg-primario px-4 text-sm font-semibold text-sobre-primario">
             <Plus className="size-4" aria-hidden /> Publicar
           </button>
         )}

@@ -3,7 +3,7 @@ import { Check, Plus } from "lucide-react";
 import { NOME_DA_ORACAO_DA_CAMPANHA, campanhaDoMomento, somarNaCampanha, type Campanha } from "@/comunidade/api";
 import { Cartao } from "@/components/Cartao";
 
-const BOTAO = "flex min-h-12 items-center justify-center gap-2 rounded-xl bg-destaque px-4 font-semibold text-sobre-destaque disabled:opacity-50";
+const BOTAO = "flex min-h-12 items-center justify-center gap-2 rounded-xl bg-primario px-4 font-semibold text-sobre-primario disabled:opacity-50";
 const SECUNDARIO = "flex min-h-12 items-center justify-center gap-2 rounded-xl border border-borda bg-cartao px-4 font-semibold text-tinta";
 
 export function CartaoDaCampanha() {
@@ -34,7 +34,7 @@ export function CartaoDaCampanha() {
   }
   return (
     <Cartao className="flex flex-col gap-3">
-      <p className="font-leitura text-xl font-semibold text-marca">{c.titulo}</p>
+      <p className="text-xl font-bold text-marca tracking-[-0.02em]">{c.titulo}</p>
       <div className="h-2.5 w-full overflow-hidden rounded-full bg-marca-fundo" role="progressbar" aria-valuenow={c.contagem} aria-valuemin={0} aria-valuemax={c.meta}>
         <div className="h-full rounded-full bg-destaque" style={{ width: `${Math.max(p, 1)}%` }} />
       </div>

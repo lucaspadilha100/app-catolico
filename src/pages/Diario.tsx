@@ -31,7 +31,7 @@ function Diario() {
           aria-label="Escrever no diário"
           className="w-full resize-y rounded-xl border border-borda bg-papel px-3 py-2 font-leitura text-[1.05rem]"
         />
-        <button type="button" onClick={guardar} disabled={!texto.trim()} className="min-h-12 rounded-xl bg-destaque font-semibold text-sobre-destaque disabled:opacity-50">
+        <button type="button" onClick={guardar} disabled={!texto.trim()} className="min-h-12 rounded-xl bg-primario font-semibold text-sobre-primario disabled:opacity-50">
           Guardar
         </button>
       </Cartao>
@@ -74,19 +74,19 @@ function Propositos() {
           aria-label="Novo propósito"
           className="min-h-12 min-w-0 flex-1 rounded-xl border border-borda bg-papel px-3 text-base"
         />
-        <button type="button" onClick={incluir} disabled={!texto.trim()} className="min-h-12 rounded-xl bg-destaque px-4 font-semibold text-sobre-destaque disabled:opacity-50">
+        <button type="button" onClick={incluir} disabled={!texto.trim()} className="min-h-12 rounded-xl bg-primario px-4 font-semibold text-sobre-primario disabled:opacity-50">
           Incluir
         </button>
       </div>
       <ul className="flex flex-col gap-2">
         {lista.map((p) => (
-          <li key={p.id} className="flex items-center gap-3 rounded-2xl border border-borda bg-cartao px-3 py-2">
+          <li key={p.id} className="flex items-center gap-3 rounded-3xl bg-cartao px-3 py-2">
             <button
               type="button"
               onClick={() => mudar((c) => ({ ...c, propositos: c.propositos.map((x) => (x.id === p.id ? { ...x, feito: !x.feito } : x)) }))}
               aria-pressed={p.feito}
               aria-label={p.feito ? "Marcar como não cumprido" : "Marcar como cumprido"}
-              className={`grid size-8 shrink-0 place-items-center rounded-md border-2 ${p.feito ? "border-destaque bg-destaque text-sobre-destaque" : "border-borda"}`}
+              className={`grid size-8 shrink-0 place-items-center rounded-md border-2 ${p.feito ? "border-primario bg-primario text-sobre-primario" : "border-borda"}`}
             >
               {p.feito && <Check className="size-5" aria-hidden />}
             </button>
@@ -133,7 +133,7 @@ export default function DiarioEspiritual() {
                 role="tab"
                 aria-selected={aba === valor}
                 onClick={() => setParams(valor === "diario" ? {} : { aba: valor }, { replace: true })}
-                className={`min-h-10 rounded-lg px-4 text-sm font-medium ${aba === valor ? "bg-destaque text-sobre-destaque" : "text-tinta-suave"}`}
+                className={`min-h-10 rounded-lg px-4 text-sm font-medium ${aba === valor ? "bg-primario text-sobre-primario" : "text-tinta-suave"}`}
               >
                 {nome}
               </button>

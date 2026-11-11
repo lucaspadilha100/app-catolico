@@ -7,7 +7,7 @@ export { Voltar } from "@/components/Voltar";
 export function Cabecalho({ titulo, subtitulo }: { titulo: string; subtitulo?: string }) {
   return (
     <header>
-      <h1 className="font-leitura text-3xl font-semibold leading-tight tracking-tight text-marca">{titulo}</h1>
+      <h1 className="titulo-pagina">{titulo}</h1>
       {subtitulo && <p className="mt-1 text-tinta-suave">{subtitulo}</p>}
     </header>
   );
@@ -64,7 +64,7 @@ export function EscolhaDeDia({
             aria-label={`${ordinal(d)} dia${feito ? ", rezado" : ""}${d === hoje ? ", hoje" : ""}`}
             className={`relative grid size-11 place-items-center rounded-full border-2 text-sm font-semibold transition-colors ${
               escolhido
-                ? "border-destaque bg-destaque text-sobre-destaque"
+                ? "border-primario bg-primario text-sobre-primario"
                 : feito
                   ? "border-destaque/60 bg-marca-fundo text-destaque-texto"
                   : "border-borda bg-cartao text-tinta-suave"
@@ -85,7 +85,7 @@ export function BotaoRezei({ feito, onClick, children }: { feito: boolean; onCli
       onClick={onClick}
       aria-pressed={feito}
       className={`flex min-h-14 w-full items-center justify-center gap-2 rounded-2xl px-4 text-lg font-semibold ${
-        feito ? "border border-borda bg-cartao text-destaque-texto" : "bg-destaque text-sobre-destaque"
+        feito ? "border border-borda bg-cartao text-destaque-texto" : "bg-primario text-sobre-primario"
       }`}
     >
       {feito && <Check className="size-6" aria-hidden />}

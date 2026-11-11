@@ -34,7 +34,7 @@ function FuiMeConfessar({ aoFechar }: { aoFechar: () => void }) {
   };
   return (
     <Cartao className="flex flex-col gap-3">
-      <h2 className="font-leitura text-xl font-semibold text-marca">Fui me confessar</h2>
+      <h2 className="text-xl font-bold text-marca tracking-[-0.02em]">Fui me confessar</h2>
       <p className="text-tinta-suave">Os pecados marcados e as anotações serão apagados. Ficam os propósitos.</p>
       <p className="text-sm font-medium text-tinta">Propósitos desta confissão</p>
       {novos.map((t, i) => (
@@ -53,7 +53,7 @@ function FuiMeConfessar({ aoFechar }: { aoFechar: () => void }) {
         <button type="button" onClick={aoFechar} className="min-h-12 rounded-xl border border-borda bg-cartao font-semibold text-tinta-suave">
           Cancelar
         </button>
-        <button type="button" onClick={confirmar} className="min-h-12 rounded-xl bg-destaque font-semibold text-sobre-destaque">
+        <button type="button" onClick={confirmar} className="min-h-12 rounded-xl bg-primario font-semibold text-sobre-primario">
           Confirmar
         </button>
       </div>
@@ -105,7 +105,7 @@ function ExameAberto({ exame }: { exame: TipoExame }) {
             aria-pressed={estado === e.valor}
             onClick={() => mudar((x) => ({ ...x, estado: e.valor }))}
             className={`min-h-11 rounded-xl border px-2 text-sm font-medium ${
-              estado === e.valor ? "border-transparent bg-destaque text-sobre-destaque" : "border-borda bg-cartao text-tinta"
+              estado === e.valor ? "border-transparent bg-primario text-sobre-primario" : "border-borda bg-cartao text-tinta"
             }`}
           >
             {e.nome}
@@ -120,13 +120,13 @@ function ExameAberto({ exame }: { exame: TipoExame }) {
             const n = itens.filter((i) => c.marcados.includes(i.id)).length;
             const aberta = secao === s.id;
             return (
-              <section key={s.id} className="rounded-2xl border border-borda bg-cartao">
+              <section key={s.id} className="rounded-3xl bg-cartao">
                 <button type="button" onClick={() => setSecao(aberta ? null : s.id)} aria-expanded={aberta} className="flex min-h-16 w-full items-center gap-3 px-4 py-3 text-left">
                   <span className="min-w-0 flex-1">
-                    <span className="block font-leitura text-[1.05rem] font-semibold text-marca">{s.titulo}</span>
+                    <span className="block text-[1.05rem] font-bold text-marca tracking-[-0.02em]">{s.titulo}</span>
                     {s.subtitulo && <span className="block text-sm text-tinta-suave">{s.subtitulo}</span>}
                   </span>
-                  {n > 0 && <span className="grid size-7 place-items-center rounded-full bg-destaque text-sm font-semibold text-sobre-destaque">{n}</span>}
+                  {n > 0 && <span className="grid size-7 place-items-center rounded-full bg-primario text-sm font-semibold text-sobre-primario">{n}</span>}
                   <ChevronDown className={`size-5 shrink-0 text-tinta-suave transition-transform ${aberta ? "rotate-180" : ""}`} aria-hidden />
                 </button>
                 {aberta && (
@@ -136,7 +136,7 @@ function ExameAberto({ exame }: { exame: TipoExame }) {
                       return (
                         <li key={i.id}>
                           <button type="button" onClick={() => alternar(i.id)} aria-pressed={marcado} className="flex min-h-14 w-full items-start gap-3 px-4 py-3 text-left">
-                            <span className={`mt-0.5 grid size-6 shrink-0 place-items-center rounded-md border-2 ${marcado ? "border-destaque bg-destaque text-sobre-destaque" : "border-borda"}`}>
+                            <span className={`mt-0.5 grid size-6 shrink-0 place-items-center rounded-md border-2 ${marcado ? "border-primario bg-primario text-sobre-primario" : "border-borda"}`}>
                               {marcado && <Check className="size-4" aria-hidden />}
                             </span>
                             <span className="min-w-0 flex-1">
@@ -192,7 +192,7 @@ function ExameAberto({ exame }: { exame: TipoExame }) {
         <FuiMeConfessar aoFechar={() => setConfessar(false)} />
       ) : (
         estado && (
-          <button type="button" onClick={() => setConfessar(true)} className="min-h-14 rounded-2xl bg-destaque text-lg font-semibold text-sobre-destaque">
+          <button type="button" onClick={() => setConfessar(true)} className="min-h-14 rounded-2xl bg-primario text-lg font-semibold text-sobre-primario">
             Fui me confessar
           </button>
         )

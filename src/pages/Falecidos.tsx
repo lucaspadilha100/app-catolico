@@ -44,9 +44,9 @@ export default function Falecidos() {
           {ordenados.map(({ f, l }) => {
             const faltam = l ? diferencaEmDias(l.data, h) : null;
             return (
-              <li key={f.id} className="flex items-start gap-3 rounded-2xl border border-borda bg-cartao px-4 py-3">
+              <li key={f.id} className="flex items-start gap-3 rounded-3xl bg-cartao px-4 py-3">
                 <span className="min-w-0 flex-1">
-                  <span className="block font-leitura text-[1.1rem] font-semibold text-marca">{f.nome}</span>
+                  <span className="block text-[1.1rem] font-bold text-marca tracking-[-0.02em]">{f.nome}</span>
                   <span className="block text-sm text-tinta-suave">Faleceu em {dataLonga(f.data)}</span>
                   {l && (
                     <span className={`mt-1 block text-sm font-medium ${faltam === 0 ? "text-destaque-texto" : "text-tinta"}`}>
@@ -70,7 +70,7 @@ export default function Falecidos() {
 
       <Cartao>
         <form onSubmit={enviar} className="flex flex-col gap-3">
-          <h2 className="font-leitura text-xl font-semibold text-marca">Lembrar de alguém</h2>
+          <h2 className="text-xl font-bold text-marca tracking-[-0.02em]">Lembrar de alguém</h2>
           <label className="flex flex-col gap-1">
             <span className="text-sm font-medium text-tinta-suave">Nome</span>
             <input value={nome} onChange={(e) => setNome(e.target.value)} className="min-h-12 rounded-xl border border-borda bg-papel px-3 text-base" />
@@ -79,7 +79,7 @@ export default function Falecidos() {
             <span className="text-sm font-medium text-tinta-suave">Dia do falecimento</span>
             <input type="date" value={data} onChange={(e) => setData(e.target.value)} className="min-h-12 rounded-xl border border-borda bg-papel px-3 text-base" />
           </label>
-          <button type="submit" disabled={!valido} className="min-h-12 rounded-xl bg-destaque font-semibold text-sobre-destaque disabled:opacity-50">
+          <button type="submit" disabled={!valido} className="min-h-12 rounded-xl bg-primario font-semibold text-sobre-primario disabled:opacity-50">
             Guardar
           </button>
         </form>

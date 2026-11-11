@@ -77,7 +77,7 @@ function Entrar() {
               role="tab"
               aria-selected={modo === v}
               onClick={() => trocar(v)}
-              className={`min-h-10 rounded-lg text-sm font-semibold ${modo === v ? "bg-destaque text-sobre-destaque" : "text-tinta-suave"}`}
+              className={`min-h-10 rounded-lg text-sm font-semibold ${modo === v ? "bg-primario text-sobre-primario" : "text-tinta-suave"}`}
             >
               {nome}
             </button>
@@ -112,7 +112,7 @@ function Entrar() {
               </ul>
             </>
           )}
-          <button type="submit" disabled={!pode || ocupado} className="min-h-12 rounded-xl bg-destaque font-semibold text-sobre-destaque disabled:opacity-50">
+          <button type="submit" disabled={!pode || ocupado} className="min-h-12 rounded-xl bg-primario font-semibold text-sobre-primario disabled:opacity-50">
             {ocupado ? "Aguarde" : modo === "entrar" ? "Entrar" : "Criar conta"}
           </button>
         </form>
@@ -208,7 +208,7 @@ function Documento({ titulo, secoes }: { titulo: string; secoes: Secao[] }) {
       <Cabecalho titulo={titulo} subtitulo={`Atualizado em ${ATUALIZADO_EM}`} />
       {secoes.map((s) => (
         <section key={s.titulo} className="flex flex-col gap-2">
-          <h2 className="font-leitura text-xl font-semibold text-marca">{s.titulo}</h2>
+          <h2 className="text-xl font-bold text-marca tracking-[-0.02em]">{s.titulo}</h2>
           {s.paragrafos.map((p, i) => (
             <p key={i} className="leading-relaxed text-tinta">
               {p.replace("CONTATO", contato)}

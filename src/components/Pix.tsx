@@ -4,7 +4,7 @@ import { renderSVG } from "uqr";
 import { codigoPix } from "@/paroquias/pix";
 
 const CAMPO = "min-h-12 w-full rounded-xl border border-borda bg-papel px-3 text-base text-tinta outline-none focus:border-destaque-texto";
-const BOTAO = "flex min-h-12 items-center justify-center gap-2 rounded-xl bg-destaque px-4 font-semibold text-sobre-destaque disabled:opacity-50";
+const BOTAO = "flex min-h-12 items-center justify-center gap-2 rounded-xl bg-primario px-4 font-semibold text-sobre-primario disabled:opacity-50";
 
 const real = (n: number) => n.toLocaleString("pt-BR", { style: "currency", currency: "BRL", maximumFractionDigits: 0 });
 
@@ -33,7 +33,7 @@ export function Pix({ chave, nome, cidade, recebedor, valores }: { chave: string
               type="button"
               aria-pressed={numero === v}
               onClick={() => setValor(numero === v ? "" : String(v))}
-              className={`min-h-11 rounded-xl border px-1 font-semibold ${numero === v ? "border-destaque bg-destaque text-sobre-destaque" : "border-borda bg-papel text-tinta"}`}
+              className={`min-h-11 rounded-xl border px-1 font-semibold ${numero === v ? "border-primario bg-primario text-sobre-primario" : "border-borda bg-papel text-tinta"}`}
             >
               {real(v)}
             </button>

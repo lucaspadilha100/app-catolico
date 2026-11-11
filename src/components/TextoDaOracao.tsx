@@ -61,7 +61,7 @@ export function EscolhaDeLingua({ valor, onChange }: { valor: Lingua; onChange: 
           aria-pressed={valor === l}
           onClick={() => onChange(l)}
           className={`min-h-10 rounded-lg px-3 text-sm font-medium ${
-            valor === l ? "bg-destaque text-sobre-destaque" : "text-tinta-suave"
+            valor === l ? "bg-primario text-sobre-primario" : "text-tinta-suave"
           }`}
         >
           {nome}

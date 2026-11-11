@@ -31,7 +31,7 @@ function Escolha<T extends string>({
             aria-pressed={o.valor === valor}
             onClick={() => onChange(o.valor)}
             className={`min-h-11 rounded-xl border px-2 text-sm font-medium ${
-              o.valor === valor ? "border-transparent bg-destaque text-sobre-destaque" : "border-borda bg-papel text-tinta-suave"
+              o.valor === valor ? "border-transparent bg-primario text-sobre-primario" : "border-borda bg-papel text-tinta-suave"
             }`}
           >
             {o.nome}
@@ -75,7 +75,7 @@ function Compartilhar() {
   }
   return (
     <button type="button" onClick={() => void indicar()} className={`${LINHA} w-full text-left`}>
-      <span className="grid size-10 shrink-0 place-items-center rounded-xl bg-marca-fundo text-destaque-texto">
+      <span className="grid size-10 shrink-0 place-items-center rounded-2xl bg-papel text-tinta">
         <Share2 className="size-5" aria-hidden />
       </span>
       <span className="min-w-0 flex-1 font-medium">{copiado ? "Link copiado" : "Indicar o app"}</span>
@@ -115,7 +115,7 @@ export default function Mais() {
         </Grupo>
 
         <section>
-          <h2 className="mb-2 px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto">Preferências</h2>
+          <h2 className="titulo-secao mb-3 px-1">Preferências</h2>
           <Cartao className="flex flex-col gap-6">
             <Escolha<Tema>
               rotulo="Aparência"

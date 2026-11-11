@@ -12,7 +12,7 @@ import { Pix } from "@/components/Pix";
 import { dataCurta } from "@/paroquias/plano";
 
 const CAMPO = "min-h-12 w-full rounded-xl border border-borda bg-papel px-3 text-base text-tinta outline-none focus:border-destaque-texto";
-const BOTAO = "flex min-h-12 items-center justify-center gap-2 rounded-xl bg-destaque px-4 font-semibold text-sobre-destaque disabled:opacity-50";
+const BOTAO = "flex min-h-12 items-center justify-center gap-2 rounded-xl bg-primario px-4 font-semibold text-sobre-primario disabled:opacity-50";
 const BOTAO_CLARO = "flex min-h-12 items-center justify-center gap-2 rounded-xl border border-borda bg-cartao px-4 font-semibold text-tinta";
 const TITULO = "px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto";
 
@@ -135,7 +135,7 @@ export default function Apoie() {
 
       {ehApoiador({ apoiadorAte: ate }) && (
         <Cartao className="flex items-center gap-3 p-4">
-          <span className="grid size-11 shrink-0 place-items-center rounded-xl bg-destaque text-sobre-destaque">
+          <span className="grid size-11 shrink-0 place-items-center rounded-xl bg-primario text-sobre-primario">
             <BadgeCheck className="size-6" aria-hidden />
           </span>
           <div>

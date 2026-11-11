@@ -38,7 +38,7 @@ import {
 import { alternarMusica, buscaDaMusica, estaGuardada, useMusicas } from "@/roteiros/musicas";
 
 const CAMPO = "min-h-12 w-full rounded-xl border border-borda bg-papel px-3 text-base text-tinta outline-none focus:border-destaque-texto";
-const BOTAO = "flex min-h-12 items-center justify-center gap-2 rounded-xl bg-destaque px-4 font-semibold text-sobre-destaque disabled:opacity-50";
+const BOTAO = "flex min-h-12 items-center justify-center gap-2 rounded-xl bg-primario px-4 font-semibold text-sobre-primario disabled:opacity-50";
 const BOTAO_CLARO = "flex min-h-12 items-center justify-center gap-2 rounded-xl border border-borda bg-cartao px-4 font-semibold text-tinta disabled:opacity-50";
 const TITULO = "px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto";
 const ICONE = "grid size-10 shrink-0 place-items-center rounded-full text-tinta-suave hover:bg-marca-fundo disabled:opacity-30";
@@ -109,7 +109,7 @@ function LeiturasDoDia({ data }: { data: string }) {
   const missa = estado.missas[0];
   return (
     <div className="flex flex-col gap-2">
-      <p className="font-leitura text-lg font-semibold text-marca">{estado.titulo}</p>
+      <p className="text-lg font-bold text-marca tracking-[-0.02em]">{estado.titulo}</p>
       {missa && (
         <ul className="flex flex-col gap-1">
           {missa.leituras.filter((x) => !x.ou && x.forma !== "breve").map((x) => (
@@ -133,7 +133,7 @@ function Canto({ b }: { b: Extract<Bloco, { tipo: "canto" }> }) {
   return (
     <div className="flex flex-col gap-3">
       <div>
-        <p className="font-leitura text-xl font-semibold leading-snug text-marca">{b.titulo}</p>
+        <p className="text-xl font-bold leading-snug text-marca tracking-[-0.02em]">{b.titulo}</p>
         {b.artista && <p className="text-tinta-suave">{b.artista}</p>}
       </div>
       <div className="flex flex-wrap gap-2">
@@ -169,7 +169,7 @@ function BlocoNaTela({ b, atual, conta, dataDoRoteiro }: { b: Bloco; atual: bool
     corpo = (
       <figure className="flex flex-col items-center gap-2">
         <img src={b.imagem} alt={b.nome} className="max-h-80 w-full rounded-xl object-contain" />
-        <figcaption className="font-leitura text-lg font-semibold text-marca">{b.nome}</figcaption>
+        <figcaption className="text-lg font-bold text-marca tracking-[-0.02em]">{b.nome}</figcaption>
       </figure>
     );
   else if (b.tipo === "texto") corpo = <p className="whitespace-pre-line font-leitura text-[1.1rem] leading-[1.75] text-tinta">{b.texto}</p>;
@@ -179,7 +179,7 @@ function BlocoNaTela({ b, atual, conta, dataDoRoteiro }: { b: Bloco; atual: bool
     const ref = MEDITACOES.misterios[b.grupo][b.indice]?.referencia;
     corpo = (
       <div>
-        <p className="font-leitura text-xl font-semibold leading-snug text-marca">{tituloDoBloco(b)}</p>
+        <p className="text-xl font-bold leading-snug text-marca tracking-[-0.02em]">{tituloDoBloco(b)}</p>
         {ref && <p className="text-sm text-tinta-suave">{formatarReferencia(ref, {})}</p>}
       </div>
     );
@@ -188,7 +188,7 @@ function BlocoNaTela({ b, atual, conta, dataDoRoteiro }: { b: Bloco; atual: bool
     corpo = (
       <div className="flex flex-col gap-3">
         <div className="flex items-baseline justify-between gap-3">
-          <p className="font-leitura text-xl font-semibold text-marca">{o?.nome}</p>
+          <p className="text-xl font-bold text-marca tracking-[-0.02em]">{o?.nome}</p>
           {b.vezes > 1 && <span className={`shrink-0 text-sm font-semibold ${atual ? "text-destaque-texto" : "text-tinta-suave"}`}>{atual && conta ? `${conta} de ${b.vezes}` : `${b.vezes} vezes`}</span>}
         </div>
         {o &&
@@ -203,7 +203,7 @@ function BlocoNaTela({ b, atual, conta, dataDoRoteiro }: { b: Bloco; atual: bool
     );
   }
   return (
-    <section id={`bloco-${b.id}`} className={`scroll-mt-32 rounded-2xl border bg-cartao p-4 shadow-sm transition-colors ${atual ? "border-destaque-texto ring-2 ring-destaque-texto/30" : "border-borda"}`}>
+    <section id={`bloco-${b.id}`} className={`scroll-mt-32 rounded-2xl border bg-cartao p-4 transition-colors ${atual ? "border-destaque-texto ring-2 ring-destaque-texto/30" : "border-borda"}`}>
       <p className="mb-2 flex flex-wrap items-center gap-x-2 text-xs font-semibold uppercase tracking-wide text-destaque-texto">
         {atual && <Radio className="size-3.5" aria-hidden />}
         {rotuloDoBloco(b)}
@@ -322,7 +322,7 @@ export function RoteiroAberto() {
       <Voltar para="/roteiros">Roteiros</Voltar>
       <Cabecalho titulo={roteiro.titulo} subtitulo={[roteiro.terco, quandoDoRoteiro(roteiro), roteiro.local].filter(Boolean).join(" · ")} />
       {aoVivo && (
-        <div className="sticky top-[calc(max(0.5rem,env(safe-area-inset-top))+2.5rem)] z-[5] flex items-center gap-2 rounded-full bg-destaque px-4 py-2 text-sm font-semibold text-sobre-destaque shadow md:top-3">
+        <div className="sticky top-[calc(max(0.5rem,env(safe-area-inset-top))+2.5rem)] z-[5] flex items-center gap-2 rounded-full bg-primario px-4 py-2 text-sm font-semibold text-sobre-primario shadow md:top-3">
           <Radio className="size-4 shrink-0 animate-pulse" aria-hidden />
           <span className="min-w-0 flex-1 truncate">{atual ? tituloDoBloco(atual) || rotuloDoBloco(atual) : "Ao vivo"}</span>
           <button type="button" onClick={() => setSeguir(!seguir)} aria-pressed={seguir} className="shrink-0 rounded-full bg-black/10 px-3 py-1 text-xs">
@@ -419,7 +419,7 @@ export function ConduzirRoteiro() {
       {atual ? <BlocoNaTela b={atual} atual conta={pos.conta} dataDoRoteiro={roteiro.data} /> : <p className="text-tinta-suave">Roteiro ainda sem conteúdo.</p>}
       {seguinte && <p className="px-1 text-sm text-tinta-suave">{`A seguir: ${tituloDoBloco(seguinte) || rotuloDoBloco(seguinte)}`}</p>}
       <div className="fixed inset-x-0 bottom-[calc(4rem+env(safe-area-inset-bottom))] z-20 px-3 pb-3 md:bottom-0 md:left-60 md:pb-6">
-        <div className="mx-auto grid max-w-xl grid-cols-[auto_1fr] gap-2 rounded-2xl border border-borda bg-cartao p-2 shadow-lg">
+        <div className="mx-auto grid max-w-xl grid-cols-[auto_1fr] gap-2 rounded-3xl bg-cartao p-2 shadow-lg">
           <button type="button" onClick={() => mover({ ...voltar(blocos, pos), ao_vivo: pos.ao_vivo })} aria-label="Voltar" className="grid min-h-16 w-16 place-items-center rounded-xl border border-borda text-tinta">
             <ChevronLeft className="size-7" aria-hidden />
           </button>
@@ -427,7 +427,7 @@ export function ConduzirRoteiro() {
             type="button"
             disabled={ehUltima(blocos, pos)}
             onClick={() => mover({ ...avancar(blocos, pos), ao_vivo: pos.ao_vivo })}
-            className="flex min-h-16 items-center justify-center gap-2 rounded-xl bg-destaque text-lg font-semibold text-sobre-destaque disabled:opacity-50"
+            className="flex min-h-16 items-center justify-center gap-2 rounded-xl bg-primario text-lg font-semibold text-sobre-primario disabled:opacity-50"
           >
             {atual?.tipo === "oracao" && atual.vezes > 1 && pos.conta < atual.vezes ? `${pos.conta + 1}ª ${ORACOES[atual.oracao]?.nome ?? ""}` : "Próximo"}
             <ChevronRight className="size-6" aria-hidden />
@@ -796,7 +796,7 @@ function MinhasMusicas() {
   return (
     <section className="flex flex-col gap-2">
       <h2 className={TITULO}>Músicas guardadas</h2>
-      <ul className="flex flex-col divide-y divide-borda overflow-hidden rounded-2xl border border-borda bg-cartao">
+      <ul className="flex flex-col divide-y divide-borda overflow-hidden rounded-3xl bg-cartao">
         {musicas.map((m) => (
           <li key={`${m.titulo}|${m.artista ?? ""}`} className="flex items-center gap-2 px-4 py-2">
             <a href={m.link || buscaDaMusica(m)} target="_blank" rel="noreferrer" className="flex min-h-11 min-w-0 flex-1 flex-col justify-center">
@@ -868,7 +868,7 @@ export function Roteiros() {
             lista.length > 0 && (
               <section className="flex flex-col gap-2">
                 <h2 className={TITULO}>Meus roteiros</h2>
-                <ul className="flex flex-col divide-y divide-borda overflow-hidden rounded-2xl border border-borda bg-cartao">
+                <ul className="flex flex-col divide-y divide-borda overflow-hidden rounded-3xl bg-cartao">
                   {lista.map((r) => (
                     <li key={r.id} className="flex items-center gap-1 pr-1">
                       <Link to={`/r/${r.codigo}`} className="flex min-h-16 min-w-0 flex-1 flex-col justify-center px-4 py-2">

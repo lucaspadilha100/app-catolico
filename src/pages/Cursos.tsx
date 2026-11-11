@@ -79,7 +79,7 @@ function UmCurso({ curso }: { curso: Curso }) {
         <>
           <div>
             <p className="text-sm font-medium text-tinta-suave">{`Lição ${licao}`}</p>
-            <h2 className="mt-1 font-leitura text-2xl font-semibold leading-snug text-marca">{etapa.titulo}</h2>
+            <h2 className="mt-1 text-2xl font-extrabold leading-snug text-marca tracking-[-0.02em]">{etapa.titulo}</h2>
           </div>
           <Blocos blocos={etapa.blocos} data={hoje()} />
           <BotaoRezei feito={feitos.includes(licao)} onClick={() => alternarFeito(chave, hoje(), licao)}>

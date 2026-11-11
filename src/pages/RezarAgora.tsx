@@ -129,7 +129,7 @@ export default function RezarAgora() {
               parar();
               setParams({ m }, { replace: true });
             }}
-            className={`min-h-10 shrink-0 rounded-full border px-4 text-sm font-medium ${m === momento ? "border-transparent bg-destaque text-sobre-destaque" : "border-borda bg-cartao text-tinta"}`}
+            className={`min-h-10 shrink-0 rounded-full border px-4 text-sm font-medium ${m === momento ? "border-transparent bg-primario text-sobre-primario" : "border-borda bg-cartao text-tinta"}`}
           >
             {NOME_DO_MOMENTO[m]}
           </button>
@@ -140,7 +140,7 @@ export default function RezarAgora() {
         <Carregando />
       ) : terminou ? (
         <div className="flex flex-col items-center gap-4 py-8 text-center">
-          <p className="font-leitura text-2xl font-semibold text-marca">Amém.</p>
+          <p className="text-2xl font-extrabold text-marca tracking-[-0.02em]">Amém.</p>
           <RezandoJuntos reza={momento === "terco" || momento === "misericordia" ? momento : "agora"} />
           <button type="button" onClick={() => void tocar(0)} className="min-h-12 rounded-xl border border-borda px-6 font-semibold text-tinta">
             Rezar de novo
@@ -160,7 +160,7 @@ export default function RezarAgora() {
         <input type="checkbox" checked={responder} onChange={(e) => setResponder(e.target.checked)} className="size-6 accent-destaque" />
       </label>
       <div className="fixed inset-x-0 bottom-[calc(4rem+env(safe-area-inset-bottom))] z-20 px-3 pb-3 md:bottom-0 md:left-60 md:pb-6">
-        <div className="mx-auto grid max-w-xl grid-cols-[auto_1fr_auto_auto] gap-2 rounded-2xl border border-borda bg-cartao p-2 shadow-lg">
+        <div className="mx-auto grid max-w-xl grid-cols-[auto_1fr_auto_auto] gap-2 rounded-3xl bg-cartao p-2 shadow-lg">
           <button type="button" onClick={() => ir(indice - 1)} aria-label="Voltar" className="grid size-14 place-items-center rounded-xl border border-borda text-tinta">
             <SkipBack className="size-6" aria-hidden />
           </button>
@@ -168,7 +168,7 @@ export default function RezarAgora() {
             type="button"
             disabled={!falas?.length || !vozDisponivel()}
             onClick={() => (tocando ? parar() : void tocar(terminou ? 0 : indice))}
-            className="flex min-h-14 items-center justify-center gap-2 rounded-xl bg-destaque text-lg font-semibold text-sobre-destaque disabled:opacity-50"
+            className="flex min-h-14 items-center justify-center gap-2 rounded-xl bg-primario text-lg font-semibold text-sobre-primario disabled:opacity-50"
           >
             {tocando ? <Pause className="size-6" aria-hidden /> : <Play className="size-6" aria-hidden />}
             {tocando ? "Pausar" : indice > 0 && !terminou ? "Continuar" : "Começar"}

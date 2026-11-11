@@ -59,7 +59,7 @@ export function ReflexaoResumo({ canonica, para }: { canonica: string | null; pa
       <p className="mt-3 line-clamp-4 font-leitura text-[1.05rem] leading-[1.7] text-tinta">{r.paragrafos[0]}</p>
       <Link
         to={para}
-        className="mt-4 flex min-h-12 items-center justify-center rounded-xl border border-borda bg-papel px-4 font-semibold text-destaque-texto"
+        className="mt-4 flex min-h-12 items-center justify-center rounded-full bg-papel px-4 font-bold text-tinta"
       >
         Ler a reflexão
       </Link>

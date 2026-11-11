@@ -73,13 +73,13 @@ export function TocadorDeVoz({ titulo, partes, aoFechar }: { titulo: string; par
 
   return (
     <div className="fixed inset-x-0 bottom-[calc(4rem+env(safe-area-inset-bottom))] z-20 px-3 pb-3 md:bottom-0 md:left-60 md:pb-6">
-      <div className="mx-auto flex max-w-xl items-center gap-2 rounded-2xl border border-borda bg-cartao p-2 shadow-lg">
+      <div className="mx-auto flex max-w-xl items-center gap-2 rounded-3xl bg-cartao p-2 shadow-lg">
         <button
           type="button"
           disabled={!lista?.length}
           onClick={() => (tocando ? pausar() : lista && void tocar(lista, fim ? 0 : indice, velocidade))}
           aria-label={tocando ? "Pausar" : "Ouvir"}
-          className="grid size-12 shrink-0 place-items-center rounded-xl bg-destaque text-sobre-destaque disabled:opacity-50"
+          className="grid size-12 shrink-0 place-items-center rounded-xl bg-primario text-sobre-primario disabled:opacity-50"
         >
           {tocando ? <Pause className="size-6" aria-hidden /> : <Play className="size-6" aria-hidden />}
         </button>

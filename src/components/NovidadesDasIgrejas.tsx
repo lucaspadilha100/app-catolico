@@ -29,11 +29,11 @@ export function NovidadesDasIgrejas() {
   if (!lista.length) return null;
   return (
     <section>
-      <h2 className="mb-2 px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto">Minhas igrejas</h2>
+      <h2 className="titulo-secao mb-3 px-1">Minhas igrejas</h2>
       <div className={LISTA}>
         {lista.map((p) => (
           <Link key={p.id} to={`/missas/paroquia/${p.paroquia_id}`} className="flex min-h-16 items-center gap-3 px-4 py-3 transition-colors hover:bg-marca-fundo/60">
-            <span className="grid size-10 shrink-0 place-items-center rounded-xl bg-marca-fundo text-destaque-texto">
+            <span className="grid size-10 shrink-0 place-items-center rounded-2xl bg-papel text-tinta">
               {p.tipo === "evento" ? <CalendarDays className="size-5" aria-hidden /> : <Megaphone className="size-5" aria-hidden />}
             </span>
             <span className="min-w-0 flex-1">

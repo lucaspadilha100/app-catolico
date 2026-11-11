@@ -10,7 +10,7 @@ import { ENDERECO_DO_SITE } from "@/marca";
 import { Cartao } from "@/components/Cartao";
 
 const CAMPO = "min-h-12 w-full rounded-xl border border-borda bg-papel px-3 text-base text-tinta outline-none focus:border-destaque-texto";
-const BOTAO = "flex min-h-12 items-center justify-center gap-2 rounded-xl bg-destaque px-4 font-semibold text-sobre-destaque disabled:opacity-50";
+const BOTAO = "flex min-h-12 items-center justify-center gap-2 rounded-xl bg-primario px-4 font-semibold text-sobre-primario disabled:opacity-50";
 const BOTAO_CLARO = "flex min-h-12 items-center justify-center gap-2 rounded-xl border border-borda bg-cartao px-4 font-semibold text-tinta";
 const TITULO = "px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto";
 
@@ -134,12 +134,12 @@ export function Inscricoes({ paroquia, email }: { paroquia: string; email: strin
         return (
           <Cartao key={t.id} className="flex flex-col gap-3 p-4">
             <div className="flex items-start gap-3">
-              <span className="mt-0.5 grid size-9 shrink-0 place-items-center rounded-xl bg-marca-fundo text-destaque-texto">
+              <span className="mt-0.5 grid size-9 shrink-0 place-items-center rounded-2xl bg-papel text-tinta">
                 <ClipboardList className="size-5" aria-hidden />
               </span>
               <div className="min-w-0 flex-1">
                 <p className="text-xs font-semibold uppercase tracking-wide text-tinta-suave">{NOME_DA_TURMA[t.tipo]}</p>
-                <p className="font-leitura text-lg font-semibold leading-snug text-marca">{t.titulo}</p>
+                <p className="text-lg font-bold leading-snug text-marca tracking-[-0.02em]">{t.titulo}</p>
                 {detalhesDaTurma(t) && <p className="text-sm text-tinta-suave">{detalhesDaTurma(t)}</p>}
               </div>
             </div>

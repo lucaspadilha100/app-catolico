@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { ChevronRight, type LucideIcon } from "lucide-react";
 
 export function Cartao({ children, className = "" }: { children: ReactNode; className?: string }) {
-  return <section className={`rounded-2xl border border-borda bg-cartao p-5 shadow-sm ${className}`}>{children}</section>;
+  return <section className={`rounded-3xl bg-cartao p-5 ${className}`}>{children}</section>;
 }
 
 export function TituloCartao({ icone: Icone, children }: { icone: LucideIcon; children: ReactNode }) {
@@ -15,13 +15,13 @@ export function TituloCartao({ icone: Icone, children }: { icone: LucideIcon; ch
   );
 }
 
-export const LISTA = "flex flex-col divide-y divide-borda overflow-hidden rounded-2xl border border-borda bg-cartao shadow-sm";
-export const LINHA = "flex min-h-14 items-center gap-3 px-4 py-3 transition-colors hover:bg-marca-fundo/60";
+export const LISTA = "flex flex-col divide-y divide-borda overflow-hidden rounded-3xl bg-cartao";
+export const LINHA = "flex min-h-14 items-center gap-3 px-4 py-3 transition-colors hover:bg-marca-fundo/70";
 
 export function Grupo({ titulo, children }: { titulo?: string; children: ReactNode }) {
   return (
     <section>
-      {titulo && <h2 className="mb-2 px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto">{titulo}</h2>}
+      {titulo && <h2 className="titulo-secao mb-3 px-1">{titulo}</h2>}
       <div className={LISTA}>{children}</div>
     </section>
   );
@@ -48,7 +48,7 @@ export function ItemLista({
 }) {
   const conteudo = (
     <>
-      <span className="grid size-10 shrink-0 place-items-center rounded-xl bg-marca-fundo text-destaque-texto">
+      <span className="grid size-11 shrink-0 place-items-center rounded-2xl bg-papel text-tinta">
         <Icone className="size-5" aria-hidden />
       </span>
       <span className="min-w-0 flex-1">
@@ -69,5 +69,5 @@ export function ItemLista({
 }
 
 export function TituloPagina({ children }: { children: ReactNode }) {
-  return <h1 className="mb-5 font-leitura text-3xl font-semibold tracking-tight text-marca">{children}</h1>;
+  return <h1 className="titulo-pagina mb-6">{children}</h1>;
 }

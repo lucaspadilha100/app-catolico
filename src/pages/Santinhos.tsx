@@ -11,7 +11,7 @@ import { ehApoiador, usePreferencias } from "@/lib/preferencias";
 import { Cabecalho, Voltar } from "@/components/Devocao";
 
 const CAMPO = "min-h-12 w-full rounded-xl border border-borda bg-papel px-3 text-base text-tinta outline-none focus:border-destaque-texto";
-const BOTAO = "flex min-h-12 items-center justify-center gap-2 rounded-xl bg-destaque px-4 font-semibold text-sobre-destaque disabled:opacity-50";
+const BOTAO = "flex min-h-12 items-center justify-center gap-2 rounded-xl bg-primario px-4 font-semibold text-sobre-primario disabled:opacity-50";
 const TITULO = "px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto";
 
 function Opcoes<T extends string>({ valor, opcoes, onChange, colunas = 2 }: { valor: T; opcoes: { valor: T; nome: string; travada?: boolean }[]; onChange: (v: T) => void; colunas?: 2 | 3 }) {
@@ -23,7 +23,7 @@ function Opcoes<T extends string>({ valor, opcoes, onChange, colunas = 2 }: { va
           type="button"
           aria-pressed={o.valor === valor}
           onClick={() => onChange(o.valor)}
-          className={`flex min-h-11 items-center justify-center gap-1.5 rounded-xl border px-2 text-sm font-medium ${o.valor === valor ? "border-transparent bg-destaque text-sobre-destaque" : "border-borda bg-papel text-tinta"}`}
+          className={`flex min-h-11 items-center justify-center gap-1.5 rounded-xl border px-2 text-sm font-medium ${o.valor === valor ? "border-transparent bg-primario text-sobre-primario" : "border-borda bg-papel text-tinta"}`}
         >
           {o.travada && <Lock className="size-3.5 shrink-0" aria-hidden />}
           {o.nome}
@@ -192,7 +192,7 @@ export default function Santinhos() {
         </div>
 
         <div className="flex flex-col gap-3 lg:sticky lg:top-6">
-          <div className="mx-auto w-full max-w-sm overflow-hidden rounded-2xl border border-borda bg-marca-fundo shadow-sm" style={{ aspectRatio: "2 / 3" }}>
+          <div className="mx-auto w-full max-w-sm overflow-hidden rounded-2xl border border-borda bg-marca-fundo" style={{ aspectRatio: "2 / 3" }}>
             {previa && <img src={previa.url} alt="Prévia" className="size-full object-contain" />}
           </div>
           <button type="button" onClick={() => void enviar()} disabled={!previa} className={`${BOTAO} mx-auto w-full max-w-sm`}>

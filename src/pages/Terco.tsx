@@ -78,7 +78,7 @@ export default function Terco() {
               aria-selected={g === grupo}
               onClick={() => setParams(parametros(g), { replace: true })}
               className={`min-h-12 rounded-xl border px-3 text-sm font-medium ${g === "completo" ? "col-span-2 sm:col-span-1" : ""} ${
-                g === grupo ? "border-transparent bg-destaque text-sobre-destaque" : "border-borda bg-cartao text-tinta-suave"
+                g === grupo ? "border-transparent bg-primario text-sobre-primario" : "border-borda bg-cartao text-tinta-suave"
               }`}
             >
               {g === "completo" ? "Completo" : MISTERIOS[g].nome.replace("Mistérios ", "")}
@@ -89,7 +89,7 @@ export default function Terco() {
 
         {grupo === "completo" ? (
           <Cartao>
-            <h2 className="font-leitura text-xl font-semibold text-marca">Rosário completo</h2>
+            <h2 className="text-xl font-bold text-marca tracking-[-0.02em]">Rosário completo</h2>
             <ol className="mt-4 flex flex-col gap-3">
               {ORDEM.map((g, i) => (
                 <li key={g} className="flex gap-3">
@@ -104,7 +104,7 @@ export default function Terco() {
           </Cartao>
         ) : (
         <Cartao>
-          <h2 className="font-leitura text-xl font-semibold text-marca">{MISTERIOS[grupo].nome}</h2>
+          <h2 className="text-xl font-bold text-marca tracking-[-0.02em]">{MISTERIOS[grupo].nome}</h2>
           <ol className="mt-4 flex flex-col gap-3">
             {MISTERIOS[grupo].misterios.map((nome, i) => (
               <li key={nome} className="flex gap-3">

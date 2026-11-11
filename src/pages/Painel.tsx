@@ -41,7 +41,7 @@ import { Cabecalho, Carregando, Voltar } from "@/components/Devocao";
 import { ApoiosParaConferirLista, IntencoesNoPainel, MinisteriosNoPainel, PixParaConferirLista, PlanoNoPainel, VotacaoNoPainel } from "@/pages/PainelPlano";
 
 const CAMPO = "min-h-12 w-full rounded-xl border border-borda bg-papel px-3 text-base";
-const BOTAO = "min-h-12 rounded-xl bg-destaque px-4 font-semibold text-sobre-destaque disabled:opacity-50";
+const BOTAO = "min-h-12 rounded-xl bg-primario px-4 font-semibold text-sobre-primario disabled:opacity-50";
 const BOTAO_CLARO = "min-h-11 rounded-xl border border-borda bg-cartao px-4 font-semibold text-tinta";
 
 const NOME_DA_SUGESTAO: Record<Sugestao["tipo"], string> = {
@@ -343,7 +343,7 @@ function ListaDoPainel() {
             type="button"
             aria-pressed={filtro === v}
             onClick={() => mudar("filtro", v, "conferir")}
-            className={`min-h-10 rounded-full border px-4 text-sm font-medium ${filtro === v ? "border-transparent bg-destaque text-sobre-destaque" : "border-borda bg-cartao text-tinta"}`}
+            className={`min-h-10 rounded-full border px-4 text-sm font-medium ${filtro === v ? "border-transparent bg-primario text-sobre-primario" : "border-borda bg-cartao text-tinta"}`}
           >
             {nome}
             {contagem && ` (${contagem[v]})`}
@@ -645,7 +645,7 @@ function EditorDeHorarios({ paroquia, horarios, aoMudar }: { paroquia: string; h
 
   return (
     <Cartao className="flex flex-col gap-4">
-      <h2 className="font-leitura text-xl font-semibold text-marca">Horários</h2>
+      <h2 className="text-xl font-bold text-marca tracking-[-0.02em]">Horários</h2>
       <ul className="flex flex-col divide-y divide-borda">
         {ordenados.map((h) => (
           <li key={h.id} className="flex min-h-12 items-center gap-2 py-1.5">
@@ -756,7 +756,7 @@ function NotaDaPesquisa({ id }: { id: string }) {
   if (!nota || (!nota.texto && !nota.fontes.length)) return null;
   return (
     <Cartao className="flex flex-col gap-2 border-destaque-texto/40">
-      <h2 className="font-leitura text-xl font-semibold text-marca">Anotações da pesquisa</h2>
+      <h2 className="text-xl font-bold text-marca tracking-[-0.02em]">Anotações da pesquisa</h2>
       {nota.confianca && <p className="text-sm text-tinta-suave">Confiança {nota.confianca === "alta" ? "alta (fonte oficial)" : "média (só busca)"}</p>}
       {nota.texto && <p className="whitespace-pre-line text-tinta">{nota.texto}</p>}
       {nota.fontes.length > 0 && (
@@ -779,7 +779,7 @@ function Avisos({ dados, aoMudar }: { dados: ParoquiaCompleta; aoMudar: () => vo
   const [ate, setAte] = useState("");
   return (
     <Cartao className="flex flex-col gap-3">
-      <h2 className="font-leitura text-xl font-semibold text-marca">Avisos</h2>
+      <h2 className="text-xl font-bold text-marca tracking-[-0.02em]">Avisos</h2>
       {dados.avisos.map((a) => (
         <div key={a.id} className="flex items-start gap-2">
           <p className="min-w-0 flex-1 text-tinta">
@@ -858,7 +858,7 @@ export function EditarParoquia() {
           <PlanoNoPainel p={dados.paroquia} admin={acesso.admin} aoMudar={recarregar} />
           {acesso.admin && (
             <Cartao className="flex flex-col gap-3">
-              <h2 className="font-leitura text-xl font-semibold text-marca">Secretaria da paróquia</h2>
+              <h2 className="text-xl font-bold text-marca tracking-[-0.02em]">Secretaria da paróquia</h2>
               <Campo rotulo="E-mail da conta de quem vai cuidar desta página">
                 <input type="email" value={gestor} onChange={(e) => setGestor(e.target.value)} className={CAMPO} />
               </Campo>

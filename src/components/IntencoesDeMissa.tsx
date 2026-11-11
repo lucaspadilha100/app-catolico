@@ -8,7 +8,7 @@ import { Oferta, temOferta } from "@/components/PlanoDaParoquia";
 import { Cartao } from "@/components/Cartao";
 
 const CAMPO = "min-h-12 w-full min-w-0 rounded-xl border border-borda bg-papel px-3 text-base text-tinta outline-none focus:border-destaque-texto";
-const BOTAO = "flex min-h-12 items-center justify-center gap-2 rounded-xl bg-destaque px-4 font-semibold text-sobre-destaque disabled:opacity-50";
+const BOTAO = "flex min-h-12 items-center justify-center gap-2 rounded-xl bg-primario px-4 font-semibold text-sobre-primario disabled:opacity-50";
 const BOTAO_CLARO = "flex min-h-12 items-center justify-center gap-2 rounded-xl border border-borda bg-cartao px-4 font-semibold text-tinta";
 
 const isoLocal = (d: Date) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
@@ -111,7 +111,7 @@ export function IntencoesDeMissa({ p, horarios, email }: { p: Paroquia; horarios
           <form onSubmit={enviar} className="flex flex-col gap-3">
             <div className="grid grid-cols-2 gap-2" role="group" aria-label="Intenção">
               {(Object.keys(NOME_DO_TIPO) as TipoDeIntencao[]).map((t) => (
-                <button key={t} type="button" aria-pressed={tipo === t} onClick={() => setTipo(t)} className={`min-h-11 rounded-xl border px-2 text-sm font-medium ${tipo === t ? "border-transparent bg-destaque text-sobre-destaque" : "border-borda bg-papel text-tinta"}`}>
+                <button key={t} type="button" aria-pressed={tipo === t} onClick={() => setTipo(t)} className={`min-h-11 rounded-xl border px-2 text-sm font-medium ${tipo === t ? "border-transparent bg-primario text-sobre-primario" : "border-borda bg-papel text-tinta"}`}>
                   {NOME_DO_TIPO[t]}
                 </button>
               ))}

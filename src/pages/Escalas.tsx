@@ -29,10 +29,10 @@ import {
 } from "@/escalas/api";
 
 const CAMPO = "min-h-12 w-full min-w-0 rounded-xl border border-borda bg-papel px-3 text-base text-tinta outline-none focus:border-destaque-texto";
-const BOTAO = "flex min-h-12 items-center justify-center gap-2 rounded-xl bg-destaque px-4 font-semibold text-sobre-destaque disabled:opacity-50";
+const BOTAO = "flex min-h-12 items-center justify-center gap-2 rounded-xl bg-primario px-4 font-semibold text-sobre-primario disabled:opacity-50";
 const BOTAO_CLARO = "flex min-h-12 items-center justify-center gap-2 rounded-xl border border-borda bg-cartao px-4 font-semibold text-tinta disabled:opacity-50";
 const PILULA = "min-h-10 rounded-full border border-borda px-4 text-sm font-medium text-tinta";
-const PILULA_FORTE = "min-h-10 rounded-full bg-destaque px-4 text-sm font-semibold text-sobre-destaque";
+const PILULA_FORTE = "min-h-10 rounded-full bg-primario px-4 text-sm font-semibold text-sobre-primario";
 const TITULO = "px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto";
 
 function Campo({ rotulo, children }: { rotulo: string; children: ReactNode }) {
@@ -208,7 +208,7 @@ function ListaPorDia({ itens, render }: { itens: ItemDaEscala[]; render: (i: Ite
       {porData(itens).map(([data, lista]) => (
         <section key={data} className="flex flex-col gap-1.5">
           <h3 className="px-1 text-sm font-semibold text-marca">{dataDaEscala(data)}</h3>
-          <ul className="flex flex-col divide-y divide-borda overflow-hidden rounded-2xl border border-borda bg-cartao">{lista.map(render)}</ul>
+          <ul className="flex flex-col divide-y divide-borda overflow-hidden rounded-3xl bg-cartao">{lista.map(render)}</ul>
         </section>
       ))}
     </div>
@@ -256,7 +256,7 @@ export function MinisterioPagina() {
             ["equipe", `Equipe (${membros.length})`],
           ] as const
         ).map(([v, nome]) => (
-          <button key={v} type="button" role="tab" aria-selected={aba === v} onClick={() => setParams(v === "escala" ? {} : { aba: v }, { replace: true })} className={`min-h-10 rounded-lg font-medium ${aba === v ? "bg-destaque text-sobre-destaque" : "text-tinta-suave"}`}>
+          <button key={v} type="button" role="tab" aria-selected={aba === v} onClick={() => setParams(v === "escala" ? {} : { aba: v }, { replace: true })} className={`min-h-10 rounded-lg font-medium ${aba === v ? "bg-primario text-sobre-primario" : "text-tinta-suave"}`}>
             {nome}
           </button>
         ))}
@@ -292,7 +292,7 @@ export function MinisterioPagina() {
               </div>
             </Campo>
           </Cartao>
-          <ul className="flex flex-col divide-y divide-borda overflow-hidden rounded-2xl border border-borda bg-cartao">
+          <ul className="flex flex-col divide-y divide-borda overflow-hidden rounded-3xl bg-cartao">
             {membros.map((m) => (
               <li key={m.usuario_id} className="flex items-center gap-2 px-4 py-2">
                 <span className="flex min-h-11 min-w-0 flex-1 items-center gap-2 text-tinta">
@@ -471,7 +471,7 @@ export function Escalas() {
           <section className="flex flex-col gap-2">
             <h2 className={TITULO}>Meus ministérios</h2>
             {ministerios.length > 0 && (
-              <ul className="flex flex-col divide-y divide-borda overflow-hidden rounded-2xl border border-borda bg-cartao">
+              <ul className="flex flex-col divide-y divide-borda overflow-hidden rounded-3xl bg-cartao">
                 {ministerios.map((m) => (
                   <li key={m.id}>
                     <Link to={`/escalas/m/${m.id}`} className="flex min-h-14 items-center gap-3 px-4 py-2">

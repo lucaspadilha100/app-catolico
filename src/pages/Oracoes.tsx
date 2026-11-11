@@ -76,7 +76,7 @@ export function Oracoes() {
           if (!doGrupo.length) return null;
           return (
             <section key={g}>
-              <h2 className="mb-2 px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto">{NOME_DO_GRUPO[g]}</h2>
+              <h2 className="titulo-secao mb-3 px-1">{NOME_DO_GRUPO[g]}</h2>
               <div className={LISTA}>
                 {doGrupo.map((o) => (
                   <ItemDeOracao key={o.id} o={o} />
@@ -123,7 +123,7 @@ export function OracaoPagina() {
       <Voltar para={voltar.para}>{voltar.nome}</Voltar>
 
       <header>
-        <h1 className="font-leitura text-3xl font-semibold leading-tight tracking-tight text-marca">{o.nome}</h1>
+        <h1 className="text-3xl font-extrabold leading-tight text-marca tracking-[-0.02em]">{o.nome}</h1>
         {o.latim && <p className="mt-1 font-leitura italic text-tinta-suave">{o.latim}</p>}
       </header>
 

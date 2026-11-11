@@ -96,7 +96,7 @@ function Chips<T extends string>({ opcoes, valor, onChange, rolar }: { opcoes: r
           type="button"
           aria-pressed={v === valor}
           onClick={() => onChange(v)}
-          className={`min-h-10 shrink-0 rounded-full border px-4 text-sm font-medium whitespace-nowrap ${v === valor ? "border-transparent bg-destaque text-sobre-destaque" : "border-borda bg-cartao text-tinta"}`}
+          className={`min-h-10 shrink-0 rounded-full border px-4 text-sm font-medium whitespace-nowrap ${v === valor ? "border-transparent bg-primario text-sobre-primario" : "border-borda bg-cartao text-tinta"}`}
         >
           {nome}
         </button>
@@ -195,8 +195,8 @@ function PorHorario({ itens, agora, base = "/missas/paroquia/" }: { itens: ItemD
     <div className="flex flex-col gap-4">
       {[...dias.entries()].map(([d, lista]) => (
         <section key={d}>
-          {variosDias && <h2 className="mb-2 px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto">{rotuloDoDia(new Date(d), agora)}</h2>}
-          <ul className="flex flex-col divide-y divide-borda rounded-2xl border border-borda bg-cartao">
+          {variosDias && <h2 className="titulo-secao mb-3 px-1">{rotuloDoDia(new Date(d), agora)}</h2>}
+          <ul className="flex flex-col divide-y divide-borda rounded-3xl bg-cartao">
             {lista.map((i) => {
               const q = dataDoItem(i);
               const comecou = q.getTime() < agora.getTime();
@@ -229,7 +229,7 @@ function PorHorario({ itens, agora, base = "/missas/paroquia/" }: { itens: ItemD
 
 function PorIgreja({ igrejas, agora, comDia }: { igrejas: IgrejaComHorarios[]; agora: Date; comDia: boolean }) {
   return (
-    <ul className="flex flex-col divide-y divide-borda rounded-2xl border border-borda bg-cartao">
+    <ul className="flex flex-col divide-y divide-borda rounded-3xl bg-cartao">
       {igrejas.map((p) => (
         <li key={p.paroquia_id}>
           <Link to={`/missas/paroquia/${p.paroquia_id}`} className="flex min-h-16 items-center gap-3 px-4 py-3">
@@ -350,7 +350,7 @@ function EscolherOnde({
           onClick={onPerto}
           disabled={estadoLocal === "buscando"}
           aria-pressed={modo === "perto"}
-          className={`flex min-h-12 items-center justify-center gap-2 rounded-xl font-semibold disabled:opacity-60 ${modo === "perto" ? "border border-destaque-texto/50 bg-marca-fundo text-destaque-texto" : "bg-destaque text-sobre-destaque"}`}
+          className={`flex min-h-12 items-center justify-center gap-2 rounded-xl font-semibold disabled:opacity-60 ${modo === "perto" ? "border border-destaque-texto/50 bg-marca-fundo text-destaque-texto" : "bg-primario text-sobre-primario"}`}
         >
           {modo === "perto" ? <Check className="size-5" aria-hidden /> : <LocateFixed className="size-5" aria-hidden />}
           {estadoLocal === "buscando" ? "Procurando" : "Perto de mim"}
@@ -410,7 +410,7 @@ export function MinhaParoquia() {
   return (
     <Cartao>
       <TituloCartao icone={Heart}>Minha paróquia</TituloCartao>
-      <Link to={`/missas/paroquia/${minhaParoquia}`} className="mt-2 flex items-center gap-2 font-leitura text-xl font-semibold text-marca">
+      <Link to={`/missas/paroquia/${minhaParoquia}`} className="mt-2 flex items-center gap-2 text-xl font-bold text-marca tracking-[-0.02em]">
         <span className="flex-1">{dados?.paroquia.nome ?? minhaParoquiaNome}</span>
         <ChevronRight className="size-5 shrink-0 text-tinta-suave" aria-hidden />
       </Link>
@@ -712,7 +712,7 @@ function GradeDeHorarios({ horarios, agora }: { horarios: Horario[]; agora: Date
         if (!grupos.length) return null;
         return (
           <Cartao key={t} className="p-4 sm:p-5">
-            <h2 className="font-leitura text-xl font-semibold text-marca">{NOME_DO_TIPO_DE_HORARIO[t]}</h2>
+            <h2 className="text-xl font-bold text-marca tracking-[-0.02em]">{NOME_DO_TIPO_DE_HORARIO[t]}</h2>
             <ul className="mt-2 flex flex-col divide-y divide-borda">
               {grupos.map((g) => {
                 const ehHoje = g.dias.includes(agora.getDay());
@@ -721,7 +721,7 @@ function GradeDeHorarios({ horarios, agora }: { horarios: Horario[]; agora: Date
                   <li key={g.rotulo} className="flex flex-col gap-1.5 py-3 sm:grid sm:grid-cols-[9.5rem_1fr] sm:gap-3">
                     <span className="flex items-center gap-2 font-medium text-tinta">
                       {g.rotulo}
-                      {ehHoje && <span className="rounded-full bg-destaque px-2 py-0.5 text-xs font-semibold text-sobre-destaque">hoje</span>}
+                      {ehHoje && <span className="rounded-full bg-primario px-2 py-0.5 text-xs font-semibold text-sobre-primario">hoje</span>}
                     </span>
                     <span className="flex flex-col gap-1.5">
                       <span className="flex flex-wrap gap-1.5">
@@ -745,7 +745,7 @@ function GradeDeHorarios({ horarios, agora }: { horarios: Horario[]; agora: Date
       })}
       {excecoes.length > 0 && (
         <Cartao className="p-4 sm:p-5">
-          <h2 className="font-leitura text-xl font-semibold text-marca">Datas especiais</h2>
+          <h2 className="text-xl font-bold text-marca tracking-[-0.02em]">Datas especiais</h2>
           <ul className="mt-2 flex flex-col gap-1.5">
             {excecoes.map((h) => {
               const [a, m, d] = h.data!.split("-");
@@ -790,7 +790,7 @@ function ProximoHorario({ horarios, agora }: { horarios: Horario[]; agora: Date 
       {primeira && (
         <>
           <TituloCartao icone={Clock}>Próxima missa</TituloCartao>
-          <p className="mt-1.5 font-leitura text-2xl font-semibold text-marca">
+          <p className="mt-1.5 text-2xl font-extrabold text-marca tracking-[-0.02em]">
             {quandoPorExtenso(primeira.quando, agora)}
             {quanto && <span className="ml-2 font-sans text-base font-medium text-tinta-suave">{quanto}</span>}
           </p>
@@ -872,7 +872,7 @@ export function ParoquiaPagina() {
         subtitulo={[NOME_DO_TIPO_DE_IGREJA[p.tipo], p.padroeiro && `Padroeiro: ${p.padroeiro}`, p.diocese].filter(Boolean).join(" · ")}
       />
       {matriz && (
-        <Link to={`/missas/paroquia/${matriz.id}`} className="flex min-h-12 items-center gap-2 rounded-2xl border border-borda bg-cartao px-4 py-2.5 text-tinta">
+        <Link to={`/missas/paroquia/${matriz.id}`} className="flex min-h-12 items-center gap-2 rounded-3xl bg-cartao px-4 py-2.5 text-tinta">
           <Church className="size-5 shrink-0 text-destaque-texto" aria-hidden />
           <span className="min-w-0 flex-1">
             <span className="text-tinta-suave">{matriz.tipo === "santuario" || matriz.tipo === "mosteiro" ? "Pertence ao " : "Pertence à "}</span>
@@ -916,7 +916,7 @@ export function ParoquiaPagina() {
           href={linkComoChegar(destino)}
           target="_blank"
           rel="noreferrer"
-          className="flex min-h-12 items-center justify-center gap-2 rounded-xl bg-destaque font-semibold text-sobre-destaque"
+          className="flex min-h-12 items-center justify-center gap-2 rounded-xl bg-primario font-semibold text-sobre-primario"
         >
           <Navigation className="size-5" aria-hidden /> Como chegar
         </a>
@@ -1026,7 +1026,7 @@ export function ParoquiaPagina() {
         </Link>
         {email && !podeEditar && <SouDaEquipe paroquia={p.id} />}
         {p.fonte && (
-          <p className="pt-2 text-center text-sm text-tinta-suave">
+          <p className="pt-2 text-center text-sm break-words text-tinta-suave">
             Fonte:{" "}
             {p.fonte === "Missas.com.br" ? (
               <a href="https://missas.com.br" target="_blank" rel="noreferrer" className="underline underline-offset-2">
@@ -1035,6 +1035,10 @@ export function ParoquiaPagina() {
             ) : p.fonte === "OpenStreetMap" ? (
               <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noreferrer" className="underline underline-offset-2">
                 © colaboradores do OpenStreetMap
+              </a>
+            ) : /^https?:\/\//.test(p.fonte) ? (
+              <a href={p.fonte} target="_blank" rel="noreferrer" className="underline underline-offset-2">
+                {new URL(p.fonte).hostname.replace(/^www\./, "")}
               </a>
             ) : (
               p.fonte
@@ -1083,7 +1087,7 @@ export function Sugerir() {
       ) : !email ? (
         <Cartao>
           <p className="text-tinta">Para sugerir, entre na sua conta.</p>
-          <Link to="/conta" className="mt-4 flex min-h-12 items-center justify-center rounded-xl bg-destaque font-semibold text-sobre-destaque">
+          <Link to="/conta" className="mt-4 flex min-h-12 items-center justify-center rounded-xl bg-primario font-semibold text-sobre-primario">
             Entrar
           </Link>
         </Cartao>
@@ -1122,7 +1126,7 @@ export function Sugerir() {
               <textarea value={texto} onChange={(e) => setTexto(e.target.value)} rows={4} maxLength={1000} className="w-full resize-y rounded-xl border border-borda bg-papel px-3 py-2 text-base" />
             </label>
             {estado === "erro" && <p className="text-sm font-medium text-[#a9271f]">Não foi possível enviar agora. Tente de novo.</p>}
-            <button type="submit" disabled={!pode || estado === "enviando"} className="min-h-12 rounded-xl bg-destaque font-semibold text-sobre-destaque disabled:opacity-50">
+            <button type="submit" disabled={!pode || estado === "enviando"} className="min-h-12 rounded-xl bg-primario font-semibold text-sobre-primario disabled:opacity-50">
               {estado === "enviando" ? "Enviando" : "Enviar"}
             </button>
           </form>

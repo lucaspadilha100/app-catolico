@@ -54,9 +54,9 @@ function ConteudoDoMisterio({ passo }: { passo: Passo }) {
   const meditacao = MEDITACOES.misterios[grupo][indice]!;
   return (
     <div className="flex flex-col gap-4">
-      <h2 className="font-leitura text-2xl font-semibold leading-snug text-marca">{MISTERIOS[grupo].misterios[indice]}</h2>
+      <h2 className="text-2xl font-extrabold leading-snug text-marca tracking-[-0.02em]">{MISTERIOS[grupo].misterios[indice]}</h2>
       <Cartao>
-        <p className="font-leitura text-lg font-semibold text-destaque-texto">{formatarReferencia(meditacao.referencia, {})}</p>
+        <p className="text-lg font-bold text-destaque-texto tracking-[-0.02em]">{formatarReferencia(meditacao.referencia, {})}</p>
         <TextoDaLeitura canonica={meditacao.referencia} poema={false} />
       </Cartao>
       <p className="px-1 font-leitura text-[1.1rem] leading-[1.75] text-tinta">{meditacao.texto}</p>
@@ -122,13 +122,13 @@ function ModoContas({
 
       <div className="flex flex-1 flex-col items-center justify-center gap-6 text-center">
         <p className="text-sm font-semibold uppercase tracking-wide text-destaque-texto">{passo.secao}</p>
-        <h1 className="font-leitura text-3xl font-semibold leading-snug text-marca">
+        <h1 className="text-3xl font-extrabold leading-snug text-marca tracking-[-0.02em]">
           {passo.misterio ? MISTERIOS[passo.misterio.grupo].misterios[passo.misterio.indice] : passo.titulo}
         </h1>
         {passo.rotulos?.[conta] && <p className="text-lg text-tinta-suave">{passo.rotulos[conta]}</p>}
         {total > 1 && <Contas total={total} atual={conta} grande />}
         {total > 1 && (
-          <p className="font-leitura text-2xl font-semibold text-tinta-suave">
+          <p className="text-2xl font-extrabold text-tinta-suave tracking-[-0.02em]">
             {conta + 1} / {total}
           </p>
         )}
@@ -247,7 +247,7 @@ export function TercoGuiado({
       <div className="flex flex-col gap-4">
         <Cartao className="flex flex-col items-center gap-3 py-10 text-center">
           <span className="simbolo w-20 text-destaque-texto" aria-hidden />
-          <h1 className="mt-2 font-leitura text-3xl font-semibold text-marca">Graças a Deus</h1>
+          <h1 className="mt-2 text-3xl font-extrabold text-marca tracking-[-0.02em]">Graças a Deus</h1>
           <p className="text-tinta-suave">{titulo}</p>
           {intencao && <p className="font-leitura italic text-tinta">Por {intencao}</p>}
           <p className="mt-2 text-sm text-tinta-suave">{plural(concluido)}</p>
@@ -260,14 +260,14 @@ export function TercoGuiado({
               if (!controle) setPosicao({ passo: 0, conta: 0 });
               setConcluido(null);
             }}
-            className="flex min-h-14 items-center justify-center gap-2 rounded-2xl border border-borda bg-cartao px-5 font-semibold text-tinta"
+            className="flex min-h-14 items-center justify-center gap-2 rounded-3xl bg-cartao px-5 font-semibold text-tinta"
           >
             <RotateCcw className="size-5" aria-hidden />
             Rezar de novo
           </button>
           <Link
             to="/rezar"
-            className="flex min-h-14 items-center justify-center rounded-2xl bg-destaque px-5 font-semibold text-sobre-destaque"
+            className="flex min-h-14 items-center justify-center rounded-2xl bg-primario px-5 font-semibold text-sobre-primario"
           >
             Voltar para Rezar
           </Link>
@@ -329,7 +329,7 @@ export function TercoGuiado({
       <header className="flex flex-col gap-1">
         <p className="text-xs font-semibold uppercase tracking-wide text-destaque-texto">{passo.secao}</p>
         {!passo.misterio && (
-          <h1 className="font-leitura text-3xl font-semibold leading-tight text-marca">{passo.titulo}</h1>
+          <h1 className="text-3xl font-extrabold leading-tight text-marca tracking-[-0.02em]">{passo.titulo}</h1>
         )}
         {intencao && posicao.passo === 0 && <p className="font-leitura italic text-tinta-suave">Por {intencao}</p>}
       </header>
@@ -363,14 +363,14 @@ export function TercoGuiado({
           onClick={voltar}
           disabled={posicao.passo === 0 && posicao.conta === 0}
           aria-label="Voltar"
-          className="grid size-14 place-items-center rounded-2xl border border-borda bg-cartao text-tinta shadow-sm disabled:opacity-40"
+          className="grid size-14 place-items-center rounded-3xl bg-cartao text-tinta disabled:opacity-40"
         >
           <ChevronLeft className="size-6" aria-hidden />
         </button>
         <button
           type="button"
           onClick={avancar}
-          className="flex min-h-14 items-center justify-center gap-2 rounded-2xl bg-destaque px-5 text-lg font-semibold text-sobre-destaque shadow-sm"
+          className="flex min-h-14 items-center justify-center gap-2 rounded-2xl bg-primario px-5 text-lg font-semibold text-sobre-primario"
         >
           {posicao.passo === passos.length - 1 && posicao.conta === total - 1 ? "Amém" : total > 1 ? "Próxima conta" : "Avançar"}
           <ChevronRight className="size-6" aria-hidden />
@@ -401,12 +401,12 @@ export function InicioDoTerco({
         <button
           type="button"
           onClick={continuar.acao}
-          className="flex items-center gap-4 rounded-2xl bg-destaque p-5 text-left text-sobre-destaque shadow-sm"
+          className="flex items-center gap-4 rounded-2xl bg-primario p-5 text-left text-sobre-primario"
         >
           <CircleDot className="size-8 shrink-0 opacity-90" aria-hidden />
           <span className="min-w-0 flex-1">
             <span className="block text-sm font-medium opacity-90">{continuar.rotulo}</span>
-            <span className="block font-leitura text-xl font-semibold">{continuar.detalhe}</span>
+            <span className="block text-xl font-bold tracking-[-0.02em]">{continuar.detalhe}</span>
           </span>
           <ChevronRight className="size-6 shrink-0" aria-hidden />
         </button>
@@ -429,8 +429,8 @@ export function InicioDoTerco({
       <button
         type="button"
         onClick={aoComecar}
-        className={`flex min-h-14 items-center justify-center gap-2 rounded-2xl px-5 text-lg font-semibold shadow-sm ${
-          continuar ? "border border-borda bg-cartao text-tinta" : "bg-destaque text-sobre-destaque"
+        className={`flex min-h-14 items-center justify-center gap-2 rounded-2xl px-5 text-lg font-semibold ${
+          continuar ? "border border-borda bg-cartao text-tinta" : "bg-primario text-sobre-primario"
         }`}
       >
         {continuar ? "Começar do início" : "Começar"}

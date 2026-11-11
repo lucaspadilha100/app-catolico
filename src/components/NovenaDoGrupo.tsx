@@ -67,7 +67,7 @@ export function NovenaDoGrupo({ grupo, membros, eu }: { grupo: string; membros: 
             </option>
           ))}
         </select>
-        <button type="button" onClick={() => void comecar()} className="min-h-12 rounded-xl bg-destaque font-semibold text-sobre-destaque">
+        <button type="button" onClick={() => void comecar()} className="min-h-12 rounded-xl bg-primario font-semibold text-sobre-primario">
           Começar hoje
         </button>
       </Cartao>
@@ -87,7 +87,7 @@ export function NovenaDoGrupo({ grupo, membros, eu }: { grupo: string; membros: 
     <Cartao className="flex flex-col gap-3 p-4">
       <div>
         <p className="text-xs font-semibold uppercase tracking-wide text-destaque-texto">{`Novena do grupo · dia ${hoje} de ${n.dias}`}</p>
-        <p className="font-leitura text-lg font-semibold text-marca">{info?.nome ?? n.novena}</p>
+        <p className="text-lg font-bold text-marca tracking-[-0.02em]">{info?.nome ?? n.novena}</p>
         <p className="text-sm text-tinta-suave">{hojeQuantos === 1 ? "1 pessoa rezou hoje" : `${hojeQuantos} pessoas rezaram hoje`}</p>
       </div>
       <Link to={`/rezar/novenas/${n.novena}`} className="flex min-h-11 items-center justify-between rounded-xl border border-borda px-4 font-medium text-tinta">
@@ -97,7 +97,7 @@ export function NovenaDoGrupo({ grupo, membros, eu }: { grupo: string; membros: 
         type="button"
         onClick={() => void marcar(hoje, euFizHoje)}
         aria-pressed={euFizHoje}
-        className={`flex min-h-12 items-center justify-center gap-2 rounded-xl font-semibold ${euFizHoje ? "border border-borda text-destaque-texto" : "bg-destaque text-sobre-destaque"}`}
+        className={`flex min-h-12 items-center justify-center gap-2 rounded-xl font-semibold ${euFizHoje ? "border border-borda text-destaque-texto" : "bg-primario text-sobre-primario"}`}
       >
         {euFizHoje && <Check className="size-5" aria-hidden />}
         {euFizHoje ? "Rezei hoje" : `Rezei o dia ${hoje}`}

@@ -89,7 +89,7 @@ export default function Liturgia() {
         <Link
           to={navegar(-1)}
           aria-label="Dia anterior"
-          className="grid size-11 place-items-center rounded-xl border border-borda bg-cartao text-tinta-suave"
+          className="grid size-11 place-items-center rounded-full bg-cartao text-tinta"
         >
           <ChevronLeft className="size-5" />
         </Link>
@@ -97,22 +97,23 @@ export default function Liturgia() {
         <Link
           to={navegar(1)}
           aria-label="Dia seguinte"
-          className="grid size-11 place-items-center rounded-xl border border-borda bg-cartao text-tinta-suave"
+          className="grid size-11 place-items-center rounded-full bg-cartao text-tinta"
         >
           <ChevronRight className="size-5" />
         </Link>
       </div>
 
-      <header className="px-1">
-        <h1 className="font-leitura text-2xl font-semibold leading-snug text-marca sm:text-3xl">{l.titulo}</h1>
-        <p className="mt-1 text-sm text-tinta-suave">
-          {[l.celebracao?.grau === "memoria" ? `Memória de ${l.celebracao.nome}` : grau, `Cor: ${NOME_DA_COR[l.cor].toLowerCase()}`, `Ano ${l.cicloDominical}`]
-            .filter(Boolean)
-            .join(" · ")}
-        </p>
+      <header data-cor-do-dia={l.cor} className="rounded-3xl border border-borda-dia bg-dia px-5 py-5 text-sobre-dia">
+        <h1 className="text-[1.75rem] font-extrabold leading-[1.15] tracking-[-0.025em]">{l.titulo}</h1>
+        {l.celebracao?.grau === "memoria" && <p className="mt-1.5 text-sm font-medium">{`Memória de ${l.celebracao.nome}`}</p>}
+        <div className="mt-3 flex flex-wrap gap-2 text-xs font-semibold">
+          {grau && l.celebracao?.grau !== "memoria" && <span className="rounded-full bg-black/10 px-3 py-1">{grau}</span>}
+          <span className="rounded-full bg-black/10 px-3 py-1">Cor: {NOME_DA_COR[l.cor]}</span>
+          <span className="rounded-full bg-black/10 px-3 py-1">Ano {l.cicloDominical}</span>
+        </div>
       </header>
 
-      {missas?.[0] && <BotaoOuvir titulo={l.titulo} partes={() => partesDaMissa(missas[0]!)} className="flex min-h-12 items-center justify-center gap-2 rounded-xl border border-borda bg-cartao font-semibold text-tinta" />}
+      {missas?.[0] && <BotaoOuvir titulo={l.titulo} partes={() => partesDaMissa(missas[0]!)} className="flex min-h-12 items-center justify-center gap-2 rounded-full bg-cartao font-bold text-tinta" />}
 
       {missas === null ? (
         <Cartao>
@@ -121,7 +122,7 @@ export default function Liturgia() {
       ) : (
         missas.map((m, i) => (
           <Cartao key={`${m.nome}-${i}`}>
-            {m.nome && <h2 className="mb-3 font-leitura text-lg font-semibold text-marca">{m.nome}</h2>}
+            {m.nome && <h2 className="mb-3 text-lg font-bold text-marca tracking-[-0.02em]">{m.nome}</h2>}
             <ListaDeLeituras missa={m} />
           </Cartao>
         ))

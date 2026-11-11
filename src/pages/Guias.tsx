@@ -17,7 +17,7 @@ function Guia({ qual, titulo }: { qual: "confissao" | "missa"; titulo: string })
           {g.passos.map((p, i) => (
             <li key={i} className="flex flex-col gap-3">
               <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
-                <h2 className="font-leitura text-2xl font-semibold leading-snug text-marca">
+                <h2 className="text-2xl font-extrabold leading-snug text-marca tracking-[-0.02em]">
                   <span className="mr-2 text-destaque-texto">{i + 1}.</span>
                   {p.titulo}
                 </h2>

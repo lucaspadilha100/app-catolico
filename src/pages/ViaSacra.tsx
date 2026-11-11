@@ -44,7 +44,7 @@ export default function ViaSacra() {
           {passo === 0 && <Blocos blocos={conteudo.antes} />}
           {passo >= 1 && passo <= total && (
             <>
-              <h2 className="font-leitura text-2xl font-semibold leading-snug text-marca">{conteudo.passos[passo - 1]!.titulo}</h2>
+              <h2 className="text-2xl font-extrabold leading-snug text-marca tracking-[-0.02em]">{conteudo.passos[passo - 1]!.titulo}</h2>
               <Blocos blocos={conteudo.inicioDoPasso} />
               <Blocos blocos={conteudo.passos[passo - 1]!.blocos} />
               <div className="border-t border-borda pt-5">
@@ -55,7 +55,7 @@ export default function ViaSacra() {
           {passo === total + 1 && <Blocos blocos={conteudo.depois} />}
 
           {concluida ? (
-            <p className="flex min-h-14 items-center justify-center gap-2 rounded-2xl border border-borda bg-cartao font-semibold text-destaque-texto">
+            <p className="flex min-h-14 items-center justify-center gap-2 rounded-3xl bg-cartao font-semibold text-destaque-texto">
               <Check className="size-6" aria-hidden /> Via-Sacra rezada
             </p>
           ) : (
@@ -65,14 +65,14 @@ export default function ViaSacra() {
                 onClick={() => ir(passo - 1)}
                 disabled={passo === 0}
                 aria-label="Anterior"
-                className="grid size-14 place-items-center rounded-2xl border border-borda bg-cartao text-tinta-suave disabled:opacity-40"
+                className="grid size-14 place-items-center rounded-3xl bg-cartao text-tinta-suave disabled:opacity-40"
               >
                 <ChevronLeft className="size-6" aria-hidden />
               </button>
               <button
                 type="button"
                 onClick={() => (passo === total + 1 ? concluir() : ir(passo + 1))}
-                className="flex min-h-14 items-center justify-center gap-2 rounded-2xl bg-destaque px-4 text-lg font-semibold text-sobre-destaque"
+                className="flex min-h-14 items-center justify-center gap-2 rounded-2xl bg-primario px-4 text-lg font-semibold text-sobre-primario"
               >
                 {passo === 0 ? "Começar" : passo === total ? "Oração final" : passo === total + 1 ? "Concluir" : `${passo + 1}ª estação`}
                 {passo <= total && <ChevronRight className="size-6" aria-hidden />}

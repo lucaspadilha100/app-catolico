@@ -45,7 +45,7 @@ export function PonteNativa() {
       const { StatusBar, Style } = await import("@capacitor/status-bar");
       const escuro = document.documentElement.dataset.tema === "escuro";
       await StatusBar.setStyle({ style: escuro ? Style.Dark : Style.Light }).catch(() => {});
-      await StatusBar.setBackgroundColor({ color: escuro ? "#15100c" : "#FBF0DD" }).catch(() => {});
+      await StatusBar.setBackgroundColor({ color: escuro ? "#0f0f11" : "#FFFFFF" }).catch(() => {});
     })();
   }, [preferencias.tema]);
 

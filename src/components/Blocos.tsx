@@ -28,9 +28,9 @@ const ROTULO = "text-xs font-semibold uppercase tracking-wide text-destaque-text
 function UmBloco({ b, data }: { b: Bloco; data?: Dia }) {
   if ("leitura" in b)
     return (
-      <div className="rounded-2xl border border-borda bg-cartao p-4 sm:p-5">
+      <div className="rounded-3xl bg-cartao p-4 sm:p-5">
         {b.titulo && <p className={`${ROTULO} mb-1`}>{b.titulo}</p>}
-        <p className="font-leitura text-lg font-semibold text-destaque-texto">{referenciaParaLer(b.leitura)}</p>
+        <p className="text-lg font-bold text-destaque-texto tracking-[-0.02em]">{referenciaParaLer(b.leitura)}</p>
         <TextoDaLeitura canonica={b.leitura} poema={!!b.poema} inicio={b.inicio} fim={b.fim} />
       </div>
     );
@@ -81,7 +81,7 @@ function UmBloco({ b, data }: { b: Bloco; data?: Dia }) {
       </Link>
     );
   }
-  if ("titulo" in b) return <h3 className="pt-2 font-leitura text-xl font-semibold text-marca">{b.titulo}</h3>;
+  if ("titulo" in b) return <h3 className="pt-2 text-xl font-bold text-marca tracking-[-0.02em]">{b.titulo}</h3>;
   return null;
 }
 

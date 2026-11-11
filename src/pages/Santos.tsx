@@ -55,7 +55,7 @@ function Lista({ titulo, santos }: { titulo?: string; santos: Santo[] }) {
   if (!santos.length) return null;
   return (
     <section>
-      {titulo && <h2 className="mb-2 px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto">{titulo}</h2>}
+      {titulo && <h2 className="titulo-secao mb-3 px-1">{titulo}</h2>}
       <div className={LISTA}>
         {santos.map((s) => (
           <ItemDeSanto key={s.id} s={s} />
@@ -213,7 +213,7 @@ export function GrupoDeSantos() {
                 type="button"
                 aria-pressed={v === mesAtual}
                 onClick={() => setMes(v)}
-                className={`min-h-10 rounded-lg border text-sm font-medium ${v === mesAtual ? "border-transparent bg-destaque text-sobre-destaque" : "border-borda bg-cartao text-tinta"}`}
+                className={`min-h-10 rounded-lg border text-sm font-medium ${v === mesAtual ? "border-transparent bg-primario text-sobre-primario" : "border-borda bg-cartao text-tinta"}`}
               >
                 {nome}
               </button>
@@ -245,7 +245,7 @@ export function SantoPagina() {
     <div className="flex flex-col gap-5">
       <Voltar para="/santos">Santos</Voltar>
       {img && !imagemFalhou && (
-        <figure className="overflow-hidden rounded-2xl border border-borda bg-cartao">
+        <figure className="overflow-hidden rounded-3xl bg-cartao">
           <img src={img} alt={s.nome} onError={() => setImagemFalhou(true)} className="max-h-[28rem] w-full object-contain bg-marca-fundo" />
           <figcaption className="px-4 py-2 text-xs text-tinta-suave">
             {s.imagem!.artista}
@@ -257,7 +257,7 @@ export function SantoPagina() {
         <p className="text-sm font-medium text-tinta-suave">
           {linhaDoSanto(s)}
         </p>
-        <h1 className="mt-1 font-leitura text-3xl font-semibold leading-tight tracking-tight text-marca">{s.nome}</h1>
+        <h1 className="mt-1 text-3xl font-extrabold leading-tight text-marca tracking-[-0.02em]">{s.nome}</h1>
         <p className="mt-2 text-tinta-suave">{s.resumo}</p>
       </header>
       {s.padroeiro && s.padroeiro.length > 0 && (
@@ -281,7 +281,7 @@ export function SantoPagina() {
           onClick={() => alternar(s.id)}
           aria-pressed={meu}
           className={`flex min-h-12 items-center justify-center gap-2 rounded-xl px-4 font-semibold ${
-            meu ? "border border-borda bg-cartao text-destaque-texto" : "bg-destaque text-sobre-destaque"
+            meu ? "border border-borda bg-cartao text-destaque-texto" : "bg-primario text-sobre-primario"
           }`}
         >
           <Heart className={`size-5 ${meu ? "fill-current" : ""}`} aria-hidden />

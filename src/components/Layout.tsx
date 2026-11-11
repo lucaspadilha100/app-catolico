@@ -79,7 +79,7 @@ export default function Layout() {
       <Rolagem />
       <PonteNativa />
       {pathname === "/" && <BoasVindas />}
-      <aside className="sticky top-0 hidden h-dvh w-60 shrink-0 flex-col gap-6 border-r border-borda bg-cartao px-4 py-6 md:flex">
+      <aside className="sticky top-0 hidden h-dvh w-60 shrink-0 flex-col gap-6 border-r border-borda bg-papel px-4 py-6 md:flex">
         <Marca className="px-2" />
         <nav className="flex flex-col gap-1">
           {MENU.map(({ para, nome, icone: Icone }) => (
@@ -112,7 +112,7 @@ export default function Layout() {
         </main>
       </div>
 
-      <nav className="fixed inset-x-0 bottom-0 z-10 grid grid-cols-5 border-t border-borda bg-cartao/95 pb-[env(safe-area-inset-bottom)] backdrop-blur md:hidden">
+      <nav className="fixed inset-x-0 bottom-0 z-10 grid grid-cols-5 border-t border-borda bg-papel/95 pb-[env(safe-area-inset-bottom)] backdrop-blur md:hidden">
         {MENU.map(({ para, nome, icone: Icone }) => (
           <NavLink
             key={para}

@@ -10,7 +10,7 @@ import { NOME_DO_DIA } from "@/paroquias/horarios";
 import { correntePorCodigo, criarCorrente, encerrarCorrente, eventoDaAgenda, horariosDaCorrente, minhasCorrentes, pegarTurno, soltarTurno, turnoGuardado, type Corrente } from "@/correntes/api";
 
 const CAMPO = "min-h-12 w-full min-w-0 rounded-xl border border-borda bg-papel px-3 text-base text-tinta outline-none focus:border-destaque-texto";
-const BOTAO = "flex min-h-12 items-center justify-center gap-2 rounded-xl bg-destaque px-4 font-semibold text-sobre-destaque disabled:opacity-50";
+const BOTAO = "flex min-h-12 items-center justify-center gap-2 rounded-xl bg-primario px-4 font-semibold text-sobre-primario disabled:opacity-50";
 const BOTAO_CLARO = "flex min-h-12 items-center justify-center gap-2 rounded-xl border border-borda bg-cartao px-4 font-semibold text-tinta disabled:opacity-50";
 const TITULO = "px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto";
 const CHAVE_DO_NOME = "santinho-meu-nome";
@@ -107,7 +107,7 @@ export function CorrenteAberta() {
       {[...dias.entries()].map(([dia, lista]) => (
         <section key={dia} className="flex flex-col gap-1.5">
           <h2 className={TITULO}>{dia}</h2>
-          <ul className="flex flex-col divide-y divide-borda overflow-hidden rounded-2xl border border-borda bg-cartao">
+          <ul className="flex flex-col divide-y divide-borda overflow-hidden rounded-3xl bg-cartao">
             {lista.map((h) => {
               const k = h.getTime();
               const turnos = porHorario.get(k) ?? [];
@@ -120,7 +120,7 @@ export function CorrenteAberta() {
                     <span className={`w-14 shrink-0 font-semibold ${turnos.length ? "text-destaque-texto" : "text-tinta-suave"}`}>{hora(h)}</span>
                     <span className="min-w-0 flex-1 text-sm text-tinta">{turnos.length ? turnos.map((t) => t.nome).join(", ") : <span className="text-tinta-suave">{agoraAqui ? "Agora, sem ninguém" : "Ninguém ainda"}</span>}</span>
                     {!passou && c.ativa && !meu && escolhido !== String(k) && (
-                      <button type="button" onClick={() => setEscolhido(String(k))} className="min-h-10 shrink-0 rounded-full bg-destaque px-4 text-sm font-semibold text-sobre-destaque">
+                      <button type="button" onClick={() => setEscolhido(String(k))} className="min-h-10 shrink-0 rounded-full bg-primario px-4 text-sm font-semibold text-sobre-primario">
                         Rezar
                       </button>
                     )}
@@ -263,7 +263,7 @@ export function Correntes() {
           {lista.length > 0 && (
             <section className="flex flex-col gap-2">
               <h2 className={TITULO}>Minhas correntes</h2>
-              <ul className="flex flex-col divide-y divide-borda overflow-hidden rounded-2xl border border-borda bg-cartao">
+              <ul className="flex flex-col divide-y divide-borda overflow-hidden rounded-3xl bg-cartao">
                 {lista.map((x) => (
                   <li key={x.codigo}>
                     <Link to={`/c/${x.codigo}`} className="flex min-h-14 items-center gap-3 px-4 py-2">

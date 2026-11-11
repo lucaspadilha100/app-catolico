@@ -31,7 +31,7 @@ export default function SemanaSanta() {
             aria-pressed={j === i}
             onClick={() => setParams(j === (deHoje ?? 0) ? {} : { dia: String(j + 1) }, { replace: true })}
             className={`min-h-12 rounded-xl border px-2 text-sm font-medium leading-tight ${
-              j === i ? "border-transparent bg-destaque text-sobre-destaque" : "border-borda bg-cartao text-tinta"
+              j === i ? "border-transparent bg-primario text-sobre-primario" : "border-borda bg-cartao text-tinta"
             } ${j === deHoje && j !== i ? "ring-2 ring-destaque/40" : ""}`}
           >
             {nome}
@@ -47,7 +47,7 @@ export default function SemanaSanta() {
         <>
           <div>
             <p className="text-sm font-medium text-tinta-suave">{diaEMes(data)}</p>
-            <h2 className="mt-1 font-leitura text-2xl font-semibold leading-snug text-marca">{etapa.titulo}</h2>
+            <h2 className="mt-1 text-2xl font-extrabold leading-snug text-marca tracking-[-0.02em]">{etapa.titulo}</h2>
           </div>
           <Blocos blocos={etapa.blocos} data={data} />
         </>

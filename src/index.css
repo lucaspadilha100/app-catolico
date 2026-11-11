@@ -2,24 +2,28 @@
 @import "./fontes.css";
 
 :root {
-  --papel: #fcf7ee;
-  --cartao: #fffdf8;
-  --borda: #eadcc3;
-  --tinta: #2b1a0c;
-  --tinta-suave: #6d5845;
-  --marca: #341e0d;
-  --marca-fundo: #fbf0dd;
+  --papel: #ffffff;
+  --cartao: #f4f4f5;
+  --borda: #e6e6e9;
+  --tinta: #111113;
+  --tinta-suave: #66666c;
+  --marca: #111113;
+  --marca-fundo: #ebebee;
+  --primario: #111113;
+  --sobre-primario: #ffffff;
   color-scheme: light;
 }
 
 :root[data-tema="escuro"] {
-  --papel: #15100c;
-  --cartao: #1f1813;
-  --borda: #3a2e24;
-  --tinta: #f3e9da;
-  --tinta-suave: #bfae98;
-  --marca: #f3e2c4;
-  --marca-fundo: #2a2018;
+  --papel: #0f0f11;
+  --cartao: #1c1c1f;
+  --borda: #2c2c31;
+  --tinta: #f2f2f4;
+  --tinta-suave: #a3a3aa;
+  --marca: #f2f2f4;
+  --marca-fundo: #2a2a2f;
+  --primario: #f2f2f4;
+  --sobre-primario: #111113;
   color-scheme: dark;
 }
 
@@ -117,6 +121,37 @@
   --destaque-texto: #e2c06a;
 }
 
+[data-cor-do-dia="verde"] {
+  --dia: #2e7a4d;
+  --sobre-dia: #ffffff;
+  --borda-dia: transparent;
+}
+[data-cor-do-dia="roxo"] {
+  --dia: #64398f;
+  --sobre-dia: #ffffff;
+  --borda-dia: transparent;
+}
+[data-cor-do-dia="rosa"] {
+  --dia: #b4507a;
+  --sobre-dia: #ffffff;
+  --borda-dia: transparent;
+}
+[data-cor-do-dia="vermelho"] {
+  --dia: #a9271f;
+  --sobre-dia: #ffffff;
+  --borda-dia: transparent;
+}
+[data-cor-do-dia="branco"] {
+  --dia: #fbf3df;
+  --sobre-dia: #2b1a0c;
+  --borda-dia: #d9b75a;
+}
+:root[data-tema="escuro"] [data-cor-do-dia="branco"] {
+  --dia: #2a2216;
+  --sobre-dia: #f3e9da;
+  --borda-dia: #8a6a22;
+}
+
 @theme inline {
   --color-dia: var(--dia);
   --color-sobre-dia: var(--sobre-dia);
@@ -128,11 +163,31 @@
   --color-tinta-suave: var(--tinta-suave);
   --color-marca: var(--marca);
   --color-marca-fundo: var(--marca-fundo);
+  --color-primario: var(--primario);
+  --color-sobre-primario: var(--sobre-primario);
   --color-destaque: var(--destaque);
   --color-sobre-destaque: var(--sobre-destaque);
   --color-destaque-texto: var(--destaque-texto);
   --font-sans: "Inter Variable", system-ui, sans-serif;
   --font-leitura: "Literata Variable", Georgia, serif;
+}
+
+@utility titulo-pagina {
+  font-family: var(--font-sans);
+  font-size: 2.125rem;
+  line-height: 1.1;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  color: var(--marca);
+}
+
+@utility titulo-secao {
+  font-family: var(--font-sans);
+  font-size: 1.375rem;
+  line-height: 1.2;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: var(--tinta);
 }
 
 :root[data-letra="grande"],

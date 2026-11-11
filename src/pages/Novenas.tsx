@@ -53,7 +53,7 @@ export function Novenas() {
   const Secao = ({ titulo, lista }: { titulo: string; lista: Novena[] }) =>
     lista.length ? (
       <section>
-        <h2 className="mb-2 px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto">{titulo}</h2>
+        <h2 className="titulo-secao mb-3 px-1">{titulo}</h2>
         <div className={LISTA}>
           {lista.map((n) => (
             <ItemDeNovena key={n.id} n={n} />
@@ -132,7 +132,7 @@ function Novena({ n }: { n: Novena }) {
       ) : (
         <>
           <Blocos blocos={conteudo.antes} />
-          <h2 className="border-t border-borda pt-5 font-leitura text-2xl font-semibold leading-snug text-marca">{etapa.titulo}</h2>
+          <h2 className="border-t border-borda pt-5 text-2xl font-extrabold leading-snug text-marca tracking-[-0.02em]">{etapa.titulo}</h2>
           <Blocos blocos={etapa.blocos} />
           <div className="border-t border-borda pt-5">
             <Blocos blocos={conteudo.depois} />

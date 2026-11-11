@@ -39,7 +39,7 @@ import { nomeDaMissa } from "@/components/IntencoesDeMissa";
 import { apoiosParaConferir, criarOpcaoDeVoto, encerrarOpcaoDeVoto, revisarApoio, votacao, type ApoioParaConferir, type OpcaoDeVoto } from "@/apoio/api";
 
 const CAMPO = "min-h-12 w-full rounded-xl border border-borda bg-papel px-3 text-base";
-const BOTAO = "min-h-12 rounded-xl bg-destaque px-4 font-semibold text-sobre-destaque disabled:opacity-50";
+const BOTAO = "min-h-12 rounded-xl bg-primario px-4 font-semibold text-sobre-primario disabled:opacity-50";
 const BOTAO_CLARO = "min-h-11 rounded-xl border border-borda bg-cartao px-4 font-semibold text-tinta";
 const TITULO = "font-leitura text-xl font-semibold text-marca";
 
@@ -74,7 +74,7 @@ function Numeros({ paroquia }: { paroquia: string }) {
       <dl className="grid grid-cols-2 gap-2">
         {itens.map(([rotulo, valor]) => (
           <div key={rotulo} className="flex flex-col rounded-xl bg-marca-fundo px-3 py-2">
-            <dd className="font-leitura text-2xl font-semibold text-marca">{valor.toLocaleString("pt-BR")}</dd>
+            <dd className="text-2xl font-extrabold text-marca tracking-[-0.02em]">{valor.toLocaleString("pt-BR")}</dd>
             <dt className="text-sm text-tinta-suave">{rotulo}</dt>
           </div>
         ))}
@@ -406,7 +406,7 @@ function ItemDaInscricao({ i, aoMudar }: { i: Inscricao; aoMudar: () => void }) 
           {telefoneLegivel(i.telefone)}
         </a>
         {i.situacao !== "confirmada" && (
-          <button type="button" onClick={() => mudar("confirmada")} className="min-h-10 rounded-full bg-destaque px-4 text-sm font-semibold text-sobre-destaque">
+          <button type="button" onClick={() => mudar("confirmada")} className="min-h-10 rounded-full bg-primario px-4 text-sm font-semibold text-sobre-primario">
             Confirmar
           </button>
         )}
@@ -502,7 +502,7 @@ export function InscricoesDaTurma() {
             role="tab"
             aria-selected={(params.get("aba") ?? "") === v}
             onClick={() => setParams(v ? { aba: v } : {}, { replace: true })}
-            className={`min-h-10 rounded-lg font-medium ${(params.get("aba") ?? "") === v ? "bg-destaque text-sobre-destaque" : "text-tinta-suave"}`}
+            className={`min-h-10 rounded-lg font-medium ${(params.get("aba") ?? "") === v ? "bg-primario text-sobre-primario" : "text-tinta-suave"}`}
           >
             {nome}
           </button>
@@ -531,7 +531,7 @@ export function InscricoesDaTurma() {
               p.set("situacao", v);
               setParams(p, { replace: true });
             }}
-            className={`min-h-10 shrink-0 rounded-full border px-4 text-sm font-medium ${situacao === v ? "border-destaque bg-destaque text-sobre-destaque" : "border-borda bg-cartao text-tinta"}`}
+            className={`min-h-10 shrink-0 rounded-full border px-4 text-sm font-medium ${situacao === v ? "border-primario bg-primario text-sobre-primario" : "border-borda bg-cartao text-tinta"}`}
           >
             {nome}
           </button>
@@ -548,7 +548,7 @@ export function InscricoesDaTurma() {
       ) : (
         <>
           <p className="px-1 text-sm text-tinta-suave">{`${total} ${total === 1 ? "inscrição" : "inscrições"}`}</p>
-          <ul className="flex flex-col divide-y divide-borda overflow-hidden rounded-2xl border border-borda bg-cartao shadow-sm">
+          <ul className="flex flex-col divide-y divide-borda overflow-hidden rounded-3xl bg-cartao">
             {lista.map((i) => (
               <ItemDaInscricao key={i.id} i={i} aoMudar={() => setVersao((v) => v + 1)} />
             ))}
@@ -632,7 +632,7 @@ function EncontrosNoPainel({ turma }: { turma: string }) {
           {encontros.map((e) => {
             const presentes = inscritos.filter((i) => presente(e.id, i.id)).length;
             return (
-              <li key={e.id} className="rounded-2xl border border-borda bg-cartao">
+              <li key={e.id} className="rounded-3xl bg-cartao">
                 <button type="button" onClick={() => setAberto(aberto === e.id ? null : e.id)} className="flex min-h-14 w-full flex-col justify-center px-4 py-2 text-left">
                   <span className="font-medium text-tinta">{e.tema}</span>
                   <span className="text-sm text-tinta-suave">{`${dataCurta(e.data)}${e.hora ? ` · ${e.hora.slice(0, 5)}` : ""} · ${presentes} de ${inscritos.length} presentes`}</span>
@@ -740,7 +740,7 @@ export function IntencoesDaParoquia() {
                   {copiado === chave ? "Copiada" : "Copiar lista"}
                 </button>
               </div>
-              <ul className="flex flex-col divide-y divide-borda overflow-hidden rounded-2xl border border-borda bg-cartao">
+              <ul className="flex flex-col divide-y divide-borda overflow-hidden rounded-3xl bg-cartao">
                 {itens.map((i) => (
                   <li key={i.id} className={`flex flex-col gap-2 px-4 py-3 ${i.situacao === "recusada" || i.situacao === "cancelada" ? "opacity-60" : ""}`}>
                     <div className="flex items-start justify-between gap-2">
@@ -755,7 +755,7 @@ export function IntencoesDaParoquia() {
                     </div>
                     {i.situacao === "recebida" && (
                       <div className="flex gap-2">
-                        <button type="button" onClick={() => void mudarSituacaoDaIntencao(i.id, "confirmada").then(recarregar)} className="min-h-10 rounded-full bg-destaque px-4 text-sm font-semibold text-sobre-destaque">
+                        <button type="button" onClick={() => void mudarSituacaoDaIntencao(i.id, "confirmada").then(recarregar)} className="min-h-10 rounded-full bg-primario px-4 text-sm font-semibold text-sobre-primario">
                           Confirmar
                         </button>
                         <button type="button" onClick={() => void mudarSituacaoDaIntencao(i.id, "recusada").then(recarregar)} className="min-h-10 rounded-full border border-borda px-4 text-sm font-medium text-tinta-suave">

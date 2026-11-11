@@ -36,7 +36,7 @@ import { TercoGuiado, type Posicao } from "@/components/TercoGuiado";
 import { NaoEncontrada } from "@/pages/Simples";
 
 const CAMPO = "min-h-12 w-full rounded-xl border border-borda bg-papel px-3 text-base text-tinta outline-none focus:border-destaque-texto";
-const BOTAO = "flex min-h-12 items-center justify-center gap-2 rounded-xl bg-destaque px-4 font-semibold text-sobre-destaque disabled:opacity-50";
+const BOTAO = "flex min-h-12 items-center justify-center gap-2 rounded-xl bg-primario px-4 font-semibold text-sobre-primario disabled:opacity-50";
 const SECUNDARIO = "flex min-h-12 items-center justify-center gap-2 rounded-xl border border-borda bg-cartao px-4 font-semibold text-tinta";
 const ORDEM_DOS_MISTERIOS: GrupoDeMisterios[] = ["gozosos", "luminosos", "dolorosos", "gloriosos"];
 
@@ -139,7 +139,7 @@ function RoteiroDoEncontro({ e, completo = true }: { e: Encontro; completo?: boo
   const m = MISTERIOS[e.misterios];
   return (
     <div className="flex flex-col gap-3">
-      <p className="font-leitura text-lg font-semibold text-marca">{m.nome}</p>
+      <p className="text-lg font-bold text-marca tracking-[-0.02em]">{m.nome}</p>
       <ol className="flex flex-col divide-y divide-borda">
         {m.misterios.map((nome, i) => {
           const d = e.dezenas[i];
@@ -239,7 +239,7 @@ function Ajudantes({ terco }: { terco: string }) {
 
   return (
     <Cartao className="flex flex-col gap-3">
-      <h2 className="font-leitura text-xl font-semibold text-marca">Quem ajuda a conduzir</h2>
+      <h2 className="text-xl font-bold text-marca tracking-[-0.02em]">Quem ajuda a conduzir</h2>
       {lista.map((a) => (
         <div key={a.usuario_id} className="flex items-center gap-2">
           <span className="min-w-0 flex-1 break-all text-tinta">{a.email}</span>
@@ -624,7 +624,7 @@ export function EditarTerco() {
                       const novo = atual.includes(v as number) ? atual.filter((x) => x !== v) : [...atual, v as number].sort();
                       mudar({ semanas: novo.length ? novo : null });
                     }}
-                    className={`min-h-10 rounded-full border px-4 text-sm font-medium ${ativo ? "border-transparent bg-destaque text-sobre-destaque" : "border-borda bg-cartao text-tinta"}`}
+                    className={`min-h-10 rounded-full border px-4 text-sm font-medium ${ativo ? "border-transparent bg-primario text-sobre-primario" : "border-borda bg-cartao text-tinta"}`}
                   >
                     {nome}
                   </button>
@@ -732,7 +732,7 @@ export function EditarEncontro() {
             type="button"
             aria-pressed={d === data}
             onClick={() => setParams({ data: d }, { replace: true })}
-            className={`min-h-10 rounded-full border px-4 text-sm font-medium ${d === data ? "border-transparent bg-destaque text-sobre-destaque" : "border-borda bg-cartao text-tinta"}`}
+            className={`min-h-10 rounded-full border px-4 text-sm font-medium ${d === data ? "border-transparent bg-primario text-sobre-primario" : "border-borda bg-cartao text-tinta"}`}
           >
             {dataLegivel(d)}
           </button>

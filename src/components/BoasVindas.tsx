@@ -7,14 +7,14 @@ import { useLocal } from "@/paroquias/useLocal";
 import { LISTA } from "@/components/Cartao";
 import { NOME_DO_APP } from "@/marca";
 
-const BOTAO = "flex min-h-14 w-full items-center justify-center gap-2 rounded-2xl bg-destaque px-5 text-lg font-semibold text-sobre-destaque disabled:opacity-50";
+const BOTAO = "flex min-h-14 w-full items-center justify-center gap-2 rounded-2xl bg-primario px-5 text-lg font-semibold text-sobre-primario disabled:opacity-50";
 const CAMPO = "flex min-h-12 items-center gap-2 rounded-xl border border-borda bg-cartao px-3 focus-within:border-destaque-texto";
 
 function PassoLetra({ seguir }: { seguir: () => void }) {
   const { preferencias, mudar } = usePreferencias();
   return (
     <>
-      <h2 className="font-leitura text-3xl font-semibold text-marca">Tamanho da letra</h2>
+      <h2 className="text-3xl font-extrabold text-marca tracking-[-0.02em]">Tamanho da letra</h2>
       <div className="flex flex-col gap-2">
         {(
           [
@@ -78,7 +78,7 @@ function PassoCidade({ seguir, aoEscolher }: { seguir: () => void; aoEscolher: (
 
   return (
     <>
-      <h2 className="font-leitura text-3xl font-semibold text-marca">Sua cidade</h2>
+      <h2 className="text-3xl font-extrabold text-marca tracking-[-0.02em]">Sua cidade</h2>
       <button type="button" onClick={pedir} disabled={estado === "buscando"} className={BOTAO}>
         <LocateFixed className="size-5" aria-hidden /> {estado === "buscando" ? "Procurando" : "Perto de mim"}
       </button>
@@ -140,7 +140,7 @@ function PassoParoquia({ onde, terminar }: { onde: Cidade | "perto" | null; term
 
   return (
     <>
-      <h2 className="font-leitura text-3xl font-semibold text-marca">Sua paróquia</h2>
+      <h2 className="text-3xl font-extrabold text-marca tracking-[-0.02em]">Sua paróquia</h2>
       <label className={CAMPO}>
         <Search className="size-5 shrink-0 text-tinta-suave" aria-hidden />
         <input value={termo} onChange={(e) => setTermo(e.target.value)} placeholder="Igreja, padroeiro ou bairro" aria-label="Procurar paróquia" autoComplete="off" className="min-w-0 flex-1 bg-transparent py-2 text-base outline-none placeholder:text-tinta-suave/70" />

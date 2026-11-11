@@ -79,7 +79,7 @@ export default function Calendario() {
           <button type="button" onClick={() => mesVizinho(-1)} aria-label="Mês anterior" className="grid size-11 place-items-center rounded-xl text-tinta-suave">
             <ChevronLeft className="size-6" aria-hidden />
           </button>
-          <h2 className="font-leitura text-xl font-semibold text-marca">
+          <h2 className="text-xl font-bold text-marca tracking-[-0.02em]">
             {MESES[mes - 1]} de {ano}
           </h2>
           <button type="button" onClick={() => mesVizinho(1)} aria-label="Próximo mês" className="grid size-11 place-items-center rounded-xl text-tinta-suave">
@@ -108,7 +108,7 @@ export default function Calendario() {
                 aria-pressed={sel}
                 aria-label={`${n}: ${x.titulo}`}
                 className={`flex min-h-12 flex-col items-center justify-center gap-1 rounded-xl text-[0.95rem] ${
-                  sel ? "bg-destaque text-sobre-destaque" : ehHoje ? "bg-marca-fundo" : ""
+                  sel ? "bg-primario text-sobre-primario" : ehHoje ? "bg-marca-fundo" : ""
                 } ${forte ? "font-bold" : ""}`}
               >
                 {n}
@@ -124,7 +124,7 @@ export default function Calendario() {
 
       <Cartao>
         <p className="text-sm font-medium text-tinta-suave">{dataPorExtenso(l.data)}</p>
-        <h2 className="mt-1 font-leitura text-2xl font-semibold leading-snug text-marca">{l.titulo}</h2>
+        <h2 className="mt-1 text-2xl font-extrabold leading-snug text-marca tracking-[-0.02em]">{l.titulo}</h2>
         <div className="mt-3 flex flex-wrap gap-2 text-xs font-semibold">
           <span className="flex items-center gap-1.5 rounded-full bg-marca-fundo px-3 py-1">
             <span className={`size-2 rounded-full ${COR_DA_BOLINHA[l.cor]}`} /> {NOME_DA_COR[l.cor]}
@@ -163,7 +163,7 @@ export default function Calendario() {
         )}
         <Link
           to={mesmoDia(l.data, h) ? "/liturgia" : `/liturgia/${paraIso(l.data)}`}
-          className="mt-5 flex min-h-12 items-center justify-center rounded-xl bg-destaque px-4 font-semibold text-sobre-destaque"
+          className="mt-5 flex min-h-12 items-center justify-center rounded-xl bg-primario px-4 font-semibold text-sobre-primario"
         >
           Liturgia do dia
         </Link>
@@ -171,8 +171,8 @@ export default function Calendario() {
 
       {doMes.length > 0 && (
         <section>
-          <h2 className="mb-2 px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto">Festas do mês</h2>
-          <ul className="flex flex-col divide-y divide-borda rounded-2xl border border-borda bg-cartao">
+          <h2 className="titulo-secao mb-3 px-1">Festas do mês</h2>
+          <ul className="flex flex-col divide-y divide-borda rounded-3xl bg-cartao">
             {doMes.map((x) => (
               <li key={paraIso(x.data)}>
                 <button type="button" onClick={() => ir(x.data)} className="flex min-h-12 w-full items-start gap-3 px-4 py-2.5 text-left">

@@ -44,7 +44,7 @@ import { TercoGuiado, type Posicao } from "@/components/TercoGuiado";
 import { NaoEncontrada } from "@/pages/Simples";
 
 const CAMPO = "min-h-12 w-full rounded-xl border border-borda bg-papel px-3 text-base text-tinta outline-none focus:border-destaque-texto";
-const BOTAO = "flex min-h-12 items-center justify-center gap-2 rounded-xl bg-destaque px-4 font-semibold text-sobre-destaque disabled:opacity-50";
+const BOTAO = "flex min-h-12 items-center justify-center gap-2 rounded-xl bg-primario px-4 font-semibold text-sobre-primario disabled:opacity-50";
 const SECUNDARIO = "flex min-h-12 items-center justify-center gap-2 rounded-xl border border-borda bg-cartao px-4 font-semibold text-tinta";
 const CHAVE_REZEI = "santinho-rezei";
 const POR_PAGINA = 20;
@@ -122,7 +122,7 @@ function ItemDeIntencao({ i, eu, aoApagar }: { i: Intencao; eu: string | null; a
             className="flex flex-col gap-2"
           >
             <input value={texto} onChange={(e) => setTexto(e.target.value)} placeholder="Conte em poucas palavras" aria-label="Testemunho" maxLength={140} className="min-h-12 w-full rounded-xl border border-borda bg-papel px-3 text-base text-tinta outline-none" />
-            <button type="submit" className="min-h-11 rounded-xl bg-destaque font-semibold text-sobre-destaque">
+            <button type="submit" className="min-h-11 rounded-xl bg-primario font-semibold text-sobre-primario">
               Contar a graça
             </button>
           </form>
@@ -155,7 +155,7 @@ function ItemDeIntencao({ i, eu, aoApagar }: { i: Intencao; eu: string | null; a
               type="button"
               onClick={() => void rezar()}
               disabled={rezei}
-              className={`flex min-h-10 items-center gap-1.5 rounded-full px-4 text-sm font-semibold ${rezei ? "bg-marca-fundo text-destaque-texto" : "bg-destaque text-sobre-destaque"}`}
+              className={`flex min-h-10 items-center gap-1.5 rounded-full px-4 text-sm font-semibold ${rezei ? "bg-marca-fundo text-destaque-texto" : "bg-primario text-sobre-primario"}`}
             >
               {rezei ? <Check className="size-4" aria-hidden /> : <HandHeart className="size-4" aria-hidden />}
               {rezei ? "Rezei" : "Rezei por você"}
@@ -215,7 +215,7 @@ function PedirOracao({ grupo, aoPedir }: { grupo?: string; aoPedir: () => void }
               type="button"
               aria-pressed={tipo === t.id}
               onClick={() => setTipo(t.id)}
-              className={`min-h-10 rounded-full border px-4 text-sm font-medium ${tipo === t.id ? "border-transparent bg-destaque text-sobre-destaque" : "border-borda bg-cartao text-tinta"}`}
+              className={`min-h-10 rounded-full border px-4 text-sm font-medium ${tipo === t.id ? "border-transparent bg-primario text-sobre-primario" : "border-borda bg-cartao text-tinta"}`}
             >
               {t.rotulo}
             </button>
@@ -330,7 +330,7 @@ export function Intencoes() {
         ))}
       {meus.length > 0 && (
         <section>
-          <h2 className="mb-2 px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto">Meus pedidos</h2>
+          <h2 className="titulo-secao mb-3 px-1">Meus pedidos</h2>
           <ul className={LISTA}>
             {meus.map((i) => (
               <ItemDeIntencao key={i.id} i={i} eu={i.autor_id} aoApagar={() => void apagarIntencao(i.id).then(() => setVersao((v) => v + 1))} />
@@ -339,7 +339,7 @@ export function Intencoes() {
         </section>
       )}
       <section>
-        <h2 className="mb-2 px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto">Pedidos de oração</h2>
+        <h2 className="titulo-secao mb-3 px-1">Pedidos de oração</h2>
         <ListaDeIntencoes versao={versao} />
       </section>
     </div>
@@ -424,7 +424,7 @@ export function Grupos() {
                   type="button"
                   aria-pressed={tipo === t}
                   onClick={() => setTipo(t)}
-                  className={`min-h-10 rounded-full border px-4 text-sm font-medium ${tipo === t ? "border-transparent bg-destaque text-sobre-destaque" : "border-borda bg-cartao text-tinta"}`}
+                  className={`min-h-10 rounded-full border px-4 text-sm font-medium ${tipo === t ? "border-transparent bg-primario text-sobre-primario" : "border-borda bg-cartao text-tinta"}`}
                 >
                   {NOME_DO_TIPO_DE_GRUPO[t]}
                 </button>
@@ -588,7 +588,7 @@ export function GrupoPagina() {
       <NovenaDoGrupo grupo={grupo.id} membros={membros} eu={eu} />
 
       <section>
-        <h2 className="mb-2 px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto">Pedidos do grupo</h2>
+        <h2 className="titulo-secao mb-3 px-1">Pedidos do grupo</h2>
         <ListaDeIntencoes grupo={grupo.id} versao={versao} />
       </section>
 

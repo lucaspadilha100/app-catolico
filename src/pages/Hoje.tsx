@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { AudioLines, BookOpenText, ChevronRight, Droplets, Flower2, Church, CircleDot, ListChecks, Share2 } from "lucide-react";
+import { AudioLines, ChevronRight, Droplets, Flower2, Church, CircleDot, ListChecks, Share2 } from "lucide-react";
 import { emAndamento } from "@/devocao/andamento";
 import { NOME_DO_MOMENTO, momentoDaHora } from "@/voz/falas";
 import { useDevocoesGuardadas } from "@/devocao/progresso";
@@ -15,7 +15,7 @@ import { useDiaLiturgico } from "@/lib/useDiaLiturgico";
 import { dataPorExtenso } from "@/liturgia/datas";
 import { NOME_DA_COR, NOME_DO_GRAU, NOME_DO_TEMPO, type CorLiturgica } from "@/liturgia/calendario";
 import { misteriosDoDia } from "@/liturgia/terco";
-import { Cartao, LISTA, TituloCartao } from "@/components/Cartao";
+import { Cartao, LISTA } from "@/components/Cartao";
 import { ProximaMissa } from "@/components/ProximaMissa";
 import { NovidadesDasIgrejas } from "@/components/NovidadesDasIgrejas";
 import { compartilhar, enderecoPublico } from "@/lib/nativo";
@@ -97,13 +97,13 @@ export default function Hoje() {
     if (r === "erro") window.open(`https://wa.me/?text=${encodeURIComponent(`${texto}\n\n${url}`)}`, "_blank", "noopener");
   }
 
-  const linha = "flex min-h-14 items-center gap-3 px-4 py-2.5 transition-colors hover:bg-marca-fundo/60";
+  const linha = "flex min-h-16 items-center gap-3 px-4 py-3 transition-colors hover:bg-marca-fundo/70";
 
   return (
-    <div className="flex flex-col gap-4">
-      <section className="rounded-3xl border border-borda-dia bg-dia px-5 py-5 text-sobre-dia shadow-sm">
+    <div className="flex flex-col gap-7">
+      <section className="rounded-3xl border border-borda-dia bg-dia px-5 py-5 text-sobre-dia">
         <p className="text-sm font-medium">{dataPorExtenso(l.data)}</p>
-        <h1 className="mt-1.5 font-leitura text-2xl font-semibold leading-snug sm:text-3xl">{l.titulo}</h1>
+        <h1 className="mt-1.5 text-[1.75rem] font-extrabold leading-[1.15] tracking-[-0.025em]">{l.titulo}</h1>
         {subtitulo && <p className="mt-1.5 text-sm font-medium">{subtitulo}</p>}
         <div className="mt-3 flex flex-wrap gap-2 text-xs font-semibold">
           <span className="rounded-full bg-black/10 px-3 py-1">Cor: {NOME_DA_COR[l.cor]}</span>
@@ -116,11 +116,11 @@ export default function Hoje() {
         </div>
       </section>
 
-      <Link to="/rezar/agora" className="flex min-h-16 items-center gap-3 rounded-2xl bg-destaque px-5 text-sobre-destaque shadow-sm">
+      <Link to="/rezar/agora" className="flex min-h-[4.5rem] items-center gap-3 rounded-3xl bg-primario px-5 text-sobre-primario">
         <AudioLines className="size-6 shrink-0" aria-hidden />
         <span className="min-w-0 flex-1">
-          <span className="block text-lg font-semibold">Rezar agora</span>
-          <span className="block text-sm">{NOME_DO_MOMENTO[momentoDaHora(new Date().getHours())]}</span>
+          <span className="block text-lg font-bold tracking-[-0.01em]">Rezar agora</span>
+          <span className="block text-sm opacity-75">{NOME_DO_MOMENTO[momentoDaHora(new Date().getHours())]}</span>
         </span>
         <ChevronRight className="size-5 shrink-0" aria-hidden />
       </Link>
@@ -129,7 +129,7 @@ export default function Hoje() {
 
       <Cartao>
         <div className="flex items-center justify-between gap-2">
-          <TituloCartao icone={BookOpenText}>Liturgia do dia</TituloCartao>
+          <h2 className="titulo-secao">Liturgia do dia</h2>
           <button type="button" onClick={() => void enviarLiturgia()} aria-label="Compartilhar a liturgia" className="-mr-2 grid size-10 place-items-center rounded-full text-tinta-suave hover:bg-marca-fundo">
             <Share2 className="size-5" aria-hidden />
           </button>
@@ -143,12 +143,12 @@ export default function Hoje() {
               .map((x) => (
                 <li key={x.tipo + x.referencia} className="col-span-2 grid grid-cols-subgrid items-baseline">
                   <span className="text-sm text-tinta-suave">{ROTULO_CURTO[x.tipo]}</span>
-                  <span className={`font-leitura ${x.tipo === "evangelho" ? "font-semibold text-marca" : ""}`}>{x.referencia}</span>
+                  <span className={`${x.tipo === "evangelho" ? "font-bold text-tinta" : "font-medium text-tinta"}`}>{x.referencia}</span>
                 </li>
               ))}
           </ul>
         )}
-        <Link to="/liturgia" className="mt-4 flex min-h-12 items-center justify-center rounded-xl bg-destaque px-4 font-semibold text-sobre-destaque">
+        <Link to="/liturgia" className="mt-5 flex min-h-12 items-center justify-center rounded-full bg-primario px-4 font-bold text-sobre-primario">
           Ler a liturgia
         </Link>
       </Cartao>
@@ -156,10 +156,10 @@ export default function Hoje() {
       {missas && <ReflexaoResumo canonica={evangelhoDaMissa(missas[0])} para="/liturgia#reflexao" />}
 
       <section>
-        <h2 className="mb-2 px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto">Para rezar hoje</h2>
+        <h2 className="titulo-secao mb-3 px-1">Para rezar hoje</h2>
         <div className={LISTA}>
           <Link to="/rezar/terco" className={linha}>
-            <span className="grid size-10 shrink-0 place-items-center rounded-xl bg-marca-fundo text-destaque-texto">
+            <span className="grid size-11 shrink-0 place-items-center rounded-2xl bg-papel text-tinta">
               <CircleDot className="size-5" aria-hidden />
             </span>
             <span className="min-w-0 flex-1">
@@ -170,7 +170,7 @@ export default function Hoje() {
           </Link>
           {andamento.map((i) => (
             <Link key={i.para} to={i.para} className={linha}>
-              <span className="grid size-10 shrink-0 place-items-center rounded-xl bg-marca-fundo text-destaque-texto">
+              <span className="grid size-11 shrink-0 place-items-center rounded-2xl bg-papel text-tinta">
                 <ListChecks className="size-5" aria-hidden />
               </span>
               <span className="min-w-0 flex-1">
@@ -182,7 +182,7 @@ export default function Hoje() {
           ))}
           {lembrancas.map((t) => (
             <Link key={t} to="/rezar/falecidos" className={linha}>
-              <span className="grid size-10 shrink-0 place-items-center rounded-xl bg-marca-fundo text-destaque-texto">
+              <span className="grid size-11 shrink-0 place-items-center rounded-2xl bg-papel text-tinta">
                 <Flower2 className="size-5" aria-hidden />
               </span>
               <span className="min-w-0 flex-1 font-medium leading-snug text-tinta">{t}</span>
@@ -191,7 +191,7 @@ export default function Hoje() {
           ))}
           {anosDeBatismo && (
             <div className={linha}>
-              <span className="grid size-10 shrink-0 place-items-center rounded-xl bg-marca-fundo text-destaque-texto">
+              <span className="grid size-11 shrink-0 place-items-center rounded-2xl bg-papel text-tinta">
                 <Droplets className="size-5" aria-hidden />
               </span>
               <span className="min-w-0 flex-1 font-medium text-tinta">
@@ -204,13 +204,13 @@ export default function Hoje() {
 
       {l.santos.length > 0 && (
         <section>
-          <h2 className="mb-2 px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto">{l.santos.length > 1 ? "Santos do dia" : "Santo do dia"}</h2>
+          <h2 className="titulo-secao mb-3 px-1">{l.santos.length > 1 ? "Santos do dia" : "Santo do dia"}</h2>
           <div className={LISTA}>
             {l.santos.map((s) => (
               <Link key={s.nome} to={linkDoSanto(s.nome)} className={linha}>
                 <span className={`size-2.5 shrink-0 rounded-full ${COR_PONTO[s.cor]}`} aria-label={`Cor ${NOME_DA_COR[s.cor].toLowerCase()}`} />
                 <span className="min-w-0 flex-1">
-                  <span className="block font-leitura text-[1.05rem] font-semibold leading-snug text-marca">{s.nome}</span>
+                  <span className="block font-semibold leading-snug text-tinta">{s.nome}</span>
                   <span className="text-sm text-tinta-suave">{NOME_DO_GRAU[s.grau]}</span>
                 </span>
                 <ChevronRight className="size-5 shrink-0 text-tinta-suave" aria-hidden />
@@ -225,7 +225,7 @@ export default function Hoje() {
       <CartaoDaCampanha />
 
       {!minhaParoquia && (
-        <Link to="/missas" className="flex min-h-14 items-center gap-3 rounded-2xl border border-borda bg-cartao px-4 py-3 shadow-sm">
+        <Link to="/missas" className="flex min-h-14 items-center gap-3 rounded-3xl bg-cartao px-4 py-3">
           <Church className="size-6 shrink-0 text-destaque-texto" aria-hidden />
           <span className="min-w-0 flex-1 font-semibold text-tinta">Escolher minha paróquia</span>
           <ChevronRight className="size-5 shrink-0 text-tinta-suave" aria-hidden />

@@ -32,7 +32,7 @@ function Escolha() {
       <button
         type="button"
         onClick={() => comecar(d, "")}
-        className="flex min-h-16 flex-col justify-center rounded-xl bg-destaque px-4 py-3 text-left text-sobre-destaque"
+        className="flex min-h-16 flex-col justify-center rounded-xl bg-primario px-4 py-3 text-left text-sobre-primario"
       >
         <span className="font-semibold">Começar hoje</span>
         <span className="text-sm opacity-90">Consagração em {diaEMes(somaDias(d, DIAS_DA_CONSAGRACAO))}</span>
@@ -112,7 +112,7 @@ export default function Consagracao() {
 
           {dia === TOTAL ? (
             <>
-              <h2 className="font-leitura text-2xl font-semibold leading-snug text-marca">{conteudo.ato.titulo}</h2>
+              <h2 className="text-2xl font-extrabold leading-snug text-marca tracking-[-0.02em]">{conteudo.ato.titulo}</h2>
               <Blocos blocos={conteudo.ato.blocos} />
             </>
           ) : (
@@ -123,7 +123,7 @@ export default function Consagracao() {
                 <>
                   <div>
                     {periodo && <p className="text-sm font-medium text-tinta-suave">{periodo.nome}</p>}
-                    <h2 className="mt-1 font-leitura text-2xl font-semibold leading-snug text-marca">{etapa.titulo}</h2>
+                    <h2 className="mt-1 text-2xl font-extrabold leading-snug text-marca tracking-[-0.02em]">{etapa.titulo}</h2>
                   </div>
                   <Blocos blocos={etapa.blocos} />
                   {periodo && (

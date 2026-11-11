@@ -50,7 +50,7 @@ function Criar() {
       <button
         type="submit"
         disabled={!pinValido(pin) || pin !== repetir || ocupado}
-        className="min-h-12 rounded-xl bg-destaque font-semibold text-sobre-destaque disabled:opacity-50"
+        className="min-h-12 rounded-xl bg-primario font-semibold text-sobre-primario disabled:opacity-50"
       >
         {ocupado ? "Guardando" : "Criar PIN"}
       </button>
@@ -86,7 +86,7 @@ function Abrir() {
       </p>
       <CampoPin rotulo="PIN" valor={pin} onChange={(v) => (setPin(v), setErro(false))} autoFocus />
       {erro && <p className="text-sm font-medium text-[#a9271f]">PIN incorreto.</p>}
-      <button type="submit" disabled={pin.length < 4 || ocupado} className="min-h-12 rounded-xl bg-destaque font-semibold text-sobre-destaque disabled:opacity-50">
+      <button type="submit" disabled={pin.length < 4 || ocupado} className="min-h-12 rounded-xl bg-primario font-semibold text-sobre-primario disabled:opacity-50">
         {ocupado ? "Abrindo" : "Abrir"}
       </button>
       <button type="button" onClick={esqueci} className="min-h-11 text-sm font-medium text-tinta-suave underline-offset-4 hover:underline">

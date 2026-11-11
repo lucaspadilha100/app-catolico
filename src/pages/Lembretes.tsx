@@ -76,7 +76,7 @@ export default function Lembretes() {
         </Cartao>
       ) : (
         <>
-          <div className="flex flex-col divide-y divide-borda overflow-hidden rounded-2xl border border-borda bg-cartao shadow-sm">
+          <div className="flex flex-col divide-y divide-borda overflow-hidden rounded-3xl bg-cartao">
             <Linha titulo="Evangelho do dia" ligado={Boolean(l.evangelho)} onLigar={(v) => void mudar({ ...l, evangelho: v ? "07:00" : undefined })}>
               {hora(l.evangelho, "evangelho", "07:00")}
             </Linha>
@@ -111,7 +111,7 @@ export default function Lembretes() {
                 <p className="text-center text-sm text-tinta-suave">As notificações estão bloqueadas para este app nos ajustes do aparelho.</p>
               )}
               {estado === "erro" && <p className="text-center text-sm font-medium text-[#a9271f]">Não foi possível ligar agora. Tente de novo.</p>}
-              <button type="button" onClick={() => void ligarTudo()} disabled={estado === "ativando"} className="flex min-h-14 items-center justify-center gap-2 rounded-2xl bg-destaque text-lg font-semibold text-sobre-destaque disabled:opacity-60">
+              <button type="button" onClick={() => void ligarTudo()} disabled={estado === "ativando"} className="flex min-h-14 items-center justify-center gap-2 rounded-2xl bg-primario text-lg font-semibold text-sobre-primario disabled:opacity-60">
                 <Bell className="size-5" aria-hidden /> {estado === "ativando" ? "Ligando" : "Ligar os lembretes"}
               </button>
             </>
