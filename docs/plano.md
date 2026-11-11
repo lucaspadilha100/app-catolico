@@ -286,15 +286,24 @@ O diferencial do app (pedido do dono, 11/11/2026).
   revisado pela Meta (pede domínio e política de privacidade publicados)
 - ⬜ 👤 Escolher as paróquias pioneiras (no Painel: editar a paróquia, Plano)
 
-### Leva 19. Plano para paróquias ⬜
+### Leva 19. Plano para paróquias ✅ (o que depende do dono continua 👤)
 - ✅ 👤 O que é grátis e o que é do plano (aprovado pelo dono, 11/11/2026):
   página, horários e avisos de texto grátis; notificação aos seguidores,
   eventos com inscrição e PIX no plano
-- ⬜ Inscrições: batismo, crisma, curso de noivos, catequese (formulário e
-  lista para a secretaria)
-- ⬜ Oferta e dízimo por PIX direto na conta da paróquia (o app não toca no dinheiro)
-- ⬜ Números para a paróquia: seguidores, alcance dos avisos
-- ⬜ Paróquias pioneiras de graça (o dono escolhe quais)
+- ✅ Inscrições: batismo, primeira comunhão, crisma, catequese, curso de noivos
+  e encontros. O fiel se inscreve com a conta (vê e cancela as suas); a
+  secretaria abre e encerra, confirma, busca, chama no WhatsApp e baixa a
+  planilha. Vagas e prazo conferidos no banco
+- ✅ Oferta e dízimo por PIX direto na conta da paróquia (QR e copia e cola,
+  com ou sem valor; o app não toca no dinheiro). A chave só aparece depois que
+  o admin confere (Painel, "PIX para conferir"); trocar a chave volta para a
+  conferência. No app de loja o botão abre o site (regra da Apple e do Google)
+- ✅ Números para a paróquia: quem recebe os avisos, contas que seguem,
+  publicações e avisos entregues em 30 dias, inscrições
+- ✅ Paróquias pioneiras de graça: o admin escolhe em editar a paróquia, "Plano"
+- ⬜ 👤 Escolher as pioneiras e conferir cada chave PIX com a paróquia (ligar
+  para a secretaria antes de marcar "Chave conferida")
+- ⬜ 👤 Implantar de novo a função `lembretes` (agora conta o alcance)
 - ⬜ Cobrança pelo site (assinatura mensal) com Asaas ou Mercado Pago
 - ⬜ 👤 Preço do plano, CNPJ ou associação para receber, conta no meio de pagamento
 

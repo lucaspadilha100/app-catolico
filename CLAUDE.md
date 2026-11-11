@@ -75,6 +75,16 @@ configurado desde o início) · **Supabase** plano gratuito (projeto
   (`gratis` | `pioneira` | `paroquia`, só o admin muda). A mesma função
   `lembretes` avisa quem segue (`lembrete_inscricoes.lembretes.igrejas`) quando
   a paróquia não é `gratis`.
+- **Plano para paróquias** (migração 20261124000000): `turmas` (inscrições
+  abertas pela equipe, só com plano) e `inscricoes` (o fiel com conta; ele só
+  cancela, a equipe só muda a situação, ninguém apaga; vagas, prazo e limite
+  no gatilho). `turmas_da_paroquia` dá a contagem a todos. PIX em
+  `paroquias.pix_*`: a chave só aparece com `pix_conferido`, que só o admin
+  marca, e volta a falso quando a equipe troca a chave. `salvarParoquia` não
+  manda os campos do PIX (formulário velho apagaria a chave nova). O código
+  PIX (BR Code) sai de `src/paroquias/pix.ts`, testado com o exemplo do Banco
+  Central. `numeros_da_paroquia` só para a equipe; `publicacoes_paroquia.alcance`
+  quem grava é a função `lembretes`.
 
 ## Acabamento profissional (pedido do dono, 10/11/2026)
 - **Sem cara de IA.** Código sem comentários explicativos (só o raro que evita
