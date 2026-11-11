@@ -13,8 +13,20 @@ export interface Lembretes {
   novenas?: NovenaLembrada[];
   avisos?: boolean;
   oracoes?: boolean;
+  encontros?: boolean;
   igrejas?: string[];
+  tercos?: string[];
 }
+
+export interface TercoAgendado {
+  id: string;
+  nome: string;
+  dia_semana: number;
+  semanas: number[] | null;
+  hora: string;
+}
+
+export const ANTECEDENCIA_DO_TERCO = 60;
 
 export interface Aviso {
   tipo: string;
@@ -75,6 +87,29 @@ export function avisosDevidos(l: Lembretes, enviados: Record<string, string>, ag
         break;
       }
     }
+  }
+  return r;
+}
+
+function encontroHoje(t: TercoAgendado, agora: Agora): boolean {
+  if (t.dia_semana !== agora.diaDaSemana) return false;
+  if (!t.semanas?.length) return true;
+  const [a, m, d] = agora.iso.split("-").map(Number);
+  const semana = Math.floor((d! - 1) / 7) + 1;
+  const ultima = new Date(Date.UTC(a!, m! - 1, d! + 7)).getUTCMonth() !== m! - 1;
+  return t.semanas.includes(semana) || (t.semanas.includes(6) && ultima);
+}
+
+export function encontrosDevidos(tercos: TercoAgendado[], seguidos: string[], enviados: Record<string, string>, agora: Agora): Aviso[] {
+  const r: Aviso[] = [];
+  for (const t of tercos) {
+    if (!seguidos.includes(t.id)) continue;
+    const tipo = `terco-${t.id}`;
+    if (enviados[tipo] === agora.iso || !encontroHoje(t, agora)) continue;
+    const hora = minutosDe(t.hora.slice(0, 5));
+    if (hora === null || !naHora(Math.max(0, hora - ANTECEDENCIA_DO_TERCO), agora)) continue;
+    const [h, min] = t.hora.slice(0, 5).split(":");
+    r.push({ tipo, titulo: t.nome, corpo: `Hoje, às ${Number(h)}h${min === "00" ? "" : min}.`, url: `/tercos/${t.id}` });
   }
   return r;
 }

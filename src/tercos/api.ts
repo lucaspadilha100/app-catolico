@@ -13,6 +13,7 @@ export interface TercoCompleto {
   paroquia: { id: string; nome: string } | null;
   encontros: Encontro[];
   conduzo: boolean;
+  responsavel: boolean;
 }
 
 const hojeIso = () => new Date().toLocaleDateString("sv-SE");
@@ -29,7 +30,7 @@ export async function carregarTerco(id: string): Promise<TercoCompleto | null> {
   const { paroquias, ...terco } = linha;
   let conduzo = false;
   if (sessao.data.session) conduzo = !!ou(await c.rpc("conduz_o_terco", { p_terco: id }));
-  return { terco, paroquia: paroquias, encontros: ou(e) as Encontro[], conduzo };
+  return { terco, paroquia: paroquias, encontros: ou(e) as Encontro[], conduzo, responsavel: sessao.data.session?.user.id === terco.responsavel_id };
 }
 
 export async function tercosPorIds(ids: string[]): Promise<Terco[]> {
@@ -119,4 +120,19 @@ export async function agendaDeTercos(p: Onde & Periodo, pular = 0, limite = 30):
       p_ate: p.ate,
     }),
   ) as ItemDaAgendaDeTerco[];
+}
+
+export async function ajudantesDoTerco(terco: string): Promise<{ usuario_id: string; email: string }[]> {
+  const c = await cliente();
+  return ou(await c.rpc("ajudantes_do_terco", { p_terco: terco })) as { usuario_id: string; email: string }[];
+}
+
+export async function adicionarAjudante(terco: string, email: string) {
+  const c = await cliente();
+  ou(await c.rpc("adicionar_ajudante", { p_terco: terco, p_email: email }));
+}
+
+export async function removerAjudante(terco: string, usuario: string) {
+  const c = await cliente();
+  ou(await c.rpc("remover_ajudante", { p_terco: terco, p_usuario: usuario }));
 }

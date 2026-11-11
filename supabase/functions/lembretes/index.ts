@@ -1,6 +1,6 @@
 import webpush from "npm:web-push@3.6.7";
 import { createClient } from "npm:@supabase/supabase-js@2";
-import { agoraNoFuso, avisosDevidos, type Lembretes } from "./regras.ts";
+import { agoraNoFuso, avisosDevidos, encontrosDevidos, type Lembretes, type TercoAgendado } from "./regras.ts";
 
 const SITE = Deno.env.get("SITE") ?? "https://app-catolico-five.vercel.app";
 
@@ -118,10 +118,17 @@ Deno.serve(async () => {
     const { data, error } = await banco.from("lembrete_inscricoes").select("*").order("endpoint").range(de, de + 499);
     if (error) return new Response(JSON.stringify({ erro: error.message }), { status: 500 });
     const lista = (data ?? []) as Inscricao[];
+    const ids = [...new Set(lista.flatMap((i) => i.lembretes.tercos ?? []))].slice(0, 1000);
+    const tercos = ids.length
+      ? (((await banco.from("tercos").select("id, nome, dia_semana, semanas, hora").in("id", ids).eq("situacao", "aprovado").eq("ativo", true)).data ?? []) as TercoAgendado[])
+      : [];
     for (const i of lista) {
       const local = agoraNoFuso(agora, i.fuso);
       const precisaDoEvangelho = Boolean(i.lembretes.evangelho) && i.enviados.evangelho !== local.iso;
-      const avisos = avisosDevidos(i.lembretes, i.enviados ?? {}, local, precisaDoEvangelho ? await evangelhoDe(local.iso) : null);
+      const avisos = [
+        ...avisosDevidos(i.lembretes, i.enviados ?? {}, local, precisaDoEvangelho ? await evangelhoDe(local.iso) : null),
+        ...encontrosDevidos(tercos, i.lembretes.tercos ?? [], i.enviados ?? {}, local),
+      ];
       if (!avisos.length) continue;
       const marcados = { ...(i.enviados ?? {}) };
       let falhou = false;

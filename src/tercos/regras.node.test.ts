@@ -75,3 +75,21 @@ describe("terços", () => {
     expect((await como("anon", null, "select id from public.terco_encontros where terco_id = $1", [t])).rows).toHaveLength(0);
   });
 });
+
+describe("ajudantes do terço", () => {
+  it("o responsável dá acesso por e-mail; o ajudante conduz o encontro; outro não", async () => {
+    await db.query("alter table auth.users add column if not exists email text");
+    await db.query("update auth.users set email = 'outro@exemplo.org' where id = $1", [OUTRO]);
+    await expect(como("authenticated", OUTRO, "select public.adicionar_ajudante($1, 'outro@exemplo.org')", [terco])).rejects.toThrow(/permissao/);
+    await expect(como("authenticated", JOVEM, "select public.adicionar_ajudante($1, 'ninguem@exemplo.org')", [terco])).rejects.toThrow(/nenhuma conta/);
+    await como("authenticated", JOVEM, "select public.adicionar_ajudante($1, 'Outro@Exemplo.org')", [terco]);
+    expect((await como("authenticated", JOVEM, "select email from public.ajudantes_do_terco($1)", [terco])).rows).toEqual([{ email: "outro@exemplo.org" }]);
+    expect((await como("authenticated", OUTRO, "select * from public.ajudantes_do_terco($1)", [terco])).rows).toHaveLength(0);
+    expect((await como("authenticated", OUTRO, "select public.conduz_o_terco($1) as ok", [terco])).rows[0]).toEqual({ ok: true });
+    await como("authenticated", OUTRO, "insert into public.terco_encontros (terco_id, data, misterios) values ($1, '2026-12-03', 'gozosos')", [terco]);
+    const r = await como("authenticated", OUTRO, "update public.tercos set nome = 'Mudado pelo ajudante' where id = $1", [terco]);
+    expect(r.affectedRows ?? 0).toBe(0);
+    await como("authenticated", OUTRO, "select public.remover_ajudante($1, $2)", [terco, OUTRO]);
+    expect((await como("authenticated", OUTRO, "select public.conduz_o_terco($1) as ok", [terco])).rows[0]).toEqual({ ok: false });
+  });
+});

@@ -4,6 +4,7 @@ import { hoje, paraIso } from "@/liturgia/datas";
 import { minutosDe, type Lembretes, type NovenaLembrada } from "../../supabase/functions/lembretes/regras";
 import { ehNativo } from "@/lib/nativo";
 import { igrejasQueSigo } from "@/paroquias/seguidas";
+import { lerTercosSeguidos } from "@/tercos/seguidos";
 import { diaLiturgico } from "@/liturgia/calendario";
 import { carregarLecionario, leiturasDoDia } from "@/liturgia/lecionario";
 import { MISTERIOS, grupoDoDiaDaSemana } from "@/liturgia/terco";
@@ -155,7 +156,7 @@ async function enviar(sub: PushSubscription, lembretes: Lembretes) {
     p_p256dh: j.keys?.p256dh,
     p_auth: j.keys?.auth,
     p_fuso: Intl.DateTimeFormat().resolvedOptions().timeZone,
-    p_lembretes: { ...lembretes, novenas: novenasSeguidas(), igrejas: lembretes.avisos === false ? [] : igrejasQueSigo() },
+    p_lembretes: { ...lembretes, novenas: novenasSeguidas(), igrejas: lembretes.avisos === false ? [] : igrejasQueSigo(), tercos: lembretes.encontros === false ? [] : lerTercosSeguidos() },
   });
 }
 

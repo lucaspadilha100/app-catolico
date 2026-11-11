@@ -2,14 +2,16 @@ import { useCallback, useEffect, useState } from "react";
 
 const CHAVE = "santinho-tercos-seguidos";
 
-const ler = (): string[] => {
+export const lerTercosSeguidos = (): string[] => ler();
+
+function ler(): string[] {
   try {
     const v = JSON.parse(localStorage.getItem(CHAVE) ?? "[]") as unknown;
     return Array.isArray(v) ? v.filter((x): x is string => typeof x === "string") : [];
   } catch {
     return [];
   }
-};
+}
 
 export function useTercosSeguidos(): [string[], (id: string) => void] {
   const [ids, setIds] = useState(ler);
@@ -25,6 +27,7 @@ export function useTercosSeguidos(): [string[], (id: string) => void] {
       localStorage.setItem(CHAVE, JSON.stringify(novo));
     } catch {}
     window.dispatchEvent(new Event(CHAVE));
+    setTimeout(() => void import("@/lembretes/lembretes").then((m) => m.avisarMudancaDeIgrejas()), 300);
   }, []);
   return [ids, alternar];
 }

@@ -8,6 +8,8 @@ import { carregarParoquia, coordenadasDoEndereco, procurarParoquias } from "@/pa
 import { descreverSemanas, hhmm, NOME_DO_DIA, telefoneLegivel } from "@/paroquias/horarios";
 import type { ParoquiaResumo } from "@/paroquias/tipos";
 import {
+  adicionarAjudante,
+  ajudantesDoTerco,
   apagarTerco,
   carregarTerco,
   encontroDoDia,
@@ -15,6 +17,7 @@ import {
   meusTercos,
   moverAoVivo,
   ouvirEncontro,
+  removerAjudante,
   salvarEncontro,
   salvarTerco,
   tercosPorIds,
@@ -188,6 +191,48 @@ function Contato({ href, icone: Icone, rotulo, children }: { href: string; icone
   );
 }
 
+function Ajudantes({ terco }: { terco: string }) {
+  const [lista, setLista] = useState<{ usuario_id: string; email: string }[]>([]);
+  const [email, setEmail] = useState("");
+  const [aviso, setAviso] = useState("");
+  const recarregar = () => void ajudantesDoTerco(terco).then(setLista).catch(() => {});
+  useEffect(recarregar, [terco]);
+
+  async function adicionar(e: FormEvent) {
+    e.preventDefault();
+    setAviso("");
+    try {
+      await adicionarAjudante(terco, email.trim());
+      setEmail("");
+      recarregar();
+    } catch (err) {
+      const m = String(err);
+      setAviso(m.includes("nenhuma conta") ? "Não há conta com este e-mail. A pessoa precisa criar a conta antes." : m.includes("limite") ? "São no máximo 10 ajudantes." : "Não foi possível agora. Tente de novo.");
+    }
+  }
+
+  return (
+    <Cartao className="flex flex-col gap-3">
+      <h2 className="font-leitura text-xl font-semibold text-marca">Quem ajuda a conduzir</h2>
+      {lista.map((a) => (
+        <div key={a.usuario_id} className="flex items-center gap-2">
+          <span className="min-w-0 flex-1 break-all text-tinta">{a.email}</span>
+          <button type="button" onClick={() => void removerAjudante(terco, a.usuario_id).then(recarregar)} aria-label={`Tirar ${a.email}`} className="grid size-10 shrink-0 place-items-center rounded-full text-tinta-suave hover:bg-marca-fundo">
+            <X className="size-4" aria-hidden />
+          </button>
+        </div>
+      ))}
+      <form onSubmit={adicionar} className="flex flex-col gap-2">
+        <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="E-mail da conta" aria-label="E-mail da conta" autoCapitalize="none" className={CAMPO} />
+        {aviso && <p className="text-sm text-[#a9271f]">{aviso}</p>}
+        <button type="submit" disabled={!email.includes("@")} className={BOTAO}>
+          Dar acesso
+        </button>
+      </form>
+    </Cartao>
+  );
+}
+
 export function TercoPagina() {
   const { id = "" } = useParams();
   const { email } = useConta();
@@ -209,7 +254,7 @@ export function TercoPagina() {
   if (dados === null) return <Carregando />;
   if (dados === "nada") return <NaoEncontrada />;
   if (dados === "erro") return <Indisponivel />;
-  const { terco: t, paroquia, encontros, conduzo } = dados;
+  const { terco: t, paroquia, encontros, conduzo, responsavel } = dados;
   const proxima = proximasDatas(t, 1)[0];
   const encontro = encontros.find((e) => e.data === proxima) ?? encontros[0] ?? null;
   const aoVivo = encontros.find((e) => e.ao_vivo);
@@ -297,13 +342,16 @@ export function TercoPagina() {
             <span className="min-w-0 flex-1 font-medium">Montar o roteiro</span>
             <ChevronRight className="size-5 shrink-0 text-tinta-suave" aria-hidden />
           </Link>
-          <Link to={`/tercos/${t.id}/editar`} className={LINHA}>
-            <Pencil className="size-5 shrink-0 text-destaque-texto" aria-hidden />
-            <span className="min-w-0 flex-1 font-medium">Editar dados do terço</span>
-            <ChevronRight className="size-5 shrink-0 text-tinta-suave" aria-hidden />
-          </Link>
+          {responsavel && (
+            <Link to={`/tercos/${t.id}/editar`} className={LINHA}>
+              <Pencil className="size-5 shrink-0 text-destaque-texto" aria-hidden />
+              <span className="min-w-0 flex-1 font-medium">Editar dados do terço</span>
+              <ChevronRight className="size-5 shrink-0 text-tinta-suave" aria-hidden />
+            </Link>
+          )}
         </Grupo>
       )}
+      {responsavel && <Ajudantes terco={t.id} />}
 
       {(t.instagram || t.whatsapp) && (
         <Cartao className="p-0">

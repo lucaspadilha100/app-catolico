@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { agoraNoFuso, avisosDevidos } from "../../supabase/functions/lembretes/regras";
+import { agoraNoFuso, avisosDevidos, encontrosDevidos } from "../../supabase/functions/lembretes/regras";
 
 describe("lembretes", () => {
   const as = (hora: string, iso = "2026-11-10") => {
@@ -30,5 +30,25 @@ describe("lembretes", () => {
     expect(avisosDevidos(l, {}, as("09:00", "2026-11-17"), null)).toEqual([]);
     expect(avisosDevidos(l, {}, as("09:00", "2026-11-20"), null)[0]!.corpo).toBe("Dia 3 de 9.");
     expect(avisosDevidos(l, {}, as("09:00", "2026-11-27"), null)).toEqual([]);
+  });
+});
+
+describe("encontro do terço que a pessoa segue", () => {
+  const terco = { id: "t1", nome: "Terço da Juventude de São José", dia_semana: 4, semanas: null, hora: "19:30:00" };
+  const quinta = (h: string) => agoraNoFuso(new Date(`2026-11-19T${h}:00-03:00`), "America/Sao_Paulo");
+
+  it("avisa uma hora antes, uma vez, só de quem segue", () => {
+    expect(encontrosDevidos([terco], ["t1"], {}, quinta("18:30"))).toEqual([{ tipo: "terco-t1", titulo: terco.nome, corpo: "Hoje, às 19h30.", url: "/tercos/t1" }]);
+    expect(encontrosDevidos([terco], ["t1"], { "terco-t1": "2026-11-19" }, quinta("18:35"))).toEqual([]);
+    expect(encontrosDevidos([terco], [], {}, quinta("18:30"))).toEqual([]);
+    expect(encontrosDevidos([terco], ["t1"], {}, quinta("17:00"))).toEqual([]);
+  });
+
+  it("respeita as semanas do mês", () => {
+    const so3 = { ...terco, semanas: [3] };
+    const ultima = { ...terco, semanas: [6] };
+    expect(encontrosDevidos([so3], ["t1"], {}, quinta("18:30"))).toHaveLength(1);
+    expect(encontrosDevidos([ultima], ["t1"], {}, quinta("18:30"))).toHaveLength(0);
+    expect(encontrosDevidos([ultima], ["t1"], {}, agoraNoFuso(new Date("2026-11-26T18:30:00-03:00"), "America/Sao_Paulo"))).toHaveLength(1);
   });
 });
