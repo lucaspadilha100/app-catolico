@@ -44,6 +44,7 @@ const EntrarNoMinisterio = lazy(() => import("@/pages/Escalas").then((m) => ({ d
 const Correntes = lazy(() => import("@/pages/Correntes").then((m) => ({ default: m.Correntes })));
 const CorrenteAberta = lazy(() => import("@/pages/Correntes").then((m) => ({ default: m.CorrenteAberta })));
 const Turma = lazy(() => import("@/pages/Turma"));
+const RezarAgora = lazy(() => import("@/pages/RezarAgora"));
 const Santinhos = lazy(() => import("@/pages/Santinhos"));
 const Apoie = lazy(() => import("@/pages/Apoie"));
 const Mais = lazy(() => import("@/pages/Mais"));
@@ -94,6 +95,7 @@ export default function App() {
         <Route path="rezar/consagracao" element={<Consagracao />} />
         <Route path="rezar/via-sacra" element={<ViaSacra />} />
         <Route path="rezar/semana-santa" element={<SemanaSanta />} />
+        <Route path="rezar/agora" element={<RezarAgora />} />
         <Route path="rezar/oficio" element={<Oficio />} />
         <Route path="rezar/oficio-dos-defuntos" element={<OficioDosDefuntos />} />
         <Route path="rezar/exame" element={<Exame />} />

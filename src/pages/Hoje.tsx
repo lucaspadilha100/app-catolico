@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
-import { BookOpenText, ChevronRight, Droplets, Flower2, Church, CircleDot, ListChecks, Share2 } from "lucide-react";
+import { AudioLines, BookOpenText, ChevronRight, Droplets, Flower2, Church, CircleDot, ListChecks, Share2 } from "lucide-react";
 import { emAndamento } from "@/devocao/andamento";
+import { NOME_DO_MOMENTO, momentoDaHora } from "@/voz/falas";
 import { useDevocoesGuardadas } from "@/devocao/progresso";
 import { diaLiturgico } from "@/liturgia/calendario";
 import { somaDias, diaDaSemana, paraIso } from "@/liturgia/datas";
@@ -114,6 +115,15 @@ export default function Hoje() {
           ))}
         </div>
       </section>
+
+      <Link to="/rezar/agora" className="flex min-h-16 items-center gap-3 rounded-2xl bg-destaque px-5 text-sobre-destaque shadow-sm">
+        <AudioLines className="size-6 shrink-0" aria-hidden />
+        <span className="min-w-0 flex-1">
+          <span className="block text-lg font-semibold">Rezar agora</span>
+          <span className="block text-sm">{NOME_DO_MOMENTO[momentoDaHora(new Date().getHours())]}</span>
+        </span>
+        <ChevronRight className="size-5 shrink-0" aria-hidden />
+      </Link>
 
       <ProximaMissa />
 

@@ -420,6 +420,12 @@ participa acompanha no celular, ao vivo, pelo link ou pelo QR code.
 - ✅ A família abre a turma pela página da paróquia (Minhas inscrições) e vê os
   próximos encontros, o material para casa e a presença do seu catequizando
 
-### Leva 29. Rezar agora, por voz ⬜
-Um botão escolhe a oração da hora e o celular conduz em voz alta (voz do
-próprio aparelho, sem custo).
+### Leva 29. Rezar agora, por voz ✅
+- ✅ Botão "Rezar agora" na tela Hoje e em Rezar: escolhe pela hora (manhã o
+  Evangelho do dia, meio-dia o Ângelus, tarde o Terço da Misericórdia, noite o
+  terço do dia, madrugada a oração da noite) e dá para trocar
+- ✅ O celular conduz em voz alta com a voz do próprio aparelho (sem custo):
+  diz a primeira parte e espera a pessoa responder, ou lê tudo
+  ("Responder em voz alta"); anterior, próximo, pausar
+- ✅ No app de loja, a voz vem do plugin de leitura do aparelho
+- ⬜ 👤 Testar a voz no celular (a qualidade muda de aparelho para aparelho)
