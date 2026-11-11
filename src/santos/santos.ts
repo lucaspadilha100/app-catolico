@@ -1,10 +1,20 @@
 import { useCallback, useEffect, useState } from "react";
 import type { AcervoDeSantos, MesDeSantos, Santo } from "./tipos";
+import COMMONS from "./dados/imagens-commons.json";
+import type { Credito } from "@/lib/imagens";
 
 const MODULOS = import.meta.glob<{ default: MesDeSantos }>("./dados/*.ts");
 const ACERVO = import.meta.glob<{ default: AcervoDeSantos }>("./dados/acervo/*.ts");
 
-export const caminhoDaImagem = (s: Santo) => (s.imagem ? `/imagens/santos/${s.id}-${s.imagem.artic}.webp` : null);
+
+const DO_COMMONS = COMMONS as Record<string, Credito>;
+
+export const creditoDoCommons = (s: Santo): Credito | null => (s.imagem ? null : (DO_COMMONS[s.id] ?? null));
+
+export const caminhoDaImagem = (s: Santo) =>
+  s.imagem ? `/imagens/santos/${s.id}-${s.imagem.artic}.webp` : DO_COMMONS[s.id] ? `/imagens/santos/commons/${DO_COMMONS[s.id]!.arquivo}` : null;
+
+export const focoDaImagem = (s: Santo) => DO_COMMONS[s.id]?.foco ?? "50% 25%";
 
 export async function santosDoMes(mm: string): Promise<Santo[]> {
   const m = MODULOS[`./dados/${mm}.ts`];

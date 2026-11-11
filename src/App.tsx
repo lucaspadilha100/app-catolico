@@ -30,6 +30,7 @@ const GuiaDaMissa = lazy(() => import("@/pages/Guias").then((m) => ({ default: m
 const Falecidos = lazy(() => import("@/pages/Falecidos"));
 const DiarioEspiritual = lazy(() => import("@/pages/Diario"));
 const Conta = lazy(() => import("@/pages/Conta"));
+const Creditos = lazy(() => import("@/pages/Creditos"));
 const Privacidade = lazy(() => import("@/pages/Conta").then((m) => ({ default: m.Privacidade })));
 const Termos = lazy(() => import("@/pages/Conta").then((m) => ({ default: m.Termos })));
 const Cursos = lazy(() => import("@/pages/Cursos").then((m) => ({ default: m.Cursos })));
@@ -105,6 +106,7 @@ export default function App() {
         <Route path="diario" element={<DiarioEspiritual />} />
         <Route path="conta" element={<Conta />} />
         <Route path="privacidade" element={<Privacidade />} />
+        <Route path="creditos" element={<Creditos />} />
         <Route path="termos" element={<Termos />} />
         <Route path="biblia" element={<Biblia />} />
         <Route path="biblia/marcados" element={<BibliaMarcados />} />

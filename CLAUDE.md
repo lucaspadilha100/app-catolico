@@ -157,7 +157,7 @@ android/ ios/     projetos nativos do Capacitor (iOS por SPM, sem CocoaPods)
   barra de status, tela de abertura). Lembretes: no app de loja são agendados
   no aparelho (`@capacitor/local-notifications`, até 60 pendentes, renovados a
   cada abertura); no site instalado, Web Push pelo Supabase.
-- Arte sacra em `public/imagens/arte/` (fonte e licença de cada uma no `LEIAME.md` da pasta); santos em `public/imagens/santos/`. Só domínio público ou CC0.
+- Imagens: arte sacra em `public/imagens/arte/`, Evangelho do dia em `public/imagens/evangelho/` (`src/liturgia/dados/arte-evangelho.json`, escolhida pelo trecho em `src/liturgia/arte.ts`), santos em `public/imagens/santos/` (Art Institute of Chicago) e `santos/commons/` (`src/santos/dados/imagens-commons.json`), orações, novenas e devoções em `public/imagens/devocao/` (`src/devocao/dados/imagens.json`, chave `oracao:<id>`, `novena:<id>`, `rezar:<item>`). Toda imagem nova entra com obra, autor, licença e url, e aparece em `/creditos`.
 - Ícones e telas de abertura saem de `assets/` com `npx capacitor-assets
   generate`; o ícone de notificação do Android é `ic_stat_santinho`.
 - ⚠️ `appId` = `br.com.minhaigrejinha` é PERMANENTE nas lojas (trocado de
@@ -217,7 +217,7 @@ Nada de licença paga por ora. Então:
 | Orações tradicionais (PT e latim) | Liturgia das Horas oficial (Vozes/Paulus) |
 | Número do parágrafo do Catecismo (CIC 1854) | Texto do Catecismo copiado |
 | Texto próprio (reflexões, santos, novenas, guias) | Texto copiado de sites, livros, Wikipedia |
-| Pinturas antigas em domínio público (conferir cada uma) | Imagem de banco de imagens, foto da internet |
+| Pinturas antigas em domínio público (conferir cada uma); imagens do Wikimedia Commons em CC0, CC BY ou CC BY-SA com o crédito na tela Créditos (decisão do dono, 11/11/2026) | Imagem de banco de imagens, foto da internet sem licença livre, licença NC ou ND |
 | Embed/link de playlist do Spotify | Letra de música |
 | Horários informados por paróquias e fiéis; a planilha do Missas.com.br (decisão do dono, 11/11/2026, com crédito na página) | Dados copiados de outros sites sem decisão do dono |
 | Fontes e ícones de licença livre | Marca/logo da CNBB ou que sugira app "oficial" da Igreja |

@@ -11,6 +11,8 @@ import { LINHA, LISTA, TituloPagina } from "@/components/Cartao";
 import { Blocos } from "@/components/Blocos";
 import { BotaoRezei, Cabecalho, Carregando, EscolhaDeDia, Indisponivel, Voltar, useConteudo } from "@/components/Devocao";
 import { NaoEncontrada } from "@/pages/Simples";
+import { caminhoDeDevocao, useImagensDeDevocao } from "@/lib/imagens";
+import { ImagemComCredito } from "@/components/ImagemComCredito";
 
 const GRUPOS: GrupoDeNovenas[] = ["nossa-senhora", "senhor", "santos"];
 
@@ -26,11 +28,13 @@ function quando(n: Novena): string {
 }
 
 function ItemDeNovena({ n }: { n: Novena }) {
+  const img = useImagensDeDevocao()[`novena:${n.id}`];
   return (
     <Link
       to={`/rezar/novenas/${n.id}`}
       className={`${LINHA} min-h-16`}
     >
+      {img && <img src={caminhoDeDevocao(img)} alt="" loading="lazy" className="size-14 shrink-0 rounded-2xl bg-marca-fundo object-cover" style={{ objectPosition: img.foco ?? "50% 30%" }} />}
       <span className="min-w-0 flex-1">
         <span className="block text-[1.0625rem] font-semibold text-tinta">{n.nome}</span>
         <span className="block text-sm text-tinta-suave">{quando(n)}</span>
@@ -116,6 +120,7 @@ function Novena({ n }: { n: Novena }) {
   return (
     <div className="flex flex-col gap-5">
       <Voltar para="/rezar/novenas">Novenas</Voltar>
+      <ImagemComCredito chave={`novena:${n.id}`} alt={n.nome} />
       <Cabecalho titulo={n.nome} subtitulo={subtitulo} />
 
       <div className="flex flex-col gap-3">

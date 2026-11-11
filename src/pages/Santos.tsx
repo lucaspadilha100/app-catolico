@@ -1,3 +1,4 @@
+import { textoDoCredito } from "@/lib/imagens";
 import { useEffect, useMemo, useState } from "react";
 import { Link, useParams, useSearchParams } from "react-router-dom";
 import { ChevronRight, Heart, Search, UserRound } from "lucide-react";
@@ -7,6 +8,7 @@ import {
   NOME_DO_GRUPO,
   buscarSantos,
   caminhoDaImagem,
+  creditoDoCommons,
   nomeParaOrdenar,
   santosDoNome,
   seloDoSanto,
@@ -248,8 +250,13 @@ export function SantoPagina() {
         <figure className="overflow-hidden rounded-3xl bg-cartao">
           <img src={img} alt={s.nome} onError={() => setImagemFalhou(true)} className="max-h-[28rem] w-full object-contain bg-marca-fundo" />
           <figcaption className="px-4 py-2 text-xs text-tinta-suave">
-            {s.imagem!.artista}
-            {s.imagem!.data ? `, ${s.imagem!.data}` : ""}. Art Institute of Chicago, domínio público.
+            {s.imagem ? (
+              `${s.imagem.artista}${s.imagem.data ? `, ${s.imagem.data}` : ""}. Art Institute of Chicago, domínio público.`
+            ) : creditoDoCommons(s) ? (
+              <a href={creditoDoCommons(s)!.url} target="_blank" rel="noreferrer" className="underline underline-offset-2">
+                {[creditoDoCommons(s)!.obra, textoDoCredito(creditoDoCommons(s)!)].filter(Boolean).join(". ")}. Wikimedia Commons.
+              </a>
+            ) : null}
           </figcaption>
         </figure>
       )}

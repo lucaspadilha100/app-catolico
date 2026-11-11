@@ -14,14 +14,18 @@ import { CHAVE_LINGUA, useGuardado, type Lingua } from "@/oracao/guardado";
 import { Cartao, LINHA, LISTA, TituloPagina } from "@/components/Cartao";
 import { EscolhaDeLingua, TextoDaOracao, linhasNaLingua } from "@/components/TextoDaOracao";
 import { Voltar } from "@/components/Voltar";
+import { caminhoDeDevocao, useImagensDeDevocao } from "@/lib/imagens";
+import { ImagemComCredito } from "@/components/ImagemComCredito";
 import { NaoEncontrada } from "@/pages/Simples";
 
 function ItemDeOracao({ o }: { o: Oracao }) {
+  const img = useImagensDeDevocao()[`oracao:${o.id}`];
   return (
     <Link
       to={`/rezar/oracoes/${o.id}`}
       className={LINHA}
     >
+      {img && <img src={caminhoDeDevocao(img)} alt="" loading="lazy" className="size-14 shrink-0 rounded-2xl bg-marca-fundo object-cover" style={{ objectPosition: img.foco ?? "50% 30%" }} />}
       <span className="min-w-0 flex-1">
         <span className="block text-[1.0625rem] font-semibold text-tinta">{o.nome}</span>
         {o.latim && <span className="block text-sm italic text-tinta-suave">{o.latim}</span>}
@@ -121,6 +125,7 @@ export function OracaoPagina() {
   return (
     <div className="flex flex-col gap-4">
       <Voltar para={voltar.para}>{voltar.nome}</Voltar>
+      <ImagemComCredito chave={`oracao:${o.id}`} alt={o.nome} />
 
       <header>
         <h1 className="text-3xl font-extrabold leading-tight text-marca tracking-[-0.02em]">{o.nome}</h1>

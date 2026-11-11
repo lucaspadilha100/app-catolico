@@ -24,6 +24,9 @@ import { useLeituras } from "@/lib/useLeituras";
 import { ReflexaoResumo, evangelhoDaMissa } from "@/components/Reflexao";
 import { arteDoEvangelho, caminhoDaArte, type ArteDoEvangelho } from "@/liturgia/arte";
 import { BotaoOuvir, emPartes } from "@/components/Ouvir";
+import { OracoesDoDia } from "@/components/OracoesDoDia";
+import { NovenasDoMes } from "@/components/NovenasDoMes";
+import { ehTempoPascal } from "@/oracao/oracoes";
 import { textoDaReferencia } from "@/biblia/texto";
 
 const COR_PONTO: Record<CorLiturgica, string> = {
@@ -215,6 +218,10 @@ export default function Hoje() {
           <ChevronRight className="size-5 shrink-0 text-tinta-suave" aria-hidden />
         </Link>
       )}
+
+      <OracoesDoDia pascal={ehTempoPascal(l.tempo)} />
+
+      <NovenasDoMes data={l.data} />
 
       {paraRezar > 0 && (
         <section className="flex flex-col gap-1">

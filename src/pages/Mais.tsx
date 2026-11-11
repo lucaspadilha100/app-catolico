@@ -183,6 +183,7 @@ export default function Mais() {
         <Grupo titulo="Sobre">
           <ItemLista icone={ShieldCheck} titulo="Privacidade" para="/privacidade" />
           <ItemLista icone={FileText} titulo="Termos de uso" para="/termos" />
+          <ItemLista icone={Image} titulo="Créditos das imagens" para="/creditos" />
         </Grupo>
       </div>
 
