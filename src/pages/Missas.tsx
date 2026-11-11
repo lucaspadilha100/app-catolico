@@ -29,6 +29,7 @@ import { NaoEncontrada } from "@/pages/Simples";
 import { agendaDeTercos } from "@/tercos/api";
 import { Mural, SouDaEquipe } from "@/components/Mural";
 import { Inscricoes, Oferta } from "@/components/PlanoDaParoquia";
+import { IntencoesDeMissa } from "@/components/IntencoesDeMissa";
 import { useIgrejasSeguidas } from "@/paroquias/seguidas";
 import { avisarMudancaDeIgrejas } from "@/lembretes/lembretes";
 
@@ -929,6 +930,8 @@ export function ParoquiaPagina() {
       <Mural paroquia={p.id} podeEditar={podeEditar} />
 
       <Inscricoes paroquia={p.id} email={email} />
+
+      <IntencoesDeMissa p={p} horarios={horarios} email={email} />
 
       {horarios.length ? <GradeDeHorarios horarios={horarios} agora={agora} /> : <p className="text-tinta-suave">Ainda sem horários cadastrados.</p>}
 

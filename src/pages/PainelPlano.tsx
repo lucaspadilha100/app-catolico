@@ -27,6 +27,8 @@ import { NOME_DA_SITUACAO, detalhesDaTurma } from "@/components/PlanoDaParoquia"
 import { Cartao } from "@/components/Cartao";
 import { Cabecalho, Carregando, Voltar } from "@/components/Devocao";
 import { compartilhar } from "@/lib/nativo";
+import { NA_LISTA, NOME_DA_SITUACAO as NOME_DA_SITUACAO_DA_INTENCAO, intencoesDaParoquia, listaParaLer, mudarSituacaoDaIntencao, receberIntencoes, type IntencaoDeMissa } from "@/intencoesDeMissa/api";
+import { nomeDaMissa } from "@/components/IntencoesDeMissa";
 import { apoiosParaConferir, criarOpcaoDeVoto, encerrarOpcaoDeVoto, revisarApoio, votacao, type ApoioParaConferir, type OpcaoDeVoto } from "@/apoio/api";
 
 const CAMPO = "min-h-12 w-full rounded-xl border border-borda bg-papel px-3 text-base";
@@ -536,6 +538,115 @@ export function InscricoesDaTurma() {
             </button>
           )}
         </>
+      )}
+    </div>
+  );
+}
+
+export function IntencoesNoPainel({ p, aoMudar }: { p: Paroquia; aoMudar: () => void }) {
+  return (
+    <Cartao className="flex flex-col gap-3">
+      <h2 className={TITULO}>Intenções de missa</h2>
+      <label className="flex min-h-11 items-center gap-3">
+        <input type="checkbox" checked={p.aceita_intencoes} onChange={(e) => void receberIntencoes(p.id, e.target.checked).then(aoMudar)} className="size-5" />
+        <span>Receber pedidos pelo app</span>
+      </label>
+      {p.aceita_intencoes && (
+        <Link to={`/painel/paroquia/${p.id}/intencoes`} className={`${BOTAO_CLARO} flex items-center justify-center`}>
+          Ver os pedidos
+        </Link>
+      )}
+    </Cartao>
+  );
+}
+
+const SITUACAO_FORTE = "rounded-full px-2.5 py-0.5 text-xs font-semibold";
+
+export function IntencoesDaParoquia() {
+  const { id = "" } = useParams();
+  const [params, setParams] = useSearchParams();
+  const hojeIso = new Date().toLocaleDateString("sv-SE");
+  const de = params.get("de") ?? hojeIso;
+  const ate = (() => {
+    const [a, m, d] = de.split("-").map(Number);
+    return new Date(a!, m! - 1, d! + 7).toLocaleDateString("sv-SE");
+  })();
+  const [lista, setLista] = useState<IntencaoDeMissa[] | null>(null);
+  const [copiado, setCopiado] = useState("");
+  const recarregar = useCallback(() => {
+    intencoesDaParoquia(id, de, ate)
+      .then(setLista)
+      .catch(() => setLista([]));
+  }, [id, de, ate]);
+  useEffect(recarregar, [recarregar]);
+
+  const grupos = new Map<string, IntencaoDeMissa[]>();
+  for (const i of lista ?? []) grupos.set(`${i.data}|${i.hora ?? ""}`, [...(grupos.get(`${i.data}|${i.hora ?? ""}`) ?? []), i]);
+
+  return (
+    <div className="flex flex-col gap-4">
+      <Voltar para={`/painel/paroquia/${id}`}>Paróquia</Voltar>
+      <Cabecalho titulo="Intenções de missa" />
+      <Campo rotulo="A partir de">
+        <input type="date" value={de} onChange={(e) => setParams(e.target.value ? { de: e.target.value } : {}, { replace: true })} className={CAMPO} />
+      </Campo>
+      {lista === null ? (
+        <Carregando />
+      ) : !lista.length ? (
+        <p className="text-tinta-suave">Nenhum pedido nestes 7 dias.</p>
+      ) : (
+        [...grupos.entries()].map(([chave, itens]) => {
+          const [data, hora] = chave.split("|");
+          const titulo = `Missa de ${nomeDaMissa(data!, hora || null)}`;
+          return (
+            <section key={chave} className="flex flex-col gap-2">
+              <div className="flex items-center justify-between gap-2 px-1">
+                <h2 className="font-semibold text-marca">{titulo}</h2>
+                <button
+                  type="button"
+                  onClick={() =>
+                    void navigator.clipboard
+                      .writeText(listaParaLer(titulo, itens))
+                      .then(() => {
+                        setCopiado(chave);
+                        setTimeout(() => setCopiado(""), 2000);
+                      })
+                      .catch(() => {})
+                  }
+                  className="min-h-10 shrink-0 rounded-full border border-borda px-3 text-sm font-medium text-tinta"
+                >
+                  {copiado === chave ? "Copiada" : "Copiar lista"}
+                </button>
+              </div>
+              <ul className="flex flex-col divide-y divide-borda overflow-hidden rounded-2xl border border-borda bg-cartao">
+                {itens.map((i) => (
+                  <li key={i.id} className={`flex flex-col gap-2 px-4 py-3 ${i.situacao === "recusada" || i.situacao === "cancelada" ? "opacity-60" : ""}`}>
+                    <div className="flex items-start justify-between gap-2">
+                      <div className="min-w-0">
+                        <p className="text-tinta">
+                          <span className="text-tinta-suave">{`${NA_LISTA[i.tipo]} `}</span>
+                          <span className="font-medium">{i.nome}</span>
+                        </p>
+                        {(i.texto || i.pedido_por) && <p className="text-sm text-tinta-suave">{[i.texto, i.pedido_por && `Pedido por ${i.pedido_por}`].filter(Boolean).join(" · ")}</p>}
+                      </div>
+                      <span className={`${SITUACAO_FORTE} shrink-0 ${i.situacao === "confirmada" ? "bg-marca-fundo text-destaque-texto" : "border border-borda text-tinta-suave"}`}>{NOME_DA_SITUACAO_DA_INTENCAO[i.situacao]}</span>
+                    </div>
+                    {i.situacao === "recebida" && (
+                      <div className="flex gap-2">
+                        <button type="button" onClick={() => void mudarSituacaoDaIntencao(i.id, "confirmada").then(recarregar)} className="min-h-10 rounded-full bg-destaque px-4 text-sm font-semibold text-sobre-destaque">
+                          Confirmar
+                        </button>
+                        <button type="button" onClick={() => void mudarSituacaoDaIntencao(i.id, "recusada").then(recarregar)} className="min-h-10 rounded-full border border-borda px-4 text-sm font-medium text-tinta-suave">
+                          Recusar
+                        </button>
+                      </div>
+                    )}
+                  </li>
+                ))}
+              </ul>
+            </section>
+          );
+        })
       )}
     </div>
   );

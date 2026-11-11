@@ -382,9 +382,14 @@ participa acompanha no celular, ao vivo, pelo link ou pelo QR code.
   a vaga (regra no banco)
 - ⬜ Lembrete na véspera para quem serve (entra na função `lembretes`)
 
-### Leva 24. Intenções de missa ⬜
-O fiel pede a intenção (falecido, aniversário, ação de graças) com a oferta por
-PIX direto à paróquia; a secretaria recebe a lista de cada missa.
+### Leva 24. Intenções de missa ✅
+- ✅ A equipe da paróquia liga "Receber pedidos pelo app" (Painel → paróquia)
+- ✅ O fiel com conta pede (falecido, aniversário, ação de graças, saúde,
+  outra), escolhe a missa entre os horários da paróquia, acompanha e cancela
+  enquanto não foi confirmada; com PIX conferido, a oferta aparece logo depois
+- ✅ A secretaria vê os pedidos por missa, confirma ou recusa e copia a lista
+  pronta para ler na missa
+- ⬜ 👤 Testar com a secretaria de uma paróquia
 
 ### Leva 25. Cantos da missa de domingo ⬜
 A equipe de canto publica os títulos e os links dos cantos com as referências

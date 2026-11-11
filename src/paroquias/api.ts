@@ -157,7 +157,7 @@ export async function salvarParoquia(dados: Partial<Paroquia> & { id?: string })
   delete (resto as Record<string, unknown>).atualizado_em;
   delete (resto as Record<string, unknown>).busca;
   delete (resto as Record<string, unknown>).conferida_em;
-  for (const campo of ["pix_chave", "pix_nome", "pix_cidade", "pix_conferido"]) delete (resto as Record<string, unknown>)[campo];
+  for (const campo of ["pix_chave", "pix_nome", "pix_cidade", "pix_conferido", "aceita_intencoes"]) delete (resto as Record<string, unknown>)[campo];
   if (id) {
     ou(await c.from("paroquias").update(resto).eq("id", id));
     return id;

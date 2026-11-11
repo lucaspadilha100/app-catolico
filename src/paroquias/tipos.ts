@@ -44,6 +44,7 @@ export interface Paroquia extends Omit<ParoquiaResumo, "distancia_km"> {
   pix_nome: string;
   pix_cidade: string;
   pix_conferido: boolean;
+  aceita_intencoes: boolean;
   conferida_em: string | null;
   atualizado_em: string;
 }
