@@ -35,7 +35,7 @@ import { NOME_DA_ORACAO_DA_CAMPANHA, apagarIntencao, fraseDaIntencao, intencoesE
 import type { Terco } from "@/tercos/tipos";
 import { quandoDoTerco } from "@/pages/Tercos";
 import { Cabecalho, Carregando, Voltar } from "@/components/Devocao";
-import { ApoiosParaConferirLista, PixParaConferirLista, PlanoNoPainel } from "@/pages/PainelPlano";
+import { ApoiosParaConferirLista, PixParaConferirLista, PlanoNoPainel, VotacaoNoPainel } from "@/pages/PainelPlano";
 
 const CAMPO = "min-h-12 w-full rounded-xl border border-borda bg-papel px-3 text-base";
 const BOTAO = "min-h-12 rounded-xl bg-destaque px-4 font-semibold text-sobre-destaque disabled:opacity-50";
@@ -412,6 +412,7 @@ export function Painel() {
               <PedidosDeGestao />
               <PixParaConferirLista />
               <ApoiosParaConferirLista />
+              <VotacaoNoPainel />
               <TercosParaRevisar />
               <Moderacao />
               <NovaCampanha />

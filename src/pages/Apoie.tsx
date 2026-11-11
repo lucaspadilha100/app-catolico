@@ -1,11 +1,11 @@
 import { useEffect, useState, type FormEvent } from "react";
 import { Link } from "react-router-dom";
-import { BadgeCheck, Check, HandHeart, Palette, Share2 } from "lucide-react";
+import { BadgeCheck, Check, HandHeart, Palette, Share2, Vote } from "lucide-react";
 import { NOME_DO_APP, PIX_DO_APP } from "@/marca";
 import { compartilhar, ehNativo, enderecoPublico } from "@/lib/nativo";
 import { ehApoiador } from "@/lib/preferencias";
 import { useConta } from "@/conta/useConta";
-import { avisarApoio, temAvisoPendente, useApoiador } from "@/apoio/api";
+import { avisarApoio, temAvisoPendente, useApoiador, votacao, votar, type OpcaoDeVoto } from "@/apoio/api";
 import { Cartao } from "@/components/Cartao";
 import { Cabecalho, Voltar } from "@/components/Devocao";
 import { Pix } from "@/components/Pix";
@@ -78,6 +78,43 @@ function JaContribui() {
   );
 }
 
+function Votacao() {
+  const [dados, setDados] = useState<{ opcoes: OpcaoDeVoto[]; meu: string | null } | null>(null);
+  const recarregar = () => void votacao().then(setDados).catch(() => {});
+  useEffect(recarregar, []);
+  if (!dados?.opcoes.length) return null;
+  const total = dados.opcoes.reduce((s, o) => s + o.votos, 0);
+  return (
+    <section className="flex flex-col gap-3">
+      <h2 className={TITULO}>Próximo recurso</h2>
+      <ul className="flex flex-col gap-2">
+        {dados.opcoes.map((o) => {
+          const meu = dados.meu === o.id;
+          const parte = total ? Math.round((o.votos / total) * 100) : 0;
+          return (
+            <li key={o.id}>
+              <button
+                type="button"
+                aria-pressed={meu}
+                onClick={() => void votar(o.id).then(recarregar)}
+                className={`relative flex min-h-14 w-full flex-col overflow-hidden rounded-xl border px-4 py-2.5 text-left ${meu ? "border-destaque-texto" : "border-borda"} bg-cartao`}
+              >
+                {dados.meu && <span className="absolute inset-y-0 left-0 bg-marca-fundo" style={{ width: `${parte}%` }} aria-hidden />}
+                <span className="relative flex items-center gap-2 font-medium text-tinta">
+                  {meu && <Check className="size-4 shrink-0 text-destaque-texto" aria-hidden />}
+                  <span className="min-w-0 flex-1">{o.titulo}</span>
+                  {dados.meu && <span className="text-sm text-tinta-suave">{parte}%</span>}
+                </span>
+                {o.descricao && <span className="relative text-sm text-tinta-suave">{o.descricao}</span>}
+              </button>
+            </li>
+          );
+        })}
+      </ul>
+    </section>
+  );
+}
+
 export default function Apoie() {
   const ate = useApoiador();
   const [copiado, setCopiado] = useState(false);
@@ -107,6 +144,8 @@ export default function Apoie() {
           </div>
         </Cartao>
       )}
+
+      {ehApoiador({ apoiadorAte: ate }) && <Votacao />}
 
       <div className="flex flex-col gap-3 font-leitura text-lg leading-relaxed text-tinta">
         <p>O {NOME_DO_APP} é gratuito e vai continuar assim: sem anúncios, sem venda de dados, com tudo aberto para quem quiser rezar.</p>
@@ -142,6 +181,9 @@ export default function Apoie() {
             </li>
             <li className="flex items-center gap-3 rounded-xl border border-borda bg-cartao px-4 py-3 text-tinta">
               <Palette className="size-5 shrink-0 text-destaque-texto" aria-hidden /> Cor do app à sua escolha
+            </li>
+            <li className="flex items-center gap-3 rounded-xl border border-borda bg-cartao px-4 py-3 text-tinta">
+              <Vote className="size-5 shrink-0 text-destaque-texto" aria-hidden /> Voto no próximo recurso do app
             </li>
           </ul>
           <JaContribui />

@@ -54,3 +54,19 @@ describe("apoiadores", () => {
     await expect(como("authenticated", OUTRO, "insert into public.apoios_avisados (nome_no_pix) values ('João')")).rejects.toThrow(/limite/);
   });
 });
+
+describe("votação dos apoiadores", () => {
+  it("só o admin cria opções; só apoiador em dia vê e vota; um voto por pessoa", async () => {
+    await expect(como("authenticated", FIEL, "insert into public.votacao_opcoes (titulo) values ('Invasão')")).rejects.toThrow();
+    const a = (await como("authenticated", ADMIN, "insert into public.votacao_opcoes (titulo) values ('Liturgia das Horas') returning id")).rows[0]!.id as string;
+    const b = (await como("authenticated", ADMIN, "insert into public.votacao_opcoes (titulo) values ('Áudio do Evangelho') returning id")).rows[0]!.id as string;
+    expect((await como("authenticated", OUTRO, "select id from public.votacao_opcoes")).rows).toHaveLength(0);
+    await expect(como("authenticated", OUTRO, "insert into public.votos (opcao_id) values ($1)", [a])).rejects.toThrow();
+    expect((await como("authenticated", FIEL, "select id from public.votacao_opcoes")).rows).toHaveLength(2);
+    await como("authenticated", FIEL, "insert into public.votos (opcao_id) values ($1)", [a]);
+    await expect(como("authenticated", FIEL, "insert into public.votos (opcao_id) values ($1)", [b])).rejects.toThrow();
+    await como("authenticated", FIEL, "update public.votos set opcao_id = $1", [b]);
+    expect((await como("authenticated", FIEL, "select votos from public.resultado_da_votacao() order by votos desc")).rows).toEqual([{ votos: 1 }, { votos: 0 }]);
+    expect((await como("authenticated", OUTRO, "select * from public.resultado_da_votacao()")).rows).toHaveLength(0);
+  });
+});

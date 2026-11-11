@@ -27,7 +27,7 @@ import { NOME_DA_SITUACAO, detalhesDaTurma } from "@/components/PlanoDaParoquia"
 import { Cartao } from "@/components/Cartao";
 import { Cabecalho, Carregando, Voltar } from "@/components/Devocao";
 import { compartilhar } from "@/lib/nativo";
-import { apoiosParaConferir, revisarApoio, type ApoioParaConferir } from "@/apoio/api";
+import { apoiosParaConferir, criarOpcaoDeVoto, encerrarOpcaoDeVoto, revisarApoio, votacao, type ApoioParaConferir, type OpcaoDeVoto } from "@/apoio/api";
 
 const CAMPO = "min-h-12 w-full rounded-xl border border-borda bg-papel px-3 text-base";
 const BOTAO = "min-h-12 rounded-xl bg-destaque px-4 font-semibold text-sobre-destaque disabled:opacity-50";
@@ -316,6 +316,50 @@ export function ApoiosParaConferirLista() {
           </div>
         </Cartao>
       ))}
+    </section>
+  );
+}
+
+export function VotacaoNoPainel() {
+  const [opcoes, setOpcoes] = useState<OpcaoDeVoto[]>([]);
+  const [titulo, setTitulo] = useState("");
+  const [descricao, setDescricao] = useState("");
+  const recarregar = useCallback(() => {
+    votacao()
+      .then((v) => setOpcoes(v.opcoes))
+      .catch(() => {});
+  }, []);
+  useEffect(recarregar, [recarregar]);
+  return (
+    <section className="flex flex-col gap-2">
+      <h2 className="px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto">Votação dos apoiadores</h2>
+      <Cartao className="flex flex-col gap-3 p-4">
+        {opcoes.map((o) => (
+          <div key={o.id} className="flex items-center gap-2">
+            <span className="min-w-0 flex-1 text-tinta">{o.titulo}</span>
+            <span className="text-sm text-tinta-suave">{`${o.votos} ${o.votos === 1 ? "voto" : "votos"}`}</span>
+            <button type="button" onClick={() => void encerrarOpcaoDeVoto(o.id).then(recarregar)} className="min-h-10 rounded-full border border-borda px-3 text-sm font-medium text-tinta-suave">
+              Encerrar
+            </button>
+          </div>
+        ))}
+        <input value={titulo} onChange={(e) => setTitulo(e.target.value)} placeholder="Recurso" aria-label="Recurso" maxLength={120} className={CAMPO} />
+        <input value={descricao} onChange={(e) => setDescricao(e.target.value)} placeholder="Descrição" aria-label="Descrição" maxLength={500} className={CAMPO} />
+        <button
+          type="button"
+          disabled={titulo.trim().length < 3}
+          onClick={() =>
+            void criarOpcaoDeVoto(titulo.trim(), descricao.trim()).then(() => {
+              setTitulo("");
+              setDescricao("");
+              recarregar();
+            })
+          }
+          className={BOTAO}
+        >
+          Pôr em votação
+        </button>
+      </Cartao>
     </section>
   );
 }

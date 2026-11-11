@@ -65,3 +65,41 @@ export function useApoiador(): string {
   }, [email, pronto, preferencias.apoiadorAte, mudar]);
   return email ? preferencias.apoiadorAte : "";
 }
+
+export interface OpcaoDeVoto {
+  id: string;
+  titulo: string;
+  descricao: string;
+  ativa: boolean;
+  votos: number;
+}
+
+export async function votacao(): Promise<{ opcoes: OpcaoDeVoto[]; meu: string | null }> {
+  const c = await cliente();
+  const { data } = await c.auth.getSession();
+  if (!data.session) return { opcoes: [], meu: null };
+  const [o, r, v] = await Promise.all([
+    c.from("votacao_opcoes").select("id, titulo, descricao, ativa").eq("ativa", true).order("criado_em"),
+    c.rpc("resultado_da_votacao"),
+    c.from("votos").select("opcao_id").eq("usuario_id", data.session.user.id).maybeSingle(),
+  ]);
+  const contagem = new Map(((ou(r) ?? []) as { opcao_id: string; votos: number }[]).map((x) => [x.opcao_id, x.votos]));
+  const opcoes = ((ou(o) ?? []) as Omit<OpcaoDeVoto, "votos">[]).map((x) => ({ ...x, votos: contagem.get(x.id) ?? 0 }));
+  const meu = (ou(v) as { opcao_id: string } | null)?.opcao_id ?? null;
+  return { opcoes, meu: opcoes.some((x) => x.id === meu) ? meu : null };
+}
+
+export async function votar(opcao: string) {
+  const c = await cliente();
+  ou(await c.from("votos").upsert({ opcao_id: opcao, em: new Date().toISOString() }, { onConflict: "usuario_id" }));
+}
+
+export async function criarOpcaoDeVoto(titulo: string, descricao: string) {
+  const c = await cliente();
+  ou(await c.from("votacao_opcoes").insert({ titulo, descricao }));
+}
+
+export async function encerrarOpcaoDeVoto(id: string) {
+  const c = await cliente();
+  ou(await c.from("votacao_opcoes").update({ ativa: false }).eq("id", id));
+}
