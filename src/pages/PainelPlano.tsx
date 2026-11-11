@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useState, type FormEvent, type ReactNode } from "react";
-import { Link, useParams, useSearchParams } from "react-router-dom";
+import { Link, useNavigate, useParams, useSearchParams } from "react-router-dom";
 import { ChevronRight, Download, Search } from "lucide-react";
 import type { Paroquia } from "@/paroquias/tipos";
 import { chaveValida, normalizarChave, textoDoPix, tipoDaChave, type TipoDeChave } from "@/paroquias/pix";
@@ -27,6 +27,7 @@ import { NOME_DA_SITUACAO, detalhesDaTurma } from "@/components/PlanoDaParoquia"
 import { Cartao } from "@/components/Cartao";
 import { Cabecalho, Carregando, Voltar } from "@/components/Devocao";
 import { compartilhar } from "@/lib/nativo";
+import { criarMinisterio } from "@/escalas/api";
 import { NA_LISTA, NOME_DA_SITUACAO as NOME_DA_SITUACAO_DA_INTENCAO, intencoesDaParoquia, listaParaLer, mudarSituacaoDaIntencao, receberIntencoes, type IntencaoDeMissa } from "@/intencoesDeMissa/api";
 import { nomeDaMissa } from "@/components/IntencoesDeMissa";
 import { apoiosParaConferir, criarOpcaoDeVoto, encerrarOpcaoDeVoto, revisarApoio, votacao, type ApoioParaConferir, type OpcaoDeVoto } from "@/apoio/api";
@@ -649,5 +650,24 @@ export function IntencoesDaParoquia() {
         })
       )}
     </div>
+  );
+}
+
+export function MinisteriosNoPainel({ p }: { p: Paroquia }) {
+  const navegar = useNavigate();
+  const [nome, setNome] = useState("");
+  return (
+    <Cartao className="flex flex-col gap-3">
+      <h2 className={TITULO}>Ministérios e escalas</h2>
+      <div className="flex gap-2">
+        <input value={nome} onChange={(e) => setNome(e.target.value)} placeholder="Leitores, Música, Coroinhas" aria-label="Nome do ministério" maxLength={80} className={`${CAMPO} min-w-0`} />
+        <button type="button" disabled={nome.trim().length < 3} onClick={() => void criarMinisterio(nome.trim(), p.id).then((id) => navegar(`/escalas/m/${id}?aba=equipe`))} className={`${BOTAO} shrink-0`}>
+          Criar
+        </button>
+      </div>
+      <Link to="/escalas" className={`${BOTAO_CLARO} flex items-center justify-center`}>
+        Minhas escalas
+      </Link>
+    </Cartao>
   );
 }

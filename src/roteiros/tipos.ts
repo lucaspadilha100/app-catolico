@@ -18,12 +18,13 @@ interface Base {
 
 export type Bloco = Base &
   (
-    | { tipo: "canto"; titulo: string; artista?: string; link?: string }
+    | { tipo: "canto"; titulo: string; artista?: string; link?: string; momento?: string }
     | { tipo: "imagem"; santo: string; nome: string; imagem: string }
     | { tipo: "texto"; rotulo: RotuloDeTexto; texto: string }
     | { tipo: "leitura"; referencia: string }
     | { tipo: "misterio"; grupo: GrupoDeMisterios; indice: number }
     | { tipo: "oracao"; oracao: string; vezes: number }
+    | { tipo: "liturgia"; data: string }
   );
 
 export type TipoDeBloco = Bloco["tipo"];
@@ -35,7 +36,10 @@ export const NOME_DO_TIPO: Record<TipoDeBloco, string> = {
   leitura: "Leitura da Bíblia",
   misterio: "Mistério",
   oracao: "Oração",
+  liturgia: "Leituras do dia",
 };
+
+export const MOMENTOS_DA_MISSA = ["Entrada", "Ato penitencial", "Glória", "Salmo", "Aclamação", "Ofertório", "Santo", "Cordeiro de Deus", "Comunhão", "Ação de graças", "Final"];
 
 export interface Roteiro {
   id: string;
@@ -49,6 +53,7 @@ export interface Roteiro {
   conta: number;
   ao_vivo: boolean;
   terco_id: string | null;
+  paroquia_id?: string | null;
   terco?: string | null;
   dono_id?: string;
   atualizado_em: string;

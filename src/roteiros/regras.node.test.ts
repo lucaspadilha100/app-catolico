@@ -55,3 +55,22 @@ describe("roteiros de oração", () => {
     expect((await db.query("select count(*)::int as n from public.roteiros")).rows[0]).toEqual({ n: 0 });
   });
 });
+
+describe("folheto da missa na paróquia", () => {
+  it("a equipe da paróquia e quem coordena ministério dela publicam; outro não", async () => {
+    const SECRETARIA = "00000000-0000-0000-0000-0000000000e1";
+    const MUSICA = "00000000-0000-0000-0000-0000000000e2";
+    await db.query("insert into auth.users (id) values ($1), ($2)", [SECRETARIA, MUSICA]);
+    const paroquia = (await como("authenticated", ADMIN, "insert into public.paroquias (nome, cidade, uf) values ('Paróquia de São José', 'Natal', 'RN') returning id")).rows[0]!.id as string;
+    await db.query("insert into public.paroquia_gestores (paroquia_id, usuario_id) values ($1, $2)", [paroquia, SECRETARIA]);
+    await expect(como("authenticated", OUTRO, "insert into public.roteiros (titulo, paroquia_id) values ('Folheto', $1)", [paroquia])).rejects.toThrow();
+    await como("authenticated", SECRETARIA, "insert into public.roteiros (titulo, paroquia_id, data) values ('Missa de domingo', $1, current_date + 3)", [paroquia]);
+    await expect(como("authenticated", MUSICA, "insert into public.roteiros (titulo, paroquia_id) values ('Cantos', $1)", [paroquia])).rejects.toThrow();
+    const m = (await como("authenticated", SECRETARIA, "insert into public.ministerios (nome, paroquia_id) values ('Música', $1) returning codigo, id", [paroquia])).rows[0] as { codigo: string; id: string };
+    await como("authenticated", MUSICA, "select public.entrar_no_ministerio($1, 'Coral')", [m.codigo]);
+    await como("authenticated", SECRETARIA, "update public.ministerio_membros set coordena = true where usuario_id = $1", [MUSICA]);
+    await como("authenticated", MUSICA, "insert into public.roteiros (titulo, paroquia_id, data) values ('Cantos da missa', $1, current_date + 3)", [paroquia]);
+    expect((await como("anon", null, "select titulo from public.roteiros_da_paroquia($1) order by titulo", [paroquia])).rows.map((r) => r.titulo)).toEqual(["Cantos da missa", "Missa de domingo"]);
+    expect((await como("authenticated", SECRETARIA, "select titulo from public.roteiros where paroquia_id = $1 order by titulo", [paroquia])).rows).toHaveLength(2);
+  });
+});

@@ -19,7 +19,7 @@ export async function carregarRoteiro(id: string): Promise<Roteiro | null> {
   return ou(await c.from("roteiros").select("*").eq("id", id).maybeSingle()) as Roteiro | null;
 }
 
-export async function criarRoteiro(r: { titulo: string; terco_id: string | null; data: string | null; hora: string | null; local: string; blocos: Bloco[] }): Promise<string> {
+export async function criarRoteiro(r: { titulo: string; terco_id: string | null; paroquia_id?: string | null; data: string | null; hora: string | null; local: string; blocos: Bloco[] }): Promise<string> {
   const c = await cliente();
   return (ou(await c.from("roteiros").insert(r).select("id").single()) as { id: string }).id;
 }
@@ -97,4 +97,9 @@ export interface RoteiroDoTerco {
 export async function roteirosDoTerco(terco: string): Promise<RoteiroDoTerco[]> {
   const c = await cliente();
   return ou(await c.rpc("roteiros_do_terco", { p_terco: terco })) as RoteiroDoTerco[];
+}
+
+export async function roteirosDaParoquia(paroquia: string): Promise<RoteiroDoTerco[]> {
+  const c = await cliente();
+  return ou(await c.rpc("roteiros_da_paroquia", { p_paroquia: paroquia })) as RoteiroDoTerco[];
 }

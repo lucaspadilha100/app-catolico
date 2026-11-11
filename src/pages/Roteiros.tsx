@@ -7,7 +7,10 @@ import { MISTERIOS, misteriosDoDia, type GrupoDeMisterios } from "@/liturgia/ter
 import { hoje } from "@/liturgia/datas";
 import { MEDITACOES } from "@/oracao/terco";
 import { ORACOES } from "@/oracao/oracoes";
-import { formatarReferencia } from "@/liturgia/lecionario";
+import { NOME_DA_LEITURA, carregarLecionario, formatarReferencia, leiturasDoDia, type Missa } from "@/liturgia/lecionario";
+import { diaLiturgico } from "@/liturgia/calendario";
+import { deIso } from "@/liturgia/datas";
+import { usePreferencias } from "@/lib/preferencias";
 import { TextoDaOracao } from "@/components/TextoDaOracao";
 import { EscolherPintura } from "@/components/EscolherPintura";
 import { caminhoDaImagem } from "@/santos/santos";
@@ -15,7 +18,7 @@ import { Cartao } from "@/components/Cartao";
 import { Cabecalho, Carregando, Voltar } from "@/components/Devocao";
 import { NaoEncontrada } from "@/pages/Simples";
 import { compartilhar, enderecoPublico } from "@/lib/nativo";
-import { NOME_DO_ROTULO, NOME_DO_TIPO, type Bloco, type RotuloDeTexto, type Roteiro, type TipoDeBloco } from "@/roteiros/tipos";
+import { MOMENTOS_DA_MISSA, NOME_DO_ROTULO, NOME_DO_TIPO, type Bloco, type RotuloDeTexto, type Roteiro, type TipoDeBloco } from "@/roteiros/tipos";
 import { NOME_DO_MODELO, quandoDoRoteiro, avancar, blocoTemConteudo, blocoVazio, blocosDoModelo, ehUltima, primeiraPosicao, tituloDoBloco, voltar, type Modelo, type Posicao } from "@/roteiros/roteiro";
 import { escreverReferencia, lerReferencia, versiculosDa } from "@/roteiros/referencia";
 import {
@@ -88,6 +91,42 @@ function Leitura({ referencia }: { referencia: string }) {
   );
 }
 
+function LeiturasDoDia({ data }: { data: string }) {
+  const { diocese } = usePreferencias().preferencias;
+  const [estado, setEstado] = useState<{ titulo: string; missas: Missa[] } | null>(null);
+  useEffect(() => {
+    const d = deIso(data);
+    if (!d) return;
+    let ativo = true;
+    const l = diaLiturgico(d, diocese);
+    void carregarLecionario().then((lec) => ativo && setEstado({ titulo: l.titulo, missas: leiturasDoDia(l, lec) }));
+    return () => {
+      ativo = false;
+    };
+  }, [data, diocese]);
+  if (!deIso(data)) return <p className="text-tinta-suave">Sem data.</p>;
+  if (!estado) return <div className="h-12 animate-pulse rounded-lg bg-marca-fundo" />;
+  const missa = estado.missas[0];
+  return (
+    <div className="flex flex-col gap-2">
+      <p className="font-leitura text-lg font-semibold text-marca">{estado.titulo}</p>
+      {missa && (
+        <ul className="flex flex-col gap-1">
+          {missa.leituras.filter((x) => !x.ou && x.forma !== "breve").map((x) => (
+            <li key={`${x.tipo}-${x.referencia}`} className="flex flex-wrap gap-x-2 text-tinta">
+              <span className="text-tinta-suave">{NOME_DA_LEITURA[x.tipo]}</span>
+              <span className={x.tipo === "evangelho" ? "font-semibold" : ""}>{x.referencia}</span>
+            </li>
+          ))}
+        </ul>
+      )}
+      <Link to={`/liturgia/${data}`} className="w-fit text-sm font-medium text-destaque-texto underline underline-offset-4">
+        Ler as leituras
+      </Link>
+    </div>
+  );
+}
+
 function Canto({ b }: { b: Extract<Bloco, { tipo: "canto" }> }) {
   const musicas = useMusicas();
   const guardada = estaGuardada(b, musicas);
@@ -117,11 +156,12 @@ function Canto({ b }: { b: Extract<Bloco, { tipo: "canto" }> }) {
 
 function rotuloDoBloco(b: Bloco): string {
   if (b.tipo === "texto") return NOME_DO_ROTULO[b.rotulo];
+  if (b.tipo === "canto" && b.momento) return `Canto · ${b.momento}`;
   if (b.tipo === "imagem") return "Imagem";
   return NOME_DO_TIPO[b.tipo];
 }
 
-function BlocoNaTela({ b, atual, conta }: { b: Bloco; atual: boolean; conta: number }) {
+function BlocoNaTela({ b, atual, conta, dataDoRoteiro }: { b: Bloco; atual: boolean; conta: number; dataDoRoteiro: string | null }) {
   const [aberta, setAberta] = useState(false);
   let corpo: ReactNode = null;
   if (b.tipo === "canto") corpo = <Canto b={b} />;
@@ -134,6 +174,7 @@ function BlocoNaTela({ b, atual, conta }: { b: Bloco; atual: boolean; conta: num
     );
   else if (b.tipo === "texto") corpo = <p className="whitespace-pre-line font-leitura text-[1.1rem] leading-[1.75] text-tinta">{b.texto}</p>;
   else if (b.tipo === "leitura") corpo = <Leitura referencia={b.referencia} />;
+  else if (b.tipo === "liturgia") corpo = <LeiturasDoDia data={b.data || dataDoRoteiro || new Date().toLocaleDateString("sv-SE")} />;
   else if (b.tipo === "misterio") {
     const ref = MEDITACOES.misterios[b.grupo][b.indice]?.referencia;
     corpo = (
@@ -302,7 +343,7 @@ export function RoteiroAberto() {
       {!blocos.length ? (
         <p className="text-tinta-suave">Roteiro ainda sem conteúdo.</p>
       ) : (
-        blocos.map((b) => <BlocoNaTela key={b.id} b={b} atual={aoVivo && atual?.id === b.id} conta={estado?.conta ?? 0} />)
+        blocos.map((b) => <BlocoNaTela key={b.id} b={b} atual={aoVivo && atual?.id === b.id} conta={estado?.conta ?? 0} dataDoRoteiro={roteiro.data} />)
       )}
       <button type="button" onClick={() => void compartilhar({ titulo: roteiro.titulo, url: linkDoRoteiro(roteiro.codigo) })} className={BOTAO_CLARO}>
         <Share2 className="size-4" aria-hidden /> Compartilhar
@@ -375,7 +416,7 @@ export function ConduzirRoteiro() {
         </button>
       </div>
       {qr && <QrDoRoteiro codigo={roteiro.codigo} />}
-      {atual ? <BlocoNaTela b={atual} atual conta={pos.conta} /> : <p className="text-tinta-suave">Roteiro ainda sem conteúdo.</p>}
+      {atual ? <BlocoNaTela b={atual} atual conta={pos.conta} dataDoRoteiro={roteiro.data} /> : <p className="text-tinta-suave">Roteiro ainda sem conteúdo.</p>}
       {seguinte && <p className="px-1 text-sm text-tinta-suave">{`A seguir: ${tituloDoBloco(seguinte) || rotuloDoBloco(seguinte)}`}</p>}
       <div className="fixed inset-x-0 bottom-[calc(4rem+env(safe-area-inset-bottom))] z-20 px-3 pb-3 md:bottom-0 md:left-60 md:pb-6">
         <div className="mx-auto grid max-w-xl grid-cols-[auto_1fr] gap-2 rounded-2xl border border-borda bg-cartao p-2 shadow-lg">
@@ -407,6 +448,16 @@ function EditorDoBloco({ b, mudar }: { b: Bloco; mudar: (b: Bloco) => void }) {
     case "canto":
       return (
         <div className="flex flex-col gap-2">
+          <Campo rotulo="Momento">
+            <select value={b.momento ?? ""} onChange={(e) => mudar({ ...b, momento: e.target.value || undefined })} className={CAMPO}>
+              <option value="">Nenhum</option>
+              {MOMENTOS_DA_MISSA.map((m) => (
+                <option key={m} value={m}>
+                  {m}
+                </option>
+              ))}
+            </select>
+          </Campo>
           <Campo rotulo="Nome do canto">
             <input value={b.titulo} onChange={(e) => mudar({ ...b, titulo: e.target.value })} maxLength={120} className={CAMPO} />
           </Campo>
@@ -488,6 +539,12 @@ function EditorDoBloco({ b, mudar }: { b: Bloco; mudar: (b: Bloco) => void }) {
           </div>
           {quem}
         </div>
+      );
+    case "liturgia":
+      return (
+        <Campo rotulo="Dia das leituras">
+          <input type="date" value={b.data} onChange={(e) => mudar({ ...b, data: e.target.value })} className={CAMPO} />
+        </Campo>
       );
     case "oracao":
       return (
@@ -679,11 +736,11 @@ export function EditarRoteiro() {
   );
 }
 
-function NovoRoteiro({ terco, nomeDoTerco }: { terco: string | null; nomeDoTerco: string }) {
+function NovoRoteiro({ terco, paroquia, nomeDoTerco, modeloInicial }: { terco: string | null; paroquia: string | null; nomeDoTerco: string; modeloInicial: Modelo }) {
   const navegar = useNavigate();
-  const [modelo, setModelo] = useState<Modelo>("terco-cantado");
+  const [modelo, setModelo] = useState<Modelo>(modeloInicial);
   const [grupo, setGrupo] = useState<GrupoDeMisterios>(() => misteriosDoDia(hoje()).grupo);
-  const [titulo, setTitulo] = useState(nomeDoTerco || "Terço");
+  const [titulo, setTitulo] = useState(modeloInicial === "folheto" ? "Missa" : nomeDoTerco || "Terço");
   const [estado, setEstado] = useState<"" | "criando" | "erro">("");
   const comMisterios = modelo === "terco" || modelo === "terco-cantado";
 
@@ -691,7 +748,7 @@ function NovoRoteiro({ terco, nomeDoTerco }: { terco: string | null; nomeDoTerco
     e.preventDefault();
     setEstado("criando");
     try {
-      const id = await criarRoteiro({ titulo: titulo.trim(), terco_id: terco, data: null, hora: null, local: "", blocos: blocosDoModelo(modelo, grupo) });
+      const id = await criarRoteiro({ titulo: titulo.trim(), terco_id: terco, paroquia_id: paroquia, data: null, hora: null, local: paroquia ? nomeDoTerco : "", blocos: blocosDoModelo(modelo, grupo) });
       navegar(`/roteiros/${id}`);
     } catch {
       setEstado("erro");
@@ -761,8 +818,9 @@ export function Roteiros() {
   const navegar = useNavigate();
   const [params] = useSearchParams();
   const terco = params.get("terco");
+  const paroquia = params.get("paroquia");
   const [lista, setLista] = useState<Roteiro[] | null>(null);
-  const [novo, setNovo] = useState(!!terco);
+  const [novo, setNovo] = useState(!!terco || !!paroquia);
   const [codigo, setCodigo] = useState("");
 
   useEffect(() => {
@@ -798,7 +856,7 @@ export function Roteiros() {
       ) : (
         <>
           {novo ? (
-            <NovoRoteiro terco={terco} nomeDoTerco={params.get("nome") ?? ""} />
+            <NovoRoteiro terco={terco} paroquia={paroquia} nomeDoTerco={params.get("nome") ?? ""} modeloInicial={paroquia ? "folheto" : "terco-cantado"} />
           ) : (
             <button type="button" onClick={() => setNovo(true)} className={BOTAO}>
               <Plus className="size-5" aria-hidden /> Novo roteiro

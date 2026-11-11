@@ -21,6 +21,8 @@ export function blocoVazio(tipo: TipoDeBloco): Bloco {
       return { id, tipo, grupo: "gozosos", indice: 0 };
     case "oracao":
       return { id, tipo, oracao: "pai-nosso", vezes: 1 };
+    case "liturgia":
+      return { id, tipo, data: "" };
   }
 }
 
@@ -38,6 +40,8 @@ export function blocoTemConteudo(b: Bloco): boolean {
       return true;
     case "oracao":
       return !!ORACOES[b.oracao];
+    case "liturgia":
+      return true;
   }
 }
 
@@ -45,6 +49,8 @@ export function tituloDoBloco(b: Bloco): string {
   switch (b.tipo) {
     case "canto":
       return b.titulo;
+    case "liturgia":
+      return "Leituras do dia";
     case "imagem":
       return b.nome;
     case "texto":
@@ -96,9 +102,10 @@ const oracao = (oracao: string, vezes = 1): Bloco => ({ id: novoId(), tipo: "ora
 const texto = (rotulo: RotuloDeTexto, t = ""): Bloco => ({ id: novoId(), tipo: "texto", rotulo, texto: t });
 const canto = (titulo = ""): Bloco => ({ id: novoId(), tipo: "canto", titulo });
 
-export type Modelo = "terco" | "terco-cantado" | "misericordia" | "branco";
+export type Modelo = "terco" | "terco-cantado" | "misericordia" | "folheto" | "branco";
 
 export const NOME_DO_MODELO: Record<Modelo, string> = {
+  folheto: "Folheto da missa (cantos e leituras)",
   terco: "Terço",
   "terco-cantado": "Terço com cantos e meditações",
   misericordia: "Terço da Misericórdia",
@@ -107,6 +114,10 @@ export const NOME_DO_MODELO: Record<Modelo, string> = {
 
 export function blocosDoModelo(modelo: Modelo, grupo: GrupoDeMisterios): Bloco[] {
   if (modelo === "branco") return [];
+  if (modelo === "folheto") {
+    const c = (momento: string): Bloco => ({ id: novoId(), tipo: "canto", titulo: "", momento });
+    return [c("Entrada"), c("Ato penitencial"), c("Glória"), { id: novoId(), tipo: "liturgia", data: "" }, c("Aclamação"), c("Ofertório"), c("Santo"), c("Cordeiro de Deus"), c("Comunhão"), c("Ação de graças"), c("Final"), texto("avisos")];
+  }
   if (modelo === "misericordia")
     return [
       oracao("sinal-da-cruz"),

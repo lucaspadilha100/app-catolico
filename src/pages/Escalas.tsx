@@ -262,6 +262,11 @@ export function MinisterioPagina() {
         ))}
       </div>
 
+      {coordeno && ministerio.paroquia_id && (
+        <Link to={`/roteiros?paroquia=${ministerio.paroquia_id}&nome=${encodeURIComponent(ministerio.paroquias?.nome ?? "")}`} className={BOTAO_CLARO}>
+          Montar o folheto da missa
+        </Link>
+      )}
       {aba === "escala" ? (
         <>
           {coordeno &&

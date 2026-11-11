@@ -30,6 +30,7 @@ import { agendaDeTercos } from "@/tercos/api";
 import { Mural, SouDaEquipe } from "@/components/Mural";
 import { Inscricoes, Oferta } from "@/components/PlanoDaParoquia";
 import { IntencoesDeMissa } from "@/components/IntencoesDeMissa";
+import { FolhetosDaParoquia } from "@/components/FolhetosDaParoquia";
 import { useIgrejasSeguidas } from "@/paroquias/seguidas";
 import { avisarMudancaDeIgrejas } from "@/lembretes/lembretes";
 
@@ -928,6 +929,8 @@ export function ParoquiaPagina() {
       <Oferta p={p} />
 
       <Mural paroquia={p.id} podeEditar={podeEditar} />
+
+      <FolhetosDaParoquia paroquia={p.id} nome={p.nome} podeEditar={podeEditar} />
 
       <Inscricoes paroquia={p.id} email={email} />
 

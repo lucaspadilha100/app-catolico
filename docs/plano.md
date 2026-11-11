@@ -391,9 +391,14 @@ participa acompanha no celular, ao vivo, pelo link ou pelo QR code.
   pronta para ler na missa
 - ⬜ 👤 Testar com a secretaria de uma paróquia
 
-### Leva 25. Cantos da missa de domingo ⬜
-A equipe de canto publica os títulos e os links dos cantos com as referências
-das leituras: o folheto digital, sem copiar texto protegido.
+### Leva 25. Cantos da missa de domingo ✅
+- ✅ Modelo "Folheto da missa" nos roteiros: cantos por momento (entrada,
+  glória, aclamação, ofertório, comunhão, final...) e o bloco "Leituras do
+  dia", com as referências do lecionário e o link para ler no app; avisos
+- ✅ Publicado na página da paróquia ("Cantos e roteiros"); quem publica é a
+  equipe da paróquia ou quem coordena um ministério ligado a ela (o de música)
+- ✅ Ministérios da paróquia criados pelo Painel; o coordenador da música monta
+  o folheto pela página do ministério
 
 ### Leva 26. Relógio de oração e novena em grupo ⬜
 Cada um escolhe um horário (por um doente, por uma causa, adoração de 24 horas);
