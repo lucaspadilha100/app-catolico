@@ -5,7 +5,7 @@ import { intervalosDaReferencia, textoDaReferencia } from "@/biblia/texto";
 import { livroPorCodigo } from "@/biblia/livros";
 import { MISTERIOS, type GrupoDeMisterios } from "@/liturgia/terco";
 import { ORACOES, ORACOES_DA_LISTA, buscarOracoes, oracoesDoTempo, todosOsTextos, type Linha } from "./oracoes";
-import { MEDITACOES, contarOracoes, passosDaMisericordia, passosDeSaoMiguel, passosDoRosario } from "./terco";
+import { MEDITACOES, contarOracoes, passosDaMisericordia, passosDeSaoMiguel, passosDoRosario, passosDoRosarioCompleto } from "./terco";
 
 const raiz = join(__dirname, "../..");
 const GRUPOS: GrupoDeMisterios[] = ["gozosos", "luminosos", "dolorosos", "gloriosos"];
@@ -113,6 +113,16 @@ describe("passo a passo", () => {
     expect(passos.filter((p) => p.contas === 10)).toHaveLength(5);
   });
 
+  it("rosário completo: os 20 mistérios, 1 Creio, 21 Pai-Nossos, 203 Ave-Marias", () => {
+    const passos = passosDoRosarioCompleto();
+    const c = contarOracoes(passos);
+    expect(passos.filter((p) => p.misterio)).toHaveLength(20);
+    expect(c["creio"]).toBe(1);
+    expect(c["pai-nosso"]).toBe(21);
+    expect(c["ave-maria"]).toBe(203);
+    expect(c["salve-rainha"]).toBe(1);
+  });
+
   it("terço da Misericórdia: 5 Eterno Pai, 50 Pela sua dolorosa Paixão, 3 Deus Santo", () => {
     const c = contarOracoes(passosDaMisericordia());
     expect(c["pai-nosso"]).toBe(1);
@@ -133,7 +143,7 @@ describe("passo a passo", () => {
   });
 
   it("todo passo aponta para uma oração que existe e tem chave única", () => {
-    for (const passos of [...GRUPOS.map(passosDoRosario), passosDaMisericordia(), passosDeSaoMiguel()]) {
+    for (const passos of [...GRUPOS.map(passosDoRosario), passosDoRosarioCompleto(), passosDaMisericordia(), passosDeSaoMiguel()]) {
       expect(new Set(passos.map((p) => p.chave)).size).toBe(passos.length);
       for (const p of passos) {
         if (p.oracao) expect(ORACOES[p.oracao], p.chave).toBeDefined();

@@ -3,15 +3,18 @@ import { useSearchParams } from "react-router-dom";
 import { useDiaLiturgico } from "@/lib/useDiaLiturgico";
 import { MISTERIOS, misteriosDoDia, type GrupoDeMisterios } from "@/liturgia/terco";
 import { formatarReferencia } from "@/liturgia/lecionario";
-import { MEDITACOES, passosDaMisericordia, passosDeSaoMiguel, passosDoRosario, type Passo } from "@/oracao/terco";
+import { MEDITACOES, ORDEM_DO_ROSARIO, passosDaMisericordia, passosDeSaoMiguel, passosDoRosario, passosDoRosarioCompleto, type Passo } from "@/oracao/terco";
 import { andamentoMaisRecente, guardarAndamento, lerAndamento } from "@/oracao/guardado";
 import { Cartao, TituloPagina } from "@/components/Cartao";
 import { Voltar } from "@/components/Voltar";
 import { InicioDoTerco, TercoGuiado } from "@/components/TercoGuiado";
 
-const ORDEM: GrupoDeMisterios[] = ["gozosos", "luminosos", "dolorosos", "gloriosos"];
+const ORDEM = ORDEM_DO_ROSARIO;
+type Escolha = GrupoDeMisterios | "completo";
 
-const ehGrupo = (g: string | null): g is GrupoDeMisterios => ORDEM.includes(g as GrupoDeMisterios);
+const ehGrupo = (g: string | null): g is Escolha => g === "completo" || ORDEM.includes(g as GrupoDeMisterios);
+const passosDe = (g: Escolha) => (g === "completo" ? passosDoRosarioCompleto() : passosDoRosario(g));
+const nomeDe = (g: Escolha) => (g === "completo" ? "Rosário completo" : MISTERIOS[g].nome);
 
 const ondeParou = (passos: Passo[], indice: number, nome: string) => {
   const secao = passos[indice]?.secao ?? "";
@@ -24,10 +27,9 @@ export default function Terco() {
   const [params, setParams] = useSearchParams();
   const pedido = params.get("m");
   const grupo = ehGrupo(pedido) ? pedido : doDia;
-  const passos = useMemo(() => passosDoRosario(grupo), [grupo]);
-  const m = MISTERIOS[grupo];
+  const passos = useMemo(() => passosDe(grupo), [grupo]);
 
-  const parametros = (g: GrupoDeMisterios, rezar = false) => ({
+  const parametros = (g: Escolha, rezar = false) => ({
     ...(g === doDia ? {} : { m: g }),
     ...(rezar ? { rezar: "1" } : {}),
   });
@@ -38,7 +40,7 @@ export default function Terco() {
         key={grupo}
         chave={`rosario-${grupo}`}
         tipo="rosario"
-        titulo={m.nome}
+        titulo={nomeDe(grupo)}
         passos={passos}
         aoSair={() => setParams(parametros(grupo))}
       />
@@ -51,7 +53,7 @@ export default function Terco() {
     recente && ehGrupo(grupoRecente)
       ? {
           rotulo: "Continuar de onde parei",
-          detalhe: ondeParou(passosDoRosario(grupoRecente), recente[1].passo, MISTERIOS[grupoRecente].nome),
+          detalhe: ondeParou(passosDe(grupoRecente), recente[1].passo, nomeDe(grupoRecente)),
           acao: () => setParams(parametros(grupoRecente, true)),
         }
       : null;
@@ -68,27 +70,43 @@ export default function Terco() {
           setParams(parametros(grupo, true));
         }}
       >
-        <div className="grid grid-cols-2 gap-2 sm:grid-cols-4" role="tablist">
-          {ORDEM.map((g) => (
+        <div className="grid grid-cols-2 gap-2 sm:grid-cols-5" role="tablist">
+          {[...ORDEM, "completo" as const].map((g) => (
             <button
               key={g}
               role="tab"
               aria-selected={g === grupo}
               onClick={() => setParams(parametros(g), { replace: true })}
-              className={`min-h-12 rounded-xl border px-3 text-sm font-medium ${
+              className={`min-h-12 rounded-xl border px-3 text-sm font-medium ${g === "completo" ? "col-span-2 sm:col-span-1" : ""} ${
                 g === grupo ? "border-transparent bg-destaque text-sobre-destaque" : "border-borda bg-cartao text-tinta-suave"
               }`}
             >
-              {MISTERIOS[g].nome.replace("Mistérios ", "")}
+              {g === "completo" ? "Completo" : MISTERIOS[g].nome.replace("Mistérios ", "")}
               {g === doDia && <span className="block text-[0.7rem] font-normal opacity-80">hoje</span>}
             </button>
           ))}
         </div>
 
+        {grupo === "completo" ? (
+          <Cartao>
+            <h2 className="font-leitura text-xl font-semibold text-marca">Rosário completo</h2>
+            <ol className="mt-4 flex flex-col gap-3">
+              {ORDEM.map((g, i) => (
+                <li key={g} className="flex gap-3">
+                  <span className="grid size-7 shrink-0 place-items-center rounded-full bg-marca-fundo text-sm font-semibold text-destaque-texto">{i + 1}</span>
+                  <span className="pt-0.5">
+                    {MISTERIOS[g].nome}
+                    <span className="block text-sm text-tinta-suave">{MISTERIOS[g].misterios.join(" · ")}</span>
+                  </span>
+                </li>
+              ))}
+            </ol>
+          </Cartao>
+        ) : (
         <Cartao>
-          <h2 className="font-leitura text-xl font-semibold text-marca">{m.nome}</h2>
+          <h2 className="font-leitura text-xl font-semibold text-marca">{MISTERIOS[grupo].nome}</h2>
           <ol className="mt-4 flex flex-col gap-3">
-            {m.misterios.map((nome, i) => (
+            {MISTERIOS[grupo].misterios.map((nome, i) => (
               <li key={nome} className="flex gap-3">
                 <span className="grid size-7 shrink-0 place-items-center rounded-full bg-marca-fundo text-sm font-semibold text-destaque-texto">
                   {i + 1}
@@ -103,6 +121,7 @@ export default function Terco() {
             ))}
           </ol>
         </Cartao>
+        )}
       </InicioDoTerco>
     </div>
   );

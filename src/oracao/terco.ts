@@ -181,6 +181,16 @@ export function passosDoRosario(grupo: GrupoDeMisterios): Passo[] {
   return passos;
 }
 
+export const ORDEM_DO_ROSARIO: GrupoDeMisterios[] = ["gozosos", "luminosos", "dolorosos", "gloriosos"];
+
+export function passosDoRosarioCompleto(): Passo[] {
+  const partes = ORDEM_DO_ROSARIO.map(passosDoRosario);
+  const inicio = partes[0]!.filter((p) => p.secao === "Início");
+  const final = partes[0]!.filter((p) => p.secao === "Final");
+  const meio = partes.flatMap((ps, g) => ps.filter((p) => p.secao !== "Início" && p.secao !== "Final").map((p) => ({ ...p, chave: `${ORDEM_DO_ROSARIO[g]}-${p.chave}` })));
+  return [...inicio, ...meio, ...final];
+}
+
 export function passosDaMisericordia(): Passo[] {
   const passos: Passo[] = [
     { chave: "sinal", secao: "Início", titulo: "Sinal da Cruz", oracao: "sinal-da-cruz" },
