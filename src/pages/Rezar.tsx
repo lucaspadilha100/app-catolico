@@ -5,6 +5,7 @@ import { diaEMes } from "@/liturgia/datas";
 import { emAndamento } from "@/devocao/andamento";
 import { diaDaSemanaSanta, domingoDeRamos, NOMES_DA_SEMANA_SANTA } from "@/devocao/calendario";
 import { diasDeOracaoNaSemana, useDevocoesGuardadas } from "@/devocao/progresso";
+import { Link } from "react-router-dom";
 import { Grupo, ItemLista, TituloPagina } from "@/components/Cartao";
 import { pascoa } from "@/liturgia/calendario";
 import { diferencaEmDias } from "@/liturgia/datas";
@@ -19,6 +20,11 @@ export default function Rezar() {
   const santa = diaDaSemanaSanta(l.data);
   const ano = diferencaEmDias(pascoa(l.data.getUTCFullYear()), l.data) >= 0 ? l.data.getUTCFullYear() : l.data.getUTCFullYear() + 1;
   const semana = diasDeOracaoNaSemana(l.data);
+  const agora = [
+    { para: "/rezar/terco", titulo: "Terço", detalhe: misteriosDoDia(l.data).nome, imagem: "rosario", alt: "Virgem do Rosário, de Murillo", foco: "50% 22%" },
+    { para: "/rezar/agora?m=angelus", titulo: "Angelus", detalhe: "Às 6h, 12h e 18h", imagem: "anunciacao", alt: "Anunciação, de Fra Angelico", foco: "72% 50%" },
+    { para: "/rezar/agora?m=noite", titulo: "Oração da noite", detalhe: "Com voz", imagem: "pai-nosso", alt: "O Pai-Nosso, de James Tissot", foco: "50% 35%" },
+  ];
 
   return (
     <div>
@@ -28,7 +34,19 @@ export default function Rezar() {
           Você rezou {semana === 1 ? "1 dia" : `${semana} dias`} nesta semana
         </p>
       )}
-      <div className="flex flex-col gap-6">
+      <div className="flex flex-col gap-7">
+        <section>
+          <h2 className="titulo-secao mb-3 px-1">Agora</h2>
+          <div className="-mx-4 flex snap-x scroll-px-4 gap-3 overflow-x-auto px-4 pb-1 [scrollbar-width:none]">
+            {agora.map((a) => (
+              <Link key={a.para} to={a.para} className="w-40 shrink-0 snap-start">
+                <img src={`/imagens/arte/${a.imagem}.webp`} alt={a.alt} loading="lazy" className="h-52 w-40 rounded-3xl bg-cartao object-cover" style={{ objectPosition: a.foco }} />
+                <span className="mt-2 block font-bold leading-snug text-tinta">{a.titulo}</span>
+                <span className="block text-sm text-tinta-suave">{a.detalhe}</span>
+              </Link>
+            ))}
+          </div>
+        </section>
         {andamento.length > 0 && (
           <Grupo titulo="Em andamento">
             {andamento.slice(0, 4).map((i) => (

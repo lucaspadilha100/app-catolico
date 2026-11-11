@@ -157,6 +157,7 @@ android/ ios/     projetos nativos do Capacitor (iOS por SPM, sem CocoaPods)
   barra de status, tela de abertura). Lembretes: no app de loja são agendados
   no aparelho (`@capacitor/local-notifications`, até 60 pendentes, renovados a
   cada abertura); no site instalado, Web Push pelo Supabase.
+- Arte sacra em `public/imagens/arte/` (fonte e licença de cada uma no `LEIAME.md` da pasta); santos em `public/imagens/santos/`. Só domínio público ou CC0.
 - Ícones e telas de abertura saem de `assets/` com `npx capacitor-assets
   generate`; o ícone de notificação do Android é `ic_stat_santinho`.
 - ⚠️ `appId` = `br.com.minhaigrejinha` é PERMANENTE nas lojas (trocado de

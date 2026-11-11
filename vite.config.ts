@@ -44,7 +44,7 @@ export default defineConfig({
             options: { cacheName: "biblia", expiration: { maxEntries: 200 } },
           },
           {
-            urlPattern: ({ url }) => url.pathname.startsWith("/imagens/santos/"),
+            urlPattern: ({ url }) => url.pathname.startsWith("/imagens/santos/") || url.pathname.startsWith("/imagens/arte/"),
             handler: "CacheFirst",
             options: { cacheName: "santos", expiration: { maxEntries: 120 } },
           },

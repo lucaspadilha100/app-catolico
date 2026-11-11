@@ -6,7 +6,7 @@ import { useDevocoesGuardadas } from "@/devocao/progresso";
 import { diaLiturgico } from "@/liturgia/calendario";
 import { somaDias, diaDaSemana, paraIso } from "@/liturgia/datas";
 import { useEffect, useState } from "react";
-import { santosDaDataMMDD } from "@/santos/santos";
+import { caminhoDaImagem, santosDaDataMMDD } from "@/santos/santos";
 import type { Santo } from "@/santos/tipos";
 import { ehDiaDePreceito, NOME_DA_PENITENCIA, penitenciaDoDia } from "@/liturgia/preceitos";
 import { usePreferencias } from "@/lib/preferencias";
@@ -64,6 +64,10 @@ export default function Hoje() {
       ativo = false;
     };
   }, [mmdd]);
+  const imagemDoSanto = (nome: string) => {
+    const s = santosDoDia.find((x) => x.nome === nome);
+    return s ? caminhoDaImagem(s) : null;
+  };
   const linkDoSanto = (nome: string) => {
     const s = santosDoDia.find((x) => x.nome === nome);
     return s ? `/santos/${s.id}` : `/santos?dia=${mmdd}`;
@@ -208,7 +212,11 @@ export default function Hoje() {
           <div className={LISTA}>
             {l.santos.map((s) => (
               <Link key={s.nome} to={linkDoSanto(s.nome)} className={linha}>
-                <span className={`size-2.5 shrink-0 rounded-full ${COR_PONTO[s.cor]}`} aria-label={`Cor ${NOME_DA_COR[s.cor].toLowerCase()}`} />
+                {imagemDoSanto(s.nome) ? (
+                  <img src={imagemDoSanto(s.nome)!} alt="" loading="lazy" className="size-14 shrink-0 rounded-2xl bg-papel object-cover" />
+                ) : (
+                  <span className={`size-2.5 shrink-0 rounded-full ${COR_PONTO[s.cor]}`} aria-label={`Cor ${NOME_DA_COR[s.cor].toLowerCase()}`} />
+                )}
                 <span className="min-w-0 flex-1">
                   <span className="block font-semibold leading-snug text-tinta">{s.nome}</span>
                   <span className="text-sm text-tinta-suave">{NOME_DO_GRAU[s.grau]}</span>
