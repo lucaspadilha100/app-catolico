@@ -1,6 +1,6 @@
 import webpush from "npm:web-push@3.6.7";
 import { createClient } from "npm:@supabase/supabase-js@2";
-import { agoraNoFuso, avisosDevidos, encontrosDevidos, type Lembretes, type TercoAgendado } from "./regras.ts";
+import { agoraNoFuso, avisosDevidos, encontrosDevidos, escalasDevidas, type Lembretes, type ServicoNaEscala, type TercoAgendado } from "./regras.ts";
 
 const SITE = Deno.env.get("SITE") ?? "https://app-catolico-five.vercel.app";
 
@@ -23,6 +23,7 @@ function evangelhoDe(iso: string): Promise<string | null> {
 }
 
 interface Inscricao {
+  usuario_id: string | null;
   endpoint: string;
   p256dh: string;
   auth: string;
@@ -153,12 +154,26 @@ Deno.serve(async () => {
     const tercos = ids.length
       ? (((await banco.from("tercos").select("id, nome, dia_semana, semanas, hora").in("id", ids).eq("situacao", "aprovado").eq("ativo", true)).data ?? []) as TercoAgendado[])
       : [];
+    const usuarios = [...new Set(lista.map((i) => i.usuario_id).filter((u): u is string => !!u))];
+    const hojeSP = agoraNoFuso(agora, "America/Sao_Paulo").iso;
+    const servicos = new Map<string, ServicoNaEscala[]>();
+    if (usuarios.length) {
+      const { data: esc } = await banco
+        .from("escala")
+        .select("id, data, hora, funcao, celebracao, membro_id, ministerios(nome)")
+        .in("membro_id", usuarios)
+        .gte("data", hojeSP)
+        .lte("data", new Date(Date.parse(`${hojeSP}T00:00:00Z`) + 2 * 86_400_000).toISOString().slice(0, 10));
+      for (const e of (esc ?? []) as { id: string; data: string; hora: string | null; funcao: string; celebracao: string; membro_id: string; ministerios: { nome: string } | null }[])
+        servicos.set(e.membro_id, [...(servicos.get(e.membro_id) ?? []), { id: e.id, data: e.data, hora: e.hora, funcao: e.funcao, celebracao: e.celebracao, ministerio: e.ministerios?.nome ?? "" }]);
+    }
     for (const i of lista) {
       const local = agoraNoFuso(agora, i.fuso);
       const precisaDoEvangelho = Boolean(i.lembretes.evangelho) && i.enviados.evangelho !== local.iso;
       const avisos = [
         ...avisosDevidos(i.lembretes, i.enviados ?? {}, local, precisaDoEvangelho ? await evangelhoDe(local.iso) : null),
         ...encontrosDevidos(tercos, i.lembretes.tercos ?? [], i.enviados ?? {}, local),
+        ...(i.usuario_id && i.lembretes.escalas !== false ? escalasDevidas(servicos.get(i.usuario_id) ?? [], i.enviados ?? {}, local) : []),
       ];
       if (!avisos.length) continue;
       const marcados = { ...(i.enviados ?? {}) };

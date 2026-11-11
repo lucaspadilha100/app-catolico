@@ -14,6 +14,7 @@ export interface Lembretes {
   avisos?: boolean;
   oracoes?: boolean;
   encontros?: boolean;
+  escalas?: boolean;
   igrejas?: string[];
   tercos?: string[];
 }
@@ -112,4 +113,32 @@ export function encontrosDevidos(tercos: TercoAgendado[], seguidos: string[], en
     r.push({ tipo, titulo: t.nome, corpo: `Hoje, às ${Number(h)}h${min === "00" ? "" : min}.`, url: `/tercos/${t.id}` });
   }
   return r;
+}
+
+export interface ServicoNaEscala {
+  id: string;
+  data: string;
+  hora: string | null;
+  funcao: string;
+  celebracao: string;
+  ministerio: string;
+}
+
+export const HORA_DO_AVISO_DA_ESCALA = 19 * 60;
+
+const amanhaDe = (iso: string) => {
+  const [a, m, d] = iso.split("-").map(Number);
+  return new Date(Date.UTC(a!, m! - 1, d! + 1)).toISOString().slice(0, 10);
+};
+
+export function escalasDevidas(servicos: ServicoNaEscala[], enviados: Record<string, string>, agora: Agora): Aviso[] {
+  if (!naHora(HORA_DO_AVISO_DA_ESCALA, agora)) return [];
+  const amanha = amanhaDe(agora.iso);
+  return servicos
+    .filter((s) => s.data === amanha && enviados[`escala-${s.id}`] !== agora.iso)
+    .map((s) => {
+      const [h, min] = (s.hora ?? "").slice(0, 5).split(":");
+      const quando = s.hora ? ` às ${Number(h)}h${min === "00" ? "" : min}` : "";
+      return { tipo: `escala-${s.id}`, titulo: `Amanhã: ${s.funcao}`, corpo: `${s.ministerio}${s.celebracao ? ` · ${s.celebracao}` : ""}${quando}`, url: "/escalas" };
+    });
 }

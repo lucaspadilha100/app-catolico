@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { agoraNoFuso, avisosDevidos, encontrosDevidos } from "../../supabase/functions/lembretes/regras";
+import { agoraNoFuso, avisosDevidos, encontrosDevidos, escalasDevidas } from "../../supabase/functions/lembretes/regras";
 
 describe("lembretes", () => {
   const as = (hora: string, iso = "2026-11-10") => {
@@ -50,5 +50,15 @@ describe("encontro do terço que a pessoa segue", () => {
     expect(encontrosDevidos([so3], ["t1"], {}, quinta("18:30"))).toHaveLength(1);
     expect(encontrosDevidos([ultima], ["t1"], {}, quinta("18:30"))).toHaveLength(0);
     expect(encontrosDevidos([ultima], ["t1"], {}, agoraNoFuso(new Date("2026-11-26T18:30:00-03:00"), "America/Sao_Paulo"))).toHaveLength(1);
+  });
+});
+
+describe("escala da paróquia", () => {
+  const servico = { id: "e1", data: "2026-11-22", hora: "07:00:00", funcao: "1ª leitura", celebracao: "Missa das 7h", ministerio: "Leitores" };
+  it("avisa às 19h da véspera, uma vez", () => {
+    const sabado = agoraNoFuso(new Date("2026-11-21T19:05:00-03:00"), "America/Sao_Paulo");
+    expect(escalasDevidas([servico], {}, sabado)).toEqual([{ tipo: "escala-e1", titulo: "Amanhã: 1ª leitura", corpo: "Leitores · Missa das 7h às 7h", url: "/escalas" }]);
+    expect(escalasDevidas([servico], { "escala-e1": "2026-11-21" }, sabado)).toEqual([]);
+    expect(escalasDevidas([servico], {}, agoraNoFuso(new Date("2026-11-21T12:00:00-03:00"), "America/Sao_Paulo"))).toEqual([]);
   });
 });

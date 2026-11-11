@@ -86,6 +86,7 @@ export default function Lembretes() {
             </Linha>
             <Linha titulo="Avisos das igrejas que sigo" ligado={l.avisos !== false} onLigar={(v) => void mudar({ ...l, avisos: v })} />
             {!ehNativo() && <Linha titulo="Encontros dos terços que sigo" detalhe="Uma hora antes" ligado={l.encontros !== false} onLigar={(v) => void mudar({ ...l, encontros: v })} />}
+            {!ehNativo() && <Linha titulo="Minhas escalas" detalhe="Na véspera, às 19h" ligado={l.escalas !== false} onLigar={(v) => void mudar({ ...l, escalas: v })} />}
             {!ehNativo() && <Linha titulo="Quando rezarem pelos meus pedidos" ligado={l.oracoes !== false} onLigar={(v) => void mudar({ ...l, oracoes: v })} />}
             <Linha titulo="Novena" detalhe="Nos dias das novenas que você reza" ligado={Boolean(l.novena)} onLigar={(v) => void mudar({ ...l, novena: v ? "09:00" : undefined })}>
               {hora(l.novena, "novena", "09:00")}
