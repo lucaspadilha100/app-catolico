@@ -2,8 +2,8 @@ import type { Bloco, ConteudoDoOficio, Noturnos } from "./tipos";
 import type { Linha } from "@/oracao/oracoes";
 
 const DESCANSO = "Dai-lhes, Senhor, o descanso eterno.";
-const LUZ = "E brilhe para eles a luz perpétua.";
-const DESCANSO_E_LUZ = "Dai-lhes, Senhor, o descanso eterno, e brilhe para eles a luz perpétua.";
+const LUZ = "E a luz perpétua os ilumine.";
+const DESCANSO_E_LUZ = "Dai-lhes, Senhor, o descanso eterno, e a luz perpétua os ilumine.";
 
 const REQUIEM: Bloco = { linhas: [{ v: DESCANSO, r: LUZ }] };
 

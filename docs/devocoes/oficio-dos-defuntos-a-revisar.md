@@ -76,7 +76,7 @@ Divinum Officium é transcrição digital.
 ## Escolhas de tradução
 
 - "Requiem aeternam dona eis, Domine": "Dai-lhes, Senhor, o descanso eterno",
-  como pedido. **A oração "Pelos falecidos" do app diz "o eterno descanso".**
+  como pedido. **A oração "Pelos falecidos" do app diz "o descanso eterno".**
   Decidir uma das duas e igualar.
 - "A porta inferi, erue, Domine, animas eorum": "Da porta do inferno. Livrai,
   Senhor, as suas almas." "Inferno" aqui é a morada dos mortos (o Hades), como

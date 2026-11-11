@@ -206,7 +206,7 @@ const LISTA: Oracao[] = [
     latim: "Requiem aeternam",
     grupo: "principais",
     pt: [
-      { v: "Dai-lhes, Senhor, o eterno descanso,", r: "e brilhe para eles a luz perpétua." },
+      { v: "Dai-lhes, Senhor, o descanso eterno,", r: "e a luz perpétua os ilumine." },
       { v: "Descansem em paz.", r: "Amém." },
     ],
     la: [
