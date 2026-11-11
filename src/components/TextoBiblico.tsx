@@ -52,7 +52,7 @@ export function TextoDaLeitura({ canonica, poema, inicio, fim }: { canonica: str
 export function NotaDaTraducao({ className = "" }: { className?: string }) {
   return (
     <p className={`font-leitura text-sm italic leading-relaxed text-tinta-suave ${className}`}>
-      Tradução do Padre Antônio Pereira de Figueiredo, edição de 1950, em domínio público, revisada pela equipe em linguagem atual.
+      Tradução do Padre Antônio Pereira de Figueiredo, edição de 1950, em domínio público. Revisada pela equipe e conferida versículo a versículo com a Vulgata latina e com os textos originais em hebraico, aramaico e grego.
     </p>
   );
 }
