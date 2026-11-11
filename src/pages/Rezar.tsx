@@ -1,4 +1,4 @@
-import { ListChecks, Users, UsersRound, BookHeart, CalendarHeart, Church, HeartHandshake, CircleDot, Cross, Crown, Flame, HandHeart, ListOrdered, Moon, ScrollText, Footprints, Shield, Sprout, AudioLines } from "lucide-react";
+import { CalendarDays, ListChecks, Users, UsersRound, BookHeart, CalendarHeart, Church, HeartHandshake, CircleDot, Cross, Crown, Flame, HandHeart, ListOrdered, Moon, ScrollText, Footprints, Shield, Sprout, AudioLines } from "lucide-react";
 import { useDiaLiturgico } from "@/lib/useDiaLiturgico";
 import { misteriosDoDia } from "@/liturgia/terco";
 import { diaEMes } from "@/liturgia/datas";
@@ -9,6 +9,9 @@ import { Link } from "react-router-dom";
 import { Grupo, ItemLista, TituloPagina } from "@/components/Cartao";
 import { pascoa } from "@/liturgia/calendario";
 import { diferencaEmDias } from "@/liturgia/datas";
+import { NOVENAS } from "@/devocao/catalogo";
+import { proximaNovena, ordinal } from "@/devocao/calendario";
+import { diaSugeridoDaNovena } from "@/devocao/andamento";
 
 export default function Rezar() {
   useDevocoesGuardadas();
@@ -20,6 +23,19 @@ export default function Rezar() {
   const santa = diaDaSemanaSanta(l.data);
   const ano = diferencaEmDias(pascoa(l.data.getUTCFullYear()), l.data) >= 0 ? l.data.getUTCFullYear() : l.data.getUTCFullYear() + 1;
   const semana = diasDeOracaoNaSemana(l.data);
+  const MES = ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro", "novembro", "dezembro"];
+  const periodo = (a: Date, b: Date) =>
+    a.getUTCMonth() === b.getUTCMonth()
+      ? `${a.getUTCDate()} a ${b.getUTCDate()} de ${MES[b.getUTCMonth()]}`
+      : `${a.getUTCDate()}/${a.getUTCMonth() + 1} a ${b.getUTCDate()}/${b.getUTCMonth() + 1}`;
+  const novenasDoMes = NOVENAS.map((n) => {
+    const sugerido = diaSugeridoDaNovena(n, l.data);
+    const j = proximaNovena(n, l.data);
+    return { n, faltam: sugerido ? -1 : diferencaEmDias(j.inicio, l.data), texto: sugerido ? `${ordinal(sugerido.dia)} dia de ${n.dias}` : periodo(j.inicio, j.fim) };
+  })
+    .filter((x) => x.faltam <= 30)
+    .sort((a, b) => a.faltam - b.faltam)
+    .slice(0, 6);
   const agora = [
     { para: "/rezar/terco", titulo: "Terço", detalhe: misteriosDoDia(l.data).nome, imagem: "rosario", alt: "Virgem do Rosário, de Murillo", foco: "50% 22%" },
     { para: "/rezar/agora?m=angelus", titulo: "Angelus", detalhe: "Às 6h, 12h e 18h", imagem: "anunciacao", alt: "Anunciação, de Fra Angelico", foco: "72% 50%" },
@@ -47,6 +63,22 @@ export default function Rezar() {
             ))}
           </div>
         </section>
+        {novenasDoMes.length > 0 && (
+          <section>
+            <h2 className="titulo-secao mb-3 px-1">Novenas do mês</h2>
+            <div className="-mx-4 flex snap-x scroll-px-4 gap-3 overflow-x-auto px-4 pb-1 [scrollbar-width:none]">
+              {novenasDoMes.map(({ n, texto, faltam }) => (
+                <Link key={n.id} to={`/rezar/novenas/${n.id}`} className="flex w-56 shrink-0 snap-start flex-col justify-between gap-4 rounded-3xl bg-cartao p-4">
+                  <span className="text-[1.0625rem] font-bold leading-snug text-tinta">{n.nome}</span>
+                  <span className={`flex h-9 w-fit items-center gap-1.5 rounded-full px-3 text-sm font-semibold ${faltam < 0 ? "bg-primario text-sobre-primario" : "bg-papel text-tinta"}`}>
+                    <CalendarDays className="size-4" aria-hidden />
+                    {texto}
+                  </span>
+                </Link>
+              ))}
+            </div>
+          </section>
+        )}
         {andamento.length > 0 && (
           <Grupo titulo="Em andamento">
             {andamento.slice(0, 4).map((i) => (

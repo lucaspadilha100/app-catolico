@@ -107,14 +107,14 @@ function Chips<T extends string>({ opcoes, valor, onChange, rolar }: { opcoes: r
 
 function Segmentos<T extends string>({ opcoes, valor, onChange, cheio }: { opcoes: readonly (readonly [T, string])[]; valor: T; onChange: (v: T) => void; cheio?: boolean }) {
   return (
-    <div className={`flex rounded-full border border-borda bg-cartao p-0.5 ${cheio ? "w-full" : ""}`} role="group">
+    <div className={`flex rounded-full bg-cartao p-1 ${cheio ? "w-full" : ""}`} role="group">
       {opcoes.map(([v, nome]) => (
         <button
           key={v}
           type="button"
           aria-pressed={v === valor}
           onClick={() => onChange(v)}
-          className={`min-h-9 rounded-full text-sm font-medium whitespace-nowrap ${cheio ? "flex-1 px-1" : "px-3.5"} ${v === valor ? "bg-marca-fundo text-destaque-texto" : "text-tinta-suave"}`}
+          className={`min-h-9 rounded-full text-sm font-medium whitespace-nowrap ${cheio ? "flex-1 px-1" : "px-3.5"} ${v === valor ? "bg-papel font-bold text-tinta shadow-[0_1px_3px_rgba(0,0,0,0.1)]" : "text-tinta-suave"}`}
         >
           {nome}
         </button>
@@ -196,23 +196,23 @@ function PorHorario({ itens, agora, base = "/missas/paroquia/" }: { itens: ItemD
       {[...dias.entries()].map(([d, lista]) => (
         <section key={d}>
           {variosDias && <h2 className="titulo-secao mb-3 px-1">{rotuloDoDia(new Date(d), agora)}</h2>}
-          <ul className="flex flex-col divide-y divide-borda rounded-3xl bg-cartao">
+          <ul className="flex flex-col divide-y divide-borda">
             {lista.map((i) => {
               const q = dataDoItem(i);
               const comecou = q.getTime() < agora.getTime();
               const quanto = comecou && i.ate ? `até ${hhmm(i.ate)}` : emQuanto(q, agora);
               return (
                 <li key={`${i.paroquia_id}-${i.quando}`}>
-                  <Link to={`${base}${i.paroquia_id}`} className="flex min-h-16 items-center gap-3 px-4 py-2.5">
+                  <Link to={`${base}${i.paroquia_id}`} className="flex min-h-16 items-center gap-3 px-1 py-3.5">
                     <span className="flex w-[4.5rem] shrink-0 flex-col">
-                      <span className="text-lg font-semibold leading-tight text-destaque-texto">
+                      <span className="text-lg font-extrabold leading-tight tracking-[-0.01em] text-tinta">
                         {hhmm(i.quando.slice(11, 16))}
                         {i.ate && !comecou && <span className="text-sm font-medium text-tinta-suave"> às {hhmm(i.ate)}</span>}
                       </span>
                       {quanto && <span className="text-xs text-tinta-suave">{quanto}</span>}
                     </span>
                     <span className="min-w-0 flex-1">
-                      <span className="block leading-snug text-tinta font-semibold">{i.nome}</span>
+                      <span className="block font-bold leading-snug text-tinta">{i.nome}</span>
                       <span className="block text-sm text-tinta-suave">{[i.bairro, km(i.distancia_km), i.observacao].filter(Boolean).join(" · ")}</span>
                     </span>
                     <ChevronRight className="size-5 shrink-0 text-tinta-suave" aria-hidden />
@@ -229,20 +229,20 @@ function PorHorario({ itens, agora, base = "/missas/paroquia/" }: { itens: ItemD
 
 function PorIgreja({ igrejas, agora, comDia }: { igrejas: IgrejaComHorarios[]; agora: Date; comDia: boolean }) {
   return (
-    <ul className="flex flex-col divide-y divide-borda rounded-3xl bg-cartao">
+    <ul className="flex flex-col divide-y divide-borda">
       {igrejas.map((p) => (
         <li key={p.paroquia_id}>
-          <Link to={`/missas/paroquia/${p.paroquia_id}`} className="flex min-h-16 items-center gap-3 px-4 py-3">
+          <Link to={`/missas/paroquia/${p.paroquia_id}`} className="flex min-h-16 items-center gap-3 px-1 py-4">
             <span className="min-w-0 flex-1">
-              <span className="block leading-snug text-tinta font-semibold">{p.nome}</span>
+              <span className="block text-[1.0625rem] font-bold leading-snug text-tinta">{p.nome}</span>
               <span className="block text-sm text-tinta-suave">{[p.bairro, km(p.distancia_km)].filter(Boolean).join(" · ")}</span>
-              <span className="mt-1.5 flex flex-wrap gap-1.5">
-                {p.horarios.map((h) => {
+              <span className="mt-2.5 flex flex-wrap gap-1.5">
+                {p.horarios.map((h, n) => {
                   const q = new Date(h.quando.replace(" ", "T"));
                   const outroDia = comDia && diaDe(q) !== diaDe(agora);
                   const hora = hhmm(h.quando.slice(11, 16));
                   return (
-                    <span key={h.quando} className="rounded-lg bg-marca-fundo px-2 py-0.5 text-sm font-semibold text-destaque-texto">
+                    <span key={h.quando} className={`flex h-9 items-center rounded-xl px-3 text-[0.9375rem] font-bold ${n === 0 ? "bg-primario text-sobre-primario" : "bg-cartao text-tinta"}`}>
                       {outroDia ? `${NOME_CURTO_DO_DIA[q.getDay()]} ` : ""}
                       {h.ate ? `${hora} às ${hhmm(h.ate)}` : hora}
                     </span>
