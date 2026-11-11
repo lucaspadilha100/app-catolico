@@ -180,12 +180,49 @@ Começa forte no **RN (Natal)**, aberto a sugestões de todo o Brasil.
   player na tela bloqueada (quando houver áudio), vibração no terço.
 - Sem login obrigatório; apagar conta dentro do app.
 
-## Depois, com apoio (não é MVP: é o que custa dinheiro)
-- Página "Apoie" com PIX e **transparência de custos**.
+## A sua igreja viva (o diferencial)
+Pedido do dono (11/11/2026): o que nenhum app de oração tem é a paróquia da
+pessoa. Hallow e afins são para rezar sozinho; aqui, a igreja da cidade fala
+com quem a segue.
+
+- **Reivindicar a paróquia:** "Sou da equipe desta paróquia" pede o controle;
+  o dono confirma pelo contato institucional e a pessoa vira gestora (o
+  Painel já sabe dar esse poder). Uma paróquia pode ter mais de um gestor.
+- **Mural da paróquia:** avisos, fotos e eventos publicados pela equipe, na
+  página da paróquia e no "Minhas igrejas" da tela Hoje.
+- **Seguir igrejas:** além da "minha paróquia", seguir quantas quiser (a
+  capela do bairro, a matriz, o santuário).
+- **Notificação para quem segue** a cada publicação nova.
+- **Eventos com lembrete:** festa do padroeiro, novenário, procissão,
+  quermesse, romaria.
+- **Instagram da paróquia no mural:** a paróquia conecta o Instagram e os
+  posts do feed entram sozinhos no mural, avisando os seguidores.
+- **Feito para quem tem pouca intimidade com celular** (letra grande, modo
+  simples, poucas telas): é a avó que mais reza e mais divulga.
+
+## Sustento (sem cobrar a oração)
+Regra: liturgia, Bíblia, terço, orações, novenas, santos, missas e a página
+de toda paróquia são de graça para sempre. Paga-se o que é a mais.
+
+- **Plano para paróquias** (a principal fonte): a paróquia paga, o fiel não.
+  Mural com fotos, notificação aos seguidores, eventos com inscrição
+  (batismo, crisma, curso de noivos, catequese), oferta e dízimo por PIX
+  direto na conta da paróquia, números de alcance. **Paróquias pioneiras de
+  graça** (divulgação). Vendido pelo site, fora das lojas.
+- **Apoiadores:** contribuição avulsa (PIX) e mensal, com página de
+  transparência (quanto entra, para onde vai). O apoiador ganha selo, temas
+  de cor, acesso antecipado e voto no que será feito. Nada de oração a mais.
+- **Extras pagos:** santinhos e convites personalizados (batismo, primeira
+  comunhão, crisma, casamento, aniversário, santo de devoção: o modelo
+  simples é grátis), cursos de formação com texto próprio.
+- **Por último, quando houver como pagar a IA:** áudio (Evangelho narrado,
+  terço guiado com voz, Bíblia narrada).
+- ⚠️ Nada de cobrar intenção de missa ou oração.
+- ⚠️ Regras das lojas: compra dentro do app no iPhone/Android passa pela loja
+  (15% de taxa); doação fora da loja só para entidade sem fins lucrativos.
+
+## Depois
 - iOS na App Store (US$ 99/ano) — até lá o iPhone usa o app instalado pela web.
-- **Áudio com IA:** evangelho do dia, reflexão, terço guiado, Bíblia narrada
-  (gerado uma vez por ciclo).
 - Terço ao vivo com voz.
 - Licenças (CNBB/editoras) para o texto oficial da liturgia.
-- Formalizar como associação sem fins lucrativos; plano para paróquias.
 - Assistente "pergunte sobre a fé" — só com respostas presas a fontes citadas.

@@ -263,8 +263,53 @@ Legenda: ✅ pronto · 🔨 em andamento · ⬜ a fazer · 👤 precisa do dono
 - ⬜ 👤 Conta Google Play e 12 testadores por 14 dias
 - ⬜ Lançamento em Natal e mensagens de divulgação
 
-## Depois, com apoio
-Página "Apoie" (PIX e transparência) · App Store · áudio com IA (evangelho,
-reflexão, terço guiado, Bíblia narrada) · terço com voz · licenças (CNBB,
-editoras) · associação sem fins lucrativos · plano para paróquias · outras
-dioceses.
+### Leva 18. A sua igreja viva ⬜
+O diferencial do app (pedido do dono, 11/11/2026).
+- ⬜ "Sou da equipe desta paróquia": pedido de controle com cargo e contato
+  institucional, fila no Painel, aprovação vira gestor (mais de um por paróquia)
+- ⬜ Mural da paróquia: avisos, fotos e eventos publicados pela equipe
+- ⬜ Seguir várias igrejas; "Minhas igrejas" na tela Hoje com o que há de novo
+- ⬜ Notificação aos seguidores a cada publicação (no site instalado, pela
+  mesma estrutura dos lembretes; no app de loja precisa de notificação remota:
+  Firebase, grátis, e a chave da Apple)
+- ⬜ Eventos com data e lembrete (festa do padroeiro, novenário, procissão,
+  quermesse, romaria), também na busca de Missas
+- ⬜ Instagram no mural: a paróquia conecta a conta profissional do Instagram
+  e os posts do feed entram sozinhos, com notificação
+- ⬜ 👤 Para o Instagram: conta de desenvolvedor na Meta, app revisado pela Meta
+  (pede domínio e política de privacidade publicados)
+- ⬜ 👤 Para as fotos: o armazenamento grátis do Supabase é 1 GB (fotos
+  reduzidas no celular antes de subir, como já fazemos no versículo)
+
+### Leva 19. Plano para paróquias ⬜
+- ⬜ O que é grátis e o que é do plano (proposta: página, horários e avisos
+  de texto grátis; mural com fotos, notificação, eventos com inscrição e PIX
+  no plano)
+- ⬜ Inscrições: batismo, crisma, curso de noivos, catequese (formulário e
+  lista para a secretaria)
+- ⬜ Oferta e dízimo por PIX direto na conta da paróquia (o app não toca no dinheiro)
+- ⬜ Números para a paróquia: seguidores, alcance dos avisos
+- ⬜ Paróquias pioneiras de graça (o dono escolhe quais)
+- ⬜ Cobrança pelo site (assinatura mensal) com Asaas ou Mercado Pago
+- ⬜ 👤 Preço do plano, CNPJ ou associação para receber, conta no meio de pagamento
+
+### Leva 20. Apoiadores ⬜
+- ⬜ Página "Apoie" com transparência (custos do mês, quanto entrou, para onde foi)
+- ⬜ Avulso por PIX (QR e copia e cola), sem custo de taxa
+- ⬜ Mensal (assinatura), quando houver CNPJ ou associação
+- ⬜ Selo de apoiador, temas de cor, acesso antecipado, voto no próximo recurso
+- ⬜ Nas lojas: até haver associação, "Apoie" aparece só no site e no app
+  instalado pelo navegador (regra da Apple e do Google)
+- ⬜ 👤 Chave PIX e associação sem fins lucrativos
+
+### Leva 21. Extras ⬜
+- ⬜ Santinhos e convites personalizados (batismo, primeira comunhão, crisma,
+  casamento, aniversário, santo de devoção): modelo simples grátis, especiais pagos
+- ⬜ Cursos de formação com texto próprio revisado: catequese de adultos,
+  preparação para a crisma, rezar com a Bíblia, a missa explicada
+- ⬜ Áudio por último, quando der para pagar a IA: Evangelho narrado, terço
+  guiado com voz, Bíblia narrada
+
+## Depois
+App Store (US$ 99 por ano) · terço com voz · licenças (CNBB, editoras) ·
+outras dioceses.
