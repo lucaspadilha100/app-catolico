@@ -73,7 +73,7 @@ function ItemDeTerco({ t }: { t: Terco }) {
   return (
     <Link to={`/tercos/${t.id}`} className={`${LINHA} min-h-16`}>
       <span className="min-w-0 flex-1">
-        <span className="block font-leitura text-[1.05rem] font-medium leading-snug text-marca">{t.nome}</span>
+        <span className="block text-[1.0625rem] font-semibold leading-snug text-tinta">{t.nome}</span>
         <span className="block text-sm text-tinta-suave">
           {[quandoDoTerco(t), t.bairro || t.cidade, t.situacao === "pendente" && "aguardando revisão", t.situacao === "recusado" && "não aprovado"].filter(Boolean).join(" · ")}
         </span>
@@ -754,7 +754,7 @@ export function EditarEncontro() {
           <Cartao key={i} className="flex flex-col gap-3">
             <div>
               <p className="text-xs font-semibold uppercase tracking-wide text-destaque-texto">{nomeDoMisterio(form.misterios, i)}</p>
-              <p className="font-leitura text-lg text-marca">{nome}</p>
+              <p className="text-lg text-tinta font-semibold">{nome}</p>
             </div>
             <Rotulo texto="Quem conduz">
               <input value={form.dezenas[i]!.conduz} onChange={(e) => mudarDezena(i, { conduz: e.target.value })} maxLength={80} className={CAMPO} />

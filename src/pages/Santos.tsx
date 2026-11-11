@@ -43,7 +43,7 @@ export function ItemDeSanto({ s }: { s: Santo }) {
         <span className="simbolo size-12 shrink-0 rounded-lg bg-marca-fundo text-marca/40" aria-hidden />
       )}
       <span className="min-w-0 flex-1">
-        <span className="block font-leitura text-[1.05rem] font-medium leading-snug text-marca">{s.nome}</span>
+        <span className="block text-[1.0625rem] font-semibold leading-snug text-tinta">{s.nome}</span>
         <span className="block text-sm text-tinta-suave">{linhaDoSanto(s)}</span>
       </span>
       <ChevronRight className="size-5 shrink-0 text-tinta-suave" aria-hidden />
@@ -132,7 +132,7 @@ export function Santos() {
           </div>
           <Lista titulo="Meus santos" santos={todos.filter((s) => devocao.includes(s.id)).sort(porNome)} />
           <section className="flex flex-col gap-2">
-            <h2 className="px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto">Conhecer</h2>
+            <h2 className="titulo-secao px-1">Conhecer</h2>
             <div className={LISTA}>
             {Object.keys(NOME_DO_GRUPO)
               .filter((g) => todos.some((s) => s.grupo === g))

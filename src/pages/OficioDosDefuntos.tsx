@@ -36,7 +36,7 @@ export default function OficioDosDefuntos() {
               className="flex min-h-16 items-center gap-3 rounded-xl border border-borda bg-cartao px-4 py-3 transition-colors hover:border-destaque-texto/40"
             >
               <span className="min-w-0 flex-1">
-                <span className="block font-leitura text-[1.05rem] font-medium text-marca">{h.nome}</span>
+                <span className="block text-[1.0625rem] font-semibold text-tinta">{h.nome}</span>
                 <span className="block text-sm italic text-tinta-suave">{h.latim}</span>
               </span>
               <ChevronRight className="size-5 shrink-0 text-tinta-suave" aria-hidden />

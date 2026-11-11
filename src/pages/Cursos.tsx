@@ -27,7 +27,7 @@ export function Cursos() {
         {CURSOS.map((c) => (
           <Link key={c.id} to={`/cursos/${c.id}`} className={`${LINHA} min-h-16`}>
             <span className="min-w-0 flex-1">
-              <span className="block font-leitura text-[1.05rem] font-medium text-marca">{c.nome}</span>
+              <span className="block text-[1.0625rem] font-semibold text-tinta">{c.nome}</span>
               <span className="block text-sm text-tinta-suave">{c.resumo}</span>
               <span className="block text-sm font-medium text-destaque-texto">{andamento(c)}</span>
             </span>

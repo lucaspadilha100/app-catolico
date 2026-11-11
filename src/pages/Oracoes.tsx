@@ -23,7 +23,7 @@ function ItemDeOracao({ o }: { o: Oracao }) {
       className={LINHA}
     >
       <span className="min-w-0 flex-1">
-        <span className="block font-leitura text-[1.05rem] font-medium text-marca">{o.nome}</span>
+        <span className="block text-[1.0625rem] font-semibold text-tinta">{o.nome}</span>
         {o.latim && <span className="block text-sm italic text-tinta-suave">{o.latim}</span>}
       </span>
       <ChevronRight className="size-5 shrink-0 text-tinta-suave" aria-hidden />

@@ -63,7 +63,7 @@ export default function Turma() {
       {!d.encontros.length && <p className="text-tinta-suave">Nenhum encontro marcado ainda.</p>}
       {proximos.length > 0 && (
         <section className="flex flex-col gap-2">
-          <h2 className="px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto">Próximos encontros</h2>
+          <h2 className="titulo-secao px-1">Próximos encontros</h2>
           <ul className="flex flex-col divide-y divide-borda overflow-hidden rounded-3xl bg-cartao">
             {proximos.map((e) => (
               <Encontro key={e.id} e={e} passou={false} />
@@ -73,7 +73,7 @@ export default function Turma() {
       )}
       {passados.length > 0 && (
         <section className="flex flex-col gap-2">
-          <h2 className="px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto">Encontros que passaram</h2>
+          <h2 className="titulo-secao px-1">Encontros que passaram</h2>
           <ul className="flex flex-col divide-y divide-borda overflow-hidden rounded-3xl bg-cartao">
             {passados.map((e) => (
               <Encontro key={e.id} e={e} passou />

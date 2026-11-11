@@ -37,7 +37,7 @@ export function Desafios() {
             className={`${LINHA} min-h-16`}
           >
             <span className="min-w-0 flex-1">
-              <span className="block font-leitura text-[1.05rem] font-medium text-marca">{x.nome}</span>
+              <span className="block text-[1.0625rem] font-semibold text-tinta">{x.nome}</span>
               <span className="block text-sm text-tinta-suave">{quando(x)}</span>
             </span>
             <ChevronRight className="size-5 shrink-0 text-tinta-suave" aria-hidden />

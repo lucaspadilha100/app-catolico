@@ -58,7 +58,7 @@ export default function Oficio() {
               }`}
             >
               <span className="min-w-0 flex-1">
-                <span className="block font-leitura text-[1.05rem] font-medium text-marca">{h.nome}</span>
+                <span className="block text-[1.0625rem] font-semibold text-tinta">{h.nome}</span>
                 <span className="block text-sm italic text-tinta-suave">{h.latim}</span>
               </span>
               {h.id === agora && <span className="text-xs font-semibold uppercase tracking-wide text-destaque-texto">Agora</span>}

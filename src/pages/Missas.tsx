@@ -127,7 +127,7 @@ function ItemDeParoquia({ p }: { p: ParoquiaResumo }) {
   return (
     <Link to={`/missas/paroquia/${p.id}`} className={`${LINHA} min-h-16`}>
       <span className="min-w-0 flex-1">
-        <span className="flex items-center gap-1.5 font-leitura text-[1.05rem] font-medium leading-snug text-marca">
+        <span className="flex items-center gap-1.5 text-[1.0625rem] font-semibold leading-snug text-tinta">
           {p.nome}
           {p.verificada && <BadgeCheck className="size-4 shrink-0 text-destaque-texto" aria-label="Verificada" />}
         </span>
@@ -212,7 +212,7 @@ function PorHorario({ itens, agora, base = "/missas/paroquia/" }: { itens: ItemD
                       {quanto && <span className="text-xs text-tinta-suave">{quanto}</span>}
                     </span>
                     <span className="min-w-0 flex-1">
-                      <span className="block font-leitura leading-snug text-marca">{i.nome}</span>
+                      <span className="block leading-snug text-tinta font-semibold">{i.nome}</span>
                       <span className="block text-sm text-tinta-suave">{[i.bairro, km(i.distancia_km), i.observacao].filter(Boolean).join(" · ")}</span>
                     </span>
                     <ChevronRight className="size-5 shrink-0 text-tinta-suave" aria-hidden />
@@ -234,7 +234,7 @@ function PorIgreja({ igrejas, agora, comDia }: { igrejas: IgrejaComHorarios[]; a
         <li key={p.paroquia_id}>
           <Link to={`/missas/paroquia/${p.paroquia_id}`} className="flex min-h-16 items-center gap-3 px-4 py-3">
             <span className="min-w-0 flex-1">
-              <span className="block font-leitura leading-snug text-marca">{p.nome}</span>
+              <span className="block leading-snug text-tinta font-semibold">{p.nome}</span>
               <span className="block text-sm text-tinta-suave">{[p.bairro, km(p.distancia_km)].filter(Boolean).join(" · ")}</span>
               <span className="mt-1.5 flex flex-wrap gap-1.5">
                 {p.horarios.map((h) => {
@@ -964,7 +964,7 @@ export function ParoquiaPagina() {
 
       {capelas.length > 0 && (
         <section className="flex flex-col gap-2">
-          <h2 className="px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto">{`Capelas e comunidades (${capelas.length})`}</h2>
+          <h2 className="titulo-secao px-1">{`Capelas e comunidades (${capelas.length})`}</h2>
           <div className={LISTA}>
             {capelas.map((c) => (
               <Link key={c.id} to={`/missas/paroquia/${c.id}`} className={LINHA}>

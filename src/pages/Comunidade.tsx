@@ -100,7 +100,7 @@ function ItemDeIntencao({ i, eu, aoApagar }: { i: Intencao; eu: string | null; a
   const meu = eu === i.autor_id;
   return (
     <li className="flex flex-col gap-3 px-4 py-4">
-      <p className="font-leitura text-lg leading-snug text-marca">{fraseDaIntencao(i.tipo, i.nome)}</p>
+      <p className="text-lg leading-snug text-tinta font-semibold">{fraseDaIntencao(i.tipo, i.nome)}</p>
       {graca && (
         <div className="rounded-xl bg-marca-fundo px-3 py-2">
           <p className="flex items-center gap-1.5 text-sm font-semibold text-destaque-texto">
@@ -225,7 +225,7 @@ function PedirOracao({ grupo, aoPedir }: { grupo?: string; aoPedir: () => void }
           <span className="text-sm font-medium text-tinta-suave">Primeiro nome</span>
           <input value={nome} onChange={(e) => setNome(e.target.value.replace(/\s/g, ""))} maxLength={20} autoComplete="off" className={CAMPO} />
         </label>
-        {valido && <p className="font-leitura text-lg text-marca">{fraseDaIntencao(tipo, limpo.charAt(0).toUpperCase() + limpo.slice(1))}</p>}
+        {valido && <p className="text-lg text-tinta font-semibold">{fraseDaIntencao(tipo, limpo.charAt(0).toUpperCase() + limpo.slice(1))}</p>}
         {estado === "limite" && <p className="text-sm font-medium text-[#a9271f]">Você já tem 3 pedidos abertos. Eles ficam 30 dias.</p>}
         {estado === "erro" && <p className="text-sm font-medium text-[#a9271f]">Não foi possível enviar agora. Tente de novo.</p>}
         <button type="submit" disabled={!valido || estado === "enviando"} className={BOTAO}>
@@ -400,7 +400,7 @@ export function Grupos() {
               <Link key={g.id} to={`/grupos/${g.id}`} className={`${LINHA} min-h-16`}>
                 <Users className="size-5 shrink-0 text-destaque-texto" aria-hidden />
                 <span className="min-w-0 flex-1">
-                  <span className="block font-leitura text-[1.05rem] font-medium text-marca">{g.nome}</span>
+                  <span className="block text-[1.0625rem] font-semibold text-tinta">{g.nome}</span>
                   <span className="block text-sm text-tinta-suave">{NOME_DO_TIPO_DE_GRUPO[g.tipo]}</span>
                 </span>
                 <ChevronRight className="size-5 shrink-0 text-tinta-suave" aria-hidden />

@@ -28,7 +28,7 @@ function Escolha() {
 
   return (
     <div className="flex flex-col gap-3">
-      <h2 className="px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto">Dia da consagração</h2>
+      <h2 className="titulo-secao px-1">Dia da consagração</h2>
       <button
         type="button"
         onClick={() => comecar(d, "")}
@@ -47,7 +47,7 @@ function Escolha() {
             onClick={() => comecar(inicio, f.nome)}
             className="flex min-h-16 flex-col justify-center rounded-xl border border-borda bg-cartao px-4 py-3 text-left transition-colors hover:border-destaque-texto/40"
           >
-            <span className="font-leitura text-[1.05rem] font-medium text-marca">
+            <span className="text-[1.0625rem] font-semibold text-tinta">
               {f.nome}, {diaEMes(f.data)}
             </span>
             <span className="text-sm text-tinta-suave">{faltam === 0 ? "Começa hoje" : `Começa em ${diaEMes(inicio, d)}`}</span>

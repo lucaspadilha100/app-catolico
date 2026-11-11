@@ -157,7 +157,7 @@ function PassoParoquia({ onde, terminar }: { onde: Cidade | "perto" | null; term
               }}
               className="flex min-h-14 flex-col justify-center px-4 py-2 text-left"
             >
-              <span className="font-leitura font-medium leading-snug text-marca">{p.nome}</span>
+              <span className="font-semibold leading-snug text-tinta">{p.nome}</span>
               <span className="text-sm text-tinta-suave">{[p.bairro, p.cidade].filter(Boolean).join(" · ")}</span>
             </button>
           ))}

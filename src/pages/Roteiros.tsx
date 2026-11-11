@@ -872,7 +872,7 @@ export function Roteiros() {
                   {lista.map((r) => (
                     <li key={r.id} className="flex items-center gap-1 pr-1">
                       <Link to={`/r/${r.codigo}`} className="flex min-h-16 min-w-0 flex-1 flex-col justify-center px-4 py-2">
-                        <span className="flex items-center gap-2 font-leitura text-[1.05rem] font-medium text-marca">
+                        <span className="flex items-center gap-2 text-[1.0625rem] font-semibold text-tinta">
                           {r.ao_vivo && <Radio className="size-4 shrink-0 text-destaque-texto" aria-label="Ao vivo" />}
                           <span className="truncate">{r.titulo}</span>
                         </span>

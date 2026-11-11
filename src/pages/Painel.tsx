@@ -97,7 +97,7 @@ function Moderacao() {
   if (!lista?.length) return null;
   return (
     <section className="flex flex-col gap-2">
-      <h2 className="px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto">Intenções escondidas por denúncias ({lista.length})</h2>
+      <h2 className="titulo-secao px-1">Intenções escondidas por denúncias ({lista.length})</h2>
       {lista.map((i) => (
         <Cartao key={i.id} className="flex flex-col gap-3 p-4">
           <span className="font-medium text-tinta">{fraseDaIntencao(i.tipo, i.nome)}</span>
@@ -176,7 +176,7 @@ function PedidosDeGestao() {
   if (!lista?.length) return null;
   return (
     <section className="flex flex-col gap-2">
-      <h2 className="px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto">Equipes pedindo a página ({lista.length})</h2>
+      <h2 className="titulo-secao px-1">Equipes pedindo a página ({lista.length})</h2>
       {lista.map((g) => (
         <Cartao key={g.id} className="flex flex-col gap-3 p-4">
           <Link to={`/missas/paroquia/${g.paroquia_id}`} className="font-medium text-tinta">
@@ -214,7 +214,7 @@ function TercosParaRevisar() {
   if (!lista?.length) return null;
   return (
     <section className="flex flex-col gap-2">
-      <h2 className="px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto">Terços para revisar ({lista.length})</h2>
+      <h2 className="titulo-secao px-1">Terços para revisar ({lista.length})</h2>
       {lista.map((t) => (
         <Cartao key={t.id} className="flex flex-col gap-3 p-4">
           <Link to={`/tercos/${t.id}`} className="flex flex-col">
@@ -252,7 +252,7 @@ function Sugestoes() {
   if (lista === null) return <Carregando />;
   return (
     <section className="flex flex-col gap-2">
-      <h2 className="px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto">Sugestões ({lista.length})</h2>
+      <h2 className="titulo-secao px-1">Sugestões ({lista.length})</h2>
       {lista.map((s) => (
         <Cartao key={s.id} className="flex flex-col gap-2">
           <p className="text-sm text-tinta-suave">
@@ -329,7 +329,7 @@ function ListaDoPainel() {
   }
   return (
     <section className="flex flex-col gap-2">
-      <h2 className="px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto">Paróquias</h2>
+      <h2 className="titulo-secao px-1">Paróquias</h2>
       <div className="flex flex-wrap gap-2" role="group">
         {(
           [
@@ -398,7 +398,7 @@ export function Painel() {
         <>
           {acesso.minhas.length > 0 && (
             <section className="flex flex-col gap-2">
-              <h2 className="px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto">Minhas paróquias</h2>
+              <h2 className="titulo-secao px-1">Minhas paróquias</h2>
               {acesso.minhas.map((id) => (
                 <Link key={id} to={`/painel/paroquia/${id}`} className="flex min-h-12 items-center justify-between rounded-xl border border-borda bg-cartao px-4">
                   {nomes[id] ?? "Paróquia"}

@@ -72,7 +72,7 @@ export function IntencoesDeMissa({ p, horarios, email }: { p: Paroquia; horarios
 
   return (
     <section id="intencoes" className="flex scroll-mt-24 flex-col gap-3">
-      <h2 className="px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto">Intenções de missa</h2>
+      <h2 className="titulo-secao px-1">Intenções de missa</h2>
       {minhas.length > 0 && (
         <Cartao className="flex flex-col gap-1 p-4">
           {minhas.map((i) => (

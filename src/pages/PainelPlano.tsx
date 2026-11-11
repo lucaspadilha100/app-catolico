@@ -268,7 +268,7 @@ export function PixParaConferirLista() {
   if (!lista?.length) return null;
   return (
     <section className="flex flex-col gap-2">
-      <h2 className="px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto">PIX para conferir ({lista.length})</h2>
+      <h2 className="titulo-secao px-1">PIX para conferir ({lista.length})</h2>
       {lista.map((x) => (
         <Cartao key={x.id} className="flex flex-col gap-3 p-4">
           <Link to={`/painel/paroquia/${x.id}`} className="font-medium text-tinta">
@@ -299,7 +299,7 @@ export function ApoiosParaConferirLista() {
   if (!lista?.length) return null;
   return (
     <section className="flex flex-col gap-2">
-      <h2 className="px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto">Contribuições para conferir ({lista.length})</h2>
+      <h2 className="titulo-secao px-1">Contribuições para conferir ({lista.length})</h2>
       {lista.map((a) => (
         <Cartao key={a.id} className="flex flex-col gap-3 p-4">
           <p className="text-sm text-tinta">
@@ -341,7 +341,7 @@ export function VotacaoNoPainel() {
   useEffect(recarregar, [recarregar]);
   return (
     <section className="flex flex-col gap-2">
-      <h2 className="px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto">Votação dos apoiadores</h2>
+      <h2 className="titulo-secao px-1">Votação dos apoiadores</h2>
       <Cartao className="flex flex-col gap-3 p-4">
         {opcoes.map((o) => (
           <div key={o.id} className="flex items-center gap-2">
