@@ -21,3 +21,47 @@ export function contarAbertura() {
     })
     .catch(() => {});
 }
+
+export type Reza = "terco" | "misericordia" | "agora";
+export type RezandoHoje = Record<Reza, number>;
+
+const CHAVE_REZA = "santinho-reza-contada";
+const banco = () => ({ url: import.meta.env.VITE_SUPABASE_URL as string, chave: import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY as string });
+
+export function contarReza(reza: Reza) {
+  const hoje = new Date().toLocaleDateString("sv-SE");
+  let feitas: Record<string, string> = {};
+  try {
+    feitas = JSON.parse(localStorage.getItem(CHAVE_REZA) ?? "{}") as Record<string, string>;
+    if (feitas[reza] === hoje) return;
+  } catch {
+    return;
+  }
+  const { url, chave } = banco();
+  if (!url || !chave || !navigator.onLine) return;
+  fetch(`${url}/rest/v1/rpc/contar_uso`, {
+    method: "POST",
+    headers: { apikey: chave, "Content-Type": "application/json" },
+    body: JSON.stringify({ p_evento: `reza-${reza}` }),
+    keepalive: true,
+  })
+    .then((r) => {
+      if (!r.ok) return;
+      localStorage.setItem(CHAVE_REZA, JSON.stringify({ ...feitas, [reza]: hoje }));
+      guardado = null;
+    })
+    .catch(() => {});
+}
+
+let guardado: { em: number; valor: Promise<RezandoHoje | null> } | null = null;
+
+export function rezandoHoje(): Promise<RezandoHoje | null> {
+  if (guardado && Date.now() - guardado.em < 5 * 60_000) return guardado.valor;
+  const { url, chave } = banco();
+  if (!url || !chave || !navigator.onLine) return Promise.resolve(null);
+  const valor = fetch(`${url}/rest/v1/rpc/rezando_hoje`, { method: "POST", headers: { apikey: chave, "Content-Type": "application/json" }, body: "{}" })
+    .then((r) => (r.ok ? (r.json() as Promise<RezandoHoje>) : null))
+    .catch(() => null);
+  guardado = { em: Date.now(), valor };
+  return valor;
+}

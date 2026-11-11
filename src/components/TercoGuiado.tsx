@@ -20,6 +20,8 @@ import { Cartao } from "@/components/Cartao";
 import { EscolhaDeLingua, TextoDaOracao, linhasNaLingua } from "@/components/TextoDaOracao";
 import { TextoDaLeitura } from "@/components/TextoBiblico";
 import { vibrar } from "@/lib/nativo";
+import { contarReza } from "@/conta/uso";
+import { RezandoJuntos, rezaDoTipo } from "@/components/RezandoJuntos";
 
 const plural = (n: number) => `${n} ${n === 1 ? "terço rezado" : "terços rezados"}`;
 
@@ -210,6 +212,8 @@ export function TercoGuiado({
     if (!controle) guardarAndamento(chave, null);
     controle?.aoTerminar?.();
     setModoContas(false);
+    const reza = rezaDoTipo(tipo);
+    if (reza) contarReza(reza);
     setConcluido(contarTercoRezado(tipo));
   }, [posicao, total, passos.length, modoContas, chave, tipo, setModoContas, setPosicao, controle]);
 
@@ -247,6 +251,7 @@ export function TercoGuiado({
           <p className="text-tinta-suave">{titulo}</p>
           {intencao && <p className="font-leitura italic text-tinta">Por {intencao}</p>}
           <p className="mt-2 text-sm text-tinta-suave">{plural(concluido)}</p>
+          {rezaDoTipo(tipo) && <RezandoJuntos reza={rezaDoTipo(tipo)!} />}
         </Cartao>
         <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
           <button
@@ -433,6 +438,7 @@ export function InicioDoTerco({
       </button>
 
       {rezados > 0 && <p className="text-center text-sm text-tinta-suave">{plural(rezados)}</p>}
+      {rezaDoTipo(tipo) && <RezandoJuntos reza={rezaDoTipo(tipo)!} />}
     </div>
   );
 }

@@ -9,6 +9,8 @@ import { livroPorCodigo } from "@/biblia/livros";
 import { passosDaMisericordia, passosDoRosario } from "@/oracao/terco";
 import { NOME_DO_MOMENTO, esperaDaResposta, falasDaOracao, falasDosPassos, momentoDaHora, type Fala, type Momento } from "@/voz/falas";
 import { calar, falar, vozDisponivel } from "@/voz/voz";
+import { contarReza } from "@/conta/uso";
+import { RezandoJuntos } from "@/components/RezandoJuntos";
 import { Cabecalho, Carregando, Voltar } from "@/components/Devocao";
 import type { DiaLiturgico } from "@/liturgia/calendario";
 
@@ -95,9 +97,11 @@ export default function RezarAgora() {
       if (!cancelado()) {
         setTocando(false);
         setIndice(falas.length);
+        contarReza("agora");
+        if (momento === "terco" || momento === "misericordia") contarReza(momento);
       }
     },
-    [falas, responder],
+    [falas, responder, momento],
   );
 
   const ir = (i: number) => {
@@ -137,6 +141,7 @@ export default function RezarAgora() {
       ) : terminou ? (
         <div className="flex flex-col items-center gap-4 py-8 text-center">
           <p className="font-leitura text-2xl font-semibold text-marca">Amém.</p>
+          <RezandoJuntos reza={momento === "terco" || momento === "misericordia" ? momento : "agora"} />
           <button type="button" onClick={() => void tocar(0)} className="min-h-12 rounded-xl border border-borda px-6 font-semibold text-tinta">
             Rezar de novo
           </button>

@@ -438,6 +438,6 @@ participa acompanha no celular, ao vivo, pelo link ou pelo QR code.
 - ✅ Cartão da paróquia do fiel: próxima missa, folheto do domingo, eventos,
   último aviso do mural, inscrições abertas e pedir intenção de missa
 
-### Leva 32. Rezando juntos 🔨
-- ⬜ "Hoje, N pessoas rezaram o terço com o app" (contagem anônima do dia), no
+### Leva 32. Rezando juntos ✅
+- ✅ "Hoje, N pessoas rezaram o terço com o app" (contagem anônima do dia), no
   terço, na Misericórdia e no Rezar agora

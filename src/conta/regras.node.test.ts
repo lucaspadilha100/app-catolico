@@ -79,6 +79,15 @@ describe("uso anônimo", () => {
     await expect(como("anon", null, "select * from public.uso_diario")).rejects.toThrow();
     await expect(como("authenticated", A, "select * from public.uso_diario")).rejects.toThrow();
   });
+
+  it("rezando hoje: qualquer um vê só as contagens de reza do dia", async () => {
+    await como("anon", null, "select public.contar_uso('reza-terco')");
+    await como("anon", null, "select public.contar_uso('reza-terco')");
+    await como("authenticated", A, "select public.contar_uso('reza-misericordia')");
+    await db.query("insert into public.uso_diario (dia, evento, contagem) values (current_date - 3, 'reza-terco', 50)");
+    const r = await como("anon", null, "select public.rezando_hoje() as r");
+    expect(r.rows[0]).toEqual({ r: { terco: 2, misericordia: 1, agora: 0 } });
+  });
 });
 
 describe("avisos de erro da Bíblia", () => {
@@ -93,7 +102,7 @@ describe("funções", () => {
     const r = await db.query<{ nome: string }>(`
       select p.proname as nome from pg_proc p join pg_namespace n on n.oid = p.pronamespace
       where n.nspname = 'public' and has_function_privilege('anon', p.oid, 'execute')`);
-    expect(r.rows.map((x) => x.nome).sort()).toEqual(["agenda_de_eventos", "agenda_de_horarios", "agenda_de_tercos", "agenda_perto", "buscar_paroquias", "cidades_com_paroquias", "contar_uso", "corrente_por_codigo", "denunciar_intencao", "e_admin", "horarios_do_periodo", "igrejas_com_horarios", "meus_grupos", "pegar_turno", "procurar_paroquias", "remover_lembretes", "rezei_por", "roteiro_estado", "roteiro_por_codigo", "roteiros_da_paroquia", "roteiros_do_terco", "salvar_lembretes", "sem_acento", "soltar_turno", "somar_na_campanha", "turmas_da_paroquia"]);
+    expect(r.rows.map((x) => x.nome).sort()).toEqual(["agenda_de_eventos", "agenda_de_horarios", "agenda_de_tercos", "agenda_perto", "buscar_paroquias", "cidades_com_paroquias", "contar_uso", "corrente_por_codigo", "denunciar_intencao", "e_admin", "horarios_do_periodo", "igrejas_com_horarios", "meus_grupos", "pegar_turno", "procurar_paroquias", "remover_lembretes", "rezando_hoje", "rezei_por", "roteiro_estado", "roteiro_por_codigo", "roteiros_da_paroquia", "roteiros_do_terco", "salvar_lembretes", "sem_acento", "soltar_turno", "somar_na_campanha", "turmas_da_paroquia"]);
   });
 
   it("toda função definer fixa o search_path", async () => {
