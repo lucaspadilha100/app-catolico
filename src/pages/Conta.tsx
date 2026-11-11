@@ -1,6 +1,9 @@
 import { useState, type FormEvent } from "react";
 import { Link } from "react-router-dom";
-import { Cloud, CloudOff, LogOut, RefreshCw, Trash2 } from "lucide-react";
+import { BadgeCheck, Cloud, CloudOff, LogOut, RefreshCw, Trash2 } from "lucide-react";
+import { useApoiador } from "@/apoio/api";
+import { ehApoiador } from "@/lib/preferencias";
+import { dataCurta } from "@/paroquias/plano";
 import { useConta } from "@/conta/useConta";
 import { ATUALIZADO_EM, CONTATO, PRIVACIDADE, TERMOS, type Secao } from "@/conta/textos";
 import { Cartao } from "@/components/Cartao";
@@ -140,6 +143,7 @@ function Entrar() {
 
 function Logado() {
   const { email, estado, ultima, sincronizarAgora, sair, apagarConta } = useConta();
+  const apoiadorAte = useApoiador();
   const [erro, setErro] = useState("");
 
   async function apagar() {
@@ -153,6 +157,11 @@ function Logado() {
       <Cartao>
         <p className="text-sm text-tinta-suave">Conectado como</p>
         <p className="mt-1 break-all font-semibold text-marca">{email}</p>
+        {ehApoiador({ apoiadorAte }) && (
+          <Link to="/apoie" className="mt-3 flex w-fit items-center gap-1.5 rounded-full bg-marca-fundo px-3 py-1 text-sm font-medium text-destaque-texto">
+            <BadgeCheck className="size-4" aria-hidden /> Apoiador até {dataCurta(apoiadorAte)}
+          </Link>
+        )}
         <p className="mt-3 flex items-center gap-2 text-sm text-tinta-suave">
           {estado === "erro" ? <CloudOff className="size-4" aria-hidden /> : <Cloud className="size-4" aria-hidden />}
           {estado === "sincronizando" ? "Sincronizando" : estado === "erro" ? "Sem conexão com a nuvem" : ultima ? `Sincronizado às ${horas(ultima)}` : ""}

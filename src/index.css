@@ -66,10 +66,20 @@
   --destaque-texto: #e2c06a;
 }
 
-:root {
-  --dia: var(--destaque);
-  --sobre-dia: var(--sobre-destaque);
+:root,
+:root[data-cor="verde"] {
+  --dia: #2e7a4d;
+  --sobre-dia: #ffffff;
   --borda-dia: transparent;
+}
+:root[data-cor="roxo"] {
+  --dia: #64398f;
+}
+:root[data-cor="rosa"] {
+  --dia: #b4507a;
+}
+:root[data-cor="vermelho"] {
+  --dia: #a9271f;
 }
 :root[data-cor="branco"] {
   --dia: #fbf3df;
@@ -80,6 +90,31 @@
   --dia: #2a2216;
   --sobre-dia: #f3e9da;
   --borda-dia: #8a6a22;
+}
+
+:root[data-destaque="mariano"] {
+  --destaque: #2f5d8a;
+  --sobre-destaque: #ffffff;
+  --destaque-texto: #2f5d8a;
+}
+:root[data-destaque="terra"] {
+  --destaque: #7a4a26;
+  --sobre-destaque: #ffffff;
+  --destaque-texto: #7a4a26;
+}
+:root[data-destaque="dourado"] {
+  --destaque: #c9a13b;
+  --sobre-destaque: #2b1a0c;
+  --destaque-texto: #8a6714;
+}
+:root[data-tema="escuro"][data-destaque="mariano"] {
+  --destaque-texto: #8fb5e0;
+}
+:root[data-tema="escuro"][data-destaque="terra"] {
+  --destaque-texto: #d9a77c;
+}
+:root[data-tema="escuro"][data-destaque="dourado"] {
+  --destaque-texto: #e2c06a;
 }
 
 @theme inline {

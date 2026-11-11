@@ -1,9 +1,9 @@
-import { useEffect, useMemo, useState, type FormEvent } from "react";
+import { useEffect, useState, type FormEvent } from "react";
 import { Link, useSearchParams } from "react-router-dom";
-import { Check, ClipboardList, Copy, HandHeart } from "lucide-react";
-import { renderSVG } from "uqr";
+import { ClipboardList, HandHeart } from "lucide-react";
 import type { Paroquia } from "@/paroquias/tipos";
-import { codigoPix, textoDoPix } from "@/paroquias/pix";
+import { textoDoPix } from "@/paroquias/pix";
+import { Pix } from "@/components/Pix";
 import { COM_RESPONSAVEL, NOME_DA_TURMA, dataCurta, inscrever, minhasInscricoes, mudarSituacao, turmasDaParoquia, type Inscricao, type SituacaoDaInscricao, type Turma } from "@/paroquias/plano";
 import { ehNativo } from "@/lib/nativo";
 import { ENDERECO_DO_SITE } from "@/marca";
@@ -176,15 +176,6 @@ export function temOferta(p: Paroquia): boolean {
 export function Oferta({ p }: { p: Paroquia }) {
   const [params] = useSearchParams();
   const [aberto, setAberto] = useState(params.has("oferta"));
-  const [valor, setValor] = useState("");
-  const [copiado, setCopiado] = useState<"" | "codigo" | "chave">("");
-  const numero = Number(valor.replace(/\./g, "").replace(",", "."));
-  const recebedor = textoDoPix(p.pix_nome || p.nome, 25);
-  const codigo = useMemo(
-    () => codigoPix({ chave: p.pix_chave, nome: recebedor, cidade: p.pix_cidade || p.cidade, valor: Number.isFinite(numero) && numero > 0 ? Math.min(numero, 99999) : null }),
-    [p.pix_chave, recebedor, p.pix_cidade, p.cidade, numero],
-  );
-  const qr = useMemo(() => (aberto ? renderSVG(codigo, { border: 2 }) : ""), [aberto, codigo]);
 
   if (!temOferta(p)) return null;
 
@@ -195,14 +186,6 @@ export function Oferta({ p }: { p: Paroquia }) {
       </a>
     );
 
-  async function copiar(texto: string, qual: "codigo" | "chave") {
-    try {
-      await navigator.clipboard.writeText(texto);
-      setCopiado(qual);
-      setTimeout(() => setCopiado(""), 2500);
-    } catch {}
-  }
-
   if (!aberto)
     return (
       <button type="button" onClick={() => setAberto(true)} className={BOTAO_CLARO}>
@@ -210,29 +193,11 @@ export function Oferta({ p }: { p: Paroquia }) {
       </button>
     );
 
+  const recebedor = textoDoPix(p.pix_nome || p.nome, 25);
   return (
-    <Cartao className="flex flex-col items-center gap-4 p-4">
-      <p className="self-start font-medium text-tinta">Oferta e dízimo</p>
-      <label className="flex w-full flex-col gap-1">
-        <span className="text-sm text-tinta-suave">Valor</span>
-        <input value={valor} onChange={(e) => setValor(e.target.value.replace(/[^\d.,]/g, ""))} inputMode="decimal" placeholder="R$ 0,00" className={CAMPO} />
-      </label>
-      <div className="w-full max-w-60 overflow-hidden rounded-xl bg-white" role="img" aria-label="QR Code do PIX" dangerouslySetInnerHTML={{ __html: qr }} />
-      <button type="button" onClick={() => void copiar(codigo, "codigo")} className={`${BOTAO} w-full`}>
-        {copiado === "codigo" ? <Check className="size-5" aria-hidden /> : <Copy className="size-5" aria-hidden />}
-        {copiado === "codigo" ? "Copiado" : "Copiar código PIX"}
-      </button>
-      <dl className="grid w-full grid-cols-[auto_1fr] gap-x-3 gap-y-1 text-sm">
-        <dt className="text-tinta-suave">Recebedor</dt>
-        <dd className="text-tinta">{recebedor}</dd>
-        <dt className="text-tinta-suave">Chave</dt>
-        <dd className="flex items-center gap-2 break-all text-tinta">
-          {p.pix_chave}
-          <button type="button" onClick={() => void copiar(p.pix_chave, "chave")} aria-label="Copiar chave" className="grid size-9 shrink-0 place-items-center rounded-full text-tinta-suave hover:bg-marca-fundo">
-            {copiado === "chave" ? <Check className="size-4" aria-hidden /> : <Copy className="size-4" aria-hidden />}
-          </button>
-        </dd>
-      </dl>
+    <Cartao className="flex flex-col gap-4 p-4">
+      <p className="font-medium text-tinta">Oferta e dízimo</p>
+      <Pix chave={p.pix_chave} nome={recebedor} cidade={p.pix_cidade || p.cidade} recebedor={recebedor} />
     </Cartao>
   );
 }

@@ -2,6 +2,7 @@ import { createContext, useCallback, useContext, useEffect, useState, type React
 
 export type Tema = "sistema" | "claro" | "escuro";
 export type Letra = "normal" | "grande" | "maior";
+export type CorDoApp = "liturgica" | "mariano" | "terra" | "dourado";
 
 export interface Preferencias {
   tema: Tema;
@@ -14,10 +15,12 @@ export interface Preferencias {
   cidadeDasMissas: string;
   cidadesRecentes: string[];
   boasVindas: boolean;
+  apoiadorAte: string;
+  corDoApp: CorDoApp;
 }
 
 const CHAVE = "santinho-preferencias";
-const PADRAO: Preferencias = { tema: "sistema", letra: "normal", simples: false, diocese: "", batismo: "", minhaParoquia: "", minhaParoquiaNome: "", cidadeDasMissas: "", cidadesRecentes: [], boasVindas: false };
+const PADRAO: Preferencias = { tema: "sistema", letra: "normal", simples: false, diocese: "", batismo: "", minhaParoquia: "", minhaParoquiaNome: "", cidadeDasMissas: "", cidadesRecentes: [], boasVindas: false, apoiadorAte: "", corDoApp: "liturgica" };
 
 function ler(): Preferencias {
   try {
@@ -27,6 +30,10 @@ function ler(): Preferencias {
   }
 }
 
+export function ehApoiador(p: Pick<Preferencias, "apoiadorAte">): boolean {
+  return !!p.apoiadorAte && p.apoiadorAte >= new Date().toLocaleDateString("sv-SE");
+}
+
 function aplicar(p: Preferencias) {
   const r = document.documentElement;
   const escuro = p.tema === "escuro" || (p.tema === "sistema" && matchMedia("(prefers-color-scheme: dark)").matches);
@@ -34,6 +41,8 @@ function aplicar(p: Preferencias) {
   r.dataset.letra = p.letra;
   if (p.simples) r.dataset.simples = "1";
   else delete r.dataset.simples;
+  if (p.corDoApp !== "liturgica" && ehApoiador(p)) r.dataset.destaque = p.corDoApp;
+  else delete r.dataset.destaque;
 }
 
 interface Contexto {

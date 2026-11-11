@@ -307,18 +307,25 @@ O diferencial do app (pedido do dono, 11/11/2026).
 - ⬜ Cobrança pelo site (assinatura mensal) com Asaas ou Mercado Pago
 - ⬜ 👤 Preço do plano, CNPJ ou associação para receber, conta no meio de pagamento
 
-### Leva 20. Apoiadores ⬜
+### Leva 20. Apoiadores ✅ (o mensal depende do dono 👤)
 Decisão do dono (11/11/2026): sem mostrar quanto foi arrecadado nem prestação
 de contas na tela. O foco é ajudar as pessoas e propagar o Evangelho; se o app
 der dinheiro, não é ruim, só não é o foco.
-- ⬜ Página "Apoie" organizada: por que apoiar (manter o app gratuito, sem
-  anúncios, e ajudar as paróquias), as formas de apoiar e o que o apoiador ganha
-- ⬜ Avulso por PIX (QR e copia e cola), sem taxa
+- ✅ Página "Apoie" (Mais → Apoie o app): por que apoiar, formas de apoiar
+  (rezar, indicar, PIX) e o que quem contribui recebe
+- ✅ Avulso por PIX (QR e copia e cola, valores de R$ 10 a 100 ou outro),
+  chave do dono (`PIX_DO_APP` em `src/marca.ts`)
+- ✅ "Já contribuí": a pessoa com conta avisa nome do PIX, valor e data; o dono
+  confere no extrato e confirma no Painel ("Contribuições para conferir"); vira
+  apoiador por um ano (cada nova contribuição soma mais um ano)
+- ✅ Selo de apoiador (na Conta e na página Apoie) e cor do app à escolha
+  (Cor do dia, Azul mariano, Terra, Dourado); o cartão do dia na Hoje segue
+  sempre a cor litúrgica
+- ✅ Nas lojas: "Apoie" não aparece no app nativo (regra da Apple e do Google)
+- ⬜ Acesso antecipado e voto no próximo recurso
 - ⬜ Mensal (assinatura), quando houver CNPJ ou associação
-- ⬜ Selo de apoiador, temas de cor, acesso antecipado, voto no próximo recurso
-- ⬜ Nas lojas: até haver associação, "Apoie" aparece só no site e no app
-  instalado pelo navegador (regra da Apple e do Google)
-- ⬜ 👤 Chave PIX e, para o mensal, CNPJ ou associação sem fins lucrativos
+- ⬜ 👤 Conferir no extrato cada "Já contribuí" antes de confirmar
+- ⬜ 👤 Para o mensal: CNPJ ou associação sem fins lucrativos
 
 ### Leva 21. Extras ⬜
 - ⬜ Santinhos e convites personalizados (batismo, primeira comunhão, crisma,

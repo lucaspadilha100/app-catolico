@@ -85,6 +85,13 @@ configurado desde o início) · **Supabase** plano gratuito (projeto
   PIX (BR Code) sai de `src/paroquias/pix.ts`, testado com o exemplo do Banco
   Central. `numeros_da_paroquia` só para a equipe; `publicacoes_paroquia.alcance`
   quem grava é a função `lembretes`.
+- **Apoiadores** (migração 20261125000000): `apoios_avisados` (a pessoa com
+  conta avisa que contribuiu; no máximo 3 esperando) e `apoiadores` (ninguém
+  escreve direto: só `revisar_apoio`, do admin, que soma um ano). O selo vai
+  para `preferencias.apoiadorAte` (`useApoiador`), e a cor escolhida
+  (`corDoApp`) só vale com ele em dia: `data-destaque` no `<html>`, que troca o
+  `--destaque` mas não o `--dia` (a cor litúrgica). "Apoie" não aparece no
+  app nativo. Nenhuma tela mostra quanto foi arrecadado (decisão do dono).
 
 ## Acabamento profissional (pedido do dono, 10/11/2026)
 - **Sem cara de IA.** Código sem comentários explicativos (só o raro que evita

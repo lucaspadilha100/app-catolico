@@ -1,10 +1,11 @@
 import { useState, type ReactNode } from "react";
-import { Bell, CalendarDays, Church, FileText, Heart, LayoutDashboard, NotebookPen, Share2, ShieldCheck, Sparkles, UserRound } from "lucide-react";
-import { usePreferencias, type Letra, type Tema } from "@/lib/preferencias";
+import { Bell, CalendarDays, Church, FileText, HandHeart, Heart, LayoutDashboard, NotebookPen, Share2, ShieldCheck, Sparkles, UserRound } from "lucide-react";
+import { ehApoiador, usePreferencias, type CorDoApp, type Letra, type Tema } from "@/lib/preferencias";
 import { Cartao, Grupo, ItemLista, LINHA, TituloPagina } from "@/components/Cartao";
 import { DIOCESES } from "@/liturgia/dioceses";
 import { NOME_DO_APP } from "@/marca";
-import { compartilhar, enderecoPublico } from "@/lib/nativo";
+import { compartilhar, ehNativo, enderecoPublico } from "@/lib/nativo";
+import { useApoiador } from "@/apoio/api";
 import { useConta } from "@/conta/useConta";
 import { useTemPainel } from "@/pages/Painel";
 
@@ -22,7 +23,7 @@ function Escolha<T extends string>({
   return (
     <fieldset>
       <legend className="mb-2 font-medium">{rotulo}</legend>
-      <div className="grid grid-cols-3 gap-2">
+      <div className={`grid gap-2 ${opcoes.length === 4 ? "grid-cols-2" : "grid-cols-3"}`}>
         {opcoes.map((o) => (
           <button
             key={o.valor}
@@ -86,6 +87,7 @@ export default function Mais() {
   const { preferencias: p, mudar } = usePreferencias();
   const { pronto, email } = useConta();
   const temPainel = useTemPainel();
+  useApoiador();
 
   return (
     <div>
@@ -120,6 +122,19 @@ export default function Mais() {
                 { valor: "escuro", nome: "Escura" },
               ]}
             />
+            {ehApoiador(p) && (
+              <Escolha<CorDoApp>
+                rotulo="Cor do app"
+                valor={p.corDoApp}
+                onChange={(corDoApp) => mudar({ corDoApp })}
+                opcoes={[
+                  { valor: "liturgica", nome: "Cor do dia" },
+                  { valor: "mariano", nome: "Azul mariano" },
+                  { valor: "terra", nome: "Terra" },
+                  { valor: "dourado", nome: "Dourado" },
+                ]}
+              />
+            )}
             <Escolha<Letra>
               rotulo="Tamanho da letra"
               valor={p.letra}
@@ -157,6 +172,7 @@ export default function Mais() {
         <Grupo titulo="Ajudar">
           <ItemLista icone={Church} titulo="Sugerir paróquia" para="/missas/sugerir" />
           <Compartilhar />
+          {!ehNativo() && <ItemLista icone={HandHeart} titulo="Apoie o app" para="/apoie" />}
         </Grupo>
 
         <Grupo titulo="Sobre">

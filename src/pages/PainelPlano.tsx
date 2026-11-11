@@ -27,6 +27,7 @@ import { NOME_DA_SITUACAO, detalhesDaTurma } from "@/components/PlanoDaParoquia"
 import { Cartao } from "@/components/Cartao";
 import { Cabecalho, Carregando, Voltar } from "@/components/Devocao";
 import { compartilhar } from "@/lib/nativo";
+import { apoiosParaConferir, revisarApoio, type ApoioParaConferir } from "@/apoio/api";
 
 const CAMPO = "min-h-12 w-full rounded-xl border border-borda bg-papel px-3 text-base";
 const BOTAO = "min-h-12 rounded-xl bg-destaque px-4 font-semibold text-sobre-destaque disabled:opacity-50";
@@ -272,6 +273,47 @@ export function PixParaConferirLista() {
           <button type="button" onClick={() => void salvarPix(x.id, { pix_chave: x.pix_chave, pix_nome: x.pix_nome, pix_cidade: x.pix_cidade, pix_conferido: true }).then(recarregar)} className={BOTAO}>
             Chave conferida
           </button>
+        </Cartao>
+      ))}
+    </section>
+  );
+}
+
+export function ApoiosParaConferirLista() {
+  const [lista, setLista] = useState<ApoioParaConferir[] | null>(null);
+  const recarregar = useCallback(() => {
+    apoiosParaConferir()
+      .then(setLista)
+      .catch(() => setLista([]));
+  }, []);
+  useEffect(recarregar, [recarregar]);
+  if (!lista?.length) return null;
+  return (
+    <section className="flex flex-col gap-2">
+      <h2 className="px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto">Contribuições para conferir ({lista.length})</h2>
+      {lista.map((a) => (
+        <Cartao key={a.id} className="flex flex-col gap-3 p-4">
+          <p className="text-sm text-tinta">
+            <span className="font-medium">{a.nome_no_pix}</span>
+            <br />
+            {[a.valor ? Number(a.valor).toLocaleString("pt-BR", { style: "currency", currency: "BRL" }) : "", dataCurta(a.pago_em)].filter(Boolean).join(" · ")}
+            <br />
+            Conta: {a.email}
+            {a.apoiador_ate && (
+              <>
+                <br />
+                Apoiador até {dataCurta(a.apoiador_ate)}
+              </>
+            )}
+          </p>
+          <div className="grid grid-cols-2 gap-2">
+            <button type="button" onClick={() => void revisarApoio(a.id, true).then(recarregar)} className={BOTAO}>
+              Confirmar
+            </button>
+            <button type="button" onClick={() => void revisarApoio(a.id, false).then(recarregar)} className={BOTAO_CLARO}>
+              Não encontrei
+            </button>
+          </div>
         </Cartao>
       ))}
     </section>

@@ -16,6 +16,7 @@
         r.dataset.tema = escuro ? "escuro" : "claro";
         r.dataset.letra = p.letra || "normal";
         if (p.simples) r.dataset.simples = "1";
+        if (p.corDoApp && p.corDoApp !== "liturgica" && p.apoiadorAte && p.apoiadorAte >= new Date().toLocaleDateString("sv-SE")) r.dataset.destaque = p.corDoApp;
       } catch (e) {}
     </script>
   </head>

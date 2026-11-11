@@ -31,6 +31,7 @@ const DiarioEspiritual = lazy(() => import("@/pages/Diario"));
 const Conta = lazy(() => import("@/pages/Conta"));
 const Privacidade = lazy(() => import("@/pages/Conta").then((m) => ({ default: m.Privacidade })));
 const Termos = lazy(() => import("@/pages/Conta").then((m) => ({ default: m.Termos })));
+const Apoie = lazy(() => import("@/pages/Apoie"));
 const Mais = lazy(() => import("@/pages/Mais"));
 const Lembretes = lazy(() => import("@/pages/Lembretes"));
 const NaoEncontrada = lazy(() => import("@/pages/Simples").then((m) => ({ default: m.NaoEncontrada })));
@@ -111,6 +112,7 @@ export default function App() {
         <Route path="painel/paroquia/:id/turma/:turma" element={<InscricoesDaTurma />} />
         <Route path="mais" element={<Mais />} />
         <Route path="lembretes" element={<Lembretes />} />
+        <Route path="apoie" element={<Apoie />} />
         <Route path="*" element={<NaoEncontrada />} />
       </Route>
     </Routes>
