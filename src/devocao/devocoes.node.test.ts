@@ -22,9 +22,10 @@ beforeAll(() => {
 const novenas = import.meta.glob<{ default: import("./tipos").ConteudoDaNovena }>("./novenas/*.ts", { eager: true });
 const desafios = import.meta.glob<{ default: import("./tipos").ConteudoDoDesafio }>("./desafios/*.ts", { eager: true });
 const cursos = import.meta.glob<{ default: import("./tipos").ConteudoDoDesafio }>("./cursos/*.ts", { eager: true });
-const avulsos = import.meta.glob<{ default: unknown }>(["./consagracao.ts", "./via-sacra.ts", "./semana-santa.ts", "./oficio.ts"], {
-  eager: true,
-});
+const avulsos = import.meta.glob<{ default: unknown }>(
+  ["./consagracao.ts", "./via-sacra.ts", "./semana-santa.ts", "./oficio.ts", "./oficio-dos-defuntos.ts"],
+  { eager: true },
+);
 
 const ROTAS = [
   /^liturgia$/,
@@ -211,6 +212,61 @@ describe("consagração, Via-Sacra, Semana Santa e Ofício", () => {
     expect(antifonas(blocosDaHora(c, vesperas, "advento", 0))[0]).toMatch(/^O anjo Gabriel/);
     expect(antifonas(blocosDaHora(c, vesperas, "natal", 0))[0]).toMatch(/^Ó admirável troca/);
     expect(antifonas(blocosDaHora(c, vesperas, "comum", 0))[0]).toMatch(/^Enquanto o Rei/);
+  });
+});
+
+describe("Ofício dos Defuntos", () => {
+  const c = avulsos["./oficio-dos-defuntos.ts"]?.default as import("./tipos").ConteudoDoOficio | undefined;
+  const leituras = (blocos: Bloco[]) => blocos.flatMap((b) => ("leitura" in b ? [b.leitura] : []));
+  const ehRequiem = (b: Bloco | undefined) =>
+    !!b && "linhas" in b && typeof b.linhas[0] === "object" && "v" in b.linhas[0] && b.linhas[0].v.startsWith("Dai-lhes, Senhor, o descanso eterno");
+
+  it("Vésperas, Matinas e Laudes, com os blocos válidos", () => {
+    expect(c, "falta src/devocao/oficio-dos-defuntos.ts").toBeDefined();
+    if (!c) return;
+    expect(c.revisao).toBe("a revisar pelo dono");
+    expect(c.horas.map((h) => h.id)).toEqual(["vesperas", "matinas", "laudes"]);
+    for (const h of c.horas) {
+      expect(h.blocos.length, h.id).toBeGreaterThan(0);
+      conferirBlocos(`defuntos ${h.id}`, h.blocos);
+    }
+    c.noturnos.forEach((n, i) => conferirBlocos(`defuntos noturno ${i + 1}`, n));
+  });
+
+  it("Matinas: três noturnos com as nove lições de Jó, cada uma com o seu responsório", () => {
+    if (!c) return;
+    const matinas = c.horas.find((h) => h.id === "matinas")!;
+    expect(matinas.blocos.filter((b) => "titulo" in b && Object.keys(b).length === 1 && /noturno$/.test(b.titulo ?? ""))).toHaveLength(3);
+    const licoes = leituras(matinas.blocos).filter((l) => l.startsWith("JOB "));
+    expect(licoes).toEqual([
+      "JOB 7:16-21",
+      "JOB 10:1-7",
+      "JOB 10:8-12",
+      "JOB 13:22-28",
+      "JOB 14:1-6",
+      "JOB 14:13-16",
+      "JOB 17:1-3.11-15",
+      "JOB 19:20-27",
+      "JOB 10:18-22",
+    ]);
+    c.noturnos.forEach((n, i) => expect(leituras(n).filter((l) => l.startsWith("JOB ")), `noturno ${i + 1}`).toHaveLength(3));
+    matinas.blocos.forEach((b, i) => {
+      if ("leitura" in b && b.leitura.startsWith("JOB ")) {
+        const seguinte = matinas.blocos[i + 1];
+        expect(seguinte && "linhas" in seguinte && seguinte.titulo, b.leitura).toBe("Responsório");
+      }
+    });
+  });
+
+  it("o Requiem substitui o Glória ao fim de cada salmo e cântico", () => {
+    if (!c) return;
+    for (const h of c.horas) {
+      expect(h.blocos.some((b) => "rezar" in b && b.rezar === "gloria"), h.id).toBe(false);
+      h.blocos.forEach((b, i) => {
+        if (!("leitura" in b) || !b.poema || b.leitura.startsWith("PSA 95:")) return;
+        expect(ehRequiem(h.blocos[i + 1]), `${h.id}: ${b.leitura}`).toBe(true);
+      });
+    }
   });
 });
 

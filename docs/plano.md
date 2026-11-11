@@ -68,14 +68,15 @@ Legenda: ✅ pronto · 🔨 em andamento · ⬜ a fazer · 👤 precisa do dono
   (`fontes/biblia/revisao/conferencia/nomes.md`)
 - ⬜ 👤 Leitura dos Evangelhos e Salmos revisados (e, se possível, um padre ou
   catequista da paróquia)
-- ⬜ Introdução curta dos 73 livros
+- ✅ Introdução curta dos 73 livros ("Sobre este livro" no capítulo 1)
+- ⬜ 👤 Revisar as introduções (`docs/biblia/introducoes-a-revisar.md`)
 - ✅ Leitura direta: abre no capítulo onde parou (ou Gênesis 1), livro e
   capítulo escolhidos no topo, um versículo por parágrafo (10/11/2026)
 - ✅ Leitura contínua: um capítulo emenda no outro ao rolar (até 8 na tela,
   cada livro baixado só quando a leitura chega nele)
-- ⬜ Grifar versículos (cores) e uma aba com os trechos grifados (pedido do
+- ✅ Grifar versículos (cores) e uma aba com os trechos grifados (pedido do
   dono, 10/11/2026: "como quem grifa a Bíblia"); sincroniza com a conta
-- ⬜ Busca no texto, notas, planos de leitura
+- ✅ Busca no texto, notas e planos de leitura (Evangelhos, Salmos, Novo Testamento, Bíblia em um ano)
 
 ### Leva 5. Terço e orações 🔨
 - ✅ Terço guiado completo: sinal da cruz, oferecimento, Creio, três Ave-Marias,
@@ -94,7 +95,7 @@ Legenda: ✅ pronto · 🔨 em andamento · ⬜ a fazer · 👤 precisa do dono
 - ✅ Teste: português e latim em toda oração, referências dos mistérios,
   contagem de cada terço (53 Ave-Marias no comum) e nenhum travessão
 - ⬜ 👤 Leitura das orações em português (forma tradicional de reza no Brasil)
-- ⬜ Rosário completo (4 mistérios seguidos)
+- ✅ Rosário completo (os 20 mistérios seguidos)
 
 ### Leva 6. Devoções 🔨
 - ✅ 18 novenas (6 de Nossa Senhora, 4 do Senhor, 8 de santos, com a Trezena de Santo Antônio), que começam sozinhas na data da festa e marcam "4º dia de 9"
@@ -107,8 +108,10 @@ Legenda: ✅ pronto · 🔨 em andamento · ⬜ a fazer · 👤 precisa do dono
 - ✅ Novas orações: Veni Creator, Ave Maris Stella, Magnificat, Te Deum, Stabat Mater, ladainhas do Espírito Santo e do Nome de Jesus
 - ✅ Testes: datas de todas as novenas e tempos, toda leitura existe, toda oração ligada existe
 - ⬜ 👤 Revisar os textos (`docs/devocoes/a-revisar.md` lista os pontos de cada um)
-- ⬜ Pequeno Ofício no Advento e no Natal; Ofício dos Defuntos
-- ⬜ Lembrete da novena (entra com as notificações, Leva 15 e 16)
+- ✅ Pequeno Ofício no Advento e no Natal (traduzido do latim; pontos em `docs/devocoes/oficio-tempos-a-revisar.md`)
+- ✅ Ofício dos Defuntos (Vésperas, Matinas com as nove lições de Jó, Laudes; traduzido do latim; pontos em `docs/devocoes/oficio-dos-defuntos-a-revisar.md`)
+- ⬜ 👤 Revisar os dois Ofícios
+- ✅ Lembrete da novena
 
 ### Leva 7. Santos e calendário 🔨
 - ✅ História de todos os santos e festas do calendário do Brasil (cerca de 230), mais os de devoção popular (Expedito, Cristóvão, Bárbara) e os beatos Nhá Chica e Lindalva
@@ -133,7 +136,7 @@ Legenda: ✅ pronto · 🔨 em andamento · ⬜ a fazer · 👤 precisa do dono
 - ✅ Falecidos com 7º dia, 30º dia e aniversário na tela Hoje; aniversário de batismo
 - ✅ Diário espiritual e propósitos
 - ⬜ 👤 Revisar o exame e os guias (`docs/confissao/a-revisar.md`)
-- ⬜ Sincronizar com a conta (Leva 10)
+- ✅ Sincronizar com a conta (o cofre sobe embaralhado com o PIN)
 
 ### Leva 10. Conta e sincronização 🔨
 - ✅ Banco com regras de acesso, testadas num Postgres em memória; a integração do GitHub aplicou a migração sozinha
@@ -193,8 +196,8 @@ Legenda: ✅ pronto · 🔨 em andamento · ⬜ a fazer · 👤 precisa do dono
 - ✅ Seguir um terço (guardado e sincronizado com a conta); compartilhar no WhatsApp
 - ✅ Regras de acesso testadas (quem cadastra, aprova, monta e conduz)
 - ⬜ Foto do grupo (precisa de armazenamento de imagens)
-- ⬜ Mais de um responsável por terço (hoje só quem cadastrou e o admin)
-- ⬜ Lembrete do encontro da semana para quem segue (com as notificações, Leva 15 e 16)
+- ✅ Ajudantes: o responsável dá acesso por e-mail a quem ajuda a conduzir o encontro
+- ✅ Lembrete uma hora antes do encontro para quem segue (site instalado; no app de loja, com o push remoto)
 - ⬜ 👤 Revisar e aprovar os primeiros terços cadastrados no Painel
 
 ### Leva 13. Comunidade 🔨
@@ -211,7 +214,7 @@ Legenda: ✅ pronto · 🔨 em andamento · ⬜ a fazer · 👤 precisa do dono
   somam, com a barra na tela Hoje e em Intenções
 - ✅ Regras testadas (42 casos) e teste de ponta a ponta com duas contas no banco
 - ⬜ 👤 Criar a primeira campanha no Painel, quando quiser lançar
-- ⬜ Aviso para quem pediu: "N pessoas rezaram por você" (com as notificações)
+- ✅ Aviso para quem pediu: "N pessoas rezaram pelo seu pedido" (no máximo um por dia por pedido)
 
 ### Leva 14. Música ⬜
 - ⬜ 👤 Montar as playlists por tempo e tema com o dono
@@ -241,7 +244,8 @@ Legenda: ✅ pronto · 🔨 em andamento · ⬜ a fazer · 👤 precisa do dono
 - ✅ Sem zoom ao tocar duas vezes no app instalado
 - ⬜ 👤 Google Search Console: cadastrar o site e enviar o sitemap (quando
   houver o domínio definitivo, para não perder o histórico)
-- ⬜ Revisão de acessibilidade com leitor de tela
+- ✅ Revisão de acessibilidade automática (axe, 22 telas, claro e escuro, todas as cores): só resta o zoom bloqueado, decisão do dono
+- ⬜ 👤 Teste com leitor de tela num aparelho (TalkBack ou VoiceOver)
 
 ### Leva 16. Celular 🔨
 - ✅ Recursos nativos (Capacitor): lembretes agendados no próprio celular (sem
@@ -251,7 +255,8 @@ Legenda: ✅ pronto · 🔨 em andamento · ⬜ a fazer · 👤 precisa do dono
 - ✅ Ícones do app (Android e iPhone) e ícone de notificação gerados da marca
   (`assets/`, `npx capacitor-assets generate`)
 - ✅ Android monta: APK de teste de 13 MB (`android/`, `./gradlew assembleDebug`)
-- ⬜ Widget do Evangelho do dia (código nativo; o do iPhone precisa de Mac)
+- ✅ Widget do Evangelho do dia no Android (os próximos 7 dias ficam no aparelho)
+- ⬜ Widget do iPhone (precisa de Mac)
 - ⬜ 👤 Teste em aparelho Android (o APK de teste) e no iPhone (precisa de Mac
   com Xcode e conta de desenvolvedor da Apple, US$ 99 por ano)
 - ⬜ Assinatura de produção do Android (chave guardada pelo dono) e versão para a loja
@@ -261,7 +266,8 @@ Legenda: ✅ pronto · 🔨 em andamento · ⬜ a fazer · 👤 precisa do dono
 - ✅ 👤 Nome definitivo: **Minha Igrejinha** (10/11/2026)
 - ⬜ 👤 Registrar `minhaigrejinha.com.br` e `minhaigrejinha.org`, conferir INPI e o @ no Instagram
 - ⬜ 👤 Conta Google Play e 12 testadores por 14 dias
-- ⬜ Lançamento em Natal e mensagens de divulgação
+- ✅ Textos de divulgação (`docs/lancamento/divulgacao.md`)
+- ⬜ 👤 Lançamento em Natal
 
 ### Leva 18. A sua igreja viva 🔨
 O diferencial do app (pedido do dono, 11/11/2026).
@@ -279,7 +285,7 @@ O diferencial do app (pedido do dono, 11/11/2026).
   chegarem no app instalado pelo navegador
 - ⬜ Aviso aos seguidores no app de loja: notificação remota (Firebase, grátis)
   e 👤 a chave de notificação da Apple
-- ⬜ Eventos na busca de Missas (chip "Eventos")
+- ✅ Eventos na busca de Missas (chip "Eventos")
 - ⬜ Instagram automático no mural: a paróquia conecta a conta profissional e
   os posts entram sozinhos
 - ⬜ 👤 Para o Instagram automático: conta de desenvolvedor na Meta e app
@@ -322,7 +328,8 @@ der dinheiro, não é ruim, só não é o foco.
   (Cor do dia, Azul mariano, Terra, Dourado); o cartão do dia na Hoje segue
   sempre a cor litúrgica
 - ✅ Nas lojas: "Apoie" não aparece no app nativo (regra da Apple e do Google)
-- ⬜ Acesso antecipado e voto no próximo recurso
+- ✅ Voto no próximo recurso (o admin põe as opções em votação no Painel)
+- ⬜ Acesso antecipado (quando houver um recurso em teste)
 - ⬜ Mensal (assinatura), quando houver CNPJ ou associação
 - ⬜ 👤 Conferir no extrato cada "Já contribuí" antes de confirmar
 - ⬜ 👤 Para o mensal: CNPJ ou associação sem fins lucrativos

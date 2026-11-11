@@ -42,6 +42,7 @@ export default function Rezar() {
           <ItemLista icone={HandHeart} titulo="Orações" detalhe="Em português e latim" para="/rezar/oracoes" />
           <ItemLista icone={ScrollText} titulo="Ladainhas" para="/rezar/ladainhas" />
           <ItemLista icone={Moon} titulo="Pequeno Ofício de Nossa Senhora" para="/rezar/oficio" />
+          <ItemLista icone={Moon} titulo="Ofício dos Defuntos" para="/rezar/oficio-dos-defuntos" />
         </Grupo>
         <Grupo titulo="Devoções">
           <ItemLista icone={ListOrdered} titulo="Novenas" detalhe={novena ? `${novena.titulo}: ${novena.detalhe.toLowerCase()}` : undefined} para="/rezar/novenas" />

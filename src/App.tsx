@@ -18,6 +18,7 @@ const Consagracao = lazy(() => import("@/pages/Consagracao"));
 const ViaSacra = lazy(() => import("@/pages/ViaSacra"));
 const SemanaSanta = lazy(() => import("@/pages/SemanaSanta"));
 const Oficio = lazy(() => import("@/pages/Oficio"));
+const OficioDosDefuntos = lazy(() => import("@/pages/OficioDosDefuntos"));
 const Calendario = lazy(() => import("@/pages/Calendario"));
 const GrupoDeSantos = lazy(() => import("@/pages/Santos").then((m) => ({ default: m.GrupoDeSantos })));
 const SantoPagina = lazy(() => import("@/pages/Santos").then((m) => ({ default: m.SantoPagina })));
@@ -83,6 +84,7 @@ export default function App() {
         <Route path="rezar/via-sacra" element={<ViaSacra />} />
         <Route path="rezar/semana-santa" element={<SemanaSanta />} />
         <Route path="rezar/oficio" element={<Oficio />} />
+        <Route path="rezar/oficio-dos-defuntos" element={<OficioDosDefuntos />} />
         <Route path="rezar/exame" element={<Exame />} />
         <Route path="rezar/confissao" element={<GuiaDaConfissao />} />
         <Route path="rezar/missa" element={<GuiaDaMissa />} />
