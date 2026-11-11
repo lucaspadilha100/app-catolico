@@ -26,9 +26,12 @@ import {
   souAdmin,
   sugestoesPendentes,
   type ParoquiaCompleta,
+  igrejaLigada,
+  type IgrejaLigada,
+  procurarParoquias,
 } from "@/paroquias/api";
 import { descreverSemanas, hhmm, NOME_DO_DIA } from "@/paroquias/horarios";
-import { NOME_DO_TIPO_DE_HORARIO, NOME_DO_TIPO_DE_IGREJA, type Horario, type Paroquia, type Sugestao, type TipoDeHorario } from "@/paroquias/tipos";
+import { NOME_DO_TIPO_DE_HORARIO, NOME_DO_TIPO_DE_IGREJA, ehMatriz, type Horario, type Paroquia, type ParoquiaResumo, type Sugestao, type TipoDeHorario } from "@/paroquias/tipos";
 import { Cartao } from "@/components/Cartao";
 import { revisarTerco, tercosParaRevisar } from "@/tercos/api";
 import { NOME_DA_ORACAO_DA_CAMPANHA, apagarIntencao, fraseDaIntencao, intencoesEscondidas, moderar, salvarCampanha, type Campanha, type Intencao } from "@/comunidade/api";
@@ -447,6 +450,46 @@ const VAZIA: Partial<Paroquia> = {
 
 const soDigitos = (s: string) => s.replace(/\D/g, "");
 
+function EscolherMatriz({ valor, cidade, aoMudar }: { valor: string | null; cidade: string; aoMudar: (id: string | null) => void }) {
+  const [atual, setAtual] = useState<IgrejaLigada | null>(null);
+  const [termo, setTermo] = useState("");
+  const [lista, setLista] = useState<ParoquiaResumo[]>([]);
+  useEffect(() => {
+    if (!valor) return setAtual(null);
+    void igrejaLigada(valor).then(setAtual).catch(() => {});
+  }, [valor]);
+  useEffect(() => {
+    if (termo.trim().length < 3) return setLista([]);
+    const t = setTimeout(() => {
+      void procurarParoquias({ termo, limite: 30 })
+        .then((r) => setLista(r.filter((x) => ehMatriz(x.tipo)).sort((a, b) => Number(b.cidade === cidade) - Number(a.cidade === cidade)).slice(0, 8)))
+        .catch(() => setLista([]));
+    }, 300);
+    return () => clearTimeout(t);
+  }, [termo, cidade]);
+  return (
+    <Campo rotulo="Pertence à paróquia">
+      {valor ? (
+        <div className="flex min-h-12 items-center gap-2 rounded-xl border border-borda bg-papel px-3">
+          <span className="min-w-0 flex-1 truncate">{atual ? `${atual.nome}, ${atual.cidade}` : "…"}</span>
+          <button type="button" onClick={() => aoMudar(null)} className="min-h-10 px-2 text-sm font-semibold text-destaque-texto">
+            Trocar
+          </button>
+        </div>
+      ) : (
+        <div className="flex flex-col gap-1">
+          <input value={termo} onChange={(e) => setTermo(e.target.value)} placeholder="Nome da paróquia" className={CAMPO} />
+          {lista.map((x) => (
+            <button key={x.id} type="button" onClick={() => (aoMudar(x.id), setTermo(""))} className="min-h-11 rounded-lg px-3 text-left hover:bg-marca-fundo">
+              {x.nome} <span className="text-tinta-suave">{x.cidade}</span>
+            </button>
+          ))}
+        </div>
+      )}
+    </Campo>
+  );
+}
+
 function FormularioDaParoquia({ inicial, admin, aoSalvar }: { inicial: Partial<Paroquia>; admin: boolean; aoSalvar: (id: string) => void }) {
   const [p, setP] = useState<Partial<Paroquia>>(inicial);
   const [coords, setCoords] = useState(inicial.lat != null ? `${inicial.lat}, ${inicial.lng}` : "");
@@ -502,6 +545,7 @@ function FormularioDaParoquia({ inicial, admin, aoSalvar }: { inicial: Partial<P
             <input value={p.padroeiro ?? ""} onChange={muda("padroeiro")} className={CAMPO} />
           </Campo>
         </div>
+        {!ehMatriz(p.tipo ?? "paroquia") && <EscolherMatriz valor={p.matriz_id ?? null} cidade={p.cidade ?? ""} aoMudar={(id) => setP({ ...p, matriz_id: id })} />}
         <Campo rotulo="Diocese">
           <input value={p.diocese ?? ""} onChange={muda("diocese")} className={CAMPO} />
         </Campo>

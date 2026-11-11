@@ -71,6 +71,27 @@ configurado desde o início) · **Supabase** plano gratuito (projeto
   `index.ts` com o `regras.ts` colado dentro; mudou a função, gere esse arquivo
   único de novo para o dono colar). Teto: percorre todas as inscrições a cada chamada, em páginas de 500; com
   dezenas de milhares, dividir por fuso/hora.
+- **Paróquia, área e capela** (migração 20261208000000, pedido do dono,
+  11/11/2026: "ou é paróquia ou não é; capela pertence a qual paróquia?"):
+  cada linha de `paroquias` é uma IGREJA. Matriz = `paroquia`,
+  `quase_paroquia`, `area_missionaria`, `area_pastoral`, `catedral`,
+  `basilica` ou `santuario` sem matriz (`ehMatriz` em `tipos.ts`); capela e
+  comunidade apontam a matriz por `matriz_id`. Nome sem parênteses e sem a
+  cidade ("Capela de São Bento", lugar no `bairro`). A página da igreja mostra
+  "Pertence à ..." e a lista de capelas; no painel, "Pertence à paróquia".
+- **Pesquisa de horários do RN** (11/11/2026, decisão do dono: horários
+  publicados pelas próprias paróquias e dioceses, com a fonte anotada em
+  `fonte`): `fontes/paroquias/pesquisa-rn-2026-11/` (páginas baixadas, a
+  foto do banco e `saida/*.json`, um item por unidade) →
+  `scripts/paroquias/organizar_rn.py gerar` →
+  `20261208000100_dados_rn_organizacao_e_horarios.sql`. Fontes: página de
+  cada paróquia da Arquidiocese de Natal; página "Horário das Missas" da
+  Diocese de Caicó (editada em 2022); Mossoró não publica horários (só bios
+  de Instagram vistas pela busca). ⚠️ Paróquia `verificada` ou `conferida_em`
+  não é tocada; a carga troca só o TIPO de horário que a fonte traz (missa
+  nova não apaga confissão); confiança "baixa" não entra. ⚠️ Instagram não se
+  lê por dentro (bloqueio de robôs): só o trecho que a busca mostra. Próximo
+  estado: o mesmo molde (`fontes/paroquias/pesquisa-rn-2026-11/FORMATO.md`, um agente por diocese).
 - **Igreja viva** (migração 20261123000000): `pedidos_de_gestao` (o admin
   aprova com `revisar_pedido_de_gestao`), `publicacoes_paroquia` (mural, só
   texto e link; `notificada` só a service_role muda) e `paroquias.plano`

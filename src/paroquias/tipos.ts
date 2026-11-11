@@ -47,7 +47,10 @@ export interface Paroquia extends Omit<ParoquiaResumo, "distancia_km"> {
   aceita_intencoes: boolean;
   conferida_em: string | null;
   atualizado_em: string;
+  matriz_id: string | null;
 }
+
+export const ehMatriz = (tipo: string) => tipo !== "capela" && tipo !== "comunidade" && tipo !== "mosteiro";
 
 export interface AvisoDaParoquia {
   id: string;
@@ -96,6 +99,9 @@ export const NOME_DO_TIPO_DE_HORARIO: Record<TipoDeHorario, string> = {
 
 export const NOME_DO_TIPO_DE_IGREJA: Record<string, string> = {
   paroquia: "Paróquia",
+  quase_paroquia: "Quase-paróquia",
+  area_missionaria: "Área missionária",
+  area_pastoral: "Área pastoral",
   capela: "Capela",
   comunidade: "Comunidade",
   santuario: "Santuário",

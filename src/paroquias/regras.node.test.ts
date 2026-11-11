@@ -63,6 +63,20 @@ describe("paróquias", () => {
   });
 });
 
+describe("paróquia, área e capela", () => {
+  it("a capela aponta a matriz; área missionária e quase-paróquia são tipos próprios", async () => {
+    await db.query("update public.paroquias set matriz_id = $1 where id = $2", [matriz, capela]);
+    const r = await como("anon", null, "select c.nome, m.nome as matriz from public.paroquias c join public.paroquias m on m.id = c.matriz_id");
+    expect(r.rows).toHaveLength(1);
+    await db.query("update public.paroquias set tipo = 'area_missionaria' where id = $1", [matriz]);
+    await db.query("update public.paroquias set tipo = 'quase_paroquia' where id = $1", [matriz]);
+    await expect(db.query("update public.paroquias set tipo = 'area' where id = $1", [matriz])).rejects.toThrow();
+    await expect(db.query("update public.paroquias set matriz_id = id where id = $1", [matriz])).rejects.toThrow();
+    await db.query("update public.paroquias set tipo = 'paroquia' where id = $1", [matriz]);
+    await db.query("update public.paroquias set matriz_id = null");
+  });
+});
+
 describe("sugestões dos fiéis", () => {
   it("só quem tem conta sugere, em nome próprio, e só vê as suas", async () => {
     await expect(como("anon", null, "insert into public.sugestoes_paroquia (paroquia_id, tipo) values ($1, 'confirmar')", [matriz])).rejects.toThrow();

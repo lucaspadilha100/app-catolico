@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState, type FormEvent, type ReactNode } from "react";
 import { Link, useLocation, useParams, useSearchParams } from "react-router-dom";
-import { AtSign, BadgeCheck, Bell, Check, ChevronDown, ChevronRight, Clock, Globe, Heart, LocateFixed, Mail, MapPin, MessageCircle, Navigation, Pencil, Phone, Plus, Search, Share2 } from "lucide-react";
+import { AtSign, BadgeCheck, Bell, Check, ChevronDown, ChevronRight, Church, Clock, Globe, Heart, LocateFixed, Mail, MapPin, MessageCircle, Navigation, Pencil, Phone, Plus, Search, Share2 } from "lucide-react";
 import { usePreferencias } from "@/lib/preferencias";
 import { useConta } from "@/conta/useConta";
 import { agendaDeEventos, agendaDeHorarios, carregarParoquia, cidadesComParoquias, enviarSugestao, igrejasComHorarios, procurarParoquias, type Cidade, type Local, type ParoquiaCompleta } from "@/paroquias/api";
@@ -19,7 +19,7 @@ import {
   telefoneLegivel,
   textoDaGrade,
 } from "@/paroquias/horarios";
-import { NOME_DO_TIPO_DE_HORARIO, NOME_DO_TIPO_DE_IGREJA, type Horario, type IgrejaComHorarios, type ItemDaAgenda, type ParoquiaResumo, type TipoDeHorario } from "@/paroquias/tipos";
+import { NOME_DO_TIPO_DE_HORARIO, NOME_DO_TIPO_DE_IGREJA, ehMatriz, type Horario, type IgrejaComHorarios, type ItemDaAgenda, type ParoquiaResumo, type TipoDeHorario } from "@/paroquias/tipos";
 import { useLocal } from "@/paroquias/useLocal";
 import { compartilhar, enderecoPublico } from "@/lib/nativo";
 import { linkComoChegar } from "@/lib/comoChegar";
@@ -131,7 +131,7 @@ function ItemDeParoquia({ p }: { p: ParoquiaResumo }) {
           {p.nome}
           {p.verificada && <BadgeCheck className="size-4 shrink-0 text-destaque-texto" aria-label="Verificada" />}
         </span>
-        <span className="block text-sm text-tinta-suave">{[p.bairro, p.cidade, km(p.distancia_km)].filter(Boolean).join(" · ")}</span>
+        <span className="block text-sm text-tinta-suave">{[!ehMatriz(p.tipo) && NOME_DO_TIPO_DE_IGREJA[p.tipo], p.bairro, p.cidade, km(p.distancia_km)].filter(Boolean).join(" · ")}</span>
       </span>
       <ChevronRight className="size-5 shrink-0 text-tinta-suave" aria-hidden />
     </Link>
@@ -844,7 +844,7 @@ export function ParoquiaPagina() {
   if (dados === null) return <Carregando />;
   if (dados === "nada") return <NaoEncontrada />;
   if (dados === "erro") return <Indisponivel />;
-  const { paroquia: p, horarios, avisos, podeEditar } = dados;
+  const { paroquia: p, horarios, avisos, podeEditar, matriz, capelas } = dados;
   const minha = preferencias.minhaParoquia === p.id;
   const sigo = seguidas.includes(p.id);
   const destino = p.lat !== null && p.lng !== null ? `${p.lat},${p.lng}` : encodeURIComponent(`${p.endereco}, ${p.bairro}, ${p.cidade} - ${p.uf}`);
@@ -871,6 +871,16 @@ export function ParoquiaPagina() {
         titulo={p.nome}
         subtitulo={[NOME_DO_TIPO_DE_IGREJA[p.tipo], p.padroeiro && `Padroeiro: ${p.padroeiro}`, p.diocese].filter(Boolean).join(" · ")}
       />
+      {matriz && (
+        <Link to={`/missas/paroquia/${matriz.id}`} className="flex min-h-12 items-center gap-2 rounded-2xl border border-borda bg-cartao px-4 py-2.5 text-tinta">
+          <Church className="size-5 shrink-0 text-destaque-texto" aria-hidden />
+          <span className="min-w-0 flex-1">
+            <span className="text-tinta-suave">{matriz.tipo === "santuario" || matriz.tipo === "mosteiro" ? "Pertence ao " : "Pertence à "}</span>
+            <span className="font-medium">{matriz.nome}</span>
+          </span>
+          <ChevronRight className="size-5 shrink-0 text-tinta-suave" aria-hidden />
+        </Link>
+      )}
       {(p.verificada || p.confirmado_em) && (
         <div className="flex flex-wrap gap-2 text-sm">
           {p.verificada && (
@@ -950,6 +960,23 @@ export function ParoquiaPagina() {
       <IntencoesDeMissa p={p} horarios={horarios} email={email} />
 
       {horarios.length ? <GradeDeHorarios horarios={horarios} agora={agora} /> : <p className="text-tinta-suave">Ainda sem horários cadastrados.</p>}
+
+      {capelas.length > 0 && (
+        <section className="flex flex-col gap-2">
+          <h2 className="px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto">{`Capelas e comunidades (${capelas.length})`}</h2>
+          <div className={LISTA}>
+            {capelas.map((c) => (
+              <Link key={c.id} to={`/missas/paroquia/${c.id}`} className={LINHA}>
+                <span className="min-w-0 flex-1">
+                  <span className="block font-medium leading-snug text-tinta">{c.nome}</span>
+                  <span className="block text-sm text-tinta-suave">{[c.bairro, c.cidade !== p.cidade && c.cidade].filter(Boolean).join(" · ")}</span>
+                </span>
+                <ChevronRight className="size-5 shrink-0 text-tinta-suave" aria-hidden />
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
 
       {(p.telefone || p.whatsapp || p.instagram || p.site || p.email) && (
         <Cartao className="p-0">

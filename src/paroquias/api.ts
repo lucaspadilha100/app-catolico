@@ -97,27 +97,46 @@ export async function cidadesComParoquias(p: { termo?: string; local?: Local | n
   ) as Cidade[];
 }
 
+export interface IgrejaLigada {
+  id: string;
+  nome: string;
+  tipo: string;
+  bairro: string;
+  cidade: string;
+}
+
 export interface ParoquiaCompleta {
   paroquia: Paroquia;
   horarios: Horario[];
   avisos: AvisoDaParoquia[];
   podeEditar: boolean;
+  matriz: IgrejaLigada | null;
+  capelas: IgrejaLigada[];
+}
+
+export async function igrejaLigada(id: string): Promise<IgrejaLigada | null> {
+  const c = await cliente();
+  return ou(await c.from("paroquias").select("id,nome,tipo,bairro,cidade").eq("id", id).maybeSingle()) as IgrejaLigada | null;
 }
 
 export async function carregarParoquia(id: string): Promise<ParoquiaCompleta | null> {
   const c = await cliente();
   const hoje = new Date().toLocaleDateString("sv-SE");
-  const [p, h, a, sessao] = await Promise.all([
+  const ligada = "id,nome,tipo,bairro,cidade";
+  const [p, h, a, filhas, sessao] = await Promise.all([
     c.from("paroquias").select("*").eq("id", id).maybeSingle(),
     c.from("horarios").select("*").eq("paroquia_id", id).order("hora"),
     c.from("avisos_paroquia").select("*").eq("paroquia_id", id).gte("ate", hoje).order("ate"),
+    c.from("paroquias").select(ligada).eq("matriz_id", id).eq("ativa", true).order("nome").limit(200),
     c.auth.getSession(),
   ]);
   const paroquia = ou(p) as Paroquia | null;
   if (!paroquia) return null;
-  let podeEditar = false;
-  if (sessao.data.session) podeEditar = !!ou(await c.rpc("pode_editar", { p_paroquia: id }));
-  return { paroquia, horarios: ou(h) as Horario[], avisos: ou(a) as AvisoDaParoquia[], podeEditar };
+  const [podeEditar, matriz] = await Promise.all([
+    sessao.data.session ? c.rpc("pode_editar", { p_paroquia: id }).then((r) => !!ou(r)) : false,
+    paroquia.matriz_id ? c.from("paroquias").select(ligada).eq("id", paroquia.matriz_id).eq("ativa", true).maybeSingle().then((r) => (r.error ? null : (r.data as IgrejaLigada | null))) : null,
+  ]);
+  return { paroquia, horarios: ou(h) as Horario[], avisos: ou(a) as AvisoDaParoquia[], podeEditar, matriz, capelas: filhas.error ? [] : ((filhas.data as IgrejaLigada[] | null) ?? []) };
 }
 
 export async function enviarSugestao(s: { paroquia_id: string | null; tipo: Sugestao["tipo"]; texto: string; dados?: Record<string, unknown> }) {
