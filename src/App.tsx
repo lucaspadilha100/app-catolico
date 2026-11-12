@@ -9,6 +9,7 @@ const TercoDeSaoMiguel = lazy(() => import("@/pages/Terco").then((m) => ({ defau
 const Ladainhas = lazy(() => import("@/pages/Oracoes").then((m) => ({ default: m.Ladainhas })));
 const OracaoPagina = lazy(() => import("@/pages/Oracoes").then((m) => ({ default: m.OracaoPagina })));
 const Oracoes = lazy(() => import("@/pages/Oracoes").then((m) => ({ default: m.Oracoes })));
+const CategoriaDeOracoes = lazy(() => import("@/pages/Oracoes").then((m) => ({ default: m.CategoriaDeOracoes })));
 const Liturgia = lazy(() => import("@/pages/Liturgia"));
 const NovenaPagina = lazy(() => import("@/pages/Novenas").then((m) => ({ default: m.NovenaPagina })));
 const Novenas = lazy(() => import("@/pages/Novenas").then((m) => ({ default: m.Novenas })));
@@ -87,6 +88,7 @@ export default function App() {
         <Route path="rezar/misericordia" element={<TercoDaMisericordia />} />
         <Route path="rezar/sao-miguel" element={<TercoDeSaoMiguel />} />
         <Route path="rezar/oracoes" element={<Oracoes />} />
+        <Route path="rezar/oracoes/categoria/:id" element={<CategoriaDeOracoes />} />
         <Route path="rezar/oracoes/:id" element={<OracaoPagina />} />
         <Route path="rezar/ladainhas" element={<Ladainhas />} />
         <Route path="rezar/novenas" element={<Novenas />} />

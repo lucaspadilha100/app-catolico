@@ -19,6 +19,8 @@ import type { Santo } from "@/santos/tipos";
 import { Cartao, LINHA, LISTA, TituloPagina } from "@/components/Cartao";
 import { Cabecalho, Carregando, Indisponivel, Voltar, useConteudo } from "@/components/Devocao";
 import { NaoEncontrada } from "@/pages/Simples";
+import { oracaoDoSanto, type OracaoCompleta } from "@/oracao/devocionario";
+import { TextoDaOracao } from "@/components/TextoDaOracao";
 
 const MESES = ["Jan", "Fev", "Mar", "Abr", "Mai", "Jun", "Jul", "Ago", "Set", "Out", "Nov", "Dez"];
 const mmddDe = (d: Date) => paraIso(d).slice(5).replace("-", "");
@@ -234,6 +236,15 @@ export function SantoPagina() {
   const [devocao, alternar] = useSantosDeDevocao();
   const [imagemFalhou, setImagemFalhou] = useState(false);
   useEffect(() => setImagemFalhou(false), [id]);
+  const [oracao, setOracao] = useState<OracaoCompleta | null>(null);
+  useEffect(() => {
+    let ativo = true;
+    setOracao(null);
+    void oracaoDoSanto(id).then((o) => ativo && setOracao(o));
+    return () => {
+      ativo = false;
+    };
+  }, [id]);
 
   if (todos === null) return <Carregando />;
   if (todos === "erro") return <Indisponivel />;
@@ -282,6 +293,14 @@ export function SantoPagina() {
           <p key={i}>{p}</p>
         ))}
       </div>
+      {oracao && (
+        <section>
+          <h2 className="titulo-secao mb-3 px-1">{oracao.nome}</h2>
+          <Cartao>
+            <TextoDaOracao linhas={oracao.pt} lingua="pt" />
+          </Cartao>
+        </section>
+      )}
       <div className="grid grid-cols-1 gap-2 sm:grid-cols-2">
         <button
           type="button"
