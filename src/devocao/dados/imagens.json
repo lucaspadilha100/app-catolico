@@ -1,1 +1,834 @@
-{}
+{
+ "oracao:pai-nosso": {
+  "arquivo": "pai-nosso-tissot.webp",
+  "obra": "O Pai-Nosso",
+  "autor": "James Tissot",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Brooklyn_Museum_-_The_Lord%27s_Prayer_(Le_Pater_Noster)_-_James_Tissot.jpg",
+  "foco": "50% 35%"
+ },
+ "oracao:ave-maria": {
+  "arquivo": "anunciacao-fra-angelico.webp",
+  "obra": "Anunciação",
+  "autor": "Fra Angelico",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Fra_Angelico_-_Annunciation_-_WGA0474.jpg",
+  "foco": "50% 40%"
+ },
+ "oracao:angelus": {
+  "arquivo": "angelus-millet.webp",
+  "obra": "O Ângelus",
+  "autor": "Jean-François Millet",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Jean-Fran%C3%A7ois_Millet_-_The_Angelus_-_Google_Art_Project.jpg",
+  "foco": "50% 50%"
+ },
+ "rezar:angelus": {
+  "arquivo": "angelus-millet.webp",
+  "obra": "O Ângelus",
+  "autor": "Jean-François Millet",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Jean-Fran%C3%A7ois_Millet_-_The_Angelus_-_Google_Art_Project.jpg",
+  "foco": "50% 50%"
+ },
+ "oracao:creio": {
+  "arquivo": "trindade-rublev.webp",
+  "obra": "A Santíssima Trindade",
+  "autor": "Andrei Rublev",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Andrej_Rubl%C3%ABv_001.jpg",
+  "foco": "50% 40%"
+ },
+ "oracao:deus-santo": {
+  "arquivo": "pantocrator-sinai.webp",
+  "obra": "Cristo Pantocrator do Sinai",
+  "autor": "Autor desconhecido (século VI)",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Spas_vsederzhitel_sinay.jpg",
+  "foco": "50% 25%"
+ },
+ "oracao:eterno-pai": {
+  "arquivo": "trindade-masaccio.webp",
+  "obra": "A Santíssima Trindade",
+  "autor": "Masaccio",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Masaccio,_trinit%C3%A0.jpg",
+  "foco": "50% 30%"
+ },
+ "oracao:ato-de-contricao": {
+  "arquivo": "filho-prodigo-rembrandt.webp",
+  "obra": "O regresso do filho pródigo",
+  "autor": "Rembrandt",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Rembrandt_Harmensz_van_Rijn_-_Return_of_the_Prodigal_Son_-_Google_Art_Project.jpg",
+  "foco": "35% 40%"
+ },
+ "oracao:sao-miguel": {
+  "arquivo": "sao-miguel-rafael.webp",
+  "obra": "São Miguel vence o demônio",
+  "autor": "Rafael",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Le_Grand_Saint_Michel,_by_Raffaello_Sanzio,_from_C2RMF_retouched.jpg",
+  "foco": "50% 20%"
+ },
+ "oracao:salve-rainha": {
+  "arquivo": "madona-sistina-rafael.webp",
+  "obra": "Madona Sistina",
+  "autor": "Rafael",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:RAFAEL_-_Madonna_Sixtina_(Gem%C3%A4ldegalerie_Alter_Meister,_Dresden,_1513-14._%C3%93leo_sobre_lienzo,_265_x_196_cm).jpg",
+  "foco": "50% 30%"
+ },
+ "novena:natal": {
+  "arquivo": "natividade-giotto.webp",
+  "obra": "A Natividade",
+  "autor": "Giotto",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Giotto_-_Scrovegni_-_-17-_-_Nativity,_Birth_of_Jesus.jpg",
+  "foco": "45% 50%"
+ },
+ "rezar:semana-santa": {
+  "arquivo": "entrada-em-jerusalem-giotto.webp",
+  "obra": "Entrada em Jerusalém",
+  "autor": "Giotto",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Giotto_-_Scrovegni_-_-26-_-_Entry_into_Jerusalem.jpg",
+  "foco": "40% 45%"
+ },
+ "oracao:pelos-falecidos": {
+  "arquivo": "ressurreicao-de-lazaro-giotto.webp",
+  "obra": "A ressurreição de Lázaro",
+  "autor": "Giotto",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Giotto_-_Scrovegni_-_-25-_-_Raising_of_Lazarus.jpg",
+  "foco": "50% 45%"
+ },
+ "rezar:falecidos": {
+  "arquivo": "ressurreicao-giotto.webp",
+  "obra": "A Ressurreição (Noli me tangere)",
+  "autor": "Giotto",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Giotto_-_Scrovegni_-_-37-_-_Resurrection_(Noli_me_tangere).jpg",
+  "foco": "60% 45%"
+ },
+ "rezar:oficio-dos-defuntos": {
+  "arquivo": "enterro-do-conde-de-orgaz.webp",
+  "obra": "O enterro do conde de Orgaz",
+  "autor": "El Greco",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:El_Greco_-_The_Burial_of_the_Count_of_Orgaz.JPG",
+  "foco": "50% 60%"
+ },
+ "desafio:quaresma": {
+  "arquivo": "cristo-no-deserto-kramskoi.webp",
+  "obra": "Cristo no deserto",
+  "autor": "Ivan Kramskoi",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Kramskoi_Christ_dans_le_d%C3%A9sert.jpg",
+  "foco": "50% 40%"
+ },
+ "oracao:dolorosa-paixao": {
+  "arquivo": "cristo-crucificado-velazquez.webp",
+  "obra": "Cristo crucificado",
+  "autor": "Diego Velázquez",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Cristo_crucificado.jpg",
+  "foco": "50% 25%"
+ },
+ "oracao:depois-das-refeicoes": {
+  "arquivo": "ceia-de-emaus-caravaggio.webp",
+  "obra": "A ceia de Emaús",
+  "autor": "Caravaggio",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:1602-3_Caravaggio,Supper_at_Emmaus_National_Gallery,_London.jpg",
+  "foco": "50% 40%"
+ },
+ "rezar:missa": {
+  "arquivo": "ultima-ceia-leonardo.webp",
+  "obra": "A Última Ceia",
+  "autor": "Leonardo da Vinci",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:%C3%9Altima_Cena_-_Da_Vinci_5.jpg",
+  "foco": "50% 45%"
+ },
+ "oracao:regina-caeli": {
+  "arquivo": "assuncao-ticiano.webp",
+  "obra": "Assunção da Virgem",
+  "autor": "Ticiano",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Tizian_041.jpg",
+  "foco": "50% 35%"
+ },
+ "desafio:advento": {
+  "arquivo": "anunciacao-tanner.webp",
+  "obra": "Anunciação",
+  "autor": "Henry Ossawa Tanner",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Henry_Ossawa_Tanner_-_The_Annunciation.jpg",
+  "foco": "40% 50%"
+ },
+ "novena:imaculada-conceicao": {
+  "arquivo": "imaculada-murillo.webp",
+  "obra": "Imaculada Conceição",
+  "autor": "Bartolomé Esteban Murillo",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Murillo_immaculate_conception.jpg",
+  "foco": "50% 30%"
+ },
+ "desafio:novembro": {
+  "arquivo": "todos-os-santos-durer.webp",
+  "obra": "Adoração da Santíssima Trindade (Todos os Santos)",
+  "autor": "Albrecht Dürer",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Albrecht_D%C3%BCrer_-_Adoration_of_the_Trinity_(Landauer_Altar)_-_Google_Art_Project.jpg",
+  "foco": "50% 35%"
+ },
+ "oracao:ladainha-de-nossa-senhora": {
+  "arquivo": "anunciacao-leonardo.webp",
+  "obra": "Anunciação",
+  "autor": "Leonardo da Vinci",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Annunciazione_-_Google_Art_Project.jpg",
+  "foco": "70% 45%"
+ },
+ "oracao:noite": {
+  "arquivo": "ceia-de-emaus-caravaggio-milao.webp",
+  "obra": "A ceia de Emaús",
+  "autor": "Caravaggio",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Caravaggio_-_Cena_in_Emmaus.jpg",
+  "foco": "50% 40%"
+ },
+ "oracao:antifona-de-sao-miguel": {
+  "arquivo": "sao-miguel-guido-reni.webp",
+  "obra": "São Miguel Arcanjo",
+  "autor": "Guido Reni",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Guido_Reni_031.jpg",
+  "foco": "50% 20%"
+ },
+ "rezar:terco": {
+  "arquivo": "virgem-do-rosario-murillo.webp",
+  "obra": "Virgem do Rosário",
+  "autor": "Bartolomé Esteban Murillo",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Bartolom%C3%A9_Esteban_Perez_Murillo_-_Virgin_and_Child_with_a_Rosary_-_WGA16360.jpg",
+  "foco": "50% 30%"
+ },
+ "oracao:jesus-eu-confio": {
+  "arquivo": "divina-misericordia-kazimirowski.webp",
+  "obra": "Jesus Misericordioso",
+  "autor": "Eugeniusz Kazimirowski",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Kazimirowski_Eugeniusz,_Divine_Mercy,_1934.jpg",
+  "foco": "50% 20%"
+ },
+ "rezar:misericordia": {
+  "arquivo": "divina-misericordia-kazimirowski.webp",
+  "obra": "Jesus Misericordioso",
+  "autor": "Eugeniusz Kazimirowski",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Kazimirowski_Eugeniusz,_Divine_Mercy,_1934.jpg",
+  "foco": "50% 20%"
+ },
+ "novena:nossa-senhora-das-gracas": {
+  "arquivo": "aparicao-labore.webp",
+  "obra": "Aparição de Nossa Senhora a Santa Catarina Labouré",
+  "autor": "Autor desconhecido",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Catherine-Labour%C3%A9-apparition_3.jpg",
+  "foco": "50% 35%"
+ },
+ "novena:nossa-senhora-de-fatima": {
+  "arquivo": "fatima-primeira-imagem.webp",
+  "obra": "Primeira imagem de Nossa Senhora de Fátima",
+  "autor": "Bingar1234",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:First_Sculpture_of_Our_Lady_of_Fatima_(cropped).jpg",
+  "foco": "50% 20%"
+ },
+ "oracao:santo-anjo": {
+  "arquivo": "anjo-da-guarda-decaisne.webp",
+  "obra": "O anjo da guarda",
+  "autor": "Henri Decaisne",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Henri_Decaisne_-_L%27Ange_gardien,_vers_1836.jpg",
+  "foco": "50% 35%"
+ },
+ "oracao:vinde-espirito-santo": {
+  "arquivo": "pentecostes-el-greco.webp",
+  "obra": "Pentecostes",
+  "autor": "El Greco",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Pentecost%C3%A9s_(El_Greco,_c._1600)_Prado.jpg",
+  "foco": "50% 30%"
+ },
+ "oracao:agradecimento-do-terco": {
+  "arquivo": "virgem-do-rosario-caravaggio.webp",
+  "obra": "Virgem do Rosário",
+  "autor": "Caravaggio",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Michelangelo_Merisi,_called_Caravaggio_-_Madonna_of_the_Rosary_-_Google_Art_Project.jpg",
+  "foco": "50% 25%"
+ },
+ "oracao:magnificat": {
+  "arquivo": "madona-do-magnificat-botticelli.webp",
+  "obra": "Madona do Magnificat",
+  "autor": "Sandro Botticelli",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Sandro_Botticelli_-_Madonna_del_Magnificat_-_Google_Art_Project.jpg",
+  "foco": "45% 40%"
+ },
+ "oracao:ave-maris-stella": {
+  "arquivo": "virgem-dos-navegantes.webp",
+  "obra": "Virgem dos Navegantes",
+  "autor": "Alejo Fernández",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Fernandez-Virgin_of_the_Navigators_(proper_inversion).jpg",
+  "foco": "50% 30%"
+ },
+ "oracao:stabat-mater": {
+  "arquivo": "mater-dolorosa-ticiano.webp",
+  "obra": "Mater Dolorosa",
+  "autor": "Ticiano",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Titian_-_Mater_Dolorosa_with_her_Hands_apart_(Museo_del_Prado).jpg",
+  "foco": "50% 35%"
+ },
+ "oracao:antes-das-refeicoes": {
+  "arquivo": "benedicite-chardin.webp",
+  "obra": "O Benedicite (oração antes da refeição)",
+  "autor": "Jean-Baptiste-Siméon Chardin",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Jean-Baptiste_Simeon_Chardin_Saying_Grace.jpg",
+  "foco": "50% 45%"
+ },
+ "oracao:ladainha-do-sagrado-coracao": {
+  "arquivo": "sagrado-coracao-batoni.webp",
+  "obra": "Sagrado Coração de Jesus",
+  "autor": "Pompeo Batoni",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Sacred_Heart_of_Jesus,_Gesu_Church,_Rome.jpg",
+  "foco": "50% 30%"
+ },
+ "oracao:ladainha-de-sao-jose": {
+  "arquivo": "sao-jose-guido-reni.webp",
+  "obra": "São José com o Menino Jesus",
+  "autor": "Guido Reni",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Guido_Reni_-_Saint_Joseph_and_the_Christ_Child_-_Google_Art_Project.jpg",
+  "foco": "50% 30%"
+ },
+ "novena:sao-jose": {
+  "arquivo": "sao-jose-tiepolo.webp",
+  "obra": "São José com o Menino Jesus",
+  "autor": "Giovanni Battista Tiepolo",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Saint_Joseph_with_the_Christ_child_by_GB_Tiepolo.jpg",
+  "foco": "50% 30%"
+ },
+ "oracao:oracao-de-santo-agostinho": {
+  "arquivo": "santo-agostinho-champaigne.webp",
+  "obra": "Santo Agostinho",
+  "autor": "Philippe de Champaigne",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Philippe_de_Champaigne_-_Saint_Augustine_-_LACMA_-_without_frame.jpg",
+  "foco": "50% 30%"
+ },
+ "novena:nossa-senhora-do-carmo": {
+  "arquivo": "virgem-do-carmo-rodriguez-juarez.webp",
+  "obra": "Virgem do Carmo com Santa Teresa e São João da Cruz",
+  "autor": "Juan Rodríguez Juárez",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Juan_Rodr%C3%ADguez_Ju%C3%A1rez_-_The_Virgin_of_the_Carmen_with_Saint_Theresa_and_Saint_John_of_the_Cross_-_Google_Art_Project.jpg",
+  "foco": "50% 30%"
+ },
+ "novena:nossa-senhora-da-apresentacao": {
+  "arquivo": "nossa-senhora-da-apresentacao-natal.webp",
+  "obra": "Imagem de Nossa Senhora da Apresentação, Catedral de Natal",
+  "autor": "Marcos Elias de Oliveira Júnior",
+  "licenca": "CC0",
+  "url": "https://commons.wikimedia.org/wiki/File:Nossa_Senhora_da_Apresenta%C3%A7%C3%A3o_de_Natal_(RN).jpg",
+  "foco": "28% 45%"
+ },
+ "novena:santo-antonio": {
+  "arquivo": "santo-antonio-murillo.webp",
+  "obra": "Santo Antônio com o Menino Jesus",
+  "autor": "Bartolomé Esteban Murillo",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:San_Antonio_de_Padua_con_Ni%C3%B1o_(Murillo).jpg",
+  "foco": "50% 35%"
+ },
+ "desafio:junho": {
+  "arquivo": "sagrado-coracao-vitral-cordoba.webp",
+  "obra": "Sagrado Coração de Jesus, vitral da Catedral de Córdoba",
+  "autor": "Jebulon",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Sacred_heart_of_Jesus_Cordoba.jpg",
+  "foco": "50% 30%"
+ },
+ "desafio:maio": {
+  "arquivo": "coroacao-da-virgem-velazquez.webp",
+  "obra": "Coroação da Virgem",
+  "autor": "Diego Velázquez",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Coronaci%C3%B3n_de_la_Virgen,_by_Diego_Vel%C3%A1zquez.jpg",
+  "foco": "50% 40%"
+ },
+ "oracao:fatima": {
+  "arquivo": "fatima-imagem.webp",
+  "obra": "Imagem de Nossa Senhora de Fátima",
+  "autor": "Santuário de Fátima",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Our_Lady_of_Fatima_Statue.jpg",
+  "foco": "50% 20%"
+ },
+ "oracao:sub-tuum": {
+  "arquivo": "madona-da-misericordia-piero.webp",
+  "obra": "Madona da Misericórdia",
+  "autor": "Piero della Francesca",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Piero_della_Francesca_-_Polyptych_of_the_Misericordia_-_Madonna_of_Mercy_-_WGA17449.jpg",
+  "foco": "50% 25%"
+ },
+ "novena:sao-judas-tadeu": {
+  "arquivo": "sao-judas-tadeu-el-greco.webp",
+  "obra": "São Judas Tadeu",
+  "autor": "El Greco",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:El_Greco_-_St._Jude_Thaddeus_-_Google_Art_Project.jpg",
+  "foco": "50% 25%"
+ },
+ "novena:santa-rita": {
+  "arquivo": "santa-rita-antonio-de-torres.webp",
+  "obra": "Santa Rita de Cássia",
+  "autor": "Antonio de Torres",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:%27Saint_Rita_of_Cascia%27_by_Antonio_de_Torres,_c._1720.JPG",
+  "foco": "50% 30%"
+ },
+ "novena:sao-francisco": {
+  "arquivo": "sao-francisco-giotto.webp",
+  "obra": "São Francisco recebe os estigmas",
+  "autor": "Giotto",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Giotto_di_Bondone_-_Stigmatization_of_St_Francis_-_WGA09329.jpg",
+  "foco": "50% 30%"
+ },
+ "novena:santa-dulce": {
+  "arquivo": "santa-dulce.webp",
+  "obra": "Santa Dulce dos Pobres",
+  "autor": "Eugenio Hansen, OFS",
+  "licenca": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Santa_Dulce_dos_Pobres.jpg",
+  "foco": "35% 35%"
+ },
+ "curso:catequese-de-adultos": {
+  "arquivo": "sermao-da-montanha-fra-angelico.webp",
+  "obra": "O Sermão da Montanha",
+  "autor": "Fra Angelico",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Fra_Angelico_-_Die_Bergpredigt.jpeg",
+  "foco": "50% 40%"
+ },
+ "rezar:confissao": {
+  "arquivo": "confissao-crespi.webp",
+  "obra": "A Confissão",
+  "autor": "Giuseppe Maria Crespi",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Giuseppe_Maria_Crespi_-_Confession_-_WGA05764.jpg",
+  "foco": "50% 40%"
+ },
+ "desafio:outubro": {
+  "arquivo": "instituicao-do-rosario-tiepolo.webp",
+  "obra": "A instituição do Rosário",
+  "autor": "Giovanni Battista Tiepolo",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Giovanni_Battista_Tiepolo_-_The_Institution_of_the_Rosary_-_WGA22275.jpg",
+  "foco": "50% 35%"
+ },
+ "oracao:ave-regina-caelorum": {
+  "arquivo": "coroacao-da-virgem-fra-angelico.webp",
+  "obra": "Coroação da Virgem",
+  "autor": "Fra Angelico",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Fra_Angelico_-_Coronation_of_the_Virgin_-_WGA0627.jpg",
+  "foco": "50% 25%"
+ },
+ "novena:aparecida": {
+  "arquivo": "aparecida-imagem.webp",
+  "obra": "Imagem de Nossa Senhora Aparecida",
+  "autor": "Marinha do Brasil",
+  "licenca": "CC BY-SA 2.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Imagem_de_Nossa_Senhora_Aparecida_na_Missa_alusiva_aos_200_Anos_da_Independ%C3%AAncia_do_Brasil_-_Catedral_Bas%C3%ADlica_de_Salvador_(BA)_(52339432128).jpg",
+  "foco": "45% 45%"
+ },
+ "novena:divina-misericordia": {
+  "arquivo": "divina-misericordia-detalhe.webp",
+  "obra": "Jesus Misericordioso (detalhe)",
+  "autor": "Eugeniusz Kazimirowski",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Divine_Mercy.jpg",
+  "foco": "50% 25%"
+ },
+ "rezar:evangelho": {
+  "arquivo": "sao-mateus-rembrandt.webp",
+  "obra": "O evangelista Mateus inspirado pelo anjo",
+  "autor": "Rembrandt",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:The_Evangelist_Matthew_Inspired_by_an_Angel.jpg",
+  "foco": "45% 35%"
+ },
+ "curso:rezar-com-a-biblia": {
+  "arquivo": "profetisa-ana-rembrandt.webp",
+  "obra": "Velha lendo, provavelmente a profetisa Ana",
+  "autor": "Rembrandt",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Oude_lezende_vrouw,_waarschijnlijk_de_profetes_Hanna_Rijksmuseum_SK-A-3066.jpeg",
+  "foco": "50% 40%"
+ },
+ "rezar:intencoes": {
+  "arquivo": "maos-em-oracao-durer.webp",
+  "obra": "Mãos em oração",
+  "autor": "Albrecht Dürer",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Albrecht_D%C3%BCrer_-_Praying_Hands,_1508_-_Google_Art_Project.jpg",
+  "foco": "50% 40%"
+ },
+ "rezar:exame": {
+  "arquivo": "lagrimas-de-sao-pedro-el-greco.webp",
+  "obra": "As lágrimas de São Pedro",
+  "autor": "El Greco",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:El_Greco_-_Saint_Peter_in_Tears_-_Google_Art_Project.jpg",
+  "foco": "50% 30%"
+ },
+ "oracao:sinal-da-cruz": {
+  "arquivo": "salvator-mundi-antonello.webp",
+  "obra": "Salvator Mundi (Cristo abençoando)",
+  "autor": "Antonello da Messina",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Antonello_da_Messina_-_Salvator_Mundi_-_WGA0757.jpg",
+  "foco": "50% 35%"
+ },
+ "oracao:gloria": {
+  "arquivo": "anuncio-aos-pastores-bassano.webp",
+  "obra": "O anúncio aos pastores",
+  "autor": "Jacopo Bassano",
+  "licenca": "CC0",
+  "url": "https://commons.wikimedia.org/wiki/File:Jacopo_Bassano,_The_Annunciation_to_the_Shepherds,_probably_1555-1560,_NGA_267.jpg",
+  "foco": "50% 30%"
+ },
+ "oracao:veni-creator": {
+  "arquivo": "espirito-santo-bernini.webp",
+  "obra": "A pomba do Espírito Santo, Basílica de São Pedro",
+  "autor": "Gian Lorenzo Bernini (foto: Wilfredor)",
+  "licenca": "CC0",
+  "url": "https://commons.wikimedia.org/wiki/File:Holy_Spirit_stained-glass_window_(Cathedra_Petri).jpg",
+  "foco": "50% 50%"
+ },
+ "oracao:comunhao-espiritual": {
+  "arquivo": "ultima-ceia-juan-de-juanes.webp",
+  "obra": "A Última Ceia",
+  "autor": "Juan de Juanes",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:La_%C3%9Altima_Cena_(Juan_de_Juanes)_(restaurada).jpg",
+  "foco": "50% 40%"
+ },
+ "curso:missa-explicada": {
+  "arquivo": "missa-de-sao-gregorio-campin.webp",
+  "obra": "A missa de São Gregório",
+  "autor": "Robert Campin",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Mass_of_Saint_Gregory_(1440)_by_Robert_Campin.jpg",
+  "foco": "50% 40%"
+ },
+ "oracao:ladainha-do-espirito-santo": {
+  "arquivo": "pentecostes-van-dyck.webp",
+  "obra": "Pentecostes",
+  "autor": "Anthony van Dyck",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Dyck,_Anthonis_van_-_Pouring_of_the_Holy_Ghost_-_Bildergalerie_Sanssouci.jpeg",
+  "foco": "50% 30%"
+ },
+ "novena:espirito-santo": {
+  "arquivo": "pentecostes-marmion.webp",
+  "obra": "Pentecostes: a Virgem entre os apóstolos",
+  "autor": "Seguidor de Simon Marmion",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Follower_of_Simon_Marmion_-_Pentecost_showing_the_Virgin_surrounded_by_12_apostles.jpg",
+  "foco": "50% 40%"
+ },
+ "rezar:grupos": {
+  "arquivo": "pentecostes-livro-de-horas.webp",
+  "obra": "Pentecostes, Livro de Horas de Simon de Varie",
+  "autor": "Mestre de Jean Rolin",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Pentecost_-_the_Holy_Spirit_descends_upon_Mary_and_the_apostles_-_Book_of_hours_Simon_de_Varie_-_KB_74_G37a_-_029r_min.jpg",
+  "foco": "50% 40%"
+ },
+ "oracao:manha": {
+  "arquivo": "manha-friedrich.webp",
+  "obra": "Manhã nos Montes Gigantes",
+  "autor": "Caspar David Friedrich",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich,_Morgen_im_Riesengebirge.jpg",
+  "foco": "50% 45%"
+ },
+ "rezar:manha": {
+  "arquivo": "manha-friedrich.webp",
+  "obra": "Manhã nos Montes Gigantes",
+  "autor": "Caspar David Friedrich",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich,_Morgen_im_Riesengebirge.jpg",
+  "foco": "50% 45%"
+ },
+ "rezar:noite": {
+  "arquivo": "getsemani-bloch.webp",
+  "obra": "Cristo no Getsêmani",
+  "autor": "Carl Bloch",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Carl_Heinrich_Bloch_-_Gethsemane.jpg",
+  "foco": "50% 40%"
+ },
+ "oracao:ladainha-do-nome-de-jesus": {
+  "arquivo": "triunfo-do-nome-de-jesus-baciccio.webp",
+  "obra": "O triunfo do Nome de Jesus",
+  "autor": "Giovanni Battista Gaulli (Baciccio)",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Baciccio,_The_Triumph_of_the_Name_of_Jesus,_1676-79.jpg",
+  "foco": "50% 30%"
+ },
+ "oracao:deus-vinde": {
+  "arquivo": "rei-davi-honthorst.webp",
+  "obra": "O rei Davi tocando harpa",
+  "autor": "Gerard van Honthorst",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Gerard_van_Honthorst_-_King_David_Playing_the_Harp_-_Google_Art_Project.jpg",
+  "foco": "50% 30%"
+ },
+ "oracao:oracao-final-de-sao-miguel": {
+  "arquivo": "sao-miguel-icone-bizantino.webp",
+  "obra": "São Miguel Arcanjo, ícone bizantino (século XIV)",
+  "autor": "Autor desconhecido (foto: George E. Koronaios)",
+  "licenca": "CC BY-SA 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Icon_with_the_Archangel_Michael_(14th_cent.)_at_the_Byzantine_and_Christian_Museum_on_12_April_2019.jpg",
+  "foco": "50% 25%"
+ },
+ "rezar:sao-miguel": {
+  "arquivo": "sao-miguel-icone-yaroslavl.webp",
+  "obra": "São Miguel Arcanjo, ícone de Yaroslavl (século XIII)",
+  "autor": "Autor desconhecido",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Saint_Michael_(Yaroslavl,_13th_c.,_GTG).jpg",
+  "foco": "50% 25%"
+ },
+ "novena:sao-miguel": {
+  "arquivo": "sao-miguel-icone-vacaresti.webp",
+  "obra": "São Miguel Arcanjo, ícone de Văcărești",
+  "autor": "Autor desconhecido",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:V%C4%83c%C4%83re%C8%99ti_icon_of_the_Archangel_Michael.png",
+  "foco": "50% 25%"
+ },
+ "oracao:o-jesus-que-viveis-em-maria": {
+  "arquivo": "madona-do-parto-piero.webp",
+  "obra": "Madona do Parto",
+  "autor": "Piero della Francesca",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Piero_della_Francesca_-_Madonna_del_Parto_-_WGA17613.jpg",
+  "foco": "50% 30%"
+ },
+ "oracao:consagracao-a-nossa-senhora": {
+  "arquivo": "madona-do-granduca-rafael.webp",
+  "obra": "Madona do Grão-Duque",
+  "autor": "Rafael",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Raffaello_(1483-1520)_-_La_Madonna_del_Granduca_-_178_-_Galleria_Palatina.jpg",
+  "foco": "50% 30%"
+ },
+ "oracao:alma-redemptoris-mater": {
+  "arquivo": "madona-da-cadeira-rafael.webp",
+  "obra": "Madona da Cadeira",
+  "autor": "Rafael",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Raphael_Madonna_della_seggiola.jpg",
+  "foco": "50% 40%"
+ },
+ "rezar:ladainhas": {
+  "arquivo": "maesta-cimabue.webp",
+  "obra": "Maestà de Santa Trinita",
+  "autor": "Cimabue",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Cimabue_-_Maest%C3%A0_di_Santa_Trinita_-_Google_Art_Project.jpg",
+  "foco": "50% 30%"
+ },
+ "rezar:oficio": {
+  "arquivo": "anunciacao-tres-riches-heures.webp",
+  "obra": "Anunciação, As Riquíssimas Horas do Duque de Berry",
+  "autor": "Irmãos Limbourg",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Tr%C3%A8s_Riches_Heures_du_Duc_de_Berry_-_Folio_26r_-_The_Annunciation_-_detail_-_characters.jpg",
+  "foco": "50% 40%"
+ },
+ "oracao:oracao-do-rosario": {
+  "arquivo": "virgem-do-rosario-sassoferrato.webp",
+  "obra": "Virgem do Rosário",
+  "autor": "Sassoferrato (foto: Sailko)",
+  "licenca": "CC BY 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Sassoferrato,_madonna_del_rosario,_1643,_01.jpg",
+  "foco": "50% 25%"
+ },
+ "oracao:oferecimento-do-terco": {
+  "arquivo": "sao-domingos-rosario-sassoferrato.webp",
+  "obra": "São Domingos recebe o Rosário (detalhe)",
+  "autor": "Sassoferrato (foto: Sailko)",
+  "licenca": "CC BY 3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Sassoferrato,_madonna_del_rosario,_1643,_06_domenico.jpg",
+  "foco": "50% 30%"
+ },
+ "rezar:terco-juventude": {
+  "arquivo": "terco-contas.webp",
+  "obra": "Terço de contas de madeira",
+  "autor": "Auckland Museum",
+  "licenca": "CC BY 4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Rosary_beads_(AM_1965.78.591-5).jpg",
+  "foco": "50% 50%"
+ },
+ "novena:santa-teresinha": {
+  "arquivo": "santa-teresinha-1896.webp",
+  "obra": "Santa Teresinha do Menino Jesus (foto de 1896)",
+  "autor": "Céline Martin",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Teresa-de-Lisieux.jpg",
+  "foco": "50% 30%"
+ },
+ "oracao:saudacao-1": {
+  "arquivo": "empireo-dore.webp",
+  "obra": "O Empíreo (Paraíso, canto 31)",
+  "autor": "Gustave Doré",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Paradiso_Canto_31.jpg",
+  "foco": "50% 35%"
+ },
+ "oracao:saudacao-2": {
+  "arquivo": "assuncao-botticini.webp",
+  "obra": "Assunção da Virgem, com as hierarquias dos anjos",
+  "autor": "Francesco Botticini",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Francesco_Botticini_-_The_Assumption_of_the_Virgin.jpg",
+  "foco": "50% 30%"
+ },
+ "oracao:saudacao-7": {
+  "arquivo": "principados-guariento.webp",
+  "obra": "Anjo armado (Principados)",
+  "autor": "Guariento di Arpo",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Guariento_di_Arpo_-_Armed_Angel_(Principatus)_-_1962.279_-_Fogg_Museum.jpg",
+  "foco": "50% 30%"
+ },
+ "curso:preparacao-para-a-crisma": {
+  "arquivo": "pentecostes-duccio.webp",
+  "obra": "Pentecostes",
+  "autor": "Duccio di Buoninsegna",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Duccio_di_Buoninsegna_018.jpg",
+  "foco": "50% 40%"
+ },
+ "rezar:via-sacra": {
+  "arquivo": "cristo-carregando-a-cruz-el-greco.webp",
+  "obra": "Cristo carregando a cruz",
+  "autor": "El Greco",
+  "licenca": "CC0",
+  "url": "https://commons.wikimedia.org/wiki/File:Christ_Carrying_the_Cross_MET_DT714.jpg",
+  "foco": "50% 30%"
+ },
+ "desafio:setembro": {
+  "arquivo": "sao-jeronimo-ghirlandaio.webp",
+  "obra": "São Jerônimo em seu estúdio",
+  "autor": "Domenico Ghirlandaio",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Domenico_Ghirlandaio_-_St_Jerome_in_his_study.jpg",
+  "foco": "50% 30%"
+ },
+ "novena:sagrado-coracao": {
+  "arquivo": "visao-de-santa-margarida-maria.webp",
+  "obra": "A visão do Coração de Jesus a Santa Margarida Maria Alacoque",
+  "autor": "Autor desconhecido",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:La_Visione_del_Cuore_di_Ges%C3%B9_di_S.Margherita_Maria_Alacoque.jpg",
+  "foco": "50% 30%"
+ },
+ "oracao:saudacao-8": {
+  "arquivo": "tres-arcanjos-botticini.webp",
+  "obra": "Os três arcanjos e Tobias",
+  "autor": "Francesco Botticini",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Francesco_Botticini_-_I_tre_Arcangeli_e_Tobias.jpg",
+  "foco": "50% 35%"
+ },
+ "oracao:saudacao-9": {
+  "arquivo": "anjo-musico-melozzo.webp",
+  "obra": "Anjo músico",
+  "autor": "Melozzo da Forlì",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Da_Forli_-_Music-Making_Angel.jpg",
+  "foco": "50% 30%"
+ },
+ "oracao:saudacao-3": {
+  "arquivo": "nono-ceu-dore.webp",
+  "obra": "O nono céu: os coros dos anjos (Paraíso, canto 28)",
+  "autor": "Gustave Doré",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Gustove_Dore,_The_Divine_Comedy,_Paradise,_plate_133,_The_Ninth_Heaven.jpg",
+  "foco": "50% 40%"
+ },
+ "oracao:saudacao-4": {
+  "arquivo": "anjo-com-alaude-melozzo.webp",
+  "obra": "Anjo com alaúde",
+  "autor": "Melozzo da Forlì",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Vatican_image.jpg",
+  "foco": "50% 30%"
+ },
+ "oracao:saudacao-5": {
+  "arquivo": "sao-miguel-guariento.webp",
+  "obra": "São Miguel combate Satanás",
+  "autor": "Guariento di Arpo",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Guariento_-_San_Michele_Arcangelo_combatte_contro_Satana.jpg",
+  "foco": "50% 30%"
+ },
+ "oracao:saudacao-6": {
+  "arquivo": "assuncao-botticini.webp",
+  "obra": "Assunção da Virgem, com as hierarquias dos anjos",
+  "autor": "Francesco Botticini",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Francesco_Botticini_-_The_Assumption_of_the_Virgin.jpg",
+  "foco": "50% 30%"
+ },
+ "oracao:lembrai-vos": {
+  "arquivo": "virgem-em-oracao-sassoferrato.webp",
+  "obra": "A Virgem em oração",
+  "autor": "Sassoferrato",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Sassoferrato_-_Jungfrun_i_b%C3%B6n.jpg",
+  "foco": "50% 35%"
+ },
+ "rezar:consagracao": {
+  "arquivo": "pequena-madona-cowper-rafael.webp",
+  "obra": "A pequena Madona Cowper",
+  "autor": "Rafael",
+  "licenca": "CC0",
+  "url": "https://commons.wikimedia.org/wiki/File:Raphael,_The_Small_Cowper_Madonna,_c._1505,_NGA_1196.jpg",
+  "foco": "50% 30%"
+ },
+ "oracao:te-deum": {
+  "arquivo": "paraiso-fra-angelico.webp",
+  "obra": "O Juízo Final (detalhe: os bem-aventurados)",
+  "autor": "Fra Angelico",
+  "licenca": "Public domain",
+  "url": "https://commons.wikimedia.org/wiki/File:Fra_Angelico_-_Last_Judgement_(detail)_-_WGA00469.jpg",
+  "foco": "50% 40%"
+ }
+}
