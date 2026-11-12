@@ -62,7 +62,10 @@ export const nomeParaOrdenar = (o: Oracao) =>
     .toLowerCase();
 
 export async function oracoesDaCategoria(c: CategoriaDoDevocionario): Promise<OracaoCompleta[]> {
-  const novas = (await Promise.all(c.arquivos.map(doArquivo))).flat();
+  const novas =
+    c.id === "latim"
+      ? (await todasDoDevocionario()).filter((o) => o.la && o.la.length > 0)
+      : (await Promise.all(c.arquivos.map(doArquivo))).flat();
   const existentes = c.existentes ? ORACOES_DA_LISTA.filter(c.existentes) : [];
   const vistos = new Set<string>();
   const todas = [...existentes, ...novas].filter((o) => !vistos.has(o.id) && vistos.add(o.id));
