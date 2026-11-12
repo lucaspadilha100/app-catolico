@@ -265,7 +265,8 @@ Legenda: ✅ pronto · 🔨 em andamento · ⬜ a fazer · 👤 precisa do dono
 ### Leva 17. Lançamento ⬜
 - ✅ 👤 Vercel ligado ao GitHub (cada push publica) e Supabase aplicando as migrações sozinho
 - ✅ 👤 Nome definitivo: **Minha Igrejinha** (10/11/2026)
-- ⬜ 👤 Registrar `minhaigrejinha.com.br` e `minhaigrejinha.org`, conferir INPI e o @ no Instagram
+- ✅ 👤 Instagram garantido: @minhaigrejinhaapp (12/11/2026)
+- ⬜ 👤 Registrar `minhaigrejinha.com.br` e `minhaigrejinha.org` (o link da bio ainda é o da Vercel) e conferir o INPI
 - ⬜ 👤 Conta Google Play e 12 testadores por 14 dias
 - ✅ Textos de divulgação (`docs/lancamento/divulgacao.md`)
 - ⬜ 👤 Lançamento em Natal
