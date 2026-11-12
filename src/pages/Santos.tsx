@@ -20,6 +20,7 @@ import { Cartao, LINHA, LISTA, TituloPagina } from "@/components/Cartao";
 import { Cabecalho, Carregando, Indisponivel, Voltar, useConteudo } from "@/components/Devocao";
 import { NaoEncontrada } from "@/pages/Simples";
 import { oracaoDoSanto, type OracaoCompleta } from "@/oracao/devocionario";
+import { textoDasLinhas } from "@/oracao/oracoes";
 import { TextoDaOracao } from "@/components/TextoDaOracao";
 import { compartilhar, enderecoPublico } from "@/lib/nativo";
 
@@ -257,7 +258,9 @@ export function SantoPagina() {
   const novena = NOVENAS.find((n) => "mes" in n.festa && `${String(n.festa.mes).padStart(2, "0")}${String(n.festa.dia).padStart(2, "0")}` === s.data);
 
   async function enviar() {
-    const texto = [s!.nome, linhaDoSanto(s!), "", s!.resumo].join("\n");
+    const partes = [s!.nome, linhaDoSanto(s!), "", s!.historia.join("\n\n")];
+    if (oracao) partes.push("", oracao.nome, textoDasLinhas(oracao.pt));
+    const texto = partes.join("\n");
     const url = `${enderecoPublico()}/santos/${s!.id}`;
     const r = await compartilhar({ titulo: s!.nome, texto, url });
     if (r === "copiado") {

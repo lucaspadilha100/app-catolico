@@ -840,6 +840,14 @@ const normalizar = (s: string) =>
     .replace(/\p{M}/gu, "")
     .toLowerCase();
 
+export const textoDasLinhas = (linhas: Linha[] = []) =>
+  linhas
+    .map((l) =>
+      typeof l === "string" ? l : "v" in l ? `${l.v}\n${l.r}` : "invocacoes" in l ? l.invocacoes.map((i) => `${i} ${l.resposta}`).join("\n") : l.rezar,
+    )
+    .filter(Boolean)
+    .join("\n");
+
 const textoCorrido = (linhas: Linha[] = []) =>
   linhas
     .map((l) =>

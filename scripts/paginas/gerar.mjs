@@ -26,12 +26,13 @@ const curto = (t, n = 155) => {
   return s.length > n ? `${s.slice(0, n - 1).replace(/\s+\S*$/, "")}…` : s;
 };
 
-function escrever(caminho, titulo, descricao, corpo) {
+function escrever(caminho, titulo, descricao, corpo, imagem) {
   const url = `${SITE}${caminho}`;
+  const og = imagem ? `\n<meta property="og:image" content="${esc(SITE + imagem)}" />` : "";
   const html = modelo
     .replace(/<title>[^<]*<\/title>/, `<title>${esc(titulo)}</title>`)
     .replace(/<meta name="description" content="[^"]*" \/>/, `<meta name="description" content="${esc(descricao)}" />`)
-    .replace("</head>", `<link rel="canonical" href="${esc(url)}" />\n<meta property="og:title" content="${esc(titulo)}" />\n<meta property="og:description" content="${esc(descricao)}" />\n<meta property="og:type" content="article" />\n<meta property="og:url" content="${esc(url)}" />\n</head>`)
+    .replace("</head>", `<link rel="canonical" href="${esc(url)}" />\n<meta property="og:title" content="${esc(titulo)}" />\n<meta property="og:description" content="${esc(descricao)}" />\n<meta property="og:type" content="article" />\n<meta property="og:url" content="${esc(url)}" />${og}\n</head>`)
     .replace('<div id="root"></div>', `<div id="root"><div style="max-width:42rem;margin:0 auto;padding:1.25rem 1rem 6rem;line-height:1.7;font-family:Georgia,serif">${corpo}</div></div>`);
   const pasta = join(DIST, caminho);
   mkdirSync(pasta, { recursive: true });
@@ -102,7 +103,7 @@ async function santos() {
   for (const s of lista) {
     const corpo = [h1(s.nome), p(s.resumo), ...s.historia.map(p)];
     if (s.padroeiro?.length) corpo.push(p(`Padroeiro ${s.padroeiro.join(", ")}.`));
-    escrever(`/santos/${s.id}`, `${s.nome} | Santos | ${m.NOME_DO_APP}`, curto(s.resumo), corpo.join("\n"));
+    escrever(`/santos/${s.id}`, `${s.nome} | Santos | ${m.NOME_DO_APP}`, curto(s.resumo), corpo.join("\n"), m.caminhoDaImagem(s));
   }
   return lista.length;
 }
