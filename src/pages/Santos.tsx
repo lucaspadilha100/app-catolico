@@ -1,7 +1,7 @@
 import { textoDoCredito } from "@/lib/imagens";
 import { useEffect, useMemo, useState } from "react";
 import { Link, useParams, useSearchParams } from "react-router-dom";
-import { ChevronRight, Heart, Search, UserRound } from "lucide-react";
+import { Check, ChevronRight, Heart, Search, Share2, UserRound } from "lucide-react";
 import { diaEMes, dia, hoje, paraIso } from "@/liturgia/datas";
 import { NOVENAS } from "@/devocao/catalogo";
 import {
@@ -21,6 +21,7 @@ import { Cabecalho, Carregando, Indisponivel, Voltar, useConteudo } from "@/comp
 import { NaoEncontrada } from "@/pages/Simples";
 import { oracaoDoSanto, type OracaoCompleta } from "@/oracao/devocionario";
 import { TextoDaOracao } from "@/components/TextoDaOracao";
+import { compartilhar, enderecoPublico } from "@/lib/nativo";
 
 const MESES = ["Jan", "Fev", "Mar", "Abr", "Mai", "Jun", "Jul", "Ago", "Set", "Out", "Nov", "Dez"];
 const mmddDe = (d: Date) => paraIso(d).slice(5).replace("-", "");
@@ -235,6 +236,7 @@ export function SantoPagina() {
   const todos = useTodosOsSantos();
   const [devocao, alternar] = useSantosDeDevocao();
   const [imagemFalhou, setImagemFalhou] = useState(false);
+  const [copiado, setCopiado] = useState(false);
   useEffect(() => setImagemFalhou(false), [id]);
   const [oracao, setOracao] = useState<OracaoCompleta | null>(null);
   useEffect(() => {
@@ -254,6 +256,17 @@ export function SantoPagina() {
   const meu = devocao.includes(s.id);
   const novena = NOVENAS.find((n) => "mes" in n.festa && `${String(n.festa.mes).padStart(2, "0")}${String(n.festa.dia).padStart(2, "0")}` === s.data);
 
+  async function enviar() {
+    const texto = [s!.nome, linhaDoSanto(s!), "", s!.resumo].join("\n");
+    const url = `${enderecoPublico()}/santos/${s!.id}`;
+    const r = await compartilhar({ titulo: s!.nome, texto, url });
+    if (r === "copiado") {
+      setCopiado(true);
+      setTimeout(() => setCopiado(false), 2500);
+    }
+    if (r === "erro") window.open(`https://wa.me/?text=${encodeURIComponent(`${texto}\n\n${url}`)}`, "_blank", "noopener");
+  }
+
   return (
     <div className="flex flex-col gap-5">
       <Voltar para="/santos">Santos</Voltar>
@@ -271,12 +284,22 @@ export function SantoPagina() {
           </figcaption>
         </figure>
       )}
-      <header>
-        <p className="text-sm font-medium text-tinta-suave">
-          {linhaDoSanto(s)}
-        </p>
-        <h1 className="mt-1 text-3xl font-extrabold leading-tight text-marca tracking-[-0.02em]">{s.nome}</h1>
-        <p className="mt-2 text-tinta-suave">{s.resumo}</p>
+      <header className="flex items-start justify-between gap-3">
+        <div>
+          <p className="text-sm font-medium text-tinta-suave">
+            {linhaDoSanto(s)}
+          </p>
+          <h1 className="mt-1 text-3xl font-extrabold leading-tight text-marca tracking-[-0.02em]">{s.nome}</h1>
+          <p className="mt-2 text-tinta-suave">{s.resumo}</p>
+        </div>
+        <button
+          type="button"
+          onClick={() => void enviar()}
+          aria-label={`Compartilhar ${s.nome}`}
+          className="mt-1 grid size-11 shrink-0 place-items-center rounded-full bg-cartao text-tinta"
+        >
+          {copiado ? <Check className="size-5 text-destaque-texto" aria-hidden /> : <Share2 className="size-5" aria-hidden />}
+        </button>
       </header>
       {s.padroeiro && s.padroeiro.length > 0 && (
         <div className="flex flex-wrap items-center gap-2">
