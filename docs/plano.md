@@ -462,5 +462,6 @@ participa acompanha no celular, ao vivo, pelo link ou pelo QR code.
 - ✅ Tela Orações reorganizada: Sacramentos + Devocionário; categoria grande com busca e A-Z; oração na página do santo
 - ✅ Nomes de santos como os fiéis conhecem (São Juan Diego, São John Henry Newman e outros; `docs/santos/nomes-revisados.md`)
 - ⬜ 👤 Revisar as orações (`docs/oracoes/a-revisar.md`)
-- ⬜ Imagens dos 249 santos e títulos do acervo que ainda não têm (Commons, em levas)
+- ✅ Compartilhar na página do santo (pedido do dono, 12/11/2026)
+- 🔄 Imagens dos 249 santos e títulos do acervo: 205 escolhidas e com licença conferida (Wikidata P18 + Commons); download aguardando o limite de requisições do Wikimedia liberar (retomada automática agendada); 44 ficam sem imagem (fotos recentes com direitos, ou só fachadas de igreja)
 - ⬜ 💰 Ideia para depois, do dono: cursos no app com acesso por valor simbólico, ao lado do Apoie
