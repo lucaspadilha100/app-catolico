@@ -456,3 +456,11 @@ participa acompanha no celular, ao vivo, pelo link ou pelo QR code.
 - ✅ Capelas ligadas à matriz, área missionária/pastoral e quase-paróquia como tipos próprios, nomes limpos
 - ⬜ 👤 Diocese de Mossoró: 6 de 57; pedir a lista à cúria, (84) 3314-7255, ou nova rodada de busca
 - ⬜ Próximos estados, no mesmo molde (`fontes/paroquias/pesquisa-rn-2026-11/FORMATO.md`)
+
+### Leva 35. Devocionário completo ✅
+- ✅ 603 orações novas por categoria (carregadas sob demanda): 457 aos santos, 33 títulos de Nossa Senhora, São José, manhã, noite, ao Senhor, Espírito Santo, Eucaristia, diversas, 25 ladainhas, latim e Verdades da fé
+- ✅ Tela Orações reorganizada: Sacramentos + Devocionário; categoria grande com busca e A-Z; oração na página do santo
+- ✅ Nomes de santos como os fiéis conhecem (São Juan Diego, São John Henry Newman e outros; `docs/santos/nomes-revisados.md`)
+- ⬜ 👤 Revisar as orações (`docs/oracoes/a-revisar.md`)
+- ⬜ Imagens dos 249 santos e títulos do acervo que ainda não têm (Commons, em levas)
+- ⬜ 💰 Ideia para depois, do dono: cursos no app com acesso por valor simbólico, ao lado do Apoie

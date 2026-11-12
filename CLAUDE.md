@@ -124,6 +124,22 @@ configurado desde o início) · **Supabase** plano gratuito (projeto
   `roteiro-<codigo>` (sem tabela no Realtime) e a tela relê o estado a cada
   15 s por segurança. Leitura do bloco usa a numeração da NOSSA Bíblia (como o
   leitor mostra), não a do lecionário.
+- **Devocionário** (12/11/2026, pedido do dono: orações "para quantos santos
+  forem possíveis"): `src/oracao/devocionario/`, um arquivo por categoria,
+  carregado SÓ quando a categoria abre (`import.meta.glob` em `index.ts`; o
+  bundle principal não cresce). 603 orações: 457 aos santos (uma por santo do
+  acervo, `santo: <id>` liga a oração à página do santo), 33 títulos de Nossa
+  Senhora, São José, manhã, noite, ao Senhor, Espírito Santo, Eucaristia,
+  diversas, ladainhas, latim e Verdades da fé. Cada oração tem `fonte`
+  (`tradicional` = domínio público com tradução NOSSA; `magisterio` = fórmula
+  citada por referência; `propria` = texto da equipe) e `origem`, que a tela
+  mostra. ⚠️ Oração conhecida de santo recente costuma ter DONO (causa,
+  congregação): na dúvida, texto próprio. Venerável e Servo de Deus não levam
+  "rogai por nós" (culto público só a partir de beato); aparição só é citada
+  como aparição se reconhecida. O que o dono revisa: `docs/oracoes/a-revisar.md`.
+  Tela: Orações = Sacramentos + categorias do devocionário (`CATEGORIAS`);
+  categoria `grande` abre página própria com busca e A-Z
+  (`/rezar/oracoes/categoria/:id`); "Em latim" é calculada (tudo o que tem `la`).
 
 ## Acabamento profissional (pedido do dono, 10/11/2026)
 - **Sem cara de IA.** Código sem comentários explicativos (só o raro que evita
