@@ -72,7 +72,8 @@ async function liturgia() {
     const depois = m.paraIso(m.somaDias(d, 1));
     partes.push(`<nav>${a(`/liturgia/${antes}`, "Dia anterior")} · ${a(`/liturgia/${depois}`, "Dia seguinte")}</nav>`);
     const ev = missa.leituras.find((x) => x.tipo === "evangelho");
-    escrever(`/liturgia/${iso}`, `Liturgia diária de ${m.dataPorExtenso(d).toLowerCase()} | ${m.NOME_DO_APP}`, curto(`${l.titulo}. Leituras, salmo e Evangelho do dia${ev ? ` (${ev.referencia})` : ""}, com reflexão.`), partes.join("\n"));
+    const arte = evangelho ? await m.arteDoEvangelho(evangelho).catch(() => null) : null;
+    escrever(`/liturgia/${iso}`, `Liturgia diária de ${m.dataPorExtenso(d).toLowerCase()} | ${m.NOME_DO_APP}`, curto(`${l.titulo}. Leituras, salmo e Evangelho do dia${ev ? ` (${ev.referencia})` : ""}, com reflexão.`), partes.join("\n"), arte ? m.caminhoDaArte(arte) : undefined);
     n++;
   }
   return n;

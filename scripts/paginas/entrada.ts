@@ -4,6 +4,7 @@ export { textoDaReferencia, carregarLivro } from "@/biblia/texto";
 export { LIVROS } from "@/biblia/livros";
 export { todosOsSantos, caminhoDaImagem } from "@/santos/santos";
 export { reflexaoDoEvangelho } from "@/reflexoes/reflexoes";
+export { arteDoEvangelho, caminhoDaArte } from "@/liturgia/arte";
 export { dataPorExtenso, deIso, paraIso, somaDias, hoje } from "@/liturgia/datas";
 export { agruparDias, descreverHorario, telefoneLegivel } from "@/paroquias/horarios";
 export { NOME_DO_APP, ENDERECO_DO_SITE } from "@/marca";

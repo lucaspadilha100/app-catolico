@@ -463,5 +463,6 @@ participa acompanha no celular, ao vivo, pelo link ou pelo QR code.
 - ✅ Nomes de santos como os fiéis conhecem (São Juan Diego, São John Henry Newman e outros; `docs/santos/nomes-revisados.md`)
 - ⬜ 👤 Revisar as orações (`docs/oracoes/a-revisar.md`)
 - ✅ Compartilhar na página do santo (pedido do dono, 12/11/2026)
+- ✅ Compartilhar o Evangelho do dia: texto completo com link, pintura do dia no cartão do link e imagem pronta para o Stories, com os créditos do app (pedido do dono, 12/11/2026)
 - 🔄 Imagens dos 249 santos e títulos do acervo: 205 escolhidas e com licença conferida (Wikidata P18 + Commons); download aguardando o limite de requisições do Wikimedia liberar (retomada automática agendada); 44 ficam sem imagem (fotos recentes com direitos, ou só fachadas de igreja)
 - ⬜ 💰 Ideia para depois, do dono: cursos no app com acesso por valor simbólico, ao lado do Apoie

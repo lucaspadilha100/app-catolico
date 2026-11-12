@@ -28,6 +28,7 @@ import { OracoesDoDia } from "@/components/OracoesDoDia";
 import { NovenasDoMes } from "@/components/NovenasDoMes";
 import { ehTempoPascal } from "@/oracao/oracoes";
 import { textoDaReferencia } from "@/biblia/texto";
+import { fraseDoEvangelho, imagemDoEvangelho } from "@/liturgia/imagemDoEvangelho";
 
 const COR_PONTO: Record<CorLiturgica, string> = {
   verde: "bg-[#2e7a4d]",
@@ -100,15 +101,36 @@ export default function Hoje() {
   async function enviarLiturgia() {
     const leituras = (missas?.[0]?.leituras ?? []).filter((x) => !x.ou && x.forma !== "breve" && ROTULO_CURTO[x.tipo]);
     const iso = paraIso(l.data);
-    const texto = [
+    const partes = [
       `Liturgia de ${dataPorExtenso(l.data).toLowerCase()}`,
       l.titulo,
       "",
       ...leituras.map((x) => `${ROTULO_CURTO[x.tipo]}: ${x.referencia}`),
-    ].join("\n");
+    ];
+    if (canonica) {
+      const trechos = await textoDaReferencia(canonica).catch(() => []);
+      const textoDoEvangelho = trechos.flatMap((t) => t.versiculos.map((v) => v.texto)).join(" ");
+      if (textoDoEvangelho) partes.push("", `Evangelho (${evangelho?.referencia ?? ""})`, textoDoEvangelho);
+    }
+    const texto = partes.join("\n");
     const url = `${enderecoPublico()}/liturgia/${iso}`;
     const r = await compartilhar({ titulo: "Liturgia do dia", texto, url });
     if (r === "erro") window.open(`https://wa.me/?text=${encodeURIComponent(`${texto}\n\n${url}`)}`, "_blank", "noopener");
+  }
+
+  async function enviarStories() {
+    if (!canonica || gerando) return;
+    setGerando(true);
+    try {
+      const trechos = await textoDaReferencia(canonica).catch(() => []);
+      const frase = fraseDoEvangelho(trechos.flatMap((t) => t.versiculos.map((v) => v.texto)), arte ? 170 : 220);
+      const blob = await imagemDoEvangelho({ arte, data: dataPorExtenso(l.data), referencia: evangelho?.referencia ?? "", frase });
+      await compartilhar({ titulo: "Evangelho do dia", imagem: { blob, nome: `evangelho-${paraIso(l.data)}.png` } });
+    } catch {
+    } finally {
+      setGerando(false);
+      setCompartilhando(false);
+    }
   }
 
   const linha = "flex min-h-16 items-center gap-3.5 rounded-2xl py-1.5 transition-colors hover:bg-cartao/70";
@@ -125,6 +147,8 @@ export default function Hoje() {
   const canonica = evangelhoDaMissa(missas?.[0]);
   const evangelho = missas?.[0]?.leituras.find((x) => x.tipo === "evangelho" && !x.ou && x.forma !== "breve");
   const [arte, setArte] = useState<ArteDoEvangelho | null>(null);
+  const [compartilhando, setCompartilhando] = useState(false);
+  const [gerando, setGerando] = useState(false);
   useEffect(() => {
     let ativo = true;
     void arteDoEvangelho(canonica).then((a) => ativo && setArte(a));
@@ -189,7 +213,7 @@ export default function Hoje() {
           )}
           <button
             type="button"
-            onClick={() => void enviarLiturgia()}
+            onClick={() => setCompartilhando(true)}
             aria-label="Compartilhar a liturgia"
             className={`absolute right-3 top-3 grid size-11 place-items-center rounded-full ${arte ? "bg-black/30 text-white backdrop-blur" : "bg-black/10"}`}
           >
@@ -349,6 +373,39 @@ export default function Hoje() {
       <NovidadesDasIgrejas />
 
       <CartaoDaCampanha />
+
+      {compartilhando && (
+        <div className="fixed inset-0 z-30" onClick={() => !gerando && setCompartilhando(false)}>
+          <div className="absolute inset-0 bg-black/40" aria-hidden />
+          <div
+            role="dialog"
+            aria-label="Compartilhar o Evangelho"
+            onClick={(e) => e.stopPropagation()}
+            className="absolute inset-x-0 bottom-0 mx-auto flex max-w-xl flex-col gap-1 rounded-t-3xl bg-papel p-3 pb-[calc(0.75rem+env(safe-area-inset-bottom))]"
+          >
+            <button
+              type="button"
+              onClick={() => {
+                setCompartilhando(false);
+                void enviarLiturgia();
+              }}
+              className="flex min-h-14 items-center gap-3.5 rounded-2xl px-3 text-left font-semibold text-tinta hover:bg-cartao"
+            >
+              <Share2 className="size-5 shrink-0 text-destaque-texto" aria-hidden />
+              Enviar com o texto
+            </button>
+            <button
+              type="button"
+              onClick={() => void enviarStories()}
+              disabled={gerando || !canonica}
+              className="flex min-h-14 items-center gap-3.5 rounded-2xl px-3 text-left font-semibold text-tinta hover:bg-cartao disabled:opacity-60"
+            >
+              <Image className="size-5 shrink-0 text-destaque-texto" aria-hidden />
+              {gerando ? "Gerando a imagem" : "Imagem para o Stories"}
+            </button>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
