@@ -240,7 +240,8 @@ Legenda: ✅ pronto · 🔨 em andamento · ⬜ a fazer · 👤 precisa do dono
   cada um com a sua hora, no app instalado (iPhone com o app na Tela de
   Início, Android, computador); função `lembretes` no Supabase a cada 5 minutos
 - ✅ 👤 Lembretes ligados no Supabase (chaves, função e agendamento a cada 5 minutos; conferido em 11/11/2026)
-- ⬜ Lembrete dos falecidos (7º e 30º dia, aniversário) e "N pessoas rezaram por você"
+- ✅ Lembrete dos falecidos (7º e 30º dia, aniversário; linha Falecidos em Lembretes, Web Push e notificação no aparelho) e "N pessoas rezaram por você" (12/11/2026)
+- ⬜ 👤 Colar o arquivo único novo da função `lembretes` no painel do Supabase (Edge Functions): sem isso o aviso dos falecidos sai só no app de loja
 - ✅ Sem zoom ao tocar duas vezes no app instalado
 - ⬜ 👤 Google Search Console: cadastrar o site e enviar o sitemap (quando
   houver o domínio definitivo, para não perder o histórico)

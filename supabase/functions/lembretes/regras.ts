@@ -11,6 +11,8 @@ export interface Lembretes {
   terco?: string;
   novena?: string;
   novenas?: NovenaLembrada[];
+  lembrancas?: string;
+  falecidos?: { nome: string; data: string }[];
   avisos?: boolean;
   oracoes?: boolean;
   encontros?: boolean;
@@ -88,6 +90,42 @@ export function avisosDevidos(l: Lembretes, enviados: Record<string, string>, ag
         break;
       }
     }
+  }
+  return r;
+}
+
+function aniversarioHoje(morte: string, iso: string): number {
+  const [am, mm, dm] = morte.split("-").map(Number);
+  const [a, m, d] = iso.split("-").map(Number);
+  if (!am || !mm || !dm || !a || a <= am) return 0;
+  const bissexto = (a % 4 === 0 && a % 100 !== 0) || a % 400 === 0;
+  const mes = mm === 2 && dm === 29 && !bissexto ? 2 : mm;
+  const diaDoMes = mm === 2 && dm === 29 && !bissexto ? 28 : dm;
+  return m === mes && d === diaDoMes ? a - am : 0;
+}
+
+export function lembrancasDevidas(l: Lembretes, enviados: Record<string, string>, agora: Agora): Aviso[] {
+  const r: Aviso[] = [];
+  if (!naHora(minutosDe(l.lembrancas), agora)) return r;
+  for (const f of (l.falecidos ?? []).slice(0, 40)) {
+    const dias = diasEntre(f.data, agora.iso);
+    const anos = aniversarioHoje(f.data, agora.iso);
+    let chave = "";
+    let titulo = "";
+    if (dias === 6) {
+      chave = "setimo";
+      titulo = `Sétimo dia de ${f.nome}`;
+    } else if (dias === 29) {
+      chave = "trigesimo";
+      titulo = `Trigésimo dia de ${f.nome}`;
+    } else if (anos >= 1) {
+      chave = "aniversario";
+      titulo = anos === 1 ? `Um ano do falecimento de ${f.nome}` : `${anos} anos do falecimento de ${f.nome}`;
+    }
+    if (!chave) continue;
+    const tipo = `falecido-${f.data}-${chave}`;
+    if (enviados[tipo] === agora.iso) continue;
+    r.push({ tipo, titulo, corpo: "Reze pelo descanso eterno.", url: "/rezar/falecidos" });
   }
   return r;
 }

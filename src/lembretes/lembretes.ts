@@ -3,6 +3,7 @@ import { diaSugeridoDaNovena } from "@/devocao/andamento";
 import { hoje, paraIso } from "@/liturgia/datas";
 import { minutosDe, type Lembretes, type NovenaLembrada } from "../../supabase/functions/lembretes/regras";
 import { ehNativo } from "@/lib/nativo";
+import { NOME_DA_LEMBRANCA, lerFalecidos, proximaLembranca } from "@/vida/lembrancas";
 import { igrejasQueSigo } from "@/paroquias/seguidas";
 import { lerTercosSeguidos } from "@/tercos/seguidos";
 import { diaLiturgico } from "@/liturgia/calendario";
@@ -17,7 +18,7 @@ const URL_DO_BANCO = import.meta.env.VITE_SUPABASE_URL as string;
 const CHAVE_PUBLICA = import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY as string;
 export const VAPID_PUBLICA = "BDlqlVrwkACqpndHwa9otBwcn3cK-7dZzXvpQibKRKYzdHoZGvnFc3EcMVhW5Y2j-_LWGxcbqwEekCPhbpnmjQM";
 
-export const PADRAO: Lembretes = { evangelho: "07:00", angelus: true, terco: "20:00", novena: "09:00", avisos: true, oracoes: true };
+export const PADRAO: Lembretes = { evangelho: "07:00", angelus: true, terco: "20:00", novena: "09:00", lembrancas: "08:00", avisos: true, oracoes: true };
 
 export interface Guardado {
   ativo: boolean;
@@ -104,6 +105,23 @@ async function agendarNoAparelho(l: Lembretes): Promise<"ativo" | "negado" | "er
           lista.push({ id: 4000 + i * 40 + dia, title: n.titulo, body: `Dia ${dia} de ${n.dias}.`, schedule: { at, allowWhileIdle: true }, extra: { url: n.para } });
         }
       });
+    const le = minutosDe(l.lembrancas);
+    if (le !== null)
+      lerFalecidos()
+        .slice(0, 20)
+        .forEach((f, i) => {
+          const lembranca = proximaLembranca(f, hoje());
+          if (!lembranca) return;
+          const at = quando(paraIso(lembranca.data), le);
+          if (at.getTime() <= agora) return;
+          const titulo =
+            lembranca.tipo === "aniversario" && lembranca.anos
+              ? lembranca.anos === 1
+                ? `Um ano do falecimento de ${f.nome}`
+                : `${lembranca.anos} anos do falecimento de ${f.nome}`
+              : `${NOME_DA_LEMBRANCA[lembranca.tipo]} de ${f.nome}`;
+          lista.push({ id: 6000 + i, title: titulo, body: "Reze pelo descanso eterno.", schedule: { at, allowWhileIdle: true }, extra: { url: "/rezar/falecidos" } });
+        });
     if (lista.length) await LocalNotifications.schedule({ notifications: lista.slice(0, 60) });
     return "ativo";
   } catch {
@@ -156,7 +174,13 @@ async function enviar(sub: PushSubscription, lembretes: Lembretes) {
     p_p256dh: j.keys?.p256dh,
     p_auth: j.keys?.auth,
     p_fuso: Intl.DateTimeFormat().resolvedOptions().timeZone,
-    p_lembretes: { ...lembretes, novenas: novenasSeguidas(), igrejas: lembretes.avisos === false ? [] : igrejasQueSigo(), tercos: lembretes.encontros === false ? [] : lerTercosSeguidos() },
+    p_lembretes: {
+      ...lembretes,
+      novenas: novenasSeguidas(),
+      falecidos: lembretes.lembrancas ? lerFalecidos().map(({ nome, data }) => ({ nome, data })) : [],
+      igrejas: lembretes.avisos === false ? [] : igrejasQueSigo(),
+      tercos: lembretes.encontros === false ? [] : lerTercosSeguidos(),
+    },
   });
 }
 

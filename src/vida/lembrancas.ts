@@ -31,6 +31,7 @@ function gravar(lista: Falecido[]) {
     localStorage.setItem(CHAVE, JSON.stringify(lista));
   } catch {}
   window.dispatchEvent(new Event(EVENTO));
+  setTimeout(() => void import("@/lembretes/lembretes").then((m) => m.avisarMudancaDeIgrejas()), 300);
 }
 
 export function useFalecidos(): [Falecido[], (f: Omit<Falecido, "id">) => void, (id: string) => void] {

@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { agoraNoFuso, avisosDevidos, encontrosDevidos, escalasDevidas } from "../../supabase/functions/lembretes/regras";
+import { agoraNoFuso, avisosDevidos, encontrosDevidos, escalasDevidas, lembrancasDevidas } from "../../supabase/functions/lembretes/regras";
 
 describe("lembretes", () => {
   const as = (hora: string, iso = "2026-11-10") => {
@@ -30,6 +30,37 @@ describe("lembretes", () => {
     expect(avisosDevidos(l, {}, as("09:00", "2026-11-17"), null)).toEqual([]);
     expect(avisosDevidos(l, {}, as("09:00", "2026-11-20"), null)[0]!.corpo).toBe("Dia 3 de 9.");
     expect(avisosDevidos(l, {}, as("09:00", "2026-11-27"), null)).toEqual([]);
+  });
+});
+
+describe("lembranças dos falecidos", () => {
+  const as = (hora: string, iso: string) => {
+    const [h, m] = hora.split(":").map(Number);
+    return { iso, minutos: h! * 60 + m!, diaDaSemana: new Date(`${iso}T12:00:00Z`).getUTCDay() };
+  };
+  const l = { lembrancas: "08:00", falecidos: [{ nome: "Maria", data: "2026-11-04" }] };
+
+  it("7º dia, 30º dia e aniversário, na hora escolhida", () => {
+    expect(lembrancasDevidas(l, {}, as("08:05", "2026-11-10"))[0]!.titulo).toBe("Sétimo dia de Maria");
+    expect(lembrancasDevidas(l, {}, as("07:55", "2026-11-10"))).toEqual([]);
+    expect(lembrancasDevidas(l, {}, as("08:00", "2026-11-11"))).toEqual([]);
+    expect(lembrancasDevidas(l, {}, as("08:00", "2026-12-03"))[0]!.titulo).toBe("Trigésimo dia de Maria");
+    expect(lembrancasDevidas(l, {}, as("08:00", "2027-11-04"))[0]!.titulo).toBe("Um ano do falecimento de Maria");
+    expect(lembrancasDevidas(l, {}, as("08:00", "2029-11-04"))[0]!.titulo).toBe("3 anos do falecimento de Maria");
+    expect(lembrancasDevidas(l, {}, as("08:00", "2026-11-04"))).toEqual([]);
+  });
+
+  it("uma vez por dia; sem hora ou sem falecidos, nada", () => {
+    expect(lembrancasDevidas(l, { "falecido-2026-11-04-setimo": "2026-11-10" }, as("08:05", "2026-11-10"))).toEqual([]);
+    expect(lembrancasDevidas({ falecidos: l.falecidos }, {}, as("08:00", "2026-11-10"))).toEqual([]);
+    expect(lembrancasDevidas({ lembrancas: "08:00" }, {}, as("08:00", "2026-11-10"))).toEqual([]);
+  });
+
+  it("29 de fevereiro lembra em 28 nos anos comuns", () => {
+    const m = { lembrancas: "08:00", falecidos: [{ nome: "José", data: "2024-02-29" }] };
+    expect(lembrancasDevidas(m, {}, as("08:00", "2026-02-28"))[0]!.titulo).toBe("2 anos do falecimento de José");
+    expect(lembrancasDevidas(m, {}, as("08:00", "2028-02-29"))[0]!.titulo).toBe("4 anos do falecimento de José");
+    expect(lembrancasDevidas(m, {}, as("08:00", "2028-02-28"))).toEqual([]);
   });
 });
 

@@ -1,6 +1,6 @@
 import webpush from "npm:web-push@3.6.7";
 import { createClient } from "npm:@supabase/supabase-js@2";
-import { agoraNoFuso, avisosDevidos, encontrosDevidos, escalasDevidas, type Lembretes, type ServicoNaEscala, type TercoAgendado } from "./regras.ts";
+import { agoraNoFuso, avisosDevidos, encontrosDevidos, escalasDevidas, lembrancasDevidas, type Lembretes, type ServicoNaEscala, type TercoAgendado } from "./regras.ts";
 
 const SITE = Deno.env.get("SITE") ?? "https://app-catolico-five.vercel.app";
 
@@ -172,6 +172,7 @@ Deno.serve(async () => {
       const precisaDoEvangelho = Boolean(i.lembretes.evangelho) && i.enviados.evangelho !== local.iso;
       const avisos = [
         ...avisosDevidos(i.lembretes, i.enviados ?? {}, local, precisaDoEvangelho ? await evangelhoDe(local.iso) : null),
+        ...lembrancasDevidas(i.lembretes, i.enviados ?? {}, local),
         ...encontrosDevidos(tercos, i.lembretes.tercos ?? [], i.enviados ?? {}, local),
         ...(i.usuario_id && i.lembretes.escalas !== false ? escalasDevidas(servicos.get(i.usuario_id) ?? [], i.enviados ?? {}, local) : []),
       ];
