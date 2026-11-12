@@ -203,7 +203,7 @@ function BlocoNaTela({ b, atual, conta, dataDoRoteiro }: { b: Bloco; atual: bool
     );
   }
   return (
-    <section id={`bloco-${b.id}`} className={`scroll-mt-32 rounded-2xl border bg-cartao p-4 transition-colors ${atual ? "border-destaque-texto ring-2 ring-destaque-texto/30" : "border-borda"}`}>
+    <section id={`bloco-${b.id}`} className={`scroll-mt-32 rounded-2xl border bg-cartao p-4 transition-colors ${atual ? "border-destaque-texto ring-2 ring-destaque-texto/30" : "border-transparent"}`}>
       <p className="mb-2 flex flex-wrap items-center gap-x-2 text-xs font-semibold uppercase tracking-wide text-destaque-texto">
         {atual && <Radio className="size-3.5" aria-hidden />}
         {rotuloDoBloco(b)}
@@ -680,7 +680,7 @@ export function EditarRoteiro() {
           const expandido = aberto === b.id;
           return (
             <li key={b.id} className="flex flex-col gap-2">
-              <div className={`rounded-2xl border bg-cartao ${expandido ? "border-destaque-texto/50" : "border-borda"} ${blocoTemConteudo(b) ? "" : "border-dashed"}`}>
+              <div className={`rounded-2xl border bg-cartao ${expandido ? "border-destaque-texto/50" : blocoTemConteudo(b) ? "border-transparent" : "border-borda border-dashed"}`}>
                 <div className="flex items-center gap-1 py-1 pl-3 pr-1">
                   <button type="button" onClick={() => setAberto(expandido ? null : b.id)} className="flex min-h-12 min-w-0 flex-1 flex-col justify-center text-left">
                     <span className="text-xs font-semibold uppercase tracking-wide text-destaque-texto">{rotuloDoBloco(b)}</span>

@@ -356,7 +356,7 @@ function ListaDoPainel() {
       ) : (
         <>
           {lista.map((p) => (
-            <Link key={p.id} to={`/painel/paroquia/${p.id}`} className="flex min-h-14 items-center gap-3 rounded-xl border border-borda bg-cartao px-4 py-2">
+            <Link key={p.id} to={`/painel/paroquia/${p.id}`} className="flex min-h-14 items-center gap-3 rounded-xl bg-cartao px-4 py-2">
               <span className="min-w-0 flex-1">
                 <span className="block leading-snug text-tinta">{p.nome}</span>
                 <span className="block text-sm text-tinta-suave">
@@ -400,7 +400,7 @@ export function Painel() {
             <section className="flex flex-col gap-2">
               <h2 className="titulo-secao px-1">Minhas paróquias</h2>
               {acesso.minhas.map((id) => (
-                <Link key={id} to={`/painel/paroquia/${id}`} className="flex min-h-12 items-center justify-between rounded-xl border border-borda bg-cartao px-4">
+                <Link key={id} to={`/painel/paroquia/${id}`} className="flex min-h-12 items-center justify-between rounded-xl bg-cartao px-4">
                   {nomes[id] ?? "Paróquia"}
                   <ChevronRight className="size-5 text-tinta-suave" aria-hidden />
                 </Link>

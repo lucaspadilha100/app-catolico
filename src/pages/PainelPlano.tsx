@@ -188,7 +188,7 @@ function Turmas({ paroquia }: { paroquia: string }) {
     <Cartao className="flex flex-col gap-3">
       <h2 className={TITULO}>Inscrições</h2>
       {lista?.map((t) => (
-        <div key={t.id} className="flex items-center gap-2 rounded-xl border border-borda">
+        <div key={t.id} className="flex items-center gap-2 rounded-xl bg-papel">
           <Link to={`/painel/paroquia/${paroquia}/turma/${t.id}`} className="flex min-h-14 min-w-0 flex-1 items-center gap-2 px-3 py-2">
             <div className="min-w-0 flex-1">
               <p className="text-tinta">{t.titulo}</p>
@@ -489,7 +489,7 @@ export function InscricoesDaTurma() {
     <div className="flex flex-col gap-4">
       <Voltar para={`/painel/paroquia/${id}`}>Paróquia</Voltar>
       <Cabecalho titulo={t.titulo} subtitulo={[NOME_DA_TURMA[t.tipo], detalhesDaTurma(t)].filter(Boolean).join(" · ")} />
-      <div className="grid grid-cols-2 gap-1 rounded-xl border border-borda bg-papel p-1" role="tablist">
+      <div className="grid grid-cols-2 gap-1 rounded-xl bg-papel p-1" role="tablist">
         {(
           [
             ["", "Inscrições"],

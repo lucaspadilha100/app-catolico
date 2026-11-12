@@ -24,6 +24,7 @@ function Diario() {
   return (
     <div className="flex flex-col gap-4">
       <Cartao className="flex flex-col gap-3">
+        <p className="text-sm font-medium text-tinta-suave">{dataLonga(paraIso(hoje()))}</p>
         <textarea
           value={texto}
           onChange={(e) => setTexto(e.target.value)}
@@ -120,7 +121,7 @@ export default function DiarioEspiritual() {
       </div>
       <PortaDoCofre>
         <div className="flex items-center justify-between gap-2">
-          <div className="inline-grid grid-cols-2 rounded-xl border border-borda bg-cartao p-1" role="tablist">
+          <div className="inline-grid grid-cols-2 rounded-xl bg-cartao p-1" role="tablist">
             {(
               [
                 ["diario", "Diário"],

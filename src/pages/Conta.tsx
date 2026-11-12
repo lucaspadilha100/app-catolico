@@ -64,7 +64,7 @@ function Entrar() {
   return (
     <div className="flex flex-col gap-4">
       <Cartao className="flex flex-col gap-4">
-        <div className="grid grid-cols-2 rounded-xl border border-borda bg-papel p-1" role="tablist">
+        <div className="grid grid-cols-2 rounded-xl bg-papel p-1" role="tablist">
           {(
             [
               ["entrar", "Entrar"],
@@ -188,14 +188,16 @@ export default function Conta() {
       <Voltar para="/mais">Mais</Voltar>
       <Cabecalho titulo="Conta" />
       {!pronto ? <Carregando /> : email ? <Logado /> : <Entrar />}
-      <div className="flex gap-4 px-1 text-sm">
-        <Link to="/privacidade" className="font-medium text-destaque-texto">
-          Privacidade
-        </Link>
-        <Link to="/termos" className="font-medium text-destaque-texto">
-          Termos de uso
-        </Link>
-      </div>
+      {email && (
+        <div className="flex gap-4 px-1 text-sm">
+          <Link to="/privacidade" className="font-medium text-destaque-texto">
+            Privacidade
+          </Link>
+          <Link to="/termos" className="font-medium text-destaque-texto">
+            Termos de uso
+          </Link>
+        </div>
+      )}
     </div>
   );
 }
