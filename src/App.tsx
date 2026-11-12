@@ -59,6 +59,7 @@ const EditarParoquia = lazy(() => import("@/pages/Painel").then((m) => ({ defaul
 const IntencoesDaParoquia = lazy(() => import("@/pages/PainelPlano").then((m) => ({ default: m.IntencoesDaParoquia })));
 const InscricoesDaTurma = lazy(() => import("@/pages/PainelPlano").then((m) => ({ default: m.InscricoesDaTurma })));
 const Painel = lazy(() => import("@/pages/Painel").then((m) => ({ default: m.Painel })));
+const Divulgacao = lazy(() => import("@/pages/Divulgacao"));
 const Biblia = lazy(() => import("@/pages/Biblia").then((m) => ({ default: m.Biblia })));
 const BibliaCapitulo = lazy(() => import("@/pages/Biblia").then((m) => ({ default: m.BibliaCapitulo })));
 const BibliaBusca = lazy(() => import("@/pages/Biblia").then((m) => ({ default: m.BibliaBusca })));
@@ -136,6 +137,7 @@ export default function App() {
         <Route path="grupos/:id" element={<GrupoPagina />} />
         <Route path="grupos/:id/terco" element={<TercoDoGrupoPagina />} />
         <Route path="painel" element={<Painel />} />
+        <Route path="painel/divulgacao" element={<Divulgacao />} />
         <Route path="painel/paroquia/:id" element={<EditarParoquia />} />
         <Route path="painel/paroquia/:id/turma/:turma" element={<InscricoesDaTurma />} />
         <Route path="painel/paroquia/:id/intencoes" element={<IntencoesDaParoquia />} />

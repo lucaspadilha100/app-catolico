@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState, type FormEvent, type ReactNode } from "react";
 import { Link, useNavigate, useParams, useSearchParams } from "react-router-dom";
-import { ChevronRight, Plus, Trash2 } from "lucide-react";
+import { ChevronRight, Plus, Share2, Trash2 } from "lucide-react";
 import { useConta } from "@/conta/useConta";
 import {
   adicionarGestor,
@@ -409,6 +409,9 @@ export function Painel() {
           )}
           {acesso.admin && (
             <>
+              <Link to="/painel/divulgacao" className={`${BOTAO} flex items-center justify-center gap-2`}>
+                <Share2 className="size-5" aria-hidden /> Divulgação
+              </Link>
               <Link to="/painel/paroquia/nova" className={`${BOTAO} flex items-center justify-center gap-2`}>
                 <Plus className="size-5" aria-hidden /> Nova paróquia
               </Link>

@@ -2,11 +2,17 @@ import { NOME_DO_APP } from "@/marca";
 import { enderecoPublico } from "@/lib/nativo";
 import { caminhoDaArte, type ArteDoEvangelho } from "./arte";
 
-const LARGURA = 1080;
-const ALTURA = 1920;
 const CREME = "#FBF0DD";
 const MARROM = "#341E0D";
 const DOURADO = "#D9A94A";
+const FUNDO = "#131210";
+
+export type FormatoDeCartaz = "story" | "post";
+
+const MEDIDAS: Record<FormatoDeCartaz, { altura: number; arte: number; topoDoBloco: number; peDaObra: number; peDoApp: number; comArte: number; semArte: number }> = {
+  story: { altura: 1920, arte: 1180, topoDoBloco: 1270, peDaObra: 170, peDoApp: 110, comArte: 400, semArte: 760 },
+  post: { altura: 1350, arte: 800, topoDoBloco: 885, peDaObra: 140, peDoApp: 92, comArte: 250, semArte: 540 },
+};
 
 function quebrar(ctx: CanvasRenderingContext2D, texto: string, largura: number): string[] {
   const linhas: string[] = [];
@@ -36,37 +42,53 @@ export function fraseDoEvangelho(versiculos: string[], maximo = 220): string {
   return frase;
 }
 
-function carregarArte(arte: ArteDoEvangelho): Promise<HTMLImageElement | null> {
+export function carregarImagem(caminho: string): Promise<HTMLImageElement | null> {
   return new Promise((ok) => {
     const img = document.createElement("img");
     img.onload = () => ok(img);
     img.onerror = () => ok(null);
-    img.src = caminhoDaArte(arte);
+    img.src = caminho;
   });
 }
 
-export async function imagemDoEvangelho(p: { arte: ArteDoEvangelho | null; data: string; referencia: string; frase: string }): Promise<Blob> {
+export interface Cartaz {
+  imagem: HTMLImageElement | null;
+  foco?: string;
+  rotulo: string;
+  data: string;
+  texto: string;
+  destaque: string;
+  credito?: string;
+  formato: FormatoDeCartaz;
+}
+
+export async function cartaz(p: Cartaz): Promise<Blob> {
   await document.fonts?.ready;
+  const m = MEDIDAS[p.formato];
+  const LARGURA = 1080;
   const canvas = document.createElement("canvas");
   canvas.width = LARGURA;
-  canvas.height = ALTURA;
+  canvas.height = m.altura;
   const ctx = canvas.getContext("2d")!;
-  const img = p.arte ? await carregarArte(p.arte) : null;
+  const img = p.imagem;
 
-  ctx.fillStyle = img ? "#131210" : CREME;
-  ctx.fillRect(0, 0, LARGURA, ALTURA);
+  ctx.fillStyle = img ? FUNDO : CREME;
+  ctx.fillRect(0, 0, LARGURA, m.altura);
 
-  if (img && p.arte) {
-    const alturaDaArte = 1180;
-    const escala = Math.max(LARGURA / img.naturalWidth, alturaDaArte / img.naturalHeight);
+  if (img) {
+    const escala = Math.max(LARGURA / img.naturalWidth, m.arte / img.naturalHeight);
     const w = img.naturalWidth * escala;
     const h = img.naturalHeight * escala;
-    ctx.drawImage(img, (LARGURA - w) / 2, 0, w, h);
-    const veu = ctx.createLinearGradient(0, alturaDaArte - 420, 0, alturaDaArte + 60);
+    const focoX = Number(/^(\d+)%/.exec(p.foco ?? "")?.[1] ?? 50) / 100;
+    const focoY = Number(/ (\d+)%/.exec(p.foco ?? "")?.[1] ?? 35) / 100;
+    const x = Math.min(0, Math.max(LARGURA - w, LARGURA / 2 - w * focoX));
+    const y = Math.min(0, Math.max(m.arte - h, m.arte / 2 - h * focoY));
+    ctx.drawImage(img, x, y, w, h);
+    const veu = ctx.createLinearGradient(0, m.arte - 420, 0, m.arte + 60);
     veu.addColorStop(0, "rgba(19, 18, 16, 0)");
-    veu.addColorStop(1, "#131210");
+    veu.addColorStop(1, FUNDO);
     ctx.fillStyle = veu;
-    ctx.fillRect(0, alturaDaArte - 420, LARGURA, 480 + (ALTURA - alturaDaArte));
+    ctx.fillRect(0, m.arte - 420, LARGURA, 480 + (m.altura - m.arte));
   }
 
   const tinta = img ? "#FFFFFF" : MARROM;
@@ -76,19 +98,19 @@ export async function imagemDoEvangelho(p: { arte: ArteDoEvangelho | null; data:
   ctx.textBaseline = "middle";
 
   const larguraDoTexto = LARGURA - 200;
-  let tamanho = 58;
+  let tamanho = p.texto.length <= 40 ? 76 : 58;
   let linhas: string[] = [];
   for (; tamanho >= 34; tamanho -= 2) {
     ctx.font = `500 ${tamanho}px "Literata Variable", Georgia, serif`;
-    linhas = quebrar(ctx, p.frase, larguraDoTexto);
-    if (linhas.length * tamanho * 1.4 <= (img ? 400 : 760)) break;
+    linhas = quebrar(ctx, p.texto, larguraDoTexto);
+    if (linhas.length * tamanho * 1.4 <= (img ? m.comArte : m.semArte)) break;
   }
   const alturaDoBloco = 34 + 72 + 36 + 100 + linhas.length * tamanho * 1.4 + 48 + 40;
-  let y = img ? Math.min(1270, ALTURA - 250 - alturaDoBloco) : (ALTURA - 120 - alturaDoBloco) / 2 + 17;
+  let y = img ? Math.min(m.topoDoBloco, m.altura - m.peDaObra - 80 - alturaDoBloco) : (m.altura - 120 - alturaDoBloco) / 2 + 17;
 
   ctx.fillStyle = DOURADO;
   ctx.font = `700 34px "Inter Variable", Arial, sans-serif`;
-  ctx.fillText("E V A N G E L H O   D O   D I A", LARGURA / 2, y);
+  ctx.fillText(p.rotulo.toUpperCase().split("").join(" "), LARGURA / 2, y);
   y += 72;
   ctx.fillStyle = suave;
   ctx.font = `500 36px "Inter Variable", Arial, sans-serif`;
@@ -104,16 +126,29 @@ export async function imagemDoEvangelho(p: { arte: ArteDoEvangelho | null; data:
   y += 48;
   ctx.fillStyle = DOURADO;
   ctx.font = `600 40px "Inter Variable", Arial, sans-serif`;
-  ctx.fillText(p.referencia, LARGURA / 2, y);
+  ctx.fillText(p.destaque, LARGURA / 2, y);
 
-  if (p.arte) {
+  if (p.credito) {
     ctx.fillStyle = fraca;
     ctx.font = `500 26px "Inter Variable", Arial, sans-serif`;
-    ctx.fillText(p.arte.obra, LARGURA / 2, ALTURA - 170);
+    ctx.fillText(p.credito, LARGURA / 2, m.altura - m.peDaObra);
   }
   ctx.fillStyle = suave;
   ctx.font = `600 32px "Inter Variable", Arial, sans-serif`;
-  ctx.fillText(`${NOME_DO_APP} · ${enderecoPublico().replace(/^https?:\/\//, "")}`, LARGURA / 2, ALTURA - 110);
+  ctx.fillText(`${NOME_DO_APP} · ${enderecoPublico().replace(/^https?:\/\//, "")}`, LARGURA / 2, m.altura - m.peDoApp);
 
   return new Promise((ok, erro) => canvas.toBlob((b) => (b ? ok(b) : erro(new Error("imagem"))), "image/png"));
+}
+
+export async function imagemDoEvangelho(p: { arte: ArteDoEvangelho | null; data: string; referencia: string; frase: string; formato?: FormatoDeCartaz }): Promise<Blob> {
+  const img = p.arte ? await carregarImagem(caminhoDaArte(p.arte)) : null;
+  return cartaz({
+    imagem: img,
+    rotulo: "Evangelho do dia",
+    data: p.data,
+    texto: p.frase,
+    destaque: p.referencia,
+    credito: p.arte?.obra,
+    formato: p.formato ?? "story",
+  });
 }

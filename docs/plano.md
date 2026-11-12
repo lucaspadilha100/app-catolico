@@ -459,6 +459,14 @@ participa acompanha no celular, ao vivo, pelo link ou pelo QR code.
 - ⬜ 👤 Diocese de Mossoró: 6 de 57; pedir a lista à cúria, (84) 3314-7255, ou nova rodada de busca
 - ⬜ Próximos estados, no mesmo molde (`fontes/paroquias/pesquisa-rn-2026-11/FORMATO.md`)
 
+### Leva 36. Divulgação, a área do dono ✅
+- ✅ `/painel/divulgacao` (atalho no Painel; só o admin entra): Evangelho do dia e
+  santo do dia com Story (1080x1920), Post (1080x1350) e a legenda pronta para
+  copiar (história completa do santo, Evangelho inteiro, assinatura do app e
+  hashtags); abas Hoje e Amanhã para deixar agendado
+- ✅ O cartaz é um só (`cartaz` em `src/liturgia/imagemDoEvangelho.ts`): pintura ou
+  imagem do santo no alto com o crédito, texto no creme quando não há imagem
+
 ### Leva 35. Devocionário completo ✅
 - ✅ 603 orações novas por categoria (carregadas sob demanda): 457 aos santos, 33 títulos de Nossa Senhora, São José, manhã, noite, ao Senhor, Espírito Santo, Eucaristia, diversas, 25 ladainhas, latim e Verdades da fé
 - ✅ Tela Orações reorganizada: Sacramentos + Devocionário; categoria grande com busca e A-Z; oração na página do santo
