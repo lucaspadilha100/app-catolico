@@ -170,6 +170,7 @@ export default function Apoie() {
             <Pix chave={PIX_DO_APP.chave} nome={PIX_DO_APP.nome} cidade={PIX_DO_APP.cidade} valores={[10, 20, 50, 100]} />
           </Cartao>
         )}
+        {web && <JaContribui />}
       </section>
 
       {web && (
@@ -186,7 +187,6 @@ export default function Apoie() {
               <Vote className="size-5 shrink-0 text-destaque-texto" aria-hidden /> Voto no próximo recurso do app
             </li>
           </ul>
-          <JaContribui />
         </section>
       )}
     </div>

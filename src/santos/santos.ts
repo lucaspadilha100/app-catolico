@@ -34,6 +34,24 @@ export async function todosOsSantos(): Promise<Santo[]> {
 
 export const santosDaDataMMDD = async (mmdd: string) => (await santosDoMes(mmdd.slice(0, 2))).filter((s) => s.data === mmdd);
 
+export async function santosParaConhecer(iso: string, n: number): Promise<Santo[]> {
+  const mmdd = iso.slice(5).replace("-", "");
+  const todos = (await todosOsSantos()).filter((s) => s.data !== mmdd && caminhoDaImagem(s));
+  let semente = 0;
+  for (const c of iso) semente = (semente * 31 + c.charCodeAt(0)) >>> 0;
+  const escolhidos: Santo[] = [];
+  const usados = new Set<number>();
+  while (escolhidos.length < n && usados.size < todos.length) {
+    semente = (semente * 1103515245 + 12345) >>> 0;
+    const i = semente % todos.length;
+    if (!usados.has(i)) {
+      usados.add(i);
+      escolhidos.push(todos[i]!);
+    }
+  }
+  return escolhidos;
+}
+
 export const NOME_DO_GRUPO: Record<string, string> = {
   brasil: "Do Brasil",
   jovens: "Jovens",

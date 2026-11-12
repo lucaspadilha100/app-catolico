@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
-import { AudioLines, BookOpenText, ChevronRight, UserRound, Droplets, Flower2, Church, CircleDot, ListChecks, Share2 } from "lucide-react";
+import { AudioLines, BookOpenText, ChevronRight, UserRound, Droplets, Flower2, Church, CircleDot, GraduationCap, Image, ListChecks, NotebookPen, Share2 } from "lucide-react";
 import { emAndamento } from "@/devocao/andamento";
 import { NOME_DO_MOMENTO, momentoDaHora } from "@/voz/falas";
 import { useDevocoesGuardadas } from "@/devocao/progresso";
 import { diaLiturgico } from "@/liturgia/calendario";
 import { somaDias, diaDaSemana, paraIso } from "@/liturgia/datas";
 import { useEffect, useState } from "react";
-import { caminhoDaImagem, santosDaDataMMDD } from "@/santos/santos";
+import { caminhoDaImagem, focoDaImagem, santosDaDataMMDD, santosParaConhecer, seloDoSanto } from "@/santos/santos";
 import type { Santo } from "@/santos/tipos";
 import { ehDiaDePreceito, NOME_DA_PENITENCIA, penitenciaDoDia } from "@/liturgia/preceitos";
 import { usePreferencias } from "@/lib/preferencias";
@@ -60,6 +60,16 @@ export default function Hoje() {
   const anosDeBatismo = aniversarioDeBatismo(batismo, l.data);
   const mmdd = paraIso(l.data).slice(5).replace("-", "");
   const [santosDoDia, setSantosDoDia] = useState<Santo[]>([]);
+  const [conhecer, setConhecer] = useState<Santo[]>([]);
+  useEffect(() => {
+    let ativo = true;
+    santosParaConhecer(paraIso(l.data), 8)
+      .then((x) => ativo && setConhecer(x))
+      .catch(() => {});
+    return () => {
+      ativo = false;
+    };
+  }, [l.data]);
   useEffect(() => {
     let ativo = true;
     santosDaDataMMDD(mmdd)
@@ -281,6 +291,60 @@ export default function Hoje() {
           ))}
         </section>
       )}
+
+      {conhecer.length > 0 && (
+        <section>
+          <div className="mb-2 flex items-baseline justify-between">
+            <h2 className="titulo-secao px-1">Conheça os santos</h2>
+            <Link to="/santos" className="px-1 text-[0.9375rem] font-semibold text-destaque-texto">
+              Ver todos
+            </Link>
+          </div>
+          <div className="-mx-4 flex snap-x scroll-px-4 gap-2.5 overflow-x-auto px-4 [scrollbar-width:none]">
+            {conhecer.map((s) => (
+              <Link key={s.id} to={`/santos/${s.id}`} className="w-36 shrink-0 snap-start">
+                <img src={caminhoDaImagem(s)!} alt="" loading="lazy" className="h-44 w-full rounded-3xl bg-cartao object-cover" style={{ objectPosition: focoDaImagem(s) }} />
+                <span className="mt-2 block px-0.5 text-[0.9375rem] font-bold leading-snug text-tinta">{s.nome.split(",")[0]}</span>
+                {seloDoSanto(s) && <span className="block px-0.5 text-[0.8125rem] text-tinta-suave">{seloDoSanto(s)}</span>}
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
+
+      <section className="flex flex-col gap-1">
+        <h2 className="titulo-secao mb-2 px-1">Para você</h2>
+        <Link to="/diario" className={linha}>
+          <span className={icone}>
+            <NotebookPen className="size-[1.375rem]" aria-hidden />
+          </span>
+          <span className="min-w-0 flex-1">
+            <span className="block font-bold text-tinta">Diário espiritual</span>
+            <span className="block text-[0.9375rem] text-tinta-suave">Diário e propósitos</span>
+          </span>
+          <ChevronRight className="size-5 shrink-0 text-tinta-suave" aria-hidden />
+        </Link>
+        <Link to="/cursos" className={linha}>
+          <span className={icone}>
+            <GraduationCap className="size-[1.375rem]" aria-hidden />
+          </span>
+          <span className="min-w-0 flex-1">
+            <span className="block font-bold text-tinta">Cursos de formação</span>
+            <span className="block text-[0.9375rem] text-tinta-suave">A fé passo a passo</span>
+          </span>
+          <ChevronRight className="size-5 shrink-0 text-tinta-suave" aria-hidden />
+        </Link>
+        <Link to="/santinhos" className={linha}>
+          <span className={icone}>
+            <Image className="size-[1.375rem]" aria-hidden />
+          </span>
+          <span className="min-w-0 flex-1">
+            <span className="block font-bold text-tinta">Santinhos e convites</span>
+            <span className="block text-[0.9375rem] text-tinta-suave">Batismo, comunhão, crisma, casamento</span>
+          </span>
+          <ChevronRight className="size-5 shrink-0 text-tinta-suave" aria-hidden />
+        </Link>
+      </section>
 
       <NovidadesDasIgrejas />
 
