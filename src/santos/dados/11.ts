@@ -36,7 +36,7 @@ const mes: MesDeSantos = {
       nome: "São Martinho de Lima, religioso",
       data: "1103",
       calendario: true,
-      nomes: ["Martinho", "Martina"],
+      nomes: ["Martinho", "Martina", "Martinho de Porres"],
       resumo: "Irmão dominicano de Lima, no Peru, que serviu os doentes e os pobres com humildade.",
       historia: [
         "Martinho de Porres nasceu em Lima, no Peru, em 1579. Era filho de um fidalgo espanhol e de uma mulher negra liberta, nascida no Panamá. Por ser mestiço, sofreu desprezo desde menino. Aprendeu o ofício de barbeiro, que naquele tempo incluía cuidar de feridas e preparar remédios.",

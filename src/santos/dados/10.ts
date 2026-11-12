@@ -152,10 +152,10 @@ const mes: MesDeSantos = {
     },
     {
       id: "sao-joao-henrique-newman",
-      nome: "São João Henrique Newman, presbítero e doutor da Igreja",
+      nome: "São John Henry Newman, presbítero e doutor da Igreja",
       data: "1009",
       calendario: true,
-      nomes: ["João", "Henrique"],
+      nomes: ["João", "Henrique", "John", "Henry", "John Henry Newman", "João Henrique Newman"],
       resumo: "Pastor e estudioso inglês que, buscando a verdade, passou da Igreja Anglicana à Igreja Católica.",
       historia: [
         "John Henry Newman nasceu em Londres em 21 de fevereiro de 1801. Estudou em Oxford, onde foi professor e ordenado ministro da Igreja da Inglaterra. Como pregador na igreja da universidade, tornou-se conhecido em todo o país e foi um dos líderes do chamado Movimento de Oxford, que queria reavivar a tradição antiga da fé.",

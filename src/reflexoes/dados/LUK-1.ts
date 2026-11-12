@@ -247,9 +247,9 @@ const parte: ParteDasReflexoes = {
       paragrafos: [
         "Maria parte “às pressas” para a casa de Isabel. Ao ouvir a sua saudação, o menino salta de alegria no ventre de Isabel, que exclama: “Bendita és tu entre as mulheres, e bendito é o fruto do teu ventre!” E Maria começa o seu cântico: “A minha alma glorifica o Senhor.”",
         "Maria não guarda para si o dom que recebeu. Vai ao encontro de quem precisa, e a sua presença leva Jesus e o Espírito Santo. Isabel reconhece nela “a mãe do meu Senhor” e a chama bem-aventurada porque acreditou. Assim Maria fez em muitos momentos da história: aproximou-se dos seus filhos para levá-los ao Filho.",
-        "Em Guadalupe, no México, ela se mostrou a um indígena simples, São João Diego, com os traços do povo daquela terra, e a fé se espalhou pelo continente. A Igreja a venera como padroeira da América Latina. Como Isabel, podemos acolhê-la com alegria e deixar que ela nos leve a Jesus.",
+        "Em Guadalupe, no México, ela se mostrou a um indígena simples, São Juan Diego, com os traços do povo daquela terra, e a fé se espalhou pelo continente. A Igreja a venera como padroeira da América Latina. Como Isabel, podemos acolhê-la com alegria e deixar que ela nos leve a Jesus.",
       ],
-      pergunta: "Deixo Maria me conduzir a Jesus, como ela conduziu Isabel e São João Diego?",
+      pergunta: "Deixo Maria me conduzir a Jesus, como ela conduziu Isabel e São Juan Diego?",
     },
     "LUK 1:5-25": {
       paragrafos: [

@@ -201,7 +201,7 @@ const mes: MesDeSantos = {
       nome: "Santa Dulce dos Pobres, virgem",
       data: "0813",
       calendario: true,
-      nomes: ["Dulce"],
+      nomes: ["Dulce", "Irmã Dulce"],
       resumo: "A irmã baiana que dedicou a vida aos doentes e pobres de Salvador.",
       historia: [
         "Maria Rita de Souza Brito Lopes Pontes nasceu em Salvador, em 26 de maio de 1914. Ainda menina, levava para casa pessoas pobres e doentes para cuidar delas. Em 1933 entrou na Congregação das Irmãs Missionárias da Imaculada Conceição da Mãe de Deus e, em 13 de agosto daquele ano, recebeu o hábito e o nome de Irmã Dulce, em lembrança da mãe, que morrera quando ela era pequena.",

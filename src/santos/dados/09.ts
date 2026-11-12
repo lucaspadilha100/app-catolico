@@ -23,7 +23,7 @@ const mes: MesDeSantos = {
       nome: "Santa Teresa de Calcutá, virgem",
       data: "0905",
       calendario: true,
-      nomes: ["Teresa", "Inês"],
+      nomes: ["Teresa", "Inês", "Madre Teresa"],
       resumo: "Religiosa que serviu aos mais pobres entre os pobres nas ruas de Calcutá.",
       historia: [
         "Agnes Gonxha Bojaxhiu nasceu em 1910, em Skopje, numa família albanesa católica. Aos 18 anos entrou para as Irmãs de Loreto, que a enviaram à Índia. Em Calcutá, foi professora e diretora de um colégio por quase vinte anos, com o nome de Irmã Teresa.",

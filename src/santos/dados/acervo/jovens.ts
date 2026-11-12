@@ -303,12 +303,12 @@ const acervo: AcervoDeSantos = {
     },
     {
       id: "beata-chiara-badano",
-      nome: "Beata Chiara Badano",
+      nome: "Beata Chiara Luce Badano",
       data: "1029",
       calendario: false,
       situacao: "beato",
       pais: "Itália",
-      nomes: ["Clara", "Chiara", "Luz", "Luce"],
+      nomes: ["Clara", "Chiara", "Luz", "Luce", "Chiara Badano"],
       resumo: "Jovem italiana do Movimento dos Focolares que enfrentou um câncer com alegria e morreu aos dezoito anos.",
       historia: [
         "Chiara Badano nasceu em 29 de outubro de 1971 em Sassello, na Ligúria, filha única de pais que a esperaram onze anos. Era uma menina alegre e esportiva, gostava de tênis, natação, música e de estar com os amigos. Aos nove anos conheceu o Movimento dos Focolares e passou a viver o Evangelho de forma concreta, procurando amar a todos.",
