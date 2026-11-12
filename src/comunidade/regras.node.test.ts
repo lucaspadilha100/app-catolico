@@ -138,8 +138,8 @@ describe("grupos", () => {
 
 describe("campanhas", () => {
   it("só o admin cria; todos somam enquanto está aberta, até 10 por vez", async () => {
-    await expect(como("authenticated", BIA, "insert into public.campanhas (titulo, oracao, meta, inicio, fim) values ('Um milhão de terços', 'terco', 1000000, current_date, current_date + 30)")).rejects.toThrow();
-    const id = (await como("authenticated", ADMIN, "insert into public.campanhas (titulo, oracao, meta, inicio, fim) values ('Um milhão de terços', 'terco', 1000000, current_date - 1, current_date + 30) returning id")).rows[0]!.id as string;
+    await expect(como("authenticated", BIA, "insert into public.campanhas (titulo, oracao, meta, inicio, fim) values ('Um milhão de terços', 'terco', 1000000, (now() at time zone 'America/Sao_Paulo')::date, (now() at time zone 'America/Sao_Paulo')::date + 30)")).rejects.toThrow();
+    const id = (await como("authenticated", ADMIN, "insert into public.campanhas (titulo, oracao, meta, inicio, fim) values ('Um milhão de terços', 'terco', 1000000, (now() at time zone 'America/Sao_Paulo')::date - 1, (now() at time zone 'America/Sao_Paulo')::date + 30) returning id")).rows[0]!.id as string;
     await como("anon", null, "select public.somar_na_campanha($1)", [id]);
     await como("authenticated", BIA, "select public.somar_na_campanha($1, 500)", [id]);
     expect((await como("anon", null, "select contagem from public.campanhas")).rows).toEqual([{ contagem: 11 }]);

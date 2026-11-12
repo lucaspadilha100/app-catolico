@@ -11,7 +11,7 @@ let como: ReturnType<typeof comoEm>;
 let paroquia: string;
 let pedido: string;
 
-const amanha = "current_date + 1";
+const amanha = "(now() at time zone 'America/Sao_Paulo')::date + 1";
 
 beforeAll(async () => {
   db = await criarBanco();
@@ -27,7 +27,7 @@ describe("intenções de missa", () => {
     await expect(como("authenticated", FIEL, `insert into public.intencoes_de_missa (paroquia_id, tipo, nome, data) values ($1, 'falecido', 'João da Silva', ${amanha})`, [paroquia])).rejects.toThrow(/nao recebe/);
     await como("authenticated", SECRETARIA, "update public.paroquias set aceita_intencoes = true where id = $1", [paroquia]);
     await expect(como("anon", null, `insert into public.intencoes_de_missa (paroquia_id, tipo, nome, data) values ($1, 'falecido', 'João', ${amanha})`, [paroquia])).rejects.toThrow();
-    await expect(como("authenticated", FIEL, "insert into public.intencoes_de_missa (paroquia_id, tipo, nome, data) values ($1, 'falecido', 'João', current_date - 1)", [paroquia])).rejects.toThrow(/data/);
+    await expect(como("authenticated", FIEL, "insert into public.intencoes_de_missa (paroquia_id, tipo, nome, data) values ($1, 'falecido', 'João', (now() at time zone 'America/Sao_Paulo')::date - 1)", [paroquia])).rejects.toThrow(/data/);
     pedido = (await como("authenticated", FIEL, `insert into public.intencoes_de_missa (paroquia_id, tipo, nome, data, hora, situacao) values ($1, 'falecido', 'João da Silva', ${amanha}, '19:00', 'confirmada') returning id, situacao`, [paroquia])).rows[0]!.id as string;
     expect((await db.query("select situacao from public.intencoes_de_missa where id = $1", [pedido])).rows[0]).toEqual({ situacao: "recebida" });
   });

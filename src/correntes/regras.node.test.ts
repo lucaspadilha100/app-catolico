@@ -47,8 +47,8 @@ describe("novena em grupo", () => {
     expect(grupo).toHaveLength(0);
     const g = (await como("authenticated", ANA, "insert into public.grupos (nome) values ('Família Souza') returning id, codigo")).rows[0] as { id: string; codigo: string };
     await db.query("insert into public.grupo_membros (grupo_id, usuario_id, nome, papel) values ($1, $2, 'Ana', 'dono') on conflict do nothing", [g.id, ANA]);
-    await expect(como("authenticated", BIA, "insert into public.grupo_novenas (grupo_id, novena, dias, inicio, criado_por) values ($1, 'aparecida', 9, current_date, $2)", [g.id, BIA])).rejects.toThrow();
-    const n = (await como("authenticated", ANA, "insert into public.grupo_novenas (grupo_id, novena, dias, inicio, criado_por) values ($1, 'aparecida', 9, current_date, $2) returning id", [g.id, ANA])).rows[0]!.id as string;
+    await expect(como("authenticated", BIA, "insert into public.grupo_novenas (grupo_id, novena, dias, inicio, criado_por) values ($1, 'aparecida', 9, (now() at time zone 'America/Sao_Paulo')::date, $2)", [g.id, BIA])).rejects.toThrow();
+    const n = (await como("authenticated", ANA, "insert into public.grupo_novenas (grupo_id, novena, dias, inicio, criado_por) values ($1, 'aparecida', 9, (now() at time zone 'America/Sao_Paulo')::date, $2) returning id", [g.id, ANA])).rows[0]!.id as string;
     await como("authenticated", ANA, "insert into public.grupo_novena_dias (grupo_novena_id, dia) values ($1, 1)", [n]);
     await expect(como("authenticated", ANA, "insert into public.grupo_novena_dias (grupo_novena_id, dia) values ($1, 3)", [n])).rejects.toThrow(/dia/);
     await expect(como("authenticated", BIA, "insert into public.grupo_novena_dias (grupo_novena_id, dia) values ($1, 1)", [n])).rejects.toThrow();

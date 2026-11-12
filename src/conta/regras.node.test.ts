@@ -84,7 +84,7 @@ describe("uso anônimo", () => {
     await como("anon", null, "select public.contar_uso('reza-terco')");
     await como("anon", null, "select public.contar_uso('reza-terco')");
     await como("authenticated", A, "select public.contar_uso('reza-misericordia')");
-    await db.query("insert into public.uso_diario (dia, evento, contagem) values (current_date - 3, 'reza-terco', 50)");
+    await db.query("insert into public.uso_diario (dia, evento, contagem) values ((now() at time zone 'America/Sao_Paulo')::date - 3, 'reza-terco', 50)");
     const r = await como("anon", null, "select public.rezando_hoje() as r");
     expect(r.rows[0]).toEqual({ r: { terco: 2, misericordia: 1, agora: 0 } });
   });

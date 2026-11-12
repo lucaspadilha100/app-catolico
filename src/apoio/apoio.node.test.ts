@@ -25,7 +25,7 @@ describe("apoiadores", () => {
     aviso = (await como("authenticated", FIEL, "insert into public.apoios_avisados (nome_no_pix, valor, situacao) values ('Maria da Silva', 20, 'confirmado') returning id")).rows[0]!.id as string;
     expect((await como("authenticated", FIEL, "select situacao from public.apoios_avisados")).rows).toEqual([{ situacao: "pendente" }]);
     expect((await como("authenticated", OUTRO, "select id from public.apoios_avisados")).rows).toHaveLength(0);
-    await expect(como("authenticated", FIEL, "insert into public.apoios_avisados (nome_no_pix, pago_em) values ('Maria', current_date + 5)")).rejects.toThrow(/data/);
+    await expect(como("authenticated", FIEL, "insert into public.apoios_avisados (nome_no_pix, pago_em) values ('Maria', (now() at time zone 'America/Sao_Paulo')::date + 5)")).rejects.toThrow(/data/);
   });
 
   it("ninguém se faz apoiador sozinho", async () => {
@@ -37,7 +37,7 @@ describe("apoiadores", () => {
   it("o admin confere e confirma; vira apoiador por um ano", async () => {
     expect((await como("authenticated", ADMIN, "select email, nome_no_pix from public.apoios_para_conferir()")).rows).toEqual([{ email: "fiel@exemplo.org", nome_no_pix: "Maria da Silva" }]);
     await como("authenticated", ADMIN, "select public.revisar_apoio($1, true)", [aviso]);
-    const r = await como("authenticated", FIEL, "select ate - current_date as dias from public.apoiadores");
+    const r = await como("authenticated", FIEL, "select ate - (now() at time zone 'America/Sao_Paulo')::date as dias from public.apoiadores");
     expect(Number(r.rows[0]!.dias)).toBeGreaterThanOrEqual(365);
     expect((await como("authenticated", OUTRO, "select * from public.apoiadores")).rows).toHaveLength(0);
   });
@@ -45,7 +45,7 @@ describe("apoiadores", () => {
   it("um novo apoio soma mais um ano", async () => {
     const outro = (await como("authenticated", FIEL, "insert into public.apoios_avisados (nome_no_pix) values ('Maria da Silva') returning id")).rows[0]!.id as string;
     await como("authenticated", ADMIN, "select public.revisar_apoio($1, true)", [outro]);
-    const r = await como("authenticated", FIEL, "select ate - current_date as dias from public.apoiadores");
+    const r = await como("authenticated", FIEL, "select ate - (now() at time zone 'America/Sao_Paulo')::date as dias from public.apoiadores");
     expect(Number(r.rows[0]!.dias)).toBeGreaterThanOrEqual(730);
   });
 
