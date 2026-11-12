@@ -447,7 +447,7 @@ participa acompanha no celular, ao vivo, pelo link ou pelo QR code.
 - ✅ Cartão do dia na cor litúrgica (Hoje e Liturgia); contas do terço e progresso na cor do dia
 - ✅ Rezar com arte sacra em domínio público; santo do dia com imagem
 - ✅ Bíblia e menu de baixo mantidos; nota da tradução no fim de cada capítulo
-- ⬜ Ajuste fino das telas menores (Conta, Diário, Painel, Roteiros) e das bordas finas que sobraram
+- ✅ Ajuste fino das telas menores (Conta, Diário, Painel, Roteiros) e das bordas finas que sobraram (12/11/2026)
 - ⬜ Uma pintura de Tissot para o Evangelho de cada dia na tela Hoje (conteúdo: escolher e conferir cada imagem)
 
 ### Leva 34. Horários do RN ✅ (Mossoró 🔨)
