@@ -1,0 +1,1904 @@
+[
+ {
+  "id_banco": null,
+  "nome": "Catedral Santa Cruz",
+  "categoria": "catedral",
+  "cidade": "Rondonópolis",
+  "padroeiro": "Santa Cruz",
+  "contatos": {
+   "telefone": "6634216503",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "catedralstacruzroo@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Catedral Santa Cruz",
+    "tipo": "matriz",
+    "cidade": "Rondonópolis",
+    "localidade": "Santa Cruz",
+    "endereco": "Rua Dom Pedro II, 1811",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "18:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "15:00",
+      "semanas": [
+       2
+      ],
+      "observacao": "Missa dos idosos"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       2
+      ],
+      "observacao": "Missa dos imigrantes"
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://dioceseroogga.org.br/horarios-de-missas/",
+    "data": "2025-06",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://dioceseroogga.org.br/paroquia/catedral-santa-cruz/",
+    "data": "2025-06",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania Sagrado Coração de Jesus. Horários e contatos da página da diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José Operário",
+  "categoria": "paroquia",
+  "cidade": "Rondonópolis",
+  "padroeiro": "São José Operário",
+  "contatos": {
+   "telefone": "6634261001",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "psjoperarioroo@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José Operário",
+    "tipo": "matriz",
+    "cidade": "Rondonópolis",
+    "localidade": "Vila Operária",
+    "endereco": "Avenida Bandeirantes, 5526",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://dioceseroogga.org.br/horarios-de-missas/",
+    "data": "2025-06",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://dioceseroogga.org.br/paroquia/paroquia-sao-jose-operario/",
+    "data": "2025-06",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania Sagrado Coração de Jesus. Horários e contatos da página da diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Bom Pastor",
+  "categoria": "paroquia",
+  "cidade": "Rondonópolis",
+  "padroeiro": "Bom Pastor",
+  "contatos": {
+   "telefone": "6634249466",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "pbompastorroo@terra.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Bom Pastor",
+    "tipo": "matriz",
+    "cidade": "Rondonópolis",
+    "localidade": "Bom Pastor",
+    "endereco": "Rua São Francisco Félix, 520",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 1,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": "Até 18h"
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 2,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": "Até 18h"
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 3,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": "Até 18h"
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": "Até 18h"
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 5,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": "Até 18h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 1,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": "Até 18h, com direção espiritual"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 2,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": "Até 18h, com direção espiritual"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": "Até 18h, com direção espiritual"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": "Até 18h, com direção espiritual"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": "Até 18h, com direção espiritual"
+     }
+    ],
+    "nao_cabe": "Comunidades sem bairro na fonte: São João Batista (terça 19h15), São João Bosco (quarta 19h15), Jesus Misericordioso (quinta 15h adoração, terço e confissões, 15h30 missa; sábado 19h15), Nossa Senhora da Assunção (quinta 19h15), Nossa Senhora do Amparo (sexta 19h15), Santa Terezinha (domingo 8h30)."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://dioceseroogga.org.br/horarios-de-missas/",
+    "data": "2025-06",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://dioceseroogga.org.br/paroquia/paroquia-bom-pastor/",
+    "data": "2025-06",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Forania Sagrado Coração de Jesus. Horários e contatos da página da diocese. Horários do texto da própria paróquia na página dela; o quadro padronizado da mesma página diz outra coisa (domingo 7h, 9h30 e 18h; segunda a sábado 6h)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Rondonópolis",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "6630225507",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiamaeaparecidaroo@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Rondonópolis",
+    "localidade": "Vila Aurora",
+    "endereco": "Avenida Sagrada Família, 876",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "05:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://dioceseroogga.org.br/horarios-de-missas/",
+    "data": "2025-06",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://dioceseroogga.org.br/paroquia/paroquia-nossa-senhora-aparecida/",
+    "data": "2025-06",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania Nossa Senhora Aparecida. Horários e contatos da página da diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sagrado Coração de Jesus",
+  "categoria": "paroquia",
+  "cidade": "Rondonópolis",
+  "padroeiro": "Sagrado Coração de Jesus",
+  "contatos": {
+   "telefone": "6634213501",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "psagrado@terra.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Sagrado Coração de Jesus",
+    "tipo": "matriz",
+    "cidade": "Rondonópolis",
+    "localidade": "Centro",
+    "endereco": "Rua Arnaldo Estevão, 414",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://dioceseroogga.org.br/horarios-de-missas/",
+    "data": "2025-06",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://dioceseroogga.org.br/paroquia/paroquia-sagrado-coracao-de-jesus/",
+    "data": "2025-06",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania Sagrado Coração de Jesus. Horários e contatos da página da diocese. A fonte só dá o domingo."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José Esposo",
+  "categoria": "paroquia",
+  "cidade": "Rondonópolis",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "66999522378",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "psjesposo@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José Esposo",
+    "tipo": "matriz",
+    "cidade": "Rondonópolis",
+    "localidade": "Conjunto São José II",
+    "endereco": "Avenida Vereador Lourenço Neto, 810",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://dioceseroogga.org.br/horarios-de-missas/",
+    "data": "2025-06",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://dioceseroogga.org.br/paroquia/paroquia-sao-jose-esposo/",
+    "data": "2025-06",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania São João Batista. Horários e contatos da página da diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Terezinha do Menino Jesus",
+  "categoria": "paroquia",
+  "cidade": "Rondonópolis",
+  "padroeiro": "Santa Teresinha do Menino Jesus",
+  "contatos": {
+   "telefone": "6634211506",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiastateresinha_roo@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Terezinha do Menino Jesus",
+    "tipo": "matriz",
+    "cidade": "Rondonópolis",
+    "localidade": "Jardim Novo Horizonte",
+    "endereco": "Rua Rio Grande do Sul, 2747",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://dioceseroogga.org.br/horarios-de-missas/",
+    "data": "2025-06",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://dioceseroogga.org.br/paroquia/paroquia-santa-terezinha-do-menino-jesus/",
+    "data": "2025-06",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania São João Batista. Horários e contatos da página da diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Domingos Sávio",
+  "categoria": "paroquia",
+  "cidade": "Rondonópolis",
+  "padroeiro": "São Domingos Sávio",
+  "contatos": {
+   "telefone": "6696013574",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Domingos Sávio",
+    "tipo": "matriz",
+    "cidade": "Rondonópolis",
+    "localidade": "Jardim Atlântico",
+    "endereco": "Rua Vicente de Carvalho, 41",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "05:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://dioceseroogga.org.br/horarios-de-missas/",
+    "data": "2025-06",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://dioceseroogga.org.br/paroquia/paroquia-sao-domingos-savio/",
+    "data": "2025-06",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania Nossa Senhora Aparecida. Horários e contatos da página da diocese. O e-mail publicado está incompleto e ficou de fora."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Salesiana São João Batista",
+  "categoria": "paroquia",
+  "cidade": "Rondonópolis",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "6634264487",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Batista",
+    "tipo": "matriz",
+    "cidade": "Rondonópolis",
+    "localidade": "Parque Universitário",
+    "endereco": "Rua Batuíra, 1414",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://dioceseroogga.org.br/horarios-de-missas/",
+    "data": "2025-06",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://dioceseroogga.org.br/paroquia/paroquia-salesiana-sao-joao-batista/",
+    "data": "2025-06",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania São João Batista. Horários e contatos da página da diocese. Salesianos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Bosco",
+  "categoria": "paroquia",
+  "cidade": "Rondonópolis",
+  "padroeiro": "São João Bosco",
+  "contatos": {
+   "telefone": "6696969820",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "psjboscoroo@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Bosco",
+    "tipo": "matriz",
+    "cidade": "Rondonópolis",
+    "localidade": "Vila Rica",
+    "endereco": "Rua Sabará, 728",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://dioceseroogga.org.br/horarios-de-missas/",
+    "data": "2025-06",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://dioceseroogga.org.br/paroquia/paroquia-sao-joao-bosco/",
+    "data": "2025-06",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania São João Batista. Horários e contatos da página da diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Fátima",
+  "categoria": "paroquia",
+  "cidade": "Juscimeira",
+  "padroeiro": "Nossa Senhora de Fátima",
+  "contatos": {
+   "telefone": "6692000378",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquia.nsrafatima@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora de Fátima",
+    "tipo": "matriz",
+    "cidade": "Juscimeira",
+    "localidade": "São Lourenço de Fátima",
+    "endereco": "Avenida Visconde de Vasconcelos, 27",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": "Missa dos enfermos e idosos"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://dioceseroogga.org.br/horarios-de-missas/",
+    "data": "2025-06",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://dioceseroogga.org.br/paroquia/paroquia-nossa-senhora-de-fatima/",
+    "data": "2025-06",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania São João Batista. Horários e contatos da página da diocese. Matriz no distrito de São Lourenço de Fátima."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Bom Jesus",
+  "categoria": "paroquia",
+  "cidade": "Juscimeira",
+  "padroeiro": "Bom Jesus",
+  "contatos": {
+   "telefone": "6634121161",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquia.bjesus@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Bom Jesus",
+    "tipo": "matriz",
+    "cidade": "Juscimeira",
+    "localidade": "Centro",
+    "endereco": "Rua Porto Alegre, 1114",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://dioceseroogga.org.br/horarios-de-missas/",
+    "data": "2025-06",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://dioceseroogga.org.br/paroquia/paroquia-bom-jesus/",
+    "data": "2025-06",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania São Lourenço. Horários e contatos da página da diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Francisco de Assis",
+  "categoria": "paroquia",
+  "cidade": "Jaciara",
+  "padroeiro": "São Francisco de Assis",
+  "contatos": {
+   "telefone": "6634611521",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasfa@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Francisco de Assis",
+    "tipo": "matriz",
+    "cidade": "Jaciara",
+    "localidade": "",
+    "endereco": "Avenida Antônio Ferreira Sobrinho, 1207",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "18:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://dioceseroogga.org.br/horarios-de-missas/",
+    "data": "2025-06",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://dioceseroogga.org.br/paroquia/paroquia-sao-francisco-de-assis/",
+    "data": "2025-06",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania São Lourenço. Horários e contatos da página da diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "Dom Aquino",
+  "padroeiro": "São Sebastião",
+  "contatos": {
+   "telefone": "6634511223",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasaosebastiao20@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Sebastião",
+    "tipo": "matriz",
+    "cidade": "Dom Aquino",
+    "localidade": "Centro",
+    "endereco": "Rua Presidente Vargas",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "18:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://dioceseroogga.org.br/horarios-de-missas/",
+    "data": "2025-06",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://dioceseroogga.org.br/paroquia/paroquia-sao-sebastiao/",
+    "data": "2025-06",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania São Lourenço. Horários e contatos da página da diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Pedro Apóstolo",
+  "categoria": "paroquia",
+  "cidade": "Pedra Preta",
+  "padroeiro": "São Pedro Apóstolo",
+  "contatos": {
+   "telefone": "6634861152",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasp.apostolo@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Pedro Apóstolo",
+    "tipo": "matriz",
+    "cidade": "Pedra Preta",
+    "localidade": "",
+    "endereco": "Rua Sergipe, 375",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://dioceseroogga.org.br/horarios-de-missas/",
+    "data": "2025-06",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://dioceseroogga.org.br/paroquia/paroquia-sao-pedro-apostolo/",
+    "data": "2025-06",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania Sagrado Coração de Jesus. Horários e contatos da página da diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José",
+  "categoria": "paroquia",
+  "cidade": "São José do Povo",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "6699837058",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquia_sjp@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José",
+    "tipo": "matriz",
+    "cidade": "São José do Povo",
+    "localidade": "",
+    "endereco": "Rua Padre Miguel Ortiz, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://dioceseroogga.org.br/horarios-de-missas/",
+    "data": "2025-06",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://dioceseroogga.org.br/paroquia/paroquia-sao-jose-do-povo/",
+    "data": "2025-06",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania Nossa Senhora Aparecida. Horários e contatos da página da diocese. A diocese chama \"Paróquia São José do Povo\"; o GCatholic dá o titular São José."
+ },
+ {
+  "id_banco": null,
+  "nome": "Cocatedral São João Batista",
+  "categoria": "catedral",
+  "cidade": "Guiratinga",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "6696761859",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasaojoaobatistagga@outlook.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Cocatedral São João Batista",
+    "tipo": "matriz",
+    "cidade": "Guiratinga",
+    "localidade": "Centro",
+    "endereco": "Avenida Marechal Rondon, 878",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://dioceseroogga.org.br/horarios-de-missas/",
+    "data": "2025-06",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://dioceseroogga.org.br/paroquia/paroquia-sao-joao-batista/",
+    "data": "2025-06",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania Nossa Senhora Auxiliadora. Horários e contatos da página da diocese. Cocatedral da diocese (antiga Sé de Guiratinga); a diocese a lista como Paróquia São João Batista."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Terezinha do Menino Jesus",
+  "categoria": "paroquia",
+  "cidade": "Tesouro",
+  "padroeiro": "Santa Teresinha do Menino Jesus",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasantaterezinhatesouro@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Terezinha do Menino Jesus",
+    "tipo": "matriz",
+    "cidade": "Tesouro",
+    "localidade": "Centro",
+    "endereco": "Rua Clóvis Hungueney, 200",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://dioceseroogga.org.br/horarios-de-missas/",
+    "data": "2025-06",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://dioceseroogga.org.br/paroquia/paroquia-santa-terezinha-do-menino-jesus-2/",
+    "data": "2025-06",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania Nossa Senhora Auxiliadora. Horários e contatos da página da diocese. Sem telefone publicado."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Carmo",
+  "categoria": "paroquia",
+  "cidade": "Itiquira",
+  "padroeiro": "Nossa Senhora do Carmo",
+  "contatos": {
+   "telefone": "65996005520",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "pnscarmo@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Carmo",
+    "tipo": "matriz",
+    "cidade": "Itiquira",
+    "localidade": "Centro",
+    "endereco": "Praça Frei Liberato, 50",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "05:45",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://dioceseroogga.org.br/horarios-de-missas/",
+    "data": "2025-06",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://dioceseroogga.org.br/paroquia/paroquia-nossa-senhora-do-carmo/",
+    "data": "2025-06",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania Nossa Senhora Aparecida. Horários e contatos da página da diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "Alto Garças",
+  "padroeiro": "São Sebastião",
+  "contatos": {
+   "telefone": "6634711191",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasessaosebastiao@uol.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Sebastião",
+    "tipo": "matriz",
+    "cidade": "Alto Garças",
+    "localidade": "Centro",
+    "endereco": "Praça da Matriz",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "17:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa do Apostolado"
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://dioceseroogga.org.br/horarios-de-missas/",
+    "data": "2025-06",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://dioceseroogga.org.br/paroquia/paroquia-sao-sebastiao-2/",
+    "data": "2025-06",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania Nossa Senhora Auxiliadora. Horários e contatos da página da diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José e Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Alto Taquari",
+  "padroeiro": "São José e Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "6634961147",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "psaojose2009@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José e Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Alto Taquari",
+    "localidade": "Centro",
+    "endereco": "Rua Altino Pereira de Souza, 949",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://dioceseroogga.org.br/horarios-de-missas/",
+    "data": "2025-06",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://dioceseroogga.org.br/paroquia/paroquia-sao-jose-e-nossa-senhora-aparecida/",
+    "data": "2025-06",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania Nossa Senhora Auxiliadora. Horários e contatos da página da diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Auxiliadora",
+  "categoria": "paroquia",
+  "cidade": "Alto Araguaia",
+  "padroeiro": "Nossa Senhora Auxiliadora",
+  "contatos": {
+   "telefone": "6634811269",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "parnsauxiliadora_aia@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Auxiliadora",
+    "tipo": "matriz",
+    "cidade": "Alto Araguaia",
+    "localidade": "Centro",
+    "endereco": "Avenida Carlos Hugueney, 575",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "11:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "11:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "11:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "11:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://dioceseroogga.org.br/horarios-de-missas/",
+    "data": "2025-06",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://dioceseroogga.org.br/paroquia/paroquia-nossa-senhora-auxiliadora/",
+    "data": "2025-06",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania Nossa Senhora Auxiliadora. Horários e contatos da página da diocese."
+ }
+]

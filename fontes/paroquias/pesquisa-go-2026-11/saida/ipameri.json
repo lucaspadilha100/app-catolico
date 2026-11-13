@@ -142,63 +142,6 @@
  },
  {
   "id_banco": null,
-  "nome": "Paróquia Bom Jesus da Lapa",
-  "categoria": "paroquia",
-  "cidade": "Domiciano Ribeiro",
-  "padroeiro": "Bom Jesus da Lapa",
-  "contatos": {
-   "telefone": "6434383104",
-   "whatsapp": "",
-   "instagram": "",
-   "site": "",
-   "email": "paroquiabomjesusdalapa.go@gmail.com"
-  },
-  "igrejas": [
-   {
-    "id_banco": null,
-    "nome": "Igreja Matriz do Bom Jesus da Lapa",
-    "tipo": "matriz",
-    "cidade": "Domiciano Ribeiro",
-    "localidade": "Centro",
-    "endereco": "Av. Paranaíba, 333",
-    "horarios": [
-     {
-      "tipo": "missa",
-      "dia_semana": 4,
-      "hora": "19:30",
-      "semanas": null,
-      "observacao": ""
-     },
-     {
-      "tipo": "missa",
-      "dia_semana": 0,
-      "hora": "08:00",
-      "semanas": null,
-      "observacao": ""
-     },
-     {
-      "tipo": "missa",
-      "dia_semana": 0,
-      "hora": "19:30",
-      "semanas": null,
-      "observacao": ""
-     }
-    ],
-    "nao_cabe": "Capelas da zona rural (São Francisco, Nossa Senhora da Abadia, Santa Bárbara, São Sebastião, Pré-Assentamento Ana Ferreira, São João Batista, Santa Águeda): missa uma vez ao mês, em calendário combinado com cada comunidade."
-   }
-  ],
-  "fontes": [
-   {
-    "url": "https://diocesedeipameri.com.br/paroquias/regiaocentro/paroquia-bom-jesus-da-lapa/",
-    "data": "2022-01-26",
-    "o_que": "horarios"
-   }
-  ],
-  "confianca": "media",
-  "observacao": "Forania Centro. Página da diocese editada em janeiro de 2022."
- },
- {
-  "id_banco": null,
   "nome": "Paróquia Nossa Senhora do Amparo",
   "categoria": "paroquia",
   "cidade": "Campo Alegre de Goiás",
