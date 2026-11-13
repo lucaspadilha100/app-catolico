@@ -6,6 +6,7 @@ import { oracao } from "@/oracao/oracoes";
 import type { Bloco } from "@/devocao/tipos";
 import { TextoDaOracao } from "@/components/TextoDaOracao";
 import { TextoDaLeitura } from "@/components/TextoBiblico";
+import { livroPorCodigo } from "@/biblia/livros";
 
 function salmoGrego(cap: number, v: number): number {
   if (cap <= 8 || cap >= 148) return cap;
@@ -70,7 +71,9 @@ function UmBloco({ b, data }: { b: Bloco; data?: Dia }) {
       </div>
     );
   if ("ir" in b) {
-    const para = b.ir === "liturgia" ? (data ? `/liturgia/${paraIso(data)}` : "/liturgia") : b.ir;
+    const naBiblia = /^\/biblia\/([1-3]?[A-Z]{2,3})\/(\d+)$/.exec(b.ir);
+    const livro = naBiblia ? livroPorCodigo(naBiblia[1]!) : undefined;
+    const para = b.ir === "liturgia" ? (data ? `/liturgia/${paraIso(data)}` : "/liturgia") : livro ? `/biblia/${livro.slug}/${naBiblia![2]}` : b.ir;
     return (
       <Link
         to={para}

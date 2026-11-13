@@ -9,7 +9,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "2TI 3:14-17" },
         {
           texto:
-            "São Paulo escreve a Timóteo, seu discípulo, e lembra que ele aprendeu as Sagradas Escrituras desde criança. Diz que toda a Escritura é inspirada por Deus e serve para ensinar, corrigir e formar na justiça. A Bíblia não é um livro qualquer sobre Deus: é Deus que fala ao seu povo por meio de palavras humanas. Por isso a Igreja a recebe com a mesma reverência com que recebe o Senhor.",
+            "São Paulo escreve a Timóteo, seu discípulo, e lembra que ele aprendeu as Sagradas Escrituras desde criança. Diz que toda a Escritura é inspirada por Deus e serve para ensinar, corrigir e formar na justiça. A Bíblia não é um livro qualquer sobre Deus: é Deus que fala ao seu povo por meio de palavras humanas. Por isso a Igreja tem por ela a mesma veneração que tem pelo Corpo do Senhor (CIC 103).",
         },
         { titulo: "Deus e os autores humanos" },
         {

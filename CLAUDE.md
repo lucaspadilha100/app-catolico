@@ -147,6 +147,8 @@ configurado desde o início) · **Supabase** plano gratuito (projeto
 
 - **Instagram**: a fila de posts aprovados está em `docs/marca/instagram/FILA.md`; o dono pede um por vez.
 
+- **Cursos de formação** (`src/devocao/cursos/`, catálogo `CURSOS` em `devocao/catalogo.ts`, 30 em 13/11/2026, pedido do dono: "pelo menos 30"): texto próprio, uma leitura da nossa Bíblia por lição, `revisao: "a revisar pelo dono"`, lista de revisão em `docs/cursos/`. ⚠️ Todo número do Catecismo (CIC) e do Código (cân.) é conferido no texto OFICIAL do vatican.va antes de entrar (pedido do dono); o texto oficial serve só para conferir, nunca para copiar. ⚠️ O PDF do Código no vatican.va é anterior a 2021: Livro VI (penas, cân. 1311-1399) e o cân. 230 §1 mudaram; não citar esses números por ele. Link de curso para a Bíblia usa o CÓDIGO do livro (`/biblia/MRK/1`); o `Blocos` troca pelo nome do livro.
+
 ## Acabamento profissional (pedido do dono, 10/11/2026)
 - **Sem cara de IA.** Código sem comentários explicativos (só o raro que evita
   um erro real); nomes claros falam por si.

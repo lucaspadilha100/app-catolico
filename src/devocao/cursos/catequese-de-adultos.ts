@@ -27,7 +27,7 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "A resposta a Deus que se revela chama-se fé. Crer é confiar em alguém e, por isso, aceitar o que ele diz (CIC 150). A fé é um dom que Deus oferece, mas é também um ato livre de quem o recebe. Ninguém é obrigado a crer; Deus convida e espera.",
+            "A resposta a Deus que se revela chama-se fé. Crer é confiar em alguém e, por isso, aceitar o que ele diz (CIC 150). A fé é um dom que Deus oferece, mas é também um ato livre de quem o recebe. Ninguém pode ser forçado a crer; Deus convida e espera (CIC 160).",
         },
         {
           pratica:
@@ -170,7 +170,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "MAT 28:18-20" },
         {
           texto:
-            "Os sacramentos são sinais eficazes da graça, instituídos por Cristo e confiados à Igreja, pelos quais Deus nos dá a sua vida (CIC 1131). A água, o óleo, o pão e o vinho, as palavras e os gestos não são simples símbolos: por meio deles é o próprio Cristo quem age. São sete, e acompanham todas as etapas da vida cristã (CIC 1210).",
+            "Os sacramentos são sinais que realizam a graça que mostram. Cristo os instituiu e os entregou à Igreja, e por eles Deus nos comunica a sua própria vida (CIC 1131). A água, o óleo, o pão e o vinho, as palavras e os gestos não são simples símbolos: por meio deles é o próprio Cristo quem age. São sete, e acompanham todas as etapas da vida cristã (CIC 1210).",
         },
         { titulo: "Os sacramentos da iniciação" },
         {
@@ -219,7 +219,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "Pecado e misericórdia" },
         {
           texto:
-            "Pecado é uma falha no amor verdadeiro a Deus e ao próximo (CIC 1849). Há pecados leves, que enfraquecem a amizade com Deus, e pecados graves, que a rompem. Para que um pecado seja mortal, é preciso matéria grave, plena consciência e consentimento deliberado (CIC 1857). Mas a última palavra nunca é do pecado. Deus é rico em misericórdia e espera sempre quem volta, como o pai do filho pródigo (Lc 15,20). O exame de consciência e a confissão são o caminho dessa volta.",
+            "Pecar é faltar ao amor verdadeiro que devemos a Deus e ao próximo (CIC 1849). Há pecados leves, que enfraquecem a amizade com Deus, e pecados graves, que a rompem. O pecado só é mortal quando três coisas se juntam: a matéria é grave, a pessoa sabe bem o que faz e escolhe fazê-lo de propósito (CIC 1857). Mas a última palavra nunca é do pecado. Deus é rico em misericórdia e espera sempre quem volta, como o pai do filho pródigo (Lc 15,20). O exame de consciência e a confissão são o caminho dessa volta.",
         },
         {
           pratica:
@@ -235,12 +235,12 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "MAT 6:5-13" },
         {
           texto:
-            "Rezar é elevar a alma a Deus e conversar com ele como com um pai e um amigo (CIC 2559). Não é preciso ter palavras bonitas nem muito tempo livre. No Evangelho de hoje, Jesus avisa que não somos ouvidos por falar muito. Deus já sabe do que precisamos. A oração muda primeiro o nosso coração e nos abre para o que ele quer dar.",
+            "Rezar é elevar a alma a Deus (CIC 2559). É conversar com ele como com um pai e um amigo. Não é preciso ter palavras bonitas nem muito tempo livre. No Evangelho de hoje, Jesus avisa que não somos ouvidos por falar muito. Deus já sabe do que precisamos. A oração muda primeiro o nosso coração e nos abre para o que ele quer dar.",
         },
         { titulo: "Formas de oração" },
         {
           texto:
-            "A Bíblia e a Tradição ensinam vários modos de rezar. Bendizemos e adoramos a Deus pelo que ele é. Pedimos o que precisamos, a começar pelo perdão. Intercedemos pelos outros, vivos e falecidos. Agradecemos tudo o que recebemos e louvamos a Deus simplesmente porque ele é Deus. Pode-se rezar com orações aprendidas de cor, como o terço, com as próprias palavras ou em silêncio, só ficando na presença dele.",
+            "A Bíblia e a Tradição ensinam vários modos de rezar. Bendizemos e adoramos a Deus pelo que ele é. Pedimos o que precisamos, a começar pelo perdão. Intercedemos pelos outros, vivos e falecidos. Agradecemos tudo o que recebemos e louvamos a Deus simplesmente porque ele é Deus (CIC 2626-2643). Pode-se rezar com orações aprendidas de cor, como o terço, com as próprias palavras ou em silêncio, só ficando na presença dele.",
         },
         { titulo: "O Pai-Nosso" },
         {
@@ -271,7 +271,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "Quatro verdades sobre Maria" },
         {
           texto:
-            "A Igreja ensina como dogma, isto é, como verdade de fé, quatro coisas sobre Maria. Ela é Mãe de Deus, como afirmou o Concílio de Éfeso no ano de 431. É sempre virgem (CIC 499). Foi concebida sem o pecado original, por uma graça singular: é a Imaculada Conceição, proclamada pelo Papa Pio IX em 1854 (CIC 491). E, terminada a vida terrena, foi levada ao céu em corpo e alma: é a Assunção, proclamada pelo Papa Pio XII em 1950 (CIC 966).",
+            "A Igreja ensina como dogma, isto é, como verdade de fé, quatro coisas sobre Maria. Ela é Mãe de Deus, como afirmou o Concílio de Éfeso no ano de 431 (CIC 466). É sempre virgem (CIC 499). Foi concebida sem o pecado original, por uma graça singular: é a Imaculada Conceição, proclamada pelo Papa Pio IX em 1854 (CIC 491). E, terminada a vida terrena, foi levada ao céu em corpo e alma: é a Assunção, proclamada pelo Papa Pio XII em 1950 (CIC 966).",
         },
         { titulo: "A comunhão dos santos" },
         {
@@ -305,12 +305,12 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "Céu, purgatório e inferno" },
         {
           texto:
-            "O céu é a felicidade sem fim de ver a Deus face a face, com Maria, os anjos e os santos (CIC 1024). Quem morre na graça de Deus, mas ainda não está inteiramente purificado, passa pelo purgatório, uma purificação para entrar na alegria do céu (CIC 1030). Por isso rezamos pelos falecidos e pedimos que se celebrem missas por eles. O inferno é a separação definitiva de Deus, escolhida livremente por quem morre em pecado mortal sem se arrepender (CIC 1033). Deus não predestina ninguém ao inferno (CIC 1037).",
+            "O céu é a felicidade sem fim de ver a Deus face a face, com Maria, os anjos e os santos (CIC 1024). Quem morre na graça de Deus, mas ainda não está inteiramente purificado, passa pelo purgatório, uma purificação para entrar na alegria do céu (CIC 1030). Por isso rezamos pelos falecidos e pedimos que se celebrem missas por eles (CIC 1032). O inferno é a separação definitiva de Deus, escolhida livremente por quem morre em pecado mortal sem se arrepender (CIC 1033). Deus não predestina ninguém ao inferno (CIC 1037).",
         },
         { titulo: "A ressurreição da carne" },
         {
           texto:
-            "No último dia, Deus dará aos nossos corpos uma vida que não se corrompe, unindo-os de novo às almas, pelo poder da ressurreição de Jesus (CIC 997). Não seremos espíritos soltos: seremos nós mesmos, inteiros e transformados. O Apocalipse fala de um céu novo e uma terra nova, onde não haverá lágrima nem morte. Essa é a nossa esperança: não um otimismo vago, mas a confiança em quem prometeu e é fiel (CIC 1817).",
+            "No último dia, a alma voltará a se unir ao corpo, e o corpo não estará mais sujeito à corrupção. É Deus quem fará isso, pela força da ressurreição de Jesus (CIC 997). Não seremos espíritos soltos: seremos nós mesmos, inteiros e transformados. O Apocalipse fala de um céu novo e uma terra nova, onde não haverá lágrima nem morte. Essa é a nossa esperança: não um otimismo vago, mas a confiança em quem prometeu e é fiel (CIC 1817).",
         },
         {
           texto:

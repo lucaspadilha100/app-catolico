@@ -27,7 +27,11 @@ const avulsos = import.meta.glob<{ default: unknown }>(
   { eager: true },
 );
 
+const devocionario = import.meta.glob<{ default: { id: string }[] }>(["../oracao/devocionario/*.ts", "!../oracao/devocionario/index.ts", "!../oracao/devocionario/tipos.ts"], { eager: true });
+const DO_DEVOCIONARIO = new Set(Object.values(devocionario).flatMap((m) => m.default.map((o) => o.id)));
+
 const ROTAS = [
+  /^\/missas$/,
   /^liturgia$/,
   /^\/rezar\/(terco|misericordia|sao-miguel|via-sacra|oficio|semana-santa|consagracao|ladainhas|novenas|desafios)$/,
   /^\/rezar\/oracoes\/[a-z0-9-]+$/,
@@ -63,7 +67,9 @@ function conferirBlocos(onde: string, blocos: Bloco[], { noturno = false } = {})
     } else if ("ir" in b) {
       expect(ROTAS.some((r) => r.test(b.ir)), `${onde}: rota ${b.ir}`).toBe(true);
       const [, tipo, id] = /^\/rezar\/(oracoes|novenas|desafios)\/(.+)$/.exec(b.ir) ?? [];
-      if (tipo === "oracoes") expect(ORACOES[id!], `${onde}: ${b.ir}`).toBeDefined();
+      if (tipo === "oracoes") expect(Boolean(ORACOES[id!]) || DO_DEVOCIONARIO.has(id!), `${onde}: ${b.ir}`).toBe(true);
+      const naBiblia = /^\/biblia\/([1-3]?[A-Z]{2,3})\/(\d+)$/.exec(b.ir);
+      if (naBiblia) expect(livroPorCodigo(naBiblia[1]!), `${onde}: livro ${b.ir}`).toBeDefined();
       if (tipo === "novenas") expect(NOVENAS.some((n) => n.id === id), `${onde}: ${b.ir}`).toBe(true);
       if (tipo === "desafios") expect(DESAFIOS.some((d) => d.id === id), `${onde}: ${b.ir}`).toBe(true);
     }

@@ -51,6 +51,14 @@ Arquivo: `src/devocao/cursos/missa-explicada.ts`. Nenhuma fórmula litúrgica fo
 - Avisos à comunidade depois da oração depois da comunhão: IGMR 90.
 - Ponto delicado: dias de preceito no Brasil. O texto lista Natal, Santa Maria Mãe de Deus (1º/1), Corpus Christi e Imaculada Conceição (8/12). Conferir na legislação complementar da CNBB (Epifania, Ascensão, São Pedro e São Paulo, Assunção e Todos os Santos passam para o domingo).
 
+## Conferência no texto oficial (13/11/2026)
+Cada citação foi lida contra o texto do Catecismo e do Código no vatican.va.
+- Total: 27 citações. Conferem: 25. Ajustadas: 2.
+- CIC 1351 (coleta): o número fala só dos dons para os necessitados. A frase separou os pobres (CIC 1351) das necessidades da Igreja, agora com o cân. 222 (dever dos fiéis de sustentar a Igreja).
+- CIC 1354 (anamnese): o número fala da paixão, da ressurreição e da volta gloriosa. A frase manteve a ascensão (que está nas orações eucarísticas) e acrescentou a espera da volta gloriosa.
+- Sem número, conferido: jejum de uma hora com água e remédios e a dispensa de idosos, doentes e de quem cuida deles (cân. 919); homilia nos domingos e festas (cân. 767); preceito no dia ou na tarde anterior (cân. 1248).
+- Dias de preceito no Brasil: a lista ficou como estava e ganhou o cân. 1246 (a conferência dos bispos pode tirar dias de preceito ou passá-los para o domingo), com a Epifania e a Ascensão como exemplo. A lista em si vem da legislação complementar da CNBB, que não está no Código: continua para o dono conferir.
+
 ## A revisar: Rezar com a Bíblia
 
 Arquivo: `src/devocao/cursos/rezar-com-a-biblia.ts`. Nenhum Código de Direito Canônico citado.
@@ -85,6 +93,14 @@ Arquivo: `src/devocao/cursos/rezar-com-a-biblia.ts`. Nenhum Código de Direito C
 - CIC 80 (Escritura e Tradição, mesma fonte), 85 (Magistério interpreta), 86 (Magistério serve à Palavra), 112 (unidade da Escritura, Cristo no centro), 113 (ler na Tradição viva), 129 (Agostinho: o Novo escondido no Antigo).
 - "Aos domingos, a primeira leitura, quase sempre do Antigo Testamento, costuma combinar com o Evangelho": no Tempo Pascal ela vem dos Atos. Conferir se "quase sempre" basta.
 - "Ao fim de alguns anos, terá passado pelos principais textos": referência aos ciclos A/B/C e I/II, sem números.
+
+## Conferência no texto oficial (13/11/2026)
+Cada número conferido no texto português do Catecismo (vatican.va).
+
+- Total de citações: 16 (todas do CIC). Conferem: 16. Acrescentada: 1 (CIC 103).
+- CIC 103 (acrescentado): a frase "a Igreja a recebe com a mesma reverência com que recebe o Senhor" virou "tem por ela a mesma veneração que tem pelo Corpo do Senhor (CIC 103)", que é o que o número diz. Responde à pergunta do item 1 acima.
+- Conferido sem mudar: CIC 105, 106, 107, 120, 125, 2708 (cita a lectio divina pelo nome), 2654, 2709, 2587, 1174, 80, 85, 86, 112, 113, 129 (o adágio do Novo escondido no Antigo; a atribuição a Santo Agostinho vem da nota do próprio Catecismo).
+- Continuam para o dono: os pontos acima sobre a Bíblia protestante, os Salmos com dois números, Guigo II e o quinto passo da lectio divina.
 
 ## A revisar: Preparação para a crisma
 
@@ -132,6 +148,13 @@ Arquivo: `src/devocao/cursos/preparacao-para-a-crisma.ts` (8 lições).
 ## 8. Testemunhas de Cristo (Mt 5,13-16)
 - CIC 1303 (testemunhas com palavras e obras), 2180 (preceito dominical), 1322 (a eucaristia completa a iniciação); cân. 1247 (missa aos domingos e festas de preceito).
 - "Festas de preceito": no Brasil algumas são transferidas para o domingo; a lição não lista quais.
+
+## Conferência no texto oficial (13/11/2026)
+Cada citação foi lida contra o texto do Catecismo e do Código no vatican.va.
+- Total: 31 citações. Conferem: 30. Número errado: 1.
+- CIC 1309 -> 1310 (lição 7): a oração mais intensa como preparação está no 1310; o 1309 trata do fim da catequese e da pertença à Igreja.
+- Lição 6, frase sem número: "por motivo justo, o bispo pode dar a um padre a faculdade de crismar" virou "se houver necessidade" (cân. 884; CIC 1313), que é o que os dois textos dizem. O cân. 883 continua só na frase do perigo de morte, onde confere.
+- Doze frutos (CIC 1832): conferem com a lista do Catecismo; a lição segue a ordem da Vulgata, a mesma da leitura do app (Gl 5,22-23), e o Catecismo traz outra ordem. Nada mudou.
 
 ## A revisar: Catequese de adultos
 
@@ -190,3 +213,16 @@ Arquivo: `src/devocao/cursos/catequese-de-adultos.ts`. Texto próprio; nenhuma f
 - CIC 1010 (sentido cristão da morte), 1022 (juízo particular, "sobre o amor"), 1024 (céu), 1030 (purgatório), 1033 (inferno como autoexclusão), 1037 (ninguém predestinado ao inferno), 1038 (juízo final), 997 (ressurreição dos corpos), 1817 (esperança).
 - Ponto delicado: a frase sobre o inferno ("escolhida livremente por quem morre em pecado mortal sem se arrepender").
 - "Pedimos que se celebrem missas por eles": costume, conferir a redação.
+
+## Conferência no texto oficial (13/11/2026)
+Cada número conferido no texto português do Catecismo e do Código (vatican.va).
+
+- Total de citações: 50 (48 do CIC, 2 do Código). Conferem: 49 (quatro delas só foram reescritas porque copiavam o texto oficial de perto). Parcial: 1 (CIC 2559). Acrescentadas: 4 (CIC 160, 466, 1032 e 2626-2643), onde havia afirmação sem número.
+- CIC 1131: conferia, mas a frase repetia a definição oficial quase palavra por palavra. Reescrita com palavras próprias.
+- CIC 1849 e CIC 1857: conferiam, mas copiavam o texto oficial de perto. Reescritas.
+- CIC 997: conferia, mas seguia a frase oficial de perto. Reescrita.
+- CIC 2559: o número sustenta "elevar a alma a Deus"; "conversar com ele como com um pai e um amigo" não está nele. O número passou para logo depois da parte que ele sustenta.
+- Sem número, corrigido: "Ninguém é obrigado a crer" não é exato (o chamado de Deus obriga em consciência, mas não força). Virou "Ninguém pode ser forçado a crer" (CIC 160).
+- Acrescentados: CIC 466 (Concílio de Éfeso, 431), CIC 1032 (missas e orações pelos falecidos), CIC 2626-2643 (formas de oração: bênção e adoração, pedido, intercessão, ação de graças, louvor), que respondem a duas perguntas acima.
+- Conferido sem mudar: as datas (Éfeso 431, Imaculada 1854 com Pio IX no CIC 491; Assunção 1950 com Pio XII, data histórica, o CIC 966 não traz o ano), cân. 916 e 989, cân. 1247, a sexta-feira como dia de penitência (cân. 1250).
+- Continuam para o dono: o tom de "a Bíblia não é um livro de ciência", a redação da concepção virginal, a frase sobre o inferno e o costume de turmas de catequese para adultos.

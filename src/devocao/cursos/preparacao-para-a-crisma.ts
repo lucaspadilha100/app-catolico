@@ -175,7 +175,7 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "O ministro ordinário da confirmação é o bispo (cân. 882; CIC 1313). Ele é sucessor dos apóstolos, como Pedro e João na Samaria, e a sua presença mostra que o crismado fica ligado à Igreja inteira. Por motivo justo, o bispo pode dar a um padre a faculdade de crismar. Em perigo de morte, qualquer padre pode administrar o sacramento (cân. 883).",
+            "O ministro ordinário da confirmação é o bispo (cân. 882; CIC 1313). Ele é sucessor dos apóstolos, como Pedro e João na Samaria, e a sua presença mostra que o crismado fica ligado à Igreja inteira. Se houver necessidade, o bispo pode dar a um padre a faculdade de crismar (cân. 884; CIC 1313). Em perigo de morte, qualquer padre pode administrar o sacramento (cân. 883).",
         },
         {
           pratica:
@@ -208,7 +208,7 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "A preparação pede também uma oração mais intensa (CIC 1309). Uma pequena regra ajuda: rezar de manhã e à noite, ler um trecho do Evangelho por dia e não faltar à missa de domingo. Peça ao seu padrinho que reze por você e reze por ele. Na véspera da crisma, reserve alguns minutos de silêncio para pedir ao Espírito Santo que encontre a porta aberta.",
+            "A preparação pede também uma oração mais intensa (CIC 1310). Uma pequena regra ajuda: rezar de manhã e à noite, ler um trecho do Evangelho por dia e não faltar à missa de domingo. Peça ao seu padrinho que reze por você e reze por ele. Na véspera da crisma, reserve alguns minutos de silêncio para pedir ao Espírito Santo que encontre a porta aberta.",
         },
         {
           pratica:

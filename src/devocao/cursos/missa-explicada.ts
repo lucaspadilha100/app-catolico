@@ -115,7 +115,7 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "Nesta hora também se recolhe a coleta. Ela não é um intervalo da missa: desde o começo, os cristãos trazem, junto com o pão e o vinho, dons para os pobres e para as necessidades da Igreja (CIC 1351). A oferta em dinheiro faz parte da nossa oferta a Deus e se dá com generosidade e alegria (2Cor 9,7).",
+            "Nesta hora também se recolhe a coleta. Ela não é um intervalo da missa: desde o começo, os cristãos trazem, junto com o pão e o vinho, dons para os pobres (CIC 1351). Hoje a coleta ajuda também nas necessidades da Igreja, que os fiéis têm o dever de sustentar (cân. 222). A oferta em dinheiro faz parte da nossa oferta a Deus e se dá com generosidade e alegria (2Cor 9,7).",
         },
         {
           texto:
@@ -150,7 +150,7 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "Logo após a consagração, o padre proclama o mistério da fé, e o povo aclama a morte e a ressurreição do Senhor, à espera da sua vinda (1Cor 11,26). Segue a memória: a Igreja recorda a paixão, a ressurreição e a ascensão de Cristo e oferece ao Pai o sacrifício do seu Filho (CIC 1354). Nas intercessões, reza-se pelo papa, pelo bispo, por toda a Igreja, pelos vivos e pelos mortos, em comunhão com Maria e os santos. No fim, o padre ergue o Corpo e o Sangue de Cristo e dá glória ao Pai por meio do Filho, na unidade do Espírito Santo. O povo responde com o grande Amém, o sim de toda a assembleia a tudo o que foi rezado.",
+            "Logo após a consagração, o padre proclama o mistério da fé, e o povo aclama a morte e a ressurreição do Senhor, à espera da sua vinda (1Cor 11,26). Segue a memória: a Igreja recorda a paixão, a ressurreição e a ascensão de Cristo, à espera da sua volta gloriosa, e oferece ao Pai o sacrifício do seu Filho (CIC 1354). Nas intercessões, reza-se pelo papa, pelo bispo, por toda a Igreja, pelos vivos e pelos mortos, em comunhão com Maria e os santos. No fim, o padre ergue o Corpo e o Sangue de Cristo e dá glória ao Pai por meio do Filho, na unidade do Espírito Santo. O povo responde com o grande Amém, o sim de toda a assembleia a tudo o que foi rezado.",
         },
         {
           pratica:
@@ -214,7 +214,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "O preceito do domingo" },
         {
           texto:
-            "O domingo é o dia em que Cristo ressuscitou, e desde os apóstolos os cristãos se reúnem nele para a Eucaristia (CIC 2177). Por isso a Igreja manda participar da missa nos domingos e nos dias santos de guarda (cân. 1247). Cumpre o preceito quem participa da missa no próprio dia ou na tarde do dia anterior (cân. 1248). Faltar de propósito, sem motivo sério, é pecado grave; doença, o cuidado de um doente ou outra causa séria dispensam (CIC 2181). No Brasil, além dos domingos, são dias de preceito o Natal, Santa Maria, Mãe de Deus (1º de janeiro), Corpus Christi e a Imaculada Conceição (8 de dezembro).",
+            "O domingo é o dia em que Cristo ressuscitou, e desde os apóstolos os cristãos se reúnem nele para a Eucaristia (CIC 2177). Por isso a Igreja manda participar da missa nos domingos e nos dias santos de guarda (cân. 1247). Cumpre o preceito quem participa da missa no próprio dia ou na tarde do dia anterior (cân. 1248). Faltar de propósito, sem motivo sério, é pecado grave; doença, o cuidado de um doente ou outra causa séria dispensam (CIC 2181). No Brasil, além dos domingos, são dias de preceito o Natal, Santa Maria, Mãe de Deus (1º de janeiro), Corpus Christi e a Imaculada Conceição (8 de dezembro). Outras, como a Epifania e a Ascensão, passam para um domingo, porque o Código permite aos bispos de cada país transferi-las (cân. 1246).",
         },
         {
           pratica:
