@@ -19,7 +19,7 @@ const conteudo: ConteudoDaNovena = {
         { leitura: "1CO 1:26-31" },
         {
           texto:
-            "Catarina Labouré era uma moça do campo, na França, que entrou para as Filhas da Caridade de São Vicente de Paulo. Em 1830, ainda noviça, rezava na capela da casa da Rue du Bac, em Paris. Depois das aparições, viveu mais de quarenta anos no serviço discreto dos idosos, e contou o que tinha visto apenas ao seu confessor. Peçamos a graça da humildade e do serviço escondido.",
+            "Catarina Labouré era uma moça do campo, na França, que entrou para as Filhas da Caridade de São Vicente de Paulo. Em 1830, ainda noviça, rezava na capela da casa da Rue du Bac, em Paris. Depois das aparições, viveu mais de quarenta anos no serviço discreto dos idosos, e por muitos anos contou o que tinha visto apenas ao seu confessor. Peçamos a graça da humildade e do serviço escondido.",
         },
         { linhas: ["Nossa Senhora das Graças, que escolhestes uma alma simples, dai-nos um coração humilde e disponível para servir. Amém."] },
       ],

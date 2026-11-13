@@ -20,7 +20,7 @@ const conteudo: ConteudoDaNovena = {
         { leitura: "1SA 3:1-10" },
         {
           texto:
-            "Rita nasceu por volta de 1381 em Roccaporena, uma aldeia de montanha perto de Cássia, na Itália, filha de pais já idosos e de fé. Desde cedo aprendeu em casa a rezar e a escutar a Deus no silêncio. Como o menino Samuel, ela não sabia ainda tudo o que Deus lhe pediria, mas tinha o coração pronto para responder. Peçamos a graça de ouvir a voz de Deus na nossa vida de todos os dias.",
+            "Rita nasceu por volta de 1381 em Roccaporena, uma aldeia de montanha perto de Cássia, na Itália. A tradição conta que era filha de pais já idosos e de fé, e que desde cedo aprendeu em casa a rezar e a escutar a Deus no silêncio. Como o menino Samuel, ela não sabia ainda tudo o que Deus lhe pediria, mas tinha o coração pronto para responder. Peçamos a graça de ouvir a voz de Deus na nossa vida de todos os dias.",
         },
         { linhas: ["Santa Rita, ensinai-nos a dizer com sinceridade: falai, Senhor, porque o vosso servo escuta. Que a oração seja para nós o primeiro gesto de cada dia."] },
       ],
@@ -42,7 +42,7 @@ const conteudo: ConteudoDaNovena = {
         { leitura: "MAT 15:21-28" },
         {
           texto:
-            "Rita teve dois filhos e cuidou deles com amor de mãe. Quando o pai foi assassinado, ela temeu que os meninos crescessem com desejo de vingança, e rezou para que a alma deles fosse salva acima de tudo. Como a mulher cananeia, insistiu diante de Deus pelos filhos, sem desanimar. Peçamos por todas as mães e pais, e pelos filhos que se afastaram de Deus.",
+            "Rita teve dois filhos e cuidou deles com amor de mãe. Quando o pai foi assassinado, a tradição conta que ela temeu que os meninos crescessem com desejo de vingança, e rezou para que a alma deles fosse salva acima de tudo. Como a mulher cananeia, insistiu diante de Deus pelos filhos, sem desanimar. Peçamos por todas as mães e pais, e pelos filhos que se afastaram de Deus.",
         },
         { linhas: ["Santa Rita, entregamos em vossas mãos os nossos filhos e netos. Pedi a Deus que os guarde do mal e os conduza pelo caminho do bem."] },
       ],
@@ -53,7 +53,7 @@ const conteudo: ConteudoDaNovena = {
         { leitura: "MAT 5:43-48" },
         {
           texto:
-            "A morte violenta do marido foi para Rita uma dor enorme. Mesmo assim, ela perdoou de coração os que o mataram, porque sabia que a vingança só gera mais morte. Jesus nos pede o que parece impossível: amar os inimigos e rezar por quem nos persegue. O perdão não apaga a dor, mas abre o caminho para a paz (CIC 2843).",
+            "A morte violenta do marido foi para Rita uma dor enorme. Mesmo assim, ela perdoou de coração os que o mataram, porque sabia que a vingança só gera mais morte. Jesus nos pede o que parece impossível: amar os inimigos e rezar por quem nos persegue. Sentir a ofensa não depende de nós, mas o coração entregue ao Espírito Santo pode transformar a ferida em compaixão e em oração por quem nos feriu (CIC 2843).",
         },
         { linhas: ["Senhor, pela intercessão de Santa Rita, dai-nos a graça de perdoar quem nos feriu. Tirai do nosso coração toda mágoa e todo desejo de vingança."] },
       ],
@@ -97,7 +97,7 @@ const conteudo: ConteudoDaNovena = {
         { leitura: "MAT 27:27-31" },
         {
           texto:
-            "Rita meditava com muito amor a paixão de Jesus. A tradição conta que, rezando diante do crucifixo, recebeu na testa uma ferida, como de um espinho da coroa do Senhor, e a levou por cerca de quinze anos. Ela uniu o seu sofrimento ao de Cristo, sem reclamar. Também nós podemos oferecer as nossas dores unidas à cruz de Jesus, pela salvação do mundo (CIC 1521).",
+            "Rita meditava com muito amor a paixão de Jesus. A tradição conta que, rezando diante do crucifixo, recebeu na testa uma ferida, como de um espinho da coroa do Senhor, e a levou por cerca de quinze anos. Ela uniu o seu sofrimento ao de Cristo, sem reclamar. Pela cruz, Cristo deu ao sofrimento um sentido novo: ele pode unir-nos à sua paixão redentora (CIC 1505). Também nós podemos oferecer as nossas dores unidas à cruz de Jesus.",
         },
         { linhas: ["Jesus coroado de espinhos, pela intercessão de Santa Rita, dai-nos força para levar a nossa cruz com paciência. Consolai os doentes e os que sofrem."] },
       ],

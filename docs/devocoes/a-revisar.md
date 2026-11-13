@@ -247,3 +247,32 @@ Conferido em fonte real (baixada por curl), não de memória.
   o 2º e o 3º noturnos têm lições próprias (Santo Agostinho, "De cura pro
   mortuis gerenda", cap. 2 a 4, e 1Cor 15,12-22); o app usa as lições de Jó em
   todos os dias. Fica para o dono decidir se o Dia de Finados ganha as próprias.
+
+## Conferência final das novenas (13/11/2026)
+
+As 18 novenas conferidas pelas regras de `docs/conferencia-doutrinal.md`.
+
+- Todos os 50 números do Catecismo conferidos no texto do vatican.va. Errados
+  e corrigidos: Santa Rita, CIC 1521 (é da Unção dos Enfermos) virou CIC 1505;
+  Espírito Santo, o CIC 1831 diz "entendimento" (saiu "que o Catecismo chama
+  de inteligência") e a ordem dos frutos agora é a do CIC 1832. Frases
+  ajustadas ao que o número diz: CIC 2843 (Rita), 2518-2519 (Imaculada), 618
+  (Fátima). Os outros batem.
+- Tradição dita como tradição: Santa Rita (pais idosos, o medo pelos filhos);
+  São Francisco (a voz do crucifixo de São Damião, "os primeiros biógrafos
+  contam"); Fátima (o Anjo de 1916, "segundo as memórias de Lúcia"; o sol de
+  13/10/1917 como o que as testemunhas contaram).
+- Saiu o que não tem fonte: "a mais antiga das novenas" (no lugar, Leão XIII,
+  Divinum illud munus, 1897, n. 13, que manda a novena antes de Pentecostes);
+  "a primeira santa nascida no Brasil" (Dulce: há disputa com os Mártires de
+  Cunhaú e Uruaçu); "Amanhã celebramos a solenidade" (Sagrado Coração, pela
+  decisão do dono sobre frases presas à data).
+- Ganharam fonte: Aparecida, o corpo e a cabeça reunidos (papa Francisco aos
+  bispos do Brasil, 27/7/2013); São José, José do Egito como figura (Leão XIII,
+  Quamquam pluries, 1889, n. 4); Santa Dulce, 13 de agosto como o dia da
+  profissão religiosa e do nome.
+- Conferido e mantido: "padroeira de Natal e da sua Arquidiocese"; as datas
+  dos santos; aparições só as reconhecidas (Rue du Bac, Fátima); nenhuma
+  promessa de graça automática.
+- Sem fonte aberta: o galinheiro "em 1949" com "cerca de setenta" doentes
+  (Santa Dulce), mantido como a narrativa corrente das Obras Sociais.

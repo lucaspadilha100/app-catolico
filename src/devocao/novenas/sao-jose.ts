@@ -108,7 +108,7 @@ const conteudo: ConteudoDaNovena = {
         { leitura: "GEN 41:53-57" },
         {
           texto:
-            "Quando faltou pão no Egito, o faraó disse ao povo: ide ter com José. A tradição da Igreja viu nesse José antigo uma figura do esposo de Maria, a quem Deus confiou o Pão da vida. Em 1870, o beato Pio IX o declarou Patrono da Igreja universal, e a Igreja nos convida a confiar-nos a ele como padroeiro da boa morte (CIC 1014). Peçamos que ele guarde a Igreja e nos acompanhe na hora da nossa morte, junto de Jesus e de Maria.",
+            "Quando faltou pão no Egito, o faraó disse ao povo: ide ter com José. Muitos Padres da Igreja viram nesse José antigo uma figura do esposo de Maria, a quem Deus confiou o Pão da vida, como recorda o papa Leão XIII na encíclica Quamquam pluries (1889). Em 1870, o beato Pio IX o declarou Patrono da Igreja universal, e a Igreja nos convida a confiar-nos a ele como padroeiro da boa morte (CIC 1014). Peçamos que ele guarde a Igreja e nos acompanhe na hora da nossa morte, junto de Jesus e de Maria.",
         },
         { linhas: ["São José, protetor da santa Igreja, guardai o Papa, os bispos, os sacerdotes e todo o povo de Deus, e assisti-nos na hora da morte. Amém."] },
       ],

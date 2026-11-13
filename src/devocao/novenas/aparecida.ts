@@ -41,7 +41,7 @@ const conteudo: ConteudoDaNovena = {
         { leitura: "EPH 4:1-6" },
         {
           texto:
-            "Os pescadores juntaram as duas partes da imagem, e ela ficou inteira. Muitos veem nesse gesto um sinal: a Mãe de Deus reúne o que está dividido. Maria quer ver unidos os seus filhos, nas famílias, nas comunidades e em todo o povo, num só corpo, cuja cabeça é Cristo. Peçamos a graça de sermos construtores de paz e de unidade.",
+            "Os pescadores juntaram as duas partes da imagem, e ela ficou inteira. Falando aos bispos do Brasil em 2013, o papa Francisco viu nisso um sinal: o que estava quebrado volta à unidade. Maria quer ver unidos os seus filhos, nas famílias, nas comunidades e em todo o povo, num só corpo, cuja cabeça é Cristo. Peçamos a graça de sermos construtores de paz e de unidade.",
         },
         { linhas: ["Senhora Aparecida, reuni o que está dividido nas nossas casas e na nossa pátria. Fazei de nós instrumentos de paz. Amém."] },
       ],

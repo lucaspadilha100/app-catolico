@@ -19,7 +19,7 @@ const conteudo: ConteudoDaNovena = {
         { leitura: "PSA 95:1-7", poema: true },
         {
           texto:
-            "Em 1916, antes das aparições de Nossa Senhora, um anjo apareceu três vezes a três crianças pastoras de Aljustrel, perto de Fátima, em Portugal: Lúcia, Francisco e Jacinta. Apresentou-se como o Anjo da Paz, ensinou-as a adorar a Deus prostradas por terra e, na última vez, deu-lhes a Comunhão. A mensagem de Fátima começa pela adoração. Peçamos a graça de adorar a Deus com humildade, sobretudo diante da Eucaristia.",
+            "Segundo as memórias de Lúcia, em 1916, antes das aparições de Nossa Senhora, um anjo apareceu três vezes a três crianças pastoras de Aljustrel, perto de Fátima, em Portugal: Lúcia, Francisco e Jacinta. Apresentou-se como o Anjo da Paz, ensinou-as a adorar a Deus prostradas por terra e, na última vez, deu-lhes a Comunhão. A mensagem de Fátima começa pela adoração. Peçamos a graça de adorar a Deus com humildade, sobretudo diante da Eucaristia.",
         },
         { linhas: ["Nossa Senhora de Fátima, ensinai-nos a adorar o vosso Filho presente na Eucaristia. Amém."] },
       ],
@@ -64,7 +64,7 @@ const conteudo: ConteudoDaNovena = {
         { leitura: "COL 1:24-28" },
         {
           texto:
-            "Em agosto, as crianças foram retidas pelas autoridades e não puderam ir à Cova da Iria no dia 13; Nossa Senhora lhes apareceu dias depois, nos Valinhos. Pediu que rezassem muito e fizessem sacrifícios pelos pecadores, porque muitas almas se perdem por não haver quem reze e se sacrifique por elas. Os pequenos sacrifícios oferecidos com amor, unidos ao sacrifício de Cristo, ajudam a salvação dos irmãos (CIC 618). Peçamos a graça de oferecer a Deus as contrariedades do dia pela conversão dos pecadores.",
+            "Em agosto, as crianças foram retidas pelas autoridades e não puderam ir à Cova da Iria no dia 13; Nossa Senhora lhes apareceu dias depois, nos Valinhos. Pediu que rezassem muito e fizessem sacrifícios pelos pecadores, porque muitas almas se perdem por não haver quem reze e se sacrifique por elas. Cristo quer associar ao seu sacrifício redentor os que dele recebem a salvação (CIC 618), e São Paulo oferece os seus sofrimentos pela Igreja. Os pequenos sacrifícios oferecidos com amor, unidos ao de Cristo, tornam-se oração pelos irmãos. Peçamos a graça de oferecer a Deus as contrariedades do dia pela conversão dos pecadores.",
         },
         { linhas: ["Mãe dos pecadores, ensinai-nos a oferecer com amor os pequenos sacrifícios de cada dia pela salvação das almas. Amém."] },
       ],
@@ -109,7 +109,7 @@ const conteudo: ConteudoDaNovena = {
         { leitura: "REV 21:1-5" },
         {
           texto:
-            "Em 13 de outubro de 1917, a Senhora disse quem era: a Senhora do Rosário. Pediu que continuassem a rezar o terço todos os dias, e naquele dia uma grande multidão viu o sol mover-se de modo extraordinário. Em 1930, o bispo de Leiria declarou dignas de crédito as aparições. Em julho, Nossa Senhora tinha prometido que, por fim, o seu Imaculado Coração triunfaria; e Deus fará novas todas as coisas.",
+            "Em 13 de outubro de 1917, a Senhora disse quem era: a Senhora do Rosário. Pediu que continuassem a rezar o terço todos os dias, e naquele dia muitos dos que estavam na Cova da Iria contaram ter visto o sol mover-se de modo extraordinário. Em 1930, o bispo de Leiria declarou dignas de crédito as aparições. Em julho, Nossa Senhora tinha prometido que, por fim, o seu Imaculado Coração triunfaria; e Deus fará novas todas as coisas.",
         },
         { linhas: ["Senhora do Rosário, confiamos ao vosso Imaculado Coração a Igreja, o mundo e as nossas famílias. Amém."] },
         { ir: "/rezar/terco", rotulo: "Rezar o terço" },

@@ -96,7 +96,7 @@ const conteudo: ConteudoDaNovena = {
         { leitura: "PSA 24:3-6", poema: true },
         {
           texto:
-            "O salmo pergunta quem poderá subir ao monte do Senhor, e responde: quem tem as mãos inocentes e o coração puro. A pureza de coração não é só o cuidado com o corpo: é ter o coração inteiro voltado para Deus, sem duplicidade (CIC 2518-2519). Maria é o modelo dessa pureza. Peçamos a graça de um olhar limpo e de um coração sem falsidade.",
+            "O salmo pergunta quem poderá subir ao monte do Senhor, e responde: quem tem as mãos inocentes e o coração puro. Puros de coração são os que põem a inteligência e a vontade de acordo com a santidade de Deus, na caridade, na castidade e no amor à verdade da fé (CIC 2518-2519). Maria é o modelo dessa pureza. Peçamos a graça de um olhar limpo e de um coração sem falsidade.",
         },
         { linhas: ["Mãe puríssima, guardai os nossos olhos, os nossos pensamentos e o nosso coração, para que vejamos a Deus. Amém."] },
       ],

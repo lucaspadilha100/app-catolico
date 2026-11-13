@@ -41,7 +41,7 @@ const conteudo: ConteudoDaNovena = {
         { leitura: "1KI 19:9-12" },
         {
           texto:
-            "Elias procurou a Deus no monte, e o Senhor não estava no vento forte, nem no terremoto, nem no fogo, mas no sopro de uma brisa suave. Desde o século XII, eremitas viveram no Carmelo em silêncio e oração, junto de uma capela dedicada à Virgem Maria, e por isso foram chamados irmãos de Nossa Senhora do Monte Carmelo. Deus fala no silêncio. Peçamos a graça de fazer silêncio por dentro para ouvir a sua voz.",
+            "Elias procurou a Deus no monte, e o Senhor não estava no vento forte, nem no terremoto, nem no fogo, mas no sopro de uma brisa suave. Desde o fim do século XII, eremitas viveram no Carmelo em silêncio e oração, junto de uma capela dedicada à Virgem Maria, e por isso foram chamados irmãos de Nossa Senhora do Monte Carmelo. Deus fala no silêncio. Peçamos a graça de fazer silêncio por dentro para ouvir a sua voz.",
         },
         { linhas: ["Mãe do Carmelo, acalmai o barulho do nosso coração, para que possamos ouvir a voz de Deus. Amém."] },
       ],
@@ -52,7 +52,7 @@ const conteudo: ConteudoDaNovena = {
         { leitura: "LUK 2:15-19" },
         {
           texto:
-            "Diante do nascimento de Jesus, Maria não fala muito: guarda todas as coisas e as medita no coração. É esse o modelo da oração no Carmelo: estar com Deus e deixar que a sua Palavra desça ao fundo da alma. Santa Teresa de Jesus dizia que a oração é um trato de amizade com aquele que sabemos que nos ama (CIC 2709). Peçamos a graça de reservar cada dia um tempo para estar a sós com Deus.",
+            "Diante do nascimento de Jesus, Maria não fala muito: guarda todas as coisas e as medita no coração. É esse o modelo da oração no Carmelo: estar com Deus e deixar que a sua Palavra desça ao fundo da alma. Santa Teresa de Jesus dizia que a oração mental é um trato de amizade com aquele que sabemos que nos ama (CIC 2709). Peçamos a graça de reservar cada dia um tempo para estar a sós com Deus.",
         },
         { linhas: ["Virgem orante, ensinai-nos a meditar no coração as palavras e os gestos de Jesus. Amém."] },
       ],
@@ -85,7 +85,7 @@ const conteudo: ConteudoDaNovena = {
         { leitura: "PSA 63:2-9", poema: true },
         {
           texto:
-            "Do Carmelo vieram grandes mestres da vida de oração, como Santa Teresa de Jesus, São João da Cruz e Santa Teresinha do Menino Jesus, os três doutores da Igreja. Todos aprenderam com Maria a ter sede de Deus, como diz o salmo. A santidade não é para poucos: é o caminho de todo batizado. Peçamos a intercessão desses santos, para que também nós desejemos a Deus acima de tudo.",
+            "Do Carmelo vieram grandes mestres da vida de oração, como Santa Teresa de Jesus, São João da Cruz e Santa Teresinha do Menino Jesus, os três proclamados doutores da Igreja. Todos aprenderam com Maria a ter sede de Deus, como diz o salmo. A santidade não é para poucos: é o caminho de todo batizado. Peçamos a intercessão desses santos, para que também nós desejemos a Deus acima de tudo.",
         },
         { linhas: ["Rainha dos santos do Carmelo, acendei em nós a sede de Deus que ardia no coração deles. Amém."] },
       ],

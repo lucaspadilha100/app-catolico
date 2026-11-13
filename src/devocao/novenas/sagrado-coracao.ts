@@ -139,7 +139,7 @@ const conteudo: ConteudoDaNovena = {
         { leitura: "EPH 3:14-19" },
         {
           texto:
-            "São Paulo pede que Cristo habite pela fé em nossos corações e que conheçamos o seu amor, que ultrapassa todo entendimento. A devoção ao Sagrado Coração, difundida sobretudo a partir de Santa Margarida Maria Alacoque, no século XVII, convida à consagração: entregar a Jesus o que somos e o que temos. Amanhã celebramos a solenidade do Sagrado Coração de Jesus. Consagremos a ele a nossa vida e a nossa família.",
+            "São Paulo pede que Cristo habite pela fé em nossos corações e que conheçamos o seu amor, que ultrapassa todo entendimento. A devoção ao Sagrado Coração, difundida sobretudo a partir de Santa Margarida Maria Alacoque, no século XVII, convida à consagração: entregar a Jesus o que somos e o que temos. Consagremos a ele a nossa vida e a nossa família.",
         },
         {
           linhas: [

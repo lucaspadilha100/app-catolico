@@ -42,7 +42,7 @@ const conteudo: ConteudoDaNovena = {
         { leitura: "EPH 2:19-22" },
         {
           texto:
-            "Rezando diante do crucifixo da capelinha de São Damião, quase em ruínas, Francisco ouviu o pedido de reparar a casa do Senhor. No começo, entendeu ao pé da letra e pôs-se a carregar pedras para reconstruir igrejas. Com o tempo, compreendeu que Deus o chamava a renovar a própria Igreja, pela santidade de vida e pela fidelidade ao Evangelho. Peçamos amor e fidelidade à Igreja, mesmo nas suas fraquezas.",
+            "Os primeiros biógrafos contam que, rezando diante do crucifixo da capelinha de São Damião, quase em ruínas, Francisco ouviu o pedido de reparar a casa do Senhor. No começo, entendeu ao pé da letra e pôs-se a carregar pedras para reconstruir igrejas. Com o tempo, compreendeu que Deus o chamava a renovar a própria Igreja, pela santidade de vida e pela fidelidade ao Evangelho. Peçamos amor e fidelidade à Igreja, mesmo nas suas fraquezas.",
         },
         { linhas: ["Senhor, fazei de nós pedras vivas da vossa Igreja. Pela intercessão de São Francisco, que cada um de nós ajude a reconstruí-la com a própria conversão."] },
       ],
@@ -75,7 +75,7 @@ const conteudo: ConteudoDaNovena = {
         { leitura: "LUK 2:6-12" },
         {
           texto:
-            "No Natal de 1223, em Greccio, Francisco quis mostrar com os próprios olhos a pobreza em que o Filho de Deus nasceu, com a manjedoura, o boi e o burro, e ali se celebrou a Missa. Desse gesto nasceu o costume de montar o presépio. Para Francisco, o Deus que se faz pequeno nos ensina a humildade. Peçamos a graça de acolher Jesus com um coração simples.",
+            "No Natal de 1223, em Greccio, Francisco quis mostrar com os próprios olhos a pobreza em que o Filho de Deus nasceu, com a manjedoura, o boi e o burro, e ali se celebrou a Missa. Desse gesto se espalhou o costume de montar o presépio. Para Francisco, o Deus que se faz pequeno nos ensina a humildade. Peçamos a graça de acolher Jesus com um coração simples.",
         },
         { linhas: ["Menino Jesus, pobre e humilde na manjedoura, ensinai-nos a ser pequenos. Pela intercessão de São Francisco, fazei de nosso coração um presépio para vós."] },
       ],

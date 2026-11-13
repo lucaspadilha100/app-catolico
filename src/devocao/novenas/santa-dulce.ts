@@ -31,7 +31,7 @@ const conteudo: ConteudoDaNovena = {
         { leitura: "ROM 12:1-2.9-13" },
         {
           texto:
-            "Em 1933, a jovem Maria Rita entrou na Congregação das Irmãs Missionárias da Imaculada Conceição da Mãe de Deus e recebeu o nome de Irmã Dulce, em memória da mãe. O dia 13 de agosto, em que a Igreja a celebra, recorda esse começo da sua vida consagrada. Ela ofereceu a Deus a vida inteira como oferta viva, a serviço dos irmãos. Peçamos pelas vocações e pela fidelidade de todos os consagrados.",
+            "Em 1933, a jovem Maria Rita entrou na Congregação das Irmãs Missionárias da Imaculada Conceição da Mãe de Deus. Em 13 de agosto daquele ano, fez a profissão religiosa e recebeu o nome de Irmã Dulce, em memória da mãe; por isso a Igreja a celebra nesse dia. Ela ofereceu a Deus a vida inteira como oferta viva, a serviço dos irmãos. Peçamos pelas vocações e pela fidelidade de todos os consagrados.",
         },
         { linhas: ["Senhor, aceitai a nossa vida como oferta. Pela intercessão de Santa Dulce, chamai jovens generosos para o vosso serviço."] },
       ],
@@ -53,7 +53,7 @@ const conteudo: ConteudoDaNovena = {
         { leitura: "MAT 25:34-40" },
         {
           texto:
-            "Irmã Dulce recolhia doentes pobres nas ruas de Salvador e não tinha onde abrigá-los. Em 1949, com a permissão da superiora, acomodou cerca de setenta deles no galinheiro ao lado do Convento Santo Antônio. Daquele lugar pobre nasceu, com o tempo, o Hospital Santo Antônio, e depois as Obras Sociais Irmã Dulce, que até hoje atendem milhares de pessoas. Ela via em cada doente o próprio Cristo, como ele mesmo nos ensinou.",
+            "Irmã Dulce recolhia doentes pobres nas ruas de Salvador e não tinha onde abrigá-los. Com a permissão da superiora, acomodou-os no galinheiro ao lado do Convento Santo Antônio. Daquele lugar pobre nasceu, com o tempo, o Hospital Santo Antônio, e depois as Obras Sociais Irmã Dulce, que até hoje atendem milhares de pessoas. Ela via em cada doente o próprio Cristo, como ele mesmo nos ensinou.",
         },
         { linhas: ["Senhor Jesus, presente nos doentes e nos pobres, dai-nos olhos para vos reconhecer neles. Pela intercessão de Santa Dulce, abençoai os hospitais e quem cuida dos enfermos."] },
       ],
@@ -108,7 +108,7 @@ const conteudo: ConteudoDaNovena = {
         { leitura: "LUK 10:30-37" },
         {
           texto:
-            "Em 13 de outubro de 2019, o papa Francisco canonizou Irmã Dulce, a primeira santa nascida no Brasil, com o nome de Santa Dulce dos Pobres. Como o bom samaritano, ela não passou ao largo de quem estava caído à beira do caminho. O povo a chamava de anjo bom da Bahia, e a sua obra continua viva. Jesus também nos diz hoje: vai e faze tu o mesmo.",
+            "Em 13 de outubro de 2019, o papa Francisco canonizou Irmã Dulce com o nome de Santa Dulce dos Pobres. Como o bom samaritano, ela não passou ao largo de quem estava caído à beira do caminho. O povo a chamava de anjo bom da Bahia, e a sua obra continua viva. Jesus também nos diz hoje: vai e faze tu o mesmo.",
         },
         { linhas: ["Santa Dulce dos Pobres, ajudai-nos a ser próximos de quem sofre. Que a vossa caridade continue em nós."] },
       ],

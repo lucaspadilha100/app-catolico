@@ -20,7 +20,7 @@ const conteudo: ConteudoDaNovena = {
         { leitura: "ACT 1:12-14" },
         {
           texto:
-            "Depois da Ascensão, os apóstolos voltam a Jerusalém e perseveram unidos na oração, com Maria, a Mãe de Jesus. Desses dias de espera até Pentecostes nasce a mais antiga das novenas. O Espírito Santo é dom: não se conquista, recebe-se de coração aberto. Peçamos a graça de rezar com perseverança, junto de Maria e em comunhão com toda a Igreja.",
+            "Depois da Ascensão, os apóstolos voltam a Jerusalém e perseveram unidos na oração, com Maria, a Mãe de Jesus. Desses dias de oração até Pentecostes vem o modelo da novena, e o papa Leão XIII mandou que toda a Igreja fizesse, cada ano, uma novena antes de Pentecostes (Divinum illud munus, 1897, n. 13). O Espírito Santo é dom: não se conquista, recebe-se de coração aberto. Peçamos a graça de rezar com perseverança, junto de Maria e em comunhão com toda a Igreja.",
         },
         {
           linhas: [
@@ -50,7 +50,7 @@ const conteudo: ConteudoDaNovena = {
         { leitura: "LUK 24:44-48" },
         {
           texto:
-            "Depois da ressurreição, Jesus abre o entendimento dos discípulos para que compreendam as Escrituras. O dom do entendimento, que o Catecismo chama de inteligência, nos ajuda a penetrar as verdades da fé e a perceber o sentido da palavra de Deus. Não se trata de saber muito, mas de crer com mais luz. Peçamos que, ao ler a Bíblia e ouvir a pregação, o Espírito nos faça compreender o que ouvimos.",
+            "Depois da ressurreição, Jesus abre o entendimento dos discípulos para que compreendam as Escrituras. O dom do entendimento (CIC 1831) nos ajuda a penetrar as verdades da fé e a perceber o sentido da palavra de Deus. Não se trata de saber muito, mas de crer com mais luz. Peçamos que, ao ler a Bíblia e ouvir a pregação, o Espírito nos faça compreender o que ouvimos.",
         },
         {
           linhas: [
@@ -140,7 +140,7 @@ const conteudo: ConteudoDaNovena = {
         { leitura: "GAL 5:22-25" },
         {
           texto:
-            "Os dons do Espírito, recebidos com docilidade, dão fruto na vida de quem crê. A tradição da Igreja enumera doze frutos: caridade, alegria, paz, paciência, longanimidade, bondade, benignidade, mansidão, fidelidade, modéstia, continência e castidade (CIC 1832). São as primícias da glória eterna, que já se deixam ver no dia a dia. Peçamos que o Espírito Santo renove a Igreja e cada um de nós.",
+            "Os dons do Espírito, recebidos com docilidade, dão fruto na vida de quem crê. A tradição da Igreja enumera doze frutos: caridade, alegria, paz, paciência, bondade, longanimidade, benignidade, mansidão, fidelidade, modéstia, continência e castidade (CIC 1832). São as primícias da glória eterna, que já se deixam ver no dia a dia. Peçamos que o Espírito Santo renove a Igreja e cada um de nós.",
         },
         {
           linhas: [
