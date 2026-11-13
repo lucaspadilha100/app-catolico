@@ -13,7 +13,7 @@ const acervo: AcervoDeSantos = {
       nomes: ["Carlo", "Carlos", "Carla"],
       resumo: "Adolescente de Milão, apaixonado pela Eucaristia, que usou a internet para falar de Deus e morreu aos quinze anos.",
       historia: [
-        "Carlo Acutis nasceu em Londres em 3 de maio de 1991, filho de pais italianos, e cresceu em Milão. A família não era muito praticante, mas o menino desde cedo pediu para ir à Missa e, depois da primeira comunhão, passou a comungar todos os dias. Rezava o terço, confessava-se com frequência e fazia adoração ao Santíssimo. Dizia que a Eucaristia era a sua estrada para o céu.",
+        "Carlo Acutis nasceu em Londres em 3 de maio de 1991, filho de pais italianos, e cresceu em Milão. A família não era muito praticante, mas o menino desde cedo pediu para ir à Missa e, depois da primeira comunhão, passou a comungar todos os dias. Rezava o terço, confessava-se com frequência e fazia adoração ao Santíssimo. Dizia que diante do sol a gente se bronzeia e diante da Eucaristia se torna santo.",
         "Era um rapaz como os outros: gostava de futebol, de videogame, de animais e de computador, que aprendeu a programar sozinho. Usou esse talento para montar uma exposição sobre os milagres eucarísticos reconhecidos pela Igreja, que até hoje percorre paróquias de muitos países. Na escola defendia os colegas que sofriam zombaria e ajudava os pobres e os sem-teto do bairro.",
         "Em outubro de 2006 descobriu uma leucemia fulminante. Ofereceu os seus sofrimentos pelo Papa e pela Igreja e morreu em Monza em 12 de outubro de 2006, com quinze anos. Seu corpo repousa em Assis, no Santuário do Despojamento. Foi beatificado em Assis em 10 de outubro de 2020 e canonizado pelo papa Leão XIV em 7 de setembro de 2025, junto com Pier Giorgio Frassati.",
         "Carlo mostra que as coisas de hoje, como a internet, podem servir ao Evangelho quando o coração está em Deus.",
@@ -46,7 +46,7 @@ const acervo: AcervoDeSantos = {
       nomes: ["Domingos", "Domingas"],
       resumo: "Aluno de Dom Bosco que, antes dos quinze anos, decidiu ser santo vivendo bem as coisas de cada dia.",
       historia: [
-        "Domingos Sávio nasceu em 2 de abril de 1842 em San Giovanni di Riva, perto de Chieri, no Piemonte, filho de um ferreiro e de uma costureira. Fez a primeira comunhão aos sete anos, cedo para a época, e escreveu nesse dia os seus propósitos. O mais conhecido diz: antes morrer que pecar.",
+        "Domingos Sávio nasceu em 2 de abril de 1842 em San Giovanni di Riva, perto de Chieri, no Piemonte, filho de um ferreiro e de uma costureira. Fez a primeira comunhão aos sete anos, cedo para a época, e escreveu nesse dia os seus propósitos.",
         "Em 1854 conheceu São João Bosco, que o recebeu no Oratório de Turim. Ali o menino entendeu, numa pregação, que a santidade era possível para todos e resolveu ser santo. Dom Bosco o ensinou que isso se fazia com alegria, cumprindo bem os deveres do estudo e da oração e ajudando os colegas. Domingos acalmava brigas, cuidava dos doentes e fundou com alguns amigos a Companhia da Imaculada, grupo de rapazes que se ajudavam a viver bem.",
         "Adoeceu dos pulmões e voltou para a casa dos pais, em Mondonio, onde morreu em 9 de março de 1857, com quatorze anos. Dom Bosco escreveu a sua vida. Foi canonizado pelo papa Pio XII em 12 de junho de 1954. Os salesianos celebram a sua memória em 6 de maio. No Brasil é muito lembrado pelas mães que esperam um filho.",
         "Domingos ensina que a santidade está no dever de cada dia feito com amor e alegria.",
@@ -130,7 +130,7 @@ const acervo: AcervoDeSantos = {
       historia: [
         "Estanislau Kostka nasceu em 1550 em Rostków, na Polônia, numa família nobre. Aos quatorze anos foi estudar no colégio dos jesuítas em Viena com o irmão Paulo, que não suportava a sua piedade e o maltratava. Ali ficou gravemente doente. A tradição conta que recebeu então a comunhão das mãos de anjos e que Nossa Senhora lhe pediu que entrasse na Companhia de Jesus.",
         "O pai não aceitava essa vocação. Em 1567 Estanislau fugiu de Viena a pé, vestido de pobre, e caminhou até Dillingen, na Alemanha, onde São Pedro Canísio o acolheu e o pôs à prova. Dali seguiu, ainda a pé, até Roma, onde São Francisco de Borja o recebeu no noviciado em outubro de 1567.",
-        "Viveu o noviciado com grande alegria e amor a Nossa Senhora. Em agosto de 1568 disse aos companheiros que gostaria de celebrar a Assunção no céu. Adoeceu e morreu em Roma em 15 de agosto de 1568, com dezoito anos. Foi canonizado pelo papa Bento XIII em 1726. O Martirológio o lembra em 15 de agosto, e os jesuítas celebram a sua memória em 13 de novembro.",
+        "Viveu o noviciado com grande alegria e amor a Nossa Senhora. Conta-se que, em agosto de 1568, disse aos companheiros que gostaria de celebrar a Assunção no céu. Adoeceu e morreu em Roma em 15 de agosto de 1568, com dezoito anos. Foi canonizado pelo papa Bento XIII em 1726. O Martirológio o lembra em 15 de agosto, e os jesuítas celebram a sua memória em 13 de novembro.",
         "Estanislau ensina a seguir o chamado de Deus com decisão, mesmo contra a corrente.",
       ],
       padroeiro: ["dos noviços", "dos jovens", "da Polônia"],
@@ -244,10 +244,10 @@ const acervo: AcervoDeSantos = {
       situacao: "santo",
       pais: "Espanha",
       nomes: ["Rafael", "Rafaela"],
-      resumo: "Estudante de arquitetura que se fez monge trapista e, doente de diabetes, descobriu que só Deus basta.",
+      resumo: "Estudante de arquitetura que se fez monge trapista e, doente de diabetes, descobriu no amor de Deus a única razão de viver.",
       historia: [
         "Rafael Arnáiz Barón nasceu em Burgos, na Espanha, em 9 de abril de 1911, numa família rica e católica. Estudou com os jesuítas, desenhava e pintava muito bem e foi para Madri estudar arquitetura. Era alegre e simpático, gostava de música e de passeios.",
-        "Ao visitar o mosteiro trapista de San Isidro de Dueñas, em Palência, sentiu-se chamado à vida de silêncio e oração. Entrou ali em janeiro de 1934. Poucos meses depois descobriu que tinha diabetes grave e precisou voltar para casa. Voltou ao mosteiro mais de uma vez, já sem poder seguir toda a regra, aceitando ficar como oblato, no último lugar. Nos seus cadernos, que hoje são lidos no mundo todo, repetia que só Deus basta.",
+        "Ao visitar o mosteiro trapista de San Isidro de Dueñas, em Palência, sentiu-se chamado à vida de silêncio e oração. Entrou ali em janeiro de 1934. Poucos meses depois descobriu que tinha diabetes grave e precisou voltar para casa. Voltou ao mosteiro mais de uma vez, já sem poder seguir toda a regra, aceitando ficar como oblato, no último lugar. Nos seus cadernos, que hoje são lidos no mundo todo, escreveu que a vida de amor é a única razão de viver.",
         "Morreu no mosteiro em 26 de abril de 1938, com vinte e sete anos. São João Paulo II o apresentou como modelo aos jovens na Jornada Mundial da Juventude de Santiago de Compostela, em 1989, e o beatificou em 1992. O papa Bento XVI o canonizou em 11 de outubro de 2009. A sua memória é celebrada em 26 de abril.",
         "Rafael ensina a aceitar os planos de Deus quando eles desfazem os nossos.",
       ],
@@ -312,7 +312,7 @@ const acervo: AcervoDeSantos = {
       resumo: "Jovem italiana do Movimento dos Focolares que enfrentou um câncer com alegria e morreu aos dezoito anos.",
       historia: [
         "Chiara Badano nasceu em 29 de outubro de 1971 em Sassello, na Ligúria, filha única de pais que a esperaram onze anos. Era uma menina alegre e esportiva, gostava de tênis, natação, música e de estar com os amigos. Aos nove anos conheceu o Movimento dos Focolares e passou a viver o Evangelho de forma concreta, procurando amar a todos.",
-        "Aos dezessete anos, em 1988, sentiu uma dor forte no ombro durante uma partida de tênis. Era um câncer nos ossos. Depois do choque inicial, aceitou a doença com uma frase que ficou conhecida: se tu queres, Jesus, eu também quero. Perdeu o movimento das pernas, mas continuou a acolher os amigos e a rezar por todos. Recusou a morfina para continuar lúcida e oferecer as dores. Chiara Lubich, fundadora dos Focolares, deu-lhe o nome de Chiara Luce, Clara Luz.",
+        "Aos dezessete anos, em 1988, sentiu uma dor forte no ombro durante uma partida de tênis. Era um câncer nos ossos. Depois do choque inicial, aceitou a doença como vontade de Deus. Perdeu o movimento das pernas, mas continuou a acolher os amigos e a rezar por todos. Recusou a morfina para continuar lúcida e oferecer as dores. Chiara Lubich, fundadora dos Focolares, deu-lhe o nome de Chiara Luce, Clara Luz.",
         "Morreu em 7 de outubro de 1990, com dezoito anos, depois de preparar o próprio enterro como uma festa de casamento. Foi beatificada em Roma em 25 de setembro de 2010, no pontificado de Bento XVI. A sua memória é celebrada em 29 de outubro, dia em que nasceu.",
         "Chiara ensina a dizer sim a Deus também na dor.",
       ],
@@ -394,7 +394,7 @@ const acervo: AcervoDeSantos = {
       resumo: "Estudante de medicina e noiva, que serviu os pobres com o padre Oreste Benzi e morreu aos vinte e dois anos.",
       historia: [
         "Sandra Sabattini nasceu em Riccione, na Itália, em 19 de agosto de 1961. Cresceu em Misano Adriatico, na casa paroquial de um tio padre. Aos dez anos começou a escrever um diário espiritual, que guardou até o fim da vida. Aos doze conheceu o padre Oreste Benzi e a Comunidade Papa João XXIII, que acolhe pessoas com deficiência, dependentes químicos e gente abandonada.",
-        "Passava as férias com pessoas com deficiência e ajudava na recuperação de dependentes. Entrou na faculdade de medicina em Bolonha, sonhando ser médica missionária na África. Namorava Guido, com quem tinha um namoro casto e cheio de fé. Rezava todas as manhãs bem cedo e dizia que não era ela que fazia as coisas, mas Deus nela.",
+        "Passava as férias com pessoas com deficiência e ajudava na recuperação de dependentes. Entrou na faculdade de medicina em Bolonha, sonhando ser médica missionária na África. Namorava Guido, com quem tinha um namoro casto e cheio de fé. Rezava todas as manhãs bem cedo.",
         "Em 29 de abril de 1984, ao descer do carro para ir a um encontro da comunidade, foi atropelada. Morreu em Bolonha em 2 de maio de 1984, com vinte e dois anos. Foi beatificada em Rimini em 24 de outubro de 2021. É a primeira noiva beatificada, e a sua memória é celebrada em 4 de maio.",
         "Sandra ensina a viver o namoro e o estudo com Deus no centro e os pobres no coração.",
       ],
@@ -473,7 +473,7 @@ const acervo: AcervoDeSantos = {
       nomes: ["Teresa"],
       resumo: "Jovem camponesa do Piemonte morta por um soldado na Segunda Guerra Mundial, aos vinte anos, defendendo a pureza.",
       historia: [
-        "Teresa Bracco nasceu em 24 de fevereiro de 1924 em Santa Giulia, perto de Dego, no Piemonte, na Itália, numa família de camponeses. Cuidava dos animais e do trabalho do campo. Andava todos os dias até a igreja para a Missa e rezava o terço enquanto pastoreava. Guardava a imagem de Domingos Sávio e a frase dele: antes morrer que pecar.",
+        "Teresa Bracco nasceu em 24 de fevereiro de 1924 em Santa Giulia, perto de Dego, no Piemonte, na Itália, numa família de camponeses. Cuidava dos animais e do trabalho do campo. Andava todos os dias até a igreja para a Missa e rezava o terço enquanto pastoreava.",
         "Durante a Segunda Guerra Mundial, a região foi palco de combates entre os partisanos e as tropas alemãs, e as moças corriam perigo. Em 28 de agosto de 1944, numa operação contra os partisanos, soldados alemães levaram Teresa para o bosque. Um deles tentou violentá-la. Teresa resistiu, e ele a matou.",
         "Tinha vinte anos. O corpo foi encontrado dois dias depois, em 30 de agosto. Foi beatificada por São João Paulo II em Turim em 24 de maio de 1998. A sua memória é celebrada em 29 de agosto.",
         "Teresa ensina a firmeza na fé e na pureza, aprendida na oração simples de cada dia.",
@@ -538,7 +538,7 @@ const acervo: AcervoDeSantos = {
       nomes: ["Rolando", "Orlando"],
       resumo: "Seminarista de quatorze anos morto em 1945 porque não quis tirar a batina.",
       historia: [
-        "Rolando Rivi nasceu em 7 de janeiro de 1931 em San Valentino, perto de Castellarano, na região de Reggio Emilia, na Itália, numa família de camponeses. Aos onze anos entrou no seminário. Desde então passou a usar a batina, como era costume, e dizia que ela era o sinal de que pertencia a Jesus.",
+        "Rolando Rivi nasceu em 7 de janeiro de 1931 em San Valentino, perto de Castellarano, na região de Reggio Emilia, na Itália, numa família de camponeses. Aos onze anos entrou no seminário. Desde então passou a usar a batina, como era costume.",
         "Em 1944, por causa da guerra, o seminário foi fechado e Rolando voltou para casa. Continuou a usar a batina, a ajudar o pároco e a estudar. Naquela região, alguns grupos de guerrilheiros tinham ódio à Igreja e aos padres. Os pais pediram que ele tirasse a batina, por prudência, mas ele não quis.",
         "Em 10 de abril de 1945 foi levado por um desses grupos. Ficou preso, foi maltratado e despojado da batina. Em 13 de abril de 1945 o mataram num bosque em Piane di Monchio, perto de Modena. Tinha quatorze anos. Foi beatificado em Modena em 5 de outubro de 2013 como mártir. A sua memória é celebrada em 13 de abril, dia da sua morte.",
         "Rolando ensina a não ter vergonha de mostrar que pertence a Cristo.",

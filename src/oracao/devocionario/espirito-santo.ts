@@ -36,7 +36,7 @@ const ORACOES: OracaoDoDevocionario[] = [
     id: "respirai-em-mim-espirito-santo",
     nome: "Respirai em mim, ó Espírito Santo",
     fonte: "tradicional",
-    origem: "Atribuída a Santo Agostinho. Tradução da equipe do app",
+    origem: "Oração tradicional. Tradução da equipe do app",
     pt: [
       "Respirai em mim, ó Espírito Santo, para que os meus pensamentos sejam santos.",
       "Agi em mim, ó Espírito Santo, para que o meu trabalho seja santo.",

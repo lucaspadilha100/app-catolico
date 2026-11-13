@@ -63,7 +63,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "Quando a tristeza vira doença" },
         {
           texto:
-            "Há dores que não são só da alma. A depressão é uma doença, e não falta de fé ou de oração. Se a tristeza já dura semanas, se você não consegue dormir, comer ou trabalhar, se nada mais tem gosto, procure um médico ou um psicólogo. Pelo SUS, o posto de saúde e o CAPS da sua cidade atendem. Tratar-se é cuidar da vida que Deus confiou a você (CIC 2288). Se passar pela sua cabeça a ideia de tirar a própria vida, ligue agora para o CVV, no 188: a ligação é gratuita e atende a qualquer hora. Pedir ajuda não é fraqueza.",
+            "Há dores que não são só da alma. A depressão é uma doença, e não falta de fé ou de oração. Se a tristeza já dura semanas, se você não consegue dormir, comer ou trabalhar, se nada mais tem gosto, procure um médico ou um psicólogo. Pelo SUS, o posto de saúde e o CAPS da sua cidade atendem. Tratar-se é cuidar da vida que Deus confiou a você (CIC 2288). Se passar pela sua cabeça a ideia de tirar a própria vida, procure ajuda agora, com alguém de confiança, um padre ou um serviço de saúde. Pedir ajuda não é fraqueza.",
         },
         {
           pratica:
@@ -164,7 +164,7 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "Se você perdeu alguém, a sua esperança tem nome: a ressurreição. A saudade não é falta de fé, e rezar por quem partiu é um amor que continua. Se a perda foi por suicídio, saiba que a angústia e as doenças da mente podem diminuir a responsabilidade de quem tira a própria vida, e que a Igreja não desespera da salvação dessas pessoas e reza por elas (CIC 2282; CIC 2283). E, se em algum momento a dor pesar demais, procure ajuda e ligue para o CVV, no 188. Ninguém precisa atravessar a noite sozinho.",
+            "Se você perdeu alguém, a sua esperança tem nome: a ressurreição. A saudade não é falta de fé, e rezar por quem partiu é um amor que continua. Se a perda foi por suicídio, saiba que a angústia e as doenças da mente podem diminuir a responsabilidade de quem tira a própria vida, e que a Igreja não desespera da salvação dessas pessoas e reza por elas (CIC 2282; CIC 2283). E, se em algum momento a dor pesar demais, procure ajuda, com alguém de confiança, um padre ou um serviço de saúde. Ninguém precisa atravessar a noite sozinho.",
         },
         {
           pratica:

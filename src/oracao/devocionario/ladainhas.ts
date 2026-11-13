@@ -465,7 +465,7 @@ const ORACOES: OracaoDoDevocionario[] = [
     id: "ladainha-da-divina-misericordia",
     nome: "Ladainha da Divina Misericórdia",
     fonte: "tradicional",
-    origem: "Do Diário de Santa Faustina Kowalska, n. 949-950. Tradução da equipe do app",
+    origem: "Do Diário de Santa Faustina Kowalska. Tradução da equipe do app",
     pt: [
       {
         invocacoes: [
@@ -514,7 +514,7 @@ const ORACOES: OracaoDoDevocionario[] = [
     id: "ladainha-de-nossa-senhora-das-dores",
     nome: "Ladainha de Nossa Senhora das Dores",
     fonte: "tradicional",
-    origem: "Ladainha tradicional, atribuída ao papa Pio VII (século XIX). Tradução da equipe do app",
+    origem: "Ladainha tradicional. Tradução da equipe do app",
     santo: "nossa-senhora-das-dores",
     pt: [
       ...KYRIE_PT,

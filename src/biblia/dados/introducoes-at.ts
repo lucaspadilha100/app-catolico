@@ -101,7 +101,7 @@ export const INTRODUCOES_AT: Record<string, string[]> = {
   ],
   SNG: [
     "Cântico dos Cânticos é um poema de amor entre um amado e uma amada, que se procuram, se encontram e se louvam. O título quer dizer o cântico mais belo de todos. A tradição atribui o livro a Salomão, cujo nome aparece no primeiro versículo. A data é incerta. O livro é curto e todo escrito em linguagem poética.",
-    "A Igreja lê este cântico em vários níveis: o amor entre esposo e esposa, que é bom e vem de Deus, e o amor de Deus pelo seu povo, de Cristo pela Igreja e pela alma de cada fiel. Santos como São Bernardo e São João da Cruz o comentaram. Trechos dele são lidos no Advento e em festas de santas. O capítulo 2 é um bom começo.",
+    "A Igreja lê este cântico em vários níveis: o amor entre esposo e esposa, que é bom e vem de Deus, e o amor de Deus pelo seu povo, de Cristo pela Igreja e pela alma de cada fiel. São Bernardo o comentou em muitos sermões. Trechos dele são lidos no Advento e em festas de santas. O capítulo 2 é um bom começo.",
   ],
   WIS: [
     "Sabedoria é um livro deuterocanônico e faz parte da Bíblia católica. Foi escrito em grego, como já notava São Jerônimo, e é muito usado pela Igreja na liturgia. O autor fala como se fosse o rei Salomão, e por isso o livro também é chamado Sabedoria de Salomão.",

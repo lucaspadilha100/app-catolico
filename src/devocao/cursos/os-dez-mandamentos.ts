@@ -166,7 +166,7 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "O suicídio também contraria o amor que devemos à própria vida. Mas a Igreja sabe que muitas vezes a pessoa estava tomada por grande sofrimento ou doença, o que diminui a sua responsabilidade (CIC 2282). Por isso não se perde a esperança: rezamos por quem tirou a própria vida, confiando que Deus tem caminhos que só ele conhece (CIC 2283). Se você passa por pensamentos assim, procure ajuda hoje mesmo, com alguém de confiança, com um médico ou com o CVV, pelo telefone 188.",
+            "O suicídio também contraria o amor que devemos à própria vida. Mas a Igreja sabe que muitas vezes a pessoa estava tomada por grande sofrimento ou doença, o que diminui a sua responsabilidade (CIC 2282). Por isso não se perde a esperança: rezamos por quem tirou a própria vida, confiando que Deus tem caminhos que só ele conhece (CIC 2283). Se você passa por pensamentos assim, procure ajuda hoje mesmo, com alguém de confiança, com um padre ou com um médico.",
         },
         {
           pratica:

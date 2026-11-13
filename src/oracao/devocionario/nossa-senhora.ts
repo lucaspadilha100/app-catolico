@@ -16,7 +16,7 @@ const ORACOES: OracaoDoDevocionario[] = [
     id: "consagracao-de-sao-luis-de-montfort",
     nome: "Consagração a Jesus por Maria",
     fonte: "tradicional",
-    origem: "São Luís Maria Grignion de Montfort, tradução da equipe do app",
+    origem: "São Luís Maria Grignion de Montfort, O amor da Sabedoria eterna, n. 225 (trecho); tradução da equipe do app",
     pt: [
       "Eu vos escolho hoje, ó Maria, na presença de toda a corte celeste, por minha Mãe e Rainha.",
       "Entrego-vos e consagro-vos, com toda a submissão e amor, o meu corpo e a minha alma, os meus bens interiores e exteriores, e o próprio valor das minhas boas obras passadas, presentes e futuras.",

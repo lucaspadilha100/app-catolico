@@ -142,7 +142,7 @@ const acervo: AcervoDeSantos = {
       historia: [
         "Os cristãos sempre recorreram a Maria nas horas de perigo. A invocação \"Auxílio dos cristãos\" está na Ladainha de Nossa Senhora, e a tradição liga a sua difusão à vitória de Lepanto, em 1571, quando o povo rezava o terço pela defesa da cristandade.",
         "No começo do século XIX, o papa Pio VII foi preso por ordem de Napoleão e passou cinco anos longe de Roma. Quando foi libertado, voltou à cidade em 24 de maio de 1814 e atribuiu a sua libertação à intercessão de Maria. No ano seguinte instituiu nesse dia a festa de Maria Auxiliadora.",
-        "Quem mais espalhou essa devoção foi São João Bosco. Em Turim construiu a basílica de Maria Auxiliadora, consagrada em 1868, e com Santa Maria Domingas Mazzarello fundou o instituto das Filhas de Maria Auxiliadora, em 1872. Dom Bosco dizia que tudo o que fizera era obra dela. Os salesianos chegaram ao Brasil em 1883 e levaram a devoção a escolas, paróquias e missões de todo o país.",
+        "Quem mais espalhou essa devoção foi São João Bosco. Em Turim construiu a basílica de Maria Auxiliadora, consagrada em 1868, e com Santa Maria Domingas Mazzarello fundou o instituto das Filhas de Maria Auxiliadora, em 1872. Os salesianos chegaram ao Brasil em 1883 e levaram a devoção a escolas, paróquias e missões de todo o país.",
         "Nossa Senhora Auxiliadora é padroeira da Austrália e muito querida dos educadores e dos jovens.",
       ],
       padroeiro: ["da Austrália", "da família salesiana"],

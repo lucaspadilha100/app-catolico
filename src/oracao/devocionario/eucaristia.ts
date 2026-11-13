@@ -38,7 +38,7 @@ const ORACOES: OracaoDoDevocionario[] = [
     nome: "Adoro-vos com devoção",
     latim: "Adoro te devote",
     fonte: "tradicional",
-    origem: "Hino de Santo Tomás de Aquino (século XIII). Tradução da equipe do app",
+    origem: "Hino atribuído a Santo Tomás de Aquino (século XIII), citado no Catecismo (CIC 1381). Tradução da equipe do app",
     pt: [
       "Adoro-vos com devoção, Deus escondido, que sob estas aparências verdadeiramente vos ocultais. A vós o meu coração se submete por inteiro, porque, ao contemplar-vos, todo ele desfalece.",
       "A vista, o tato e o gosto se enganam a vosso respeito; só no ouvido se crê com segurança. Creio tudo o que disse o Filho de Deus: nada é mais verdadeiro que esta palavra da Verdade.",
@@ -127,7 +127,7 @@ const ORACOES: OracaoDoDevocionario[] = [
     nome: "Antes da comunhão",
     latim: "Omnipotens sempiterne Deus, ecce accedo",
     fonte: "tradicional",
-    origem: "Santo Tomás de Aquino (século XIII). Tradução da equipe do app",
+    origem: "Oração atribuída a Santo Tomás de Aquino (século XIII). Tradução da equipe do app",
     pt: [
       "Deus todo-poderoso e eterno, eis que me aproximo do sacramento do vosso Filho unigênito, nosso Senhor Jesus Cristo. Aproximo-me como enfermo do médico da vida, como impuro da fonte da misericórdia, como cego da luz da claridade eterna, como pobre e necessitado do Senhor do céu e da terra.",
       "Peço, pois, à abundância da vossa imensa generosidade que vos digneis curar a minha enfermidade, lavar a minha impureza, iluminar a minha cegueira, enriquecer a minha pobreza e vestir a minha nudez, para que eu receba o pão dos anjos, o Rei dos reis e Senhor dos senhores, com tanta reverência e humildade, tanta contrição e devoção, tanta pureza e fé, tal propósito e intenção, quanto convém à salvação da minha alma.",

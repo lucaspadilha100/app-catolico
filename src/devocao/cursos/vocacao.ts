@@ -23,7 +23,7 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "Ser santo não é ter uma vida de vitrine, sem defeito nenhum. Os santos tiveram temperamento difícil, dúvidas e quedas. O que os distingue é que deixaram Deus agir e não desistiram de amar. A Igreja lembra que esse caminho passa pela cruz: não há santidade sem renúncia e sem luta contra o próprio pecado (CIC 2015). O papa Francisco, na exortação Gaudete et Exsultate (2018), falou dos santos que moram ao lado: a mãe que cria os filhos com paciência, o homem que trabalha honestamente para levar o pão para casa, o doente que oferece a dor, a idosa que continua a sorrir.",
+            "Ser santo não é ter uma vida de vitrine, sem defeito nenhum. Os santos tiveram temperamento difícil, dúvidas e quedas. O que os distingue é que deixaram Deus agir e não desistiram de amar. A Igreja lembra que esse caminho passa pela cruz: não há santidade sem renúncia e sem luta contra o próprio pecado (CIC 2015). O papa Francisco, na exortação Gaudete et Exsultate (2018, n. 7), falou da santidade ao pé da porta, a dos que vivem perto de nós: os pais que criam os filhos com tanto amor, os homens e as mulheres que trabalham para levar o pão para casa, os doentes, as religiosas idosas que continuam a sorrir.",
         },
         { titulo: "Muitos caminhos, uma só santidade" },
         {

@@ -159,7 +159,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "Os cinquenta dias da Páscoa" },
         {
           texto:
-            "O Tempo Pascal vai do domingo da ressurreição até Pentecostes: cinquenta dias celebrados com alegria como um só dia de festa, um grande domingo, como dizia Santo Atanásio. A cor é o branco, e o círio pascal fica aceso nas celebrações. A semana depois da Páscoa é a oitava, e cada dia dela é celebrado como solenidade; o segundo domingo é também chamado domingo da Divina Misericórdia. No Brasil, a Ascensão do Senhor é celebrada no domingo antes de Pentecostes, e Pentecostes, em vermelho, encerra o tempo com o dom do Espírito Santo. É tradição trocar o Ângelus pela Rainha do Céu nesses dias, e é norma comungar ao menos uma vez por ano, no Tempo Pascal, a não ser que haja justa causa para fazê-lo em outra época (cân. 920).",
+            "O Tempo Pascal vai do domingo da ressurreição até Pentecostes: cinquenta dias celebrados com alegria como um só dia de festa. Santo Atanásio chamava a Páscoa de grande domingo (CIC 1169). A cor é o branco, e o círio pascal fica aceso nas celebrações. A semana depois da Páscoa é a oitava, e cada dia dela é celebrado como solenidade; o segundo domingo é também chamado domingo da Divina Misericórdia. No Brasil, a Ascensão do Senhor é celebrada no domingo antes de Pentecostes, e Pentecostes, em vermelho, encerra o tempo com o dom do Espírito Santo. É tradição trocar o Ângelus pela Rainha do Céu nesses dias, e é norma comungar ao menos uma vez por ano, no Tempo Pascal, a não ser que haja justa causa para fazê-lo em outra época (cân. 920).",
         },
         {
           pratica:

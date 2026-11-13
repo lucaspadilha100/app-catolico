@@ -58,7 +58,7 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "Essa presença não se percebe com os olhos, com o tato nem com o paladar. Como ensina São Tomás de Aquino, ela se acolhe só pela fé, que se apoia na palavra de Deus (CIC 1381). Os sentidos dizem pão. A palavra de Jesus diz o seu Corpo, e a fé confia na palavra de quem não engana. É a mesma confiança de Pedro em Cafarnaum.",
+            "Essa presença não se percebe com os olhos, com o tato nem com o paladar. Como ensina São Tomás de Aquino, ela se acolhe só pela fé, que se apoia na autoridade de Deus (CIC 1381). Os sentidos dizem pão. A palavra de Jesus diz o seu Corpo, e a fé confia na palavra de quem não engana. É a mesma confiança de Pedro em Cafarnaum.",
         },
         {
           pratica:

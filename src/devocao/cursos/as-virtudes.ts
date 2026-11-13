@@ -194,7 +194,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "O que se opõe à fortaleza" },
         {
           texto:
-            "A tradição da Igreja, seguindo São Tomás, aponta vícios dos dois lados. Por falta, a covardia: deixar de fazer o bem por medo, fugir da responsabilidade, calar quando era preciso falar. Também a moleza, que desiste no primeiro obstáculo, e a inconstância, que começa muito e termina pouco. Por excesso, a temeridade: enfrentar perigos sem necessidade, por orgulho ou para se exibir. E há a pertinácia, a teimosia de quem se agarra ao próprio parecer e chama isso de firmeza.",
+            "A tradição da Igreja, seguindo São Tomás, aponta vícios dos dois lados. Por falta, a covardia: deixar de fazer o bem por medo, fugir da responsabilidade, calar quando era preciso falar. Também a moleza, que desiste no primeiro obstáculo. Por excesso, a temeridade: enfrentar perigos sem necessidade, por orgulho ou para se exibir. E há a pertinácia, a teimosia de quem se agarra ao próprio parecer e chama isso de firmeza.",
         },
         { titulo: "Como crescer na fortaleza" },
         {

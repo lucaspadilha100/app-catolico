@@ -5,7 +5,7 @@ const ORACOES: OracaoDoDevocionario[] = [
     id: "oracao-pela-paz",
     nome: "Oração pela paz",
     fonte: "tradicional",
-    origem: "Oração atribuída a São Francisco de Assis, tradução da equipe do app",
+    origem: "Oração tradicional pela paz, tradução da equipe do app",
     pt: [
       "Senhor, fazei de mim um instrumento da vossa paz.",
       "Onde houver ódio, que eu leve o amor. Onde houver ofensa, que eu leve o perdão. Onde houver discórdia, que eu leve a união. Onde houver dúvida, que eu leve a fé. Onde houver erro, que eu leve a verdade. Onde houver desespero, que eu leve a esperança. Onde houver tristeza, que eu leve a alegria. Onde houver trevas, que eu leve a luz.",

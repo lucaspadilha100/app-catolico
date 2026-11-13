@@ -755,7 +755,7 @@ const acervo: AcervoDeSantos = {
       resumo: "Irmão porteiro de Montreal, grande devoto de São José, que deu origem ao Oratório de São José.",
       historia: [
         "Alfredo Bessette nasceu perto de Montreal, no Canadá, em 9 de agosto de 1845. Ficou órfão aos doze anos, teve pouco estudo e uma saúde muito fraca. Trabalhou em vários ofícios, inclusive nos Estados Unidos. Em 1870 entrou na Congregação de Santa Cruz e recebeu o nome de André. Quase não foi aceito por causa da saúde.",
-        "Foi porteiro do Colégio Notre-Dame, em Montreal, durante cerca de quarenta anos. Recebia todos com simplicidade, rezava com os doentes e os aconselhava a confiar em São José, de quem era muito devoto. Muitas curas foram atribuídas a essas orações, e o povo começou a procurá-lo em grande número. Ele sempre dizia que não era ele quem curava, e sim Deus, pela intercessão de São José.",
+        "Foi porteiro do Colégio Notre-Dame, em Montreal, durante cerca de quarenta anos. Recebia todos com simplicidade, rezava com os doentes e os aconselhava a confiar em São José, de quem era muito devoto. Muitas curas foram atribuídas a essas orações, e o povo começou a procurá-lo em grande número. Aos que o procuravam dizia: não peçais que vos tirem as provações, pedi antes a graça de suportá-las bem.",
         "Com a ajuda dos fiéis, construiu em 1904 uma pequena capela no Monte Royal, que deu origem ao grande Oratório de São José. Morreu em 6 de janeiro de 1937, e centenas de milhares de pessoas passaram diante do seu caixão. Foi canonizado pelo Papa Bento XVI em 17 de outubro de 2010.",
       ],
     },
@@ -785,7 +785,7 @@ const acervo: AcervoDeSantos = {
       resumo: "Frade capuchinho que passou mais de trinta anos atendendo confissões em Pádua.",
       historia: [
         "Bogdan Mandić nasceu em 12 de maio de 1866, em Herceg Novi, na costa do Adriático, cidade que hoje pertence a Montenegro. Era de família croata católica. Entrou nos capuchinhos, na Itália, e recebeu o nome de Leopoldo. Foi ordenado padre em 1890. Era muito baixo, de saúde frágil e tinha dificuldade para falar.",
-        "Desejava ir como missionário ao Oriente, para trabalhar pela união dos cristãos ortodoxos com a Igreja Católica, mas os superiores o mantiveram na Itália. Em Pádua, onde viveu a maior parte da vida, ficava muitas horas por dia no confessionário, atendendo pessoas de todas as condições. Era conhecido pela misericórdia: dizia que, se o Senhor o repreendesse por ser bondoso demais, responderia que o exemplo tinha vindo d'Ele. Ofereceu a vida pela unidade dos cristãos.",
+        "Desejava ir como missionário ao Oriente, para trabalhar pela união dos cristãos ortodoxos com a Igreja Católica, mas os superiores o mantiveram na Itália. Em Pádua, onde viveu a maior parte da vida, ficava muitas horas por dia no confessionário, atendendo pessoas de todas as condições. Era conhecido pela misericórdia com os penitentes. Ofereceu a vida pela unidade dos cristãos.",
         "Morreu em Pádua, em 30 de julho de 1942. Foi beatificado em 1976 e canonizado por São João Paulo II em 16 de outubro de 1983. Nos capuchinhos, a sua memória é celebrada em 12 de maio.",
       ],
     },

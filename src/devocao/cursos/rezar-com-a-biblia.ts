@@ -110,7 +110,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "Contemplar: ficar com ele" },
         {
           texto:
-            "Contemplar é ficar em silêncio na presença de Deus, sem muitas palavras: é o olhar da fé fixado em Jesus (CIC 2715). Santa Teresa de Jesus dizia que a oração é um trato de amizade com quem sabemos que nos ama (CIC 2709). Nesse momento, não é preciso pensar nem sentir nada de especial. Basta permanecer e, quando vier uma distração, voltar com calma ao Senhor (CIC 2729). É Deus quem age nesse silêncio.",
+            "Contemplar é ficar em silêncio na presença de Deus, sem muitas palavras: é o olhar da fé fixado em Jesus (CIC 2715). Santa Teresa de Jesus dizia que a oração mental é um trato de amizade com quem sabemos que nos ama (CIC 2709). Nesse momento, não é preciso pensar nem sentir nada de especial. Basta permanecer e, quando vier uma distração, voltar com calma ao Senhor (CIC 2729). É Deus quem age nesse silêncio.",
         },
         { titulo: "Viver: levar a palavra para o dia" },
         {

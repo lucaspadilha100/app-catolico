@@ -52,7 +52,7 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "O título, portanto, fala antes de tudo de Jesus. Quem diz Mãe de Deus confessa que aquele menino nascido em Belém é Deus de verdade, e não um homem a quem Deus se juntou depois. São Cirilo conta, numa carta, que o povo de Éfeso acompanhou os bispos com tochas quando a decisão foi anunciada. Defender o nome da mãe era defender a divindade do Filho.",
+            "O título, portanto, fala antes de tudo de Jesus. Quem diz Mãe de Deus confessa que aquele menino nascido em Belém é Deus de verdade, e não um homem a quem Deus se juntou depois. Quando a decisão foi anunciada, já à noite, o povo de Éfeso acompanhou os bispos com tochas. Defender o nome da mãe era defender a divindade do Filho.",
         },
         { titulo: "Uma dúvida comum" },
         {
@@ -91,7 +91,7 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "A leitura de hoje termina dizendo que José não conheceu Maria até que ela deu à luz o primogênito. São Jerônimo, no seu escrito contra Helvídio, já explicava que, na linguagem da Bíblia, até que diz o que aconteceu até um ponto, sem afirmar nada sobre depois: o mesmo modo de falar aparece, por exemplo, em 2Sm 6,23. Primogênito, por sua vez, era o título do primeiro filho, que pertencia ao Senhor de modo especial, houvesse ou não outros depois dele (Ex 13,2).",
+            "A leitura de hoje termina dizendo que José não conheceu Maria até que ela deu à luz o primogênito. São Jerônimo, no seu escrito contra Helvídio, já explicava que, na linguagem da Bíblia, até que diz o que aconteceu até um ponto, sem afirmar nada sobre depois: ele dá como exemplo a promessa de Jesus de estar conosco todos os dias, até o fim do mundo (Mt 28,20), que não quer dizer que depois nos deixará. Primogênito, por sua vez, era o título do primeiro filho, que pertencia ao Senhor de modo especial, houvesse ou não outros depois dele (Ex 13,2).",
         },
         {
           texto:
