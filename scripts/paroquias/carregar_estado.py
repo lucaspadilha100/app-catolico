@@ -11,6 +11,7 @@ uuid5 determinísticos: rodar de novo não duplica (on conflict do nothing).
 """
 
 import json
+import os
 import re
 import sys
 import time
@@ -21,7 +22,7 @@ import uuid
 from pathlib import Path
 
 ESPACO = uuid.UUID("6f6b0d4e-2f6a-4c3e-9d1a-5a1b7c2e9f10")
-CACHE_GEO = Path("fontes/paroquias/geocache.json")
+CACHE_GEO = Path(os.environ.get("GEOCACHE", "fontes/paroquias/geocache.json"))
 UF_NOME = {
     "AC": "Acre", "AL": "Alagoas", "AP": "Amapá", "AM": "Amazonas", "BA": "Bahia", "CE": "Ceará",
     "DF": "Distrito Federal", "ES": "Espírito Santo", "GO": "Goiás", "MA": "Maranhão", "MT": "Mato Grosso",
