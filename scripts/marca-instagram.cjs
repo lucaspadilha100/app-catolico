@@ -269,6 +269,35 @@ const desenhar = async () => {
     saida.story_pessoal = c.toDataURL("image/png");
   }
 
+  {
+    const [c, ctx] = novo(1080, 1080);
+    ctx.fillStyle = MARROM;
+    retangulo(ctx, 492, 500, 96, 210, 14);
+    ctx.fill();
+    ctx.fillStyle = DOURADO;
+    ctx.beginPath();
+    ctx.moveTo(540, 368);
+    ctx.bezierCurveTo(592, 422, 580, 460, 540, 472);
+    ctx.bezierCurveTo(500, 460, 488, 422, 540, 368);
+    ctx.closePath();
+    ctx.fill();
+    ctx.strokeStyle = MARROM;
+    ctx.lineWidth = 6;
+    ctx.beginPath();
+    ctx.moveTo(540, 472);
+    ctx.lineTo(540, 500);
+    ctx.stroke();
+    saida.capa_oracoes = c.toDataURL("image/png");
+  }
+
+  {
+    const [c, ctx] = novo(1080, 1080);
+    const lado = 330;
+    const prop = simbolo.naturalHeight / simbolo.naturalWidth;
+    ctx.drawImage(simbolo, (1080 - lado) / 2, 540 - (lado * prop) / 2, lado, lado * prop);
+    saida.capa_app = c.toDataURL("image/png");
+  }
+
   return saida;
 };
 
