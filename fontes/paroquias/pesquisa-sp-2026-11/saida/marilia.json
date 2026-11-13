@@ -1,0 +1,7706 @@
+[
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Cecília",
+  "categoria": "paroquia",
+  "cidade": "Álvaro de Carvalho",
+  "padroeiro": "Santa Cecília",
+  "contatos": {
+   "telefone": "1434841410",
+   "whatsapp": "14997794285",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasantaceciliaac@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santa Cecília",
+    "tipo": "matriz",
+    "cidade": "Álvaro de Carvalho",
+    "localidade": "Centro",
+    "endereco": "Av. Santa Cecília, 260",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Missa nos setores: terça às 19h30."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/regiao-i/paroquia-santa-cecilia-alvaro-de-carvalho/",
+    "data": "2025-11-05",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/",
+    "data": "2026-06-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Auxiliadora",
+  "categoria": "paroquia",
+  "cidade": "Marília",
+  "padroeiro": "Nossa Senhora Auxiliadora",
+  "contatos": {
+   "telefone": "1434791026",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "pqnsauxiliadora@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora Auxiliadora",
+    "tipo": "matriz",
+    "cidade": "Marília",
+    "localidade": "Distrito de Avencas",
+    "endereco": "Largo da Matriz, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 2,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": "Até 19h"
+     }
+    ],
+    "nao_cabe": "Confissões também depois das missas de costume."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/regiao-i/paroquia-nossa-senhora-auxiliadora-avencas/",
+    "data": "2024-10-22",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/",
+    "data": "2026-06-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Avencas é distrito de Marília. Sem secretaria; o telefone publicado é o da coordenação do conselho pastoral. Página editada em 2024-10."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Pedro Apóstolo",
+  "categoria": "paroquia",
+  "cidade": "Garça",
+  "padroeiro": "São Pedro Apóstolo",
+  "contatos": {
+   "telefone": "1434710332",
+   "whatsapp": "14997890302",
+   "instagram": "",
+   "site": "",
+   "email": "pspedrogarca@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Pedro Apóstolo",
+    "tipo": "matriz",
+    "cidade": "Garça",
+    "localidade": "Centro",
+    "endereco": "Praça Rui Barbosa, 100",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": "Com novena de N. Sra. do Perpétuo Socorro"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Divina Misericórdia",
+    "tipo": "capela",
+    "cidade": "Garça",
+    "localidade": "Salão Paroquial",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: segunda a sexta 19h30; sábado 7h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São José",
+    "tipo": "capela",
+    "cidade": "Garça",
+    "localidade": "Garça I",
+    "endereco": "Rua Elias Lutfi, 200",
+    "horarios": [],
+    "nao_cabe": "Celebrações: sábado 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São João Batista",
+    "tipo": "capela",
+    "cidade": "Garça",
+    "localidade": "Jardim Paulista",
+    "endereco": "Rua José Augusto Escobar, 1025",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 3º sábado 19h30; nos outros sábados, Celebração da Palavra"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Lucas",
+    "tipo": "capela",
+    "cidade": "Garça",
+    "localidade": "Jardim São Lucas",
+    "endereco": "Rua Phydias Castanho Almeida, 120",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 4º sábado 19h30; nos outros sábados, Celebração da Palavra"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora do Perpétuo Socorro",
+    "tipo": "capela",
+    "cidade": "Garça",
+    "localidade": "Salgueiro",
+    "endereco": "Av. Gastão Vidigal, 270",
+    "horarios": [],
+    "nao_cabe": "Celebrações: domingo 8h; terça 19h30 com novena"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Garça",
+    "localidade": "Distrito de Jafa",
+    "endereco": "Rua Brasil, 444",
+    "horarios": [],
+    "nao_cabe": "Celebrações: domingo 9h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Luzia",
+    "tipo": "comunidade",
+    "cidade": "Garça",
+    "localidade": "EMEIF Professora Samira El Adass",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 2º sábado 19h30; nos outros sábados, Celebração da Palavra"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Geraldo",
+    "tipo": "capela",
+    "cidade": "Garça",
+    "localidade": "Vila Mariana",
+    "endereco": "Rua José Lourenço, 510",
+    "horarios": [],
+    "nao_cabe": "Celebrações: domingo 17h"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Garça",
+    "localidade": "Vila Rebelo",
+    "endereco": "Rua Maceió, 267",
+    "horarios": [],
+    "nao_cabe": "Celebrações: domingo 8h"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Sagrado Coração de Jesus",
+    "tipo": "capela",
+    "cidade": "Garça",
+    "localidade": "Jardim Sol Nascente",
+    "endereco": "Rua José Sanches, 150",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 1º sábado 19h30; nos outros sábados, Celebração da Palavra"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/regiao-i/paroquia-sao-pedro-apostolo-garca/",
+    "data": "2025-07-07",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/",
+    "data": "2026-06-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Secretaria na Rua Heitor Penteado, 375."
+ },
+ {
+  "id_banco": null,
+  "nome": "Santuário Nossa Senhora de Lourdes",
+  "categoria": "santuario",
+  "cidade": "Garça",
+  "padroeiro": "Nossa Senhora de Lourdes",
+  "contatos": {
+   "telefone": "1434710665",
+   "whatsapp": "14996571567",
+   "instagram": "",
+   "site": "",
+   "email": "santuariogarca@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário Nossa Senhora de Lourdes",
+    "tipo": "santuario",
+    "cidade": "Garça",
+    "localidade": "Araceli",
+    "endereco": "Praça Frei Aurélio Di Falco, 21",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Vicente de Paulo",
+    "tipo": "capela",
+    "cidade": "Garça",
+    "localidade": "Lar dos Velhos",
+    "endereco": "Rua Maria Izabel, 755",
+    "horarios": [],
+    "nao_cabe": "Celebrações: quarta 19h30; domingo 7h30"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/regiao-i/santuario-nossa-senhora-de-lourdes-garca/",
+    "data": "2025-02-24",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/",
+    "data": "2026-06-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Paróquia e santuário, confiados aos Frades Menores (OFM)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Catedral Basílica de São Bento",
+  "categoria": "catedral",
+  "cidade": "Marília",
+  "padroeiro": "São Bento",
+  "contatos": {
+   "telefone": "1434331030",
+   "whatsapp": "14997868172",
+   "instagram": "",
+   "site": "",
+   "email": "catedralsaobento@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Catedral Basílica de São Bento",
+    "tipo": "matriz",
+    "cidade": "Marília",
+    "localidade": "Palmital",
+    "endereco": "Av. Pedro de Toledo, 901",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/regiao-i/sao-bento-catedral-basilica-menor-marilia/",
+    "data": "2025-01-10",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/",
+    "data": "2026-06-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Marília",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "1434546002",
+   "whatsapp": "14998587055",
+   "instagram": "",
+   "site": "",
+   "email": "psam@santoantoniomarilia.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Marília",
+    "localidade": "",
+    "endereco": "Rua Prudente de Moraes, 528",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": "Com novena de N. Sra. do Perpétuo Socorro"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": "Com exposição do Santíssimo"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Carlos",
+    "tipo": "capela",
+    "cidade": "Marília",
+    "localidade": "",
+    "endereco": "Rua Piratininga, 1111",
+    "horarios": [],
+    "nao_cabe": "Celebrações: domingo 9h; 1ª quarta 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Vicente",
+    "tipo": "capela",
+    "cidade": "Marília",
+    "localidade": "",
+    "endereco": "Rua Catanduva, 489",
+    "horarios": [],
+    "nao_cabe": "Celebrações: domingo 9h"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Marília",
+    "localidade": "",
+    "endereco": "Rua dos Crisântemos, 68",
+    "horarios": [],
+    "nao_cabe": "Celebrações: quinta 19h30; sábado 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora de Lourdes",
+    "tipo": "capela",
+    "cidade": "Marília",
+    "localidade": "",
+    "endereco": "Rua 7 de Setembro, 1128",
+    "horarios": [],
+    "nao_cabe": "Celebrações: sábado 17h"
+   },
+   {
+    "id_banco": null,
+    "nome": "Cemitério da Saudade",
+    "tipo": "comunidade",
+    "cidade": "Marília",
+    "localidade": "",
+    "endereco": "Av. da Saudade, 700",
+    "horarios": [],
+    "nao_cabe": "Celebrações: segunda 16h"
+   },
+   {
+    "id_banco": null,
+    "nome": "Círculo Católico Estrela da Manhã",
+    "tipo": "comunidade",
+    "cidade": "Marília",
+    "localidade": "",
+    "endereco": "Rua Araraquara, 95",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 4º domingo 10h30"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/regiao-i/paroquia-santo-antonio-marilia/",
+    "data": "2026-02-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/",
+    "data": "2026-06-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Confiada aos Estigmatinos (CSS). A página dá missa na segunda às 16h na matriz e também no Cemitério da Saudade."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Miguel Arcanjo",
+  "categoria": "paroquia",
+  "cidade": "Marília",
+  "padroeiro": "São Miguel Arcanjo",
+  "contatos": {
+   "telefone": "1434541650",
+   "whatsapp": "14996837471",
+   "instagram": "",
+   "site": "",
+   "email": "igrejasaomiguel@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Miguel Arcanjo",
+    "tipo": "matriz",
+    "cidade": "Marília",
+    "localidade": "",
+    "endereco": "Av. Castro Alves, 867",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "11:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/regiao-i/sao-miguel-arcanjo-marilia/",
+    "data": "2024-10-18",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/",
+    "data": "2026-06-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Página da paróquia no site da diocese editada em 2024-10; horários repetidos no buscador de missas da diocese (2026-06)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Isabel",
+  "categoria": "paroquia",
+  "cidade": "Marília",
+  "padroeiro": "Santa Isabel",
+  "contatos": {
+   "telefone": "1434333404",
+   "whatsapp": "14997905896",
+   "instagram": "",
+   "site": "",
+   "email": "parsantaisabeldemarilia@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santa Isabel",
+    "tipo": "matriz",
+    "cidade": "Marília",
+    "localidade": "",
+    "endereco": "Av. Brigadeiro Eduardo Gomes, 704",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Igreja São Pio X",
+    "tipo": "capela",
+    "cidade": "Marília",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Benedito",
+    "tipo": "capela",
+    "cidade": "Marília",
+    "localidade": "",
+    "endereco": "Rua Guia Lopes, 509",
+    "horarios": [],
+    "nao_cabe": "Celebrações: sábado 19h"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Jesus de Nazaré",
+    "tipo": "capela",
+    "cidade": "Marília",
+    "localidade": "",
+    "endereco": "Alameda Santa Carolina, 218",
+    "horarios": [],
+    "nao_cabe": "Celebrações: domingo 8h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Vicente de Paulo",
+    "tipo": "capela",
+    "cidade": "Marília",
+    "localidade": "",
+    "endereco": "Rua Engenheiro Columbano Eppinghaus, 155",
+    "horarios": [],
+    "nao_cabe": "Celebrações: terça 19h30; domingo 9h"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela da Santa Casa de Misericórdia",
+    "tipo": "capela",
+    "cidade": "Marília",
+    "localidade": "",
+    "endereco": "Av. Vicente Ferreira, 828",
+    "horarios": [],
+    "nao_cabe": "Celebrações: terça e quinta 17h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Isabel",
+    "tipo": "capela",
+    "cidade": "Marília",
+    "localidade": "Distrito de Dirceu",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 2ª e 4ª sexta-feira do mês"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/regiao-i/santa-isabel-marilia/",
+    "data": "2026-03-17",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/",
+    "data": "2026-06-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Confiada aos Religiosos de São Vicente de Paulo (SV). A Igreja São Pio X tem as missas de domingo às 10h e 19h."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Fátima",
+  "categoria": "paroquia",
+  "cidade": "Marília",
+  "padroeiro": "Nossa Senhora de Fátima",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "14997858032",
+   "instagram": "",
+   "site": "",
+   "email": "pfatimafranciscanos@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora de Fátima",
+    "tipo": "matriz",
+    "cidade": "Marília",
+    "localidade": "Fragata",
+    "endereco": "Rua Marechal Deodoro, 386",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Clara",
+    "tipo": "capela",
+    "cidade": "Marília",
+    "localidade": "",
+    "endereco": "Rua Ângelo Seleghin esquina com Rua Francisco Barrueco",
+    "horarios": [],
+    "nao_cabe": "Celebrações: sábado 18h; domingo 9h"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/regiao-i/paroquia-nossa-senhora-de-fatima-marilia/",
+    "data": "2025-11-05",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/",
+    "data": "2026-06-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Bairro Fragata; confiada aos Frades Menores (OFM). Há outra Paróquia N. Sra. de Fátima em Marília, no Jóquei Clube."
+ },
+ {
+  "id_banco": null,
+  "nome": "Santuário Nossa Senhora da Glória",
+  "categoria": "santuario",
+  "cidade": "Marília",
+  "padroeiro": "Nossa Senhora da Glória",
+  "contatos": {
+   "telefone": "14996298027",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "stgloria@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário Nossa Senhora da Glória",
+    "tipo": "santuario",
+    "cidade": "Marília",
+    "localidade": "Centro",
+    "endereco": "Rua Bandeirantes, 20",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "07:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "14:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": "Missa com as crianças"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "20:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa do Sagrado Coração"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "20:00",
+      "semanas": [
+       2
+      ],
+      "observacao": "Com oração por cura e libertação"
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Até 19h45"
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Hospital Materno Infantil",
+    "tipo": "capela",
+    "cidade": "Marília",
+    "localidade": "Centro",
+    "endereco": "Av. Sampaio Vidal, 42",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 1ª quarta-feira do mês às 10h"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/regiao-i/santuario-nossa-senhora-da-gloria-marilia/",
+    "data": "2026-02-04",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/",
+    "data": "2026-06-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "Marília",
+  "padroeiro": "São Sebastião",
+  "contatos": {
+   "telefone": "1433163203",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasaosebastiaomarilia@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Sebastião",
+    "tipo": "matriz",
+    "cidade": "Marília",
+    "localidade": "",
+    "endereco": "Rua Almirante Barroso, 183",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Rainha da Paz",
+    "tipo": "capela",
+    "cidade": "Marília",
+    "localidade": "",
+    "endereco": "Av. Independência, 771",
+    "horarios": [],
+    "nao_cabe": "Celebrações: quarta 19h30; domingo 10h"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/regiao-i/paroquia-sao-sebastiao-marilia/",
+    "data": "2025-02-24",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/",
+    "data": "2026-06-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sagrada Família",
+  "categoria": "paroquia",
+  "cidade": "Marília",
+  "padroeiro": "Sagrada Família",
+  "contatos": {
+   "telefone": "1434255040",
+   "whatsapp": "14997419720",
+   "instagram": "",
+   "site": "",
+   "email": "sagradafamiliamarilia@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Sagrada Família",
+    "tipo": "matriz",
+    "cidade": "Marília",
+    "localidade": "Castelo Branco",
+    "endereco": "Av. República, 4126",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/regiao-i/paroquia-sagrada-familia-marilia/",
+    "data": "2026-02-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/",
+    "data": "2026-06-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Rita de Cássia",
+  "categoria": "paroquia",
+  "cidade": "Marília",
+  "padroeiro": "Santa Rita de Cássia",
+  "contatos": {
+   "telefone": "1434172665",
+   "whatsapp": "14998823746",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasantaritamarilia@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santa Rita de Cássia",
+    "tipo": "matriz",
+    "cidade": "Marília",
+    "localidade": "Nova Marília",
+    "endereco": "Rua Miguel Granito Neto, 115",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "06:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Todo dia 22 do mês às 19h30, exceto nos fins de semana."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora das Graças",
+    "tipo": "capela",
+    "cidade": "Marília",
+    "localidade": "Nova Marília I",
+    "endereco": "Rua Olívio Luzia, 90",
+    "horarios": [],
+    "nao_cabe": "Celebrações: domingo 10h; última quinta do mês 14h no Asilo Casa do Caminho"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São José",
+    "tipo": "capela",
+    "cidade": "Marília",
+    "localidade": "Teotônio Vilela",
+    "endereco": "Rua Armando José Neto, 23",
+    "horarios": [],
+    "nao_cabe": "Celebrações: domingo 7h30; dia 19, missa votiva às 20h; 2ª quinta 20h; 1º domingo 15h na Comunidade Azaléia"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Joaquim e Sant'Ana",
+    "tipo": "capela",
+    "cidade": "Marília",
+    "localidade": "Nova Marília III",
+    "endereco": "Rua Sérgio Baio, 111",
+    "horarios": [],
+    "nao_cabe": "Celebrações: sábado 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco de Assis",
+    "tipo": "comunidade",
+    "cidade": "Marília",
+    "localidade": "EMEF Antônio Moral",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: domingo 8h"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora do Desterro",
+    "tipo": "capela",
+    "cidade": "Marília",
+    "localidade": "Fazenda Santa Ondina",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 4º domingo 8h"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/regiao-i/paroquia-santa-rita-de-cassia-marilia/",
+    "data": "2025-11-19",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/",
+    "data": "2026-06-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Guadalupe",
+  "categoria": "paroquia",
+  "cidade": "Marília",
+  "padroeiro": "Nossa Senhora de Guadalupe",
+  "contatos": {
+   "telefone": "1434175446",
+   "whatsapp": "14998015880",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiaguadalupemarilia@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora de Guadalupe",
+    "tipo": "matriz",
+    "cidade": "Marília",
+    "localidade": "",
+    "endereco": "Av. João Ramalho, 1150",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Pedro",
+    "tipo": "comunidade",
+    "cidade": "Marília",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 4ª terça-feira"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/regiao-i/paroquia-nossa-senhora-de-guadalupe-marilia/",
+    "data": "2025-11-07",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/",
+    "data": "2026-06-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Antonieta",
+  "categoria": "paroquia",
+  "cidade": "Marília",
+  "padroeiro": "Santa Antonieta",
+  "contatos": {
+   "telefone": "1434151543",
+   "whatsapp": "14997450750",
+   "instagram": "",
+   "site": "",
+   "email": "parsantaantonieta@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santa Antonieta",
+    "tipo": "matriz",
+    "cidade": "Marília",
+    "localidade": "",
+    "endereco": "Rua João Dal Ponte, 853",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "20:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": [
+       2,
+       3,
+       4,
+       5
+      ],
+      "observacao": "Exceto na 1ª sexta"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa do Sagrado Coração de Jesus"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Última quinta do mês às 20h: Missa da Família. Dia 28 de cada mês: missa de Santa Antonieta (horário não publicado)."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Senhor Bom Jesus",
+    "tipo": "capela",
+    "cidade": "Marília",
+    "localidade": "",
+    "endereco": "Rua Kaniti Yamani, 75",
+    "horarios": [],
+    "nao_cabe": "Celebrações: quarta 20h; domingo 8h"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora de Lourdes",
+    "tipo": "capela",
+    "cidade": "Marília",
+    "localidade": "",
+    "endereco": "Rua Antonio Spressão, 595",
+    "horarios": [],
+    "nao_cabe": "Celebrações: domingo 8h; quinta 20h"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José de Anchieta",
+    "tipo": "comunidade",
+    "cidade": "Marília",
+    "localidade": "Marina Moretti",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 1º e 3º domingo 17h"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Helena",
+    "tipo": "comunidade",
+    "cidade": "Marília",
+    "localidade": "Fazenda do Estado",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 1º e 3º sábado 19h30"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/regiao-i/paroquia-santa-antonieta-marilia/",
+    "data": "2025-11-06",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/",
+    "data": "2026-06-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sagrado Coração de Jesus",
+  "categoria": "paroquia",
+  "cidade": "Marília",
+  "padroeiro": "Sagrado Coração de Jesus",
+  "contatos": {
+   "telefone": "1434251732",
+   "whatsapp": "14997919271",
+   "instagram": "",
+   "site": "",
+   "email": "scjmarilia@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Sagrado Coração de Jesus",
+    "tipo": "matriz",
+    "cidade": "Marília",
+    "localidade": "",
+    "endereco": "Rua Etelvina Teixeira da Silva, 17",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora de Nazaré",
+    "tipo": "capela",
+    "cidade": "Marília",
+    "localidade": "",
+    "endereco": "Av. Sigismundo N. de Oliveira, 425",
+    "horarios": [],
+    "nao_cabe": "Celebrações: quinta 19h30; domingo 17h"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Marília",
+    "localidade": "EMEF Cecília Alves Guelpa",
+    "endereco": "Avenida José Rino, 320",
+    "horarios": [],
+    "nao_cabe": "Celebrações: domingo 8h"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Expedito",
+    "tipo": "comunidade",
+    "cidade": "Marília",
+    "localidade": "Figueirinha II",
+    "endereco": "Av. José Jorente, 51",
+    "horarios": [],
+    "nao_cabe": "Celebrações: sábado 19h, na EMEF Roberto C. Cimino"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/regiao-i/paroquia-sagrado-coracao-de-jesus-marilia/",
+    "data": "2025-11-05",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/",
+    "data": "2026-06-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Perpétuo Socorro",
+  "categoria": "paroquia",
+  "cidade": "Marília",
+  "padroeiro": "Nossa Senhora do Perpétuo Socorro",
+  "contatos": {
+   "telefone": "1434134388",
+   "whatsapp": "14996780772",
+   "instagram": "",
+   "site": "",
+   "email": "parnspersocorro@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora do Perpétuo Socorro",
+    "tipo": "matriz",
+    "cidade": "Marília",
+    "localidade": "Jardim Califórnia",
+    "endereco": "Rua Atílio Cizotto, 39",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "06:45",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "06:45",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "06:45",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "06:45",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "06:45",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "06:45",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "09:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Missas nas residências: 2ª e 4ª sexta-feira às 19h30; 3ª sexta-feira, nas casas dos enfermos, às 19h30."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São José",
+    "tipo": "capela",
+    "cidade": "Marília",
+    "localidade": "Vila Coimbra",
+    "endereco": "Rua Eduardo Neves, 135",
+    "horarios": [],
+    "nao_cabe": "Celebrações: sábado 19h30"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/regiao-i/par-nossa-senhora-perpetuo-socorro-marilia/",
+    "data": "2026-02-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/",
+    "data": "2026-06-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "Marília",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "1433161120",
+   "whatsapp": "14997644732",
+   "instagram": "",
+   "site": "",
+   "email": "psjbmarilia@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São João Batista",
+    "tipo": "matriz",
+    "cidade": "Marília",
+    "localidade": "Jardim Pérola",
+    "endereco": "Rua Alexandre Fernandes, 442",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Fátima",
+    "tipo": "comunidade",
+    "cidade": "Marília",
+    "localidade": "Jardim América",
+    "endereco": "Rua João Brino, 179",
+    "horarios": [],
+    "nao_cabe": "Celebrações: domingo 8h"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco",
+    "tipo": "comunidade",
+    "cidade": "Marília",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: última quinta-feira às 20h"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/regiao-i/paroquia-sao-joao-batista-marilia/",
+    "data": "2025-11-07",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/",
+    "data": "2026-06-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Fátima",
+  "categoria": "paroquia",
+  "cidade": "Marília",
+  "padroeiro": "Nossa Senhora de Fátima",
+  "contatos": {
+   "telefone": "1433010162",
+   "whatsapp": "14997639764",
+   "instagram": "",
+   "site": "",
+   "email": "pnsfatimajoquei@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora de Fátima",
+    "tipo": "matriz",
+    "cidade": "Marília",
+    "localidade": "Jóquei Clube",
+    "endereco": "Rua Japão, 239",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Teresinha do Menino Jesus",
+    "tipo": "capela",
+    "cidade": "Marília",
+    "localidade": "Jardim Marajó",
+    "endereco": "Rua Pedro Pecegato, 152",
+    "horarios": [],
+    "nao_cabe": "Celebrações: domingo 8h"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/regiao-i/paroquia-nossa-senhora-de-fatima-do-joquei-marilia/",
+    "data": "2025-11-05",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/",
+    "data": "2026-06-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Bairro Jóquei Clube. Há outra Paróquia N. Sra. de Fátima em Marília, no Fragata."
+ },
+ {
+  "id_banco": null,
+  "nome": "Santuário São Judas Tadeu",
+  "categoria": "santuario",
+  "cidade": "Marília",
+  "padroeiro": "São Judas Tadeu",
+  "contatos": {
+   "telefone": "1433673267",
+   "whatsapp": "14996837754",
+   "instagram": "",
+   "site": "",
+   "email": "psantuariosaojudastadeu@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário São Judas Tadeu",
+    "tipo": "santuario",
+    "cidade": "Marília",
+    "localidade": "São Paulo",
+    "endereco": "Rua Ribeirão Preto, 690",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Todo dia 28: missas às 15h e às 19h30."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Francisco de Assis",
+    "tipo": "capela",
+    "cidade": "Marília",
+    "localidade": "",
+    "endereco": "Rua João Batista Rafael, 586",
+    "horarios": [],
+    "nao_cabe": "Celebrações: quarta 19h30; domingo 9h30"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/regiao-i/santuario-sao-judas-tadeu-marilia/",
+    "data": "2024-01-25",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/",
+    "data": "2026-06-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Paróquia e santuário, confiados à Congregação de Jesus Sacerdote (CJS). Página editada em 2024-01; horários repetidos no buscador da diocese (2026-06)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Maria Mãe da Igreja",
+  "categoria": "paroquia",
+  "cidade": "Marília",
+  "padroeiro": "Maria Mãe da Igreja",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "14996408450",
+   "instagram": "",
+   "site": "",
+   "email": "igrejamariamae@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Maria Mãe da Igreja",
+    "tipo": "matriz",
+    "cidade": "Marília",
+    "localidade": "",
+    "endereco": "Av. Santo Antônio, 3345",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/regiao-i/paroquia-maria-mae-da-igreja-marilia/",
+    "data": "2025-11-06",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/",
+    "data": "2026-06-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Rosa Mística",
+  "categoria": "paroquia",
+  "cidade": "Marília",
+  "padroeiro": "Nossa Senhora Rosa Mística",
+  "contatos": {
+   "telefone": "1434340544",
+   "whatsapp": "14998674955",
+   "instagram": "",
+   "site": "",
+   "email": "rosamisticamarilia@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora Rosa Mística",
+    "tipo": "matriz",
+    "cidade": "Marília",
+    "localidade": "Parque das Esmeraldas",
+    "endereco": "Avenida das Esmeraldas, 3443",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "11:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa do Sagrado Coração"
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Luzia",
+    "tipo": "capela",
+    "cidade": "Marília",
+    "localidade": "Distrito de Lácio",
+    "endereco": "Av. Brasil, s/n",
+    "horarios": [],
+    "nao_cabe": "Celebrações: sábado 19h30"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/regiao-i/paroquia-nossa-senhora-rosa-mistica-marilia/",
+    "data": "2024-10-29",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/",
+    "data": "2026-06-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Página da paróquia no site da diocese editada em 2024-10; horários repetidos no buscador de missas da diocese (2026-06)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Edwiges",
+  "categoria": "paroquia",
+  "cidade": "Marília",
+  "padroeiro": "Santa Edwiges",
+  "contatos": {
+   "telefone": "1431138597",
+   "whatsapp": "14996842440",
+   "instagram": "",
+   "site": "",
+   "email": "parsantaedwiges.marilia@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santa Edwiges",
+    "tipo": "matriz",
+    "cidade": "Marília",
+    "localidade": "",
+    "endereco": "Rua Helena Sampaio Vidal, 199",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Marília",
+    "localidade": "Distrito de Padre Nóbrega",
+    "endereco": "Avenida Sampaio Vidal, Praça Central, s/n",
+    "horarios": [],
+    "nao_cabe": "Celebrações: quarta 19h30; sábado 19h; 1ª sexta 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Rosa Mística",
+    "tipo": "comunidade",
+    "cidade": "Marília",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: domingo 8h"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Pedro e São Paulo",
+    "tipo": "comunidade",
+    "cidade": "Marília",
+    "localidade": "Residenciais Maracá e Montana",
+    "endereco": "Escola Clara Luz",
+    "horarios": [],
+    "nao_cabe": "Celebrações: domingo 8h"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/regiao-i/paroquia-santa-edwiges-marilia/",
+    "data": "2026-02-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/",
+    "data": "2026-06-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Bosco e Nossa Senhora Auxiliadora",
+  "categoria": "paroquia",
+  "cidade": "Marília",
+  "padroeiro": "São João Bosco e Nossa Senhora Auxiliadora",
+  "contatos": {
+   "telefone": "14998314928",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "pdomboscoauxiliadora@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São João Bosco e Nossa Senhora Auxiliadora",
+    "tipo": "matriz",
+    "cidade": "Marília",
+    "localidade": "",
+    "endereco": "Av. Maria Fernandes Cavallari, 2421",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Teresinha do Menino Jesus",
+    "tipo": "capela",
+    "cidade": "Marília",
+    "localidade": "Jardim Flamingo",
+    "endereco": "Rua Padre José Osvaldo Nunes, 166",
+    "horarios": [],
+    "nao_cabe": "Celebrações: domingo 7h30; 2ª sexta 19h30, missa nas casas do bairro"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/regiao-i/paroquia-sao-joao-bosco-e-nossa-senhora-auxiliadora-marilia/",
+    "data": "2026-02-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/",
+    "data": "2026-06-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Paróquia criada em 31/01/2026; ainda não está no GCatholic."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Oriente",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "1434561235",
+   "whatsapp": "14997732427",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiadeoriente@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Oriente",
+    "localidade": "",
+    "endereco": "Rua Albertina Zola Palácio, 12",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Luzia",
+    "tipo": "capela",
+    "cidade": "Oriente",
+    "localidade": "",
+    "endereco": "Rua Prefeito João Carvalho Ferraz, s/n",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 3ª sexta 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Vicente de Paulo",
+    "tipo": "capela",
+    "cidade": "Oriente",
+    "localidade": "",
+    "endereco": "Rua João Martins, s/n",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 2ª quinta 19h30"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/regiao-i/paroquia-nossa-senhora-aparecida-oriente/",
+    "data": "2025-11-05",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/",
+    "data": "2026-06-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Pompéia",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "14996559246",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "quintana.pnsapa25@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Pompéia",
+    "localidade": "Distrito de Paulópolis",
+    "endereco": "Rua Antonio Rosa, 91",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Benedito",
+    "tipo": "capela",
+    "cidade": "Pompéia",
+    "localidade": "Distrito de Paulópolis",
+    "endereco": "Rua Bonifácio Martins, s/n",
+    "horarios": [],
+    "nao_cabe": "Celebrações: quarta 19h30"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/regiao-i/paroquia-nossa-senhora-aparecida-paulopolis/",
+    "data": "2025-11-05",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/",
+    "data": "2026-06-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Paulópolis é distrito de Pompéia. O e-mail é o da Paróquia de Quintana, endereço de correspondência indicado pela diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Rosário",
+  "categoria": "paroquia",
+  "cidade": "Pompéia",
+  "padroeiro": "Nossa Senhora do Rosário",
+  "contatos": {
+   "telefone": "1434521159",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "pomrosario@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora do Rosário",
+    "tipo": "matriz",
+    "cidade": "Pompéia",
+    "localidade": "",
+    "endereco": "Rua Dr. Luiz Miranda, 743",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Pompéia",
+    "localidade": "Vila Paulínia",
+    "endereco": "Rua Brasília",
+    "horarios": [],
+    "nao_cabe": "Celebrações: domingo 7h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São José",
+    "tipo": "capela",
+    "cidade": "Pompéia",
+    "localidade": "Bairro JK",
+    "endereco": "Rua Manoel Brasil Camargo",
+    "horarios": [],
+    "nao_cabe": "Celebrações: domingo 17h"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Vicente",
+    "tipo": "capela",
+    "cidade": "Pompéia",
+    "localidade": "Flândria",
+    "endereco": "Av. Floriano Peixoto",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 2ª quinta 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Francisco",
+    "tipo": "capela",
+    "cidade": "Pompéia",
+    "localidade": "Jardim São Luiz",
+    "endereco": "Av. Domingos Raggi, 96",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 3ª quinta 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Colégio das Irmãs",
+    "tipo": "capela",
+    "cidade": "Pompéia",
+    "localidade": "",
+    "endereco": "Av. Marechal Deodoro da Fonseca, 350",
+    "horarios": [],
+    "nao_cabe": "Celebrações: quinta 7h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora de Fátima",
+    "tipo": "capela",
+    "cidade": "Pompéia",
+    "localidade": "Vila Audênia, zona rural",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 3ª terça 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Luzia",
+    "tipo": "capela",
+    "cidade": "Pompéia",
+    "localidade": "Bairro Aurora, zona rural",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 3ª sexta 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Terra Nova",
+    "tipo": "capela",
+    "cidade": "Pompéia",
+    "localidade": "Acampamentos",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: uma vez por mês, dia a definir"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/regiao-i/paroquia-nossa-senhora-do-rosario-pompeia/",
+    "data": "2025-09-01",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/",
+    "data": "2026-06-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Quintana",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "1434881151",
+   "whatsapp": "14997351556",
+   "instagram": "",
+   "site": "",
+   "email": "quintana.pnsapa25@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Quintana",
+    "localidade": "",
+    "endereco": "Praça da Matriz, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Quintana",
+    "localidade": "Vila Campante",
+    "endereco": "Rua Dirceu, 717",
+    "horarios": [],
+    "nao_cabe": "Celebrações: domingo 7h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São João Batista",
+    "tipo": "capela",
+    "cidade": "Quintana",
+    "localidade": "Salão Branco",
+    "endereco": "Av. Santo Antônio, 490",
+    "horarios": [],
+    "nao_cabe": "Celebrações: quinta 19h30"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/regiao-i/paroquia-nossa-senhora-aparecida-quintana/",
+    "data": "2025-11-05",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/",
+    "data": "2026-06-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Santuário Sagrado Coração de Jesus",
+  "categoria": "santuario",
+  "cidade": "Vera Cruz",
+  "padroeiro": "Sagrado Coração de Jesus",
+  "contatos": {
+   "telefone": "1439391344",
+   "whatsapp": "14997889959",
+   "instagram": "",
+   "site": "",
+   "email": "sscjesus@terra.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário Sagrado Coração de Jesus",
+    "tipo": "santuario",
+    "cidade": "Vera Cruz",
+    "localidade": "",
+    "endereco": "Av. Mons. Florentino Santamaria, 280",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São José",
+    "tipo": "capela",
+    "cidade": "Vera Cruz",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: domingo 8h"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/regiao-i/santuario-sagrado-coracao-de-jesus-vera-cruz/",
+    "data": "2024-10-21",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/",
+    "data": "2026-06-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Paróquia e santuário. Página editada em 2024-10; horários repetidos no buscador da diocese (2026-06). O site sscjesus.paroquia.net.br não respondeu."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio de Pádua",
+  "categoria": "paroquia",
+  "cidade": "Adamantina",
+  "padroeiro": "Santo Antônio de Pádua",
+  "contatos": {
+   "telefone": "1835211014",
+   "whatsapp": "18997356497",
+   "instagram": "",
+   "site": "",
+   "email": "psa.adamantina@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santo Antônio de Pádua",
+    "tipo": "matriz",
+    "cidade": "Adamantina",
+    "localidade": "Centro",
+    "endereco": "Praça Dom Henrique Gelain, 200",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Adamantina",
+    "localidade": "",
+    "endereco": "Rua Vitória Régia, s/n",
+    "horarios": [],
+    "nao_cabe": "Celebrações: domingo 17h"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Benedito",
+    "tipo": "capela",
+    "cidade": "Adamantina",
+    "localidade": "",
+    "endereco": "Alameda Padre Nóbrega, 1295",
+    "horarios": [],
+    "nao_cabe": "Celebrações: domingo 11h"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/regiao-ii/paroquia-santo-antonio-de-padua-adamantina/",
+    "data": "2024-10-21",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/",
+    "data": "2026-06-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Página da paróquia no site da diocese editada em 2024-10; horários repetidos no buscador de missas da diocese (2026-06)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Fátima",
+  "categoria": "paroquia",
+  "cidade": "Adamantina",
+  "padroeiro": "Nossa Senhora de Fátima",
+  "contatos": {
+   "telefone": "1835211246",
+   "whatsapp": "18997346672",
+   "instagram": "",
+   "site": "",
+   "email": "prqfatima@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora de Fátima",
+    "tipo": "matriz",
+    "cidade": "Adamantina",
+    "localidade": "",
+    "endereco": "Praça João XXIII, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Sagrado Coração de Jesus",
+    "tipo": "capela",
+    "cidade": "Adamantina",
+    "localidade": "Santa Casa",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: sexta 7h"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São João Batista",
+    "tipo": "capela",
+    "cidade": "Adamantina",
+    "localidade": "Jardim Bela Vista",
+    "endereco": "Rua Fioravante Tassi, 45",
+    "horarios": [],
+    "nao_cabe": "Celebrações: domingo 17h"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora do Perpétuo Socorro",
+    "tipo": "capela",
+    "cidade": "Adamantina",
+    "localidade": "Jardim Brasil",
+    "endereco": "Rua Paraná, 249",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 1ª e 3ª quinta 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Isabel da Hungria",
+    "tipo": "capela",
+    "cidade": "Adamantina",
+    "localidade": "Bairro Tupãzinho, área rural",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 2ª quinta 20h"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Luzia",
+    "tipo": "capela",
+    "cidade": "Adamantina",
+    "localidade": "Residencial San Miguel II",
+    "endereco": "Rua Gelindo Sperandio, 1200",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 2ª e 4ª sexta 19h30"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/regiao-ii/paroquia-nossa-senhora-de-fatima-adamantina/",
+    "data": "2025-11-05",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/",
+    "data": "2026-06-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Francisco de Assis",
+  "categoria": "paroquia",
+  "cidade": "Adamantina",
+  "padroeiro": "São Francisco de Assis",
+  "contatos": {
+   "telefone": "1835229323",
+   "whatsapp": "18998037085",
+   "instagram": "",
+   "site": "",
+   "email": "psfa.adamantina@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Francisco de Assis",
+    "tipo": "matriz",
+    "cidade": "Adamantina",
+    "localidade": "Jardim Adamantina",
+    "endereco": "Rua João Perroni, 680",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Hora Santa"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "20:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santo Antônio de Pádua",
+    "tipo": "capela",
+    "cidade": "Adamantina",
+    "localidade": "Lagoa Seca",
+    "endereco": "Rua Euclides Romanini, 130",
+    "horarios": [],
+    "nao_cabe": "Celebrações: domingo 19h"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São João Batista",
+    "tipo": "capela",
+    "cidade": "Adamantina",
+    "localidade": "Bairro Tucuruvi",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 3ª quinta-feira do mês 19h30"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/regiao-ii/paroquia-sao-francisco-de-assis-adamantina/",
+    "data": "2026-02-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/",
+    "data": "2026-06-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Senhor Bom Jesus",
+  "categoria": "paroquia",
+  "cidade": "Arco-Íris",
+  "padroeiro": "Senhor Bom Jesus",
+  "contatos": {
+   "telefone": "1434771106",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "senhorbomjesus.paroquia@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Senhor Bom Jesus",
+    "tipo": "matriz",
+    "cidade": "Arco-Íris",
+    "localidade": "",
+    "endereco": "Praça São João XXIII, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa do Sagrado Coração"
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Arco-Íris",
+    "localidade": "Bairro Progresso",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 2ª sexta 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Fazenda Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Arco-Íris",
+    "localidade": "Bairro Ponte Alta",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 4ª sexta 19h30"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/regiao-ii/paroquia-senhor-bom-jesus-arco-iris/",
+    "data": "2026-02-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/",
+    "data": "2026-06-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "O celular escrito na página (14 99790-0886) e o do link de WhatsApp (14 99811-8424) não batem; WhatsApp deixado vazio."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Francisco Xavier",
+  "categoria": "paroquia",
+  "cidade": "Bastos",
+  "padroeiro": "São Francisco Xavier",
+  "contatos": {
+   "telefone": "1434781527",
+   "whatsapp": "14997854695",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiaxavier@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Francisco Xavier",
+    "tipo": "matriz",
+    "cidade": "Bastos",
+    "localidade": "Centro",
+    "endereco": "Rua Osvaldo Cruz, 767",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "06:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "06:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "06:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "06:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Bastos",
+    "localidade": "Centro",
+    "endereco": "Rua Valdevino Fernandes, 345",
+    "horarios": [],
+    "nao_cabe": "Celebrações: quinta 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São José Operário",
+    "tipo": "capela",
+    "cidade": "Bastos",
+    "localidade": "Jardim Esplanada",
+    "endereco": "Rua das Garças, 155",
+    "horarios": [],
+    "nao_cabe": "Celebrações: quarta 19h30; domingo 10h"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora de Guadalupe",
+    "tipo": "capela",
+    "cidade": "Bastos",
+    "localidade": "Jardim Eldorado",
+    "endereco": "Rua Lino Lourenço Peixoto, 77",
+    "horarios": [],
+    "nao_cabe": "Celebrações: domingo 18h"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/regiao-ii/sao-francisco-xavier-bastos/",
+    "data": "2026-02-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/",
+    "data": "2026-06-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sant'Ana",
+  "categoria": "paroquia",
+  "cidade": "Herculândia",
+  "padroeiro": "Sant'Ana",
+  "contatos": {
+   "telefone": "1434861236",
+   "whatsapp": "14996443906",
+   "instagram": "",
+   "site": "",
+   "email": "santana.paroquia2607@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Sant'Ana",
+    "tipo": "matriz",
+    "cidade": "Herculândia",
+    "localidade": "",
+    "endereco": "Av. Campos Sales, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa do Sagrado Coração de Jesus"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Herculândia",
+    "localidade": "Distrito de Juliânia",
+    "endereco": "Av. São Paulo, s/n",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 2ª sexta-feira 20h"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Izabel",
+    "tipo": "capela",
+    "cidade": "Herculândia",
+    "localidade": "Bairro Marco 8",
+    "endereco": "Av. Aristides Portela, s/n",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 3ª sexta-feira 20h"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/regiao-ii/paroquia-santana-herculandia/",
+    "data": "2026-11-04",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/",
+    "data": "2026-06-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Luiz Gonzaga",
+  "categoria": "paroquia",
+  "cidade": "Iacri",
+  "padroeiro": "São Luiz Gonzaga",
+  "contatos": {
+   "telefone": "1434891288",
+   "whatsapp": "14997210796",
+   "instagram": "",
+   "site": "",
+   "email": "saoluizgonzaga26@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Luiz Gonzaga",
+    "tipo": "matriz",
+    "cidade": "Iacri",
+    "localidade": "Centro",
+    "endereco": "Praça São Luiz, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Comunidades urbanas São Lucas, São Marcos, São Mateus, São João Evangelista e N. Sra. das Graças: celebração nas casas, quarta às 19h30."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Sebastião",
+    "tipo": "capela",
+    "cidade": "Iacri",
+    "localidade": "Bairro Atali, zona rural",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 2ª sexta 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Iacri",
+    "localidade": "Bairro Goitchoro, zona rural",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 4ª sexta 19h30"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/regiao-ii/paroquia-sao-luiz-gonzaga-iacri/",
+    "data": "2024-11-21",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/",
+    "data": "2026-06-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Página da paróquia no site da diocese editada em 2024-11; horários repetidos no buscador de missas da diocese (2026-06)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Imaculado Coração de Maria",
+  "categoria": "paroquia",
+  "cidade": "Inúbia Paulista",
+  "padroeiro": "Imaculado Coração de Maria",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "18997333576",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiaicm@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Imaculado Coração de Maria",
+    "tipo": "matriz",
+    "cidade": "Inúbia Paulista",
+    "localidade": "",
+    "endereco": "Rua Antônio Facco, 560",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "06:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/regiao-ii/paroquia-imaculado-coracao-de-maria-inubia-paulista/",
+    "data": "2026-02-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/",
+    "data": "2026-06-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sagrada Família",
+  "categoria": "paroquia",
+  "cidade": "Lucélia",
+  "padroeiro": "Sagrada Família",
+  "contatos": {
+   "telefone": "1835511635",
+   "whatsapp": "18997997242",
+   "instagram": "",
+   "site": "",
+   "email": "sagradafamilialucelia@outlook.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Sagrada Família",
+    "tipo": "matriz",
+    "cidade": "Lucélia",
+    "localidade": "Centro",
+    "endereco": "Praça Pe. Francisco Mahr, 457",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São José",
+    "tipo": "capela",
+    "cidade": "Lucélia",
+    "localidade": "Vila Rancharia",
+    "endereco": "Rua Nemetala Audi, 870",
+    "horarios": [],
+    "nao_cabe": "Celebrações: domingo 7h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela da Santa Casa",
+    "tipo": "capela",
+    "cidade": "Lucélia",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 2ª quarta-feira 15h"
+   },
+   {
+    "id_banco": null,
+    "nome": "Lar São Vicente de Paulo",
+    "tipo": "comunidade",
+    "cidade": "Lucélia",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 3ª sexta 9h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Lucélia",
+    "localidade": "",
+    "endereco": "Rua Senador Queiroz Filho, 149",
+    "horarios": [],
+    "nao_cabe": "Celebrações: terça 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Auxiliadora",
+    "tipo": "capela",
+    "cidade": "Lucélia",
+    "localidade": "",
+    "endereco": "Rua Pascoal Micali, s/n",
+    "horarios": [],
+    "nao_cabe": "Celebrações: quinta 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora de Guadalupe",
+    "tipo": "capela",
+    "cidade": "Lucélia",
+    "localidade": "",
+    "endereco": "Rua Vereador Jorge Mansur Filho, 100",
+    "horarios": [],
+    "nao_cabe": "Celebrações: sexta-feira 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade do Bairro União",
+    "tipo": "comunidade",
+    "cidade": "Lucélia",
+    "localidade": "Bairro União, zona rural",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 4ª quarta-feira 19h30"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/regiao-ii/paroquia-sagrada-familia-lucelia/",
+    "data": "2026-10-19",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/",
+    "data": "2026-06-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Imaculada Conceição",
+  "categoria": "paroquia",
+  "cidade": "Mariápolis",
+  "padroeiro": "Imaculada Conceição",
+  "contatos": {
+   "telefone": "1835861218",
+   "whatsapp": "1835861218",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiaimac.conceicao@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Imaculada Conceição",
+    "tipo": "matriz",
+    "cidade": "Mariápolis",
+    "localidade": "Centro",
+    "endereco": "Praça Frei Dionísio Antônio Marinelli, 185",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/regiao-ii/paroquia-imaculada-conceicao-mariapolis/",
+    "data": "2024-10-21",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/",
+    "data": "2026-06-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Página da paróquia no site da diocese editada em 2024-10; horários repetidos no buscador de missas da diocese (2026-06)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Santuário São José",
+  "categoria": "santuario",
+  "cidade": "Osvaldo Cruz",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "1835281136",
+   "whatsapp": "18997093095",
+   "instagram": "",
+   "site": "",
+   "email": "paroqoc@terra.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário São José",
+    "tipo": "santuario",
+    "cidade": "Osvaldo Cruz",
+    "localidade": "",
+    "endereco": "Rua Senador Salgado Filho, 855",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Rosa Mística",
+    "tipo": "capela",
+    "cidade": "Osvaldo Cruz",
+    "localidade": "Álvaro Campoy",
+    "endereco": "Rua Áustria, 55",
+    "horarios": [],
+    "nao_cabe": "Celebrações: terça 19h30; 1º e 3º domingo 7h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Osvaldo Cruz",
+    "localidade": "Jardim Bela Vista",
+    "endereco": "Rua Engenheiro Kieffer, 5",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 1º e 3º domingo 17h; 1ª sexta 7h"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora da Guia",
+    "tipo": "capela",
+    "cidade": "Osvaldo Cruz",
+    "localidade": "",
+    "endereco": "Rua Ceará, 150",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 2º domingo 17h; 4ª terça 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Luzia",
+    "tipo": "capela",
+    "cidade": "Osvaldo Cruz",
+    "localidade": "",
+    "endereco": "Av. Presidente Vargas, 1087",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 1º e 3º sábado 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Gabriel",
+    "tipo": "capela",
+    "cidade": "Osvaldo Cruz",
+    "localidade": "Nosso Teto",
+    "endereco": "Rua Paineira, 198",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 3º domingo 9h30; 2ª quinta 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Mãe da Santa Esperança",
+    "tipo": "capela",
+    "cidade": "Osvaldo Cruz",
+    "localidade": "Vila Esperança",
+    "endereco": "Rua da Fraternidade, 105",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 1º domingo 16h; 3ª terça 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora de Fátima",
+    "tipo": "capela",
+    "cidade": "Osvaldo Cruz",
+    "localidade": "Jardim Alvorada",
+    "endereco": "Rua Virgílio P. dos Santos, 155",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 2º domingo 17h; 4º domingo 7h30 e 17h"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Gemma Galgani",
+    "tipo": "capela",
+    "cidade": "Osvaldo Cruz",
+    "localidade": "Centro",
+    "endereco": "Av. Max Wirth, 6",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 3ª quinta 20h"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Osvaldo Cruz",
+    "localidade": "Monte Líbano",
+    "endereco": "Rua Jaciro Gumiero, 175",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 2ª quinta 19h30; 4º domingo 9h"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Pedro",
+    "tipo": "capela",
+    "cidade": "Osvaldo Cruz",
+    "localidade": "Augusto Stofaleti",
+    "endereco": "Rua Aparecida Maria de Souza, 1",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 2ª sexta 19h30; 4º domingo 7h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Vicente de Paulo",
+    "tipo": "capela",
+    "cidade": "Osvaldo Cruz",
+    "localidade": "",
+    "endereco": "Rua São Vicente de Paulo, 136",
+    "horarios": [],
+    "nao_cabe": "Celebrações: quinta 15h; meses pares 18h"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Paulo da Cruz",
+    "tipo": "capela",
+    "cidade": "Osvaldo Cruz",
+    "localidade": "Bairro Venda Branca, zona rural",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 2º e 4º domingo 9h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Francisco de Assis",
+    "tipo": "capela",
+    "cidade": "Osvaldo Cruz",
+    "localidade": "Bairro Três Casas, zona rural",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 2ª e 4ª quarta 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Osvaldo Cruz",
+    "localidade": "Bairro Canguçu, zona rural",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: só Celebração da Palavra"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Vicente de Paulo",
+    "tipo": "capela",
+    "cidade": "Osvaldo Cruz",
+    "localidade": "",
+    "endereco": "Av. Felipe Carmona, 1595",
+    "horarios": [],
+    "nao_cabe": "Celebrações: quinta 15h; 4º sábado 18h"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora da Saúde",
+    "tipo": "capela",
+    "cidade": "Osvaldo Cruz",
+    "localidade": "Vila São Luís, Santa Casa",
+    "endereco": "Av. Presidente Vargas, 1",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 1ª terça 15h"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/regiao-ii/paroquia-sao-jose-osvaldo-cruz/",
+    "data": "2026-10-16",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/",
+    "data": "2026-06-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Paróquia e santuário, Passionistas (C.P.). Missa das 7h de terça a sábado, como na página (2026-10); o buscador da diocese incluía a segunda."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Imaculada Conceição",
+  "categoria": "paroquia",
+  "cidade": "Parapuã",
+  "padroeiro": "Imaculada Conceição",
+  "contatos": {
+   "telefone": "1835821161",
+   "whatsapp": "18996225873",
+   "instagram": "",
+   "site": "",
+   "email": "prq.imaculada@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Imaculada Conceição",
+    "tipo": "matriz",
+    "cidade": "Parapuã",
+    "localidade": "Centro",
+    "endereco": "Rua Natal, 801",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa do Sagrado Coração de Jesus"
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Parapuã",
+    "localidade": "",
+    "endereco": "Rua Niterói, 1501",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 1ª e 3ª quinta-feira 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Helena",
+    "tipo": "capela",
+    "cidade": "Parapuã",
+    "localidade": "",
+    "endereco": "Rua Curitiba, s/n",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 1ª terça-feira 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Luzia",
+    "tipo": "comunidade",
+    "cidade": "Parapuã",
+    "localidade": "Bairro Alheiro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 2ª terça-feira 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Pedro",
+    "tipo": "capela",
+    "cidade": "Parapuã",
+    "localidade": "Bairro Córrego Rico",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 4ª terça-feira 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Sagrada Família",
+    "tipo": "capela",
+    "cidade": "Parapuã",
+    "localidade": "Bairro Vitória",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 4º sábado 11h"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/regiao-ii/paroquia-imaculada-conceicao-parapua/",
+    "data": "2026-03-16",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/",
+    "data": "2026-06-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Luzia",
+  "categoria": "paroquia",
+  "cidade": "Pracinha",
+  "padroeiro": "Santa Luzia",
+  "contatos": {
+   "telefone": "18998132360",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquialuzia@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santa Luzia",
+    "tipo": "matriz",
+    "cidade": "Pracinha",
+    "localidade": "",
+    "endereco": "Av. Luiz Gamberini, 240",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Pracinha",
+    "localidade": "",
+    "endereco": "Estrada Vicinal Geraldo Rissato",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 2ª quinta do mês 19h30"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/regiao-ii/paroquia-santa-luzia-pracinha/",
+    "data": "2026-10-19",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/",
+    "data": "2026-06-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "A página não traz missa de domingo na matriz."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Queiroz",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "1434581241",
+   "whatsapp": "14996225354",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiaqueiroz@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Queiroz",
+    "localidade": "Centro",
+    "endereco": "Rua Governador Garcez, 45",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Francisco de Assis",
+    "tipo": "capela",
+    "cidade": "Queiroz",
+    "localidade": "Vila Nova",
+    "endereco": "Rua Avelino José de Oliveira",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 1ª sexta-feira do mês 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São João Batista",
+    "tipo": "capela",
+    "cidade": "Queiroz",
+    "localidade": "Fazenda Queixada",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: a cada 2 meses"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Bento",
+    "tipo": "capela",
+    "cidade": "Queiroz",
+    "localidade": "Fazenda São Bento, Granja Yabuta",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: a cada 2 meses"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/regiao-ii/paroquia-nossa-senhora-aparecida-queiroz/",
+    "data": "2024-10-30",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/",
+    "data": "2026-06-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Página da paróquia no site da diocese editada em 2024-10; horários repetidos no buscador de missas da diocese (2026-06)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Rinópolis",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "1835831171",
+   "whatsapp": "18996860298",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiarinopolis@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Rinópolis",
+    "localidade": "",
+    "endereco": "Praça da Matriz, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Mateus",
+    "tipo": "capela",
+    "cidade": "Rinópolis",
+    "localidade": "Bairro São Mateus",
+    "endereco": "Rua São Lucas, s/n",
+    "horarios": [],
+    "nao_cabe": "Celebrações: domingo 7h"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Luzia",
+    "tipo": "comunidade",
+    "cidade": "Rinópolis",
+    "localidade": "Bairros Bernardelli, Cervante e Antonio Paulo dos Reis",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 2ª sexta do mês 19h30, nas casas"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora de Fátima",
+    "tipo": "capela",
+    "cidade": "Rinópolis",
+    "localidade": "Bairro Caçador",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 3ª sexta do mês 20h"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Rita e Rosa Mística",
+    "tipo": "capela",
+    "cidade": "Rinópolis",
+    "localidade": "Jardim São Paulo",
+    "endereco": "Rua Barão do Rio Branco, 262",
+    "horarios": [],
+    "nao_cabe": "Celebrações: quinta 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Rinópolis",
+    "localidade": "Bairro Cascatinha",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 4ª sexta do mês 20h"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Goataporanga",
+    "tipo": "comunidade",
+    "cidade": "Rinópolis",
+    "localidade": "Praça Goataporanga",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: missa na praça nos meses com 5ª sexta, 19h30"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/regiao-ii/paroquia-nossa-senhora-aparecida-rinopolis/",
+    "data": "2025-02-24",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/",
+    "data": "2026-06-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Benedito",
+  "categoria": "paroquia",
+  "cidade": "Sagres",
+  "padroeiro": "São Benedito",
+  "contatos": {
+   "telefone": "1835581127",
+   "whatsapp": "18996654338",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasb_sagres@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Benedito",
+    "tipo": "matriz",
+    "cidade": "Sagres",
+    "localidade": "Centro",
+    "endereco": "Rua Vereador Francisco Pereira, 395",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Sagres",
+    "localidade": "Placa 28",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: quinta 20h; 1º e 3º domingo 8h; 2º sábado 18h"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Sagres",
+    "localidade": "3 Placas",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 3º sábado 18h; 4º domingo 8h"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/regiao-ii/paroquia-sao-benedito-sagres/",
+    "data": "2026-01-27",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/",
+    "data": "2026-06-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Confiada aos Passionistas (C.P.)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "Salmourão",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "18998260217",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasalmourao@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São João Batista",
+    "tipo": "matriz",
+    "cidade": "Salmourão",
+    "localidade": "",
+    "endereco": "Rua Gines Parra, 25",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Rainha da Paz",
+    "tipo": "capela",
+    "cidade": "Salmourão",
+    "localidade": "",
+    "endereco": "Rua Pres. Castelo Branco, 44",
+    "horarios": [],
+    "nao_cabe": "Celebrações: quinta 7h"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Salmourão",
+    "localidade": "Guarani",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 1º e 3º domingo 9h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Rita de Cássia",
+    "tipo": "capela",
+    "cidade": "Salmourão",
+    "localidade": "Coqueiros",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 2º e 4º domingo 9h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Fazenda Aymoré",
+    "tipo": "comunidade",
+    "cidade": "Salmourão",
+    "localidade": "Fazenda Aymoré",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 2ª sexta 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Fazenda Bandeirantes",
+    "tipo": "comunidade",
+    "cidade": "Salmourão",
+    "localidade": "Fazenda Bandeirantes",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 3ª sexta 19h30"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/regiao-ii/paroquia-sao-joao-batista-salmourao/",
+    "data": "2026-02-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/",
+    "data": "2026-06-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Confiada aos Passionistas (C.P.)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Pedro Apóstolo",
+  "categoria": "paroquia",
+  "cidade": "Tupã",
+  "padroeiro": "São Pedro Apóstolo",
+  "contatos": {
+   "telefone": "1434963272",
+   "whatsapp": "14997357379",
+   "instagram": "spedroapostolo",
+   "site": "https://www.matrizsaopedro.org.br",
+   "email": "saopedrotupa@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Pedro Apóstolo",
+    "tipo": "matriz",
+    "cidade": "Tupã",
+    "localidade": "",
+    "endereco": "Praça da Bandeira, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Rita de Cássia",
+    "tipo": "capela",
+    "cidade": "Tupã",
+    "localidade": "",
+    "endereco": "Rua Lázaro Mosquini, s/n",
+    "horarios": [],
+    "nao_cabe": "Celebrações: quinta 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Tupã",
+    "localidade": "",
+    "endereco": "Rua Cherentes, 1664",
+    "horarios": [],
+    "nao_cabe": "Celebrações: terça 19h30; domingo 7h"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Sagrado Coração de Jesus",
+    "tipo": "capela",
+    "cidade": "Tupã",
+    "localidade": "",
+    "endereco": "Rua Chavantes, 194",
+    "horarios": [],
+    "nao_cabe": "Celebrações: sexta 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Teresinha do Menino Jesus",
+    "tipo": "comunidade",
+    "cidade": "Tupã",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: quinta 19h30, missa nas residências"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/regiao-ii/paroquia-sao-pedro-tupa/",
+    "data": "2026-02-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/",
+    "data": "2026-06-19",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.matrizsaopedro.org.br/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Site e Instagram tirados do site da própria paróquia."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Auxiliadora",
+  "categoria": "paroquia",
+  "cidade": "Tupã",
+  "padroeiro": "Nossa Senhora Auxiliadora",
+  "contatos": {
+   "telefone": "1434961165",
+   "whatsapp": "14996626952",
+   "instagram": "",
+   "site": "",
+   "email": "pnsauxiliadoratupa@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora Auxiliadora",
+    "tipo": "matriz",
+    "cidade": "Tupã",
+    "localidade": "",
+    "endereco": "Rua Mandaguaris, 432",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": "Com novena de N. Sra. do Perpétuo Socorro"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Francisco de Assis",
+    "tipo": "capela",
+    "cidade": "Tupã",
+    "localidade": "Núcleo Habitacional Augusto Rosin",
+    "endereco": "Praça do Núcleo Habitacional Augusto Rosin, s/n",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 1ª quarta 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São João Batista",
+    "tipo": "capela",
+    "cidade": "Tupã",
+    "localidade": "Vila Independência",
+    "endereco": "Rua Almirante Barroso, 436",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 2ª quarta 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Tupã",
+    "localidade": "Vila Nova I",
+    "endereco": "Rua Monte Alegre, 225",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 3ª quarta 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora de Fátima",
+    "tipo": "capela",
+    "cidade": "Tupã",
+    "localidade": "",
+    "endereco": "Rua Bauru esquina com Rua Garça, s/n",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 4ª quarta 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Auxiliadora",
+    "tipo": "capela",
+    "cidade": "Tupã",
+    "localidade": "Distrito de Universo",
+    "endereco": "Praça Anacleto José Costa",
+    "horarios": [],
+    "nao_cabe": "Celebrações: sábado 19h"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Sebastião",
+    "tipo": "capela",
+    "cidade": "Tupã",
+    "localidade": "Distrito de Varpa",
+    "endereco": "Rua Padre Nóbrega, s/n",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 1º domingo 11h; 3º domingo 9h"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/regiao-ii/paroquia-nossa-senhora-auxiliadora-tupa/",
+    "data": "2026-10-19",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/",
+    "data": "2026-06-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Domingo segue a página da paróquia (editada em 2026-10): 7h, 9h30 e 19h; o buscador da diocese (2026-06) ainda dá 7h30, 9h e 19h."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Judas Tadeu",
+  "categoria": "paroquia",
+  "cidade": "Tupã",
+  "padroeiro": "São Judas Tadeu",
+  "contatos": {
+   "telefone": "1434961939",
+   "whatsapp": "14997889237",
+   "instagram": "",
+   "site": "",
+   "email": "p.saojudastadeu@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Judas Tadeu",
+    "tipo": "matriz",
+    "cidade": "Tupã",
+    "localidade": "Jardim Ipiranga",
+    "endereco": "Rua Rafael Úbeda Gonçalves, 120",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Paz",
+    "tipo": "comunidade",
+    "cidade": "Tupã",
+    "localidade": "Prolongamento da Vila Abarca",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: domingo 7h30"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/regiao-ii/paroquia-sao-judas-tadeu-tupa/",
+    "data": "2026-02-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/",
+    "data": "2026-06-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José Operário",
+  "categoria": "paroquia",
+  "cidade": "Tupã",
+  "padroeiro": "São José Operário",
+  "contatos": {
+   "telefone": "1434914844",
+   "whatsapp": "14997889732",
+   "instagram": "",
+   "site": "",
+   "email": "parsaojoseoperariotupa@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São José Operário",
+    "tipo": "matriz",
+    "cidade": "Tupã",
+    "localidade": "Vila Formosa",
+    "endereco": "Rua Carmelo Morábito, 11",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "20:00",
+      "semanas": null,
+      "observacao": "Com novena do Perpétuo Socorro"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa do Sagrado Coração de Jesus"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Missa com as crianças"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Paulo Apóstolo",
+    "tipo": "capela",
+    "cidade": "Tupã",
+    "localidade": "Vila São José",
+    "endereco": "Rua Domingos Triveloni, 20",
+    "horarios": [],
+    "nao_cabe": "Celebrações: domingo 7h"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Lucas",
+    "tipo": "capela",
+    "cidade": "Tupã",
+    "localidade": "Jardim Santo Antônio",
+    "endereco": "Rua Vista Alegre, 380",
+    "horarios": [],
+    "nao_cabe": "Celebrações: quinta 20h"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora do Carmo",
+    "tipo": "capela",
+    "cidade": "Tupã",
+    "localidade": "Conjunto Habitacional Cinquentenário",
+    "endereco": "Rua João Rangel, 105",
+    "horarios": [],
+    "nao_cabe": "Celebrações: sábado 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Imaculada Conceição",
+    "tipo": "capela",
+    "cidade": "Tupã",
+    "localidade": "Conjunto Habitacional Antonio P. Gaspar",
+    "endereco": "Rua Victor de Oliveira, 260",
+    "horarios": [],
+    "nao_cabe": "Celebrações: domingo 17h"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Marcos",
+    "tipo": "comunidade",
+    "cidade": "Tupã",
+    "localidade": "Jardim Marabá",
+    "endereco": "Centro Comunitário do Jardim Marabá",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 2ª e 4ª quarta 20h"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Lourdes",
+    "tipo": "comunidade",
+    "cidade": "Tupã",
+    "localidade": "Distrito de Parnaso",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: sexta-feira 20h"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/regiao-ii/paroquia-sao-jose-operario-tupa/",
+    "data": "2026-03-04",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/",
+    "data": "2026-06-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Dracena",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "1838211095",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "matrizaparecidadracena@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Dracena",
+    "localidade": "",
+    "endereco": "Av. Expedicionários, 1696",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Sagrado Coração de Jesus",
+    "tipo": "capela",
+    "cidade": "Dracena",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 2º e 4º sábado 19h30; 1ª sexta 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Expedito",
+    "tipo": "comunidade",
+    "cidade": "Dracena",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: domingo 9h; dia 19 de cada mês 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Cristóvão",
+    "tipo": "capela",
+    "cidade": "Dracena",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 2º sábado 19h"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Imaculada Conceição",
+    "tipo": "comunidade",
+    "cidade": "Dracena",
+    "localidade": "Distrito de Jamaica",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 1º e 3º domingo 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Asilo",
+    "tipo": "comunidade",
+    "cidade": "Dracena",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: sábado 16h"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/regiao-iii/paroquia-nossa-senhora-aparecida-dracena/",
+    "data": "2026-01-20",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/",
+    "data": "2026-06-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Confiada aos Frades Menores Capuchinhos (OFMCap.)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Santuário Nossa Senhora de Fátima",
+  "categoria": "santuario",
+  "cidade": "Dracena",
+  "padroeiro": "Nossa Senhora de Fátima",
+  "contatos": {
+   "telefone": "1838211113",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "santuariodefatimaa@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário Nossa Senhora de Fátima",
+    "tipo": "santuario",
+    "cidade": "Dracena",
+    "localidade": "",
+    "endereco": "Rua Antonio Rodrigues de Barros, 224",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Clara",
+    "tipo": "capela",
+    "cidade": "Dracena",
+    "localidade": "",
+    "endereco": "Rua Antônio R. de Barros, 1251",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 1ª e 3ª quarta 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Judas Tadeu",
+    "tipo": "capela",
+    "cidade": "Dracena",
+    "localidade": "",
+    "endereco": "Rua Inconfidência, 300",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 3ª sexta 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Dracena",
+    "localidade": "",
+    "endereco": "Rua Cezarino Scaliante, 100",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 2ª e 4ª quarta 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Dracena",
+    "localidade": "Distrito de Jaciporã",
+    "endereco": "Rua Tancredo Aiello, 499",
+    "horarios": [],
+    "nao_cabe": "Celebrações: domingo 17h"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Divina Pastora",
+    "tipo": "capela",
+    "cidade": "Dracena",
+    "localidade": "",
+    "endereco": "Estrada Marcelo Lorenzetti",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 2ª sexta 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Francisco de Assis",
+    "tipo": "capela",
+    "cidade": "Dracena",
+    "localidade": "Bairro Maquininha, área rural",
+    "endereco": "Bairro Maquininha, 747",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 2ª terça 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Benedito",
+    "tipo": "capela",
+    "cidade": "Dracena",
+    "localidade": "Marrequinha",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 4ª sexta 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Terezinha",
+    "tipo": "capela",
+    "cidade": "Dracena",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 4ª terça 19h30"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/regiao-iii/santuario-nossa-senhora-de-fatima-dracena/",
+    "data": "2026-02-23",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/",
+    "data": "2026-06-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Francisco de Assis",
+  "categoria": "paroquia",
+  "cidade": "Dracena",
+  "padroeiro": "São Francisco de Assis",
+  "contatos": {
+   "telefone": "1838213133",
+   "whatsapp": "18997350168",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasaofrancisco_@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Francisco de Assis",
+    "tipo": "matriz",
+    "cidade": "Dracena",
+    "localidade": "São Francisco",
+    "endereco": "Rua Dom Pedro, 1710",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São José",
+    "tipo": "capela",
+    "cidade": "Dracena",
+    "localidade": "Jardim Brasilândia",
+    "endereco": "Rua Padre José de Anchieta, 166",
+    "horarios": [],
+    "nao_cabe": "Celebrações: sábado 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São João Paulo II",
+    "tipo": "capela",
+    "cidade": "Dracena",
+    "localidade": "Vila Itália II",
+    "endereco": "Av. Benedito Borges, 236",
+    "horarios": [],
+    "nao_cabe": "Celebrações: domingo 7h30"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/regiao-iii/paroquia-sao-francisco-de-assis-dracena/",
+    "data": "2024-10-18",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/",
+    "data": "2026-06-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Página da paróquia no site da diocese editada em 2024-10; horários repetidos no buscador de missas da diocese (2026-06)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio de Sant'Anna Galvão",
+  "categoria": "paroquia",
+  "cidade": "Dracena",
+  "padroeiro": "Santo Antônio de Sant'Anna Galvão",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "18998232371",
+   "instagram": "",
+   "site": "",
+   "email": "freigalvaodracenasecretaria@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santo Antônio de Sant'Anna Galvão",
+    "tipo": "matriz",
+    "cidade": "Dracena",
+    "localidade": "Frei Moacir III",
+    "endereco": "Rua das Petúnias, 186",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Missa votiva todo dia 25 às 19h30."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora das Graças",
+    "tipo": "capela",
+    "cidade": "Dracena",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: sábado 18h; dia 27 às 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora do Perpétuo Socorro",
+    "tipo": "capela",
+    "cidade": "Dracena",
+    "localidade": "Jardim Vera Cruz",
+    "endereco": "Rua Virgílio Fioravanti, 500",
+    "horarios": [],
+    "nao_cabe": "Celebrações: quarta 15h; quinta 19h30; domingo 8h30; 1ª sexta 19h30; dia 27 às 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Pousada Bom Samaritano",
+    "tipo": "comunidade",
+    "cidade": "Dracena",
+    "localidade": "Bairro das Palmeiras",
+    "endereco": "Estrada Municipal Dracena a Junqueirópolis, s/n",
+    "horarios": [],
+    "nao_cabe": "Celebrações: domingo 10h30"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/regiao-iii/paroquia-santo-antonio-de-santana-galvao-dracena/",
+    "data": "2024-01-30",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/",
+    "data": "2026-06-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Criada em 31/10/2023, confiada aos Orionitas (FDP). Secretaria na Rua Virgílio Fioravante, 500. Página editada em 2024-01; horários repetidos no buscador da diocese (2026-06)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José",
+  "categoria": "paroquia",
+  "cidade": "Flora Rica",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "18997330919",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "stagenovevairapuru@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São José",
+    "tipo": "matriz",
+    "cidade": "Flora Rica",
+    "localidade": "",
+    "endereco": "Av. Prefeito Octaciano Pereira de Andrade, 315",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/regiao-iii/paroquia-sao-jose-flora-rica/",
+    "data": "2025-11-07",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/",
+    "data": "2026-06-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Atendida pela secretaria da Paróquia Santa Genoveva, de Irapuru (telefone e e-mail de lá). A página não traz missa de domingo."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Flórida Paulista",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "1835811364",
+   "whatsapp": "18997326748",
+   "instagram": "",
+   "site": "",
+   "email": "floridap.pnsap33@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Flórida Paulista",
+    "localidade": "Centro",
+    "endereco": "Av. Dirceu Rodrigues, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São João Batista",
+    "tipo": "capela",
+    "cidade": "Flórida Paulista",
+    "localidade": "Distrito de Indaiá do Aguapeí",
+    "endereco": "Av. 7 de Setembro, 314",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 2º domingo 7h; 4º sábado 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Francisco de Assis",
+    "tipo": "capela",
+    "cidade": "Flórida Paulista",
+    "localidade": "Distrito de Alto Iris",
+    "endereco": "Rua Pádua Salles, 131",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 1ª e 3ª quinta 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora das Graças",
+    "tipo": "capela",
+    "cidade": "Flórida Paulista",
+    "localidade": "",
+    "endereco": "Rua Professor Stélio Machado Loureiro, 620",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 1ª e 3ª terça 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Flórida Paulista",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 2ª quinta-feira 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Flórida Paulista",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 4ª terça-feira 19h30"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/regiao-iii/paroquia-nossa-senhora-aparecida-florida-paulista/",
+    "data": "2024-10-28",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/",
+    "data": "2026-06-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Página da paróquia no site da diocese editada em 2024-10; horários repetidos no buscador de missas da diocese (2026-06)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Genoveva",
+  "categoria": "paroquia",
+  "cidade": "Irapuru",
+  "padroeiro": "Santa Genoveva",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "18997330919",
+   "instagram": "",
+   "site": "",
+   "email": "stagenovevairapuru@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santa Genoveva",
+    "tipo": "matriz",
+    "cidade": "Irapuru",
+    "localidade": "",
+    "endereco": "Praça Santa Genoveva, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Rosa Mística",
+    "tipo": "capela",
+    "cidade": "Irapuru",
+    "localidade": "",
+    "endereco": "Rua Duque de Caxias, 485",
+    "horarios": [],
+    "nao_cabe": "Celebrações: domingo 7h"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Sebastião",
+    "tipo": "capela",
+    "cidade": "Irapuru",
+    "localidade": "Bairro Cafezinho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 2ª sexta-feira do mês 20h"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Irapuru",
+    "localidade": "Bairro Paturizinho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 3ª sexta-feira do mês 20h"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Irapuru",
+    "localidade": "Bairro Pureza",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 4ª sexta-feira do mês 20h"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Dulce Lopes Pontes",
+    "tipo": "comunidade",
+    "cidade": "Irapuru",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 1ª quinta-feira do mês 19h30"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/regiao-iii/paroquia-santa-genoveva-irapuru/",
+    "data": "2025-11-07",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/",
+    "data": "2026-06-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Junqueirópolis",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "1838411268",
+   "whatsapp": "18997148064",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiajunq@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Junqueirópolis",
+    "localidade": "Centro",
+    "endereco": "Av. Junqueira, 782",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Miguel Arcanjo",
+    "tipo": "capela",
+    "cidade": "Junqueirópolis",
+    "localidade": "",
+    "endereco": "Av. Campos Sales, 1036",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 4º sábado 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Sagrado Coração de Jesus",
+    "tipo": "capela",
+    "cidade": "Junqueirópolis",
+    "localidade": "",
+    "endereco": "Rua Liogi Iwaki, 735",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 3ª quinta 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Francisco",
+    "tipo": "capela",
+    "cidade": "Junqueirópolis",
+    "localidade": "",
+    "endereco": "Rua Bandeirantes, 2004",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 3º sábado 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São José",
+    "tipo": "capela",
+    "cidade": "Junqueirópolis",
+    "localidade": "",
+    "endereco": "Rua São Luiz, 74",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 1º sábado 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Junqueirópolis",
+    "localidade": "",
+    "endereco": "Rua Porto Alegre, 1748",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 2º sábado 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora das Graças",
+    "tipo": "capela",
+    "cidade": "Junqueirópolis",
+    "localidade": "Centro Comunitário do Bairro",
+    "endereco": "Rua São Salvador, s/n",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 1ª quinta 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Cristo Redentor",
+    "tipo": "capela",
+    "cidade": "Junqueirópolis",
+    "localidade": "",
+    "endereco": "Rua Rio de Janeiro, s/n",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 2ª sexta 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Junqueirópolis",
+    "localidade": "Bairro Duas Barras, zona rural",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 4ª quinta 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora de Fátima",
+    "tipo": "capela",
+    "cidade": "Junqueirópolis",
+    "localidade": "Zona rural",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 2ª quinta 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São João Batista",
+    "tipo": "capela",
+    "cidade": "Junqueirópolis",
+    "localidade": "Vila São João, zona rural",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 3ª sexta 19h30"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/regiao-iii/paroquia-santo-antonio-junqueiropolis/",
+    "data": "2025-05-21",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/",
+    "data": "2026-06-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Cecília",
+  "categoria": "paroquia",
+  "cidade": "Monte Castelo",
+  "padroeiro": "Santa Cecília",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "18997193137",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasantacecilia2011@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santa Cecília",
+    "tipo": "matriz",
+    "cidade": "Monte Castelo",
+    "localidade": "",
+    "endereco": "Av. Mons. José Maria Lemieux, 318",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Monte Castelo",
+    "localidade": "",
+    "endereco": "Av. Imaculada Ienny, s/n",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 3ª sexta 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Monte Castelo",
+    "localidade": "Bairro Gleba Seca",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 2ª sexta-feira 20h"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/regiao-iii/paroquia-santa-cecilia-monte-castelo/",
+    "data": "2025-11-05",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/",
+    "data": "2026-06-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Nova Guataporanga",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "18997890965",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiaguata@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Nova Guataporanga",
+    "localidade": "Centro",
+    "endereco": "Rua Porfírio José da Silva, 500",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": [
+       2,
+       3,
+       4,
+       5
+      ],
+      "observacao": "Exceto na 1ª quinta"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "09:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Nova Guataporanga",
+    "localidade": "",
+    "endereco": "Av. Cruzeiro do Sul, 286",
+    "horarios": [],
+    "nao_cabe": "Celebrações: domingo 8h; 1ª quinta 19h"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Rita",
+    "tipo": "capela",
+    "cidade": "Nova Guataporanga",
+    "localidade": "Centro",
+    "endereco": "Rua Tiradentes, 510",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 4ª terça-feira do mês 19h30"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/regiao-iii/paroquia-nossa-senhora-aparecida-nova-guataporanga/",
+    "data": "2024-01-30",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/",
+    "data": "2026-06-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Página editada em 2024-01; o buscador da diocese (2026-06) repete os horários, sem o 1º sábado às 9h. Outro e-mail publicado: paroquiaguata22@outlook.com."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Ouro Verde",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "1838721144",
+   "whatsapp": "18997367157",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiaouroverde@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Ouro Verde",
+    "localidade": "",
+    "endereco": "Av. São Paulo, 911",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São José",
+    "tipo": "capela",
+    "cidade": "Ouro Verde",
+    "localidade": "Nova Esperança",
+    "endereco": "Rua Iguaçu, 455",
+    "horarios": [],
+    "nao_cabe": "Celebrações: terça-feira 19h30"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/regiao-iii/paroquia-nossa-senhora-aparecida-ouro-verde/",
+    "data": "2025-11-07",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/",
+    "data": "2026-06-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora das Graças",
+  "categoria": "paroquia",
+  "cidade": "Pacaembu",
+  "padroeiro": "Nossa Senhora das Graças",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "18997171262",
+   "instagram": "",
+   "site": "",
+   "email": "paroquia.pacaembu@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora das Graças",
+    "tipo": "matriz",
+    "cidade": "Pacaembu",
+    "localidade": "",
+    "endereco": "Rua Dr. Paulo Antônio Ribeiro Fraga, 814",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/regiao-iii/paroquia-nossa-senhora-das-gracas-pacaembu/",
+    "data": "2025-11-06",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/",
+    "data": "2026-06-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José",
+  "categoria": "paroquia",
+  "cidade": "Panorama",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "18997517803",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasaojose1385@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São José",
+    "tipo": "matriz",
+    "cidade": "Panorama",
+    "localidade": "Centro",
+    "endereco": "Av. Prestes Maia, 1915",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São José",
+    "tipo": "capela",
+    "cidade": "Panorama",
+    "localidade": "Bairro Nosso Teto",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 2ª quarta 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Panorama",
+    "localidade": "Bairro Marrecas",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 3ª sexta 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Pedro",
+    "tipo": "capela",
+    "cidade": "Panorama",
+    "localidade": "Jardim Aeroporto",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 4ª sexta 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Benedito",
+    "tipo": "comunidade",
+    "cidade": "Panorama",
+    "localidade": "Bairro Areia Branca",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 4ª quarta 19h30, nas casas"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco de Assis",
+    "tipo": "comunidade",
+    "cidade": "Panorama",
+    "localidade": "Bairro Aldeia do Lago",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 2ª sexta 19h30, nas casas"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/regiao-iii/paroquia-sao-jose-panorama/",
+    "data": "2025-11-05",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/",
+    "data": "2026-06-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Pedro",
+  "categoria": "paroquia",
+  "cidade": "Paulicéia",
+  "padroeiro": "São Pedro",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "18997537839",
+   "instagram": "",
+   "site": "",
+   "email": "mdmsaopedro@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Pedro",
+    "tipo": "matriz",
+    "cidade": "Paulicéia",
+    "localidade": "",
+    "endereco": "Av. Fortunato Campante, 1230",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Judas Tadeu",
+    "tipo": "comunidade",
+    "cidade": "Paulicéia",
+    "localidade": "Buritis",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 3ª terça 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Maria Madalena",
+    "tipo": "comunidade",
+    "cidade": "Paulicéia",
+    "localidade": "Portal dos Dourados",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 1ª quinta 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Paulicéia",
+    "localidade": "Assentamento Santo Antônio",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 3ª sexta 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade do Assentamento Regência",
+    "tipo": "comunidade",
+    "cidade": "Paulicéia",
+    "localidade": "Assentamento Regência",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 4ª quinta 19h30"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/regiao-iii/paroquia-sao-pedro-pauliceia/",
+    "data": "2025-11-10",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/",
+    "data": "2026-06-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora das Mercês",
+  "categoria": "paroquia",
+  "cidade": "Santa Mercedes",
+  "padroeiro": "Nossa Senhora das Mercês",
+  "contatos": {
+   "telefone": "1838751314",
+   "whatsapp": "18997997388",
+   "instagram": "",
+   "site": "",
+   "email": "nsmercesparoquia@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora das Mercês",
+    "tipo": "matriz",
+    "cidade": "Santa Mercedes",
+    "localidade": "Centro",
+    "endereco": "Av. Brasil, 805",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/regiao-iii/paroquia-nossa-senhora-das-merces-santa-mercedes/",
+    "data": "2024-01-30",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/",
+    "data": "2026-06-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Página editada em 2024-01; horários repetidos no buscador da diocese (2026-06). Não traz missa de domingo."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "São João do Pau d'Alho",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "18996373448",
+   "instagram": "",
+   "site": "",
+   "email": "sjbatista58@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São João Batista",
+    "tipo": "matriz",
+    "cidade": "São João do Pau d'Alho",
+    "localidade": "",
+    "endereco": "Rua José Antônio Sanches, 306",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/regiao-iii/paroquia-sao-joao-batista-sao-joao-do-pau-dalho/",
+    "data": "2026-01-27",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/",
+    "data": "2026-06-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "A página só traz quarta e sábado; não há missa de domingo publicada."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Glória",
+  "categoria": "paroquia",
+  "cidade": "Tupi Paulista",
+  "padroeiro": "Nossa Senhora da Glória",
+  "contatos": {
+   "telefone": "1838511163",
+   "whatsapp": "18997222866",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiadetupi@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora da Glória",
+    "tipo": "matriz",
+    "cidade": "Tupi Paulista",
+    "localidade": "Centro",
+    "endereco": "Av. Senador Piza, 750",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Terezinha do Menino Jesus",
+    "tipo": "capela",
+    "cidade": "Tupi Paulista",
+    "localidade": "Bairro Tabajarinha",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 2ª quinta 20h"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Pedro",
+    "tipo": "capela",
+    "cidade": "Tupi Paulista",
+    "localidade": "Bairro São Bento",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 4ª quinta 20h"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santo Expedito",
+    "tipo": "capela",
+    "cidade": "Tupi Paulista",
+    "localidade": "Bairro Guaraciaba",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 2ª sexta 20h"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Luzia",
+    "tipo": "capela",
+    "cidade": "Tupi Paulista",
+    "localidade": "Bairro Jatobá",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 2ª sexta 20h"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora do Perpétuo Socorro",
+    "tipo": "capela",
+    "cidade": "Tupi Paulista",
+    "localidade": "Bairro Santa Amélia",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 3ª sexta 20h"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora de Fátima",
+    "tipo": "capela",
+    "cidade": "Tupi Paulista",
+    "localidade": "Bairro Barro Preto",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 3ª sexta 20h"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Tupi Paulista",
+    "localidade": "Bairro Bandeirantes",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 4ª sexta-feira 20h"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Sagrado Coração de Jesus",
+    "tipo": "capela",
+    "cidade": "Tupi Paulista",
+    "localidade": "Distrito de Oásis",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 4ª terça-feira 20h"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Tupi Paulista",
+    "localidade": "",
+    "endereco": "Rua Pres. Venceslau Brás, 340",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 1º sábado 19h"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Rita de Cássia",
+    "tipo": "capela",
+    "cidade": "Tupi Paulista",
+    "localidade": "",
+    "endereco": "Av. São Paulo, 206",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 2º sábado 19h"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São José",
+    "tipo": "capela",
+    "cidade": "Tupi Paulista",
+    "localidade": "",
+    "endereco": "Av. Dona Benedita Camargo, 1587",
+    "horarios": [],
+    "nao_cabe": "Celebrações: 3º sábado 19h"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Tupi Paulista",
+    "localidade": "",
+    "endereco": "Rua Tiradentes, 1117",
+    "horarios": [],
+    "nao_cabe": "Celebrações: domingo 7h30"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/regiao-iii/paroquia-nossa-senhora-da-gloria-tupi-paulista/",
+    "data": "2024-10-23",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedemarilia.com.br/paroquias/",
+    "data": "2026-06-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Página da paróquia no site da diocese editada em 2024-10; horários repetidos no buscador de missas da diocese (2026-06)."
+ }
+]
