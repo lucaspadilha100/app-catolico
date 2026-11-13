@@ -27,7 +27,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "ISA 11:1-5" },
         {
           texto:
-            "Isaías vê uma vara sair do tronco de Jessé, o pai de Davi: da família real, que parecia cortada, Deus faria brotar o Salvador. Antigos escritores cristãos viram nessa vara a Virgem Maria e, na flor que brota dela, o Cristo. Sobre ele repousa o Espírito do Senhor com os seus dons, os mesmos que o Espírito dá aos fiéis (CIC 1831).",
+            "Isaías vê uma vara sair do tronco de Jessé, o pai de Davi: da família real, que parecia cortada, Deus faria brotar o Salvador. Sobre ele repousa o Espírito do Senhor com os seus dons, os mesmos que o Espírito dá aos fiéis (CIC 1831).",
         },
         {
           pratica:
@@ -70,7 +70,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "ISA 40:1-5" },
         {
           texto:
-            "Consolai o meu povo: a promessa de Deus começa com uma palavra de ternura. A voz que clama no deserto pede que se endireitem os caminhos, e esse caminho passa dentro de nós, pela conversão. Maria, sempre fiel, foi o caminho pelo qual o Filho de Deus chegou até nós.",
+            "Consolai o meu povo: a promessa de Deus começa com uma palavra de ternura. A voz que clama no deserto pede que se endireitem os caminhos, e esse caminho passa dentro de nós, pela conversão. Foi de Maria que o Filho de Deus, na plenitude dos tempos, recebeu a nossa natureza (CIC 488; Gl 4,4).",
         },
         {
           pratica:
@@ -98,7 +98,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "MIC 5:1-3" },
         {
           texto:
-            "Belém era pequena entre as cidades de Judá, e foi a escolhida para o nascimento do Rei pastor. O profeta fala daquela que há de dar à luz: a Igreja reconhece nela a Virgem Maria. Deus gosta de começar pelo que é pequeno.",
+            "Belém era pequena entre as cidades de Judá, e foi a escolhida para o nascimento do Rei pastor. O profeta fala daquela que há de dar à luz, e a Igreja reconhece nela a Virgem Maria (Lumen Gentium 55). Deus gosta de começar pelo que é pequeno.",
         },
         {
           pratica:
@@ -113,7 +113,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "PSA 85:9-14", poema: true },
         {
           texto:
-            "No salmo, a misericórdia e a verdade se encontram, e a verdade brota da terra. Muitos cristãos leram nestas palavras a vinda de Cristo, a Verdade que nasceu da nossa terra pelo sim de Maria. A Igreja continua a preparar o caminho do Senhor.",
+            "No salmo, a misericórdia e a verdade se encontram, e a verdade brota da terra. Santo Agostinho, comentando este salmo, ensina: a verdade brotou da terra porque Cristo nasceu de uma mulher; a Verdade nasceu da Virgem Maria (Comentário ao Salmo 84, 13). A Igreja continua a preparar o caminho do Senhor.",
         },
         {
           pratica:
@@ -156,7 +156,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "ZEP 3:14-17" },
         {
           texto:
-            "Alegra-te, filha de Sião: o Senhor está no meio de ti. A Igreja chama Maria de excelsa filha de Sião, com quem se cumpre a longa espera da promessa (CIC 489). Neste tempo celebramos também a Imaculada Conceição, a 8 de dezembro: Maria foi preservada de todo pecado desde o primeiro instante da sua vida (CIC 491).",
+            "Alegra-te, filha de Sião: o Senhor está no meio de ti. A Igreja chama Maria de excelsa filha de Sião, com quem se cumpre a longa espera da promessa (CIC 489; Lumen Gentium 55). Neste tempo celebramos também a Imaculada Conceição, a 8 de dezembro: Maria foi preservada intacta de toda mancha do pecado original desde o primeiro instante da sua conceição (CIC 491).",
         },
         {
           pratica:
@@ -228,7 +228,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "NUM 24:15-17" },
         {
           texto:
-            "Balaão, um estrangeiro, vê de longe uma estrela que nasce de Jacó. Muitos séculos depois, os magos do Oriente seguiriam uma estrela até Belém (Mt 2,2). Na Ladainha, a Igreja chama Maria de Estrela da manhã, porque ela aparece antes do sol e conduz até o seu Filho.",
+            "Balaão, um estrangeiro, vê de longe uma estrela que nasce de Jacó. Muitos séculos depois, os magos do Oriente seguiriam uma estrela até Belém (Mt 2,2). Na Ladainha, a Igreja chama Maria de Estrela da manhã.",
         },
         {
           pratica:
@@ -243,7 +243,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "ISA 61:10-11" },
         {
           texto:
-            "Eu me alegrarei no Senhor, e a minha alma exultará no meu Deus: as palavras de Isaías parecem anunciar o canto de Maria no Magnificat. Deus a vestiu com as vestes da salvação, cheia de graça desde o início. Como a terra faz brotar a semente, o Senhor fará brotar a justiça diante das nações.",
+            "Eu me alegrarei no Senhor, e a minha alma exultará no meu Deus: com estas palavras de Isaías começa a missa da Imaculada Conceição. A Igreja as canta de Maria, que Deus vestiu com as vestes da salvação, cheia de graça desde a sua conceição (CIC 490-491). Como a terra faz brotar a semente, o Senhor fará brotar a justiça diante das nações.",
         },
         {
           pratica:
@@ -257,7 +257,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "ISA 45:8" },
         {
           texto:
-            "Derramai, ó céus, o vosso orvalho, e as nuvens façam chover o Justo. Este versículo, em latim Rorate caeli, é cantado há séculos no Advento. A terra que se abre para que brote o Salvador lembra Maria, que acolheu em si o Filho de Deus.",
+            "Derramai, ó céus, o vosso orvalho, e as nuvens façam chover o Justo. Este versículo, em latim Rorate caeli, é cantado há séculos no Advento. O Salvador que a terra devia fazer brotar nasceu da Virgem Maria.",
         },
         {
           pratica:

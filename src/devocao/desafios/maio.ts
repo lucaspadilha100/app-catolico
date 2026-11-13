@@ -56,7 +56,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "LUK 1:26-33" },
         {
           texto:
-            "O anjo não chama Maria pelo nome: chama-a cheia de graça, porque é isso que ela é diante de Deus (CIC 490). Tudo nela vem do amor gratuito de Deus, e nada do mérito próprio. Também em nós a graça de Deus quer fazer morada, se lhe abrirmos o coração.",
+            "O anjo não chama Maria pelo nome: chama-a cheia de graça, porque é isso que ela é diante de Deus (CIC 490). Toda a sua santidade lhe vem de Cristo (CIC 492). Também em nós a graça de Deus quer fazer morada, se lhe abrirmos o coração.",
         },
         { pratica: "Reze devagar uma Ave-Maria, pensando em cada palavra da saudação do anjo." },
       ],
@@ -102,7 +102,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "LUK 2:1-7" },
         {
           texto:
-            "Grávida, Maria faz com José a longa viagem até Belém, obedecendo a uma ordem do imperador. Lá não encontram lugar, e o Filho de Deus nasce numa manjedoura. Maria aceita a pobreza sem queixa e nos ensina a confiar em Deus quando as coisas não saem como planejamos.",
+            "Grávida, Maria faz com José a longa viagem até Belém, obedecendo a uma ordem do imperador. Lá não encontram lugar, e o Filho de Deus nasce numa manjedoura. Maria acolhe o Filho na pobreza e nos ensina a confiar em Deus quando as coisas não saem como planejamos.",
         },
         { pratica: "Faça hoje uma doação ou um gesto concreto para uma família que passa necessidade." },
       ],
@@ -113,7 +113,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "LUK 2:15-20" },
         {
           texto:
-            "Os pastores falam, todos se admiram, e Maria guarda tudo e medita no fundo do coração. Ela não entende tudo de uma vez, mas não deixa que nada se perca. Assim é o Rosário: olhar com Maria a vida de Jesus e deixar que ela fale ao nosso coração (CIC 2678).",
+            "Os pastores falam, todos se admiram, e Maria guarda tudo e medita no fundo do coração. Ela não entende tudo de uma vez, mas não deixa que nada se perca. Assim é o Rosário, que a piedade do Ocidente propagou (CIC 2678): rezá-lo é contemplar com Maria o rosto de Cristo, como ensinou São João Paulo II (Rosarium Virginis Mariae 3).",
         },
         { pratica: "Desligue a televisão e o celular por quinze minutos e fique em silêncio diante de Deus." },
         { ir: "/rezar/terco", rotulo: "Rezar o terço" },
@@ -147,7 +147,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "MAT 11:25-27" },
         {
           texto:
-            "No dia 13 de maio de 1917, em Fátima, Portugal, Nossa Senhora apareceu a três crianças pastoras: Lúcia, Francisco e Jacinta. Nas aparições, que se repetiram até outubro daquele ano, pediu oração, penitência pela conversão dos pecadores e o terço rezado todos os dias pela paz. Francisco e Jacinta foram canonizados em Fátima, no dia 13 de maio de 2017.",
+            "No dia 13 de maio de 1917, em Fátima, Portugal, Nossa Senhora apareceu a três crianças pastoras: Lúcia, Francisco e Jacinta. Nas aparições, que se repetiram até outubro daquele ano e foram reconhecidas pelo bispo de Leiria em 1930, segundo o relato dos videntes pediu oração, penitência pela conversão dos pecadores e o terço rezado todos os dias pela paz. Francisco e Jacinta foram canonizados em Fátima, no dia 13 de maio de 2017.",
         },
         { pratica: "Reze hoje o terço pela paz no mundo e ofereça um pequeno sacrifício pela conversão de alguém." },
         { rezar: "fatima" },
@@ -182,7 +182,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "LUK 2:51-52; COL 3:12-15" },
         {
           texto:
-            "Durante muitos anos, Jesus viveu em Nazaré, obediente a Maria e a José, no trabalho e na oração de cada dia. A santidade de Maria cresceu na rotina simples de uma casa. Também a nossa casa pode ser lugar de paciência, de perdão e de paz.",
+            "Durante muitos anos, Jesus viveu em Nazaré, obediente a Maria e a José, no trabalho e na oração de cada dia. Maria viveu a sua santidade na vida simples de uma casa. Também a nossa casa pode ser lugar de paciência, de perdão e de paz.",
         },
         { pratica: "Faça hoje em casa um serviço que normalmente fica para outra pessoa, sem esperar agradecimento." },
       ],
@@ -193,7 +193,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "JHN 2:1-11" },
         {
           texto:
-            "Em Caná, Maria percebe a necessidade dos noivos antes que eles peçam. Ela leva a necessidade a Jesus e diz aos que servem: fazei tudo o que ele vos disser. É o conselho de Mãe que ela dá a cada um de nós, e que resume toda a devoção a Nossa Senhora.",
+            "Em Caná, Maria percebe a necessidade dos noivos antes que eles peçam. Ela leva a necessidade ao Filho, intercedendo na fé (CIC 2618), e diz aos que servem: fazei tudo o que ele vos disser.",
         },
         { pratica: "Leve a Maria uma necessidade concreta da sua família e procure ver o que Jesus pede de você nela." },
         { rezar: "lembrai-vos" },
@@ -205,7 +205,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "LUK 8:19-21; 11:27-28" },
         {
           texto:
-            "Jesus não diminui a sua Mãe: mostra onde está a sua maior grandeza. Antes de conceber o Filho no ventre, Maria o acolheu pela fé, ouvindo e guardando a palavra de Deus. Por isso ela é modelo de fé e de caridade para toda a Igreja (CIC 967). Os irmãos de que fala o Evangelho são parentes próximos de Jesus, no modo de falar daquele tempo (CIC 500).",
+            "Jesus não diminui a sua Mãe: mostra onde está a sua maior grandeza. Maria acolheu pela fé a palavra de Deus, e Santo Agostinho diz que ela foi mais feliz por receber a fé de Cristo do que por conceber a carne de Cristo (CIC 506). Por isso ela é modelo de fé e de caridade para toda a Igreja (CIC 967). Os irmãos de que fala o Evangelho são parentes próximos de Jesus, no modo de falar daquele tempo (CIC 500).",
         },
         { pratica: "Leia hoje o Evangelho do dia e guarde uma frase para meditar até a noite." },
         { ir: "liturgia", rotulo: "Liturgia do dia" },
@@ -311,7 +311,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "MAT 5:1-9" },
         {
           texto:
-            "Os limpos de coração verão a Deus. Maria viveu as bem-aventuranças antes de Jesus pregá-las: pobre, mansa, misericordiosa e pura. Pureza de coração é querer só o que Deus quer, nas palavras, nos olhares e nas intenções.",
+            "Os limpos de coração verão a Deus. Maria, preservada de todo pecado, é para a Igreja modelo da fé e da caridade (CIC 967). Os puros de coração são os que põem a inteligência e a vontade de acordo com a santidade de Deus, na caridade, na castidade e no amor da verdade (CIC 2518).",
         },
         { pratica: "Evite hoje uma conversa maldosa, uma imagem ou uma leitura que não fazem bem à alma." },
       ],
@@ -322,7 +322,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "1JN 4:7-12" },
         {
           texto:
-            "Quem conhece Maria vê que o seu amor a Deus se tornava cuidado com as pessoas: com Isabel, com os noivos de Caná, com os apóstolos. Deus é amor, e quem ama permanece nele. A caridade é a virtude que Maria mais deseja ver nos seus filhos.",
+            "Quem conhece Maria vê que o seu amor a Deus se tornava cuidado com as pessoas: com Isabel, com os noivos de Caná, com os apóstolos. Deus é amor, e quem ama permanece nele. Das virtudes, a maior é a caridade (1Cor 13,13).",
         },
         { pratica: "Procure hoje alguém com quem você está brigado e dê o primeiro passo para a paz." },
       ],

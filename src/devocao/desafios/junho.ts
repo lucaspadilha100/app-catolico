@@ -9,7 +9,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "MAT 11:28-30" },
         {
           texto:
-            "A piedade católica dedica o mês de junho ao Sagrado Coração de Jesus. Não veneramos apenas um órgão do corpo, mas a pessoa do Filho de Deus, que nos amou com um coração humano (CIC 478). A festa do Sagrado Coração cai numa sexta-feira depois de Corpus Christi e por isso muda de data a cada ano. Jesus mesmo nos convida a ir até ele com o nosso cansaço e a aprender da sua mansidão.",
+            "A piedade católica dedica o mês de junho ao Sagrado Coração de Jesus. Não veneramos apenas um órgão do corpo, mas a pessoa do Filho de Deus, que nos amou com um coração humano (CIC 478). A solenidade do Sagrado Coração cai na sexta-feira depois do segundo domingo após Pentecostes e por isso muda de data a cada ano. Jesus mesmo nos convida a ir até ele com o nosso cansaço e a aprender da sua mansidão.",
         },
         {
           pratica:
@@ -71,7 +71,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "JHN 19:31-37" },
         {
           texto:
-            "Na cruz, o soldado abre com a lança o lado de Jesus, e dele saem sangue e água. A Igreja vê nesse sangue e nessa água os sinais do Batismo e da Eucaristia, que nascem do Coração do Salvador (CIC 1225). Olhar para aquele a quem traspassaram é olhar para um amor que foi até o fim.",
+            "Na cruz, o soldado abre com a lança o lado de Jesus, e dele saem sangue e água. A Igreja vê nesse sangue e nessa água figuras do Batismo e da Eucaristia, sacramentos da vida nova (CIC 1225). Olhar para aquele a quem traspassaram é olhar para um amor que foi até o fim.",
         },
         { pratica: "Diante de um crucifixo, fique alguns minutos em silêncio, olhando para as chagas de Jesus, e agradeça." },
       ],
@@ -147,7 +147,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "PHP 2:5-8" },
         {
           texto:
-            "O Coração de Jesus é humilde: sendo Deus, fez-se servo e obedeceu até a cruz. A humildade não é pensar mal de si, mas não se colocar acima dos outros. Ter os mesmos sentimentos de Cristo é escolher, nas pequenas coisas, o lugar de quem serve.",
+            "O Coração de Jesus é humilde: sendo Deus, fez-se servo e obedeceu até a cruz. São Paulo pede que, com humildade, cada um considere os outros superiores a si mesmo (Fl 2,3). Ter os mesmos sentimentos de Cristo é escolher, nas pequenas coisas, o lugar de quem serve.",
         },
         { pratica: "Faça hoje um serviço escondido em casa, sem esperar que alguém perceba ou agradeça." },
       ],
@@ -266,7 +266,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "COL 3:12-17" },
         {
           texto:
-            "A Igreja chama a família de igreja doméstica, porque é em casa que se aprende a rezar, a perdoar e a servir (CIC 1656-1657). São Paulo pede paciência, perdão e gratidão, virtudes de todos os dias. Um lar consagrado ao Sagrado Coração procura viver assim.",
+            "A Igreja chama a família de igreja doméstica, e o lar é a primeira escola de vida cristã, onde se aprende o perdão generoso e, sobretudo, a oração (CIC 1656-1657). São Paulo pede paciência, perdão e gratidão, virtudes de todos os dias. Um lar consagrado ao Sagrado Coração procura viver assim.",
         },
         { pratica: "Reze hoje com a sua família, nem que seja um Pai-Nosso antes da refeição." },
       ],

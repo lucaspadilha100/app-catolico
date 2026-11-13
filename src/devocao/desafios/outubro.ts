@@ -169,7 +169,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "LUK 4:16-21" },
         {
           texto:
-            "Jesus anuncia a boa notícia aos pobres e chama todos à conversão. No dia 13 de outubro de 1917, na última aparição de Fátima, Nossa Senhora disse aos três pastorinhos que era a Senhora do Rosário e pediu de novo a oração e a conversão. Contemplemos este mistério pedindo um coração que se converte todos os dias.",
+            "Jesus anuncia a boa notícia aos pobres e chama todos à conversão. No dia 13 de outubro de 1917, na última aparição de Fátima, segundo o relato de Lúcia, Nossa Senhora disse aos três pastorinhos que era a Senhora do Rosário e pediu de novo a oração e a conversão. Contemplemos este mistério pedindo um coração que se converte todos os dias.",
         },
         { pratica: "Escolha um defeito concreto e faça hoje um esforço para vencê-lo." },
         { rezar: "fatima" },
@@ -195,7 +195,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "LUK 10:38-42" },
         {
           texto:
-            "Santa Teresa de Jesus, de Ávila, na Espanha, reformou o Carmelo no século XVI e foi a primeira mulher proclamada Doutora da Igreja, em 1970. Ela ensinava que rezar é conversar como amigo com aquele que sabemos que nos ama. Como Maria de Betânia, escolheu a melhor parte: estar com o Senhor.",
+            "Santa Teresa de Jesus, de Ávila, na Espanha, reformou o Carmelo no século XVI e foi a primeira mulher proclamada Doutora da Igreja, em 1970. Ela ensinava que a oração mental é tratar de amizade, muitas vezes a sós, com quem sabemos que nos ama (CIC 2709). Como Maria de Betânia, escolheu a melhor parte: estar com o Senhor.",
         },
         { pratica: "Reze hoje o terço devagar, falando com Jesus e Maria como se fala com um amigo." },
         terco,
@@ -207,7 +207,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "1CO 11:23-26" },
         {
           texto:
-            "Na noite em que foi entregue, Jesus deu aos apóstolos o seu Corpo e o seu Sangue e mandou que fizessem isso em sua memória. A Eucaristia é fonte e ápice de toda a vida cristã (CIC 1324). Maria, a primeira a receber Jesus, nos ensina a recebê-lo com fé e amor.",
+            "Na noite em que foi entregue, Jesus deu aos apóstolos o seu Corpo e o seu Sangue e mandou que fizessem isso em sua memória. A Eucaristia é fonte e ápice de toda a vida cristã (CIC 1324). Maria, que primeiro acolheu Jesus no seu seio, nos ensina a recebê-lo com fé e amor.",
         },
         { pratica: "Participe de uma Missa durante a semana ou faça hoje uma comunhão espiritual." },
         { rezar: "comunhao-espiritual" },
@@ -270,7 +270,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "JHN 19:25-30" },
         {
           texto:
-            "Jesus morre na cruz, e Maria está de pé junto dele. Antes de entregar o espírito, ele nos dá a sua Mãe como nossa Mãe. Ao pé da cruz aprendemos o tamanho do amor de Deus por nós.",
+            "Jesus morre na cruz, e Maria está de pé junto dele. Antes de entregar o espírito, ele dá a sua Mãe por mãe ao discípulo amado (CIC 964), e a maternidade dela se estende a todos nós (CIC 501). Ao pé da cruz aprendemos o tamanho do amor de Deus por nós.",
         },
         { pratica: "Às três da tarde, pare um instante e agradeça a Jesus pela sua morte por nós." },
         novenaDeSaoJudas,
@@ -283,7 +283,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "MAT 14:26-31" },
         {
           texto:
-            "No dia 22 de outubro de 1978, ao começar o seu pontificado, São João Paulo II pediu ao mundo que não tivesse medo e abrisse as portas a Cristo. Ele chamava o Rosário de sua oração predileta, e foi ele quem nos deu os mistérios luminosos. Como Pedro sobre as águas, pedimos a Jesus que nos segure pela mão.",
+            "No dia 22 de outubro de 1978, ao começar o seu pontificado, São João Paulo II pediu ao mundo que não tivesse medo e abrisse as portas a Cristo. Poucos dias depois, chamou o Rosário de sua oração predileta (Rosarium Virginis Mariae 2), e foi ele quem nos deu os mistérios luminosos. Como Pedro sobre as águas, pedimos a Jesus que nos segure pela mão.",
         },
         { pratica: "Entregue hoje a Jesus um medo que tira a sua paz e reze por ele em cada dezena do terço." },
         novenaDeSaoJudas,
@@ -350,7 +350,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "REV 12:1-6" },
         {
           texto:
-            "Maria é coroada Rainha do céu e da terra, unida ao seu Filho na glória (CIC 966). A Igreja vê nela a mulher vestida de sol, mãe que protege os seus filhos nas lutas desta vida. Terminamos os vinte mistérios entregando-nos às suas mãos de Mãe e Rainha.",
+            "Maria é coroada Rainha do céu e da terra, unida ao seu Filho na glória (CIC 966). A Igreja vê nela a Mulher do Apocalipse, a nova Eva, que o inimigo perseguiu sem a alcançar (CIC 2853). Terminamos os vinte mistérios entregando-nos às suas mãos de Mãe e Rainha.",
         },
         { pratica: "Reze hoje a Salve-Rainha com calma e escolha uma virtude de Maria para imitar nesta semana." },
         { rezar: "salve-rainha" },

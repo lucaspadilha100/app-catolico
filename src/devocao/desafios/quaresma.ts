@@ -17,7 +17,7 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           pratica:
-            "Hoje é dia de jejum e abstinência de carne (cân. 1251). O jejum obriga dos 18 aos 59 anos completos, e a abstinência a partir dos 14 (cân. 1252); quem está doente não está obrigado. Escolha também uma coisa simples que você vai oferecer a Deus durante toda a Quaresma.",
+            "Hoje é dia de jejum e abstinência (cân. 1251). O jejum obriga os maiores de idade, isto é, de dezoito anos completos (cân. 97), até começarem os sessenta anos, e a abstinência, os que completaram catorze anos (cân. 1252); o modo de guardá-los segue as normas da CNBB (cân. 1253), e o pároco pode dispensar por causa justa (cân. 1245). Escolha também uma coisa simples que você vai oferecer a Deus durante toda a Quaresma.",
         },
       ],
     },
@@ -41,11 +41,11 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "ISA 58:6-9" },
         {
           texto:
-            "O jejum que agrada a Deus não fica no estômago: ele abre as mãos para quem tem fome. Toda sexta-feira a Igreja faz memória da morte do Senhor com penitência, e na Quaresma esse costume ganha mais força (CIC 1438). Privar-se de algo só tem sentido quando nos torna mais livres para amar.",
+            "O jejum que agrada a Deus não fica no estômago: ele abre as mãos para quem tem fome. A Quaresma e cada sexta-feira, em memória da morte do Senhor, são tempos fortes de penitência na Igreja (CIC 1438; cân. 1250). Privar-se de algo só tem sentido quando nos torna mais livres para amar.",
         },
         {
           pratica:
-            "Hoje, fique sem carne, abra mão de algo de que gosta e reserve o que economizar para dar a quem precisa.",
+            "Hoje, guarde a abstinência das sextas-feiras (cân. 1251), conforme as normas da CNBB, abra mão de algo de que gosta e reserve o que economizar para dar a quem precisa.",
         },
         viaSacra,
       ],
@@ -199,7 +199,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "ISA 1:16-18" },
         {
           texto:
-            "Ainda que os nossos pecados sejam vermelhos como o escarlate, Deus pode deixá-los brancos como a neve. Ele não nos pede perfeição, mas que deixemos o mal e aprendamos a fazer o bem. A língua é um dos primeiros lugares onde essa mudança se mostra.",
+            "Ainda que os nossos pecados sejam vermelhos como o escarlate, Deus pode deixá-los brancos como a neve. Ele nos pede que deixemos o mal e aprendamos a fazer o bem. A língua é um dos primeiros lugares onde essa mudança se mostra.",
         },
         {
           pratica:
@@ -227,7 +227,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "LUK 16:19-25" },
         {
           texto:
-            "O rico não fez mal a Lázaro: apenas não o viu, todos os dias, à sua porta. A indiferença é um pecado silencioso. As obras de misericórdia nos ensinam a ver quem está perto de nós (CIC 2447).",
+            "O rico deixou o pobre Lázaro, todos os dias, à sua porta sem socorro. O Senhor nos adverte de que seremos separados dele se descuidarmos das necessidades graves dos pobres (CIC 1033). As obras de misericórdia nos ensinam a socorrer o próximo nas suas necessidades (CIC 2447).",
         },
         {
           pratica:
@@ -369,7 +369,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "ISA 66:10-13" },
         {
           texto:
-            "Este domingo é chamado de domingo da alegria, e em muitas igrejas o padre usa a cor rosa. Passamos da metade do caminho, e a Páscoa já se deixa ver. A penitência cristã não é tristeza: é preparação para uma alegria maior.",
+            "Este domingo é chamado de domingo da alegria, e nele o padre pode usar a cor rosa. Passamos da metade do caminho, e a Páscoa já se deixa ver. A penitência cristã não é tristeza: é preparação para uma alegria maior.",
         },
         liturgia,
         {
@@ -411,7 +411,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "JHN 20:19-23" },
         {
           texto:
-            "Só Deus perdoa os pecados, e Jesus ressuscitado deu aos apóstolos o poder de perdoar em seu nome (CIC 1441 e 1442). Na confissão é ele mesmo quem nos absolve pela voz do sacerdote. Quem tem pecados graves deve confessá-los ao menos uma vez por ano (CIC 1457), e a Páscoa é o tempo próprio para isso.",
+            "Só Deus perdoa os pecados, e Jesus ressuscitado deu aos apóstolos o poder de perdoar em seu nome (CIC 1441 e 1442). Na confissão é ele mesmo quem nos absolve pela voz do sacerdote. Quem tem pecados graves deve confessá-los ao menos uma vez por ano (CIC 1457), e a Igreja pede a comunhão ao menos uma vez por ano, se possível no tempo pascal, preparada pela Reconciliação (CIC 1389).",
         },
         {
           pratica:
@@ -644,13 +644,13 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "JHN 19:25-30" },
         {
           texto:
-            "Junto da cruz estão Maria e o discípulo amado. Jesus entrega a sua mãe a nós, diz que tudo está cumprido e entrega o espírito. Hoje não há missa: a Igreja celebra a Paixão do Senhor e adora a cruz.",
+            "Junto da cruz estão Maria e o discípulo amado. Jesus dá a sua mãe por mãe ao discípulo (CIC 964), diz que tudo está cumprido e entrega o espírito. Hoje não há missa: a Igreja celebra a Paixão do Senhor e adora a cruz.",
         },
         semanaSanta,
         viaSacra,
         {
           pratica:
-            "Hoje é dia de jejum e abstinência de carne (cân. 1251), com as mesmas idades da Quarta-feira de Cinzas. Participe da celebração da Paixão e guarde silêncio às três horas da tarde.",
+            "Hoje é dia de jejum e abstinência (cân. 1251), com as mesmas idades e as mesmas normas da Quarta-feira de Cinzas. Participe da celebração da Paixão e, como é costume, guarde silêncio às três horas da tarde.",
         },
       ],
     },

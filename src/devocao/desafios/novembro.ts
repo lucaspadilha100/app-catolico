@@ -66,7 +66,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "2MA 12:43-46" },
         {
           texto:
-            "Judas Macabeu mandou oferecer um sacrifício pelos que tinham morrido, para que fossem livres dos seus pecados. A Igreja vê nesse trecho o testemunho antigo da oração pelos mortos (CIC 1032). Rezar pelos vivos e pelos mortos é uma obra de misericórdia, e a maior ajuda que podemos oferecer é a Missa.",
+            "Judas Macabeu mandou oferecer um sacrifício pelos que tinham morrido, para que fossem livres dos seus pecados. A Igreja vê nesse trecho o testemunho antigo da oração pelos mortos (CIC 1032). Rezar a Deus pelos vivos e defuntos é uma das obras de misericórdia espirituais (Compêndio do Catecismo, apêndice), e a Igreja recomenda sobretudo o sacrifício eucarístico pelos mortos (CIC 1032).",
         },
         indulgencia,
         {
@@ -192,7 +192,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "ROM 8:9-11" },
         {
           texto:
-            "O corpo do cristão foi templo do Espírito Santo e está destinado à ressurreição. Por isso a Igreja pede respeito aos corpos dos falecidos e recomenda o sepultamento (CIC 2300-2301). A cremação é permitida quando não nega a fé na ressurreição, e as cinzas devem ser guardadas em lugar sagrado.",
+            "O corpo do cristão foi templo do Espírito Santo e está destinado à ressurreição. Por isso os corpos dos falecidos devem ser tratados com respeito, e enterrar os mortos é obra de misericórdia (CIC 2300). A Igreja recomenda insistentemente o sepultamento; permite a cremação quando ela não põe em causa a fé na ressurreição (CIC 2301), e as cinzas devem ser conservadas em lugar sagrado (Ad resurgendum cum Christo 3 e 5).",
         },
         {
           pratica:
@@ -236,7 +236,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "LUK 16:19-26" },
         {
           texto:
-            "Logo depois da morte, cada pessoa recebe de Deus a retribuição da sua vida, num juízo particular (CIC 1021-1022). O rico da parábola não se perdeu por ser rico, mas por não enxergar o pobre à sua porta. O Catecismo lembra a palavra de São João da Cruz: no fim da vida, seremos julgados pelo amor.",
+            "Logo depois da morte, cada pessoa recebe de Deus a retribuição da sua vida, num juízo particular (CIC 1021-1022). O rico da parábola deixou o pobre sem socorro à sua porta, e o Senhor nos adverte de que seremos separados dele se descuidarmos das necessidades graves dos pobres (CIC 1033). O Catecismo lembra a palavra de São João da Cruz: ao entardecer desta vida, seremos examinados no amor (CIC 1022).",
         },
         {
           pratica:
@@ -294,7 +294,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "REV 21:1-5" },
         {
           texto:
-            "No fim dos tempos, o Reino de Deus chegará à sua plenitude, e o próprio universo será renovado (CIC 1042-1043). Deus enxugará todas as lágrimas, e não haverá mais morte nem dor. O bem feito com amor nesta vida não se perde.",
+            "No fim dos tempos, o Reino de Deus chegará à sua plenitude, e o próprio universo será renovado (CIC 1042-1043). Deus enxugará todas as lágrimas, e não haverá mais morte nem dor. Os bons frutos do nosso esforço, feitos no Espírito do Senhor, serão encontrados de novo, purificados e transfigurados (CIC 1050).",
         },
         {
           pratica: "Faça hoje algo que deixe o mundo um pouco melhor: limpe, plante, conserte ou ajude alguém.",
@@ -433,7 +433,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "JAS 5:13-16" },
         {
           texto:
-            "Na doença grave e na velhice, a Igreja oferece a Unção dos Enfermos, que fortalece, consola e perdoa (CIC 1520). A quem está para partir, dá a Eucaristia como viático, o alimento para a passagem (CIC 1524). Não é preciso esperar o último momento para chamar o padre.",
+            "Na doença grave e na velhice, a Igreja oferece a Unção dos Enfermos, que dá reconforto, paz e coragem e perdoa os pecados (CIC 1520). A quem está para partir, dá a Eucaristia como viático, o alimento para a passagem (CIC 1524). Não é preciso esperar o último momento para chamar o padre.",
         },
         {
           pratica:
@@ -448,7 +448,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "REV 22:16-17.20-21" },
         {
           texto:
-            "O mês dos fiéis defuntos termina com o pedido mais antigo dos cristãos: vem, Senhor Jesus. O Advento, que começa por estes dias, renova essa espera. Continuemos a rezar pelos nossos mortos, na esperança de reencontrá-los um dia na casa do Pai.",
+            "O mês dos fiéis defuntos termina com o clamor que a Igreja repete desde o tempo dos apóstolos: vem, Senhor Jesus (CIC 1130, 2817). O Advento, que começa por estes dias, renova essa espera. Continuemos a rezar pelos nossos mortos, na esperança de reencontrá-los um dia na casa do Pai.",
         },
         {
           pratica:

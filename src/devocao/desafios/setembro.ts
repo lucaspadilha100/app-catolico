@@ -221,7 +221,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "1KI 19:9-12" },
         {
           texto:
-            "O profeta Elias, perseguido e cansado, se refugia numa caverna no monte de Deus. O Senhor não está no vento forte, nem no terremoto, nem no fogo, mas no sopro de uma brisa suave. Deus costuma falar no silêncio.",
+            "O profeta Elias, perseguido e cansado, se refugia numa caverna no monte de Deus. O Senhor não está no vento forte, nem no terremoto, nem no fogo, mas no sopro de uma brisa suave. Foi no silêncio que Elias ouviu a Deus.",
         },
         {
           pratica:

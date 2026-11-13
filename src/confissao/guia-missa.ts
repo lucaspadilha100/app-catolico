@@ -8,7 +8,7 @@ const guia: Guia = {
       blocos: [
         {
           texto:
-            "A Missa é o centro da vida cristã (CIC 1324). Nela se torna presente o único sacrifício de Cristo na cruz, e ele mesmo se dá como alimento (CIC 1366-1367). Desde o século II, os cristãos se reúnem no domingo com a mesma ordem que seguimos hoje: leituras, pregação, preces, ofertas, ação de graças e comunhão (CIC 1345).",
+            "A Eucaristia é fonte e cume de toda a vida cristã (CIC 1324). Nela se torna presente o único sacrifício de Cristo na cruz, e ele mesmo se dá como alimento (CIC 1366-1367). Desde o século II, como conta São Justino, mártir, os cristãos se reúnem no domingo com as mesmas grandes linhas que seguimos hoje: leituras, pregação, preces, ofertas, ação de graças e comunhão (CIC 1345).",
         },
         {
           texto:
@@ -16,11 +16,11 @@ const guia: Guia = {
         },
         {
           texto:
-            "Chegue alguns minutos antes. Ao entrar, faça o sinal da cruz com água benta, lembrando o seu Batismo. Antes de ocupar o banco, faça a genuflexão, dobrando o joelho direito até o chão, voltado para o sacrário, onde Jesus está presente. Quem não consegue pode fazer uma inclinação profunda. Desligue o celular e use o tempo em silêncio para rezar.",
+            "Chegue alguns minutos antes. Ao entrar, faça o sinal da cruz com água benta, lembrando o seu Batismo. Antes de ocupar o banco, faça a genuflexão, dobrando o joelho direito até o chão, voltado para o sacrário, onde Jesus está presente (IGMR 274). Quem não consegue pode fazer uma inclinação profunda. Desligue o celular e use o tempo em silêncio para rezar.",
         },
         {
           texto:
-            "Participar da Missa aos domingos e nos dias de preceito é obrigação grave para o católico, salvo motivo sério, como doença ou cuidado de um doente (CIC 2180-2181).",
+            "Participar da Missa aos domingos e nos dias de preceito é obrigação grave para o católico, salvo motivo sério, como doença ou o cuidado de crianças pequenas, ou dispensa do pároco (CIC 2180-2181).",
         },
       ],
     },
@@ -30,11 +30,11 @@ const guia: Guia = {
       blocos: [
         {
           texto:
-            "Quando começa o canto de entrada e o padre caminha até o altar, todos se levantam. O padre beija o altar, que representa Cristo. Depois, todos fazem o sinal da cruz, e o padre saúda a assembleia, desejando que o Senhor esteja com ela. O povo responde à saudação.",
+            "Quando começa o canto de entrada e o padre caminha até o altar, todos se levantam. O padre beija o altar, símbolo do próprio Cristo (CIC 1383). Depois, todos fazem o sinal da cruz, e o padre saúda a assembleia, desejando que o Senhor esteja com ela. O povo responde à saudação.",
         },
         {
           texto:
-            "Estes ritos reúnem os que chegaram de lugares diferentes e os preparam para ouvir a Palavra e celebrar a Eucaristia como uma só família.",
+            "Estes ritos fazem dos que chegaram uma assembleia unida e os preparam para ouvir bem a Palavra de Deus e celebrar dignamente a Eucaristia (IGMR 46).",
         },
       ],
     },
@@ -44,11 +44,11 @@ const guia: Guia = {
       blocos: [
         {
           texto:
-            "O padre convida todos a reconhecer que são pecadores. Depois de um breve silêncio, a assembleia pede perdão a Deus, com uma fórmula de confissão ou com as invocações \"Senhor, tende piedade de nós\" e \"Cristo, tende piedade de nós\". Nos domingos, pode haver no lugar disso a aspersão com água benta.",
+            "O padre convida todos a reconhecer que são pecadores. Depois de um breve silêncio, a assembleia pede perdão a Deus, com uma fórmula de confissão ou com as invocações \"Senhor, tende piedade de nós\" e \"Cristo, tende piedade de nós\". Nos domingos, sobretudo no tempo pascal, pode haver no lugar disso a aspersão com água benta, em lembrança do Batismo (IGMR 51).",
         },
         {
           texto:
-            "O ato penitencial pede a misericórdia de Deus, mas não substitui a Confissão. Quem tem pecado grave precisa confessar-se antes de comungar (CIC 1385).",
+            "O ato penitencial pede a misericórdia de Deus, mas não tem a eficácia do sacramento da Penitência (IGMR 51). Quem tem pecado grave precisa confessar-se antes de comungar (CIC 1385).",
         },
       ],
     },
@@ -73,7 +73,7 @@ const guia: Guia = {
       blocos: [
         {
           texto:
-            "Todos se sentam para escutar. A primeira leitura vem quase sempre do Antigo Testamento, e no tempo pascal, dos Atos dos Apóstolos. Quando a Escritura é lida na igreja, é o próprio Deus que fala ao seu povo (CIC 1349).",
+            "Todos se sentam para escutar. A primeira leitura vem quase sempre do Antigo Testamento, e no tempo pascal, dos Atos dos Apóstolos. Quando a Escritura é lida na igreja, é o próprio Deus que fala ao seu povo (IGMR 29; CIC 1088).",
         },
         {
           texto:
@@ -97,11 +97,11 @@ const guia: Guia = {
       blocos: [
         {
           texto:
-            "Todos se levantam para a aclamação, normalmente o Aleluia, que na Quaresma é trocado por outra aclamação. Ficar de pé mostra respeito e prontidão: agora é Cristo quem fala.",
+            "Todos se levantam para a aclamação, normalmente o Aleluia, que na Quaresma é trocado por outra aclamação. De pé, os fiéis honram o Evangelho e, com as aclamações, reconhecem Cristo presente, que lhes fala (IGMR 60).",
         },
         {
           texto:
-            "Quando o padre ou o diácono anuncia o Evangelho, todos fazem com o polegar uma pequena cruz na testa, nos lábios e no peito, pedindo que a Palavra esteja na mente, na boca e no coração. Ao final, o povo aclama o Senhor Jesus, presente na sua Palavra.",
+            "Quando o padre ou o diácono anuncia o Evangelho, todos fazem com o polegar uma pequena cruz na testa, nos lábios e no peito (IGMR 134). Ao final, o povo aclama o Senhor Jesus, presente na sua Palavra.",
         },
       ],
     },
@@ -111,7 +111,7 @@ const guia: Guia = {
       blocos: [
         {
           texto:
-            "O padre ou o diácono explica as leituras e mostra como vivê-las hoje (CIC 1349). A homilia é obrigatória nos domingos e dias de preceito. Depois dela, pode haver um breve silêncio para guardar no coração o que se ouviu.",
+            "O padre ou o diácono explica as leituras e mostra como vivê-las hoje (CIC 1349). Nas Missas com o povo dos domingos e dias de preceito, a homilia não pode ser omitida sem causa grave (cân. 767). Depois dela, pode haver um breve silêncio para guardar no coração o que se ouviu.",
         },
       ],
     },
@@ -125,7 +125,7 @@ const guia: Guia = {
         },
         {
           texto:
-            "Nas palavras sobre a encarnação de Jesus, todos se inclinam. No Natal e na Anunciação do Senhor, em vez de se inclinar, ajoelha-se.",
+            "Nas palavras sobre a encarnação de Jesus, todos se inclinam. No Natal e na Anunciação do Senhor, em vez de se inclinar, ajoelha-se (IGMR 137).",
         },
         { rezar: "creio" },
       ],
@@ -136,7 +136,7 @@ const guia: Guia = {
       blocos: [
         {
           texto:
-            "A assembleia apresenta a Deus os pedidos pela Igreja, pelos governantes, pelos que sofrem, pela comunidade local e pelo mundo inteiro. A cada pedido, o povo responde com uma breve súplica. Aqui todos exercem o seu sacerdócio do Batismo, rezando por todos os homens.",
+            "A assembleia apresenta a Deus os pedidos pela Igreja, pelos governantes, pelos que sofrem, pela comunidade local e pelo mundo inteiro. A cada pedido, o povo responde com uma breve súplica. Aqui todos exercem o seu sacerdócio do Batismo, rezando pela salvação de todos (IGMR 69; CIC 1349).",
         },
       ],
     },
@@ -146,7 +146,7 @@ const guia: Guia = {
       blocos: [
         {
           texto:
-            "Começa a segunda grande parte da Missa. O altar é preparado, e o pão e o vinho são levados até ele, muitas vezes por pessoas da comunidade. São os mesmos dons que Jesus tomou na última ceia, fruto da terra e do trabalho humano (CIC 1350).",
+            "Começa a segunda grande parte da Missa. O altar é preparado, e o pão e o vinho são levados até ele, muitas vezes por pessoas da comunidade. É o mesmo gesto de Jesus na última ceia, quando tomou o pão e o cálice, e esses dons são fruto da terra e do trabalho humano (CIC 1333, 1350).",
         },
         {
           texto:
@@ -212,11 +212,11 @@ const guia: Guia = {
       blocos: [
         {
           texto:
-            "A Igreja faz memória da paixão, ressurreição e ascensão de Jesus e oferece ao Pai o sacrifício do seu Filho (CIC 1354). Reza pelo Papa, pelo bispo, por toda a Igreja, pelos vivos e pelos falecidos, em comunhão com a Virgem Maria e com os santos.",
+            "A Igreja faz memória da paixão, da ressurreição e da volta gloriosa de Jesus e apresenta ao Pai a oferenda do seu Filho (CIC 1354). Reza pelo Papa, pelo bispo, por toda a Igreja, pelos vivos e pelos falecidos, em comunhão com a Virgem Maria e com os santos.",
         },
         {
           texto:
-            "A oração termina com o padre elevando o Corpo e o Sangue do Senhor e dando glória ao Pai, por Cristo, no Espírito Santo. O povo responde com o grande \"Amém\", que confirma e assina toda a oração eucarística.",
+            "A oração termina com o padre elevando o Corpo e o Sangue do Senhor e dando glória ao Pai, por Cristo, no Espírito Santo. O povo responde com o grande \"Amém\", que confirma toda a oração eucarística (IGMR 79).",
         },
       ],
     },
@@ -226,7 +226,7 @@ const guia: Guia = {
       blocos: [
         {
           texto:
-            "A preparação para a comunhão começa com a oração que o próprio Jesus ensinou (CIC 1355). Pedimos o pão de cada dia, que lembra também o Pão da Eucaristia, e o perdão das ofensas, para nos aproximarmos do altar reconciliados.",
+            "A preparação para a comunhão começa com a oração que o próprio Jesus ensinou (CIC 1355). Pedimos o pão de cada dia, que para os cristãos é sobretudo o Pão da Eucaristia (CIC 2837), e o perdão dos pecados, para que as coisas santas sejam dadas aos santos (IGMR 81).",
         },
         {
           rubrica:
@@ -241,7 +241,7 @@ const guia: Guia = {
       blocos: [
         {
           texto:
-            "O padre pede a paz para a Igreja e para o mundo e pode convidar todos a se saudarem. Cada um deseja a paz a quem está perto, de modo simples e discreto. É sinal da comunhão fraterna antes de receber o mesmo Senhor.",
+            "O padre pede a paz para a Igreja e para o mundo e pode convidar todos a se saudarem. Cada um deseja a paz a quem está mais perto, de modo sóbrio. É sinal da comunhão na Igreja e da caridade mútua antes de receber o Sacramento (IGMR 82).",
         },
         { leitura: "MAT 5:23-24" },
       ],
@@ -273,20 +273,20 @@ const guia: Guia = {
         { titulo: "Quem pode comungar" },
         {
           texto:
-            "Pode comungar o católico que está em estado de graça. Quem tem consciência de um pecado grave deve primeiro se confessar (CIC 1385). Também é preciso guardar o jejum eucarístico: ficar uma hora sem comer nem beber nada antes da comunhão, exceto água e remédios. Os idosos, os doentes e quem cuida deles estão dispensados desse jejum (CIC 1387; cân. 919).",
+            "Pode comungar o católico que está em estado de graça. Quem tem consciência de um pecado grave deve primeiro se confessar (CIC 1385, 1415). Também é preciso guardar o jejum eucarístico: ficar uma hora sem comer nem beber nada antes da comunhão, exceto água e remédios. Os idosos, os doentes e quem cuida deles estão dispensados desse jejum (CIC 1387; cân. 919).",
         },
         {
           texto:
-            "A Igreja pede que todo católico comungue ao menos uma vez por ano, no tempo da Páscoa, e recomenda vivamente a comunhão a cada Missa, estando bem preparado (CIC 1388-1389).",
+            "A Igreja pede que todo católico comungue ao menos uma vez por ano, se possível no tempo da Páscoa (cân. 920), e recomenda vivamente a comunhão a cada Missa, estando bem preparado (CIC 1388-1389).",
         },
         { titulo: "Como receber" },
         {
           texto:
-            "Vá em fila, sem pressa, e faça antes um sinal de reverência, como uma inclinação da cabeça. O ministro mostra a hóstia e diz que ela é o Corpo de Cristo; você responde \"Amém\", que quer dizer: sim, eu creio.",
+            "Vá em fila, sem pressa, e faça antes um sinal de reverência, como uma inclinação da cabeça (Redemptionis Sacramentum 90). O ministro mostra a hóstia e diz que ela é o Corpo de Cristo; você responde \"Amém\", que quer dizer: sim, é verdade (CIC 1396).",
         },
         {
           texto:
-            "Na boca: abra a boca, ponha a língua um pouco para fora e deixe que o ministro coloque a hóstia. Na mão: ponha a mão esquerda aberta sobre a direita, como um trono para o Senhor; receba a hóstia, dê um passo para o lado e, ali mesmo, leve-a à boca com a mão direita. Nunca saia levando a hóstia. As duas formas são permitidas, e receber na boca é sempre direito do fiel.",
+            "Na boca: abra a boca, ponha a língua um pouco para fora e deixe que o ministro coloque a hóstia. Na mão: ponha a mão esquerda aberta sobre a direita; receba a hóstia e leve-a à boca com a mão direita ali mesmo, diante do ministro. Nunca saia levando a hóstia. Cada fiel tem sempre o direito de escolher receber na boca, e onde a Conferência dos Bispos permitiu, pode receber na mão (Redemptionis Sacramentum 92).",
         },
         { titulo: "Quem não pode comungar" },
         {
@@ -313,7 +313,7 @@ const guia: Guia = {
       blocos: [
         {
           texto:
-            "Todos se levantam para a oração depois da comunhão, e o povo responde \"Amém\". Se houver avisos da comunidade, são dados agora.",
+            "Todos se levantam para a oração depois da comunhão, e o povo responde \"Amém\". Se houver avisos da comunidade, são dados agora, de modo breve (IGMR 90).",
         },
         {
           texto:

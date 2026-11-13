@@ -8,12 +8,12 @@ const guia: Guia = {
       blocos: [
         {
           texto:
-            "Na Confissão, também chamada sacramento da Penitência ou da Reconciliação, é o próprio Cristo quem perdoa os pecados cometidos depois do Batismo, por meio do sacerdote (CIC 1441-1442). Não é um tribunal para humilhar ninguém: é o encontro com um Pai que espera o filho voltar para casa.",
+            "Na Confissão, também chamada sacramento da Penitência ou da Reconciliação, é o próprio Cristo quem perdoa os pecados cometidos depois do Batismo, por meio do sacerdote (CIC 1441-1442). O padre faz ali o papel do Pai que espera o filho pródigo e o acolhe na volta (CIC 1465).",
         },
         { leitura: "LUK 15:11-24", titulo: "O filho que volta para o pai" },
         {
           texto:
-            "O filho ensaiou o que ia dizer, mas o pai correu antes, abraçou e beijou. Assim é Deus com quem se arrepende. Jesus deu aos apóstolos o poder de perdoar em seu nome, e a Igreja o exerce até hoje pelos bispos e padres (CIC 1461).",
+            "O filho decidiu voltar e se declarar culpado; o pai correu ao encontro dele, abraçou e beijou. O Catecismo vê nesta parábola o caminho da conversão e da penitência (CIC 1439). Jesus deu aos apóstolos o poder de perdoar em seu nome, e a Igreja o exerce até hoje pelos bispos e padres (CIC 1461).",
         },
         { leitura: "JHN 20:21-23" },
       ],
@@ -29,7 +29,7 @@ const guia: Guia = {
         { ir: "/rezar/exame", rotulo: "Fazer o exame de consciência" },
         {
           texto:
-            "Para saber se um pecado é grave, a Igreja ensina que ele precisa de três coisas ao mesmo tempo: matéria grave, pleno conhecimento e consentimento deliberado (CIC 1857). Na dúvida, diga ao padre, e ele ajudará a entender.",
+            "Para que um pecado seja mortal, a Igreja ensina que são precisas três condições ao mesmo tempo: matéria grave, plena consciência e consentimento deliberado (CIC 1857). Na dúvida, diga ao padre, e ele ajudará a entender.",
         },
         {
           rubrica:
@@ -42,7 +42,7 @@ const guia: Guia = {
       blocos: [
         {
           texto:
-            "O arrependimento é o mais importante de tudo. A contrição é a dor da alma e a rejeição do pecado cometido, com o propósito de não tornar a pecar (CIC 1451). Não é preciso sentir emoção forte: basta que a vontade rejeite o pecado e deseje mudar de vida.",
+            "O arrependimento é o mais importante de tudo. A contrição é a dor da alma e a detestação do pecado cometido, com o propósito de não tornar a pecar (CIC 1451).",
         },
         {
           texto:
@@ -50,11 +50,11 @@ const guia: Guia = {
         },
         {
           texto:
-            "Quando nasce do reconhecimento de como o pecado é feio, ou do medo da condenação, chama-se atrição, ou contrição imperfeita. Também é dom de Deus e, unida à Confissão, basta para receber o perdão no sacramento (CIC 1453).",
+            "Quando nasce do reconhecimento de como o pecado é feio, ou do medo da condenação, chama-se atrição, ou contrição imperfeita. Também é dom de Deus. Sozinha não perdoa os pecados graves, mas dispõe a pessoa para recebê-lo no sacramento da Penitência (CIC 1453).",
         },
         {
           texto:
-            "Junto com o arrependimento vem o propósito de emenda: decidir, com a ajuda da graça, evitar o pecado e as ocasiões que levam a ele. Não é prometer que nunca mais vai cair, e sim querer de verdade mudar.",
+            "Junto com o arrependimento vem o propósito firme de não tornar a pecar. A conversão olha para o passado e para o futuro, e se alimenta da esperança na misericórdia de Deus (CIC 1490).",
         },
         { leitura: "PSA 51:3-6" },
       ],
@@ -64,11 +64,11 @@ const guia: Guia = {
       blocos: [
         {
           texto:
-            "Procure os horários de confissão da sua paróquia ou peça ao padre um horário. Em muitas igrejas há o confessionário com grade, onde o padre não vê o seu rosto; também é possível confessar-se frente a frente. Escolha a forma em que se sentir mais à vontade: as duas valem igualmente.",
+            "Procure os horários de confissão da sua paróquia ou peça ao padre um horário. Em muitas igrejas há o confessionário com grade, onde o padre não vê o seu rosto; também é possível confessar-se frente a frente. A Igreja manda que haja sempre confessionários com grade para quem os quiser usar (cân. 964).",
         },
         {
           texto:
-            "Ao se aproximar, faça o sinal da cruz. É costume dizer: \"Padre, dai-me a bênção, porque pequei.\" O padre acolhe você e pode ler uma breve passagem da Palavra de Deus.",
+            "Ao se aproximar, faça o sinal da cruz. É costume dizer: \"Padre, dai-me a bênção, porque pequei.\" O padre acolhe você e pode ler uma breve passagem da Palavra de Deus (CIC 1480).",
         },
         {
           texto:
@@ -102,11 +102,11 @@ const guia: Guia = {
       blocos: [
         {
           texto:
-            "O padre pode dar um conselho e fazer alguma pergunta para entender melhor. Ele age como pai, como médico e como pastor que vai atrás da ovelha perdida (CIC 1465). Escute com o coração aberto.",
+            "O padre pode dar um conselho e fazer alguma pergunta para entender melhor. Ele age como o bom Pastor que procura a ovelha perdida, como o bom Samaritano que cura as feridas e como o Pai que acolhe o filho que volta (CIC 1465). Escute com o coração aberto.",
         },
         {
           texto:
-            "Depois, ele indica uma penitência: uma oração, uma leitura, uma obra de caridade ou um pequeno sacrifício. A penitência não paga o perdão, que é dado de graça, mas ajuda a reparar o mal feito e a retomar os bons hábitos (CIC 1459-1460). Se não entender a penitência, pergunte na hora.",
+            "Depois, ele indica uma penitência: uma oração, uma esmola, uma obra de misericórdia, um serviço ao próximo ou uma privação voluntária (CIC 1460). A absolvição tira o pecado, mas não remedeia todas as desordens que ele causou; a penitência ajuda a repará-las e a recuperar a saúde espiritual (CIC 1459), e só tem valor por Jesus Cristo, que expiou os nossos pecados (CIC 1460). Se não entender a penitência, pergunte na hora.",
         },
       ],
     },
@@ -142,7 +142,7 @@ const guia: Guia = {
         },
         {
           texto:
-            "Se esquecer qual foi a penitência, não se aflija: o perdão já foi dado. Na próxima confissão, conte ao padre, e ele indicará outra.",
+            "Se esquecer qual foi a penitência, não se aflija: a absolvição já foi dada. Na próxima confissão, conte ao padre.",
         },
       ],
     },
@@ -151,11 +151,11 @@ const guia: Guia = {
       blocos: [
         {
           texto:
-            "Depois da Confissão, não fique remoendo os pecados perdoados. Deus não os guarda contra você. O fruto do sacramento é a paz e a serenidade da consciência, com grande consolo espiritual (CIC 1468).",
+            "Depois da Confissão, não fique remoendo os pecados perdoados. O fruto do sacramento é a paz e a serenidade da consciência, com grande consolo espiritual (CIC 1468).",
         },
         {
           texto:
-            "Tudo o que você disse está protegido pelo sigilo sacramental. O padre não pode revelar nada do que ouviu, a ninguém, sem nenhuma exceção. A Igreja pune com penas muito severas quem viola esse segredo (CIC 1467).",
+            "Tudo o que você disse está protegido pelo sigilo sacramental. O padre não pode revelar os pecados que ouviu, a ninguém, nem se servir do que soube na confissão; esse segredo não admite exceções, e a Igreja pune com penas muito severas quem o viola (CIC 1467; cân. 983).",
         },
         { leitura: "PSA 32:1-5" },
       ],
@@ -165,11 +165,11 @@ const guia: Guia = {
       blocos: [
         {
           texto:
-            "Se você esqueceu um pecado grave sem querer, ele foi perdoado junto com os outros, e você pode comungar tranquilo. Mas, como ainda não foi dito, conte-o na próxima confissão.",
+            "Se você esqueceu um pecado grave sem querer, depois de se examinar com cuidado, ele foi apresentado ao perdão junto com os outros (CIC 1456), e você pode comungar. Mas, como ainda não foi dito, conte-o na próxima confissão (cân. 988).",
         },
         {
           texto:
-            "Se esqueceu um pecado venial, não precisa fazer nada: ele também foi perdoado.",
+            "Se esqueceu um pecado venial, não precisa fazer nada: a confissão dos veniais é recomendada, não obrigatória (CIC 1458).",
         },
       ],
     },
@@ -178,15 +178,11 @@ const guia: Guia = {
       blocos: [
         {
           texto:
-            "A vergonha é natural, mas não deixe que ela cale nenhum pecado grave. O Catecismo lembra que, se o doente tem vergonha de mostrar a ferida ao médico, o remédio não cura o que não conhece (CIC 1456). O padre já ouviu de tudo e não se escandaliza. Ele está ali para ajudar, não para julgar.",
+            "A vergonha é natural, mas não deixe que ela cale nenhum pecado grave. O Catecismo lembra que, se o doente tem vergonha de mostrar a ferida ao médico, o remédio não cura o que não conhece (CIC 1456). O padre está ali como sinal e instrumento do amor misericordioso de Deus pelo pecador (CIC 1465).",
         },
         {
           texto:
-            "Quem esconde de propósito um pecado grave não recebe o perdão, e a confissão fica sem valor (CIC 1456). Se isso aconteceu, volte a se confessar: diga que escondeu um pecado grave numa confissão, confesse esse pecado e repita os outros pecados graves daquela confissão e das que vieram depois.",
-        },
-        {
-          texto:
-            "Pode ajudar começar pelo pecado que mais custa dizer. Depois dele, o resto fica leve.",
+            "Quem esconde de propósito um pecado grave não apresenta à bondade de Deus nada que ela possa perdoar por meio do sacerdote (CIC 1456). Se isso aconteceu, volte a se confessar: diga ao padre que escondeu um pecado grave numa confissão, e ele orientará o que mais precisa ser dito.",
         },
       ],
     },
@@ -199,11 +195,11 @@ const guia: Guia = {
         },
         {
           texto:
-            "Se for possível, peça um horário com calma, fora da fila de antes da missa. Faça o exame com tempo e anote os pecados graves de que se lembrar, com o número aproximado. O que for esquecido sem culpa também é perdoado.",
+            "Se for possível, peça um horário com calma, fora da fila de antes da missa. Faça o exame com tempo e anote os pecados graves de que se lembrar, com o número aproximado. O que for esquecido sem culpa também é apresentado ao perdão (CIC 1456).",
         },
         {
           texto:
-            "Lembre-se do filho pródigo: o pai não pediu explicações nem contas da herança. Correu ao encontro dele. A Igreja pede que todo fiel confesse os pecados graves ao menos uma vez por ano (CIC 1457), e quem tem pecado grave deve se confessar antes de voltar a comungar.",
+            "Lembre-se do filho pródigo: o pai correu ao encontro dele, abraçou-o e fez festa pela sua volta. A Igreja pede que todo fiel confesse os pecados graves ao menos uma vez por ano (CIC 1457), e quem tem pecado grave deve se confessar antes de voltar a comungar.",
         },
       ],
     },
