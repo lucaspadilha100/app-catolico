@@ -121,6 +121,112 @@ const desenhar = async () => {
     saida.santos = c.toDataURL("image/png");
   }
 
+  const cartaoDeRecurso = (desenhaIcone, titulo, linhas) => {
+    const [c, ctx] = novo(1080, 1350);
+    ctx.strokeStyle = MARROM;
+    ctx.lineWidth = 10;
+    retangulo(ctx, 50, 50, 980, 1250, 40);
+    ctx.stroke();
+    ctx.strokeStyle = DOURADO;
+    ctx.lineWidth = 3;
+    retangulo(ctx, 78, 78, 924, 1194, 28);
+    ctx.stroke();
+    desenhaIcone(ctx);
+    ctx.fillStyle = MARROM;
+    ctx.font = '500 86px "Literata Variable", Georgia, serif';
+    ctx.fillText(titulo, 540, 740);
+    ctx.fillStyle = DOURADO;
+    ctx.fillRect(540 - 3, 810, 6, 56);
+    ctx.fillRect(540 - 22, 828, 44, 6);
+    ctx.fillStyle = MARROM;
+    ctx.font = '500 40px "Inter Variable", Arial, sans-serif';
+    let y = 940;
+    for (const l of linhas) {
+      ctx.fillText(l, 540, y);
+      y += 62;
+    }
+    ctx.fillStyle = "rgba(52, 30, 13, 0.55)";
+    ctx.font = '500 32px "Inter Variable", Arial, sans-serif';
+    ctx.fillText("@minhaigrejinhaapp", 540, 1215);
+    return c.toDataURL("image/png");
+  };
+
+  const livro = (ctx) => {
+    ctx.strokeStyle = MARROM;
+    ctx.lineWidth = 22;
+    ctx.lineCap = "round";
+    ctx.lineJoin = "round";
+    ctx.beginPath();
+    ctx.moveTo(540, 330);
+    ctx.bezierCurveTo(488, 292, 406, 292, 350, 322);
+    ctx.lineTo(350, 512);
+    ctx.bezierCurveTo(406, 482, 488, 482, 540, 520);
+    ctx.bezierCurveTo(592, 482, 674, 482, 730, 512);
+    ctx.lineTo(730, 322);
+    ctx.bezierCurveTo(674, 292, 592, 292, 540, 330);
+    ctx.closePath();
+    ctx.stroke();
+    ctx.beginPath();
+    ctx.moveTo(540, 330);
+    ctx.lineTo(540, 520);
+    ctx.stroke();
+  };
+
+  const terco = (ctx) => {
+    ctx.fillStyle = MARROM;
+    const cx = 540, cy = 400, r = 120;
+    for (let i = 0; i < 18; i++) {
+      const a = Math.PI * 2 * (i / 18) - Math.PI / 2;
+      ctx.beginPath();
+      ctx.arc(cx + r * Math.cos(a), cy + r * Math.sin(a), 11, 0, Math.PI * 2);
+      ctx.fill();
+    }
+    for (let i = 1; i <= 2; i++) {
+      ctx.beginPath();
+      ctx.arc(cx, cy + r + 28 * i, 11, 0, Math.PI * 2);
+      ctx.fill();
+    }
+    ctx.strokeStyle = DOURADO;
+    ctx.lineWidth = 14;
+    ctx.lineCap = "round";
+    ctx.beginPath();
+    ctx.moveTo(cx, cy + r + 76);
+    ctx.lineTo(cx, cy + r + 150);
+    ctx.moveTo(cx - 26, cy + r + 100);
+    ctx.lineTo(cx + 26, cy + r + 100);
+    ctx.stroke();
+  };
+
+  const igreja = (ctx) => {
+    const lado = 300;
+    const prop = simbolo.naturalHeight / simbolo.naturalWidth;
+    ctx.drawImage(simbolo, (1080 - lado) / 2, 270, lado, lado * prop);
+  };
+
+  const vela = (ctx) => {
+    ctx.fillStyle = MARROM;
+    retangulo(ctx, 495, 360, 90, 200, 14);
+    ctx.fill();
+    ctx.fillStyle = DOURADO;
+    ctx.beginPath();
+    ctx.moveTo(540, 250);
+    ctx.bezierCurveTo(588, 300, 576, 334, 540, 346);
+    ctx.bezierCurveTo(504, 334, 492, 300, 540, 250);
+    ctx.closePath();
+    ctx.fill();
+    ctx.strokeStyle = MARROM;
+    ctx.lineWidth = 6;
+    ctx.beginPath();
+    ctx.moveTo(540, 346);
+    ctx.lineTo(540, 362);
+    ctx.stroke();
+  };
+
+  saida.recurso_biblia = cartaoDeRecurso(livro, "A Bíblia completa", ["Os 73 livros para ler, grifar", "e ouvir. Também sem internet."]);
+  saida.recurso_terco = cartaoDeRecurso(terco, "O terço de cada dia", ["Os mistérios do dia, guiados,", "com as contas na tela."]);
+  saida.recurso_missas = cartaoDeRecurso(igreja, "Missas perto de você", ["Igrejas, horários de missa", "e confissão, com o caminho."]);
+  saida.recurso_oracoes = cartaoDeRecurso(vela, "603 orações", ["Novenas, ladainhas e orações", "aos santos, num devocionário."]);
+
   return saida;
 };
 
