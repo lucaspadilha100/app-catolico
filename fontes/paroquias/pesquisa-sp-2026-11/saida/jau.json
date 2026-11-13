@@ -1,0 +1,6768 @@
+[
+ {
+  "id_banco": null,
+  "nome": "Catedral Nossa Senhora do Patrocínio",
+  "categoria": "catedral",
+  "cidade": "Jaú",
+  "padroeiro": "Nossa Senhora do Patrocínio",
+  "contatos": {
+   "telefone": "1436222069",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "matrizpatrociniojau@ig.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Catedral Nossa Senhora do Patrocínio",
+    "tipo": "matriz",
+    "cidade": "Jaú",
+    "localidade": "Centro",
+    "endereco": "Rua Visconde do Rio Branco, 333",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "07:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Quarta-feira, 15h: novena a Nossa Senhora do Perpétuo Socorro."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela da Santa Casa",
+    "tipo": "capela",
+    "cidade": "Jaú",
+    "localidade": "Santa Casa",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "06:20",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "06:20",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "06:20",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "06:20",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "06:20",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-nossa-senhora-do-patrocinio/",
+    "data": "2026-02-24",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-nossa-senhora-do-patrocinio/",
+    "data": "2026-02-24",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Universitária São José",
+  "categoria": "paroquia",
+  "cidade": "Jaú",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José",
+    "tipo": "matriz",
+    "cidade": "Jaú",
+    "localidade": "Chácara Braz Miraglia",
+    "endereco": "Rua Tenente Navarro, 642",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-universitaria-sao-jose/",
+    "data": "2024-10-12",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-universitaria-sao-jose/",
+    "data": "2024-10-12",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "A página não traz telefone nem e-mail. Página da diocese sem atualização desde 2024-10."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Teresinha do Menino Jesus",
+  "categoria": "paroquia",
+  "cidade": "Jaú",
+  "padroeiro": "Santa Teresinha do Menino Jesus",
+  "contatos": {
+   "telefone": "1436221650",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "pstjau@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Teresinha do Menino Jesus",
+    "tipo": "matriz",
+    "cidade": "Jaú",
+    "localidade": "Jardim Padre Augusto Sani",
+    "endereco": "Avenida Prefeito Doutor Alfeu Fabris, 760",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "A página diz: segunda a sexta-feira 19h; *quinta-feira às 20h com adoração eucarística."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-santa-teresinha-do-menino-jesus/",
+    "data": "2026-02-11",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-santa-teresinha-do-menino-jesus/",
+    "data": "2026-02-11",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Quinta-feira ficou no nao_cabe: a página não deixa claro se a missa passa para as 20h."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Jaú",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "1436221225",
+   "whatsapp": "14998830795",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Jaú",
+    "localidade": "Vila Sampaio",
+    "endereco": "Rua Sampaio Bueno, 899",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "11:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Medianeira",
+    "tipo": "capela",
+    "cidade": "Jaú",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-nossa-senhora-aparecida/",
+    "data": "2026-08-17",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-nossa-senhora-aparecida/",
+    "data": "2026-08-17",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "A página dá dois WhatsApp da secretaria; ficou o primeiro (o outro é 14998542552)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Divino Espírito Santo",
+  "categoria": "paroquia",
+  "cidade": "Jaú",
+  "padroeiro": "Divino Espírito Santo",
+  "contatos": {
+   "telefone": "1436264885",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiadivinoespiritosantojau@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Divino Espírito Santo",
+    "tipo": "matriz",
+    "cidade": "Jaú",
+    "localidade": "Jardim América",
+    "endereco": "Rua Elias Bichara Tabbal, 788",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Mônica",
+    "tipo": "comunidade",
+    "cidade": "Jaú",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Bento",
+    "tipo": "comunidade",
+    "cidade": "Jaú",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "20:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Mateus",
+    "tipo": "comunidade",
+    "cidade": "Jaú",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-divino-espirito-santo/",
+    "data": "2025-11-25",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-divino-espirito-santo/",
+    "data": "2025-11-25",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "Jaú",
+  "padroeiro": "São Sebastião",
+  "contatos": {
+   "telefone": "1436222814",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Sebastião",
+    "tipo": "matriz",
+    "cidade": "Jaú",
+    "localidade": "Centro",
+    "endereco": "Rua São Sebastião, 30",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": "Missa e novena do Perpétuo Socorro"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Igreja São Francisco",
+    "tipo": "capela",
+    "cidade": "Jaú",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-sao-sebastiao/",
+    "data": "2026-09-03",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-sao-sebastiao/",
+    "data": "2026-09-03",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "E-mail da página escrito com 'ã' no domínio (secretaria@saosebastiãojau.com.br) e o site www.saosebastiaojau.com.br não abriu em 13/11/2026: ficaram de fora."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José",
+  "categoria": "paroquia",
+  "cidade": "Jaú",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "1436257376",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José",
+    "tipo": "matriz",
+    "cidade": "Jaú",
+    "localidade": "Jardim São José",
+    "endereco": "Rua Lourenço de Almeida Ferraz, 1070",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Miguel",
+    "tipo": "comunidade",
+    "cidade": "Jaú",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Luzia",
+    "tipo": "comunidade",
+    "cidade": "Jaú",
+    "localidade": "Pouso Alegre",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Paulo II",
+    "tipo": "comunidade",
+    "cidade": "Jaú",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-sao-jose/",
+    "data": "2025-12-15",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-sao-jose/",
+    "data": "2025-12-15",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Judas Tadeu",
+  "categoria": "paroquia",
+  "cidade": "Jaú",
+  "padroeiro": "São Judas Tadeu",
+  "contatos": {
+   "telefone": "1436217744",
+   "whatsapp": "1436228637",
+   "instagram": "",
+   "site": "",
+   "email": "secretaria@psaojudastadeu.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Judas Tadeu",
+    "tipo": "matriz",
+    "cidade": "Jaú",
+    "localidade": "Vila Ivan",
+    "endereco": "Avenida do Café, 1298",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-sao-judas-tadeu/",
+    "data": "2025-12-12",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-sao-judas-tadeu/",
+    "data": "2025-12-12",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "Jaú",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "1436262684",
+   "whatsapp": "1436262684",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasjoao_jau@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Batista",
+    "tipo": "matriz",
+    "cidade": "Jaú",
+    "localidade": "Jardim Santa Rosa",
+    "endereco": "Rua Agostinho Polini, 11",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Rita",
+    "tipo": "comunidade",
+    "cidade": "Jaú",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:45",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-sao-joao-batista/",
+    "data": "2026-10-09",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-sao-joao-batista/",
+    "data": "2026-10-09",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "A página ainda lista as missas de N. S. do Desterro, N. S. das Graças e N. S. do Sagrado Coração, que passaram à Paróquia N. S. do Desterro (desmembrada desta em 30/08/2026); ficaram só na nova paróquia."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Desterro",
+  "categoria": "paroquia",
+  "cidade": "Jaú",
+  "padroeiro": "Nossa Senhora do Desterro",
+  "contatos": {
+   "telefone": "1436227916",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Desterro",
+    "tipo": "matriz",
+    "cidade": "Jaú",
+    "localidade": "Jardim Vila Maria",
+    "endereco": "Avenida Netinho Prado, 378",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Toda última quinta-feira do mês, missa nos setores."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora das Graças",
+    "tipo": "capela",
+    "cidade": "Jaú",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora do Sagrado Coração",
+    "tipo": "capela",
+    "cidade": "Jaú",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesejau.org.br/paroquia/quase-paroquia-nossa-senhora-do-desterro/",
+    "data": "2026-09-25",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesejau.org.br/paroquia/quase-paroquia-nossa-senhora-do-desterro/",
+    "data": "2026-09-25",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesejau.org.br/paroquia-nossa-senhora-do-desterro-inicia-nova-caminhada-pastoral-com-a-posse-de-seu-primeiro-paroco-e-sua-erecao-como-mais-nova-paroquia/",
+    "data": "2026-09-10",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Quase-paróquia criada em 2025 e instalada como paróquia em 30/08/2026, desmembrada da São João Batista."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Pedro e São Paulo",
+  "categoria": "paroquia",
+  "cidade": "Jaú",
+  "padroeiro": "São Pedro e São Paulo",
+  "contatos": {
+   "telefone": "1436262212",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "par_pedroepaulo@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Pedro e São Paulo",
+    "tipo": "matriz",
+    "cidade": "Jaú",
+    "localidade": "Jardim Nova Jaú",
+    "endereco": "Avenida Monsenhor Serra, 60",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "05:15",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-sao-pedro-e-sao-paulo/",
+    "data": "2026-03-11",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-sao-pedro-e-sao-paulo/",
+    "data": "2026-03-11",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Helena e São Cura D'Ars",
+  "categoria": "paroquia",
+  "cidade": "Jaú",
+  "padroeiro": "Santa Helena e São João Maria Vianney",
+  "contatos": {
+   "telefone": "1436226470",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "parsatahelena.stocuradars@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Helena e São Cura D'Ars",
+    "tipo": "matriz",
+    "cidade": "Jaú",
+    "localidade": "Chácara Flora",
+    "endereco": "Rua Elias Letaif, 85",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "06:00",
+      "semanas": [
+       2,
+       3,
+       4,
+       5
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "08:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Vicente do Asilo",
+    "tipo": "capela",
+    "cidade": "Jaú",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Quinzenalmente, sexta-feira às 15h."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-santa-helena-e-sao-cura-dars/",
+    "data": "2026-03-03",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-santa-helena-e-sao-cura-dars/",
+    "data": "2026-03-03",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Jaú",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "1441035000",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Jaú",
+    "localidade": "Bairro Santo Antônio",
+    "endereco": "Rua Gomes Botão, 441",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Paulo Apóstolo",
+    "tipo": "comunidade",
+    "cidade": "Jaú",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Batista",
+    "tipo": "comunidade",
+    "cidade": "Jaú",
+    "localidade": "Vila Ribeiro",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-santo-antonio/",
+    "data": "2025-07-02",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-santo-antonio/",
+    "data": "2025-07-02",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Benedito",
+  "categoria": "paroquia",
+  "cidade": "Jaú",
+  "padroeiro": "São Benedito",
+  "contatos": {
+   "telefone": "1436251710",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "sbeneditojau@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Benedito",
+    "tipo": "matriz",
+    "cidade": "Jaú",
+    "localidade": "Vila Nova",
+    "endereco": "Largo São Benedito, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-sao-benedito/",
+    "data": "2025-11-04",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-sao-benedito/",
+    "data": "2025-11-04",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Fátima",
+  "categoria": "paroquia",
+  "cidade": "Jaú",
+  "padroeiro": "Nossa Senhora de Fátima",
+  "contatos": {
+   "telefone": "1436262758",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "nsfatima.jau@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora de Fátima",
+    "tipo": "matriz",
+    "cidade": "Jaú",
+    "localidade": "Vila Santa Teresinha",
+    "endereco": "Alameda Doutor Esperança, 592",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "07:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Carlos Borromeu",
+    "tipo": "capela",
+    "cidade": "Jaú",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-nossa-senhora-de-fatima/",
+    "data": "2026-02-24",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-nossa-senhora-de-fatima/",
+    "data": "2026-02-24",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Auxiliadora",
+  "categoria": "paroquia",
+  "cidade": "Jaú",
+  "padroeiro": "Nossa Senhora Auxiliadora",
+  "contatos": {
+   "telefone": "1436222630",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "pauxiliadorajau@terra.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Auxiliadora",
+    "tipo": "matriz",
+    "cidade": "Jaú",
+    "localidade": "Jardim Pedro Ometto",
+    "endereco": "Avenida José Maria de Almeida Prado, 265",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Sagrado Coração",
+    "tipo": "capela",
+    "cidade": "Jaú",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "20:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-nossa-senhora-auxiliadora/",
+    "data": "2024-10-12",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-nossa-senhora-auxiliadora/",
+    "data": "2024-10-12",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Página da diocese sem atualização desde 2024-10."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Clara",
+  "categoria": "paroquia",
+  "cidade": "Jaú",
+  "padroeiro": "Santa Clara",
+  "contatos": {
+   "telefone": "14991092845",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Clara",
+    "tipo": "matriz",
+    "cidade": "Jaú",
+    "localidade": "Jardim Doutor Luciano",
+    "endereco": "Rua Leonardo Pedro Forte, 629",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Terça a sábado, 19h (a página não diz em qual igreja). Terça-feira, 20h, celebração nas casas."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Ivo",
+    "tipo": "comunidade",
+    "cidade": "Jaú",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-santa-clara/",
+    "data": "2024-10-12",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-santa-clara/",
+    "data": "2024-10-12",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Página da diocese sem atualização desde 2024-10."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Cruz",
+  "categoria": "paroquia",
+  "cidade": "Jaú",
+  "padroeiro": "Santa Cruz",
+  "contatos": {
+   "telefone": "1436292041",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "psantacruzpotunduva@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Cruz",
+    "tipo": "matriz",
+    "cidade": "Jaú",
+    "localidade": "Potunduva",
+    "endereco": "Praça Vicente de Aguirra Teixeira, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "05:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora do Sagrado Coração",
+    "tipo": "capela",
+    "cidade": "Jaú",
+    "localidade": "Potunduva",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Luzia",
+    "tipo": "capela",
+    "cidade": "Jaú",
+    "localidade": "Ave Maria",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "20:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Frei Galvão",
+    "tipo": "capela",
+    "cidade": "Jaú",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "1º domingo do mês (a página não dá a hora)."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-santa-cruz/",
+    "data": "2024-10-12",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-santa-cruz/",
+    "data": "2024-10-12",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Matriz no distrito de Potunduva. Página da diocese sem atualização desde 2024-10."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Senhor Bom Jesus",
+  "categoria": "paroquia",
+  "cidade": "Mineiros do Tietê",
+  "padroeiro": "Senhor Bom Jesus",
+  "contatos": {
+   "telefone": "1436461339",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "psenhorbomjesus@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Senhor Bom Jesus",
+    "tipo": "matriz",
+    "cidade": "Mineiros do Tietê",
+    "localidade": "Centro",
+    "endereco": "Rua Doutor Antonio Teixeira Sobrinho, 251",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Domingo, 9h e 19h, missa no Santuário (a página não dá o nome nem o endereço)."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Edwiges",
+    "tipo": "capela",
+    "cidade": "Mineiros do Tietê",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade do Condomínio Doce Mar",
+    "tipo": "comunidade",
+    "cidade": "Mineiros do Tietê",
+    "localidade": "Condomínio Doce Mar",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "15:30",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-senhor-bom-jesus/",
+    "data": "2024-10-12",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-senhor-bom-jesus/",
+    "data": "2024-10-12",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Página da diocese sem atualização desde 2024-10."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora das Dores",
+  "categoria": "paroquia",
+  "cidade": "Bariri",
+  "padroeiro": "Nossa Senhora das Dores",
+  "contatos": {
+   "telefone": "1436628400",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquia46@terra.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora das Dores",
+    "tipo": "matriz",
+    "cidade": "Bariri",
+    "localidade": "Centro",
+    "endereco": "Passarela João Paulo II, 22",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Francisco",
+    "tipo": "capela",
+    "cidade": "Bariri",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:15",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santo Expedito",
+    "tipo": "capela",
+    "cidade": "Bariri",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:15",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São José",
+    "tipo": "capela",
+    "cidade": "Bariri",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Toda última terça-feira do mês (a página não dá a hora)."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Lar Vicentino",
+    "tipo": "capela",
+    "cidade": "Bariri",
+    "localidade": "Lar Vicentino",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-nossa-senhora-das-dores/",
+    "data": "2026-10-09",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-nossa-senhora-das-dores/",
+    "data": "2026-10-09",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Bariri",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "14991147044",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "salverainha12@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário Nossa Senhora da Conceição Aparecida",
+    "tipo": "santuario",
+    "cidade": "Bariri",
+    "localidade": "Jardim Santa Lúcia",
+    "endereco": "Avenida Brás Fortunato, 319",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Comunidades rurais: terça-feira, 20h."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Pedro",
+    "tipo": "capela",
+    "cidade": "Bariri",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora do Livramento",
+    "tipo": "capela",
+    "cidade": "Bariri",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-nossa-senhora-aparecida-2/",
+    "data": "2026-09-03",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-nossa-senhora-aparecida-2/",
+    "data": "2026-09-03",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesejau.org.br/posse-canonica-do-padre-ramon-aparecido-ramos/",
+    "data": "2025-11-05",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "A matriz é o Santuário Nossa Senhora da Conceição Aparecida (notícia da posse do pároco, 05/11/2025)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Luzia",
+  "categoria": "paroquia",
+  "cidade": "Bariri",
+  "padroeiro": "Santa Luzia",
+  "contatos": {
+   "telefone": "1436622106",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasantaluzia.bariri@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Luzia",
+    "tipo": "matriz",
+    "cidade": "Bariri",
+    "localidade": "Núcleo II",
+    "endereco": "Alameda José de Lourenço, 925",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São José",
+    "tipo": "capela",
+    "cidade": "Bariri",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela da Creche Madre Leônia",
+    "tipo": "capela",
+    "cidade": "Bariri",
+    "localidade": "Creche Madre Leônia",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-santa-luzia/",
+    "data": "2024-10-11",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-santa-luzia/",
+    "data": "2024-10-11",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Página da diocese sem atualização desde 2024-10."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Barra Bonita",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "1434381728",
+   "whatsapp": "14988409151",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Barra Bonita",
+    "localidade": "Jardim Caetano",
+    "endereco": "Rua Amália, 139",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Clemente",
+    "tipo": "capela",
+    "cidade": "Barra Bonita",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:45",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santo Afonso",
+    "tipo": "capela",
+    "cidade": "Barra Bonita",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Quarta-feira, novena de N. S. do Perpétuo Socorro, 19h30."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-santo-antonio-2/",
+    "data": "2024-10-11",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-santo-antonio-2/",
+    "data": "2024-10-11",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Página da diocese sem atualização desde 2024-10."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santuário Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Barra Bonita",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "1436414670",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "santuariobb@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário Nossa Senhora da Conceição Aparecida",
+    "tipo": "santuario",
+    "cidade": "Barra Bonita",
+    "localidade": "Cohab",
+    "endereco": "Rua Arthur Balsi, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santo Expedito",
+    "tipo": "capela",
+    "cidade": "Barra Bonita",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Quarta-feira, novena de N. S. do Perpétuo Socorro, 15h."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-santuario-nossa-senhora-aparecida/",
+    "data": "2024-10-11",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-santuario-nossa-senhora-aparecida/",
+    "data": "2024-10-11",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesejau.org.br/jubileu-de-prata-20-anos-de-gracas-e-devocao-no-santuario-de-nossa-senhora-da-conceicao-aparecida/",
+    "data": "2024-12-09",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Santuário erigido em 08/12/2004. A novena de quarta e a missa de sexta 19h30 vêm logo abaixo da Capela Santo Expedito na página. Página da diocese sem atualização desde 2024-10."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José",
+  "categoria": "paroquia",
+  "cidade": "Barra Bonita",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "1436410359",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasaojosebb@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José",
+    "tipo": "matriz",
+    "cidade": "Barra Bonita",
+    "localidade": "Centro",
+    "endereco": "Praça São José, 10",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Pedro",
+    "tipo": "capela",
+    "cidade": "Barra Bonita",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Edwiges",
+    "tipo": "capela",
+    "cidade": "Barra Bonita",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Lar São Vicente de Paulo",
+    "tipo": "capela",
+    "cidade": "Barra Bonita",
+    "localidade": "Lar São Vicente de Paulo",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Barra Bonita",
+    "localidade": "Barreirinho",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "16:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Barra Bonita",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Último domingo do mês, 16h."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-sao-jose-2/",
+    "data": "2026-02-11",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-sao-jose-2/",
+    "data": "2026-02-11",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "Bocaina",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "1436661172",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "psjbparoquia@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Batista",
+    "tipo": "matriz",
+    "cidade": "Bocaina",
+    "localidade": "Centro",
+    "endereco": "Rua Capitão Bento Rangel, 160",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Luzia",
+    "tipo": "capela",
+    "cidade": "Bocaina",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Judas Tadeu",
+    "tipo": "capela",
+    "cidade": "Bocaina",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São José Operário",
+    "tipo": "capela",
+    "cidade": "Bocaina",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Pedro Alexandrino",
+    "tipo": "comunidade",
+    "cidade": "Bocaina",
+    "localidade": "Pedro Alexandrino",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": [
+       2,
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade da Reforma Agrária",
+    "tipo": "comunidade",
+    "cidade": "Bocaina",
+    "localidade": "Reforma Agrária",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Cemitério Municipal",
+    "tipo": "capela",
+    "cidade": "Bocaina",
+    "localidade": "Cemitério Municipal",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "07:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade do Assentamento",
+    "tipo": "comunidade",
+    "cidade": "Bocaina",
+    "localidade": "Assentamento",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "11:30",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-sao-joao-batista-2/",
+    "data": "2026-05-06",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-sao-joao-batista-2/",
+    "data": "2026-05-06",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "Borborema",
+  "padroeiro": "São Sebastião",
+  "contatos": {
+   "telefone": "1632661280",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiaborborema@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Sebastião",
+    "tipo": "matriz",
+    "cidade": "Borborema",
+    "localidade": "Centro",
+    "endereco": "Praça Cônego Heriberto Goettersdorfer, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Imaculada Conceição",
+    "tipo": "capela",
+    "cidade": "Borborema",
+    "localidade": "Tanquinho",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Borborema",
+    "localidade": "Três Barras",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Borborema",
+    "localidade": "Corguinho",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Borborema",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Lar São Sebastião",
+    "tipo": "capela",
+    "cidade": "Borborema",
+    "localidade": "Lar São Sebastião",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "15:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade do Condomínio Alto do Tietê",
+    "tipo": "comunidade",
+    "cidade": "Borborema",
+    "localidade": "Condomínio Alto do Tietê",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "09:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Benedito",
+    "tipo": "capela",
+    "cidade": "Borborema",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Edwiges",
+    "tipo": "capela",
+    "cidade": "Borborema",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São José",
+    "tipo": "capela",
+    "cidade": "Borborema",
+    "localidade": "Vila Orestina",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "1º, 3º e 5º domingos (a página não dá a hora)."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Expedito",
+    "tipo": "comunidade",
+    "cidade": "Borborema",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade da Fazenda São José",
+    "tipo": "comunidade",
+    "cidade": "Borborema",
+    "localidade": "Fazenda São José",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Domingo, a cada dois meses, 15h30."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-sao-sebastiao-2/",
+    "data": "2024-10-11",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-sao-sebastiao-2/",
+    "data": "2024-10-11",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Página da diocese sem atualização desde 2024-10."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Francisco de Assis",
+  "categoria": "paroquia",
+  "cidade": "Brotas",
+  "padroeiro": "São Francisco de Assis",
+  "contatos": {
+   "telefone": "1436531827",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "pascompsfabrotas@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Francisco de Assis",
+    "tipo": "matriz",
+    "cidade": "Brotas",
+    "localidade": "Taquaral",
+    "endereco": "Avenida Américo Piva, 45",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela da Paz",
+    "tipo": "capela",
+    "cidade": "Brotas",
+    "localidade": "Cemitério Municipal",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Brotas",
+    "localidade": "Vila Vicentina",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-sao-francisco-de-assis/",
+    "data": "2024-10-11",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-sao-francisco-de-assis/",
+    "data": "2024-10-11",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Página da diocese sem atualização desde 2024-10."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora das Dores",
+  "categoria": "paroquia",
+  "cidade": "Brotas",
+  "padroeiro": "Nossa Senhora das Dores",
+  "contatos": {
+   "telefone": "1436534200",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiansdoresbrotas@bol.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora das Dores",
+    "tipo": "matriz",
+    "cidade": "Brotas",
+    "localidade": "Centro",
+    "endereco": "Praça Benedito Calixto, 204",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Judas Tadeu",
+    "tipo": "comunidade",
+    "cidade": "Brotas",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Cruz",
+    "tipo": "comunidade",
+    "cidade": "Brotas",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Benedito",
+    "tipo": "comunidade",
+    "cidade": "Brotas",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-nossa-senhora-das-dores-2/",
+    "data": "2026-05-07",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-nossa-senhora-das-dores-2/",
+    "data": "2026-05-07",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Sebastião e Santa Efigênia",
+  "categoria": "paroquia",
+  "cidade": "Brotas",
+  "padroeiro": "São Sebastião e Santa Efigênia",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Sebastião e Santa Efigênia",
+    "tipo": "matriz",
+    "cidade": "Brotas",
+    "localidade": "São Sebastião da Serra",
+    "endereco": "Rua Anacleto Matinelli, 120",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Feriados, 19h30."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Rita e São Sebastião",
+    "tipo": "capela",
+    "cidade": "Brotas",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:30",
+      "semanas": [
+       2,
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Brotas",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       3,
+       5
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-sao-sebastiao-e-santa-efigenia/",
+    "data": "2024-10-11",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-sao-sebastiao-e-santa-efigenia/",
+    "data": "2024-10-11",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Matriz no Patrimônio de São Sebastião da Serra. A página não traz telefone nem e-mail. Página da diocese sem atualização desde 2024-10."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Divino Espírito Santo",
+  "categoria": "paroquia",
+  "cidade": "Dois Córregos",
+  "padroeiro": "Divino Espírito Santo",
+  "contatos": {
+   "telefone": "1436521121",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "divinoespiritosantoparoquia@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Divino Espírito Santo",
+    "tipo": "matriz",
+    "cidade": "Dois Córregos",
+    "localidade": "Centro",
+    "endereco": "Rua Padre Domingos Cidad, 518",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Benedito",
+    "tipo": "capela",
+    "cidade": "Dois Córregos",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Dois Córregos",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Lourenço",
+    "tipo": "comunidade",
+    "cidade": "Dois Córregos",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "1ª, 3ª e 5ª quartas-feiras e 1º, 3º e 5º domingos (a página não dá a hora)."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-divino-espirito-santo-2/",
+    "data": "2026-03-11",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-divino-espirito-santo-2/",
+    "data": "2026-03-11",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "A página (03/2026) ainda lista a Capela Santa Luzia e a Capela Santo Antônio de Guarapuã, que formam a Paróquia Santa Luzia desde 10/09/2026; ficaram só lá."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Dois Córregos",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "1436526776",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquia-nsa@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário Nossa Senhora Aparecida",
+    "tipo": "santuario",
+    "cidade": "Dois Córregos",
+    "localidade": "Jardim Paulista",
+    "endereco": "Rua Rio Claro, 350",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Vicente de Paulo",
+    "tipo": "capela",
+    "cidade": "Dois Córregos",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "15:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santo Expedito",
+    "tipo": "capela",
+    "cidade": "Dois Córregos",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Edwiges",
+    "tipo": "capela",
+    "cidade": "Dois Córregos",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Sebastião",
+    "tipo": "capela",
+    "cidade": "Dois Córregos",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Cristóvão",
+    "tipo": "comunidade",
+    "cidade": "Dois Córregos",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Pedro",
+    "tipo": "comunidade",
+    "cidade": "Dois Córregos",
+    "localidade": "Três Rios",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:30",
+      "semanas": [
+       1,
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade da Associação São Lourenço",
+    "tipo": "comunidade",
+    "cidade": "Dois Córregos",
+    "localidade": "Associação São Lourenço",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "11:00",
+      "semanas": [
+       2,
+       4
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "18:00",
+      "semanas": [
+       2,
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-nossa-senhora-aparecida-3/",
+    "data": "2025-12-19",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-nossa-senhora-aparecida-3/",
+    "data": "2025-12-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "A página chama a matriz de Santuário; o GCatholic a lista como Santuário N. S. da Conceição Aparecida. A Capela São Sebastião (domingo 18h) aparece também na página da Paróquia Santa Luzia com outro horário."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Luzia",
+  "categoria": "paroquia",
+  "cidade": "Dois Córregos",
+  "padroeiro": "Santa Luzia",
+  "contatos": {
+   "telefone": "1420740024",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Luzia",
+    "tipo": "matriz",
+    "cidade": "Dois Córregos",
+    "localidade": "Jardim Arco Íris",
+    "endereco": "Avenida Hugo Capucci, 1010",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Comunidade São Francisco de Assis, sem lugar nem horário na fonte."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Sebastião",
+    "tipo": "capela",
+    "cidade": "Dois Córregos",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santo Antônio de Lisboa",
+    "tipo": "capela",
+    "cidade": "Dois Córregos",
+    "localidade": "Guarapuã",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesejau.org.br/paroquia/quase-paroquia-santa-luzia-2/",
+    "data": "2026-10-03",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesejau.org.br/paroquia/quase-paroquia-santa-luzia-2/",
+    "data": "2026-10-03",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesejau.org.br/instalacao-da-paroquia-de-santa-luzia-em-dois-corregos-aconteceu-na-ultima-quinta-feira/",
+    "data": "2026-09-14",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Quase-paróquia desde 07/10/2025, instalada como paróquia em 10/09/2026. A página também dá o número (14) 98122-4070, sem dizer de quem; ficou de fora."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Senhor Bom Jesus",
+  "categoria": "paroquia",
+  "cidade": "Ibitinga",
+  "padroeiro": "Senhor Bom Jesus",
+  "contatos": {
+   "telefone": "1633422251",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "secretariapbomjesus@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Senhor Bom Jesus",
+    "tipo": "matriz",
+    "cidade": "Ibitinga",
+    "localidade": "Centro",
+    "endereco": "Praça Cônego Eutímio Ticianelli, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Quarta-feira, novena de N. S. do Perpétuo Socorro, 15h. Quinta-feira, adoração eucarística depois da missa das 7h, até 17h."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santíssima Trindade",
+    "tipo": "capela",
+    "cidade": "Ibitinga",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São José Operário",
+    "tipo": "capela",
+    "cidade": "Ibitinga",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Ibitinga",
+    "localidade": "Correguinho",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São José",
+    "tipo": "capela",
+    "cidade": "Ibitinga",
+    "localidade": "Coqueiros",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Pedro",
+    "tipo": "capela",
+    "cidade": "Ibitinga",
+    "localidade": "Roseira",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "20:00",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-senhor-bom-jesus-2/",
+    "data": "2026-02-24",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-senhor-bom-jesus-2/",
+    "data": "2026-02-24",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Imaculada Conceição",
+  "categoria": "paroquia",
+  "cidade": "Ibitinga",
+  "padroeiro": "Imaculada Conceição",
+  "contatos": {
+   "telefone": "1633415597",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiaimaculada.ibitinga@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz da Imaculada Conceição",
+    "tipo": "matriz",
+    "cidade": "Ibitinga",
+    "localidade": "Vila Maria",
+    "endereco": "Rua Victório Tagliari, 250",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora das Graças",
+    "tipo": "capela",
+    "cidade": "Ibitinga",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora do Perpétuo Socorro",
+    "tipo": "capela",
+    "cidade": "Ibitinga",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:40",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-imaculada-conceicao/",
+    "data": "2024-10-11",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-imaculada-conceicao/",
+    "data": "2024-10-11",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "O site www.paroquiaimaculadaibitinga.com.br, citado na página, não resolveu em 13/11/2026. Página da diocese sem atualização desde 2024-10."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Paulo Apóstolo",
+  "categoria": "paroquia",
+  "cidade": "Ibitinga",
+  "padroeiro": "São Paulo Apóstolo",
+  "contatos": {
+   "telefone": "1633412210",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "saopaulo.ibitinga@diocesejau.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Paulo Apóstolo",
+    "tipo": "matriz",
+    "cidade": "Ibitinga",
+    "localidade": "Paulo di Biazi",
+    "endereco": "Rua João Maroti, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Quarta-feira, novena de N. S. do Perpétuo Socorro, 18h."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Sebastião",
+    "tipo": "comunidade",
+    "cidade": "Ibitinga",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Edwiges",
+    "tipo": "comunidade",
+    "cidade": "Ibitinga",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-sao-paulo-apostolo/",
+    "data": "2026-05-06",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-sao-paulo-apostolo/",
+    "data": "2026-05-06",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Tereza D'Ávila",
+  "categoria": "paroquia",
+  "cidade": "Ibitinga",
+  "padroeiro": "Santa Teresa de Ávila",
+  "contatos": {
+   "telefone": "1633425082",
+   "whatsapp": "1633425082",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Tereza D'Ávila",
+    "tipo": "matriz",
+    "cidade": "Ibitinga",
+    "localidade": "Vila Santa Tereza",
+    "endereco": "Rua Horizontino Negrão, 299",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": "Missa e novena do Perpétuo Socorro"
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 5,
+      "hora": "08:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Até 19h"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Judas Tadeu",
+    "tipo": "capela",
+    "cidade": "Ibitinga",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Francisco de Assis",
+    "tipo": "capela",
+    "cidade": "Ibitinga",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-santa-tereza-davila/",
+    "data": "2024-11-25",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-santa-tereza-davila/",
+    "data": "2024-11-25",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Página da diocese sem atualização desde 2024-11."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Pedro e São Cristóvão",
+  "categoria": "paroquia",
+  "cidade": "Ibitinga",
+  "padroeiro": "São Pedro e São Cristóvão",
+  "contatos": {
+   "telefone": "16996343211",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Pedro",
+    "tipo": "matriz",
+    "cidade": "Ibitinga",
+    "localidade": "Vila Izolina",
+    "endereco": "Rua João de Oliveira Custódio, 375",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Batista",
+    "tipo": "comunidade",
+    "cidade": "Ibitinga",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Catarina de Sena",
+    "tipo": "comunidade",
+    "cidade": "Ibitinga",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Ibitinga",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-sao-pedro/",
+    "data": "2025-12-12",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-sao-pedro/",
+    "data": "2025-12-12",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Luzia",
+  "categoria": "paroquia",
+  "cidade": "Ibitinga",
+  "padroeiro": "Santa Luzia",
+  "contatos": {
+   "telefone": "16997781314",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Luzia",
+    "tipo": "matriz",
+    "cidade": "Ibitinga",
+    "localidade": "Vila Simões",
+    "endereco": "Rua Honório Lorusso, 367",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela da Ressurreição",
+    "tipo": "capela",
+    "cidade": "Ibitinga",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santo Expedito",
+    "tipo": "capela",
+    "cidade": "Ibitinga",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Rainha da Paz",
+    "tipo": "capela",
+    "cidade": "Ibitinga",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Rita de Cássia",
+    "tipo": "comunidade",
+    "cidade": "Ibitinga",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesejau.org.br/paroquia/quase-paroquia-santa-luzia/",
+    "data": "2025-12-16",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesejau.org.br/paroquia/quase-paroquia-santa-luzia/",
+    "data": "2025-12-16",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesejau.org.br/um-dia-de-alegria-posse-do-padre-charles-e-elevacao-da-paroquia-santa-luzia/",
+    "data": "2025-01-31",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Elevada a paróquia em 25/01/2025."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "Itaju",
+  "padroeiro": "São Sebastião",
+  "contatos": {
+   "telefone": "1436671542",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasaosebastiao.itaju@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Sebastião",
+    "tipo": "matriz",
+    "cidade": "Itaju",
+    "localidade": "Centro",
+    "endereco": "Praça Norberto Oréfice, 327",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": [
+       3
+      ],
+      "observacao": "Missa das bênçãos"
+     }
+    ],
+    "nao_cabe": "Comunidades rurais: terça-feira, 19h."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-sao-sebastiao-3/",
+    "data": "2025-11-24",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-sao-sebastiao-3/",
+    "data": "2025-11-24",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "O GCatholic marca a matriz como santuário; a página da diocese diz só Matriz."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Divino Espírito Santo",
+  "categoria": "paroquia",
+  "cidade": "Itápolis",
+  "padroeiro": "Divino Espírito Santo",
+  "contatos": {
+   "telefone": "1632621614",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "espiritosantoparoquia@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Divino Espírito Santo",
+    "tipo": "matriz",
+    "cidade": "Itápolis",
+    "localidade": "Centro",
+    "endereco": "Rua Padre Tarallo, 751",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Quarta-feira, novena de N. S. do Perpétuo Socorro, 15h."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora do Rosário",
+    "tipo": "capela",
+    "cidade": "Itápolis",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Quarta-feira, quinzenal, 19h30."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Itápolis",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Quarta-feira, quinzenal, 19h30."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-divino-espirito-santo-3/",
+    "data": "2025-11-24",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-divino-espirito-santo-3/",
+    "data": "2025-11-24",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio de Pádua e São Vicente de Paulo",
+  "categoria": "paroquia",
+  "cidade": "Itápolis",
+  "padroeiro": "Santo Antônio de Pádua e São Vicente de Paulo",
+  "contatos": {
+   "telefone": "1632620948",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "p.antonioevicente@bol.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio de Pádua e São Vicente de Paulo",
+    "tipo": "matriz",
+    "cidade": "Itápolis",
+    "localidade": "Centro",
+    "endereco": "Rua Victório Machado, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "20:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Comunidade rural: 1ª e 3ª quinta-feira, 20h. Capelas rurais: 2ª, 3ª e 4ª sexta-feira, 20h."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Vicente",
+    "tipo": "capela",
+    "cidade": "Itápolis",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Rita de Cássia",
+    "tipo": "capela",
+    "cidade": "Itápolis",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Última quinta-feira do mês, 20h."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade da Vila Vicentina",
+    "tipo": "comunidade",
+    "cidade": "Itápolis",
+    "localidade": "Vila Vicentina",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-santo-antonio-de-padua-e-sao-vicente-de-paulo/",
+    "data": "2024-10-11",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-santo-antonio-de-padua-e-sao-vicente-de-paulo/",
+    "data": "2024-10-11",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Página da diocese sem atualização desde 2024-10."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Benedito",
+  "categoria": "paroquia",
+  "cidade": "Itápolis",
+  "padroeiro": "São Benedito",
+  "contatos": {
+   "telefone": "1632622068",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Benedito",
+    "tipo": "matriz",
+    "cidade": "Itápolis",
+    "localidade": "Jardim São Benedito",
+    "endereco": "Rua México, 78",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Quarta-feira, novena de N. S. do Perpétuo Socorro, 19h30."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Clara",
+    "tipo": "capela",
+    "cidade": "Itápolis",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-sao-benedito-2/",
+    "data": "2025-10-15",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-sao-benedito-2/",
+    "data": "2025-10-15",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Itápolis",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Itápolis",
+    "localidade": "Nova América",
+    "endereco": "Rua Alonso Teixeira, 471",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-nossa-senhora-aparecida-5/",
+    "data": "2024-10-11",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-nossa-senhora-aparecida-5/",
+    "data": "2024-10-11",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Matriz no distrito de Nova América. A página não traz telefone nem e-mail. Página da diocese sem atualização desde 2024-10."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Bom Jesus",
+  "categoria": "paroquia",
+  "cidade": "Itápolis",
+  "padroeiro": "Senhor Bom Jesus",
+  "contatos": {
+   "telefone": "16997674541",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Bom Jesus",
+    "tipo": "matriz",
+    "cidade": "Itápolis",
+    "localidade": "Tapinas",
+    "endereco": "Rua João Nery, 615",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-bom-jesus/",
+    "data": "2025-12-16",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-bom-jesus/",
+    "data": "2025-12-16",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Matriz no distrito de Tapinas. O único contato da página é um celular, publicado como contato da paróquia."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio de Pádua",
+  "categoria": "paroquia",
+  "cidade": "Itapuí",
+  "padroeiro": "Santo Antônio de Pádua",
+  "contatos": {
+   "telefone": "1436641812",
+   "whatsapp": "14977400694",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio de Pádua",
+    "tipo": "matriz",
+    "cidade": "Itapuí",
+    "localidade": "Centro",
+    "endereco": "Praça da Matriz, 57",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": "Missa e novena do Perpétuo Socorro"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Igreja de São Frei Galvão e Santa Filomena",
+    "tipo": "capela",
+    "cidade": "Itapuí",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São José",
+    "tipo": "capela",
+    "cidade": "Itapuí",
+    "localidade": "Barra Mansa",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "16:30",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Itapuí",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Benedito",
+    "tipo": "capela",
+    "cidade": "Itapuí",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": [
+       2,
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Sebastião",
+    "tipo": "capela",
+    "cidade": "Itapuí",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": [
+       1,
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora das Graças",
+    "tipo": "capela",
+    "cidade": "Itapuí",
+    "localidade": "Baririzinho",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Cemitério",
+    "tipo": "capela",
+    "cidade": "Itapuí",
+    "localidade": "Cemitério",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "07:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-santo-antonio-de-padua/",
+    "data": "2025-12-19",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-santo-antonio-de-padua/",
+    "data": "2025-12-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sagrado Coração de Jesus",
+  "categoria": "paroquia",
+  "cidade": "Nova Europa",
+  "padroeiro": "Sagrado Coração de Jesus",
+  "contatos": {
+   "telefone": "16997233728",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "p.scj.ne@live.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Sagrado Coração de Jesus",
+    "tipo": "matriz",
+    "cidade": "Nova Europa",
+    "localidade": "Centro",
+    "endereco": "Rua Rodrigues Alves, 197",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-sagrado-coracao-de-jesus/",
+    "data": "2024-10-11",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-sagrado-coracao-de-jesus/",
+    "data": "2024-10-11",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Página da diocese sem atualização desde 2024-10."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Bom Conselho",
+  "categoria": "paroquia",
+  "cidade": "Tabatinga",
+  "padroeiro": "Nossa Senhora do Bom Conselho",
+  "contatos": {
+   "telefone": "1633217575",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "conselho_tabatinga@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Bom Conselho",
+    "tipo": "matriz",
+    "cidade": "Tabatinga",
+    "localidade": "Centro",
+    "endereco": "Rua Dario Rodrigues Louzada, 278",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Segunda a sexta-feira, 6h: celebração da Palavra com Eucaristia."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Tabatinga",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Benedito",
+    "tipo": "comunidade",
+    "cidade": "Tabatinga",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Tabatinga",
+    "localidade": "Córrego do Meio",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "20:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Tabatinga",
+    "localidade": "Vila Rossini",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Tabatinga",
+    "localidade": "Tremembé",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Só nos meses pares"
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Tabatinga",
+    "localidade": "Macaúba",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Só nos meses ímpares"
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-nossa-senhora-do-bom-conselho/",
+    "data": "2025-10-15",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-nossa-senhora-do-bom-conselho/",
+    "data": "2025-10-15",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Tabatinga",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "1633856140",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Tabatinga",
+    "localidade": "Curupá",
+    "endereco": "Avenida XV de Novembro, 225",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": "Até 15h"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "08:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Batista",
+    "tipo": "comunidade",
+    "cidade": "Tabatinga",
+    "localidade": "Curupá",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Bento",
+    "tipo": "comunidade",
+    "cidade": "Tabatinga",
+    "localidade": "Arizona",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Roque",
+    "tipo": "comunidade",
+    "cidade": "Tabatinga",
+    "localidade": "Forma",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "20:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-nossa-senhora-aparecida-4/",
+    "data": "2025-12-19",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-nossa-senhora-aparecida-4/",
+    "data": "2025-12-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Matriz no distrito de Curupá."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José",
+  "categoria": "paroquia",
+  "cidade": "Torrinha",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "1436561318",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "saojosetorrinha@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José",
+    "tipo": "matriz",
+    "cidade": "Torrinha",
+    "localidade": "Centro",
+    "endereco": "Rua Sete de Abril, 600",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Comunidades rurais: terça-feira, 19h30."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Torrinha",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Torrinha",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Mosteiro Paraíso",
+    "tipo": "comunidade",
+    "cidade": "Torrinha",
+    "localidade": "Bairro Paraíso",
+    "endereco": "Rodovia Cezarino Mariano, km 12",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": "Missa e novena do Perpétuo Socorro"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-sao-jose-3/",
+    "data": "2025-10-15",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesejau.org.br/paroquia/paroquia-sao-jose-3/",
+    "data": "2025-10-15",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesejau.org.br/paroquia/mosteiro-paraiso-agromonges/",
+    "data": "2024-10-11",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "O Mosteiro Paraíso (Agromonges), que a diocese lista entre as paróquias, entrou como comunidade desta paróquia, a única de Torrinha; horários da página do mosteiro (10/2024)."
+ }
+]
