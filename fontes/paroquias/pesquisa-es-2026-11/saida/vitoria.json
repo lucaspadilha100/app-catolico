@@ -1,0 +1,4210 @@
+[
+ {
+  "id_banco": null,
+  "nome": "Catedral Metropolitana de Nossa Senhora da Vitória",
+  "categoria": "catedral",
+  "cidade": "Vitória",
+  "padroeiro": "Nossa Senhora da Vitória",
+  "contatos": {
+   "telefone": "2732230590",
+   "whatsapp": "",
+   "instagram": "catedralvix",
+   "site": "",
+   "email": "pcatedral@aves.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Catedral Metropolitana de Nossa Senhora da Vitória",
+    "tipo": "matriz",
+    "cidade": "Vitória",
+    "localidade": "Centro",
+    "endereco": "Praça Dom Luís Scortegagna, s/n, Cidade Alta",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/nossa-senhora-da-vitoria/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Horários só saem em notícias de jornal, não em página da catedral ou da arquidiocese. Instagram visto em trecho de notícia."
+ },
+ {
+  "id_banco": null,
+  "nome": "Basílica Santuário de Santo Antônio",
+  "categoria": "basilica",
+  "cidade": "Vitória",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "2733220703",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "https://basilicadesantoantonio.com.br",
+   "email": "paroquiadesantoantonioaves@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Basílica Santuário de Santo Antônio",
+    "tipo": "santuario",
+    "cidade": "Vitória",
+    "localidade": "Santo Antônio",
+    "endereco": "Rua Lodovico Pavoni, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": "Até 19h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": "Até 19h"
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://basilicadesantoantonio.com.br/missas/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://basilicadesantoantonio.com.br/confissoes/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.aves.org.br/paroquias/basilica-de-santo-antonio/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Padroeiro da cidade de Vitória; aos cuidados dos padres pavonianos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia da Sagrada Família",
+  "categoria": "paroquia",
+  "cidade": "Vitória",
+  "padroeiro": "Sagrada Família",
+  "contatos": {
+   "telefone": "27995824179",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "igrejasagradafamiliajc@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz da Sagrada Família",
+    "tipo": "matriz",
+    "cidade": "Vitória",
+    "localidade": "Jardim Camburi",
+    "endereco": "Rua Belmiro Teixeira Pimenta, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/sagrada-familia-2/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia da Ressurreição",
+  "categoria": "paroquia",
+  "cidade": "Vitória",
+  "padroeiro": "Ressurreição do Senhor",
+  "contatos": {
+   "telefone": "2733279951",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "pgoiabeiras@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz da Ressurreição",
+    "tipo": "matriz",
+    "cidade": "Vitória",
+    "localidade": "Goiabeiras",
+    "endereco": "Avenida Presidente Costa e Silva, 77",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/ressurreicao/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São Pedro",
+  "categoria": "paroquia",
+  "cidade": "Vitória",
+  "padroeiro": "São Pedro",
+  "contatos": {
+   "telefone": "2733240130",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "psaopedro@psaopedro.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Pedro",
+    "tipo": "matriz",
+    "cidade": "Vitória",
+    "localidade": "Praia do Suá",
+    "endereco": "Rua Neves Armond, 43",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/sao-pedro-4/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado; o site próprio (psaopedro.org.br) estava fora do ar na pesquisa."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São Pedro",
+  "categoria": "paroquia",
+  "cidade": "Vitória",
+  "padroeiro": "São Pedro",
+  "contatos": {
+   "telefone": "27997744164",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "pvilarubim@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Pedro",
+    "tipo": "matriz",
+    "cidade": "Vitória",
+    "localidade": "Vila Rubim",
+    "endereco": "Rua Santo André, 85",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/sao-pedro-3/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São Pedro Apóstolo",
+  "categoria": "paroquia",
+  "cidade": "Vitória",
+  "padroeiro": "São Pedro Apóstolo",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Pedro Apóstolo",
+    "tipo": "matriz",
+    "cidade": "Vitória",
+    "localidade": "Conquista",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/sao-pedro-apostolo/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário fixo publicado: a página da paróquia no site da arquidiocese traz só uma agenda de maio de 2021. Fica na região da Grande São Pedro."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São Francisco de Assis",
+  "categoria": "paroquia",
+  "cidade": "Vitória",
+  "padroeiro": "São Francisco de Assis",
+  "contatos": {
+   "telefone": "2730249700",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "https://www.paroquiasaofranciscojp.com",
+   "email": "pjpenha@aves.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Francisco de Assis",
+    "tipo": "matriz",
+    "cidade": "Vitória",
+    "localidade": "Jardim da Penha",
+    "endereco": "Praça Annibal Anthero Martins, 25",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/sao-francisco-de-assis-5/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "O site próprio tem página de missas, mas o conteúdo não carrega sem navegador (Wix); sem horário confirmado."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora das Graças",
+  "categoria": "paroquia",
+  "cidade": "Vitória",
+  "padroeiro": "Nossa Senhora das Graças",
+  "contatos": {
+   "telefone": "2732230476",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquianossasenhoradasgracas@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora das Graças",
+    "tipo": "matriz",
+    "cidade": "Vitória",
+    "localidade": "Jucutuquara",
+    "endereco": "Rua Mário Aguirre, 65",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/nossa-senhora-das-gracas-2/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "A página de horários no site da arquidiocese (2021) está vazia; sem horário confirmado."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Santa Luzia",
+  "categoria": "paroquia",
+  "cidade": "Vitória",
+  "padroeiro": "Santa Luzia",
+  "contatos": {
+   "telefone": "27995811733",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "psluzia@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Luzia",
+    "tipo": "matriz",
+    "cidade": "Vitória",
+    "localidade": "Santa Luíza",
+    "endereco": "Rua Vitalino dos Santos Valadares, 353",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/santa-luzia-2/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Santa Rita de Cássia",
+  "categoria": "paroquia",
+  "cidade": "Vitória",
+  "padroeiro": "Santa Rita de Cássia",
+  "contatos": {
+   "telefone": "2732270010",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "secretaria.psrc@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Rita de Cássia",
+    "tipo": "matriz",
+    "cidade": "Vitória",
+    "localidade": "Praia do Canto",
+    "endereco": "Rua Fortunato Ramos, 345",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/santa-rita-de-cassia-2/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Santa Teresa de Calcutá",
+  "categoria": "paroquia",
+  "cidade": "Vitória",
+  "padroeiro": "Santa Teresa de Calcutá",
+  "contatos": {
+   "telefone": "2730296080",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "secretariapstc@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Teresa de Calcutá",
+    "tipo": "matriz",
+    "cidade": "Vitória",
+    "localidade": "Itararé",
+    "endereco": "Rua Argeu Faria Gomes, 62B",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/santa-teresa-de-calcuta/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São Camilo de Lellis",
+  "categoria": "paroquia",
+  "cidade": "Vitória",
+  "padroeiro": "São Camilo de Lellis",
+  "contatos": {
+   "telefone": "2733240927",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "psaocamilo@aves.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Camilo de Lellis",
+    "tipo": "matriz",
+    "cidade": "Vitória",
+    "localidade": "Mata da Praia",
+    "endereco": "Avenida Antônio Borges, 194",
+    "horarios": [
+     {
+      "tipo": "confissao",
+      "dia_semana": 2,
+      "hora": "14:30",
+      "semanas": null,
+      "observacao": "Até 19h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "14:30",
+      "semanas": null,
+      "observacao": "Até 19h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "14:30",
+      "semanas": null,
+      "observacao": "Até 19h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "14:30",
+      "semanas": null,
+      "observacao": "Até 19h"
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/atendimento-na-paroquia-4/",
+    "data": "2021-06-08",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.aves.org.br/paroquias/sao-camilo-de-lellis/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Só o horário de confissões foi publicado (site da arquidiocese, 2021); missas sem fonte."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São José",
+  "categoria": "paroquia",
+  "cidade": "Vitória",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "2733255082",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "pmaruipe@aves.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José",
+    "tipo": "matriz",
+    "cidade": "Vitória",
+    "localidade": "Maruípe",
+    "endereco": "Praça São José Operário, 125",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/sao-jose-3/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Santuário de Nossa Senhora da Penha",
+  "categoria": "santuario",
+  "cidade": "Vila Velha",
+  "padroeiro": "Nossa Senhora da Penha",
+  "contatos": {
+   "telefone": "2733290420",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "https://conventodapenha.org.br",
+   "email": "convento.penha@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário de Nossa Senhora da Penha",
+    "tipo": "santuario",
+    "cidade": "Vila Velha",
+    "localidade": "Prainha",
+    "endereco": "Rua Vasco Coutinho, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "11:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "11:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "11:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "11:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "11:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "11:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "15:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "15:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "15:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "05:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "15:30",
+      "semanas": null,
+      "observacao": "Missa da Saúde, no Campinho"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "15:30",
+      "semanas": null,
+      "observacao": "No Campinho"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "No Campinho"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "11:00",
+      "semanas": null,
+      "observacao": "No Campinho"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "15:30",
+      "semanas": null,
+      "observacao": "No Campinho"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 2,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": "Até 11h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": "Até 11h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": "Até 11h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": "Até 11h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 6,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": "Até 11h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 2,
+      "hora": "14:30",
+      "semanas": null,
+      "observacao": "Até 16h30"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "14:30",
+      "semanas": null,
+      "observacao": "Até 16h30"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "14:30",
+      "semanas": null,
+      "observacao": "Até 16h30"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "14:30",
+      "semanas": null,
+      "observacao": "Até 16h30"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 6,
+      "hora": "14:30",
+      "semanas": null,
+      "observacao": "Até 16h30"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": "Até 11h"
+     }
+    ],
+    "nao_cabe": "Confissões por ordem de chegada, podem encerrar antes"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://conventodapenha.org.br/horarios-de-missas/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.aves.org.br/paroquias/convento-nossa-senhora-da-penha/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Convento da Penha, aos cuidados dos franciscanos; principal santuário do Espírito Santo, não é paróquia. Missas na capela do convento e no Campinho."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora do Rosário",
+  "categoria": "paroquia",
+  "cidade": "Vila Velha",
+  "padroeiro": "Nossa Senhora do Rosário",
+  "contatos": {
+   "telefone": "2733291266",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "https://paroquiadorosario.com",
+   "email": "secretaria@paroquiadorosario.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Rosário",
+    "tipo": "matriz",
+    "cidade": "Vila Velha",
+    "localidade": "Prainha",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "17:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Santuário do Divino Espírito Santo",
+    "tipo": "santuario",
+    "cidade": "Vila Velha",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "11:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://paroquiadorosario.com/horarios-de-missa/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.aves.org.br/paroquias/nossa-senhora-do-rosario/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Aos cuidados dos franciscanos; a matriz, na Prainha, é a igreja mais antiga do ES. Secretaria na Rua Cabo Aylson Simões, 762, Centro. O site lista ainda 8 comunidades com missa de domingo, sem o endereço de cada uma."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia do Bom Pastor",
+  "categoria": "paroquia",
+  "cidade": "Vila Velha",
+  "padroeiro": "Bom Pastor",
+  "contatos": {
+   "telefone": "2732995538",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "https://bompastorpraia.com.br",
+   "email": "secretaria@bompastorpraia.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Bom Pastor",
+    "tipo": "matriz",
+    "cidade": "Vila Velha",
+    "localidade": "Praia da Costa",
+    "endereco": "Rua Romero Lofego Botelho, 350",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": "Com bênção de Santo Antônio"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": "Com bênção de cura e libertação"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 5,
+      "hora": "18:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 2,
+      "hora": "15:30",
+      "semanas": null,
+      "observacao": "Até 18h30"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "15:30",
+      "semanas": null,
+      "observacao": "Até 18h30"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "15:30",
+      "semanas": null,
+      "observacao": "Até 18h30"
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://bompastorpraia.com.br/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.aves.org.br/paroquias/bom-pastor-3/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora do Perpétuo Socorro",
+  "categoria": "paroquia",
+  "cidade": "Vila Velha",
+  "padroeiro": "Nossa Senhora do Perpétuo Socorro",
+  "contatos": {
+   "telefone": "2733294282",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "https://nspsocorro.com.br",
+   "email": "ppspraiadacosta@aves.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Perpétuo Socorro",
+    "tipo": "matriz",
+    "cidade": "Vila Velha",
+    "localidade": "Praia da Costa",
+    "endereco": "Rua 15 de Novembro, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/nossa-senhora-do-perpetuo-socorro/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "O site próprio publica as missas só num calendário dinâmico, sem quadro fixo; sem horário confirmado."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora da Conceição Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Vila Velha",
+  "padroeiro": "Nossa Senhora da Conceição Aparecida",
+  "contatos": {
+   "telefone": "2733697088",
+   "whatsapp": "27998368196",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Conceição Aparecida",
+    "tipo": "matriz",
+    "cidade": "Vila Velha",
+    "localidade": "Cobilândia",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/atendimento-na-paroquia-3/",
+    "data": "2021-06-02",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.aves.org.br/paroquias/nossasenhoraaparecida/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "A página de horários no site da arquidiocese (2021) está vazia; sem horário confirmado. Bairro visto em trecho de notícia."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora da Glória",
+  "categoria": "paroquia",
+  "cidade": "Vila Velha",
+  "padroeiro": "Nossa Senhora da Glória",
+  "contatos": {
+   "telefone": "2733190004",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "pnsgloria@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Glória",
+    "tipo": "matriz",
+    "cidade": "Vila Velha",
+    "localidade": "Glória",
+    "endereco": "Rua Euclides Arrivabene, 13",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/nossa-senhora-da-gloria/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora das Graças",
+  "categoria": "paroquia",
+  "cidade": "Vila Velha",
+  "padroeiro": "Nossa Senhora das Graças",
+  "contatos": {
+   "telefone": "2733894295",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquia.coqueiral@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora das Graças",
+    "tipo": "matriz",
+    "cidade": "Vila Velha",
+    "localidade": "Coqueiral de Itaparica",
+    "endereco": "Rua Itaiabaia, 495",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/nossa-senhora-das-gracas/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora de Guadalupe",
+  "categoria": "paroquia",
+  "cidade": "Vila Velha",
+  "padroeiro": "Nossa Senhora de Guadalupe",
+  "contatos": {
+   "telefone": "2732990951",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "guadalupeitaparica@yahoo.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora de Guadalupe",
+    "tipo": "matriz",
+    "cidade": "Vila Velha",
+    "localidade": "Praia de Itaparica",
+    "endereco": "Avenida Estudante José Júlio de Souza, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/nossa-senhora-de-guadalupe/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora de Nazaré",
+  "categoria": "paroquia",
+  "cidade": "Vila Velha",
+  "padroeiro": "Nossa Senhora de Nazaré",
+  "contatos": {
+   "telefone": "27997554394",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquianazarepontadafruta@yahoo.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora de Nazaré",
+    "tipo": "matriz",
+    "cidade": "Vila Velha",
+    "localidade": "Ponta da Fruta",
+    "endereco": "Rua Minas Gerais, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/nossa-senhora-de-nazare/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora dos Navegantes",
+  "categoria": "paroquia",
+  "cidade": "Vila Velha",
+  "padroeiro": "Nossa Senhora dos Navegantes",
+  "contatos": {
+   "telefone": "2732601488",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "secretaria@paroquianavegantes.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora dos Navegantes",
+    "tipo": "matriz",
+    "cidade": "Vila Velha",
+    "localidade": "Barra do Jucu",
+    "endereco": "Avenida Álvares de Azevedo, 29, Cidade da Barra",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/nossa-senhora-dos-navegantes-2/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Santa Cruz",
+  "categoria": "paroquia",
+  "cidade": "Vila Velha",
+  "padroeiro": "Santa Cruz",
+  "contatos": {
+   "telefone": "2733116067",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiadesantacruz2016@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Cruz",
+    "tipo": "matriz",
+    "cidade": "Vila Velha",
+    "localidade": "Vale Encantado",
+    "endereco": "Rua Cristalina, 796",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/santa-cruz/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Santa Mãe de Deus",
+  "categoria": "paroquia",
+  "cidade": "Vila Velha",
+  "padroeiro": "Santa Mãe de Deus",
+  "contatos": {
+   "telefone": "2732292264",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasantamaededeus@bol.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Mãe de Deus",
+    "tipo": "matriz",
+    "cidade": "Vila Velha",
+    "localidade": "Ibes",
+    "endereco": "Praça Assis Chateaubriand, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/santa-mae-de-deus/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Santa Rita de Cássia",
+  "categoria": "paroquia",
+  "cidade": "Vila Velha",
+  "padroeiro": "Santa Rita de Cássia",
+  "contatos": {
+   "telefone": "2733395076",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasantarita@aves.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Rita de Cássia",
+    "tipo": "matriz",
+    "cidade": "Vila Velha",
+    "localidade": "Santa Rita",
+    "endereco": "Rua Darcy Vargas, 300",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/santaritavv/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Santa Terezinha do Menino Jesus",
+  "categoria": "paroquia",
+  "cidade": "Vila Velha",
+  "padroeiro": "Santa Terezinha do Menino Jesus",
+  "contatos": {
+   "telefone": "2733599031",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiapaul@aves.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Terezinha do Menino Jesus",
+    "tipo": "matriz",
+    "cidade": "Vila Velha",
+    "localidade": "Paul",
+    "endereco": "Estrada Jerônimo Monteiro, 341",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/santa-terezinha-do-menino-jesus/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Santo Antônio de Pádua",
+  "categoria": "paroquia",
+  "cidade": "Vila Velha",
+  "padroeiro": "Santo Antônio de Pádua",
+  "contatos": {
+   "telefone": "2721800418",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasantoantoniodepadua@aves.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio de Pádua",
+    "tipo": "matriz",
+    "cidade": "Vila Velha",
+    "localidade": "Soteco",
+    "endereco": "Rua Visconde de Taunay, 20",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/santo-antonio-de-padua/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Santo Antônio de Sant'Ana Galvão",
+  "categoria": "paroquia",
+  "cidade": "Vila Velha",
+  "padroeiro": "Santo Antônio de Sant'Ana Galvão",
+  "contatos": {
+   "telefone": "27995898593",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiafreigalvao2011@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio de Sant'Ana Galvão",
+    "tipo": "matriz",
+    "cidade": "Vila Velha",
+    "localidade": "Guaranhuns",
+    "endereco": "Avenida Sérgio Cardoso, 877",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/santo-antonio-de-santana-galvao/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São Francisco de Assis",
+  "categoria": "paroquia",
+  "cidade": "Vila Velha",
+  "padroeiro": "São Francisco de Assis",
+  "contatos": {
+   "telefone": "2733298700",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "https://portadeassis.com.br",
+   "email": "paroquia@portadeassis.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Francisco de Assis",
+    "tipo": "matriz",
+    "cidade": "Vila Velha",
+    "localidade": "Itapuã",
+    "endereco": "Rua Doutor Jair de Andrade, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/sao-francisco-de-assis-4/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "O site próprio publica as missas numa agenda mensal dinâmica, sem quadro fixo; tem as comunidades Sagrado Coração de Jesus, São Pedro Pescador e Santa Clara de Assis, sem endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São João Paulo II",
+  "categoria": "paroquia",
+  "cidade": "Vila Velha",
+  "padroeiro": "São João Paulo II",
+  "contatos": {
+   "telefone": "2733893431",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Paulo II",
+    "tipo": "matriz",
+    "cidade": "Vila Velha",
+    "localidade": "Itaparica",
+    "endereco": "Avenida Saturnino Rangel Mauro, 226",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/sao-joao-paulo-ii/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São Lucas",
+  "categoria": "paroquia",
+  "cidade": "Vila Velha",
+  "padroeiro": "São Lucas",
+  "contatos": {
+   "telefone": "2733495866",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasaolucas2014@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Lucas",
+    "tipo": "matriz",
+    "cidade": "Vila Velha",
+    "localidade": "Novo México",
+    "endereco": "Rua Rosa de Ouro, 275",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/sao-lucas/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São Vicente de Paulo",
+  "categoria": "paroquia",
+  "cidade": "Vila Velha",
+  "padroeiro": "São Vicente de Paulo",
+  "contatos": {
+   "telefone": "2733613936",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "psvp@aves.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Vicente de Paulo",
+    "tipo": "matriz",
+    "cidade": "Vila Velha",
+    "localidade": "Aribiri",
+    "endereco": "Rua José Vereza, 628",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/sao-vicente-de-paulo-vila-velha/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço. Não consta no anuário GCatholic."
+ },
+ {
+  "id_banco": null,
+  "nome": "Santuário do Rosário de Fátima",
+  "categoria": "santuario",
+  "cidade": "Serra",
+  "padroeiro": "Nossa Senhora do Rosário de Fátima",
+  "contatos": {
+   "telefone": "2733471534",
+   "whatsapp": "",
+   "instagram": "santuarioparoquia",
+   "site": "",
+   "email": "santuariodefatima@aves.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário do Rosário de Fátima",
+    "tipo": "santuario",
+    "cidade": "Serra",
+    "localidade": "Bairro de Fátima",
+    "endereco": "Rua Maria Delunardo Trancoso, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/santuario-do-rosario-de-fatima/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Paróquia e santuário. Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia do Bom Pastor",
+  "categoria": "paroquia",
+  "cidade": "Serra",
+  "padroeiro": "Bom Pastor",
+  "contatos": {
+   "telefone": "27998720595",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiabompastornc@aves.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Bom Pastor",
+    "tipo": "matriz",
+    "cidade": "Serra",
+    "localidade": "Nova Carapina I",
+    "endereco": "Rua Teófilo Otoni, 43",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": "Até 11h30"
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": "Até 11h30"
+     }
+    ],
+    "nao_cabe": "Podem ocorrer alterações pela agenda mensal da paróquia"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Nossa Senhora do Rosário",
+    "tipo": "comunidade",
+    "cidade": "Serra",
+    "localidade": "Pitanga",
+    "endereco": "Rua Miguel José",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": "Missa ou Celebração da Palavra"
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Nossa Senhora da Penha",
+    "tipo": "comunidade",
+    "cidade": "Serra",
+    "localidade": "Barro Branco",
+    "endereco": "Rua Nossa Senhora da Penha",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": "Missa ou Celebração da Palavra"
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": "Com o terço"
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Nossa Senhora da Vitória",
+    "tipo": "comunidade",
+    "cidade": "Serra",
+    "localidade": "Nova Carapina II",
+    "endereco": "Rua Tiri",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": "Missa ou Celebração da Palavra"
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade da Sagrada Família",
+    "tipo": "comunidade",
+    "cidade": "Serra",
+    "localidade": "Nova Carapina II",
+    "endereco": "Rua Cristalina, 17",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": "Missa ou Celebração da Palavra"
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Serra",
+    "localidade": "Cidade Pomar",
+    "endereco": "Avenida Pau Brasil, 17",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": "Missa ou Celebração da Palavra"
+     }
+    ],
+    "nao_cabe": "Adoração: quinta-feira do mês às 19h30"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/matriz-bom-pastor/",
+    "data": "2023-01-03",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.aves.org.br/atendimento-2/",
+    "data": "2022-10-24",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.aves.org.br/paroquias/bom-pastor-serra/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "As comunidades são CEBs listadas pela página da paróquia no site da arquidiocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora da Conceição",
+  "categoria": "paroquia",
+  "cidade": "Serra",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "2732511187",
+   "whatsapp": "",
+   "instagram": "nsraconceicao.serraes",
+   "site": "",
+   "email": "paroquiadaserra@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "Serra",
+    "localidade": "Serra Sede",
+    "endereco": "Praça Barbosa Leão, s/n, Centro",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/nossa-senhora-da-conceicao-4/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia da Epifania do Senhor aos Reis Magos",
+  "categoria": "paroquia",
+  "cidade": "Serra",
+  "padroeiro": "Epifania do Senhor",
+  "contatos": {
+   "telefone": "2732531171",
+   "whatsapp": "",
+   "instagram": "paroquiaepifaniareismagosofc",
+   "site": "",
+   "email": "paroquiaepifania@aves.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz da Epifania do Senhor aos Reis Magos",
+    "tipo": "matriz",
+    "cidade": "Serra",
+    "localidade": "Nova Almeida",
+    "endereco": "Travessa Reis Magos II",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/epifania-do-senhor-aos-reis-magos/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço. Junto fica a igreja histórica dos Reis Magos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora da Esperança",
+  "categoria": "paroquia",
+  "cidade": "Serra",
+  "padroeiro": "Nossa Senhora da Esperança",
+  "contatos": {
+   "telefone": "2732388134",
+   "whatsapp": "",
+   "instagram": "pnsesperanca_serra",
+   "site": "",
+   "email": "paroquianossasenhoradaesperanca@aves.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Esperança",
+    "tipo": "matriz",
+    "cidade": "Serra",
+    "localidade": "Cidade Continental, Setor Ásia",
+    "endereco": "Rua Gengis Kan, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/nossa-senhora-da-esperanca/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora da Penha",
+  "categoria": "paroquia",
+  "cidade": "Serra",
+  "padroeiro": "Nossa Senhora da Penha",
+  "contatos": {
+   "telefone": "2733381680",
+   "whatsapp": "",
+   "instagram": "nossasenhoradapenhaserraes",
+   "site": "",
+   "email": "pnsenhoradapenha@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Penha",
+    "tipo": "matriz",
+    "cidade": "Serra",
+    "localidade": "Jardim Limoeiro",
+    "endereco": "Rua Pedro Zangrande, 45",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/nossa-senhora-da-penha-2/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora da Saúde",
+  "categoria": "paroquia",
+  "cidade": "Serra",
+  "padroeiro": "Nossa Senhora da Saúde",
+  "contatos": {
+   "telefone": "2730511500",
+   "whatsapp": "27997389007",
+   "instagram": "nossasenhoradasaudeserra",
+   "site": "",
+   "email": "paroquiansdasaude.morada@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Saúde",
+    "tipo": "matriz",
+    "cidade": "Serra",
+    "localidade": "Morada de Laranjeiras",
+    "endereco": "Rua dos Morangos, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/nossa-senhora-da-saude/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia dos Sagrados Corações de Jesus e de Maria",
+  "categoria": "paroquia",
+  "cidade": "Serra",
+  "padroeiro": "Sagrados Corações de Jesus e de Maria",
+  "contatos": {
+   "telefone": "2730655666",
+   "whatsapp": "",
+   "instagram": "sagradoscoracoesparoquia",
+   "site": "",
+   "email": "sagradoscoracoesbarcelona@aves.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz dos Sagrados Corações de Jesus e de Maria",
+    "tipo": "matriz",
+    "cidade": "Serra",
+    "localidade": "Barcelona",
+    "endereco": "Avenida Região Sudeste, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/sagrados-coracoes-de-jesus-e-de-maria/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Santa Luzia",
+  "categoria": "paroquia",
+  "cidade": "Serra",
+  "padroeiro": "Santa Luzia",
+  "contatos": {
+   "telefone": "2730510551",
+   "whatsapp": "",
+   "instagram": "paroquia_santa_luzia_jacaraipe",
+   "site": "",
+   "email": "santaluzia@aves.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Luzia",
+    "tipo": "matriz",
+    "cidade": "Serra",
+    "localidade": "Bairro das Laranjeiras, Jacaraípe",
+    "endereco": "Avenida Guarani, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/santa-luzia/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Santo André Apóstolo",
+  "categoria": "paroquia",
+  "cidade": "Serra",
+  "padroeiro": "Santo André Apóstolo",
+  "contatos": {
+   "telefone": "2730689317",
+   "whatsapp": "",
+   "instagram": "paroquiastoandrea",
+   "site": "",
+   "email": "paroquiasantoandre@aves.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo André Apóstolo",
+    "tipo": "matriz",
+    "cidade": "Serra",
+    "localidade": "André Carloni",
+    "endereco": "Rua Santo André, 46",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/santo-andre-apostolo/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São Benedito",
+  "categoria": "paroquia",
+  "cidade": "Serra",
+  "padroeiro": "São Benedito",
+  "contatos": {
+   "telefone": "27997735700",
+   "whatsapp": "",
+   "instagram": "paroquiasaobeneditoserra",
+   "site": "",
+   "email": "saobenedito@aves.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Benedito",
+    "tipo": "matriz",
+    "cidade": "Serra",
+    "localidade": "São Marcos I",
+    "endereco": "Rua Dezessete, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/sao-benedito/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São Francisco de Assis",
+  "categoria": "paroquia",
+  "cidade": "Serra",
+  "padroeiro": "São Francisco de Assis",
+  "contatos": {
+   "telefone": "2733280242",
+   "whatsapp": "",
+   "instagram": "saofranciscodeassislaranjeiras",
+   "site": "",
+   "email": "psfa.secretaria@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Francisco de Assis",
+    "tipo": "matriz",
+    "cidade": "Serra",
+    "localidade": "Laranjeiras",
+    "endereco": "Primeira Avenida, 45",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/sao-francisco-de-assis-3/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São João XXIII",
+  "categoria": "paroquia",
+  "cidade": "Serra",
+  "padroeiro": "São João XXIII",
+  "contatos": {
+   "telefone": "2732914491",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "joao23.pba@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João XXIII",
+    "tipo": "matriz",
+    "cidade": "Serra",
+    "localidade": "Planalto Serrano, Bloco A",
+    "endereco": "Avenida Bela Vista",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/sao-joao-xxiii/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São José de Anchieta",
+  "categoria": "paroquia",
+  "cidade": "Serra",
+  "padroeiro": "São José de Anchieta",
+  "contatos": {
+   "telefone": "2732280909",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "psjosedeachieta@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José de Anchieta",
+    "tipo": "matriz",
+    "cidade": "Serra",
+    "localidade": "José de Anchieta",
+    "endereco": "Rua Topázio, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/sao-jose-de-anchieta/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São José de Calasanz",
+  "categoria": "paroquia",
+  "cidade": "Serra",
+  "padroeiro": "São José de Calasanz",
+  "contatos": {
+   "telefone": "2732430639",
+   "whatsapp": "",
+   "instagram": "paroquiasaojosedecalasanz",
+   "site": "",
+   "email": "prq_sjcalasanz@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José de Calasanz",
+    "tipo": "matriz",
+    "cidade": "Serra",
+    "localidade": "Feu Rosa",
+    "endereco": "Rua Peroba Rosa, 7",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/sao-jose-de-calasanz/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São José Operário",
+  "categoria": "paroquia",
+  "cidade": "Serra",
+  "padroeiro": "São José Operário",
+  "contatos": {
+   "telefone": "2732280504",
+   "whatsapp": "",
+   "instagram": "psjocarapina",
+   "site": "",
+   "email": "secretariasjoperario@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José Operário",
+    "tipo": "matriz",
+    "cidade": "Serra",
+    "localidade": "Carapina",
+    "endereco": "Rua Independência, 6",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/sao-jose-operario/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São Paulo Apóstolo",
+  "categoria": "paroquia",
+  "cidade": "Serra",
+  "padroeiro": "São Paulo Apóstolo",
+  "contatos": {
+   "telefone": "2733410757",
+   "whatsapp": "",
+   "instagram": "saopauloapostolo.pc",
+   "site": "https://pspaserra.com.br",
+   "email": "ppcanoa@aves.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Paulo Apóstolo",
+    "tipo": "matriz",
+    "cidade": "Serra",
+    "localidade": "Porto Canoa",
+    "endereco": "Rua das Perdizes, 53",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/sao-paulo-apostolo/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado; o site próprio estava fora do ar na pesquisa."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São Pedro",
+  "categoria": "paroquia",
+  "cidade": "Serra",
+  "padroeiro": "São Pedro",
+  "contatos": {
+   "telefone": "2730792602",
+   "whatsapp": "",
+   "instagram": "paroquiasaopedrojacaraipe",
+   "site": "https://www.pspj.com.br",
+   "email": "psaopedro@aves.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Pedro",
+    "tipo": "matriz",
+    "cidade": "Serra",
+    "localidade": "Jacaraípe",
+    "endereco": "Rua Goiás, 10",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/sao-pedro-2/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado; o site próprio estava fora do ar na pesquisa."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia do Bom Jesus",
+  "categoria": "paroquia",
+  "cidade": "Cariacica",
+  "padroeiro": "Bom Jesus",
+  "contatos": {
+   "telefone": "27995277239",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiabomjesus@aves.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Bom Jesus",
+    "tipo": "matriz",
+    "cidade": "Cariacica",
+    "localidade": "Novo Horizonte",
+    "endereco": "Avenida São José, 511",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/bom-jesus/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia do Bom Pastor",
+  "categoria": "paroquia",
+  "cidade": "Cariacica",
+  "padroeiro": "Bom Pastor",
+  "contatos": {
+   "telefone": "2733436588",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "matriz@santuariobompastor.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário Bom Pastor",
+    "tipo": "santuario",
+    "cidade": "Cariacica",
+    "localidade": "Campo Grande",
+    "endereco": "Rua Dom Luís Scortegagna, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/bom-pastor/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "A matriz é santuário (anuário GCatholic). Sem horário publicado; o site próprio estava fora do ar na pesquisa."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Cristo Rei",
+  "categoria": "paroquia",
+  "cidade": "Cariacica",
+  "padroeiro": "Cristo Rei",
+  "contatos": {
+   "telefone": "2799655906",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "pdecristorei@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Cristo Rei",
+    "tipo": "matriz",
+    "cidade": "Cariacica",
+    "localidade": "Campo Verde",
+    "endereco": "Avenida Obed Emerich, 1100, Santo Antônio",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/cristo-rei/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Jesus Libertador",
+  "categoria": "paroquia",
+  "cidade": "Cariacica",
+  "padroeiro": "Jesus Libertador",
+  "contatos": {
+   "telefone": "2731911647",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiajlibertador@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Jesus Libertador",
+    "tipo": "matriz",
+    "cidade": "Cariacica",
+    "localidade": "Castelo Branco",
+    "endereco": "Rua Celestino de Almeida, 375",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/jesus-libertador/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Maria Mãe da Igreja",
+  "categoria": "paroquia",
+  "cidade": "Cariacica",
+  "padroeiro": "Maria Mãe da Igreja",
+  "contatos": {
+   "telefone": "2733479449",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "pmariamaedaigreja@outlook.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Maria Mãe da Igreja",
+    "tipo": "matriz",
+    "cidade": "Cariacica",
+    "localidade": "São Geraldo",
+    "endereco": "Rua Santana, 146",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/maria-mae-da-igreja/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora da Penha",
+  "categoria": "paroquia",
+  "cidade": "Cariacica",
+  "padroeiro": "Nossa Senhora da Penha",
+  "contatos": {
+   "telefone": "27996110654",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiaflexal@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Penha",
+    "tipo": "matriz",
+    "cidade": "Cariacica",
+    "localidade": "Flexal I",
+    "endereco": "Rua Lourival de Almeida, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/nossa-senhora-da-penha/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia da Sagrada Família Jesus, Maria e José",
+  "categoria": "paroquia",
+  "cidade": "Cariacica",
+  "padroeiro": "Sagrada Família",
+  "contatos": {
+   "telefone": "27988623488",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasagradafamilia@aves.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz da Sagrada Família",
+    "tipo": "matriz",
+    "cidade": "Cariacica",
+    "localidade": "Nova Rosa da Penha I",
+    "endereco": "Rua Quinze, 424, Quadra 13",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/sagrada-familia-jesus-maria-e-jose/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia do Sagrado Coração de Jesus",
+  "categoria": "paroquia",
+  "cidade": "Cariacica",
+  "padroeiro": "Sagrado Coração de Jesus",
+  "contatos": {
+   "telefone": "2732360998",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "sagradocjitaquari@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Sagrado Coração de Jesus",
+    "tipo": "matriz",
+    "cidade": "Cariacica",
+    "localidade": "Itaquari",
+    "endereco": "Rua Joaquim Cardoso, 16",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/sagrado-coracao-de-jesus/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Santa Maria Goretti",
+  "categoria": "paroquia",
+  "cidade": "Cariacica",
+  "padroeiro": "Santa Maria Goretti",
+  "contatos": {
+   "telefone": "2730900455",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquia.jardimamerica@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Maria Goretti",
+    "tipo": "matriz",
+    "cidade": "Cariacica",
+    "localidade": "Jardim América",
+    "endereco": "Rua Bolívia, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/santa-maria-goreti/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Sant'Ana",
+  "categoria": "paroquia",
+  "cidade": "Cariacica",
+  "padroeiro": "Sant'Ana",
+  "contatos": {
+   "telefone": "2733962105",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "p-santaana@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Sant'Ana",
+    "tipo": "matriz",
+    "cidade": "Cariacica",
+    "localidade": "Santana",
+    "endereco": "Rua Padre Osório, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/santana/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia da Santíssima Trindade",
+  "categoria": "paroquia",
+  "cidade": "Cariacica",
+  "padroeiro": "Santíssima Trindade",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz da Santíssima Trindade",
+    "tipo": "matriz",
+    "cidade": "Cariacica",
+    "localidade": "Vila Capixaba",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "1ª sexta do mês: 19h30 na CEB Nossa Senhora do Rosário"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/horarios-de-missas-santissima-trindade/",
+    "data": "2022-02-03",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.aves.org.br/paroquias/santissima-trindade/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Horários publicados pela página da paróquia no site da arquidiocese em 2022. Sem telefone publicado."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São Francisco de Assis",
+  "categoria": "paroquia",
+  "cidade": "Cariacica",
+  "padroeiro": "São Francisco de Assis",
+  "contatos": {
+   "telefone": "2733435053",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "sfparoquia@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Francisco de Assis",
+    "tipo": "matriz",
+    "cidade": "Cariacica",
+    "localidade": "São Francisco",
+    "endereco": "Rua Gilda Bonadiman, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/sao-francisco-de-assis/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São Francisco de Assis",
+  "categoria": "paroquia",
+  "cidade": "Cariacica",
+  "padroeiro": "São Francisco de Assis",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Francisco de Assis",
+    "tipo": "matriz",
+    "cidade": "Cariacica",
+    "localidade": "Porto de Santana",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/sao-francisco-de-assis-2/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário nem contato publicados; a página da paróquia no site da arquidiocese traz só notícias."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São João Batista",
+  "categoria": "paroquia",
+  "cidade": "Cariacica",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "2732541533",
+   "whatsapp": "",
+   "instagram": "sjb_paroquia",
+   "site": "",
+   "email": "paroquia.sjbatista@outlook.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Batista",
+    "tipo": "matriz",
+    "cidade": "Cariacica",
+    "localidade": "Cariacica Sede",
+    "endereco": "Praça Marechal Deodoro, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/sao-joao-batista/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia da Virgem Maria",
+  "categoria": "paroquia",
+  "cidade": "Cariacica",
+  "padroeiro": "Virgem Maria",
+  "contatos": {
+   "telefone": "2733364238",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiavirgemmaria@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz da Virgem Maria",
+    "tipo": "matriz",
+    "cidade": "Cariacica",
+    "localidade": "Itacibá",
+    "endereco": "Rua Anselmo Modenesi, 15",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/virgem-maria/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Mãe da Divina Misericórdia",
+  "categoria": "paroquia",
+  "cidade": "Viana",
+  "padroeiro": "Mãe da Divina Misericórdia",
+  "contatos": {
+   "telefone": "27998625582",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "pmdmisericordia@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Mãe da Divina Misericórdia",
+    "tipo": "matriz",
+    "cidade": "Viana",
+    "localidade": "Marcílio de Noronha",
+    "endereco": "Avenida Espírito Santo",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/mae-da-divina-misericordia/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora da Conceição",
+  "categoria": "paroquia",
+  "cidade": "Viana",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "2732551237",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "pnsconceicao@aves.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "Viana",
+    "localidade": "Centro",
+    "endereco": "Rua Alvimar Silva, 76",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/nossa-senhora-da-conceicao-3/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Santa Clara de Assis",
+  "categoria": "paroquia",
+  "cidade": "Viana",
+  "padroeiro": "Santa Clara de Assis",
+  "contatos": {
+   "telefone": "2733362980",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasantaclaradeassis@ig.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Clara de Assis",
+    "tipo": "matriz",
+    "cidade": "Viana",
+    "localidade": "Vila Bethânia",
+    "endereco": "Rua Minas Gerais, 39",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/santa-clara-de-assis/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia do Bem-Aventurado Padre Eustáquio",
+  "categoria": "paroquia",
+  "cidade": "Guarapari",
+  "padroeiro": "Bem-Aventurado Padre Eustáquio",
+  "contatos": {
+   "telefone": "2732620241",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiabeatopadreeustaquio@aves.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Bem-Aventurado Padre Eustáquio",
+    "tipo": "matriz",
+    "cidade": "Guarapari",
+    "localidade": "Concha D'Ostra",
+    "endereco": "Rua Alvaro Ferreira de Carvalho, 36, Bairro Kubitschek",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/bem-aventurado-padre-eustaquio-van-lieshout/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora da Conceição",
+  "categoria": "paroquia",
+  "cidade": "Guarapari",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "2732610881",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "secretaria@pnscguarapari.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "Guarapari",
+    "localidade": "Centro",
+    "endereco": "Rua Davino Mattos, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/nossa-senhora-da-conceicao/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora de Lourdes",
+  "categoria": "paroquia",
+  "cidade": "Guarapari",
+  "padroeiro": "Nossa Senhora de Lourdes",
+  "contatos": {
+   "telefone": "2733625803",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "pnslourdesg@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora de Lourdes",
+    "tipo": "matriz",
+    "cidade": "Guarapari",
+    "localidade": "Perocão",
+    "endereco": "Rua Andaluzita, 200, Santa Mônica",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/nossa-senhora-de-lourdes/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora dos Navegantes",
+  "categoria": "paroquia",
+  "cidade": "Guarapari",
+  "padroeiro": "Nossa Senhora dos Navegantes",
+  "contatos": {
+   "telefone": "27997302173",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "navegantesparoquia@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora dos Navegantes",
+    "tipo": "matriz",
+    "cidade": "Guarapari",
+    "localidade": "Meaípe",
+    "endereco": "Rua Izaltino Alves de Souza, s/n, Balneário de Meaípe",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/nossa-senhora-dos-navegantes/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia da Sagrada Família",
+  "categoria": "paroquia",
+  "cidade": "Guarapari",
+  "padroeiro": "Sagrada Família",
+  "contatos": {
+   "telefone": "2732626191",
+   "whatsapp": "",
+   "instagram": "paroquiasagradafamiliapdm",
+   "site": "",
+   "email": "sagradafamiliapraiadomorro@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz da Sagrada Família",
+    "tipo": "matriz",
+    "cidade": "Guarapari",
+    "localidade": "Praia do Morro",
+    "endereco": "Rua Ana Porto Simões, 299",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/sagrada-familia/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São José",
+  "categoria": "paroquia",
+  "cidade": "Guarapari",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "2732629287",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasaojosegri@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José",
+    "tipo": "matriz",
+    "cidade": "Guarapari",
+    "localidade": "São José",
+    "endereco": "Rua Santo Amaro, 26",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/sao-jose/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São Pedro",
+  "categoria": "paroquia",
+  "cidade": "Guarapari",
+  "padroeiro": "São Pedro",
+  "contatos": {
+   "telefone": "2732611025",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "pmuquicaba@aves.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Pedro",
+    "tipo": "matriz",
+    "cidade": "Guarapari",
+    "localidade": "Muquiçaba",
+    "endereco": "Rua Batista Gotardo, 150",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/sao-pedro/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São Tiago Maior",
+  "categoria": "paroquia",
+  "cidade": "Guarapari",
+  "padroeiro": "São Tiago Maior",
+  "contatos": {
+   "telefone": "27997051725",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "http://paroquiasaotiagomaior.com.br",
+   "email": "pstiagomaior@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Tiago Maior",
+    "tipo": "matriz",
+    "cidade": "Guarapari",
+    "localidade": "Setiba",
+    "endereco": "Rua Turmalina, 66",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/sao-tiago-maior/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado; o site próprio estava fora do ar na pesquisa."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora da Assunção",
+  "categoria": "paroquia",
+  "cidade": "Anchieta",
+  "padroeiro": "Nossa Senhora da Assunção",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário Nacional de São José de Anchieta",
+    "tipo": "santuario",
+    "cidade": "Anchieta",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 2,
+      "hora": "14:00",
+      "semanas": null,
+      "observacao": "Até 16h, com agendamento"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "14:00",
+      "semanas": null,
+      "observacao": "Até 16h, com agendamento"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Até 12h, com agendamento"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Até 12h, com agendamento"
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/horarios-de-missa-2/",
+    "data": "2021-05-31",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.aves.org.br/atendimento-na-paroquia-2/",
+    "data": "2021-05-31",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.aves.org.br/paroquias/nossa-senhora-da-assuncao/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "A matriz é o Santuário Nacional de São José de Anchieta, onde o santo viveu e morreu. Horários publicados pela página da paróquia no site da arquidiocese em 2021. Sem telefone publicado."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São Francisco Xavier",
+  "categoria": "paroquia",
+  "cidade": "Anchieta",
+  "padroeiro": "São Francisco Xavier",
+  "contatos": {
+   "telefone": "28999441756",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "saofranciscoxavier@aves.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Francisco Xavier",
+    "tipo": "matriz",
+    "cidade": "Anchieta",
+    "localidade": "Iriri",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/sao-francisco-xavier/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço. O anuário GCatholic dá a igreja de Iriri como Nossa Senhora das Graças."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora da Conceição",
+  "categoria": "paroquia",
+  "cidade": "Alfredo Chaves",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "2732691149",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "pnsconceicao2011@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "Alfredo Chaves",
+    "localidade": "Centro",
+    "endereco": "Avenida Getúlio Vargas, 845",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/nossa-senhora-da-conceicao-2/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São José",
+  "categoria": "paroquia",
+  "cidade": "Fundão",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "2732671277",
+   "whatsapp": "",
+   "instagram": "paroquiasaojosefundao",
+   "site": "",
+   "email": "paroquia.fundao@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José",
+    "tipo": "matriz",
+    "cidade": "Fundão",
+    "localidade": "Centro",
+    "endereco": "Escadaria São José, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/sao-jose-2/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia do Divino Espírito Santo",
+  "categoria": "paroquia",
+  "cidade": "Santa Leopoldina",
+  "padroeiro": "Divino Espírito Santo",
+  "contatos": {
+   "telefone": "27998767066",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "divinoespiritosantop@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Divino Espírito Santo",
+    "tipo": "matriz",
+    "cidade": "Santa Leopoldina",
+    "localidade": "Centro",
+    "endereco": "Rua Bernardino Monteiro, 14",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/divino-espirito-santo/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço. Não consta no anuário GCatholic."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora Rainha da Paz",
+  "categoria": "paroquia",
+  "cidade": "Santa Maria de Jetibá",
+  "padroeiro": "Nossa Senhora Rainha da Paz",
+  "contatos": {
+   "telefone": "2732630161",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquianossasenhorarainhadapaz@ymail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Rainha da Paz",
+    "tipo": "matriz",
+    "cidade": "Santa Maria de Jetibá",
+    "localidade": "Centro",
+    "endereco": "Rua Dalmácio Espíndola, 115",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/nossa-senhora-rainha-da-paz/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora de Fátima",
+  "categoria": "paroquia",
+  "cidade": "Domingos Martins",
+  "padroeiro": "Nossa Senhora de Fátima",
+  "contatos": {
+   "telefone": "2732481695",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "pfatimazul@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora de Fátima",
+    "tipo": "matriz",
+    "cidade": "Domingos Martins",
+    "localidade": "Pedra Azul, Aracê",
+    "endereco": "Rua Uliana, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/nossa-senhora-de-fatima/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Santa Isabel",
+  "categoria": "paroquia",
+  "cidade": "Domingos Martins",
+  "padroeiro": "Santa Isabel",
+  "contatos": {
+   "telefone": "27999302483",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasantaisabelisabel@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Isabel",
+    "tipo": "matriz",
+    "cidade": "Domingos Martins",
+    "localidade": "Santa Isabel",
+    "endereco": "Rua Francisco Albers, 454",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/santa-isabel/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia do Santíssimo Sacramento",
+  "categoria": "paroquia",
+  "cidade": "Domingos Martins",
+  "padroeiro": "Santíssimo Sacramento",
+  "contatos": {
+   "telefone": "27996036307",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "pdosantissimosacramento@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Santíssimo Sacramento",
+    "tipo": "matriz",
+    "cidade": "Domingos Martins",
+    "localidade": "Parajú",
+    "endereco": "Rua Célio Pitanga Pinto, 45",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/santissimo-sacramento/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Sant'Ana",
+  "categoria": "paroquia",
+  "cidade": "Marechal Floriano",
+  "padroeiro": "Sant'Ana",
+  "contatos": {
+   "telefone": "2732881564",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasantana.comunidades@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Sant'Ana",
+    "tipo": "matriz",
+    "cidade": "Marechal Floriano",
+    "localidade": "Centro",
+    "endereco": "Avenida Presidente Kennedy, 319",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/santana-2/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São Miguel Arcanjo",
+  "categoria": "paroquia",
+  "cidade": "Marechal Floriano",
+  "padroeiro": "São Miguel Arcanjo",
+  "contatos": {
+   "telefone": "2732883147",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "psmarcanjo@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Miguel Arcanjo",
+    "tipo": "matriz",
+    "cidade": "Marechal Floriano",
+    "localidade": "Araguaia",
+    "endereco": "Rua dos Imigrantes, 821",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/sao-miguel-arcanjo/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São Sebastião do Alto Guandu",
+  "categoria": "paroquia",
+  "cidade": "Afonso Cláudio",
+  "padroeiro": "São Sebastião",
+  "contatos": {
+   "telefone": "2737351004",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "saosebastiao.ac@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Sebastião",
+    "tipo": "matriz",
+    "cidade": "Afonso Cláudio",
+    "localidade": "Centro",
+    "endereco": "Praça Aderbal Galvão, 286",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/sao-sebastiao-do-alto-guandu/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora de Lourdes",
+  "categoria": "paroquia",
+  "cidade": "Afonso Cláudio",
+  "padroeiro": "Nossa Senhora de Lourdes",
+  "contatos": {
+   "telefone": "27997765908",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "https://paroquiavilapontoes.webnode.page",
+   "email": "paroquiavilapontoes@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja de Nossa Senhora da Penha",
+    "tipo": "matriz",
+    "cidade": "Afonso Cláudio",
+    "localidade": "Pontões",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Dias santos e comunidades: agenda mensal no site da paróquia"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora do Carmo",
+    "tipo": "capela",
+    "cidade": "Afonso Cláudio",
+    "localidade": "Rio da Cobra",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Francisco de Assis",
+    "tipo": "capela",
+    "cidade": "Afonso Cláudio",
+    "localidade": "São João do Garrafão",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Afonso Cláudio",
+    "localidade": "Fazenda Guandu",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://paroquiavilapontoes.webnode.page/copia-de-missas/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.aves.org.br/paroquias/paroquia-nossa-senhora-de-lourdes/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Fica na vila de Pontões, zona rural de Afonso Cláudio; o site da paróquia chama a igreja de Pontões de Nossa Senhora da Penha."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia do Sagrado Coração de Jesus",
+  "categoria": "paroquia",
+  "cidade": "Brejetuba",
+  "padroeiro": "Sagrado Coração de Jesus",
+  "contatos": {
+   "telefone": "2737331053",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "sagradocoracaodejesusbrejetuba@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Sagrado Coração de Jesus",
+    "tipo": "matriz",
+    "cidade": "Brejetuba",
+    "localidade": "Centro",
+    "endereco": "Praça Antônio Silvério Filho, 43",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.aves.org.br/paroquias/sagrado-coracao-de-jesus-2/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela arquidiocese; a página da paróquia no site da arquidiocese traz só contatos e endereço."
+ }
+]
