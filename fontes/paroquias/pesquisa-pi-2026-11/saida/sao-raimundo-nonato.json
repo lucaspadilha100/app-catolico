@@ -1,0 +1,1121 @@
+[
+ {
+  "id_banco": null,
+  "nome": "Catedral São Raimundo Nonato",
+  "categoria": "catedral",
+  "cidade": "São Raimundo Nonato",
+  "padroeiro": "São Raimundo Nonato",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Catedral São Raimundo Nonato",
+    "tipo": "matriz",
+    "cidade": "São Raimundo Nonato",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Missa nos dias de semana às 18h15 (o trecho não diz quais dias)."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://mapaosc.ipea.gov.br/detalhar/422651",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://gcatholic.org/churches/brazil/2543",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.facebook.com/catedralsrnpi/",
+    "data": "",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://cnbbne4.org.br/dom-ronilton-chega-em-sao-raimundo-nonato-dia-28-diocese-divulga-detalhes-sobre-a-posse/",
+    "data": "2023-09",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Forania/região pastoral não publicada nas fontes lidas. Horários do trecho da página da Catedral no Facebook (@catedralsrnpi) mostrado pela busca, sem data. 150 anos do templo em 2026. Endereço no cadastro CNPJ: Rua Prof. José Leandro, Centro."
+ },
+ {
+  "id_banco": null,
+  "nome": "Santuário Nossa Senhora das Mercês",
+  "categoria": "santuario",
+  "cidade": "São Raimundo Nonato",
+  "padroeiro": "Nossa Senhora das Mercês",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário Nossa Senhora das Mercês",
+    "tipo": "santuario",
+    "cidade": "São Raimundo Nonato",
+    "localidade": "Aldeia",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://mapaosc.ipea.gov.br/detalhar/422655",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://gcatholic.org/churches/brazil/150742",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://cnbbne4.org.br/dom-ronilton-chega-em-sao-raimundo-nonato-dia-28-diocese-divulga-detalhes-sobre-a-posse/",
+    "data": "2023-09",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania/região pastoral não publicada nas fontes lidas. Paróquia com sede no santuário diocesano (bairro Aldeia); igreja jubilar em 2025. Endereço no cadastro CNPJ: Praça Pe. Francisco Freiria, Aldeia. Sem horário publicado pela diocese ou pela paróquia nas fontes lidas; site da diocese fora do ar."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Teresinha do Menino Jesus",
+  "categoria": "paroquia",
+  "cidade": "São Raimundo Nonato",
+  "padroeiro": "Santa Teresinha do Menino Jesus",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Teresinha do Menino Jesus",
+    "tipo": "matriz",
+    "cidade": "São Raimundo Nonato",
+    "localidade": "Galo Branco",
+    "endereco": "Praça Francisco Xavier de Macedo",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://mapaosc.ipea.gov.br/detalhar/426863",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://cnbbne4.org.br/dom-ronilton-chega-em-sao-raimundo-nonato-dia-28-diocese-divulga-detalhes-sobre-a-posse/",
+    "data": "2023-09",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania/região pastoral não publicada nas fontes lidas. Criada em 2012 (cadastro CNPJ). Sem horário publicado pela diocese ou pela paróquia nas fontes lidas; site da diocese fora do ar."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "São João do Piauí",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Batista",
+    "tipo": "matriz",
+    "cidade": "São João do Piauí",
+    "localidade": "Centro",
+    "endereco": "Praça Honório Santos",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://mapaosc.ipea.gov.br/detalhar/422652",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania/região pastoral não publicada nas fontes lidas. Sem horário publicado pela diocese ou pela paróquia nas fontes lidas; site da diocese fora do ar."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "São João do Piauí",
+  "padroeiro": "São Sebastião",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Sebastião",
+    "tipo": "matriz",
+    "cidade": "São João do Piauí",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://mapaosc.ipea.gov.br/detalhar/426856",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania/região pastoral não publicada nas fontes lidas. Endereço no cadastro CNPJ: Rua Agenor Martins, Centro. Sem horário publicado pela diocese ou pela paróquia nas fontes lidas; site da diocese fora do ar."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sant'Ana",
+  "categoria": "paroquia",
+  "cidade": "Canto do Buriti",
+  "padroeiro": "Sant'Ana",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Sant'Ana",
+    "tipo": "matriz",
+    "cidade": "Canto do Buriti",
+    "localidade": "Centro",
+    "endereco": "Praça Santana",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://mapaosc.ipea.gov.br/detalhar/422653",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://gcatholic.org/churches/brazil/55599",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania/região pastoral não publicada nas fontes lidas. Tem página no Facebook (Igreja Matriz de Santana) e canal no YouTube (@matrizsantanacdb), vistos só pela busca. Sem horário publicado pela diocese ou pela paróquia nas fontes lidas; site da diocese fora do ar."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Expedito",
+  "categoria": "paroquia",
+  "cidade": "Canto do Buriti",
+  "padroeiro": "Santo Expedito",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Expedito",
+    "tipo": "matriz",
+    "cidade": "Canto do Buriti",
+    "localidade": "Aeroporto",
+    "endereco": "Praça Santo Expedito",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://mapaosc.ipea.gov.br/detalhar/426864",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania/região pastoral não publicada nas fontes lidas. Sem horário publicado pela diocese ou pela paróquia nas fontes lidas; site da diocese fora do ar."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Bom Jesus dos Aflitos",
+  "categoria": "paroquia",
+  "cidade": "Caracol",
+  "padroeiro": "Bom Jesus dos Aflitos",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Bom Jesus dos Aflitos",
+    "tipo": "matriz",
+    "cidade": "Caracol",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://mapaosc.ipea.gov.br/detalhar/422654",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://gcatholic.org/churches/brazil/55602",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://cnbbne4.org.br/santas-missoes-populares-renovam-a-fe-e-fortalecem-a-acao-evangelizadora-da-igreja-em-caracol-pi/",
+    "data": "2026-07",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania/região pastoral não publicada nas fontes lidas. Endereço no cadastro CNPJ: Praça Aristides Dias, Centro. Sem horário publicado pela diocese ou pela paróquia nas fontes lidas; site da diocese fora do ar."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "Anísio de Abreu",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Batista",
+    "tipo": "matriz",
+    "cidade": "Anísio de Abreu",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://mapaosc.ipea.gov.br/detalhar/426842",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://gcatholic.org/churches/brazil/55601",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania/região pastoral não publicada nas fontes lidas. Endereço no cadastro CNPJ: Praça Sebastião Rodrigues, Centro. Sem horário publicado pela diocese ou pela paróquia nas fontes lidas; site da diocese fora do ar."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Fátima",
+  "categoria": "paroquia",
+  "cidade": "Dirceu Arcoverde",
+  "padroeiro": "Nossa Senhora de Fátima",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora de Fátima",
+    "tipo": "matriz",
+    "cidade": "Dirceu Arcoverde",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Santuário Senhor do Bonfim",
+    "tipo": "santuario",
+    "cidade": "Dirceu Arcoverde",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://mapaosc.ipea.gov.br/detalhar/426843",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://gcatholic.org/churches/brazil/55600",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://gcatholic.org/churches/brazil/150743",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania/região pastoral não publicada nas fontes lidas. O Santuário Senhor do Bonfim (GCatholic, igreja jubilar em 2025) não traz paróquia na fonte; ligado à única paróquia do município. Endereço no cadastro CNPJ: Praça da Matriz, Centro. Sem horário publicado pela diocese ou pela paróquia nas fontes lidas; site da diocese fora do ar."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Imaculada Conceição",
+  "categoria": "paroquia",
+  "cidade": "Coronel José Dias",
+  "padroeiro": "Imaculada Conceição",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz da Imaculada Conceição",
+    "tipo": "matriz",
+    "cidade": "Coronel José Dias",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://mapaosc.ipea.gov.br/detalhar/426844",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania/região pastoral não publicada nas fontes lidas. Endereço no cadastro CNPJ: Avenida JK, Centro. Sem horário publicado pela diocese ou pela paróquia nas fontes lidas; site da diocese fora do ar."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista do Pajeú",
+  "categoria": "paroquia",
+  "cidade": "Pajeú do Piauí",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Batista",
+    "tipo": "matriz",
+    "cidade": "Pajeú do Piauí",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://mapaosc.ipea.gov.br/detalhar/426845",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania/região pastoral não publicada nas fontes lidas. Endereço no cadastro CNPJ: Rua Modesto Piauilino, casa paroquial, Centro. Sem horário publicado pela diocese ou pela paróquia nas fontes lidas; site da diocese fora do ar."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sagrado Coração de Maria",
+  "categoria": "paroquia",
+  "cidade": "Campo Alegre do Fidalgo",
+  "padroeiro": "Sagrado Coração de Maria",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Sagrado Coração de Maria",
+    "tipo": "matriz",
+    "cidade": "Campo Alegre do Fidalgo",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://mapaosc.ipea.gov.br/detalhar/426846",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania/região pastoral não publicada nas fontes lidas. Endereço no cadastro CNPJ: Praça Principal, Centro. Sem horário publicado pela diocese ou pela paróquia nas fontes lidas; site da diocese fora do ar."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Rita de Cássia",
+  "categoria": "paroquia",
+  "cidade": "Nova Santa Rita",
+  "padroeiro": "Santa Rita de Cássia",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Rita de Cássia",
+    "tipo": "matriz",
+    "cidade": "Nova Santa Rita",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://mapaosc.ipea.gov.br/detalhar/426847",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania/região pastoral não publicada nas fontes lidas. Endereço no cadastro CNPJ: Praça Principal, Centro. Sem horário publicado pela diocese ou pela paróquia nas fontes lidas; site da diocese fora do ar."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Francisco das Chagas",
+  "categoria": "paroquia",
+  "cidade": "Tamboril do Piauí",
+  "padroeiro": "São Francisco das Chagas",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Francisco das Chagas",
+    "tipo": "matriz",
+    "cidade": "Tamboril do Piauí",
+    "localidade": "Centro",
+    "endereco": "Praça São Francisco",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://mapaosc.ipea.gov.br/detalhar/426848",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania/região pastoral não publicada nas fontes lidas. Sem horário publicado pela diocese ou pela paróquia nas fontes lidas; site da diocese fora do ar."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia do Senhor do Bonfim",
+  "categoria": "paroquia",
+  "cidade": "Bonfim do Piauí",
+  "padroeiro": "Senhor do Bonfim",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Senhor do Bonfim",
+    "tipo": "matriz",
+    "cidade": "Bonfim do Piauí",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://mapaosc.ipea.gov.br/detalhar/426849",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania/região pastoral não publicada nas fontes lidas. Endereço no cadastro CNPJ: Praça Santa Luzia, Centro. Sem horário publicado pela diocese ou pela paróquia nas fontes lidas; site da diocese fora do ar."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Lourenço",
+  "categoria": "paroquia",
+  "cidade": "São Lourenço do Piauí",
+  "padroeiro": "São Lourenço",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Lourenço",
+    "tipo": "matriz",
+    "cidade": "São Lourenço do Piauí",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://mapaosc.ipea.gov.br/detalhar/426850",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania/região pastoral não publicada nas fontes lidas. Tem página no Facebook (paroquiaslp), vista só pela busca. Endereço no cadastro CNPJ: Avenida Waldemar de Castro Macedo, Centro. Sem horário publicado pela diocese ou pela paróquia nas fontes lidas; site da diocese fora do ar."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Carmo",
+  "categoria": "paroquia",
+  "cidade": "Fartura do Piauí",
+  "padroeiro": "Nossa Senhora do Carmo",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Carmo",
+    "tipo": "matriz",
+    "cidade": "Fartura do Piauí",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://mapaosc.ipea.gov.br/detalhar/426851",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania/região pastoral não publicada nas fontes lidas. Endereço no cadastro CNPJ: Avenida Cláudio Santana Braga, Centro. Sem horário publicado pela diocese ou pela paróquia nas fontes lidas; site da diocese fora do ar."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Rainha dos Anjos",
+  "categoria": "paroquia",
+  "cidade": "Lagoa do Barro do Piauí",
+  "padroeiro": "Nossa Senhora Rainha dos Anjos",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Rainha dos Anjos",
+    "tipo": "matriz",
+    "cidade": "Lagoa do Barro do Piauí",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://mapaosc.ipea.gov.br/detalhar/426852",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania/região pastoral não publicada nas fontes lidas. Endereço no cadastro CNPJ: Rua Benevenute da Silva, Centro. Sem horário publicado pela diocese ou pela paróquia nas fontes lidas; site da diocese fora do ar."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Divino Espírito Santo",
+  "categoria": "paroquia",
+  "cidade": "Ribeira do Piauí",
+  "padroeiro": "Divino Espírito Santo",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Divino Espírito Santo",
+    "tipo": "matriz",
+    "cidade": "Ribeira do Piauí",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://mapaosc.ipea.gov.br/detalhar/426853",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania/região pastoral não publicada nas fontes lidas. Sem horário publicado pela diocese ou pela paróquia nas fontes lidas; site da diocese fora do ar."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "João Costa",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "João Costa",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://mapaosc.ipea.gov.br/detalhar/426854",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania/região pastoral não publicada nas fontes lidas. Endereço no cadastro CNPJ: Rua Projetada, Centro. Sem horário publicado pela diocese ou pela paróquia nas fontes lidas; site da diocese fora do ar."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José",
+  "categoria": "paroquia",
+  "cidade": "Brejo do Piauí",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José",
+    "tipo": "matriz",
+    "cidade": "Brejo do Piauí",
+    "localidade": "Centro",
+    "endereco": "Praça São José",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://mapaosc.ipea.gov.br/detalhar/426855",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania/região pastoral não publicada nas fontes lidas. Sem horário publicado pela diocese ou pela paróquia nas fontes lidas; site da diocese fora do ar."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Guaribas",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Guaribas",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://mapaosc.ipea.gov.br/detalhar/426857",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania/região pastoral não publicada nas fontes lidas. Endereço no cadastro CNPJ: Praça da Fazenda, Centro. Sem horário publicado pela diocese ou pela paróquia nas fontes lidas; site da diocese fora do ar."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Perpétuo Socorro",
+  "categoria": "paroquia",
+  "cidade": "Jurema",
+  "padroeiro": "Nossa Senhora do Perpétuo Socorro",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Perpétuo Socorro",
+    "tipo": "matriz",
+    "cidade": "Jurema",
+    "localidade": "Centro",
+    "endereco": "Praça Nossa Senhora do Perpétuo Socorro",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://mapaosc.ipea.gov.br/detalhar/426858",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania/região pastoral não publicada nas fontes lidas. Sem horário publicado pela diocese ou pela paróquia nas fontes lidas; site da diocese fora do ar."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Fátima",
+  "categoria": "paroquia",
+  "cidade": "Capitão Gervásio Oliveira",
+  "padroeiro": "Nossa Senhora de Fátima",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora de Fátima",
+    "tipo": "matriz",
+    "cidade": "Capitão Gervásio Oliveira",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://mapaosc.ipea.gov.br/detalhar/426859",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania/região pastoral não publicada nas fontes lidas. Endereço no cadastro CNPJ: Praça Minor Firmino de Sousa, Centro. Sem horário publicado pela diocese ou pela paróquia nas fontes lidas; site da diocese fora do ar."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Braz",
+  "categoria": "paroquia",
+  "cidade": "São Braz do Piauí",
+  "padroeiro": "São Brás",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Brás",
+    "tipo": "matriz",
+    "cidade": "São Braz do Piauí",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://mapaosc.ipea.gov.br/detalhar/426860",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania/região pastoral não publicada nas fontes lidas. Endereço no cadastro CNPJ: Rua Dionísio Pereira da Silva, Centro. Sem horário publicado pela diocese ou pela paróquia nas fontes lidas; site da diocese fora do ar."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Teresinha do Menino Jesus",
+  "categoria": "paroquia",
+  "cidade": "Várzea Branca",
+  "padroeiro": "Santa Teresinha do Menino Jesus",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Teresinha do Menino Jesus",
+    "tipo": "matriz",
+    "cidade": "Várzea Branca",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://mapaosc.ipea.gov.br/detalhar/426861",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania/região pastoral não publicada nas fontes lidas. Endereço no cadastro CNPJ: Avenida Maria Divina, Centro. Sem horário publicado pela diocese ou pela paróquia nas fontes lidas; site da diocese fora do ar."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Bom Jesus",
+  "categoria": "paroquia",
+  "cidade": "Pedro Laurentino",
+  "padroeiro": "Bom Jesus",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Bom Jesus",
+    "tipo": "matriz",
+    "cidade": "Pedro Laurentino",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://mapaosc.ipea.gov.br/detalhar/426862",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://gcatholic.org/churches/brazil/55603",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania/região pastoral não publicada nas fontes lidas. Endereço no cadastro CNPJ: Rua Maria Beronísia de Sousa, Centro. Sem horário publicado pela diocese ou pela paróquia nas fontes lidas; site da diocese fora do ar."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sagrado Coração de Jesus",
+  "categoria": "paroquia",
+  "cidade": "Dom Inocêncio",
+  "padroeiro": "Sagrado Coração de Jesus",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Sagrado Coração de Jesus",
+    "tipo": "matriz",
+    "cidade": "Dom Inocêncio",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://mapaosc.ipea.gov.br/detalhar/426841",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania/região pastoral não publicada nas fontes lidas. Endereço no cadastro CNPJ: Praça da Matriz, Centro. Sem horário publicado pela diocese ou pela paróquia nas fontes lidas; site da diocese fora do ar."
+ }
+]
