@@ -102,6 +102,12 @@ describe("uso do app no painel", () => {
     expect(u.dias[0]?.aparelhos).toBeGreaterThan(0);
     expect(u.semana.abertura).toBeGreaterThan(0);
     expect(typeof u.contas).toBe("number");
+    await como("anon", null, "select public.contar_uso('reza-terco')");
+    await expect(como("authenticated", A, "select public.uso_do_app(90)")).rejects.toThrow();
+    const p = await como("authenticated", B, "select public.uso_do_app(90) as u");
+    const v = (p.rows[0] as { u: { dias: { aparelhos: number }[]; oracoes: Record<string, number> } }).u;
+    expect(v.dias.at(-1)?.aparelhos).toBeGreaterThan(0);
+    expect(v.oracoes["reza-terco"]).toBeGreaterThan(0);
   });
 });
 

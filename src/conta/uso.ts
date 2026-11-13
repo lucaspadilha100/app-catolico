@@ -70,14 +70,15 @@ export function rezandoHoje(): Promise<RezandoHoje | null> {
 }
 
 export interface UsoDoApp {
+  hoje: string;
   dias: { dia: string; aparelhos: number }[];
-  semana: Record<string, number>;
+  oracoes: Record<string, number>;
   contas: number;
 }
 
-export async function usoDoApp(): Promise<UsoDoApp> {
+export async function usoDoApp(dias: number): Promise<UsoDoApp> {
   const c = (await import("@/lib/supabase")).supabase;
-  const r = await c.rpc("uso_do_app");
+  const r = await c.rpc("uso_do_app", { p_dias: dias });
   if (r.error) throw new Error(r.error.message);
   return r.data as UsoDoApp;
 }
