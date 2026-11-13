@@ -35,10 +35,16 @@ UF_NOME = {
 def consulta_nominatim(params):
     url = "https://nominatim.openstreetmap.org/search?" + urllib.parse.urlencode({"format": "json", "limit": 1, "countrycodes": "br", **params})
     req = urllib.request.Request(url, headers={"User-Agent": "MinhaIgrejinha-geocode/0.1"})
-    time.sleep(1.1)
-    with urllib.request.urlopen(req, timeout=30) as r:
-        d = json.load(r)
-    return (round(float(d[0]["lat"]), 6), round(float(d[0]["lon"]), 6)) if d else None
+    for tentativa in range(4):
+        time.sleep(1.2 + 8 * tentativa)
+        try:
+            with urllib.request.urlopen(req, timeout=30) as r:
+                d = json.load(r)
+            return (round(float(d[0]["lat"]), 6), round(float(d[0]["lon"]), 6)) if d else None
+        except urllib.error.HTTPError as e:
+            if e.code != 429:
+                raise
+    raise RuntimeError("Nominatim 429 após 4 tentativas")
 
 
 def geocodificar(paroquias, avisos):
@@ -66,6 +72,8 @@ def geocodificar(paroquias, avisos):
                         achado = {"lat": ponto[0], "lng": ponto[1], "precisao": "cidade"}
             except Exception as e:
                 avisos.append(f"geocodificação falhou em {p['nome']} ({p['cidade']}): {e}")
+                p["lat"], p["lng"], p["precisao"] = None, None, ""
+                continue
             cache[chave_geo] = achado or {"lat": None, "lng": None, "precisao": ""}
             pendentes += 1
             if pendentes % 25 == 0:
@@ -124,6 +132,7 @@ def main():
             matriz_id = None
             fontes = [f.get("url", "") for f in (u.get("fontes") or []) if f.get("url")]
             confianca = u.get("confianca", "")
+            uf_da_unidade = (u.get("uf") or uf).upper()
             for n, ig in enumerate(igrejas):
                 cidade = ig.get("cidade") or u.get("cidade", "")
                 tipo = categoria if n == 0 else (TIPO_DA_IGREJA.get(ig.get("tipo", "capela")) or "capela")
@@ -143,7 +152,7 @@ def main():
                     "endereco": ig.get("endereco", ""),
                     "bairro": ig.get("localidade", ""),
                     "cidade": cidade,
-                    "uf": uf,
+                    "uf": uf_da_unidade,
                     "padroeiro": u.get("padroeiro", "") if n == 0 else "",
                     "telefone": contatos.get("telefone", "") if n == 0 else "",
                     "whatsapp": contatos.get("whatsapp", "") if n == 0 else "",

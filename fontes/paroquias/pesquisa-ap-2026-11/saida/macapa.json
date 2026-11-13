@@ -1,0 +1,2460 @@
+[
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Cruz",
+  "categoria": "paroquia",
+  "cidade": "Macapá",
+  "padroeiro": "Santa Cruz",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "96981080066",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasantacruzap@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Cruz",
+    "tipo": "matriz",
+    "cidade": "Macapá",
+    "localidade": "Jardim Felicidade I",
+    "endereco": "Rua Vereador Júlio Maria Pinto Pereira, 629",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Lázaro",
+    "tipo": "comunidade",
+    "cidade": "Macapá",
+    "localidade": "São Lázaro",
+    "endereco": "Rua José Alves Pessoa, 513",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedemacapa.com.br/wp-content/uploads/2026/01/Anuario-2025.pdf",
+    "data": "2026-01",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedemacapa.com.br/paroquias-e-areas-missionarias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedemacapa.com.br/2022/02/15/santa-cruz-nova-paroquia-e-criada-na-zona-norte-de-macapa/",
+    "data": "2022-02-15",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato 1. Criada em 2022. Horários de missa não publicados nas fontes consultadas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Rosário e São João Calábria",
+  "categoria": "paroquia",
+  "cidade": "Macapá",
+  "padroeiro": "Nossa Senhora do Rosário e São João Calábria",
+  "contatos": {
+   "telefone": "96991932909",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "prosariomacapa2017@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Rosário e São João Calábria",
+    "tipo": "matriz",
+    "cidade": "Macapá",
+    "localidade": "Jardim Felicidade II",
+    "endereco": "Av. Ana Maria Gomes da Costa, 2714",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedemacapa.com.br/wp-content/uploads/2026/01/Anuario-2025.pdf",
+    "data": "2026-01",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedemacapa.com.br/paroquias-e-areas-missionarias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato 1. Horários de missa não publicados nas fontes consultadas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Nazaré",
+  "categoria": "paroquia",
+  "cidade": "Macapá",
+  "padroeiro": "Nossa Senhora de Nazaré",
+  "contatos": {
+   "telefone": "9632512549",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "secretaria@paroquiansnazare.macapa.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora de Nazaré",
+    "tipo": "matriz",
+    "cidade": "Macapá",
+    "localidade": "Brasil Novo",
+    "endereco": "Av. Coqueiro, 401",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedemacapa.com.br/wp-content/uploads/2026/01/Anuario-2025.pdf",
+    "data": "2026-01",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedemacapa.com.br/paroquias-e-areas-missionarias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato 1. Sede do Círio de Nazaré de Macapá. Horários de missa não publicados nas fontes consultadas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Paulo VI",
+  "categoria": "paroquia",
+  "cidade": "Macapá",
+  "padroeiro": "São Paulo VI",
+  "contatos": {
+   "telefone": "9633889178",
+   "whatsapp": "9633889178",
+   "instagram": "",
+   "site": "https://www.paroquiasaopaulovi.com",
+   "email": "secretaria@paroquiasaopaulovi.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Paulo VI",
+    "tipo": "matriz",
+    "cidade": "Macapá",
+    "localidade": "Morada das Palmeiras",
+    "endereco": "Av. do Açaí, 324",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Maria Rainha da Paz",
+    "tipo": "comunidade",
+    "cidade": "Macapá",
+    "localidade": "Infraero II",
+    "endereco": "Av. Carlos Lins Cortes, 1344",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Edwiges",
+    "tipo": "comunidade",
+    "cidade": "Macapá",
+    "localidade": "Infraero II",
+    "endereco": "Rua Porto Velho, 688",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Imaculada Conceição",
+    "tipo": "comunidade",
+    "cidade": "Macapá",
+    "localidade": "Infraero II",
+    "endereco": "Av. Carlos Lins Cortes, 2725",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Cecília",
+    "tipo": "comunidade",
+    "cidade": "Macapá",
+    "localidade": "Parque dos Buritis",
+    "endereco": "Rua Marabá, 1268",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Paulo II",
+    "tipo": "comunidade",
+    "cidade": "Macapá",
+    "localidade": "Conjunto Macapaba",
+    "endereco": "Av. Carlos Marighella, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Expedito",
+    "tipo": "comunidade",
+    "cidade": "Macapá",
+    "localidade": "Parque dos Buritis",
+    "endereco": "Rua Antonio Flexa da Costa, 853",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Raimundo Nonato",
+    "tipo": "comunidade",
+    "cidade": "Macapá",
+    "localidade": "Açaí",
+    "endereco": "Av. das Bacabas, 648",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Carmo",
+    "tipo": "comunidade",
+    "cidade": "Macapá",
+    "localidade": "Maruanum",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Imaculada Conceição",
+    "tipo": "comunidade",
+    "cidade": "Macapá",
+    "localidade": "Maruanum",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Expedito",
+    "tipo": "comunidade",
+    "cidade": "Macapá",
+    "localidade": "Matão do Piaçacá",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Divino Espírito Santo",
+    "tipo": "comunidade",
+    "cidade": "Macapá",
+    "localidade": "Igarapé do Lago",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Sebastião",
+    "tipo": "comunidade",
+    "cidade": "Macapá",
+    "localidade": "Igarapé do Lago",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Benedito",
+    "tipo": "comunidade",
+    "cidade": "Macapá",
+    "localidade": "Campina Grande",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Assunção de Nossa Senhora",
+    "tipo": "comunidade",
+    "cidade": "Macapá",
+    "localidade": "Torrão do Matapi",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Luzia",
+    "tipo": "comunidade",
+    "cidade": "Macapá",
+    "localidade": "Maruanum",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Tiago",
+    "tipo": "comunidade",
+    "cidade": "Macapá",
+    "localidade": "Torrão do Matapi",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Jorge",
+    "tipo": "comunidade",
+    "cidade": "Macapá",
+    "localidade": "Bacaba do Maruanum",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Raimundo",
+    "tipo": "comunidade",
+    "cidade": "Macapá",
+    "localidade": "Maruanum",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Rita de Cássia",
+    "tipo": "comunidade",
+    "cidade": "Macapá",
+    "localidade": "Campina Grande",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Olívia",
+    "tipo": "comunidade",
+    "cidade": "Macapá",
+    "localidade": "Igarapé do Lago",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrada Família",
+    "tipo": "comunidade",
+    "cidade": "Macapá",
+    "localidade": "Campina Grande",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Macapá",
+    "localidade": "Campina Grande",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Imaculada Conceição",
+    "tipo": "comunidade",
+    "cidade": "Macapá",
+    "localidade": "Areal do Matapi e Formigueiro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Perpétuo Socorro",
+    "tipo": "comunidade",
+    "cidade": "Macapá",
+    "localidade": "Massaranduba",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Isabel",
+    "tipo": "comunidade",
+    "cidade": "Macapá",
+    "localidade": "Igarapé das Armas",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Maria",
+    "tipo": "comunidade",
+    "cidade": "Macapá",
+    "localidade": "Maruanum",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Fátima",
+    "tipo": "comunidade",
+    "cidade": "Macapá",
+    "localidade": "Maruanum",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.paroquiasaopaulovi.com/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.paroquiasaopaulovi.com/in%C3%ADcio/comunidades-urbanas",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.paroquiasaopaulovi.com/in%C3%ADcio/contatos",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedemacapa.com.br/wp-content/uploads/2026/01/Anuario-2025.pdf",
+    "data": "2026-01",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato 1. Confissões antes ou depois das missas nas comunidades. O site da paróquia ainda lista a comunidade Santa Cristina, registrada aqui na Área Missionária Santa Cristina."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Cristo Libertador",
+  "categoria": "paroquia",
+  "cidade": "Macapá",
+  "padroeiro": "Cristo Libertador",
+  "contatos": {
+   "telefone": "9632220426",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Cristo Libertador",
+    "tipo": "matriz",
+    "cidade": "Macapá",
+    "localidade": "São Joaquim do Pacuí",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedemacapa.com.br/wp-content/uploads/2026/01/Anuario-2025.pdf",
+    "data": "2026-01",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedemacapa.com.br/wp-content/uploads/2026/02/AGENDA-DIOCESANA-ANO-2026-Geral-Revisada.pdf",
+    "data": "2026-02",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedemacapa.com.br/2026/11/04/diocese-de-macapa-inicia-preparacao-para-criacao-de-futura-paroquia-no-municipio-de-cutias/",
+    "data": "2026-11-04",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato 1. Sede no distrito de São Joaquim do Pacuí; atende também Cutias e Itaubal. Secretaria provisória na Cúria Diocesana. Em novembro de 2026 a diocese iniciou a preparação de futura paróquia em Cutias. Horários de missa não publicados nas fontes consultadas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista Piamarta",
+  "categoria": "paroquia",
+  "cidade": "Macapá",
+  "padroeiro": "São João Batista Piamarta",
+  "contatos": {
+   "telefone": "96991052828",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiajp@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Batista Piamarta",
+    "tipo": "matriz",
+    "cidade": "Macapá",
+    "localidade": "Marabaixo II",
+    "endereco": "Av. 7, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedemacapa.com.br/wp-content/uploads/2026/01/Anuario-2025.pdf",
+    "data": "2026-01",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedemacapa.com.br/paroquias-e-areas-missionarias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato 2. Casa paroquial na Rod. Duca Serra, 1210, Cabralzinho. Horários de missa não publicados nas fontes consultadas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santuário Nossa Senhora de Fátima",
+  "categoria": "santuario",
+  "cidade": "Macapá",
+  "padroeiro": "Nossa Senhora de Fátima",
+  "contatos": {
+   "telefone": "9632220963",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "santuarionsfatima.mcp@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário de Nossa Senhora de Fátima",
+    "tipo": "santuario",
+    "cidade": "Macapá",
+    "localidade": "Santa Rita",
+    "endereco": "Av. Pedro de Oliveira Gomes, 1363",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco de Assis",
+    "tipo": "comunidade",
+    "cidade": "Macapá",
+    "localidade": "Alvorada",
+    "endereco": "Rua Minas Gerais, 2942",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedemacapa.com.br/wp-content/uploads/2026/01/Anuario-2025.pdf",
+    "data": "2026-01",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedemacapa.com.br/paroquias-e-areas-missionarias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato 2. A comunidade Santíssima Trindade, que o Anuário 2025 listava nesta paróquia, virou Área Missionária em agosto de 2026. Sem horário publicado para o santuário."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Jesus Bom Samaritano",
+  "categoria": "paroquia",
+  "cidade": "Macapá",
+  "padroeiro": "Jesus Bom Samaritano",
+  "contatos": {
+   "telefone": "96992053221",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiajbs@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Jesus Bom Samaritano",
+    "tipo": "matriz",
+    "cidade": "Macapá",
+    "localidade": "Zerão",
+    "endereco": "Rua Amadeu Gama, 782",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedemacapa.com.br/wp-content/uploads/2026/01/Anuario-2025.pdf",
+    "data": "2026-01",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedemacapa.com.br/paroquias-e-areas-missionarias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato 3. Horários de missa não publicados nas fontes consultadas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sagrado Coração de Jesus",
+  "categoria": "paroquia",
+  "cidade": "Macapá",
+  "padroeiro": "Sagrado Coração de Jesus",
+  "contatos": {
+   "telefone": "9632423953",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiapscj006@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Sagrado Coração de Jesus",
+    "tipo": "matriz",
+    "cidade": "Macapá",
+    "localidade": "Buritizal",
+    "endereco": "Av. 1º de Maio, 1776",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedemacapa.com.br/wp-content/uploads/2026/01/Anuario-2025.pdf",
+    "data": "2026-01",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedemacapa.com.br/paroquias-e-areas-missionarias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato 3. Horários de missa não publicados nas fontes consultadas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Cristo Bom Pastor",
+  "categoria": "paroquia",
+  "cidade": "Macapá",
+  "padroeiro": "Cristo Bom Pastor",
+  "contatos": {
+   "telefone": "9632421641",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiacbpmacapa@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Cristo Bom Pastor",
+    "tipo": "matriz",
+    "cidade": "Macapá",
+    "localidade": "Novo Buritizal",
+    "endereco": "Rua Claudomiro de Moraes, 1278",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedemacapa.com.br/wp-content/uploads/2026/01/Anuario-2025.pdf",
+    "data": "2026-01",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedemacapa.com.br/paroquias-e-areas-missionarias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato 3. Horários de missa não publicados nas fontes consultadas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Terezinha do Menino Jesus",
+  "categoria": "paroquia",
+  "cidade": "Macapá",
+  "padroeiro": "Santa Terezinha do Menino Jesus",
+  "contatos": {
+   "telefone": "96992051022",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "psantateresinhadomeninojesus@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Terezinha do Menino Jesus",
+    "tipo": "matriz",
+    "cidade": "Macapá",
+    "localidade": "Fazendinha",
+    "endereco": "Rua Caetano Tomaz, 100",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Hospital São Camilo",
+    "tipo": "capela",
+    "cidade": "Macapá",
+    "localidade": "Fazendinha",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedemacapa.com.br/wp-content/uploads/2026/01/Anuario-2025.pdf",
+    "data": "2026-01",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedemacapa.com.br/wp-content/uploads/2026/02/AGENDA-DIOCESANA-ANO-2026-Geral-Revisada.pdf",
+    "data": "2026-02",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato 3. Horários de missa não publicados nas fontes consultadas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santuário Nossa Senhora do Perpétuo Socorro",
+  "categoria": "santuario",
+  "cidade": "Macapá",
+  "padroeiro": "Nossa Senhora do Perpétuo Socorro",
+  "contatos": {
+   "telefone": "9632230347",
+   "whatsapp": "96984027669",
+   "instagram": "paroquiapsmacapa",
+   "site": "",
+   "email": "santuarionspsocorroap@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário de Nossa Senhora do Perpétuo Socorro",
+    "tipo": "santuario",
+    "cidade": "Macapá",
+    "localidade": "Perpétuo Socorro",
+    "endereco": "Rua Acézio Guedes, 549",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedemacapa.com.br/wp-content/uploads/2026/01/Anuario-2025.pdf",
+    "data": "2026-01",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedemacapa.com.br/paroquias-e-areas-missionarias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedemacapa.com.br/wp-content/uploads/2024/02/EDITAL-No-01-ESCOLHA-DO-CARTAZ-FESTIVIDADE-2024.pdf",
+    "data": "2024-02",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato 4. Atende também as ilhas do Bailique e comunidades na beira do rio Amazonas. Instagram citado em edital da própria paróquia. Horários de missa não publicados nas fontes consultadas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Benedito",
+  "categoria": "paroquia",
+  "cidade": "Macapá",
+  "padroeiro": "São Benedito",
+  "contatos": {
+   "telefone": "9632231145",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasaobenedito.macapa@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Benedito",
+    "tipo": "matriz",
+    "cidade": "Macapá",
+    "localidade": "Laguinho",
+    "endereco": "Rua General Rondon, 429",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedemacapa.com.br/wp-content/uploads/2026/01/Anuario-2025.pdf",
+    "data": "2026-01",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedemacapa.com.br/paroquias-e-areas-missionarias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato 4. A comunidade Nossa Senhora Aparecida, do Pacoval, virou Área Missionária em abril de 2026. Horários de missa não publicados nas fontes consultadas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Jesus de Nazaré",
+  "categoria": "paroquia",
+  "cidade": "Macapá",
+  "padroeiro": "Jesus de Nazaré",
+  "contatos": {
+   "telefone": "96991248842",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiajesusdenazare.mcp@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Jesus de Nazaré",
+    "tipo": "matriz",
+    "cidade": "Macapá",
+    "localidade": "Jesus de Nazaré",
+    "endereco": "Rua Leopoldo Machado, 744",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedemacapa.com.br/wp-content/uploads/2026/01/Anuario-2025.pdf",
+    "data": "2026-01",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedemacapa.com.br/paroquias-e-areas-missionarias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato 4. Horários de missa não publicados nas fontes consultadas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Catedral de São José",
+  "categoria": "catedral",
+  "cidade": "Macapá",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "96984183768",
+   "whatsapp": "",
+   "instagram": "catedralsaojoseap",
+   "site": "",
+   "email": "paroquiasaojose.mcp@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Catedral de São José",
+    "tipo": "matriz",
+    "cidade": "Macapá",
+    "localidade": "Centro",
+    "endereco": "Av. General Gurjão, 588",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedemacapa.com.br/wp-content/uploads/2026/01/Anuario-2025.pdf",
+    "data": "2026-01",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedemacapa.com.br/paroquias-e-areas-missionarias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://wanderlog.com/place/details/10538698/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato 5. Paróquia São José, sé da diocese; São José é o padroeiro de Macapá. Instagram citado por diretório de terceiros. Horários de missa não publicados nas fontes consultadas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Conceição",
+  "categoria": "paroquia",
+  "cidade": "Macapá",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "96981190023",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "pnscamapa@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "Macapá",
+    "localidade": "Trem",
+    "endereco": "Av. Cônego Domingos Maltês, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedemacapa.com.br/wp-content/uploads/2026/01/Anuario-2025.pdf",
+    "data": "2026-01",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedemacapa.com.br/paroquias-e-areas-missionarias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato 5. Horários de missa não publicados nas fontes consultadas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Pedro",
+  "categoria": "paroquia",
+  "cidade": "Macapá",
+  "padroeiro": "São Pedro",
+  "contatos": {
+   "telefone": "96984141184",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "saopedromacapa@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Pedro",
+    "tipo": "matriz",
+    "cidade": "Macapá",
+    "localidade": "Beirol",
+    "endereco": "Rua Jovino Dinoá, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedemacapa.com.br/wp-content/uploads/2026/01/Anuario-2025.pdf",
+    "data": "2026-01",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedemacapa.com.br/paroquias-e-areas-missionarias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato 5. Horários de missa não publicados nas fontes consultadas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Fátima e Sant'Ana",
+  "categoria": "paroquia",
+  "cidade": "Santana",
+  "padroeiro": "Nossa Senhora de Fátima e Sant'Ana",
+  "contatos": {
+   "telefone": "9630484318",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "m.fatimaesantana@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora de Fátima e Sant'Ana",
+    "tipo": "matriz",
+    "cidade": "Santana",
+    "localidade": "Centro",
+    "endereco": "Av. 15 de Novembro, 1162",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedemacapa.com.br/wp-content/uploads/2026/01/Anuario-2025.pdf",
+    "data": "2026-01",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedemacapa.com.br/paroquias-e-areas-missionarias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato 6. Horários de missa não publicados nas fontes consultadas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Padre Pio de Pietrelcina e Bem-Aventurado Padre Luiz Monza",
+  "categoria": "paroquia",
+  "cidade": "Santana",
+  "padroeiro": "São Padre Pio de Pietrelcina e Bem-Aventurado Padre Luiz Monza",
+  "contatos": {
+   "telefone": "96984191594",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiapiomonza@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Padre Pio de Pietrelcina",
+    "tipo": "matriz",
+    "cidade": "Santana",
+    "localidade": "Fonte Nova",
+    "endereco": "Rua Everaldo Vasconcelos, 387",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedemacapa.com.br/wp-content/uploads/2026/01/Anuario-2025.pdf",
+    "data": "2026-01",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedemacapa.com.br/paroquias-e-areas-missionarias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato 6. Confiada aos frades capuchinhos. Horários de missa não publicados nas fontes consultadas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Perpétuo Socorro",
+  "categoria": "paroquia",
+  "cidade": "Santana",
+  "padroeiro": "Nossa Senhora do Perpétuo Socorro",
+  "contatos": {
+   "telefone": "96984053737",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquianspersoc@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Perpétuo Socorro",
+    "tipo": "matriz",
+    "cidade": "Santana",
+    "localidade": "Remédio II",
+    "endereco": "Rua Cláudio Lúcio, 1717",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedemacapa.com.br/wp-content/uploads/2026/01/Anuario-2025.pdf",
+    "data": "2026-01",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedemacapa.com.br/paroquias-e-areas-missionarias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato 6. Horários de missa não publicados nas fontes consultadas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Assunção",
+  "categoria": "paroquia",
+  "cidade": "Mazagão",
+  "padroeiro": "Nossa Senhora da Assunção",
+  "contatos": {
+   "telefone": "9632711143",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiamazagao@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Assunção",
+    "tipo": "matriz",
+    "cidade": "Mazagão",
+    "localidade": "Centro",
+    "endereco": "Trav. Pe. Antônio Valente Flexa, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedemacapa.com.br/wp-content/uploads/2026/01/Anuario-2025.pdf",
+    "data": "2026-01",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedemacapa.com.br/paroquias-e-areas-missionarias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato 6. A Área Missionária São Tomé Apóstolo, na Vila Maracá, foi desmembrada dela em novembro de 2025. Horários de missa não publicados nas fontes consultadas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora dos Navegantes",
+  "categoria": "paroquia",
+  "cidade": "Santana",
+  "padroeiro": "Nossa Senhora dos Navegantes",
+  "contatos": {
+   "telefone": "96991452660",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora dos Navegantes",
+    "tipo": "matriz",
+    "cidade": "Santana",
+    "localidade": "Área Portuária",
+    "endereco": "Rua Trinta e Um de Março, 43",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedemacapa.com.br/wp-content/uploads/2026/01/Anuario-2025.pdf",
+    "data": "2026-01",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedemacapa.com.br/paroquias-e-areas-missionarias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato 6. Conhecida como paróquia das Ilhas; atende comunidades ribeirinhas. Horários de missa não publicados nas fontes consultadas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Laranjal do Jari",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "9636211458",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroqstoantonio@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Laranjal do Jari",
+    "localidade": "Agreste",
+    "endereco": "Rua Liberdade, 885",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedemacapa.com.br/wp-content/uploads/2026/01/Anuario-2025.pdf",
+    "data": "2026-01",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedemacapa.com.br/paroquias-e-areas-missionarias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato 7. A diocese também a chama de Paróquia Santo Antônio do Jari. Horários de missa não publicados nas fontes consultadas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Pedro",
+  "categoria": "paroquia",
+  "cidade": "Vitória do Jari",
+  "padroeiro": "São Pedro",
+  "contatos": {
+   "telefone": "96991185051",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasaopedrovitoriadojari@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Pedro",
+    "tipo": "matriz",
+    "cidade": "Vitória do Jari",
+    "localidade": "São Pedro",
+    "endereco": "Av. Pedro Ladislau, 2971",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedemacapa.com.br/wp-content/uploads/2026/01/Anuario-2025.pdf",
+    "data": "2026-01",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedemacapa.com.br/paroquias-e-areas-missionarias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato 7. Horários de missa não publicados nas fontes consultadas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Bárbara",
+  "categoria": "paroquia",
+  "cidade": "Serra do Navio",
+  "padroeiro": "Santa Bárbara",
+  "contatos": {
+   "telefone": "9633221535",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasantabarbaranavio@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Bárbara",
+    "tipo": "matriz",
+    "cidade": "Serra do Navio",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedemacapa.com.br/wp-content/uploads/2026/01/Anuario-2025.pdf",
+    "data": "2026-01",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedemacapa.com.br/paroquias-e-areas-missionarias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato 8. Até abril de 2026 atendia também Pedra Branca do Amapari, hoje Paróquia São Pedro Apóstolo. Horários de missa não publicados nas fontes consultadas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Pedro Apóstolo",
+  "categoria": "paroquia",
+  "cidade": "Pedra Branca do Amapari",
+  "padroeiro": "São Pedro Apóstolo",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja de São Pedro Apóstolo",
+    "tipo": "matriz",
+    "cidade": "Pedra Branca do Amapari",
+    "localidade": "Centro",
+    "endereco": "Rua da Paz, 601",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Pedra Branca do Amapari",
+    "localidade": "Pedra Branca",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Terezinha do Menino Jesus",
+    "tipo": "comunidade",
+    "cidade": "Pedra Branca do Amapari",
+    "localidade": "Cupixi",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Maria",
+    "tipo": "comunidade",
+    "cidade": "Pedra Branca do Amapari",
+    "localidade": "Vila Nova",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Sebastião",
+    "tipo": "comunidade",
+    "cidade": "Pedra Branca do Amapari",
+    "localidade": "Munguba",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Luzia",
+    "tipo": "comunidade",
+    "cidade": "Pedra Branca do Amapari",
+    "localidade": "Assentamento Munguba",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Batista",
+    "tipo": "comunidade",
+    "cidade": "Pedra Branca do Amapari",
+    "localidade": "Cachorrinho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Pedra Branca do Amapari",
+    "localidade": "Água Fria",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedemacapa.com.br/2026/04/13/criacao-de-nova-paroquia-fortalece-missao-da-igreja-catolica-em-pedra-branca-do-amapari/",
+    "data": "2026-04-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedemacapa.com.br/paroquias-e-areas-missionarias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato 8. Criada em 12 de abril de 2026, desmembrada da Paróquia Santa Bárbara; confiada aos Sacramentinos de Nossa Senhora. Horários de missa não publicados nas fontes consultadas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Brasil Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Porto Grande",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "96981176235",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiansbaparecidapg@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Brasil Aparecida",
+    "tipo": "matriz",
+    "cidade": "Porto Grande",
+    "localidade": "Centro",
+    "endereco": "Av. 8 de Agosto, 426",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedemacapa.com.br/wp-content/uploads/2026/01/Anuario-2025.pdf",
+    "data": "2026-01",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedemacapa.com.br/paroquias-e-areas-missionarias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato 8. Ferreira Gomes foi desmembrada dela em março de 2026. Horários de missa não publicados nas fontes consultadas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Imaculada Conceição",
+  "categoria": "paroquia",
+  "cidade": "Ferreira Gomes",
+  "padroeiro": "Nossa Senhora da Imaculada Conceição",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz da Imaculada Conceição",
+    "tipo": "matriz",
+    "cidade": "Ferreira Gomes",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco",
+    "tipo": "comunidade",
+    "cidade": "Ferreira Gomes",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Imaculado Coração de Maria",
+    "tipo": "comunidade",
+    "cidade": "Ferreira Gomes",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Pedro",
+    "tipo": "comunidade",
+    "cidade": "Ferreira Gomes",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Menino Jesus",
+    "tipo": "comunidade",
+    "cidade": "Ferreira Gomes",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Rosário",
+    "tipo": "comunidade",
+    "cidade": "Ferreira Gomes",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Jorge",
+    "tipo": "comunidade",
+    "cidade": "Ferreira Gomes",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Carmo",
+    "tipo": "comunidade",
+    "cidade": "Ferreira Gomes",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Nazaré",
+    "tipo": "comunidade",
+    "cidade": "Ferreira Gomes",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Ferreirinha",
+    "tipo": "comunidade",
+    "cidade": "Ferreira Gomes",
+    "localidade": "Ferreirinha",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Ferreira Gomes",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nova Vida",
+    "tipo": "comunidade",
+    "cidade": "Ferreira Gomes",
+    "localidade": "Nova Vida",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Sebastião",
+    "tipo": "comunidade",
+    "cidade": "Ferreira Gomes",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Baixo Araguari",
+    "tipo": "comunidade",
+    "cidade": "Ferreira Gomes",
+    "localidade": "Baixo Araguari",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Raimundo Nonato",
+    "tipo": "comunidade",
+    "cidade": "Ferreira Gomes",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedemacapa.com.br/2026/03/28/paroquia-nossa-senhora-da-imaculada-conceicao-e-criada-em-ferreira-gomes-e-marca-novo-tempo-para-a-igreja-no-municipio/",
+    "data": "2026-03-28",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedemacapa.com.br/paroquias-e-areas-missionarias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato 8. Criada em 28 de março de 2026, desmembrada da Paróquia Nossa Senhora do Brasil Aparecida; cerca de 15 comunidades. Horários de missa não publicados nas fontes consultadas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Paulo II",
+  "categoria": "paroquia",
+  "cidade": "Tartarugalzinho",
+  "padroeiro": "São João Paulo II",
+  "contatos": {
+   "telefone": "96999094053",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "parsjoaopauloii@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Paulo II",
+    "tipo": "matriz",
+    "cidade": "Tartarugalzinho",
+    "localidade": "Centro",
+    "endereco": "Rua São Luiz, 323",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedemacapa.com.br/wp-content/uploads/2026/01/Anuario-2025.pdf",
+    "data": "2026-01",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedemacapa.com.br/paroquias-e-areas-missionarias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato 8. Atende também Pracuúba. Horários de missa não publicados nas fontes consultadas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Divino Espírito Santo",
+  "categoria": "paroquia",
+  "cidade": "Amapá",
+  "padroeiro": "Divino Espírito Santo",
+  "contatos": {
+   "telefone": "96988094534",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "parespisanto.amapa@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Divino Espírito Santo",
+    "tipo": "matriz",
+    "cidade": "Amapá",
+    "localidade": "Centro",
+    "endereco": "Rua Juscelino Kubitschek, 594",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedemacapa.com.br/wp-content/uploads/2026/01/Anuario-2025.pdf",
+    "data": "2026-01",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedemacapa.com.br/paroquias-e-areas-missionarias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato 9. Atendia Calçoene até a criação da paróquia de lá, em dezembro de 2025. Horários de missa não publicados nas fontes consultadas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Conceição",
+  "categoria": "paroquia",
+  "cidade": "Calçoene",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "96984096803",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "conceicaocalcoene@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "Calçoene",
+    "localidade": "Centro",
+    "endereco": "Av. Teodoro Antônio Leal, 308",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedemacapa.com.br/2025/12/09/criada-paroquia-nossa-senhora-da-conceicao-em-calcoene/",
+    "data": "2025-12-09",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedemacapa.com.br/wp-content/uploads/2026/01/Anuario-2025.pdf",
+    "data": "2026-01",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedemacapa.com.br/paroquias-e-areas-missionarias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato 9. Criada em 7 de dezembro de 2025, a 30ª paróquia da diocese; antes era área missionária. Horários de missa não publicados nas fontes consultadas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora das Graças",
+  "categoria": "paroquia",
+  "cidade": "Oiapoque",
+  "padroeiro": "Nossa Senhora das Graças",
+  "contatos": {
+   "telefone": "9635211309",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquia2017@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora das Graças",
+    "tipo": "matriz",
+    "cidade": "Oiapoque",
+    "localidade": "Centro",
+    "endereco": "Av. Barão do Rio Branco, 19",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedemacapa.com.br/wp-content/uploads/2026/01/Anuario-2025.pdf",
+    "data": "2026-01",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedemacapa.com.br/paroquias-e-areas-missionarias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato 9. Horários de missa não publicados nas fontes consultadas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Área Missionária Divina Misericórdia",
+  "categoria": "area_missionaria",
+  "cidade": "Macapá",
+  "padroeiro": "Divina Misericórdia",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja da Divina Misericórdia",
+    "tipo": "matriz",
+    "cidade": "Macapá",
+    "localidade": "Aeroportuário",
+    "endereco": "Rua Dr. Papaléo Paes, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Benedito",
+    "tipo": "comunidade",
+    "cidade": "Macapá",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Macapá",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Macapá",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Miguel Arcanjo",
+    "tipo": "comunidade",
+    "cidade": "Macapá",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedemacapa.com.br/2025/12/22/diocese-de-macapa-realiza-a-criacao-canonica-da-area-missionaria-divina-misericordia/",
+    "data": "2025-12-22",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedemacapa.com.br/paroquias-e-areas-missionarias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato 1. Criada em 17 de dezembro de 2025, desmembrada da Paróquia São Paulo VI; cinco comunidades. Horários de missa não publicados nas fontes consultadas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Área Missionária Santa Cristina",
+  "categoria": "area_missionaria",
+  "cidade": "Macapá",
+  "padroeiro": "Santa Cristina",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Cristina",
+    "tipo": "matriz",
+    "cidade": "Macapá",
+    "localidade": "Ilha Mirim",
+    "endereco": "Rua Salmo Noventa e Um, 692",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedemacapa.com.br/wp-content/uploads/2026/02/AGENDA-DIOCESANA-ANO-2026-Geral-Revisada.pdf",
+    "data": "2026-02",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedemacapa.com.br/paroquias-e-areas-missionarias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.paroquiasaopaulovi.com/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Vicariato 1. Abrange o Residencial Miracema e adjacências. Em formação: o site da Paróquia São Paulo VI ainda a lista como comunidade sua, com a missa do domingo."
+ },
+ {
+  "id_banco": null,
+  "nome": "Área Missionária Menino Deus",
+  "categoria": "area_missionaria",
+  "cidade": "Macapá",
+  "padroeiro": "Menino Deus",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Comunidade Menino Deus",
+    "tipo": "matriz",
+    "cidade": "Macapá",
+    "localidade": "Goiabal",
+    "endereco": "Rua Nova Aliança, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedemacapa.com.br/2025/12/15/criada-a-area-missionaria-menino-deus-na-zona-oeste-de-macapa/",
+    "data": "2025-12-15",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedemacapa.com.br/wp-content/uploads/2026/01/Anuario-2025.pdf",
+    "data": "2026-01",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedemacapa.com.br/paroquias-e-areas-missionarias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato 2. Criada em 12 de dezembro de 2025, desmembrada da Paróquia São João Batista Piamarta. Horários de missa não publicados nas fontes consultadas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Área Missionária São Francisco de Assis",
+  "categoria": "area_missionaria",
+  "cidade": "Macapá",
+  "padroeiro": "São Francisco de Assis",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco de Assis",
+    "tipo": "matriz",
+    "cidade": "Macapá",
+    "localidade": "Distrito do Coração",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedemacapa.com.br/wp-content/uploads/2026/01/Anuario-2025.pdf",
+    "data": "2026-01",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedemacapa.com.br/wp-content/uploads/2026/02/AGENDA-DIOCESANA-ANO-2026-Geral-Revisada.pdf",
+    "data": "2026-02",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedemacapa.com.br/paroquias-e-areas-missionarias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato 2. No Distrito do Coração, na rodovia Duca Serra. Horários de missa não publicados nas fontes consultadas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Área Missionária Santíssima Trindade",
+  "categoria": "area_missionaria",
+  "cidade": "Macapá",
+  "padroeiro": "Santíssima Trindade",
+  "contatos": {
+   "telefone": "9632222212",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja da Santíssima Trindade",
+    "tipo": "matriz",
+    "cidade": "Macapá",
+    "localidade": "Nova Esperança",
+    "endereco": "Av. Almirante Barroso, 2942",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Dulce dos Pobres",
+    "tipo": "comunidade",
+    "cidade": "Macapá",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Lourdes",
+    "tipo": "comunidade",
+    "cidade": "Macapá",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Livramento",
+    "tipo": "comunidade",
+    "cidade": "Macapá",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João XXIII",
+    "tipo": "comunidade",
+    "cidade": "Macapá",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Fátima",
+    "tipo": "comunidade",
+    "cidade": "Macapá",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedemacapa.com.br/2026/08/25/area-missionaria-santissima-trindade-e-oficialmente-instalada-em-macapa-e-recebe-primeiro-administrador-pastoral/",
+    "data": "2026-08-25",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedemacapa.com.br/wp-content/uploads/2026/01/Anuario-2025.pdf",
+    "data": "2026-01",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Criada em 23 de agosto de 2026 com comunidades desmembradas das paróquias de Fátima, Sagrado Coração de Jesus e Cristo Bom Pastor. Horários da sede são do Anuário 2025, anteriores à criação da área."
+ },
+ {
+  "id_banco": null,
+  "nome": "Área Missionária Sagrada Família",
+  "categoria": "area_missionaria",
+  "cidade": "Santana",
+  "padroeiro": "Sagrada Família",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja da Sagrada Família",
+    "tipo": "matriz",
+    "cidade": "Santana",
+    "localidade": "Acquaville",
+    "endereco": "Av. Rio Calçoene, 1282",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedemacapa.com.br/2025/10/28/diocese-de-macapa-cria-area-missionaria-dedicada-a-sagrada-familia-em-santana/",
+    "data": "2025-10-28",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedemacapa.com.br/wp-content/uploads/2026/01/Anuario-2025.pdf",
+    "data": "2026-01",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedemacapa.com.br/paroquias-e-areas-missionarias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato 6. Criada em 26 de outubro de 2025 com nove comunidades desmembradas das paróquias São Padre Pio e Nossa Senhora de Fátima e Sant'Ana. Horários de missa não publicados nas fontes consultadas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Área Missionária Cristo Rei",
+  "categoria": "area_missionaria",
+  "cidade": "Santana",
+  "padroeiro": "Cristo Rei",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Comunidade Cristo Rei",
+    "tipo": "matriz",
+    "cidade": "Santana",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedemacapa.com.br/paroquias-e-areas-missionarias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Citada apenas na lista de áreas missionárias do site da diocese, sem endereço publicado. Horários de missa não publicados nas fontes consultadas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Área Missionária São Tomé Apóstolo",
+  "categoria": "area_missionaria",
+  "cidade": "Mazagão",
+  "padroeiro": "São Tomé Apóstolo",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja de São Tomé Apóstolo",
+    "tipo": "matriz",
+    "cidade": "Mazagão",
+    "localidade": "Vila Maracá",
+    "endereco": "Rodovia AP-130, Distrito do Maracá",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedemacapa.com.br/2025/11/03/area-missionaria-e-instalada-na-vila-do-maraca-em-mazagao/",
+    "data": "2025-11-03",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedemacapa.com.br/wp-content/uploads/2026/01/Anuario-2025.pdf",
+    "data": "2026-01",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedemacapa.com.br/paroquias-e-areas-missionarias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato 7. Criada em 1º de novembro de 2025, desmembrada da Paróquia Nossa Senhora da Assunção; 29 comunidades. Horários de missa não publicados nas fontes consultadas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Área Missionária Nossa Senhora da Conceição Aparecida",
+  "categoria": "area_missionaria",
+  "cidade": "Macapá",
+  "padroeiro": "Nossa Senhora da Conceição Aparecida",
+  "contatos": {
+   "telefone": "9632230170",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja de Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Macapá",
+    "localidade": "Pacoval",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedemacapa.com.br/2026/04/14/area-missionaria-nossa-senhora-aparecida-e-criada-no-bairro-pacoval-em-macapa/",
+    "data": "2026-04-14",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedemacapa.com.br/wp-content/uploads/2026/01/Anuario-2025.pdf",
+    "data": "2026-01",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedemacapa.com.br/paroquias-e-areas-missionarias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato 4. Criada em 12 de abril de 2026, desmembrada da Paróquia São Benedito. Telefone é o da antiga comunidade no Anuário 2025. Horários de missa não publicados nas fontes consultadas."
+ }
+]

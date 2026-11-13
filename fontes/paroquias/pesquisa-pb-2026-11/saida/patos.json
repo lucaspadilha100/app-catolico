@@ -1,0 +1,2690 @@
+[
+ {
+  "id_banco": null,
+  "nome": "Catedral de Nossa Senhora da Guia",
+  "categoria": "catedral",
+  "cidade": "Patos",
+  "padroeiro": "Nossa Senhora da Guia",
+  "contatos": {
+   "telefone": "8334213732",
+   "whatsapp": "",
+   "instagram": "nsdaguiapatos",
+   "site": "",
+   "email": "nsdaguia@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Catedral de Nossa Senhora da Guia",
+    "tipo": "matriz",
+    "cidade": "Patos",
+    "localidade": "Centro",
+    "endereco": "Rua Solon de Lucena, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "16:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 1,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": "Até 11h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Até 11h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "14:00",
+      "semanas": null,
+      "observacao": "Até 17h"
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Igreja de Nossa Senhora da Conceição",
+    "tipo": "capela",
+    "cidade": "Patos",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepatospb.org.br/paroquias/paroquia-nossa-senhora-da-guia/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedepatospb.org.br/paroquias/paroquia-nossa-senhora-da-guia/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.instagram.com/nsdaguiapatos/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Paróquia da Catedral Diocesana. A Igreja de Nossa Senhora da Conceição, primeira igreja de Patos, pertence à paróquia."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora de Fátima",
+  "categoria": "paroquia",
+  "cidade": "Patos",
+  "padroeiro": "Nossa Senhora de Fátima",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "paroquiadefatimapatos",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora de Fátima",
+    "tipo": "matriz",
+    "cidade": "Patos",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepatospb.org.br/foranias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.instagram.com/paroquiadefatimapatos/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário achado. Perfil da paróquia no Instagram: paroquiadefatimapatos; a bio vista na busca diz que foi criada em 13/05/1962 por Dom Expedito."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Patos",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "8334212534",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "santoantoniopatos@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Patos",
+    "localidade": "Santo Antônio",
+    "endereco": "Rua Augusto dos Anjos",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "16:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 1,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": "Até 16h50, por ordem de chegada"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": "Até 16h50, por ordem de chegada"
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": "Até 16h50"
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de São José",
+    "tipo": "comunidade",
+    "cidade": "Patos",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Patos",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepatospb.org.br/paroquias/paroquia-santo-antonio/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedepatospb.org.br/paroquias/paroquia-santo-antonio/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Criada em 1956. A Área Pastoral São Francisco, atendida por esta paróquia, está em item próprio."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "Patos",
+  "padroeiro": "São Sebastião",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "paroquiasaosebastiaopatos",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Sebastião",
+    "tipo": "matriz",
+    "cidade": "Patos",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepatospb.org.br/foranias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.instagram.com/paroquiasaosebastiaopatos/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário achado. Paróquia criada em 1962. Perfil no Instagram: paroquiasaosebastiaopatos (só o título apareceu na busca)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São Pedro",
+  "categoria": "paroquia",
+  "cidade": "Patos",
+  "padroeiro": "São Pedro",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "paroquiasaopedropatos",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Pedro",
+    "tipo": "matriz",
+    "cidade": "Patos",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepatospb.org.br/foranias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.instagram.com/paroquiasaopedropatos/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário achado. Perfil no Instagram: paroquiasaopedropatos, que a busca mostra como da Diocese de Patos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora do Perpétuo Socorro",
+  "categoria": "paroquia",
+  "cidade": "Patos",
+  "padroeiro": "Nossa Senhora do Perpétuo Socorro",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Perpétuo Socorro",
+    "tipo": "matriz",
+    "cidade": "Patos",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepatospb.org.br/foranias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário achado. A página de foranias da diocese confirma a unidade; busca na web e no Instagram não trouxe horário com fonte."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia do Sagrado Coração de Jesus",
+  "categoria": "paroquia",
+  "cidade": "Patos",
+  "padroeiro": "Sagrado Coração de Jesus",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "paroquiadosagradopatos",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Sagrado Coração de Jesus",
+    "tipo": "matriz",
+    "cidade": "Patos",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepatospb.org.br/foranias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.instagram.com/paroquiadosagradopatos/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário achado. Perfil no Instagram: paroquiadosagradopatos, que a busca mostra como da Diocese de Patos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora das Neves",
+  "categoria": "paroquia",
+  "cidade": "Patos",
+  "padroeiro": "Nossa Senhora das Neves",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora das Neves",
+    "tipo": "matriz",
+    "cidade": "Patos",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepatospb.org.br/foranias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário achado. A paróquia aparece só na página de foranias da diocese; buscas não trouxeram contato nem bairro."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora das Dores",
+  "categoria": "paroquia",
+  "cidade": "Mãe d'Água",
+  "padroeiro": "Nossa Senhora das Dores",
+  "contatos": {
+   "telefone": "83988165986",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora das Dores",
+    "tipo": "matriz",
+    "cidade": "Mãe d'Água",
+    "localidade": "Centro",
+    "endereco": "Rua São Sebastião, 3",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": "Nas ruas"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": "Ou em outro horário, agendado"
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Maria Goretti",
+    "tipo": "capela",
+    "cidade": "Mãe d'Água",
+    "localidade": "Distrito de Santa Maria",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": "Com confissões"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Mãe d'Água",
+    "localidade": "Povoado da Vila Capoeira",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São José",
+    "tipo": "capela",
+    "cidade": "Mãe d'Água",
+    "localidade": "Sítio Cariri",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepatospb.org.br/paroquias/paroquia-de-mae-dagua/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedepatospb.org.br/paroquias/paroquia-de-mae-dagua/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Criada em 1981, desmembrada da Paróquia de Santo Antônio de Patos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São José",
+  "categoria": "paroquia",
+  "cidade": "São José de Espinharas",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José",
+    "tipo": "matriz",
+    "cidade": "São José de Espinharas",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepatospb.org.br/foranias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário achado. A página de foranias da diocese confirma a unidade; busca na web e no Instagram não trouxe horário com fonte."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Santa Terezinha",
+  "categoria": "paroquia",
+  "cidade": "Santa Teresinha",
+  "padroeiro": "Santa Terezinha do Menino Jesus",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Terezinha",
+    "tipo": "matriz",
+    "cidade": "Santa Teresinha",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepatospb.org.br/foranias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário achado. Santa Terezinha é a padroeira do município; o anuário lista a paróquia no decanato das Espinharas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São José",
+  "categoria": "paroquia",
+  "cidade": "São José do Bonfim",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José",
+    "tipo": "matriz",
+    "cidade": "São José do Bonfim",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepatospb.org.br/foranias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário achado. A página de foranias da diocese confirma a unidade; busca na web e no Instagram não trouxe horário com fonte."
+ },
+ {
+  "id_banco": null,
+  "nome": "Área Pastoral Santa Luzia",
+  "categoria": "area_pastoral",
+  "cidade": "Patos",
+  "padroeiro": "Santa Luzia",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja de Santa Luzia",
+    "tipo": "matriz",
+    "cidade": "Patos",
+    "localidade": "Monte Castelo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepatospb.org.br/foranias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.instagram.com/ronaldope__/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário achado. O bairro Monte Castelo vem do perfil do administrador paroquial, visto na busca do Instagram."
+ },
+ {
+  "id_banco": null,
+  "nome": "Área Pastoral São Francisco",
+  "categoria": "area_pastoral",
+  "cidade": "Patos",
+  "padroeiro": "São Francisco",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja de São Francisco",
+    "tipo": "matriz",
+    "cidade": "Patos",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "16:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "17:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Até 18h45"
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": "Até 18h45"
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepatospb.org.br/paroquias/paroquia-santo-antonio/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedepatospb.org.br/foranias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Atendida pela Paróquia de Santo Antônio de Patos; os horários saem da página daquela paróquia no site da diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora da Conceição",
+  "categoria": "paroquia",
+  "cidade": "São Mamede",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "São Mamede",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepatospb.org.br/foranias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário achado. A página de foranias da diocese confirma a unidade; busca na web e no Instagram não trouxe horário com fonte."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Santa Luzia",
+  "categoria": "paroquia",
+  "cidade": "Santa Luzia",
+  "padroeiro": "Santa Luzia",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "paroquiasantaluziapb",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Luzia",
+    "tipo": "matriz",
+    "cidade": "Santa Luzia",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepatospb.org.br/foranias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.instagram.com/paroquiasantaluziapb/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário achado. Paróquia criada em 1857. Perfil no Instagram: paroquiasantaluziapb."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Santo Onofre",
+  "categoria": "paroquia",
+  "cidade": "Junco do Seridó",
+  "padroeiro": "Santo Onofre",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Onofre",
+    "tipo": "matriz",
+    "cidade": "Junco do Seridó",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepatospb.org.br/foranias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário achado. Paróquia criada em 2001; a festa do padroeiro é em janeiro."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São José",
+  "categoria": "paroquia",
+  "cidade": "São José do Sabugi",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José",
+    "tipo": "matriz",
+    "cidade": "São José do Sabugi",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepatospb.org.br/foranias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário achado. A página de foranias da diocese confirma a unidade; busca na web e no Instagram não trouxe horário com fonte."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São Francisco de Assis",
+  "categoria": "paroquia",
+  "cidade": "Várzea",
+  "padroeiro": "São Francisco de Assis",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Francisco de Assis",
+    "tipo": "matriz",
+    "cidade": "Várzea",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepatospb.org.br/foranias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário achado. A página de foranias traz São Francisco; documento da Assembleia da Paraíba cita a Paróquia de São Francisco de Assis em Várzea."
+ },
+ {
+  "id_banco": null,
+  "nome": "Área Pastoral São José Operário",
+  "categoria": "area_pastoral",
+  "cidade": "Santa Luzia",
+  "padroeiro": "São José Operário",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "psaojoseoperariosl",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja de São José Operário",
+    "tipo": "matriz",
+    "cidade": "Santa Luzia",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepatospb.org.br/foranias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.instagram.com/psaojoseoperariosl/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário achado. O perfil psaojoseoperariosl aparece na busca como Paróquia São José Operário; a página de foranias ainda a traz como área pastoral."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora da Conceição",
+  "categoria": "paroquia",
+  "cidade": "Malta",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "Malta",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepatospb.org.br/foranias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário achado. O anuário cita em Malta o Santuário de Deus Pai Todo Poderoso, não confirmado no site da diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "Condado",
+  "padroeiro": "São Sebastião",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Sebastião",
+    "tipo": "matriz",
+    "cidade": "Condado",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepatospb.org.br/foranias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário achado. Paróquia criada em 1995."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora do Desterro",
+  "categoria": "paroquia",
+  "cidade": "Vista Serrana",
+  "padroeiro": "Nossa Senhora do Desterro",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Desterro",
+    "tipo": "matriz",
+    "cidade": "Vista Serrana",
+    "localidade": "Centro",
+    "endereco": "Rua Maria Gil de Medeiros, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": "Missa das almas"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": "Até 16h"
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São José",
+    "tipo": "capela",
+    "cidade": "Vista Serrana",
+    "localidade": "Comunidade Boqueirão",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Missa quinzenal, sábado ou domingo, às 10h ou às 16h"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora de Fátima",
+    "tipo": "capela",
+    "cidade": "Vista Serrana",
+    "localidade": "Comunidade Acari I",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Missa quinzenal, sábado ou domingo, às 10h ou às 16h"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Francisco de Assis",
+    "tipo": "capela",
+    "cidade": "Vista Serrana",
+    "localidade": "Comunidade Acari II",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Missa quinzenal, sábado ou domingo, às 10h ou às 16h"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Sebastião",
+    "tipo": "capela",
+    "cidade": "Vista Serrana",
+    "localidade": "Comunidade Pé do Serrote",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Missa quinzenal, sábado ou domingo, às 10h ou às 16h"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora do Perpétuo Socorro",
+    "tipo": "capela",
+    "cidade": "Vista Serrana",
+    "localidade": "Comunidade Tanques",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Missa quinzenal, sábado ou domingo, às 10h ou às 16h"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepatospb.org.br/paroquias/paroquia-nossa-senhora-do-desterro-vista-serrana-pb/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedepatospb.org.br/paroquias/paroquia-nossa-senhora-do-desterro-vista-serrana-pb/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Criada em 2009. A página da diocese não traz missa dominical na matriz."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora do Desterro",
+  "categoria": "paroquia",
+  "cidade": "Desterro",
+  "padroeiro": "Nossa Senhora do Desterro",
+  "contatos": {
+   "telefone": "8334731056",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Desterro",
+    "tipo": "matriz",
+    "cidade": "Desterro",
+    "localidade": "Centro",
+    "endereco": "Rua Cônego Florentino, 53",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "15:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": "Exposição do Santíssimo"
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Igreja de Santo Izidro",
+    "tipo": "capela",
+    "cidade": "Desterro",
+    "localidade": "Distrito de Tataíra",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepatospb.org.br/paroquias/paroquia-nossa-senhora-do-desterro-pb/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedepatospb.org.br/paroquias/paroquia-nossa-senhora-do-desterro-pb/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Criada em 1980, desmembrada da Paróquia de Santa Maria Madalena de Teixeira."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Santa Maria Madalena",
+  "categoria": "paroquia",
+  "cidade": "Teixeira",
+  "padroeiro": "Santa Maria Madalena",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Maria Madalena",
+    "tipo": "matriz",
+    "cidade": "Teixeira",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepatospb.org.br/foranias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário achado. Uma das paróquias mais antigas da região; a festa da padroeira é patrimônio cultural do estado."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora da Conceição",
+  "categoria": "paroquia",
+  "cidade": "Imaculada",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "83998783308",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "secretariaparoquialimaculada@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "Imaculada",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Missas às segundas e aos sábados, 19h, nas capelas da sede; confissões às quintas-feiras"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepatospb.org.br/paroquias/paroquia-nossa-senhora-da-conceicao-imaculada-pb/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedepatospb.org.br/paroquias/paroquia-nossa-senhora-da-conceicao-imaculada-pb/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Fundada em 1951. A página de foranias a chama de Paróquia da Imaculada Conceição de Maria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São Francisco de Assis",
+  "categoria": "paroquia",
+  "cidade": "Maturéia",
+  "padroeiro": "São Francisco de Assis",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Francisco de Assis",
+    "tipo": "matriz",
+    "cidade": "Maturéia",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepatospb.org.br/foranias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário achado. Paróquia criada em 2009."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São José",
+  "categoria": "paroquia",
+  "cidade": "Cacimbas",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "pascomcacimbas",
+   "site": "",
+   "email": "paroquiasaojosecacimbas@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José",
+    "tipo": "matriz",
+    "cidade": "Cacimbas",
+    "localidade": "Centro",
+    "endereco": "Rua São José, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": "Até 17h"
+     }
+    ],
+    "nao_cabe": "Missas às segundas, terças e sábados, 17h, nas comunidades rurais"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de São Sebastião",
+    "tipo": "comunidade",
+    "cidade": "Cacimbas",
+    "localidade": "Distrito de São Sebastião",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "10:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepatospb.org.br/paroquias/paroquia-sao-jose-cacimbas-pb/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedepatospb.org.br/paroquias/paroquia-sao-jose-cacimbas-pb/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Criada em 2018, nas comemorações dos 60 anos da diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora da Conceição",
+  "categoria": "paroquia",
+  "cidade": "Água Branca",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "Água Branca",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepatospb.org.br/foranias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário achado. A festa da padroeira é em dezembro."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Santa Terezinha",
+  "categoria": "paroquia",
+  "cidade": "Juru",
+  "padroeiro": "Santa Terezinha do Menino Jesus",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Terezinha",
+    "tipo": "matriz",
+    "cidade": "Juru",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepatospb.org.br/foranias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário achado. A paróquia aparece só na página de foranias da diocese; não consta no anuário de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São Miguel Arcanjo",
+  "categoria": "paroquia",
+  "cidade": "Tavares",
+  "padroeiro": "São Miguel Arcanjo",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Miguel Arcanjo",
+    "tipo": "matriz",
+    "cidade": "Tavares",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "16:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa com o Apostolado"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "09:00",
+      "semanas": [
+       3
+      ],
+      "observacao": "Missa com as crianças"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": "Com confissões"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Missas nas comunidades rurais durante todo o mês"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepatospb.org.br/paroquias/paroquia-sao-miguel-arcanjo/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Criada em 1968. A matriz está em reforma desde 2018."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora do Bom Conselho",
+  "categoria": "paroquia",
+  "cidade": "Princesa Isabel",
+  "padroeiro": "Nossa Senhora do Bom Conselho",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Bom Conselho",
+    "tipo": "matriz",
+    "cidade": "Princesa Isabel",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepatospb.org.br/foranias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário achado. A página de foranias da diocese confirma a unidade; busca na web e no Instagram não trouxe horário com fonte."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia do Divino Espírito Santo",
+  "categoria": "paroquia",
+  "cidade": "Manaíra",
+  "padroeiro": "Divino Espírito Santo",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Divino Espírito Santo",
+    "tipo": "matriz",
+    "cidade": "Manaíra",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepatospb.org.br/foranias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://gcatholic.org/churches/brazil/57612",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário achado. A página de foranias traz Nossa Senhora das Dores, mas o IBGE e o anuário dão o Divino Espírito Santo como padroeiro, com a paróquia criada em 1887."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "Catingueira",
+  "padroeiro": "São Sebastião",
+  "contatos": {
+   "telefone": "83999181519",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "psscatingueira@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Sebastião",
+    "tipo": "matriz",
+    "cidade": "Catingueira",
+    "localidade": "Centro",
+    "endereco": "Rua Lourenço Dantas de Goes",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "17:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Domingo, 16h, missa nas comunidades rurais"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepatospb.org.br/paroquias/paroquia-sao-sebastiao/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedepatospb.org.br/paroquias/paroquia-sao-sebastiao/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Instalada em 1967. Em 2019 a Paróquia de Santa Teresinha do Menino Jesus, em Emas, foi desmembrada dela."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São João Batista",
+  "categoria": "paroquia",
+  "cidade": "Olho d'Água",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Batista",
+    "tipo": "matriz",
+    "cidade": "Olho d'Água",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepatospb.org.br/foranias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário achado. São João Batista é padroeiro do município, um dos três da Paraíba com esse padroeiro."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Piancó",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Piancó",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Igreja de Nossa Senhora do Rosário",
+    "tipo": "capela",
+    "cidade": "Piancó",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepatospb.org.br/paroquias/paroquia-santo-antonio-de-pianco/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedepatospb.org.br/foranias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário achado; a página da paróquia no site da diocese só traz a história. Freguesia criada em 1739. A primeira igreja, dedicada a Nossa Senhora do Rosário em 2014, segue em uso."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Senhora Sant'Ana",
+  "categoria": "paroquia",
+  "cidade": "Santana dos Garrotes",
+  "padroeiro": "Senhora Sant'Ana",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Senhora Sant'Ana",
+    "tipo": "matriz",
+    "cidade": "Santana dos Garrotes",
+    "localidade": "Centro",
+    "endereco": "Rua Renato Teotonio, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "17:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Missa uma vez por mês nos distritos de Serra Branca e Palestina"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São João Batista",
+    "tipo": "capela",
+    "cidade": "Santana dos Garrotes",
+    "localidade": "Distrito de Pitombeira",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "10:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Igreja de São Sebastião",
+    "tipo": "capela",
+    "cidade": "Santana dos Garrotes",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepatospb.org.br/paroquias/paroquia-de-senhora-santana/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedepatospb.org.br/paroquias/paroquia-de-senhora-santana/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "A igreja antiga da cidade, dedicada a São Sebastião, copadroeiro do município, segue em funcionamento."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora dos Remédios",
+  "categoria": "paroquia",
+  "cidade": "Nova Olinda",
+  "padroeiro": "Nossa Senhora dos Remédios",
+  "contatos": {
+   "telefone": "83999402213",
+   "whatsapp": "",
+   "instagram": "pascom_novaolinda",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora dos Remédios",
+    "tipo": "matriz",
+    "cidade": "Nova Olinda",
+    "localidade": "Centro",
+    "endereco": "Rua Padre José Lopes, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "17:10",
+      "semanas": null,
+      "observacao": "Até 18h30"
+     }
+    ],
+    "nao_cabe": "Segunda, 19h, missa nos setores de missão da zona urbana"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Luzia",
+    "tipo": "capela",
+    "cidade": "Nova Olinda",
+    "localidade": "Comunidade Santo Amaro",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Francisco de Assis",
+    "tipo": "capela",
+    "cidade": "Nova Olinda",
+    "localidade": "Distrito de Manguenza",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Nova Olinda",
+    "localidade": "Comunidade Canto",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Sebastião",
+    "tipo": "capela",
+    "cidade": "Nova Olinda",
+    "localidade": "Comunidade Andreza",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São José",
+    "tipo": "capela",
+    "cidade": "Nova Olinda",
+    "localidade": "Comunidade Saco da Pedra",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Missa quinzenal na terça, 19h"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de São Domingos",
+    "tipo": "comunidade",
+    "cidade": "Nova Olinda",
+    "localidade": "São Domingos",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Missa quinzenal na sexta, 18h, alternando com Várzea da Cruz"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Várzea da Cruz",
+    "tipo": "comunidade",
+    "cidade": "Nova Olinda",
+    "localidade": "Várzea da Cruz",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Missa quinzenal na sexta, 18h, alternando com São Domingos"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade do Cipó",
+    "tipo": "comunidade",
+    "cidade": "Nova Olinda",
+    "localidade": "Cipó",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Missa quinzenal no sábado, 16h"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepatospb.org.br/paroquias/paroquia-nossa-senhora-dos-remedios-nova-olinda-pb/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedepatospb.org.br/paroquias/paroquia-nossa-senhora-dos-remedios-nova-olinda-pb/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Paróquia desde 1965."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Santa Teresinha do Menino Jesus",
+  "categoria": "paroquia",
+  "cidade": "Emas",
+  "padroeiro": "Santa Teresinha do Menino Jesus",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Teresinha do Menino Jesus",
+    "tipo": "matriz",
+    "cidade": "Emas",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepatospb.org.br/paroquias/paroquia-sao-sebastiao/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedepatospb.org.br/paroquias/paroquia-santo-antonio-de-pianco/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário achado. Criada em 2019 como a 40ª paróquia da diocese, desmembrada da Paróquia de São Sebastião de Catingueira; falta na página de foranias, mas a página da Paróquia de Piancó a lista na Forania do Piancó."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora da Conceição",
+  "categoria": "paroquia",
+  "cidade": "Taperoá",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "Taperoá",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepatospb.org.br/foranias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário achado. A página de foranias da diocese confirma a unidade; busca na web e no Instagram não trouxe horário com fonte."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora do Livramento",
+  "categoria": "paroquia",
+  "cidade": "Livramento",
+  "padroeiro": "Nossa Senhora do Livramento",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Livramento",
+    "tipo": "matriz",
+    "cidade": "Livramento",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepatospb.org.br/foranias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário achado. A página de foranias da diocese confirma a unidade; busca na web e no Instagram não trouxe horário com fonte."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora da Assunção",
+  "categoria": "paroquia",
+  "cidade": "Assunção",
+  "padroeiro": "Nossa Senhora da Assunção",
+  "contatos": {
+   "telefone": "83998338080",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiansdaassuncao@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Assunção",
+    "tipo": "matriz",
+    "cidade": "Assunção",
+    "localidade": "",
+    "endereco": "Rua Pio Salvador",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": "Com confissões"
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora das Vitórias",
+    "tipo": "capela",
+    "cidade": "Assunção",
+    "localidade": "Sítio Viração",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora do Perpétuo Socorro",
+    "tipo": "capela",
+    "cidade": "Assunção",
+    "localidade": "Sítio Olho d'Água de Cima",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora das Graças",
+    "tipo": "capela",
+    "cidade": "Assunção",
+    "localidade": "Sítio Olho d'Água de Baixo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora da Conceição",
+    "tipo": "capela",
+    "cidade": "Assunção",
+    "localidade": "Distrito de São José da Batalha",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora do Carmo",
+    "tipo": "capela",
+    "cidade": "Salgadinho",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Assunção",
+    "localidade": "Povoado de Serraria",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Francisco",
+    "tipo": "capela",
+    "cidade": "Assunção",
+    "localidade": "Sítio Cajazeiras 1",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepatospb.org.br/paroquias/paroquia-nossa-senhora-da-assuncao/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedepatospb.org.br/paroquias/paroquia-nossa-senhora-da-assuncao/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Criada em 2008. Abrange Assunção e Salgadinho."
+ }
+]

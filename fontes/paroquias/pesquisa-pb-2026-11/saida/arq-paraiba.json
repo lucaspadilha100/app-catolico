@@ -1,0 +1,4720 @@
+[
+ {
+  "id_banco": null,
+  "nome": "Catedral Basílica de Nossa Senhora das Neves",
+  "categoria": "catedral",
+  "cidade": "João Pessoa",
+  "padroeiro": "Nossa Senhora das Neves",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "catedraldenossasenhoradasneves",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Catedral Basílica de Nossa Senhora das Neves",
+    "tipo": "matriz",
+    "cidade": "João Pessoa",
+    "localidade": "Centro",
+    "endereco": "Praça Dom Ulrico, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "11:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://paraibabusiness.com.br/missas-deste-domingo-25-em-joao-pessoa-horarios-e-como-conciliar-com-a-votacao/",
+    "data": "2026-10-25",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://paraibabusiness.com.br/vai-a-missa-neste-domingo-confira-os-horarios-em-igrejas-de-joao-pessoa/",
+    "data": "2026-08-23",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/comunicacoes-16/",
+    "data": "2024-09-25",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Sé da Arquidiocese da Paraíba. Horário de domingo apurado pela imprensa local; a paróquia pede confirmação."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Lourdes",
+  "categoria": "paroquia",
+  "cidade": "João Pessoa",
+  "padroeiro": "Nossa Senhora de Lourdes",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "paroquia_lourdes",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora de Lourdes",
+    "tipo": "matriz",
+    "cidade": "João Pessoa",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/comunicacoes-16/",
+    "data": "2024-09-25",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/missas-online-arcebispo-e-padres-mantem-celebracoes-em-tempo-de-quarentena/",
+    "data": "2020-03-23",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santuário Nossa Senhora da Conceição",
+  "categoria": "santuario",
+  "cidade": "João Pessoa",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "João Pessoa",
+    "localidade": "Varadouro",
+    "endereco": "Rua São Miguel, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade da Ilha do Bispo",
+    "tipo": "comunidade",
+    "cidade": "João Pessoa",
+    "localidade": "Ilha do Bispo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/arquidiocese-da-paraiba-celebra-a-festa-de-nossa-senhora-da-conceicao-com-programacao-especial-em-13-paroquias-e-no-seminario-arquidiocesano/",
+    "data": "2025-12-02",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/nomeacoes-transferencias-e-outras-comunicacoes/",
+    "data": "2021-11-29",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Santuário de Nossa Senhora da Penha",
+  "categoria": "santuario",
+  "cidade": "João Pessoa",
+  "padroeiro": "Nossa Senhora da Penha",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "santuariodapenhapb",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário de Nossa Senhora da Penha",
+    "tipo": "santuario",
+    "cidade": "João Pessoa",
+    "localidade": "Penha",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/comunicado-19/",
+    "data": "2026-07-28",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://paraibabusiness.com.br/missas-deste-domingo-em-joao-pessoa-confira-horarios-igrejas-e-perfis-oficiais-das-paroquias/",
+    "data": "2026-09-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Santuário arquidiocesano com reitor próprio. Sede da Romaria da Penha, em outubro e novembro."
+ },
+ {
+  "id_banco": null,
+  "nome": "Santuário da Imaculada Conceição",
+  "categoria": "santuario",
+  "cidade": "João Pessoa",
+  "padroeiro": "Imaculada Conceição",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário da Imaculada Conceição",
+    "tipo": "santuario",
+    "cidade": "João Pessoa",
+    "localidade": "Tambauzinho",
+    "endereco": "Rua Estudante Carlos Henrique Braga, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/arquidiocese-da-paraiba-celebra-a-festa-de-nossa-senhora-da-conceicao-com-programacao-especial-em-13-paroquias-e-no-seminario-arquidiocesano/",
+    "data": "2025-12-02",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santuário Nossa Senhora Mãe dos Homens",
+  "categoria": "santuario",
+  "cidade": "João Pessoa",
+  "padroeiro": "Nossa Senhora Mãe dos Homens",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "paroquiamaedoshomensjp",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário Nossa Senhora Mãe dos Homens",
+    "tipo": "santuario",
+    "cidade": "João Pessoa",
+    "localidade": "Tambiá",
+    "endereco": "Avenida Monsenhor Walfredo Leal",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "11:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://paraibabusiness.com.br/missas-deste-domingo-em-joao-pessoa-confira-horarios-igrejas-e-perfis-oficiais-das-paroquias/",
+    "data": "2026-09-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/comunicacoes-16/",
+    "data": "2024-09-25",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Horário de domingo apurado pela imprensa local; a paróquia pede confirmação."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Júlia",
+  "categoria": "paroquia",
+  "cidade": "João Pessoa",
+  "padroeiro": "Santa Júlia",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Júlia",
+    "tipo": "matriz",
+    "cidade": "João Pessoa",
+    "localidade": "Torre",
+    "endereco": "Avenida Júlia Freire, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "11:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://paraibabusiness.com.br/horarios-de-missas-em-joao-pessoa-neste-domingo-1o-veja-programacao/",
+    "data": "2026-11-01",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/comunicacoes-16/",
+    "data": "2024-09-25",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Horário de domingo apurado pela imprensa local; a paróquia pede confirmação."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santuário São Judas Tadeu",
+  "categoria": "santuario",
+  "cidade": "João Pessoa",
+  "padroeiro": "São Judas Tadeu",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário São Judas Tadeu",
+    "tipo": "santuario",
+    "cidade": "João Pessoa",
+    "localidade": "Torre",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://paraibabusiness.com.br/missas-deste-domingo-em-joao-pessoa-confira-horarios-igrejas-e-perfis-oficiais-das-paroquias/",
+    "data": "2026-09-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/comunicacoes-16/",
+    "data": "2024-09-25",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Horário de domingo apurado pela imprensa local; a paróquia pede confirmação."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Esperança",
+  "categoria": "paroquia",
+  "cidade": "João Pessoa",
+  "padroeiro": "Nossa Senhora da Esperança",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Esperança",
+    "tipo": "matriz",
+    "cidade": "João Pessoa",
+    "localidade": "Torre",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/nova-paroquia-na-arquidiocese-da-paraiba-convite-para-a-celebracao-de-instituicao-da-paroquia-nossa-senhora-da-esperanca-e-posse-do-mons-ednaldo-araujo/",
+    "data": "2024-12-05",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/comunicacoes-16/",
+    "data": "2024-09-25",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Criada em 13/12/2024, desmembrada da Paróquia Santuário São Judas Tadeu. Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Área Pastoral São Gonçalo",
+  "categoria": "area_pastoral",
+  "cidade": "João Pessoa",
+  "padroeiro": "São Gonçalo",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "igrejasaogoncalo",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja de São Gonçalo",
+    "tipo": "matriz",
+    "cidade": "João Pessoa",
+    "localidade": "Torre",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/dia-de-finados-na-arquidiocese-missas-nas-igrejas-e-cemiterios/",
+    "data": "2022-10-27",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/missas-online-arcebispo-e-padres-mantem-celebracoes-em-tempo-de-quarentena/",
+    "data": "2020-03-23",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Citada como área pastoral até 2022; situação atual não confirmada. Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sant'Anna e São Joaquim",
+  "categoria": "paroquia",
+  "cidade": "João Pessoa",
+  "padroeiro": "Sant'Anna e São Joaquim",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "p_sasj",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Sant'Anna e São Joaquim",
+    "tipo": "matriz",
+    "cidade": "João Pessoa",
+    "localidade": "Pedro Gondim",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/comunicado-21/",
+    "data": "2026-09-30",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/missas-online-arcebispo-e-padres-mantem-celebracoes-em-tempo-de-quarentena/",
+    "data": "2020-03-23",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Rosário",
+  "categoria": "paroquia",
+  "cidade": "João Pessoa",
+  "padroeiro": "Nossa Senhora do Rosário",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "igrejadorosariojp",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Rosário",
+    "tipo": "matriz",
+    "cidade": "João Pessoa",
+    "localidade": "Jaguaribe",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/dia-de-finados-na-arquidiocese-missas-nas-igrejas-e-cemiterios/",
+    "data": "2022-10-27",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/missas-online-arcebispo-e-padres-mantem-celebracoes-em-tempo-de-quarentena/",
+    "data": "2020-03-23",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Teresinha",
+  "categoria": "paroquia",
+  "cidade": "João Pessoa",
+  "padroeiro": "Santa Teresinha do Menino Jesus",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Teresinha",
+    "tipo": "matriz",
+    "cidade": "João Pessoa",
+    "localidade": "Roger",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/dia-de-finados-na-arquidiocese-missas-nas-igrejas-e-cemiterios/",
+    "data": "2022-10-27",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sagrado Coração de Jesus",
+  "categoria": "paroquia",
+  "cidade": "João Pessoa",
+  "padroeiro": "Sagrado Coração de Jesus",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Sagrado Coração de Jesus",
+    "tipo": "matriz",
+    "cidade": "João Pessoa",
+    "localidade": "Mandacaru",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/comunicacoes-20/",
+    "data": "2025-09-26",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/comunicado-22/",
+    "data": "2026-10-28",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Confiada aos jesuítas até 2025; hoje com clero arquidiocesano. Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Inácio de Loyola",
+  "categoria": "paroquia",
+  "cidade": "João Pessoa",
+  "padroeiro": "Santo Inácio de Loyola",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Inácio de Loyola",
+    "tipo": "matriz",
+    "cidade": "João Pessoa",
+    "localidade": "Alto do Céu",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/comunicacoes-5/",
+    "data": "2023-09-20",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/dia-de-finados-na-arquidiocese-missas-nas-igrejas-e-cemiterios/",
+    "data": "2022-10-27",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Francisco das Chagas",
+  "categoria": "paroquia",
+  "cidade": "João Pessoa",
+  "padroeiro": "São Francisco das Chagas",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Francisco das Chagas",
+    "tipo": "matriz",
+    "cidade": "João Pessoa",
+    "localidade": "Rangel",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/comunicado-21/",
+    "data": "2026-09-30",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Clara",
+  "categoria": "paroquia",
+  "cidade": "João Pessoa",
+  "padroeiro": "Santa Clara",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Clara",
+    "tipo": "matriz",
+    "cidade": "João Pessoa",
+    "localidade": "Alto do Mateus",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/nomeacoes-transferencias-e-outras-comunicacoes/",
+    "data": "2021-11-29",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/dia-de-finados-na-arquidiocese-missas-nas-igrejas-e-cemiterios/",
+    "data": "2022-10-27",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Administrada pelos Cônegos Regulares Lateranenses desde 2021. Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José Operário",
+  "categoria": "paroquia",
+  "cidade": "João Pessoa",
+  "padroeiro": "São José Operário",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "psjojp",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José Operário",
+    "tipo": "matriz",
+    "cidade": "João Pessoa",
+    "localidade": "Cruz das Armas",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/dia-de-finados-na-arquidiocese-missas-nas-igrejas-e-cemiterios/",
+    "data": "2022-10-27",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/missas-online-arcebispo-e-padres-mantem-celebracoes-em-tempo-de-quarentena/",
+    "data": "2020-03-23",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Virgem Mãe dos Pobres",
+  "categoria": "paroquia",
+  "cidade": "João Pessoa",
+  "padroeiro": "Virgem Mãe dos Pobres",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz da Virgem Mãe dos Pobres",
+    "tipo": "matriz",
+    "cidade": "João Pessoa",
+    "localidade": "Jardim Planalto",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/comunicacoes-20/",
+    "data": "2025-09-26",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/comunicacoes-18/",
+    "data": "2025-02-20",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Sedia o Seminário Propedêutico São Luiz Gonzaga. Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Maria Mãe da Igreja",
+  "categoria": "paroquia",
+  "cidade": "João Pessoa",
+  "padroeiro": "Maria Mãe da Igreja",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Maria Mãe da Igreja",
+    "tipo": "matriz",
+    "cidade": "João Pessoa",
+    "localidade": "Jardim Veneza",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/comunicacoes-5/",
+    "data": "2023-09-20",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/nomeacoes-transferencias-e-criacao-de-nova-paroquia/",
+    "data": "2021-08-10",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Criada em 2021, desmembrada da Paróquia São Francisco de Assis do Bairro das Indústrias. Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Francisco de Assis",
+  "categoria": "paroquia",
+  "cidade": "João Pessoa",
+  "padroeiro": "São Francisco de Assis",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Francisco de Assis",
+    "tipo": "matriz",
+    "cidade": "João Pessoa",
+    "localidade": "Bairro das Indústrias",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/comunicacoes-16/",
+    "data": "2024-09-25",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Jesus Ressuscitado",
+  "categoria": "paroquia",
+  "cidade": "João Pessoa",
+  "padroeiro": "Jesus Ressuscitado",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Jesus Ressuscitado",
+    "tipo": "matriz",
+    "cidade": "João Pessoa",
+    "localidade": "Anatólia",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/comunicacoes-5/",
+    "data": "2023-09-20",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/dia-de-finados-na-arquidiocese-missas-nas-igrejas-e-cemiterios/",
+    "data": "2022-10-27",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Menino Jesus de Praga",
+  "categoria": "paroquia",
+  "cidade": "João Pessoa",
+  "padroeiro": "Menino Jesus de Praga",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Menino Jesus de Praga",
+    "tipo": "matriz",
+    "cidade": "João Pessoa",
+    "localidade": "Bancários",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/comunicacoes-5/",
+    "data": "2023-09-20",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/dia-de-finados-na-arquidiocese-missas-nas-igrejas-e-cemiterios/",
+    "data": "2022-10-27",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio do Menino Deus",
+  "categoria": "paroquia",
+  "cidade": "João Pessoa",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio do Menino Deus",
+    "tipo": "matriz",
+    "cidade": "João Pessoa",
+    "localidade": "Jardim Cidade Universitária",
+    "endereco": "Rua Rejane Freire Correia, 2015",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/fieis-celebram-santo-antonio-neste-13-de-junho-em-toda-a-arquidiocese-da-paraiba/",
+    "data": "2026-06-12",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/santos-juninos-tradicao-e-fe-na-arquidiocese-da-paraiba/",
+    "data": "2024-06-06",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio de Pádua",
+  "categoria": "paroquia",
+  "cidade": "João Pessoa",
+  "padroeiro": "Santo Antônio de Pádua",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio de Pádua",
+    "tipo": "matriz",
+    "cidade": "João Pessoa",
+    "localidade": "Ernesto Geisel",
+    "endereco": "Rua Maria das Graças Oliveira Cartaxo, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/fieis-celebram-santo-antonio-neste-13-de-junho-em-toda-a-arquidiocese-da-paraiba/",
+    "data": "2026-06-12",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/santos-juninos-tradicao-e-fe-na-arquidiocese-da-paraiba/",
+    "data": "2024-06-06",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José",
+  "categoria": "paroquia",
+  "cidade": "João Pessoa",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José",
+    "tipo": "matriz",
+    "cidade": "João Pessoa",
+    "localidade": "José Américo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/comunicacoes-5/",
+    "data": "2023-09-20",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/dia-de-finados-na-arquidiocese-missas-nas-igrejas-e-cemiterios/",
+    "data": "2022-10-27",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Cristo Rei",
+  "categoria": "paroquia",
+  "cidade": "João Pessoa",
+  "padroeiro": "Cristo Rei",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Cristo Rei",
+    "tipo": "matriz",
+    "cidade": "João Pessoa",
+    "localidade": "Mangabeira",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://paraibabusiness.com.br/missas-deste-domingo-em-joao-pessoa-confira-horarios-igrejas-e-perfis-oficiais-das-paroquias/",
+    "data": "2026-09-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/comunicacoes-5/",
+    "data": "2023-09-20",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Horário de domingo apurado pela imprensa local; a paróquia pede confirmação."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sagrada Família",
+  "categoria": "paroquia",
+  "cidade": "João Pessoa",
+  "padroeiro": "Sagrada Família",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz da Sagrada Família",
+    "tipo": "matriz",
+    "cidade": "João Pessoa",
+    "localidade": "Mangabeira IV",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/comunicacoes-20/",
+    "data": "2025-09-26",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Francisco de Assis",
+  "categoria": "paroquia",
+  "cidade": "João Pessoa",
+  "padroeiro": "São Francisco de Assis",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Francisco de Assis",
+    "tipo": "matriz",
+    "cidade": "João Pessoa",
+    "localidade": "Mangabeira VII",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/comunicado-22/",
+    "data": "2026-10-28",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/comunicacoes-5/",
+    "data": "2023-09-20",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora das Dores",
+  "categoria": "paroquia",
+  "cidade": "João Pessoa",
+  "padroeiro": "Nossa Senhora das Dores",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora das Dores",
+    "tipo": "matriz",
+    "cidade": "João Pessoa",
+    "localidade": "Mangabeira VIII",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/dia-de-finados-na-arquidiocese-missas-nas-igrejas-e-cemiterios/",
+    "data": "2022-10-27",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santíssima Trindade",
+  "categoria": "paroquia",
+  "cidade": "João Pessoa",
+  "padroeiro": "Santíssima Trindade",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz da Santíssima Trindade",
+    "tipo": "matriz",
+    "cidade": "João Pessoa",
+    "localidade": "Valentina Figueiredo",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://paraibabusiness.com.br/missas-deste-domingo-em-joao-pessoa-confira-horarios-igrejas-e-perfis-oficiais-das-paroquias/",
+    "data": "2026-09-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/comunicacoes-18/",
+    "data": "2025-02-20",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Horário de domingo apurado pela imprensa local; a paróquia pede confirmação."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Conceição Aparecida",
+  "categoria": "paroquia",
+  "cidade": "João Pessoa",
+  "padroeiro": "Nossa Senhora da Conceição Aparecida",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Conceição Aparecida",
+    "tipo": "matriz",
+    "cidade": "João Pessoa",
+    "localidade": "Valentina Figueiredo",
+    "endereco": "Rua Mariângela Lucena Peixoto, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/festa-de-nossa-senhora-aparecida-e-celebrada-com-grande-devocao-em-toda-a-arquidiocese-da-paraiba/",
+    "data": "2025-10-10",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/comunicado-7/",
+    "data": "2024-06-21",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Conceição Aparecida",
+  "categoria": "paroquia",
+  "cidade": "João Pessoa",
+  "padroeiro": "Nossa Senhora da Conceição Aparecida",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Conceição Aparecida",
+    "tipo": "matriz",
+    "cidade": "João Pessoa",
+    "localidade": "Colinas do Sul",
+    "endereco": "Rua Prefeito Severino Alves da Silveira, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/festa-de-nossa-senhora-aparecida-e-celebrada-com-grande-devocao-em-toda-a-arquidiocese-da-paraiba/",
+    "data": "2025-10-10",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/comunicado-17/",
+    "data": "2026-04-30",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Rosário de Fátima",
+  "categoria": "paroquia",
+  "cidade": "João Pessoa",
+  "padroeiro": "Nossa Senhora do Rosário de Fátima",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Rosário de Fátima",
+    "tipo": "matriz",
+    "cidade": "João Pessoa",
+    "localidade": "Gramame",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/comunicado-15/",
+    "data": "2026-03-10",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/comunicado-22/",
+    "data": "2026-10-28",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Erigida paróquia em 20/06/2026; era área pastoral criada em 2024, na região de Valentina Figueiredo e Gramame. Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Edwiges",
+  "categoria": "paroquia",
+  "cidade": "João Pessoa",
+  "padroeiro": "Santa Edwiges",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Edwiges",
+    "tipo": "matriz",
+    "cidade": "João Pessoa",
+    "localidade": "Paratibe",
+    "endereco": "Rua Jaguatirica, 342",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/festa-de-santa-edwiges-reune-fieis-na-arquidiocese-da-paraiba-em-um-dia-de-fe-e-esperanca/",
+    "data": "2025-10-16",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/comunicado-7/",
+    "data": "2024-06-21",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Mãe do Redentor",
+  "categoria": "paroquia",
+  "cidade": "João Pessoa",
+  "padroeiro": "Nossa Senhora Mãe do Redentor",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz da Mãe do Redentor",
+    "tipo": "matriz",
+    "cidade": "João Pessoa",
+    "localidade": "Cristo Redentor",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco",
+    "tipo": "comunidade",
+    "cidade": "João Pessoa",
+    "localidade": "Cristo Redentor",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/programacao-das-missas-do-dia-de-finados-na-arquidiocese-da-paraiba/",
+    "data": "2025-10-29",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/nomeacoes-transferencias-e-outras-comunicacoes/",
+    "data": "2021-11-29",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Administrada pelos Frades Franciscanos Conventuais desde 2021. Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "João Pessoa",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "nsaparecida_cristo",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "João Pessoa",
+    "localidade": "Cristo Redentor",
+    "endereco": "Rua Horácio Trajano de Oliveira, 630",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora das Graças",
+    "tipo": "capela",
+    "cidade": "João Pessoa",
+    "localidade": "Cristo Redentor",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/festa-de-nossa-senhora-aparecida-e-celebrada-com-grande-devocao-em-toda-a-arquidiocese-da-paraiba/",
+    "data": "2025-10-10",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "João Pessoa",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "83989182283",
+   "instagram": "paroquia13demaio",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "João Pessoa",
+    "localidade": "Treze de Maio",
+    "endereco": "Rua Carteiro Francisco Marques",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "11:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://paraibabusiness.com.br/missas-deste-domingo-25-em-joao-pessoa-horarios-e-como-conciliar-com-a-votacao/",
+    "data": "2026-10-25",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://paraibabusiness.com.br/missas-deste-domingo-25-em-joao-pessoa-horarios-e-como-conciliar-com-a-votacao/",
+    "data": "2026-10-25",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/festa-de-nossa-senhora-aparecida-e-celebrada-com-grande-devocao-em-toda-a-arquidiocese-da-paraiba/",
+    "data": "2025-10-10",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Horário de domingo apurado pela imprensa local; a paróquia pede confirmação."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Rafael",
+  "categoria": "paroquia",
+  "cidade": "João Pessoa",
+  "padroeiro": "São Rafael Arcanjo",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Rafael",
+    "tipo": "matriz",
+    "cidade": "João Pessoa",
+    "localidade": "Castelo Branco",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/comunicado-19/",
+    "data": "2026-07-28",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/comunicacoes-20/",
+    "data": "2025-09-26",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Fátima",
+  "categoria": "paroquia",
+  "cidade": "João Pessoa",
+  "padroeiro": "Nossa Senhora de Fátima",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "pnsfmiramar",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora de Fátima",
+    "tipo": "matriz",
+    "cidade": "João Pessoa",
+    "localidade": "Miramar",
+    "endereco": "Rua Nevinha Cavalcante",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "11:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://paraibabusiness.com.br/horarios-de-missas-em-joao-pessoa-neste-domingo-1o-veja-programacao/",
+    "data": "2026-11-01",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/arquidiocese-da-paraiba-celebra-o-dia-de-nossa-senhora-de-fatima-com-missas-procissoes-e-momentos-de-fe/",
+    "data": "2026-05-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Horário de domingo apurado pela imprensa local; a paróquia pede confirmação."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio de Lisboa",
+  "categoria": "paroquia",
+  "cidade": "João Pessoa",
+  "padroeiro": "Santo Antônio de Lisboa",
+  "contatos": {
+   "telefone": "8332473103",
+   "whatsapp": "",
+   "instagram": "psaltambau",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio de Lisboa",
+    "tipo": "matriz",
+    "cidade": "João Pessoa",
+    "localidade": "Tambaú",
+    "endereco": "Avenida Olinda, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://paraibabusiness.com.br/missas-deste-domingo-25-em-joao-pessoa-horarios-e-como-conciliar-com-a-votacao/",
+    "data": "2026-10-25",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://paraibabusiness.com.br/vai-a-missa-neste-domingo-confira-os-horarios-em-igrejas-de-joao-pessoa/",
+    "data": "2026-08-23",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/santos-juninos-tradicao-e-fe-na-arquidiocese-da-paraiba/",
+    "data": "2024-06-06",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Horário de domingo apurado pela imprensa local; a paróquia pede confirmação."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Guadalupe",
+  "categoria": "paroquia",
+  "cidade": "João Pessoa",
+  "padroeiro": "Nossa Senhora de Guadalupe",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "nsguadalupejp",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora de Guadalupe",
+    "tipo": "matriz",
+    "cidade": "João Pessoa",
+    "localidade": "Cabo Branco",
+    "endereco": "Rua Maria Elizabeth",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://paraibabusiness.com.br/missas-deste-domingo-em-joao-pessoa-confira-horarios-igrejas-e-perfis-oficiais-das-paroquias/",
+    "data": "2026-09-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://paraibabusiness.com.br/missas-deste-domingo-em-joao-pessoa-confira-horarios-igrejas-e-perfis-oficiais-das-paroquias/",
+    "data": "2026-09-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/comunicacoes-16/",
+    "data": "2024-09-25",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Horário de domingo apurado pela imprensa local; a paróquia pede confirmação."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Perpétuo Socorro",
+  "categoria": "paroquia",
+  "cidade": "João Pessoa",
+  "padroeiro": "Nossa Senhora do Perpétuo Socorro",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "perpetuosocorrojp",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Perpétuo Socorro",
+    "tipo": "matriz",
+    "cidade": "João Pessoa",
+    "localidade": "Altiplano",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://paraibabusiness.com.br/missas-deste-domingo-25-em-joao-pessoa-horarios-e-como-conciliar-com-a-votacao/",
+    "data": "2026-10-25",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://paraibabusiness.com.br/vai-a-missa-neste-domingo-confira-os-horarios-em-igrejas-de-joao-pessoa/",
+    "data": "2026-08-23",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/comunicado-17/",
+    "data": "2026-04-30",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Horário de domingo apurado pela imprensa local; a paróquia pede confirmação."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Pedro Pescador",
+  "categoria": "paroquia",
+  "cidade": "João Pessoa",
+  "padroeiro": "São Pedro",
+  "contatos": {
+   "telefone": "8330310328",
+   "whatsapp": "",
+   "instagram": "paroquiasaopedropescadorjp",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Pedro Pescador",
+    "tipo": "matriz",
+    "cidade": "João Pessoa",
+    "localidade": "Manaíra",
+    "endereco": "Avenida Maria Rosa, 1124",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santo André",
+    "tipo": "capela",
+    "cidade": "João Pessoa",
+    "localidade": "Manaíra",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://paraibabusiness.com.br/missas-deste-domingo-25-em-joao-pessoa-horarios-e-como-conciliar-com-a-votacao/",
+    "data": "2026-10-25",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://paraibabusiness.com.br/missas-deste-domingo-25-em-joao-pessoa-horarios-e-como-conciliar-com-a-votacao/",
+    "data": "2026-10-25",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/festa-de-sao-pedro-e-sao-paulo-na-arquidiocese-da-paraiba/",
+    "data": "2026-06-26",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Horário de domingo apurado pela imprensa local; a paróquia pede confirmação."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Pedro e São Paulo",
+  "categoria": "paroquia",
+  "cidade": "João Pessoa",
+  "padroeiro": "São Pedro e São Paulo",
+  "contatos": {
+   "telefone": "8332446484",
+   "whatsapp": "",
+   "instagram": "paroquia_spedrospaulo",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Pedro e São Paulo",
+    "tipo": "matriz",
+    "cidade": "João Pessoa",
+    "localidade": "Brisamar",
+    "endereco": "Rua Newton Timóteo de Souza, 25",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://paraibabusiness.com.br/missas-deste-domingo-25-em-joao-pessoa-horarios-e-como-conciliar-com-a-votacao/",
+    "data": "2026-10-25",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://paraibabusiness.com.br/missas-deste-domingo-25-em-joao-pessoa-horarios-e-como-conciliar-com-a-votacao/",
+    "data": "2026-10-25",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/santos-juninos-tradicao-e-fe-na-arquidiocese-da-paraiba/",
+    "data": "2024-06-06",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Horário de domingo apurado pela imprensa local; a paróquia pede confirmação."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Miguel Arcanjo",
+  "categoria": "paroquia",
+  "cidade": "João Pessoa",
+  "padroeiro": "São Miguel Arcanjo",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Miguel Arcanjo",
+    "tipo": "matriz",
+    "cidade": "João Pessoa",
+    "localidade": "Bessa",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://paraibabusiness.com.br/missas-deste-domingo-em-joao-pessoa-confira-horarios-igrejas-e-perfis-oficiais-das-paroquias/",
+    "data": "2026-09-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/comunicacoes-16/",
+    "data": "2024-09-25",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Horário de domingo apurado pela imprensa local; a paróquia pede confirmação."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santuário Nossa Senhora Mãe Rainha",
+  "categoria": "santuario",
+  "cidade": "João Pessoa",
+  "padroeiro": "Nossa Senhora Mãe Rainha",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "santuariomaerainhabessa",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário Mãe Rainha",
+    "tipo": "santuario",
+    "cidade": "João Pessoa",
+    "localidade": "Aeroclube",
+    "endereco": "Rua Francisco Leocádio Ribeiro Coutinho",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://paraibabusiness.com.br/missas-deste-domingo-25-em-joao-pessoa-horarios-e-como-conciliar-com-a-votacao/",
+    "data": "2026-10-25",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://paraibabusiness.com.br/vai-a-missa-neste-domingo-confira-os-horarios-em-igrejas-de-joao-pessoa/",
+    "data": "2026-08-23",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/comunicacoes-16/",
+    "data": "2024-09-25",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Santuário do Movimento de Schoenstatt. Horário de domingo apurado pela imprensa local."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Auxiliadora",
+  "categoria": "paroquia",
+  "cidade": "João Pessoa",
+  "padroeiro": "Nossa Senhora Auxiliadora",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Auxiliadora",
+    "tipo": "matriz",
+    "cidade": "João Pessoa",
+    "localidade": "Jardim Oceania",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://paraibabusiness.com.br/missas-deste-domingo-em-joao-pessoa-confira-horarios-igrejas-e-perfis-oficiais-das-paroquias/",
+    "data": "2026-09-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/comunicado-17/",
+    "data": "2026-04-30",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Horário de domingo apurado pela imprensa local; a paróquia pede confirmação."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Nazaré",
+  "categoria": "paroquia",
+  "cidade": "João Pessoa",
+  "padroeiro": "Nossa Senhora de Nazaré",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora de Nazaré",
+    "tipo": "matriz",
+    "cidade": "João Pessoa",
+    "localidade": "Jardim Oceania",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/comunicacoes-16/",
+    "data": "2024-09-25",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Conceição",
+  "categoria": "paroquia",
+  "cidade": "João Pessoa",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "João Pessoa",
+    "localidade": "Jardim Oceania",
+    "endereco": "Rua Comerciante Sebastião Interaminense, 97",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/arquidiocese-da-paraiba-celebra-a-festa-de-nossa-senhora-da-conceicao-com-programacao-especial-em-13-paroquias-e-no-seminario-arquidiocesano/",
+    "data": "2025-12-02",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/comunicacoes-16/",
+    "data": "2024-09-25",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Criada como área pastoral em 2024, desmembrada da Paróquia Nossa Senhora de Nazaré; chamada de paróquia pela arquidiocese em dezembro de 2025. Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "João Pessoa",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "saojoaobatistacs",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Batista",
+    "tipo": "matriz",
+    "cidade": "João Pessoa",
+    "localidade": "Costa e Silva",
+    "endereco": "Rua Jornalista José Ramalho, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/festa-de-sao-joao-na-arquidiocese-da-paraiba/",
+    "data": "2025-06-23",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/santos-juninos-tradicao-e-fe-na-arquidiocese-da-paraiba/",
+    "data": "2024-06-06",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Assunção",
+  "categoria": "paroquia",
+  "cidade": "João Pessoa",
+  "padroeiro": "Nossa Senhora da Assunção",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Assunção",
+    "tipo": "matriz",
+    "cidade": "João Pessoa",
+    "localidade": "Funcionários",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela da Assunção",
+    "tipo": "capela",
+    "cidade": "João Pessoa",
+    "localidade": "Grotão",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/comunicacoes-16/",
+    "data": "2024-09-25",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/dia-de-finados-na-arquidiocese-missas-nas-igrejas-e-cemiterios/",
+    "data": "2022-10-27",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sant'Ana",
+  "categoria": "paroquia",
+  "cidade": "João Pessoa",
+  "padroeiro": "Sant'Ana",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Sant'Ana",
+    "tipo": "matriz",
+    "cidade": "João Pessoa",
+    "localidade": "Funcionários II",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/nomeacoes-transferencias-e-outras-comunicacoes/",
+    "data": "2021-11-29",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/dia-de-finados-na-arquidiocese-missas-nas-igrejas-e-cemiterios/",
+    "data": "2022-10-27",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sagrado Coração de Jesus",
+  "categoria": "paroquia",
+  "cidade": "Cabedelo",
+  "padroeiro": "Sagrado Coração de Jesus",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "pscjpascom",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Sagrado Coração de Jesus",
+    "tipo": "matriz",
+    "cidade": "Cabedelo",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Igreja de Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Cabedelo",
+    "localidade": "Praia do Jacaré",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/comunicacoes-16/",
+    "data": "2024-09-25",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/festa-de-sao-pedro-e-sao-paulo-na-arquidiocese-da-paraiba/",
+    "data": "2026-06-26",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Missas de domingo com intérprete de Libras, pela Pastoral do Surdo. Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Maria Mãe de Deus",
+  "categoria": "paroquia",
+  "cidade": "Cabedelo",
+  "padroeiro": "Maria Mãe de Deus",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Maria Mãe de Deus",
+    "tipo": "matriz",
+    "cidade": "Cabedelo",
+    "localidade": "Intermares",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/comunicacoes-20/",
+    "data": "2025-09-26",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/comunicacoes-18/",
+    "data": "2025-02-20",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Nazaré",
+  "categoria": "paroquia",
+  "cidade": "Cabedelo",
+  "padroeiro": "Nossa Senhora de Nazaré",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora de Nazaré",
+    "tipo": "matriz",
+    "cidade": "Cabedelo",
+    "localidade": "Poço",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/comunicacoes-16/",
+    "data": "2024-09-25",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Judas Tadeu",
+  "categoria": "paroquia",
+  "cidade": "Cabedelo",
+  "padroeiro": "São Judas Tadeu",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Judas Tadeu",
+    "tipo": "matriz",
+    "cidade": "Cabedelo",
+    "localidade": "Jardim Camboinha",
+    "endereco": "Rua Nilo Montenegro, 626",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/festa-de-sao-judas-tadeu-celebracao-de-fe-e-esperanca-para-o-patrono-das-causas-impossiveis-2/",
+    "data": "2025-10-27",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/mudanca-no-clero-dom-delson-comunica-transferencias-e-nomeacoes/",
+    "data": "2021-06-02",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Assunção",
+  "categoria": "paroquia",
+  "cidade": "Cabedelo",
+  "padroeiro": "Nossa Senhora da Assunção",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Assunção",
+    "tipo": "matriz",
+    "cidade": "Cabedelo",
+    "localidade": "Renascer",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/comunicado-7/",
+    "data": "2024-06-21",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/mudanca-nas-paroquias-arquidiocese-anuncia-nomeacoes/",
+    "data": "2022-03-31",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sagrado Coração de Jesus",
+  "categoria": "paroquia",
+  "cidade": "Bayeux",
+  "padroeiro": "Sagrado Coração de Jesus",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Sagrado Coração de Jesus",
+    "tipo": "matriz",
+    "cidade": "Bayeux",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Severino",
+    "tipo": "capela",
+    "cidade": "Bayeux",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/comunicacoes-16/",
+    "data": "2024-09-25",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/programacao-das-missas-do-dia-de-finados-na-arquidiocese-da-paraiba/",
+    "data": "2025-10-29",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "Bayeux",
+  "padroeiro": "São Sebastião",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Sebastião",
+    "tipo": "matriz",
+    "cidade": "Bayeux",
+    "localidade": "Sesi",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/a-arquidiocese-da-paraiba-anuncia-a-programacao-da-festa-de-sao-sebastiao-nesta-segunda-feira-dia-20-de-janeiro-e-a-criacao-de-uma-nova-paroquia-na-cidade-de-capim/",
+    "data": "2025-01-20",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/nomeacoes-transferencias-e-outras-comunicacoes/",
+    "data": "2021-11-29",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Imaculada Conceição",
+  "categoria": "paroquia",
+  "cidade": "Bayeux",
+  "padroeiro": "Imaculada Conceição",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz da Imaculada Conceição",
+    "tipo": "matriz",
+    "cidade": "Bayeux",
+    "localidade": "Imaculada",
+    "endereco": "Rua Plácido de Oliveira Lima, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/arquidiocese-da-paraiba-celebra-a-festa-de-nossa-senhora-da-conceicao-com-programacao-especial-em-13-paroquias-e-no-seminario-arquidiocesano/",
+    "data": "2025-12-02",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/comunicacoes-18/",
+    "data": "2025-02-20",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Pedro Apóstolo",
+  "categoria": "paroquia",
+  "cidade": "Bayeux",
+  "padroeiro": "São Pedro Apóstolo",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Pedro Apóstolo",
+    "tipo": "matriz",
+    "cidade": "Bayeux",
+    "localidade": "Jardim Aeroporto",
+    "endereco": "Rua Daura Saraiva, 559",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/comunicado-22/",
+    "data": "2026-10-28",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/festa-de-sao-pedro-e-sao-paulo-na-arquidiocese-da-paraiba/",
+    "data": "2026-06-26",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "Bayeux",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Batista",
+    "tipo": "matriz",
+    "cidade": "Bayeux",
+    "localidade": "Mário Andreazza",
+    "endereco": "Rua Júlio César, 150",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/festa-de-sao-joao-na-arquidiocese-da-paraiba/",
+    "data": "2025-06-23",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/comunicacoes-18/",
+    "data": "2025-02-20",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santuário Santa Rita de Cássia",
+  "categoria": "santuario",
+  "cidade": "Santa Rita",
+  "padroeiro": "Santa Rita de Cássia",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário Santa Rita de Cássia",
+    "tipo": "santuario",
+    "cidade": "Santa Rita",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/comunicacoes-5/",
+    "data": "2023-09-20",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/programacao-das-missas-do-dia-de-finados-na-arquidiocese-da-paraiba/",
+    "data": "2025-10-29",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sagrado Coração de Jesus",
+  "categoria": "paroquia",
+  "cidade": "Santa Rita",
+  "padroeiro": "Sagrado Coração de Jesus",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Sagrado Coração de Jesus",
+    "tipo": "matriz",
+    "cidade": "Santa Rita",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/comunicacoes-16/",
+    "data": "2024-09-25",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Livramento",
+  "categoria": "paroquia",
+  "cidade": "Santa Rita",
+  "padroeiro": "Nossa Senhora do Livramento",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Livramento",
+    "tipo": "matriz",
+    "cidade": "Santa Rita",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/comunicacoes-20/",
+    "data": "2025-09-26",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora das Graças",
+  "categoria": "paroquia",
+  "cidade": "Santa Rita",
+  "padroeiro": "Nossa Senhora das Graças",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora das Graças",
+    "tipo": "matriz",
+    "cidade": "Santa Rita",
+    "localidade": "Várzea Nova",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/comunicacoes-5/",
+    "data": "2023-09-20",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Pedro e São Paulo",
+  "categoria": "paroquia",
+  "cidade": "Santa Rita",
+  "padroeiro": "São Pedro e São Paulo",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Pedro e São Paulo",
+    "tipo": "matriz",
+    "cidade": "Santa Rita",
+    "localidade": "Tibiri II",
+    "endereco": "Rua Patos, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/festa-de-sao-pedro-e-sao-paulo-na-arquidiocese-da-paraiba/",
+    "data": "2026-06-26",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/santos-juninos-tradicao-e-fe-na-arquidiocese-da-paraiba/",
+    "data": "2024-06-06",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Santa Rita",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Santa Rita",
+    "localidade": "Marcos Moura",
+    "endereco": "Rua Doutor Francisco Retumba, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/fieis-celebram-santo-antonio-neste-13-de-junho-em-toda-a-arquidiocese-da-paraiba/",
+    "data": "2026-06-12",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/santos-juninos-tradicao-e-fe-na-arquidiocese-da-paraiba/",
+    "data": "2024-06-06",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sagrado Coração de Jesus Menino",
+  "categoria": "paroquia",
+  "cidade": "Lucena",
+  "padroeiro": "Sagrado Coração de Jesus",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Sagrado Coração de Jesus Menino",
+    "tipo": "matriz",
+    "cidade": "Lucena",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Santuário de Nossa Senhora da Guia",
+    "tipo": "santuario",
+    "cidade": "Lucena",
+    "localidade": "Guia",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/38a-romaria-de-nossa-senhora-da-guia-reune-cerca-de-20-mil-fieis-em-lucena/",
+    "data": "2026-10-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Organiza a Romaria de Nossa Senhora da Guia, em outubro, até o santuário histórico. Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Conceição",
+  "categoria": "paroquia",
+  "cidade": "Conde",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "Conde",
+    "localidade": "Centro",
+    "endereco": "Rua Nossa Senhora da Conceição, 59",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/arquidiocese-da-paraiba-celebra-a-festa-de-nossa-senhora-da-conceicao-com-programacao-especial-em-13-paroquias-e-no-seminario-arquidiocesano/",
+    "data": "2025-12-02",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/programacao-das-missas-do-dia-de-finados-na-arquidiocese-da-paraiba/",
+    "data": "2025-10-29",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "Conde",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Batista",
+    "tipo": "matriz",
+    "cidade": "Conde",
+    "localidade": "Jacumã",
+    "endereco": "Rua Ilza Ribeiro, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/festa-de-sao-joao-na-arquidiocese-da-paraiba/",
+    "data": "2025-06-23",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/comunicacoes-18/",
+    "data": "2025-02-20",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Penha de França",
+  "categoria": "paroquia",
+  "cidade": "Pitimbu",
+  "padroeiro": "Nossa Senhora da Penha de França",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "paroquiapenhadefrancapitimbu",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Penha de França",
+    "tipo": "matriz",
+    "cidade": "Pitimbu",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/missas-online-arcebispo-e-padres-mantem-celebracoes-em-tempo-de-quarentena/",
+    "data": "2020-03-23",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Citada em roteiro da arquidiocese em 2024. Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Assunção",
+  "categoria": "paroquia",
+  "cidade": "Alhandra",
+  "padroeiro": "Nossa Senhora da Assunção",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "paroquiansassuncao_",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Assunção",
+    "tipo": "matriz",
+    "cidade": "Alhandra",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora das Vitórias",
+    "tipo": "comunidade",
+    "cidade": "Alhandra",
+    "localidade": "Sítio Subaúma",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/comunicacoes-5/",
+    "data": "2023-09-20",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio de Pádua",
+  "categoria": "paroquia",
+  "cidade": "Alhandra",
+  "padroeiro": "Santo Antônio de Pádua",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio de Pádua",
+    "tipo": "matriz",
+    "cidade": "Alhandra",
+    "localidade": "Mata Redonda",
+    "endereco": "Rua Silvino Bezerra de Lima",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Alhandra",
+    "localidade": "Mata Redonda",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/fieis-celebram-santo-antonio-neste-13-de-junho-em-toda-a-arquidiocese-da-paraiba/",
+    "data": "2026-06-12",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/santos-juninos-tradicao-e-fe-na-arquidiocese-da-paraiba/",
+    "data": "2024-06-06",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Matriz no distrito de Mata Redonda. Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Conceição",
+  "categoria": "paroquia",
+  "cidade": "Caaporã",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "Caaporã",
+    "localidade": "Centro",
+    "endereco": "Rua Salomão Veloso, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/arquidiocese-da-paraiba-celebra-a-festa-de-nossa-senhora-da-conceicao-com-programacao-especial-em-13-paroquias-e-no-seminario-arquidiocesano/",
+    "data": "2025-12-02",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/comunicado-21/",
+    "data": "2026-09-30",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santuário Nossa Senhora da Conceição",
+  "categoria": "santuario",
+  "cidade": "Pedras de Fogo",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário Nossa Senhora da Conceição",
+    "tipo": "santuario",
+    "cidade": "Pedras de Fogo",
+    "localidade": "Centro",
+    "endereco": "Avenida Dom Vital, 1",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São José",
+    "tipo": "capela",
+    "cidade": "Pedras de Fogo",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/arquidiocese-da-paraiba-celebra-a-festa-de-nossa-senhora-da-conceicao-com-programacao-especial-em-13-paroquias-e-no-seminario-arquidiocesano/",
+    "data": "2025-12-02",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/programacao-das-missas-do-dia-de-finados-na-arquidiocese-da-paraiba/",
+    "data": "2025-10-29",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia do Divino Espírito Santo",
+  "categoria": "paroquia",
+  "cidade": "Cruz do Espírito Santo",
+  "padroeiro": "Divino Espírito Santo",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Divino Espírito Santo",
+    "tipo": "matriz",
+    "cidade": "Cruz do Espírito Santo",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/comunicacoes-16/",
+    "data": "2024-09-25",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/programacao-das-missas-do-dia-de-finados-na-arquidiocese-da-paraiba/",
+    "data": "2025-10-29",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Conceição",
+  "categoria": "paroquia",
+  "cidade": "Sapé",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "Sapé",
+    "localidade": "Centro",
+    "endereco": "Praça da Matriz, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/arquidiocese-da-paraiba-celebra-a-festa-de-nossa-senhora-da-conceicao-com-programacao-especial-em-13-paroquias-e-no-seminario-arquidiocesano/",
+    "data": "2025-12-02",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/comunicacoes-16/",
+    "data": "2024-09-25",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Terezinha",
+  "categoria": "paroquia",
+  "cidade": "Sapé",
+  "padroeiro": "Santa Terezinha do Menino Jesus",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Terezinha",
+    "tipo": "matriz",
+    "cidade": "Sapé",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/comunicacoes-16/",
+    "data": "2024-09-25",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Fátima e São João Batista",
+  "categoria": "paroquia",
+  "cidade": "Riachão do Poço",
+  "padroeiro": "Nossa Senhora de Fátima e São João Batista",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora de Fátima e São João Batista",
+    "tipo": "matriz",
+    "cidade": "Riachão do Poço",
+    "localidade": "Centro",
+    "endereco": "Rua João Ferreira Alves, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora das Dores",
+    "tipo": "comunidade",
+    "cidade": "Sobrado",
+    "localidade": "Sítio Lagoa do Padre",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/arquidiocese-da-paraiba-celebra-o-dia-de-nossa-senhora-de-fatima-com-missas-procissoes-e-momentos-de-fe/",
+    "data": "2026-05-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/festa-de-sao-joao-na-arquidiocese-da-paraiba/",
+    "data": "2025-06-23",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Abrange Riachão do Poço e Sobrado. Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Jesus, Maria e José",
+  "categoria": "paroquia",
+  "cidade": "São José dos Ramos",
+  "padroeiro": "Sagrada Família",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Jesus, Maria e José",
+    "tipo": "matriz",
+    "cidade": "São José dos Ramos",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/comunicacoes-18/",
+    "data": "2025-02-20",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/comunicado-19/",
+    "data": "2026-07-28",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Rainha dos Anjos",
+  "categoria": "paroquia",
+  "cidade": "São Miguel de Taipu",
+  "padroeiro": "Nossa Senhora Rainha dos Anjos",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Rainha dos Anjos",
+    "tipo": "matriz",
+    "cidade": "São Miguel de Taipu",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/comunicacoes-19/",
+    "data": "2025-07-31",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/comunicado-7/",
+    "data": "2024-06-21",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Pilar",
+  "categoria": "paroquia",
+  "cidade": "Pilar",
+  "padroeiro": "Nossa Senhora do Pilar",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "pascomdopilar",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Pilar",
+    "tipo": "matriz",
+    "cidade": "Pilar",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/missas-online-arcebispo-e-padres-mantem-celebracoes-em-tempo-de-quarentena/",
+    "data": "2020-03-23",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Última menção direta encontrada no site da arquidiocese é de 2020. Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Conceição",
+  "categoria": "paroquia",
+  "cidade": "Itabaiana",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "Itabaiana",
+    "localidade": "Centro",
+    "endereco": "Praça Monsenhor Francisco Coelho, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/arquidiocese-da-paraiba-celebra-a-festa-de-nossa-senhora-da-conceicao-com-programacao-especial-em-13-paroquias-e-no-seminario-arquidiocesano/",
+    "data": "2025-12-02",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/comunicado-19/",
+    "data": "2026-07-28",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora das Dores",
+  "categoria": "paroquia",
+  "cidade": "Mogeiro",
+  "padroeiro": "Nossa Senhora das Dores",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora das Dores",
+    "tipo": "matriz",
+    "cidade": "Mogeiro",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/comunicado-22/",
+    "data": "2026-10-28",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/comunicacoes-18/",
+    "data": "2025-02-20",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Félix de Cantalice",
+  "categoria": "paroquia",
+  "cidade": "Salgado de São Félix",
+  "padroeiro": "São Félix de Cantalice",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Félix de Cantalice",
+    "tipo": "matriz",
+    "cidade": "Salgado de São Félix",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/comunicado-21/",
+    "data": "2026-09-30",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/programacao-das-missas-do-dia-de-finados-na-arquidiocese-da-paraiba/",
+    "data": "2025-10-29",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Atende também os distritos de Dois Riachos e Feira Nova. Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Soledade e São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "Juripiranga",
+  "padroeiro": "Nossa Senhora da Soledade e São Sebastião",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Soledade",
+    "tipo": "matriz",
+    "cidade": "Juripiranga",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/a-arquidiocese-da-paraiba-anuncia-a-programacao-da-festa-de-sao-sebastiao-nesta-segunda-feira-dia-20-de-janeiro-e-a-criacao-de-uma-nova-paroquia-na-cidade-de-capim/",
+    "data": "2025-01-20",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora das Graças e Nossa Senhora das Dores",
+  "categoria": "paroquia",
+  "cidade": "Caldas Brandão",
+  "padroeiro": "Nossa Senhora das Graças e Nossa Senhora das Dores",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora das Graças",
+    "tipo": "matriz",
+    "cidade": "Caldas Brandão",
+    "localidade": "Cajá",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/comunicado-19/",
+    "data": "2026-07-28",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Criada em julho de 2026 para Cajá e Caldas Brandão, desmembrada da Paróquia Jesus, Maria e José de São José dos Ramos. Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Conceição",
+  "categoria": "paroquia",
+  "cidade": "Gurinhém",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "Gurinhém",
+    "localidade": "Centro",
+    "endereco": "Rua Senador Humberto Lucena, 2",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/arquidiocese-da-paraiba-celebra-a-festa-de-nossa-senhora-da-conceicao-com-programacao-especial-em-13-paroquias-e-no-seminario-arquidiocesano/",
+    "data": "2025-12-02",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/comunicacoes-16/",
+    "data": "2024-09-25",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Conceição",
+  "categoria": "paroquia",
+  "cidade": "Ingá",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "paroquia_de_inga",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "Ingá",
+    "localidade": "Centro",
+    "endereco": "Rua Getúlio Vargas, 27",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/arquidiocese-da-paraiba-celebra-a-festa-de-nossa-senhora-da-conceicao-com-programacao-especial-em-13-paroquias-e-no-seminario-arquidiocesano/",
+    "data": "2025-12-02",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/comunicacoes-16/",
+    "data": "2024-09-25",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "Riachão do Bacamarte",
+  "padroeiro": "São Sebastião",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Sebastião",
+    "tipo": "matriz",
+    "cidade": "Riachão do Bacamarte",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Ana",
+    "tipo": "capela",
+    "cidade": "Riachão do Bacamarte",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/comunicacoes-15/",
+    "data": "2024-03-06",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/programacao-das-missas-do-dia-de-finados-na-arquidiocese-da-paraiba/",
+    "data": "2025-10-29",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Criada em 20/07/2024, desmembrada da Paróquia Nossa Senhora da Conceição de Ingá. Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Itatuba",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Itatuba",
+    "localidade": "Centro",
+    "endereco": "Praça Andrade Lima, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/fieis-celebram-santo-antonio-neste-13-de-junho-em-toda-a-arquidiocese-da-paraiba/",
+    "data": "2026-06-12",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/comunicacoes-16/",
+    "data": "2024-09-25",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Pedro",
+  "categoria": "paroquia",
+  "cidade": "Serra Redonda",
+  "padroeiro": "São Pedro",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Pedro",
+    "tipo": "matriz",
+    "cidade": "Serra Redonda",
+    "localidade": "Centro",
+    "endereco": "Rua Pedro de Azevedo Cruz, 94",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/festa-de-sao-pedro-e-sao-paulo-na-arquidiocese-da-paraiba/",
+    "data": "2026-06-26",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/comunicacoes-16/",
+    "data": "2024-09-25",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Pedro e São Paulo",
+  "categoria": "paroquia",
+  "cidade": "Mamanguape",
+  "padroeiro": "São Pedro e São Paulo",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "saopedroesaopaulo.mamanguape",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Pedro e São Paulo",
+    "tipo": "matriz",
+    "cidade": "Mamanguape",
+    "localidade": "Centro",
+    "endereco": "Praça Padre João, 32",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/festa-de-sao-pedro-e-sao-paulo-na-arquidiocese-da-paraiba/",
+    "data": "2026-06-26",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/comunicacoes-16/",
+    "data": "2024-09-25",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Carmo",
+  "categoria": "paroquia",
+  "cidade": "Mamanguape",
+  "padroeiro": "Nossa Senhora do Carmo",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Carmo",
+    "tipo": "matriz",
+    "cidade": "Mamanguape",
+    "localidade": "Areal",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/comunicacoes-19/",
+    "data": "2025-07-31",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/programacao-das-missas-do-dia-de-finados-na-arquidiocese-da-paraiba/",
+    "data": "2025-10-29",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Rita de Cássia",
+  "categoria": "paroquia",
+  "cidade": "Rio Tinto",
+  "padroeiro": "Santa Rita de Cássia",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Rita de Cássia",
+    "tipo": "matriz",
+    "cidade": "Rio Tinto",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/programacao-das-missas-do-dia-de-finados-na-arquidiocese-da-paraiba/",
+    "data": "2025-10-29",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Miguel",
+  "categoria": "paroquia",
+  "cidade": "Baía da Traição",
+  "padroeiro": "São Miguel Arcanjo",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Miguel",
+    "tipo": "matriz",
+    "cidade": "Baía da Traição",
+    "localidade": "São Miguel",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/comunicado-22/",
+    "data": "2026-10-28",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/programacao-das-missas-do-dia-de-finados-na-arquidiocese-da-paraiba/",
+    "data": "2025-10-29",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Abrange Baía da Traição e Marcação, com dezenas de aldeias potiguaras. Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Senhor Bom Jesus",
+  "categoria": "paroquia",
+  "cidade": "Mataraca",
+  "padroeiro": "Senhor Bom Jesus",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Senhor Bom Jesus",
+    "tipo": "matriz",
+    "cidade": "Mataraca",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/comunicado-22/",
+    "data": "2026-10-28",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/comunicacoes-18/",
+    "data": "2025-02-20",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "Itapororoca",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Batista",
+    "tipo": "matriz",
+    "cidade": "Itapororoca",
+    "localidade": "Centro",
+    "endereco": "Rua São João, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/festa-de-sao-joao-na-arquidiocese-da-paraiba/",
+    "data": "2025-06-23",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/comunicacoes-19/",
+    "data": "2025-07-31",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Miguel Arcanjo e Nossa Senhora das Dores",
+  "categoria": "paroquia",
+  "cidade": "Curral de Cima",
+  "padroeiro": "São Miguel Arcanjo e Nossa Senhora das Dores",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Miguel Arcanjo",
+    "tipo": "matriz",
+    "cidade": "Curral de Cima",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/comunicado-21/",
+    "data": "2026-09-30",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Imaculada Conceição",
+  "categoria": "paroquia",
+  "cidade": "Cuité de Mamanguape",
+  "padroeiro": "Imaculada Conceição",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz da Imaculada Conceição",
+    "tipo": "matriz",
+    "cidade": "Cuité de Mamanguape",
+    "localidade": "Centro",
+    "endereco": "Rua da Matriz, 4",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/arquidiocese-da-paraiba-celebra-a-festa-de-nossa-senhora-da-conceicao-com-programacao-especial-em-13-paroquias-e-no-seminario-arquidiocesano/",
+    "data": "2025-12-02",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/comunicado-19/",
+    "data": "2026-07-28",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "Capim",
+  "padroeiro": "São Sebastião",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Sebastião",
+    "tipo": "matriz",
+    "cidade": "Capim",
+    "localidade": "Centro",
+    "endereco": "Avenida São Sebastião, 31",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/a-arquidiocese-da-paraiba-anuncia-a-programacao-da-festa-de-sao-sebastiao-nesta-segunda-feira-dia-20-de-janeiro-e-a-criacao-de-uma-nova-paroquia-na-cidade-de-capim/",
+    "data": "2025-01-20",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Criada em 20/01/2025, desmembrada da Paróquia Imaculada Conceição de Cuité de Mamanguape. Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Conceição",
+  "categoria": "paroquia",
+  "cidade": "Jacaraú",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "Jacaraú",
+    "localidade": "Centro",
+    "endereco": "Rua São João, 11",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/arquidiocese-da-paraiba-celebra-a-festa-de-nossa-senhora-da-conceicao-com-programacao-especial-em-13-paroquias-e-no-seminario-arquidiocesano/",
+    "data": "2025-12-02",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/comunicado-21/",
+    "data": "2026-09-30",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Fátima",
+  "categoria": "paroquia",
+  "cidade": "Pedro Régis",
+  "padroeiro": "Nossa Senhora de Fátima",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora de Fátima",
+    "tipo": "matriz",
+    "cidade": "Pedro Régis",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesepb.org.br/comunicado-7/",
+    "data": "2024-06-21",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocesepb.org.br/nomeacoes-transferencias-e-outras-comunicacoes/",
+    "data": "2021-11-29",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+ }
+]

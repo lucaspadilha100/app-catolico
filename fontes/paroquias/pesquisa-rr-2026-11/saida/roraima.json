@@ -1,0 +1,1819 @@
+[
+ {
+  "id_banco": null,
+  "nome": "Catedral Cristo Redentor",
+  "categoria": "catedral",
+  "cidade": "Boa Vista",
+  "padroeiro": "Cristo Redentor",
+  "contatos": {"telefone": "", "whatsapp": "", "instagram": "", "site": "", "email": ""},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Catedral Cristo Redentor",
+    "tipo": "matriz",
+    "cidade": "Boa Vista",
+    "localidade": "Centro",
+    "endereco": "Praça do Centro Cívico, 133",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Carmo",
+    "tipo": "comunidade",
+    "cidade": "Boa Vista",
+    "localidade": "Centro",
+    "endereco": "Rua Floriano Peixoto, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Menino Jesus",
+    "tipo": "comunidade",
+    "cidade": "Boa Vista",
+    "localidade": "Mecejana",
+    "endereco": "Avenida General Ataíde Teive, 1148",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://diocesederoraima.org.br/", "data": "", "o_que": "contatos"},
+   {"url": "https://diocesederoraima.org.br/igrejas-catolicas-de-boa-vista-celebram-o-natal-com-programacao-especial-de-missas/", "data": "2025-12-23", "o_que": "contatos"},
+   {"url": "https://diocesederoraima.org.br/quarta-feiras-de-cinzas-marca-inicio-do-tempo-quaresmal-para-os-cristaos-catolicos/", "data": "2026-02-16", "o_que": "contatos"}
+  ],
+  "confianca": "alta",
+  "observacao": "A paróquia da Catedral reúne a Catedral, a Matriz N. Sra. do Carmo (igreja histórica, padroeira da cidade) e a comunidade Menino Jesus. Sem horário semanal publicado; os fiéis mandam depois."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Consolata",
+  "categoria": "paroquia",
+  "cidade": "Boa Vista",
+  "padroeiro": "Nossa Senhora da Consolata",
+  "contatos": {"telefone": "", "whatsapp": "", "instagram": "", "site": "", "email": ""},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Consolata",
+    "tipo": "matriz",
+    "cidade": "Boa Vista",
+    "localidade": "São Vicente",
+    "endereco": "Rua Uraricoera, 671",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Luzia",
+    "tipo": "comunidade",
+    "cidade": "Boa Vista",
+    "localidade": "Treze de Setembro",
+    "endereco": "Rua Pedra Pintada, 117",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Expedito",
+    "tipo": "comunidade",
+    "cidade": "Boa Vista",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://diocesederoraima.org.br/igrejas-catolicas-de-boa-vista-celebram-o-natal-com-programacao-especial-de-missas/", "data": "2025-12-23", "o_que": "contatos"},
+   {"url": "https://diocesederoraima.org.br/diocese-de-roraima-divulga-programacao-da-semana-santa-2025-com-celebracoes-em-boa-vista-e-no-interior/", "data": "2025-04-11", "o_que": "contatos"}
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário semanal publicado; os fiéis mandam depois."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Francisco das Chagas",
+  "categoria": "paroquia",
+  "cidade": "Boa Vista",
+  "padroeiro": "São Francisco das Chagas",
+  "contatos": {"telefone": "", "whatsapp": "", "instagram": "", "site": "", "email": ""},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Francisco das Chagas",
+    "tipo": "matriz",
+    "cidade": "Boa Vista",
+    "localidade": "São Francisco",
+    "endereco": "Avenida Capitão Júlio Bezerra, 775",
+    "horarios": [
+     {"tipo": "missa", "dia_semana": 0, "hora": "07:00", "semanas": null, "observacao": ""},
+     {"tipo": "missa", "dia_semana": 0, "hora": "09:30", "semanas": null, "observacao": ""},
+     {"tipo": "missa", "dia_semana": 0, "hora": "19:30", "semanas": null, "observacao": ""}
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Pedro",
+    "tipo": "comunidade",
+    "cidade": "Boa Vista",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Paulo",
+    "tipo": "comunidade",
+    "cidade": "Boa Vista",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo André",
+    "tipo": "comunidade",
+    "cidade": "Boa Vista",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://diocesederoraima.org.br/festa-de-sao-francisco-das-chagas-2026-tera-programacao-especial-em-sintonia-com-o-ano-jubilar-franciscano/", "data": "2026-09-14", "o_que": "horarios"},
+   {"url": "https://diocesederoraima.org.br/igrejas-catolicas-de-boa-vista-celebram-o-natal-com-programacao-especial-de-missas/", "data": "2025-12-23", "o_que": "contatos"},
+   {"url": "https://diocesederoraima.org.br/diocese-de-roraima-divulga-programacao-da-semana-santa-2025-com-celebracoes-em-boa-vista-e-no-interior/", "data": "2025-04-11", "o_que": "contatos"}
+  ],
+  "confianca": "alta",
+  "observacao": "Missas de domingo citadas pela diocese como os horários habituais (7h, 9h30 e 19h30). Igreja jubilar; a 3ª igreja mais antiga de Boa Vista."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Mateus",
+  "categoria": "paroquia",
+  "cidade": "Boa Vista",
+  "padroeiro": "São Mateus",
+  "contatos": {"telefone": "", "whatsapp": "", "instagram": "", "site": "", "email": ""},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Mateus",
+    "tipo": "matriz",
+    "cidade": "Boa Vista",
+    "localidade": "Caçari",
+    "endereco": "Rua Bacabeira, 664",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Anunciação",
+    "tipo": "comunidade",
+    "cidade": "Boa Vista",
+    "localidade": "Parque Caçari",
+    "endereco": "Rua Lídia Bento, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santíssimo Sacramento",
+    "tipo": "comunidade",
+    "cidade": "Boa Vista",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://diocesederoraima.org.br/quarta-feiras-de-cinzas-marca-inicio-do-tempo-quaresmal-para-os-cristaos-catolicos/", "data": "2026-02-16", "o_que": "contatos"},
+   {"url": "https://diocesederoraima.org.br/diocese-de-roraima-divulga-programacao-da-semana-santa-2025-com-celebracoes-em-boa-vista-e-no-interior/", "data": "2025-04-11", "o_que": "contatos"}
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário semanal publicado; os fiéis mandam depois."
+ },
+ {
+  "id_banco": null,
+  "nome": "Santuário Nossa Senhora Aparecida",
+  "categoria": "santuario",
+  "cidade": "Boa Vista",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {"telefone": "", "whatsapp": "", "instagram": "santuarioaparecidarr", "site": "", "email": ""},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário Nossa Senhora Aparecida",
+    "tipo": "santuario",
+    "cidade": "Boa Vista",
+    "localidade": "Aparecida",
+    "endereco": "Rua Roberto Costa, 519",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://diocesederoraima.org.br/festa-de-nossa-senhora-aparecida-sera-celebrada-de-2-a-12-de-outubro-em-boa-vista/", "data": "2026-10-06", "o_que": "contatos"},
+   {"url": "https://www.folhabv.com.br/cotidiano/romaria-e-celebracoes-marcam-festa-de-nossa-senhora-aparecida-em-boa-vista-neste-fim-de-semana/", "data": "2025-10", "o_que": "contatos"}
+  ],
+  "confianca": "alta",
+  "observacao": "Reitoria (não é paróquia). O Instagram veio do crédito de foto da Folha BV, visto no trecho da busca, não confirmado no perfil. Missas de festa documentadas; o horário semanal não está publicado."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Jerônimo",
+  "categoria": "paroquia",
+  "cidade": "Boa Vista",
+  "padroeiro": "São Jerônimo",
+  "contatos": {"telefone": "", "whatsapp": "", "instagram": "", "site": "", "email": ""},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Bento",
+    "tipo": "matriz",
+    "cidade": "Boa Vista",
+    "localidade": "Liberdade",
+    "endereco": "Avenida General Ataíde Teive, 2386",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Imaculada Conceição",
+    "tipo": "comunidade",
+    "cidade": "Boa Vista",
+    "localidade": "Buritis",
+    "endereco": "Rua Raimundo Penafort, 446",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Clara",
+    "tipo": "comunidade",
+    "cidade": "Boa Vista",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora das Graças",
+    "tipo": "comunidade",
+    "cidade": "Boa Vista",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Rosário",
+    "tipo": "comunidade",
+    "cidade": "Boa Vista",
+    "localidade": "Cinturão Verde",
+    "endereco": "Rua Udine Benedetti, 714",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://diocesederoraima.org.br/diocese-de-roraima-institui-tres-novas-paroquias/", "data": "2023-04-14", "o_que": "contatos"},
+   {"url": "https://diocesederoraima.org.br/quarta-feiras-de-cinzas-marca-inicio-do-tempo-quaresmal-para-os-cristaos-catolicos/", "data": "2026-02-16", "o_que": "contatos"},
+   {"url": "https://diocesederoraima.org.br/igreja-celebra-a-imaculada-conceicao-de-maria-neste-8-de-dezembro-veja-programacao-em-boa-vista/", "data": "2025-12-03", "o_que": "contatos"},
+   {"url": "https://diocesederoraima.org.br/igreja-catolica-celebra-solenidade-de-corpus-christi-nesta-quinta-feira-04-confira-a-programacao-na-diocese-de-roraima/", "data": "2026-06-02", "o_que": "contatos"}
+  ],
+  "confianca": "alta",
+  "observacao": "Instituída em 12/4/2023. A sede é a comunidade São Bento, no bairro Liberdade. Sem horário semanal publicado; os fiéis mandam depois."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio de Sant'Anna Galvão",
+  "categoria": "paroquia",
+  "cidade": "Boa Vista",
+  "padroeiro": "Santo Antônio de Sant'Anna Galvão",
+  "contatos": {"telefone": "", "whatsapp": "", "instagram": "", "site": "", "email": ""},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Comunidade Bom Pastor",
+    "tipo": "matriz",
+    "cidade": "Boa Vista",
+    "localidade": "Dr. Sílvio Leite",
+    "endereco": "Avenida São Joaquim, 424",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Boa Vista",
+    "localidade": "Santa Tereza",
+    "endereco": "Rua Lambari, 425",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora dos Migrantes",
+    "tipo": "comunidade",
+    "cidade": "Boa Vista",
+    "localidade": "Jardim Primavera",
+    "endereco": "Rua Capricórnio, 416",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Boa Vista",
+    "localidade": "Pintolândia",
+    "endereco": "Rua Jafet, 273",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Guadalupe",
+    "tipo": "comunidade",
+    "cidade": "Boa Vista",
+    "localidade": "Nova Canaã",
+    "endereco": "Rua Gideão, 655",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Fátima",
+    "tipo": "comunidade",
+    "cidade": "Boa Vista",
+    "localidade": "Jardim Tropical",
+    "endereco": "Rua 7, 289",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://diocesederoraima.org.br/diocese-de-roraima-institui-tres-novas-paroquias/", "data": "2023-04-14", "o_que": "contatos"},
+   {"url": "https://diocesederoraima.org.br/igrejas-catolicas-de-boa-vista-celebram-o-natal-com-programacao-especial-de-missas/", "data": "2025-12-23", "o_que": "contatos"},
+   {"url": "https://diocesederoraima.org.br/festa-do-protetor-das-gargantas-e-celebrada-nesta-terca-feira-3/", "data": "2026-02-03", "o_que": "contatos"}
+  ],
+  "confianca": "alta",
+  "observacao": "Conhecida como Paróquia Frei Galvão. Instituída em 13/4/2023, com sede na comunidade Bom Pastor. Sem horário semanal publicado; os fiéis mandam depois."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santos Arcanjos",
+  "categoria": "paroquia",
+  "cidade": "Boa Vista",
+  "padroeiro": "Santos Arcanjos Miguel, Gabriel e Rafael",
+  "contatos": {"telefone": "", "whatsapp": "", "instagram": "", "site": "", "email": ""},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Perpétuo Socorro",
+    "tipo": "matriz",
+    "cidade": "Boa Vista",
+    "localidade": "Asa Branca",
+    "endereco": "Rua Armando Nogueira, 2003",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Rita de Cássia",
+    "tipo": "comunidade",
+    "cidade": "Boa Vista",
+    "localidade": "Jóquei Clube",
+    "endereco": "Rua Guanabara, 453",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco",
+    "tipo": "comunidade",
+    "cidade": "Boa Vista",
+    "localidade": "Jóquei Clube",
+    "endereco": "Rua Turquesa, 338",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Cristóvão",
+    "tipo": "comunidade",
+    "cidade": "Boa Vista",
+    "localidade": "Asa Branca",
+    "endereco": "Rua Horácio Mardel de Magalhães, 302",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://diocesederoraima.org.br/diocese-de-roraima-institui-tres-novas-paroquias/", "data": "2023-04-14", "o_que": "contatos"},
+   {"url": "https://diocesederoraima.org.br/quarta-feiras-de-cinzas-marca-inicio-do-tempo-quaresmal-para-os-cristaos-catolicos/", "data": "2026-02-16", "o_que": "contatos"},
+   {"url": "https://diocesederoraima.org.br/diocese-de-roraima-celebra-missa-em-honra-aos-santos-arcanjos/", "data": "2025-09-29", "o_que": "contatos"}
+  ],
+  "confianca": "alta",
+  "observacao": "Instituída em 11/4/2023, com sede na comunidade N. Sra. do Perpétuo Socorro. Sem horário semanal publicado; os fiéis mandam depois."
+ },
+ {
+  "id_banco": null,
+  "nome": "Área Missionária São Raimundo Nonato",
+  "categoria": "area_missionaria",
+  "cidade": "Boa Vista",
+  "padroeiro": "São Raimundo Nonato",
+  "contatos": {"telefone": "", "whatsapp": "", "instagram": "", "site": "", "email": ""},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Raimundo Nonato",
+    "tipo": "matriz",
+    "cidade": "Boa Vista",
+    "localidade": "Santa Luzia",
+    "endereco": "Rua Sólon Rodrigues Pessoa, 1873",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santos Arcanjos",
+    "tipo": "comunidade",
+    "cidade": "Boa Vista",
+    "localidade": "Senador Hélio Campos",
+    "endereco": "Rua HC-14, 361",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Maria Madalena",
+    "tipo": "comunidade",
+    "cidade": "Boa Vista",
+    "localidade": "Senador Hélio Campos",
+    "endereco": "Rua Thereza Magalhães Brasil, 533",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Edwiges",
+    "tipo": "comunidade",
+    "cidade": "Boa Vista",
+    "localidade": "Equatorial",
+    "endereco": "Rua Luiz Reis Cristo, 1048",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sant'Ana",
+    "tipo": "comunidade",
+    "cidade": "Boa Vista",
+    "localidade": "Sílvio Botelho",
+    "endereco": "Rua Raimundo Rodrigues Coelho, 600",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrada Família",
+    "tipo": "comunidade",
+    "cidade": "Boa Vista",
+    "localidade": "Alvorada",
+    "endereco": "Rua Barnabé Antônio de Lima, 912",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://diocesederoraima.org.br/quarta-feiras-de-cinzas-marca-inicio-do-tempo-quaresmal-para-os-cristaos-catolicos/", "data": "2026-02-16", "o_que": "contatos"},
+   {"url": "https://diocesederoraima.org.br/igreja-catolica-celebra-solenidade-de-corpus-christi-nesta-quinta-feira-04-confira-a-programacao-na-diocese-de-roraima/", "data": "2026-06-02", "o_que": "contatos"},
+   {"url": "https://diocesederoraima.org.br/area-sao-raimundo-nonato-realiza-10a-festa-das-comunidades/", "data": "2022-12-08", "o_que": "contatos"}
+  ],
+  "confianca": "alta",
+  "observacao": "Cerca de 15 comunidades na zona oeste de Boa Vista (contagem de 2022). Sem horário semanal publicado; os fiéis mandam depois."
+ },
+ {
+  "id_banco": null,
+  "nome": "Área Missionária São João Batista",
+  "categoria": "area_missionaria",
+  "cidade": "Boa Vista",
+  "padroeiro": "São João Batista",
+  "contatos": {"telefone": "", "whatsapp": "", "instagram": "", "site": "", "email": ""},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Batista",
+    "tipo": "matriz",
+    "cidade": "Boa Vista",
+    "localidade": "Caranã",
+    "endereco": "Avenida Parimé Brasil, 730",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Nazaré",
+    "tipo": "comunidade",
+    "cidade": "Boa Vista",
+    "localidade": "Jardim Caranã",
+    "endereco": "Rua Altair Pereira de Melo, 304",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Teresinha",
+    "tipo": "comunidade",
+    "cidade": "Boa Vista",
+    "localidade": "União",
+    "endereco": "Rua Altair Pereira de Melo, 1098",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Livramento",
+    "tipo": "comunidade",
+    "cidade": "Boa Vista",
+    "localidade": "Jardim Floresta",
+    "endereco": "Rua Antônio da Costa Uchôa, 586",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santíssima Trindade",
+    "tipo": "comunidade",
+    "cidade": "Boa Vista",
+    "localidade": "Said Salomão",
+    "endereco": "BR-174",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Frei Galvão",
+    "tipo": "comunidade",
+    "cidade": "Boa Vista",
+    "localidade": "Aeroporto",
+    "endereco": "Rua Francisco Alvez Machado",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Edwiges",
+    "tipo": "comunidade",
+    "cidade": "Boa Vista",
+    "localidade": "Aeroporto",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Auxiliadora",
+    "tipo": "comunidade",
+    "cidade": "Boa Vista",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Divino Espírito Santo",
+    "tipo": "comunidade",
+    "cidade": "Boa Vista",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Saúde",
+    "tipo": "comunidade",
+    "cidade": "Boa Vista",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Expedito",
+    "tipo": "comunidade",
+    "cidade": "Boa Vista",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Fátima",
+    "tipo": "comunidade",
+    "cidade": "Boa Vista",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://diocesederoraima.org.br/quarta-feiras-de-cinzas-marca-inicio-do-tempo-quaresmal-para-os-cristaos-catolicos/", "data": "2026-02-16", "o_que": "contatos"},
+   {"url": "https://diocesederoraima.org.br/igreja-catolica-celebra-solenidade-de-corpus-christi-nesta-quinta-feira-04-confira-a-programacao-na-diocese-de-roraima/", "data": "2026-06-02", "o_que": "contatos"},
+   {"url": "https://diocesederoraima.org.br/diocese-de-roraima-divulga-programacao-da-semana-santa-2025-com-celebracoes-em-boa-vista-e-no-interior/", "data": "2025-04-11", "o_que": "contatos"}
+  ],
+  "confianca": "alta",
+  "observacao": "Zona norte e oeste de Boa Vista. Sem horário semanal publicado; os fiéis mandam depois."
+ },
+ {
+  "id_banco": null,
+  "nome": "Área Missionária Santa Rosa de Lima",
+  "categoria": "area_missionaria",
+  "cidade": "Boa Vista",
+  "padroeiro": "Santa Rosa de Lima",
+  "contatos": {"telefone": "", "whatsapp": "", "instagram": "", "site": "", "email": ""},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Rosa de Lima",
+    "tipo": "matriz",
+    "cidade": "Boa Vista",
+    "localidade": "Nova Cidade",
+    "endereco": "Rua Campo Grande, 377",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Sebastião",
+    "tipo": "comunidade",
+    "cidade": "Boa Vista",
+    "localidade": "Airton Rocha",
+    "endereco": "Rua Governador Berlamino Neves, 28",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Luz",
+    "tipo": "comunidade",
+    "cidade": "Boa Vista",
+    "localidade": "Raiar do Sol",
+    "endereco": "Rua Universo, 1796",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Rosário",
+    "tipo": "comunidade",
+    "cidade": "Boa Vista",
+    "localidade": "Aracelis",
+    "endereco": "Rua Raio de Lua, 55",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Inês",
+    "tipo": "comunidade",
+    "cidade": "Boa Vista",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Lucas",
+    "tipo": "comunidade",
+    "cidade": "Boa Vista",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Fátima",
+    "tipo": "comunidade",
+    "cidade": "Boa Vista",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrado Coração de Jesus",
+    "tipo": "comunidade",
+    "cidade": "Boa Vista",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Lázaro",
+    "tipo": "comunidade",
+    "cidade": "Boa Vista",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://diocesederoraima.org.br/quarta-feiras-de-cinzas-marca-inicio-do-tempo-quaresmal-para-os-cristaos-catolicos/", "data": "2026-02-16", "o_que": "contatos"},
+   {"url": "https://diocesederoraima.org.br/diocese-de-roraima-divulga-programacao-da-semana-santa-2025-com-celebracoes-em-boa-vista-e-no-interior/", "data": "2025-04-11", "o_que": "contatos"},
+   {"url": "https://diocesederoraima.org.br/comunidades-da-diocese-de-roraima-realizam-festejos-neste-sabado-08/", "data": "2025-11-05", "o_que": "contatos"}
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário semanal publicado; os fiéis mandam depois."
+ },
+ {
+  "id_banco": null,
+  "nome": "Área Missionária Sagrado Coração de Jesus",
+  "categoria": "area_missionaria",
+  "cidade": "Boa Vista",
+  "padroeiro": "Sagrado Coração de Jesus",
+  "contatos": {"telefone": "", "whatsapp": "", "instagram": "", "site": "", "email": ""},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Piedade",
+    "tipo": "matriz",
+    "cidade": "Boa Vista",
+    "localidade": "Cidade Satélite",
+    "endereco": "Rua N, 360",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Paulina",
+    "tipo": "comunidade",
+    "cidade": "Boa Vista",
+    "localidade": "Cidade Satélite",
+    "endereco": "Rua J5, 113",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Mãe Peregrina",
+    "tipo": "comunidade",
+    "cidade": "Boa Vista",
+    "localidade": "Cidade Satélite",
+    "endereco": "Rua Pedro Camargo, 615",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://diocesederoraima.org.br/igrejas-catolicas-de-boa-vista-celebram-o-natal-com-programacao-especial-de-missas/", "data": "2025-12-23", "o_que": "contatos"},
+   {"url": "https://diocesederoraima.org.br/comunidades-da-diocese-de-roraima-realizam-festejos-neste-sabado-08/", "data": "2025-11-05", "o_que": "contatos"}
+  ],
+  "confianca": "alta",
+  "observacao": "A fonte não diz qual comunidade é a sede; a N. Sra. da Piedade recebe as celebrações maiores da área. Sem horário semanal publicado."
+ },
+ {
+  "id_banco": null,
+  "nome": "Área Missionária Projeto de Assentamento Nova Amazônia",
+  "categoria": "area_missionaria",
+  "cidade": "Boa Vista",
+  "padroeiro": "",
+  "contatos": {"telefone": "", "whatsapp": "", "instagram": "", "site": "", "email": ""},
+  "igrejas": [],
+  "fontes": [
+   {"url": "https://diocesederoraima.org.br/", "data": "", "o_que": "contatos"}
+  ],
+  "confianca": "media",
+  "observacao": "Zona rural de Boa Vista. O site da diocese a lista entre as áreas, com a página aguardando as comunidades enviarem os dados. Sem comunidades nem horários publicados."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Isidoro",
+  "categoria": "paroquia",
+  "cidade": "Alto Alegre",
+  "padroeiro": "Santo Isidoro",
+  "contatos": {"telefone": "", "whatsapp": "", "instagram": "", "site": "", "email": "santoisidorio@gmail.com"},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Perpétuo Socorro",
+    "tipo": "matriz",
+    "cidade": "Alto Alegre",
+    "localidade": "Centro",
+    "endereco": "Avenida João 23",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Silvestre",
+    "tipo": "comunidade",
+    "cidade": "Alto Alegre",
+    "localidade": "Vila São Silvestre",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José Operário",
+    "tipo": "comunidade",
+    "cidade": "Alto Alegre",
+    "localidade": "Vila Recrear",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Alto Alegre",
+    "localidade": "Vila Paredão",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Lurdes",
+    "tipo": "comunidade",
+    "cidade": "Alto Alegre",
+    "localidade": "Vila Taiano",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Mucajaí",
+    "localidade": "Vila Nova",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Fátima",
+    "tipo": "comunidade",
+    "cidade": "Mucajaí",
+    "localidade": "Vila Samaúma",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://diocesederoraima.org.br/alto-alegre/", "data": "", "o_que": "contatos"}
+  ],
+  "confianca": "alta",
+  "observacao": "Criada em 28/2/1985. Secretaria na Av. João 23, Centro. Atende também comunidades indígenas das regiões Alto Cauamé e Tabaio (11 comunidades listadas pela diocese). Sem horário publicado."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Fátima",
+  "categoria": "paroquia",
+  "cidade": "Mucajaí",
+  "padroeiro": "Nossa Senhora de Fátima",
+  "contatos": {"telefone": "", "whatsapp": "", "instagram": "", "site": "", "email": ""},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora de Fátima",
+    "tipo": "matriz",
+    "cidade": "Mucajaí",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Igreja São Francisco de Assis",
+    "tipo": "comunidade",
+    "cidade": "Mucajaí",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Consolata",
+    "tipo": "capela",
+    "cidade": "Mucajaí",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://diocesederoraima.org.br/", "data": "", "o_que": "contatos"},
+   {"url": "https://diocesederoraima.org.br/diocese-de-roraima-divulga-programacao-da-semana-santa-2025-com-celebracoes-em-boa-vista-e-no-interior/", "data": "2025-04-11", "o_que": "contatos"}
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário semanal publicado; os fiéis mandam depois."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José Operário",
+  "categoria": "paroquia",
+  "cidade": "Caracaraí",
+  "padroeiro": "São José Operário",
+  "contatos": {"telefone": "9535321272", "whatsapp": "9591395388", "instagram": "", "site": "", "email": ""},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José Operário",
+    "tipo": "matriz",
+    "cidade": "Caracaraí",
+    "localidade": "Centro",
+    "endereco": "Rua Sebastião Diniz, 230",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Santuário Nossa Senhora do Livramento",
+    "tipo": "santuario",
+    "cidade": "Caracaraí",
+    "localidade": "Nossa Senhora do Livramento",
+    "endereco": "Rua Nossa Senhora do Livramento, 1918",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Luzia",
+    "tipo": "comunidade",
+    "cidade": "Caracaraí",
+    "localidade": "Santa Luzia",
+    "endereco": "Rua Marlon Conrado, 299",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Caracaraí",
+    "localidade": "Santo Antônio",
+    "endereco": "Avenida Jessé Monteiro de Souza, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Maria",
+    "tipo": "comunidade",
+    "cidade": "Caracaraí",
+    "localidade": "Santa Maria do Boiaçu",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora das Graças",
+    "tipo": "comunidade",
+    "cidade": "Iracema",
+    "localidade": "Centro",
+    "endereco": "Rua Pindare, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Luzia",
+    "tipo": "comunidade",
+    "cidade": "Iracema",
+    "localidade": "Centro",
+    "endereco": "Rua Isidoro Rodrigues, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco",
+    "tipo": "comunidade",
+    "cidade": "Iracema",
+    "localidade": "Alvorada",
+    "endereco": "Avenida Régis Luís",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://diocesederoraima.org.br/caracarai-e-iracema/", "data": "", "o_que": "contatos"},
+   {"url": "https://diocesederoraima.org.br/diocese-de-roraima-divulga-programacao-da-semana-santa-2025-com-celebracoes-em-boa-vista-e-no-interior/", "data": "2025-04-11", "o_que": "contatos"}
+  ],
+  "confianca": "alta",
+  "observacao": "Atende Caracaraí e Iracema: 25 comunidades (sede, rurais, ribeirinhas do Baixo Rio Branco e Iracema), das quais 8 estão listadas aqui. Sem horário semanal publicado."
+ },
+ {
+  "id_banco": null,
+  "nome": "Área Missionária de Rorainópolis",
+  "categoria": "area_missionaria",
+  "cidade": "Rorainópolis",
+  "padroeiro": "",
+  "contatos": {"telefone": "9536267028", "whatsapp": "", "instagram": "", "site": "", "email": ""},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Assunção",
+    "tipo": "matriz",
+    "cidade": "Rorainópolis",
+    "localidade": "Centro",
+    "endereco": "Avenida Doutora Yandara, 597",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Conceição",
+    "tipo": "comunidade",
+    "cidade": "Rorainópolis",
+    "localidade": "Novo Horizonte",
+    "endereco": "Rua Equador, 2005",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Rorainópolis",
+    "localidade": "",
+    "endereco": "Rua Suelândia",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Rorainópolis",
+    "localidade": "",
+    "endereco": "Avenida Campolândia",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Cristóvão",
+    "tipo": "comunidade",
+    "cidade": "Rorainópolis",
+    "localidade": "Vila Novo Paraíso (km 500)",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco de Assis",
+    "tipo": "comunidade",
+    "cidade": "Rorainópolis",
+    "localidade": "Nova Colina",
+    "endereco": "BR-174",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Rorainópolis",
+    "localidade": "Nova Colina",
+    "endereco": "Avenida Castelo Branco, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Medianeira",
+    "tipo": "comunidade",
+    "cidade": "Rorainópolis",
+    "localidade": "Vila Equador",
+    "endereco": "Travessa B, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Rorainópolis",
+    "localidade": "Vila Jundiá",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://diocesederoraima.org.br/rorainopolis/", "data": "", "o_que": "contatos"},
+   {"url": "https://diocesederoraima.org.br/igreja-catolica-celebra-solenidade-de-corpus-christi-nesta-quinta-feira-04-confira-a-programacao-na-diocese-de-roraima/", "data": "2026-06-02", "o_que": "contatos"}
+  ],
+  "confianca": "alta",
+  "observacao": "27 comunidades urbanas e de vicinais, da Vila Novo Paraíso à Vila Jundiá; 9 listadas aqui. Secretaria na Av. Doutora Yandara, 597. Sem horário semanal publicado."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista e São Luís de França",
+  "categoria": "paroquia",
+  "cidade": "São João da Baliza",
+  "padroeiro": "São João Batista e São Luís de França",
+  "contatos": {"telefone": "", "whatsapp": "", "instagram": "", "site": "", "email": ""},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Batista",
+    "tipo": "matriz",
+    "cidade": "São João da Baliza",
+    "localidade": "Centro",
+    "endereco": "Avenida São Paulo, s/n",
+    "horarios": [
+     {"tipo": "missa", "dia_semana": 2, "hora": "20:00", "semanas": null, "observacao": ""},
+     {"tipo": "missa", "dia_semana": 4, "hora": "20:00", "semanas": null, "observacao": ""}
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Imaculada Conceição",
+    "tipo": "comunidade",
+    "cidade": "São João da Baliza",
+    "localidade": "Centro",
+    "endereco": "Avenida São Cristóvão, s/n",
+    "horarios": [],
+    "nao_cabe": "A fonte dá só a hora (8h), sem o dia da semana"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Judas",
+    "tipo": "comunidade",
+    "cidade": "São João da Baliza",
+    "localidade": "Vicinal 31",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "A fonte dá só a hora (17h), sem o dia da semana"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco",
+    "tipo": "comunidade",
+    "cidade": "São João da Baliza",
+    "localidade": "Vila São Luizão",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "A fonte dá só a hora (19h), sem o dia da semana"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Pedro e São Paulo",
+    "tipo": "comunidade",
+    "cidade": "São Luiz",
+    "localidade": "Vicinal 26",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "A fonte dá só a hora (10h), sem o dia da semana"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Cristo Redentor",
+    "tipo": "comunidade",
+    "cidade": "São João da Baliza",
+    "localidade": "Vicinal 30",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "A fonte dá só a hora (8h), sem o dia da semana"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Luís de França",
+    "tipo": "comunidade",
+    "cidade": "São Luiz",
+    "localidade": "Centro",
+    "endereco": "Avenida Ataliba Gomes de Laia, 2210",
+    "horarios": [
+     {"tipo": "missa", "dia_semana": 3, "hora": "18:00", "semanas": null, "observacao": ""},
+     {"tipo": "missa", "dia_semana": 5, "hora": "18:00", "semanas": null, "observacao": ""}
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Luzia",
+    "tipo": "comunidade",
+    "cidade": "São Luiz",
+    "localidade": "Campos Elísios",
+    "endereco": "",
+    "horarios": [
+     {"tipo": "missa", "dia_semana": 1, "hora": "19:30", "semanas": [1], "observacao": ""}
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Penha",
+    "tipo": "comunidade",
+    "cidade": "São Luiz",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [
+     {"tipo": "missa", "dia_semana": 6, "hora": "19:00", "semanas": null, "observacao": ""}
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Luzia",
+    "tipo": "comunidade",
+    "cidade": "São Luiz",
+    "localidade": "Vicinal 20",
+    "endereco": "",
+    "horarios": [
+     {"tipo": "missa", "dia_semana": 0, "hora": "10:00", "semanas": null, "observacao": ""}
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Cristo Ressuscitado",
+    "tipo": "comunidade",
+    "cidade": "São Luiz",
+    "localidade": "Vila Moderna",
+    "endereco": "",
+    "horarios": [
+     {"tipo": "missa", "dia_semana": 6, "hora": "17:00", "semanas": null, "observacao": ""}
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Rosário",
+    "tipo": "comunidade",
+    "cidade": "São Luiz",
+    "localidade": "Vicinal 18",
+    "endereco": "",
+    "horarios": [
+     {"tipo": "missa", "dia_semana": 0, "hora": "10:00", "semanas": null, "observacao": ""}
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santíssima Trindade",
+    "tipo": "comunidade",
+    "cidade": "São Luiz",
+    "localidade": "Vicinal 22",
+    "endereco": "",
+    "horarios": [
+     {"tipo": "missa", "dia_semana": 0, "hora": "08:00", "semanas": null, "observacao": ""}
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://diocesederoraima.org.br/sao-luiz-e-sao-joao-da-baliza/", "data": "", "o_que": "horarios"},
+   {"url": "https://diocesederoraima.org.br/sao-luiz-e-sao-joao-da-baliza/", "data": "", "o_que": "contatos"}
+  ],
+  "confianca": "media",
+  "observacao": "Criada em 10/3/1983. Dois setores: São João Batista (São João da Baliza) e São Luiz. Secretaria na Av. São Paulo, 2580, Centro, São João da Baliza. A página da diocese não traz data; as celebrações podem ser com ou sem padre."
+ },
+ {
+  "id_banco": null,
+  "nome": "Área Missionária Santo Isidoro do Caroebe",
+  "categoria": "area_missionaria",
+  "cidade": "Caroebe",
+  "padroeiro": "Santo Isidoro",
+  "contatos": {"telefone": "", "whatsapp": "", "instagram": "", "site": "", "email": ""},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja de Santo Isidoro",
+    "tipo": "matriz",
+    "cidade": "Caroebe",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://diocesederoraima.org.br/", "data": "", "o_que": "contatos"},
+   {"url": "https://diocesederoraima.org.br/missa-de-posse-do-pe-samuel-maciel-romao-missionario-da-diocese-de-jundiai-sp-como-paroco-da-area-missionaria-de-santo-isidoro/", "data": "2025-02-25", "o_que": "contatos"}
+  ],
+  "confianca": "media",
+  "observacao": "Atendida por missionários da Diocese de Jundiaí. A página da diocese está sem conteúdo; comunidades e horários não publicados."
+ },
+ {
+  "id_banco": null,
+  "nome": "Área Missionária do Cantá",
+  "categoria": "area_missionaria",
+  "cidade": "Cantá",
+  "padroeiro": "",
+  "contatos": {"telefone": "", "whatsapp": "", "instagram": "", "site": "", "email": ""},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "Cantá",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Roque",
+    "tipo": "comunidade",
+    "cidade": "Cantá",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Cantá",
+    "localidade": "Bairro das Palmeiras",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Luzia",
+    "tipo": "comunidade",
+    "cidade": "Cantá",
+    "localidade": "Taboca",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Cristo Redentor",
+    "tipo": "comunidade",
+    "cidade": "Cantá",
+    "localidade": "Fonte Nova",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Pedro",
+    "tipo": "comunidade",
+    "cidade": "Cantá",
+    "localidade": "Vila Central",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antonino",
+    "tipo": "comunidade",
+    "cidade": "Cantá",
+    "localidade": "Vila Félix Pinto, BR-432",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://diocesederoraima.org.br/canta/", "data": "", "o_que": "contatos"}
+  ],
+  "confianca": "alta",
+  "observacao": "26 comunidades nos setores Cantá e Félix Pinto; 7 listadas aqui. A fonte não diz qual comunidade é a sede. Sem horário publicado."
+ },
+ {
+  "id_banco": null,
+  "nome": "Área Missionária do Bonfim",
+  "categoria": "area_missionaria",
+  "cidade": "Bonfim",
+  "padroeiro": "",
+  "contatos": {"telefone": "", "whatsapp": "", "instagram": "", "site": "", "email": ""},
+  "igrejas": [],
+  "fontes": [
+   {"url": "https://diocesederoraima.org.br/", "data": "", "o_que": "contatos"}
+  ],
+  "confianca": "media",
+  "observacao": "O site da diocese a lista no menu, com a página em desenvolvimento. Comunidades e horários não publicados."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Nazaré",
+  "categoria": "paroquia",
+  "cidade": "Normandia",
+  "padroeiro": "Nossa Senhora de Nazaré",
+  "contatos": {"telefone": "", "whatsapp": "", "instagram": "", "site": "", "email": ""},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora de Nazaré",
+    "tipo": "matriz",
+    "cidade": "Normandia",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://diocesederoraima.org.br/", "data": "", "o_que": "contatos"},
+   {"url": "https://www.folhabv.com.br/?p=573608", "data": "2025-10-07", "o_que": "contatos"}
+  ],
+  "confianca": "alta",
+  "observacao": "O pároco foi afastado em outubro de 2025; a página da diocese está sem conteúdo. Sem horário publicado."
+ },
+ {
+  "id_banco": null,
+  "nome": "Área Missionária Pacaraima e Amajari",
+  "categoria": "area_missionaria",
+  "cidade": "Pacaraima",
+  "padroeiro": "",
+  "contatos": {"telefone": "", "whatsapp": "", "instagram": "", "site": "", "email": ""},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrado Coração de Jesus",
+    "tipo": "matriz",
+    "cidade": "Pacaraima",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://diocesederoraima.org.br/", "data": "", "o_que": "contatos"},
+   {"url": "https://diocesederoraima.org.br/diocese-de-roraima-celebra-jubileu-dos-migrantes-em-pacaraima/", "data": "2025-06-23", "o_que": "contatos"},
+   {"url": "https://diocesederoraima.org.br/diocese-de-roraima-celebra-posse-de-dois-padres-missionarios/", "data": "2026-08-29", "o_que": "contatos"}
+  ],
+  "confianca": "media",
+  "observacao": "Abrange Pacaraima e Amajari. Padres das dioceses de Pádua e Treviso tomaram posse em agosto de 2026. A fonte cita só a comunidade Sagrado Coração de Jesus, em Pacaraima; a sede não está confirmada. Sem horário publicado."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Perpétuo Socorro",
+  "categoria": "paroquia",
+  "cidade": "Pacaraima",
+  "padroeiro": "Nossa Senhora do Perpétuo Socorro",
+  "contatos": {"telefone": "", "whatsapp": "", "instagram": "", "site": "", "email": ""},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Perpétuo Socorro",
+    "tipo": "matriz",
+    "cidade": "Pacaraima",
+    "localidade": "Barro, região do Surumu",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Jorge",
+    "tipo": "comunidade",
+    "cidade": "Pacaraima",
+    "localidade": "São Jorge, região do Surumu",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrado Coração de Jesus",
+    "tipo": "comunidade",
+    "cidade": "Pacaraima",
+    "localidade": "Cantagalo, região do Surumu",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Pedro",
+    "tipo": "comunidade",
+    "cidade": "Pacaraima",
+    "localidade": "Pedreira, região do Surumu",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://diocesederoraima.org.br/surumu/", "data": "", "o_que": "contatos"}
+  ],
+  "confianca": "alta",
+  "observacao": "Missão indígena do Surumu, na Terra Indígena Raposa Serra do Sol. Fundada como missão São José em 1949; criada paróquia em 17/3/1966. 18 comunidades eclesiais nos centros Barro, Cantagalo e Pedreira; 4 listadas aqui. Sem horário publicado."
+ },
+ {
+  "id_banco": null,
+  "nome": "Missão Indígena Serra da Lua",
+  "categoria": "area_missionaria",
+  "cidade": "Bonfim",
+  "padroeiro": "",
+  "contatos": {"telefone": "", "whatsapp": "", "instagram": "", "site": "", "email": ""},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Bonfim",
+    "localidade": "Jacamim",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Consolata",
+    "tipo": "comunidade",
+    "cidade": "Bonfim",
+    "localidade": "Manoá",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Cantá",
+    "localidade": "Malacacheta",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Amaro",
+    "tipo": "comunidade",
+    "cidade": "Cantá",
+    "localidade": "Tabalascada",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://diocesederoraima.org.br/serra-da-lua/", "data": "", "o_que": "contatos"}
+  ],
+  "confianca": "alta",
+  "observacao": "Missão indígena com 26 comunidades wapichana e macuxi nos municípios de Bonfim e Cantá, em 4 blocos (Jacamim, Moscou, Manoá Pium e Malacacheta); 4 listadas aqui. A fonte não aponta sede. Sem horário publicado."
+ },
+ {
+  "id_banco": null,
+  "nome": "Missão Indígena Raposa",
+  "categoria": "area_missionaria",
+  "cidade": "Normandia",
+  "padroeiro": "",
+  "contatos": {"telefone": "", "whatsapp": "", "instagram": "", "site": "", "email": ""},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Isidoro",
+    "tipo": "comunidade",
+    "cidade": "Normandia",
+    "localidade": "Raposa I",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Sebastião",
+    "tipo": "comunidade",
+    "cidade": "Normandia",
+    "localidade": "Xumina",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Clara",
+    "tipo": "comunidade",
+    "cidade": "Normandia",
+    "localidade": "Parnásio",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Cristo Redentor",
+    "tipo": "comunidade",
+    "cidade": "Normandia",
+    "localidade": "Napoleão",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://diocesederoraima.org.br/raposa/", "data": "", "o_que": "contatos"}
+  ],
+  "confianca": "alta",
+  "observacao": "Missão indígena na Terra Indígena Raposa Serra do Sol, região da Raposa: 35 comunidades em 7 blocos; 4 com igreja listadas aqui. A fonte não aponta sede. Sem horário publicado."
+ },
+ {
+  "id_banco": null,
+  "nome": "Missão Indígena Baixo Cotingo",
+  "categoria": "area_missionaria",
+  "cidade": "",
+  "padroeiro": "",
+  "contatos": {"telefone": "", "whatsapp": "", "instagram": "", "site": "", "email": ""},
+  "igrejas": [],
+  "fontes": [
+   {"url": "https://diocesederoraima.org.br/", "data": "", "o_que": "contatos"}
+  ],
+  "confianca": "media",
+  "observacao": "Região do Baixo Cotingo, Terra Indígena Raposa Serra do Sol (municípios de Normandia e Uiramutã). O site da diocese a lista entre as missões indígenas, sem página própria. Comunidades e horários não publicados."
+ },
+ {
+  "id_banco": null,
+  "nome": "Missão Indígena Maturuca",
+  "categoria": "area_missionaria",
+  "cidade": "Uiramutã",
+  "padroeiro": "",
+  "contatos": {"telefone": "", "whatsapp": "", "instagram": "", "site": "", "email": ""},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrado Coração de Jesus",
+    "tipo": "comunidade",
+    "cidade": "Uiramutã",
+    "localidade": "Maturuca",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Batista",
+    "tipo": "comunidade",
+    "cidade": "Uiramutã",
+    "localidade": "Willimon",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Guadalupe",
+    "tipo": "comunidade",
+    "cidade": "Uiramutã",
+    "localidade": "Uiramutã",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Imaculada Conceição",
+    "tipo": "comunidade",
+    "cidade": "Uiramutã",
+    "localidade": "Morro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Imaculado Coração de Maria",
+    "tipo": "comunidade",
+    "cidade": "Uiramutã",
+    "localidade": "Pedra Preta",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://diocesederoraima.org.br/maturuca/", "data": "", "o_que": "contatos"}
+  ],
+  "confianca": "alta",
+  "observacao": "Missão indígena das Serras, Terra Indígena Raposa Serra do Sol: 84 comunidades indígenas e 65 comunidades eclesiais em 6 centros (Maturuca, Willimon, Morro, Caracanã, Pedra Preta e Caraparu); 5 listadas aqui. Sem horário publicado."
+ },
+ {
+  "id_banco": null,
+  "nome": "Missão Indígena São Marcos e Murupu",
+  "categoria": "area_missionaria",
+  "cidade": "Boa Vista",
+  "padroeiro": "",
+  "contatos": {"telefone": "", "whatsapp": "", "instagram": "", "site": "", "email": ""},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Agostinho",
+    "tipo": "comunidade",
+    "cidade": "Boa Vista",
+    "localidade": "Truaru da Cabeceira",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Cecília",
+    "tipo": "comunidade",
+    "cidade": "Boa Vista",
+    "localidade": "Serra da Moça",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Luzia",
+    "tipo": "comunidade",
+    "cidade": "Boa Vista",
+    "localidade": "Vila Passarão",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco de Assis",
+    "tipo": "comunidade",
+    "cidade": "Boa Vista",
+    "localidade": "Campo Alegre",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco Xavier",
+    "tipo": "comunidade",
+    "cidade": "Pacaraima",
+    "localidade": "Roça",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Guadalupe",
+    "tipo": "comunidade",
+    "cidade": "Pacaraima",
+    "localidade": "Pato",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://diocesederoraima.org.br/sao-marcos-e-murupu/", "data": "", "o_que": "contatos"}
+  ],
+  "confianca": "alta",
+  "observacao": "Missão indígena nas regiões do Murupu e da Terra Indígena São Marcos, nos municípios de Boa Vista e Pacaraima; 6 das comunidades eclesiais listadas aqui. A fonte não aponta sede. Sem horário publicado."
+ },
+ {
+  "id_banco": null,
+  "nome": "Missão Indígena Catrimani",
+  "categoria": "area_missionaria",
+  "cidade": "Caracaraí",
+  "padroeiro": "",
+  "contatos": {"telefone": "", "whatsapp": "", "instagram": "", "site": "", "email": ""},
+  "igrejas": [],
+  "fontes": [
+   {"url": "https://diocesederoraima.org.br/catrimani/", "data": "", "o_que": "contatos"}
+  ],
+  "confianca": "alta",
+  "observacao": "Missão da Consolata junto ao povo Yanomami, no rio Catrimani, Terra Indígena Yanomami, município de Caracaraí; fundada em 1965. A diocese lista 24 comunidades indígenas, sem igrejas. Sem horário publicado."
+ }
+]
