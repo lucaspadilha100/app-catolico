@@ -1,0 +1,724 @@
+[
+  {
+    "id_banco": null,
+    "nome": "Catedral Sagrado Coração de Jesus",
+    "categoria": "catedral",
+    "cidade": "Juína",
+    "padroeiro": "Sagrado Coração de Jesus",
+    "contatos": {
+      "telefone": "",
+      "whatsapp": "",
+      "instagram": "",
+      "site": "",
+      "email": ""
+    },
+    "igrejas": [
+      {
+        "id_banco": null,
+        "nome": "Catedral Sagrado Coração de Jesus",
+        "tipo": "matriz",
+        "cidade": "Juína",
+        "localidade": "",
+        "endereco": "Rua Holmes Ioris, 471",
+        "horarios": [],
+        "nao_cabe": ""
+      }
+    ],
+    "fontes": [
+      {
+        "url": "https://www.diocesejuina.com.br/paroquia/catedral-sagrado-coracao-de-jesus--juina",
+        "data": "",
+        "o_que": "contatos"
+      },
+      {
+        "url": "https://gcatholic.org/churches/brazil/2604.htm",
+        "data": "",
+        "o_que": "contatos"
+      }
+    ],
+    "confianca": "baixa",
+    "observacao": "Setor Juína. Sem horário publicado pela paróquia ou pela diocese. Endereço do GCatholic; a página da diocese não traz endereço nem contato da paróquia."
+  },
+  {
+    "id_banco": null,
+    "nome": "Paróquia Santo Agostinho",
+    "categoria": "paroquia",
+    "cidade": "Juína",
+    "padroeiro": "Santo Agostinho",
+    "contatos": {
+      "telefone": "",
+      "whatsapp": "",
+      "instagram": "",
+      "site": "https://www.facebook.com/paroquiasantoagostinhojuina/",
+      "email": ""
+    },
+    "igrejas": [
+      {
+        "id_banco": null,
+        "nome": "Igreja Matriz de Santo Agostinho",
+        "tipo": "matriz",
+        "cidade": "Juína",
+        "localidade": "Módulo 05",
+        "endereco": "Av. Mato Grosso, s/n",
+        "horarios": [],
+        "nao_cabe": ""
+      }
+    ],
+    "fontes": [
+      {
+        "url": "https://www.diocesejuina.com.br/paroquia/paroquia-santo-agostinho--juina",
+        "data": "",
+        "o_que": "contatos"
+      }
+    ],
+    "confianca": "baixa",
+    "observacao": "Setor Juína. Sem horário publicado pela paróquia ou pela diocese. Território inicial: comunidades Santo Agostinho, Santa Luzia e Nossa Senhora da Paz, segundo a diocese."
+  },
+  {
+    "id_banco": null,
+    "nome": "Paróquia Nossa Senhora da Paz",
+    "categoria": "paroquia",
+    "cidade": "Juína",
+    "padroeiro": "Nossa Senhora da Paz",
+    "contatos": {
+      "telefone": "",
+      "whatsapp": "",
+      "instagram": "",
+      "site": "",
+      "email": ""
+    },
+    "igrejas": [
+      {
+        "id_banco": null,
+        "nome": "Igreja Matriz de Nossa Senhora da Paz",
+        "tipo": "matriz",
+        "cidade": "Juína",
+        "localidade": "Bairro Padre Duílio",
+        "endereco": "Rua dos Ipês, 382S",
+        "horarios": [
+          {
+            "tipo": "missa",
+            "dia_semana": 0,
+            "hora": "08:00",
+            "semanas": null,
+            "observacao": ""
+          },
+          {
+            "tipo": "missa",
+            "dia_semana": 3,
+            "hora": "19:30",
+            "semanas": null,
+            "observacao": ""
+          },
+          {
+            "tipo": "missa",
+            "dia_semana": 1,
+            "hora": "19:30",
+            "semanas": [
+              1
+            ],
+            "observacao": ""
+          }
+        ],
+        "nao_cabe": ""
+      }
+    ],
+    "fontes": [
+      {
+        "url": "https://www.diocesejuina.com.br/paroquia/paroquia-nossa-senhora-da-paz--juina",
+        "data": "",
+        "o_que": "horarios"
+      }
+    ],
+    "confianca": "media",
+    "observacao": "Setor Juína. Horário da página da paróquia no site da diocese, sem data. Dez comunidades com a matriz (Bairros Padre Duílio e Palmiteira e zona rural)."
+  },
+  {
+    "id_banco": null,
+    "nome": "Paróquia Santa Catarina de Alexandria",
+    "categoria": "paroquia",
+    "cidade": "Juína",
+    "padroeiro": "Santa Catarina de Alexandria",
+    "contatos": {
+      "telefone": "",
+      "whatsapp": "",
+      "instagram": "paroquiasantacatarinajuina",
+      "site": "",
+      "email": "prqsantacatarinadealexandria@gmail.com"
+    },
+    "igrejas": [
+      {
+        "id_banco": null,
+        "nome": "Igreja Matriz de Santa Catarina de Alexandria",
+        "tipo": "matriz",
+        "cidade": "Juína",
+        "localidade": "Módulo 06",
+        "endereco": "Rua Presidente Prudente, s/n",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade Nossa Senhora da Luz",
+        "tipo": "comunidade",
+        "cidade": "Juína",
+        "localidade": "Distrito de Filadélfia",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade Nossa Senhora da Guia",
+        "tipo": "comunidade",
+        "cidade": "Juína",
+        "localidade": "Iracema II, Distrito de Filadélfia",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade Santa Laura",
+        "tipo": "comunidade",
+        "cidade": "Juína",
+        "localidade": "Tracema II, Distrito de Filadélfia",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade São Pedro",
+        "tipo": "comunidade",
+        "cidade": "Juína",
+        "localidade": "Linha 4",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade São Paulo",
+        "tipo": "comunidade",
+        "cidade": "Juína",
+        "localidade": "Distrito de Filadélfia",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade São Geraldo",
+        "tipo": "comunidade",
+        "cidade": "Juína",
+        "localidade": "Linha 4",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade Cristo Redentor",
+        "tipo": "comunidade",
+        "cidade": "Juína",
+        "localidade": "Linha 4",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade Santa Bernadete",
+        "tipo": "comunidade",
+        "cidade": "Juína",
+        "localidade": "Linha 4",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade Nome de Maria",
+        "tipo": "comunidade",
+        "cidade": "Juína",
+        "localidade": "Linha 5",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade Santo Antônio",
+        "tipo": "comunidade",
+        "cidade": "Juína",
+        "localidade": "Iracema II, Distrito de Filadélfia",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade Nossa Senhora da Salete",
+        "tipo": "comunidade",
+        "cidade": "Juína",
+        "localidade": "Linha 5",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      }
+    ],
+    "fontes": [
+      {
+        "url": "https://www.diocesejuina.com.br/paroquia/paroquia-santa-catarina-de-alexandria",
+        "data": "",
+        "o_que": "contatos"
+      }
+    ],
+    "confianca": "baixa",
+    "observacao": "Setor Juína. Sem horário publicado pela paróquia ou pela diocese. Criada e instalada em 15/10/2024, desmembrada da Santo Agostinho. Ainda não está no GCatholic."
+  },
+  {
+    "id_banco": null,
+    "nome": "Paróquia São José Operário",
+    "categoria": "paroquia",
+    "cidade": "Brasnorte",
+    "padroeiro": "São José Operário",
+    "contatos": {
+      "telefone": "6635921299",
+      "whatsapp": "",
+      "instagram": "",
+      "site": "https://www.facebook.com/p/Par%C3%B3quia-S%C3%A3o-Jos%C3%A9-Oper%C3%A1rio-100067917637339/",
+      "email": ""
+    },
+    "igrejas": [
+      {
+        "id_banco": null,
+        "nome": "Igreja Matriz de São José Operário",
+        "tipo": "matriz",
+        "cidade": "Brasnorte",
+        "localidade": "Centro",
+        "endereco": "Praça da Matriz, 01",
+        "horarios": [
+          {
+            "tipo": "missa",
+            "dia_semana": 0,
+            "hora": "08:00",
+            "semanas": null,
+            "observacao": ""
+          },
+          {
+            "tipo": "missa",
+            "dia_semana": 0,
+            "hora": "19:30",
+            "semanas": null,
+            "observacao": ""
+          }
+        ],
+        "nao_cabe": "Comunidade São João Batista (sem lugar na fonte): missa aos sábados, às 19h30."
+      }
+    ],
+    "fontes": [
+      {
+        "url": "https://www.diocesejuina.com.br/paroquia/paroquia-sao-jose-operario--brasnorte",
+        "data": "",
+        "o_que": "horarios"
+      },
+      {
+        "url": "https://www.facebook.com/p/Par%C3%B3quia-S%C3%A3o-Jos%C3%A9-Oper%C3%A1rio-100067917637339/",
+        "data": "",
+        "o_que": "horarios"
+      }
+    ],
+    "confianca": "media",
+    "observacao": "Setor não informado. Horário de uma publicação sem data da página da paróquia no Facebook, lida só pelo trecho da busca. O calendário diocesano de 2025 não põe Brasnorte em nenhum setor."
+  },
+  {
+    "id_banco": null,
+    "nome": "Paróquia Santo Antônio",
+    "categoria": "paroquia",
+    "cidade": "Castanheira",
+    "padroeiro": "Santo Antônio",
+    "contatos": {
+      "telefone": "",
+      "whatsapp": "",
+      "instagram": "",
+      "site": "",
+      "email": ""
+    },
+    "igrejas": [
+      {
+        "id_banco": null,
+        "nome": "Igreja Matriz de Santo Antônio",
+        "tipo": "matriz",
+        "cidade": "Castanheira",
+        "localidade": "",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      }
+    ],
+    "fontes": [
+      {
+        "url": "https://www.diocesejuina.com.br/paroquia/paroquia-santo-antonio--castanheira",
+        "data": "",
+        "o_que": "contatos"
+      }
+    ],
+    "confianca": "baixa",
+    "observacao": "Setor não informado. Sem horário publicado pela paróquia ou pela diocese. Território: o município de Castanheira. O calendário diocesano de 2025 não põe Castanheira em nenhum setor."
+  },
+  {
+    "id_banco": null,
+    "nome": "Paróquia São Pedro Apóstolo",
+    "categoria": "paroquia",
+    "cidade": "Juruena",
+    "padroeiro": "São Pedro Apóstolo",
+    "contatos": {
+      "telefone": "",
+      "whatsapp": "",
+      "instagram": "",
+      "site": "",
+      "email": ""
+    },
+    "igrejas": [
+      {
+        "id_banco": null,
+        "nome": "Igreja de São Sebastião",
+        "tipo": "matriz",
+        "cidade": "Juruena",
+        "localidade": "",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": "A diocese diz que a sede da paróquia fica na Comunidade São Sebastião."
+      },
+      {
+        "id_banco": null,
+        "nome": "Igreja de Santa Clara",
+        "tipo": "capela",
+        "cidade": "Juruena",
+        "localidade": "",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      }
+    ],
+    "fontes": [
+      {
+        "url": "https://www.diocesejuina.com.br/paroquia/paroquia-sao-pedro-apostolo--juruena",
+        "data": "",
+        "o_que": "contatos"
+      },
+      {
+        "url": "https://gcatholic.org/churches/brazil/76440.htm",
+        "data": "",
+        "o_que": "contatos"
+      }
+    ],
+    "confianca": "baixa",
+    "observacao": "Setor Juruena e Cotriguaçu. Sem horário publicado pela paróquia ou pela diocese. Território: o município de Juruena. A Igreja de Santa Clara vem do GCatholic, que a lista em Juruena sem marca de paróquia."
+  },
+  {
+    "id_banco": null,
+    "nome": "Paróquia Nossa Senhora Aparecida",
+    "categoria": "paroquia",
+    "cidade": "Cotriguaçu",
+    "padroeiro": "Nossa Senhora Aparecida",
+    "contatos": {
+      "telefone": "",
+      "whatsapp": "",
+      "instagram": "",
+      "site": "",
+      "email": ""
+    },
+    "igrejas": [
+      {
+        "id_banco": null,
+        "nome": "Igreja Matriz de Nossa Senhora Aparecida",
+        "tipo": "matriz",
+        "cidade": "Cotriguaçu",
+        "localidade": "",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      }
+    ],
+    "fontes": [
+      {
+        "url": "https://www.diocesejuina.com.br/paroquia/paroquia-nossa-senhora-aparecida--cotriguacu",
+        "data": "",
+        "o_que": "contatos"
+      }
+    ],
+    "confianca": "baixa",
+    "observacao": "Setor Juruena e Cotriguaçu. Sem horário publicado pela paróquia ou pela diocese."
+  },
+  {
+    "id_banco": null,
+    "nome": "Paróquia Santíssima Trindade",
+    "categoria": "paroquia",
+    "cidade": "Cotriguaçu",
+    "padroeiro": "Santíssima Trindade",
+    "contatos": {
+      "telefone": "",
+      "whatsapp": "",
+      "instagram": "",
+      "site": "",
+      "email": ""
+    },
+    "igrejas": [
+      {
+        "id_banco": null,
+        "nome": "Igreja Matriz da Santíssima Trindade",
+        "tipo": "matriz",
+        "cidade": "Cotriguaçu",
+        "localidade": "Distrito de Nova União",
+        "endereco": "Rua Principal, s/n, Centro",
+        "horarios": [],
+        "nao_cabe": ""
+      }
+    ],
+    "fontes": [
+      {
+        "url": "https://www.diocesejuina.com.br/paroquia/paroquia-santissima-trindade--nova-uniao",
+        "data": "",
+        "o_que": "contatos"
+      }
+    ],
+    "confianca": "baixa",
+    "observacao": "Setor Colniza, Senhor Bom Jesus e Santíssima Trindade. Sem horário publicado pela paróquia ou pela diocese. Sede no distrito de Nova União; território com os setores Nova Esperança e Ouro Verde."
+  },
+  {
+    "id_banco": null,
+    "nome": "Paróquia São Francisco de Assis",
+    "categoria": "paroquia",
+    "cidade": "Aripuanã",
+    "padroeiro": "São Francisco de Assis",
+    "contatos": {
+      "telefone": "",
+      "whatsapp": "",
+      "instagram": "",
+      "site": "",
+      "email": ""
+    },
+    "igrejas": [
+      {
+        "id_banco": null,
+        "nome": "Igreja Matriz de São Francisco de Assis",
+        "tipo": "matriz",
+        "cidade": "Aripuanã",
+        "localidade": "",
+        "endereco": "",
+        "horarios": [
+          {
+            "tipo": "missa",
+            "dia_semana": 0,
+            "hora": "07:00",
+            "semanas": null,
+            "observacao": ""
+          },
+          {
+            "tipo": "missa",
+            "dia_semana": 0,
+            "hora": "19:30",
+            "semanas": null,
+            "observacao": ""
+          },
+          {
+            "tipo": "missa",
+            "dia_semana": 1,
+            "hora": "19:30",
+            "semanas": null,
+            "observacao": ""
+          }
+        ],
+        "nao_cabe": ""
+      }
+    ],
+    "fontes": [
+      {
+        "url": "https://www.diocesejuina.com.br/paroquia/paroquia-sao-francisco--aripuana",
+        "data": "",
+        "o_que": "horarios"
+      }
+    ],
+    "confianca": "media",
+    "observacao": "Setor Aripuanã e Conselvan. Horário da página da paróquia no site da diocese, sem data."
+  },
+  {
+    "id_banco": null,
+    "nome": "Paróquia São Rafael",
+    "categoria": "paroquia",
+    "cidade": "Aripuanã",
+    "padroeiro": "São Rafael",
+    "contatos": {
+      "telefone": "",
+      "whatsapp": "",
+      "instagram": "",
+      "site": "",
+      "email": ""
+    },
+    "igrejas": [
+      {
+        "id_banco": null,
+        "nome": "Igreja Matriz de São Rafael",
+        "tipo": "matriz",
+        "cidade": "Aripuanã",
+        "localidade": "",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      }
+    ],
+    "fontes": [
+      {
+        "url": "https://www.diocesejuina.com.br/paroquia/paroquia-sao-rafael--aripuana",
+        "data": "",
+        "o_que": "contatos"
+      }
+    ],
+    "confianca": "baixa",
+    "observacao": "Setor Aripuanã e Conselvan. Sem horário publicado pela paróquia ou pela diocese. A página da diocese só tem o nome."
+  },
+  {
+    "id_banco": null,
+    "nome": "Paróquia São Sebastião",
+    "categoria": "paroquia",
+    "cidade": "Aripuanã",
+    "padroeiro": "São Sebastião",
+    "contatos": {
+      "telefone": "",
+      "whatsapp": "",
+      "instagram": "",
+      "site": "",
+      "email": ""
+    },
+    "igrejas": [
+      {
+        "id_banco": null,
+        "nome": "Igreja Matriz de São Sebastião",
+        "tipo": "matriz",
+        "cidade": "Aripuanã",
+        "localidade": "Distrito de Conselvan",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      }
+    ],
+    "fontes": [
+      {
+        "url": "https://www.diocesejuina.com.br/paroquia/paroquia-sao-sebastiao--conselvan",
+        "data": "",
+        "o_que": "contatos"
+      }
+    ],
+    "confianca": "baixa",
+    "observacao": "Setor Aripuanã e Conselvan. Sem horário publicado pela paróquia ou pela diocese. Sede no distrito de Conselvan. A página da diocese só tem o nome."
+  },
+  {
+    "id_banco": null,
+    "nome": "Paróquia Sagrada Família",
+    "categoria": "paroquia",
+    "cidade": "Colniza",
+    "padroeiro": "Sagrada Família",
+    "contatos": {
+      "telefone": "",
+      "whatsapp": "",
+      "instagram": "",
+      "site": "",
+      "email": ""
+    },
+    "igrejas": [
+      {
+        "id_banco": null,
+        "nome": "Igreja Matriz da Sagrada Família",
+        "tipo": "matriz",
+        "cidade": "Colniza",
+        "localidade": "",
+        "endereco": "",
+        "horarios": [
+          {
+            "tipo": "missa",
+            "dia_semana": 6,
+            "hora": "19:30",
+            "semanas": null,
+            "observacao": ""
+          },
+          {
+            "tipo": "missa",
+            "dia_semana": 0,
+            "hora": "08:00",
+            "semanas": null,
+            "observacao": ""
+          },
+          {
+            "tipo": "missa",
+            "dia_semana": 0,
+            "hora": "19:30",
+            "semanas": null,
+            "observacao": ""
+          },
+          {
+            "tipo": "missa",
+            "dia_semana": 3,
+            "hora": "19:30",
+            "semanas": null,
+            "observacao": "Missa em honra a São José"
+          },
+          {
+            "tipo": "adoracao",
+            "dia_semana": 4,
+            "hora": "19:30",
+            "semanas": null,
+            "observacao": ""
+          }
+        ],
+        "nao_cabe": ""
+      }
+    ],
+    "fontes": [
+      {
+        "url": "https://www.diocesejuina.com.br/paroquia/paroquia-sagrada-familia--colniza",
+        "data": "",
+        "o_que": "horarios"
+      }
+    ],
+    "confianca": "media",
+    "observacao": "Setor Colniza, Senhor Bom Jesus e Santíssima Trindade. Horário da página da paróquia no site da diocese, sem data. Confiada aos Oblatos de São José."
+  },
+  {
+    "id_banco": null,
+    "nome": "Paróquia Senhor Bom Jesus",
+    "categoria": "paroquia",
+    "cidade": "Colniza",
+    "padroeiro": "Senhor Bom Jesus",
+    "contatos": {
+      "telefone": "",
+      "whatsapp": "",
+      "instagram": "",
+      "site": "",
+      "email": ""
+    },
+    "igrejas": [
+      {
+        "id_banco": null,
+        "nome": "Igreja Matriz do Senhor Bom Jesus",
+        "tipo": "matriz",
+        "cidade": "Colniza",
+        "localidade": "Distrito de Guariba",
+        "endereco": "Rua G, s/n",
+        "horarios": [],
+        "nao_cabe": ""
+      }
+    ],
+    "fontes": [
+      {
+        "url": "https://www.diocesejuina.com.br/paroquia/paroquia-senhor-bom-jesus--guariba",
+        "data": "",
+        "o_que": "contatos"
+      }
+    ],
+    "confianca": "baixa",
+    "observacao": "Setor Colniza, Senhor Bom Jesus e Santíssima Trindade. Sem horário publicado pela paróquia ou pela diocese. Sede no distrito de Guariba."
+  }
+]
