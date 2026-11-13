@@ -145,6 +145,8 @@ configurado desde o início) · **Supabase** plano gratuito (projeto
   categoria `grande` abre página própria com busca e A-Z
   (`/rezar/oracoes/categoria/:id`); "Em latim" é calculada (tudo o que tem `la`).
 
+- **Instagram**: a fila de posts aprovados está em `docs/marca/instagram/FILA.md`; o dono pede um por vez.
+
 ## Acabamento profissional (pedido do dono, 10/11/2026)
 - **Sem cara de IA.** Código sem comentários explicativos (só o raro que evita
   um erro real); nomes claros falam por si.
