@@ -1,0 +1,85 @@
+-- SE: gerado por scripts/paroquias/carregar_estado.py a partir de pesquisa-se-2026-11 (--correcao: paróquias de mesmo nome na mesma cidade, que a carga antiga juntou numa só)
+
+delete from public.horarios where id in ('083eb77a-eea6-5ea0-82c2-5f008229e906', '134fbf76-ec4d-5665-8d4b-ca3e306ea33b', '1c2b5559-c851-56d8-820b-359075add5a1', '1d5dab44-73bb-51f3-9fdf-09f9a1795f3d', '27d14b7c-da0c-5e7d-9705-13bc4619caf9', '2944c69d-ecd7-5ad6-beca-ac937d3689e4', '3e3d1519-f043-5fe1-b5ee-0e91dbeca24c', '40249745-f25d-5729-88c6-866ecb85a162', '409e1a6f-c578-5857-9082-d14b55890689', '40c1e9cb-8864-5073-a3c7-41cee86058fc', '4484e994-d6b3-5d28-b82f-948e9bc552fc', '509175b4-2f9f-54a4-a342-73840f3955a9', '5aad6ca5-619f-57e0-90ca-567e4461c8a1', '5aca209b-008e-5a6f-a813-771ff9ed19c0', '5c87a872-8afa-503a-8ebf-13f283771c17', '5dd530b8-e9a9-5a55-920a-59c46697d972', '62639baf-802c-5060-a46e-b4cdbdf4c0f5', '66baf61a-e8eb-560a-90a0-2426088d58c8', '6ecc5516-ee3d-5584-a43f-0d9a6c9b4d30', '71fe6aa1-8f7c-500b-84a2-c3bcf871a6a4', '7ba6277b-c0d9-531d-b559-676701fc35bb', '9026a048-50c0-5da4-a535-dadbfb8c7f82', '908f833f-9368-5bef-9b0d-a343221e68ce', '90ed4cd0-f9f2-5fa7-acb6-ae77abd1f376', '92c1028f-4c99-592c-b55e-392fe33a6e6c', '9432b4e7-57d3-519b-8ce0-9f1a70187f88', 'a01d64f1-38ec-5acf-8f9b-d03384e4141c', 'a3005296-903f-53c7-bd20-66100359f7a9', 'a44f0726-e296-5598-a4bb-dd62f9a14224', 'ab70a6d1-c7c5-5f6a-996f-c0f2fb74d3c4', 'b1035439-3a92-5d60-bfb7-e824e3ed3de5', 'be3ee456-0dbd-5a06-b92d-f8e47bc56314', 'cc747f45-3eee-5a7c-9ddf-dbcd9f9b5567', 'd11ebaa2-829e-5d6a-b3b9-b3ffdebd9dfb', 'd6f486b9-b8bf-5c4a-a949-4a0adc22a0aa', 'dc8e5170-6eed-5f64-ba1c-6c5578297030', 'e66d48a3-7d84-5cc4-913f-d490fe0cca71', 'ec107880-4c3b-5c2b-a1e2-7421b371d5ec', 'f5f52566-a4d8-5c8c-b902-a2075ff85763', 'f9cca5b8-5671-52b1-9ebc-937837f734de', 'fb01f376-239e-5fff-a05d-6ff66057560a');
+delete from public.paroquias where id in ('7acf1bea-0361-53d3-9c13-29b3a22a2867', '84eff928-96a6-54fb-bffb-f5b9ad1f9229', '94eb4a7d-87f0-5877-9485-e36cf67100a0', '9a0c1a6d-67c0-564b-a2dc-8b7b70a527ef', 'a12e1457-c3b9-59f0-9a83-2fcaa6bf5ac8', 'dfeffb4f-1846-5326-a895-007a899aa717', 'fc782896-90c7-58ff-9155-0f7531c8f429');
+
+insert into public.paroquias (id, nome, tipo, matriz_id, endereco, bairro, cidade, uf, lat, lng, padroeiro, telefone, whatsapp, instagram, site, email, diocese, fonte, fonte_oficial) values
+  ('04db85de-2862-5818-be4f-c277d7fa3c40', 'Paróquia Nossa Senhora de Guadalupe', 'paroquia', null, 'RUA ALBANO FRANCO, 230, LOT COQUEIRAL, PORTO D’ANTAS, ARACAJU, SE, 49.069-024', 'Loteamento Coqueiral', 'Aracaju', 'SE', -10.97168, -37.045054, 'Nossa Senhora de Guadalupe', '7930195045', '', '', '', '', 'Arquidiocese de Aracaju', 'https://arquidiocesedearacaju.org/paroquias/paroquia-nossa-senhora-de-guadalupe-lot-coqueiral-aracaju-se/', true),
+  ('7e651962-d28a-5fd5-91dd-d1e2958b4479', 'Comunidade Nossa Senhora Virgem dos Pobres', 'comunidade', '04db85de-2862-5818-be4f-c277d7fa3c40', '', '', 'Aracaju', 'SE', null, null, '', '', '', '', '', '', 'Arquidiocese de Aracaju', 'https://arquidiocesedearacaju.org/paroquias/paroquia-nossa-senhora-de-guadalupe-lot-coqueiral-aracaju-se/', true),
+  ('7a7a5c82-ed30-5d3a-9d83-bc6e64e5a443', 'Comunidade São José', 'comunidade', '04db85de-2862-5818-be4f-c277d7fa3c40', '', '', 'Aracaju', 'SE', null, null, '', '', '', '', '', '', 'Arquidiocese de Aracaju', 'https://arquidiocesedearacaju.org/paroquias/paroquia-nossa-senhora-de-guadalupe-lot-coqueiral-aracaju-se/', true),
+  ('eb9c61ab-24da-5607-9542-c70a7a83863d', 'Paróquia Nossa Senhora do Perpétuo Socorro', 'paroquia', null, 'RUA KELLY CRISTINA DE SANTANA, 86, SANTOS DUMONT, ARACAJU, SE, 49.087-836', 'Santos Dumont', 'Aracaju', 'SE', -10.965808, -37.085653, 'Nossa Senhora do Perpétuo Socorro', '79999499536', '', '', '', 'paroquiansdoperpetuosocorro@hotmail.com', 'Arquidiocese de Aracaju', 'https://arquidiocesedearacaju.org/paroquias/paroquia-nossa-senhora-do-perpetuo-socorro-bairro-santos-dumont-aracaju-se/', true),
+  ('39f8f379-3e41-526a-a7a0-b97655024ecd', 'Comunidade Santo Expedito', 'comunidade', 'eb9c61ab-24da-5607-9542-c70a7a83863d', '', '', 'Aracaju', 'SE', null, null, '', '', '', '', '', '', 'Arquidiocese de Aracaju', 'https://arquidiocesedearacaju.org/paroquias/paroquia-nossa-senhora-do-perpetuo-socorro-bairro-santos-dumont-aracaju-se/', true),
+  ('41b4f68b-fad5-5edf-a9f8-c3d362842c24', 'Comunidade Mãe Rainha', 'comunidade', 'eb9c61ab-24da-5607-9542-c70a7a83863d', '', '', 'Aracaju', 'SE', null, null, '', '', '', '', '', '', 'Arquidiocese de Aracaju', 'https://arquidiocesedearacaju.org/paroquias/paroquia-nossa-senhora-do-perpetuo-socorro-bairro-santos-dumont-aracaju-se/', true),
+  ('c31b9d7a-6e31-5037-bcda-3cc4a4a87461', 'Paróquia Sagrado Coração de Jesus', 'paroquia', null, 'Rua Manoel do Espírito Santos, 379, Bairro Grageru, Aracaju-SE, 49.025-440', 'Grageru', 'Aracaju', 'SE', -10.906283, -37.081574, 'Sagrado Coração de Jesus', '7932270215', '', '', '', 'pscgrageru@gmail.com', 'Arquidiocese de Aracaju', 'https://arquidiocesedearacaju.org/paroquias/paroquia-sagrado-coracao-de-jesus-grageru-aracaju-se/', true),
+  ('9db043bf-9835-51a8-ae8c-2ed94251fbbd', 'Paróquia Sagrado Coração de Jesus', 'paroquia', null, 'R. Arquiteto Willians Campos Santana, 6, São Conrado, Aracaju, SE, 49040-000', 'São Conrado', 'Aracaju', 'SE', -10.906283, -37.081574, 'Sagrado Coração de Jesus', '7932512317', '', '', '', 'paroquia.scj.saoconrado@outlook.com', 'Arquidiocese de Aracaju', 'https://arquidiocesedearacaju.org/paroquias/paroquia-sagrado-coracao-de-jesus-sao-conrado-aracaju-se/', true),
+  ('f85dd404-bea7-5691-b951-cafdd6648204', 'Paróquia São Francisco de Assis', 'paroquia', null, 'R. Mercúrio, Inácio Barbosa, Aracaju, SE, 49040-380', 'Conjunto Jardim Esperança', 'Aracaju', 'SE', -10.892732, -37.081397, 'São Francisco de Assis', '7930273675', '', '', '', '', 'Arquidiocese de Aracaju', 'https://arquidiocesedearacaju.org/paroquias/paroquia-sao-francisco-de-assis-conj-jardim-esperanca-aracaju-se/', true),
+  ('33b515c8-45ab-5dc0-8dd5-50296c465334', 'Capela Mãe Rainha', 'capela', 'f85dd404-bea7-5691-b951-cafdd6648204', '', '', 'Aracaju', 'SE', null, null, '', '', '', '', '', '', 'Arquidiocese de Aracaju', 'https://arquidiocesedearacaju.org/paroquias/paroquia-sao-francisco-de-assis-conj-jardim-esperanca-aracaju-se/', true),
+  ('09499e3c-df00-5c1d-b511-f263ab5c398a', 'Comunidade Nossa Senhora Aparecida', 'comunidade', 'f85dd404-bea7-5691-b951-cafdd6648204', '', '', 'Aracaju', 'SE', null, null, '', '', '', '', '', '', 'Arquidiocese de Aracaju', 'https://arquidiocesedearacaju.org/paroquias/paroquia-sao-francisco-de-assis-conj-jardim-esperanca-aracaju-se/', true),
+  ('f4711bc0-7562-58de-a85a-cae108127a00', 'Comunidade Santa Dulce dos Pobres', 'comunidade', 'f85dd404-bea7-5691-b951-cafdd6648204', '', '', 'Aracaju', 'SE', null, null, '', '', '', '', '', '', 'Arquidiocese de Aracaju', 'https://arquidiocesedearacaju.org/paroquias/paroquia-sao-francisco-de-assis-conj-jardim-esperanca-aracaju-se/', true),
+  ('770c0f6e-7002-5be9-ae12-eb33a815564a', 'Paróquia Nossa Senhora Rosa Mística', 'paroquia', null, 'Rua E 1, 60, Conj. Jardim, Nossa Senhora do Socorro - SE, 49.160-000', 'Conjunto Jardim', 'Nossa Senhora do Socorro', 'SE', -10.834892, -37.068725, 'Nossa Senhora Rosa Mística', '79999121054', '', '', '', 'paroq.rosamisticacj@gmail.com', 'Arquidiocese de Aracaju', 'https://arquidiocesedearacaju.org/paroquias/paroquia-nossa-senhora-rosa-mistica-conj-jardim-nossa-senhora-do-socorro-se/', true),
+  ('961bc9af-9940-5e9b-9abf-aa2abe25fe12', 'Paróquia Santa Luzia', 'paroquia', null, 'Rua Doutor Evandro, 320', 'Alto da Boa Vista', 'Lagarto', 'SE', -10.914498, -37.685699, 'Santa Luzia', '', '', 'paroquia_santaluzia', '', '', 'Diocese de Estância', 'https://www.familysearch.org/en/wiki/Lagarto,_Sergipe,_Brazil_Genealogy', false)
+on conflict (id) do nothing;
+
+insert into public.horarios (id, paroquia_id, tipo, dia_semana, semanas, hora, observacao) values
+  ('a8aebf56-e0e7-56f4-9208-e11dbb4e2138', '04db85de-2862-5818-be4f-c277d7fa3c40', 'missa', 0, null::smallint[], '08:00', ''),
+  ('a1644800-3628-5567-9b11-42dd762e6ac7', '04db85de-2862-5818-be4f-c277d7fa3c40', 'missa', 0, null::smallint[], '19:00', ''),
+  ('9c938c84-4b1f-5ee7-803a-d6e3b0f33f35', '04db85de-2862-5818-be4f-c277d7fa3c40', 'missa', 4, null::smallint[], '19:30', ''),
+  ('6f265417-52a6-5810-b433-0481871c1cbf', '7e651962-d28a-5fd5-91dd-d1e2958b4479', 'missa', 0, null::smallint[], '08:00', ''),
+  ('cd280bfe-bf31-5e60-9807-244986b4fdf4', '7e651962-d28a-5fd5-91dd-d1e2958b4479', 'missa', 0, null::smallint[], '19:00', ''),
+  ('dea4d8b0-1067-5ee5-8098-0513a86cb983', '7e651962-d28a-5fd5-91dd-d1e2958b4479', 'missa', 5, null::smallint[], '19:30', ''),
+  ('0d49d7cb-9620-59a9-be80-bcb46d0a2345', '7a7a5c82-ed30-5d3a-9d83-bc6e64e5a443', 'missa', 6, null::smallint[], '19:30', ''),
+  ('4c078b3b-87bd-513b-8d8b-49f3ebe88bd8', 'eb9c61ab-24da-5607-9542-c70a7a83863d', 'missa', 0, null::smallint[], '08:30', ''),
+  ('1f34ce13-1f7f-547f-8bea-a42bffb27fb5', 'eb9c61ab-24da-5607-9542-c70a7a83863d', 'missa', 0, null::smallint[], '17:00', ''),
+  ('dfc08264-99f8-5424-ab75-d7075efc1cfe', 'eb9c61ab-24da-5607-9542-c70a7a83863d', 'missa', 5, '{1}'::smallint[], '19:00', ''),
+  ('7af48efa-fa1a-54b6-97dc-53c655096812', 'eb9c61ab-24da-5607-9542-c70a7a83863d', 'missa', 6, null::smallint[], '19:00', ''),
+  ('a5674825-ccd8-5b10-8645-165fbf965b44', '39f8f379-3e41-526a-a7a0-b97655024ecd', 'missa', 0, null::smallint[], '07:00', ''),
+  ('6bd72ede-9274-5a71-9f7c-96b8e8828948', '39f8f379-3e41-526a-a7a0-b97655024ecd', 'missa', 4, null::smallint[], '19:00', ''),
+  ('3613bb8b-7609-5138-984a-6cda4b8b3f9d', '41b4f68b-fad5-5edf-a9f8-c3d362842c24', 'missa', 3, null::smallint[], '19:00', ''),
+  ('d70a6ba9-245b-5c6c-8173-48ce9b5c6551', 'c31b9d7a-6e31-5037-bcda-3cc4a4a87461', 'missa', 0, null::smallint[], '07:00', ''),
+  ('0c69d854-0e31-5e36-834f-90a2572f5bcd', 'c31b9d7a-6e31-5037-bcda-3cc4a4a87461', 'missa', 0, null::smallint[], '09:00', ''),
+  ('a5c811f3-c23e-56fe-b9fc-e425b448e488', 'c31b9d7a-6e31-5037-bcda-3cc4a4a87461', 'missa', 0, null::smallint[], '11:30', ''),
+  ('025c06cd-f5ab-5232-9b05-bff741c63df4', 'c31b9d7a-6e31-5037-bcda-3cc4a4a87461', 'missa', 0, null::smallint[], '17:00', ''),
+  ('951dd1d1-1b3c-53f4-8f93-5fd3ca3a5400', 'c31b9d7a-6e31-5037-bcda-3cc4a4a87461', 'missa', 0, null::smallint[], '19:00', ''),
+  ('15b6e9b1-971e-5b6a-afee-5330d0deb9e5', 'c31b9d7a-6e31-5037-bcda-3cc4a4a87461', 'missa', 1, null::smallint[], '07:00', ''),
+  ('6fa569ba-582d-527c-a797-2754c3f69ebd', 'c31b9d7a-6e31-5037-bcda-3cc4a4a87461', 'missa', 1, null::smallint[], '19:00', ''),
+  ('85a4c790-3369-5f55-8173-fd89f914c7ee', 'c31b9d7a-6e31-5037-bcda-3cc4a4a87461', 'missa', 2, null::smallint[], '07:00', ''),
+  ('ab5e073b-df3b-5161-877e-a7ac3ae15274', 'c31b9d7a-6e31-5037-bcda-3cc4a4a87461', 'missa', 2, null::smallint[], '19:00', ''),
+  ('ee4c3632-86d1-51c3-a754-2af5c2de978b', 'c31b9d7a-6e31-5037-bcda-3cc4a4a87461', 'missa', 3, null::smallint[], '07:00', ''),
+  ('7773830a-65bc-54a1-82e7-1eca77eeb60f', 'c31b9d7a-6e31-5037-bcda-3cc4a4a87461', 'missa', 3, null::smallint[], '19:00', ''),
+  ('bf256fe2-822a-512f-9b1f-e625a6a42cb1', 'c31b9d7a-6e31-5037-bcda-3cc4a4a87461', 'missa', 4, null::smallint[], '07:00', ''),
+  ('cbc9c4cd-3128-5f39-97f8-c80d72e1ef78', 'c31b9d7a-6e31-5037-bcda-3cc4a4a87461', 'confissao', 4, null::smallint[], '10:00', 'Até 12h'),
+  ('c044691b-5ea6-5ead-b8fa-65a8482de352', 'c31b9d7a-6e31-5037-bcda-3cc4a4a87461', 'confissao', 4, null::smallint[], '15:00', 'Até 17h. ligar antes para confirmar'),
+  ('e0e7548a-2a5d-50f6-b7bf-173ef6259de0', 'c31b9d7a-6e31-5037-bcda-3cc4a4a87461', 'missa', 4, null::smallint[], '19:00', ''),
+  ('da09d610-9d92-53a2-97d4-4f65e7eb39f9', 'c31b9d7a-6e31-5037-bcda-3cc4a4a87461', 'missa', 5, null::smallint[], '07:00', ''),
+  ('f61b9c27-81e7-554a-b222-c4d292fbffe0', 'c31b9d7a-6e31-5037-bcda-3cc4a4a87461', 'confissao', 5, null::smallint[], '10:00', 'Até 12h'),
+  ('a4ca5dd2-0cfb-5ba5-ac43-6e663c5bf951', 'c31b9d7a-6e31-5037-bcda-3cc4a4a87461', 'confissao', 5, null::smallint[], '15:00', 'Até 17h. ligar antes para confirmar'),
+  ('303e6fed-5f91-5ecc-93f1-35d12e4e0088', 'c31b9d7a-6e31-5037-bcda-3cc4a4a87461', 'missa', 5, null::smallint[], '19:00', ''),
+  ('7c49ac54-c104-552e-b370-af35673c756c', 'c31b9d7a-6e31-5037-bcda-3cc4a4a87461', 'missa', 6, null::smallint[], '07:00', ''),
+  ('5156c36f-8d3f-5f3d-a83d-6c0650822107', 'c31b9d7a-6e31-5037-bcda-3cc4a4a87461', 'missa', 6, null::smallint[], '17:00', ''),
+  ('1062a021-d10e-5326-9d22-db1592b333a8', 'c31b9d7a-6e31-5037-bcda-3cc4a4a87461', 'missa', 6, null::smallint[], '19:00', ''),
+  ('14bc7a28-82f5-5272-9cec-cb6b8ad0a9ab', '9db043bf-9835-51a8-ae8c-2ed94251fbbd', 'missa', 0, null::smallint[], '19:00', ''),
+  ('3236e9ff-92de-5ba1-a4ab-3e4193e18e00', '9db043bf-9835-51a8-ae8c-2ed94251fbbd', 'missa', 2, null::smallint[], '19:30', ''),
+  ('c7744383-3567-53e2-a161-55625a834e1f', '9db043bf-9835-51a8-ae8c-2ed94251fbbd', 'missa', 3, null::smallint[], '17:00', ''),
+  ('f0287098-1d01-501f-aa60-63ef9e6fa914', '9db043bf-9835-51a8-ae8c-2ed94251fbbd', 'missa', 4, null::smallint[], '19:30', ''),
+  ('465bd3b6-1544-5e5e-8bad-c63507932c24', 'f85dd404-bea7-5691-b951-cafdd6648204', 'missa', 0, null::smallint[], '07:00', ''),
+  ('55b28250-49c3-5b68-8966-096cab344b73', 'f85dd404-bea7-5691-b951-cafdd6648204', 'missa', 0, null::smallint[], '19:00', ''),
+  ('6b60b0d3-f33c-5454-aa3d-873e3db90ff2', 'f85dd404-bea7-5691-b951-cafdd6648204', 'missa', 2, null::smallint[], '19:30', ''),
+  ('4c176b93-0a41-5ad7-9ff3-2bd4badeb284', 'f85dd404-bea7-5691-b951-cafdd6648204', 'missa', 4, null::smallint[], '19:30', 'Missa por cura e libertação'),
+  ('5ca03c99-bf3b-55f0-b745-ca2ace9ce87b', 'f85dd404-bea7-5691-b951-cafdd6648204', 'missa', 5, null::smallint[], '19:30', ''),
+  ('54a4fb5e-b4f5-53eb-939c-53d05a4ed893', '33b515c8-45ab-5dc0-8dd5-50296c465334', 'missa', 0, null::smallint[], '17:00', ''),
+  ('f5c9d598-c1d3-5f31-9c7e-ae53b9c809b1', '09499e3c-df00-5c1d-b511-f263ab5c398a', 'missa', 3, null::smallint[], '19:30', ''),
+  ('c5cd0ea8-c80d-53d8-8a36-e8994c0f5043', 'f4711bc0-7562-58de-a85a-cae108127a00', 'missa', 6, null::smallint[], '17:00', ''),
+  ('7b670b9d-16ac-5a34-a922-3acaadf14173', '770c0f6e-7002-5be9-ae12-eb33a815564a', 'missa', 0, null::smallint[], '09:00', 'Missa das crianças'),
+  ('65a91816-42ab-52ef-ab06-d6ee847b148c', '770c0f6e-7002-5be9-ae12-eb33a815564a', 'missa', 3, null::smallint[], '19:30', ''),
+  ('e3ffa2c4-13e7-5e3b-807d-f056b23c7032', '770c0f6e-7002-5be9-ae12-eb33a815564a', 'missa', 4, null::smallint[], '19:30', '')
+on conflict (id) do nothing;
+
+insert into public.notas_paroquia (paroquia_id, texto, fontes, confianca) values
+  ('04db85de-2862-5818-be4f-c277d7fa3c40', '', '{"https://arquidiocesedearacaju.org/paroquias/paroquia-nossa-senhora-de-guadalupe-lot-coqueiral-aracaju-se/","https://arquidiocesedearacaju.org/paroquias/paroquia-nossa-senhora-de-guadalupe-lot-coqueiral-aracaju-se/"}', 'alta'),
+  ('eb9c61ab-24da-5607-9542-c70a7a83863d', '', '{"https://arquidiocesedearacaju.org/paroquias/paroquia-nossa-senhora-do-perpetuo-socorro-bairro-santos-dumont-aracaju-se/","https://arquidiocesedearacaju.org/paroquias/paroquia-nossa-senhora-do-perpetuo-socorro-bairro-santos-dumont-aracaju-se/"}', 'alta'),
+  ('c31b9d7a-6e31-5037-bcda-3cc4a4a87461', '', '{"https://arquidiocesedearacaju.org/paroquias/paroquia-sagrado-coracao-de-jesus-grageru-aracaju-se/","https://arquidiocesedearacaju.org/paroquias/paroquia-sagrado-coracao-de-jesus-grageru-aracaju-se/"}', 'alta'),
+  ('9db043bf-9835-51a8-ae8c-2ed94251fbbd', '', '{"https://arquidiocesedearacaju.org/paroquias/paroquia-sagrado-coracao-de-jesus-sao-conrado-aracaju-se/","https://arquidiocesedearacaju.org/paroquias/paroquia-sagrado-coracao-de-jesus-sao-conrado-aracaju-se/"}', 'alta'),
+  ('f85dd404-bea7-5691-b951-cafdd6648204', '', '{"https://arquidiocesedearacaju.org/paroquias/paroquia-sao-francisco-de-assis-conj-jardim-esperanca-aracaju-se/","https://arquidiocesedearacaju.org/paroquias/paroquia-sao-francisco-de-assis-conj-jardim-esperanca-aracaju-se/"}', 'alta'),
+  ('770c0f6e-7002-5be9-ae12-eb33a815564a', '', '{"https://arquidiocesedearacaju.org/paroquias/paroquia-nossa-senhora-rosa-mistica-conj-jardim-nossa-senhora-do-socorro-se/","https://arquidiocesedearacaju.org/paroquias/paroquia-nossa-senhora-rosa-mistica-conj-jardim-nossa-senhora-do-socorro-se/"}', 'alta'),
+  ('961bc9af-9940-5e9b-9abf-aa2abe25fe12', 'Segunda paróquia de Santa Luzia da cidade, no bairro Alto da Boa Vista. Sem horário publicado pela paróquia.', '{"https://www.familysearch.org/en/wiki/Lagarto,_Sergipe,_Brazil_Genealogy","https://pt.wikipedia.org/wiki/Lagarto_(Sergipe)","https://linktr.ee/paroquia_santaluzia"}', '')
+on conflict (paroquia_id) do nothing;

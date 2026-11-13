@@ -134,10 +134,14 @@ def hora_ok(h):
 
 
 def main():
-    pasta, uf, ts = Path(sys.argv[1]), sys.argv[2].upper(), sys.argv[3]
-    mapa = dict(a.split("=", 1) for a in sys.argv[4:])
+    args = [a for a in sys.argv[1:] if a != "--correcao"]
+    correcao = len(args) != len(sys.argv) - 1
+    pasta, uf, ts = Path(args[0]), args[1].upper(), args[2]
+    mapa = dict(a.split("=", 1) for a in args[3:])
     paroquias, horarios, notas = [], [], []
     avisos = []
+    vistos = {}
+    antigos_p, antigos_h, errados_p, errados_h = set(), set(), set(), set()
 
     for diocese, arquivo in mapa.items():
         unidades = json.loads((pasta / "saida" / arquivo).read_text())
@@ -157,18 +161,27 @@ def main():
             fontes = [f.get("url", "") for f in (u.get("fontes") or []) if f.get("url")]
             confianca = u.get("confianca", "")
             uf_da_unidade = (u.get("uf") or uf).upper()
+            id_antigo = chave(uf, diocese, u.get("nome"), igrejas[0].get("cidade") or u.get("cidade", ""), igrejas[0].get("nome"), "0")
+            repeticao = vistos.get(id_antigo, 0)
+            vistos[id_antigo] = repeticao + 1
+            extra = (f"repetida {repeticao}",) if repeticao else ()
+            if repeticao:
+                avisos.append(f"nome repetido na mesma cidade, separada ({repeticao}): {u.get('nome')} ({diocese})")
             for n, ig in enumerate(igrejas):
                 cidade = ig.get("cidade") or u.get("cidade", "")
                 tipo = categoria if n == 0 else (TIPO_DA_IGREJA.get(ig.get("tipo", "capela")) or "capela")
                 if n == 0 and ig.get("tipo") == "santuario":
                     tipo = "santuario"
-                pid = chave(uf, diocese, u.get("nome"), cidade, ig.get("nome"), str(n))
+                pid_antigo = chave(uf, diocese, u.get("nome"), cidade, ig.get("nome"), str(n))
+                pid = chave(uf, diocese, u.get("nome"), cidade, ig.get("nome"), str(n), *extra)
+                (errados_p if repeticao else antigos_p).add(pid_antigo)
                 if n == 0:
                     matriz_id = pid
                 nome = (u.get("nome", "") if n == 0 else ig.get("nome") or "").strip()
                 if n == 0:
                     nome = re.sub(r"^(Área Pastoral|Área Missionária|Quase[- ][Pp]aróquia)(( d[aeo])?)\s+", r"Igreja\2 ", nome)
                 paroquias.append({
+                    "repetida": bool(repeticao),
                     "id": pid,
                     "nome": nome[:160],
                     "tipo": tipo,
@@ -201,7 +214,10 @@ def main():
                         avisos.append(f"semanas inválidas em {nome}: {h}")
                         continue
                     hid = chave("horario", pid, h["tipo"], str(dia), h["hora"], str(semanas), h.get("observacao", ""))
+                    hid_antigo = chave("horario", pid_antigo, h["tipo"], str(dia), h["hora"], str(semanas), h.get("observacao", ""))
+                    (errados_h if repeticao else antigos_h).add(hid_antigo)
                     horarios.append({
+                        "repetida": bool(repeticao),
                         "id": hid, "paroquia_id": pid, "tipo": h["tipo"], "dia_semana": dia,
                         "semanas": semanas, "hora": h["hora"], "observacao": (h.get("observacao") or "")[:60],
                     })
@@ -210,8 +226,14 @@ def main():
             if nao_cabe:
                 texto = (texto + (" " if texto else "") + "Fora do formato: " + nao_cabe)[:4000]
             if texto or fontes or confianca:
-                notas.append({"paroquia_id": matriz_id, "texto": texto, "fontes": fontes, "confianca": confianca if confianca in ("alta", "media") else ""})
+                notas.append({"repetida": bool(repeticao), "paroquia_id": matriz_id, "texto": texto, "fontes": fontes, "confianca": confianca if confianca in ("alta", "media") else ""})
 
+    if correcao:
+        paroquias = [p for p in paroquias if p["repetida"]]
+        horarios = [h for h in horarios if h["repetida"]]
+        notas = [nq for nq in notas if nq["repetida"]]
+        errados_p -= antigos_p
+        errados_h -= antigos_h
     geocodificar(paroquias, avisos)
     for nq in notas:
         m = next(x for x in paroquias if x["id"] == nq["paroquia_id"])
@@ -219,6 +241,13 @@ def main():
             nq["texto"] = (nq["texto"] + (" " if nq["texto"] else "") + "Ponto no mapa aproximado: centro da cidade.")[:4000]
 
     linhas = [f"-- {uf}: gerado por scripts/paroquias/carregar_estado.py a partir de {pasta.name}", ""]
+    if correcao:
+        linhas[0] += " (--correcao: paróquias de mesmo nome na mesma cidade, que a carga antiga juntou numa só)"
+        if errados_h:
+            linhas.append("delete from public.horarios where id in (" + ", ".join(f"'{i}'" for i in sorted(errados_h)) + ");")
+        if errados_p:
+            linhas.append("delete from public.paroquias where id in (" + ", ".join(f"'{i}'" for i in sorted(errados_p)) + ");")
+        linhas.append("")
     linhas.append("insert into public.paroquias (id, nome, tipo, matriz_id, endereco, bairro, cidade, uf, lat, lng, padroeiro, telefone, whatsapp, instagram, site, email, diocese, fonte, fonte_oficial) values")
     vs = []
     for p in paroquias:
@@ -247,11 +276,13 @@ def main():
         linhas.append(",\n".join(vs))
         linhas.append("on conflict (paroquia_id) do nothing;")
 
-    destino = Path("supabase/migrations") / f"{ts}_dados_{uf.lower()}_paroquias.sql"
+    destino = Path("supabase/migrations") / f"{ts}_dados_{uf.lower()}_paroquias{'_repetidas' if correcao else ''}.sql"
     destino.write_text("\n".join(linhas) + "\n")
     matrizes = sum(1 for p in paroquias if not p["matriz_id"])
     com_ponto = sum(1 for p in paroquias if p["lat"] is not None)
     exatas = sum(1 for p in paroquias if p["precisao"] in ("endereco", "nome"))
+    if correcao:
+        print(f"{destino}: apaga {len(errados_p)} igrejas e {len(errados_h)} horários que foram parar na paróquia errada")
     print(f"{destino}: {matrizes} matrizes, {len(paroquias) - matrizes} capelas, {len(horarios)} horários, {len(notas)} notas, {com_ponto} com ponto ({exatas} exatos)")
     for a in avisos:
         print("aviso:", a)
