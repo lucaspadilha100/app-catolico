@@ -1,5 +1,4 @@
 import { NOME_DO_APP } from "@/marca";
-import { enderecoPublico } from "@/lib/nativo";
 import { caminhoDaArte, type ArteDoEvangelho } from "./arte";
 
 const CREME = "#FBF0DD";
@@ -9,9 +8,9 @@ const FUNDO = "#131210";
 
 export type FormatoDeCartaz = "story" | "post";
 
-const MEDIDAS: Record<FormatoDeCartaz, { altura: number; arte: number; topoDoBloco: number; peDaObra: number; peDoApp: number; comArte: number; semArte: number }> = {
-  story: { altura: 1920, arte: 1180, topoDoBloco: 1270, peDaObra: 170, peDoApp: 110, comArte: 400, semArte: 760 },
-  post: { altura: 1350, arte: 800, topoDoBloco: 885, peDaObra: 140, peDoApp: 92, comArte: 250, semArte: 540 },
+const MEDIDAS: Record<FormatoDeCartaz, { altura: number; arte: number; topoDoBloco: number; peDaObra: number; peDoSelo: number; peDoNome: number; comArte: number; semArte: number }> = {
+  story: { altura: 1920, arte: 1180, topoDoBloco: 1270, peDaObra: 250, peDoSelo: 162, peDoNome: 84, comArte: 400, semArte: 700 },
+  post: { altura: 1350, arte: 800, topoDoBloco: 885, peDaObra: 214, peDoSelo: 138, peDoNome: 68, comArte: 250, semArte: 500 },
 };
 
 function quebrar(ctx: CanvasRenderingContext2D, texto: string, largura: number): string[] {
@@ -133,9 +132,20 @@ export async function cartaz(p: Cartaz): Promise<Blob> {
     ctx.font = `500 26px "Inter Variable", Arial, sans-serif`;
     ctx.fillText(p.credito, LARGURA / 2, m.altura - m.peDaObra);
   }
+  const simbolo = await carregarImagem("/simbolo.png");
+  if (simbolo) {
+    const cy = m.altura - m.peDoSelo;
+    ctx.fillStyle = CREME;
+    ctx.beginPath();
+    ctx.arc(LARGURA / 2, cy, 46, 0, Math.PI * 2);
+    ctx.fill();
+    const prop = simbolo.naturalHeight / simbolo.naturalWidth;
+    const lado = prop > 1 ? 58 / prop : 58;
+    ctx.drawImage(simbolo, LARGURA / 2 - lado / 2, cy - (lado * prop) / 2, lado, lado * prop);
+  }
   ctx.fillStyle = suave;
   ctx.font = `600 32px "Inter Variable", Arial, sans-serif`;
-  ctx.fillText(`${NOME_DO_APP} · ${enderecoPublico().replace(/^https?:\/\//, "")}`, LARGURA / 2, m.altura - m.peDoApp);
+  ctx.fillText(NOME_DO_APP, LARGURA / 2, m.altura - m.peDoNome);
 
   return new Promise((ok, erro) => canvas.toBlob((b) => (b ? ok(b) : erro(new Error("imagem"))), "image/png"));
 }
