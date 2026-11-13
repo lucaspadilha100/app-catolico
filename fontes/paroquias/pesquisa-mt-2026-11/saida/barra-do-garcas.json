@@ -1,0 +1,2326 @@
+[
+ {
+  "id_banco": null,
+  "nome": "Catedral Nossa Senhora da Guia",
+  "categoria": "catedral",
+  "cidade": "Barra do Garças",
+  "padroeiro": "Nossa Senhora da Guia",
+  "contatos": {
+   "telefone": "6634015105",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "catedralbg@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Catedral Nossa Senhora da Guia",
+    "tipo": "matriz",
+    "cidade": "Barra do Garças",
+    "localidade": "Centro",
+    "endereco": "Avenida Ministro João Alberto, 221",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Comunidades sem bairro na fonte: Lar dos Idosos (sábado 16h), São Luiz Guanella (terça 19h30), Jesus o Bom Pastor (sábado 19h30), São Sebastião (sábado 18h)."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesebarradogarcas.org.br/horarios-de-missa/",
+    "data": "2026-07",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesebarradogarcas.org.br/paroquia-nossa-senhora-da-guia/",
+    "data": "2023-03",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania Central. Horários do quadro \"Horários de Missa\" da diocese (2026); contatos da página da paróquia (2023)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Auxiliadora",
+  "categoria": "paroquia",
+  "cidade": "Barra do Garças",
+  "padroeiro": "Nossa Senhora Auxiliadora",
+  "contatos": {
+   "telefone": "6634011009",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiansauxiliadora13@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Auxiliadora",
+    "tipo": "matriz",
+    "cidade": "Barra do Garças",
+    "localidade": "",
+    "endereco": "Rua Germano Bezerra",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Comunidades sem bairro na fonte: Divino Pai Eterno (sábado 19h30), Santa Terezinha (sábado 18h), Santo André (sexta 19h, domingo 7h), Nossa Senhora de Fátima (quarta 19h, domingo 9h)."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesebarradogarcas.org.br/horarios-de-missa/",
+    "data": "2026-07",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesebarradogarcas.org.br/paroquia-nossa-senhora-auxiliadora/",
+    "data": "2023-03",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania Central. Horários do quadro da diocese (2026); contatos da página da paróquia (2023)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Barra do Garças",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "6634011661",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasantoantoniobg@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Barra do Garças",
+    "localidade": "Cidade Velha",
+    "endereco": "Praça Nossa Senhora Aparecida",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "06:10",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "06:10",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "06:10",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "06:10",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "06:10",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "06:10",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Comunidades sem bairro na fonte: São José (domingo 17h30, quarta 19h30), São João Bosco (sábado 19h30), São Domingos Sávio (domingo 8h, terça 19h30), São Pedro (domingo 9h15)."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesebarradogarcas.org.br/horarios-de-missa/",
+    "data": "2025-10",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesebarradogarcas.org.br/paroquia-santo-antonio/",
+    "data": "2023-03",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania Central. Horários do quadro da diocese (2025); contatos da página da paróquia (2023)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Francisco de Assis",
+  "categoria": "paroquia",
+  "cidade": "Barra do Garças",
+  "padroeiro": "São Francisco de Assis",
+  "contatos": {
+   "telefone": "6634055000",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "contato@paroquiasaofrancisco.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Francisco de Assis",
+    "tipo": "matriz",
+    "cidade": "Barra do Garças",
+    "localidade": "Vila Maria",
+    "endereco": "Rua Padre Zeferino Agostini, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Sem bairro na fonte: Comunidade Nossa Senhora do Perpétuo Socorro (sábado 8h30). Missas em bairros sem igreja nomeada (quadro de 2025): Nova Jerusalém (domingo 8h30), Cidade Jardim (quinta 19h30), Cemitério Nova Barra Sul (segunda 17h30)."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Teresinha",
+    "tipo": "comunidade",
+    "cidade": "Barra do Garças",
+    "localidade": "Nova Barra do Garças",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Barra do Garças",
+    "localidade": "Jardim Piracema",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São José",
+    "tipo": "capela",
+    "cidade": "Barra do Garças",
+    "localidade": "Bairro São José",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora de Fátima",
+    "tipo": "capela",
+    "cidade": "Barra do Garças",
+    "localidade": "Ouro Fino",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": "Sagrado Coração de Jesus"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Luzia",
+    "tipo": "comunidade",
+    "cidade": "Barra do Garças",
+    "localidade": "Palmares",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": "Com bênção do Santíssimo"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Imaculada Conceição",
+    "tipo": "comunidade",
+    "cidade": "Barra do Garças",
+    "localidade": "Nova Barra Norte",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Batista",
+    "tipo": "comunidade",
+    "cidade": "Barra do Garças",
+    "localidade": "Nova Barra Sul",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora das Graças",
+    "tipo": "comunidade",
+    "cidade": "Barra do Garças",
+    "localidade": "Novo Horizonte",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Divino Pai Eterno",
+    "tipo": "comunidade",
+    "cidade": "Barra do Garças",
+    "localidade": "Voadeira",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Guadalupe",
+    "tipo": "comunidade",
+    "cidade": "Barra do Garças",
+    "localidade": "Abel Lira",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Auxiliadora",
+    "tipo": "comunidade",
+    "cidade": "Barra do Garças",
+    "localidade": "Vale dos Sonhos",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesebarradogarcas.org.br/horarios-de-missa/",
+    "data": "2026-07",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesebarradogarcas.org.br/paroquia-sao-francisco-de-assis/",
+    "data": "2023-03",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Forania Central. O quadro da diocese mistura entradas de 2025 e de 2026 (áreas pastorais Santa Luzia e Nossa Senhora Aparecida); valeu a de 2026 quando há as duas. Bairros das capelas da página da paróquia (2023) e do quadro de 2025."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Pontal do Araguaia",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "66992554283",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquian.s.aparecida@outlook.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Pontal do Araguaia",
+    "localidade": "Setor João Rocha",
+    "endereco": "Rua José Jorge de Almeida, 43",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Quarta 19h: celebração da Palavra. Confissões antes e depois das missas (página de 2023). Sem bairro na fonte: Capela São Miguel Arcanjo (sexta 19h)."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesebarradogarcas.org.br/horarios-de-missa/",
+    "data": "2026-09",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesebarradogarcas.org.br/paroquia-nossa-senhora-aparecida/",
+    "data": "2023-03",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania Central. Horários do quadro da diocese (2026); contatos da página da paróquia (2023)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Piedade",
+  "categoria": "paroquia",
+  "cidade": "Araguaiana",
+  "padroeiro": "Nossa Senhora da Piedade",
+  "contatos": {
+   "telefone": "6634991242",
+   "whatsapp": "66981008842",
+   "instagram": "",
+   "site": "",
+   "email": "nsdapiedade@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Piedade",
+    "tipo": "matriz",
+    "cidade": "Araguaiana",
+    "localidade": "",
+    "endereco": "Avenida Presidente Vargas",
+    "horarios": [],
+    "nao_cabe": "A paróquia informa que não tem horário fixo: as missões na zona rural mudam a escala toda semana. Informações pela secretaria."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesebarradogarcas.org.br/horarios-de-missa/",
+    "data": "2026-07",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesebarradogarcas.org.br/paroquia-nossa-senhora-da-piedade/",
+    "data": "2023-03",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania Sul. Sem horário fixo, por aviso da própria paróquia no quadro da diocese (2026)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Senhor Bom Jesus da Lapa",
+  "categoria": "paroquia",
+  "cidade": "General Carneiro",
+  "padroeiro": "Senhor Bom Jesus da Lapa",
+  "contatos": {
+   "telefone": "66992267214",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasenhorbomjesusdalapa@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Senhor Bom Jesus da Lapa",
+    "tipo": "matriz",
+    "cidade": "General Carneiro",
+    "localidade": "Centro",
+    "endereco": "Praça da Matriz",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Sem lugar na fonte: Capela São José (domingo 9h), Capela Imaculada Conceição (sexta 19h)."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade do Assentamento Santa Cássia",
+    "tipo": "comunidade",
+    "cidade": "General Carneiro",
+    "localidade": "Assentamento Santa Cássia",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesebarradogarcas.org.br/horarios-de-missa/",
+    "data": "2026-09",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesebarradogarcas.org.br/paroquia-senhor-bom-jesus-da-lapa/",
+    "data": "2023-03",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania Sul. Horários do quadro da diocese (2026); contatos da página da paróquia (2023)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José Operário",
+  "categoria": "paroquia",
+  "cidade": "Araguainha",
+  "padroeiro": "São José Operário",
+  "contatos": {
+   "telefone": "66996944198",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "saojoseoperarioaraguainha@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José Operário",
+    "tipo": "matriz",
+    "cidade": "Araguainha",
+    "localidade": "Centro",
+    "endereco": "Praça Padre Augustino Guglierme, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Missas nas fazendas mediante agendamento."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesebarradogarcas.org.br/horarios-de-missa/",
+    "data": "2026-09",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesebarradogarcas.org.br/paroquia-sao-jose-operario/",
+    "data": "2023-03",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania Sul. Horários do quadro da diocese (2026); contatos da página da paróquia (2023)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Senhor Bom Jesus da Lapa",
+  "categoria": "paroquia",
+  "cidade": "Ponte Branca",
+  "padroeiro": "Senhor Bom Jesus da Lapa",
+  "contatos": {
+   "telefone": "66984471122",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasenhorbomjesusdalapa@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Senhor Bom Jesus da Lapa",
+    "tipo": "matriz",
+    "cidade": "Ponte Branca",
+    "localidade": "",
+    "endereco": "Rua Coronel Belmiro Nogueira, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "18:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Missas nas fazendas mediante agendamento."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Ponte Branca",
+    "localidade": "Vila Nova",
+    "endereco": "Rua Tiradentes",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesebarradogarcas.org.br/horarios-de-missa/",
+    "data": "2026-09",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesebarradogarcas.org.br/paroquia-senhor-bom-jesus-da-lapa-2/",
+    "data": "2023-03",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania Sul. Horários do quadro da diocese (2026); contatos e endereço da capela da página da paróquia (2023)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Abadia",
+  "categoria": "paroquia",
+  "cidade": "Ribeirãozinho",
+  "padroeiro": "Nossa Senhora da Abadia",
+  "contatos": {
+   "telefone": "66999264338",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "comunidaderib@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Abadia",
+    "tipo": "matriz",
+    "cidade": "Ribeirãozinho",
+    "localidade": "",
+    "endereco": "Rua Antônio João",
+    "horarios": [
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Ribeirãozinho",
+    "localidade": "Colônia Couto Magalhães",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesebarradogarcas.org.br/horarios-de-missa/",
+    "data": "2026-07",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesebarradogarcas.org.br/paroquia-nossa-senhora-da-abadia/",
+    "data": "2023-03",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania Sul. Horários do quadro da diocese (2026); contatos da página da paróquia (2023)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Bosco",
+  "categoria": "paroquia",
+  "cidade": "Torixoréu",
+  "padroeiro": "São João Bosco",
+  "contatos": {
+   "telefone": "6634061455",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasaojoaobosco@bol.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Bosco",
+    "tipo": "matriz",
+    "cidade": "Torixoréu",
+    "localidade": "",
+    "endereco": "Rua 15 de Novembro",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Sem bairro na fonte: Capela Divino Pai Eterno (domingo 9h30, quarta 19h), Capela São José Operário (domingo 9h30 e terça 19h, suspensas pela reforma). Cinco capelas rurais: uma por sábado, 15h."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesebarradogarcas.org.br/horarios-de-missa/",
+    "data": "2026-09",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesebarradogarcas.org.br/paroquia-sao-joao-bosco/",
+    "data": "2023-03",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania Sul. Horários do quadro da diocese (2026); contatos da página da paróquia (2023)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Água Boa",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Água Boa",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora das Graças",
+    "tipo": "comunidade",
+    "cidade": "Água Boa",
+    "localidade": "Universitário",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Bom Jesus",
+    "tipo": "comunidade",
+    "cidade": "Água Boa",
+    "localidade": "Guarujá",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Água Boa",
+    "localidade": "Vila Nova",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesebarradogarcas.org.br/horarios-de-missa/",
+    "data": "2026-08",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania Norte. Horários do quadro da diocese (2026). Sem página de contatos no site da diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "Cocalinho",
+  "padroeiro": "São Sebastião",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Sebastião",
+    "tipo": "matriz",
+    "cidade": "Cocalinho",
+    "localidade": "Centro",
+    "endereco": "Avenida Araguaia, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São José",
+    "tipo": "capela",
+    "cidade": "Cocalinho",
+    "localidade": "Alto Cocalinho",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesebarradogarcas.org.br/horarios-de-missa/",
+    "data": "2026-07",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesebarradogarcas.org.br/paroquia-sao-sebastiao-cocalinho/",
+    "data": "2023-03",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania Norte. Horários do quadro da diocese (2026); endereço da página da paróquia (2023)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Nazaré",
+  "categoria": "paroquia",
+  "cidade": "Nova Nazaré",
+  "padroeiro": "Nossa Senhora de Nazaré",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora de Nazaré",
+    "tipo": "matriz",
+    "cidade": "Nova Nazaré",
+    "localidade": "Centro",
+    "endereco": "Rua Frei Agustinni, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesebarradogarcas.org.br/horarios-de-missa/",
+    "data": "2026-09",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesebarradogarcas.org.br/paroquia-nossa-senhora-de-nazare/",
+    "data": "2023-03",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania Norte. Horários do quadro da diocese (2026); endereço da página da paróquia (2023)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Auxiliadora",
+  "categoria": "paroquia",
+  "cidade": "Canarana",
+  "padroeiro": "Nossa Senhora Auxiliadora",
+  "contatos": {
+   "telefone": "6634781220",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiacanarana@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Auxiliadora",
+    "tipo": "matriz",
+    "cidade": "Canarana",
+    "localidade": "",
+    "endereco": "Rua Miraguai",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Sem lugar na fonte: São Miguel Arcanjo (sábado 18h), Nossa Senhora Aparecida (3ª quarta 19h), Nossa Senhora das Graças (2ª quarta 19h), São Luís Guanella (4ª terça 19h30), São Francisco (domingo 18h), Nossa Senhora de La Salette (2º domingo 8h), Divino Pai Eterno (domingo 7h)."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Luzia",
+    "tipo": "comunidade",
+    "cidade": "Canarana",
+    "localidade": "Garapu II",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Fátima",
+    "tipo": "comunidade",
+    "cidade": "Canarana",
+    "localidade": "Culuene",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade do Auto Posto Marajó",
+    "tipo": "comunidade",
+    "cidade": "Canarana",
+    "localidade": "Auto Posto Marajó",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade do Assentamento Pequi",
+    "tipo": "comunidade",
+    "cidade": "Canarana",
+    "localidade": "Assentamento Pequi",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade da Fazenda Cocal",
+    "tipo": "comunidade",
+    "cidade": "Canarana",
+    "localidade": "Fazenda Cocal",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Vale Verde",
+    "tipo": "comunidade",
+    "cidade": "Canarana",
+    "localidade": "Vale Verde",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade da Fazenda Stella",
+    "tipo": "comunidade",
+    "cidade": "Canarana",
+    "localidade": "Fazenda Stella",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesebarradogarcas.org.br/horarios-de-missa/",
+    "data": "2026-10",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesebarradogarcas.org.br/paroquia-nossa-senhora-auxiliadora-2/",
+    "data": "2023-03",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania Norte. Horários do quadro da diocese (2026); contatos da página da paróquia (2023)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "Nova Xavantina",
+  "padroeiro": "São Sebastião",
+  "contatos": {
+   "telefone": "6634381508",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "capela_s@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Sebastião",
+    "tipo": "matriz",
+    "cidade": "Nova Xavantina",
+    "localidade": "",
+    "endereco": "Rua São Luiz",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Comunidades rurais conforme a escala da semana."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Nova Xavantina",
+    "localidade": "Estilac",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora da Guia",
+    "tipo": "capela",
+    "cidade": "Nova Xavantina",
+    "localidade": "Jardim Tropical",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Miguel Arcanjo",
+    "tipo": "capela",
+    "cidade": "Nova Xavantina",
+    "localidade": "Tonetto",
+    "endereco": "Rua Araras",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesebarradogarcas.org.br/horarios-de-missa/",
+    "data": "2026-07",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesebarradogarcas.org.br/paroquia-sao-sebastiao/",
+    "data": "2023-03",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania Norte. Horários do quadro da diocese (2026); bairros das capelas e contatos da página da paróquia (2023)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Santuário Diocesano Nossa Senhora das Graças",
+  "categoria": "santuario",
+  "cidade": "Nova Xavantina",
+  "padroeiro": "Nossa Senhora das Graças",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário Diocesano Nossa Senhora das Graças",
+    "tipo": "santuario",
+    "cidade": "Nova Xavantina",
+    "localidade": "Centro",
+    "endereco": "Rua Leonardo Vilas Boas, 251",
+    "horarios": [
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "05:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Comunidades rurais: Fazenda Viena (1ª quarta 7h), Fazenda Jaó (última sexta 19h); as demais com horário agendado na secretaria."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Cristóvão",
+    "tipo": "capela",
+    "cidade": "Nova Xavantina",
+    "localidade": "Vale da Serra",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "16:00",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São José",
+    "tipo": "capela",
+    "cidade": "Nova Xavantina",
+    "localidade": "Deus é Amor",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Auxiliadora",
+    "tipo": "capela",
+    "cidade": "Nova Xavantina",
+    "localidade": "Xavantina Velha",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Indianópolis",
+    "tipo": "comunidade",
+    "cidade": "Nova Xavantina",
+    "localidade": "Indianópolis",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Bom Jesus",
+    "tipo": "capela",
+    "cidade": "Nova Xavantina",
+    "localidade": "Centro Oeste",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesebarradogarcas.org.br/horarios-de-missa/",
+    "data": "2026-07",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesebarradogarcas.org.br/paroquia-sao-sebastiao/",
+    "data": "2023-03",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania Norte. Paróquia e santuário diocesano. Horários do quadro da diocese (2026); endereço e bairros das capelas da página da Paróquia São Sebastião (2023), quando elas ainda eram listadas lá."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sagrado Coração de Jesus",
+  "categoria": "paroquia",
+  "cidade": "General Carneiro",
+  "padroeiro": "Sagrado Coração de Jesus",
+  "contatos": {
+   "telefone": "66996835299",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "pscjesusmeruri@diocesebarradogarcas.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Sagrado Coração de Jesus",
+    "tipo": "matriz",
+    "cidade": "General Carneiro",
+    "localidade": "Aldeia Meruri",
+    "endereco": "BR-070, km 112",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Atende as aldeias Garças, Nabure Eiao, Koge Ekureu e Meri Ore Eda e as fazendas quando solicitado (página de 2023)."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "General Carneiro",
+    "localidade": "Paredão Grande",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesebarradogarcas.org.br/horarios-de-missa/",
+    "data": "2026-09",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesebarradogarcas.org.br/paroquia-sagrado-coracao-de-jesus-meruri/",
+    "data": "2023-03",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania Indígena. Paróquia do povo Bororo em Meruri e Paredão, Salesianos. Horários do quadro da diocese (2026); contatos da página da paróquia (2023)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José",
+  "categoria": "paroquia",
+  "cidade": "General Carneiro",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José",
+    "tipo": "matriz",
+    "cidade": "General Carneiro",
+    "localidade": "Sangradouro",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade da Aldeia Tsorepré",
+    "tipo": "comunidade",
+    "cidade": "General Carneiro",
+    "localidade": "Aldeia Tsorepré",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade da Aldeia São Jerônimo",
+    "tipo": "comunidade",
+    "cidade": "General Carneiro",
+    "localidade": "Aldeia São Jerônimo",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade da Aldeia Nossa Senhora da Guia",
+    "tipo": "comunidade",
+    "cidade": "General Carneiro",
+    "localidade": "Aldeia Nossa Senhora da Guia",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade da Aldeia Abelhinha",
+    "tipo": "comunidade",
+    "cidade": "General Carneiro",
+    "localidade": "Aldeia Abelhinha",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade da Aldeia Nossa Senhora Auxiliadora",
+    "tipo": "comunidade",
+    "cidade": "General Carneiro",
+    "localidade": "Aldeia Nossa Senhora Auxiliadora",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesebarradogarcas.org.br/horarios-de-missa/",
+    "data": "2026-09",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania Indígena. Missão de Sangradouro (povo Xavante). Horários do quadro da diocese (2026); sem contatos publicados."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Auxiliadora",
+  "categoria": "paroquia",
+  "cidade": "Barra do Garças",
+  "padroeiro": "Nossa Senhora Auxiliadora",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Auxiliadora",
+    "tipo": "matriz",
+    "cidade": "Barra do Garças",
+    "localidade": "São Marcos",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": "Terço às 17h30"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": "Terço às 17h30"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": "Terço às 17h30"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": "Terço às 17h30"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": "Terço às 17h30"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "As demais comunidades (aldeias) são atendidas pelos padres sem horário fixo."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesebarradogarcas.org.br/horarios-de-missa/",
+    "data": "2026-09",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania Indígena. Missão de São Marcos (Terra Indígena São Marcos, povo Xavante). Horários do quadro da diocese (2026); sem contatos publicados."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Domingos Sávio",
+  "categoria": "paroquia",
+  "cidade": "Nova Xavantina",
+  "padroeiro": "São Domingos Sávio",
+  "contatos": {
+   "telefone": "66999991182",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Casa Beato Filipe Rinaldi",
+    "tipo": "matriz",
+    "cidade": "Nova Xavantina",
+    "localidade": "Xavantina Velha",
+    "endereco": "Praça Dom Bosco, 10",
+    "horarios": [],
+    "nao_cabe": "Paróquia pessoal e itinerante do povo Xavante."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesebarradogarcas.org.br/paroquias/",
+    "data": "2025-08",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://dioceseprimaveraptga.com.br/local/paroquia-missionaria-itinerante-sao-domingos-savio/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania Indígena. Paróquia Pessoal do Povo Xavante, criada em 2013; a Diocese de Primavera do Leste-Paranatinga também a lista (Paróquia Missionária Itinerante, Forania Diác. Wilton Alves), e é de lá o endereço e o telefone. Sem horário publicado: a missa segue o roteiro das aldeias."
+ }
+]
