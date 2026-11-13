@@ -92,7 +92,8 @@ Sites próprios que não abriram em 13/11/2026: catedral-limeira.com.br,
 nossasenhoradorosario.net.br, saofranciscoararas.com.br,
 saobeneditoparoquia.com.br; basilicapatrocinio.com.br só mostra um índice de
 pastas; paroquianossasenhora.com.br redireciona para página de domínio à
-venda (esses dois ficaram de fora do campo `site`).
+venda (esses dois ficaram de fora do campo `site`; os quatro primeiros
+ficaram como a diocese publica, para reconferir).
 
 ## Contatos
 
