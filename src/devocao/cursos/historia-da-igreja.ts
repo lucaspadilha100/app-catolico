@@ -228,7 +228,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "O Concílio Vaticano II" },
         {
           texto:
-            "Em 25 de janeiro de 1959, São João XXIII anunciou um novo concílio, para que a Igreja apresentasse a fé de sempre de um modo que o mundo de hoje pudesse entender. O Concílio Vaticano II foi aberto em 11 de outubro de 1962, reuniu mais de dois mil bispos do mundo inteiro e foi encerrado por São Paulo VI em 8 de dezembro de 1965. Os seus quatro grandes documentos tratam da liturgia, da Igreja, da revelação divina e da Igreja no mundo de hoje. O concílio permitiu a missa na língua de cada povo, abriu mais a Bíblia aos fiéis, lembrou que todos os batizados são chamados à santidade (CIC 2013) e abriu o diálogo com os outros cristãos, com os judeus e com as outras religiões.",
+            "Em 25 de janeiro de 1959, São João XXIII anunciou um novo concílio, para que a Igreja apresentasse a fé de sempre de um modo que o mundo de hoje pudesse entender. O Concílio Vaticano II foi aberto em 11 de outubro de 1962, reuniu mais de dois mil bispos do mundo inteiro e foi encerrado por São Paulo VI em 8 de dezembro de 1965. Os seus quatro grandes documentos tratam da liturgia, da Igreja, da revelação divina e da Igreja no mundo de hoje. O concílio permitiu a missa na língua de cada povo, pedindo ao mesmo tempo que se conservasse o latim nos ritos latinos (Sacrosanctum Concilium, 36), abriu mais a Bíblia aos fiéis, lembrou que todos os batizados são chamados à santidade (CIC 2013) e abriu o diálogo com os outros cristãos, com os judeus e com as outras religiões.",
         },
         {
           texto:

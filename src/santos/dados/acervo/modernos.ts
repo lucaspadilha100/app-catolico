@@ -418,11 +418,11 @@ const acervo: AcervoDeSantos = {
       situacao: "santo",
       pais: "El Salvador",
       nomes: ["Óscar"],
-      resumo: "Arcebispo de San Salvador, morto enquanto celebrava a missa, por defender os pobres.",
+      resumo: "Arcebispo de San Salvador, pastor dos pobres, morto enquanto celebrava a missa e reconhecido pela Igreja como mártir.",
       historia: [
         "Óscar Arnulfo Romero nasceu em Ciudad Barrios, em El Salvador, em 15 de agosto de 1917. Estudou em Roma e foi ordenado padre em 1942. Por muitos anos foi pároco, secretário da diocese de San Miguel e depois bispo, conhecido como homem de oração, estudioso e prudente.",
         "Em fevereiro de 1977 tornou-se arcebispo de San Salvador, num tempo de grande violência no país. Poucas semanas depois foi assassinado o padre jesuíta Rutilio Grande, seu amigo, que trabalhava com os camponeses. A partir daí, Romero passou a denunciar com coragem as mortes, os desaparecimentos e a injustiça contra os pobres. As suas homilias eram transmitidas pelo rádio e ouvidas em todo o país. Pedia o fim da repressão e falava em nome de quem não tinha voz.",
-        "Foi morto com um tiro em 24 de março de 1980, enquanto celebrava a missa na capela de um hospital para doentes de câncer, em San Salvador. Foi beatificado em 2015 e canonizado pelo Papa Francisco em 14 de outubro de 2018.",
+        "Foi morto com um tiro em 24 de março de 1980, enquanto celebrava a missa na capela de um hospital para doentes de câncer, em San Salvador. Em 2015 a Igreja reconheceu que ele foi morto por ódio à fé e o beatificou como mártir. Foi canonizado pelo Papa Francisco em 14 de outubro de 2018.",
       ],
     },
     {

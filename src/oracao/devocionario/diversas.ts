@@ -130,7 +130,7 @@ const ORACOES: OracaoDoDevocionario[] = [
     origem: "Texto da equipe do app",
     pt: [
       "Senhor, dono de toda autoridade, nós vos pedimos pelos que governam em nosso nome.",
-      "Dai-lhes sabedoria para decidir, honestidade para administrar e compaixão para olhar primeiro os mais pobres. Afastai deles a corrupção, a vaidade e a sede de poder, e lembrai-lhes que um dia prestarão contas a vós.",
+      "Dai-lhes sabedoria para decidir, honestidade para administrar, coragem para defender a vida humana e a família, e compaixão para olhar primeiro os mais pobres. Afastai deles a corrupção, a vaidade e a sede de poder, e lembrai-lhes que um dia prestarão contas a vós.",
       "E dai a nós, povo, a vigilância serena e a oração constante, para que tenhamos uma vida calma e tranquila, com toda piedade e dignidade. Por Cristo, nosso Senhor. Amém.",
     ],
   },
@@ -185,7 +185,7 @@ const ORACOES: OracaoDoDevocionario[] = [
     origem: "Texto da equipe do app",
     pt: [
       "Senhor Jesus, que nascestes pobre e dissestes que o que fazemos ao menor dos irmãos fazemos a vós, abri os meus olhos para os pobres do meu caminho.",
-      "Dai pão aos que têm fome, teto aos que dormem na rua, trabalho aos desempregados e dignidade aos humilhados. Convertei as estruturas injustas e os nossos corações acomodados.",
+      "Dai pão aos que têm fome, teto aos que dormem na rua, trabalho aos desempregados e dignidade aos humilhados. Convertei os nossos corações acomodados e as estruturas injustas.",
       "Que eu não passe adiante como o sacerdote da parábola, mas pare, cuide e reparta. E fazei-me pobre de orgulho, para ser rico de vós. Amém.",
     ],
   },

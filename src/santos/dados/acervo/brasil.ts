@@ -682,7 +682,7 @@ const acervo: AcervoDeSantos = {
       resumo: "Arcebispo de Olinda e Recife, cearense, conhecido pela defesa dos pobres e pela oração noturna.",
       historia: [
         "Helder Pessoa Câmara nasceu em Fortaleza, Ceará, em 7 de fevereiro de 1909. Foi ordenado padre em 1931. Trabalhou no Rio de Janeiro, onde foi bispo auxiliar e criou obras para os moradores das favelas. Foi um dos fundadores da Conferência Nacional dos Bispos do Brasil, a CNBB, em 1952, e participou do Concílio Vaticano II.",
-        "Em 1964 foi nomeado arcebispo de Olinda e Recife, onde ficou até 1985. Vivia de forma muito simples, numa pequena casa ao lado de uma igreja, e recebia todos. Defendeu os pobres e os direitos humanos, o que lhe trouxe perseguições e calúnias.",
+        "Em 1964 foi nomeado arcebispo de Olinda e Recife, onde ficou até 1985. Vivia de forma muito simples, numa pequena casa ao lado de uma igreja, e recebia todos. Defendeu os pobres e os direitos humanos, e por isso sofreu censura e oposição.",
         "Levantava-se de madrugada para rezar sozinho, num tempo que chamava de vigília, e escreveu muitas meditações curtas nascidas dessa oração.",
         "Morreu em Recife em 27 de agosto de 1999. Sua causa de beatificação foi aberta pela arquidiocese de Olinda e Recife com autorização da Santa Sé, e ele recebeu o título de servo de Deus.",
       ],

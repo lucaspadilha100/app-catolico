@@ -85,7 +85,7 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "Cabe ao Estado defender e promover o bem comum (CIC 1910), mas ele não é o único responsável. Cada um participa pelo seu trabalho bem feito, pela educação dos filhos e pelo respeito ao que é de todos. A praça, a escola, o posto de saúde, o ônibus e a rua são bens comuns. Hoje o mundo está tão interligado que existe também um bem comum de toda a família humana, que pede atenção aos refugiados e aos migrantes (CIC 1911). E a ordem das coisas deve estar sempre a serviço das pessoas, nunca o contrário (CIC 1912).",
+            "Cabe ao Estado defender e promover o bem comum (CIC 1910), mas ele não é o único responsável. Cada um participa pelo seu trabalho bem feito, pela educação dos filhos e pelo respeito ao que é de todos. A praça, a escola, o posto de saúde, o ônibus e a rua são bens comuns. Hoje o mundo está tão interligado que existe também um bem comum de toda a família humana, que pede atenção aos refugiados e aos migrantes (CIC 1911). Sobre a migração, o Catecismo fala aos dois lados: as nações mais ricas devem acolher, tanto quanto possível, o estrangeiro que procura segurança e sustento; as autoridades podem, em vista do bem comum, pôr condições justas à imigração; e o imigrante deve respeitar o país que o acolhe, obedecer às suas leis e contribuir para o seu bem (CIC 2241). E a ordem das coisas deve estar sempre a serviço das pessoas, nunca o contrário (CIC 1912).",
         },
         { titulo: "A solidariedade" },
         {

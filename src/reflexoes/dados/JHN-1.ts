@@ -261,7 +261,7 @@ const parte: ParteDasReflexoes = {
     },
     "JHN 6:41-51": {
       paragrafos: [
-        "Os judeus murmuram contra Jesus porque ele disse que é o pão que desceu do céu. Conhecem a sua família, sabem quem são o pai e a mãe, e não aceitam que ele tenha vindo de Deus. Jesus não discute com eles. Diz que ninguém pode vir a ele se o Pai não o trouxer, e que todos serão ensinados por Deus.",
+        "Os que o ouvem murmuram contra Jesus porque ele disse que é o pão que desceu do céu. Conhecem a sua família, sabem quem são o pai e a mãe, e não aceitam que ele tenha vindo de Deus. Jesus não discute com eles. Diz que ninguém pode vir a ele se o Pai não o trouxer, e que todos serão ensinados por Deus.",
         "Depois a revelação avança: “Eu sou o pão vivo que desceu do céu.” Os pais comeram o maná e morreram; quem comer deste pão viverá eternamente. E Jesus diz algo novo: “o pão que eu darei é a minha carne, para a vida do mundo.” Ele fala da cruz, onde vai entregar o seu corpo, e da Eucaristia, onde esse mesmo corpo se torna alimento.",
         "A murmuração nasce quando olhamos só com olhos humanos: este não é o filho de José? Também diante do sacrário podemos ver apenas pão. A fé nos faz enxergar mais, e ela é dom do Pai, que nos atrai ao Filho. Pedimos esse dom com humildade. Quem recebe o pão vivo com fé recebe a vida que não acaba.",
       ],
@@ -277,7 +277,7 @@ const parte: ParteDasReflexoes = {
     },
     "JHN 6:51-58": {
       paragrafos: [
-        "Na festa do Corpo e Sangue de Cristo, ouvimos o centro do discurso do Pão da Vida: “o pão que eu darei é a minha carne, para a vida do mundo.” Os judeus discutem entre si: como pode ele dar a sua carne a comer? Jesus não suaviza; insiste: quem não comer a carne do Filho do Homem e não beber o seu sangue não terá vida em si.",
+        "Na festa do Corpo e Sangue de Cristo, ouvimos o centro do discurso do Pão da Vida: “o pão que eu darei é a minha carne, para a vida do mundo.” Os ouvintes discutem entre si: como pode ele dar a sua carne a comer? Jesus não suaviza; insiste: quem não comer a carne do Filho do Homem e não beber o seu sangue não terá vida em si.",
         "Ele afirma: “a minha carne é verdadeiramente comida, e o meu sangue é verdadeiramente bebida.” A Igreja crê que na Eucaristia Cristo está presente de modo verdadeiro, real e substancial, com o seu Corpo e Sangue, alma e divindade (CIC 1374). Pela consagração, o pão e o vinho se tornam o Corpo e o Sangue do Senhor; é o que a Igreja chama de transubstanciação (CIC 1376). Não é apenas um símbolo: é o próprio Cristo.",
         "Quem come deste pão permanece em Cristo, e Cristo nele. A Comunhão nos une ao Senhor e entre nós, e é penhor da ressurreição: “eu o ressuscitarei no último dia.” Por isso adoramos o Santíssimo Sacramento, dentro e fora da Missa, e o levamos em procissão pelas ruas (CIC 1378). Que o nosso respeito ao comungar mostre aquilo em que cremos.",
       ],
@@ -341,7 +341,7 @@ const parte: ParteDasReflexoes = {
     },
     "JHN 8:21-30": {
       paragrafos: [
-        "Jesus diz que vai partir e que, para onde vai, eles não podem ir. Os judeus não entendem e chegam a pensar que ele vai se matar. Jesus explica que eles são daqui de baixo, e ele é lá de cima. E avisa com seriedade: “se não crerdes em quem eu sou, morrereis no vosso pecado.”",
+        "Jesus diz que vai partir e que, para onde vai, eles não podem ir. Os que o ouvem não entendem e chegam a pensar que ele vai se matar. Jesus explica que eles são daqui de baixo, e ele é lá de cima. E avisa com seriedade: “se não crerdes em quem eu sou, morrereis no vosso pecado.”",
         "Perguntam-lhe: “Quem és tu?” A resposta mais clara vem em seguida: “Quando tiverdes levantado o Filho do Homem, então conhecereis quem eu sou”. É na cruz, dando a vida, que Jesus revela ser portador do nome divino (CIC 211). Ali se vê o seu amor e a sua união com o Pai, que não o deixa sozinho, porque ele sempre faz o que agrada ao Pai. Muitos, ouvindo isso, creram nele.",
         "A Igreja nos convida a olhar para a cruz e aprender quem é Jesus. Diante dele, o pecado não tem a última palavra, se cremos e nos deixamos salvar. E podemos pedir a graça de viver como o Filho: procurando fazer o que agrada a Deus, certos de que ele não nos deixa sozinhos.",
       ],
@@ -357,7 +357,7 @@ const parte: ParteDasReflexoes = {
     },
     "JHN 8:51-59": {
       paragrafos: [
-        "Jesus promete: “se alguém guardar a minha palavra, jamais verá a morte.” Os judeus reagem com escândalo. Abraão morreu, os profetas morreram; quem ele pensa que é? Jesus responde que não busca a própria glória: é o Pai quem o glorifica. E diz que Abraão desejou ver o seu dia e se alegrou.",
+        "Jesus promete: “se alguém guardar a minha palavra, jamais verá a morte.” Os que o ouvem reagem com escândalo. Abraão morreu, os profetas morreram; quem ele pensa que é? Jesus responde que não busca a própria glória: é o Pai quem o glorifica. E diz que Abraão desejou ver o seu dia e se alegrou.",
         "Zombam dele: não tem nem cinquenta anos e viu Abraão? Então Jesus diz: “antes que Abraão fosse feito, eu sou.” Ele não diz que era, mas que é, e assim lembra o nome com que Deus se revelou a Moisés. Só a identidade divina de Jesus explica uma palavra assim (CIC 590): ele é eterno, Deus com o Pai. Por isso pegam em pedras para atirar nele.",
         "Jesus não é apenas um grande homem do passado. Ele é, hoje e sempre. A sua palavra dá a quem a guarda uma vida que a morte não destrói. Perto da Paixão, vemos crescer a rejeição contra ele. Pedimos a graça de guardar a sua palavra com fidelidade.",
       ],
@@ -389,7 +389,7 @@ const parte: ParteDasReflexoes = {
     },
     "JHN 10:22-30": {
       paragrafos: [
-        "É inverno, festa da Dedicação, e Jesus anda pelo alpendre de Salomão, no Templo. Os judeus o cercam e exigem uma resposta clara: ele é ou não é o Cristo? Jesus diz que já respondeu, e que as obras que faz em nome do Pai dão testemunho dele. O problema não é falta de provas, mas falta de fé.",
+        "É inverno, festa da Dedicação, e Jesus anda pelo alpendre de Salomão, no Templo. Alguns o cercam e exigem uma resposta clara: ele é ou não é o Cristo? Jesus diz que já respondeu, e que as obras que faz em nome do Pai dão testemunho dele. O problema não é falta de provas, mas falta de fé.",
         "Depois fala das suas ovelhas: ouvem a sua voz, ele as conhece, elas o seguem. Ele lhes dá a vida eterna, e ninguém as arrebatará da sua mão, nem da mão do Pai. E Jesus revela a razão dessa segurança: “Eu e o Pai somos uma só coisa.” A mão do Filho e a mão do Pai guardam juntas o rebanho.",
         "Não basta pedir provas a Jesus; é preciso escutá-lo e segui-lo. Quem faz isso descobre uma segurança que não depende das circunstâncias. Podemos passar por perigos e tentações, mas ninguém pode nos arrancar das mãos de Deus. Só nós podemos nos afastar dele, e mesmo assim ele vem nos buscar.",
       ],
@@ -405,7 +405,7 @@ const parte: ParteDasReflexoes = {
     },
     "JHN 10:31-42": {
       paragrafos: [
-        "Os judeus pegam pedras para atirar em Jesus. Ele pergunta por qual de suas obras boas querem apedrejá-lo. A resposta é clara: não é por obra nenhuma, mas porque, sendo homem, ele se faz Deus. Eles entenderam bem o que Jesus dizia de si, mas não quiseram crer.",
+        "Os que discutiam com ele pegam pedras para atirar em Jesus. Ele pergunta por qual de suas obras boas querem apedrejá-lo. A resposta é clara: não é por obra nenhuma, mas porque, sendo homem, ele se faz Deus. Eles entenderam bem o que Jesus dizia de si, mas não quiseram crer.",
         "Jesus lembra um salmo que chama de deuses aqueles a quem a palavra de Deus foi dirigida. Se a Escritura diz isso deles, como acusar de blasfêmia aquele que o Pai santificou e enviou ao mundo? E aponta de novo para as obras: se não querem crer nas suas palavras, creiam nas obras, para conhecer que o Pai está nele e ele no Pai. Então Jesus se retira para o outro lado do Jordão, onde João batizava, e ali muitos creram nele.",
         "A Paixão se aproxima, e a rejeição cresce. Mas há também os que se lembram do que João disse e encontram Jesus num lugar afastado. Às vezes é longe do barulho que a fé amadurece. Vale buscar o nosso Jordão: um tempo de silêncio para olhar as obras de Deus na nossa vida e crer.",
       ],
