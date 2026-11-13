@@ -461,7 +461,11 @@ participa acompanha no celular, ao vivo, pelo link ou pelo QR code.
 
 ### Leva 38. Minhas paróquias e saneamento do RN ✅ (pedido do dono, 13/11/2026)
 - ✅ Até 5 paróquias favoritas ("Minha paróquia" na página da igreja vira alternância): o Hoje mostra a próxima missa de cada uma, e Missas lista todas com os horários; quem já tinha uma escolhida continua com ela
-- ✅ "Ou é paróquia ou é capela": área pastoral, área missionária e quase-paróquia viraram Paróquia (nome e tipo), migração `20261210000100`
+- ✅ "Nome simples, rótulo verdadeiro" (decisão do dono, 13/11/2026): as 18 áreas
+  pastorais/missionárias e quase-paróquias do RN são unidades autônomas da própria
+  cidade (nenhuma é capela de outra paróquia); o nome vira "Igreja de ..." e o tipo
+  volta ao que a diocese declara, que aparece no subtítulo da página da igreja
+  (migrações `20261210000100` e `20261210000200`)
 - ✅ `fonte_oficial` em `paroquias` (só o admin muda; gatilho protege): marcada para quem tem nota de confiança alta (página da arquidiocese ou diocese); a fila "Conferir" do Painel deixa de mostrar essas, com o selo "fonte oficial" na lista
 
 ### Leva 37. Divulgação contínua ✅ (as ideias aprovadas em 13/11/2026)

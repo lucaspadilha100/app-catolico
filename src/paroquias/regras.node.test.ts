@@ -217,7 +217,7 @@ describe("dados de Natal (planilha do Missas.com.br)", () => {
     expect(rn.rows[0]).toEqual({ igrejas: 805, cidades: 165 });
     const caico = await c("anon", null, "select count(*)::int as n from public.buscar_paroquias('catedral sant ana caico')");
     expect(Number(caico.rows[0]!.n)).toBeGreaterThan(0);
-    const corrigidas = await banco.query("select cidade from public.paroquias where id = any($1::uuid[]) and nome like 'Paróquia de Nossa Senhora d%' order by cidade", [DA_PLANILHA]);
+    const corrigidas = await banco.query("select cidade from public.paroquias where id = any($1::uuid[]) and nome like 'Igreja de Nossa Senhora d%' order by cidade", [DA_PLANILHA]);
     expect(corrigidas.rows.map((x) => (x as { cidade: string }).cidade)).toContain("Ceará-Mirim");
     await expect(c("anon", null, "select * from public.notas_paroquia")).rejects.toThrow();
     const h = await c("anon", null, "select tipo, count(*)::int as n from public.horarios group by tipo order by tipo");
@@ -246,8 +246,12 @@ describe("dados de Natal (planilha do Missas.com.br)", () => {
     expect(Number(ligadas.rows[0]!.n)).toBeGreaterThan(500);
     const comParoquiaNoNome = await c("anon", null, "select nome from public.paroquias where uf = 'RN' and nome ~ '\\((Par[oó]quia|[ÁA]rea|Quase)'");
     expect(comParoquiaNoNome.rows).toEqual([]);
-    const areas = await c("anon", null, "select count(*)::int as n from public.paroquias where tipo in ('area_missionaria', 'area_pastoral', 'quase_paroquia') or nome ~ '^(Área|Quase)'");
+    const comCategoriaNoNome = await c("anon", null, "select count(*)::int as n from public.paroquias where nome ~ '^(Área|Quase)'");
+    expect(comCategoriaNoNome.rows[0]).toEqual({ n: 0 });
+    const areas = await c("anon", null, "select count(*)::int as n from public.paroquias where tipo in ('area_missionaria', 'area_pastoral', 'quase_paroquia') and nome not like 'Igreja%'");
     expect(areas.rows[0]).toEqual({ n: 0 });
+    const igrejas = await banco.query("select count(*)::int as n from public.paroquias where tipo in ('area_missionaria', 'area_pastoral', 'quase_paroquia')");
+    expect(igrejas.rows[0]).toEqual({ n: 18 });
     const oficiais = await banco.query("select count(*)::int as n from public.paroquias where fonte_oficial");
     const altas = await banco.query("select count(*)::int as n from public.notas_paroquia where confianca = 'alta'");
     expect(oficiais.rows[0]).toEqual(altas.rows[0]);
