@@ -1,0 +1,2182 @@
+[
+ {
+  "id_banco": null,
+  "nome": "Catedral de Sant'Ana",
+  "categoria": "catedral",
+  "cidade": "Tianguá",
+  "padroeiro": "Sant'Ana",
+  "contatos": {
+   "telefone": "8893516518",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "secretariaparoquiasantana@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Catedral de Sant'Ana",
+    "tipo": "matriz",
+    "cidade": "Tianguá",
+    "localidade": "Centro",
+    "endereco": "Rua 31 de Julho, 585",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedetiangua.org/paroquia/sé-catedral-paróquia-de-santana-tianguá-ce",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedetiangua.org/horarios-de-missas",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Catedral desde 1971; sede da paróquia de Sant'Ana."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Pedro",
+  "categoria": "paroquia",
+  "cidade": "Ibiapina",
+  "padroeiro": "São Pedro",
+  "contatos": {
+   "telefone": "88920011864",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquia-pedro@bol.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Pedro",
+    "tipo": "matriz",
+    "cidade": "Ibiapina",
+    "localidade": "Centro",
+    "endereco": "Rua Mons. Melo, 419",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Igreja de São Francisco",
+    "tipo": "capela",
+    "cidade": "Ibiapina",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Dia 18 de cada mês às 7h"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedetiangua.org/paroquia/paróquia-são-pedro-ibiapina",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedetiangua.org/horarios-de-missas",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "O site da diocese não publica missa de domingo na matriz."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Pedro",
+  "categoria": "paroquia",
+  "cidade": "Tianguá",
+  "padroeiro": "São Pedro",
+  "contatos": {
+   "telefone": "88993653934",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "saopedrotiangua@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Pedro",
+    "tipo": "matriz",
+    "cidade": "Tianguá",
+    "localidade": "",
+    "endereco": "Rua Antonio Nunes de Menezes, 35",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "11:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedetiangua.org/paroquia/paróquia-são-pedro-tianguá",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedetiangua.org/horarios-de-missas",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Criada em 2016."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São José de Ubajara",
+  "categoria": "paroquia",
+  "cidade": "Ubajara",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "8836341235",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiadeubajara@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José",
+    "tipo": "matriz",
+    "cidade": "Ubajara",
+    "localidade": "Centro",
+    "endereco": "Rua José Vasconcelos, 82",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedetiangua.org/paroquia/paróquia-de-são-josé-de-ubajara",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedetiangua.org/horarios-de-missas",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Área Missionária Nossa Senhora das Graças",
+  "categoria": "area_missionaria",
+  "cidade": "Ibiapina",
+  "padroeiro": "Nossa Senhora das Graças",
+  "contatos": {
+   "telefone": "8836532054",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja de Nossa Senhora das Graças",
+    "tipo": "matriz",
+    "cidade": "Ibiapina",
+    "localidade": "Alto Lindo",
+    "endereco": "Rua Nossa Senhora das Graças, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedetiangua.org/paroquia/área-missionária-nossa-senhora-das-graças",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "O site da diocese não publica horários desta área missionária; coordenada pelas Irmãs do Instituto Jesus, Maria e José."
+ },
+ {
+  "id_banco": null,
+  "nome": "Área Missionária São Sebastião",
+  "categoria": "area_missionaria",
+  "cidade": "Viçosa do Ceará",
+  "padroeiro": "São Sebastião",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja de São Sebastião",
+    "tipo": "matriz",
+    "cidade": "Viçosa do Ceará",
+    "localidade": "Juá dos Vieiras",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedetiangua.org/horarios-de-missas",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Criada em 2016; o site da diocese só publica a missa da primeira sexta-feira."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Vicente de Paulo",
+  "categoria": "paroquia",
+  "cidade": "Ubajara",
+  "padroeiro": "São Vicente de Paulo",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "psvp.araticum@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Vicente de Paulo",
+    "tipo": "matriz",
+    "cidade": "Ubajara",
+    "localidade": "Araticum",
+    "endereco": "Rua Camilo Ferreira, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedetiangua.org/paroquia/paróquia-são-vicente-de-paulo",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedetiangua.org/horarios-de-missas",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Criada em 13/07/2024, a paróquia mais nova da diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Assunção",
+  "categoria": "paroquia",
+  "cidade": "Viçosa do Ceará",
+  "padroeiro": "Nossa Senhora da Assunção",
+  "contatos": {
+   "telefone": "8836321125",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Assunção",
+    "tipo": "matriz",
+    "cidade": "Viçosa do Ceará",
+    "localidade": "Centro",
+    "endereco": "Praça Clóvis Bevilácqua, 589",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedetiangua.org/paroquia/paróquia-nossa-senhora-da-assunção",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "O site da diocese não publica horários desta paróquia; matriz de 1700, tombada pelo IPHAN."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Tianguá",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "8836711708",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasantoantonio.tiangua@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Tianguá",
+    "localidade": "Santo Antônio",
+    "endereco": "Rua Antão Procópio do Nascimento, 440",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Todo dia 13, missa de Nossa Senhora de Fátima às 12h"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedetiangua.org/paroquia/paróquia-santo-antônio",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedetiangua.org/horarios-de-missas",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Criada em 2012."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Santa Luzia",
+  "categoria": "paroquia",
+  "cidade": "Viçosa do Ceará",
+  "padroeiro": "Santa Luzia",
+  "contatos": {
+   "telefone": "8836322033",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "staluziaparoquia@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Luzia",
+    "tipo": "matriz",
+    "cidade": "Viçosa do Ceará",
+    "localidade": "Oiticicas, distrito de Lambedouro",
+    "endereco": "Rua da Esperança, 330",
+    "horarios": [
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": "Missa da cura"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedetiangua.org/paroquia/paróquia-de-santa-luzia-–-oiticicas",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedetiangua.org/horarios-de-missas",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Criada em 1985."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Livramento",
+  "categoria": "paroquia",
+  "cidade": "Granja",
+  "padroeiro": "Nossa Senhora do Livramento",
+  "contatos": {
+   "telefone": "88981436514",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiadeparazinho@msn.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário de Nossa Senhora do Livramento",
+    "tipo": "santuario",
+    "cidade": "Granja",
+    "localidade": "Parazinho",
+    "endereco": "Praça Vicente Arruda, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Todo dia 18 às 19h"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedetiangua.org/paroquia/paróquia-nossa-senhora-do-livramento",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedetiangua.org/horarios-de-missas",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "A matriz é o santuário diocesano de Nossa Senhora do Livramento, no distrito de Parazinho."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Bom Jesus dos Navegantes",
+  "categoria": "paroquia",
+  "cidade": "Camocim",
+  "padroeiro": "Bom Jesus dos Navegantes",
+  "contatos": {
+   "telefone": "8836210472",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Bom Jesus dos Navegantes",
+    "tipo": "matriz",
+    "cidade": "Camocim",
+    "localidade": "",
+    "endereco": "Rua Mons. Inácio Nogueira Magalhães, 1416",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedetiangua.org/paroquia/paróquia-bom-jesus-dos-navegantes",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedetiangua.org/horarios-de-missas",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Segundo telefone no site: (88) 3621-0172."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio de Pádua",
+  "categoria": "paroquia",
+  "cidade": "Chaval",
+  "padroeiro": "Santo Antônio de Pádua",
+  "contatos": {
+   "telefone": "8836251121",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "secchaval@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Chaval",
+    "localidade": "",
+    "endereco": "Rua Padre Antonio Carneiro, 342",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Todo dia 13 às 12h; sábado às 7h no Patronato Monsenhor Carneiro"
+   },
+   {
+    "id_banco": null,
+    "nome": "Gruta de Nossa Senhora de Lourdes",
+    "tipo": "santuario",
+    "cidade": "Chaval",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedetiangua.org/paroquia/paróquia-santo-antonio-de-pádua",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedetiangua.org/horarios-de-missas",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Santa Luzia",
+  "categoria": "paroquia",
+  "cidade": "Granja",
+  "padroeiro": "Santa Luzia",
+  "contatos": {
+   "telefone": "88981554260",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasantaluziat@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Luzia",
+    "tipo": "matriz",
+    "cidade": "Granja",
+    "localidade": "Timonha",
+    "endereco": "Rua 13 de Dezembro, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Quinta-feira, adoração ao Santíssimo durante o dia"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Nossa Senhora da Conceição",
+    "tipo": "comunidade",
+    "cidade": "Granja",
+    "localidade": "Ubatuba",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de São Sebastião",
+    "tipo": "comunidade",
+    "cidade": "Granja",
+    "localidade": "Adrianópolis",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Granja",
+    "localidade": "Ibuaçú",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedetiangua.org/paroquia/paróquia-santa-luzia-timonha",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedetiangua.org/horarios-de-missas",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Timonha é distrito de Granja; paróquia criada em 1985."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São Francisco das Chagas",
+  "categoria": "paroquia",
+  "cidade": "Camocim",
+  "padroeiro": "São Francisco das Chagas",
+  "contatos": {
+   "telefone": "88992918154",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "psaofranciscodaschagas@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Francisco das Chagas",
+    "tipo": "matriz",
+    "cidade": "Camocim",
+    "localidade": "São Francisco",
+    "endereco": "Rua Antônio Zeferino Veras, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São José",
+    "tipo": "capela",
+    "cidade": "Camocim",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora de Fátima",
+    "tipo": "capela",
+    "cidade": "Camocim",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Bernadete",
+    "tipo": "comunidade",
+    "cidade": "Camocim",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Terezinha",
+    "tipo": "capela",
+    "cidade": "Camocim",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedetiangua.org/paroquia/paróquia-de-são-francisco-das-chagas",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedetiangua.org/horarios-de-missas",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Criada em 2016; confiada aos frades capuchinhos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Área Missionária Santa Terezinha",
+  "categoria": "area_missionaria",
+  "cidade": "Granja",
+  "padroeiro": "Santa Terezinha",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja de Santa Terezinha",
+    "tipo": "matriz",
+    "cidade": "Granja",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedetiangua.org/regiao-episcopal-norte",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Criada em 2017; o site da diocese não publica horários nem contatos e o anuário GCatholic não a traz."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora dos Navegantes",
+  "categoria": "paroquia",
+  "cidade": "Barroquinha",
+  "padroeiro": "Nossa Senhora dos Navegantes",
+  "contatos": {
+   "telefone": "8836231284",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora dos Navegantes",
+    "tipo": "matriz",
+    "cidade": "Barroquinha",
+    "localidade": "",
+    "endereco": "Praça Acadêmico Delmiro Veras Neto, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedetiangua.org/paroquia/paróquia-nossa-senhora-dos-navegantes",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedetiangua.org/horarios-de-missas",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José",
+  "categoria": "paroquia",
+  "cidade": "Granja",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "88999398174",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "paroquiasaojosedegranja.com.br",
+   "email": "contato@paroquiasaojosedegranja.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José",
+    "tipo": "matriz",
+    "cidade": "Granja",
+    "localidade": "Centro",
+    "endereco": "Rua Livio Barreto, 450",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Sexta-feira às 19h nas comunidades"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Granja",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedetiangua.org/paroquia/paróquia-são-josé-granja",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedetiangua.org/horarios-de-missas",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Criada em 1759, a mais antiga da região norte da diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora das Dores",
+  "categoria": "paroquia",
+  "cidade": "Croatá",
+  "padroeiro": "Nossa Senhora das Dores",
+  "contatos": {
+   "telefone": "8836591602",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "nossasenhoradasdorescroatace.webnode.com",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora das Dores",
+    "tipo": "matriz",
+    "cidade": "Croatá",
+    "localidade": "",
+    "endereco": "Praça da Matriz, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa do Apostolado da Oração"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa do Movimento Sacerdotal Mariano"
+     }
+    ],
+    "nao_cabe": "Terças, sextas e sábados nas comunidades da zona rural"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedetiangua.org/paroquia/paroquia-nossa-senhora-das-dores",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedetiangua.org/horarios-de-missas",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "O e-mail publicado no site da diocese parece truncado e ficou de fora."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora das Graças",
+  "categoria": "paroquia",
+  "cidade": "Graça",
+  "padroeiro": "Nossa Senhora das Graças",
+  "contatos": {
+   "telefone": "8836561008",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiansdasgracas@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora das Graças",
+    "tipo": "matriz",
+    "cidade": "Graça",
+    "localidade": "",
+    "endereco": "Rua Dom Coutinho, 45",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": "Com adoração ao Santíssimo"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Sexta, sábado e domingo nas comunidades da zona rural"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Vicente",
+    "tipo": "capela",
+    "cidade": "Graça",
+    "localidade": "Sede",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedetiangua.org/paroquia/paróquia-nossa-senhora-das-graças",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedetiangua.org/horarios-de-missas",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Criada em 1985."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora dos Prazeres",
+  "categoria": "paroquia",
+  "cidade": "Guaraciaba do Norte",
+  "padroeiro": "Nossa Senhora dos Prazeres",
+  "contatos": {
+   "telefone": "8836521023",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "paroquiadeguaraciaba.com.br",
+   "email": "paroquiadeguaraciabadonorte@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora dos Prazeres",
+    "tipo": "matriz",
+    "cidade": "Guaraciaba do Norte",
+    "localidade": "Centro",
+    "endereco": "Rua Padre Bernardino Memoria, 60",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedetiangua.org/paroquia/paróquia-nossa-senhora-dos-prazeres",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedetiangua.org/horarios-de-missas",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Confiada aos Agostinianos Recoletos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Auxiliadora",
+  "categoria": "paroquia",
+  "cidade": "Carnaubal",
+  "padroeiro": "Nossa Senhora Auxiliadora",
+  "contatos": {
+   "telefone": "8896117566",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiacarnaubal2023@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Auxiliadora",
+    "tipo": "matriz",
+    "cidade": "Carnaubal",
+    "localidade": "",
+    "endereco": "Avenida Paulo Sarasate, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Missa todo dia 13 e 18 e na 3ª terça do mês; demais dias às 19h nas comunidades"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedetiangua.org/paroquia/paróquia-nossa-senhora-auxiliadora",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedetiangua.org/horarios-de-missas",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São Benedito",
+  "categoria": "paroquia",
+  "cidade": "São Benedito",
+  "padroeiro": "São Benedito",
+  "contatos": {
+   "telefone": "8836261280",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasaobeneditoce@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Benedito",
+    "tipo": "matriz",
+    "cidade": "São Benedito",
+    "localidade": "",
+    "endereco": "Praça Joaquim Bastos, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Até 12h"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Igreja de São Francisco",
+    "tipo": "capela",
+    "cidade": "São Benedito",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Carmo",
+    "tipo": "capela",
+    "cidade": "São Benedito",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedetiangua.org/paroquia/paróquia-de-são-benedito",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedetiangua.org/horarios-de-missas",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Criada em 1874."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia da Imaculada Conceição",
+  "categoria": "paroquia",
+  "cidade": "São Benedito",
+  "padroeiro": "Imaculada Conceição",
+  "contatos": {
+   "telefone": "8836263104",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "amimaculadac@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz da Imaculada Conceição",
+    "tipo": "matriz",
+    "cidade": "São Benedito",
+    "localidade": "Inhuçu",
+    "endereco": "Rua 08 de Dezembro, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedetiangua.org/paroquia/paróquia-da-imaculada-conceição",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Matriz no distrito de Inhuçu; o site da diocese não publica horários desta paróquia."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Paulo II",
+  "categoria": "paroquia",
+  "cidade": "São Benedito",
+  "padroeiro": "São João Paulo II",
+  "contatos": {
+   "telefone": "8836262664",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Paulo II",
+    "tipo": "matriz",
+    "cidade": "São Benedito",
+    "localidade": "Monsenhor Otalício",
+    "endereco": "Rua Francisco Cavalcante, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": "Com adoração ao Santíssimo"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa do Apostolado da Oração"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedetiangua.org/paroquia/paróquia-são-joão-paulo-ii",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedetiangua.org/horarios-de-missas",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Criada em 2016."
+ }
+]
