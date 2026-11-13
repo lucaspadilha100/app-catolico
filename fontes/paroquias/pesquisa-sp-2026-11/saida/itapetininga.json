@@ -1,0 +1,6837 @@
+[
+ {
+  "id_banco": null,
+  "nome": "Catedral Nossa Senhora dos Prazeres",
+  "categoria": "catedral",
+  "cidade": "Itapetininga",
+  "padroeiro": "Nossa Senhora dos Prazeres",
+  "contatos": {
+   "telefone": "1532728332",
+   "whatsapp": "15996960202",
+   "instagram": "catedraldeitapetininga",
+   "site": "",
+   "email": "nossasenhoradosprazeres@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Catedral Nossa Senhora dos Prazeres",
+    "tipo": "matriz",
+    "cidade": "Itapetininga",
+    "localidade": "Centro",
+    "endereco": "Praça Duque de Caxias",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Missa às 8h30 sem o dia da semana na fonte. Missa às 17h sem o dia da semana na fonte. Missa às 19h sem o dia da semana na fonte. Missa às 19h sem o dia da semana na fonte"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Perpétuo Socorro",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Vila Barth",
+    "endereco": "Rua Professora Leonor Ayres de Camargo, 777",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Rosário",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Centro",
+    "endereco": "Rua Venâncio Aires",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Rosa Mística",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Jardim Dayse",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Padre Pio",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Vila Aliança",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeitapetininga.org.br/paroquia/catedral-nossa-senhora-dos-prazeres/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://cdn.diocesedeitapetininga.org.br/wp-content/uploads/2024/01/Anuario-Diocesano-Digital-2024_compressed.pdf",
+    "data": "2024-01",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Parte das missas está sem o dia da semana na fonte (ver nao_cabe)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Basílica São Miguel Arcanjo",
+  "categoria": "basilica",
+  "cidade": "São Miguel Arcanjo",
+  "padroeiro": "São Miguel Arcanjo",
+  "contatos": {
+   "telefone": "1532794141",
+   "whatsapp": "15996684141",
+   "instagram": "basilicadesaomiguelarcanjo",
+   "site": "https://basilicasaomiguelarcanjo.org.br",
+   "email": "contato@basilicasaomiguelarcanjo.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Basílica São Miguel Arcanjo",
+    "tipo": "matriz",
+    "cidade": "São Miguel Arcanjo",
+    "localidade": "Centro",
+    "endereco": "Praça Tenente Urias, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "11:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 1,
+      "hora": "14:00",
+      "semanas": null,
+      "observacao": "Até 16h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 2,
+      "hora": "14:00",
+      "semanas": null,
+      "observacao": "Até 16h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "14:00",
+      "semanas": null,
+      "observacao": "Até 16h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "14:00",
+      "semanas": null,
+      "observacao": "Até 16h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": "Até 21h"
+     }
+    ],
+    "nao_cabe": "Dia 29 de cada mês (dia votivo): 9h30 coroa de São Miguel e 10h missa na Gruta do Arcanjo; 15h adoração com terço da misericórdia; 19h30 missa na Basílica. Dia 29 no sábado: sem a missa das 8h"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Imaculada Conceição",
+    "tipo": "comunidade",
+    "cidade": "São Miguel Arcanjo",
+    "localidade": "Abaitinga",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "São Miguel Arcanjo",
+    "localidade": "Brejaúva",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "São Miguel Arcanjo",
+    "localidade": "Guararema",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Penha",
+    "tipo": "comunidade",
+    "cidade": "São Miguel Arcanjo",
+    "localidade": "Capão Rico",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora das Dores",
+    "tipo": "comunidade",
+    "cidade": "São Miguel Arcanjo",
+    "localidade": "Rincão",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Cruz",
+    "tipo": "comunidade",
+    "cidade": "São Miguel Arcanjo",
+    "localidade": "Cerrado dos Touros",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Cruz",
+    "tipo": "comunidade",
+    "cidade": "São Miguel Arcanjo",
+    "localidade": "Santa Cruz dos Matos",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "São Miguel Arcanjo",
+    "localidade": "Colinas",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Batista",
+    "tipo": "comunidade",
+    "cidade": "São Miguel Arcanjo",
+    "localidade": "Vila São João",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José Operário",
+    "tipo": "comunidade",
+    "cidade": "São Miguel Arcanjo",
+    "localidade": "Cohab IV",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Roque",
+    "tipo": "comunidade",
+    "cidade": "São Miguel Arcanjo",
+    "localidade": "Lavrinha",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Roque",
+    "tipo": "comunidade",
+    "cidade": "São Miguel Arcanjo",
+    "localidade": "Turvo da Lagoa",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://basilicasaomiguelarcanjo.org.br/horarios/",
+    "data": "2026-09-02",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeitapetininga.org.br/paroquia/basilica-sao-miguel-arcanjo/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://cdn.diocesedeitapetininga.org.br/wp-content/uploads/2024/01/Anuario-Diocesano-Digital-2024_compressed.pdf",
+    "data": "2024-01",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Horários do site da própria Basílica (página editada em 02/09/2026), mais completos que os do site da diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Basílica e Santuário Nossa Senhora da Conceição",
+  "categoria": "basilica",
+  "cidade": "Tatuí",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "1533166461",
+   "whatsapp": "15991851115",
+   "instagram": "basilicaconceicao",
+   "site": "https://basilicaconceicao.com",
+   "email": "atendimento@basilicaconceicao.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Basílica e Santuário Nossa Senhora da Conceição",
+    "tipo": "santuario",
+    "cidade": "Tatuí",
+    "localidade": "Centro",
+    "endereco": "Praça da Matriz, 105",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "11:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Comunidade Recado: missa na 1ª e na 3ª sexta-feira às 19h30. Comunidades no site da diocese sem lugar informado: Comunidade Recado; Lar São Vicente de Paulo"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Bom Jesus",
+    "tipo": "comunidade",
+    "cidade": "Tatuí",
+    "localidade": "Bairro do Junqueira",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora das Graças",
+    "tipo": "comunidade",
+    "cidade": "Tatuí",
+    "localidade": "Condomínio Bosque do Junqueira",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeitapetininga.org.br/paroquia/basilica-e-santuario-nossa-senhora-da-conceicao/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://cdn.diocesedeitapetininga.org.br/wp-content/uploads/2024/01/Anuario-Diocesano-Digital-2024_compressed.pdf",
+    "data": "2024-01",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Uma só missa de domingo na fonte, pouco para a Basílica; a lista parece incompleta."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Bom Pastor",
+  "categoria": "paroquia",
+  "cidade": "Itapetininga",
+  "padroeiro": "Bom Pastor",
+  "contatos": {
+   "telefone": "15997777501",
+   "whatsapp": "15997777501",
+   "instagram": "bompastoritape",
+   "site": "",
+   "email": "paroquiabompastoritape@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Bom Pastor",
+    "tipo": "matriz",
+    "cidade": "Itapetininga",
+    "localidade": "Jardim Bela Vista",
+    "endereco": "Rua Dr. Evandro Ruivo, 340",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Cristo Rei",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Vila Sotemo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Bento",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Parque São Bento",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Judas Tadeu",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Bairro do Porto",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Domingos Gusmão",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Vila Carolina",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeitapetininga.org.br/paroquia/paroquia-bom-pastor/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://cdn.diocesedeitapetininga.org.br/wp-content/uploads/2024/01/Anuario-Diocesano-Digital-2024_compressed.pdf",
+    "data": "2024-01",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Itapetininga",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "1532728718",
+   "whatsapp": "1532710158",
+   "instagram": "paroquia_nsraaparecida",
+   "site": "",
+   "email": "p.n.s.aparecida@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Itapetininga",
+    "localidade": "Vila Camarão",
+    "endereco": "Avenida Nishimbo do Brasil, 1236",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "11:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "12:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Bom Pastor",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Vila Labrunetti",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Conceição",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Estância Conceição",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora das Graças",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Vila Nastri II",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrado Coração de Jesus",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Vila Barth II",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sant'Ana",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Campo Grande",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Cruz e São Roque",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Chapadinha",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Miguel Arcanjo",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Jardim Colombo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeitapetininga.org.br/paroquia/paroquia-nossa-senhora-aparecida/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://cdn.diocesedeitapetininga.org.br/wp-content/uploads/2024/01/Anuario-Diocesano-Digital-2024_compressed.pdf",
+    "data": "2024-01",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora das Estrelas",
+  "categoria": "paroquia",
+  "cidade": "Itapetininga",
+  "padroeiro": "Nossa Senhora das Estrelas",
+  "contatos": {
+   "telefone": "1532710848",
+   "whatsapp": "1532710844",
+   "instagram": "senhoradasestrelas",
+   "site": "",
+   "email": "p.n.sra.estrelas@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora das Estrelas",
+    "tipo": "matriz",
+    "cidade": "Itapetininga",
+    "localidade": "Centro",
+    "endereco": "Praça Cônego Blóes Neto, 333",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Imaculada Conceição",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Irmãs Beneditinas",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Teresinha",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Vila Nova",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Caetano",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Jardim Itália",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Vila Rocha",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeitapetininga.org.br/paroquia/paroquia-nossa-senhora-das-estrelas/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://cdn.diocesedeitapetininga.org.br/wp-content/uploads/2024/01/Anuario-Diocesano-Digital-2024_compressed.pdf",
+    "data": "2024-01",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora das Graças",
+  "categoria": "paroquia",
+  "cidade": "Itapetininga",
+  "padroeiro": "Nossa Senhora das Graças",
+  "contatos": {
+   "telefone": "1535374819",
+   "whatsapp": "",
+   "instagram": "paroquia_nsdasgracas",
+   "site": "",
+   "email": "nsgracas.paroquia@yahoo.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora das Graças",
+    "tipo": "matriz",
+    "cidade": "Itapetininga",
+    "localidade": "Vila Reis",
+    "endereco": "Rua Durval da Rocha Reis, 173",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Comunidades no site da diocese sem lugar informado: Cemitério São João Batista"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Divino Espírito Santo",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Vila Regina",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Jesus Misericordioso",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Jardim Leonel",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Bairro Curuçá III",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora das Dores",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Pinhal 1",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Fátima e Santo Expedito",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Vila Palmeira",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco de Assis",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Vila Mazzei",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Paulo II",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Residencial Nascente, Vila Mazzei",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Pedro",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Bairro Curuçá",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeitapetininga.org.br/paroquia/paroquia-nossa-senhora-das-gracas/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://cdn.diocesedeitapetininga.org.br/wp-content/uploads/2024/01/Anuario-Diocesano-Digital-2024_compressed.pdf",
+    "data": "2024-01",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "O site repete o e-mail e o WhatsApp da Paróquia Santa Cruz (Varginha); e-mail do anuário 2024."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Fátima",
+  "categoria": "paroquia",
+  "cidade": "Itapetininga",
+  "padroeiro": "Nossa Senhora de Fátima",
+  "contatos": {
+   "telefone": "15991431614",
+   "whatsapp": "15991431614",
+   "instagram": "paroquiansfatima_",
+   "site": "",
+   "email": "pnsfatima@outlook.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora de Fátima",
+    "tipo": "matriz",
+    "cidade": "Itapetininga",
+    "localidade": "Vila Nova Itapetininga",
+    "endereco": "Rua Pedro Orsi, 500",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "12:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Rosa Mística",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Vale San Fernando",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Edwiges",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Vila Serafim",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Pedro",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Vila Nova Itapetininga",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeitapetininga.org.br/paroquia/paroquia-nossa-senhora-de-fatima/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://cdn.diocesedeitapetininga.org.br/wp-content/uploads/2024/01/Anuario-Diocesano-Digital-2024_compressed.pdf",
+    "data": "2024-01",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sant'Ana",
+  "categoria": "paroquia",
+  "cidade": "Itapetininga",
+  "padroeiro": "Sant'Ana",
+  "contatos": {
+   "telefone": "1532752550",
+   "whatsapp": "15991375850",
+   "instagram": "paroquiasantanaitape",
+   "site": "",
+   "email": "paroquiasantana23@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Sant'Ana",
+    "tipo": "matriz",
+    "cidade": "Itapetininga",
+    "localidade": "Vila Santana",
+    "endereco": "Rua Lindolfo Machado de Albuquerque, 140",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Missa na Comunidade Madre Tereza de Calcutá (Vila Santana) às 19h30, sem o dia da semana na fonte"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Madre Tereza de Calcutá",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Vila Santana",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Inês",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Jardim Santa Inês",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Camilo",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Estrada Velha de Tatuí",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Vila Piedade",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Capão Alto",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeitapetininga.org.br/paroquia/paroquia-santana/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://cdn.diocesedeitapetininga.org.br/wp-content/uploads/2024/01/Anuario-Diocesano-Digital-2024_compressed.pdf",
+    "data": "2024-01",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Parte das missas está sem o dia da semana na fonte (ver nao_cabe)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Cruz",
+  "categoria": "paroquia",
+  "cidade": "Itapetininga",
+  "padroeiro": "Santa Cruz",
+  "contatos": {
+   "telefone": "15998199822",
+   "whatsapp": "15998199822",
+   "instagram": "santacruzitape",
+   "site": "",
+   "email": "paroquiasantacruz.itapetininga@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santa Cruz",
+    "tipo": "matriz",
+    "cidade": "Itapetininga",
+    "localidade": "Distrito da Varginha",
+    "endereco": "Rua Honório de Sales, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Bom Jesus",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Bairro do Retiro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Alto do Retiro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Bairro da Várzea",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Bairro dos Claros",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Bairro Pinheiro Alto",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Conceição",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Bairro da Conceição",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Fátima",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Bairro da Pescaria",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sant'Ana",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Bairro do Capivari",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Rita de Cássia",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Bairro do Cantagalo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Cruz e Santo Expedito",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Turvo dos Rodrigues",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio e São Francisco",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Bairro do Espigão",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Bento",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Bairro São Bento",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Batista",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Bairro do Areão",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Pedro",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Viracopos",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Roque",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Bairro São Roque",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeitapetininga.org.br/paroquia/paroquia-santa-cruz/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://cdn.diocesedeitapetininga.org.br/wp-content/uploads/2024/01/Anuario-Diocesano-Digital-2024_compressed.pdf",
+    "data": "2024-01",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "A página da paróquia no site da diocese não traz nenhum horário de missa. Matriz no Distrito da Varginha."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Rita de Cássia",
+  "categoria": "paroquia",
+  "cidade": "Itapetininga",
+  "padroeiro": "Santa Rita de Cássia",
+  "contatos": {
+   "telefone": "1532753595",
+   "whatsapp": "15996882205",
+   "instagram": "paroquiasantarita.itape",
+   "site": "",
+   "email": "paroquiasantaritaitape@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santa Rita de Cássia",
+    "tipo": "matriz",
+    "cidade": "Itapetininga",
+    "localidade": "Vila Olho d'água",
+    "endereco": "Rua Major Antônio Arruda Moraes, 57",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Menino Jesus",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Jardim Belo Horizonte",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Capão Alto",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco de Assis",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Jardim Casa Grande",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrada Família",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Bairro Rocinha",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Expedito",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Bairro Bernardes",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeitapetininga.org.br/paroquia/paroquia-santa-rita-de-cassia/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://cdn.diocesedeitapetininga.org.br/wp-content/uploads/2024/01/Anuario-Diocesano-Digital-2024_compressed.pdf",
+    "data": "2024-01",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "A página da paróquia no site da diocese não traz nenhum horário de missa."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "Itapetininga",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "1533732351",
+   "whatsapp": "15996972433",
+   "instagram": "paroquia_saojoao",
+   "site": "",
+   "email": "psjbitape@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São João Batista",
+    "tipo": "matriz",
+    "cidade": "Itapetininga",
+    "localidade": "Vila Vendramini",
+    "endereco": "Rua Antonio Avelino da Costa, 293",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Bom Jesus",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Distrito Morro do Alto",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Bairro Peixoto Gomide",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Bairro Sabiá Una",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Carmo",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Jardim Marabá",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrada Família",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Vila Prado",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Clara",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Vila Paulo Ayres",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Paulina",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Vila Célia",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Benedito",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Vila Arruda",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Cristóvão",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Jardim Mesquita",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Miguel Arcanjo e Nossa Senhora do Sorriso",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Bosque dos Pinheiros",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeitapetininga.org.br/paroquia/paroquia-sao-joao-batista/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://cdn.diocesedeitapetininga.org.br/wp-content/uploads/2024/01/Anuario-Diocesano-Digital-2024_compressed.pdf",
+    "data": "2024-01",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Paulo Apóstolo",
+  "categoria": "paroquia",
+  "cidade": "Itapetininga",
+  "padroeiro": "São Paulo Apóstolo",
+  "contatos": {
+   "telefone": "1533733915",
+   "whatsapp": "15997681000",
+   "instagram": "apostolopaullo",
+   "site": "",
+   "email": "paroquia_spa@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Paulo Apóstolo",
+    "tipo": "matriz",
+    "cidade": "Itapetininga",
+    "localidade": "Jardim Paulista",
+    "endereco": "Rua Mariana Fabiano Alves, 135",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio de Sant'Ana Galvão",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Gramados II",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco de Assis",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Taboãozinho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeitapetininga.org.br/paroquia/paroquia-sao-paulo-apostolo/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://cdn.diocesedeitapetininga.org.br/wp-content/uploads/2024/01/Anuario-Diocesano-Digital-2024_compressed.pdf",
+    "data": "2024-01",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Roque",
+  "categoria": "paroquia",
+  "cidade": "Itapetininga",
+  "padroeiro": "São Roque",
+  "contatos": {
+   "telefone": "1532713211",
+   "whatsapp": "15996773749",
+   "instagram": "paroquia_saoroque",
+   "site": "",
+   "email": "paroquiasaoroqueitape@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Roque",
+    "tipo": "matriz",
+    "cidade": "Itapetininga",
+    "localidade": "Vila Rio Branco",
+    "endereco": "Rua Padre Carlos Regatieri, 71",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Comunidades no site da diocese sem lugar informado: Casa da Criança São Vicente de Paulo"
+   },
+   {
+    "id_banco": null,
+    "nome": "Lar São Vicente de Paulo",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Asilo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Luz",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Jardim Shangrilá",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrado Coração de Jesus",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Vila Nastri I",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Lázaro",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Vila Alves",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Isabel",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Vila Santa Isabel",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeitapetininga.org.br/paroquia/paroquia-sao-roque/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://cdn.diocesedeitapetininga.org.br/wp-content/uploads/2024/01/Anuario-Diocesano-Digital-2024_compressed.pdf",
+    "data": "2024-01",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Santuário Nossa Senhora Aparecida do Sul",
+  "categoria": "santuario",
+  "cidade": "Itapetininga",
+  "padroeiro": "Nossa Senhora Aparecida do Sul",
+  "contatos": {
+   "telefone": "1532731110",
+   "whatsapp": "1535271310",
+   "instagram": "aparecidadosul",
+   "site": "",
+   "email": "paroquiaaparecidasul@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário Nossa Senhora Aparecida do Sul",
+    "tipo": "santuario",
+    "cidade": "Itapetininga",
+    "localidade": "Vila Aparecida",
+    "endereco": "Praça Nossa Senhora Aparecida, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Sagrado Coração",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Jardim Fogaça",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Joaquim e Sant'Ana",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Jardim Fogaça",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeitapetininga.org.br/paroquia/santuario-nossa-senhora-aparecida-do-sul/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://cdn.diocesedeitapetininga.org.br/wp-content/uploads/2024/01/Anuario-Diocesano-Digital-2024_compressed.pdf",
+    "data": "2024-01",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Santuário Nossa Senhora Rainha da Paz",
+  "categoria": "santuario",
+  "cidade": "Itapetininga",
+  "padroeiro": "Nossa Senhora Rainha da Paz",
+  "contatos": {
+   "telefone": "1532734188",
+   "whatsapp": "15996730829",
+   "instagram": "paroquiaesantuariorainhadapaz",
+   "site": "",
+   "email": "secretaria.anzpaz@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário Nossa Senhora Rainha da Paz",
+    "tipo": "santuario",
+    "cidade": "Itapetininga",
+    "localidade": "Jardim Marabá",
+    "endereco": "Avenida Dr. Ciro Albuquerque, 5014",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Seminário Diocesano São João Paulo II",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Jardim Marabá",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Judas Tadeu",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Monte Santo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Roque",
+    "tipo": "comunidade",
+    "cidade": "Itapetininga",
+    "localidade": "Chapada Grande",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeitapetininga.org.br/paroquia/santuario-nossa-senhora-rainha-da-paz/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://cdn.diocesedeitapetininga.org.br/wp-content/uploads/2024/01/Anuario-Diocesano-Digital-2024_compressed.pdf",
+    "data": "2024-01",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "A página da paróquia no site da diocese não traz nenhum horário de missa. Criada em 2023 (anuário 2024); o GCatholic ainda não a lista."
+ },
+ {
+  "id_banco": null,
+  "nome": "Santuário Bom Jesus",
+  "categoria": "santuario",
+  "cidade": "Alambari",
+  "padroeiro": "Bom Jesus",
+  "contatos": {
+   "telefone": "15997457207",
+   "whatsapp": "15997457207",
+   "instagram": "santuario.bomjesusalambari",
+   "site": "",
+   "email": "pbja@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário Bom Jesus",
+    "tipo": "santuario",
+    "cidade": "Alambari",
+    "localidade": "Centro",
+    "endereco": "Praça Dom Joaquim José Vieira, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "06:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrado Coração de Jesus",
+    "tipo": "comunidade",
+    "cidade": "Alambari",
+    "localidade": "Bairro Palanques",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Cruz e Mãe da Divina Providência",
+    "tipo": "comunidade",
+    "cidade": "Alambari",
+    "localidade": "Bairro Tatetu",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco de Assis",
+    "tipo": "comunidade",
+    "cidade": "Alambari",
+    "localidade": "Bairro Cerrado",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Batista",
+    "tipo": "comunidade",
+    "cidade": "Alambari",
+    "localidade": "Bairro Perobal",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Batista",
+    "tipo": "comunidade",
+    "cidade": "Alambari",
+    "localidade": "Bairro Ribeirãozinho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Roque e Santa Catarina",
+    "tipo": "comunidade",
+    "cidade": "Alambari",
+    "localidade": "Bairro Cercadinho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeitapetininga.org.br/paroquia/santuario-bom-jesus/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://cdn.diocesedeitapetininga.org.br/wp-content/uploads/2024/01/Anuario-Diocesano-Digital-2024_compressed.pdf",
+    "data": "2024-01",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Bom Jesus e São Roque",
+  "categoria": "paroquia",
+  "cidade": "Angatuba",
+  "padroeiro": "Bom Jesus e São Roque",
+  "contatos": {
+   "telefone": "15998281608",
+   "whatsapp": "15998281608",
+   "instagram": "sbjsr_bomretiro",
+   "site": "",
+   "email": "paroquiabomretiro@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Senhor Bom Jesus e São Roque",
+    "tipo": "matriz",
+    "cidade": "Angatuba",
+    "localidade": "Distrito do Bom Retiro da Esperança",
+    "endereco": "Rua Ana Januária, 49",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Missa às 19h30 sem o dia da semana na fonte. Comunidades no site da diocese sem lugar informado: São Camilo de Lellis; São Carlos Borromeu; São Francisco de Assis; São José; São Miguel Arcanjo; São Roque e Nossa Senhora Aparecida"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Imaculado Coração de Maria e Sagrado Coração de Jesus",
+    "tipo": "comunidade",
+    "cidade": "Angatuba",
+    "localidade": "Distrito Tupi",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Angatuba",
+    "localidade": "Bairro Moquém",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrada Família",
+    "tipo": "comunidade",
+    "cidade": "Angatuba",
+    "localidade": "Bairro Capim",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Cruz",
+    "tipo": "comunidade",
+    "cidade": "Angatuba",
+    "localidade": "Distrito Tupi",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio e Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Angatuba",
+    "localidade": "Distrito Rechã",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio e São José",
+    "tipo": "comunidade",
+    "cidade": "Angatuba",
+    "localidade": "Bairro Ribeirão Grande",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeitapetininga.org.br/paroquia/paroquia-bom-jesus-e-sao-roque/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://cdn.diocesedeitapetininga.org.br/wp-content/uploads/2024/01/Anuario-Diocesano-Digital-2024_compressed.pdf",
+    "data": "2024-01",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Parte das missas está sem o dia da semana na fonte (ver nao_cabe). Matriz no Distrito do Bom Retiro da Esperança."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Judas Tadeu",
+  "categoria": "paroquia",
+  "cidade": "Angatuba",
+  "padroeiro": "São Judas Tadeu",
+  "contatos": {
+   "telefone": "15996892240",
+   "whatsapp": "15996892240",
+   "instagram": "psjudastadeu",
+   "site": "",
+   "email": "paroquiasaojudastadeu2014@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Judas Tadeu",
+    "tipo": "matriz",
+    "cidade": "Angatuba",
+    "localidade": "Vila Volpi",
+    "endereco": "Praça Elisa Volpi, 101",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Missa votiva todo dia 28: 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Asilo Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Angatuba",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Angatuba",
+    "localidade": "Bairro dos Nunes",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida e São José",
+    "tipo": "comunidade",
+    "cidade": "Angatuba",
+    "localidade": "Bairro Figueira",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Conceição",
+    "tipo": "comunidade",
+    "cidade": "Angatuba",
+    "localidade": "Bairro dos Fogaças",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora das Dores e Sagrado Coração",
+    "tipo": "comunidade",
+    "cidade": "Angatuba",
+    "localidade": "Bairro da Batalheira",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora das Graças",
+    "tipo": "comunidade",
+    "cidade": "Angatuba",
+    "localidade": "Bairro dos Leites",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Fátima",
+    "tipo": "comunidade",
+    "cidade": "Angatuba",
+    "localidade": "Bairro dos Buenos",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Lourdes",
+    "tipo": "comunidade",
+    "cidade": "Angatuba",
+    "localidade": "Bairro dos Marianos",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Rosário",
+    "tipo": "comunidade",
+    "cidade": "Angatuba",
+    "localidade": "Bairro Bombom",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrada Família",
+    "tipo": "comunidade",
+    "cidade": "Angatuba",
+    "localidade": "Bairro Boa Vista",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Cruz e São Roque",
+    "tipo": "comunidade",
+    "cidade": "Angatuba",
+    "localidade": "Bairro Aguinha",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Terezinha do Menino Jesus",
+    "tipo": "comunidade",
+    "cidade": "Angatuba",
+    "localidade": "Vila Ribeiro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Angatuba",
+    "localidade": "Bairro Machadinho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Angatuba",
+    "localidade": "Bairro dos Tavares",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Roque e Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Angatuba",
+    "localidade": "Bairro dos Modestos",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeitapetininga.org.br/paroquia/paroquia-sao-judas-tadeu-1/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://cdn.diocesedeitapetininga.org.br/wp-content/uploads/2024/01/Anuario-Diocesano-Digital-2024_compressed.pdf",
+    "data": "2024-01",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Santuário Divino Espírito Santo",
+  "categoria": "santuario",
+  "cidade": "Angatuba",
+  "padroeiro": "Divino Espírito Santo",
+  "contatos": {
+   "telefone": "1532551162",
+   "whatsapp": "15996885690",
+   "instagram": "santuariodivinoespiritosanto",
+   "site": "",
+   "email": "paroquiadivinoang@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário Divino Espírito Santo",
+    "tipo": "santuario",
+    "cidade": "Angatuba",
+    "localidade": "Centro",
+    "endereco": "Praça Monsenhor Ribeiro, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Angatuba",
+    "localidade": "Buriti Mirim",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrado Coração de Jesus",
+    "tipo": "comunidade",
+    "cidade": "Angatuba",
+    "localidade": "Bairro Guareí Velho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Cruz",
+    "tipo": "comunidade",
+    "cidade": "Angatuba",
+    "localidade": "Bairro Mineiros",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Angatuba",
+    "localidade": "Bairro Teodoros",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Cristóvão",
+    "tipo": "comunidade",
+    "cidade": "Angatuba",
+    "localidade": "Vila São Cristóvão",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Domingos Sávio",
+    "tipo": "comunidade",
+    "cidade": "Angatuba",
+    "localidade": "Jardim Domingos Orsi",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco de Assis",
+    "tipo": "comunidade",
+    "cidade": "Angatuba",
+    "localidade": "Bairro Matão",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Joaquim e Sant'Ana",
+    "tipo": "comunidade",
+    "cidade": "Angatuba",
+    "localidade": "Banco da Terra",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Batista",
+    "tipo": "comunidade",
+    "cidade": "Angatuba",
+    "localidade": "Bairro Diogos",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Batista",
+    "tipo": "comunidade",
+    "cidade": "Angatuba",
+    "localidade": "Vila Nova",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Pedro",
+    "tipo": "comunidade",
+    "cidade": "Angatuba",
+    "localidade": "Bairro Serraria",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Pedro",
+    "tipo": "comunidade",
+    "cidade": "Angatuba",
+    "localidade": "Vila Nhô Ribeiro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Vicente",
+    "tipo": "comunidade",
+    "cidade": "Angatuba",
+    "localidade": "Bairro Ribeiros",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Rita de Cássia",
+    "tipo": "comunidade",
+    "cidade": "Angatuba",
+    "localidade": "Vila Maciel, Jardim Bela Vista",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Paulo Apóstolo",
+    "tipo": "comunidade",
+    "cidade": "Angatuba",
+    "localidade": "Bairro Coqueiros",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeitapetininga.org.br/paroquia/santuario-divino-espirito-santo/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://cdn.diocesedeitapetininga.org.br/wp-content/uploads/2024/01/Anuario-Diocesano-Digital-2024_compressed.pdf",
+    "data": "2024-01",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Roque",
+  "categoria": "paroquia",
+  "cidade": "Campina do Monte Alegre",
+  "padroeiro": "São Roque",
+  "contatos": {
+   "telefone": "15996358965",
+   "whatsapp": "15997924079",
+   "instagram": "paroquiasaoroque.cma",
+   "site": "",
+   "email": "paroqsaoroquecma@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Roque",
+    "tipo": "matriz",
+    "cidade": "Campina do Monte Alegre",
+    "localidade": "Centro",
+    "endereco": "Praça José Silva, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa da catequese"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Bom Jesus",
+    "tipo": "comunidade",
+    "cidade": "Campina do Monte Alegre",
+    "localidade": "Chácara dos Rochas",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Campina do Monte Alegre",
+    "localidade": "Distrito do Salto",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Campina do Monte Alegre",
+    "localidade": "Distrito dos Aleixos",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Jorge e Imaculada Conceição",
+    "tipo": "comunidade",
+    "cidade": "Campina do Monte Alegre",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Divina Providência",
+    "tipo": "comunidade",
+    "cidade": "Campina do Monte Alegre",
+    "localidade": "Vila Gomes",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Joaquim e Sant'Ana",
+    "tipo": "comunidade",
+    "cidade": "Campina do Monte Alegre",
+    "localidade": "Bairro Barreiro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Campina do Monte Alegre",
+    "localidade": "CDHU C e D",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José Operário",
+    "tipo": "comunidade",
+    "cidade": "Campina do Monte Alegre",
+    "localidade": "Fazenda Chapadão",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Judas Tadeu",
+    "tipo": "comunidade",
+    "cidade": "Campina do Monte Alegre",
+    "localidade": "CDHU A e B",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeitapetininga.org.br/paroquia/paroquia-sao-roque-1/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://cdn.diocesedeitapetininga.org.br/wp-content/uploads/2024/01/Anuario-Diocesano-Digital-2024_compressed.pdf",
+    "data": "2024-01",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Francisco de Assis",
+  "categoria": "paroquia",
+  "cidade": "Capela do Alto",
+  "padroeiro": "São Francisco de Assis",
+  "contatos": {
+   "telefone": "1532671164",
+   "whatsapp": "",
+   "instagram": "paroquiasaofrancisco_capela",
+   "site": "",
+   "email": "paroquiafranciscoassis@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Francisco de Assis",
+    "tipo": "matriz",
+    "cidade": "Capela do Alto",
+    "localidade": "Centro",
+    "endereco": "Praça Cônego Cândido Suffia, 18",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Bom Jesus da Paciência",
+    "tipo": "comunidade",
+    "cidade": "Capela do Alto",
+    "localidade": "Distrito do Porto",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Capela do Alto",
+    "localidade": "Bairro Itarassú",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Piedade",
+    "tipo": "comunidade",
+    "cidade": "Capela do Alto",
+    "localidade": "Bairro Cangueira",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Lourdes",
+    "tipo": "comunidade",
+    "cidade": "Capela do Alto",
+    "localidade": "Jardim Maria de Lourdes",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Perpétuo Socorro",
+    "tipo": "comunidade",
+    "cidade": "Capela do Alto",
+    "localidade": "Residencial Central Park",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Sorriso e Santa Teresinha",
+    "tipo": "comunidade",
+    "cidade": "Capela do Alto",
+    "localidade": "Bairro Morro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Rainha da Paz",
+    "tipo": "comunidade",
+    "cidade": "Capela do Alto",
+    "localidade": "Bairro Barreiro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrada Família",
+    "tipo": "comunidade",
+    "cidade": "Capela do Alto",
+    "localidade": "Capanema",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Catarina",
+    "tipo": "comunidade",
+    "cidade": "Capela do Alto",
+    "localidade": "Bairro Correias",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio de Pádua",
+    "tipo": "comunidade",
+    "cidade": "Capela do Alto",
+    "localidade": "Bairro Guarapiranga",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio dos Impossíveis",
+    "tipo": "comunidade",
+    "cidade": "Capela do Alto",
+    "localidade": "Bairro Iperózinho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Santuário Paroquial da Mãe Rainha Três Vezes Admirável de Schoenstatt",
+    "tipo": "santuario",
+    "cidade": "Capela do Alto",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Batista",
+    "tipo": "comunidade",
+    "cidade": "Capela do Alto",
+    "localidade": "Bairro Culaus",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Paulo II",
+    "tipo": "comunidade",
+    "cidade": "Capela do Alto",
+    "localidade": "Penitenciária",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Capela do Alto",
+    "localidade": "Bairro Jutuba",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Judas Tadeu",
+    "tipo": "comunidade",
+    "cidade": "Capela do Alto",
+    "localidade": "Bairro Areião",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Pedro e São Paulo",
+    "tipo": "comunidade",
+    "cidade": "Capela do Alto",
+    "localidade": "Nova Capela",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Roque",
+    "tipo": "comunidade",
+    "cidade": "Capela do Alto",
+    "localidade": "Bairro Cercadinho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Guadalupe e Santa Luzia",
+    "tipo": "comunidade",
+    "cidade": "Capela do Alto",
+    "localidade": "Distrito Industrial",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Cristo Rei",
+    "tipo": "comunidade",
+    "cidade": "Capela do Alto",
+    "localidade": "Bairro Engenharia",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeitapetininga.org.br/paroquia/paroquia-sao-francisco-de-assis/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://cdn.diocesedeitapetininga.org.br/wp-content/uploads/2024/01/Anuario-Diocesano-Digital-2024_compressed.pdf",
+    "data": "2024-01",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Cruz",
+  "categoria": "paroquia",
+  "cidade": "Cesário Lange",
+  "padroeiro": "Santa Cruz",
+  "contatos": {
+   "telefone": "1532461854",
+   "whatsapp": "15996948154",
+   "instagram": "paro.quiasantacruz",
+   "site": "",
+   "email": "paroquiasantacruz.cl@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santa Cruz",
+    "tipo": "matriz",
+    "cidade": "Cesário Lange",
+    "localidade": "Centro",
+    "endereco": "Praça Padre Adolfo Testa, 01",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Cristo Rei",
+    "tipo": "comunidade",
+    "cidade": "Cesário Lange",
+    "localidade": "Bairro Água Branca",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Cesário Lange",
+    "localidade": "Bairro Turvo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida e São Roque",
+    "tipo": "comunidade",
+    "cidade": "Cesário Lange",
+    "localidade": "Vila Brasil",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Carmo",
+    "tipo": "comunidade",
+    "cidade": "Cesário Lange",
+    "localidade": "Vila Cruzeiro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrada Família e Santa Teresinha",
+    "tipo": "comunidade",
+    "cidade": "Cesário Lange",
+    "localidade": "Haras do Sul",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Cruz",
+    "tipo": "comunidade",
+    "cidade": "Cesário Lange",
+    "localidade": "Bairro Mato Seco",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco de Assis",
+    "tipo": "comunidade",
+    "cidade": "Cesário Lange",
+    "localidade": "Santa Casa, Vila Brasil",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Cesário Lange",
+    "localidade": "Bairro Torninos",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Roque",
+    "tipo": "comunidade",
+    "cidade": "Cesário Lange",
+    "localidade": "Bairro Campininha",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Roque",
+    "tipo": "comunidade",
+    "cidade": "Cesário Lange",
+    "localidade": "Bairro dos Duartes",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Roque",
+    "tipo": "comunidade",
+    "cidade": "Cesário Lange",
+    "localidade": "Distrito Fazenda Velha",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora das Graças",
+    "tipo": "comunidade",
+    "cidade": "Cesário Lange",
+    "localidade": "Bairro Dom Lázaro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrado Coração de Jesus e Sagrado Coração de Maria",
+    "tipo": "comunidade",
+    "cidade": "Cesário Lange",
+    "localidade": "Jardim das Flores",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sant'Ana e São Joaquim",
+    "tipo": "comunidade",
+    "cidade": "Cesário Lange",
+    "localidade": "Boiadeiros",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeitapetininga.org.br/paroquia/paroquia-santa-cruz-2/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://cdn.diocesedeitapetininga.org.br/wp-content/uploads/2024/01/Anuario-Diocesano-Digital-2024_compressed.pdf",
+    "data": "2024-01",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Santuário São João Batista",
+  "categoria": "santuario",
+  "cidade": "Guareí",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "1532581117",
+   "whatsapp": "15998290904",
+   "instagram": "psjbguarei",
+   "site": "",
+   "email": "psjbatista1872@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário São João Batista",
+    "tipo": "santuario",
+    "cidade": "Guareí",
+    "localidade": "Centro",
+    "endereco": "Rua Coronel Andrade, 320",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Bom Jesus",
+    "tipo": "comunidade",
+    "cidade": "Guareí",
+    "localidade": "Bairro da Vitória",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Mãe Rainha",
+    "tipo": "comunidade",
+    "cidade": "Guareí",
+    "localidade": "Bairro Floresta I",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Guareí",
+    "localidade": "Bairro da Vileta",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Guareí",
+    "localidade": "Bairro do Cerrado",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Guareí",
+    "localidade": "Bairro do Itatig",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Rosa Mística",
+    "tipo": "comunidade",
+    "cidade": "Guareí",
+    "localidade": "Bairro das Pedras",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Rosa Mística",
+    "tipo": "comunidade",
+    "cidade": "Guareí",
+    "localidade": "Condomínio Jardim Gumercindo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Cruz",
+    "tipo": "comunidade",
+    "cidade": "Guareí",
+    "localidade": "Bairro da Floresta, Bodega",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Cruz",
+    "tipo": "comunidade",
+    "cidade": "Guareí",
+    "localidade": "Bairro dos Lopes",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Teresinha",
+    "tipo": "comunidade",
+    "cidade": "Guareí",
+    "localidade": "Bairro do Jacutinga",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Expedito",
+    "tipo": "comunidade",
+    "cidade": "Guareí",
+    "localidade": "Bairro da Floresta II",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Bento e Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Guareí",
+    "localidade": "Bairro Areia Branca de Baixo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Guareí",
+    "localidade": "Bairro dos Pereiras",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Judas Tadeu e Maria Rosa Mística",
+    "tipo": "comunidade",
+    "cidade": "Guareí",
+    "localidade": "Cohab, Centro Comunitário",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Pedro",
+    "tipo": "comunidade",
+    "cidade": "Guareí",
+    "localidade": "Bairro Bocó",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Roque e Nossa Senhora das Graças",
+    "tipo": "comunidade",
+    "cidade": "Guareí",
+    "localidade": "Bairro Alto do Cruzeiro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Roque",
+    "tipo": "comunidade",
+    "cidade": "Guareí",
+    "localidade": "Bairro do Rincão",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Roque e Nossa Senhora do Rosário",
+    "tipo": "comunidade",
+    "cidade": "Guareí",
+    "localidade": "Bairro do Cerro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Tomé",
+    "tipo": "comunidade",
+    "cidade": "Guareí",
+    "localidade": "Bairro dos Tomés",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeitapetininga.org.br/paroquia/santuario-sao-joao-batista/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://cdn.diocesedeitapetininga.org.br/wp-content/uploads/2024/01/Anuario-Diocesano-Digital-2024_compressed.pdf",
+    "data": "2024-01",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "O telefone do site é o celular cortado; ficou o WhatsApp e o fixo do anuário 2024."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Bom Sucesso",
+  "categoria": "paroquia",
+  "cidade": "Paranapanema",
+  "padroeiro": "Nossa Senhora do Bom Sucesso",
+  "contatos": {
+   "telefone": "14998902950",
+   "whatsapp": "14998902950",
+   "instagram": "senhoradobomsucesso",
+   "site": "",
+   "email": "pnossasenhoradobomsucesso@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora do Bom Sucesso",
+    "tipo": "matriz",
+    "cidade": "Paranapanema",
+    "localidade": "Centro",
+    "endereco": "Praça da Matriz, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Paranapanema",
+    "localidade": "Vila Aparecida",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Teresinha",
+    "tipo": "comunidade",
+    "cidade": "Paranapanema",
+    "localidade": "Vila Leme",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Batista",
+    "tipo": "comunidade",
+    "cidade": "Paranapanema",
+    "localidade": "Bairro Faxinal",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Batista",
+    "tipo": "comunidade",
+    "cidade": "Paranapanema",
+    "localidade": "Bairro Serrinha",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Pedro",
+    "tipo": "comunidade",
+    "cidade": "Paranapanema",
+    "localidade": "Bairro da Ponte",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Vicente de Paulo",
+    "tipo": "comunidade",
+    "cidade": "Paranapanema",
+    "localidade": "Lar São Vicente de Paulo, Asilo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Paranapanema",
+    "localidade": "Fazendas",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio de Sant'Ana Galvão",
+    "tipo": "comunidade",
+    "cidade": "Paranapanema",
+    "localidade": "Capim Velho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Paranapanema",
+    "localidade": "Bairro São Pedro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José de Anchieta",
+    "tipo": "comunidade",
+    "cidade": "Paranapanema",
+    "localidade": "Fazendas",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Divino Espírito Santo",
+    "tipo": "comunidade",
+    "cidade": "Paranapanema",
+    "localidade": "Taquari",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeitapetininga.org.br/paroquia/paroquia-nossa-senhora-do-bom-sucesso/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://cdn.diocesedeitapetininga.org.br/wp-content/uploads/2024/01/Anuario-Diocesano-Digital-2024_compressed.pdf",
+    "data": "2024-01",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José",
+  "categoria": "paroquia",
+  "cidade": "Paranapanema",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "14997342652",
+   "whatsapp": "14997342652",
+   "instagram": "psaojose19",
+   "site": "",
+   "email": "pqsaojose@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São José",
+    "tipo": "matriz",
+    "cidade": "Paranapanema",
+    "localidade": "Campos de Holambra",
+    "endereco": "Avenida das Posses, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Paranapanema",
+    "localidade": "Residencial Sapé",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora das Graças",
+    "tipo": "comunidade",
+    "cidade": "Paranapanema",
+    "localidade": "Bairro Laranja II",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Rosa Mística",
+    "tipo": "comunidade",
+    "cidade": "Paranapanema",
+    "localidade": "Serrinha da Prata",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrada Família",
+    "tipo": "comunidade",
+    "cidade": "Paranapanema",
+    "localidade": "CDHU",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Cruz",
+    "tipo": "comunidade",
+    "cidade": "Paranapanema",
+    "localidade": "Residencial Santa Cristina",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Benedito",
+    "tipo": "comunidade",
+    "cidade": "Paranapanema",
+    "localidade": "Serra Velha",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Marta, Maria e São Lázaro",
+    "tipo": "comunidade",
+    "cidade": "Paranapanema",
+    "localidade": "Assentamento Bela Vista",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Pedro e São Paulo",
+    "tipo": "comunidade",
+    "cidade": "Paranapanema",
+    "localidade": "Bairro Mato Dentro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Paranapanema",
+    "localidade": "Fazenda Fumaça",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeitapetininga.org.br/paroquia/paroquia-sao-jose/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://cdn.diocesedeitapetininga.org.br/wp-content/uploads/2024/01/Anuario-Diocesano-Digital-2024_compressed.pdf",
+    "data": "2024-01",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Matriz em Campos de Holambra."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Bom Jesus do Bom Fim",
+  "categoria": "paroquia",
+  "cidade": "Pilar do Sul",
+  "padroeiro": "Bom Jesus do Bom Fim",
+  "contatos": {
+   "telefone": "1532782360",
+   "whatsapp": "15996270578",
+   "instagram": "paroquiabomjesuspilardosul",
+   "site": "",
+   "email": "paroquiapilar@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Bom Jesus do Bom Fim",
+    "tipo": "matriz",
+    "cidade": "Pilar do Sul",
+    "localidade": "Centro",
+    "endereco": "Rua José Martins Perches, 140",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Bom Jesus do Bom Fim",
+    "tipo": "comunidade",
+    "cidade": "Pilar do Sul",
+    "localidade": "Pombal",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Pilar do Sul",
+    "localidade": "Bom Retiro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora das Dores",
+    "tipo": "comunidade",
+    "cidade": "Pilar do Sul",
+    "localidade": "Ribeirão",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora das Graças",
+    "tipo": "comunidade",
+    "cidade": "Pilar do Sul",
+    "localidade": "Claro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de La Salete",
+    "tipo": "comunidade",
+    "cidade": "Pilar do Sul",
+    "localidade": "Ilha",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Cruz",
+    "tipo": "comunidade",
+    "cidade": "Pilar do Sul",
+    "localidade": "Ponte Alta",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Teresinha do Menino Jesus",
+    "tipo": "comunidade",
+    "cidade": "Pilar do Sul",
+    "localidade": "Turvinho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Onofre",
+    "tipo": "comunidade",
+    "cidade": "Pilar do Sul",
+    "localidade": "Grupo AMA",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Cristóvão",
+    "tipo": "comunidade",
+    "cidade": "Pilar do Sul",
+    "localidade": "Bairro Campo Grande",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco de Assis",
+    "tipo": "comunidade",
+    "cidade": "Pilar do Sul",
+    "localidade": "Pinhal de Cima",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Pedro Apóstolo",
+    "tipo": "comunidade",
+    "cidade": "Pilar do Sul",
+    "localidade": "Vila Chapadão",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Pedro Apóstolo",
+    "tipo": "comunidade",
+    "cidade": "Pilar do Sul",
+    "localidade": "Vila São Manoel",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Roque",
+    "tipo": "comunidade",
+    "cidade": "Pilar do Sul",
+    "localidade": "Bairro do Alegre",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Sebastião",
+    "tipo": "comunidade",
+    "cidade": "Pilar do Sul",
+    "localidade": "Turvo dos Antunes",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Sociedade Beneficente Bom Jesus",
+    "tipo": "comunidade",
+    "cidade": "Pilar do Sul",
+    "localidade": "Jardim Sol Nascente",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Oratório Nossa Senhora da Vitória",
+    "tipo": "comunidade",
+    "cidade": "Pilar do Sul",
+    "localidade": "Bairro da Saudade",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Jesus Bom Pastor",
+    "tipo": "comunidade",
+    "cidade": "Pilar do Sul",
+    "localidade": "Paineiras",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Oratório Divina Misericórdia e Santa Marta",
+    "tipo": "comunidade",
+    "cidade": "Pilar do Sul",
+    "localidade": "Lavrinha",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Oratório São Roque",
+    "tipo": "comunidade",
+    "cidade": "Pilar do Sul",
+    "localidade": "Guaçuzal",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeitapetininga.org.br/paroquia/paroquia-bom-jesus-do-bom-fim/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://cdn.diocesedeitapetininga.org.br/wp-content/uploads/2024/01/Anuario-Diocesano-Digital-2024_compressed.pdf",
+    "data": "2024-01",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "A página da paróquia no site da diocese não traz nenhum horário de missa."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Pilar",
+  "categoria": "paroquia",
+  "cidade": "Pilar do Sul",
+  "padroeiro": "Nossa Senhora do Pilar",
+  "contatos": {
+   "telefone": "1532786300",
+   "whatsapp": "",
+   "instagram": "nsdopilar",
+   "site": "",
+   "email": "nsdopilar@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora do Pilar",
+    "tipo": "matriz",
+    "cidade": "Pilar do Sul",
+    "localidade": "Jardim Nova Pilar",
+    "endereco": "Rua Benedito de Moraes Rosa, 371",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Imaculada Conceição",
+    "tipo": "comunidade",
+    "cidade": "Pilar do Sul",
+    "localidade": "Chácaras Reunidas",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Imaculado Coração de Maria",
+    "tipo": "comunidade",
+    "cidade": "Pilar do Sul",
+    "localidade": "Bairro Campestre II",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Fátima",
+    "tipo": "comunidade",
+    "cidade": "Pilar do Sul",
+    "localidade": "Meia Légua",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrada Família",
+    "tipo": "comunidade",
+    "cidade": "Pilar do Sul",
+    "localidade": "Cananéia",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Cruz",
+    "tipo": "comunidade",
+    "cidade": "Pilar do Sul",
+    "localidade": "Pinhalzinho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Pilar do Sul",
+    "localidade": "Caxangá",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Bento",
+    "tipo": "comunidade",
+    "cidade": "Pilar do Sul",
+    "localidade": "Jardim Pinheiro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Pilar do Sul",
+    "localidade": "Morro Grande",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeitapetininga.org.br/paroquia/paroquia-nossa-senhora-do-pilar/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://cdn.diocesedeitapetininga.org.br/wp-content/uploads/2024/01/Anuario-Diocesano-Digital-2024_compressed.pdf",
+    "data": "2024-01",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Porangaba",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "1532571738",
+   "whatsapp": "15997854005",
+   "instagram": "paroquiasto.antonioporangaba",
+   "site": "",
+   "email": "paroquia_stoantonio1898@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Porangaba",
+    "localidade": "Centro",
+    "endereco": "Rua Papa João XXIII, 31",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Bom Jesus",
+    "tipo": "comunidade",
+    "cidade": "Porangaba",
+    "localidade": "Bairro dos Marianos",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Porangaba",
+    "localidade": "Bairro dos Alves",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Conceição e Sant'Ana",
+    "tipo": "comunidade",
+    "cidade": "Porangaba",
+    "localidade": "Bairro do Generoso",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Lourdes",
+    "tipo": "comunidade",
+    "cidade": "Porangaba",
+    "localidade": "Bairro dos Ferreiras",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Rosa Mística",
+    "tipo": "comunidade",
+    "cidade": "Porangaba",
+    "localidade": "Colina Verde",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Rita de Cássia",
+    "tipo": "comunidade",
+    "cidade": "Porangaba",
+    "localidade": "Bairro dos Lopes",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Teresinha",
+    "tipo": "comunidade",
+    "cidade": "Porangaba",
+    "localidade": "Jardim Bela Vista",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Benedito",
+    "tipo": "comunidade",
+    "cidade": "Porangaba",
+    "localidade": "Serrinha de Cima",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Batista",
+    "tipo": "comunidade",
+    "cidade": "Porangaba",
+    "localidade": "Vila São Luís",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Batista",
+    "tipo": "comunidade",
+    "cidade": "Porangaba",
+    "localidade": "Bairro dos Mirandas",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Porangaba",
+    "localidade": "Bairro do Adélio",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Judas Tadeu",
+    "tipo": "comunidade",
+    "cidade": "Porangaba",
+    "localidade": "Bairro dos Nunes",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Pedro",
+    "tipo": "comunidade",
+    "cidade": "Porangaba",
+    "localidade": "Serrinha de Baixo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Pio",
+    "tipo": "comunidade",
+    "cidade": "Porangaba",
+    "localidade": "Bairro das Partes",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeitapetininga.org.br/paroquia/paroquia-santo-antonio/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://cdn.diocesedeitapetininga.org.br/wp-content/uploads/2024/01/Anuario-Diocesano-Digital-2024_compressed.pdf",
+    "data": "2024-01",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Bom Jesus",
+  "categoria": "paroquia",
+  "cidade": "Quadra",
+  "padroeiro": "Bom Jesus",
+  "contatos": {
+   "telefone": "1532531224",
+   "whatsapp": "",
+   "instagram": "pbjquadrasp",
+   "site": "",
+   "email": "pbjquadra@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Bom Jesus",
+    "tipo": "matriz",
+    "cidade": "Quadra",
+    "localidade": "Centro",
+    "endereco": "Praça Chico Vieira, 79",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Divino Espírito Santo",
+    "tipo": "comunidade",
+    "cidade": "Quadra",
+    "localidade": "Bairro Aleluia",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida e São José",
+    "tipo": "comunidade",
+    "cidade": "Quadra",
+    "localidade": "Bairro do Araçatuba",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Quadra",
+    "localidade": "Bairro Guaraná",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida e São Roque",
+    "tipo": "comunidade",
+    "cidade": "Quadra",
+    "localidade": "Cruz de Cedro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora das Graças",
+    "tipo": "comunidade",
+    "cidade": "Quadra",
+    "localidade": "Bairro do Cedro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Fátima",
+    "tipo": "comunidade",
+    "cidade": "Quadra",
+    "localidade": "Bairro Nossa Senhora de Fátima",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Expedito",
+    "tipo": "comunidade",
+    "cidade": "Quadra",
+    "localidade": "Bairro dos Vaz",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Bento",
+    "tipo": "comunidade",
+    "cidade": "Quadra",
+    "localidade": "Bairro São Bento",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Judas Tadeu",
+    "tipo": "comunidade",
+    "cidade": "Quadra",
+    "localidade": "Bairro Vista Alegre",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeitapetininga.org.br/paroquia/paroquia-bom-jesus/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://cdn.diocesedeitapetininga.org.br/wp-content/uploads/2024/01/Anuario-Diocesano-Digital-2024_compressed.pdf",
+    "data": "2024-01",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora das Dores",
+  "categoria": "paroquia",
+  "cidade": "Sarapuí",
+  "padroeiro": "Nossa Senhora das Dores",
+  "contatos": {
+   "telefone": "1532761118",
+   "whatsapp": "15998516627",
+   "instagram": "paroquianossasradasdoresofc",
+   "site": "",
+   "email": "paroquia.sarapui@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora das Dores",
+    "tipo": "matriz",
+    "cidade": "Sarapuí",
+    "localidade": "Centro",
+    "endereco": "Praça Vicente Monzillo, 45",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa do Sagrado Coração de Jesus"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Missa Votiva de Nossa Senhora das Dores, dia 15 de cada mês, 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Abrigo Bom Pastor",
+    "tipo": "comunidade",
+    "cidade": "Sarapuí",
+    "localidade": "Vila São João",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Bom Jesus",
+    "tipo": "comunidade",
+    "cidade": "Sarapuí",
+    "localidade": "Bairro Cabaçais",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Sarapuí",
+    "localidade": "Vila Nossa Senhora Aparecida",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Auxiliadora",
+    "tipo": "comunidade",
+    "cidade": "Sarapuí",
+    "localidade": "Assentamento Carlos Lamarca",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Conceição",
+    "tipo": "comunidade",
+    "cidade": "Sarapuí",
+    "localidade": "Bairro Rio Acima",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora das Estrelas",
+    "tipo": "comunidade",
+    "cidade": "Sarapuí",
+    "localidade": "Bairro Congonhas",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Fátima",
+    "tipo": "comunidade",
+    "cidade": "Sarapuí",
+    "localidade": "Bairro da Várzea de Baixo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Luzia",
+    "tipo": "comunidade",
+    "cidade": "Sarapuí",
+    "localidade": "Bairro da Várzea de Cima",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Sarapuí",
+    "localidade": "Bairro Faxinal do Rio Acima",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Bento",
+    "tipo": "comunidade",
+    "cidade": "Sarapuí",
+    "localidade": "Bairro do Rodeio",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Batista",
+    "tipo": "comunidade",
+    "cidade": "Sarapuí",
+    "localidade": "Vila São João",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Sarapuí",
+    "localidade": "Bairro da Ressaca",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Roque",
+    "tipo": "comunidade",
+    "cidade": "Sarapuí",
+    "localidade": "Distrito do Cocaes",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Paulo Apóstolo",
+    "tipo": "comunidade",
+    "cidade": "Sarapuí",
+    "localidade": "Vila Rica",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeitapetininga.org.br/paroquia/paroquia-nossa-senhora-das-dores/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://cdn.diocesedeitapetininga.org.br/wp-content/uploads/2024/01/Anuario-Diocesano-Digital-2024_compressed.pdf",
+    "data": "2024-01",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "O telefone do site é o celular cortado; ficou o WhatsApp e o fixo do anuário 2024."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "São Miguel Arcanjo",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "15997192019",
+   "instagram": "paroquia_senhoraaparecida",
+   "site": "",
+   "email": "paroquiansagramadao@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "São Miguel Arcanjo",
+    "localidade": "Distrito do Gramadão",
+    "endereco": "Rua José Boaventura Vieira, 248",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Missa votiva todo dia 12 às 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Bom Jesus e Santa Catarina de Alexandria",
+    "tipo": "comunidade",
+    "cidade": "São Miguel Arcanjo",
+    "localidade": "Gramadinho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora d'Ajuda",
+    "tipo": "comunidade",
+    "cidade": "São Miguel Arcanjo",
+    "localidade": "Turvo dos Hilários",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Fátima",
+    "tipo": "comunidade",
+    "cidade": "São Miguel Arcanjo",
+    "localidade": "Facão",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Cruz",
+    "tipo": "comunidade",
+    "cidade": "São Miguel Arcanjo",
+    "localidade": "Faxinal dos Almeidas",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Bosco",
+    "tipo": "comunidade",
+    "cidade": "São Miguel Arcanjo",
+    "localidade": "Fazenda Ceresser",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Pedro e São Paulo",
+    "tipo": "comunidade",
+    "cidade": "São Miguel Arcanjo",
+    "localidade": "Pocinho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrado Coração de Jesus",
+    "tipo": "comunidade",
+    "cidade": "São Miguel Arcanjo",
+    "localidade": "Biscoito Duro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeitapetininga.org.br/paroquia/paroquia-nossa-senhora-aparecida-1/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://cdn.diocesedeitapetininga.org.br/wp-content/uploads/2024/01/Anuario-Diocesano-Digital-2024_compressed.pdf",
+    "data": "2024-01",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "O telefone do site é o celular cortado; ficou o WhatsApp. Matriz no Distrito do Gramadão."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Judas Tadeu",
+  "categoria": "paroquia",
+  "cidade": "São Miguel Arcanjo",
+  "padroeiro": "São Judas Tadeu",
+  "contatos": {
+   "telefone": "1532794605",
+   "whatsapp": "15998323279",
+   "instagram": "saojudastadeusma",
+   "site": "",
+   "email": "saojudassma@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Judas Tadeu",
+    "tipo": "matriz",
+    "cidade": "São Miguel Arcanjo",
+    "localidade": "Jardim Florença",
+    "endereco": "Rua Zenith Galvão Terra, 333",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Comunidades no site da diocese sem lugar informado: Lar São Vicente de Paulo"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Imaculado Coração de Maria",
+    "tipo": "comunidade",
+    "cidade": "São Miguel Arcanjo",
+    "localidade": "Colônia Pinhal",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "São Miguel Arcanjo",
+    "localidade": "Bairro Boa Vista",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "São Miguel Arcanjo",
+    "localidade": "Vila Aparecida",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora das Graças",
+    "tipo": "comunidade",
+    "cidade": "São Miguel Arcanjo",
+    "localidade": "Bairro dos Paulos",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora das Graças",
+    "tipo": "comunidade",
+    "cidade": "São Miguel Arcanjo",
+    "localidade": "Bairro Ferreirada",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Fátima",
+    "tipo": "comunidade",
+    "cidade": "São Miguel Arcanjo",
+    "localidade": "Bairro Retiro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Judas Tadeu",
+    "tipo": "comunidade",
+    "cidade": "São Miguel Arcanjo",
+    "localidade": "Colônia Tozan",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Pedro",
+    "tipo": "comunidade",
+    "cidade": "São Miguel Arcanjo",
+    "localidade": "Bairro Rio Acima",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Pedro e São Roque",
+    "tipo": "comunidade",
+    "cidade": "São Miguel Arcanjo",
+    "localidade": "Bairro Turvinho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Roque",
+    "tipo": "comunidade",
+    "cidade": "São Miguel Arcanjo",
+    "localidade": "Bairro Justinada",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Roque",
+    "tipo": "comunidade",
+    "cidade": "São Miguel Arcanjo",
+    "localidade": "Capela São Roque",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Rita de Cássia",
+    "tipo": "comunidade",
+    "cidade": "São Miguel Arcanjo",
+    "localidade": "Cohab V",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeitapetininga.org.br/paroquia/paroquia-sao-judas-tadeu/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://cdn.diocesedeitapetininga.org.br/wp-content/uploads/2024/01/Anuario-Diocesano-Digital-2024_compressed.pdf",
+    "data": "2024-01",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora das Graças",
+  "categoria": "paroquia",
+  "cidade": "Tatuí",
+  "padroeiro": "Nossa Senhora das Graças",
+  "contatos": {
+   "telefone": "1532515221",
+   "whatsapp": "",
+   "instagram": "nsgracastatui",
+   "site": "",
+   "email": "parnsgracatatui@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora das Graças",
+    "tipo": "matriz",
+    "cidade": "Tatuí",
+    "localidade": "Vila Dr. Laurindo",
+    "endereco": "Praça Moacir Mota, 50",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Imaculado Coração de Maria",
+    "tipo": "comunidade",
+    "cidade": "Tatuí",
+    "localidade": "Bambuzal",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Tatuí",
+    "localidade": "Jardim Lírio",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Rosário",
+    "tipo": "comunidade",
+    "cidade": "Tatuí",
+    "localidade": "Jardim Bela Vista",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Paulo",
+    "tipo": "comunidade",
+    "cidade": "Tatuí",
+    "localidade": "Jardim Paulista",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Pedro",
+    "tipo": "comunidade",
+    "cidade": "Tatuí",
+    "localidade": "Jardim Manoel de Abreu",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Roque",
+    "tipo": "comunidade",
+    "cidade": "Tatuí",
+    "localidade": "Bairro Americana",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeitapetininga.org.br/paroquia/paroquia-nossa-senhora-das-gracas-1/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://cdn.diocesedeitapetininga.org.br/wp-content/uploads/2024/01/Anuario-Diocesano-Digital-2024_compressed.pdf",
+    "data": "2024-01",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "O GCatholic lista a igreja sem marca de paróquia; o site da diocese a tem como paróquia."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sagrada Família",
+  "categoria": "paroquia",
+  "cidade": "Tatuí",
+  "padroeiro": "Sagrada Família",
+  "contatos": {
+   "telefone": "1532513558",
+   "whatsapp": "15996291973",
+   "instagram": "sagradafamiliatatui",
+   "site": "",
+   "email": "sagradafamilia.tatui@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Sagrada Família",
+    "tipo": "matriz",
+    "cidade": "Tatuí",
+    "localidade": "Centro",
+    "endereco": "Avenida Cônego João Clímaco, 115",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Divino Espírito Santo",
+    "tipo": "comunidade",
+    "cidade": "Tatuí",
+    "localidade": "Bairro Queimador",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Luzia",
+    "tipo": "comunidade",
+    "cidade": "Tatuí",
+    "localidade": "Vila Santa Luzia",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Expedito",
+    "tipo": "comunidade",
+    "cidade": "Tatuí",
+    "localidade": "Jardim América e São Conrado",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Caetano",
+    "tipo": "comunidade",
+    "cidade": "Tatuí",
+    "localidade": "Jardim Tomás Guedes",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeitapetininga.org.br/paroquia/paroquia-sagrada-familia/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://cdn.diocesedeitapetininga.org.br/wp-content/uploads/2024/01/Anuario-Diocesano-Digital-2024_compressed.pdf",
+    "data": "2024-01",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sagrado Coração de Jesus",
+  "categoria": "paroquia",
+  "cidade": "Tatuí",
+  "padroeiro": "Sagrado Coração de Jesus",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "15991621330",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiascjtatui@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Sagrado Coração de Jesus",
+    "tipo": "matriz",
+    "cidade": "Tatuí",
+    "localidade": "Vila Angélica",
+    "endereco": "Rua José Orsi, 430",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Comunidades no site da diocese sem lugar informado: São Bento"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Rainha",
+    "tipo": "comunidade",
+    "cidade": "Tatuí",
+    "localidade": "Jardins de Tatuí",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida e São Benedito",
+    "tipo": "comunidade",
+    "cidade": "Tatuí",
+    "localidade": "Bairro dos Fragas",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Tatuí",
+    "localidade": "Fazenda Astória",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrada Família",
+    "tipo": "comunidade",
+    "cidade": "Tatuí",
+    "localidade": "Jardim Aeroporto",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco de Assis",
+    "tipo": "comunidade",
+    "cidade": "Tatuí",
+    "localidade": "Residencial Juliana",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Luiz Gonzaga",
+    "tipo": "comunidade",
+    "cidade": "Tatuí",
+    "localidade": "Jardim Gonzaga",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Miguel Arcanjo",
+    "tipo": "comunidade",
+    "cidade": "Tatuí",
+    "localidade": "Residencial Juliana",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Pedro",
+    "tipo": "comunidade",
+    "cidade": "Tatuí",
+    "localidade": "Bairro Rio das Pedras",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeitapetininga.org.br/paroquia/paroquia-sagrado-coracao-de-jesus/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://cdn.diocesedeitapetininga.org.br/wp-content/uploads/2024/01/Anuario-Diocesano-Digital-2024_compressed.pdf",
+    "data": "2024-01",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "O telefone do site é o celular cortado; ficou o WhatsApp."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Cruz",
+  "categoria": "paroquia",
+  "cidade": "Tatuí",
+  "padroeiro": "Santa Cruz",
+  "contatos": {
+   "telefone": "1532514088",
+   "whatsapp": "15996914088",
+   "instagram": "paroquiasantacruztatui",
+   "site": "",
+   "email": "paroquiasantacruztatui@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santa Cruz",
+    "tipo": "matriz",
+    "cidade": "Tatuí",
+    "localidade": "Centro",
+    "endereco": "Largo Santa Cruz, 120",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Divino Espírito Santo",
+    "tipo": "comunidade",
+    "cidade": "Tatuí",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Divino Pai Eterno",
+    "tipo": "comunidade",
+    "cidade": "Tatuí",
+    "localidade": "Loteamento Santa Cruz",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Tatuí",
+    "localidade": "Rosa Garcia 1",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Tatuí",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Paulo II",
+    "tipo": "comunidade",
+    "cidade": "Tatuí",
+    "localidade": "Loteamento Santa Cruz",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Roque",
+    "tipo": "comunidade",
+    "cidade": "Tatuí",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeitapetininga.org.br/paroquia/paroquia-santa-cruz-1/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://cdn.diocesedeitapetininga.org.br/wp-content/uploads/2024/01/Anuario-Diocesano-Digital-2024_compressed.pdf",
+    "data": "2024-01",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "O telefone do site é o celular cortado; ficou o WhatsApp e o fixo do anuário 2024."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Rita de Cássia",
+  "categoria": "paroquia",
+  "cidade": "Tatuí",
+  "padroeiro": "Santa Rita de Cássia",
+  "contatos": {
+   "telefone": "1532590773",
+   "whatsapp": "15996099468",
+   "instagram": "paroquiasantaritatatui",
+   "site": "",
+   "email": "paroquiasantaritatui@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santa Rita de Cássia",
+    "tipo": "matriz",
+    "cidade": "Tatuí",
+    "localidade": "Jardim Santa Rita",
+    "endereco": "Rua João Abrame, 406",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Missa na Comunidade Santo Antônio de Sant'Ana Galvão (Jardim Santa Rita de Cássia) às 19h30, sem o dia da semana na fonte"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio de Sant'Ana Galvão",
+    "tipo": "comunidade",
+    "cidade": "Tatuí",
+    "localidade": "Jardim Santa Rita de Cássia",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Tatuí",
+    "localidade": "Jardim Gramado",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Miguel Arcanjo",
+    "tipo": "comunidade",
+    "cidade": "Tatuí",
+    "localidade": "Pacaembu",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Perpétuo Socorro",
+    "tipo": "comunidade",
+    "cidade": "Tatuí",
+    "localidade": "Tanquinho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeitapetininga.org.br/paroquia/paroquia-santa-rita-de-cassia-1/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://cdn.diocesedeitapetininga.org.br/wp-content/uploads/2024/01/Anuario-Diocesano-Digital-2024_compressed.pdf",
+    "data": "2024-01",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Parte das missas está sem o dia da semana na fonte (ver nao_cabe)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Teresinha do Menino Jesus",
+  "categoria": "paroquia",
+  "cidade": "Tatuí",
+  "padroeiro": "Santa Teresinha do Menino Jesus",
+  "contatos": {
+   "telefone": "1532594475",
+   "whatsapp": "15991856470",
+   "instagram": "paroquiasanta.teresinhatatui",
+   "site": "",
+   "email": "paroquiasantaterezinhatatui@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santa Teresinha do Menino Jesus",
+    "tipo": "matriz",
+    "cidade": "Tatuí",
+    "localidade": "Jardim Planalto",
+    "endereco": "Rua Oswaldo Tavares, 34",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Todo dia 1°, Missa Votiva em louvor a Santa Teresinha, 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Casa de Apoio São José",
+    "tipo": "comunidade",
+    "cidade": "Tatuí",
+    "localidade": "Jardim Wanderley",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Benedito",
+    "tipo": "comunidade",
+    "cidade": "Tatuí",
+    "localidade": "Jardim Europa",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco de Assis",
+    "tipo": "comunidade",
+    "cidade": "Tatuí",
+    "localidade": "Jardim Wanderley",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco Xavier",
+    "tipo": "comunidade",
+    "cidade": "Tatuí",
+    "localidade": "Jardim Atlanta",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Batista",
+    "tipo": "comunidade",
+    "cidade": "Tatuí",
+    "localidade": "Vila Brasil",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Miguel Arcanjo",
+    "tipo": "comunidade",
+    "cidade": "Tatuí",
+    "localidade": "Jardim Alvorada",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeitapetininga.org.br/paroquia/paroquia-santa-teresinha-do-menino-jesus/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://cdn.diocesedeitapetininga.org.br/wp-content/uploads/2024/01/Anuario-Diocesano-Digital-2024_compressed.pdf",
+    "data": "2024-01",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Lázaro",
+  "categoria": "paroquia",
+  "cidade": "Tatuí",
+  "padroeiro": "São Lázaro",
+  "contatos": {
+   "telefone": "1532594032",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasao.lazaro@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Lázaro",
+    "tipo": "matriz",
+    "cidade": "Tatuí",
+    "localidade": "Bairro São Lázaro",
+    "endereco": "Rua José Antônio de Souza, 154",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Missa Votiva todo dia 29: 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida e São José",
+    "tipo": "comunidade",
+    "cidade": "Tatuí",
+    "localidade": "Congonhal",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Consoladora dos Aflitos",
+    "tipo": "comunidade",
+    "cidade": "Tatuí",
+    "localidade": "Rosa Garcia II",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Roque",
+    "tipo": "comunidade",
+    "cidade": "Tatuí",
+    "localidade": "Congonhal de Cima",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeitapetininga.org.br/paroquia/paroquia-sao-lazaro/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://cdn.diocesedeitapetininga.org.br/wp-content/uploads/2024/01/Anuario-Diocesano-Digital-2024_compressed.pdf",
+    "data": "2024-01",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Santuário Nossa Senhora de Fátima",
+  "categoria": "santuario",
+  "cidade": "Tatuí",
+  "padroeiro": "Nossa Senhora de Fátima",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "15996135376",
+   "instagram": "santuarionsfatimatatui",
+   "site": "",
+   "email": "paroquiansfatima2016@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário Nossa Senhora de Fátima",
+    "tipo": "santuario",
+    "cidade": "Tatuí",
+    "localidade": "Bairro das Oliveiras",
+    "endereco": "Via Vicente Manoel de Oliveira, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Missa Votiva todo dia 13, Segunda à Sexta às 19h30; Sábado às 19h. Comunidades no site da diocese sem lugar informado: São Marcos"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Tatuí",
+    "localidade": "Água Branca",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora das Estrelas",
+    "tipo": "comunidade",
+    "cidade": "Tatuí",
+    "localidade": "Colina das Estrelas",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Expedito",
+    "tipo": "comunidade",
+    "cidade": "Tatuí",
+    "localidade": "Bairro Guaxingu",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Batista",
+    "tipo": "comunidade",
+    "cidade": "Tatuí",
+    "localidade": "Bairro dos Mirandas",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Joaquim e Sant'Ana",
+    "tipo": "comunidade",
+    "cidade": "Tatuí",
+    "localidade": "Bairro dos Souzas",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeitapetininga.org.br/paroquia/santuario-nossa-senhora-de-fatima/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://cdn.diocesedeitapetininga.org.br/wp-content/uploads/2024/01/Anuario-Diocesano-Digital-2024_compressed.pdf",
+    "data": "2024-01",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "O telefone do site é o celular cortado; ficou o WhatsApp."
+ },
+ {
+  "id_banco": null,
+  "nome": "Santuário São José Operário",
+  "categoria": "santuario",
+  "cidade": "Tatuí",
+  "padroeiro": "São José Operário",
+  "contatos": {
+   "telefone": "1533051455",
+   "whatsapp": "15996300198",
+   "instagram": "santuario.saojoseoperario",
+   "site": "",
+   "email": "saojoseoperarioparoquia@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário São José Operário",
+    "tipo": "santuario",
+    "cidade": "Tatuí",
+    "localidade": "Vila Esperança",
+    "endereco": "Avenida Heleonilde Maciel de Menezes, 155",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Carmo",
+    "tipo": "comunidade",
+    "cidade": "Tatuí",
+    "localidade": "Residencial Astória",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Cruz",
+    "tipo": "comunidade",
+    "cidade": "Tatuí",
+    "localidade": "Bairro Preto",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio de Pádua",
+    "tipo": "comunidade",
+    "cidade": "Tatuí",
+    "localidade": "Jardim Europark",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Cristóvão",
+    "tipo": "comunidade",
+    "cidade": "Tatuí",
+    "localidade": "Bairro São Cristóvão",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Paulo Apóstolo",
+    "tipo": "comunidade",
+    "cidade": "Tatuí",
+    "localidade": "Jardim Tókio",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeitapetininga.org.br/paroquia/santuario-sao-jose-operario/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://cdn.diocesedeitapetininga.org.br/wp-content/uploads/2024/01/Anuario-Diocesano-Digital-2024_compressed.pdf",
+    "data": "2024-01",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Santuário São Judas Tadeu",
+  "categoria": "santuario",
+  "cidade": "Tatuí",
+  "padroeiro": "São Judas Tadeu",
+  "contatos": {
+   "telefone": "1532513273",
+   "whatsapp": "15997192207",
+   "instagram": "santuariosaojudastatui",
+   "site": "",
+   "email": "santuariosaojudastatui@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário São Judas Tadeu",
+    "tipo": "santuario",
+    "cidade": "Tatuí",
+    "localidade": "Loteamento Modena",
+    "endereco": "Rua 15 de novembro, 2480",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Anunciação",
+    "tipo": "comunidade",
+    "cidade": "Tatuí",
+    "localidade": "Bairro Andrea Ville",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Fátima",
+    "tipo": "comunidade",
+    "cidade": "Tatuí",
+    "localidade": "Enxovia de Baixo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Cruz e Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Tatuí",
+    "localidade": "Bairro Jurumirim",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Edwiges",
+    "tipo": "comunidade",
+    "cidade": "Tatuí",
+    "localidade": "Bairro Inoccop",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Paulina",
+    "tipo": "comunidade",
+    "cidade": "Tatuí",
+    "localidade": "Vale dos Lagos",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Benedito",
+    "tipo": "comunidade",
+    "cidade": "Tatuí",
+    "localidade": "Enxovia do Meio",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Evangelista",
+    "tipo": "comunidade",
+    "cidade": "Tatuí",
+    "localidade": "Jardim São João",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Pedro",
+    "tipo": "comunidade",
+    "cidade": "Tatuí",
+    "localidade": "Jardim Lucila",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Sebastião",
+    "tipo": "comunidade",
+    "cidade": "Tatuí",
+    "localidade": "Pederneiras",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeitapetininga.org.br/paroquia/santuario-sao-judas-tadeu/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://cdn.diocesedeitapetininga.org.br/wp-content/uploads/2024/01/Anuario-Diocesano-Digital-2024_compressed.pdf",
+    "data": "2024-01",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Pedro",
+  "categoria": "paroquia",
+  "cidade": "Torre de Pedra",
+  "padroeiro": "São Pedro",
+  "contatos": {
+   "telefone": "1532521171",
+   "whatsapp": "",
+   "instagram": "paroquiasao_pedro",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Pedro",
+    "tipo": "matriz",
+    "cidade": "Torre de Pedra",
+    "localidade": "Centro",
+    "endereco": "Praça São Pedro, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco de Assis",
+    "tipo": "comunidade",
+    "cidade": "Torre de Pedra",
+    "localidade": "Bairro Cariocas",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Torre de Pedra",
+    "localidade": "Bairro Saltinho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora das Graças",
+    "tipo": "comunidade",
+    "cidade": "Torre de Pedra",
+    "localidade": "Bairro dos Lemes",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeitapetininga.org.br/paroquia/paroquia-sao-pedro/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://cdn.diocesedeitapetininga.org.br/wp-content/uploads/2024/01/Anuario-Diocesano-Digital-2024_compressed.pdf",
+    "data": "2024-01",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "E-mail e WhatsApp do site são de pessoa (secretária), não entraram."
+ }
+]

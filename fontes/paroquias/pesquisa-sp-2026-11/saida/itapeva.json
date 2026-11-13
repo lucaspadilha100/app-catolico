@@ -1,0 +1,2061 @@
+[
+ {
+  "id_banco": null,
+  "nome": "Catedral de Sant'Ana",
+  "categoria": "catedral",
+  "cidade": "Itapeva",
+  "padroeiro": "Sant'Ana",
+  "contatos": {
+   "telefone": "1535220437",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "mcatedralsantana@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Catedral de Sant'Ana",
+    "tipo": "matriz",
+    "cidade": "Itapeva",
+    "localidade": "Centro",
+    "endereco": "Praça Anchieta, 123",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "14:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 2,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Até 11h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Até 11h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Até 11h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Até 11h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": "Até 21h30"
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://dioceseitapeva.com.br/horarios-de-missas/",
+    "data": "2025-08-25",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://dioceseitapeva.com.br/paroquia/catedral-santana-itapeva/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Missas da tabela da diocese, editada pela última vez em 25/08/2025. Secretaria na Rua Coronel Crescêncio, 311, Centro."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Itapeva",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "15998024982",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "matrizpnsaparecida@bol.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Itapeva",
+    "localidade": "Vila Aparecida",
+    "endereco": "Rua Ipanema, 394",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "15:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "20:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "20:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:45",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Até 11h"
+     }
+    ],
+    "nao_cabe": "Missa todo dia 12 do mês às 20h (Missa Votiva de Nossa Senhora Aparecida)"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://dioceseitapeva.com.br/horarios-de-missas/",
+    "data": "2025-09-19",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://dioceseitapeva.com.br/paroquia/paroquia-nossa-senhora-aparecida-itapeva/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Missas da tabela da diocese, editada pela última vez em 19/09/2025."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Piedade",
+  "categoria": "paroquia",
+  "cidade": "Itapeva",
+  "padroeiro": "Nossa Senhora da Piedade",
+  "contatos": {
+   "telefone": "1535223979",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paropieta@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora da Piedade",
+    "tipo": "matriz",
+    "cidade": "Itapeva",
+    "localidade": "Vila Nova",
+    "endereco": "Rua Prefeito João Benedito Barbosa, 55",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": "Até 12h"
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://dioceseitapeva.com.br/horarios-de-missas/",
+    "data": "2026-02-18",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://dioceseitapeva.com.br/paroquia/piedade-itapeva/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Camilo de Léllis",
+  "categoria": "paroquia",
+  "cidade": "Itapeva",
+  "padroeiro": "São Camilo de Léllis",
+  "contatos": {
+   "telefone": "15996428703",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasaocamilo@yahoo.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Camilo de Léllis",
+    "tipo": "matriz",
+    "cidade": "Itapeva",
+    "localidade": "Vila São Camilo",
+    "endereco": "Praça Clara Golob Fascetti, 50",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "14:00",
+      "semanas": null,
+      "observacao": "Até 17h30"
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://dioceseitapeva.com.br/horarios-de-missas/",
+    "data": "2025-10-06",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://dioceseitapeva.com.br/paroquia/saocamilo-itapeva/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Missas da tabela da diocese, editada pela última vez em 06/10/2025."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Roque",
+  "categoria": "paroquia",
+  "cidade": "Itapeva",
+  "padroeiro": "São Roque",
+  "contatos": {
+   "telefone": "1535222260",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "mdisaoroque@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Roque",
+    "tipo": "matriz",
+    "cidade": "Itapeva",
+    "localidade": "Jardim Maringá",
+    "endereco": "Praça Rubens dos Santos Renó, 50",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Até 11h"
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://dioceseitapeva.com.br/horarios-de-missas/",
+    "data": "2025-09-15",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://dioceseitapeva.com.br/paroquia/paroquia-saoroque-itapeva/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Missas da tabela da diocese, editada pela última vez em 15/09/2025. Secretaria na Rua Antônio Galvão dos Santos, 296, Jardim Maringá."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Itapeva",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "15998129110",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasantoantonioitapeva@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Itapeva",
+    "localidade": "Jardim Brasil",
+    "endereco": "Rua Aldo Russo, 412",
+    "horarios": [],
+    "nao_cabe": "Confissões: quarta-feira das 14h30 às 17h; sexta-feira das 9h30 às 13h"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://dioceseitapeva.com.br/paroquia/santo-antonio-itapeva/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "A diocese não publica horário de missa desta paróquia (linhas da tabela vazias)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Área Pastoral Nossa Senhora Aparecida e São Pedro",
+  "categoria": "area_pastoral",
+  "cidade": "Itapeva",
+  "padroeiro": "Nossa Senhora Aparecida e São Pedro",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Nossa Senhora Aparecida e São Pedro",
+    "tipo": "matriz",
+    "cidade": "Itapeva",
+    "localidade": "Distrito Alto da Brancal",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://dioceseitapeva.com.br/paroquia/area-pastoral-nsa-aparecida-e-sao-pedro-distrito-alto-da-brancal-itapeva-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "A diocese não publica horário de missa desta paróquia (linhas da tabela vazias). A página da diocese só traz o nome: sem endereço, contato nem clero. Área pastoral sem matriz própria na fonte: a primeira igreja é a sede dela."
+ },
+ {
+  "id_banco": null,
+  "nome": "Área Pastoral São Roque",
+  "categoria": "area_pastoral",
+  "cidade": "Itapeva",
+  "padroeiro": "São Roque",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja São Roque",
+    "tipo": "matriz",
+    "cidade": "Itapeva",
+    "localidade": "Distrito da Areia Branca",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://dioceseitapeva.com.br/paroquia/area-pastoral-sao-roque-distrito-da-areia-branca-itapeva-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "A diocese não publica horário de missa desta paróquia (linhas da tabela vazias). A página da diocese só traz o nome: sem endereço, contato nem clero. Área pastoral sem matriz própria na fonte: a primeira igreja é a sede dela."
+ },
+ {
+  "id_banco": null,
+  "nome": "Área Pastoral Sant'Ana",
+  "categoria": "area_pastoral",
+  "cidade": "Itapeva",
+  "padroeiro": "Sant'Ana",
+  "contatos": {
+   "telefone": "15997865739",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "areasantana@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Sant'Ana",
+    "tipo": "matriz",
+    "cidade": "Itapeva",
+    "localidade": "Distrito do Guarizinho",
+    "endereco": "Rua Martinho Daniel da Silva, s/n",
+    "horarios": [],
+    "nao_cabe": "Confissões: quarta e sexta-feira das 9h às 12h e das 14h às 16h"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://dioceseitapeva.com.br/paroquia/santana/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "A diocese não publica horário de missa desta paróquia (linhas da tabela vazias). Área pastoral sem matriz própria na fonte: a primeira igreja é a sede dela."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Nova Campina",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "15996705671",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "maededeusnovacampina@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Nova Campina",
+    "localidade": "Centro",
+    "endereco": "Avenida João Cardoso de Almeida, 1142",
+    "horarios": [],
+    "nao_cabe": "Confissões: terça a sexta-feira das 8h às 11h30 e das 13h30 às 17h30"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://dioceseitapeva.com.br/paroquia/nossa-senhora-da-conceicao-aparecida-nova-campina/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "A diocese não publica horário de missa desta paróquia (linhas da tabela vazias)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Imaculada Conceição",
+  "categoria": "paroquia",
+  "cidade": "Taquarivaí",
+  "padroeiro": "Imaculada Conceição",
+  "contatos": {
+   "telefone": "15997881349",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "imacon2012@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Imaculada Conceição",
+    "tipo": "matriz",
+    "cidade": "Taquarivaí",
+    "localidade": "Centro",
+    "endereco": "Praça Vidal Nunes Fonseca, 720",
+    "horarios": [],
+    "nao_cabe": "Confissões: quarta e quinta-feira das 9h às 11h e das 14h às 16h30"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://dioceseitapeva.com.br/paroquia/imaculada-conceicao-de-nossa-senhora-taquarivai/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "A diocese não publica horário de missa desta paróquia (linhas da tabela vazias)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Bom Jesus",
+  "categoria": "paroquia",
+  "cidade": "Ribeirão Branco",
+  "padroeiro": "Bom Jesus",
+  "contatos": {
+   "telefone": "1535531339",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "prbbmjesus@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Bom Jesus",
+    "tipo": "matriz",
+    "cidade": "Ribeirão Branco",
+    "localidade": "Centro",
+    "endereco": "Praça Antônio Rodrigues de Souza Sobrinho, 564",
+    "horarios": [],
+    "nao_cabe": "Confissões: quarta e quinta-feira das 14h às 17h"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://dioceseitapeva.com.br/paroquia/senhor-bom-jesus-ribeiraobranco/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "A diocese não publica horário de missa desta paróquia (linhas da tabela vazias)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Paulo II",
+  "categoria": "paroquia",
+  "cidade": "Ribeirão Branco",
+  "padroeiro": "São João Paulo II",
+  "contatos": {
+   "telefone": "15996769734",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasaojoaopaulo2itaboa@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São João Paulo II",
+    "tipo": "matriz",
+    "cidade": "Ribeirão Branco",
+    "localidade": "Distrito de Itaboa",
+    "endereco": "Rua Bom Jesus, 230",
+    "horarios": [],
+    "nao_cabe": "Confissões: terça e quinta-feira das 9h às 12h"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://dioceseitapeva.com.br/paroquia/sao-joao-paulo-ii-itaboa/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "A diocese não publica horário de missa desta paróquia (linhas da tabela vazias). Criada em 02/07/2023, conforme a página da diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Roque",
+  "categoria": "paroquia",
+  "cidade": "Buri",
+  "padroeiro": "São Roque",
+  "contatos": {
+   "telefone": "1535462444",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "psroqueburi@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Roque",
+    "tipo": "matriz",
+    "cidade": "Buri",
+    "localidade": "Centro",
+    "endereco": "Praça 9 de Julho, 144",
+    "horarios": [],
+    "nao_cabe": "Confissões: quarta a sexta-feira das 9h30 às 11h e das 14h às 17h"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://dioceseitapeva.com.br/paroquia/sao-roque-buri/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "A diocese não publica horário de missa desta paróquia (linhas da tabela vazias)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Conceição",
+  "categoria": "paroquia",
+  "cidade": "Capão Bonito",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "1535421602",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "mdiparoquiaconceicao@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "Capão Bonito",
+    "localidade": "Centro",
+    "endereco": "Rua Floriano Peixoto, 470",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": "Até 11h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": "Até 11h"
+     }
+    ],
+    "nao_cabe": "Celebração da Palavra: domingo às 9h e 19h"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://dioceseitapeva.com.br/horarios-de-missas/",
+    "data": "2025-09-24",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://dioceseitapeva.com.br/paroquia/nossa-senhora-da-conceicao-capao-bonito/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Missas da tabela da diocese, editada pela última vez em 24/09/2025. Secretaria na Rua 7 de Setembro, 484, Centro. A fonte não traz missa de domingo."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Capão Bonito",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "1535425946",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquia_aparecidacb@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Capão Bonito",
+    "localidade": "Vila Aparecida",
+    "endereco": "Rua Procópio Batista da Silveira, 140",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 2,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Até 11h30"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Até 11h30"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 2,
+      "hora": "14:00",
+      "semanas": null,
+      "observacao": "Até 16h30"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "14:00",
+      "semanas": null,
+      "observacao": "Até 16h30"
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://dioceseitapeva.com.br/horarios-de-missas/",
+    "data": "2025-08-25",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://dioceseitapeva.com.br/paroquia/nossa-senhora-aparecida-capao-bonito/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Missas da tabela da diocese, editada pela última vez em 25/08/2025."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Cristóvão",
+  "categoria": "paroquia",
+  "cidade": "Capão Bonito",
+  "padroeiro": "São Cristóvão",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "pascomsaocristovaocb@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Cristóvão",
+    "tipo": "matriz",
+    "cidade": "Capão Bonito",
+    "localidade": "Vila Nova Capão",
+    "endereco": "Rua Marui Ferrari, 110",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://dioceseitapeva.com.br/paroquia/sao-cristovao-capao-bonito/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "A diocese não publica horário de missa desta paróquia (linhas da tabela vazias). A página da diocese não traz telefone; o e-mail é o da pastoral da comunicação."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Paulo Apóstolo",
+  "categoria": "paroquia",
+  "cidade": "Capão Bonito",
+  "padroeiro": "São Paulo Apóstolo",
+  "contatos": {
+   "telefone": "15996337331",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "mdipspa@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Paulo Apóstolo",
+    "tipo": "matriz",
+    "cidade": "Capão Bonito",
+    "localidade": "Centro",
+    "endereco": "Avenida Massaichi Kakihara, 1587",
+    "horarios": [],
+    "nao_cabe": "Confissões: terça-feira das 14h às 17h; quarta, quinta e sexta-feira das 7h às 8h, das 9h às 11h e das 14h às 17h"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://dioceseitapeva.com.br/paroquia/sao-paulo-apostolo-capao-bonito/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "A diocese não publica horário de missa desta paróquia (linhas da tabela vazias)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José",
+  "categoria": "paroquia",
+  "cidade": "Guapiara",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "1535471182",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiadeguapiara@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São José",
+    "tipo": "matriz",
+    "cidade": "Guapiara",
+    "localidade": "Centro",
+    "endereco": "Rua São José, 209",
+    "horarios": [],
+    "nao_cabe": "Confissões: terça a sexta-feira das 9h às 11h30"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://dioceseitapeva.com.br/paroquia/paroquia-sao-jose-guapiara/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "A diocese não publica horário de missa desta paróquia (linhas da tabela vazias)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Santuário Nossa Senhora D'Ajuda",
+  "categoria": "santuario",
+  "cidade": "Guapiara",
+  "padroeiro": "Nossa Senhora D'Ajuda",
+  "contatos": {
+   "telefone": "15998162999",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "senhoradaajudadiocesedeitapeva@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário Nossa Senhora D'Ajuda",
+    "tipo": "santuario",
+    "cidade": "Guapiara",
+    "localidade": "Bairro Capela do Alto",
+    "endereco": "Bairro Capela do Alto, s/n",
+    "horarios": [],
+    "nao_cabe": "Confissões: quarta, sexta e domingo das 9h às 11h; quinta-feira das 14h às 16h"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://dioceseitapeva.com.br/paroquia/santuario-nossa-senhora-da-ajuda-guapiara/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "A diocese não publica horário de missa desta paróquia (linhas da tabela vazias). Tem reitor, e a diocese o lista entre as paróquias; o GCatholic não o lista."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Bom Jesus",
+  "categoria": "paroquia",
+  "cidade": "Ribeirão Grande",
+  "padroeiro": "Bom Jesus",
+  "contatos": {
+   "telefone": "15997444820",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "mdi.paroquiabomjesus@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Bom Jesus",
+    "tipo": "matriz",
+    "cidade": "Ribeirão Grande",
+    "localidade": "Centro",
+    "endereco": "Praça Bom Jesus, 73",
+    "horarios": [],
+    "nao_cabe": "Confissões: segunda a sexta-feira das 7h30 às 11h30 e das 13h às 17h (o mesmo horário da secretaria)"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://dioceseitapeva.com.br/paroquia/bom-jesus-ribeirao-grande/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "A diocese não publica horário de missa desta paróquia (linhas da tabela vazias)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Apiaí",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "1535521144",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquia.apiai@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Apiaí",
+    "localidade": "Centro",
+    "endereco": "Praça Francisco Xavier da Rocha, 213",
+    "horarios": [],
+    "nao_cabe": "Confissões com horário marcado: terça-feira das 10h às 11h30 e das 14h às 16h; quinta-feira das 14h às 16h30"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://dioceseitapeva.com.br/paroquia/santo-antonio-apiai/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "A diocese não publica horário de missa desta paróquia (linhas da tabela vazias)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Imaculada Conceição",
+  "categoria": "paroquia",
+  "cidade": "Apiaí",
+  "padroeiro": "Imaculada Conceição",
+  "contatos": {
+   "telefone": "15996351272",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Imaculada Conceição",
+    "tipo": "matriz",
+    "cidade": "Apiaí",
+    "localidade": "Distrito do Lageado",
+    "endereco": "Rua Jerônimo Carriel de Lima",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://dioceseitapeva.com.br/horarios-de-missas/",
+    "data": "2026-04-30",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://dioceseitapeva.com.br/paroquia/imaculada-conceicao-distrito-do-lageado-apiai-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Lageado de Araçaíba. Criada em 2025, conforme a página da diocese; o GCatholic ainda não a lista."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Guia",
+  "categoria": "paroquia",
+  "cidade": "Barra do Chapéu",
+  "padroeiro": "Nossa Senhora da Guia",
+  "contatos": {
+   "telefone": "1535541161",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiabarradochapeu@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora da Guia",
+    "tipo": "matriz",
+    "cidade": "Barra do Chapéu",
+    "localidade": "Centro",
+    "endereco": "Praça Doutor Ademar Pereira de Barros, 89",
+    "horarios": [],
+    "nao_cabe": "Confissões: \"Terça a e quinta-feira: 8h30 às 17h\", como a página escreve"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://dioceseitapeva.com.br/paroquia/nossa-senhora-da-guia-barra-do-chapeu/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "A diocese não publica horário de missa desta paróquia (linhas da tabela vazias)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Imaculada Conceição",
+  "categoria": "paroquia",
+  "cidade": "Itaóca",
+  "padroeiro": "Imaculada Conceição",
+  "contatos": {
+   "telefone": "1535571148",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "imaculadaconceicaodeitaoca@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Imaculada Conceição",
+    "tipo": "matriz",
+    "cidade": "Itaóca",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "14:00",
+      "semanas": null,
+      "observacao": "Até 17h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "14:00",
+      "semanas": null,
+      "observacao": "Até 17h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "14:00",
+      "semanas": null,
+      "observacao": "Até 17h"
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://dioceseitapeva.com.br/horarios-de-missas/",
+    "data": "2026-04-30",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://dioceseitapeva.com.br/paroquia/imaculada-conceicao-itaoca/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "A página só dá o bairro (Centro) como endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sant'Ana",
+  "categoria": "paroquia",
+  "cidade": "Itapirapuã Paulista",
+  "padroeiro": "Sant'Ana",
+  "contatos": {
+   "telefone": "1535481151",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiadeitapirapua@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Sant'Ana",
+    "tipo": "matriz",
+    "cidade": "Itapirapuã Paulista",
+    "localidade": "Centro",
+    "endereco": "Praça Sant'Ana, 01",
+    "horarios": [],
+    "nao_cabe": "Confissões: \"Quarta Sexta-feira: 8h às 12h e das 13h às 17h\", como a página escreve"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://dioceseitapeva.com.br/paroquia/santana-itapirapua-paulista/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "A diocese não publica horário de missa desta paróquia (linhas da tabela vazias)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Bom Jesus",
+  "categoria": "paroquia",
+  "cidade": "Ribeira",
+  "padroeiro": "Bom Jesus",
+  "contatos": {
+   "telefone": "1535551402",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiaribeira@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Bom Jesus",
+    "tipo": "matriz",
+    "cidade": "Ribeira",
+    "localidade": "Centro",
+    "endereco": "Rua Antônio Silveira de Melo, 101",
+    "horarios": [],
+    "nao_cabe": "Confissões: quarta a sexta-feira das 9h às 12h e das 14h às 17h"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://dioceseitapeva.com.br/paroquia/bom-jesus-ribeira/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "A diocese não publica horário de missa desta paróquia (linhas da tabela vazias)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Conceição",
+  "categoria": "paroquia",
+  "cidade": "Itararé",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "Itararé",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://dioceseitapeva.com.br/paroquia/nossa-senhora-da-conceicao-itarare/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "A diocese não publica horário de missa desta paróquia (linhas da tabela vazias). A página da paróquia no site da diocese está com texto de modelo (lorem ipsum): sem endereço nem contato."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Divino Espírito Santo",
+  "categoria": "paroquia",
+  "cidade": "Itararé",
+  "padroeiro": "Divino Espírito Santo",
+  "contatos": {
+   "telefone": "1535315397",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiadivinoespiritosantoita@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Divino Espírito Santo",
+    "tipo": "matriz",
+    "cidade": "Itararé",
+    "localidade": "Tonico Adolfo",
+    "endereco": "Rua Pedro Lobo Ribeiro, 424",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": "Até 11h30"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": "Até 11h30"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "14:00",
+      "semanas": null,
+      "observacao": "Até 17h30"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": "Até 21h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": "Até 11h30"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "14:00",
+      "semanas": null,
+      "observacao": "Até 17h30"
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://dioceseitapeva.com.br/horarios-de-missas/",
+    "data": "2026-08-24",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://dioceseitapeva.com.br/paroquia/divino-espirito-santo-itarare/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "Bom Sucesso de Itararé",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "1535331362",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "mdibomsucesso@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São João Batista",
+    "tipo": "matriz",
+    "cidade": "Bom Sucesso de Itararé",
+    "localidade": "Centro",
+    "endereco": "Praça Agnaldo Dourado Passos, 20",
+    "horarios": [],
+    "nao_cabe": "Confissões: quinta-feira das 9h às 12h e das 14h às 17h"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://dioceseitapeva.com.br/paroquia/sao-joao-batista-bom-sucesso-de-itarare/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "A diocese não publica horário de missa desta paróquia (linhas da tabela vazias)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Bom Jesus",
+  "categoria": "paroquia",
+  "cidade": "Riversul",
+  "padroeiro": "Bom Jesus",
+  "contatos": {
+   "telefone": "1535711243",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiabjderiversul@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Bom Jesus",
+    "tipo": "matriz",
+    "cidade": "Riversul",
+    "localidade": "Centro",
+    "endereco": "Rua Aparecido Lúcio Martins, 09",
+    "horarios": [],
+    "nao_cabe": "Confissões: segunda, quarta e sexta das 9h às 12h e das 14h às 17h30; quinta-feira das 8h às 12h"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://dioceseitapeva.com.br/paroquia/bom-jesus-riversul/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "A diocese não publica horário de missa desta paróquia (linhas da tabela vazias)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "Itaporanga",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "1535653533",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "parsjb150@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São João Batista",
+    "tipo": "matriz",
+    "cidade": "Itaporanga",
+    "localidade": "Centro",
+    "endereco": "Avenida Santa Cruz, 249",
+    "horarios": [],
+    "nao_cabe": "Confissões: segunda 14h às 17h; terça 8h30 às 11h; quarta 9h às 11h e 14h às 17h; quinta 15h às 17h; sexta 8h30 às 11h e 15h às 17h; sábado 8h30 às 11h"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://dioceseitapeva.com.br/paroquia/sao-joao-batista-itaporanga/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "A diocese não publica horário de missa desta paróquia (linhas da tabela vazias)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Terezinha do Menino Jesus",
+  "categoria": "paroquia",
+  "cidade": "Barão de Antonina",
+  "padroeiro": "Santa Teresinha do Menino Jesus",
+  "contatos": {
+   "telefone": "1535731194",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "secretaria@paroquiadebarao.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santa Terezinha do Menino Jesus",
+    "tipo": "matriz",
+    "cidade": "Barão de Antonina",
+    "localidade": "Centro",
+    "endereco": "Rua Fernando de Noronha, 49",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "14:00",
+      "semanas": null,
+      "observacao": "Até 15h30"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "14:00",
+      "semanas": null,
+      "observacao": "Até 16h30"
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://dioceseitapeva.com.br/horarios-de-missas/",
+    "data": "2025-09-23",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://dioceseitapeva.com.br/paroquia/santa-terezinha-do-menino-jesus-barao-de-antonina/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Missas da tabela da diocese, editada pela última vez em 23/09/2025."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Conceição",
+  "categoria": "paroquia",
+  "cidade": "Itaberá",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "15996591710",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "pnsdeitabera@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "Itaberá",
+    "localidade": "Centro",
+    "endereco": "Praça Amador Pereira de Almeida, 188",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": "Missa e novena do Perpétuo Socorro"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 2,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": "Até 11h30"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": "Até 11h30"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": "Até 11h30"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": "Até 11h30"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 2,
+      "hora": "13:00",
+      "semanas": null,
+      "observacao": "Até 16h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "13:00",
+      "semanas": null,
+      "observacao": "Até 16h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "13:00",
+      "semanas": null,
+      "observacao": "Até 16h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "13:00",
+      "semanas": null,
+      "observacao": "Até 16h"
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://dioceseitapeva.com.br/horarios-de-missas/",
+    "data": "2025-08-25",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://dioceseitapeva.com.br/paroquia/nossa-senhora-da-conceicao-itabera/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Missas da tabela da diocese, editada pela última vez em 25/08/2025."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Itaí",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "14996801765",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasantoantonioitai@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Itaí",
+    "localidade": "Centro",
+    "endereco": "Praça da Bandeira, s/n",
+    "horarios": [],
+    "nao_cabe": "Confissões: quarta e sexta-feira das 9h às 11h e das 14h30 às 16h; quinta-feira das 19h30 às 20h40"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://dioceseitapeva.com.br/paroquia/santo-antonio-itai/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "A diocese não publica horário de missa desta paróquia (linhas da tabela vazias)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Coronel Macedo",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "14999059178",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiacelmacedo@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Coronel Macedo",
+    "localidade": "Centro",
+    "endereco": "Rua São Benedito, 348",
+    "horarios": [],
+    "nao_cabe": "Confissões: quarta-feira das 9h às 12h; quinta-feira das 14h às 17h; sexta-feira das 9h às 12h"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://dioceseitapeva.com.br/paroquia/nossa-senhora-da-conceicao-aparecida-coronel-macedo/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "A diocese não publica horário de missa desta paróquia (linhas da tabela vazias)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Roque",
+  "categoria": "paroquia",
+  "cidade": "Taquarituba",
+  "padroeiro": "São Roque",
+  "contatos": {
+   "telefone": "14998570483",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiataquarituba@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Roque",
+    "tipo": "matriz",
+    "cidade": "Taquarituba",
+    "localidade": "Centro",
+    "endereco": "Praça São Roque, 1",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 2,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Até 11h30"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Até 11h30"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "14:00",
+      "semanas": null,
+      "observacao": "Até 16h30"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Até 11h30"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": "Até 19h"
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://dioceseitapeva.com.br/horarios-de-missas/",
+    "data": "2025-08-25",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://dioceseitapeva.com.br/paroquia/sao-roque-taquarituba/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Missas da tabela da diocese, editada pela última vez em 25/08/2025."
+ }
+]
