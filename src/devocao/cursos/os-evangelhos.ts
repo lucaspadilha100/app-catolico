@@ -14,21 +14,21 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "Três etapas" },
         {
           texto:
-            "A Igreja distingue três etapas na formação dos Evangelhos (CIC 126). Primeiro, a vida de Jesus: o que ele realmente fez e ensinou, e que os Evangelhos transmitem com fidelidade. Depois, a pregação dos apóstolos, que contaram essas coisas de viva voz, já iluminados pela Ressurreição e pelo Espírito Santo. Por fim, a escrita: cada evangelista escolheu, resumiu e organizou o que tinha recebido, pensando nas comunidades para as quais escrevia. É o caminho que Lucas descreve no começo do seu livro: muitos já tinham escrito, ele se informou com cuidado e pôs tudo em ordem. Por isso os quatro contam a mesma história com acentos diferentes, como quatro testemunhas que viram o mesmo Senhor.",
+            "A Igreja distingue três etapas na formação dos Evangelhos (CIC 126). Primeiro, a vida de Jesus: o que ele realmente fez e ensinou, e que os Evangelhos transmitem com fidelidade. Depois, a pregação dos apóstolos, que contaram essas coisas de viva voz, já iluminados pela Ressurreição e pelo Espírito Santo. Por fim, a escrita: cada evangelista escolheu, resumiu e organizou o que tinha recebido, pensando nas comunidades para as quais escrevia. É o caminho que Lucas descreve no começo do seu livro: muitos já tinham escrito, ele se informou com cuidado e pôs tudo em ordem. Por isso os quatro contam a mesma história com acentos diferentes: é um só Evangelho em quatro livros, o Evangelho quadriforme (Dei Verbum, 18).",
         },
-        { titulo: "Quem escreveu e quando" },
+        { titulo: "Quem escreveu" },
         {
           texto:
-            "Os Evangelhos não trazem a assinatura de quem os escreveu. Os nomes vêm de uma tradição muito antiga, já firme no século II. Também não trazem data. Muitos estudiosos pensam que Marcos foi o primeiro a ser escrito, por volta do ano 70, que Mateus e Lucas vieram algumas décadas depois e que João é do fim do século I. A tradição antiga, porém, punha Mateus em primeiro lugar, e é por isso que ele abre o Novo Testamento. Datas e ordem de escrita são questões de estudo, e a fé não depende delas. O que a Igreja ensina com firmeza é que os quatro foram escritos por homens que estavam entre os primeiros a crer e que quiseram partilhar essa fé (CIC 515).",
+            "Os Evangelhos não trazem no texto o nome de quem os escreveu. A Igreja sempre afirmou a origem apostólica dos quatro: o que os apóstolos pregaram por ordem de Cristo foi posto por escrito por eles mesmos e por homens do tempo dos apóstolos (Dei Verbum, 18). Santo Irineu, bispo de Lião no século II, já dá os quatro nomes e diz como cada um escreveu (Contra as heresias III,1,1). A tradição antiga punha Mateus em primeiro lugar, e é por isso que ele abre o Novo Testamento. O que a Igreja ensina com firmeza é que os quatro foram escritos por homens que estavam entre os primeiros a crer e que quiseram partilhar essa fé (CIC 515).",
         },
         { titulo: "Os sinóticos e João" },
         {
           texto:
-            "Mateus, Marcos e Lucas se parecem muito: contam boa parte dos mesmos fatos, na mesma ordem e às vezes com as mesmas palavras. Por isso são chamados sinóticos, de uma palavra grega que quer dizer ver junto: dá para pô-los em colunas, lado a lado, e comparar. João segue outro caminho, com longos discursos e poucos milagres, escolhidos como sinais. Desde os primeiros séculos os cristãos ligaram os quatro aos quatro seres vivos que cercam o trono de Deus (Ez 1,10; Ap 4,7). Na forma que se tornou mais comum, Mateus é o homem, Marcos o leão, Lucas o touro e João a águia. Você vai encontrar esses símbolos em muitas igrejas, nos púlpitos e nos vitrais.",
+            "Mateus, Marcos e Lucas se parecem muito: contam boa parte dos mesmos fatos, na mesma ordem e às vezes com as mesmas palavras. Por isso são chamados sinóticos, de uma palavra grega que quer dizer ver junto: dá para pô-los em colunas, lado a lado, e comparar. João segue outro caminho, com longos discursos e poucos milagres, escolhidos como sinais. Desde os primeiros séculos os cristãos ligaram os quatro aos quatro seres vivos que cercam o trono de Deus (Ez 1,10; Ap 4,7). Na forma que se tornou a mais comum, Mateus é o homem, Marcos o leão, Lucas o touro e João a águia. Você vai encontrar esses símbolos em muitas igrejas, nos púlpitos e nos vitrais.",
         },
         {
           texto:
-            "A Igreja venera o Evangelho de modo único (CIC 127). Na missa, o livro pode entrar em procissão, ser acompanhado de velas e incensado (CIC 1154), e o povo se põe de pé para ouvi-lo. Aos domingos, a leitura segue um ciclo de três anos: no Ano A se lê Mateus, no Ano B Marcos e no Ano C Lucas. João é lido sobretudo na Quaresma e no Tempo Pascal, e também no Ano B, quando o capítulo 6 entra no meio de Marcos. Assim, quem vai à missa todos os domingos escuta quase todo o Evangelho em três anos.",
+            "A Igreja venera o Evangelho de modo único (CIC 127). Na missa, o livro pode entrar em procissão, ser acompanhado de velas e incensado (CIC 1154), e o povo se põe de pé para ouvi-lo. Aos domingos, a leitura segue um ciclo de três anos: no Ano A se lê Mateus, no Ano B Marcos e no Ano C Lucas. João é lido sobretudo na Quaresma e no Tempo Pascal, e também no Ano B, quando o capítulo 6 entra no meio de Marcos. Assim, quem vai à missa todos os domingos escuta, em três anos, grande parte dos Evangelhos.",
         },
         { ir: "liturgia", rotulo: "Leituras da missa de hoje" },
         {
@@ -48,22 +48,22 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "Para quem ele escreveu" },
         {
           texto:
-            "Uma tradição do começo do século II, recolhida por Papias, bispo de Hierápolis, diz que Marcos foi intérprete de Pedro e pôs por escrito o que o apóstolo pregava. A tradição o identifica com João Marcos, citado nos Atos (At 12,12), e com o Marcos que Pedro chama de filho (1Pd 5,13). Os antigos situavam o livro em Roma. O próprio texto mostra que os leitores não eram da Judeia: Marcos explica os costumes judaicos (Mc 7,3-4) e traduz as palavras em aramaico que Jesus dizia, como Efatá (Mc 7,34) e Abbá (Mc 14,36). Muitos estudiosos pensam numa comunidade que sofria perseguição e precisava aprender a seguir um Messias crucificado.",
+            "Papias, bispo de Hierápolis no começo do século II, e Santo Irineu dizem que Marcos foi discípulo e intérprete de Pedro e pôs por escrito o que o apóstolo pregava (Contra as heresias III,1,1). A tradição o identifica com João Marcos, citado nos Atos (At 12,12), e com o Marcos que Pedro chama de filho (1Pd 5,13). Os antigos situavam o livro em Roma. O próprio texto mostra que os leitores não eram da Judeia: Marcos explica os costumes judaicos (Mc 7,3-4) e traduz as palavras em aramaico que Jesus dizia, como Efatá (Mc 7,34) e Abbá (Mc 14,36).",
         },
         { titulo: "Os traços do texto" },
         {
           texto:
-            "Marcos guarda detalhes vivos, como de quem viu: Jesus dormindo na popa sobre um travesseiro (Mc 4,38), o cego que larga a capa e dá um salto. Mostra as emoções de Jesus: a indignação diante dos corações endurecidos (Mc 3,5), o olhar de afeto para o jovem rico (Mc 10,21). Os discípulos aparecem lentos para entender, e Jesus pede muitas vezes que não espalhem quem ele é (Mc 8,30). No meio do livro está a pergunta que vale para todo leitor: e vós, quem dizeis que eu sou? (Mc 8,29). A resposta completa só vem na cruz, quando um centurião romano, vendo Jesus morrer, o reconhece como Filho de Deus (Mc 15,39).",
+            "Marcos guarda detalhes vivos: Jesus dormindo na popa sobre um travesseiro (Mc 4,38), o cego que larga a capa e dá um salto. Mostra as emoções de Jesus: a indignação diante dos corações endurecidos (Mc 3,5), o olhar de afeto para o jovem rico (Mc 10,21). Os discípulos aparecem lentos para entender, e Jesus pede muitas vezes que não espalhem quem ele é (Mc 8,30). No meio do livro está a pergunta que vale para todo leitor: e vós, quem dizeis que eu sou? (Mc 8,29). Ao pé da cruz, um centurião romano, vendo Jesus morrer, o reconhece como Filho de Deus (Mc 15,39).",
         },
         { titulo: "Rezar com Marcos" },
         {
           texto:
-            "O cego Bartimeu, à beira do caminho de Jericó, ensina uma oração. Ele grita o nome de Jesus e pede misericórdia, e não se cala quando mandam. O Catecismo lembra que esse grito foi retomado na tradição da oração a Jesus (CIC 2616). Numa forma muito usada, ela diz: Senhor Jesus Cristo, Filho de Deus, tende piedade de mim, pecador. Pode-se repetir essa invocação devagar, no ritmo da respiração, no ônibus, na fila, antes de dormir (CIC 2667). Depois, escute a pergunta de Jesus como feita a você: que queres que eu te faça? E termine como Bartimeu, que foi seguindo Jesus pelo caminho.",
+            "O cego Bartimeu, à beira do caminho de Jericó, ensina uma oração. Ele grita o nome de Jesus e pede misericórdia, e não se cala quando mandam. O Catecismo lembra que esse grito foi retomado na tradição da oração a Jesus (CIC 2616). Na forma mais habitual, que o Catecismo traz, ela diz: Jesus, Cristo, Filho de Deus, Senhor, tende piedade de nós, pecadores (CIC 2667). Repetida com o coração atento, essa invocação do nome de Jesus é possível em todo tempo: no ônibus, na fila, antes de dormir (CIC 2668). Depois, escute a pergunta de Jesus como feita a você: que queres que eu te faça? E termine como Bartimeu, que foi seguindo Jesus pelo caminho.",
         },
         { ir: "/biblia/MRK/1", rotulo: "Evangelho de Marcos" },
         {
           pratica:
-            "Leia nesta semana o Evangelho de Marcos inteiro, dois ou três capítulos por dia. Cada vez que terminar a leitura, diga uma vez, sem pressa, a oração de Bartimeu: Senhor Jesus Cristo, Filho de Deus, tende piedade de mim, pecador.",
+            "Leia nesta semana o Evangelho de Marcos inteiro, dois ou três capítulos por dia. Cada vez que terminar a leitura, diga uma vez, sem pressa, a invocação que nasceu do grito de Bartimeu: Jesus, Cristo, Filho de Deus, Senhor, tende piedade de nós, pecadores.",
         },
       ],
     },
@@ -78,16 +78,16 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "Para quem ele escreveu" },
         {
           texto:
-            "A tradição atribui o livro ao apóstolo Mateus, o cobrador de impostos que Jesus chamou da sua banca (Mt 9,9). Papias, no século II, dizia que Mateus tinha reunido as palavras do Senhor em língua hebraica. O texto que chegou até nós está em grego, e a relação entre os dois é discutida pelos estudiosos. O que salta aos olhos é o público: cristãos vindos do judaísmo, que conheciam bem a Lei e os Profetas. Muitos estudiosos situam essa comunidade na Síria, talvez em Antioquia. Para ela, Mateus mostra que Jesus não aboliu a Lei, mas a levou à perfeição (Mt 5,17; CIC 577).",
+            "A tradição atribui o livro ao apóstolo Mateus, o cobrador de impostos que Jesus chamou da sua banca (Mt 9,9). Santo Irineu diz que Mateus escreveu o seu Evangelho entre os hebreus, na língua deles (Contra as heresias III,1,1). O texto que a Igreja recebeu e lê está em grego. O livro fala a quem conhecia bem a Lei e os Profetas, e mostra que Jesus não aboliu a Lei, mas a levou à perfeição (Mt 5,17; CIC 577).",
         },
         { titulo: "Os traços do texto" },
         {
           texto:
-            "Mateus repete muitas vezes que algo aconteceu para que se cumprisse o que o Senhor tinha dito pelos profetas (Mt 1,22). Só ele conta a visita dos magos e os sonhos de José. Prefere dizer Reino dos Céus, como os judeus piedosos, que evitavam pronunciar o nome de Deus. Reúne o ensinamento de Jesus em cinco grandes discursos, cada um terminado com uma frase parecida (Mt 7,28; 11,1; 13,53; 19,1; 26,1): o Sermão da Montanha, a missão, as parábolas, a vida da comunidade e o fim dos tempos. Muitos veem nisso um eco dos cinco livros de Moisés, e em Jesus, que ensina do alto do monte, o novo Moisés. É também o único Evangelho que usa a palavra Igreja (Mt 16,18; 18,17).",
+            "Mateus repete muitas vezes que algo aconteceu para que se cumprisse o que o Senhor tinha dito pelos profetas (Mt 1,22). Só ele conta a visita dos magos e os sonhos de José. Prefere dizer Reino dos Céus. Reúne o ensinamento de Jesus em cinco grandes discursos, cada um terminado com uma frase parecida (Mt 7,28; 11,1; 13,53; 19,1; 26,1): o Sermão da Montanha, a missão, as parábolas, a vida da comunidade e o fim dos tempos. É também o único Evangelho que usa a palavra Igreja (Mt 16,18; 18,17).",
         },
         {
           texto:
-            "O Sermão da Montanha, nos capítulos 5 a 7, resume a vida cristã. A Igreja vê nele a expressão própria da Lei nova (CIC 1965-1966), e as bem-aventuranças estão no coração da pregação de Jesus (CIC 1716). No fim do livro, a cena do juízo (Mt 25,31-46) mostra que o próprio Senhor se identifica com o faminto, o doente e o preso. Daí vêm, em grande parte, as obras de misericórdia.",
+            "O Sermão da Montanha, nos capítulos 5 a 7, resume a vida cristã. A Igreja vê nele a expressão própria da Lei nova (CIC 1965-1966), e as bem-aventuranças estão no coração da pregação de Jesus (CIC 1716). No fim do livro, a cena do juízo (Mt 25,31-46) mostra que o próprio Senhor se identifica com o faminto, o doente e o preso. Dessa página vêm, em grande parte, as obras de misericórdia corporais (CIC 2447).",
         },
         { titulo: "Rezar com Mateus" },
         {
@@ -107,21 +107,21 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "LUK 15:1-10" },
         {
           texto:
-            "Lucas escreveu dois livros: o Evangelho e os Atos dos Apóstolos. Os dois são dedicados ao mesmo Teófilo (Lc 1,3; At 1,1), e o segundo continua o primeiro. A tradição, desde o século II, o identifica com Lucas, companheiro de viagem de Paulo, que o apóstolo chama de médico muito amado (Cl 4,14). Ele escreve com cuidado de historiador, num grego elegante, e começa explicando como trabalhou.",
+            "Lucas escreveu dois livros: o Evangelho e os Atos dos Apóstolos. Os dois são dedicados ao mesmo Teófilo (Lc 1,3; At 1,1), e o segundo continua o primeiro. A tradição, desde o século II, o identifica com Lucas, companheiro de viagem de Paulo, que o apóstolo chama de médico muito amado (Cl 4,14; Santo Irineu, Contra as heresias III,1,1). Ele começa explicando como trabalhou: informou-se com cuidado e pôs tudo em ordem (Lc 1,3).",
         },
         { titulo: "Para quem ele escreveu" },
         {
           texto:
-            "Teófilo quer dizer amigo de Deus. Pode ter sido uma pessoa importante, já instruída na fé, ou um nome que serve para todo leitor que ama a Deus. De qualquer modo, Lucas pensa em cristãos vindos do mundo grego e pagão. Por isso faz a genealogia de Jesus subir até Adão (Lc 3,38): Jesus é Salvador de toda a humanidade, não só de um povo. E mostra o caminho da salvação que parte de Jerusalém e chega aos confins da terra.",
+            "Lucas escreve ao excelentíssimo Teófilo, que já tinha sido instruído na fé (Lc 1,3-4); o nome quer dizer amigo de Deus. Faz a genealogia de Jesus subir até Adão (Lc 3,38), e no Templo Simeão chama o Menino de luz para ser revelada aos gentios (Lc 2,32). Nos Atos, o caminho da salvação parte de Jerusalém e chega aos confins da terra (At 1,8).",
         },
         { titulo: "Os traços do texto" },
         {
           texto:
-            "Lucas é chamado o Evangelho da misericórdia. Só ele conta a parábola do bom samaritano, a da dracma perdida e a do filho pródigo, que é antes a do pai misericordioso (CIC 1439). Só ele conta a conversão de Zaqueu e a promessa ao bom ladrão. Dá lugar aos pobres, aos pecadores e às mulheres que seguiam Jesus (Lc 8,1-3). Gosta da palavra hoje: hoje nasceu o Salvador (Lc 2,11), hoje a salvação entrou nesta casa (Lc 19,9). E sublinha a ação do Espírito Santo e a oração de Jesus, que reza antes de cada momento decisivo da sua missão (CIC 2600).",
+            "Lucas guarda muitas páginas da misericórdia. Só ele conta a parábola do bom samaritano, a da dracma perdida e a do filho pródigo, que é antes a do pai misericordioso (CIC 1439). Só ele conta a conversão de Zaqueu e a promessa ao bom ladrão. Dá lugar aos pobres, aos pecadores e às mulheres que seguiam Jesus (Lc 8,1-3). Gosta da palavra hoje: hoje nasceu o Salvador (Lc 2,11), hoje a salvação entrou nesta casa (Lc 19,9). E sublinha a ação do Espírito Santo e a oração de Jesus, que reza antes de cada momento decisivo da sua missão (CIC 2600).",
         },
         {
           texto:
-            "É também o Evangelho da infância contada do lado de Maria: a anunciação, a visita a Isabel, o nascimento em Belém, os pastores, a apresentação no Templo. Lucas diz duas vezes que Maria guardava todas essas coisas no coração. Da saudação do anjo e de Isabel vem a primeira parte da Ave-Maria (Lc 1,28.42).",
+            "É também o Evangelho da infância contada do lado de Maria: a anunciação, a visita a Isabel, o nascimento em Belém, os pastores, a apresentação no Templo. Lucas diz duas vezes que Maria guardava todas essas coisas no coração (Lc 2,19.51). Da saudação do anjo e de Isabel vem a primeira parte da Ave-Maria (Lc 1,28.42).",
         },
         { titulo: "Rezar com Lucas" },
         {
@@ -147,12 +147,12 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "Para quem ele escreveu" },
         {
           texto:
-            "João diz por que escreveu: para que o leitor creia que Jesus é o Cristo, o Filho de Deus, e tenha a vida em seu nome (Jo 20,31). Escreve para quem já conhece a história e quer entrar mais fundo no mistério. O livro se apresenta como testemunho do discípulo que Jesus amava, o que se reclinou junto ao peito do Senhor na Ceia (Jo 13,23; 21,24). A tradição, desde Santo Irineu, no século II, o identifica com o apóstolo João, filho de Zebedeu, e situa a escrita em Éfeso, no fim do século I. Muitos estudiosos pensam que o texto recebeu a forma final de discípulos dele: o próprio livro termina dizendo nós sabemos que o seu testemunho é verdadeiro.",
+            "João diz por que escreveu: para que o leitor creia que Jesus é o Cristo, o Filho de Deus, e tenha a vida em seu nome (Jo 20,31). Escreve para quem já conhece a história e quer entrar mais fundo no mistério. O livro se apresenta como testemunho do discípulo que Jesus amava, o que se reclinou junto ao peito do Senhor na Ceia (Jo 13,23; 21,24). A tradição, desde Santo Irineu, no século II, o identifica com o apóstolo João, filho de Zebedeu, e situa a escrita em Éfeso (Contra as heresias III,1,1). O próprio livro termina dizendo: nós sabemos que o seu testemunho é verdadeiro (Jo 21,24).",
         },
         { titulo: "Os traços do texto" },
         {
           texto:
-            "João conta poucos milagres e os chama de sinais: costuma-se contar sete, das bodas de Caná (Jo 2,11) à ressurreição de Lázaro. Cada sinal abre um longo discurso. Jesus fala de si com a expressão Eu sou, que lembra o nome de Deus revelado a Moisés: o pão da vida (Jo 6,35), a luz do mundo (Jo 8,12), o bom pastor (Jo 10,11), a ressurreição e a vida (Jo 11,25), o caminho, a verdade e a vida (Jo 14,6), a videira (Jo 15,1). João não narra a instituição da Eucaristia, mas traz o discurso do pão da vida, que a prepara (CIC 1338). Na Última Ceia, conta o lava-pés, o mandamento novo e a longa oração de Jesus ao Pai, chamada oração sacerdotal (Jo 17; CIC 2746-2747). Só ele fala de Maria em Caná e ao pé da cruz (CIC 2618).",
+            "João conta poucos milagres e os chama de sinais: o primeiro foi nas bodas de Caná (Jo 2,11). Vários deles vêm acompanhados de um longo discurso, como a multiplicação dos pães (Jo 6). Jesus fala de si com a expressão Eu sou, que lembra o nome de Deus revelado a Moisés (Ex 3,14; CIC 211): o pão da vida (Jo 6,35), a luz do mundo (Jo 8,12), o bom pastor (Jo 10,11), a ressurreição e a vida (Jo 11,25), o caminho, a verdade e a vida (Jo 14,6), a videira (Jo 15,1). João não narra a instituição da Eucaristia, mas traz o discurso do pão da vida, que a prepara (CIC 1338). Na Última Ceia, conta o lava-pés, o mandamento novo e a longa oração de Jesus ao Pai, chamada oração sacerdotal (Jo 17; CIC 2746-2747). Só ele fala de Maria em Caná e ao pé da cruz (CIC 2618).",
         },
         { titulo: "Rezar com João" },
         {
@@ -172,12 +172,12 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "JHN 20:1-9" },
         {
           texto:
-            "Os quatro Evangelhos dedicam à última semana de Jesus um espaço enorme. Ali eles mais se aproximam: a entrada em Jerusalém, a Ceia, a prisão, o julgamento diante do Sinédrio e de Pilatos, a crucifixão, a sepultura e o sepulcro vazio no primeiro dia da semana. Já se disse que os Evangelhos são narrativas da Paixão com uma longa introdução. Mesmo assim, cada evangelista contempla a cruz com um olhar próprio.",
+            "Os quatro Evangelhos dedicam à última semana de Jesus um espaço enorme. Ali eles mais se aproximam: a entrada em Jerusalém, a Ceia, a prisão, o julgamento diante do Sinédrio e de Pilatos, a crucifixão, a sepultura e o sepulcro vazio no primeiro dia da semana. Mesmo assim, cada evangelista contempla a cruz com um olhar próprio.",
         },
         { titulo: "Quatro olhares sobre a cruz" },
         {
           texto:
-            "Marcos mostra a Paixão em toda a sua dureza: os discípulos fogem, e Jesus morre com o grito do salmo, meu Deus, por que me abandonaste? (Mc 15,34). Mateus insiste no cumprimento das Escrituras e nos sinais da hora da morte: o véu do Templo se rasga, a terra treme (Mt 27,51). Lucas mostra Jesus que perdoa os que o crucificam (Lc 23,34), promete o paraíso ao ladrão arrependido e morre entregando o espírito nas mãos do Pai (Lc 23,46). João mostra o Senhor que dá a vida livremente: carrega ele mesmo a cruz (Jo 19,17), entrega a mãe ao discípulo amado e, antes de morrer, diz que tudo está cumprido (Jo 19,30). Da reunião dessas frases nasceu a devoção das sete palavras de Jesus na cruz (CIC 2605).",
+            "Marcos mostra a Paixão em toda a sua dureza: os discípulos fogem, e Jesus morre com o grito do salmo, meu Deus, por que me abandonaste? (Mc 15,34). Mateus insiste no cumprimento das Escrituras e nos sinais da hora da morte: o véu do Templo se rasga, a terra treme (Mt 27,51). Lucas mostra Jesus que perdoa os que o crucificam (Lc 23,34), promete o paraíso ao ladrão arrependido e morre entregando o espírito nas mãos do Pai (Lc 23,46). João mostra o Senhor que dá a vida livremente: carrega ele mesmo a cruz (Jo 19,17), entrega a mãe ao discípulo amado e, antes de morrer, diz que tudo está cumprido (Jo 19,30). O Catecismo reúne essas palavras de Jesus na cruz, tiradas dos quatro Evangelhos (CIC 2605), e a piedade do povo as medita como as sete palavras.",
         },
         {
           texto:
@@ -186,7 +186,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "O sepulcro vazio" },
         {
           texto:
-            "Nenhum evangelista descreve o momento da ressurreição. Todos começam pelo mesmo ponto: mulheres que vão ao sepulcro de madrugada, no primeiro dia da semana, e o encontram aberto. Maria Madalena e as santas mulheres são as primeiras a encontrar o Ressuscitado e a levar a notícia aos apóstolos (CIC 641). O sepulcro vazio sozinho não prova a ressurreição, mas é o primeiro sinal, e o discípulo amado viu e creu (CIC 640). Os detalhes variam de um Evangelho para outro: quantas mulheres, quantos anjos, onde Jesus aparece. O essencial é o mesmo nos quatro. E nenhum esconde a dúvida dos discípulos, que custaram a crer (CIC 643-644): não foram eles que inventaram a Ressurreição, foi ela que os venceu.",
+            "Nenhum evangelista descreve o momento da ressurreição. Todos começam pelo mesmo ponto: mulheres que vão ao sepulcro de madrugada, no primeiro dia da semana, e o encontram aberto. Maria Madalena e as santas mulheres são as primeiras a encontrar o Ressuscitado e a levar a notícia aos apóstolos (CIC 641). O sepulcro vazio sozinho não prova a ressurreição, mas é o primeiro sinal, e o discípulo amado viu e creu (CIC 640). Os detalhes variam de um Evangelho para outro: quantas mulheres, quantos anjos, onde Jesus aparece. O essencial é o mesmo nos quatro. E nenhum esconde a dúvida dos discípulos, que custaram a crer (CIC 643-644): a fé deles na Ressurreição não foi produto da imaginação: nasceu do encontro com Jesus ressuscitado (CIC 644).",
         },
         {
           texto:

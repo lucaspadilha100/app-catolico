@@ -14,7 +14,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "Palavra de Deus em palavras humanas" },
         {
           texto:
-            "Deus quis falar conosco do jeito que nós falamos. Assim como o Filho eterno se fez homem e assumiu a nossa fraqueza, as palavras de Deus se fizeram semelhantes à linguagem humana (CIC 101). Por isso há na Bíblia poemas e leis, cartas e cantos de festa, histórias de família e lamentos de quem sofre. Quem esquece o lado humano lê a Bíblia como se tivesse caído pronta do céu e se confunde com ela. Quem esquece o lado divino a lê como um livro antigo qualquer. A fé católica guarda os dois ao mesmo tempo.",
+            "Deus quis falar conosco do jeito que nós falamos. Assim como o Filho eterno se fez homem e assumiu a nossa fraqueza, as palavras de Deus se fizeram semelhantes à linguagem humana (CIC 101). Por isso há na Bíblia poemas e leis, cartas e cantos de festa, histórias de família e lamentos de quem sofre. Por isso, para entender o que Deus quis nos dizer, é preciso prestar atenção ao que os autores sagrados quiseram dizer (CIC 109). A fé católica guarda os dois lados ao mesmo tempo: são palavras humanas, e são Palavra de Deus.",
         },
         { titulo: "O que é a inspiração" },
         {
@@ -23,7 +23,7 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "Dessa inspiração vem a verdade da Bíblia: ela ensina com firmeza, fielmente e sem erro, a verdade que Deus quis nos dar para a nossa salvação (CIC 107). Isso não faz dela um tratado de astronomia. Quando um salmo compara o sol a um noivo que sai do quarto para percorrer o céu (Sl 18(19)), o autor fala das coisas como todos as viam, e não dá uma aula de ciência. A fé cristã também não é uma religião do livro, mas da Palavra viva, que é Jesus (CIC 108). Por isso a Igreja venera as Escrituras como venera o Corpo do Senhor (CIC 103): na missa, o Evangelho entra em procissão, pode ser incensado e é escutado de pé.",
+            "Dessa inspiração vem a verdade da Bíblia: ela ensina com firmeza, fielmente e sem erro, a verdade que Deus quis nos dar para a nossa salvação (CIC 107). Isso não faz dela um tratado de astronomia. Quando um salmo compara o sol a um noivo que sai do quarto nupcial para percorrer o seu caminho (Sl 18(19),6), o autor fala das coisas como aparecem aos olhos e como se falava no seu tempo. O Papa Leão XIII, seguindo Santo Agostinho, ensinou que os autores sagrados não quiseram explicar a natureza das coisas visíveis, porque isso não serve para a salvação (Providentissimus Deus, 18). A fé cristã também não é uma religião do livro, mas da Palavra viva, que é Jesus (CIC 108). Por isso a Igreja venera as Escrituras como venera o Corpo do Senhor (CIC 103): na missa, o Evangelho entra em procissão, pode ser incensado e é escutado de pé.",
         },
         {
           pratica:
@@ -42,7 +42,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "Muitos séculos de escrita" },
         {
           texto:
-            "O Antigo Testamento se formou ao longo de muitos séculos. Histórias contadas de pais para filhos, cantos do Templo, leis, palavras dos profetas guardadas pelos seus discípulos foram sendo escritas, reunidas e às vezes completadas por mãos posteriores. A maior parte foi escrita em hebraico, alguns trechos em aramaico, e alguns livros nos chegaram em grego. Antes de Cristo, judeus que viviam em Alexandria, no Egito, traduziram as Escrituras para o grego: é a tradução chamada dos Setenta. O Novo Testamento foi escrito em grego, num tempo muito mais curto, na segunda metade do século I.",
+            "O Antigo Testamento se formou ao longo de muitos séculos. Nele estão a história da aliança, as leis, os cantos e as orações do povo e as palavras dos profetas: é a história da salvação contada pelos autores sagrados, verdadeira palavra de Deus (Dei Verbum, 14). A maior parte foi escrita em hebraico, alguns trechos em aramaico, e alguns livros nos chegaram em grego. Antes de Cristo, judeus que viviam em Alexandria, no Egito, traduziram as Escrituras para o grego: é a tradução chamada dos Setenta. O Novo Testamento foi escrito em grego, pelos apóstolos e por homens do tempo dos apóstolos, sob a inspiração do Espírito Santo (CIC 76).",
         },
         { titulo: "O cânon: a lista dos livros" },
         {
@@ -56,7 +56,7 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "Com o tempo, o judaísmo ficou só com os livros conservados em hebraico. No século XVI, os reformadores protestantes seguiram essa lista mais curta, e Lutero pôs aqueles livros num apêndice da sua tradução, como leitura útil, mas não como Escritura. Por isso muitas Bíblias evangélicas têm 66 livros, com 39 no Antigo Testamento. As Igrejas ortodoxas, por sua vez, acolhem alguns livros a mais. O Novo Testamento é o mesmo para todos. Para o católico, basta saber a razão da sua Bíblia e ler os 73 livros com a mesma reverência, sem desprezar os irmãos que leem uma lista diferente.",
+            "Com o tempo, o judaísmo ficou só com os livros conservados em hebraico. No século XVI, os reformadores protestantes adotaram essa lista mais curta. Por isso as Bíblias evangélicas costumam ter 66 livros, 39 deles no Antigo Testamento, e algumas trazem os sete à parte, num apêndice. As Igrejas ortodoxas, por sua vez, acolhem alguns livros a mais. O Novo Testamento é o mesmo para todos. Para o católico, basta saber a razão da sua Bíblia e ler os 73 livros com a mesma reverência. Os cristãos que leem uma lista diferente são, pelo batismo, irmãos no Senhor (CIC 818).",
         },
         { ir: "/biblia/TOB/1", rotulo: "Livro de Tobias" },
         {
@@ -76,12 +76,12 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "A Lei, ou Pentateuco" },
         {
           texto:
-            "Os cinco primeiros livros são Gênesis, Êxodo, Levítico, Números e Deuteronômio. Os judeus os chamam de Torá, que quer dizer ensinamento. Eles contam a criação, a história dos patriarcas Abraão, Isaac e Jacó, a escravidão no Egito, a libertação, a aliança no monte Sinai e a Lei que Deus deu ao povo por meio de Moisés (CIC 62). Ali estão os Dez Mandamentos (Ex 20; Dt 5). As leis do Levítico podem parecer estranhas hoje, mas mostram que Deus queria um povo santo em tudo, até nos detalhes da vida de cada dia.",
+            "Os cinco primeiros livros são Gênesis, Êxodo, Levítico, Números e Deuteronômio. Os judeus os chamam de Torá, que quer dizer ensinamento. Eles contam a criação, a história dos patriarcas Abraão, Isaac e Jacó, a escravidão no Egito, a libertação, a aliança no monte Sinai e a Lei que Deus deu ao povo por meio de Moisés (CIC 62). Ali estão os Dez Mandamentos (Ex 20; Dt 5). As leis do Levítico podem parecer estranhas hoje; o próprio livro dá a razão delas: sede santos, porque eu sou santo (Lv 19,2).",
         },
         { titulo: "Os livros históricos" },
         {
           texto:
-            "São dezesseis: Josué, Juízes, Rute, os dois livros de Samuel, os dois dos Reis, os dois das Crônicas, Esdras, Neemias, Tobias, Judite, Ester e os dois dos Macabeus. Contam a entrada na terra prometida, o tempo dos juízes, os reis Saul, Davi e Salomão, a divisão do reino, o exílio na Babilônia, a volta e a resistência dos Macabeus. Não são história no sentido moderno, com datas e documentos, mas a história do povo lida com os olhos da fé: a fidelidade de Deus e as quedas e retornos de Israel. Rute, Tobias, Judite e Ester contam a vida de pessoas e famílias pelas quais Deus agiu.",
+            "São dezesseis: Josué, Juízes, Rute, os dois livros de Samuel, os dois dos Reis, os dois das Crônicas, Esdras, Neemias, Tobias, Judite, Ester e os dois dos Macabeus. Contam a entrada na terra prometida, o tempo dos juízes, os reis Saul, Davi e Salomão, a divisão do reino, o exílio na Babilônia, a volta e a resistência dos Macabeus. Neles se vê a fidelidade de Deus e as quedas e retornos de Israel. Rute, Tobias, Judite e Ester contam a vida de pessoas e famílias pelas quais Deus agiu.",
         },
         { titulo: "Os sapienciais e os profetas" },
         {
@@ -110,7 +110,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "Os Evangelhos" },
         {
           texto:
-            "Evangelho quer dizer boa notícia. Os quatro Evangelhos são o coração de toda a Escritura, porque são o principal testemunho sobre a vida e o ensino de Jesus (CIC 125). Formaram-se em três etapas: primeiro, o que Jesus fez e ensinou; depois, a pregação dos apóstolos, que após a Páscoa compreendiam tudo com mais clareza; por fim, a escrita dos evangelistas, que escolheram, resumiram e organizaram o que tinham recebido, sempre transmitindo a verdade sobre Jesus (CIC 126). A Igreja afirma sem hesitar que os Evangelhos são históricos (CIC 126). Mateus, Marcos e Lucas se parecem muito e por isso são chamados sinóticos, isto é, que se leem lado a lado. João, escrito mais tarde, traz longos discursos de Jesus e um olhar mais contemplativo.",
+            "Evangelho quer dizer boa notícia. Os quatro Evangelhos são o coração de toda a Escritura, porque são o principal testemunho sobre a vida e o ensino de Jesus (CIC 125). Formaram-se em três etapas: primeiro, o que Jesus fez e ensinou; depois, a pregação dos apóstolos, que após a Páscoa compreendiam tudo com mais clareza; por fim, a escrita dos evangelistas, que escolheram, resumiram e organizaram o que tinham recebido, sempre transmitindo a verdade sobre Jesus (CIC 126). A Igreja afirma sem hesitar que os Evangelhos são históricos (CIC 126). Mateus, Marcos e Lucas se parecem muito e por isso são chamados sinóticos, isto é, que se leem lado a lado. João, que a tradição antiga diz ter escrito depois dos outros três (Santo Irineu, Contra as heresias III,1,1), traz longos discursos de Jesus e um olhar mais contemplativo.",
         },
         { titulo: "Os Atos dos Apóstolos" },
         {
@@ -120,11 +120,11 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "As Cartas e o Apocalipse" },
         {
           texto:
-            "As cartas são vinte e uma. Treze trazem o nome de São Paulo, de Romanos a Filêmon: umas foram escritas a comunidades, outras a pessoas, como Timóteo, Tito e Filêmon. Na Bíblia, elas estão por ordem de tamanho, e não pela data. Muitas são anteriores aos Evangelhos: a Primeira Carta aos Tessalonicenses é, provavelmente, o escrito mais antigo do Novo Testamento. A Carta aos Hebreus foi ligada pela tradição a Paulo, mas o autor não diz o seu nome. As outras sete, de Tiago, Pedro, João e Judas, são chamadas católicas, isto é, universais, porque a maioria se dirige a muitas comunidades.",
+            "As cartas são vinte e uma. Treze trazem o nome de São Paulo, de Romanos a Filêmon: umas foram escritas a comunidades, outras a pessoas, como Timóteo, Tito e Filêmon. Na Bíblia, elas estão por ordem de tamanho, e não pela data. A Carta aos Hebreus foi ligada pela tradição a Paulo, mas o autor não diz o seu nome. As outras sete, de Tiago, Pedro, João e Judas, são chamadas católicas, isto é, universais, porque a maioria se dirige a muitas comunidades.",
         },
         {
           texto:
-            "O Apocalipse fecha a Bíblia. O nome quer dizer revelação. Foi escrito para cristãos perseguidos, numa linguagem de visões, imagens e números simbólicos, própria de um tipo de escrito conhecido naquela época. Não é um calendário do fim do mundo nem um enigma para calcular datas. A sua mensagem é de esperança: Cristo, o Cordeiro que foi imolado, já venceu, e a história caminha para a cidade santa onde Deus enxugará toda lágrima (Ap 21,4). O último livro termina com a Igreja pedindo a vinda do Senhor.",
+            "O Apocalipse fecha a Bíblia. O nome quer dizer revelação. João o escreveu na ilha de Patmos, onde estava por causa da palavra de Deus e do testemunho de Jesus (Ap 1,9), para cristãos que sofriam, numa linguagem de visões, imagens e números simbólicos. Não serve para calcular a data do fim do mundo: daquele dia e daquela hora ninguém sabe, senão o Pai (Mt 24,36; CIC 673). A sua mensagem é de esperança: Cristo, o Cordeiro que foi imolado, já venceu, e a história caminha para a cidade santa onde Deus enxugará toda lágrima (Ap 21,4). O último livro termina com a Igreja pedindo a vinda do Senhor.",
         },
         { ir: "/biblia/ACT/1", rotulo: "Atos dos Apóstolos" },
         {
@@ -174,7 +174,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "A Tradição" },
         {
           texto:
-            "Antes de existir um Novo Testamento escrito, a Igreja já vivia: pregava, batizava, celebrava a Eucaristia e rezava (CIC 83). A Tradição é essa transmissão viva do Evangelho, pela qual a Igreja passa adiante, na sua doutrina, na sua vida e no seu culto, tudo o que ela é e tudo o que crê (CIC 78). Não se confunde com qualquer costume. A Tradição que vem dos apóstolos é diferente das tradições particulares, devocionais, litúrgicas ou de disciplina, que nasceram depois em certos lugares e épocas e que podem ser mudadas sob a orientação do Magistério (CIC 83). O tempo de jejum antes da comunhão, por exemplo, já mudou várias vezes; o Credo não muda.",
+            "A primeira geração de cristãos ainda não tinha um Novo Testamento escrito (CIC 83), e a Igreja já vivia: os apóstolos pregavam e batizavam, e os fiéis perseveravam na fração do pão e nas orações (At 2,41-42). A Tradição é essa transmissão viva do Evangelho, pela qual a Igreja passa adiante, na sua doutrina, na sua vida e no seu culto, tudo o que ela é e tudo o que crê (CIC 78). Não se confunde com qualquer costume. A Tradição que vem dos apóstolos é diferente das tradições particulares, devocionais, litúrgicas ou de disciplina, que nasceram depois em certos lugares e épocas e que podem ser mudadas sob a orientação do Magistério (CIC 83). O tempo de jejum antes da comunhão, por exemplo, é uma regra de disciplina, hoje de uma hora (cân. 919); o Credo não muda.",
         },
         { titulo: "Uma só fonte" },
         {
@@ -184,7 +184,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "O Magistério" },
         {
           texto:
-            "O Magistério é o ofício de ensinar que Cristo confiou aos apóstolos e que hoje exercem o Papa e os bispos em comunhão com ele. Cabe a ele interpretar com autoridade a Palavra de Deus, escrita ou transmitida (CIC 85). Ele não está acima da Palavra, mas a serve: só ensina o que recebeu, depois de escutá-la com piedade, guardá-la com fidelidade e expô-la com cuidado (CIC 86). Escritura, Tradição e Magistério estão tão unidos que nenhum se sustenta sem os outros (CIC 95), como um banco de três pés. Nada disso tira a Bíblia das mãos do povo: a Igreja deseja que todos os fiéis tenham amplo acesso a ela (CIC 131).",
+            "O Magistério é o ofício de ensinar que Cristo confiou aos apóstolos e que hoje exercem o Papa e os bispos em comunhão com ele. Cabe a ele interpretar com autoridade a Palavra de Deus, escrita ou transmitida (CIC 85). Ele não está acima da Palavra, mas a serve: só ensina o que recebeu, depois de escutá-la com piedade, guardá-la com fidelidade e expô-la com cuidado (CIC 86). Escritura, Tradição e Magistério estão tão unidos que nenhum se sustenta sem os outros (CIC 95). Nada disso tira a Bíblia das mãos do povo: a Igreja deseja que todos os fiéis tenham amplo acesso a ela (CIC 131).",
         },
         { ir: "/rezar/oracoes/creio", rotulo: "Creio" },
         {
@@ -218,7 +218,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "Hábitos que ajudam" },
         {
           texto:
-            "Escolha uma hora fixa e dez ou quinze minutos. Comece pedindo a luz do Espírito Santo e termine com uma palavra de agradecimento, porque a leitura da Bíblia deve vir acompanhada de oração (CIC 2653). Leia a introdução de cada livro e as notas, anote as dúvidas e não desanime com as listas de nomes ou os trechos difíceis: siga adiante e volte a eles depois. Se puder, leia também com outras pessoas, num círculo bíblico ou grupo de reflexão da sua paróquia. No Brasil, é costume dedicar o mês de setembro à Bíblia, e a Igreja celebra o Domingo da Palavra de Deus no terceiro domingo do Tempo Comum.",
+            "Escolha uma hora fixa e dez ou quinze minutos. Comece pedindo a luz do Espírito Santo e termine com uma palavra de agradecimento, porque a leitura da Bíblia deve vir acompanhada de oração (CIC 2653). Leia a introdução de cada livro e as notas, anote as dúvidas e não desanime com as listas de nomes ou os trechos difíceis: siga adiante e volte a eles depois. Se puder, leia também com outras pessoas, num círculo bíblico ou grupo de reflexão da sua paróquia. No Brasil, é costume dedicar o mês de setembro à Bíblia, e a Igreja celebra o Domingo da Palavra de Deus no terceiro domingo do Tempo Comum (Papa Francisco, Aperuit illis, 3).",
         },
         { ir: "/biblia/LUK/1", rotulo: "Evangelho segundo Lucas" },
         { ir: "/cursos/rezar-com-a-biblia", rotulo: "Curso: Rezar com a Bíblia" },

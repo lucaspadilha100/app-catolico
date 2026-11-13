@@ -55,7 +55,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "O Apóstolo do Brasil" },
         {
           texto:
-            "Morreu em 9 de junho de 1597, em Reritiba, no Espírito Santo, cidade que hoje leva o nome de Anchieta. Os indígenas carregaram o seu corpo até Vitória. São João Paulo II o beatificou em 1980, e o Papa Francisco o canonizou em 3 de abril de 2014, por decreto e sem pedir novo milagre, como a Igreja faz às vezes com santos de devoção muito antiga. A sua memória é celebrada em 9 de junho. Anchieta mostra que anunciar o Evangelho pede estudo, paciência e amor concreto às pessoas (CIC 849).",
+            "Morreu em 9 de junho de 1597, em Reritiba, no Espírito Santo, cidade que hoje leva o nome de Anchieta. A tradição conta que os indígenas carregaram o seu corpo até Vitória. São João Paulo II o beatificou em 1980, e o Papa Francisco o canonizou em 3 de abril de 2014, por decreto e sem pedir novo milagre, como a Igreja faz às vezes com santos de devoção muito antiga. A sua memória é celebrada em 9 de junho. A sua vida foi uma resposta ao mandato de Cristo, que a Igreja recebeu, de anunciar o Evangelho a todos (CIC 849).",
         },
         {
           pratica:
@@ -74,7 +74,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "Cunhaú, 16 de julho de 1645" },
         {
           texto:
-            "Era domingo, e o padre André de Soveral, nascido no Brasil, celebrava a missa na capela do engenho de Cunhaú, onde hoje fica o município de Canguaretama. Soldados a serviço dos holandeses e indígenas aliados a eles fecharam as portas e mataram o padre e os fiéis que estavam reunidos. Morreram ali, na celebração da Eucaristia, dezenas de pessoas.",
+            "Era domingo, e o padre André de Soveral, nascido no Brasil, celebrava a missa na capela do engenho de Cunhaú, onde hoje fica o município de Canguaretama. Os relatos contam que soldados a serviço dos holandeses e indígenas aliados a eles fecharam as portas e mataram o padre e os fiéis que estavam reunidos. Morreram ali, na celebração da Eucaristia, dezenas de pessoas.",
         },
         { titulo: "Uruaçu, 3 de outubro de 1645" },
         {
@@ -198,7 +198,7 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "A Igreja honra Maria com um culto singular, que é muito diferente da adoração devida só a Deus (CIC 971). Quem reza diante da imagem não adora o barro: a honra dada à imagem passa à pessoa que ela representa (CIC 2132). As romarias, as promessas e o terço rezado em família fazem parte da piedade do povo, que a Igreja acolhe e orienta (CIC 1674). Promessa feita a Deus, se é possível e boa, deve ser cumprida (CIC 2101).",
+            "A Igreja honra Maria com um culto singular, que é muito diferente da adoração devida só a Deus (CIC 971). Quem reza diante da imagem não adora o barro: a honra dada à imagem passa à pessoa que ela representa (CIC 2132). As romarias, as promessas e o terço rezado em família fazem parte da piedade do povo, que a Igreja acolhe e orienta (CIC 1674). E quem faz uma promessa a Deus deve ser fiel a ela (CIC 2101).",
         },
         { titulo: "Santos de todo dia" },
         {

@@ -44,15 +44,15 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "A missa começa com a procissão de entrada, acompanhada de um canto. O padre e os que servem ao altar caminham até o presbitério, imagem da Igreja que é um povo a caminho. Ao chegar, o padre beija o altar, sinal do próprio Cristo, e em dias de festa pode incensá-lo. Depois todos fazem o sinal da cruz. A primeira palavra da missa é o nome da Santíssima Trindade, em quem fomos batizados.",
+            "A missa começa com a procissão de entrada, acompanhada de um canto. O padre e os que servem ao altar caminham até o presbitério, imagem da Igreja que é um povo a caminho. Ao chegar, o padre beija o altar, que significa o próprio Cristo, e pode incensá-lo (IGMR 49; IGMR 298). Depois todos fazem o sinal da cruz. A primeira palavra da missa é o nome da Santíssima Trindade, em quem fomos batizados.",
         },
         {
           texto:
-            "Em seguida, o padre saúda o povo, desejando que o Senhor esteja com ele, e o povo responde. Não é um simples cumprimento: Cristo está presente no meio dos que se reúnem em seu nome (Mt 18,20). Logo vem o ato penitencial. O padre convida todos a reconhecer os próprios pecados, faz-se um breve silêncio, e a assembleia pede a misericórdia de Deus, muitas vezes com o Kyrie, súplica antiga dirigida ao Senhor. Esse momento não tem a força do sacramento da confissão: quem tem pecado grave precisa se confessar antes de comungar.",
+            "Em seguida, o padre saúda o povo, desejando que o Senhor esteja com ele, e o povo responde. Não é um simples cumprimento: Cristo está presente no meio dos que se reúnem em seu nome (Mt 18,20). Logo vem o ato penitencial. O padre convida todos a reconhecer os próprios pecados, faz-se um breve silêncio, e a assembleia pede a misericórdia de Deus, muitas vezes com o Kyrie, súplica antiga dirigida ao Senhor. Esse momento não tem a força do sacramento da confissão (IGMR 51): quem tem pecado grave precisa se confessar antes de comungar (CIC 1385).",
         },
         {
           texto:
-            "Nos domingos fora do Advento e da Quaresma, nas solenidades e nas festas, canta-se ou reza-se o Glória. É um hino muito antigo, que começa com o canto dos anjos na noite de Natal (Lc 2,14) e continua louvando o Pai, o Filho e o Espírito Santo. Nos domingos do Advento e da Quaresma ele não é dito, e por isso a sua volta no Natal e na Páscoa soa como festa.",
+            "Nos domingos fora do Advento e da Quaresma, nas solenidades e nas festas, canta-se ou reza-se o Glória (IGMR 53). É um hino muito antigo, que começa com o canto dos anjos na noite de Natal (Lc 2,14) e continua louvando o Pai, o Filho e o Espírito Santo. Nos domingos do Advento e da Quaresma ele não é dito, e por isso a sua volta no Natal e na Páscoa soa como festa.",
         },
         {
           texto:
@@ -79,7 +79,7 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "Antes do Evangelho, todos se levantam e cantam a aclamação, normalmente com o aleluia; na Quaresma, outra aclamação toma o lugar dele. Ficar de pé é sinal de respeito e de prontidão, porque vai falar o próprio Senhor. O diácono ou o padre lê o Evangelho, e todos traçam uma pequena cruz na testa, na boca e no peito, pedindo que a Palavra esteja no pensamento, nos lábios e no coração. No fim, a assembleia aclama o Cristo que falou.",
+            "Antes do Evangelho, todos se levantam e cantam a aclamação, normalmente com o aleluia; na Quaresma, outra aclamação toma o lugar dele. Ficar de pé é sinal de respeito e de prontidão, porque vai falar o próprio Senhor. O diácono ou o padre lê o Evangelho, e todos traçam uma pequena cruz na testa, na boca e no peito (IGMR 134), como quem pede que a Palavra esteja no pensamento, nos lábios e no coração. No fim, a assembleia aclama o Cristo que falou.",
         },
         {
           texto:
@@ -87,7 +87,7 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "Nos domingos e solenidades, a assembleia professa a fé com o Creio. Depois de ouvir a Palavra, o povo responde com o resumo daquilo em que acredita, a mesma fé do Batismo. Por fim vem a oração dos fiéis. Nela a assembleia, exercendo o sacerdócio que recebeu no Batismo, pede pela Igreja, pelos governantes, pelos que sofrem e pela comunidade local.",
+            "Nos domingos e solenidades, a assembleia professa a fé com o Creio. Depois de ouvir a Palavra, o povo responde com o resumo daquilo em que acredita, a mesma fé do Batismo. Por fim vem a oração dos fiéis. Nela a assembleia, exercendo o sacerdócio que recebeu no Batismo, pede pela Igreja, pelos governantes e pela salvação do mundo, pelos que sofrem e pela comunidade local (IGMR 69-70).",
         },
         {
           pratica:
@@ -107,11 +107,11 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "Terminada a liturgia da Palavra, começa a liturgia eucarística. O altar é preparado, e o pão e o vinho são levados até ele, muitas vezes por fiéis em procissão. O pão é de trigo, e o vinho, natural de uva, como a Igreja determina (cân. 924). Os dois vêm da terra e passam pelas mãos de quem planta, colhe e prepara: neles vai também a nossa vida. O padre os apresenta a Deus com orações de bênção, inspiradas nas bênçãos de mesa do povo de Israel.",
+            "Terminada a liturgia da Palavra, começa a liturgia eucarística. O altar é preparado, e o pão e o vinho são levados até ele, muitas vezes por fiéis em procissão. O pão é de trigo, e o vinho, natural de uva, como a Igreja determina (cân. 924). Os dois vêm da terra e passam pelas mãos de quem planta, colhe e prepara: neles vai também a nossa vida. O padre os apresenta a Deus com orações de bênção.",
         },
         {
           texto:
-            "Ao preparar o cálice, o padre ou o diácono põe no vinho um pouco de água. O gesto é muito antigo e costuma ser explicado de dois modos: lembra o sangue e a água que saíram do lado de Cristo na cruz (Jo 19,34) e mostra a nossa humanidade unida à divindade de Cristo. Depois o padre lava as mãos ao lado do altar, pedindo em silêncio que Deus o purifique. É o desejo de pureza interior de quem vai tocar os santos mistérios.",
+            "Ao preparar o cálice, o padre ou o diácono põe no vinho um pouco de água. O gesto é muito antigo, e a oração que o padre diz em silêncio pede que participemos da divindade de Cristo, que quis assumir a nossa humanidade. Depois o padre lava as mãos ao lado do altar, pedindo em silêncio que Deus o purifique: o rito exprime o desejo de purificação interior (IGMR 76).",
         },
         {
           texto:
@@ -119,7 +119,7 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "Então o padre convida o povo a rezar para que o sacrifício seja aceito por Deus, e a assembleia se põe de pé e responde. Em seguida, ele diz a oração sobre as oferendas, própria de cada missa, e todos respondem Amém. Junto com o pão e o vinho, cada um pode colocar no altar, em espírito, o trabalho, as alegrias e as dores da semana.",
+            "Então o padre convida o povo a rezar para que o sacrifício seja aceito por Deus, e a assembleia se põe de pé e responde (IGMR 43). Em seguida, ele diz a oração sobre as oferendas, própria de cada missa, e todos respondem Amém. Junto com o pão e o vinho, cada um pode colocar no altar, em espírito, o trabalho, as alegrias e as dores da semana.",
         },
         {
           pratica:
@@ -133,7 +133,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "1CO 11:23-26" },
         {
           texto:
-            "São Paulo escreve aos coríntios pouco mais de vinte anos depois da ressurreição e diz que transmite o que recebeu do Senhor. É um dos testemunhos escritos mais antigos da instituição da Eucaristia. A oração eucarística é o coração e o ponto mais alto da missa (CIC 1352). É uma só grande oração de ação de graças e de consagração, dita pelo padre em nome de toda a Igreja.",
+            "São Paulo diz aos coríntios que lhes transmite o que ele mesmo recebeu do Senhor: a instituição da Eucaristia na noite em que Jesus foi entregue (1Cor 11,23). A oração eucarística é o coração e o ponto mais alto da missa (CIC 1352). É uma só grande oração de ação de graças e de consagração, dita pelo padre em nome de toda a Igreja.",
         },
         {
           texto:
@@ -146,7 +146,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "A presença real" },
         {
           texto:
-            "A Igreja chama de transubstanciação essa mudança: toda a substância do pão se converte no Corpo de Cristo, e toda a substância do vinho, no seu Sangue (CIC 1376). Ficam só as aparências: a cor, o gosto, o peso. Debaixo delas, Cristo está presente de modo verdadeiro, real e substancial, com o seu corpo, sangue, alma e divindade (CIC 1374). Ele está inteiro em cada uma das espécies e em cada parte delas (CIC 1377). Depois de cada consagração, o padre eleva a hóstia e o cálice para a adoração do povo, que nessa hora fica de joelhos, se a saúde e o espaço permitirem.",
+            "A Igreja chama de transubstanciação essa mudança: toda a substância do pão se converte no Corpo de Cristo, e toda a substância do vinho, no seu Sangue (CIC 1376). Ficam só as aparências: a cor, o gosto, o peso. Debaixo delas, Cristo está presente de modo verdadeiro, real e substancial, com o seu corpo, sangue, alma e divindade (CIC 1374). Ele está inteiro em cada uma das espécies e em cada parte delas (CIC 1377). Depois de cada consagração, o padre eleva a hóstia e o cálice para a adoração do povo, que nessa hora fica de joelhos, se a saúde e o espaço permitirem (IGMR 43).",
         },
         {
           texto:
@@ -177,11 +177,11 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "Na fila, faça um sinal de reverência antes de receber, como uma inclinação da cabeça. O ministro mostra a hóstia e diz que é o Corpo de Cristo, e você responde Amém: é a sua profissão de fé. No Brasil, pode-se receber a comunhão na boca ou na mão, e receber na boca é sempre um direito do fiel. Quem recebe na mão põe uma mão sobre a outra, como um pequeno trono, e comunga ali mesmo, diante do ministro. Depois, guarde um tempo de silêncio e de ação de graças.",
+            "Na fila, faça um sinal de reverência antes de receber, como uma inclinação da cabeça (IGMR 160). O ministro mostra a hóstia e diz que é o Corpo de Cristo, e você responde Amém: é a sua profissão de fé. No Brasil, pode-se receber a comunhão na boca ou na mão, e receber na boca é sempre um direito do fiel (Redemptionis Sacramentum, 92). Quem recebe na mão põe uma mão sobre a outra, como um trono para receber o Rei, na imagem de São Cirilo de Jerusalém (Catequeses mistagógicas V,21), e comunga ali mesmo, diante do ministro. Depois, guarde um tempo de silêncio e de ação de graças.",
         },
         {
           texto:
-            "Quando não puder comungar, seja por pecado grave ainda não confessado, seja por não ter feito o jejum ou por outro motivo, não deixe a missa. Participe com fé e faça a comunhão espiritual: o desejo sincero de receber Jesus e o pedido para que ele venha ao coração. Quem está em pecado grave une a esse desejo o arrependimento e o propósito de se confessar logo.",
+            "Quando não puder comungar, seja por pecado grave ainda não confessado, seja por não ter feito o jejum ou por outro motivo, não deixe a missa. Participe com fé e faça a comunhão espiritual: o desejo sincero de receber Jesus e o pedido para que ele venha ao coração. Se o motivo é um pecado grave, peça perdão a Deus com arrependimento sincero e procure a confissão quanto antes (CIC 1385).",
         },
         {
           pratica:
@@ -201,7 +201,7 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "Depois da comunhão, há um tempo de silêncio ou um canto de louvor. Em seguida, o padre diz a oração depois da comunhão, que pede que o sacramento recebido dê fruto na vida. Os avisos para a comunidade, quando há, vêm depois dessa oração.",
+            "Depois da comunhão, há um tempo de silêncio ou um canto de louvor. Em seguida, o padre diz a oração depois da comunhão, que pede que o sacramento recebido dê fruto na vida. Os avisos para a comunidade, quando há, vêm depois dessa oração (IGMR 90).",
         },
         {
           texto:
@@ -214,7 +214,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "O preceito do domingo" },
         {
           texto:
-            "O domingo é o dia em que Cristo ressuscitou, e desde os apóstolos os cristãos se reúnem nele para a Eucaristia (CIC 2177). Por isso a Igreja manda participar da missa nos domingos e nos dias santos de guarda (cân. 1247). Cumpre o preceito quem participa da missa no próprio dia ou na tarde do dia anterior (cân. 1248). Faltar de propósito, sem motivo sério, é pecado grave; doença, o cuidado de um doente ou outra causa séria dispensam (CIC 2181). No Brasil, além dos domingos, são dias de preceito o Natal, Santa Maria, Mãe de Deus (1º de janeiro), Corpus Christi e a Imaculada Conceição (8 de dezembro). Outras, como a Epifania e a Ascensão, passam para um domingo, porque o Código permite aos bispos de cada país transferi-las (cân. 1246).",
+            "O domingo é o dia em que Cristo ressuscitou, e desde os apóstolos os cristãos se reúnem nele para a Eucaristia (CIC 2177). Por isso a Igreja manda participar da missa nos domingos e nos dias santos de guarda (cân. 1247). Cumpre o preceito quem participa da missa no próprio dia ou na tarde do dia anterior (cân. 1248). Faltar de propósito, sem motivo sério, é pecado grave; doença, o cuidado de um doente ou outra causa séria dispensam (CIC 2181). No Brasil, segundo a legislação complementar da CNBB, além dos domingos são dias de preceito o Natal, Santa Maria, Mãe de Deus (1º de janeiro), Corpus Christi e a Imaculada Conceição (8 de dezembro). Outras, como a Epifania e a Ascensão, passam para um domingo, porque o Código permite aos bispos de cada país transferi-las (cân. 1246).",
         },
         {
           pratica:

@@ -42,3 +42,16 @@ Para não repetir o curso "Rezar com a Bíblia" (lição 5, que já trata do Sl 
 - Salmo responsorial "em geral proclamado do ambão" e "as normas pedem que venha dos livros litúrgicos, e não seja trocado por um canto qualquer": Instrução Geral do Missal Romano, n. 61 (não citada no texto). A IGMR admite, em lugar do salmo do Lecionário, o responsório do Gradual Romano ou do Gradual Simples, e permite cantar só o refrão ou só ler. Conferir se a frase está precisa o bastante.
 - "Laudes e Vésperas, horas principais": Sacrosanctum Concilium 89 (não citada). "Em algumas paróquias, as Laudes ou as Vésperas são rezadas em comum": costume.
 - Pequeno Ofício de Nossa Senhora apresentado como "forma antiga e mais simples de rezar as horas": conferir se o dono concorda com a descrição.
+
+## Conferência final (13/11/2026)
+Regras de `docs/conferencia-doutrinal.md`. Números do CIC conferidos de novo; IGMR e Sacrosanctum Concilium lidos no vatican.va; Santo Ambrósio (Sobre os mistérios 8,43) e São Cirilo de Jerusalém (Catequeses mistagógicas IV,7) conferidos no texto.
+- "O nome em hebraico quer dizer Louvores" virou o que o CIC 2585 diz.
+- Saiu o Hallel (Mt 26,30: explicação de exegetas, não do Evangelho).
+- "Cristo inteiro" ganhou o CIC 795; São Francisco, o CIC 344 (que cita o Cântico do Irmão Sol); saiu "a criação louva só por existir e o homem lhe dá voz".
+- "Louvar nos dias comuns" passou a se apoiar no Sl 33(34),2 e no CIC 2589.
+- Salmos imprecatórios: saiu "a tradição viu nos inimigos o pecado e o demônio (CIC 2589)" (o número não diz isso); ficaram Rm 12,19 e o que o CIC 2589 diz. A omissão de salmos na Liturgia das Horas não entrou: a Instrução Geral da Liturgia das Horas não pôde ser lida no texto oficial.
+- Sl 22(23): "alguns padres da Igreja" virou Santo Ambrósio e São Cirilo, com as obras.
+- Sl 90(91): "nas Completas" virou "nas Completas do domingo".
+- Sl 50(51): saiu a dedução sobre a coragem de Davi; entrou o primeiro pedido do salmo (Sl 50(51),3, na nossa Bíblia).
+- Invitatório: "o mais usado" virou "muitas vezes" (a forma permitida dos outros salmos não pôde ser conferida na Instrução da Liturgia das Horas).
+- Salmo responsorial: ambão "ou outro lugar adequado" e tirado do Lecionário (IGMR 61); não se troca por texto não bíblico (IGMR 57). Laudes e Vésperas, horas principais (Sacrosanctum Concilium, 89).

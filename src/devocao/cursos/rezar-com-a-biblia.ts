@@ -14,7 +14,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "Deus e os autores humanos" },
         {
           texto:
-            "A Igreja ensina que Deus é o autor da Sagrada Escritura (CIC 105). Ao mesmo tempo, ele escolheu homens que escreveram com a sua língua, o seu jeito e a sua cultura, e se serviu deles como verdadeiros autores (CIC 106). É o que chamamos de inspiração: o Espírito Santo agiu neles de tal modo que escreveram tudo o que Deus queria, e só isso. Por isso a Bíblia ensina com segurança a verdade que Deus quis nos dar para a nossa salvação (CIC 107). Ela não é um manual de ciência nem de história no sentido moderno, mas nada do que afirma para nos salvar engana.",
+            "A Igreja ensina que Deus é o autor da Sagrada Escritura (CIC 105). Ao mesmo tempo, ele escolheu homens que escreveram com a sua língua, o seu jeito e a sua cultura, e se serviu deles como verdadeiros autores (CIC 106). É o que chamamos de inspiração: o Espírito Santo agiu neles de tal modo que escreveram tudo o que Deus queria, e só isso. Por isso a Bíblia ensina com segurança a verdade que Deus quis nos dar para a nossa salvação (CIC 107). Ela não é um manual de ciência.",
         },
         { titulo: "Os 73 livros" },
         {
@@ -23,7 +23,7 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "As Bíblias protestantes têm menos livros no Antigo Testamento, em geral 39 em vez de 46. Faltam nelas Tobias, Judite, os dois livros dos Macabeus, Sabedoria, Eclesiástico e Baruc, além de partes de Ester e de Daniel. Esses livros estavam na tradução grega do Antigo Testamento usada pelos primeiros cristãos, e a Igreja sempre os leu como Escritura. No século XVI, os reformadores preferiram a lista dos livros escritos em hebraico, e o Concílio de Trento confirmou a lista que a Igreja já seguia. O Novo Testamento é o mesmo nas duas Bíblias.",
+            "As Bíblias protestantes têm menos livros no Antigo Testamento, em geral 39 em vez de 46. Não trazem Tobias, Judite, os dois livros dos Macabeus, Sabedoria, Eclesiástico e Baruc, além de partes de Ester e de Daniel. Esses livros estavam na tradução grega do Antigo Testamento usada pelos primeiros cristãos, e as comunidades cristãs os liam na liturgia. No século XVI, os reformadores preferiram a lista dos livros escritos em hebraico, e o Concílio de Trento confirmou a lista que a Igreja já seguia. O Novo Testamento é o mesmo nas duas Bíblias.",
         },
         {
           pratica:
@@ -75,7 +75,7 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "A Igreja chama de lectio divina, leitura divina, a leitura orante da Escritura (CIC 2708). Os monges a praticaram por séculos, e no século XII um monge cartuxo chamado Guigo a descreveu como uma escada de quatro degraus: ler, meditar, rezar e contemplar. O Catecismo resume esse caminho dizendo que se procura lendo e se encontra meditando, se bate à porta rezando e ela se abre na contemplação (CIC 2654). Nesta lição você aprende os dois primeiros degraus.",
+            "A Igreja chama de lectio divina, leitura divina, a leitura orante da Escritura (CIC 2708). Os monges a praticaram por séculos. O Papa Bento XVI lembrou os seus passos: a leitura, a meditação, a oração e a contemplação, que se completam na ação, quando a palavra leva a pessoa a doar-se aos outros na caridade (Verbum Domini, 87). O Catecismo resume esse caminho dizendo que se procura lendo e se encontra meditando, se bate à porta rezando e ela se abre na contemplação (CIC 2654). Nesta lição você aprende os dois primeiros passos.",
         },
         { titulo: "Preparar-se" },
         {
@@ -100,7 +100,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "LUK 2:15-19" },
         {
           texto:
-            "Os pastores correm a Belém, encontram o Menino e contam a todos o que ouviram. Todos se admiram, mas Maria guarda essas coisas e as medita no seu coração. Ela não entende tudo de uma vez, mas não deixa a palavra se perder. Por isso a Virgem Maria é o modelo de quem escuta a Palavra de Deus e a deixa crescer dentro de si.",
+            "Os pastores correm a Belém, encontram o Menino e contam a todos o que ouviram. Todos se admiram, mas Maria guarda essas coisas e as medita no seu coração. Ela não entende tudo de uma vez, mas não deixa a palavra se perder. Por isso a Virgem Maria é o modelo de quem escuta a Palavra de Deus e a deixa crescer dentro de si (Verbum Domini, 87).",
         },
         { titulo: "Rezar: responder a Deus" },
         {
@@ -110,12 +110,12 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "Contemplar: ficar com ele" },
         {
           texto:
-            "Contemplar é ficar em silêncio na presença de Deus, sem muitas palavras, como quem olha para alguém que ama. Santa Teresa de Jesus dizia que a oração é um trato de amizade com quem sabemos que nos ama (CIC 2709). Nesse momento, não é preciso pensar nem sentir nada de especial. Basta permanecer, mesmo distraído, e voltar com calma cada vez que perceber que a mente fugiu. É Deus quem age nesse silêncio.",
+            "Contemplar é ficar em silêncio na presença de Deus, sem muitas palavras: é o olhar da fé fixado em Jesus (CIC 2715). Santa Teresa de Jesus dizia que a oração é um trato de amizade com quem sabemos que nos ama (CIC 2709). Nesse momento, não é preciso pensar nem sentir nada de especial. Basta permanecer e, quando vier uma distração, voltar com calma ao Senhor (CIC 2729). É Deus quem age nesse silêncio.",
         },
         { titulo: "Viver: levar a palavra para o dia" },
         {
           texto:
-            "A lectio divina termina na vida. Antes de fechar a Bíblia, escolha um propósito pequeno e concreto que nasça do que você leu: uma visita, uma paciência, um perdão, uma oração por alguém. Guarde a frase do dia, como Maria guardava, e volte a ela nos momentos difíceis. Assim, aos poucos, a Palavra vai mudando o modo de pensar e de agir.",
+            "A lectio divina só se completa na vida (Verbum Domini, 87). Antes de fechar a Bíblia, escolha um propósito pequeno e concreto que nasça do que você leu: uma visita, uma paciência, um perdão, uma oração por alguém. Guarde a frase do dia, como Maria guardava, e volte a ela nos momentos difíceis. Assim, aos poucos, a Palavra vai mudando o modo de pensar e de agir.",
         },
         {
           pratica:

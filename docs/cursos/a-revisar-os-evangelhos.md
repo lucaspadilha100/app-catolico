@@ -52,3 +52,14 @@ Todas as citações do Catecismo abaixo foram conferidas no texto oficial (cópi
 - Liturgia: Paixão do evangelista do ano no Domingo de Ramos; Paixão segundo João sempre na Sexta-feira Santa. Norma do Lecionário; conferir.
 - Ponto delicado: o trecho sobre a responsabilidade pela morte de Jesus (CIC 597-598). Escrito sem polêmica; conferir o tom.
 - Na prática, o Creio: as palavras citadas são as da oração do app (`creio`).
+
+## Conferência final (13/11/2026)
+Regras de `docs/conferencia-doutrinal.md`. Autoria e datas só como a Igreja apresenta. Dei Verbum 18 lido no vatican.va; Santo Irineu (Contra as heresias III,1,1) conferido no texto. Números do CIC conferidos de novo.
+- "Quem escreveu e quando" virou "Quem escreveu": saíram as datas e a prioridade de Marcos (hipóteses de estudiosos). Ficaram a origem apostólica dos quatro (Dei Verbum 18), os quatro nomes em Santo Irineu e a ordem tradicional com Mateus primeiro (CIC 515).
+- "Quatro testemunhas que viram o mesmo Senhor" virou "o Evangelho quadriforme" (Dei Verbum 18).
+- Ciclo dominical: "quase todo o Evangelho em três anos" virou "grande parte dos Evangelhos". Os símbolos dos evangelistas ficaram como "a forma mais comum", sem atribuição (a de São Jerônimo não pôde ser conferida no texto).
+- Marcos: Papias e Santo Irineu (intérprete de Pedro); saíram "comunidade perseguida" e "como de quem viu"; o centurião ficou só com Mc 15,39. A oração de Jesus passou a ter a forma do Catecismo (CIC 2667) e o "em todo tempo" do CIC 2668; saiu "no ritmo da respiração". A prática deixou de chamar essa invocação de "oração de Bartimeu".
+- Mateus: saíram a discussão dos estudiosos, Antioquia, a explicação de "Reino dos Céus" e o "novo Moisés"; ficou Santo Irineu (escreveu entre os hebreus). As obras de misericórdia ganharam o CIC 2447.
+- Lucas: saíram "grego elegante", as hipóteses sobre Teófilo e "pensa em cristãos vindos do paganismo"; ficaram Lc 1,3-4, Lc 3,38, Lc 2,32, At 1,8 e Santo Irineu. "Evangelho da misericórdia" virou "guarda muitas páginas da misericórdia".
+- João: saiu "forma final por discípulos" (hipótese); ficou Jo 21,24. Saiu a contagem dos "sete sinais"; o "Eu sou" ganhou Ex 3,14 e CIC 211.
+- Paixão: saiu a frase de Martin Kähler; as sete palavras ficaram como piedade do povo, com o CIC 2605 só no que diz; a Ressurreição "não foi produto da imaginação" segue o CIC 644. CIC 597-598 ficaram como estavam (tom sereno).

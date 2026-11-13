@@ -41,3 +41,19 @@ Todas as citações do Catecismo e do Código abaixo foram conferidas no texto o
 - Tiago "com grande autoridade na comunidade de Jerusalém": evitamos "bispo" ou "chefe"; conferir.
 - Visitas missionárias de casa em casa: costume de muitas paróquias.
 - Link para o curso "História da Igreja" (o arquivo já existia) e para o Creio.
+
+## Conferência final (13/11/2026)
+Regras de `docs/conferencia-doutrinal.md`. Números do CIC e do Código conferidos de novo no texto oficial; Santo Irineu conferido no texto de Contra as heresias; a vigília de Pentecostes, no lecionário do app.
+- Pentecostes como festa das Semanas: agora com Lv 23,15-17 e Dt 16,9-10.
+- "Muitos Padres viram o contrário de Babel" (sem fonte) virou fato litúrgico: a Igreja lê Gn 11,1-9 na missa da vigília de Pentecostes.
+- Crisma: "o padre autorizado por ele" virou "o padre que recebeu essa faculdade (cân. 882)".
+- Epiclese: a frase separava mal os dois pedidos; agora segue o CIC 1105 e 1353 (o pão e o vinho; e os que comungam, um só corpo), sem dizer "antes da consagração" para todas as orações.
+- "Pescadores com medo trancados numa sala" (mistura de Jo 20) virou At 4,13 e 1Cor 1,27.
+- Saiu a máxima própria das "quatro colunas" ("tire uma e a casa balança").
+- At 4,32-35: "a Igreja não entende essa página como lei" (sem fonte) virou At 5,4 e CIC 2403-2404 e 952.
+- Dízimo: agora com a fonte (CNBB, Documento 106, conferido no site da CNBB) e 2Cor 9,7; a Igreja não fixa valor.
+- Diáconos: a forma prudente ficou, com Santo Irineu (Contra as heresias III,12,10: Estêvão, primeiro diácono escolhido pelos apóstolos).
+- Saiu a frase atribuída a Santo Agostinho sobre Estêvão e Paulo (sermão de autoria discutida; obra não confirmada).
+- Acrescentadas referências onde havia só aplicação própria: Ef 3,20; Mt 16,18 e Jo 21,15-17; Fl 2,14; Gl 1,13 e Rm 11,13; Gl 2,9 (Tiago, coluna).
+- RICA: nome corrigido para "Ritual da Iniciação Cristã de Adultos".
+- Concílio de Jerusalém: saiu "a Igreja sempre viu nele o modelo dos concílios" e a lição própria sobre "o jeito de decidir"; ficou At 15,22. Saiu "Não há ponto final" do fim dos Atos.

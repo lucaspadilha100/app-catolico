@@ -14,20 +14,20 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "O que aconteceu naquele dia" },
         {
           texto:
-            "Pentecostes era uma festa judaica, celebrada cinquenta dias depois da Páscoa, em que se agradecia a colheita. Por isso havia em Jerusalém judeus vindos de muitos países. Os apóstolos estavam reunidos e perseveravam na oração com Maria, a mãe de Jesus (At 1,14; CIC 2623). Veio então o ruído como de um vento forte, apareceram línguas como de fogo, e todos ficaram cheios do Espírito Santo. Naquele dia, a Páscoa de Cristo chegou à sua plenitude: o Senhor ressuscitado derramou o Espírito sobre a sua Igreja (CIC 731).",
+            "Pentecostes era uma festa judaica, a festa das Semanas, celebrada cinquenta dias depois da Páscoa, em que se ofereciam a Deus as primícias da colheita (Lv 23,15-17; Dt 16,9-10). Por isso havia em Jerusalém judeus vindos de muitos países. Os apóstolos estavam reunidos e perseveravam na oração com Maria, a mãe de Jesus (At 1,14; CIC 2623). Veio então o ruído como de um vento forte, apareceram línguas como de fogo, e todos ficaram cheios do Espírito Santo. Naquele dia, a Páscoa de Cristo chegou à sua plenitude: o Senhor ressuscitado derramou o Espírito sobre a sua Igreja (CIC 731).",
         },
         {
           texto:
-            "Cada visitante ouvia os apóstolos falarem na sua própria língua. Muitos Padres da Igreja viram nesse sinal o contrário de Babel (Gn 11): lá, o orgulho dividiu os homens em línguas que não se entendiam; aqui, o Espírito reúne povos diferentes numa só fé, sem apagar a língua de ninguém. Pedro, o mesmo que tinha negado Jesus, levanta-se e anuncia com coragem a ressurreição. Os que acreditaram foram batizados, cerca de três mil pessoas (At 2,41). Desde aquele dia, a Igreja batiza (CIC 1226), e o Catecismo diz que foi ali que ela se mostrou publicamente ao mundo (CIC 767).",
+            "Cada visitante ouvia os apóstolos falarem na sua própria língua. Na missa da vigília de Pentecostes, a Igreja lê a história da torre de Babel, quando os homens ficaram divididos em línguas que não se entendiam (Gn 11,1-9); em Pentecostes, o Espírito reúne povos de muitas línguas na mesma fé. Pedro, o mesmo que tinha negado Jesus, levanta-se e anuncia com coragem a ressurreição. Os que acreditaram foram batizados, cerca de três mil pessoas (At 2,41). Desde aquele dia, a Igreja batiza (CIC 1226), e o Catecismo diz que foi ali que ela se mostrou publicamente ao mundo (CIC 767).",
         },
         { titulo: "Pentecostes na sua paróquia" },
         {
           texto:
-            "Pentecostes não ficou no passado. Na crisma, o bispo, ou o padre autorizado por ele, impõe as mãos e unge a fronte do crismando: é o gesto dos apóstolos, que a Igreja reconhece como origem deste sacramento, que de certo modo prolonga a graça daquele dia (CIC 1288). Em toda missa, antes da consagração, o padre estende as mãos sobre o pão e o vinho e pede ao Pai que envie o Espírito Santo, para que se tornem o Corpo e o Sangue de Cristo e para que a assembleia se torne um só corpo (CIC 1105; CIC 1353). Quando a sua comunidade se reúne em oração e depois sai para servir, é o mesmo Espírito que age, sem barulho de vento, mas com a mesma força.",
+            "Pentecostes não ficou no passado. Na crisma, o bispo, ou o padre que recebeu essa faculdade (cân. 882), impõe as mãos e unge a fronte do crismando: é o gesto dos apóstolos, que a Igreja reconhece como origem deste sacramento, que de certo modo prolonga a graça daquele dia (CIC 1288). Em toda missa, o padre estende as mãos sobre o pão e o vinho e pede ao Pai que envie o Espírito Santo, para que se tornem o Corpo e o Sangue de Cristo, e pede também que os que participam da Eucaristia sejam um só corpo (CIC 1105; CIC 1353). Quando a sua comunidade se reúne em oração e depois sai para servir, é o mesmo Espírito que age, sem barulho de vento, mas com a mesma força.",
         },
         {
           texto:
-            "Repare também em quem o Espírito escolheu. Não eram sábios nem poderosos: eram pescadores da Galileia, com medo, trancados numa sala. O Espírito não esperou que eles ficassem perfeitos. É assim também na paróquia: a catequista que tem pouco estudo, o senhor que cuida da limpeza da igreja, a jovem que canta no coral. Ninguém é pequeno demais para ser instrumento de Deus.",
+            "Repare também em quem o Espírito escolheu. Pouco depois, os chefes do povo se admiravam da firmeza de Pedro e de João, sabendo que eram homens sem letras e sem instrução (At 4,13). Deus escolheu o que é fraco no mundo para confundir o que é forte (1Cor 1,27). É assim também na paróquia: a catequista que tem pouco estudo, o senhor que cuida da limpeza da igreja, a jovem que canta no coral. Ninguém é pequeno demais para ser instrumento de Deus.",
         },
         { ir: "/rezar/oracoes/vinde-espirito-santo", rotulo: "Vinde, Espírito Santo" },
         {
@@ -47,12 +47,12 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "Quatro colunas" },
         {
           texto:
-            "O ensino dos apóstolos era a fé recebida de quem tinha convivido com Jesus. A comunhão fraterna era a amizade entre irmãos que se ajudavam. A fração do pão é o nome mais antigo da Eucaristia: os cristãos se reuniam nas casas para partir o pão, sobretudo no primeiro dia da semana, o dia da ressurreição (At 20,7; CIC 1342; CIC 1343). E as orações eram feitas em comum, no Templo e nas casas. Tire uma dessas colunas e a casa balança: fé sem caridade esfria, caridade sem oração cansa, oração sem a Eucaristia perde o centro.",
+            "O ensino dos apóstolos era a fé recebida de quem tinha convivido com Jesus. A comunhão fraterna era a amizade entre irmãos que se ajudavam. A fração do pão é o nome mais antigo da Eucaristia: os cristãos se reuniam nas casas para partir o pão, sobretudo no primeiro dia da semana, o dia da ressurreição (At 20,7; CIC 1342; CIC 1343). E as orações eram feitas em comum, no Templo e nas casas.",
         },
         { titulo: "Um só coração e uma só alma" },
         {
           texto:
-            "No capítulo 4, Lucas volta ao assunto: a multidão dos que criam tinha um só coração e uma só alma, e ninguém considerava seu o que possuía (At 4,32-35). Os que tinham campos ou casas vendiam e levavam o dinheiro aos apóstolos, que repartiam conforme a necessidade de cada um, e não havia necessitados entre eles. A Igreja não entende essa página como uma lei que obrigue todo cristão a vender o que tem. O próprio Pedro lembra a Ananias que o campo era dele e que podia ficar com o dinheiro (At 5,4). O que permanece é a atitude: o cristão é um administrador dos bens que recebeu de Deus e deve estar pronto para socorrer o pobre (CIC 952).",
+            "No capítulo 4, Lucas volta ao assunto: a multidão dos que criam tinha um só coração e uma só alma, e ninguém considerava seu o que possuía (At 4,32-35). Os que tinham campos ou casas vendiam e levavam o dinheiro aos apóstolos, que repartiam conforme a necessidade de cada um, e não havia necessitados entre eles. Essa partilha era livre: o próprio Pedro lembra a Ananias que o campo era dele e que podia ficar com o dinheiro (At 5,4). A Igreja ensina que a propriedade particular é legítima, mas que os bens da terra são destinados a todos (CIC 2403). O cristão é um administrador dos bens que recebeu de Deus e deve estar pronto para socorrer o pobre (CIC 952; CIC 2404).",
         },
         { titulo: "A primeira comunidade na sua paróquia" },
         {
@@ -61,7 +61,7 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "A partilha também tem o seu lugar. Desde o começo, os cristãos levavam ofertas para os necessitados junto com o pão e o vinho da Eucaristia (CIC 1351). A Igreja pede a todos os fiéis que ajudem nas necessidades dela, para o culto, as obras de apostolado e de caridade e o sustento dos seus ministros (cân. 222 § 1). A forma concreta varia: no Brasil, muitas paróquias organizam essa ajuda pelo dízimo, que é uma prática pastoral, com o valor decidido por cada família diante de Deus.",
+            "A partilha também tem o seu lugar. Desde o começo, os cristãos levavam ofertas para os necessitados junto com o pão e o vinho da Eucaristia (CIC 1351). A Igreja pede a todos os fiéis que ajudem nas necessidades dela, para o culto, as obras de apostolado e de caridade e o sustento dos seus ministros (cân. 222 § 1). No Brasil, os bispos propõem o dízimo como a forma habitual de sustentar as comunidades (CNBB, Documento 106). A Igreja não fixa um valor: cada um dá como decidiu no seu coração, com alegria (2Cor 9,7).",
         },
         { ir: "/biblia/ACT/4", rotulo: "Atos, capítulo 4" },
         {
@@ -85,12 +85,12 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "Os sinais nunca foram espetáculo. Os milagres de Jesus não serviam para satisfazer curiosidade, mas para convidar à fé (CIC 548), e o mesmo vale para os sinais dos apóstolos. Repare que o homem pedia pouco: uma esmola para aquele dia. Recebeu muito mais: pôde andar, entrar no Templo e louvar a Deus no meio do povo. Muitas vezes pedimos a Deus a solução de um problema pequeno, e ele quer nos dar uma vida nova.",
+            "Os sinais nunca foram espetáculo. Os milagres de Jesus não serviam para satisfazer curiosidade, mas para convidar à fé (CIC 548), e o mesmo vale para os sinais dos apóstolos. Repare que o homem pedia pouco: uma esmola para aquele dia. Recebeu muito mais: pôde andar, entrar no Templo e louvar a Deus no meio do povo. Deus pode fazer muito mais do que pedimos ou entendemos (Ef 3,20).",
         },
         { titulo: "Pedro, o primeiro entre os Doze" },
         {
           texto:
-            "Nos primeiros capítulos dos Atos, Pedro está sempre à frente: propõe a escolha de Matias (At 1,15-26), prega em Pentecostes, fala diante do conselho, recebe na Igreja os primeiros pagãos (At 10). Jesus tinha feito dele a pedra da sua Igreja e o pastor de todo o rebanho. Essa missão de Pedro e dos apóstolos pertence aos fundamentos da Igreja e continua nos bispos, sob o primado do Papa (CIC 881). Quando você reza pelo Papa na missa, reza pelo sucessor daquele pescador que estendeu a mão ao homem da porta Formosa.",
+            "Nos primeiros capítulos dos Atos, Pedro está sempre à frente: propõe a escolha de Matias (At 1,15-26), prega em Pentecostes, fala diante do conselho, recebe na Igreja os primeiros pagãos (At 10). Jesus tinha feito dele a pedra da sua Igreja e o pastor de todo o rebanho (Mt 16,18; Jo 21,15-17). Essa missão de Pedro e dos apóstolos pertence aos fundamentos da Igreja e continua nos bispos, sob o primado do Papa (CIC 881). Quando você reza pelo Papa na missa, reza pelo sucessor daquele pescador que estendeu a mão ao homem da porta Formosa.",
         },
         { titulo: "Os sinais na sua paróquia" },
         {
@@ -114,7 +114,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "Os sete e os diáconos de hoje" },
         {
           texto:
-            "A tradição da Igreja viu nesse episódio o começo do serviço dos diáconos. Hoje, os diáconos recebem o sacramento da Ordem, não para o sacerdócio, mas para o serviço (CIC 1569). Proclamam o Evangelho e pregam, ajudam no altar, distribuem a comunhão, podem assistir a casamentos e presidir funerais, e se dedicam à caridade (CIC 1570). Depois do Concílio Vaticano II, a Igreja latina restabeleceu o diaconato permanente, que pode ser conferido também a homens casados (CIC 1571). Se a sua paróquia tem um diácono, você vê nele o sinal de Cristo que veio para servir.",
+            "Desde os primeiros séculos, a Igreja viu nesse episódio o começo do serviço dos diáconos: Santo Irineu já chama Estêvão de primeiro diácono escolhido pelos apóstolos (Contra as heresias III,12,10). Hoje, os diáconos recebem o sacramento da Ordem, não para o sacerdócio, mas para o serviço (CIC 1569). Proclamam o Evangelho e pregam, ajudam no altar, distribuem a comunhão, podem assistir a casamentos e presidir funerais, e se dedicam à caridade (CIC 1570). Depois do Concílio Vaticano II, a Igreja latina restabeleceu o diaconato permanente, que pode ser conferido também a homens casados (CIC 1571). Se a sua paróquia tem um diácono, você vê nele o sinal de Cristo que veio para servir.",
         },
         { titulo: "O primeiro mártir" },
         {
@@ -123,12 +123,12 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "Mártir quer dizer testemunha. O martírio é o testemunho mais alto da fé, que vai até a morte e se apoia na caridade (CIC 2473). E Estêvão mostra que a caridade vai até os inimigos: a oração cristã chega a pedir por quem nos faz mal (CIC 2635), e o perdão é o ponto mais alto dessa oração (CIC 2844). Aos pés de quem o matava estava um jovem chamado Saulo, que aprovava aquela morte. Santo Agostinho chegou a dizer que, se Estêvão não tivesse rezado, a Igreja não teria Paulo.",
+            "Mártir quer dizer testemunha. O martírio é o testemunho mais alto da fé, que vai até a morte e se apoia na caridade (CIC 2473). E Estêvão mostra que a caridade vai até os inimigos: a oração cristã chega a pedir por quem nos faz mal (CIC 2635), e o perdão é o ponto mais alto dessa oração (CIC 2844). Aos pés de quem o matava estava um jovem chamado Saulo, que aprovava aquela morte (At 7,58; 8,1) e que seria depois o apóstolo Paulo.",
         },
         { titulo: "A perseguição que espalhou a semente" },
         {
           texto:
-            "Naquele dia começou uma grande perseguição, e os cristãos se espalharam pela Judeia e pela Samaria (At 8,1). O que parecia o fim virou começo: os que fugiam iam anunciando a Palavra por onde passavam (At 8,4). A Igreja aprendeu cedo que o sangue dos mártires é semente de novos cristãos (CIC 852). Ainda hoje há cristãos perseguidos em vários países, e na sua comunidade há quem sofra pela fé de modos menos visíveis: a zombaria no trabalho, a incompreensão em casa. E como em Jerusalém, as queixas e os conflitos dentro da paróquia se resolvem melhor com oração, escuta e serviço do que com murmuração.",
+            "Naquele dia começou uma grande perseguição, e os cristãos se espalharam pela Judeia e pela Samaria (At 8,1). O que parecia o fim virou começo: os que fugiam iam anunciando a Palavra por onde passavam (At 8,4). A Igreja aprendeu cedo que o sangue dos mártires é semente de novos cristãos (CIC 852). Ainda hoje há cristãos perseguidos em vários países, e na sua comunidade há quem sofra pela fé de modos menos visíveis: a zombaria no trabalho, a incompreensão em casa. E como em Jerusalém, as queixas e os conflitos dentro da paróquia se resolvem melhor com oração, escuta e serviço do que com murmuração (Fl 2,14).",
         },
         {
           pratica:
@@ -156,12 +156,12 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "O Batismo é a primeira e fundamental conversão (CIC 1427). Mas o chamado à conversão continua por toda a vida do cristão, movido pela graça (CIC 1428). Ninguém está longe demais: o maior perseguidor da Igreja se tornou o grande apóstolo dos pagãos. A Igreja celebra a Conversão de São Paulo no dia 25 de janeiro.",
+            "O Batismo é a primeira e fundamental conversão (CIC 1427). Mas o chamado à conversão continua por toda a vida do cristão, movido pela graça (CIC 1428). Ninguém está longe demais: o perseguidor da Igreja se tornou o apóstolo dos pagãos (Gl 1,13; Rm 11,13). A Igreja celebra a Conversão de São Paulo no dia 25 de janeiro.",
         },
         { titulo: "Ananias e Barnabé na sua paróquia" },
         {
           texto:
-            "Desde o tempo dos apóstolos, tornar-se cristão é um caminho com etapas: o anúncio, a conversão, a profissão de fé, o Batismo, o dom do Espírito e a Eucaristia (CIC 1229). Para os adultos, a Igreja restaurou o catecumenato (CIC 1232), que no Brasil muitas paróquias conhecem pela sigla RICA, o Ritual de Iniciação Cristã de Adultos. Esse caminho se faz junto com uma comunidade (CIC 1248). Os catequistas, os padrinhos e as famílias que acolhem são os Ananias e os Barnabés de hoje. E toda a comunidade tem a sua parte em ajudar a graça do Batismo a crescer (CIC 1255).",
+            "Desde o tempo dos apóstolos, tornar-se cristão é um caminho com etapas: o anúncio, a conversão, a profissão de fé, o Batismo, o dom do Espírito e a Eucaristia (CIC 1229). Para os adultos, a Igreja restaurou o catecumenato (CIC 1232), que no Brasil muitas paróquias conhecem pela sigla RICA, o Ritual da Iniciação Cristã de Adultos. Esse caminho se faz junto com uma comunidade (CIC 1248). Os catequistas, os padrinhos e as famílias que acolhem são os Ananias e os Barnabés de hoje. E toda a comunidade tem a sua parte em ajudar a graça do Batismo a crescer (CIC 1255).",
         },
         { ir: "/biblia/ACT/9", rotulo: "Atos, capítulo 9" },
         { ir: "/rezar/confissao", rotulo: "Como se confessar" },
@@ -182,16 +182,16 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "Como a Igreja decidiu" },
         {
           texto:
-            "Os apóstolos e os presbíteros se reuniram e examinaram a questão com calma. Pedro lembrou que Deus tinha dado o Espírito Santo aos pagãos como aos judeus, e que todos são salvos pela graça do Senhor Jesus. Paulo e Barnabé contaram o que Deus tinha feito entre os pagãos. Tiago, que tinha grande autoridade na comunidade de Jerusalém, propôs uma solução (At 15,13-21). A decisão foi escrita numa carta, com uma expressão que mostra a consciência dos apóstolos: pareceu bem ao Espírito Santo e a nós (At 15,28).",
+            "Os apóstolos e os presbíteros se reuniram e examinaram a questão com calma. Pedro lembrou que Deus tinha dado o Espírito Santo aos pagãos como aos judeus, e que todos são salvos pela graça do Senhor Jesus. Paulo e Barnabé contaram o que Deus tinha feito entre os pagãos. Tiago, que tinha grande autoridade na comunidade de Jerusalém e era tido como uma das colunas da Igreja (Gl 2,9), propôs uma solução (At 15,13-21). A decisão foi escrita numa carta, com uma expressão que mostra a consciência dos apóstolos: pareceu bem ao Espírito Santo e a nós (At 15,28).",
         },
         {
           texto:
-            "Essa reunião costuma ser chamada de Concílio de Jerusalém, e a Igreja sempre viu nela o modelo dos concílios que viriam depois. Nos concílios ecumênicos, o colégio dos bispos exerce de modo solene a sua autoridade sobre toda a Igreja, sempre em comunhão com o sucessor de Pedro (CIC 884). O jeito de decidir também ensina: escutar, rezar, ouvir a experiência dos irmãos, conferir com a fé recebida e decidir juntos, sob a guia dos pastores.",
+            "Essa reunião é conhecida como Concílio de Jerusalém. Nos concílios ecumênicos, o colégio dos bispos exerce de modo solene a sua autoridade sobre toda a Igreja, sempre em comunhão com o sucessor de Pedro (CIC 884). Em Jerusalém, a decisão foi tomada pelos apóstolos e pelos presbíteros, com toda a Igreja (At 15,22).",
         },
         { titulo: "Até os confins da terra" },
         {
           texto:
-            "Resolvida a questão, o caminho ficou aberto. Paulo percorreu a Ásia Menor e a Grécia, fundou comunidades, escreveu cartas, foi preso e chegou a Roma. O livro termina de um jeito curioso: Paulo, em Roma, anunciando o Reino de Deus com toda a liberdade (At 28,30-31). Não há um ponto final, porque a história continua. O Espírito Santo é quem conduz a missão da Igreja (CIC 852), e todos os seus membros, cada um a seu modo, participam desse envio (CIC 863).",
+            "Resolvida a questão, o caminho ficou aberto. Paulo percorreu a Ásia Menor e a Grécia, fundou comunidades, escreveu cartas, foi preso e chegou a Roma. O livro termina com Paulo em Roma, anunciando o Reino de Deus com toda a liberdade (At 28,30-31). O Espírito Santo é quem conduz a missão da Igreja (CIC 852), e todos os seus membros, cada um a seu modo, participam desse envio (CIC 863).",
         },
         { titulo: "A missão na sua paróquia" },
         {

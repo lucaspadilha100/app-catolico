@@ -52,7 +52,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "A criação é boa" },
         {
           texto:
-            "Deus criou tudo do nada, livremente e por amor, não por necessidade (CIC 296). O primeiro capítulo do Gênesis repete que o que Deus fazia era bom. A Bíblia não é um livro de ciência e não pretende explicar como cada coisa se formou: ela ensina quem criou e para quê. O mundo não é fruto do acaso nem do mal. É um dom, confiado ao ser humano para ser cuidado.",
+            "Deus criou tudo do nada, livremente e por amor, não por necessidade (CIC 296). O primeiro capítulo do Gênesis repete que o que Deus fazia era bom. A Bíblia não é um livro de ciência: apresenta a obra do Criador de modo simbólico, como uma sequência de seis dias (CIC 337), e responde à pergunta mais importante, a do sentido da criação (CIC 284). O mundo não é fruto do acaso (CIC 295). É um dom, confiado ao ser humano para ser cultivado e guardado (Gn 2,15).",
         },
         {
           texto:
@@ -61,7 +61,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "O pecado original" },
         {
           texto:
-            "Por que, então, há tanto mal no mundo? Os primeiros pais, tentados, deixaram de confiar em Deus e preferiram a si mesmos (CIC 397). Essa ruptura feriu a natureza humana, e todos nascemos marcados por ela: é o pecado original, que não cometemos, mas herdamos (CIC 404). Ele não destruiu a bondade do ser humano, mas a enfraqueceu. Deus não nos abandonou: logo prometeu um Salvador (Gn 3,15), e essa promessa se cumpre em Jesus.",
+            "Por que, então, há tanto mal no mundo? Os primeiros pais, tentados, deixaram de confiar em Deus e preferiram a si mesmos (CIC 397). Essa ruptura feriu a natureza humana, e todos nascemos marcados por ela: é o pecado original, que não cometemos, mas herdamos (CIC 404). Ele não destruiu a bondade do ser humano, mas a feriu e a enfraqueceu (CIC 405). Deus não nos abandonou: logo prometeu um Salvador (Gn 3,15), e essa promessa se cumpre em Jesus.",
         },
         {
           pratica:
@@ -81,16 +81,16 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "Nascido da Virgem Maria" },
         {
           texto:
-            "Para vir ao mundo, Deus quis contar com o sim de uma jovem de Nazaré. Pela ação do Espírito Santo, Maria concebeu Jesus sem intervenção de homem e permaneceu virgem. Como o filho que ela gerou é o próprio Filho de Deus, a Igreja a chama de Mãe de Deus (CIC 495). José, seu esposo, homem justo, acolheu os dois e cuidou da Sagrada Família em Nazaré.",
+            "Para vir ao mundo, Deus quis contar com o sim de uma jovem de Nazaré. Maria concebeu Jesus só pelo poder do Espírito Santo, sem concurso de homem (CIC 496), e permaneceu sempre virgem (CIC 499). Como o filho que ela gerou é o próprio Filho de Deus, a Igreja a chama de Mãe de Deus (CIC 495). José, seu esposo, homem justo (Mt 1,19), acolheu os dois e cuidou da Sagrada Família em Nazaré.",
         },
         { titulo: "A vida pública" },
         {
           texto:
-            "Por volta dos trinta anos, depois de ser batizado por João no rio Jordão, Jesus começou a pregar (Lc 3,23). Anunciava que o Reino de Deus estava próximo e chamava todos à conversão (Mc 1,15). Curava os doentes, perdoava os pecados, comia com os pecadores e escolheu doze apóstolos para estarem com ele. Os milagres eram sinais: mostravam que Deus estava agindo nele.",
+            "Por volta dos trinta anos, depois de ser batizado por João no rio Jordão, Jesus começou a pregar (Lc 3,23). Anunciava que o Reino de Deus estava próximo e chamava todos à conversão (Mc 1,15). Curava os doentes, perdoava os pecados, comia com os pecadores e escolheu doze apóstolos para estarem com ele. Os milagres eram sinais: mostravam que o Reino de Deus estava presente nele (CIC 547).",
         },
         {
           texto:
-            "O Reino que Jesus anuncia não é um território nem um partido. É Deus reinando no coração das pessoas e na vida do mundo, com verdade, justiça e amor. Ele já começou com Jesus, cresce na Igreja e chegará à plenitude quando Cristo voltar. Entram nele os pequenos, os pobres de coração, os que se arrependem e acolhem a sua palavra.",
+            "O Reino que Jesus anuncia não é deste mundo (Jo 18,36). Jesus lhe deu começo na terra, e a Igreja é o seu germe e o seu princípio (CIC 541; CIC 567); ele chegará à plenitude quando Cristo voltar na glória. O Reino é dos pobres e pequenos, dos que o acolhem com um coração humilde (CIC 544), e Jesus chama os pecadores à conversão (CIC 545).",
         },
         {
           pratica:
@@ -106,7 +106,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "1CO 15:3-8" },
         {
           texto:
-            "Jesus sabia que a sua pregação o levaria à cruz e não fugiu. Na Última Ceia, deu aos apóstolos o seu Corpo e o seu Sangue e se entregou livremente. Foi preso, julgado, flagelado e crucificado sob Pôncio Pilatos. Ele morreu pelos pecados de todos, e por isso cada um de nós está envolvido nessa história (CIC 598).",
+            "Jesus anunciou mais de uma vez a sua paixão e tomou a firme resolução de subir a Jerusalém (Lc 9,51; CIC 557). Na Última Ceia, deu aos apóstolos o seu Corpo e o seu Sangue e se entregou livremente. Foi preso, julgado, flagelado e crucificado sob Pôncio Pilatos. Ele morreu pelos pecados de todos, e por isso cada um de nós está envolvido nessa história (CIC 598).",
         },
         { titulo: "Morte por amor" },
         {
@@ -120,7 +120,7 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "Por isso o domingo é o dia do Senhor. Cada domingo é uma pequena Páscoa, e participar da missa nesse dia, e nas festas de preceito, é um dever de todo católico (cân. 1247). Não é um peso: é o encontro semanal com o Ressuscitado.",
+            "Por isso o domingo é o dia do Senhor, o dia da ressurreição (CIC 1193), e participar da missa nesse dia, e nas festas de preceito, é um dever de todo católico (cân. 1247). Não é um peso: é o encontro semanal com o Ressuscitado.",
         },
         { titulo: "A ascensão" },
         {
@@ -129,7 +129,7 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           pratica:
-            "Na sexta-feira, dia que a Igreja dedica à penitência, ofereça um pequeno sacrifício em memória da paixão de Jesus. No domingo, participe da missa e preste atenção especial ao momento da consagração.",
+            "Na sexta-feira, dia que a Igreja dedica à penitência (cân. 1250), ofereça um pequeno sacrifício em memória da paixão de Jesus. No domingo, participe da missa e preste atenção especial ao momento da consagração.",
         },
         { ir: "/rezar/missa", rotulo: "A Missa, parte por parte" },
       ],
@@ -145,7 +145,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "Una, santa, católica e apostólica" },
         {
           texto:
-            "No Credo professamos a Igreja una, santa, católica e apostólica (CIC 811). Una, porque tem um só Senhor, uma só fé e um só batismo, como diz a Carta aos Efésios. Santa, porque Cristo a santifica, embora os seus membros sejam pecadores e precisem sempre de conversão. Católica quer dizer universal: está aberta a todos os povos e guarda a fé inteira. Apostólica, porque está fundada sobre os apóstolos e continua a ensinar o que eles ensinaram.",
+            "No Credo professamos a Igreja una, santa, católica e apostólica (CIC 811). Una, porque tem um só Senhor, uma só fé e um só batismo, como diz a Carta aos Efésios. Santa, porque Cristo a santifica, embora os seus membros sejam pecadores e precisem sempre de conversão (CIC 827). Católica quer dizer universal: está aberta a todos os povos e guarda a fé inteira. Apostólica, porque está fundada sobre os apóstolos e continua a ensinar o que eles ensinaram.",
         },
         { titulo: "O Papa e os bispos" },
         {
@@ -209,12 +209,12 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "As duas tábuas" },
         {
           texto:
-            "Os três primeiros mandamentos falam do amor a Deus: amá-lo sobre todas as coisas, respeitar o seu nome, guardar o dia do Senhor. Os outros sete falam do amor ao próximo: honrar pai e mãe, não matar, viver a castidade, não roubar, não mentir, não desejar a mulher do próximo, não cobiçar os bens alheios. Quem ama a Deus de verdade não consegue desprezar o irmão. E quem serve o irmão serve o próprio Cristo (Mt 25,40).",
+            "Os três primeiros mandamentos falam do amor a Deus: amá-lo sobre todas as coisas, respeitar o seu nome, guardar o dia do Senhor. Os outros sete falam do amor ao próximo: honrar pai e mãe, não matar, viver a castidade, não roubar, não mentir, não desejar a mulher do próximo, não cobiçar os bens alheios. Quem diz que ama a Deus e odeia o irmão é mentiroso (1Jo 4,20). E quem serve o irmão serve o próprio Cristo (Mt 25,40).",
         },
         { titulo: "A consciência" },
         {
           texto:
-            "Dentro de cada pessoa há uma voz que chama a fazer o bem e evitar o mal: é a consciência (CIC 1776). Ela é o lugar mais íntimo do ser humano, onde ele está a sós com Deus. Mas a consciência precisa ser formada, com a Palavra de Deus, o ensino da Igreja e a oração, para não se enganar. Seguir a consciência não é fazer o que se tem vontade: é buscar com sinceridade o que Deus quer.",
+            "Dentro de cada pessoa há uma voz que chama a fazer o bem e evitar o mal: é a consciência (CIC 1776). Ela é o lugar mais íntimo do ser humano, onde ele está a sós com Deus. Mas a consciência precisa ser formada, com a Palavra de Deus, o ensino da Igreja e a oração, para não se enganar (CIC 1783-1785). Seguir a consciência não é fazer o que se tem vontade: é buscar com sinceridade o que Deus quer.",
         },
         { titulo: "Pecado e misericórdia" },
         {
@@ -245,7 +245,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "O Pai-Nosso" },
         {
           texto:
-            "Quando os discípulos pediram a Jesus que os ensinasse a rezar, ele lhes deu o Pai-Nosso. Por isso ela é chamada a oração do Senhor, e um antigo escritor cristão disse que ela resume todo o Evangelho (CIC 2761). Começa chamando Deus de Pai, e Pai nosso, de todos. Depois vêm sete pedidos: três voltados para Deus, o seu nome, o seu Reino, a sua vontade; e quatro para as nossas necessidades: o pão, o perdão, a força na tentação e a libertação do mal.",
+            "Quando os discípulos pediram a Jesus que os ensinasse a rezar, ele lhes deu o Pai-Nosso. Por isso ela é chamada a oração do Senhor, e o Catecismo lembra que ela é o resumo de todo o Evangelho (CIC 2761). Começa chamando Deus de Pai, e Pai nosso, de todos. Depois vêm sete pedidos: três voltados para Deus, o seu nome, o seu Reino, a sua vontade; e quatro para as nossas necessidades: o pão, o perdão, a força na tentação e a libertação do mal (CIC 2857).",
         },
         { titulo: "Rezar em família" },
         {
@@ -266,7 +266,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "LUK 1:46-55", poema: true },
         {
           texto:
-            "Maria ocupa um lugar único na fé católica, porque Deus a escolheu para ser a Mãe do seu Filho. Ao pé da cruz, Jesus a entregou ao discípulo amado e, nele, a todos nós (Jo 19,26-27). Por isso ela é Mãe de Deus e nossa Mãe. No cântico que você acabou de ler, o Magnificat, ela mesma diz que todas as gerações a chamariam de bem-aventurada.",
+            "Maria ocupa um lugar único na fé católica, porque Deus a escolheu para ser a Mãe do seu Filho. Ao pé da cruz, Jesus a entregou ao discípulo amado e, nele, a todos nós (Jo 19,26-27; CIC 501). Por isso ela é Mãe de Deus e nossa Mãe. No cântico que você acabou de ler, o Magnificat, ela mesma diz que todas as gerações a chamariam de bem-aventurada.",
         },
         { titulo: "Quatro verdades sobre Maria" },
         {

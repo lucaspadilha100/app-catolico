@@ -79,3 +79,11 @@ Arquivo: `src/devocao/cursos/santos-do-brasil.ts`. Texto próprio; nenhum docume
 - Ponto delicado: "Promessa feita a Deus, se é possível e boa, deve ser cumprida". O CIC 2101 fala da fidelidade às promessas; o 2102 trata do voto ("bem possível e melhor"). Conferir se prefere citar o 2102 ou tirar a frase.
 - Fecho: beatos, veneráveis e servos de Deus brasileiros só pela categoria, sem nomes. "Os beatos já podem receber culto público nos lugares que a Igreja permite. Os veneráveis e os servos de Deus ainda não": sem o rogai por nós na oração pública; em particular, pedir a Deus que a santidade deles seja reconhecida. Segue o cân. 1187 e a regra do devocionário.
 - Links: Novena de Nossa Senhora Aparecida; Terço.
+
+## Conferência final (13/11/2026)
+Regras de `docs/conferencia-doutrinal.md`. Números do CIC e do Código conferidos de novo no texto oficial.
+- Anchieta: o traslado do corpo pelos indígenas virou "a tradição conta"; o CIC 849 passou a sustentar só o mandato missionário (saiu "estudo, paciência e amor concreto", que o número não diz).
+- Cunhaú: "fecharam as portas" virou "os relatos contam". A frase ecumênica (não acusar outro povo nem outra igreja cristã) ficou.
+- Aparecida: "promessa possível e boa deve ser cumprida" misturava o voto (CIC 2102) com a promessa; ficou o que o CIC 2101 diz (fidelidade às promessas feitas a Deus).
+- "Pelo menos cinco anos depois da morte": ficou com "em geral", sem número de norma (Normae servandae e Sanctorum Mater não puderam ser lidas no texto oficial).
+- Datas e fatos dos santos: conferem com as páginas do app; nada mudou.

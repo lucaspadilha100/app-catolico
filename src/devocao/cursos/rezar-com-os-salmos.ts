@@ -14,17 +14,17 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "Um livro feito de orações" },
         {
           texto:
-            "O livro dos Salmos, também chamado Saltério, reúne 150 orações, que foram sendo juntadas aos poucos e organizadas em cinco livros (CIC 2585). O seu nome em hebraico quer dizer Louvores. Nos outros livros da Bíblia, Deus conta o que fez pelo seu povo; nos Salmos, é o povo que responde a Deus. E essa resposta também é Palavra de Deus, inspirada pelo mesmo Espírito Santo (CIC 2587). É Deus mesmo quem põe na nossa boca as palavras com que podemos falar com ele.",
+            "O livro dos Salmos, também chamado Saltério, reúne 150 orações, que foram sendo juntadas aos poucos e organizadas em cinco livros; o livro também se chama Louvores (CIC 2585). Nos outros livros da Bíblia, Deus conta o que fez pelo seu povo; nos Salmos, é o povo que responde a Deus. E essa resposta também é Palavra de Deus, inspirada pelo mesmo Espírito Santo (CIC 2587). É Deus mesmo quem põe na nossa boca as palavras com que podemos falar com ele.",
         },
         { titulo: "A oração de Jesus" },
         {
           texto:
-            "Jesus aprendeu a rezar com Maria, com as palavras e os ritmos do seu povo, na sinagoga de Nazaré e no Templo (CIC 2599). Os salmos eram cantados nas grandes festas em Jerusalém e todo sábado nas sinagogas (CIC 2586). Na última ceia, depois de cantarem o hino, Jesus e os apóstolos saíram para o monte das Oliveiras (Mt 26,30). Segundo o costume da ceia pascal judaica, esse hino era formado pelos salmos de louvor que vão do Sl 112(113) ao Sl 117(118). Os salmos acompanharam Jesus até a cruz.",
+            "Jesus aprendeu a rezar com Maria, com as palavras e os ritmos do seu povo, na sinagoga de Nazaré e no Templo (CIC 2599). Os salmos eram cantados nas grandes festas em Jerusalém e todo sábado nas sinagogas (CIC 2586). Na última ceia, depois de cantarem o hino, Jesus e os apóstolos saíram para o monte das Oliveiras (Mt 26,30). Os salmos acompanharam Jesus até a cruz (Mt 27,46).",
         },
         { titulo: "A voz de Cristo e a nossa voz" },
         {
           texto:
-            "Santo Agostinho, que comentou os 150 salmos, ensinava que Jesus reza por nós como nosso sacerdote, reza em nós como nossa cabeça e recebe a nossa oração como nosso Deus. Por isso, dizia ele, devemos reconhecer em Cristo a nossa voz, e em nós a voz de Cristo (CIC 2616). Quando a Igreja reza um salmo, reza o Cristo inteiro, a cabeça e o corpo. Rezados por Jesus e cumpridos nele, os salmos continuam sendo parte essencial da oração da Igreja e servem para pessoas de qualquer condição e de qualquer tempo (CIC 2597).",
+            "Santo Agostinho, que comentou todos os salmos, ensinava que Jesus reza por nós como nosso sacerdote, reza em nós como nossa cabeça e recebe a nossa oração como nosso Deus. Por isso, dizia ele, devemos reconhecer em Cristo a nossa voz, e em nós a voz de Cristo (CIC 2616). Quando a Igreja reza um salmo, reza o Cristo inteiro, a cabeça e o corpo (CIC 795). Rezados por Jesus e cumpridos nele, os salmos continuam sendo parte essencial da oração da Igreja e servem para pessoas de qualquer condição e de qualquer tempo (CIC 2597).",
         },
         {
           texto:
@@ -43,7 +43,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "PSA 103:1-8", poema: true },
         {
           texto:
-            "O salmista fala com a própria alma e a convida a bendizer o Senhor com tudo o que tem dentro de si. Pede a ela que não se esqueça de nenhum dos benefícios recebidos: o perdão, a cura, a vida resgatada da morte, a misericórdia que coroa. O Sl 102(103) é um louvor que nasce da memória. Quem se lembra do que Deus fez não consegue ficar calado.",
+            "O salmista fala com a própria alma e a convida a bendizer o Senhor com tudo o que tem dentro de si. Pede a ela que não se esqueça de nenhum dos benefícios recebidos: o perdão, a cura, a vida resgatada da morte, a misericórdia que coroa. O Sl 102(103) é um louvor que nasce da memória.",
         },
         { titulo: "Louvar a Deus porque ele é Deus" },
         {
@@ -53,12 +53,12 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "Toda a criação louva" },
         {
           texto:
-            "Outros salmos de louvor olham para fora. O Sl 148 chama o céu, os anjos, o sol, a lua e as estrelas, depois o mar, o fogo, a neve, as montanhas, as árvores e os animais, e por fim os reis, os jovens e os velhos, para que todos louvem o nome do Senhor. A criação louva a Deus só por existir, e o ser humano lhe dá voz. Os salmos ensinam a desejar Deus através de tudo o que é bom no mundo que ele fez (CIC 2589). São Francisco de Assis rezou com esse mesmo espírito no seu Cântico do Irmão Sol.",
+            "Outros salmos de louvor olham para fora. O Sl 148 chama o céu, os anjos, o sol, a lua e as estrelas, depois o mar, o fogo, a neve, as montanhas, as árvores e os animais, e por fim os reis, os jovens e os velhos, para que todos louvem o nome do Senhor. Todas as criaturas têm o mesmo Criador e existem para a sua glória. Os salmos ensinam a desejar Deus através de tudo o que é bom no mundo que ele fez (CIC 2589). São Francisco de Assis rezou com esse mesmo espírito no seu Cântico do Irmão Sol, que o Catecismo cita (CIC 344).",
         },
         { titulo: "Louvar também nos dias comuns" },
         {
           texto:
-            "Pode parecer que o louvor é só para os dias de festa. Mas os salmos de louvor foram feitos para ser rezados sempre, também quando a vida está pesada. Louvar a Deus no meio de uma dificuldade não é fingir que está tudo bem: é lembrar que ele continua bom e fiel. Quem aprende a louvar começa a enxergar benefícios que antes passavam despercebidos, como pede o salmo.",
+            "Pode parecer que o louvor é só para os dias de festa. Mas o salmista diz: bendirei o Senhor em todo o tempo; o seu louvor estará sempre na minha boca (Sl 33(34),2). Louvar a Deus no meio de uma dificuldade não é fingir que está tudo bem: é confiar no seu amor e esperar o que o Deus fiel fará (CIC 2589). E quem procura não esquecer nenhum dos seus benefícios, como pede o Sl 102(103), aprende a reconhecê-los no dia a dia.",
         },
         {
           pratica:
@@ -77,7 +77,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "Deus escuta a nossa queixa" },
         {
           texto:
-            "Muitos cristãos acham que não se pode reclamar com Deus. Os salmos mostram o contrário: em muitos deles, o salmista diz a Deus o que sente, sem enfeitar, porque fala com alguém que o conhece por dentro. Essa franqueza não é falta de fé. É a fé de quem não desiste de falar com Deus, mesmo quando não entende o que está acontecendo. Ao pedir, reconhecemos que não somos donos da nossa vida, e por isso a súplica já é um caminho de volta para Deus (CIC 2629).",
+            "Em muitos salmos, o salmista diz a Deus o que sente, sem enfeitar, porque fala com alguém que o conhece por dentro. Essa franqueza não é falta de fé. É a fé de quem não desiste de falar com Deus, mesmo quando não entende o que está acontecendo. Ao pedir, reconhecemos que não somos donos da nossa vida, e por isso a súplica já é um caminho de volta para Deus (CIC 2629).",
         },
         { titulo: "A sede de Deus" },
         {
@@ -91,7 +91,7 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "Alguns salmos pedem que Deus castigue os inimigos com palavras duras. Eles mostram a dor de quem foi injustiçado e entregam a justiça nas mãos de Deus, em vez de fazê-la com as próprias mãos. O cristão os reza à luz de Jesus, que mandou amar os inimigos (Mt 5,44) e perdoou na cruz (Lc 23,34). Por isso a tradição da Igreja aprendeu a ver nesses inimigos, antes de tudo, o pecado, a tentação e o demônio, que todo crente precisa enfrentar (CIC 2589).",
+            "Alguns salmos pedem que Deus castigue os inimigos com palavras duras. Eles mostram a dor de quem foi injustiçado e entregam a justiça nas mãos de Deus, em vez de fazê-la com as próprias mãos (Rm 12,19). O cristão os reza à luz de Jesus, que mandou amar os inimigos (Mt 5,44) e perdoou na cruz (Lc 23,34). O Catecismo lembra que, nos salmos, quem ama o Senhor tem de enfrentar muitos inimigos e tentações (CIC 2589).",
         },
         { ir: "/rezar/oracoes/jesus-eu-confio", rotulo: "Jesus, eu confio em vós" },
         {
@@ -111,12 +111,12 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "O Bom Pastor" },
         {
           texto:
-            "Jesus disse de si mesmo que é o bom pastor, que conhece as suas ovelhas e dá a vida por elas (Jo 10,11-15). Quando o cristão reza o Sl 22(23), reza a Cristo, que continua a guiar e alimentar o seu rebanho, a Igreja (CIC 754). Desde os primeiros séculos, alguns padres da Igreja viram na água, no óleo, na mesa e no cálice deste salmo uma imagem do batismo, da crisma e da eucaristia. Por isso ele é escolhido muitas vezes para batizados e primeiras comunhões, e também para os funerais.",
+            "Jesus disse de si mesmo que é o bom pastor, que conhece as suas ovelhas e dá a vida por elas (Jo 10,11-15). Quando o cristão reza o Sl 22(23), reza a Cristo, que continua a guiar e alimentar o seu rebanho, a Igreja (CIC 754). Santo Ambrósio e São Cirilo de Jerusalém, ao explicar os sacramentos aos recém-batizados, viram na água, no óleo, na mesa e no cálice deste salmo uma imagem do batismo, da crisma e da eucaristia (Santo Ambrósio, Sobre os mistérios 8,43; São Cirilo de Jerusalém, Catequeses mistagógicas IV,7). É também um salmo muito escolhido para batizados, primeiras comunhões e funerais.",
         },
         { titulo: "À sombra do Altíssimo" },
         {
           texto:
-            "O Sl 90(91) fala de quem mora sob a proteção de Deus e se abriga debaixo das suas asas. Essa pessoa não terá medo dos perigos da noite nem dos do dia, e os anjos a guardarão nos seus caminhos. No fim, é Deus mesmo quem fala e promete estar com ela na hora da tribulação, livrá-la e mostrar-lhe a salvação. Na Liturgia das Horas, a Igreja reza este salmo nas Completas, a oração antes de dormir.",
+            "O Sl 90(91) fala de quem mora sob a proteção de Deus e se abriga debaixo das suas asas. Essa pessoa não terá medo dos perigos da noite nem dos do dia, e os anjos a guardarão nos seus caminhos. No fim, é Deus mesmo quem fala e promete estar com ela na hora da tribulação, livrá-la e mostrar-lhe a salvação. Na Liturgia das Horas, a Igreja reza este salmo nas Completas do domingo, a oração antes de dormir.",
         },
         { titulo: "Confiar não é pôr Deus à prova" },
         {
@@ -140,7 +140,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "Chamar o pecado pelo nome" },
         {
           texto:
-            "O salmista não diz que errou sem querer nem põe a culpa nos outros. Diz que conhece a sua falta e que o seu pecado está sempre diante dele. Reconhece também que pecou contra Deus: todo pecado, mesmo o que fere o próximo, é uma ofensa a Deus e ao amor que ele nos tem (CIC 1850). Mas o salmo não começa pelo pecado, começa pela misericórdia. Davi tem coragem de olhar a própria culpa porque antes olhou para a bondade de Deus.",
+            "O salmista não diz que errou sem querer nem põe a culpa nos outros. Diz que conhece a sua falta e que o seu pecado está sempre diante dele. Reconhece também que pecou contra Deus: todo pecado, mesmo o que fere o próximo, é uma ofensa a Deus e ao amor que ele nos tem (CIC 1850). Mas o salmo não começa pelo pecado, começa pela misericórdia. O primeiro pedido é: tem piedade de mim, ó Deus, segundo a tua grande misericórdia (Sl 50(51),3).",
         },
         { titulo: "Um coração novo" },
         {
@@ -167,21 +167,21 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "PSA 95:1-7", poema: true },
         {
           texto:
-            "O salmista chama o povo para cantar com alegria e para se ajoelhar diante do Deus que o criou e que o conduz como um pastor conduz o rebanho. Por isso este salmo é o mais usado para abrir a oração de cada dia na Liturgia das Horas, como invitatório. Os salmos que Israel cantava no Templo entraram na liturgia cristã como parte que não pode faltar (CIC 1093). Hoje você os encontra em dois lugares principais: na missa e na Liturgia das Horas.",
+            "O salmista chama o povo para cantar com alegria e para se ajoelhar diante do Deus que o criou e que o conduz como um pastor conduz o rebanho. Por isso a Liturgia das Horas o usa muitas vezes como invitatório, o salmo que abre a oração de cada dia. Os salmos que Israel cantava no Templo entraram na liturgia cristã como parte que não pode faltar (CIC 1093). Hoje você os encontra em dois lugares principais: na missa e na Liturgia das Horas.",
         },
         { titulo: "O salmo responsorial" },
         {
           texto:
-            "Na missa, depois da primeira leitura, vem o salmo responsorial. Ele faz parte da liturgia da Palavra: não é um canto para preencher o tempo, mas Palavra de Deus, e por isso em geral é proclamado do ambão, o mesmo lugar das leituras. O salmista canta ou lê as estrofes, e a assembleia responde com um refrão curto depois de cada uma. O Catecismo põe esses salmos entre as respostas da assembleia à Palavra que acabou de ouvir (CIC 1154).",
+            "Na missa, depois da primeira leitura, vem o salmo responsorial. Ele faz parte da liturgia da Palavra: não é um canto para preencher o tempo, mas Palavra de Deus, e por isso é proclamado do ambão, o mesmo lugar das leituras, ou de outro lugar adequado (IGMR 61). O salmista canta ou lê as estrofes, e a assembleia responde com um refrão curto depois de cada uma. O Catecismo põe esses salmos entre as respostas da assembleia à Palavra que acabou de ouvir (CIC 1154).",
         },
         {
           texto:
-            "O salmo de cada missa foi escolhido para ecoar a primeira leitura e transformar em oração o que foi proclamado. Por isso as normas da Igreja pedem que ele venha dos livros litúrgicos, e não seja trocado por um canto qualquer. Para participar bem, preste atenção ao refrão e guarde-o: ele costuma resumir a mensagem daquele dia, e pode ser repetido como oração durante a semana.",
+            "O salmo de cada missa corresponde à leitura e, como regra, é tirado do Lecionário (IGMR 61). Não é permitido trocá-lo por um texto que não seja da Bíblia (IGMR 57). Para participar bem, preste atenção ao refrão e guarde-o: ele costuma resumir a mensagem daquele dia, e pode ser repetido como oração durante a semana.",
         },
         { titulo: "A Liturgia das Horas" },
         {
           texto:
-            "A Liturgia das Horas, também chamada Ofício divino, é a oração pública da Igreja, que consagra pelo louvor todo o dia e toda a noite (CIC 1174). Os salmos são o seu centro, junto com cânticos da Bíblia, leituras, hinos e preces (CIC 1177). As horas principais são as Laudes, de manhã, e as Vésperas, ao entardecer; as Completas fecham o dia, antes de dormir. Quem reza o Ofício se une a Cristo, que dá glória ao Pai e intercede pelo mundo inteiro (CIC 1196).",
+            "A Liturgia das Horas, também chamada Ofício divino, é a oração pública da Igreja, que consagra pelo louvor todo o dia e toda a noite (CIC 1174). Os salmos são o seu centro, junto com cânticos da Bíblia, leituras, hinos e preces (CIC 1177). As horas principais são as Laudes, de manhã, e as Vésperas, ao entardecer (Sacrosanctum Concilium, 89); as Completas fecham o dia, antes de dormir. Quem reza o Ofício se une a Cristo, que dá glória ao Pai e intercede pelo mundo inteiro (CIC 1196).",
         },
         {
           texto:

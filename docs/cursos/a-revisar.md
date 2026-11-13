@@ -226,3 +226,33 @@ Cada número conferido no texto português do Catecismo e do Código (vatican.va
 - Acrescentados: CIC 466 (Concílio de Éfeso, 431), CIC 1032 (missas e orações pelos falecidos), CIC 2626-2643 (formas de oração: bênção e adoração, pedido, intercessão, ação de graças, louvor), que respondem a duas perguntas acima.
 - Conferido sem mudar: as datas (Éfeso 431, Imaculada 1854 com Pio IX no CIC 491; Assunção 1950 com Pio XII, data histórica, o CIC 966 não traz o ano), cân. 916 e 989, cân. 1247, a sexta-feira como dia de penitência (cân. 1250).
 - Continuam para o dono: o tom de "a Bíblia não é um livro de ciência", a redação da concepção virginal, a frase sobre o inferno e o costume de turmas de catequese para adultos.
+
+## Conferência final (13/11/2026)
+Regras de `docs/conferencia-doutrinal.md`, para os quatro cursos acima. Números do CIC e do Código conferidos de novo no texto oficial; IGMR, Redemptionis Sacramentum e Verbum Domini lidos no vatican.va; São Cirilo de Jerusalém (Catequeses mistagógicas V,21) conferido no texto.
+
+### A missa explicada
+- Normas agora citadas por número: altar que significa Cristo e incenso facultativo (IGMR 49, 298; saiu "em dias de festa"); ato penitencial sem a força do sacramento (IGMR 51); Glória (IGMR 53); sinal da cruz de todos no Evangelho (IGMR 134); ordem da oração dos fiéis (IGMR 69-70); lavabo (IGMR 76); de pé no convite à oração e de joelhos na consagração (IGMR 43); reverência antes da comunhão (IGMR 160); comunhão na boca, direito do fiel (RS 92); avisos (IGMR 90).
+- Saíram: "bênçãos de mesa do povo de Israel" (dado de estudiosos), as duas explicações da gota de água (ficou o sentido da própria oração do rito), a datação de 1Cor ("vinte anos depois").
+- A "mão como trono" passou a ter o autor: São Cirilo de Jerusalém.
+- Comunhão espiritual de quem está em pecado grave: ficou só o arrependimento e a confissão quanto antes (CIC 1385), sem afirmar o que a doutrina não fixa.
+- Dias de preceito no Brasil: atribuídos à legislação complementar da CNBB; a lista confere com a do calendário do app (`src/liturgia/preceitos.ts`), mas o texto da CNBB não pôde ser lido online.
+
+### Rezar com a Bíblia
+- "Nem de história no sentido moderno" saiu.
+- Bíblias protestantes: "faltam nelas" virou "não trazem"; "a Igreja sempre os leu" virou "as comunidades os liam na liturgia".
+- Guigo, o cartuxo (não é santo nem Padre), saiu; os passos da lectio divina, com a ação no fim e Maria como modelo, vêm agora de Bento XVI, Verbum Domini 87. Resolve os pontos de Guigo e do "quinto passo".
+- Contemplação (CIC 2715) e distrações (CIC 2729) ganharam número.
+
+### Preparação para a crisma
+- "O diácono Filipe" virou "um dos sete escolhidos para servir" (At 6,5).
+- Saiu "muitos judeus lembravam a entrega da Lei no Sinai" (tradição rabínica); ficou Lv 23,15-17. Babel virou o fato litúrgico (Gn 11,1-9 na vigília de Pentecostes).
+- Vento e fogo (CIC 691, 696), intercessão de Maria (CIC 969), dons aumentados pela crisma (CIC 1303), Cristo e cristão = ungido (CIC 436, 1289), graça devolvida pela confissão (CIC 1446).
+- Saiu a imagem própria das "velas do barco". O crisma: "óleo, em geral de oliva" (o Pontifical admite outro óleo vegetal).
+
+### Catequese de adultos
+- "A Bíblia não é livro de ciência" ficou, agora com o CIC 337 e 284; "não é fruto do acaso" com o CIC 295. Resolve o ponto do tom.
+- Concepção virginal: CIC 496 ("sem concurso de homem") e 499. Resolve o ponto da redação.
+- O Reino: saiu "nem um partido" e a definição própria; ficaram Jo 18,36 e CIC 541, 544, 545, 567.
+- "Cada domingo é uma pequena Páscoa" virou CIC 1193. "Um antigo escritor cristão" (Tertuliano, não santo) saiu: ficou só o CIC 2761.
+- Acrescentados: CIC 405, 547, 557, 827, 1783-1785, 2857, 501; cân. 1250; Mt 1,19; 1Jo 4,20; Gn 2,15.
+- A frase do inferno confere com o CIC 1033 ("autoexclusão... por nossa própria livre escolha"): nada mudou.

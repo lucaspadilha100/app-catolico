@@ -55,3 +55,14 @@ A escala da paróquia é mencionada só no texto (lição 6), sem link: a rota d
 - "Por fiéis da assembleia" (IGMR recomenda que os fiéis apresentem o pão e o vinho) e silêncio na sacristia (IGMR): conferir.
 - "Esse é o modelo de todo ministério": sem número de propósito (CIC 876 e 1551 falam do ministério ordenado).
 - Link para o curso "A missa explicada".
+
+## Conferência final (13/11/2026)
+Regras de `docs/conferencia-doutrinal.md`. As normas que estavam sem número foram lidas no vatican.va e agora vêm citadas: Instrução Geral do Missal Romano (IGMR, texto universal em italiano e inglês), Redemptionis Sacramentum (RS, português), Sacrosanctum Concilium, Ministeria quaedam, Spiritus Domini e Antiquum ministerium. Números do CIC e do Código conferidos de novo.
+- Ministérios instituídos: Ministeria quaedam (15/8/1972) nomeado; Spiritus Domini (10/1/2021) confere, com o texto novo do cân. 230 §1 (idade e aptidões por decreto da Conferência), citado por ele e não pelo PDF antigo; Antiquum ministerium (10/5/2021) confere. A veste dos ministros leigos: IGMR 339.
+- Leitor e salmista: Evangelho do diácono ou do padre (IGMR 59); salmo e intenções pelo leitor (IGMR 99, 71); ambão (IGMR 309); Lecionário no ambão (IGMR 128); inclinação ao altar (IGMR 275); silêncio depois da leitura (IGMR 59, 128); salmo não trocado por texto não bíblico (IGMR 57, 61); salmista (IGMR 102). Saiu "não de um folheto ou de uma tela": a introdução do Lecionário não pôde ser lida no texto oficial.
+- Ministro extraordinário: nome certo (RS 156); só por necessidade (RS 158); Immensae caritatis, 1973 (data conferida nas notas da RS); designação para uma celebração (IGMR 162; RS 155); recebe do padre (IGMR 162); diálogo da comunhão (IGMR 161); boca ou mão (RS 92); purificação (IGMR 279); vai direto ao doente (RS 133).
+- Acólitos e coroinhas: designação pelo pároco (IGMR 107); costume louvável e vocações (RS 47); meninas e mulheres segundo o bispo, com a carta de 1994 citada na nota da RS 47; veste (IGMR 339); campainha (IGMR 150). São Tarcísio virou "a tradição conta".
+- Canto: Glória, Santo e Cordeiro não se trocam (IGMR 53, 366); Advento e Quaresma (IGMR 313, 62); nada por cima das orações presidenciais (IGMR 32); gregoriano, canto popular, órgão e outros instrumentos (Sacrosanctum Concilium 116, 118, 120); silêncio (IGMR 45).
+- Acolhida: "não é norma universal" estava errado: a IGMR 105 conta entre as funções litúrgicas a de quem recebe os fiéis à porta; também o sacristão e os que recolhem a coleta. Oferendas pelos fiéis: IGMR 73.
+- "Rivalidades ferem mais que um erro" (frase própria) virou Lc 22,24-27.
+- A menção ao CIC 1577 ficou: é a distinção que o próprio Spiritus Domini faz entre ministérios do batismo e o ministério ordenado.

@@ -9,7 +9,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "ACT 8:14-17" },
         {
           texto:
-            "O diácono Filipe tinha anunciado Cristo na Samaria, e muitos foram batizados. Os apóstolos souberam e enviaram Pedro e João. Os dois rezaram pelos novos cristãos e impuseram as mãos sobre eles, e eles receberam o Espírito Santo. A Igreja vê nessa cena uma das raízes do sacramento que hoje chamamos de crisma ou confirmação (CIC 1288).",
+            "Filipe, um dos sete escolhidos para servir a comunidade (At 6,5), tinha anunciado Cristo na Samaria, e muitos foram batizados. Os apóstolos souberam e enviaram Pedro e João. Os dois rezaram pelos novos cristãos e impuseram as mãos sobre eles, e eles receberam o Espírito Santo. A Igreja vê nessa cena uma das raízes do sacramento que hoje chamamos de crisma ou confirmação (CIC 1288).",
         },
         { titulo: "Um dos três sacramentos da iniciação" },
         {
@@ -23,7 +23,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "Um selo para sempre" },
         {
           texto:
-            "Como o batismo, a confirmação imprime na alma uma marca espiritual que não se apaga, chamada caráter (CIC 1304). O mesmo acontece com o sacramento da ordem (CIC 1121). Por isso a crisma é recebida uma só vez na vida. Mesmo que a pessoa se afaste de Deus, o selo permanece. O que o pecado grave faz perder é a graça, e a confissão a devolve.",
+            "Como o batismo, a confirmação imprime na alma uma marca espiritual que não se apaga, chamada caráter (CIC 1304). O mesmo acontece com o sacramento da ordem (CIC 1121). Por isso a crisma é recebida uma só vez na vida. Mesmo que a pessoa se afaste de Deus, o selo permanece. O que o pecado grave faz perder é a graça, e a confissão a devolve (CIC 1446).",
         },
         {
           texto:
@@ -71,11 +71,11 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "ACT 2:1-11" },
         {
           texto:
-            "Pentecostes era uma festa judaica celebrada cinquenta dias depois da Páscoa. Nela se agradecia a Deus pela colheita, e muitos judeus lembravam também a entrega da Lei no Sinai. Por isso havia em Jerusalém gente de muitos povos. Os discípulos estavam reunidos e perseveravam em oração com Maria, a mãe de Jesus (At 1,14). Foi sobre essa pequena comunidade que o Espírito desceu.",
+            "Pentecostes era uma festa judaica celebrada cinquenta dias depois da Páscoa. Nela se ofereciam a Deus as primícias da colheita (Lv 23,15-17), e por isso havia em Jerusalém gente de muitos povos. Os discípulos estavam reunidos e perseveravam em oração com Maria, a mãe de Jesus (At 1,14). Foi sobre essa pequena comunidade que o Espírito desceu.",
         },
         {
           texto:
-            "Os sinais falam por si. O vento lembra o sopro de Deus, que dá a vida. O fogo lembra a presença de Deus, que ilumina, aquece e purifica. As línguas mostram que o Evangelho é para todos os povos: cada um ouvia os apóstolos na própria língua. Em Babel, o orgulho dos homens tinha trazido confusão e divisão (Gn 11,1-9). Em Pentecostes, o Espírito reúne povos diferentes na mesma fé.",
+            "Os sinais falam por si. O vento lembra o sopro de Deus, que dá a vida (CIC 691). O fogo lembra a força do Espírito, que transforma aquilo em que toca (CIC 696). As línguas mostram que o Evangelho é para todos os povos: cada um ouvia os apóstolos na própria língua. Na missa da vigília de Pentecostes, a Igreja lê a história da torre de Babel, quando as línguas dos homens foram confundidas e eles se dispersaram (Gn 11,1-9). Em Pentecostes, o Espírito reúne povos diferentes na mesma fé.",
         },
         { titulo: "A Igreja sai para a missão" },
         {
@@ -84,7 +84,7 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "A confirmação é, para cada fiel, o seu Pentecostes. A Igreja ensina que o efeito deste sacramento é uma efusão especial do Espírito Santo, como a que os apóstolos receberam naquele dia (CIC 1302). O mesmo Espírito que deu coragem a Pedro quer dar coragem a você. E Maria, que estava no cenáculo rezando com os discípulos, continua a rezar pelos que se preparam para receber o Espírito.",
+            "A confirmação é, para cada fiel, o seu Pentecostes. A Igreja ensina que o efeito deste sacramento é uma efusão especial do Espírito Santo, como a que os apóstolos receberam naquele dia (CIC 1302). O mesmo Espírito que deu coragem a Pedro quer dar coragem a você. E Maria, que estava no cenáculo rezando com os discípulos, continua a interceder pelos que se preparam para receber o Espírito (CIC 969).",
         },
         {
           pratica:
@@ -99,7 +99,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "ISA 11:1-3" },
         {
           texto:
-            "Isaías descreve o espírito que repousaria sobre o descendente de Davi. A tradição da Igreja lê nesse trecho os sete dons do Espírito Santo, que pertencem em plenitude a Cristo e que ele comunica aos seus (CIC 1831). Os dons são disposições permanentes que tornam a pessoa dócil para seguir as inspirações do Espírito (CIC 1830). São como as velas de um barco: não fazem o barco andar sozinho, mas deixam que o vento o leve. Você os recebeu no batismo, e a crisma os faz crescer.",
+            "Isaías descreve o espírito que repousaria sobre o descendente de Davi. A tradição da Igreja lê nesse trecho os sete dons do Espírito Santo, que pertencem em plenitude a Cristo e que ele comunica aos seus (CIC 1831). Os dons são disposições permanentes que tornam a pessoa dócil para seguir as inspirações do Espírito (CIC 1830). Você os recebeu no batismo, e a crisma os faz crescer (CIC 1303).",
         },
         { titulo: "Para conhecer a Deus e o mundo" },
         {
@@ -157,12 +157,12 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "ISA 61:1-3" },
         {
           texto:
-            "Isaías fala de alguém sobre quem repousa o Espírito do Senhor, porque o Senhor o ungiu e o enviou. Jesus leu este texto em Nazaré e disse que se cumpria nele. Cristo quer dizer ungido. O cristão é aquele que pertence ao Ungido, e na crisma ele mesmo é ungido para participar mais plenamente da missão de Jesus.",
+            "Isaías fala de alguém sobre quem repousa o Espírito do Senhor, porque o Senhor o ungiu e o enviou. Jesus leu este texto em Nazaré e disse que se cumpria nele. Cristo quer dizer ungido (CIC 436), e o nome cristão vem dele (CIC 1289). Na crisma, o cristão é ungido para participar mais plenamente da missão de Jesus.",
         },
         { titulo: "O santo crisma" },
         {
           texto:
-            "O crisma é óleo de oliva misturado com bálsamo, que lhe dá perfume. Ele é consagrado pelo bispo na Missa do Crisma, celebrada na catedral, em geral na Quinta-feira Santa (CIC 1297). Em muitas dioceses ela é celebrada num dia próximo, para que os padres possam participar. O mesmo óleo é usado no batismo e na ordenação de padres e bispos. Mesmo nas Igrejas do Oriente, onde o padre confirma logo depois de batizar, o crisma é consagrado pelo bispo (CIC 1312).",
+            "O crisma é óleo, em geral de oliva, misturado com bálsamo, que lhe dá perfume. Ele é consagrado pelo bispo na Missa do Crisma, celebrada na catedral, em geral na Quinta-feira Santa (CIC 1297). Em muitas dioceses ela é celebrada num dia próximo, para que os padres possam participar. O mesmo óleo é usado no batismo e na ordenação de padres e bispos. Mesmo nas Igrejas do Oriente, onde o padre confirma logo depois de batizar, o crisma é consagrado pelo bispo (CIC 1312).",
         },
         { titulo: "Como acontece" },
         {

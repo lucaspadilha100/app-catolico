@@ -45,3 +45,12 @@ Todas as citações abaixo foram conferidas no texto oficial (cópia local do va
 - Roteiro proposto (Lucas, Atos, Gênesis, Êxodo 1-20, Filipenses, João, 1 e 2 Samuel, Rute, Tobias, Jonas; ~224 capítulos, "uns sete meses"): sugestão nossa, não norma.
 - Costume: setembro, Mês da Bíblia no Brasil (por causa de São Jerônimo, 30/9; não dito no texto). Norma: Domingo da Palavra de Deus no 3º domingo do Tempo Comum (Papa Francisco, Aperuit illis, 2019; documento não citado no texto). Conferir.
 - Links: `/biblia/LUK/1` e `/cursos/rezar-com-a-biblia`.
+
+## Conferência final (13/11/2026)
+Regras de `docs/conferencia-doutrinal.md`. Autoria e datas só como a Igreja apresenta (Dei Verbum; CIC 101-141). Todos os números do CIC e do Código conferidos de novo no texto oficial; os documentos novos foram lidos no vatican.va (Dei Verbum, Providentissimus Deus, Aperuit illis) e o Santo Irineu no texto de Contra as heresias.
+- Lição 1: saiu a frase própria sobre quem "esquece o lado humano"; entrou o CIC 109 (atenção ao que os autores sagrados quiseram dizer). O exemplo do sol (Sl 18(19),6) ficou, agora com a razão da Igreja: Leão XIII, Providentissimus Deus 18, seguindo Santo Agostinho.
+- Lição 2: saíram "às vezes completadas por mãos posteriores" (hipótese de crítica moderna) e "na segunda metade do século I"; entraram Dei Verbum 14 (o AT como verdadeira palavra de Deus) e CIC 76 (escrito pelos apóstolos e varões apostólicos). As Bíblias protestantes: só o fato, sem o nome de Lutero e sem juízo, com CIC 818 (irmãos no Senhor). Os pontos "deuterocanônicos" e "Setenta" ficaram (fatos históricos).
+- Lição 3: saiu "não são história no sentido moderno"; a frase sobre o Levítico ganhou a razão do próprio livro (Lv 19,2). A contagem 5 + 16 + 7 + 18 confere (46) e o texto diz que é o modo como as Bíblias "costumam" agrupar.
+- Lição 4: João "escrito mais tarde" virou a tradição de Santo Irineu (Contra as heresias III,1,1); saiu 1 Tessalonicenses como escrito "provavelmente" mais antigo; o Apocalipse passou a se apoiar em Ap 1,9 e em Mt 24,36 e CIC 673 (ninguém sabe o dia), sem tom de polêmica.
+- Lição 6: o CIC 83 passou a sustentar só o que diz (a primeira geração sem NT escrito); o resto vem de At 2,41-42. O jejum eucarístico virou "regra de disciplina, hoje de uma hora (cân. 919)". Saiu o "banco de três pés".
+- Lição 7: o Domingo da Palavra ganhou a fonte (Francisco, Aperuit illis, 3). A pergunta sobre a Bíblia do app e o cân. 825 já tem decisão do dono (licença do bispo: não pedir por ora).
