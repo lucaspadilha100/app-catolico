@@ -1,6 +1,8 @@
 const CHAVE = "santinho-uso-contado";
+const deTeste = () => import.meta.env.DEV || ["localhost", "127.0.0.1"].includes(location.hostname);
 
 export function contarAbertura() {
+  if (deTeste()) return;
   const hoje = new Date().toLocaleDateString("sv-SE");
   try {
     if (localStorage.getItem(CHAVE) === hoje) return;
@@ -29,6 +31,7 @@ const CHAVE_REZA = "santinho-reza-contada";
 const banco = () => ({ url: import.meta.env.VITE_SUPABASE_URL as string, chave: import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY as string });
 
 export function contarReza(reza: Reza) {
+  if (deTeste()) return;
   const hoje = new Date().toLocaleDateString("sv-SE");
   let feitas: Record<string, string> = {};
   try {
