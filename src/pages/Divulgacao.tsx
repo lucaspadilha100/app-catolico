@@ -5,9 +5,26 @@ import { dataPorExtenso, diaEMes, hoje, paraIso, somaDias } from "@/liturgia/dat
 import { useLeituras } from "@/lib/useLeituras";
 import { evangelhoDaMissa } from "@/components/Reflexao";
 import { textoDaReferencia } from "@/biblia/texto";
-import { arteDoEvangelho, type ArteDoEvangelho } from "@/liturgia/arte";
-import { fraseDoEvangelho, imagemDoEvangelho, type FormatoDeCartaz } from "@/liturgia/imagemDoEvangelho";
-import { imagemDoSanto, legendaDoEvangelho, legendaDoSanto } from "@/divulgacao/conteudo";
+import { arteDoEvangelho, caminhoDaArte, type ArteDoEvangelho } from "@/liturgia/arte";
+import { carregarImagem, fraseDoEvangelho, imagemDoEvangelho, type FormatoDeCartaz } from "@/liturgia/imagemDoEvangelho";
+import {
+  imagemDaData,
+  imagemDaNovena,
+  imagemDaReflexao,
+  imagemDoSanto,
+  legendaDaData,
+  legendaDaNovena,
+  legendaDaReflexao,
+  legendaDoEvangelho,
+  legendaDoSanto,
+  legendaDoVersiculo,
+  novenasQueComecam,
+} from "@/divulgacao/conteudo";
+import { dataGrande } from "@/divulgacao/datas";
+import { lerReferencia } from "@/divulgacao/referencia";
+import { imagemDoVersiculo } from "@/lib/imagemDoVersiculo";
+import { reflexaoDoEvangelho } from "@/reflexoes/reflexoes";
+import type { Reflexao } from "@/reflexoes/tipos";
 import { santosDaDataMMDD } from "@/santos/santos";
 import type { Santo } from "@/santos/tipos";
 import { compartilhar } from "@/lib/nativo";
@@ -66,17 +83,23 @@ function Conteudo({ quando }: { quando: 0 | 1 }) {
   const evangelho = missas?.[0]?.leituras.find((x) => x.tipo === "evangelho" && !x.ou && x.forma !== "breve");
   const [arte, setArte] = useState<ArteDoEvangelho | null>(null);
   const [textoDoEvangelho, setTextoDoEvangelho] = useState("");
+  const [reflexao, setReflexao] = useState<Reflexao | null>(null);
   const [santos, setSantos] = useState<Santo[] | null>(null);
 
   useEffect(() => {
     let ativo = true;
     setArte(null);
     setTextoDoEvangelho("");
+    setReflexao(null);
     void arteDoEvangelho(canonica).then((a) => ativo && setArte(a));
-    if (canonica)
+    if (canonica) {
       void textoDaReferencia(canonica)
         .then((t) => ativo && setTextoDoEvangelho(t.flatMap((x) => x.versiculos.map((v) => v.texto)).join(" ")))
         .catch(() => {});
+      void reflexaoDoEvangelho(canonica)
+        .then((r) => ativo && setReflexao(r))
+        .catch(() => {});
+    }
     return () => {
       ativo = false;
     };
@@ -93,9 +116,59 @@ function Conteudo({ quando }: { quando: 0 | 1 }) {
 
   if (missas === null || santos === null) return <Carregando />;
   const dataLonga = dataPorExtenso(d);
+  const grande = dataGrande(d, l);
+  const novenas = novenasQueComecam(d);
+  const domingo = d.getUTCDay() === 0;
 
   return (
     <div className="flex flex-col gap-4">
+      {grande && (
+        <Cartao className="flex flex-col gap-3">
+          <div>
+            <h2 className="font-semibold text-tinta">{grande.nome}</h2>
+            <p className="text-sm text-tinta-suave">{grande.rotulo}</p>
+          </div>
+          <Botoes
+            nome={grande.nome}
+            gerar={(formato) => imagemDaData({ dataGrande: grande, data: dataLonga, formato })}
+            legenda={legendaDaData({ dataGrande: grande, data: dataLonga })}
+          />
+        </Cartao>
+      )}
+      {novenas.map(({ novena, festa }) => (
+        <Cartao key={novena.id} className="flex flex-col gap-3">
+          <div>
+            <h2 className="font-semibold text-tinta">{novena.nome}</h2>
+            <p className="text-sm text-tinta-suave">Começa neste dia</p>
+          </div>
+          <Botoes
+            nome={novena.nome}
+            gerar={(formato) => imagemDaNovena({ novena, festa, data: dataLonga, formato })}
+            legenda={legendaDaNovena({ novena, festa })}
+          />
+        </Cartao>
+      ))}
+      {domingo && reflexao && (
+        <Cartao className="flex flex-col gap-3">
+          <div>
+            <h2 className="font-semibold text-tinta">Reflexão do Evangelho</h2>
+            <p className="text-sm text-tinta-suave">{evangelho?.referencia}</p>
+          </div>
+          <Botoes
+            nome={`Reflexão ${paraIso(d)}`}
+            gerar={async (formato) =>
+              imagemDaReflexao({
+                imagem: arte ? await carregarImagem(caminhoDaArte(arte)) : null,
+                data: dataLonga,
+                referencia: evangelho?.referencia ?? "",
+                frase: fraseDoEvangelho([reflexao.paragrafos[0] ?? ""], arte ? (formato === "post" ? 150 : 170) : 220),
+                formato,
+              })
+            }
+            legenda={legendaDaReflexao({ data: dataLonga, referencia: evangelho?.referencia ?? "", reflexao })}
+          />
+        </Cartao>
+      )}
       <Cartao className="flex flex-col gap-3">
         <div>
           <h2 className="font-semibold text-tinta">Evangelho do dia</h2>
@@ -125,7 +198,58 @@ function Conteudo({ quando }: { quando: 0 | 1 }) {
         </Cartao>
       ))}
       {santos.length === 0 && <p className="px-1 text-sm text-tinta-suave">Nenhum santo nesta data.</p>}
+      <VersiculoDaSemana />
     </div>
+  );
+}
+
+function VersiculoDaSemana() {
+  const [entrada, setEntrada] = useState("");
+  const [lido, setLido] = useState<{ rotulo: string; texto: string } | null>(null);
+  const [erro, setErro] = useState(false);
+
+  const buscar = async () => {
+    setErro(false);
+    setLido(null);
+    const r = lerReferencia(entrada);
+    if (!r) {
+      setErro(true);
+      return;
+    }
+    const texto = (await textoDaReferencia(r.canonica).catch(() => [])).flatMap((t) => t.versiculos.map((v) => v.texto)).join(" ");
+    if (!texto) {
+      setErro(true);
+      return;
+    }
+    setLido({ rotulo: r.rotulo, texto });
+  };
+
+  return (
+    <Cartao className="flex flex-col gap-3">
+      <h2 className="font-semibold text-tinta">Versículo</h2>
+      <div className="flex gap-2">
+        <input
+          value={entrada}
+          onChange={(e) => setEntrada(e.target.value)}
+          onKeyDown={(e) => e.key === "Enter" && void buscar()}
+          placeholder="Jo 3,16"
+          aria-label="Referência"
+          className="min-h-12 min-w-0 flex-1 rounded-xl border border-borda bg-papel px-3 text-base"
+        />
+        <button type="button" onClick={() => void buscar()} className="min-h-12 rounded-xl bg-primario px-4 font-semibold text-sobre-primario">
+          Buscar
+        </button>
+      </div>
+      {erro && <p className="text-sm text-tinta-suave">Referência não encontrada.</p>}
+      {lido && (
+        <>
+          <p className="font-leitura text-[1.05rem] leading-[1.7] text-tinta">
+            {lido.texto} <span className="text-tinta-suave">({lido.rotulo})</span>
+          </p>
+          <Botoes nome={lido.rotulo} gerar={(formato) => imagemDoVersiculo(lido.texto, lido.rotulo, formato)} legenda={legendaDoVersiculo(lido.texto, lido.rotulo)} />
+        </>
+      )}
+    </Cartao>
   );
 }
 

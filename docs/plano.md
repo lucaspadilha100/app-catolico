@@ -459,12 +459,13 @@ participa acompanha no celular, ao vivo, pelo link ou pelo QR code.
 - ⬜ 👤 Diocese de Mossoró: 6 de 57; pedir a lista à cúria, (84) 3314-7255, ou nova rodada de busca
 - ⬜ Próximos estados, no mesmo molde (`fontes/paroquias/pesquisa-rn-2026-11/FORMATO.md`)
 
-### Leva 37. Divulgação contínua ⬜ (as ideias aprovadas em 13/11/2026)
-- ⬜ Cartaz da reflexão do Evangelho de domingo na Divulgação
-- ⬜ Cartaz "Começa hoje" para novena que começa (aparece sozinho na véspera e no dia)
-- ⬜ Versículo da semana: busca de versículo na Divulgação com a moldura de santinho
-- ⬜ Cartazes das datas grandes (Advento, Imaculada, Natal), aparecendo quando a data chega
-- ⬜ Capa do destaque "Orações" (a vela) e carrossel do santo, se pedirem uso
+### Leva 37. Divulgação contínua ✅ (as ideias aprovadas em 13/11/2026)
+- ✅ Reflexão do Evangelho de domingo: cartaz e legenda com a reflexão inteira (o cartão só aparece no domingo)
+- ✅ Novena que começa no dia: cartaz "Começa hoje" com a imagem da novena e os dias até a festa (`inicioDaNovena`, vale para as que terminam na véspera e para festas móveis)
+- ✅ Versículo: digita a referência (Jo 3,16; aceita nome, abreviatura e intervalo, `lerReferencia` testado), confere o texto e sai na moldura de santinho, Story ou Post
+- ✅ Datas grandes: Aparecida, Finados, Imaculada, Natal, Mãe de Deus, 1º domingo do Advento, Cinzas, Ramos, Páscoa, Pentecostes, Corpus Christi e Cristo Rei (`dataGrande`, testada contra o calendário real); o cartão aparece quando o dia chega
+- ✅ Capas dos destaques (Evangelho, Santos, Orações, O app) em `docs/marca/instagram/`
+- ⬜ Carrossel do santo (a história fatiada em lâminas), se o uso pedir
 
 ### Leva 36. Divulgação, a área do dono ✅
 - ✅ `/painel/divulgacao` (atalho no Painel; só o admin entra): Evangelho do dia e

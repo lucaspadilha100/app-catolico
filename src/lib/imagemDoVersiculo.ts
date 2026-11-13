@@ -1,8 +1,9 @@
 import { NOME_DO_APP } from "@/marca";
 import { compartilhar } from "@/lib/nativo";
 
+import type { FormatoDeCartaz } from "@/liturgia/imagemDoEvangelho";
+
 const LARGURA = 1080;
-const ALTURA = 1350;
 const CREME = "#FBF0DD";
 const MARROM = "#341E0D";
 const DOURADO = "#B8892B";
@@ -31,8 +32,9 @@ function retangulo(ctx: CanvasRenderingContext2D, x: number, y: number, l: numbe
   ctx.closePath();
 }
 
-export async function imagemDoVersiculo(texto: string, referencia: string): Promise<Blob> {
+export async function imagemDoVersiculo(texto: string, referencia: string, formato: FormatoDeCartaz = "post"): Promise<Blob> {
   await document.fonts?.ready;
+  const ALTURA = formato === "story" ? 1920 : 1350;
   const canvas = document.createElement("canvas");
   canvas.width = LARGURA;
   canvas.height = ALTURA;
@@ -59,13 +61,13 @@ export async function imagemDoVersiculo(texto: string, referencia: string): Prom
   for (; tamanho >= 30; tamanho -= 2) {
     ctx.font = `500 ${tamanho}px "Literata Variable", Georgia, serif`;
     linhas = quebrar(ctx, citacao, larguraDoTexto);
-    if (linhas.length * tamanho * 1.45 <= 760) break;
+    if (linhas.length * tamanho * 1.45 <= ALTURA - 620) break;
   }
   ctx.fillStyle = MARROM;
   ctx.textAlign = "center";
   ctx.textBaseline = "middle";
   const altura = linhas.length * tamanho * 1.45;
-  let y = 690 - altura / 2 + (tamanho * 1.45) / 2;
+  let y = (ALTURA - 370) / 2 + 200 - altura / 2 + (tamanho * 1.45) / 2;
   for (const l of linhas) {
     ctx.fillText(l, LARGURA / 2, y);
     y += tamanho * 1.45;
@@ -73,10 +75,10 @@ export async function imagemDoVersiculo(texto: string, referencia: string): Prom
 
   ctx.font = `600 40px "Inter Variable", Arial, sans-serif`;
   ctx.fillStyle = DOURADO;
-  ctx.fillText(referencia, LARGURA / 2, 1130);
+  ctx.fillText(referencia, LARGURA / 2, ALTURA - 220);
   ctx.font = `500 30px "Inter Variable", Arial, sans-serif`;
   ctx.fillStyle = "rgba(52, 30, 13, 0.55)";
-  ctx.fillText(NOME_DO_APP, LARGURA / 2, 1215);
+  ctx.fillText(NOME_DO_APP, LARGURA / 2, ALTURA - 135);
 
   return new Promise((ok, erro) => canvas.toBlob((b) => (b ? ok(b) : erro(new Error("imagem"))), "image/png"));
 }
