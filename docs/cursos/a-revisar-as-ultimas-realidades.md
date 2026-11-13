@@ -53,3 +53,17 @@ Cada número conferido no texto português do Catecismo e do Código (vatican.va
 - Conferido sem mudar: CIC 1013 (uma só vida, sem reencarnação), 679 (Cristo juiz), 1022 (São João da Cruz, "no entardecer"), 1023, 1028, 1034, 1035, 1037, 999, 1000, 1040, 1042, 1048, cân. 901 (missa por vivos e defuntos), CIC 2283 e 847.
 - Sem número, conferido: indulgência de 1º a 8 de novembro (visita ao cemitério, só para as almas do purgatório) com as quatro condições, conforme o Manual das Indulgências.
 - Continuam para o dono: a frase de que a Igreja "nunca declarou que uma pessoa determinada esteja no inferno", o parágrafo "E as pessoas que amamos?" e a etimologia de cemitério.
+
+## Conferência final (13/11/2026)
+Resolvido pela regra da conferência doutrinal (docs/conferencia-doutrinal.md): o que a Igreja ensina, com número conferido; o que não tem fonte saiu.
+
+- Prefácio dos defuntos: "não acaba, mas se transforma" (CIC 1012).
+- 1Ts 4,13: saiu "proíbe a tristeza sem horizonte" (interpretação nossa).
+- São José e a boa morte: mantido com "segundo a tradição".
+- Cinzas: fonte no texto (Ad resurgendum cum Christo, 2016); a nota de 2023 continua fora.
+- Juízo: "tribunal frio ... rosto conhecido" virou 1Jo 4,19 e Mt 10,42. "O juízo final não desfaz o juízo particular ..." virou o que dizem o CIC 1039 e 1040.
+- Purgatório: "inferno passageiro ... alguém que ainda precisa ser curado" virou CIC 1031 e 1030. Fogo purificador: "a tradição da Igreja, apoiada na Escritura" (CIC 1031), em vez de "muitos santos".
+- "A oferta não compra a missa": cân. 946-947. Indulgência de 1º a 8 de novembro: Manual das Indulgências, concessão 29. Todos os Santos: "em geral" no domingo, como o calendário do app.
+- Céu: saiu "não será monótono". Reencontro com quem amamos: agora pelo CIC 1690 (a liturgia da despedida) e 1Cor 13,8, no lugar de "nada do que foi amor verdadeiro se perde". "O céu já começa aqui": CIC 1090.
+- Inferno: a leitura própria da parábola do rico virou o CIC 1033. "Não o fez para nos aterrorizar" e "o inferno mostra até onde vai o respeito" viraram o CIC 1036. "A Igreja nunca declarou que uma pessoa determinada esteja no inferno" virou o CIC 1861 (o juízo sobre as pessoas pertence a Deus). "Não existe pecado maior do que a misericórdia": CIC 982. Suicídio e quem não conheceu Cristo: mantidos (CIC 2283; 847).
+- Volta de Cristo: CIC 673 mantido. O bem que não se perde: CIC 1050. Cemitério: etimologia mantida, ligada a 1Ts 4,13.

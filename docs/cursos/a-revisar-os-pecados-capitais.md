@@ -78,3 +78,17 @@ Ponto geral: os PARES (soberba e humildade, avareza e generosidade, luxúria e c
 - "Diligência vem do latim e tem a ver com amar" (diligere): etimologia, sem número do CIC.
 - "Unido a Cristo, o carpinteiro de Nazaré": o CIC diz "artesão"; "carpinteiro" segue Mc 6,3.
 - Fecha o curso com exame de consciência e confissão.
+
+## Conferência final (13/11/2026)
+Resolvido pela regra da conferência doutrinal (docs/conferencia-doutrinal.md): o que a Igreja ensina, com número conferido; o que não tem fonte saiu.
+
+- Ordem dos vícios e pares: mantidos (pedido do dono); a lição 1 cita a ordem do CIC 1866.
+- CIC 1850: "todo pecado tem um pouco dela" saiu. Fica o que o número diz, com Santo Agostinho: o pecado como amor de si levado até o desprezo de Deus, exaltação orgulhosa de si.
+- "Capital vem de cabeça" e "diligência tem a ver com amar": mantidos (fatos de língua).
+- "Forma escondida" da soberba: saiu (sem fonte).
+- Avareza: "nunca se satisfaz" ganhou Ecl 5,9; "não era mau por ter uma boa colheita" trocado pela conclusão do próprio Jesus (Lc 12,21).
+- Luxúria: "força das paixões e dos hábitos" virou "força das paixões e certas perturbações" (CIC 1860). Pornografia nomeada, nada acrescentado à lista. Filtro no celular: conselho prático.
+- Ira: Mt 5,21-22 agora com o CIC 2302. Saíram "Manso não é o fraco que engole tudo" e "O perdão não nega a justiça: liberta quem perdoa". CIC 2843: paráfrase mantida.
+- Gula: as formas da gula agora atribuídas a São Gregório Magno, citado por São Tomás (Suma Teológica, II-II, q. 148, a. 4). Compulsão e dependência: "podem ser perturbações que diminuem a culpa (CIC 1860)", sem afirmação médica. Sexta-feira: oferta pessoal, sem detalhar a norma.
+- Inveja: saiu "que não dá prazer nenhum a quem o carrega".
+- Acídia e depressão: "a doença, como a depressão, pede tratamento e pode diminuir a culpa (CIC 1860)"; a acídia continua sem o rótulo de depressão. "Carpinteiro" virou "artesão (Mc 6,3)", palavra da nossa Bíblia e do CIC 2427. "A graça vem antes do nosso esforço": CIC 2001.

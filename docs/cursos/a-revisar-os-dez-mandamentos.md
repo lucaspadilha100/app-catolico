@@ -72,3 +72,19 @@ Cada número conferido no texto português do Catecismo e do Código (vatican.va
 - Sem número, corrigido: "É o único dos dez que vem com uma promessa" virou "São Paulo lembra que é o primeiro mandamento que vem com uma promessa" (Ef 6,2 diz "primeiro", não "único").
 - Conferido sem mudar: pedir orientação a um padre quando não se pode cumprir uma promessa a Deus tem base no cân. 1196 (o pároco pode dispensar votos privados); juramento só com verdade e causa justa é o CIC 2154; a indiferença como pecado contra o primeiro mandamento é o CIC 2094.
 - Continuam para o dono: tom pastoral dos pontos delicados (simpatias e espiritismo, famílias com abuso, suicídio e o número do CVV, segunda união, atos homossexuais não citados, pena de morte não tratada).
+
+## Conferência final (13/11/2026)
+Resolvido pela regra da conferência doutrinal (docs/conferencia-doutrinal.md): o que a Igreja ensina, com número conferido; o que não tem fonte saiu.
+
+- Simpatias e quem promete falar com os mortos: mantido como está (CIC 2111, 2116, 2117), sem nomear religião.
+- Indiferença: agora com o CIC 2094. Imagens: acrescentado o CIC 2131 (Niceia II).
+- Nome de Deus: "Na Bíblia, o nome é a própria pessoa" virou a formulação do CIC 203. Respeito ao nome de Nossa Senhora e dos santos: CIC 2146. Juramento: CIC 2154. Xingamentos: CIC 2149.
+- Promessa que não se pode cumprir: "procurar o pároco ... porque ele pode, por justa causa, dispensar delas (cân. 1196)".
+- Terceiro mandamento: saiu "Escravo não tem dia livre ..." (dedução). Ficam CIC 2170, 2171 e 2172. A lista própria de motivos que dispensam (distância, trabalho) virou a do CIC 2181 (doença, crianças pequenas, dispensa do pároco); quando é impossível ir, CIC 2183; quem tira o domingo dos outros, CIC 2187.
+- Quarto mandamento: "padrinhos" (sem base) trocado por "patrões", como no CIC 2199. Famílias com abuso: tom mantido. Missa pelos pais falecidos: CIC 1032.
+- Quinto: drogas (CIC 2291) e escândalo (CIC 2284) ganharam número. Suicídio, aborto e CVV 188: mantidos (o CVV é ajuda). Pena de morte e legítima defesa: continuam fora.
+- Sexto: "linguagem de uma entrega total" trocado pelo CIC 2361 e pelo CIC 1643. A lista de pecados ficou igual (nada acrescentado; atos homossexuais continuam fora), agora com CIC 2352-2356. Segunda união: só o convite a falar com um padre (decisão do dono). Contracepção: fica a frase sobre a abertura à vida e os métodos naturais (CIC 2368; 2370).
+- Sétimo: necessidade urgente (CIC 2408) continua fora.
+- Oitavo: "é verdade, é necessário, faz bem?" fica como pergunta prática, sem atribuição.
+- Nono: saiu a leitura de Mt 5,29-30 como imagem (interpretação nossa) e "foi dito aos homens do tempo de Moisés". No lugar: o mandamento proíbe a concupiscência da carne a todos, homens e mulheres (CIC 2514). "Jesus foi tentado" ganhou "mas sem pecado (Hb 4,15; CIC 540)".
+- Décimo: "O coração humano foi feito para Deus e só nele descansa" atribuído a Santo Agostinho (Confissões, I, 1; CIC 30).

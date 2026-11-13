@@ -69,3 +69,18 @@ Ajustes de frase sem trocar número:
 - Efeito civil (lição 8): o Código Civil (art. 1.516) admite também habilitação depois da celebração; "é preciso fazer antes a habilitação" virou "o caminho mais comum é fazer antes".
 
 Conferidos e mantidos, por atenção: cân. 1055 §§1-2, 1056, 1057 §§1-2, 1063, 1065 §§1-2, 1066, 1069, 1101, 1103, 1115, 1122, 1136, 1141, 1153, 1247 e 867 §1. Os pontos de opinião pastoral listados acima continuam para o dono.
+
+## Conferência final (13/11/2026)
+Resolvido pela regra da conferência doutrinal (docs/conferencia-doutrinal.md): o que a Igreja ensina, com número conferido; o que não tem fonte saiu.
+
+- "Ajudante" usada para Deus na Bíblia hebraica: saiu (exegese sem fonte). Fica a igual dignidade (CIC 369; 371).
+- Os "três verbos" de Gn 2,24 e "deixar pai e mãe também vale para as decisões do casal": saíram (interpretação nossa). Fica o versículo e Mt 19,4-6 (CIC 1605).
+- Maria em Caná: agora pelo CIC 2618. Igrejas orientais: "a bênção do sacerdote é necessária para a validade (CIC 1623)".
+- Indissolubilidade: saiu "quem ama de verdade não quer dividir ..."; a razão passou a ser a do CIC 1647. Divórcio civil e nulidade: mantidos (CIC 1640; 1629). Mt 19,9 continua fora.
+- "Gravidez inesperada não é razão para casar": mantido (consentimento livre, cân. 1103; CIC 1628).
+- Abertos à vida: "linguagem do corpo" trocado pelo CIC 2361. As razões para espaçar os nascimentos agora são as da Humanae Vitae, 10 (condições físicas, econômicas, psicológicas e sociais; conferido no vatican.va). Métodos naturais com a letra do CIC 2370. A frase sobre a contracepção fica só com o CIC, sem comentário.
+- Amoris Laetitia: número 133 (conferido). Perdão: Mt 6,12. Violência doméstica, separação (CIC 1649; cân. 1153), ajuda da lei e profissional de saúde mental: mantidos (ajuda, não polêmica).
+- Comunhão dos esposos sob as duas espécies: "o Ritual permite" (a IGMR 283 remete aos livros rituais).
+- Celebração, procissão e costumes: mantidos como estavam (norma x costume).
+- "Terceiro fio é Deus" (Ecl 4,12): saiu (leitura popular sem fonte).
+- Efeito civil e prazo da certidão: mantidos sem prazo e sem lei citada.

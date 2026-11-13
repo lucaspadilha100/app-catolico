@@ -65,3 +65,15 @@ Cada citação foi lida contra o texto do Catecismo e do Código no vatican.va.
   - Matrimônio misto: "pede uma licença própria" virou "licença da Igreja, quando o outro é batizado, ou dispensa, quando não é" (CIC 1635). Era simplificação proposital, mas confundia licença e dispensa; o dono pode voltar à forma curta.
 - Números acrescentados a normas que estavam sem número: CIC 1255 (pais e padrinhos), CIC 1319 (condições para a crisma), cân. 916 e 919 (estado de graça e jejum), CIC 1388 (comungar em cada missa), CIC 1519 (imposição das mãos em silêncio), cân. 891 e CIC 1307, cân. 884, CIC 1635.
 - Continuam para o dono: a linguagem de matéria e forma e a "quase-matéria" da penitência, que o Catecismo não usa; a bênção do óleo dos enfermos "na Missa do Crisma" (o CIC 1519 diz "se possível, pelo bispo"); os ritos explicativos da ordem, que conferem com o CIC 1574.
+
+## Conferência final (13/11/2026)
+Resolvido pela regra da conferência doutrinal (docs/conferencia-doutrinal.md): o que a Igreja ensina, com número conferido; o que não tem fonte saiu.
+
+- Matéria e forma: mantido, agora com a fonte (Concílio de Florença, Decreto para os Armênios). Quase-matéria da penitência: Concílio de Trento, sessão XIV, capítulo 3.
+- Batismo: "mergulhar" (CIC 1214) e adulto com os três sacramentos juntos (CIC 1233) ganharam número. "A graça é dom e não prêmio": mantido (CIC 1250).
+- Confirmação: a forma descrita passou a seguir o CIC 1300 ("recebe o Espírito Santo, o dom de Deus"; unção feita com a imposição da mão).
+- Eucaristia: "Nos outros sacramentos Cristo age; na eucaristia ele mesmo está presente" virou "Em todos os sacramentos Cristo age; na eucaristia ele está presente de modo único (CIC 1374)", para não contradizer o CIC 1373. Ministros extraordinários: cân. 910.
+- Penitência: "peso tirado das costas ... Não é impressão" virou a paz e a consolação do CIC 1468. Sigilo "por motivo nenhum": letra do cân. 983 §1, mantido.
+- Unção: óleo abençoado pelo bispo (CIC 1519), Missa do Crisma como o costume. Conselho de chamar o padre cedo: mantido (CIC 1514).
+- Ordem: "recebe o pão e o vinho" virou "recebe a patena e o cálice, a oferenda do povo santo" (CIC 1574). Só o homem batizado: dito sem comentário (CIC 1577).
+- Matrimônio: indissolubilidade sem falar de separação, nulidade ou recasados (de propósito, regra da conferência). Licença e dispensa (CIC 1635): mantido.

@@ -14,7 +14,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "Não é bom que o homem esteja só" },
         {
           texto:
-            "Na leitura, Deus olha para Adão e diz que a solidão não é boa. Os animais desfilam diante dele, recebem nome, mas nenhum é companhia à sua altura. Só quando Deus apresenta a mulher é que Adão reconhece alguém igual a ele: osso dos seus ossos, carne da sua carne. Homem e mulher têm a mesma dignidade de pessoas, criados um para o outro (CIC 369; 371). A palavra ajudante, aqui, não indica inferioridade: na Bíblia hebraica a mesma palavra é usada para o próprio Deus, que socorre o seu povo.",
+            "Na leitura, Deus olha para Adão e diz que a solidão não é boa. Os animais desfilam diante dele, recebem nome, mas nenhum é companhia à sua altura. Só quando Deus apresenta a mulher é que Adão reconhece alguém igual a ele: osso dos seus ossos, carne da sua carne. Homem e mulher têm a mesma dignidade de pessoas, criados um para o outro (CIC 369; 371). A palavra ajudante, aqui, não indica inferioridade: Deus os quis um para o outro, em igual dignidade (CIC 371).",
         },
         {
           texto:
@@ -23,7 +23,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "Deixar, unir-se, ser uma só carne" },
         {
           texto:
-            "O último versículo da leitura resume o plano em três verbos. Deixar pai e mãe: o novo casal forma uma família nova, que continua a honrar os pais, mas não vive mais debaixo das decisões deles. Unir-se: a palavra fala de aderir, de colar-se, de não se soltar. Ser uma só carne: a união do corpo exprime a união da vida inteira. O próprio Jesus vai retomar esse versículo para ensinar que a união é para sempre (Mt 19,4-6; CIC 1605).",
+            "O último versículo da leitura resume o plano: o homem deixa pai e mãe, une-se à sua mulher, e os dois são uma só carne. O próprio Jesus vai retomar esse versículo para ensinar que a união é para sempre (Mt 19,4-6; CIC 1605).",
         },
         {
           texto:
@@ -47,7 +47,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "JHN 2:1-11" },
         {
           texto:
-            "O primeiro sinal de Jesus aconteceu numa festa de casamento. A Igreja vê nisso uma confirmação de que o matrimônio é bom e o anúncio de que, a partir daí, ele seria sinal da presença de Cristo (CIC 1613). Repare em Maria: ela percebe o que falta antes de todos e leva a necessidade ao Filho. Depois diz aos serventes que façam o que ele mandar. É um bom conselho para qualquer casal: levar a Jesus o que falta e fazer o que ele pede.",
+            "O primeiro sinal de Jesus aconteceu numa festa de casamento. A Igreja vê nisso uma confirmação de que o matrimônio é bom e o anúncio de que, a partir daí, ele seria sinal da presença de Cristo (CIC 1613). Repare em Maria: ela leva ao Filho a necessidade daquela festa de casamento (CIC 2618). Depois diz aos serventes que façam o que ele mandar. É um bom conselho para qualquer casal: levar a Jesus o que falta e fazer o que ele pede.",
         },
         { titulo: "Um sinal do amor de Cristo" },
         {
@@ -61,7 +61,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "Os noivos são os ministros" },
         {
           texto:
-            "Muita gente diz que foi o padre quem fez o casamento. Na Igreja latina, a que pertence a grande maioria dos católicos do Brasil, não é assim: os ministros do sacramento são os próprios noivos, que se dão um ao outro diante da Igreja (CIC 1623). É o consentimento dos dois que faz o casamento (cân. 1057 §1). O padre ou o diácono está ali como testemunha qualificada: pede o consentimento e o recebe em nome da Igreja (cân. 1108 §2), e dá a bênção da Igreja (CIC 1630). Nas Igrejas católicas orientais, a tradição dá ao sacerdote um papel diferente, e a bênção dele faz parte do próprio sacramento.",
+            "Muita gente diz que foi o padre quem fez o casamento. Na Igreja latina, a que pertence a grande maioria dos católicos do Brasil, não é assim: os ministros do sacramento são os próprios noivos, que se dão um ao outro diante da Igreja (CIC 1623). É o consentimento dos dois que faz o casamento (cân. 1057 §1). O padre ou o diácono está ali como testemunha qualificada: pede o consentimento e o recebe em nome da Igreja (cân. 1108 §2), e dá a bênção da Igreja (CIC 1630). Nas Igrejas católicas orientais, o sacerdote também é testemunha do consentimento, mas a bênção dele é necessária para a validade do sacramento (CIC 1623).",
         },
         {
           texto:
@@ -90,12 +90,12 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "Unidade: um com uma" },
         {
           texto:
-            "Unidade quer dizer que o casamento é de um homem com uma mulher, de modo exclusivo. Exclui a poligamia, contrária à igual dignidade do homem e da mulher (CIC 1645), e exclui a infidelidade. O amor de esposos pede, por sua própria natureza, a fidelidade (CIC 1646). Não é uma regra imposta de fora: quem ama de verdade não quer dividir a vida inteira de si com mais ninguém. A fidelidade se constrói antes do casamento, no modo de tratar o celular, as amizades e o trabalho.",
+            "Unidade quer dizer que o casamento é de um homem com uma mulher, de modo exclusivo. Exclui a poligamia, contrária à igual dignidade do homem e da mulher (CIC 1645), e exclui a infidelidade. O amor de esposos pede, por sua própria natureza, a fidelidade (CIC 1646). A fidelidade se constrói antes do casamento, no modo de tratar o celular, as amizades e o trabalho.",
         },
         { titulo: "Indissolubilidade: para sempre" },
         {
           texto:
-            "Indissolúvel quer dizer que o vínculo não pode ser desfeito. O casamento sacramental válido e consumado não pode ser dissolvido por nenhum poder humano, nem pelo próprio casal, nem pelo Estado, nem pela Igreja (cân. 1141; CIC 1640). O divórcio civil existe na lei do país, mas não desfaz diante de Deus o que ele uniu. A Igreja não ensina isso por dureza. Ensina porque o amor dos esposos é sinal do amor de Cristo, que nunca abandona a sua Igreja.",
+            "Indissolúvel quer dizer que o vínculo não pode ser desfeito. O casamento sacramental válido e consumado não pode ser dissolvido por nenhum poder humano, nem pelo próprio casal, nem pelo Estado, nem pela Igreja (cân. 1141; CIC 1640). O divórcio civil existe na lei do país, mas não desfaz diante de Deus o que ele uniu. A Igreja não ensina isso por dureza. O motivo mais profundo é a fidelidade de Deus à sua aliança e de Cristo à sua Igreja, que os esposos são chamados a representar (CIC 1647).",
         },
         {
           texto:
@@ -133,16 +133,16 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "Unir e gerar" },
         {
           texto:
-            "Na união conjugal, a Igreja reconhece dois significados que Deus quis unidos: o de unir os esposos e o de estar aberto à vida (CIC 2366; 2369). A sexualidade não é apenas uma parte da vida do casal. É uma linguagem do corpo que diz: eu me dou inteiro a você. A abertura à vida faz parte dessa entrega. Por isso, na celebração, os noivos são perguntados se estão dispostos a receber os filhos que Deus lhes der e a educá-los na fé. Essa pergunta faz parte do rito: é norma, não costume.",
+            "Na união conjugal, a Igreja reconhece dois significados que Deus quis unidos: o de unir os esposos e o de estar aberto à vida (CIC 2366; 2369). A sexualidade só se realiza de modo verdadeiramente humano dentro do amor em que o homem e a mulher se entregam totalmente um ao outro até a morte (CIC 2361). A abertura à vida faz parte dessa entrega. Por isso, na celebração, os noivos são perguntados se estão dispostos a receber os filhos que Deus lhes der e a educá-los na fé. Essa pergunta faz parte do rito: é norma, não costume.",
         },
         { titulo: "Paternidade responsável" },
         {
           texto:
-            "Abertura à vida não quer dizer ter filhos sem pensar. A Igreja fala de paternidade responsável: os esposos são colaboradores de Deus na transmissão da vida e vivem essa missão com responsabilidade (CIC 2367). Por razões justas, podem querer espaçar o nascimento dos filhos, desde que o desejo não nasça do egoísmo e esteja de acordo com uma generosidade sincera (CIC 2368). Essas razões podem ser a saúde, a situação financeira ou as condições da família. A Igreja não fixa um número de filhos. Lembra apenas que a família numerosa, acolhida com generosidade, é sinal da bênção de Deus (CIC 2373).",
+            "Abertura à vida não quer dizer ter filhos sem pensar. A Igreja fala de paternidade responsável: os esposos são colaboradores de Deus na transmissão da vida e vivem essa missão com responsabilidade (CIC 2367). Por razões justas, podem querer espaçar o nascimento dos filhos, desde que o desejo não nasça do egoísmo e esteja de acordo com uma generosidade sincera (CIC 2368). São Paulo VI lembrou que essas razões podem vir das condições físicas, econômicas, psicológicas e sociais da família (Humanae Vitae, 10). A Igreja não fixa um número de filhos. Lembra apenas que a família numerosa, acolhida com generosidade, é sinal da bênção de Deus (CIC 2373).",
         },
         {
           texto:
-            "Quanto ao modo de espaçar os nascimentos, a Igreja propõe os métodos naturais de reconhecimento da fertilidade, que se apoiam na observação dos sinais do próprio corpo da mulher e na abstinência nos dias férteis (CIC 2370). Ela ensina que esses métodos respeitam o corpo dos esposos e favorecem o diálogo e a ternura entre os dois. Ensina também que os meios que tornam o ato conjugal propositalmente infecundo não estão de acordo com o plano de Deus (CIC 2370). Esse ensinamento foi apresentado com cuidado por São Paulo VI na encíclica Humanae Vitae (1968) e retomado por São João Paulo II na exortação Familiaris Consortio (1981).",
+            "Quanto ao modo de espaçar os nascimentos, a Igreja propõe os métodos naturais de reconhecimento da fertilidade, que se apoiam na observação dos sinais do próprio corpo da mulher e na abstinência nos dias férteis (CIC 2370). Ela ensina que esses métodos respeitam o corpo dos esposos, estimulam a ternura entre os dois e educam para uma liberdade autêntica. Ensina também que os meios que tornam o ato conjugal propositalmente infecundo não estão de acordo com o plano de Deus (CIC 2370). Esse ensinamento foi apresentado com cuidado por São Paulo VI na encíclica Humanae Vitae (1968) e retomado por São João Paulo II na exortação Familiaris Consortio (1981).",
         },
         {
           texto:
@@ -170,16 +170,16 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "Conversar de verdade" },
         {
           texto:
-            "Boa parte das crises começa no que não foi dito. Aprenda a dizer o que você sente sem acusar: em vez de “você nunca me escuta”, diga “eu me senti sem apoio quando aconteceu tal coisa”. Escute até o fim antes de responder. Escolha a hora: assunto sério não se trata no meio de uma briga nem pelo celular. O Papa Francisco, na exortação Amoris Laetitia (2016), lembrou três palavras que guardam a paz de uma casa: “com licença”, “obrigado” e “desculpe”.",
+            "Boa parte das crises começa no que não foi dito. Aprenda a dizer o que você sente sem acusar: em vez de “você nunca me escuta”, diga “eu me senti sem apoio quando aconteceu tal coisa”. Escute até o fim antes de responder. Escolha a hora: assunto sério não se trata no meio de uma briga nem pelo celular. O Papa Francisco, na exortação Amoris Laetitia (2016, n. 133), lembrou três palavras que guardam a paz de uma casa: “com licença”, “obrigado” e “desculpe”.",
         },
         {
           texto:
-            "Antes do casamento, convém conversar sobre os assuntos que mais costumam gerar conflito: dinheiro, trabalho, a divisão das tarefas da casa, a relação com as famílias de origem, a vida sexual, o uso do tempo e do celular, a fé. Não é preciso concordar em tudo. É preciso saber onde estão as diferenças e combinar como lidar com elas. Lembre-se do Gênesis: deixar pai e mãe também vale para as decisões do casal.",
+            "Antes do casamento, convém conversar sobre os assuntos que mais costumam gerar conflito: dinheiro, trabalho, a divisão das tarefas da casa, a relação com as famílias de origem, a vida sexual, o uso do tempo e do celular, a fé. Não é preciso concordar em tudo. É preciso saber onde estão as diferenças e combinar como lidar com elas.",
         },
         { titulo: "O perdão de cada dia" },
         {
           texto:
-            "A Igreja chama o lar de primeira escola da vida cristã, onde se aprende o perdão generoso e até repetido (CIC 1657). Perdoar não é fingir que nada aconteceu nem aceitar tudo. É decidir não cobrar a dívida para sempre, como Deus não a cobra de nós. A Escritura aconselha não deixar o sol se pôr sobre a raiva (Ef 4,26): procure não dormir brigado. E o sacramento da confissão, buscado com frequência, ajuda cada um a reconhecer a própria parte antes de apontar a do outro.",
+            "A Igreja chama o lar de primeira escola da vida cristã, onde se aprende o perdão generoso e até repetido (CIC 1657). Perdoar não é fingir que nada aconteceu nem aceitar tudo. É decidir não cobrar a dívida para sempre, como pedimos a Deus que não a cobre de nós (Mt 6,12). A Escritura aconselha não deixar o sol se pôr sobre a raiva (Ef 4,26): procure não dormir brigado. E o sacramento da confissão, buscado com frequência, ajuda cada um a reconhecer a própria parte antes de apontar a do outro.",
         },
         { titulo: "Quando vem a crise" },
         {
@@ -271,7 +271,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "A bênção nupcial e o envio" },
         {
           texto:
-            "Na missa, os esposos podem levar ao altar o pão e o vinho. Depois do Pai-Nosso, o padre se volta para eles e reza a bênção nupcial, uma longa oração que pede a Deus que derrame a sua graça sobre o casal. Depois vem o rito da paz e a comunhão; a norma permite que os esposos comunguem sob as duas espécies. No fim, uma bênção solene envia os esposos. A assinatura dos livros e do termo, com as testemunhas, costuma acontecer no fim da celebração.",
+            "Na missa, os esposos podem levar ao altar o pão e o vinho. Depois do Pai-Nosso, o padre se volta para eles e reza a bênção nupcial, uma longa oração que pede a Deus que derrame a sua graça sobre o casal. Depois vem o rito da paz e a comunhão; o Ritual permite que os esposos comunguem sob as duas espécies. No fim, uma bênção solene envia os esposos. A assinatura dos livros e do termo, com as testemunhas, costuma acontecer no fim da celebração.",
         },
         { titulo: "O que é norma e o que é costume" },
         {
@@ -291,7 +291,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "ECC 4:9-12" },
         {
           texto:
-            "O Eclesiastes elogia os dois que caminham juntos: se um cai, o outro o levanta. E termina com uma imagem que muitos casais guardam: o cordão de três fios não se rompe com facilidade. A tradição cristã costuma ver nesse terceiro fio a presença de Deus no casamento. Esta última lição é prática: o que fazer na paróquia para que o casamento aconteça. Antes de tudo, saiba que os detalhes variam conforme a diocese e a paróquia. O que vem a seguir é o caminho mais comum no Brasil.",
+            "O Eclesiastes elogia os dois que caminham juntos: se um cai, o outro o levanta. E termina com uma imagem que muitos casais guardam: o cordão de três fios não se rompe com facilidade. Esta última lição é prática: o que fazer na paróquia para que o casamento aconteça. Antes de tudo, saiba que os detalhes variam conforme a diocese e a paróquia. O que vem a seguir é o caminho mais comum no Brasil.",
         },
         { titulo: "Procure a secretaria cedo" },
         {

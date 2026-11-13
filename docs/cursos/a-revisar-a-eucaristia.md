@@ -67,3 +67,23 @@ Curso `src/devocao/cursos/a-eucaristia.ts`, 5 lições. Complementa "A missa exp
 
 ## Ligações
 - `/biblia/JHN/6` (lição 1), `/cursos/missa-explicada` (lição 2), `/rezar/oracoes/comunhao-espiritual` (lições 3 e 5), `/rezar/confissao` (lição 3).
+
+## Conferência final (13/11/2026)
+Resolvido pela regra da conferência doutrinal (docs/conferencia-doutrinal.md): o que a Igreja ensina, com número conferido; o que não tem fonte saiu.
+
+- Verbo grego de Jo 6,54 ("mastigar"): saiu (exegese sem número do CIC). No lugar, Jo 6,53 e 6,55 pela nossa Bíblia.
+- Jo 6,63 ("a carne de nada serve"): a interpretação saiu, junto com "Jesus não os chamou de volta para explicar que era só um modo de dizer". Fica o CIC 1336.
+- "Os ouvintes entendem as palavras ao pé da letra": trocado pelo próprio Jo 6,52.
+- Lição 2: saiu a comparação com quem crê de outro modo ("não disse que o pão representava ... o que não teria sentido diante de um simples símbolo"). Ficam as palavras da instituição (Mt 26,26-28), o CIC 1338 e 1Cor 11,27.
+- Exemplo da pessoa que muda de aparência: saiu. No lugar, a conversão de toda a substância do pão e do vinho como o Concílio de Trento ensina (CIC 1376), com as espécies que permanecem.
+- Genuflexão com o joelho direito: Instrução Geral do Missal Romano, 274 (conferido no vatican.va).
+- Exceção do cân. 916: fora (decisão do dono).
+- Trento e a comunhão pelo desejo: sessão XIII, capítulo 8. "A comunhão espiritual não substitui a missa de domingo" ganhou o CIC 2181. Saiu "muitos santos ensinaram essa prática".
+- Comunhão em casa para doentes: fica como prática pastoral.
+- Santo Afonso: obra nomeada (Visitas ao Santíssimo Sacramento). Camponês de Ars: agora pelo CIC 2715, que o cita.
+- Hora santa e Santa Margarida Maria: fica como fato da história da devoção; quinta-feira como costume.
+- Indulgência de meia hora de adoração: Manual das Indulgências, concessão 7.
+- Exposição durante a missa: "no mesmo recinto", letra do cân. 941 §2.
+- Tão sublime sacramento, véu umeral e bênção em silêncio: mantidos.
+- Lanciano, Bolsena, Urbano IV e Liège: mantidos como "a tradição conta" e fatos históricos.
+- São Carlo Acutis (canonizado em 2025): mantido. "Um milagre maior do que todos esses" virou "algo maior do que todos esses sinais", para não confundir o sacramento com os milagres eucarísticos.

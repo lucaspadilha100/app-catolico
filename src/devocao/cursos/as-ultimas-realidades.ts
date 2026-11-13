@@ -19,7 +19,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "Cristo mudou o sentido da morte" },
         {
           texto:
-            "Jesus passou pela morte e a venceu. Desde a sua ressurreição, para quem está unido a ele, morrer é passagem, e não queda no vazio (CIC 1010). São Paulo chegou a escrever que morrer seria um ganho, porque significava estar com Cristo (Fl 1,21-23). Numa das missas pelos falecidos, a Igreja reza que a vida dos que creem não acaba, apenas muda de forma (CIC 1012). E o mesmo apóstolo pede que os cristãos não fiquem tristes como quem não tem esperança (1Ts 4,13): ele não proíbe a tristeza, proíbe a tristeza sem horizonte.",
+            "Jesus passou pela morte e a venceu. Desde a sua ressurreição, para quem está unido a ele, morrer é passagem, e não queda no vazio (CIC 1010). São Paulo chegou a escrever que morrer seria um ganho, porque significava estar com Cristo (Fl 1,21-23). Numa das missas pelos falecidos, a Igreja reza que, para os que creem, a vida não acaba, mas se transforma (CIC 1012). E o mesmo apóstolo pede que os cristãos não fiquem tristes como os que não têm esperança (1Ts 4,13).",
         },
         { titulo: "Preparar-se para uma boa morte" },
         {
@@ -28,7 +28,7 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "O corpo de quem morreu foi templo do Espírito Santo e vai ressuscitar. Por isso a Igreja o trata com respeito: o velório, a oração, as exéquias e o sepultamento são gestos de fé, e enterrar os mortos é uma obra de misericórdia (CIC 2300). A cremação é permitida, desde que não seja escolhida para negar a ressurreição (CIC 2301). Quando há cremação, a Igreja pede que as cinzas sejam guardadas em lugar sagrado, como um cemitério ou um columbário, e não espalhadas. Se você perdeu alguém há pouco tempo, saiba que a fé não apaga a saudade. Ela dá à saudade um destino.",
+            "O corpo de quem morreu foi templo do Espírito Santo e vai ressuscitar. Por isso a Igreja o trata com respeito: o velório, a oração, as exéquias e o sepultamento são gestos de fé, e enterrar os mortos é uma obra de misericórdia (CIC 2300). A cremação é permitida, desde que não seja escolhida para negar a ressurreição (CIC 2301). Quando há cremação, a Igreja pede que as cinzas sejam guardadas em lugar sagrado, como um cemitério, e não espalhadas (Congregação para a Doutrina da Fé, Ad resurgendum cum Christo, 2016). Se você perdeu alguém há pouco tempo, saiba que a fé não apaga a saudade, e que a Igreja reza com você pelos que partiram.",
         },
         {
           pratica:
@@ -53,12 +53,12 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "Esse juízo não é um tribunal frio, com um juiz distante. É o encontro com aquele que nos conhece por dentro e nos amou primeiro. Nada fica escondido, mas também nada do bem que fizemos se perde, nem um copo de água dado a quem tinha sede (Mt 10,42). Quem viveu buscando a Deus, mesmo com quedas e recomeços, encontrará um rosto conhecido.",
+            "Quem julga é aquele que nos conhece por dentro e nos amou primeiro (1Jo 4,19). Nada fica escondido, mas também nada do bem que fizemos se perde, nem um copo de água dado a quem tinha sede (Mt 10,42).",
         },
         { titulo: "No fim dos tempos" },
         {
           texto:
-            "Quando Cristo voltar, todos os mortos ressuscitarão, e a humanidade inteira estará diante dele: é o juízo final (CIC 1038). Ele não desfaz o juízo particular. Torna público e completo aquilo que cada vida foi, agora também com o corpo, e revela o sentido de toda a história, com as consequências do bem e do mal que cada um fez (CIC 1039). Só o Pai sabe o dia e a hora (Mt 24,36; CIC 1040). Para quem sofreu injustiça, essa é uma boa notícia: o mal não terá a última palavra.",
+            "Quando Cristo voltar, todos os mortos ressuscitarão, e a humanidade inteira estará diante dele: é o juízo final (CIC 1038). Diante de Cristo, que é a verdade, ficará clara a verdade sobre a relação de cada pessoa com Deus, com as consequências do bem e do mal que cada um fez (CIC 1039). Só o Pai sabe o dia e a hora (Mt 24,36; CIC 1040). Para quem sofreu injustiça, essa é uma boa notícia: no juízo final, a justiça de Deus vence todas as injustiças (CIC 1040).",
         },
         {
           texto:
@@ -82,21 +82,21 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "Uma purificação de amor" },
         {
           texto:
-            "Quem morre na graça de Deus, mas ainda não está inteiramente purificado, tem a salvação garantida. Antes de entrar na alegria do céu, porém, passa por uma purificação (CIC 1030). A Igreja dá a essa purificação o nome de purgatório e ensinou sobre ela especialmente nos Concílios de Florença e de Trento (CIC 1031). O purgatório não é um inferno passageiro nem uma segunda chance: quem está nele já está salvo. É como alguém que ama de verdade, mas ainda precisa ser curado de tudo o que o impede de olhar Deus de frente.",
+            "Quem morre na graça de Deus, mas ainda não está inteiramente purificado, tem a salvação garantida. Antes de entrar na alegria do céu, porém, passa por uma purificação (CIC 1030). A Igreja dá a essa purificação o nome de purgatório e ensinou sobre ela especialmente nos Concílios de Florença e de Trento (CIC 1031). O purgatório é totalmente diferente do castigo dos condenados (CIC 1031): quem está nele já está salvo, e ali alcança a santidade necessária para entrar na alegria do céu (CIC 1030).",
         },
         {
           texto:
-            "A tradição fala de um fogo que purifica, e muitos santos o compararam ao fogo que limpa o ouro (1Cor 3,15; 1Pd 1,7). Não se trata de castigo por vingança. É o amor de Deus terminando a obra que começou em nós. A Igreja não ensina quanto tempo dura nem como é por dentro, e não convém imaginar mais do que ela diz.",
+            "A tradição da Igreja, apoiada na Escritura, fala de um fogo purificador, como o ouro que é provado pelo fogo (1Cor 3,15; 1Pd 1,7; CIC 1031). A Igreja não ensina quanto tempo dura nem como é por dentro, e não convém imaginar mais do que ela diz.",
         },
         { titulo: "Podemos ajudar" },
         {
           texto:
-            "Os que estão na terra, os que se purificam e os que estão no céu formam uma só família, a comunhão dos santos (CIC 954; CIC 962). Por isso a Igreja reza pelos mortos desde os primeiros séculos e oferece por eles a missa, que é a maior ajuda, além de esmolas, indulgências e obras de penitência (CIC 1032). Qualquer missa pode ser aplicada por vivos ou por falecidos (cân. 901). É costume pedir uma missa no sétimo dia, no trigésimo e no aniversário da morte. A oferta que se dá à paróquia não compra a missa: é uma ajuda à Igreja e ao seu sustento.",
+            "Os que estão na terra, os que se purificam e os que estão no céu formam uma só família, a comunhão dos santos (CIC 954; CIC 962). Por isso a Igreja reza pelos mortos desde os primeiros séculos e oferece por eles a missa, que é a maior ajuda, além de esmolas, indulgências e obras de penitência (CIC 1032). Qualquer missa pode ser aplicada por vivos ou por falecidos (cân. 901). É costume pedir uma missa no sétimo dia, no trigésimo e no aniversário da morte. A oferta que se dá à paróquia não compra a missa: com ela o fiel contribui para o bem da Igreja e para o sustento dos seus ministros e das suas obras, e deve-se evitar toda aparência de comércio (cân. 946-947).",
         },
         { titulo: "Novembro, o mês dos falecidos" },
         {
           texto:
-            "No dia 1º de novembro a Igreja celebra Todos os Santos; no Brasil, quando o dia 1º não cai num domingo, a solenidade em geral passa para o domingo seguinte. No dia 2 é a Comemoração de Todos os Fiéis Defuntos, o nosso Finados. É costume visitar o cemitério, limpar os túmulos, levar flores, acender velas, e em muitas paróquias há missa no próprio cemitério. Do dia 1º ao dia 8, quem visita um cemitério e reza pelos falecidos pode ganhar a indulgência plenária, aplicável somente às almas do purgatório, com as condições de sempre: confessar-se, comungar, rezar nas intenções do Papa e rejeitar todo apego ao pecado. Por tradição, o mês inteiro é dedicado à oração pelas almas.",
+            "No dia 1º de novembro a Igreja celebra Todos os Santos; no Brasil, quando o dia 1º não cai num domingo, a solenidade em geral passa para o domingo seguinte. No dia 2 é a Comemoração de Todos os Fiéis Defuntos, o nosso Finados. É costume visitar o cemitério, limpar os túmulos, levar flores, acender velas, e em muitas paróquias há missa no próprio cemitério. Do dia 1º ao dia 8, quem visita um cemitério e reza pelos falecidos pode ganhar a indulgência plenária, aplicável somente às almas do purgatório, com as condições de sempre: confessar-se, comungar, rezar nas intenções do Papa e rejeitar todo apego ao pecado (Manual das Indulgências, concessão 29). Por tradição, o mês inteiro é dedicado à oração pelas almas.",
         },
         {
           pratica:
@@ -121,16 +121,16 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "O que nenhum olho viu" },
         {
           texto:
-            "São Paulo diz que nenhum olho viu e nenhum ouvido ouviu o que Deus preparou para os que o amam (1Cor 2,9). Por isso a Bíblia fala do céu por imagens: uma festa de casamento, a casa do Pai, a Jerusalém celeste, o paraíso, a luz e a paz (CIC 1027). Nenhuma delas diz tudo. O céu não será monótono, porque Deus é inesgotável: será uma vida sempre nova, sem cansaço e sem fim. E os santos não ficam parados: continuam a cuidar de nós e a interceder por nós junto de Deus (CIC 956).",
+            "São Paulo diz que nenhum olho viu e nenhum ouvido ouviu o que Deus preparou para os que o amam (1Cor 2,9). Por isso a Bíblia fala do céu por imagens: uma festa de casamento, a casa do Pai, a Jerusalém celeste, o paraíso, a luz e a paz (CIC 1027). Nenhuma delas diz tudo. E os santos, que já estão com Deus, continuam a interceder por nós (CIC 956).",
         },
         { titulo: "E as pessoas que amamos?" },
         {
           texto:
-            "Quem está de luto costuma perguntar se vai reencontrar os seus. A Igreja não descreve detalhes do céu, mas ensina que ele é comunhão de todos os que estão em Cristo, uma só família reunida em Deus. A esperança cristã sempre viu nisso o reencontro com aqueles que amamos e que morreram na amizade com Deus. Nada do que foi amor verdadeiro se perde: no céu ele é purificado e se torna pleno. Enquanto isso, continuamos unidos a eles pela oração.",
+            "Quem está de luto costuma perguntar se vai reencontrar os seus. A Igreja não descreve detalhes do céu, mas ensina que ele é comunhão de todos os que estão em Cristo, uma só família reunida em Deus. Na despedida dos falecidos, a liturgia da Igreja lembra que os que vivem para Cristo não se separam uns dos outros e se reencontrarão nele (CIC 1690). E a caridade nunca acaba (1Cor 13,8). Enquanto isso, continuamos unidos a eles pela oração.",
         },
         {
           texto:
-            "Ninguém conquista o céu com as próprias forças. Ele é dom de Deus, aberto por Jesus, que é o caminho, a verdade e a vida (Jo 14,6). Mas o dom pede resposta: a fé, a vida de oração, os sacramentos e a caridade de cada dia. De certo modo, o céu já começa aqui, sempre que amamos como Cristo amou e, sobretudo, quando participamos da missa.",
+            "Ninguém conquista o céu com as próprias forças. Ele é dom de Deus, aberto por Jesus, que é o caminho, a verdade e a vida (Jo 14,6). Mas o dom pede resposta: a fé, a vida de oração, os sacramentos e a caridade de cada dia. De certo modo, o céu já começa aqui: na liturgia da terra, sobretudo na missa, participamos já da liturgia do céu (CIC 1090).",
         },
         {
           pratica:
@@ -145,26 +145,26 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "LUK 16:19-26" },
         {
           texto:
-            "O homem rico da parábola não tem nome, e Jesus não diz que ele roubou ou matou. Ele apenas nunca viu o pobre que estava à sua porta. O abismo de que Abraão fala não foi cavado depois da morte: começou na vida, na indiferença de todos os dias. Jesus conta essa história aos que ainda estão vivos, para que mudem enquanto é tempo.",
+            "O homem rico da parábola não tem nome, e Jesus não diz que ele roubou ou matou. Ele apenas nunca socorreu o pobre que estava à sua porta. O Senhor adverte que seremos separados dele se não atendermos às necessidades graves dos pobres e dos pequenos (CIC 1033). Jesus conta essa história aos que ainda estão vivos, para que mudem enquanto é tempo.",
         },
         { titulo: "Por que falar disso" },
         {
           texto:
-            "Jesus falou do inferno mais de uma vez, com imagens fortes, como o fogo que não se apaga (Mc 9,43-48; Mt 25,46; CIC 1034). Ele não o fez para nos aterrorizar, mas porque nos ama e leva a sério a nossa liberdade. A Igreja ensina que o inferno existe e que é eterno (CIC 1035). A sua pena principal é a separação de Deus para sempre, o único em quem o ser humano encontra a vida e a felicidade para as quais foi criado (CIC 1035).",
+            "Jesus falou do inferno mais de uma vez, com imagens fortes, como o fogo que não se apaga (Mc 9,43-48; Mt 25,46; CIC 1034). Essas palavras são um apelo à responsabilidade com que cada um usa a sua liberdade (CIC 1036). A Igreja ensina que o inferno existe e que é eterno (CIC 1035). A sua pena principal é a separação de Deus para sempre, o único em quem o ser humano encontra a vida e a felicidade para as quais foi criado (CIC 1035).",
         },
         { titulo: "Ninguém é empurrado" },
         {
           texto:
-            "Deus não cria ninguém para o inferno e não predestina ninguém a ele (CIC 1037). Ele quer que todos se salvem (1Tm 2,4) e tem paciência, para que todos cheguem ao arrependimento (2Pd 3,9). O inferno é a exclusão de si mesmo: morrer em pecado mortal sem se arrepender e sem acolher o amor misericordioso de Deus é escolher ficar longe dele para sempre (CIC 1033). Para que um pecado seja mortal, é preciso matéria grave, plena consciência e consentimento deliberado (CIC 1857). O inferno mostra até onde vai o respeito de Deus pela liberdade humana.",
+            "Deus não cria ninguém para o inferno e não predestina ninguém a ele (CIC 1037). Ele quer que todos se salvem (1Tm 2,4) e tem paciência, para que todos cheguem ao arrependimento (2Pd 3,9). O inferno é a exclusão de si mesmo: morrer em pecado mortal sem se arrepender e sem acolher o amor misericordioso de Deus é escolher ficar longe dele para sempre (CIC 1033). Para que um pecado seja mortal, é preciso matéria grave, plena consciência e consentimento deliberado (CIC 1857).",
         },
         { titulo: "Esperar por todos" },
         {
           texto:
-            "A Igreja declara que muitos estão no céu quando canoniza os santos, mas nunca declarou que uma pessoa determinada esteja no inferno. Só Deus vê o coração. Quem perdeu alguém que vivia longe da fé, ou alguém que tirou a própria vida, não deve perder a esperança: a Igreja ensina que Deus pode tocar a pessoa, por caminhos que só ele conhece, e reza por ela (CIC 2283). E os que, sem culpa, não conheceram Cristo, mas buscaram a Deus com sinceridade e procuraram fazer o bem, também podem alcançar a salvação (CIC 847). O que nos cabe é confiar e rezar.",
+            "Podemos dizer que um ato é, em si, uma falta grave, mas o juízo sobre as pessoas pertence à justiça e à misericórdia de Deus (CIC 1861). Só Deus vê o coração. Quem perdeu alguém que vivia longe da fé, ou alguém que tirou a própria vida, não deve perder a esperança: a Igreja ensina que Deus pode tocar a pessoa, por caminhos que só ele conhece, e reza por ela (CIC 2283). E os que, sem culpa, não conheceram Cristo, mas buscaram a Deus com sinceridade e procuraram fazer o bem, também podem alcançar a salvação (CIC 847). O que nos cabe é confiar e rezar.",
         },
         {
           texto:
-            "Para cada um de nós, a doutrina do inferno é um chamado urgente à conversão (CIC 1036). Não existe pecado maior do que a misericórdia de Deus quando há arrependimento verdadeiro. A confissão está sempre aberta, e ninguém precisa carregar sozinho um peso que Cristo quer tirar. O cristão não vive com medo de Deus: vive com medo de se afastar de quem o ama tanto.",
+            "Para cada um de nós, a doutrina do inferno é um chamado urgente à conversão (CIC 1036). Não há falta, por mais grave, que a Igreja não possa perdoar a quem se arrepende de verdade (CIC 982). A confissão está sempre aberta, e ninguém precisa carregar sozinho um peso que Cristo quer tirar.",
         },
         {
           pratica:
@@ -181,7 +181,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "REV 21:1-7" },
         {
           texto:
-            "Quase no fim da Bíblia, São João vê uma cidade santa que desce do céu, enfeitada como uma noiva. Deus vem morar no meio do seu povo, enxuga todas as lágrimas, e não haverá mais morte, nem luto, nem dor. A história que começou num jardim termina numa festa de casamento. Para quem está chorando alguém, esse versículo sobre as lágrimas é uma promessa pessoal.",
+            "Quase no fim da Bíblia, São João vê uma cidade santa que desce do céu, enfeitada como uma noiva. Deus vem morar no meio do seu povo, enxuga todas as lágrimas, e não haverá mais morte, nem luto, nem dor. A história que começou num jardim termina numa festa de casamento. Para quem está chorando alguém, esse versículo sobre as lágrimas é uma promessa de Deus.",
         },
         { titulo: "Ele voltará" },
         {
@@ -195,12 +195,12 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "É por isso que tratamos com carinho os corpos dos falecidos e visitamos os seus túmulos. A palavra cemitério vem do grego e quer dizer lugar onde se dorme: os cristãos sempre viram ali um dormitório à espera do despertar. Quem morreu em Cristo não está perdido. Está guardado.",
+            "É por isso que tratamos com carinho os corpos dos falecidos e visitamos os seus túmulos. A palavra cemitério vem do grego e quer dizer lugar onde se dorme, como São Paulo chama de adormecidos os que morreram em Cristo (1Ts 4,13). Quem morreu em Cristo não está perdido.",
         },
         { titulo: "Todas as coisas novas" },
         {
           texto:
-            "No fim dos tempos, não só a humanidade, mas o universo inteiro será renovado (CIC 1042). Deus fará um novo céu e uma nova terra, onde mora a justiça (2Pd 3,13; Ap 21,1). Não sabemos quando nem de que modo isso acontecerá (CIC 1048). Sabemos que o bem feito nesta vida, a justiça, a fraternidade e o trabalho honesto, não se perde, e que no fim Deus será tudo em todos (1Cor 15,28). A última palavra da história não é a morte. É Deus, que faz novas todas as coisas.",
+            "No fim dos tempos, não só a humanidade, mas o universo inteiro será renovado (CIC 1042). Deus fará um novo céu e uma nova terra, onde mora a justiça (2Pd 3,13; Ap 21,1). Não sabemos quando nem de que modo isso acontecerá (CIC 1048). Sabemos que os bons frutos da vida e do trabalho humano, a dignidade, a fraternidade e a liberdade, serão encontrados de novo, purificados e transfigurados, e que no fim Deus será tudo em todos (1Cor 15,28; CIC 1050). A última palavra da história não é a morte. É Deus, que faz novas todas as coisas.",
         },
         {
           pratica:

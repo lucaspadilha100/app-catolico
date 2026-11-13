@@ -19,17 +19,17 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "A soberba" },
         {
           texto:
-            "A soberba é o amor desordenado de si mesmo, que põe o próprio eu no lugar que é de Deus. Não é reconhecer os dons que se tem, nem gostar de um trabalho bem feito. É querer ser a medida de tudo e decidir sozinho o que é bom e o que é mau, como na primeira tentação: ser como deuses (Gn 3,5). Todo pecado tem um pouco dela, porque todo pecado é amor de si levado até o desprezo de Deus (CIC 1850). É o vício mais difícil de enxergar, pois se esconde até nas coisas boas, como no fariseu que reza agradecendo por ser melhor que os outros.",
+            "A soberba é o amor desordenado de si mesmo, que põe o próprio eu no lugar que é de Deus. Não é reconhecer os dons que se tem, nem gostar de um trabalho bem feito. É querer ser a medida de tudo e decidir sozinho o que é bom e o que é mau, como na primeira tentação: ser como deuses (Gn 3,5). O Catecismo, com Santo Agostinho, descreve o pecado como amor de si levado até o desprezo de Deus, numa exaltação orgulhosa de si mesmo (CIC 1850). A soberba é difícil de enxergar, pois se esconde até nas coisas boas, como no fariseu que reza agradecendo por ser melhor que os outros.",
         },
         { titulo: "No dia a dia" },
         {
           texto:
-            "A soberba quase nunca se apresenta com esse nome. Aparece na dificuldade de pedir desculpas e de admitir um erro, na necessidade de ter sempre a última palavra, na irritação quando alguém corrige. Aparece no costume de se comparar com os outros para sair por cima. Tem também uma forma escondida: a pessoa que se diminui o tempo todo, mas por dentro só pensa em si e não aceita depender de ninguém. E entra até na oração, quando se reza para se sentir bom, e não para encontrar a Deus.",
+            "A soberba quase nunca se apresenta com esse nome. Aparece na dificuldade de pedir desculpas e de admitir um erro, na necessidade de ter sempre a última palavra, na irritação quando alguém corrige. Aparece no costume de se comparar com os outros para sair por cima. E entra até na oração, quando se reza para se sentir bom, e não para encontrar a Deus.",
         },
         { titulo: "A humildade" },
         {
           texto:
-            "O remédio é a humildade. Ser humilde não é se achar um nada nem esconder os dons recebidos: é ver-se na verdade, como Deus vê. Tudo o que temos é dom, e diante dele somos todos mendigos. Por isso a humildade é o fundamento da oração (CIC 2559): o publicano não tinha nada a apresentar além do pedido de misericórdia, e voltou para casa justificado. Jesus se apresentou como manso e humilde de coração (Mt 11,29), e quem o segue aprende com ele a descer, a servir e a se alegrar com o bem dos outros.",
+            "O remédio é a humildade. Ser humilde não é se achar um nada nem esconder os dons recebidos: é ver-se na verdade, como Deus vê. Tudo o que temos é dom, e diante de Deus somos mendigos. Por isso a humildade é o fundamento da oração (CIC 2559): o publicano não tinha nada a apresentar além do pedido de misericórdia, e voltou para casa justificado. Jesus se apresentou como manso e humilde de coração (Mt 11,29), e quem o segue aprende com ele a descer, a servir e a se alegrar com o bem dos outros.",
         },
         {
           pratica:
@@ -50,7 +50,7 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "A avareza tem uma marca curiosa: nunca se satisfaz. Quem tem pouco acha que terá paz quando tiver mais, e quem tem mais descobre que ainda falta. Ela fecha o coração, porque cada pedido dos outros parece uma ameaça. Jesus contou a parábola do rico que só pensava em construir celeiros maiores e morreu naquela mesma noite (Lc 12,16-21). Ele não era mau por ter uma boa colheita, mas por não pensar em mais nada.",
+            "A avareza tem uma marca: nunca se satisfaz. O avarento nunca se fartará de dinheiro, diz a Escritura (Ecl 5,9). Quem tem pouco acha que terá paz quando tiver mais, e quem tem mais descobre que ainda falta. Ela fecha o coração, porque cada pedido dos outros parece uma ameaça. Jesus contou a parábola do rico que só pensava em construir celeiros maiores e morreu naquela mesma noite (Lc 12,16-21). E concluiu: assim acontece com quem acumula tesouros para si mesmo e não é rico diante de Deus (Lc 12,21).",
         },
         { titulo: "No dia a dia" },
         {
@@ -80,7 +80,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "No dia a dia" },
         {
           texto:
-            "Hoje a luxúria tem uma porta aberta no bolso: o celular. A pornografia e as conversas que alimentam a fantasia chegam a qualquer hora e prendem gente de todas as idades. A luxúria aparece também no olhar que reduz a pessoa ao corpo, nas piadas que rebaixam, na infidelidade que começa com pequenas concessões, no uso do outro sem compromisso. Muitas vezes vira um hábito difícil de romper. A força das paixões e dos hábitos pode diminuir a culpa (CIC 1860), mas não tira a necessidade de lutar e de pedir ajuda.",
+            "Hoje a luxúria tem uma porta aberta no bolso: o celular. A pornografia e as conversas que alimentam a fantasia chegam a qualquer hora e prendem gente de todas as idades. A luxúria aparece também no olhar que reduz a pessoa ao corpo, nas piadas que rebaixam, na infidelidade que começa com pequenas concessões, no uso do outro sem compromisso. Muitas vezes vira um hábito difícil de romper. A força das paixões e certas perturbações podem diminuir a culpa (CIC 1860), mas não tira a necessidade de lutar e de pedir ajuda.",
         },
         { titulo: "A castidade" },
         {
@@ -109,7 +109,7 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "A Igreja faz uma distinção importante. Querer que um mal seja corrigido, por amor à justiça, é bom; querer o mal do outro por vingança, não (CIC 2302). Se a ira chega ao desejo deliberado de matar ou de ferir gravemente, é pecado mortal. O ódio, que deseja de propósito o mal do próximo, também vai contra a caridade, e é grave quando deseja um mal grave (CIC 2303). Jesus pôs a ira no mesmo caminho do homicídio, porque é dela que ele nasce (Mt 5,21-22).",
+            "A Igreja faz uma distinção importante. Querer que um mal seja corrigido, por amor à justiça, é bom; querer o mal do outro por vingança, não (CIC 2302). Se a ira chega ao desejo deliberado de matar ou de ferir gravemente, é pecado mortal. O ódio, que deseja de propósito o mal do próximo, também vai contra a caridade, e é grave quando deseja um mal grave (CIC 2303). Ao falar do mandamento não matarás, Jesus condena também a ira contra o irmão (Mt 5,21-22; CIC 2302).",
         },
         { titulo: "No dia a dia" },
         {
@@ -119,7 +119,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "A mansidão" },
         {
           texto:
-            "O remédio é a mansidão, que a tradição conta entre os frutos do Espírito Santo (CIC 1832). Manso não é o fraco que engole tudo, mas o forte que domina a própria força. Jesus se disse manso e humilde de coração (Mt 11,29) e, na cruz, rezou pelos que o matavam (Lc 23,34). Não está em nosso poder deixar de sentir a ofensa, mas o coração entregue ao Espírito Santo pode transformar a ferida em compaixão e a lembrança em oração por quem feriu (CIC 2843). O perdão não nega a justiça: liberta quem perdoa.",
+            "O remédio é a mansidão, que a tradição conta entre os frutos do Espírito Santo (CIC 1832). Jesus se disse manso e humilde de coração (Mt 11,29) e, na cruz, rezou pelos que o matavam (Lc 23,34). Não está em nosso poder deixar de sentir a ofensa, mas o coração entregue ao Espírito Santo pode transformar a ferida em compaixão e a lembrança em oração por quem feriu (CIC 2843).",
         },
         {
           pratica:
@@ -135,12 +135,12 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "A gula" },
         {
           texto:
-            "Comer e beber são coisas boas. Deus nos deu o alimento, e Jesus sentava à mesa com tanta gente que chegou a ser chamado de comilão (Mt 11,19). A gula não é gostar de comida nem comer bem numa festa. É o apetite desordenado: comer e beber além da medida, ou fazer do prazer da mesa um centro da vida. Os antigos mestres notavam que ela tem muitas formas: comer demais, comer com avidez, comer a toda hora, só aceitar o que é mais refinado.",
+            "Comer e beber são coisas boas. Deus nos deu o alimento, e Jesus sentava à mesa com tanta gente que chegou a ser chamado de comilão (Mt 11,19). A gula não é gostar de comida nem comer bem numa festa. É o apetite desordenado: comer e beber além da medida, ou fazer do prazer da mesa um centro da vida. São Gregório Magno, citado por São Tomás de Aquino, apontava cinco formas: comer antes da hora, buscar o que é caro, comer demais, comer com avidez e exigir requinte no preparo (Suma Teológica, II-II, q. 148, a. 4).",
         },
         { titulo: "No dia a dia" },
         {
           texto:
-            "A gula aparece no prato sempre cheio demais, no beliscar sem fome diante da televisão, na bebida que passa do ponto em toda festa. Aparece no exagero com o que faz mal: álcool, cigarro, até remédios. A temperança pede evitar todo excesso, e quem dirige embriagado e põe em risco a vida dos outros se torna gravemente culpado (CIC 2290). Há também a gula de quem só pensa em comida e reclama de tudo o que é servido. A compulsão alimentar e a dependência química, porém, são doenças que diminuem a liberdade (CIC 1860): quem sofre delas precisa de tratamento e de acolhimento.",
+            "A gula aparece no prato sempre cheio demais, no beliscar sem fome diante da televisão, na bebida que passa do ponto em toda festa. Aparece no exagero com o que faz mal: álcool, cigarro, até remédios. A temperança pede evitar todo excesso, e quem dirige embriagado e põe em risco a vida dos outros se torna gravemente culpado (CIC 2290). Há também a gula de quem só pensa em comida e reclama de tudo o que é servido. A compulsão alimentar e a dependência química, porém, podem ser perturbações que diminuem a culpa (CIC 1860): quem sofre delas precisa de tratamento e de acolhimento.",
         },
         { titulo: "A temperança" },
         {
@@ -169,7 +169,7 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "A inveja é um vício triste, que não dá prazer nenhum a quem o carrega. Dela nascem outros pecados: o ódio, a maledicência, a calúnia, a alegria com o mal do outro e o desgosto com o seu sucesso (CIC 2539). Muitas vezes ela nasce do orgulho, que não suporta ver outro brilhar (CIC 2540).",
+            "A inveja é um vício triste. Dela nascem outros pecados: o ódio, a maledicência, a calúnia, a alegria com o mal do outro e o desgosto com o seu sucesso (CIC 2539). Muitas vezes ela nasce do orgulho, que não suporta ver outro brilhar (CIC 2540).",
         },
         { titulo: "No dia a dia" },
         {
@@ -203,16 +203,16 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "No dia a dia" },
         {
           texto:
-            "A acídia aparece na oração adiada para amanhã, na missa de domingo trocada por qualquer coisa, no terço que nunca começa. Aparece no trabalho feito de qualquer jeito e nas obrigações sempre empurradas. Mas tem também uma forma agitada: a pessoa vive ocupada, enche o dia de tarefas e de telas, para não ficar a sós com Deus e consigo mesma. Às vezes surge na aridez da oração, quando se conclui que rezar não serve para nada (CIC 2728). É preciso distinguir: a depressão é uma doença, que pede tratamento e não culpa; a acídia é uma negligência do coração, que se combate com a graça e com pequenos passos.",
+            "A acídia aparece na oração adiada para amanhã, na missa de domingo trocada por qualquer coisa, no terço que nunca começa. Aparece no trabalho feito de qualquer jeito e nas obrigações sempre empurradas. Mas tem também uma forma agitada: a pessoa vive ocupada, enche o dia de tarefas e de telas, para não ficar a sós com Deus e consigo mesma. Às vezes surge na aridez da oração, quando se conclui que rezar não serve para nada (CIC 2728). É preciso distinguir: a doença, como a depressão, pede tratamento e pode diminuir a culpa (CIC 1860); a acídia é uma negligência do coração, que se combate com a graça e com pequenos passos.",
         },
         { titulo: "A diligência" },
         {
           texto:
-            "O remédio é a diligência. A palavra vem do latim e tem a ver com amar: diligente é quem faz as coisas com cuidado porque ama. O trabalho honra os dons do Criador e, unido a Cristo, o carpinteiro de Nazaré, pode se tornar caminho de santidade (CIC 2427). Diligência não é ativismo: Deus também quer o descanso, e o domingo existe para isso (CIC 2184). A fortaleza dá constância para seguir no bem mesmo quando falta gosto (CIC 1808), e contra o desânimo na oração o Catecismo propõe humildade, confiança e perseverança (CIC 2728).",
+            "O remédio é a diligência. A palavra vem do latim e tem a ver com amar: diligente é quem faz as coisas com cuidado porque ama. O trabalho honra os dons do Criador e, unido a Cristo, o artesão de Nazaré (Mc 6,3), pode se tornar caminho de santidade (CIC 2427). Diligência não é ativismo: Deus também quer o descanso, e o domingo existe para isso (CIC 2184). A fortaleza dá constância para seguir no bem mesmo quando falta gosto (CIC 1808), e contra o desânimo na oração o Catecismo propõe humildade, confiança e perseverança (CIC 2728).",
         },
         {
           texto:
-            "Os sete vícios não se vencem de uma vez. Cada pessoa tem um que pesa mais, e vale a pena conhecê-lo e combatê-lo com paciência, sem desanimar com as quedas. A confissão frequente, mesmo só de pecados leves, ajuda a formar a consciência e a lutar contra as más inclinações (CIC 1458). Não há santidade sem combate (CIC 2015), mas é um combate em que Deus luta conosco, e a sua graça vem antes do nosso esforço.",
+            "Os sete vícios não se vencem de uma vez. Cada pessoa tem um que pesa mais, e vale a pena conhecê-lo e combatê-lo com paciência, sem desanimar com as quedas. A confissão frequente, mesmo só de pecados leves, ajuda a formar a consciência e a lutar contra as más inclinações (CIC 1458). Não há santidade sem combate (CIC 2015), mas é um combate em que Deus luta conosco, e a sua graça vem antes do nosso esforço (CIC 2001).",
         },
         {
           pratica:

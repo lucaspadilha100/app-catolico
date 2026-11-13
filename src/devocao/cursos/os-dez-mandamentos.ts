@@ -27,11 +27,11 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "O que fere o primeiro mandamento" },
         {
           texto:
-            "Ferem este mandamento a superstição, que atribui poder mágico a objetos e gestos, mesmo religiosos (CIC 2111); a consulta a horóscopos, cartomantes e a quem promete revelar o futuro ou falar com os mortos (CIC 2116); as simpatias e os trabalhos para prender alguém ou fazer mal (CIC 2117). Também o desespero, que deixa de confiar no perdão de Deus, e a presunção, que conta com o perdão sem querer mudar de vida (CIC 2091-2092). E a indiferença, que vive como se Deus não existisse. Muita gente caiu nessas coisas por medo ou aflição. Deus não a rejeita: espera que volte a confiar só nele.",
+            "Ferem este mandamento a superstição, que atribui poder mágico a objetos e gestos, mesmo religiosos (CIC 2111); a consulta a horóscopos, cartomantes e a quem promete revelar o futuro ou falar com os mortos (CIC 2116); as simpatias e os trabalhos para prender alguém ou fazer mal (CIC 2117). Também o desespero, que deixa de confiar no perdão de Deus, e a presunção, que conta com o perdão sem querer mudar de vida (CIC 2091-2092). E a indiferença, que descuida ou recusa o amor de Deus (CIC 2094). Muita gente caiu nessas coisas por medo ou aflição. Deus não a rejeita: espera que volte a confiar só nele.",
         },
         {
           texto:
-            "E as imagens? A leitura proíbe fazer imagens para adorá-las. Quando o Filho de Deus se fez homem, Deus ganhou um rosto que pode ser representado. O católico não adora a imagem de Jesus, de Nossa Senhora ou dos santos: a honra que ele presta passa pela imagem e chega a quem ela representa (CIC 2132). Adoração, só a Deus.",
+            "E as imagens? A leitura proíbe fazer imagens para adorá-las. Quando o Filho de Deus se fez homem, Deus ganhou um rosto que pode ser representado, e por isso a Igreja defendeu o culto das imagens (CIC 2131). O católico não adora a imagem de Jesus, de Nossa Senhora ou dos santos: a honra que ele presta passa pela imagem e chega a quem ela representa (CIC 2132). Adoração, só a Deus.",
         },
         {
           pratica:
@@ -46,16 +46,16 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "LUK 11:1-4" },
         {
           texto:
-            "Quando os discípulos pediram a Jesus que os ensinasse a rezar, o primeiro pedido que ele pôs nos lábios deles foi este: que o nome do Pai seja santificado. O segundo mandamento guarda esse nome. Na Bíblia, o nome é a própria pessoa. Deus revelou o seu nome a Moisés (Ex 3,14) e, com isso, deixou-se chamar e invocar. Quem dá a alguém o seu nome se entrega um pouco nas mãos de quem o recebe.",
+            "Quando os discípulos pediram a Jesus que os ensinasse a rezar, o primeiro pedido que ele pôs nos lábios deles foi este: que o nome do Pai seja santificado. O segundo mandamento guarda esse nome. O nome exprime quem a pessoa é. Deus revelou o seu nome a Moisés (Ex 3,14) e, com isso, deu-se a conhecer e deixou-se invocar (CIC 203).",
         },
         { titulo: "O que ele protege" },
         {
           texto:
-            "Este mandamento protege o respeito diante do que é santo (CIC 2142). Pede que o nome de Deus seja dito para bendizer, louvar e invocar com confiança. O mesmo respeito vale para o nome de Jesus, de Nossa Senhora e dos santos. E alcança também a palavra dada diante de Deus: as promessas feitas a ele e os juramentos, que só se fazem por causa justa e com verdade.",
+            "Este mandamento protege o respeito diante do que é santo (CIC 2142). Pede que o nome de Deus seja dito para bendizer, louvar e invocar com confiança. O mesmo respeito vale para o nome de Jesus, de Nossa Senhora e dos santos (CIC 2146). E alcança também a palavra dada diante de Deus: as promessas feitas a ele e os juramentos, que só se fazem por causa justa e com verdade (CIC 2154).",
         },
         {
           texto:
-            "Hoje o nome de Deus aparece em toda parte: em camisetas, em músicas, em frases feitas, em discussões nas redes sociais. É fácil gastá-lo à toa. Guardar este mandamento é dizer o nome de Deus com cuidado, como se diz o nome de alguém que amamos. É ensinar as crianças a rezar com respeito. É cumprir as promessas feitas a Deus, ou pedir orientação a um padre quando não for possível cumpri-las. Até o nosso nome de batismo merece respeito, porque Deus chama cada um pelo nome (CIC 2158).",
+            "Hoje o nome de Deus aparece em toda parte: em camisetas, em músicas, em frases feitas, em discussões nas redes sociais. É fácil gastá-lo à toa. Guardar este mandamento é dizer o nome de Deus com cuidado, como se diz o nome de alguém que amamos. É ensinar as crianças a rezar com respeito. É cumprir as promessas feitas a Deus, ou procurar o pároco quando não for possível cumpri-las, porque ele pode, por justa causa, dispensar delas (cân. 1196). Até o nosso nome de batismo merece respeito, porque Deus chama cada um pelo nome (CIC 2158).",
         },
         { titulo: "O que fere o segundo mandamento" },
         {
@@ -64,7 +64,7 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "Há ainda as faltas do dia a dia: usar o nome de Deus num momento de raiva, em brincadeiras desrespeitosas ou no meio de xingamentos. Muitas vezes isso é um hábito que vem de casa, dito sem maldade. Mas o hábito se corrige, com paciência e atenção. Cada vez que você percebe e muda a palavra, o nome de Deus volta a ser dito com amor.",
+            "Há ainda as faltas do dia a dia: usar o nome de Deus num momento de raiva, em brincadeiras desrespeitosas ou no meio de xingamentos, o que é falta de respeito para com o Senhor (CIC 2149). Muitas vezes isso é um hábito que vem de casa, dito sem maldade. Mas o hábito se corrige, com paciência e atenção. Cada vez que você percebe e muda a palavra, o nome de Deus volta a ser dito com amor.",
         },
         {
           pratica:
@@ -79,7 +79,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "DEU 5:12-15" },
         {
           texto:
-            "No Deuteronômio, o motivo do descanso surpreende: Israel deve descansar porque foi escravo no Egito e Deus o libertou. Escravo não tem dia livre. O sábado era sinal de que aquele povo pertencia a Deus, e não ao trabalho nem a um patrão. Repare que o descanso valia também para os filhos, os empregados, o estrangeiro e até os animais.",
+            "No Deuteronômio, o motivo do descanso surpreende: Israel deve guardar o sábado porque foi escravo no Egito e Deus o libertou (CIC 2170). O sábado era sinal da aliança entre Deus e o seu povo (CIC 2171), e um dia que interrompia as servidões do trabalho e o culto do dinheiro (CIC 2172). Repare que o descanso valia também para os filhos, os empregados, o estrangeiro e até os animais.",
         },
         { titulo: "Do sábado ao domingo" },
         {
@@ -98,7 +98,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "O que fere o terceiro mandamento" },
         {
           texto:
-            "Deixar de ir à missa no domingo por preguiça ou descaso, sem motivo sério, é falta grave (CIC 2181), e quem faltou assim deve confessar-se antes de voltar a comungar (CIC 1385). Motivos sérios dispensam: doença, cuidado de crianças pequenas ou de doentes, distância grande sem condução, trabalho que não se pode deixar. Nesses casos não há pecado, e a pessoa pode se unir à Igreja rezando em casa. Fere também este mandamento quem obriga os outros a trabalhar sem necessidade e lhes tira o descanso. E quem se afastou da missa há muito tempo não precisa ter vergonha de voltar: a porta está aberta.",
+            "Deixar de ir à missa no domingo por preguiça ou descaso, sem motivo sério, é falta grave (CIC 2181), e quem faltou assim deve confessar-se antes de voltar a comungar (CIC 1385). Um motivo sério, como a doença ou o cuidado de crianças pequenas, dispensa, e o pároco também pode dispensar (CIC 2181). Quando é impossível ir à missa, a Igreja recomenda participar da celebração da Palavra, se houver, ou dedicar um tempo à oração em casa, sozinho ou em família (CIC 2183). Fere também este mandamento quem obriga os outros a trabalhar sem necessidade e lhes tira o domingo (CIC 2187). E quem se afastou da missa há muito tempo não precisa ter vergonha de voltar: a porta está aberta.",
         },
         {
           pratica:
@@ -118,7 +118,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "O que ele protege" },
         {
           texto:
-            "Este mandamento protege a família, onde a pessoa aprende a amar, a confiar e a conviver. São Paulo lembra que é o primeiro mandamento que vem com uma promessa: vida longa sobre a terra (Ex 20,12; Ef 6,2-3). Honrar os pais é reconhecer que recebemos deles a vida, e que isso merece gratidão mesmo quando eles não foram perfeitos. O mandamento alcança também os outros laços em que alguém cuida de nós: avós, professores, padrinhos e as autoridades legítimas.",
+            "Este mandamento protege a família, onde a pessoa aprende a amar, a confiar e a conviver. São Paulo lembra que é o primeiro mandamento que vem com uma promessa: vida longa sobre a terra (Ex 20,12; Ef 6,2-3). Honrar os pais é reconhecer que recebemos deles a vida, e que isso merece gratidão mesmo quando eles não foram perfeitos. O mandamento alcança também os outros laços em que alguém cuida de nós: avós, professores, patrões e as autoridades legítimas (CIC 2199).",
         },
         { titulo: "O que ele pede hoje" },
         {
@@ -136,7 +136,7 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           pratica:
-            "Faça nesta semana um gesto concreto de gratidão ao seu pai ou à sua mãe: uma ligação, uma visita, uma ajuda prática. Se eles já faleceram, reze por eles todos os dias e ofereça por eles uma missa.",
+            "Faça nesta semana um gesto concreto de gratidão ao seu pai ou à sua mãe: uma ligação, uma visita, uma ajuda prática. Se eles já faleceram, reze por eles todos os dias e ofereça por eles uma missa, como a Igreja recomenda desde os primeiros tempos (CIC 1032).",
         },
         { ir: "/rezar/oracoes/pelos-falecidos", rotulo: "Oração pelos falecidos" },
       ],
@@ -162,7 +162,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "O que fere o quinto mandamento" },
         {
           texto:
-            "Ferem gravemente este mandamento o homicídio, o aborto (CIC 2271) e a eutanásia, que mata de propósito um doente, uma pessoa com deficiência ou alguém que está morrendo, para acabar com o sofrimento (CIC 2277). Ferem-no também as drogas, a embriaguez, a violência dentro de casa, o ódio guardado e o escândalo, que leva o outro a pecar. Quem passou por um aborto, ou ajudou a fazê-lo, encontra na Igreja misericórdia, e não condenação: o caminho é a confissão, e Deus perdoa quem se arrepende.",
+            "Ferem gravemente este mandamento o homicídio, o aborto (CIC 2271) e a eutanásia, que mata de propósito um doente, uma pessoa com deficiência ou alguém que está morrendo, para acabar com o sofrimento (CIC 2277). Ferem-no também as drogas (CIC 2291), a embriaguez, a violência dentro de casa, o ódio guardado e o escândalo, que leva o outro a pecar (CIC 2284). Quem passou por um aborto, ou ajudou a fazê-lo, encontra na Igreja misericórdia, e não condenação: o caminho é a confissão, e Deus perdoa quem se arrepende.",
         },
         {
           texto:
@@ -185,7 +185,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "O que ele protege" },
         {
           texto:
-            "Na leitura, Jesus volta ao princípio: o homem e a mulher se unem e se tornam uma só carne, e o que Deus uniu ninguém separa. A união dos corpos fala a linguagem de uma entrega total, e por isso tem o seu lugar no matrimônio, onde o amor é fiel, exclusivo, para sempre e aberto à vida. O mandamento protege a fidelidade dos esposos, a dignidade de cada pessoa e a família que nasce desse amor.",
+            "Na leitura, Jesus volta ao princípio: o homem e a mulher se unem e se tornam uma só carne, e o que Deus uniu ninguém separa. A união dos corpos só se realiza de modo verdadeiramente humano dentro do amor em que o homem e a mulher se entregam totalmente um ao outro até a morte (CIC 2361). Por isso tem o seu lugar no matrimônio, onde o amor é fiel, indissolúvel e aberto à vida (CIC 1643). O mandamento protege a fidelidade dos esposos, a dignidade de cada pessoa e a família que nasce desse amor.",
         },
         { titulo: "A castidade, para todos" },
         {
@@ -195,7 +195,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "O que fere o sexto mandamento" },
         {
           texto:
-            "Ferem este mandamento o adultério, que trai a aliança do casamento (CIC 2380), as relações sexuais fora do matrimônio, a masturbação, a pornografia (CIC 2354), a prostituição e, de forma gravíssima, o abuso e a violência sexual. A Igreja ensina também que o amor dos esposos deve permanecer aberto à vida, e propõe aos casais os métodos naturais para espaçar os nascimentos quando há motivo justo (CIC 2368; 2370).",
+            "Ferem este mandamento o adultério, que trai a aliança do casamento (CIC 2380), as relações sexuais fora do matrimônio, a masturbação, a pornografia, a prostituição e, de forma gravíssima, o abuso e a violência sexual (CIC 2352-2356). A Igreja ensina também que o amor dos esposos deve permanecer aberto à vida, e propõe aos casais os métodos naturais para espaçar os nascimentos quando há motivo justo (CIC 2368; 2370).",
         },
         {
           texto:
@@ -279,7 +279,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "MAT 5:27-30" },
         {
           texto:
-            "Os dois últimos mandamentos olham para dentro. Não falam primeiro de gestos, mas de desejos. Jesus mostra por quê: o adultério começa no olhar que cobiça, muito antes de chegar aos atos. As imagens fortes do olho e da mão não mandam ferir o corpo; querem dizer que vale a pena cortar com decisão aquilo que nos leva a pecar. O mandamento foi dito aos homens do tempo de Moisés, mas vale igualmente para a mulher diante do marido de outra.",
+            "Os dois últimos mandamentos olham para dentro. Não falam primeiro de gestos, mas de desejos. Jesus mostra por quê: o adultério começa no olhar que cobiça, muito antes de chegar aos atos. O mandamento fala da mulher do próximo, mas o que ele proíbe, a concupiscência da carne, vale para todos, homens e mulheres (CIC 2514).",
         },
         { titulo: "O que ele protege" },
         {
@@ -289,7 +289,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "Tentação não é pecado" },
         {
           texto:
-            "Sentir atração, ter um pensamento que passa, ser tentado: nada disso, por si, é pecado. O próprio Jesus foi tentado. O pecado começa quando a pessoa acolhe de propósito o desejo desordenado, alimenta a fantasia e consente (CIC 2847). A luta, portanto, não é contra a natureza, mas pela liberdade do coração. Saber disso tira um peso de quem vive com escrúpulos e, ao mesmo tempo, chama todos à vigilância.",
+            "Sentir atração, ter um pensamento que passa, ser tentado: nada disso, por si, é pecado. O próprio Jesus foi tentado, mas sem pecado (Hb 4,15; CIC 540). O pecado começa quando a pessoa acolhe de propósito o desejo desordenado, alimenta a fantasia e consente (CIC 2847). A luta, portanto, não é contra a natureza, mas pela liberdade do coração. Saber disso tira um peso de quem vive com escrúpulos e, ao mesmo tempo, chama todos à vigilância.",
         },
         { titulo: "O que ele pede hoje" },
         {
@@ -329,7 +329,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "O maior desejo" },
         {
           texto:
-            "No fundo, a cobiça é um desejo mal endereçado. O coração humano foi feito para Deus e só nele descansa. O décimo mandamento não quer apagar os nossos desejos, mas levá-los ao lugar certo: o desejo de ver a Deus, que liberta do apego desmedido às coisas deste mundo (CIC 2548). É isso que Jesus chama de ser rico diante de Deus.",
+            "No fundo, a cobiça é um desejo mal endereçado. O coração humano foi feito para Deus e, como diz Santo Agostinho, vive inquieto enquanto não descansa nele (Confissões, I, 1; CIC 30). O décimo mandamento não quer apagar os nossos desejos, mas levá-los ao lugar certo: o desejo de ver a Deus, que liberta do apego desmedido às coisas deste mundo (CIC 2548). É isso que Jesus chama de ser rico diante de Deus.",
         },
         {
           texto:

@@ -64,3 +64,16 @@ Arquivo: `src/devocao/cursos/primeira-comunhao-pais.ts`. Texto próprio; nenhuma
 - CIC 1389 (recomenda comungar aos domingos e dias de festa, e até todos os dias): conferido no texto oficial.
 - Cân. 777, 3º (formação catequética mais ampla depois da primeira comunhão): conferido no texto oficial.
 - COSTUME: perseverança, coroinhas, infância missionária ("muitas paróquias têm").
+
+## Conferência final (13/11/2026)
+Resolvido pela regra da conferência doutrinal (docs/conferencia-doutrinal.md): o que a Igreja ensina, com número conferido; o que não tem fonte saiu.
+
+- "Jesus não suavizou o que tinha dito": trocado pelo CIC 1336.
+- Lâmpada do sacrário: cân. 940. Genuflexão: Instrução Geral do Missal Romano, 274; saiu "Um pai que se ajoelha ...".
+- Pio X: "Foi no tempo de São Pio X, em 1910, que a Santa Sé pediu ... (decreto Quam singulari)". A faixa "nove ou dez anos" saiu (sem fonte). Saiu também "muitas crianças deixam a missa logo depois da festa" (opinião).
+- Três atos do penitente: CIC 1491. Confissão individual na celebração comunitária: CIC 1482. "Os pais respeitam esse segredo também com o silêncio": mantido. "Nada convence mais ..." virou "O exemplo dos pais ... ajuda a criança a perder o medo".
+- 1Cor 11,29: a paráfrase que suavizava ("recebe sem proveito") virou o versículo da nossa Bíblia.
+- CIC 1396 (Amém): mantido. Reverência antes de comungar: IGMR 160. Comunhão na boca sempre direito e consumir diante do ministro: Redemptionis Sacramentum, 92 (conferidos no vatican.va). A mão: "uma mão sobre a outra, fazendo delas um trono", como ensinava São Cirilo de Jerusalém, sem fixar qual mão (como no curso A missa explicada).
+- "Não é preciso se confessar de novo na véspera": mantido (CIC 1385).
+- Padrinho de primeira comunhão: costume (mantido). Pais que não podem comungar: mantido sem nomear situações.
+- Cân. 11 e o domingo da criança: mantido (letra do cânone). A crisma completa a graça do batismo: CIC 1285.

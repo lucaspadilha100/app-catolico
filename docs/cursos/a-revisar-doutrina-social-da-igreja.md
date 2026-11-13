@@ -43,3 +43,17 @@ Arquivo: `src/devocao/cursos/doutrina-social-da-igreja.ts`. Texto próprio. Base
 - Laudato Si' (2015): "sobre o cuidado da casa comum"; título do Cântico das Criaturas de São Francisco. Os temas citados (tudo está interligado, ecologia integral, clamor da terra e clamor dos pobres, conversão ecológica, coerência entre defesa da natureza e defesa do nascituro) são resumos próprios, sem citação. Conferir.
 - Dia Mundial de Oração pelo Cuidado da Criação, 1º de setembro, instituído por Francisco em 2015: conferir.
 - O resumo final do curso junta os princípios das sete lições.
+
+## Conferência final (13/11/2026)
+Resolvido pela regra da conferência doutrinal (docs/conferencia-doutrinal.md): o que a Igreja ensina, com número conferido; o que não tem fonte saiu.
+
+- Datas das encíclicas: mantidas. Leão XIV: a frase segue o discurso aos cardeais de 10/5/2025 (conferido no vatican.va).
+- "Nem de esquerda nem de direita": fica só com o CIC 2425 e o CIC 1881; "a pessoa vem antes do lucro e antes do Estado" saiu.
+- Direitos da pessoa: Pacem in Terris, 11-30 (conferido).
+- Dignitas Infinita: a lista ficou; saiu "quem defende a vida no ventre também defende a vida na rua, e o contrário". Pena de morte continua fora.
+- Bem comum: saiu a imagem da casa. Solidariedade: Sollicitudo Rei Socialis, 38.
+- Opção preferencial pelos pobres: Sollicitudo Rei Socialis, 42; saiu a menção aos bispos da América Latina. "Não prega ódio entre classes" virou Centesimus Annus, 57 (nunca exclusiva nem discriminatória). Dilexi te: conferida (4/10/2025, primeira exortação de Leão XIV).
+- Jetro: virou comparação ("um princípio parecido com o conselho de Jetro"), não leitura do texto. Quadragesimo Anno: "função supletiva dos poderes públicos" (conferido). Saiu "Reclamar sem fazer nada não é participação".
+- "Não há partido católico": trocado por Gaudium et Spes, 76 e 75 (conferidos). Greve (CIC 2435) continua fora. "Carpinteiro" virou "artesão (Mc 6,3)".
+- Laudato Si': números 48, 49, 120, 211 e 217 conferidos no vatican.va; os gestos diários passaram a ser os do n. 211. "Não é moda nem ideologia" virou "faz parte da vida moral". Dia de oração pela criação (1º de setembro, desde 2015): mantido.
+- Exemplos de fraude contra o bem comum (CIC 1916): mantidos.

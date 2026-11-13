@@ -9,7 +9,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "JHN 6:51-58" },
         {
           texto:
-            "Jesus disse que ele mesmo é o pão vivo descido do céu e que quem come a sua carne tem a vida eterna. Muitos que o ouviam acharam a palavra dura demais e foram embora (Jo 6,60.66). Jesus não suavizou o que tinha dito. A primeira comunhão do seu filho é o dia em que ele vai receber, pela primeira vez, esse pão que é o próprio Jesus. Antes de pensar na festa, vale entender bem o que ele vai receber.",
+            "Jesus disse que ele mesmo é o pão vivo descido do céu e que quem come a sua carne tem a vida eterna. Muitos que o ouviam acharam a palavra dura demais e foram embora (Jo 6,60.66). A Igreja vê nessa cena o primeiro anúncio da Eucaristia, que dividiu os discípulos (CIC 1336). A primeira comunhão do seu filho é o dia em que ele vai receber, pela primeira vez, esse pão que é o próprio Jesus. Antes de pensar na festa, vale entender bem o que ele vai receber.",
         },
         { titulo: "Não é um símbolo" },
         {
@@ -18,12 +18,12 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "Jesus está inteiro em cada hóstia e em cada pedacinho dela. Partir a hóstia não divide Cristo (CIC 1377). E ele continua presente enquanto durarem as espécies do pão e do vinho. Por isso as hóstias consagradas que sobram da missa são guardadas no sacrário, para levar aos doentes e para que os fiéis adorem o Senhor ali presente (CIC 1379). A lâmpada acesa ao lado do sacrário indica essa presença.",
+            "Jesus está inteiro em cada hóstia e em cada pedacinho dela. Partir a hóstia não divide Cristo (CIC 1377). E ele continua presente enquanto durarem as espécies do pão e do vinho. Por isso as hóstias consagradas que sobram da missa são guardadas no sacrário, para levar aos doentes e para que os fiéis adorem o Senhor ali presente (CIC 1379). A lâmpada acesa ao lado do sacrário indica e honra essa presença (cân. 940).",
         },
         { titulo: "Como explicar a uma criança" },
         {
           texto:
-            "Os sentidos não percebem essa presença: só a fé a reconhece, apoiada na palavra de Jesus, que não engana (CIC 1381). A criança entende isso melhor do que parece. Diga a ela com simplicidade: parece pão, mas é Jesus, porque Jesus disse que é. Mostre com gestos o que você crê. Ao entrar na igreja, faça a genuflexão diante do sacrário e ensine a criança a fazer o mesmo. Um pai que se ajoelha com respeito ensina mais do que muitas explicações.",
+            "Os sentidos não percebem essa presença: só a fé a reconhece, apoiada na palavra de Jesus, que não engana (CIC 1381). A criança entende isso melhor do que parece. Diga a ela com simplicidade: parece pão, mas é Jesus, porque Jesus disse que é. Mostre com gestos o que você crê. Ao entrar na igreja, faça a genuflexão diante do sacrário, o gesto de adoração que a Igreja reserva ao Santíssimo (Instrução Geral do Missal Romano, 274), e ensine a criança a fazer o mesmo.",
         },
         {
           texto:
@@ -52,12 +52,12 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "A Igreja chama os pais de primeiros anunciadores da fé para os filhos (CIC 1656). O Catecismo diz que a catequese da família vem antes das outras formas de ensinar a fé, as acompanha e as enriquece (CIC 2226). Na prática, o encontro semanal na paróquia dura pouco tempo. O resto da semana a criança passa em casa. Se em casa ninguém reza nem fala de Deus, a catequese vira uma aula a mais, e muitas crianças deixam a missa logo depois da festa.",
+            "A Igreja chama os pais de primeiros anunciadores da fé para os filhos (CIC 1656). O Catecismo diz que a catequese da família vem antes das outras formas de ensinar a fé, as acompanha e as enriquece (CIC 2226). Na prática, o encontro semanal na paróquia dura pouco tempo. O resto da semana a criança passa em casa.",
         },
         { titulo: "O que é norma e o que é costume" },
         {
           texto:
-            "A norma da Igreja pede que a criança tenha conhecimento suficiente e preparação cuidadosa, de modo que compreenda, conforme a sua capacidade, quem é Jesus e o receba com fé e devoção (cân. 913 §1). O Direito presume que a criança tem uso da razão a partir dos sete anos completos (cân. 97 §2). Foi São Pio X, em 1910, quem pediu que as crianças comungassem a partir dessa idade. A idade de começar a catequese no Brasil, o número de anos, os dias dos encontros e o material usado são decididos pela diocese e pela paróquia, e variam bastante. Em muitas paróquias a primeira comunhão acontece por volta dos nove ou dez anos.",
+            "A norma da Igreja pede que a criança tenha conhecimento suficiente e preparação cuidadosa, de modo que compreenda, conforme a sua capacidade, quem é Jesus e o receba com fé e devoção (cân. 913 §1). O Direito presume que a criança tem uso da razão a partir dos sete anos completos (cân. 97 §2). Foi no tempo de São Pio X, em 1910, que a Santa Sé pediu que as crianças comungassem a partir dessa idade (decreto Quam singulari). A idade de começar a catequese no Brasil, o número de anos, os dias dos encontros e o material usado são decididos pela diocese e pela paróquia, e variam bastante.",
         },
         {
           texto:
@@ -86,7 +86,7 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "A confissão tem três atos de quem se confessa. O primeiro é o arrependimento: a dor de ter ofendido a Deus, com o propósito de não pecar mais (CIC 1451). O segundo é contar os pecados ao padre. O terceiro é cumprir a penitência que ele indicar. Depois o padre dá a absolvição, e Deus perdoa os pecados. Mesmo quando a paróquia reúne as crianças numa celebração, cada uma se confessa sozinha com o padre.",
+            "A confissão tem três atos de quem se confessa. O primeiro é o arrependimento: a dor de ter ofendido a Deus, com o propósito de não pecar mais (CIC 1451). O segundo é contar os pecados ao padre. O terceiro é cumprir a penitência que ele indicar. Depois o padre dá a absolvição, e Deus perdoa os pecados (CIC 1491). Mesmo quando a paróquia reúne as crianças numa celebração, cada uma se confessa sozinha com o padre e recebe a absolvição individual (CIC 1482).",
         },
         { titulo: "Como ajudar sem atrapalhar" },
         {
@@ -95,7 +95,7 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "Se a criança tiver medo, conte como foi a sua primeira confissão ou a sua última. Melhor ainda: confesse-se você também nesse tempo de preparação. Nada convence mais uma criança do que ver o pai ou a mãe na fila do confessionário. Ensine a ela uma oração de arrependimento, como o ato de contrição, e deixe que ela a reze com as próprias palavras, se preferir. No dia, depois da confissão, celebre com ela a alegria do perdão.",
+            "Se a criança tiver medo, conte como foi a sua primeira confissão ou a sua última. Melhor ainda: confesse-se você também nesse tempo de preparação. O exemplo dos pais na fila do confessionário ajuda a criança a perder o medo. Ensine a ela uma oração de arrependimento, como o ato de contrição, e deixe que ela a reze com as próprias palavras, se preferir. No dia, depois da confissão, celebre com ela a alegria do perdão.",
         },
         {
           pratica:
@@ -112,7 +112,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "1CO 11:23-29" },
         {
           texto:
-            "São Paulo lembra aos cristãos de Corinto que o pão da Eucaristia é o corpo do Senhor e pede que cada um se examine antes de comer desse pão. Quem comunga sem reconhecer o corpo do Senhor, recebe sem proveito e se torna culpado. Preparar-se para a comunhão é, antes de tudo, saber quem se vai receber. Por isso a Igreja pede algumas disposições, que valem para a criança e para os pais.",
+            "São Paulo lembra aos cristãos de Corinto que o pão da Eucaristia é o corpo do Senhor e pede que cada um se examine antes de comer desse pão. Quem come e bebe indignamente, por não discernir o corpo do Senhor, come e bebe a própria condenação (1Cor 11,29). Preparar-se para a comunhão é, antes de tudo, saber quem se vai receber. Por isso a Igreja pede algumas disposições, que valem para a criança e para os pais.",
         },
         { titulo: "O estado de graça" },
         {
@@ -127,7 +127,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "O modo de comungar" },
         {
           texto:
-            "Na fila da comunhão, faz-se um gesto de reverência antes de receber, como uma inclinação da cabeça. O ministro mostra a hóstia e diz que é o Corpo de Cristo, e quem comunga responde Amém. Esse Amém é uma profissão de fé (CIC 1396). No Brasil, pode-se receber a comunhão na boca ou na mão, e receber na boca é sempre um direito do fiel. Quem recebe na mão põe a mão esquerda aberta sobre a direita, como um pequeno trono, e leva a hóstia à boca ali mesmo, diante do ministro, antes de voltar ao lugar.",
+            "Na fila da comunhão, faz-se um gesto de reverência antes de receber, como uma inclinação da cabeça (Instrução Geral do Missal Romano, 160). O ministro mostra a hóstia e diz que é o Corpo de Cristo, e quem comunga responde Amém. Esse Amém é uma profissão de fé (CIC 1396). No Brasil, pode-se receber a comunhão na boca ou na mão, e receber na boca é sempre um direito do fiel. Quem recebe na mão põe uma mão sobre a outra, fazendo delas um trono para receber o Rei, como ensinava São Cirilo de Jerusalém, e leva a hóstia à boca ali mesmo, diante do ministro, antes de voltar ao lugar (Redemptionis Sacramentum, 92).",
         },
         {
           texto:
@@ -199,7 +199,7 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "Depois da primeira comunhão, a catequese continua. O pároco deve cuidar de que as crianças recebam uma formação mais ampla e mais profunda depois de feita a primeira comunhão (cân. 777, 3º). Muitas paróquias têm a perseverança, a catequese da crisma, grupos de coroinhas ou de infância missionária. Incentive o seu filho a continuar. A crisma vai completar a graça do batismo, e o caminho até ela começa agora.",
+            "Depois da primeira comunhão, a catequese continua. O pároco deve cuidar de que as crianças recebam uma formação mais ampla e mais profunda depois de feita a primeira comunhão (cân. 777, 3º). Muitas paróquias têm a perseverança, a catequese da crisma, grupos de coroinhas ou de infância missionária. Incentive o seu filho a continuar. A crisma vai completar a graça do batismo (CIC 1285), e o caminho até ela começa agora.",
         },
         {
           pratica:

@@ -19,7 +19,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "De 1891 aos nossos dias" },
         {
           texto:
-            "A doutrina social, como corpo organizado de ensino, ganhou forma no século XIX, quando o Evangelho se encontrou com a sociedade industrial: fábricas, cidades inchadas, jornadas longas e salários de fome (CIC 2421). Em 1891, o Papa Leão XIII publicou a encíclica Rerum Novarum, sobre a condição dos operários. Defendeu o salário justo, o descanso, o direito de os trabalhadores se associarem e também o direito à propriedade. Quarenta anos depois, em 1931, Pio XI escreveu a Quadragesimo Anno. Vieram depois, entre outros, João XXIII (Mater et Magistra, 1961, e Pacem in Terris, 1963), o Concílio Vaticano II (Gaudium et Spes, 1965), Paulo VI (Populorum Progressio, 1967), São João Paulo II (Laborem Exercens, 1981, e Centesimus Annus, 1991), Bento XVI (Caritas in Veritate, 2009) e Francisco (Laudato Si', 2015, e Fratelli Tutti, 2020). O Papa Leão XIV, eleito em 2025, disse que escolheu o nome pensando em Leão XIII e nos desafios novos do trabalho humano.",
+            "A doutrina social, como corpo organizado de ensino, ganhou forma no século XIX, quando o Evangelho se encontrou com a sociedade industrial: fábricas, cidades inchadas, jornadas longas e salários de fome (CIC 2421). Em 1891, o Papa Leão XIII publicou a encíclica Rerum Novarum, sobre a condição dos operários. Defendeu o salário justo, o descanso, o direito de os trabalhadores se associarem e também o direito à propriedade. Quarenta anos depois, em 1931, Pio XI escreveu a Quadragesimo Anno. Vieram depois, entre outros, João XXIII (Mater et Magistra, 1961, e Pacem in Terris, 1963), o Concílio Vaticano II (Gaudium et Spes, 1965), Paulo VI (Populorum Progressio, 1967), São João Paulo II (Laborem Exercens, 1981, e Centesimus Annus, 1991), Bento XVI (Caritas in Veritate, 2009) e Francisco (Laudato Si', 2015, e Fratelli Tutti, 2020). O Papa Leão XIV, eleito em 2025, explicou aos cardeais que escolheu o nome pensando em Leão XIII, que tratou da questão social na primeira revolução industrial, porque hoje uma nova revolução industrial traz novos desafios para a dignidade humana, a justiça e o trabalho (discurso de 10 de maio de 2025).",
         },
         {
           texto:
@@ -28,7 +28,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "Nem de esquerda nem de direita" },
         {
           texto:
-            "A doutrina social não cabe em nenhum programa partidário. A Igreja rejeitou as ideologias totalitárias e ateias, como o comunismo, e rejeitou também o individualismo e a ideia de que o mercado deve mandar sozinho, acima do trabalho humano (CIC 2425). Ela não propõe um sistema econômico próprio. Propõe critérios que valem para qualquer sistema: a pessoa vem antes do lucro e antes do Estado. Por isso os pastores não entram diretamente na disputa política; essa tarefa é dos leigos, que agem com liberdade e responsabilidade (CIC 2442). E nenhum fiel deve apresentar a sua opinião política, nas questões em que se pode pensar diferente, como se fosse doutrina da Igreja (cân. 227).",
+            "A doutrina social não cabe em nenhum programa partidário. A Igreja rejeitou as ideologias totalitárias e ateias, como o comunismo, e rejeitou também o individualismo e a ideia de que o mercado deve mandar sozinho, acima do trabalho humano (CIC 2425). Ela não propõe um sistema econômico próprio. Propõe critérios que valem para qualquer sistema: uma justa hierarquia dos valores, tendo em vista o bem comum (CIC 2425), e a pessoa como princípio, sujeito e fim de toda a vida social (CIC 1881). Por isso os pastores não entram diretamente na disputa política; essa tarefa é dos leigos, que agem com liberdade e responsabilidade (CIC 2442). E nenhum fiel deve apresentar a sua opinião política, nas questões em que se pode pensar diferente, como se fosse doutrina da Igreja (cân. 227).",
         },
         {
           pratica:
@@ -52,7 +52,7 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "Os direitos da pessoa nascem dessa dignidade. Eles vêm antes da sociedade e do Estado, que não os inventam: apenas os reconhecem e protegem (CIC 1930). O primeiro deles é o direito à vida, desde a concepção até a morte natural (CIC 2273). Daí vêm os outros: o direito à liberdade de consciência e de religião, à família, ao trabalho, à moradia, à saúde e à educação. Junto com os direitos vêm os deveres, porque a mesma dignidade que eu reclamo para mim devo reconhecer no outro.",
+            "Os direitos da pessoa nascem dessa dignidade. Eles vêm antes da sociedade e do Estado, que não os inventam: apenas os reconhecem e protegem (CIC 1930). O primeiro deles é o direito à vida, desde a concepção até a morte natural (CIC 2273). Daí vêm os outros, como os lembrou São João XXIII: o direito ao alimento, à moradia, à saúde, à educação, à liberdade de religião, à família e ao trabalho. E a cada direito corresponde um dever, porque a mesma dignidade que eu reclamo para mim devo reconhecer no outro (Pacem in Terris, 11-30).",
         },
         { titulo: "A pessoa nunca é um meio" },
         {
@@ -61,7 +61,7 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "Em 2024, o Dicastério para a Doutrina da Fé publicou a declaração Dignitas Infinita, que recorda as muitas formas de ferir a dignidade humana hoje: a pobreza extrema, a guerra, o tráfico de pessoas, o abuso, o aborto, a eutanásia, o descarte dos idosos e das pessoas com deficiência, a violência contra a mulher. Não se escolhe uma dessas causas e se esquece das outras. A dignidade é uma só, e quem defende a vida no ventre também defende a vida na rua, e o contrário.",
+            "Em 2024, o Dicastério para a Doutrina da Fé publicou a declaração Dignitas Infinita, que recorda as muitas formas de ferir a dignidade humana hoje: a pobreza extrema, a guerra, o tráfico de pessoas, o abuso, o aborto, a eutanásia, o descarte dos idosos e das pessoas com deficiência, a violência contra a mulher. A dignidade é uma só e vale em todas essas situações.",
         },
         {
           pratica:
@@ -81,7 +81,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "O que é o bem comum" },
         {
           texto:
-            "A Igreja chama de bem comum o conjunto das condições da vida social que permitem às pessoas e aos grupos alcançar mais plenamente o seu próprio bem (CIC 1906). Não é a soma dos interesses particulares, nem a vontade da maioria. É como a casa onde todos moram: se ela cai, cai para todos. O bem comum tem três elementos: o respeito à pessoa e aos seus direitos (CIC 1907), o desenvolvimento e o bem-estar da sociedade, com acesso ao que é preciso para uma vida humana, como alimento, saúde, trabalho, educação e família (CIC 1908), e a paz, isto é, a segurança de uma ordem justa (CIC 1909).",
+            "A Igreja chama de bem comum o conjunto das condições da vida social que permitem às pessoas e aos grupos alcançar mais plenamente o seu próprio bem (CIC 1906). O bem comum tem três elementos: o respeito à pessoa e aos seus direitos (CIC 1907), o desenvolvimento e o bem-estar da sociedade, com acesso ao que é preciso para uma vida humana, como alimento, saúde, trabalho, educação e família (CIC 1908), e a paz, isto é, a segurança de uma ordem justa (CIC 1909).",
         },
         {
           texto:
@@ -90,7 +90,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "A solidariedade" },
         {
           texto:
-            "O caminho para o bem comum chama-se solidariedade. A Igreja também a chama de amizade ou de caridade social, e ela nasce da fraternidade humana e cristã (CIC 1939). Ela aparece primeiro na repartição dos bens e no pagamento justo do trabalho (CIC 1940). Vale entre os pobres, entre ricos e pobres, entre trabalhadores, entre patrões e empregados, entre as nações (CIC 1941). Solidariedade não é um sentimento vago de pena: é a decisão firme de se comprometer com o bem de todos, porque todos somos responsáveis por todos.",
+            "O caminho para o bem comum chama-se solidariedade. A Igreja também a chama de amizade ou de caridade social, e ela nasce da fraternidade humana e cristã (CIC 1939). Ela aparece primeiro na repartição dos bens e no pagamento justo do trabalho (CIC 1940). Vale entre os pobres, entre ricos e pobres, entre trabalhadores, entre patrões e empregados, entre as nações (CIC 1941). São João Paulo II ensinou que a solidariedade não é um sentimento vago de compaixão, mas a determinação firme e perseverante de se empenhar pelo bem comum, porque todos somos responsáveis por todos (Sollicitudo Rei Socialis, 38).",
         },
         {
           texto:
@@ -123,11 +123,11 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "A opção preferencial pelos pobres" },
         {
           texto:
-            "Jesus se fez pobre e se identificou com os menores dos seus irmãos (Mt 25,40). Por isso os que sofrem a miséria, a opressão, a doença e o abandono são objeto de um amor preferencial da Igreja, que nunca deixou de socorrê-los (CIC 2448). A expressão opção preferencial pelos pobres ganhou força entre os bispos da América Latina e foi assumida por São João Paulo II no ensino de toda a Igreja. Em 2025, o Papa Leão XIV dedicou ao amor aos pobres a sua primeira exortação apostólica, Dilexi te.",
+            "Jesus se fez pobre e se identificou com os menores dos seus irmãos (Mt 25,40). Por isso os que sofrem a miséria, a opressão, a doença e o abandono são objeto de um amor preferencial da Igreja, que nunca deixou de socorrê-los (CIC 2448). São João Paulo II chamou isso de opção ou amor preferencial pelos pobres, uma forma especial de primado na prática da caridade, testemunhada por toda a tradição da Igreja (Sollicitudo Rei Socialis, 42). Em 2025, o Papa Leão XIV dedicou ao amor aos pobres a sua primeira exortação apostólica, Dilexi te.",
         },
         {
           texto:
-            "Preferencial não quer dizer exclusivo. A Igreja não exclui o rico nem prega ódio entre classes: ela quer a conversão de todos e lembra ao rico que os seus bens são também para os outros. E a pobreza não é só material. Há também a pobreza de quem está sozinho, de quem não conhece a Deus, de quem não teve estudo (CIC 2444). O Código de Direito Canônico lembra que os fiéis têm o dever de promover a justiça social e de ajudar os pobres com os próprios recursos (cân. 222 § 2).",
+            "Essa opção nunca é exclusiva nem discriminatória em relação aos outros (Centesimus Annus, 57): a Igreja quer a conversão de todos e lembra a quem possui que os seus bens são também para os outros (CIC 2404). E a pobreza não é só material. Há também a pobreza de quem está sozinho, de quem não conhece a Deus, de quem não teve estudo (CIC 2444). O Código de Direito Canônico lembra que os fiéis têm o dever de promover a justiça social e de ajudar os pobres com os próprios recursos (cân. 222 § 2).",
         },
         {
           pratica:
@@ -142,12 +142,12 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "EXO 18:13-24" },
         {
           texto:
-            "Moisés queria resolver sozinho todas as questões do povo, da manhã até a noite. Jetro, o seu sogro, viu que aquilo cansava a ele e ao povo. Aconselhou-o a escolher homens capazes e honestos para cuidar dos casos menores, deixando para ele só os mais graves. Essa página antiga ilustra bem um princípio da doutrina social: cada um deve poder fazer o que é capaz de fazer, e quem está acima ajuda sem tomar o lugar.",
+            "Moisés queria resolver sozinho todas as questões do povo, da manhã até a noite. Jetro, o seu sogro, viu que aquilo cansava a ele e ao povo. Aconselhou-o a escolher homens capazes e honestos para cuidar dos casos menores, deixando para ele só os mais graves. A doutrina social ensina um princípio parecido com o conselho de Jetro: cada um deve poder fazer o que é capaz de fazer, e quem está acima ajuda sem tomar o lugar.",
         },
         { titulo: "O princípio de subsidiariedade" },
         {
           texto:
-            "A palavra vem do latim subsidium, que quer dizer ajuda. Pio XI formulou o princípio em 1931, na Quadragesimo Anno. Uma sociedade maior não deve se meter na vida de uma comunidade menor nem tirar dela o que ela sabe e pode fazer. Deve apoiá-la quando precisar e ajudá-la a se coordenar com as outras, em vista do bem comum (CIC 1883). O próprio Deus age assim: não guarda para si todos os poderes, mas confia a cada criatura o que ela é capaz de fazer (CIC 1884).",
+            "A palavra vem do latim subsidium, que quer dizer ajuda. Pio XI formulou o princípio em 1931, na Quadragesimo Anno, ao falar da função supletiva dos poderes públicos. Uma sociedade maior não deve se meter na vida de uma comunidade menor nem tirar dela o que ela sabe e pode fazer. Deve apoiá-la quando precisar e ajudá-la a se coordenar com as outras, em vista do bem comum (CIC 1883). O próprio Deus age assim: não guarda para si todos os poderes, mas confia a cada criatura o que ela é capaz de fazer (CIC 1884).",
         },
         {
           texto:
@@ -160,7 +160,7 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "No Brasil há muitos caminhos de participação: a associação de moradores, o conselho da escola, a cooperativa, o sindicato, os conselhos de saúde e de assistência do município, as pastorais e os conselhos da paróquia. Votar com consciência é um dever moral (CIC 2240), mas a participação não termina no dia da eleição. Quem acompanha, pergunta, cobra com respeito e ajuda está construindo o bem comum. Reclamar sem fazer nada não é participação.",
+            "No Brasil há muitos caminhos de participação: a associação de moradores, o conselho da escola, a cooperativa, o sindicato, os conselhos de saúde e de assistência do município, as pastorais e os conselhos da paróquia. Votar com consciência é um dever moral (CIC 2240), mas a participação não termina no dia da eleição. Quem acompanha, pergunta, cobra com respeito e ajuda está construindo o bem comum.",
         },
         {
           pratica:
@@ -179,7 +179,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "O trabalho é para o homem" },
         {
           texto:
-            "Ao trabalhar, a pessoa continua a obra da criação, honra os dons que recebeu e pode unir o seu esforço ao de Jesus, o carpinteiro de Nazaré (CIC 2427). O trabalho é um dever, mas o seu valor maior vem de quem o faz: o trabalho é para o homem, e não o homem para o trabalho (CIC 2428). Por isso o salário justo é fruto legítimo do trabalho, e negá-lo ou retê-lo pode ser injustiça grave. Ele deve permitir ao trabalhador e à sua família uma vida digna, e o simples acordo entre as partes não basta para torná-lo justo (CIC 2434).",
+            "Ao trabalhar, a pessoa continua a obra da criação, honra os dons que recebeu e pode unir o seu esforço ao de Jesus, o artesão de Nazaré (Mc 6,3; CIC 2427). O trabalho é um dever, mas o seu valor maior vem de quem o faz: o trabalho é para o homem, e não o homem para o trabalho (CIC 2428). Por isso o salário justo é fruto legítimo do trabalho, e negá-lo ou retê-lo pode ser injustiça grave. Ele deve permitir ao trabalhador e à sua família uma vida digna, e o simples acordo entre as partes não basta para torná-lo justo (CIC 2434).",
         },
         {
           texto:
@@ -188,12 +188,12 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "A família, célula da sociedade" },
         {
           texto:
-            "A família é a célula originária da vida social: nela se aprende a amar, a respeitar, a honrar a Deus e a usar bem a liberdade (CIC 2207). Por isso a sociedade e o Estado têm o dever de apoiá-la, com moradia, trabalho, saúde e educação, sem tomar o lugar dos pais (CIC 2209). A comunidade política deve garantir às famílias a liberdade de ter e educar os filhos segundo as suas convicções morais e religiosas, e proteger a estabilidade do matrimônio (CIC 2211). Uma sociedade que abandona a família enfraquece a si mesma.",
+            "A família é a célula originária da vida social: nela se aprende a amar, a respeitar, a honrar a Deus e a usar bem a liberdade (CIC 2207). Por isso a sociedade e o Estado têm o dever de apoiá-la, com moradia, trabalho, saúde e educação, sem tomar o lugar dos pais (CIC 2209). A comunidade política deve garantir às famílias a liberdade de ter e educar os filhos segundo as suas convicções morais e religiosas, e proteger a estabilidade do matrimônio (CIC 2211).",
         },
         { titulo: "A política como serviço" },
         {
           texto:
-            "Toda comunidade precisa de autoridade para buscar o bem comum (CIC 1898), e quem a exerce deve fazê-lo como serviço (CIC 2235). O cidadão, por sua vez, colabora com o bem da sociedade, paga os impostos, vota e defende o país (CIC 2240). Mas não deve obedecer a uma lei que contrarie a ordem moral, os direitos fundamentais das pessoas ou o Evangelho (CIC 2242). Os leigos são chamados a levar o espírito do Evangelho para dentro da vida social, política e econômica (CIC 899). Não há partido católico: o católico vota e participa guiado pela consciência formada na doutrina da Igreja, e respeita o irmão que, em questões abertas, faz uma escolha diferente da sua.",
+            "Toda comunidade precisa de autoridade para buscar o bem comum (CIC 1898), e quem a exerce deve fazê-lo como serviço (CIC 2235). O cidadão, por sua vez, colabora com o bem da sociedade, paga os impostos, vota e defende o país (CIC 2240). Mas não deve obedecer a uma lei que contrarie a ordem moral, os direitos fundamentais das pessoas ou o Evangelho (CIC 2242). Os leigos são chamados a levar o espírito do Evangelho para dentro da vida social, política e econômica (CIC 899). A Igreja não se confunde com a comunidade política nem está ligada a nenhum sistema político (Gaudium et Spes, 76). O católico vota e participa guiado pela consciência formada na doutrina da Igreja, e reconhece as opiniões legítimas de quem, nas questões da ordem temporal, pensa diferente (Gaudium et Spes, 75).",
         },
         {
           pratica:
@@ -213,16 +213,16 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "Administradores, não donos" },
         {
           texto:
-            "Deus pediu ao homem e à mulher que dominassem a terra, mas como administradores dele, e não de modo arbitrário e destruidor (CIC 373). O domínio que Deus nos deu sobre as criaturas não é absoluto: deve levar em conta a vida do próximo, inclusive das gerações que ainda vão nascer (CIC 2415). Os animais são criaturas de Deus e merecem respeito; é contrário à dignidade humana fazê-los sofrer sem necessidade (CIC 2416, CIC 2418). Cuidar da criação não é moda nem ideologia: o Catecismo trata disso dentro do sétimo mandamento, o que proíbe roubar.",
+            "Deus pediu ao homem e à mulher que dominassem a terra, mas como administradores dele, e não de modo arbitrário e destruidor (CIC 373). O domínio que Deus nos deu sobre as criaturas não é absoluto: deve levar em conta a vida do próximo, inclusive das gerações que ainda vão nascer (CIC 2415). Os animais são criaturas de Deus e merecem respeito; é contrário à dignidade humana fazê-los sofrer sem necessidade (CIC 2416, CIC 2418). Cuidar da criação faz parte da vida moral: o Catecismo trata disso dentro do sétimo mandamento, o que proíbe roubar.",
         },
         { titulo: "Tudo está ligado" },
         {
           texto:
-            "A Laudato Si' insiste que tudo está interligado. A destruição da natureza atinge primeiro os pobres: quem mora na beira do rio poluído, na encosta que desaba, no lugar onde falta água. Por isso o Papa fala de uma ecologia integral, que escuta ao mesmo tempo o clamor da terra e o clamor dos pobres. E essa ecologia inclui o ser humano. A mesma encíclica lembra que não é coerente defender a natureza e não defender a vida humana, inclusive a do nascituro. Cuidar da casa comum é também cuidar de quem mora nela.",
+            "A Laudato Si' insiste que tudo está interligado. A degradação do ambiente e da sociedade atinge de modo especial os mais frágeis (Laudato Si', 48). Por isso o Papa fala de uma ecologia integral, que escuta ao mesmo tempo o clamor da terra e o clamor dos pobres (Laudato Si', 49). E essa ecologia inclui o ser humano: a mesma encíclica lembra que não é compatível defender a natureza e justificar o aborto (Laudato Si', 120). Cuidar da casa comum é também cuidar de quem mora nela.",
         },
         {
           texto:
-            "A encíclica pede uma conversão ecológica: deixar que o encontro com Cristo mude também a relação com o mundo à nossa volta. Ela começa em gestos pequenos e diários: não desperdiçar comida, água e energia, separar o lixo, consertar em vez de jogar fora, comprar o que se precisa e não o que a propaganda manda. Passa também pela gratidão: agradecer a Deus antes das refeições e contemplar a beleza da criação. Desde 2015, a Igreja celebra no dia 1º de setembro o Dia Mundial de Oração pelo Cuidado da Criação.",
+            "A encíclica pede uma conversão ecológica: deixar que o encontro com Cristo mude também a relação com o mundo à nossa volta (Laudato Si', 217). Ela começa em gestos pequenos e diários: economizar água, separar o lixo, cozinhar só o que se vai comer, apagar as luzes desnecessárias, plantar árvores, tratar com cuidado os outros seres vivos (Laudato Si', 211). Passa também pela gratidão: agradecer a Deus antes das refeições e contemplar a beleza da criação. Desde 2015, a Igreja celebra no dia 1º de setembro o Dia Mundial de Oração pelo Cuidado da Criação.",
         },
         {
           texto:

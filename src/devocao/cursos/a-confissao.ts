@@ -31,7 +31,7 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "Esse sacramento tem vários nomes, e cada um mostra uma face dele: conversão, penitência, confissão, perdão e reconciliação (CIC 1423-1424). A forma de celebrá-lo mudou muito ao longo dos séculos. Nos primeiros tempos, quem cometia pecados muito graves fazia penitência pública, às vezes por anos, e em certos lugares só podia ser reconciliado uma vez na vida. Foram monges missionários da Irlanda que espalharam a confissão particular, entre o penitente e o padre, que se pode repetir quantas vezes for preciso (CIC 1447). O que você encontra hoje no confessionário é fruto dessa misericórdia que a Igreja foi aprendendo a oferecer.",
+            "Esse sacramento tem vários nomes, e cada um mostra uma face dele: conversão, penitência, confissão, perdão e reconciliação (CIC 1423-1424). A forma de celebrá-lo mudou muito ao longo dos séculos. Nos primeiros tempos, quem cometia pecados muito graves fazia penitência pública, às vezes por anos, e em certos lugares só podia ser reconciliado uma vez na vida. No século VII, missionários irlandeses, inspirados pela tradição dos mosteiros do Oriente, levaram para a Europa a confissão particular, entre o penitente e o padre, que se pode repetir quantas vezes for preciso (CIC 1447). O que você encontra hoje no confessionário é fruto dessa misericórdia que a Igreja foi aprendendo a oferecer.",
         },
         {
           pratica:
@@ -55,7 +55,7 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "A vida corrida nos afasta de nós mesmos, e por isso é preciso parar para ouvir a consciência (CIC 1779). Ela também precisa ser formada, a vida inteira (CIC 1783-1784). Quem nunca aprendeu direito a fé pode carregar culpas que não são pecado e, ao mesmo tempo, não perceber pecados de verdade. A Palavra de Deus é a luz dessa formação, junto com a oração, os conselhos de pessoas sábias e o ensino da Igreja (CIC 1785). O Catecismo lembra que uma boa formação cura do medo e da culpa doentia e dá paz ao coração (CIC 1784).",
+            "A vida corrida nos afasta de nós mesmos, e por isso é preciso parar para ouvir a consciência (CIC 1779). Ela também precisa ser formada, a vida inteira (CIC 1783-1784). Quem nunca aprendeu direito a fé pode carregar culpas que não são pecado e, ao mesmo tempo, não perceber pecados de verdade. A Palavra de Deus é a luz dessa formação, junto com a oração, os conselhos de pessoas sábias e o ensino da Igreja (CIC 1785). O Catecismo lembra que uma boa formação preserva ou cura do medo e do ressentimento que a culpa deixa, e dá paz ao coração (CIC 1784).",
         },
         { titulo: "Como examinar-se" },
         {
@@ -64,7 +64,7 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "Dois cuidados ajudam quem tem medo. O primeiro: tentação não é pecado. Sentir raiva, ter um pensamento ruim ou um desejo que passa pela cabeça não é o mesmo que consentir. O segundo: há pessoas que vivem com escrúpulo, achando pecado em tudo e nunca tendo certeza de ter sido perdoadas. Para elas, o conselho tradicional dos mestres espirituais é escolher um confessor fixo e seguir o que ele disser, mesmo quando a angústia insistir. O exame bem feito deixa a pessoa mais serena, não mais aflita.",
+            "Dois cuidados ajudam quem tem medo. O primeiro: tentação não é pecado. Sentir raiva, ter um pensamento ruim ou um desejo que passa pela cabeça não é o mesmo que consentir (CIC 2847). O segundo: há pessoas que vivem com escrúpulo, achando pecado em tudo e nunca tendo certeza de ter sido perdoadas. Para elas, o conselho tradicional dos mestres espirituais é escolher um confessor fixo e seguir o que ele disser, mesmo quando a angústia insistir. O exame bem feito deixa a pessoa mais serena, não mais aflita.",
         },
         {
           texto:
@@ -98,7 +98,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "Você tem escolhas" },
         {
           texto:
-            "O lugar próprio da confissão é a igreja ou a capela, e a Igreja manda que sempre haja, em lugar visível, confessionários com uma grade fixa entre o penitente e o padre, para quem prefira não ser visto (cân. 964). Você também pode se confessar frente a frente, se preferir. E tem o direito de escolher o confessor: pode procurar qualquer padre autorizado, até de outra paróquia (cân. 991). Se a vergonha de falar com o padre que você conhece pesa muito, procure outro. O importante é ir.",
+            "O lugar próprio da confissão é a igreja ou a capela, e a Igreja manda que sempre haja, em lugar visível, confessionários com uma grade fixa entre o penitente e o padre, para quem prefira não ser visto (cân. 964). E tem o direito de escolher o confessor: pode procurar qualquer padre autorizado, até de outra paróquia (cân. 991). Se a vergonha de falar com o padre que você conhece pesa muito, procure outro. O importante é ir.",
         },
         {
           texto:
@@ -157,7 +157,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "Nenhum pecado é maior que a misericórdia" },
         {
           texto:
-            "Não existe falta, por mais grave que seja, que a Igreja não possa perdoar, nem pessoa a quem se deva negar a esperança do perdão, desde que se arrependa de verdade (CIC 982). A misericórdia de Deus não tem limite; só fica de fora quem a recusa (CIC 1864). Por isso o pensamento de que o meu caso não tem jeito não vem de Deus. Perder a esperança de ser perdoado é, na verdade, uma tentação contra a esperança (CIC 2091). Há alguns poucos pecados muito graves que a Igreja pune com excomunhão; mesmo neles a porta continua aberta, e o padre sabe qual caminho seguir (CIC 1463).",
+            "Não existe falta, por mais grave que seja, que a Igreja não possa perdoar, nem pessoa a quem se deva negar a esperança do perdão, desde que se arrependa de verdade (CIC 982). A misericórdia de Deus não tem limite; só fica de fora quem a recusa (CIC 1864). Por isso o pensamento de que o meu caso não tem jeito não vem de Deus. Deixar de esperar de Deus o perdão é o desespero, que a Igreja aponta como pecado contra a esperança, porque se opõe à bondade e à misericórdia de Deus (CIC 2091). Há alguns poucos pecados muito graves que a Igreja pune com excomunhão; mesmo neles a porta continua aberta, e o padre sabe qual caminho seguir (CIC 1463).",
         },
         {
           texto:

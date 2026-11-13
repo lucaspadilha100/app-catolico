@@ -13,16 +13,16 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "O discurso tem dois momentos. No primeiro, comer o pão da vida quer dizer crer em Jesus: quem vem a ele não terá fome (Jo 6,35-47). Depois a linguagem muda. Jesus diz que o pão que vai dar é a sua carne, para a vida do mundo (Jo 6,51). Já não fala só de crer, mas de comer a sua carne e beber o seu sangue. Os ouvintes entendem as palavras ao pé da letra e discutem como isso seria possível (Jo 6,52).",
+            "O discurso tem dois momentos. No primeiro, comer o pão da vida quer dizer crer em Jesus: quem vem a ele não terá fome (Jo 6,35-47). Depois a linguagem muda. Jesus diz que o pão que vai dar é a sua carne, para a vida do mundo (Jo 6,51). Já não fala só de crer, mas de comer a sua carne e beber o seu sangue. Os ouvintes discutem entre si como ele poderia dar a sua carne a comer (Jo 6,52).",
         },
         {
           texto:
-            "Jesus não diminui o que disse. Ao contrário, repete com mais força, começando com a fórmula solene que usava para as verdades mais importantes (Jo 6,53). Afirma que a sua carne é verdadeira comida e o seu sangue, verdadeira bebida (Jo 6,55). A partir do versículo 54, o texto grego do Evangelho usa um verbo de comer bem concreto, que lembra o mastigar. Não é a maneira de falar de quem propõe apenas uma imagem.",
+            "Jesus não diminui o que disse. Repete, começando com a fórmula solene: em verdade, em verdade vos digo, se não comerdes a carne do Filho do Homem e não beberdes o seu sangue, não tereis vida em vós (Jo 6,53). E afirma que a sua carne é verdadeiramente comida e o seu sangue, verdadeiramente bebida (Jo 6,55).",
         },
         { titulo: "Também vós quereis ir embora?" },
         {
           texto:
-            "Muitos discípulos acharam a palavra dura e foram embora (Jo 6,60.66). Jesus não os chamou de volta para explicar que era só um modo de dizer. Voltou-se para os Doze e perguntou se também eles queriam partir. Pedro respondeu que não havia para onde ir, porque só Jesus tem palavras de vida eterna (Jo 6,68). A Igreja vê nessa cena o primeiro anúncio da Eucaristia, que dividiu os discípulos, e ouve a pergunta de Jesus ecoar em cada geração (CIC 1336). Quando Jesus diz que a carne de nada serve (Jo 6,63), não volta atrás: fala do modo apenas humano de entender, que não alcança o mistério sem a fé que vem do Pai (Jo 6,65).",
+            "Muitos discípulos acharam a palavra dura e foram embora (Jo 6,60.66). Jesus voltou-se para os Doze e perguntou se também eles queriam partir. Pedro respondeu que não havia para onde ir, porque só Jesus tem palavras de vida eterna (Jo 6,68). A Igreja vê nessa cena o primeiro anúncio da Eucaristia, que dividiu os discípulos, e ouve a pergunta de Jesus ecoar em cada geração (CIC 1336).",
         },
         {
           texto:
@@ -41,7 +41,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "MAT 26:26-29" },
         {
           texto:
-            "Na última ceia, Jesus não disse que o pão representava o seu corpo. Disse que aquilo era o seu corpo, e que o cálice era o seu sangue. Mateus, Marcos, Lucas e São Paulo transmitem a mesma narrativa (CIC 1338). Os primeiros cristãos entenderam essas palavras como foram ditas. São Paulo chega a dizer que quem come o pão indignamente se torna réu do corpo e do sangue do Senhor (1Cor 11,27), o que não teria sentido diante de um simples símbolo.",
+            "Na última ceia, Jesus tomou o pão e disse: este é o meu corpo. Depois tomou o cálice e disse: este é o meu sangue da nova aliança (Mt 26,26-28). Mateus, Marcos, Lucas e São Paulo transmitem a mesma narrativa (CIC 1338). E São Paulo ensina que quem come o pão ou bebe o cálice do Senhor indignamente se torna réu do corpo e do sangue do Senhor (1Cor 11,27).",
         },
         {
           texto:
@@ -50,11 +50,11 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "Uma palavra difícil, uma ideia simples" },
         {
           texto:
-            "Para explicar o que acontece no altar, a Igreja distingue duas coisas: o que uma coisa é e o modo como ela aparece. Pense numa pessoa que você conhece há muitos anos. O cabelo ficou branco, o rosto mudou, a voz mudou, e ela continua a ser a mesma pessoa. Mudou a aparência e não mudou o que ela é. Na consagração acontece o contrário: as aparências do pão e do vinho ficam (a cor, o gosto, o peso), e o que eles são muda por inteiro. O pão se torna o Corpo de Cristo, e o vinho, o seu Sangue.",
+            "Na consagração, as espécies do pão e do vinho, isto é, o que deles se vê e se prova (a cor, o gosto, o peso), permanecem. Mas o que eles são muda por inteiro: toda a substância do pão se converte na substância do Corpo de Cristo, e toda a substância do vinho, na substância do seu Sangue (CIC 1376).",
         },
         {
           texto:
-            "A essa mudança a Igreja dá o nome de transubstanciação, que quer dizer mudança de substância, como ensinou o Concílio de Trento (CIC 1376). O exemplo da pessoa ajuda, mas tem limite: essa mudança não tem igual na natureza. Quem a realiza não é a força do padre, mas a palavra de Cristo e a ação do Espírito Santo (CIC 1375). A presença de Cristo começa na consagração e dura enquanto existirem as espécies do pão e do vinho. Ele está inteiro em cada uma delas e em cada parte, e partir a hóstia não divide Cristo (CIC 1377). Por isso quem comunga só a hóstia recebe o Senhor inteiro e todo o fruto da comunhão (CIC 1390).",
+            "A essa mudança a Igreja, com o Concílio de Trento, dá o nome de transubstanciação, que quer dizer mudança de substância (CIC 1376). Quem a realiza não é a força do padre, mas a palavra de Cristo e a ação do Espírito Santo (CIC 1375). A presença de Cristo começa na consagração e dura enquanto existirem as espécies do pão e do vinho. Ele está inteiro em cada uma delas e em cada parte, e partir a hóstia não divide Cristo (CIC 1377). Por isso quem comunga só a hóstia recebe o Senhor inteiro e todo o fruto da comunhão (CIC 1390).",
         },
         {
           texto:
@@ -62,7 +62,7 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           pratica:
-            "Nesta semana, ao entrar na igreja, procure o sacrário (a lâmpada acesa ao lado indica onde ele está) e faça a genuflexão devagar, dobrando o joelho direito até o chão. Se não puder, faça uma inclinação profunda. Que o gesto seja um ato de fé, e não um costume apressado.",
+            "Nesta semana, ao entrar na igreja, procure o sacrário (a lâmpada acesa ao lado indica onde ele está) e faça a genuflexão devagar, dobrando o joelho direito até o chão, sinal de adoração (Instrução Geral do Missal Romano, 274). Se não puder, faça uma inclinação profunda. Que o gesto seja um ato de fé, e não um costume apressado.",
         },
         { ir: "/cursos/missa-explicada", rotulo: "Curso: A missa explicada" },
       ],
@@ -92,7 +92,7 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "Depois de comungar, guarde um tempo de ação de graças. Fale com Jesus com as suas palavras, agradeça e entregue a ele o seu dia. Quando não puder comungar, faça a comunhão espiritual: o desejo sincero de receber Jesus e o pedido para que ele venha ao coração. O Concílio de Trento já falava dos que comungam só pelo desejo, e muitos santos ensinaram essa prática. Ela pode ser feita em qualquer hora e em qualquer lugar, mas não substitui a missa de domingo para quem pode ir.",
+            "Depois de comungar, guarde um tempo de ação de graças. Fale com Jesus com as suas palavras, agradeça e entregue a ele o seu dia. Quando não puder comungar, faça a comunhão espiritual: o desejo sincero de receber Jesus e o pedido para que ele venha ao coração. O Concílio de Trento já falava dos que comungam só pelo desejo (sessão XIII, capítulo 8). Ela pode ser feita em qualquer hora e em qualquer lugar, mas não substitui a missa de domingo, que é obrigação de quem não tem motivo sério para faltar (CIC 2181).",
         },
         {
           pratica:
@@ -113,17 +113,17 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "A visita ao Santíssimo" },
         {
           texto:
-            "A forma mais simples de adoração é a visita. Você entra na igreja, faz a genuflexão, ajoelha-se ou senta-se e fica um pouco com o Senhor. A visita é sinal de gratidão e de amor, e também um dever de adoração para com Cristo (CIC 1418). Não precisa ser longa: dez minutos no caminho do trabalho ou da feira já são um encontro. Santo Afonso Maria de Ligório escreveu meditações curtas para uma visita em cada dia do mês. Na adoração, rezar é falar e também ficar em silêncio. Conta-se que um camponês, perguntado pelo Cura d'Ars sobre o que fazia tanto tempo na igreja, respondeu que olhava para Jesus e Jesus olhava para ele.",
+            "A forma mais simples de adoração é a visita. Você entra na igreja, faz a genuflexão, ajoelha-se ou senta-se e fica um pouco com o Senhor. A visita é sinal de gratidão e de amor, e também um dever de adoração para com Cristo (CIC 1418). Não precisa ser longa: dez minutos no caminho do trabalho ou da feira já são um encontro. Santo Afonso Maria de Ligório escreveu as Visitas ao Santíssimo Sacramento, meditações curtas para uma visita em cada dia do mês. Na adoração, rezar é falar e também ficar em silêncio. O Catecismo lembra o camponês de Ars, no tempo do santo Cura, que rezava diante do sacrário e dizia: eu olho para ele e ele olha para mim (CIC 2715).",
         },
         { titulo: "A hora santa" },
         {
           texto:
-            "No Getsêmani, Jesus pediu aos discípulos que vigiassem com ele, e os encontrou dormindo: não tinham conseguido vigiar uma hora (Mt 26,40). A hora santa nasce desse pedido. É uma hora de oração diante do Santíssimo, com leitura da Palavra, silêncio, cantos e, muitas vezes, o terço. A devoção se espalhou a partir de Santa Margarida Maria Alacoque, no século XVII, ligada ao Sagrado Coração de Jesus. Em muitas paróquias ela se faz na quinta-feira, dia da última ceia e da agonia no horto. A Igreja concede indulgência plenária a quem adora o Santíssimo por ao menos meia hora, com as condições habituais: confissão, comunhão, oração pelas intenções do papa e desapego de todo pecado.",
+            "No Getsêmani, Jesus pediu aos discípulos que vigiassem com ele, e os encontrou dormindo: não tinham conseguido vigiar uma hora (Mt 26,40). A hora santa nasce desse pedido. É uma hora de oração diante do Santíssimo, com leitura da Palavra, silêncio, cantos e, muitas vezes, o terço. A devoção se espalhou a partir de Santa Margarida Maria Alacoque, no século XVII, ligada ao Sagrado Coração de Jesus. Em muitas paróquias ela se faz na quinta-feira, dia da última ceia e da agonia no horto. A Igreja concede indulgência plenária a quem adora o Santíssimo por ao menos meia hora, com as condições habituais: confissão, comunhão, oração pelas intenções do papa e desapego de todo pecado (Manual das Indulgências, concessão 7).",
         },
         { titulo: "A exposição e a bênção" },
         {
           texto:
-            "Na exposição do Santíssimo, a hóstia consagrada é posta sobre o altar, no ostensório ou na âmbula, para a adoração dos fiéis (cân. 941). Não se faz exposição na mesma igreja durante a missa. O tempo de adoração termina, muitas vezes, com o canto Tão sublime sacramento, as duas últimas estrofes de um hino de São Tomás de Aquino. Depois o padre ou o diácono, com um véu sobre os ombros, ergue o ostensório e traça com ele uma cruz sobre o povo, em silêncio: é a bênção do Santíssimo. Só o padre ou o diácono dão essa bênção. Um acólito ou um ministro extraordinário pode expor e guardar a hóstia, mas sem a bênção (cân. 943).",
+            "Na exposição do Santíssimo, a hóstia consagrada é posta sobre o altar, no ostensório ou na âmbula, para a adoração dos fiéis (cân. 941). Durante a missa, não se faz exposição no mesmo recinto. O tempo de adoração termina, muitas vezes, com o canto Tão sublime sacramento, as duas últimas estrofes de um hino de São Tomás de Aquino. Depois o padre ou o diácono, com um véu sobre os ombros, ergue o ostensório e traça com ele uma cruz sobre o povo, em silêncio: é a bênção do Santíssimo. Só o padre ou o diácono dão essa bênção. Um acólito ou um ministro extraordinário pode expor e guardar a hóstia, mas sem a bênção (cân. 943).",
         },
         {
           texto:
@@ -158,7 +158,7 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "Tomé quis ver para crer, e Jesus lhe mostrou as mãos e o lado. Mas chamou felizes os que creem sem ter visto (Jo 20,29). Em cada missa acontece um milagre maior do que todos esses, sem nada que os olhos percebam: o pão e o vinho se tornam o Corpo e o Sangue do Senhor. São Carlo Acutis, o jovem italiano canonizado em 2025, montou uma exposição sobre milagres eucarísticos justamente para levar as pessoas a esse milagre de todos os dias. Por isso, antes de repassar uma notícia de milagre, confira se a Igreja do lugar se pronunciou, e não deixe que a busca de sinais tome o lugar da missa e da adoração.",
+            "Tomé quis ver para crer, e Jesus lhe mostrou as mãos e o lado. Mas chamou felizes os que creem sem ter visto (Jo 20,29). Em cada missa acontece algo maior do que todos esses sinais, sem nada que os olhos percebam: o pão e o vinho se tornam o Corpo e o Sangue do Senhor. São Carlo Acutis, o jovem italiano canonizado em 2025, montou uma exposição sobre milagres eucarísticos justamente para levar as pessoas a esse milagre de todos os dias. Por isso, antes de repassar uma notícia de milagre, confira se a Igreja do lugar se pronunciou, e não deixe que a busca de sinais tome o lugar da missa e da adoração.",
         },
         {
           pratica:

@@ -9,12 +9,12 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "ROM 6:3-11" },
         {
           texto:
-            "Um sacramento é um sinal visível, instituído por Cristo e confiado à Igreja, pelo qual Deus dá de verdade a graça que o sinal mostra (CIC 1131). A água, o óleo, o pão, o vinho e a imposição das mãos, junto com as palavras que os acompanham, não são enfeite: por meio deles é o próprio Cristo quem age. Por isso o sacramento não depende da santidade de quem o celebra, mas do poder de Deus (CIC 1128). Em cada um, a tradição distingue a matéria, que é o elemento ou o gesto, e a forma, que são as palavras que dão sentido ao gesto. Os sacramentos são sete e acompanham a vida inteira, do nascimento até a hora da morte (CIC 1210).",
+            "Um sacramento é um sinal visível, instituído por Cristo e confiado à Igreja, pelo qual Deus dá de verdade a graça que o sinal mostra (CIC 1131). A água, o óleo, o pão, o vinho e a imposição das mãos, junto com as palavras que os acompanham, não são enfeite: por meio deles é o próprio Cristo quem age. Por isso o sacramento não depende da santidade de quem o celebra, mas do poder de Deus (CIC 1128). Em cada um, a tradição da Igreja distingue a matéria, que é o elemento ou o gesto, e a forma, que são as palavras que dão sentido ao gesto (Concílio de Florença, Decreto para os Armênios). Os sacramentos são sete e acompanham a vida inteira, do nascimento até a hora da morte (CIC 1210).",
         },
         { titulo: "A porta da vida cristã" },
         {
           texto:
-            "O batismo é o primeiro sacramento e a porta de todos os outros (CIC 1213). A palavra vem do grego e quer dizer mergulhar. Na leitura, São Paulo explica o sentido desse mergulho: quem é batizado desce com Cristo na morte e sai com ele para uma vida nova. Jesus disse a Nicodemos que é preciso nascer da água e do Espírito para entrar no Reino de Deus (Jo 3,5).",
+            "O batismo é o primeiro sacramento e a porta de todos os outros (CIC 1213). A palavra vem do grego e quer dizer mergulhar (CIC 1214). Na leitura, São Paulo explica o sentido desse mergulho: quem é batizado desce com Cristo na morte e sai com ele para uma vida nova. Jesus disse a Nicodemos que é preciso nascer da água e do Espírito para entrar no Reino de Deus (Jo 3,5).",
         },
         {
           texto:
@@ -23,7 +23,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "Quem é batizado e quem batiza" },
         {
           texto:
-            "Toda pessoa ainda não batizada pode receber o batismo (CIC 1246). O adulto se prepara no catecumenato e recebe juntos o batismo, a crisma e a eucaristia. A Igreja batiza também as crianças, desde os tempos mais antigos, porque a graça de Deus é dom e não prêmio (CIC 1250-1252); os pais e os padrinhos professam a fé e assumem o compromisso de educá-las nela (CIC 1255). Os ministros ordinários são o bispo, o padre e o diácono (cân. 861; CIC 1256). Em caso de necessidade, como o perigo de morte, qualquer pessoa pode batizar, desde que use a água, diga as palavras do batismo e tenha a intenção de fazer o que a Igreja faz (CIC 1256).",
+            "Toda pessoa ainda não batizada pode receber o batismo (CIC 1246). O adulto se prepara no catecumenato e recebe juntos o batismo, a crisma e a eucaristia (CIC 1233). A Igreja batiza também as crianças, desde os tempos mais antigos, porque a graça de Deus é dom e não prêmio (CIC 1250-1252); os pais e os padrinhos professam a fé e assumem o compromisso de educá-las nela (CIC 1255). Os ministros ordinários são o bispo, o padre e o diácono (cân. 861; CIC 1256). Em caso de necessidade, como o perigo de morte, qualquer pessoa pode batizar, desde que use a água, diga as palavras do batismo e tenha a intenção de fazer o que a Igreja faz (CIC 1256).",
         },
         {
           texto:
@@ -47,7 +47,7 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "A matéria da confirmação é a unção com o santo crisma, óleo de oliva perfumado com bálsamo e consagrado pelo bispo (CIC 1297). O ministro unge a fronte do crismando com o polegar, num gesto que traz em si a imposição da mão. A forma são as palavras que ele diz nesse momento, chamando a pessoa pelo nome: que, por esse sinal, ela recebe o selo do Espírito Santo, dom de Deus (CIC 1300).",
+            "A matéria da confirmação é a unção com o santo crisma, óleo de oliva perfumado com bálsamo e consagrado pelo bispo (CIC 1297). O ministro unge a fronte do crismando com o polegar, e a unção é feita com a imposição da mão. A forma são as palavras que ele diz nesse momento, chamando a pessoa pelo nome: que, por esse sinal, ela recebe o Espírito Santo, o dom de Deus (CIC 1300).",
         },
         { titulo: "Quem é crismado e quem crisma" },
         {
@@ -76,7 +76,7 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "Ela é o terceiro sacramento da iniciação e a completa (CIC 1322). A Igreja a chama fonte e ápice de toda a vida cristã, porque os outros sacramentos estão ligados a ela e a ela se ordenam (CIC 1324). Nos outros sacramentos Cristo age; na eucaristia ele mesmo está presente.",
+            "Ela é o terceiro sacramento da iniciação e a completa (CIC 1322). A Igreja a chama fonte e ápice de toda a vida cristã, porque os outros sacramentos estão ligados a ela e a ela se ordenam (CIC 1324). Em todos os sacramentos Cristo age; na eucaristia ele está presente de modo único, com o seu Corpo e o seu Sangue (CIC 1374).",
         },
         { titulo: "O sinal" },
         {
@@ -86,7 +86,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "Quem celebra e quem comunga" },
         {
           texto:
-            "Só o padre validamente ordenado, presbítero ou bispo, pode celebrar a eucaristia e consagrar o pão e o vinho (cân. 900; CIC 1411). O diácono e, onde há necessidade, os ministros extraordinários ajudam a distribuir a comunhão. Pode comungar o católico que está em estado de graça e guarda o jejum de uma hora antes da comunhão (cân. 916; 919). A Igreja pede a todo fiel que comungue ao menos uma vez por ano, no tempo da Páscoa (cân. 920; CIC 1389), mas o desejo dela é que se comungue sempre que se participa da missa, com as devidas disposições (CIC 1388).",
+            "Só o padre validamente ordenado, presbítero ou bispo, pode celebrar a eucaristia e consagrar o pão e o vinho (cân. 900; CIC 1411). O diácono e, onde há necessidade, os ministros extraordinários ajudam a distribuir a comunhão (cân. 910). Pode comungar o católico que está em estado de graça e guarda o jejum de uma hora antes da comunhão (cân. 916; 919). A Igreja pede a todo fiel que comungue ao menos uma vez por ano, no tempo da Páscoa (cân. 920; CIC 1389), mas o desejo dela é que se comungue sempre que se participa da missa, com as devidas disposições (CIC 1388).",
         },
         {
           texto:
@@ -111,7 +111,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "O sinal" },
         {
           texto:
-            "Este sacramento tem dois elementos: os atos da pessoa que se converte e a ação de Deus pelo ministério da Igreja (CIC 1448). Os atos do penitente são três: o arrependimento sincero, com o propósito de não pecar mais (CIC 1451); a confissão dos pecados ao padre (CIC 1455-1456); e a satisfação, isto é, a penitência que o padre indica para reparar o mal (CIC 1459). A tradição da Igreja ensina que esses atos fazem as vezes da matéria. A forma é a absolvição: o padre, estendendo a mão, reza a Deus, Pai de misericórdia, que reconciliou o mundo pela morte e ressurreição do Filho e enviou o Espírito para o perdão, e em seguida absolve a pessoa em nome do Pai, do Filho e do Espírito Santo (CIC 1449).",
+            "Este sacramento tem dois elementos: os atos da pessoa que se converte e a ação de Deus pelo ministério da Igreja (CIC 1448). Os atos do penitente são três: o arrependimento sincero, com o propósito de não pecar mais (CIC 1451); a confissão dos pecados ao padre (CIC 1455-1456); e a satisfação, isto é, a penitência que o padre indica para reparar o mal (CIC 1459). A tradição da Igreja ensina que esses atos fazem as vezes da matéria (Concílio de Trento, sessão XIV, capítulo 3). A forma é a absolvição: o padre, estendendo a mão, reza a Deus, Pai de misericórdia, que reconciliou o mundo pela morte e ressurreição do Filho e enviou o Espírito para o perdão, e em seguida absolve a pessoa em nome do Pai, do Filho e do Espírito Santo (CIC 1449).",
         },
         { titulo: "Quem se confessa e quem absolve" },
         {
@@ -120,7 +120,7 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "A confissão devolve a graça de Deus a quem a tinha perdido e restabelece a amizade com ele (CIC 1468). Reconcilia também com a Igreja, que o pecado fere (CIC 1469). Perdoa a pena eterna merecida pelo pecado grave e ao menos parte das penas temporais, e dá paz à consciência e força para o combate cristão (CIC 1496). Muitos saem do confessionário com a sensação de um peso tirado das costas. Não é impressão: é o efeito do perdão de Deus.",
+            "A confissão devolve a graça de Deus a quem a tinha perdido e restabelece a amizade com ele (CIC 1468). Reconcilia também com a Igreja, que o pecado fere (CIC 1469). Perdoa a pena eterna merecida pelo pecado grave e ao menos parte das penas temporais, e dá paz à consciência e força para o combate cristão (CIC 1496). A quem se confessa com o coração arrependido vêm muitas vezes a paz e a tranquilidade da consciência, com uma grande consolação espiritual (CIC 1468).",
         },
         {
           pratica:
@@ -142,7 +142,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "O sinal" },
         {
           texto:
-            "A matéria é a unção com óleo, em geral o óleo dos enfermos abençoado pelo bispo na Missa do Crisma. É óleo de oliva ou, se faltar, de outra planta (CIC 1513). Antes, o padre impõe as mãos sobre a cabeça do doente em silêncio (CIC 1519). Depois unge a fronte e as mãos, rezando para que o Senhor, por essa unção e pela sua misericórdia, ajude o doente com a graça do Espírito Santo, o livre dos pecados, o salve e o alivie (CIC 1513). Essa oração é a forma do sacramento.",
+            "A matéria é a unção com óleo, em geral o óleo dos enfermos abençoado pelo bispo na Missa do Crisma (CIC 1519). É óleo de oliva ou, se faltar, de outra planta (CIC 1513). Antes, o padre impõe as mãos sobre a cabeça do doente em silêncio (CIC 1519). Depois unge a fronte e as mãos, rezando para que o Senhor, por essa unção e pela sua misericórdia, ajude o doente com a graça do Espírito Santo, o livre dos pecados, o salve e o alivie (CIC 1513). Essa oração é a forma do sacramento.",
         },
         { titulo: "Quem recebe e quem unge" },
         {
@@ -175,7 +175,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "O sinal" },
         {
           texto:
-            "A matéria é a imposição das mãos do bispo sobre a cabeça de quem é ordenado. A forma é a oração consagratória própria de cada grau, em que o bispo pede a Deus que derrame o Espírito Santo e os seus dons para aquele ministério (CIC 1573). Outros ritos explicam o que aconteceu (CIC 1574). O padre tem as mãos ungidas com o santo crisma e recebe o pão e o vinho que vai oferecer. O bispo tem a cabeça ungida e recebe o livro dos Evangelhos, o anel, a mitra e o báculo. O diácono recebe o livro dos Evangelhos, que vai anunciar.",
+            "A matéria é a imposição das mãos do bispo sobre a cabeça de quem é ordenado. A forma é a oração consagratória própria de cada grau, em que o bispo pede a Deus que derrame o Espírito Santo e os seus dons para aquele ministério (CIC 1573). Outros ritos explicam o que aconteceu (CIC 1574). O padre tem as mãos ungidas com o santo crisma e recebe a patena e o cálice, a oferenda do povo santo que ele vai apresentar a Deus. O bispo tem a cabeça ungida e recebe o livro dos Evangelhos, o anel, a mitra e o báculo. O diácono recebe o livro dos Evangelhos, que vai anunciar.",
         },
         { titulo: "Quem recebe e quem ordena" },
         {

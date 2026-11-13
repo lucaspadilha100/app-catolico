@@ -48,3 +48,15 @@ Corrigido:
 - Cân. 874 §2 (lição 4): o texto dizia "batizado de outra Igreja ou comunidade, que não seja católica". O cânone fala só de "comunidade eclesial não católica". A frase agora segue o cânone. Para o dono: o Diretório para o Ecumenismo (1993, n. 98) permite que um cristão ortodoxo oriental seja padrinho junto com um padrinho católico, não só testemunha. O curso não entra nesse detalhe; conferir se convém citá-lo.
 
 Conferidos e mantidos, por atenção: cân. 535 §2, 774 §2, 851, 855, 856, 857 §2, 861 §2, 867 §§1-2, 868 §1, 872, 873, 891, 893 §2 e 914. Os pontos de opinião pastoral listados acima continuam para o dono.
+
+## Conferência final (13/11/2026)
+Resolvido pela regra da conferência doutrinal (docs/conferencia-doutrinal.md): o que a Igreja ensina, com número conferido; o que não tem fonte saiu.
+
+- Nicodemos: "Jesus falava do batismo" virou a leitura da Igreja (CIC 1215). Pentecostes: CIC 1226.
+- Comparação "alimento, remédio e escola": saiu. No lugar, o CIC 1251.
+- Batismo de emergência: a descrição passou a trazer as palavras que o CIC 1240 dá ("eu te batizo em nome do Pai e do Filho e do Espírito Santo"), para que quem precisar batize validamente (CIC 1256). Rito para trazer à igreja a criança já batizada: mantido.
+- Unção com o óleo dos catecúmenos: "óleo da força" virou o sentido do CIC 1237. Éfeta "em muitos lugares" e batismo na missa "em algumas paróquias": mantidos.
+- Cân. 868 e a situação de casamento dos pais: mantido (letra do cânone).
+- "Não se torna responsável legal": mantido (fato de direito civil). Cân. 874 §2: só a letra do cânone, sem o Diretório para o Ecumenismo.
+- Saíram "A criança aprende mais pelo que vê do que pelo que ouve" e "o bebê guarda o tom da voz" (sem fonte).
+- Idade da primeira comunhão e da crisma: continua sem número (varia por diocese). Documentos e certidão recente: organização local.

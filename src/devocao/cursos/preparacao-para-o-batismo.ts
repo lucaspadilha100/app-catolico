@@ -9,7 +9,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "JHN 3:1-8" },
         {
           texto:
-            "Nicodemos era um homem sério e estudado, e foi procurar Jesus de noite. Jesus lhe falou de um segundo nascimento, que não vem da carne, mas da água e do Espírito Santo. Nicodemos não entendeu: pensou num nascimento como o primeiro. Jesus falava do batismo, pelo qual Deus dá a uma pessoa uma vida nova, a vida de filho de Deus. É essa vida que vocês vão pedir para a criança.",
+            "Nicodemos era um homem sério e estudado, e foi procurar Jesus de noite. Jesus lhe falou de um segundo nascimento, que não vem da carne, mas da água e do Espírito Santo. Nicodemos não entendeu: pensou num nascimento como o primeiro. A Igreja vê nessas palavras o batismo, o nascimento da água e do Espírito sem o qual ninguém entra no Reino de Deus (CIC 1215). Por ele Deus dá a uma pessoa uma vida nova, a vida de filho de Deus. É essa vida que vocês vão pedir para a criança.",
         },
         { titulo: "A porta da vida cristã" },
         {
@@ -18,12 +18,12 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "O batismo imprime na alma uma marca espiritual que nada apaga, chamada caráter. Por isso ele é recebido uma só vez e nunca se repete (CIC 1272). Foi o próprio Jesus quem mandou os apóstolos batizar todos os povos em nome do Pai, do Filho e do Espírito Santo (Mt 28,19). Desde o dia de Pentecostes, a Igreja nunca deixou de cumprir esse mandato.",
+            "O batismo imprime na alma uma marca espiritual que nada apaga, chamada caráter. Por isso ele é recebido uma só vez e nunca se repete (CIC 1272). Foi o próprio Jesus quem mandou os apóstolos batizar todos os povos em nome do Pai, do Filho e do Espírito Santo (Mt 28,19). Desde o dia de Pentecostes, a Igreja nunca deixou de cumprir esse mandato (CIC 1226).",
         },
         { titulo: "Por que não esperar a criança crescer" },
         {
           texto:
-            "Há quem pense que seria melhor deixar a criança escolher mais tarde. A Igreja responde que a criança também nasce marcada pelo pecado original e precisa do novo nascimento. A graça de Deus é um dom, e não depende de mérito nem de idade. Por isso a Igreja e os pais privariam a criança de um bem enorme se não a batizassem pouco depois do nascimento (CIC 1250). Os pais já escolhem pelo filho o alimento, o remédio e a escola, porque querem o bem dele; com a fé acontece o mesmo.",
+            "Há quem pense que seria melhor deixar a criança escolher mais tarde. A Igreja responde que a criança também nasce marcada pelo pecado original e precisa do novo nascimento. A graça de Deus é um dom, e não depende de mérito nem de idade. Por isso a Igreja e os pais privariam a criança de um bem enorme se não a batizassem pouco depois do nascimento (CIC 1250). Os pais cristãos reconhecem nessa prática uma parte da sua missão de cuidar da vida que Deus lhes confiou (CIC 1251).",
         },
         {
           texto:
@@ -35,7 +35,7 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "Se a criança estiver em perigo de morte, deve ser batizada sem demora (cân. 867 §2). Nesse caso, se não houver padre nem diácono, qualquer pessoa pode batizar, desde que tenha a intenção de fazer o que a Igreja faz (cân. 861 §2; CIC 1256): derrama água sobre a cabeça da criança enquanto invoca o Pai, o Filho e o Espírito Santo, como manda Mt 28,19. Depois, avise a paróquia. Se a criança sobreviver, os outros ritos são completados na igreja, sem repetir o batismo. As crianças que morrem sem batismo, a Igreja as confia à misericórdia de Deus (CIC 1261).",
+            "Se a criança estiver em perigo de morte, deve ser batizada sem demora (cân. 867 §2). Nesse caso, se não houver padre nem diácono, qualquer pessoa pode batizar, desde que tenha a intenção de fazer o que a Igreja faz (cân. 861 §2; CIC 1256): derrama água sobre a cabeça da criança enquanto diz: eu te batizo em nome do Pai e do Filho e do Espírito Santo (Mt 28,19; CIC 1240). Depois, avise a paróquia. Se a criança sobreviver, os outros ritos são completados na igreja, sem repetir o batismo. As crianças que morrem sem batismo, a Igreja as confia à misericórdia de Deus (CIC 1261).",
         },
         {
           pratica:
@@ -60,7 +60,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "A Palavra e a oração" },
         {
           texto:
-            "Lê-se um trecho da Bíblia e o celebrante faz a homilia, porque o batismo é o sacramento da fé, e a fé nasce da Palavra de Deus (CIC 1236). Seguem as preces pela criança, pelos pais, pelos padrinhos e pela Igreja, e a invocação dos santos. Depois o celebrante reza pedindo que a criança seja livre do poder do mal. Então a unge no peito com o óleo dos catecúmenos ou, onde essa unção não se faz, impõe a mão sobre ela (CIC 1237). É o óleo da força para a luta contra o mal.",
+            "Lê-se um trecho da Bíblia e o celebrante faz a homilia, porque o batismo é o sacramento da fé, e a fé nasce da Palavra de Deus (CIC 1236). Seguem as preces pela criança, pelos pais, pelos padrinhos e pela Igreja, e a invocação dos santos. Depois o celebrante reza pedindo que a criança seja livre do poder do mal. Então a unge no peito com o óleo dos catecúmenos ou, onde essa unção não se faz, impõe a mão sobre ela (CIC 1237). O batismo significa a libertação do pecado e do mal, e a criança é preparada para receber a fé da Igreja.",
         },
         { titulo: "A água" },
         {
@@ -99,7 +99,7 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "A graça do batismo é uma semente. Para que ela cresça, a criança precisa da ajuda dos pais (CIC 1255). Isso não exige que vocês saibam teologia. Exige que a criança veja os pais rezando, ouça falar de Jesus com carinho, seja levada à missa e aprenda a pedir perdão e a perdoar. A criança aprende mais pelo que vê do que pelo que ouve.",
+            "A graça do batismo é uma semente. Para que ela cresça, a criança precisa da ajuda dos pais (CIC 1255). Isso não exige que vocês saibam teologia. Exige que a criança veja os pais rezando, ouça falar de Jesus com carinho, seja levada à missa e aprenda a pedir perdão e a perdoar.",
         },
         { titulo: "O que a Igreja pede para batizar" },
         {
@@ -166,7 +166,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "Rezar com a criança" },
         {
           texto:
-            "Comece pelo mais simples. Faça o sinal da cruz na testa do seu filho ao deitá-lo e ao sair de casa: é a mesma cruz que vocês traçaram nele no dia do batismo. Reze em voz alta perto dele, mesmo quando ele ainda não entende: o bebê guarda o tom da voz e a paz daquele momento. Quando ele começar a falar, ensine as orações curtas, uma de cada vez: o sinal da cruz, o Santo Anjo, o Pai-Nosso, a Ave-Maria.",
+            "Comece pelo mais simples. Faça o sinal da cruz na testa do seu filho ao deitá-lo e ao sair de casa: é a mesma cruz que vocês traçaram nele no dia do batismo. Reze em voz alta perto dele, mesmo quando ele ainda não entende. Quando ele começar a falar, ensine as orações curtas, uma de cada vez: o sinal da cruz, o Santo Anjo, o Pai-Nosso, a Ave-Maria.",
         },
         {
           texto:

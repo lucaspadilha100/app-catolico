@@ -68,3 +68,20 @@ Ponto geral: o curso remete aos guias `/rezar/confissao` e `/rezar/exame` e evit
 - cân. 988 §2 e CIC 1458 (a confissão dos veniais é recomendada; ajuda a formar a consciência, a lutar contra as más inclinações, a deixar Cristo curar e a crescer; leva a ser misericordioso): conferido no texto oficial.
 - "Uma vez por mês, ou antes das grandes festas" e "sempre o mesmo confessor": costume, e o curso o apresenta como costume.
 - Link para o curso `os-pecados-capitais`: existe no catálogo.
+
+## Conferência final (13/11/2026)
+Resolvido pela regra da conferência doutrinal (docs/conferencia-doutrinal.md): o que a Igreja ensina, com número conferido; o que não tem fonte saiu.
+
+- "Monges missionários da Irlanda": trocado pelo que o CIC 1447 diz: no século VII, missionários irlandeses, inspirados pela tradição dos mosteiros do Oriente, levaram para a Europa a confissão particular.
+- "Culpa doentia" (CIC 1784): trocado por "preserva ou cura do medo e do ressentimento que a culpa deixa", mais perto da letra do número.
+- "Tentação não é pecado": ganhou o número CIC 2847 (distinguir ser tentado e consentir).
+- Escrúpulo: fica só o conselho do confessor fixo (decisão do dono).
+- Confissão frente a frente: a frase saiu. O cân. 964 §2 deixa à Conferência episcopal as normas do confessionário; o curso fica com o que o cânon garante (confessionário com grade para quem quiser). "Capela" fica como tradução corrente de "oratório".
+- Excomunhão de quem viola o sigilo: mantida, sem número (o cân. 1388 §1 antigo e o 1386 §1 de 2021 dizem o mesmo).
+- São João Nepomuceno: fica com "a tradição conta" (decisão do dono).
+- Link /biblia/PSA/31: conferido, abre "Bem-aventurados aqueles cujas iniquidades são perdoadas".
+- CIC 2091: "tentação contra a esperança" virou "o desespero, que a Igreja aponta como pecado contra a esperança, porque se opõe à bondade e à misericórdia de Deus", como no número.
+- CIC 1463 (excomunhão): fica como estava, sem detalhes.
+- União não reconhecida como matrimônio: fica só o convite a falar com um padre (decisão do dono).
+- Cân. 916: citado sem a exceção, como no curso A Eucaristia (decisão do dono).
+- Demais números: conferidos de novo no texto oficial; nada a mudar.
