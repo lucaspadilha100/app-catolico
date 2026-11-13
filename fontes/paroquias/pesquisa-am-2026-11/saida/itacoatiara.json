@@ -1,0 +1,881 @@
+[
+ {
+  "id_banco": null,
+  "nome": "Catedral Nossa Senhora do Rosário",
+  "categoria": "catedral",
+  "cidade": "Itacoatiara",
+  "padroeiro": "Nossa Senhora do Rosário",
+  "contatos": {
+   "telefone": "92991882700",
+   "whatsapp": "",
+   "instagram": "pascomdorosario",
+   "site": "",
+   "email": "paroquia.nssrosario@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Catedral Nossa Senhora do Rosário",
+    "tipo": "matriz",
+    "cidade": "Itacoatiara",
+    "localidade": "Centro",
+    "endereco": "Rua Adamastor de Figueiredo, 185",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://prelaziadeitacoatiara.org.br/paroquias/22/paroquia-nossa-senhora-do-rosario",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://prelaziadeitacoatiara.org.br/horariosmissa",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://prelaziadeitacoatiara.org.br/paroquias",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Sé da prelazia; o site a chama de Paróquia Nossa Senhora do Rosário. Horários da página da paróquia no site da prelazia, sem data; o campo de decanato vem vazio."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Cristo Rei",
+  "categoria": "paroquia",
+  "cidade": "Itacoatiara",
+  "padroeiro": "Cristo Rei",
+  "contatos": {
+   "telefone": "92991916699",
+   "whatsapp": "",
+   "instagram": "paroquiacristoreiita",
+   "site": "",
+   "email": "paroquiacristoreiita@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Cristo Rei",
+    "tipo": "matriz",
+    "cidade": "Itacoatiara",
+    "localidade": "Jauary",
+    "endereco": "Avenida João Valério, 452",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://prelaziadeitacoatiara.org.br/paroquias/19/paroquia-cristo-rei",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://prelaziadeitacoatiara.org.br/horariosmissa",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://prelaziadeitacoatiara.org.br/paroquias",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Horários da página da paróquia no site da prelazia, sem data; o campo de decanato vem vazio."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Divino Espírito Santo",
+  "categoria": "paroquia",
+  "cidade": "Itacoatiara",
+  "padroeiro": "Divino Espírito Santo",
+  "contatos": {
+   "telefone": "92984820336",
+   "whatsapp": "",
+   "instagram": "pascomdivinoita",
+   "site": "",
+   "email": "par.divinoes@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Divino Espírito Santo",
+    "tipo": "matriz",
+    "cidade": "Itacoatiara",
+    "localidade": "Colônia",
+    "endereco": "Avenida Álvaro França, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://prelaziadeitacoatiara.org.br/paroquias/8/paroquia-divino-espirito-santo",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://prelaziadeitacoatiara.org.br/horariosmissa",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://prelaziadeitacoatiara.org.br/paroquias",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Confiada aos capuchinhos. Horários da página da paróquia no site da prelazia, sem data; o campo de decanato vem vazio."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Menino Jesus",
+  "categoria": "paroquia",
+  "cidade": "Itacoatiara",
+  "padroeiro": "Menino Jesus",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquim@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Menino Jesus",
+    "tipo": "matriz",
+    "cidade": "Itacoatiara",
+    "localidade": "Novo Remanso",
+    "endereco": "Rua Enock Reis, 117, Centro",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Conceição",
+    "tipo": "comunidade",
+    "cidade": "Itacoatiara",
+    "localidade": "Novo Remanso",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://prelaziadeitacoatiara.org.br/paroquias/9/paroquia-menino-jesus",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://prelaziadeitacoatiara.org.br/horariosmissa",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://prelaziadeitacoatiara.org.br/paroquias",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://prelaziadeitacoatiara.org.br/noticias/192/paroquia-menino-jesus-do-novo-remanso-realizou-cir",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Sede na vila de Novo Remanso, distrito de Itacoatiara (notícias da prelazia). Horários da página da paróquia no site da prelazia, sem data; o campo de decanato vem vazio."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Itacoatiara",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "92992046380",
+   "whatsapp": "",
+   "instagram": "aparecidapascom",
+   "site": "",
+   "email": "pnsaparecidaita@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Itacoatiara",
+    "localidade": "Mutirão",
+    "endereco": "Rua Dom Jorge Marskell, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://prelaziadeitacoatiara.org.br/paroquias/16/paroquia-nossa-senhora-aparecida",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://prelaziadeitacoatiara.org.br/horariosmissa",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://prelaziadeitacoatiara.org.br/paroquias",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Horários da página da paróquia no site da prelazia, sem data; o campo de decanato vem vazio."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Luzia",
+  "categoria": "paroquia",
+  "cidade": "Itacoatiara",
+  "padroeiro": "Santa Luzia",
+  "contatos": {
+   "telefone": "92992049562",
+   "whatsapp": "",
+   "instagram": "paroquiasantaluziaita",
+   "site": "",
+   "email": "paroquiasantaluziaita@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Luzia",
+    "tipo": "matriz",
+    "cidade": "Itacoatiara",
+    "localidade": "Santa Luzia",
+    "endereco": "Rua Isaac Peres, 3181",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://prelaziadeitacoatiara.org.br/paroquias/14/paroquia-santa-luzia",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://prelaziadeitacoatiara.org.br/horariosmissa",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://prelaziadeitacoatiara.org.br/paroquias",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Horários da página da paróquia no site da prelazia, sem data; o campo de decanato vem vazio."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Itacoatiara",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "92991074250",
+   "whatsapp": "",
+   "instagram": "paroquiasantoantonio.ita",
+   "site": "",
+   "email": "santoantonio.paroquia@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Itacoatiara",
+    "localidade": "Santo Antônio",
+    "endereco": "Rua Borba, 3617",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://prelaziadeitacoatiara.org.br/paroquias/21/paroquia-santo-antonio",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://prelaziadeitacoatiara.org.br/horariosmissa",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://prelaziadeitacoatiara.org.br/paroquias",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Horários da página da paróquia no site da prelazia, sem data; o campo de decanato vem vazio."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José",
+  "categoria": "paroquia",
+  "cidade": "Itacoatiara",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "pascomsaojose__",
+   "site": "",
+   "email": "paroquiasaojose.itac@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José",
+    "tipo": "matriz",
+    "cidade": "Itacoatiara",
+    "localidade": "Conjunto Sham, Iracy",
+    "endereco": "Rua Álvaro Maia, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://prelaziadeitacoatiara.org.br/paroquias/20/paroquia-sao-jose",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://prelaziadeitacoatiara.org.br/horariosmissa",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://prelaziadeitacoatiara.org.br/paroquias",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Secretaria na Rua David Pereira Braga, 123. Horários da página da paróquia no site da prelazia, sem data; o campo de decanato vem vazio."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Cristo Ressuscitado",
+  "categoria": "paroquia",
+  "cidade": "Urucurituba",
+  "padroeiro": "Cristo Ressuscitado",
+  "contatos": {
+   "telefone": "92995208674",
+   "whatsapp": "",
+   "instagram": "pascom_p.c.r",
+   "site": "",
+   "email": "pcristoressuscitado@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Cristo Ressuscitado",
+    "tipo": "matriz",
+    "cidade": "Urucurituba",
+    "localidade": "Centro",
+    "endereco": "Avenida Presidente Getúlio Vargas, 125",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://prelaziadeitacoatiara.org.br/paroquias/18/paroquia-cristo-ressuscitado",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://prelaziadeitacoatiara.org.br/horariosmissa",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://prelaziadeitacoatiara.org.br/paroquias",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Horários da página da paróquia no site da prelazia, sem data; o campo de decanato vem vazio."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Conceição",
+  "categoria": "paroquia",
+  "cidade": "Silves",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiansc.silves@yahoo.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "Silves",
+    "localidade": "Centro",
+    "endereco": "Rua Coronel Garcia, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://prelaziadeitacoatiara.org.br/paroquias/13/paroquia-nossa-senhora-da-conceicao",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://prelaziadeitacoatiara.org.br/horariosmissa",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://prelaziadeitacoatiara.org.br/paroquias",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Criada em 04/08/1956. Horários da página da paróquia no site da prelazia, sem data; o campo de decanato vem vazio."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Nazaré",
+  "categoria": "paroquia",
+  "cidade": "Itapiranga",
+  "padroeiro": "Nossa Senhora de Nazaré",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "paroquia.nazare08",
+   "site": "",
+   "email": "pipnsn@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora de Nazaré",
+    "tipo": "matriz",
+    "cidade": "Itapiranga",
+    "localidade": "",
+    "endereco": "Avenida Presidente Getúlio Vargas",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://prelaziadeitacoatiara.org.br/paroquias/17/paroquia-nossa-senhora-de-nazare",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://prelaziadeitacoatiara.org.br/horariosmissa",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://prelaziadeitacoatiara.org.br/paroquias",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Secretaria na Rua Antônio de Almeida Santos, bairro Caracaraí. Horários da página da paróquia no site da prelazia, sem data; o campo de decanato vem vazio."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sant'Ana",
+  "categoria": "paroquia",
+  "cidade": "Urucará",
+  "padroeiro": "Sant'Ana",
+  "contatos": {
+   "telefone": "92993897365",
+   "whatsapp": "",
+   "instagram": "paroquia_santa_ana",
+   "site": "",
+   "email": "psantana2018divino@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Sant'Ana",
+    "tipo": "matriz",
+    "cidade": "Urucará",
+    "localidade": "Centro",
+    "endereco": "Praça de Santa Ana, 476",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://prelaziadeitacoatiara.org.br/paroquias/15/paroquia-santa-ana",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://prelaziadeitacoatiara.org.br/horariosmissa",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://prelaziadeitacoatiara.org.br/paroquias",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "O site escreve Paróquia Santa Ana. Horários da página da paróquia no site da prelazia, sem data; o campo de decanato vem vazio."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "São Sebastião do Uatumã",
+  "padroeiro": "São Sebastião",
+  "contatos": {
+   "telefone": "92991072671",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "p.i.p.ssu1@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Sebastião",
+    "tipo": "matriz",
+    "cidade": "São Sebastião do Uatumã",
+    "localidade": "Centro",
+    "endereco": "Rua Francisco Xavier, 126",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://prelaziadeitacoatiara.org.br/paroquias/10/paroquia-sao-sebastiao",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://prelaziadeitacoatiara.org.br/horariosmissa",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://prelaziadeitacoatiara.org.br/paroquias",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Horários da página da paróquia no site da prelazia, sem data; o campo de decanato vem vazio."
+ }
+]

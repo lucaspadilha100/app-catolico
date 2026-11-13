@@ -1,0 +1,846 @@
+[
+ {
+  "id_banco": null,
+  "nome": "Catedral Basílica de Santo Antônio de Pádua",
+  "categoria": "catedral",
+  "cidade": "Borba",
+  "padroeiro": "Santo Antônio de Pádua",
+  "contatos": {
+   "telefone": "92988075208",
+   "whatsapp": "92988075208",
+   "instagram": "paroquiasantoantoniodeborba",
+   "site": "https://santoantoniodeborba.com.br",
+   "email": "psaborba@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Catedral Basílica de Santo Antônio de Pádua",
+    "tipo": "matriz",
+    "cidade": "Borba",
+    "localidade": "Centro",
+    "endereco": "Praça João Sampaio, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 5,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": "Hora Santa"
+     }
+    ],
+    "nao_cabe": "Terça 18h30: novena de N. S. do Perpétuo Socorro. Quarta 18h30: novena de São José. Sábado 18h30: momento mariano."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Caiçara",
+    "tipo": "comunidade",
+    "cidade": "Borba",
+    "localidade": "Caiçara",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeborba.org.br/paroquia/?paroquiaid=1",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeborba.org.br/nossas-paroquias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedeborba.org.br/intercambio-da-pj-reune-jovens-de-nova-olinda-do-norte-e-borba/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania São Marcos. Sé da diocese, basílica menor. Comunidade Caiçara citada em notícia da diocese (agosto de 2026)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Borba",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "92985108859",
+   "whatsapp": "92985108859",
+   "instagram": "paroquiaaparecida_borba",
+   "site": "",
+   "email": "nsaaparecidadeborba@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Borba",
+    "localidade": "Cristo Rei",
+    "endereco": "Estrada do Aeroporto, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Terça 19h: novena de N. S. do Perpétuo Socorro com o pároco; a página não diz se há missa."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeborba.org.br/paroquia/?paroquiaid=3",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeborba.org.br/nossas-paroquias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Forania São Marcos. Criada em 12/10/2020. A página só traz a missa de domingo."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Cristo Rei",
+  "categoria": "paroquia",
+  "cidade": "Borba",
+  "padroeiro": "Cristo Rei",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "92984016306",
+   "instagram": "paroquiacristoreiborba",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Cristo Rei",
+    "tipo": "matriz",
+    "cidade": "Borba",
+    "localidade": "Cristo Rei",
+    "endereco": "Avenida Amazonas, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "06:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "06:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "06:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "06:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "06:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "06:15",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Terça 19h: novena de N. S. do Perpétuo Socorro com o pároco; a página não diz se há missa. Comunidades urbanas sem bairro na fonte: N. S. das Dores, Santa Luzia, São Miguel Arcanjo, N. S. de Fátima, N. S. da Luz, São Frei Galvão, São Vicente de Paulo e Santo Afonso."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeborba.org.br/paroquia/?paroquiaid=4",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeborba.org.br/nossas-paroquias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania São Marcos. Criada em 27/09/1992. Tem também comunidades na área rural, sem nome na fonte."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "Borba",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "paroquiasaojoaobatista_axinim",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Batista",
+    "tipo": "matriz",
+    "cidade": "Borba",
+    "localidade": "Axinim",
+    "endereco": "Avenida São João, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Domingo 19h: celebração conduzida por diácono (a página chama de missa)."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeborba.org.br/paroquia/?paroquiaid=6",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeborba.org.br/nossas-paroquias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Forania São Marcos. Distrito de Axinim, município de Borba. Criada em 03/03/2018."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Conceição",
+  "categoria": "paroquia",
+  "cidade": "Novo Aripuanã",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "92993352803",
+   "whatsapp": "97984528595",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiansc.na@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "Novo Aripuanã",
+    "localidade": "Nossa Senhora da Conceição",
+    "endereco": "Avenida 19 de Dezembro, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Domingo 8h: missa das crianças conduzida por diácono (celebração). Terça 18h: novena de N. S. do Perpétuo Socorro."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeborba.org.br/paroquia/?paroquiaid=5",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeborba.org.br/nossas-paroquias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania São Lucas. Criada em 08/12/1968. 96 comunidades (9 urbanas, 5 na estrada, 82 ribeirinhas), sem lista na fonte."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Nazaré e São José",
+  "categoria": "paroquia",
+  "cidade": "Nova Olinda do Norte",
+  "padroeiro": "Nossa Senhora de Nazaré e São José",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "92985844952",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiansnsjnon@outlook.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora de Nazaré e São José",
+    "tipo": "matriz",
+    "cidade": "Nova Olinda do Norte",
+    "localidade": "Centro",
+    "endereco": "Rua Independência, 111",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeborba.org.br/paroquia/?paroquiaid=7",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeborba.org.br/nossas-paroquias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania São Mateus. Frades da TOR. Mais de sessenta comunidades urbanas, ribeirinhas, de estrada e aldeias, sem lista na fonte."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Rosário",
+  "categoria": "paroquia",
+  "cidade": "Borba",
+  "padroeiro": "Nossa Senhora do Rosário",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "92991203362",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Rosário",
+    "tipo": "matriz",
+    "cidade": "Borba",
+    "localidade": "Canumã",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Sem missa fixa na página: domingo 7h30 e 19h, celebração da Palavra; terça 18h, novena de N. S. do Perpétuo Socorro."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Peixinho",
+    "tipo": "comunidade",
+    "cidade": "Borba",
+    "localidade": "Peixinho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Cumatê",
+    "tipo": "comunidade",
+    "cidade": "Borba",
+    "localidade": "Cumatê",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Paricá",
+    "tipo": "comunidade",
+    "cidade": "Borba",
+    "localidade": "Paricá",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeborba.org.br/paroquia/?paroquiaid=9",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeborba.org.br/nossas-paroquias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedeborba.org.br/dois-anos-de-instalacao-crescendo-em-sinodalidade/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Forania São Mateus. Distrito de Canumã, município de Borba. Criada em 14/12/1994. Sem endereço da matriz na fonte. Comunidades ribeirinhas citadas em notícia da diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Joaquim e Sant'Ana",
+  "categoria": "paroquia",
+  "cidade": "Autazes",
+  "padroeiro": "São Joaquim e Sant'Ana",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "paroquiadeautazes",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Joaquim e Sant'Ana",
+    "tipo": "matriz",
+    "cidade": "Autazes",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeborba.org.br/paroquia/?paroquiaid=10",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeborba.org.br/nossas-paroquias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania São João. A página da diocese não traz horários nem endereço; festa da padroeira de 5 a 16 de agosto, na Praça Otaviano de Melo."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José",
+  "categoria": "paroquia",
+  "cidade": "Autazes",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José",
+    "tipo": "matriz",
+    "cidade": "Autazes",
+    "localidade": "Novo Céu",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Batista",
+    "tipo": "comunidade",
+    "cidade": "Autazes",
+    "localidade": "Km 53",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeborba.org.br/paroquia/?paroquiaid=12",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeborba.org.br/nossas-paroquias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedeborba.org.br/aspirante-ao-diaconato-permanente-antonio-do-espirito-santo-recebe-os-ministerios-de-leitor-e-acolito-em-celebracao-presidida-por-dom-zenildo/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania São João. Vila do Novo Céu, município de Autazes. Criada em 19/03/2023. A página só traz nome, data e padroeiro; sem horários publicados."
+ },
+ {
+  "id_banco": null,
+  "nome": "Área Missionária Santo Antônio Maria Claret",
+  "categoria": "area_missionaria",
+  "cidade": "Novo Aripuanã",
+  "padroeiro": "Santo Antônio Maria Claret",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "claretareamissionaria",
+   "site": "",
+   "email": "stmclaret@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio Maria Claret",
+    "tipo": "matriz",
+    "cidade": "Novo Aripuanã",
+    "localidade": "Centro",
+    "endereco": "Rua Álvaro Maia, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": "Com novena de N. S. do Perpétuo Socorro"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": "Depois da missa"
+     }
+    ],
+    "nao_cabe": "Comunidades N. S. das Graças (domingo 17h30) e Divino Espírito Santo (domingo e quarta 19h), sem bairro e sem dizer se é missa."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeborba.org.br/paroquia/?paroquiaid=8",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeborba.org.br/areas-missionarias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania São Lucas. Criada em 20/08/2022, desmembrada da Paróquia N. S. da Conceição; confiada aos orionitas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Área Missionária São Sebastião",
+  "categoria": "area_missionaria",
+  "cidade": "Autazes",
+  "padroeiro": "São Sebastião",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "amsaosebastiao20",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Sebastião",
+    "tipo": "matriz",
+    "cidade": "Autazes",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeborba.org.br/paroquia/?paroquiaid=11",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeborba.org.br/areas-missionarias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania São João. Criada em 20/01/2025. Sem endereço na fonte; a página só traz as missas de domingo."
+ },
+ {
+  "id_banco": null,
+  "nome": "Área Missionária Divino Espírito Santo",
+  "categoria": "area_missionaria",
+  "cidade": "Autazes",
+  "padroeiro": "Divino Espírito Santo",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Divino Espírito Santo",
+    "tipo": "matriz",
+    "cidade": "Autazes",
+    "localidade": "Urucurituba",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeborba.org.br/paroquia/?paroquiaid=13",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeborba.org.br/areas-missionarias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedeborba.org.br/sob-a-acao-do-espirito-santo-diocese-de-borba-fortalece-sua-missao-com-nova-area-missionaria/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania São João. Comunidade de Urucurituba, distrito de Autazes (não confundir com o município de Urucurituba). Criada em 11/04/2026; sem horários publicados."
+ },
+ {
+  "id_banco": null,
+  "nome": "Área Missionária Nossa Senhora do Perpétuo Socorro",
+  "categoria": "area_missionaria",
+  "cidade": "Autazes",
+  "padroeiro": "Nossa Senhora do Perpétuo Socorro",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Perpétuo Socorro",
+    "tipo": "matriz",
+    "cidade": "Autazes",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeborba.org.br/paroquia/?paroquiaid=14",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeborba.org.br/areas-missionarias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania São João, que a diocese identifica como Autazes; a página não dá cidade, sede nem horários. Conferir o lugar."
+ }
+]
