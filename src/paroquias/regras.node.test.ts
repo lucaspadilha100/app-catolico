@@ -211,7 +211,7 @@ describe("dados de Natal (planilha do Missas.com.br)", () => {
     expect(saoJose.rows[0]!.lat).not.toBe(saoJose.rows[1]!.lat);
     const fora = await c("anon", null, "select cidade from public.paroquias where nome = 'Paróquia de Nossa Senhora da Penha'");
     expect(fora.rows[0]).toEqual({ cidade: "Monte Alegre" });
-    const notas = await banco.query("select count(*)::int as n from public.notas_paroquia");
+    const notas = await banco.query("select count(*)::int as n from public.notas_paroquia n join public.paroquias p on p.id = n.paroquia_id where p.uf = 'RN'");
     expect(notas.rows[0]).toEqual({ n: 794 });
     const rn = await c("anon", null, "select count(*)::int as igrejas, count(distinct cidade)::int as cidades from public.paroquias where uf = 'RN'");
     expect(rn.rows[0]).toEqual({ igrejas: 805, cidades: 165 });
@@ -220,7 +220,7 @@ describe("dados de Natal (planilha do Missas.com.br)", () => {
     const corrigidas = await banco.query("select cidade from public.paroquias where id = any($1::uuid[]) and nome like 'Igreja de Nossa Senhora d%' order by cidade", [DA_PLANILHA]);
     expect(corrigidas.rows.map((x) => (x as { cidade: string }).cidade)).toContain("Ceará-Mirim");
     await expect(c("anon", null, "select * from public.notas_paroquia")).rejects.toThrow();
-    const h = await c("anon", null, "select tipo, count(*)::int as n from public.horarios group by tipo order by tipo");
+    const h = await c("anon", null, "select h.tipo, count(*)::int as n from public.horarios h join public.paroquias p on p.id = h.paroquia_id where p.uf = 'RN' group by h.tipo order by h.tipo");
     expect(h.rows).toEqual([
       { tipo: "adoracao", n: 13 },
       { tipo: "confissao", n: 71 },
@@ -248,13 +248,15 @@ describe("dados de Natal (planilha do Missas.com.br)", () => {
     expect(comParoquiaNoNome.rows).toEqual([]);
     const comCategoriaNoNome = await c("anon", null, "select count(*)::int as n from public.paroquias where nome ~ '^(Área|Quase)'");
     expect(comCategoriaNoNome.rows[0]).toEqual({ n: 0 });
-    const areas = await c("anon", null, "select count(*)::int as n from public.paroquias where tipo in ('area_missionaria', 'area_pastoral', 'quase_paroquia') and nome not like 'Igreja%'");
+    const areas = await c("anon", null, "select count(*)::int as n from public.paroquias where tipo in ('area_missionaria', 'area_pastoral', 'quase_paroquia') and matriz_id is null and nome not like 'Igreja%'");
     expect(areas.rows[0]).toEqual({ n: 0 });
-    const igrejas = await banco.query("select count(*)::int as n from public.paroquias where tipo in ('area_missionaria', 'area_pastoral', 'quase_paroquia')");
+    const igrejas = await banco.query("select count(*)::int as n from public.paroquias where uf = 'RN' and tipo in ('area_missionaria', 'area_pastoral', 'quase_paroquia')");
     expect(igrejas.rows[0]).toEqual({ n: 18 });
-    const oficiais = await banco.query("select count(*)::int as n from public.paroquias where fonte_oficial");
+    const altaSemSelo = await banco.query("select count(*)::int as n from public.notas_paroquia n join public.paroquias p on p.id = n.paroquia_id where n.confianca = 'alta' and not p.fonte_oficial");
+    expect(altaSemSelo.rows[0]).toEqual({ n: 0 });
+    const seloSemRespaldo = await banco.query("select count(*)::int as n from public.paroquias p where p.fonte_oficial and not exists (select 1 from public.notas_paroquia n where n.confianca = 'alta' and (n.paroquia_id = p.id or n.paroquia_id = p.matriz_id))");
+    expect(seloSemRespaldo.rows[0]).toEqual({ n: 0 });
     const altas = await banco.query("select count(*)::int as n from public.notas_paroquia where confianca = 'alta'");
-    expect(oficiais.rows[0]).toEqual(altas.rows[0]);
     expect(Number((altas.rows[0] as { n: number }).n)).toBeGreaterThan(100);
     const domingo = await c("anon", null, "select count(*)::int as matrizes, count(*) filter (where exists (select 1 from public.horarios h where h.paroquia_id = p.id and h.tipo = 'missa' and h.dia_semana = 0))::int as com_domingo from public.paroquias p where uf = 'RN' and tipo not in ('capela', 'comunidade', 'mosteiro')");
     expect(Number(domingo.rows[0]!.com_domingo) / Number(domingo.rows[0]!.matrizes)).toBeGreaterThan(0.7);

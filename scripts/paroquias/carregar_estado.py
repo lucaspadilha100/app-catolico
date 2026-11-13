@@ -104,6 +104,17 @@ def chave(*partes):
     return str(uuid.uuid5(ESPACO, base))
 
 
+def encurtar_fonte(url):
+    if len(url) <= 120:
+        return url
+    m = re.match(r"https?://[^/]+", url)
+    return m.group(0) if m else url[:120]
+
+
+def so_digitos(v):
+    return re.sub(r"\D", "", str(v or ""))[:20]
+
+
 def hora_ok(h):
     try:
         hh, mm = str(h).split(":")
@@ -121,6 +132,9 @@ def main():
     for diocese, arquivo in mapa.items():
         unidades = json.loads((pasta / "saida" / arquivo).read_text())
         for u in unidades:
+            if not (u.get("cidade") or "").strip():
+                avisos.append(f"SEM CIDADE, fora da carga: {u.get('nome')} ({diocese})")
+                continue
             categoria = TIPO_DA_CATEGORIA.get(u.get("categoria", "paroquia"))
             if not categoria:
                 avisos.append(f"categoria desconhecida: {u.get('categoria')} em {u.get('nome')}")
@@ -146,21 +160,21 @@ def main():
                     nome = re.sub(r"^(Área Pastoral|Área Missionária|Quase[- ][Pp]aróquia)(( d[aeo])?)\s+", r"Igreja\2 ", nome)
                 paroquias.append({
                     "id": pid,
-                    "nome": nome,
+                    "nome": nome[:160],
                     "tipo": tipo,
                     "matriz_id": None if n == 0 else matriz_id,
-                    "endereco": ig.get("endereco", ""),
-                    "bairro": ig.get("localidade", ""),
-                    "cidade": cidade,
+                    "endereco": (ig.get("endereco") or "")[:240],
+                    "bairro": (ig.get("localidade") or "")[:120],
+                    "cidade": cidade[:120],
                     "uf": uf_da_unidade,
-                    "padroeiro": u.get("padroeiro", "") if n == 0 else "",
-                    "telefone": contatos.get("telefone", "") if n == 0 else "",
-                    "whatsapp": contatos.get("whatsapp", "") if n == 0 else "",
-                    "instagram": contatos.get("instagram", "") if n == 0 else "",
-                    "site": contatos.get("site", "") if n == 0 else "",
-                    "email": contatos.get("email", "") if n == 0 else "",
-                    "diocese": diocese,
-                    "fonte": fontes[0] if fontes else "",
+                    "padroeiro": (u.get("padroeiro") or "")[:160] if n == 0 else "",
+                    "telefone": so_digitos(contatos.get("telefone")) if n == 0 else "",
+                    "whatsapp": so_digitos(contatos.get("whatsapp")) if n == 0 else "",
+                    "instagram": (contatos.get("instagram") or "").lstrip("@")[:60] if n == 0 else "",
+                    "site": (contatos.get("site") or "")[:200] if n == 0 else "",
+                    "email": (contatos.get("email") or "")[:160] if n == 0 else "",
+                    "diocese": diocese[:160],
+                    "fonte": encurtar_fonte(fontes[0]) if fontes else "",
                     "fonte_oficial": confianca == "alta",
                     "lat": None, "lng": None, "precisao": "",
                 })
