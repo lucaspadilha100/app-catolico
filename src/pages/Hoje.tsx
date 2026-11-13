@@ -9,7 +9,7 @@ import { useEffect, useState } from "react";
 import { caminhoDaImagem, focoDaImagem, santosDaDataMMDD, santosParaConhecer, seloDoSanto } from "@/santos/santos";
 import type { Santo } from "@/santos/tipos";
 import { ehDiaDePreceito, NOME_DA_PENITENCIA, penitenciaDoDia } from "@/liturgia/preceitos";
-import { usePreferencias } from "@/lib/preferencias";
+import { paroquiasFavoritas, usePreferencias } from "@/lib/preferencias";
 import { NOME_DA_LEMBRANCA, aniversarioDeBatismo, lembrancasDeHoje, useFalecidos } from "@/vida/lembrancas";
 import { useDiaLiturgico } from "@/lib/useDiaLiturgico";
 import { dataPorExtenso } from "@/liturgia/datas";
@@ -49,7 +49,9 @@ export default function Hoje() {
   useDevocoesGuardadas();
   const l = useDiaLiturgico();
   const andamento = emAndamento(l.data).slice(0, 4);
-  const { diocese, batismo, minhaParoquia } = usePreferencias().preferencias;
+  const preferencias = usePreferencias().preferencias;
+  const { diocese, batismo } = preferencias;
+  const temParoquia = paroquiasFavoritas(preferencias).length > 0;
   const [falecidos] = useFalecidos();
   const lembrancas = [
     ...lembrancasDeHoje(falecidos, l.data).map(({ falecido, lembranca }) =>
@@ -241,7 +243,7 @@ export default function Hoje() {
 
       {missas && <ReflexaoResumo canonica={evangelhoDaMissa(missas[0])} para="/liturgia#reflexao" />}
 
-      {minhaParoquia ? (
+      {temParoquia ? (
         <ProximaMissa />
       ) : (
         <Link to="/missas" className={linha}>

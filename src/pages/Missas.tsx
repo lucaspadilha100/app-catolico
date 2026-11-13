@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef, useState, type FormEvent, type ReactNode } from "react";
 import { Link, useLocation, useParams, useSearchParams } from "react-router-dom";
 import { AtSign, BadgeCheck, Bell, Check, ChevronDown, ChevronRight, Church, Clock, Globe, Heart, LocateFixed, Mail, MapPin, MessageCircle, Navigation, Pencil, Phone, Plus, Search, Share2 } from "lucide-react";
-import { usePreferencias } from "@/lib/preferencias";
+import { paroquiasFavoritas, usePreferencias } from "@/lib/preferencias";
 import { useConta } from "@/conta/useConta";
 import { agendaDeEventos, agendaDeHorarios, carregarParoquia, cidadesComParoquias, enviarSugestao, igrejasComHorarios, procurarParoquias, type Cidade, type Local, type ParoquiaCompleta } from "@/paroquias/api";
 import {
@@ -392,42 +392,49 @@ function EscolherOnde({
 }
 
 export function MinhaParoquia() {
-  const { minhaParoquia, minhaParoquiaNome } = usePreferencias().preferencias;
-  const [dados, setDados] = useState<ParoquiaCompleta | null>(null);
+  const favoritas = paroquiasFavoritas(usePreferencias().preferencias);
+  const [dados, setDados] = useState<Record<string, ParoquiaCompleta>>({});
   useEffect(() => {
-    if (!minhaParoquia) return;
     let ativo = true;
-    carregarParoquia(minhaParoquia)
-      .then((d) => ativo && setDados(d))
-      .catch(() => {});
+    for (const f of favoritas)
+      void carregarParoquia(f.id)
+        .then((d) => ativo && d && setDados((m) => ({ ...m, [f.id]: d })))
+        .catch(() => {});
     return () => {
       ativo = false;
     };
-  }, [minhaParoquia]);
-  if (!minhaParoquia) return null;
+  }, [favoritas.map((f) => f.id).join(",")]);
+  if (!favoritas.length) return null;
   const agora = new Date();
-  const proximas = dados ? proximasOcorrencias(dados.horarios.filter((h) => h.tipo === "missa"), agora, 7).slice(0, 3) : [];
   return (
     <Cartao>
-      <TituloCartao icone={Heart}>Minha paróquia</TituloCartao>
-      <Link to={`/missas/paroquia/${minhaParoquia}`} className="mt-2 flex items-center gap-2 text-xl font-bold text-marca tracking-[-0.02em]">
-        <span className="flex-1">{dados?.paroquia.nome ?? minhaParoquiaNome}</span>
-        <ChevronRight className="size-5 shrink-0 text-tinta-suave" aria-hidden />
-      </Link>
-      {proximas.length > 0 && (
-        <ul className="mt-2 flex flex-wrap gap-1.5">
-          {proximas.map((o) => (
-            <li key={o.horario.id + o.quando.toISOString()} className="rounded-lg bg-marca-fundo px-2.5 py-1 text-sm font-semibold text-destaque-texto">
-              {quandoPorExtenso(o.quando, agora)}
-            </li>
-          ))}
-        </ul>
-      )}
-      {dados?.avisos.map((a) => (
-        <p key={a.id} className="mt-3 rounded-xl bg-marca-fundo px-3 py-2 text-sm text-tinta">
-          {a.texto}
-        </p>
-      ))}
+      <TituloCartao icone={Heart}>{favoritas.length > 1 ? "Minhas paróquias" : "Minha paróquia"}</TituloCartao>
+      {favoritas.map((f) => {
+        const d = dados[f.id];
+        const proximas = d ? proximasOcorrencias(d.horarios.filter((h) => h.tipo === "missa"), agora, 7).slice(0, 3) : [];
+        return (
+          <div key={f.id}>
+            <Link to={`/missas/paroquia/${f.id}`} className="mt-2 flex items-center gap-2 text-xl font-bold text-marca tracking-[-0.02em]">
+              <span className="flex-1">{d?.paroquia.nome ?? f.nome}</span>
+              <ChevronRight className="size-5 shrink-0 text-tinta-suave" aria-hidden />
+            </Link>
+            {proximas.length > 0 && (
+              <ul className="mt-2 flex flex-wrap gap-1.5">
+                {proximas.map((o) => (
+                  <li key={o.horario.id + o.quando.toISOString()} className="rounded-lg bg-marca-fundo px-2.5 py-1 text-sm font-semibold text-destaque-texto">
+                    {quandoPorExtenso(o.quando, agora)}
+                  </li>
+                ))}
+              </ul>
+            )}
+            {d?.avisos.map((a) => (
+              <p key={a.id} className="mt-3 rounded-xl bg-marca-fundo px-3 py-2 text-sm text-tinta">
+                {a.texto}
+              </p>
+            ))}
+          </div>
+        );
+      })}
     </Cartao>
   );
 }
@@ -845,7 +852,8 @@ export function ParoquiaPagina() {
   if (dados === "nada") return <NaoEncontrada />;
   if (dados === "erro") return <Indisponivel />;
   const { paroquia: p, horarios, avisos, podeEditar, matriz, capelas } = dados;
-  const minha = preferencias.minhaParoquia === p.id;
+  const favoritas = paroquiasFavoritas(preferencias);
+  const minha = favoritas.some((x) => x.id === p.id);
   const sigo = seguidas.includes(p.id);
   const destino = p.lat !== null && p.lng !== null ? `${p.lat},${p.lng}` : encodeURIComponent(`${p.endereco}, ${p.bairro}, ${p.cidade} - ${p.uf}`);
   const endereco = [p.endereco, p.bairro, `${p.cidade} - ${p.uf}`].filter(Boolean).join(", ");
@@ -924,7 +932,8 @@ export function ParoquiaPagina() {
           <button
             type="button"
             onClick={() => {
-              mudar(minha ? { minhaParoquia: "", minhaParoquiaNome: "" } : { minhaParoquia: p.id, minhaParoquiaNome: p.nome });
+              const nova = minha ? favoritas.filter((x) => x.id !== p.id) : [...favoritas, { id: p.id, nome: p.nome }].slice(0, 5);
+              mudar({ minhasParoquias: nova, minhaParoquia: nova[0]?.id ?? "", minhaParoquiaNome: nova[0]?.nome ?? "" });
               setTimeout(avisarMudancaDeIgrejas, 300);
             }}
             aria-pressed={minha}

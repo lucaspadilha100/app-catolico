@@ -12,6 +12,7 @@ export interface Preferencias {
   batismo: string;
   minhaParoquia: string;
   minhaParoquiaNome: string;
+  minhasParoquias: { id: string; nome: string }[];
   cidadeDasMissas: string;
   cidadesRecentes: string[];
   boasVindas: boolean;
@@ -20,7 +21,10 @@ export interface Preferencias {
 }
 
 const CHAVE = "santinho-preferencias";
-const PADRAO: Preferencias = { tema: "sistema", letra: "normal", simples: false, diocese: "", batismo: "", minhaParoquia: "", minhaParoquiaNome: "", cidadeDasMissas: "", cidadesRecentes: [], boasVindas: false, apoiadorAte: "", corDoApp: "liturgica" };
+const PADRAO: Preferencias = { tema: "sistema", letra: "normal", simples: false, diocese: "", batismo: "", minhaParoquia: "", minhaParoquiaNome: "", minhasParoquias: [], cidadeDasMissas: "", cidadesRecentes: [], boasVindas: false, apoiadorAte: "", corDoApp: "liturgica" };
+
+export const paroquiasFavoritas = (p: Preferencias): { id: string; nome: string }[] =>
+  p.minhasParoquias.length ? p.minhasParoquias : p.minhaParoquia ? [{ id: p.minhaParoquia, nome: p.minhaParoquiaNome }] : [];
 
 function ler(): Preferencias {
   try {

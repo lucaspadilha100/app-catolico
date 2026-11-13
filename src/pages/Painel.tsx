@@ -360,7 +360,7 @@ function ListaDoPainel() {
               <span className="min-w-0 flex-1">
                 <span className="block leading-snug text-tinta">{p.nome}</span>
                 <span className="block text-sm text-tinta-suave">
-                  {[p.bairro, p.cidade, p.lat === null && "sem mapa", !p.ativa && "oculta", p.conferida_em && `conferida em ${new Date(p.conferida_em).toLocaleDateString("pt-BR")}`]
+                  {[p.bairro, p.cidade, p.lat === null && "sem mapa", !p.ativa && "oculta", !p.conferida_em && p.fonte_oficial && "fonte oficial", p.conferida_em && `conferida em ${new Date(p.conferida_em).toLocaleDateString("pt-BR")}`]
                     .filter(Boolean)
                     .join(" · ")}
                 </span>

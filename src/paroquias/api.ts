@@ -193,6 +193,7 @@ export interface ParoquiaDoPainel {
   lat: number | null;
   conferida_em: string | null;
   ativa: boolean;
+  fonte_oficial: boolean;
 }
 
 export type FiltroDoPainel = "conferir" | "conferidas" | "todas";
@@ -213,10 +214,10 @@ export async function paroquiasDoPainel(p: { filtro: FiltroDoPainel; termo: stri
     .split(/\s+/)
     .filter(Boolean)
     .map((w) => w.replace(/[%_,()]/g, ""));
-  const montar = <Q extends { like: (col: string, v: string) => Q; is: (col: string, v: null) => Q; not: (col: string, op: string, v: null) => Q }>(q: Q, filtro: FiltroDoPainel) => {
+  const montar = <Q extends { like: (col: string, v: string) => Q; is: (col: string, v: null) => Q; not: (col: string, op: string, v: null) => Q; filter: (col: string, op: string, v: unknown) => Q }>(q: Q, filtro: FiltroDoPainel) => {
     let r = q;
     for (const w of palavras) r = r.like("busca", `%${w}%`);
-    if (filtro === "conferir") r = r.is("conferida_em", null);
+    if (filtro === "conferir") r = r.is("conferida_em", null).filter("fonte_oficial", "eq", false);
     if (filtro === "conferidas") r = r.not("conferida_em", "is", null);
     return r;
   };
@@ -226,7 +227,7 @@ export async function paroquiasDoPainel(p: { filtro: FiltroDoPainel; termo: stri
     return r.count ?? 0;
   };
   const [lista, conferir, conferidas, todas] = await Promise.all([
-    montar(c.from("paroquias").select("id, nome, bairro, cidade, lat, conferida_em, ativa"), p.filtro)
+    montar(c.from("paroquias").select("id, nome, bairro, cidade, lat, conferida_em, ativa, fonte_oficial"), p.filtro)
       .order("nome")
       .order("id")
       .range(p.pular, p.pular + p.limite - 1),

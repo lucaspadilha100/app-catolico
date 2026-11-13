@@ -78,6 +78,9 @@ describe("paróquia, área e capela", () => {
     await expect(db.query("update public.paroquias set matriz_id = id where id = $1", [matriz])).rejects.toThrow();
     await db.query("update public.paroquias set tipo = 'paroquia' where id = $1", [matriz]);
     await db.query("update public.paroquias set matriz_id = null");
+    await como("authenticated", GESTOR_ID, "update public.paroquias set fonte_oficial = true where id = $1", [matriz]);
+    const protegida = await db.query("select fonte_oficial from public.paroquias where id = $1", [matriz]);
+    expect(protegida.rows[0]).toEqual({ fonte_oficial: false });
   });
 });
 
@@ -214,8 +217,8 @@ describe("dados de Natal (planilha do Missas.com.br)", () => {
     expect(rn.rows[0]).toEqual({ igrejas: 805, cidades: 165 });
     const caico = await c("anon", null, "select count(*)::int as n from public.buscar_paroquias('catedral sant ana caico')");
     expect(Number(caico.rows[0]!.n)).toBeGreaterThan(0);
-    const corrigidas = await banco.query("select cidade from public.paroquias where id = any($1::uuid[]) and nome like 'Área Pastoral de Nossa Senhora d%' order by nome", [DA_PLANILHA]);
-    expect(corrigidas.rows).toEqual([{ cidade: "Ceará-Mirim" }, { cidade: "Rio do Fogo" }]);
+    const corrigidas = await banco.query("select cidade from public.paroquias where id = any($1::uuid[]) and nome like 'Paróquia de Nossa Senhora d%' order by cidade", [DA_PLANILHA]);
+    expect(corrigidas.rows.map((x) => (x as { cidade: string }).cidade)).toContain("Ceará-Mirim");
     await expect(c("anon", null, "select * from public.notas_paroquia")).rejects.toThrow();
     const h = await c("anon", null, "select tipo, count(*)::int as n from public.horarios group by tipo order by tipo");
     expect(h.rows).toEqual([
@@ -243,8 +246,12 @@ describe("dados de Natal (planilha do Missas.com.br)", () => {
     expect(Number(ligadas.rows[0]!.n)).toBeGreaterThan(500);
     const comParoquiaNoNome = await c("anon", null, "select nome from public.paroquias where uf = 'RN' and nome ~ '\\((Par[oó]quia|[ÁA]rea|Quase)'");
     expect(comParoquiaNoNome.rows).toEqual([]);
-    const areas = await c("anon", null, "select tipo, count(*)::int as n from public.paroquias where uf = 'RN' and tipo in ('area_missionaria', 'area_pastoral', 'quase_paroquia') group by tipo order by tipo");
-    expect(areas.rows.map((x) => x.tipo)).toEqual(["area_missionaria", "area_pastoral", "quase_paroquia"]);
+    const areas = await c("anon", null, "select count(*)::int as n from public.paroquias where tipo in ('area_missionaria', 'area_pastoral', 'quase_paroquia') or nome ~ '^(Área|Quase)'");
+    expect(areas.rows[0]).toEqual({ n: 0 });
+    const oficiais = await banco.query("select count(*)::int as n from public.paroquias where fonte_oficial");
+    const altas = await banco.query("select count(*)::int as n from public.notas_paroquia where confianca = 'alta'");
+    expect(oficiais.rows[0]).toEqual(altas.rows[0]);
+    expect(Number((altas.rows[0] as { n: number }).n)).toBeGreaterThan(100);
     const domingo = await c("anon", null, "select count(*)::int as matrizes, count(*) filter (where exists (select 1 from public.horarios h where h.paroquia_id = p.id and h.tipo = 'missa' and h.dia_semana = 0))::int as com_domingo from public.paroquias p where uf = 'RN' and tipo not in ('capela', 'comunidade', 'mosteiro')");
     expect(Number(domingo.rows[0]!.com_domingo) / Number(domingo.rows[0]!.matrizes)).toBeGreaterThan(0.7);
     const conferida = await c("anon", null, "select count(*)::int as n from public.horarios h join public.paroquias p on p.id = h.paroquia_id where p.nome = 'Paróquia de Sant''Ana, Soledade II' and h.tipo = 'missa'");

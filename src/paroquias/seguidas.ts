@@ -12,11 +12,12 @@ export const lerSeguidas = (): string[] => {
 };
 
 export function igrejasQueSigo(): string[] {
-  let minha = "";
+  let minhas: string[] = [];
   try {
-    minha = (JSON.parse(localStorage.getItem("santinho-preferencias") ?? "{}") as { minhaParoquia?: string }).minhaParoquia ?? "";
+    const p = JSON.parse(localStorage.getItem("santinho-preferencias") ?? "{}") as { minhaParoquia?: string; minhasParoquias?: { id: string }[] };
+    minhas = [...(p.minhasParoquias ?? []).map((x) => x.id), p.minhaParoquia ?? ""];
   } catch {}
-  return [...new Set([minha, ...lerSeguidas()].filter(Boolean))].slice(0, 30);
+  return [...new Set([...minhas, ...lerSeguidas()].filter(Boolean))].slice(0, 30);
 }
 
 export function useIgrejasSeguidas(): [string[], (id: string) => void] {

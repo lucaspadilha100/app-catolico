@@ -152,7 +152,7 @@ function PassoParoquia({ onde, terminar }: { onde: Cidade | "perto" | null; term
               key={p.id}
               type="button"
               onClick={() => {
-                mudar({ minhaParoquia: p.id, minhaParoquiaNome: p.nome });
+                mudar({ minhaParoquia: p.id, minhaParoquiaNome: p.nome, minhasParoquias: [{ id: p.id, nome: p.nome }] });
                 terminar();
               }}
               className="flex min-h-14 flex-col justify-center px-4 py-2 text-left"
