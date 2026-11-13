@@ -1,0 +1,6193 @@
+[
+ {
+  "id_banco": null,
+  "nome": "Catedral Nossa Senhora do Carmo",
+  "categoria": "catedral",
+  "cidade": "Jaboticabal",
+  "padroeiro": "Nossa Senhora do Carmo",
+  "contatos": {
+   "telefone": "1632033490",
+   "whatsapp": "1632033490",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Catedral Nossa Senhora do Carmo",
+    "tipo": "matriz",
+    "cidade": "Jaboticabal",
+    "localidade": "Centro",
+    "endereco": "Praça Dr. Joaquim Batista, s/nº",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Expedito",
+    "tipo": "comunidade",
+    "cidade": "Jaboticabal",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/se-catedral",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/se-catedral",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Sé da diocese, paróquia criada em 1857. Tem a Comunidade Santo Expedito."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santuário Nossa Senhora da Conceição Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Jaboticabal",
+  "padroeiro": "Nossa Senhora da Conceição Aparecida",
+  "contatos": {
+   "telefone": "1632024380",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário Nossa Senhora da Conceição Aparecida",
+    "tipo": "santuario",
+    "cidade": "Jaboticabal",
+    "localidade": "Aparecida",
+    "endereco": "Rua José Bonifácio, 380",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": "Na Capela do Milagre"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": "Na Capela do Milagre"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": "Na Capela do Milagre"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": "Na Capela do Milagre"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": "Na Capela do Milagre"
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Senhor Bom Jesus",
+    "tipo": "comunidade",
+    "cidade": "Jaboticabal",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Rita de Cássia",
+    "tipo": "comunidade",
+    "cidade": "Jaboticabal",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrada Família",
+    "tipo": "comunidade",
+    "cidade": "Jaboticabal",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Senhor Bom Pastor",
+    "tipo": "comunidade",
+    "cidade": "Jaboticabal",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/santuario-aparecida",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/santuario-aparecida",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "A página da diocese foi atualizada pela última vez em 26/12/2024. A missa das 19h de segunda a sexta é na Capela do Milagre."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Benedito",
+  "categoria": "paroquia",
+  "cidade": "Jaboticabal",
+  "padroeiro": "São Benedito",
+  "contatos": {
+   "telefone": "1632021099",
+   "whatsapp": "16997613489",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Benedito",
+    "tipo": "matriz",
+    "cidade": "Jaboticabal",
+    "localidade": "Centro",
+    "endereco": "Avenida Libero Badaró, 670",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Jesus Crucificado",
+    "tipo": "comunidade",
+    "cidade": "Jaboticabal",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Cristóvão",
+    "tipo": "comunidade",
+    "cidade": "Jaboticabal",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Rosa de Lima",
+    "tipo": "comunidade",
+    "cidade": "Jaboticabal",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Teresinha",
+    "tipo": "comunidade",
+    "cidade": "Jaboticabal",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrada Família",
+    "tipo": "comunidade",
+    "cidade": "Jaboticabal",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Missa na última sexta-feira do mês, às 19h30."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Isabel",
+    "tipo": "capela",
+    "cidade": "Jaboticabal",
+    "localidade": "Hospital e Maternidade Santa Isabel",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Miguel Arcanjo",
+    "tipo": "capela",
+    "cidade": "Jaboticabal",
+    "localidade": "Cemitério",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Missa às 7h30 no Dia das Mães, no Dia dos Pais, no dia de São Miguel Arcanjo e em Finados."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Vicente de Paulo",
+    "tipo": "capela",
+    "cidade": "Jaboticabal",
+    "localidade": "Vila Vicentina",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Missa às 19h; a fonte não diz o dia."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/sao-benedito",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/sao-benedito",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Lourdes",
+  "categoria": "paroquia",
+  "cidade": "Jaboticabal",
+  "padroeiro": "Nossa Senhora de Lourdes",
+  "contatos": {
+   "telefone": "1632020757",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora de Lourdes",
+    "tipo": "matriz",
+    "cidade": "Jaboticabal",
+    "localidade": "Sorocabano",
+    "endereco": "Rua Luis Niero, 76",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Todo dia 11, às 19h30: Novena Perpétua e Missa pelos Enfermos. Missa nas casas (setores) na última sexta-feira do mês, às 19h30."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Batista",
+    "tipo": "comunidade",
+    "cidade": "Jaboticabal",
+    "localidade": "Córrego Rico",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Missa também na última quarta-feira do mês, às 19h30."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco de Assis",
+    "tipo": "comunidade",
+    "cidade": "Jaboticabal",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Teresa de Calcutá",
+    "tipo": "comunidade",
+    "cidade": "Jaboticabal",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Roque",
+    "tipo": "comunidade",
+    "cidade": "Jaboticabal",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Adélia",
+    "tipo": "comunidade",
+    "cidade": "Jaboticabal",
+    "localidade": "Usina",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/nossa-senhora-de-lourdes",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/nossa-senhora-de-lourdes",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Judas Tadeu",
+  "categoria": "paroquia",
+  "cidade": "Jaboticabal",
+  "padroeiro": "São Judas Tadeu",
+  "contatos": {
+   "telefone": "1632033834",
+   "whatsapp": "1632033834",
+   "instagram": "psjtadeu_jaboticabal",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Judas Tadeu",
+    "tipo": "matriz",
+    "cidade": "Jaboticabal",
+    "localidade": "Residencial São Judas Tadeu",
+    "endereco": "Praça Dom José Varani, 150",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa da Catequese"
+     }
+    ],
+    "nao_cabe": "Todo dia 28, missa votiva a São Judas Tadeu: 19h30 de segunda a sexta, 19h no sábado e no domingo."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/sao-judas-tadeu",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/sao-judas-tadeu",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "A página da diocese foi atualizada pela última vez em 09/08/2024. O número da secretaria aparece como WhatsApp."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José Operário",
+  "categoria": "paroquia",
+  "cidade": "Jaboticabal",
+  "padroeiro": "São José Operário",
+  "contatos": {
+   "telefone": "1632022578",
+   "whatsapp": "16994412148",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São José Operário",
+    "tipo": "matriz",
+    "cidade": "Jaboticabal",
+    "localidade": "Jardim Santa Rosa",
+    "endereco": "Rua Ângelo Morello, 222",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Maria de Nazaré",
+    "tipo": "comunidade",
+    "cidade": "Jaboticabal",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Cristo Redentor",
+    "tipo": "comunidade",
+    "cidade": "Jaboticabal",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Jaboticabal",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Vicente de Paulo",
+    "tipo": "comunidade",
+    "cidade": "Jaboticabal",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/sao-jose-operario",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/sao-jose-operario",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Teresa de Jesus",
+  "categoria": "paroquia",
+  "cidade": "Jaboticabal",
+  "padroeiro": "Santa Teresa de Jesus",
+  "contatos": {
+   "telefone": "1632020658",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santa Teresa de Jesus",
+    "tipo": "matriz",
+    "cidade": "Jaboticabal",
+    "localidade": "Santa Teresa",
+    "endereco": "Rua José Romito, 99",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa votiva do Sagrado Coração de Jesus"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": "Atendimento espiritual e confissões"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "14:00",
+      "semanas": null,
+      "observacao": "Atendimento espiritual e confissões"
+     }
+    ],
+    "nao_cabe": "Todo dia 18, às 19h30: Missa da Aliança de Amor."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Luzia",
+    "tipo": "comunidade",
+    "cidade": "Jaboticabal",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Agostinho",
+    "tipo": "comunidade",
+    "cidade": "Jaboticabal",
+    "localidade": "Lusitânia",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:30",
+      "semanas": [
+       1,
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Batista",
+    "tipo": "comunidade",
+    "cidade": "Jaboticabal",
+    "localidade": "Pedreira Dr. Fontes",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Missa no último sábado do mês, às 17h30."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Sebastião",
+    "tipo": "comunidade",
+    "cidade": "Jaboticabal",
+    "localidade": "Vila Nova",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": [
+       2,
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Quatro Capelas",
+    "tipo": "comunidade",
+    "cidade": "Jaboticabal",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": [
+       1,
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Reúne as capelas Nossa Senhora da Assunção, Senhor Bom Jesus, Nossa Senhora das Graças e Santa Luzia."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/santa-teresa",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/santa-teresa",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "A página traz horário de atendimento e confissões na matriz."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "Barrinha",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "1639433263",
+   "whatsapp": "1639433263",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São João Batista",
+    "tipo": "matriz",
+    "cidade": "Barrinha",
+    "localidade": "Centro",
+    "endereco": "Praça Antonio Prado, s/nº",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Missa das CEBs na 3ª terça-feira do mês, às 19h30."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Judas Tadeu",
+    "tipo": "capela",
+    "cidade": "Barrinha",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "08:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/sao-joao-batista",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/sao-joao-batista",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Conceição Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Barrinha",
+  "padroeiro": "Nossa Senhora da Conceição Aparecida",
+  "contatos": {
+   "telefone": "1621364937",
+   "whatsapp": "1621364937",
+   "instagram": "paroquiansca.barrinha",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Barrinha",
+    "localidade": "Jardim Horizonte",
+    "endereco": "Rua Honório de Figueiredo, 355",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Missa nos setores (nas casas) às quartas-feiras, 19h30."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco de Assis",
+    "tipo": "comunidade",
+    "cidade": "Barrinha",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Senhor Bom Jesus",
+    "tipo": "comunidade",
+    "cidade": "Barrinha",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Rita de Cássia",
+    "tipo": "comunidade",
+    "cidade": "Barrinha",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/conceicao-aparecida",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/conceicao-aparecida",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Paróquia recente: o GCatholic ainda não a lista. A fonte chama a igreja de Matriz Nossa Senhora Aparecida."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "Taquaritinga",
+  "padroeiro": "São Sebastião",
+  "contatos": {
+   "telefone": "1632522331",
+   "whatsapp": "1632523516",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Sebastião",
+    "tipo": "matriz",
+    "cidade": "Taquaritinga",
+    "localidade": "Centro",
+    "endereco": "Praça Dr. Aimone Salemo, 139",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Asilo São Vicente de Paulo: 4ª segunda-feira, 15h30."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Taquaritinga",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora das Graças",
+    "tipo": "comunidade",
+    "cidade": "Taquaritinga",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Cristóvão",
+    "tipo": "comunidade",
+    "cidade": "Taquaritinga",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Benedito",
+    "tipo": "comunidade",
+    "cidade": "Taquaritinga",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Judas Tadeu",
+    "tipo": "comunidade",
+    "cidade": "Taquaritinga",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela das Irmãs Franciscanas",
+    "tipo": "capela",
+    "cidade": "Taquaritinga",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela da Santa Casa",
+    "tipo": "capela",
+    "cidade": "Taquaritinga",
+    "localidade": "Santa Casa",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "16:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/sao-sebastiao",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/sao-sebastiao",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Francisco de Assis",
+  "categoria": "paroquia",
+  "cidade": "Taquaritinga",
+  "padroeiro": "São Francisco de Assis",
+  "contatos": {
+   "telefone": "1632525828",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Francisco de Assis",
+    "tipo": "matriz",
+    "cidade": "Taquaritinga",
+    "localidade": "Jardim São Sebastião",
+    "endereco": "Rua Dona Celeste Cavalini, 278",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Vila Vicentina: sexta-feira, 9h30. Hospital: quarta-feira, 8h. Pequenas comunidades: quinta-feira, 20h."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Paulina",
+    "tipo": "comunidade",
+    "cidade": "Taquaritinga",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santíssima Trindade",
+    "tipo": "comunidade",
+    "cidade": "Taquaritinga",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrado Coração de Jesus",
+    "tipo": "comunidade",
+    "cidade": "Taquaritinga",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José Operário",
+    "tipo": "comunidade",
+    "cidade": "Taquaritinga",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/sao-francisco-de-assis",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/sao-francisco-de-assis",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Luzia",
+  "categoria": "paroquia",
+  "cidade": "Taquaritinga",
+  "padroeiro": "Santa Luzia",
+  "contatos": {
+   "telefone": "1632524908",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santa Luzia",
+    "tipo": "matriz",
+    "cidade": "Taquaritinga",
+    "localidade": "Jardim Buscardi",
+    "endereco": "Rua João Mantese Sobrinho, 320",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Comunidade Terapêutica Feminina Jesus em Damasco: quinta-feira, 7h."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Edwiges",
+    "tipo": "comunidade",
+    "cidade": "Taquaritinga",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Rita de Cássia",
+    "tipo": "comunidade",
+    "cidade": "Taquaritinga",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Batista e Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Taquaritinga",
+    "localidade": "Jurupema",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Bento",
+    "tipo": "comunidade",
+    "cidade": "Taquaritinga",
+    "localidade": "Vila Negri",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Izidro",
+    "tipo": "comunidade",
+    "cidade": "Taquaritinga",
+    "localidade": "Itagaçaba",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Terezinha do Menino Jesus",
+    "tipo": "comunidade",
+    "cidade": "Taquaritinga",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/santa-luzia",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/santa-luzia",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sagrada Família de Nazaré",
+  "categoria": "paroquia",
+  "cidade": "Taquaritinga",
+  "padroeiro": "Sagrada Família",
+  "contatos": {
+   "telefone": "1632529527",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Sagrada Família de Nazaré",
+    "tipo": "matriz",
+    "cidade": "Taquaritinga",
+    "localidade": "Jardim Paraíso I",
+    "endereco": "Praça Monsenhor José Sala Cortada, 410",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Missa nos setores às quartas-feiras, 19h30."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Taquaritinga",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Cruz",
+    "tipo": "comunidade",
+    "cidade": "Taquaritinga",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Pedro Poveda",
+    "tipo": "comunidade",
+    "cidade": "Taquaritinga",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/sagrada-familia",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/sagrada-familia",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Pedro Apóstolo",
+  "categoria": "paroquia",
+  "cidade": "Taquaritinga",
+  "padroeiro": "São Pedro Apóstolo",
+  "contatos": {
+   "telefone": "1632541162",
+   "whatsapp": "1632541162",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Pedro Apóstolo",
+    "tipo": "matriz",
+    "cidade": "Taquaritinga",
+    "localidade": "Guariroba",
+    "endereco": "Praça José Pires de Góes, s/nº",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Senhor Bom Jesus",
+    "tipo": "comunidade",
+    "cidade": "Taquaritinga",
+    "localidade": "Guariroba",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Judas Tadeu",
+    "tipo": "comunidade",
+    "cidade": "Taquaritinga",
+    "localidade": "Guariroba",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/sao-pedro",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/sao-pedro",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Matriz no distrito de Guariroba (Taquaritinga)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Mateus",
+  "categoria": "paroquia",
+  "cidade": "Guariba",
+  "padroeiro": "São Mateus",
+  "contatos": {
+   "telefone": "1632511275",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Mateus",
+    "tipo": "matriz",
+    "cidade": "Guariba",
+    "localidade": "Centro",
+    "endereco": "Avenida Antônio Albino, 1000",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Benedito",
+    "tipo": "comunidade",
+    "cidade": "Guariba",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Cruz",
+    "tipo": "comunidade",
+    "cidade": "Guariba",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Sebastião",
+    "tipo": "comunidade",
+    "cidade": "Guariba",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Guariba",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Beato Scalabrini",
+    "tipo": "comunidade",
+    "cidade": "Guariba",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Guariba",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora das Graças",
+    "tipo": "comunidade",
+    "cidade": "Guariba",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/sao-mateus",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/sao-mateus",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora dos Migrantes",
+  "categoria": "paroquia",
+  "cidade": "Guariba",
+  "padroeiro": "Nossa Senhora dos Migrantes",
+  "contatos": {
+   "telefone": "1632512208",
+   "whatsapp": "1632512208",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora dos Migrantes",
+    "tipo": "matriz",
+    "cidade": "Guariba",
+    "localidade": "Jardim Hortência",
+    "endereco": "Rua Primo Roma, 440",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Batista",
+    "tipo": "comunidade",
+    "cidade": "Guariba",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Rita de Cássia",
+    "tipo": "comunidade",
+    "cidade": "Guariba",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco de Assis",
+    "tipo": "comunidade",
+    "cidade": "Guariba",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Expedito",
+    "tipo": "comunidade",
+    "cidade": "Guariba",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Judas Tadeu",
+    "tipo": "comunidade",
+    "cidade": "Guariba",
+    "localidade": "Centro Social",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/nossa-senhora-dos-migrantes",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/nossa-senhora-dos-migrantes",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Francisco de Paula",
+  "categoria": "paroquia",
+  "cidade": "Dobrada",
+  "padroeiro": "São Francisco de Paula",
+  "contatos": {
+   "telefone": "16991357562",
+   "whatsapp": "16991357562",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Francisco de Paula",
+    "tipo": "matriz",
+    "cidade": "Dobrada",
+    "localidade": "Centro",
+    "endereco": "Praça Dr. Carlos Alves Pinto",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Todo dia 2 há missa do padroeiro; a fonte não dá a hora."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Dobrada",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Dobrada",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Miguel Arcanjo",
+    "tipo": "comunidade",
+    "cidade": "Dobrada",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/sao-francisco",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/sao-francisco",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "O telefone publicado pela diocese para a paróquia é um celular, o mesmo do WhatsApp."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Pradópolis",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Pradópolis",
+    "localidade": "Centro",
+    "endereco": "Praça Padre Domingos, s/nº",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Pradópolis",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santo Expedito",
+    "tipo": "capela",
+    "cidade": "Pradópolis",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": [
+       2,
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Pradópolis",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Rita de Cássia",
+    "tipo": "capela",
+    "cidade": "Pradópolis",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": [
+       1,
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora dos Migrantes",
+    "tipo": "capela",
+    "cidade": "Pradópolis",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Filomena",
+    "tipo": "capela",
+    "cidade": "Pradópolis",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/santo-antonio",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/santo-antonio",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "O telefone na página da diocese está incompleto, (16) 3981-150, e ficou de fora."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Joaquim e Sant'Ana",
+  "categoria": "paroquia",
+  "cidade": "Santa Ernestina",
+  "padroeiro": "São Joaquim e Sant'Ana",
+  "contatos": {
+   "telefone": "1632561281",
+   "whatsapp": "16997792726",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Joaquim e Sant'Ana",
+    "tipo": "matriz",
+    "cidade": "Santa Ernestina",
+    "localidade": "Centro",
+    "endereco": "Rua Sete de Setembro, 86",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Todo dia 29, às 19h30. Missa das CEBs nas residências às terças-feiras, 19h30."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Rita de Cássia",
+    "tipo": "capela",
+    "cidade": "Santa Ernestina",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/sao-joaquim-e-santana",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/sao-joaquim-e-santana",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "Bebedouro",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "1733421424",
+   "whatsapp": "17996622636",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São João Batista",
+    "tipo": "matriz",
+    "cidade": "Bebedouro",
+    "localidade": "Centro",
+    "endereco": "Praça Monsenhor Aristides da Silveira Leite, s/nº",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Recanto São Vicente de Paulo (Passionistas): terça-feira, 18h."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Terezinha do Menino Jesus",
+    "tipo": "comunidade",
+    "cidade": "Bebedouro",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora das Graças",
+    "tipo": "comunidade",
+    "cidade": "Bebedouro",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/paroquia-sao-joao-batista",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/paroquia-sao-joao-batista",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Bebedouro",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "1733424910",
+   "whatsapp": "1733424910",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Bebedouro",
+    "localidade": "Centro",
+    "endereco": "Praça Nossa Senhora Aparecida, s/nº",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Todo dia 29, missa de São Miguel; a fonte não dá a hora."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Cristo Rei",
+    "tipo": "comunidade",
+    "cidade": "Bebedouro",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Bebedouro",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Benedito",
+    "tipo": "comunidade",
+    "cidade": "Bebedouro",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/nossa-senhora-aparecida",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/nossa-senhora-aparecida",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sagrado Coração de Jesus",
+  "categoria": "paroquia",
+  "cidade": "Bebedouro",
+  "padroeiro": "Sagrado Coração de Jesus",
+  "contatos": {
+   "telefone": "1733441525",
+   "whatsapp": "17991379307",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Sagrado Coração de Jesus",
+    "tipo": "matriz",
+    "cidade": "Bebedouro",
+    "localidade": "Jardim São Francisco",
+    "endereco": "Praça Nivaldo Salvador, 95",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa devocional ao Sagrado Coração de Jesus"
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": "Hora Santa Eucarística"
+     }
+    ],
+    "nao_cabe": "Pequenas comunidades, missa nas casas: última quinta-feira do mês, 20h."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Bebedouro",
+    "localidade": "Povoado de Andes",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Divino Espírito Santo",
+    "tipo": "comunidade",
+    "cidade": "Bebedouro",
+    "localidade": "Jardim União",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/sagrado-coracao",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/sagrado-coracao",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Paróquia confiada aos franciscanos (OFM)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Inácio de Loyola",
+  "categoria": "paroquia",
+  "cidade": "Bebedouro",
+  "padroeiro": "Santo Inácio de Loyola",
+  "contatos": {
+   "telefone": "17991744776",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santo Inácio de Loyola",
+    "tipo": "matriz",
+    "cidade": "Bebedouro",
+    "localidade": "Jardim Aeroporto",
+    "endereco": "Av. Joaquim Alves Guimarães, 303",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Lar do Idoso: terça e sexta-feira, 7h."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José Operário",
+    "tipo": "comunidade",
+    "cidade": "Bebedouro",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Luzia",
+    "tipo": "comunidade",
+    "cidade": "Bebedouro",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Terezinha",
+    "tipo": "comunidade",
+    "cidade": "Bebedouro",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Guadalupe",
+    "tipo": "comunidade",
+    "cidade": "Bebedouro",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/santo-inacio",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/santo-inacio",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "O telefone publicado pela diocese para a paróquia é um celular."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Pedro Claver",
+  "categoria": "paroquia",
+  "cidade": "Bebedouro",
+  "padroeiro": "São Pedro Claver",
+  "contatos": {
+   "telefone": "1733422969",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Pedro Claver",
+    "tipo": "matriz",
+    "cidade": "Bebedouro",
+    "localidade": "Jardim Marajá",
+    "endereco": "Rua Belo Horizonte, 155",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Sebastião",
+    "tipo": "comunidade",
+    "cidade": "Bebedouro",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Expedito",
+    "tipo": "comunidade",
+    "cidade": "Bebedouro",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/sao-pedro-claver",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/sao-pedro-claver",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio de Sant'Anna Galvão",
+  "categoria": "paroquia",
+  "cidade": "Bebedouro",
+  "padroeiro": "Santo Antônio de Sant'Anna Galvão",
+  "contatos": {
+   "telefone": "1733435083",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santo Antônio de Sant'Anna Galvão",
+    "tipo": "matriz",
+    "cidade": "Bebedouro",
+    "localidade": "Jardim Centenário",
+    "endereco": "Av. José Augusto de Carvalho, 1560",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "05:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:10",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Fazenda Santa Irene: sábado, 17h."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Bebedouro",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/santo-antonio-galvao",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/santo-antonio-galvao",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Judas Tadeu",
+  "categoria": "paroquia",
+  "cidade": "Bebedouro",
+  "padroeiro": "São Judas Tadeu",
+  "contatos": {
+   "telefone": "1733452246",
+   "whatsapp": "17996139684",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Judas Tadeu",
+    "tipo": "matriz",
+    "cidade": "Bebedouro",
+    "localidade": "Jardim Laranjeiras",
+    "endereco": "Rua Bento Maria, s/nº",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Todo dia 28: 19h30 de segunda a sexta; 19h no sábado e no domingo."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Bebedouro",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrada Família",
+    "tipo": "comunidade",
+    "cidade": "Bebedouro",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Cristóvão",
+    "tipo": "comunidade",
+    "cidade": "Bebedouro",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/paroquia-sao-judas",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/paroquia-sao-judas",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Bebedouro",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "1733425782",
+   "whatsapp": "17981152917",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Bebedouro",
+    "localidade": "Botafogo",
+    "endereco": "Praça Nossa Senhora Aparecida, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Centro Catequético: terça-feira, 19h30. Comunidades: quinta-feira, 19h30."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Rosário",
+    "tipo": "comunidade",
+    "cidade": "Bebedouro",
+    "localidade": "Turvínia",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Luzia",
+    "tipo": "comunidade",
+    "cidade": "Bebedouro",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/paroquia-nossa-senhora-aparecida",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/paroquia-nossa-senhora-aparecida",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Matriz no distrito de Botafogo (Bebedouro); a diocese lista Botafogo como cidade."
+ },
+ {
+  "id_banco": null,
+  "nome": "Basílica Menor Senhor Bom Jesus",
+  "categoria": "basilica",
+  "cidade": "Monte Alto",
+  "padroeiro": "Senhor Bom Jesus",
+  "contatos": {
+   "telefone": "1632421231",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Basílica Menor Senhor Bom Jesus",
+    "tipo": "matriz",
+    "cidade": "Monte Alto",
+    "localidade": "Centro",
+    "endereco": "Rua José Cupertino Botto, s/nº",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": "Apostolado da Oração"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Lar São Vicente de Paulo: 3ª terça-feira, 15h. Santa Casa de Misericórdia: 1º sábado, 7h; quarta-feira, 15h."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Monte Alto",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco de Assis",
+    "tipo": "comunidade",
+    "cidade": "Monte Alto",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Cristóvão",
+    "tipo": "comunidade",
+    "cidade": "Monte Alto",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "A fonte lista a Comunidade São Cristóvão duas vezes (sábado 19h e domingo 8h); podem ser duas comunidades."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Luiz Gonzaga",
+    "tipo": "comunidade",
+    "cidade": "Monte Alto",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Perpétuo Socorro",
+    "tipo": "comunidade",
+    "cidade": "Monte Alto",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Rita de Cássia",
+    "tipo": "comunidade",
+    "cidade": "Monte Alto",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Carmo",
+    "tipo": "comunidade",
+    "cidade": "Monte Alto",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "20:00",
+      "semanas": [
+       1,
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Judas Tadeu",
+    "tipo": "comunidade",
+    "cidade": "Monte Alto",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": [
+       2,
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/basilica-senhor-bom-jesus",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/basilica-senhor-bom-jesus",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Basílica menor e matriz da Paróquia Senhor Bom Jesus de Monte Alto."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Benedito",
+  "categoria": "paroquia",
+  "cidade": "Monte Alto",
+  "padroeiro": "São Benedito",
+  "contatos": {
+   "telefone": "1632425715",
+   "whatsapp": "1632425715",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Benedito",
+    "tipo": "matriz",
+    "cidade": "Monte Alto",
+    "localidade": "Centro",
+    "endereco": "Rua Sete de Setembro, 741",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santo Agostinho",
+    "tipo": "capela",
+    "cidade": "Monte Alto",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Brás",
+    "tipo": "capela",
+    "cidade": "Monte Alto",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Sebastião",
+    "tipo": "capela",
+    "cidade": "Monte Alto",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora do Rosário de Pompéia",
+    "tipo": "capela",
+    "cidade": "Monte Alto",
+    "localidade": "Ibitirama",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Monte Alto",
+    "localidade": "Bairro rural",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Missa uma vez por mês, às 19h30."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/sao-benedito-monte-alto",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/sao-benedito-monte-alto",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santuário Nossa Senhora do Rosário de Fátima",
+  "categoria": "paroquia",
+  "cidade": "Monte Alto",
+  "padroeiro": "Nossa Senhora do Rosário de Fátima",
+  "contatos": {
+   "telefone": "1632427140",
+   "whatsapp": "16997414516",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário Nossa Senhora do Rosário de Fátima",
+    "tipo": "santuario",
+    "cidade": "Monte Alto",
+    "localidade": "Jardim Bela Vista",
+    "endereco": "Rua Guerino Navarro, 50",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Lar São Vicente de Paulo (asilo): 3ª terça-feira, 15h, com escala. Santa Casa: segunda-feira, 7h; 3ª quarta-feira, 15h. Hospital Unimed: 3ª sexta-feira, 7h15, com escala."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Divino Pai Eterno",
+    "tipo": "comunidade",
+    "cidade": "Monte Alto",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Batista",
+    "tipo": "comunidade",
+    "cidade": "Monte Alto",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:15",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Pedro Apóstolo",
+    "tipo": "comunidade",
+    "cidade": "Monte Alto",
+    "localidade": "Barreiro",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Luzia",
+    "tipo": "comunidade",
+    "cidade": "Monte Alto",
+    "localidade": "Água Limpa",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Beatriz da Silva",
+    "tipo": "comunidade",
+    "cidade": "Monte Alto",
+    "localidade": "Cachoeira dos Martins",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora das Graças",
+    "tipo": "comunidade",
+    "cidade": "Monte Alto",
+    "localidade": "Tabarana",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Cruz",
+    "tipo": "comunidade",
+    "cidade": "Monte Alto",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Edwiges",
+    "tipo": "comunidade",
+    "cidade": "Monte Alto",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Miguel Arcanjo",
+    "tipo": "comunidade",
+    "cidade": "Monte Alto",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:30",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Teresinha",
+    "tipo": "comunidade",
+    "cidade": "Monte Alto",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Gianna",
+    "tipo": "comunidade",
+    "cidade": "Monte Alto",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Bento",
+    "tipo": "comunidade",
+    "cidade": "Monte Alto",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Padre Pio",
+    "tipo": "comunidade",
+    "cidade": "Monte Alto",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:30",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Filomena",
+    "tipo": "comunidade",
+    "cidade": "Monte Alto",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Guadalupe",
+    "tipo": "comunidade",
+    "cidade": "Monte Alto",
+    "localidade": "Horto de Deus",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/santuario-nossa-senhora-de-fatima",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/santuario-nossa-senhora-de-fatima",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "A matriz é santuário diocesano."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Monte Alto",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "1632414177",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Monte Alto",
+    "localidade": "Bandeirantes",
+    "endereco": "Rua Henrique de Oliveira Nunes, 210",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Creche dos Idosos: 3ª quarta-feira do mês, 9h."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Vicente de Paulo e Santa Luzia",
+    "tipo": "comunidade",
+    "cidade": "Monte Alto",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José Operário e São João Paulo II",
+    "tipo": "comunidade",
+    "cidade": "Monte Alto",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Monte Alto",
+    "localidade": "Areias",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Miguel Arcanjo",
+    "tipo": "comunidade",
+    "cidade": "Monte Alto",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/nossa-senhora-aparecida-monte-alto",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/nossa-senhora-aparecida-monte-alto",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santuário Nossa Senhora da Conceição Montesina",
+  "categoria": "paroquia",
+  "cidade": "Monte Alto",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "1632431106",
+   "whatsapp": "16997533820",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário Nossa Senhora da Conceição Montesina",
+    "tipo": "santuario",
+    "cidade": "Monte Alto",
+    "localidade": "Aparecida de Monte Alto",
+    "endereco": "Praça José Motta, 1",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Todo dia 8: 9h, 15h e 19h. Todo dia 29: 19h30."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Luzia",
+    "tipo": "comunidade",
+    "cidade": "Monte Alto",
+    "localidade": "Morrinho",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/santuario-conceicao-montesina",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/santuario-conceicao-montesina",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Matriz no distrito de Aparecida de Monte Alto (Monte Alto). Santuário diocesano da Virgem Montesina; paróquia criada em 1994."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Pirangi",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "17997144896",
+   "whatsapp": "17997144896",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Pirangi",
+    "localidade": "Centro",
+    "endereco": "Avenida Manoel Ferreira Pinto, 299",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Todo dia 13, às 19h30. Pequenas comunidades (casas): 1ª quarta-feira do mês, 19h30."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Pirangi",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Benedito",
+    "tipo": "comunidade",
+    "cidade": "Pirangi",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Luzia",
+    "tipo": "comunidade",
+    "cidade": "Pirangi",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/santono-antonio-pirangi",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/santono-antonio-pirangi",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "O telefone publicado pela diocese para a paróquia é um celular, o mesmo do WhatsApp."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio de Pádua",
+  "categoria": "paroquia",
+  "cidade": "Cândido Rodrigues",
+  "padroeiro": "Santo Antônio de Pádua",
+  "contatos": {
+   "telefone": "1632571216",
+   "whatsapp": "1632571216",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santo Antônio de Pádua",
+    "tipo": "matriz",
+    "cidade": "Cândido Rodrigues",
+    "localidade": "Centro",
+    "endereco": "Praça Coronel Francisco Gonçalves, s/nº",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Missa nos setores (casas), a cada 15 dias, às 19h: setor I na quarta, II na quinta, III na sexta."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Roque",
+    "tipo": "comunidade",
+    "cidade": "Cândido Rodrigues",
+    "localidade": "Icoarana",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/santo-antonio-de-padua",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/santo-antonio-de-padua",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Luzia",
+  "categoria": "paroquia",
+  "cidade": "Fernando Prestes",
+  "padroeiro": "Santa Luzia",
+  "contatos": {
+   "telefone": "1632581510",
+   "whatsapp": "1632581510",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santa Luzia",
+    "tipo": "matriz",
+    "cidade": "Fernando Prestes",
+    "localidade": "Centro",
+    "endereco": "Rua Francisco Salles, 40",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Benedito",
+    "tipo": "comunidade",
+    "cidade": "Fernando Prestes",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Sebastião",
+    "tipo": "comunidade",
+    "cidade": "Fernando Prestes",
+    "localidade": "Distrito de Agulha",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "18:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/santa-luzia-fernando-prestes",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/santa-luzia-fernando-prestes",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José",
+  "categoria": "paroquia",
+  "cidade": "Taiaçu",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "1632761194",
+   "whatsapp": "1632761194",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São José",
+    "tipo": "matriz",
+    "cidade": "Taiaçu",
+    "localidade": "Centro",
+    "endereco": "Rua São Sebastião, 373",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Taiaçu",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Benedito",
+    "tipo": "comunidade",
+    "cidade": "Taiaçu",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/sao-jose-taiacu",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/sao-jose-taiacu",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio de Pádua",
+  "categoria": "paroquia",
+  "cidade": "Taiúva",
+  "padroeiro": "Santo Antônio de Pádua",
+  "contatos": {
+   "telefone": "1632461131",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santo Antônio de Pádua",
+    "tipo": "matriz",
+    "cidade": "Taiúva",
+    "localidade": "Centro",
+    "endereco": "Praça Nove de Julho, 137",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/santo-antonio-de-padua-taiuva",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/santo-antonio-de-padua-taiuva",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "A página da diocese foi atualizada pela última vez em 12/11/2024 e traz só as missas de sábado e domingo."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Rita de Cássia",
+  "categoria": "paroquia",
+  "cidade": "Vista Alegre do Alto",
+  "padroeiro": "Santa Rita de Cássia",
+  "contatos": {
+   "telefone": "1632871127",
+   "whatsapp": "16996506259",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santa Rita de Cássia",
+    "tipo": "matriz",
+    "cidade": "Vista Alegre do Alto",
+    "localidade": "Centro",
+    "endereco": "Praça Dr. Emílio Henrique Ower Sandolth, 168",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": [
+       2,
+       3,
+       4,
+       5
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Todo dia 22, às 19h."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Cristóvão e São Nicolau",
+    "tipo": "comunidade",
+    "cidade": "Vista Alegre do Alto",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/rita-de-cassia-vista-alegre",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/rita-de-cassia-vista-alegre",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Na 1ª sexta-feira do mês a missa das 7h passa para as 19h."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Senhor Bom Jesus",
+  "categoria": "paroquia",
+  "cidade": "Monte Azul Paulista",
+  "padroeiro": "Senhor Bom Jesus",
+  "contatos": {
+   "telefone": "1733611689",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Senhor Bom Jesus",
+    "tipo": "matriz",
+    "cidade": "Monte Azul Paulista",
+    "localidade": "Centro",
+    "endereco": "Praça Rio Branco, 53",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Asilo: 1ª terça-feira do mês, 15h."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Monte Azul Paulista",
+    "localidade": "Marcondésia",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco de Assis",
+    "tipo": "comunidade",
+    "cidade": "Monte Azul Paulista",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Benedito",
+    "tipo": "comunidade",
+    "cidade": "Monte Azul Paulista",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Luzia",
+    "tipo": "comunidade",
+    "cidade": "Monte Azul Paulista",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Judas Tadeu",
+    "tipo": "comunidade",
+    "cidade": "Monte Azul Paulista",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Rita de Cássia",
+    "tipo": "comunidade",
+    "cidade": "Monte Azul Paulista",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/paroquia-senhor-bom-jesus",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/paroquia-senhor-bom-jesus",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "Pitangueiras",
+  "padroeiro": "São Sebastião",
+  "contatos": {
+   "telefone": "1639521219",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Sebastião",
+    "tipo": "matriz",
+    "cidade": "Pitangueiras",
+    "localidade": "Centro",
+    "endereco": "Rua São Paulo, 108",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Missa nos setores na 4ª quarta-feira, 19h30."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco de Assis",
+    "tipo": "comunidade",
+    "cidade": "Pitangueiras",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José Operário",
+    "tipo": "comunidade",
+    "cidade": "Pitangueiras",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/sao-sebastiao-pitangueiras",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/sao-sebastiao-pitangueiras",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Pitangueiras",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "16993910566",
+   "whatsapp": "16993910566",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Pitangueiras",
+    "localidade": "Centro",
+    "endereco": "Rua Henrique Caroni, 110",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "06:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Missa nas casas às terças-feiras, 19h30. Salão Maria de Nazaré: sábado, 19h45, uma vez por mês."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Benedito",
+    "tipo": "comunidade",
+    "cidade": "Pitangueiras",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrado Coração de Jesus",
+    "tipo": "comunidade",
+    "cidade": "Pitangueiras",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/nossa-senhora-aparecida-pitangueiras",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/nossa-senhora-aparecida-pitangueiras",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Paróquia recente: o GCatholic ainda não a lista. O telefone publicado pela diocese é um celular, o mesmo do WhatsApp."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sagrado Coração de Jesus",
+  "categoria": "paroquia",
+  "cidade": "Pitangueiras",
+  "padroeiro": "Sagrado Coração de Jesus",
+  "contatos": {
+   "telefone": "1639572038",
+   "whatsapp": "16991158892",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Sagrado Coração de Jesus",
+    "tipo": "matriz",
+    "cidade": "Pitangueiras",
+    "localidade": "Ibitiúva",
+    "endereco": "Largo da Matriz, 225",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Todo dia 29, às 19h30."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/paroquia-sagrado-coracao-de-jesus",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/paroquia-sagrado-coracao-de-jesus",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Matriz no distrito de Ibitiúva (Pitangueiras)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Senhor Bom Jesus",
+  "categoria": "paroquia",
+  "cidade": "Taquaral",
+  "padroeiro": "Senhor Bom Jesus",
+  "contatos": {
+   "telefone": "1639586201",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Senhor Bom Jesus",
+    "tipo": "matriz",
+    "cidade": "Taquaral",
+    "localidade": "Centro",
+    "endereco": "Rua Central, 427",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Missa nas comunidades (casas) às quartas-feiras, 19h30."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/senhor-bom-jesus-taquaral",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/senhor-bom-jesus-taquaral",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Terra Roxa",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "1733953200",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Terra Roxa",
+    "localidade": "Centro",
+    "endereco": "Rua Valentim Silva, s/nº",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Recanto Santo Antônio: 2ª sexta-feira do mês, 15h30."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco de Assis",
+    "tipo": "comunidade",
+    "cidade": "Terra Roxa",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Madre Paulina",
+    "tipo": "comunidade",
+    "cidade": "Terra Roxa",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/nossa-senhora-aparecida-terra-roxa",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/nossa-senhora-aparecida-terra-roxa",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "O GCatholic chama a paróquia de Nossa Senhora da Conceição Aparecida; seguimos a diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Conceição Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Viradouro",
+  "padroeiro": "Nossa Senhora da Conceição Aparecida",
+  "contatos": {
+   "telefone": "1733921389",
+   "whatsapp": "1733921389",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora da Conceição Aparecida",
+    "tipo": "matriz",
+    "cidade": "Viradouro",
+    "localidade": "Centro",
+    "endereco": "Praça da Matriz, 56",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Asilo São Vicente de Paulo: quarta-feira, 9h."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Edwiges",
+    "tipo": "capela",
+    "cidade": "Viradouro",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Sagrada Família de Nazaré",
+    "tipo": "capela",
+    "cidade": "Viradouro",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Pedro",
+    "tipo": "capela",
+    "cidade": "Viradouro",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Benedito",
+    "tipo": "comunidade",
+    "cidade": "Viradouro",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Rita de Cássia",
+    "tipo": "comunidade",
+    "cidade": "Viradouro",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/paroquia-conceicao-aparecida",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www2.diocesejaboticabal.org.br/paroquia/paroquia-conceicao-aparecida",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ }
+]
