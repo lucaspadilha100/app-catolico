@@ -1,0 +1,1217 @@
+[
+ {
+  "id_banco": null,
+  "nome": "Catedral de Nossa Senhora da Luz",
+  "categoria": "catedral",
+  "cidade": "Guarabira",
+  "padroeiro": "Nossa Senhora da Luz",
+  "contatos": {"telefone": "8332714828", "whatsapp": "", "instagram": "", "site": "catedraldaluz.com", "email": ""},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Catedral de Nossa Senhora da Luz",
+    "tipo": "matriz",
+    "cidade": "Guarabira",
+    "localidade": "Centro",
+    "endereco": "Rua Padre Sampaio, 45",
+    "horarios": [
+     {"tipo": "missa", "dia_semana": 0, "hora": "08:30", "semanas": null, "observacao": ""},
+     {"tipo": "missa", "dia_semana": 0, "hora": "16:00", "semanas": null, "observacao": ""},
+     {"tipo": "missa", "dia_semana": 0, "hora": "19:00", "semanas": null, "observacao": ""},
+     {"tipo": "missa", "dia_semana": 2, "hora": "19:00", "semanas": null, "observacao": ""},
+     {"tipo": "missa", "dia_semana": 3, "hora": "19:00", "semanas": null, "observacao": ""},
+     {"tipo": "missa", "dia_semana": 4, "hora": "19:00", "semanas": null, "observacao": ""},
+     {"tipo": "missa", "dia_semana": 5, "hora": "19:00", "semanas": null, "observacao": ""},
+     {"tipo": "missa", "dia_semana": 6, "hora": "19:00", "semanas": null, "observacao": ""}
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora de Fátima",
+    "tipo": "capela",
+    "cidade": "Guarabira",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://horariodemissa.com.br/igreja/5CoU7", "data": "2026-11-13", "o_que": "horarios"},
+   {"url": "https://paraibacriativa.com.br/artista/catedral-nossa-senhora-da-luz/", "data": "2026-11-13", "o_que": "horarios"},
+   {"url": "https://www.diocesedeguarabira.org.br/par%C3%B3quias-e-foranias", "data": "2026-11-13", "o_que": "contatos"},
+   {"url": "https://www.diocesedeguarabira.com.br/paroquias/regiao-de-guarabira/", "data": "2026-11-13", "o_que": "contatos"}
+  ],
+  "confianca": "media",
+  "observacao": "Sé da diocese. Horários de agregador sem data, a confirmar com a paróquia."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Guarabira",
+  "padroeiro": "Santo Antônio",
+  "contatos": {"telefone": "8332712016", "whatsapp": "", "instagram": "", "site": "", "email": ""},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Guarabira",
+    "localidade": "Bairro Novo",
+    "endereco": "Praça José Epaminondas, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://www.diocesedeguarabira.org.br/par%C3%B3quias-e-foranias", "data": "2026-11-13", "o_que": "contatos"},
+   {"url": "https://www.diocesedeguarabira.com.br/paroquias/regiao-de-guarabira/", "data": "2026-11-13", "o_que": "contatos"}
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes encontradas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia da Imaculada Conceição",
+  "categoria": "paroquia",
+  "cidade": "Guarabira",
+  "padroeiro": "Imaculada Conceição",
+  "contatos": {"telefone": "83998441169", "whatsapp": "", "instagram": "", "site": "", "email": "eclesiatrindade@gmail.com"},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz da Imaculada Conceição",
+    "tipo": "matriz",
+    "cidade": "Guarabira",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://www.diocesedeguarabira.org.br/par%C3%B3quias-e-foranias", "data": "2026-11-13", "o_que": "contatos"},
+   {"url": "https://www.diocesedeguarabira.org.br/artigo/reconfiguracao-das-foranias-diocesanas-e-nomeacao-dos-novos-vigarios-foraneos-carta-circular-0092021", "data": "2021-09-22", "o_que": "contatos"}
+  ],
+  "confianca": "media",
+  "observacao": "Sem horário publicado nas fontes encontradas. O site da diocese não traz o endereço; a Igreja da Santíssima Trindade pertence a esta paróquia, pelo e-mail publicado."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora de Guadalupe",
+  "categoria": "paroquia",
+  "cidade": "Guarabira",
+  "padroeiro": "Nossa Senhora de Guadalupe",
+  "contatos": {"telefone": "83982297786", "whatsapp": "", "instagram": "", "site": "", "email": "paroquiansguadalupe@hotmail.com"},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora de Guadalupe",
+    "tipo": "matriz",
+    "cidade": "Guarabira",
+    "localidade": "Nordeste I",
+    "endereco": "Rua Delfino Cosmo, 20",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://www.diocesedeguarabira.org.br/par%C3%B3quias-e-foranias", "data": "2026-11-13", "o_que": "contatos"},
+   {"url": "https://www.diocesedeguarabira.com.br/paroquias/regiao-de-guarabira/", "data": "2026-11-13", "o_que": "contatos"}
+  ],
+  "confianca": "media",
+  "observacao": "Sem horário publicado nas fontes encontradas. Endereço do site antigo da diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Jesus Ressuscitado",
+  "categoria": "paroquia",
+  "cidade": "Guarabira",
+  "padroeiro": "Jesus Ressuscitado",
+  "contatos": {"telefone": "83998891822", "whatsapp": "", "instagram": "paroquiadoressuscitado", "site": "", "email": "pjrgba@gmail.com"},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Jesus Ressuscitado",
+    "tipo": "matriz",
+    "cidade": "Guarabira",
+    "localidade": "Primavera",
+    "endereco": "Rua Henrique Pacífico, 279",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://www.diocesedeguarabira.org.br/par%C3%B3quias-e-foranias", "data": "2026-11-13", "o_que": "contatos"},
+   {"url": "https://www.instagram.com/paroquiadoressuscitado/", "data": "2026-11-13", "o_que": "contatos"}
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário publicado nas fontes encontradas. Instagram anotado pelo trecho mostrado na busca."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia do Sagrado Coração de Jesus e São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "Mari",
+  "padroeiro": "Sagrado Coração de Jesus e São Sebastião",
+  "contatos": {"telefone": "8332871154", "whatsapp": "", "instagram": "", "site": "", "email": ""},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Sagrado Coração de Jesus",
+    "tipo": "matriz",
+    "cidade": "Mari",
+    "localidade": "Centro",
+    "endereco": "Largo da Matriz",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://www.diocesedeguarabira.org.br/artigo/reconfiguracao-das-foranias-diocesanas-e-nomeacao-dos-novos-vigarios-foraneos-carta-circular-0092021", "data": "2021-09-22", "o_que": "contatos"},
+   {"url": "https://www.diocesedeguarabira.com.br/paroquias/regiao-de-guarabira/", "data": "2026-11-13", "o_que": "contatos"},
+   {"url": "https://pt.wikipedia.org/wiki/Diocese_de_Guarabira", "data": "2026-11-13", "o_que": "contatos"}
+  ],
+  "confianca": "media",
+  "observacao": "Sem horário publicado nas fontes encontradas. Matriz dedicada pela diocese; e-mail publicado com grafia defeituosa, por isso ficou de fora."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "Araçagi",
+  "padroeiro": "São Sebastião",
+  "contatos": {"telefone": "8332741510", "whatsapp": "", "instagram": "", "site": "", "email": "pssaracagi@gmail.com"},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Sebastião",
+    "tipo": "matriz",
+    "cidade": "Araçagi",
+    "localidade": "Centro",
+    "endereco": "Rua Professora Maria do Carmo",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://www.diocesedeguarabira.com.br/paroquias/regiao-de-guarabira/", "data": "2026-11-13", "o_que": "contatos"},
+   {"url": "https://www.diocesedeguarabira.org.br/artigo/reconfiguracao-das-foranias-diocesanas-e-nomeacao-dos-novos-vigarios-foraneos-carta-circular-0092021", "data": "2021-09-22", "o_que": "contatos"}
+  ],
+  "confianca": "media",
+  "observacao": "Sem horário publicado nas fontes encontradas. Contatos do site antigo da diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora do Rosário",
+  "categoria": "paroquia",
+  "cidade": "Cuitegi",
+  "padroeiro": "Nossa Senhora do Rosário",
+  "contatos": {"telefone": "8399886193", "whatsapp": "", "instagram": "", "site": "", "email": ""},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Rosário",
+    "tipo": "matriz",
+    "cidade": "Cuitegi",
+    "localidade": "Centro",
+    "endereco": "Rua Sete de Setembro, 107",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {"id_banco": null, "nome": "Capela Jesus Ressuscitado", "tipo": "capela", "cidade": "Cuitegi", "localidade": "Sítio Palmeira", "endereco": "", "horarios": [], "nao_cabe": ""},
+   {"id_banco": null, "nome": "Capela de Nossa Senhora Aparecida", "tipo": "capela", "cidade": "Cuitegi", "localidade": "Bairro Cruzeiro", "endereco": "", "horarios": [], "nao_cabe": ""},
+   {"id_banco": null, "nome": "Capela de Santo Antônio", "tipo": "capela", "cidade": "Cuitegi", "localidade": "Bairro Santo Antônio", "endereco": "", "horarios": [], "nao_cabe": ""},
+   {"id_banco": null, "nome": "Capela de São José", "tipo": "capela", "cidade": "Cuitegi", "localidade": "Sítio Malhada", "endereco": "", "horarios": [], "nao_cabe": ""},
+   {"id_banco": null, "nome": "Capela de São Sebastião", "tipo": "capela", "cidade": "Cuitegi", "localidade": "Conjunto Roberto Paulino", "endereco": "", "horarios": [], "nao_cabe": ""},
+   {"id_banco": null, "nome": "Capela de Nossa Senhora de Fátima", "tipo": "capela", "cidade": "Cuitegi", "localidade": "Chã do Bodeiro", "endereco": "", "horarios": [], "nao_cabe": ""}
+  ],
+  "fontes": [
+   {"url": "https://www.diocesedeguarabira.com.br/paroquias/regiao-de-guarabira/", "data": "2026-11-13", "o_que": "contatos"}
+  ],
+  "confianca": "media",
+  "observacao": "Sem horário publicado nas fontes encontradas. Contatos e capelas do site antigo da diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "Pilõezinhos",
+  "padroeiro": "São Sebastião",
+  "contatos": {"telefone": "8336271136", "whatsapp": "", "instagram": "", "site": "", "email": "saosebastiao_plz@outlook.com"},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Sebastião",
+    "tipo": "matriz",
+    "cidade": "Pilõezinhos",
+    "localidade": "Centro",
+    "endereco": "Rua Manoel Alvino de Moura, 25",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://www.diocesedeguarabira.com.br/paroquias/regiao-de-guarabira/", "data": "2026-11-13", "o_que": "contatos"}
+  ],
+  "confianca": "media",
+  "observacao": "Sem horário publicado nas fontes encontradas. Contatos do site antigo da diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora da Boa Viagem",
+  "categoria": "paroquia",
+  "cidade": "Alagoa Grande",
+  "padroeiro": "Nossa Senhora da Boa Viagem",
+  "contatos": {"telefone": "83996630967", "whatsapp": "", "instagram": "", "site": "", "email": ""},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Boa Viagem",
+    "tipo": "matriz",
+    "cidade": "Alagoa Grande",
+    "localidade": "Centro",
+    "endereco": "Rua Francisco Lino Cavalcante de Miranda, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://www.diocesedeguarabira.org.br/par%C3%B3quias-e-foranias", "data": "2026-11-13", "o_que": "contatos"}
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes encontradas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São José",
+  "categoria": "paroquia",
+  "cidade": "Alagoa Grande",
+  "padroeiro": "São José",
+  "contatos": {"telefone": "83999140315", "whatsapp": "", "instagram": "", "site": "", "email": "areapastoral.saojoseag@gmail.com"},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José",
+    "tipo": "matriz",
+    "cidade": "Alagoa Grande",
+    "localidade": "Centro",
+    "endereco": "Rua Presidente João Pessoa, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://www.diocesedeguarabira.org.br/par%C3%B3quias-e-foranias", "data": "2026-11-13", "o_que": "contatos"},
+   {"url": "https://cadernodematerias.com/religiao-diocese-de-guarabira-cria-nova-area-pastoral-em-alagoa-grande/", "data": "", "o_que": "contatos"}
+  ],
+  "confianca": "alta",
+  "observacao": "Paróquia desde 01/05/2024; antes era área pastoral desmembrada da Boa Viagem. Sem horário publicado nas fontes encontradas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora da Conceição",
+  "categoria": "paroquia",
+  "cidade": "Alagoinha",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {"telefone": "8332781315", "whatsapp": "", "instagram": "", "site": "", "email": "paroquiadealagoinha@gmail.com"},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "Alagoinha",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://www.diocesedeguarabira.org.br/par%C3%B3quias-e-foranias", "data": "2026-11-13", "o_que": "contatos"}
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes encontradas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Mulungu",
+  "padroeiro": "Santo Antônio",
+  "contatos": {"telefone": "8332881119", "whatsapp": "", "instagram": "", "site": "", "email": "paroquiamulungu@gmail.com"},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Mulungu",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://www.diocesedeguarabira.org.br/par%C3%B3quias-e-foranias", "data": "2026-11-13", "o_que": "contatos"}
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes encontradas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora das Dores",
+  "categoria": "paroquia",
+  "cidade": "Juarez Távora",
+  "padroeiro": "Nossa Senhora das Dores",
+  "contatos": {"telefone": "83986778819", "whatsapp": "", "instagram": "", "site": "", "email": "nossasenhoradasdores2015@gmail.com"},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora das Dores",
+    "tipo": "matriz",
+    "cidade": "Juarez Távora",
+    "localidade": "Centro",
+    "endereco": "Rua Adalberto Pereira de Melo, 15",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://www.diocesedeguarabira.org.br/par%C3%B3quias-e-foranias", "data": "2026-11-13", "o_que": "contatos"}
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes encontradas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora da Conceição",
+  "categoria": "paroquia",
+  "cidade": "Areia",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {"telefone": "8333622435", "whatsapp": "", "instagram": "", "site": "", "email": "paroquiadeareia@hotmail.com"},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "Areia",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://www.diocesedeguarabira.org.br/par%C3%B3quias-e-foranias", "data": "2026-11-13", "o_que": "contatos"}
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes encontradas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia do Sagrado Coração de Jesus",
+  "categoria": "paroquia",
+  "cidade": "Pilões",
+  "padroeiro": "Sagrado Coração de Jesus",
+  "contatos": {"telefone": "", "whatsapp": "", "instagram": "", "site": "", "email": "pscpiloes@gmail.com"},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Sagrado Coração de Jesus",
+    "tipo": "matriz",
+    "cidade": "Pilões",
+    "localidade": "Centro",
+    "endereco": "Rua Padre Mateus, 56",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://www.diocesedeguarabira.org.br/par%C3%B3quias-e-foranias", "data": "2026-11-13", "o_que": "contatos"}
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes encontradas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora do Patrocínio",
+  "categoria": "paroquia",
+  "cidade": "Remígio",
+  "padroeiro": "Nossa Senhora do Patrocínio",
+  "contatos": {"telefone": "", "whatsapp": "", "instagram": "", "site": "", "email": "paroquiasenhoradopatrocinio@gmail.com"},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Patrocínio",
+    "tipo": "matriz",
+    "cidade": "Remígio",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://www.diocesedeguarabira.org.br/par%C3%B3quias-e-foranias", "data": "2026-11-13", "o_que": "contatos"}
+  ],
+  "confianca": "media",
+  "observacao": "Sem horário publicado nas fontes encontradas. O site da diocese embaralha o endereço desta paróquia com o de outra, por isso ficou de fora."
+ },
+ {
+  "id_banco": null,
+  "nome": "Área Pastoral Sagrado Coração de Jesus",
+  "categoria": "area_pastoral",
+  "cidade": "Algodão de Jandaíra",
+  "padroeiro": "Sagrado Coração de Jesus",
+  "contatos": {"telefone": "", "whatsapp": "", "instagram": "", "site": "", "email": "emtuasmaosemteucoracao@gmail.com"},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Sagrado Coração de Jesus",
+    "tipo": "matriz",
+    "cidade": "Algodão de Jandaíra",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://www.diocesedeguarabira.org.br/par%C3%B3quias-e-foranias", "data": "2026-11-13", "o_que": "contatos"},
+   {"url": "https://pt.wikipedia.org/wiki/Diocese_de_Guarabira", "data": "2026-11-13", "o_que": "contatos"}
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes encontradas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Solânea",
+  "padroeiro": "Santo Antônio",
+  "contatos": {"telefone": "8333632976", "whatsapp": "", "instagram": "", "site": "", "email": "santoantonioparoquia@yahoo.com.br"},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Solânea",
+    "localidade": "Centro",
+    "endereco": "Rua Celso Cirne, 559",
+    "horarios": [
+     {"tipo": "missa", "dia_semana": 0, "hora": "09:00", "semanas": null, "observacao": ""},
+     {"tipo": "missa", "dia_semana": 0, "hora": "19:30", "semanas": null, "observacao": ""},
+     {"tipo": "missa", "dia_semana": 2, "hora": "19:30", "semanas": null, "observacao": ""},
+     {"tipo": "missa", "dia_semana": 4, "hora": "19:30", "semanas": null, "observacao": ""},
+     {"tipo": "missa", "dia_semana": 5, "hora": "07:30", "semanas": [1], "observacao": ""},
+     {"tipo": "missa", "dia_semana": 6, "hora": "19:30", "semanas": null, "observacao": ""}
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://www.horariodemissa.com.br/igreja.php?k=AnYXm", "data": "2026-11-13", "o_que": "horarios"},
+   {"url": "https://www.diocesedeguarabira.org.br/par%C3%B3quias-e-foranias", "data": "2026-11-13", "o_que": "contatos"},
+   {"url": "https://www.diocesedeguarabira.com.br/paroquia-santo-antonio-solanea-pb-uma-igreja-em-missao/", "data": "2018", "o_que": "contatos"}
+  ],
+  "confianca": "media",
+  "observacao": "Confiada aos Cônegos Regulares Lateranenses. Horários de agregador sem data, a confirmar com a paróquia."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia da Sagrada Família",
+  "categoria": "paroquia",
+  "cidade": "Solânea",
+  "padroeiro": "Sagrada Família",
+  "contatos": {"telefone": "", "whatsapp": "", "instagram": "", "site": "", "email": "areapastoralsagradafamilia@gmail.com"},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz da Sagrada Família",
+    "tipo": "matriz",
+    "cidade": "Solânea",
+    "localidade": "",
+    "endereco": "Rua Epifânio Plácido da Silva, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://www.diocesedeguarabira.org.br/par%C3%B3quias-e-foranias", "data": "2026-11-13", "o_que": "contatos"}
+  ],
+  "confianca": "alta",
+  "observacao": "Paróquia desde 27/04/2024; antes era área pastoral. Sem horário publicado nas fontes encontradas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora da Piedade",
+  "categoria": "paroquia",
+  "cidade": "Arara",
+  "padroeiro": "Nossa Senhora da Piedade",
+  "contatos": {"telefone": "8333691344", "whatsapp": "", "instagram": "", "site": "paroquianspiedadearara.blogspot.com", "email": "paroquianspiedade@hotmail.com"},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Piedade",
+    "tipo": "matriz",
+    "cidade": "Arara",
+    "localidade": "Centro",
+    "endereco": "Rua Padre Ibiapina, 06",
+    "horarios": [
+     {"tipo": "missa", "dia_semana": 0, "hora": "19:30", "semanas": null, "observacao": ""}
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Arara",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {"tipo": "missa", "dia_semana": 0, "hora": "08:00", "semanas": null, "observacao": ""}
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://www.horariodemissa.com.br/igreja.php?k=si30y", "data": "2026-11-13", "o_que": "horarios"},
+   {"url": "https://horariodemissahoje.com.br/paraiba/arara/paroquia-nossa-senhora-da-piedade-58396-000/", "data": "2023", "o_que": "horarios"},
+   {"url": "https://www.diocesedeguarabira.org.br/par%C3%B3quias-e-foranias", "data": "2026-11-13", "o_que": "contatos"}
+  ],
+  "confianca": "media",
+  "observacao": "Horários de agregadores com dados de 2023, a confirmar com a paróquia."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora do Perpétuo Socorro",
+  "categoria": "paroquia",
+  "cidade": "Casserengue",
+  "padroeiro": "Nossa Senhora do Perpétuo Socorro",
+  "contatos": {"telefone": "83988973659", "whatsapp": "", "instagram": "", "site": "", "email": "paroqperpetuosocorro@gmail.com"},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Perpétuo Socorro",
+    "tipo": "matriz",
+    "cidade": "Casserengue",
+    "localidade": "Centro",
+    "endereco": "Rua Maria de Lourdes Silva, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://www.diocesedeguarabira.org.br/par%C3%B3quias-e-foranias", "data": "2026-11-13", "o_que": "contatos"}
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes encontradas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora da Conceição",
+  "categoria": "paroquia",
+  "cidade": "Araruna",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {"telefone": "", "whatsapp": "", "instagram": "", "site": "", "email": ""},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "Araruna",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://www.diocesedeguarabira.org.br/artigo/reconfiguracao-das-foranias-diocesanas-e-nomeacao-dos-novos-vigarios-foraneos-carta-circular-0092021", "data": "2021-09-22", "o_que": "contatos"},
+   {"url": "https://pt.wikipedia.org/wiki/Diocese_de_Guarabira", "data": "2026-11-13", "o_que": "contatos"}
+  ],
+  "confianca": "media",
+  "observacao": "Sem horário publicado nas fontes encontradas; o site da diocese embaralha os contatos desta paróquia com os de Areia, por isso ficaram de fora."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Cacimba de Dentro",
+  "padroeiro": "Santo Antônio",
+  "contatos": {"telefone": "83981618825", "whatsapp": "", "instagram": "", "site": "", "email": "paroquia.santoantonio@hotmail.com"},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Cacimba de Dentro",
+    "localidade": "Centro",
+    "endereco": "Praça Perílo de Oliveira, 33",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://www.diocesedeguarabira.org.br/par%C3%B3quias-e-foranias", "data": "2026-11-13", "o_que": "contatos"}
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes encontradas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Sant'Ana",
+  "categoria": "paroquia",
+  "cidade": "Tacima",
+  "padroeiro": "Sant'Ana",
+  "contatos": {"telefone": "8333781071", "whatsapp": "", "instagram": "", "site": "", "email": "paroquia_santana@hotmail.com"},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Sant'Ana",
+    "tipo": "matriz",
+    "cidade": "Tacima",
+    "localidade": "Centro",
+    "endereco": "Praça Pedro Targino, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://www.diocesedeguarabira.org.br/par%C3%B3quias-e-foranias", "data": "2026-11-13", "o_que": "contatos"}
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes encontradas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Área Pastoral São Francisco de Assis",
+  "categoria": "area_pastoral",
+  "cidade": "Cacimba de Dentro",
+  "padroeiro": "São Francisco de Assis",
+  "contatos": {"telefone": "", "whatsapp": "", "instagram": "", "site": "", "email": ""},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja de São Francisco de Assis",
+    "tipo": "matriz",
+    "cidade": "Cacimba de Dentro",
+    "localidade": "Distrito de Logradouro",
+    "endereco": "Avenida São Francisco",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://www.diocesedeguarabira.org.br/par%C3%B3quias-e-foranias", "data": "2026-11-13", "o_que": "contatos"},
+   {"url": "https://pt.wikipedia.org/wiki/Diocese_de_Guarabira", "data": "2026-11-13", "o_que": "contatos"}
+  ],
+  "confianca": "alta",
+  "observacao": "Ereção canônica em 04/10/2023. Fica no distrito de Logradouro, de Cacimba de Dentro, que não é o município de Logradouro. Sem horário publicado nas fontes encontradas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Área Pastoral Nossa Senhora da Conceição e Santo Antônio",
+  "categoria": "area_pastoral",
+  "cidade": "Riachão",
+  "padroeiro": "Nossa Senhora da Conceição e Santo Antônio",
+  "contatos": {"telefone": "", "whatsapp": "", "instagram": "", "site": "", "email": ""},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja de Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "Riachão",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://www.diocesedeguarabira.org.br/par%C3%B3quias-e-foranias", "data": "2026-11-13", "o_que": "contatos"},
+   {"url": "https://pt.wikipedia.org/wiki/Diocese_de_Guarabira", "data": "2026-11-13", "o_que": "contatos"}
+  ],
+  "confianca": "alta",
+  "observacao": "Ereção canônica em 15/02/2024. Sem horário publicado nas fontes encontradas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora do Livramento",
+  "categoria": "paroquia",
+  "cidade": "Bananeiras",
+  "padroeiro": "Nossa Senhora do Livramento",
+  "contatos": {"telefone": "83996674695", "whatsapp": "", "instagram": "", "site": "", "email": ""},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Livramento",
+    "tipo": "matriz",
+    "cidade": "Bananeiras",
+    "localidade": "Centro",
+    "endereco": "Praça da Bandeira, 417",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://www.diocesedeguarabira.org.br/par%C3%B3quias-e-foranias", "data": "2026-11-13", "o_que": "contatos"}
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário publicado nas fontes encontradas. Festa da padroeira de 27 de dezembro a 6 de janeiro."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia do Sagrado Coração de Jesus",
+  "categoria": "paroquia",
+  "cidade": "Serraria",
+  "padroeiro": "Sagrado Coração de Jesus",
+  "contatos": {"telefone": "83996040194", "whatsapp": "", "instagram": "pascomscj_serraria", "site": "", "email": ""},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Sagrado Coração de Jesus",
+    "tipo": "matriz",
+    "cidade": "Serraria",
+    "localidade": "Centro",
+    "endereco": "Rua Mizael Mendes, 14",
+    "horarios": [
+     {"tipo": "missa", "dia_semana": 0, "hora": "08:00", "semanas": null, "observacao": ""},
+     {"tipo": "missa", "dia_semana": 0, "hora": "19:00", "semanas": null, "observacao": ""},
+     {"tipo": "missa", "dia_semana": 3, "hora": "19:00", "semanas": null, "observacao": ""}
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://www.instagram.com/pascomscj_serraria/", "data": "2026-11-13", "o_que": "horarios"},
+   {"url": "https://www.diocesedeguarabira.org.br/par%C3%B3quias-e-foranias", "data": "2026-11-13", "o_que": "contatos"}
+  ],
+  "confianca": "media",
+  "observacao": "Horários da bio do Instagram da paróquia, pelo trecho mostrado na busca, sem data."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora do Carmo",
+  "categoria": "paroquia",
+  "cidade": "Borborema",
+  "padroeiro": "Nossa Senhora do Carmo",
+  "contatos": {"telefone": "83998759620", "whatsapp": "", "instagram": "", "site": "", "email": ""},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Carmo",
+    "tipo": "matriz",
+    "cidade": "Borborema",
+    "localidade": "Centro",
+    "endereco": "Praça José Amâncio Ramalho, 50",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://www.diocesedeguarabira.org.br/par%C3%B3quias-e-foranias", "data": "2026-11-13", "o_que": "contatos"}
+  ],
+  "confianca": "alta",
+  "observacao": "Paróquia erigida em 2018. Sem horário publicado nas fontes encontradas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Santa Inês e São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "Dona Inês",
+  "padroeiro": "Santa Inês e São Sebastião",
+  "contatos": {"telefone": "8333771094", "whatsapp": "", "instagram": "", "site": "", "email": ""},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Inês",
+    "tipo": "matriz",
+    "cidade": "Dona Inês",
+    "localidade": "Centro",
+    "endereco": "Rua Ana da Conceição de Melo, 250",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://www.diocesedeguarabira.org.br/par%C3%B3quias-e-foranias", "data": "2026-11-13", "o_que": "contatos"}
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes encontradas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Área Pastoral Santa Luzia",
+  "categoria": "area_pastoral",
+  "cidade": "Bananeiras",
+  "padroeiro": "Santa Luzia",
+  "contatos": {"telefone": "8333677003", "whatsapp": "", "instagram": "", "site": "", "email": ""},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja de Santa Luzia",
+    "tipo": "matriz",
+    "cidade": "Bananeiras",
+    "localidade": "Distrito de Tabuleiro",
+    "endereco": "Rua Projetada, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://www.diocesedeguarabira.org.br/par%C3%B3quias-e-foranias", "data": "2026-11-13", "o_que": "contatos"},
+   {"url": "https://pt.wikipedia.org/wiki/Diocese_de_Guarabira", "data": "2026-11-13", "o_que": "contatos"}
+  ],
+  "confianca": "media",
+  "observacao": "O site da diocese registra área pastoral; a Wikipédia, paróquia. Sem horário publicado nas fontes encontradas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Área Pastoral Nossa Senhora da Boa Viagem",
+  "categoria": "area_pastoral",
+  "cidade": "Bananeiras",
+  "padroeiro": "Nossa Senhora da Boa Viagem",
+  "contatos": {"telefone": "83996947361", "whatsapp": "", "instagram": "", "site": "", "email": ""},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja de Nossa Senhora da Boa Viagem",
+    "tipo": "matriz",
+    "cidade": "Bananeiras",
+    "localidade": "Distrito de Roma",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://www.diocesedeguarabira.org.br/par%C3%B3quias-e-foranias", "data": "2026-11-13", "o_que": "contatos"},
+   {"url": "https://pt.wikipedia.org/wiki/Diocese_de_Guarabira", "data": "2026-11-13", "o_que": "contatos"}
+  ],
+  "confianca": "media",
+  "observacao": "O site da diocese registra área pastoral; a Wikipédia, paróquia. Sem horário publicado nas fontes encontradas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora do Rosário",
+  "categoria": "paroquia",
+  "cidade": "Pirpirituba",
+  "padroeiro": "Nossa Senhora do Rosário",
+  "contatos": {"telefone": "83988519837", "whatsapp": "", "instagram": "", "site": "", "email": ""},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Rosário",
+    "tipo": "matriz",
+    "cidade": "Pirpirituba",
+    "localidade": "Centro",
+    "endereco": "Rua Félix Cantalice, 21",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {"id_banco": null, "nome": "Capela de Nossa Senhora Aparecida", "tipo": "capela", "cidade": "Pirpirituba", "localidade": "", "endereco": "", "horarios": [], "nao_cabe": ""},
+   {"id_banco": null, "nome": "Capela de Nossa Senhora da Luz", "tipo": "capela", "cidade": "Pirpirituba", "localidade": "", "endereco": "", "horarios": [], "nao_cabe": ""},
+   {"id_banco": null, "nome": "Capela de Santo Antônio", "tipo": "capela", "cidade": "Pirpirituba", "localidade": "", "endereco": "", "horarios": [], "nao_cabe": ""}
+  ],
+  "fontes": [
+   {"url": "https://www.diocesedeguarabira.org.br/par%C3%B3quias-e-foranias", "data": "2026-11-13", "o_que": "contatos"},
+   {"url": "https://www.diocesedeguarabira.com.br/paroquias/regiao-de-pirpirituba/", "data": "2026-11-13", "o_que": "contatos"}
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário publicado nas fontes encontradas. Capelas do site antigo da diocese, que cita outras sem nomear."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora da Conceição",
+  "categoria": "paroquia",
+  "cidade": "Sertãozinho",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {"telefone": "", "whatsapp": "", "instagram": "", "site": "", "email": ""},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "Sertãozinho",
+    "localidade": "Centro",
+    "endereco": "Rua Presidente Getúlio Vargas, 47",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://www.diocesedeguarabira.org.br/par%C3%B3quias-e-foranias", "data": "2026-11-13", "o_que": "contatos"}
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes encontradas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nosso Senhor do Bom Fim",
+  "categoria": "paroquia",
+  "cidade": "Serra da Raiz",
+  "padroeiro": "Nosso Senhor do Bom Fim",
+  "contatos": {"telefone": "8336841116", "whatsapp": "", "instagram": "", "site": "", "email": ""},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nosso Senhor do Bom Fim",
+    "tipo": "matriz",
+    "cidade": "Serra da Raiz",
+    "localidade": "Centro",
+    "endereco": "Praça Iniguaçi, 51",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://www.diocesedeguarabira.org.br/par%C3%B3quias-e-foranias", "data": "2026-11-13", "o_que": "contatos"},
+   {"url": "https://pt.wikipedia.org/wiki/Diocese_de_Guarabira", "data": "2026-11-13", "o_que": "contatos"}
+  ],
+  "confianca": "alta",
+  "observacao": "A Wikipédia registra como paróquia santuário. Sem horário publicado nas fontes encontradas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "Lagoa de Dentro",
+  "padroeiro": "São Sebastião",
+  "contatos": {"telefone": "8332631001", "whatsapp": "", "instagram": "", "site": "", "email": ""},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Sebastião",
+    "tipo": "matriz",
+    "cidade": "Lagoa de Dentro",
+    "localidade": "Centro",
+    "endereco": "Rua do Comércio, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {"id_banco": null, "nome": "Capela Cristo Rei", "tipo": "capela", "cidade": "Lagoa de Dentro", "localidade": "Bairro Cristo Rei", "endereco": "", "horarios": [], "nao_cabe": ""}
+  ],
+  "fontes": [
+   {"url": "https://www.diocesedeguarabira.org.br/par%C3%B3quias-e-foranias", "data": "2026-11-13", "o_que": "contatos"},
+   {"url": "https://www.diocesedeguarabira.com.br/paroquias/regiao-de-pirpirituba/", "data": "2026-11-13", "o_que": "contatos"}
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário de missa publicado nas fontes encontradas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia da Sagrada Família",
+  "categoria": "paroquia",
+  "cidade": "Belém",
+  "padroeiro": "Sagrada Família",
+  "contatos": {"telefone": "8332611208", "whatsapp": "", "instagram": "", "site": "", "email": ""},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz da Sagrada Família",
+    "tipo": "matriz",
+    "cidade": "Belém",
+    "localidade": "Centro",
+    "endereco": "Praça Seis de Setembro, 80",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://www.diocesedeguarabira.org.br/par%C3%B3quias-e-foranias", "data": "2026-11-13", "o_que": "contatos"},
+   {"url": "https://portaldobrejo.com.br/paroquia-sagrada-familia-de-belem-pb-divulga-horarios-de-missas-de-ano-novo/", "data": "2025-01", "o_que": "contatos"}
+  ],
+  "confianca": "alta",
+  "observacao": "Sem horário fixo publicado nas fontes encontradas; a notícia local traz só a programação de fim de ano."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora do Rosário",
+  "categoria": "paroquia",
+  "cidade": "Caiçara",
+  "padroeiro": "Nossa Senhora do Rosário",
+  "contatos": {"telefone": "8333701136", "whatsapp": "", "instagram": "", "site": "", "email": ""},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Rosário",
+    "tipo": "matriz",
+    "cidade": "Caiçara",
+    "localidade": "Centro",
+    "endereco": "Rua João Pessoa, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {"id_banco": null, "nome": "Igreja de São Sebastião", "tipo": "capela", "cidade": "Logradouro", "localidade": "Centro", "endereco": "", "horarios": [], "nao_cabe": ""}
+  ],
+  "fontes": [
+   {"url": "https://www.diocesedeguarabira.org.br/par%C3%B3quias-e-foranias", "data": "2026-11-13", "o_que": "contatos"},
+   {"url": "https://www.diocesedeguarabira.com.br/paroquias/regiao-de-pirpirituba/", "data": "2026-11-13", "o_que": "contatos"}
+  ],
+  "confianca": "alta",
+  "observacao": "Atende também o município de Logradouro, pela Igreja de São Sebastião. Sem horário publicado nas fontes encontradas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Área Pastoral Sagrado Coração de Jesus",
+  "categoria": "area_pastoral",
+  "cidade": "Duas Estradas",
+  "padroeiro": "Sagrado Coração de Jesus",
+  "contatos": {"telefone": "", "whatsapp": "", "instagram": "", "site": "", "email": ""},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja do Sagrado Coração de Jesus",
+    "tipo": "matriz",
+    "cidade": "Duas Estradas",
+    "localidade": "Centro",
+    "endereco": "Rua da Matriz",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://www.diocesedeguarabira.org.br/par%C3%B3quias-e-foranias", "data": "2026-11-13", "o_que": "contatos"},
+   {"url": "https://pt.wikipedia.org/wiki/Diocese_de_Guarabira", "data": "2026-11-13", "o_que": "contatos"}
+  ],
+  "confianca": "media",
+  "observacao": "O site da diocese registra área pastoral; a Wikipédia, paróquia. Sem horário publicado nas fontes encontradas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Santuário Memorial do Padre Ibiapina",
+  "categoria": "santuario",
+  "cidade": "Solânea",
+  "padroeiro": "",
+  "contatos": {"telefone": "8333691202", "whatsapp": "", "instagram": "", "site": "", "email": ""},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário Memorial do Padre Ibiapina",
+    "tipo": "santuario",
+    "cidade": "Solânea",
+    "localidade": "Distrito de Santa Fé do Ibiapina",
+    "endereco": "Rodovia Padre Ibiapina (PB-105)",
+    "horarios": [
+     {"tipo": "missa", "dia_semana": 0, "hora": "10:00", "semanas": null, "observacao": ""},
+     {"tipo": "missa", "dia_semana": 0, "hora": "16:00", "semanas": null, "observacao": ""}
+    ],
+    "nao_cabe": "Missa todo dia 19 do mês às 16h"
+   }
+  ],
+  "fontes": [
+   {"url": "https://www.diocesedeguarabira.org.br/santu%C3%A1rios", "data": "2026-11-13", "o_que": "horarios"}
+  ],
+  "confianca": "alta",
+  "observacao": "Santuário diocesano, com reitor próprio. Aberto diariamente para visitação. Túmulo do Venerável Padre Ibiapina; festa em 19 de fevereiro."
+ },
+ {
+  "id_banco": null,
+  "nome": "Memorial Frei Damião",
+  "categoria": "santuario",
+  "cidade": "Guarabira",
+  "padroeiro": "",
+  "contatos": {"telefone": "", "whatsapp": "", "instagram": "", "site": "", "email": ""},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Memorial Frei Damião",
+    "tipo": "santuario",
+    "cidade": "Guarabira",
+    "localidade": "Sítio Mata Limpa, Serra da Jurema",
+    "endereco": "",
+    "horarios": [
+     {"tipo": "missa", "dia_semana": 6, "hora": "16:00", "semanas": null, "observacao": ""},
+     {"tipo": "missa", "dia_semana": 0, "hora": "08:00", "semanas": null, "observacao": ""},
+     {"tipo": "missa", "dia_semana": 0, "hora": "10:00", "semanas": null, "observacao": ""}
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://www.diocesedeguarabira.org.br/santu%C3%A1rios", "data": "2026-11-13", "o_que": "horarios"}
+  ],
+  "confianca": "alta",
+  "observacao": "Santuário diocesano, com reitor próprio. Visitação das 8h às 16h; romarias no último domingo de maio e no terceiro de dezembro."
+ },
+ {
+  "id_banco": null,
+  "nome": "Santuário Sagrada Família",
+  "categoria": "santuario",
+  "cidade": "Bananeiras",
+  "padroeiro": "Sagrada Família",
+  "contatos": {"telefone": "", "whatsapp": "", "instagram": "", "site": "", "email": ""},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário Sagrada Família",
+    "tipo": "santuario",
+    "cidade": "Bananeiras",
+    "localidade": "Cruzeiro de Roma, Sítio Lagoa do Matias",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://www.diocesedeguarabira.org.br/santu%C3%A1rios", "data": "2026-11-13", "o_que": "contatos"}
+  ],
+  "confianca": "alta",
+  "observacao": "Santuário diocesano, aberto diariamente para visitação. Sem horário de missa publicado nas fontes encontradas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Santuário de Nossa Senhora de Fátima",
+  "categoria": "santuario",
+  "cidade": "Araruna",
+  "padroeiro": "Nossa Senhora de Fátima",
+  "contatos": {"telefone": "", "whatsapp": "", "instagram": "", "site": "", "email": ""},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário de Nossa Senhora de Fátima",
+    "tipo": "santuario",
+    "cidade": "Araruna",
+    "localidade": "Pedra da Boca",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://www.diocesedeguarabira.org.br/santu%C3%A1rios", "data": "2026-11-13", "o_que": "contatos"}
+  ],
+  "confianca": "alta",
+  "observacao": "Santuário diocesano no Parque Estadual da Pedra da Boca, aberto diariamente para visitação. Sem horário de missa publicado nas fontes encontradas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Santuário de Nossa Senhora dos Remédios",
+  "categoria": "santuario",
+  "cidade": "Cacimba de Dentro",
+  "padroeiro": "Nossa Senhora dos Remédios",
+  "contatos": {"telefone": "", "whatsapp": "", "instagram": "", "site": "", "email": ""},
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário de Nossa Senhora dos Remédios",
+    "tipo": "santuario",
+    "cidade": "Cacimba de Dentro",
+    "localidade": "Sítio Boa Vista",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://www.diocesedeguarabira.org.br/santu%C3%A1rios", "data": "2026-11-13", "o_que": "contatos"}
+  ],
+  "confianca": "alta",
+  "observacao": "Santuário diocesano, aberto diariamente para visitação. Sem horário de missa publicado nas fontes encontradas."
+ }
+]
