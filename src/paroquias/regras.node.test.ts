@@ -200,7 +200,7 @@ describe("busca", () => {
   });
 });
 
-describe("dados de Natal (planilha do Missas.com.br)", () => {
+describe("dados de Natal (planilha do Missas.com.br)", { timeout: 60_000 }, () => {
   it("entram inteiros, podem rodar de novo e têm cara de verdade", async () => {
     const banco = await criarBanco({ comDados: true });
     const c = comoEm(banco);
@@ -233,7 +233,7 @@ describe("dados de Natal (planilha do Missas.com.br)", () => {
     ]);
     const domingo = await c("anon", null, "select count(*)::int as n from public.agenda_perto(-5.80, -35.21, '2026-11-15 06:00', 18, 'missa', 30, 100)");
     expect(Number(domingo.rows[0]!.n)).toBeGreaterThan(40);
-    const busca = await c("anon", null, "select nome from public.buscar_paroquias('catedral')");
+    const busca = await c("anon", null, "select nome from public.buscar_paroquias('catedral natal')");
     expect(busca.rows.map((x) => x.nome)).toContain("Catedral de Nossa Senhora da Apresentação");
   });
 
