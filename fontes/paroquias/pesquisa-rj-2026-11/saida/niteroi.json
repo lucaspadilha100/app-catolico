@@ -1,0 +1,5951 @@
+[
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Francisco Xavier",
+  "categoria": "paroquia",
+  "cidade": "Niterói",
+  "padroeiro": "São Francisco Xavier",
+  "contatos": {
+   "telefone": "2127111670",
+   "whatsapp": "",
+   "instagram": "saofranciscoxavier.nit",
+   "site": "https://www.paroquiasaofranciscoxavier.org.br/",
+   "email": "saofranciscoxavier.niteroi@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Francisco Xavier",
+    "tipo": "matriz",
+    "cidade": "Niterói",
+    "localidade": "São Francisco",
+    "endereco": "Rua General Rondon, s/nº, Praça Dom Orione",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Missa votiva às Mãos Ensanguentadas de Jesus: quarta, 12h, na Igreja Histórica. Na Quaresma, sexta às 5h30 na Igreja Histórica."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Imaculado Coração de Maria",
+    "tipo": "capela",
+    "cidade": "Niterói",
+    "localidade": "São Francisco",
+    "endereco": "Av. Rui Barbosa, 690",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Bom Pastor",
+    "tipo": "capela",
+    "cidade": "Niterói",
+    "localidade": "Charitas",
+    "endereco": "Morro do Preventório",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "11:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Luís Orione",
+    "tipo": "capela",
+    "cidade": "Niterói",
+    "localidade": "Grota",
+    "endereco": "Rua Albino Pereira, 600",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora da Conceição da Várzea",
+    "tipo": "capela",
+    "cidade": "Niterói",
+    "localidade": "Jurujuba",
+    "endereco": "Praça Nossa Senhora da Conceição, s/nº",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Pedro",
+    "tipo": "capela",
+    "cidade": "Niterói",
+    "localidade": "Jurujuba",
+    "endereco": "Rua Carlos Ermelindo Marins, s/nº",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.paroquiasaofranciscoxavier.org.br/horarios-de-missas/",
+    "data": "2025-03",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.paroquiasaofranciscoxavier.org.br/secretaria-paroquial/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato Niterói. Horários da imagem publicada na página de horários do site da paróquia (cartaz do Jubileu 2025). Orionitas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Porciúncula de Sant'Ana",
+  "categoria": "paroquia",
+  "cidade": "Niterói",
+  "padroeiro": "Sant'Ana",
+  "contatos": {
+   "telefone": "2136203367",
+   "whatsapp": "",
+   "instagram": "paroquiaporciunculadesantana",
+   "site": "https://www.porciunculaniteroi.com.br/",
+   "email": "administracao@porciunculaniteroi.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja da Porciúncula de Sant'Ana",
+    "tipo": "matriz",
+    "cidade": "Niterói",
+    "localidade": "Icaraí",
+    "endereco": "Av. Roberto Silveira, 265",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "11:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Domingo, missa das 11h acessível em Libras. Bênção de Santo Antônio na terça, após as missas e às 10h e 16h."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.porciunculaniteroi.com.br/horarios-de-missas",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arqnit.org.br/portalarqnit/municipios/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato Niterói. Franciscanos. O site também dá o número (21) 98114-0278. E-mail da página de municípios da arquidiocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Sagrado Coração",
+  "categoria": "paroquia",
+  "cidade": "Niterói",
+  "padroeiro": "Nossa Senhora do Sagrado Coração",
+  "contatos": {
+   "telefone": "2127194393",
+   "whatsapp": "21985541544",
+   "instagram": "santuariodasalmasniteroi",
+   "site": "https://santuariodasalmas.org.br/",
+   "email": "santuario.secretaria@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário das Almas",
+    "tipo": "santuario",
+    "cidade": "Niterói",
+    "localidade": "Icaraí",
+    "endereco": "Rua Álvares de Azevedo, 237",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "11:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "20:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "20:00",
+      "semanas": null,
+      "observacao": "Missa da Esperança"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": "Na capela"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": "Na capela"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": "Na capela"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": "Na capela"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": "Noite da Misericórdia"
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://santuariodasalmas.org.br/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://santuariodasalmas.org.br/avisos/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Vicariato Niterói. Missionários do Sagrado Coração. O site (rodapé de 2020, avisos de 2023 e 2024) não dá data para a lista de missas. Também (21) 2622-1798. Cel. tratado como WhatsApp por ser o celular da secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora das Dores",
+  "categoria": "paroquia",
+  "cidade": "Niterói",
+  "padroeiro": "Nossa Senhora das Dores",
+  "contatos": {
+   "telefone": "2126213841",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora das Dores",
+    "tipo": "matriz",
+    "cidade": "Niterói",
+    "localidade": "Ingá",
+    "endereco": "Rua Presidente Pedreira, 185",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "20:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Confissões 30 minutos antes das missas. Sábado 16h e 19h, com o local confuso no trecho lido. Capela Nossa Senhora das Graças (sem endereço na fonte): terça a sexta 18h, domingo 8h. Capela Nossa Senhora de Fátima (sem endereço)."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org/arqnit/paroquia-nossa-senhora-das-dores-inga-niteroi/",
+    "data": "",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arqnit.org.br/portalarqnit/municipios/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Vicariato Niterói. Horários da página da paróquia no site antigo da arquidiocese (arqnit.org), sem data, lidos pelo trecho da busca porque o site está atrás de um desafio do Cloudflare."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Conceição",
+  "categoria": "paroquia",
+  "cidade": "Niterói",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "2126206013",
+   "whatsapp": "21986690964",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "Niterói",
+    "localidade": "Ilha da Conceição",
+    "endereco": "Rua Nossa Senhora da Conceição, 13",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Confissões 30 minutos antes das missas. Sábado 18h, local não claro no trecho. Capela Nossa Senhora Aparecida (sem endereço na fonte): domingo 10h30."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org/arqnit/paroquia-nossa-senhora-da-conceicao-ilha-da-conceicao-niteroi/",
+    "data": "",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Vicariato Niterói. Horários da página da paróquia no site antigo da arquidiocese (arqnit.org), sem data, lidos pelo trecho da busca porque o site está atrás de um desafio do Cloudflare. A matriz abriga o Museu de Arte Sacra (Wikipédia)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "Niterói",
+  "padroeiro": "São Sebastião",
+  "contatos": {
+   "telefone": "2126284728",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiadesaosebastiaobarreto@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Sebastião",
+    "tipo": "matriz",
+    "cidade": "Niterói",
+    "localidade": "Barreto",
+    "endereco": "Rua General Castrioto, 469",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org.br/portalarqnit/municipios/",
+    "data": "",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arqnit.org.br/portal/2023/03/17/mutiroes-de-confissoes-na-arquidiocese/",
+    "data": "2023-03-17",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Vicariato Niterói. P30. Sem horário publicado que se pudesse ler: o site da arquidiocese está atrás de um desafio do Cloudflare e a busca não trouxe a grade."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Esperança",
+  "categoria": "paroquia",
+  "cidade": "Niterói",
+  "padroeiro": "Nossa Senhora da Esperança",
+  "contatos": {
+   "telefone": "2136030821",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Esperança",
+    "tipo": "matriz",
+    "cidade": "Niterói",
+    "localidade": "Ititioca",
+    "endereco": "Rua Padre José Euger, 18-A",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org/arqnit/niteroi/",
+    "data": "",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arqnit.org.br/portalarqnit/municipios/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Vicariato Niterói. P85, criada em 07/02/2013. Horários da página de Niterói no site antigo da arquidiocese (arqnit.org), sem data, lidos pelo trecho da busca porque o site está atrás de um desafio do Cloudflare."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Nazareth",
+  "categoria": "paroquia",
+  "cidade": "Niterói",
+  "padroeiro": "Nossa Senhora de Nazaré",
+  "contatos": {
+   "telefone": "2126255662",
+   "whatsapp": "21999842750",
+   "instagram": "",
+   "site": "",
+   "email": "parqnazareth@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora de Nazareth",
+    "tipo": "matriz",
+    "cidade": "Niterói",
+    "localidade": "Caramujo",
+    "endereco": "Rua Padre José Gregório Junior, 314",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org.br/portalarqnit/municipios/",
+    "data": "",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arqnit.org.br/portal/2023/03/17/mutiroes-de-confissoes-na-arquidiocese/",
+    "data": "2023-03-17",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Vicariato Niterói. P16, criada em 08/09/1974. O site antigo dá o endereço como Rua Central, 314. Sem horário que se pudesse ler: o site da arquidiocese está atrás de um desafio do Cloudflare e o trecho da busca não trouxe a grade."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Rosário e São Benedito",
+  "categoria": "paroquia",
+  "cidade": "Niterói",
+  "padroeiro": "Nossa Senhora do Rosário e São Benedito",
+  "contatos": {
+   "telefone": "2126100104",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "pnsrosariosbenedito@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Rosário e São Benedito",
+    "tipo": "matriz",
+    "cidade": "Niterói",
+    "localidade": "Cubango",
+    "endereco": "Rua Noronha Torrezão, 720",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org.br/portalarqnit/municipios/",
+    "data": "",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arqnit.org.br/portal/2025/04/01/capela-celebra-seu-padroeiro-santo-expedito-no-dia-26-de-abril-descubra-o-motivo/",
+    "data": "2025-04-01",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Vicariato Niterói. P17, criada em 01/11/1958. A Capela de Santo Expedito é da paróquia (notícia de 2025), sem bairro no trecho lido. Sem horário que se pudesse ler: o site da arquidiocese está atrás de um desafio do Cloudflare e o trecho da busca não trouxe a grade."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Mãe da Divina Providência",
+  "categoria": "paroquia",
+  "cidade": "Niterói",
+  "padroeiro": "Nossa Senhora Mãe da Divina Providência",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "21972259041",
+   "instagram": "",
+   "site": "",
+   "email": "paroquia@maedivinaprovidencia.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Mãe da Divina Providência",
+    "tipo": "matriz",
+    "cidade": "Niterói",
+    "localidade": "Engenhoca",
+    "endereco": "Rua Dom Antônio de Almeida Moraes Jr., 125",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org.br/portalarqnit/municipios/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Vicariato Niterói. O site da paróquia (maedivinaprovidencia.com.br) não respondeu. Fixo antigo (21) 2628-0442. Sem horário que se pudesse ler: o site da arquidiocese está atrás de um desafio do Cloudflare e o trecho da busca não trouxe a grade."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sagrados Corações",
+  "categoria": "paroquia",
+  "cidade": "Niterói",
+  "padroeiro": "Sagrados Corações de Jesus e Maria",
+  "contatos": {
+   "telefone": "2126223133",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz dos Sagrados Corações",
+    "tipo": "matriz",
+    "cidade": "Niterói",
+    "localidade": "Ponta d'Areia",
+    "endereco": "Rua Camilo Pereira Carneiro, 176",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Confissões 30 minutos antes das missas. Capela Nossa Senhora da Penha (sem endereço na fonte): sábado 15h. Capela Nossa Senhora de Fátima (sem endereço): domingo 10h."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org/arqnit/paroquia-sagrados-coracoes-ponta-dareia-niteroi/",
+    "data": "",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arqnit.org.br/portal/paroquia-sagrados-coracoes-ponta-dareia/",
+    "data": "",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arqnit.org.br/portalarqnit/municipios/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Vicariato Niterói. Horários da página da paróquia no site antigo da arquidiocese (arqnit.org), sem data, lidos pelo trecho da busca porque o site está atrás de um desafio do Cloudflare."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Teresinha do Menino Jesus",
+  "categoria": "paroquia",
+  "cidade": "Niterói",
+  "padroeiro": "Santa Teresinha do Menino Jesus",
+  "contatos": {
+   "telefone": "2126271596",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "santateresinha.meninojesus@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Teresinha do Menino Jesus",
+    "tipo": "matriz",
+    "cidade": "Niterói",
+    "localidade": "Fonseca",
+    "endereco": "Travessa Filgueiras, 61",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org.br/portalarqnit/municipios/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Vicariato Niterói. O site antigo da arquidiocese indica paroquiasantateresinha.org, que não respondeu. Sem horário que se pudesse ler: o site da arquidiocese está atrás de um desafio do Cloudflare e o trecho da busca não trouxe a grade."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Domingos",
+  "categoria": "paroquia",
+  "cidade": "Niterói",
+  "padroeiro": "São Domingos de Gusmão",
+  "contatos": {
+   "telefone": "2127171363",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasaodomingosniteroi@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Domingos",
+    "tipo": "matriz",
+    "cidade": "Niterói",
+    "localidade": "São Domingos",
+    "endereco": "Rua Alexandre Moura, 29",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org.br/portalarqnit/municipios/",
+    "data": "",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arqnit.org.br/portal/2023/03/17/mutiroes-de-confissoes-na-arquidiocese/",
+    "data": "2023-03-17",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Vicariato Niterói. Sem horário que se pudesse ler: o site da arquidiocese está atrás de um desafio do Cloudflare e o trecho da busca não trouxe a grade."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "Niterói",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "21971359649",
+   "instagram": "",
+   "site": "",
+   "email": "saojoaobatistatj@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Batista",
+    "tipo": "matriz",
+    "cidade": "Niterói",
+    "localidade": "Tenente Jardim",
+    "endereco": "Rua Dr. March, 666",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org.br/portalarqnit/municipios/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Vicariato Niterói. Celular da página de municípios tratado como WhatsApp da secretaria. Sem horário que se pudesse ler: o site da arquidiocese está atrás de um desafio do Cloudflare e o trecho da busca não trouxe a grade."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Cristo dos Milagres",
+  "categoria": "paroquia",
+  "cidade": "Niterói",
+  "padroeiro": "Santo Cristo dos Milagres",
+  "contatos": {
+   "telefone": "2126271685",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "secretariaparoco@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Santo Cristo dos Milagres",
+    "tipo": "matriz",
+    "cidade": "Niterói",
+    "localidade": "Fonseca",
+    "endereco": "Rua Santo Cristo, 180",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Capela de Santo Antônio (sem endereço na fonte): terça a sexta 18h, domingo 18h (a lista de Niterói do mesmo site dá 19h). Orfanato Santo Antônio: domingo 8h30 (a lista de Niterói dá também sábado 7h). Comunidade Nossa Senhora Aparecida: sábado 17h. Capela São José Operário: sábado 19h."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org/arqnit/paroquia-santo-cristo-dos-milagres-fonseca-niteroi/",
+    "data": "",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arqnit.org/arqnit/niteroi/",
+    "data": "",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arqnit.org.br/portalarqnit/municipios/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Vicariato Niterói. Horários da página da paróquia no site antigo da arquidiocese (arqnit.org), sem data, lidos pelo trecho da busca porque o site está atrás de um desafio do Cloudflare. As duas páginas do site divergem em detalhes das capelas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Lourenço",
+  "categoria": "paroquia",
+  "cidade": "Niterói",
+  "padroeiro": "São Lourenço",
+  "contatos": {
+   "telefone": "2126215742",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "sao.lourencomatriz@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Lourenço",
+    "tipo": "matriz",
+    "cidade": "Niterói",
+    "localidade": "Fonseca",
+    "endereco": "Praça D. Agostinho Benassi, s/nº",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org.br/portalarqnit/municipios/",
+    "data": "",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arqnit.org.br/portal/2023/03/17/mutiroes-de-confissoes-na-arquidiocese/",
+    "data": "2023-03-17",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Vicariato Niterói. Sem horário que se pudesse ler: o site da arquidiocese está atrás de um desafio do Cloudflare e o trecho da busca não trouxe a grade."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Judas Tadeu",
+  "categoria": "paroquia",
+  "cidade": "Niterói",
+  "padroeiro": "São Judas Tadeu",
+  "contatos": {
+   "telefone": "2126101232",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "https://www.paroquiadesaojudastadeu.org.br/",
+   "email": "paroquia@paroquiadesaojudastadeu.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Judas Tadeu",
+    "tipo": "matriz",
+    "cidade": "Niterói",
+    "localidade": "Icaraí",
+    "endereco": "Av. Ary Parreiras, s/nº",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "20:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Capela Nossa Senhora Aparecida (sem endereço na fonte): sábado 9h30. A página também traz horários de confissão, que o trecho lido não mostrou."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org/arqnit/paroquia-sao-judas-tadeu-icarai-niteroi/",
+    "data": "",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arqnit.org.br/portalarqnit/municipios/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Vicariato Niterói. Horários da página da paróquia no site antigo da arquidiocese (arqnit.org), sem data, lidos pelo trecho da busca porque o site está atrás de um desafio do Cloudflare. O site da paróquia está atrás do mesmo desafio do Cloudflare."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Fátima",
+  "categoria": "paroquia",
+  "cidade": "São Gonçalo",
+  "padroeiro": "Nossa Senhora de Fátima",
+  "contatos": {
+   "telefone": "2126284392",
+   "whatsapp": "21989001186",
+   "instagram": "",
+   "site": "",
+   "email": "pnsfatimavcruz@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora de Fátima",
+    "tipo": "matriz",
+    "cidade": "São Gonçalo",
+    "localidade": "Venda da Cruz",
+    "endereco": "Rua Juvenal Veiga, s/nº",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Dias de semana 19h na matriz (o trecho não mostra a segunda-feira). Capela São José (sem endereço na fonte): última quarta-feira do mês, 20h. Comunidade Nossa Senhora Aparecida: sábado 16h30."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org/arqnit/paroquia-nossa-senhora-de-fatima-venda-da-cruz-sg/",
+    "data": "",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arqnit.org.br/portalarqnit/municipios/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Vicariato Niterói. P41, criada em 1969. Fica em São Gonçalo, mas pertence ao Vicariato Niterói. Horários da página da paróquia no site antigo da arquidiocese (arqnit.org), sem data, lidos pelo trecho da busca porque o site está atrás de um desafio do Cloudflare."
+ },
+ {
+  "id_banco": null,
+  "nome": "Catedral São João Batista",
+  "categoria": "catedral",
+  "cidade": "Niterói",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "2126202529",
+   "whatsapp": "21995970604",
+   "instagram": "",
+   "site": "",
+   "email": "catedralnit@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Catedral Metropolitana de São João Batista",
+    "tipo": "matriz",
+    "cidade": "Niterói",
+    "localidade": "Centro",
+    "endereco": "Praça Dom Pedro II, s/nº",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org.br/portalarqnit/municipios/",
+    "data": "",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://gcatholic.org/churches/brazil/2653.htm",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Vicariato Niterói. P26, criada em 1696. Sé da arquidiocese; a Nova Catedral (projeto de Niemeyer) está em obras. Fixo (21) 2620-2529 de matéria antiga e do GCatholic. Sem horário que se pudesse ler: o site da arquidiocese está atrás de um desafio do Cloudflare e o trecho da busca não trouxe a grade."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Auxiliadora",
+  "categoria": "basilica",
+  "cidade": "Niterói",
+  "padroeiro": "Nossa Senhora Auxiliadora",
+  "contatos": {
+   "telefone": "2136280793",
+   "whatsapp": "21976395999",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Basílica de Nossa Senhora Auxiliadora",
+    "tipo": "santuario",
+    "cidade": "Niterói",
+    "localidade": "Santa Rosa",
+    "endereco": "Rua Santa Rosa, 216",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org.br/portal/basilica-nossa-senhora-auxiliadora-santa-rosa/",
+    "data": "",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arqnit.org.br/portal/2023/03/17/mutiroes-de-confissoes-na-arquidiocese/",
+    "data": "2023-03-17",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Vicariato Niterói. Basílica menor, santuário e paróquia (GCatholic). O site da paróquia (auxiliadoraniteroi.com) não resolve; WhatsApp citado pela busca a partir desse site. Na festa de 2025 as missas foram 8h, 10h30, 16h e 19h, só naquele dia. Sem horário que se pudesse ler: o site da arquidiocese está atrás de um desafio do Cloudflare e o trecho da busca não trouxe a grade."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José",
+  "categoria": "paroquia",
+  "cidade": "Niterói",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "2127097407",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiadepiratininga@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José",
+    "tipo": "matriz",
+    "cidade": "Niterói",
+    "localidade": "Cafubá",
+    "endereco": "Rua Conselheiro Paulo Melo Kalle, s/nº",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "20:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora da Penha",
+    "tipo": "capela",
+    "cidade": "Niterói",
+    "localidade": "Jardim Imbuí",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Teresinha do Menino Jesus",
+    "tipo": "capela",
+    "cidade": "Niterói",
+    "localidade": "Camboinhas",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Missa às 19h30, dia não claro no trecho lido."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org/arqnit/paroquia-sao-jose-cafuba-niteroi/",
+    "data": "",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Vicariato Oceânico. Paróquia de Piratininga. Horários da página da paróquia no site antigo da arquidiocese (arqnit.org), sem data, lidos pelo trecho da busca porque o site está atrás de um desafio do Cloudflare. Capela de Nossa Senhora de Bonsucesso (domingo 8h) e Capela de Santo Antônio (domingo 18h) sem bairro na fonte; Capela de Santa Teresinha, em Camboinhas, 19h30 sem dia claro."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Fátima",
+  "categoria": "paroquia",
+  "cidade": "Niterói",
+  "padroeiro": "Nossa Senhora de Fátima",
+  "contatos": {
+   "telefone": "2126162650",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "pnsf.secretaria@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora de Fátima",
+    "tipo": "matriz",
+    "cidade": "Niterói",
+    "localidade": "Pendotiba",
+    "endereco": "Rua Nossa Senhora de Fátima, 140",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org.br/portalarqnit/municipios/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Vicariato Oceânico. Sem horário que se pudesse ler: o site da arquidiocese está atrás de um desafio do Cloudflare e o trecho da busca não trouxe a grade."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "Niterói",
+  "padroeiro": "São Sebastião",
+  "contatos": {
+   "telefone": "2127094056",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "pallseb@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Sebastião",
+    "tipo": "matriz",
+    "cidade": "Niterói",
+    "localidade": "Itaipu",
+    "endereco": "Estrada Francisco da Cruz Nunes, 8429",
+    "horarios": [],
+    "nao_cabe": "Blog antigo da paróquia (2017): segunda 19h; quinta 18h adoração e 19h missa; sexta 15h adoração e 16h missa; sábado 19h; domingo 9h30 e 19h. Não usado por ser de 2017."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora da Conceição",
+    "tipo": "capela",
+    "cidade": "Niterói",
+    "localidade": "Fonte",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Sagrado Coração de Jesus",
+    "tipo": "capela",
+    "cidade": "Niterói",
+    "localidade": "Maravista",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org.br/portal/paroquia-sao-sebastiao-itaipu/",
+    "data": "",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://paroquiasaosebastiaoitaipu.blogspot.com/",
+    "data": "2017-10",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Vicariato Oceânico. Igreja fundada pelos jesuítas em 1711; palotinos desde 1983. O site saosebastiaodeitaipu.com.br não respondeu e a página da arquidiocese não mostrou a grade no trecho da busca."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista de La Salle",
+  "categoria": "paroquia",
+  "cidade": "Niterói",
+  "padroeiro": "São João Batista de La Salle",
+  "contatos": {
+   "telefone": "2126082585",
+   "whatsapp": "21988802752",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiadelasalle@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Batista de La Salle",
+    "tipo": "matriz",
+    "cidade": "Niterói",
+    "localidade": "Itaipu",
+    "endereco": "Estrada Alcebíades Pinto, 37",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Confissões uma hora antes das missas ou com hora marcada. Capela Nossa Senhora Rainha dos Anjos: terça 19h e sábado 19h30. Capela Sagrada Família: quarta 19h e domingo 17h. Capela Santos Papas: sexta 19h e domingo 10h. As capelas estão sem bairro na fonte."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org/arqnit/quase-paroquia-sao-joao-batista-de-la-salle-itaipu-niteroi/",
+    "data": "",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arqnit.org.br/portalarqnit/municipios/",
+    "data": "",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arqnit.org.br/portalarqnit/2024/04/11/capela-sao-joao-batista-de-la-salle-em-itaipu-e-elevada-a-paroquia/",
+    "data": "2024-04-11",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Vicariato Oceânico. Quase-paróquia elevada a paróquia em abril de 2024. Horários da página da paróquia no site antigo da arquidiocese (arqnit.org), sem data, lidos pelo trecho da busca porque o site está atrás de um desafio do Cloudflare. A grade é da época da quase-paróquia."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Amparo",
+  "categoria": "paroquia",
+  "cidade": "Maricá",
+  "padroeiro": "Nossa Senhora do Amparo",
+  "contatos": {
+   "telefone": "2126372111",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "pnsamparomarica@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Amparo",
+    "tipo": "matriz",
+    "cidade": "Maricá",
+    "localidade": "Centro",
+    "endereco": "Praça Orlando de Barros Pimentel, s/nº",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "20:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": "Até 11h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": "Até 19h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": "Até 11h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": "Até 19h"
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora das Graças",
+    "tipo": "capela",
+    "cidade": "Maricá",
+    "localidade": "Ponta Negra",
+    "endereco": "Praça Nossa Senhora das Graças",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Maricá",
+    "localidade": "Bananal",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org/arqnit/paroquia-nossa-senhora-do-amparo-centro-marica/",
+    "data": "",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arqnit.org.br/portalarqnit/municipios/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Vicariato Oceânico. P11. Horários da página da paróquia no site antigo da arquidiocese (arqnit.org), sem data, lidos pelo trecho da busca porque o site está atrás de um desafio do Cloudflare. A página de municípios dá o endereço como Praça Medeiros Corrêa, s/n; o anuário de 2024, Praça Orlando de Barros Pimentel."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Teresinha do Menino Jesus e da Santa Face",
+  "categoria": "paroquia",
+  "cidade": "São Gonçalo",
+  "padroeiro": "Santa Teresinha do Menino Jesus",
+  "contatos": {
+   "telefone": "2141267008",
+   "whatsapp": "21985548873",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Teresinha do Menino Jesus e da Santa Face",
+    "tipo": "matriz",
+    "cidade": "São Gonçalo",
+    "localidade": "Rio do Ouro",
+    "endereco": "Rodovia Amaral Peixoto, km 7, s/nº",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Sábado 16h, 18h e 19h30, com o local não claro no trecho lido. Capela de Santa Rita de Cássia: terça 19h30. Capela de Nossa Senhora da Boa Esperança: domingo 10h. Capela de São Jorge: domingo 17h. Capelas sem bairro na fonte."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org/arqnit/paroquia-santa-teresinha-do-menino-jesus-e-da-santa-face-rio-do-ouro-sg/",
+    "data": "",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arqnit.org.br/portal/paroquia-santa-teresinha-do-menino-jesus-rio-do-ouro/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Vicariato Oceânico. Fica em São Gonçalo. Horários da página da paróquia no site antigo da arquidiocese (arqnit.org), sem data, lidos pelo trecho da busca porque o site está atrás de um desafio do Cloudflare. Outra página do site dá o telefone (21) 3611-8341."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José",
+  "categoria": "paroquia",
+  "cidade": "Maricá",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "21972292195",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasaojosedoimbassai@outlook.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José",
+    "tipo": "matriz",
+    "cidade": "Maricá",
+    "localidade": "São José de Imbassaí",
+    "endereco": "Estrada Real de Maricá, s/nº",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org.br/portalarqnit/municipios/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Vicariato Oceânico. P89, criada em 18/03/2011. Sem horário que se pudesse ler: o site da arquidiocese está atrás de um desafio do Cloudflare e o trecho da busca não trouxe a grade."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Fátima",
+  "categoria": "paroquia",
+  "cidade": "Maricá",
+  "padroeiro": "Nossa Senhora de Fátima",
+  "contatos": {
+   "telefone": "2126381212",
+   "whatsapp": "21995392916",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiap86@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora de Fátima",
+    "tipo": "matriz",
+    "cidade": "Maricá",
+    "localidade": "Itaipuaçu",
+    "endereco": "Rua Carlos Mariguella, s/nº, Jardim Atlântico",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org.br/portalarqnit/municipios/",
+    "data": "",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arqnit.org.br/portalarqnit/wp-content/uploads/2024/07/ANUARIO-2024.pdf",
+    "data": "2024-07",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Vicariato Oceânico. P86, criada em 21/03/2009. O site citado no anuário (pnsfatimaitaipuacu.wix.com/paroquia) não existe mais. Sem horário que se pudesse ler: o site da arquidiocese está atrás de um desafio do Cloudflare e o trecho da busca não trouxe a grade."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Sebastião e Nossa Senhora de Fátima",
+  "categoria": "paroquia",
+  "cidade": "São Gonçalo",
+  "padroeiro": "São Sebastião e Nossa Senhora de Fátima",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "21967403733",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiadetribobo@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Sebastião e Nossa Senhora de Fátima",
+    "tipo": "matriz",
+    "cidade": "São Gonçalo",
+    "localidade": "Tribobó",
+    "endereco": "Rua Euzébio, 15",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": "Até 12h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": "Até 18h"
+     }
+    ],
+    "nao_cabe": "Confissões também após a missa, quando pedidas. Capela de Santa Edwiges: sábado 18h. Capela de Nossa Senhora da Penha e Santo Antônio: domingo 10h30. Capela de Nossa Senhora da Conceição: domingo 17h30. Capelas sem bairro na fonte."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org/arqnit/paroquia-sao-sebastiao-e-nossa-senhora-de-fatima-tribobo-sg/",
+    "data": "",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arqnit.org.br/portalarqnit/municipios/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Vicariato Oceânico. P52, criada em 1974. Fica em São Gonçalo. Horários da página da paróquia no site antigo da arquidiocese (arqnit.org), sem data, lidos pelo trecho da busca porque o site está atrás de um desafio do Cloudflare."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "São Gonçalo",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "2126014779",
+   "whatsapp": "21984813325",
+   "instagram": "",
+   "site": "",
+   "email": "pn.aparecidagb@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "São Gonçalo",
+    "localidade": "Galo Branco",
+    "endereco": "Travessa Nossa Senhora Aparecida, s/nº",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org.br/portal/paroquia-n-senhora-aparecida-sao-goncalo/",
+    "data": "",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arqnit.org.br/portalarqnit/municipios/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Vicariato São Gonçalo. P34, criada em 29/12/1967. O site citado (pnsaparecidagb.com.br) não respondeu; a página do portal da arquidiocese tem a seção de horários, que o trecho da busca não mostrou."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "São Gonçalo",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "21987031153",
+   "instagram": "",
+   "site": "",
+   "email": "aparecidaparaiso@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "São Gonçalo",
+    "localidade": "Patronato",
+    "endereco": "Rua Dr. Francisco Portela, 762",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org.br/portalarqnit/municipios/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Vicariato São Gonçalo. P35, criada em 07/12/1971. Sem horário que se pudesse ler: o site da arquidiocese está atrás de um desafio do Cloudflare e o trecho da busca não trouxe a grade."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora das Graças",
+  "categoria": "paroquia",
+  "cidade": "São Gonçalo",
+  "padroeiro": "Nossa Senhora das Graças",
+  "contatos": {
+   "telefone": "2126284316",
+   "whatsapp": "21985290475",
+   "instagram": "",
+   "site": "",
+   "email": "igrejansgracas@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora das Graças",
+    "tipo": "matriz",
+    "cidade": "São Gonçalo",
+    "localidade": "Porto Velho",
+    "endereco": "Rua Américo Ribeiro, s/nº",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Confissões 30 minutos antes das missas de sábado e domingo. Capelas sem bairro na fonte: Nossa Senhora Aparecida, sábado 15h no 3º sábado; Nossa Senhora do Carmo e Santa Clara, sábado 18h30 no 1º e 3º sábados; Nossa Senhora de Fátima, sábado 19h no 2º e 4º sábados."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org/arqnit/paroquia-nossa-senhora-das-gracas-porto-velho-sg/",
+    "data": "",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arqnit.org.br/portalarqnit/municipios/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Vicariato São Gonçalo. P38, criada em 1949. Horários da página da paróquia no site antigo da arquidiocese (arqnit.org), sem data, lidos pelo trecho da busca porque o site está atrás de um desafio do Cloudflare."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora das Neves",
+  "categoria": "paroquia",
+  "cidade": "São Gonçalo",
+  "padroeiro": "Nossa Senhora das Neves",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "21984630460",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiansradasneves@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora das Neves",
+    "tipo": "matriz",
+    "cidade": "São Gonçalo",
+    "localidade": "Neves",
+    "endereco": "Rua Dr. Oliveira Botelho, s/nº",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org.br/portalarqnit/municipios/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Vicariato São Gonçalo. P39, criada em 1984. Sem horário que se pudesse ler: o site da arquidiocese está atrás de um desafio do Cloudflare e o trecho da busca não trouxe a grade."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Fátima",
+  "categoria": "paroquia",
+  "cidade": "São Gonçalo",
+  "padroeiro": "Nossa Senhora de Fátima",
+  "contatos": {
+   "telefone": "2126044187",
+   "whatsapp": "21998958426",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora de Fátima",
+    "tipo": "matriz",
+    "cidade": "São Gonçalo",
+    "localidade": "Barro Vermelho",
+    "endereco": "Rua Dr. Pio Borges, 3162",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "08:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Domingo 11h nas capelas (sem nome na fonte). O trecho lido não mostrou terça a sexta."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org.br/portal/paroquia-nossa-senhora-de-fatima-barro-vermelho/",
+    "data": "",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arqnit.org.br/portalarqnit/municipios/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Vicariato São Gonçalo. P40, criada em 1954. Horários da página da paróquia no portal da arquidiocese (arqnit.org.br/portal), sem data visível, lidos pelo trecho da busca porque o site está atrás de um desafio do Cloudflare."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Amparo",
+  "categoria": "paroquia",
+  "cidade": "São Gonçalo",
+  "padroeiro": "Nossa Senhora do Amparo",
+  "contatos": {
+   "telefone": "2137059877",
+   "whatsapp": "21995032236",
+   "instagram": "",
+   "site": "",
+   "email": "pnsaantonina@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Amparo",
+    "tipo": "matriz",
+    "cidade": "São Gonçalo",
+    "localidade": "Antonina",
+    "endereco": "Rua Tuiuti, 293, lotes 7 e 8",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org.br/portalarqnit/municipios/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Vicariato São Gonçalo. P59, criada em 2009. Sem horário que se pudesse ler: o site da arquidiocese está atrás de um desafio do Cloudflare e o trecho da busca não trouxe a grade."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Sant'Ana",
+  "categoria": "paroquia",
+  "cidade": "São Gonçalo",
+  "padroeiro": "Sant'Ana",
+  "contatos": {
+   "telefone": "2127015509",
+   "whatsapp": "21989138381",
+   "instagram": "",
+   "site": "",
+   "email": "psantanaitaunasg@outlook.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Sant'Ana",
+    "tipo": "matriz",
+    "cidade": "São Gonçalo",
+    "localidade": "Itaúna",
+    "endereco": "Estrada de Itaúna, 7",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "14:00",
+      "semanas": null,
+      "observacao": "Até 16h30"
+     }
+    ],
+    "nao_cabe": "Confissões também na quarta, após a missa das 19h. Capela Nossa Senhora da Conceição e Capela Nossa Senhora Aparecida (sem bairro na fonte): sábado 15h, alternando as semanas. Capela Nossa Senhora das Graças: domingo 10h."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org/arqnit/paroquia-de-santana-itauna-sg/",
+    "data": "",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arqnit.org.br/portalarqnit/municipios/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Vicariato São Gonçalo. P45, criada em 1975. Horários da página da paróquia no site antigo da arquidiocese (arqnit.org), sem data, lidos pelo trecho da busca porque o site está atrás de um desafio do Cloudflare."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "São Gonçalo",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "2126283125",
+   "whatsapp": "21964488558",
+   "instagram": "",
+   "site": "",
+   "email": "psasg1940@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "São Gonçalo",
+    "localidade": "Covanca",
+    "endereco": "Rua Marechal Floriano Peixoto, 2149",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Domingo 19h, local não claro no trecho. Capela São Francisco (sem bairro na fonte): sábado 18h."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org/arqnit/paroquia-santo-antonio-covanca-sg/",
+    "data": "",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arqnit.org.br/portalarqnit/municipios/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Vicariato São Gonçalo. Horários da página da paróquia no site antigo da arquidiocese (arqnit.org), sem data, lidos pelo trecho da busca porque o site está atrás de um desafio do Cloudflare. A página de municípios também dá (21) 98777-1936."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Gonçalo do Amarante",
+  "categoria": "paroquia",
+  "cidade": "São Gonçalo",
+  "padroeiro": "São Gonçalo do Amarante",
+  "contatos": {
+   "telefone": "2127121000",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Gonçalo do Amarante",
+    "tipo": "matriz",
+    "cidade": "São Gonçalo",
+    "localidade": "Centro",
+    "endereco": "Alameda Pio XII, 86",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "20:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "11:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Capela da paróquia (nome não claro no trecho): sábado 18h e domingo 9h. A página também traz horários de confissão, que o trecho não mostrou."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org/arqnit/paroquia-sao-goncalo-do-amarante-centro-sg/",
+    "data": "",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arqnit.org.br/portalarqnit/municipios/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Vicariato São Gonçalo. P48, criada em 1645, matriz histórica do município (bairro Zé Garoto, no Centro). Horários da página da paróquia no site antigo da arquidiocese (arqnit.org), sem data, lidos pelo trecho da busca porque o site está atrás de um desafio do Cloudflare. Também (21) 2712-1433. O site citado (vozdoamarante.com.br) não respondeu."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Perpétuo Socorro e São José Operário",
+  "categoria": "paroquia",
+  "cidade": "São Gonçalo",
+  "padroeiro": "Nossa Senhora do Perpétuo Socorro e São José Operário",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "21997380331",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiagradimpsejo@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Perpétuo Socorro e São José Operário",
+    "tipo": "matriz",
+    "cidade": "São Gonçalo",
+    "localidade": "Gradim",
+    "endereco": "Av. Washington Luiz, 600",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org.br/portalarqnit/municipios/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Vicariato São Gonçalo. P42, criada em 18/02/1967. Sem horário que se pudesse ler: o site da arquidiocese está atrás de um desafio do Cloudflare e o trecho da busca não trouxe a grade."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Pilar",
+  "categoria": "paroquia",
+  "cidade": "São Gonçalo",
+  "padroeiro": "Nossa Senhora do Pilar",
+  "contatos": {
+   "telefone": "2126077215",
+   "whatsapp": "21997578070",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Pilar",
+    "tipo": "matriz",
+    "cidade": "São Gonçalo",
+    "localidade": "Boaçu",
+    "endereco": "Av. Capitão Acácio, 1415",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": "Até 19h"
+     }
+    ],
+    "nao_cabe": "Domingo 7h, 9h, 10h, 11h e 18h, divididos entre a matriz e as capelas sem dizer onde. Sábado 16h em duas capelas sem nome no trecho. O trecho dá confissões de terça a sexta, 9h às 12h e 14h às 18h."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org/arqnit/paroquia-nossa-senhora-do-pilar-boacu-sg/",
+    "data": "",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arqnit.org.br/portalarqnit/municipios/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Vicariato São Gonçalo. P43, criada em 1979. Horários da página da paróquia no site antigo da arquidiocese (arqnit.org), sem data, lidos pelo trecho da busca porque o site está atrás de um desafio do Cloudflare."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sagrado Coração de Jesus",
+  "categoria": "paroquia",
+  "cidade": "São Gonçalo",
+  "padroeiro": "Sagrado Coração de Jesus",
+  "contatos": {
+   "telefone": "2127130020",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "mutuapscj@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Sagrado Coração de Jesus",
+    "tipo": "matriz",
+    "cidade": "São Gonçalo",
+    "localidade": "Mutuá",
+    "endereco": "Praça José Pedroso, s/nº",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "15:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "15:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 6,
+      "hora": "10:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Capela Nossa Senhora da Conceição (sem bairro na fonte): sábado 19h."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org/arqnit/paroquia-sagrado-coracao-de-jesus-mutua-sg/",
+    "data": "",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arqnit.org.br/portalarqnit/municipios/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Vicariato São Gonçalo. P44, criada em 1956. Horários da página da paróquia no site antigo da arquidiocese (arqnit.org), sem data, lidos pelo trecho da busca porque o site está atrás de um desafio do Cloudflare. A página de municípios dá (21) 4119-4309."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José",
+  "categoria": "paroquia",
+  "cidade": "São Gonçalo",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "2127122547",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasaojose2014@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José",
+    "tipo": "matriz",
+    "cidade": "São Gonçalo",
+    "localidade": "Estrela do Norte",
+    "endereco": "Rua Dr. Nilo Peçanha, 320",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Confissões antes das missas de domingo."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org/arqnit/paroquia-sao-jose-estrela-do-norte-sg/",
+    "data": "",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arqnit.org.br/portalarqnit/municipios/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Vicariato São Gonçalo. P49, criada em 1967. Horários da página da paróquia no site antigo da arquidiocese (arqnit.org), sem data, lidos pelo trecho da busca porque o site está atrás de um desafio do Cloudflare."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Judas Tadeu",
+  "categoria": "paroquia",
+  "cidade": "São Gonçalo",
+  "padroeiro": "São Judas Tadeu",
+  "contatos": {
+   "telefone": "2137059174",
+   "whatsapp": "21999839580",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasaojudastadeudorocha@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Judas Tadeu",
+    "tipo": "matriz",
+    "cidade": "São Gonçalo",
+    "localidade": "Rocha",
+    "endereco": "Rua João Agapito, 16",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org.br/portalarqnit/municipios/",
+    "data": "",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arqnit.org.br/portalarqnit/2026/04/09/kairos-cura-e-libertacao-a-vitoria-da-cruz-e-da-ressurreicao-sobre-todo-mal/",
+    "data": "2026-04-09",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Vicariato São Gonçalo. P50, criada em 19/03/1982. WhatsApp da secretaria dado na notícia de abril de 2026. Sem horário que se pudesse ler: o site da arquidiocese está atrás de um desafio do Cloudflare e o trecho da busca não trouxe a grade."
+ },
+ {
+  "id_banco": null,
+  "nome": "Quase-Paróquia Nossa Senhora da Conceição",
+  "categoria": "quase_paroquia",
+  "cidade": "São Gonçalo",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "21986691337",
+   "instagram": "",
+   "site": "",
+   "email": "pnsicsg@outlook.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja de Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "São Gonçalo",
+    "localidade": "Engenho Pequeno",
+    "endereco": "Rua João Frederico Couto, 25",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Capela de São Vicente (sem bairro na fonte): sábado 18h. Capela da comunidade: domingo 10h."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org/arqnitfinal/paroquia-nossa-senhora-da-conceicao-eng-pequeno-sg/",
+    "data": "",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arqnit.org.br/portalarqnit/municipios/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Vicariato São Gonçalo. P60, criada em 27/09/2012. Horários da página da paróquia no site antigo da arquidiocese (arqnit.org), sem data, lidos pelo trecho da busca porque o site está atrás de um desafio do Cloudflare."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Conceição",
+  "categoria": "paroquia",
+  "cidade": "São Gonçalo",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "2130305253",
+   "whatsapp": "21999381685",
+   "instagram": "",
+   "site": "",
+   "email": "secretaria.pnsc@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "São Gonçalo",
+    "localidade": "Porto Novo",
+    "endereco": "Rua Maria Quitéria, 01",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org.br/portalarqnit/municipios/",
+    "data": "",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arqnit.org.br/portalarqnit/2026/02/24/shuris-comunidade-colo-de-deus-reune-fieis-para-noite-especial-de-louvor-em-sao-goncalo/",
+    "data": "2026-02-24",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Vicariato São Gonçalo. P37, criada em 1966. Sem horário que se pudesse ler: o site da arquidiocese está atrás de um desafio do Cloudflare e o trecho da busca não trouxe a grade."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Catarina Labouré",
+  "categoria": "paroquia",
+  "cidade": "São Gonçalo",
+  "padroeiro": "Santa Catarina Labouré",
+  "contatos": {
+   "telefone": "2137586648",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Catarina Labouré",
+    "tipo": "matriz",
+    "cidade": "São Gonçalo",
+    "localidade": "Jardim Catarina Velho",
+    "endereco": "Av. Dr. Albino Imparato",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Capela São João Batista (sem bairro na fonte): sexta 19h30 e domingo 10h30."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org/arqnit/paroquia-santa-catarina-laboure-jardim-catarina-sao-goncalo/",
+    "data": "",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arqnit.org.br/portalarqnit/municipios/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Vicariato Alcântara. P88, criada em 2010. Horários da página da paróquia no site antigo da arquidiocese (arqnit.org), sem data, lidos pelo trecho da busca porque o site está atrás de um desafio do Cloudflare. Outra lista do site dá (21) 3719-5979 e (21) 3049-0954."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santíssima Trindade",
+  "categoria": "paroquia",
+  "cidade": "São Gonçalo",
+  "padroeiro": "Santíssima Trindade",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "21998487178",
+   "instagram": "paroquiasstrindade",
+   "site": "https://sstrindade.org/",
+   "email": "paroquiasstrindadesg2@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz da Santíssima Trindade",
+    "tipo": "matriz",
+    "cidade": "São Gonçalo",
+    "localidade": "Trindade",
+    "endereco": "Av. Cidade de Campos",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Capela Santa Rita (sem bairro na fonte): quarta 19h e domingo 10h. Capela Santa Teresinha (sem bairro): sábado 16h."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://sstrindade.org/wp-content/uploads/2026/07/horarios-de-missas.png",
+    "data": "2026-07",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arqnit.org.br/portalarqnit/municipios/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato Alcântara. P61, criada em 2001. Horários do cartaz publicado no site da paróquia em julho de 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Auxiliadora",
+  "categoria": "paroquia",
+  "cidade": "São Gonçalo",
+  "padroeiro": "Nossa Senhora Auxiliadora",
+  "contatos": {
+   "telefone": "2130615984",
+   "whatsapp": "21988700397",
+   "instagram": "",
+   "site": "",
+   "email": "secretaria.pnsauxiliadora@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Auxiliadora",
+    "tipo": "matriz",
+    "cidade": "São Gonçalo",
+    "localidade": "Laranjal",
+    "endereco": "Av. Bispo D. João da Mata, Q. 80",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": "Missa das crianças"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Capelas sem bairro na fonte: Divina Misericórdia, sábado 19h no 2º e 4º sábados; Sant'Ana e São Joaquim, sábado 19h no 1º e 3º sábados; Santo Antônio, domingo 10h no 2º e 4º domingos; São José, domingo 10h no 1º e 3º domingos; Nossa Senhora de Lourdes, domingo 17h no 1º e 3º domingos; Nossa Senhora do Sagrado Coração, domingo 17h no 2º e 4º domingos."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org/arqnit/52806-2/",
+    "data": "",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arqnit.org.br/portalarqnit/municipios/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Vicariato Alcântara. P58, criada em 24/05/2004. Laranjal (a Wikipédia diz Laranja). Horários da página da paróquia no site antigo da arquidiocese (arqnit.org), sem data, lidos pelo trecho da busca porque o site está atrás de um desafio do Cloudflare. O site citado (paroquiauxiliadora.com) não respondeu."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Conceição",
+  "categoria": "paroquia",
+  "cidade": "São Gonçalo",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "2126145500",
+   "whatsapp": "21998734038",
+   "instagram": "",
+   "site": "",
+   "email": "pnsraconceicaopacheco@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "São Gonçalo",
+    "localidade": "Pacheco",
+    "endereco": "Estrada do Pacheco, 756",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org.br/portalarqnit/municipios/",
+    "data": "",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arqnit.org.br/portal/2025/04/12/missa-dos-santos-oleos-sera-celebrada-em-pachecos-sao-goncalo/",
+    "data": "2025-04-12",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Vicariato Alcântara. P36, uma das paróquias antigas de São Gonçalo (a página de municípios dá a data inválida 31/04/1844). Sem horário que se pudesse ler: o site da arquidiocese está atrás de um desafio do Cloudflare e o trecho da busca não trouxe a grade."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Conceição e Santa Isabel",
+  "categoria": "paroquia",
+  "cidade": "São Gonçalo",
+  "padroeiro": "Nossa Senhora da Conceição e Santa Isabel",
+  "contatos": {
+   "telefone": "2124795400",
+   "whatsapp": "21986359308",
+   "instagram": "",
+   "site": "",
+   "email": "pnsconceicaoesantaisabel@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Conceição e Santa Isabel",
+    "tipo": "matriz",
+    "cidade": "São Gonçalo",
+    "localidade": "Santa Isabel",
+    "endereco": "Estrada do Cordeiro, s/nº",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 2,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org/arqnit/paroquia-de-nossa-senhora-da-conceicao-e-santa-isabel-santa-isabel-sao-goncalo/",
+    "data": "",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arqnit.org.br/portalarqnit/municipios/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Vicariato Alcântara. P82, criada em 08/12/2007. Horários da página da paróquia no site antigo da arquidiocese (arqnit.org), sem data, lidos pelo trecho da busca porque o site está atrás de um desafio do Cloudflare."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "São Gonçalo",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "21984636241",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiastoantoniop80@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "São Gonçalo",
+    "localidade": "Amendoeira",
+    "endereco": "Estrada Nazário Machado, s/nº",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org.br/portal/paroquia-santo-antonio-amendoeira/",
+    "data": "",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arqnit.org.br/portalarqnit/municipios/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Vicariato Alcântara. P80, criada em 08/12/2007. A página da paróquia no portal da arquidiocese tem a seção de horários, mas o trecho da busca não a mostrou e o site está atrás de um desafio do Cloudflare."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José Operário",
+  "categoria": "paroquia",
+  "cidade": "São Gonçalo",
+  "padroeiro": "São José Operário",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "21996827210",
+   "instagram": "",
+   "site": "",
+   "email": "saojoseoperariomatriz@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José Operário",
+    "tipo": "matriz",
+    "cidade": "São Gonçalo",
+    "localidade": "Jardim Catarina",
+    "endereco": "Rua Madeira de Freitas, 547",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org.br/portalarqnit/municipios/",
+    "data": "",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arqnit.org.br/portalarqnit/2025/04/25/uma-tarde-para-mergulhar-na-misericordia-de-deus/",
+    "data": "2025-04-25",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Vicariato Alcântara. P65, criada em 2005. Endereço da notícia de 2025; a página de municípios dá Rua Madeira de Freitas, Qd. 81, Lt. 08, Jardim Catarina Novo. Sem horário que se pudesse ler: o site da arquidiocese está atrás de um desafio do Cloudflare e o trecho da busca não trouxe a grade."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Pedro de Alcântara",
+  "categoria": "paroquia",
+  "cidade": "São Gonçalo",
+  "padroeiro": "São Pedro de Alcântara",
+  "contatos": {
+   "telefone": "2126030620",
+   "whatsapp": "21992367427",
+   "instagram": "",
+   "site": "",
+   "email": "secretariaspa@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Pedro de Alcântara",
+    "tipo": "matriz",
+    "cidade": "São Gonçalo",
+    "localidade": "Alcântara",
+    "endereco": "Rua São Pedro de Alcântara, frente 23",
+    "horarios": [],
+    "nao_cabe": "O trecho da busca sobre a página antiga da arquidiocese veio confuso: matriz terça a sexta 8h, segunda 19h, sábado 20h, domingo 7h, 9h e 18h, mais missas em várias capelas. Não usado por falta de clareza."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org/arqnit/paroquia-sao-pedro-de-alcantara-alcantara-sao-goncalo/",
+    "data": "",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arqnit.org.br/portalarqnit/municipios/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Vicariato Alcântara. P51, criada em 1950. A página de municípios dá o endereço como Praça Carlos Gianelli."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Francisco de Assis",
+  "categoria": "paroquia",
+  "cidade": "Itaboraí",
+  "padroeiro": "São Francisco de Assis",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "21985291654",
+   "instagram": "",
+   "site": "",
+   "email": "psfranciscodeassis@msn.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Francisco de Assis",
+    "tipo": "matriz",
+    "cidade": "Itaboraí",
+    "localidade": "Apollo II",
+    "endereco": "Rua Domingos Salles, lotes 1 e 2, quadra 10",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org.br/portalarqnit/municipios/",
+    "data": "",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arqnit.org.br/portalarqnit/wp-content/uploads/2024/07/ANUARIO-2024.pdf",
+    "data": "2024-07",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Vicariato Alcântara. Fica em Itaboraí, mas pertence ao Vicariato Alcântara. Sem horário que se pudesse ler: o site da arquidiocese está atrás de um desafio do Cloudflare e o trecho da busca não trouxe a grade."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sagrado Coração de Jesus",
+  "categoria": "paroquia",
+  "cidade": "São Gonçalo",
+  "padroeiro": "Sagrado Coração de Jesus",
+  "contatos": {
+   "telefone": "2138576755",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "pscjmutondo@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Sagrado Coração de Jesus",
+    "tipo": "matriz",
+    "cidade": "São Gonçalo",
+    "localidade": "Mutondo",
+    "endereco": "Rua Dr. Nilo Peçanha, s/nº",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Segunda, 18h30, celebração da Palavra. Confissões meia hora antes das missas. Capela São José (sem bairro na fonte): quarta 19h. Capela Nossa Senhora das Graças: sábado 16h30. Capela de São Vicente: sábado 18h."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org/arqnit/paroquia-sagrado-coracao-de-jesus-mutondo-sao-goncalo/",
+    "data": "",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arqnit.org.br/portalarqnit/municipios/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Vicariato Alcântara. P62, criada em 2012. Horários da página da paróquia no site antigo da arquidiocese (arqnit.org), sem data, lidos pelo trecho da busca porque o site está atrás de um desafio do Cloudflare."
+ },
+ {
+  "id_banco": null,
+  "nome": "Quase-Paróquia Santa Luzia",
+  "categoria": "quase_paroquia",
+  "cidade": "São Gonçalo",
+  "padroeiro": "Santa Luzia",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "21997005286",
+   "instagram": "",
+   "site": "",
+   "email": "igrejasantaluziasg@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja de Santa Luzia",
+    "tipo": "matriz",
+    "cidade": "São Gonçalo",
+    "localidade": "Santa Luzia",
+    "endereco": "Av. Santa Luzia, Qd. 133, Lt. 8, s/nº",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org.br/portalarqnit/municipios/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Vicariato Alcântara. P99, criada em 18/12/2015. Sem horário que se pudesse ler: o site da arquidiocese está atrás de um desafio do Cloudflare e o trecho da busca não trouxe a grade."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Conceição",
+  "categoria": "paroquia",
+  "cidade": "Itaboraí",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário de Jesus Crucificado",
+    "tipo": "santuario",
+    "cidade": "Itaboraí",
+    "localidade": "Porto das Caixas",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "O trecho da busca sobre a página antiga da arquidiocese dá, sem clareza: missas 9h e 11h na matriz em dias de semana, 18h nas capelas de quarta a sábado, sábado 16h30 missa dos enfermos, domingo 7h30, 9h30, 11h30 e 19h na matriz. Confissão na matriz de manhã e à tarde. Não usado por falta de clareza."
+   },
+   {
+    "id_banco": null,
+    "nome": "Igreja de São Barnabé",
+    "tipo": "capela",
+    "cidade": "Itaboraí",
+    "localidade": "Itambi",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Igreja de São Sebastião",
+    "tipo": "capela",
+    "cidade": "Itaboraí",
+    "localidade": "Visconde de Itaboraí",
+    "endereco": "Rua Francisco Machado, 60",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org/arqnit/paroquia-nossa-senhora-da-conceicao-porto-das-caixas-itaborai/",
+    "data": "",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arqnit.org.br/portalarqnit/wp-content/uploads/2023/05/ANUARIO-2023-versao-estendida-1.pdf",
+    "data": "2023-05",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Vicariato Rural. P06. A matriz é o Santuário de Jesus Crucificado (GCatholic), confiado aos passionistas. Igrejas de Itambi e Visconde do anuário de 2023. Endereço e telefone da matriz não apareceram no trecho lido."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Fátima",
+  "categoria": "paroquia",
+  "cidade": "Itaboraí",
+  "padroeiro": "Nossa Senhora de Fátima",
+  "contatos": {
+   "telefone": "2126359329",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "https://pnsfatimamanilha.com.br/",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora de Fátima",
+    "tipo": "matriz",
+    "cidade": "Itaboraí",
+    "localidade": "Manilha",
+    "endereco": "Rodovia BR-493, Estrada do Contorno, km 0",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 2,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": "Até 19h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": "Até 19h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": "Até 19h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": "Até 18h"
+     }
+    ],
+    "nao_cabe": "Capela Sagrado Coração (sem bairro na fonte): 1ª sexta 19h30. Sábado 16h30 em capelas que se alternam. Domingo 7h, 10h30 e 17h em capelas que se alternam."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org/arqnit/paroquia-nossa-senhora-de-fatima-manilha-itaborai/",
+    "data": "",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arqnit.org.br/portalarqnit/municipios/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Vicariato Rural. Horários da página da paróquia no site antigo da arquidiocese (arqnit.org), sem data, lidos pelo trecho da busca porque o site está atrás de um desafio do Cloudflare. O site da paróquia recusa acesso automatizado (403)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "Itaboraí",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "2126351066",
+   "whatsapp": "21984858431",
+   "instagram": "obatistaitaborai",
+   "site": "",
+   "email": "paroquiadesaojoaobatistaitaborai@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Batista",
+    "tipo": "matriz",
+    "cidade": "Itaboraí",
+    "localidade": "Centro",
+    "endereco": "Praça Marechal Floriano Peixoto, 15",
+    "horarios": [],
+    "nao_cabe": "A página antiga da arquidiocese (cerca de 10 anos, texto confuso) dava missas em dias de semana às 8h e às 19h e sábado 16h. Não usado."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org/arqnitfinal/paroquia-sao-joao-batista-centro-itaborai/",
+    "data": "",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arqnit.org.br/portalarqnit/wp-content/uploads/2024/07/ANUARIO-2024.pdf",
+    "data": "2024-07",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Vicariato Rural. Matriz histórica, com mais de 300 anos. Instagram citado pela página da arquidiocese, não aberto. Sem horário que se pudesse ler: o site da arquidiocese está atrás de um desafio do Cloudflare e o trecho da busca não trouxe a grade."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "Rio Bonito",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "2127342888",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Batista",
+    "tipo": "matriz",
+    "cidade": "Rio Bonito",
+    "localidade": "Praça Cruzeiro",
+    "endereco": "Avenida João Caetano, 355",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Confissões 30 minutos antes de cada missa. Nas comunidades: domingo 11h, sábado 17h (fora o 1º sábado) e quarta 19h."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org/arqnit/paroquia-sao-joao-batista-praca-cruzeiro-rio-bonito/",
+    "data": "",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Vicariato Rural. Horários da página da paróquia no site antigo da arquidiocese (arqnit.org), sem data, lidos pelo trecho da busca porque o site está atrás de um desafio do Cloudflare."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Pedro Apóstolo",
+  "categoria": "paroquia",
+  "cidade": "Itaboraí",
+  "padroeiro": "São Pedro Apóstolo",
+  "contatos": {
+   "telefone": "2126357331",
+   "whatsapp": "21988944491",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Pedro Apóstolo",
+    "tipo": "matriz",
+    "cidade": "Itaboraí",
+    "localidade": "Venda das Pedras",
+    "endereco": "Av. 22 de Maio, 2280",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Domingo na matriz: 7h30 e 19h numa página da arquidiocese, 8h na outra. Sábado 19h em Muriqui. Domingo nas capelas de Areal, Engenho Velho, Reta Nova, Pico, Quissamã, Reta Velha e Nova Cidade (horários não lidos)."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org.br/portal/paroquia-sao-pedro-apostolo-venda-das-pedras/",
+    "data": "",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arqnit.org/arqnit/paroquia-sao-pedro-apostolo-venda-das-pedras-itaborai/",
+    "data": "",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Vicariato Rural. Frades capuchinhos. As duas páginas da arquidiocese concordam nos dias de semana e no sábado e divergem no domingo. O site da paróquia (paroquiasaopedrovp.com.br) não respondeu."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Conceição",
+  "categoria": "paroquia",
+  "cidade": "Rio Bonito",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "21987025608",
+   "instagram": "",
+   "site": "",
+   "email": "p32boaesperanca@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "Rio Bonito",
+    "localidade": "Boa Esperança",
+    "endereco": "Praça Bernardino Lopes, s/nº",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org.br/portalarqnit/municipios/",
+    "data": "",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arqnit.org.br/portal/paroquia-nossa-senhora-da-conceicao-boa-esperanca/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Vicariato Rural. P32, criada em 17/09/1857. Sem horário que se pudesse ler: o site da arquidiocese está atrás de um desafio do Cloudflare e o trecho da busca não trouxe a grade."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Conceição",
+  "categoria": "paroquia",
+  "cidade": "Rio Bonito",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "2127343543",
+   "whatsapp": "2127343543",
+   "instagram": "nsconceicaorb",
+   "site": "https://pnsconceicao.org/",
+   "email": "nsconceicaorb@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Histórica de Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "Rio Bonito",
+    "localidade": "Centro",
+    "endereco": "Praça Fonseca Portela, s/nº",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": "Até 21h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": "Até 9h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": "Até 17h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": "Até 17h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": "Até 21h"
+     }
+    ],
+    "nao_cabe": "Sábado 17h e domingo 8h, 10h e 19h: a agenda do site marca essas missas na Matriz Auxiliar, sem endereço próprio."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Rio Bonito",
+    "localidade": "Serra do Sambê",
+    "endereco": "Rua Theotonio José da Silva, 08",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Auxiliadora",
+    "tipo": "capela",
+    "cidade": "Rio Bonito",
+    "localidade": "Colina da Primavera",
+    "endereco": "Rua Francisco Guedes de Moraes, 10",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora das Graças",
+    "tipo": "capela",
+    "cidade": "Rio Bonito",
+    "localidade": "Bela Vista",
+    "endereco": "Av. Manoel Duarte, 2.089",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora de Fátima",
+    "tipo": "capela",
+    "cidade": "Rio Bonito",
+    "localidade": "Boqueirão",
+    "endereco": "Rua Hilda Jardim Faria, 01",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Madre de Deus",
+    "tipo": "capela",
+    "cidade": "Rio Bonito",
+    "localidade": "Rio do Ouro",
+    "endereco": "Rua Francisco Moreira Sobrinho, 170",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Rita de Cássia",
+    "tipo": "capela",
+    "cidade": "Rio Bonito",
+    "localidade": "Sambê",
+    "endereco": "Estrada da Embratel, 12",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Rio Bonito",
+    "localidade": "Lavras",
+    "endereco": "Estrada de Lavras, 250",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São José Operário",
+    "tipo": "capela",
+    "cidade": "Rio Bonito",
+    "localidade": "Rio Vermelho",
+    "endereco": "Rua São José Operário, 188",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Paulo Apóstolo",
+    "tipo": "capela",
+    "cidade": "Rio Bonito",
+    "localidade": "Jacuba",
+    "endereco": "Estrada de Lavras, s/nº",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Teresinha do Menino Jesus",
+    "tipo": "capela",
+    "cidade": "Rio Bonito",
+    "localidade": "Mangueira",
+    "endereco": "Estrada da Posse, s/nº",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://pnsconceicao.org/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://pnsconceicao.org/comunidades/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato Rural. Matriz de Rio Bonito, 258 anos em 2026. O telefone do site é também WhatsApp."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Amparo",
+  "categoria": "paroquia",
+  "cidade": "Tanguá",
+  "padroeiro": "Nossa Senhora do Amparo",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "21999943403",
+   "instagram": "",
+   "site": "",
+   "email": "pnsamparotangua@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Amparo",
+    "tipo": "matriz",
+    "cidade": "Tanguá",
+    "localidade": "Centro",
+    "endereco": "Rua Tereza Campins Gonçalves, 21",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org.br/portal/paroquia-nossa-senhora-do-amparo-tangua/",
+    "data": "",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arqnit.org.br/portal/2024/01/02/participe-do-56o-aniversario-da-paroquia-nossa-senhora-do-amparo-em-tangua/",
+    "data": "2024-01-02",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Vicariato Rural. Paróquia de 1968. Horários da página do portal da arquidiocese, informados pela paróquia, sem data visível, lidos pelo trecho da busca. Celular tratado como WhatsApp da secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Lapa",
+  "categoria": "paroquia",
+  "cidade": "Silva Jardim",
+  "padroeiro": "Nossa Senhora da Lapa",
+  "contatos": {
+   "telefone": "2226681324",
+   "whatsapp": "22988261174",
+   "instagram": "",
+   "site": "",
+   "email": "pnslapasilvajardim@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Lapa",
+    "tipo": "matriz",
+    "cidade": "Silva Jardim",
+    "localidade": "Centro",
+    "endereco": "Rua Luiz Gomes, s/nº",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org.br/portalarqnit/municipios/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Vicariato Rural. Sem horário que se pudesse ler: o site da arquidiocese está atrás de um desafio do Cloudflare e o trecho da busca não trouxe a grade."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "Araruama",
+  "padroeiro": "São Sebastião",
+  "contatos": {
+   "telefone": "2226651010",
+   "whatsapp": "22988179525",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Sebastião",
+    "tipo": "matriz",
+    "cidade": "Araruama",
+    "localidade": "Centro",
+    "endereco": "Praça São Sebastião, 192",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org.br/portal/paroquia-sao-sebastiao-araruama/",
+    "data": "",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arqnit.org.br/portalarqnit/municipios/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Vicariato Lagos. P01, criada em 10/01/1799. Franciscanos conventuais. A página da paróquia no portal da arquidiocese tem a seção de horários, que o trecho da busca não mostrou."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Vicente de Paulo",
+  "categoria": "paroquia",
+  "cidade": "Araruama",
+  "padroeiro": "São Vicente de Paulo",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "22998233605",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiadesaovicente@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Vicente de Paulo",
+    "tipo": "matriz",
+    "cidade": "Araruama",
+    "localidade": "São Vicente de Paulo",
+    "endereco": "Praça da Matriz, 07",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org.br/portalarqnit/municipios/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Vicariato Lagos. P02, criada em 1857. O site citado (paroquiadesaovicente.org) não respondeu. Sem horário que se pudesse ler: o site da arquidiocese está atrás de um desafio do Cloudflare e o trecho da busca não trouxe a grade."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Araruama",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "22988294727",
+   "instagram": "",
+   "site": "",
+   "email": "pnsraaparecida@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Araruama",
+    "localidade": "Bananeiras",
+    "endereco": "Rodovia Amaral Peixoto, km 90",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org.br/portal/paroquia-nossa-senhora-aparecida-bananeiras/",
+    "data": "",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arqnit.org.br/portalarqnit/municipios/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Vicariato Lagos. P87. A página da paróquia no portal da arquidiocese tem a seção de horários, que o trecho da busca não mostrou."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Jorge",
+  "categoria": "paroquia",
+  "cidade": "Araruama",
+  "padroeiro": "São Jorge",
+  "contatos": {
+   "telefone": "2226613434",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasaojorgeps@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Jorge",
+    "tipo": "matriz",
+    "cidade": "Araruama",
+    "localidade": "Praia Seca",
+    "endereco": "Rua Tomé dos Santos, s/nº",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org.br/portalarqnit/municipios/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Vicariato Lagos. P98. Sem horário que se pudesse ler: o site da arquidiocese está atrás de um desafio do Cloudflare e o trecho da busca não trouxe a grade."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sagrado Coração de Jesus e Nossa Senhora dos Remédios",
+  "categoria": "paroquia",
+  "cidade": "Arraial do Cabo",
+  "padroeiro": "Sagrado Coração de Jesus e Nossa Senhora dos Remédios",
+  "contatos": {
+   "telefone": "2226222061",
+   "whatsapp": "22998141508",
+   "instagram": "",
+   "site": "",
+   "email": "sagradocoracaoarraial@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Sagrado Coração de Jesus",
+    "tipo": "matriz",
+    "cidade": "Arraial do Cabo",
+    "localidade": "Centro",
+    "endereco": "Alameda Pio XII, 14",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": [
+       2,
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Segunda 19h, celebração da Palavra. Capela de Nossa Senhora dos Remédios (sem endereço na fonte): terça e quarta 19h, domingo 7h30. Capela Nossa Senhora Aparecida: 1º sábado 16h. Capela São José Operário: 2º sábado 17h. Capela Divino Espírito Santo: domingo 17h, sem dizer quais domingos. Confissões antes das missas da noite de sábado e domingo."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org/arqnit/paroquia-sagrado-coracao-de-jesus-arraial-do-cabo/",
+    "data": "",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arqnit.org.br/portalarqnit/municipios/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Vicariato Lagos. P03. Horários da página da paróquia no site antigo da arquidiocese (arqnit.org), sem data, lidos pelo trecho da busca porque o site está atrás de um desafio do Cloudflare."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Assunção",
+  "categoria": "paroquia",
+  "cidade": "Cabo Frio",
+  "padroeiro": "Nossa Senhora da Assunção",
+  "contatos": {
+   "telefone": "2226430082",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "secretaria15pnsa@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Histórica de Nossa Senhora da Assunção",
+    "tipo": "matriz",
+    "cidade": "Cabo Frio",
+    "localidade": "Centro",
+    "endereco": "Praça Porto Rocha",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "15:30",
+      "semanas": null,
+      "observacao": "Até 18h30"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "15:30",
+      "semanas": null,
+      "observacao": "Até 18h30"
+     }
+    ],
+    "nao_cabe": "Domingo a partir das 8h30 na Matriz Auxiliar e nas capelas, até as 20h (o trecho não traz a lista). Sábado 18h na capela. Confissões 30 minutos antes das missas de sábado e domingo."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org/arqnit/paroquia-nossa-senhara-da-assuncao-centro-cabo-frio/",
+    "data": "",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arqnit.org.br/portalarqnit/municipios/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Vicariato Lagos. P04, criada em 1615. Horários da página da paróquia no site antigo da arquidiocese (arqnit.org), sem data, lidos pelo trecho da busca porque o site está atrás de um desafio do Cloudflare. Na festa de agosto de 2024 a arquidiocese publicou: sexta 7h30 e 19h na Matriz Histórica; sábado 18h e domingo 8h, 10h e 18h na Matriz Auxiliar."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Esperança",
+  "categoria": "paroquia",
+  "cidade": "Cabo Frio",
+  "padroeiro": "Nossa Senhora da Esperança",
+  "contatos": {
+   "telefone": "2226295819",
+   "whatsapp": "22988133280",
+   "instagram": "",
+   "site": "",
+   "email": "pnsdaesperanca@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Esperança",
+    "tipo": "matriz",
+    "cidade": "Cabo Frio",
+    "localidade": "Jardim Esperança",
+    "endereco": "Rua Davi Garcia da Rocha, 11",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": "Na missa"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Confissões de terça a sexta antes da missa ou com hora marcada."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org/arqnit/paroquia-nossa-senhora-da-esperanca-jardim-esperanca-cabo-frio/",
+    "data": "",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arqnit.org.br/portalarqnit/municipios/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Vicariato Lagos. P83. Horários da página da paróquia no site antigo da arquidiocese (arqnit.org), sem data, lidos pelo trecho da busca porque o site está atrás de um desafio do Cloudflare. Também (22) 98813-3665."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Fátima e São Pedro e São Paulo",
+  "categoria": "paroquia",
+  "cidade": "Cabo Frio",
+  "padroeiro": "Nossa Senhora de Fátima e São Pedro e São Paulo",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "22997962900",
+   "instagram": "",
+   "site": "",
+   "email": "igrejafatima1351626@yahoo.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora de Fátima",
+    "tipo": "matriz",
+    "cidade": "Cabo Frio",
+    "localidade": "Unamar",
+    "endereco": "Rua Hermanida Jacob, Qd. 17, Lt. 21",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org.br/portalarqnit/municipios/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Vicariato Lagos. P63, criada em 25/08/2004. As páginas do clero chamam a paróquia ora de Nossa Senhora de Fátima, ora de Nossa Senhora de Fátima e São Pedro e São Paulo. Sem horário que se pudesse ler: o site da arquidiocese está atrás de um desafio do Cloudflare e o trecho da busca não trouxe a grade."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São Cristóvão",
+  "categoria": "paroquia",
+  "cidade": "Cabo Frio",
+  "padroeiro": "São Cristóvão",
+  "contatos": {
+   "telefone": "2226473471",
+   "whatsapp": "22997201704",
+   "instagram": "",
+   "site": "",
+   "email": "psaocristovao05@outlook.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Cristóvão",
+    "tipo": "matriz",
+    "cidade": "Cabo Frio",
+    "localidade": "São Cristóvão",
+    "endereco": "Av. Lecy Gomes da Costa, s/nº",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Quinta à noite na matriz (hora não clara no trecho). Missas de terça, quarta e sexta à noite e de domingo 17h ou 19h em capelas que se alternam (Santo Expedito, Santo Antônio e outras, sem bairro na fonte). Comunidade Santos Anjos: sábado 18h. Confissões depois da missa da manhã, exceto quinta e domingo."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org/arqnit/paroquia-de-sao-cristovao-sao-cristovao-cabo-frio/",
+    "data": "",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arqnit.org.br/portalarqnit/municipios/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Vicariato Lagos. P05. Horários da página da paróquia no site antigo da arquidiocese (arqnit.org), sem data, lidos pelo trecho da busca porque o site está atrás de um desafio do Cloudflare. O site citado (paroquiasaocristovao.org.br) não respondeu."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São Pedro e São Paulo",
+  "categoria": "paroquia",
+  "cidade": "Cabo Frio",
+  "padroeiro": "São Pedro e São Paulo",
+  "contatos": {
+   "telefone": "2226446001",
+   "whatsapp": "22988131370",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiapedroepaulo@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Pedro e São Paulo",
+    "tipo": "matriz",
+    "cidade": "Cabo Frio",
+    "localidade": "Tamoios",
+    "endereco": "Rua Torre Eiffel, 168, Aquarius",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Capela Sagrados Corações de Jesus e Maria (sem bairro na fonte): sábado 16h30. Capela de Santa Ana: sábado 18h. Capela Santo Antônio: domingo 7h30."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org/arqnit/paroquia-de-sao-pedro-e-sao-paulo-aquarius-cabo-frio/",
+    "data": "",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arqnit.org.br/portalarqnit/municipios/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Vicariato Lagos. P95, criada em 11/07/2011. Horários da página da paróquia no site antigo da arquidiocese (arqnit.org), sem data, lidos pelo trecho da busca porque o site está atrás de um desafio do Cloudflare."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Imaculada Conceição",
+  "categoria": "paroquia",
+  "cidade": "Iguaba Grande",
+  "padroeiro": "Imaculada Conceição",
+  "contatos": {
+   "telefone": "2226242625",
+   "whatsapp": "22997497855",
+   "instagram": "",
+   "site": "",
+   "email": "secretariaparoquialdeiguabagrande@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz da Imaculada Conceição",
+    "tipo": "matriz",
+    "cidade": "Iguaba Grande",
+    "localidade": "Centro",
+    "endereco": "Rua Aníbal Simões Pires Condeixa, 126",
+    "horarios": [],
+    "nao_cabe": "O trecho da busca sobre a página antiga da arquidiocese veio embaralhado: terça a quinta 18h, segunda 19h30 e sexta 8h na matriz; domingo 9h na matriz e 7h na capela da praia. Não usado por falta de clareza."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org/arqnit/paroquia-imaculada-conceicao-centro-iguaba-grande/",
+    "data": "",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arqnit.org.br/portalarqnit/municipios/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Vicariato Lagos. P53."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Pedro",
+  "categoria": "paroquia",
+  "cidade": "São Pedro da Aldeia",
+  "padroeiro": "São Pedro",
+  "contatos": {
+   "telefone": "2226211203",
+   "whatsapp": "22998962732",
+   "instagram": "",
+   "site": "",
+   "email": "secretariaparoquiasaopedro@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Pedro",
+    "tipo": "matriz",
+    "cidade": "São Pedro da Aldeia",
+    "localidade": "Centro",
+    "endereco": "Travessa Hildegardo Milagre, 7",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 2,
+      "hora": "17:15",
+      "semanas": null,
+      "observacao": "Até 18h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "17:15",
+      "semanas": null,
+      "observacao": "Até 18h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 0,
+      "hora": "07:15",
+      "semanas": null,
+      "observacao": "Até 8h"
+     }
+    ],
+    "nao_cabe": "Na capela (nome não claro no trecho): terça, quinta e sexta 19h30; sábado 16h30; domingo 10h e 17h."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org/arqnit/paroquia-sao-pedro-sao-pedro-da-aldeia/",
+    "data": "",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arqnit.org.br/portalarqnit/municipios/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Vicariato Lagos. P54. Horários da página da paróquia no site antigo da arquidiocese (arqnit.org), sem data, lidos pelo trecho da busca porque o site está atrás de um desafio do Cloudflare."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "São Pedro da Aldeia",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "2226253312",
+   "whatsapp": "22997553032",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasjbatista.lagos@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Batista",
+    "tipo": "matriz",
+    "cidade": "São Pedro da Aldeia",
+    "localidade": "São João",
+    "endereco": "Rua Castelo Branco, s/nº",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org.br/portalarqnit/municipios/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Vicariato Lagos. P81, criada em 2007. Sem horário que se pudesse ler: o site da arquidiocese está atrás de um desafio do Cloudflare e o trecho da busca não trouxe a grade."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Nazaré",
+  "categoria": "paroquia",
+  "cidade": "Saquarema",
+  "padroeiro": "Nossa Senhora de Nazaré",
+  "contatos": {
+   "telefone": "2226512482",
+   "whatsapp": "22999696580",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiadesaquarema@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora de Nazareth",
+    "tipo": "matriz",
+    "cidade": "Saquarema",
+    "localidade": "Centro",
+    "endereco": "Praça Nossa Senhora de Nazareth, s/nº",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org.br/portal/paroquia-nossa-senhora-de-nazare-saquarema/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Vicariato Lagos. P55. A página da paróquia no portal da arquidiocese tem a seção de horários, que o trecho da busca não mostrou; o site da paróquia (nazarethsaquarema.com.br) estava fora do ar."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Saquarema",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "2220310108",
+   "whatsapp": "22997663206",
+   "instagram": "",
+   "site": "",
+   "email": "prsantoantonio@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Saquarema",
+    "localidade": "Bacaxá",
+    "endereco": "Praça Santo Antônio, s/nº",
+    "horarios": [],
+    "nao_cabe": "Página antiga da arquidiocese, com mais de dez anos: missas diárias às 8h na matriz e domingo 8h, 10h, 18h e 20h. Não usada por ser antiga."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora do Carmo",
+    "tipo": "capela",
+    "cidade": "Saquarema",
+    "localidade": "Água Branca",
+    "endereco": "Estrada da Água Branca, s/nº",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arqnit.org.br/portalarqnit/municipios/",
+    "data": "",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arqnit.org/arqnitfinal/paroquia-santo-antonio-centro-bacaxa/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Vicariato Lagos. P79, criada em 19/01/2006. Fixo da página antiga."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sant'Ana e Santa Rita de Cássia",
+  "categoria": "paroquia",
+  "cidade": "Armação dos Búzios",
+  "padroeiro": "Sant'Ana e Santa Rita de Cássia",
+  "contatos": {
+   "telefone": "2226236530",
+   "whatsapp": "2226236530",
+   "instagram": "paroquiadebuzios.oficial",
+   "site": "https://paroquiadebuzios.com.br/",
+   "email": "paroquiadebuzios@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Rita de Cássia",
+    "tipo": "matriz",
+    "cidade": "Armação dos Búzios",
+    "localidade": "Manguinhos",
+    "endereco": "Av. José Bento Ribeiro Dantas, 3333",
+    "horarios": [],
+    "nao_cabe": "O site publica só a agenda da semana. De 13 a 15/11/2026: sexta 19h na matriz e na Capela Imaculado Coração de Maria; sábado 20h na matriz; domingo 8h na matriz e 18h missa campal pelo aniversário da cidade."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Sant'Anna",
+    "tipo": "capela",
+    "cidade": "Armação dos Búzios",
+    "localidade": "Praia dos Ossos",
+    "endereco": "Travessa Sant'Anna, s/nº",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://paroquiadebuzios.com.br/horarios-de-missas/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arqnit.org.br/portalarqnit/municipios/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Vicariato Lagos. P57, criada em 26/07/1997. O site da paróquia não traz grade fixa de missas, só a agenda da semana. Telefone do site é também WhatsApp. O site cita ainda a Capela Nossa Senhora Desatadora dos Nós e a Capela Imaculado Coração de Maria, sem endereço."
+ }
+]
