@@ -30,15 +30,15 @@ const parte: ParteDasReflexoes = {
     "JHN 1:29-34": {
       paragrafos: [
         "João vê Jesus que vem em sua direção e diz uma frase que a Igreja repete em toda Missa: “Eis o Cordeiro de Deus, eis aquele que tira o pecado do mundo.” Para um judeu, o cordeiro lembrava a Páscoa, quando o sangue do cordeiro livrou o povo no Egito, e lembrava o servo que o profeta Isaías viu ser levado como cordeiro.",
-        "Jesus é o Cordeiro que se oferece por todos e nos liberta do pecado (CIC 608). João dá ainda outro testemunho: viu o Espírito descer e pousar sobre ele. O Espírito não apenas passa por Jesus; permanece nele. Por isso Jesus é aquele que batiza no Espírito Santo. João repete: “Eu não o conhecia.” Ele foi aprendendo a reconhecer Jesus pelos sinais que Deus lhe deu.",
+        "Jesus é o Cordeiro que se oferece por todos e nos liberta do pecado (CIC 608). João dá ainda outro testemunho: viu o Espírito descer e pousar sobre ele. O Espírito não apenas passa por Jesus; permanece nele. Por isso Jesus é aquele que batiza no Espírito Santo. João repete: “Eu não o conhecia.” Ele o reconheceu pelo sinal que Deus lhe tinha dado.",
         "Antes da Comunhão, o sacerdote mostra a hóstia e repete as palavras de João. Nós respondemos que não somos dignos, mas pedimos uma palavra que nos salve. Que essa frase não se torne costume vazio. Diante da Eucaristia, olhamos o mesmo Cordeiro que João apontou no Jordão e lhe entregamos o pecado que pesa sobre nós.",
       ],
       pergunta: "Na próxima Missa, quando ouvir “Eis o Cordeiro de Deus”, que pecado vou entregar a ele?",
     },
     "JHN 1:35-42": {
       paragrafos: [
-        "João Batista está com dois discípulos e aponta Jesus que passa. Eles não ficam discutindo; vão logo atrás dele. Jesus se volta e pergunta: “Que buscais?” Eles respondem com outra pergunta: querem saber onde ele mora. A resposta é um convite: “Vinde e vede.” O evangelista guarda até a hora, a décima, como quem nunca esqueceu aquele dia.",
-        "A fé começa assim, num encontro pessoal. Não basta ouvir falar de Jesus; é preciso ficar com ele. André, um dos dois, não guarda a alegria para si: procura o irmão Simão e o leva a Jesus. E Jesus olha para Simão e lhe dá um nome novo, Cefas, que quer dizer Pedro. Aquele pescador será a pedra sobre a qual o Senhor vai firmar a sua Igreja.",
+        "João Batista está com dois discípulos e aponta Jesus que passa. Eles não ficam discutindo; vão logo atrás dele. Jesus se volta e pergunta: “Que buscais?” Eles respondem com outra pergunta: querem saber onde ele mora. A resposta é um convite: “Vinde e vede.” O evangelista guarda até a hora: era a décima.",
+        "A fé começa assim, num encontro pessoal. Não basta ouvir falar de Jesus; é preciso ficar com ele. André, um dos dois, não guarda a alegria para si: procura o irmão Simão e o leva a Jesus. E Jesus olha para Simão e lhe dá um nome novo, Cefas, que quer dizer Pedro. Aquele pescador será a pedra sobre a qual o Senhor vai firmar a sua Igreja (CIC 881).",
         "A pergunta de Jesus continua valendo: o que buscamos? Muita coisa disputa o nosso coração. O caminho dos primeiros discípulos é simples: ouvir quem nos aponta Jesus, ir atrás dele, ficar em sua companhia na oração e depois levar alguém da nossa casa até ele. Muitos chegaram à fé porque um irmão, uma mãe ou uma avó disse: “Encontramos o Messias”.",
       ],
       pergunta: "Quem da minha família ou da minha rua eu posso levar até Jesus?",
@@ -70,7 +70,7 @@ const parte: ParteDasReflexoes = {
     "JHN 2:1-11": {
       paragrafos: [
         "Num casamento em Caná, o vinho acaba. Era uma vergonha para a família dos noivos. Quem percebe primeiro é a mãe de Jesus. Ela não faz discurso nem reclama; apenas apresenta a necessidade ao Filho: “Eles não têm vinho.” A resposta de Jesus parece distante, mas Maria confia e diz aos que serviam: “Fazei tudo o que ele vos disser.”",
-        "Assim se mostra o lugar de Maria na nossa fé. Ela está atenta às faltas dos outros, intercede junto do Filho e aponta para ele (CIC 2618). Não toma o lugar de Jesus; leva até Jesus. O milagre é dele: a água das talhas se torna vinho bom, e os discípulos creem. É o primeiro sinal da glória do Senhor.",
+        "Assim se mostra o lugar de Maria na nossa fé. Ela está atenta às faltas dos outros, intercede junto do Filho e aponta para ele (CIC 2618). Não toma o lugar de Jesus; leva até Jesus (CIC 970). O milagre é dele: a água das talhas se torna vinho bom, e os discípulos creem. É o primeiro sinal da glória do Senhor.",
         "O povo brasileiro reconhece esse cuidado na imagem de Nossa Senhora Aparecida, encontrada por pescadores pobres nas águas do rio Paraíba do Sul, em 1717. Desde então, multidões lhe levam as suas faltas: saúde, trabalho, família, fé. Ela continua a dizer o mesmo que disse em Caná. Quem vai a Maria aprende a fazer o que Jesus pede.",
       ],
       pergunta: "Que falta da minha casa vou entregar hoje a Nossa Senhora, para que ela a leve a Jesus?",
@@ -101,7 +101,7 @@ const parte: ParteDasReflexoes = {
     },
     "JHN 3:1-8": {
       paragrafos: [
-        "Nicodemos é um dos chefes dos judeus, homem respeitado. Vai procurar Jesus de noite, talvez com medo dos outros, talvez porque a pergunta o incomodava. Começa com elogios, mas Jesus vai direto ao ponto: ninguém pode ver o Reino de Deus “se não nascer de novo”. Nicodemos entende ao pé da letra e pergunta como um velho poderia nascer outra vez.",
+        "Nicodemos é um dos chefes dos judeus, homem respeitado. Vai procurar Jesus de noite. Começa com elogios, mas Jesus vai direto ao ponto: ninguém pode ver o Reino de Deus “se não nascer de novo”. Nicodemos entende ao pé da letra e pergunta como um velho poderia nascer outra vez.",
         "Jesus explica que se trata de outro nascimento: renascer “da água e do Espírito Santo”. A Igreja sempre leu aqui o Batismo, sacramento do novo nascimento, pelo qual somos feitos filhos de Deus (CIC 1215). Não é obra nossa, assim como ninguém escolhe nascer. É dom do Espírito, que sopra onde quer, como o vento que ouvimos sem saber de onde vem.",
         "Muita gente foi batizada pequena e nunca pensou no que recebeu. Vale a pena saber a data do nosso Batismo, agradecer por ela e pedir ao Espírito que renove em nós a vida nova. Nicodemos veio de noite; aos poucos, chegou à luz.",
       ],
@@ -167,7 +167,7 @@ const parte: ParteDasReflexoes = {
       paragrafos: [
         "Jesus, cansado da caminhada, senta-se junto ao poço de Jacó, perto do meio-dia. Chega uma mulher samaritana para tirar água, e ele lhe pede: “Dá-me de beber.” Um judeu falando com uma samaritana, e ainda mais com uma mulher sozinha, era algo fora do costume. Mas Jesus atravessa essas barreiras, porque tem sede da fé daquela mulher (CIC 2560).",
         "A conversa vai crescendo. Jesus fala de uma água viva que mata a sede para sempre e se torna fonte que jorra para a vida eterna. Depois toca na vida dela, com verdade e sem desprezo: ela teve cinco maridos. A mulher não foge; pergunta onde se deve adorar, e Jesus revela que o Pai busca adoradores em espírito e verdade. Por fim, diz quem ele é: “Sou eu, que estou falando contigo.”",
-        "A mulher deixa o cântaro e corre à cidade: “Vinde ver um homem que me disse tudo o que eu fiz.” Quem se sente conhecido e amado vira testemunha. A água viva é o Espírito Santo, recebido no Batismo. Os que se preparam para ser batizados na Páscoa meditam este Evangelho, e nós com eles. Jesus espera também por nós no poço da vida de todo dia.",
+        "A mulher deixa o cântaro e corre à cidade: “Vinde ver um homem que me disse tudo o que eu fiz.” Quem se sente conhecido e amado vira testemunha. A água viva é o Espírito Santo, recebido no Batismo (CIC 694). Os que se preparam para ser batizados na Páscoa meditam este Evangelho, e nós com eles. Jesus espera também por nós no poço da vida de todo dia.",
       ],
       pergunta: "Vou repetir hoje o pedido da samaritana: Senhor, dá-me dessa água.",
     },
@@ -294,7 +294,7 @@ const parte: ParteDasReflexoes = {
     "JHN 6:60-69": {
       paragrafos: [
         "Depois de ouvir Jesus falar de comer a sua carne e beber o seu sangue, muitos discípulos reclamam: “Duro é este discurso! Quem o pode ouvir?” Jesus não retira nada do que disse. Pergunta se ficariam ainda mais escandalizados ao vê-lo subir para onde estava antes. E acrescenta: “As palavras que eu vos disse são espírito e vida.”",
-        "Quando diz que “a carne de nada serve”, Jesus não desmente o que acabou de ensinar sobre a sua carne dada como alimento. Ele fala do modo apenas humano de entender, que não alcança o mistério sem a fé que vem do Espírito. O anúncio da Eucaristia dividiu os discípulos desde o começo, e muitos voltaram atrás (CIC 1336). Jesus deixa que partam e pergunta aos Doze: “Também vós quereis retirar-vos?”",
+        "Quando diz que “a carne de nada serve”, Jesus não desmente o que acabou de ensinar sobre a sua carne dada como alimento. Santo Agostinho, nos Tratados sobre o Evangelho de São João, explica que de nada serve a carne entendida como eles a entendiam, como a carne de um morto que se corta em pedaços. A presença do Corpo e do Sangue de Cristo na Eucaristia não se alcança pelos sentidos, mas só pela fé (CIC 1381). O primeiro anúncio da Eucaristia dividiu os discípulos, e muitos voltaram atrás (CIC 1336). Jesus deixa que partam e pergunta aos Doze: “Também vós quereis retirar-vos?”",
         "A resposta de Pedro é a de todo cristão que, mesmo sem entender tudo, confia: “Senhor, para quem iremos nós? Tu tens palavras da vida eterna.” Há momentos em que a fé parece difícil e a doutrina, exigente. Pedro não diz que tudo é fácil. Diz que não há outro lugar onde encontrar a vida. Essa fidelidade é graça que podemos pedir.",
       ],
       pergunta: "Vou repetir com Pedro: Senhor, para quem iremos nós? Tu tens palavras da vida eterna.",
@@ -342,7 +342,7 @@ const parte: ParteDasReflexoes = {
     "JHN 8:21-30": {
       paragrafos: [
         "Jesus diz que vai partir e que, para onde vai, eles não podem ir. Os judeus não entendem e chegam a pensar que ele vai se matar. Jesus explica que eles são daqui de baixo, e ele é lá de cima. E avisa com seriedade: “se não crerdes em quem eu sou, morrereis no vosso pecado.”",
-        "Perguntam-lhe: “Quem és tu?” A resposta mais clara vem em seguida: “Quando tiverdes levantado o Filho do Homem, então conhecereis quem eu sou”. É na cruz que se revela quem Jesus é. Ali se vê o seu amor e a sua união com o Pai, que não o deixa sozinho, porque ele sempre faz o que agrada ao Pai. Muitos, ouvindo isso, creram nele.",
+        "Perguntam-lhe: “Quem és tu?” A resposta mais clara vem em seguida: “Quando tiverdes levantado o Filho do Homem, então conhecereis quem eu sou”. É na cruz, dando a vida, que Jesus revela ser portador do nome divino (CIC 211). Ali se vê o seu amor e a sua união com o Pai, que não o deixa sozinho, porque ele sempre faz o que agrada ao Pai. Muitos, ouvindo isso, creram nele.",
         "A Igreja nos convida a olhar para a cruz e aprender quem é Jesus. Diante dele, o pecado não tem a última palavra, se cremos e nos deixamos salvar. E podemos pedir a graça de viver como o Filho: procurando fazer o que agrada a Deus, certos de que ele não nos deixa sozinhos.",
       ],
       pergunta: "Vou olhar para o crucifixo e dizer a Jesus: eu creio em quem tu és.",
@@ -358,7 +358,7 @@ const parte: ParteDasReflexoes = {
     "JHN 8:51-59": {
       paragrafos: [
         "Jesus promete: “se alguém guardar a minha palavra, jamais verá a morte.” Os judeus reagem com escândalo. Abraão morreu, os profetas morreram; quem ele pensa que é? Jesus responde que não busca a própria glória: é o Pai quem o glorifica. E diz que Abraão desejou ver o seu dia e se alegrou.",
-        "Zombam dele: não tem nem cinquenta anos e viu Abraão? Então Jesus diz: “antes que Abraão fosse feito, eu sou.” Ele não diz que era, mas que é, e assim lembra o nome com que Deus se revelou a Moisés. Jesus afirma ser eterno, Deus com o Pai. Por isso pegam em pedras para atirar nele.",
+        "Zombam dele: não tem nem cinquenta anos e viu Abraão? Então Jesus diz: “antes que Abraão fosse feito, eu sou.” Ele não diz que era, mas que é, e assim lembra o nome com que Deus se revelou a Moisés. Só a identidade divina de Jesus explica uma palavra assim (CIC 590): ele é eterno, Deus com o Pai. Por isso pegam em pedras para atirar nele.",
         "Jesus não é apenas um grande homem do passado. Ele é, hoje e sempre. A sua palavra dá a quem a guarda uma vida que a morte não destrói. Perto da Paixão, vemos crescer a rejeição contra ele. Pedimos a graça de guardar a sua palavra com fidelidade.",
       ],
       pergunta: "Que palavra de Jesus vou guardar hoje no coração e pôr em prática?",
@@ -367,7 +367,7 @@ const parte: ParteDasReflexoes = {
       paragrafos: [
         "Jesus vê um homem cego de nascença. Os discípulos querem saber de quem é a culpa, dele ou dos pais. Jesus recusa essa conta: não é castigo, é ocasião para que se manifestem as obras de Deus. Faz lama com a saliva, passa nos olhos do cego e o manda lavar-se na piscina de Siloé. O homem vai, lava-se e volta enxergando.",
         "Depois começa outra história, longa e cheia de ironia. Os vizinhos duvidam, os fariseus interrogam, os pais têm medo. O homem curado vai enxergando cada vez melhor quem é Jesus: primeiro um homem que se chama Jesus, depois um profeta, depois alguém que vem de Deus. Por fim, expulso da sinagoga, encontra Jesus de novo e diz: “Eu creio, Senhor.” E o adora. Enquanto isso, os que diziam ver se fecham na própria cegueira.",
-        "O Batismo é chamado iluminação, e a Igreja propõe este Evangelho aos que se preparam para ser batizados (CIC 1216). Também nós somos convidados a deixar Jesus abrir os nossos olhos. A cegueira mais perigosa é a de quem diz: “Nós vemos”. Quem reconhece que precisa de luz, recebe.",
+        "O Batismo é chamado iluminação (CIC 1216), e a Igreja propõe este Evangelho aos que se preparam para ser batizados. Também nós somos convidados a deixar Jesus abrir os nossos olhos. A cegueira mais perigosa é a de quem diz: “Nós vemos”. Quem reconhece que precisa de luz, recebe.",
       ],
       pergunta: "Peço a Jesus que abra os meus olhos para ver o que eu ainda não quero ver.",
     },

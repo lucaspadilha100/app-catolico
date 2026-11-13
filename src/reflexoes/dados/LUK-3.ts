@@ -46,8 +46,8 @@ const parte: ParteDasReflexoes = {
     "LUK 16:1-13": {
       paragrafos: [
         "Um administrador desonesto é descoberto e vai perder o emprego. Sem forças para cavar e com vergonha de mendigar, chama os devedores do patrão e diminui as dívidas, para ter quem o receba depois. Jesus não elogia a desonestidade. O senhor elogia a esperteza: aquele homem pensou no futuro e agiu sem demora.",
-        "Jesus lamenta que “os filhos deste mundo” sejam mais sábios nos seus negócios do que os filhos da luz nas coisas de Deus. Gastamos tanta energia para garantir o amanhã na terra e tão pouca para garantir a eternidade. O dinheiro, que passa, pode servir para fazer amigos para sempre: os pobres que ajudamos são amigos que nos esperam nas moradas eternas.",
-        "No fim vem a frase decisiva: “Não podeis servir a Deus e às riquezas.” O dinheiro é bom servo e péssimo senhor; quando manda, vira ídolo (CIC 2424). A fidelidade se prova no pouco: na conta paga em dia, no troco devolvido, no salário justo, na esmola discreta.",
+        "Jesus lamenta que “os filhos deste mundo” sejam mais sábios nos seus negócios do que os filhos da luz nas coisas de Deus. Gastamos tanta energia para garantir o amanhã na terra e tão pouca para garantir a eternidade. O dinheiro, que passa, pode servir para fazer amigos para sempre. Santo Agostinho, nos seus Sermões, ensina que esses amigos são os pobres que ajudamos, que nos recebem nas moradas eternas.",
+        "No fim vem a frase decisiva: “Não podeis servir a Deus e às riquezas.” O apego desordenado ao dinheiro leva à idolatria do dinheiro (CIC 2424). A fidelidade se prova no pouco: na conta paga em dia, no troco devolvido, no salário justo, na esmola discreta.",
       ],
       pergunta: "Quem manda de verdade nas minhas decisões: Deus ou o dinheiro?",
     },
@@ -62,7 +62,7 @@ const parte: ParteDasReflexoes = {
     "LUK 16:19-31": {
       paragrafos: [
         "Jesus conta a história de dois homens que viveram a poucos passos um do outro. O rico se vestia de púrpura e dava banquetes todos os dias; Lázaro, coberto de feridas, ficava deitado à sua porta e desejava as migalhas que caíam da mesa. O rico não é acusado de roubo nem de violência. O seu pecado foi não ver quem estava à sua porta. Depois da morte, a situação se inverte, e entre os dois abre-se um grande abismo.",
-        "A parábola é séria. Ela ensina que a nossa vida decide o nosso destino eterno e que esse destino se fixa na morte (CIC 1021). Quem se fecha ao próximo se fecha a Deus. O rico pede um sinal extraordinário para os irmãos, mas Abraão responde que eles já têm “Moisés e os Profetas”. Nós temos ainda mais: temos o próprio Cristo, que ressuscitou dos mortos.",
+        "A parábola é séria. Ela ensina que a nossa vida decide o nosso destino eterno e que esse destino se fixa na morte (CIC 1021). O Senhor adverte que seremos separados dele se não socorrermos as necessidades graves dos pobres (CIC 1033). O rico pede um sinal extraordinário para os irmãos, mas Abraão responde que eles já têm “Moisés e os Profetas”. Nós temos ainda mais: temos o próprio Cristo, que ressuscitou dos mortos.",
         "O Catecismo reconhece em cada faminto da terra o Lázaro desta parábola (CIC 2463). Não é preciso ir longe para encontrá-lo: às vezes está na calçada, no hospital, na casa ao lado, dentro da própria família. A pergunta não é quanto temos, mas se a nossa porta está aberta.",
       ],
       pergunta: "Quem é o Lázaro que está à minha porta e que eu ainda não quis ver?",
@@ -101,7 +101,7 @@ const parte: ParteDasReflexoes = {
     },
     "LUK 17:20-25": {
       paragrafos: [
-        "Os fariseus querem saber quando virá o Reino de Deus, esperando talvez um sinal grandioso, uma data, uma mudança política. Jesus responde que o Reino não vem com sinais exteriores, que se possam apontar dizendo “Ei-lo aqui” ou “Ei-lo ali”. O Reino já começou, presente no próprio Jesus que fala com eles, e cresce no coração de quem o acolhe.",
+        "Os fariseus querem saber quando virá o Reino de Deus, esperando talvez um sinal grandioso ou uma data. Jesus responde que o Reino não vem com sinais exteriores, que se possam apontar dizendo “Ei-lo aqui” ou “Ei-lo ali”. O Reino se manifesta na palavra, nas obras e na presença de Cristo, e acolher a sua palavra é acolher o próprio Reino (CIC 764).",
         "Aos discípulos, Jesus fala da sua vinda gloriosa: será clara como o relâmpago que ilumina o céu de um lado ao outro. Não será preciso correr atrás de quem anuncia datas e lugares. Mas antes ele vai sofrer muito e ser rejeitado. O caminho do Reino passa pela cruz.",
         "Ainda hoje há quem marque datas para o fim do mundo ou espalhe mensagens alarmantes. O cristão não precisa disso. O Reino cresce em silêncio, na oração, na caridade e na fidelidade de cada dia, e o Senhor virá quando o Pai quiser.",
       ],
@@ -215,7 +215,7 @@ const parte: ParteDasReflexoes = {
       paragrafos: [
         "Antes de falar do fim, Jesus prepara os discípulos para a perseguição. Eles serão presos, levados a tribunais, entregues até por pais, irmãos e amigos, e odiados por causa do seu nome. Os Atos dos Apóstolos e a história dos mártires mostram que isso aconteceu, e ainda acontece em muitos lugares.",
         "Jesus não promete que o discípulo será poupado do sofrimento. Promete outra coisa: a perseguição será ocasião de testemunho, e ele mesmo dará “palavras e uma sabedoria” a que ninguém poderá resistir. Não é preciso ensaiar a defesa; é preciso confiar.",
-        "Nem sempre a perseguição é prisão. Às vezes é a zombaria no trabalho, a incompreensão em casa, o desprezo por quem vai à missa ou defende a vida. A palavra de Jesus vale também aí: “Pela vossa paciência possuireis as vossas almas.” A paciência cristã não é fraqueza; é a força de quem permanece fiel.",
+        "Nem sempre a perseguição é prisão. Às vezes é a zombaria no trabalho, a incompreensão em casa, o desprezo por quem vai à missa e vive a fé. A palavra de Jesus vale também aí: “Pela vossa paciência possuireis as vossas almas.” A paciência cristã não é fraqueza; é a força de quem permanece fiel.",
       ],
       pergunta: "Senhor, dá-me coragem de dar testemunho de ti sem medo.",
     },
@@ -253,7 +253,7 @@ const parte: ParteDasReflexoes = {
     },
     "LUK 22:14-23:56": {
       paragrafos: [
-        "A Paixão segundo São Lucas começa à mesa. Jesus diz que desejou “ansiosamente” comer aquela Páscoa com os apóstolos e, tomando o pão e o cálice, entrega-lhes o seu corpo “dado por vós” e o seu sangue “derramado por vós”. Antes de ser entregue pelos homens, ele mesmo se entrega. Na Eucaristia, a Igreja recebe esse dom e o torna presente até o fim dos tempos (CIC 1365).",
+        "A Paixão segundo São Lucas começa à mesa. Jesus diz que desejou “ansiosamente” comer aquela Páscoa com os apóstolos e, tomando o pão e o cálice, entrega-lhes o seu corpo “dado por vós” e o seu sangue “derramado por vós”. Antes de ser entregue pelos homens, ele mesmo se entrega. Na Eucaristia, a Igreja recebe esse dom e o torna presente até o fim dos tempos (CIC 1365-1366).",
         "Lucas mostra a misericórdia de Jesus até o último instante. Cura a orelha do servo ferido no horto. Depois da terceira negação, volta-se e olha para Pedro, e esse olhar o faz chorar amargamente. Na cruz, reza: “Pai, perdoa-lhes, porque não sabem o que fazem.” Promete o paraíso ao ladrão arrependido. E morre entregando o espírito nas mãos do Pai, com a confiança de um filho.",
         "Ao redor da cruz há de tudo: quem zomba, quem lava as mãos, quem foge, quem chora. Há também Simão de Cirene, que carrega a cruz atrás de Jesus, e as mulheres que o seguem até o sepulcro. Nestes dias santos, cada um de nós pode escolher onde ficar. O melhor é ficar perto, em silêncio, e deixar que ele nos olhe como olhou para Pedro.",
       ],
@@ -270,7 +270,7 @@ const parte: ParteDasReflexoes = {
     "LUK 24:1-12": {
       paragrafos: [
         "No primeiro dia da semana, muito cedo, as mulheres vão ao sepulcro com os aromas que tinham preparado. Vão cuidar de um morto. Encontram a pedra removida e o túmulo vazio, e dois homens de roupas brilhantes lhes fazem a pergunta que atravessa os séculos: “Por que procurais entre os mortos aquele que vive?”",
-        "O sepulcro vazio é o primeiro sinal, e as mulheres são as primeiras mensageiras da Ressurreição (CIC 640-641). Os anjos não lhes trazem uma ideia nova: mandam que se lembrem do que Jesus tinha dito na Galileia. A fé pascal nasce da memória das suas palavras. Os apóstolos acham tudo “um delírio”; Pedro corre, vê os lençóis e volta admirado. A fé deles custou a nascer, e isso torna o seu testemunho ainda mais seguro (CIC 643).",
+        "O sepulcro vazio é o primeiro sinal, e as mulheres são as primeiras mensageiras da Ressurreição (CIC 640-641). Os anjos não lhes trazem uma ideia nova: mandam que se lembrem do que Jesus tinha dito na Galileia. A fé pascal nasce da memória das suas palavras. Os apóstolos acham tudo “um delírio”; Pedro corre, vê os lençóis e volta admirado. A fé deles custou a nascer, e isso torna o seu testemunho ainda mais seguro (CIC 643-644).",
         "Também nós às vezes procuramos Jesus entre os mortos, como uma lembrança bonita ou um personagem do passado. Ele vive. Está presente na sua Igreja, na Palavra e nos sacramentos. A luz acesa na noite de Páscoa e a água do Batismo anunciam isso a quem ainda caminha na escuridão.",
       ],
       pergunta: "Onde ainda procuro Jesus entre os mortos, em vez de encontrá-lo vivo?",
@@ -278,7 +278,7 @@ const parte: ParteDasReflexoes = {
     "LUK 24:13-35": {
       paragrafos: [
         "Dois discípulos deixam Jerusalém tristes. Esperavam que Jesus fosse “resgatar Israel”, e agora tudo parece acabado. O próprio Jesus se aproxima e caminha com eles, mas eles não o reconhecem. Ele pergunta, escuta e depois lhes explica as Escrituras, começando por Moisés e passando por todos os profetas: era preciso que o Cristo sofresse para entrar na sua glória.",
-        "Chegando à aldeia, eles insistem: “Fica conosco, porque já é tarde e o dia está terminando.” À mesa, Jesus toma o pão, abençoa, parte e lhes dá. Nesse momento os olhos se abrem. O caminho de Emaús tem a forma da Missa: primeiro a Palavra, que faz o coração arder; depois o pão partido, onde ele se deixa reconhecer (CIC 1347). Reconhecido, desaparece da vista, porque agora está presente de outro modo.",
+        "Chegando à aldeia, eles insistem: “Fica conosco, porque já é tarde e o dia está terminando.” À mesa, Jesus toma o pão, abençoa, parte e lhes dá. Nesse momento os olhos se abrem. O caminho de Emaús tem a forma da Missa: primeiro a Palavra, que faz o coração arder; depois o pão partido, onde ele se deixa reconhecer (CIC 1347). Reconhecido, ele desaparece da vista deles.",
         "Os dois voltam na mesma hora a Jerusalém, já de noite, para contar o que viram. A tristeza virou pressa de anunciar. Quantas vezes caminhamos desanimados, sem perceber que ele vai ao nosso lado. Na Missa ele continua a nos explicar as Escrituras e a partir o pão.",
       ],
       pergunta: "Fica comigo, Senhor, porque já é tarde.",

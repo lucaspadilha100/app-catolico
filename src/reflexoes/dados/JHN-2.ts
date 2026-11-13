@@ -6,7 +6,7 @@ const parte: ParteDasReflexoes = {
     "JHN 11:45-57": {
       paragrafos: [
         "Depois que Lázaro saiu do sepulcro, muitos creram em Jesus. Outros foram contar tudo aos fariseus, e o conselho se reuniu com medo de perder o lugar e o poder. Caifás dá a resposta mais fria: convém “que morra um só homem pelo povo”.",
-        "São João vê nessa frase uma profecia que o próprio Caifás não entendia. Jesus ia mesmo morrer pela nação, e não só por ela, “mas também para reunir num só corpo os filhos de Deus que estavam dispersos”. O que era cálculo dos homens, Deus transforma em salvação. Da cruz nasce a Igreja, que reúne gente de todos os povos numa só família.",
+        "São João vê nessa frase uma profecia que o próprio Caifás não entendia. Jesus ia mesmo morrer pela nação, e não só por ela, “mas também para reunir num só corpo os filhos de Deus que estavam dispersos”. O que era cálculo dos homens, Deus transforma em salvação. Da cruz nasce a Igreja (CIC 766), que reúne gente de todos os povos numa só família.",
         "Também nós podemos agir como aquele conselho: defender o nosso lugar, o nosso conforto, as nossas razões, mesmo que isso afaste Jesus. E podemos ser dos que se dispersam. Cristo quer reunir o que está espalhado: a família dividida, a comunidade ferida, o coração dividido entre Deus e tantas outras coisas. Perto da Páscoa, deixemos que ele nos junte de novo.",
       ],
       pergunta: "O que tenho medo de perder, se deixar Jesus entrar de verdade na minha vida?",
@@ -39,7 +39,7 @@ const parte: ParteDasReflexoes = {
       paragrafos: [
         "A Paixão segundo São João mostra Jesus senhor da sua hora. No horto, ele vai ao encontro dos que o buscam, e quando diz “Eu sou”, eles recuam e caem por terra. Aceita beber “o cálice que o Pai me deu”. Diante de Pilatos, declara que o seu reino não é deste mundo. Ninguém lhe toma a vida: ele a entrega por amor (CIC 609).",
         "Ao redor dele, cada um se revela. Pedro nega três vezes junto ao fogo. Pilatos sabe que Jesus é inocente e o entrega por medo. Os chefes gritam que não têm outro rei senão César. Mas junto à cruz estão de pé a sua mãe e o discípulo amado, e Jesus os entrega um ao outro. Depois diz “Tenho sede” e “Tudo está cumprido”, e entrega o espírito.",
-        "Do lado aberto pela lança saem sangue e água, sinais do Batismo e da Eucaristia que nascem da cruz (CIC 1225). A túnica sem costura, que os soldados não rasgam, lembra a unidade da Igreja.",
+        "Do lado aberto pela lança saem sangue e água, sinais do Batismo e da Eucaristia que nascem da cruz (CIC 1225). Na túnica sem costura, que os soldados não rasgam, São Cipriano, no livro Sobre a unidade da Igreja, viu a unidade da Igreja.",
         "Diante da cruz não cabe pressa. Fiquemos com Maria, em silêncio, e olhemos para aquele que nos amou até o fim. Ali estão os nossos pecados, e ali está o perdão.",
       ],
       pergunta: "Onde eu estaria nesta Paixão: entre os que fogem ou de pé junto à cruz?",
@@ -47,7 +47,7 @@ const parte: ParteDasReflexoes = {
     "JHN 20:1-9": {
       paragrafos: [
         "No primeiro dia da semana, “quando ainda estava escuro”, Maria Madalena vai ao sepulcro e encontra a pedra retirada. Corre a avisar Pedro e o discípulo amado. Os dois correm também. O mais jovem chega primeiro, mas espera; Pedro entra e vê os lençóis no chão e o lenço dobrado à parte. Depois entra o outro discípulo, “e viu, e creu”.",
-        "O sepulcro vazio, por si só, ainda não explica tudo; mas é o primeiro sinal de que algo novo aconteceu (CIC 640). Um ladrão não deixaria os lençóis arrumados. O discípulo que amava olha os sinais com o coração aberto e crê. Os outros só entenderão aos poucos, quando o próprio Ressuscitado lhes abrir a Escritura e se mostrar vivo. A fé pascal nasce assim: de sinais pequenos acolhidos com amor.",
+        "O sepulcro vazio, por si só, ainda não explica tudo; mas é o primeiro sinal de que algo novo aconteceu (CIC 640). São João Crisóstomo, nas Homilias sobre o Evangelho de São João, observa que um ladrão não teria deixado os lençóis para trás. O discípulo que amava olha os sinais com o coração aberto e crê. Os outros só entenderão aos poucos, quando o próprio Ressuscitado lhes abrir a Escritura e se mostrar vivo. A fé pascal nasce assim: de sinais pequenos acolhidos com amor.",
         "Muitas vezes também nós chegamos ao sepulcro no escuro, com tristezas, lutos e perguntas sem resposta. A Páscoa não apaga a dor de um golpe, mas nos garante que a morte não tem a última palavra. Cristo ressuscitou de verdade. Corramos como aqueles discípulos, entremos, olhemos com fé, e levemos essa alegria para casa.",
       ],
       pergunta: "Que sinais da vida nova de Cristo ainda não aprendi a ver na minha vida?",
@@ -55,7 +55,7 @@ const parte: ParteDasReflexoes = {
     "JHN 20:11-18": {
       paragrafos: [
         "Maria Madalena fica junto ao sepulcro, chorando. Nem os anjos a consolam: ela só quer saber onde puseram o seu Senhor. Jesus está diante dela e ela pensa que é o jardineiro. Então ele a chama pelo nome: “Maria!” E ela o reconhece: “Rabôni!”",
-        "O Ressuscitado não se impõe; deixa-se reconhecer quando chama cada um pelo nome. E logo envia Maria aos discípulos com uma notícia nova: “vou para meu Pai e vosso Pai, para meu Deus e vosso Deus.” Jesus os chama de irmãos. Ele é Filho por natureza; nós nos tornamos filhos pela graça, e o Pai dele passa a ser também o nosso.",
+        "O Ressuscitado não se impõe; deixa-se reconhecer quando chama cada um pelo nome. E logo envia Maria aos discípulos com uma notícia nova: “vou para meu Pai e vosso Pai, para meu Deus e vosso Deus.” Jesus os chama de irmãos. Ele é Filho por natureza; nós nos tornamos filhos pela graça (CIC 654), e o Pai dele passa a ser também o nosso.",
         "Às vezes procuramos Jesus com os olhos cheios de lágrimas e não o vemos, mesmo quando está perto. Ele nos conhece pelo nome e nos chama na oração, na Palavra, nos sacramentos. Quem o encontra não guarda a alegria para si: vai contar aos irmãos que viu o Senhor.",
       ],
       pergunta: "Consigo ouvir Jesus me chamar pelo nome no meio das minhas lágrimas?",
@@ -63,7 +63,7 @@ const parte: ParteDasReflexoes = {
     "JHN 21:1-14": {
       paragrafos: [
         "Os discípulos voltam ao mar e passam a noite pescando sem apanhar nada. Ao amanhecer, um homem na margem pergunta se têm alguma coisa para comer e manda lançar a rede do lado direito. A rede se enche. O discípulo amado reconhece: “É o Senhor!” Pedro se lança ao mar. Na praia já há brasas, peixe e pão, e Jesus diz: “Vinde comer.”",
-        "O Ressuscitado se mostra no trabalho de todo dia, mesmo no trabalho que fracassou. A pesca abundante e a rede que não se rompe são, para os Padres da Igreja, figura da missão apostólica e da unidade da Igreja. E o Senhor que tomou o pão e o deu aos discípulos é o mesmo que hoje nos alimenta na Eucaristia.",
+        "O Ressuscitado se mostra no trabalho de todo dia, mesmo no trabalho que fracassou. Santo Agostinho, nos Tratados sobre o Evangelho de São João, vê na pesca abundante e na rede que não se rompe uma figura da Igreja e da sua unidade. E o Senhor que tomou o pão e o deu aos discípulos é o mesmo que hoje nos alimenta na Eucaristia.",
         "Também conhecemos noites em que nada dá certo. Jesus não está longe: espera na margem, pergunta, orienta. Obedecer à sua palavra, mesmo quando parece estranha, muda o resultado. E ele sempre convida para a mesa.",
       ],
       pergunta: "Em que parte da minha vida preciso lançar a rede de novo, confiando na palavra de Jesus?",
@@ -79,7 +79,7 @@ const parte: ParteDasReflexoes = {
     "JHN 14:6-14": {
       paragrafos: [
         "Na ceia, Jesus se apresenta: “Eu sou o caminho, a verdade e a vida.” Filipe pede: “Senhor, mostra-nos o Pai, e isso nos basta.” E ouve uma resposta cheia de paciência: “Há tanto tempo estou convosco, e ainda não me conheceis?” Quem vê Jesus vê o Pai.",
-        "Filipe, que no começo do Evangelho levou Natanael até Jesus, ainda tinha muito a aprender. Tiago, filho de Alfeu, também caminhou com o Mestre sem entender tudo de uma vez. Os Apóstolos não foram escolhidos por serem perfeitos, mas aprenderam aos poucos, e depois deram a vida pelo Evangelho que anunciavam.",
+        "Filipe, que no começo do Evangelho levou Natanael até Jesus, ainda tinha muito a aprender. Tiago, filho de Alfeu, também caminhou com o Mestre sem entender tudo de uma vez. Os Apóstolos não foram escolhidos por serem perfeitos, mas aprenderam aos poucos e, segundo a tradição, deram depois a vida pelo Evangelho que anunciavam.",
         "Também nós queremos ver Deus, ter uma prova, sentir algo forte. Jesus nos lembra que o Pai já se mostrou no rosto do Filho. Quem lê o Evangelho, recebe os sacramentos e reza em nome de Jesus está diante do Pai. E ele promete: o que pedirmos em seu nome, ele o fará.",
       ],
       pergunta: "Procuro conhecer o Pai olhando para Jesus no Evangelho?",
@@ -127,7 +127,7 @@ const parte: ParteDasReflexoes = {
     "JHN 13:31-33a.34-35": {
       paragrafos: [
         "Judas acaba de sair da sala da ceia, e Jesus diz: “Agora o Filho do Homem é glorificado”. A traição começa, a cruz se aproxima, e Jesus fala em glória. Para ele, a glória é amar até o fim. Chama os discípulos de “Filhinhos” e lhes deixa, como herança, um mandamento novo.",
-        "O mandamento de amar o próximo já existia. O que é novo é a medida: “assim como eu vos amei”. Jesus ama primeiro, ama quem o vai negar e abandonar, ama até dar a vida. A caridade é o mandamento novo e resume toda a Lei (CIC 1823). E ela se torna o sinal que identifica os discípulos: “Nisto todos conhecerão que sois meus discípulos”.",
+        "O mandamento de amar o próximo já existia. O que é novo é a medida: “assim como eu vos amei”. Jesus ama primeiro, ama quem o vai negar e abandonar, ama até dar a vida. A caridade é o mandamento novo (CIC 1823) e a plenitude da Lei (Rm 13,10). E ela se torna o sinal que identifica os discípulos: “Nisto todos conhecerão que sois meus discípulos”.",
         "O mundo não vai reconhecer os cristãos pelos títulos, pelas roupas ou pelos discursos, mas pelo amor concreto entre eles. Uma família que se perdoa, uma comunidade onde os pobres são acolhidos, uma paróquia sem fofoca nem divisão falam de Cristo mais do que muitas palavras. Peçamos a graça de amar como ele, sobretudo onde é mais difícil.",
       ],
       pergunta: "Quem me reconheceria como discípulo de Jesus pelo modo como eu amo?",
@@ -143,7 +143,7 @@ const parte: ParteDasReflexoes = {
     "JHN 14:27-31b": {
       paragrafos: [
         "Antes de partir, Jesus deixa um presente: “A paz vos deixo, a minha paz vos dou; eu não vo-la dou como o mundo a dá.” E repete o que já tinha dito: “Não se perturbe o vosso coração”. Ele vai para o Pai, e os discípulos, se o amassem de verdade, se alegrariam com isso.",
-        "A paz do mundo depende de tudo estar bem: saúde, dinheiro, ninguém nos incomodando. A paz de Cristo é outra. Ele a dá na véspera da Paixão, sabendo que vem o príncipe deste mundo, que nada tem nele. Quando diz que o Pai é maior, fala como homem que caminha para a glória; a fé da Igreja confessa que o Filho é igual ao Pai na divindade.",
+        "A paz do mundo depende de tudo estar bem: saúde, dinheiro, ninguém nos incomodando. A paz de Cristo é outra. Ele a dá na véspera da Paixão, sabendo que vem o príncipe deste mundo, que nada tem nele. Quando diz que o Pai é maior, fala segundo a sua humanidade, como lê Santo Agostinho no livro Sobre a Trindade. O Símbolo atribuído a Santo Atanásio confessa que o Filho é igual ao Pai segundo a divindade e menor que o Pai segundo a humanidade.",
         "Na Missa, antes da comunhão, a Igreja recorda estas palavras ao pedir a paz. É uma paz que pode existir no meio da luta, porque vem da confiança no Pai. Jesus nos mostra o caminho: amar o Pai e fazer o que ele pede. Quem vive assim pode atravessar a tempestade sem perder o fundo da paz.",
       ],
       pergunta: "Procuro a paz que o mundo dá ou a paz que só Cristo pode dar?",
@@ -192,7 +192,7 @@ const parte: ParteDasReflexoes = {
       paragrafos: [
         "Jesus anuncia o Consolador, “aquele Espírito de verdade que procede do Pai”, que dará testemunho dele. E acrescenta: “também vós dareis testemunho”. Logo depois avisa que os discípulos serão expulsos das sinagogas, e que haverá quem os mate pensando servir a Deus.",
         "Jesus fala dessas coisas antes, para que os discípulos não se escandalizem quando acontecerem. A perseguição não é sinal de que Deus os abandonou. O testemunho cristão nasce de duas fontes que caminham juntas: o Espírito Santo, que fala por dentro, e a vida dos discípulos, que estiveram com Jesus e contam o que viram.",
-        "Ainda hoje há quem use o nome de Deus para ferir e excluir. O cristão aprende com Jesus a não responder assim. O nosso testemunho, guiado pelo Espírito, é feito de verdade e de mansidão, mesmo quando nos custa.",
+        "Quando é incompreendido por causa da fé, o cristão aprende com Jesus a não responder ao mal com o mal. O nosso testemunho, guiado pelo Espírito, é feito de verdade e de mansidão, mesmo quando nos custa.",
       ],
       pergunta: "Peço ao Espírito Santo coragem para dar testemunho de Jesus onde vivo?",
     },
@@ -263,7 +263,7 @@ const parte: ParteDasReflexoes = {
     "JHN 21:15-19": {
       paragrafos: [
         "Depois da refeição à beira do mar, Jesus pergunta a Pedro: “Simão, filho de João, tu me amas mais do que estes?” Pergunta três vezes. Pedro fica triste e responde: “Senhor, tu conheces tudo; tu sabes que eu te amo.” A cada resposta, Jesus lhe confia o rebanho.",
-        "Pedro tinha negado o Mestre três vezes, junto ao fogo, na noite da Paixão. Agora, junto às brasas, faz três vezes a sua confissão de amor. Jesus não humilha Pedro: cura a ferida e o confirma na missão de apascentar as ovelhas, que lhe dá um lugar próprio na Igreja (CIC 553). E anuncia que ele dará glória a Deus com a própria morte, como de fato aconteceu em Roma.",
+        "Pedro tinha negado o Mestre três vezes, junto ao fogo, na noite da Paixão. Agora, junto às brasas, faz três vezes a sua confissão de amor. Jesus não humilha Pedro: cura a ferida e o confirma na missão de apascentar as ovelhas, que lhe dá um lugar próprio na Igreja (CIC 553). E anuncia que ele dará glória a Deus com a própria morte, que a tradição da Igreja situa em Roma.",
         "Jesus pergunta a cada um de nós a mesma coisa: “tu me amas?” Não pergunta se nunca falhamos, mas se o amamos. Depois de cada queda, a resposta humilde nos põe de novo a caminho. E vem a palavra que vale para a vida toda: “Segue-me.” Rezemos também pelo Papa, sucessor de Pedro, e pelos pastores da Igreja.",
       ],
       pergunta: "Depois das minhas quedas, respondo a Jesus com amor e volto a segui-lo?",
@@ -279,7 +279,7 @@ const parte: ParteDasReflexoes = {
     "JHN 14:15-16.23-26": {
       paragrafos: [
         "Jesus promete aos discípulos: “eu rogarei ao Pai, e ele vos dará outro Paráclito, para que fique convosco para sempre”. O Espírito Santo, enviado pelo Pai em nome de Jesus, vai ensinar todas as coisas e recordar tudo o que ele disse. E quem ama Jesus e guarda a sua palavra se torna morada do Pai e do Filho.",
-        "Paráclito quer dizer aquele que é chamado para estar ao lado: o defensor, o consolador. Jesus fala de “outro Paráclito”, porque ele mesmo foi o primeiro (CIC 729). Agora que volta ao Pai, envia o Espírito, que não fica só ao lado dos discípulos, mas dentro deles, para sempre. Na manhã de Pentecostes essa promessa se cumpre, e a Igreja nasce para a missão.",
+        "Paráclito quer dizer aquele que é chamado para estar ao lado: o defensor, o consolador. Jesus fala de “outro Paráclito”, porque ele mesmo foi o primeiro (CIC 692). Agora que volta ao Pai, envia o Espírito, que não fica só ao lado dos discípulos, mas dentro deles, para sempre. Na manhã de Pentecostes essa promessa se cumpre, e a Igreja nasce para a missão.",
         "O Espírito Santo não é uma ideia distante. Recebemos o Espírito no Batismo e na Crisma, e ele age em nós: ensina, consola, recorda as palavras de Jesus no momento certo, dá coragem para testemunhar. O caminho para acolhê-lo é o que Jesus indica: amá-lo e guardar a sua palavra. Peçamos com confiança: vinde, Espírito Santo.",
       ],
       pergunta: "Reconheço o Espírito Santo que mora em mim e peço a sua ajuda todos os dias?",
@@ -295,7 +295,7 @@ const parte: ParteDasReflexoes = {
     "JHN 20:24-29": {
       paragrafos: [
         "Tomé não estava quando Jesus apareceu aos discípulos. Ao ouvir “Vimos o Senhor!”, ele exige provas: ver e tocar as marcas dos cravos e do lado. Oito dias depois, Jesus volta, convida-o a tocar as feridas e diz: “não sejas incrédulo, mas fiel.” Tomé responde: “Senhor meu e Deus meu!”",
-        "Tomé não era um homem frio. Foi ele quem disse, antes da ressurreição de Lázaro: “Vamos nós também, para morrermos com ele.” A sua dúvida nasce da dor da cruz. Jesus não o rejeita: vem por causa dele e o leva à mais clara profissão de fé de todo o Evangelho. São Gregório Magno ensinava que a dúvida de Tomé, curada pelo Senhor, ajudou a fortalecer a nossa fé.",
+        "Tomé não era um homem frio. Foi ele quem disse, antes da ressurreição de Lázaro: “Vamos nós também, para morrermos com ele.” Jesus não o rejeita: vem por causa dele e o leva à mais clara profissão de fé de todo o Evangelho. São Gregório Magno, nas Homilias sobre os Evangelhos, ensina que a dúvida de Tomé, curada pelo Senhor, serviu mais à nossa fé do que a fé dos que logo creram.",
         "Segundo uma antiga tradição, Tomé levou o Evangelho até a Índia e ali deu a vida por Cristo. Nós somos os que Jesus chamou de bem-aventurados: os que não viram e creram. Quando a dúvida vier, levemos as nossas perguntas a Jesus, dentro da comunidade, como Tomé fez ao voltar para junto dos irmãos.",
       ],
       pergunta: "Levo as minhas dúvidas a Jesus, ou me afasto da comunidade por causa delas?",
@@ -303,7 +303,7 @@ const parte: ParteDasReflexoes = {
     "JHN 20:1.11-18": {
       paragrafos: [
         "Maria Madalena vai ao sepulcro “quando ainda estava escuro” e o encontra aberto. Fica ali chorando, procurando o corpo do Senhor. Jesus aparece e ela pensa que é o jardineiro. Basta ele chamá-la pelo nome, “Maria!”, para que ela o reconheça. E ele a envia aos discípulos.",
-        "Maria Madalena esteve de pé junto à cruz, quando quase todos fugiram. Foi ao sepulcro antes de todos e ficou quando os outros voltaram para casa. O seu amor perseverante foi recompensado: foi a primeira a ver o Ressuscitado e a primeira a anunciá-lo. Por isso a Tradição a chama apóstola dos apóstolos.",
+        "Maria Madalena esteve de pé junto à cruz, quando quase todos fugiram. Foi ao sepulcro antes de todos e ficou quando os outros voltaram para casa. O seu amor perseverante foi recompensado: foi a primeira a ver o Ressuscitado e a primeira a anunciá-lo. Por isso São Tomás de Aquino a chamou apóstola dos apóstolos, título que a Igreja retomou ao elevar a sua memória a festa, em 2016.",
         "O exemplo dela nos ensina a procurar Jesus com perseverança, mesmo no escuro e nas lágrimas. Quem procura assim acaba encontrado por ele, ouve o próprio nome na sua voz e recebe uma missão: contar aos outros, com simplicidade, que viu o Senhor.",
       ],
       pergunta: "Procuro Jesus com perseverança, mesmo quando ele parece ausente?",
@@ -311,7 +311,7 @@ const parte: ParteDasReflexoes = {
     "JHN 19:25-27": {
       paragrafos: [
         "O Evangelho nos leva ao pé da cruz. Ali estão de pé a mãe de Jesus, a irmã dela, Maria Madalena e o discípulo amado. Jesus, no meio da agonia, cuida da mãe: “Mulher, eis aí o teu filho.” E ao discípulo: “Eis aí a tua mãe.” Desde aquela hora, o discípulo a recebe em sua casa.",
-        "Maria não foge nem desmaia. Está de pé, unida ao Filho na dor, como o velho Simeão tinha anunciado no Templo ao falar da espada que lhe atravessaria a alma. A sua fé não vacila no sofrimento. E ali, junto à cruz, recebe uma nova maternidade: no discípulo, Jesus lhe confia todos nós (CIC 964).",
+        "Maria não foge. Está de pé, unida ao Filho na dor, como o velho Simeão tinha anunciado no Templo ao falar da espada que lhe atravessaria a alma. A sua fé não vacila no sofrimento. E ali, junto à cruz, recebe uma nova maternidade: no discípulo, Jesus lhe confia todos nós (CIC 964).",
         "Quem sofre encontra em Maria uma mãe que entende. Ela conhece a dor de perder um filho, a injustiça, o silêncio de Deus na hora escura. Podemos pedir a ela a graça de ficar de pé nas nossas cruzes e de acompanhar com amor quem está sofrendo.",
       ],
       pergunta: "Peço a Maria que me ensine a ficar de pé junto às cruzes da minha vida?",
@@ -328,7 +328,7 @@ const parte: ParteDasReflexoes = {
       paragrafos: [
         "Lázaro, amigo de Jesus, adoece e morre. Quando Jesus chega a Betânia, ele já está sepultado havia quatro dias. Marta e Maria dizem a mesma frase: “Senhor, se tu estivesses aqui, o meu irmão não teria morrido.” Jesus se comove, chora junto ao túmulo e manda tirar a pedra. Depois grita: “Lázaro, sai para fora!” E o morto sai, ainda amarrado com as faixas.",
         "No centro do relato está a palavra de Jesus a Marta: “Eu sou a ressurreição e a vida. Quem crê em mim, ainda que esteja morto, viverá.” A volta de Lázaro a esta vida é um sinal; a promessa vai além: a vida eterna e a ressurreição da carne no último dia (CIC 994). E Jesus pergunta: “Crês nisto?” Marta responde com uma bela profissão de fé.",
-        "As lágrimas de Jesus mostram que Deus não é indiferente à nossa dor. Ele chora conosco e, ao mesmo tempo, tem poder sobre a morte. O Senhor também chama do túmulo quem está morto pelo pecado, e a Igreja, como os que desataram Lázaro, ajuda a soltar as faixas, sobretudo pelo sacramento da Penitência. Que túmulo em nós precisa ouvir a voz de Jesus e se abrir?",
+        "As lágrimas de Jesus mostram que Deus não é indiferente à nossa dor. Ele chora conosco e, ao mesmo tempo, tem poder sobre a morte. O Senhor também chama do túmulo quem está morto pelo pecado. Santo Agostinho, nos Tratados sobre o Evangelho de São João, vê nos que desataram Lázaro os ministros da Igreja, que soltam as faixas do pecador no sacramento da Penitência. Que túmulo em nós precisa ouvir a voz de Jesus e se abrir?",
       ],
       pergunta: "Diante da morte e do pecado, consigo responder como Marta: “Sim, Senhor, eu creio”?",
     },
@@ -367,7 +367,7 @@ const parte: ParteDasReflexoes = {
     "JHN 20:19-23": {
       paragrafos: [
         "Na tarde da ressurreição, os discípulos estão reunidos, com as portas fechadas por medo. Jesus vem, põe-se no meio deles e diz: “A paz esteja convosco.” Mostra as mãos e o lado, e os discípulos se alegram. Depois os envia como o Pai o enviou, sopra sobre eles e diz: “Recebei o Espírito Santo.”",
-        "O sopro de Jesus lembra o sopro de Deus na criação do homem: começa uma criação nova. O Espírito Santo é dado à Igreja para a missão e para o perdão. Jesus confia aos Apóstolos o poder de perdoar os pecados, que a Igreja exerce no sacramento da Penitência (CIC 1485). Pentecostes não é só uma lembrança: é o Espírito que continua a agir na Igreja.",
+        "São Cirilo de Alexandria, no seu Comentário ao Evangelho de São João, liga este sopro ao sopro de Deus na criação do homem: começa uma criação nova. O Espírito Santo é dado à Igreja para a missão e para o perdão. Jesus confia aos Apóstolos o poder de perdoar os pecados, que a Igreja exerce no sacramento da Penitência (CIC 1485). Pentecostes não é só uma lembrança: é o Espírito que continua a agir na Igreja.",
         "O medo fecha portas; o Espírito as abre. Os mesmos discípulos que estavam trancados vão sair para anunciar Cristo ao mundo. Também nós recebemos o Espírito no Batismo e na Crisma. Ele nos dá paz, perdão e coragem para testemunhar. Peçamos que ele venha renovar a nossa fé, a nossa família e a nossa comunidade.",
       ],
       pergunta: "Que medo me tranca, e onde preciso que o Espírito Santo me envie?",
@@ -375,7 +375,7 @@ const parte: ParteDasReflexoes = {
     "JHN 12:24-26": {
       paragrafos: [
         "Jesus usa a imagem da semente: se o grão de trigo que cai na terra não morrer, fica sozinho; mas, se morrer, produz muito fruto. E acrescenta: quem ama a sua vida a perderá, e quem a entrega a conservará para a vida eterna. Quem o serve deve segui-lo, e o Pai o honrará.",
-        "Jesus fala primeiro de si mesmo: a sua morte na cruz é a semente de onde nasce a vida nova para todos. E chama os discípulos ao mesmo caminho. Os mártires entenderam isso. São Lourenço, diácono da Igreja de Roma, serviu os pobres e deu a vida por Cristo no século III. Segundo uma tradição antiga, guardada por Santo Ambrósio, apresentou os pobres como os verdadeiros tesouros da Igreja.",
+        "Jesus fala primeiro de si mesmo: a sua morte na cruz é a semente de onde nasce a vida nova para todos. E chama os discípulos ao mesmo caminho. Os mártires entenderam isso. São Lourenço, diácono da Igreja de Roma, serviu os pobres e deu a vida por Cristo no século III. Segundo uma tradição antiga, guardada por Santo Ambrósio no livro Sobre os deveres dos ministros, apresentou os pobres como os verdadeiros tesouros da Igreja.",
         "Nem todos somos chamados ao martírio de sangue. Mas todos somos chamados a morrer um pouco para nós mesmos: ao egoísmo, ao orgulho, ao conforto. É assim que a vida dá fruto.",
       ],
       pergunta: "O que em mim precisa morrer para que a minha vida dê fruto?",

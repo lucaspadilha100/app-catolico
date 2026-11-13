@@ -14,7 +14,7 @@ const parte: ParteDasReflexoes = {
     "LUK 11:29-32": {
       paragrafos: [
         "As multidões se ajuntam ao redor de Jesus, mas querem um sinal, uma prova que as dispense de crer. Jesus responde que não haverá outro sinal além do de Jonas. Os ninivitas, gente estrangeira, ouviram a pregação de um profeta e fizeram penitência. A rainha do Sul veio dos confins do mundo para escutar a sabedoria de Salomão. E Jesus acrescenta: “aqui está quem é maior do que Jonas.”",
-        "A Igreja sempre viu no sinal de Jonas um anúncio da morte e da ressurreição de Jesus. Não precisamos de prodígios novos. Temos a sua palavra, os sacramentos, a Igreja, o testemunho dos santos. O risco é o mesmo daquela geração: ter tanto diante dos olhos e continuar esperando outra coisa para começar a mudar de vida.",
+        "O próprio Jesus fala da sua ressurreição ao terceiro dia como do “sinal de Jonas” (CIC 994). Não precisamos de prodígios novos. Temos a sua palavra, os sacramentos, a Igreja, o testemunho dos santos. O risco é o mesmo daquela geração: ter tanto diante dos olhos e continuar esperando outra coisa para começar a mudar de vida.",
         "Os ninivitas não viram milagre nenhum. Bastou-lhes a palavra de um profeta para se converterem. Nós ouvimos o próprio Filho de Deus. A conversão não precisa esperar um sinal extraordinário; pode começar hoje, com uma confissão bem feita, com um perdão, com uma oração mais sincera.",
       ],
       pergunta: "Que mudança de vida eu venho adiando à espera de um sinal que já me foi dado?",
@@ -46,7 +46,7 @@ const parte: ParteDasReflexoes = {
     "LUK 9:11b-17": {
       paragrafos: [
         "As multidões seguem Jesus até um lugar deserto, e ele as acolhe, fala do Reino de Deus e cura os que precisam. Ao cair da tarde, os doze sugerem despedir o povo. Jesus responde: “Dai-lhes vós de comer.” Eles têm apenas cinco pães e dois peixes para quase cinco mil homens. O pouco que têm parece não servir para nada.",
-        "Jesus toma os pães, ergue os olhos para o céu, abençoa, parte e dá aos discípulos para que sirvam o povo. São os gestos da Última Ceia e de cada Missa. A Igreja sempre viu nesta multiplicação um anúncio da Eucaristia (CIC 1335). Todos comem e ficam saciados, e ainda sobram doze cestos. Na Eucaristia, Cristo não nos dá apenas um sinal: dá a si mesmo, verdadeiramente presente com o seu Corpo e o seu Sangue, a sua alma e a sua divindade.",
+        "Jesus toma os pães, ergue os olhos para o céu, abençoa, parte e dá aos discípulos para que sirvam o povo. São os gestos da Última Ceia e de cada Missa. A Igreja sempre viu nesta multiplicação um anúncio da Eucaristia (CIC 1335). Todos comem e ficam saciados, e ainda sobram doze cestos. Na Eucaristia, Cristo não nos dá apenas um sinal: dá a si mesmo, verdadeiramente presente com o seu Corpo e o seu Sangue, a sua alma e a sua divindade (CIC 1374).",
         "Repare que Jesus faz o pão chegar ao povo pelas mãos dos discípulos. Ele quer contar conosco. Quem comunga é enviado a repartir: tempo, atenção, ajuda concreta a quem tem fome de pão e de sentido. Diante do Santíssimo, podemos levar o pouco que somos. Nas mãos do Senhor, os nossos cinco pães bastam.",
       ],
       pergunta: "Como posso receber a Comunhão com mais fé e levar o que recebo a quem precisa?",
@@ -70,7 +70,7 @@ const parte: ParteDasReflexoes = {
     "LUK 10:25-37": {
       paragrafos: [
         "Um doutor da lei quer pôr Jesus à prova e pergunta o que deve fazer para possuir a vida eterna. Ele mesmo sabe a resposta: amar a Deus de todo o coração e o próximo como a si mesmo. Mas, querendo justificar-se, faz outra pergunta: “E quem é o meu próximo?” Jesus responde com uma história.",
-        "Um homem é assaltado e deixado quase morto na estrada. Passa um sacerdote, passa um levita, e os dois seguem ao largo. Quem para é um samaritano, alguém de quem os judeus desconfiavam. Ele se enche de compaixão, trata as feridas, leva o ferido à hospedaria, paga e promete voltar. No fim, Jesus vira a pergunta ao contrário: não importa saber quem merece ser meu próximo, mas de quem eu me faço próximo. Os Padres da Igreja viram no samaritano o próprio Cristo, que se inclinou sobre a humanidade ferida.",
+        "Um homem é assaltado e deixado quase morto na estrada. Passa um sacerdote, passa um levita, e os dois seguem ao largo. Quem para é um samaritano, alguém de quem os judeus desconfiavam. Ele se enche de compaixão, trata as feridas, leva o ferido à hospedaria, paga e promete voltar. No fim, Jesus vira a pergunta ao contrário: não importa saber quem merece ser meu próximo, mas de quem eu me faço próximo. Santo Ambrósio, no seu Comentário ao Evangelho de São Lucas, viu no samaritano o próprio Cristo, que se inclinou sobre a humanidade ferida.",
         "Todos os dias passamos por alguém caído: um vizinho sozinho, um parente doente, um pobre na esquina. Sempre há motivos para passar ao largo: pressa, medo, falta de jeito. A palavra de Jesus é simples e não deixa saída: “Vai, e faze tu o mesmo.” A caridade começa com a decisão de parar.",
       ],
       pergunta: "Por quem eu tenho passado ao largo e posso parar hoje?",
@@ -110,7 +110,7 @@ const parte: ParteDasReflexoes = {
     "LUK 11:27-28": {
       paragrafos: [
         "Enquanto Jesus fala, uma mulher do meio da multidão levanta a voz e elogia a mãe dele: “Bem-aventurado o ventre que te trouxe e os seios que te amamentaram.” É um elogio sincero, de mulher do povo. Jesus responde: “Antes, bem-aventurados os que ouvem a palavra de Deus e a guardam.”",
-        "A resposta não diminui Maria; mostra a raiz da sua grandeza. Ela é feliz não só por ter gerado Jesus, mas porque ouviu a palavra de Deus e a guardou como ninguém. Na Anunciação disse sim, e, como o próprio Lucas conta, conservava tudo no coração. Santo Agostinho ensinava que Maria foi mais feliz por trazer Cristo no coração, pela fé, do que por trazê-lo no ventre. Por isso a Igreja a honra como modelo de fé e a primeira dos discípulos (CIC 967).",
+        "A resposta não diminui Maria; mostra a raiz da sua grandeza. Ela é feliz não só por ter gerado Jesus, mas porque ouviu a palavra de Deus e a guardou como ninguém. Na Anunciação disse sim, e, como o próprio Lucas conta, conservava tudo no coração. Santo Agostinho, no livro Sobre a santa virgindade, ensina que Maria foi mais feliz por receber a fé em Cristo do que por conceber a carne de Cristo. Por isso a Igreja a honra como modelo da fé e da caridade (CIC 967).",
         "Essa bem-aventurança está aberta a todos nós. Não podemos ser mãe de Jesus como Maria, mas podemos ouvir a palavra de Deus e guardá-la, deixando que ela mude as nossas escolhas. Maria, elevada ao céu em corpo e alma, mostra aonde chega quem vive assim. Quem reza o terço com ela aprende a guardar a palavra no coração.",
       ],
       pergunta: "Que palavra de Deus eu ouvi nestes dias e preciso guardar e pôr em prática?",
@@ -134,7 +134,7 @@ const parte: ParteDasReflexoes = {
     "LUK 14:25-33": {
       paragrafos: [
         "Grandes multidões acompanham Jesus, e ele se volta para dizer o que custa ser discípulo. As palavras são fortes: quem não odeia pai, mãe, mulher, filhos, irmãos e até a própria vida, quem não carrega a sua cruz, quem não renuncia a tudo o que possui, não pode ser seu discípulo.",
-        "“Odiar”, aqui, é um modo de falar daquele tempo para dizer preferir. O próprio Jesus manda honrar pai e mãe e amar o próximo. O que ele pede é o primeiro lugar: nenhum afeto, nenhum bem, nem a própria vida pode estar acima dele. Por isso conta as duas comparações: quem vai construir uma torre calcula antes os gastos, e o rei que vai à guerra examina as suas forças. Seguir Jesus é uma decisão séria, tomada de olhos abertos.",
+        "O Evangelho de Mateus traz a mesma palavra assim: “Quem ama o pai ou a mãe mais do que a mim não é digno de mim.” A Igreja ensina que os laços de família são importantes, mas não absolutos, porque a primeira vocação do cristão é seguir Jesus (CIC 2232). O que ele pede é o primeiro lugar: nenhum afeto, nenhum bem, nem a própria vida pode estar acima dele. Por isso conta as duas comparações: quem vai construir uma torre calcula antes os gastos, e o rei que vai à guerra examina as suas forças. Seguir Jesus é uma decisão séria, tomada de olhos abertos.",
         "Quando Cristo está em primeiro lugar, os outros amores não diminuem; ficam ordenados e mais livres. A família é mais bem amada por quem ama Deus acima de tudo. Vale perguntar com calma, como o construtor da torre, se estamos dispostos a ir até o fim, contando não com as nossas forças, mas com a graça.",
       ],
       pergunta: "Que afeto ou que bem ocupa na minha vida um lugar que é de Deus?",
@@ -174,7 +174,7 @@ const parte: ParteDasReflexoes = {
     "LUK 8:1-3": {
       paragrafos: [
         "Lucas mostra Jesus andando por cidades e aldeias, anunciando o Reino de Deus. Com ele vão os doze e também algumas mulheres que ele tinha curado e libertado: Maria Madalena, de quem tinha expulsado sete demônios, Joana, mulher de um procurador de Herodes, Susana e muitas outras. Elas os ajudavam com os seus bens.",
-        "São pessoas de origens muito diferentes, unidas pela mesma experiência: foram tocadas por Jesus e não quiseram mais ficar longe dele. A gratidão virou serviço. Elas não pregavam nas praças, mas sem elas a missão não andaria. Maria Madalena, que aparece aqui, será depois a primeira testemunha da Ressurreição.",
+        "São pessoas de origens muito diferentes, unidas pela mesma experiência: foram tocadas por Jesus e não quiseram mais ficar longe dele. A gratidão virou serviço. Elas não pregavam nas praças, mas sem elas a missão não andaria. Maria Madalena, que aparece aqui, estará depois entre as primeiras a encontrar o Ressuscitado (CIC 641).",
         "Na Igreja há muitos serviços escondidos: quem cuida da limpeza da capela, quem prepara a festa do padroeiro, quem contribui com o dízimo, quem reza pelos padres. Tudo isso faz parte do anúncio do Reino. Quem foi curado por Jesus encontra sempre um jeito de servir.",
       ],
       pergunta: "Como posso agradecer ao Senhor servindo a sua Igreja com o que tenho?",
@@ -270,7 +270,7 @@ const parte: ParteDasReflexoes = {
     "LUK 10:17-24": {
       paragrafos: [
         "Os setenta e dois voltam alegres da missão: até os demônios se submetiam a eles pelo nome de Jesus. Ele confirma que a força do inimigo foi quebrada, mas lhes mostra uma alegria maior: “alegrai-vos, antes, porque os vossos nomes estão escritos nos céus.”",
-        "Naquela mesma hora, Jesus exulta de alegria sob a ação do Espírito Santo e louva o Pai, porque escondeu estas coisas aos sábios e entendidos e as revelou aos pequeninos. É uma das raras vezes em que o Evangelho mostra a alegria de Jesus, e nela aparece a Santíssima Trindade: o Filho louva o Pai no Espírito. Só o Filho conhece o Pai e o revela a quem quer. Depois diz aos discípulos que são felizes os olhos que veem o que eles veem.",
+        "Naquela mesma hora, Jesus exulta de alegria sob a ação do Espírito Santo e louva o Pai, porque escondeu estas coisas aos sábios e entendidos e as revelou aos pequeninos (CIC 2603). É uma das raras vezes em que o Evangelho mostra a alegria de Jesus, e nela aparece a Santíssima Trindade: o Filho louva o Pai no Espírito. Só o Filho conhece o Pai e o revela a quem quer. Depois diz aos discípulos que são felizes os olhos que veem o que eles veem.",
         "A fé não é prêmio para os mais estudados, mas dom para os que se fazem pequenos diante de Deus. Muita gente simples conhece o Senhor mais profundamente do que muitos sábios. Que a nossa alegria não esteja nos resultados, mas em pertencer a Deus.",
       ],
       pergunta: "Eu me alegro mais com o que consigo fazer ou com o fato de ser filho de Deus?",
@@ -357,7 +357,7 @@ const parte: ParteDasReflexoes = {
     },
     "LUK 12:49-53": {
       paragrafos: [
-        "Jesus fala com uma intensidade rara: “Eu vim trazer fogo à terra, e que quero eu senão que ele se acenda?” E fala de um batismo que o angustia até que se cumpra. O fogo é o amor de Deus que ele veio acender; o batismo é a Paixão, que ele está para viver em Jerusalém.",
+        "Jesus fala com uma intensidade rara: “Eu vim trazer fogo à terra, e que quero eu senão que ele se acenda?” E fala de um batismo que o angustia até que se cumpra. O fogo, ensina a Igreja, é imagem do Espírito Santo, que transforma tudo o que toca (CIC 696); o batismo é a Paixão, que ele está para viver em Jerusalém (CIC 1225).",
         "Depois diz algo que desconcerta: não veio trazer paz à terra, mas divisão, até dentro das famílias. Não porque goste de brigas, mas porque a sua palavra pede decisão. Diante dele, nem todos escolhem do mesmo modo, e a fé de um pode incomodar outro, mesmo dentro de casa.",
         "Muitos cristãos conhecem essa dor: um filho que se afastou da Igreja, um marido que não entende a fé da esposa. O Evangelho não manda brigar nem desistir. Pede fidelidade com mansidão e oração perseverante pelos de casa. O fogo de Cristo, quando é verdadeiro, aquece; não queima os outros.",
       ],
@@ -455,14 +455,14 @@ const parte: ParteDasReflexoes = {
       paragrafos: [
         "João Batista, que estava na prisão, manda dois discípulos perguntarem a Jesus: “És tu aquele que há de vir, ou é outro que esperamos?” Jesus não responde com uma afirmação direta. Naquela mesma hora cura muitas pessoas, liberta dos espíritos malignos, dá a vista a cegos, e diz aos mensageiros que contem a João o que viram e ouviram.",
         "Os sinais são os que os profetas tinham anunciado para o tempo do Messias: cegos que veem, coxos que andam, leprosos purificados, surdos que ouvem, mortos que ressuscitam, e o Evangelho anunciado aos pobres. Jesus deixa que os fatos falem. E acrescenta: “bem-aventurado é todo aquele que não se escandalizar por causa de mim.”",
-        "Até João, o maior dos profetas, precisou de uma confirmação na hora escura. Não há vergonha em levar a Jesus as nossas dúvidas. Ele responde mostrando a sua ação, na nossa vida e na Igreja. A espera do Senhor se alimenta de olhar com fé para os sinais que ele já deu.",
+        "São João Crisóstomo, nas Homilias sobre o Evangelho de São Mateus, explica que João mandou os discípulos para que eles mesmos vissem e cressem. Também nós podemos levar a Jesus as nossas dúvidas. Ele responde mostrando a sua ação, na nossa vida e na Igreja. A espera do Senhor se alimenta de olhar com fé para os sinais que ele já deu.",
       ],
       pergunta: "Que dúvida eu posso levar a Jesus, confiando que ele responde?",
     },
     "LUK 7:24-30": {
       paragrafos: [
         "Depois que os mensageiros de João partem, Jesus fala dele às multidões. O que foram ver no deserto? Não uma cana agitada pelo vento, nem um homem de roupas finas. Foram ver um profeta, e mais do que profeta: o mensageiro enviado à frente para preparar o caminho do Senhor.",
-        "Jesus diz que entre os nascidos de mulher não há profeta maior do que João. E logo acrescenta: “o menor no Reino de Deus é maior do que ele.” João está na fronteira entre a antiga e a nova aliança; nós, pelo Batismo, entramos no Reino que ele anunciou. É uma graça imensa e uma responsabilidade.",
+        "Jesus diz que entre os nascidos de mulher não há profeta maior do que João. E logo acrescenta: “o menor no Reino de Deus é maior do que ele.” Em João termina o ciclo dos profetas (CIC 719); nós, pelo Batismo, entramos no Reino que ele anunciou. É uma graça imensa e uma responsabilidade.",
         "O povo e os publicanos que receberam o batismo de João deram glória a Deus; os fariseus e os doutores da lei desprezaram o desígnio de Deus. João preparou corações humildes. Também nós preparamos a vinda do Senhor quando deixamos de ser cana que o vento leva e assumimos com firmeza a conversão.",
       ],
       pergunta: "O que em mim ainda é como cana agitada pelo vento e precisa de firmeza?",
@@ -470,7 +470,7 @@ const parte: ParteDasReflexoes = {
     "LUK 7:36-8:3": {
       paragrafos: [
         "Jesus aceita o convite de um fariseu chamado Simão. Durante a refeição, entra uma mulher conhecida como pecadora, que banha os pés de Jesus com lágrimas, os enxuga com os cabelos, os beija e os unge com perfume. Simão pensa que Jesus não é profeta, senão saberia quem ela é. Jesus responde com a história de dois devedores que tiveram a dívida perdoada.",
-        "A conclusão é clara: “os seus muitos pecados lhe são perdoados, porque ela amou muito.” O amor da mulher é sinal de que se sabe perdoada; Simão, que não se via devedor, amou pouco. Jesus diz a ela: “A tua fé te salvou. Vai em paz.” Os convidados se perguntam quem é este que até perdoa pecados. Só Deus perdoa pecados, e Jesus age com a autoridade de Deus, a mesma que confiou à Igreja no sacramento da Reconciliação.",
+        "A conclusão é clara: “os seus muitos pecados lhe são perdoados, porque ela amou muito.” O amor da mulher é sinal de que se sabe perdoada; Simão, que não se via devedor, amou pouco. Jesus diz a ela: “A tua fé te salvou. Vai em paz.” Os convidados se perguntam quem é este que até perdoa pecados. Só Deus perdoa pecados, e Jesus age com a autoridade de Deus e confiou à Igreja esse poder, que ela exerce no sacramento da Reconciliação (CIC 1441-1442).",
         "Logo depois, Lucas mostra Jesus pelas cidades com os doze e com mulheres que ele tinha curado, como Maria Madalena, Joana e Susana, que o ajudavam com os seus bens. Quem foi perdoado e curado não volta à vida de antes: segue Jesus e serve. A gratidão vira caminho.",
       ],
       pergunta: "Como posso mostrar a Jesus, com gestos concretos, a gratidão pelo perdão que recebo?",
