@@ -230,7 +230,7 @@ com o que acontece quando bate e o plano para passar dele.
 | Supabase | Projeto grátis PAUSA após 7 dias sem uso | Só antes do lançamento | Uso real impede a pausa |
 | Vercel Hobby | 100 GB de banda/mês; uso NÃO comercial | Pedir doação pode contar como comercial | Cloudflare Pages (grátis, permite) ou Vercel Pro |
 | Mapas | Só OpenStreetMap/links "como chegar" | Nunca (sem chave paga) | Ver antes de trocar |
-| Vercel Hobby | 100 deploys por dia | Aconteceu em 13/11/2026: 180 commits de cache num dia ("Deployment rate limited") | `ignoreCommand` no `vercel.json` pula commit só de `fontes/`, `docs/`, `supabase/` e `scripts/`; cache de geocodificação fora do repo durante a carga (`GEOCACHE`), commit por estado |
+| Vercel Hobby | 100 deploys por dia, e build pulado pelo `ignoreCommand` CONTA igual (documentação da Vercel) | Aconteceu em 13/11/2026: 180 commits de cache num dia ("Deployment rate limited") | Trabalho de dados (pesquisas, cache `GEOCACHE`, migrações `SAIDA_MIGRACOES`) fica no scratchpad e entra no repositório num LOTE só, com um push; nada de push a cada passo |
 
 ## Direito autoral — o app NÃO pode cair
 Nada de licença paga por ora. Então:

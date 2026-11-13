@@ -277,7 +277,7 @@ def main():
         linhas.append(",\n".join(vs))
         linhas.append("on conflict (paroquia_id) do nothing;")
 
-    destino = Path("supabase/migrations") / f"{ts}_dados_{uf.lower()}_paroquias{'_repetidas' if correcao else ''}.sql"
+    destino = Path(os.environ.get("SAIDA_MIGRACOES", "supabase/migrations")) / f"{ts}_dados_{uf.lower()}_paroquias{'_repetidas' if correcao else ''}.sql"
     destino.write_text("\n".join(linhas) + "\n")
     matrizes = sum(1 for p in paroquias if not p["matriz_id"])
     com_ponto = sum(1 for p in paroquias if p["lat"] is not None)
