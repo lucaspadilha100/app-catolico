@@ -111,6 +111,16 @@ def encurtar_fonte(url):
     return m.group(0) if m else url[:120]
 
 
+def instagram_valido(valor, avisos, nome):
+    limpo = (valor or "").strip().lstrip("@")
+    if not limpo:
+        return ""
+    if re.fullmatch(r"[A-Za-z0-9._]{1,30}", limpo):
+        return limpo
+    avisos.append(f"instagram fora do padrao, descartado: {limpo!r} ({nome})")
+    return ""
+
+
 def so_digitos(v):
     return re.sub(r"\D", "", str(v or ""))[:20]
 
@@ -168,9 +178,9 @@ def main():
                     "cidade": cidade[:120],
                     "uf": uf_da_unidade,
                     "padroeiro": (u.get("padroeiro") or "")[:160] if n == 0 else "",
-                    "telefone": so_digitos(contatos.get("telefone")) if n == 0 else "",
-                    "whatsapp": so_digitos(contatos.get("whatsapp")) if n == 0 else "",
-                    "instagram": (contatos.get("instagram") or "").lstrip("@")[:60] if n == 0 else "",
+                    "telefone": so_digitos(contatos.get("telefone"))[:13] if n == 0 else "",
+                    "whatsapp": so_digitos(contatos.get("whatsapp"))[:13] if n == 0 else "",
+                    "instagram": instagram_valido(contatos.get("instagram"), avisos, u.get("nome")) if n == 0 else "",
                     "site": (contatos.get("site") or "")[:200] if n == 0 else "",
                     "email": (contatos.get("email") or "")[:160] if n == 0 else "",
                     "diocese": diocese[:160],
