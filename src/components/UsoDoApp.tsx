@@ -11,12 +11,20 @@ const diaCurto = (iso: string) => `${iso.slice(8, 10)}/${iso.slice(5, 7)}`;
 
 export function UsoDoApp() {
   const [uso, setUso] = useState<Uso | null>(null);
+  const [erro, setErro] = useState("");
   useEffect(() => {
     usoDoApp()
       .then(setUso)
-      .catch(() => setUso(null));
+      .catch((e: unknown) => setErro(e instanceof Error ? e.message : String(e)));
   }, []);
-  if (!uso) return null;
+  if (erro)
+    return (
+      <section className="flex flex-col gap-2">
+        <h2 className="titulo-secao px-1">Uso do app</h2>
+        <p className="rounded-xl bg-cartao px-4 py-3 text-sm text-tinta-suave">Não foi possível carregar: {erro}</p>
+      </section>
+    );
+  if (!uso) return <div className="h-24 animate-pulse rounded-xl bg-cartao" aria-hidden />;
   const dataDeHoje = new Date().toLocaleDateString("sv-SE");
   const hoje = uso.dias.find((d) => d.dia === dataDeHoje)?.aparelhos ?? 0;
   const maior = Math.max(1, ...uso.dias.map((d) => d.aparelhos));
