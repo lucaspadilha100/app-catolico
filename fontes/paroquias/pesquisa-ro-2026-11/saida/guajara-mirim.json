@@ -1,0 +1,438 @@
+[
+ {
+  "id_banco": null,
+  "nome": "Catedral de Nossa Senhora do Seringueiro",
+  "categoria": "catedral",
+  "cidade": "Guajará-Mirim",
+  "padroeiro": "Nossa Senhora do Seringueiro",
+  "contatos": {
+   "telefone": "69992435366",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Catedral de Nossa Senhora do Seringueiro",
+    "tipo": "matriz",
+    "cidade": "Guajará-Mirim",
+    "localidade": "Centro",
+    "endereco": "Av. Dr. Mendonça Lima, 555",
+    "horarios": [
+     {"tipo": "missa", "dia_semana": 0, "hora": "18:30", "semanas": null, "observacao": ""},
+     {"tipo": "missa", "dia_semana": 3, "hora": "18:30", "semanas": null, "observacao": ""},
+     {"tipo": "missa", "dia_semana": 5, "hora": "18:30", "semanas": null, "observacao": ""},
+     {"tipo": "missa", "dia_semana": 6, "hora": "18:30", "semanas": null, "observacao": ""}
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Igrejinha de Nossa Senhora do Perpétuo Socorro",
+    "tipo": "capela",
+    "cidade": "Guajará-Mirim",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {"tipo": "missa", "dia_semana": 0, "hora": "07:00", "semanas": null, "observacao": ""},
+     {"tipo": "missa", "dia_semana": 1, "hora": "18:30", "semanas": null, "observacao": ""},
+     {"tipo": "missa", "dia_semana": 2, "hora": "18:30", "semanas": null, "observacao": ""},
+     {"tipo": "missa", "dia_semana": 4, "hora": "18:30", "semanas": null, "observacao": ""},
+     {"tipo": "missa", "dia_semana": 6, "hora": "07:00", "semanas": null, "observacao": ""}
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://dioceseguajaramirim.org.br/paroquia-n-sra-do-seringueiro-guajara-mirim-ro/", "data": "2026-11-13", "o_que": "horarios"},
+   {"url": "https://dioceseguajaramirim.org.br/paroquia-n-sra-do-seringueiro-guajara-mirim-ro/", "data": "2026-11-13", "o_que": "contatos"}
+  ],
+  "confianca": "alta",
+  "observacao": "Paróquia da Catedral Diocesana, Região Pastoral Sede; 12 comunidades com a matriz. Os horários da Igrejinha vêm da mesma página da diocese, lida pelo trecho que a busca mostra."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Guajará-Mirim",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "69984788820",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Guajará-Mirim",
+    "localidade": "10 de Abril",
+    "endereco": "Av. 1º de Maio, 3378",
+    "horarios": [
+     {"tipo": "missa", "dia_semana": 0, "hora": "19:00", "semanas": null, "observacao": ""},
+     {"tipo": "missa", "dia_semana": 3, "hora": "19:30", "semanas": null, "observacao": ""},
+     {"tipo": "missa", "dia_semana": 4, "hora": "19:00", "semanas": null, "observacao": "Com adoração ao Santíssimo"}
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://dioceseguajaramirim.org.br/paroquia-n-sra-aparecida-guajara-mirim-ro/", "data": "2026-11-13", "o_que": "horarios"},
+   {"url": "https://dioceseguajaramirim.org.br/paroquia-n-sra-aparecida-guajara-mirim-ro/", "data": "2026-11-13", "o_que": "contatos"}
+  ],
+  "confianca": "alta",
+  "observacao": "Região Pastoral Sede. Horários e contatos da página da paróquia no site da diocese, lida pelo trecho que a busca mostra."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São Francisco de Assis",
+  "categoria": "paroquia",
+  "cidade": "Nova Mamoré",
+  "padroeiro": "São Francisco de Assis",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "69999263707",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Francisco de Assis",
+    "tipo": "matriz",
+    "cidade": "Nova Mamoré",
+    "localidade": "Centro",
+    "endereco": "Av. Antônio Lucas de Araújo, 3800",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://dioceseguajaramirim.org.br/paroquia-sao-francisco-de-assis-nova-mamore-ro/", "data": "2026-11-13", "o_que": "contatos"}
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário achado: a página da diocese traz só contatos. Região Pastoral Sede; 14 comunidades com a matriz; festa do padroeiro em 4 de outubro."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora de Fátima",
+  "categoria": "paroquia",
+  "cidade": "Nova Mamoré",
+  "padroeiro": "Nossa Senhora de Fátima",
+  "contatos": {
+   "telefone": "6999946810",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora de Fátima",
+    "tipo": "matriz",
+    "cidade": "Nova Mamoré",
+    "localidade": "Nova Dimensão",
+    "endereco": "Rua Belo Horizonte, 418",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://dioceseguajaramirim.org.br/paroquia-nossa-senhora-de-fatima-nova-dimensao-ro/", "data": "2026-11-13", "o_que": "contatos"}
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário achado. A sede fica em Nova Dimensão, distrito de Nova Mamoré. Região Pastoral Sede; 26 comunidades com a matriz. Telefone como a diocese publica, com um dígito a menos que o padrão atual de celular."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São Miguel Arcanjo",
+  "categoria": "paroquia",
+  "cidade": "São Miguel do Guaporé",
+  "padroeiro": "São Miguel Arcanjo",
+  "contatos": {
+   "telefone": "6936422053",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Miguel Arcanjo",
+    "tipo": "matriz",
+    "cidade": "São Miguel do Guaporé",
+    "localidade": "",
+    "endereco": "Av. Capitão Sílvio, 600",
+    "horarios": [
+     {"tipo": "missa", "dia_semana": 0, "hora": "19:30", "semanas": null, "observacao": ""},
+     {"tipo": "missa", "dia_semana": 1, "hora": "19:30", "semanas": null, "observacao": ""},
+     {"tipo": "missa", "dia_semana": 6, "hora": "19:30", "semanas": null, "observacao": ""}
+    ],
+    "nao_cabe": "Nas comunidades, missa mensal, normalmente às 19h, e celebração da Palavra aos domingos"
+   }
+  ],
+  "fontes": [
+   {"url": "https://claretianos.com.br/paroquias/guajara-mirim-rondonia/", "data": "2026-11-13", "o_que": "horarios"},
+   {"url": "https://dioceseguajaramirim.org.br/paroquia-sao-miguel-arcanjo-sao-miguel-do-guapore-ro/", "data": "2026-11-13", "o_que": "contatos"}
+  ],
+  "confianca": "media",
+  "observacao": "Região Pastoral Centro; 53 comunidades com a matriz. Horários da página dos Missionários Claretianos, que administram a paróquia; a página tinha cerca de 2 anos quando a busca a mostrou."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Cristo Rei",
+  "categoria": "paroquia",
+  "cidade": "Seringueiras",
+  "padroeiro": "Cristo Rei",
+  "contatos": {
+   "telefone": "69992130250",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Cristo Rei",
+    "tipo": "matriz",
+    "cidade": "Seringueiras",
+    "localidade": "",
+    "endereco": "Praça Cristo Rei, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://claretianos.com.br/paroquias/paroquia-cristo-rei-seringueiras-ro/", "data": "2026-11-13", "o_que": "contatos"}
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário com fonte da paróquia, da diocese ou dos Claretianos, que a administram; um diretório de terceiros traz horários, não usados. Região Pastoral Centro; 40 comunidades (38 rurais e 2 urbanas, com a matriz)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São Francisco de Assis",
+  "categoria": "paroquia",
+  "cidade": "São Francisco do Guaporé",
+  "padroeiro": "São Francisco de Assis",
+  "contatos": {
+   "telefone": "69993939499",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Francisco de Assis",
+    "tipo": "matriz",
+    "cidade": "São Francisco do Guaporé",
+    "localidade": "Cidade Baixa",
+    "endereco": "Rua Chico Mendes, 3612",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://dioceseguajaramirim.org.br/paroquia-sao-francisco-de-assis-sao-francisco-do-guapore-ro/", "data": "2026-11-13", "o_que": "contatos"}
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário achado: a página da diocese traz só contatos. Região Pastoral Centro; 37 comunidades com a matriz."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São Domingos de Gusmão",
+  "categoria": "paroquia",
+  "cidade": "Costa Marques",
+  "padroeiro": "São Domingos de Gusmão",
+  "contatos": {
+   "telefone": "69992465451",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiadesaodomingos@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Domingos de Gusmão",
+    "tipo": "matriz",
+    "cidade": "Costa Marques",
+    "localidade": "São Domingos do Guaporé",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://dioceseguajaramirim.org.br/paroquia-sao-domingos-de-gusmao-sao-domingos-do-guapore-ro/", "data": "2026-11-13", "o_que": "contatos"}
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário achado. A sede fica em São Domingos do Guaporé, povoado de Costa Marques na BR-429. Região Pastoral Centro; 10 comunidades com a matriz; o administrador paroquial é um diácono."
+ },
+ {
+  "id_banco": null,
+  "nome": "Basílica Santuário do Senhor Divino Espírito Santo",
+  "categoria": "basilica",
+  "cidade": "Costa Marques",
+  "padroeiro": "Divino Espírito Santo",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Basílica Santuário do Senhor Divino Espírito Santo",
+    "tipo": "santuario",
+    "cidade": "Costa Marques",
+    "localidade": "Centro",
+    "endereco": "Av. Forte Príncipe da Beira, 1882",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://dioceseguajaramirim.org.br/paroquia-divino-espirito-santo-costa-marques-ro/", "data": "2026-11-13", "o_que": "contatos"},
+   {"url": "https://gcatholic.org/churches/brazil/4955", "data": "2026-11-13", "o_que": "contatos"}
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário achado. Basílica menor desde 2008, a festa do padroeiro é no Pentecostes. Região Pastoral Centro; 17 comunidades com a matriz. Endereço do anuário GCatholic; a página da diocese não traz telefone próprio da paróquia."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora do Perpétuo Socorro",
+  "categoria": "paroquia",
+  "cidade": "Corumbiara",
+  "padroeiro": "Nossa Senhora do Perpétuo Socorro",
+  "contatos": {
+   "telefone": "69993403515",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiacorumbiara@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Perpétuo Socorro",
+    "tipo": "matriz",
+    "cidade": "Corumbiara",
+    "localidade": "Centro",
+    "endereco": "Rua Itália Cautiero Franco, 2039",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://dioceseguajaramirim.org.br/paroquia-n-sra-do-perpetuo-socorro-corumbiara-ro/", "data": "2026-11-13", "o_que": "contatos"}
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário achado: a página da diocese traz só contatos. Região Pastoral Sul; 33 comunidades com a matriz; festa da padroeira em 27 de junho."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Colorado do Oeste",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Colorado do Oeste",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://dioceseguajaramirim.org.br/nossa-sra-aparecida-colorado-doeste-ro/", "data": "2026-11-13", "o_que": "contatos"}
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário achado. Região Pastoral Sul; 53 comunidades com a matriz; criada em 13/05/1979. A página da diocese não traz endereço nem telefone; cadastros de terceiros divergem e não foram usados."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Cristo Salvador",
+  "categoria": "paroquia",
+  "cidade": "Cerejeiras",
+  "padroeiro": "Cristo Salvador",
+  "contatos": {
+   "telefone": "69992095807",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Cristo Salvador",
+    "tipo": "matriz",
+    "cidade": "Cerejeiras",
+    "localidade": "Liberdade",
+    "endereco": "Av. das Nações, 2440",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://dioceseguajaramirim.org.br/paroquia-cristo-salvador-cerejeiras-ro/", "data": "2026-11-13", "o_que": "contatos"}
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário achado: a página da diocese traz só contatos. Região Pastoral Sul; fundada em 01/05/1982. O anuário GCatholic lista também a Igreja Imaculado Coração de Maria na cidade, sem dizer de que paróquia é."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Cristo Rei",
+  "categoria": "paroquia",
+  "cidade": "Cabixi",
+  "padroeiro": "Cristo Rei",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Cristo Rei",
+    "tipo": "matriz",
+    "cidade": "Cabixi",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {"url": "https://dioceseguajaramirim.org.br/paroquia-cristo-rei-cabixi-ro/", "data": "2026-11-13", "o_que": "contatos"}
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário achado. Região Pastoral Sul. A página da diocese traz só o CEP e o link do Facebook da paróquia; endereço de rua só em cadastro de terceiros, não usado. As fontes divergem no ano de criação (1982, 1992 ou 1994)."
+ }
+]

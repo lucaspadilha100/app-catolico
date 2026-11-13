@@ -1,0 +1,2285 @@
+[
+ {
+  "id_banco": null,
+  "nome": "Catedral de Santo Antônio",
+  "categoria": "catedral",
+  "cidade": "Propriá",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "79996048291",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Catedral de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Propriá",
+    "localidade": "Centro",
+    "endereco": "Praça Fausto Cardoso, 165",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": "Missa com os homens"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": "Missa com as crianças"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Sexta: 19h, missa nos setores da paróquia"
+   },
+   {
+    "id_banco": null,
+    "nome": "Santuário de Nossa Senhora das Graças",
+    "tipo": "santuario",
+    "cidade": "Propriá",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Carmelo da Imaculada Conceição",
+    "tipo": "capela",
+    "cidade": "Propriá",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Igreja do Rosário",
+    "tipo": "capela",
+    "cidade": "Propriá",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade do Matadouro",
+    "tipo": "comunidade",
+    "cidade": "Propriá",
+    "localidade": "Matadouro",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedepropria.com/vicariato-sant%C3%ADssima-eucar%C3%ADstia",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedepropria.com/vicariato-sant%C3%ADssima-eucar%C3%ADstia",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "A diocese a lista como Paróquia Santo Antônio (Catedral Diocesana), criada em 1717, no Vicariato Santíssima Eucaristia. A missa diária das 7h é no Carmelo das Carmelitas Descalças."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Senhora Sant'Ana",
+  "categoria": "paroquia",
+  "cidade": "Aquidabã",
+  "padroeiro": "Senhora Sant'Ana",
+  "contatos": {
+   "telefone": "79999831812",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Senhora Sant'Ana",
+    "tipo": "matriz",
+    "cidade": "Aquidabã",
+    "localidade": "",
+    "endereco": "Avenida Getúlio Vargas, 676",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedepropria.com/vicariato-sant%C3%ADssima-eucar%C3%ADstia",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedepropria.com/vicariato-sant%C3%ADssima-eucar%C3%ADstia",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Criada em 1872. Copadroeiro São Joaquim."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia do Bom Jesus dos Pobres",
+  "categoria": "paroquia",
+  "cidade": "Canhoba",
+  "padroeiro": "Bom Jesus dos Pobres",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "bomjesuscanhoba",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Bom Jesus dos Pobres",
+    "tipo": "matriz",
+    "cidade": "Canhoba",
+    "localidade": "",
+    "endereco": "Avenida Barão de Rio Branco, S/N",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedepropria.com/vicariato-sant%C3%ADssima-eucar%C3%ADstia",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "A página da diocese não traz horário fixo: manda consultar a agenda da paróquia. O anuário registra também a Igreja de Nossa Senhora do Monte Serrat em Canhoba."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São João Batista",
+  "categoria": "paroquia",
+  "cidade": "Cedro de São João",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "79998219189",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Batista",
+    "tipo": "matriz",
+    "cidade": "Cedro de São João",
+    "localidade": "",
+    "endereco": "Praça da Matriz, S/N",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": "Missa com as crianças"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Quarta: 19h no Cruirizeiro (assim na fonte)"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Sebastião",
+    "tipo": "capela",
+    "cidade": "Cedro de São João",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Igreja de Nossa Senhora do Perpétuo Socorro",
+    "tipo": "capela",
+    "cidade": "Telha",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "17:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Poço dos Bois",
+    "tipo": "comunidade",
+    "cidade": "Cedro de São João",
+    "localidade": "Poço dos Bois",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "16:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Bela Vista",
+    "tipo": "comunidade",
+    "cidade": "Cedro de São João",
+    "localidade": "Povoado Bela Vista",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de São Pedro",
+    "tipo": "comunidade",
+    "cidade": "Cedro de São João",
+    "localidade": "Povoado São Pedro",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedepropria.com/vicariato-sant%C3%ADssima-eucar%C3%ADstia",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedepropria.com/vicariato-sant%C3%ADssima-eucar%C3%ADstia",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "A paróquia atende também Telha; o nome da igreja de lá vem do anuário."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora da Conceição",
+  "categoria": "paroquia",
+  "cidade": "Itabi",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "79999520583",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "Itabi",
+    "localidade": "",
+    "endereco": "Praça Teófilo Batista de Melo, S/N",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Sábado e domingo às 17h nas comunidades"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Francisco",
+    "tipo": "capela",
+    "cidade": "Itabi",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedepropria.com/vicariato-sant%C3%ADssima-eucar%C3%ADstia",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedepropria.com/vicariato-sant%C3%ADssima-eucar%C3%ADstia",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora de Lourdes",
+  "categoria": "paroquia",
+  "cidade": "Nossa Senhora de Lourdes",
+  "padroeiro": "Nossa Senhora de Lourdes",
+  "contatos": {
+   "telefone": "79998845871",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora de Lourdes",
+    "tipo": "matriz",
+    "cidade": "Nossa Senhora de Lourdes",
+    "localidade": "",
+    "endereco": "Rodovia Eronildes Ferreira de Carvalho, S/N",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Santuário Eucarístico",
+    "tipo": "santuario",
+    "cidade": "Nossa Senhora de Lourdes",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedepropria.com/vicariato-sant%C3%ADssima-eucar%C3%ADstia",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedepropria.com/vicariato-sant%C3%ADssima-eucar%C3%ADstia",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "A diocese só publica os horários do Santuário Eucarístico."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São Francisco de Assis",
+  "categoria": "paroquia",
+  "cidade": "São Francisco",
+  "padroeiro": "São Francisco de Assis",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "paroquiasaofranciscodeassis25",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Francisco de Assis",
+    "tipo": "matriz",
+    "cidade": "São Francisco",
+    "localidade": "",
+    "endereco": "Praça José Dias Guimarães, S/N",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedepropria.com/vicariato-sant%C3%ADssima-eucar%C3%ADstia",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedepropria.com/vicariato-sant%C3%ADssima-eucar%C3%ADstia",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora Mãe dos Homens",
+  "categoria": "paroquia",
+  "cidade": "Propriá",
+  "padroeiro": "Nossa Senhora Mãe dos Homens",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "paroquia.n.s.maedoshomens",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Mãe dos Homens",
+    "tipo": "matriz",
+    "cidade": "Propriá",
+    "localidade": "Brasília",
+    "endereco": "Rua Dom José Brandão de Castro, 396",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:30",
+      "semanas": null,
+      "observacao": "Missa das crianças"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Domingo: 17h no Conjunto Maria do Carmo"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedepropria.com/vicariato-sant%C3%ADssima-eucar%C3%ADstia",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedepropria.com/vicariato-sant%C3%ADssima-eucar%C3%ADstia",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Criada em 2019, no bairro Brasília."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia do Senhor das Misericórdias",
+  "categoria": "paroquia",
+  "cidade": "Muribeca",
+  "padroeiro": "Senhor das Misericórdias",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "paroquiasenhordasmisericordias",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Senhor das Misericórdias",
+    "tipo": "matriz",
+    "cidade": "Muribeca",
+    "localidade": "",
+    "endereco": "Rua Jackson Figueredo, S/N",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedepropria.com/vicariato-sant%C3%ADssima-eucar%C3%ADstia",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedepropria.com/vicariato-sant%C3%ADssima-eucar%C3%ADstia",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora do Perpétuo Socorro e São Miguel Arcanjo",
+  "categoria": "paroquia",
+  "cidade": "Propriá",
+  "padroeiro": "Nossa Senhora do Perpétuo Socorro",
+  "contatos": {
+   "telefone": "77989315006",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Perpétuo Socorro",
+    "tipo": "matriz",
+    "cidade": "Propriá",
+    "localidade": "Povoado São Miguel",
+    "endereco": "Povoado São Miguel, S/N",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedepropria.com/vicariato-sant%C3%ADssima-eucar%C3%ADstia",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedepropria.com/vicariato-sant%C3%ADssima-eucar%C3%ADstia",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "No Povoado São Miguel. O telefone com DDD 77 é o que a diocese publica."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora da Piedade",
+  "categoria": "paroquia",
+  "cidade": "Graccho Cardoso",
+  "padroeiro": "Nossa Senhora da Piedade",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "paroquiadapiedade_graccho",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Piedade",
+    "tipo": "matriz",
+    "cidade": "Graccho Cardoso",
+    "localidade": "",
+    "endereco": "Praça da Matriz, S/N",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Uma vez por mês nos povoados"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedepropria.com/vicariato-sant%C3%ADssima-eucar%C3%ADstia",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedepropria.com/vicariato-sant%C3%ADssima-eucar%C3%ADstia",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora da Saúde",
+  "categoria": "paroquia",
+  "cidade": "Japaratuba",
+  "padroeiro": "Nossa Senhora da Saúde",
+  "contatos": {
+   "telefone": "79988220611",
+   "whatsapp": "",
+   "instagram": "pnsenhoradasaude",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Saúde",
+    "tipo": "matriz",
+    "cidade": "Japaratuba",
+    "localidade": "Centro",
+    "endereco": "Praça Padre Caio Tavares, 44",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedepropria.com/vicariato-bom-jesus-dos-navegantes",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedepropria.com/vicariato-bom-jesus-dos-navegantes",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Criada em 1854. Copadroeiro São Benedito."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Ilha das Flores",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "paroquiadeilhadasflores",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Ilha das Flores",
+    "localidade": "",
+    "endereco": "Praça Santo Antônio, S/N",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedepropria.com/vicariato-bom-jesus-dos-navegantes",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedepropria.com/vicariato-bom-jesus-dos-navegantes",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São Félix de Cantalício",
+  "categoria": "paroquia",
+  "cidade": "Pacatuba",
+  "padroeiro": "São Félix de Cantalício",
+  "contatos": {
+   "telefone": "79998919764",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Félix de Cantalício",
+    "tipo": "matriz",
+    "cidade": "Pacatuba",
+    "localidade": "",
+    "endereco": "Praça 31 de Março, S/N",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedepropria.com/vicariato-bom-jesus-dos-navegantes",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedepropria.com/vicariato-bom-jesus-dos-navegantes",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São José",
+  "categoria": "paroquia",
+  "cidade": "Japaratuba",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "_psjose.caatinga",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José",
+    "tipo": "matriz",
+    "cidade": "Japaratuba",
+    "localidade": "Povoado São José da Caatinga",
+    "endereco": "Rua Japaratuba, S/N",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedepropria.com/vicariato-bom-jesus-dos-navegantes",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedepropria.com/vicariato-bom-jesus-dos-navegantes",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Criada em 14/02/2025, no Povoado São José da Caatinga; ainda não aparece no anuário. Copadroeira Nossa Senhora Aparecida."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora da Conceição",
+  "categoria": "paroquia",
+  "cidade": "Brejo Grande",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "79999347463",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "Brejo Grande",
+    "localidade": "",
+    "endereco": "Praça da Matriz, S/N",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedepropria.com/vicariato-bom-jesus-dos-navegantes",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedepropria.com/vicariato-bom-jesus-dos-navegantes",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Neópolis",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "paroquiadeneopolis",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Neópolis",
+    "localidade": "",
+    "endereco": "Rua Hildebrando T. Souza, S/N",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedepropria.com/vicariato-bom-jesus-dos-navegantes",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedepropria.com/vicariato-bom-jesus-dos-navegantes",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Criada em 1679, a mais antiga da diocese. Copadroeira Nossa Senhora do Rosário."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora do Desterro",
+  "categoria": "paroquia",
+  "cidade": "Japoatã",
+  "padroeiro": "Nossa Senhora do Desterro",
+  "contatos": {
+   "telefone": "79998108292",
+   "whatsapp": "",
+   "instagram": "paroquiadejapoata",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Desterro",
+    "tipo": "matriz",
+    "cidade": "Japoatã",
+    "localidade": "",
+    "endereco": "Praça da Matriz, S/N",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedepropria.com/vicariato-bom-jesus-dos-navegantes",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedepropria.com/vicariato-bom-jesus-dos-navegantes",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Senhora Sant'Ana",
+  "categoria": "paroquia",
+  "cidade": "Santana do São Francisco",
+  "padroeiro": "Senhora Sant'Ana",
+  "contatos": {
+   "telefone": "82996663773",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Senhora Sant'Ana",
+    "tipo": "matriz",
+    "cidade": "Santana do São Francisco",
+    "localidade": "",
+    "endereco": "Praça da Matriz, S/N",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedepropria.com/vicariato-bom-jesus-dos-navegantes",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedepropria.com/vicariato-bom-jesus-dos-navegantes",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Copadroeiro Bom Jesus dos Navegantes. O telefone com DDD 82 é o que a diocese publica."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora de Lourdes",
+  "categoria": "paroquia",
+  "cidade": "Pirambu",
+  "padroeiro": "Nossa Senhora de Lourdes",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "paroquiapirambuoficial",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora de Lourdes",
+    "tipo": "matriz",
+    "cidade": "Pirambu",
+    "localidade": "",
+    "endereco": "Avenida Augustinho Trindade, 241",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedepropria.com/vicariato-bom-jesus-dos-navegantes",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedepropria.com/vicariato-bom-jesus-dos-navegantes",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora da Conceição",
+  "categoria": "paroquia",
+  "cidade": "Canindé de São Francisco",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "79999737596",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "Canindé de São Francisco",
+    "localidade": "",
+    "endereco": "Praça Ananias Fernandes, S/N",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedepropria.com/vicariato-imaculada-concei%C3%A7%C3%A3o",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedepropria.com/vicariato-imaculada-concei%C3%A7%C3%A3o",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia do Bom Jesus dos Aflitos",
+  "categoria": "paroquia",
+  "cidade": "Gararu",
+  "padroeiro": "Bom Jesus dos Aflitos",
+  "contatos": {
+   "telefone": "79998285785",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Bom Jesus dos Aflitos",
+    "tipo": "matriz",
+    "cidade": "Gararu",
+    "localidade": "Centro",
+    "endereco": "Praça Rio Branco, S/N",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedepropria.com/vicariato-imaculada-concei%C3%A7%C3%A3o",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedepropria.com/vicariato-imaculada-concei%C3%A7%C3%A3o",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora da Glória",
+  "categoria": "paroquia",
+  "cidade": "Nossa Senhora da Glória",
+  "padroeiro": "Nossa Senhora da Glória",
+  "contatos": {
+   "telefone": "79999200720",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Glória",
+    "tipo": "matriz",
+    "cidade": "Nossa Senhora da Glória",
+    "localidade": "Centro",
+    "endereco": "Praça da Bandeira, 146",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Igreja Nova",
+    "tipo": "capela",
+    "cidade": "Nossa Senhora da Glória",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedepropria.com/vicariato-imaculada-concei%C3%A7%C3%A3o",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedepropria.com/vicariato-imaculada-concei%C3%A7%C3%A3o",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Copadroeira Santa Gianna Beretta Molla. O anuário registra na cidade o Santuário da Divina Misericórdia, que a diocese não lista entre as paróquias."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora da Conceição",
+  "categoria": "paroquia",
+  "cidade": "Poço Redondo",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "79981202149",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "Poço Redondo",
+    "localidade": "",
+    "endereco": "Praça da Matriz, 236",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Igreja de São José",
+    "tipo": "capela",
+    "cidade": "Poço Redondo",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora da Saúde",
+    "tipo": "capela",
+    "cidade": "Poço Redondo",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedepropria.com/vicariato-imaculada-concei%C3%A7%C3%A3o",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedepropria.com/vicariato-imaculada-concei%C3%A7%C3%A3o",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia do Sagrado Coração de Jesus",
+  "categoria": "paroquia",
+  "cidade": "Monte Alegre de Sergipe",
+  "padroeiro": "Sagrado Coração de Jesus",
+  "contatos": {
+   "telefone": "79996082894",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Sagrado Coração de Jesus",
+    "tipo": "matriz",
+    "cidade": "Monte Alegre de Sergipe",
+    "localidade": "Centro",
+    "endereco": "Praça da Matriz, S/N",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedepropria.com/vicariato-imaculada-concei%C3%A7%C3%A3o",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedepropria.com/vicariato-imaculada-concei%C3%A7%C3%A3o",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São José",
+  "categoria": "paroquia",
+  "cidade": "Porto da Folha",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "paroquialagoadorancho",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José",
+    "tipo": "matriz",
+    "cidade": "Porto da Folha",
+    "localidade": "Povoado Lagoa do Rancho",
+    "endereco": "Rua Porto da Folha, S/N",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedepropria.com/vicariato-imaculada-concei%C3%A7%C3%A3o",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedepropria.com/vicariato-imaculada-concei%C3%A7%C3%A3o",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Criada em 26/12/2021, no Povoado Lagoa do Rancho; ainda não aparece no anuário."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Santa Rosa de Lima",
+  "categoria": "paroquia",
+  "cidade": "Poço Redondo",
+  "padroeiro": "Santa Rosa de Lima",
+  "contatos": {
+   "telefone": "79996473660",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Rosa de Lima",
+    "tipo": "matriz",
+    "cidade": "Poço Redondo",
+    "localidade": "Povoado Santa Rosa do Ermírio",
+    "endereco": "Rua Rio Grande do Sul",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedepropria.com/vicariato-imaculada-concei%C3%A7%C3%A3o",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedepropria.com/vicariato-imaculada-concei%C3%A7%C3%A3o",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Criada em 2017, no Povoado Santa Rosa do Ermírio."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora das Dores",
+  "categoria": "paroquia",
+  "cidade": "Nossa Senhora da Glória",
+  "padroeiro": "Nossa Senhora das Dores",
+  "contatos": {
+   "telefone": "79999168780",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora das Dores",
+    "tipo": "matriz",
+    "cidade": "Nossa Senhora da Glória",
+    "localidade": "Povoado Lagoa Bonita",
+    "endereco": "Rodovia Mário Jorge Mota Melo, S/N",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Última terça do mês: 19h30, Missa dos Homens. Domingo: 11h ou 19h, consultar a programação da paróquia"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedepropria.com/vicariato-imaculada-concei%C3%A7%C3%A3o",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedepropria.com/vicariato-imaculada-concei%C3%A7%C3%A3o",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Criada em 11/01/2022, no Povoado Lagoa Bonita; ainda não aparece no anuário. O horário de domingo varia."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora Aparecida e São José Esposo",
+  "categoria": "paroquia",
+  "cidade": "Nossa Senhora da Glória",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "79996369096",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Aparecida e São José Esposo",
+    "tipo": "matriz",
+    "cidade": "Nossa Senhora da Glória",
+    "localidade": "Brasília",
+    "endereco": "Rua Boca da Mata, 738",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Dia 12 e dia 19 de cada mês, missa dos afilhados de Nossa Senhora Aparecida e São José: 19h30"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedepropria.com/vicariato-imaculada-concei%C3%A7%C3%A3o",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedepropria.com/vicariato-imaculada-concei%C3%A7%C3%A3o",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Criada em 2019, no bairro Brasília. Copadroeiro São José Esposo."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora da Conceição",
+  "categoria": "paroquia",
+  "cidade": "Porto da Folha",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "79999601065",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "Porto da Folha",
+    "localidade": "",
+    "endereco": "Praça Padre Manoel de Oliveira, S/N",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Terezinha",
+    "tipo": "capela",
+    "cidade": "Porto da Folha",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedepropria.com/vicariato-imaculada-concei%C3%A7%C3%A3o",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedepropria.com/vicariato-imaculada-concei%C3%A7%C3%A3o",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Criada em 1821."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Santa Luzia",
+  "categoria": "paroquia",
+  "cidade": "Porto da Folha",
+  "padroeiro": "Santa Luzia",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "santaluzialagoadavolta",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Luzia",
+    "tipo": "matriz",
+    "cidade": "Porto da Folha",
+    "localidade": "Povoado Lagoa da Volta",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedepropria.com/vicariato-imaculada-concei%C3%A7%C3%A3o",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedepropria.com/vicariato-imaculada-concei%C3%A7%C3%A3o",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Criada em 2010, no Povoado Lagoa da Volta. O endereço no site da diocese diz Povoado Lagoa do Rancho, provável engano, por isso ficou de fora. Sem secretaria paroquial, diz a página."
+ }
+]
