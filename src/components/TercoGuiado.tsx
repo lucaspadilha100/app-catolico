@@ -10,6 +10,7 @@ import {
   CHAVE_LINGUA,
   CHAVE_MODO_CONTAS,
   contarTercoRezado,
+  diasDoTerco,
   guardarAndamento,
   lerAndamento,
   tercosRezados,
@@ -23,6 +24,8 @@ import { vibrar } from "@/lib/nativo";
 import { contarReza } from "@/conta/uso";
 import { RezandoJuntos, rezaDoTipo } from "@/components/RezandoJuntos";
 import { PedirApoio } from "@/apoio/PedirApoio";
+import { CartaoDeApoio, useMomentoDeApoio } from "@/apoio/MomentoDeApoio";
+import { completouSemana, diasSeguidos } from "@/apoio/momento";
 
 const plural = (n: number) => `${n} ${n === 1 ? "terço rezado" : "terços rezados"}`;
 
@@ -180,6 +183,9 @@ export function TercoGuiado({
   const [lingua, setLingua] = useGuardado<Lingua>(CHAVE_LINGUA, "pt");
   const [modoContas, setModoContas] = useGuardado<boolean>(CHAVE_MODO_CONTAS, false);
   const [intencao] = useGuardado<string>(CHAVE_INTENCAO, "");
+  const apoio = useMomentoDeApoio();
+  const { oferecer: oferecerApoio } = apoio;
+  const [seguidos, setSeguidos] = useState(0);
 
   const passo = passos[Math.min(posicao.passo, passos.length - 1)]!;
   const total = contasDoPasso(passo);
@@ -216,7 +222,10 @@ export function TercoGuiado({
     const reza = rezaDoTipo(tipo);
     if (reza) contarReza(reza);
     setConcluido(contarTercoRezado(tipo));
-  }, [posicao, total, passos.length, modoContas, chave, tipo, setModoContas, setPosicao, controle]);
+    const dias = diasSeguidos(diasDoTerco());
+    setSeguidos(dias);
+    if (completouSemana(dias)) oferecerApoio();
+  }, [posicao, total, passos.length, modoContas, chave, tipo, setModoContas, setPosicao, controle, oferecerApoio]);
 
   const voltar = useCallback(() => {
     if (posicao.conta > 0) setPosicao({ passo: posicao.passo, conta: posicao.conta - 1 });
@@ -260,6 +269,7 @@ export function TercoGuiado({
             onClick={() => {
               if (!controle) setPosicao({ passo: 0, conta: 0 });
               setConcluido(null);
+              apoio.fechar();
             }}
             className="flex min-h-14 items-center justify-center gap-2 rounded-3xl bg-cartao px-5 font-semibold text-tinta"
           >
@@ -273,7 +283,7 @@ export function TercoGuiado({
             Voltar para Rezar
           </Link>
         </div>
-        <PedirApoio />
+        {apoio.visivel ? <CartaoDeApoio titulo={`${seguidos} dias seguidos com o terço`} aoFechar={apoio.fechar} /> : <PedirApoio />}
       </div>
     );
   }

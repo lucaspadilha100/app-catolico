@@ -10,6 +10,7 @@ export const CHAVES_SINCRONIZADAS = [
   "santinho-santos-de-devocao",
   "santinho-leitura",
   "santinho-tercos-rezados",
+  "santinho-dias-do-terco",
   "santinho-cofre",
   "santinho-tercos-seguidos",
   "santinho-igrejas-seguidas",
@@ -63,6 +64,7 @@ export function mesclar(chave: string, local: string, remoto: string, localMaisN
   const novo = localMaisNovo ? local : remoto;
   switch (chave) {
     case "santinho-dias-de-oracao":
+    case "santinho-dias-do-terco":
     case "santinho-santos-de-devocao":
     case "santinho-tercos-seguidos":
     case "santinho-igrejas-seguidas":

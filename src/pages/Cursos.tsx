@@ -8,6 +8,7 @@ import { LINHA, LISTA, TituloPagina } from "@/components/Cartao";
 import { Blocos } from "@/components/Blocos";
 import { BotaoRezei, Cabecalho, Carregando, EscolhaDeDia, Indisponivel, Voltar, useConteudo } from "@/components/Devocao";
 import { NaoEncontrada } from "@/pages/Simples";
+import { CartaoDeApoio, useMomentoDeApoio } from "@/apoio/MomentoDeApoio";
 
 const chaveDoCurso = (id: string) => `curso-${id}`;
 
@@ -56,6 +57,11 @@ function UmCurso({ curso }: { curso: Curso }) {
   const pedido = Number(params.get("licao"));
   const licao = pedido >= 1 && pedido <= curso.licoes ? pedido : primeiraAberta;
   const etapa = conteudo && conteudo !== "erro" ? conteudo.etapas[licao - 1] : null;
+  const apoio = useMomentoDeApoio();
+  const concluir = () => {
+    const marcou = alternarFeito(chave, hoje(), licao);
+    if (marcou && (lerAcompanhamento(chave)?.feitos.length ?? 0) >= curso.licoes) apoio.oferecer();
+  };
   const escolher = (n: number) => {
     setParams(n === primeiraAberta ? {} : { licao: String(n) }, { replace: true });
     window.scrollTo({ top: 0 });
@@ -82,9 +88,10 @@ function UmCurso({ curso }: { curso: Curso }) {
             <h2 className="mt-1 text-2xl font-extrabold leading-snug text-marca tracking-[-0.02em]">{etapa.titulo}</h2>
           </div>
           <Blocos blocos={etapa.blocos} data={hoje()} />
-          <BotaoRezei feito={feitos.includes(licao)} onClick={() => alternarFeito(chave, hoje(), licao)}>
+          <BotaoRezei feito={feitos.includes(licao)} onClick={concluir}>
             {feitos.includes(licao) ? "Lição concluída" : "Concluí esta lição"}
           </BotaoRezei>
+          {apoio.visivel && <CartaoDeApoio titulo="Curso concluído" frase="Que bom aprender a fé com você." aoFechar={apoio.fechar} />}
           {licao < curso.licoes && (
             <button type="button" onClick={() => escolher(licao + 1)} className="flex min-h-12 items-center justify-center gap-1 rounded-xl border border-borda bg-cartao font-semibold text-tinta">
               Próxima lição <ChevronRight className="size-5" aria-hidden />

@@ -5,6 +5,9 @@ describe("mesclar quando os dois lados mudaram", () => {
   it("dias de oração e santos de devoção: a união", () => {
     expect(mesclar("santinho-dias-de-oracao", '["2026-11-01","2026-11-03"]', '["2026-11-02","2026-11-03"]', true)).toBe('["2026-11-01","2026-11-02","2026-11-03"]');
   });
+  it("dias do terço: a união", () => {
+    expect(mesclar("santinho-dias-do-terco", '["2026-11-01"]', '["2026-11-02"]', false)).toBe('["2026-11-01","2026-11-02"]');
+  });
   it("terços rezados: o maior de cada", () => {
     expect(JSON.parse(mesclar("santinho-tercos-rezados", '{"rosario":5,"misericordia":1}', '{"rosario":7}', true))).toEqual({ rosario: 7, misericordia: 1 });
   });

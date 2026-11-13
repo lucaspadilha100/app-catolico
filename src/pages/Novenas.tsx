@@ -5,7 +5,7 @@ import { diaEMes, diferencaEmDias, hoje, somaDias } from "@/liturgia/datas";
 import { NOME_DO_GRUPO_DE_NOVENAS, NOVENAS, type GrupoDeNovenas, type Novena } from "@/devocao/catalogo";
 import { ordinal, proximaNovena } from "@/devocao/calendario";
 import { chaveDaNovena, diaSugeridoDaNovena } from "@/devocao/andamento";
-import { alternarFeito, acompanhamentoVigente, guardarAcompanhamento, useDevocoesGuardadas } from "@/devocao/progresso";
+import { alternarFeito, acompanhamentoVigente, guardarAcompanhamento, lerAcompanhamento, useDevocoesGuardadas } from "@/devocao/progresso";
 import { carregarNovena } from "@/devocao/conteudo";
 import { LINHA, LISTA, TituloPagina } from "@/components/Cartao";
 import { Blocos } from "@/components/Blocos";
@@ -14,6 +14,7 @@ import { NaoEncontrada } from "@/pages/Simples";
 import { caminhoDeDevocao, useImagensDeDevocao } from "@/lib/imagens";
 import { ImagemComCredito } from "@/components/ImagemComCredito";
 import { PedirApoio } from "@/apoio/PedirApoio";
+import { CartaoDeApoio, useMomentoDeApoio } from "@/apoio/MomentoDeApoio";
 
 const GRUPOS: GrupoDeNovenas[] = ["nossa-senhora", "senhor", "santos"];
 
@@ -111,9 +112,12 @@ function Novena({ n }: { n: Novena }) {
 
   const escolher = (x: number) => setParams(x === (sugerido?.dia ?? 1) ? {} : { dia: String(x) }, { replace: true });
 
+  const apoio = useMomentoDeApoio();
+
   const marcar = () => {
     const inicio = sugerido?.inicio ?? somaDias(d, -(dia - 1));
-    alternarFeito(chave, inicio, dia);
+    const marcou = alternarFeito(chave, inicio, dia);
+    if (marcou && (lerAcompanhamento(chave)?.feitos.length ?? 0) >= n.dias) apoio.oferecer();
   };
 
   const etapa = conteudo && conteudo !== "erro" ? conteudo.etapas[dia - 1] : null;
@@ -146,6 +150,7 @@ function Novena({ n }: { n: Novena }) {
           <BotaoRezei feito={feitos.includes(dia)} onClick={marcar}>
             {feitos.includes(dia) ? `${ordinal(dia)} dia rezado` : `Rezei o ${ordinal(dia)} dia`}
           </BotaoRezei>
+          {apoio.visivel && <CartaoDeApoio titulo="Novena concluída" aoFechar={apoio.fechar} />}
           {a && (
             <button
               type="button"
@@ -155,7 +160,7 @@ function Novena({ n }: { n: Novena }) {
               {concluida ? "Rezar de novo" : "Recomeçar"}
             </button>
           )}
-          <PedirApoio />
+          {!apoio.visivel && <PedirApoio />}
         </>
       )}
     </div>

@@ -1,5 +1,6 @@
 import { useCallback, useState } from "react";
 import { registrarOracao } from "@/devocao/progresso";
+import { hoje, paraIso } from "@/liturgia/datas";
 
 function ler<T>(chave: string, padrao: T): T {
   try {
@@ -36,6 +37,7 @@ export const CHAVE_MODO_CONTAS = "santinho-terco-modo-contas";
 
 const CHAVE_ANDAMENTO = "santinho-terco-andamento";
 const CHAVE_REZADOS = "santinho-tercos-rezados";
+export const CHAVE_DIAS_DO_TERCO = "santinho-dias-do-terco";
 const VALIDADE = 2 * 86_400_000;
 
 export interface Andamento {
@@ -71,6 +73,14 @@ export function contarTercoRezado(tipo: string): number {
   const todos = ler<Record<string, number>>(CHAVE_REZADOS, {});
   todos[tipo] = (todos[tipo] ?? 0) + 1;
   gravar(CHAVE_REZADOS, todos);
+  const dia = paraIso(hoje());
+  const dias = diasDoTerco();
+  if (!dias.includes(dia)) gravar(CHAVE_DIAS_DO_TERCO, [...dias, dia].sort().slice(-60));
   registrarOracao();
   return todos[tipo]!;
+}
+
+export function diasDoTerco(): string[] {
+  const v = ler<unknown>(CHAVE_DIAS_DO_TERCO, []);
+  return Array.isArray(v) ? v.filter((x): x is string => typeof x === "string") : [];
 }
