@@ -13,11 +13,67 @@ uuid5 determinísticos: rodar de novo não duplica (on conflict do nothing).
 import json
 import re
 import sys
+import time
+import urllib.parse
+import urllib.request
 import unicodedata
 import uuid
 from pathlib import Path
 
 ESPACO = uuid.UUID("6f6b0d4e-2f6a-4c3e-9d1a-5a1b7c2e9f10")
+CACHE_GEO = Path("fontes/paroquias/geocache.json")
+UF_NOME = {
+    "AC": "Acre", "AL": "Alagoas", "AP": "Amapá", "AM": "Amazonas", "BA": "Bahia", "CE": "Ceará",
+    "DF": "Distrito Federal", "ES": "Espírito Santo", "GO": "Goiás", "MA": "Maranhão", "MT": "Mato Grosso",
+    "MS": "Mato Grosso do Sul", "MG": "Minas Gerais", "PA": "Pará", "PB": "Paraíba", "PR": "Paraná",
+    "PE": "Pernambuco", "PI": "Piauí", "RJ": "Rio de Janeiro", "RN": "Rio Grande do Norte",
+    "RS": "Rio Grande do Sul", "RO": "Rondônia", "RR": "Roraima", "SC": "Santa Catarina",
+    "SP": "São Paulo", "SE": "Sergipe", "TO": "Tocantins", "ZZ": "ZZ",
+}
+
+
+def consulta_nominatim(params):
+    url = "https://nominatim.openstreetmap.org/search?" + urllib.parse.urlencode({"format": "json", "limit": 1, "countrycodes": "br", **params})
+    req = urllib.request.Request(url, headers={"User-Agent": "MinhaIgrejinha-geocode/0.1"})
+    time.sleep(1.1)
+    with urllib.request.urlopen(req, timeout=30) as r:
+        d = json.load(r)
+    return (round(float(d[0]["lat"]), 6), round(float(d[0]["lon"]), 6)) if d else None
+
+
+def geocodificar(paroquias, avisos):
+    cache = json.loads(CACHE_GEO.read_text()) if CACHE_GEO.exists() else {}
+    pendentes = 0
+    for p in paroquias:
+        if not p["cidade"]:
+            continue
+        chave_geo = "|".join([p["nome"], p["endereco"], p["bairro"], p["cidade"], p["uf"]])
+        if chave_geo not in cache:
+            achado = None
+            estado = UF_NOME.get(p["uf"], p["uf"])
+            try:
+                if p["endereco"]:
+                    ponto = consulta_nominatim({"street": p["endereco"], "city": p["cidade"], "state": estado, "country": "Brasil"})
+                    if ponto:
+                        achado = {"lat": ponto[0], "lng": ponto[1], "precisao": "endereco"}
+                if not achado:
+                    ponto = consulta_nominatim({"q": f"{p['nome']}, {p['cidade']}, {estado}, Brasil"})
+                    if ponto:
+                        achado = {"lat": ponto[0], "lng": ponto[1], "precisao": "nome"}
+                if not achado and p["matriz_id"] is None:
+                    ponto = consulta_nominatim({"city": p["cidade"], "state": estado, "country": "Brasil"})
+                    if ponto:
+                        achado = {"lat": ponto[0], "lng": ponto[1], "precisao": "cidade"}
+            except Exception as e:
+                avisos.append(f"geocodificação falhou em {p['nome']} ({p['cidade']}): {e}")
+            cache[chave_geo] = achado or {"lat": None, "lng": None, "precisao": ""}
+            pendentes += 1
+            if pendentes % 25 == 0:
+                CACHE_GEO.write_text(json.dumps(cache, ensure_ascii=False))
+                print(f"  geocodificadas {pendentes}...", flush=True)
+        geo = cache[chave_geo]
+        p["lat"], p["lng"], p["precisao"] = geo["lat"], geo["lng"], geo["precisao"]
+    CACHE_GEO.write_text(json.dumps(cache, ensure_ascii=False))
 
 TIPO_DA_CATEGORIA = {
     "paroquia": "paroquia",
@@ -97,6 +153,7 @@ def main():
                     "diocese": diocese,
                     "fonte": fontes[0] if fontes else "",
                     "fonte_oficial": confianca == "alta",
+                    "lat": None, "lng": None, "precisao": "",
                 })
                 for h in ig.get("horarios") or []:
                     if h.get("tipo") not in ("missa", "confissao", "adoracao") or not hora_ok(h.get("hora")):
@@ -122,12 +179,20 @@ def main():
             if texto or fontes or confianca:
                 notas.append({"paroquia_id": matriz_id, "texto": texto, "fontes": fontes, "confianca": confianca if confianca in ("alta", "media") else ""})
 
+    geocodificar(paroquias, avisos)
+    for nq in notas:
+        m = next(x for x in paroquias if x["id"] == nq["paroquia_id"])
+        if m["precisao"] == "cidade":
+            nq["texto"] = (nq["texto"] + (" " if nq["texto"] else "") + "Ponto no mapa aproximado: centro da cidade.")[:4000]
+
     linhas = [f"-- {uf}: gerado por scripts/paroquias/carregar_estado.py a partir de {pasta.name}", ""]
-    linhas.append("insert into public.paroquias (id, nome, tipo, matriz_id, endereco, bairro, cidade, uf, padroeiro, telefone, whatsapp, instagram, site, email, diocese, fonte, fonte_oficial) values")
+    linhas.append("insert into public.paroquias (id, nome, tipo, matriz_id, endereco, bairro, cidade, uf, lat, lng, padroeiro, telefone, whatsapp, instagram, site, email, diocese, fonte, fonte_oficial) values")
     vs = []
     for p in paroquias:
         matriz = f"'{p['matriz_id']}'" if p["matriz_id"] else "null"
-        vs.append(f"  ('{p['id']}', {s(p['nome'])}, '{p['tipo']}', {matriz}, {s(p['endereco'])}, {s(p['bairro'])}, {s(p['cidade'])}, '{p['uf']}', {s(p['padroeiro'])}, {s(p['telefone'])}, {s(p['whatsapp'])}, {s(p['instagram'])}, {s(p['site'])}, {s(p['email'])}, {s(p['diocese'])}, {s(p['fonte'])}, {str(p['fonte_oficial']).lower()})")
+        lat = "null" if p["lat"] is None else str(p["lat"])
+        lng = "null" if p["lng"] is None else str(p["lng"])
+        vs.append(f"  ('{p['id']}', {s(p['nome'])}, '{p['tipo']}', {matriz}, {s(p['endereco'])}, {s(p['bairro'])}, {s(p['cidade'])}, '{p['uf']}', {lat}, {lng}, {s(p['padroeiro'])}, {s(p['telefone'])}, {s(p['whatsapp'])}, {s(p['instagram'])}, {s(p['site'])}, {s(p['email'])}, {s(p['diocese'])}, {s(p['fonte'])}, {str(p['fonte_oficial']).lower()})")
     linhas.append(",\n".join(vs))
     linhas.append("on conflict (id) do nothing;")
     linhas.append("")
@@ -152,7 +217,9 @@ def main():
     destino = Path("supabase/migrations") / f"{ts}_dados_{uf.lower()}_paroquias.sql"
     destino.write_text("\n".join(linhas) + "\n")
     matrizes = sum(1 for p in paroquias if not p["matriz_id"])
-    print(f"{destino}: {matrizes} matrizes, {len(paroquias) - matrizes} capelas, {len(horarios)} horários, {len(notas)} notas")
+    com_ponto = sum(1 for p in paroquias if p["lat"] is not None)
+    exatas = sum(1 for p in paroquias if p["precisao"] in ("endereco", "nome"))
+    print(f"{destino}: {matrizes} matrizes, {len(paroquias) - matrizes} capelas, {len(horarios)} horários, {len(notas)} notas, {com_ponto} com ponto ({exatas} exatos)")
     for a in avisos:
         print("aviso:", a)
 
