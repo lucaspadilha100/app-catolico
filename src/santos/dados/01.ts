@@ -54,8 +54,8 @@ const mes: MesDeSantos = {
       nomes: ["Lindalva"],
       resumo: "Filha da Caridade nascida no Rio Grande do Norte, morta em Salvador por defender a sua castidade.",
       historia: [
-        "Lindalva Justo de Oliveira nasceu em 20 de outubro de 1953, no sítio Malhada da Areia, no município de Açu, no Rio Grande do Norte, numa família numerosa de lavradores. Foi batizada em 7 de janeiro de 1954, e é nesse dia que a Igreja celebra a sua memória. Em 1971 mudou-se para Natal, para morar com um irmão, e trabalhou para se manter.",
-        "Sentindo-se chamada a servir os pobres, foi admitida na Companhia das Filhas da Caridade de São Vicente de Paulo em 16 de julho de 1989. Em 1991 foi enviada a Salvador, para o Abrigo Dom Pedro II, que acolhe idosos pobres. Cuidava deles com alegria e paciência.",
+        "Lindalva Justo de Oliveira nasceu em 20 de outubro de 1953, no sítio Malhada da Areia, no Rio Grande do Norte, numa família numerosa e pobre de lavradores, que depois se mudou para Açu. Foi batizada em 7 de janeiro de 1954, e é nesse dia que a Igreja celebra a sua memória. Mais tarde foi morar em Natal com um irmão e trabalhou no comércio para se manter e ajudar a mãe.",
+        "Sentindo-se chamada a servir os pobres, entrou nas Filhas da Caridade de São Vicente de Paulo em 11 de fevereiro de 1988. Em 1991 foi enviada a Salvador, para o Abrigo Dom Pedro II, que acolhe idosos pobres. Cuidava deles com alegria e paciência.",
         "Um homem abrigado na casa passou a persegui-la com propostas que ela recusou com firmeza. Na Sexta-feira Santa, 9 de abril de 1993, enquanto servia o café da manhã aos idosos, ele a atacou com uma faca e a matou. Ela tinha 39 anos.",
         "A Igreja reconheceu que Lindalva morreu como mártir, fiel a Cristo e à sua consagração. Foi beatificada em Salvador, em 2 de dezembro de 2007. Sua vida lembra que servir os mais fracos e guardar a pureza são formas de amar a Deus por inteiro.",
       ],
@@ -98,7 +98,7 @@ const mes: MesDeSantos = {
       nomes: ["Fabiano", "Fabiana"],
       resumo: "Papa que organizou a Igreja de Roma e morreu mártir na perseguição de Décio.",
       historia: [
-        "Fabiano foi bispo de Roma de 236 a 250. Pouco se sabe da sua vida antes disso. O historiador Eusébio, do século IV, conta que ele era leigo quando os cristãos se reuniram para escolher o novo papa, e que uma pomba pousou sobre a sua cabeça, sinal que todos entenderam como escolha de Deus.",
+        "Fabiano foi bispo de Roma de 236 a 250. Pouco se sabe da sua vida antes disso. O historiador Eusébio, do século IV, conta que ele tinha chegado do campo a Roma e que ninguém pensava nele quando os cristãos se reuniram para escolher o novo papa, até que uma pomba pousou sobre a sua cabeça, sinal que todos entenderam como escolha de Deus.",
         "No seu tempo, a Igreja viveu alguns anos de paz. Fabiano dividiu Roma em sete regiões, cada uma confiada a um diácono, para cuidar dos pobres e organizar a vida das comunidades. Também cuidou dos cemitérios cristãos, onde eram sepultados os fiéis e os mártires.",
         "Em 250, o imperador Décio ordenou que todos oferecessem sacrifício aos deuses do Império. Fabiano foi um dos primeiros a ser preso, e morreu mártir em 20 de janeiro daquele ano. São Cipriano, bispo de Cartago, elogiou a sua firmeza numa carta. Foi sepultado nas catacumbas de São Calisto, onde a pedra do seu túmulo, com o seu nome, foi encontrada.",
         "Fabiano lembra que o pastor guia o rebanho também pelo exemplo de fidelidade até o fim.",
@@ -177,7 +177,7 @@ const mes: MesDeSantos = {
         "Saulo nasceu em Tarso, na Cilícia, de família judia, e tinha a cidadania romana. Formou-se em Jerusalém na escola dos fariseus e era muito zeloso da Lei. Por isso perseguia os seguidores de Jesus: estava presente quando Estêvão foi apedrejado e pediu cartas para prender os cristãos de Damasco.",
         "Os Atos dos Apóstolos contam três vezes o que aconteceu no caminho. Uma luz vinda do céu o envolveu, ele caiu por terra e ouviu uma voz: “Saulo, Saulo, por que me persegues?”. Era o próprio Jesus, que se identificava com os seus discípulos. Cego por três dias, Saulo foi levado a Damasco, onde um cristão chamado Ananias lhe impôs as mãos. Ele voltou a ver e foi batizado.",
         "Daquele dia em diante, o perseguidor tornou-se apóstolo. Com o nome de Paulo, levou o Evangelho a muitas cidades do Império Romano e escreveu cartas que fazem parte do Novo Testamento. Ele mesmo dizia que era o menor dos apóstolos e que tudo o que era devia à graça de Deus.",
-        "A festa encerra a Semana de Oração pela Unidade dos Cristãos e lembra que ninguém está longe demais para ser alcançado por Cristo.",
+        "No hemisfério norte, a festa encerra a Semana de Oração pela Unidade dos Cristãos, que no Brasil se celebra entre a Ascensão e Pentecostes. A conversão de Paulo lembra que ninguém está longe demais para ser alcançado por Cristo.",
       ],
       imagem: { artic: 223263, titulo: "The Conversion of Saint Paul", artista: "Schelte Adamsz. Bolswert", data: "1621-1633" },
     },

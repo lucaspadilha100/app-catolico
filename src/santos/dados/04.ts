@@ -96,10 +96,10 @@ const mes: MesDeSantos = {
       nomes: ["Expedito", "Expedita"],
       resumo: "Mártir dos primeiros séculos, muito venerado pelo povo brasileiro.",
       historia: [
-        "Sabe-se muito pouco de Santo Expedito. Seu nome aparece em antigas listas de mártires da Igreja, ao lado de outros companheiros mortos em Melitene, na Armênia, região que hoje fica na Turquia. A tradição diz que eram soldados e que deram a vida por Cristo por volta do ano 303, durante a perseguição do imperador Diocleciano. A data de 19 de abril vem dessas listas antigas.",
+        "Sabe-se muito pouco de Santo Expedito. Seu nome aparece em antigas listas de mártires da Igreja, a mais antiga delas do século V, ao lado de outros companheiros mortos em Melitene, na Armênia, região que hoje fica na Turquia. Essas listas trazem só os nomes: não se sabe a época nem as circunstâncias do martírio. A data de 19 de abril vem delas.",
         "Ele não está no Calendário Romano geral, o que significa que a sua memória não é celebrada na liturgia de toda a Igreja. Isso não impede a devoção, que cresceu muito a partir do século XVIII, primeiro na Europa e depois no Brasil.",
         "As imagens o mostram como um soldado romano que segura uma cruz e pisa num corvo. Segundo uma história contada muito depois, o corvo dizia \"cras\", que em latim quer dizer amanhã, e o santo respondia \"hodie\", hoje. É uma lenda, mas transmite uma lição verdadeira: não adiar a conversão.",
-        "O povo o invoca nas causas urgentes. A Igreja recorda que a intercessão dos santos não é garantia nem troca, mas oração confiante, que aceita a vontade de Deus.",
+        "O povo o invoca nas causas urgentes. Como ensina a Igreja, os santos não cessam de interceder por nós junto do Pai, e podemos pedir-lhes que intercedam por nós.",
       ],
     },
     {

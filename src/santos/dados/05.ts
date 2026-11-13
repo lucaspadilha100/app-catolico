@@ -13,7 +13,7 @@ const mes: MesDeSantos = {
       historia: [
         "Os Evangelhos contam que José, esposo de Maria, era carpinteiro em Nazaré. Quando Jesus começou a pregar, o povo da sua terra perguntava: não é este o filho do carpinteiro? O próprio Jesus é chamado de carpinteiro no Evangelho de Marcos. Durante muitos anos o Filho de Deus viveu em família e trabalhou com as próprias mãos, aprendendo o ofício com José.",
         "Em 1955 o papa Pio XII instituiu a memória de São José Operário no dia 1º de maio, data em que muitos países celebram o Dia do Trabalho. A intenção era mostrar o sentido cristão do trabalho e colocar os trabalhadores sob a proteção daquele que sustentou a Sagrada Família com o seu esforço diário.",
-        "A Igreja ensina que o trabalho não é castigo nem simples mercadoria. Por meio dele a pessoa sustenta a família, serve aos outros e colabora com a obra de Deus. Por isso o trabalhador tem direito a salário justo, a descanso e a condições dignas. São João Paulo II desenvolveu esse ensinamento na encíclica Laborem exercens, de 1981.",
+        "A Igreja ensina que o trabalho não é um castigo, mas colaboração com Deus no aperfeiçoamento da criação, e que o trabalho é para o homem, e não o homem para o trabalho. Por meio dele a pessoa sustenta a família e serve aos outros, e por isso o trabalhador tem direito a um salário justo e ao descanso. São João Paulo II desenvolveu esse ensinamento na encíclica Laborem exercens, de 1981.",
         "José, homem justo e silencioso, ensina a fazer bem o trabalho de cada dia e a oferecê-lo a Deus.",
       ],
       padroeiro: ["dos trabalhadores", "dos carpinteiros"],
@@ -262,7 +262,7 @@ const mes: MesDeSantos = {
       historia: [
         "Giovanni Battista Montini nasceu em 26 de setembro de 1897 em Concesio, perto de Bréscia, na Itália. Foi ordenado padre em 29 de maio de 1920, por isso a sua memória é nessa data. Trabalhou por muitos anos na Secretaria de Estado do Vaticano e acompanhou os universitários católicos. Em 1954 tornou-se arcebispo de Milão.",
         "Foi eleito papa em 21 de junho de 1963, durante o Concílio Vaticano II, e o levou até o fim, em 1965. Depois guiou a aplicação das suas decisões, entre elas a reforma da liturgia. Foi o primeiro papa a viajar de avião para outros continentes. Em 1964, em Jerusalém, encontrou-se com o patriarca Atenágoras de Constantinopla, e no ano seguinte os dois retiraram as excomunhões de 1054.",
-        "Escreveu documentos importantes: a Populorum progressio, sobre o desenvolvimento dos povos; a Humanae vitae, sobre o amor conjugal e a transmissão da vida, que lhe trouxe muitas críticas; e a Evangelii nuntiandi, sobre a evangelização. Proclamou também o Credo do Povo de Deus.",
+        "Escreveu documentos importantes: a Populorum progressio, sobre o desenvolvimento dos povos; a Humanae vitae, sobre o amor conjugal e a transmissão da vida; e a Evangelii nuntiandi, sobre a evangelização. Proclamou também o Credo do Povo de Deus.",
         "Morreu em Castel Gandolfo em 6 de agosto de 1978. Foi canonizado pelo papa Francisco em 14 de outubro de 2018. Paulo VI ensina a amar a Igreja e a servi-la com fidelidade.",
       ],
     },

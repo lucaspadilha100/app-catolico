@@ -204,7 +204,7 @@ const mes: MesDeSantos = {
       resumo: "O Padre Pio, frade capuchinho que passou a vida no confessionário e no altar.",
       historia: [
         "Francisco Forgione nasceu em Pietrelcina, no sul da Itália, em 1887, numa família de camponeses. Entrou para os capuchinhos aos 15 anos, com o nome de Frei Pio, e foi ordenado padre em 1910. Por causa da saúde frágil, viveu alguns anos com a família.",
-        "Em 1916 foi para o convento de San Giovanni Rotondo, onde ficou até a morte. Em 1918 apareceram em seu corpo as chagas de Cristo, que trouxe por cinquenta anos. Foi examinado por médicos e, durante um tempo, a Santa Sé limitou o seu ministério público; ele obedeceu com humildade. Gente do mundo inteiro ia ao convento para assistir à sua missa e confessar-se com ele, e ele passava muitas horas por dia no confessionário.",
+        "Em 1916 foi para o convento de San Giovanni Rotondo, onde ficou até a morte. Em 1918 apareceram em suas mãos, nos pés e no lado feridas semelhantes às chagas de Cristo, que trouxe por cinquenta anos. Foi examinado por médicos e, durante um tempo, a Santa Sé limitou o seu ministério público; ele obedeceu com humildade. Gente do mundo inteiro ia ao convento para assistir à sua missa e confessar-se com ele, e ele passava muitas horas por dia no confessionário.",
         "Fundou grupos de oração e um grande hospital, a Casa Alívio do Sofrimento, inaugurado em 1956. Morreu em 23 de setembro de 1968. São João Paulo II o canonizou em 2002. Costumava dizer que era preciso rezar, esperar e não se preocupar.",
       ],
     },

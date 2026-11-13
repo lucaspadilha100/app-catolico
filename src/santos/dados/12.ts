@@ -118,7 +118,7 @@ const mes: MesDeSantos = {
       resumo: "Memória do santuário italiano que guarda a Santa Casa, venerada como a casa de Nazaré.",
       historia: [
         "Em Loreto, cidade da região das Marcas, no centro da Itália, há um santuário que guarda uma pequena construção de pedra chamada Santa Casa. A tradição a identifica como a casa de Nazaré onde Maria recebeu o anúncio do anjo e onde a Sagrada Família viveu.",
-        "A tradição popular conta que, no fim do século XIII, a casa foi levada pelos anjos da Terra Santa até a Itália. Estudos históricos apontam outra explicação: as pedras teriam sido trazidas por mar, nessa mesma época, depois que os cruzados perderam a Terra Santa. Seja como for, desde o fim da Idade Média Loreto é um dos santuários marianos mais visitados da Europa.",
+        "A tradição popular conta que, no fim do século XIII, a casa foi levada pelos anjos da Terra Santa até a Itália. Desde o fim da Idade Média Loreto é um dos santuários marianos mais visitados da Europa.",
         "No santuário passou a ser cantada a ladainha de Nossa Senhora que conhecemos, chamada por isso de Ladainha Lauretana. Em 1920, o papa Bento XV declarou Nossa Senhora de Loreto padroeira dos aviadores.",
         "Em 2019, o papa Francisco inscreveu esta memória no calendário de toda a Igreja. Ela recorda o mistério da Encarnação, quando o Filho de Deus se fez homem no seio de Maria, e convida a fazer da própria casa um lugar onde Deus é acolhido.",
       ],
@@ -212,7 +212,6 @@ const mes: MesDeSantos = {
         "Morreu em Cracóvia em 24 de dezembro de 1473, já idoso, e foi sepultado na igreja de Santa Ana, ligada à universidade. Foi canonizado pelo papa Clemente XIII em 1767.",
         "É lembrado como exemplo de que o estudo e o ensino podem ser vividos como serviço a Deus e ao próximo, unidos à caridade concreta.",
       ],
-      padroeiro: ["da Polônia"],
     },
     {
       id: "santo-estevao",

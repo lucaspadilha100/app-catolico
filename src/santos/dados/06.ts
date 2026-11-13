@@ -217,7 +217,7 @@ const mes: MesDeSantos = {
       resumo: "Festa do nascimento do Precursor, que preparou o caminho do Senhor.",
       historia: [
         "O Evangelho de São Lucas conta que Zacarias, sacerdote, e sua esposa Isabel, parente de Maria, eram idosos e não tinham filhos. Um anjo anunciou a Zacarias que teriam um filho, e ele, por duvidar, ficou mudo até o nascimento. Quando o menino nasceu, Zacarias escreveu que seu nome era João, voltou a falar e louvou a Deus com o cântico do Benedictus.",
-        "A Igreja celebra o nascimento de pouquíssimos santos: o de Jesus, o de Nossa Senhora e o de João Batista. Isso mostra o lugar único dele na história da salvação. João é o último dos profetas e o precursor, aquele que aponta Jesus como o Cordeiro de Deus. A festa cai seis meses antes do Natal, seguindo o Evangelho, que diz que Isabel estava no sexto mês quando o anjo foi a Maria.",
+        "A Igreja celebra o nascimento de apenas três: Jesus, Nossa Senhora e João Batista. Isso mostra o lugar único dele na história da salvação. João é o último dos profetas e o precursor, aquele que aponta Jesus como o Cordeiro de Deus. A festa cai seis meses antes do Natal, seguindo o Evangelho, que diz que Isabel estava no sexto mês quando o anjo foi a Maria.",
         "No Brasil a data é uma das grandes festas juninas, com fogueiras, quadrilhas e comidas típicas. A tradição popular conta que Isabel acendeu uma fogueira para avisar Maria do nascimento.",
         "João ensina a preparar o caminho de Cristo e a apontar para Ele, e não para si.",
       ],

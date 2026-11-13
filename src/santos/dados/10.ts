@@ -41,8 +41,8 @@ const mes: MesDeSantos = {
       resumo: "Os primeiros mártires do Brasil, mortos no Rio Grande do Norte em 1645 por causa da fé católica.",
       historia: [
         "Em 1645, boa parte do Nordeste estava sob o domínio da Companhia das Índias Ocidentais, dos Países Baixos. Era tempo de guerra entre holandeses e portugueses, e os católicos do Rio Grande do Norte viviam sob forte pressão.",
-        "No domingo 16 de julho de 1645, no engenho de Cunhaú, onde hoje fica Canguaretama, o padre André de Soveral, nascido no Brasil, celebrava a Missa para os fiéis do lugar. Soldados a serviço dos holandeses e indígenas seus aliados cercaram a capela e mataram o padre e dezenas de pessoas que estavam reunidas.",
-        "Em 3 de outubro do mesmo ano, em Uruaçu, no atual município de São Gonçalo do Amarante, foram mortos o padre Ambrósio Francisco Ferro, vigário de Natal, e um grupo grande de católicos, entre eles mulheres e crianças. Os relatos da época contam que o lavrador Mateus Moreira morreu dizendo: \"Louvado seja o Santíssimo Sacramento\".",
+        "No domingo 16 de julho de 1645, no engenho de Cunhaú, onde hoje fica Canguaretama, o padre André de Soveral celebrava a Missa para os fiéis do lugar. Soldados a serviço dos holandeses e indígenas seus aliados cercaram a capela e mataram o padre e dezenas de pessoas que estavam reunidas.",
+        "Em 3 de outubro do mesmo ano, em Uruaçu, no atual município de São Gonçalo do Amarante, foram mortos o padre Ambrósio Francisco Ferro, vigário de Natal, e um grupo grande de católicos, entre eles mulheres e crianças. Os relatos da época contam que o leigo Mateus Moreira morreu dizendo: \"Louvado seja o Santíssimo Sacramento\".",
         "Depois de longo estudo, a Igreja reconheceu que foram mortos por causa da fé. São João Paulo II beatificou trinta deles, cujos nomes se conhecem, em 5 de março de 2000, e o Papa Francisco os canonizou em 15 de outubro de 2017. A memória deles não é acusação contra outro povo ou outra igreja cristã. A Igreja honra a fidelidade dos mártires e reza pela paz entre os cristãos.",
       ],
     },
@@ -70,7 +70,7 @@ const mes: MesDeSantos = {
       nomes: ["Benedito", "Benedita"],
       resumo: "Frade franciscano da Sicília, filho de africanos escravizados, cozinheiro humilde e conselheiro de muitos.",
       historia: [
-        "Benedito nasceu por volta de 1524 em San Fratello, na Sicília, filho de pais africanos trazidos como escravos. Trabalhou desde cedo no campo. Ainda jovem, juntou-se a um grupo de eremitas que viviam na oração e na penitência.",
+        "Benedito nasceu por volta de 1526 em San Fratello, na Sicília, filho de pais africanos trazidos como escravos. Trabalhou desde cedo no campo. Ainda jovem, juntou-se a um grupo de eremitas que viviam na oração e na penitência.",
         "Quando esse grupo foi dissolvido, entrou para os Frades Menores no convento de Santa Maria de Jesus, em Palermo. Não sabia ler, e foi posto na cozinha, onde serviu por muitos anos com paciência e alegria. Os irmãos reconheceram nele tanta sabedoria que o elegeram superior do convento, mesmo sendo irmão leigo, e depois mestre dos noviços. Gente de toda condição vinha pedir o seu conselho.",
         "Terminado o serviço de superior, pediu para voltar à cozinha. Morreu em Palermo, em 4 de abril de 1589. Foi canonizado por Pio VII em 1807.",
         "No Brasil, a devoção a São Benedito chegou cedo e se espalhou sobretudo entre os negros escravizados e seus descendentes, que fundaram irmandades em seu nome. A sua festa é celebrada aqui em 5 de outubro. Benedito ensina que a santidade não depende de cor, de estudo ou de posição, mas do amor a Deus no serviço simples.",
@@ -161,9 +161,9 @@ const mes: MesDeSantos = {
         "John Henry Newman nasceu em Londres em 21 de fevereiro de 1801. Estudou em Oxford, onde foi professor e ordenado ministro da Igreja da Inglaterra. Como pregador na igreja da universidade, tornou-se conhecido em todo o país e foi um dos líderes do chamado Movimento de Oxford, que queria reavivar a tradição antiga da fé.",
         "Estudando os Padres da Igreja, convenceu-se aos poucos de que a Igreja Católica era a Igreja fundada pelos Apóstolos. Em 9 de outubro de 1845 foi recebido na Igreja Católica pelo padre Domingos Barberi, hoje beato. Foi ordenado padre em Roma e fundou o Oratório de São Filipe Néri em Birmingham, na Inglaterra.",
         "Escreveu muito sobre a fé, a consciência e a educação. O Papa Leão XIII o fez cardeal em 1879, e ele escolheu como lema uma frase latina que diz que o coração fala ao coração. Morreu em Birmingham em 11 de agosto de 1890.",
-        "Bento XVI o beatificou em 2010, e o Papa Francisco o canonizou em 2019. Em 2025, o Papa Leão XIV o proclamou doutor da Igreja e copadroeiro da educação católica. Sua festa é no dia em que entrou na Igreja Católica.",
+        "Bento XVI o beatificou em 2010, e o Papa Francisco o canonizou em 2019. Em 1º de novembro de 2025, o Papa Leão XIV o proclamou doutor da Igreja e o nomeou copadroeiro, com Santo Tomás de Aquino, de todos os que trabalham na educação. Sua festa é no dia em que entrou na Igreja Católica.",
       ],
-      padroeiro: ["da educação católica"],
+      padroeiro: ["dos que trabalham na educação"],
     },
     {
       id: "sao-joao-xxiii",
@@ -187,9 +187,9 @@ const mes: MesDeSantos = {
       nomes: ["Aparecida", "Maria Aparecida", "Conceição"],
       resumo: "A pequena imagem da Imaculada Conceição achada por pescadores no rio Paraíba do Sul em 1717.",
       historia: [
-        "Na segunda quinzena de outubro de 1717, três pescadores, Domingos Garcia, João Alves e Filipe Pedroso, foram ao rio Paraíba do Sul, perto de Guaratinguetá, em São Paulo, buscar peixe para a passagem do governador da capitania, o conde de Assumar. Segundo o relato antigo, depois de muito tempo sem pescar nada, a rede trouxe primeiro o corpo e depois a cabeça de uma pequena imagem de Nossa Senhora, e em seguida a pesca foi tão farta que encheu as canoas.",
-        "A imagem é de barro cozido, com cerca de 36 centímetros, e representa a Imaculada Conceição. Escurecida pelo tempo passado na água, ficou na casa de um dos pescadores, onde os vizinhos se reuniam para rezar o terço. A devoção cresceu, e em 1745 se ergueu a primeira capela.",
-        "Em 1904 a imagem foi coroada por mandato do Papa São Pio X. Em 16 de julho de 1930, Pio XI declarou Nossa Senhora da Conceição Aparecida padroeira principal do Brasil. O grande Santuário Nacional foi consagrado por São João Paulo II em 1980, e depois dele também Bento XVI e Francisco visitaram Aparecida.",
+        "Em outubro de 1717, três pescadores, Domingos Garcia, João Alves e Filipe Pedroso, foram ao rio Paraíba do Sul, perto de Guaratinguetá, em São Paulo, buscar peixe para a passagem do governador da capitania, o conde de Assumar. Segundo o relato antigo, depois de muito tempo sem pescar nada, a rede trouxe primeiro o corpo e depois a cabeça de uma pequena imagem de Nossa Senhora, e em seguida a pesca foi tão farta que encheu as canoas.",
+        "A imagem é de barro cozido, com cerca de 36 centímetros, e representa a Imaculada Conceição. Escurecida pelo tempo passado na água, ficou na casa de um dos pescadores, onde os vizinhos se reuniam para rezar o terço. A devoção cresceu, e no século XVIII se ergueu a primeira capela.",
+        "Em 1904, cinquenta anos depois da proclamação do dogma da Imaculada Conceição, a imagem foi solenemente coroada. Em 16 de julho de 1930, Pio XI declarou Nossa Senhora da Conceição Aparecida padroeira principal do Brasil. O grande Santuário Nacional foi consagrado por São João Paulo II em 1980, e depois dele também Bento XVI e Francisco visitaram Aparecida.",
         "Desde 1980, o dia 12 de outubro é feriado nacional. Milhões de romeiros vão todo ano a Aparecida. A festa lembra o cuidado de Maria com o povo simples e convida a confiar a ela a família e o país.",
       ],
       padroeiro: ["do Brasil"],
@@ -321,7 +321,7 @@ const mes: MesDeSantos = {
         "Pedro nasceu em 1499 em Alcântara, na Espanha, e estudou em Salamanca. Ainda jovem entrou para os franciscanos e logo se destacou pela vida de oração e pela penitência rigorosa: comia pouco, dormia pouquíssimo e andava descalço.",
         "Foi pregador e superior em vários conventos. Desejando voltar à pobreza dos primeiros frades, iniciou um ramo de franciscanos descalços, chamados depois alcantarinos. Escreveu também um pequeno tratado sobre a oração.",
         "Conheceu Santa Teresa de Ávila e a apoiou na reforma do Carmelo, quando muitos se opunham a ela. Teresa fala dele com grande admiração no Livro da Vida. Pedro morreu em 18 de outubro de 1562, em Arenas, na Espanha, e foi canonizado em 1669.",
-        "A família real portuguesa tinha grande devoção a ele, e os dois imperadores do Brasil receberam o seu nome. Em 1826, a pedido de Dom Pedro I, o Papa Leão XII o declarou padroeiro do Brasil. Em 1930, Nossa Senhora Aparecida foi proclamada padroeira principal.",
+        "A família real portuguesa tinha grande devoção a ele, e os dois imperadores do Brasil receberam o seu nome. Por isso foi proclamado padroeiro secundário do Brasil. Em 1930, Nossa Senhora Aparecida foi proclamada padroeira principal.",
       ],
     },
     {

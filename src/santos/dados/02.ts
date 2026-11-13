@@ -73,7 +73,7 @@ const mes: MesDeSantos = {
       historia: [
         "O Evangelho chegou ao Japão em 1549, com São Francisco Xavier, e em poucas décadas havia ali muitos cristãos. Em 1596, o governante Toyotomi Hideyoshi, temendo a influência estrangeira, mandou prender missionários e fiéis em Quioto e Osaka.",
         "Foram presos vinte e seis homens: seis frades franciscanos vindos da Espanha, do México e da Índia, três jesuítas japoneses e dezessete leigos japoneses, entre eles catequistas, artesãos e três meninos. Depois de humilhados em público, foram obrigados a caminhar quase um mês, no inverno, até Nagasaki. Em 5 de fevereiro de 1597, numa colina diante da cidade, foram amarrados a cruzes e mortos a golpes de lança.",
-        "Paulo Miki era um jesuíta japonês, filho de família nobre, que se preparava para o sacerdócio e era conhecido como bom pregador. Do alto da cruz, falou aos que assistiam, disse que morria por anunciar o Evangelho e perdoou os que o matavam. Os companheiros cantavam e rezavam. Foram canonizados em 1862 pelo papa Pio IX.",
+        "Paulo Miki era um jesuíta japonês que se preparava para o sacerdócio e era conhecido como bom pregador. Do alto da cruz, falou aos que assistiam, disse que morria por anunciar o Evangelho e perdoou os que o matavam. Os companheiros cantavam e rezavam. Foram canonizados em 1862 pelo papa Pio IX.",
         "A Igreja do Japão foi perseguida por mais de dois séculos. Quando os missionários voltaram, no século XIX, encontraram famílias que tinham guardado a fé em segredo, batizando e rezando sem padres.",
       ],
     },
@@ -218,7 +218,7 @@ const mes: MesDeSantos = {
       historia: [
         "Gregório nasceu por volta de 950, na Armênia. Perdeu a mãe muito cedo e foi educado no mosteiro de Narek, perto do lago de Van, região que hoje fica na Turquia. Ali se fez monge, foi ordenado padre e passou praticamente toda a vida, dedicado à oração, ao estudo e ao ensino.",
         "Escreveu comentários à Sagrada Escritura, hinos e poemas, mas a sua obra mais conhecida é o Livro das Lamentações, que os armênios chamam simplesmente de “Narek”. São orações em que ele fala com Deus do fundo do coração, reconhece os próprios pecados com sinceridade e confia inteiramente na misericórdia divina. Ele quis que essas orações servissem a todos os que sofrem e buscam o perdão.",
-        "O livro tornou-se, depois da Bíblia, um dos mais amados do povo armênio, que o guarda em casa e o reza nos momentos difíceis. Gregório morreu por volta do ano 1003, no mosteiro de Narek.",
+        "O livro tornou-se, depois da Bíblia, um dos mais amados do povo armênio, que o guarda em casa e o reza nos momentos difíceis. Gregório morreu por volta do ano 1005, no mosteiro de Narek.",
         "Em 2015, o papa Francisco o declarou doutor da Igreja, e em 2021 a sua memória entrou no calendário de toda a Igreja. Gregório ensina a rezar com humildade e confiança.",
       ],
     },

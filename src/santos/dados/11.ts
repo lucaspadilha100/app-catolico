@@ -159,10 +159,10 @@ const mes: MesDeSantos = {
       nomes: ["Gertrudes"],
       resumo: "Monja alemã do século XIII, mística e escritora, que falou do amor do Coração de Jesus.",
       historia: [
-        "Gertrudes nasceu em 6 de janeiro de 1256, na Turíngia, na atual Alemanha. Nada se sabe de sua família. Com cerca de cinco anos foi confiada ao mosteiro de Helfta, na Saxônia, que era então um centro de estudo e de vida espiritual. Ali foi educada pela abadessa Gertrudes de Hackeborn e por Santa Matilde, irmã da abadessa.",
+        "Gertrudes nasceu em 6 de janeiro de 1256. Nada se sabe de sua família nem do lugar onde nasceu. Com cerca de cinco anos foi confiada ao mosteiro de Helfta, na Saxônia, que era então um centro de estudo e de vida espiritual. Ali foi educada pela abadessa Gertrudes de Hackeborn e por Santa Matilde, irmã da abadessa.",
         "Estudou com gosto as letras e a filosofia. Aos 25 anos, segundo ela mesma conta, teve uma experiência de Cristo que mudou sua vida. A partir de então, deixou o estudo das ciências profanas para se dedicar à Sagrada Escritura, aos Padres da Igreja e à oração.",
         "Escreveu, com a ajuda de outras irmãs, o livro chamado O Arauto do Amor Divino, e também os Exercícios Espirituais. Sua oração está muito ligada à liturgia e fala do amor do Coração de Jesus, séculos antes de essa devoção se espalhar.",
-        "Morreu em Helfta por volta de 1301 ou 1302. Nunca houve um processo formal de canonização, mas foi venerada como santa e sua memória entrou no calendário da Igreja. É a única santa chamada de Grande. Ensina a viver a fé como amizade com Cristo, alimentada pela liturgia.",
+        "Morreu em Helfta por volta de 1301 ou 1302. Nunca houve um processo formal de canonização, mas foi venerada como santa e sua memória entrou no calendário da Igreja. É a única mulher da Alemanha que recebeu o título de Grande. Ensina a viver a fé como amizade com Cristo, alimentada pela liturgia.",
       ],
     },
     {
@@ -279,7 +279,7 @@ const mes: MesDeSantos = {
       resumo: "Cento e dezessete mártires do Vietnã, mortos pela fé entre os séculos XVIII e XIX.",
       historia: [
         "O Evangelho chegou ao Vietnã no século XVI. Durante cerca de trezentos anos, os cristãos daquela terra sofreram perseguições em vários momentos, sobretudo no século XIX, quando muitos milhares morreram por causa da fé.",
-        "Entre eles, a Igreja canonizou 117 mártires, mortos entre 1745 e 1862. Eram 96 vietnamitas, 11 missionários espanhóis, quase todos dominicanos, e 10 missionários franceses. Havia bispos, padres, catequistas, seminaristas e leigos, entre eles pais e mães de família. Foram presos, torturados e mortos de vários modos, e muitos poderiam ter sido libertados se pisassem a cruz.",
+        "Entre eles, a Igreja canonizou 117 mártires, mortos entre 1745 e 1862. Eram 96 vietnamitas, 11 missionários espanhóis e 10 missionários franceses: oito bispos, cinquenta padres e cinquenta e nove leigos, entre eles uma mãe de família, Inês Lê Thị Thành. Foram presos, torturados e mortos de vários modos, e muitos poderiam ter sido libertados se pisassem a cruz.",
         "André Dung-Lac, que dá nome ao grupo, nasceu no norte do Vietnã por volta de 1795, numa família pobre e não cristã. Foi acolhido por um catequista, recebeu o batismo, tornou-se ele mesmo catequista e depois foi ordenado padre. Preso várias vezes, os fiéis pagaram seu resgate. Por fim, foi decapitado em Hanói em 21 de dezembro de 1839.",
         "Todos foram canonizados pelo papa João Paulo II em 19 de junho de 1988. Seu testemunho fortaleceu a Igreja no Vietnã, que continua viva até hoje.",
       ],

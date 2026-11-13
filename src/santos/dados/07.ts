@@ -29,7 +29,7 @@ const mes: MesDeSantos = {
       historia: [
         "Isabel nasceu em 1271, filha do rei Pedro III de Aragão, e era sobrinha-neta de Santa Isabel da Hungria. Aos onze anos casou-se com o rei Dom Dinis de Portugal e foi rainha por mais de quarenta anos.",
         "Na corte levava vida de oração e de caridade. Fundou hospitais, abrigos e ajudou mosteiros, e dava pessoalmente esmolas aos pobres. Suportou com paciência as infidelidades do marido e criou com carinho também os filhos que ele teve fora do casamento. Mais de uma vez se pôs entre o marido e o filho, o futuro Afonso IV, para impedir guerra entre eles. A tradição conta o milagre das rosas: o pão que levava aos pobres escondido no regaço teria se transformado em rosas.",
-        "Viúva em 1325, foi viver junto ao mosteiro das clarissas de Coimbra, como terceira franciscana. Já idosa, viajou para reconciliar o filho com o rei de Castela e morreu em Estremoz em 4 de julho de 1336. Foi canonizada em 1625 pelo papa Urbano VIII. Os portugueses a chamam Rainha Santa.",
+        "Viúva em 1325, foi viver junto ao mosteiro das clarissas de Coimbra, como terceira franciscana. Já idosa, viajou para reconciliar o filho com o rei de Castela e morreu em Estremoz em 4 de julho de 1336. Foi canonizada pelo papa Urbano VIII. Os portugueses a chamam Rainha Santa.",
         "Isabel ensina que a paz também se faz dentro de casa, com paciência e perdão.",
       ],
       padroeiro: ["de Coimbra"],
@@ -56,8 +56,8 @@ const mes: MesDeSantos = {
       nomes: ["Maria", "Marieta"],
       resumo: "Menina italiana de onze anos que morreu defendendo a pureza e perdoou quem a feriu.",
       historia: [
-        "Maria Goretti nasceu em 16 de outubro de 1890 em Corinaldo, na Itália, numa família de lavradores pobres. A família se mudou para a região dos pântanos perto de Nettuno, ao sul de Roma, onde dividia a casa com outra família. O pai morreu quando ela tinha nove anos, e Maria ajudava a mãe cuidando da casa e dos irmãos menores.",
-        "Em 5 de julho de 1902, Alessandro Serenelli, um rapaz de vinte anos que morava na mesma casa, tentou forçá-la ao pecado. Maria resistiu, dizendo que aquilo era pecado e ofendia a Deus, e ele a feriu gravemente com uma faca. Levada ao hospital de Nettuno, morreu no dia seguinte, depois de dizer que perdoava o agressor e queria tê-lo com ela no céu.",
+        "Maria Goretti nasceu em 16 de outubro de 1890 em Corinaldo, na Itália, numa família de lavradores pobres. A família se mudou para a região dos pântanos perto de Nettuno, ao sul de Roma, onde dividia a casa com outra família. O pai morreu em 1900, e Maria ajudava a mãe cuidando da casa e dos irmãos menores.",
+        "Em 5 de julho de 1902, Alessandro Serenelli, um rapaz que morava na mesma casa, tentou forçá-la ao pecado. Maria resistiu, dizendo que aquilo era pecado e ofendia a Deus, e ele a feriu gravemente com uma faca. Levada ao hospital de Nettuno, morreu no dia seguinte, depois de dizer que perdoava o agressor e queria tê-lo com ela no céu.",
         "Alessandro foi condenado e, anos depois, na prisão, se arrependeu. Ao sair, pediu perdão à mãe de Maria, que o perdoou. Ele esteve presente quando o papa Pio XII canonizou Maria Goretti, em 24 de junho de 1950.",
         "Maria Goretti ensina a coragem da pureza e a força do perdão.",
       ],
@@ -174,7 +174,7 @@ const mes: MesDeSantos = {
       resumo: "Quarenta jesuítas mortos no mar em 1570 a caminho do Brasil, onde iam como missionários.",
       historia: [
         "Inácio de Azevedo nasceu no Porto, em Portugal, por volta de 1526, de família nobre. Entrou para a Companhia de Jesus e, depois de exercer cargos de governo, foi enviado ao Brasil como visitador. Aqui viu a necessidade de missionários e voltou à Europa para buscá-los.",
-        "Reuniu um grande grupo de jovens jesuítas, a maioria portugueses e espanhóis, quase todos ainda em formação. Em 1570 partiram de Lisboa. Parte deles viajava no navio Santiago. Em 15 de julho, perto da ilha de La Palma, nas Canárias, o navio foi atacado por corsários franceses calvinistas, que odiavam os religiosos católicos. Inácio de Azevedo morreu segurando uma imagem de Nossa Senhora, e com ele foram mortos 39 companheiros, muitos lançados ao mar.",
+        "Reuniu um grande grupo de jovens jesuítas, a maioria portugueses e espanhóis, quase todos ainda em formação. Em 1570 partiram de Lisboa. Parte deles viajava no navio Santiago. Em 15 de julho, perto da ilha de La Palma, nas Canárias, o navio foi atacado por corsários franceses, que mataram os jesuítas por serem religiosos católicos. Inácio de Azevedo morreu segurando uma imagem de Nossa Senhora, e com ele foram mortos 39 companheiros, muitos lançados ao mar.",
         "Foram beatificados pelo papa Pio IX em 1854. No Brasil, destino que nunca alcançaram, são lembrados como os mártires do Brasil.",
         "Eles lembram que a missão no Brasil foi feita também com o sangue de quem nem chegou a pisar nesta terra.",
       ],
@@ -245,7 +245,7 @@ const mes: MesDeSantos = {
       nomes: ["Charbel", "José"],
       resumo: "Monge e eremita maronita do Líbano, que viveu escondido em oração por mais de vinte anos.",
       historia: [
-        "Charbel nasceu em 8 de maio de 1828 em Beqaa Kafra, nas montanhas do norte do Líbano, e recebeu no batismo o nome de José. A família era maronita, de rito oriental unido a Roma. Perdeu o pai muito pequeno e foi criado pela mãe e por um tio.",
+        "Charbel nasceu em 8 de maio de 1828 em Beqaa Kafra, nas montanhas do norte do Líbano, e recebeu no batismo o nome de José. A família era maronita, de uma Igreja oriental em comunhão com Roma. Perdeu o pai muito pequeno e foi criado pela mãe e por um tio.",
         "Aos 23 anos entrou para a Ordem Libanesa Maronita, no mosteiro de São Maron, em Annaya, e tomou o nome de Charbel, um mártir antigo. Foi ordenado padre em 1859. Viveu vários anos no mosteiro, com grande fidelidade à regra, e em 1875 recebeu licença para viver no eremitério dos Santos Pedro e Paulo, perto dali.",
         "Ali passou 23 anos em oração, silêncio, trabalho no campo e penitência, celebrando a Missa com grande devoção. Morreu na véspera do Natal de 1898. Muitas graças foram atribuídas à sua intercessão. Foi beatificado em 1965 e canonizado em 9 de outubro de 1977, ambos pelo papa Paulo VI. No Brasil, a devoção chegou com os imigrantes libaneses.",
         "Charbel ensina o valor do silêncio e da oração escondida diante de Deus.",
@@ -293,7 +293,7 @@ const mes: MesDeSantos = {
       historia: [
         "Os Evangelhos não dizem os nomes dos pais de Maria. Eles chegaram até nós por um escrito antigo do século II, o chamado Protoevangelho de Tiago, que não faz parte da Bíblia, mas foi muito lido pelos primeiros cristãos. Segundo essa tradição, Joaquim e Ana viviam em Jerusalém, eram justos e não tinham filhos. Depois de muita oração, receberam o anúncio do nascimento de Maria.",
         "A devoção a Sant'Ana começou cedo no Oriente, onde já no século VI havia igrejas em sua honra, e depois se espalhou pelo Ocidente. São Joaquim passou a ser celebrado com ela, e hoje os dois têm uma só memória.",
-        "Mesmo sem detalhes históricos, a Igreja honra Joaquim e Ana porque, por meio deles, Deus preparou a casa onde Maria cresceu na fé. No Brasil, 26 de julho é também o Dia dos Avós. Em 2021 o papa Francisco instituiu o Dia Mundial dos Avós e dos Idosos, no domingo próximo a esta data.",
+        "Mesmo sem detalhes históricos, a Igreja honra Joaquim e Ana porque, por meio deles, Deus preparou a casa onde Maria cresceu na fé. No Brasil, 26 de julho é também o Dia dos Avós. Em 2021 o papa Francisco instituiu o Dia Mundial dos Avós e dos Idosos, no quarto domingo de julho.",
         "Joaquim e Ana lembram a missão dos avós de transmitir a fé às novas gerações.",
       ],
       padroeiro: ["dos avós"],

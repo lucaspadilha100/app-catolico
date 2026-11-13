@@ -204,7 +204,7 @@ const mes: MesDeSantos = {
       nomes: ["Dulce", "Irmã Dulce"],
       resumo: "A irmã baiana que dedicou a vida aos doentes e pobres de Salvador.",
       historia: [
-        "Maria Rita de Souza Brito Lopes Pontes nasceu em Salvador, em 26 de maio de 1914. Ainda menina, levava para casa pessoas pobres e doentes para cuidar delas. Em 1933 entrou na Congregação das Irmãs Missionárias da Imaculada Conceição da Mãe de Deus e, em 13 de agosto daquele ano, recebeu o hábito e o nome de Irmã Dulce, em lembrança da mãe, que morrera quando ela era pequena.",
+        "Maria Rita de Souza Brito Lopes Pontes nasceu em Salvador, em 26 de maio de 1914. Aos dezesseis anos, já levava para casa pessoas pobres e doentes para cuidar delas. Em 1933 entrou na Congregação das Irmãs Missionárias da Imaculada Conceição da Mãe de Deus e tomou o nome de Irmã Dulce, em lembrança da mãe, que morrera quando ela tinha seis anos.",
         "De volta a Salvador, trabalhou com os operários e os moradores das áreas mais pobres. Recolhia doentes da rua e os abrigava onde podia, até em casas abandonadas. Em 1949, com licença da superiora, ocupou o galinheiro do convento para acolher os doentes. Dali nasceu o Hospital Santo Antônio e as Obras Sociais Irmã Dulce, que hoje atendem milhares de pessoas. Pedia ajuda a todos, ricos e pobres, sem cansar, e dormia muito pouco.",
         "São João Paulo II a encontrou em 1980 e de novo em 1991, quando ela já estava muito doente. Morreu em 13 de março de 1992. Foi beatificada em 2011 e canonizada pelo papa Francisco em 13 de outubro de 2019, a primeira santa nascida no Brasil. O povo a chama de Anjo Bom da Bahia.",
       ],
@@ -231,7 +231,7 @@ const mes: MesDeSantos = {
       resumo: "Maria, terminada a sua vida na terra, foi levada em corpo e alma à glória do céu.",
       historia: [
         "A Igreja crê que a Virgem Maria, terminado o curso da vida terrena, foi elevada em corpo e alma à glória do céu. Os Evangelhos não contam como foi o fim da vida de Maria, mas a fé nesse mistério é muito antiga. No Oriente, desde os primeiros séculos se celebrava a Dormição da Mãe de Deus, e a festa de 15 de agosto já era comum por volta do ano 600. Roma a recebeu no século VII.",
-        "Em 1º de novembro de 1950, o papa Pio XII proclamou a Assunção como dogma de fé, depois de consultar os bispos do mundo inteiro. A razão é que Maria, concebida sem pecado e unida de modo único ao seu Filho, participou antes de todos da vitória dele sobre a morte.",
+        "Em 1º de novembro de 1950, o papa Pio XII proclamou a Assunção como dogma de fé, depois de consultar os bispos do mundo inteiro. A Igreja ensina que a Assunção é uma participação singular na ressurreição do seu Filho e uma antecipação da ressurreição dos outros cristãos.",
         "A Assunção é uma das grandes solenidades do ano. No Brasil, quando não cai no domingo, é celebrada no domingo seguinte. Muitas igrejas e cidades a festejam com o título de Nossa Senhora da Glória. A festa anima a esperança: o que aconteceu com Maria é o que Deus promete a todos os que forem fiéis, a ressurreição do corpo e a vida eterna.",
       ],
       imagem: { artic: 87479, titulo: "The Assumption of the Virgin", artista: "Domenico Theotokópoulos, called El Greco", data: "1577-79" },
@@ -299,7 +299,7 @@ const mes: MesDeSantos = {
       historia: [
         "Desde os primeiros séculos os cristãos chamam Maria de Rainha. Rezam a Salve Rainha e, no tempo pascal, a Rainha do Céu, e contemplam a sua coroação no quinto mistério glorioso do terço. A razão é simples: ela é a Mãe de Jesus, o Rei do universo, e está unida a ele mais do que qualquer outra criatura.",
         "A festa foi instituída pelo papa Pio XII em 1954, no Ano Mariano, com a encíclica sobre a realeza de Maria, e era celebrada em 31 de maio. Na reforma do calendário depois do Concílio Vaticano II, foi colocada em 22 de agosto, oito dias depois da Assunção, para mostrar a ligação entre os dois mistérios.",
-        "A realeza de Maria não é de poder, mas de serviço e de intercessão. Ela que se chamou serva do Senhor é hoje a Rainha que reza por nós junto do Filho.",
+        "Elevada ao céu, Maria foi exaltada pelo Senhor como Rainha e, com a sua intercessão, continua a alcançar-nos os dons da salvação. Ela, que se chamou serva do Senhor, reza por nós junto do Filho.",
       ],
       imagem: { artic: 68456, titulo: "The Coronation of the Virgin", artista: "Artista inglês desconhecido", data: "século XV" },
     },
@@ -354,7 +354,7 @@ const mes: MesDeSantos = {
       resumo: "Padre espanhol que abriu em Roma escolas gratuitas para crianças pobres e fundou os escolápios.",
       historia: [
         "José de Calasanz nasceu em Aragão, na Espanha, em 1557, e foi ordenado padre em 1583. Em 1592 foi para Roma. Nos bairros pobres, viu muitas crianças crescendo sem saber ler nem conhecer a fé. Em 1597 abriu no Trastevere uma escola gratuita, uma das primeiras escolas públicas e sem custo para os pobres na Europa.",
-        "Para continuar a obra, fundou a Ordem dos Clérigos Regulares Pobres da Mãe de Deus das Escolas Pias, os escolápios. Já idoso, sofreu muito com conflitos internos e acusações, e viu a sua ordem ser rebaixada pelo papa. Aceitou tudo com paciência. Morreu em 25 de agosto de 1648, com mais de 90 anos, e a ordem foi restaurada anos depois. Foi canonizado em 1767 e Pio XII o declarou padroeiro das escolas populares cristãs.",
+        "Para continuar a obra, fundou a Ordem dos Clérigos Regulares Pobres da Mãe de Deus das Escolas Pias, os escolápios. Já idoso, sofreu muito com conflitos internos e acusações, e viu a sua ordem ser rebaixada pelo papa. Aceitou tudo com paciência. Morreu em 25 de agosto de 1648, com cerca de 90 anos, e a ordem foi restaurada anos depois. Foi canonizado em 1767 e Pio XII o declarou padroeiro das escolas populares cristãs.",
       ],
       padroeiro: ["das escolas populares cristãs"],
     },
@@ -367,7 +367,7 @@ const mes: MesDeSantos = {
       resumo: "Mãe de Santo Agostinho, que rezou por ele durante anos até vê-lo convertido.",
       historia: [
         "Mônica nasceu por volta de 331, em Tagaste, no norte da África, hoje Argélia, numa família cristã. Casou-se com Patrício, homem pagão e de gênio difícil. Com paciência e bondade, conquistou o marido, que se fez batizar antes de morrer. Teve três filhos, entre eles Agostinho.",
-        "Agostinho era muito inteligente, mas viveu anos longe da fé, seguindo a seita dos maniqueus. Mônica rezou e chorou por ele sem desistir. Agostinho conta nas \"Confissões\" que um bispo a consolou dizendo que não podia se perder o filho de tantas lágrimas. Ela o seguiu até Milão, onde ele ouviu Santo Ambrósio e, em 387, recebeu o batismo.",
+        "Agostinho era muito inteligente, mas viveu anos longe da fé, seguindo as ideias dos maniqueus. Mônica rezou e chorou por ele sem desistir. Agostinho conta nas \"Confissões\" que um bispo a consolou dizendo que não podia se perder o filho de tantas lágrimas. Ela o seguiu até Milão, onde ele ouviu Santo Ambrósio e, em 387, recebeu o batismo.",
         "Pouco depois, em Óstia, quando se preparavam para voltar à África, Mônica adoeceu. Pediu que a enterrassem em qualquer lugar e que só se lembrassem dela no altar do Senhor. Morreu em 387, com 56 anos. É padroeira das mães e das esposas, e exemplo de oração perseverante.",
       ],
       padroeiro: ["das mães", "das esposas"],
