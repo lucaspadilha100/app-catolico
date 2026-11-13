@@ -53,11 +53,11 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "Em 250, o imperador Décio obrigou todos a oferecer sacrifício aos deuses. Muitos cristãos cederam por medo, e a Igreja teve de decidir como receber de volta os que tinham caído: com penitência, mas sem fechar a porta. A última e maior perseguição começou em 303, com Diocleciano. Em 313, Constantino e Licínio deram liberdade de culto aos cristãos, no acordo conhecido como Edito de Milão, e em 380 o cristianismo se tornou a religião oficial do império. A paz trouxe muitos bens, mas a proximidade com o poder trouxe também tentações que a Igreja carregaria por séculos.",
+            "Em 250, o imperador Décio obrigou todos a oferecer sacrifício aos deuses. Muitos cristãos cederam por medo, e a Igreja teve de decidir como receber de volta os que tinham caído: com penitência, mas sem fechar a porta. A última e maior perseguição começou em 303, com Diocleciano. Em 313, Constantino e Licínio deram liberdade de culto aos cristãos, no acordo conhecido como Edito de Milão, e em 380 o cristianismo se tornou a religião oficial do império.",
         },
         {
           texto:
-            "Ao contrário do que às vezes se diz, as catacumbas de Roma não eram esconderijos: eram cemitérios, onde os cristãos enterravam os seus mortos e celebravam a memória dos mártires. A Igreja guardou com cuidado as atas dos mártires, que se leem até hoje (CIC 2474).",
+            "As catacumbas de Roma eram cemitérios, onde os cristãos enterravam os seus mortos e celebravam a memória dos mártires. A Igreja guardou com cuidado as atas dos mártires, que se leem até hoje (CIC 2474).",
         },
         { titulo: "Os Padres da Igreja" },
         {
@@ -91,7 +91,7 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "Pode parecer que tanto esforço foi por causa de palavras. Mas as palavras diziam quem é Jesus, e disso depende a nossa salvação: se Jesus não fosse Deus, não poderia nos unir a Deus; se não fosse homem, não teria assumido a nossa vida. Também houve feridas. Algumas Igrejas antigas do Oriente não aceitaram as decisões de Éfeso ou de Calcedônia e se separaram, em parte por palavras entendidas de modos diferentes e por rivalidades políticas. Nas últimas décadas, papas e patriarcas dessas Igrejas assinaram declarações comuns reconhecendo que confessam a mesma fé em Cristo.",
+            "Pode parecer que tanto esforço foi por causa de palavras. Mas as palavras diziam quem é Jesus, e disso depende a nossa salvação: o Verbo se fez carne para nos reconciliar com Deus e nos tornar participantes da natureza divina (CIC 457, CIC 460). São Gregório de Nazianzo, Doutor da Igreja, escreveu numa carta a Cledônio que o que não foi assumido não foi curado. Também houve feridas. Algumas Igrejas antigas do Oriente não aceitaram as decisões de Éfeso ou de Calcedônia e ficaram separadas. Nas últimas décadas, papas e patriarcas dessas Igrejas assinaram declarações comuns reconhecendo que confessam a mesma fé em Cristo.",
         },
         {
           texto:
@@ -110,7 +110,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "MAT 10:7-10" },
         {
           texto:
-            "A Idade Média vai, de modo aproximado, do fim do Império Romano do Ocidente, em 476, até o fim do século XV. Foram mil anos de luz e de sombra: nem a idade das trevas de que às vezes se fala, nem um tempo de ouro sem defeitos. Quando o império caiu e novos povos ocuparam o Ocidente, foi muitas vezes a Igreja que manteve as cidades de pé, cuidou dos pobres e levou o Evangelho a esses povos.",
+            "A Idade Média vai, de modo aproximado, do fim do Império Romano do Ocidente, em 476, até o fim do século XV. Foram mil anos de luzes e de sombras. Quando o império caiu e novos povos ocuparam o Ocidente, a Igreja cuidou dos pobres e levou o Evangelho a esses povos.",
         },
         { titulo: "Os mosteiros" },
         {
@@ -124,12 +124,12 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "No começo do século XIII, quando muitos na Igreja tinham se acomodado à riqueza, surgiram santos pobres. Segundo os seus primeiros biógrafos, São Francisco de Assis, filho de um comerciante rico, ouviu na missa o Evangelho que você leu, em que Jesus manda os apóstolos partirem sem ouro e sem prata, e decidiu viver assim. Santa Clara o seguiu, e São Domingos fundou a Ordem dos Pregadores, confirmada pelo papa em 1216. Os frades viviam de esmola e pregavam nas cidades. Francisco, que fez o presépio de Greccio no Natal de 1223, morreu em 1226.",
+            "No começo do século XIII, Deus suscitou santos que escolheram a pobreza. Segundo os seus primeiros biógrafos, São Francisco de Assis, filho de um comerciante rico, ouviu na missa o Evangelho que você leu, em que Jesus manda os apóstolos partirem sem ouro e sem prata, e decidiu viver assim. Santa Clara o seguiu, e São Domingos fundou a Ordem dos Pregadores, confirmada pelo papa em 1216. Os frades viviam de esmola e pregavam nas cidades. Francisco, que fez o presépio de Greccio no Natal de 1223, morreu em 1226.",
         },
         { titulo: "As sombras" },
         {
           texto:
-            "Em 1054, a distância entre Roma e Constantinopla, que crescia havia séculos, chegou a excomunhões mútuas, e o Oriente e o Ocidente cristãos se separaram; essas excomunhões só foram retiradas em 1965, por Paulo VI e pelo patriarca Atenágoras. As Cruzadas, iniciadas em 1095 para libertar Jerusalém, misturaram fé sincera e violência terrível, e em 1204 cruzados saquearam Constantinopla, uma cidade cristã. A Inquisição, criada no século XIII para julgar heresias, chegou a admitir a tortura e entregava condenados à morte pelo poder civil. Entre 1378 e 1417, houve ao mesmo tempo dois e depois três homens que se diziam papa, até que o Concílio de Constança refez a unidade. Pouco antes, Santa Catarina de Sena, uma jovem leiga, tinha pedido com coragem ao papa que deixasse Avinhão e voltasse a Roma, o que ele fez em 1377.",
+            "Em 1054, a distância entre Roma e Constantinopla, que crescia havia séculos, chegou a excomunhões mútuas, e o Oriente e o Ocidente cristãos se separaram. Essas excomunhões foram retiradas em 1965 por Paulo VI e pelo patriarca Atenágoras, e a Igreja ensina que a sua comunhão com as Igrejas ortodoxas é tão profunda que pouco falta para a unidade plena (CIC 838). As Cruzadas, convocadas a partir de 1095 para recuperar Jerusalém, uniram fé sincera e muita violência, e em 1204 cruzados saquearam Constantinopla, uma cidade cristã. A Inquisição, criada no século XIII para julgar heresias, recorreu também a métodos de força, como a tortura. No Jubileu do ano 2000, a Igreja pediu perdão a Deus pelas vezes em que os seus filhos usaram a intolerância e a violência a serviço da verdade. Entre 1378 e 1417, houve ao mesmo tempo dois e depois três homens que se diziam papa, até que o Concílio de Constança refez a unidade. Pouco antes, Santa Catarina de Sena, jovem leiga da Ordem Terceira de São Domingos e hoje Doutora da Igreja, tinha pedido com coragem ao papa que deixasse Avinhão e voltasse a Roma, o que ele fez em 1377.",
         },
         { ir: "/rezar/oracoes/oracao-a-sao-bento", rotulo: "Oração a São Bento" },
         { ir: "/rezar/oracoes/oracao-a-sao-francisco-de-assis", rotulo: "Oração a São Francisco de Assis" },
@@ -145,21 +145,21 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "JHN 17:20-23" },
         {
           texto:
-            "No fim do século XV, a Igreja do Ocidente precisava de reforma, e muitos sabiam disso. Havia bispos que nunca iam às suas dioceses, padres sem formação, cargos comprados e vendidos. Alguns papas viveram como príncipes do Renascimento, mais ocupados com guerras, obras de arte e parentes do que com o Evangelho; Alexandre VI, papa de 1492 a 1503, tinha filhos. A pregação das indulgências, ligada a ofertas em dinheiro para a construção da nova Basílica de São Pedro, era feita muitas vezes como se a graça de Deus estivesse à venda.",
+            "No fim do século XV, a Igreja do Ocidente precisava de reforma, e muitos sabiam disso. Havia bispos que não moravam nas suas dioceses, padres sem formação e cargos negociados, e nem todos os pastores, em Roma e fora dela, davam bom exemplo. Em alguns lugares, a pregação das indulgências, ligada a esmolas para a construção da nova Basílica de São Pedro, deu ocasião a abusos de dinheiro que o próprio Concílio de Trento depois mandou eliminar.",
         },
         { titulo: "Lutero e a divisão" },
         {
           texto:
-            "Em 31 de outubro de 1517, Martinho Lutero, frade agostiniano e professor em Wittenberg, na Alemanha, publicou 95 teses contra o abuso das indulgências. O debate foi além dos abusos: Lutero passou a rejeitar a autoridade do papa, a maior parte dos sacramentos e o valor da Tradição, e foi excomungado em 1521. Outros reformadores, como Zuínglio e Calvino, seguiram caminhos próprios, e na Inglaterra o rei Henrique VIII se declarou chefe da Igreja em 1534; São Tomás Moro e São João Fisher foram mortos por não aceitar. Vieram depois guerras de religião, até 1648, em que católicos e protestantes mataram e morreram por causa da fé.",
+            "Em 31 de outubro de 1517, Martinho Lutero, frade agostiniano e professor em Wittenberg, na Alemanha, publicou 95 teses sobre as indulgências. O debate logo foi além delas e chegou a pontos centrais da fé, como a autoridade do papa, os sacramentos e a Tradição, e Lutero foi excomungado em 1521. Outros reformadores, como Zuínglio e Calvino, seguiram caminhos próprios, e na Inglaterra o rei Henrique VIII se declarou chefe da Igreja em 1534; São Tomás Moro e São João Fisher morreram por não aceitar. Seguiram-se na Europa guerras de religião, até a Paz de Vestfália, em 1648, uma ferida para todos os cristãos.",
         },
         { titulo: "O Concílio de Trento" },
         {
           texto:
-            "A resposta católica veio no Concílio de Trento, no norte da Itália, reunido com longas interrupções entre 1545 e 1563. Ele explicou com clareza o que tinha sido posto em dúvida: a revelação nos chega pela Escritura e pela Tradição, somos salvos pela graça, que pede a nossa resposta de fé e de obras, os sacramentos são sete, e na Eucaristia toda a substância do pão e do vinho se converte no Corpo e no Sangue de Cristo (CIC 1376). Também atacou os abusos: mandou os bispos morarem nas suas dioceses e criou os seminários para formar os padres. Depois do concílio vieram o Catecismo Romano, em 1566, e o Missal de 1570, que deu forma à missa no rito romano por quatro séculos.",
+            "A resposta católica veio no Concílio de Trento, no norte da Itália, reunido com longas interrupções entre 1545 e 1563. Ele explicou com clareza o que tinha sido posto em dúvida: a revelação nos chega pela Escritura e pela Tradição (CIC 80), a justificação é dom da graça de Deus que pede a colaboração da nossa liberdade (CIC 1993), os sacramentos são sete (CIC 1113), e na Eucaristia toda a substância do pão e do vinho se converte no Corpo e no Sangue de Cristo (CIC 1376). Também atacou os abusos: mandou os bispos morarem nas suas dioceses e criou os seminários para formar os padres. Depois do concílio vieram o Catecismo Romano, em 1566, e o Missal de 1570, que deu forma à missa no rito romano por quatro séculos.",
         },
         {
           texto:
-            "A verdadeira reforma veio sobretudo dos santos. Santo Inácio de Loyola fundou a Companhia de Jesus, aprovada em 1540, que abriu colégios e mandou missionários a todos os continentes. Santa Teresa de Ávila e São João da Cruz renovaram o Carmelo pela oração. São Carlos Borromeu, arcebispo de Milão, pôs o concílio em prática com zelo de pastor, e São Francisco de Sales ensinou que a santidade é também para quem vive no meio do mundo.",
+            "Nos momentos mais difíceis da sua história, a Igreja foi renovada pelos santos (CIC 828). Santo Inácio de Loyola fundou a Companhia de Jesus, aprovada em 1540, que abriu colégios e mandou missionários a todos os continentes. Santa Teresa de Ávila e São João da Cruz renovaram o Carmelo pela oração. São Carlos Borromeu, arcebispo de Milão, pôs o concílio em prática com zelo de pastor, e São Francisco de Sales ensinou que a santidade é também para quem vive no meio do mundo.",
         },
         { titulo: "Hoje" },
         {
@@ -184,7 +184,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "Evangelho e conquista" },
         {
           texto:
-            "Os papas confiaram aos reis de Portugal e da Espanha o cuidado da Igreja nas terras novas, o chamado padroado: o rei sustentava o clero e construía igrejas, mas também escolhia os bispos e controlava a missão. Muitos colonos escravizaram e mataram os povos indígenas. Houve missionários que os defenderam com coragem, como o dominicano Bartolomeu de las Casas, e em 1537 o papa Paulo III declarou que os índios eram livres e não podiam ser escravizados. Mas por muito tempo a Igreja não condenou com a mesma clareza a escravidão dos africanos, e muitas ordens religiosas e padres tiveram escravos; só em 1839 o papa Gregório XVI condenou abertamente o tráfico de escravos.",
+            "Os papas confiaram aos reis de Portugal e da Espanha o cuidado da Igreja nas terras novas, o chamado padroado: o rei sustentava o clero e construía igrejas, mas também escolhia os bispos e controlava a missão. Muitos colonos escravizaram e mataram os povos indígenas. Houve missionários que os defenderam com coragem, como o dominicano Bartolomeu de las Casas, e em 1537 o papa Paulo III declarou que os índios eram livres e não podiam ser escravizados. A escravidão dos africanos, porém, durou séculos, e houve também homens da Igreja que tiveram escravos. Em 1839, o papa Gregório XVI condenou abertamente o tráfico de escravos.",
         },
         { titulo: "A fé chega ao Brasil" },
         {
@@ -198,7 +198,7 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "Em 1888, ano da Lei Áurea, o papa Leão XIII escreveu aos bispos do Brasil apoiando o fim da escravidão; mas a voz da Igreja chegou tarde a uma injustiça de mais de três séculos. Em 1992, na ilha de Gorée, no Senegal, de onde partiam navios de escravos, São João Paulo II pediu perdão a Deus por esse pecado. Em 2015, na Bolívia, o papa Francisco pediu perdão pelas ofensas da Igreja e pelos crimes cometidos contra os povos nativos da América durante a conquista. A missão continua, e anuncia o Evangelho com respeito pelo que há de verdadeiro e bom em cada povo (CIC 856).",
+            "Em 1888, ano da Lei Áurea, o papa Leão XIII escreveu aos bispos do Brasil apoiando o fim da escravidão. Em 1992, na ilha de Gorée, no Senegal, de onde partiam navios de escravos, São João Paulo II pediu perdão a Deus por esse pecado. Em 2015, na Bolívia, o papa Francisco pediu perdão pelas ofensas da Igreja e pelos crimes cometidos contra os povos nativos da América durante a conquista. A missão continua, e anuncia o Evangelho com respeito pelo que há de verdadeiro e bom em cada povo (CIC 856).",
         },
         { ir: "/rezar/oracoes/oracao-a-santos-martires-de-cunhau-e-uruacu", rotulo: "Oração aos Mártires de Cunhaú e Uruaçu" },
         { ir: "/rezar/oracoes/oracao-a-nossa-senhora-aparecida", rotulo: "Oração a Nossa Senhora Aparecida" },
@@ -219,11 +219,11 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "O Concílio Vaticano I" },
         {
           texto:
-            "O beato Pio IX abriu o Concílio Vaticano I em 8 de dezembro de 1869. O concílio ensinou que a razão humana pode conhecer a Deus pelas coisas criadas e que a fé e a razão não se contradizem. Em 18 de julho de 1870, definiu o primado do papa e a sua infalibilidade. No dia seguinte começou a guerra entre a França e a Prússia, as tropas francesas que protegiam Roma partiram, a cidade foi tomada pelo exército italiano em 20 de setembro de 1870, e o concílio foi suspenso para nunca mais ser retomado. A questão de Roma só se resolveu em 1929, com o Tratado de Latrão, que criou o pequeno Estado da Cidade do Vaticano.",
+            "O beato Pio IX abriu o Concílio Vaticano I em 8 de dezembro de 1869. O concílio ensinou que a razão humana pode conhecer a Deus com certeza a partir das coisas criadas (CIC 36) e que a fé e a razão nunca podem estar em verdadeiro desacordo (CIC 159). Em 18 de julho de 1870, definiu o primado do papa e a sua infalibilidade. No dia seguinte começou a guerra entre a França e a Prússia, as tropas francesas que protegiam Roma partiram, a cidade foi tomada pelo exército italiano em 20 de setembro de 1870, e o concílio foi suspenso para nunca mais ser retomado. A questão de Roma só se resolveu em 1929, com o Tratado de Latrão, que criou o pequeno Estado da Cidade do Vaticano.",
         },
         {
           texto:
-            "Infalibilidade não quer dizer que o papa não peca nem que acerta em tudo o que diz. Quer dizer que, quando ele ensina como pastor de toda a Igreja, por um ato definitivo, uma verdade de fé ou de moral, não erra; o mesmo vale para os bispos unidos a ele, sobretudo num concílio (CIC 891). É uma promessa ligada à palavra de Jesus a Pedro, no trecho que você leu, e foi usada raramente. O caso mais conhecido é a definição da Assunção de Nossa Senhora, feita por Pio XII em 1950.",
+            "Infalibilidade não quer dizer que o papa não peca nem que acerta em tudo o que diz. Quer dizer que, quando ele ensina como pastor de toda a Igreja, por um ato definitivo, uma verdade de fé ou de moral, não erra; o mesmo vale para os bispos unidos a ele, sobretudo num concílio (CIC 891). É uma promessa ligada à palavra de Jesus a Pedro, no trecho que você leu, e foi usada raramente. O caso mais conhecido é a definição da Assunção de Nossa Senhora, feita por Pio XII em 1950 (CIC 966).",
         },
         { titulo: "O Concílio Vaticano II" },
         {
@@ -232,7 +232,7 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "Os anos seguintes não foram fáceis. Houve renovação verdadeira, mas também confusão, abusos na liturgia e muitos padres e religiosos que deixaram o ministério. Em 2005, Bento XVI lembrou que o concílio deve ser lido em continuidade com toda a tradição da Igreja, e não como ruptura com o passado. Como frutos do concílio vieram o novo Código de Direito Canônico, em 1983, e o Catecismo da Igreja Católica, em 1992.",
+            "A aplicação do concílio pediu tempo e discernimento. Em 2005, num discurso à Cúria Romana, Bento XVI lembrou que o concílio deve ser lido em continuidade com toda a tradição da Igreja, e não como ruptura com o passado, numa reforma na continuidade. Como frutos do concílio vieram o novo Código de Direito Canônico, em 1983, e o Catecismo da Igreja Católica, em 1992.",
         },
         { ir: "/biblia/MAT/16", rotulo: "Mateus, capítulo 16" },
         {

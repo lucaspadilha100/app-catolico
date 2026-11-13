@@ -50,7 +50,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "O que muda na missa" },
         {
           texto:
-            "A cor do Advento é o roxo, sinal de espera e de conversão. No terceiro domingo, chamado domingo Gaudete, palavra latina que convida à alegria, pode-se usar o rosa, porque o Natal está perto; é uma permissão, não uma obrigação. Nas missas do Advento não se diz o Glória, a não ser nas solenidades e festas, como a da Imaculada Conceição, em 8 de dezembro. O Aleluia antes do Evangelho continua: o Advento não é a Quaresma. As normas pedem também moderação nas flores do altar e no uso dos instrumentos, para não antecipar a alegria plena do Natal.",
+            "A cor do Advento é o roxo, sinal de espera e de conversão. No terceiro domingo, chamado domingo Gaudete, palavra latina que convida à alegria, pode-se usar o rosa, porque o Natal está perto; é uma permissão, não uma obrigação. Nas missas do Advento não se diz o Glória, a não ser nas solenidades e festas, como a da Imaculada Conceição, em 8 de dezembro. O Aleluia antes do Evangelho continua: o Advento não é a Quaresma. As normas pedem também moderação nas flores do altar e no uso dos instrumentos, para não antecipar a alegria plena do Natal (Instrução Geral do Missal Romano, 305 e 313).",
         },
         { titulo: "Práticas de piedade" },
         {
@@ -88,7 +88,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "O que muda na missa" },
         {
           texto:
-            "A cor do Natal é o branco, sinal de alegria e de luz. Em dias mais solenes, as normas permitem vestes mais nobres, como as douradas, mesmo que não sejam da cor do dia. O Glória volta a ser cantado, e na missa da noite ele ecoa o canto dos anjos que você acabou de ler. No Creio, quando se professa que o Filho se encarnou no seio da Virgem Maria, todos se ajoelham no dia de Natal, enquanto nos outros domingos se faz ali uma inclinação profunda. A norma pede esse gesto só em dois dias do ano: no Natal e na solenidade da Anunciação.",
+            "A cor do Natal é o branco, sinal de alegria e de luz. Em dias mais solenes, as normas permitem vestes mais nobres, como as douradas, mesmo que não sejam da cor do dia (Instrução Geral do Missal Romano, 346). O Glória volta a ser cantado, e na missa da noite ele ecoa o canto dos anjos que você acabou de ler. No Creio, quando se professa que o Filho se encarnou no seio da Virgem Maria, todos se ajoelham no dia de Natal, enquanto nos outros domingos se faz ali uma inclinação profunda. A norma pede esse gesto só em dois dias do ano: no Natal e na solenidade da Anunciação (Instrução Geral do Missal Romano, 137).",
         },
         { titulo: "Práticas de piedade" },
         {
@@ -117,12 +117,12 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "O que muda na missa" },
         {
           texto:
-            "A cor da Quaresma é o roxo, sinal de penitência. No quarto domingo, chamado domingo Laetare, outra palavra latina que convida à alegria, pode-se usar o rosa, porque a Páscoa já se aproxima. O Glória não é dito, a não ser nas solenidades e festas, como São José, em 19 de março, e a Anunciação, em 25 de março. O Aleluia desaparece por completo, até nas solenidades, e só volta na Vigília Pascal; antes do Evangelho canta-se outra aclamação a Cristo. As normas pedem ainda o altar sem flores e os instrumentos só para sustentar o canto, com exceção do domingo Laetare e das solenidades e festas.",
+            "A cor da Quaresma é o roxo, sinal de penitência. No quarto domingo, chamado domingo Laetare, outra palavra latina que convida à alegria, pode-se usar o rosa, porque a Páscoa já se aproxima. O Glória não é dito, a não ser nas solenidades e festas, como São José, em 19 de março, e a Anunciação, em 25 de março. O Aleluia desaparece por completo, até nas solenidades, e só volta na Vigília Pascal; antes do Evangelho canta-se outra aclamação a Cristo. As normas pedem ainda o altar sem flores e os instrumentos só para sustentar o canto, com exceção do domingo Laetare e das solenidades e festas (Instrução Geral do Missal Romano, 305 e 313).",
         },
         { titulo: "Jejum, abstinência e outras práticas" },
         {
           texto:
-            "Na Quarta-feira de Cinzas e na Sexta-feira da Paixão, a Igreja manda jejum e abstinência de carne (cân. 1251). À abstinência estão obrigados os que completaram 14 anos; ao jejum, os que já fizeram 18 anos e ainda não fizeram 60 (cân. 1252). O jejum consiste em fazer uma só refeição completa no dia, com duas pequenas refeições leves. Todas as sextas-feiras do ano e todo o tempo da Quaresma são dias de penitência (cân. 1250), e nas sextas da Quaresma é costume muito difundido não comer carne. O Código deixa aos bispos de cada país a decisão de trocar a abstinência, no todo ou em parte, por outras penitências, sobretudo obras de caridade e exercícios de piedade (cân. 1253). No Brasil, essa troca é permitida nas sextas-feiras comuns do ano. Para saber o que vale nas sextas da Quaresma na sua diocese, pergunte na sua paróquia. Quem está doente, grávida ou tem a saúde frágil não está obrigado ao jejum e, na dúvida, conversa com o padre.",
+            "Na Quarta-feira de Cinzas e na Sexta-feira da Paixão, a Igreja manda jejum e abstinência de carne (cân. 1251). À abstinência estão obrigados os que completaram 14 anos; ao jejum, os que já fizeram 18 anos e ainda não fizeram 60 (cân. 1252). O jejum consiste em fazer uma só refeição completa no dia; o costume admite duas pequenas refeições leves. Todas as sextas-feiras do ano e todo o tempo da Quaresma são dias de penitência (cân. 1250), e nas sextas da Quaresma é costume muito difundido não comer carne. O Código deixa aos bispos de cada país a decisão de trocar a abstinência, no todo ou em parte, por outras penitências, sobretudo obras de caridade e exercícios de piedade (cân. 1253). No Brasil, essa troca é permitida nas sextas-feiras comuns do ano. Para saber o que vale nas sextas da Quaresma na sua diocese, pergunte na sua paróquia. Quem está doente, grávida ou tem a saúde frágil não está obrigado ao jejum e, na dúvida, conversa com o padre.",
         },
         {
           texto:
@@ -150,7 +150,7 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "Na Sexta-feira da Paixão não se celebra missa em lugar nenhum do mundo. À tarde, de preferência por volta das três horas, faz-se a celebração da Paixão do Senhor, em vermelho: a leitura da Paixão segundo João, uma grande oração pela Igreja e pelo mundo, a adoração da cruz e a comunhão com as hóstias consagradas na véspera. No Sábado Santo a Igreja permanece junto ao sepulcro, em silêncio, e também não há missa durante o dia; recomenda-se continuar o jejum, se possível. Em muitos lugares do Brasil, é costume fazer nesses dias a procissão do Senhor Morto e a Via-Sacra pelas ruas.",
+            "Na Sexta-feira da Paixão a Igreja não celebra a missa. À tarde, de preferência por volta das três horas, faz-se a celebração da Paixão do Senhor, em vermelho: a leitura da Paixão segundo João, uma grande oração pela Igreja e pelo mundo, a adoração da cruz e a comunhão com as hóstias consagradas na véspera. No Sábado Santo a Igreja permanece junto ao sepulcro, em silêncio, e também não há missa durante o dia; recomenda-se continuar o jejum, se possível. Em muitos lugares do Brasil, é costume fazer nesses dias a procissão do Senhor Morto e a Via-Sacra pelas ruas.",
         },
         {
           texto:
@@ -159,7 +159,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "Os cinquenta dias da Páscoa" },
         {
           texto:
-            "O Tempo Pascal vai do domingo da ressurreição até Pentecostes: cinquenta dias celebrados com alegria como um só dia de festa, um grande domingo. A cor é o branco, e o círio pascal fica aceso nas celebrações. A semana depois da Páscoa é a oitava, e cada dia dela é celebrado como solenidade; o segundo domingo é também chamado domingo da Divina Misericórdia. No Brasil, a Ascensão do Senhor é celebrada no domingo antes de Pentecostes, e Pentecostes, em vermelho, encerra o tempo com o dom do Espírito Santo. É tradição trocar o Ângelus pela Rainha do Céu nesses dias, e é norma comungar ao menos uma vez por ano, no Tempo Pascal, a não ser que haja justa causa para fazê-lo em outra época (cân. 920).",
+            "O Tempo Pascal vai do domingo da ressurreição até Pentecostes: cinquenta dias celebrados com alegria como um só dia de festa, um grande domingo, como dizia Santo Atanásio. A cor é o branco, e o círio pascal fica aceso nas celebrações. A semana depois da Páscoa é a oitava, e cada dia dela é celebrado como solenidade; o segundo domingo é também chamado domingo da Divina Misericórdia. No Brasil, a Ascensão do Senhor é celebrada no domingo antes de Pentecostes, e Pentecostes, em vermelho, encerra o tempo com o dom do Espírito Santo. É tradição trocar o Ângelus pela Rainha do Céu nesses dias, e é norma comungar ao menos uma vez por ano, no Tempo Pascal, a não ser que haja justa causa para fazê-lo em outra época (cân. 920).",
         },
         {
           pratica:
@@ -187,7 +187,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "As cores litúrgicas" },
         {
           texto:
-            "As cores das vestes, fixadas pelas normas do Missal, ajudam a perceber o que se celebra. O branco é dos tempos do Natal e da Páscoa, das festas do Senhor que não são da Paixão, de Nossa Senhora, dos anjos e dos santos que não foram mártires. O vermelho é do Domingo de Ramos, da Sexta-feira da Paixão, de Pentecostes, dos apóstolos, dos evangelistas e dos mártires. O verde é do Tempo Comum; o roxo, do Advento e da Quaresma, e também pode ser usado nas missas pelos falecidos, em que se permite ainda o preto. O rosa pode ser usado em dois domingos, Gaudete e Laetare, e nos dias mais solenes podem-se usar vestes douradas ou mais nobres.",
+            "As cores das vestes, fixadas pelas normas do Missal (Instrução Geral do Missal Romano, 346), ajudam a perceber o que se celebra. O branco é dos tempos do Natal e da Páscoa, das festas do Senhor que não são da Paixão, de Nossa Senhora, dos anjos e dos santos que não foram mártires. O vermelho é do Domingo de Ramos, da Sexta-feira da Paixão, de Pentecostes, dos apóstolos, dos evangelistas e dos mártires. O verde é do Tempo Comum; o roxo, do Advento e da Quaresma, e também pode ser usado nas missas pelos falecidos, em que se permite ainda o preto. O rosa pode ser usado em dois domingos, Gaudete e Laetare, e nos dias mais solenes podem-se usar vestes douradas ou mais nobres.",
         },
         {
           texto:

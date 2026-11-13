@@ -49,16 +49,16 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "Os amigos que explicavam demais" },
         {
           texto:
-            "Três amigos vieram consolar Jó. A primeira coisa que fizeram foi a melhor: sentaram-se com ele no chão sete dias e sete noites, sem dizer nada, porque viam como a dor era grande (Jó 2,13). Depois começaram a falar. Repetiam que Deus é justo e que, se Jó sofria, era porque tinha pecado. No fim do livro, Deus repreende os amigos e diz que foi Jó quem falou dele com retidão (Jó 42,7). Quem se queixou com sinceridade agradou mais a Deus do que quem o defendeu com teorias. Na leitura de hoje, Jó pede aos amigos o que todo doente pede: compaixão.",
+            "Três amigos vieram consolar Jó. A primeira coisa que fizeram foi a melhor: sentaram-se com ele no chão sete dias e sete noites, sem dizer nada, porque viam como a dor era grande (Jó 2,13). Depois começaram a falar. Repetiam que Deus é justo e que, se Jó sofria, era porque tinha pecado. No fim do livro, Deus repreende os amigos e diz que foi Jó quem falou dele com retidão (Jó 42,7). Na leitura de hoje, Jó pede aos amigos o que todo doente pede: compaixão.",
         },
         { titulo: "A queixa também é oração" },
         {
           texto:
-            "Muita gente pensa que, para rezar, é preciso estar em paz. Jó mostra o contrário. Já no Antigo Testamento, quem adoecia derramava o seu lamento diante de Deus e a ele pedia a cura (CIC 1502). Os Salmos estão cheios dessas orações de aflição, e a Igreja os reza todos os dias (CIC 2588). Você pode dizer a Deus que está cansado, com raiva, sem entender. A queixa sincera não afasta você de Deus. Afasta-se quem para de falar com ele.",
+            "Muita gente pensa que, para rezar, é preciso estar em paz. Jó mostra o contrário. Já no Antigo Testamento, quem adoecia derramava o seu lamento diante de Deus e a ele pedia a cura (CIC 1502). Os Salmos estão cheios dessas orações de aflição, e a Igreja os reza todos os dias (CIC 2588). Você também pode dizer a Deus que está cansado, com raiva, sem entender.",
         },
         {
           texto:
-            "Por fim, Deus responde a Jó do meio de um redemoinho (Jó 38,1). Não explica por que ele sofreu. Mostra a grandeza da criação e deixa-se encontrar. Jó diz então que antes conhecia Deus só de ouvir falar, mas agora os seus olhos o viam (Jó 42,5). A resposta não foi uma teoria: foi um encontro. E, no meio da noite, Jó já tinha dito a frase de fé da leitura de hoje: eu sei que o meu Redentor vive. Os cristãos leem essas palavras pensando em Cristo, que venceu a morte.",
+            "Por fim, Deus responde a Jó do meio de um redemoinho (Jó 38,1). Não explica por que ele sofreu. Mostra a grandeza da criação e deixa-se encontrar. Jó diz então que antes conhecia Deus só de ouvir falar, mas agora os seus olhos o viam (Jó 42,5). A resposta não foi uma teoria: foi um encontro. E, no meio da noite, Jó já tinha dito a frase de fé da leitura de hoje: eu sei que o meu Redentor vive. Os Padres da Igreja, como São Gregório Magno no seu comentário ao livro de Jó, leem essas palavras pensando em Cristo, que venceu a morte.",
         },
         { titulo: "Quando a tristeza vira doença" },
         {
@@ -79,7 +79,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "MRK 15:33-39" },
         {
           texto:
-            "Deus não respondeu ao sofrimento humano com um discurso. Ele veio sofrer conosco. O Filho de Deus se fez homem, sentiu fome e cansaço, chorou diante do túmulo do amigo (Jo 11,35) e, na noite antes de morrer, pediu ao Pai que afastasse dele aquele cálice (Mt 26,39). O Catecismo vê nessa oração o horror que a morte causava à sua natureza humana (CIC 612). Jesus não fingiu ser forte. Por isso ele conhece o seu medo por dentro.",
+            "Deus não respondeu ao sofrimento humano com um discurso. Ele veio sofrer conosco. O Filho de Deus se fez homem, sentiu fome e cansaço, chorou diante do túmulo do amigo (Jo 11,35) e, na noite antes de morrer, pediu ao Pai que afastasse dele aquele cálice (Mt 26,39). O Catecismo vê nessa oração o horror que a morte causava à sua natureza humana (CIC 612). A Carta aos Hebreus diz que temos um sumo sacerdote capaz de se compadecer das nossas fraquezas, porque passou pelas mesmas provações que nós, exceto o pecado (Hb 4,15).",
         },
         { titulo: "O grito da cruz" },
         {
@@ -115,7 +115,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "Não é só para a hora da morte" },
         {
           texto:
-            "Durante séculos, a unção foi dada quase só a quem estava morrendo, e por isso ganhou o nome de extrema-unção (CIC 1512). Mas ela não é apenas o sacramento dos últimos momentos. A hora certa de recebê-la é quando a pessoa começa a correr perigo de vida por doença ou por velhice (CIC 1514; cân. 1004). Pode ser repetida se a doença se agrava, ou se a pessoa melhora e depois volta a adoecer gravemente, e convém recebê-la antes de uma cirurgia importante (CIC 1515). Só o sacerdote, padre ou bispo, pode administrá-la (CIC 1516; cân. 1003). O Código pede aos parentes que cuidem para que o doente a receba no tempo certo (cân. 1001): não espere ele perder a consciência para chamar o padre.",
+            "Durante séculos, a unção foi dada quase só a quem estava morrendo, e por isso ganhou o nome de extrema-unção (CIC 1512). Mas ela não é apenas o sacramento dos últimos momentos. A hora certa de recebê-la é quando a pessoa começa a correr perigo de vida por doença ou por velhice (CIC 1514; cân. 1004). Pode ser repetida se a doença se agrava, ou se a pessoa melhora e depois volta a adoecer gravemente, e convém recebê-la antes de uma cirurgia importante (CIC 1515). Só o sacerdote, padre ou bispo, pode administrá-la (CIC 1516; cân. 1003). O Código pede aos pastores e aos parentes que cuidem para que o doente a receba no tempo certo (cân. 1001): não espere ele perder a consciência para chamar o padre.",
         },
         { titulo: "O que o sacramento faz" },
         {
@@ -125,7 +125,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "Cuidar de quem sofre" },
         {
           texto:
-            "Visitar os doentes é uma obra de misericórdia (CIC 2447), e Jesus diz que é a ele que visitamos (Mt 25,36; CIC 1503). Em muitas paróquias há uma pastoral da saúde e ministros que levam a comunhão a quem não pode ir à missa: procure a secretaria e peça. O doente merece respeito especial e todo o amparo possível (CIC 2276). Os cuidados normais nunca podem ser suspensos, e o remédio contra a dor é legítimo mesmo com o risco de abreviar a vida, desde que a morte não seja buscada; os cuidados paliativos são uma forma especial de caridade (CIC 2279). Também é legítimo recusar tratamentos desproporcionados, que só prolongam o sofrimento. Isso é diferente de provocar a morte, que a Igreja rejeita sempre (CIC 2277; CIC 2278).",
+            "Visitar os doentes é uma obra de misericórdia (CIC 2447), e Jesus diz que é a ele que visitamos (Mt 25,36; CIC 1503). Em muitas paróquias há uma pastoral da saúde e ministros que levam a comunhão a quem não pode ir à missa: procure a secretaria e peça. O doente merece respeito especial e todo o amparo possível (CIC 2276). Os cuidados normais nunca podem ser suspensos, e o remédio contra a dor é legítimo mesmo com o risco de abreviar a vida, desde que a morte não seja buscada; os cuidados paliativos são uma forma especial de caridade (CIC 2279). Também pode ser legítimo suspender tratamentos onerosos, perigosos, extraordinários ou desproporcionados aos resultados esperados: não se quer provocar a morte, apenas se aceita não poder impedi-la (CIC 2278). Isso é diferente da eutanásia, que é sempre moralmente inaceitável (CIC 2277).",
         },
         {
           texto:

@@ -66,3 +66,14 @@ Critério de equilíbrio: cada lição traz luzes e sombras (Ananias e Safira, o
 - Ponto delicado: os fatos de 2025 (morte de Francisco, eleição de Leão XIV, canonização de Carlo Acutis e Frassati) são os mais recentes do curso: conferir.
 - "A Igreja cresce na África e na Ásia": sem número, de propósito.
 - Link: curso Catequese de adultos.
+
+## Conferência final (13/11/2026)
+Regras: `docs/conferencia-doutrinal.md`. Tom revisto pelo CIC 817-819 e 838: sereno, sem juízo sobre outras confissões, fatos só de consenso, sombras ditas junto com o pedido de perdão da própria Igreja. Todos os números de CIC conferidos; os acrescentados (80, 457, 460, 828, 838, 966, 1113, 1993, 36, 159) também.
+
+- Lição 2: saiu "a proximidade com o poder trouxe tentações" (juízo). Catacumbas: fica o fato (eram cemitérios), sem o "ao contrário do que às vezes se diz".
+- Lição 3: a explicação "se Jesus não fosse Deus..." virou CIC 457 e 460 e a frase de São Gregório de Nazianzo (Carta 101, a Cledônio): o que não foi assumido não foi curado. Sobre as Igrejas que não aceitaram Éfeso ou Calcedônia, saiu "rivalidades políticas"; ficam as declarações comuns.
+- Lição 4: saiu "idade das trevas", "manteve as cidades de pé" e "muitos tinham se acomodado à riqueza". Cisma de 1054 com o CIC 838 (comunhão profunda com os ortodoxos). Cruzadas: "uniram fé sincera e muita violência" e o saque de 1204. Inquisição: "recorreu também a métodos de força, como a tortura", seguido do pedido de perdão do Jubileu de 2000 pela intolerância e violência a serviço da verdade. Santa Catarina de Sena: leiga da Ordem Terceira dominicana e Doutora da Igreja.
+- Lição 5 (Reforma): saiu o retrato dos papas do Renascimento e "Alexandre VI tinha filhos". As indulgências: abusos de dinheiro "que o próprio Concílio de Trento depois mandou eliminar". Lutero: "o debate logo foi além delas e chegou a pontos centrais da fé, como a autoridade do papa, os sacramentos e a Tradição" (resolve o resumo impreciso). Guerras de religião "até a Paz de Vestfália, uma ferida para todos os cristãos", sem lados. Trento com CIC 80, 1993, 1113 e 1376. "A verdadeira reforma veio dos santos" virou o CIC 828. A parte "Hoje" (CIC 817, 818, 821, Augsburgo 1999, Lund 2016) fica.
+- Lição 6: a escravidão fica como fato, sem "a Igreja não condenou com a mesma clareza" e sem "a voz da Igreja chegou tarde"; ficam Paulo III (1537), Gregório XVI (1839), Leão XIII (1888) e os pedidos de perdão de 1992 e 2015. Mártires de Cunhaú e Uruaçu: "tropas a serviço dos holandeses", sem nomear confissão.
+- Lição 7: Vaticano I com CIC 36 e 159; Assunção com CIC 966. Saiu "confusão, abusos na liturgia e padres que deixaram o ministério" (tema polêmico); fica Bento XVI à Cúria (2005), reforma na continuidade.
+- Lição 8: fatos de 2025 conferidos (morte de Francisco em 21/4, eleição de Leão XIV em 8/5, canonização de Carlo Acutis e Frassati em 7/9). Fica como está.

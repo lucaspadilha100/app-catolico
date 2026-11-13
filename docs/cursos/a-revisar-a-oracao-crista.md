@@ -39,3 +39,14 @@ Arquivo: `src/devocao/cursos/a-oracao-crista.ts`. Base: quarta parte do Catecism
 - Ângelus "às seis, ao meio-dia e às seis da tarde" e o terço: apresentados como costume, não como norma.
 - "Dez a quinze minutos" de oração pessoal: sugestão do curso, não norma.
 - Remete ao curso "Rezar com a Bíblia" (`/cursos/rezar-com-a-biblia`).
+
+## Conferência final (13/11/2026)
+Regras: `docs/conferencia-doutrinal.md`. Todos os números de CIC conferidos de novo: conferem.
+
+- Lição 1: saiu "nem um esforço para esvaziar a mente" (alusão a outras religiões). As paráfrases de Teresinha e Damasceno estão fiéis ao CIC 2558-2559.
+- Lição 3: saiu "ficar de pé lembra a ressurreição" (sem fonte) e duas frases de opinião. A genuflexão cita a Instrução Geral do Missal Romano, 274 (conferida no vatican.va). Ajoelhar e inclinar diante da Eucaristia: CIC 1378.
+- Lição 4: Tertuliano não é santo nem Padre da Igreja; a frase "resumo de todo o Evangelho" passa a ser do Catecismo (CIC 2761). "As primeiras comunidades" (CIC 2767). O Reino: o desejo da vinda final empenha a Igreja na sua missão neste mundo (CIC 2818), em vez de "um mundo mais justo". O tom sobre as imagens de pai (CIC 2779) fica.
+- Lição 5: a tradução de "não nos deixeis cair em tentação" fica sem comentário (CIC 2846 explica o sentido). "De cada dia" é a forma rezada; fica.
+- Lição 6: Santa Teresinha citada com a obra (História de uma Alma). "O Deus das consolações e não as consolações de Deus" saiu (autor incerto). "Deus demora para alargar o desejo" agora com CIC 2737 (Santo Agostinho).
+- Lição 7: saiu a opinião sobre quem muda tudo de uma vez. Ângelus e "dez a quinze minutos" ficam como costume e sugestão.
+- Ação de graças: (CIC 1360; 2637), porque a etimologia de Eucaristia está no 1360.

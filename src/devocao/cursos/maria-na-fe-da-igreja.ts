@@ -28,7 +28,7 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "Quem não é católico às vezes diz que a Bíblia fala pouco de Maria. É verdade que os textos são poucos, mas estão nos momentos decisivos: a encarnação, o nascimento, o primeiro milagre, a cruz e o nascimento da Igreja. Os evangelistas não precisavam falar muito para mostrar quem ela é. A Igreja não acrescenta nada à Escritura quando honra Maria: lê com atenção o que já está lá.",
+            "Os textos sobre Maria são poucos, mas estão nos momentos decisivos: a encarnação, o nascimento, o primeiro milagre, a cruz e o nascimento da Igreja.",
         },
         { ir: "/rezar/oracoes/angelus", rotulo: "Angelus" },
         {
@@ -43,7 +43,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "LUK 1:39-45" },
         {
           texto:
-            "Isabel, cheia do Espírito Santo, recebe Maria e lhe pergunta como merece que a mãe do seu Senhor venha visitá-la. No Antigo Testamento, Senhor é o nome que se dá a Deus. Antes do nascimento de Jesus, a Escritura já chama Maria de mãe do Senhor. A Igreja tira daí, com toda a lógica, o título mais antigo e mais importante de Nossa Senhora: Mãe de Deus (CIC 495).",
+            "Isabel, cheia do Espírito Santo, recebe Maria e lhe pergunta como merece que a mãe do seu Senhor venha visitá-la. No Antigo Testamento, Senhor é o nome que se dá a Deus. Antes do nascimento de Jesus, a Escritura já chama Maria de mãe do Senhor. Por isso a Igreja lhe dá o título mais antigo e mais importante de Nossa Senhora: Mãe de Deus (CIC 495).",
         },
         { titulo: "O Concílio de Éfeso" },
         {
@@ -52,12 +52,12 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "O título, portanto, fala antes de tudo de Jesus. Quem diz Mãe de Deus confessa que aquele menino nascido em Belém é Deus de verdade, e não um homem a quem Deus se juntou depois. Segundo relatos da época, os cristãos de Éfeso acompanharam os bispos com tochas e cânticos quando a decisão foi anunciada. Defender o nome da mãe era defender a divindade do Filho.",
+            "O título, portanto, fala antes de tudo de Jesus. Quem diz Mãe de Deus confessa que aquele menino nascido em Belém é Deus de verdade, e não um homem a quem Deus se juntou depois. São Cirilo conta, numa carta, que o povo de Éfeso acompanhou os bispos com tochas quando a decisão foi anunciada. Defender o nome da mãe era defender a divindade do Filho.",
         },
         { titulo: "Uma dúvida comum" },
         {
           texto:
-            "Alguém pode perguntar: como Deus, que é eterno, pode ter mãe? Maria não deu origem à divindade, que existe desde sempre. Ela gerou segundo a carne uma pessoa, e essa pessoa é o Filho de Deus. Uma mãe não é mãe só do corpo do filho, mas do filho inteiro. Assim, Maria é mãe de Jesus inteiro, que é Deus e homem (CIC 509).",
+            "Alguém pode perguntar: como Deus, que é eterno, pode ter mãe? O Concílio de Éfeso respondeu: Maria é Mãe de Deus não porque o Verbo tenha recebido dela a natureza divina, mas porque dela recebeu o corpo sagrado, e é segundo a carne que se diz que o Verbo nasceu (CIC 466). Ela é verdadeiramente mãe do Filho eterno de Deus feito homem (CIC 509).",
         },
         {
           texto:
@@ -82,16 +82,16 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "Antes, durante e depois do parto" },
         {
           texto:
-            "A Igreja vai além e professa que Maria permaneceu virgem por toda a vida (CIC 499). Os cristãos antigos a chamavam de sempre virgem, e a liturgia usa esse título até hoje. A tradição resume essa fé dizendo que ela foi virgem antes do parto, no parto e depois do parto. O nascimento de Jesus não diminuiu a integridade da mãe, mas a consagrou. E, depois dele, Maria e José viveram como esposos inteiramente dedicados ao mistério do Filho.",
+            "A Igreja vai além e professa que Maria permaneceu virgem por toda a vida (CIC 499). Os cristãos antigos a chamavam de sempre virgem, e a liturgia usa esse título até hoje. Santo Agostinho resumia essa fé dizendo que ela foi virgem ao conceber o Filho, virgem ao dá-lo à luz e virgem para sempre (CIC 510). O nascimento de Jesus não diminuiu a integridade da mãe, mas a consagrou. E, depois dele, Maria e José viveram como esposos inteiramente dedicados ao mistério do Filho.",
         },
         { titulo: "E os irmãos de Jesus?" },
         {
           texto:
-            "Quem não é católico costuma lembrar que os Evangelhos falam dos irmãos de Jesus (Mc 6,3). A Igreja responde com serenidade. Em hebraico e aramaico não havia palavra própria para primo ou parente próximo, e a Bíblia chama de irmãos pessoas de uma mesma família, como Abraão e Ló, que eram tio e sobrinho (Gn 13,8). Tiago e José, citados entre os irmãos de Jesus, são filhos de outra Maria, que estava junto à cruz (Mt 27,56). Por isso o Catecismo diz que se trata de parentes próximos de Jesus (CIC 500).",
+            "Os Evangelhos falam dos irmãos de Jesus (Mc 6,3). A Igreja sempre entendeu que essas passagens não indicam outros filhos de Maria (CIC 500). O Antigo Testamento chama de irmãos pessoas de uma mesma família, como Abraão e Ló, que eram tio e sobrinho (Gn 13,8). Tiago e José, citados entre os irmãos de Jesus, são filhos de outra Maria, que estava junto à cruz (Mt 27,56). Por isso o Catecismo diz que se trata de parentes próximos de Jesus (CIC 500).",
         },
         {
           texto:
-            "A leitura de hoje termina dizendo que José não conheceu Maria até que ela deu à luz o primogênito. Na linguagem da Bíblia, até que diz o que aconteceu até um ponto, sem afirmar nada sobre depois: o mesmo modo de falar aparece, por exemplo, em 2Sm 6,23. Primogênito, por sua vez, era o título do primeiro filho, que pertencia ao Senhor de modo especial, houvesse ou não outros depois dele (Ex 13,2). E, se Maria tivesse outros filhos, seria estranho que Jesus na cruz a entregasse ao cuidado do discípulo amado (Jo 19,27).",
+            "A leitura de hoje termina dizendo que José não conheceu Maria até que ela deu à luz o primogênito. São Jerônimo, no seu escrito contra Helvídio, já explicava que, na linguagem da Bíblia, até que diz o que aconteceu até um ponto, sem afirmar nada sobre depois: o mesmo modo de falar aparece, por exemplo, em 2Sm 6,23. Primogênito, por sua vez, era o título do primeiro filho, que pertencia ao Senhor de modo especial, houvesse ou não outros depois dele (Ex 13,2).",
         },
         {
           texto:
@@ -109,7 +109,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "GEN 3:9-15" },
         {
           texto:
-            "Depois do primeiro pecado, Deus procura Adão, ouve as desculpas do homem e da mulher e fala à serpente. Anuncia uma inimizade entre ela e a mulher, entre a descendência de uma e da outra. Os cristãos sempre leram nessas palavras o primeiro anúncio da vitória sobre o mal (CIC 410-411). A mulher que está do lado oposto ao da serpente é Maria, a mãe do Redentor.",
+            "Depois do primeiro pecado, Deus procura Adão, ouve as desculpas do homem e da mulher e fala à serpente. Anuncia uma inimizade entre ela e a mulher, entre a descendência de uma e da outra. A Igreja chama essas palavras de Protoevangelho, o primeiro anúncio da vitória sobre o mal (CIC 410). Muitos Padres e Doutores da Igreja veem nessa mulher Maria, a mãe do Redentor, a nova Eva (CIC 411).",
         },
         { titulo: "O que a Igreja crê" },
         {
@@ -123,11 +123,11 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "Maria também foi salva" },
         {
           texto:
-            "Quem não é católico às vezes pergunta: se Maria não teve pecado, ela não precisou de Salvador? Precisou, e ela mesma o diz no Magnificat, quando chama Deus de meu Salvador (Lc 1,47). Todos nós somos salvos por Cristo sendo libertados do pecado depois de cair nele. Maria foi salva por Cristo de um modo mais alto: foi preservada antes de cair (CIC 492). Toda a sua santidade vem do Filho, e por isso nada nela faz sombra a ele.",
+            "Às vezes se pergunta: se Maria não teve pecado, ela não precisou de Salvador? Precisou, e ela mesma o diz no Magnificat, quando chama Deus de meu Salvador (Lc 1,47). Todos nós somos salvos por Cristo sendo libertados do pecado depois de cair nele. Maria foi salva por Cristo de um modo mais alto: foi preservada antes de cair (CIC 492). Toda a sua santidade vem do Filho, e por isso nada nela faz sombra a ele.",
         },
         {
           texto:
-            "O anjo a chamou de cheia de graça (Lc 1,28), e a Igreja do Oriente a chama de Toda Santa (CIC 493). Em 1858, em Lourdes, Nossa Senhora se apresentou a Santa Bernadete com o nome de Imaculada Conceição, quatro anos depois da definição. No Brasil, a pequena imagem encontrada no rio Paraíba e venerada como Nossa Senhora Aparecida é uma imagem da Imaculada Conceição. A solenidade é celebrada no dia 8 de dezembro.",
+            "O anjo a chamou de cheia de graça (Lc 1,28), e a Igreja do Oriente a chama de Toda Santa (CIC 493). Em 1858, em Lourdes, na aparição reconhecida pela Igreja, a Senhora se apresentou a Santa Bernadete com o nome de Imaculada Conceição, quatro anos depois da definição. No Brasil, a pequena imagem encontrada no rio Paraíba e venerada como Nossa Senhora Aparecida é uma imagem da Imaculada Conceição. A solenidade é celebrada no dia 8 de dezembro.",
         },
         { ir: "/rezar/novenas/imaculada-conceicao", rotulo: "Novena da Imaculada Conceição" },
         {
@@ -152,12 +152,12 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "O dogma de 1950 não inventou uma fé nova. Desde os primeiros séculos, os cristãos do Oriente e do Ocidente celebravam o fim da vida de Maria na terra e a sua entrada na glória. Antes de definir o dogma, Pio XII consultou os bispos do mundo inteiro, e a resposta foi quase unânime.",
+            "O dogma de 1950 não trouxe uma fé nova. Havia muitos séculos que os cristãos do Oriente e do Ocidente celebravam o fim da vida de Maria na terra e a sua entrada na glória. Antes de definir o dogma, Pio XII consultou os bispos do mundo inteiro, e ele mesmo registra, na constituição Munificentissimus Deus, que a resposta foi quase unânime.",
         },
         { titulo: "Por que isso importa para nós" },
         {
           texto:
-            "Quem não é católico às vezes estranha que a Igreja afirme algo que a Bíblia não narra. A Escritura também não narra a morte de Maria nem a de muitos apóstolos. A Igreja crê na Assunção como consequência de tudo o que a Escritura diz sobre ela: aquela que foi unida ao Filho na vida, na cruz e na ressurreição, também foi unida a ele na glória. O que aconteceu com Maria é o que esperamos para nós: a ressurreição da carne e a vida eterna (CIC 966).",
+            "Às vezes se pergunta por que a Igreja afirma algo que a Bíblia não narra. A Escritura também não narra a morte de Maria nem a de muitos apóstolos. A Igreja vê na Assunção uma participação singular na ressurreição do Filho (CIC 966). O que aconteceu com Maria é uma antecipação do que esperamos para nós: a ressurreição da carne e a vida eterna.",
         },
         {
           texto:
@@ -186,12 +186,12 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "A intercessão" },
         {
           texto:
-            "Cristo é o único mediador entre Deus e os homens (1Tm 2,5). Isso não impede que os cristãos rezem uns pelos outros, como São Paulo pedia constantemente. Se pedimos a um irmão na terra que reze por nós, com mais razão pedimos a Maria, que está viva junto de Deus. A sua intercessão não tira nada da mediação de Cristo, mas depende inteiramente dela (CIC 970). Na Ave-Maria, a primeira parte vem do Evangelho e louva a Deus pelo que ele fez nela; a segunda pede que ela reze por nós agora e na hora da morte.",
+            "Cristo é o único mediador entre Deus e os homens (1Tm 2,5). Isso não impede que os cristãos rezem uns pelos outros, como São Paulo pedia constantemente. A Igreja ensina que os santos no céu não deixam de interceder por nós junto do Pai, graças ao único Mediador (CIC 956), e podemos rezar com Maria e rezar a ela (CIC 2679). A sua intercessão não tira nada da mediação de Cristo, mas depende inteiramente dela (CIC 970). Na Ave-Maria, a primeira parte vem do Evangelho e louva a Deus pelo que ele fez nela; a segunda pede que ela reze por nós agora e na hora da morte.",
         },
         { titulo: "O terço" },
         {
           texto:
-            "O terço é uma oração simples, que cabe no bolso e na vida de quem trabalha, viaja ou está doente. Enquanto se repetem as Ave-Marias, medita-se a vida de Jesus nos mistérios gozosos, luminosos, dolorosos e gloriosos. Rezar o terço é olhar para Cristo com os olhos de Maria, que guardava tudo no coração. Os papas o recomendaram muitas vezes como oração da família e da Igreja.",
+            "O terço é uma oração simples, que cabe no bolso e na vida de quem trabalha, viaja ou está doente. Enquanto se repetem as Ave-Marias, medita-se a vida de Jesus nos mistérios gozosos, luminosos, dolorosos e gloriosos. São João Paulo II, na carta Rosarium Virginis Mariae, de 2002, ensinou que rezar o terço é contemplar com Maria o rosto de Cristo, e propôs os mistérios luminosos. Os papas o recomendaram muitas vezes como oração da família e da Igreja.",
         },
         { ir: "/rezar/terco", rotulo: "Rezar o terço" },
         { titulo: "As aparições" },

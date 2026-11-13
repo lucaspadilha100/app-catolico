@@ -84,7 +84,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "MRK 3:13-19" },
         {
           texto:
-            "Jesus subiu ao monte e chamou os que ele quis. A iniciativa foi dele. Escolheu doze para duas coisas: para ficarem com ele e para serem enviados a pregar. Essas duas palavras resumem a vocação de quem é ordenado: estar com Jesus e ser enviado em nome dele. A lista dos Doze mostra homens muito diferentes entre si, pescadores, um cobrador de impostos, um zelote, e até aquele que o trairia. Jesus não escolheu os mais preparados: foi formando, aos poucos, aqueles que escolheu.",
+            "Jesus subiu ao monte e chamou os que ele quis. A iniciativa foi dele. Escolheu doze para duas coisas: para ficarem com ele e para serem enviados a pregar. Essas duas palavras resumem a vocação de quem é ordenado: estar com Jesus e ser enviado em nome dele. A lista dos Doze mostra homens muito diferentes entre si, pescadores, um cobrador de impostos, um zelote, e até aquele que o trairia. E Jesus foi formando, aos poucos, aqueles que escolheu.",
         },
         { titulo: "O sacramento da Ordem" },
         {
@@ -178,11 +178,11 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "Na paróquia e fora dela" },
         {
           texto:
-            "Muitos leigos servem também dentro da Igreja: na catequese, na liturgia, nas pastorais, nos movimentos. Em 2021, o papa Francisco abriu a homens e mulheres os ministérios instituídos de leitor e de acólito e criou o ministério instituído de catequista. Esses serviços são valiosos. Mas o campo principal do leigo continua sendo o mundo. Um leigo que só se sente cristão dentro da igreja ainda não descobriu toda a sua vocação.",
+            "Muitos leigos servem também dentro da Igreja: na catequese, na liturgia, nas pastorais, nos movimentos. Em 2021, o papa Francisco abriu a homens e mulheres os ministérios instituídos de leitor e de acólito e criou o ministério instituído de catequista. Esses serviços são valiosos. Mas o campo próprio do leigo continua sendo o mundo (CIC 898).",
         },
         {
           texto:
-            "Há também quem não se casa, nem por isso entra na vida consagrada. Às vezes por escolha, às vezes pelas circunstâncias. A Igreja olha essas pessoas com estima e lembra que elas também têm lugar na família de Deus (CIC 1658). Viver solteiro não é ficar sem vocação: o chamado à santidade continua inteiro, e a castidade é vivida de acordo com esse estado (CIC 2349). Muitos solteiros servem a família, a comunidade e os pobres com uma liberdade que outros não têm.",
+            "Há também quem não se casa, nem por isso entra na vida consagrada. Às vezes por escolha, às vezes pelas circunstâncias. A Igreja olha essas pessoas com estima e lembra que elas também têm lugar na família de Deus (CIC 1658). Viver solteiro não é ficar sem vocação: o chamado à santidade continua inteiro, e a castidade é vivida de acordo com esse estado (CIC 2349). O Catecismo lembra que muitos vivem essa situação no espírito das bem-aventuranças, servindo a Deus e ao próximo de modo exemplar (CIC 1658).",
         },
         {
           texto:
@@ -205,7 +205,7 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "Discernir não é esperar uma voz do céu nem um sinal milagroso. Deus costuma falar pelos desejos mais profundos do coração, pelas qualidades e limites de cada um, pelas circunstâncias da vida e pela Igreja. Discernir é aprender a reconhecer, no meio disso tudo, o que vem de Deus. A Igreja aponta três ajudas que caminham juntas: a oração, a direção espiritual e a comunidade.",
+            "Discernir não é esperar uma voz do céu nem um sinal milagroso. É aprender a reconhecer, na própria vida, o que vem de Deus. A Igreja aponta três ajudas que caminham juntas: a oração, a direção espiritual e a comunidade.",
         },
         { titulo: "A oração" },
         {
@@ -229,7 +229,7 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "Alguns sinais ajudam a separar um bom discernimento de um engano. Bons sinais: paz que permanece, liberdade interior, alegria serena, vontade de servir e crescimento no amor. Sinais de alerta: medo, pressa, desejo de fugir de um problema, vaidade ou pressão de outras pessoas. O discernimento não dura para sempre: chega o momento de dizer sim e dar o passo. E se o passo se mostrar equivocado, os próprios caminhos da Igreja, com o seu tempo de formação, existem para corrigir a rota com serenidade.",
+            "Santo Inácio, nas regras de discernimento dos Exercícios Espirituais, ensina que o bom espírito traz paz, alegria interior e aumento da fé, da esperança e do amor, e que o mau espírito traz inquietação, tristeza e confusão. E uma escolha feita sob pressão de outras pessoas não é livre, como a Igreja quer (cân. 219). O discernimento não dura para sempre: chega o momento de dizer sim e dar o passo. E se o passo se mostrar equivocado, os próprios caminhos da Igreja, com o seu tempo de formação, existem para corrigir a rota com serenidade.",
         },
         {
           pratica:

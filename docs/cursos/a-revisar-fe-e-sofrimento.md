@@ -51,3 +51,12 @@ Arquivo: `src/devocao/cursos/fe-e-sofrimento.ts`. Texto próprio, sem citação 
 - Santa Teresinha morreu de tuberculose em 1897, aos 24 anos: conferir se a frase "viveu desse modo os seus últimos meses" agrada.
 - Ponto delicado: a explicação de Cl 1,24 ("não falta nada ao sacrifício de Jesus") é a leitura comum da Igreja; conferir a formulação.
 - Ponto delicado: o parágrafo para quem perdeu alguém por suicídio. Conferir o tom e a fidelidade a 2282-2283.
+
+## Conferência final (13/11/2026)
+Regras: `docs/conferencia-doutrinal.md`. Todos os números de CIC e cânon conferidos de novo: conferem.
+
+- Lição 1: a lista das "frases que machucam" fica: apoia-se em Jo 9,1-3 e Lc 13,4-5 e no CIC 311.
+- Lição 2: saiu "quem se queixou com sinceridade agradou mais a Deus" e "afasta-se quem para de falar com ele" (deduções). "O meu Redentor vive" lido de Cristo: atribuído a São Gregório Magno (Moralia em Jó). Depressão, CVV 188 e SUS: ficam (serviço público, não doutrina).
+- Lição 3: "Jesus não fingiu ser forte... conhece o seu medo por dentro" virou Hb 4,15.
+- Lição 4: cân. 1001 fala dos pastores e dos parentes (corrigido). Fim de vida com as palavras do CIC 2278 (tratamentos onerosos, perigosos, extraordinários ou desproporcionados; não se quer dar a morte, aceita-se não a poder impedir) e do CIC 2277 (eutanásia sempre inaceitável). Resolve o ponto de "só prolongam o sofrimento".
+- Lição 5: Cl 1,24 segue CIC 618 e 1508; Santa Teresinha fica; o parágrafo sobre o suicídio segue fiel ao CIC 2282-2283.

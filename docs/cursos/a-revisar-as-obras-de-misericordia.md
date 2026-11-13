@@ -52,3 +52,13 @@ Cada número conferido no texto português do Catecismo e do Código (vatican.va
 - Sem número, corrigido: a indulgência de 1º a 8 de novembro tinha três condições; faltava a rejeição de todo apego ao pecado, que é condição da indulgência plenária. Acrescentada.
 - Conferido sem mudar: CIC 1033, 2447 (definição; a lista das catorze vem da tradição), 2446 (São João Crisóstomo), 2462, 1514, 2300, CIC 2301 com cân. 1176 §3 (cremação), 1831, 1829, 2840, 2843, 2478, 1030-1031, 1032.
 - Continuam para o dono: as pastorais citadas como exemplo, o conselho sobre violência e abuso na lição 6 e a lista das catorze obras na forma tradicional.
+
+## Conferência final (13/11/2026)
+Regras: `docs/conferencia-doutrinal.md`. Todos os números conferidos de novo: conferem.
+
+- Lição 1: o samaritano como imagem de Cristo é leitura de Santo Agostinho e de outros Padres; o nome foi posto. A lista das catorze obras fica na forma tradicional (CIC 2447 traz a definição). A etimologia de misericórdia fica (fato de língua).
+- Lição 2: "a religião que não chega à mesa do pobre fica pela metade" virou Tg 2,17.
+- Lição 4: cinzas com o cân. 1176 §3 e a instrução Ad resurgendum cum Christo (2016), que é a norma de base; a resposta de 2023 do Dicastério não entra (é exceção concedida pelo Ordinário).
+- Lição 5: saiu "e a que mais se faz mal"; "ensina-se mais pelo exemplo" virou CIC 2223 (bom exemplo dos pais).
+- Lição 6: violência e abuso: "pode buscar proteção, e a Igreja admite em certos casos até a separação dos esposos, permanecendo o vínculo (CIC 2383)". O "direito e dever" saiu por não ter número que o sustente. Tristeza profunda e tratamento: fica (cuidado com a saúde).
+- Lição 7: indulgência de 1º a 8 de novembro com as quatro condições: fica. Pastorais citadas como exemplo: ficam.

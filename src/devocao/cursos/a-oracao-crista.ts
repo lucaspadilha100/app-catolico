@@ -14,7 +14,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "Uma conversa com quem nos ama" },
         {
           texto:
-            "Santa Teresinha do Menino Jesus dizia que, para ela, a oração era um impulso do coração, um olhar simples lançado ao céu, um grito de gratidão e de amor, tanto na alegria quanto na dor (CIC 2558). Um antigo doutor da Igreja, São João Damasceno, definia a oração como elevar a alma a Deus e pedir a ele os bens que nos convêm (CIC 2559). As duas definições dizem a mesma coisa de modos diferentes: rezar é entrar em relação com Deus. Não é recitar fórmulas para cumprir uma obrigação, nem um esforço para esvaziar a mente. É falar e escutar alguém que está vivo e nos conhece.",
+            "Santa Teresinha do Menino Jesus dizia que, para ela, a oração era um impulso do coração, um olhar simples lançado ao céu, um grito de gratidão e de amor, tanto na alegria quanto na dor (CIC 2558). Um antigo doutor da Igreja, São João Damasceno, definia a oração como elevar a alma a Deus e pedir a ele os bens que nos convêm (CIC 2559). As duas definições dizem a mesma coisa de modos diferentes: rezar é entrar em relação com Deus. Não é recitar fórmulas só para cumprir uma obrigação. É falar e escutar alguém que está vivo e nos conhece.",
         },
         {
           texto:
@@ -56,7 +56,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "Ação de graças e louvor" },
         {
           texto:
-            "A ação de graças é a oração de quem reconhece o que recebeu. A própria palavra Eucaristia quer dizer ação de graças, e é na missa que a Igreja mais agradece (CIC 2637). Todo acontecimento, até uma dificuldade atravessada com Deus, pode virar motivo de gratidão (CIC 2638). O louvor vai ainda mais longe: canta a Deus não só pelo que ele faz, mas simplesmente porque ele é Deus (CIC 2639). O louvor reúne as outras formas e as leva de volta àquele de quem tudo vem.",
+            "A ação de graças é a oração de quem reconhece o que recebeu. A própria palavra Eucaristia quer dizer ação de graças, e é na missa que a Igreja mais agradece (CIC 1360; 2637). Todo acontecimento, até uma dificuldade atravessada com Deus, pode virar motivo de gratidão (CIC 2638). O louvor vai ainda mais longe: canta a Deus não só pelo que ele faz, mas simplesmente porque ele é Deus (CIC 2639). O louvor reúne as outras formas e as leva de volta àquele de quem tudo vem.",
         },
         {
           pratica:
@@ -75,11 +75,11 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "O corpo também reza" },
         {
           texto:
-            "Somos corpo e alma, e é natural que o que se passa por dentro apareça por fora (CIC 2702). Deus quer a oração do coração, mas quer também que o corpo participe dela, porque a pessoa inteira lhe pertence (CIC 2703). Por isso a oração em voz alta, as palavras pronunciadas, tem um valor próprio, e foi uma oração vocal, o Pai-Nosso, que Jesus ensinou aos discípulos (CIC 2701). Quando o corpo se põe em atitude de oração, o coração costuma acompanhar mais facilmente.",
+            "Somos corpo e alma, e é natural que o que se passa por dentro apareça por fora (CIC 2702). Deus quer a oração do coração, mas quer também que o corpo participe dela, porque a pessoa inteira lhe pertence (CIC 2703). Por isso a oração em voz alta, as palavras pronunciadas, tem um valor próprio, e foi uma oração vocal, o Pai-Nosso, que Jesus ensinou aos discípulos (CIC 2701).",
         },
         {
           texto:
-            "Cada gesto tem um sentido. O sinal da cruz abre o dia e as orações e consagra a Deus o que vamos fazer (CIC 2157). Ficar de joelhos exprime humildade, súplica e adoração, e na missa se ajoelha ou se inclina profundamente diante do Senhor presente na Eucaristia (CIC 1378). Ficar de pé é a postura de quem está pronto e lembra a ressurreição. As mãos postas, a cabeça inclinada e as mãos erguidas, como diz São Paulo (1Tm 2,8), são modos antigos de rezar. Não é preciso fazer tudo, mas vale escolher com cuidado a postura de cada momento.",
+            "Cada gesto tem um sentido. O sinal da cruz abre o dia e as orações e consagra a Deus o que vamos fazer (CIC 2157). A genuflexão ou a inclinação profunda diante do Senhor presente na Eucaristia é sinal de adoração (CIC 1378). As mãos postas, a cabeça inclinada e as mãos erguidas, como diz São Paulo (1Tm 2,8), são modos antigos de rezar.",
         },
         { titulo: "Um lugar para rezar" },
         {
@@ -88,7 +88,7 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "Ao entrar numa igreja, é costume molhar os dedos na água benta e fazer o sinal da cruz, lembrando o batismo. Diante do sacrário, onde Jesus está presente, o gesto próprio é dobrar o joelho direito até o chão. O silêncio dentro da igreja não é só educação: é um modo de deixar espaço para Deus e para quem está rezando. O celular desligado também faz parte desse respeito.",
+            "Ao entrar numa igreja, é costume molhar os dedos na água benta e fazer o sinal da cruz, lembrando o batismo. Diante do sacrário, onde Jesus está presente, o gesto próprio é a genuflexão, dobrando o joelho direito até o chão (Instrução Geral do Missal Romano, 274). O silêncio dentro da igreja não é só educação: é um modo de deixar espaço para Deus e para quem está rezando. O celular desligado também faz parte desse respeito.",
         },
         {
           pratica:
@@ -102,7 +102,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "LUK 11:1-4" },
         {
           texto:
-            "Os discípulos veem Jesus rezando e pedem que ele os ensine. A resposta é o Pai-Nosso, a oração do Senhor. São Lucas traz uma forma curta, com cinco pedidos, e São Mateus uma forma mais longa, com sete, que é a que a Igreja reza na liturgia (CIC 2759). Tertuliano, um escritor cristão dos primeiros séculos, dizia que o Pai-Nosso é o resumo de todo o Evangelho (CIC 2761). Os primeiros cristãos o rezavam três vezes por dia (CIC 2767).",
+            "Os discípulos veem Jesus rezando e pedem que ele os ensine. A resposta é o Pai-Nosso, a oração do Senhor. São Lucas traz uma forma curta, com cinco pedidos, e São Mateus uma forma mais longa, com sete, que é a que a Igreja reza na liturgia (CIC 2759). O Catecismo o chama de resumo de todo o Evangelho (CIC 2761). As primeiras comunidades cristãs o rezavam três vezes por dia (CIC 2767).",
         },
         { ir: "/rezar/oracoes/pai-nosso", rotulo: "Pai-Nosso" },
         { titulo: "Pai nosso, que estais nos céus" },
@@ -117,7 +117,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "Os três primeiros pedidos" },
         {
           texto:
-            "O Pai-Nosso tem sete pedidos. Os três primeiros olham para Deus: o vosso nome, o vosso reino, a vossa vontade, como faz quem ama e pensa primeiro na pessoa amada (CIC 2803-2804). Pedir que o nome de Deus seja santificado é pedir que ele seja reconhecido como santo, e que a nossa vida não o desonre (CIC 2807; 2814). Pedir que venha o Reino é desejar a volta de Cristo no fim dos tempos, sem deixar de trabalhar desde já por um mundo mais justo (CIC 2816; 2818). Pedir que se faça a vontade do Pai é unir a nossa vontade à de Jesus, que no Getsêmani disse ao Pai que não se fizesse a sua vontade, mas a dele (CIC 2824-2825).",
+            "O Pai-Nosso tem sete pedidos. Os três primeiros olham para Deus: o vosso nome, o vosso reino, a vossa vontade, como faz quem ama e pensa primeiro na pessoa amada (CIC 2803-2804). Pedir que o nome de Deus seja santificado é pedir que ele seja reconhecido como santo, e que a nossa vida não o desonre (CIC 2807; 2814). Pedir que venha o Reino é desejar a volta de Cristo no fim dos tempos, e esse desejo, longe de nos distrair, nos empenha desde já na missão da Igreja neste mundo (CIC 2816; 2818). Pedir que se faça a vontade do Pai é unir a nossa vontade à de Jesus, que no Getsêmani disse ao Pai que não se fizesse a sua vontade, mas a dele (CIC 2824-2825).",
         },
         {
           pratica:
@@ -175,16 +175,16 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "A aridez" },
         {
           texto:
-            "Outra dificuldade, que costuma atingir justamente quem reza com sinceridade, é a aridez (CIC 2731). O coração fica seco: não se sente nada, as palavras parecem não chegar a lugar nenhum e a vontade é parar. É o momento da fé pura, de ficar ao lado de Jesus mesmo sem consolo, como os poucos que ficaram junto da cruz. Santa Teresinha contava que muitas vezes adormecia durante a oração e não se desesperava por isso, porque sabia que o Pai ama o filho também quando ele dorme. A oração não se mede pelo que se sente.",
+            "Outra dificuldade, que costuma atingir justamente quem reza com sinceridade, é a aridez (CIC 2731). O coração fica seco: não se sente nada, as palavras parecem não chegar a lugar nenhum e a vontade é parar. É o momento da fé pura, de ficar ao lado de Jesus mesmo sem consolo, como os poucos que ficaram junto da cruz. Santa Teresinha conta na História de uma Alma que muitas vezes adormecia durante a oração e não se desesperava por isso, porque sabia que o Pai ama o filho também quando ele dorme. A oração não se mede pelo que se sente.",
         },
         { titulo: "Falta de tempo, desânimo e o pedido não atendido" },
         {
           texto:
-            "Há tentações mais escondidas. Uma delas é achar que tudo é mais urgente do que rezar, o que no fundo revela pouca fé (CIC 2732). Outra é o desânimo, que os antigos chamavam de acédia: uma preguiça do coração que nasce de baixar a guarda (CIC 2733). Há ainda quem pare de rezar porque acha que Deus não o atendeu (CIC 2734). Vale perguntar se pedimos o que de fato é bom e se tratamos Deus como Pai ou como um meio para conseguir coisas (CIC 2735; 2737). Às vezes Deus demora porque quer alargar o nosso desejo para dar mais do que pedimos.",
+            "Há tentações mais escondidas. Uma delas é achar que tudo é mais urgente do que rezar, o que no fundo revela pouca fé (CIC 2732). Outra é o desânimo, que os antigos chamavam de acédia: uma preguiça do coração que nasce de baixar a guarda (CIC 2733). Há ainda quem pare de rezar porque acha que Deus não o atendeu (CIC 2734). Vale perguntar se pedimos o que de fato é bom e se tratamos Deus como Pai ou como um meio para conseguir coisas (CIC 2735; 2737). Deus quer que o nosso desejo se exercite na oração e se alargue, para podermos receber o que ele prepara para nos dar (CIC 2737).",
         },
         {
           texto:
-            "O remédio para todas essas dificuldades é a perseverança humilde, que vem do amor (CIC 2742). Rezar é sempre possível, porque Cristo está conosco todos os dias, até no meio do trabalho e das preocupações (CIC 2743). Quem continua rezando nos dias secos aprende a buscar o Deus das consolações, e não as consolações de Deus.",
+            "O remédio para todas essas dificuldades é a perseverança humilde, que vem do amor (CIC 2742). Rezar é sempre possível, porque Cristo está conosco todos os dias, até no meio do trabalho e das preocupações (CIC 2743).",
         },
         {
           pratica:
@@ -216,7 +216,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "Começar pequeno e ser fiel" },
         {
           texto:
-            "Não é preciso fazer tudo isso de uma vez. Quem quer mudar a vida de oração do dia para a noite costuma desistir em poucas semanas. Escolha dois ou três momentos, marque uma hora e um lugar e seja fiel a eles; depois, acrescente outros aos poucos. A oração não se faz quando sobra tempo: arranja-se tempo para ela, como se faz para quem se ama (CIC 2710).",
+            "Não é preciso fazer tudo isso de uma vez. Escolha dois ou três momentos, marque uma hora e um lugar e seja fiel a eles; depois, acrescente outros aos poucos. A oração não se faz quando sobra tempo: arranja-se tempo para ela, como se faz para quem se ama (CIC 2710).",
         },
         {
           texto:

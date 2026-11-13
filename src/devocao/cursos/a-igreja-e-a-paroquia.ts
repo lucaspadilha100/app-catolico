@@ -24,11 +24,11 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "Templo do Espírito Santo" },
         {
           texto:
-            "Os antigos comparavam o Espírito Santo à alma: o que a alma é para o corpo, o Espírito é para a Igreja (CIC 797). É ele que mantém os membros unidos entre si e com a cabeça. Ele edifica a Igreja pela Palavra de Deus, pelos sacramentos, pelas virtudes e pelos dons que distribui a cada um (CIC 798). Alguns desses dons são extraordinários, a maioria é simples e escondida, e todos existem para o bem da comunidade (CIC 799).",
+            "Santo Agostinho comparava o Espírito Santo à alma: o que a alma é para o corpo, o Espírito é para a Igreja (CIC 797). É ele que mantém os membros unidos entre si e com a cabeça. Ele edifica a Igreja pela Palavra de Deus, pelos sacramentos, pelas virtudes e pelos dons que distribui a cada um (CIC 798). Alguns desses dons são extraordinários, a maioria é simples e escondida, e todos existem para o bem da comunidade (CIC 799).",
         },
         {
           texto:
-            "As três imagens falam da mesma realidade e mostram a Trindade agindo: o povo é do Pai, o corpo é do Filho, o templo é do Espírito (CIC 776). Por isso a Igreja não é um clube de pessoas que pensam parecido, nem uma repartição que distribui serviços religiosos. Ela é sinal e instrumento pelo qual Cristo continua a salvar. Dizer que se tem fé em Cristo, mas não se precisa da Igreja, é como querer a cabeça sem o corpo.",
+            "As três imagens falam da mesma realidade: Deus quer que todo o gênero humano forme um só povo de Deus, se una num só Corpo de Cristo e se edifique num só templo do Espírito Santo. A Igreja é o sacramento universal da salvação, o instrumento de que Cristo se serve para salvar (CIC 776). Santa Joana d'Arc disse aos seus juízes que Jesus Cristo e a Igreja são uma coisa só, e o Catecismo vê nessa frase o bom senso do crente (CIC 795).",
         },
         { ir: "/rezar/oracoes/creio", rotulo: "Creio" },
         {
@@ -43,12 +43,12 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "EPH 4:1-6" },
         {
           texto:
-            "No Credo rezado nas missas de domingo, a Igreja se diz una, santa, católica e apostólica. Esses quatro traços, chamados notas da Igreja, estão ligados entre si (CIC 811). A Igreja não os conquista com o próprio esforço: Cristo os dá a ela pelo Espírito Santo. Ao mesmo tempo, ele a chama a vivê-los cada vez melhor. São dom e tarefa.",
+            "No Credo de Niceia e Constantinopla, rezado na missa de domingo, a Igreja se diz una, santa, católica e apostólica. Esses quatro traços, chamados notas da Igreja, estão ligados entre si (CIC 811). A Igreja não os conquista com o próprio esforço: Cristo os dá a ela pelo Espírito Santo. Ao mesmo tempo, ele a chama a vivê-los cada vez melhor. São dom e tarefa.",
         },
         { titulo: "Una" },
         {
           texto:
-            "A Igreja é una porque nasce de um só Deus em três pessoas, foi fundada por um só Senhor e é animada por um só Espírito (CIC 813). Essa unidade se vê em laços concretos: a mesma fé recebida dos apóstolos, os mesmos sacramentos e a sucessão dos pastores pelo sacramento da Ordem (CIC 815). Unidade não quer dizer uniformidade: há ritos, línguas e costumes diferentes dentro da mesma Igreja. Ao longo da história houve rupturas, e a culpa delas foi de homens dos dois lados (CIC 817). A Igreja ensina que a única Igreja de Cristo subsiste na Igreja Católica (CIC 816) e reconhece nos outros cristãos batizados uma comunhão verdadeira, ainda que imperfeita (CIC 838).",
+            "A Igreja é una porque nasce de um só Deus em três pessoas, foi fundada por um só Senhor e é animada por um só Espírito (CIC 813). Essa unidade se vê em laços concretos: a mesma fé recebida dos apóstolos, os mesmos sacramentos e a sucessão dos pastores pelo sacramento da Ordem (CIC 815). Unidade não quer dizer uniformidade: há ritos, línguas e costumes diferentes dentro da mesma Igreja. Ao longo da história houve rupturas, às vezes por culpa de homens dos dois lados (CIC 817). A Igreja ensina que a única Igreja de Cristo subsiste na Igreja Católica (CIC 816) e reconhece nos outros cristãos batizados uma comunhão verdadeira, ainda que imperfeita (CIC 838).",
         },
         { titulo: "Santa" },
         {
@@ -58,7 +58,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "Católica e apostólica" },
         {
           texto:
-            "Católica quer dizer universal, no sentido de completa (CIC 830). A Igreja é católica porque nela está tudo o que Cristo quis dar para a salvação: a fé inteira, todos os sacramentos e os ministros ordenados. E é católica porque foi enviada a todos os povos, de todos os tempos (CIC 831). Cada diocese, mesmo pequena e pobre, não é um pedaço da Igreja, mas a Igreja inteira presente naquele lugar, em comunhão com as outras (CIC 832, CIC 833).",
+            "Católica quer dizer universal, no sentido de completa (CIC 830). A Igreja é católica porque nela está tudo o que Cristo quis dar para a salvação: a fé inteira, todos os sacramentos e os ministros ordenados. E é católica porque foi enviada a todos os povos, de todos os tempos (CIC 831). Em cada diocese, unida ao seu bispo, está verdadeiramente presente a Igreja de Cristo, una, santa, católica e apostólica, mesmo quando a comunidade é pequena e pobre (CIC 832, CIC 833).",
         },
         {
           texto:
@@ -82,7 +82,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "O Papa" },
         {
           texto:
-            "O Papa é o bispo de Roma, sucessor de São Pedro, e por isso é o sinal visível e o fundamento da unidade de todos os bispos e de todos os fiéis (CIC 882). Ele tem sobre a Igreja inteira um poder pleno, supremo e universal, que existe para servir. É eleito pelos cardeais, reunidos em conclave. A infalibilidade do Papa não quer dizer que ele não erre nunca nem que não peque. Vale quando ele define, de modo definitivo, um ponto de fé ou de moral para toda a Igreja (CIC 891). O seu ensinamento ordinário, mesmo sem essa forma solene, pede dos fiéis acolhida respeitosa (CIC 892).",
+            "O Papa é o bispo de Roma, sucessor de São Pedro, e por isso é o sinal visível e o fundamento da unidade de todos os bispos e de todos os fiéis (CIC 882). Ele tem sobre a Igreja inteira um poder pleno, supremo e universal (CIC 882). É eleito pelos cardeais, reunidos em conclave. A infalibilidade do Papa não quer dizer que ele não erre nunca nem que não peque. Vale quando ele define, de modo definitivo, um ponto de fé ou de moral para toda a Igreja (CIC 891). O seu ensinamento ordinário, mesmo sem essa forma solene, pede dos fiéis acolhida respeitosa (CIC 892).",
         },
         { titulo: "Os bispos" },
         {
@@ -125,7 +125,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "Os conselhos e as pastorais" },
         {
           texto:
-            "Toda paróquia deve ter um conselho para os assuntos econômicos, em que fiéis ajudam o pároco a administrar os bens da comunidade (cân. 537). O conselho pastoral paroquial existe quando o bispo o julga oportuno; é presidido pelo pároco e tem voto consultivo (cân. 536). No Brasil, muitas dioceses pedem que toda paróquia tenha o seu. As pastorais são serviços que a comunidade organiza: catequese, liturgia, batismo, dízimo, visita aos doentes, juventude, família e tantas outras. Ao lado delas vivem os movimentos e associações de fiéis, que a lei da Igreja reconhece (cân. 215). Os nomes e a organização mudam de uma paróquia para outra.",
+            "Toda paróquia deve ter um conselho para os assuntos econômicos, em que fiéis ajudam o pároco a administrar os bens da comunidade (cân. 537). O conselho pastoral paroquial existe quando o bispo o julga oportuno; é presidido pelo pároco e tem voto consultivo (cân. 536). As pastorais são serviços que a comunidade organiza: catequese, liturgia, batismo, dízimo, visita aos doentes, juventude, família e tantas outras. Ao lado delas vivem os movimentos e associações de fiéis, que a lei da Igreja reconhece (cân. 215). Os nomes e a organização mudam de uma paróquia para outra.",
         },
         {
           texto:
@@ -153,12 +153,12 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "No mundo e na comunidade" },
         {
           texto:
-            "A vocação própria do leigo é buscar o Reino de Deus no meio das coisas do mundo: na família, no trabalho, na escola, na política, na economia (CIC 898). Ali onde o padre não chega, o leigo está. O batismo e a crisma dão a ele o direito e o dever de anunciar o Evangelho (CIC 900; cân. 225 §1). Os leigos também colaboram com os pastores no serviço da comunidade, em ministérios muito variados (CIC 910). Onde faltam ministros, podem ajudar a distribuir a comunhão, dirigir celebrações da Palavra e até batizar, segundo as normas (cân. 230 §3).",
+            "A vocação própria do leigo é buscar o Reino de Deus no meio das coisas do mundo: na família, no trabalho, na escola, na política, na economia (CIC 898). Todo leigo é testemunha e instrumento vivo da missão da Igreja (CIC 913). O batismo e a crisma dão a ele o direito e o dever de anunciar o Evangelho (CIC 900; cân. 225 §1). Os leigos também colaboram com os pastores no serviço da comunidade, em ministérios muito variados (CIC 910). Onde faltam ministros, podem ajudar a distribuir a comunhão, dirigir celebrações da Palavra e até batizar, segundo as normas (cân. 230 §3).",
         },
         { titulo: "A vocação de cada um" },
         {
           texto:
-            "Todos os cristãos, de qualquer estado, são chamados à santidade (CIC 2013; cân. 210). O Concílio dedicou a esse chamado um capítulo inteiro da Lumen Gentium, o quinto. A santidade se vive por caminhos diferentes: no matrimônio, no sacerdócio, na vida consagrada (CIC 914, CIC 916), e também na vida de quem permanece solteiro e serve a Deus no mundo. Cada pessoa descobre o seu caminho na oração, na escuta da Palavra e no conselho de quem a conhece.",
+            "Todos os cristãos, de qualquer estado, são chamados à santidade (CIC 2013; cân. 210). O Concílio dedicou a esse chamado um capítulo inteiro da Lumen Gentium, o quinto. A santidade se vive por caminhos diferentes: no matrimônio, no sacerdócio, na vida consagrada (CIC 914, CIC 916). O Catecismo lembra também os que vivem sem se casar e servem a Deus e ao próximo de modo exemplar (CIC 1658). Cada pessoa descobre o seu caminho na oração, na escuta da Palavra e no conselho de quem a conhece.",
         },
         { ir: "/rezar/oracoes/manha", rotulo: "Oração da manhã" },
         {
@@ -183,7 +183,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "Sustentar a comunidade" },
         {
           texto:
-            "Os fiéis têm a obrigação de ajudar a Igreja nas suas necessidades: o culto, a evangelização, a caridade e o sustento justo dos seus ministros (cân. 222 §1; CIC 2043). No Brasil, isso se faz sobretudo pelo dízimo, uma contribuição regular, de acordo com as possibilidades de cada um. Não é o preço de um sacramento nem uma taxa fixa: é a parte da família na vida da comunidade. A mesma lei lembra também o dever de ajudar os pobres com os próprios bens (cân. 222 §2).",
+            "Os fiéis têm a obrigação de ajudar a Igreja nas suas necessidades: o culto, a evangelização, a caridade e o sustento justo dos seus ministros (cân. 222 §1; CIC 2043). No Brasil, isso se faz sobretudo pelo dízimo, uma contribuição regular, de acordo com as possibilidades de cada um. Não é o preço de um sacramento nem uma taxa fixa. A mesma lei lembra também o dever de ajudar os pobres com os próprios bens (cân. 222 §2).",
         },
         { titulo: "Servir" },
         {

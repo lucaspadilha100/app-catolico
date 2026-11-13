@@ -55,3 +55,11 @@ Todas as citações de CIC e de cânones abaixo foram conferidas no texto oficia
 - Mês vocacional em agosto no Brasil, com um domingo para cada vocação: costume da Igreja no Brasil (CNBB). Não se detalhou a ordem dos domingos.
 - Serviço de animação vocacional "em muitas dioceses": costume, sem nome próprio.
 - Sinais de bom discernimento e de alerta: lista pastoral própria, não tirada de documento. Conferir.
+
+## Conferência final (13/11/2026)
+Regras: `docs/conferencia-doutrinal.md`. Números de CIC e cânon conferidos de novo: conferem (o cân. 1026 está colado ao 1025 na cópia local e confere).
+
+- Lição 3: saiu "Jesus não escolheu os mais preparados" (opinião). "Simão, o zelote" fica (Lc 6,15).
+- Lição 5: saiu "um leigo que só se sente cristão dentro da igreja..." (opinião); o campo próprio do leigo é o mundo (CIC 898). Os solteiros: a frase própria virou o CIC 1658 (servem a Deus e ao próximo de modo exemplar). Spiritus Domini e Antiquum Ministerium (2021) ficam, sem citar o cân. 230 §1.
+- Lição 6: saiu a frase própria "Deus costuma falar pelos desejos...". A lista própria de sinais bons e de alerta virou as regras de Santo Inácio (Exercícios Espirituais: o bom espírito traz paz, alegria e aumento de fé, esperança e amor; o mau, inquietação, tristeza e confusão) e o cân. 219 (escolha sem coação).
+- Fatos dos santos conferidos (Gianna 2004; Frassati 1925, 24 anos; Carlo Acutis 2006, 15 anos; canonização conjunta em 7/9/2025; Frei Galvão 2007; Santa Dulce 2019).

@@ -49,3 +49,13 @@ Cada número conferido no texto português do Catecismo (vatican.va).
 - CIC 67 (aparições): o número diz que as revelações particulares não pertencem ao depósito da fé, não completam a revelação de Cristo e ajudam a vivê-la numa época. Não diz com essas palavras que "ninguém é obrigado a crer nelas". A frase foi reescrita para pôr o número depois do que ele sustenta; "ninguém é obrigado a crer nelas como se crê no Evangelho" ficou como consequência, sem o número.
 - Conferido sem mudar: CIC 487, 495, 466 (Éfeso, 431), 509, 496, 499, 500 (Tiago e José, filhos da "outra Maria"), 491 (Pio IX, 1854), 492, 493 ("Toda Santa"), 966, 969, 970, 971, 2132. As datas que o CIC não traz (8/12/1854, 1º/11/1950, Lourdes 1858, Guadalupe 1531, Fátima 1917, Aparecida 1717) estão corretas pela história.
 - Continuam para o dono: o tom das respostas a quem não é católico (irmãos de Jesus, Assunção) e o relato das tochas em Éfeso.
+
+## Conferência final (13/11/2026)
+Regras: `docs/conferencia-doutrinal.md`. Tom: saíram as quatro aberturas "quem não é católico diz/pergunta/estranha", que punham a lição em forma de disputa; ficam as perguntas ("às vezes se pergunta") e a resposta do CIC. Números novos (410, 466, 500, 510, 956, 2679) conferidos.
+
+- Lição 1: saíram as frases "os evangelistas não precisavam falar muito" e "a Igreja não acrescenta nada à Escritura".
+- Lição 2: as tochas de Éfeso ficam, atribuídas a São Cirilo (carta). "Uma mãe não é mãe só do corpo" virou a fórmula de Éfeso citada no CIC 466. Nestório "bispo de Constantinopla" fica (era o bispo da sé).
+- Lição 3: "virgem antes, no e depois do parto" virou a fórmula de Santo Agostinho que o CIC 510 traz. Os "irmãos": saiu a afirmação sobre o hebraico e o aramaico (sem fonte); fica o CIC 500 ("a Igreja sempre entendeu") e Gn 13,8. O "até que" atribuído a São Jerônimo (Contra Helvídio). O argumento de Jo 19,27 saiu (dedução, não está no CIC).
+- Lição 4: a mulher do Protoevangelho com as palavras do CIC 411 ("muitos santos Padres e Doutores veem..."). Lourdes: "na aparição reconhecida pela Igreja". Aparecida como imagem da Imaculada Conceição: fica (fato).
+- Lição 5: "desde os primeiros séculos" virou "havia muitos séculos". A consulta aos bispos citada pela própria Munificentissimus Deus. A Dormição fica como está (a definição não decide). A Assunção como participação singular na ressurreição do Filho e antecipação da nossa (CIC 966), sem dedução própria.
+- Lição 6: "com mais razão pedimos a Maria" virou CIC 956 e 2679. O terço com São João Paulo II, Rosarium Virginis Mariae (2002). Datas das aparições conferidas (Guadalupe 1531, Lourdes 1858, Fátima 1917).

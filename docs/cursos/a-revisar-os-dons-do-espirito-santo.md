@@ -48,3 +48,14 @@ Todos os números do Catecismo abaixo foram **conferidos no texto oficial** (có
 - "Os frutos são as obras boas que já trazem alegria a quem as faz": São Tomás (I-II q.70 a.1).
 - Os doze frutos não são listados de novo: o texto manda para o curso da crisma. **Atenção, fora deste curso**: o curso da crisma lista "benignidade, bondade" e o CIC 1832 traz "bondade, longanimidade, benignidade" (outra ordem). Conferir lá.
 - A prática sugere a confissão "se puder", sem ligar a nenhuma norma.
+
+## Conferência final (13/11/2026)
+Regras: `docs/conferencia-doutrinal.md`. Números de CIC conferidos de novo: conferem; acrescentado CIC 67.
+
+- Ligação de cada dom a uma bem-aventurança: fica, atribuída a Santo Agostinho e São Tomás, como o curso já dizia.
+- Lição 1: "os dons são para todos os que vivem na graça" atribuído a São Tomás (os dons acompanham a caridade, I-II, q. 68, a. 5).
+- Lição 2: "uma luz que contradissesse a fé não viria dele" virou CIC 67. Saiu "a dificuldade de entender está num apego" (opinião).
+- Lição 3: "os mestres da vida espiritual" agora é Santo Inácio de Loyola (regras de discernimento). Saiu "quase sempre, o melhor caminho é socorrer quem sofre" (dedução).
+- Lição 5: a ligação da ciência com os que choram agora com a explicação de São Tomás (II-II, q. 9, a. 4), sem "parece estranho, mas faz sentido".
+- Lição 6: os seis nomes do texto hebraico de Is 11 ficam: é fato de consenso e explica os sete dons sem polêmica.
+- Mártires de Cunhaú e Uruaçu: conferem com a página do santo.

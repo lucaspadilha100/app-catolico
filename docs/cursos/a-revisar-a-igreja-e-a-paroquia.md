@@ -43,3 +43,13 @@ O bloco `{ ir: "/missas", rotulo: "Encontrar a sua paróquia" }` NÃO entrou: a 
 - "Em geral, a sua paróquia é a do território onde você mora": a paróquia própria se define pelo domicílio (cân. 107), não citado; o texto se apoia no cân. 518.
 - Dízimo: costume da Igreja no Brasil, organizado por cada diocese; o texto diz que não é taxa nem preço de sacramento e não fala em porcentagem. Conferir.
 - Link para "A Missa, parte por parte".
+
+## Conferência final (13/11/2026)
+Regras: `docs/conferencia-doutrinal.md`. Todos os números de CIC e cânon do arquivo conferidos de novo no texto oficial: conferem.
+
+- Lição 1: "o povo é do Pai, o corpo é do Filho, o templo é do Espírito" saiu (atribuição própria; o CIC 776 traz as três imagens juntas). Agora: Deus quer que a humanidade forme um só povo de Deus, um só Corpo de Cristo, um só templo do Espírito, e a Igreja é sacramento universal da salvação (CIC 776). A frase do "clube" e a dedução "cabeça sem o corpo" foram trocadas pela palavra de Santa Joana d'Arc que o próprio CIC 795 cita. A comparação alma/Espírito passou a ser de Santo Agostinho (CIC 797, nota 248).
+- Lição 2: o Credo das quatro notas é o de Niceia e Constantinopla (resolve o ponto do Símbolo dos Apóstolos). "A culpa foi de homens dos dois lados" virou "às vezes por culpa de homens dos dois lados", como o CIC 817. A frase sobre os outros cristãos fica como estava: segue 816 e 838 e o tom é o deles. A diocese "não é um pedaço" virou a fórmula do CIC 832-833.
+- Lição 3: "que existe para servir" saiu do poder do Papa (não está no CIC 882).
+- Lição 4: saiu "no Brasil, muitas dioceses pedem" (sem fonte). A missa pelo povo (cân. 534 §1) fica: é norma conferida.
+- Lição 5: "ali onde o padre não chega, o leigo está" trocado pelo CIC 913; a frase própria sobre os solteiros trocada pelo CIC 1658. Lumen Gentium, capítulo V: confere (a vocação universal à santidade).
+- Lição 6: dízimo fica como costume, sem número de documento (não conferido em fonte oficial).

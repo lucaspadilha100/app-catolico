@@ -14,7 +14,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "Dons e virtudes" },
         {
           texto:
-            "As virtudes são forças que Deus nos dá para agir bem, mas com elas agimos ao nosso modo: pensamos, pesamos e decidimos. Os dons são hábitos estáveis que deixam a alma pronta para ser conduzida pelo Espírito, num passo que vai além do nosso (CIC 1830). A diferença lembra a da criança que já escreve sozinha e a da criança que deixa o pai guiar a sua mão. Os dons não substituem as virtudes: completam-nas e levam-nas à perfeição (CIC 1831). Também não se confundem com os carismas, como o dom das curas ou das línguas, que o Espírito distribui como quer para o bem da comunidade (1Cor 12,11; CIC 2003). Os sete dons são para todos os que vivem na graça de Deus.",
+            "As virtudes são forças que Deus nos dá para agir bem, mas com elas agimos ao nosso modo: pensamos, pesamos e decidimos. Os dons são hábitos estáveis que deixam a alma pronta para ser conduzida pelo Espírito, num passo que vai além do nosso (CIC 1830). A diferença lembra a da criança que já escreve sozinha e a da criança que deixa o pai guiar a sua mão. Os dons não substituem as virtudes: completam-nas e levam-nas à perfeição (CIC 1831). Também não se confundem com os carismas, como o dom das curas ou das línguas, que o Espírito distribui como quer para o bem da comunidade (1Cor 12,11; CIC 2003). São Tomás de Aquino ensina que os dons acompanham a caridade: são para todos os que vivem na graça de Deus.",
         },
         { titulo: "Conhecer a Deus por dentro" },
         {
@@ -52,12 +52,12 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "Este dom não é privilégio dos estudiosos. Todos os fiéis receberam a unção do Espírito, que os ensina (CIC 91), e a compreensão da fé cresce na Igreja também pela meditação e pela experiência espiritual dos fiéis (CIC 94). O entendimento não afasta ninguém do que a Igreja ensina. O mesmo Espírito que ilumina você assiste os pastores da Igreja, e uma luz que contradissesse a fé da Igreja não viria dele.",
+            "Este dom não é privilégio dos estudiosos. Todos os fiéis receberam a unção do Espírito, que os ensina (CIC 91), e a compreensão da fé cresce na Igreja também pela meditação e pela experiência espiritual dos fiéis (CIC 94). O entendimento não afasta ninguém do que a Igreja ensina. O mesmo Espírito que ilumina você assiste os pastores da Igreja, e a fé cristã não pode aceitar revelações que pretendam ultrapassar ou corrigir a Revelação de Cristo (CIC 67).",
         },
         { titulo: "Um coração limpo para ver" },
         {
           texto:
-            "A tradição liga o entendimento à bem-aventurança dos puros de coração, que verão a Deus (Mt 5,8). O Catecismo recolhe um ensinamento de Santo Agostinho nessa linha: a fé vivida na obediência purifica o coração, e o coração purificado compreende aquilo em que crê (CIC 2518). O pecado embaça o olhar; a oração e a confissão o limpam. Muitas vezes a dificuldade de entender a fé não está na cabeça, mas num apego que ainda não largamos.",
+            "A tradição liga o entendimento à bem-aventurança dos puros de coração, que verão a Deus (Mt 5,8). O Catecismo recolhe um ensinamento de Santo Agostinho nessa linha: a fé vivida na obediência purifica o coração, e o coração purificado compreende aquilo em que crê (CIC 2518). O pecado embaça o olhar; a oração e a confissão o limpam.",
         },
         {
           pratica:
@@ -87,7 +87,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "Como reconhecer o bom conselho" },
         {
           texto:
-            "O Espírito não aconselha nada contra os mandamentos nem contra o ensino da Igreja: uma inspiração que leva ao pecado não vem dele. Os mestres da vida espiritual observam que o bom conselho costuma deixar paz, mesmo quando pede sacrifício, e que a pressa e a agitação são más conselheiras. A tradição liga este dom à bem-aventurança dos misericordiosos (Mt 5,7): quase sempre, o melhor caminho é o que leva a socorrer quem sofre. E quem recebe conselho é chamado a dá-lo: dar bom conselho é uma das obras de misericórdia espirituais (CIC 2447).",
+            "O Espírito não aconselha nada contra os mandamentos nem contra o ensino da Igreja: uma inspiração que leva ao pecado não vem dele. Santo Inácio de Loyola, nas regras de discernimento dos Exercícios Espirituais, ensina que o que vem de Deus costuma deixar paz, mesmo quando pede sacrifício, e o que vem do mau espírito deixa inquietação. A tradição liga este dom à bem-aventurança dos misericordiosos (Mt 5,7). E quem recebe conselho é chamado a dá-lo: dar bom conselho é uma das obras de misericórdia espirituais (CIC 2447).",
         },
         {
           pratica:
@@ -150,7 +150,7 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "A tradição liga este dom à bem-aventurança dos que choram (Mt 5,4). Parece estranho, mas faz sentido: quem vê as coisas com os olhos de Deus percebe também o mal que se faz com elas e o tempo perdido correndo atrás do que passa. Esse choro não é tristeza sem saída. É o arrependimento que Deus consola.",
+            "A tradição liga este dom à bem-aventurança dos que choram (Mt 5,4). São Tomás explica que quem julga as criaturas à luz de Deus percebe também quanto elas, mal usadas, afastaram de Deus, e chora por isso. Esse choro não é tristeza sem saída: os que choram serão consolados.",
         },
         {
           pratica:

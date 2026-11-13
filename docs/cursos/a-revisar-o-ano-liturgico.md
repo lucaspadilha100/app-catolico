@@ -69,3 +69,12 @@ Cada número conferido no texto português do Catecismo e do Código (vatican.va
 - Cân. 1250 e 1253 (acrescentados): sextas-feiras e Quaresma como tempo de penitência; a conferência dos bispos pode trocar a abstinência e o jejum, no todo ou em parte, por obras de caridade e exercícios de piedade. Para o Brasil, o texto afirma só que a troca vale nas sextas-feiras comuns do ano (o que as fontes encontradas dizem) e manda perguntar na paróquia o que vale nas sextas da Quaresma. Quarta-feira de Cinzas e Sexta-feira da Paixão continuam com jejum e abstinência (cân. 1251).
 - Conferido sem mudar: CIC 1166-1167, 1171, 524, 525, 528, 540, 1434, 1168-1169, cân. 1247, 1248, 1251.
 - Para o dono: conferir na Legislação Complementar da CNBB ao Código (cân. 1246 e 1253) a lista dos dias de preceito, se Nossa Senhora Aparecida entra nela e se a troca da abstinência vale também nas sextas da Quaresma. Com isso conferido, as frases "incluem" e "pergunte na sua paróquia" podem ficar mais diretas.
+
+## Conferência final (13/11/2026)
+Regras: `docs/conferencia-doutrinal.md`. Números de CIC e cânon conferidos de novo: conferem.
+
+- Normas citadas por número, conferidas no texto do vatican.va: Instrução Geral do Missal Romano 305 e 313 (flores e instrumentos no Advento e na Quaresma), 346 (cores e vestes douradas), 137 (ajoelhar no Creio no Natal e na Anunciação).
+- Jejum: "uma só refeição completa; o costume admite duas pequenas refeições leves" (a parte das duas refeições não está no Código).
+- "Um grande domingo": atribuído a Santo Atanásio. As Normas Universais do Ano Litúrgico seguem sem número citado (texto oficial não achado ao alcance).
+- Sexta-feira da Paixão: "a Igreja não celebra a missa".
+- Continua para o dono, como já estava: conferir na Legislação Complementar da CNBB (cân. 1246 e 1253) os dias de preceito no Brasil e a troca da abstinência nas sextas da Quaresma. O texto já fala com "incluem" e "pergunte na sua paróquia", e não afirma nada além disso.

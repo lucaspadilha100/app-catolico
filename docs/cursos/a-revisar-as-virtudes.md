@@ -40,3 +40,13 @@ Arquivo: `src/devocao/cursos/as-virtudes.ts`. Base: CIC 1803-1845, mais os núme
 - "Excesso do lado oposto" (desprezo pelas coisas boas): a insensibilidade de São Tomás (II-II, q. 142). Conferir se convém manter.
 - Ponto delicado: celular, séries, compras e jogos de aposta como campos da temperança (aplicação atual, não texto do CIC; jogos de azar aparecem em CIC 2413, não citado). Recomendação de buscar médicos e grupos de apoio em caso de dependência: conselho prudencial, conferir.
 - "Jejum e abstinência, que a Igreja pede em certos dias": sem citar dias nem cânones (cân. 1249-1253) de propósito.
+
+## Conferência final (13/11/2026)
+Regras: `docs/conferencia-doutrinal.md`. Todos os números de CIC conferidos de novo: conferem; acrescentado CIC 2413 (jogos e apostas). O 1829 confere (na cópia local vem colado ao 1828).
+
+- Lição 1: a dúvida segue as palavras do CIC 2088 (dúvida involuntária: dificuldade com objeções e angústia diante da obscuridade); saiu "muitos santos passaram por isso".
+- Lição 2: "a esperança não é otimismo" virou "não é a simples ideia de que tudo vai dar certo: é saber em quem se confia" (2Tm 1,12).
+- Lição 3: saiu "a paciência sem amor vira frieza; a justiça sem amor vira dureza" (opinião). O exercício de 1Cor 13 fica (prática).
+- Lição 4: prudência com as palavras do CIC 1806 (timidez, medo, duplicidade, dissimulação). Vícios: tradição de São Tomás (II-II, q. 53-55), atribuída. "Ficar calado por medo" agora apoiado no CIC 1806.
+- Lição 6: os dois atos da fortaleza e o mais difícil, com a referência: São Tomás, Suma Teológica II-II, q. 123, a. 6. A "teimosia" é a pertinácia de São Tomás (II-II, q. 138, a. 2). Link para São Miguel fica.
+- Lição 7: mansidão, humildade e insensibilidade atribuídas a São Tomás. Celular, séries, compras: aplicação; apostas com CIC 2413. Dependências e ajuda médica: fica.

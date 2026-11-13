@@ -24,7 +24,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "O que se opõe à fé" },
         {
           texto:
-            "Ter dificuldade para entender um ponto da fé, ou sentir a fé escura em certos momentos, não é pecado. Muitos santos passaram por isso. Pecado é a dúvida voluntária, alimentada de propósito, que se recusa a tomar por verdadeiro o que Deus revelou (CIC 2088). Mais grave é a incredulidade, que despreza a verdade revelada; a heresia, que nega com teimosia uma verdade da fé; e a apostasia, que abandona a fé cristã por inteiro (CIC 2089). Há ainda um perigo mais silencioso: a fé que não se alimenta e vai esfriando até virar só um costume de família.",
+            "O Catecismo distingue duas coisas. A dificuldade em superar objeções contra a fé, ou a angústia diante da sua obscuridade, é dúvida involuntária. Pecado é a dúvida voluntária, alimentada de propósito, que se recusa a tomar por verdadeiro o que Deus revelou (CIC 2088). Mais grave é a incredulidade, que despreza a verdade revelada; a heresia, que nega com teimosia uma verdade da fé; e a apostasia, que abandona a fé cristã por inteiro (CIC 2089). Há ainda um perigo mais silencioso: a fé que não se alimenta e vai esfriando até virar só um costume de família.",
         },
         { titulo: "Como crescer na fé" },
         {
@@ -44,7 +44,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "ROM 5:1-5" },
         {
           texto:
-            "A esperança é a virtude pela qual desejamos o céu e a vida eterna como a nossa felicidade, confiando nas promessas de Cristo e contando não com as nossas forças, mas com a ajuda da graça (CIC 1817). Ela não é otimismo, nem a ideia de que tudo vai dar certo. É saber em quem se confia. Deus pôs no coração de cada pessoa um desejo de felicidade, e a esperança recolhe esse desejo e o orienta para o lugar certo: Deus mesmo (CIC 1818).",
+            "A esperança é a virtude pela qual desejamos o céu e a vida eterna como a nossa felicidade, confiando nas promessas de Cristo e contando não com as nossas forças, mas com a ajuda da graça (CIC 1817). Ela não é a simples ideia de que tudo vai dar certo. É saber em quem se confia, como diz São Paulo (2Tm 1,12). Deus pôs no coração de cada pessoa um desejo de felicidade, e a esperança recolhe esse desejo e o orienta para o lugar certo: Deus mesmo (CIC 1818).",
         },
         {
           texto:
@@ -82,7 +82,7 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "A caridade é a alma de todas as outras virtudes: ela as une e lhes dá direção (CIC 1827). A paciência sem amor vira frieza; a justiça sem amor vira dureza. E a caridade muda o modo como nos colocamos diante de Deus. O cristão não obedece como um escravo com medo do castigo, nem como um empregado que espera o pagamento, mas como um filho que responde ao amor de quem o amou primeiro (CIC 1828; 1Jo 4,19).",
+            "A caridade é a alma de todas as outras virtudes: ela as une e lhes dá direção (CIC 1827). E a caridade muda o modo como nos colocamos diante de Deus. O cristão não obedece como um escravo com medo do castigo, nem como um empregado que espera o pagamento, mas como um filho que responde ao amor de quem o amou primeiro (CIC 1828; 1Jo 4,19).",
         },
         { titulo: "A caridade na vida comum" },
         {
@@ -116,7 +116,7 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "A leitura dá dois exemplos: quem vai construir uma torre senta primeiro e faz as contas; o rei que vai para a guerra pensa antes se tem força para vencer. Jesus elogia quem pensa antes de agir. Mas a prudência cristã não é esperteza nem medo. O Catecismo diz que ela não se confunde com a timidez, nem com a falsidade de quem calcula tudo para levar vantagem (CIC 1806). O prudente não é quem nunca arrisca, mas quem arrisca pelo bem certo, do jeito certo, na hora certa.",
+            "A leitura dá dois exemplos: quem vai construir uma torre senta primeiro e faz as contas; o rei que vai para a guerra pensa antes se tem força para vencer. Jesus elogia quem pensa antes de agir. Mas a prudência cristã não é esperteza nem medo. O Catecismo diz que ela não se confunde com a timidez ou o medo, nem com a duplicidade ou a dissimulação (CIC 1806).",
         },
         { titulo: "A prudência na vida comum" },
         {
@@ -126,12 +126,12 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "O que se opõe à prudência" },
         {
           texto:
-            "A tradição da Igreja, seguindo São Tomás de Aquino, aponta dois tipos de desvio. De um lado, a imprudência: decidir por impulso, sem pensar nas consequências; não pedir conselho; mudar de ideia a cada vento; deixar de decidir o que precisava ser decidido. De outro, uma falsa prudência: a astúcia de quem usa a inteligência para enganar, ou a preocupação excessiva com o futuro, que tira a paz e a confiança em Deus. Também é falsa prudência ficar calado diante do mal só por medo de se comprometer.",
+            "A tradição da Igreja, seguindo São Tomás de Aquino, aponta dois tipos de desvio. De um lado, a imprudência: decidir por impulso, sem pensar nas consequências; não pedir conselho; mudar de ideia a cada vento; deixar de decidir o que precisava ser decidido. De outro, uma falsa prudência: a astúcia de quem usa a inteligência para enganar, ou a preocupação excessiva com o futuro, que tira a paz e a confiança em Deus. E, como a prudência não se confunde com o medo (CIC 1806), não é prudência ficar calado diante do mal só por medo de se comprometer.",
         },
         { titulo: "Como crescer na prudência" },
         {
           texto:
-            "A prudência se aprende com a experiência, a própria e a dos outros. Ajuda muito lembrar decisões passadas e perguntar o que deu certo e o que deu errado. Ajuda ter alguém a quem pedir conselho: um padre, um amigo maduro na fé, um casal mais experiente. E ajuda pedir ao Espírito Santo o dom do conselho, um dos seus sete dons (CIC 1831). Antes de uma decisão grande, um costume antigo e muito sábio é rezar, esperar um pouco e só então decidir.",
+            "A prudência se aprende com a experiência, a própria e a dos outros. Ajuda muito lembrar decisões passadas e perguntar o que deu certo e o que deu errado. Ajuda ter alguém a quem pedir conselho: um padre, um amigo maduro na fé, um casal mais experiente. E ajuda pedir ao Espírito Santo o dom do conselho, um dos seus sete dons (CIC 1831). Antes de uma decisão grande, convém rezar e não decidir às pressas.",
         },
         {
           pratica:
@@ -184,7 +184,7 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "A leitura mostra que a fortaleza cristã não é a força de quem nunca cai. São Paulo pediu três vezes para ser livre de um sofrimento, e Deus respondeu que a sua graça bastava, porque o poder dele se mostra na fraqueza. O forte, para o cristão, é quem se apoia em Deus. Por isso a fortaleza tem duas faces: atacar, quando é preciso enfrentar o mal, e resistir, quando é preciso aguentar com paciência o que não se pode mudar. A segunda costuma ser a mais difícil.",
+            "A leitura mostra que a fortaleza cristã não é a força de quem nunca cai. São Paulo pediu três vezes para ser livre de um sofrimento, e Deus respondeu que a sua graça bastava, porque o poder dele se mostra na fraqueza. O forte, para o cristão, é quem se apoia em Deus. São Tomás de Aquino ensina que a fortaleza tem dois atos: atacar, quando é preciso enfrentar o mal, e resistir, quando é preciso aguentar com paciência. Para ele, o ato principal é resistir, que é o mais difícil (Suma Teológica II-II, q. 123, a. 6).",
         },
         { titulo: "A fortaleza na vida comum" },
         {
@@ -194,7 +194,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "O que se opõe à fortaleza" },
         {
           texto:
-            "A tradição aponta vícios dos dois lados. Por falta, a covardia: deixar de fazer o bem por medo, fugir da responsabilidade, calar quando era preciso falar. Também a moleza, que desiste no primeiro obstáculo, e a inconstância, que começa muito e termina pouco. Por excesso, a temeridade: enfrentar perigos sem necessidade, por orgulho ou para se exibir. E há uma falsa fortaleza, a teimosia de quem se agarra ao próprio erro e chama isso de firmeza.",
+            "A tradição da Igreja, seguindo São Tomás, aponta vícios dos dois lados. Por falta, a covardia: deixar de fazer o bem por medo, fugir da responsabilidade, calar quando era preciso falar. Também a moleza, que desiste no primeiro obstáculo, e a inconstância, que começa muito e termina pouco. Por excesso, a temeridade: enfrentar perigos sem necessidade, por orgulho ou para se exibir. E há a pertinácia, a teimosia de quem se agarra ao próprio parecer e chama isso de firmeza.",
         },
         { titulo: "Como crescer na fortaleza" },
         {
@@ -214,17 +214,17 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "TIT 2:11-14" },
         {
           texto:
-            "A temperança é a virtude que modera a atração dos prazeres e dá equilíbrio no uso das coisas criadas (CIC 1809). Ela garante que a vontade governe os instintos, e não o contrário. Comer, beber, descansar e divertir-se são coisas boas, criadas por Deus; o problema está na falta de medida, quando o desejo passa a mandar na pessoa. A temperança não é tristeza nem desprezo pelo corpo: é ela que permite gozar das coisas boas sem ser escravo delas, como pede a leitura de Tito, que nos chama a viver neste mundo com sobriedade. Dela dependem outras virtudes: a castidade, que ordena a sexualidade segundo o amor verdadeiro (CIC 2341), a mansidão, que domina a ira, e a humildade, que modera o desejo de aparecer.",
+            "A temperança é a virtude que modera a atração dos prazeres e dá equilíbrio no uso das coisas criadas (CIC 1809). Ela garante que a vontade governe os instintos, e não o contrário. Comer, beber, descansar e divertir-se são coisas boas, criadas por Deus; o problema está na falta de medida, quando o desejo passa a mandar na pessoa. A temperança não é tristeza nem desprezo pelo corpo: é ela que permite gozar das coisas boas sem ser escravo delas, como pede a leitura de Tito, que nos chama a viver neste mundo com sobriedade. Dela dependem outras virtudes: a castidade, que ordena a sexualidade segundo o amor verdadeiro (CIC 2341), e, segundo São Tomás de Aquino, a mansidão, que domina a ira, e a humildade, que modera o desejo de grandeza.",
         },
         { titulo: "A temperança na vida comum" },
         {
           texto:
-            "Hoje a temperança tem muitos campos de batalha. A comida e a bebida, claro: o Catecismo pede que se evite o abuso da comida, da bebida, do tabaco e dos remédios, e lembra que dirigir embriagado põe a vida dos outros em risco (CIC 2290). Mas também o celular, as séries sem fim, as compras por impulso, os jogos de aposta. Tudo o que começa como distração e termina tomando o tempo da família, do sono e da oração pede temperança.",
+            "Hoje a temperança tem muitos campos de batalha. A comida e a bebida, claro: o Catecismo pede que se evite o abuso da comida, da bebida, do tabaco e dos remédios, e lembra que dirigir embriagado põe a vida dos outros em risco (CIC 2290). Mas também o celular, as séries sem fim, as compras por impulso e os jogos de aposta, cuja paixão pode se tornar uma grave servidão (CIC 2413). Tudo o que começa como distração e termina tomando o tempo da família, do sono e da oração pede temperança.",
         },
         { titulo: "O que se opõe à temperança" },
         {
           texto:
-            "Os vícios contrários à temperança estão entre os pecados capitais: a gula, que é o excesso no comer e no beber, e a luxúria, que busca o prazer sexual fora da ordem do amor (CIC 1866). A eles se juntam a embriaguez, os vícios e dependências, a ira sem freio e a vaidade. Há também um excesso do lado oposto, mais raro: o desprezo pelas coisas boas que Deus deu, como se o prazer fosse mau em si. Quem luta contra uma dependência não está sozinho: além da graça de Deus, é sinal de prudência buscar ajuda de médicos e de grupos de apoio.",
+            "Os vícios contrários à temperança estão entre os pecados capitais: a gula, que é o excesso no comer e no beber, e a luxúria, que busca o prazer sexual fora da ordem do amor (CIC 1866). A eles se juntam a embriaguez, os vícios e dependências, a ira sem freio e a vaidade. São Tomás aponta também um vício do lado oposto, mais raro: a insensibilidade de quem despreza as coisas boas que Deus deu, como se o prazer fosse mau em si. Quem luta contra uma dependência não está sozinho: além da graça de Deus, é sinal de prudência buscar ajuda de médicos e de grupos de apoio.",
         },
         { titulo: "Como crescer na temperança" },
         {

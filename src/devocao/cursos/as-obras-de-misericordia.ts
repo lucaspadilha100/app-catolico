@@ -14,7 +14,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "Quem é o meu próximo" },
         {
           texto:
-            "Um doutor da lei quis saber até onde ia a obrigação de amar. Jesus respondeu com uma história. Um homem foi assaltado e ficou caído na estrada. Passaram um sacerdote e um levita, gente de religião, e seguiram adiante. Quem parou foi um samaritano, alguém que os judeus daquele tempo evitavam. No fim, Jesus muda a pergunta: não importa saber quem merece a minha ajuda, importa eu me fazer próximo de quem precisa. Muitos Padres da Igreja viram no samaritano o próprio Jesus, que se inclinou sobre a humanidade ferida.",
+            "Um doutor da lei quis saber até onde ia a obrigação de amar. Jesus respondeu com uma história. Um homem foi assaltado e ficou caído na estrada. Passaram um sacerdote e um levita, gente de religião, e seguiram adiante. Quem parou foi um samaritano, alguém que os judeus daquele tempo evitavam. No fim, Jesus muda a pergunta: não importa saber quem merece a minha ajuda, importa eu me fazer próximo de quem precisa. Santo Agostinho e outros Padres da Igreja viram no samaritano o próprio Jesus, que se inclinou sobre a humanidade ferida.",
         },
         { titulo: "O que fizestes a um destes pequeninos" },
         {
@@ -43,7 +43,7 @@ const conteudo: ConteudoDoDesafio = {
         { leitura: "ISA 58:6-10" },
         {
           texto:
-            "As duas primeiras obras corporais são as mais simples de entender: dar de comer a quem tem fome e dar de beber a quem tem sede. O profeta Isaías diz que o jejum agradável a Deus não é só abaixar a cabeça, mas repartir o pão com o faminto. A religião que não chega à mesa do pobre fica pela metade. Quem reparte, diz o profeta, verá a sua luz brilhar como a aurora.",
+            "As duas primeiras obras corporais são as mais simples de entender: dar de comer a quem tem fome e dar de beber a quem tem sede. O profeta Isaías diz que o jejum agradável a Deus não é só abaixar a cabeça, mas repartir o pão com o faminto. São Tiago lembra que a fé sem obras é morta (Tg 2,17). Quem reparte, diz o profeta, verá a sua luz brilhar como a aurora.",
         },
         { titulo: "Dai-lhes vós mesmos de comer" },
         {
@@ -119,7 +119,7 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "A Igreja recomenda o sepultamento, mas permite a cremação, desde que não seja escolhida para negar a fé na ressurreição (CIC 2301; cân. 1176). Quando há cremação, pede que as cinzas sejam guardadas em lugar sagrado, como um cemitério, e não espalhadas na natureza nem divididas entre os parentes. A celebração das exéquias, com a Palavra de Deus e a oração, entrega o falecido à misericórdia do Pai e consola a família.",
+            "A Igreja recomenda o sepultamento, mas permite a cremação, desde que não seja escolhida para negar a fé na ressurreição (CIC 2301; cân. 1176 §3). Quando há cremação, pede que as cinzas sejam guardadas em lugar sagrado, como um cemitério, e não espalhadas na natureza nem divididas entre os parentes (Congregação para a Doutrina da Fé, instrução Ad resurgendum cum Christo, 2016). A celebração das exéquias, com a Palavra de Deus e a oração, entrega o falecido à misericórdia do Pai e consola a família.",
         },
         { titulo: "Como viver esta obra hoje" },
         {
@@ -148,7 +148,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "Ensinar" },
         {
           texto:
-            "Os pais são os primeiros educadores dos filhos, também na fé (CIC 2223; CIC 2225-2226). Muitas vezes são os avós que ensinam a fazer o sinal da cruz e a rezar o Pai-Nosso. Os catequistas dedicam horas a preparar crianças, jovens e adultos para os sacramentos. Ensinar também vale para o que não é religioso: ajudar alguém a ler, a fazer contas ou a aprender um ofício é obra de misericórdia. E ensina-se muito mais pelo exemplo do que pelas palavras.",
+            "Os pais são os primeiros educadores dos filhos, também na fé (CIC 2223; CIC 2225-2226). Muitas vezes são os avós que ensinam a fazer o sinal da cruz e a rezar o Pai-Nosso. Os catequistas dedicam horas a preparar crianças, jovens e adultos para os sacramentos. Ensinar também vale para o que não é religioso: ajudar alguém a ler, a fazer contas ou a aprender um ofício é obra de misericórdia. E os pais ensinam também pelo bom exemplo (CIC 2223).",
         },
         { titulo: "Aconselhar" },
         {
@@ -158,7 +158,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "Corrigir" },
         {
           texto:
-            "Corrigir é a obra que mais assusta, e a que mais se faz mal. Jesus ensina a falar primeiro a sós com o irmão (Mt 18,15). São Paulo pede que se corrija com mansidão, olhando para si mesmo, porque todos podemos cair. A caridade pede a correção fraterna (CIC 1829), mas a correção que humilha, expõe a pessoa diante dos outros ou vira comentário nas redes não é caridade. Corrige-se o erro, sem condenar a pessoa, e com a disposição de também ser corrigido.",
+            "Corrigir é a obra que mais assusta. Jesus ensina a falar primeiro a sós com o irmão (Mt 18,15). São Paulo pede que se corrija com mansidão, olhando para si mesmo, porque todos podemos cair. A caridade pede a correção fraterna (CIC 1829), mas a correção que humilha, expõe a pessoa diante dos outros ou vira comentário nas redes não é caridade. Corrige-se o erro, sem condenar a pessoa, e com a disposição de também ser corrigido.",
         },
         {
           texto:
@@ -196,7 +196,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "Suportar com paciência" },
         {
           texto:
-            "Todos temos manias, lentidões e defeitos que cansam os outros. Suportar com paciência é aceitar o irmão como ele é, sem reclamar de tudo e sem desistir dele, como Deus faz conosco. Ajuda muito interpretar as palavras e atitudes dos outros no melhor sentido possível (CIC 2478). Mas suportar fraquezas não é aceitar violência: quem sofre agressão ou abuso tem o direito e o dever de buscar proteção.",
+            "Todos temos manias, lentidões e defeitos que cansam os outros. Suportar com paciência é aceitar o irmão como ele é, sem reclamar de tudo e sem desistir dele, como Deus faz conosco. Ajuda muito interpretar as palavras e atitudes dos outros no melhor sentido possível (CIC 2478). Mas suportar fraquezas não é aceitar violência: quem sofre agressão ou abuso pode buscar proteção, e a Igreja admite em certos casos até a separação dos esposos, permanecendo o vínculo (CIC 2383).",
         },
         {
           pratica:
