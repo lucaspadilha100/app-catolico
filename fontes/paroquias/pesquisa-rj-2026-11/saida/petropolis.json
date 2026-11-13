@@ -667,8 +667,8 @@
   "contatos": {
    "telefone": "2422430942",
    "whatsapp": "2422314509",
-   "instagram": "",
-   "site": "",
+   "instagram": "paroquiadosagradopetropolis",
+   "site": "https://paroquiadosagrado.com.br/",
    "email": "sagrado-petropolis@diocesepetropolis.org.br"
   },
   "igrejas": [
@@ -679,7 +679,190 @@
     "cidade": "Petrópolis",
     "localidade": "Centro",
     "endereco": "Rua Montecaseros, 95",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 2,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Até 11h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Até 11h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 6,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Até 11h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 2,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": "Até 17h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": "Até 17h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 6,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": "Até 17h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": "Até 17h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": "Até 17h"
+     }
+    ],
     "nao_cabe": ""
    },
    {
@@ -748,10 +931,15 @@
     "url": "https://diocesepetropolis.com.br/paroquia-sagrado-coracao-de-jesus-centro-petropolis/",
     "data": "2025-10-02",
     "o_que": "contatos"
+   },
+   {
+    "url": "https://paroquiadosagrado.com.br/atendimento/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Paróquia dos Franciscanos (OFM), desde 1946. A página da diocese não traz horário de missa. Decanato São Pedro de Alcântara."
+  "confianca": "alta",
+  "observacao": "Paróquia dos Franciscanos (OFM), desde 1946. A página da diocese não traz horário; os horários vêm do site da paróquia. Decanato São Pedro de Alcântara."
  },
  {
   "id_banco": null,
@@ -1214,7 +1402,7 @@
   "contatos": {
    "telefone": "2433021170",
    "whatsapp": "24981282806",
-   "instagram": "",
+   "instagram": "santaritadocastrioto",
    "site": "",
    "email": "santarita-petropolis@diocesepetropolis.org.br"
   },
@@ -1334,6 +1522,11 @@
    {
     "url": "https://diocesepetropolis.com.br/paroquia-santa-rita-de-cassia-castrioto-petropolis/",
     "data": "2026-09-22",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.instagram.com/santaritadocastrioto/",
+    "data": "2026-11-13",
     "o_que": "contatos"
    }
   ],
