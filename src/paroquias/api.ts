@@ -217,7 +217,7 @@ export async function paroquiasDoPainel(p: { filtro: FiltroDoPainel; termo: stri
   const montar = <Q extends { like: (col: string, v: string) => Q; is: (col: string, v: null) => Q; not: (col: string, op: string, v: null) => Q; filter: (col: string, op: string, v: unknown) => Q }>(q: Q, filtro: FiltroDoPainel) => {
     let r = q;
     for (const w of palavras) r = r.like("busca", `%${w}%`);
-    if (filtro === "conferir") r = r.is("conferida_em", null).filter("fonte_oficial", "eq", false);
+    if (filtro === "conferir") r = r.is("conferida_em", null).filter("fonte_oficial", "eq", false).filter("fonte", "eq", "");
     if (filtro === "conferidas") r = r.not("conferida_em", "is", null);
     return r;
   };
