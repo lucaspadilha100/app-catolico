@@ -1,0 +1,945 @@
+[
+ {
+  "id_banco": null,
+  "nome": "Catedral São João Bosco",
+  "categoria": "catedral",
+  "cidade": "Ji-Paraná",
+  "padroeiro": "São João Bosco",
+  "contatos": {
+   "telefone": "6934164221",
+   "whatsapp": "69993357006",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiacatedralsjb@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Catedral São João Bosco",
+    "tipo": "matriz",
+    "cidade": "Ji-Paraná",
+    "localidade": "Centro",
+    "endereco": "Av. Marechal Rondon, 400, sala 01, CEP 76900-027",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "18:10",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedejiparana.org.br/noticias-det.php?cod=493",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedejiparana.org.br/noticias-det.php?cod=493",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Paróquia criada em 1964; a igreja é catedral desde 1972."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Fátima",
+  "categoria": "paroquia",
+  "cidade": "Ji-Paraná",
+  "padroeiro": "Nossa Senhora de Fátima",
+  "contatos": {
+   "telefone": "6934222123",
+   "whatsapp": "69984016395",
+   "instagram": "",
+   "site": "",
+   "email": "paroquia_nsdefatima@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora de Fátima",
+    "tipo": "matriz",
+    "cidade": "Ji-Paraná",
+    "localidade": "Nossa Senhora de Fátima",
+    "endereco": "Rua Governador Jorge Teixeira, 2783, CEP 76909-790",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedejiparana.org.br/noticias-det.php?cod=3299",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Criada em 2008. Sem horário publicado pela diocese ou pela paróquia."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José",
+  "categoria": "paroquia",
+  "cidade": "Ji-Paraná",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "6934164213",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "psj.jipa@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José",
+    "tipo": "matriz",
+    "cidade": "Ji-Paraná",
+    "localidade": "Nova Brasília",
+    "endereco": "Av. Maringá, 49",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedejiparana.org.br/noticias-det.php?cod=497",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Paróquia salesiana, criada em 1976, no segundo distrito. Sem horário publicado pela diocese ou pela paróquia."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "Ji-Paraná",
+  "padroeiro": "São Sebastião",
+  "contatos": {
+   "telefone": "69992336956",
+   "whatsapp": "",
+   "instagram": "pascomsaosebastiaojipa",
+   "site": "",
+   "email": "paroquiasaosebastiaojipa@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Sebastião",
+    "tipo": "matriz",
+    "cidade": "Ji-Paraná",
+    "localidade": "Jardim dos Migrantes",
+    "endereco": "Rua das Pedras, 265, CEP 76900-722",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedejiparana.org.br/noticias-det.php?cod=3300",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Criada em 1984. Sem horário publicado pela diocese ou pela paróquia."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "Jaru",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "6935212248",
+   "whatsapp": "69992271140",
+   "instagram": "",
+   "site": "",
+   "email": "psjbatista-jaru@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Batista",
+    "tipo": "matriz",
+    "cidade": "Jaru",
+    "localidade": "Centro",
+    "endereco": "Av. Padre Adolfo Rohl, 1725",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedejiparana.org.br/noticias-det.php?cod=495",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Criada em 1976; Nossa Senhora Aparecida é a segunda padroeira. Sem horário publicado pela diocese ou pela paróquia."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Rita de Cássia",
+  "categoria": "paroquia",
+  "cidade": "Governador Jorge Teixeira",
+  "padroeiro": "Santa Rita de Cássia",
+  "contatos": {
+   "telefone": "6935241048",
+   "whatsapp": "69999087689",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasantarcassia@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Rita de Cássia",
+    "tipo": "matriz",
+    "cidade": "Governador Jorge Teixeira",
+    "localidade": "Centro",
+    "endereco": "Rua Sumaúma, 2319, CEP 76898-000",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedejiparana.org.br/noticias-det.php?cod=3302",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Criada em 2009, desmembrada de Jaru. O anuário chama a matriz de Nossa Senhora da Anunciação. Sem horário publicado pela diocese ou pela paróquia."
+ },
+ {
+  "id_banco": null,
+  "nome": "Santuário Paróquia Nossa Senhora Aparecida",
+  "categoria": "santuario",
+  "cidade": "Ouro Preto do Oeste",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "6934613173",
+   "whatsapp": "69992275164",
+   "instagram": "",
+   "site": "https://santuarioopo.com",
+   "email": "paroquiansa.opo@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário Diocesano de Nossa Senhora Aparecida",
+    "tipo": "santuario",
+    "cidade": "Ouro Preto do Oeste",
+    "localidade": "",
+    "endereco": "Av. Daniel Comboni, 826",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedejiparana.org.br/noticias-det.php?cod=3435",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Paróquia de 1974, santuário diocesano desde 2016; atende Ouro Preto do Oeste e Teixeirópolis. O site próprio não abriu na pesquisa (bloqueio de robôs). Sem horário publicado pela diocese ou pela paróquia."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Guia",
+  "categoria": "paroquia",
+  "cidade": "Vale do Paraíso",
+  "padroeiro": "Nossa Senhora da Guia",
+  "contatos": {
+   "telefone": "6934641143",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquia_nossasenhoradaguia@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Guia",
+    "tipo": "matriz",
+    "cidade": "Vale do Paraíso",
+    "localidade": "Centro",
+    "endereco": "Rua Alecrim, 4561, CEP 76923-000",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedejiparana.org.br/noticias-det.php?cod=3534",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Criada em 2001, desmembrada de Ouro Preto do Oeste. Sem horário publicado pela diocese ou pela paróquia."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora dos Migrantes",
+  "categoria": "paroquia",
+  "cidade": "Mirante da Serra",
+  "padroeiro": "Nossa Senhora dos Migrantes",
+  "contatos": {
+   "telefone": "6934632161",
+   "whatsapp": "69992325046",
+   "instagram": "",
+   "site": "",
+   "email": "paroquia_migrantes@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora dos Migrantes",
+    "tipo": "matriz",
+    "cidade": "Mirante da Serra",
+    "localidade": "Centro",
+    "endereco": "Rua 28 de Novembro, 2293, CEP 76926-000",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedejiparana.org.br/noticias-det.php?cod=3303",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Atende Mirante da Serra, Nova União e Tarilândia (distrito de Jaru). O anuário chama a matriz de Bom Jesus dos Migrantes. Sem horário publicado pela diocese ou pela paróquia."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Cristo Ressuscitado",
+  "categoria": "paroquia",
+  "cidade": "Alvorada D'Oeste",
+  "padroeiro": "Cristo Ressuscitado",
+  "contatos": {
+   "telefone": "6934123486",
+   "whatsapp": "69992874443",
+   "instagram": "",
+   "site": "",
+   "email": "paroquia.alvorada@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Cristo Ressuscitado",
+    "tipo": "matriz",
+    "cidade": "Alvorada D'Oeste",
+    "localidade": "Centro",
+    "endereco": "Av. Marechal Rondon, 5311, CEP 76930-000",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Toda primeira sexta-feira do mês, 7h, celebração em honra ao Sagrado Coração de Jesus. Domingo, terço às 7h e às 19h, antes das missas."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedejiparana.org.br/noticias-det.php?cod=414",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedejiparana.org.br/noticias-det.php?cod=414",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Criada em 1987, desmembrada de Presidente Médici."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santíssima Trindade",
+  "categoria": "paroquia",
+  "cidade": "Urupá",
+  "padroeiro": "Santíssima Trindade",
+  "contatos": {
+   "telefone": "69993028852",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "psturupa@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz da Santíssima Trindade",
+    "tipo": "matriz",
+    "cidade": "Urupá",
+    "localidade": "Centro",
+    "endereco": "Rua Cerejeiras, 3836, CEP 76929-000",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedejiparana.org.br/noticias-det.php?cod=3456",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Criada em 1992. O anuário chama a matriz de São João Batista. Sem horário publicado pela diocese ou pela paróquia."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "Presidente Médici",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "69993005360",
+   "whatsapp": "",
+   "instagram": "paroquiasjbatistaro",
+   "site": "https://paroquiasjb.vercel.app",
+   "email": "secretaria@paroquiasjb.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Batista",
+    "tipo": "matriz",
+    "cidade": "Presidente Médici",
+    "localidade": "Centro",
+    "endereco": "Av. São João Batista, 1626",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Missas nas comunidades, sem endereço publicado: sábado 18h na Comunidade Santíssima Trindade; domingo 8h na Comunidade São Francisco e 18h na Comunidade Nossa Senhora da Saúde."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://paroquiasjb.vercel.app/missas",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedejiparana.org.br/noticias-det.php?cod=496",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Criada em 1976; paróquia da Copiosa Redenção."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Fátima",
+  "categoria": "paroquia",
+  "cidade": "Pimenta Bueno",
+  "padroeiro": "Nossa Senhora de Fátima",
+  "contatos": {
+   "telefone": "6934512365",
+   "whatsapp": "69981209141",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora de Fátima",
+    "tipo": "matriz",
+    "cidade": "Pimenta Bueno",
+    "localidade": "Centro",
+    "endereco": "Av. Cunha Bueno, 170, CEP 76970-000",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedejiparana.org.br/noticias-det.php?cod=3221",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Criada em 1974; atende Pimenta Bueno, Primavera de Rondônia e São Felipe D'Oeste. Sem horário publicado pela diocese ou pela paróquia."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sagrada Família",
+  "categoria": "paroquia",
+  "cidade": "Cacoal",
+  "padroeiro": "Sagrada Família",
+  "contatos": {
+   "telefone": "6934415316",
+   "whatsapp": "69999752999",
+   "instagram": "",
+   "site": "",
+   "email": "p.sagradafamilia@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz da Sagrada Família",
+    "tipo": "matriz",
+    "cidade": "Cacoal",
+    "localidade": "Centro",
+    "endereco": "Av. Dois de Junho, 2337",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedejiparana.org.br/noticias-det.php?cod=3218",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Criada em 1976. Sem horário publicado pela diocese ou pela paróquia."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Judas Tadeu",
+  "categoria": "paroquia",
+  "cidade": "Cacoal",
+  "padroeiro": "São Judas Tadeu",
+  "contatos": {
+   "telefone": "6934410573",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "p.saojudastadeucacoal2018@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Judas Tadeu",
+    "tipo": "matriz",
+    "cidade": "Cacoal",
+    "localidade": "Jardim Clodoaldo",
+    "endereco": "Rua Marechal Floriano Peixoto, 2404",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedejiparana.org.br/noticias-det.php?cod=4692",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Criada em 2017, desmembrada da Sagrada Família. Sem horário publicado pela diocese ou pela paróquia."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sagrado Coração de Jesus",
+  "categoria": "paroquia",
+  "cidade": "Ministro Andreazza",
+  "padroeiro": "Sagrado Coração de Jesus",
+  "contatos": {
+   "telefone": "69999406011",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "sagradocoracaodejesusp@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Sagrado Coração de Jesus",
+    "tipo": "matriz",
+    "cidade": "Ministro Andreazza",
+    "localidade": "Centro",
+    "endereco": "Rua Rondônia, 6063",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedejiparana.org.br/noticias-det.php?cod=3219",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Criada em 1994. Sem horário publicado pela diocese ou pela paróquia."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Espigão D'Oeste",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "6934812309",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiaespigao@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Espigão D'Oeste",
+    "localidade": "Centro",
+    "endereco": "Rua da Matriz, 2431, CEP 76974-000",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedejiparana.org.br/noticias-det.php?cod=503",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Criada em 1976. Sem horário publicado pela diocese ou pela paróquia."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Divino Espírito Santo",
+  "categoria": "paroquia",
+  "cidade": "Nova Brasilândia D'Oeste",
+  "padroeiro": "Divino Espírito Santo",
+  "contatos": {
+   "telefone": "6934182434",
+   "whatsapp": "69992137835",
+   "instagram": "",
+   "site": "",
+   "email": "paroquia_nbo@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Nova Brasilândia D'Oeste",
+    "localidade": "Centro",
+    "endereco": "Rua José Carlos Bueno, 3411",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedejiparana.org.br/noticias-det.php?cod=4405",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Criada em 1987; a capela Nossa Senhora Aparecida é a matriz desde 2015. Atende também Migrantinópolis (Novo Horizonte do Oeste). Sem horário publicado pela diocese ou pela paróquia."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Rolim de Moura",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "6931980700",
+   "whatsapp": "69999005245",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiarolim@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Rolim de Moura",
+    "localidade": "Centro",
+    "endereco": "Av. Fortaleza, 5126, CEP 76940-000",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedejiparana.org.br/noticias-det.php?cod=3222",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Criada em 1977; atende também parte de Novo Horizonte do Oeste e Castanheiras. Sem horário publicado pela diocese ou pela paróquia."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Luzia",
+  "categoria": "paroquia",
+  "cidade": "Santa Luzia D'Oeste",
+  "padroeiro": "Santa Luzia",
+  "contatos": {
+   "telefone": "6934342533",
+   "whatsapp": "69984522598",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasaluz@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Luzia",
+    "tipo": "matriz",
+    "cidade": "Santa Luzia D'Oeste",
+    "localidade": "Centro",
+    "endereco": "Av. Novo Estado, 2921, CEP 76950-000",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedejiparana.org.br/noticias-det.php?cod=3445",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Criada em 1994; atende também Alto Alegre dos Parecis. Sem horário publicado pela diocese ou pela paróquia."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Penha",
+  "categoria": "paroquia",
+  "cidade": "Alta Floresta D'Oeste",
+  "padroeiro": "Nossa Senhora da Penha",
+  "contatos": {
+   "telefone": "6936412203",
+   "whatsapp": "69993844116",
+   "instagram": "",
+   "site": "",
+   "email": "arpenha@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Penha",
+    "tipo": "matriz",
+    "cidade": "Alta Floresta D'Oeste",
+    "localidade": "Centro",
+    "endereco": "Av. Rio Grande do Sul, 4506",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedejiparana.org.br/noticias-det.php?cod=3427",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Criada em 1986, desmembrada de Rolim de Moura; paróquia dos Missionários do Verbo Divino. Sem horário publicado pela diocese ou pela paróquia."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Auxiliadora",
+  "categoria": "paroquia",
+  "cidade": "Vilhena",
+  "padroeiro": "Nossa Senhora Auxiliadora",
+  "contatos": {
+   "telefone": "6933212258",
+   "whatsapp": "69984798130",
+   "instagram": "",
+   "site": "",
+   "email": "igrejansauxiliadoravha@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Auxiliadora",
+    "tipo": "matriz",
+    "cidade": "Vilhena",
+    "localidade": "Centro",
+    "endereco": "Av. Liberdade, 2924, CEP 76980-172",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedejiparana.org.br/noticias-det.php?cod=3535",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Primeira igreja de Vilhena (1970), paróquia desde 1976; atende a Área Pastoral de Chupinguaia. Sem horário publicado pela diocese ou pela paróquia."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora das Graças",
+  "categoria": "paroquia",
+  "cidade": "Vilhena",
+  "padroeiro": "Nossa Senhora das Graças",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora das Graças",
+    "tipo": "matriz",
+    "cidade": "Vilhena",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedejiparana.org.br/noticias-det.php?cod=3535",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://gcatholic.org/churches/local/jipa0",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Criada em 21/03/2010, desmembrada da Nossa Senhora Auxiliadora; confiada aos freis capuchinhos. Sem página própria no site da diocese; sem contato nem horário publicados."
+ },
+ {
+  "id_banco": null,
+  "nome": "Área Pastoral de Chupinguaia",
+  "categoria": "area_pastoral",
+  "cidade": "Chupinguaia",
+  "padroeiro": "",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [],
+  "fontes": [
+   {
+    "url": "https://www.diocesedejiparana.org.br/noticias-det.php?cod=3535",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Citada na página da Paróquia Nossa Senhora Auxiliadora de Vilhena, que a atende; 19 comunidades. Nome da igreja, padroeiro e horários não publicados."
+ }
+]
