@@ -137,13 +137,13 @@ def main():
     args = [a for a in sys.argv[1:] if a != "--correcao"]
     correcao = len(args) != len(sys.argv) - 1
     pasta, uf, ts = Path(args[0]), args[1].upper(), args[2]
-    mapa = dict(a.split("=", 1) for a in args[3:])
+    mapa = [a.split("=", 1) for a in args[3:]]
     paroquias, horarios, notas = [], [], []
     avisos = []
     vistos = {}
     antigos_p, antigos_h, errados_p, errados_h = set(), set(), set(), set()
 
-    for diocese, arquivo in mapa.items():
+    for diocese, arquivo in mapa:
         unidades = json.loads((pasta / "saida" / arquivo).read_text())
         for u in unidades:
             if not (u.get("cidade") or "").strip():
