@@ -25,6 +25,18 @@ if (!ehNativo() && "serviceWorker" in navigator) {
   });
 }
 
+function fecharAbertura() {
+  const abertura = document.getElementById("abertura");
+  if (!abertura) return;
+  const desde = (window as { __aberturaDesde?: number }).__aberturaDesde ?? Date.now();
+  const espera = Math.max(0, 700 - (Date.now() - desde));
+  setTimeout(() => {
+    abertura.classList.add("saindo");
+    setTimeout(() => abertura.remove(), 400);
+  }, espera);
+}
+requestAnimationFrame(() => requestAnimationFrame(fecharAbertura));
+
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <PreferenciasProvider>

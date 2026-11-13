@@ -33,7 +33,8 @@ function escrever(caminho, titulo, descricao, corpo, imagem) {
     .replace(/<title>[^<]*<\/title>/, `<title>${esc(titulo)}</title>`)
     .replace(/<meta name="description" content="[^"]*" \/>/, `<meta name="description" content="${esc(descricao)}" />`)
     .replace("</head>", `<link rel="canonical" href="${esc(url)}" />\n<meta property="og:title" content="${esc(titulo)}" />\n<meta property="og:description" content="${esc(descricao)}" />\n<meta property="og:type" content="article" />\n<meta property="og:url" content="${esc(url)}" />${og}\n</head>`)
-    .replace('<div id="root"></div>', `<div id="root"><div style="max-width:42rem;margin:0 auto;padding:1.25rem 1rem 6rem;line-height:1.7;font-family:Georgia,serif">${corpo}</div></div>`);
+    .replace('<div id="root"></div>', `<div id="root"><div style="max-width:42rem;margin:0 auto;padding:1.25rem 1rem 6rem;line-height:1.7;font-family:Georgia,serif">${corpo}</div></div>`)
+    .replace(/<div id="abertura"[\s\S]*?<\/div>/, "");
   const pasta = join(DIST, caminho);
   mkdirSync(pasta, { recursive: true });
   writeFileSync(join(pasta, "index.html"), html);

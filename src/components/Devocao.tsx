@@ -28,7 +28,21 @@ export function useConteudo<T>(carregar: () => Promise<T>, chave: string): T | n
 }
 
 export function Carregando() {
-  return <div className="h-40 animate-pulse rounded-2xl bg-marca-fundo" />;
+  return (
+    <div className="flex animate-pulse flex-col gap-5" aria-hidden>
+      <div className="h-8 w-44 rounded-xl bg-cartao" />
+      <div className="flex gap-3 overflow-hidden">
+        <div className="size-24 shrink-0 rounded-2xl bg-cartao" />
+        <div className="size-24 shrink-0 rounded-2xl bg-cartao" />
+        <div className="size-24 shrink-0 rounded-2xl bg-cartao" />
+      </div>
+      <div className="h-44 rounded-3xl bg-cartao" />
+      <div className="flex flex-col gap-2 rounded-3xl bg-cartao p-5">
+        <div className="h-4 w-2/3 rounded bg-papel" />
+        <div className="h-4 w-1/3 rounded bg-papel" />
+      </div>
+    </div>
+  );
 }
 
 export function Indisponivel() {
