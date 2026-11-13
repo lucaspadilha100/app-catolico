@@ -22,13 +22,17 @@ que faltam.
 3. ⚠️ NÃO mudar nome da unidade, cidade, nome ou ordem das igrejas: o id de
    cada paróquia no banco é calculado a partir disso. Só acrescentar horários,
    fontes, confiança e observação.
-4. Gerar a migração só de horários, por estado, com timestamp da faixa
-   `20261213HHMMSS` (a outra sessão usa `20261212...`):
-   `python3 -I scripts/paroquias/carregar_estado.py fontes/paroquias/pesquisa-sp-2026-11 SP 20261213000100 --so-horarios "Diocese de X=x.json" ...`
-   (mesmos pares "Diocese=arquivo" da carga original; ver o cabeçalho e o
-   commit da migração `*_dados_<uf>_paroquias.sql`). O SQL só insere em
-   paróquia que ainda não tem nenhum horário e que nenhuma secretaria
-   conferiu, e pode rodar duas vezes.
+4. Só trabalhar em estado que JÁ está no banco, ou seja, que tem
+   `supabase/migrations/*_dados_<uf>_paroquias.sql` na main (a migração de
+   horários só acha a paróquia se ela já existir). Gerar a migração só de
+   horários, por estado, com timestamp MAIOR que o último arquivo de
+   `supabase/migrations/` no momento do push (o Supabase recusa migração
+   mais antiga que a última aplicada):
+   `python3 -I scripts/paroquias/carregar_estado.py fontes/paroquias/pesquisa-sp-2026-11 SP <timestamp> --so-horarios "Diocese de X=x.json" ...`
+   (mesmos pares "Diocese=arquivo" da carga original; o commit de cada
+   `*_dados_<uf>_paroquias.sql` mostra quais). O SQL só insere em paróquia
+   que ainda não tem nenhum horário e que nenhuma secretaria conferiu, e pode
+   rodar duas vezes.
 5. `npm run verificar` e UM push só no fim (ou a cada vários estados), com
    `git pull --rebase` antes: a outra sessão também empurra para a main.
    Cada push gasta 1 dos 100 deploys/dia da Vercel.
