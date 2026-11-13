@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { AudioLines, BookOpenText, ChevronRight, UserRound, Droplets, Flower2, Church, CircleDot, GraduationCap, Image, ListChecks, NotebookPen, Share2 } from "lucide-react";
+import { AudioLines, BookOpenText, ChevronRight, UserRound, Droplets, Flower2, Church, CircleDot, GraduationCap, Image, ListChecks, MessageCircleHeart, NotebookPen, Share2 } from "lucide-react";
 import { emAndamento } from "@/devocao/andamento";
 import { NOME_DO_MOMENTO, momentoDaHora } from "@/voz/falas";
 import { useDevocoesGuardadas } from "@/devocao/progresso";
@@ -21,7 +21,9 @@ import { compartilhar, enderecoPublico } from "@/lib/nativo";
 import { CartaoDaCampanha } from "@/components/Campanha";
 import type { TipoLeitura } from "@/liturgia/lecionario";
 import { useLeituras } from "@/lib/useLeituras";
-import { ReflexaoResumo, evangelhoDaMissa } from "@/components/Reflexao";
+import { ReflexaoResumo, evangelhoDaMissa, useReflexao } from "@/components/Reflexao";
+import { enviarTexto } from "@/components/BotaoEnviar";
+import { textoDaReflexaoParaEnviar } from "@/liturgia/enviar";
 import { arteDoEvangelho, caminhoDaArte, type ArteDoEvangelho } from "@/liturgia/arte";
 import { BotaoOuvir, emPartes } from "@/components/Ouvir";
 import { OracoesDoDia } from "@/components/OracoesDoDia";
@@ -148,6 +150,7 @@ export default function Hoje() {
   const paraRezar = andamento.length + lembrancas.length + (anosDeBatismo ? 1 : 0);
   const canonica = evangelhoDaMissa(missas?.[0]);
   const evangelho = missas?.[0]?.leituras.find((x) => x.tipo === "evangelho" && !x.ou && x.forma !== "breve");
+  const reflexao = useReflexao(canonica);
   const [arte, setArte] = useState<ArteDoEvangelho | null>(null);
   const [compartilhando, setCompartilhando] = useState(false);
   const [gerando, setGerando] = useState(false);
@@ -394,8 +397,22 @@ export default function Hoje() {
               className="flex min-h-14 items-center gap-3.5 rounded-2xl px-3 text-left font-semibold text-tinta hover:bg-cartao"
             >
               <Share2 className="size-5 shrink-0 text-destaque-texto" aria-hidden />
-              Enviar com o texto
+              Enviar o Evangelho
             </button>
+            {reflexao && (
+              <button
+                type="button"
+                onClick={() => {
+                  setCompartilhando(false);
+                  const { texto, url } = textoDaReflexaoParaEnviar(reflexao, evangelho?.referencia ?? "", paraIso(l.data));
+                  void enviarTexto("Reflexão do Evangelho", texto, url);
+                }}
+                className="flex min-h-14 items-center gap-3.5 rounded-2xl px-3 text-left font-semibold text-tinta hover:bg-cartao"
+              >
+                <MessageCircleHeart className="size-5 shrink-0 text-destaque-texto" aria-hidden />
+                Enviar a reflexão
+              </button>
+            )}
             <button
               type="button"
               onClick={() => void enviarStories()}

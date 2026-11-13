@@ -5,6 +5,8 @@ import { reflexaoDoEvangelho } from "@/reflexoes/reflexoes";
 import type { Reflexao } from "@/reflexoes/tipos";
 import type { Missa } from "@/liturgia/lecionario";
 import { Cartao, TituloCartao } from "@/components/Cartao";
+import { BotaoEnviar } from "@/components/BotaoEnviar";
+import { textoDaReflexaoParaEnviar } from "@/liturgia/enviar";
 
 export const evangelhoDaMissa = (m: Missa | undefined) =>
   m?.leituras.find((x) => x.tipo === "evangelho" && !x.ou && x.forma !== "breve")?.canonica ?? null;
@@ -24,7 +26,7 @@ export function useReflexao(canonica: string | null): Reflexao | null {
   return r && r.chave === canonica ? r.valor : null;
 }
 
-export function ReflexaoCompleta({ canonica }: { canonica: string | null }) {
+export function ReflexaoCompleta({ canonica, referencia = "", iso }: { canonica: string | null; referencia?: string; iso?: string }) {
   const r = useReflexao(canonica);
   const { hash } = useLocation();
   useEffect(() => {
@@ -46,6 +48,7 @@ export function ReflexaoCompleta({ canonica }: { canonica: string | null }) {
         ))}
       </div>
       <p className="mt-4 rounded-xl bg-marca-fundo px-4 py-3 font-leitura text-[1.05rem] italic text-tinta">{r.pergunta}</p>
+      {iso && <BotaoEnviar titulo="Reflexão do Evangelho" rotulo="Enviar a reflexão" montar={async () => textoDaReflexaoParaEnviar(r, referencia, iso)} className="mt-4 bg-papel" />}
     </Cartao>
   );
 }

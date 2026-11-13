@@ -12,6 +12,8 @@ import { ReflexaoCompleta, evangelhoDaMissa } from "@/components/Reflexao";
 import { BotaoOuvir, emPartes } from "@/components/Ouvir";
 import { textoDaReferencia } from "@/biblia/texto";
 import { livroPorCodigo } from "@/biblia/livros";
+import { BotaoEnviar } from "@/components/BotaoEnviar";
+import { textoDaLeituraParaEnviar } from "@/liturgia/enviar";
 
 const ANUNCIO: Partial<Record<Leitura["tipo"], string>> = { primeira: "Primeira leitura", salmo: "Salmo responsorial", segunda: "Segunda leitura", evangelho: "Evangelho" };
 
@@ -71,7 +73,7 @@ function rotulo(l: Leitura): string {
   return NOME_DA_LEITURA[l.tipo];
 }
 
-function Leituras({ leituras }: { leituras: Leitura[] }) {
+function Leituras({ leituras, iso }: { leituras: Leitura[]; iso: string }) {
   return (
     <div className="flex flex-col gap-6">
       {leituras.map((l, i) => {
@@ -80,7 +82,17 @@ function Leituras({ leituras }: { leituras: Leitura[] }) {
           <article key={`${l.tipo}-${i}`} className={principal ? "" : "-mt-3 rounded-2xl bg-cartao px-4 py-3"}>
             <p className={`text-xs font-bold uppercase tracking-[0.08em] ${principal ? "text-destaque-texto" : "text-tinta-suave"}`}>{rotulo(l)}</p>
             <p className={`mt-1 font-leitura ${principal ? "text-[1.35rem] font-semibold italic text-tinta" : "text-lg text-tinta"}`}>{l.referencia}</p>
-            {l.canonica && principal && l.tipo !== "aclamacao" && <TextoDaLeitura canonica={l.canonica} poema={l.tipo === "salmo"} />}
+            {l.canonica && principal && l.tipo !== "aclamacao" && (
+              <>
+                <TextoDaLeitura canonica={l.canonica} poema={l.tipo === "salmo"} />
+                <BotaoEnviar
+                  titulo={NOME_DA_LEITURA[l.tipo]}
+                  rotulo={l.tipo === "evangelho" ? "Enviar o Evangelho" : "Enviar a leitura"}
+                  montar={() => textoDaLeituraParaEnviar(l, iso)}
+                  className="mt-4 bg-cartao"
+                />
+              </>
+            )}
           </article>
         );
       })}
@@ -202,10 +214,10 @@ export default function Liturgia() {
           </div>
 
           {aba === "reflexao" ? (
-            <ReflexaoCompleta canonica={evangelhoDaMissa(missas[0])} />
+            <ReflexaoCompleta canonica={evangelhoDaMissa(missas[0])} referencia={missas[0]?.leituras.find((x) => x.tipo === "evangelho" && !x.ou && x.forma !== "breve")?.referencia} iso={iso} />
           ) : atual ? (
             <section role="tabpanel" className="flex flex-col gap-6">
-              <Leituras leituras={atual.leituras} />
+              <Leituras leituras={atual.leituras} iso={iso} />
               <NotaDaTraducao />
             </section>
           ) : (
