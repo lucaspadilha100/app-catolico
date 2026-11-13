@@ -1,0 +1,5926 @@
+[
+ {
+  "id_banco": null,
+  "nome": "Catedral São Francisco de Assis",
+  "categoria": "catedral",
+  "cidade": "Caçador",
+  "padroeiro": "São Francisco de Assis",
+  "contatos": {
+   "telefone": "4935630869",
+   "whatsapp": "49999730008",
+   "instagram": "catedralcacador",
+   "site": "",
+   "email": "catedralsfa@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Catedral São Francisco de Assis",
+    "tipo": "matriz",
+    "cidade": "Caçador",
+    "localidade": "Centro",
+    "endereco": "Rua Sete de Setembro, 120",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": "Bênção da saúde"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": "Bênção dos objetos"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "12:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "12:15",
+      "semanas": null,
+      "observacao": "Exposição do Santíssimo; adoração durante a tarde"
+     }
+    ],
+    "nao_cabe": "Quinta-feira: 18h Angelus e bênção do Santíssimo antes da missa das 18h30. Comunidades sem lugar indicado na fonte: Nossa Senhora Salete."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Caçador",
+    "localidade": "Assentamento",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Caçador",
+    "localidade": "Vila Nova",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora da Consolação",
+    "tipo": "capela",
+    "cidade": "Caçador",
+    "localidade": "Vila Santa Catarina",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora de Lourdes",
+    "tipo": "capela",
+    "cidade": "Caçador",
+    "localidade": "Rio Bugre",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Ana",
+    "tipo": "capela",
+    "cidade": "Caçador",
+    "localidade": "Linha Zanetti",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Rita de Cassia",
+    "tipo": "capela",
+    "cidade": "Caçador",
+    "localidade": "Bom Sucesso",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Paulo",
+    "tipo": "capela",
+    "cidade": "Caçador",
+    "localidade": "Linha Castelli",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Roque",
+    "tipo": "capela",
+    "cidade": "Caçador",
+    "localidade": "Assentamento",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Senhor Bom Jesus",
+    "tipo": "capela",
+    "cidade": "Caçador",
+    "localidade": "Linha Adolfo Konder",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Clara",
+    "tipo": "capela",
+    "cidade": "Caçador",
+    "localidade": "Santa Clara",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São José e Santa Terezinha",
+    "tipo": "capela",
+    "cidade": "Caçador",
+    "localidade": "Gioppo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela da Imaculada Conceição",
+    "tipo": "capela",
+    "cidade": "Caçador",
+    "localidade": "Serra Azul",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedecacador.org.br/horarios-de-missa-7015/",
+    "data": "2025-10-01",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedecacador.org.br/catedralsaofranciscodeassis-cacador/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedecacador.org.br/paroquias-6699/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Microrregião de Caçador. Horários da página Horários de Missa da diocese, atualizada em 01/10/2025."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Cristo Redentor",
+  "categoria": "paroquia",
+  "cidade": "Caçador",
+  "padroeiro": "Cristo Redentor",
+  "contatos": {
+   "telefone": "4935630571",
+   "whatsapp": "49999441919",
+   "instagram": "paroquiacristoredentorcacador",
+   "site": "",
+   "email": "parcristoredentor@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Cristo Redentor",
+    "tipo": "matriz",
+    "cidade": "Caçador",
+    "localidade": "Berger",
+    "endereco": "Rua Henrique Júlio Berger, 271",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": "Capela do Santíssimo"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Caçador",
+    "localidade": "Alto Bonito",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Caçador",
+    "localidade": "Cohab II",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Caçador",
+    "localidade": "Mutirão",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora da Saúde",
+    "tipo": "capela",
+    "cidade": "Caçador",
+    "localidade": "Castelhano",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora das Dores",
+    "tipo": "capela",
+    "cidade": "Caçador",
+    "localidade": "Morada do Sol",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora de Fátima",
+    "tipo": "capela",
+    "cidade": "Caçador",
+    "localidade": "Caixa d'Agua",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora de Fatima",
+    "tipo": "capela",
+    "cidade": "Caçador",
+    "localidade": "Km 1",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora de Lourdes",
+    "tipo": "capela",
+    "cidade": "Caçador",
+    "localidade": "Caic",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Antonio",
+    "tipo": "capela",
+    "cidade": "Caçador",
+    "localidade": "Cohab I",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Antonio",
+    "tipo": "capela",
+    "cidade": "Caçador",
+    "localidade": "Vereda dos Trevos",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Geraldo",
+    "tipo": "capela",
+    "cidade": "Caçador",
+    "localidade": "Aliança",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Lucas",
+    "tipo": "capela",
+    "cidade": "Caçador",
+    "localidade": "Bairro Bello",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Paulo",
+    "tipo": "capela",
+    "cidade": "Caçador",
+    "localidade": "Cerro Branco",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Sebastião",
+    "tipo": "capela",
+    "cidade": "Caçador",
+    "localidade": "Jardim Dileta",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Senhor Bom Jesus",
+    "tipo": "capela",
+    "cidade": "Caçador",
+    "localidade": "São João de Cima",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Marcos",
+    "tipo": "capela",
+    "cidade": "Caçador",
+    "localidade": "Martello",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Terezinha",
+    "tipo": "capela",
+    "cidade": "Caçador",
+    "localidade": "Santa Terezinha",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Sant'Ana",
+    "tipo": "capela",
+    "cidade": "Caçador",
+    "localidade": "Linha Santana",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São José",
+    "tipo": "capela",
+    "cidade": "Caçador",
+    "localidade": "Benjamin Constant",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedecacador.org.br/horarios-de-missa-7015/",
+    "data": "2025-10-01",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedecacador.org.br/paroquiacristoredentor-cacador/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedecacador.org.br/paroquias-6699/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Microrregião de Caçador. Horários da página Horários de Missa da diocese, atualizada em 01/10/2025."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Rainha",
+  "categoria": "paroquia",
+  "cidade": "Caçador",
+  "padroeiro": "Nossa Senhora Rainha",
+  "contatos": {
+   "telefone": "4935630904",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "rainha@diocesedecacador.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Rainha",
+    "tipo": "matriz",
+    "cidade": "Caçador",
+    "localidade": "Vila Paraíso",
+    "endereco": "Rua Orestes Pereira Gomes, 200",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Bom Jesus",
+    "tipo": "capela",
+    "cidade": "Caçador",
+    "localidade": "Bairro Bom Jesus",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Caçador",
+    "localidade": "Linha São Luiz II",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora de Fátima",
+    "tipo": "capela",
+    "cidade": "Caçador",
+    "localidade": "Linha Tamandua",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora do Caravaggio",
+    "tipo": "capela",
+    "cidade": "Caçador",
+    "localidade": "Linha Km 30",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora do Carmo",
+    "tipo": "capela",
+    "cidade": "Caçador",
+    "localidade": "Linha Garibaldi",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora do Perpetuo Socorro",
+    "tipo": "capela",
+    "cidade": "Caçador",
+    "localidade": "Bairro dos Municipios",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Joana D'Arc",
+    "tipo": "capela",
+    "cidade": "Caçador",
+    "localidade": "Tombini",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Terezinha",
+    "tipo": "capela",
+    "cidade": "Caçador",
+    "localidade": "Laranjeira",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Antonio",
+    "tipo": "capela",
+    "cidade": "Caçador",
+    "localidade": "Taquara Verde",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Francisco de Sales",
+    "tipo": "capela",
+    "cidade": "Caçador",
+    "localidade": "Linha São Francisco",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São José",
+    "tipo": "capela",
+    "cidade": "Caçador",
+    "localidade": "Rio Tigre",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Jose Esposo de Maria",
+    "tipo": "capela",
+    "cidade": "Caçador",
+    "localidade": "Figueroa",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Judas Tadeu",
+    "tipo": "capela",
+    "cidade": "Caçador",
+    "localidade": "Km 17",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Pascoal",
+    "tipo": "capela",
+    "cidade": "Caçador",
+    "localidade": "Linha Cará",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Pedro",
+    "tipo": "capela",
+    "cidade": "Caçador",
+    "localidade": "Linha São Pedro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Pio X",
+    "tipo": "capela",
+    "cidade": "Caçador",
+    "localidade": "Km 36",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Sebastião",
+    "tipo": "capela",
+    "cidade": "Caçador",
+    "localidade": "Km 13",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora das Dores",
+    "tipo": "capela",
+    "cidade": "Caçador",
+    "localidade": "Antigo Seminário",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedecacador.org.br/horarios-de-missa-7015/",
+    "data": "2025-10-01",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedecacador.org.br/paroquiansr-cacador/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedecacador.org.br/paroquias-6699/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Microrregião de Caçador. Horários da página Horários de Missa da diocese, atualizada em 01/10/2025."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Imaculada Conceição",
+  "categoria": "paroquia",
+  "cidade": "Videira",
+  "padroeiro": "Imaculada Conceição",
+  "contatos": {
+   "telefone": "4935660270",
+   "whatsapp": "4935660270",
+   "instagram": "paroquiavideiraimac",
+   "site": "https://www.salvatorianos.org.br/paroquias/paroquia-imaculada-conceicao--videira-sc",
+   "email": "paroquiavideira@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz da Imaculada Conceição",
+    "tipo": "matriz",
+    "cidade": "Videira",
+    "localidade": "Matriz",
+    "endereco": "Rua Padre Anchieta, 380",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Comunidades sem lugar indicado na fonte: Comunidade Amarante, Comunidade Anta Gorda, Comunidade Aparecida, Comunidade Arroio da Barra, Comunidade Bocó Rapado, Comunidade Camboim, Comunidade Caravaginho, Comunidade Cidade Alta, Comunidade Consoladora, Comunidade Divino Salvador, Comunidade Farroupilha, Comunidade Fátima, Comunidade Imbuial, Comunidade Lurdes, Comunidade Mãe do Salvador, Comunidade Monte Bérico, Comunidade Monte Serrat, Comunidade Morada do Sol, Comunidade Penha, Comunidade Rio Tigre, Comunidade Rondinha, Comunidade Salete, Comunidade Santa Barbara, Comunidade Santa Gema, Comunidade Santa Lucia, Comunidade Santo Antonio, Comunidade Santos Dumont, Comunidade São Brás, Comunidade São Cristóvão, Comunidade São José, Comunidade São Roque, Comunidade São Sebastião, Comunidade Sede Etelvina, Comunidade Vila de Carli, Comunidade Vista Alegre."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedecacador.org.br/horarios-de-missa-7015/",
+    "data": "2025-10-01",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedecacador.org.br/paroquia-imaculada-conceicao-videira/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedecacador.org.br/paroquias-6699/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Microrregião de Videira. Horários da página Horários de Missa da diocese, atualizada em 01/10/2025. Atendida pelos Salvatorianos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Rio das Antas",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "4935640131",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "stoantonio-isabel@diocesedecacador.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Rio das Antas",
+    "localidade": "",
+    "endereco": "Rua Santo Bonotto, 122",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Todo dia 13 do mês: missa em honra a Santo Antônio às 18h30."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora do Sagrado Coração",
+    "tipo": "capela",
+    "cidade": "Rio das Antas",
+    "localidade": "Linha Glória",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Salete",
+    "tipo": "capela",
+    "cidade": "Rio das Antas",
+    "localidade": "Linha Zoller",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Barbara",
+    "tipo": "capela",
+    "cidade": "Rio das Antas",
+    "localidade": "Linha Santo Antonio",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Catarina",
+    "tipo": "capela",
+    "cidade": "Rio das Antas",
+    "localidade": "Linha Wegner",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Rita de Cassia",
+    "tipo": "capela",
+    "cidade": "Rio das Antas",
+    "localidade": "Linha Floresta",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Domingos",
+    "tipo": "capela",
+    "cidade": "Rio das Antas",
+    "localidade": "Pedra Lisa",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Sebastião",
+    "tipo": "capela",
+    "cidade": "Rio das Antas",
+    "localidade": "Rio Bonito",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedecacador.org.br/horarios-de-missa-7015/",
+    "data": "2025-10-01",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedecacador.org.br/paroquia-santo-antonio-riodasantas/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedecacador.org.br/paroquias-6699/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Microrregião de Videira. Horários da página Horários de Missa da diocese, atualizada em 01/10/2025."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Imaculada Conceição",
+  "categoria": "paroquia",
+  "cidade": "Fraiburgo",
+  "padroeiro": "Imaculada Conceição",
+  "contatos": {
+   "telefone": "4932462221",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "fraiburgoparoquia@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz da Imaculada Conceição",
+    "tipo": "matriz",
+    "cidade": "Fraiburgo",
+    "localidade": "Centro",
+    "endereco": "Rua Padre Simonetti, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": "Com adoração ao Santíssimo"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa do Apostolado da Oração"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Comunidades sem lugar indicado na fonte: Comunidade Portal, Santa Luzia."
+   },
+   {
+    "id_banco": null,
+    "nome": "Santuário Diocesano Nossa Senhora de Fátima Mãe dos Pobres",
+    "tipo": "santuario",
+    "cidade": "Fraiburgo",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Todo dia 13 do mês, missa às 15h."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Bom Jesus",
+    "tipo": "capela",
+    "cidade": "Fraiburgo",
+    "localidade": "Fischer Rio Mansinho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Bom Jesus",
+    "tipo": "capela",
+    "cidade": "Fraiburgo",
+    "localidade": "Linha Baia",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Bom Jesus",
+    "tipo": "capela",
+    "cidade": "Fraiburgo",
+    "localidade": "Taguaruçu",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Cristo Rei II",
+    "tipo": "capela",
+    "cidade": "Fraiburgo",
+    "localidade": "Assentamento Butia Verde",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Fraiburgo",
+    "localidade": "Assentamento Rio Mansinho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Fraiburgo",
+    "localidade": "Bela Vista",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Fraiburgo",
+    "localidade": "Contestado",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Fraiburgo",
+    "localidade": "Nossa Senhora Aparecida",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Fraiburgo",
+    "localidade": "Vitoria da Conquista",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora da Salete",
+    "tipo": "capela",
+    "cidade": "Fraiburgo",
+    "localidade": "Vila Salete",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora da Salette",
+    "tipo": "capela",
+    "cidade": "Fraiburgo",
+    "localidade": "Barro Preto",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora da Saúde",
+    "tipo": "capela",
+    "cidade": "Fraiburgo",
+    "localidade": "Nossa Senhora da Saúde",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora de Fatima",
+    "tipo": "capela",
+    "cidade": "Fraiburgo",
+    "localidade": "Rio Mansinho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora de Guadalupe",
+    "tipo": "capela",
+    "cidade": "Fraiburgo",
+    "localidade": "Jardim América",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora de Lourdes",
+    "tipo": "capela",
+    "cidade": "Fraiburgo",
+    "localidade": "Gruta",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora de Lourdes",
+    "tipo": "capela",
+    "cidade": "Fraiburgo",
+    "localidade": "Lau Melo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora do Perpetuo Socorro",
+    "tipo": "capela",
+    "cidade": "Fraiburgo",
+    "localidade": "Nações",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora do Rosário",
+    "tipo": "capela",
+    "cidade": "Fraiburgo",
+    "localidade": "Vila Nova",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Sagrado Coração de Jesus",
+    "tipo": "capela",
+    "cidade": "Fraiburgo",
+    "localidade": "Campina do Cerro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Catarina",
+    "tipo": "capela",
+    "cidade": "Fraiburgo",
+    "localidade": "Santa Catarina",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Helena",
+    "tipo": "capela",
+    "cidade": "Fraiburgo",
+    "localidade": "Santa Helena",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Terezinha",
+    "tipo": "capela",
+    "cidade": "Fraiburgo",
+    "localidade": "Macieira",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Antonio",
+    "tipo": "capela",
+    "cidade": "Fraiburgo",
+    "localidade": "Santo Antonio",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Brás",
+    "tipo": "capela",
+    "cidade": "Fraiburgo",
+    "localidade": "Papuã",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Cristóvão",
+    "tipo": "capela",
+    "cidade": "Fraiburgo",
+    "localidade": "São Cristóvão",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São João Batista",
+    "tipo": "capela",
+    "cidade": "Fraiburgo",
+    "localidade": "Liberata",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São João Batista",
+    "tipo": "capela",
+    "cidade": "Fraiburgo",
+    "localidade": "União da Vitória",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São José",
+    "tipo": "capela",
+    "cidade": "Fraiburgo",
+    "localidade": "São José",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Judas Tadeu",
+    "tipo": "capela",
+    "cidade": "Fraiburgo",
+    "localidade": "Vila Reflor",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Miguel",
+    "tipo": "capela",
+    "cidade": "Fraiburgo",
+    "localidade": "Dez de Novembro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Miguel",
+    "tipo": "capela",
+    "cidade": "Fraiburgo",
+    "localidade": "São Miguel",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Roque",
+    "tipo": "capela",
+    "cidade": "Fraiburgo",
+    "localidade": "Faxinal dos Carvalhos",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Sebastião",
+    "tipo": "capela",
+    "cidade": "Fraiburgo",
+    "localidade": "São Sebastião",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Senhor Bom Jesus",
+    "tipo": "capela",
+    "cidade": "Fraiburgo",
+    "localidade": "Desvio",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedecacador.org.br/horarios-de-missa-7015/",
+    "data": "2025-10-01",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedecacador.org.br/paroquia-imaculada-conceicao-de-fraiburgo/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedecacador.org.br/paroquias-6699/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Microrregião de Videira. Horários da página Horários de Missa da diocese, atualizada em 01/10/2025. O santuário diocesano de Nossa Senhora de Fátima (decreto de 16/05/1993) pertence à paróquia."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Pedro",
+  "categoria": "paroquia",
+  "cidade": "Pinheiro Preto",
+  "padroeiro": "São Pedro",
+  "contatos": {
+   "telefone": "49991621390",
+   "whatsapp": "49991621390",
+   "instagram": "",
+   "site": "",
+   "email": "saopedroparoquia@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Pedro",
+    "tipo": "matriz",
+    "cidade": "Pinheiro Preto",
+    "localidade": "Centro",
+    "endereco": "Rua Pe. Trudo Plessers, 180",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Comunidades sem lugar indicado na fonte: Nossa Senhora dos Navegantes, Santo Isidoro, São Gotardo, São José, São Roque."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedecacador.org.br/horarios-de-missa-7015/",
+    "data": "2025-10-01",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedecacador.org.br/paroquia-sao-pedro-de-pinheiro-preto/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedecacador.org.br/paroquias-6699/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Microrregião de Videira. Horários da página Horários de Missa da diocese, atualizada em 01/10/2025."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Isabel",
+  "categoria": "paroquia",
+  "cidade": "Rio das Antas",
+  "padroeiro": "Santa Isabel",
+  "contatos": {
+   "telefone": "4935640131",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "stoantonio-isabel@diocesedecacador.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Isabel",
+    "tipo": "matriz",
+    "cidade": "Rio das Antas",
+    "localidade": "Ipoméia",
+    "endereco": "Rua Ivo de Aquino, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Todo dia 28 do mês: missa aos devotos do Pe. Hermenegildo Bortolatto às 19h."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Rio das Antas",
+    "localidade": "Pedreira",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora das Dores",
+    "tipo": "capela",
+    "cidade": "Rio das Antas",
+    "localidade": "Linha Moresco",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Catarina",
+    "tipo": "capela",
+    "cidade": "Rio das Antas",
+    "localidade": "Gramado",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Antonio",
+    "tipo": "capela",
+    "cidade": "Rio das Antas",
+    "localidade": "Salto Rio das Pedras",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São José do Rio Preto",
+    "tipo": "capela",
+    "cidade": "Rio das Antas",
+    "localidade": "Rio Preto",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Luiz",
+    "tipo": "capela",
+    "cidade": "Rio das Antas",
+    "localidade": "Linha São Luiz",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Paulo",
+    "tipo": "capela",
+    "cidade": "Rio das Antas",
+    "localidade": "Novo São Paulo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedecacador.org.br/horarios-de-missa-7015/",
+    "data": "2025-10-01",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedecacador.org.br/paroquia-santa-isabel-de-ipomeia/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedecacador.org.br/paroquias-6699/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Microrregião de Videira. Horários da página Horários de Missa da diocese, atualizada em 01/10/2025. Matriz no distrito de Ipoméia; mesmo pároco e mesma secretaria da Paróquia Santo Antônio de Rio das Antas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora dos Campos",
+  "categoria": "paroquia",
+  "cidade": "Arroio Trinta",
+  "padroeiro": "Nossa Senhora dos Campos",
+  "contatos": {
+   "telefone": "4935351134",
+   "whatsapp": "4935351134",
+   "instagram": "",
+   "site": "",
+   "email": "nsdoscampos@diocesedecacador.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora dos Campos",
+    "tipo": "matriz",
+    "cidade": "Arroio Trinta",
+    "localidade": "",
+    "endereco": "Praça do Imigrante",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": [
+       3
+      ],
+      "observacao": "Missa da família"
+     }
+    ],
+    "nao_cabe": "Última quarta-feira do mês: missa às 13h30."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Arroio Trinta",
+    "localidade": "Alto Santo Antonio",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Arroio Trinta",
+    "localidade": "Linha Aparecida",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora de Fátima",
+    "tipo": "capela",
+    "cidade": "Arroio Trinta",
+    "localidade": "Baixo Santo Antonio",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora de Lourdes",
+    "tipo": "capela",
+    "cidade": "Arroio Trinta",
+    "localidade": "Santo Antonio Gruta",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Antonio",
+    "tipo": "capela",
+    "cidade": "Arroio Trinta",
+    "localidade": "Gramado",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Antonio",
+    "tipo": "capela",
+    "cidade": "Macieira",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Brás",
+    "tipo": "capela",
+    "cidade": "Arroio Trinta",
+    "localidade": "Linha Esperança",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Caetano",
+    "tipo": "capela",
+    "cidade": "Arroio Trinta",
+    "localidade": "São Caetano",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Domingos",
+    "tipo": "capela",
+    "cidade": "Arroio Trinta",
+    "localidade": "São Domingos",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Roque",
+    "tipo": "capela",
+    "cidade": "Arroio Trinta",
+    "localidade": "Paiol da Pedra",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Valentim",
+    "tipo": "capela",
+    "cidade": "Arroio Trinta",
+    "localidade": "São Valentim",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela da Sagrada Família",
+    "tipo": "capela",
+    "cidade": "Arroio Trinta",
+    "localidade": "Linha Sagrada Família",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Luzia",
+    "tipo": "capela",
+    "cidade": "Arroio Trinta",
+    "localidade": "Linha Val Verde",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedecacador.org.br/horarios-de-missa-7015/",
+    "data": "2025-10-01",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedecacador.org.br/paroquia-de-arroio-trinta-nossa-senhora-dos-campos/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedecacador.org.br/paroquias-6699/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Microrregião de Arroio Trinta. Horários da página Horários de Missa da diocese, atualizada em 01/10/2025. A diocese chama de Paróquia Nossa Senhora dos Campos, Rainha da Oração, Arroio Trinta e Macieira."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Juliana",
+  "categoria": "paroquia",
+  "cidade": "Salto Veloso",
+  "padroeiro": "Santa Juliana",
+  "contatos": {
+   "telefone": "4935360115",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasantajuliana@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Juliana",
+    "tipo": "matriz",
+    "cidade": "Salto Veloso",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Salto Veloso",
+    "localidade": "Linha Conte e Gaio",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Assunta ao Céu",
+    "tipo": "capela",
+    "cidade": "Salto Veloso",
+    "localidade": "Bairro do Veloso",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Barbara",
+    "tipo": "capela",
+    "cidade": "Salto Veloso",
+    "localidade": "Linha Santo Antonio",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Terezinha",
+    "tipo": "capela",
+    "cidade": "Salto Veloso",
+    "localidade": "Consulta",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Donato",
+    "tipo": "capela",
+    "cidade": "Salto Veloso",
+    "localidade": "Linha Mendes",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Francisco de Assis",
+    "tipo": "capela",
+    "cidade": "Salto Veloso",
+    "localidade": "Congonhas",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São José",
+    "tipo": "capela",
+    "cidade": "Salto Veloso",
+    "localidade": "Brasilia",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Vicente",
+    "tipo": "capela",
+    "cidade": "Salto Veloso",
+    "localidade": "São Vicente",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedecacador.org.br/horarios-de-missa-7015/",
+    "data": "2025-10-01",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedecacador.org.br/paroquia-de-arroio-trinta-santa-juliana-de-salto-veloso/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedecacador.org.br/paroquias-6699/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Microrregião de Arroio Trinta. Horários da página Horários de Missa da diocese, atualizada em 01/10/2025. A página só dá caixa postal, sem rua."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Luiz Gonzaga",
+  "categoria": "paroquia",
+  "cidade": "Iomerê",
+  "padroeiro": "São Luiz Gonzaga",
+  "contatos": {
+   "telefone": "4935391191",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "saoluiz@diocesedecacador.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Luiz Gonzaga",
+    "tipo": "matriz",
+    "cidade": "Iomerê",
+    "localidade": "Centro",
+    "endereco": "Rua São Luiz, 595",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "14:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa do Apostolado da Oração"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "13:45",
+      "semanas": [
+       2
+      ],
+      "observacao": "Missa da Terceira Idade"
+     }
+    ],
+    "nao_cabe": "Comunidades sem lugar indicado na fonte: Nossa Senhora Aparecida, Nossa Senhora de Caravaggio, Nossa Senhora do Carmo, Imaculada Conceição, Santa Catarina, Santa Terezinha, Santo Antônio, São Camilo, São Paulo, São Pedro, São Roque."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedecacador.org.br/horarios-de-missa-7015/",
+    "data": "2025-10-01",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedecacador.org.br/paroquia-sao-luiz-gonzaga-de-iomere/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedecacador.org.br/paroquias-6699/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Microrregião de Arroio Trinta. Horários da página Horários de Missa da diocese, atualizada em 01/10/2025."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Perpétuo Socorro",
+  "categoria": "paroquia",
+  "cidade": "Treze Tílias",
+  "padroeiro": "Nossa Senhora do Perpétuo Socorro",
+  "contatos": {
+   "telefone": "4998218850",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiansps@diocesedecacador.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Perpétuo Socorro",
+    "tipo": "matriz",
+    "cidade": "Treze Tílias",
+    "localidade": "Centro",
+    "endereco": "Rua Mons. João Reitmeier, 59",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São José",
+    "tipo": "capela",
+    "cidade": "Treze Tílias",
+    "localidade": "São José",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Roque e São Cristóvão",
+    "tipo": "capela",
+    "cidade": "Treze Tílias",
+    "localidade": "Linha São Roque",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Treze Tílias",
+    "localidade": "Linha Babemberg",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Antonio",
+    "tipo": "capela",
+    "cidade": "Treze Tílias",
+    "localidade": "Linha Caçador",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora da Saúde e São Braz",
+    "tipo": "capela",
+    "cidade": "Treze Tílias",
+    "localidade": "Linha Pinhal",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Sebastião e São Peregrino",
+    "tipo": "capela",
+    "cidade": "Treze Tílias",
+    "localidade": "Linha Três Barras",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Antonio",
+    "tipo": "capela",
+    "cidade": "Treze Tílias",
+    "localidade": "Linha Barraca",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Treze Tílias",
+    "localidade": "Linha Jatai",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Paulo",
+    "tipo": "capela",
+    "cidade": "Treze Tílias",
+    "localidade": "Linha São Paulo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora de Fátima",
+    "tipo": "capela",
+    "cidade": "Treze Tílias",
+    "localidade": "Tinelli",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Francisco",
+    "tipo": "capela",
+    "cidade": "Treze Tílias",
+    "localidade": "Jardim das Flores",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Camilo de Lelis",
+    "tipo": "capela",
+    "cidade": "Treze Tílias",
+    "localidade": "Alpes das Tilias",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora da Salete",
+    "tipo": "capela",
+    "cidade": "Treze Tílias",
+    "localidade": "Pôr do Sol",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela da Sagrada Família",
+    "tipo": "capela",
+    "cidade": "Treze Tílias",
+    "localidade": "Linha Gruber",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedecacador.org.br/horarios-de-missa-7015/",
+    "data": "2025-10-01",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedecacador.org.br/paroquia-nossa-senhora-do-perpetuo-socorro-de-treze-tilias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedecacador.org.br/paroquias-6699/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Microrregião de Arroio Trinta. Horários da página Horários de Missa da diocese, atualizada em 01/10/2025. O telefone aparece na página com 8 dígitos depois do DDD, como está."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Pedro e São Paulo",
+  "categoria": "paroquia",
+  "cidade": "Porto União",
+  "padroeiro": "São Pedro e São Paulo",
+  "contatos": {
+   "telefone": "4235225083",
+   "whatsapp": "4235225083",
+   "instagram": "",
+   "site": "https://paroquiaspsp.wordpress.com/",
+   "email": "paroquiaspsp@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Pedro e São Paulo",
+    "tipo": "matriz",
+    "cidade": "Porto União",
+    "localidade": "São Pedro",
+    "endereco": "Rua Luiz Mello, 250",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": "Com novena"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": "Em honra a São José"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "09:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Em honra ao Sagrado Coração de Jesus"
+     }
+    ],
+    "nao_cabe": "Terço meia hora antes de cada celebração."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Imaculado Coração de Maria",
+    "tipo": "capela",
+    "cidade": "Porto União",
+    "localidade": "Santa Maria",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Porto União",
+    "localidade": "Stengel",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Porto União",
+    "localidade": "Vice King",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora da Glória",
+    "tipo": "capela",
+    "cidade": "Porto União",
+    "localidade": "Nova Galicia",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora das Graças",
+    "tipo": "capela",
+    "cidade": "Porto União",
+    "localidade": "Km 13",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela da Sagrada Família",
+    "tipo": "capela",
+    "cidade": "Porto União",
+    "localidade": "Bela Vista",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Antonio",
+    "tipo": "capela",
+    "cidade": "Porto União",
+    "localidade": "Legrú",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Francisco de Assis",
+    "tipo": "capela",
+    "cidade": "Porto União",
+    "localidade": "São Bernardo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedecacador.org.br/horarios-de-missa-7015/",
+    "data": "2025-10-01",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedecacador.org.br/paroquia-sao-pedro-e-sao-paulo/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedecacador.org.br/paroquias-6699/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Microrregião de Porto União. Horários da página Horários de Missa da diocese, atualizada em 01/10/2025."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora das Vitórias",
+  "categoria": "paroquia",
+  "cidade": "Porto União",
+  "padroeiro": "Nossa Senhora das Vitórias",
+  "contatos": {
+   "telefone": "4235224741",
+   "whatsapp": "42998384741",
+   "instagram": "",
+   "site": "",
+   "email": "pnsvitoriasdeportouniao@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora das Vitórias",
+    "tipo": "matriz",
+    "cidade": "Porto União",
+    "localidade": "Centro",
+    "endereco": "Rua Frei Rogério, 600",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "16:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa do Apostolado da Oração"
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Porto União",
+    "localidade": "Bom Principio",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Porto União",
+    "localidade": "Dois Vizinhos",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora da Glória",
+    "tipo": "capela",
+    "cidade": "Porto União",
+    "localidade": "Lança",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora das Candeias",
+    "tipo": "capela",
+    "cidade": "Porto União",
+    "localidade": "Marata",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora das Dores",
+    "tipo": "capela",
+    "cidade": "Porto União",
+    "localidade": "Rio Bonito",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora de Fátima",
+    "tipo": "capela",
+    "cidade": "Porto União",
+    "localidade": "Caçadorzinho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Sagrado Coração de Jesus",
+    "tipo": "capela",
+    "cidade": "Porto União",
+    "localidade": "Barra Grande",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Catarina",
+    "tipo": "capela",
+    "cidade": "Porto União",
+    "localidade": "Santa Rosa",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa do Apostolado da Oração"
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela da Santa Cruz",
+    "tipo": "capela",
+    "cidade": "Porto União",
+    "localidade": "Santa Cruz",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Izabel",
+    "tipo": "capela",
+    "cidade": "Porto União",
+    "localidade": "Rio dos Pardos",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Rosa de Lima",
+    "tipo": "capela",
+    "cidade": "Porto União",
+    "localidade": "Pintado",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Antonio",
+    "tipo": "capela",
+    "cidade": "Porto União",
+    "localidade": "Despraiado",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Antonio",
+    "tipo": "capela",
+    "cidade": "Porto União",
+    "localidade": "Pintadinho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Domingos",
+    "tipo": "capela",
+    "cidade": "Porto União",
+    "localidade": "São Domingos",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São João Batista",
+    "tipo": "capela",
+    "cidade": "Porto União",
+    "localidade": "Area Industrial",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Martinho",
+    "tipo": "capela",
+    "cidade": "Porto União",
+    "localidade": "São Martinho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Roque",
+    "tipo": "capela",
+    "cidade": "Porto União",
+    "localidade": "São José do Marata",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Senhor Bom Jesus",
+    "tipo": "capela",
+    "cidade": "Porto União",
+    "localidade": "Nova Patria",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Miguel Arcanjo",
+    "tipo": "capela",
+    "cidade": "Porto União",
+    "localidade": "São Miguel da Serra",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Pedro",
+    "tipo": "capela",
+    "cidade": "Porto União",
+    "localidade": "São Pedro do Timbó",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Francisco de Assis",
+    "tipo": "capela",
+    "cidade": "Porto União",
+    "localidade": "Cabeceira da Barra Grande",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedecacador.org.br/horarios-de-missa-7015/",
+    "data": "2025-10-01",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedecacador.org.br/paroquia-nossa-senhora-das-vitorias-de-porto-uniao/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedecacador.org.br/paroquias-6699/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Microrregião de Porto União. Horários da página Horários de Missa da diocese, atualizada em 01/10/2025."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "Matos Costa",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "49999012296",
+   "whatsapp": "49999012296",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasjbatista@diocesedecacador.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Batista",
+    "tipo": "matriz",
+    "cidade": "Matos Costa",
+    "localidade": "Centro",
+    "endereco": "Rua Cruz e Souza, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Matos Costa",
+    "localidade": "Assentamento Central",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Matos Costa",
+    "localidade": "Assentamento São Roque",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora de Fátima",
+    "tipo": "capela",
+    "cidade": "Matos Costa",
+    "localidade": "Nova Esperança",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora de Lourdes",
+    "tipo": "capela",
+    "cidade": "Matos Costa",
+    "localidade": "Assentamento Grupo IV",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Padre Josimo Tavares",
+    "tipo": "capela",
+    "cidade": "Matos Costa",
+    "localidade": "Assentamento Grupo III",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Sagrado Coração de Jesus",
+    "tipo": "capela",
+    "cidade": "Matos Costa",
+    "localidade": "Pigatto",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Catarina",
+    "tipo": "capela",
+    "cidade": "Matos Costa",
+    "localidade": "Rio dos Poços",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Terezinha",
+    "tipo": "capela",
+    "cidade": "Calmon",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Antonio",
+    "tipo": "capela",
+    "cidade": "Matos Costa",
+    "localidade": "Assentamento 13 de Outubro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Antonio",
+    "tipo": "capela",
+    "cidade": "Matos Costa",
+    "localidade": "Assentamento Grupo II",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Francisco",
+    "tipo": "capela",
+    "cidade": "Matos Costa",
+    "localidade": "São Francisco",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Francisco de Assis",
+    "tipo": "capela",
+    "cidade": "Matos Costa",
+    "localidade": "Molina",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Jorge",
+    "tipo": "capela",
+    "cidade": "Matos Costa",
+    "localidade": "Colonia Cerne",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Jorge",
+    "tipo": "capela",
+    "cidade": "Matos Costa",
+    "localidade": "Rio do Meio",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Sebastião",
+    "tipo": "capela",
+    "cidade": "Matos Costa",
+    "localidade": "Assentamento São Sebastião",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Sebastião",
+    "tipo": "capela",
+    "cidade": "Matos Costa",
+    "localidade": "Cerro do Galo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Senhor Bom Jesus",
+    "tipo": "capela",
+    "cidade": "Matos Costa",
+    "localidade": "Assentamento Bom Jesus",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedecacador.org.br/horarios-de-missa-7015/",
+    "data": "2025-10-01",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedecacador.org.br/paroquia-sao-joao-batista-de-matos-costa-e-calmon/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedecacador.org.br/paroquias-6699/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Microrregião de Porto União. Horários da página Horários de Missa da diocese, atualizada em 01/10/2025. Atende Matos Costa e Calmon; a capela de Calmon é a de Santa Terezinha."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Senhor Bom Jesus",
+  "categoria": "paroquia",
+  "cidade": "Irineópolis",
+  "padroeiro": "Senhor Bom Jesus",
+  "contatos": {
+   "telefone": "4736251135",
+   "whatsapp": "47992723295",
+   "instagram": "",
+   "site": "",
+   "email": "prqsrbomjesus@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Senhor Bom Jesus",
+    "tipo": "matriz",
+    "cidade": "Irineópolis",
+    "localidade": "Centro",
+    "endereco": "Av. Vinte e Dois de Julho, 460",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Comunidades sem lugar indicado na fonte: Bairro Aparecida, Bairro Nossa Senhora Aparecida."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Divino Espírito Santo",
+    "tipo": "capela",
+    "cidade": "Irineópolis",
+    "localidade": "Bairro São Francisco",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Divino Espírito Santo",
+    "tipo": "capela",
+    "cidade": "Irineópolis",
+    "localidade": "Santo Antonio II",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Divino Espírito Santo",
+    "tipo": "capela",
+    "cidade": "Irineópolis",
+    "localidade": "Serra Grande",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Irineópolis",
+    "localidade": "Rio Vermelho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora de Fátima",
+    "tipo": "capela",
+    "cidade": "Irineópolis",
+    "localidade": "Km 16",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora de Fátima",
+    "tipo": "capela",
+    "cidade": "Irineópolis",
+    "localidade": "Km 18",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora de Fátima",
+    "tipo": "capela",
+    "cidade": "Irineópolis",
+    "localidade": "Rio Preto",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora do Perpétuo Socorro",
+    "tipo": "capela",
+    "cidade": "Irineópolis",
+    "localidade": "Rio Branco",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Sagrado Coração de Jesus",
+    "tipo": "capela",
+    "cidade": "Irineópolis",
+    "localidade": "Vila Nova",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela da Santa Cruz",
+    "tipo": "capela",
+    "cidade": "Irineópolis",
+    "localidade": "Pedra Branca",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Terezinha",
+    "tipo": "capela",
+    "cidade": "Irineópolis",
+    "localidade": "Bom Sossego",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Antonio",
+    "tipo": "capela",
+    "cidade": "Irineópolis",
+    "localidade": "Boa Vista",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Antonio",
+    "tipo": "capela",
+    "cidade": "Irineópolis",
+    "localidade": "Santo Antonio I",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Brás",
+    "tipo": "capela",
+    "cidade": "Irineópolis",
+    "localidade": "Serrinha",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Cristóvão",
+    "tipo": "capela",
+    "cidade": "Irineópolis",
+    "localidade": "Colônia Escada",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Francisco",
+    "tipo": "capela",
+    "cidade": "Irineópolis",
+    "localidade": "Pé da Serra",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São José",
+    "tipo": "capela",
+    "cidade": "Irineópolis",
+    "localidade": "Poço Preto",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São José",
+    "tipo": "capela",
+    "cidade": "Irineópolis",
+    "localidade": "São José",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Miguel Arcanjo",
+    "tipo": "capela",
+    "cidade": "Irineópolis",
+    "localidade": "Km 13",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Pascoal",
+    "tipo": "capela",
+    "cidade": "Irineópolis",
+    "localidade": "São Pascoal",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Pedro e São Paulo",
+    "tipo": "capela",
+    "cidade": "Irineópolis",
+    "localidade": "Colônia Litikoski",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Roque",
+    "tipo": "capela",
+    "cidade": "Irineópolis",
+    "localidade": "São Roque",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Sebastião",
+    "tipo": "capela",
+    "cidade": "Irineópolis",
+    "localidade": "Bom Retiro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Sebastião",
+    "tipo": "capela",
+    "cidade": "Irineópolis",
+    "localidade": "São Sebastião",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora de Fatima",
+    "tipo": "capela",
+    "cidade": "Irineópolis",
+    "localidade": "Campina dos Pintos",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedecacador.org.br/horarios-de-missa-7015/",
+    "data": "2025-10-01",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedecacador.org.br/paroquia-senhor-bom-jesus-de-irineopolis/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedecacador.org.br/paroquias-6699/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Microrregião de Porto União. Horários da página Horários de Missa da diocese, atualizada em 01/10/2025."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Cruz",
+  "categoria": "paroquia",
+  "cidade": "Canoinhas",
+  "padroeiro": "Santa Cruz",
+  "contatos": {
+   "telefone": "4736221596",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "prqsantacruz@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz da Santa Cruz",
+    "tipo": "matriz",
+    "cidade": "Canoinhas",
+    "localidade": "Centro",
+    "endereco": "Rua Frei Menandro Kamps, 441",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Catarina",
+    "tipo": "capela",
+    "cidade": "Canoinhas",
+    "localidade": "Entre Rios",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Antonio",
+    "tipo": "capela",
+    "cidade": "Canoinhas",
+    "localidade": "Rio da Areia de Baixo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Francisco",
+    "tipo": "capela",
+    "cidade": "Canoinhas",
+    "localidade": "Campo Agua Verde",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Miguel",
+    "tipo": "capela",
+    "cidade": "Canoinhas",
+    "localidade": "Rio da Areia do Meio",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora de Fátima",
+    "tipo": "capela",
+    "cidade": "Canoinhas",
+    "localidade": "Agua Verde",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Antonio",
+    "tipo": "capela",
+    "cidade": "Canoinhas",
+    "localidade": "Alto da Tijuca",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela da Imaculada Conceição",
+    "tipo": "capela",
+    "cidade": "Canoinhas",
+    "localidade": "Alto do Frigorífico",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela da Imaculada Conceição",
+    "tipo": "capela",
+    "cidade": "Canoinhas",
+    "localidade": "Alto dos Pinheiros",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Imaculado Coração de Maria",
+    "tipo": "capela",
+    "cidade": "Canoinhas",
+    "localidade": "Anta Gorda",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Canoinhas",
+    "localidade": "Bairro Aparecida",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Canoinhas",
+    "localidade": "Aparecida dos Pardos",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Lourenço",
+    "tipo": "capela",
+    "cidade": "Canoinhas",
+    "localidade": "Arroios",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Pedro e São Paulo",
+    "tipo": "capela",
+    "cidade": "Canoinhas",
+    "localidade": "Barra Mansa",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Senhor Bom Jesus",
+    "tipo": "capela",
+    "cidade": "Canoinhas",
+    "localidade": "Barreiros",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Bom Pastor",
+    "tipo": "capela",
+    "cidade": "Canoinhas",
+    "localidade": "Jardim Santa Cruz",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Divino Espírito Santo",
+    "tipo": "capela",
+    "cidade": "Canoinhas",
+    "localidade": "Bonetes de Cima",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Pedro",
+    "tipo": "capela",
+    "cidade": "Canoinhas",
+    "localidade": "Campo dos Buenos",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Canoinhas",
+    "localidade": "Cerrito",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora dos Remedios",
+    "tipo": "capela",
+    "cidade": "Canoinhas",
+    "localidade": "Encruzilhada",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Antonio",
+    "tipo": "capela",
+    "cidade": "Canoinhas",
+    "localidade": "Erval Bonito",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Catarina",
+    "tipo": "capela",
+    "cidade": "Canoinhas",
+    "localidade": "Estação Paciência",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Roque",
+    "tipo": "capela",
+    "cidade": "Canoinhas",
+    "localidade": "Fartura",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Sagrado Coração de Jesus",
+    "tipo": "capela",
+    "cidade": "Canoinhas",
+    "localidade": "Felipe Schmidt",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Expedito",
+    "tipo": "capela",
+    "cidade": "Canoinhas",
+    "localidade": "Forquilha",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Antonio",
+    "tipo": "capela",
+    "cidade": "Canoinhas",
+    "localidade": "Jardim Cristo Rei",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Canoinhas",
+    "localidade": "Lageado",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Bernardo",
+    "tipo": "capela",
+    "cidade": "Canoinhas",
+    "localidade": "Marcilio Dias",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela da Imaculada Conceição",
+    "tipo": "capela",
+    "cidade": "Canoinhas",
+    "localidade": "Paciência dos Neves",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Canoinhas",
+    "localidade": "Palmital",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora de Lourdes",
+    "tipo": "capela",
+    "cidade": "Canoinhas",
+    "localidade": "Parado",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela da Imaculada Conceição",
+    "tipo": "capela",
+    "cidade": "Canoinhas",
+    "localidade": "Paula Pereira",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São José",
+    "tipo": "capela",
+    "cidade": "Canoinhas",
+    "localidade": "Pinheiros",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Santo Anjo da Guarda",
+    "tipo": "capela",
+    "cidade": "Canoinhas",
+    "localidade": "Rio da Veada",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora do Carmo",
+    "tipo": "capela",
+    "cidade": "Canoinhas",
+    "localidade": "Rio do Pinho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Sebastião",
+    "tipo": "capela",
+    "cidade": "Canoinhas",
+    "localidade": "Rio do Tigre",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São João Batista",
+    "tipo": "capela",
+    "cidade": "Canoinhas",
+    "localidade": "Salto da Agua Verde",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora das Graças",
+    "tipo": "capela",
+    "cidade": "Canoinhas",
+    "localidade": "Salseiro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Barbara",
+    "tipo": "capela",
+    "cidade": "Canoinhas",
+    "localidade": "Rio dos Pardos",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Expedito",
+    "tipo": "capela",
+    "cidade": "Canoinhas",
+    "localidade": "Piedade",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São João Batista",
+    "tipo": "capela",
+    "cidade": "Canoinhas",
+    "localidade": "Santa Emidia",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Francisco",
+    "tipo": "capela",
+    "cidade": "Canoinhas",
+    "localidade": "Santa Haidê",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Sebastião",
+    "tipo": "capela",
+    "cidade": "Canoinhas",
+    "localidade": "Santa Leocádia",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela da Santíssima Trindade",
+    "tipo": "capela",
+    "cidade": "Canoinhas",
+    "localidade": "Bonetes de Baixo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Marcos",
+    "tipo": "capela",
+    "cidade": "Canoinhas",
+    "localidade": "Cohab 4",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora de Fátima",
+    "tipo": "capela",
+    "cidade": "Canoinhas",
+    "localidade": "Sereia",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora da Luz",
+    "tipo": "capela",
+    "cidade": "Canoinhas",
+    "localidade": "Serra das Mortes",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Sebastião",
+    "tipo": "capela",
+    "cidade": "Canoinhas",
+    "localidade": "Taquarizal",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Sagrado Coração de Jesus",
+    "tipo": "capela",
+    "cidade": "Canoinhas",
+    "localidade": "Taunay",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Senhor Bom Jesus",
+    "tipo": "capela",
+    "cidade": "Canoinhas",
+    "localidade": "Valinhos",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora das Graças",
+    "tipo": "capela",
+    "cidade": "Canoinhas",
+    "localidade": "Vila Fuck",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Antonio",
+    "tipo": "capela",
+    "cidade": "Canoinhas",
+    "localidade": "Wossgrau",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela da Sagrada Família",
+    "tipo": "capela",
+    "cidade": "Canoinhas",
+    "localidade": "Boa Vista",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Judas Tadeu",
+    "tipo": "capela",
+    "cidade": "Canoinhas",
+    "localidade": "Industrial",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora do Perpétuo Socorro",
+    "tipo": "capela",
+    "cidade": "Canoinhas",
+    "localidade": "Esperança",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedecacador.org.br/horarios-de-missa-7015/",
+    "data": "2025-10-01",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedecacador.org.br/paroquia-de-canoinhas-santa-cruz/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedecacador.org.br/paroquias-6699/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Microrregião de Canoinhas. Horários da página Horários de Missa da diocese, atualizada em 01/10/2025."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "Três Barras",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "4736230233",
+   "whatsapp": "4736230233",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiatresbarras@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Batista",
+    "tipo": "matriz",
+    "cidade": "Três Barras",
+    "localidade": "Centro",
+    "endereco": "Rua Pedro Merhy Seleme, 278",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "15:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Comunidades sem lugar indicado na fonte: Nossa Senhora de Guadalupe, São Cristóvão, São José Operário, Santo Antônio."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Divino Espírito Santo",
+    "tipo": "capela",
+    "cidade": "Três Barras",
+    "localidade": "Km 2",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Três Barras",
+    "localidade": "Km 6",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora das Graças",
+    "tipo": "capela",
+    "cidade": "Três Barras",
+    "localidade": "Col. Tigre",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora de Fátima",
+    "tipo": "capela",
+    "cidade": "Três Barras",
+    "localidade": "Ibama",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Paulina",
+    "tipo": "capela",
+    "cidade": "Três Barras",
+    "localidade": "Cohab",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Santo Anjo",
+    "tipo": "capela",
+    "cidade": "Três Barras",
+    "localidade": "Campininha",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São João Batista",
+    "tipo": "capela",
+    "cidade": "Três Barras",
+    "localidade": "São João dos Cavalheiros",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Sebastião",
+    "tipo": "capela",
+    "cidade": "Três Barras",
+    "localidade": "João Paulo II",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedecacador.org.br/horarios-de-missa-7015/",
+    "data": "2025-10-01",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedecacador.org.br/paroquia-sao-joao-batista-tres-barras/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedecacador.org.br/paroquias-6699/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Microrregião de Canoinhas. Horários da página Horários de Missa da diocese, atualizada em 01/10/2025."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Divino Pai Eterno",
+  "categoria": "paroquia",
+  "cidade": "Bela Vista do Toldo",
+  "padroeiro": "Divino Pai Eterno",
+  "contatos": {
+   "telefone": "4736290075",
+   "whatsapp": "47999483103",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiadivinopaieternobvt@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Divino Pai Eterno",
+    "tipo": "matriz",
+    "cidade": "Bela Vista do Toldo",
+    "localidade": "Centro",
+    "endereco": "Rua Estanislau Schumann",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Cristo Rei",
+    "tipo": "capela",
+    "cidade": "Bela Vista do Toldo",
+    "localidade": "Rio da Areia de Cima",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Bela Vista do Toldo",
+    "localidade": "Gralha",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Bela Vista do Toldo",
+    "localidade": "Pinhalzinho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Bela Vista do Toldo",
+    "localidade": "Ribeirão Raso",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Bela Vista do Toldo",
+    "localidade": "Serra da Lagoa",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora de Fátima",
+    "tipo": "capela",
+    "cidade": "Bela Vista do Toldo",
+    "localidade": "Tira Fogo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora do Perpetuo Socorro",
+    "tipo": "capela",
+    "cidade": "Bela Vista do Toldo",
+    "localidade": "Rio Bonito",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora do Rosário e Santa Terezinha",
+    "tipo": "capela",
+    "cidade": "Bela Vista do Toldo",
+    "localidade": "Imbuia",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Antonio",
+    "tipo": "capela",
+    "cidade": "Bela Vista do Toldo",
+    "localidade": "Lagoa do Sul",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Francisco de Assis",
+    "tipo": "capela",
+    "cidade": "Bela Vista do Toldo",
+    "localidade": "Assentamento",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São José",
+    "tipo": "capela",
+    "cidade": "Bela Vista do Toldo",
+    "localidade": "Rio dos Poços",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São José",
+    "tipo": "capela",
+    "cidade": "Bela Vista do Toldo",
+    "localidade": "Serra do Lucindo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Miguel",
+    "tipo": "capela",
+    "cidade": "Bela Vista do Toldo",
+    "localidade": "Serra dos Borges",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Pedro e São Paulo",
+    "tipo": "capela",
+    "cidade": "Bela Vista do Toldo",
+    "localidade": "Colonia Ouro Verde",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Sebastião",
+    "tipo": "capela",
+    "cidade": "Bela Vista do Toldo",
+    "localidade": "Arroio Fundo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Sebastião",
+    "tipo": "capela",
+    "cidade": "Bela Vista do Toldo",
+    "localidade": "São Sebastião dos Ferreiras",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Senhor Bom Jesus",
+    "tipo": "capela",
+    "cidade": "Bela Vista do Toldo",
+    "localidade": "Colonia Ouro Verde",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Desatadora dos Nós",
+    "tipo": "capela",
+    "cidade": "Bela Vista do Toldo",
+    "localidade": "Vila Poloniski",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedecacador.org.br/horarios-de-missa-7015/",
+    "data": "2025-10-01",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedecacador.org.br/paroquia-divino-pai-eterno-de-bela-vista-do-toldo/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedecacador.org.br/paroquias-6699/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Microrregião de Canoinhas. Horários da página Horários de Missa da diocese, atualizada em 01/10/2025. Secretaria na Rua Eraldo Lessak, 61."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Divino Espírito Santo",
+  "categoria": "paroquia",
+  "cidade": "Major Vieira",
+  "padroeiro": "Divino Espírito Santo",
+  "contatos": {
+   "telefone": "4736551104",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "prqdivinoesp@diocesedecacador.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Divino Espírito Santo",
+    "tipo": "matriz",
+    "cidade": "Major Vieira",
+    "localidade": "Centro",
+    "endereco": "Rua João Florentino de Souza, 1223",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Comunidades sem lugar indicado na fonte: Santo Antonio, São Brás."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Cristo Redentor",
+    "tipo": "capela",
+    "cidade": "Major Vieira",
+    "localidade": "Canudos",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela da Imaculada Conceição",
+    "tipo": "capela",
+    "cidade": "Major Vieira",
+    "localidade": "Rio Claro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Major Vieira",
+    "localidade": "Lajeado Liso",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora do Monte Claro",
+    "tipo": "capela",
+    "cidade": "Major Vieira",
+    "localidade": "Serra Preta",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela da Santa Cruz",
+    "tipo": "capela",
+    "cidade": "Major Vieira",
+    "localidade": "Campina dos Santos",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Estanislau",
+    "tipo": "capela",
+    "cidade": "Major Vieira",
+    "localidade": "Rio Novo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Francisco de Assis",
+    "tipo": "capela",
+    "cidade": "Major Vieira",
+    "localidade": "Rio Vermelho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São José Operário",
+    "tipo": "capela",
+    "cidade": "Major Vieira",
+    "localidade": "Paiol Velho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Pedro e São Paulo",
+    "tipo": "capela",
+    "cidade": "Major Vieira",
+    "localidade": "Pulador",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Roque",
+    "tipo": "capela",
+    "cidade": "Major Vieira",
+    "localidade": "Agudos",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Sebastião",
+    "tipo": "capela",
+    "cidade": "Major Vieira",
+    "localidade": "Colônia Ruthes",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Senhor Bom Jesus",
+    "tipo": "capela",
+    "cidade": "Major Vieira",
+    "localidade": "Toldo de Cima",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedecacador.org.br/horarios-de-missa-7015/",
+    "data": "2025-10-01",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedecacador.org.br/paroquia-divino-espirito-santo-de-major-vieira/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedecacador.org.br/paroquias-6699/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Microrregião de Canoinhas. Horários da página Horários de Missa da diocese, atualizada em 01/10/2025. O GCatholic registra a cidade como Vieira."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "Papanduva",
+  "padroeiro": "São Sebastião",
+  "contatos": {
+   "telefone": "4736532124",
+   "whatsapp": "4736532124",
+   "instagram": "",
+   "site": "",
+   "email": "prqpapanduva@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Sebastião",
+    "tipo": "matriz",
+    "cidade": "Papanduva",
+    "localidade": "Centro",
+    "endereco": "Rua Nereu Ramos, 2910",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "15:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Comunidades sem lugar indicado na fonte: São Cristóvão."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Divino Espírito Santo",
+    "tipo": "capela",
+    "cidade": "Papanduva",
+    "localidade": "Passo Ruim",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Divino Espírito Santo",
+    "tipo": "capela",
+    "cidade": "Papanduva",
+    "localidade": "Rio da Ponte",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Papanduva",
+    "localidade": "Floresta II",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Papanduva",
+    "localidade": "Rio Bonito",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Papanduva",
+    "localidade": "Rio do Engano",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Papanduva",
+    "localidade": "Salto Itajai",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora da Piedade",
+    "tipo": "capela",
+    "cidade": "Papanduva",
+    "localidade": "Arroio Fundo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora de Fátima",
+    "tipo": "capela",
+    "cidade": "Papanduva",
+    "localidade": "Rondinha",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora de Lourdes",
+    "tipo": "capela",
+    "cidade": "Papanduva",
+    "localidade": "Carijos",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora de Lourdes",
+    "tipo": "capela",
+    "cidade": "Papanduva",
+    "localidade": "São João do Mirador",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora do Perpétuo Socorro",
+    "tipo": "capela",
+    "cidade": "Papanduva",
+    "localidade": "Rodeozinho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Imaculada Conceição",
+    "tipo": "capela",
+    "cidade": "Papanduva",
+    "localidade": "Nova Cultura",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Bárbara",
+    "tipo": "capela",
+    "cidade": "Papanduva",
+    "localidade": "Gramados",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Monica",
+    "tipo": "capela",
+    "cidade": "Papanduva",
+    "localidade": "Santa Monica",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Antonio",
+    "tipo": "capela",
+    "cidade": "Papanduva",
+    "localidade": "Rio da Veada",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Francisco de Assis",
+    "tipo": "capela",
+    "cidade": "Papanduva",
+    "localidade": "Palmito",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São João Batista",
+    "tipo": "capela",
+    "cidade": "Papanduva",
+    "localidade": "Floresta São João",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São José",
+    "tipo": "capela",
+    "cidade": "Papanduva",
+    "localidade": "Guarani",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Paulo Apóstolo",
+    "tipo": "capela",
+    "cidade": "Papanduva",
+    "localidade": "Pinhal",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Pedro",
+    "tipo": "capela",
+    "cidade": "Papanduva",
+    "localidade": "Queimados",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Roque",
+    "tipo": "capela",
+    "cidade": "Papanduva",
+    "localidade": "Pratinha",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Tomás",
+    "tipo": "capela",
+    "cidade": "Papanduva",
+    "localidade": "São Tomás",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Catarina",
+    "tipo": "capela",
+    "cidade": "Papanduva",
+    "localidade": "Lageado",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedecacador.org.br/horarios-de-missa-7015/",
+    "data": "2025-10-01",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedecacador.org.br/paroquia-sao-sebastiao-de-papanduva/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedecacador.org.br/paroquias-6699/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Microrregião de Canoinhas. Horários da página Horários de Missa da diocese, atualizada em 01/10/2025. Não aparece na lista do GCatholic."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José Operário",
+  "categoria": "paroquia",
+  "cidade": "Monte Castelo",
+  "padroeiro": "São José Operário",
+  "contatos": {
+   "telefone": "4736540105",
+   "whatsapp": "4736540105",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiamc@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José Operário",
+    "tipo": "matriz",
+    "cidade": "Monte Castelo",
+    "localidade": "Centro",
+    "endereco": "Rua Papa João XXIII, 170",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa do Sagrado Coração de Jesus"
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Divino Espírito Santo",
+    "tipo": "capela",
+    "cidade": "Monte Castelo",
+    "localidade": "Rio das Antas",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela da Imaculada Conceição",
+    "tipo": "capela",
+    "cidade": "Monte Castelo",
+    "localidade": "Rancho Grande",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Monte Castelo",
+    "localidade": "Passa Quatro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Monte Castelo",
+    "localidade": "Verde",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora da Salete",
+    "tipo": "capela",
+    "cidade": "Monte Castelo",
+    "localidade": "Estrada Nova",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora das Graças",
+    "tipo": "capela",
+    "cidade": "Monte Castelo",
+    "localidade": "Km 98",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora do Rosario de Fatima",
+    "tipo": "capela",
+    "cidade": "Monte Castelo",
+    "localidade": "Residência Fuck",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela da Sagrada Familia",
+    "tipo": "capela",
+    "cidade": "Monte Castelo",
+    "localidade": "Rodeio Grande",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela da Santa Cruz",
+    "tipo": "capela",
+    "cidade": "Monte Castelo",
+    "localidade": "Aterrado Alto",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela da Santa Cruz",
+    "tipo": "capela",
+    "cidade": "Monte Castelo",
+    "localidade": "Santa Cruz",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Antonio",
+    "tipo": "capela",
+    "cidade": "Monte Castelo",
+    "localidade": "Km 104",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Antonio",
+    "tipo": "capela",
+    "cidade": "Monte Castelo",
+    "localidade": "Lageadinho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Expedito",
+    "tipo": "capela",
+    "cidade": "Monte Castelo",
+    "localidade": "Colonia Maidel",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Brás",
+    "tipo": "capela",
+    "cidade": "Monte Castelo",
+    "localidade": "Alto Canoinhas",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Brás",
+    "tipo": "capela",
+    "cidade": "Monte Castelo",
+    "localidade": "Assentamento",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Pedro",
+    "tipo": "capela",
+    "cidade": "Monte Castelo",
+    "localidade": "Colonia Koaski",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Sebastião",
+    "tipo": "capela",
+    "cidade": "Monte Castelo",
+    "localidade": "Bom Retiro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedecacador.org.br/horarios-de-missa-7015/",
+    "data": "2025-10-01",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedecacador.org.br/paroquia-sao-jose-operario-de-monte-castelo/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedecacador.org.br/paroquias-6699/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Microrregião de Canoinhas. Horários da página Horários de Missa da diocese, atualizada em 01/10/2025."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Cecília",
+  "categoria": "paroquia",
+  "cidade": "Santa Cecília",
+  "padroeiro": "Santa Cecília",
+  "contatos": {
+   "telefone": "49988919292",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "https://paroquiaceciliense.wixsite.com/santa",
+   "email": "paroquiasc@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Cecília",
+    "tipo": "matriz",
+    "cidade": "Santa Cecília",
+    "localidade": "Centro",
+    "endereco": "Praça José Goetten Sobrinho, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Batizados todo 2º domingo do mês às 8h30."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Divino Espírito Santo",
+    "tipo": "capela",
+    "cidade": "Santa Cecília",
+    "localidade": "Fachinal dos Rocha",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Santa Cecília",
+    "localidade": "Vida Nova",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora da Piedade",
+    "tipo": "capela",
+    "cidade": "Santa Cecília",
+    "localidade": "Coletoria Velha",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora das Graças",
+    "tipo": "capela",
+    "cidade": "Santa Cecília",
+    "localidade": "Rio Bonito",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora de Fátima",
+    "tipo": "capela",
+    "cidade": "Santa Cecília",
+    "localidade": "Batalhão",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora do Carmo",
+    "tipo": "capela",
+    "cidade": "Santa Cecília",
+    "localidade": "Campo de Areião",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora do Rosario",
+    "tipo": "capela",
+    "cidade": "Santa Cecília",
+    "localidade": "Waely",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Antonio",
+    "tipo": "capela",
+    "cidade": "Santa Cecília",
+    "localidade": "Polpas de Madeira",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Bom Jesus",
+    "tipo": "capela",
+    "cidade": "Santa Cecília",
+    "localidade": "Alto Rio Bonito",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Cristóvão",
+    "tipo": "capela",
+    "cidade": "Santa Cecília",
+    "localidade": "Campo Alto",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Cristóvão",
+    "tipo": "capela",
+    "cidade": "Santa Cecília",
+    "localidade": "São Cristóvão",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São João Batista",
+    "tipo": "capela",
+    "cidade": "Santa Cecília",
+    "localidade": "Rio Bonitinho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Sebastião",
+    "tipo": "capela",
+    "cidade": "Santa Cecília",
+    "localidade": "Anta Morta",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Santa Cecília",
+    "localidade": "Bairro Aparecida",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela da Sagrada Familia",
+    "tipo": "capela",
+    "cidade": "Santa Cecília",
+    "localidade": "Bairro Marciliano Fernandes",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Judas Tadeu",
+    "tipo": "capela",
+    "cidade": "Santa Cecília",
+    "localidade": "Bela Vista",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Sebastião",
+    "tipo": "capela",
+    "cidade": "Santa Cecília",
+    "localidade": "Beribas",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedecacador.org.br/horarios-de-missa-7015/",
+    "data": "2025-10-01",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedecacador.org.br/paroquia-de-santa-cecilia/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedecacador.org.br/paroquias-6699/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Microrregião de Santa Cecília. Horários da página Horários de Missa da diocese, atualizada em 01/10/2025."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José",
+  "categoria": "paroquia",
+  "cidade": "Timbó Grande",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "49933806655",
+   "whatsapp": "49933806655",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiatg@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José",
+    "tipo": "matriz",
+    "cidade": "Timbó Grande",
+    "localidade": "Centro",
+    "endereco": "Rua Germano Alves de Almeida, 291",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Cristo Rei",
+    "tipo": "capela",
+    "cidade": "Timbó Grande",
+    "localidade": "Cristo Rei",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Divino Espírito Santo",
+    "tipo": "capela",
+    "cidade": "Timbó Grande",
+    "localidade": "Divino Espírito Santo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Timbó Grande",
+    "localidade": "Colônia Brusca",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Timbó Grande",
+    "localidade": "Nossa Senhora Aparecida",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora do Caravaggio",
+    "tipo": "capela",
+    "cidade": "Timbó Grande",
+    "localidade": "Serra Chata",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora do Rosario",
+    "tipo": "capela",
+    "cidade": "Timbó Grande",
+    "localidade": "Cachoeira",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Paulina",
+    "tipo": "capela",
+    "cidade": "Timbó Grande",
+    "localidade": "Alto Bonito",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Pedro",
+    "tipo": "capela",
+    "cidade": "Timbó Grande",
+    "localidade": "São Pedro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Roque",
+    "tipo": "capela",
+    "cidade": "Timbó Grande",
+    "localidade": "São Roque",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Timbó Grande",
+    "localidade": "Fazenda Diamante",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Timbó Grande",
+    "localidade": "Massaneiro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora de Fatima",
+    "tipo": "capela",
+    "cidade": "Timbó Grande",
+    "localidade": "Santa Maria",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora de Lourdes",
+    "tipo": "capela",
+    "cidade": "Timbó Grande",
+    "localidade": "Alto Timbo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Luiza",
+    "tipo": "capela",
+    "cidade": "Timbó Grande",
+    "localidade": "Santa Luiza",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Antonio",
+    "tipo": "capela",
+    "cidade": "Timbó Grande",
+    "localidade": "Buriti",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Antonio",
+    "tipo": "capela",
+    "cidade": "Timbó Grande",
+    "localidade": "Schimidt",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Expedito",
+    "tipo": "capela",
+    "cidade": "Timbó Grande",
+    "localidade": "Perdiz Grande",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São João Batista",
+    "tipo": "capela",
+    "cidade": "Timbó Grande",
+    "localidade": "Vargem Grande",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Sebastião",
+    "tipo": "capela",
+    "cidade": "Timbó Grande",
+    "localidade": "Antinha",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Sebastião",
+    "tipo": "capela",
+    "cidade": "Timbó Grande",
+    "localidade": "São José",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Sebastião",
+    "tipo": "capela",
+    "cidade": "Timbó Grande",
+    "localidade": "Vaca Branca",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedecacador.org.br/horarios-de-missa-7015/",
+    "data": "2025-10-01",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedecacador.org.br/paroquia-sao-jose-timbo-grande/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedecacador.org.br/paroquias-6699/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Microrregião de Santa Cecília. Horários da página Horários de Missa da diocese, atualizada em 01/10/2025."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Lebon Régis",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "4932470182",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "secretariaparoquial@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Lebon Régis",
+    "localidade": "Centro",
+    "endereco": "Av. Santo Antônio, 560",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Comunidades sem lugar indicado na fonte: Esperança Dias, Fazenda da Barra."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Cristo Rei",
+    "tipo": "capela",
+    "cidade": "Lebon Régis",
+    "localidade": "Caçador Grande",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Divino Espírito Santo",
+    "tipo": "capela",
+    "cidade": "Lebon Régis",
+    "localidade": "Núcleo Rio Doce",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Divino Espírito Santo",
+    "tipo": "capela",
+    "cidade": "Lebon Régis",
+    "localidade": "Pastagem",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Lebon Régis",
+    "localidade": "Comum",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Lebon Régis",
+    "localidade": "Conq. Palmares",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Lebon Régis",
+    "localidade": "Linha Vitória",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Lebon Régis",
+    "localidade": "Serra da Esperança",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora de Fátima",
+    "tipo": "capela",
+    "cidade": "Lebon Régis",
+    "localidade": "Esp. Dias Alvares",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora de Lourdes",
+    "tipo": "capela",
+    "cidade": "Lebon Régis",
+    "localidade": "Gruta",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Izabel",
+    "tipo": "capela",
+    "cidade": "Lebon Régis",
+    "localidade": "Segredo II",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Luzia",
+    "tipo": "capela",
+    "cidade": "Lebon Régis",
+    "localidade": "Rio Agua Azul",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Terezinha",
+    "tipo": "capela",
+    "cidade": "Lebon Régis",
+    "localidade": "Eldorado de Carajás",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Lebon Régis",
+    "localidade": "Rio Bonito do Meio",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Francisco de Assis",
+    "tipo": "capela",
+    "cidade": "Lebon Régis",
+    "localidade": "Alto Rio Doce",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São João Batista",
+    "tipo": "capela",
+    "cidade": "Lebon Régis",
+    "localidade": "Segredo I",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São José",
+    "tipo": "capela",
+    "cidade": "Lebon Régis",
+    "localidade": "Carlin",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São José Operário",
+    "tipo": "capela",
+    "cidade": "Lebon Régis",
+    "localidade": "Abraão",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Lourenço",
+    "tipo": "capela",
+    "cidade": "Lebon Régis",
+    "localidade": "30 de Outubro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Pedro",
+    "tipo": "capela",
+    "cidade": "Lebon Régis",
+    "localidade": "Faxinal São Pedro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Sebastião",
+    "tipo": "capela",
+    "cidade": "Lebon Régis",
+    "localidade": "Rio do Meio",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Sebastião",
+    "tipo": "capela",
+    "cidade": "Lebon Régis",
+    "localidade": "São Sebastião",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedecacador.org.br/horarios-de-missa-7015/",
+    "data": "2025-10-01",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedecacador.org.br/paroquia-santo-antonio-de-lebon-regis/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedecacador.org.br/paroquias-6699/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Microrregião de Santa Cecília. Horários da página Horários de Missa da diocese, atualizada em 01/10/2025."
+ }
+]

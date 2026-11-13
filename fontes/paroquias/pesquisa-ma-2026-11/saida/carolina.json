@@ -1,0 +1,3450 @@
+[
+ {
+  "id_banco": null,
+  "nome": "Catedral São Pedro de Alcântara",
+  "categoria": "catedral",
+  "cidade": "Carolina",
+  "padroeiro": "São Pedro de Alcântara",
+  "contatos": {
+   "telefone": "99984806240",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "dpspa2009@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Catedral São Pedro de Alcântara",
+    "tipo": "matriz",
+    "cidade": "Carolina",
+    "localidade": "Centro",
+    "endereco": "Av. Getúlio Vargas, nº 23, Centro",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Igreja de Santa Teresinha",
+    "tipo": "capela",
+    "cidade": "Carolina",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Igreja de São José Operário",
+    "tipo": "capela",
+    "cidade": "Carolina",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Igreja de São Francisco de Assis",
+    "tipo": "capela",
+    "cidade": "Carolina",
+    "localidade": "Brejinho",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Igreja de Nossa Senhora do Perpétuo Socorro",
+    "tipo": "capela",
+    "cidade": "Carolina",
+    "localidade": "Ticoncá",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Sebastião",
+    "tipo": "capela",
+    "cidade": "Carolina",
+    "localidade": "Canto Grande",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de São José dos Louros",
+    "tipo": "comunidade",
+    "cidade": "Carolina",
+    "localidade": "São José dos Louros",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Missa aos sábados às 10h; não diz qual sábado do mês"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Buritirana",
+    "tipo": "comunidade",
+    "cidade": "Carolina",
+    "localidade": "Buritirana",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Missa aos sábados às 10h; não diz qual sábado do mês"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Canto do Porto",
+    "tipo": "comunidade",
+    "cidade": "Carolina",
+    "localidade": "Canto do Porto",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Missa aos sábados às 10h; não diz qual sábado do mês"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Riacho Fundo",
+    "tipo": "comunidade",
+    "cidade": "Carolina",
+    "localidade": "Riacho Fundo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Missa aos sábados às 10h; não diz qual sábado do mês"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Brejão",
+    "tipo": "comunidade",
+    "cidade": "Carolina",
+    "localidade": "Brejão",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Missa aos sábados às 10h; não diz qual sábado do mês"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedecarolina.com.br/l/15/",
+    "data": "2025-04",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedecarolina.com.br/pastoral-diocesana-da-catequese/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Microrregião Pastoral nº 1 (Carolina e São Pedro dos Crentes). Horários da página da paróquia no site da diocese (24/04/2025). As comunidades rurais sem capela têm missa aos sábados às 10h, sem dizer o sábado; a de Nossa Senhora de Fátima (50 km) ficou fora por não ter lugar. O e-mail do pároco ficou fora. O GCatholic lista ainda uma Paróquia Nossa Senhora das Graças e um Santuário do Menino Jesus em Carolina, que a diocese não lista."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio de Pádua",
+  "categoria": "paroquia",
+  "cidade": "Carolina",
+  "padroeiro": "Santo Antônio de Pádua",
+  "contatos": {
+   "telefone": "63992133499",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "santo202308@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio de Pádua",
+    "tipo": "matriz",
+    "cidade": "Carolina",
+    "localidade": "Nova Carolina",
+    "endereco": "Avenida Brasil, nº 150B, Nova Carolina",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Igreja de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Carolina",
+    "localidade": "COHAB",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Menino Jesus",
+    "tipo": "capela",
+    "cidade": "Carolina",
+    "localidade": "Sucupira",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebração às quartas-feiras às 19h"
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Divino Espírito Santo",
+    "tipo": "capela",
+    "cidade": "Carolina",
+    "localidade": "Cibrazem",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebração às quintas-feiras às 19h"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Alto Alegre",
+    "tipo": "comunidade",
+    "cidade": "Carolina",
+    "localidade": "Alto Alegre",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "08:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Bacuri do Lajes",
+    "tipo": "comunidade",
+    "cidade": "Carolina",
+    "localidade": "Bacuri do Lajes",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "08:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Brejo Escuro",
+    "tipo": "comunidade",
+    "cidade": "Carolina",
+    "localidade": "Brejo Escuro",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "10:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de São João das Cachoeiras",
+    "tipo": "comunidade",
+    "cidade": "Carolina",
+    "localidade": "São João das Cachoeiras",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Buritizinho",
+    "tipo": "comunidade",
+    "cidade": "Carolina",
+    "localidade": "Buritizinho",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Solta",
+    "tipo": "comunidade",
+    "cidade": "Carolina",
+    "localidade": "Solta",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "14:00",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de São José dos Pereiras",
+    "tipo": "comunidade",
+    "cidade": "Carolina",
+    "localidade": "São José dos Pereiras",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Canto da Lagoa",
+    "tipo": "comunidade",
+    "cidade": "Carolina",
+    "localidade": "Canto da Lagoa",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "15:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Terra Vermelha",
+    "tipo": "comunidade",
+    "cidade": "Carolina",
+    "localidade": "Terra Vermelha",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Canto do Remanso",
+    "tipo": "comunidade",
+    "cidade": "Carolina",
+    "localidade": "Canto do Remanso",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "10:00",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de São Bento",
+    "tipo": "comunidade",
+    "cidade": "Carolina",
+    "localidade": "São Bento",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Helenópolis",
+    "tipo": "comunidade",
+    "cidade": "Carolina",
+    "localidade": "Helenópolis",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Bonito",
+    "tipo": "comunidade",
+    "cidade": "Carolina",
+    "localidade": "Bonito",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "08:00",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Vão do Pico",
+    "tipo": "comunidade",
+    "cidade": "Carolina",
+    "localidade": "Vão do Pico (Ciros)",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "14:00",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Ponto de missa de Cana Brava",
+    "tipo": "comunidade",
+    "cidade": "Carolina",
+    "localidade": "Cana Brava",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Ponto de missa de Taboquinha",
+    "tipo": "comunidade",
+    "cidade": "Carolina",
+    "localidade": "Taboquinha",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Ponto de missa de Morrinhos",
+    "tipo": "comunidade",
+    "cidade": "Carolina",
+    "localidade": "Morrinhos",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Ponto de missa de Santa Maria dos Ferreiras",
+    "tipo": "comunidade",
+    "cidade": "Carolina",
+    "localidade": "Santa Maria dos Ferreiras",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Ponto de missa de Santa Rita dos Italianos",
+    "tipo": "comunidade",
+    "cidade": "Carolina",
+    "localidade": "Santa Rita dos Italianos",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Ponto de missa de Marrecos",
+    "tipo": "comunidade",
+    "cidade": "Carolina",
+    "localidade": "Marrecos",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedecarolina.com.br/l/14/",
+    "data": "2025-04",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Microrregião Pastoral nº 1 (Carolina e São Pedro dos Crentes). Horários da página da paróquia no site da diocese (24/04/2025). Telefone celular publicado na página da paróquia. \"Canto da Lago\" na fonte foi lido como Canto da Lagoa. Os pontos de missa não têm horário publicado."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Pedro Apóstolo",
+  "categoria": "paroquia",
+  "cidade": "São Pedro dos Crentes",
+  "padroeiro": "São Pedro Apóstolo",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "pspapostolo86@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Pedro Apóstolo",
+    "tipo": "matriz",
+    "cidade": "São Pedro dos Crentes",
+    "localidade": "Santa Rosa",
+    "endereco": "Rua 04, s/n, Santa Rosa",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Matina",
+    "tipo": "comunidade",
+    "cidade": "São Pedro dos Crentes",
+    "localidade": "Matina",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Volta do Rio",
+    "tipo": "comunidade",
+    "cidade": "São Pedro dos Crentes",
+    "localidade": "Volta do Rio",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Boa União",
+    "tipo": "comunidade",
+    "cidade": "São Pedro dos Crentes",
+    "localidade": "Boa União",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "15:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Olho D’Água",
+    "tipo": "comunidade",
+    "cidade": "São Pedro dos Crentes",
+    "localidade": "Olho D’Água",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "15:30",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Vargem do Porto",
+    "tipo": "comunidade",
+    "cidade": "São Pedro dos Crentes",
+    "localidade": "Vargem do Porto",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Missa só quando marcada"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade do Assentamento Paulo Freire",
+    "tipo": "comunidade",
+    "cidade": "São Pedro dos Crentes",
+    "localidade": "Assentamento Paulo Freire",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Missa só quando marcada"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedecarolina.com.br/l/13/",
+    "data": "2025-04",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Microrregião Pastoral nº 1 (Carolina e São Pedro dos Crentes). Horários da página da paróquia no site da diocese (24/04/2025). O e-mail do pároco ficou fora."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "Estreito",
+  "padroeiro": "São Sebastião",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasaosebastiao034@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Sebastião",
+    "tipo": "matriz",
+    "cidade": "Estreito",
+    "localidade": "Centro",
+    "endereco": "Rua João Gomes Bandeira, s/n, Centro",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Santa Luzia",
+    "tipo": "comunidade",
+    "cidade": "Estreito",
+    "localidade": "Folha Larga",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Estreito",
+    "localidade": "P. A. Braço Forte",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de São Pedro",
+    "tipo": "comunidade",
+    "cidade": "Estreito",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de São Raimundo Nonato",
+    "tipo": "comunidade",
+    "cidade": "Estreito",
+    "localidade": "P. A. Serafim",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade do Divino Pai Eterno",
+    "tipo": "comunidade",
+    "cidade": "Estreito",
+    "localidade": "P. A. Corjan",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de São Raimundo Nonato",
+    "tipo": "comunidade",
+    "cidade": "Estreito",
+    "localidade": "P. A. Sol Nascente",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Estreito",
+    "localidade": "P. A. Luís Rocha",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Mãe Peregrina",
+    "tipo": "comunidade",
+    "cidade": "Estreito",
+    "localidade": "Região do São Luiz",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Estreito",
+    "localidade": "P. A. Água Amarela",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade do Bairro Areia",
+    "tipo": "comunidade",
+    "cidade": "Estreito",
+    "localidade": "Areia",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Celebração da Palavra com diácono na 1ª terça-feira às 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de São Pedro",
+    "tipo": "comunidade",
+    "cidade": "Estreito",
+    "localidade": "Beira Rio",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Celebração da Palavra com diácono na 3ª terça-feira às 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Estreito",
+    "localidade": "Passagem da Volta",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Celebração da Palavra com diácono na 4ª quarta-feira às 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de São José Operário",
+    "tipo": "comunidade",
+    "cidade": "Estreito",
+    "localidade": "Bandeirantes",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Celebração da Palavra com diácono na 3ª sexta-feira às 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade do Divino Pai Eterno",
+    "tipo": "comunidade",
+    "cidade": "Estreito",
+    "localidade": "Cibrazem",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Celebração da Palavra com diácono na 2ª quarta-feira às 19h30"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedecarolina.com.br/l/12/",
+    "data": "2025-04",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Microrregião Pastoral nº 2 (Estreito). Horários da página da paróquia no site da diocese (24/04/2025). As cinco comunidades urbanas do fim da lista (Areia, Beira Rio, Passagem da Volta, Bandeirantes, Cibrazem) e as de Água Amarela e Região do São Luiz pertencem à Paróquia São João Batista e estão sendo atendidas por esta, segundo as duas páginas. O e-mail do pároco ficou fora."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "Estreito",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "99984008851",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "saojoaoestreito@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Batista",
+    "tipo": "matriz",
+    "cidade": "Estreito",
+    "localidade": "Alto Bonito",
+    "endereco": "Rua Gonçalves Dias, nº 1874, Alto Bonito",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Missa também nos dias santos às 7h e 9h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Nossa Senhora das Graças",
+    "tipo": "comunidade",
+    "cidade": "Estreito",
+    "localidade": "Valec",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Missa por agendamento"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade do Sagrado Coração de Jesus",
+    "tipo": "comunidade",
+    "cidade": "Estreito",
+    "localidade": "Assentamento Brejo da Ilha",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Santa Luzia",
+    "tipo": "comunidade",
+    "cidade": "Estreito",
+    "localidade": "Assentamento Vitória",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Sem local de culto"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de São Lázaro",
+    "tipo": "comunidade",
+    "cidade": "Estreito",
+    "localidade": "Assentamento Extrema",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Sem local de culto"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Santa Rita",
+    "tipo": "comunidade",
+    "cidade": "Estreito",
+    "localidade": "Fazenda Boa Esperança",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Missa por agendamento na sede"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de São José",
+    "tipo": "comunidade",
+    "cidade": "Estreito",
+    "localidade": "Fazenda Vão",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Missa por agendamento na sede"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedecarolina.com.br/l/11/",
+    "data": "2025-04",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Microrregião Pastoral nº 2 (Estreito). Horários da página da paróquia no site da diocese (24/04/2025). Telefone celular publicado para a paróquia, junto do e-mail da paróquia. As comunidades de Água Amarela, Região São Luís e cinco comunidades urbanas estão sob os cuidados da Paróquia São Sebastião e entraram lá."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Francisco de Assis",
+  "categoria": "paroquia",
+  "cidade": "Estreito",
+  "padroeiro": "São Francisco de Assis",
+  "contatos": {
+   "telefone": "99985348865",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasaofrancisco1@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Francisco de Assis",
+    "tipo": "matriz",
+    "cidade": "Estreito",
+    "localidade": "Vila São Francisco",
+    "endereco": "Rua Pernambuco, s/n, Vila São Francisco",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Nossa Senhora de Fátima",
+    "tipo": "comunidade",
+    "cidade": "Estreito",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de São José",
+    "tipo": "comunidade",
+    "cidade": "Estreito",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade do Divino Pai Eterno",
+    "tipo": "comunidade",
+    "cidade": "Estreito",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de São João Batista",
+    "tipo": "comunidade",
+    "cidade": "Estreito",
+    "localidade": "Altamira",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "15:00",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade do Bom Jesus",
+    "tipo": "comunidade",
+    "cidade": "Estreito",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "15:00",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Gruta de Nossa Senhora do Perpétuo Socorro",
+    "tipo": "comunidade",
+    "cidade": "Estreito",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "09:00",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Sem capela"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Estreito",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "09:00",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Sem capela"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade da Imaculada Conceição",
+    "tipo": "comunidade",
+    "cidade": "Estreito",
+    "localidade": "Itaueira",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Sem capela"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Santa Luzia",
+    "tipo": "comunidade",
+    "cidade": "Estreito",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "08:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Sem capela"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de São Pedro",
+    "tipo": "comunidade",
+    "cidade": "Estreito",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "08:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Sem capela"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de São Lázaro",
+    "tipo": "comunidade",
+    "cidade": "Estreito",
+    "localidade": "Morada do Sol",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Sem capela"
+   },
+   {
+    "id_banco": null,
+    "nome": "Ponto de celebração de Monte Pio",
+    "tipo": "comunidade",
+    "cidade": "Estreito",
+    "localidade": "Monte Pio",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Ponto de celebração de Brejão",
+    "tipo": "comunidade",
+    "cidade": "Estreito",
+    "localidade": "Brejão",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedecarolina.com.br/l/10/",
+    "data": "2025-04",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Microrregião Pastoral nº 2 (Estreito). Horários da página da paróquia no site da diocese (24/04/2025); a página dá a distância de cada comunidade, não o bairro. A página diz \"Missa sexta-feira\" e \"quinta-feira\" sem dizer se é toda semana; entrou como semanal. Telefone publicado junto do e-mail da paróquia. O e-mail do pároco ficou fora."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "São João do Paraíso",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "9982488640",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "matrizsaojoaobatista@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Batista",
+    "tipo": "matriz",
+    "cidade": "São João do Paraíso",
+    "localidade": "Centro",
+    "endereco": "Rua Sete de Setembro, Praça da Bíblia, nº 33, Centro",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de São Sebastião",
+    "tipo": "comunidade",
+    "cidade": "São João do Paraíso",
+    "localidade": "São Sebastião",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Nossa Senhora da Salette",
+    "tipo": "comunidade",
+    "cidade": "São João do Paraíso",
+    "localidade": "Setor Maciel",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Sant’Ana",
+    "tipo": "comunidade",
+    "cidade": "São João do Paraíso",
+    "localidade": "Assentamento São João",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade do Bom Jesus",
+    "tipo": "comunidade",
+    "cidade": "São João do Paraíso",
+    "localidade": "Região dos Ferreiras",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "14:00",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Ponto de missa"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Nossa Senhora de Fátima",
+    "tipo": "comunidade",
+    "cidade": "São João do Paraíso",
+    "localidade": "Assentamento Minador",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de São Francisco",
+    "tipo": "comunidade",
+    "cidade": "São João do Paraíso",
+    "localidade": "Agrícola São Francisco",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "09:00",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de São Lázaro",
+    "tipo": "comunidade",
+    "cidade": "São João do Paraíso",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedecarolina.com.br/l/9/",
+    "data": "2025-04",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Microrregião Pastoral nº 3 (Porto Franco, São João do Paraíso e Lajeado Novo). Horários da página da paróquia no site da diocese (24/04/2025). Telefone como publicado (8 dígitos depois do DDD). A Região Pastoral de Vão do Marco, no território desta paróquia, entrou como unidade própria. O e-mail do pároco ficou fora."
+ },
+ {
+  "id_banco": null,
+  "nome": "Área Pastoral Nossa Senhora Aparecida",
+  "categoria": "area_pastoral",
+  "cidade": "São João do Paraíso",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja de Nossa Senhora da Conceição Aparecida",
+    "tipo": "matriz",
+    "cidade": "São João do Paraíso",
+    "localidade": "Vão do Marco",
+    "endereco": "Povoado Vão do Marco",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Santuário de Nossa Senhora da Serra",
+    "tipo": "santuario",
+    "cidade": "São João do Paraíso",
+    "localidade": "Serra da Cinta",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Festejo de 7 a 15 de agosto"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Piçarreira",
+    "tipo": "comunidade",
+    "cidade": "São João do Paraíso",
+    "localidade": "Piçarreira",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "16:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade do Projeto São Pedro",
+    "tipo": "comunidade",
+    "cidade": "São João do Paraíso",
+    "localidade": "Projeto São Pedro",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Por Enquanto",
+    "tipo": "comunidade",
+    "cidade": "São João do Paraíso",
+    "localidade": "Por Enquanto",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "09:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Canto do Rio",
+    "tipo": "comunidade",
+    "cidade": "São João do Paraíso",
+    "localidade": "Canto do Rio",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "09:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade da Região dos Motas",
+    "tipo": "comunidade",
+    "cidade": "São João do Paraíso",
+    "localidade": "Região dos Motas",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "09:00",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedecarolina.com.br/l/este-e-um-blog-simples/",
+    "data": "2025-04",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedecarolina.com.br/clero/",
+    "data": "",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedecarolina.com.br/peregrinacao-a-senhora-da-serra-serra-da-cinta-vao-do-marco/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Microrregião Pastoral nº 3. A página do clero chama de \"Região Pastoral Nossa Senhora Aparecida, Vão do Marco\", com padre próprio; fica no povoado Vão do Marco, território da Paróquia São João Batista de São João do Paraíso. Horários da página da comunidade no site da diocese (24/04/2025). O santuário da Serra da Cinta fica a 52 km da sede do município. O e-mail do padre ficou fora."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Imaculada Conceição",
+  "categoria": "paroquia",
+  "cidade": "Porto Franco",
+  "padroeiro": "Imaculada Conceição",
+  "contatos": {
+   "telefone": "99991065140",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "nossaconceicao@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz da Imaculada Conceição",
+    "tipo": "matriz",
+    "cidade": "Porto Franco",
+    "localidade": "Centro",
+    "endereco": "Rua Custódio Barbosa, nº 235, Centro",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Igreja do Sagrado Coração de Jesus",
+    "tipo": "capela",
+    "cidade": "Porto Franco",
+    "localidade": "Beira Rio",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Igreja de São Pedro",
+    "tipo": "capela",
+    "cidade": "Porto Franco",
+    "localidade": "Vila Lobão",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Igreja de São Pio X",
+    "tipo": "capela",
+    "cidade": "Porto Franco",
+    "localidade": "Vila Nova",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Igreja de Padre Pio",
+    "tipo": "capela",
+    "cidade": "Porto Franco",
+    "localidade": "Alto Bonito",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Igreja de Santa Terezinha",
+    "tipo": "capela",
+    "cidade": "Porto Franco",
+    "localidade": "Paraizinho",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedecarolina.com.br/l/8/",
+    "data": "2025-04",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Microrregião Pastoral nº 3 (Porto Franco, São João do Paraíso e Lajeado Novo). Frades capuchinhos. Horários da página da paróquia no site da diocese (24/04/2025). Telefone publicado junto do e-mail da paróquia; os e-mails dos frades ficaram fora."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Fátima",
+  "categoria": "paroquia",
+  "cidade": "Porto Franco",
+  "padroeiro": "Nossa Senhora de Fátima",
+  "contatos": {
+   "telefone": "99984230531",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiadefatima-pfranco@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora de Fátima",
+    "tipo": "matriz",
+    "cidade": "Porto Franco",
+    "localidade": "Entroncamento",
+    "endereco": "Rua 12 de Outubro, nº 239, Entroncamento",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de São Francisco de Assis",
+    "tipo": "comunidade",
+    "cidade": "Porto Franco",
+    "localidade": "Vila São Francisco",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de São João Paulo II",
+    "tipo": "comunidade",
+    "cidade": "Porto Franco",
+    "localidade": "Vila Esperança",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Sem capela"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Porto Franco",
+    "localidade": "Coité",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Santa Luzia",
+    "tipo": "comunidade",
+    "cidade": "Porto Franco",
+    "localidade": "Itaueiras",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "09:00",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de São Joaquim e Sant’Ana",
+    "tipo": "comunidade",
+    "cidade": "Porto Franco",
+    "localidade": "Sucupira",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de São Domingos",
+    "tipo": "comunidade",
+    "cidade": "Porto Franco",
+    "localidade": "Setor Parreões",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de São Sebastião",
+    "tipo": "comunidade",
+    "cidade": "Porto Franco",
+    "localidade": "Cocal",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": [
+       2,
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade do Divino Pai Eterno",
+    "tipo": "comunidade",
+    "cidade": "Porto Franco",
+    "localidade": "Cocalin",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Porto Franco",
+    "localidade": "Sussuarana",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Santa Rita de Cássia",
+    "tipo": "comunidade",
+    "cidade": "Porto Franco",
+    "localidade": "Assentamento Maravilha",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "09:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Santa Clara",
+    "tipo": "comunidade",
+    "cidade": "Porto Franco",
+    "localidade": "Caiçara",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "09:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de São João Batista",
+    "tipo": "comunidade",
+    "cidade": "Porto Franco",
+    "localidade": "Assentamento Oziel",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de São Miguel",
+    "tipo": "comunidade",
+    "cidade": "Porto Franco",
+    "localidade": "Assentamento São Miguel",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de São Raimundo Nonato",
+    "tipo": "comunidade",
+    "cidade": "Porto Franco",
+    "localidade": "Assentamento São Raimundo Nonato",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de São Pedro Apóstolo",
+    "tipo": "comunidade",
+    "cidade": "Porto Franco",
+    "localidade": "Região dos Motas",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Sem capela"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de São José",
+    "tipo": "comunidade",
+    "cidade": "Porto Franco",
+    "localidade": "Vereda Seca",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Missa todo dia 19 do mês às 19h; sem capela"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de São Domingos",
+    "tipo": "comunidade",
+    "cidade": "Porto Franco",
+    "localidade": "Formigão",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedecarolina.com.br/l/7/",
+    "data": "2025-04",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Microrregião Pastoral nº 3 (Porto Franco, São João do Paraíso e Lajeado Novo). Horários da página da paróquia no site da diocese (24/04/2025). Telefone celular do secretário paroquial, como publicado. O e-mail do pároco ficou fora."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Francisco de Assis",
+  "categoria": "paroquia",
+  "cidade": "Lajeado Novo",
+  "padroeiro": "São Francisco de Assis",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Francisco de Assis",
+    "tipo": "matriz",
+    "cidade": "Lajeado Novo",
+    "localidade": "Centro",
+    "endereco": "Rua Anita Viana, nº 01, Centro",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Divino Espírito Santo",
+    "tipo": "capela",
+    "cidade": "Lajeado Novo",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Luzia",
+    "tipo": "capela",
+    "cidade": "Lajeado Novo",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Lucas",
+    "tipo": "capela",
+    "cidade": "Lajeado Novo",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Miguel",
+    "tipo": "capela",
+    "cidade": "Lajeado Novo",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": [
+       1,
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Raimundo Nonato",
+    "tipo": "capela",
+    "cidade": "Lajeado Novo",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "09:00",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Santa Rita",
+    "tipo": "comunidade",
+    "cidade": "Lajeado Novo",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "09:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Sem capela"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de São Benedito",
+    "tipo": "comunidade",
+    "cidade": "Lajeado Novo",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "09:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Sem capela"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de São Jorge",
+    "tipo": "comunidade",
+    "cidade": "Lajeado Novo",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "09:00",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Sem capela"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de São Bento",
+    "tipo": "comunidade",
+    "cidade": "Lajeado Novo",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "15:00",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Sem capela"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de São Domingos",
+    "tipo": "comunidade",
+    "cidade": "Lajeado Novo",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:00",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Sem capela"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Santa Teresa",
+    "tipo": "comunidade",
+    "cidade": "Lajeado Novo",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "15:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Sem capela"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedecarolina.com.br/l/5/",
+    "data": "2025-04",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedecarolina.com.br/clero/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Microrregião Pastoral nº 3 (Porto Franco, São João do Paraíso e Lajeado Novo). Horários da página da paróquia no site da diocese (24/04/2025); a página dá só a distância de cada comunidade. A página da paróquia dá um pároco e a página do clero, outro. O único e-mail publicado tem nome de pessoa e ficou fora."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Raimundo Nonato",
+  "categoria": "paroquia",
+  "cidade": "Campestre do Maranhão",
+  "padroeiro": "São Raimundo Nonato",
+  "contatos": {
+   "telefone": "99988555747",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "saoraimundononato.paroquia@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Raimundo Nonato",
+    "tipo": "matriz",
+    "cidade": "Campestre do Maranhão",
+    "localidade": "Centro",
+    "endereco": "Av. Bernardo Sayão, nº 333, Centro",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Missa também nos dias santos às 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Campestre do Maranhão",
+    "localidade": "Torre",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": [
+       2,
+       4
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de São José",
+    "tipo": "comunidade",
+    "cidade": "Campestre do Maranhão",
+    "localidade": "Vila Nova",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Missa no último sábado do mês às 18h"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedecarolina.com.br/l/6/",
+    "data": "2025-04",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Microrregião Pastoral nº 4 (Campestre, Ribamar Fiquene e Montes Altos). Horários da página da paróquia no site da diocese (24/04/2025). Telefone celular da secretaria, como publicado."
+ },
+ {
+  "id_banco": null,
+  "nome": "Área Pastoral Cabeceira Grande",
+  "categoria": "area_pastoral",
+  "cidade": "Campestre do Maranhão",
+  "padroeiro": "São Francisco de Assis",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja de São Francisco de Assis",
+    "tipo": "matriz",
+    "cidade": "Campestre do Maranhão",
+    "localidade": "Cabeceira Grande",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": "Missa da catequese"
+     }
+    ],
+    "nao_cabe": "Missa nas residências às quartas-feiras às 19h30"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Campestre do Maranhão",
+    "localidade": "Paraná",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Sem local de culto"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Nossa Senhora da Conceição",
+    "tipo": "comunidade",
+    "cidade": "Campestre do Maranhão",
+    "localidade": "Cachimbeiro",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Convento das Irmãs Beneditinas",
+    "tipo": "comunidade",
+    "cidade": "Campestre do Maranhão",
+    "localidade": "Cabeceira Grande",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedecarolina.com.br/l/area-pastoral-cabeceira-grande/",
+    "data": "2025-05",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedecarolina.com.br/clero/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Microrregião Pastoral nº 4. Região pastoral com administrador próprio (página do clero: \"Região Pastoral Cabeceira Grande de Campestre\"), no povoado Cabeceira Grande. Horários da página da área no site da diocese (08/05/2025). Sem contato institucional publicado; o e-mail do padre ficou fora."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "Ribamar Fiquene",
+  "padroeiro": "São Sebastião",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Sebastião",
+    "tipo": "matriz",
+    "cidade": "Ribamar Fiquene",
+    "localidade": "Centro",
+    "endereco": "Avenida João Boures, nº 21, Centro",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Igreja de Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Ribamar Fiquene",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Arraias",
+    "tipo": "comunidade",
+    "cidade": "Ribamar Fiquene",
+    "localidade": "Arraias",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Missa aos sábados às 19h; não diz qual sábado do mês"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Lajeado Velho",
+    "tipo": "comunidade",
+    "cidade": "Ribamar Fiquene",
+    "localidade": "Lajeado Velho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Missa aos sábados às 19h; não diz qual sábado do mês"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Brejão",
+    "tipo": "comunidade",
+    "cidade": "Ribamar Fiquene",
+    "localidade": "Brejão",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Missa aos sábados às 10h; não diz qual sábado do mês"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Varjão",
+    "tipo": "comunidade",
+    "cidade": "Ribamar Fiquene",
+    "localidade": "Varjão",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Missa aos sábados às 10h; não diz qual sábado do mês"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Jabuti",
+    "tipo": "comunidade",
+    "cidade": "Ribamar Fiquene",
+    "localidade": "Jabuti",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Missa às sextas-feiras às 19h; não diz qual sexta do mês"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Canto da Mata",
+    "tipo": "comunidade",
+    "cidade": "Ribamar Fiquene",
+    "localidade": "Canto da Mata",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Missa às quartas-feiras às 19h; não diz qual quarta do mês; sem capela"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Canto da Areia",
+    "tipo": "comunidade",
+    "cidade": "Ribamar Fiquene",
+    "localidade": "Canto da Areia",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Missa às sextas e aos sábados às 19h; não diz quais do mês"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Tabuleirão",
+    "tipo": "comunidade",
+    "cidade": "Ribamar Fiquene",
+    "localidade": "Tabuleirão",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Missa às quartas-feiras às 19h; não diz qual quarta do mês; sem capela"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade do Assentamento Boa União",
+    "tipo": "comunidade",
+    "cidade": "Ribamar Fiquene",
+    "localidade": "Assentamento Boa União",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Missa aos sábados às 19h; não diz qual sábado do mês"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de São José",
+    "tipo": "comunidade",
+    "cidade": "Ribamar Fiquene",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Missa às quartas-feiras às 19h; não diz qual quarta do mês"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Tabatinga",
+    "tipo": "comunidade",
+    "cidade": "Ribamar Fiquene",
+    "localidade": "Tabatinga",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Missa às sextas-feiras às 19h; não diz qual sexta do mês"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedecarolina.com.br/l/pp/",
+    "data": "2025-04",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Microrregião Pastoral nº 4 (Campestre, Ribamar Fiquene e Montes Altos). Horários da página da paróquia no site da diocese (24/04/2025). Nas comunidades rurais a página dá só o dia da semana, sem dizer em qual semana do mês, por isso ficaram em texto. Sem telefone publicado; o e-mail do pároco ficou fora."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sant’Ana",
+  "categoria": "paroquia",
+  "cidade": "Montes Altos",
+  "padroeiro": "Sant’Ana",
+  "contatos": {
+   "telefone": "99984344059",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "santanaparoquia19@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Sant’Ana",
+    "tipo": "matriz",
+    "cidade": "Montes Altos",
+    "localidade": "Centro",
+    "endereco": "Praça de Santana, nº 01, Centro",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São João Batista",
+    "tipo": "capela",
+    "cidade": "Montes Altos",
+    "localidade": "Vila Angical",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1,
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Francisco de Assis",
+    "tipo": "capela",
+    "cidade": "Montes Altos",
+    "localidade": "Vila João Alberto",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": [
+       2,
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Rita de Cássia",
+    "tipo": "capela",
+    "cidade": "Montes Altos",
+    "localidade": "P. A. Água Boa",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       2,
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora da Conceição",
+    "tipo": "capela",
+    "cidade": "Montes Altos",
+    "localidade": "Vale do Jordão",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": [
+       1,
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Montes Altos",
+    "localidade": "P. A. Novo Horizonte",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": [
+       2,
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São José Operário",
+    "tipo": "capela",
+    "cidade": "Montes Altos",
+    "localidade": "P. A. São José",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": [
+       1,
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Santo Expedito",
+    "tipo": "comunidade",
+    "cidade": "Montes Altos",
+    "localidade": "Região dos Ossos Dantas",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Ponto de missa sem capela"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Santa Bárbara",
+    "tipo": "comunidade",
+    "cidade": "Montes Altos",
+    "localidade": "Região da Alegria",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Sem capela; quando não puder no sábado, a missa é no domingo"
+   },
+   {
+    "id_banco": null,
+    "nome": "Ponto de missa da Região do Salto",
+    "tipo": "comunidade",
+    "cidade": "Montes Altos",
+    "localidade": "Salto, Sucurijú e Canto do Coroatá",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Sem capela; quando não puder no sábado, a missa é no domingo"
+   },
+   {
+    "id_banco": null,
+    "nome": "Ponto de missa da Região do Sussuapara",
+    "tipo": "comunidade",
+    "cidade": "Montes Altos",
+    "localidade": "Sussuapara e Mato de Cana",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:00",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Sem capela; quando não puder no sábado, a missa é no domingo"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedecarolina.com.br/l/este-e-um-blog-com-imagens/",
+    "data": "2025-04",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Microrregião Pastoral nº 4 (Campestre, Ribamar Fiquene e Montes Altos). Horários da página da paróquia no site da diocese (24/04/2025). Telefone celular do secretário paroquial, como publicado. Missas nas aldeias e nas regiões a definir são marcadas com a secretaria. O e-mail do pároco ficou fora."
+ }
+]

@@ -79,6 +79,7 @@ configurado desde o início) · **Supabase** plano gratuito (projeto
   comunidade apontam a matriz por `matriz_id`. Nome sem parênteses e sem a
   cidade ("Capela de São Bento", lugar no `bairro`). A página da igreja mostra
   "Pertence à ..." e a lista de capelas; no painel, "Pertence à paróquia".
+- **Rodada de horários** (paróquias da pesquisa sem horário): `docs/paroquias/rodada-de-horarios.md`, lista em `fontes/paroquias/sem-horario.json`, migração com `carregar_estado.py --so-horarios`.
 - **Fila "Para conferir" do painel** (pedido do dono, 13/11/2026: "impossível
   humanamente" conferir as cargas): só o que não tem fonte (`fonte = ''`) nem
   foi conferido. O que veio de pesquisa com fonte anotada entra no app sem

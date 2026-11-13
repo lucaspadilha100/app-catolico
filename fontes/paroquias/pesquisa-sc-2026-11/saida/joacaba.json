@@ -1,0 +1,4687 @@
+[
+ {
+  "id_banco": null,
+  "nome": "Catedral Santa Teresinha do Menino Jesus",
+  "categoria": "catedral",
+  "cidade": "Joaçaba",
+  "padroeiro": "Santa Teresinha do Menino Jesus",
+  "contatos": {
+   "telefone": "4935221294",
+   "whatsapp": "",
+   "instagram": "catedraldejoacaba",
+   "site": "",
+   "email": "contato@catedraljoacaba.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário Catedral Santa Teresinha do Menino Jesus",
+    "tipo": "santuario",
+    "cidade": "Joaçaba",
+    "localidade": "Centro",
+    "endereco": "Avenida Santa Teresinha",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 2,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": "Antes da missa das 19h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": "Antes da missa das 19h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": "Se não houver casamento"
+     }
+    ],
+    "nao_cabe": "A página da paróquia (2023) cita também missa às 15h na primeira sexta-feira do mês."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora de Lourdes",
+    "tipo": "capela",
+    "cidade": "Joaçaba",
+    "localidade": "Linha Abatti",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Bárbara",
+    "tipo": "capela",
+    "cidade": "Joaçaba",
+    "localidade": "Linha Ficanha",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora da Saúde",
+    "tipo": "capela",
+    "cidade": "Joaçaba",
+    "localidade": "Km 16",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora das Graças",
+    "tipo": "capela",
+    "cidade": "Joaçaba",
+    "localidade": "Linha Caraguatá",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Clara",
+    "tipo": "capela",
+    "cidade": "Joaçaba",
+    "localidade": "Linha Santa Clara",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Helena",
+    "tipo": "capela",
+    "cidade": "Joaçaba",
+    "localidade": "Linha Santa Helena",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Joaçaba",
+    "localidade": "Linha Caraguatá",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora de Lourdes",
+    "tipo": "capela",
+    "cidade": "Joaçaba",
+    "localidade": "Bairros Boa Vista e Monte Belo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Francisco de Assis",
+    "tipo": "capela",
+    "cidade": "Joaçaba",
+    "localidade": "Bairros Frei Bruno e Bela Vista",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora de Fátima",
+    "tipo": "capela",
+    "cidade": "Joaçaba",
+    "localidade": "Bairros Clara Adélia e Contestado",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Luzia",
+    "tipo": "capela",
+    "cidade": "Joaçaba",
+    "localidade": "Bairros Jardim Cidade Alta e Nossa Senhora de Lourdes",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Tereza d'Ávila",
+    "tipo": "capela",
+    "cidade": "Joaçaba",
+    "localidade": "Bairro Santa Tereza",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Rita de Cássia",
+    "tipo": "capela",
+    "cidade": "Joaçaba",
+    "localidade": "Bairro Santa Tereza, Rua Pedro Kunz",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Expedito",
+    "tipo": "capela",
+    "cidade": "Joaçaba",
+    "localidade": "Bairro Jardim Alvorada",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Menino Deus",
+    "tipo": "capela",
+    "cidade": "Joaçaba",
+    "localidade": "Bairro Menino Deus",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejoacaba.org.br/catedral-santa-teresinha-do-menino-jesus-e-elevada-a-santuario-diocesano/",
+    "data": "2025-10-02",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejoacaba.org.br/horarios-de-missas/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejoacaba.org.br/catedral-santa-teresinha-do-menino-jesus/",
+    "data": "2023-04-05",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedejoacaba.org.br/areas-pastorais/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Área Pastoral de Joaçaba. Elevada a Santuário Diocesano em 01/10/2025; horários e confissões publicados pela diocese nessa data, iguais aos da página Horários de Missas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "Campos Novos",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "4935440216",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Batista",
+    "tipo": "matriz",
+    "cidade": "Campos Novos",
+    "localidade": "Centro",
+    "endereco": "Praça Lauro Müller, 201",
+    "horarios": [],
+    "nao_cabe": "Notícia da diocese de 10/06/2026: a paróquia mantém o Santuário Nossa Senhora Aparecida, 14 comunidades e, na cidade, as capelas Santo Antônio, São Sebastião, São José Operário e Nossa Senhora Consoladora dos Aflitos; a futura Paróquia Nossa Senhora de Lourdes (capelas Senhor Bom Jesus e Nossa Senhora das Graças, bairro Boa Vista/Cohab) será instalada em cerca de um ano."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejoacaba.org.br/paroquia-sao-joao-batista-campos-novos/",
+    "data": "2023-04-05",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedejoacaba.org.br/diocese-de-joacaba-inicia-processo-para-criacao-de-nova-paroquia-em-campos-novos/",
+    "data": "2026-06-10",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedejoacaba.org.br/areas-pastorais/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Área Pastoral de Campos Novos. A página da paróquia no site da diocese tem o campo de horário vazio; sem horário confirmado. Atendida pelos Missionários Scalabrinianos. Em processo de desmembramento (nova Paróquia Nossa Senhora de Lourdes)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "Erval Velho",
+  "padroeiro": "São Sebastião",
+  "contatos": {
+   "telefone": "4935421160",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "evparoquiasaosebastiao@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Sebastião",
+    "tipo": "matriz",
+    "cidade": "Erval Velho",
+    "localidade": "Centro",
+    "endereco": "Rua Cel. Zeferino Bitencourt, 143",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Erval Velho",
+    "localidade": "Linha Aparecida",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Líbera",
+    "tipo": "capela",
+    "cidade": "Erval Velho",
+    "localidade": "Linha Campinas",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora da Salete",
+    "tipo": "capela",
+    "cidade": "Erval Velho",
+    "localidade": "Linha Canhadão",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Erval Velho",
+    "localidade": "Linha Farrapos",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora de Fátima",
+    "tipo": "capela",
+    "cidade": "Erval Velho",
+    "localidade": "Linha Gramados",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Roque",
+    "tipo": "capela",
+    "cidade": "Erval Velho",
+    "localidade": "Linha Maragata",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora das Graças",
+    "tipo": "capela",
+    "cidade": "Erval Velho",
+    "localidade": "Linha Nossa Senhora das Graças",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Erval Velho",
+    "localidade": "Linha Pocinhos",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Lucia",
+    "tipo": "capela",
+    "cidade": "Erval Velho",
+    "localidade": "Linha Santa Lucia",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São João Batista",
+    "tipo": "capela",
+    "cidade": "Erval Velho",
+    "localidade": "Linha São João",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Pedro",
+    "tipo": "capela",
+    "cidade": "Erval Velho",
+    "localidade": "Linha São Pedro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Roque",
+    "tipo": "capela",
+    "cidade": "Erval Velho",
+    "localidade": "Linha São Roque",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São José",
+    "tipo": "capela",
+    "cidade": "Erval Velho",
+    "localidade": "Monte Alegre",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Senhor Bom Jesus",
+    "tipo": "capela",
+    "cidade": "Erval Velho",
+    "localidade": "Ponte do Leão",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora dos Navegantes",
+    "tipo": "capela",
+    "cidade": "Erval Velho",
+    "localidade": "Salto do Leão",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejoacaba.org.br/paroquia-sao-sebastiao-erval-velho/",
+    "data": "2023-04-05",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejoacaba.org.br/areas-pastorais/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Área Pastoral de Campos Novos. Horários da página da paróquia no site da diocese, atualizada em abril de 2023."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Tangará",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "4935321162",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiatangara@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Tangará",
+    "localidade": "Centro",
+    "endereco": "Rua Santo Antônio",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Clara",
+    "tipo": "capela",
+    "cidade": "Tangará",
+    "localidade": "Bairro Alto da Glória",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Tangará",
+    "localidade": "Bairro do Soque",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora das Graças",
+    "tipo": "capela",
+    "cidade": "Tangará",
+    "localidade": "Beviláqua",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Sagrado Coração de Jesus",
+    "tipo": "capela",
+    "cidade": "Tangará",
+    "localidade": "Bracatinga",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora do Caravággio",
+    "tipo": "capela",
+    "cidade": "Tangará",
+    "localidade": "Caravágio",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Luzia",
+    "tipo": "capela",
+    "cidade": "Tangará",
+    "localidade": "Castelo Branco",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora de Fátima",
+    "tipo": "capela",
+    "cidade": "Tangará",
+    "localidade": "Cerro Azul",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Tangará",
+    "localidade": "Colônia Muller",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São João Batista",
+    "tipo": "capela",
+    "cidade": "Tangará",
+    "localidade": "Gramado dos Santos",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela da Mãe do Salvador",
+    "tipo": "capela",
+    "cidade": "Tangará",
+    "localidade": "Ibiam",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Bom Jesus",
+    "tipo": "capela",
+    "cidade": "Tangará",
+    "localidade": "Izidros",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Teresinha do Menino Jesus",
+    "tipo": "capela",
+    "cidade": "Tangará",
+    "localidade": "Leãozinho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Agostinho",
+    "tipo": "capela",
+    "cidade": "Tangará",
+    "localidade": "Linha Gaúcha",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora do Perpétuo Socorro",
+    "tipo": "capela",
+    "cidade": "Tangará",
+    "localidade": "Linha Nova",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Isabel",
+    "tipo": "capela",
+    "cidade": "Tangará",
+    "localidade": "Linha Trevisol",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Maria Goretti",
+    "tipo": "capela",
+    "cidade": "Tangará",
+    "localidade": "Linha União",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora da Saúde",
+    "tipo": "capela",
+    "cidade": "Tangará",
+    "localidade": "Linho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São José",
+    "tipo": "capela",
+    "cidade": "Tangará",
+    "localidade": "Lins",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora de Lourdes",
+    "tipo": "capela",
+    "cidade": "Tangará",
+    "localidade": "Lourdes",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Alberto Magno",
+    "tipo": "capela",
+    "cidade": "Tangará",
+    "localidade": "Marari",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora de Fátima",
+    "tipo": "capela",
+    "cidade": "Tangará",
+    "localidade": "Rui Barbosa",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Catarina",
+    "tipo": "capela",
+    "cidade": "Tangará",
+    "localidade": "Santa Catarina",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Rosa de Lima",
+    "tipo": "capela",
+    "cidade": "Tangará",
+    "localidade": "Santa Rosa",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Alécio",
+    "tipo": "capela",
+    "cidade": "Tangará",
+    "localidade": "Santo Alécio",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Francisco",
+    "tipo": "capela",
+    "cidade": "Tangará",
+    "localidade": "São Francisco",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Marcos",
+    "tipo": "capela",
+    "cidade": "Tangará",
+    "localidade": "São Marcos",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Miguel",
+    "tipo": "capela",
+    "cidade": "Tangará",
+    "localidade": "São Miguel",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Pascoal Bailão",
+    "tipo": "capela",
+    "cidade": "Tangará",
+    "localidade": "São Pascoal",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Paulo",
+    "tipo": "capela",
+    "cidade": "Tangará",
+    "localidade": "São Paulo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Sebastião",
+    "tipo": "capela",
+    "cidade": "Tangará",
+    "localidade": "São Sebastião",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São José",
+    "tipo": "capela",
+    "cidade": "Tangará",
+    "localidade": "Sede Dona Alice",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejoacaba.org.br/paroquia-santo-antonio-tangara/",
+    "data": "2023-04-05",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejoacaba.org.br/areas-pastorais/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Área Pastoral de Campos Novos. Horários da página da paróquia no site da diocese, atualizada em abril de 2023."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Imaculada Conceição",
+  "categoria": "paroquia",
+  "cidade": "Monte Carlo",
+  "padroeiro": "Imaculada Conceição",
+  "contatos": {
+   "telefone": "4935460105",
+   "whatsapp": "",
+   "instagram": "paroquiaimaculadamc",
+   "site": "",
+   "email": "p.imaculadamontecarlo@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz da Imaculada Conceição",
+    "tipo": "matriz",
+    "cidade": "Monte Carlo",
+    "localidade": "Centro",
+    "endereco": "Rodovia SC 452, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Comunidades sem lugar indicado na fonte: Aterrados, Boa Esperança, Brunópolis, Butiazinho, Bairro Aparecida, Bairro São Carlos, Bairro São José, Bairro Santo Antonio, Dal Pai, Dom Bosco, Fraida, Fita Weiss, Galego dos Pires, Galego dos Primon, Imasa, Irakitan, Lageado dos Borbas, Lageado dos Pereiras, Linha Morais, Marombas, Ramo Verde, Rio dos Touros, Rondinha, Santa Ana, Salete, Santa Bárbara, São Francisco, São Luiz, São Roque, São Vicente, Santa Clara, Três Serrarias, Vila Arlete e Vila Brasília."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejoacaba.org.br/paroquia-imaculada-conceicao-2/",
+    "data": "2023-04-05",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejoacaba.org.br/areas-pastorais/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Área Pastoral de Campos Novos. Horários da página da paróquia no site da diocese, atualizada em abril de 2023. Atende Monte Carlo, Brunópolis, Campos Novos e Tangará; telefone em Brunópolis (49) 3556-0246."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Judas Tadeu",
+  "categoria": "paroquia",
+  "cidade": "Vargem",
+  "padroeiro": "São Judas Tadeu",
+  "contatos": {
+   "telefone": "4935490035",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Judas Tadeu",
+    "tipo": "matriz",
+    "cidade": "Vargem",
+    "localidade": "",
+    "endereco": "Praça João Pedro Stefanes, 440",
+    "horarios": [],
+    "nao_cabe": "Comunidades sem lugar indicado na fonte: Boiadeiro, Morro do Dez, Marudim, Toldo, São Roque, Laranjeiras, Santa Rita, Assentamento, Didomênico, Ervalzinho, São Pedro, Gramados, Santa Lúcia, Barra Grande."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejoacaba.org.br/paroquia-sao-judas-tadeu/",
+    "data": "2023-04-05",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedejoacaba.org.br/areas-pastorais/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Área Pastoral de Campos Novos. A página da paróquia no site da diocese tem o campo de horário vazio; sem horário confirmado."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Saúde",
+  "categoria": "paroquia",
+  "cidade": "Abdon Batista",
+  "padroeiro": "Nossa Senhora da Saúde",
+  "contatos": {
+   "telefone": "4935451152",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquians.saude@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Saúde",
+    "tipo": "matriz",
+    "cidade": "Abdon Batista",
+    "localidade": "",
+    "endereco": "Rua Valeriano Demeneck, 887",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Francisco de Assis",
+    "tipo": "capela",
+    "cidade": "Abdon Batista",
+    "localidade": "Arroio Bonito",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora de Fátima",
+    "tipo": "capela",
+    "cidade": "Abdon Batista",
+    "localidade": "Barra do Arroio",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Catarina",
+    "tipo": "capela",
+    "cidade": "Abdon Batista",
+    "localidade": "Santa Catarina",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Terezinha do Menino Jesus",
+    "tipo": "capela",
+    "cidade": "Abdon Batista",
+    "localidade": "Santa Terezinha",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Senhor Bom Jesus",
+    "tipo": "capela",
+    "cidade": "Abdon Batista",
+    "localidade": "Bom Jesus",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São José",
+    "tipo": "capela",
+    "cidade": "Abdon Batista",
+    "localidade": "São José",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Antonio",
+    "tipo": "capela",
+    "cidade": "Abdon Batista",
+    "localidade": "Santo Antonio",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora das Graças",
+    "tipo": "capela",
+    "cidade": "Abdon Batista",
+    "localidade": "Graças",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Paulo",
+    "tipo": "capela",
+    "cidade": "Abdon Batista",
+    "localidade": "São Paulinho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Roque",
+    "tipo": "capela",
+    "cidade": "Abdon Batista",
+    "localidade": "São Roque",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São João Bosco",
+    "tipo": "capela",
+    "cidade": "Abdon Batista",
+    "localidade": "Colônia do Salto",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Abdon Batista",
+    "localidade": "Aparecida",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora do Carmo",
+    "tipo": "capela",
+    "cidade": "Abdon Batista",
+    "localidade": "Belópolis",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejoacaba.org.br/paroquia-nossa-senhora-da-saude-2/",
+    "data": "2023-04-05",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejoacaba.org.br/areas-pastorais/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Área Pastoral de Campos Novos. Horários da página da paróquia no site da diocese, atualizada em abril de 2023."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Cristóvão",
+  "categoria": "paroquia",
+  "cidade": "Concórdia",
+  "padroeiro": "São Cristóvão",
+  "contatos": {
+   "telefone": "4935525250",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "psaocristovao@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Cristóvão",
+    "tipo": "matriz",
+    "cidade": "Concórdia",
+    "localidade": "São Cristóvão",
+    "endereco": "Rua Tancredo de Almeida Neves, 4422",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Pedro de Alcântara",
+    "tipo": "capela",
+    "cidade": "Concórdia",
+    "localidade": "Barra Bonita",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Paulo",
+    "tipo": "capela",
+    "cidade": "Concórdia",
+    "localidade": "Barra Seca",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Sagrado Coração de Jesus",
+    "tipo": "capela",
+    "cidade": "Concórdia",
+    "localidade": "Cachimbo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela da Sagrada Família",
+    "tipo": "capela",
+    "cidade": "Concórdia",
+    "localidade": "Canhada Funda",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de N. S. do Caravágio",
+    "tipo": "capela",
+    "cidade": "Concórdia",
+    "localidade": "Caravágio",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de N. S. Consoladora",
+    "tipo": "capela",
+    "cidade": "Concórdia",
+    "localidade": "Coqueiros",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Francisco",
+    "tipo": "capela",
+    "cidade": "Concórdia",
+    "localidade": "Frei Rogério",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de N. S. da Salete",
+    "tipo": "capela",
+    "cidade": "Concórdia",
+    "localidade": "Lageado Guilherme",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Roque",
+    "tipo": "capela",
+    "cidade": "Concórdia",
+    "localidade": "Lageado Medeiros",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Roque",
+    "tipo": "capela",
+    "cidade": "Concórdia",
+    "localidade": "Lageado das Pombas",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de N. S. Aparecida",
+    "tipo": "capela",
+    "cidade": "Concórdia",
+    "localidade": "Linha Aparecida",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Agostinho",
+    "tipo": "capela",
+    "cidade": "Concórdia",
+    "localidade": "Linha dos Gaios",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Catarina",
+    "tipo": "capela",
+    "cidade": "Concórdia",
+    "localidade": "Linha Gasperini",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Francisco",
+    "tipo": "capela",
+    "cidade": "Concórdia",
+    "localidade": "Linha Lageano",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de N. S. da Saúde",
+    "tipo": "capela",
+    "cidade": "Concórdia",
+    "localidade": "Linha Poleto",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Maria Goreti",
+    "tipo": "capela",
+    "cidade": "Concórdia",
+    "localidade": "Maria Goreti",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Concórdia",
+    "localidade": "Pinhal",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Caetano e São Roque",
+    "tipo": "capela",
+    "cidade": "Concórdia",
+    "localidade": "Planalto",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Valentin",
+    "tipo": "capela",
+    "cidade": "Concórdia",
+    "localidade": "Presidente Castelo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Lúcia",
+    "tipo": "capela",
+    "cidade": "Concórdia",
+    "localidade": "Santa Lúcia",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Valentin",
+    "tipo": "capela",
+    "cidade": "Concórdia",
+    "localidade": "Santa Terezinha",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Brás",
+    "tipo": "capela",
+    "cidade": "Concórdia",
+    "localidade": "São Brás",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São José",
+    "tipo": "capela",
+    "cidade": "Concórdia",
+    "localidade": "São José",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Sebastião",
+    "tipo": "capela",
+    "cidade": "Concórdia",
+    "localidade": "Tiradentes",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Luiz Gonzaga",
+    "tipo": "capela",
+    "cidade": "Concórdia",
+    "localidade": "Vila Jacob Biezus",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejoacaba.org.br/paroquia-sao-cristovao/",
+    "data": "2023-04-05",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedejoacaba.org.br/areas-pastorais/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Área Pastoral de Concórdia. A página da paróquia no site da diocese tem o campo de horário vazio; sem horário confirmado."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Rosário",
+  "categoria": "paroquia",
+  "cidade": "Concórdia",
+  "padroeiro": "Nossa Senhora do Rosário",
+  "contatos": {
+   "telefone": "4934420358",
+   "whatsapp": "",
+   "instagram": "paroquia.nsrosario",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Rosário",
+    "tipo": "matriz",
+    "cidade": "Concórdia",
+    "localidade": "Centro",
+    "endereco": "Rua Marechal Deodoro, 473",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Missas nas capelanias: no interior, uma vez ao mês; nos bairros, duas vezes ao mês."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejoacaba.org.br/paroquia-nossa-senhora-do-rosario-concordia/",
+    "data": "2023-04-05",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejoacaba.org.br/areas-pastorais/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Área Pastoral de Concórdia. Horários da página da paróquia no site da diocese, atualizada em abril de 2023."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Puríssimo Coração de Maria",
+  "categoria": "paroquia",
+  "cidade": "Lindóia do Sul",
+  "padroeiro": "Puríssimo Coração de Maria",
+  "contatos": {
+   "telefone": "4934461182",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "cdemariapurissimo@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Puríssimo Coração de Maria",
+    "tipo": "matriz",
+    "cidade": "Lindóia do Sul",
+    "localidade": "",
+    "endereco": "Rua Padre Eduvino Vieceli",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Terezinha do Menino Jesus",
+    "tipo": "capela",
+    "cidade": "Lindóia do Sul",
+    "localidade": "Linha Alegre",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Lindóia do Sul",
+    "localidade": "Linha Rio Azul",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Lindóia do Sul",
+    "localidade": "Linha Barra do Azul",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Brás",
+    "tipo": "capela",
+    "cidade": "Lindóia do Sul",
+    "localidade": "Linha Cotovelo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora dos Navegantes",
+    "tipo": "capela",
+    "cidade": "Lindóia do Sul",
+    "localidade": "Linha Lajeado dos Pinheiros",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora de Lourdes",
+    "tipo": "capela",
+    "cidade": "Lindóia do Sul",
+    "localidade": "Linha Gruta",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Izidoro e Santa Luzia",
+    "tipo": "capela",
+    "cidade": "Lindóia do Sul",
+    "localidade": "Linha Santo Izidoro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Pelegrino",
+    "tipo": "capela",
+    "cidade": "Lindóia do Sul",
+    "localidade": "Linha Sanga Martins",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Consoladora",
+    "tipo": "capela",
+    "cidade": "Lindóia do Sul",
+    "localidade": "Linha Sanga Castelhano",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora das Graças",
+    "tipo": "capela",
+    "cidade": "Lindóia do Sul",
+    "localidade": "Linha Sertãozinho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São José",
+    "tipo": "capela",
+    "cidade": "Lindóia do Sul",
+    "localidade": "Linha Salto Grande",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora da Salete",
+    "tipo": "capela",
+    "cidade": "Lindóia do Sul",
+    "localidade": "Linha Joana",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Terezinha",
+    "tipo": "capela",
+    "cidade": "Lindóia do Sul",
+    "localidade": "Linha Mimosa",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Luzia e Perpetuo Socorro",
+    "tipo": "capela",
+    "cidade": "Lindóia do Sul",
+    "localidade": "Linha XV de Novembro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Lindóia do Sul",
+    "localidade": "Bairro Caminho do Sol",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Rita",
+    "tipo": "capela",
+    "cidade": "Lindóia do Sul",
+    "localidade": "Santa Rita",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejoacaba.org.br/paroquia-purissimo-coracao-de-maria-2/",
+    "data": "2023-04-05",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejoacaba.org.br/areas-pastorais/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Área Pastoral de Concórdia. Horários da página da paróquia no site da diocese, atualizada em abril de 2023."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Isidoro",
+  "categoria": "paroquia",
+  "cidade": "Peritiba",
+  "padroeiro": "Santo Isidoro",
+  "contatos": {
+   "telefone": "4934531235",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquia.peritiba@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Isidoro",
+    "tipo": "matriz",
+    "cidade": "Peritiba",
+    "localidade": "Centro",
+    "endereco": "Rua Frei Bonifácio, 193",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "O 1º domingo do mês é Missa das vocações; na primeira sexta-feira do mês há Missa do Apostolado da Oração, sem hora publicada."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Cristo Redentor",
+    "tipo": "capela",
+    "cidade": "Peritiba",
+    "localidade": "Alto Bela Vista",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora da Saúde",
+    "tipo": "capela",
+    "cidade": "Peritiba",
+    "localidade": "Arroio do Meio",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Imaculado Coração de Maria",
+    "tipo": "capela",
+    "cidade": "Peritiba",
+    "localidade": "Barra do Luciano",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Sagrado Coração de Jesus",
+    "tipo": "capela",
+    "cidade": "Peritiba",
+    "localidade": "Barra do Tigre",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora do Caravággio",
+    "tipo": "capela",
+    "cidade": "Peritiba",
+    "localidade": "Caravággio",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela da Sagrada Família",
+    "tipo": "capela",
+    "cidade": "Peritiba",
+    "localidade": "Cruz e Souza",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São José",
+    "tipo": "capela",
+    "cidade": "Peritiba",
+    "localidade": "Lageado Mirim",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Francisco de Assis",
+    "tipo": "capela",
+    "cidade": "Peritiba",
+    "localidade": "Linha das Palmeiras",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora da Piedade",
+    "tipo": "capela",
+    "cidade": "Peritiba",
+    "localidade": "Linha dos Vicentes",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Peritiba",
+    "localidade": "Linha Floresta",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Maria Goretti",
+    "tipo": "capela",
+    "cidade": "Peritiba",
+    "localidade": "Linha Maria Goretti",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Cristo Rei",
+    "tipo": "capela",
+    "cidade": "Peritiba",
+    "localidade": "Linha Periquito",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Miguel",
+    "tipo": "capela",
+    "cidade": "Peritiba",
+    "localidade": "Rancho Grande",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Francisco",
+    "tipo": "capela",
+    "cidade": "Peritiba",
+    "localidade": "São Francisco",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Paulo",
+    "tipo": "capela",
+    "cidade": "Peritiba",
+    "localidade": "Vila Nova",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela da Imaculada Conceição",
+    "tipo": "capela",
+    "cidade": "Peritiba",
+    "localidade": "Volta Grande",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejoacaba.org.br/paroquia-santo-isidoro-2/",
+    "data": "2023-04-05",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejoacaba.org.br/areas-pastorais/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Área Pastoral de Concórdia. Horários da página da paróquia no site da diocese, atualizada em abril de 2023."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Catarina de Alexandria",
+  "categoria": "paroquia",
+  "cidade": "Piratuba",
+  "padroeiro": "Santa Catarina de Alexandria",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Catarina de Alexandria",
+    "tipo": "matriz",
+    "cidade": "Piratuba",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejoacaba.org.br/paroquia-santa-catarina-de-alexandria/",
+    "data": "2022-09-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedejoacaba.org.br/areas-pastorais/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Área Pastoral de Concórdia. A página da paróquia no site da diocese não traz telefone, endereço nem horário; sem horário confirmado."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sagrada Família de Nazaré",
+  "categoria": "paroquia",
+  "cidade": "Concórdia",
+  "padroeiro": "Sagrada Família de Nazaré",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz da Sagrada Família de Nazaré",
+    "tipo": "matriz",
+    "cidade": "Concórdia",
+    "localidade": "Nazaré",
+    "endereco": "Rua Vinte e Nove de Julho",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejoacaba.org.br/paroquia-sagrada-familia-de-nazare/",
+    "data": "2025-05-02",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedejoacaba.org.br/areas-pastorais/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Não consta da página Áreas Pastorais do site da diocese. Paróquia de Concórdia que aparece na lista de paróquias do site e no GCatholic. A página da paróquia no site da diocese tem o campo de horário vazio; sem horário confirmado."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Concórdia",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Concórdia",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejoacaba.org.br/paroquia-santo-antonio-concordia/",
+    "data": "2023-04-05",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedejoacaba.org.br/areas-pastorais/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Não consta da página Áreas Pastorais do site da diocese. Paróquia de Concórdia que aparece na lista de paróquias do site e no GCatholic (este registra a cidade como Santo Antônio). A página não traz endereço, telefone nem horário; sem horário confirmado."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "Irani",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "4934320108",
+   "whatsapp": "",
+   "instagram": "paroquiasjbirani",
+   "site": "",
+   "email": "paroquiasjbirani@outlook.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Batista",
+    "tipo": "matriz",
+    "cidade": "Irani",
+    "localidade": "Centro",
+    "endereco": "Avenida Governador Ivo Silveira, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Irani",
+    "localidade": "Bairro Alto Irani",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Irani",
+    "localidade": "Linha Aparecida",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Irani",
+    "localidade": "Trevão",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Consoladora",
+    "tipo": "capela",
+    "cidade": "Irani",
+    "localidade": "Vista Alegre",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora da Saúde",
+    "tipo": "capela",
+    "cidade": "Irani",
+    "localidade": "Linha Guarani",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora do Caravággio",
+    "tipo": "capela",
+    "cidade": "Irani",
+    "localidade": "Linha Pingador",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora dos Navegantes",
+    "tipo": "capela",
+    "cidade": "Irani",
+    "localidade": "Passo Maciel",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Bárbara",
+    "tipo": "capela",
+    "cidade": "Irani",
+    "localidade": "Moinho Velho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Catarina",
+    "tipo": "capela",
+    "cidade": "Irani",
+    "localidade": "Lageado Procópio",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Goretti",
+    "tipo": "capela",
+    "cidade": "Irani",
+    "localidade": "Linha Goretti",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Luzia",
+    "tipo": "capela",
+    "cidade": "Irani",
+    "localidade": "Caroveira",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Luzia",
+    "tipo": "capela",
+    "cidade": "Irani",
+    "localidade": "Linha Oro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Rita de Cássia",
+    "tipo": "capela",
+    "cidade": "Irani",
+    "localidade": "Santo Marcon",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Terezinha",
+    "tipo": "capela",
+    "cidade": "Irani",
+    "localidade": "Lageado da Anta",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Antonio",
+    "tipo": "capela",
+    "cidade": "Irani",
+    "localidade": "Alto Engano",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Antonio",
+    "tipo": "capela",
+    "cidade": "Irani",
+    "localidade": "Bairro Santo Antonio",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Antonio",
+    "tipo": "capela",
+    "cidade": "Irani",
+    "localidade": "Cerro Agudo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Francisco",
+    "tipo": "capela",
+    "cidade": "Irani",
+    "localidade": "Lageado do Meio",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São José",
+    "tipo": "capela",
+    "cidade": "Irani",
+    "localidade": "Linha Antoniolli",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Marcos",
+    "tipo": "capela",
+    "cidade": "Irani",
+    "localidade": "Toldinho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Paulo",
+    "tipo": "capela",
+    "cidade": "Irani",
+    "localidade": "Lageado Cordeiro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Pio X",
+    "tipo": "capela",
+    "cidade": "Irani",
+    "localidade": "Pio X",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Roque",
+    "tipo": "capela",
+    "cidade": "Irani",
+    "localidade": "Alto Cascalho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Roque",
+    "tipo": "capela",
+    "cidade": "Irani",
+    "localidade": "Linha Pigosso",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Valentim",
+    "tipo": "capela",
+    "cidade": "Irani",
+    "localidade": "São Valentim",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Vicente",
+    "tipo": "capela",
+    "cidade": "Irani",
+    "localidade": "Linha São Vicente",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejoacaba.org.br/paroquia-sao-joao-batista-irani/",
+    "data": "2023-04-05",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejoacaba.org.br/areas-pastorais/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Área Pastoral de Irani. Horários da página da paróquia no site da diocese, atualizada em abril de 2023. A página só dá a missa de sábado."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Jorge e Nossa Senhora de Guadalupe",
+  "categoria": "paroquia",
+  "cidade": "Passos Maia",
+  "padroeiro": "São Jorge e Nossa Senhora de Guadalupe",
+  "contatos": {
+   "telefone": "4934370040",
+   "whatsapp": "",
+   "instagram": "saojorgepassosm",
+   "site": "",
+   "email": "secretaria@paroquiasaojorge.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Jorge",
+    "tipo": "matriz",
+    "cidade": "Passos Maia",
+    "localidade": "",
+    "endereco": "Rua da Praça",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa da família"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Passos Maia",
+    "localidade": "20 de Novembro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Pedro",
+    "tipo": "capela",
+    "cidade": "Passos Maia",
+    "localidade": "29 de Junho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora de Lourdes",
+    "tipo": "capela",
+    "cidade": "Passos Maia",
+    "localidade": "Zumbi II",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Roque",
+    "tipo": "capela",
+    "cidade": "Passos Maia",
+    "localidade": "Zumbi I",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Sebastião",
+    "tipo": "capela",
+    "cidade": "Passos Maia",
+    "localidade": "Santo Antônio",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Cristo Redentor",
+    "tipo": "capela",
+    "cidade": "Passos Maia",
+    "localidade": "Tozzo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora de Lourdes",
+    "tipo": "capela",
+    "cidade": "Passos Maia",
+    "localidade": "Taborda",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Bom Jesus",
+    "tipo": "capela",
+    "cidade": "Passos Maia",
+    "localidade": "Bom Jesus",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Passos Maia",
+    "localidade": "Indumel",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Passos Maia",
+    "localidade": "13 de Junho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Passos Maia",
+    "localidade": "Maria Rosa",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Paulo",
+    "tipo": "capela",
+    "cidade": "Passos Maia",
+    "localidade": "Guabiroba",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Passos Maia",
+    "localidade": "Sapateiro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora do Carmo",
+    "tipo": "capela",
+    "cidade": "Passos Maia",
+    "localidade": "Tigre",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora da Salete",
+    "tipo": "capela",
+    "cidade": "Passos Maia",
+    "localidade": "Conquista Dos Palmares",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora de Fátima",
+    "tipo": "capela",
+    "cidade": "Passos Maia",
+    "localidade": "Conquista Do Sepé",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Auxiliadora",
+    "tipo": "capela",
+    "cidade": "Passos Maia",
+    "localidade": "Dom Carlos",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Roque",
+    "tipo": "capela",
+    "cidade": "Passos Maia",
+    "localidade": "Madre Cristina",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Das Graças",
+    "tipo": "capela",
+    "cidade": "Passos Maia",
+    "localidade": "Bela Planície",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Passos Maia",
+    "localidade": "Tupi",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Passos Maia",
+    "localidade": "Conquista do Horizonte",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Roque",
+    "tipo": "capela",
+    "cidade": "Passos Maia",
+    "localidade": "Sadi Padilha",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Passos Maia",
+    "localidade": "União do Oeste",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Guevara – Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Passos Maia",
+    "localidade": "Che",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Valentim",
+    "tipo": "capela",
+    "cidade": "Passos Maia",
+    "localidade": "Rio do Poço",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejoacaba.org.br/paroquia-sao-jorge-e-nossa-senhora-de-guadalupe/",
+    "data": "2023-04-05",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejoacaba.org.br/areas-pastorais/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Área Pastoral de Irani. Horários da página da paróquia no site da diocese, atualizada em abril de 2023."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Paz",
+  "categoria": "paroquia",
+  "cidade": "Água Doce",
+  "padroeiro": "Nossa Senhora da Paz",
+  "contatos": {
+   "telefone": "4935240160",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiaaguadoce@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Paz",
+    "tipo": "matriz",
+    "cidade": "Água Doce",
+    "localidade": "",
+    "endereco": "Praça João Macagnan, 196",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Missa do Apostolado da Oração toda primeira sexta-feira do mês, sem hora publicada. Comunidades sem lugar indicado na fonte: Nova Vicenza, Paiol de Telhas, Serra da Trincheira, Olaria, Oziel, Vuelma, Paiol do Campo, Vista Alegre, Herciliópolis, Três Pinheiros, Núcleo, Serra do Facão, Santa Catarina, Santo Antônio, Cocho d'Água, Paiol do Fundo, Zona Nova, São Judas, Linha Heberle, Nova Concórdia, Bairro Vila Nova, Bairro São José."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejoacaba.org.br/paroquia-nossa-senhora-da-paz/",
+    "data": "2023-04-05",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejoacaba.org.br/areas-pastorais/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Área Pastoral de Irani. Horários da página da paróquia no site da diocese, atualizada em abril de 2023."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio de Pádua",
+  "categoria": "paroquia",
+  "cidade": "Ponte Serrada",
+  "padroeiro": "Santo Antônio de Pádua",
+  "contatos": {
+   "telefone": "4934350048",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "ponteserradaparoquia@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio de Pádua",
+    "tipo": "matriz",
+    "cidade": "Ponte Serrada",
+    "localidade": "Centro",
+    "endereco": "Av. XV de Novembro, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora do Caravaggio",
+    "tipo": "capela",
+    "cidade": "Ponte Serrada",
+    "localidade": "Antônio Paglia",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora do Sagrado Coração",
+    "tipo": "capela",
+    "cidade": "Ponte Serrada",
+    "localidade": "Baia Alta",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora da Saúde",
+    "tipo": "capela",
+    "cidade": "Ponte Serrada",
+    "localidade": "Baia Baixa",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Ponte Serrada",
+    "localidade": "Cohab",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora dos Navegantes",
+    "tipo": "capela",
+    "cidade": "Ponte Serrada",
+    "localidade": "Linha Alegre",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Ponte Serrada",
+    "localidade": "Granja Berté",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Madre Paulina",
+    "tipo": "capela",
+    "cidade": "Ponte Serrada",
+    "localidade": "Linha Liberato",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Francisco de Assis",
+    "tipo": "capela",
+    "cidade": "Ponte Serrada",
+    "localidade": "Ressaca Alta",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Terezinha",
+    "tipo": "capela",
+    "cidade": "Ponte Serrada",
+    "localidade": "Santa Terezinha",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Lourenço",
+    "tipo": "capela",
+    "cidade": "Ponte Serrada",
+    "localidade": "São Lourenço",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Sebastião",
+    "tipo": "capela",
+    "cidade": "Ponte Serrada",
+    "localidade": "São Sebastião",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora de Fátima",
+    "tipo": "capela",
+    "cidade": "Ponte Serrada",
+    "localidade": "Linha Fátima",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Valentim",
+    "tipo": "capela",
+    "cidade": "Ponte Serrada",
+    "localidade": "São Valentim",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Ponte Serrada",
+    "localidade": "Linha CTG",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Roque",
+    "tipo": "capela",
+    "cidade": "Ponte Serrada",
+    "localidade": "Linha 25 de Maio",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora da Salete",
+    "tipo": "capela",
+    "cidade": "Ponte Serrada",
+    "localidade": "Linha Mayer",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejoacaba.org.br/paroquia-santo-antonio-de-padua/",
+    "data": "2023-04-05",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejoacaba.org.br/areas-pastorais/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Área Pastoral de Irani. Horários da página da paróquia no site da diocese, atualizada em abril de 2023."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sagrado Coração de Jesus e Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Vargem Bonita",
+  "padroeiro": "Sagrado Coração de Jesus e Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "4935480347",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiavargembonita@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Sagrado Coração de Jesus e Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Vargem Bonita",
+    "localidade": "",
+    "endereco": "Rua José de Alençar, 320",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa da Catequese"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": [
+       2
+      ],
+      "observacao": "Missa do Dízimo"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": [
+       3
+      ],
+      "observacao": "Missa dos Jovens"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": [
+       4
+      ],
+      "observacao": "Missa da Família"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": [
+       5
+      ],
+      "observacao": "Missa da RCC"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": "Com a missa"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa do Apostolado da Oração"
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora da Conceição Aparecida",
+    "tipo": "capela",
+    "cidade": "Vargem Bonita",
+    "localidade": "Campina da Alegria",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Marcos",
+    "tipo": "capela",
+    "cidade": "Vargem Bonita",
+    "localidade": "Coração",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São José",
+    "tipo": "capela",
+    "cidade": "Vargem Bonita",
+    "localidade": "São José",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora do Carmo",
+    "tipo": "capela",
+    "cidade": "Vargem Bonita",
+    "localidade": "Nossa Senhora do Carmo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora da Salete",
+    "tipo": "capela",
+    "cidade": "Vargem Bonita",
+    "localidade": "Tunalzinho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Paulina",
+    "tipo": "capela",
+    "cidade": "Vargem Bonita",
+    "localidade": "Assentamento 25 de Maio",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Francisco",
+    "tipo": "capela",
+    "cidade": "Vargem Bonita",
+    "localidade": "Adami",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora das Graças",
+    "tipo": "capela",
+    "cidade": "Vargem Bonita",
+    "localidade": "Limoeiro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Vargem Bonita",
+    "localidade": "Assentamento IX de Novembro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Expedito",
+    "tipo": "capela",
+    "cidade": "Vargem Bonita",
+    "localidade": "Assentamento Lajeado Bonito",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Tereza de Ávila",
+    "tipo": "capela",
+    "cidade": "Vargem Bonita",
+    "localidade": "Três galhos",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejoacaba.org.br/paroquia-sagrado-coracao-de-jesus-e-nossa-senhora-aparecida/",
+    "data": "2023-04-05",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejoacaba.org.br/areas-pastorais/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Área Pastoral de Irani. Horários da página da paróquia no site da diocese, atualizada em abril de 2023."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "Catanduvas",
+  "padroeiro": "São Sebastião",
+  "contatos": {
+   "telefone": "4935251140",
+   "whatsapp": "",
+   "instagram": "paroquiasaosebastiaocatanduvas",
+   "site": "",
+   "email": "paroquiasaosebastiaocatanduvas@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Sebastião",
+    "tipo": "matriz",
+    "cidade": "Catanduvas",
+    "localidade": "Centro",
+    "endereco": "Rua Almirante Barroso, 2460",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": "Devoção a Nossa Senhora do Perpétuo Socorro"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Em honra ao Sagrado Coração de Jesus"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Catanduvas",
+    "localidade": "Bairro Cidade Jardim",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Catanduvas",
+    "localidade": "Bairro Sayonara",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora do Perpétuo Socorro",
+    "tipo": "capela",
+    "cidade": "Catanduvas",
+    "localidade": "Bairro Sebaldo Kunz",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Francisco",
+    "tipo": "capela",
+    "cidade": "Catanduvas",
+    "localidade": "Bairros São Francisco e Morada do Sol",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora do Caravaggio",
+    "tipo": "capela",
+    "cidade": "Catanduvas",
+    "localidade": "Loteamento Cardozo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora do Amparo",
+    "tipo": "capela",
+    "cidade": "Catanduvas",
+    "localidade": "Estrada Pedra Lisa",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Catanduvas",
+    "localidade": "Ervateira Materva",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Pedro",
+    "tipo": "capela",
+    "cidade": "Catanduvas",
+    "localidade": "Jacutinga",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Pedro",
+    "tipo": "capela",
+    "cidade": "Catanduvas",
+    "localidade": "Pedra Lisa",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Catanduvas",
+    "localidade": "Gramado Bonito",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela da Santa Cruz",
+    "tipo": "capela",
+    "cidade": "Catanduvas",
+    "localidade": "Vera Cruz",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Rita de Cássia",
+    "tipo": "capela",
+    "cidade": "Catanduvas",
+    "localidade": "Assentamento Santa Rita",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Catanduvas",
+    "localidade": "Banhado Grande",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejoacaba.org.br/paroquia-sao-sebastiao-catanduvas/",
+    "data": "2023-04-05",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejoacaba.org.br/areas-pastorais/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Área Pastoral de Irani. Horários da página da paróquia no site da diocese, atualizada em abril de 2023."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Roque",
+  "categoria": "paroquia",
+  "cidade": "Jaborá",
+  "padroeiro": "São Roque",
+  "contatos": {
+   "telefone": "4935261191",
+   "whatsapp": "",
+   "instagram": "paroquiasaoroque2022",
+   "site": "",
+   "email": "secretaria@saoroqueparoquia.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Roque",
+    "tipo": "matriz",
+    "cidade": "Jaborá",
+    "localidade": "Centro",
+    "endereco": "Rua Lauro Rupp, 70",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": "Louvor e adoração ao Santíssimo"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa do Apostolado da Oração"
+     }
+    ],
+    "nao_cabe": "Sábados: 1º Missa das famílias, 2º do dízimo, 3º vocacional com batizados, 4º da catequese. Matriz aberta todos os dias das 8h às 17h30."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Jaborá",
+    "localidade": "Águas Belas",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Barbara",
+    "tipo": "capela",
+    "cidade": "Jaborá",
+    "localidade": "Alto Andrade",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora do Caravággio",
+    "tipo": "capela",
+    "cidade": "Jaborá",
+    "localidade": "Boa Vista",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Paulo",
+    "tipo": "capela",
+    "cidade": "Jaborá",
+    "localidade": "Castelhano",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Sagrado Coração de Jesus",
+    "tipo": "capela",
+    "cidade": "Jaborá",
+    "localidade": "Fazenda São Lourenço",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Brás",
+    "tipo": "capela",
+    "cidade": "Jaborá",
+    "localidade": "Jaborazinho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Jaborá",
+    "localidade": "Lageado Andrade",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Cristo Rei",
+    "tipo": "capela",
+    "cidade": "Jaborá",
+    "localidade": "Lageado Colônia",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Camilo",
+    "tipo": "capela",
+    "cidade": "Jaborá",
+    "localidade": "Linha França",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Senhor Bom Jesus",
+    "tipo": "capela",
+    "cidade": "Jaborá",
+    "localidade": "Linha Pinhal",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora da Salete",
+    "tipo": "capela",
+    "cidade": "Jaborá",
+    "localidade": "Linha Prestes",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Lúcia",
+    "tipo": "capela",
+    "cidade": "Jaborá",
+    "localidade": "Santa Lúcia",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São João Batista",
+    "tipo": "capela",
+    "cidade": "Jaborá",
+    "localidade": "São João da Jacutinga",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Lourenço",
+    "tipo": "capela",
+    "cidade": "Jaborá",
+    "localidade": "São Lourenço",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Luiz",
+    "tipo": "capela",
+    "cidade": "Jaborá",
+    "localidade": "São Luiz",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Miguel",
+    "tipo": "capela",
+    "cidade": "Jaborá",
+    "localidade": "São Miguel",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela da Santa Cruz",
+    "tipo": "capela",
+    "cidade": "Jaborá",
+    "localidade": "Serraria Brancher",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Jaborá",
+    "localidade": "Vista Alegre",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Teresinha do Menino Jesus",
+    "tipo": "capela",
+    "cidade": "Jaborá",
+    "localidade": "Presidente Castello Branco",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Antão",
+    "tipo": "capela",
+    "cidade": "Jaborá",
+    "localidade": "Banhadão",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora do Monte Bérico",
+    "tipo": "capela",
+    "cidade": "Jaborá",
+    "localidade": "Cabeceira",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora da Salete",
+    "tipo": "capela",
+    "cidade": "Jaborá",
+    "localidade": "Imigra",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Expedito",
+    "tipo": "capela",
+    "cidade": "Jaborá",
+    "localidade": "Linha Tateto",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Jaborá",
+    "localidade": "Rancho Grande",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Cristóvão",
+    "tipo": "capela",
+    "cidade": "Jaborá",
+    "localidade": "Salto da Praia",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Luzia",
+    "tipo": "capela",
+    "cidade": "Jaborá",
+    "localidade": "Taquaral",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejoacaba.org.br/paroquia-sao-roque/",
+    "data": "2023-04-05",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejoacaba.org.br/areas-pastorais/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Área Pastoral de Irani. Horários da página da paróquia no site da diocese, atualizada em abril de 2023."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José",
+  "categoria": "paroquia",
+  "cidade": "Joaçaba",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "4935213073",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasaojosejoacaba@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José",
+    "tipo": "matriz",
+    "cidade": "Joaçaba",
+    "localidade": "Cruzeiro do Sul",
+    "endereco": "Rua Carmelita Lemes, 300",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora do Carmo",
+    "tipo": "capela",
+    "cidade": "Joaçaba",
+    "localidade": "João Paulo II",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Brás",
+    "tipo": "capela",
+    "cidade": "Joaçaba",
+    "localidade": "São Brás",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela da Santíssima Trindade",
+    "tipo": "capela",
+    "cidade": "Joaçaba",
+    "localidade": "Nova Petrópolis",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Roque",
+    "tipo": "capela",
+    "cidade": "Joaçaba",
+    "localidade": "Duas Casas",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Joaçaba",
+    "localidade": "Vila Remor",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Joaçaba",
+    "localidade": "Linha Antinha",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Pedro",
+    "tipo": "capela",
+    "cidade": "Joaçaba",
+    "localidade": "Linha Bonitinho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Joaçaba",
+    "localidade": "Linha Alto Rochedo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Sagrado Coração de Jesus",
+    "tipo": "capela",
+    "cidade": "Joaçaba",
+    "localidade": "Bairro Anzolin",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Judas Tadeu",
+    "tipo": "capela",
+    "cidade": "Joaçaba",
+    "localidade": "Loteamento Armindo Haro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Francisco de Assis",
+    "tipo": "capela",
+    "cidade": "Joaçaba",
+    "localidade": "Bairro Flor da Serra",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Francisco das Chagas",
+    "tipo": "capela",
+    "cidade": "Joaçaba",
+    "localidade": "Linha Ferreirinha",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Expedito",
+    "tipo": "capela",
+    "cidade": "Joaçaba",
+    "localidade": "Vila Cordazzo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Paulina",
+    "tipo": "capela",
+    "cidade": "Joaçaba",
+    "localidade": "Jardim Itália",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Miguel Arcanjo",
+    "tipo": "capela",
+    "cidade": "Joaçaba",
+    "localidade": "Vila Cachoeirinha",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejoacaba.org.br/paroquia-sao-jose/",
+    "data": "2023-04-05",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejoacaba.org.br/areas-pastorais/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Área Pastoral de Joaçaba. Horários da página da paróquia no site da diocese, atualizada em abril de 2023."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Senhor Bom Jesus",
+  "categoria": "paroquia",
+  "cidade": "Herval d'Oeste",
+  "padroeiro": "Senhor Bom Jesus",
+  "contatos": {
+   "telefone": "4935227115",
+   "whatsapp": "",
+   "instagram": "paroquiasrbomjesus",
+   "site": "",
+   "email": "paroquiasbj@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Senhor Bom Jesus",
+    "tipo": "matriz",
+    "cidade": "Herval d'Oeste",
+    "localidade": "",
+    "endereco": "Rua Nereu Ramos, 55",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Comunidades sem lugar indicado na fonte: Jardim José Rupp, Santo Antônio, São Jorge, São Vicente, Nossa Senhora de Fátima, Nossa Senhora Aparecida, Vila Rica, Boa Esperança, Canhada Funda, Capoeirada, Itororó, Pacífico, Santa Luzia, São José da Barra Verde, Senhor Bom Jesus da Barra Verde, Rio Sapato, Rancho Queimado, Serra Alta, Três Barras."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejoacaba.org.br/paroquia-senhor-bom-jesus/",
+    "data": "2023-04-05",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejoacaba.org.br/areas-pastorais/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Área Pastoral de Joaçaba. Horários da página da paróquia no site da diocese, atualizada em abril de 2023."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "Luzerna",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "4935231085",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquia.luzerna@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Batista",
+    "tipo": "matriz",
+    "cidade": "Luzerna",
+    "localidade": "",
+    "endereco": "Rua Rui Barbosa, 160",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Luzerna",
+    "localidade": "Grafunda",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Sebastião",
+    "tipo": "capela",
+    "cidade": "Luzerna",
+    "localidade": "Triângulo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Luzerna",
+    "localidade": "Linha Bonita",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Isabel",
+    "tipo": "capela",
+    "cidade": "Luzerna",
+    "localidade": "Germano",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Luzerna",
+    "localidade": "Estação Luzerna",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Luzerna",
+    "localidade": "Nova Estrela",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Menino Deus",
+    "tipo": "capela",
+    "cidade": "Luzerna",
+    "localidade": "Sede Belém",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Da Salete",
+    "tipo": "capela",
+    "cidade": "Luzerna",
+    "localidade": "Limeira",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Paulo Apóstolo",
+    "tipo": "capela",
+    "cidade": "Luzerna",
+    "localidade": "Caetano Branco",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Teresinha",
+    "tipo": "capela",
+    "cidade": "Luzerna",
+    "localidade": "Santa Teresinha",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Sagrado Coração de jesus",
+    "tipo": "capela",
+    "cidade": "Luzerna",
+    "localidade": "Sede Sarandi",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Perpétuo Socorro",
+    "tipo": "capela",
+    "cidade": "Luzerna",
+    "localidade": "Perpétuo Socorro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Roque",
+    "tipo": "capela",
+    "cidade": "Luzerna",
+    "localidade": "Estreito",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Luzerna",
+    "localidade": "Roça Grande",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora dos Navegantes",
+    "tipo": "capela",
+    "cidade": "Luzerna",
+    "localidade": "Vila Kennedy",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Paulo Apóstolo",
+    "tipo": "capela",
+    "cidade": "Luzerna",
+    "localidade": "Barreiros",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejoacaba.org.br/paroquia-sao-joao-batista/",
+    "data": "2023-04-05",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejoacaba.org.br/areas-pastorais/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Área Pastoral de Joaçaba. Horários da página da paróquia no site da diocese, atualizada em abril de 2023. Comunidades em Luzerna, Herval d'Oeste e Ibicaré; a fonte não diz o município de cada uma, ficaram com Luzerna."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Cristo Rei",
+  "categoria": "paroquia",
+  "cidade": "Ibicaré",
+  "padroeiro": "Cristo Rei",
+  "contatos": {
+   "telefone": "4935380136",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "pecribicare@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Cristo Rei",
+    "tipo": "matriz",
+    "cidade": "Ibicaré",
+    "localidade": "",
+    "endereco": "Rua Juscelino Kubitschek, 1",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora de Fátima",
+    "tipo": "capela",
+    "cidade": "Ibicaré",
+    "localidade": "São Luís Gonzaga",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Paulo",
+    "tipo": "capela",
+    "cidade": "Ibicaré",
+    "localidade": "Vista Alegre",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Tangará",
+    "localidade": "Aparecida",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Roque",
+    "tipo": "capela",
+    "cidade": "Ibicaré",
+    "localidade": "Gramado Sarandi",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora de Fátima",
+    "tipo": "capela",
+    "cidade": "Ibicaré",
+    "localidade": "Lageado Grande",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São José",
+    "tipo": "capela",
+    "cidade": "Ibicaré",
+    "localidade": "Duque de Caxias",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Sagrado Coração de Jesus",
+    "tipo": "capela",
+    "cidade": "Ibicaré",
+    "localidade": "São Salvador",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São José",
+    "tipo": "capela",
+    "cidade": "Ibicaré",
+    "localidade": "São José",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Silvestre",
+    "tipo": "capela",
+    "cidade": "Ibicaré",
+    "localidade": "Linha do Cedro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Ibicaré",
+    "localidade": "Gramado dos Leite",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora do Rosário",
+    "tipo": "capela",
+    "cidade": "Ibicaré",
+    "localidade": "Capela do Rosário",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejoacaba.org.br/paroquia-cristo-rei/",
+    "data": "2023-04-05",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejoacaba.org.br/areas-pastorais/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Área Pastoral de Joaçaba. Horários da página da paróquia no site da diocese, atualizada em abril de 2023."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Francisco das Chagas",
+  "categoria": "paroquia",
+  "cidade": "Lacerdópolis",
+  "padroeiro": "São Francisco das Chagas",
+  "contatos": {
+   "telefone": "4935520101",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasfchagas70@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Francisco das Chagas",
+    "tipo": "matriz",
+    "cidade": "Lacerdópolis",
+    "localidade": "",
+    "endereco": "Rua Trinta e Um de Março, 77",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Comunidades sem lugar indicado na fonte: Capela Nossa Senhora do Rosário, Capela Nossa Senhora da Saúde."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora das Dores",
+    "tipo": "capela",
+    "cidade": "Lacerdópolis",
+    "localidade": "Barra Fria",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Paulo",
+    "tipo": "capela",
+    "cidade": "Lacerdópolis",
+    "localidade": "Linha São Paulo Pato Roxo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Brás",
+    "tipo": "capela",
+    "cidade": "Lacerdópolis",
+    "localidade": "Linha São Brás",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Lacerdópolis",
+    "localidade": "Linha Santo Antônio",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Luiz",
+    "tipo": "capela",
+    "cidade": "Lacerdópolis",
+    "localidade": "Linha São Luiz",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Roque",
+    "tipo": "capela",
+    "cidade": "Lacerdópolis",
+    "localidade": "Linha São Roque",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Lacerdópolis",
+    "localidade": "Linha Encruzilhada",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Pedro",
+    "tipo": "capela",
+    "cidade": "Lacerdópolis",
+    "localidade": "Linha São Pedro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Carlos",
+    "tipo": "capela",
+    "cidade": "Lacerdópolis",
+    "localidade": "Linha São Carlos",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora das Graças",
+    "tipo": "capela",
+    "cidade": "Lacerdópolis",
+    "localidade": "Linha N. S. das Graças",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejoacaba.org.br/paroquia-sao-francisco-das-chagas-2/",
+    "data": "2023-04-05",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejoacaba.org.br/areas-pastorais/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Área Pastoral de Joaçaba. Horários da página da paróquia no site da diocese, atualizada em abril de 2023."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Paulo Apóstolo",
+  "categoria": "paroquia",
+  "cidade": "Capinzal",
+  "padroeiro": "São Paulo Apóstolo",
+  "contatos": {
+   "telefone": "4935551139",
+   "whatsapp": "",
+   "instagram": "psaopauloapostolo",
+   "site": "",
+   "email": "pascom@psaopauloapostolo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Paulo Apóstolo",
+    "tipo": "matriz",
+    "cidade": "Capinzal",
+    "localidade": "",
+    "endereco": "Rua Dr. Vilson Bordin, 11",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejoacaba.org.br/paroquia-sao-paulo-apostolo/",
+    "data": "2023-04-05",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedejoacaba.org.br/areas-pastorais/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Área Pastoral de Joaçaba. A página da paróquia no site da diocese tem o campo de horário vazio; sem horário confirmado. O site psaopauloapostolo.com.br não respondeu em 13/11/2026."
+ }
+]

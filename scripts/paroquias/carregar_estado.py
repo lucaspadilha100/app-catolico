@@ -135,8 +135,9 @@ def hora_ok(h):
 
 
 def main():
-    args = [a for a in sys.argv[1:] if a != "--correcao"]
-    correcao = len(args) != len(sys.argv) - 1
+    so_horarios = "--so-horarios" in sys.argv
+    correcao = "--correcao" in sys.argv
+    args = [a for a in sys.argv[1:] if a not in ("--correcao", "--so-horarios")]
     pasta, uf, ts = Path(args[0]), args[1].upper(), args[2]
     mapa = [a.split("=", 1) for a in args[3:]]
     paroquias, horarios, notas = [], [], []
@@ -235,6 +236,26 @@ def main():
         notas = [nq for nq in notas if nq["repetida"]]
         errados_p -= antigos_p
         errados_h -= antigos_h
+    if so_horarios:
+        linhas = [f"-- {uf}: horários que faltavam, gerado por scripts/paroquias/carregar_estado.py --so-horarios a partir de {pasta.name}",
+                  "-- Só entra em paróquia que ainda não tem nenhum horário e que nenhuma secretaria conferiu.", ""]
+        vs = []
+        for h in horarios:
+            semanas = "null::smallint[]" if h["semanas"] is None else "'{" + ",".join(map(str, h["semanas"])) + "}'::smallint[]"
+            vs.append(f"  ('{h['id']}'::uuid, '{h['paroquia_id']}'::uuid, '{h['tipo']}', {h['dia_semana']}::smallint, {semanas}, '{h['hora']}'::time, {s(h['observacao'])})")
+        if vs:
+            linhas.append("insert into public.horarios (id, paroquia_id, tipo, dia_semana, semanas, hora, observacao)")
+            linhas.append("select v.id, v.paroquia_id, v.tipo, v.dia_semana, v.semanas, v.hora, v.observacao from (values")
+            linhas.append(",\n".join(vs))
+            linhas.append(") as v(id, paroquia_id, tipo, dia_semana, semanas, hora, observacao)")
+            linhas.append("join public.paroquias p on p.id = v.paroquia_id")
+            linhas.append("where not p.verificada and p.conferida_em is null")
+            linhas.append("  and not exists (select 1 from public.horarios h where h.paroquia_id = v.paroquia_id)")
+            linhas.append("on conflict (id) do nothing;")
+        destino = Path(os.environ.get("SAIDA_MIGRACOES", "supabase/migrations")) / f"{ts}_dados_{uf.lower()}_horarios.sql"
+        destino.write_text("\n".join(linhas) + "\n")
+        print(f"{destino}: {len(horarios)} horários (só entram onde não havia nenhum)")
+        return
     geocodificar(paroquias, avisos)
     for nq in notas:
         m = next(x for x in paroquias if x["id"] == nq["paroquia_id"])
