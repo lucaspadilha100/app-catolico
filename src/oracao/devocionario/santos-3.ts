@@ -633,7 +633,7 @@ const ORACOES: OracaoDoDevocionario[] = [
     fonte: "propria",
     origem: "Texto da equipe do app",
     pt: [
-      "Ó Deus, que unistes Santa Gema Galgani, jovem de Luca, à Paixão do vosso Filho e a sustentastes na doença e na pobreza até a morte, aos vinte e cinco anos, concedei-me, por sua intercessão, a graça de amar Jesus crucificado e de aceitar com paciência as minhas cruzes. Confortai os doentes e os pobres, e abençoai os farmacêuticos e todos os que cuidam da saúde. Atendei a graça que neste momento vos peço. Por Cristo, nosso Senhor. Amém.",
+      "Ó Deus, que unistes Santa Gema Galgani, jovem de Lucca, à Paixão do vosso Filho e a sustentastes na doença e na pobreza até a morte, aos vinte e cinco anos, concedei-me, por sua intercessão, a graça de amar Jesus crucificado e de aceitar com paciência as minhas cruzes. Confortai os doentes e os pobres, e abençoai os farmacêuticos e todos os que cuidam da saúde. Atendei a graça que neste momento vos peço. Por Cristo, nosso Senhor. Amém.",
       "Santa Gema Galgani, rogai por nós.",
     ],
   },

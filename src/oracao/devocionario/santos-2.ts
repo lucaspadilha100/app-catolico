@@ -188,7 +188,7 @@ const ORACOES: OracaoDoDevocionario[] = [
     fonte: "propria",
     origem: "Texto da equipe do app",
     pt: [
-      "Ó Deus, que reconciliastes no exílio o papa São Ponciano e o presbítero Santo Hipólito, antes divididos, e os unistes na mesma coroa do martírio, curai as divisões da vossa Igreja, das nossas comunidades e das nossas famílias.",
+      "Ó Deus, que unistes no exílio e na mesma coroa do martírio o papa São Ponciano e o presbítero Santo Hipólito, que a tradição diz terem estado antes divididos, curai as divisões da vossa Igreja, das nossas comunidades e das nossas famílias.",
       "Dai-me humildade para pedir perdão e generosidade para perdoar, e não deixeis que o orgulho me afaste dos irmãos. Por sua intercessão, concedei-me a graça que neste momento vos peço.",
       "São Ponciano e Santo Hipólito, rogai por nós. Por Cristo, nosso Senhor. Amém.",
     ],
@@ -309,7 +309,7 @@ const ORACOES: OracaoDoDevocionario[] = [
     fonte: "propria",
     origem: "Texto da equipe do app",
     pt: [
-      "São Bartolomeu, apóstolo, que a Igreja reconhece em Natanael, de quem Jesus disse ser um verdadeiro israelita em quem não há falsidade, alcançai-me um coração sincero e sem fingimento.",
+      "São Bartolomeu, apóstolo, que a tradição identifica com Natanael, de quem Jesus disse ser um verdadeiro israelita em quem não há falsidade, alcançai-me um coração sincero e sem fingimento.",
       "Que eu procure a verdade como vós a procurastes, e, encontrando Jesus, o confesse como Filho de Deus. Livrai-me da mentira, da hipocrisia e de toda falsidade nas palavras e nas obras. Apresentai ao Senhor a graça que neste momento vos peço.",
       "São Bartolomeu, rogai por nós. Amém.",
     ],
@@ -574,7 +574,7 @@ const ORACOES: OracaoDoDevocionario[] = [
     fonte: "propria",
     origem: "Texto da equipe do app",
     pt: [
-      "São Vicente de Paulo, que organizastes a caridade com os pobres e fundastes os vicentinos e as Filhas da Caridade, alcançai-me um coração que veja nos pobres os meus senhores e irmãos.",
+      "São Vicente de Paulo, que organizastes a caridade com os pobres e fundastes a Congregação da Missão e as Filhas da Caridade, alcançai-me um coração que veja nos pobres os meus senhores e irmãos.",
       "Rogai pelos que servem nas obras de caridade, para que não desanimem, e pelos que passam fome, frio ou abandono. Dai-me generosidade para partilhar o que tenho. Apresentai ao Senhor a graça que neste momento vos peço.",
       "São Vicente de Paulo, rogai por nós. Amém.",
     ],
@@ -1271,7 +1271,7 @@ const ORACOES: OracaoDoDevocionario[] = [
     fonte: "propria",
     origem: "Texto da equipe do app",
     pt: [
-      "Santa Catarina de Alexandria, jovem mártir venerada desde a Antiguidade como padroeira dos estudantes e dos filósofos, alcançai-me a sabedoria que vem de Deus e a coragem de defender a fé.",
+      "Santa Catarina de Alexandria, jovem mártir que a tradição venera como padroeira dos estudantes e dos filósofos, alcançai-me a sabedoria que vem de Deus e a coragem de defender a fé.",
       "Rogai pelos estudantes, pelos professores e pelos que buscam a verdade. Que eu estude com dedicação e use o que aprendo para o bem. Apresentai ao Senhor a graça que neste momento vos peço.",
       "Santa Catarina, rogai por nós. Amém.",
     ],
@@ -1319,7 +1319,7 @@ const ORACOES: OracaoDoDevocionario[] = [
     fonte: "propria",
     origem: "Texto da equipe do app",
     pt: [
-      "Santa Bárbara, virgem e mártir dos primeiros séculos, honrada pelo povo cristão desde tempos antigos, alcançai-me a fortaleza de permanecer fiel a Cristo nas tempestades da vida.",
+      "Santa Bárbara, que a tradição venera como virgem e mártir dos primeiros séculos, alcançai-me a fortaleza de permanecer fiel a Cristo nas tempestades da vida.",
       "Rogai pelos mineiros, pelos que trabalham em lugares perigosos e pelos que enfrentam o fogo e as explosões. Na hora do medo, ensinai-me a confiar em Deus. Apresentai ao Senhor a graça que neste momento vos peço.",
       "Santa Bárbara, rogai por nós. Amém.",
     ],

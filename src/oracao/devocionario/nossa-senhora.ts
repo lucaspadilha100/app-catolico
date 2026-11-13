@@ -102,7 +102,7 @@ const ORACOES: OracaoDoDevocionario[] = [
     fonte: "propria",
     origem: "Texto da equipe do app",
     pt: [
-      "Nossa Senhora de Luján, pequena imagem da Imaculada Conceição que partiu do Brasil e quis ficar na Argentina, onde o povo vos acolheu como Mãe e padroeira, abençoai os povos da América.",
+      "Nossa Senhora de Luján, pequena imagem da Imaculada Conceição que, segundo a tradição, veio do Brasil e ficou em Luján, onde o povo vos acolheu como Mãe e padroeira, abençoai os povos da América.",
       "Uni o que está dividido, consolai os que vivem longe da sua terra e guardai os que viajam pelas estradas. Dai-me um coração simples como a vossa imagem, pequeno aos olhos do mundo e grande no amor.",
       "Alcançai-me a graça que agora vos peço. Nossa Senhora de Luján, rogai por nós. Amém.",
     ],
@@ -174,7 +174,7 @@ const ORACOES: OracaoDoDevocionario[] = [
     fonte: "propria",
     origem: "Texto da equipe do app",
     pt: [
-      "Nossa Senhora do Perpétuo Socorro, contemplada no ícone em que seguras o Menino Jesus, que se abriga em vossas mãos diante do anúncio da Paixão, socorrei-me em toda necessidade.",
+      "Nossa Senhora do Perpétuo Socorro, contemplada no ícone em que segurais o Menino Jesus, que se abriga em vossas mãos diante do anúncio da Paixão, socorrei-me em toda necessidade.",
       "Vosso socorro não falha nem se cansa. Acudi-me nas quedas, nas doenças, nas dívidas e nos medos, e socorrei sobretudo a minha alma, para que eu não me afaste de Deus.",
       "Mãe do Perpétuo Socorro, a vós recorro hoje e sempre. Apresentai ao vosso Filho a graça que vos peço. Rogai por nós. Amém.",
     ],
@@ -294,7 +294,7 @@ const ORACOES: OracaoDoDevocionario[] = [
     fonte: "propria",
     origem: "Texto da equipe do app",
     pt: [
-      "Nossa Senhora das Mercês, Mãe da misericórdia que inspirastes uma ordem inteira a libertar cristãos cativos, libertai-me de toda escravidão.",
+      "Nossa Senhora das Mercês, Mãe da misericórdia, sob cuja proteção nasceu uma ordem inteira para libertar cristãos cativos, libertai-me de toda escravidão.",
       "Quebrai as correntes do pecado, do vício e do medo que me prendem, e socorrei os presos, os reféns, os perseguidos por causa da fé e todos os que não são livres. Ensinai-me a dar a vida pelos irmãos como os redentores de cativos.",
       "Apresentai a Deus a graça que vos peço. Nossa Senhora das Mercês, rogai por nós. Amém.",
     ],
@@ -330,7 +330,7 @@ const ORACOES: OracaoDoDevocionario[] = [
     fonte: "propria",
     origem: "Texto da equipe do app",
     pt: [
-      "Nossa Senhora do Pilar, venerada sobre a coluna de Zaragoza, padroeira da Espanha e dos povos hispânicos, sustentai a minha fé como firme coluna.",
+      "Nossa Senhora do Pilar, venerada sobre a coluna de Zaragoza, padroeira dos povos hispânicos, sustentai a minha fé como firme coluna.",
       "A tradição conta que viestes animar o apóstolo Santiago no cansaço da missão. Animai também os missionários de hoje e todos os que evangelizam sem ver fruto. Que eu não desista do bem começado.",
       "Apresentai ao vosso Filho a graça que agora vos peço. Nossa Senhora do Pilar, rogai por nós. Amém.",
     ],
@@ -379,7 +379,7 @@ const ORACOES: OracaoDoDevocionario[] = [
     origem: "Texto da equipe do app",
     pt: [
       "Nossa Senhora de Kibeho, Mãe do Verbo, que aparecestes a jovens estudantes em Ruanda, chamando o mundo à conversão e à oração do terço das dores, acolhei a minha súplica.",
-      "Vós que chorastes prevendo o sofrimento do vosso povo, consolai as vítimas das guerras e dos ódios, e arrancai do meu coração toda semente de rancor. Ensinai a África e o mundo o caminho do perdão.",
+      "Vós que chorastes diante das videntes, consolai as vítimas das guerras e dos ódios, e arrancai do meu coração toda semente de rancor. Ensinai a África e o mundo o caminho do perdão.",
       "Mãe do Verbo, apresentai a Deus a graça que agora vos peço. Rogai por nós. Amém.",
     ],
   },

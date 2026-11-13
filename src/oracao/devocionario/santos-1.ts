@@ -328,7 +328,7 @@ const ORACOES: OracaoDoDevocionario[] = [
     fonte: "propria",
     origem: "Texto da equipe do app",
     pt: [
-      "São Policarpo, bispo de Esmirna e discípulo do apóstolo João, que servistes a Cristo durante toda a vida e, com mais de oitenta anos, preferistes morrer na fogueira a negar o Senhor, rogai por nós.",
+      "São Policarpo, bispo de Esmirna e discípulo do apóstolo João, que servistes a Cristo durante toda a vida e, com mais de oitenta anos, preferistes ser condenado à fogueira a negar o Senhor, rogai por nós.",
       "Alcançai-nos a fidelidade dos que perseveram até o fim e a coragem de não trocar a fé por nenhuma vantagem. Amparai os idosos, para que vivam os seus últimos anos em paz e em amizade com Deus. Apresentai ao Senhor a graça que neste momento vos peço. Amém.",
     ],
   },
@@ -505,7 +505,7 @@ const ORACOES: OracaoDoDevocionario[] = [
     fonte: "propria",
     origem: "Texto da equipe do app",
     pt: [
-      "Deus, por cuja glória o bispo Santo Estanislau de Cracóvia não teve medo de repreender o rei e foi morto por ordem dele, concedei-nos, por sua intercessão, a coragem de falar a verdade com caridade e de permanecer firmes na fé até o fim.",
+      "Deus, por cuja glória o bispo Santo Estanislau de Cracóvia não teve medo de repreender o rei e por isso foi morto, concedei-nos, por sua intercessão, a coragem de falar a verdade com caridade e de permanecer firmes na fé até o fim.",
       "Ensinai-nos a não calar diante da injustiça. Dai aos pastores da vossa Igreja liberdade e fortaleza, e abençoai o povo da Polônia. Atendei também a graça que neste momento vos peço. Por Cristo, nosso Senhor. Amém.",
     ],
   },
@@ -527,7 +527,7 @@ const ORACOES: OracaoDoDevocionario[] = [
     fonte: "propria",
     origem: "Texto da equipe do app",
     pt: [
-      "Santo Expedito, mártir dos primeiros séculos, que destes a vida por Cristo e sois muito venerado pelo povo brasileiro, rogai por nós.",
+      "Santo Expedito, que a tradição venera como mártir dos primeiros séculos, vós que sois muito invocado pelo povo brasileiro, rogai por nós.",
       "Ensinai-nos a não deixar para amanhã a conversão que Deus nos pede hoje e a responder prontamente ao seu chamado. Alcançai-nos a paciência nas horas de aflição e a confiança de que o Senhor cuida de nós no tempo certo. Apresentai a Deus a graça que neste momento vos peço, se for da sua vontade. Amém.",
     ],
   },
@@ -554,7 +554,7 @@ const ORACOES: OracaoDoDevocionario[] = [
     fonte: "propria",
     origem: "Texto da equipe do app",
     pt: [
-      "Glorioso São Jorge, soldado cristão, que no início do século IV destes a vida pela fé e vencestes o medo com a coragem dos mártires, rogai por nós.",
+      "Glorioso São Jorge, mártir, que a tradição apresenta como soldado cristão do início do século IV, vós que vencestes o medo com a coragem dos mártires, rogai por nós.",
       "Alcançai-nos de Deus a força para combater o mal, a começar pelo mal que existe em nós, e a firmeza de não negar Jesus diante das ameaças. Protegei os soldados e todos os que trabalham para defender os outros. Guardai as nossas famílias e as nossas casas. Apresentai ao Senhor a graça que neste momento vos peço. Amém.",
     ],
   },
@@ -1060,7 +1060,7 @@ const ORACOES: OracaoDoDevocionario[] = [
     fonte: "propria",
     origem: "Texto da equipe do app",
     pt: [
-      "São Tomé, apóstolo, que depois de duvidar da ressurreição encontrastes Jesus vivo e confessastes diante dele: Meu Senhor e meu Deus, rogai por nós.",
+      "São Tomé, apóstolo, que depois de duvidar da ressurreição encontrastes Jesus vivo e confessastes diante dele: Senhor meu e Deus meu, rogai por nós.",
       "Alcançai-nos a graça de crer sem ter visto, de vencer as dúvidas pela fé e de reconhecer o Senhor nas suas chagas e nos irmãos que sofrem. Fortalecei a fé dos que passam por crises e incertezas. Abençoai o povo da Índia e os cristãos que lá vivem. Apresentai ao Senhor a graça que neste momento vos peço. Amém.",
     ],
   },

@@ -392,7 +392,7 @@ const ORACOES: OracaoDoDevocionario[] = [
     fonte: "propria",
     origem: "Texto da equipe do app",
     pt: [
-      "São Longuinho, soldado que abristes com a lança o lado de Jesus na cruz e que, segundo a tradição, vos convertestes e destes a vida pela fé, rogai por nós.",
+      "São Longuinho, que a tradição identifica com o soldado que abriu com a lança o lado de Jesus na cruz (Jo 19,34) e que, convertido, deu a vida pela fé, rogai por nós.",
       "Ensinai-nos a reconhecer em Jesus crucificado o Filho de Deus e a buscar refúgio no seu Coração aberto. O povo recorre a vós quando perde alguma coisa: ajudai-nos a encontrar o que perdemos, se for da vontade de Deus, e sobretudo a nunca perder a fé, a esperança e a graça de Deus.",
       "Alcançai-me do Senhor a graça que neste momento vos peço. Amém.",
     ],
@@ -404,7 +404,7 @@ const ORACOES: OracaoDoDevocionario[] = [
     fonte: "propria",
     origem: "Texto da equipe do app",
     pt: [
-      "São Roque, peregrino de Montpellier, que cuidastes dos doentes da peste pelos caminhos da Itália, rogai por nós.",
+      "São Roque, peregrino de Montpellier, que, segundo a tradição, cuidastes dos doentes da peste pelos caminhos da Itália, rogai por nós.",
       "Protegei-nos das epidemias e das doenças contagiosas, e assisti os enfermos, os médicos e os que cuidam deles. Intercedei pelos peregrinos e por todos os que estão longe de casa. Ensinai-nos a não fugir de quem sofre, mas a servi-lo com caridade.",
       "Alcançai-me de Deus a graça que neste momento vos peço. Amém.",
     ],
@@ -608,7 +608,7 @@ const ORACOES: OracaoDoDevocionario[] = [
     fonte: "propria",
     origem: "Texto da equipe do app",
     pt: [
-      "Santa Úrsula e santas companheiras, virgens e mártires de Colônia, que nos primeiros séculos da Igreja destes a vida por Cristo, rogai por nós.",
+      "Santa Úrsula e santas companheiras, virgens e mártires de Colônia, que, segundo a tradição, destes a vida por Cristo nos primeiros séculos da Igreja, rogai por nós.",
       "Alcançai-nos a pureza de coração, a fidelidade a Jesus e a coragem de não renegar a fé. Intercedei pelas jovens, pelas educadoras e pelas que se consagram a Deus, para que vivam com alegria a sua entrega.",
       "Apresentai ao Senhor a graça que neste momento vos peço. Amém.",
     ],
@@ -740,7 +740,7 @@ const ORACOES: OracaoDoDevocionario[] = [
     fonte: "propria",
     origem: "Texto da equipe do app",
     pt: [
-      "Santa Rosália, eremita de Palermo, cujas relíquias foram levadas em procissão pela cidade durante a peste de 1624, rogai por nós.",
+      "Santa Rosália, eremita de Palermo, cujas relíquias foram levadas em procissão pela cidade durante a peste que atingiu a cidade em 1624, rogai por nós.",
       "Protegei-nos das epidemias e das calamidades, e assisti os doentes e os que cuidam deles. Alcançai-nos o amor ao silêncio e à oração, e a confiança de que Deus não abandona o seu povo nas horas de aflição. Intercedei por Palermo e por todas as cidades provadas pelo sofrimento.",
       "Pedi a Deus por mim a graça que neste momento vos peço. Amém.",
     ],
@@ -800,7 +800,7 @@ const ORACOES: OracaoDoDevocionario[] = [
     fonte: "propria",
     origem: "Texto da equipe do app",
     pt: [
-      "Santa Margarida de Antioquia, virgem e mártir dos primeiros séculos, muito venerada pelos cristãos de tempos antigos, rogai por nós.",
+      "Santa Margarida de Antioquia, que a tradição venera como virgem e mártir dos primeiros séculos, rogai por nós.",
       "Por costume antigo, as gestantes recorrem a vós: protegei as mães que esperam um filho, alcançai-lhes um bom parto e guardai a criança que vai nascer. Alcançai-nos a pureza de coração e a coragem de permanecer fiéis a Cristo diante de qualquer ameaça.",
       "Alcançai-me de Deus a graça que neste momento vos peço. Amém.",
     ],
@@ -848,7 +848,7 @@ const ORACOES: OracaoDoDevocionario[] = [
     fonte: "propria",
     origem: "Texto da equipe do app",
     pt: [
-      "Santa Maria Egipcíaca, que, depois de uma vida de pecado em Alexandria, vos convertestes diante de um ícone de Nossa Senhora e vivestes muitos anos de penitência no deserto, rogai por nós.",
+      "Santa Maria Egipcíaca, que, segundo a tradição, depois de uma vida de pecado em Alexandria vos convertestes diante de um ícone de Nossa Senhora e vivestes muitos anos de penitência no deserto, rogai por nós.",
       "Intercedei pelos que estão presos ao pecado e não encontram forças para mudar. Alcançai-nos a dor sincera das nossas culpas, a confiança na misericórdia de Deus e a perseverança na vida nova. Que Maria, refúgio dos pecadores, nos conduza a Jesus.",
       "Pedi a Deus por mim a graça que neste momento vos peço. Amém.",
     ],
@@ -860,7 +860,7 @@ const ORACOES: OracaoDoDevocionario[] = [
     fonte: "propria",
     origem: "Texto da equipe do app",
     pt: [
-      "São Francisco de Borja, duque da Espanha que, depois de viúvo, entrastes na Companhia de Jesus e fostes o seu terceiro superior geral, rogai por nós.",
+      "São Francisco de Borja, duque de Gandia, na Espanha, que, depois de viúvo, entrastes na Companhia de Jesus e fostes o seu terceiro superior geral, rogai por nós.",
       "Ensinai-nos que as honras e os bens deste mundo passam e que só Deus permanece. Alcançai-nos o desapego, a humildade e o desejo de servir a Deus acima de tudo. Intercedei pelos que perderam a esposa ou o esposo e pelos que ocupam cargos de responsabilidade.",
       "Alcançai-me do Senhor a graça que neste momento vos peço. Amém.",
     ],
@@ -872,7 +872,7 @@ const ORACOES: OracaoDoDevocionario[] = [
     fonte: "propria",
     origem: "Texto da equipe do app",
     pt: [
-      "Santa Quitéria, virgem e mártir dos primeiros séculos, venerada na França, na Espanha e em Portugal, rogai por nós.",
+      "Santa Quitéria, que a tradição venera como virgem e mártir dos primeiros séculos, honrada na França, na Espanha e em Portugal, rogai por nós.",
       "Alcançai-nos a pureza de coração, a fidelidade a Cristo e a força para resistir ao que nos afasta de Deus. Intercedei pelas jovens, pelas famílias e por todos os que vos têm devoção, para que vivam a fé com firmeza e alegria. Que o vosso exemplo nos lembre que vale a pena dar tudo pelo Senhor.",
       "Pedi a Deus por mim a graça que neste momento vos peço. Amém.",
     ],
