@@ -11,7 +11,7 @@ Silva (desde 2026). Cúria: Rua Barão do Rio Branco, 412, Centro, Aparecida,
   19 paróquias e 1 santuário arquidiocesano (Frei Galvão), em 5 municípios:
   Aparecida (3 paróquias), Guaratinguetá (13), Lagoinha, Potim e Roseira
   (1 cada).
-- ⚠️ A encomenda citava Cunha e um porte de ~35 paróquias: os dois dados não
+- ATENÇÃO: a encomenda citava Cunha e um porte de ~35 paróquias: os dois dados não
   batem com as fontes. A lista oficial da arquidiocese, a Wikipédia e o
   anuário dão **19 paróquias em 5 municípios, sem Cunha** (Cunha fica com a
   Diocese de Lorena).
@@ -25,8 +25,8 @@ Silva (desde 2026). Cúria: Rua Barão do Rio Branco, 412, Centro, Aparecida,
   outra fonte oficial. A regra do dono manda entrar mesmo assim, com
   `horarios: []` e o porquê na observação.
 - Capelas e comunidades: o site da arquidiocese lista as comunidades de cada
-  paróquia (nome + bairro, algumas com missa); entraram todas, 90 igrejas no
-  total contando as matrizes.
+  paróquia (nome + bairro, algumas com missa); entraram todas, 128 igrejas
+  no total contando as matrizes.
 - Todo `id_banco` é null: o banco ainda não tem nada de São Paulo.
 
 ## Páginas do site da arquidiocese (lidas em 13/11/2026)
