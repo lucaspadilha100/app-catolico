@@ -1,0 +1,7738 @@
+[
+ {
+  "id_banco": null,
+  "nome": "Catedral Nossa Senhora do Amparo",
+  "categoria": "catedral",
+  "cidade": "Amparo",
+  "padroeiro": "Nossa Senhora do Amparo",
+  "contatos": {
+   "telefone": "1938075748",
+   "whatsapp": "19996240890",
+   "instagram": "catedral_nsra_amparo",
+   "site": "",
+   "email": "catedralamparo@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Catedral Nossa Senhora do Amparo",
+    "tipo": "matriz",
+    "cidade": "Amparo",
+    "localidade": "Centro",
+    "endereco": "Praça Monsenhor João Batista Lisboa, 175",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Igreja Nossa Senhora do Rosário",
+    "tipo": "capela",
+    "cidade": "Amparo",
+    "localidade": "Centro",
+    "endereco": "Largo do Rosário",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Fátima",
+    "tipo": "comunidade",
+    "cidade": "Amparo",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeamparo.org.br/wp-content/uploads/2026/04/Anuario_2026v2.pdf",
+    "data": "2026-04",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeamparo.org.br/paroquia/paroquia-catedral-nossa-senhora-do-amparo/",
+    "data": "2025-08-08",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Anuário 2026 e página da paróquia trazem os mesmos horários."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida de Arcadas",
+  "categoria": "paroquia",
+  "cidade": "Amparo",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "1939071056",
+   "whatsapp": "1939071056",
+   "instagram": "pascom_nsaparecida",
+   "site": "",
+   "email": "nsraaparecidaamparo@yahoo.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Amparo",
+    "localidade": "Distrito de Arcadas",
+    "endereco": "Rua José Jacobsen, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": "Com novena do Perpétuo Socorro"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": "Hora da Graça, até 17h30, com bênção"
+     }
+    ],
+    "nao_cabe": "Comunidade São João Batista (lugar não informado): 2º sábado, 16h30, missa em rodízio com a Comunidade Santa Cruz."
+   },
+   {
+    "id_banco": null,
+    "nome": "Igreja Centenária da Imaculada Conceição",
+    "tipo": "comunidade",
+    "cidade": "Amparo",
+    "localidade": "Distrito de Arcadas",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Antiga matriz; visita com agendamento na secretaria."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Amparo",
+    "localidade": "Distrito de Arcadas",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santana",
+    "tipo": "comunidade",
+    "cidade": "Amparo",
+    "localidade": "Distrito de Arcadas",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Missa todo dia 26 do mês, às 19h."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Fátima",
+    "tipo": "comunidade",
+    "cidade": "Amparo",
+    "localidade": "Bairro da Varginha",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Cruz",
+    "tipo": "comunidade",
+    "cidade": "Amparo",
+    "localidade": "Bairro Palhares",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "2º sábado, 16h30: missa em rodízio com a Comunidade São João Batista."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Miguel",
+    "tipo": "comunidade",
+    "cidade": "Amparo",
+    "localidade": "Bairro Duas Pontes",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:30",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeamparo.org.br/wp-content/uploads/2026/04/Anuario_2026v2.pdf",
+    "data": "2026-04",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeamparo.org.br/paroquia/paroquia-nossa-senhora-aparecida-de-arcadas/",
+    "data": "2026-03-18",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "A página da paróquia (março de 2026) põe a missa com novena de quarta às 19h e não traz a missa de domingo na Igreja Centenária; seguimos o anuário."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Benedito",
+  "categoria": "paroquia",
+  "cidade": "Amparo",
+  "padroeiro": "São Benedito",
+  "contatos": {
+   "telefone": "1938074320",
+   "whatsapp": "19994823934",
+   "instagram": "pascomsbenedito",
+   "site": "",
+   "email": "pfsaobenedito@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Benedito",
+    "tipo": "matriz",
+    "cidade": "Amparo",
+    "localidade": "Centro",
+    "endereco": "Largo São Benedito, 117",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Até 10h30"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 6,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Até 10h45"
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sant'Ana",
+    "tipo": "comunidade",
+    "cidade": "Amparo",
+    "localidade": "Jardim Sant'Ana",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Missa todo dia 19 do mês, às 8h30."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco das Chagas",
+    "tipo": "comunidade",
+    "cidade": "Amparo",
+    "localidade": "Jardim Brasil",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Frei Galvão",
+    "tipo": "comunidade",
+    "cidade": "Amparo",
+    "localidade": "Planalto da Serra",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Roque",
+    "tipo": "comunidade",
+    "cidade": "Amparo",
+    "localidade": "Distrito de Três Pontes",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": [
+       1,
+       4,
+       5
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Terezinha",
+    "tipo": "comunidade",
+    "cidade": "Amparo",
+    "localidade": "Três Pontes, Chácara das Águas",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:30",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Cruz",
+    "tipo": "comunidade",
+    "cidade": "Amparo",
+    "localidade": "Bairro Pereiras",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Cruz",
+    "tipo": "comunidade",
+    "cidade": "Amparo",
+    "localidade": "Bairro Sertãozinho",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Amparo",
+    "localidade": "Bairro Boa Vereda",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Sebastião",
+    "tipo": "comunidade",
+    "cidade": "Amparo",
+    "localidade": "Bairro da Barra",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora do Amparo",
+    "tipo": "capela",
+    "cidade": "Amparo",
+    "localidade": "Irmãs Dominicanas de Santa Catarina de Sena",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora da Providência",
+    "tipo": "capela",
+    "cidade": "Amparo",
+    "localidade": "Irmãs Franciscanas do Coração de Maria",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Francisco de Assis",
+    "tipo": "capela",
+    "cidade": "Amparo",
+    "localidade": "Irmãs Franciscanas Missionárias do Coração Imaculado de Maria",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeamparo.org.br/wp-content/uploads/2026/04/Anuario_2026v2.pdf",
+    "data": "2026-04",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeamparo.org.br/paroquia/paroquia-sao-benedito-amparo/",
+    "data": "2025-09-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "A página da paróquia (2025) tem escala das comunidades um pouco diferente e cita a Comunidade Santo Antônio de Sant'Ana Galvão; seguimos o anuário 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "Amparo",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "1938073065",
+   "whatsapp": "",
+   "instagram": "psjbamparo",
+   "site": "",
+   "email": "paroquiasjbamparo@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Batista",
+    "tipo": "matriz",
+    "cidade": "Amparo",
+    "localidade": "Jardim Camandocaia",
+    "endereco": "Avenida Europa, 220",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Judas Tadeu",
+    "tipo": "comunidade",
+    "cidade": "Amparo",
+    "localidade": "Bairro Santo Antônio",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Rosa Mística",
+    "tipo": "comunidade",
+    "cidade": "Amparo",
+    "localidade": "Bairro Nova Era",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Rita",
+    "tipo": "comunidade",
+    "cidade": "Amparo",
+    "localidade": "Jardim Silmara",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "1ª terça-feira dos meses ímpares, 19h30."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Menino Jesus de Praga",
+    "tipo": "capela",
+    "cidade": "Amparo",
+    "localidade": "Jardim Santo Antônio",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora do Carmo",
+    "tipo": "capela",
+    "cidade": "Amparo",
+    "localidade": "Cemitério do Silvestre",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "07:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Jesus Cristo Crucificado",
+    "tipo": "capela",
+    "cidade": "Amparo",
+    "localidade": "Hospital Ana Cintra",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Júlia",
+    "tipo": "capela",
+    "cidade": "Amparo",
+    "localidade": "Bairro Silvestre",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "1ª terça-feira dos meses pares, 19h30."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Sebastião",
+    "tipo": "comunidade",
+    "cidade": "Amparo",
+    "localidade": "Bairro Pantaleão",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "A página traz missa às quintas-feiras, 19h30, e também na 3ª quinta-feira do mês, 19h30."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Amparo",
+    "localidade": "Bairro Pantaleão",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "A página traz missa às sextas-feiras, 19h30, e também na 4ª sexta-feira do mês, 19h30."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Imaculada Conceição",
+    "tipo": "comunidade",
+    "cidade": "Amparo",
+    "localidade": "Bairro do Brumado",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santo Antônio da Dobrada",
+    "tipo": "capela",
+    "cidade": "Amparo",
+    "localidade": "Bairro da Dobrada",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Cruz",
+    "tipo": "capela",
+    "cidade": "Amparo",
+    "localidade": "Bairro da Dobrada",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeamparo.org.br/paroquia/paroquia-sao-joao-batista/",
+    "data": "2026-05-20",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeamparo.org.br/wp-content/uploads/2026/04/Anuario_2026v2.pdf",
+    "data": "2026-04",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Horários da página da paróquia (maio de 2026), mais nova que o anuário; os de fim de semana batem com o anuário."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José Operário",
+  "categoria": "paroquia",
+  "cidade": "Amparo",
+  "padroeiro": "São José Operário",
+  "contatos": {
+   "telefone": "1938081536",
+   "whatsapp": "19971397275",
+   "instagram": "sjoamparo",
+   "site": "",
+   "email": "paroquiasjamparo@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José Operário",
+    "tipo": "matriz",
+    "cidade": "Amparo",
+    "localidade": "Jardim São Dimas",
+    "endereco": "Rua Alcides Postali, 256",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": "Com novena perpétua do Perpétuo Socorro"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Até 11h30"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "14:00",
+      "semanas": null,
+      "observacao": "Até 16h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 6,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Até 11h30"
+     }
+    ],
+    "nao_cabe": "Na 1ª quarta-feira do mês, a missa das 19h30 é com novena a São José Operário. Comunidade rural Santo Antônio, sem lugar informado."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Senhor Bom Jesus",
+    "tipo": "comunidade",
+    "cidade": "Amparo",
+    "localidade": "Bairro Vale Verde",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": [
+       1,
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrado Coração de Jesus",
+    "tipo": "comunidade",
+    "cidade": "Amparo",
+    "localidade": "Residencial Santa Maria do Amparo",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1,
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora das Graças",
+    "tipo": "comunidade",
+    "cidade": "Amparo",
+    "localidade": "Jardim Silvestre I",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Última sexta-feira do mês, 19h30, em casa de família."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora do Amparo",
+    "tipo": "capela",
+    "cidade": "Amparo",
+    "localidade": "Educandário",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeamparo.org.br/wp-content/uploads/2026/04/Anuario_2026v2.pdf",
+    "data": "2026-04",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeamparo.org.br/paroquia/paroquia-sao-jose-operario/",
+    "data": "2025-08-08",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "O anuário escreve o Instagram como @sjo.amparo; a página da paróquia liga para sjoamparo."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "Amparo",
+  "padroeiro": "São Sebastião",
+  "contatos": {
+   "telefone": "1938072648",
+   "whatsapp": "19997340034",
+   "instagram": "pssamparo",
+   "site": "",
+   "email": "secretariasaosebastiaoamparo@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Sebastião",
+    "tipo": "matriz",
+    "cidade": "Amparo",
+    "localidade": "Bairro Ribeirão",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Centenária de São Sebastião",
+    "tipo": "comunidade",
+    "cidade": "Amparo",
+    "localidade": "Bairro Ribeirão",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": [
+       2,
+       3,
+       4,
+       5
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Na 1ª sexta-feira, missa em seguida à adoração das 19h."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Miguel Arcanjo",
+    "tipo": "capela",
+    "cidade": "Amparo",
+    "localidade": "Jardim Figueira",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Francisco",
+    "tipo": "capela",
+    "cidade": "Amparo",
+    "localidade": "Jardim das Aves",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       2,
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Vicente de Paulo",
+    "tipo": "capela",
+    "cidade": "Amparo",
+    "localidade": "Bairro Flamboyant",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora das Dores",
+    "tipo": "capela",
+    "cidade": "Amparo",
+    "localidade": "Lar dos Velhos, Jardim América",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santo Antônio de Lisboa",
+    "tipo": "capela",
+    "cidade": "Amparo",
+    "localidade": "Hospital Beneficência Portuguesa",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Lázaro",
+    "tipo": "capela",
+    "cidade": "Amparo",
+    "localidade": "Bairro Ribeirão",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Amparo",
+    "localidade": "Bairro dos Pedrosos",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Rosa de Lima",
+    "tipo": "capela",
+    "cidade": "Amparo",
+    "localidade": "Bairro dos Rosas",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santo Antônio de Pádua",
+    "tipo": "capela",
+    "cidade": "Amparo",
+    "localidade": "Bairro Areia Branca",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Amparo",
+    "localidade": "Bairro Córrego Vermelho",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Imaculada Conceição Aparecida",
+    "tipo": "capela",
+    "cidade": "Amparo",
+    "localidade": "Bairro Montini",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Benedito",
+    "tipo": "capela",
+    "cidade": "Amparo",
+    "localidade": "Sertão da Varginha",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": [
+       5
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Sebastião e Nossa Senhora de Lourdes",
+    "tipo": "capela",
+    "cidade": "Amparo",
+    "localidade": "Bairro dos Rosas",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeamparo.org.br/wp-content/uploads/2026/04/Anuario_2026v2.pdf",
+    "data": "2026-04",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeamparo.org.br/paroquia/paroquia-sao-sebastiao/",
+    "data": "2025-08-21",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "A fonte só dá o endereço da secretaria (Rua Cacilda Becker, 137, Jardim São Lourenço). A página da paróquia (2025) põe missa de segunda a sexta na Centenária; o anuário, só segunda e sexta."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora das Graças",
+  "categoria": "paroquia",
+  "cidade": "Águas de Lindóia",
+  "padroeiro": "Nossa Senhora das Graças",
+  "contatos": {
+   "telefone": "1938241156",
+   "whatsapp": "",
+   "instagram": "paroquiaal",
+   "site": "",
+   "email": "paroquiaal@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora das Graças",
+    "tipo": "matriz",
+    "cidade": "Águas de Lindóia",
+    "localidade": "Centro",
+    "endereco": "Rua Rio de Janeiro, 70",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Matriz velha. 1ª quarta-feira do mês: missa no Bairro Assunção, sem hora informada."
+   },
+   {
+    "id_banco": null,
+    "nome": "Igreja Cristo Rei",
+    "tipo": "comunidade",
+    "cidade": "Águas de Lindóia",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Matriz nova."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Águas de Lindóia",
+    "localidade": "Bairro do Barreiro",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Águas de Lindóia",
+    "localidade": "Ponte Nova",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora da Saúde",
+    "tipo": "capela",
+    "cidade": "Águas de Lindóia",
+    "localidade": "Hospital São Camilo de Lélis",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Helena",
+    "tipo": "capela",
+    "cidade": "Águas de Lindóia",
+    "localidade": "Cavalinho Branco",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Imaculada Conceição",
+    "tipo": "capela",
+    "cidade": "Águas de Lindóia",
+    "localidade": "Bairro dos Moreiras",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Missa na 2ª quarta-feira do mês, sem hora informada."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeamparo.org.br/wp-content/uploads/2026/04/Anuario_2026v2.pdf",
+    "data": "2026-04",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeamparo.org.br/paroquia/paroquia-nossa-senhora-das-gracas/",
+    "data": "2025-07-30",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Endereço da paróquia; a fonte não diz se é o da matriz velha ou da nova. A página da paróquia (2025) tem outra escala de dia de semana; seguimos o anuário 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Conceição Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Águas de Lindóia",
+  "padroeiro": "Nossa Senhora da Conceição Aparecida",
+  "contatos": {
+   "telefone": "1938243969",
+   "whatsapp": "",
+   "instagram": "paroquiansraapaguas",
+   "site": "",
+   "email": "conceicaoaparecida.paroquia@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Conceição Aparecida",
+    "tipo": "matriz",
+    "cidade": "Águas de Lindóia",
+    "localidade": "Bairro Bela Vista",
+    "endereco": "Rua Guaratinguetá, 65",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Senhor Bom Jesus",
+    "tipo": "comunidade",
+    "cidade": "Águas de Lindóia",
+    "localidade": "Bairro Popular",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora dos Desamparados",
+    "tipo": "comunidade",
+    "cidade": "Águas de Lindóia",
+    "localidade": "Bairro dos Francos",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Rita",
+    "tipo": "comunidade",
+    "cidade": "Águas de Lindóia",
+    "localidade": "Jardim Europa",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Com adoração ao Santíssimo"
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Asilo São Camilo de Léllis",
+    "tipo": "capela",
+    "cidade": "Águas de Lindóia",
+    "localidade": "Bairro dos Francos",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "14:30",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela da Creche Pequeno Lar da Sagrada Família",
+    "tipo": "capela",
+    "cidade": "Águas de Lindóia",
+    "localidade": "Bairro Bela Vista",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Batista",
+    "tipo": "comunidade",
+    "cidade": "Águas de Lindóia",
+    "localidade": "Bairro dos Pimentéis",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Capela particular."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Auxiliadora",
+    "tipo": "comunidade",
+    "cidade": "Águas de Lindóia",
+    "localidade": "Bairro dos Tanques",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": [
+       2,
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeamparo.org.br/wp-content/uploads/2026/04/Anuario_2026v2.pdf",
+    "data": "2026-04",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeamparo.org.br/paroquia/paroquia-nossa-senhora-da-conceicao-aparecida/",
+    "data": "2025-12-11",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "A página da paróquia (2025) põe celebração da Palavra, e não missa, na 4ª quarta da Comunidade N. Sra. Auxiliadora e missa todo dia 12 na matriz; seguimos o anuário."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santuário do Senhor Bom Jesus",
+  "categoria": "paroquia",
+  "cidade": "Monte Alegre do Sul",
+  "padroeiro": "Senhor Bom Jesus",
+  "contatos": {
+   "telefone": "1938991230",
+   "whatsapp": "",
+   "instagram": "santuariobj",
+   "site": "",
+   "email": "santuariobomjesus@uol.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário do Senhor Bom Jesus",
+    "tipo": "santuario",
+    "cidade": "Monte Alegre do Sul",
+    "localidade": "Centro",
+    "endereco": "Praça Bom Jesus, 10",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": [
+       1,
+       2,
+       3,
+       4
+      ],
+      "observacao": "Novena perpétua do Senhor Bom Jesus"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa do Sagrado Coração de Jesus"
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Exaltação da Santa Cruz",
+    "tipo": "comunidade",
+    "cidade": "Monte Alegre do Sul",
+    "localidade": "Distrito de Mostarda",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "20:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Judas Tadeu",
+    "tipo": "comunidade",
+    "cidade": "Monte Alegre do Sul",
+    "localidade": "Bairro Ponte Preta",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "20:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Menino Jesus",
+    "tipo": "comunidade",
+    "cidade": "Monte Alegre do Sul",
+    "localidade": "Jardim Menino Jesus",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "20:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Imaculada Conceição",
+    "tipo": "comunidade",
+    "cidade": "Monte Alegre do Sul",
+    "localidade": "Bairro Alves",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "20:00",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Rosário",
+    "tipo": "comunidade",
+    "cidade": "Monte Alegre do Sul",
+    "localidade": "Bairro Braizinho",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Cruz",
+    "tipo": "comunidade",
+    "cidade": "Monte Alegre do Sul",
+    "localidade": "Bairro Falcão",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "20:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Luzia",
+    "tipo": "comunidade",
+    "cidade": "Monte Alegre do Sul",
+    "localidade": "Bairro Godoys e Paiol de Telha",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Monte Alegre do Sul",
+    "localidade": "Bairro dos Limas",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "20:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Batista",
+    "tipo": "comunidade",
+    "cidade": "Monte Alegre do Sul",
+    "localidade": "Bairro Ribeirão dos Limas",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Miguel",
+    "tipo": "comunidade",
+    "cidade": "Monte Alegre do Sul",
+    "localidade": "Bairro Lambedor",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "20:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Cruz",
+    "tipo": "capela",
+    "cidade": "Monte Alegre do Sul",
+    "localidade": "Várzea, Centro",
+    "endereco": "Praça David Gonçalves",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Paulo Apóstolo",
+    "tipo": "capela",
+    "cidade": "Monte Alegre do Sul",
+    "localidade": "Bairro Vargem Grande",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Roque",
+    "tipo": "capela",
+    "cidade": "Monte Alegre do Sul",
+    "localidade": "Bairro Lavras",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Monte Alegre do Sul",
+    "localidade": "Bairro Mato Dentro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora do Rosário",
+    "tipo": "capela",
+    "cidade": "Monte Alegre do Sul",
+    "localidade": "Bairro Paiol de Telha",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeamparo.org.br/paroquia/paroquia-santuario-do-senhor-bom-jesus/",
+    "data": "2026-04-15",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeamparo.org.br/wp-content/uploads/2026/04/Anuario_2026v2.pdf",
+    "data": "2026-04",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Santuário diocesano desde 2013. Horários da página da paróquia (abril de 2026); o anuário põe a missa de domingo às 8h30, a novena às quintas 19h30 e o endereço no nº 45."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora das Brotas",
+  "categoria": "paroquia",
+  "cidade": "Lindóia",
+  "padroeiro": "Nossa Senhora das Brotas",
+  "contatos": {
+   "telefone": "1938981209",
+   "whatsapp": "19996033689",
+   "instagram": "paroquiansblindoia",
+   "site": "",
+   "email": "paroquiansblindoia@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora das Brotas",
+    "tipo": "matriz",
+    "cidade": "Lindóia",
+    "localidade": "Centro",
+    "endereco": "Praça Humberto Amaral, 20",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa do Sagrado Coração de Jesus"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "08:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa do Imaculado Coração de Maria"
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Benedito e Santa Efigênia",
+    "tipo": "comunidade",
+    "cidade": "Lindóia",
+    "localidade": "Jardim Itamarati",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Judas Tadeu",
+    "tipo": "comunidade",
+    "cidade": "Lindóia",
+    "localidade": "Bairro São Judas Tadeu",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Pedro",
+    "tipo": "comunidade",
+    "cidade": "Lindóia",
+    "localidade": "Bairro Índio de Ouro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Última sexta-feira do mês, 20h."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Lindóia",
+    "localidade": "Jardim da Laje",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "20:00",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Bom Jesus",
+    "tipo": "comunidade",
+    "cidade": "Serra Negra",
+    "localidade": "Bairro do Salto",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Lindóia",
+    "localidade": "Bairro Tijuco Preto",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Lindóia",
+    "localidade": "Bairro dos Rodrigues",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora de Lourdes",
+    "tipo": "capela",
+    "cidade": "Lindóia",
+    "localidade": "Bairro dos Costas",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Capela particular."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Cruz",
+    "tipo": "capela",
+    "cidade": "Lindóia",
+    "localidade": "Bairro Barrocão",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:00",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeamparo.org.br/wp-content/uploads/2026/04/Anuario_2026v2.pdf",
+    "data": "2026-04",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeamparo.org.br/paroquia/paroquia-nossa-senhora-das-brotas/",
+    "data": "2025-12-11",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "A Comunidade Bom Jesus fica no Bairro do Salto, em Serra Negra, mas pertence a esta paróquia segundo o anuário."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Francisco de Assis",
+  "categoria": "paroquia",
+  "cidade": "Serra Negra",
+  "padroeiro": "São Francisco de Assis",
+  "contatos": {
+   "telefone": "1938922617",
+   "whatsapp": "19999766893",
+   "instagram": "paroquia.saofrancisco",
+   "site": "",
+   "email": "parsfa@bol.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Francisco de Assis",
+    "tipo": "matriz",
+    "cidade": "Serra Negra",
+    "localidade": "Bairro das Palmeiras",
+    "endereco": "Praça Padre Ângelo Marighetto, 1",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": "Exposição até 18h40, com bênção"
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Serra Negra",
+    "localidade": "CECAP",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Edwiges",
+    "tipo": "comunidade",
+    "cidade": "Serra Negra",
+    "localidade": "Bairro Alto das Palmeiras",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Paulina",
+    "tipo": "comunidade",
+    "cidade": "Serra Negra",
+    "localidade": "Bairro Colina dos Ypês",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Benedito",
+    "tipo": "comunidade",
+    "cidade": "Serra Negra",
+    "localidade": "Bairro Estância Suíça",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa do Sagrado Coração de Jesus"
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Maximiliano Kolbe",
+    "tipo": "comunidade",
+    "cidade": "Serra Negra",
+    "localidade": "Vila Dirce",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Batista",
+    "tipo": "comunidade",
+    "cidade": "Serra Negra",
+    "localidade": "Bairro Nova Serra Negra",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Pedro",
+    "tipo": "comunidade",
+    "cidade": "Serra Negra",
+    "localidade": "Residencial das Posses",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrada Família",
+    "tipo": "comunidade",
+    "cidade": "Serra Negra",
+    "localidade": "Bairro dos Leais",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "2ª quarta-feira do mês, 19h30, alternando com a Comunidade Santo Antônio."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Serra Negra",
+    "localidade": "Bairro dos Leais",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "2ª quarta-feira do mês, 19h30, alternando com a Comunidade Sagrada Família."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Serra Negra",
+    "localidade": "Bairro Tabaranas",
+    "endereco": "Estrada Velha Serra Negra a Lindóia, km 7",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Luiz Gonzaga",
+    "tipo": "comunidade",
+    "cidade": "Serra Negra",
+    "localidade": "Bairro dos Leais",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Roque",
+    "tipo": "comunidade",
+    "cidade": "Serra Negra",
+    "localidade": "Bairro das Tabaranas de Cima",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Rosa de Lima",
+    "tipo": "capela",
+    "cidade": "Serra Negra",
+    "localidade": "Hospital",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Luiz Gonzaga e São Geraldo Magela",
+    "tipo": "capela",
+    "cidade": "Serra Negra",
+    "localidade": "Vale do Sol",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeamparo.org.br/wp-content/uploads/2026/04/Anuario_2026v2.pdf",
+    "data": "2026-04",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeamparo.org.br/paroquia/paroquia-sao-francisco-de-assis/",
+    "data": "2026-02-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "A página da paróquia (fevereiro de 2026) dá outro endereço (Avenida Juca Preto, 701, Jardim Vânia) e missa na São João Batista só no 1º e 3º domingo; seguimos o anuário."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Rosário",
+  "categoria": "paroquia",
+  "cidade": "Serra Negra",
+  "padroeiro": "Nossa Senhora do Rosário",
+  "contatos": {
+   "telefone": "1938927242",
+   "whatsapp": "1938927242",
+   "instagram": "paroquiadorosariosn",
+   "site": "",
+   "email": "rosarioserranegra@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Rosário",
+    "tipo": "matriz",
+    "cidade": "Serra Negra",
+    "localidade": "Centro",
+    "endereco": "Praça Lourenço Franco de Oliveira, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Missa todo dia 13, às 7h30."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Lucas",
+    "tipo": "comunidade",
+    "cidade": "Serra Negra",
+    "localidade": "Vila Áurea",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Sebastião",
+    "tipo": "comunidade",
+    "cidade": "Serra Negra",
+    "localidade": "Bairro dos Francos",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": [
+       1,
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Lourdes",
+    "tipo": "comunidade",
+    "cidade": "Serra Negra",
+    "localidade": "Bairro das Posses",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Fátima",
+    "tipo": "comunidade",
+    "cidade": "Serra Negra",
+    "localidade": "Bairro Refúgio da Serra",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Serra Negra",
+    "localidade": "Bairro Serra de Baixo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Rosário de Pompéia",
+    "tipo": "comunidade",
+    "cidade": "Serra Negra",
+    "localidade": "Bairro do Barrocão",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Carmo",
+    "tipo": "comunidade",
+    "cidade": "Serra Negra",
+    "localidade": "Bairro Serra do Meio",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Cruz",
+    "tipo": "comunidade",
+    "cidade": "Serra Negra",
+    "localidade": "Bairro Ramalhada",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Luzia",
+    "tipo": "comunidade",
+    "cidade": "Serra Negra",
+    "localidade": "Bairro dos Cunhas",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Teresinha",
+    "tipo": "comunidade",
+    "cidade": "Serra Negra",
+    "localidade": "Bairro Serra de Cima",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Roque",
+    "tipo": "comunidade",
+    "cidade": "Serra Negra",
+    "localidade": "Bairro Três Barras",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Serra Negra",
+    "localidade": "Bairro das Posses",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Paulo II",
+    "tipo": "comunidade",
+    "cidade": "Serra Negra",
+    "localidade": "Bairro do Barrocão",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Serra Negra",
+    "localidade": "Educandário, Centro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeamparo.org.br/wp-content/uploads/2026/04/Anuario_2026v2.pdf",
+    "data": "2026-04",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeamparo.org.br/paroquia/paroquia-nossa-senhora-do-rosario/",
+    "data": "2025-07-30",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "A página da paróquia (2025) põe a missa de sábado às 19h e acrescenta quinta 7h30; seguimos o anuário 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Imaculada Conceição Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Mogi Mirim",
+  "padroeiro": "Imaculada Conceição Aparecida",
+  "contatos": {
+   "telefone": "1938063461",
+   "whatsapp": "",
+   "instagram": "matriz_imaculada",
+   "site": "",
+   "email": "contato.matrizimaculada@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz da Imaculada Conceição Aparecida",
+    "tipo": "matriz",
+    "cidade": "Mogi Mirim",
+    "localidade": "Vila Dias",
+    "endereco": "Rua Professor Aristides Gurjão, 69",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Divino Espírito Santo",
+    "tipo": "comunidade",
+    "cidade": "Mogi Mirim",
+    "localidade": "Conjunto Habitacional Linda Chaib",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Expedito",
+    "tipo": "comunidade",
+    "cidade": "Mogi Mirim",
+    "localidade": "Parque Laranjal",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Pedro",
+    "tipo": "comunidade",
+    "cidade": "Mogi Mirim",
+    "localidade": "Horto de Vergel",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeamparo.org.br/wp-content/uploads/2026/04/Anuario_2026v2.pdf",
+    "data": "2026-04",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeamparo.org.br/paroquia/paroquia-imaculada-conceicao-aparecida/",
+    "data": "2024-08-23",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Cruz",
+  "categoria": "paroquia",
+  "cidade": "Mogi Mirim",
+  "padroeiro": "Santa Cruz",
+  "contatos": {
+   "telefone": "1938622129",
+   "whatsapp": "",
+   "instagram": "paroquiasantacruzmogimirim",
+   "site": "",
+   "email": "matrizsantacruz@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Cruz",
+    "tipo": "matriz",
+    "cidade": "Mogi Mirim",
+    "localidade": "Bairro Santa Cruz",
+    "endereco": "Praça Tiradentes, 281",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": "Com novena do Perpétuo Socorro"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa dos enfermos"
+     }
+    ],
+    "nao_cabe": "Todo dia 13, 19h: missa e bênção dos pães."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Saúde",
+    "tipo": "comunidade",
+    "cidade": "Mogi Mirim",
+    "localidade": "Bairro Saúde",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrado Coração de Jesus",
+    "tipo": "comunidade",
+    "cidade": "Mogi Mirim",
+    "localidade": "Parque da Imprensa",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Senhor Bom Jesus",
+    "tipo": "comunidade",
+    "cidade": "Mogi Mirim",
+    "localidade": "Bairro Gabrielzinho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora das Graças",
+    "tipo": "comunidade",
+    "cidade": "Mogi Mirim",
+    "localidade": "Sítio da Chuva",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Montserrat",
+    "tipo": "comunidade",
+    "cidade": "Mogi Mirim",
+    "localidade": "Bairro Pederneiras",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Cruz",
+    "tipo": "comunidade",
+    "cidade": "Mogi Mirim",
+    "localidade": "Bairro Capão da Tenda",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Cruz",
+    "tipo": "comunidade",
+    "cidade": "Mogi Mirim",
+    "localidade": "Bairro Boa Vista",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Mogi Mirim",
+    "localidade": "Bairro Tanquinho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Mogi Mirim",
+    "localidade": "Bairro Piteiras",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Fátima",
+    "tipo": "comunidade",
+    "cidade": "Mogi Mirim",
+    "localidade": "Bairro Pederneiras",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Sagrada Família",
+    "tipo": "capela",
+    "cidade": "Mogi Mirim",
+    "localidade": "Bocaina de Cima",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Mogi Mirim",
+    "localidade": "Bocaina de Baixo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Mogi Mirim",
+    "localidade": "Bairro dos Borges",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Mogi Mirim",
+    "localidade": "Bairro Malvezzi",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Mogi Mirim",
+    "localidade": "Bairro dos Francos",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Mogi Mirim",
+    "localidade": "Morro Vermelho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Mogi Mirim",
+    "localidade": "Bairro Fundinho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Mogi Mirim",
+    "localidade": "Bairro Ponte Alta de Cima",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Cecília",
+    "tipo": "capela",
+    "cidade": "Mogi Mirim",
+    "localidade": "Bairro São João da Glória",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Sebastião",
+    "tipo": "capela",
+    "cidade": "Mogi Mirim",
+    "localidade": "Bairro Sobradinho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora do Rosário",
+    "tipo": "capela",
+    "cidade": "Mogi Mirim",
+    "localidade": "Bairro Casa de Pedra",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora do Rosário",
+    "tipo": "capela",
+    "cidade": "Mogi Mirim",
+    "localidade": "Bairro Vatinga",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São João Batista",
+    "tipo": "capela",
+    "cidade": "Mogi Mirim",
+    "localidade": "Bairro São João da Glória",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Judas Tadeu",
+    "tipo": "capela",
+    "cidade": "Mogi Mirim",
+    "localidade": "Capão Grosso",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeamparo.org.br/wp-content/uploads/2026/04/Anuario_2026v2.pdf",
+    "data": "2026-04",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeamparo.org.br/paroquia/paroquia-santa-cruz/",
+    "data": "2024-08-23",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "As fontes não publicam horário das comunidades e capelas rurais."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Benedito",
+  "categoria": "paroquia",
+  "cidade": "Mogi Mirim",
+  "padroeiro": "São Benedito",
+  "contatos": {
+   "telefone": "1938621967",
+   "whatsapp": "",
+   "instagram": "saobeneditomogi",
+   "site": "",
+   "email": "psbeneditomm1@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Benedito",
+    "tipo": "matriz",
+    "cidade": "Mogi Mirim",
+    "localidade": "Centro",
+    "endereco": "Rua Maestro Azevedo, 135",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": "Só na página da paróquia"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": "Só na página da paróquia"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa da saúde"
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Mogi Mirim",
+    "localidade": "Jardim Nossa Senhora Aparecida",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": [
+       1,
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora das Dores",
+    "tipo": "comunidade",
+    "cidade": "Mogi Mirim",
+    "localidade": "Aterrado",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": [
+       1,
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Missa todo dia 15, às 19h30."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Monte Serrat",
+    "tipo": "comunidade",
+    "cidade": "Mogi Mirim",
+    "localidade": "Vila Bianchi",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": [
+       2,
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Rita de Cássia",
+    "tipo": "comunidade",
+    "cidade": "Mogi Mirim",
+    "localidade": "Vila Pichatelli",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": [
+       2,
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Missa todo dia 22, às 19h30."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Isabel de Hungria",
+    "tipo": "capela",
+    "cidade": "Mogi Mirim",
+    "localidade": "Santa Casa de Mogi Mirim",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrado Coração de Jesus",
+    "tipo": "comunidade",
+    "cidade": "Mogi Mirim",
+    "localidade": "Chácara das Uvas",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeamparo.org.br/wp-content/uploads/2026/04/Anuario_2026v2.pdf",
+    "data": "2026-04",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeamparo.org.br/paroquia/paroquia-sao-benedito-mogi-mirim/",
+    "data": "2025-09-26",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "O anuário 2026 não traz missa de domingo na matriz; as de 10h e 19h vêm da página da paróquia (setembro de 2025)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Joaquim e Sant'Ana",
+  "categoria": "paroquia",
+  "cidade": "Mogi Mirim",
+  "padroeiro": "São Joaquim e Sant'Ana",
+  "contatos": {
+   "telefone": "1938053192",
+   "whatsapp": "19995317536",
+   "instagram": "saojoaquimesantana.mm",
+   "site": "",
+   "email": "psaojoaquimesantana@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Joaquim e Sant'Ana",
+    "tipo": "matriz",
+    "cidade": "Mogi Mirim",
+    "localidade": "Jardim Primavera II",
+    "endereco": "Rua Francisco Antônio Gonçalves, 369",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco de Assis",
+    "tipo": "comunidade",
+    "cidade": "Mogi Mirim",
+    "localidade": "Jardim Paulista",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Luzia",
+    "tipo": "comunidade",
+    "cidade": "Mogi Mirim",
+    "localidade": "Jardim Santa Luzia",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Todo dia 13 que cai em dia de semana, 18h30."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Judas Tadeu",
+    "tipo": "comunidade",
+    "cidade": "Mogi Mirim",
+    "localidade": "Jardim Santa Luzia",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Clara",
+    "tipo": "comunidade",
+    "cidade": "Mogi Mirim",
+    "localidade": "Jardim Santa Clara",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Providência de Maria",
+    "tipo": "comunidade",
+    "cidade": "Mogi Mirim",
+    "localidade": "Jardim Flamboyant",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrado Coração de Jesus",
+    "tipo": "comunidade",
+    "cidade": "Mogi Mirim",
+    "localidade": "Parque do Estado II",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Marcelo",
+    "tipo": "comunidade",
+    "cidade": "Mogi Mirim",
+    "localidade": "Chácara São Marcelo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "1º domingo dos meses ímpares, 8h; 3ª sexta-feira dos meses pares, 19h30."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora das Graças",
+    "tipo": "comunidade",
+    "cidade": "Mogi Mirim",
+    "localidade": "Bairro Soares",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "1º domingo dos meses pares, 8h; 3ª sexta-feira dos meses ímpares, 19h30."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Miguel Arcanjo",
+    "tipo": "capela",
+    "cidade": "Mogi Mirim",
+    "localidade": "Cemitério Municipal",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeamparo.org.br/wp-content/uploads/2026/04/Anuario_2026v2.pdf",
+    "data": "2026-04",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeamparo.org.br/paroquia/paroquia-sao-joaquim-e-santana/",
+    "data": "2025-03-07",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José",
+  "categoria": "paroquia",
+  "cidade": "Mogi Mirim",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "1938622340",
+   "whatsapp": "",
+   "instagram": "saojosemogimirim",
+   "site": "",
+   "email": "paroquiadesaojosemm@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José",
+    "tipo": "matriz",
+    "cidade": "Mogi Mirim",
+    "localidade": "Centro",
+    "endereco": "Praça São José, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": "Com o Terço das Mães"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": "Com o Terço dos Homens"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Todo dia 19, 19h30: missa em honra de São José. Última sexta-feira, 16h, na Vila Vicentina; última quinta-feira, 16h, no Hospital 22 de Outubro."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Lázaro",
+    "tipo": "comunidade",
+    "cidade": "Mogi Mirim",
+    "localidade": "Bairro Tucura",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Igreja Nossa Senhora do Carmo",
+    "tipo": "capela",
+    "cidade": "Mogi Mirim",
+    "localidade": "Centro",
+    "endereco": "Praça Floriano Peixoto",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Imaculada",
+    "tipo": "capela",
+    "cidade": "Mogi Mirim",
+    "localidade": "Colégio Imaculada",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Penúltima quinta-feira do mês, 18h."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Isabel",
+    "tipo": "capela",
+    "cidade": "Mogi Mirim",
+    "localidade": "Instituto Coronel João Leite",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeamparo.org.br/wp-content/uploads/2026/04/Anuario_2026v2.pdf",
+    "data": "2026-04",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeamparo.org.br/paroquia/paroquia-sao-jose/",
+    "data": "2025-03-07",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Pedro Apóstolo",
+  "categoria": "paroquia",
+  "cidade": "Mogi Mirim",
+  "padroeiro": "São Pedro Apóstolo",
+  "contatos": {
+   "telefone": "1938053512",
+   "whatsapp": "",
+   "instagram": "saopedromogi",
+   "site": "",
+   "email": "saopedroapost@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Pedro Apóstolo",
+    "tipo": "matriz",
+    "cidade": "Mogi Mirim",
+    "localidade": "Jardim Maria Beatriz Bordignon",
+    "endereco": "Rua Felício Antônio Di Próspero, 501",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Última quinta-feira do mês: adoração ao Santíssimo das 7h às 19h."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Menino Jesus de Praga",
+    "tipo": "comunidade",
+    "cidade": "Mogi Mirim",
+    "localidade": "Jardim Planalto",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida e Santa Cruz",
+    "tipo": "comunidade",
+    "cidade": "Mogi Mirim",
+    "localidade": "Distrito de Martim Francisco",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "20:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "20:00",
+      "semanas": null,
+      "observacao": "Com novena do Perpétuo Socorro"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "20:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Batista",
+    "tipo": "comunidade",
+    "cidade": "Mogi Mirim",
+    "localidade": "Chácara Sol Nascente",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Mogi Mirim",
+    "localidade": "Sítio dos Cavenaghi",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeamparo.org.br/wp-content/uploads/2026/04/Anuario_2026v2.pdf",
+    "data": "2026-04",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeamparo.org.br/paroquia/paroquia-sao-pedro-apostolo/",
+    "data": "2024-08-26",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Senhor Bom Jesus do Mirante",
+  "categoria": "paroquia",
+  "cidade": "Mogi Mirim",
+  "padroeiro": "Senhor Bom Jesus",
+  "contatos": {
+   "telefone": "1938622443",
+   "whatsapp": "1938622443",
+   "instagram": "paroquiasr.bomjesus",
+   "site": "",
+   "email": "secretaria@sbjesus.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Senhor Bom Jesus",
+    "tipo": "matriz",
+    "cidade": "Mogi Mirim",
+    "localidade": "Bairro Mirante",
+    "endereco": "Praça Itapira, 25",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Mogi Mirim",
+    "localidade": "Jardim Mirim-Guaçu",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Lourdes",
+    "tipo": "comunidade",
+    "cidade": "Mogi Mirim",
+    "localidade": "Bulgarelli",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora de Fátima",
+    "tipo": "capela",
+    "cidade": "Mogi Mirim",
+    "localidade": "Seminário dos Franciscanos TOR",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio de Sant'Ana Galvão",
+    "tipo": "comunidade",
+    "cidade": "Mogi Mirim",
+    "localidade": "Condomínio Reserva da Mata",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Missa na 2ª terça-feira do mês, sem hora informada."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Paulina",
+    "tipo": "comunidade",
+    "cidade": "Mogi Mirim",
+    "localidade": "Condomínio Morro Vermelho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Missa na 3ª terça-feira do mês, sem hora informada."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeamparo.org.br/wp-content/uploads/2026/04/Anuario_2026v2.pdf",
+    "data": "2026-04",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeamparo.org.br/paroquia/paroquia-senhor-bom-jesus-do-mirante/",
+    "data": "2024-08-26",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "A página da paróquia (2024) tem outros horários de domingo (9h30 e 18h); seguimos o anuário 2026. O site da paróquia citado no anuário não está no ar."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida dos Prados",
+  "categoria": "paroquia",
+  "cidade": "Itapira",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "1938434255",
+   "whatsapp": "1938434255",
+   "instagram": "nsaparecidadosprados",
+   "site": "",
+   "email": "nsr.dos.prados@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Itapira",
+    "localidade": "Bairro dos Prados",
+    "endereco": "Avenida Brasil, 1691",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": "Com novena perpétua a N. Sra. Aparecida"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa vocacional"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa do Sagrado Coração de Jesus"
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": [
+       4
+      ],
+      "observacao": "Até 12h"
+     }
+    ],
+    "nao_cabe": "1ª quarta-feira do mês, 15h: missa no Asilo São Camilo."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José Operário e São Peregrino",
+    "tipo": "comunidade",
+    "cidade": "Itapira",
+    "localidade": "Conjunto Vila Dr. José Secchi",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Cristóvão e Santa Rita de Cássia",
+    "tipo": "capela",
+    "cidade": "Itapira",
+    "localidade": "Bairro Camboriú",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Bárbara",
+    "tipo": "capela",
+    "cidade": "Itapira",
+    "localidade": "Bairro dos Cochos",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora de Lourdes e São Tomé",
+    "tipo": "capela",
+    "cidade": "Itapira",
+    "localidade": "Condomínio Julieta, Bairro Macucos",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeamparo.org.br/wp-content/uploads/2026/04/Anuario_2026v2.pdf",
+    "data": "2026-04",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeamparo.org.br/paroquia/paroquia-nossa-senhora-aparecida-dos-prados/",
+    "data": "2025-10-23",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Penha",
+  "categoria": "paroquia",
+  "cidade": "Itapira",
+  "padroeiro": "Nossa Senhora da Penha",
+  "contatos": {
+   "telefone": "1938630807",
+   "whatsapp": "1938630807",
+   "instagram": "paroquia.nspenha",
+   "site": "",
+   "email": "matriznspenha@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Penha",
+    "tipo": "matriz",
+    "cidade": "Itapira",
+    "localidade": "Centro",
+    "endereco": "Praça Dr. Bernardino de Campos, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": "Com novena perpétua a N. Sra. da Penha"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": "Missa do Apostolado da Oração"
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Cruz",
+    "tipo": "comunidade",
+    "cidade": "Itapira",
+    "localidade": "Vila Izaura",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Sebastião",
+    "tipo": "comunidade",
+    "cidade": "Itapira",
+    "localidade": "Jardim Itamaracá",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeamparo.org.br/wp-content/uploads/2026/04/Anuario_2026v2.pdf",
+    "data": "2026-04",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeamparo.org.br/paroquia/paroquia-nossa-senhora-da-penha/",
+    "data": "2025-10-23",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Rita de Cássia",
+  "categoria": "paroquia",
+  "cidade": "Itapira",
+  "padroeiro": "Santa Rita de Cássia",
+  "contatos": {
+   "telefone": "1939137888",
+   "whatsapp": "19997351715",
+   "instagram": "paroquiasritacassia",
+   "site": "",
+   "email": "paroquiasritacassia@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Rita de Cássia",
+    "tipo": "matriz",
+    "cidade": "Itapira",
+    "localidade": "Vila Figueiredo",
+    "endereco": "Rua Renee Boretti, 15",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "08:00",
+      "semanas": [
+       1,
+       3
+      ],
+      "observacao": "Exposição até 19h30"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": [
+       1,
+       3
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa do Sagrado Coração de Jesus"
+     }
+    ],
+    "nao_cabe": "Capela São Pedro, sem lugar informado: 3ª sexta-feira, 19h30, alternando mês a mês com a Capela São Roque."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Ifigênia e Santo Expedito",
+    "tipo": "comunidade",
+    "cidade": "Itapira",
+    "localidade": "Conjunto Habitacional Flávio Zacchi",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Teresinha do Menino Jesus",
+    "tipo": "comunidade",
+    "cidade": "Itapira",
+    "localidade": "Conjunto Habitacional Della Rocha II",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Clara de Assis e Cristo Rei",
+    "tipo": "comunidade",
+    "cidade": "Itapira",
+    "localidade": "Penha do Rio do Peixe",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": "Com novena do Perpétuo Socorro"
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Camilo de Léllis e Santa Cecília",
+    "tipo": "comunidade",
+    "cidade": "Itapira",
+    "localidade": "Conjunto Habitacional Humberto Carlos Passarella",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       2
+      ],
+      "observacao": "Nas casas"
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora das Graças",
+    "tipo": "comunidade",
+    "cidade": "Itapira",
+    "localidade": "Parque Residencial Braz Cavenaghi",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Itapira",
+    "localidade": "Usina Nossa Senhora Aparecida",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Roque",
+    "tipo": "capela",
+    "cidade": "Itapira",
+    "localidade": "Fazenda São Roque",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "3ª sexta-feira, 19h30, alternando mês a mês com a Capela São Pedro."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeamparo.org.br/wp-content/uploads/2026/04/Anuario_2026v2.pdf",
+    "data": "2026-04",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeamparo.org.br/paroquia/paroquia-santa-rita-de-cassia/",
+    "data": "2025-10-30",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "A página da paróquia (2025) dá outro endereço (Rua José Germano, 120); seguimos o anuário 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Josefina Bakhita",
+  "categoria": "paroquia",
+  "cidade": "Itapira",
+  "padroeiro": "Santa Josefina Bakhita",
+  "contatos": {
+   "telefone": "1939138255",
+   "whatsapp": "",
+   "instagram": "paroquiasantajosefinabakhita",
+   "site": "",
+   "email": "paroquia.josefinabakhita@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Josefina Bakhita",
+    "tipo": "matriz",
+    "cidade": "Itapira",
+    "localidade": "Bairro Istor Luppi",
+    "endereco": "Rua Ivo Stringuetti, 177",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": "Com adoração ao Santíssimo"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Itapira",
+    "localidade": "Bairro Ponte Nova",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Rosa Mística e São Geraldo",
+    "tipo": "comunidade",
+    "cidade": "Itapira",
+    "localidade": "Chácaras Terrazan",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Itapira",
+    "localidade": "Barão Ataliba Nogueira",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa do Sagrado Coração de Jesus"
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrado Coração de Jesus",
+    "tipo": "comunidade",
+    "cidade": "Itapira",
+    "localidade": "Barão Ataliba Nogueira",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Senhor Bom Jesus",
+    "tipo": "comunidade",
+    "cidade": "Itapira",
+    "localidade": "Bairro dos Limas",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sant'Ana e São Benedito",
+    "tipo": "comunidade",
+    "cidade": "Itapira",
+    "localidade": "Vila de Eleutério",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Beato Padre Donizetti",
+    "tipo": "comunidade",
+    "cidade": "Itapira",
+    "localidade": "Bairro dos Forões",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeamparo.org.br/wp-content/uploads/2026/04/Anuario_2026v2.pdf",
+    "data": "2026-04",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeamparo.org.br/paroquia/paroquia-santa-josefina-bakhita/",
+    "data": "2025-10-21",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Criada em 2022; ainda não aparece no GCatholic."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Itapira",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "1939134685",
+   "whatsapp": "1938630105",
+   "instagram": "paroquiasai",
+   "site": "",
+   "email": "secretaria@paroquiasai.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Itapira",
+    "localidade": "Centro",
+    "endereco": "Rua Ribeiro de Barros, 272",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": "Com bênção da saúde"
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 5,
+      "hora": "18:30",
+      "semanas": [
+       1
+      ],
+      "observacao": "Hora Santa"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Bom Jesus",
+    "tipo": "comunidade",
+    "cidade": "Itapira",
+    "localidade": "Vila Bazani",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Menino Jesus de Praga",
+    "tipo": "comunidade",
+    "cidade": "Itapira",
+    "localidade": "Bairro Boa Vista",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Imaculada Conceição",
+    "tipo": "comunidade",
+    "cidade": "Itapira",
+    "localidade": "Bairro São Vicente",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Sebastião",
+    "tipo": "comunidade",
+    "cidade": "Itapira",
+    "localidade": "Bairro Pinheiros",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Vicente de Paulo",
+    "tipo": "capela",
+    "cidade": "Itapira",
+    "localidade": "Lar São Vicente de Paulo",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Terezinha do Menino Jesus",
+    "tipo": "capela",
+    "cidade": "Itapira",
+    "localidade": "Fazenda Interagro",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "17:00",
+      "semanas": [
+       2,
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Bárbara",
+    "tipo": "capela",
+    "cidade": "Itapira",
+    "localidade": "Fazenda Santa Bárbara",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santo Antônio dos Pinheiros",
+    "tipo": "capela",
+    "cidade": "Itapira",
+    "localidade": "Bairro dos Pinheiros",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Última quinta-feira do mês, 19h30."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeamparo.org.br/wp-content/uploads/2026/04/Anuario_2026v2.pdf",
+    "data": "2026-04",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeamparo.org.br/paroquia/paroquia-santo-antonio-itapira/",
+    "data": "2025-10-21",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "A página da paróquia (2025) põe a missa de quarta 19h30 na matriz e a da Santa Terezinha na 3ª quarta; seguimos o anuário 2026. O site da paróquia não está no ar."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Benedito",
+  "categoria": "paroquia",
+  "cidade": "Itapira",
+  "padroeiro": "São Benedito",
+  "contatos": {
+   "telefone": "1938631939",
+   "whatsapp": "19996903900",
+   "instagram": "saobeneditoitapira",
+   "site": "",
+   "email": "paroquiasaobeneditoitapira@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Benedito",
+    "tipo": "matriz",
+    "cidade": "Itapira",
+    "localidade": "Centro",
+    "endereco": "Largo São Benedito, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Comunidade Nossa Senhora das Dores, sem lugar informado: 1ª sexta-feira, 19h30, e 1º sábado, 7h."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Fátima",
+    "tipo": "comunidade",
+    "cidade": "Itapira",
+    "localidade": "Vila Boa Esperança",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Pedro e Santa Luzia",
+    "tipo": "comunidade",
+    "cidade": "Itapira",
+    "localidade": "Nosso Teto",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Itapira",
+    "localidade": "Bairro Santa Fé",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Missa uma vez por mês, 19h30."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Carmo e São João Batista",
+    "tipo": "comunidade",
+    "cidade": "Itapira",
+    "localidade": "Bairro dos Pires",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Itapira",
+    "localidade": "Bairro do Rio Manso",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       2,
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeamparo.org.br/wp-content/uploads/2026/04/Anuario_2026v2.pdf",
+    "data": "2026-04",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeamparo.org.br/paroquia/paroquia-sao-benedito-itapira/",
+    "data": "2025-10-23",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Judas Tadeu",
+  "categoria": "paroquia",
+  "cidade": "Itapira",
+  "padroeiro": "São Judas Tadeu",
+  "contatos": {
+   "telefone": "1938630999",
+   "whatsapp": "1938630999",
+   "instagram": "sjudastadeuparoquia",
+   "site": "",
+   "email": "paroquiasaojudastadeu@bol.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Judas Tadeu",
+    "tipo": "matriz",
+    "cidade": "Itapira",
+    "localidade": "Bairro do Cubatão",
+    "endereco": "Rua Alfredo Bueno, 126",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Com adoração ao Santíssimo"
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Itapira",
+    "localidade": "Jardim Raquel",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco de Assis",
+    "tipo": "comunidade",
+    "cidade": "Itapira",
+    "localidade": "Macumbê",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Cruz",
+    "tipo": "comunidade",
+    "cidade": "Itapira",
+    "localidade": "Bairro do Tanquinho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Luiz Gonzaga",
+    "tipo": "comunidade",
+    "cidade": "Itapira",
+    "localidade": "Bairro do Machadinho",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Itapira",
+    "localidade": "Sítio Antonelli",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeamparo.org.br/wp-content/uploads/2026/04/Anuario_2026v2.pdf",
+    "data": "2026-04",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeamparo.org.br/paroquia/paroquia-sao-judas-tadeu/",
+    "data": "2026-02-27",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "A página da paróquia dá outro e-mail (parsaojudastadeu.dioceseamparo@bol.com.br); usamos o do anuário 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Divino Espírito Santo",
+  "categoria": "paroquia",
+  "cidade": "Holambra",
+  "padroeiro": "Divino Espírito Santo",
+  "contatos": {
+   "telefone": "1938021213",
+   "whatsapp": "",
+   "instagram": "p.divinoespiritosantoholambra",
+   "site": "",
+   "email": "matrizholambra2024@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Divino Espírito Santo",
+    "tipo": "matriz",
+    "cidade": "Holambra",
+    "localidade": "Centro",
+    "endereco": "Alameda Maurício de Nassau, 688",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Holambra",
+    "localidade": "Bairro Morada das Flores",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Rosa Mística",
+    "tipo": "comunidade",
+    "cidade": "Holambra",
+    "localidade": "Parque Residencial dos Imigrantes",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Pedro e São Paulo",
+    "tipo": "comunidade",
+    "cidade": "Holambra",
+    "localidade": "Condomínio Duas Marias",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": [
+       1,
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Holambra",
+    "localidade": "Bairrinho",
+    "endereco": "Rodovia Holambra a Artur Nogueira",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": [
+       1,
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Amparo",
+    "tipo": "comunidade",
+    "cidade": "Holambra",
+    "localidade": "Fundão",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Fátima",
+    "tipo": "comunidade",
+    "cidade": "Holambra",
+    "localidade": "Recreio Campestre, Rincão",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Cruz",
+    "tipo": "comunidade",
+    "cidade": "Holambra",
+    "localidade": "Palmeiras",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco de Assis",
+    "tipo": "comunidade",
+    "cidade": "Holambra",
+    "localidade": "Camanducaia",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Holambra",
+    "localidade": "Pirapitingui",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeamparo.org.br/wp-content/uploads/2026/04/Anuario_2026v2.pdf",
+    "data": "2026-04",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeamparo.org.br/paroquia/paroquia-divino-espirito-santo/",
+    "data": "2024-08-28",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sagrado Coração de Jesus",
+  "categoria": "paroquia",
+  "cidade": "Jaguariúna",
+  "padroeiro": "Sagrado Coração de Jesus",
+  "contatos": {
+   "telefone": "1938373309",
+   "whatsapp": "",
+   "instagram": "sagradocoracaodejesusjgu",
+   "site": "",
+   "email": "paroquiasagradocoracaojesus33@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Sagrado Coração de Jesus",
+    "tipo": "matriz",
+    "cidade": "Jaguariúna",
+    "localidade": "Bairro João Aldo Nassif",
+    "endereco": "Rua Lanzoni, 395",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa votiva ao Sagrado Coração de Jesus"
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora das Graças",
+    "tipo": "comunidade",
+    "cidade": "Jaguariúna",
+    "localidade": "Bairro Cruzeiro do Sul",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "15:30",
+      "semanas": [
+       2,
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Benedito",
+    "tipo": "comunidade",
+    "cidade": "Jaguariúna",
+    "localidade": "Bairro Roseira de Cima",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco",
+    "tipo": "comunidade",
+    "cidade": "Jaguariúna",
+    "localidade": "Bairro São Francisco",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Miguel",
+    "tipo": "comunidade",
+    "cidade": "Jaguariúna",
+    "localidade": "Bairro Miguel Martini",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Afonso",
+    "tipo": "comunidade",
+    "cidade": "Jaguariúna",
+    "localidade": "Vargeão",
+    "endereco": "Avenida Pacífico Moneda, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "15:30",
+      "semanas": [
+       1,
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Cruz",
+    "tipo": "comunidade",
+    "cidade": "Jaguariúna",
+    "localidade": "Bairro Tanquinho Velho",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeamparo.org.br/wp-content/uploads/2026/04/Anuario_2026v2.pdf",
+    "data": "2026-04",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeamparo.org.br/paroquia/paroquia-sagrado-coracao-de-jesus/",
+    "data": "2024-08-28",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "No anuário, as missas das 15h30, 17h e 19h vêm logo depois do 1º e 3º sábado, sem o dia repetido; lidas como sábado. A página da paróquia (2024) dá outro endereço (Praça Holambra, s/n)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Dulce dos Pobres",
+  "categoria": "paroquia",
+  "cidade": "Jaguariúna",
+  "padroeiro": "Santa Dulce dos Pobres",
+  "contatos": {
+   "telefone": "1938373777",
+   "whatsapp": "",
+   "instagram": "paroquiasantadulce",
+   "site": "",
+   "email": "paroquiasantadulce@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Dulce dos Pobres",
+    "tipo": "matriz",
+    "cidade": "Jaguariúna",
+    "localidade": "Guedes de Baixo",
+    "endereco": "Rua Maranhão, 3102",
+    "horarios": [],
+    "nao_cabe": "As fontes não dão missa com o nome da matriz; as missas são nas comunidades."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Judas Tadeu",
+    "tipo": "comunidade",
+    "cidade": "Jaguariúna",
+    "localidade": "Vila 12 de Setembro",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Jaguariúna",
+    "localidade": "Bairro Guedes de Cima",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Jaguariúna",
+    "localidade": "Bairro São José",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Jaguariúna",
+    "localidade": "Bairro Guedes de Baixo",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Joana d'Arc",
+    "tipo": "comunidade",
+    "cidade": "Jaguariúna",
+    "localidade": "Loteamento Floresta",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Sebastião",
+    "tipo": "comunidade",
+    "cidade": "Jaguariúna",
+    "localidade": "Bairro Bom Jardim",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeamparo.org.br/wp-content/uploads/2026/04/Anuario_2026v2.pdf",
+    "data": "2026-04",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeamparo.org.br/paroquia/paroquia-santa-dulce-dos-pobres/",
+    "data": "2026-02-27",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "O endereço é o da secretaria paroquial. A página da paróquia (fevereiro de 2026) traz domingo 19h no Santo Antônio e missas de semana no São Judas; seguimos o anuário."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Maria",
+  "categoria": "paroquia",
+  "cidade": "Jaguariúna",
+  "padroeiro": "Santa Maria",
+  "contatos": {
+   "telefone": "1938671535",
+   "whatsapp": "1938671535",
+   "instagram": "pstamariajaguariuna",
+   "site": "",
+   "email": "paroquiastamaria@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Maria",
+    "tipo": "matriz",
+    "cidade": "Jaguariúna",
+    "localidade": "Centro",
+    "endereco": "Rua Coronel Amâncio Bueno, 688",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": "Missa do Santíssimo"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Expedito",
+    "tipo": "comunidade",
+    "cidade": "Jaguariúna",
+    "localidade": "Jardim Mauá II",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Bom Jesus",
+    "tipo": "comunidade",
+    "cidade": "Jaguariúna",
+    "localidade": "Bairro Capotuna",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Bosco",
+    "tipo": "comunidade",
+    "cidade": "Jaguariúna",
+    "localidade": "Bairro Dom Bosco",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Centenária de Santa Maria",
+    "tipo": "capela",
+    "cidade": "Jaguariúna",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeamparo.org.br/wp-content/uploads/2026/04/Anuario_2026v2.pdf",
+    "data": "2026-04",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeamparo.org.br/paroquia/paroquia-santa-maria/",
+    "data": "2024-08-28",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Missas na Matriz Nova. A página da paróquia (2024) ainda lista comunidades que passaram à Área Pastoral Santa Edwiges."
+ },
+ {
+  "id_banco": null,
+  "nome": "Área Pastoral Santa Edwiges",
+  "categoria": "area_pastoral",
+  "cidade": "Jaguariúna",
+  "padroeiro": "Santa Edwiges",
+  "contatos": {
+   "telefone": "19996287132",
+   "whatsapp": "",
+   "instagram": "areapastoralsantaedwigesjaguar",
+   "site": "",
+   "email": "sedsantaedwiges@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja de Santa Edwiges",
+    "tipo": "matriz",
+    "cidade": "Jaguariúna",
+    "localidade": "Jardim Botânico",
+    "endereco": "Rua Joaquim Pinto de Andrade, 396",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "08:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Rita de Cássia",
+    "tipo": "comunidade",
+    "cidade": "Jaguariúna",
+    "localidade": "Bairro Santa Cruz",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Jorge Mártir",
+    "tipo": "comunidade",
+    "cidade": "Jaguariúna",
+    "localidade": "Bairro Colinas do Castelo",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Jaguariúna",
+    "localidade": "Bairro Roseira de Baixo",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Amparo e Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Jaguariúna",
+    "localidade": "Parque Florianópolis",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Luzia",
+    "tipo": "comunidade",
+    "cidade": "Jaguariúna",
+    "localidade": "Jardim Pinheiros",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Beato Donizetti Tavares de Lima",
+    "tipo": "comunidade",
+    "cidade": "Jaguariúna",
+    "localidade": "Jardim Primavera",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora do Carmo",
+    "tipo": "capela",
+    "cidade": "Jaguariúna",
+    "localidade": "Cemitério Municipal",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Luís Orione",
+    "tipo": "comunidade",
+    "cidade": "Jaguariúna",
+    "localidade": "Casa Acolhedora Irmã Antônia, Parque Florianópolis",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Núcleo de evangelização."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeamparo.org.br/paroquia/paroquia-santa-edwiges-jaguariuna/",
+    "data": "2026-10-18",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeamparo.org.br/wp-content/uploads/2026/04/Anuario_2026v2.pdf",
+    "data": "2026-04",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Área pastoral criada em 29/10/2025, desmembrada da Paróquia Santa Maria. Horários da página da diocese (outubro de 2026); o anuário põe a missa da 1ª sexta às 19h30."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida do Triunfo",
+  "categoria": "paroquia",
+  "cidade": "Pedreira",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "1938523504",
+   "whatsapp": "1938523504",
+   "instagram": "nsaparecidatriunfo",
+   "site": "",
+   "email": "paroquia.nsapedreira@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Pedreira",
+    "localidade": "Jardim Triunfo",
+    "endereco": "Rua Nossa Senhora Aparecida, 291",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 5,
+      "hora": "18:30",
+      "semanas": [
+       1
+      ],
+      "observacao": "Hora Santa"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa votiva ao Sagrado Coração de Jesus"
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Até 18h45"
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Rainha da Paz",
+    "tipo": "comunidade",
+    "cidade": "Pedreira",
+    "localidade": "Conjunto Habitacional Rainha da Paz",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Expedito",
+    "tipo": "comunidade",
+    "cidade": "Pedreira",
+    "localidade": "Jardim Shigeo Kobayashi",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco de Assis",
+    "tipo": "comunidade",
+    "cidade": "Pedreira",
+    "localidade": "Bairro Marajoara",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Mãe Rainha e São Padre Pio",
+    "tipo": "comunidade",
+    "cidade": "Pedreira",
+    "localidade": "Jardim Ypê",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Teresa",
+    "tipo": "capela",
+    "cidade": "Pedreira",
+    "localidade": "Fazenda Santa Teresa",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeamparo.org.br/wp-content/uploads/2026/04/Anuario_2026v2.pdf",
+    "data": "2026-04",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeamparo.org.br/paroquia/paroquia-nossa-senhora-aparecida-do-triunfo/",
+    "data": "2025-11-18",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "A página da paróquia (novembro de 2025) traz também missa às quintas na matriz; o anuário 2026 põe adoração nesse dia."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sant'Ana",
+  "categoria": "paroquia",
+  "cidade": "Pedreira",
+  "padroeiro": "Sant'Ana",
+  "contatos": {
+   "telefone": "1938931785",
+   "whatsapp": "",
+   "instagram": "paroquiasantanapedreira",
+   "site": "",
+   "email": "p.santana.pedreira@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Sant'Ana",
+    "tipo": "matriz",
+    "cidade": "Pedreira",
+    "localidade": "Centro",
+    "endereco": "Rua Siqueira Campos, 177",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Clara",
+    "tipo": "comunidade",
+    "cidade": "Pedreira",
+    "localidade": "Jardim Santa Clara",
+    "endereco": "Rua Luiz Serra, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Rita de Cássia",
+    "tipo": "comunidade",
+    "cidade": "Pedreira",
+    "localidade": "Bairro Nadir Figueiredo",
+    "endereco": "Avenida Dr. Jorge Duprat Figueiredo, 155",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Pedreira",
+    "localidade": "Vila São José",
+    "endereco": "Praça Nestor dos Santos Arruda, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Peregrino",
+    "tipo": "comunidade",
+    "cidade": "Pedreira",
+    "localidade": "Vila São Peregrino",
+    "endereco": "Rua Domingos Marchi, s/n",
+    "horarios": [],
+    "nao_cabe": "Última quarta-feira do mês; hora a confirmar na secretaria."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Sebastião",
+    "tipo": "comunidade",
+    "cidade": "Pedreira",
+    "localidade": "Vila Nova",
+    "endereco": "Rua Santo Massucatto, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Vicente de Paulo",
+    "tipo": "comunidade",
+    "cidade": "Pedreira",
+    "localidade": "Parque Bela Vista",
+    "endereco": "Rua José Teodoro Alvarenga, s/n",
+    "horarios": [],
+    "nao_cabe": "1ª quarta-feira do mês; hora a confirmar na secretaria."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora do Carmo",
+    "tipo": "capela",
+    "cidade": "Pedreira",
+    "localidade": "Cemitério Santa Cruz",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Senhor Bom Jesus",
+    "tipo": "capela",
+    "cidade": "Pedreira",
+    "localidade": "Vila Canesso",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeamparo.org.br/wp-content/uploads/2026/04/Anuario_2026v2.pdf",
+    "data": "2026-04",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeamparo.org.br/paroquia/paroquia-santana/",
+    "data": "2024-08-28",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio de Pádua",
+  "categoria": "paroquia",
+  "cidade": "Pedreira",
+  "padroeiro": "Santo Antônio de Pádua",
+  "contatos": {
+   "telefone": "1938933341",
+   "whatsapp": "19998635729",
+   "instagram": "santoantoniopedreira",
+   "site": "",
+   "email": "paroquiasantoantoniopedreira@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio de Pádua",
+    "tipo": "matriz",
+    "cidade": "Pedreira",
+    "localidade": "Vila Santo Antônio",
+    "endereco": "Rua Alfredo Martinelli, 120",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "06:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": "Exposição do Santíssimo, bênção às 19h"
+     }
+    ],
+    "nao_cabe": "Todo dia 13, 19h30: missa votiva a Santo Antônio."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Edwiges",
+    "tipo": "comunidade",
+    "cidade": "Pedreira",
+    "localidade": "Bairro Santa Edwiges",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Águeda e Santa Luzia",
+    "tipo": "comunidade",
+    "cidade": "Pedreira",
+    "localidade": "Estância Santa Rita",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Rosa de Lima",
+    "tipo": "comunidade",
+    "cidade": "Pedreira",
+    "localidade": "Jardim Andrade",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Pedro",
+    "tipo": "comunidade",
+    "cidade": "Pedreira",
+    "localidade": "Colinas de São Pedro",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrado Coração de Jesus",
+    "tipo": "comunidade",
+    "cidade": "Pedreira",
+    "localidade": "Vila Monte Alegre",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Imaculada Conceição",
+    "tipo": "comunidade",
+    "cidade": "Pedreira",
+    "localidade": "Entre Montes",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "16:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora das Graças",
+    "tipo": "comunidade",
+    "cidade": "Pedreira",
+    "localidade": "Basílio",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "3ª sexta-feira dos meses pares, 19h30."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Bento",
+    "tipo": "comunidade",
+    "cidade": "Pedreira",
+    "localidade": "Zorém",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "3ª sexta-feira dos meses ímpares, 19h30."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeamparo.org.br/wp-content/uploads/2026/04/Anuario_2026v2.pdf",
+    "data": "2026-04",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeamparo.org.br/paroquia/paroquia-santo-antonio-de-padua/",
+    "data": "2024-08-28",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "A página da paróquia (2024) põe a missa de domingo à noite às 18h; o anuário 2026, às 19h."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Santo Antônio de Posse",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "1938961326",
+   "whatsapp": "19996206457",
+   "instagram": "pasantoantonio",
+   "site": "",
+   "email": "paroquia.posse@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Santo Antônio de Posse",
+    "localidade": "Centro",
+    "endereco": "Praça Coronel David Batista, 118",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": "Devocional a N. Sra. do Perpétuo Socorro"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": "Até 18h, bênção às 18h30"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": "Devocional a Santo Antônio, bênção dos pães"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": "Apostolado da Oração"
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Teresa de Calcutá",
+    "tipo": "comunidade",
+    "cidade": "Santo Antônio de Posse",
+    "localidade": "Jardim Bela Vista",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Santo Antônio de Posse",
+    "localidade": "Vila Rica",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Santo Antônio de Posse",
+    "localidade": "Bairro Ressaca",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Fátima",
+    "tipo": "comunidade",
+    "cidade": "Santo Antônio de Posse",
+    "localidade": "Recreio Campestre",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "20:00",
+      "semanas": [
+       1,
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "2º e 4º sábado: celebração da Palavra."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Penha",
+    "tipo": "comunidade",
+    "cidade": "Santo Antônio de Posse",
+    "localidade": "Jardim Milan",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Núcleo de evangelização."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora das Graças",
+    "tipo": "comunidade",
+    "cidade": "Santo Antônio de Posse",
+    "localidade": "Jardim Planalto e Jardim Progresso",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Núcleo de evangelização."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Luzia",
+    "tipo": "comunidade",
+    "cidade": "Santo Antônio de Posse",
+    "localidade": "Portal das Pérolas",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Núcleo de evangelização."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Cecília",
+    "tipo": "comunidade",
+    "cidade": "Santo Antônio de Posse",
+    "localidade": "Jardim Maria Helena",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Núcleo de evangelização."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Camilo de Lellis",
+    "tipo": "comunidade",
+    "cidade": "Santo Antônio de Posse",
+    "localidade": "Jardim Luciana e Vila Bianchi",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Núcleo de evangelização."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Rita de Cássia e Santo Agostinho",
+    "tipo": "comunidade",
+    "cidade": "Santo Antônio de Posse",
+    "localidade": "Bairro Laranjeira",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Última sexta-feira do mês, 19h30."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Batista e São Sebastião",
+    "tipo": "comunidade",
+    "cidade": "Santo Antônio de Posse",
+    "localidade": "Bairro Barreiro",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Santo Antônio de Posse",
+    "localidade": "Pirapitingui",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Última quinta-feira do mês, 19h30."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela das Rosas São Juan Diego",
+    "tipo": "capela",
+    "cidade": "Santo Antônio de Posse",
+    "localidade": "Praça Papa Francisco",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Última terça-feira do mês, 19h30."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora da Piedade",
+    "tipo": "capela",
+    "cidade": "Santo Antônio de Posse",
+    "localidade": "Cemitério Municipal",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Última segunda-feira do mês, 7h30."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Cruz",
+    "tipo": "capela",
+    "cidade": "Santo Antônio de Posse",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Capela particular."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São José Operário",
+    "tipo": "capela",
+    "cidade": "Santo Antônio de Posse",
+    "localidade": "Grimald",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeamparo.org.br/wp-content/uploads/2026/04/Anuario_2026v2.pdf",
+    "data": "2026-04",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeamparo.org.br/paroquia/paroquia-santo-antonio-santo-antonio-de-posse/",
+    "data": "2026-01-14",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "A página da paróquia (janeiro de 2026) ainda lista missa na Comunidade N. Sra. de Guadalupe, hoje área pastoral própria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Área Pastoral Nossa Senhora de Guadalupe",
+  "categoria": "area_pastoral",
+  "cidade": "Santo Antônio de Posse",
+  "padroeiro": "Nossa Senhora de Guadalupe",
+  "contatos": {
+   "telefone": "1938961326",
+   "whatsapp": "19996206457",
+   "instagram": "areapastoralguadalupe",
+   "site": "",
+   "email": "paroquia.posse@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja de Nossa Senhora de Guadalupe",
+    "tipo": "matriz",
+    "cidade": "Santo Antônio de Posse",
+    "localidade": "Bairro Padre Pedro Tomazine",
+    "endereco": "Rua José Ferro, 365",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Comunidade São Bento, sem lugar informado: quarta-feira, 19h30. Capela São Jorge, particular, sem lugar informado."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Lourdes",
+    "tipo": "comunidade",
+    "cidade": "Santo Antônio de Posse",
+    "localidade": "Vila Esperança",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Rita de Cássia",
+    "tipo": "comunidade",
+    "cidade": "Santo Antônio de Posse",
+    "localidade": "Bairro Pedra Branca",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco Xavier",
+    "tipo": "comunidade",
+    "cidade": "Santo Antônio de Posse",
+    "localidade": "Bairro São Judas Tadeu",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio de Sant'Ana Galvão",
+    "tipo": "comunidade",
+    "cidade": "Santo Antônio de Posse",
+    "localidade": "Bairro Itaquerê",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "O anuário dá missa no 1º e 3º sábado, 18h; a página de junho de 2026 não traz."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Benedito",
+    "tipo": "capela",
+    "cidade": "Santo Antônio de Posse",
+    "localidade": "Vila Esperança",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Vicente de Paulo",
+    "tipo": "capela",
+    "cidade": "Santo Antônio de Posse",
+    "localidade": "Lar São Vicente de Paulo",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeamparo.org.br/area-pastoral/area-pastoral-nossa-senhora-de-guadalupe-santo-antonio-de-posse/",
+    "data": "2026-06-27",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeamparo.org.br/wp-content/uploads/2026/04/Anuario_2026v2.pdf",
+    "data": "2026-04",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Área pastoral criada em 12/12/2025, desmembrada da Paróquia Santo Antônio, com quem divide telefone e e-mail. Horários da página da diocese (junho de 2026)."
+ }
+]
