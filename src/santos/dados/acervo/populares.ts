@@ -109,7 +109,7 @@ const acervo: AcervoDeSantos = {
       resumo: "Virgem idosa de Alexandria, martirizada no ano 249, invocada contra a dor de dente.",
       historia: [
         "A história de Santa Apolônia é das mais seguras entre os mártires antigos, porque foi contada por uma testemunha da época: São Dionísio, bispo de Alexandria, numa carta que o historiador Eusébio guardou. Em 249, pouco antes da perseguição do imperador Décio, uma multidão revoltada atacou os cristãos de Alexandria, no Egito, invadindo casas e matando quem não renegasse a fé.",
-        "Apolônia era uma virgem consagrada, já de idade, respeitada na comunidade. Foi agarrada pela multidão, que a espancou e lhe quebrou os dentes. Depois acenderam uma fogueira e ameaçaram queimá-la viva se não dissesse palavras contra Deus. Ela pediu um momento, como quem vai pensar, e se lançou ela mesma ao fogo, para não negar a Cristo. A Igreja entendeu esse gesto como uma inspiração especial do Espírito Santo, e não como exemplo a ser imitado.",
+        "Apolônia era uma virgem consagrada, já de idade, respeitada na comunidade. Foi agarrada pela multidão, que a espancou e lhe quebrou os dentes. Depois acenderam uma fogueira e ameaçaram queimá-la viva se não dissesse palavras contra Deus. Ela pediu um momento, como quem vai pensar, e se lançou ela mesma ao fogo, para não negar a Cristo. Santo Agostinho, tratando de casos parecidos, ensina que só uma ordem de Deus explicaria esse gesto, que ninguém deve tomar como exemplo (A Cidade de Deus, livro I, 26).",
         "Por causa do sofrimento que lhe tiraram os dentes, o povo cristão passou a invocá-la contra a dor de dente, e ela se tornou padroeira dos dentistas. É pintada segurando uma tenaz. A sua firmeza mostra que a fé verdadeira não se troca para salvar a própria vida.",
       ],
       padroeiro: ["dos dentistas", "contra a dor de dente"],
@@ -188,7 +188,7 @@ const acervo: AcervoDeSantos = {
       nomes: ["Dimas"],
       resumo: "O ladrão crucificado ao lado de Jesus que se arrependeu e ouviu a promessa do paraíso.",
       historia: [
-        "O Evangelho de São Lucas conta que Jesus foi crucificado entre dois malfeitores. Um deles zombava dele. O outro o repreendeu: \"Nós recebemos o que merecemos, mas ele não fez nenhum mal.\" E disse a Jesus: \"Lembra-te de mim quando entrares no teu Reino.\" Jesus respondeu: \"Hoje estarás comigo no paraíso\" (Lc 23,39-43).",
+        "O Evangelho de São Lucas conta que Jesus foi crucificado entre dois malfeitores. Um deles zombava dele. O outro o repreendeu: \"Recebemos o castigo que as nossas obras merecem; mas este não fez mal nenhum.\" E disse a Jesus: \"Senhor, lembra-te de mim quando entrares no teu reino.\" Jesus respondeu: \"Em verdade te digo: hoje estarás comigo no paraíso\" (Lc 23,39-43).",
         "O Evangelho não diz o seu nome. O nome Dimas vem de um escrito antigo que não faz parte da Bíblia, e assim ele ficou conhecido na tradição. Também não sabemos nada da sua vida anterior, a não ser que ele mesmo reconheceu ter merecido a pena. O Martirológio Romano o lembra em 25 de março como o bom ladrão, que professou a fé em Cristo na cruz.",
         "Dimas é o único a quem Jesus prometeu o céu com palavras tão claras. Por isso é invocado pelos que estão para morrer e lembrado com carinho nas pastorais das prisões. A sua história mostra que nunca é tarde para pedir perdão e que a misericórdia de Deus alcança até o último instante da vida.",
       ],
@@ -221,7 +221,7 @@ const acervo: AcervoDeSantos = {
       resumo: "Pastor espanhol que se fez irmão franciscano e passou a vida em adoração ao Santíssimo Sacramento.",
       historia: [
         "Pascoal Bailão nasceu em 1540 em Torrehermosa, no reino de Aragão, na Espanha, num domingo de Pentecostes, festa que os espanhóis chamavam de Páscoa do Espírito, e daí veio o seu nome. Filho de camponeses, foi pastor de ovelhas na infância e na juventude e aprendeu a ler sozinho, para rezar com os livros de oração.",
-        "Aos vinte e quatro anos entrou para os franciscanos da reforma mais austera, como irmão leigo. Foi porteiro, cozinheiro, hortelão e esmoler. Tinha um amor muito grande à Eucaristia e passava as horas livres diante do sacrário. Numa viagem à França, onde a presença real de Cristo na Eucaristia era negada por muitos, defendeu essa verdade da fé e, segundo a tradição, foi maltratado por isso.",
+        "Aos vinte e quatro anos entrou para os franciscanos da reforma mais austera, como irmão leigo. Foi porteiro, cozinheiro, hortelão e esmoler. Tinha um amor muito grande à Eucaristia e passava as horas livres diante do sacrário. Numa viagem à França, segundo a tradição, foi maltratado por professar a fé na presença real de Cristo na Eucaristia.",
         "Morreu em Villarreal, perto de Valência, em 17 de maio de 1592, também num domingo de Pentecostes. Foi canonizado em 1690. Em 1897 o papa Leão XIII o declarou padroeiro dos congressos e das associações eucarísticas. No Brasil é conhecido também como padroeiro dos cozinheiros, por causa do serviço que fez a vida inteira no convento.",
       ],
       padroeiro: ["dos congressos eucarísticos", "dos cozinheiros"],
@@ -301,7 +301,7 @@ const acervo: AcervoDeSantos = {
       resumo: "Grupo de virgens martirizadas em Colônia na Antiguidade, cuja memória ganhou com o tempo uma longa lenda.",
       historia: [
         "Em Colônia, na Alemanha, há uma inscrição muito antiga, talvez do século IV ou V, em que um homem chamado Clemácio diz ter reconstruído uma igreja no lugar onde santas virgens tinham sido martirizadas. É o dado mais seguro que temos. Não sabemos quantas eram nem os seus nomes.",
-        "Séculos depois, essa memória ganhou uma longa lenda. Segundo ela, Úrsula era uma princesa da Britânia que, prometida em casamento a um príncipe pagão, pediu antes para fazer uma peregrinação a Roma acompanhada de onze mil virgens. Na volta, todas teriam sido mortas pelos hunos em Colônia, por recusarem renegar a fé. Alguns estudiosos pensam que o número de onze mil nasceu da leitura errada de uma inscrição que falava de onze mártires.",
+        "Séculos depois, essa memória ganhou uma longa lenda. Segundo ela, Úrsula era uma princesa da Britânia que, prometida em casamento a um príncipe pagão, pediu antes para fazer uma peregrinação a Roma acompanhada de onze mil virgens. Na volta, todas teriam sido mortas pelos hunos em Colônia, por recusarem renegar a fé.",
         "O Martirológio Romano lembra com prudência as santas virgens de Colônia, tendo Úrsula como a primeira delas. Santa Ângela Merici escolheu Úrsula como patrona da congregação que fundou para a educação das meninas, as ursulinas. A memória dessas mártires, mesmo envolvida em lenda, recorda as jovens que deram a vida por fidelidade a Cristo.",
       ],
     },
@@ -333,7 +333,7 @@ const acervo: AcervoDeSantos = {
       historia: [
         "Zita nasceu por volta de 1218 numa aldeia perto de Lucca, na Itália, numa família de camponeses pobres e piedosos. Aos doze anos foi trabalhar como empregada na casa da família Fatinelli, comerciantes de Lucca, e ali ficou até a morte.",
         "No começo foi maltratada pelos patrões e pelos outros empregados, que desconfiavam da sua piedade e da sua dedicação. Ela respondia com paciência, trabalho bem feito e silêncio. Levantava-se cedo para ir à missa, cuidava da casa com cuidado e dava aos pobres a sua própria comida. Segundo a tradição, um dia o patrão a encontrou levando pão escondido no avental, e quando a fez abri-lo, só havia flores. Com o tempo, a família passou a confiar a ela a casa e os filhos.",
-        "Morreu em 27 de abril de 1272, querida por toda a cidade. O seu culto foi confirmado pela Igreja em 1696. O papa Pio XII a declarou padroeira das empregadas domésticas. Santa Zita mostra que o serviço humilde, feito por amor a Deus, tem um grande valor.",
+        "Morreu em 27 de abril de 1272, querida por toda a cidade. O seu culto foi confirmado pela Igreja em 1696. É invocada como padroeira das empregadas domésticas. Santa Zita mostra que o serviço humilde, feito por amor a Deus, tem um grande valor.",
       ],
       padroeiro: ["das empregadas domésticas", "de Lucca"],
     },
@@ -429,7 +429,7 @@ const acervo: AcervoDeSantos = {
       historia: [
         "O Evangelho de São Lucas conta que Zacarias era sacerdote do Templo de Jerusalém e Isabel, sua esposa, era também de família sacerdotal. Os dois eram justos diante de Deus e cumpriam os mandamentos, mas não tinham filhos, e já eram idosos.",
         "Um dia, enquanto Zacarias oferecia o incenso no Templo, o anjo Gabriel lhe anunciou que Isabel teria um filho e que ele se chamaria João. Zacarias duvidou e ficou mudo até o nascimento do menino. Isabel concebeu, e no sexto mês recebeu a visita de Maria, sua parenta. Cheia do Espírito Santo, saudou-a: \"Bendita és tu entre as mulheres, e bendito é o fruto do teu ventre\" (Lc 1,42). Essas palavras entraram na Ave-Maria.",
-        "Quando o menino nasceu, Zacarias escreveu: \"O seu nome é João\", e logo voltou a falar, louvando a Deus com o cântico que começa com \"Bendito seja o Senhor, Deus de Israel\" (Lc 1,68). A Igreja reza esse cântico todas as manhãs. O Martirológio Romano lembra os dois juntos em 23 de setembro. Eles ensinam a esperar em Deus, que cumpre as promessas no seu tempo.",
+        "Quando o menino nasceu, Zacarias escreveu: \"João é o seu nome\" (Lc 1,63), e logo voltou a falar, louvando a Deus com o cântico que começa com \"Bendito seja o Senhor, Deus de Israel\" (Lc 1,68). A Igreja reza esse cântico todas as manhãs. O Martirológio Romano lembra os dois juntos em 23 de setembro. Eles ensinam a esperar em Deus, que cumpre as promessas no seu tempo.",
       ],
     },
     {
@@ -680,7 +680,7 @@ const acervo: AcervoDeSantos = {
       resumo: "Eremita idoso eleito papa em 1294, que renunciou ao pontificado poucos meses depois para voltar à vida de oração.",
       historia: [
         "Pedro de Morrone nasceu na Itália por volta de 1210, numa família de camponeses. Foi monge beneditino e depois viveu como eremita nas montanhas dos Abruzos, onde reuniu discípulos que deram origem a uma nova congregação, mais tarde chamada dos celestinos. Era conhecido pela vida de penitência e oração.",
-        "Em 1294, depois de mais de dois anos sem que os cardeais conseguissem escolher um papa, o nome do velho eremita foi lembrado, e ele foi eleito, já com mais de oitenta anos. Aceitou com relutância e tomou o nome de Celestino V. Foi coroado em L'Aquila, onde concedeu uma indulgência que até hoje é celebrada. Mas logo percebeu que não tinha condições de governar a Igreja e que estava sendo manipulado por interesses políticos.",
+        "Em 1294, depois de mais de dois anos sem que os cardeais conseguissem escolher um papa, o nome do velho eremita foi lembrado, e ele foi eleito, já com mais de oitenta anos. Aceitou com relutância e tomou o nome de Celestino V. Foi coroado em L'Aquila, onde concedeu uma indulgência que até hoje é celebrada. Mas logo percebeu que não tinha condições de governar a Igreja.",
         "Em dezembro do mesmo ano, depois de publicar uma regra que permitia ao papa renunciar, deixou o pontificado. O sucessor, Bonifácio VIII, temendo divisões, manteve-o vigiado no castelo de Fumone, onde morreu em 19 de maio de 1296. Foi canonizado em 1313. Em 2009 o papa Bento XVI rezou no seu túmulo. São Celestino ensina a humildade de reconhecer os próprios limites diante de Deus.",
       ],
     },

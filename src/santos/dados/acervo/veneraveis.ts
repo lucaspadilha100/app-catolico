@@ -85,7 +85,7 @@ const acervo: AcervoDeSantos = {
         "Augustus Tolton nasceu escravo em 1854, no Missouri, numa família católica. Durante a Guerra Civil, a mãe fugiu com os filhos atravessando o rio Mississippi e chegou a Quincy, no estado de Illinois, onde eram livres.",
         "O menino trabalhou numa fábrica e estudou com ajuda de padres da cidade. Quis ser sacerdote, mas nenhum seminário dos Estados Unidos aceitou um rapaz negro. Foi então estudar em Roma e ali foi ordenado em 1886. Pensava em ir para a África, mas os superiores o mandaram de volta ao seu país.",
         "Em Quincy e depois em Chicago, onde ergueu uma paróquia para os católicos negros, enfrentou o preconceito de fora e, às vezes, de dentro da própria Igreja. Respondia com mansidão, pregação simples e muito trabalho. Esgotado, desmaiou numa rua de Chicago durante uma onda de calor e morreu em 9 de julho de 1897, aos 43 anos.",
-        "Em 12 de junho de 2019, o papa Francisco declarou que ele viveu as virtudes cristãs em grau heroico. Por isso é venerável: a Igreja o propõe como exemplo, mas ainda não lhe presta culto público, o que só vem com a beatificação.",
+        "Em 11 de junho de 2019, o papa Francisco declarou que ele viveu as virtudes cristãs em grau heroico. Por isso é venerável: a Igreja o propõe como exemplo, mas ainda não lhe presta culto público, o que só vem com a beatificação.",
       ],
     },
     {
@@ -134,7 +134,7 @@ const acervo: AcervoDeSantos = {
       resumo: "Papa que guiou a Igreja durante a Segunda Guerra Mundial e proclamou o dogma da Assunção.",
       historia: [
         "Eugenio Pacelli nasceu em Roma em 1876. Foi diplomata da Santa Sé, núncio na Alemanha e secretário de Estado de Pio XI. Em 2 de março de 1939, no dia em que fazia 63 anos, foi eleito papa e escolheu o nome de Pio XII.",
-        "Seis meses depois começou a Segunda Guerra Mundial. O papa pediu a paz em mensagens pelo rádio, organizou a ajuda aos prisioneiros e refugiados, e durante a ocupação de Roma muitos perseguidos, entre eles judeus, foram escondidos em conventos e casas religiosas. A sua atuação na guerra continua a ser estudada pelos historiadores, sobretudo depois que os arquivos do pontificado foram abertos em 2020.",
+        "Seis meses depois começou a Segunda Guerra Mundial. O papa pediu a paz em mensagens pelo rádio, organizou a ajuda aos prisioneiros e refugiados, e durante a ocupação de Roma muitos perseguidos, entre eles judeus, foram escondidos em conventos e casas religiosas.",
         "Em 1942 consagrou o mundo ao Imaculado Coração de Maria e, em 1950, proclamou o dogma da Assunção de Nossa Senhora. Escreveu encíclicas sobre a Igreja, a liturgia e a Sagrada Escritura. Morreu em Castel Gandolfo em 9 de outubro de 1958.",
         "Bento XVI aprovou o decreto das suas virtudes heroicas em 19 de dezembro de 2009. Ser venerável significa que a Igreja reconhece uma vida cristã exemplar, vivida em grau heroico, mas sem culto público enquanto não houver beatificação.",
       ],
@@ -301,7 +301,7 @@ const acervo: AcervoDeSantos = {
       dataDe: "falecimento",
       pais: "Itália",
       nomes: ["Jorge"],
-      resumo: "O prefeito santo de Florença, professor e político que defendeu os pobres e a paz.",
+      resumo: "Prefeito de Florença, professor e político católico que defendeu os pobres e a paz.",
       historia: [
         "Giorgio La Pira nasceu em 1904 em Pozzallo, na Sicília. Tornou-se professor de direito romano em Florença e terceiro dominicano. Viveu muitos anos numa cela do convento de São Marcos, com grande pobreza, e repartia o salário com os necessitados.",
         "Depois da Segunda Guerra ajudou a escrever a Constituição italiana. Foi prefeito de Florença por dois mandatos, nos anos 1950 e 1960. Defendeu o emprego dos operários quando fábricas iam fechar, requisitou casas vazias para famílias sem teto e organizou encontros de paz entre cristãos, judeus e muçulmanos do Mediterrâneo. Em plena Guerra Fria viajou a Moscou e ao Vietnã para falar de paz.",

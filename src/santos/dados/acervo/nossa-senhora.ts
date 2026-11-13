@@ -77,7 +77,7 @@ const acervo: AcervoDeSantos = {
       nomes: [],
       resumo: "Imagem venerada em Genazzano, perto de Roma, que deu à Ladainha a invocação Mãe do Bom Conselho.",
       historia: [
-        "Genazzano é uma pequena cidade perto de Roma. Ali os frades agostinianos tinham uma igreja dedicada a Nossa Senhora, que estava sendo reformada com a ajuda de uma senhora devota chamada Petruccia. Em 25 de abril de 1467, dia de São Marcos, apareceu na parede inacabada uma pintura de Maria com o Menino Jesus, que abraça a Mãe com ternura.",
+        "Genazzano é uma pequena cidade perto de Roma. Ali os frades agostinianos tinham uma igreja dedicada a Nossa Senhora, que estava sendo reformada com a ajuda de uma senhora devota chamada Petruccia. A tradição conta que, em 25 de abril de 1467, dia de São Marcos, apareceu na parede inacabada uma pintura de Maria com o Menino Jesus, que abraça a Mãe com ternura.",
         "Uma tradição antiga conta que a imagem teria vindo de Scutari, na Albânia, levada pelos anjos quando os turcos invadiram aquela região. É uma tradição que o povo guarda com carinho, sem confirmação histórica. Certo é que a imagem é uma pintura muito fina sobre uma camada de reboco, e que a devoção cresceu rapidamente em toda a Itália.",
         "Vários papas foram devotos de Nossa Senhora do Bom Conselho. Leão XIII acrescentou à Ladainha de Nossa Senhora a invocação \"Mãe do Bom Conselho\", em 1903. A festa é celebrada em 26 de abril.",
         "Maria, que guardava tudo no coração e meditava, ajuda os seus filhos a tomar boas decisões, ouvindo a Deus antes de agir.",
@@ -172,10 +172,10 @@ const acervo: AcervoDeSantos = {
       nomes: [],
       resumo: "Título que lembra a intercessão materna de Maria, muito venerado em Santa Maria, no Rio Grande do Sul.",
       historia: [
-        "A Bíblia ensina que há um só mediador entre Deus e os homens, Jesus Cristo. O Concílio Vaticano II explica que a missão materna de Maria não diminui essa mediação única, mas depende dela e mostra a sua força: Maria cooperou com a obra do Filho e continua a interceder pelos seus filhos. Em Caná, foi ela quem disse a Jesus que faltava vinho.",
+        "A Bíblia ensina que há um só mediador entre Deus e os homens, Jesus Cristo. O Concílio Vaticano II explica que a missão materna de Maria não diminui essa mediação única, mas depende dela e mostra a sua força: Maria cooperou com a obra do Filho e continua a interceder pelos seus filhos (CIC 970). Em Caná, foi ela quem disse a Jesus que faltava vinho.",
         "No começo do século XX, o cardeal Mercier, arcebispo de Malines, na Bélgica, pediu uma festa em honra de Maria Medianeira. Em 1921 o papa Bento XV concedeu às dioceses belgas a celebração em 31 de maio.",
         "No Brasil, a devoção cresceu a partir da década de 1930 em Santa Maria, no Rio Grande do Sul, com o trabalho do jesuíta Inácio Valle. O santuário, hoje basílica, recebe todos os anos em novembro a grande Romaria da Medianeira, e os gaúchos a veneram como padroeira do estado.",
-        "Em 2025, o Dicastério para a Doutrina da Fé, na nota \"Mater populi fidelis\", aprovada pelo papa Leão XIV, pediu cuidado com a expressão \"medianeira de todas as graças\". Lembrou que toda graça vem de Deus por Cristo e que Maria foi a primeira a ser redimida. A sua intercessão de Mãe continua sendo ensinada pela Igreja.",
+        "Em 2025, o Dicastério para a Doutrina da Fé, na nota \"Mater Populi fidelis\", aprovada pelo papa Leão XIV, pediu cuidado com a expressão \"medianeira de todas as graças\". Lembrou que toda graça vem de Deus por Cristo e que Maria foi a primeira a ser redimida. A sua intercessão de Mãe continua sendo ensinada pela Igreja.",
       ],
     },
     {
@@ -238,7 +238,7 @@ const acervo: AcervoDeSantos = {
       historia: [
         "Uma tradição muito antiga, guardada sobretudo pelas Igrejas do Oriente, fala da Dormição de Maria: ao fim da vida terrena ela teria adormecido serenamente, cercada pelos apóstolos, e depois foi levada ao céu. Ao proclamar o dogma da Assunção, em 1950, o papa Pio XII ensinou que Maria foi elevada ao céu em corpo e alma, sem decidir se ela morreu antes.",
         "Em Portugal e no Brasil colonial nasceram irmandades de Nossa Senhora da Boa Morte, que pediam a graça de morrer bem, em paz com Deus e com os sacramentos, como Maria, e cuidavam do enterro digno dos irmãos.",
-        "A mais conhecida é a Irmandade da Boa Morte de Cachoeira, no Recôncavo Baiano, formada por mulheres negras. Segundo pesquisas, as primeiras irmãs vieram de Salvador e se estabeleceram em Cachoeira no começo do século XIX. Na primeira quinzena de agosto elas celebram a festa com missas, a procissão da imagem de Maria morta e, no dia 15, a festa da Glória. A celebração é patrimônio imaterial da Bahia desde 2010.",
+        "A mais conhecida é a Irmandade da Boa Morte de Cachoeira, no Recôncavo Baiano, formada por mulheres negras. Segundo a tradição da irmandade, as primeiras irmãs vieram de Salvador e se estabeleceram em Cachoeira no começo do século XIX. Na primeira quinzena de agosto elas celebram a festa com missas, a procissão da imagem de Maria morta e, no dia 15, a festa da Glória.",
       ],
       imagem: { artic: 16177, titulo: "The Death of the Virgin", artista: "Starnina (Gherardo di Jacopo)", data: "1405-10" },
     },
@@ -334,7 +334,7 @@ const acervo: AcervoDeSantos = {
       historia: [
         "Nossa Senhora da Piedade é Maria aos pés da cruz, recebendo nos braços o corpo do Filho morto. O Evangelho não descreve essa cena, mas diz que Maria estava junto à cruz. Desde a Idade Média os artistas a representaram assim, e essa imagem recebeu o nome de Piedade. A devoção está ligada à de Nossa Senhora das Dores, e por isso a festa é celebrada em 15 de setembro.",
         "Em Minas Gerais, no alto da Serra da Piedade, em Caeté, perto de Belo Horizonte, existe desde o século XVIII uma pequena ermida que guarda uma imagem da Piedade atribuída ao Aleijadinho. O lugar tornou-se destino de romarias de todo o estado.",
-        "Em 1960, com a aprovação do papa São João XXIII, Nossa Senhora da Piedade foi proclamada padroeira de Minas Gerais. Em 2017 o papa Francisco elevou as duas igrejas do santuário à dignidade de basílica.",
+        "Em 1960, com a aprovação do papa São João XXIII, Nossa Senhora da Piedade foi proclamada padroeira de Minas Gerais.",
         "Diante de Maria com o Filho morto nos braços, o fiel aprende a não desesperar na dor e a confiar na ressurreição.",
       ],
       padroeiro: ["de Minas Gerais"],
@@ -510,7 +510,7 @@ const acervo: AcervoDeSantos = {
       resumo: "Quadro de Augsburgo em que Maria desata os nós de uma fita, devoção difundida pelo papa Francisco.",
       historia: [
         "Na igreja de São Pedro am Perlach, em Augsburgo, na Alemanha, está um quadro pintado por volta de 1700, atribuído a Johann Georg Melchior Schmidtner. Foi doado por um cônego da igreja, e conta-se que a doação teve relação com uma graça recebida pela família dele num casamento em crise. O quadro mostra Maria, pisando a serpente, desatando com paciência os nós de uma fita que os anjos lhe entregam.",
-        "A imagem se inspira numa frase de Santo Irineu, bispo do século II: o nó da desobediência de Eva foi desatado pela obediência de Maria. Os nós representam os pecados e os problemas da vida que sozinhos não conseguimos resolver.",
+        "A imagem se inspira numa frase de Santo Irineu, bispo do século II, no livro Contra as heresias, que o Catecismo cita (CIC 494): o nó da desobediência de Eva foi desatado pela obediência de Maria. Os nós representam os pecados e os problemas da vida que sozinhos não conseguimos resolver.",
         "Nos anos 1980, o padre jesuíta Jorge Mario Bergoglio, futuro papa Francisco, conheceu o quadro na Alemanha e levou a devoção para Buenos Aires, de onde ela se espalhou pela América Latina. No Brasil cresceu muito a partir do fim do século XX, e em Campinas há um santuário dedicado a ela. Não há uma festa universal: no Brasil costuma ser lembrada em 8 de dezembro, dia da Imaculada Conceição.",
       ],
     },

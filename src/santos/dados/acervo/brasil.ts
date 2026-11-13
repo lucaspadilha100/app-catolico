@@ -22,7 +22,7 @@ const acervo: AcervoDeSantos = {
     {
       id: "beato-mariano-de-la-mata",
       nome: "Beato Mariano de la Mata",
-      data: "1105",
+      data: "0405",
       calendario: false,
       situacao: "beato",
       pais: "Brasil, São Paulo",
@@ -32,7 +32,7 @@ const acervo: AcervoDeSantos = {
         "Mariano de la Mata Aparicio nasceu em 31 de dezembro de 1905, na província de Palência, na Espanha, numa família católica. Seguindo o exemplo de três irmãos, entrou na Ordem de Santo Agostinho e foi ordenado padre em 1930.",
         "Em 1931 foi enviado ao Brasil, onde ficou até a morte. Foi vigário em Taquaritinga e depois professor de ciências no Colégio Santo Agostinho, em São Paulo, do qual foi também diretor. Teve ainda cargos de governo na sua Ordem.",
         "A partir de 1961 tornou-se diretor espiritual das Oficinas de Caridade de Santa Rita de Cássia, grupos de senhoras que costuravam roupas para os pobres. Andava pelas ruas da cidade visitando essas oficinas, que chegaram a ser cerca de duzentas, e também os doentes, sem poupar esforço, mesmo já idoso e com a vista fraca.",
-        "Morreu de câncer em 5 de abril de 1983, em São Paulo, e foi sepultado na Igreja de Santo Agostinho. Foi beatificado em São Paulo em 5 de novembro de 2006, no pontificado de Bento XVI. Os agostinianos celebram a sua memória em 5 de novembro.",
+        "Morreu de câncer em 5 de abril de 1983, em São Paulo, e foi sepultado na Igreja de Santo Agostinho. Foi beatificado em São Paulo em 5 de novembro de 2006, no pontificado de Bento XVI. Sua memória é celebrada em 5 de abril.",
       ],
     },
     {
@@ -69,7 +69,7 @@ const acervo: AcervoDeSantos = {
     {
       id: "beata-barbara-maix",
       nome: "Beata Bárbara Maix",
-      data: "0317",
+      data: "1106",
       calendario: false,
       situacao: "beato",
       pais: "Brasil, Rio de Janeiro e Rio Grande do Sul",
@@ -79,7 +79,7 @@ const acervo: AcervoDeSantos = {
         "Bárbara Maix nasceu em Viena, na Áustria, em 27 de junho de 1818. Ainda jovem reuniu à sua volta um grupo de moças que desejavam servir a Deus e ajudar outras jovens pobres.",
         "As perturbações políticas de 1848 na Áustria dificultaram a vida do grupo. Bárbara decidiu partir com as companheiras para o Brasil, onde sonhava ser missionária. No Rio de Janeiro, em 8 de maio de 1849, fundou a Congregação das Irmãs do Imaculado Coração de Maria, considerada a primeira congregação feminina de vida ativa fundada no Brasil.",
         "Enfrentou pobreza, doenças e incompreensões, mas as irmãs se espalharam, sobretudo pelo Rio Grande do Sul, com escolas, orfanatos e obras de assistência. Bárbara morreu no Rio de Janeiro em 17 de março de 1873.",
-        "Foi beatificada em Porto Alegre em 6 de novembro de 2010, no pontificado de Bento XVI. Suas irmãs continuam o trabalho com crianças, jovens e pobres em várias regiões do país.",
+        "Foi beatificada em Porto Alegre em 6 de novembro de 2010, no pontificado de Bento XVI, com o nome de religiosa Maria Bárbara da Santíssima Trindade. Sua memória é celebrada em 6 de novembro. Suas irmãs continuam o trabalho com crianças, jovens e pobres em várias regiões do país.",
       ],
     },
     {
@@ -181,7 +181,8 @@ const acervo: AcervoDeSantos = {
     {
       id: "beato-nazareno-lanciotti",
       nome: "Beato Nazareno Lanciotti",
-      data: "0112",
+      data: "0222",
+      dataDe: "falecimento",
       calendario: false,
       situacao: "beato",
       pais: "Brasil, Mato Grosso",
@@ -191,7 +192,7 @@ const acervo: AcervoDeSantos = {
         "Nazareno Lanciotti nasceu em Roma em 3 de março de 1940, numa família simples de Subiaco, e foi ordenado padre em 1966. Conheceu a Operação Mato Grosso, movimento missionário de jovens, e decidiu servir no Brasil. Em 12 de janeiro de 1972 foi acolhido pelo bispo de Cáceres, que lhe confiou o povoado de Jauru, perto da fronteira com a Bolívia.",
         "Encontrou casas de madeira e barro, gente muito pobre, sem luz e com muita violência. Em trinta anos criou ali a paróquia de Nossa Senhora do Pilar, dezenas de comunidades rurais com adoração diária ao Santíssimo, um ambulatório que virou hospital, um asilo, uma escola que dava comida às crianças e um seminário menor. Em 1988 tornou-se responsável no Brasil pelo Movimento Sacerdotal Mariano.",
         "Seu trabalho incomodava os que exploravam a prostituição e o tráfico de drogas na fronteira. Na noite de 11 de fevereiro de 2001, dois homens armados invadiram a casa paroquial e atiraram nele. Levado para Cuiabá e depois para São Paulo, morreu em 22 de fevereiro, depois de perdoar os seus agressores.",
-        "A Igreja reconheceu o seu martírio. Foi beatificado em Jauru em 13 de junho de 2026, no pontificado de Leão XIV. Sua memória foi fixada em 12 de janeiro.",
+        "A Igreja reconheceu o seu martírio. Foi beatificado em Jauru em 13 de junho de 2026, no pontificado de Leão XIV.",
       ],
     },
     {
@@ -480,7 +481,7 @@ const acervo: AcervoDeSantos = {
         "Nelson Santana nasceu em Ibitinga, São Paulo, em 31 de julho de 1955, numa família simples e católica. Era um menino alegre, que gostava de brincar e de ir à igreja.",
         "Ainda criança descobriu um câncer nos ossos do braço. Os médicos precisaram amputar o braço, e o tratamento foi longo e doloroso. Nelsinho aceitou o sofrimento com uma fé que impressionava adultos, médicos e enfermeiras. Rezava, oferecia as dores a Jesus e consolava os outros doentes e a própria família. Em 1964 fez a Primeira Comunhão, que esperava com grande desejo.",
         "Morreu em Araraquara na véspera do Natal, em 24 de dezembro de 1964, aos nove anos. Em 2011 seus restos foram levados para a igreja matriz de Ibitinga.",
-        "O Papa Francisco reconheceu as suas virtudes heroicas em 2019.",
+        "O Papa Francisco reconheceu as suas virtudes heroicas em 6 de abril de 2019.",
       ],
     },
     {
@@ -497,7 +498,7 @@ const acervo: AcervoDeSantos = {
         "Hermínio Pinzetta nasceu em Casca, no Rio Grande do Sul, em 27 de julho de 1911, numa família de colonos. Trabalhou cerca de trinta anos na roça dos pais antes de seguir a vocação religiosa.",
         "Em 1945, já adulto, começou o noviciado na Ordem dos Frades Menores Capuchinhos e recebeu o nome de Frei Salvador. Foi irmão religioso, sem ser padre. Nos conventos fazia os serviços simples da comunidade, como a portaria e o cuidado das abelhas.",
         "Era homem de oração e muito humilde. Tinha alegria especial em levar a comunhão aos doentes, nas casas e no hospital de Flores da Cunha, e os fiéis o procuravam para pedir oração e conselho.",
-        "Morreu em Flores da Cunha em 31 de maio de 1972, e seus restos estão na igreja matriz da cidade. O Papa Francisco reconheceu as suas virtudes heroicas em maio de 2019.",
+        "Morreu em Flores da Cunha em 31 de maio de 1972, e seus restos estão na igreja matriz da cidade. O Papa Francisco reconheceu as suas virtudes heroicas em 13 de maio de 2019.",
       ],
     },
     {
@@ -615,7 +616,7 @@ const acervo: AcervoDeSantos = {
         "José Antônio Pereira Ibiapina nasceu em Sobral, Ceará, em 5 de agosto de 1806. Formou-se em Direito, foi juiz, advogado e deputado. Em 1850 deixou a carreira, viveu um tempo retirado em oração e, em 1853, aos 47 anos, foi ordenado padre. Passou a assinar José Antônio Maria Ibiapina.",
         "Dedicou-se às santas missões pelo sertão do Nordeste. Com a ajuda do povo, construiu igrejas, cemitérios, açudes, hospitais e, sobretudo, as casas de caridade: lugares que acolhiam órfãs, ensinavam ofícios e cuidavam de doentes, sobretudo nas epidemias de cólera. Fundou mais de vinte delas em vários estados.",
         "Por causa disso o povo o chamou de peregrino da caridade. Em 1878, uma doença paralisou suas pernas, e ele precisou parar as viagens. Passou os últimos anos na casa de caridade de Santa Fé, na Paraíba.",
-        "Morreu ali, no atual município de Solânea, em 19 de fevereiro de 1883. O Papa Francisco reconheceu as suas virtudes heroicas em 2025.",
+        "Morreu ali, no atual município de Solânea, em 19 de fevereiro de 1883. O Papa Francisco reconheceu as suas virtudes heroicas em 28 de março de 2025.",
       ],
     },
     {
@@ -717,7 +718,7 @@ const acervo: AcervoDeSantos = {
         "Cícero Romão Batista nasceu no Crato, Ceará, em 24 de março de 1844. Foi ordenado padre em 1870 e, pouco depois, foi viver no pequeno povoado de Juazeiro, onde ficou até a morte. Ali pregava, aconselhava e ajudava os sertanejos pobres, que o chamavam de meu Padim.",
         "Em 1889 começaram a correr notícias de fatos extraordinários ligados à comunhão de uma beata do lugar. A Igreja examinou o caso e não os reconheceu, e o padre recebeu punições e proibições que o afastaram do ministério por muitos anos. Ao mesmo tempo, Juazeiro cresceu e tornou-se cidade, e ele chegou a ter participação na política da região.",
         "Morreu em Juazeiro do Norte em 20 de julho de 1934. As romarias ao Juazeiro nunca pararam e estão entre as maiores do país.",
-        "Em 2015 a Santa Sé deu sinais de reconciliação com a sua memória. Em 2022 o Dicastério para as Causas dos Santos autorizou a abertura da sua causa de beatificação, e desde então ele é chamado servo de Deus. A causa ainda está em estudo.",
+        "Em 2015, numa carta enviada à diocese do Crato em nome do papa Francisco, a Santa Sé manifestou a reconciliação da Igreja com a sua memória. Em 2022 o Dicastério para as Causas dos Santos autorizou a abertura da sua causa de beatificação, e desde então ele é chamado servo de Deus. A causa ainda está em estudo.",
       ],
     },
     {

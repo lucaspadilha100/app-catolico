@@ -81,7 +81,7 @@ const acervo: AcervoDeSantos = {
     {
       id: "sao-jose-freinademetz",
       nome: "São José Freinademetz",
-      data: "0129",
+      data: "0128",
       calendario: false,
       situacao: "santo",
       pais: "Itália e China",
@@ -89,8 +89,8 @@ const acervo: AcervoDeSantos = {
       resumo: "Missionário verbita do Tirol que viveu e morreu entre os chineses, como um deles.",
       historia: [
         "José Freinademetz nasceu em 15 de abril de 1852, em Oies, uma aldeia de língua ladina no Tirol do Sul, região que hoje pertence à Itália. Foi ordenado padre em 1875 e, pouco depois, conheceu a obra de Santo Arnaldo Janssen. Entrou na Sociedade do Verbo Divino e, em 1879, partiu para a China.",
-        "Trabalhou durante quase trinta anos na província de Shandong, no sul, em meio a pobreza, viagens difíceis e perseguições. No começo achava estranhos os costumes do povo, mas aprendeu a língua, adotou o modo de vida chinês e passou a amar aquela gente de todo o coração. Dizia que queria ser chinês também no céu. Dedicou-se muito à formação de catequistas e de padres chineses.",
-        "Durante uma epidemia de tifo, foi cuidar dos doentes e contraiu a doença. Morreu em Taikia, em 28 de janeiro de 1908. Foi canonizado por São João Paulo II em 5 de outubro de 2003. A sua memória é celebrada em 29 de janeiro. Ensina que o missionário anuncia Cristo amando o povo a quem é enviado.",
+        "Trabalhou durante quase trinta anos no sul da província de Shandong, em meio a pobreza, viagens difíceis e perseguições. No começo achava estranhos os costumes do povo, mas aprendeu a língua, adotou o modo de vida chinês e passou a amar aquela gente de todo o coração. Dizia que queria ser chinês também no céu. Dedicou-se muito à formação de catequistas e de padres chineses.",
+        "Durante uma epidemia de tifo, foi cuidar dos doentes e contraiu a doença. Morreu em Taikia, em 28 de janeiro de 1908. Foi canonizado por São João Paulo II em 5 de outubro de 2003. A sua memória é celebrada em 28 de janeiro. Ensina que o missionário anuncia Cristo amando o povo a quem é enviado.",
       ],
     },
     {
@@ -134,14 +134,14 @@ const acervo: AcervoDeSantos = {
       resumo: "Padre romano que chamou os leigos ao apostolado e fundou a família palotina.",
       historia: [
         "Vicente Pallotti nasceu em Roma, em 21 de abril de 1795, e foi ordenado padre em 1818. Viveu toda a vida na cidade, onde era muito procurado como confessor e diretor espiritual. Atendia estudantes, soldados, presos, doentes e pobres, e organizava escolas noturnas para artesãos e camponeses.",
-        "Estava convencido de que todo batizado, e não só os padres e religiosos, é chamado a colaborar na missão da Igreja. Por isso fundou, em 1835, a União do Apostolado Católico, que reunia padres, religiosos e leigos. Dela nasceram a Sociedade do Apostolado Católico, cujos membros são os padres e irmãos palotinos, e as Irmãs Palotinas. Antecipou em mais de um século o que o Concílio Vaticano II ensinaria sobre os leigos.",
+        "Estava convencido de que todo batizado, e não só os padres e religiosos, é chamado a colaborar na missão da Igreja. Por isso fundou, em 1835, a União do Apostolado Católico, que reunia padres, religiosos e leigos. Dela nasceram a Sociedade do Apostolado Católico, cujos membros são os padres e irmãos palotinos, e as Irmãs Palotinas.",
         "Conta-se que adoeceu depois de ceder a sua capa a um pobre numa noite fria. Morreu em Roma, em 22 de janeiro de 1850. Foi canonizado pelo Papa São João XXIII em 20 de janeiro de 1963. Os palotinos chegaram ao Brasil com os imigrantes e têm muitas paróquias e obras no país.",
       ],
     },
     {
       id: "sao-leonardo-murialdo",
       nome: "São Leonardo Murialdo",
-      data: "0518",
+      data: "0330",
       calendario: false,
       situacao: "santo",
       pais: "Itália",
@@ -150,7 +150,7 @@ const acervo: AcervoDeSantos = {
       historia: [
         "Leonardo Murialdo nasceu em Turim, na Itália, em 26 de outubro de 1828, numa família de boa condição. Depois de uma crise na adolescência, reencontrou a fé e foi ordenado padre em 1851. Trabalhou ao lado de São João Bosco nos oratórios para os meninos da periferia da cidade.",
         "Em 1866 assumiu a direção do Colégio dos Artesãozinhos, uma obra que acolhia meninos órfãos e pobres e os preparava para um ofício. Para continuar esse trabalho, fundou em 1873 a Congregação de São José, cujos membros são conhecidos como josefinos de Murialdo. Preocupado com os operários, apoiou associações católicas de trabalhadores, a imprensa católica e iniciativas para defender os jovens que trabalhavam nas fábricas. A sua espiritualidade se apoiava na certeza de que Deus ama cada pessoa com amor infinito e misericordioso.",
-        "Morreu em Turim, em 30 de março de 1900. Foi canonizado por São Paulo VI em 3 de maio de 1970. A sua memória é celebrada em 18 de maio. Os josefinos de Murialdo trabalham também no Brasil, com paróquias e obras para a juventude.",
+        "Morreu em Turim, em 30 de março de 1900. Foi canonizado por São Paulo VI em 3 de maio de 1970. Os josefinos de Murialdo trabalham também no Brasil, com paróquias e obras para a juventude.",
       ],
     },
     {
@@ -261,7 +261,7 @@ const acervo: AcervoDeSantos = {
     {
       id: "santa-maria-domingas-mazzarello",
       nome: "Santa Maria Domingas Mazzarello",
-      data: "0513",
+      data: "0514",
       calendario: false,
       situacao: "santo",
       pais: "Itália",
@@ -270,7 +270,7 @@ const acervo: AcervoDeSantos = {
       historia: [
         "Maria Domingas Mazzarello nasceu em Mornese, no norte da Itália, em 9 de maio de 1837, numa família de camponeses. Trabalhava nas vinhas com o pai e participava de um grupo de moças, as Filhas de Maria Imaculada, que se dedicavam à oração e ao bem das jovens da aldeia.",
         "Aos 23 anos pegou tifo cuidando de parentes doentes e ficou fraca demais para o trabalho no campo. Aprendeu então a costurar e abriu com uma amiga uma pequena oficina para ensinar o ofício às meninas e educá-las na fé. Em 1864 conheceu São João Bosco, que viu nela a pessoa certa para começar uma obra pelas meninas. Em 1872, juntos, fundaram o Instituto das Filhas de Maria Auxiliadora, e ela foi a primeira superiora.",
-        "Governou as irmãs com alegria, simplicidade e firmeza. Morreu em Nizza Monferrato, em 14 de maio de 1881, aos 44 anos. Foi canonizada pelo Papa Pio XII em 24 de junho de 1951. A sua memória é celebrada em 13 de maio. As salesianas estão presentes em todo o Brasil.",
+        "Governou as irmãs com alegria, simplicidade e firmeza. Morreu em Nizza Monferrato, em 14 de maio de 1881, aos 44 anos. Foi canonizada pelo Papa Pio XII em 24 de junho de 1951. As salesianas estão presentes em todo o Brasil.",
       ],
     },
     {
@@ -428,7 +428,7 @@ const acervo: AcervoDeSantos = {
     {
       id: "sao-tito-brandsma",
       nome: "São Tito Brandsma",
-      data: "0727",
+      data: "0726",
       calendario: false,
       situacao: "santo",
       pais: "Países Baixos e Alemanha",
@@ -437,7 +437,7 @@ const acervo: AcervoDeSantos = {
       historia: [
         "Anno Brandsma nasceu na Frísia, nos Países Baixos, em 23 de fevereiro de 1881, numa família católica de camponeses. Entrou na Ordem do Carmo, recebeu o nome de Tito e foi ordenado padre em 1905. Foi professor de filosofia e de mística na Universidade Católica de Nimega, da qual chegou a ser reitor.",
         "Escrevia em jornais e era assistente eclesiástico dos jornalistas católicos do país. Quando os nazistas ocuparam os Países Baixos, quiseram obrigar os jornais católicos a publicar a sua propaganda. Em 1942, a pedido dos bispos, Tito visitou as redações e orientou os editores a recusar. Por isso foi preso, levado de prisão em prisão e, por fim, ao campo de concentração de Dachau, na Alemanha.",
-        "No campo, mesmo doente e maltratado, consolava os companheiros e rezava pelos que o torturavam. Foi morto com uma injeção letal em 26 de julho de 1942. Foi beatificado em 1985 e canonizado pelo Papa Francisco em 15 de maio de 2022. A sua memória é celebrada em 27 de julho.",
+        "No campo, mesmo doente e maltratado, consolava os companheiros e rezava pelos que o torturavam. Foi morto com uma injeção letal em 26 de julho de 1942. Foi beatificado em 1985 e canonizado pelo Papa Francisco em 15 de maio de 2022. A sua memória é celebrada em 26 de julho.",
       ],
     },
     {
@@ -473,7 +473,7 @@ const acervo: AcervoDeSantos = {
     {
       id: "beato-franz-jagerstatter",
       nome: "Beato Franz Jägerstätter",
-      data: "0521",
+      data: "0809",
       calendario: false,
       situacao: "beato",
       pais: "Áustria e Alemanha",
@@ -482,7 +482,7 @@ const acervo: AcervoDeSantos = {
       historia: [
         "Franz Jägerstätter nasceu em Sankt Radegund, uma aldeia da Áustria, em 20 de maio de 1907. Na juventude não era muito religioso, mas amadureceu na fé, sobretudo depois do casamento com Franziska, em 1936. Tiveram três filhas. Era agricultor e sacristão da paróquia.",
         "Depois que a Áustria foi anexada pela Alemanha nazista, em 1938, Franz foi o único da aldeia a votar contra. Estava convencido de que o nazismo era contrário ao Evangelho e de que não podia combater numa guerra injusta a serviço desse regime. Quando foi chamado para o serviço militar, em 1943, recusou-se a jurar fidelidade a Hitler, embora se dispusesse a servir como enfermeiro. Muitos, até padres, tentaram convencê-lo a ceder, pensando na família. A esposa o apoiou.",
-        "Foi condenado à morte e executado em Brandemburgo, na Alemanha, em 9 de agosto de 1943. Foi beatificado em Linz, em 26 de outubro de 2007. Ensina a fidelidade à consciência formada na fé, mesmo quando se fica sozinho.",
+        "Foi condenado à morte e executado em Brandemburgo, na Alemanha, em 9 de agosto de 1943. Foi beatificado em Linz, em 26 de outubro de 2007. A sua memória é celebrada em 9 de agosto. Ensina a fidelidade à consciência formada na fé, mesmo quando se fica sozinho.",
       ],
     },
     {
@@ -512,7 +512,7 @@ const acervo: AcervoDeSantos = {
       historia: [
         "Józef Ulma e Wiktoria Niemczak casaram-se em 7 de julho de 1935, em Markowa, uma aldeia do sudeste da Polônia. Józef era agricultor, gostava de jardinagem, de livros e de fotografia, e registrou em fotos a vida da família e da aldeia. Wiktoria cuidava da casa e dos filhos. Tiveram seis crianças e esperavam a sétima.",
         "Durante a ocupação alemã, quando os judeus eram caçados e mortos, os Ulma esconderam em casa oito judeus, de duas famílias. Sabiam que a pena para quem ajudasse judeus era a morte. Na sua Bíblia, a parábola do bom samaritano estava sublinhada.",
-        "Na madrugada de 24 de março de 1944, os policiais alemães, avisados por um denunciante, mataram os judeus escondidos e depois Józef, Wiktoria e os seis filhos. Wiktoria estava em trabalho de parto. Foram beatificados em Markowa, em 10 de setembro de 2023, todos juntos, incluindo o filho que estava para nascer. A sua memória é celebrada em 7 de julho, aniversário do casamento.",
+        "Na madrugada de 24 de março de 1944, os policiais alemães, avisados por um denunciante, mataram os judeus escondidos e depois Józef, Wiktoria e os seis filhos. Wiktoria estava em trabalho de parto. Foram beatificados em Markowa, em 10 de setembro de 2023, todos juntos, incluindo o filho que estava para nascer.",
       ],
     },
     {
@@ -523,11 +523,11 @@ const acervo: AcervoDeSantos = {
       situacao: "beato",
       pais: "Itália",
       nomes: ["Pio", "João Maria"],
-      resumo: "Papa do dogma da Imaculada Conceição e do Concílio Vaticano I, o pontificado mais longo da história.",
+      resumo: "Papa do dogma da Imaculada Conceição e do Concílio Vaticano I, o pontificado mais longo depois do de São Pedro.",
       historia: [
         "João Maria Mastai Ferretti nasceu em Senigallia, na Itália, em 13 de maio de 1792. Na juventude sofreu de epilepsia, que o impediu de seguir carreira militar, mas melhorou e foi ordenado padre em 1819. Trabalhou com órfãos em Roma, esteve em missão no Chile e foi bispo de Spoleto e de Ímola.",
         "Foi eleito papa em 1846 e tomou o nome de Pio IX. Governou a Igreja por quase 32 anos, o pontificado mais longo depois do de São Pedro. Em 8 de dezembro de 1854 proclamou o dogma da Imaculada Conceição de Nossa Senhora. Em 1869 abriu o Concílio Vaticano I, que definiu a infalibilidade do papa quando ensina, de modo solene, sobre fé e moral. Em 1870 perdeu os Estados Pontifícios e Roma, e passou o resto da vida no Vaticano.",
-        "Viveu tempos de grande conflito político, e o seu governo foi muito discutido. Era homem de oração e de grande devoção a Nossa Senhora. Morreu em 7 de fevereiro de 1878. Foi beatificado por São João Paulo II em 3 de setembro de 2000, junto com São João XXIII.",
+        "Viveu tempos de grande conflito político. Era homem de oração e de grande devoção a Nossa Senhora. Morreu em 7 de fevereiro de 1878. Foi beatificado por São João Paulo II em 3 de setembro de 2000, junto com São João XXIII.",
       ],
       imagem: { artic: 141549, titulo: "Papal Medal of Pius IX", artista: "Italian", data: "1846/78" },
     },
@@ -588,7 +588,7 @@ const acervo: AcervoDeSantos = {
       resumo: "Leiga portuguesa de Balasar que passou mais de trinta anos presa à cama, oferecendo os seus sofrimentos.",
       historia: [
         "Alexandrina Maria da Costa nasceu em Balasar, no norte de Portugal, em 30 de março de 1904, numa família pobre de lavradores. Aos 14 anos, para escapar de homens que tinham entrado em casa com más intenções, pulou de uma janela. A queda lhe causou lesões na coluna que, com o tempo, a deixaram paralisada. A partir de 1925 não se levantou mais da cama.",
-        "No começo pediu a cura, mas aos poucos entendeu que Deus a chamava a oferecer o sofrimento pela salvação das almas. Viveu uma intensa vida de oração e de união com a Paixão de Cristo. Pediu ao papa, por meio do seu diretor espiritual, a consagração do mundo ao Imaculado Coração de Maria, que Pio XII fez em 1942. Segundo os relatos e um exame médico feito em 1943, nos últimos treze anos de vida não se alimentou de nada além da comunhão.",
+        "No começo pediu a cura, mas aos poucos entendeu que Deus a chamava a oferecer o sofrimento pela salvação das almas. Viveu uma intensa vida de oração e de união com a Paixão de Cristo. Pediu ao papa, por meio do seu diretor espiritual, a consagração do mundo ao Imaculado Coração de Maria, que Pio XII fez em 1942. Segundo os relatos e um exame médico feito em 1943, nos últimos treze anos de vida não se alimentou de nada além da comunhão. A Igreja, ao beatificá-la, julgou as suas virtudes e não se pronunciou sobre esse fato.",
         "Muita gente a visitava para pedir conselho e oração. Era cooperadora salesiana. Morreu em 13 de outubro de 1955. Foi beatificada por São João Paulo II em 25 de abril de 2004.",
       ],
     },
@@ -701,7 +701,7 @@ const acervo: AcervoDeSantos = {
     {
       id: "sao-jose-gabriel-brochero",
       nome: "São José Gabriel Brochero",
-      data: "0316",
+      data: "0126",
       calendario: false,
       situacao: "santo",
       pais: "Argentina",
@@ -710,7 +710,7 @@ const acervo: AcervoDeSantos = {
       historia: [
         "José Gabriel do Rosário Brochero nasceu perto de Santa Rosa de Río Primero, na província de Córdoba, na Argentina, em 16 de março de 1840. Foi ordenado padre em 1866 e, no ano seguinte, ajudou os doentes durante uma epidemia de cólera em Córdoba.",
         "Em 1869 foi enviado para a região de Traslasierra, uma terra pobre e isolada do outro lado das serras. Percorria grandes distâncias montado numa mula, visitando famílias, ouvindo confissões e levando os sacramentos. Construiu uma casa de exercícios espirituais de Santo Inácio, aonde levava milhares de pessoas para dias de oração. Também lutou por escolas, estradas, aquedutos e por uma ferrovia para tirar o povo do isolamento.",
-        "Segundo a tradição, contraiu a hanseníase por partilhar o mate com um doente. Ficou cego e quase surdo e passou os últimos anos rezando. Morreu em 26 de janeiro de 1914. Foi canonizado pelo Papa Francisco em 16 de outubro de 2016. A sua memória é celebrada em 16 de março, dia do seu nascimento.",
+        "Segundo a tradição, contraiu a hanseníase por partilhar o mate com um doente. Ficou cego e quase surdo e passou os últimos anos rezando. Morreu em 26 de janeiro de 1914. Foi canonizado pelo Papa Francisco em 16 de outubro de 2016. A sua memória é celebrada em 26 de janeiro.",
       ],
       padroeiro: ["do clero argentino"],
     },

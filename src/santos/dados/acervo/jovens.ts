@@ -29,7 +29,7 @@ const acervo: AcervoDeSantos = {
       nomes: ["Pedro", "Jorge", "Pier Giorgio"],
       resumo: "Estudante de Turim, alpinista e amigo dos pobres, que viveu a fé com alegria e morreu aos vinte e quatro anos.",
       historia: [
-        "Pier Giorgio Frassati nasceu em Turim em 6 de abril de 1901, numa família rica e importante. O pai, Alfredo, fundou o jornal La Stampa e foi senador e embaixador na Alemanha. Em casa a fé não era muito vivida, mas o rapaz encontrou nos jesuítas, na comunhão diária e na oração o centro da sua vida.",
+        "Pier Giorgio Frassati nasceu em Turim em 6 de abril de 1901, numa família rica e importante. O pai, Alfredo, dirigia o jornal La Stampa e foi senador e embaixador na Alemanha. Em casa a fé não era muito vivida, mas o rapaz encontrou nos jesuítas, na comunhão diária e na oração o centro da sua vida.",
         "Estudou engenharia de minas para trabalhar ao lado dos mineiros. Participava da Ação Católica e da Federação dos Universitários Católicos, entrou na Conferência de São Vicente de Paulo e fez-se terceiro dominicano. Visitava os pobres dos bairros de Turim, levava-lhes comida, remédio e dinheiro, quase sempre sem que a família soubesse. Gostava de esquiar e de escalar montanhas com os amigos, e escreveu numa foto a frase que ficou famosa: para o alto.",
         "No fim de junho de 1925 adoeceu de poliomielite fulminante, provavelmente contraída de algum doente que visitava. Morreu em 4 de julho de 1925, aos vinte e quatro anos. No enterro, a família se surpreendeu com a multidão de pobres que ele havia ajudado. Foi beatificado por São João Paulo II em 20 de maio de 1990 e canonizado pelo papa Leão XIV em 7 de setembro de 2025.",
         "Pier Giorgio ensina que a santidade cabe na vida de um estudante alegre, cheio de amigos e de esporte.",
@@ -88,7 +88,7 @@ const acervo: AcervoDeSantos = {
     {
       id: "santa-teresa-dos-andes",
       nome: "Santa Teresa dos Andes",
-      data: "0713",
+      data: "0412",
       calendario: false,
       situacao: "santo",
       pais: "Chile",
@@ -97,7 +97,7 @@ const acervo: AcervoDeSantos = {
       historia: [
         "Juana Fernández Solar nasceu em Santiago do Chile em 13 de julho de 1900, numa família rica e católica. Era alegre, esportiva, gostava de cavalgar e de nadar, mas também tinha gênio forte, que foi corrigindo com esforço. Aos quatorze anos sentiu o chamado à vida religiosa. A leitura dos escritos de Santa Teresinha e de Santa Elisabete da Trindade marcou muito a sua vida.",
         "Escrevia cartas e um diário em que fala do amor de Jesus com simplicidade. Em maio de 1919 entrou no pequeno Carmelo da cidade de Los Andes, recebendo o nome de Teresa de Jesus. Dentro do convento continuou a escrever às amigas e à família, animando-as a viver a fé.",
-        "Poucos meses depois adoeceu de tifo. Fez a profissão religiosa já à beira da morte e morreu em 12 de abril de 1920, com dezenove anos. Foi beatificada por São João Paulo II em Santiago, em 3 de abril de 1987, e canonizada por ele em 21 de março de 1993. É a primeira santa chilena, e o seu santuário recebe peregrinos de todo o país. No Chile e na América Latina a memória é celebrada em 13 de julho, dia em que nasceu.",
+        "Poucos meses depois adoeceu de tifo. Fez a profissão religiosa já à beira da morte e morreu em 12 de abril de 1920, com dezenove anos. Foi beatificada por São João Paulo II em Santiago, em 3 de abril de 1987, e canonizada por ele em 21 de março de 1993. É a primeira santa chilena, e o seu santuário recebe peregrinos de todo o país. A sua memória é celebrada em 12 de abril.",
         "Teresa ensina aos jovens que a alegria e a entrega a Deus andam juntas.",
       ],
     },
@@ -164,7 +164,7 @@ const acervo: AcervoDeSantos = {
       resumo: "Jovem de Luca, unida à Paixão de Cristo, que viveu doente e pobre e morreu aos vinte e cinco anos.",
       historia: [
         "Gema Galgani nasceu em 12 de março de 1878 perto de Luca, na Toscana, filha de um farmacêutico. Perdeu a mãe aos sete anos e o pai aos dezenove, quando a família ficou na miséria. Daí em diante viveu de favor, cuidando dos irmãos menores.",
-        "Em 1899 ficou gravemente doente da coluna e foi desenganada pelos médicos. Rezou a São Gabriel de Nossa Senhora das Dores e a Santa Margarida Maria e foi curada de repente. No mesmo ano começou a ter nos pés, nas mãos e no lado as marcas da Paixão de Cristo, que apareciam sobretudo às quintas e sextas-feiras. Queria ser religiosa passionista, mas não foi aceita por causa da saúde. Passou a morar com a família Giannini, que a acolheu como filha, e teve por diretor espiritual o padre passionista Germano.",
+        "Em 1899 ficou gravemente doente da coluna e foi desenganada pelos médicos. Rezou a São Gabriel de Nossa Senhora das Dores e a Santa Margarida Maria e atribuiu à intercessão deles a cura, que veio de repente. No mesmo ano, segundo as testemunhas, começaram a aparecer nos seus pés, nas mãos e no lado as marcas da Paixão de Cristo, sobretudo às quintas e sextas-feiras. A Igreja, ao canonizá-la, julgou as suas virtudes e não se pronunciou sobre esses fenômenos. Queria ser religiosa passionista, mas não foi aceita por causa da saúde. Passou a morar com a família Giannini, que a acolheu como filha, e teve por diretor espiritual o padre passionista Germano.",
         "Viveu escondida, rezando e oferecendo os sofrimentos pela conversão dos pecadores. Morreu de tuberculose em Luca, num Sábado Santo, em 11 de abril de 1903, com vinte e cinco anos. Foi canonizada pelo papa Pio XII em 2 de maio de 1940.",
         "Gema ensina a unir os próprios sofrimentos aos de Jesus, com confiança de filha.",
       ],
@@ -248,7 +248,7 @@ const acervo: AcervoDeSantos = {
       historia: [
         "Rafael Arnáiz Barón nasceu em Burgos, na Espanha, em 9 de abril de 1911, numa família rica e católica. Estudou com os jesuítas, desenhava e pintava muito bem e foi para Madri estudar arquitetura. Era alegre e simpático, gostava de música e de passeios.",
         "Ao visitar o mosteiro trapista de San Isidro de Dueñas, em Palência, sentiu-se chamado à vida de silêncio e oração. Entrou ali em janeiro de 1934. Poucos meses depois descobriu que tinha diabetes grave e precisou voltar para casa. Voltou ao mosteiro mais de uma vez, já sem poder seguir toda a regra, aceitando ficar como oblato, no último lugar. Nos seus cadernos, que hoje são lidos no mundo todo, repetia que só Deus basta.",
-        "Morreu no mosteiro em 26 de abril de 1938, com vinte e sete anos. São João Paulo II o apresentou como modelo aos jovens na Jornada Mundial da Juventude de Santiago de Compostela, em 1989, e o beatificou em 1992. O papa Bento XVI o canonizou em 11 de outubro de 2009. Nos mosteiros trapistas a memória é celebrada em 27 de abril.",
+        "Morreu no mosteiro em 26 de abril de 1938, com vinte e sete anos. São João Paulo II o apresentou como modelo aos jovens na Jornada Mundial da Juventude de Santiago de Compostela, em 1989, e o beatificou em 1992. O papa Bento XVI o canonizou em 11 de outubro de 2009. A sua memória é celebrada em 26 de abril.",
         "Rafael ensina a aceitar os planos de Deus quando eles desfazem os nossos.",
       ],
     },
@@ -264,7 +264,7 @@ const acervo: AcervoDeSantos = {
       historia: [
         "Cristóvão, Antônio e João eram meninos indígenas de Tlaxcala, no México, nos primeiros anos da evangelização da América, logo depois da chegada dos espanhóis. Foram educados pelos frades franciscanos, que reuniam os filhos dos chefes para ensinar a fé, a leitura e a escrita. Os três receberam o batismo e passaram a ajudar os missionários.",
         "Cristóvão, filho de um chefe poderoso chamado Acxotécatl, tinha uns doze ou treze anos. Pedia ao pai que deixasse os ídolos e a embriaguez, e chegou a quebrar imagens dos deuses da casa. O pai, enfurecido, o espancou e o matou em 1527. Em 1529, Antônio, neto de um chefe, e João, seu criado, também meninos, acompanharam frades dominicanos à região de Cuauhtinchan e ajudaram a recolher ídolos. Foram mortos a pauladas por moradores do lugar.",
-        "São considerados os primeiros mártires da América. Foram beatificados por São João Paulo II na Basílica de Guadalupe em 6 de maio de 1990 e canonizados pelo papa Francisco em 15 de outubro de 2017. No México a memória é celebrada em 23 de setembro.",
+        "São lembrados como os primeiros mártires da América. Foram beatificados por São João Paulo II na Basílica de Guadalupe em 6 de maio de 1990 e canonizados pelo papa Francisco em 15 de outubro de 2017.",
         "Os meninos de Tlaxcala ensinam que a fé recebida com sinceridade pode ser mais forte que o medo.",
       ],
     },
@@ -336,7 +336,7 @@ const acervo: AcervoDeSantos = {
     {
       id: "beato-marcel-callo",
       nome: "Beato Marcel Callo",
-      data: "0419",
+      data: "0319",
       calendario: false,
       situacao: "beato",
       pais: "França e Áustria",
@@ -345,7 +345,7 @@ const acervo: AcervoDeSantos = {
       historia: [
         "Marcel Callo nasceu em Rennes, na França, em 6 de dezembro de 1921, numa família numerosa e católica. Aprendeu o ofício de tipógrafo e entrou na Juventude Operária Católica, a JOC, onde aprendeu a levar Cristo ao ambiente de trabalho. Foi escoteiro e noivo de Marguerite, com quem pensava casar.",
         "Em 1943, durante a ocupação alemã, foi convocado para o trabalho obrigatório na Alemanha e mandado para uma fábrica em Zella-Mehlis. Lá organizou, às escondidas, grupos de jovens operários franceses, encontrou um lugar para celebrar a Missa e animava os companheiros desanimados. Em 19 de abril de 1944 foi preso. Os alemães o acusaram de ser católico demais.",
-        "Passou por prisões e campos de concentração e chegou a Mauthausen, na Áustria. Doente e esgotado, continuou a rezar e a consolar os outros. Morreu em 19 de março de 1945, com vinte e três anos. Foi beatificado por São João Paulo II em 4 de outubro de 1987. A diocese de Rennes celebra a sua memória em 19 de abril, data da prisão, porque 19 de março é a festa de São José.",
+        "Passou por prisões e campos de concentração e chegou a Mauthausen, na Áustria. Doente e esgotado, continuou a rezar e a consolar os outros. Morreu em 19 de março de 1945, com vinte e três anos. Foi beatificado por São João Paulo II em 4 de outubro de 1987. A sua memória é celebrada em 19 de março, dia da sua morte.",
         "Marcel ensina que o trabalhador cristão é apóstolo dos colegas, até nas piores condições.",
       ],
       padroeiro: ["dos jovens operários"],
@@ -353,7 +353,7 @@ const acervo: AcervoDeSantos = {
     {
       id: "beato-ceferino-namuncura",
       nome: "Beato Ceferino Namuncurá",
-      data: "0826",
+      data: "0511",
       calendario: false,
       situacao: "beato",
       pais: "Argentina e Itália",
@@ -362,7 +362,7 @@ const acervo: AcervoDeSantos = {
       historia: [
         "Ceferino Namuncurá nasceu em 26 de agosto de 1886 em Chimpay, na Patagônia argentina. Era filho do cacique mapuche Manuel Namuncurá, que pouco antes tinha se rendido ao exército argentino. Foi batizado por um missionário salesiano.",
         "Aos onze anos o pai o levou a Buenos Aires para estudar. Ceferino entrou no colégio salesiano Pio IX e depois foi para Viedma. Ali decidiu ser sacerdote para levar o Evangelho ao seu povo. Era estudioso, educado e muito piedoso, e os colegas o admiravam.",
-        "Em 1904 o bispo salesiano João Cagliero o levou para a Itália, para continuar os estudos. Foi recebido pelo papa Pio X. Mas já estava doente de tuberculose. Morreu em Roma em 11 de maio de 1905, com dezoito anos. Os seus restos foram levados de volta para a Argentina. Foi beatificado em Chimpay em 11 de novembro de 2007, numa celebração que reuniu dezenas de milhares de pessoas. A sua memória é celebrada em 26 de agosto, dia em que nasceu.",
+        "Em 1904 o bispo salesiano João Cagliero o levou para a Itália, para continuar os estudos. Foi recebido pelo papa Pio X. Mas já estava doente de tuberculose. Morreu em Roma em 11 de maio de 1905, com dezoito anos. Os seus restos foram levados de volta para a Argentina. Foi beatificado em Chimpay em 11 de novembro de 2007, numa celebração que reuniu dezenas de milhares de pessoas. A sua memória é celebrada em 11 de maio, dia da sua morte.",
         "Ceferino ensina o amor ao próprio povo e o desejo de lhe levar a fé.",
       ],
     },
@@ -378,7 +378,7 @@ const acervo: AcervoDeSantos = {
       historia: [
         "Imelda Lambertini nasceu em Bolonha, na Itália, numa família nobre, no começo do século XIV. Ainda criança foi entregue às monjas dominicanas do mosteiro de Santa Maria Madalena, perto da cidade, para ser educada. Gostava muito de rezar e de participar da Missa.",
         "Naquele tempo as crianças só recebiam a primeira comunhão bem mais velhas. Imelda desejava ardentemente comungar e chorava ao ver as monjas receberem o Senhor. A tradição conta que, em 12 de maio de 1333, durante a Missa, uma hóstia apareceu brilhando sobre a sua cabeça. O padre entendeu o sinal e lhe deu a comunhão. Imelda ficou em oração e, pouco depois, morreu em paz. Tinha uns onze anos.",
-        "Os documentos daquela época são poucos, e os detalhes da história chegaram pela tradição. O culto foi confirmado pelo papa Leão XII em 1826, e São Pio X, que permitiu a comunhão das crianças pequenas, a propôs como padroeira dos que fazem a primeira comunhão. Os dominicanos guardam a sua memória.",
+        "Os documentos daquela época são poucos, e os detalhes da história chegaram pela tradição. O culto foi confirmado pelo papa Leão XII em 1826. É lembrada como padroeira dos que fazem a primeira comunhão. Os dominicanos guardam a sua memória.",
         "Imelda ensina o desejo da Eucaristia e o respeito por ela.",
       ],
       padroeiro: ["da primeira comunhão"],
@@ -466,7 +466,7 @@ const acervo: AcervoDeSantos = {
     {
       id: "beata-teresa-bracco",
       nome: "Beata Teresa Bracco",
-      data: "0830",
+      data: "0829",
       calendario: false,
       situacao: "beato",
       pais: "Itália",
@@ -475,14 +475,14 @@ const acervo: AcervoDeSantos = {
       historia: [
         "Teresa Bracco nasceu em 24 de fevereiro de 1924 em Santa Giulia, perto de Dego, no Piemonte, na Itália, numa família de camponeses. Cuidava dos animais e do trabalho do campo. Andava todos os dias até a igreja para a Missa e rezava o terço enquanto pastoreava. Guardava a imagem de Domingos Sávio e a frase dele: antes morrer que pecar.",
         "Durante a Segunda Guerra Mundial, a região foi palco de combates entre os partisanos e as tropas alemãs, e as moças corriam perigo. Em 28 de agosto de 1944, numa operação contra os partisanos, soldados alemães levaram Teresa para o bosque. Um deles tentou violentá-la. Teresa resistiu, e ele a matou.",
-        "Tinha vinte anos. O corpo foi encontrado dois dias depois, em 30 de agosto. Foi beatificada por São João Paulo II em Turim em 24 de maio de 1998, e a carta de beatificação fixou a sua memória em 30 de agosto.",
+        "Tinha vinte anos. O corpo foi encontrado dois dias depois, em 30 de agosto. Foi beatificada por São João Paulo II em Turim em 24 de maio de 1998. A sua memória é celebrada em 29 de agosto.",
         "Teresa ensina a firmeza na fé e na pureza, aprendida na oração simples de cada dia.",
       ],
     },
     {
       id: "beata-anna-kolesarova",
       nome: "Beata Anna Kolesárová",
-      data: "1120",
+      data: "1122",
       calendario: false,
       situacao: "beato",
       pais: "Eslováquia",
@@ -491,7 +491,7 @@ const acervo: AcervoDeSantos = {
       historia: [
         "Anna Kolesárová nasceu em 14 de julho de 1928 em Vysoká nad Uhom, no leste da atual Eslováquia, numa família de camponeses. A mãe morreu quando ela tinha dez anos, e Anna passou a cuidar da casa, do pai e do irmão. Era muito ligada à paróquia e à oração.",
         "No fim de 1944, durante a Segunda Guerra Mundial, o exército soviético chegou à aldeia. Os moradores se escondiam nos porões. Em 22 de novembro de 1944, um soldado entrou na casa da família. O pai pediu a Anna que lhe servisse comida, para acalmá-lo. O soldado quis abusar dela, e ela recusou. Diante do pai, o soldado a matou com um tiro. Antes, ela despediu-se da família dizendo os nomes de Jesus, Maria e José.",
-        "Tinha dezesseis anos. Foi beatificada em Košice em 1º de setembro de 2018, numa celebração presidida pelo cardeal Angelo Becciu, em nome do papa Francisco. A carta de beatificação fixou a sua memória em 20 de novembro.",
+        "Tinha dezesseis anos. Foi beatificada em Košice em 1º de setembro de 2018, numa celebração presidida pelo cardeal Angelo Becciu, em nome do papa Francisco. A sua memória é celebrada em 22 de novembro, dia da sua morte.",
         "Anna ensina a coragem de dizer não ao pecado, custe o que custar.",
       ],
       padroeiro: ["da juventude eslovaca"],
@@ -531,7 +531,7 @@ const acervo: AcervoDeSantos = {
     {
       id: "beato-rolando-rivi",
       nome: "Beato Rolando Rivi",
-      data: "0529",
+      data: "0413",
       calendario: false,
       situacao: "beato",
       pais: "Itália",
@@ -539,15 +539,15 @@ const acervo: AcervoDeSantos = {
       resumo: "Seminarista de quatorze anos morto em 1945 porque não quis tirar a batina.",
       historia: [
         "Rolando Rivi nasceu em 7 de janeiro de 1931 em San Valentino, perto de Castellarano, na região de Reggio Emilia, na Itália, numa família de camponeses. Aos onze anos entrou no seminário. Desde então passou a usar a batina, como era costume, e dizia que ela era o sinal de que pertencia a Jesus.",
-        "Em 1944, por causa da guerra, o seminário foi fechado e Rolando voltou para casa. Continuou a usar a batina, a ajudar o pároco e a estudar. Naquela região, alguns grupos de guerrilheiros comunistas tinham ódio à Igreja e aos padres. Os pais pediram que ele tirasse a batina, por prudência, mas ele não quis.",
-        "Em 10 de abril de 1945 foi levado por um desses grupos. Ficou preso, foi maltratado e despojado da batina. Em 13 de abril de 1945 o mataram num bosque em Piane di Monchio, perto de Modena. Tinha quatorze anos. Foi beatificado em Modena em 5 de outubro de 2013 como mártir. A carta de beatificação fixou a sua memória em 29 de maio.",
+        "Em 1944, por causa da guerra, o seminário foi fechado e Rolando voltou para casa. Continuou a usar a batina, a ajudar o pároco e a estudar. Naquela região, alguns grupos de guerrilheiros tinham ódio à Igreja e aos padres. Os pais pediram que ele tirasse a batina, por prudência, mas ele não quis.",
+        "Em 10 de abril de 1945 foi levado por um desses grupos. Ficou preso, foi maltratado e despojado da batina. Em 13 de abril de 1945 o mataram num bosque em Piane di Monchio, perto de Modena. Tinha quatorze anos. Foi beatificado em Modena em 5 de outubro de 2013 como mártir. A sua memória é celebrada em 13 de abril, dia da sua morte.",
         "Rolando ensina a não ter vergonha de mostrar que pertence a Cristo.",
       ],
     },
     {
       id: "beata-maria-gabriela-sagheddu",
       nome: "Beata Maria Gabriela Sagheddu",
-      data: "0422",
+      data: "0423",
       calendario: false,
       situacao: "beato",
       pais: "Itália",
@@ -556,7 +556,7 @@ const acervo: AcervoDeSantos = {
       historia: [
         "Maria Sagheddu nasceu em 17 de março de 1914 em Dorgali, na ilha da Sardenha, numa família de pastores. Quando menina era teimosa e de pouca paciência, e fazia as coisas de má vontade. Por volta dos dezoito anos, depois da morte de uma irmã, mudou de vida: passou a rezar mais, entrou na Ação Católica e começou a ajudar os pobres.",
         "Em 1935 entrou no mosteiro trapista de Grottaferrata, perto de Roma, e recebeu o nome de Maria Gabriela. Ali conheceu o apelo do padre Paul Couturier, da França, que pedia orações pela unidade dos cristãos. Em 1938, durante a semana de oração pela unidade, Gabriela ofereceu a Deus a própria vida por essa intenção, com permissão da abadessa.",
-        "Pouco depois ficou doente de tuberculose. Sofreu quinze meses, em paz e sem queixas. Morreu em 23 de abril de 1939, domingo do Bom Pastor, com vinte e cinco anos. Foi beatificada por São João Paulo II em 25 de janeiro de 1983, no fim da semana de oração pela unidade dos cristãos. É chamada Maria Gabriela da Unidade. Os mosteiros trapistas celebram a sua memória em 22 de abril.",
+        "Pouco depois ficou doente de tuberculose. Sofreu quinze meses, em paz e sem queixas. Morreu em 23 de abril de 1939, domingo do Bom Pastor, com vinte e cinco anos. Foi beatificada por São João Paulo II em 25 de janeiro de 1983, no fim da semana de oração pela unidade dos cristãos. É chamada Maria Gabriela da Unidade. A sua memória é celebrada em 23 de abril, dia da sua morte.",
         "Gabriela ensina a rezar e a se oferecer para que os cristãos sejam um só.",
       ],
       padroeiro: ["da unidade dos cristãos"],
@@ -606,7 +606,7 @@ const acervo: AcervoDeSantos = {
       historia: [
         "Daudi Okelo e Jildo Irwa eram do povo acholi, no norte de Uganda. Foram batizados ainda jovens na missão dos combonianos em Kitgum e se prepararam para ser catequistas. Daudi era o mais velho, com uns dezesseis a dezoito anos. Jildo era quase uma criança, com uns doze a quatorze anos.",
         "Em 1917 os dois se ofereceram para ir à aldeia de Paimol, que estava sem catequista. Ali ensinavam as orações e o catecismo, acordavam o povo com o tambor para a oração da manhã e preparavam as pessoas para o batismo. A região vivia em grande tensão, e alguns grupos tinham ódio aos cristãos e à nova religião.",
-        "Em outubro de 1918 homens armados mandaram que eles parassem de ensinar e fossem embora. Os dois responderam que não abandonariam o trabalho que Deus lhes tinha confiado. Foram mortos a golpes de lança. Foram beatificados por São João Paulo II em 20 de outubro de 2002, Dia Mundial das Missões. A data da memória varia nos calendários: em Uganda e em outros lugares se celebra em 20 de outubro.",
+        "Em outubro de 1918 homens armados mandaram que eles parassem de ensinar e fossem embora. Os dois responderam que não abandonariam o trabalho que Deus lhes tinha confiado. Foram mortos a golpes de lança. Foram beatificados por São João Paulo II em 20 de outubro de 2002, Dia Mundial das Missões.",
         "Daudi e Jildo ensinam que ninguém é jovem demais para anunciar Jesus.",
       ],
     },
@@ -629,7 +629,7 @@ const acervo: AcervoDeSantos = {
     {
       id: "beata-veronica-antal",
       nome: "Beata Verônica Antal",
-      data: "0824",
+      data: "0826",
       calendario: false,
       situacao: "beato",
       pais: "Romênia",
@@ -638,7 +638,7 @@ const acervo: AcervoDeSantos = {
       historia: [
         "Veronica Antal nasceu em 7 de dezembro de 1935 em Nisiporești, no nordeste da Romênia, numa família católica de camponeses. Desde menina rezava muito, sobretudo o terço. Queria ser religiosa, mas o governo comunista tinha fechado os conventos. Ela então decidiu consagrar-se a Deus vivendo em casa e entrou na Ordem Franciscana Secular.",
         "Trabalhava no campo com a família, ia à Missa sempre que podia, mesmo andando longe, e ensinava o catecismo às crianças. Tinha Santa Maria Goretti como modelo.",
-        "Em 24 de agosto de 1958, voltando a pé de uma celebração na igreja de Hălăucești, foi atacada por um rapaz num milharal. Resistiu e foi morta a facadas. Ao ser encontrada, segurava o terço na mão. Tinha vinte e dois anos. Foi beatificada em Nisiporești em 22 de setembro de 2018, numa celebração presidida pelo cardeal Angelo Becciu.",
+        "Em 24 de agosto de 1958, voltando a pé de uma celebração na igreja de Hălăucești, foi atacada por um rapaz num milharal. Resistiu e foi morta a facadas. Ao ser encontrada, segurava o terço na mão. Tinha vinte e dois anos. Foi beatificada em Nisiporești em 22 de setembro de 2018, numa celebração presidida pelo cardeal Angelo Becciu. A sua memória é celebrada em 26 de agosto.",
         "Veronica ensina a consagração a Deus vivida com fidelidade, mesmo quando o mundo fecha as portas.",
       ],
     },
