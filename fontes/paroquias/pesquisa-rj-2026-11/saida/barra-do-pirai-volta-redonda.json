@@ -1,0 +1,5680 @@
+[
+ {
+  "id_banco": null,
+  "nome": "Catedral Senhora Sant'Ana",
+  "categoria": "catedral",
+  "cidade": "Barra do Piraí",
+  "padroeiro": "Sant'Ana",
+  "contatos": {
+   "telefone": "24998559755",
+   "whatsapp": "24998559755",
+   "instagram": "",
+   "site": "",
+   "email": "catedralsantana2016@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Catedral Senhora Sant'Ana",
+    "tipo": "matriz",
+    "cidade": "Barra do Piraí",
+    "localidade": "Nossa Senhora de Santana",
+    "endereco": "Rua Barão do Rio Bonito, 240",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Barra do Piraí",
+    "localidade": "Coimbra",
+    "endereco": "Rua Célia Diegues, 157",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Glória",
+    "tipo": "comunidade",
+    "cidade": "Barra do Piraí",
+    "localidade": "Metalúrgica",
+    "endereco": "Rua Lúcio Mansur Elías, 2",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Piedade",
+    "tipo": "comunidade",
+    "cidade": "Barra do Piraí",
+    "localidade": "Ipiabas",
+    "endereco": "Rua Diogo de Macedo",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Bárbara",
+    "tipo": "comunidade",
+    "cidade": "Barra do Piraí",
+    "localidade": "Belvedere da Taquara",
+    "endereco": "Rua Major Mário Salgueiro, 4670",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Barra do Piraí",
+    "localidade": "Oficinas Velhas",
+    "endereco": "Rua Prefeito Iago José de Castro Valério, 1039",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Barra do Piraí",
+    "localidade": "Santo Antônio",
+    "endereco": "Rua Antônio de Almeida, 528",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Judas Tadeu",
+    "tipo": "comunidade",
+    "cidade": "Barra do Piraí",
+    "localidade": "Lago Azul",
+    "endereco": "Rua Nelson Clemente, 138",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Judas Tadeu",
+    "tipo": "comunidade",
+    "cidade": "Barra do Piraí",
+    "localidade": "Ipiabas",
+    "endereco": "Estrada Barra do Piraí, 112",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Sebastião",
+    "tipo": "comunidade",
+    "cidade": "Barra do Piraí",
+    "localidade": "Ponte Preta",
+    "endereco": "BR 393, KM 258, 36516",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesevr.com.br/paroquia/37",
+    "data": "2026-11",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesevr.com.br/missa",
+    "data": "2026-11",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato de Barra do Piraí. Horários da página da paróquia no site da diocese, sem data."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Co-Catedral Nossa Senhora da Conceição",
+  "categoria": "paroquia",
+  "cidade": "Volta Redonda",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "2433490047",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquianscvr@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Co-Catedral Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "Volta Redonda",
+    "localidade": "Conforto",
+    "endereco": "Rua Nossa Senhora da Conceição, 213",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrado Coração de Jesus",
+    "tipo": "comunidade",
+    "cidade": "Volta Redonda",
+    "localidade": "São Lucas",
+    "endereco": "Rodovia BR 393 - Rua Carlos Chagas",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Cruz",
+    "tipo": "comunidade",
+    "cidade": "Volta Redonda",
+    "localidade": "Eucaliptal",
+    "endereco": "Praça Sete de Setembro",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Rita de Cássia",
+    "tipo": "comunidade",
+    "cidade": "Volta Redonda",
+    "localidade": "Jardim Europa",
+    "endereco": "Rua Paris",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Teresa de Ávila",
+    "tipo": "comunidade",
+    "cidade": "Volta Redonda",
+    "localidade": "Rústico",
+    "endereco": "Rua Oitenta e Dois",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José Operário",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Boa Vista II",
+    "endereco": "Rua Zilmar Maria Costa Augusto",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Senhor Bom Jesus",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Boa Vista",
+    "endereco": "Rua Maria das Graças",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "9 de Abril",
+    "endereco": "Rua Lacyr Schettino",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Libertação",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Ponte Alta",
+    "endereco": "Avenida Waldomiro Peres Gonçalves",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Rita",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Jardim Redentor",
+    "endereco": "Rua Dois",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco de Assis",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Paraíso",
+    "endereco": "Rua Geso Rodrigues",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Batista",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Assunção",
+    "endereco": "Rua José Vicente Domingos",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Marcos",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Boa Vista",
+    "endereco": "Rua Miguel Gomes de Souza",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Pedro",
+    "tipo": "comunidade",
+    "cidade": "Volta Redonda",
+    "localidade": "Ponte Alta",
+    "endereco": "Rua Zurique",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Igreja São José Operário",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Barbará, Roselândia",
+    "endereco": "Rua Três, 3",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesevr.com.br/paroquia/1",
+    "data": "2026-11",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesevr.com.br/missa",
+    "data": "2026-11",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato de Volta Redonda. Horários da página da paróquia no site da diocese, sem data. A diocese a chama de Co-Catedral."
+ },
+ {
+  "id_banco": null,
+  "nome": "Santuário Nossa Senhora das Graças e da Medalha Milagrosa",
+  "categoria": "santuario",
+  "cidade": "Volta Redonda",
+  "padroeiro": "Nossa Senhora das Graças",
+  "contatos": {
+   "telefone": "2433472480",
+   "whatsapp": "",
+   "instagram": "santuariomarianovr",
+   "site": "",
+   "email": "nsgracas537@yahoo.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário Nossa Senhora das Graças e da Medalha Milagrosa",
+    "tipo": "santuario",
+    "cidade": "Volta Redonda",
+    "localidade": "Jardim Paraíba",
+    "endereco": "Rua 537, 10",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "12:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "12:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "12:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "12:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "12:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "12:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesevr.com.br/paroquia/2",
+    "data": "2026-11",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesevr.com.br/missa",
+    "data": "2026-11",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.instagram.com/santuariomarianovr/",
+    "data": "2026-11",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato de Volta Redonda. Horários da página da paróquia no site da diocese, sem data. O trecho do Instagram na busca confere com os horários de segunda a sábado."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Paulo Apóstolo",
+  "categoria": "paroquia",
+  "cidade": "Volta Redonda",
+  "padroeiro": "São Paulo Apóstolo",
+  "contatos": {
+   "telefone": "2433481803",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "saopaulosideropolis@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Paulo Apóstolo",
+    "tipo": "matriz",
+    "cidade": "Volta Redonda",
+    "localidade": "Siderópolis",
+    "endereco": "Rua Padre Ernesto Moreira Lamim, 14",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Evangelista",
+    "tipo": "comunidade",
+    "cidade": "Volta Redonda",
+    "localidade": "Jardim Belvedere",
+    "endereco": "Rua Gercio Bernardo Nunes",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Volta Redonda",
+    "localidade": "Jardim Tiradentes",
+    "endereco": "Rua Oitocentos e Cinqüenta-A, 2",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrado Coração de Jesus",
+    "tipo": "comunidade",
+    "cidade": "Volta Redonda",
+    "localidade": "Casa de Pedra",
+    "endereco": "Rua Setecentos e Vinte e Cinco, 132",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Edwiges",
+    "tipo": "comunidade",
+    "cidade": "Volta Redonda",
+    "localidade": "Tiradentes",
+    "endereco": "Avenida Um, 271 - Jardim Vila Rica",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Sebastião",
+    "tipo": "comunidade",
+    "cidade": "Volta Redonda",
+    "localidade": "Sessenta",
+    "endereco": "Rua Sessenta, 1390",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco de Assis",
+    "tipo": "comunidade",
+    "cidade": "Volta Redonda",
+    "localidade": "Roma",
+    "endereco": "Rua Onze, 40",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Conceição",
+    "tipo": "comunidade",
+    "cidade": "Volta Redonda",
+    "localidade": "Roma",
+    "endereco": "Rua Vinte e Um de Abril, 70",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Dulce dos Pobres",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Moinho de Vento",
+    "endereco": "Estrada do Sobrado, 710",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesevr.com.br/paroquia/3",
+    "data": "2026-11",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Vicariato de Volta Redonda. A página da diocese não traz horário de missa; sem horário confirmado."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "Volta Redonda",
+  "padroeiro": "São Sebastião",
+  "contatos": {
+   "telefone": "24993217513",
+   "whatsapp": "24993217513",
+   "instagram": "",
+   "site": "",
+   "email": "secretaria@paroquiasaosebastiaovr.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Sebastião",
+    "tipo": "matriz",
+    "cidade": "Volta Redonda",
+    "localidade": "Retiro",
+    "endereco": "Avenida Antonio de Almeida, 120",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José de Anchieta",
+    "tipo": "comunidade",
+    "cidade": "Volta Redonda",
+    "localidade": "Vila Mury",
+    "endereco": "Avenida Osvaldo Cruz, 310",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Bom Jesus",
+    "tipo": "comunidade",
+    "cidade": "Volta Redonda",
+    "localidade": "Retiro",
+    "endereco": "Avenida Coimbra, 32",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Jesus de Nazaré",
+    "tipo": "comunidade",
+    "cidade": "Volta Redonda",
+    "localidade": "Belo Horizonte",
+    "endereco": "Rua Cinco, 115",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Volta Redonda",
+    "localidade": "Vale Verde",
+    "endereco": "Rua Chico Mendes, 198",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora das Graças",
+    "tipo": "comunidade",
+    "cidade": "Volta Redonda",
+    "localidade": "Vila Brasília",
+    "endereco": "Rua J, 8",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Amparo",
+    "tipo": "comunidade",
+    "cidade": "Volta Redonda",
+    "localidade": "Vila Brasília",
+    "endereco": "Rua Deolindo Miguel, 1013",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José Operário",
+    "tipo": "comunidade",
+    "cidade": "Volta Redonda",
+    "localidade": "Vila Brasília",
+    "endereco": "Avenida Nova Brasília, 46",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Terezinha",
+    "tipo": "comunidade",
+    "cidade": "Volta Redonda",
+    "localidade": "Coqueiros",
+    "endereco": "Rua F, 14",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco de Assis",
+    "tipo": "comunidade",
+    "cidade": "Volta Redonda",
+    "localidade": "Retiro",
+    "endereco": "Avenida General Euclides de Figueiredo, 303",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da União",
+    "tipo": "comunidade",
+    "cidade": "Volta Redonda",
+    "localidade": "Retiro",
+    "endereco": "Estrada União, 852",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Oscar Romero",
+    "tipo": "comunidade",
+    "cidade": "Volta Redonda",
+    "localidade": "Padre Josino",
+    "endereco": "Rua Quinze de Novembro",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Jorge",
+    "tipo": "comunidade",
+    "cidade": "Volta Redonda",
+    "localidade": "Padre Josino",
+    "endereco": "Rua A, 261",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João XXIII",
+    "tipo": "comunidade",
+    "cidade": "Volta Redonda",
+    "localidade": "Siderlândia",
+    "endereco": "Rua Teresópolis, 517",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Evangelista",
+    "tipo": "comunidade",
+    "cidade": "Volta Redonda",
+    "localidade": "Belmonte",
+    "endereco": "Avenida Santa Rosa, 13",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Luzia",
+    "tipo": "comunidade",
+    "cidade": "Volta Redonda",
+    "localidade": "Jardim Cidade do Aço",
+    "endereco": "Rua Frei Henrique Soares",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Pedro",
+    "tipo": "comunidade",
+    "cidade": "Volta Redonda",
+    "localidade": "Belmonte",
+    "endereco": "Avenida Santa Catarina, 239",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Volta Redonda",
+    "localidade": "Açude II",
+    "endereco": "Rua A, 192",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesevr.com.br/paroquia/4",
+    "data": "2026-11",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Vicariato de Volta Redonda. A página da diocese não traz horário de missa; sem horário confirmado."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Cecília",
+  "categoria": "paroquia",
+  "cidade": "Volta Redonda",
+  "padroeiro": "Santa Cecília",
+  "contatos": {
+   "telefone": "24998656344",
+   "whatsapp": "24998656344",
+   "instagram": "",
+   "site": "",
+   "email": "santacecilia.vr@uol.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Cecília",
+    "tipo": "matriz",
+    "cidade": "Volta Redonda",
+    "localidade": "Vila Santa Cecília",
+    "endereco": "Rua Trinta e Um-A, 50",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Volta Redonda",
+    "localidade": "São João",
+    "endereco": "Rua Nossa Senhora Aparecida, 132",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Geraldo",
+    "tipo": "comunidade",
+    "cidade": "Volta Redonda",
+    "localidade": "São Geraldo",
+    "endereco": "Rua Nelson de Melo, 340",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José Operário",
+    "tipo": "comunidade",
+    "cidade": "Volta Redonda",
+    "localidade": "Rua São Sebastião",
+    "endereco": "Rua São Sebastião, 92",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesevr.com.br/paroquia/5",
+    "data": "2026-11",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesevr.com.br/missa",
+    "data": "2026-11",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato de Volta Redonda. Horários da página da paróquia no site da diocese, sem data."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Agostinho",
+  "categoria": "paroquia",
+  "cidade": "Volta Redonda",
+  "padroeiro": "Santo Agostinho",
+  "contatos": {
+   "telefone": "2430265536",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiastoagostinhovr@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Agostinho",
+    "tipo": "matriz",
+    "cidade": "Volta Redonda",
+    "localidade": "Santo Agostinho",
+    "endereco": "Avenida Alfredo Moreira, 613",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Agostinho",
+    "tipo": "comunidade",
+    "cidade": "Volta Redonda",
+    "localidade": "Santo Agostinho",
+    "endereco": "Rua Curitiba",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Cristo Libertador",
+    "tipo": "comunidade",
+    "cidade": "Volta Redonda",
+    "localidade": "Brasilândia",
+    "endereco": "Rua Quatro, 50",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Mônica",
+    "tipo": "comunidade",
+    "cidade": "Volta Redonda",
+    "localidade": "Morro da Conquista",
+    "endereco": "Rua Multirão, 48",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Carmo",
+    "tipo": "comunidade",
+    "cidade": "Volta Redonda",
+    "localidade": "Cailândia",
+    "endereco": "Avenida dos Gaúchos, 20",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Mateus",
+    "tipo": "comunidade",
+    "cidade": "Volta Redonda",
+    "localidade": "Caieira",
+    "endereco": "Rua Oswaldo de Andrade, 48",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Bernardo",
+    "tipo": "comunidade",
+    "cidade": "Volta Redonda",
+    "localidade": "Parque das Ilhas",
+    "endereco": "Rua B, 189",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Menino Jesus",
+    "tipo": "comunidade",
+    "cidade": "Volta Redonda",
+    "localidade": "Volta Grande",
+    "endereco": "Rua Paulo Moreira, 256",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Penha",
+    "tipo": "comunidade",
+    "cidade": "Volta Redonda",
+    "localidade": "Nova Primavera",
+    "endereco": "Rua T, 30",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesevr.com.br/paroquia/6",
+    "data": "2026-11",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesevr.com.br/missa",
+    "data": "2026-11",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato de Volta Redonda. Horários da página da paróquia no site da diocese, sem data."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Luís Gonzaga",
+  "categoria": "paroquia",
+  "cidade": "Volta Redonda",
+  "padroeiro": "São Luís Gonzaga",
+  "contatos": {
+   "telefone": "2433389062",
+   "whatsapp": "24999297470",
+   "instagram": "",
+   "site": "",
+   "email": "contatoparoquiasaoluisgonzaga@gmail.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Luís Gonzaga",
+    "tipo": "matriz",
+    "cidade": "Volta Redonda",
+    "localidade": "São Luís",
+    "endereco": "Rua José Claro da Silva, 2",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora das Candeias",
+    "tipo": "comunidade",
+    "cidade": "Volta Redonda",
+    "localidade": "Candelária",
+    "endereco": "Rua Mauro Francisco Torres, 74",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Judas Tadeu",
+    "tipo": "comunidade",
+    "cidade": "Barra do Piraí",
+    "localidade": "Bairro de Fátima",
+    "endereco": "Rua Ivair Istabelline, 54",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Fátima",
+    "tipo": "comunidade",
+    "cidade": "Barra do Piraí",
+    "localidade": "Califórnia",
+    "endereco": "Rua Irmã Maria Luisa, 98",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Maria do Povo",
+    "tipo": "comunidade",
+    "cidade": "Barra do Piraí",
+    "localidade": "Cerâmica União",
+    "endereco": "Rua Leonídio Pereira de Souza, 405",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrado Coração de Jesus",
+    "tipo": "comunidade",
+    "cidade": "Barra do Piraí",
+    "localidade": "Boa Vista da Barra",
+    "endereco": "Rua Baronesa de Aiuruoca, 139",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Barra do Piraí",
+    "localidade": "Fazendas, Oficinas Velhas",
+    "endereco": "Rua Major Joviano Gomes",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Barra do Piraí",
+    "localidade": "São Luiz da Barra",
+    "endereco": "Rua Nossa Senhora Aparecida, 118",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Sebastião",
+    "tipo": "comunidade",
+    "cidade": "Volta Redonda",
+    "localidade": "São Sebastião",
+    "endereco": "Rua da Conquista, 92",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Volta Redonda",
+    "localidade": "Pinto da Serra",
+    "endereco": "Avenida Francisco Torres, 2836",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Bosco",
+    "tipo": "comunidade",
+    "cidade": "Volta Redonda",
+    "localidade": "Dom Bosco",
+    "endereco": "Rua Carlos Luz, 218",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesevr.com.br/paroquia/7",
+    "data": "2026-11",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesevr.com.br/missa",
+    "data": "2026-11",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato de Volta Redonda. Horários da página da paróquia no site da diocese, sem data."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Cruz",
+  "categoria": "paroquia",
+  "cidade": "Mendes",
+  "padroeiro": "Santa Cruz",
+  "contatos": {
+   "telefone": "2424652051",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasantacruzdemendes@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Cruz",
+    "tipo": "matriz",
+    "cidade": "Mendes",
+    "localidade": "Centro",
+    "endereco": "Rua Capitão Francisco Cabral, 150",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora das Graças e São Patrício",
+    "tipo": "comunidade",
+    "cidade": "Mendes",
+    "localidade": "Morsing",
+    "endereco": "Estrada Barra do Piraí, 305",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Rita",
+    "tipo": "comunidade",
+    "cidade": "Mendes",
+    "localidade": "Santa Rita",
+    "endereco": "Rua Miguel Corrêa, 47",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Mendes",
+    "localidade": "Fim do Ponto",
+    "endereco": "Rua Maria Caetana, 380",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Cristo dos Milagres",
+    "tipo": "comunidade",
+    "cidade": "Mendes",
+    "localidade": "Martins Costa",
+    "endereco": "Estrada Pref. Rubens José de Macedo, 4831",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Cristo",
+    "tipo": "comunidade",
+    "cidade": "Mendes",
+    "localidade": "Ponte da Rocha",
+    "endereco": "Rua Presidente Pedreira, 126",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Jorge",
+    "tipo": "comunidade",
+    "cidade": "Mendes",
+    "localidade": "Gaudência",
+    "endereco": "Rua A",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Sebastião",
+    "tipo": "comunidade",
+    "cidade": "Mendes",
+    "localidade": "Humberto Nunes",
+    "endereco": "Ladeira São Sebastião, 95",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Mendes",
+    "localidade": "Cinco Lagos",
+    "endereco": "Rua dos Eucaliptos",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora das Candeias",
+    "tipo": "comunidade",
+    "cidade": "Mendes",
+    "localidade": "Independência",
+    "endereco": "Rua Carmen Lopes Costa, 235",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Batista",
+    "tipo": "comunidade",
+    "cidade": "Mendes",
+    "localidade": "Humberto Nunes",
+    "endereco": "Rua Falcão Dias, 40",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora das Graças",
+    "tipo": "comunidade",
+    "cidade": "Mendes",
+    "localidade": "Ventania",
+    "endereco": "Rua Manoel Pinto Coelho, 127",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Rosa de Lima",
+    "tipo": "comunidade",
+    "cidade": "Mendes",
+    "localidade": "Santa Rosa de Lima",
+    "endereco": "Santa Rosa de Lima",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Conceição",
+    "tipo": "comunidade",
+    "cidade": "Mendes",
+    "localidade": "Água Fria",
+    "endereco": "Água Fria, 149",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Clara",
+    "tipo": "comunidade",
+    "cidade": "Mendes",
+    "localidade": "Oscar Ruger",
+    "endereco": "Oscar Ruger",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Cristóvão",
+    "tipo": "comunidade",
+    "cidade": "Mendes",
+    "localidade": "Independência",
+    "endereco": "Rua Fiscal Marcelino de Paula, 140",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Foyer de Charité Nossa Senhora da Guarda",
+    "tipo": "comunidade",
+    "cidade": "Mendes",
+    "localidade": "Humberto Antunes",
+    "endereco": "Av. Santa Cruz, 1362",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesevr.com.br/paroquia/9",
+    "data": "2026-11",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesevr.com.br/missa",
+    "data": "2026-11",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato de Barra do Piraí. Horários da página da paróquia no site da diocese, sem data."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Cruz e Nossa Senhora de Fátima",
+  "categoria": "paroquia",
+  "cidade": "Barra Mansa",
+  "padroeiro": "Santa Cruz e Nossa Senhora de Fátima",
+  "contatos": {
+   "telefone": "2433231469",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "psantacruzbm@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Cruz",
+    "tipo": "matriz",
+    "cidade": "Barra Mansa",
+    "localidade": "Vila Nova",
+    "endereco": "Rua Arthur Oscar, 284",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Divino Espírito Santo",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Vila Nova",
+    "endereco": "Rua Arthur Oscar, 284",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Loteamento Belo Horizonte",
+    "endereco": "Rua Nossa Senhora da Aparecida, 61",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Boa Morte",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Vista Alegre",
+    "endereco": "Rua Santa Luzia, 146",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Lourdes",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Vila Nova",
+    "endereco": "Rua Francisco Gomes, 90",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Luzia",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Vista Alegre",
+    "endereco": "Rua Santa Luzia, 209",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Luzia",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "V. Nova, Vila Nova",
+    "endereco": "Rua Santa Luzia, 175",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Rita de Cássia",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Santa Rita de Cássia",
+    "endereco": "Rua Um, 386",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Geraldo",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Loteamento Belo Horizonte",
+    "endereco": "Rua J, 345",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Loteamento Belo Horizonte",
+    "endereco": "Rua J, 43",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Camilo de Lelis",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Vista Alegre",
+    "endereco": "Rua Oito",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesevr.com.br/paroquia/10",
+    "data": "2026-11",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesevr.com.br/missa",
+    "data": "2026-11",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato de Barra Mansa. Horários da página da paróquia no site da diocese, sem data."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Volta Redonda",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "2433461753",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "financeirosantoantoniovr@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Volta Redonda",
+    "localidade": "Niterói",
+    "endereco": "São João Batista, 10",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Loreto",
+    "tipo": "comunidade",
+    "cidade": "Volta Redonda",
+    "localidade": "Aero Clube",
+    "endereco": "Rua Luís Lópes Dornelas, 257",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Cristo Rei",
+    "tipo": "comunidade",
+    "cidade": "Volta Redonda",
+    "localidade": "Voldac",
+    "endereco": "Rua Sebastiana Tambasco, 349",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Batista",
+    "tipo": "comunidade",
+    "cidade": "Volta Redonda",
+    "localidade": "Barreira Cravo",
+    "endereco": "Rua Nicanor Teixeira de Carvalho, 860",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Cruz",
+    "tipo": "comunidade",
+    "cidade": "Volta Redonda",
+    "localidade": "Santa Cruz",
+    "endereco": "Avenida Cap. Franklin de Carvalho Junior, 20",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Guadalupe",
+    "tipo": "comunidade",
+    "cidade": "Volta Redonda",
+    "localidade": "Santa Cruz II",
+    "endereco": "Rua São Vicente de Paula, 94",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Rita",
+    "tipo": "comunidade",
+    "cidade": "Volta Redonda",
+    "localidade": "Santa Rita do Zarur",
+    "endereco": "Rua Cruzeiro, 75",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Paulo II",
+    "tipo": "comunidade",
+    "cidade": "Volta Redonda",
+    "localidade": "Santa Rita do Zarur",
+    "endereco": "Estrada Fazenda Japuíra, 746",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrada Família",
+    "tipo": "comunidade",
+    "cidade": "Volta Redonda",
+    "localidade": "Jardim Primavera",
+    "endereco": "Rua Olegário Ponciano Werner, 221",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José do Turvo",
+    "tipo": "comunidade",
+    "cidade": "Barra do Piraí",
+    "localidade": "São José do Turvo",
+    "endereco": "São José do Turvo",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade João Gama",
+    "tipo": "comunidade",
+    "cidade": "Volta Redonda",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Volta Redonda",
+    "localidade": "Niterói",
+    "endereco": "Rua Nossa Senhora de Fátima, 10",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesevr.com.br/paroquia/11",
+    "data": "2026-11",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesevr.com.br/missa",
+    "data": "2026-11",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato de Volta Redonda. Horários da página da paróquia no site da diocese, sem data."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sagrado Coração de Jesus",
+  "categoria": "paroquia",
+  "cidade": "Barra Mansa",
+  "padroeiro": "Sagrado Coração de Jesus",
+  "contatos": {
+   "telefone": "2433230477",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "parsacor@outlook.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Sagrado Coração de Jesus",
+    "tipo": "matriz",
+    "cidade": "Barra Mansa",
+    "localidade": "Ano Bom",
+    "endereco": "Praça Sagrado Coração de Jesus, 85",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Vale do Paraíba",
+    "endereco": "Rua José Lourenço da Fonseca, 229",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Glória",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Getúlio Vargas",
+    "endereco": "Travessa Porto Alegre, 497",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Fátima",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Ano Bom",
+    "endereco": "Rua José Almeida Filho, 45",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santana",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Parque Independência",
+    "endereco": "Rua Nélson Ribeiro Campos, 600",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Helena",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "São Francisco de Assis",
+    "endereco": "Rua José Coutinho de Carvalho, 1319",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Izabel",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Santa Izabel",
+    "endereco": "Rua São Geraldo, 15",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Rita de Cássia",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Getúlio Vargas",
+    "endereco": "Travessa Porto Alegre, 130",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco de Assis",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "São Francisco de Assis",
+    "endereco": "Rua Antônio Rodrigues de Almeida, 245",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Teresinha",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Asilo, Ano Bom",
+    "endereco": "Avenida Presidente Kennedy - até 1775 - lado ímpar, 1055",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Rosa de Lima",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Centro",
+    "endereco": "Rua Antônio Leal de Souza Neto",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Vila Orlandelia",
+    "endereco": "Rua Zeliant Ferreira de Carvalho, 11",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santos Inocentes",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Getúlio Vargas",
+    "endereco": "Travessa Porto Alegre, 130",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesevr.com.br/paroquia/12",
+    "data": "2026-11",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesevr.com.br/missa",
+    "data": "2026-11",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato de Barra Mansa. Horários da página da paróquia no site da diocese, sem data."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "Barra Mansa",
+  "padroeiro": "São Sebastião",
+  "contatos": {
+   "telefone": "2433230524",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "pssbm.326secret@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Sebastião",
+    "tipo": "matriz",
+    "cidade": "Barra Mansa",
+    "localidade": "Centro",
+    "endereco": "Rua Andrade Figueira, 326",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Cristo Libertador",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Eduardo Junqueira",
+    "endereco": "Rua Pedro Paulino, 326",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrada Família",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Roberto Silveira",
+    "endereco": "Rua José Marciano dos Santos, 85",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Cecília",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Centro",
+    "endereco": "Rua Domingos Mariano, 644",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Expedito",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Morro do Cruzeiro",
+    "endereco": "Rua Antônio Saúde, 121",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Boa Sorte",
+    "endereco": "Rua Domingos José Dantas, 332",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Cristo Rei",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Vila Elmira",
+    "endereco": "Travessa Sebastião Carlos Alvarenga, 92",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Fátima",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Vila Principal",
+    "endereco": "Rua 1, 223",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Judas Tadeu",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "São Judas",
+    "endereco": "Rua Santa Rita de Cássia, 5",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Terezinha",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Boa Sorte",
+    "endereco": "Rua Ademar Pineschi, 200",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Evangelista",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Piteiras",
+    "endereco": "Rua José Sebastião da Silva, 10",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Pedro",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "São Pedro",
+    "endereco": "Rua Agilberto Santos Gomes, 1",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Apóstolo Paulo",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Apóstolo Paulo",
+    "endereco": "Rua das Missões, 81",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Bom Jesus",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Monte Cristo",
+    "endereco": "Rua Luiz Domingos, 128",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Maria de Nazaré",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Monte Cristo",
+    "endereco": "Rua Cândido Teodóro de Souza, 174",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora das Graças",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Jardim América",
+    "endereco": "Rua Cinco-A, 45",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Batista",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Vila Independência",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Glória",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "São Silvestre",
+    "endereco": "Rua Claudionor Periard, 202",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Conceição",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Km 4",
+    "endereco": "Rua Imaculada Conceição, 2482",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Genaro",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "São Genaro",
+    "endereco": "Rua Carlos Ovidio Nogueira Machado, 701",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Pedro",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Cotiara",
+    "endereco": "Rua José Hipólito, 1348",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Vicente",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Loteamento São Vicente",
+    "endereco": "Rua Santo Antônio, 94",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Luiz Gonzaga",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "São Luís",
+    "endereco": "Rua Joaquim Batista da Silva, 11",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesevr.com.br/paroquia/13",
+    "data": "2026-11",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesevr.com.br/missa",
+    "data": "2026-11",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato de Barra Mansa. Horários da página da paróquia no site da diocese, sem data."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Piedade",
+  "categoria": "paroquia",
+  "cidade": "Rio Claro",
+  "padroeiro": "Nossa Senhora da Piedade",
+  "contatos": {
+   "telefone": "2433231383",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "pnsprioclaro@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Piedade",
+    "tipo": "matriz",
+    "cidade": "Rio Claro",
+    "localidade": "Centro",
+    "endereco": "Praça Fagundes Varela, 140",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Divino Espírito Santo",
+    "tipo": "comunidade",
+    "cidade": "Rio Claro",
+    "localidade": "Itambé",
+    "endereco": "Estrada da Represa da Light",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Rio Claro",
+    "localidade": "Getulândia",
+    "endereco": "Estrada Caminho Novo, 2479",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Imaculada Conceição",
+    "tipo": "comunidade",
+    "cidade": "Rio Claro",
+    "localidade": "Passa Três",
+    "endereco": "Rua Vitor Konder, 10",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Fátima",
+    "tipo": "comunidade",
+    "cidade": "Rio Claro",
+    "localidade": "Getulândia",
+    "endereco": "Rua Nossa Senhora de Fátima, 195",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Rita de Cássia",
+    "tipo": "comunidade",
+    "cidade": "Rio Claro",
+    "localidade": "Getulândia",
+    "endereco": "Estrada Antiga Rio São Paulo, 119",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Rosa de Lima",
+    "tipo": "comunidade",
+    "cidade": "Rio Claro",
+    "localidade": "",
+    "endereco": "Estrada da Fazenda Palmital, 1005",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Marcos",
+    "tipo": "comunidade",
+    "cidade": "Rio Claro",
+    "localidade": "Macundú",
+    "endereco": "Rua Anezio Ribeiro da Silva, 125",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesevr.com.br/paroquia/14",
+    "data": "2026-11",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Vicariato de Barra Mansa. A página da diocese não traz horário de missa; sem horário confirmado."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Rio Claro",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "24920009437",
+   "whatsapp": "24920009437",
+   "instagram": "",
+   "site": "",
+   "email": "boasnoticias.santonio@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Rio Claro",
+    "localidade": "Lídice",
+    "endereco": "Rua Souza e Silva, 106",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Benedito",
+    "tipo": "comunidade",
+    "cidade": "Rio Claro",
+    "localidade": "Lídice",
+    "endereco": "Estação, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Rio Claro",
+    "localidade": "Lídice",
+    "endereco": "Área rural",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sant'Ana",
+    "tipo": "comunidade",
+    "cidade": "Rio Claro",
+    "localidade": "Lídice",
+    "endereco": "Alto do Rio das Pedras- Área rural",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Rio Claro",
+    "localidade": "Lídice",
+    "endereco": "Estrada Várzea do Inhame, 2024",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesevr.com.br/paroquia/15",
+    "data": "2026-11",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Vicariato de Barra Mansa. A página da diocese não traz horário de missa; sem horário confirmado."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Rosário",
+  "categoria": "paroquia",
+  "cidade": "Quatis",
+  "padroeiro": "Nossa Senhora do Rosário",
+  "contatos": {
+   "telefone": "2433532366",
+   "whatsapp": "24992702167",
+   "instagram": "",
+   "site": "",
+   "email": "pnsr.quatis@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Rosário",
+    "tipo": "matriz",
+    "cidade": "Quatis",
+    "localidade": "Centro",
+    "endereco": "Rua Getúlio Vargas, 192",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Quatis",
+    "localidade": "Joaquim Leite",
+    "endereco": "Estrada Quatis-Falcão",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Imaculada Conceição",
+    "tipo": "comunidade",
+    "cidade": "Quatis",
+    "localidade": "Jardim Polastri",
+    "endereco": "Rua Antônio Polastri, 516",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora das Dores",
+    "tipo": "comunidade",
+    "cidade": "Quatis",
+    "localidade": "Jardim Independência",
+    "endereco": "Rua Georgeth Barbosa Leite, 145",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Cruz",
+    "tipo": "comunidade",
+    "cidade": "Quatis",
+    "localidade": "Pilotos",
+    "endereco": "Rua 4, 21",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santana",
+    "tipo": "comunidade",
+    "cidade": "Quatis",
+    "localidade": "Ribeirão de São Joaquim",
+    "endereco": "Travessa Domingos Vieira",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Benedito",
+    "tipo": "comunidade",
+    "cidade": "Quatis",
+    "localidade": "São Benedito",
+    "endereco": "Rua Wanderlino Teixeira Leite, 6",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrado Coração de Jesus",
+    "tipo": "comunidade",
+    "cidade": "Quatis",
+    "localidade": "Mirandópolis",
+    "endereco": "Rua Maria Aparecida Moreira",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Quatis",
+    "localidade": "Jardim Independência",
+    "endereco": "Rua Victor Marcondes Sampaio",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco de Assis",
+    "tipo": "comunidade",
+    "cidade": "Quatis",
+    "localidade": "Nossa Senhora do Rosário",
+    "endereco": "Avenida Augusto Sverbery, 290",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Sebastião",
+    "tipo": "comunidade",
+    "cidade": "Quatis",
+    "localidade": "Falcão",
+    "endereco": "Rua Major Carvalho, 68",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Joaquim",
+    "tipo": "comunidade",
+    "cidade": "Quatis",
+    "localidade": "Ribeirão de São Joaquim",
+    "endereco": "Travessa Domingos Vieira, 84",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesevr.com.br/paroquia/16",
+    "data": "2026-11",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesevr.com.br/missa",
+    "data": "2026-11",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato de Barra Mansa. Horários da página da paróquia no site da diocese, sem data."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora das Dores",
+  "categoria": "paroquia",
+  "cidade": "Porto Real",
+  "padroeiro": "Nossa Senhora das Dores",
+  "contatos": {
+   "telefone": "24993206000",
+   "whatsapp": "24993206000",
+   "instagram": "",
+   "site": "",
+   "email": "pnsdores15@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora das Dores",
+    "tipo": "matriz",
+    "cidade": "Porto Real",
+    "localidade": "Centro",
+    "endereco": "Rua Professora Dona Betina",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Porto Real",
+    "localidade": "Jardim Real",
+    "endereco": "Av. Dom Pedro II, 2174",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco de Assis",
+    "tipo": "comunidade",
+    "cidade": "Porto Real",
+    "localidade": "Novo Horizonte",
+    "endereco": "R. das Rosas",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Porto Real",
+    "localidade": "",
+    "endereco": "Estrada Bulhões",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Luzia",
+    "tipo": "comunidade",
+    "cidade": "Porto Real",
+    "localidade": "Vila Real",
+    "endereco": "Av. Dom Pedro II",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrado Coração de Jesus",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Floriano",
+    "endereco": "Praça Ludovico Egalon, 18",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Porto Real",
+    "localidade": "Jardim das Acácias",
+    "endereco": "Rua Amazonas, 1330",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Sebastião",
+    "tipo": "comunidade",
+    "cidade": "Porto Real",
+    "localidade": "Freitas Soares",
+    "endereco": "Rua 21, 34",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio de Santana Galvão",
+    "tipo": "comunidade",
+    "cidade": "Porto Real",
+    "localidade": "",
+    "endereco": "Avenida Renato Monteiro",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Rosa de Lima",
+    "tipo": "comunidade",
+    "cidade": "Porto Real",
+    "localidade": "Morada das Rosas",
+    "endereco": "Rua 3, 39",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Rita de Cássia",
+    "tipo": "comunidade",
+    "cidade": "Porto Real",
+    "localidade": "",
+    "endereco": "Bulhões",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Pedro",
+    "tipo": "comunidade",
+    "cidade": "Porto Real",
+    "localidade": "",
+    "endereco": "Parque Mariana",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Fátima",
+    "tipo": "comunidade",
+    "cidade": "Porto Real",
+    "localidade": "Fátima",
+    "endereco": "rua João Paulo I, 151",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Porto Real",
+    "localidade": "São José",
+    "endereco": "rua Sete de Setembro, 209",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesevr.com.br/paroquia/17",
+    "data": "2026-11",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Vicariato de Resende. A página da diocese não traz horário de missa; sem horário confirmado."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Conceição",
+  "categoria": "paroquia",
+  "cidade": "Resende",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "2433540862",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquianscresende0862@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "Resende",
+    "localidade": "Centro",
+    "endereco": "Praça Doutor Oliveira Botelho",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora das Graças",
+    "tipo": "comunidade",
+    "cidade": "Resende",
+    "localidade": "Vila Vicentina",
+    "endereco": "Rua São José, 90",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santíssima Trindade",
+    "tipo": "comunidade",
+    "cidade": "Resende",
+    "localidade": "Parque Ipiranga",
+    "endereco": "Avenida da Augusto de Carvalho",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Resende",
+    "localidade": "Fazenda Taquaral",
+    "endereco": "Estrada Boca do Leão",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco de Assis",
+    "tipo": "comunidade",
+    "cidade": "Resende",
+    "localidade": "Novo Surubi",
+    "endereco": "Rua Elvira Mattos Silva",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José Operário",
+    "tipo": "comunidade",
+    "cidade": "Resende",
+    "localidade": "Vila Moderna",
+    "endereco": "Praça Itatiaia",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Rosário",
+    "tipo": "comunidade",
+    "cidade": "Resende",
+    "localidade": "Centro",
+    "endereco": "Praça Doutor Silveira",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Benedito",
+    "tipo": "comunidade",
+    "cidade": "Resende",
+    "localidade": "Morro do Querosene",
+    "endereco": "Rua Eduardo Cotrim, 47",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Pedro",
+    "tipo": "comunidade",
+    "cidade": "Resende",
+    "localidade": "Surubi",
+    "endereco": "Rua Cinco",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Pedro",
+    "tipo": "comunidade",
+    "cidade": "Resende",
+    "localidade": "Estalo",
+    "endereco": "Rua da Limeira - km 18",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Senhor dos Passos",
+    "tipo": "comunidade",
+    "cidade": "Resende",
+    "localidade": "Vila Moderna",
+    "endereco": "Rua Senhor dos Passos",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesevr.com.br/paroquia/18",
+    "data": "2026-11",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Vicariato de Resende. A página da diocese não traz horário de missa; sem horário confirmado."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Fátima",
+  "categoria": "paroquia",
+  "cidade": "Resende",
+  "padroeiro": "Nossa Senhora de Fátima",
+  "contatos": {
+   "telefone": "2433213531",
+   "whatsapp": "24999281034",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiafatimaresende@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora de Fátima",
+    "tipo": "matriz",
+    "cidade": "Resende",
+    "localidade": "Paraíso",
+    "endereco": "Avenida Nossa Senhora de Fátima",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Resende",
+    "localidade": "Alambari",
+    "endereco": "Rua Luiz de Camões",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Resende",
+    "localidade": "Fazenda da Barra",
+    "endereco": "Rua Três, 376",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Guadalupe",
+    "tipo": "comunidade",
+    "cidade": "Resende",
+    "localidade": "Jardim Esperança",
+    "endereco": "Rua Frei Tito Quadra A, 18",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Rita de Cássia",
+    "tipo": "comunidade",
+    "cidade": "Resende",
+    "localidade": "Fazenda da Barra III",
+    "endereco": "Rua D",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco de Assis",
+    "tipo": "comunidade",
+    "cidade": "Resende",
+    "localidade": "Cabral",
+    "endereco": "Rua Roque de Santis, 238",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José Operário",
+    "tipo": "comunidade",
+    "cidade": "Resende",
+    "localidade": "Cabral",
+    "endereco": "Rua Dezoito",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Resende",
+    "localidade": "Pedra Selada",
+    "endereco": "Rua Geraldino Carlos de Souza",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Vicente Ferrer",
+    "tipo": "comunidade",
+    "cidade": "Resende",
+    "localidade": "6 ° restrito",
+    "endereco": "Vila Fumaça",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Clara",
+    "tipo": "comunidade",
+    "cidade": "Resende",
+    "localidade": "",
+    "endereco": "Parque Minas Gerais",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Gabriel",
+    "tipo": "comunidade",
+    "cidade": "Resende",
+    "localidade": "Parque Minas Gerais",
+    "endereco": "Rua Santos Dumont",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Resende",
+    "localidade": "Estrada Resende\\ Bocaina de Mina",
+    "endereco": "Margem Esquerda - Estrada Resende\\ Bocaina de Mina",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Carmo",
+    "tipo": "comunidade",
+    "cidade": "Resende",
+    "localidade": "Morro do Cruzeiro",
+    "endereco": "Rua Santa Rosa, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Fátima",
+    "tipo": "comunidade",
+    "cidade": "Resende",
+    "localidade": "Paraíso",
+    "endereco": "Rua Cantidio Jesuíno da Costa, 105",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesevr.com.br/paroquia/19",
+    "data": "2026-11",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesevr.com.br/missa",
+    "data": "2026-11",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato de Resende. Horários da página da paróquia no site da diocese, sem data."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sagrada Família",
+  "categoria": "paroquia",
+  "cidade": "Resende",
+  "padroeiro": "Sagrada Família",
+  "contatos": {
+   "telefone": "2433603533",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquia.sagradafamilia@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja de Nossa Senhora da Paz",
+    "tipo": "matriz",
+    "cidade": "Resende",
+    "localidade": "Cidade Alegria",
+    "endereco": "Avenida das Amendoeiras Norte",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Isabel de Portugal",
+    "tipo": "comunidade",
+    "cidade": "Resende",
+    "localidade": "Santa Isabel",
+    "endereco": "Rua João Emílio Dacás, 258",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José Operário",
+    "tipo": "comunidade",
+    "cidade": "Resende",
+    "localidade": "Itapuca",
+    "endereco": "Rua Padre Leon Wojtyniak",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Judas Tadeu",
+    "tipo": "comunidade",
+    "cidade": "Resende",
+    "localidade": "Itapuca",
+    "endereco": "Rua Lucie Christiane Cailleret Campanario, 30",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Batista",
+    "tipo": "comunidade",
+    "cidade": "Resende",
+    "localidade": "Jardim Alegria",
+    "endereco": "Rua Paulo Balbino",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Cristóvão",
+    "tipo": "comunidade",
+    "cidade": "Resende",
+    "localidade": "Morada da Montanha",
+    "endereco": "Rua Carlos Monteiro (antiga rua i)",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco de Assis",
+    "tipo": "comunidade",
+    "cidade": "Resende",
+    "localidade": "Morada do Contorno",
+    "endereco": "Rua Ceará, 193",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Benedito",
+    "tipo": "comunidade",
+    "cidade": "Resende",
+    "localidade": "Itapuca",
+    "endereco": "Rua Um",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Resende",
+    "localidade": "Estrada Resende Riachuelo",
+    "endereco": "Pontal do Funil",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrado Coração de Jesus",
+    "tipo": "comunidade",
+    "cidade": "Resende",
+    "localidade": "Itapuca",
+    "endereco": "Rua Pe. Leon Wojtyniak, 230",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Resende",
+    "localidade": "Sertãozinho, Morada do Contorno",
+    "endereco": "Rua Ceará",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesevr.com.br/paroquia/20",
+    "data": "2026-11",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesevr.com.br/missa",
+    "data": "2026-11",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesevr.com.br/comunidade/209/sagrado-coracao-de-jesus",
+    "data": "2026-11",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato de Resende. Horários da página da paróquia no site da diocese, sem data. As missas da matriz são na Igreja de Nossa Senhora da Paz."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Cecília",
+  "categoria": "paroquia",
+  "cidade": "Resende",
+  "padroeiro": "Santa Cecília",
+  "contatos": {
+   "telefone": "24999545452",
+   "whatsapp": "24999545452",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasantacecilia@bol.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Cecília",
+    "tipo": "matriz",
+    "cidade": "Resende",
+    "localidade": "Manejo",
+    "endereco": "Rua Expedicionário Manoel Francisco Gomes, 176",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Cristo Ressuscitado",
+    "tipo": "comunidade",
+    "cidade": "Resende",
+    "localidade": "Alvorada",
+    "endereco": "Avenida Brasília",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Resende",
+    "localidade": "Nova Liberdade",
+    "endereco": "Rua Almirante Tamandaré",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Terezinha do Menino Jesus",
+    "tipo": "comunidade",
+    "cidade": "Resende",
+    "localidade": "Morada da Colina",
+    "endereco": "Rua Um",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Bento Abade",
+    "tipo": "comunidade",
+    "cidade": "Resende",
+    "localidade": "Mirante das Agulhas",
+    "endereco": "Rua Juca Paiva, 123",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesevr.com.br/paroquia/21",
+    "data": "2026-11",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesevr.com.br/missa",
+    "data": "2026-11",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato de Resende. Horários da página da paróquia no site da diocese, sem data."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José",
+  "categoria": "paroquia",
+  "cidade": "Itatiaia",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "24999885873",
+   "whatsapp": "24999885873",
+   "instagram": "",
+   "site": "",
+   "email": "psjitatiaia@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José",
+    "tipo": "matriz",
+    "cidade": "Itatiaia",
+    "localidade": "Centro Itatiaia",
+    "endereco": "Praça Mariana Rocha Leão, 10",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Miguel Arcanjo",
+    "tipo": "comunidade",
+    "cidade": "Itatiaia",
+    "localidade": "Vila Esperança",
+    "endereco": "Rua Juliana Campos Neves",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Itatiaia",
+    "localidade": "Jardim Paineiras",
+    "endereco": "Rua Manoel Bernardes",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesevr.com.br/paroquia/22",
+    "data": "2026-11",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Vicariato de Resende. A página da diocese não traz horário de missa; sem horário confirmado."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Conceição",
+  "categoria": "paroquia",
+  "cidade": "Pinheiral",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "24999881300",
+   "whatsapp": "24999881300",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiansp@gmail.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "Pinheiral",
+    "localidade": "Centro",
+    "endereco": "Rua José Breves, 32",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Divino Espírito Santo",
+    "tipo": "comunidade",
+    "cidade": "Pinheiral",
+    "localidade": "São Jorge",
+    "endereco": "Rua Dom Martinho, 160",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Pinheiral",
+    "localidade": "Rolamão",
+    "endereco": "Praça Dr. Onofre Infante Vieira, 59",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Rosário",
+    "tipo": "comunidade",
+    "cidade": "Pinheiral",
+    "localidade": "Parque Maíra",
+    "endereco": "Rua 22 de outubro, 122",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Cecília",
+    "tipo": "comunidade",
+    "cidade": "Pinheiral",
+    "localidade": "Arrozal Km 7",
+    "endereco": "Rua Benjamin Constante, 7959",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Luzia e Nossa Senhora da cabeça",
+    "tipo": "comunidade",
+    "cidade": "Pinheiral",
+    "localidade": "Cruzeiro II",
+    "endereco": "Rua Adelina Martins Barbosa, 760",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Terezinha",
+    "tipo": "comunidade",
+    "cidade": "Volta Redonda",
+    "localidade": "Parque Vitória, Três Poços",
+    "endereco": "Rua 34, 100",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Pedro",
+    "tipo": "comunidade",
+    "cidade": "Pinheiral",
+    "localidade": "Mutirão da paz, Arrozal Km 2",
+    "endereco": "Rua Benjamin Constante",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Sebastião",
+    "tipo": "comunidade",
+    "cidade": "Pinheiral",
+    "localidade": "Palmeiras",
+    "endereco": "Rua das Palmeiras, 683",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesevr.com.br/paroquia/23",
+    "data": "2026-11",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesevr.com.br/missa",
+    "data": "2026-11",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato de Volta Redonda. Horários da página da paróquia no site da diocese, sem data."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Sebastião e Área Pastoral de Penedo e Serra de Mauá",
+  "categoria": "paroquia",
+  "cidade": "Resende",
+  "padroeiro": "São Sebastião",
+  "contatos": {
+   "telefone": "2421094998",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "saosebastiaoresende@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Sebastião",
+    "tipo": "matriz",
+    "cidade": "Resende",
+    "localidade": "Campos Elíseos",
+    "endereco": "Rua Alfredo Whately, 53",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Itatiaia",
+    "localidade": "Penedo",
+    "endereco": "Av. Três cachoeiras, 695",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida e São Sebastião Serrinha do Alambari",
+    "tipo": "comunidade",
+    "cidade": "Resende",
+    "localidade": "Alambari",
+    "endereco": "Serrinha do Alambari",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Batista",
+    "tipo": "comunidade",
+    "cidade": "Itatiaia",
+    "localidade": "África I",
+    "endereco": "África I",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Sebastião",
+    "tipo": "comunidade",
+    "cidade": "Resende",
+    "localidade": "Mauá, Bocaina de Minas",
+    "endereco": "RJ-163 Mauá, 1912",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Resende",
+    "localidade": "Pedra Selada",
+    "endereco": "Rua Lopes Salgado",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Miguel Arcanjo",
+    "tipo": "comunidade",
+    "cidade": "Itatiaia",
+    "localidade": "Visconde de Mauá",
+    "endereco": "Praça da Maromba",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Lourdes",
+    "tipo": "comunidade",
+    "cidade": "Resende",
+    "localidade": "Pedra Selada",
+    "endereco": "Rio Preto",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrado Coração de Maria",
+    "tipo": "comunidade",
+    "cidade": "Resende",
+    "localidade": "Visconde de Mauá",
+    "endereco": "Mauá",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Lourenço",
+    "tipo": "comunidade",
+    "cidade": "Resende",
+    "localidade": "Pedra Selada",
+    "endereco": "Mauá Lote Dez",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco de Assis",
+    "tipo": "comunidade",
+    "cidade": "Itatiaia",
+    "localidade": "Mauá",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesevr.com.br/paroquia/24",
+    "data": "2026-11",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesevr.com.br/missa",
+    "data": "2026-11",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato de Resende. Horários da página da paróquia no site da diocese, sem data. Inclui a área pastoral de Penedo e Serra de Mauá."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Benedito",
+  "categoria": "paroquia",
+  "cidade": "Barra do Piraí",
+  "padroeiro": "São Benedito",
+  "contatos": {
+   "telefone": "24999676329",
+   "whatsapp": "24999676329",
+   "instagram": "",
+   "site": "",
+   "email": "matrizsaobeneditobp@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Benedito",
+    "tipo": "matriz",
+    "cidade": "Barra do Piraí",
+    "localidade": "Centro",
+    "endereco": "Praça Nilo Peçanha",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Bom Jesus",
+    "tipo": "comunidade",
+    "cidade": "Barra do Piraí",
+    "localidade": "Muqueca",
+    "endereco": "Rua Cambucí, 405",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Menino Jesus de Praga",
+    "tipo": "comunidade",
+    "cidade": "Barra do Piraí",
+    "localidade": "Morro do Gama",
+    "endereco": "Rua Alexandre Arruda, 61",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Barra do Piraí",
+    "localidade": "Areal",
+    "endereco": "Rua Teresópolis, 179",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Barra do Piraí",
+    "localidade": "Morro do Gama",
+    "endereco": "Rua Heitor dos Santos, 69",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Fátima",
+    "tipo": "comunidade",
+    "cidade": "Barra do Piraí",
+    "localidade": "Boa Sorte",
+    "endereco": "Rua Casemiro de Abreu, 32",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Rosário",
+    "tipo": "comunidade",
+    "cidade": "Barra do Piraí",
+    "localidade": "Caieira",
+    "endereco": "Rua Coronel João da Silva Moreira - RJ, 239",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrado Coração de Jesus e Maria",
+    "tipo": "comunidade",
+    "cidade": "Barra do Piraí",
+    "localidade": "Carvão",
+    "endereco": "Rua Luiz Braga, 228",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Bárbara",
+    "tipo": "comunidade",
+    "cidade": "Barra do Piraí",
+    "localidade": "Muqueca",
+    "endereco": "Rua Carlos de Queirós, 201",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Cristo dos Milagres",
+    "tipo": "comunidade",
+    "cidade": "Barra do Piraí",
+    "localidade": "Santo Cristo",
+    "endereco": "Rua Barbosa, 55",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco de Assis",
+    "tipo": "comunidade",
+    "cidade": "Barra do Piraí",
+    "localidade": "Vargem Grande",
+    "endereco": "Rua Manoel Gonçalves, 9",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Batista",
+    "tipo": "comunidade",
+    "cidade": "Barra do Piraí",
+    "localidade": "São João Batista",
+    "endereco": "Rua Elvira Vasconcelos, 680",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Fátima",
+    "tipo": "comunidade",
+    "cidade": "Barra do Piraí",
+    "localidade": "",
+    "endereco": "Rua Leny de Souza, 1977",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Barra do Piraí",
+    "localidade": "Maracanã",
+    "endereco": "Avenida Vera Cruz, 680",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesevr.com.br/paroquia/29",
+    "data": "2026-11",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Vicariato de Barra do Piraí. A página da diocese não traz horário de missa; sem horário confirmado."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Barra Mansa",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "2433233380",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "parsantoantonio@veloxmail.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Barra Mansa",
+    "localidade": "Saudade",
+    "endereco": "Rua Antônio de Almeida, 111",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Apóstolo Paulo",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Morada Verde",
+    "endereco": "Rua B",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa SRA do Perpétuo Socorro",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Bocaininha",
+    "endereco": "Rua José Gonçalves Rebollas, 1800",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José Operário",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Sinderlândia",
+    "endereco": "Avenida Amaral Peixoto, 3471",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Vicente de Paula",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Vila Belém",
+    "endereco": "Rua São Vicente de Paula",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Carmo",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Vila Ursulino",
+    "endereco": "Rua Aristides Ferreira, 919",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrado Coração de Jesus",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Bocaininha",
+    "endereco": "Rua 2, 70",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Clara de Assis",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Santa Maria II",
+    "endereco": "Lote 91, Quadra A",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco de Assis",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Santa Maria II",
+    "endereco": "Rua Renata Beló, 1391",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Divino Espírito Santo",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Rialto",
+    "endereco": "Rua Antônio Leal de Sousa, 560",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Colônia Santo Antônio",
+    "endereco": "Rua João Vayda, 5",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Batista",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Bocaininha",
+    "endereco": "Rua 2, Quadra 2, 11",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Lucas",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Colônia Santo Antônio",
+    "endereco": "Rua das Orquídeas, 22",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Bom Pastor",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Boa Vista",
+    "endereco": "Rua Joaquim de Souza Lobato, 49",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Vila Maria",
+    "endereco": "Rua Afonsina de Oliveira Rangel, 181",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora das Dores",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Saudade",
+    "endereco": "Avenida Homero Leite, 1850",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Rita de Cássia",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Jardim Boa Vista",
+    "endereco": "Rua José Magalhães",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesevr.com.br/paroquia/32",
+    "data": "2026-11",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Vicariato de Barra Mansa. A página da diocese não traz horário de missa; sem horário confirmado."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Sant'Ana",
+  "categoria": "paroquia",
+  "cidade": "Piraí",
+  "padroeiro": "Sant'Ana",
+  "contatos": {
+   "telefone": "24978345601",
+   "whatsapp": "24978345601",
+   "instagram": "",
+   "site": "",
+   "email": "parsantapirai@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Sant'Ana",
+    "tipo": "matriz",
+    "cidade": "Piraí",
+    "localidade": "",
+    "endereco": "Rua Pio XII, 236",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "12:15",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Piraí",
+    "localidade": "Casa Amarela",
+    "endereco": "Rua Bulhões de Carvalho, 1215",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora das Graças",
+    "tipo": "comunidade",
+    "cidade": "Piraí",
+    "localidade": "Ribeirão das Lajes",
+    "endereco": "Vila Santa Rosa",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Piraí",
+    "localidade": "Serra do Matoso",
+    "endereco": "Serra do Matoso",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Benedito",
+    "tipo": "comunidade",
+    "cidade": "Piraí",
+    "localidade": "Morro São Benedito",
+    "endereco": "Morro São Benedito",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Pedro e São Paulo",
+    "tipo": "comunidade",
+    "cidade": "Rio Claro",
+    "localidade": "Passa Três",
+    "endereco": "Estrada São Pedro",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrado Coração de Jesus",
+    "tipo": "comunidade",
+    "cidade": "Piraí",
+    "localidade": "Jaqueira",
+    "endereco": "rua B, 564",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesevr.com.br/paroquia/33",
+    "data": "2026-11",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesevr.com.br/missa",
+    "data": "2026-11",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato de Barra do Piraí. Horários da página da paróquia no site da diocese, sem data."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Teresinha",
+  "categoria": "paroquia",
+  "cidade": "Piraí",
+  "padroeiro": "Santa Teresinha",
+  "contatos": {
+   "telefone": "2424111578",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "setorsantanesia@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Teresinha",
+    "tipo": "matriz",
+    "cidade": "Piraí",
+    "localidade": "Santanésia",
+    "endereco": "Av. Darcy Vargas, 222",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Barra do Piraí",
+    "localidade": "Chalet",
+    "endereco": "Rua Rufino Barbosa, 167",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Fátima",
+    "tipo": "comunidade",
+    "cidade": "Barra do Piraí",
+    "localidade": "Boca do Mato",
+    "endereco": "Rua 3, 108",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Santana",
+    "tipo": "comunidade",
+    "cidade": "Barra do Piraí",
+    "localidade": "Santana da Barra",
+    "endereco": "Rua Antônio Pereira Lópes, 1016",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Cristóvão",
+    "tipo": "comunidade",
+    "cidade": "Barra do Piraí",
+    "localidade": "Ponte Vermelha",
+    "endereco": "Av. Miguel Couto Filho, 3286",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco de Assis",
+    "tipo": "comunidade",
+    "cidade": "Piraí",
+    "localidade": "Rosa Machado",
+    "endereco": "Rua Manoel Barbosa do Rego, 30",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Pedro",
+    "tipo": "comunidade",
+    "cidade": "Barra do Piraí",
+    "localidade": "Parque Santana",
+    "endereco": "Rua Marina da Silva Fernandes, 229",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesevr.com.br/paroquia/35",
+    "data": "2026-11",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesevr.com.br/missa",
+    "data": "2026-11",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato de Barra do Piraí. Horários da página da paróquia no site da diocese, sem data."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Teresinha",
+  "categoria": "paroquia",
+  "cidade": "Barra do Piraí",
+  "padroeiro": "Santa Teresinha",
+  "contatos": {
+   "telefone": "2424432033",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "igrejasantateresinhabp@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Teresinha",
+    "tipo": "matriz",
+    "cidade": "Barra do Piraí",
+    "localidade": "Centro",
+    "endereco": "Rua Ernani do Amaral Peixoto, 749",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora das Graças",
+    "tipo": "comunidade",
+    "cidade": "Barra do Piraí",
+    "localidade": "Química",
+    "endereco": "Rua Antônio Alves Raposo, 93",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade N. S. Perpétuo Socorro e São Luiz Gonzaga",
+    "tipo": "comunidade",
+    "cidade": "Barra do Piraí",
+    "localidade": "Bairro São Luiz",
+    "endereco": "Rua José Rabelo Filho, 96",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Sebastião e São Pedro",
+    "tipo": "comunidade",
+    "cidade": "Barra do Piraí",
+    "localidade": "Represa",
+    "endereco": "Rua Antônio Félix Pinheiro, 405",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade N. S. Aparecida e São Joaquim",
+    "tipo": "comunidade",
+    "cidade": "Barra do Piraí",
+    "localidade": "Centro",
+    "endereco": "Avenida Rabelo, 405",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Terezinha",
+    "tipo": "comunidade",
+    "cidade": "Barra do Piraí",
+    "localidade": "Centro",
+    "endereco": "Rua Ernani do Amaral Peixoto, 749",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesevr.com.br/paroquia/36",
+    "data": "2026-11",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesevr.com.br/missa",
+    "data": "2026-11",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato de Barra do Piraí. Horários da página da paróquia no site da diocese, sem data."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São João Batista",
+  "categoria": "paroquia",
+  "cidade": "Engenheiro Paulo de Frontin",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "2424631152",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "saojoaobatista-paroquia@bol.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Batista",
+    "tipo": "matriz",
+    "cidade": "Engenheiro Paulo de Frontin",
+    "localidade": "Centro",
+    "endereco": "Travessa São João Batista, 32",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrada Família",
+    "tipo": "comunidade",
+    "cidade": "Engenheiro Paulo de Frontin",
+    "localidade": "Matadouro",
+    "endereco": "Rua Eltídio Jacinto de Carvalho",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sant'Ana",
+    "tipo": "comunidade",
+    "cidade": "Engenheiro Paulo de Frontin",
+    "localidade": "Barreira",
+    "endereco": "Rua Vista Alegre, 115",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Cruz",
+    "tipo": "comunidade",
+    "cidade": "Engenheiro Paulo de Frontin",
+    "localidade": "Parapeúna",
+    "endereco": "Estrada Presidente Pedreira",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco de Assis",
+    "tipo": "comunidade",
+    "cidade": "Engenheiro Paulo de Frontin",
+    "localidade": "Borracha",
+    "endereco": "Rua Manuel de Almeida, 311",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Engenheiro Paulo de Frontin",
+    "localidade": "Grama",
+    "endereco": "Rua Antônio Maurício",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Conceição",
+    "tipo": "comunidade",
+    "cidade": "Engenheiro Paulo de Frontin",
+    "localidade": "Túnel 11",
+    "endereco": "Praça da Matriz",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Engenheiro Paulo de Frontin",
+    "localidade": "Santo Antônio",
+    "endereco": "Rua São João Batista",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Sebastião",
+    "tipo": "comunidade",
+    "cidade": "Engenheiro Paulo de Frontin",
+    "localidade": "Palmeira da Serra",
+    "endereco": "Palmeira da Serra",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Frei Galvão",
+    "tipo": "comunidade",
+    "cidade": "Engenheiro Paulo de Frontin",
+    "localidade": "Pacheco",
+    "endereco": "Rua São Geraldo, 773",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Menino Jesus de Praga",
+    "tipo": "comunidade",
+    "cidade": "Engenheiro Paulo de Frontin",
+    "localidade": "Borracha",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesevr.com.br/paroquia/38",
+    "data": "2026-11",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Vicariato de Barra do Piraí. A página da diocese não traz horário de missa; sem horário confirmado."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "Piraí",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "24998664892",
+   "whatsapp": "24998664892",
+   "instagram": "",
+   "site": "",
+   "email": "comunidadesjbatista@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Batista",
+    "tipo": "matriz",
+    "cidade": "Piraí",
+    "localidade": "Arrozal",
+    "endereco": "Praça João XXIII",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Imaculada Conceição",
+    "tipo": "comunidade",
+    "cidade": "Rio Claro",
+    "localidade": "Passa Três",
+    "endereco": "Rua Washington Luiz, 10",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Fátima",
+    "tipo": "comunidade",
+    "cidade": "Piraí",
+    "localidade": "Varjão",
+    "endereco": "Rua Santa Rita de Cássia",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrado Coração de Jesus",
+    "tipo": "comunidade",
+    "cidade": "Piraí",
+    "localidade": "Jaqueira",
+    "endereco": "Rua B, 564",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesevr.com.br/paroquia/40",
+    "data": "2026-11",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Vicariato de Volta Redonda. A página da diocese não traz horário de missa; sem horário confirmado."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora das Dores",
+  "categoria": "paroquia",
+  "cidade": "Barra do Piraí",
+  "padroeiro": "Nossa Senhora das Dores",
+  "contatos": {
+   "telefone": "24999514748",
+   "whatsapp": "24999514748",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiansdoresdorandia@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora das Dores",
+    "tipo": "matriz",
+    "cidade": "Barra do Piraí",
+    "localidade": "Dorândia",
+    "endereco": "Praça Comendador Nóbrega, 143",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Benedito",
+    "tipo": "comunidade",
+    "cidade": "Barra do Piraí",
+    "localidade": "Vila Nova, Vargem Alegre",
+    "endereco": "Rua Manoel Pereira, 32",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Barra do Piraí",
+    "localidade": "São José do Turvo, Vila Nova de Campos",
+    "endereco": "Rua Ulisses Dias Valente",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Conceição",
+    "tipo": "comunidade",
+    "cidade": "Barra do Piraí",
+    "localidade": "Vila Maia, Dorândia",
+    "endereco": "rua Sete de Setembro, 130",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Barra do Piraí",
+    "localidade": "Vargem Alegre",
+    "endereco": "Rua Judith Rocha, 110",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Amparo",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Nossa Senhora do Amparo",
+    "endereco": "Praça Major Arthur Luís Correa",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesevr.com.br/paroquia/41",
+    "data": "2026-11",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Vicariato de Barra do Piraí. A página da diocese não traz horário de missa; sem horário confirmado."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Conceição",
+  "categoria": "paroquia",
+  "cidade": "Engenheiro Paulo de Frontin",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "2424631152",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "matrizdesacra@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "Engenheiro Paulo de Frontin",
+    "localidade": "Sacra Família do Tinguá",
+    "endereco": "Praça Celso Caneira, 16",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Lourdes",
+    "tipo": "comunidade",
+    "cidade": "Engenheiro Paulo de Frontin",
+    "localidade": "",
+    "endereco": "Morro azul",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Carmo",
+    "tipo": "comunidade",
+    "cidade": "Engenheiro Paulo de Frontin",
+    "localidade": "Palmas",
+    "endereco": "Fazenda Santa Maria",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Engenheiro Paulo de Frontin",
+    "localidade": "Palmas",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Jorge",
+    "tipo": "comunidade",
+    "cidade": "Engenheiro Paulo de Frontin",
+    "localidade": "Palmas",
+    "endereco": "Estrada das Palmas do Barão do Amparo",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Engenheiro Paulo de Frontin",
+    "localidade": "",
+    "endereco": "Graminha",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesevr.com.br/paroquia/42",
+    "data": "2026-11",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Vicariato de Barra do Piraí. A página da diocese não traz horário de missa; sem horário confirmado."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Coração Eucarístico de Jesus",
+  "categoria": "paroquia",
+  "cidade": "Barra Mansa",
+  "padroeiro": "Coração Eucarístico de Jesus",
+  "contatos": {
+   "telefone": "24992645055",
+   "whatsapp": "24992645055",
+   "instagram": "",
+   "site": "",
+   "email": "scoracaoeucaristicodejesus@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário Coração Eucarístico de Jesus",
+    "tipo": "santuario",
+    "cidade": "Barra Mansa",
+    "localidade": "Floriano",
+    "endereco": "Praça Ludovico Egalon",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora dos Remédios",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Nossa Senhora dos Remédios",
+    "endereco": "Praça Nossa Senhora dos Remédios",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Vicente de Paulo",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Floriano",
+    "endereco": "Rodovia Presidente Dutra, 287",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Batista",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Pombal",
+    "endereco": "Rodovia Presidente Dutra",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesevr.com.br/paroquia/44",
+    "data": "2026-11",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesevr.com.br/missa",
+    "data": "2026-11",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato de Resende. Horários da página da paróquia no site da diocese, sem data. Matriz é o Santuário Coração Eucarístico de Jesus, em Floriano."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Senhor Bom Jesus",
+  "categoria": "paroquia",
+  "cidade": "Volta Redonda",
+  "padroeiro": "Senhor Bom Jesus",
+  "contatos": {
+   "telefone": "2432121897",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasenhorbomjesusvr@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Senhor Bom Jesus",
+    "tipo": "matriz",
+    "cidade": "Volta Redonda",
+    "localidade": "Água Limpa",
+    "endereco": "Rua Siqueira Campos, 271",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Imaculado Coração de Maria",
+    "tipo": "comunidade",
+    "cidade": "Volta Redonda",
+    "localidade": "Três Poços",
+    "endereco": "Avenida VRD 101 - Paulo Erlei Alves Abrantes, 8521",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrado Coração de Jesus",
+    "tipo": "comunidade",
+    "cidade": "Volta Redonda",
+    "localidade": "Vila Rica",
+    "endereco": "Rua Erika Berbet, 168",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrada Família",
+    "tipo": "comunidade",
+    "cidade": "Volta Redonda",
+    "localidade": "Água Limpa",
+    "endereco": "Rua Rio Doce, 71",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Miguel Arcanjo e Santa Luzia",
+    "tipo": "comunidade",
+    "cidade": "Volta Redonda",
+    "localidade": "Vila Americana",
+    "endereco": "Rua Argentina, 395",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Divino Espírito Santo",
+    "tipo": "comunidade",
+    "cidade": "Volta Redonda",
+    "localidade": "Jardim Amália",
+    "endereco": "Rua Florêncio de Abreu, 266",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrada Família",
+    "tipo": "comunidade",
+    "cidade": "Volta Redonda",
+    "localidade": "Jardim Amália",
+    "endereco": "Rua U, 250",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesevr.com.br/paroquia/49",
+    "data": "2026-11",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesevr.com.br/missa",
+    "data": "2026-11",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato de Volta Redonda. Horários da página da paróquia no site da diocese, sem data."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Cristo Ressuscitado",
+  "categoria": "paroquia",
+  "cidade": "Itatiaia",
+  "padroeiro": "Cristo Ressuscitado",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "pcr.itatiaia@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Cristo Ressuscitado",
+    "tipo": "matriz",
+    "cidade": "Itatiaia",
+    "localidade": "Campo Alegre",
+    "endereco": "Av. Cel. Napoleão Duarte",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Benedito",
+    "tipo": "comunidade",
+    "cidade": "Resende",
+    "localidade": "Engenheiro Passos",
+    "endereco": "Rua Firmino José Henrique de Souza",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Bom Jesus",
+    "tipo": "comunidade",
+    "cidade": "Itatiaia",
+    "localidade": "Jardim Itatiaia",
+    "endereco": "Rua nove",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Bom Pastor",
+    "tipo": "comunidade",
+    "cidade": "Itatiaia",
+    "localidade": "Vila Pinheiro",
+    "endereco": "Rua Marica",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Itatiaia",
+    "localidade": "Vila Flórida",
+    "endereco": "Avenida Principal",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco",
+    "tipo": "comunidade",
+    "cidade": "Itatiaia",
+    "localidade": "Nhá Chica, Nova Conquista",
+    "endereco": "Estrada de Furnas, 190",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesevr.com.br/paroquia/52",
+    "data": "2026-11",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesevr.com.br/missa",
+    "data": "2026-11",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato de Resende. Horários da página da paróquia no site da diocese, sem data."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Lourdes e São Jorge",
+  "categoria": "paroquia",
+  "cidade": "Volta Redonda",
+  "padroeiro": "Nossa Senhora de Lourdes e São Jorge",
+  "contatos": {
+   "telefone": "24998241995",
+   "whatsapp": "24998241995",
+   "instagram": "",
+   "site": "",
+   "email": "secretaria.lourdesejorge@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora de Lourdes e São Jorge",
+    "tipo": "matriz",
+    "cidade": "Volta Redonda",
+    "localidade": "Duzentos e Quarenta e Nove",
+    "endereco": "Av. Europa, 904",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo André Apóstolo",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Ponte Alta",
+    "endereco": "Avenida Waldomiro Peres Gonçalves",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Carlos Lwanga",
+    "tipo": "comunidade",
+    "cidade": "Volta Redonda",
+    "localidade": "Conforto",
+    "endereco": "Rua Farias de Brito",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Inês",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Santa Ines",
+    "endereco": "Rua Eckel Tavares",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Miguel Arcanjo",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Morada da Granja",
+    "endereco": "Rua José Moisés",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Fátima",
+    "tipo": "comunidade",
+    "cidade": "Volta Redonda",
+    "localidade": "Eucaliptal",
+    "endereco": "Rua João Nascimento de Almeida",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Penha",
+    "tipo": "comunidade",
+    "cidade": "Volta Redonda",
+    "localidade": "Conforto",
+    "endereco": "Rua Farias de Brito",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Teresinha do Menino Jesus",
+    "tipo": "comunidade",
+    "cidade": "Volta Redonda",
+    "localidade": "Jardim Ponte Alta",
+    "endereco": "Rua J",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Lucas",
+    "tipo": "comunidade",
+    "cidade": "Volta Redonda",
+    "localidade": "São Lucas",
+    "endereco": "Avenida São Lucas",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Cristo Rei",
+    "tipo": "comunidade",
+    "cidade": "Volta Redonda",
+    "localidade": "Minerlândia",
+    "endereco": "Rua Caxambu",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesevr.com.br/paroquia/57",
+    "data": "2026-11",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Vicariato de Volta Redonda. A página da diocese não traz horário de missa; sem horário confirmado."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Clara de Assis",
+  "categoria": "paroquia",
+  "cidade": "Barra Mansa",
+  "padroeiro": "Santa Clara de Assis",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Clara de Assis",
+    "tipo": "matriz",
+    "cidade": "Barra Mansa",
+    "localidade": "Goiabal",
+    "endereco": "Rua Virgilino Alves Nogueira, 165",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Luiz Gonzaga",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Jardim América",
+    "endereco": "Rua Joaquim Maria Silva, 11",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Mateus",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Nova Esperança",
+    "endereco": "Rua Mário Francisco Andrade, 21",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco de Assis",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Jardim Primavera",
+    "endereco": "Rua Florianópolis, 622",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Cristóvão",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Jardim América",
+    "endereco": "Rua José Henrique Batista, 1",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Lúcia Filippini",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Goiabal",
+    "endereco": "Rua Hove, 110",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Arnaldo Jansen",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Goiabal",
+    "endereco": "Rua Napoles",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Conceição",
+    "tipo": "comunidade",
+    "cidade": "Barra Mansa",
+    "localidade": "Antônio Rocha",
+    "endereco": "Rua da Estação, 455",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesevr.com.br/paroquia/64",
+    "data": "2026-11",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Vicariato de Barra Mansa. A página da diocese não traz horário de missa; sem horário confirmado. Sem e-mail publicado."
+ }
+]
