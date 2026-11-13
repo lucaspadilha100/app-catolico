@@ -1,0 +1,2689 @@
+[
+ {
+  "id_banco": null,
+  "nome": "Catedral Diocesana Divino Espírito Santo",
+  "categoria": "catedral",
+  "cidade": "Jataí",
+  "padroeiro": "Divino Espírito Santo",
+  "contatos": {
+   "telefone": "6436312490",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "catedraljti@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Catedral Divino Espírito Santo",
+    "tipo": "matriz",
+    "cidade": "Jataí",
+    "localidade": "Santa Maria",
+    "endereco": "Rua Minas Gerais, 955",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Jataí",
+    "localidade": "Bom Jardim",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedejatai.org/distritocentro/catedral-diocesana-divino-espírito-santo-",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Distrito Pastoral Centro. Sé da diocese. Comunidades urbanas Nossa Senhora Aparecida, Santa Teresinha e Mosteiro Divina Misericórdia, sem bairro na fonte. Sem horário publicado pela diocese nem achado na busca."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Rosário",
+  "categoria": "paroquia",
+  "cidade": "Jataí",
+  "padroeiro": "Nossa Senhora do Rosário",
+  "contatos": {
+   "telefone": "6436311740",
+   "whatsapp": "",
+   "instagram": "matrizdorosariojatai",
+   "site": "",
+   "email": "pnsrosario@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Rosário",
+    "tipo": "matriz",
+    "cidade": "Jataí",
+    "localidade": "Centro",
+    "endereco": "Rua Benjamin Constant, 510",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedejatai.org/distritocentro/paróquia-nossa-senhora-do-rosário",
+    "data": "",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.instagram.com/matrizdorosariojatai/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Distrito Pastoral Centro. Antiga catedral. Missionários Salvistas (SJS). Instagram pelo trecho da busca. Sem horário publicado pela diocese nem achado na busca."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Judas Tadeu",
+  "categoria": "paroquia",
+  "cidade": "Jataí",
+  "padroeiro": "São Judas Tadeu",
+  "contatos": {
+   "telefone": "6436313251",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "p_sjtadeu@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Judas Tadeu",
+    "tipo": "matriz",
+    "cidade": "Jataí",
+    "localidade": "Centro",
+    "endereco": "Rua Napoleão Laureano, 481",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Capelas sem bairro na fonte: São José, sexta 19h; São Benedito, domingo 8h; Perpétuo Socorro e Divino Pai Eterno, domingo 9h30; São João Batista e Evangelista, domingo 17h30; Comunidade Nossa Senhora da Abadia, última sexta do mês 19h."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora das Graças",
+    "tipo": "capela",
+    "cidade": "Perolândia",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora do Carmo",
+    "tipo": "capela",
+    "cidade": "Jataí",
+    "localidade": "Estância",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "15:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Bento",
+    "tipo": "comunidade",
+    "cidade": "Jataí",
+    "localidade": "Assentamento 3T",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "14:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Jataí",
+    "localidade": "Km 71",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Luzia",
+    "tipo": "comunidade",
+    "cidade": "Jataí",
+    "localidade": "Assentamento Três Pontes",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Luzia",
+    "tipo": "comunidade",
+    "cidade": "Jataí",
+    "localidade": "Região da Onça",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "14:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Rita",
+    "tipo": "comunidade",
+    "cidade": "Jataí",
+    "localidade": "Assentamento Santa Rita",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "14:00",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Jataí",
+    "localidade": "Lagoa do Bonfim",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:30",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Abadia",
+    "tipo": "comunidade",
+    "cidade": "Jataí",
+    "localidade": "Região da Onça",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "15:00",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedejatai.org/distritocentro/paróquia-são-judas-tadeu",
+    "data": "",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Distrito Pastoral Centro. Atende também Perolândia. Página da diocese sem data."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Fátima",
+  "categoria": "paroquia",
+  "cidade": "Serranópolis",
+  "padroeiro": "Nossa Senhora de Fátima",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora de Fátima",
+    "tipo": "matriz",
+    "cidade": "Serranópolis",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedejatai.org/paroquiascentro",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Distrito Pastoral Centro. Criada em 1981. O botão da diocese não abre página própria; sem contato publicado. Sem horário publicado pela diocese nem achado na busca."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Rainha do Céu",
+  "categoria": "paroquia",
+  "cidade": "Chapadão do Céu",
+  "padroeiro": "Nossa Senhora Rainha do Céu",
+  "contatos": {
+   "telefone": "6436341198",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "pnsrceu@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Rainha do Céu",
+    "tipo": "matriz",
+    "cidade": "Chapadão do Céu",
+    "localidade": "",
+    "endereco": "Rua Guavira, 243",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Sebastião",
+    "tipo": "comunidade",
+    "cidade": "Chapadão do Céu",
+    "localidade": "Setor Buriti",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Batista",
+    "tipo": "comunidade",
+    "cidade": "Chapadão do Céu",
+    "localidade": "Assentamento Pratinha",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedejatai.org/distritocentro/paróquia-nossa-senhora-rainha-do-céu-",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Distrito Pastoral Centro. Criada em 2010. Sem horário publicado pela diocese nem achado na busca."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "Jataí",
+  "padroeiro": "São Sebastião",
+  "contatos": {
+   "telefone": "6436312714",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "pssebastiao@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Sebastião",
+    "tipo": "matriz",
+    "cidade": "Jataí",
+    "localidade": "Santa Maria",
+    "endereco": "Rua Jorge Zaiden, 61",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedejatai.org/distritocentro/paróquia-são-sebastião",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Distrito Pastoral Centro. Sem horário publicado pela diocese nem achado na busca."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Fátima",
+  "categoria": "paroquia",
+  "cidade": "Jataí",
+  "padroeiro": "Nossa Senhora de Fátima",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiansfatimaa@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora de Fátima",
+    "tipo": "matriz",
+    "cidade": "Jataí",
+    "localidade": "Vila Jardim Rio Claro",
+    "endereco": "Av. Said Abdala, 476",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrada Família",
+    "tipo": "comunidade",
+    "cidade": "Jataí",
+    "localidade": "Distrito de Naveslândia",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedejatai.org/distritocentro/paróquia-nossa-senhora-de-fátima",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Distrito Pastoral Centro. Criada em 2024. Mercedários (O. de M.). A página dá o telefone (64) 3631-2714, o mesmo da Paróquia São Sebastião; ficou só lá. Sem horário publicado pela diocese nem achado na busca."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Agostinho",
+  "categoria": "paroquia",
+  "cidade": "Aporé",
+  "padroeiro": "Santo Agostinho",
+  "contatos": {
+   "telefone": "6436441530",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "aporeparoquia@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Agostinho",
+    "tipo": "matriz",
+    "cidade": "Aporé",
+    "localidade": "Centro",
+    "endereco": "Praça da Matriz, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedejatai.org/distritocentro/paróquia-santo-agostinho",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Distrito Pastoral Centro. Criada em 1987. Sem horário publicado pela diocese nem achado na busca."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Imaculado Coração de Maria",
+  "categoria": "paroquia",
+  "cidade": "Rio Verde",
+  "padroeiro": "Imaculado Coração de Maria",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "imaculadocoracaodemariarv",
+   "site": "",
+   "email": "parimaculadocoracaodemariarv@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Imaculado Coração de Maria",
+    "tipo": "matriz",
+    "cidade": "Rio Verde",
+    "localidade": "Conjunto Maurício Arantes",
+    "endereco": "Rua J-A14, 27",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "O Instagram da paróquia (trecho da busca) dá domingo 9h e 19h."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Guia",
+    "tipo": "comunidade",
+    "cidade": "Rio Verde",
+    "localidade": "Fazenda Monte Alegre",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedejatai.org/paroquiasleste/paróquia-imaculado-coração-de-maria",
+    "data": "",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.instagram.com/imaculadocoracaodemariarv/",
+    "data": "",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Distrito Pastoral Leste. Paróquia desde 2018. Página da diocese sem data; o perfil diverge no horário da noite de domingo."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Fátima",
+  "categoria": "paroquia",
+  "cidade": "Rio Verde",
+  "padroeiro": "Nossa Senhora de Fátima",
+  "contatos": {
+   "telefone": "6436131814",
+   "whatsapp": "",
+   "instagram": "paroquiadefatimarv",
+   "site": "",
+   "email": "paroquia.nossasenhoradefatimarv@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora de Fátima",
+    "tipo": "matriz",
+    "cidade": "Rio Verde",
+    "localidade": "Centro",
+    "endereco": "Rua Nivaldo Ribeiro, 271",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedejatai.org/paroquiasleste/paróquia-nossa-senhora-de-fátima",
+    "data": "",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.instagram.com/paroquiadefatimarv/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Distrito Pastoral Leste. Criada em 1963. Instagram pelo trecho da busca (horário fica na bio, não aparece). Sem horário publicado pela diocese nem achado na busca."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio de Pádua",
+  "categoria": "paroquia",
+  "cidade": "Santo Antônio da Barra",
+  "padroeiro": "Santo Antônio de Pádua",
+  "contatos": {
+   "telefone": "6436261130",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio de Pádua",
+    "tipo": "matriz",
+    "cidade": "Santo Antônio da Barra",
+    "localidade": "",
+    "endereco": "Rua Treze de Junho",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Santo Antônio da Barra",
+    "localidade": "Santa Cruz das Lajes",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedejatai.org/paroquiasleste/paróquia-santo-antônio-de-pádua",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Distrito Pastoral Leste. Criada em 1986. Sem horário publicado pela diocese nem achado na busca."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Judas Tadeu",
+  "categoria": "paroquia",
+  "cidade": "Rio Verde",
+  "padroeiro": "São Judas Tadeu",
+  "contatos": {
+   "telefone": "6436236862",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasaojudas28rv@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Judas Tadeu",
+    "tipo": "matriz",
+    "cidade": "Rio Verde",
+    "localidade": "Vila Promissão",
+    "endereco": "Rua 15, 324",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedejatai.org/paroquiasleste/paróquia-são-judas-tadeu",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Distrito Pastoral Leste. Criada em 2017. Sem horário publicado pela diocese nem achado na busca."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Maurilândia",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "6436471280",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquianossasenhoraaparecida@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Maurilândia",
+    "localidade": "Centro",
+    "endereco": "Rua Francisco de Jesus, 33",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Maurilândia",
+    "localidade": "Lagoa do Bauzinho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Menino Jesus de Praga",
+    "tipo": "comunidade",
+    "cidade": "Maurilândia",
+    "localidade": "Castelândia",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedejatai.org/paroquiasleste/paróquia-nossa-senhora-aparecida",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Distrito Pastoral Leste. Criada em 1982. Sem horário publicado pela diocese nem achado na busca."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora d’Abadia",
+  "categoria": "paroquia",
+  "cidade": "Montividiu",
+  "padroeiro": "Nossa Senhora d’Abadia",
+  "contatos": {
+   "telefone": "6436291221",
+   "whatsapp": "",
+   "instagram": "paroquiansabadiaa",
+   "site": "",
+   "email": "paroquiamtv@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora d’Abadia",
+    "tipo": "matriz",
+    "cidade": "Montividiu",
+    "localidade": "Centro",
+    "endereco": "Av. Rio Verde, s/n, Praça da Matriz",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Montividiu",
+    "localidade": "Bairro Santa Luzia",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedejatai.org/paroquiasleste/paróquia-nossa-senhora-d’abadia-",
+    "data": "",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.instagram.com/paroquiansabadiaa/",
+    "data": "",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Distrito Pastoral Leste. Criada em 1989. Horário pelo trecho do Instagram da paróquia visto na busca (sem data)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio de Pádua",
+  "categoria": "paroquia",
+  "cidade": "Rio Verde",
+  "padroeiro": "Santo Antônio de Pádua",
+  "contatos": {
+   "telefone": "6436213987",
+   "whatsapp": "64999361668",
+   "instagram": "",
+   "site": "",
+   "email": "secretaria@psantoniopadua.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio de Pádua",
+    "tipo": "matriz",
+    "cidade": "Rio Verde",
+    "localidade": "Parque Bandeirante",
+    "endereco": "Av. Pedro Ludovico Teixeira, 65, Qd. 33, Lt. 13",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedejatai.org/paroquiasleste/paróquia-santo-antônio-de-pádua-de-rio-verde",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Distrito Pastoral Leste. Criada em 1981. Redentoristas (C.Ss.R.). O site psantoniopadua.com.br respondeu com erro em 13/11/2026. Sem horário publicado pela diocese nem achado na busca."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Miguel Arcanjo e São Padre Pio",
+  "categoria": "paroquia",
+  "cidade": "Rio Verde",
+  "padroeiro": "São Miguel Arcanjo e São Padre Pio",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Miguel Arcanjo e São Padre Pio",
+    "tipo": "matriz",
+    "cidade": "Rio Verde",
+    "localidade": "Vila Canaã",
+    "endereco": "Rua Coronel Vaiano, 02, Qd. 38A",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedejatai.org/paroquiasleste/paróquia-são-miguel-arcanjo-e-são-padre-pio-",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Distrito Pastoral Leste. Criada em 2025. O único e-mail publicado é pessoal do pároco e não entrou. Sem horário publicado pela diocese nem achado na busca."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora das Dores",
+  "categoria": "paroquia",
+  "cidade": "Rio Verde",
+  "padroeiro": "Nossa Senhora das Dores",
+  "contatos": {
+   "telefone": "6436210002",
+   "whatsapp": "",
+   "instagram": "paroquiadasdores.rv",
+   "site": "",
+   "email": "paroquiadasdores@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora das Dores",
+    "tipo": "matriz",
+    "cidade": "Rio Verde",
+    "localidade": "Setor Central",
+    "endereco": "Praça da Matriz, Rua Abel Pereira de Castro",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": "Com grupo de oração"
+     }
+    ],
+    "nao_cabe": "Comunidade São Sebastião (igreja histórica de 1912, sem endereço na fonte): quarta 7h; quinta 19h Missa da Saúde (18h30 terço); sexta 19h; sábado 17h; 1ª sexta 15h e 19h."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Rio Verde",
+    "localidade": "Vila Carolina",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Sagrada Família",
+    "tipo": "capela",
+    "cidade": "Rio Verde",
+    "localidade": "Parque dos Buritis",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedejatai.org/paroquiasleste/paróquia-nossa-senhora-das-dores",
+    "data": "",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.instagram.com/paroquiadasdores.rv/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Distrito Pastoral Leste. Paróquia de 1848. Missionários da Sagrada Família (MSF). Página da diocese sem data (o texto cita 2018). O site paroquiadasdoresrv.org não abriu."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Helena",
+  "categoria": "paroquia",
+  "cidade": "Santa Helena de Goiás",
+  "padroeiro": "Santa Helena",
+  "contatos": {
+   "telefone": "6436411952",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroshego10@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Helena",
+    "tipo": "matriz",
+    "cidade": "Santa Helena de Goiás",
+    "localidade": "Centro",
+    "endereco": "Rua Sebastião Ferreira de Souza, 714",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Comunidades São Francisco de Assis (Bairro Parreira) e São João Paulo II (Jardim das Aroeiras): a página põe \"terça 19h30\" depois das duas, sem dizer de qual."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Miguel Arcanjo",
+    "tipo": "comunidade",
+    "cidade": "Santa Helena de Goiás",
+    "localidade": "Bairro Rodrigues",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Pedro e São Paulo Apóstolos",
+    "tipo": "comunidade",
+    "cidade": "Santa Helena de Goiás",
+    "localidade": "Bairro Pedrolina",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Terezinha do Menino Jesus",
+    "tipo": "comunidade",
+    "cidade": "Santa Helena de Goiás",
+    "localidade": "Bairro Ouro Branco",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:15",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Santa Helena de Goiás",
+    "localidade": "Jardim Oeste",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:15",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Santa Helena de Goiás",
+    "localidade": "Bairro Lucilene",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco de Assis",
+    "tipo": "comunidade",
+    "cidade": "Santa Helena de Goiás",
+    "localidade": "Bairro Parreira",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Paulo II",
+    "tipo": "comunidade",
+    "cidade": "Santa Helena de Goiás",
+    "localidade": "Jardim das Aroeiras",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Divino Pai Eterno",
+    "tipo": "comunidade",
+    "cidade": "Santa Helena de Goiás",
+    "localidade": "Bairro Brasil",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Luzia",
+    "tipo": "comunidade",
+    "cidade": "Santa Helena de Goiás",
+    "localidade": "Bairro Mutirão",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Expedito",
+    "tipo": "comunidade",
+    "cidade": "Santa Helena de Goiás",
+    "localidade": "Parque Isaura",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Clara",
+    "tipo": "comunidade",
+    "cidade": "Santa Helena de Goiás",
+    "localidade": "Jardim Santa Helena",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Batista",
+    "tipo": "comunidade",
+    "cidade": "Santa Helena de Goiás",
+    "localidade": "Bairro Ipeguary",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Batista",
+    "tipo": "comunidade",
+    "cidade": "Santa Helena de Goiás",
+    "localidade": "Distrito de Riverlândia",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Fátima",
+    "tipo": "comunidade",
+    "cidade": "Santa Helena de Goiás",
+    "localidade": "Distrito de Ouroana",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Todos os Santos",
+    "tipo": "comunidade",
+    "cidade": "Santa Helena de Goiás",
+    "localidade": "Distrito de Quinô",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Divino Pai Eterno",
+    "tipo": "comunidade",
+    "cidade": "Santa Helena de Goiás",
+    "localidade": "Sítio Nova Esperança",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Sebastião",
+    "tipo": "comunidade",
+    "cidade": "Santa Helena de Goiás",
+    "localidade": "Fazenda Bauzinho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Sebastião",
+    "tipo": "comunidade",
+    "cidade": "Santa Helena de Goiás",
+    "localidade": "Serra Negra, Ouroana",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Santa Helena de Goiás",
+    "localidade": "Fazenda Córrego da Ponte",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Paulo Apóstolo",
+    "tipo": "comunidade",
+    "cidade": "Santa Helena de Goiás",
+    "localidade": "Fazenda Nova Esperança",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedejatai.org/paroquiasleste/paróquia-santa-helena",
+    "data": "",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Distrito Pastoral Leste. Criada em 1962. Página da diocese sem data. Outro telefone: (64) 3641-2061."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Francisco de Assis",
+  "categoria": "paroquia",
+  "cidade": "Rio Verde",
+  "padroeiro": "São Francisco de Assis",
+  "contatos": {
+   "telefone": "6436221375",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "psfa.rv@outlook.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Francisco de Assis",
+    "tipo": "matriz",
+    "cidade": "Rio Verde",
+    "localidade": "Conjunto Morada do Sol",
+    "endereco": "Praça Carolina Leão Veloso, 290",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Capela Nossa Senhora da Abadia: domingo 8h30. Capela Santa Cecília: sábado 19h30. Sem bairro na fonte."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Rio Verde",
+    "localidade": "Assentamento Rio Verdinho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedejatai.org/paroquiasleste/paróquia-são-francisco-de-assis",
+    "data": "",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Distrito Pastoral Leste. Criada em 2016. Página da diocese sem data."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Vicente de Paulo",
+  "categoria": "paroquia",
+  "cidade": "Rio Verde",
+  "padroeiro": "São Vicente de Paulo",
+  "contatos": {
+   "telefone": "6436121236",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasvp@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Vicente de Paulo",
+    "tipo": "matriz",
+    "cidade": "Rio Verde",
+    "localidade": "Popular",
+    "endereco": "Rua 74, 561",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedejatai.org/paroquiasleste/paróquia-são-vicente-de-paulo",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Distrito Pastoral Leste. Criada em 1990. Sem horário publicado pela diocese nem achado na busca."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Divino Espírito Santo",
+  "categoria": "paroquia",
+  "cidade": "Mineiros",
+  "padroeiro": "Divino Espírito Santo",
+  "contatos": {
+   "telefone": "6436611139",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Divino Espírito Santo",
+    "tipo": "matriz",
+    "cidade": "Mineiros",
+    "localidade": "Centro",
+    "endereco": "Avenida Primeira, 194",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedejatai.org/team-4/paróquia-divino-espírito-santo",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Distrito Pastoral Noroeste. Paróquia de 1913. O e-mail da página é o da Paróquia N. S. de Fátima de Rio Verde (erro de cópia) e não entrou. Sem horário publicado pela diocese nem achado na busca."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio de Pádua",
+  "categoria": "paroquia",
+  "cidade": "Mineiros",
+  "padroeiro": "Santo Antônio de Pádua",
+  "contatos": {
+   "telefone": "64999455223",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "psantoantoniodepadua.mineiros@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio de Pádua",
+    "tipo": "matriz",
+    "cidade": "Mineiros",
+    "localidade": "Setor José de Oliveira Martins",
+    "endereco": "Av. Juscelino Kubitschek, s/n, Qd. 18, Lt. 01",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedejatai.org/team-4/paróquia-santo-antônio-de-pádua--",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Distrito Pastoral Noroeste. Criada em 2024. Sem horário publicado pela diocese nem achado na busca."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora das Graças",
+  "categoria": "paroquia",
+  "cidade": "Portelândia",
+  "padroeiro": "Nossa Senhora das Graças",
+  "contatos": {
+   "telefone": "6436661199",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "pgracasportelandia@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora das Graças",
+    "tipo": "matriz",
+    "cidade": "Portelândia",
+    "localidade": "Setor Norte",
+    "endereco": "Av. Goiás, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedejatai.org/team-4/paróquia-nossa-senhora-das-graças-",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Distrito Pastoral Noroeste. Criada em 1997. Sem horário publicado pela diocese nem achado na busca."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Bento",
+  "categoria": "paroquia",
+  "cidade": "Mineiros",
+  "padroeiro": "São Bento",
+  "contatos": {
+   "telefone": "6436611858",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "https://www.psaobento.com.br/",
+   "email": "admpsaobento@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Bento",
+    "tipo": "matriz",
+    "cidade": "Mineiros",
+    "localidade": "São Bento",
+    "endereco": "Rua Diagonal São Plácido",
+    "horarios": [
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "08:15",
+      "semanas": null,
+      "observacao": "Até 10h; por ordem de chegada"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "08:15",
+      "semanas": null,
+      "observacao": "Até 10h; por ordem de chegada"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "08:15",
+      "semanas": null,
+      "observacao": "Até 10h; por ordem de chegada"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "14:15",
+      "semanas": null,
+      "observacao": "Até 16h30; por ordem de chegada"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "14:15",
+      "semanas": null,
+      "observacao": "Até 16h30; por ordem de chegada"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "14:15",
+      "semanas": null,
+      "observacao": "Até 16h30; por ordem de chegada"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 6,
+      "hora": "08:15",
+      "semanas": null,
+      "observacao": "Até 10h; por ordem de chegada"
+     }
+    ],
+    "nao_cabe": "A página \"Horários de Missas e Celebrações\" do site da paróquia está vazia (13/11/2026)."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedejatai.org/team-4/paróquia-são-bento-",
+    "data": "",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.psaobento.com.br/programacao/00004/01/01/70/atendimento-confisses",
+    "data": "2025-07-05",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Distrito Pastoral Noroeste. Criada em 2008. Monges beneditinos do Mosteiro São José. Só a confissão tem horário publicado."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Rita dos Impossíveis",
+  "categoria": "paroquia",
+  "cidade": "Santa Rita do Araguaia",
+  "padroeiro": "Santa Rita de Cássia",
+  "contatos": {
+   "telefone": "6436351245",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "psantaritaimp@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Rita dos Impossíveis",
+    "tipo": "matriz",
+    "cidade": "Santa Rita do Araguaia",
+    "localidade": "Centro",
+    "endereco": "Av. Walquir Vieira de Rezende, 981, Praça da Matriz",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedejatai.org/team-4/paróquia-santa-rita-dos-impossíveis-",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Distrito Pastoral Noroeste. Criada em 1962. A busca mostrou um perfil \"Paróquia Santa Rita dos Impossíveis\" com horários, mas sem cidade; não entrou. Sem horário publicado pela diocese nem achado na busca."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Imaculada Conceição",
+  "categoria": "paroquia",
+  "cidade": "Paranaiguara",
+  "padroeiro": "Imaculada Conceição",
+  "contatos": {
+   "telefone": "6436551129",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiapguara@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz da Imaculada Conceição",
+    "tipo": "matriz",
+    "cidade": "Paranaiguara",
+    "localidade": "Centro",
+    "endereco": "Rua Fued Amui, 62",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedejatai.org/team-5/paróquia-imaculada-conceição",
+    "data": "2023-08-31",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Distrito Pastoral Sul. Criada em 1962. Outro telefone: (64) 3655-1156. Sem horário publicado pela diocese nem achado na busca."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora d’Abadia",
+  "categoria": "paroquia",
+  "cidade": "Quirinópolis",
+  "padroeiro": "Nossa Senhora d’Abadia",
+  "contatos": {
+   "telefone": "6436151570",
+   "whatsapp": "64992506604",
+   "instagram": "nossasenhoradaabadia",
+   "site": "",
+   "email": "pnsabadia@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora d’Abadia",
+    "tipo": "matriz",
+    "cidade": "Quirinópolis",
+    "localidade": "Centro",
+    "endereco": "Av. Lázaro Xavier, 86",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "13:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Capelas da cidade (sem bairro na fonte): sábado 18h Santo Agostinho e São Vicente de Paulo, 19h30 São Sebastião e Santo Antônio; domingo 7h Sant’Ana, 8h15 Nossa Senhora Aparecida, 8h30 São José, 17h Divino Pai Eterno e Divina Misericórdia, 19h São Judas Tadeu; terça 19h Santo Antônio; quarta 7h São Sebastião, 19h Sant’Ana e Santo Agostinho; quinta 19h Nossa Senhora Aparecida; sexta 7h Igreja Mãe (Nossa Senhora d’Abadia), 19h Divino Pai Eterno; última quinta 15h Abrigo dos Idosos. Rurais: última sexta 15h João Santiago e 18h Sobradinho."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Quirinópolis",
+    "localidade": "Tocozinho",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       2,
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Divino Pai Eterno",
+    "tipo": "comunidade",
+    "cidade": "Quirinópolis",
+    "localidade": "Bom Jardim",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "17:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Quirinópolis",
+    "localidade": "Rosa",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "14:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santos Anjos",
+    "tipo": "comunidade",
+    "cidade": "Quirinópolis",
+    "localidade": "Douradinho",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "17:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Batista",
+    "tipo": "comunidade",
+    "cidade": "Quirinópolis",
+    "localidade": "Inhumas",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "17:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Quirinópolis",
+    "localidade": "Tibúrcio",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Lázaro",
+    "tipo": "comunidade",
+    "cidade": "Quirinópolis",
+    "localidade": "Pedra Lisa",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "17:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Clara",
+    "tipo": "comunidade",
+    "cidade": "Quirinópolis",
+    "localidade": "Limeira",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "18:30",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Quirinópolis",
+    "localidade": "Sete Lagoas",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Sebastião",
+    "tipo": "comunidade",
+    "cidade": "Quirinópolis",
+    "localidade": "Povoado do Geraldo Lemos",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "15:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José Operário",
+    "tipo": "comunidade",
+    "cidade": "Quirinópolis",
+    "localidade": "Guarirobas",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "14:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Fátima",
+    "tipo": "comunidade",
+    "cidade": "Quirinópolis",
+    "localidade": "Fazenda Fortaleza",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "17:00",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Tomé",
+    "tipo": "comunidade",
+    "cidade": "Quirinópolis",
+    "localidade": "Castelo",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco de Assis",
+    "tipo": "comunidade",
+    "cidade": "Quirinópolis",
+    "localidade": "Salgado",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "13:00",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Quirinópolis",
+    "localidade": "Cachoeirinha do Rio Preto",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "15:00",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Luzia",
+    "tipo": "comunidade",
+    "cidade": "Quirinópolis",
+    "localidade": "Perdizes",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Batista",
+    "tipo": "comunidade",
+    "cidade": "Quirinópolis",
+    "localidade": "João Santiago",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Paulo II",
+    "tipo": "comunidade",
+    "cidade": "Quirinópolis",
+    "localidade": "Sobradinho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Divino Pai Eterno",
+    "tipo": "comunidade",
+    "cidade": "Quirinópolis",
+    "localidade": "Cilim Pereira",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Rita de Cássia",
+    "tipo": "comunidade",
+    "cidade": "Quirinópolis",
+    "localidade": "Fazendinha",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedejatai.org/team-5/paróquia-nossa-senhora-d’abadia",
+    "data": "2024-03-18",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.instagram.com/nossasenhoradaabadia/",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Distrito Pastoral Sul. Criada em 1962. Página atualizada em 18/03/2024. Horários das comunidades rurais casados pela ordem da tabela."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora d’Abadia",
+  "categoria": "paroquia",
+  "cidade": "Cachoeira Alta",
+  "padroeiro": "Nossa Senhora d’Abadia",
+  "contatos": {
+   "telefone": "6436542508",
+   "whatsapp": "64981465758",
+   "instagram": "",
+   "site": "",
+   "email": "p.n.s.dabadia@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora d’Abadia",
+    "tipo": "matriz",
+    "cidade": "Cachoeira Alta",
+    "localidade": "Centro",
+    "endereco": "Rua Sebastião de Freitas, 117",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Cachoeira Alta",
+    "localidade": "Ribeirão dos Paulos",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Jerônimo",
+    "tipo": "comunidade",
+    "cidade": "Cachoeira Alta",
+    "localidade": "Região dos Coqueiros",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Cachoeira Alta",
+    "localidade": "Pontezinha",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora das Graças",
+    "tipo": "comunidade",
+    "cidade": "Cachoeira Alta",
+    "localidade": "Córrego Domingão",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Cachoeira Alta",
+    "localidade": "Alto Alegre",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedejatai.org/team-5/paróquia-nossa-senhora-d’abadia-",
+    "data": "2024-03-18",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Distrito Pastoral Sul. Criada em 1965. Sem horário publicado pela diocese nem achado na busca."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "Itajá",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "6436481381",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiaitaja@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Batista",
+    "tipo": "matriz",
+    "cidade": "Itajá",
+    "localidade": "",
+    "endereco": "Rua Sebastião da Silva Borges",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Última terça do mês, missa com a família do Terço dos Homens; última sexta, adoração 15h e missa 19h. Capela São José: 1ª terça 19h. Missas nas casas segunda e terça 19h."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Lagoa Santa",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedejatai.org/team-5/paróquia-são-joão-batista-",
+    "data": "2024-03-18",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Distrito Pastoral Sul. Criada em 1964. Atende também Lagoa Santa. Página atualizada em 18/03/2024."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Lourdes",
+  "categoria": "paroquia",
+  "cidade": "Itaguaçu",
+  "padroeiro": "Nossa Senhora de Lourdes",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "nossasenhoradelourdes1983@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora de Lourdes",
+    "tipo": "matriz",
+    "cidade": "Itaguaçu",
+    "localidade": "Centro",
+    "endereco": "Praça da Matriz, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedejatai.org/team-5/paróquia-nossa-senhora-de-lourdes-",
+    "data": "2023-08-31",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Distrito Pastoral Sul. Criada em 1983. Sem telefone na fonte. Sem horário publicado pela diocese nem achado na busca."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sagrado Coração de Jesus",
+  "categoria": "paroquia",
+  "cidade": "Caçu",
+  "padroeiro": "Sagrado Coração de Jesus",
+  "contatos": {
+   "telefone": "6436561971",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "ps-jesu@bol.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Sagrado Coração de Jesus",
+    "tipo": "matriz",
+    "cidade": "Caçu",
+    "localidade": "",
+    "endereco": "Avenida Padre Brom, 608",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Aparecida do Rio Doce",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrada Família",
+    "tipo": "comunidade",
+    "cidade": "Caçu",
+    "localidade": "Rosilho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Caçu",
+    "localidade": "Salto",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Caçu",
+    "localidade": "Ribeirão dos Paulos",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Divino Pai Eterno",
+    "tipo": "comunidade",
+    "cidade": "Caçu",
+    "localidade": "Guariroba",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Rosa Mística",
+    "tipo": "comunidade",
+    "cidade": "Caçu",
+    "localidade": "Sapé",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Mãe Rainha",
+    "tipo": "comunidade",
+    "cidade": "Caçu",
+    "localidade": "Matinha",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedejatai.org/team-5/paróquia-sagrado-coração-de-jesus",
+    "data": "2023-08-31",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Distrito Pastoral Sul. Criada em 1964. Padres da Fraternidade (PF). Atende também Aparecida do Rio Doce. Sem horário publicado pela diocese nem achado na busca."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "Itarumã",
+  "padroeiro": "São Sebastião",
+  "contatos": {
+   "telefone": "6436591270",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiaitaruma@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Sebastião",
+    "tipo": "matriz",
+    "cidade": "Itarumã",
+    "localidade": "Centro",
+    "endereco": "Praça da Matriz, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedejatai.org/team-5/paróquia-são-sebastião",
+    "data": "2023-08-31",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Distrito Pastoral Sul. Criada em 1989. Sem horário publicado pela diocese nem achado na busca."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "Gouvelândia",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "6436531101",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasjbgouv@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Batista",
+    "tipo": "matriz",
+    "cidade": "Gouvelândia",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedejatai.org/team-5/paróquia-são-joão-batista",
+    "data": "2023-08-31",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Distrito Pastoral Sul. Criada em 1996. Sem endereço na fonte. Sem horário publicado pela diocese nem achado na busca."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Simão",
+  "categoria": "paroquia",
+  "cidade": "São Simão",
+  "padroeiro": "São Simão",
+  "contatos": {
+   "telefone": "6436582422",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasaosimaogo@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Simão",
+    "tipo": "matriz",
+    "cidade": "São Simão",
+    "localidade": "",
+    "endereco": "Av. Brasil",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedejatai.org/team-5/paróquia-são-simão",
+    "data": "2023-08-31",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Distrito Pastoral Sul. Criada em 1965. Sem horário publicado pela diocese nem achado na busca."
+ }
+]
