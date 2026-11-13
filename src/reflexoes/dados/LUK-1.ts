@@ -55,7 +55,7 @@ const parte: ParteDasReflexoes = {
       paragrafos: [
         "Jesus ensina a multidão de dentro do barco de Simão. Depois pede algo estranho a um pescador experiente: ir mais para o largo e lançar as redes. Simão tinha trabalhado a noite inteira sem apanhar nada, mas responde: “pela tua palavra, lançarei a rede”. A pesca é tanta que a rede se rompe e os dois barcos quase afundam.",
         "Diante do prodígio, Pedro não pede mais peixes. Cai aos pés de Jesus e diz: “Afasta-te de mim, Senhor, porque sou um homem pecador.” Quem se aproxima de Deus percebe a própria pequenez. Mas Jesus não se afasta; responde com uma missão: “Não tenhas medo. De agora em diante serás pescador de homens.” E eles deixam tudo e o seguem.",
-        "Muitas vezes também trabalhamos muito e parece que nada dá fruto, na família, na comunidade, na vida de oração. Jesus pede que confiemos na sua palavra mais do que na nossa experiência. E, quando reconhecemos os nossos pecados, ele não nos descarta: chama-nos para servir. O barco de Pedro, de onde Jesus ensina, é desde os primeiros séculos uma imagem da Igreja.",
+        "Muitas vezes também trabalhamos muito e parece que nada dá fruto, na família, na comunidade, na vida de oração. Jesus pede que confiemos na sua palavra mais do que na nossa experiência. E, quando reconhecemos os nossos pecados, ele não nos descarta: chama-nos para servir. O Catecismo compara a Igreja a uma nau que navega neste mundo (CIC 845), e o barco de Pedro, de onde Jesus ensina, faz pensar nela.",
       ],
       pergunta: "Em que situação Jesus me pede para lançar de novo as redes, confiando na palavra dele?",
     },
@@ -70,7 +70,7 @@ const parte: ParteDasReflexoes = {
     "LUK 6:27-38": {
       paragrafos: [
         "Jesus pede o que parecia impossível: “amai os vossos inimigos, fazei o bem aos que vos odeiam”. Pede também que bendigamos quem nos amaldiçoa, que rezemos por quem nos calunia e que demos sem esperar nada de volta. E resume: “Assim como quereis que os homens vos façam, fazei também vós a eles.” Amar só quem nos ama, até os pecadores fazem.",
-        "A razão dessa exigência é o próprio Deus. Assim seremos “filhos do Altíssimo, que faz o bem até aos ingratos e aos maus”. Por isso Jesus diz: “Sede, pois, misericordiosos, como também o vosso Pai é misericordioso.” Não se trata de sentir carinho por quem nos fere nem de aprovar a injustiça, mas de querer o bem do outro e não devolver o mal. Só com a graça de Deus isso se torna possível (CIC 2844).",
+        "A razão dessa exigência é o próprio Deus. Assim seremos “filhos do Altíssimo, que faz o bem até aos ingratos e aos maus”. Por isso Jesus diz: “Sede, pois, misericordiosos, como também o vosso Pai é misericordioso.” Não se trata de sentir carinho por quem nos fere nem de aprovar a injustiça, mas de querer o bem do outro e não devolver o mal. Só o Espírito Santo torna isso possível em nós (CIC 2842).",
         "Todos temos alguém difícil de perdoar. Um primeiro passo é rezar por essa pessoa, mesmo com o coração ainda pesado. E a promessa de Jesus é generosa: quem perdoa será perdoado, e quem dá receberá “uma boa medida, bem cheia, bem calcada e transbordante”. Deus não se deixa vencer em generosidade.",
       ],
       pergunta: "Por quem eu preciso rezar, mesmo sem vontade, pedindo a graça de perdoar?",
@@ -118,7 +118,7 @@ const parte: ParteDasReflexoes = {
     "LUK 1:26-38": {
       paragrafos: [
         "O anjo Gabriel é enviado a Nazaré, a uma virgem chamada Maria, desposada com José. Ele a saúda: “Deus te salve, cheia de graça, o Senhor é contigo.” E anuncia que ela conceberá um filho, que será chamado Filho do Altíssimo e cujo reino não terá fim. Maria pergunta como isso se fará, e o anjo responde que o Espírito Santo descerá sobre ela.",
-        "“Cheia de graça” é o nome com que Deus a chama. A Igreja reconhece nessa palavra que Maria foi preservada de todo pecado desde a sua concepção, para ser a mãe do Salvador (CIC 490-491). A sua pergunta não é desconfiança, mas desejo de entender. E a resposta final é entrega total: “Eis aqui a escrava do Senhor; faça-se em mim segundo a tua palavra.” Naquele momento, o Filho de Deus se fez homem no seu seio.",
+        "“Cheia de graça” é o nome com que Deus a chama. A Igreja reconhece nessa palavra que Maria foi preservada de toda mancha do pecado original desde a sua concepção e permaneceu pura de todo pecado pessoal, para ser a mãe do Salvador (CIC 490-493). A sua pergunta não é desconfiança, mas desejo de entender. E a resposta final é entrega total: “Eis aqui a escrava do Senhor; faça-se em mim segundo a tua palavra.” Naquele momento, o Filho de Deus se fez homem no seu seio.",
         "A cada Ave-Maria repetimos a saudação do anjo, e no Ângelus lembramos este momento ao longo do dia. O “faça-se” de Maria é modelo para o nosso sim a Deus, nas coisas grandes e nas pequenas. Nem sempre entendemos tudo, mas podemos confiar, como ela, que “para Deus nada é impossível”.",
       ],
       pergunta: "Em que ponto da minha vida Deus espera o meu ‘faça-se’?",
@@ -206,7 +206,7 @@ const parte: ParteDasReflexoes = {
     "LUK 6:1-5": {
       paragrafos: [
         "Num sábado, os discípulos arrancam espigas pelo caminho, esfregam-nas nas mãos e comem. Os fariseus acusam: isso não era permitido no sábado. Jesus lembra Davi, que, com fome, comeu os pães reservados aos sacerdotes. E termina: “O Filho do Homem é Senhor também do sábado.”",
-        "O sábado era dom de Deus ao povo: dia de descanso e de memória da libertação. Muitos tinham feito dele um peso de regras. Jesus não despreza a lei; mostra que ela serve à vida e à adoração de Deus. E revela quem ele é: o Senhor do sábado, aquele que tem autoridade sobre o dia consagrado a Deus (CIC 2173).",
+        "O sábado era dom de Deus ao povo: dia de descanso e de memória da libertação. Jesus nunca violou a santidade desse dia: dá dele a interpretação autêntica e mostra que a lei serve à vida e à adoração de Deus. E revela quem ele é: o Senhor do sábado, aquele que tem autoridade sobre o dia consagrado a Deus (CIC 2173).",
         "Para os cristãos, o dia do Senhor é o domingo, o dia da Ressurreição. Guardá-lo não é carregar um peso, mas dar a Deus o primeiro lugar, com a missa, o descanso e tempo para a família e para os necessitados. E aprendemos com Jesus a olhar as normas com o coração: elas existem para nos levar a Deus e ao próximo.",
       ],
       pergunta: "Como vivo o domingo: como obrigação pesada ou como dia do Senhor?",
@@ -230,7 +230,7 @@ const parte: ParteDasReflexoes = {
     "LUK 6:39-42": {
       paragrafos: [
         "Jesus pergunta: “Pode um cego guiar outro cego?” E fala do cisco e da trave: é fácil ver o cisco no olho do irmão e não reparar na trave que está no próprio olho. A palavra dele é forte: “Hipócrita, tira primeiro a trave do teu olho.”",
-        "Somos rápidos para notar os defeitos dos outros e lentos para notar os nossos. Muitas vezes, o que mais nos irrita nos outros é o que também temos dentro. Jesus não manda deixar o irmão no erro: depois de tirar a trave, “então verás bem” para ajudá-lo. A correção fraterna é obra de caridade, mas só é verdadeira quando vem de quem também se reconhece pecador. E o discípulo deve parecer com o mestre: aprender de Jesus o modo de olhar.",
+        "Somos rápidos para notar os defeitos dos outros e lentos para notar os nossos. Jesus não manda deixar o irmão no erro: depois de tirar a trave, “então verás bem” para ajudá-lo. A correção fraterna é obra de caridade, mas só é verdadeira quando vem de quem também se reconhece pecador. E o discípulo deve parecer com o mestre: aprender de Jesus o modo de olhar.",
         "O exame de consciência de cada noite é um modo simples de tirar a trave. Antes de dormir, podemos olhar o dia com sinceridade e pedir perdão. Quem faz isso ganha um olhar mais humilde e mais manso com os outros.",
       ],
       pergunta: "Qual trave no meu olho eu preciso deixar Jesus tirar?",
@@ -247,14 +247,14 @@ const parte: ParteDasReflexoes = {
       paragrafos: [
         "Maria parte “às pressas” para a casa de Isabel. Ao ouvir a sua saudação, o menino salta de alegria no ventre de Isabel, que exclama: “Bendita és tu entre as mulheres, e bendito é o fruto do teu ventre!” E Maria começa o seu cântico: “A minha alma glorifica o Senhor.”",
         "Maria não guarda para si o dom que recebeu. Vai ao encontro de quem precisa, e a sua presença leva Jesus e o Espírito Santo. Isabel reconhece nela “a mãe do meu Senhor” e a chama bem-aventurada porque acreditou. Assim Maria fez em muitos momentos da história: aproximou-se dos seus filhos para levá-los ao Filho.",
-        "Em Guadalupe, no México, ela se mostrou a um indígena simples, São Juan Diego, com os traços do povo daquela terra, e a fé se espalhou pelo continente. A Igreja a venera como padroeira da América Latina. Como Isabel, podemos acolhê-la com alegria e deixar que ela nos leve a Jesus.",
+        "Em Guadalupe, no México, a Igreja celebra a aparição de Nossa Senhora a um indígena simples, São Juan Diego, canonizado por São João Paulo II. O Papa São Pio X a declarou padroeira da América Latina. Como Isabel, podemos acolhê-la com alegria e deixar que ela nos leve a Jesus.",
       ],
       pergunta: "Deixo Maria me conduzir a Jesus, como ela conduziu Isabel e São Juan Diego?",
     },
     "LUK 1:5-25": {
       paragrafos: [
         "Zacarias e Isabel são justos, mas não têm filhos e já são velhos. No templo, o anjo Gabriel anuncia a Zacarias que a sua oração foi ouvida: Isabel terá um filho, que preparará o caminho do Senhor. Zacarias pergunta: “Como saberei que isso é verdade?” Por não ter acreditado, fica mudo até que tudo se cumpra. Isabel concebe e louva a Deus, que lhe tirou a vergonha.",
-        "Alguns versículos adiante, Maria também fará uma pergunta ao anjo, mas para entender, e se entregará. Zacarias pede uma prova, porque olha para os próprios limites: “eu sou velho”. O silêncio que ele recebe não é só castigo; é tempo de a fé amadurecer. Quando a voz voltar, ele vai bendizer a Deus.",
+        "Alguns versículos adiante, Maria também fará uma pergunta ao anjo, mas para entender, e se entregará. Zacarias pede uma prova, porque olha para os próprios limites: “eu sou velho”. O anjo lhe diz que ficará mudo até que tudo se cumpra, porque não acreditou. Quando a voz voltar, ele vai bendizer a Deus.",
         "No Advento, a Igreja nos faz esperar com Zacarias e Isabel. Também temos situações em que já não esperamos nada. Deus age onde parecia impossível. O silêncio destes dias pode ser, como para Zacarias, um tempo de deixar a fé crescer, para receber com alegria o Senhor que vem.",
       ],
       pergunta: "Em que situação eu ainda peço provas a Deus, em vez de confiar na sua palavra?",
@@ -262,7 +262,7 @@ const parte: ParteDasReflexoes = {
     "LUK 1:46-56": {
       paragrafos: [
         "Na casa de Isabel, Maria canta: “A minha alma glorifica o Senhor.” Ela louva a Deus porque ele “pôs os olhos na pequenez da sua escrava” e fez nela grandes coisas. E canta o que Deus faz na história: derruba os poderosos, eleva os humildes, enche de bens os famintos e se lembra da promessa feita a Abraão.",
-        "O Magnificat é a oração de quem sabe que tudo é dom. Maria chama Deus de “meu Salvador”: também ela foi salva por ele, de modo único, desde a sua concepção. E não pensa só em si: canta a misericórdia que se estende “de geração em geração”. Nela se cumprem as promessas feitas ao povo de Deus (CIC 2619).",
+        "O Magnificat é a oração de quem sabe que tudo é dom. Maria chama Deus de “meu Salvador”: também ela foi salva por ele, de modo único, desde a sua concepção (CIC 492). E não pensa só em si: canta a misericórdia que se estende “de geração em geração”. Nela se cumprem as promessas feitas ao povo de Deus (CIC 2619).",
         "A Igreja reza o Magnificat todas as tardes, nas Vésperas. Às portas do Natal, ele nos ensina a esperar com alegria e humildade. Deus continua a olhar para os pequenos e a fazer coisas grandes com quem se deixa conduzir por ele.",
       ],
       pergunta: "Por quais grandes coisas que Deus fez em mim eu posso dar graças?",
@@ -287,7 +287,7 @@ const parte: ParteDasReflexoes = {
       paragrafos: [
         "Um decreto do imperador manda recensear todos, e José sobe com Maria, grávida, de Nazaré a Belém, a cidade de Davi. Ali ela dá à luz o seu filho primogênito, envolve-o em faixas e o deita numa manjedoura, “porque não havia lugar para eles na hospedaria”. Na mesma noite, um anjo anuncia aos pastores: “hoje vos nasceu, na cidade de Davi, o Salvador, que é o Cristo Senhor”.",
         "Deus entra na história humana pela porta mais simples. O Filho eterno do Pai nasce pobre, num lugar de animais, e os primeiros a saber são pastores, gente humilde (CIC 525). O sinal dado pelo anjo não é poder nem esplendor: é um menino envolto em faixas, numa manjedoura. E os anjos cantam: “Glória a Deus no mais alto dos céus, e paz na terra aos homens de boa vontade.”",
-        "O Natal nos pergunta se há lugar para Jesus. Ele não força a porta: nasce onde é acolhido. A manjedoura, onde os animais comem, já faz pensar no altar, onde ele se dá como alimento na Eucaristia. Diante do presépio, podemos fazer silêncio, adorar e deixar que a alegria anunciada aos pastores chegue a nós e, por nós, a outros.",
+        "O Natal nos pergunta se há lugar para Jesus. Ele não força a porta: nasce onde é acolhido. São Gregório Magno lembra que Belém quer dizer “casa do pão”: ali nasce aquele que se dará como alimento na Eucaristia. Diante do presépio, podemos fazer silêncio, adorar e deixar que a alegria anunciada aos pastores chegue a nós e, por nós, a outros.",
       ],
       pergunta: "Há lugar para Jesus na minha casa e no meu coração?",
     },

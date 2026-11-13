@@ -6,7 +6,7 @@ const parte: ParteDasReflexoes = {
     "MAT 2:1-12": {
       paragrafos: [
         "Uns magos vêm do Oriente, guiados por uma estrela, e perguntam em Jerusalém pelo rei dos judeus que acaba de nascer. Herodes se perturba. Os sacerdotes e escribas sabem pela Escritura que o Cristo nasceria em Belém, mas não saem do lugar. Quem faz a viagem até o menino são estrangeiros, homens de fora do povo de Israel.",
-        "A Igreja vê nesta cena a manifestação de Jesus a todos os povos (CIC 528). Os magos encontram “o menino com Maria, sua mãe”, prostram-se e o adoram. Desde os antigos, os presentes foram entendidos assim: ouro para o rei, incenso para Deus, mirra para aquele que havia de morrer como homem. A estrela os põe a caminho, mas é a Escritura que diz onde procurar.",
+        "A Igreja vê nesta cena a manifestação de Jesus a todos os povos (CIC 528). Os magos encontram “o menino com Maria, sua mãe”, prostram-se e o adoram. Santo Ireneu explicava assim os presentes: ouro para o rei, incenso para Deus, mirra para aquele que havia de morrer e ser sepultado como homem. A estrela os põe a caminho, mas é a Escritura que diz onde procurar.",
         "Também nós somos desses povos que vieram de longe. Deus usa sinais simples para nos chamar: uma palavra, uma pessoa, um acontecimento. Depois do encontro, os magos voltam “por outro caminho”. Quem encontrou Jesus de verdade não volta igual para casa. E o que temos a oferecer não precisa ser ouro: o tempo, o trabalho, a dor de cada dia, postos aos pés do Senhor.",
       ],
       pergunta: "O que posso oferecer hoje a Jesus, como os magos ofereceram o melhor que tinham?",
@@ -61,7 +61,7 @@ const parte: ParteDasReflexoes = {
     },
     "MAT 5:43-48": {
       paragrafos: [
-        "A lei antiga mandava amar o próximo, e havia quem concluísse que ao inimigo se podia odiar. Jesus vai além: “amai os vossos inimigos, fazei o bem aos que vos odeiam e orai pelos que vos perseguem”. E dá a razão: o Pai faz nascer o sol sobre bons e maus e faz chover sobre justos e injustos.",
+        "Jesus lembra o que tinha sido dito: “Amarás o teu próximo e odiarás o teu inimigo.” E vai além: “amai os vossos inimigos, fazei o bem aos que vos odeiam e orai pelos que vos perseguem”. E dá a razão: o Pai faz nascer o sol sobre bons e maus e faz chover sobre justos e injustos.",
         "Amar só quem nos ama, diz Jesus, até os publicanos fazem. O que é próprio dos filhos de Deus é amar como o Pai ama, sem escolher. Por isso a palavra final: “Sede, portanto, perfeitos, como também o vosso Pai celeste é perfeito.” Não se trata de nunca errar, mas de deixar que o amor de Deus cresça em nós até alcançar quem não merece.",
         "Amar o inimigo não quer dizer aprovar o que ele fez nem fingir que nada aconteceu. Começa por coisas pequenas: não desejar o mal, não espalhar a ofensa, rezar pela pessoa. A oração pelo inimigo é muitas vezes o primeiro lugar onde o coração começa a sarar.",
       ],
@@ -69,9 +69,9 @@ const parte: ParteDasReflexoes = {
     },
     "MAT 1:16.18-21.24a": {
       paragrafos: [
-        "O Evangelho apresenta José como “esposo de Maria, da qual nasceu Jesus”. Ele estava desposado com Maria e descobre que ela concebeu antes de viverem juntos. José ainda não entende o mistério, mas também não quer expor Maria à vergonha. Por ser justo, decide deixá-la em segredo.",
-        "É nesse momento de dúvida que o anjo lhe fala em sonho: “José, filho de Davi, não temas receber Maria, tua mulher.” O filho dela é obra do Espírito Santo, e José lhe dará o nome de Jesus, “porque ele salvará o seu povo dos pecados deles”. Ao despertar, José faz como o anjo mandou. Não diz uma palavra no Evangelho; responde com a obediência.",
-        "Deus confiou a José o que tinha de mais precioso: o seu Filho e a Virgem Maria. Por isso a Igreja o venera como seu patrono e protetor. Pais de família, trabalhadores, quem precisa decidir sem enxergar tudo encontram nele um modelo: homem justo e silencioso, que escuta Deus e age. Podemos pedir a São José que nos ensine a cuidar do que Deus nos confiou.",
+        "O Evangelho apresenta José como “esposo de Maria, da qual nasceu Jesus”. Ele estava desposado com Maria e descobre que ela concebeu antes de viverem juntos. Por ser justo e não a querer expor à vergonha, José decide deixá-la em segredo.",
+        "Enquanto pensa nisso, o anjo lhe fala em sonho: “José, filho de Davi, não temas receber Maria, tua mulher.” O filho dela é obra do Espírito Santo, e José lhe dará o nome de Jesus, “porque ele salvará o seu povo dos pecados deles”. Ao despertar, José faz como o anjo mandou. Não diz uma palavra no Evangelho; responde com a obediência.",
+        "Deus confiou a José o que tinha de mais precioso: o seu Filho e a Virgem Maria. Por isso a Igreja o venera como seu protetor, e o Papa Pio IX o declarou Padroeiro da Igreja universal. Pais de família, trabalhadores, quem precisa decidir sem enxergar tudo encontram nele um modelo: homem justo e silencioso, que escuta Deus e age. Podemos pedir a São José que nos ensine a cuidar do que Deus nos confiou.",
       ],
       pergunta: "O que Deus me confiou para cuidar, como confiou Jesus e Maria a José?",
     },
@@ -110,7 +110,7 @@ const parte: ParteDasReflexoes = {
     "MAT 5:27-32": {
       paragrafos: [
         "Jesus retoma o mandamento “Não cometerás adultério” e o leva até o coração: quem olha para uma mulher cobiçando-a já pecou por dentro. Depois usa imagens fortes: arrancar o olho, cortar a mão que leva a pecar. Não manda ferir o corpo; mostra com que seriedade devemos cortar as ocasiões de pecado.",
-        "Em seguida fala do casamento. A lei de Moisés permitia dar carta de repúdio, mas Jesus volta ao projeto de Deus desde o princípio: a união do homem e da mulher é para sempre. Por fidelidade a estas palavras, a Igreja ensina que o vínculo do matrimônio válido não pode ser desfeito por nenhum poder humano (CIC 1640; 2382).",
+        "Em seguida fala do casamento. A lei de Moisés permitia dar carta de repúdio, mas Jesus volta ao projeto de Deus desde o princípio: a união do homem e da mulher é para sempre. Por fidelidade a estas palavras, a Igreja ensina que o matrimônio ratificado e consumado entre batizados não pode ser dissolvido por nenhum poder humano (CIC 1640; 2382).",
         "Jesus não fala para esmagar ninguém, mas para proteger o amor. A pureza do olhar, o cuidado com o que se vê e se deseja, a fidelidade no casamento são caminhos de liberdade. E para quem caiu, ou vive situações difíceis na família, a Igreja oferece acolhida, a confissão e o acompanhamento de um sacerdote.",
       ],
       pergunta: "Que ocasião de pecado preciso cortar com coragem?",
@@ -125,8 +125,8 @@ const parte: ParteDasReflexoes = {
     },
     "MAT 5:38-42": {
       paragrafos: [
-        "“Olho por olho e dente por dente” era uma lei para limitar a vingança: não devolver mais do que se recebeu. Jesus pede outra coisa: não responder ao mal com o mal. Oferecer a outra face, deixar também a capa, andar mais dois mil passos, dar a quem pede.",
-        "São exemplos fortes, quase exagerados, para mostrar um jeito novo de viver. Jesus mesmo os viveu na Paixão: foi esbofeteado e não revidou, deixou que lhe tirassem as vestes, carregou a cruz pelo caminho. Não se trata de aprovar a injustiça nem de abandonar a defesa de quem é fraco. Trata-se de quebrar a corrente da vingança, que só cresce quando é alimentada.",
+        "“Olho por olho e dente por dente”: Santo Agostinho explica que essa lei punha limite à vingança, para que ninguém devolvesse mais do que recebeu. Jesus pede outra coisa: não responder ao mal com o mal. Oferecer a outra face, deixar também a capa, andar mais dois mil passos, dar a quem pede.",
+        "São exemplos fortes, quase exagerados, para mostrar um jeito novo de viver. Jesus mesmo os viveu na Paixão: foi esbofeteado e não revidou, deixou que lhe tirassem as vestes, carregou a cruz pelo caminho. Não se trata de aprovar a injustiça. Trata-se de quebrar a corrente da vingança, que só cresce quando é alimentada.",
         "No dia a dia, a outra face pode ser não responder a uma grosseria, não guardar rancor de uma ofensa, ajudar além do que é obrigação. Quem age assim não é fraco: tem uma força que vem de Deus e que muitas vezes desarma o outro.",
       ],
       pergunta: "Em que situação posso hoje responder ao mal com o bem?",
@@ -158,7 +158,7 @@ const parte: ParteDasReflexoes = {
     "MAT 7:15-20": {
       paragrafos: [
         "Jesus avisa sobre os falsos profetas, que vêm vestidos de ovelha, mas por dentro são lobos. Como reconhecê-los? “Pelos seus frutos os conhecereis.” Não se colhem uvas dos espinheiros, nem figos dos abrolhos. A árvore boa dá bons frutos; a má, maus frutos.",
-        "Palavras bonitas enganam; os frutos, não. Quem fala em nome de Deus e espalha divisão, orgulho, ganância ou desprezo pelos pequenos mostra de que árvore vem. A Igreja recebeu de Cristo a missão de guardar a verdadeira doutrina, e permanecer unidos a ela nos protege de ensinamentos que só agradam aos ouvidos.",
+        "Palavras bonitas enganam; os frutos, não. Quem fala em nome de Deus e semeia orgulho, divisão ou desprezo pelos pequenos mostra de que árvore vem. Cristo deu aos pastores da sua Igreja a missão de guardar a fé e de proteger o povo de Deus dos desvios (CIC 890).",
         "A mesma regra vale para nós. Que frutos a minha fé tem dado em casa, no trabalho, na comunidade? Paciência, honestidade, caridade, paz? Não basta parecer cristão; é preciso que a vida mostre. E se a árvore anda fraca, Deus pode curá-la, se deixarmos que ele cuide dela.",
       ],
       pergunta: "Que fruto a minha vida tem dado, e que fruto Deus espera de mim?",
@@ -175,7 +175,7 @@ const parte: ParteDasReflexoes = {
       paragrafos: [
         "Um centurião romano, homem de fora do povo de Israel, pede a Jesus pela cura do seu criado. Jesus se dispõe a ir, mas o centurião responde: “Senhor, eu não sou digno de que entres na minha casa. Mas dá a ordem só com a tua palavra, e o meu criado será salvo.” Jesus se admira: não encontrou tamanha fé em Israel.",
         "Depois Jesus entra na casa de Pedro e toca a mão da sogra dele, que está com febre. Ela se levanta e começa a servi-los. Ao entardecer, cura muitos doentes e expulsa os demônios com a sua palavra. Mateus vê ali cumprida a profecia de Isaías: “Ele mesmo tomou as nossas enfermidades e carregou as nossas doenças.”",
-        "As palavras do centurião passaram para a Missa: nós as repetimos, de modo parecido, antes de comungar. É a humildade de quem sabe que não merece e a confiança de quem sabe que a palavra de Jesus basta. A sogra de Pedro mostra o que vem depois da cura: levantar-se para servir.",
+        "As palavras do centurião passaram para a Missa: nós as repetimos, de modo parecido, antes de comungar (CIC 1386). É a humildade de quem sabe que não merece e a confiança de quem sabe que a palavra de Jesus basta. A sogra de Pedro mostra o que vem depois da cura: levantar-se para servir.",
       ],
       pergunta: "Creio que uma palavra de Jesus basta para curar o que há de doente em mim?",
     },
@@ -190,7 +190,7 @@ const parte: ParteDasReflexoes = {
     "MAT 8:23-27": {
       paragrafos: [
         "Jesus entra no barco, e os discípulos o seguem. Vem uma grande tempestade, as ondas cobrem o barco, e Jesus dorme. Apavorados, eles o acordam: “Senhor, salva-nos, que estamos perecendo!” Jesus pergunta por que têm medo, depois dá ordens ao mar e aos ventos, e faz-se uma grande calmaria.",
-        "Desde os antigos, o barco é imagem da Igreja, que atravessa a história no meio de tempestades. Jesus está dentro dela, ainda que às vezes pareça dormir. Os discípulos fazem bem em gritar por ele; o que lhes falta é confiar que, com ele no barco, não estão perdidos. E a pergunta deles fica para nós: “Quem é este, a quem até os ventos e o mar obedecem?”",
+        "O barco lembra a Igreja, que o Catecismo compara a uma nau que navega neste mundo (CIC 845) e atravessa a história no meio de tempestades. Jesus está dentro dela, ainda que às vezes pareça dormir. Os discípulos fazem bem em gritar por ele; o que lhes falta é confiar que, com ele no barco, não estão perdidos. E a pergunta deles fica para nós: “Quem é este, a quem até os ventos e o mar obedecem?”",
         "Todos atravessamos tempestades: doença, luto, crise em casa, medo do futuro. Nessas horas a oração pode ser curta como a dos discípulos: Senhor, salva-nos. Jesus não promete que não haverá ondas, mas está no barco conosco.",
       ],
       pergunta: "Em que tempestade da minha vida preciso confiar que Jesus está no barco?",
@@ -286,7 +286,7 @@ const parte: ParteDasReflexoes = {
     "MAT 12:46-50": {
       paragrafos: [
         "Enquanto Jesus fala ao povo, sua mãe e seus irmãos estão do lado de fora, querendo falar com ele. Alguém o avisa. Jesus estende a mão para os discípulos e diz: “Eis aqui minha mãe e meus irmãos.” E explica: quem faz a vontade do Pai é seu irmão, sua irmã e sua mãe.",
-        "Jesus não despreza a sua mãe. Ao contrário, mostra em que está a verdadeira grandeza dela. Maria é mãe de Jesus segundo a carne, mas antes disso foi a primeira a ouvir a Palavra de Deus e a dizer sim à vontade do Pai. Os “irmãos” de que fala o Evangelho são parentes próximos, como era costume chamar; a Igreja professa que Maria permaneceu sempre virgem (CIC 500).",
+        "Jesus não despreza a sua mãe. Ao contrário, mostra em que está a verdadeira grandeza dela. Santo Agostinho diz que Maria foi mais feliz por acolher a fé em Cristo do que por conceber a carne de Cristo (CIC 506): ela ouviu a Palavra de Deus e disse sim à vontade do Pai. Os “irmãos” de que fala o Evangelho são parentes próximos, como era costume chamar; a Igreja professa que Maria permaneceu sempre virgem (CIC 500).",
         "Esta palavra abre uma porta para todos nós: podemos fazer parte da família de Jesus. Não pelo sangue, mas pela obediência ao Pai. E ninguém nos ensina melhor esse caminho do que Maria, que guardou a Palavra no coração e a viveu até o fim.",
       ],
       pergunta: "Em que posso fazer hoje a vontade do Pai, como Maria fez?",
@@ -334,7 +334,7 @@ const parte: ParteDasReflexoes = {
     "MAT 13:10-17": {
       paragrafos: [
         "Os discípulos perguntam a Jesus por que ele fala ao povo em parábolas. Jesus responde que a eles é dado conhecer os mistérios do Reino. E cita Isaías: há quem olhe e não veja, quem ouça e não entenda, porque o coração se tornou pesado e os olhos se fecharam.",
-        "As parábolas não escondem a verdade de quem a procura; pedem que a pessoa se aproxime, pergunte, fique perto de Jesus. Quem tem o coração aberto entende cada vez mais; quem se fecha acaba perdendo até o pouco que tinha. Por isso Jesus diz aos discípulos: “felizes os vossos olhos, porque veem, e felizes os vossos ouvidos, porque ouvem.”",
+        "As parábolas são como um espelho: perguntam a cada um como recebe a Palavra, e é preciso tornar-se discípulo de Cristo para conhecer os mistérios do Reino (CIC 546). Quem tem o coração aberto entende cada vez mais; quem se fecha acaba perdendo até o pouco que tinha. Por isso Jesus diz aos discípulos: “felizes os vossos olhos, porque veem, e felizes os vossos ouvidos, porque ouvem.”",
         "Muitos profetas e justos desejaram ver o que os discípulos viram, e não viram. Nós também recebemos muito: temos o Evangelho nas mãos, a Missa, a Igreja que nos ensina. O risco é ouvir tanto que já não escutamos. Pedir a Deus um coração que não endurece é pedir o essencial.",
       ],
       pergunta: "Tenho ouvido a Palavra de Deus com o coração aberto ou pesado?",
@@ -415,7 +415,7 @@ const parte: ParteDasReflexoes = {
       paragrafos: [
         "Um centurião romano vem pedir a Jesus pelo seu criado, paralítico e sofrendo muito. Jesus se oferece para ir, mas o centurião diz: “Senhor, eu não sou digno de que entres na minha casa. Mas dá a ordem só com a tua palavra, e o meu criado será salvo.” Ele sabe o que é mandar e ser obedecido, e reconhece em Jesus uma autoridade maior.",
         "Jesus se admira e anuncia que muitos virão do Oriente e do Ocidente e terão lugar com Abraão, Isaac e Jacó no Reino dos Céus. O homem de fora tem mais fé do que muitos de dentro. A mesa do Reino está aberta a todos os povos.",
-        "Repetimos palavras parecidas com as do centurião em cada Missa, antes da Comunhão. São palavras de humildade e de confiança. Elas nos preparam para receber Jesus que vem: não porque sejamos dignos, mas porque a sua palavra nos cura.",
+        "Repetimos palavras parecidas com as do centurião em cada Missa, antes da Comunhão (CIC 1386). São palavras de humildade e de confiança. Elas nos preparam para receber Jesus que vem: não porque sejamos dignos, mas porque a sua palavra nos cura.",
       ],
       pergunta: "Com que humildade e confiança me aproximo da Comunhão?",
     },
@@ -454,7 +454,7 @@ const parte: ParteDasReflexoes = {
     "MAT 11:11-15": {
       paragrafos: [
         "Jesus faz um elogio enorme a João Batista: entre os nascidos de mulher, não surgiu outro maior. E logo acrescenta: o menor no Reino dos Céus é maior do que ele. João é o último e o maior dos profetas, aquele que fecha o tempo da espera; com Jesus começa o tempo do Reino.",
-        "Jesus diz também que o Reino sofre violência e que são os violentos que o arrebatam. Não fala de força bruta. A tradição da Igreja entendeu essas palavras como a decisão firme de quem luta contra o próprio pecado e não se deixa vencer pela preguiça. E Jesus revela que João é o Elias que havia de vir, o que prepara a chegada do Messias.",
+        "Jesus diz também que o Reino sofre violência e que são os violentos que o arrebatam. Não fala de força bruta. São Jerônimo explica que é grande violência, para quem nasceu na terra, buscar o céu e alcançar pela virtude o que não tem por natureza. E Jesus revela que João é o Elias que havia de vir, o que prepara a chegada do Messias.",
         "Ser pequeno no Reino é graça maior do que qualquer grandeza humana. Pelo Batismo somos filhos de Deus e participamos da vida de Cristo. Isso pede de nós uma resposta corajosa, sem meias medidas. “Quem tem ouvidos para ouvir, ouça.”",
       ],
       pergunta: "Com que decisão tenho buscado o Reino de Deus, contra a preguiça e o pecado?",
@@ -463,7 +463,7 @@ const parte: ParteDasReflexoes = {
       paragrafos: [
         "João está no cárcere e ouve falar das obras de Cristo. Manda perguntar: “És tu aquele que há de vir, ou é outro que esperamos?” Jesus não responde com um simples sim. Manda contar o que estão vendo: cegos que veem, coxos que andam, leprosos limpos, surdos que ouvem, mortos que ressuscitam, e o Evangelho anunciado aos pobres.",
         "São os sinais que os profetas tinham anunciado para o tempo do Messias. Jesus deixa que os fatos falem. Depois elogia João diante da multidão: não era uma cana agitada pelo vento nem um homem de roupas finas; era profeta, e mais do que profeta, o mensageiro que prepara o caminho. Entre os nascidos de mulher, ninguém foi maior do que ele.",
-        "A pergunta de João, feita do fundo da prisão, é também a nossa nas horas escuras. Levada a Jesus, ela não afasta da fé; pode aprofundá-la. E a resposta continua a mesma: olhar as obras de Deus. A alegria do Advento nasce daí: o Senhor está perto e já age no meio de nós, sobretudo entre os pobres e os que sofrem.",
+        "São João Crisóstomo explica que João mandou os discípulos para que eles mesmos vissem as obras e cressem em Jesus. Também nós, nas horas escuras, podemos levar a ele as nossas perguntas. E a resposta continua a mesma: olhar as obras de Deus. A alegria do Advento nasce daí: o Senhor está perto e já age no meio de nós, sobretudo entre os pobres e os que sofrem.",
       ],
       pergunta: "Que obras de Deus posso reconhecer hoje para fortalecer a minha esperança?",
     },
@@ -567,7 +567,7 @@ const parte: ParteDasReflexoes = {
       paragrafos: [
         "Jesus desce do monte, e um leproso se aproxima. Naquele tempo, o leproso vivia afastado de todos, considerado impuro. Ele se prostra e diz: “Senhor, se quiseres, tens poder para me limpar.” Não exige, não duvida do poder de Jesus; deixa tudo à vontade dele.",
         "Jesus estende a mão e toca nele, coisa que ninguém fazia com um leproso. E diz: “Eu quero, fica limpo.” Na mesma hora a lepra desaparece. Depois Jesus o manda ao sacerdote, como mandava a lei de Moisés, para que a cura fosse reconhecida e o homem pudesse voltar à vida do povo.",
-        "A oração do leproso é um modelo: humilde, confiante, entregue. E a resposta de Jesus mostra o seu coração: ele quer nos curar. Há em nós lepras que nos afastam de Deus e dos outros, e a pior delas é o pecado. Na confissão, Jesus estende a mão e diz de novo que quer. E o sacerdote, como no Evangelho, faz parte desse caminho de volta.",
+        "A oração do leproso é um modelo: humilde, confiante, entregue. E a resposta de Jesus mostra o seu coração: ele quer nos curar. Há em nós lepras que nos afastam de Deus e dos outros, e a pior delas é o pecado. Na confissão, Jesus estende a mão e diz de novo que quer. E quis que esse perdão chegasse a nós pelo ministério da Igreja (CIC 1442).",
       ],
       pergunta: "Que ferida da minha alma posso mostrar hoje a Jesus, confiando que ele quer me limpar?",
     },

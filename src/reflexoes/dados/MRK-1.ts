@@ -78,7 +78,7 @@ const parte: ParteDasReflexoes = {
     "MRK 2:23-28": {
       paragrafos: [
         "Num sábado, os discípulos atravessam as plantações e apanham espigas. Os fariseus reclamam: isso não é permitido no dia de descanso. Jesus lembra Davi, que, com fome, comeu os pães reservados aos sacerdotes. E conclui: “O sábado foi feito por causa do homem, e não o homem por causa do sábado.”",
-        "O dia do Senhor é um presente de Deus, para o descanso e o culto, e não um peso que esmaga a pessoa (CIC 2173). Jesus vai além: “o Filho do Homem é senhor também do sábado”. Ele tem autoridade sobre a lei porque é o próprio Senhor que a deu. Para os cristãos, o domingo, dia da Ressurreição, guarda e cumpre o sentido do sábado.",
+        "O dia do Senhor é um presente de Deus, para o descanso e o culto, e não um peso que esmaga a pessoa (CIC 2173). Jesus vai além: “o Filho do Homem é senhor também do sábado”. Ele tem autoridade sobre a lei porque é o próprio Senhor que a deu. Para os cristãos, o domingo, dia da Ressurreição, realiza plenamente o sentido do sábado (CIC 2175).",
         "Este texto ajuda a viver bem o domingo. Não como uma lista de proibições, nem como um dia qualquer, mas como tempo dado por Deus para estarmos com ele na Missa, com a família e com quem precisa. Guardar o domingo é deixar Deus devolver ao homem o descanso e a dignidade.",
       ],
       pergunta: "Como posso viver o próximo domingo mais como dia do Senhor?",
@@ -119,14 +119,14 @@ const parte: ParteDasReflexoes = {
       paragrafos: [
         "Escribas vindos de Jerusalém não conseguem negar que Jesus expulsa demônios. Então dizem que ele faz isso pelo poder do príncipe dos demônios. Jesus responde com uma lógica simples: “Como pode Satanás expulsar Satanás?” Um reino dividido contra si mesmo não se sustenta.",
         "Jesus é o mais forte que entra na casa do homem forte, o amarra e liberta os que estavam presos. Depois diz uma palavra de grande misericórdia e outra de grande seriedade: todos os pecados podem ser perdoados, mas quem blasfema contra o Espírito Santo não terá perdão. A Igreja ensina que a misericórdia de Deus não tem limites; fica sem perdão quem recusa deliberadamente a misericórdia e não quer se arrepender (CIC 1864).",
-        "Os escribas viam o bem e o chamavam de mal. É o risco de um coração que não quer mudar: inventa razões para não reconhecer a ação de Deus. Quem tem medo de ter cometido esse pecado mostra, pelo próprio medo, que não está fechado. A porta só se tranca por dentro.",
+        "Os escribas viam o bem e o chamavam de mal. É o risco de um coração que não quer mudar: inventa razões para não reconhecer a ação de Deus. Quem teme tê-lo cometido e deseja o perdão já não está recusando a misericórdia. A porta só se tranca por dentro.",
       ],
       pergunta: "Há algum ponto em que eu resisto a reconhecer a ação de Deus para não ter de mudar?",
     },
     "MRK 3:31-35": {
       paragrafos: [
         "Enquanto Jesus ensina, chegam sua mãe e seus irmãos e mandam chamá-lo. Alguém o avisa, e Jesus responde olhando para os que estão sentados ao seu redor: “Aqui estão minha mãe e meus irmãos. Quem fizer a vontade de Deus, esse é meu irmão, minha irmã e minha mãe.”",
-        "Os irmãos de Jesus, na linguagem da Bíblia, são parentes próximos; a Igreja sempre professou a virgindade perpétua de Maria (CIC 500). A resposta de Jesus não despreza a sua mãe. Ao contrário: ninguém fez a vontade de Deus como ela, que disse sim ao anjo e guardou a palavra no coração. Maria é mãe de Jesus duas vezes: pela carne e pela fé.",
+        "Os irmãos de Jesus, na linguagem da Bíblia, são parentes próximos; a Igreja sempre professou a virgindade perpétua de Maria (CIC 500). A resposta de Jesus não despreza a sua mãe. Ao contrário: ninguém fez a vontade de Deus como ela, que disse sim ao anjo e guardou a palavra no coração. Santo Agostinho diz que ela foi mais feliz por acolher a fé em Cristo do que por conceber a carne de Cristo (CIC 506).",
         "Jesus abre a sua família a todos. Não é preciso ter o seu sangue para pertencer a ela: basta fazer a vontade do Pai. Isso nos dá dignidade e também nos compromete. Somos da família de Jesus não por um título, mas quando a nossa vida procura o que Deus quer.",
       ],
       pergunta: "Em que decisão concreta posso buscar a vontade de Deus, como Maria?",
@@ -159,14 +159,14 @@ const parte: ParteDasReflexoes = {
       paragrafos: [
         "Ao cair da tarde, Jesus propõe atravessar o mar. Levanta-se uma grande tempestade, as ondas enchem o barco de água, e Jesus dorme na popa, sobre um travesseiro. Os discípulos o acordam com uma queixa: “Mestre, não te importa que pereçamos?”",
         "Jesus se levanta, repreende o vento e diz ao mar: “Cala-te, emudece!” Faz-se uma grande calmaria. Depois pergunta aos discípulos: “Por que sois tão medrosos? Ainda não tendes fé?” Eles ficam tomados de temor e se perguntam quem é este a quem até o vento e o mar obedecem. Na Escritura, só Deus manda no mar. O milagre revela quem está no barco com eles.",
-        "Há tempestades em que parece que Deus dorme e não se importa. A queixa dos discípulos também é oração, e Jesus não a rejeita. Mas ele nos convida a uma fé que não depende da calmaria. Se ele está no barco, o barco não afunda. A Igreja, tantas vezes sacudida na história, é esse barco que atravessa o mar com o Senhor dentro.",
+        "Há tempestades em que parece que Deus dorme e não se importa. A queixa dos discípulos também é oração, e Jesus não a rejeita. Mas ele nos convida a uma fé que não depende da calmaria. Se ele está no barco, o barco não afunda. A Igreja, que o Catecismo compara a uma nau (CIC 845), é sacudida muitas vezes na história e atravessa o mar com o Senhor dentro.",
       ],
       pergunta: "Em que tempestade da minha vida preciso confiar que Jesus está no barco?",
     },
     "MRK 5:1-20": {
       paragrafos: [
         "Na terra dos gerasenos, um homem possuído vive entre os sepulcros, gritando e ferindo-se com pedras. Ninguém consegue prendê-lo nem dominá-lo. É a imagem de uma vida destruída pelo mal: sem casa, sem paz, longe de todos e machucando a si mesmo.",
-        "Ao ver Jesus de longe, ele corre e se prostra. Jesus o liberta da “Legião” que o atormentava, e os espíritos entram nos porcos, que se lançam no mar. O povo da região vem e encontra o homem “sentado, vestido e em perfeito juízo”. Mas, com medo, pede a Jesus que vá embora. Preferem perder Jesus a perder a tranquilidade e os negócios.",
+        "Ao ver Jesus de longe, ele corre e se prostra. Jesus o liberta da “Legião” que o atormentava, e os espíritos entram nos porcos, que se lançam no mar. O povo da região vem e encontra o homem “sentado, vestido e em perfeito juízo”. Mas, com medo, pede a Jesus que vá embora.",
         "O homem curado quer ir com Jesus, mas recebe outra missão: “Vai para a tua casa, para os teus, e conta-lhes as grandes coisas que o Senhor fez por ti e a misericórdia que teve contigo.” Nem todos são chamados a deixar a casa. Muitos são chamados a ser testemunhas dentro dela, contando com simplicidade o que Deus fez.",
       ],
       pergunta: "Que grande coisa o Senhor fez por mim que eu posso contar aos meus?",
@@ -223,13 +223,13 @@ const parte: ParteDasReflexoes = {
       paragrafos: [
         "Fariseus e escribas vindos de Jerusalém reparam que os discípulos comem sem lavar as mãos do modo prescrito pela tradição dos antigos. Jesus responde com as palavras de Isaías: “Este povo me honra com os lábios, mas o seu coração está longe de mim.”",
         "Depois dá um exemplo concreto. A lei de Deus manda honrar pai e mãe. Mas havia quem declarasse os seus bens como oferta a Deus, o “Corban”, e com isso se dispensasse de ajudar os pais. Uma prática religiosa servia de desculpa para faltar à caridade. Jesus chama isso de anular a palavra de Deus por uma tradição humana. Amparar os pais na velhice é dever dos filhos (CIC 2218).",
-        "A Igreja guarda a Tradição que vem dos apóstolos, e isso é diferente de costumes humanos usados para fugir do essencial. O perigo de que Jesus fala continua: rezar muito e tratar mal a família; cumprir ritos e esquecer quem está perto e precisa. A religião verdadeira começa no coração e chega às mãos.",
+        "A Igreja guarda a Tradição que vem dos apóstolos (CIC 83). O que Jesus condena são costumes humanos usados para fugir do essencial, e esse perigo continua: rezar muito e tratar mal a família; cumprir ritos e esquecer quem está perto e precisa. A religião verdadeira começa no coração e chega às mãos.",
       ],
       pergunta: "Há alguma prática minha que esconde a falta de amor a alguém próximo?",
     },
     "MRK 7:14-23": {
       paragrafos: [
-        "Jesus chama a multidão e ensina: o que entra no homem não o torna impuro; o que sai dele, isso sim. Os discípulos não entendem, e ele explica em casa: a comida vai para o ventre, não para o coração. Com isso, Jesus mostra que as regras sobre alimentos puros e impuros não prendem mais quem o segue.",
+        "Jesus chama a multidão e ensina: o que entra no homem não o torna impuro; o que sai dele, isso sim. Os discípulos não entendem, e ele explica em casa: a comida vai para o ventre, não para o coração. Com isso, Jesus mostra que as regras sobre alimentos puros e impuros não prendem mais quem o segue (CIC 582).",
         "Depois diz de onde vem o mal: “é de dentro, do coração dos homens, que saem os maus pensamentos”, e enumera adultérios, roubos, avarezas, fraudes, inveja, soberba e outras coisas. O pecado não é sujeira que vem de fora; nasce no coração, na liberdade de cada um (CIC 1853).",
         "É mais confortável culpar o mundo, os outros, as circunstâncias. Jesus nos leva a olhar para dentro. Não é para nos desanimar, mas para nos levar ao lugar certo da cura. Só Deus pode purificar o coração, e ele o faz pela sua graça, na oração, na Confissão e na Eucaristia. Um bom exame de consciência começa por aí.",
       ],
@@ -278,7 +278,7 @@ const parte: ParteDasReflexoes = {
     "MRK 8:22-26": {
       paragrafos: [
         "Em Betsaida, trazem um cego a Jesus. Ele o toma pela mão e o leva para fora da aldeia. Põe saliva nos seus olhos, impõe as mãos e pergunta se vê alguma coisa. O homem responde: “Vejo os homens; andam e parecem árvores.” Já vê, mas ainda confuso.",
-        "Jesus impõe as mãos outra vez, e então ele vê tudo com clareza. É uma cura feita em duas etapas, coisa rara nos Evangelhos. Marcos a coloca logo depois de os discípulos mostrarem que ainda não entendiam, e logo antes de Pedro confessar que Jesus é o Cristo sem compreender a cruz. Também os discípulos vão enxergando aos poucos.",
+        "Jesus impõe as mãos outra vez, e então ele vê tudo com clareza. É uma cura feita em duas etapas, coisa rara nos Evangelhos. Jesus não deixa a obra pela metade: toca de novo, até que o homem veja tudo perfeitamente. Depois o manda para casa.",
         "A fé costuma crescer assim: primeiro vemos alguma coisa, mas meio embaçada; depois, com paciência, Jesus completa a obra. Não precisamos desanimar se ainda não entendemos tudo. O importante é deixar que ele nos tome pela mão e continue a nos tocar, quantas vezes for preciso.",
       ],
       pergunta: "Em que ponto da minha fé ainda vejo embaçado e preciso pedir mais luz?",
@@ -310,14 +310,14 @@ const parte: ParteDasReflexoes = {
     "MRK 9:30-37": {
       paragrafos: [
         "Atravessando a Galileia, Jesus ensina aos discípulos que o Filho do Homem será entregue, morto, e ressuscitará ao terceiro dia. Eles não entendem e têm medo de perguntar. Pelo caminho discutem outra coisa: qual deles é o maior. Em casa, quando Jesus pergunta, ficam calados.",
-        "Jesus se senta, como mestre, chama os doze e ensina: “Se alguém quer ser o primeiro, será o último de todos e o servo de todos.” Depois coloca uma criança no meio deles e a abraça. Naquele tempo, a criança não tinha importância nem direitos. Jesus diz que quem a recebe em seu nome recebe a ele, e quem o recebe, recebe o Pai que o enviou.",
+        "Jesus se senta, como mestre, chama os doze e ensina: “Se alguém quer ser o primeiro, será o último de todos e o servo de todos.” Depois coloca uma criança no meio deles e a abraça. A criança não tem posição a defender nem como retribuir. Jesus diz que quem a recebe em seu nome recebe a ele, e quem o recebe, recebe o Pai que o enviou.",
         "O contraste é grande: Jesus fala de dar a vida, e os discípulos pensam em posição. Também nós ficamos calados quando Jesus pergunta o que andamos discutindo. A grandeza que ele propõe é servir e acolher os pequenos, os que não podem retribuir: crianças, idosos, doentes, pobres. Neles o próprio Deus é recebido.",
       ],
       pergunta: "Quem é o pequeno que Jesus me pede para acolher em seu nome?",
     },
     "MRK 9:38-40": {
       paragrafos: [
-        "João conta a Jesus que viram um homem expulsando demônios em seu nome e o proibiram, porque “ele não nos segue”. Parece zelo, mas há ali um pouco de ciúme: o bem só valeria se viesse do grupo deles.",
+        "João conta a Jesus que viram um homem expulsando demônios em seu nome e o proibiram, porque “ele não nos segue”. Parece zelo: para eles, o bem só valeria se viesse do grupo deles.",
         "Jesus corrige: “Não o proibais.” Quem faz um milagre em seu nome não vai falar mal dele logo depois. E acrescenta: “Quem não é contra vós é a vosso favor.” O Espírito de Deus não está preso aos nossos limites. A Igreja reconhece que elementos de santificação e de verdade podem existir também fora dos seus limites visíveis, e que eles vêm de Cristo e chamam à unidade (CIC 819).",
         "Nas paróquias, nos movimentos e nas famílias, é fácil olhar com desconfiança para quem faz o bem de outro jeito. Jesus nos ensina a nos alegrarmos com o bem, venha de onde vier, sem perder a fidelidade à Igreja. A pergunta não é se a pessoa é dos nossos, mas se está servindo a Cristo.",
       ],
@@ -335,14 +335,14 @@ const parte: ParteDasReflexoes = {
       paragrafos: [
         "Os fariseus perguntam a Jesus, para pô-lo à prova, se é permitido ao marido repudiar a mulher. Moisés tinha permitido escrever uma carta de repúdio. Jesus explica que isso foi concedido “por causa da dureza do vosso coração” e volta ao princípio: Deus os fez homem e mulher, e os dois serão uma só carne.",
         "A conclusão é clara: “o que Deus uniu, o homem não separe.” Em casa, Jesus confirma aos discípulos que quem repudia a mulher e se casa com outra comete adultério, e o mesmo vale para a mulher. A Igreja ensina, com base nessas palavras, que o matrimônio válido é indissolúvel (CIC 1614). Não é uma regra imposta de fora, mas a verdade do amor como Deus o criou.",
-        "É uma palavra exigente, e muitas famílias conhecem a dor da separação. Jesus não fala para esmagar, mas para devolver ao matrimônio a sua grandeza. Quem vive situações difíceis não está fora do amor de Deus nem da Igreja, e pode buscar o caminho com a ajuda de um padre. E todos podemos rezar pelos casais, para que sejam fiéis e se ajudem com a graça do sacramento.",
+        "É uma palavra exigente, e muitas famílias conhecem a dor da separação. Jesus não fala para esmagar, mas para devolver ao matrimônio a sua grandeza. Quem vive situações difíceis não está fora do amor de Deus nem da Igreja (CIC 1651), e pode buscar o caminho com a ajuda de um padre. E todos podemos rezar pelos casais, para que sejam fiéis e se ajudem com a graça do sacramento.",
       ],
       pergunta: "Como posso apoiar, com oração e com gestos, a fidelidade dos casais que conheço?",
     },
     "MRK 10:13-16": {
       paragrafos: [
         "Trazem crianças a Jesus para que ele as toque, e os discípulos repreendem quem as traz. Jesus fica “muito indignado”, coisa rara de se ler no Evangelho. E diz: “Deixai vir a mim as crianças e não as impeçais, porque o Reino de Deus é dos que são como elas.”",
-        "A criança não tem méritos para apresentar nem poder para negociar. Recebe tudo como presente e confia. É assim que se recebe o Reino de Deus: não como prêmio conquistado, mas como dom acolhido. Jesus abraça as crianças, impõe as mãos sobre elas e as abençoa. Por isso a Igreja batiza as crianças desde pequenas, para que não fiquem privadas da graça de ser filhos de Deus (CIC 1250).",
+        "A criança não tem méritos para apresentar nem poder para negociar. Recebe tudo como presente e confia. É assim que se recebe o Reino de Deus: não como prêmio conquistado, mas como dom acolhido. Jesus abraça as crianças, impõe as mãos sobre elas e as abençoa. E a Igreja batiza as crianças desde pequenas, para que não fiquem privadas da graça de ser filhos de Deus (CIC 1250).",
         "Pais, avós e padrinhos têm aqui uma missão bonita: levar as crianças a Jesus, rezar com elas, abençoá-las. E todos nós somos chamados a voltar a ser pequenos diante de Deus, com confiança simples e coração aberto.",
       ],
       pergunta: "Tenho recebido o amor de Deus como presente, com a confiança de uma criança?",
@@ -366,7 +366,7 @@ const parte: ParteDasReflexoes = {
     "MRK 12:28b-34": {
       paragrafos: [
         "Um escriba pergunta a Jesus qual é o primeiro de todos os mandamentos. Jesus responde com as palavras que todo judeu repetia: “Ouve, Israel, o Senhor teu Deus é o único Deus.” E continua: amar a Deus de todo o coração, de toda a alma, de todo o entendimento e de todas as forças. Logo une a isso o segundo: amar o próximo como a si mesmo.",
-        "Os dois mandamentos não se separam (CIC 2083). Quem ama a Deus aprende a amar o próximo, e o amor ao próximo mostra se o amor a Deus é verdadeiro. O escriba entende bem e diz que esse amor vale mais que todos os holocaustos e sacrifícios. Jesus lhe responde: “Não estás longe do Reino de Deus.”",
+        "Jesus une os dois, e não há mandamento maior do que eles (CIC 2196). Quem ama a Deus aprende a amar o próximo, e o amor ao próximo mostra se o amor a Deus é verdadeiro. O escriba entende bem e diz que esse amor vale mais que todos os holocaustos e sacrifícios. Jesus lhe responde: “Não estás longe do Reino de Deus.”",
         "Não estar longe ainda não é estar dentro. O escriba entendeu a lei; falta-lhe seguir aquele que a cumpre por inteiro. Para nós também não basta saber os mandamentos de cor. A pergunta é se Deus ocupa de verdade o coração inteiro, e se isso se vê no modo de tratar quem está perto.",
       ],
       pergunta: "Que parte do meu coração ainda não entreguei inteiramente a Deus?",
@@ -406,7 +406,7 @@ const parte: ParteDasReflexoes = {
     "MRK 16:15-20": {
       paragrafos: [
         "Antes de subir ao céu, Jesus envia os apóstolos: “Ide por todo o mundo e pregai o Evangelho a toda criatura.” Promete que sinais acompanharão os que crerem. Depois, diz o texto, “o Senhor Jesus, depois de lhes ter falado, foi elevado ao céu, onde está sentado à direita de Deus”.",
-        "A Ascensão não é uma despedida que deixa os discípulos sozinhos. Jesus entra com a nossa humanidade na glória do Pai, e de lá reina e intercede por nós (CIC 659). O Evangelho termina mostrando os apóstolos que partem e pregam por toda parte, enquanto “o Senhor agia com eles”. Ele subiu ao céu e continua presente e atuante na sua Igreja.",
+        "A Ascensão não é uma despedida que deixa os discípulos sozinhos. Jesus entra com a nossa humanidade na glória do Pai, e de lá reina e intercede por nós (CIC 659, 662). O Evangelho termina mostrando os apóstolos que partem e pregam por toda parte, enquanto “o Senhor agia com eles”. Ele subiu ao céu e continua presente e atuante na sua Igreja.",
         "São Marcos, a quem a Igreja atribui este Evangelho, foi um desses que partiram para anunciar. Por meio dele e de tantos outros, a palavra chegou até nós. Agora a missão está em nossas mãos, e não estamos sós: o Senhor age conosco, na família, no trabalho, na comunidade. Olhar para o céu nos dá esperança; voltar à vida de cada dia nos dá tarefa.",
       ],
       pergunta: "Onde o Senhor quer agir comigo para que o Evangelho chegue a alguém?",
@@ -423,14 +423,14 @@ const parte: ParteDasReflexoes = {
       paragrafos: [
         "Saindo de Jericó, Jesus passa por um cego que pede esmola à beira do caminho, Bartimeu. Ao saber que é Jesus, ele começa a gritar: “Jesus, filho de Davi, tem misericórdia de mim!” Muitos mandam que se cale, mas ele grita ainda mais.",
         "Jesus para e manda chamá-lo. Bartimeu larga a capa, dá um salto e vai até ele. Jesus pergunta: “Que queres que eu te faça?” A resposta é simples: “Mestre, que eu possa ver.” E Jesus diz: “Vai, a tua fé te curou.” Ele passa a ver e segue Jesus pelo caminho. O cego que estava sentado à beira do caminho agora anda no caminho, com Jesus.",
-        "O grito de Bartimeu tornou-se oração da Igreja, repetida por muitos cristãos ao longo dos séculos: Senhor Jesus, tem misericórdia de mim (CIC 2667). Ele nos ensina a insistir mesmo quando os outros mandam calar, a largar a capa que nos prende e a pedir com clareza o que precisamos. E a cura verdadeira se mostra quando passamos a seguir Jesus.",
+        "O grito de Bartimeu tornou-se oração da Igreja, repetida por muitos cristãos ao longo dos séculos: Senhor Jesus, tem misericórdia de mim (CIC 2616, 2667). Ele nos ensina a insistir mesmo quando os outros mandam calar, a largar a capa que nos prende e a pedir com clareza o que precisamos. E a cura verdadeira se mostra quando passamos a seguir Jesus.",
       ],
       pergunta: "Se Jesus me perguntar agora “Que queres que eu te faça?”, o que vou responder?",
     },
     "MRK 11:11-26": {
       paragrafos: [
         "Jesus entra em Jerusalém e no Templo. No dia seguinte, com fome, procura frutos numa figueira cheia de folhas, não encontra nada e diz que ninguém mais coma fruto dela. Depois expulsa do Templo os vendedores e cambistas, lembrando a Escritura: “A minha casa será chamada casa de oração para todas as nações”. Na manhã seguinte, os discípulos veem a figueira seca até as raízes.",
-        "Marcos coloca uma cena dentro da outra para que uma explique a outra. A figueira tinha folhas, mas não frutos, como um culto cheio de movimento, mas sem conversão. Jesus quer frutos verdadeiros. E ensina aos discípulos o caminho: ter fé em Deus, pedir na oração crendo que se recebe (CIC 2610), e perdoar, para que também o Pai perdoe os nossos pecados.",
+        "A figueira tinha folhas, mas não tinha frutos. Jesus quer frutos verdadeiros. E ensina aos discípulos o caminho: ter fé em Deus, pedir na oração crendo que se recebe (CIC 2610), e perdoar, para que também o Pai perdoe os nossos pecados.",
         "Podemos ser como aquela figueira: aparência de vida cristã, muitas folhas, pouco fruto. A resposta de Jesus é a oração confiante e o coração que perdoa. Não há oração verdadeira com rancor guardado; o perdão que damos abre espaço para o perdão que recebemos (CIC 2840).",
       ],
       pergunta: "Há alguém que eu preciso perdoar para rezar com o coração livre?",
@@ -542,7 +542,7 @@ const parte: ParteDasReflexoes = {
     "MRK 14:12-16.22-26": {
       paragrafos: [
         "No primeiro dia dos pães ázimos, quando se imolava o cordeiro pascal, Jesus manda dois discípulos à cidade. Encontram tudo como ele disse e preparam a Páscoa numa sala no andar de cima. O próprio Jesus cuida dos detalhes da Ceia que vai celebrar com os seus.",
-        "Durante a refeição, ele toma o pão, abençoa, parte e diz: “Tomai, este é o meu Corpo.” Depois toma o cálice, dá graças, e todos bebem: “Este é o meu sangue da nova aliança, que será derramado por muitos.” Ele não diz que o pão lembra o seu Corpo; diz que é. Na Eucaristia, Cristo está presente de modo verdadeiro, real e substancial (CIC 1374), e o sacrifício da cruz se torna presente no altar (CIC 1366).",
+        "Durante a refeição, ele toma o pão, abençoa, parte e diz: “Tomai, este é o meu Corpo.” Depois toma o cálice, dá graças, e todos bebem: “Este é o meu sangue da nova aliança, que será derramado por muitos.” Na Eucaristia, Cristo está presente de modo verdadeiro, real e substancial (CIC 1374), e o sacrifício da cruz se torna presente no altar (CIC 1366).",
         "Este sacramento é fonte e ápice de toda a vida cristã (CIC 1324). Por isso a Igreja adora o Santíssimo e o leva em procissão pelas ruas. Como os discípulos prepararam a sala, preparemos o coração para receber o Senhor: com a Confissão quando for preciso, com fé e reverência, e com o desejo de também nos darmos aos outros.",
       ],
       pergunta: "Como posso me preparar melhor para receber Jesus na comunhão?",
@@ -559,7 +559,7 @@ const parte: ParteDasReflexoes = {
       paragrafos: [
         "Jesus está em casa, rodeado de tanta gente que nem consegue comer. Os seus acham que ele está fora de si e vêm segurá-lo. Os escribas de Jerusalém vão mais longe: dizem que ele expulsa demônios pelo poder de Belzebu. Jesus responde que um reino dividido não se sustenta, e que ele é o mais forte, que amarra o homem forte e liberta os seus prisioneiros.",
         "Ele afirma que todos os pecados podem ser perdoados, mas quem blasfema contra o Espírito Santo não terá perdão. É o pecado de quem chama o bem de mal e recusa deliberadamente a misericórdia (CIC 1864). Depois, quando lhe avisam que sua mãe e seus irmãos, isto é, parentes próximos (CIC 500), estão lá fora, Jesus olha para os que estão ao seu redor e diz: “Quem fizer a vontade de Deus, esse é meu irmão, minha irmã e minha mãe.”",
-        "Maria foi a primeira a fazer a vontade de Deus, e por isso é duplamente mãe. O Evangelho nos mostra que podemos entrar na família de Jesus pela obediência da fé. E nos previne contra o coração fechado, que vê a ação de Deus e a chama de outra coisa. A misericórdia de Deus não tem limites; somos nós que podemos fechar a porta.",
+        "Maria fez a vontade de Deus como ninguém: é mãe de Jesus pela carne e, antes ainda, pela fé (CIC 506). O Evangelho nos mostra que podemos entrar na família de Jesus pela obediência da fé. E nos previne contra o coração fechado, que vê a ação de Deus e a chama de outra coisa. A misericórdia de Deus não tem limites; somos nós que podemos fechar a porta.",
       ],
       pergunta: "Estou deixando a vontade de Deus guiar as minhas escolhas, como Maria?",
     },
@@ -614,7 +614,7 @@ const parte: ParteDasReflexoes = {
     "MRK 13:24-32": {
       paragrafos: [
         "Jesus fala do fim dos tempos com imagens dos profetas: o sol escurece, a lua perde o brilho, as estrelas caem. Então verão o Filho do Homem vindo sobre as nuvens, com grande poder e majestade, e ele reunirá os seus eleitos de todos os cantos da terra.",
-        "Essas palavras não querem assustar, mas sustentar a esperança. Tudo o que parece firme passa; só Cristo permanece: “O céu e a terra passarão, mas as minhas palavras não passarão.” Jesus usa a imagem da figueira que brota e anuncia o verão: os sinais lembram que ele está perto. Sobre o dia e a hora, ninguém sabe, “mas somente o Pai”. Por isso não adianta fazer contas nem dar ouvidos a quem marca datas (CIC 673).",
+        "Essas palavras não querem assustar, mas sustentar a esperança. Tudo o que parece firme passa; só Cristo permanece: “O céu e a terra passarão, mas as minhas palavras não passarão.” Jesus usa a imagem da figueira que brota e anuncia o verão: os sinais lembram que ele está perto. Sobre o dia e a hora, ninguém sabe, “mas somente o Pai”. Por isso não nos cabe fazer contas sobre datas (CIC 673).",
         "O cristão vive entre duas certezas: Cristo voltará na glória, e o dia não nos foi revelado. Isso nos chama a viver cada dia como tempo de graça, sem medo e sem descuido. As modas, os poderes e as preocupações passam. A palavra de Jesus fica. Construir a vida sobre ela é construir sobre o que não acaba.",
       ],
       pergunta: "Sobre o que estou construindo a minha vida: sobre o que passa ou sobre a palavra que não passa?",

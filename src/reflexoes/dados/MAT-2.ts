@@ -31,7 +31,7 @@ const parte: ParteDasReflexoes = {
       paragrafos: [
         "Jesus manda os discípulos atravessarem o lago enquanto ele despede a multidão e sobe ao monte para orar sozinho. Durante a noite, o barco é castigado pelas ondas e pelo vento contrário. Já de madrugada, Jesus vem até eles andando sobre o mar. Eles pensam que é um fantasma e gritam de medo. Jesus logo lhes fala: “Tende confiança, sou eu. Não temais.”",
         "Pedro pede para ir até ele, e Jesus diz apenas: “Vem.” Enquanto olha para o Senhor, Pedro caminha sobre as águas. Quando repara na força do vento, tem medo e começa a afundar. Então faz a oração mais curta e mais sincera: “Senhor, põe-me a salvo!” Jesus estende a mão no mesmo instante. Depois, no barco, todos o adoram e dizem que ele é verdadeiramente o Filho de Deus.",
-        "O barco lembra a Igreja e também a nossa vida, que atravessam noites e ventos contrários. Jesus não está ausente: reza por nós e vem ao nosso encontro. A fé não é a falta de medo; é olhar para ele no meio do medo. E quando afundamos, ainda podemos chamar pelo seu nome. A mão dele está sempre estendida.",
+        "O barco lembra a Igreja (CIC 845) e também a nossa vida, que atravessam noites e ventos contrários. Jesus não está ausente: reza por nós e vem ao nosso encontro. A fé não é a falta de medo; é olhar para ele no meio do medo. E quando afundamos, ainda podemos chamar pelo seu nome. A mão dele está sempre estendida.",
       ],
       pergunta: "Vou repetir hoje, nas horas de medo, a oração de Pedro: “Senhor, põe-me a salvo!”",
     },
@@ -70,7 +70,7 @@ const parte: ParteDasReflexoes = {
     "MAT 16:13-20": {
       paragrafos: [
         "Jesus leva os discípulos para a região de Cesareia de Filipe e faz duas perguntas. A primeira é fácil: o que dizem os homens. As respostas são respeitosas, falam de João Batista, de Elias, de Jeremias. Mas todas colocam Jesus na fila dos profetas. A segunda pergunta é pessoal: “E vós, quem dizeis que eu sou?”",
-        "Pedro responde que Jesus é o Cristo, o Filho de Deus vivo. Jesus mostra que essa resposta é dom do Pai e, sobre Pedro, que a confessa, edifica a sua Igreja e lhe dá as chaves do Reino (CIC 552-553). Logo depois, pede silêncio aos discípulos: eles ainda não entendem que o Cristo vai passar pela cruz, e um título mal compreendido poderia confundir em vez de ajudar.",
+        "Pedro responde que Jesus é o Cristo, o Filho de Deus vivo. Jesus mostra que essa resposta é dom do Pai e, sobre Pedro, que a confessa, edifica a sua Igreja e lhe dá as chaves do Reino (CIC 552-553). Logo depois, pede silêncio aos discípulos. Jesus aceitou o título de Messias com reserva, porque muitos o entendiam de modo só humano e político; o seu verdadeiro sentido só se mostraria na cruz (CIC 439-440).",
         "Muita gente hoje fala bem de Jesus como um grande homem, um mestre de bondade. Isso é pouco. A fé católica confessa que ele é o Filho de Deus feito homem, e essa fé nos chega pela Igreja, que a guarda desde Pedro. Diante dessa pergunta ninguém pode responder por nós. Cada um, na oração, diz quem Jesus é para si, e a vida inteira vai mostrando se a resposta é verdadeira.",
       ],
       pergunta: "Jesus é para mim só um grande mestre, ou é o Filho de Deus vivo, a quem entrego a minha vida?",
@@ -85,7 +85,7 @@ const parte: ParteDasReflexoes = {
     },
     "MAT 16:21-27": {
       paragrafos: [
-        "Logo depois de Pedro confessar que Jesus é o Cristo, o Senhor começa a explicar o que isso significa: ir a Jerusalém, sofrer muito, ser morto e ressuscitar ao terceiro dia. Pedro não aceita. Com boa intenção, quer afastar o Mestre do sofrimento. Jesus o chama de Satanás, porque aquela proposta repetia a tentação do deserto: um Messias sem cruz.",
+        "Logo depois de Pedro confessar que Jesus é o Cristo, o Senhor começa a explicar o que isso significa: ir a Jerusalém, sofrer muito, ser morto e ressuscitar ao terceiro dia. Pedro não aceita. Com boa intenção, quer afastar o Mestre do sofrimento. Jesus o chama de Satanás, porque aquela proposta repetia a tentação do deserto: um Messias sem cruz (CIC 540).",
         "Em seguida, Jesus diz a todos as condições para segui-lo: negar-se a si mesmo, tomar a sua cruz e ir atrás dele. E faz uma conta que desmonta as nossas: “De que adianta ao homem ganhar o mundo inteiro, se vier a perder a sua alma?” Quem se agarra à própria vida acaba por perdê-la; quem a entrega por amor de Cristo a encontra.",
         "A cruz não é procurar sofrimento por gosto. É aceitar com fé o peso de cada dia, o dever cumprido, a doença, o cuidado com quem precisa de nós, unindo tudo à cruz de Jesus (CIC 618, 1435). O Senhor lembra que virá na glória e dará a cada um segundo as suas obras. O que fazemos por amor não se perde.",
       ],
@@ -94,7 +94,7 @@ const parte: ParteDasReflexoes = {
     "MAT 16:24-28": {
       paragrafos: [
         "Jesus acaba de anunciar a sua paixão, e agora diz aos discípulos que o caminho dele será também o deles: “Se alguém quer vir atrás de mim, negue-se a si mesmo, tome a sua cruz e siga-me.” Ele não promete uma vida fácil, mas uma vida verdadeira.",
-        "A palavra alma, aqui, quer dizer a própria vida, aquilo que somos diante de Deus. O mundo inteiro não paga o seu preço. Muitas vezes gastamos as forças em ganhar, guardar e aparecer, e esquecemos o que fica para sempre. Jesus lembra que virá na glória do Pai e dará a cada um a paga segundo as suas obras. A última frase, sobre os que veriam o Filho do Homem no seu reino, muitos Padres da Igreja a ligaram à Transfiguração, que vem logo em seguida.",
+        "A palavra alma, aqui, quer dizer a própria vida, aquilo que somos diante de Deus. O mundo inteiro não paga o seu preço. Muitas vezes gastamos as forças em ganhar, guardar e aparecer, e esquecemos o que fica para sempre. Jesus lembra que virá na glória do Pai e dará a cada um a paga segundo as suas obras. A última frase, sobre os que veriam o Filho do Homem no seu reino, São João Crisóstomo e outros Padres da Igreja a ligaram à Transfiguração, que vem logo em seguida.",
         "Negar-se a si mesmo é deixar que Cristo, e não o nosso orgulho, seja o centro. Começa em coisas pequenas: perdoar, ceder, servir sem esperar aplauso.",
       ],
       pergunta: "O que eu estou tentando ganhar que pode me fazer perder o essencial?",
@@ -190,7 +190,7 @@ const parte: ParteDasReflexoes = {
     "MAT 19:13-15": {
       paragrafos: [
         "Algumas pessoas trazem crianças a Jesus para que ele lhes imponha as mãos e reze por elas. Os discípulos acham aquilo um incômodo e as afastam com palavras ásperas. Jesus os corrige: “Deixai as crianças e não as impeçais de vir a mim, porque o Reino dos Céus é dos que são como elas.” E as abençoa antes de seguir viagem.",
-        "Este pequeno episódio diz muito. Para Jesus, ninguém é pequeno demais para merecer a sua atenção. A Igreja vê aqui também um motivo para batizar as crianças desde cedo, sem esperar que cresçam, porque a graça de Deus é dom gratuito, e não prêmio por mérito (CIC 1250-1252).",
+        "Este pequeno episódio diz muito. Para Jesus, ninguém é pequeno demais para merecer a sua atenção. A Igreja também leva as crianças a Jesus desde cedo, pelo Batismo, sem esperar que cresçam: nelas se vê que a graça de Deus é dom gratuito, e não prêmio por mérito (CIC 1250-1252).",
         "Pais, avós e padrinhos recebem aqui uma missão: levar as crianças a Jesus. Ensinar o sinal da cruz, rezar com elas antes de dormir, levá-las à missa, abençoá-las. E, para os adultos, fica o convite de voltar a ser simples diante de Deus, confiando como uma criança confia em quem a ama.",
       ],
       pergunta: "Que criança eu posso abençoar hoje ou ensinar a rezar?",
@@ -278,7 +278,7 @@ const parte: ParteDasReflexoes = {
     "MAT 22:1-14": {
       paragrafos: [
         "Jesus compara o Reino a um rei que prepara o banquete de casamento do filho. Os convidados recusam. Uns desprezam o convite e vão cuidar da casa de campo e dos negócios; outros chegam a maltratar e matar os servos. O rei então manda chamar todos os que forem encontrados pelas ruas, maus e bons, e a sala fica cheia.",
-        "O banquete é o Reino de Deus, e o filho do rei é Cristo. Deus convida primeiro o seu povo e depois abre as portas a todos. Ninguém fica de fora por ser pobre ou pecador. Mas há um detalhe sério: um homem entrou sem a veste nupcial e foi lançado fora. O convite é gratuito, mas pede resposta. A veste é a vida nova recebida no Batismo, a graça que se guarda e se renova pela conversão (CIC 1243).",
+        "O banquete é o Reino de Deus, e o filho do rei é Cristo. Deus convida primeiro o seu povo e depois abre as portas a todos. Ninguém fica de fora por ser pobre ou pecador. Mas há um detalhe sério: um homem entrou sem a veste nupcial e foi lançado fora. O convite é gratuito, mas pede resposta. São Gregório Magno ensina que a veste nupcial é a caridade: está na festa sem ela quem está na Igreja com a fé, mas sem o amor.",
         "Muitas vezes recusamos o convite de Deus não por maldade, mas por estarmos ocupados demais: o trabalho, a casa, os compromissos. A missa de domingo é sempre um convite para o banquete. Ir é importante; ir com o coração preparado também. Porque muitos são os chamados, e poucos os escolhidos.",
       ],
       pergunta: "O que tem ocupado tanto a minha vida que me faz desprezar o convite de Deus?",
@@ -287,7 +287,7 @@ const parte: ParteDasReflexoes = {
       paragrafos: [
         "Os fariseus se unem aos herodianos para apanhar Jesus em alguma palavra. Primeiro o elogiam; depois perguntam se é lícito pagar o tributo a César. Se ele disser que sim, parecerá aliado do dominador romano; se disser que não, poderá ser acusado de rebelião. Jesus percebe a malícia e pede a moeda. Pergunta de quem é a imagem gravada nela. “De César”, respondem.",
         "Então Jesus diz: “dai a César o que é de César, e a Deus o que é de Deus.” O cristão é cidadão leal, paga os impostos, respeita as leis justas e colabora com o bem comum (CIC 2240). Mas César não é Deus. Quando uma lei contraria a lei de Deus, a consciência deve obedecer primeiro a Deus (CIC 2242).",
-        "A moeda trazia a imagem de César. E nós trazemos a imagem de quem? Muitos Padres da Igreja lembravam que o ser humano foi criado à imagem de Deus. A ele pertencemos inteiros: o tempo, o coração, o corpo, a vida. Dar a Deus o que é de Deus é entregar-lhe a nós mesmos.",
+        "A moeda trazia a imagem de César. E nós trazemos a imagem de quem? Santo Agostinho, comentando o Evangelho de São João, lembra: César procura a sua imagem na moeda, e Deus procura a sua no homem, criado à imagem dele. A ele pertencemos inteiros: o tempo, o coração, o corpo, a vida. Dar a Deus o que é de Deus é entregar-lhe a nós mesmos.",
       ],
       pergunta: "Estou dando a Deus o que é dele, ou só o que sobra do meu tempo e do meu coração?",
     },
@@ -382,7 +382,7 @@ const parte: ParteDasReflexoes = {
     "MAT 26:14-27:66": {
       paragrafos: [
         "A Paixão segundo Mateus começa com a traição por trinta moedas e passa pela Última Ceia, onde Jesus entrega o pão e o cálice dizendo: “este é o meu corpo” e “este é o meu sangue da nova aliança”. Segue com o Getsêmani, a prisão, os julgamentos, as negações de Pedro e a cruz. Ao vê-lo morrer, o centurião confessa: “Na verdade, este homem era Filho de Deus.”",
-        "Em toda a narrativa, é Jesus quem se entrega. No horto, reza: “não se faça nisto a minha vontade, mas a tua.” Na cruz, reza o salmo do justo que sofre: “Meu Deus, meu Deus, por que me abandonaste?” Não é desespero: é a oração de quem leva a Deus a dor de toda a humanidade e confia até o fim.",
+        "Em toda a narrativa, é Jesus quem se entrega. No horto, reza: “não se faça nisto a minha vontade, mas a tua.” Na cruz, reza o salmo do justo que sofre: “Meu Deus, meu Deus, por que me abandonaste?” Não é desespero: Jesus reza em nosso nome, tomando sobre si o afastamento do pecador em relação a Deus, e confia até o fim (CIC 603).",
         "A Igreja ensina que os autores da Paixão de Cristo foram todos os pecadores, e não um povo ou um grupo (CIC 597-598). Por isso não lemos este Evangelho como espectadores. Estamos nele: no sono dos discípulos, na negação de Pedro, na multidão que grita. Mas também podemos estar com as mulheres que ficaram perto e com Simão de Cirene, que carregou a cruz. O sangue de Cristo foi derramado por muitos, para a remissão dos pecados.",
       ],
       pergunta: "Em que lugar da Paixão eu me reconheço hoje, e o que Jesus me diz ali?",
