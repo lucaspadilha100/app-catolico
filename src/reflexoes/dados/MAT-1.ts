@@ -71,7 +71,7 @@ const parte: ParteDasReflexoes = {
       paragrafos: [
         "O Evangelho apresenta José como “esposo de Maria, da qual nasceu Jesus”. Ele estava desposado com Maria e descobre que ela concebeu antes de viverem juntos. Por ser justo e não a querer expor à vergonha, José decide deixá-la em segredo.",
         "Enquanto pensa nisso, o anjo lhe fala em sonho: “José, filho de Davi, não temas receber Maria, tua mulher.” O filho dela é obra do Espírito Santo, e José lhe dará o nome de Jesus, “porque ele salvará o seu povo dos pecados deles”. Ao despertar, José faz como o anjo mandou. Não diz uma palavra no Evangelho; responde com a obediência.",
-        "Deus confiou a José o que tinha de mais precioso: o seu Filho e a Virgem Maria. Por isso a Igreja o venera como seu protetor, e o Papa Pio IX o declarou Padroeiro da Igreja universal. Pais de família, trabalhadores, quem precisa decidir sem enxergar tudo encontram nele um modelo: homem justo e silencioso, que escuta Deus e age. Podemos pedir a São José que nos ensine a cuidar do que Deus nos confiou.",
+        "Deus confiou a José o que tinha de mais precioso: o seu Filho e a Virgem Maria. Por isso a Igreja o venera como seu protetor, e o Beato Pio IX o declarou Padroeiro da Igreja Católica. Pais de família, trabalhadores, quem precisa decidir sem enxergar tudo encontram nele um modelo: homem justo e silencioso, que escuta Deus e age. Podemos pedir a São José que nos ensine a cuidar do que Deus nos confiou.",
       ],
       pergunta: "O que Deus me confiou para cuidar, como confiou Jesus e Maria a José?",
     },

@@ -247,7 +247,7 @@ const parte: ParteDasReflexoes = {
       paragrafos: [
         "Maria parte “às pressas” para a casa de Isabel. Ao ouvir a sua saudação, o menino salta de alegria no ventre de Isabel, que exclama: “Bendita és tu entre as mulheres, e bendito é o fruto do teu ventre!” E Maria começa o seu cântico: “A minha alma glorifica o Senhor.”",
         "Maria não guarda para si o dom que recebeu. Vai ao encontro de quem precisa, e a sua presença leva Jesus e o Espírito Santo. Isabel reconhece nela “a mãe do meu Senhor” e a chama bem-aventurada porque acreditou. Assim Maria fez em muitos momentos da história: aproximou-se dos seus filhos para levá-los ao Filho.",
-        "Em Guadalupe, no México, a Igreja celebra a aparição de Nossa Senhora a um indígena simples, São Juan Diego, canonizado por São João Paulo II. O Papa São Pio X a declarou padroeira da América Latina. Como Isabel, podemos acolhê-la com alegria e deixar que ela nos leve a Jesus.",
+        "Em Guadalupe, no México, a Igreja celebra a aparição de Nossa Senhora a um indígena simples, São Juan Diego, canonizado por São João Paulo II. O mesmo Papa pediu que a sua festa, como Mãe e Evangelizadora da América, fosse celebrada em todo o continente. Como Isabel, podemos acolhê-la com alegria e deixar que ela nos leve a Jesus.",
       ],
       pergunta: "Deixo Maria me conduzir a Jesus, como ela conduziu Isabel e São Juan Diego?",
     },
@@ -287,7 +287,7 @@ const parte: ParteDasReflexoes = {
       paragrafos: [
         "Um decreto do imperador manda recensear todos, e José sobe com Maria, grávida, de Nazaré a Belém, a cidade de Davi. Ali ela dá à luz o seu filho primogênito, envolve-o em faixas e o deita numa manjedoura, “porque não havia lugar para eles na hospedaria”. Na mesma noite, um anjo anuncia aos pastores: “hoje vos nasceu, na cidade de Davi, o Salvador, que é o Cristo Senhor”.",
         "Deus entra na história humana pela porta mais simples. O Filho eterno do Pai nasce pobre, num lugar de animais, e os primeiros a saber são pastores, gente humilde (CIC 525). O sinal dado pelo anjo não é poder nem esplendor: é um menino envolto em faixas, numa manjedoura. E os anjos cantam: “Glória a Deus no mais alto dos céus, e paz na terra aos homens de boa vontade.”",
-        "O Natal nos pergunta se há lugar para Jesus. Ele não força a porta: nasce onde é acolhido. São Gregório Magno lembra que Belém quer dizer “casa do pão”: ali nasce aquele que se dará como alimento na Eucaristia. Diante do presépio, podemos fazer silêncio, adorar e deixar que a alegria anunciada aos pastores chegue a nós e, por nós, a outros.",
+        "O Natal nos pergunta se há lugar para Jesus. Ele não força a porta: nasce onde é acolhido. São Gregório Magno lembra que Belém quer dizer “casa do pão”: ali nasce aquele que disse: “Eu sou o pão vivo que desceu do céu.” Diante do presépio, podemos fazer silêncio, adorar e deixar que a alegria anunciada aos pastores chegue a nós e, por nós, a outros.",
       ],
       pergunta: "Há lugar para Jesus na minha casa e no meu coração?",
     },

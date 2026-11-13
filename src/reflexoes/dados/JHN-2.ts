@@ -63,7 +63,7 @@ const parte: ParteDasReflexoes = {
     "JHN 21:1-14": {
       paragrafos: [
         "Os discípulos voltam ao mar e passam a noite pescando sem apanhar nada. Ao amanhecer, um homem na margem pergunta se têm alguma coisa para comer e manda lançar a rede do lado direito. A rede se enche. O discípulo amado reconhece: “É o Senhor!” Pedro se lança ao mar. Na praia já há brasas, peixe e pão, e Jesus diz: “Vinde comer.”",
-        "O Ressuscitado se mostra no trabalho de todo dia, mesmo no trabalho que fracassou. Santo Agostinho, nos Tratados sobre o Evangelho de São João, vê na pesca abundante e na rede que não se rompe uma figura da Igreja e da sua unidade. E o Senhor que tomou o pão e o deu aos discípulos é o mesmo que hoje nos alimenta na Eucaristia.",
+        "O Ressuscitado se mostra no trabalho de todo dia, mesmo no trabalho que fracassou. Santo Agostinho, nos Tratados sobre o Evangelho de São João, vê nesta pesca, feita depois da Ressurreição, uma figura da Igreja no fim dos tempos: a rede que não se rompe fala da paz dos santos, onde não haverá mais divisões. E o Senhor que tomou o pão e o deu aos discípulos é o mesmo que hoje nos alimenta na Eucaristia.",
         "Também conhecemos noites em que nada dá certo. Jesus não está longe: espera na margem, pergunta, orienta. Obedecer à sua palavra, mesmo quando parece estranha, muda o resultado. E ele sempre convida para a mesa.",
       ],
       pergunta: "Em que parte da minha vida preciso lançar a rede de novo, confiando na palavra de Jesus?",

@@ -287,7 +287,7 @@ const parte: ParteDasReflexoes = {
       paragrafos: [
         "Os fariseus se unem aos herodianos para apanhar Jesus em alguma palavra. Primeiro o elogiam; depois perguntam se é lícito pagar o tributo a César. Se ele disser que sim, parecerá aliado do dominador romano; se disser que não, poderá ser acusado de rebelião. Jesus percebe a malícia e pede a moeda. Pergunta de quem é a imagem gravada nela. “De César”, respondem.",
         "Então Jesus diz: “dai a César o que é de César, e a Deus o que é de Deus.” O cristão é cidadão leal, paga os impostos, respeita as leis justas e colabora com o bem comum (CIC 2240). Mas César não é Deus. Quando uma lei contraria a lei de Deus, a consciência deve obedecer primeiro a Deus (CIC 2242).",
-        "A moeda trazia a imagem de César. E nós trazemos a imagem de quem? Santo Agostinho, comentando o Evangelho de São João, lembra: César procura a sua imagem na moeda, e Deus procura a sua no homem, criado à imagem dele. A ele pertencemos inteiros: o tempo, o coração, o corpo, a vida. Dar a Deus o que é de Deus é entregar-lhe a nós mesmos.",
+        "A moeda trazia a imagem de César. E nós trazemos a imagem de quem? Santo Agostinho, comentando o Evangelho de São João, lembra que nós somos a moeda de Deus, marcada com a luz do seu rosto, e que ele pede a sua moeda como César pedia a dele: a César o dinheiro, a Deus nós mesmos. A ele pertencemos inteiros: o tempo, o coração, o corpo, a vida.",
       ],
       pergunta: "Estou dando a Deus o que é dele, ou só o que sobra do meu tempo e do meu coração?",
     },

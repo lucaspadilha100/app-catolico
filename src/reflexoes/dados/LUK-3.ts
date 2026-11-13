@@ -46,7 +46,7 @@ const parte: ParteDasReflexoes = {
     "LUK 16:1-13": {
       paragrafos: [
         "Um administrador desonesto é descoberto e vai perder o emprego. Sem forças para cavar e com vergonha de mendigar, chama os devedores do patrão e diminui as dívidas, para ter quem o receba depois. Jesus não elogia a desonestidade. O senhor elogia a esperteza: aquele homem pensou no futuro e agiu sem demora.",
-        "Jesus lamenta que “os filhos deste mundo” sejam mais sábios nos seus negócios do que os filhos da luz nas coisas de Deus. Gastamos tanta energia para garantir o amanhã na terra e tão pouca para garantir a eternidade. O dinheiro, que passa, pode servir para fazer amigos para sempre. Santo Agostinho, nos seus Sermões, ensina que esses amigos são os pobres que ajudamos, que nos recebem nas moradas eternas.",
+        "Jesus lamenta que “os filhos deste mundo” sejam mais sábios nos seus negócios do que os filhos da luz nas coisas de Deus. Gastamos tanta energia para garantir o amanhã na terra e tão pouca para garantir a eternidade. O dinheiro, que passa, pode servir para fazer amigos para sempre. Santo Agostinho, nos seus Sermões, explica que esses amigos são os santos de Deus, que recebem nas moradas eternas os que os socorreram nas suas necessidades, e lembra a palavra do Senhor: o que se faz a um dos seus pequeninos, é a ele que se faz.",
         "No fim vem a frase decisiva: “Não podeis servir a Deus e às riquezas.” O apego desordenado ao dinheiro leva à idolatria do dinheiro (CIC 2424). A fidelidade se prova no pouco: na conta paga em dia, no troco devolvido, no salário justo, na esmola discreta.",
       ],
       pergunta: "Quem manda de verdade nas minhas decisões: Deus ou o dinheiro?",
