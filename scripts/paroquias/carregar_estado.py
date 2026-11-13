@@ -203,7 +203,7 @@ def main():
                     "fonte_oficial": confianca == "alta",
                     "lat": None, "lng": None, "precisao": "",
                 })
-                for h in ig.get("horarios") or []:
+                for h in ([] if confianca == "baixa" else ig.get("horarios") or []):
                     if h.get("tipo") not in ("missa", "confissao", "adoracao") or not hora_ok(h.get("hora")):
                         avisos.append(f"horário fora do formato em {nome}: {h}")
                         continue
