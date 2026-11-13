@@ -2,6 +2,7 @@ import { useCallback, useEffect, useState, type FormEvent, type ReactNode } from
 import { Link, useNavigate, useParams, useSearchParams } from "react-router-dom";
 import { ChevronRight, Plus, Share2, Trash2 } from "lucide-react";
 import { useConta } from "@/conta/useConta";
+import { UsoDoApp } from "@/components/UsoDoApp";
 import {
   adicionarGestor,
   apagarAviso,
@@ -409,6 +410,7 @@ export function Painel() {
           )}
           {acesso.admin && (
             <>
+              <UsoDoApp />
               <Link to="/painel/divulgacao" className={`${BOTAO} flex items-center justify-center gap-2`}>
                 <Share2 className="size-5" aria-hidden /> Divulgação
               </Link>

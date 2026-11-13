@@ -65,3 +65,16 @@ export function rezandoHoje(): Promise<RezandoHoje | null> {
   guardado = { em: Date.now(), valor };
   return valor;
 }
+
+export interface UsoDoApp {
+  dias: { dia: string; aparelhos: number }[];
+  semana: Record<string, number>;
+  contas: number;
+}
+
+export async function usoDoApp(): Promise<UsoDoApp> {
+  const c = (await import("@/lib/supabase")).supabase;
+  const r = await c.rpc("uso_do_app");
+  if (r.error) throw new Error(r.error.message);
+  return r.data as UsoDoApp;
+}

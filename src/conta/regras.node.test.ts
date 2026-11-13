@@ -90,6 +90,21 @@ describe("uso anônimo", () => {
   });
 });
 
+describe("uso do app no painel", () => {
+  it("só o administrador lê os números", async () => {
+    await como("anon", null, "select public.contar_uso('abertura')");
+    await expect(como("anon", null, "select public.uso_do_app()")).rejects.toThrow();
+    await expect(como("authenticated", A, "select public.uso_do_app()")).rejects.toThrow();
+    await db.query("insert into auth.users (id) values ($1) on conflict do nothing", [B]);
+    await db.query("insert into public.administradores (usuario_id) values ($1)", [B]);
+    const r = await como("authenticated", B, "select public.uso_do_app() as u");
+    const u = (r.rows[0] as { u: { dias: { aparelhos: number }[]; semana: Record<string, number>; contas: number } }).u;
+    expect(u.dias[0]?.aparelhos).toBeGreaterThan(0);
+    expect(u.semana.abertura).toBeGreaterThan(0);
+    expect(typeof u.contas).toBe("number");
+  });
+});
+
 describe("avisos de erro da Bíblia", () => {
   it("qualquer um avisa, ninguém lê pela API", async () => {
     await como("anon", null, "insert into public.avisos_biblia (livro, capitulo, versiculo, arquivo, texto_versiculo, tipo) values ('JHN', 3, 16, 'JHN.x.json', 't', 'palavra')");
