@@ -3,7 +3,7 @@
 O dono pede um por vez, na hora de postar. Cada pasta tem as lâminas (01.png...) e a `legenda.txt`.
 
 1. `post2-novena-apresentacao/` (novena da padroeira de Natal; só até 20/11)
-2. `post-missas/` (antes de postar: trocar a última lâmina se São Paulo já estiver no app)
+2. `post-missas/` (São Paulo já incluído em 13/11)
 3. `post-biblia/`
 4. `post-terco/`
 5. `post-oracoes/`
