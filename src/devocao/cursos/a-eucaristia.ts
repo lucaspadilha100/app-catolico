@@ -78,7 +78,7 @@ const conteudo: ConteudoDoDesafio = {
         { titulo: "A alma: estado de graça" },
         {
           texto:
-            "Quem tem consciência de pecado grave deve se confessar antes de comungar (CIC 1385; cân. 916). Pecado grave, ou mortal, é aquele de matéria grave, cometido com plena consciência e de propósito deliberado (CIC 1857). Os pecados veniais não impedem a comunhão. A própria comunhão reaviva a caridade, e a caridade reavivada apaga os pecados veniais (CIC 1394). Mas a Eucaristia não é o sacramento para perdoar pecados mortais: isso é próprio da confissão (CIC 1395). O Código prevê um caso raro: quem tem razão grave para comungar e não tem como se confessar deve fazer um ato de contrição perfeita, com o propósito de se confessar quanto antes (cân. 916). Na dúvida, converse com um padre.",
+            "Quem tem consciência de pecado grave deve se confessar antes de comungar (CIC 1385; cân. 916). Pecado grave, ou mortal, é aquele de matéria grave, cometido com plena consciência e de propósito deliberado (CIC 1857). Os pecados veniais não impedem a comunhão. A própria comunhão reaviva a caridade, e a caridade reavivada apaga os pecados veniais (CIC 1394). Mas a Eucaristia não é o sacramento para perdoar pecados mortais: isso é próprio da confissão (CIC 1395). Na dúvida, converse com um padre.",
         },
         { titulo: "O corpo: jejum e atitude" },
         {

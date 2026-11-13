@@ -74,7 +74,7 @@ const exame: Exame = {
         { id: "m4-exemplo", texto: "Dei mau exemplo aos meus filhos em casa?", cic: "2223", estados: ["casado"] },
         { id: "m4-corrigir", texto: "Deixei de corrigir meus filhos quando precisavam, ou os corrigi com raiva?", cic: "2223", estados: ["casado"] },
         { id: "m4-vocacao", texto: "Forcei meus filhos na escolha da profissão, do casamento ou da vocação?", cic: "2230, 2232", estados: ["casado"] },
-        { id: "m4-autoridade", texto: "Desrespeitei as leis justas ou deixei de votar com consciência e de pagar os impostos justos?", cic: "2238-2240", estados: ["jovem", "adulto", "casado"] },
+        { id: "m4-autoridade", texto: "Desrespeitei as leis justas ou deixei de cumprir os deveres de cidadão, como votar com consciência e pagar os impostos devidos?", cic: "2238-2240", estados: ["jovem", "adulto", "casado"] },
       ],
     },
     {

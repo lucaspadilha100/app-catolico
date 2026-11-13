@@ -19,7 +19,7 @@ const conteudo: ConteudoDaNovena = {
         { leitura: "LUK 23:33-34.39-43" },
         {
           texto:
-            "Nesta Sexta-feira Santa, rezamos por toda a humanidade, especialmente pelos pecadores. Pregado na cruz, Jesus pede ao Pai perdão para os que o crucificam e promete o paraíso ao ladrão arrependido. Não há pecado, por mais grave, que a Igreja não possa perdoar a quem se arrepende (CIC 982). Coloquemos diante da cruz o mundo inteiro, e também os nossos pecados.",
+            "Hoje rezamos por toda a humanidade, especialmente pelos pecadores. Pregado na cruz, Jesus pede ao Pai perdão para os que o crucificam e promete o paraíso ao ladrão arrependido. Não há pecado, por mais grave, que a Igreja não possa perdoar a quem se arrepende (CIC 982). Coloquemos diante da cruz o mundo inteiro, e também os nossos pecados.",
         },
         {
           linhas: [
@@ -51,7 +51,7 @@ const conteudo: ConteudoDaNovena = {
         { leitura: "COL 3:12-15" },
         {
           texto:
-            "Neste domingo da Ressurreição, rezamos pelos fiéis que procuram viver com sinceridade a sua fé, na família, no trabalho e na comunidade. São Paulo os chama de escolhidos de Deus, santos e amados, e lhes pede que se revistam de misericórdia e de caridade. Muitos sustentam a Igreja com a sua oração escondida e a sua fidelidade de cada dia. Peçamos que perseverem e que nunca lhes falte a consolação de Deus.",
+            "Hoje rezamos pelos fiéis que procuram viver com sinceridade a sua fé, na família, no trabalho e na comunidade. São Paulo os chama de escolhidos de Deus, santos e amados, e lhes pede que se revistam de misericórdia e de caridade. Muitos sustentam a Igreja com a sua oração escondida e a sua fidelidade de cada dia. Peçamos que perseverem e que nunca lhes falte a consolação de Deus.",
         },
         {
           linhas: [
@@ -148,7 +148,7 @@ const conteudo: ConteudoDaNovena = {
         { leitura: "REV 3:15-20" },
         {
           texto:
-            "Rezamos hoje pelos que se tornaram mornos, indiferentes ou cansados na fé. Jesus repreende a Igreja de Laodiceia, que não é fria nem quente, mas logo diz que está à porta e bate, esperando que lhe abram. A tibieza é a negligência em responder ao amor de Deus (CIC 2094), e só esse amor pode reacender o coração. Amanhã é o Domingo da Divina Misericórdia: abramos a porta a Jesus, que vem com o seu perdão.",
+            "Rezamos hoje pelos que se tornaram mornos, indiferentes ou cansados na fé. Jesus repreende a Igreja de Laodiceia, que não é fria nem quente, mas logo diz que está à porta e bate, esperando que lhe abram. A tibieza é a negligência em responder ao amor de Deus (CIC 2094), e só esse amor pode reacender o coração. Abramos a porta a Jesus, que vem com o seu perdão.",
         },
         {
           linhas: [

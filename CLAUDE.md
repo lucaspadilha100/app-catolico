@@ -259,6 +259,7 @@ Nada de licença paga por ora. Então:
   honestidade que o texto foi "revisado pela equipe". Prioridade de revisão:
   Evangelhos, Salmos, reflexões de domingo, exame de consciência.
 - Nada de IA respondendo dúvidas de fé no app (por ora).
+- ⚠️ **O dono é leigo e não aprova doutrina** (13/11/2026: "quando eu tenho dúvida, põe o que a Igreja manda"). Na dúvida vale o que a Igreja ensina oficialmente (CIC, Código, Missal e Lecionário, normas da CNBB), nunca opinião, dedução ou citação de memória: todo texto citado se confere na fonte real antes de entrar. O que pede juízo de especialista vai para um padre, não para o dono. Lista de revisão e respostas: artifact "Revisão do Minha Igrejinha"; decisões em `docs/revisao-do-dono.md`.
 
 ## Lecionário
 - `npm run gerar` refaz `src/liturgia/dados/lecionario.json` a partir de

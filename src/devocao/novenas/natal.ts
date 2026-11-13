@@ -140,7 +140,7 @@ const conteudo: ConteudoDaNovena = {
         { leitura: "LUK 2:4-14" },
         {
           texto:
-            "Maria e José não encontram lugar na hospedaria, e o Filho de Deus nasce pobre e é deitado numa manjedoura. Os primeiros a receber a notícia são pastores, gente simples que vigiava o rebanho durante a noite. O Verbo se fez carne para nos tornar participantes da natureza divina (CIC 460). Amanhã é Natal: preparemos o coração, como a manjedoura, para receber Jesus.",
+            "Maria e José não encontram lugar na hospedaria, e o Filho de Deus nasce pobre e é deitado numa manjedoura. Os primeiros a receber a notícia são pastores, gente simples que vigiava o rebanho durante a noite. O Verbo se fez carne para nos tornar participantes da natureza divina (CIC 460). Preparemos o coração, como a manjedoura, para receber Jesus.",
         },
         {
           linhas: [

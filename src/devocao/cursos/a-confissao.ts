@@ -127,7 +127,7 @@ const conteudo: ConteudoDoDesafio = {
         },
         {
           texto:
-            "Quem ouviu alguma coisa sem querer, por exemplo alguém que estava perto na fila, ou um intérprete, também fica obrigado ao segredo (cân. 983). A Igreja pune com penas severíssimas quem viola esse sigilo (CIC 1467); o padre que o violasse diretamente seria excomungado. Ao longo da história, houve padres que preferiram a prisão e até a morte a quebrar esse silêncio. Você pode falar com toda a tranquilidade.",
+            "Quem ouviu alguma coisa sem querer, por exemplo alguém que estava perto na fila, ou um intérprete, também fica obrigado ao segredo (cân. 983). A Igreja pune com penas severíssimas quem viola esse sigilo (CIC 1467); o padre que o violasse diretamente seria excomungado. Ao longo da história, houve padres que preferiram a prisão e até a morte a quebrar esse silêncio; a tradição conta isso de São João Nepomuceno, morto em Praga em 1393. Você pode falar com toda a tranquilidade.",
         },
         { titulo: "A absolvição: o perdão de verdade" },
         {

@@ -140,7 +140,7 @@ const conteudo: ConteudoDaNovena = {
         { leitura: "GAL 5:22-25" },
         {
           texto:
-            "Os dons do Espírito, recebidos com docilidade, dão fruto na vida de quem crê. A tradição da Igreja enumera doze frutos: caridade, alegria, paz, paciência, longanimidade, bondade, benignidade, mansidão, fidelidade, modéstia, continência e castidade (CIC 1832). São as primícias da glória eterna, que já se deixam ver no dia a dia. Amanhã é Pentecostes: peçamos que o Espírito renove a Igreja e cada um de nós.",
+            "Os dons do Espírito, recebidos com docilidade, dão fruto na vida de quem crê. A tradição da Igreja enumera doze frutos: caridade, alegria, paz, paciência, longanimidade, bondade, benignidade, mansidão, fidelidade, modéstia, continência e castidade (CIC 1832). São as primícias da glória eterna, que já se deixam ver no dia a dia. Peçamos que o Espírito Santo renove a Igreja e cada um de nós.",
         },
         {
           linhas: [
