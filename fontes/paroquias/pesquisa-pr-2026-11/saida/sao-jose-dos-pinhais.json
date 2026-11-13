@@ -1,0 +1,2505 @@
+[
+ {
+  "id_banco": null,
+  "nome": "Catedral de São José",
+  "categoria": "catedral",
+  "cidade": "São José dos Pinhais",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "4132820243",
+   "whatsapp": "41985197111",
+   "instagram": "catedralsjp",
+   "site": "https://www.catedralsaojose.com.br",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Catedral de São José",
+    "tipo": "matriz",
+    "cidade": "São José dos Pinhais",
+    "localidade": "Centro",
+    "endereco": "Praça Oito de Janeiro, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": "Com novena do Perpétuo Socorro"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Com novena do Perpétuo Socorro"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": "Com novena do Perpétuo Socorro"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": "Com novena do Perpétuo Socorro"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": "Com novena do Perpétuo Socorro"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "11:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Sagrado Coração de Jesus",
+    "tipo": "capela",
+    "cidade": "São José dos Pinhais",
+    "localidade": "São Domingos",
+    "endereco": "Rua Mato Grosso esquina com Rua João Ernesto Killian",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:30",
+      "semanas": [
+       2,
+       3,
+       4,
+       5
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa ao Sagrado Coração de Jesus"
+     }
+    ],
+    "nao_cabe": "Sábado 17h30 todo sábado, exceto o primeiro."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.catedralsaojose.com.br/horarios/",
+    "data": "2025-11-04",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.catedralsaojose.com.br/capela/",
+    "data": "2025-11-11",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.catedralsaojose.com.br/horarios/",
+    "data": "2025-11-04",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://gcatholic.org/churches/brazil/3906",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Setor 3 segundo o blog da Pastoral Familiar diocesana (2016 a 2018). Site próprio da paróquia. Secretaria: Rua Dona Izabel, a Redentora, 1332, Centro. Telefone fixo tirado do GCatholic. O site da diocese (diocesesjp.org.br) está em manutenção desde antes de 13/11/2026: sem lista oficial nem horários."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "São José dos Pinhais",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "São José dos Pinhais",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://gcatholic.org/churches/brazil/55772",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Paróquia erigida em 02/02/2003 (GCatholic 55772); há outra Paróquia Nossa Senhora Aparecida na cidade. Uma das duas é a do bairro Xingu (blog da Pastoral Familiar, 2016). Sem horário publicado em fonte oficial alcançável."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "São José dos Pinhais",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "São José dos Pinhais",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://gcatholic.org/churches/brazil/55773",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Paróquia erigida em 27/02/1982 (GCatholic 55773); há outra Paróquia Nossa Senhora Aparecida na cidade. Uma das duas é a do bairro Xingu (blog da Pastoral Familiar, 2016). Sem horário publicado em fonte oficial alcançável."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Fátima",
+  "categoria": "paroquia",
+  "cidade": "São José dos Pinhais",
+  "padroeiro": "Nossa Senhora de Fátima",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora de Fátima",
+    "tipo": "matriz",
+    "cidade": "São José dos Pinhais",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://gcatholic.org/churches/brazil/55774",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Setor 3 segundo o blog da Pastoral Familiar diocesana (2016 a 2018). Lista conferida só no GCatholic. Sem horário publicado em fonte oficial alcançável."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Monte Claro",
+  "categoria": "paroquia",
+  "cidade": "São José dos Pinhais",
+  "padroeiro": "Nossa Senhora do Monte Claro",
+  "contatos": {
+   "telefone": "4133823130",
+   "whatsapp": "41987516044",
+   "instagram": "monteclarosjp",
+   "site": "https://paroquiamonteclaro.org.br",
+   "email": "atendimento@paroquiamonteclaro.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Monte Claro",
+    "tipo": "matriz",
+    "cidade": "São José dos Pinhais",
+    "localidade": "Parque da Fonte",
+    "endereco": "Rua Tavares de Lyra, 1684",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Divino Espírito Santo",
+    "tipo": "capela",
+    "cidade": "São José dos Pinhais",
+    "localidade": "Jardim Aviação",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Judas Tadeu",
+    "tipo": "capela",
+    "cidade": "São José dos Pinhais",
+    "localidade": "São Judas Tadeu",
+    "endereco": "Avenida São José, s/n, margem da BR-277",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Sagrada Família",
+    "tipo": "capela",
+    "cidade": "São José dos Pinhais",
+    "localidade": "Conjunto São José",
+    "endereco": "Rua José Grabias, 65",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora da Luz dos Pinhais",
+    "tipo": "capela",
+    "cidade": "São José dos Pinhais",
+    "localidade": "Afonso Pena",
+    "endereco": "Rua Francisca de Souza Cortês",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Batista",
+    "tipo": "comunidade",
+    "cidade": "São José dos Pinhais",
+    "localidade": "Parque da Fonte",
+    "endereco": "Rua Professora Ernestina de Macedo Souza Cortes, 580",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://paroquiamonteclaro.org.br/",
+    "data": "2026-02-27",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://paroquiamonteclaro.org.br/capelas/",
+    "data": "2025-12-22",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://gcatholic.org/churches/brazil/55775",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Setor 3 segundo o blog da Pastoral Familiar diocesana (2016 a 2018). Site próprio da paróquia; as páginas das capelas não trazem horário. O site da diocese (diocesesjp.org.br) está em manutenção desde antes de 13/11/2026: sem lista oficial nem horários."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Rainha da Paz",
+  "categoria": "paroquia",
+  "cidade": "São José dos Pinhais",
+  "padroeiro": "Nossa Senhora Rainha da Paz",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Rainha da Paz",
+    "tipo": "matriz",
+    "cidade": "São José dos Pinhais",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://gcatholic.org/churches/brazil/55776",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Lista conferida só no GCatholic. Sem horário publicado em fonte oficial alcançável."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sagrado Coração de Jesus",
+  "categoria": "paroquia",
+  "cidade": "São José dos Pinhais",
+  "padroeiro": "Sagrado Coração de Jesus",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Sagrado Coração de Jesus",
+    "tipo": "matriz",
+    "cidade": "São José dos Pinhais",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://gcatholic.org/churches/brazil/55777",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Setor 3 segundo o blog da Pastoral Familiar diocesana (2016). Lista conferida só no GCatholic. Sem horário publicado em fonte oficial alcançável."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "São José dos Pinhais",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "São José dos Pinhais",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://gcatholic.org/churches/brazil/55778",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Setor 3 segundo o blog da Pastoral Familiar diocesana (2016 a 2018). Lista conferida só no GCatholic. Sem horário publicado em fonte oficial alcançável."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Cristóvão",
+  "categoria": "paroquia",
+  "cidade": "São José dos Pinhais",
+  "padroeiro": "São Cristóvão",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Cristóvão",
+    "tipo": "matriz",
+    "cidade": "São José dos Pinhais",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://gcatholic.org/churches/brazil/55779",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Setor 3 segundo o blog da Pastoral Familiar diocesana (2016 a 2018). Lista conferida só no GCatholic. Sem horário publicado em fonte oficial alcançável. O GCatholic cita o site matrizsaocristovao.com.br, que não respondeu em 13/11/2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Marcos",
+  "categoria": "paroquia",
+  "cidade": "São José dos Pinhais",
+  "padroeiro": "São Marcos",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Marcos",
+    "tipo": "matriz",
+    "cidade": "São José dos Pinhais",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://gcatholic.org/churches/brazil/55780",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Setor 3 segundo o blog da Pastoral Familiar diocesana (2016). Lista conferida só no GCatholic. Sem horário publicado em fonte oficial alcançável."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Pedro",
+  "categoria": "paroquia",
+  "cidade": "São José dos Pinhais",
+  "padroeiro": "São Pedro",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Pedro",
+    "tipo": "matriz",
+    "cidade": "São José dos Pinhais",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://gcatholic.org/churches/brazil/55781",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Setor 3 segundo o blog da Pastoral Familiar diocesana (2016 a 2018). Lista conferida só no GCatholic. Sem horário publicado em fonte oficial alcançável. O GCatholic cita o site paroquiasaopedrosjp.com.br, que não respondeu em 13/11/2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "São José dos Pinhais",
+  "padroeiro": "São Sebastião",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Sebastião",
+    "tipo": "matriz",
+    "cidade": "São José dos Pinhais",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://gcatholic.org/churches/brazil/55782",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Lista conferida só no GCatholic. Sem horário publicado em fonte oficial alcançável. Facebook citado pelo GCatholic: saosebastiaosjp."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia do Senhor Bom Jesus",
+  "categoria": "paroquia",
+  "cidade": "São José dos Pinhais",
+  "padroeiro": "Senhor Bom Jesus",
+  "contatos": {
+   "telefone": "4130814336",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "https://bomjesussjp.com.br",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Senhor Bom Jesus",
+    "tipo": "matriz",
+    "cidade": "São José dos Pinhais",
+    "localidade": "Bom Jesus",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "De segunda a sexta a paróquia publica 'missa ou celebração': segunda 19h (celebração), terça 18h30, quarta 16h e 19h, quinta 19h, sexta 19h."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Senhor Bom Jesus",
+    "tipo": "capela",
+    "cidade": "São José dos Pinhais",
+    "localidade": "Bom Jesus",
+    "endereco": "Rua Barão do Cerro Azul",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "A Capelinha, tombada pelo município."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora de Guadalupe",
+    "tipo": "capela",
+    "cidade": "São José dos Pinhais",
+    "localidade": "Ouro Preto",
+    "endereco": "Rua Quirino Zagonel, 969",
+    "horarios": [],
+    "nao_cabe": "Página de 2019 dava missa aos domingos às 9h15; não reconferido."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Miguel Arcanjo",
+    "tipo": "capela",
+    "cidade": "São José dos Pinhais",
+    "localidade": "Jardim Brasília",
+    "endereco": "Rua Josephina Françoise Haluch, 55",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://bomjesussjp.com.br/horarios-diversos/",
+    "data": "2025-12-01",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://bomjesussjp.com.br/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://bomjesussjp.com.br/contato/",
+    "data": "",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://gcatholic.org/churches/brazil/55783",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Setor 3 segundo o blog da Pastoral Familiar diocesana (2016 a 2018). Site próprio da paróquia; a agenda do site em novembro de 2026 confirma as missas de sábado e domingo e a da Capelinha. O site da diocese (diocesesjp.org.br) está em manutenção desde antes de 13/11/2026: sem lista oficial nem horários."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Conceição",
+  "categoria": "paroquia",
+  "cidade": "Agudos do Sul",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "Agudos do Sul",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://gcatholic.org/churches/brazil/55745",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Lista conferida só no GCatholic. Sem horário publicado em fonte oficial alcançável. Facebook citado pelo GCatholic: pascompnsdc."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora das Dores",
+  "categoria": "paroquia",
+  "cidade": "Araucária",
+  "padroeiro": "Nossa Senhora das Dores",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora das Dores",
+    "tipo": "matriz",
+    "cidade": "Araucária",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://gcatholic.org/churches/brazil/55746",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Lista conferida só no GCatholic. Sem horário publicado em fonte oficial alcançável."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Perpétuo Socorro",
+  "categoria": "paroquia",
+  "cidade": "Araucária",
+  "padroeiro": "Nossa Senhora do Perpétuo Socorro",
+  "contatos": {
+   "telefone": "4136431342",
+   "whatsapp": "4136431342",
+   "instagram": "perpetuosocorroaraucaria",
+   "site": "https://www.perpetuosocorroaraucaria.com",
+   "email": "secretaria@perpetuosocorroaraucaria.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Perpétuo Socorro",
+    "tipo": "matriz",
+    "cidade": "Araucária",
+    "localidade": "Fazenda Velha",
+    "endereco": "Rua Pedro Gawlak, 174",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Horários tirados da programação de junho de 2026, que se repete toda semana; as comunidades têm escala mensal (1ª sexta 19h: missa do Apostolado da Oração)."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Guajuvira de Cima",
+    "tipo": "comunidade",
+    "cidade": "Araucária",
+    "localidade": "Guajuvira de Cima",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Boa Vista",
+    "tipo": "comunidade",
+    "cidade": "Araucária",
+    "localidade": "Boa Vista",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Tropical",
+    "tipo": "comunidade",
+    "cidade": "Araucária",
+    "localidade": "Tropical",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Campestre",
+    "tipo": "comunidade",
+    "cidade": "Araucária",
+    "localidade": "Campestre",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Formigueiro",
+    "tipo": "comunidade",
+    "cidade": "Araucária",
+    "localidade": "Formigueiro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Dalla Torre",
+    "tipo": "comunidade",
+    "cidade": "Araucária",
+    "localidade": "Dalla Torre",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Campina das Pedras",
+    "tipo": "comunidade",
+    "cidade": "Araucária",
+    "localidade": "Campina das Pedras",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Estação",
+    "tipo": "comunidade",
+    "cidade": "Araucária",
+    "localidade": "Estação",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Rio Abaixinho",
+    "tipo": "comunidade",
+    "cidade": "Araucária",
+    "localidade": "Rio Abaixinho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Colônia Cristina",
+    "tipo": "comunidade",
+    "cidade": "Araucária",
+    "localidade": "Colônia Cristina",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Monalisa",
+    "tipo": "comunidade",
+    "cidade": "Araucária",
+    "localidade": "Monalisa",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Rio Verde Abaixo",
+    "tipo": "comunidade",
+    "cidade": "Araucária",
+    "localidade": "Rio Verde Abaixo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Rio Verde Acima",
+    "tipo": "comunidade",
+    "cidade": "Araucária",
+    "localidade": "Rio Verde Acima",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Camundá",
+    "tipo": "comunidade",
+    "cidade": "Araucária",
+    "localidade": "Camundá",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Guajuvira",
+    "tipo": "comunidade",
+    "cidade": "Araucária",
+    "localidade": "Guajuvira",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Porto das Laranjeiras",
+    "tipo": "comunidade",
+    "cidade": "Araucária",
+    "localidade": "Porto das Laranjeiras",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.perpetuosocorroaraucaria.com/inicio",
+    "data": "2026-06",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.perpetuosocorroaraucaria.com/comunidades",
+    "data": "",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.perpetuosocorroaraucaria.com/fale-conosco",
+    "data": "",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://gcatholic.org/churches/brazil/55747",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Site próprio da paróquia. A lista de comunidades dá só o lugar, sem o padroeiro. O site da diocese (diocesesjp.org.br) está em manutenção desde antes de 13/11/2026: sem lista oficial nem horários."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora dos Remédios",
+  "categoria": "paroquia",
+  "cidade": "Araucária",
+  "padroeiro": "Nossa Senhora dos Remédios",
+  "contatos": {
+   "telefone": "4136421291",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "https://www.santuariodosremedios.com.br",
+   "email": "pnsremedios@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário de Nossa Senhora dos Remédios",
+    "tipo": "santuario",
+    "cidade": "Araucária",
+    "localidade": "Centro",
+    "endereco": "Praça Doutor Vicente Machado, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa do Apostolado da Oração"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Todo dia 30, missa de Nossa Senhora dos Remédios às 19h. Confissões: marcar com os padres."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.santuariodosremedios.com.br/novo/expediente/expediente1.html",
+    "data": "2023-10-29",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://gcatholic.org/churches/brazil/55748",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "A matriz foi elevada a santuário em 30/10/2011. Página de horários atualizada em 29/10/2023 (cabeçalho do servidor). Escritório paroquial: Rua Doutor Júlio Szymanski, 46. O site da diocese (diocesesjp.org.br) está em manutenção desde antes de 13/11/2026: sem lista oficial nem horários."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Senhor Bom Jesus",
+  "categoria": "paroquia",
+  "cidade": "Araucária",
+  "padroeiro": "Senhor Bom Jesus",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Senhor Bom Jesus",
+    "tipo": "matriz",
+    "cidade": "Araucária",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://gcatholic.org/churches/brazil/55749",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Lista conferida só no GCatholic. Sem horário publicado em fonte oficial alcançável."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Cristo Rei",
+  "categoria": "paroquia",
+  "cidade": "Campo do Tenente",
+  "padroeiro": "Cristo Rei",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Cristo Rei",
+    "tipo": "matriz",
+    "cidade": "Campo do Tenente",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://gcatholic.org/churches/brazil/55750",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Lista conferida só no GCatholic. Sem horário publicado em fonte oficial alcançável."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Imaculada Conceição",
+  "categoria": "paroquia",
+  "cidade": "Contenda",
+  "padroeiro": "Imaculada Conceição",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz da Imaculada Conceição",
+    "tipo": "matriz",
+    "cidade": "Contenda",
+    "localidade": "Catanduvas do Sul",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://gcatholic.org/churches/brazil/55751",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sede no distrito de Catanduvas do Sul. Lista conferida só no GCatholic. Sem horário publicado em fonte oficial alcançável. Facebook citado pelo GCatholic: paroquiaimaculada."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "Contenda",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Batista",
+    "tipo": "matriz",
+    "cidade": "Contenda",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://gcatholic.org/churches/brazil/55752",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Lista conferida só no GCatholic. Sem horário publicado em fonte oficial alcançável."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Luz",
+  "categoria": "paroquia",
+  "cidade": "Fazenda Rio Grande",
+  "padroeiro": "Nossa Senhora da Luz",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Luz",
+    "tipo": "matriz",
+    "cidade": "Fazenda Rio Grande",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://gcatholic.org/churches/brazil/55753",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Lista conferida só no GCatholic. Sem horário publicado em fonte oficial alcançável."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora das Graças",
+  "categoria": "paroquia",
+  "cidade": "Fazenda Rio Grande",
+  "padroeiro": "Nossa Senhora das Graças",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora das Graças",
+    "tipo": "matriz",
+    "cidade": "Fazenda Rio Grande",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://gcatholic.org/churches/brazil/55754",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Lista conferida só no GCatholic. Sem horário publicado em fonte oficial alcançável."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Fátima",
+  "categoria": "paroquia",
+  "cidade": "Fazenda Rio Grande",
+  "padroeiro": "Nossa Senhora de Fátima",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora de Fátima",
+    "tipo": "matriz",
+    "cidade": "Fazenda Rio Grande",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://gcatholic.org/churches/brazil/55755",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Lista conferida só no GCatholic. Sem horário publicado em fonte oficial alcançável."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Gabriel da Virgem Dolorosa",
+  "categoria": "paroquia",
+  "cidade": "Fazenda Rio Grande",
+  "padroeiro": "São Gabriel da Virgem Dolorosa",
+  "contatos": {
+   "telefone": "4136271391",
+   "whatsapp": "41984630928",
+   "instagram": "paroquiasaogabrielfrg",
+   "site": "https://www.paroquiasaogabrielfrg.com.br",
+   "email": "parsgabriel@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Gabriel da Virgem Dolorosa",
+    "tipo": "matriz",
+    "cidade": "Fazenda Rio Grande",
+    "localidade": "Pioneiros",
+    "endereco": "Rua Farid Stephens, 20",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": "Com novena do Perpétuo Socorro"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": [
+       4
+      ],
+      "observacao": "Missa e Cerco de Jericó"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Adoração perpétua, igreja aberta desde as 9h"
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Fazenda Rio Grande",
+    "localidade": "Iguaçu",
+    "endereco": "Rua Rio Cerne, 208",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:30",
+      "semanas": [
+       1,
+       3
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "20:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "2º, 4º e 5º domingo: celebração da Palavra às 9h30."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora do Perpétuo Socorro",
+    "tipo": "capela",
+    "cidade": "Fazenda Rio Grande",
+    "localidade": "Iguaçu",
+    "endereco": "Rua Rio Paranaíba, 1075",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:30",
+      "semanas": [
+       2,
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "1º, 3º e 5º domingo: celebração da Palavra às 9h. 1º sábado: celebração às 19h."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.paroquiasaogabrielfrg.com.br/horarios",
+    "data": "",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.paroquiasaogabrielfrg.com.br/capela-nossa-senhora-aparecida",
+    "data": "",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.paroquiasaogabrielfrg.com.br/capela-nossa-senhora-do-perpetuo-socorro",
+    "data": "",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://gcatholic.org/churches/brazil/55756",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Site próprio da paróquia (2026). Facebook citado pelo site: paroquiasaogabrielpassionista. O site da diocese (diocesesjp.org.br) está em manutenção desde antes de 13/11/2026: sem lista oficial nem horários."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Lapa",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "4136221484",
+   "whatsapp": "41988446611",
+   "instagram": "",
+   "site": "https://santoantoniolapa.com.br",
+   "email": "santoantoniolapa@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Lapa",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "14:30",
+      "semanas": null,
+      "observacao": "Missa ao Sagrado Coração de Jesus"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Quarta-feira: missa e novena ou celebração e novena do Perpétuo Socorro às 7h, 9h, 10h30, 12h, 14h30, 17h30, 19h e 20h30. Terça: missa com bênção dos pães."
+   },
+   {
+    "id_banco": null,
+    "nome": "Santuário de São Benedito",
+    "tipo": "santuario",
+    "cidade": "Lapa",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Sebastião",
+    "tipo": "capela",
+    "cidade": "Lapa",
+    "localidade": "Espigãozinho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Lapa",
+    "localidade": "Faxinal dos Pintos",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora das Dores",
+    "tipo": "capela",
+    "cidade": "Lapa",
+    "localidade": "Campina das Dores",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Menino Jesus",
+    "tipo": "capela",
+    "cidade": "Lapa",
+    "localidade": "Espigão Branco",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Francisco de Assis",
+    "tipo": "capela",
+    "cidade": "Lapa",
+    "localidade": "Pedra Lisa",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Senhor Bom Jesus",
+    "tipo": "capela",
+    "cidade": "Lapa",
+    "localidade": "Fazenda dos Forjos",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São João Batista",
+    "tipo": "capela",
+    "cidade": "Lapa",
+    "localidade": "Floresta São João",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São João Paulo II",
+    "tipo": "capela",
+    "cidade": "Lapa",
+    "localidade": "João Paulo II",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Imaculada Conceição",
+    "tipo": "capela",
+    "cidade": "Lapa",
+    "localidade": "Faxinal dos Correas",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São João Batista",
+    "tipo": "capela",
+    "cidade": "Lapa",
+    "localidade": "Colônia Johanesdorf",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora da Luz",
+    "tipo": "capela",
+    "cidade": "Lapa",
+    "localidade": "Capão Bonito",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora do Perpétuo Socorro",
+    "tipo": "capela",
+    "cidade": "Lapa",
+    "localidade": "Vista Alegre",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Sagrado Coração de Jesus",
+    "tipo": "capela",
+    "cidade": "Lapa",
+    "localidade": "São Bento I",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora do Perpétuo Socorro",
+    "tipo": "capela",
+    "cidade": "Lapa",
+    "localidade": "São Bento II",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora das Graças",
+    "tipo": "capela",
+    "cidade": "Lapa",
+    "localidade": "Pinheiros",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Divino Espírito Santo",
+    "tipo": "capela",
+    "cidade": "Lapa",
+    "localidade": "Pedrinhas",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora das Graças",
+    "tipo": "capela",
+    "cidade": "Lapa",
+    "localidade": "Marafigo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Senhor Bom Jesus",
+    "tipo": "capela",
+    "cidade": "Lapa",
+    "localidade": "Colônia Municipal",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Sebastião",
+    "tipo": "capela",
+    "cidade": "Lapa",
+    "localidade": "Faxinal dos Pretos",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Miguel",
+    "tipo": "capela",
+    "cidade": "Lapa",
+    "localidade": "Passa Dois",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Lapa",
+    "localidade": "Km 202",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Lapa",
+    "localidade": "Capão Alto",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora de Fátima",
+    "tipo": "capela",
+    "cidade": "Lapa",
+    "localidade": "Estação Nova",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São José",
+    "tipo": "capela",
+    "cidade": "Lapa",
+    "localidade": "Vila São José",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Teresinha do Menino Jesus",
+    "tipo": "capela",
+    "cidade": "Lapa",
+    "localidade": "Vila do Príncipe",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Lapa",
+    "localidade": "Cohapar",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Menino Jesus",
+    "tipo": "capela",
+    "cidade": "Lapa",
+    "localidade": "Vila José Lacerda",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora dos Milagres",
+    "tipo": "capela",
+    "cidade": "Lapa",
+    "localidade": "Milagres",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Sebastião",
+    "tipo": "capela",
+    "cidade": "Lapa",
+    "localidade": "Vila Esperança",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São João Batista",
+    "tipo": "capela",
+    "cidade": "Lapa",
+    "localidade": "Faxinal dos Dias",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora da Conceição e Caridade",
+    "tipo": "capela",
+    "cidade": "Lapa",
+    "localidade": "Pedra Alta",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://santoantoniolapa.com.br/agenda-das-celebracoes",
+    "data": "2026-09-19",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://santoantoniolapa.com.br/contato",
+    "data": "2022-12-02",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://santoantoniolapa.com.br/capelas-da-paroquia-santo-antonio-da-lapa",
+    "data": "2025-01-09",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://gcatholic.org/churches/brazil/55757",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Site próprio da paróquia. As missas de domingo são no Santuário de São Benedito; as capelas têm escala mensal divulgada nas redes. Secretaria: Praça General Carneiro, 84. O site da diocese (diocesesjp.org.br) está em manutenção desde antes de 13/11/2026: sem lista oficial nem horários."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santos Reis",
+  "categoria": "paroquia",
+  "cidade": "Lapa",
+  "padroeiro": "Santos Reis",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz dos Santos Reis",
+    "tipo": "matriz",
+    "cidade": "Lapa",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://gcatholic.org/churches/brazil/55758",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Paróquia erigida em 08/02/2014. Lista conferida só no GCatholic. Sem horário publicado em fonte oficial alcançável."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Imaculada Conceição",
+  "categoria": "paroquia",
+  "cidade": "Lapa",
+  "padroeiro": "Imaculada Conceição",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz da Imaculada Conceição",
+    "tipo": "matriz",
+    "cidade": "Lapa",
+    "localidade": "Mariental",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://gcatholic.org/churches/brazil/55760",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sede no distrito de Mariental. Lista conferida só no GCatholic. Sem horário publicado em fonte oficial alcançável."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Senhor Bom Jesus",
+  "categoria": "paroquia",
+  "cidade": "Mandirituba",
+  "padroeiro": "Senhor Bom Jesus",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Senhor Bom Jesus",
+    "tipo": "matriz",
+    "cidade": "Mandirituba",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://gcatholic.org/churches/brazil/55759",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Lista conferida só no GCatholic. Sem horário publicado em fonte oficial alcançável."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora das Graças",
+  "categoria": "paroquia",
+  "cidade": "Piên",
+  "padroeiro": "Nossa Senhora das Graças",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora das Graças",
+    "tipo": "matriz",
+    "cidade": "Piên",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://gcatholic.org/churches/brazil/55762",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Lista conferida só no GCatholic. Sem horário publicado em fonte oficial alcançável."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Auxiliadora",
+  "categoria": "paroquia",
+  "cidade": "Piraquara",
+  "padroeiro": "Nossa Senhora Auxiliadora",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Auxiliadora",
+    "tipo": "matriz",
+    "cidade": "Piraquara",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://gcatholic.org/churches/brazil/55763",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Lista conferida só no GCatholic. Sem horário publicado em fonte oficial alcançável."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Senhor Bom Jesus dos Passos",
+  "categoria": "paroquia",
+  "cidade": "Piraquara",
+  "padroeiro": "Senhor Bom Jesus dos Passos",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Senhor Bom Jesus dos Passos",
+    "tipo": "matriz",
+    "cidade": "Piraquara",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://gcatholic.org/churches/brazil/55764",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Lista conferida só no GCatholic. Sem horário publicado em fonte oficial alcançável."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Perpétuo Socorro",
+  "categoria": "paroquia",
+  "cidade": "Piraquara",
+  "padroeiro": "Nossa Senhora do Perpétuo Socorro",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Perpétuo Socorro",
+    "tipo": "matriz",
+    "cidade": "Piraquara",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://gcatholic.org/churches/brazil/55765",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Lista conferida só no GCatholic. Sem horário publicado em fonte oficial alcançável."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "Quatro Barras",
+  "padroeiro": "São Sebastião",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Sebastião",
+    "tipo": "matriz",
+    "cidade": "Quatro Barras",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://gcatholic.org/churches/brazil/55766",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Lista conferida só no GCatholic. Sem horário publicado em fonte oficial alcançável."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Senhor Bom Jesus da Cana Verde",
+  "categoria": "paroquia",
+  "cidade": "Quitandinha",
+  "padroeiro": "Senhor Bom Jesus da Cana Verde",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Senhor Bom Jesus da Cana Verde",
+    "tipo": "matriz",
+    "cidade": "Quitandinha",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://gcatholic.org/churches/brazil/55767",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Lista conferida só no GCatholic. Sem horário publicado em fonte oficial alcançável."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Rio Negro",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Rio Negro",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://gcatholic.org/churches/brazil/55768",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Lista conferida só no GCatholic. Sem horário publicado em fonte oficial alcançável."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Senhor Bom Jesus da Coluna",
+  "categoria": "paroquia",
+  "cidade": "Rio Negro",
+  "padroeiro": "Senhor Bom Jesus da Coluna",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Senhor Bom Jesus da Coluna",
+    "tipo": "matriz",
+    "cidade": "Rio Negro",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://gcatholic.org/churches/brazil/55769",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Lista conferida só no GCatholic. Sem horário publicado em fonte oficial alcançável."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora das Dores",
+  "categoria": "paroquia",
+  "cidade": "Tijucas do Sul",
+  "padroeiro": "Nossa Senhora das Dores",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora das Dores",
+    "tipo": "matriz",
+    "cidade": "Tijucas do Sul",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://gcatholic.org/churches/brazil/55770",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Lista conferida só no GCatholic. Sem horário publicado em fonte oficial alcançável."
+ }
+]

@@ -1,0 +1,1355 @@
+[
+ {
+  "id_banco": null,
+  "nome": "Catedral Nossa Senhora do Livramento",
+  "categoria": "catedral",
+  "cidade": "Livramento de Nossa Senhora",
+  "padroeiro": "Nossa Senhora do Livramento",
+  "contatos": {
+   "telefone": "77999666618",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "catedrallivramento@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Catedral Nossa Senhora do Livramento",
+    "tipo": "matriz",
+    "cidade": "Livramento de Nossa Senhora",
+    "localidade": "Centro",
+    "endereco": "Praça Dom Hélio Paschoal, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade do Bairro São José",
+    "tipo": "comunidade",
+    "cidade": "Livramento de Nossa Senhora",
+    "localidade": "São José",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade do Bairro Estocada",
+    "tipo": "comunidade",
+    "cidade": "Livramento de Nossa Senhora",
+    "localidade": "Estocada",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade do Bairro Santa Teresinha",
+    "tipo": "comunidade",
+    "cidade": "Livramento de Nossa Senhora",
+    "localidade": "Santa Teresinha",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedelivramento.org/paroquianossasenhoradolivramento",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedelivramento.org/paroquianossasenhoradolivramento",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedelivramento.org/paroquias",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato Nossa Senhora do Livramento. Paróquia de 1868, segundo a diocese. A página dá só o bairro das missas fora da catedral, sem o nome da igreja."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Senhor Bom Jesus do Taquari",
+  "categoria": "paroquia",
+  "cidade": "Livramento de Nossa Senhora",
+  "padroeiro": "Senhor Bom Jesus do Taquari",
+  "contatos": {
+   "telefone": "77998347532",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "tsecretariaparoquial@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Senhor Bom Jesus do Taquari",
+    "tipo": "matriz",
+    "cidade": "Livramento de Nossa Senhora",
+    "localidade": "Taquari",
+    "endereco": "Rua Joaquim Manoel Alves, 155",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Torre do Bom Jesus",
+    "tipo": "capela",
+    "cidade": "Livramento de Nossa Senhora",
+    "localidade": "Taquari",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade do Bairro Benito Gama",
+    "tipo": "comunidade",
+    "cidade": "Livramento de Nossa Senhora",
+    "localidade": "Benito Gama",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedelivramento.org/paroquiasenhorbomjesustaquari",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedelivramento.org/paroquiasenhorbomjesustaquari",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedelivramento.org/paroquias",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato Nossa Senhora do Livramento. Paróquia de 2004, segundo a diocese. A Gruta do Bom Jesus do Taquari é inaugurada em 1964, diz a página."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santíssimo Sacramento",
+  "categoria": "paroquia",
+  "cidade": "Rio de Contas",
+  "padroeiro": "Santíssimo Sacramento",
+  "contatos": {
+   "telefone": "77981608134",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiadosantissimosacramento@yahoo.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Santíssimo Sacramento",
+    "tipo": "matriz",
+    "cidade": "Rio de Contas",
+    "localidade": "Centro",
+    "endereco": "Rua Barão do Rio Branco, 189",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedelivramento.org/paroquiasantissimosacramento",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedelivramento.org/paroquiasantissimosacramento",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedelivramento.org/paroquias",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Vicariato Nossa Senhora do Livramento. Paróquia de 1745, segundo a diocese. A página escreve só 'Domingo', sem a hora. Sem horário de missa na página da diocese (lida em 13/11/2026)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "Dom Basílio",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "77991448575",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasaojoaodb@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Batista",
+    "tipo": "matriz",
+    "cidade": "Dom Basílio",
+    "localidade": "Centro",
+    "endereco": "Praça São João, 23",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedelivramento.org/paroquiadombasilio",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedelivramento.org/paroquiadombasilio",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedelivramento.org/paroquias",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Vicariato Nossa Senhora do Livramento. Paróquia de 1962, segundo a diocese. Horário 'Em breve' na página. Sem horário de missa na página da diocese (lida em 13/11/2026)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Bom Jesus",
+  "categoria": "paroquia",
+  "cidade": "Barra da Estiva",
+  "padroeiro": "Bom Jesus",
+  "contatos": {
+   "telefone": "77998373689",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "pbjbarradaestiva@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Bom Jesus",
+    "tipo": "matriz",
+    "cidade": "Barra da Estiva",
+    "localidade": "Centro",
+    "endereco": "Travessa Antônio Alves da Silva, 855-B",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedelivramento.org/paroquiabomjesusdebarradaestiva",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedelivramento.org/paroquiabomjesusdebarradaestiva",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedelivramento.org/paroquias",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato Imaculada Conceição. Paróquia de 1967, segundo a diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "Mucugê",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "75982961013",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "matrizsaojoaobatista@outlook.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Isabel",
+    "tipo": "matriz",
+    "cidade": "Mucugê",
+    "localidade": "Centro Histórico",
+    "endereco": "Praça Santa Izabel, 77",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Igreja de Nossa Senhora do Rosário",
+    "tipo": "capela",
+    "cidade": "Mucugê",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedelivramento.org/paroquiadesaojoaobatistademucuge",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedelivramento.org/paroquiadesaojoaobatistademucuge",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedelivramento.org/paroquias",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato Imaculada Conceição. Paróquia de 1855, segundo a diocese. A matriz é a Igreja de Santa Isabel, na Praça Santa Izabel."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Iramaia",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "77991942109",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiadeiramaia@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Iramaia",
+    "localidade": "Centro",
+    "endereco": "Rua Santo Antônio, 12",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedelivramento.org/paroquiasantoantoniodeiramaia",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedelivramento.org/paroquiasantoantoniodeiramaia",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedelivramento.org/paroquias",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato Imaculada Conceição. Paróquia de 1967, segundo a diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Bento",
+  "categoria": "paroquia",
+  "cidade": "Ibicoara",
+  "padroeiro": "São Bento",
+  "contatos": {
+   "telefone": "77981554875",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "psbibicoara@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Bento",
+    "tipo": "matriz",
+    "cidade": "Ibicoara",
+    "localidade": "Centro",
+    "endereco": "Rua Padre Alberto Rezende, 19",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade do Bairro Canjerana",
+    "tipo": "comunidade",
+    "cidade": "Ibicoara",
+    "localidade": "Canjerana",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedelivramento.org/paroquiasaobentodoibicoara",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedelivramento.org/paroquiasaobentodoibicoara",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedelivramento.org/paroquias",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato Imaculada Conceição. Paróquia de 1967, segundo a diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "Contendas do Sincorá",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "77981245624",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiacontendas@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Batista",
+    "tipo": "matriz",
+    "cidade": "Contendas do Sincorá",
+    "localidade": "",
+    "endereco": "Praça Doutor Rivadávia Correia, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedelivramento.org/paroquiadesaojoaobatistadecontenda",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedelivramento.org/paroquiadesaojoaobatistadecontenda",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedelivramento.org/paroquias",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato Nossa Senhora do Alívio. Paróquia de 1967, segundo a diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Perpétuo Socorro",
+  "categoria": "paroquia",
+  "cidade": "Tanhaçu",
+  "padroeiro": "Nossa Senhora do Perpétuo Socorro",
+  "contatos": {
+   "telefone": "77998688647",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "pnspstanhacu@outlook.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Perpétuo Socorro",
+    "tipo": "matriz",
+    "cidade": "Tanhaçu",
+    "localidade": "Centro",
+    "endereco": "Praça Luís Eduardo Magalhães, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedelivramento.org/c%C3%B3pia-par%C3%B3quia-de-s%C3%A3o-jo%C3%A3o-batista-d-1",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedelivramento.org/c%C3%B3pia-par%C3%B3quia-de-s%C3%A3o-jo%C3%A3o-batista-d-1",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedelivramento.org/paroquias",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato Nossa Senhora do Alívio. Paróquia de 1962, segundo a diocese. No site, a página desta paróquia tem endereço de cópia (cópia-paróquia-de-são-joão-batista-d-1), mas o conteúdo é de Tanhaçu."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Alívio",
+  "categoria": "paroquia",
+  "cidade": "Ituaçu",
+  "padroeiro": "Nossa Senhora do Alívio",
+  "contatos": {
+   "telefone": "77981364794",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "nossasenhoradoalivio@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Alívio",
+    "tipo": "matriz",
+    "cidade": "Ituaçu",
+    "localidade": "Centro",
+    "endereco": "Praça da Matriz, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedelivramento.org/paroquianossasradoaliviodeituacu",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedelivramento.org/paroquianossasradoaliviodeituacu",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedelivramento.org/paroquias",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Vicariato Nossa Senhora do Alívio. Paróquia de 1861, segundo a diocese. Atendida pelos estigmatinos (CSS). A página escreve só 'Domingo', sem a hora. Sem horário de missa na página da diocese (lida em 13/11/2026)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Senhor Bom Jesus",
+  "categoria": "paroquia",
+  "cidade": "Piatã",
+  "padroeiro": "Senhor Bom Jesus",
+  "contatos": {
+   "telefone": "77991978886",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiabomjesusdepiata@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Senhor Bom Jesus",
+    "tipo": "matriz",
+    "cidade": "Piatã",
+    "localidade": "Centro",
+    "endereco": "Praça Vigário Souza, 28",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedelivramento.org/paroquiasenhorbomjesusdepiata",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedelivramento.org/paroquiasenhorbomjesusdepiata",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedelivramento.org/paroquias",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato Nossa Senhora do Rosário. Paróquia de 1842, segundo a diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Saúde",
+  "categoria": "paroquia",
+  "cidade": "Abaíra",
+  "padroeiro": "Nossa Senhora da Saúde",
+  "contatos": {
+   "telefone": "7734762324",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiaabaira@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Saúde",
+    "tipo": "matriz",
+    "cidade": "Abaíra",
+    "localidade": "",
+    "endereco": "Praça Francisco Pereira, 48",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedelivramento.org/paroquiansradasaudedesbaira",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedelivramento.org/paroquiansradasaudedesbaira",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedelivramento.org/paroquias",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato Nossa Senhora do Rosário. Paróquia de 1967, segundo a diocese. Outro telefone: (77) 98125-3678."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Saúde",
+  "categoria": "paroquia",
+  "cidade": "Jussiape",
+  "padroeiro": "Nossa Senhora da Saúde",
+  "contatos": {
+   "telefone": "77991294150",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiajussiape@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Saúde",
+    "tipo": "matriz",
+    "cidade": "Jussiape",
+    "localidade": "Centro",
+    "endereco": "Rua Castro Alves, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedelivramento.org/paroquiansradasaudedejussiape",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedelivramento.org/paroquiansradasaudedejussiape",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedelivramento.org/paroquias",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato Nossa Senhora do Rosário. Paróquia de 1963, segundo a diocese. A matriz fica na Praça Rodrigo Alves Teixeira, diz o histórico; 20 comunidades."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Senhor do Bonfim",
+  "categoria": "paroquia",
+  "cidade": "Boninal",
+  "padroeiro": "Senhor do Bonfim",
+  "contatos": {
+   "telefone": "75991193917",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "psbboninal@outlook.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Senhor do Bonfim",
+    "tipo": "matriz",
+    "cidade": "Boninal",
+    "localidade": "Centro",
+    "endereco": "Praça da Matriz, 10",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedelivramento.org/paroquiasenhordobonfimdeboninal",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedelivramento.org/paroquiasenhordobonfimdeboninal",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedelivramento.org/paroquias",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato Nossa Senhora do Rosário. Paróquia de 1967, segundo a diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Paulo Apóstolo",
+  "categoria": "paroquia",
+  "cidade": "Novo Horizonte",
+  "padroeiro": "São Paulo Apóstolo",
+  "contatos": {
+   "telefone": "75992780448",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasaopauloapostulonh@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Paulo Apóstolo",
+    "tipo": "matriz",
+    "cidade": "Novo Horizonte",
+    "localidade": "",
+    "endereco": "Rua Hermínio José dos Santos, 1",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedelivramento.org/paroquiasaopaulo",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedelivramento.org/paroquiasaopaulo",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedelivramento.org/paroquias",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato Nossa Senhora do Carmo. Paróquia de 2013, segundo a diocese. 24 comunidades, diz a página."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Paramirim",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "77999426546",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "secretariaparoquialparamirim@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Paramirim",
+    "localidade": "Centro",
+    "endereco": "Avenida Centenário, 571",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedelivramento.org/paroquiasantoantoniodoparamirim",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedelivramento.org/paroquiasantoantoniodoparamirim",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedelivramento.org/paroquias",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato Nossa Senhora do Carmo. Paróquia de 1881, segundo a diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Carmo",
+  "categoria": "paroquia",
+  "cidade": "Érico Cardoso",
+  "padroeiro": "Nossa Senhora do Carmo",
+  "contatos": {
+   "telefone": "77981098726",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiadeericocardoso@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Carmo",
+    "tipo": "matriz",
+    "cidade": "Érico Cardoso",
+    "localidade": "Centro",
+    "endereco": "Praça da Matriz, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedelivramento.org/paroquiansradocarmodeericocardoso",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedelivramento.org/paroquiansradocarmodeericocardoso",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedelivramento.org/paroquias",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Vicariato Nossa Senhora do Carmo. Paróquia de 1967, segundo a diocese. Horário 'Em breve' na página. Sem horário de missa na página da diocese (lida em 13/11/2026)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Senhor do Bonfim",
+  "categoria": "paroquia",
+  "cidade": "Rio do Pires",
+  "padroeiro": "Senhor do Bonfim",
+  "contatos": {
+   "telefone": "77991417630",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquia.deriodopires@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Senhor do Bonfim",
+    "tipo": "matriz",
+    "cidade": "Rio do Pires",
+    "localidade": "Centro",
+    "endereco": "Praça Ângelo Marques Filho, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedelivramento.org/paroquiasenhordobonfimderiodopires",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedelivramento.org/paroquiasenhordobonfimderiodopires",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedelivramento.org/paroquias",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Vicariato Nossa Senhora do Carmo. Paróquia de 1906, segundo a diocese. Horário 'Em breve' na página. Nasceu como Freguesia de Santa Maria do Ouro, no hoje distrito de Ibiajara. Sem horário de missa na página da diocese (lida em 13/11/2026)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Luzia",
+  "categoria": "paroquia",
+  "cidade": "Ibipitanga",
+  "padroeiro": "Santa Luzia",
+  "contatos": {
+   "telefone": "77991226898",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasantaluzia13@outlook.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Luzia",
+    "tipo": "matriz",
+    "cidade": "Ibipitanga",
+    "localidade": "Centro",
+    "endereco": "Praça da Matriz, 100",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "06:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedelivramento.org/paroquiadesantaluziadeibipitanga",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedelivramento.org/paroquiadesantaluziadeibipitanga",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedelivramento.org/paroquias",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato Nossa Senhora do Carmo. Paróquia de 1962, segundo a diocese. 26 comunidades, diz a página."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Bom Sucesso",
+  "categoria": "paroquia",
+  "cidade": "Ibitiara",
+  "padroeiro": "Nossa Senhora do Bom Sucesso",
+  "contatos": {
+   "telefone": "7736472130",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiaibiti17@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Bom Sucesso",
+    "tipo": "matriz",
+    "cidade": "Ibitiara",
+    "localidade": "Centro",
+    "endereco": "Avenida Ipiranga, 184",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedelivramento.org/paroquiansradobomsucessodeibitiar",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedelivramento.org/paroquiansradobomsucessodeibitiar",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedelivramento.org/paroquias",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Vicariato Nossa Senhora do Carmo. Paróquia de 1877, segundo a diocese. Outro telefone: (77) 99188-0650."
+ }
+]

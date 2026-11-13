@@ -1,0 +1,3040 @@
+[
+ {
+  "id_banco": null,
+  "nome": "Catedral de São Pedro",
+  "categoria": "catedral",
+  "cidade": "Rio Grande",
+  "padroeiro": "São Pedro",
+  "contatos": {
+   "telefone": "5332328696",
+   "whatsapp": "",
+   "instagram": "catedralpedro",
+   "site": "http://www.catedraldesaopedro.com.br",
+   "email": "catedralsaopedro@vetorial.net"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Catedral de São Pedro",
+    "tipo": "matriz",
+    "cidade": "Rio Grande",
+    "localidade": "Centro",
+    "endereco": "Rua General Bacelar, 440",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "12:10",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "12:10",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "12:10",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "12:10",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "12:10",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": "Missa da saúde"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "20:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Em janeiro e fevereiro, domingo às 9h e 19h."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedoriogrande.com.br/area/7/CatedraldeSaoPedro",
+    "data": "",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedoriogrande.com.br/area/7/CatedraldeSaoPedro",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Setor Centro da diocese. Outro telefone publicado: (53) 99909.8696. O site da catedral respondeu com erro (520) em 13/11/2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Carmo",
+  "categoria": "paroquia",
+  "cidade": "Rio Grande",
+  "padroeiro": "Nossa Senhora do Carmo",
+  "contatos": {
+   "telefone": "5330357987",
+   "whatsapp": "5330357987",
+   "instagram": "",
+   "site": "",
+   "email": "carmo100@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Carmo",
+    "tipo": "matriz",
+    "cidade": "Rio Grande",
+    "localidade": "Centro",
+    "endereco": "Rua General Bacelar, 224",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Mosteiro São José",
+    "tipo": "comunidade",
+    "cidade": "Rio Grande",
+    "localidade": "Centro",
+    "endereco": "Rua Andradas, 358",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedoriogrande.com.br/area/4/ParoquiaNossaSenhoradoCarmo",
+    "data": "",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedoriogrande.com.br/area/4/ParoquiaNossaSenhoradoCarmo",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Setor Centro da diocese. Carmelitas Descalços (OCD)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nosso Senhor do Bom Fim",
+  "categoria": "paroquia",
+  "cidade": "Rio Grande",
+  "padroeiro": "Nosso Senhor do Bom Fim",
+  "contatos": {
+   "telefone": "5330353521",
+   "whatsapp": "53999055025",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiabomfim@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nosso Senhor do Bom Fim",
+    "tipo": "matriz",
+    "cidade": "Rio Grande",
+    "localidade": "Centro",
+    "endereco": "Rua Duque de Caxias, 542",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "11:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Adoração ao Santíssimo toda quinta-feira, depois da missa das 18h."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora dos Navegantes",
+    "tipo": "comunidade",
+    "cidade": "Rio Grande",
+    "localidade": "Lar Gaúcho",
+    "endereco": "Rua Dr. Isnard Poester Peixoto, 236",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Núcleo Jesus Misericordioso",
+    "tipo": "comunidade",
+    "cidade": "Rio Grande",
+    "localidade": "Dom Bosquinho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Missa de sexta às 15h temporariamente suspensa."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedoriogrande.com.br/area/3/ParoquiaNossoSenhordoBomFim",
+    "data": "",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedoriogrande.com.br/area/3/ParoquiaNossoSenhordoBomFim",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Setor Centro da diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Fátima",
+  "categoria": "paroquia",
+  "cidade": "Rio Grande",
+  "padroeiro": "Nossa Senhora do Rosário de Fátima",
+  "contatos": {
+   "telefone": "5330353075",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "santuariodefatimarg@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário Nossa Senhora do Rosário de Fátima",
+    "tipo": "santuario",
+    "cidade": "Rio Grande",
+    "localidade": "Centro",
+    "endereco": "Rua General Canabarro, 401",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 2,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": "A partir das 15h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": "A partir das 15h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "17:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "17:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 6,
+      "hora": "17:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 0,
+      "hora": "17:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedoriogrande.com.br/area/11/SantuarioNossaSenhoradeFatima",
+    "data": "",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedoriogrande.com.br/area/11/SantuarioNossaSenhoradeFatima",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Setor Centro da diocese. A matriz é santuário diocesano; Facebook @snsrafatima."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Penha",
+  "categoria": "paroquia",
+  "cidade": "Rio Grande",
+  "padroeiro": "Nossa Senhora da Penha",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "53999286463",
+   "instagram": "",
+   "site": "",
+   "email": "snpenha@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Penha",
+    "tipo": "matriz",
+    "cidade": "Rio Grande",
+    "localidade": "Vila da Quinta",
+    "endereco": "Rua Coronel Salgado, 827",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": "Missa da saúde"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": "Com novena perpétua de N. Sra. da Penha"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora das Necessidades",
+    "tipo": "capela",
+    "cidade": "Rio Grande",
+    "localidade": "Povo Novo",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora da Conceição",
+    "tipo": "capela",
+    "cidade": "Rio Grande",
+    "localidade": "Capilha, Taim",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "16:00",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Bárbara",
+    "tipo": "capela",
+    "cidade": "Rio Grande",
+    "localidade": "Arraial",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "15:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Luzia",
+    "tipo": "capela",
+    "cidade": "Rio Grande",
+    "localidade": "Quitéria",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora das Graças",
+    "tipo": "capela",
+    "cidade": "Rio Grande",
+    "localidade": "Domingos Petroline",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "15:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Auxiliadora",
+    "tipo": "capela",
+    "cidade": "Rio Grande",
+    "localidade": "Palma",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:30",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Cruz",
+    "tipo": "capela",
+    "cidade": "Rio Grande",
+    "localidade": "Ilha dos Marinheiros",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "14:30",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora da Saúde",
+    "tipo": "capela",
+    "cidade": "Rio Grande",
+    "localidade": "Ilha dos Marinheiros",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:00",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora de Fátima",
+    "tipo": "capela",
+    "cidade": "Rio Grande",
+    "localidade": "Ilha do Leonídio",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:30",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Rio Grande",
+    "localidade": "Banhado Silveira",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "15:00",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora de Lourdes",
+    "tipo": "capela",
+    "cidade": "Rio Grande",
+    "localidade": "Ilha da Torotama",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Francisco de Assis",
+    "tipo": "capela",
+    "cidade": "Rio Grande",
+    "localidade": "Vila Nova, Quinta",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "18:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Rio Grande",
+    "localidade": "Vila Santo Antônio, Quinta",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "16:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora de Fátima",
+    "tipo": "capela",
+    "cidade": "Rio Grande",
+    "localidade": "Barra Falsa",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "10:00",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Cecília",
+    "tipo": "capela",
+    "cidade": "Rio Grande",
+    "localidade": "Pesqueiro",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "14:00",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São João Batista",
+    "tipo": "capela",
+    "cidade": "Rio Grande",
+    "localidade": "Ilha dos Marinheiros",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "15:00",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedoriogrande.com.br/area/16/ParoquiaNossaSenhoradaPenha",
+    "data": "",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedoriogrande.com.br/area/16/ParoquiaNossaSenhoradaPenha",
+    "data": "",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedoriogrande.com.br/paroquia/2941/capelanossasenhoradelourdesilhadatorotama",
+    "data": "2026-10-24",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Setor BR da diocese. 17 comunidades no interior do município (Quinta, Povo Novo, Taim, ilhas)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sagrada Família",
+  "categoria": "paroquia",
+  "cidade": "Rio Grande",
+  "padroeiro": "Sagrada Família",
+  "contatos": {
+   "telefone": "5332361576",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "sagradafamiliacassino@vetorial.net"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz da Sagrada Família",
+    "tipo": "matriz",
+    "cidade": "Rio Grande",
+    "localidade": "Cassino",
+    "endereco": "Av. Rio Grande, 339",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": "Fora do verão"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": "Fora do verão"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": "Fora do verão"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "18:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Fora do verão"
+     }
+    ],
+    "nao_cabe": "Verão (17/12 até a Quarta-feira de Cinzas): segunda a sábado às 19h; domingo às 8h, 19h e 21h. Fora do verão, também nos dias 12 e 18 de cada mês às 18h (exceto quando caem na quarta-feira)."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora de Fátima",
+    "tipo": "capela",
+    "cidade": "Rio Grande",
+    "localidade": "ABC VIII",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Domingo às 9h, missa ou celebração (a fonte não distingue)."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Rainha da Paz",
+    "tipo": "capela",
+    "cidade": "Rio Grande",
+    "localidade": "Parque Guanabara",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Domingo às 9h, missa ou celebração (a fonte não distingue)."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Imaculada Conceição",
+    "tipo": "capela",
+    "cidade": "Rio Grande",
+    "localidade": "Querência",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Domingo às 9h, missa ou celebração (a fonte não distingue)."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Francisco de Assis",
+    "tipo": "capela",
+    "cidade": "Rio Grande",
+    "localidade": "Bolaxa",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Domingo às 9h, missa ou celebração (a fonte não distingue)."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São João Batista",
+    "tipo": "capela",
+    "cidade": "Rio Grande",
+    "localidade": "Camping",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Domingo às 9h, missa ou celebração (a fonte não distingue)."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedoriogrande.com.br/area/5/ParoquiaSagradaFamiliaCassino",
+    "data": "",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedoriogrande.com.br/area/5/ParoquiaSagradaFamiliaCassino",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Setor BR da diocese. Paróquia do balneário Cassino; horários diferentes no verão."
+ },
+ {
+  "id_banco": null,
+  "nome": "Área Pastoral Rede de Comunidades Nossa Senhora Medianeira de Todas as Graças",
+  "categoria": "area_pastoral",
+  "cidade": "Rio Grande",
+  "padroeiro": "Nossa Senhora Medianeira de Todas as Graças",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Medianeira de Todas as Graças",
+    "tipo": "matriz",
+    "cidade": "Rio Grande",
+    "localidade": "Parque Marinha do Brasil",
+    "endereco": "Rua Ilha Fernando de Noronha, 205",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "11:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Rita de Cássia",
+    "tipo": "capela",
+    "cidade": "Rio Grande",
+    "localidade": "Parque São Pedro",
+    "endereco": "Rua Arquiteto Edson de Souza Mendonça, 157",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São João Paulo II",
+    "tipo": "capela",
+    "cidade": "Rio Grande",
+    "localidade": "Boa Vista I",
+    "endereco": "Rua 2, 104",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Rio Grande",
+    "localidade": "Senandes",
+    "endereco": "Av. Engª Lucia Maria Balbella Chiesa, 5791",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Missa também no dia 13 de cada mês às 19h."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedoriogrande.com.br/area/23/RededeComunidadesNossaSenhoraMedianeiradeTodasasGracas",
+    "data": "",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedoriogrande.com.br/area/23/RededeComunidadesNossaSenhoraMedianeiradeTodasasGracas",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Setor BR da diocese. 'Área de Administração Pastoral' com administrador paroquial; 4 comunidades. A fonte não traz telefone nem e-mail."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Tavares",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "51997814825",
+   "instagram": "san_toantonio2022",
+   "site": "",
+   "email": "santo17.tavares@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Tavares",
+    "localidade": "",
+    "endereco": "Av. Padre Simão Moser, 220",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Capela Santa Inês, sem lugar na fonte."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São José",
+    "tipo": "capela",
+    "cidade": "Tavares",
+    "localidade": "Tapera",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Luiz Gonzaga",
+    "tipo": "capela",
+    "cidade": "Tavares",
+    "localidade": "Capororocas",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora de Fátima",
+    "tipo": "capela",
+    "cidade": "Tavares",
+    "localidade": "Butiá",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São João Batista",
+    "tipo": "capela",
+    "cidade": "Tavares",
+    "localidade": "Posto",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Rita de Cássia",
+    "tipo": "capela",
+    "cidade": "Tavares",
+    "localidade": "Campo da Honra",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedoriogrande.com.br/area/21/ParoquiaSantoAntonio",
+    "data": "",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedoriogrande.com.br/area/21/ParoquiaSantoAntonio",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Setor Norte da diocese. O GCatholic grafa a cidade como 'Taveres'."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José",
+  "categoria": "paroquia",
+  "cidade": "São José do Norte",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "53991012469",
+   "whatsapp": "",
+   "instagram": "paroquiasaojosesjn",
+   "site": "",
+   "email": "paroquiasaojosedonorte@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José",
+    "tipo": "matriz",
+    "cidade": "São José do Norte",
+    "localidade": "Centro",
+    "endereco": "Rua XV de Novembro, 78",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Bom Jesus de Iguape",
+    "tipo": "capela",
+    "cidade": "São José do Norte",
+    "localidade": "Passinho",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Jesus de Nazaré",
+    "tipo": "capela",
+    "cidade": "São José do Norte",
+    "localidade": "Comendador Carlos Santos",
+    "endereco": "Rua Quatro, 248",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "10:00",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "18:00",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Menino Deus",
+    "tipo": "capela",
+    "cidade": "São José do Norte",
+    "localidade": "Retovado",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "São José do Norte",
+    "localidade": "Capão da Areia",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Missa na 4ª sexta-feira do mês, sem hora na fonte."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora da Conceição",
+    "tipo": "capela",
+    "cidade": "São José do Norte",
+    "localidade": "Estreito",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "15:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora da Conceição",
+    "tipo": "capela",
+    "cidade": "São José do Norte",
+    "localidade": "Bujuru",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "17:00",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora de Fátima",
+    "tipo": "capela",
+    "cidade": "São José do Norte",
+    "localidade": "Capivaras",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora de Lourdes",
+    "tipo": "capela",
+    "cidade": "São José do Norte",
+    "localidade": "Divisa",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "15:00",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora de Lourdes",
+    "tipo": "capela",
+    "cidade": "São José do Norte",
+    "localidade": "Brasília",
+    "endereco": "Rua Nossa Senhora de Lourdes, 50",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "10:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora da Saúde",
+    "tipo": "capela",
+    "cidade": "São José do Norte",
+    "localidade": "Pontal da Barra",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "15:00",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora da Boa Viagem",
+    "tipo": "capela",
+    "cidade": "São José do Norte",
+    "localidade": "Povoação da Barra",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "16:00",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora das Graças",
+    "tipo": "capela",
+    "cidade": "São José do Norte",
+    "localidade": "Barranco",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "15:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora do Perpétuo Socorro",
+    "tipo": "capela",
+    "cidade": "São José do Norte",
+    "localidade": "Cidade Baixa",
+    "endereco": "Rua Mario Pereira Leandro, 420",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:30",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Sagrada Família",
+    "tipo": "capela",
+    "cidade": "São José do Norte",
+    "localidade": "Gravatá",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:30",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Sagrado Coração de Jesus",
+    "tipo": "capela",
+    "cidade": "São José do Norte",
+    "localidade": "Várzea",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "17:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Bárbara",
+    "tipo": "capela",
+    "cidade": "São José do Norte",
+    "localidade": "Canastreiro",
+    "endereco": "Rua Três, 200",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "20:00",
+      "semanas": [
+       2,
+       4
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "20:30",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Rita",
+    "tipo": "capela",
+    "cidade": "São José do Norte",
+    "localidade": "Veneza",
+    "endereco": "Rua Edgard Pereira Velho, 630",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Terezinha",
+    "tipo": "capela",
+    "cidade": "São José do Norte",
+    "localidade": "Pontal da Barra",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "15:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santo Antônio",
+    "tipo": "capela",
+    "cidade": "São José do Norte",
+    "localidade": "Turpim",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "15:00",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Caetano",
+    "tipo": "capela",
+    "cidade": "São José do Norte",
+    "localidade": "São Caetano",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Francisco de Assis",
+    "tipo": "capela",
+    "cidade": "São José do Norte",
+    "localidade": "Praia do Mar Grosso",
+    "endereco": "Rua Dois, 135",
+    "horarios": [],
+    "nao_cabe": "Missa só no veraneio, de dezembro a fevereiro, sem hora na fonte."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Francisco de Paula",
+    "tipo": "capela",
+    "cidade": "São José do Norte",
+    "localidade": "Capão do Meio",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:30",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Luiz Gonzaga",
+    "tipo": "capela",
+    "cidade": "São José do Norte",
+    "localidade": "Saraiva",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "17:00",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Pedro",
+    "tipo": "capela",
+    "cidade": "São José do Norte",
+    "localidade": "Quinta Secção da Barra",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedoriogrande.com.br/area/13/ParoquiaSaoJoseSaoJosedoNorte",
+    "data": "",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedoriogrande.com.br/area/13/ParoquiaSaoJoseSaoJosedoNorte",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Setor Norte da diocese. A página diz 25 capelas e lista 24; nas capelas, além da missa mensal, há celebração da Palavra semanal (não listada aqui)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Luiz Rei",
+  "categoria": "paroquia",
+  "cidade": "Mostardas",
+  "padroeiro": "São Luís, Rei de França",
+  "contatos": {
+   "telefone": "5136731242",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "matrizsaoluizrei@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Luiz Rei",
+    "tipo": "matriz",
+    "cidade": "Mostardas",
+    "localidade": "",
+    "endereco": "Rua Luiz Araújo, 855",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Menino Jesus de Praga",
+    "tipo": "capela",
+    "cidade": "Mostardas",
+    "localidade": "",
+    "endereco": "Avenida Dr. Dinarte Silveira Martins",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora das Graças",
+    "tipo": "capela",
+    "cidade": "Mostardas",
+    "localidade": "Rincão",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "15:00",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Cristóvão",
+    "tipo": "capela",
+    "cidade": "Mostardas",
+    "localidade": "Valim",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "15:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora do Rosário",
+    "tipo": "capela",
+    "cidade": "Mostardas",
+    "localidade": "Teixeiras",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "14:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora de Lourdes",
+    "tipo": "capela",
+    "cidade": "Mostardas",
+    "localidade": "São Simão",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Três Mártires",
+    "tipo": "capela",
+    "cidade": "Mostardas",
+    "localidade": "Povos",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "15:00",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Simão Stock",
+    "tipo": "capela",
+    "cidade": "Mostardas",
+    "localidade": "Praia de São Simão",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Sagrado Coração de Maria",
+    "tipo": "capela",
+    "cidade": "Mostardas",
+    "localidade": "Beco do Vô Gilico, Solidão",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "15:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Sagrado Coração de Jesus",
+    "tipo": "capela",
+    "cidade": "Mostardas",
+    "localidade": "Solidão",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "16:30",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora de Fátima",
+    "tipo": "capela",
+    "cidade": "Mostardas",
+    "localidade": "Barros",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "14:30",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Mostardas",
+    "localidade": "Casca",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "16:00",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora dos Navegantes",
+    "tipo": "capela",
+    "cidade": "Mostardas",
+    "localidade": "Balneário Mostardense",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Missa de janeiro a março, sábado às 20h."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedoriogrande.com.br/area/14/ParoquiaSaoLuizRei",
+    "data": "",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedoriogrande.com.br/area/14/ParoquiaSaoLuizRei",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Setor Norte da diocese. Nas capelas há também celebrações da Palavra; a de Menino Jesus de Praga, nos outros domingos às 10h15."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Vitória",
+  "categoria": "paroquia",
+  "cidade": "Santa Vitória do Palmar",
+  "padroeiro": "Santa Vitória",
+  "contatos": {
+   "telefone": "5332631859",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasantavitoria@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Vitória",
+    "tipo": "matriz",
+    "cidade": "Santa Vitória do Palmar",
+    "localidade": "",
+    "endereco": "Rua Mirapalhete, 1714",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "18:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "18:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Adoração ao Santíssimo toda quinta-feira, depois da missa das 18h15."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Sagrada Família",
+    "tipo": "capela",
+    "cidade": "Santa Vitória do Palmar",
+    "localidade": "Donatos",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "18:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Pedro",
+    "tipo": "capela",
+    "cidade": "Santa Vitória do Palmar",
+    "localidade": "Coxilha",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "18:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora de Lourdes",
+    "tipo": "capela",
+    "cidade": "Santa Vitória do Palmar",
+    "localidade": "Vitoriense",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "18:30",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Rita de Cássia",
+    "tipo": "capela",
+    "cidade": "Santa Vitória do Palmar",
+    "localidade": "Brasilano",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "18:30",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora de Fátima",
+    "tipo": "capela",
+    "cidade": "Santa Vitória do Palmar",
+    "localidade": "Jacinto",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "18:30",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora dos Navegantes",
+    "tipo": "capela",
+    "cidade": "Santa Vitória do Palmar",
+    "localidade": "Porto",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Missa na última quinta-feira do mês às 18h30."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora dos Navegantes",
+    "tipo": "capela",
+    "cidade": "Santa Vitória do Palmar",
+    "localidade": "Hermenegildo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Missa em janeiro e fevereiro, todos os domingos às 20h."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Santa Vitória do Palmar",
+    "localidade": "Barra do Chuí",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Missa em janeiro e fevereiro, todos os sábados às 20h."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Terezinha",
+    "tipo": "capela",
+    "cidade": "Chuí",
+    "localidade": "Chuí",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedoriogrande.com.br/area/15/ParoquiaSantaVitoria",
+    "data": "",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedoriogrande.com.br/area/15/ParoquiaSantaVitoria",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Setor Sul da diocese. A capela de Chuí aparece nesta paróquia; o menu da diocese tem também uma 'Pastoral do Chuí' com página vazia."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sagrada Família",
+  "categoria": "paroquia",
+  "cidade": "Rio Grande",
+  "padroeiro": "Sagrada Família",
+  "contatos": {
+   "telefone": "53999080817",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "sfcidade@outlook.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz da Sagrada Família",
+    "tipo": "matriz",
+    "cidade": "Rio Grande",
+    "localidade": "Cidade Nova",
+    "endereco": "Av. Cidade de Pelotas, 355",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": "Adoração e terço"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora de Lourdes",
+    "tipo": "capela",
+    "cidade": "Rio Grande",
+    "localidade": "Lagoa",
+    "endereco": "Rua Henrique Pancada, 730",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:30",
+      "semanas": [
+       2,
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "No 1º, 3º e 5º sábado às 16h30, celebração da Palavra."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedoriogrande.com.br/area/10/ParoquiaSagradaFamiliaCidade",
+    "data": "",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedoriogrande.com.br/area/10/ParoquiaSagradaFamiliaCidade",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Setor Cidade Nova da diocese. Paróquia Sagrada Família da Cidade (não confundir com a do Cassino)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José Operário",
+  "categoria": "paroquia",
+  "cidade": "Rio Grande",
+  "padroeiro": "São José Operário",
+  "contatos": {
+   "telefone": "53991950985",
+   "whatsapp": "53991950985",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiajo@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José Operário",
+    "tipo": "matriz",
+    "cidade": "Rio Grande",
+    "localidade": "Cohab II",
+    "endereco": "Rua Casemiro de Abreu, 460, esquina Rua Bento Gonçalves",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "17:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Imaculado Coração de Maria",
+    "tipo": "capela",
+    "cidade": "Rio Grande",
+    "localidade": "Parque",
+    "endereco": "Avenida Presidente Vargas, 681",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Cristóvão",
+    "tipo": "capela",
+    "cidade": "Rio Grande",
+    "localidade": "Hidráulica",
+    "endereco": "Rua Caldas Junior, 812",
+    "horarios": [],
+    "nao_cabe": "Atividades sendo realizadas na matriz."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora do Perpétuo Socorro",
+    "tipo": "capela",
+    "cidade": "Rio Grande",
+    "localidade": "Rural",
+    "endereco": "Rua Gustavo Sampaio, 324",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "17:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora das Graças",
+    "tipo": "capela",
+    "cidade": "Rio Grande",
+    "localidade": "Buchholz",
+    "endereco": "Rua República do Salvador, 688",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedoriogrande.com.br/area/12/ParoquiaSaoJoseOperario",
+    "data": "",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedoriogrande.com.br/area/12/ParoquiaSaoJoseOperario",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Setor Cidade Nova da diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Jorge",
+  "categoria": "paroquia",
+  "cidade": "Rio Grande",
+  "padroeiro": "São Jorge",
+  "contatos": {
+   "telefone": "5332017443",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Jorge",
+    "tipo": "matriz",
+    "cidade": "Rio Grande",
+    "localidade": "Vila Junção",
+    "endereco": "Rua Pinto Bandeira, 220",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Vicente de Paulo",
+    "tipo": "comunidade",
+    "cidade": "Rio Grande",
+    "localidade": "Vila Junção",
+    "endereco": "Rua Pinto Bandeira, 1535",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Mãe Peregrina",
+    "tipo": "comunidade",
+    "cidade": "Rio Grande",
+    "localidade": "Condomínio Maria Carmem",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": [
+       1,
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Lourdes",
+    "tipo": "comunidade",
+    "cidade": "Rio Grande",
+    "localidade": "Vila Bernardeth",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Missa também no dia 11 de cada mês às 19h30."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Rio Grande",
+    "localidade": "Vila Maria",
+    "endereco": "Rua Guadalajara, 89",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Geraldo e São Peregrino",
+    "tipo": "comunidade",
+    "cidade": "Rio Grande",
+    "localidade": "Jardim Humaitá II",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santíssima Trindade",
+    "tipo": "comunidade",
+    "cidade": "Rio Grande",
+    "localidade": "Trevo",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": "Missa da saúde"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedoriogrande.com.br/area/17/ParoquiaSaoJorge",
+    "data": "",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedoriogrande.com.br/area/17/ParoquiaSaoJorge",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Setor Junção da diocese. Desde 2020 absorveu a antiga Rede de Comunidades Santíssima Trindade (página própria vazia no site); Pobres Servos da Divina Providência."
+ },
+ {
+  "id_banco": null,
+  "nome": "Área Pastoral Rede de Comunidades São Lucas",
+  "categoria": "area_pastoral",
+  "cidade": "Rio Grande",
+  "padroeiro": "São Lucas",
+  "contatos": {
+   "telefone": "5332308763",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "redesaolucas2016@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Sede da Rede de Comunidades São Lucas",
+    "tipo": "matriz",
+    "cidade": "Rio Grande",
+    "localidade": "Carlos Santos",
+    "endereco": "Rua Frei Mário Aloísio Schuh, 1222",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João",
+    "tipo": "comunidade",
+    "cidade": "Rio Grande",
+    "localidade": "São João",
+    "endereco": "Rua Pandiá Calógeras, 891",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedoriogrande.com.br/area/18/RededeComunidadesSaoLucas",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Setor Junção da diocese. 9 comunidades, sem nomes nem horários na página da diocese; administrador Pe. Lino Mayer. Facebook citado: 'Lucas Santo'."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Teresa",
+  "categoria": "paroquia",
+  "cidade": "Rio Grande",
+  "padroeiro": "Santa Teresa",
+  "contatos": {
+   "telefone": "53981142670",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "commatrizsteresa.rg@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Teresa",
+    "tipo": "matriz",
+    "cidade": "Rio Grande",
+    "localidade": "Santa Teresa",
+    "endereco": "Rua São Francisco de Assis, 116",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Confissões todas as tardes, exceto quarta-feira."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora da Paz",
+    "tipo": "capela",
+    "cidade": "Rio Grande",
+    "localidade": "Quarta Secção da Barra",
+    "endereco": "Rua Enfermeiro Afonso Marino Gomes, 303",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "18:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Adoração na primeira sexta-feira do mês, com missa às 18h."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Marcelino",
+    "tipo": "capela",
+    "cidade": "Rio Grande",
+    "localidade": "Vila Mangueira",
+    "endereco": "Rua Maria Francisca, 33",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santos Anjos da Guarda",
+    "tipo": "capela",
+    "cidade": "Rio Grande",
+    "localidade": "Quarta Secção da Barra Nova",
+    "endereco": "Via Principal, 812/2",
+    "horarios": [],
+    "nao_cabe": "Missa no último domingo de cada mês às 17h30."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedoriogrande.com.br/area/8/ParoquiaSantaTeresa",
+    "data": "",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedoriogrande.com.br/area/8/ParoquiaSantaTeresa",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Setor Porto da diocese. Administrada pelo pároco do Carmo (OCD). A página diz 4 comunidades e lista 3."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Judas Tadeu",
+  "categoria": "paroquia",
+  "cidade": "Rio Grande",
+  "padroeiro": "São Judas Tadeu",
+  "contatos": {
+   "telefone": "53984120938",
+   "whatsapp": "",
+   "instagram": "paroquiasaojudastadeurg",
+   "site": "",
+   "email": "judastadeu28@yahoo.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Judas Tadeu",
+    "tipo": "matriz",
+    "cidade": "Rio Grande",
+    "localidade": "Getúlio Vargas",
+    "endereco": "Av. Pedro II, 85",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "18:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Comunidade Nossa Senhora Aparecida (sem lugar na fonte): missa sexta e sábado às 17h."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedoriogrande.com.br/area/6/ParoquiaSaoJudasTadeu",
+    "data": "",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesedoriogrande.com.br/area/6/ParoquiaSaoJudasTadeu",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Setor Porto da diocese. Novena perpétua a São Judas às quintas, 19h."
+ }
+]

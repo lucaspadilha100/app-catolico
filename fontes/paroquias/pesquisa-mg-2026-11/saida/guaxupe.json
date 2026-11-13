@@ -1,0 +1,6854 @@
+[
+ {
+  "id_banco": null,
+  "nome": "Área Pastoral Missionária de Três Barras",
+  "categoria": "area_missionaria",
+  "cidade": "Alpinópolis",
+  "padroeiro": "São Sebastião",
+  "contatos": {
+   "telefone": "3535231203",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Sebastião",
+    "tipo": "matriz",
+    "cidade": "Alpinópolis",
+    "localidade": "Distrito de Vilelândia, Três Barras",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/area-pastoral-missionaria-tres-barras",
+    "data": "2024-02-14",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Setor Passos. Área pastoral São Sebastião, no Distrito de Vilelândia (Três Barras), Alpinópolis, segundo nota da diocese de 18/12/2023. Sem horário na página da paróquia no site da diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Vicente de Paulo",
+  "categoria": "paroquia",
+  "cidade": "Alpinópolis",
+  "padroeiro": "São Vicente de Paulo",
+  "contatos": {
+   "telefone": "3535231203",
+   "whatsapp": "35999454313",
+   "instagram": "paroquia_sao.vicente.de.paulo",
+   "site": "",
+   "email": "alpinopolis.saovicente8895@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Vicente de Paulo",
+    "tipo": "matriz",
+    "cidade": "Alpinópolis",
+    "localidade": "Centro",
+    "endereco": "Praça Osvaldo Américo dos Reis, 289",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "06:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Também: 1ª e 3ª quarta na Capela do Hospital e 3ª quinta na Capela do Lar São Vicente (sem hora na fonte). Comunidade do Ouro só em datas especiais."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Benedito",
+    "tipo": "capela",
+    "cidade": "Alpinópolis",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Cristóvão",
+    "tipo": "capela",
+    "cidade": "Alpinópolis",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Bento",
+    "tipo": "comunidade",
+    "cidade": "Alpinópolis",
+    "localidade": "São Bento",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade da Prata",
+    "tipo": "comunidade",
+    "cidade": "Alpinópolis",
+    "localidade": "Prata",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade do Itapiché",
+    "tipo": "comunidade",
+    "cidade": "Alpinópolis",
+    "localidade": "Itapiché",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade do Barreiro",
+    "tipo": "comunidade",
+    "cidade": "Alpinópolis",
+    "localidade": "Barreiro",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade do Pacheco",
+    "tipo": "comunidade",
+    "cidade": "Alpinópolis",
+    "localidade": "Pacheco",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/sao-vicente",
+    "data": "2025-02-24",
+    "o_que": "horarios e contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Setor Passos. Erigida em 07/02/2024."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Sebastião e São Cristóvão",
+  "categoria": "paroquia",
+  "cidade": "Alfenas",
+  "padroeiro": "São Sebastião e São Cristóvão",
+  "contatos": {
+   "telefone": "3532927020",
+   "whatsapp": "",
+   "instagram": "paroquia.ss.sc",
+   "site": "",
+   "email": "alf.ssebastiao8119@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Sebastião e São Cristóvão",
+    "tipo": "matriz",
+    "cidade": "Alfenas",
+    "localidade": "Jardim Panorama",
+    "endereco": "Avenida João Soares Leite, 28",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/sao-sebastiao-e-sao-cristovao",
+    "data": "2026-01-30",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Setor Alfenas. Sem horário na página da paróquia no site da diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Francisco de Assis",
+  "categoria": "paroquia",
+  "cidade": "Alfenas",
+  "padroeiro": "São Francisco de Assis",
+  "contatos": {
+   "telefone": "35998096070",
+   "whatsapp": "35998096070",
+   "instagram": "paroquiasaofranciscoalfenas",
+   "site": "",
+   "email": "alf.sfranciscoassis9786@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Francisco de Assis",
+    "tipo": "matriz",
+    "cidade": "Alfenas",
+    "localidade": "Pinheirinho",
+    "endereco": "Avenida João Januário de Magalhães, 272",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "1ª sexta, Sagrado Coração"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": "1ª sexta, Sagrado Coração"
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 5,
+      "hora": "20:30",
+      "semanas": [
+       1
+      ],
+      "observacao": "Até 22h30"
+     }
+    ],
+    "nao_cabe": "Missa nos setores na 2ª sexta do mês às 19h30."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Alfenas",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Teresinha",
+    "tipo": "capela",
+    "cidade": "Alfenas",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Clara",
+    "tipo": "comunidade",
+    "cidade": "Alfenas",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-sao-francisco-de-assis",
+    "data": "2024-01-23",
+    "o_que": "horarios e contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Setor Alfenas. Página da diocese atualizada em 2024-01-23."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Senhor Bom Jesus",
+  "categoria": "paroquia",
+  "cidade": "São Sebastião do Paraíso",
+  "padroeiro": "Senhor Bom Jesus",
+  "contatos": {
+   "telefone": "3535317987",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paraiso.nssion7147@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Senhor Bom Jesus",
+    "tipo": "matriz",
+    "cidade": "São Sebastião do Paraíso",
+    "localidade": "Guardinha",
+    "endereco": "Praça José Alves Souza Faleiros, 65",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-senhor-bom-jesus-guardinha-sao-sebastiao-do-paraiso",
+    "data": "2025-04-08",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Setor São Sebastião do Paraíso. Distrito de Guardinha. Sem horário na página da paróquia no site da diocese. Perfil citado: facebook https://www.facebook.com/paroquiasenhorbomjesusguardinha."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Senhor Bom Jesus",
+  "categoria": "paroquia",
+  "cidade": "Bom Jesus da Penha",
+  "padroeiro": "Senhor Bom Jesus",
+  "contatos": {
+   "telefone": "3535631288",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Senhor Bom Jesus",
+    "tipo": "matriz",
+    "cidade": "Bom Jesus da Penha",
+    "localidade": "Centro",
+    "endereco": "Praça Dom Inácio, 268",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Outras quatro capelas têm missa em dias de semana distribuídos pelo mês."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Sebastião",
+    "tipo": "capela",
+    "cidade": "Bom Jesus da Penha",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Bom Jesus da Penha",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Asilo São Vicente de Paulo",
+    "tipo": "capela",
+    "cidade": "Bom Jesus da Penha",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:00",
+      "semanas": [
+       1,
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-senhor-bom-jesus-bom-jesus-da-penha",
+    "data": "2025-04-08",
+    "o_que": "horarios e contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Setor Guaxupé."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "São Sebastião do Paraíso",
+  "padroeiro": "São Sebastião",
+  "contatos": {
+   "telefone": "3535587501",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paraiso.ssebastiao1882@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Sebastião",
+    "tipo": "matriz",
+    "cidade": "São Sebastião do Paraíso",
+    "localidade": "Centro",
+    "endereco": "Praça Comendador José Honório, 21",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-sao-sebastiao-sao-sebastiao-do-paraiso",
+    "data": "2024-01-23",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Setor São Sebastião do Paraíso. Sem horário na página da paróquia no site da diocese. Perfil citado: facebook https://www.facebook.com/paroquiasaosebastiaossp."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "Poços de Caldas",
+  "padroeiro": "São Sebastião",
+  "contatos": {
+   "telefone": "3537142010",
+   "whatsapp": "",
+   "instagram": "paroquiasaosebastiaopocos",
+   "site": "",
+   "email": "pcaldas.ssebastiao4636@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Sebastião",
+    "tipo": "matriz",
+    "cidade": "Poços de Caldas",
+    "localidade": "Vila Cruz",
+    "endereco": "Rua Nico Duarte, 950",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": "Com as crianças"
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Até 18h"
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Igreja São Sebastião",
+    "tipo": "capela",
+    "cidade": "Poços de Caldas",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Sagrada Família",
+    "tipo": "capela",
+    "cidade": "Poços de Caldas",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São José Operário",
+    "tipo": "capela",
+    "cidade": "Poços de Caldas",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São João Paulo II",
+    "tipo": "capela",
+    "cidade": "Poços de Caldas",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "20:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-sao-sebastiao-pocos-de-caldas",
+    "data": "2026-04-15",
+    "o_que": "horarios e contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Setor Poços de Caldas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "Juruaia",
+  "padroeiro": "São Sebastião",
+  "contatos": {
+   "telefone": "35999227681",
+   "whatsapp": "35999227681",
+   "instagram": "paroquiasaosebastiaodejuruaia",
+   "site": "",
+   "email": "juruaia5799@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Sebastião",
+    "tipo": "matriz",
+    "cidade": "Juruaia",
+    "localidade": "Centro",
+    "endereco": "Rua dos Silveiras, 44",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-sao-sebastiao-juruaia",
+    "data": "2026-10-15",
+    "o_que": "horarios e contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Setor Guaxupé."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "Areado",
+  "padroeiro": "São Sebastião",
+  "contatos": {
+   "telefone": "3532931345",
+   "whatsapp": "3532931345",
+   "instagram": "saosebastiaoareado",
+   "site": "",
+   "email": "areado3664@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Sebastião",
+    "tipo": "matriz",
+    "cidade": "Areado",
+    "localidade": "Centro",
+    "endereco": "Praça Henrique Vieira, 382",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-sao-sebastiao-areado",
+    "data": "2026-10-08",
+    "o_que": "horarios e contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Setor Areado."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "Alpinópolis",
+  "padroeiro": "São Sebastião",
+  "contatos": {
+   "telefone": "35998593214",
+   "whatsapp": "35998593214",
+   "instagram": "paroquiaalp",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Sebastião",
+    "tipo": "matriz",
+    "cidade": "Alpinópolis",
+    "localidade": "Centro",
+    "endereco": "Praça Osvaldo Américo dos Reis, 289",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-sao-sebastiao-alpinopolis",
+    "data": "2025-05-26",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Setor Passos. Sem horário na página da paróquia no site da diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Pedro Apóstolo",
+  "categoria": "paroquia",
+  "cidade": "São Pedro da União",
+  "padroeiro": "São Pedro Apóstolo",
+  "contatos": {
+   "telefone": "3535541125",
+   "whatsapp": "35997566364",
+   "instagram": "",
+   "site": "",
+   "email": "spuniao5608@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Pedro Apóstolo",
+    "tipo": "matriz",
+    "cidade": "São Pedro da União",
+    "localidade": "Centro",
+    "endereco": "Praça Governador Valadares, 139",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-sao-pedro-apostolo",
+    "data": "2026-10-08",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Setor Guaxupé. Sem horário na página da paróquia no site da diocese. Perfil citado: facebook https://www.facebook.com/ParoquiaSaoPedroSPU."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Pedro Apóstolo",
+  "categoria": "paroquia",
+  "cidade": "Alfenas",
+  "padroeiro": "São Pedro Apóstolo",
+  "contatos": {
+   "telefone": "3532924730",
+   "whatsapp": "35991455029",
+   "instagram": "paroquiasaopedroalfenas",
+   "site": "",
+   "email": "alf.spapostolo6922@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Pedro Apóstolo",
+    "tipo": "matriz",
+    "cidade": "Alfenas",
+    "localidade": "Residencial Júlio Alves",
+    "endereco": "Rua João Custódio da Silva, 300",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-sao-pedro-alfenas",
+    "data": "2026-10-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Setor Alfenas. Sem horário na página da paróquia no site da diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Paulo Apóstolo",
+  "categoria": "paroquia",
+  "cidade": "Poços de Caldas",
+  "padroeiro": "São Paulo Apóstolo",
+  "contatos": {
+   "telefone": "3537210909",
+   "whatsapp": "35984461561",
+   "instagram": "paroquiasaopauloapc",
+   "site": "",
+   "email": "paroquia.saopaulo@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Paulo Apóstolo",
+    "tipo": "matriz",
+    "cidade": "Poços de Caldas",
+    "localidade": "Jardim São Paulo",
+    "endereco": "Rua Dona Lalá amaral, 10",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "15:00",
+      "semanas": [
+       2
+      ],
+      "observacao": "Missa com as crianças"
+     }
+    ],
+    "nao_cabe": "Todo dia 13, às 12h, missa em louvor a Nossa Senhora de Fátima."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Pedro",
+    "tipo": "capela",
+    "cidade": "Poços de Caldas",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Edwiges",
+    "tipo": "capela",
+    "cidade": "Poços de Caldas",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Teresinha",
+    "tipo": "capela",
+    "cidade": "Poços de Caldas",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-sao-paulo-apostolo",
+    "data": "2026-01-29",
+    "o_que": "horarios e contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Setor Poços de Caldas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Judas Tadeu",
+  "categoria": "paroquia",
+  "cidade": "São Sebastião do Paraíso",
+  "padroeiro": "São Judas Tadeu",
+  "contatos": {
+   "telefone": "3535315098",
+   "whatsapp": "3535315098",
+   "instagram": "paroquia_sj_tadeu.paraiso",
+   "site": "",
+   "email": "saojudastadeuparoquia@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Judas Tadeu",
+    "tipo": "matriz",
+    "cidade": "São Sebastião do Paraíso",
+    "localidade": "Vila Formosa",
+    "endereco": "Praça João Teixeira Mendes, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Todo dia 28, dia votivo de São Judas Tadeu, às 19h."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santo Antônio",
+    "tipo": "capela",
+    "cidade": "São Sebastião do Paraíso",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora do Rosário",
+    "tipo": "capela",
+    "cidade": "São Sebastião do Paraíso",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-sao-judas-tadeu-sao-sebastiao-do-paraiso",
+    "data": "2024-09-05",
+    "o_que": "horarios e contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Setor São Sebastião do Paraíso. Página da diocese atualizada em 2024-09-05."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Judas Tadeu",
+  "categoria": "paroquia",
+  "cidade": "Poços de Caldas",
+  "padroeiro": "São Judas Tadeu",
+  "contatos": {
+   "telefone": "3537213687",
+   "whatsapp": "3537213687",
+   "instagram": "paroquia_sao_judas_tadeu",
+   "site": "",
+   "email": "paroquiasaojudaspc@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Judas Tadeu",
+    "tipo": "matriz",
+    "cidade": "Poços de Caldas",
+    "localidade": "Jardim dos Estados",
+    "endereco": "Rua Justino Ribeiro, 13",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-sao-judas-tadeu-pocos-de-caldas",
+    "data": "2026-03-25",
+    "o_que": "horarios e contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Setor Poços de Caldas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José Operário",
+  "categoria": "paroquia",
+  "cidade": "Guaxupé",
+  "padroeiro": "São José Operário",
+  "contatos": {
+   "telefone": "3535526374",
+   "whatsapp": "35988446335",
+   "instagram": "paroquiasaojoseoperariogxp",
+   "site": "",
+   "email": "gxp.sjoperario0487@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São José Operário",
+    "tipo": "matriz",
+    "cidade": "Guaxupé",
+    "localidade": "Centro",
+    "endereco": "Rua Dona Delfina, 610",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-sao-jose-operario",
+    "data": "2025-01-10",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Setor Guaxupé. Sem horário na página da paróquia no site da diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José e Nossa Senhora das Dores",
+  "categoria": "paroquia",
+  "cidade": "Alfenas",
+  "padroeiro": "São José e Nossa Senhora das Dores",
+  "contatos": {
+   "telefone": "3534701646",
+   "whatsapp": "3534701646",
+   "instagram": "paroquia_saojoseedores",
+   "site": "",
+   "email": "alf.sjdores3583@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São José e Nossa Senhora das Dores",
+    "tipo": "matriz",
+    "cidade": "Alfenas",
+    "localidade": "Centro",
+    "endereco": "Avenida São José, 1005",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-sao-jose-e-nossa-senhora-das-dores",
+    "data": "2025-10-28",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Setor Alfenas. Sem horário na página da paróquia no site da diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José",
+  "categoria": "paroquia",
+  "cidade": "São Sebastião do Paraíso",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "3535584653",
+   "whatsapp": "35999113184",
+   "instagram": "paroquiasaojosessp",
+   "site": "http://www.paroquiasaojose.net.br/",
+   "email": "paraiso.saojose9271@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São José",
+    "tipo": "matriz",
+    "cidade": "São Sebastião do Paraíso",
+    "localidade": "São José",
+    "endereco": "Avenida Zezé Amaral, 999",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela San Genaro",
+    "tipo": "capela",
+    "cidade": "São Sebastião do Paraíso",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-sao-jose-sao-sebastiao-do-paraiso",
+    "data": "2025-02-24",
+    "o_que": "horarios e contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Setor São Sebastião do Paraíso."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José",
+  "categoria": "paroquia",
+  "cidade": "São José da Barra",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "3535239110",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "sjbarra1610@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São José",
+    "tipo": "matriz",
+    "cidade": "São José da Barra",
+    "localidade": "Centro",
+    "endereco": "Praça São José, 59",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-sao-jose-sao-jose-da-barra",
+    "data": "2024-01-23",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Setor Passos. Sem horário na página da paróquia no site da diocese. Perfil citado: facebook https://www.facebook.com/paroquia2017."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José",
+  "categoria": "paroquia",
+  "cidade": "Muzambinho",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "3535711121",
+   "whatsapp": "3535711121",
+   "instagram": "paroquiasaojosemuz",
+   "site": "http://www.saojoseparoquia.com.br/",
+   "email": "muzambinho5527@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São José",
+    "tipo": "matriz",
+    "cidade": "Muzambinho",
+    "localidade": "Centro",
+    "endereco": "Avenida Doutor Américo Luz, 548",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-sao-jose-muzambinho",
+    "data": "2024-01-23",
+    "o_que": "horarios e contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Setor Guaxupé. Página da diocese atualizada em 2024-01-23."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José",
+  "categoria": "paroquia",
+  "cidade": "Machado",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "3532957018",
+   "whatsapp": "",
+   "instagram": "paroquiasaojosemachado",
+   "site": "",
+   "email": "machadosjose7570@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São José",
+    "tipo": "matriz",
+    "cidade": "Machado",
+    "localidade": "Jardim das Oliveiras",
+    "endereco": "Avenida Francisco Vieira Guerra, 186",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-sao-jose-machado",
+    "data": "2024-01-23",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Setor Alfenas. Sem horário na página da paróquia no site da diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José",
+  "categoria": "paroquia",
+  "cidade": "Capetinga",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "3535431221",
+   "whatsapp": "35997251341",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São José",
+    "tipo": "matriz",
+    "cidade": "Capetinga",
+    "localidade": "Centro",
+    "endereco": "Rua Guilherme Gambeta, 285",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-sao-jose-capetinga",
+    "data": "2026-06-22",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Setor Cássia. Sem horário na página da paróquia no site da diocese. Perfil citado: facebook https://www.facebook.com/Paroquiasaojosedecapetinga."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José",
+  "categoria": "paroquia",
+  "cidade": "Botelhos",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "3537411101",
+   "whatsapp": "3537411101",
+   "instagram": "paroquiasaojosedebotelhos",
+   "site": "",
+   "email": "paroquiasaojosebotelhos@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São José",
+    "tipo": "matriz",
+    "cidade": "Botelhos",
+    "localidade": "Centro",
+    "endereco": "Praça Gabriel Botelho, 105",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Alguns sábados, missa com as crianças às 9h. Todo dia 13, missa às 12h. Um dia por semana, missa às 19h em alguma comunidade rural."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-sao-jose-botelhos",
+    "data": "2024-01-23",
+    "o_que": "horarios e contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Setor Poços de Caldas. Página da diocese atualizada em 2024-01-23."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Joaquim",
+  "categoria": "paroquia",
+  "cidade": "Alterosa",
+  "padroeiro": "São Joaquim",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "paroquia_sao_joaquim",
+   "site": "",
+   "email": "alterosa3400@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Joaquim",
+    "tipo": "matriz",
+    "cidade": "Alterosa",
+    "localidade": "Centro",
+    "endereco": "Praça Getúlio Vargas, 276",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Alterosa",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-sao-joaquim",
+    "data": "2026-10-13",
+    "o_que": "horarios e contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Setor Areado."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Bosco",
+  "categoria": "paroquia",
+  "cidade": "Poços de Caldas",
+  "padroeiro": "São João Bosco",
+  "contatos": {
+   "telefone": "3537131864",
+   "whatsapp": "",
+   "instagram": "saojoaoboscopc",
+   "site": "",
+   "email": "pcaldas.sjbosco6760@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São João Bosco",
+    "tipo": "matriz",
+    "cidade": "Poços de Caldas",
+    "localidade": "Dom Bosco",
+    "endereco": "Rua Ibirapuera, 208, Bairro Dom Bosco",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "06:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Poços de Caldas",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Asilo São Vicente de Paulo",
+    "tipo": "capela",
+    "cidade": "Poços de Caldas",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Sagrada Família",
+    "tipo": "capela",
+    "cidade": "Poços de Caldas",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-sao-joao-bosco",
+    "data": "2026-10-13",
+    "o_que": "horarios e contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Setor Poços de Caldas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "Arceburgo",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "3535561210",
+   "whatsapp": "3535561210",
+   "instagram": "paroquiasjbarceburgo",
+   "site": "",
+   "email": "arceburgo5446@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São João Batista",
+    "tipo": "matriz",
+    "cidade": "Arceburgo",
+    "localidade": "Centro",
+    "endereco": "Praça Dr. Hercilano Paula Borges, 372",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1,
+       2
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-sao-joao-batista-arceburgo",
+    "data": "2025-02-24",
+    "o_que": "horarios e contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Setor Guaxupé."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "São João Batista do Glória",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "3535241166",
+   "whatsapp": "35992743177",
+   "instagram": "sjbgloria9000",
+   "site": "",
+   "email": "sjgloria9000@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São João Batista",
+    "tipo": "matriz",
+    "cidade": "São João Batista do Glória",
+    "localidade": "Centro",
+    "endereco": "Praça Belo Horizonte, 11",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-sao-joao-batista-sao-joao-batista-do-gloria",
+    "data": "2026-02-03",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Setor Passos. Sem horário na página da paróquia no site da diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "Itamogi",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "3535341398",
+   "whatsapp": "",
+   "instagram": "paroquiasaojoaobatistaitamogi",
+   "site": "",
+   "email": "itamogi1459@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São João Batista",
+    "tipo": "matriz",
+    "cidade": "Itamogi",
+    "localidade": "Centro",
+    "endereco": "Praça Presidente vargas, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": "Com novena do Perpétuo Socorro"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 5,
+      "hora": "18:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "18:30",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa votiva ao Sagrado Coração"
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Francisco",
+    "tipo": "capela",
+    "cidade": "Itamogi",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-sao-joao-batista-itamoji",
+    "data": "2026-10-19",
+    "o_que": "horarios e contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Setor São Sebastião do Paraíso."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "Alfenas",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São João Batista",
+    "tipo": "matriz",
+    "cidade": "Alfenas",
+    "localidade": "Barranco Alto",
+    "endereco": "Praça João alves de Lima, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-sao-joao-batista-alfenas",
+    "data": "2024-02-14",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Setor Areado. Distrito de Barranco Alto. Sem horário na página da paróquia no site da diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Francisco e Santa Clara",
+  "categoria": "paroquia",
+  "cidade": "Poços de Caldas",
+  "padroeiro": "São Francisco e Santa Clara",
+  "contatos": {
+   "telefone": "3530146646",
+   "whatsapp": "3530146646",
+   "instagram": "paroquia_sfrancisco_sclara",
+   "site": "",
+   "email": "pcaldas.sfrancisco8038@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Francisco e Santa Clara",
+    "tipo": "matriz",
+    "cidade": "Poços de Caldas",
+    "localidade": "",
+    "endereco": "Rua Pedro Zeferino de Carvalho, 200",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "20:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Clara",
+    "tipo": "capela",
+    "cidade": "Poços de Caldas",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora do Perpétuo Socorro",
+    "tipo": "capela",
+    "cidade": "Poços de Caldas",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-sao-francisco-e-santa-clara",
+    "data": "2026-10-14",
+    "o_que": "horarios e contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Setor Poços de Caldas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Francisco de Paula",
+  "categoria": "paroquia",
+  "cidade": "Monte Santo de Minas",
+  "padroeiro": "São Francisco de Paula",
+  "contatos": {
+   "telefone": "3535911174",
+   "whatsapp": "35998433272",
+   "instagram": "paroquiasfdepaula",
+   "site": "",
+   "email": "montesminas5365@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Francisco de Paula",
+    "tipo": "matriz",
+    "cidade": "Monte Santo de Minas",
+    "localidade": "Centro",
+    "endereco": "Praça Coronel Silvério de Mello, 188",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-sao-francisco-de-paula",
+    "data": "2026-10-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Setor Guaxupé. Sem horário na página da paróquia no site da diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Félix de Nicosia",
+  "categoria": "paroquia",
+  "cidade": "Poços de Caldas",
+  "padroeiro": "São Félix de Nicosia",
+  "contatos": {
+   "telefone": "3537212662",
+   "whatsapp": "3537212662",
+   "instagram": "saofelixdenicosia",
+   "site": "",
+   "email": "pcaldas.saofelix8208@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Félix de Nicosia",
+    "tipo": "matriz",
+    "cidade": "Poços de Caldas",
+    "localidade": "Santa Augusta",
+    "endereco": "Rua João Antônio de Oliveira, 248",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Adoração toda terça após a missa das 19h. Missa todo dia 27 às 19h."
+   },
+   {
+    "id_banco": null,
+    "nome": "Santuário Nossa Senhora de Fátima",
+    "tipo": "santuario",
+    "cidade": "Poços de Caldas",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Novena perpétua todo dia 13 às 17h."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-sao-felix-de-nicosia",
+    "data": "2026-10-08",
+    "o_que": "horarios e contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Setor Poços de Caldas. Secretaria na Praça Dom Inácio Dal Monte, 500, Funcionários."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Benedito",
+  "categoria": "paroquia",
+  "cidade": "Nova Resende",
+  "padroeiro": "São Benedito",
+  "contatos": {
+   "telefone": "35999442268",
+   "whatsapp": "35999442268",
+   "instagram": "paroquia_saobenedito_petunia",
+   "site": "",
+   "email": "petunia5101@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Benedito",
+    "tipo": "matriz",
+    "cidade": "Nova Resende",
+    "localidade": "Petúnia",
+    "endereco": "Praça São Benedito, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "10:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-sao-benedito-nova-resende",
+    "data": "2024-01-23",
+    "o_que": "horarios e contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Setor Guaxupé. Distrito de Petúnia. Página da diocese atualizada em 2024-01-23."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Tomás de Aquino",
+  "categoria": "paroquia",
+  "cidade": "São Tomás de Aquino",
+  "padroeiro": "Santo Tomás de Aquino",
+  "contatos": {
+   "telefone": "3535351230",
+   "whatsapp": "3535351230",
+   "instagram": "paroquiasantotomasdeaquino",
+   "site": "",
+   "email": "staquino1297@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santo Tomás de Aquino",
+    "tipo": "matriz",
+    "cidade": "São Tomás de Aquino",
+    "localidade": "Centro",
+    "endereco": "Praça Cônego Tomaz, 731",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Capela Nossa Senhora da Piedade: quinta às 19h, quinzenal, alternando com as capelas rurais."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora do Rosário",
+    "tipo": "capela",
+    "cidade": "São Tomás de Aquino",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora da Piedade",
+    "tipo": "capela",
+    "cidade": "São Tomás de Aquino",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Rita de Cássia",
+    "tipo": "capela",
+    "cidade": "São Tomás de Aquino",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-santo-tomas-de-aquino",
+    "data": "2024-01-23",
+    "o_que": "horarios e contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Setor São Sebastião do Paraíso. Página da diocese atualizada em 2024-01-23."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Expedito",
+  "categoria": "paroquia",
+  "cidade": "Poços de Caldas",
+  "padroeiro": "Santo Expedito",
+  "contatos": {
+   "telefone": "3537224174",
+   "whatsapp": "3537224174",
+   "instagram": "santoexpeditopocoscaldas",
+   "site": "",
+   "email": "pcaldas.stoexpedito9352@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santo Expedito",
+    "tipo": "matriz",
+    "cidade": "Poços de Caldas",
+    "localidade": "Jardim Country Club",
+    "endereco": "Rua Flávio Erler, 60",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 5,
+      "hora": "14:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 5,
+      "hora": "18:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Missa votiva a Santo Expedito todo dia 19 às 19h30."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Imaculada Conceição",
+    "tipo": "capela",
+    "cidade": "Poços de Caldas",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Asilo Elvira Dias",
+    "tipo": "capela",
+    "cidade": "Poços de Caldas",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Centro de Espiritualidade Jesus Peregrino",
+    "tipo": "comunidade",
+    "cidade": "Poços de Caldas",
+    "localidade": "PUC Minas",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "11:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-santo-expedito",
+    "data": "2026-04-15",
+    "o_que": "horarios e contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Setor Poços de Caldas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio de Pádua",
+  "categoria": "paroquia",
+  "cidade": "Juréia",
+  "padroeiro": "Santo Antônio de Pádua",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santo Antônio de Pádua",
+    "tipo": "matriz",
+    "cidade": "Juréia",
+    "localidade": "Centro",
+    "endereco": "Avenida Central, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-santo-antonio-de-padua",
+    "data": "2024-01-23",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Setor Areado. Sem horário na página da paróquia no site da diocese. Perfil citado: facebook https://www.facebook.com/profile.php?id=100064558613820."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Teresinha do Menino Jesus",
+  "categoria": "paroquia",
+  "cidade": "Itaú de Minas",
+  "padroeiro": "Santa Teresinha do Menino Jesus",
+  "contatos": {
+   "telefone": "3535361223",
+   "whatsapp": "35999231223",
+   "instagram": "paroquiasantaterezinhaitau",
+   "site": "",
+   "email": "itauminas1106@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santa Teresinha do Menino Jesus",
+    "tipo": "matriz",
+    "cidade": "Itaú de Minas",
+    "localidade": "Centro",
+    "endereco": "Praça monsenhor Ernesto Cavichioli, 2",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Itaú de Minas",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Sagrada Família",
+    "tipo": "capela",
+    "cidade": "Itaú de Minas",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-santa-teresinha-do-menino-jesus",
+    "data": "2024-03-21",
+    "o_que": "horarios e contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Setor Passos. Página da diocese atualizada em 2024-03-21."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Rita de Cássia",
+  "categoria": "paroquia",
+  "cidade": "Nova Resende",
+  "padroeiro": "Santa Rita de Cássia",
+  "contatos": {
+   "telefone": "3535621347",
+   "whatsapp": "35999508274",
+   "instagram": "paroquiasantaritanr",
+   "site": "",
+   "email": "novaresende5012@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santa Rita de Cássia",
+    "tipo": "matriz",
+    "cidade": "Nova Resende",
+    "localidade": "Centro",
+    "endereco": "Praça Santa Rita, 2",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Nova Resende",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São José",
+    "tipo": "capela",
+    "cidade": "Nova Resende",
+    "localidade": "Lavapés",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-santa-rita-de-cassia-nova-resende",
+    "data": "2026-10-13",
+    "o_que": "horarios e contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Setor Guaxupé."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Rita de Cássia",
+  "categoria": "paroquia",
+  "cidade": "Botelhos",
+  "padroeiro": "Santa Rita de Cássia",
+  "contatos": {
+   "telefone": "35997428950",
+   "whatsapp": "35997428950",
+   "instagram": "paroquiasantaritapalmeiralmg",
+   "site": "",
+   "email": "palmeiral4202@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santa Rita de Cássia",
+    "tipo": "matriz",
+    "cidade": "Botelhos",
+    "localidade": "Palmeiral",
+    "endereco": "Praça Padres Oblatos, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-santa-rita-de-cassia-palmeiral",
+    "data": "2025-04-08",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Setor Poços de Caldas. Distrito de Palmeiral. Sem horário na página da paróquia no site da diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Rita de Cássia",
+  "categoria": "paroquia",
+  "cidade": "Cássia",
+  "padroeiro": "Santa Rita de Cássia",
+  "contatos": {
+   "telefone": "3535411411",
+   "whatsapp": "",
+   "instagram": "santuariocassia",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário Santa Rita de Cássia",
+    "tipo": "santuario",
+    "cidade": "Cássia",
+    "localidade": "Centro",
+    "endereco": "Praça Barão de cambuí, 277",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-santa-rita-de-cassia",
+    "data": "2025-04-08",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Setor Cássia. Matriz é santuário. Sem horário na página da paróquia no site da diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Isabel de Portugal",
+  "categoria": "paroquia",
+  "cidade": "Paraguaçu",
+  "padroeiro": "Santa Isabel de Portugal",
+  "contatos": {
+   "telefone": "3532673139",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "guaipava3150@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santa Isabel de Portugal",
+    "tipo": "matriz",
+    "cidade": "Paraguaçu",
+    "localidade": "Guaipava",
+    "endereco": "Praça Santa Isabel s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-santa-isabel-de-portugal",
+    "data": "2025-04-08",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Setor Alfenas. Distrito de Guaipava. Sem horário na página da paróquia no site da diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Cruz e Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Guaranésia",
+  "padroeiro": "Santa Cruz e Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "3535551818",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "santacruzprata4989@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santa Cruz e Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Guaranésia",
+    "localidade": "Santa Cruz da Prata",
+    "endereco": "Praça Coronel José Gabriel Pineiros, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-santa-cruz-e-nossa-senhora-aparecida",
+    "data": "2024-01-23",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Setor Guaxupé. Distrito de Santa Cruz da Prata. Sem horário na página da paróquia no site da diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Bárbara",
+  "categoria": "paroquia",
+  "cidade": "Guaranésia",
+  "padroeiro": "Santa Bárbara",
+  "contatos": {
+   "telefone": "3535551463",
+   "whatsapp": "3535551463",
+   "instagram": "santabarbaraguaranesia",
+   "site": "",
+   "email": "guaranesia.sbarbara4806@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santa Bárbara",
+    "tipo": "matriz",
+    "cidade": "Guaranésia",
+    "localidade": "Centro",
+    "endereco": "Praça Coronel Paula Ribeiro, 51",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-santa-barbara-guaranesia",
+    "data": "2024-01-23",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Setor Guaxupé. Sem horário na página da paróquia no site da diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sagrado Coração de Jesus e Nossa Senhora das Graças",
+  "categoria": "paroquia",
+  "cidade": "Fama",
+  "padroeiro": "Sagrado Coração de Jesus e Nossa Senhora das Graças",
+  "contatos": {
+   "telefone": "3532961122",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "fama3079@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Sagrado Coração de Jesus e Nossa Senhora das Graças",
+    "tipo": "matriz",
+    "cidade": "Fama",
+    "localidade": "Centro",
+    "endereco": "Rua Gaspar Lopes, 115",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-sagrado-coracao-de-jesus-e-nossa-senhora-das-gracas",
+    "data": "2026-02-03",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Setor Alfenas. Sem horário na página da paróquia no site da diocese. Perfil citado: facebook https://www.facebook.com/PSCJNSG/."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sagrado Coração de Jesus",
+  "categoria": "paroquia",
+  "cidade": "Poços de Caldas",
+  "padroeiro": "Sagrado Coração de Jesus",
+  "contatos": {
+   "telefone": "3537225660",
+   "whatsapp": "3537225660",
+   "instagram": "sousagradosoufeliz",
+   "site": "https://sousagradosoufeliz.com/",
+   "email": "paroquia@scjpocos.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Sagrado Coração de Jesus",
+    "tipo": "matriz",
+    "cidade": "Poços de Caldas",
+    "localidade": "Jardim Bela Vista",
+    "endereco": "Rua José Piffer, 380",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa votiva ao Sagrado Coração"
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": "Até 18h50"
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Rainha da Paz",
+    "tipo": "capela",
+    "cidade": "Poços de Caldas",
+    "localidade": "Condomínio Quissana",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São José",
+    "tipo": "capela",
+    "cidade": "Poços de Caldas",
+    "localidade": "",
+    "endereco": "Rua Geny Villas Boas Tardelli, 132",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-sagrado-coracao-de-jesus-pocos-de-caldas",
+    "data": "2026-04-15",
+    "o_que": "horarios e contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Setor Poços de Caldas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sagrada Família e Santos Reis",
+  "categoria": "paroquia",
+  "cidade": "Guaxupé",
+  "padroeiro": "Sagrada Família e Santos Reis",
+  "contatos": {
+   "telefone": "3535517540",
+   "whatsapp": "35999150159",
+   "instagram": "",
+   "site": "",
+   "email": "gxp.sfamilia7732@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Sagrada Família e Santos Reis",
+    "tipo": "matriz",
+    "cidade": "Guaxupé",
+    "localidade": "Parque dos Municípios I",
+    "endereco": "Rua Capitólio, 285",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Judas",
+    "tipo": "capela",
+    "cidade": "Guaxupé",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santo Expedito",
+    "tipo": "capela",
+    "cidade": "Guaxupé",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-sagrada-familia-e-santos-reis",
+    "data": "2026-10-13",
+    "o_que": "horarios e contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Setor Guaxupé."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sagrada Família e Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Machado",
+  "padroeiro": "Sagrada Família e Santo Antônio",
+  "contatos": {
+   "telefone": "3532951364",
+   "whatsapp": "3532951364",
+   "instagram": "psfsamachado",
+   "site": "",
+   "email": "machadosfamilia2935@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Sagrada Família e Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Machado",
+    "localidade": "Centro",
+    "endereco": "Rua Coronel José Paulino, 255",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "11:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": "Com as crianças"
+     }
+    ],
+    "nao_cabe": "1ª quarta do mês: missa nos setores urbanos. 1ª quinta: setores do bairro Santa Luiza. Sábado às 20h, missa do Caminho Neocatecumenal."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Colégio Imaculada Conceição",
+    "tipo": "capela",
+    "cidade": "Machado",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "18:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "18:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Miguel",
+    "tipo": "capela",
+    "cidade": "Machado",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela da Consolação",
+    "tipo": "capela",
+    "cidade": "Machado",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Sagrado Coração de Jesus",
+    "tipo": "capela",
+    "cidade": "Machado",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santo Expedito",
+    "tipo": "capela",
+    "cidade": "Machado",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Missa todo dia 19 às 19h."
+   },
+   {
+    "id_banco": null,
+    "nome": "Santuário Menino Jesus de Praga",
+    "tipo": "santuario",
+    "cidade": "Machado",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Missa todo dia 25 às 19h."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Rita",
+    "tipo": "capela",
+    "cidade": "Machado",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Benedito",
+    "tipo": "capela",
+    "cidade": "Machado",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-sagrada-familia-e-santo-antonio",
+    "data": "2026-10-08",
+    "o_que": "horarios e contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Setor Alfenas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sagrada Família",
+  "categoria": "paroquia",
+  "cidade": "Carmo do Rio Claro",
+  "padroeiro": "Sagrada Família",
+  "contatos": {
+   "telefone": "35999011041",
+   "whatsapp": "35999011041",
+   "instagram": "paroquiasagradafamiliacrc",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Sagrada Família",
+    "tipo": "matriz",
+    "cidade": "Carmo do Rio Claro",
+    "localidade": "Jardim América do Sul",
+    "endereco": "Praça Sagrada Família, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-sagrada-familia-carmo-do-rio-claro",
+    "data": "2026-10-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Setor Areado. Sem horário na página da paróquia no site da diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Domingos",
+  "categoria": "paroquia",
+  "cidade": "Poços de Caldas",
+  "padroeiro": "São Domingos",
+  "contatos": {
+   "telefone": "3537212257",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "pcaldas.sdomingos4393@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Domingos",
+    "tipo": "matriz",
+    "cidade": "Poços de Caldas",
+    "localidade": "Centro",
+    "endereco": "Rua Padre Henri Mothon, 10- Centro",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora das Dores",
+    "tipo": "capela",
+    "cidade": "Poços de Caldas",
+    "localidade": "Santa Casa",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-sao-domingos",
+    "data": "2026-04-15",
+    "o_que": "horarios e contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Setor Poços de Caldas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Imaculada Conceição e São Carlos Borromeu",
+  "categoria": "paroquia",
+  "cidade": "Jacuí",
+  "padroeiro": "Imaculada Conceição e São Carlos Borromeu",
+  "contatos": {
+   "telefone": "3535931773",
+   "whatsapp": "3535931773",
+   "instagram": "paroquiajacuioficial",
+   "site": "",
+   "email": "jacui5284@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Imaculada Conceição e São Carlos Borromeu",
+    "tipo": "matriz",
+    "cidade": "Jacuí",
+    "localidade": "Centro",
+    "endereco": "Praça Presidente Vargas, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Jacuí",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-imaculada-conceicao-e-sao-carlos-borromeu",
+    "data": "2024-09-25",
+    "o_que": "horarios e contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Setor São Sebastião do Paraíso. Página da diocese atualizada em 2024-09-25."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora dos Milagres",
+  "categoria": "paroquia",
+  "cidade": "Monte Santo de Minas",
+  "padroeiro": "Nossa Senhora dos Milagres",
+  "contatos": {
+   "telefone": "3535915222",
+   "whatsapp": "3535915222",
+   "instagram": "",
+   "site": "",
+   "email": "milagre4717@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora dos Milagres",
+    "tipo": "matriz",
+    "cidade": "Monte Santo de Minas",
+    "localidade": "Centro",
+    "endereco": "Praça dos Milagres, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-nossa-senhora-dos-milagres",
+    "data": "2026-10-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Setor Guaxupé. Área pastoral desde 2019, hoje paróquia. Sem horário na página da paróquia no site da diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Rosário",
+  "categoria": "paroquia",
+  "cidade": "Poços de Caldas",
+  "padroeiro": "Nossa Senhora do Rosário",
+  "contatos": {
+   "telefone": "3537135447",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "pcaldas6175@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora do Rosário",
+    "tipo": "matriz",
+    "cidade": "Poços de Caldas",
+    "localidade": "Santa Rosália",
+    "endereco": "Rua Antenor Damini, 9",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora do Carmo",
+    "tipo": "capela",
+    "cidade": "Poços de Caldas",
+    "localidade": "",
+    "endereco": "Rua Camerino Nogueira da Silva",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-nossa-senhora-do-rosario-pocos-de-caldas",
+    "data": "2026-04-15",
+    "o_que": "horarios e contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Setor Poços de Caldas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Rosário",
+  "categoria": "paroquia",
+  "cidade": "Guaxupé",
+  "padroeiro": "Nossa Senhora do Rosário",
+  "contatos": {
+   "telefone": "3535516012",
+   "whatsapp": "35997387124",
+   "instagram": "",
+   "site": "",
+   "email": "gxp.nsrosario5950@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora do Rosário",
+    "tipo": "matriz",
+    "cidade": "Guaxupé",
+    "localidade": "Centro",
+    "endereco": "Praça Governador Benedito Valadares, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-nossa-senhora-do-rosario-guaxupe",
+    "data": "2024-08-15",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Setor Guaxupé. Sem horário na página da paróquia no site da diocese. Perfil citado: facebook https://www.facebook.com/Rosario.Gxp/."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Rosário",
+  "categoria": "paroquia",
+  "cidade": "Fortaleza de Minas",
+  "padroeiro": "Nossa Senhora do Rosário",
+  "contatos": {
+   "telefone": "35999376297",
+   "whatsapp": "35999376297",
+   "instagram": "",
+   "site": "",
+   "email": "fortalezademinas0991@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora do Rosário",
+    "tipo": "matriz",
+    "cidade": "Fortaleza de Minas",
+    "localidade": "Centro",
+    "endereco": "Praça Nossa Senhora do Rosário, S/N",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-nossa-senhora-do-rosario-fortaleza-de-minas",
+    "data": "2026-10-08",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Setor Passos. Sem horário na página da paróquia no site da diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Divino Espírito Santo",
+  "categoria": "paroquia",
+  "cidade": "Claraval",
+  "padroeiro": "Nossa Senhora do Divino Espírito Santo",
+  "contatos": {
+   "telefone": "34997407449",
+   "whatsapp": "34997407449",
+   "instagram": "n.sradivinoespiritosanto",
+   "site": "",
+   "email": "claraval8704@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora do Divino Espírito Santo",
+    "tipo": "matriz",
+    "cidade": "Claraval",
+    "localidade": "Centro",
+    "endereco": "Rua do Mosteiro, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-nossa-senhora-do-divino-espirito-santo",
+    "data": "2026-10-13",
+    "o_que": "horarios e contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Setor Cássia. Igreja do mosteiro, antiga catedral da Prelazia de Claraval."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Carmo",
+  "categoria": "paroquia",
+  "cidade": "Campestre",
+  "padroeiro": "Nossa Senhora do Carmo",
+  "contatos": {
+   "telefone": "3537431296",
+   "whatsapp": "3537431296",
+   "instagram": "carmodecampestre",
+   "site": "",
+   "email": "paroquiacampestre@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora do Carmo",
+    "tipo": "matriz",
+    "cidade": "Campestre",
+    "localidade": "Centro",
+    "endereco": "Praça Delfim Moreira, 15",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-nossa-senhora-do-carmo-campestre",
+    "data": "2024-09-05",
+    "o_que": "horarios e contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Setor Poços de Caldas. Página da diocese atualizada em 2024-09-05."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Carmo",
+  "categoria": "paroquia",
+  "cidade": "Paraguaçu",
+  "padroeiro": "Nossa Senhora do Carmo",
+  "contatos": {
+   "telefone": "35991200156",
+   "whatsapp": "35991200156",
+   "instagram": "paroquianossasenhoracarmo",
+   "site": "",
+   "email": "nsdocarmopcu@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora do Carmo",
+    "tipo": "matriz",
+    "cidade": "Paraguaçu",
+    "localidade": "Centro",
+    "endereco": "Praça Oswaldo Costa s/n Centro",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-nossa-senhora-do-carmo-paraguacu",
+    "data": "2026-10-08",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Setor Alfenas. Sem horário na página da paróquia no site da diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Carmo",
+  "categoria": "paroquia",
+  "cidade": "Carmo do Rio Claro",
+  "padroeiro": "Nossa Senhora do Carmo",
+  "contatos": {
+   "telefone": "35998599661",
+   "whatsapp": "35998599661",
+   "instagram": "paroquianscmg",
+   "site": "",
+   "email": "crclaro.nscarmo2773@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora do Carmo",
+    "tipo": "matriz",
+    "cidade": "Carmo do Rio Claro",
+    "localidade": "Centro",
+    "endereco": "Praça Dona Maria Goulart, 106",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-nossa-senhora-do-carmo-carmo-do-rio-claro",
+    "data": "2026-10-14",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Setor Areado. Sem horário na página da paróquia no site da diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Sion",
+  "categoria": "paroquia",
+  "cidade": "São Sebastião do Paraíso",
+  "padroeiro": "Nossa Senhora de Sion",
+  "contatos": {
+   "telefone": "3535317987",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paraiso.nssion7147@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora de Sion",
+    "tipo": "matriz",
+    "cidade": "São Sebastião do Paraíso",
+    "localidade": "Vila Formosa",
+    "endereco": "Avenida Wenceslau Braz, 1000",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-nossa-senhora-de-sion",
+    "data": "2024-02-23",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Setor São Sebastião do Paraíso. Sem horário na página da paróquia no site da diocese. Perfil citado: facebook https://www.facebook.com/nossasenhoradesion/."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Fátima",
+  "categoria": "paroquia",
+  "cidade": "Alfenas",
+  "padroeiro": "Nossa Senhora de Fátima",
+  "contatos": {
+   "telefone": "3532915520",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "alf.nsfatima7066@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora de Fátima",
+    "tipo": "matriz",
+    "cidade": "Alfenas",
+    "localidade": "Centro",
+    "endereco": "Rua Tiradentes, 1845",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-nossa-senhora-de-fatima-alfenas",
+    "data": "2024-09-05",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Setor Alfenas. Sem horário na página da paróquia no site da diocese. Perfil citado: facebook https://www.facebook.com/paroquiadefatimaalfenas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora das Graças",
+  "categoria": "paroquia",
+  "cidade": "Poços de Caldas",
+  "padroeiro": "Nossa Senhora das Graças",
+  "contatos": {
+   "telefone": "3537121206",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "http://paroquianossasenhoradasgracaspc.blogspot.com/",
+   "email": "pcaldas.nsgracas6841@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora das Graças",
+    "tipo": "matriz",
+    "cidade": "Poços de Caldas",
+    "localidade": "Cohab",
+    "endereco": "Rua Jonathas Medina, 120",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora da Rosa Mística",
+    "tipo": "capela",
+    "cidade": "Poços de Caldas",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São João Batista",
+    "tipo": "capela",
+    "cidade": "Poços de Caldas",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-nossa-senhora-das-gracas-pocos-de-caldas",
+    "data": "2026-04-15",
+    "o_que": "horarios e contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Setor Poços de Caldas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora das Dores",
+  "categoria": "paroquia",
+  "cidade": "Ibiraci",
+  "padroeiro": "Nossa Senhora das Dores",
+  "contatos": {
+   "telefone": "3535441332",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora das Dores",
+    "tipo": "matriz",
+    "cidade": "Ibiraci",
+    "localidade": "Centro",
+    "endereco": "Praça raul Soares, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-nossa-senhora-das-dores",
+    "data": "2024-01-23",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Setor Cássia. Sem horário na página da paróquia no site da diocese. Perfil citado: facebook https://www.facebook.com/paroquiaibiraci/."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Imaculada Conceição",
+  "categoria": "paroquia",
+  "cidade": "Monte Belo",
+  "padroeiro": "Nossa Senhora da Imaculada Conceição",
+  "contatos": {
+   "telefone": "35999155062",
+   "whatsapp": "35999178980",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora da Imaculada Conceição",
+    "tipo": "matriz",
+    "cidade": "Monte Belo",
+    "localidade": "Centro",
+    "endereco": "Avenida Francisco Wenceslau dos Anjos, 855",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-nossa-senhora-da-imaculada-conceicao",
+    "data": "2026-10-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Setor Areado. Sem horário na página da paróquia no site da diocese. Perfil citado: facebook https://www.facebook.com/profile.php?id=100064535835870."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Esperança",
+  "categoria": "paroquia",
+  "cidade": "Poços de Caldas",
+  "padroeiro": "Nossa Senhora da Esperança",
+  "contatos": {
+   "telefone": "3537157014",
+   "whatsapp": "3537157014",
+   "instagram": "",
+   "site": "",
+   "email": "pcaldas.nesperanca7902@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora da Esperança",
+    "tipo": "matriz",
+    "cidade": "Poços de Caldas",
+    "localidade": "Jardim Esperança",
+    "endereco": "Rua João Mariusso, 393",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Bento",
+    "tipo": "capela",
+    "cidade": "Poços de Caldas",
+    "localidade": "",
+    "endereco": "Rua Benedicto Lopes Buono, 189",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-nossa-senhora-da-esperanca",
+    "data": "2026-10-13",
+    "o_que": "horarios e contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Setor Poços de Caldas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Conceição Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Serrania",
+  "padroeiro": "Nossa Senhora da Conceição Aparecida",
+  "contatos": {
+   "telefone": "3532841377",
+   "whatsapp": "3532841377",
+   "instagram": "paroquiaserrania",
+   "site": "",
+   "email": "serrania2692@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora da Conceição Aparecida",
+    "tipo": "matriz",
+    "cidade": "Serrania",
+    "localidade": "Centro",
+    "endereco": "Praça Minas Gerais, 190",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Serrania",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Benedito",
+    "tipo": "capela",
+    "cidade": "Serrania",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Lar São Vicente de Paulo",
+    "tipo": "comunidade",
+    "cidade": "Serrania",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrada Família",
+    "tipo": "comunidade",
+    "cidade": "Serrania",
+    "localidade": "Bairro Pinheiros",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "15:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-nossa-senhora-da-conceicao-aparecida",
+    "data": "2026-03-16",
+    "o_que": "horarios e contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Setor Alfenas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Conceição",
+  "categoria": "paroquia",
+  "cidade": "Divisa Nova",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "35998603764",
+   "whatsapp": "35998603764",
+   "instagram": "paroquia_divisanova",
+   "site": "",
+   "email": "divisanova2269@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "Divisa Nova",
+    "localidade": "Centro",
+    "endereco": "Praça Presidente Vargas, 291",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-nossa-senhora-da-conceicao",
+    "data": "2024-09-25",
+    "o_que": "horarios e contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Setor Areado. Página da diocese atualizada em 2024-09-25."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Assunção",
+  "categoria": "paroquia",
+  "cidade": "Cabo Verde",
+  "padroeiro": "Nossa Senhora da Assunção",
+  "contatos": {
+   "telefone": "35991390584",
+   "whatsapp": "35991390584",
+   "instagram": "filhosdaassuncao",
+   "site": "",
+   "email": "caboverde3907@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora da Assunção",
+    "tipo": "matriz",
+    "cidade": "Cabo Verde",
+    "localidade": "Centro",
+    "endereco": "Praça Capitão Luis R. Siqueira, 393",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "A fonte traz \"Quarta\" sem horário."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Sagrado Coração de Jesus",
+    "tipo": "capela",
+    "cidade": "Cabo Verde",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Benedito",
+    "tipo": "capela",
+    "cidade": "Cabo Verde",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-nossa-senhora-da-assuncao",
+    "data": "2026-10-08",
+    "o_que": "horarios e contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Setor Poços de Caldas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Abadia",
+  "categoria": "paroquia",
+  "cidade": "São Sebastião do Paraíso",
+  "padroeiro": "Nossa Senhora da Abadia",
+  "contatos": {
+   "telefone": "3535311592",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paraiso.nsabadia0720@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora da Abadia",
+    "tipo": "matriz",
+    "cidade": "São Sebastião do Paraíso",
+    "localidade": "Centro",
+    "endereco": "Avenida Wenceslau Braz, 8",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-nossa-senhora-da-abadia",
+    "data": "2024-02-23",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Setor São Sebastião do Paraíso. Sem horário na página da paróquia no site da diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Auxiliadora",
+  "categoria": "paroquia",
+  "cidade": "Paraguaçu",
+  "padroeiro": "Nossa Senhora Auxiliadora",
+  "contatos": {
+   "telefone": "3532673139",
+   "whatsapp": "3532673139",
+   "instagram": "auxiliadoraparaguacu",
+   "site": "",
+   "email": "paraguacu.nsauxiliadora8380@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora Auxiliadora",
+    "tipo": "matriz",
+    "cidade": "Paraguaçu",
+    "localidade": "Centro",
+    "endereco": "Rua José Ronaldo Leite, 75",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-nossa-senhora-auxiliadora",
+    "data": "2024-04-02",
+    "o_que": "horarios e contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Setor Alfenas. Página da diocese atualizada em 2024-04-02."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Poços de Caldas",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "3537127180",
+   "whatsapp": "3537127180",
+   "instagram": "paroquia_nsaparecidapc",
+   "site": "",
+   "email": "pcaldas.nsaparecida3836@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Poços de Caldas",
+    "localidade": "Nossa Senhora Aparecida",
+    "endereco": "Rua Major Joaquim Bernardes, 388",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Rita",
+    "tipo": "capela",
+    "cidade": "Poços de Caldas",
+    "localidade": "Jardim Cascatinha",
+    "endereco": "Rua Castro Alves, 301",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Todo dia 22 às 19h, exceto quando cai no fim de semana."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Benedito",
+    "tipo": "capela",
+    "cidade": "Poços de Caldas",
+    "localidade": "",
+    "endereco": "Praça Coronel Agostinho Junqueira",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santos Reis",
+    "tipo": "capela",
+    "cidade": "Poços de Caldas",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-nossa-senhora-aparecida-pocos",
+    "data": "2026-04-15",
+    "o_que": "horarios e contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Setor Poços de Caldas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Conceição da Aparecida",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "35997209647",
+   "whatsapp": "35997209647",
+   "instagram": "paroquian.senhora",
+   "site": "https://paroquiabp.com.br",
+   "email": "concaparecida2501@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Conceição da Aparecida",
+    "localidade": "Centro",
+    "endereco": "Praça João Barbosa Sobrinho, 76",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-nossa-senhora-aparecida-conceicao",
+    "data": "2026-10-13",
+    "o_que": "horarios e contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Setor Areado."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Bandeira do Sul",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "3537421280",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "bandeiradosul3745@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Bandeira do Sul",
+    "localidade": "Centro",
+    "endereco": "Praça Nossa Senhora Aparecida, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-nossa-senhora-aparecida-bandeira-do-sul",
+    "data": "2024-02-14",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Setor Poços de Caldas. Sem horário na página da paróquia no site da diocese. Perfil citado: facebook https://www.facebook.com/ParoquiaNossaSraAparecida."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Alfenas",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "3532921141",
+   "whatsapp": "3532921141",
+   "instagram": "paroquians_aparecida",
+   "site": "",
+   "email": "alf.nsaparecida0420@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Alfenas",
+    "localidade": "Centro",
+    "endereco": "Rua Quintino Bocaiúva, 120",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-nossa-senhora-aparecida-alfenas",
+    "data": "2024-09-25",
+    "o_que": "horarios e contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Setor Alfenas. Página da diocese atualizada em 2024-09-25."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Divino Espírito Santo",
+  "categoria": "paroquia",
+  "cidade": "Pratápolis",
+  "padroeiro": "Divino Espírito Santo",
+  "contatos": {
+   "telefone": "35998371082",
+   "whatsapp": "35998371082",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiapratapolis@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Divino Espírito Santo",
+    "tipo": "matriz",
+    "cidade": "Pratápolis",
+    "localidade": "Centro",
+    "endereco": "Praça Castorino de Souza, 64",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-divino-espirito-santo",
+    "data": "2024-02-23",
+    "o_que": "horarios e contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Setor Cássia. Página da diocese atualizada em 2024-02-23."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Divino Espírito Santo",
+  "categoria": "paroquia",
+  "cidade": "Capetinga",
+  "padroeiro": "Divino Espírito Santo",
+  "contatos": {
+   "telefone": "3535431221",
+   "whatsapp": "35997251341",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Divino Espírito Santo",
+    "tipo": "matriz",
+    "cidade": "Capetinga",
+    "localidade": "Goianases",
+    "endereco": "Praça Honório Sivério, s/n, Centro, Distrito de Goianases",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/divino-espirito-santo-capetinga",
+    "data": "2024-02-14",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Setor Cássia. Distrito de Goianases. Sem horário na página da paróquia no site da diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Divino Espírito Santo",
+  "categoria": "paroquia",
+  "cidade": "Alterosa",
+  "padroeiro": "Divino Espírito Santo",
+  "contatos": {
+   "telefone": "35999556058",
+   "whatsapp": "35999556058",
+   "instagram": "divinoespiritosanto2020",
+   "site": "",
+   "email": "cavacos8542@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Divino Espírito Santo",
+    "tipo": "matriz",
+    "cidade": "Alterosa",
+    "localidade": "Distrito Divino Espírito Santo",
+    "endereco": "Praça Jaime Ribeiro Silva, 72",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-divino-espirito-santo-alterosa",
+    "data": "2024-02-23",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Setor Areado. Distrito Divino Espírito Santo, chamado Cavacos pela diocese. Sem horário na página da paróquia no site da diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Divino Espírito Santo",
+  "categoria": "paroquia",
+  "cidade": "Delfinópolis",
+  "padroeiro": "Divino Espírito Santo",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Divino Espírito Santo",
+    "tipo": "matriz",
+    "cidade": "Delfinópolis",
+    "localidade": "Centro",
+    "endereco": "Praça Manoel Leite, 61",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-divino-espirito-santo-delfinopolis",
+    "data": "2025-04-08",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Setor Cássia. Sem horário na página da paróquia no site da diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Senhor Bom Jesus e Mãe Rainha",
+  "categoria": "paroquia",
+  "cidade": "Guaranésia",
+  "padroeiro": "Senhor Bom Jesus e Mãe Rainha",
+  "contatos": {
+   "telefone": "35992470021",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "guaranesia.mrainha7813@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Senhor Bom Jesus e Mãe Rainha",
+    "tipo": "matriz",
+    "cidade": "Guaranésia",
+    "localidade": "Jardim Renovação",
+    "endereco": "Rua João Batista Guimarães, 323",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-bom-jesus-e-mae-rainha",
+    "data": "2024-02-14",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Setor Guaxupé. Sem horário na página da paróquia no site da diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Catedral Diocesana Nossa Senhora das Dores",
+  "categoria": "catedral",
+  "cidade": "Guaxupé",
+  "padroeiro": "Nossa Senhora das Dores",
+  "contatos": {
+   "telefone": "3535510046",
+   "whatsapp": "35988468976",
+   "instagram": "catedralguaxupe",
+   "site": "http://www.catedraldeguaxupe.com.br/",
+   "email": "gxp.catedral0215@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Catedral Nossa Senhora das Dores",
+    "tipo": "matriz",
+    "cidade": "Guaxupé",
+    "localidade": "Centro",
+    "endereco": "Praça Américo Costa, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora das Graças",
+    "tipo": "capela",
+    "cidade": "Guaxupé",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/catedral-diocesana-nossa-senhora-das-dores",
+    "data": "2026-10-08",
+    "o_que": "horarios e contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Setor Guaxupé."
+ },
+ {
+  "id_banco": null,
+  "nome": "Basílica Nossa Senhora da Saúde",
+  "categoria": "basilica",
+  "cidade": "Poços de Caldas",
+  "padroeiro": "Nossa Senhora da Saúde",
+  "contatos": {
+   "telefone": "3537212357",
+   "whatsapp": "3537212357",
+   "instagram": "basilicanossasenhoradasaude",
+   "site": "",
+   "email": "pcaldas.nssaude4040@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Basílica Nossa Senhora da Saúde",
+    "tipo": "matriz",
+    "cidade": "Poços de Caldas",
+    "localidade": "Centro",
+    "endereco": "Praça Monsenhor Faria de Castro, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "11:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": "Durante as obras da Capela Santo Antônio"
+     }
+    ],
+    "nao_cabe": "Toda quinta, exposição e adoração ao Santíssimo após a missa das 7h, com bênção às 17h30."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Poços de Caldas",
+    "localidade": "",
+    "endereco": "Rua São Paulo, 67",
+    "horarios": [],
+    "nao_cabe": "Missa de segunda às 15h, levada para a Basílica enquanto durarem as obras."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/basilica-nossa-senhora-da-saude",
+    "data": "2026-04-15",
+    "o_que": "horarios e contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Setor Poços de Caldas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Área Pastoral Nossa Senhora das Dores",
+  "categoria": "area_pastoral",
+  "cidade": "Delfinópolis",
+  "padroeiro": "Nossa Senhora das Dores",
+  "contatos": {
+   "telefone": "3535231203",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora das Dores",
+    "tipo": "matriz",
+    "cidade": "Delfinópolis",
+    "localidade": "Centro",
+    "endereco": "Praça Nossa senhora dos Remédios, 350",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/area-pastoral-nossa-senhora-das-dores",
+    "data": "2024-09-05",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Setor Cássia. Criada para quatro comunidades de Delfinópolis. Sem horário na página da paróquia no site da diocese. Perfil citado: facebook https://www.facebook.com/capela.remedios.94."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Luís Maria Grignion de Montfort",
+  "categoria": "paroquia",
+  "cidade": "Passos",
+  "padroeiro": "São Luís Maria Grignion de Montfort",
+  "contatos": {
+   "telefone": "3534138112",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "passos.saoluisparoquia@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Luís Maria Grignion de Montfort",
+    "tipo": "matriz",
+    "cidade": "Passos",
+    "localidade": "Cohab II",
+    "endereco": "Rua Juiz de Fora, 60",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-sao-luis-maria-grignion-de-montfort",
+    "data": "2024-01-23",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Setor Passos. Sem horário na página da paróquia no site da diocese. Perfil citado: facebook https://web.facebook.com/pages/Par%C3%B3quia-S%C3%A3o-Lu%C3%ADs-Maria-de-Montfort-PassosMG-1260690217326271/1260690217326271/?_rdc=1&_rdr."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Judas Tadeu",
+  "categoria": "paroquia",
+  "cidade": "Passos",
+  "padroeiro": "São Judas Tadeu",
+  "contatos": {
+   "telefone": "3535266919",
+   "whatsapp": "3535266919",
+   "instagram": "paroquiasaojudas.passosmg",
+   "site": "",
+   "email": "passos.sjudas9190@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Judas Tadeu",
+    "tipo": "matriz",
+    "cidade": "Passos",
+    "localidade": "Jardim Aclimação",
+    "endereco": "Rua Turquesa, 1700",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Dia 28 de cada mês às 19h. Há ainda missas semanais nos setores e comunidades rurais."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santo Expedito",
+    "tipo": "capela",
+    "cidade": "Passos",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-sao-judas-tadeu",
+    "data": "2025-11-17",
+    "o_que": "horarios e contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Setor Passos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José",
+  "categoria": "paroquia",
+  "cidade": "Passos",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "3535221578",
+   "whatsapp": "3535221578",
+   "instagram": "paroquiasaojosepassosmg",
+   "site": "",
+   "email": "passos.sjose9514@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São José",
+    "tipo": "matriz",
+    "cidade": "Passos",
+    "localidade": "Vila Rica",
+    "endereco": "Avenida Montense, 333",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 5,
+      "hora": "17:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Até 18h30"
+     }
+    ],
+    "nao_cabe": "Todo dia 19, missa em louvor a São José."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora do Rosário",
+    "tipo": "capela",
+    "cidade": "Passos",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Lar São Vicente de Paulo",
+    "tipo": "comunidade",
+    "cidade": "Passos",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-sao-jose-passos",
+    "data": "2026-10-08",
+    "o_que": "horarios e contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Setor Passos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Senhor Bom Jesus dos Passos",
+  "categoria": "paroquia",
+  "cidade": "Passos",
+  "padroeiro": "Senhor Bom Jesus dos Passos",
+  "contatos": {
+   "telefone": "3535216590",
+   "whatsapp": "35999860284",
+   "instagram": "senhorbomjesusdospassos",
+   "site": "",
+   "email": "passos.sbjesus2005@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Senhor Bom Jesus dos Passos",
+    "tipo": "matriz",
+    "cidade": "Passos",
+    "localidade": "Centro",
+    "endereco": "Travessa Monsenhor João Pedro, 114",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Francisco",
+    "tipo": "capela",
+    "cidade": "Passos",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-senhor-bom-jesus-dos-passos",
+    "data": "2024-01-23",
+    "o_que": "horarios e contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Setor Passos. Página da diocese atualizada em 2024-01-23."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Benedito",
+  "categoria": "paroquia",
+  "cidade": "Passos",
+  "padroeiro": "São Benedito",
+  "contatos": {
+   "telefone": "3535223047",
+   "whatsapp": "35988631532",
+   "instagram": "paroquiadesaobenedito",
+   "site": "",
+   "email": "saobeneditopassos@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Benedito",
+    "tipo": "matriz",
+    "cidade": "Passos",
+    "localidade": "São Benedito",
+    "endereco": "Rua Glória, 188, São Bendito",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Perpétuo Socorro",
+    "tipo": "capela",
+    "cidade": "Passos",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-sao-benedito-passos",
+    "data": "2024-01-23",
+    "o_que": "horarios e contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Setor Passos. Página da diocese atualizada em 2024-01-23."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Fátima",
+  "categoria": "paroquia",
+  "cidade": "Passos",
+  "padroeiro": "Nossa Senhora de Fátima",
+  "contatos": {
+   "telefone": "35998978603",
+   "whatsapp": "35998978603",
+   "instagram": "virgemdefatimapassos",
+   "site": "",
+   "email": "passos.nsfatima7651@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora de Fátima",
+    "tipo": "matriz",
+    "cidade": "Passos",
+    "localidade": "Coimbras",
+    "endereco": "praça são José, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Dia 13 de todo mês às 19h30."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Carmen Sallés",
+    "tipo": "capela",
+    "cidade": "Passos",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Sagrada Família",
+    "tipo": "capela",
+    "cidade": "Passos",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "18:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-nossa-senhora-de-fatima-passos",
+    "data": "2026-10-26",
+    "o_que": "horarios e contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Setor Passos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora das Graças",
+  "categoria": "paroquia",
+  "cidade": "Passos",
+  "padroeiro": "Nossa Senhora das Graças",
+  "contatos": {
+   "telefone": "3535224755",
+   "whatsapp": "3535224755",
+   "instagram": "",
+   "site": "",
+   "email": "passos.nsgracas6094@gmaill.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora das Graças",
+    "tipo": "matriz",
+    "cidade": "Passos",
+    "localidade": "",
+    "endereco": "Praça Nossa Senhora das Graças, 100",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Rita",
+    "tipo": "capela",
+    "cidade": "Passos",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-nossa-senhora-das-gracas-passos",
+    "data": "2026-10-13",
+    "o_que": "horarios e contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Setor Passos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Penha",
+  "categoria": "paroquia",
+  "cidade": "Passos",
+  "padroeiro": "Nossa Senhora da Penha",
+  "contatos": {
+   "telefone": "3535213538",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "passos.nspenha0800@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário Nossa Senhora da Penha",
+    "tipo": "santuario",
+    "cidade": "Passos",
+    "localidade": "Penha",
+    "endereco": "Avenida Brasil, 11",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 5,
+      "hora": "18:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "18:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Todo dia 8, às 19h, missa e novena perpétua."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora da Penha",
+    "tipo": "capela",
+    "cidade": "Passos",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santo Antônio de Pádua",
+    "tipo": "capela",
+    "cidade": "Passos",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Última segunda do mês às 20h."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-nossa-senhora-da-penha",
+    "data": "2026-02-03",
+    "o_que": "horarios e contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Setor Passos. Matriz é santuário."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Passos",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "35988023410",
+   "whatsapp": "35988023410",
+   "instagram": "pascomaparecidapassosmg",
+   "site": "",
+   "email": "passos.nsaparecida@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Passos",
+    "localidade": "Canjeranus",
+    "endereco": "Praça Nossa Senhora aparecida, 42 ",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://guaxupe.org.br/paroquias/paroquia-nossa-senhora-aparecida-passos",
+    "data": "2026-07-23",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Setor Passos. Sem horário na página da paróquia no site da diocese."
+ }
+]

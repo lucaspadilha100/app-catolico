@@ -1,0 +1,2863 @@
+[
+ {
+  "id_banco": null,
+  "nome": "Catedral Maria Mãe da Igreja",
+  "categoria": "catedral",
+  "cidade": "Paranavaí",
+  "padroeiro": "Maria Mãe da Igreja",
+  "contatos": {
+   "telefone": "4431414076",
+   "whatsapp": "4431414076",
+   "instagram": "catedralparanavai",
+   "site": "https://catedralparanavai.org.br",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Catedral Maria Mãe da Igreja",
+    "tipo": "matriz",
+    "cidade": "Paranavaí",
+    "localidade": "Jardim Iguaçu",
+    "endereco": "Avenida John Kennedy, 700",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa votiva ao Sagrado Coração de Jesus"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrado Coração de Jesus",
+    "tipo": "comunidade",
+    "cidade": "Paranavaí",
+    "localidade": "Jardim Monte Cristo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Pedro",
+    "tipo": "comunidade",
+    "cidade": "Paranavaí",
+    "localidade": "Zona Leste",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeparanavai.org.br/paroquia?paroquiaid=1",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeparanavai.org.br/horarios-de-missa/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Decanato de Paranavaí. Facebook: facebook.com/catedralparanavai. Secretaria: De segunda a sexta: 8h às 11h30 e 13h30 às 17h30. Sábado: 8h às 11h."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Paranavaí",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "4434462750",
+   "instagram": "nsaparecidapvai",
+   "site": "",
+   "email": "paroquiansaipe@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Paranavaí",
+    "localidade": "Jardim Ipe",
+    "endereco": "Rua Takeshi Mitsuyasu, 834",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "11:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa votiva ao Sagrado Coração de Jesus"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Sábado 19:30: Dia 12 de Dezembro. Somente no dia 12 do mês. Missa Votiva à Nossa Senhora Aparecida"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeparanavai.org.br/paroquia?paroquiaid=2",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeparanavai.org.br/horarios-de-missa/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Decanato de Paranavaí. Facebook: facebook.com/nsaparecidapvai. Secretaria: Segunda-feira das 13h30 às 17h30. Terça a sexta-feira das 8h às 12h e das 13h30 às 17h30. Sábado das 8h30 às 11h30."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora das Graças",
+  "categoria": "paroquia",
+  "cidade": "Paranavaí",
+  "padroeiro": "Nossa Senhora das Graças",
+  "contatos": {
+   "telefone": "4434281118",
+   "whatsapp": "44998241188",
+   "instagram": "paroquiagraciosa",
+   "site": "",
+   "email": "paroquiadasgracas@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora das Graças",
+    "tipo": "matriz",
+    "cidade": "Paranavaí",
+    "localidade": "Distrito de Graciosa",
+    "endereco": "Avenida Principal, S/N",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeparanavai.org.br/paroquia?paroquiaid=3",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeparanavai.org.br/horarios-de-missa/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Decanato de Paranavaí. Facebook: facebook.com/paroquiagraciosa."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Loanda",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "4434251729",
+   "instagram": "nsaparecida_loanda",
+   "site": "",
+   "email": "mitrapvai03@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Loanda",
+    "localidade": "Centro",
+    "endereco": "Avenida Brasil, 1069",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeparanavai.org.br/paroquia?paroquiaid=4",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeparanavai.org.br/horarios-de-missa/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Decanato de Loanda. Facebook: facebook.com/ParoquiaNossaSenhoraAparecida.Loanda. Secretaria: Segunda das 13h30 às 17h30. Terça, quarta e sexta-feira das 8h às 17h30. Quinta das 8h às 12h e das 15h às 19h. Sábado das 8h às 12h."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Fátima",
+  "categoria": "paroquia",
+  "cidade": "Santa Isabel do Ivaí",
+  "padroeiro": "Nossa Senhora de Fátima",
+  "contatos": {
+   "telefone": "44997230088",
+   "whatsapp": "44997230088",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasaojosedoivai@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora de Fátima",
+    "tipo": "matriz",
+    "cidade": "Santa Isabel do Ivaí",
+    "localidade": "Distrito São José do Ivaí",
+    "endereco": "Rua Bahia, S/N",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeparanavai.org.br/paroquia?paroquiaid=5",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeparanavai.org.br/horarios-de-missa/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Decanato de Loanda."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Paraíso do Norte",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "4434311300",
+   "whatsapp": "44999060173",
+   "instagram": "paroquia.paraiso",
+   "site": "",
+   "email": "paroquia05nsaparecida@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Paraíso do Norte",
+    "localidade": "Centro",
+    "endereco": "Rua Joaquim Nabuco, 423",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeparanavai.org.br/paroquia?paroquiaid=6",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeparanavai.org.br/horarios-de-missa/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Decanato de Paraíso do Norte. Facebook: facebook.com/paroquiadeparaiso. Secretaria: Segunda a sexta das 8h às 17h. Sábado das 7h30 às 11h30."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Fátima",
+  "categoria": "paroquia",
+  "cidade": "Paranavaí",
+  "padroeiro": "Nossa Senhora de Fátima",
+  "contatos": {
+   "telefone": "4434242433",
+   "whatsapp": "4434242433",
+   "instagram": "nsfparoquia",
+   "site": "",
+   "email": "paroquiansrafatima_sumare@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora de Fátima",
+    "tipo": "matriz",
+    "cidade": "Paranavaí",
+    "localidade": "Distrito Sumare",
+    "endereco": "Rua Angelo Bigoto, 1118",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Comunidade sem lugar na fonte: Comunidade Sagrado Coração de Jesus"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeparanavai.org.br/paroquia?paroquiaid=7",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeparanavai.org.br/horarios-de-missa/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Decanato de Paranavaí. Facebook: facebook.com/100064812185406. Secretaria: Segunda a sexta das 7h30 às 11h30 e das 13h às 17h."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Carmo",
+  "categoria": "paroquia",
+  "cidade": "Paranavaí",
+  "padroeiro": "Nossa Senhora do Carmo",
+  "contatos": {
+   "telefone": "4434247166",
+   "whatsapp": "",
+   "instagram": "paroquiadocarmopvaioficial",
+   "site": "",
+   "email": "paroquiacarmopvai@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora do Carmo",
+    "tipo": "matriz",
+    "cidade": "Paranavaí",
+    "localidade": "Jardim Sao Jorge",
+    "endereco": "Rua Leodegario Gomes Patriota, 435",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Pedro",
+    "tipo": "comunidade",
+    "cidade": "Paranavaí",
+    "localidade": "Vila Rural Águia Dourada",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Missa na última sexta-feira do mês, 19h30"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeparanavai.org.br/paroquia?paroquiaid=8",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeparanavai.org.br/horarios-de-missa/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Decanato de Paranavaí. Facebook: facebook.com/paroquiadocarmoparanavaioficial. Secretaria: Segunda a sexta das 8h às 11h30 e das 13h30 às 17h30. Sábado das 8h às 12h."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Rita de Cássia",
+  "categoria": "paroquia",
+  "cidade": "Paranavaí",
+  "padroeiro": "Santa Rita de Cássia",
+  "contatos": {
+   "telefone": "4434237241",
+   "whatsapp": "4434237241",
+   "instagram": "santaritaparanavai",
+   "site": "",
+   "email": "psantaritamorumbi@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santa Rita de Cássia",
+    "tipo": "matriz",
+    "cidade": "Paranavaí",
+    "localidade": "Parque Morumbi",
+    "endereco": "Avenida Domingos Sanches, 635",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Comunidade sem lugar na fonte: Comunidade das Águas"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeparanavai.org.br/paroquia?paroquiaid=9",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeparanavai.org.br/horarios-de-missa/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Decanato de Paranavaí. Facebook: facebook.com/p.santaritadecassia.3. Secretaria: Segunda a sexta das 8h às 11h30 e das 13h às 17h30. Sábado das 8h às 12h."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José Operário",
+  "categoria": "paroquia",
+  "cidade": "Paranavaí",
+  "padroeiro": "São José Operário",
+  "contatos": {
+   "telefone": "44920024663",
+   "whatsapp": "44920024663",
+   "instagram": "paroquiasaojosepvai",
+   "site": "",
+   "email": "paroquiasaojosepvai@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São José Operário",
+    "tipo": "matriz",
+    "cidade": "Paranavaí",
+    "localidade": "Vila Alta",
+    "endereco": "Rua Job Jacob de Freitas, 4025",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "20:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Comunidade sem lugar na fonte: Asilo Lar Vincentino"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeparanavai.org.br/paroquia?paroquiaid=10",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeparanavai.org.br/horarios-de-missa/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Decanato de Paranavaí. Facebook: facebook.com/paroquiasaojoseoperariopvai. Secretaria: Segunda a sexta das 8h às 12h e das 13h30 às 17h30. Sábado das 8h às 12h."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Paulo",
+  "categoria": "paroquia",
+  "cidade": "Paranavaí",
+  "padroeiro": "São Paulo",
+  "contatos": {
+   "telefone": "4434228087",
+   "whatsapp": "4434228087",
+   "instagram": "saopauloparanavai",
+   "site": "",
+   "email": "paroquiasaopaulopvai@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Paulo",
+    "tipo": "matriz",
+    "cidade": "Paranavaí",
+    "localidade": "Jardim Alvorada",
+    "endereco": "Rua Luiz Spigolon, 2854",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeparanavai.org.br/paroquia?paroquiaid=11",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeparanavai.org.br/horarios-de-missa/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Decanato de Paranavaí. Facebook: facebook.com/saopauloparanavai. Secretaria: Segunda das 13h às 16h. Terça a sexta das 7h30 às 12h e das 13h às 16h. Sábado das 8h às 12h."
+ },
+ {
+  "id_banco": null,
+  "nome": "Quase-Paróquia São Francisco de Assis",
+  "categoria": "quase_paroquia",
+  "cidade": "Paranavaí",
+  "padroeiro": "São Francisco de Assis",
+  "contatos": {
+   "telefone": "4439000937",
+   "whatsapp": "4439000937",
+   "instagram": "saofranciscoparanavai",
+   "site": "",
+   "email": "csaofranciscodeassis20@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Francisco de Assis",
+    "tipo": "matriz",
+    "cidade": "Paranavaí",
+    "localidade": "Jardim das Nacoes I",
+    "endereco": "Rua Aprigio Pereira da Silva, 945",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": "Sagrado Coração de Jesus"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "3º sexta-feira do mês: terço luminoso na mata às 19h30"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeparanavai.org.br/paroquia?paroquiaid=12",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeparanavai.org.br/horarios-de-missa/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Decanato de Paranavaí. Facebook: facebook.com/61557235366511. Secretaria: Segunda a sexta: 13h30 às 17h Sábado: 8h às 12h."
+ },
+ {
+  "id_banco": null,
+  "nome": "Santuário Nossa Senhora do Carmo e Paróquia São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "Paranavaí",
+  "padroeiro": "São Sebastião e Nossa Senhora do Carmo",
+  "contatos": {
+   "telefone": "4434210400",
+   "whatsapp": "4434210400",
+   "instagram": "santuariodocarmoparanavai",
+   "site": "https://santuariodocarmo.org.br",
+   "email": "ps.sebastiao@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário Nossa Senhora do Carmo",
+    "tipo": "santuario",
+    "cidade": "Paranavaí",
+    "localidade": "Centro",
+    "endereco": "Rua Getulio Vargas, 717",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": "Transmitida pelo YouTube"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": "Missa das crianças"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": "Na Capela do Santíssimo"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": "Na Capela do Santíssimo"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": "Na Capela do Santíssimo"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": "Na Capela do Santíssimo"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": "Na Capela do Santíssimo"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": "Na Capela do Santíssimo"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": "Na Capela do Santíssimo"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": "Na Capela do Santíssimo"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": "Na Capela do Santíssimo"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": "Na Capela do Santíssimo"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Vicente",
+    "tipo": "comunidade",
+    "cidade": "Paranavaí",
+    "localidade": "Jardim São Vicente",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": "Sagrado Coração de Jesus"
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora das Graças",
+    "tipo": "comunidade",
+    "cidade": "Paranavaí",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": "Sagrado Coração de Jesus"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeparanavai.org.br/paroquia?paroquiaid=13",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeparanavai.org.br/horarios-de-missa/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Decanato de Paranavaí. Secretaria: Secretaria paroquial: Terça a Sexta: 8h às 18h | Sábado: 8h às 12h Secretaria catequese: Telefone: (44) 3421-0418 (WhatsApp) Segunda a Sexta: 13h30 às 21h."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Guadalupe",
+  "categoria": "paroquia",
+  "cidade": "Loanda",
+  "padroeiro": "Nossa Senhora de Guadalupe",
+  "contatos": {
+   "telefone": "4434300186",
+   "whatsapp": "4434300186",
+   "instagram": "paroquia.nsguadalupe",
+   "site": "",
+   "email": "guadalupeparoquia@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora de Guadalupe",
+    "tipo": "matriz",
+    "cidade": "Loanda",
+    "localidade": "Vila Nova",
+    "endereco": "Rua XV de Novembro, S/N",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": "Com bênção da água e dos objetos"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeparanavai.org.br/paroquia?paroquiaid=14",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeparanavai.org.br/horarios-de-missa/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Decanato de Loanda. Facebook: facebook.com/paroquiaguadalupeloanda. Secretaria: Segunda-feira das 14h às 18h. Terça a sexta das 8h às 12h e das 14h às 18h. Sábado das 8h às 12h."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora dos Navegantes",
+  "categoria": "paroquia",
+  "cidade": "Porto Rico",
+  "padroeiro": "Nossa Senhora dos Navegantes",
+  "contatos": {
+   "telefone": "4434271240",
+   "whatsapp": "4434271240",
+   "instagram": "nsnavegantes_portorico",
+   "site": "",
+   "email": "paroquia.portorico@outlook.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora dos Navegantes",
+    "tipo": "matriz",
+    "cidade": "Porto Rico",
+    "localidade": "Centro",
+    "endereco": "Rua Waldemar T. de Farias, S/N",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": "Grupo de oração após a missa"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Terça 19:30: Terço dos homens"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeparanavai.org.br/paroquia?paroquiaid=15",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeparanavai.org.br/horarios-de-missa/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Decanato de Loanda. Facebook: facebook.com/100090316071256. Secretaria: Segunda à sexta-feira das 7h30 às 12h e das 13h às 17h. Sábado das 7h30 às 11h30."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Cruz",
+  "categoria": "paroquia",
+  "cidade": "Santa Cruz de Monte Castelo",
+  "padroeiro": "Santa Cruz",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "paroquiasantacruzscmc",
+   "site": "",
+   "email": "paroquiasantacruz10@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santa Cruz",
+    "tipo": "matriz",
+    "cidade": "Santa Cruz de Monte Castelo",
+    "localidade": "Centro",
+    "endereco": "Praça do Expedicionário José Perez Martins, S/N",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "17:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "16:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Sagrado Coração de Jesus"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": [
+       4
+      ],
+      "observacao": "Missa com as crianças"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "20:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeparanavai.org.br/paroquia?paroquiaid=16",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeparanavai.org.br/horarios-de-missa/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Decanato de Loanda. Facebook: facebook.com/100009643514218. Secretaria: Segunda à sexta-feira das 7h30 às 17h. Sábado das 8h às 12h."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Isabel, Mãe do Precursor",
+  "categoria": "paroquia",
+  "cidade": "Santa Isabel do Ivaí",
+  "padroeiro": "Santa Isabel, Mãe do Precursor",
+  "contatos": {
+   "telefone": "4434531385",
+   "whatsapp": "",
+   "instagram": "paroquiasantaisabeldoivai",
+   "site": "",
+   "email": "paroquiasantaisabel09@bol.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santa Isabel, Mãe do Precursor",
+    "tipo": "matriz",
+    "cidade": "Santa Isabel do Ivaí",
+    "localidade": "Centro",
+    "endereco": "Praça Dr. Eduardo Otto, 11",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:30",
+      "semanas": [
+       2
+      ],
+      "observacao": "Grupo Chama Viva, Área Alta"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": [
+       4
+      ],
+      "observacao": "AMOVOSI, Área Baixa"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeparanavai.org.br/paroquia?paroquiaid=17",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeparanavai.org.br/horarios-de-missa/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Decanato de Loanda. Facebook: facebook.com/PadroeiraSantaIsabel. Secretaria: Segunda a sexta das 8h às 11h30 e das 13h30 às 17h. Sábado das 8h às 12h."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Mônica",
+  "categoria": "paroquia",
+  "cidade": "Santa Mônica",
+  "padroeiro": "Santa Mônica",
+  "contatos": {
+   "telefone": "4434551255",
+   "whatsapp": "",
+   "instagram": "paroquiasantamonica_27",
+   "site": "",
+   "email": "paroquiasantamonica@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santa Mônica",
+    "tipo": "matriz",
+    "cidade": "Santa Mônica",
+    "localidade": "Centro",
+    "endereco": "Avenida XV de Novembro, S/N",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeparanavai.org.br/paroquia?paroquiaid=18",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeparanavai.org.br/horarios-de-missa/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Decanato de Loanda. Facebook: facebook.com/100068994976739. Secretaria: Segunda a sexta das 13h30 às 17h."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Terezinha do Menino Jesus",
+  "categoria": "paroquia",
+  "cidade": "Planaltina do Paraná",
+  "padroeiro": "Santa Terezinha do Menino Jesus",
+  "contatos": {
+   "telefone": "44999203558",
+   "whatsapp": "44999203558",
+   "instagram": "paroquia.s.terezinha",
+   "site": "",
+   "email": "st.terezinha@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santa Terezinha do Menino Jesus",
+    "tipo": "matriz",
+    "cidade": "Planaltina do Paraná",
+    "localidade": "Centro",
+    "endereco": "Praça Giacomo Madalozzo, 231",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeparanavai.org.br/paroquia?paroquiaid=19",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeparanavai.org.br/horarios-de-missa/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Decanato de Loanda. Facebook: facebook.com/paroquiaplanaltinapr. Secretaria: Segunda a sexta-feira das 8h às 11h30 e das 13h às 17h30. Sábado das 8h às 12h."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Paulo Apóstolo",
+  "categoria": "paroquia",
+  "cidade": "Querência do Norte",
+  "padroeiro": "São Paulo, Apóstolo",
+  "contatos": {
+   "telefone": "4434621535",
+   "whatsapp": "4434621535",
+   "instagram": "paroquiaspauloapostolo",
+   "site": "",
+   "email": "paroquiaspauloapostolo@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Paulo Apóstolo",
+    "tipo": "matriz",
+    "cidade": "Querência do Norte",
+    "localidade": "Centro",
+    "endereco": "Avenida Valdemar dos Santos, 714",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeparanavai.org.br/paroquia?paroquiaid=20",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeparanavai.org.br/horarios-de-missa/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Decanato de Loanda. Facebook: facebook.com/paroquiaspaulo. Secretaria: Segunda a sexta das 8h às 11h30 e das 13h às 17h30. Sábado das 8h às 12h."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Pedro",
+  "categoria": "paroquia",
+  "cidade": "São Pedro do Paraná",
+  "padroeiro": "São Pedro",
+  "contatos": {
+   "telefone": "4434641082",
+   "whatsapp": "4434641082",
+   "instagram": "psaopedropr",
+   "site": "",
+   "email": "paroquiasp1@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Pedro",
+    "tipo": "matriz",
+    "cidade": "São Pedro do Paraná",
+    "localidade": "Centro",
+    "endereco": "Avenida Paraná, 213",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeparanavai.org.br/paroquia?paroquiaid=21",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeparanavai.org.br/horarios-de-missa/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Decanato de Loanda. Facebook: facebook.com/paroquiasp. Secretaria: Segunda a sexta das 8h às 12h e das 14h às 18h. Sábado das 8h às 12h."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Fátima",
+  "categoria": "paroquia",
+  "cidade": "Amaporã",
+  "padroeiro": "Nossa Senhora de Fátima",
+  "contatos": {
+   "telefone": "44991425075",
+   "whatsapp": "44991425075",
+   "instagram": "paroquiamapora",
+   "site": "",
+   "email": "paroquia_ns_fatima@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora de Fátima",
+    "tipo": "matriz",
+    "cidade": "Amaporã",
+    "localidade": "Centro",
+    "endereco": "Praça Dom Elizeu de Morais Pimentel, S/N",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Amaporã",
+    "localidade": "Assentamento Rozeli Nunes",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeparanavai.org.br/paroquia?paroquiaid=22",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeparanavai.org.br/horarios-de-missa/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Decanato de Paraíso do Norte. Facebook: facebook.com/nossasenhoradefatimaamapora. Secretaria: Segunda à sexta-feira das 8h às 11h30 e das 13h às 17h. Sábado das 8h às 12h."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio de Pádua",
+  "categoria": "paroquia",
+  "cidade": "Tamboara",
+  "padroeiro": "Santo Antônio de Pádua",
+  "contatos": {
+   "telefone": "4434601206",
+   "whatsapp": "4434601206",
+   "instagram": "paroquiasantoantonio.tamboara",
+   "site": "",
+   "email": "mitrapvai07@bol.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santo Antônio de Pádua",
+    "tipo": "matriz",
+    "cidade": "Tamboara",
+    "localidade": "Centro",
+    "endereco": "Praça Alfredo Luis Beltrame, 1711",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeparanavai.org.br/paroquia?paroquiaid=23",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeparanavai.org.br/horarios-de-missa/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Decanato de Paraíso do Norte. Facebook: facebook.com/ParoquiaTamboaraPR. Secretaria: Segunda a sexta das 8h às 12h e das 13h30 às 17h45."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Carlos Borromeu",
+  "categoria": "paroquia",
+  "cidade": "São Carlos do Ivaí",
+  "padroeiro": "São Carlos Borromeu",
+  "contatos": {
+   "telefone": "4434381202",
+   "whatsapp": "44991494609",
+   "instagram": "paroquia.saocarlosborromeu",
+   "site": "",
+   "email": "paroquiasaocarlos@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Carlos Borromeu",
+    "tipo": "matriz",
+    "cidade": "São Carlos do Ivaí",
+    "localidade": "Centro",
+    "endereco": "Rua Marechal Deodoro, 674",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeparanavai.org.br/paroquia?paroquiaid=24",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeparanavai.org.br/horarios-de-missa/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Decanato de Paraíso do Norte. Facebook: facebook.com/redesaocarlosborromeu."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "São João do Caiuá",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "44998998217",
+   "whatsapp": "44998998217",
+   "instagram": "sjbatistaonline_",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São João Batista",
+    "tipo": "matriz",
+    "cidade": "São João do Caiuá",
+    "localidade": "Centro",
+    "endereco": "Praça Padre Tadeu Wizikroski, S/N",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Comunidade sem lugar na fonte: Comunidade Santa Honesta"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "São João do Caiuá",
+    "localidade": "Assentamento Taperivá",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeparanavai.org.br/paroquia?paroquiaid=25",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeparanavai.org.br/horarios-de-missa/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Decanato de Paraíso do Norte. Facebook: facebook.com/sjbatistaonline. Secretaria: Segunda a sexta das 8h às 12h e das 14h às 18h. Sábado das 8h às 12h."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "Mirador",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "44991039240",
+   "whatsapp": "44991039240",
+   "instagram": "",
+   "site": "",
+   "email": "saojoaobatistademirador@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São João Batista",
+    "tipo": "matriz",
+    "cidade": "Mirador",
+    "localidade": "Centro",
+    "endereco": "Avenida Rocha Pombo, S/N",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "20:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeparanavai.org.br/paroquia?paroquiaid=26",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeparanavai.org.br/horarios-de-missa/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Decanato de Paraíso do Norte. Facebook: facebook.com/redesaocarlosborromeu. Secretaria: Segunda a sexta das 13h às 17h."
+ },
+ {
+  "id_banco": null,
+  "nome": "Santuário Santo Antônio de Pádua",
+  "categoria": "paroquia",
+  "cidade": "Alto Paraná",
+  "padroeiro": "Santo Antônio de Pádua",
+  "contatos": {
+   "telefone": "4434471167",
+   "whatsapp": "4434471167",
+   "instagram": "paroquiaaltoparana",
+   "site": "",
+   "email": "paroquia.altoparana@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário Santo Antônio de Pádua",
+    "tipo": "santuario",
+    "cidade": "Alto Paraná",
+    "localidade": "Centro",
+    "endereco": "Praça Dom Benjamin de Souza Gomes, S/N",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeparanavai.org.br/paroquia?paroquiaid=27",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeparanavai.org.br/horarios-de-missa/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Decanato de Paraíso do Norte. Facebook: facebook.com/paroquiasantoantonioaltoparana. Secretaria: Segunda a sexta-feira das 8h às 12h30 e das 13h30 às 17h. Sábado das 8h às 12h."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Glória",
+  "categoria": "paroquia",
+  "cidade": "Itaúna do Sul",
+  "padroeiro": "Nossa Senhora da Glória",
+  "contatos": {
+   "telefone": "4434361350",
+   "whatsapp": "",
+   "instagram": "pascomitauna",
+   "site": "",
+   "email": "paroquiaitaunadosul@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora da Glória",
+    "tipo": "matriz",
+    "cidade": "Itaúna do Sul",
+    "localidade": "Centro",
+    "endereco": "Rua Paraná, 592",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Comunidade sem lugar na fonte: Comunidade São João Batista (SP/PR)"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeparanavai.org.br/paroquia?paroquiaid=28",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeparanavai.org.br/horarios-de-missa/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Decanato de Terra Rica. Facebook: facebook.com/paroquiansradagloriais. Secretaria: Segunda a sexta das 14h às 17h."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Helena",
+  "categoria": "paroquia",
+  "cidade": "Marilena",
+  "padroeiro": "Santa Helena",
+  "contatos": {
+   "telefone": "4434481478",
+   "whatsapp": "4434481478",
+   "instagram": "paroquiasantahelena18",
+   "site": "",
+   "email": "stahelenamarilena@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santa Helena",
+    "tipo": "matriz",
+    "cidade": "Marilena",
+    "localidade": "Centro",
+    "endereco": "Rua Natal, 550",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeparanavai.org.br/paroquia?paroquiaid=29",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeparanavai.org.br/horarios-de-missa/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Decanato de Terra Rica. Facebook: facebook.com/paroquia.santa.helena.marilena.parana. Secretaria: Segunda das 13h às 17h. Terça a sexta das 8h às 11h30 e das 14h às 17h. Sábado das 8h30 às 12h."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Terezinha do Menino Jesus",
+  "categoria": "paroquia",
+  "cidade": "Guairaçá",
+  "padroeiro": "Santa Terezinha do Menino Jesus",
+  "contatos": {
+   "telefone": "4434421214",
+   "whatsapp": "44991641562",
+   "instagram": "paroquiasantaterezinhagca",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santa Terezinha do Menino Jesus",
+    "tipo": "matriz",
+    "cidade": "Guairaçá",
+    "localidade": "Centro",
+    "endereco": "Rua Francisco Vieira, 885",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Comunidade sem lugar na fonte: Comunidade São Francisco"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeparanavai.org.br/paroquia?paroquiaid=30",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeparanavai.org.br/horarios-de-missa/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Decanato de Terra Rica. Facebook: facebook.com/santaterezinhaguairaca. Secretaria: Segunda a sexta das 8h às 11h30 e das 13h30 às 17h. Sábado das 8h às 11h30."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio de Pádua",
+  "categoria": "paroquia",
+  "cidade": "Santo Antônio do Caiuá",
+  "padroeiro": "Santo Antônio de Pádua",
+  "contatos": {
+   "telefone": "44991039944",
+   "whatsapp": "44991039944",
+   "instagram": "santoantdepadua",
+   "site": "",
+   "email": "paroquia.antonio@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santo Antônio de Pádua",
+    "tipo": "matriz",
+    "cidade": "Santo Antônio do Caiuá",
+    "localidade": "Centro",
+    "endereco": "Praça Dom Benjamim de S. Gomes, 330",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Domingo 18:00: Somente no último domingo do mês"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeparanavai.org.br/paroquia?paroquiaid=31",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeparanavai.org.br/horarios-de-missa/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Decanato de Terra Rica. Facebook: facebook.com/SantoAntdepadua. Secretaria: Segunda a sexta das 13h às 17h30. Sábado das 8h às 11h."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio de Pádua",
+  "categoria": "paroquia",
+  "cidade": "Terra Rica",
+  "padroeiro": "Santo Antônio de Pádua",
+  "contatos": {
+   "telefone": "4434411149",
+   "whatsapp": "",
+   "instagram": "p.santoantoniotr",
+   "site": "",
+   "email": "psantoantonio.terrarica@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santo Antônio de Pádua",
+    "tipo": "matriz",
+    "cidade": "Terra Rica",
+    "localidade": "Centro",
+    "endereco": "Praça Padre Nestor Welter, 26",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "16:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Comunidade sem lugar na fonte: Comunidade Beata Elena Guerra"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeparanavai.org.br/paroquia?paroquiaid=32",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeparanavai.org.br/horarios-de-missa/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Decanato de Terra Rica. Facebook: facebook.com/p.santoantoniotr. Secretaria: Segunda a sexta das 8h às 11h30 e das 13h às 17h30. Sábado das 8h às 12h."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José",
+  "categoria": "paroquia",
+  "cidade": "Diamante do Norte",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "44998420740",
+   "whatsapp": "",
+   "instagram": "psj.diamante",
+   "site": "",
+   "email": "psj.diamante@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São José",
+    "tipo": "matriz",
+    "cidade": "Diamante do Norte",
+    "localidade": "Centro",
+    "endereco": "Avenida Goiás, 426",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeparanavai.org.br/paroquia?paroquiaid=33",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeparanavai.org.br/horarios-de-missa/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Decanato de Terra Rica. Facebook: facebook.com/1711046279111953. Secretaria: Segunda a sexta das 8h às 11h30 e das 13h às 17h. Sábado das 8h às 12h."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Pio X",
+  "categoria": "paroquia",
+  "cidade": "Terra Rica",
+  "padroeiro": "São Pio X",
+  "contatos": {
+   "telefone": "4434491167",
+   "whatsapp": "",
+   "instagram": "paroquiasaopioxadhemar",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Pio X",
+    "tipo": "matriz",
+    "cidade": "Terra Rica",
+    "localidade": "Distrito Adhemar de Barros",
+    "endereco": "Avenida Iporã, 180",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeparanavai.org.br/paroquia?paroquiaid=34",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeparanavai.org.br/horarios-de-missa/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Decanato de Terra Rica. Facebook: facebook.com/ParoquiaSaoPioXAdhemar. Secretaria: Segunda a sexta das 8h às 11h30 e das 13h às 17h30. Sábado das 8h às 12h."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Pio X e Santa Rita de Cássia",
+  "categoria": "paroquia",
+  "cidade": "Nova Londrina",
+  "padroeiro": "São Pio X e Santa Rita de Cássia",
+  "contatos": {
+   "telefone": "44997133722",
+   "whatsapp": "44997133722",
+   "instagram": "paroquiasaopioxsantarita",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Pio X e Santa Rita de Cássia",
+    "tipo": "matriz",
+    "cidade": "Nova Londrina",
+    "localidade": "Centro",
+    "endereco": "Praça da Matriz, 506",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Quarta 19:30: Somente na última quarta-feira do mês. Missa por cura e libertação"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeparanavai.org.br/paroquia?paroquiaid=35",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeparanavai.org.br/horarios-de-missa/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Decanato de Terra Rica. Facebook: facebook.com/ParoquiaSPioXESRitaDeCassia. Secretaria: Segunda à sexta das 8h às 18h. Sábado das 8h às 10h30."
+ },
+ {
+  "id_banco": null,
+  "nome": "Capela São Benedito",
+  "categoria": "area_pastoral",
+  "cidade": "Nova Aliança do Ivaí",
+  "padroeiro": "São Benedito",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "44991719227",
+   "instagram": "saobenedito.capela",
+   "site": "",
+   "email": "capelasaobenedito.nai@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Capela São Benedito",
+    "tipo": "matriz",
+    "cidade": "Nova Aliança do Ivaí",
+    "localidade": "Centro",
+    "endereco": "Avenida Francisco Pires de Lemos, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeparanavai.org.br/paroquia?paroquiaid=36",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeparanavai.org.br/horarios-de-missa/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Decanato de Paraíso do Norte. A diocese lista esta capela entre as paróquias, com padre próprio; a natureza canônica não é dita (o GCatholic conta 34 paróquias e 1 missão). Entrou como área pastoral. Secretaria: Somente aos sábados, das 7h às 17h."
+ }
+]

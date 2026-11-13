@@ -1,0 +1,4266 @@
+[
+ {
+  "id_banco": null,
+  "nome": "Catedral Nossa Senhora da Oliveira",
+  "categoria": "catedral",
+  "cidade": "Vacaria",
+  "padroeiro": "Nossa Senhora da Oliveira",
+  "contatos": {
+   "telefone": "5432311375",
+   "whatsapp": "5432311375",
+   "instagram": "",
+   "site": "",
+   "email": "nsoliveira.catedral@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Catedral Nossa Senhora da Oliveira",
+    "tipo": "matriz",
+    "cidade": "Vacaria",
+    "localidade": "Centro",
+    "endereco": "Rua Borges de Medeiros, 1335",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Quinta-feira, 18h: missa no Santuário (assim na fonte). Comunidades sem lugar publicado: Bairro Industrial, Bela Vista."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Caravággio",
+    "tipo": "comunidade",
+    "cidade": "Vacaria",
+    "localidade": "Bairro Imperial e Franciosi",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Cristóvão",
+    "tipo": "comunidade",
+    "cidade": "Vacaria",
+    "localidade": "Bairro Monte Claro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrada Família",
+    "tipo": "comunidade",
+    "cidade": "Vacaria",
+    "localidade": "Bairro Porcínio e Nossa Senhora da Oliveira",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesevacaria.com.br/paroquias/paroquia-nossa-senhora-da-oliveira-catedral/",
+    "data": "2026-06-09",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Facebook: Catedral (citado sem nome de perfil). Forania de Vacaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Glória",
+  "categoria": "paroquia",
+  "cidade": "Vacaria",
+  "padroeiro": "Nossa Senhora da Glória",
+  "contatos": {
+   "telefone": "5432312284",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiadagloria@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora da Glória",
+    "tipo": "matriz",
+    "cidade": "Vacaria",
+    "localidade": "Glória",
+    "endereco": "Rua Campos Sales, 1500",
+    "horarios": [],
+    "nao_cabe": "Comunidades sem lugar publicado: São Francisco."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Vacaria",
+    "localidade": "Municipal",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Vacaria",
+    "localidade": "Vitória",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Perpétuo Socorro",
+    "tipo": "comunidade",
+    "cidade": "Vacaria",
+    "localidade": "Santa Cruz",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Terezinha",
+    "tipo": "comunidade",
+    "cidade": "Vacaria",
+    "localidade": "Mauá - Km 5",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Miguel",
+    "tipo": "comunidade",
+    "cidade": "Vacaria",
+    "localidade": "Ramada",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Saúde",
+    "tipo": "comunidade",
+    "cidade": "Vacaria",
+    "localidade": "Capão Herança",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Pedro",
+    "tipo": "comunidade",
+    "cidade": "Vacaria",
+    "localidade": "Coxilha Grande",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Caravággio",
+    "tipo": "comunidade",
+    "cidade": "Vacaria",
+    "localidade": "Coxilha Grande",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Imaculada Conceição",
+    "tipo": "comunidade",
+    "cidade": "Vacaria",
+    "localidade": "Itacolomi",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesevacaria.com.br/paroquias/paroquia-nossa-senhora-da-gloria-vacaria/",
+    "data": "2024-03-26",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "A página da diocese não traz horários (atualizada em 2024). Facebook: Paróquia Nossa Senhora da Glória. Forania de Vacaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Fátima",
+  "categoria": "paroquia",
+  "cidade": "Vacaria",
+  "padroeiro": "Nossa Senhora de Fátima",
+  "contatos": {
+   "telefone": "5432311328",
+   "whatsapp": "54996301328",
+   "instagram": "",
+   "site": "",
+   "email": "secfatima@ofmcaprs.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora de Fátima",
+    "tipo": "matriz",
+    "cidade": "Vacaria",
+    "localidade": "",
+    "endereco": "Rua Largo de Fátima, 103",
+    "horarios": [],
+    "nao_cabe": "Comunidades sem lugar publicado: Chácara das Palmeiras."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Vacaria",
+    "localidade": "Vista Alegre",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Consoladora",
+    "tipo": "comunidade",
+    "cidade": "Vacaria",
+    "localidade": "Bairro Cristal",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Divino Espírito Santo",
+    "tipo": "comunidade",
+    "cidade": "Vacaria",
+    "localidade": "Bairro Lomba Chata",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Cristóvão",
+    "tipo": "comunidade",
+    "cidade": "Vacaria",
+    "localidade": "Bairro Jardim dos Pampas",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco de Assis",
+    "tipo": "comunidade",
+    "cidade": "Vacaria",
+    "localidade": "Bairro Borges",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Vacaria",
+    "localidade": "Bairro São José",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Bárbara",
+    "tipo": "comunidade",
+    "cidade": "Vacaria",
+    "localidade": "Bairro Barcelos",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Luzia",
+    "tipo": "comunidade",
+    "cidade": "Vacaria",
+    "localidade": "Bairro Santana",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Batista",
+    "tipo": "comunidade",
+    "cidade": "Vacaria",
+    "localidade": "Bairro São João",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Peregrino",
+    "tipo": "comunidade",
+    "cidade": "Vacaria",
+    "localidade": "Bairro Pradense",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Rita de Cássia",
+    "tipo": "comunidade",
+    "cidade": "Vacaria",
+    "localidade": "Bairro Kennedy",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Sebastião",
+    "tipo": "comunidade",
+    "cidade": "Vacaria",
+    "localidade": "Bairro Petrópolis",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Monte Alegre dos Campos",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Carmo",
+    "tipo": "comunidade",
+    "cidade": "Monte Alegre dos Campos",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Catarina",
+    "tipo": "comunidade",
+    "cidade": "Monte Alegre dos Campos",
+    "localidade": "Passo do Carro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco de Assis",
+    "tipo": "comunidade",
+    "cidade": "Monte Alegre dos Campos",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora das Graças",
+    "tipo": "comunidade",
+    "cidade": "Monte Alegre dos Campos",
+    "localidade": "Enxovia",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Monte Alegre dos Campos",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Judas Tadeu",
+    "tipo": "comunidade",
+    "cidade": "Monte Alegre dos Campos",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Lourdes",
+    "tipo": "comunidade",
+    "cidade": "Monte Alegre dos Campos",
+    "localidade": "Enxovia",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Luz",
+    "tipo": "comunidade",
+    "cidade": "Monte Alegre dos Campos",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Menino Deus",
+    "tipo": "comunidade",
+    "cidade": "Monte Alegre dos Campos",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Saúde",
+    "tipo": "comunidade",
+    "cidade": "Monte Alegre dos Campos",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Sebastião",
+    "tipo": "comunidade",
+    "cidade": "Monte Alegre dos Campos",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Caravággio",
+    "tipo": "comunidade",
+    "cidade": "Vacaria",
+    "localidade": "Raia Gaúcha",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Rosário",
+    "tipo": "comunidade",
+    "cidade": "Vacaria",
+    "localidade": "Refugiado",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Luzia",
+    "tipo": "comunidade",
+    "cidade": "Vacaria",
+    "localidade": "Refugiado",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrado Coração de Jesus",
+    "tipo": "comunidade",
+    "cidade": "Vacaria",
+    "localidade": "Invernada dos Borges",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesevacaria.com.br/paroquias/paroquia-nossa-senhora-de-fatima-vacaria/",
+    "data": "2026-09-11",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Freis capuchinhos; atende também Monte Alegre dos Campos. A página da diocese não traz horários. Facebook: Paróquia Nossa Senhora de Fátima. Forania de Vacaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Senhor Bom Jesus",
+  "categoria": "paroquia",
+  "cidade": "Bom Jesus",
+  "padroeiro": "Senhor Bom Jesus",
+  "contatos": {
+   "telefone": "54992709540",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Senhor Bom Jesus",
+    "tipo": "matriz",
+    "cidade": "Bom Jesus",
+    "localidade": "",
+    "endereco": "Rua Laurindo Paim, 650",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "18:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrado Coração de Jesus",
+    "tipo": "comunidade",
+    "cidade": "Bom Jesus",
+    "localidade": "Boca da Serra",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Bom Jesus",
+    "localidade": "Barra do Moraes",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Catarina",
+    "tipo": "comunidade",
+    "cidade": "Bom Jesus",
+    "localidade": "Bairro Santa Catarina",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Bom Jesus",
+    "localidade": "Passo dos Varões",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Sebastião",
+    "tipo": "comunidade",
+    "cidade": "Bom Jesus",
+    "localidade": "Itaimbezinho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Terezinha",
+    "tipo": "comunidade",
+    "cidade": "Bom Jesus",
+    "localidade": "Rincão dos Tordilhos",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco",
+    "tipo": "comunidade",
+    "cidade": "Bom Jesus",
+    "localidade": "Governador",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Luís",
+    "tipo": "comunidade",
+    "cidade": "Bom Jesus",
+    "localidade": "Governador",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Pedro",
+    "tipo": "comunidade",
+    "cidade": "Bom Jesus",
+    "localidade": "Governador",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Mãe dos Homens",
+    "tipo": "comunidade",
+    "cidade": "Bom Jesus",
+    "localidade": "Casa Branca",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Inácio",
+    "tipo": "comunidade",
+    "cidade": "Bom Jesus",
+    "localidade": "Industrial",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Manoel",
+    "tipo": "comunidade",
+    "cidade": "Bom Jesus",
+    "localidade": "Caraúno",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Bom Jesus",
+    "localidade": "Hortêncio Dutra",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Lourdes",
+    "tipo": "comunidade",
+    "cidade": "Bom Jesus",
+    "localidade": "Arrepio",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Fátima",
+    "tipo": "comunidade",
+    "cidade": "Bom Jesus",
+    "localidade": "Matemático",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Bom Jesus",
+    "localidade": "Fundo dos Alamos",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesevacaria.com.br/paroquias/1509-2/",
+    "data": "2025-08-25",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "E-mail publicado incompleto (p.bomjesus2022@gmail). Forania de Vacaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "Esmeralda",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "5433541324",
+   "whatsapp": "54981229884",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São João Batista",
+    "tipo": "matriz",
+    "cidade": "Esmeralda",
+    "localidade": "",
+    "endereco": "Rua Antônio Inácio Velho, 410",
+    "horarios": [],
+    "nao_cabe": "Comunidades sem lugar publicado: Nossa Senhora da Conceição, Nossa Senhora Consoladora, Santa Bárbara, Santa Terezinha, Santo Antônio, Santuário Senhor Bom Jesus, São Sebastião, São Cristóvão, São Jorge, São Pedro, São Roque, Nossa Senhora da Saúde."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Esmeralda",
+    "localidade": "Barra Grande",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Esmeralda",
+    "localidade": "Serra dos Gregórios",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Isidoro",
+    "tipo": "comunidade",
+    "cidade": "Esmeralda",
+    "localidade": "Reassentamento Dom Orlando Dotti",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Divino Espírito Santo",
+    "tipo": "comunidade",
+    "cidade": "Esmeralda",
+    "localidade": "Porteira do Pinhal",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Fátima",
+    "tipo": "comunidade",
+    "cidade": "Esmeralda",
+    "localidade": "Agência",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Salete",
+    "tipo": "comunidade",
+    "cidade": "Esmeralda",
+    "localidade": "Reassentamento",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Carmo",
+    "tipo": "comunidade",
+    "cidade": "Esmeralda",
+    "localidade": "Bairro Goulart",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Rosário",
+    "tipo": "comunidade",
+    "cidade": "Esmeralda",
+    "localidade": "Extrema",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Catarina",
+    "tipo": "comunidade",
+    "cidade": "Esmeralda",
+    "localidade": "Guabijú",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Paulina",
+    "tipo": "comunidade",
+    "cidade": "Esmeralda",
+    "localidade": "Capão Alto",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco",
+    "tipo": "comunidade",
+    "cidade": "Esmeralda",
+    "localidade": "Reassentamento",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Pinhal da Serra",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Miguel",
+    "tipo": "comunidade",
+    "cidade": "Esmeralda",
+    "localidade": "Prédio",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesevacaria.com.br/paroquias/paroquia-sao-joao-batista-esmeralda/",
+    "data": "2026-02-04",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Abrange Esmeralda e Pinhal da Serra; a fonte não diz em qual município fica cada comunidade (só São José, em Pinhal da Serra). A página da diocese não traz horários. Instagram citado sem o nome do perfil. Forania de Vacaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José",
+  "categoria": "paroquia",
+  "cidade": "São José dos Ausentes",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "54996193012",
+   "whatsapp": "54996193012",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São José",
+    "tipo": "matriz",
+    "cidade": "São José dos Ausentes",
+    "localidade": "Centro",
+    "endereco": "Avenida Ismênia Ribeiro Velho, 609",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "São José dos Ausentes",
+    "localidade": "Distrito Várzea",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora das Graças",
+    "tipo": "comunidade",
+    "cidade": "São José dos Ausentes",
+    "localidade": "Distrito Silveira",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Pedro",
+    "tipo": "comunidade",
+    "cidade": "São José dos Ausentes",
+    "localidade": "Distrito São Gonçalo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "São José dos Ausentes",
+    "localidade": "Distrito Escola XV",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Paulina",
+    "tipo": "comunidade",
+    "cidade": "São José dos Ausentes",
+    "localidade": "Distrito Campo Novo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Desatadora dos Nós",
+    "tipo": "comunidade",
+    "cidade": "São José dos Ausentes",
+    "localidade": "Chapadão",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Fátima",
+    "tipo": "comunidade",
+    "cidade": "São José dos Ausentes",
+    "localidade": "Morro da Igreja",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Perpétuo Socorro",
+    "tipo": "comunidade",
+    "cidade": "São José dos Ausentes",
+    "localidade": "Lageadinho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Terezinha do Menino Jesus",
+    "tipo": "comunidade",
+    "cidade": "São José dos Ausentes",
+    "localidade": "Faxinal Preto",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Salette",
+    "tipo": "comunidade",
+    "cidade": "São José dos Ausentes",
+    "localidade": "Mangueira Nova",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Oliveira",
+    "tipo": "comunidade",
+    "cidade": "São José dos Ausentes",
+    "localidade": "Butiá",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Fátima",
+    "tipo": "comunidade",
+    "cidade": "São José dos Ausentes",
+    "localidade": "Mangueira Velha",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesevacaria.com.br/paroquias/paroquia-sao-jose-sao-jose-dos-ausentes/",
+    "data": "2024-08-20",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Administrada pelo clero de Bom Jesus. A página da diocese não traz horários (atualizada em 2024). Forania de Vacaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio de Pádua",
+  "categoria": "paroquia",
+  "cidade": "Muitos Capões",
+  "padroeiro": "Santo Antônio de Pádua",
+  "contatos": {
+   "telefone": "54999464717",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "psantoniodepaduamc@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santo Antônio de Pádua",
+    "tipo": "matriz",
+    "cidade": "Muitos Capões",
+    "localidade": "Centro",
+    "endereco": "Rua João Claro Pereira, 192",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Comunidades sem lugar publicado: Santa Rita, Santa Terezinha, Baraúna."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Sebastião",
+    "tipo": "comunidade",
+    "cidade": "Muitos Capões",
+    "localidade": "Capão Grande",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Perpétuo Socorro",
+    "tipo": "comunidade",
+    "cidade": "Muitos Capões",
+    "localidade": "Bom Retiro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora das Graças",
+    "tipo": "comunidade",
+    "cidade": "Muitos Capões",
+    "localidade": "Capão Alto",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Roque",
+    "tipo": "comunidade",
+    "cidade": "Muitos Capões",
+    "localidade": "Fazenda das Laranjeiras",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Imaculada Conceição",
+    "tipo": "comunidade",
+    "cidade": "Muitos Capões",
+    "localidade": "Ituim",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora dos Navegantes",
+    "tipo": "comunidade",
+    "cidade": "Muitos Capões",
+    "localidade": "Limeira",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Divino Espírito Santo",
+    "tipo": "comunidade",
+    "cidade": "Muitos Capões",
+    "localidade": "Várzea dos Antunes",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Fátima",
+    "tipo": "comunidade",
+    "cidade": "Muitos Capões",
+    "localidade": "Fazenda da Estrela",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Roque",
+    "tipo": "comunidade",
+    "cidade": "Muitos Capões",
+    "localidade": "Assentamento Nova Estrela",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Muitos Capões",
+    "localidade": "Assentamento Nova Batalha - Fazenda da Estrela",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesevacaria.com.br/paroquias/paroquia-santo-antonio-muitos-capoes/",
+    "data": "2025-08-21",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "A diocese só publica a missa de domingo. Forania de Vacaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Paulo Apóstolo",
+  "categoria": "paroquia",
+  "cidade": "Lagoa Vermelha",
+  "padroeiro": "São Paulo Apóstolo",
+  "contatos": {
+   "telefone": "5499081901",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Paulo Apóstolo",
+    "tipo": "matriz",
+    "cidade": "Lagoa Vermelha",
+    "localidade": "Centro",
+    "endereco": "Rua Afonso Pena, 115",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Sebastião",
+    "tipo": "comunidade",
+    "cidade": "Lagoa Vermelha",
+    "localidade": "Bairro São Sebastião",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Lagoa Vermelha",
+    "localidade": "Bairro Gaúcha",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Rita",
+    "tipo": "comunidade",
+    "cidade": "Lagoa Vermelha",
+    "localidade": "Bairro Gentil",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Batista",
+    "tipo": "comunidade",
+    "cidade": "Lagoa Vermelha",
+    "localidade": "Bairro Suzana",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Luzia",
+    "tipo": "comunidade",
+    "cidade": "Lagoa Vermelha",
+    "localidade": "Bairro Boa Vista",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Divino Espírito Santo",
+    "tipo": "comunidade",
+    "cidade": "Lagoa Vermelha",
+    "localidade": "Divininho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Sebastião",
+    "tipo": "comunidade",
+    "cidade": "Lagoa Vermelha",
+    "localidade": "Vimes",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Guadalupe",
+    "tipo": "comunidade",
+    "cidade": "Capão Bonito do Sul",
+    "localidade": "Capão Grande",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco",
+    "tipo": "comunidade",
+    "cidade": "Lagoa Vermelha",
+    "localidade": "Rincão São Francisco",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Sebastião",
+    "tipo": "comunidade",
+    "cidade": "Lagoa Vermelha",
+    "localidade": "Capão do Cipó",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Caravággio",
+    "tipo": "comunidade",
+    "cidade": "Capão Bonito do Sul",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Lagoa Vermelha",
+    "localidade": "Lajeado dos Ivos",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Lagoa Vermelha",
+    "localidade": "Capão do Cedro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Lagoa Vermelha",
+    "localidade": "Pizamiglio",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Brás",
+    "tipo": "comunidade",
+    "cidade": "Lagoa Vermelha",
+    "localidade": "São Brás",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora das Graças",
+    "tipo": "comunidade",
+    "cidade": "Lagoa Vermelha",
+    "localidade": "Sítio do Herval",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Lagoa Vermelha",
+    "localidade": "Alecrim",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Cristóvão",
+    "tipo": "comunidade",
+    "cidade": "Lagoa Vermelha",
+    "localidade": "Reassentamento",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Capão Bonito do Sul",
+    "localidade": "Assentamento",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesevacaria.com.br/paroquias/paroquia-sao-paulo-apostolo-lagoa-vermelha/",
+    "data": "2026-09-09",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Atende também Capão Bonito do Sul. Telefone publicado com 8 dígitos: (54) 9908-1901. A página da diocese não traz horários. Facebook (citado sem nome de perfil). Forania de Lagoa Vermelha."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Lagoa Vermelha",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "5433581250",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "ps.antoniolv@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Lagoa Vermelha",
+    "localidade": "",
+    "endereco": "Rua Quatorze de Julho, 564",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Paulo",
+    "tipo": "comunidade",
+    "cidade": "Lagoa Vermelha",
+    "localidade": "Barretos",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Imaculada Conceição",
+    "tipo": "comunidade",
+    "cidade": "Lagoa Vermelha",
+    "localidade": "Rincão Comprido",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Carlos",
+    "tipo": "comunidade",
+    "cidade": "Lagoa Vermelha",
+    "localidade": "Passo do Paiol",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Catarina",
+    "tipo": "comunidade",
+    "cidade": "Lagoa Vermelha",
+    "localidade": "Passo do Paiol",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Mateus",
+    "tipo": "comunidade",
+    "cidade": "Lagoa Vermelha",
+    "localidade": "Serrinha",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Oliveira",
+    "tipo": "comunidade",
+    "cidade": "Lagoa Vermelha",
+    "localidade": "Fazenda da Roseira",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Consoladora",
+    "tipo": "comunidade",
+    "cidade": "Lagoa Vermelha",
+    "localidade": "Quebra Dente",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Navegantes",
+    "tipo": "comunidade",
+    "cidade": "Lagoa Vermelha",
+    "localidade": "Boqueirão",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Divino Espírito Santo",
+    "tipo": "comunidade",
+    "cidade": "Lagoa Vermelha",
+    "localidade": "Boqueirão",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora das Graças",
+    "tipo": "comunidade",
+    "cidade": "Lagoa Vermelha",
+    "localidade": "Boqueirão",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Jorge",
+    "tipo": "comunidade",
+    "cidade": "Lagoa Vermelha",
+    "localidade": "Sítio de Herval",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Judas",
+    "tipo": "comunidade",
+    "cidade": "Lagoa Vermelha",
+    "localidade": "Sítio de Herval",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Lagoa Vermelha",
+    "localidade": "Campinas",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Sebastião",
+    "tipo": "comunidade",
+    "cidade": "Lagoa Vermelha",
+    "localidade": "Encruzilhada",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Fátima",
+    "tipo": "comunidade",
+    "cidade": "Lagoa Vermelha",
+    "localidade": "Fazenda dos Candeias",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Fátima",
+    "tipo": "comunidade",
+    "cidade": "Lagoa Vermelha",
+    "localidade": "Bairro dos Rodrigues",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Medianeira",
+    "tipo": "comunidade",
+    "cidade": "Lagoa Vermelha",
+    "localidade": "Medianeira",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Consoladora",
+    "tipo": "comunidade",
+    "cidade": "Lagoa Vermelha",
+    "localidade": "Alto Pedregal",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Oliveira",
+    "tipo": "comunidade",
+    "cidade": "Lagoa Vermelha",
+    "localidade": "Bairro Oliveira",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Lagoa Vermelha",
+    "localidade": "Bairro São José",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Cristóvão",
+    "tipo": "comunidade",
+    "cidade": "Lagoa Vermelha",
+    "localidade": "Bairro Pajé",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Catarina",
+    "tipo": "comunidade",
+    "cidade": "Lagoa Vermelha",
+    "localidade": "Bairro Industrial",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesevacaria.com.br/paroquias/paroquia-santo-antonio-lagoa-vermelha/",
+    "data": "2025-07-03",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Freis capuchinhos. A página da diocese não traz horários. Facebook (citado sem nome de perfil). Forania de Lagoa Vermelha."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José",
+  "categoria": "paroquia",
+  "cidade": "Ibiraiaras",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "5433551320",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasaojose22@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São José",
+    "tipo": "matriz",
+    "cidade": "Ibiraiaras",
+    "localidade": "",
+    "endereco": "Rua Longino Z. Guadagnin, 581",
+    "horarios": [],
+    "nao_cabe": "Comunidades sem lugar publicado: Santo Antão, São Brás, Santa Clara, Santo Expedito, Nossa Senhora de Lourdes, São Luiz, São Pio X, São Roque, Nossa Senhora da Salete, Nossa Senhora Aparecida, Nossa Senhora Consoladora, São Cristóvão, São Francisco, Santa Lúcia, São Pedro, São Rafael, Sagrado Coração de Maria, São Sebastião, Santa Terezinha."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesevacaria.com.br/paroquias/paroquia-sao-jose-ibiraiaras/",
+    "data": "2026-10-19",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Freis capuchinhos. A página da diocese não traz horários. Facebook (citado sem nome de perfil). Forania de Lagoa Vermelha."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Imaculada Conceição",
+  "categoria": "paroquia",
+  "cidade": "Caseiros",
+  "padroeiro": "Nossa Senhora Imaculada Conceição",
+  "contatos": {
+   "telefone": "54996509080",
+   "whatsapp": "",
+   "instagram": "paroquia_caseiros",
+   "site": "",
+   "email": "paroquiacaseiros@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora Imaculada Conceição",
+    "tipo": "matriz",
+    "cidade": "Caseiros",
+    "localidade": "",
+    "endereco": "Avenida Irmãs Angélicas, 201",
+    "horarios": [],
+    "nao_cabe": "Comunidades sem lugar publicado: São Brás, Santo Antão, Cristo Rei, Bom Jesus, Santa Terezinha, São Luiz, Sagrado Coração de Jesus, Nossa Senhora da Divina Providência, São Jorge."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Miguel",
+    "tipo": "capela",
+    "cidade": "Muliterno",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora do Caravággio",
+    "tipo": "capela",
+    "cidade": "Ibiraiaras",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Divino Espírito Santo",
+    "tipo": "capela",
+    "cidade": "Ibiraiaras",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora do Rosário",
+    "tipo": "capela",
+    "cidade": "Ibiraiaras",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Nossa Senhora da Saúde",
+    "tipo": "capela",
+    "cidade": "Ibiraiaras",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Francisco",
+    "tipo": "capela",
+    "cidade": "Ibiaçá",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Ricardo",
+    "tipo": "capela",
+    "cidade": "Ibiaçá",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesevacaria.com.br/paroquias/paroquia-nossa-senhora-imaculada-conceicao/",
+    "data": "2026-02-02",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Capelas em Caseiros, Muliterno, Ibiraiaras e Ibiaçá (a fonte dá só o município). A página da diocese não traz horários. Facebook: Paróquia Imaculada Conceição-Caseiros. Forania de Lagoa Vermelha."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora das Dores",
+  "categoria": "paroquia",
+  "cidade": "Barracão",
+  "padroeiro": "Nossa Senhora das Dores",
+  "contatos": {
+   "telefone": "5433561344",
+   "whatsapp": "54996027822",
+   "instagram": "nsdoresbarracao",
+   "site": "",
+   "email": "paroquiadebarracao@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora das Dores",
+    "tipo": "matriz",
+    "cidade": "Barracão",
+    "localidade": "Centro",
+    "endereco": "Rua Napoleão Ferreira, 169",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Expedito",
+    "tipo": "comunidade",
+    "cidade": "Barracão",
+    "localidade": "Bairro Uruguai",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Divino Espírito Santo",
+    "tipo": "comunidade",
+    "cidade": "Barracão",
+    "localidade": "Linha Espigão Alto",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Consoladora",
+    "tipo": "comunidade",
+    "cidade": "Barracão",
+    "localidade": "Santo Marmeleiro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Barracão",
+    "localidade": "Aparecida",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Saúde",
+    "tipo": "comunidade",
+    "cidade": "Barracão",
+    "localidade": "Linha Ipiranga",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Saúde",
+    "tipo": "comunidade",
+    "cidade": "Barracão",
+    "localidade": "Paiol Grande",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Perpétuo Socorro",
+    "tipo": "comunidade",
+    "cidade": "Barracão",
+    "localidade": "Linha Sobradinho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora dos Remédios",
+    "tipo": "comunidade",
+    "cidade": "Barracão",
+    "localidade": "Passo da Ilha",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Conceição",
+    "tipo": "comunidade",
+    "cidade": "Barracão",
+    "localidade": "Bairro Conceição",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Fátima",
+    "tipo": "comunidade",
+    "cidade": "Barracão",
+    "localidade": "Monte Alegre",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Caravággio",
+    "tipo": "comunidade",
+    "cidade": "Barracão",
+    "localidade": "Reassentamento",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrada Família",
+    "tipo": "comunidade",
+    "cidade": "Barracão",
+    "localidade": "Linha Sagrada Família",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Bárbara",
+    "tipo": "comunidade",
+    "cidade": "Barracão",
+    "localidade": "Gramado Reassentamento",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Catarina",
+    "tipo": "comunidade",
+    "cidade": "Barracão",
+    "localidade": "Linha Ponte do Moinho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Terezinha",
+    "tipo": "comunidade",
+    "cidade": "Barracão",
+    "localidade": "Santa Terezinha",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Barracão",
+    "localidade": "Santo Antônio",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Bernardo",
+    "tipo": "comunidade",
+    "cidade": "Barracão",
+    "localidade": "Linha São Bernardo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Cristovão",
+    "tipo": "comunidade",
+    "cidade": "Barracão",
+    "localidade": "Linha Tope",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Batista",
+    "tipo": "comunidade",
+    "cidade": "Barracão",
+    "localidade": "Linha Tonial",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Barracão",
+    "localidade": "Linha São José",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Lourenço",
+    "tipo": "comunidade",
+    "cidade": "Barracão",
+    "localidade": "Linha São Lourenço",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Pedro",
+    "tipo": "comunidade",
+    "cidade": "Barracão",
+    "localidade": "Linha São Pedro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Roque",
+    "tipo": "comunidade",
+    "cidade": "Barracão",
+    "localidade": "Linha São Roque",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Sebastião",
+    "tipo": "comunidade",
+    "cidade": "Barracão",
+    "localidade": "Linha Eucaliptos",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesevacaria.com.br/paroquias/paroquia-nossa-senhora-das-dores-barracao/",
+    "data": "2026-09-11",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "A página da diocese não traz horários. Facebook: Paróquia Nossa Senhora das Dores. Forania de São José do Ouro."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José",
+  "categoria": "paroquia",
+  "cidade": "São José do Ouro",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "5433522017",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasaojose.sjo@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São José",
+    "tipo": "matriz",
+    "cidade": "São José do Ouro",
+    "localidade": "Centro",
+    "endereco": "Avenida Elias Mendes de Araújo, 140",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Comunidades sem lugar publicado: São Pedro, São Paulo, São Miguel, Nossa Senhora do Rosário, Nossa Senhora Aparecida."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Isidoro",
+    "tipo": "comunidade",
+    "cidade": "São José do Ouro",
+    "localidade": "Linha Anta",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Joaquim",
+    "tipo": "comunidade",
+    "cidade": "São José do Ouro",
+    "localidade": "Pocinhos",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "São José do Ouro",
+    "localidade": "Linha Santa Rosa",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Divino Espirito Santo",
+    "tipo": "comunidade",
+    "cidade": "São José do Ouro",
+    "localidade": "Tanque",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Salete",
+    "tipo": "comunidade",
+    "cidade": "São José do Ouro",
+    "localidade": "Cerro Azul",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Consoladora",
+    "tipo": "comunidade",
+    "cidade": "São José do Ouro",
+    "localidade": "Linha Machado",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santíssima Trindade",
+    "tipo": "comunidade",
+    "cidade": "São José do Ouro",
+    "localidade": "Marmeleiro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Saúde",
+    "tipo": "comunidade",
+    "cidade": "São José do Ouro",
+    "localidade": "Vila Hípica",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrado Coração de Jesus",
+    "tipo": "comunidade",
+    "cidade": "São José do Ouro",
+    "localidade": "Jardim Alegre",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Fátima",
+    "tipo": "comunidade",
+    "cidade": "São José do Ouro",
+    "localidade": "Casa Queimada",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesevacaria.com.br/paroquias/paroquia-sao-jose-sao-jose-do-ouro/",
+    "data": "2026-08-24",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania de São José do Ouro."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Lourdes",
+  "categoria": "paroquia",
+  "cidade": "Cacique Doble",
+  "padroeiro": "Nossa Senhora de Lourdes",
+  "contatos": {
+   "telefone": "54996079280",
+   "whatsapp": "54996079280",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiacacique@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora de Lourdes",
+    "tipo": "matriz",
+    "cidade": "Cacique Doble",
+    "localidade": "Centro",
+    "endereco": "Avenida Kaigang, 103",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Com adoração e bênção do Santíssimo"
+     }
+    ],
+    "nao_cabe": "Comunidades sem lugar publicado: Nossa Senhora Aparecida, São Jorge, Nossa Senhora Consoladora, São Judas Tadeu, Santa Terezinha, Nossa Senhora Navegantes, Nossa Senhora Misericórdia, Santo Antônio, Santa Catarina, São Luiz Rei, São Pedro."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Sebastião",
+    "tipo": "comunidade",
+    "cidade": "Cacique Doble",
+    "localidade": "Linha Lopes",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Batista",
+    "tipo": "comunidade",
+    "cidade": "Cacique Doble",
+    "localidade": "Linha São Joãozinho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Sebastião",
+    "tipo": "comunidade",
+    "cidade": "Cacique Doble",
+    "localidade": "Linha Butiá",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Valentin",
+    "tipo": "comunidade",
+    "cidade": "Cacique Doble",
+    "localidade": "Linha Ouro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Graças",
+    "tipo": "comunidade",
+    "cidade": "Cacique Doble",
+    "localidade": "Linha Pitangueira",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Rosário",
+    "tipo": "comunidade",
+    "cidade": "Cacique Doble",
+    "localidade": "Linha Lajeadinho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Saúde",
+    "tipo": "comunidade",
+    "cidade": "Cacique Doble",
+    "localidade": "Bairro Saúde",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Capitel São Peregrino e Madre Cecília",
+    "tipo": "comunidade",
+    "cidade": "Cacique Doble",
+    "localidade": "Bairro Planalto",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Guadalupe",
+    "tipo": "comunidade",
+    "cidade": "Cacique Doble",
+    "localidade": "Área indígena",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesevacaria.com.br/paroquias/nossa-senhora-de-lourdes-cacique-doble/",
+    "data": "2026-06-23",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania de São José do Ouro."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Saúde",
+  "categoria": "paroquia",
+  "cidade": "Tupanci do Sul",
+  "padroeiro": "Nossa Senhora da Saúde",
+  "contatos": {
+   "telefone": "54981373723",
+   "whatsapp": "",
+   "instagram": "santuariotupanci",
+   "site": "",
+   "email": "santuariotupanci@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora da Saúde",
+    "tipo": "matriz",
+    "cidade": "Tupanci do Sul",
+    "localidade": "",
+    "endereco": "Rua João Munari, 70",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrado Coração de Jesus",
+    "tipo": "comunidade",
+    "cidade": "Tupanci do Sul",
+    "localidade": "Argenta",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Roque",
+    "tipo": "comunidade",
+    "cidade": "Tupanci do Sul",
+    "localidade": "Brugnharotto",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Sebastião",
+    "tipo": "comunidade",
+    "cidade": "Tupanci do Sul",
+    "localidade": "Claudino",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Menino Deus",
+    "tipo": "comunidade",
+    "cidade": "Tupanci do Sul",
+    "localidade": "Clemente Argolo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antonio de Pádua",
+    "tipo": "comunidade",
+    "cidade": "Tupanci do Sul",
+    "localidade": "Filial",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Tupanci do Sul",
+    "localidade": "Munari",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Salete",
+    "tipo": "comunidade",
+    "cidade": "Tupanci do Sul",
+    "localidade": "Pimentel",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Catarina de Alexandria",
+    "tipo": "comunidade",
+    "cidade": "Tupanci do Sul",
+    "localidade": "Piva",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Divino Espirito Santo",
+    "tipo": "comunidade",
+    "cidade": "Tupanci do Sul",
+    "localidade": "Pontão",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Terezinha do Menino Jesus",
+    "tipo": "comunidade",
+    "cidade": "Tupanci do Sul",
+    "localidade": "Santa Teresa",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Joaquim",
+    "tipo": "comunidade",
+    "cidade": "Tupanci do Sul",
+    "localidade": "São Joaquim",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Batista",
+    "tipo": "comunidade",
+    "cidade": "Tupanci do Sul",
+    "localidade": "Taboão",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Consoladora",
+    "tipo": "comunidade",
+    "cidade": "Tupanci do Sul",
+    "localidade": "Varejão",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora das Graças",
+    "tipo": "comunidade",
+    "cidade": "Tupanci do Sul",
+    "localidade": "Vila Souza",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco de Assis",
+    "tipo": "comunidade",
+    "cidade": "Tupanci do Sul",
+    "localidade": "Zotti",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesevacaria.com.br/paroquias/paroquia-nossa-senhora-da-saude-tupanci-do-sul/",
+    "data": "2026-09-22",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "A matriz é chamada Santuário Nossa Senhora da Saúde. Das 16 comunidades, 4 ficam em São José do Ouro e 3 em Lagoa Vermelha (a fonte não diz quais); todas entraram com a cidade da paróquia. Forania de São José do Ouro."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Expedito",
+  "categoria": "paroquia",
+  "cidade": "Santo Expedito do Sul",
+  "padroeiro": "Santo Expedito",
+  "contatos": {
+   "telefone": "5433961015",
+   "whatsapp": "5433961015",
+   "instagram": "santuariosantoexpeditors",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário Santo Expedito",
+    "tipo": "santuario",
+    "cidade": "Santo Expedito do Sul",
+    "localidade": "",
+    "endereco": "Rua José Piloneto, s/n",
+    "horarios": [],
+    "nao_cabe": "Comunidades sem lugar publicado: Nossa Senhora do Caravággio, São Miguel, Divino Espírito Santo, Nossa Senhora da Salette - Linha Farrapos, São Luiz Gonzaga - Linha Coloradinho, Nossa Senhora Aparecida - Linha Kern, Santo Antônio - Linha Frizon, São Valentim, Menino Deus, Sagrado Coração de Jesus - Linha Rincão Bonito, Santo Antônio - Loregian, São Paulo, Nossa Senhora Aparecida - Capão Alto."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Luzia e Santa Lúcia",
+    "tipo": "comunidade",
+    "cidade": "Santo Expedito do Sul",
+    "localidade": "Linha Colorado",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesevacaria.com.br/paroquias/nossa-senhora-das-dores-barracao/",
+    "data": "2026-01-21",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "A página da diocese não traz horários. Facebook: Santuário Santo Expedito. Forania de São José do Ouro."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Rosário",
+  "categoria": "paroquia",
+  "cidade": "Machadinho",
+  "padroeiro": "Nossa Senhora do Rosário",
+  "contatos": {
+   "telefone": "5435511114",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora do Rosário",
+    "tipo": "matriz",
+    "cidade": "Machadinho",
+    "localidade": "",
+    "endereco": "Praça da Matriz, 49",
+    "horarios": [],
+    "nao_cabe": "Comunidades sem lugar publicado: São Caetano, São Pedro, Santa Catarina, Santa Terezinha, São Roque, São Miguel, São Sebastião, Santa Luzia."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Auxiliadora",
+    "tipo": "comunidade",
+    "cidade": "Machadinho",
+    "localidade": "Linha Ambrósio",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Machadinho",
+    "localidade": "Linha Canudo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Judas Tadeu",
+    "tipo": "comunidade",
+    "cidade": "Machadinho",
+    "localidade": "Linha Encruzilhada",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Salete",
+    "tipo": "comunidade",
+    "cidade": "Machadinho",
+    "localidade": "Raia do Pessegueiro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Fátima",
+    "tipo": "comunidade",
+    "cidade": "Machadinho",
+    "localidade": "Linha Tessaro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Roque",
+    "tipo": "comunidade",
+    "cidade": "Machadinho",
+    "localidade": "Bela Vista",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Conrado",
+    "tipo": "comunidade",
+    "cidade": "Machadinho",
+    "localidade": "Linha Tigre",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Luiz",
+    "tipo": "comunidade",
+    "cidade": "Machadinho",
+    "localidade": "Linha Arroio Mariano",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Machadinho",
+    "localidade": "Linha 3 Pontes",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Monte Bérico",
+    "tipo": "comunidade",
+    "cidade": "Machadinho",
+    "localidade": "Linha Polo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Peregrino",
+    "tipo": "comunidade",
+    "cidade": "Machadinho",
+    "localidade": "Linha Barro Amarelo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Batista",
+    "tipo": "comunidade",
+    "cidade": "Machadinho",
+    "localidade": "Linha Barro Amarelo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora dos Navegantes",
+    "tipo": "comunidade",
+    "cidade": "Machadinho",
+    "localidade": "Linha Coqueiro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Machadinho",
+    "localidade": "Linha Coqueiro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesevacaria.com.br/paroquias/paroquia-nossa-senhora-do-rosario-machadinho/",
+    "data": "2026-05-20",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "A página da diocese não traz horários. Facebook (citado sem nome de perfil). Forania de Sananduva."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Consoladora dos Aflitos",
+  "categoria": "paroquia",
+  "cidade": "Ibiaçá",
+  "padroeiro": "Nossa Senhora Consoladora dos Aflitos",
+  "contatos": {
+   "telefone": "5433741280",
+   "whatsapp": "5433741280",
+   "instagram": "",
+   "site": "www.romariaconsoladora.com.br",
+   "email": "romariaconsoladora@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário Nossa Senhora Consoladora dos Aflitos",
+    "tipo": "santuario",
+    "cidade": "Ibiaçá",
+    "localidade": "Centro",
+    "endereco": "Rua Quinze de Maio, 310",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "14:30",
+      "semanas": null,
+      "observacao": "Missa do Romeiro"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Novena mensal no último domingo do mês, às 14h30. Comunidades sem lugar publicado: Santa Bárbara, Nossa Senhora dos Navegantes, Santo Antônio, Santa Terezinha, Bairro Vila Nova."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Catarina",
+    "tipo": "comunidade",
+    "cidade": "Ibiaçá",
+    "localidade": "Rio do Meio",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Rita de Cássia",
+    "tipo": "comunidade",
+    "cidade": "Ibiaçá",
+    "localidade": "Butiá Alto",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Rosário",
+    "tipo": "comunidade",
+    "cidade": "Ibiaçá",
+    "localidade": "Butiá Baixo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Batista",
+    "tipo": "comunidade",
+    "cidade": "Ibiaçá",
+    "localidade": "Araçá Baixo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Lúcia",
+    "tipo": "comunidade",
+    "cidade": "Ibiaçá",
+    "localidade": "Araçá Alto",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Ibiaçá",
+    "localidade": "Campinas",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora das Graças",
+    "tipo": "comunidade",
+    "cidade": "Ibiaçá",
+    "localidade": "Secção Pulador",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Líbera",
+    "tipo": "comunidade",
+    "cidade": "Ibiaçá",
+    "localidade": "Rio Telha",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Ibiaçá",
+    "localidade": "Secção Fracasso",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Sebastião",
+    "tipo": "comunidade",
+    "cidade": "Ibiaçá",
+    "localidade": "Vila Vitória",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Divino Espírito Santo",
+    "tipo": "comunidade",
+    "cidade": "Ibiaçá",
+    "localidade": "Divino Marques",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Ibiaçá",
+    "localidade": "Linha Campos",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Maria Vianney",
+    "tipo": "comunidade",
+    "cidade": "Ibiaçá",
+    "localidade": "Paiol da Várzea",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Cristóvão",
+    "tipo": "comunidade",
+    "cidade": "Ibiaçá",
+    "localidade": "Secção Maito",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesevacaria.com.br/paroquias/paroquia-nossa-senhora-consoladora-dos-aflitos-ibiaca/",
+    "data": "2025-08-21",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Santuário da Romaria de Nossa Senhora Consoladora (fevereiro). Página da diocese atualizada em 2025. Forania de Sananduva."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "Sananduva",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "54933002918",
+   "whatsapp": "54933002918",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São João Batista",
+    "tipo": "matriz",
+    "cidade": "Sananduva",
+    "localidade": "",
+    "endereco": "Avenida Fiorentino Bacchi, 791",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": "Missa da saúde"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Comunidades sem lugar publicado: Santa Lúcia, Nossa Senhora do Carmo, São Judas Tadeu, São Geraldo, Nossa Senhora Consoladora, Escolinha da Virgolina Fagundes, Nossa Senhora da Salette, São Gotardo, São Pedro, São João do Forquilha, São José, Três Pinheiros, Santo Antônio dos Fagundes, Nossa Senhora do Bom Conselho, São Gregório, Divino do Faxinal, Linha Progresso, Assentamento Três Pinheiros, São Cristóvão, Coohasa 1, Coohasa 2."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Catarina",
+    "tipo": "comunidade",
+    "cidade": "Sananduva",
+    "localidade": "Lajeado Bonito",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrada Família",
+    "tipo": "comunidade",
+    "cidade": "Sananduva",
+    "localidade": "Bairro Silos",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesevacaria.com.br/paroquias/paroquia-sao-joao-batista-sananduva/",
+    "data": "2026-02-05",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Nossa Senhora da Salette é santuário, segundo a lista de comunidades. Forania de Sananduva."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José Operário",
+  "categoria": "paroquia",
+  "cidade": "Sananduva",
+  "padroeiro": "São José Operário",
+  "contatos": {
+   "telefone": "5433431506",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "sjopparoquia@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São José Operário",
+    "tipo": "matriz",
+    "cidade": "Sananduva",
+    "localidade": "",
+    "endereco": "Rua Israel Pinzon, 280",
+    "horarios": [],
+    "nao_cabe": "Comunidades sem lugar publicado: Santa Apolônia, São Caetano, São Domingos, São Francisco, Santo Isidoro, São Paulo da Cruz."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Sananduva",
+    "localidade": "Pessegueiro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Sananduva",
+    "localidade": "Vila Nova",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Caravággio",
+    "tipo": "comunidade",
+    "cidade": "Sananduva",
+    "localidade": "Boa Vista",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Consoladora",
+    "tipo": "comunidade",
+    "cidade": "Sananduva",
+    "localidade": "Pôr do Sol",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Fátima",
+    "tipo": "comunidade",
+    "cidade": "Sananduva",
+    "localidade": "Gaúcho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Graças",
+    "tipo": "comunidade",
+    "cidade": "Sananduva",
+    "localidade": "Rio Júlio",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Oliveira",
+    "tipo": "comunidade",
+    "cidade": "Sananduva",
+    "localidade": "Secção Picinin",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Penha",
+    "tipo": "comunidade",
+    "cidade": "Sananduva",
+    "localidade": "Tigre Alto",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Saúde",
+    "tipo": "comunidade",
+    "cidade": "Sananduva",
+    "localidade": "Progresso",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Sananduva",
+    "localidade": "Tigre Baixo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Brás",
+    "tipo": "comunidade",
+    "cidade": "Sananduva",
+    "localidade": "Bairro Cohab",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Jerônimo",
+    "tipo": "comunidade",
+    "cidade": "Sananduva",
+    "localidade": "Dinamite",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Jorge",
+    "tipo": "comunidade",
+    "cidade": "Sananduva",
+    "localidade": "Quati Alto",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Luiz",
+    "tipo": "comunidade",
+    "cidade": "Sananduva",
+    "localidade": "Quati Baixo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Paulo Apóstolo",
+    "tipo": "comunidade",
+    "cidade": "Sananduva",
+    "localidade": "Mão Curta",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Roque",
+    "tipo": "comunidade",
+    "cidade": "Sananduva",
+    "localidade": "Vila Jardim",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Terezinha",
+    "tipo": "comunidade",
+    "cidade": "Sananduva",
+    "localidade": "Linha Batata",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesevacaria.com.br/paroquias/paroquia-sao-jose-operario/",
+    "data": "2026-09-14",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "A página da diocese não traz horários. Facebook (citado sem nome de perfil). Forania de Sananduva."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "Maximiliano de Almeida",
+  "padroeiro": "São Sebastião",
+  "contatos": {
+   "telefone": "5433971294",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiamaximilianodealmeida@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Sebastião",
+    "tipo": "matriz",
+    "cidade": "Maximiliano de Almeida",
+    "localidade": "Centro",
+    "endereco": "Rua Anchieta, 137",
+    "horarios": [],
+    "nao_cabe": "Comunidades sem lugar publicado: Santa Líbera, São Roque, Santo Antônio do Forquilha, Nossa Senhora dos Navegantes, São Domingos, São Brás, Nossa Senhora Salete."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Paulo",
+    "tipo": "comunidade",
+    "cidade": "Maximiliano de Almeida",
+    "localidade": "Linha São Paulo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrado Coração de Jesus",
+    "tipo": "comunidade",
+    "cidade": "Maximiliano de Almeida",
+    "localidade": "Linha Usina",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Maximiliano de Almeida",
+    "localidade": "Linha Ponte do Ligeiro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Monte Bérico",
+    "tipo": "comunidade",
+    "cidade": "Maximiliano de Almeida",
+    "localidade": "Linha Cerro da Rapadura",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Fátima",
+    "tipo": "comunidade",
+    "cidade": "Maximiliano de Almeida",
+    "localidade": "Linha Baixo Caçador",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Luzia",
+    "tipo": "comunidade",
+    "cidade": "Maximiliano de Almeida",
+    "localidade": "Linha Alto Caçador",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Saúde",
+    "tipo": "comunidade",
+    "cidade": "Maximiliano de Almeida",
+    "localidade": "Linha Barra",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Imaculada Conceição",
+    "tipo": "comunidade",
+    "cidade": "Maximiliano de Almeida",
+    "localidade": "Linha Gramado",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Maximiliano de Almeida",
+    "localidade": "Bairro Aparecida",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Saúde",
+    "tipo": "comunidade",
+    "cidade": "Maximiliano de Almeida",
+    "localidade": "Linha Ipiranga",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Bom Conselho",
+    "tipo": "comunidade",
+    "cidade": "Maximiliano de Almeida",
+    "localidade": "Linha Floresta",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Maximiliano de Almeida",
+    "localidade": "Santo Antônio dos Whitman",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Consoladora",
+    "tipo": "comunidade",
+    "cidade": "Maximiliano de Almeida",
+    "localidade": "Linha Capellin",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesevacaria.com.br/paroquias/paroquia-sao-sebastiao-maximiliano-de-almeida/",
+    "data": "2026-04-06",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "A página da diocese não traz horários. Forania de Sananduva."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Cristo Rei",
+  "categoria": "paroquia",
+  "cidade": "São João da Urtiga",
+  "padroeiro": "Cristo Rei",
+  "contatos": {
+   "telefone": "54996409992",
+   "whatsapp": "54996409992",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiacristoreisju@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Cristo Rei",
+    "tipo": "matriz",
+    "cidade": "São João da Urtiga",
+    "localidade": "",
+    "endereco": "Rua Itália, 210",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Comunidades sem lugar publicado: São Roque, São Gotardo, Santo Antônio, Nossa Senhora do Bom Parto, São Jorge, Santa Gema."
+   },
+   {
+    "id_banco": null,
+    "nome": "Santuário São João Batista",
+    "tipo": "santuario",
+    "cidade": "São João da Urtiga",
+    "localidade": "S. J. Baixo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Consoladora",
+    "tipo": "comunidade",
+    "cidade": "São João da Urtiga",
+    "localidade": "Linha Guzzo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora",
+    "tipo": "comunidade",
+    "cidade": "São João da Urtiga",
+    "localidade": "Linha Farroupilha",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "São João da Urtiga",
+    "localidade": "Linha Ventura",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Luzia",
+    "tipo": "comunidade",
+    "cidade": "São João da Urtiga",
+    "localidade": "Beira Rio",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Isidoro",
+    "tipo": "comunidade",
+    "cidade": "São João da Urtiga",
+    "localidade": "Linha Israel",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "São João da Urtiga",
+    "localidade": "Linha Israel",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Terezinha",
+    "tipo": "comunidade",
+    "cidade": "São João da Urtiga",
+    "localidade": "Linha Veado",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Pompéia",
+    "tipo": "comunidade",
+    "cidade": "São João da Urtiga",
+    "localidade": "Urtiga Baixa",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Saúde",
+    "tipo": "comunidade",
+    "cidade": "São João da Urtiga",
+    "localidade": "Urtiga Média",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Paz",
+    "tipo": "comunidade",
+    "cidade": "São João da Urtiga",
+    "localidade": "Urtiga Alta",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrado Coração Jesus",
+    "tipo": "comunidade",
+    "cidade": "São João da Urtiga",
+    "localidade": "Dom Pedro II",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Caravággio",
+    "tipo": "comunidade",
+    "cidade": "São João da Urtiga",
+    "localidade": "Picuia",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "São João da Urtiga",
+    "localidade": "Linha Dez",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Carmo",
+    "tipo": "comunidade",
+    "cidade": "São João da Urtiga",
+    "localidade": "Guabiroba Baixa",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Navegantes",
+    "tipo": "comunidade",
+    "cidade": "São João da Urtiga",
+    "localidade": "Seva",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Luzia",
+    "tipo": "comunidade",
+    "cidade": "São João da Urtiga",
+    "localidade": "Linha Sasso",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Lourdes",
+    "tipo": "comunidade",
+    "cidade": "São João da Urtiga",
+    "localidade": "Guabiroba Alta",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Fátima",
+    "tipo": "comunidade",
+    "cidade": "São João da Urtiga",
+    "localidade": "Vila Paraíso",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Divino Espírito Santo",
+    "tipo": "comunidade",
+    "cidade": "São João da Urtiga",
+    "localidade": "Linha Cadore",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesevacaria.com.br/paroquias/paroquia-cristo-rei-sao-joao-da-urtiga/",
+    "data": "2026-08-24",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania de Sananduva."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santuário Nossa Senhora de Caravaggio",
+  "categoria": "paroquia",
+  "cidade": "Paim Filho",
+  "padroeiro": "Nossa Senhora de Caravaggio",
+  "contatos": {
+   "telefone": "5435311213",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "caravaggiopaimfilho.com.br",
+   "email": "caravaggiopaimfilho@bol.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário Nossa Senhora de Caravaggio",
+    "tipo": "santuario",
+    "cidade": "Paim Filho",
+    "localidade": "Centro",
+    "endereco": "Rua Santiago, 139",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "16:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Comunidades sem lugar publicado: São Judas, Nossa Senhora Auxiliadora, Nossa Senhora das Graças, São Gotardo, São Silvestre, São Caetano, São Marcos, Santa Ana, Nossa Senhora do Rosário, Nossa Senhora Consoladora, Santa Bárbara, Santa Tereza, São Paulo, Nossa Senhora Dos Navegantes, São Francisco."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Estanislau",
+    "tipo": "comunidade",
+    "cidade": "Paim Filho",
+    "localidade": "Linha Pepino",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Saúde",
+    "tipo": "comunidade",
+    "cidade": "Paim Filho",
+    "localidade": "Bracatinga",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Lurdes",
+    "tipo": "comunidade",
+    "cidade": "Paim Filho",
+    "localidade": "Gruta",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Paim Filho",
+    "localidade": "Capitel",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Expedito",
+    "tipo": "comunidade",
+    "cidade": "Paim Filho",
+    "localidade": "Espraiado",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Miguel",
+    "tipo": "comunidade",
+    "cidade": "Paim Filho",
+    "localidade": "Limoeiro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antão",
+    "tipo": "comunidade",
+    "cidade": "Paim Filho",
+    "localidade": "Carmela",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco",
+    "tipo": "comunidade",
+    "cidade": "Paim Filho",
+    "localidade": "Chico Felipe",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Cristóvão",
+    "tipo": "comunidade",
+    "cidade": "Paim Filho",
+    "localidade": "Cartucho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesevacaria.com.br/paroquias/paroquia-santuario-nossa-senhora-de-caravaggio-paim-filho/",
+    "data": "2026-09-14",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Santuário da Família, inaugurado em 1954. Forania de Sananduva."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Luiz Rei",
+  "categoria": "paroquia",
+  "cidade": "Ipê",
+  "padroeiro": "São Luiz Rei",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "54996778084",
+   "instagram": "paroquiasaoluizrei_ipe",
+   "site": "",
+   "email": "paroquiasaoluizreiipe@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Luiz Rei",
+    "tipo": "matriz",
+    "cidade": "Ipê",
+    "localidade": "",
+    "endereco": "Rua Frei Casimiro Zaffonato, 510",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "18:00",
+      "semanas": [
+       2,
+       3,
+       4,
+       5
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Segunda, 18h: terço. Comunidades sem lugar publicado: Nossa Senhora Da Salete, Santo Antão, São Brás, São Vicente, São Valentin, Santa Bárbara."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Caravággio",
+    "tipo": "comunidade",
+    "cidade": "Ipê",
+    "localidade": "Linha Camargo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Lourdes",
+    "tipo": "comunidade",
+    "cidade": "Ipê",
+    "localidade": "Pichetti",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Do Rosário",
+    "tipo": "comunidade",
+    "cidade": "Ipê",
+    "localidade": "Linha Brasília",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Das Graças",
+    "tipo": "comunidade",
+    "cidade": "Ipê",
+    "localidade": "Vila Damiani",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrado Coração de Jesus",
+    "tipo": "comunidade",
+    "cidade": "Ipê",
+    "localidade": "Linha Amarílio",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrado Coração de Jesus e Maria",
+    "tipo": "comunidade",
+    "cidade": "Ipê",
+    "localidade": "Dois Corações",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Ipê",
+    "localidade": "Vendinha",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Ipê",
+    "localidade": "Gomercindo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Paulo",
+    "tipo": "comunidade",
+    "cidade": "Ipê",
+    "localidade": "Gomercindo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Olímpia",
+    "tipo": "comunidade",
+    "cidade": "Ipê",
+    "localidade": "Porteirinha",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesevacaria.com.br/paroquias/paroquia-sao-luiz-rei-ipe/",
+    "data": "2026-08-06",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Freis capuchinhos. Forania de Ipê."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Pedro",
+  "categoria": "paroquia",
+  "cidade": "Ipê",
+  "padroeiro": "São Pedro",
+  "contatos": {
+   "telefone": "5432333185",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Pedro Apóstolo",
+    "tipo": "matriz",
+    "cidade": "Ipê",
+    "localidade": "Vila Segredo",
+    "endereco": "Rua João Righez",
+    "horarios": [],
+    "nao_cabe": "Comunidades sem lugar publicado: São Peregrino, Nossa Senhora do Rosário, Santa Catarina, São Roque, São José, São Francisco, Nossa Senhora do Caravággio, São Miguel, São Luís, Nossa Senhora da Pompeia."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesevacaria.com.br/paroquias/paroquia-sao-pedro-segredo-ipe/",
+    "data": "2026-05-20",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Vila Segredo (GCatholic: Segredo). Mesmo pároco da Paróquia São Paulo. A página da diocese não traz horários. Forania de Ipê."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Paulo",
+  "categoria": "paroquia",
+  "cidade": "Ipê",
+  "padroeiro": "São Paulo Apóstolo",
+  "contatos": {
+   "telefone": "5432332005",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Paulo Apóstolo",
+    "tipo": "matriz",
+    "cidade": "Ipê",
+    "localidade": "Vila São Paulo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Comunidades sem lugar publicado: Nossa Senhora das Mercês, Nossa Senhora das Graças, Santa Catarina, Santo Estêvão, São João Batista, Nossa Senhora das Dores."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesevacaria.com.br/paroquias/paroquia-sao-paulo-vila-sao-paulo-ipe/",
+    "data": "2026-05-20",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Vila São Paulo (GCatholic: São Paulino); a página traz endereço trocado (Vila Segredo). A página da diocese não traz horários. Forania de Ipê."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Auxiliadora",
+  "categoria": "paroquia",
+  "cidade": "Campestre da Serra",
+  "padroeiro": "Nossa Senhora Auxiliadora",
+  "contatos": {
+   "telefone": "5432351036",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "pauxiliadora@outlook.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora Auxiliadora",
+    "tipo": "matriz",
+    "cidade": "Campestre da Serra",
+    "localidade": "Centro",
+    "endereco": "Rua Antônio Gozzi, 345",
+    "horarios": [],
+    "nao_cabe": "Comunidades sem lugar publicado: São Prudente, Nossa Senhora da Glória, Nossa Senhora da Saúde, Nossa Senhora das Graças, São José, São Manoel, São Paulo, São Roque, Santa Paulina, Nossa Senhora de Lourdes, São Bernardo."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesevacaria.com.br/paroquias/paroquia-nossa-senhora-auxiliadora-campestre-da-serra/",
+    "data": "2021-02-24",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Página da diocese de 2021, sem horários. Facebook (citado sem nome de perfil). Forania de Ipê."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "André da Rocha",
+  "padroeiro": "São Sebastião",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Sebastião",
+    "tipo": "matriz",
+    "cidade": "André da Rocha",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://gcatholic.org/churches/local/vaca0",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.diocesedecaxias.org.br/diocese/historico",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Paróquia da Diocese de Vacaria atendida pela Diocese de Caxias do Sul (o pároco é o de Protásio Alves). Não tem página no site de Vacaria nem no de Caxias; nenhum horário ou contato publicado. Forania não informada."
+ }
+]

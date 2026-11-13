@@ -1,0 +1,2366 @@
+[
+ {
+  "id_banco": null,
+  "nome": "Catedral Basílica Nossa Senhora do Pilar",
+  "categoria": "catedral",
+  "cidade": "São João del-Rei",
+  "padroeiro": "Nossa Senhora do Pilar",
+  "contatos": {
+   "telefone": "3233712568",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Catedral Basílica Nossa Senhora do Pilar",
+    "tipo": "matriz",
+    "cidade": "São João del-Rei",
+    "localidade": "Centro",
+    "endereco": "Rua Monsenhor Gustavo, 61",
+    "horarios": [
+     {
+      "tipo": "adoracao",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": "Até 18h, na Capela do Santíssimo"
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 1,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": "Até 18h, na Capela do Santíssimo"
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 2,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": "Até 18h, na Capela do Santíssimo"
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 3,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": "Até 18h, na Capela do Santíssimo"
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": "Até 18h, na Capela do Santíssimo"
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 5,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": "Até 18h, na Capela do Santíssimo"
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 6,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": "Até 18h, na Capela do Santíssimo"
+     }
+    ],
+    "nao_cabe": "Fechada para restauração desde 21/10/2024 (obra prevista para 18 meses); as missas passaram para as igrejas abaixo."
+   },
+   {
+    "id_banco": null,
+    "nome": "Igreja de Nossa Senhora do Rosário",
+    "tipo": "comunidade",
+    "cidade": "São João del-Rei",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Confissões de segunda a sábado, após a missa das 7h."
+   },
+   {
+    "id_banco": null,
+    "nome": "Igreja de Nossa Senhora das Mercês",
+    "tipo": "comunidade",
+    "cidade": "São João del-Rei",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela do Divino Espírito Santo",
+    "tipo": "capela",
+    "cidade": "São João del-Rei",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Igreja de Nossa Senhora do Carmo",
+    "tipo": "comunidade",
+    "cidade": "São João del-Rei",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedesaojoaodelrei.com.br/paroquia/paroquia-da-catedral-basilica-nossa-senhora-do-pilar/",
+    "data": "2024-11-06",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedesaojoaodelrei.com.br/com-reforma-da-catedral-paroquia-do-pilar-adota-nova-programacao-para-celebracoes/",
+    "data": "2024-10-21",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedesaojoaodelrei.com.br/catedral-basilica-nossa-senhora-do-pilar-sjdr/",
+    "data": "2023-03-08",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Forania Nossa Senhora do Pilar. Horários da programação adotada durante a restauração da Catedral (out/2024, prevista para 18 meses); conferir se a Catedral já reabriu. Confissões na Igreja do Rosário, de segunda a sábado, após a missa das 7h."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São Francisco de Assis",
+  "categoria": "paroquia",
+  "cidade": "São João del-Rei",
+  "padroeiro": "São Francisco de Assis",
+  "contatos": {
+   "telefone": "3233711127",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja de São Francisco de Assis",
+    "tipo": "matriz",
+    "cidade": "São João del-Rei",
+    "localidade": "Centro",
+    "endereco": "Praça Frei Orlando, 150",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedesaojoaodelrei.com.br/paroquia-de-sao-francisco-de-assis-sjdr/",
+    "data": "2021-10-01",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania de São João del-Rei (nome antigo, na ficha do site); atendida pelos franciscanos. Sem horário publicado pela diocese em página atual; confirmar com a secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São José Operário",
+  "categoria": "paroquia",
+  "cidade": "São João del-Rei",
+  "padroeiro": "São José Operário",
+  "contatos": {
+   "telefone": "3233711302",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José Operário",
+    "tipo": "matriz",
+    "cidade": "São João del-Rei",
+    "localidade": "Tijuco",
+    "endereco": "Praça José Antônio Teixeira, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedesaojoaodelrei.com.br/paroquia-de-sao-jose-operario-sjdr/",
+    "data": "2016-02-05",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania de São João del-Rei (nome antigo, na ficha do site). Sem horário publicado pela diocese em página atual; confirmar com a secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São João Bosco",
+  "categoria": "paroquia",
+  "cidade": "São João del-Rei",
+  "padroeiro": "São João Bosco",
+  "contatos": {
+   "telefone": "3233717415",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário de São João Bosco",
+    "tipo": "santuario",
+    "cidade": "São João del-Rei",
+    "localidade": "Dom Bosco",
+    "endereco": "Praça Dom Helvécio, 88",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedesaojoaodelrei.com.br/paroquia-de-sao-joao-bosco-sjdr/",
+    "data": "2020-09-17",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania de São João del-Rei (nome antigo, na ficha do site); matriz é santuário (ficha da diocese e GCatholic). Sem horário publicado pela diocese em página atual; confirmar com a secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia do Senhor Bom Jesus de Matosinhos",
+  "categoria": "paroquia",
+  "cidade": "São João del-Rei",
+  "padroeiro": "Senhor Bom Jesus de Matosinhos",
+  "contatos": {
+   "telefone": "3233715224",
+   "whatsapp": "",
+   "instagram": "santuario_de_matosinhos",
+   "site": "https://santuariodematosinhos.com.br/",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário do Senhor Bom Jesus de Matosinhos",
+    "tipo": "santuario",
+    "cidade": "São João del-Rei",
+    "localidade": "Matosinhos",
+    "endereco": "Praça Sr. Bom Jesus de Matosinhos, 386",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedesaojoaodelrei.com.br/paroquia-do-senhor-bom-jesus-de-matosinhos-sjdr/",
+    "data": "2022-05-24",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania Senhor Bom Jesus de Matosinhos. A ficha da diocese (maio/2022) traz horários de antes da criação da Paróquia Menino Jesus de Praga (set/2022), que levou parte das comunidades; não usados. Sem horário publicado pela diocese em página atual; confirmar com a secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "Santa Cruz de Minas",
+  "padroeiro": "São Sebastião",
+  "contatos": {
+   "telefone": "3233715599",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Sebastião",
+    "tipo": "matriz",
+    "cidade": "Santa Cruz de Minas",
+    "localidade": "Centro",
+    "endereco": "Praça São Sebastião, 135",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedesaojoaodelrei.com.br/paroquia-de-sao-sebastiao-santa-cruz-de-minas/",
+    "data": "2020-09-16",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania de São João del-Rei (nome antigo, na ficha do site). Sem horário publicado pela diocese em página atual; confirmar com a secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia do Senhor Bom Jesus do Monte",
+  "categoria": "paroquia",
+  "cidade": "São João del-Rei",
+  "padroeiro": "Senhor Bom Jesus do Monte",
+  "contatos": {
+   "telefone": "3233714030",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Senhor Bom Jesus do Monte",
+    "tipo": "matriz",
+    "cidade": "São João del-Rei",
+    "localidade": "",
+    "endereco": "Rua Maria Aparecida dos Anjos, 56",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedesaojoaodelrei.com.br/paroquia-do-sr-bom-jesus-do-monte-sjdr/",
+    "data": "2020-09-16",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania de São João del-Rei (nome antigo, na ficha do site). Secretaria de terça a sexta, 13h às 17h, e sábado, 8h às 11h. Sem horário publicado pela diocese em página atual; confirmar com a secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia da Imaculada Conceição",
+  "categoria": "paroquia",
+  "cidade": "São João del-Rei",
+  "padroeiro": "Imaculada Conceição",
+  "contatos": {
+   "telefone": "3233725498",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz da Imaculada Conceição",
+    "tipo": "matriz",
+    "cidade": "São João del-Rei",
+    "localidade": "Colônia do Marçal",
+    "endereco": "Rua Luiz Giarola, 1015",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedesaojoaodelrei.com.br/paroquia-da-imaculada-conceicao-sjdr/",
+    "data": "2016-01-21",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania de São João del-Rei (nome antigo, na ficha do site). Sem horário publicado pela diocese em página atual; confirmar com a secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "São João del-Rei",
+  "padroeiro": "São Sebastião",
+  "contatos": {
+   "telefone": "3233742063",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasaosebastiaodavitoria@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Sebastião",
+    "tipo": "matriz",
+    "cidade": "São João del-Rei",
+    "localidade": "São Sebastião da Vitória",
+    "endereco": "Praça Padre Lopes, 44",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedesaojoaodelrei.com.br/paroquia-de-sao-sebastiao-sao-sebastiao-da-vitoria/",
+    "data": "2016-02-12",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania de São João del-Rei (nome antigo, na ficha do site); distrito de São Sebastião da Vitória. A ficha de 2016 traz horários antigos, não usados. Sem horário publicado pela diocese em página atual; confirmar com a secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São Miguel Arcanjo",
+  "categoria": "paroquia",
+  "cidade": "São João del-Rei",
+  "padroeiro": "São Miguel Arcanjo",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Miguel Arcanjo",
+    "tipo": "matriz",
+    "cidade": "São João del-Rei",
+    "localidade": "São Miguel do Cajuru",
+    "endereco": "Praça da Matriz, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedesaojoaodelrei.com.br/paroquia-de-sao-miguel-arcanjo-emboabas/",
+    "data": "2016-01-21",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania de São João del-Rei (nome antigo, na ficha do site); distrito de São Miguel do Cajuru (Arcângelo no GCatholic). Ficha sem telefone. Sem horário publicado pela diocese em página atual; confirmar com a secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São Francisco de Assis",
+  "categoria": "paroquia",
+  "cidade": "São João del-Rei",
+  "padroeiro": "São Francisco de Assis",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Francisco de Assis",
+    "tipo": "matriz",
+    "cidade": "São João del-Rei",
+    "localidade": "Emboabas",
+    "endereco": "Praça da Matriz, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedesaojoaodelrei.com.br/paroquia-de-sao-francisco-de-assis-de-emboabas/",
+    "data": "2020-09-16",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania de São João del-Rei (nome antigo, na ficha do site); distrito de Emboabas. Ficha sem telefone. Sem horário publicado pela diocese em página atual; confirmar com a secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São Judas Tadeu",
+  "categoria": "paroquia",
+  "cidade": "São João del-Rei",
+  "padroeiro": "São Judas Tadeu",
+  "contatos": {
+   "telefone": "3233728519",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Judas Tadeu",
+    "tipo": "matriz",
+    "cidade": "São João del-Rei",
+    "localidade": "Jardim Central",
+    "endereco": "Rua André Belo, 51",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedesaojoaodelrei.com.br/paroquia-de-sao-judas-tadeu-sjdr/",
+    "data": "2020-09-16",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania de São João del-Rei (nome antigo, na ficha do site). A ficha só traz o histórico das missas nas comunidades (Vila Marchetti, Santa Clara, Gruta do Divino Espírito Santo, Colinas del-Rei), sem data. Sem horário publicado pela diocese em página atual; confirmar com a secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora da Conceição",
+  "categoria": "paroquia",
+  "cidade": "Conceição da Barra de Minas",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "3233751136",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário de Nossa Senhora da Conceição",
+    "tipo": "santuario",
+    "cidade": "Conceição da Barra de Minas",
+    "localidade": "Centro",
+    "endereco": "Praça Cônego João Batista Trindade, 67",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedesaojoaodelrei.com.br/paroquia-de-nossa-senhora-da-conceicao-conceicao-da-barra-de-minas/",
+    "data": "2016-01-23",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania de São João del-Rei (nome antigo, na ficha do site); matriz é santuário pelo GCatholic. Sem horário publicado pela diocese em página atual; confirmar com a secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Santa Rita de Cássia",
+  "categoria": "paroquia",
+  "cidade": "Ritápolis",
+  "padroeiro": "Santa Rita de Cássia",
+  "contatos": {
+   "telefone": "3233561133",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário de Santa Rita de Cássia",
+    "tipo": "santuario",
+    "cidade": "Ritápolis",
+    "localidade": "Centro",
+    "endereco": "Praça Tiradentes, 127",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": "Com ato devocional a Santa Rita"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Todo dia 22 do mês, às 19h, missa com ato devocional a Santa Rita."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedesaojoaodelrei.com.br/paroquia-de-santa-rita-de-cassia-ritapolis/",
+    "data": "2022-05-26",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Forania Senhor Bom Jesus de Matosinhos. Horários da ficha da paróquia no site da diocese, atualizada em maio/2022."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora da Conceição",
+  "categoria": "paroquia",
+  "cidade": "Coronel Xavier Chaves",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "3233571439",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "Coronel Xavier Chaves",
+    "localidade": "Centro",
+    "endereco": "Rua Padre Luiz André Gomes, 73",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Lourdes",
+    "tipo": "comunidade",
+    "cidade": "Coronel Xavier Chaves",
+    "localidade": "Barreiro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Coronel Xavier Chaves",
+    "localidade": "Água Limpa",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Glória",
+    "tipo": "comunidade",
+    "cidade": "Coronel Xavier Chaves",
+    "localidade": "Invernada",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora das Graças",
+    "tipo": "comunidade",
+    "cidade": "Coronel Xavier Chaves",
+    "localidade": "Pinheiros",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Cruz",
+    "tipo": "comunidade",
+    "cidade": "Coronel Xavier Chaves",
+    "localidade": "Cachoeira",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Caetano",
+    "tipo": "comunidade",
+    "cidade": "Coronel Xavier Chaves",
+    "localidade": "São Caetano",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Luzia",
+    "tipo": "comunidade",
+    "cidade": "Coronel Xavier Chaves",
+    "localidade": "Olhos D'água",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Coronel Xavier Chaves",
+    "localidade": "Sumidouro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedesaojoaodelrei.com.br/paroquia-de-nossa-senhora-da-conceicao-coronel-xavier-chaves/",
+    "data": "2021-10-26",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania de São João del-Rei (nome antigo). Secretaria de segunda a quinta, 13h às 17h30, e sexta, 13h às 17h. Sem horário publicado pela diocese em página atual; confirmar com a secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Menino Jesus de Praga",
+  "categoria": "paroquia",
+  "cidade": "São João del-Rei",
+  "padroeiro": "Menino Jesus de Praga",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Menino Jesus de Praga",
+    "tipo": "matriz",
+    "cidade": "São João del-Rei",
+    "localidade": "Pio XII",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": "Adoração e missa"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Bom Pastor",
+    "tipo": "comunidade",
+    "cidade": "São João del-Rei",
+    "localidade": "Bom Pastor",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Rainha da Paz",
+    "tipo": "comunidade",
+    "cidade": "São João del-Rei",
+    "localidade": "Rainha da Paz",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Cristo Rei",
+    "tipo": "comunidade",
+    "cidade": "São João del-Rei",
+    "localidade": "Cristo Rei",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Bárbara",
+    "tipo": "comunidade",
+    "cidade": "São João del-Rei",
+    "localidade": "Santa Bárbara",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "11:00",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "São João del-Rei",
+    "localidade": "Carvoeiro",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "14:00",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedesaojoaodelrei.com.br/nova-paroquia-define-horarios-de-missas-nas-comunidades/",
+    "data": "2022-09-22",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedesaojoaodelrei.com.br/bispo-diocesano-cria-nova-paroquia/",
+    "data": "2022-06-23",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Forania Senhor Bom Jesus de Matosinhos (comunidades vindas de Matosinhos e de Tiradentes). Paróquia criada em 2022; horários do quadro publicado pela diocese na instalação (set/2022). Às terças, missa em localidades afastadas conforme cronograma."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Santo Antônio e da Bem-Aventurada Nhá Chica",
+  "categoria": "paroquia",
+  "cidade": "São João del-Rei",
+  "padroeiro": "Santo Antônio e Beata Nhá Chica",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "São João del-Rei",
+    "localidade": "Rio das Mortes",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedesaojoaodelrei.com.br/paroquia-festeja-os-216-anos-do-batismo-de-nha-chica/",
+    "data": "2026-04-20",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Distrito do Rio das Mortes. Paróquia citada pelo site da diocese em 2026 (pároco Pe. Elissandro Carvalho); sem ficha com endereço ou telefone. Não aparece no GCatholic como paróquia. Sem horário publicado pela diocese em página atual; confirmar com a secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora do Porto da Eterna Salvação",
+  "categoria": "paroquia",
+  "cidade": "Andrelândia",
+  "padroeiro": "Nossa Senhora do Porto da Eterna Salvação",
+  "contatos": {
+   "telefone": "3533251586",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Porto da Eterna Salvação",
+    "tipo": "matriz",
+    "cidade": "Andrelândia",
+    "localidade": "Centro",
+    "endereco": "Av. Nossa Senhora do Porto da Eterna Salvação, 367",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedesaojoaodelrei.com.br/paroquia-de-nossa-senhora-do-porto-da-eterna-salvacao-andrelandia/",
+    "data": "2020-09-16",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania Nossa Senhora do Porto da Eterna Salvação (antiga Forania de Andrelândia). Sem horário publicado pela diocese em página atual; confirmar com a secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora da Piedade",
+  "categoria": "paroquia",
+  "cidade": "Piedade do Rio Grande",
+  "padroeiro": "Nossa Senhora da Piedade",
+  "contatos": {
+   "telefone": "3233351154",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário de Nossa Senhora da Piedade",
+    "tipo": "santuario",
+    "cidade": "Piedade do Rio Grande",
+    "localidade": "Centro",
+    "endereco": "Praça Pio XII, 98",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedesaojoaodelrei.com.br/paroquia-de-nossa-senhora-da-piedade-piedade-do-rio-grande/",
+    "data": "2020-09-16",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania Nossa Senhora do Porto da Eterna Salvação (antiga Forania de Andrelândia); matriz é santuário pelo GCatholic. Sem horário publicado pela diocese em página atual; confirmar com a secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora Mãe de Deus",
+  "categoria": "paroquia",
+  "cidade": "Madre de Deus de Minas",
+  "padroeiro": "Nossa Senhora Mãe de Deus",
+  "contatos": {
+   "telefone": "3233381162",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiamaededeusmdm@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Mãe de Deus",
+    "tipo": "matriz",
+    "cidade": "Madre de Deus de Minas",
+    "localidade": "Centro",
+    "endereco": "Praça Pe. Pedro Onclim, 49",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Brasilinha",
+    "tipo": "comunidade",
+    "cidade": "Madre de Deus de Minas",
+    "localidade": "Brasilinha",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de José Dias",
+    "tipo": "comunidade",
+    "cidade": "Madre de Deus de Minas",
+    "localidade": "José Dias",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Lage",
+    "tipo": "comunidade",
+    "cidade": "Madre de Deus de Minas",
+    "localidade": "Lage",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Retiro",
+    "tipo": "comunidade",
+    "cidade": "Madre de Deus de Minas",
+    "localidade": "Retiro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Cruzeiro da Barra",
+    "tipo": "comunidade",
+    "cidade": "Madre de Deus de Minas",
+    "localidade": "Cruzeiro da Barra",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedesaojoaodelrei.com.br/paroquia-de-nossa-senhora-mae-de-deus-madre-de-deus-de-minas/",
+    "data": "2022-05-26",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Forania Nossa Senhora do Porto da Eterna Salvação. Horários da ficha no site da diocese, atualizada em maio/2022."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São Vicente Ferrer",
+  "categoria": "paroquia",
+  "cidade": "São Vicente de Minas",
+  "padroeiro": "São Vicente Ferrer",
+  "contatos": {
+   "telefone": "3533231395",
+   "whatsapp": "3533231395",
+   "instagram": "",
+   "site": "",
+   "email": "psvferrer@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Vicente Ferrer",
+    "tipo": "matriz",
+    "cidade": "São Vicente de Minas",
+    "localidade": "Centro",
+    "endereco": "Praça Cel. José Eugênio, 16",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedesaojoaodelrei.com.br/paroquia-de-sao-vicente-ferrer-sao-vicente-de-minas/",
+    "data": "2022-05-26",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Forania Nossa Senhora do Porto da Eterna Salvação (antiga Andrelândia). Horários da ficha no site da diocese, atualizada em maio/2022. Telefone também WhatsApp."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora da Conceição",
+  "categoria": "paroquia",
+  "cidade": "Carrancas",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "3533271132",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "Carrancas",
+    "localidade": "Centro",
+    "endereco": "Praça Manoel Moreira, 72",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedesaojoaodelrei.com.br/paroquia-de-nossa-senhora-da-conceicao-carrancas/",
+    "data": "2016-02-12",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania de Andrelândia (nome antigo, na ficha do site). Sem horário publicado pela diocese em página atual; confirmar com a secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia do Sagrado Coração de Jesus",
+  "categoria": "paroquia",
+  "cidade": "Minduri",
+  "padroeiro": "Sagrado Coração de Jesus",
+  "contatos": {
+   "telefone": "3533261814",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "pscjminduri@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Sagrado Coração de Jesus",
+    "tipo": "matriz",
+    "cidade": "Minduri",
+    "localidade": "Centro",
+    "endereco": "Rua Orlandino Souza Andrade, 86",
+    "horarios": [],
+    "nao_cabe": "Ficha de maio/2022: \"Domingo 8h às 10h\" (não fica claro se são duas missas)."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedesaojoaodelrei.com.br/paroquia-do-sagrado-coracao-de-jesus-minduri/",
+    "data": "2022-05-26",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania Nossa Senhora do Porto da Eterna Salvação. Horário publicado de forma ambígua. Sem horário publicado pela diocese em página atual; confirmar com a secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora Auxiliadora",
+  "categoria": "paroquia",
+  "cidade": "Lavras",
+  "padroeiro": "Nossa Senhora Auxiliadora",
+  "contatos": {
+   "telefone": "3538212409",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Auxiliadora",
+    "tipo": "matriz",
+    "cidade": "Lavras",
+    "localidade": "Fábricas",
+    "endereco": "Rua Custódio Moreira, 50",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedesaojoaodelrei.com.br/paroquia-de-nossa-senhora-auxiliadora-lavras/",
+    "data": "2016-02-12",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania de Lavras (nome antigo, na ficha do site). Sem horário publicado pela diocese em página atual; confirmar com a secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "Lavras",
+  "padroeiro": "São Sebastião",
+  "contatos": {
+   "telefone": "3538215894",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "https://saosebastiaolavras.webnode.page/",
+   "email": "paroquia@saosebastiaolavras.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Sebastião",
+    "tipo": "matriz",
+    "cidade": "Lavras",
+    "localidade": "Artur Bernardes",
+    "endereco": "Rua Comandante Tavares, 54",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedesaojoaodelrei.com.br/paroquia-de-sao-sebastiao-lavras/",
+    "data": "2022-05-26",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Forania Sant'Ana. Horários da ficha no site da diocese, atualizada em maio/2022. 18 comunidades (13 urbanas e 5 rurais), sem nomes na ficha."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Itutinga",
+  "padroeiro": "Santo Antônio de Pádua",
+  "contatos": {
+   "telefone": "3538251215",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Itutinga",
+    "localidade": "Centro",
+    "endereco": "Rua Antenor Augusto, 35",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedesaojoaodelrei.com.br/paroquia-de-santo-antonio-itutinga/",
+    "data": "2020-09-16",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania de Lavras (nome antigo, na ficha do site). Sem horário publicado pela diocese em página atual; confirmar com a secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora do Carmo",
+  "categoria": "paroquia",
+  "cidade": "Luminárias",
+  "padroeiro": "Nossa Senhora do Carmo",
+  "contatos": {
+   "telefone": "3532261117",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "pnscarmo@bol.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Carmo",
+    "tipo": "matriz",
+    "cidade": "Luminárias",
+    "localidade": "Centro",
+    "endereco": "Rua Prefeito Antônio Furtado, 15",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedesaojoaodelrei.com.br/paroquia-de-nossa-senhora-do-carmo-luminarias/",
+    "data": "2016-01-23",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania de Lavras (nome antigo, na ficha do site). Sem horário publicado pela diocese em página atual; confirmar com a secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São José",
+  "categoria": "paroquia",
+  "cidade": "Itumirim",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "3538231113",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José",
+    "tipo": "matriz",
+    "cidade": "Itumirim",
+    "localidade": "Centro",
+    "endereco": "Praça Chicre Záquia, 39",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedesaojoaodelrei.com.br/paroquia-de-sao-jose-itumirim/",
+    "data": "2020-09-16",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania de Lavras (nome antigo, na ficha do site). Sem horário publicado pela diocese em página atual; confirmar com a secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "Itumirim",
+  "padroeiro": "São Sebastião",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Sebastião",
+    "tipo": "matriz",
+    "cidade": "Itumirim",
+    "localidade": "Macuco de Minas",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Rosário",
+    "tipo": "comunidade",
+    "cidade": "Itumirim",
+    "localidade": "Rosário de Minas",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sant'Ana",
+    "tipo": "comunidade",
+    "cidade": "Itumirim",
+    "localidade": "Barro Vermelho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Rosa Mística",
+    "tipo": "comunidade",
+    "cidade": "Itumirim",
+    "localidade": "Camarão",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Manuel",
+    "tipo": "comunidade",
+    "cidade": "Itumirim",
+    "localidade": "Macuquinho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Itumirim",
+    "localidade": "Gruta de Santo Antônio",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedesaojoaodelrei.com.br/diocese-ganha-nova-paroquia-no-distrito-de-macuco-de-minas/",
+    "data": "2023-12-29",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedesaojoaodelrei.com.br/bispo-emite-circular-com-nomeacoes-transferencia-e-criacao-de-nova-paroquia/",
+    "data": "2023-10-28",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Distrito de Macuco de Minas (Itumirim). Paróquia criada em 27/12/2023; sem ficha com endereço ou telefone no site da diocese. Sem horário publicado pela diocese em página atual; confirmar com a secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora da Conceição",
+  "categoria": "paroquia",
+  "cidade": "Ijaci",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "3538431801",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "Ijaci",
+    "localidade": "Centro",
+    "endereco": "Praça Elias Antônio Filho, 283",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedesaojoaodelrei.com.br/paroquia-de-nossa-senhora-da-conceicao-ijaci/",
+    "data": "2020-09-16",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania de Lavras (nome antigo, na ficha do site). Sem horário publicado pela diocese em página atual; confirmar com a secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Sant'Ana",
+  "categoria": "paroquia",
+  "cidade": "Lavras",
+  "padroeiro": "Sant'Ana",
+  "contatos": {
+   "telefone": "3538211358",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Sant'Ana",
+    "tipo": "matriz",
+    "cidade": "Lavras",
+    "localidade": "Centro",
+    "endereco": "Rua Monsenhor Aureliano, 59",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedesaojoaodelrei.com.br/paroquia-de-santana-lavras/",
+    "data": "2020-09-16",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania de Lavras (nome antigo, na ficha do site); atendida pelos padres dehonianos (SCJ). Sem horário publicado pela diocese em página atual; confirmar com a secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "Ingaí",
+  "padroeiro": "São Sebastião e São João Batista",
+  "contatos": {
+   "telefone": "3538241116",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "http://paroquiasaosebastiaodeingai.blogspot.com/",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Sebastião",
+    "tipo": "matriz",
+    "cidade": "Ingaí",
+    "localidade": "Centro",
+    "endereco": "Praça Gabriel Andrade Junqueira, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Fátima",
+    "tipo": "comunidade",
+    "cidade": "Ingaí",
+    "localidade": "Vila Candinho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Nazaré",
+    "tipo": "comunidade",
+    "cidade": "Ingaí",
+    "localidade": "Tomba",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Ingaí",
+    "localidade": "Bocaina",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Ingaí",
+    "localidade": "Campestre",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Conceição",
+    "tipo": "comunidade",
+    "cidade": "Ingaí",
+    "localidade": "Vista Alegre",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Catarina de Alexandria",
+    "tipo": "comunidade",
+    "cidade": "Ingaí",
+    "localidade": "Estação Paulo Freitas",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrada Família",
+    "tipo": "comunidade",
+    "cidade": "Ingaí",
+    "localidade": "Jaguará",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio e São Geraldo",
+    "tipo": "comunidade",
+    "cidade": "Ingaí",
+    "localidade": "Soca",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedesaojoaodelrei.com.br/paroquia-de-sao-sebastiao-ingai/",
+    "data": "2020-09-16",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania de Lavras (nome antigo, na ficha do site). Sem horário publicado pela diocese em página atual; confirmar com a secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora de Fátima",
+  "categoria": "paroquia",
+  "cidade": "Lavras",
+  "padroeiro": "Nossa Senhora de Fátima",
+  "contatos": {
+   "telefone": "3538214075",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora de Fátima",
+    "tipo": "matriz",
+    "cidade": "Lavras",
+    "localidade": "Nova Lavras",
+    "endereco": "Rua Dr. Silvio Modesto de Souza, 240",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Rosa de Lima",
+    "tipo": "comunidade",
+    "cidade": "Lavras",
+    "localidade": "Rosas",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Batista",
+    "tipo": "comunidade",
+    "cidade": "Lavras",
+    "localidade": "Maranhão",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Lavras",
+    "localidade": "Formigas",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora das Graças",
+    "tipo": "comunidade",
+    "cidade": "Lavras",
+    "localidade": "Taboões",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedesaojoaodelrei.com.br/paroquia-de-nossa-senhora-de-fatima-lavras/",
+    "data": "2020-09-16",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania de Lavras (nome antigo, na ficha do site). Pároco nomeado em 2023: Pe. Claudir Possa Trindade. Sem horário publicado pela diocese em página atual; confirmar com a secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Lavras",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "3538218124",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Lavras",
+    "localidade": "Joaquim Sales",
+    "endereco": "Praça Nossa Senhora Aparecida, 811",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedesaojoaodelrei.com.br/paroquia-de-nossa-senhora-aparecida-lavras/",
+    "data": "2020-09-16",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania de Lavras (nome antigo, na ficha do site). Sem horário publicado pela diocese em página atual; confirmar com a secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São Judas Tadeu",
+  "categoria": "paroquia",
+  "cidade": "Lavras",
+  "padroeiro": "São Judas Tadeu",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Judas Tadeu",
+    "tipo": "matriz",
+    "cidade": "Lavras",
+    "localidade": "Cohab",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedesaojoaodelrei.com.br/padre-nelio-toma-posse-como-paroco-em-nova-paroquia-de-lavras/",
+    "data": "2018-03-01",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedesaojoaodelrei.com.br/paroquias-festejam-sao-judas-santo-das-causas-impossiveis-3/",
+    "data": "2026-10-29",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Bairro Cohab, Lavras; paróquia criada em 2018 (desmembrada de N. S. Auxiliadora). Sem ficha com endereço ou telefone no site da diocese. Sem horário publicado pela diocese em página atual; confirmar com a secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de São Gonçalo do Amarante",
+  "categoria": "paroquia",
+  "cidade": "Ibituruna",
+  "padroeiro": "São Gonçalo do Amarante",
+  "contatos": {
+   "telefone": "3538441112",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Gonçalo do Amarante",
+    "tipo": "matriz",
+    "cidade": "Ibituruna",
+    "localidade": "Centro",
+    "endereco": "Praça Fernão Dias, 144",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedesaojoaodelrei.com.br/paroquia-de-sao-goncalo-do-amarante-ibituruna/",
+    "data": "2020-09-16",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania de Lavras (nome antigo, na ficha do site). Sem horário publicado pela diocese em página atual; confirmar com a secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora de Nazaré",
+  "categoria": "paroquia",
+  "cidade": "Nazareno",
+  "padroeiro": "Nossa Senhora de Nazaré",
+  "contatos": {
+   "telefone": "3538421200",
+   "whatsapp": "",
+   "instagram": "pascomsantuarionsn",
+   "site": "",
+   "email": "santuarionsn@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário de Nossa Senhora de Nazaré",
+    "tipo": "santuario",
+    "cidade": "Nazareno",
+    "localidade": "Centro",
+    "endereco": "Praça Nossa Senhora de Nazaré, 81",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Igreja de Nossa Senhora do Rosário",
+    "tipo": "comunidade",
+    "cidade": "Nazareno",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedesaojoaodelrei.com.br/paroquia-de-nossa-senhora-de-nazare-nazareno/",
+    "data": "2022-05-26",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Forania Nossa Senhora de Nazaré. Horários da ficha no site da diocese, atualizada em maio/2022."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Lagoa Dourada",
+  "padroeiro": "Santo Antônio de Pádua",
+  "contatos": {
+   "telefone": "3233631222",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Lagoa Dourada",
+    "localidade": "Centro",
+    "endereco": "Praça Dom Antônio de Assis, 76",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedesaojoaodelrei.com.br/paroquia-de-santo-antonio-lagoa-dourada/",
+    "data": "2020-09-16",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania de Prados (nome antigo, na ficha do site). Sem horário publicado pela diocese em página atual; confirmar com a secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Sant'Ana do Barroso",
+  "categoria": "paroquia",
+  "cidade": "Barroso",
+  "padroeiro": "Sant'Ana",
+  "contatos": {
+   "telefone": "3233511213",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Sant'Ana",
+    "tipo": "matriz",
+    "cidade": "Barroso",
+    "localidade": "Centro",
+    "endereco": "Praça Gustavo Meireles, 8",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedesaojoaodelrei.com.br/paroquia-de-santana-do-barroso-barroso/",
+    "data": "2020-09-16",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania de Prados (nome antigo, na ficha do site). Sem horário publicado pela diocese em página atual; confirmar com a secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora do Rosário de Fátima",
+  "categoria": "paroquia",
+  "cidade": "Barroso",
+  "padroeiro": "Nossa Senhora do Rosário de Fátima",
+  "contatos": {
+   "telefone": "3233511420",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Rosário de Fátima",
+    "tipo": "matriz",
+    "cidade": "Barroso",
+    "localidade": "",
+    "endereco": "Av. Rio Grande do Sul, 460",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedesaojoaodelrei.com.br/paroquia-de-nossa-senhora-do-rosario-de-fatima-barroso/",
+    "data": "2020-09-16",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania de Prados (nome antigo, na ficha do site); o endereço da ficha parece ser o da secretaria. Sem horário publicado pela diocese em página atual; confirmar com a secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora da Penha de França",
+  "categoria": "paroquia",
+  "cidade": "Resende Costa",
+  "padroeiro": "Nossa Senhora da Penha de França",
+  "contatos": {
+   "telefone": "3233541200",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Penha de França",
+    "tipo": "matriz",
+    "cidade": "Resende Costa",
+    "localidade": "Centro",
+    "endereco": "Praça Cônego Cardoso, 61",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedesaojoaodelrei.com.br/paroquia-de-nossa-senhora-da-penha-de-franca-resende-costa/",
+    "data": "2020-09-16",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania de Prados (nome antigo, na ficha do site). Sem horário publicado pela diocese em página atual; confirmar com a secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora da Conceição",
+  "categoria": "paroquia",
+  "cidade": "Prados",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "3233536253",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "Prados",
+    "localidade": "Centro",
+    "endereco": "Rua Prof. Antônio Américo, 5",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedesaojoaodelrei.com.br/paroquia-de-nossa-senhora-da-conceicao-prados/",
+    "data": "2020-09-16",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania de Prados (nome antigo, na ficha do site). Sem horário publicado pela diocese em página atual; confirmar com a secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Nossa Senhora das Dores",
+  "categoria": "paroquia",
+  "cidade": "Dores de Campos",
+  "padroeiro": "Nossa Senhora das Dores",
+  "contatos": {
+   "telefone": "3233531389",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora das Dores",
+    "tipo": "matriz",
+    "cidade": "Dores de Campos",
+    "localidade": "",
+    "endereco": "Rua Dr. Silvio Tranqueira, 159",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedesaojoaodelrei.com.br/paroquia-de-nossa-senhora-das-dores-dores-de-campos/",
+    "data": "2020-09-16",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania de Prados (nome antigo, na ficha do site). Sem horário publicado pela diocese em página atual; confirmar com a secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia de Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Tiradentes",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "3233551238",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Tiradentes",
+    "localidade": "Centro",
+    "endereco": "Rua Jogo de Bola, 15",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedesaojoaodelrei.com.br/paroquia-de-santo-antonio-tiradentes/",
+    "data": "2020-09-16",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania de Prados (nome antigo, na ficha do site). O Santuário da Santíssima Trindade, em Tiradentes, pertence a esta paróquia. Sem horário publicado pela diocese em página atual; confirmar com a secretaria."
+ }
+]

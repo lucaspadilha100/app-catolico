@@ -1,0 +1,3083 @@
+[
+ {
+  "id_banco": null,
+  "nome": "Catedral de Santo Antônio",
+  "categoria": "catedral",
+  "cidade": "Sete Lagoas",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "3137732125",
+   "whatsapp": "",
+   "instagram": "catedral.santoantonio",
+   "site": "",
+   "email": "catedralsantoantonio@diocesedesetelagoas.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Catedral de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Sete Lagoas",
+    "localidade": "Centro",
+    "endereco": "Praça Tiradentes, 9",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedesetelagoas.com.br/paroquias/paroquia-de-santo-antonio-catedral?city=Sete%20Lagoas",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocese-sete-lagoas.unitas.app.br/api/churchs/paroquia-de-santo-antonio-catedral",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania São Geraldo. Horários da página da paróquia no site da diocese (sem data)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Cristo Redentor",
+  "categoria": "paroquia",
+  "cidade": "Sete Lagoas",
+  "padroeiro": "Cristo Redentor",
+  "contatos": {
+   "telefone": "3137732304",
+   "whatsapp": "31998077663",
+   "instagram": "",
+   "site": "",
+   "email": "cristoredentorsl@diocesedesetelagoas.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Cristo Redentor",
+    "tipo": "matriz",
+    "cidade": "Sete Lagoas",
+    "localidade": "Indústrias",
+    "endereco": "Rua Eponina Soares dos Santos, 213",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedesetelagoas.com.br/paroquias/paroquia-cristo-redentor?city=Sete%20Lagoas",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocese-sete-lagoas.unitas.app.br/api/churchs/paroquia-cristo-redentor",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania São Geraldo. Horários da página da paróquia no site da diocese (sem data)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Imaculada Conceição",
+  "categoria": "paroquia",
+  "cidade": "Sete Lagoas",
+  "padroeiro": "Imaculada Conceição",
+  "contatos": {
+   "telefone": "3137711241",
+   "whatsapp": "3137711241",
+   "instagram": "",
+   "site": "",
+   "email": "imaculadaconceicaosl@diocesedesetelagoas.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz da Imaculada Conceição",
+    "tipo": "matriz",
+    "cidade": "Sete Lagoas",
+    "localidade": "Progresso",
+    "endereco": "Rua Bernardino Vaz de Melo, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "06:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Missa todo dia 8 às 19h30"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedesetelagoas.com.br/paroquias/paroquia-imaculada-conceicao?city=Sete%20Lagoas",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocese-sete-lagoas.unitas.app.br/api/churchs/paroquia-imaculada-conceicao",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania São Geraldo. Horários da página da paróquia no site da diocese (sem data)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Conceição",
+  "categoria": "paroquia",
+  "cidade": "Sete Lagoas",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "3137742493",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "nsconceicaobarreiro@diocesedesetelagoas.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "Sete Lagoas",
+    "localidade": "Barreiro",
+    "endereco": "Praça do Milito, 91",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedesetelagoas.com.br/paroquias/paroquia-nossa-senhora-da-conceicao-1?city=Barreiro",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocese-sete-lagoas.unitas.app.br/api/churchs/paroquia-nossa-senhora-da-conceicao-1",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania Santa Luzia. Horários da página da paróquia no site da diocese (sem data). Distrito do Barreiro, em Sete Lagoas (a página põe \"Barreiro\" como cidade; o CEP é de Sete Lagoas). Secretaria de segunda a sexta, 12h às 18h."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora das Graças",
+  "categoria": "paroquia",
+  "cidade": "Sete Lagoas",
+  "padroeiro": "Nossa Senhora das Graças",
+  "contatos": {
+   "telefone": "3137734737",
+   "whatsapp": "3137734737",
+   "instagram": "",
+   "site": "",
+   "email": "nsdasgracassl@diocesedesetelagoas.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora das Graças",
+    "tipo": "matriz",
+    "cidade": "Sete Lagoas",
+    "localidade": "Nossa Senhora das Graças",
+    "endereco": "Rua Almirante Tamandaré, 11",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Missa todo dia 27 às 19h"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedesetelagoas.com.br/paroquias/paroquia-nossa-senhora-das-gracas?city=Sete%20Lagoas",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocese-sete-lagoas.unitas.app.br/api/churchs/paroquia-nossa-senhora-das-gracas",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania Santa Luzia. Horários da página da paróquia no site da diocese (sem data)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Carmo",
+  "categoria": "paroquia",
+  "cidade": "Sete Lagoas",
+  "padroeiro": "Nossa Senhora do Carmo",
+  "contatos": {
+   "telefone": "3131760437",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "nsdocarmosl@diocesedesetelagoas.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Carmo",
+    "tipo": "matriz",
+    "cidade": "Sete Lagoas",
+    "localidade": "Nossa Senhora do Carmo",
+    "endereco": "Rua dos Guaranis, 250",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedesetelagoas.com.br/paroquias/paroquia-nossa-senhora-do-carmo-1?city=Sete%20Lagoas",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocese-sete-lagoas.unitas.app.br/api/churchs/paroquia-nossa-senhora-do-carmo-1",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania Santa Luzia. Horários da página da paróquia no site da diocese (sem data)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sagrada Família",
+  "categoria": "paroquia",
+  "cidade": "Sete Lagoas",
+  "padroeiro": "Sagrada Família",
+  "contatos": {
+   "telefone": "3137766593",
+   "whatsapp": "3137766593",
+   "instagram": "paroquiasagradafamilia7l",
+   "site": "",
+   "email": "sagradafamiliasl@diocesedesetelagoas.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz da Sagrada Família",
+    "tipo": "matriz",
+    "cidade": "Sete Lagoas",
+    "localidade": "Luxemburgo",
+    "endereco": "Rua Ângelo Marcelo Paoli, 825",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedesetelagoas.com.br/paroquias/paroquia-sagrada-familia?city=Sete%20Lagoas",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocese-sete-lagoas.unitas.app.br/api/churchs/paroquia-sagrada-familia",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania Sant'Ana e São Joaquim. Horários da página da paróquia no site da diocese (sem data)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sant'Ana",
+  "categoria": "paroquia",
+  "cidade": "Sete Lagoas",
+  "padroeiro": "Sant'Ana",
+  "contatos": {
+   "telefone": "3137712609",
+   "whatsapp": "3137712609",
+   "instagram": "paroquiasantana7l",
+   "site": "",
+   "email": "santanaesaojoaquimsl@diocesedesetelagoas.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Sant'Ana",
+    "tipo": "matriz",
+    "cidade": "Sete Lagoas",
+    "localidade": "Boa Vista",
+    "endereco": "Rua Santana, 293",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedesetelagoas.com.br/paroquias/paroquia-santana?city=Sete%20Lagoas",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocese-sete-lagoas.unitas.app.br/api/churchs/paroquia-santana",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania Sant'Ana e São Joaquim. Horários da página da paróquia no site da diocese (sem data). Na lista do GCatholic aparece como Sant'Ana e São Joaquim."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Luzia",
+  "categoria": "paroquia",
+  "cidade": "Sete Lagoas",
+  "padroeiro": "Santa Luzia",
+  "contatos": {
+   "telefone": "3137712003",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "santaluziasl@diocesedesetelagoas.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Luzia",
+    "tipo": "matriz",
+    "cidade": "Sete Lagoas",
+    "localidade": "Santa Luzia",
+    "endereco": "Rua Matozinhos, 228",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedesetelagoas.com.br/paroquias/paroquia-santa-luzia?city=Sete%20Lagoas",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocese-sete-lagoas.unitas.app.br/api/churchs/paroquia-santa-luzia",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania Santa Luzia. Horários da página da paróquia no site da diocese (sem data)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Cristóvão",
+  "categoria": "paroquia",
+  "cidade": "Sete Lagoas",
+  "padroeiro": "São Cristóvão",
+  "contatos": {
+   "telefone": "3137734746",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "saocristovaosl@diocesedesetelagoas.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Cristóvão",
+    "tipo": "matriz",
+    "cidade": "Sete Lagoas",
+    "localidade": "Santo Antônio",
+    "endereco": "Rua Pedra Grande, 1099",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedesetelagoas.com.br/paroquias/paroquia-sao-cristovao?city=Sete%20Lagoas",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocese-sete-lagoas.unitas.app.br/api/churchs/paroquia-sao-cristovao",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania São Geraldo. Horários da página da paróquia no site da diocese (sem data). WhatsApp publicado com um dígito a mais: (31)9 9 7575-6553."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Francisco",
+  "categoria": "paroquia",
+  "cidade": "Sete Lagoas",
+  "padroeiro": "São Francisco",
+  "contatos": {
+   "telefone": "3137725262",
+   "whatsapp": "3137725262",
+   "instagram": "",
+   "site": "",
+   "email": "saofranciscosl@diocesedesetelagoas.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Francisco",
+    "tipo": "matriz",
+    "cidade": "Sete Lagoas",
+    "localidade": "São Francisco de Assis",
+    "endereco": "Rua Itaipú, 53",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedesetelagoas.com.br/paroquias/paroquia-sao-francisco?city=Sete%20Lagoas",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocese-sete-lagoas.unitas.app.br/api/churchs/paroquia-sao-francisco",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania Santa Luzia. Horários da página da paróquia no site da diocese (sem data)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Geraldo",
+  "categoria": "paroquia",
+  "cidade": "Sete Lagoas",
+  "padroeiro": "São Geraldo",
+  "contatos": {
+   "telefone": "3137719525",
+   "whatsapp": "31995057154",
+   "instagram": "",
+   "site": "",
+   "email": "saogeraldosl@diocesedesetelagoas.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Geraldo",
+    "tipo": "matriz",
+    "cidade": "Sete Lagoas",
+    "localidade": "São Geraldo",
+    "endereco": "Rua Ricart Normand, 207",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedesetelagoas.com.br/paroquias/paroquia-sao-geraldo?city=Sete%20Lagoas",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocese-sete-lagoas.unitas.app.br/api/churchs/paroquia-sao-geraldo",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania São Geraldo. Horários da página da paróquia no site da diocese (sem data)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José Operário",
+  "categoria": "paroquia",
+  "cidade": "Sete Lagoas",
+  "padroeiro": "São José Operário",
+  "contatos": {
+   "telefone": "3137744145",
+   "whatsapp": "31990699488",
+   "instagram": "paroquiasaojoseop.7l",
+   "site": "",
+   "email": "saojoseoperariosl@diocesedesetelagoas.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José Operário",
+    "tipo": "matriz",
+    "cidade": "Sete Lagoas",
+    "localidade": "Nova Cidade",
+    "endereco": "Av: Prefeito Alberto Moura, 540",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedesetelagoas.com.br/paroquias/paroquia-sao-jose-operario-1?city=Sete%20Lagoas",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocese-sete-lagoas.unitas.app.br/api/churchs/paroquia-sao-jose-operario-1",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania Sant'Ana e São Joaquim. Horários da página da paróquia no site da diocese (sem data)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "Sete Lagoas",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "3137729345",
+   "whatsapp": "3137729345",
+   "instagram": "",
+   "site": "",
+   "email": "saojoaobatistasl@diocesedesetelagoas.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Batista",
+    "tipo": "matriz",
+    "cidade": "Sete Lagoas",
+    "localidade": "Belo Vale I",
+    "endereco": "Rua Antônio Nogueira de Souza, 48",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedesetelagoas.com.br/paroquias/paroquia-sao-joao-batista?city=Sete%20Lagoas",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocese-sete-lagoas.unitas.app.br/api/churchs/paroquia-sao-joao-batista",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania Sant'Ana e São Joaquim. Horários da página da paróquia no site da diocese (sem data)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Pedro",
+  "categoria": "paroquia",
+  "cidade": "Sete Lagoas",
+  "padroeiro": "São Pedro",
+  "contatos": {
+   "telefone": "3137718999",
+   "whatsapp": "3137718999",
+   "instagram": "",
+   "site": "",
+   "email": "saopedrosl@diocesedesetelagoas.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Pedro",
+    "tipo": "matriz",
+    "cidade": "Sete Lagoas",
+    "localidade": "Jardim Arizona",
+    "endereco": "Praça Pe. Domingos, 20",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedesetelagoas.com.br/paroquias/paroquia-sao-pedro?city=Sete%20Lagoas",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocese-sete-lagoas.unitas.app.br/api/churchs/paroquia-sao-pedro",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania Santa Luzia. Horários da página da paróquia no site da diocese (sem data)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia do Divino Espírito Santo",
+  "categoria": "paroquia",
+  "cidade": "Sete Lagoas",
+  "padroeiro": "Divino Espírito Santo",
+  "contatos": {
+   "telefone": "3137732543",
+   "whatsapp": "31999151220",
+   "instagram": "paroquiadodivino",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Divino Espírito Santo",
+    "tipo": "matriz",
+    "cidade": "Sete Lagoas",
+    "localidade": "Montreal",
+    "endereco": "Rua das Zíneas, 95",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Celebração (não é missa) aos sábados às 7h"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedesetelagoas.com.br/paroquias/paroquia-do-divino-espirito-santo?city=Sete%20Lagoas",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocese-sete-lagoas.unitas.app.br/api/churchs/paroquia-do-divino-espirito-santo",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania Sant'Ana e São Joaquim. Horários da página da paróquia no site da diocese (sem data). O e-mail publicado na página (santanaesaojoaquimsl@) é o mesmo da Paróquia Sant'Ana; ficou fora. A página traz também uma celebração aos sábados às 7h."
+ },
+ {
+  "id_banco": null,
+  "nome": "Santuário de Adoração São Pedro Julião Eymard",
+  "categoria": "santuario",
+  "cidade": "Sete Lagoas",
+  "padroeiro": "São Pedro Julião Eymard",
+  "contatos": {
+   "telefone": "3137732157",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário de Adoração São Pedro Julião Eymard",
+    "tipo": "santuario",
+    "cidade": "Sete Lagoas",
+    "localidade": "Centro",
+    "endereco": "Praça José Antônio da Silveira, 10",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "11:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedesetelagoas.com.br/paroquias/santuario-de-adoracao-sao-pedro-juliao-eymard?city=Sete%20Lagoas",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocese-sete-lagoas.unitas.app.br/api/churchs/santuario-de-adoracao-sao-pedro-juliao-eymard",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania Santa Luzia. Horários da página da paróquia no site da diocese (sem data). Santuário que a diocese lista entre as paróquias. Secretaria: segunda a sexta 7h30 às 17h40, sábado 7h às 10h40."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "Araçaí",
+  "padroeiro": "São Sebastião",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Sebastião",
+    "tipo": "matriz",
+    "cidade": "Araçaí",
+    "localidade": "Centro",
+    "endereco": "Rua Padre Horta, 130",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "06:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedesetelagoas.com.br/paroquias/paroquia-sao-sebastiao?city=Ara%C3%A7a%C3%AD",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania Nossa Senhora da Abadia. Horários da página da paróquia no site da diocese (sem data)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Bernardo",
+  "categoria": "paroquia",
+  "cidade": "Baldim",
+  "padroeiro": "São Bernardo",
+  "contatos": {
+   "telefone": "3137181396",
+   "whatsapp": "3137181396",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiabaldim@diocesedesetelagoas.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Bernardo",
+    "tipo": "matriz",
+    "cidade": "Baldim",
+    "localidade": "Centro",
+    "endereco": "Praça da Matriz, 66",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedesetelagoas.com.br/paroquias/paroquia-sao-bernardo?city=Baldim",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocese-sete-lagoas.unitas.app.br/api/churchs/paroquia-sao-bernardo",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania Santíssimo Sacramento. Horários da página da paróquia no site da diocese (sem data)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sagrado Coração de Jesus",
+  "categoria": "paroquia",
+  "cidade": "Cachoeira da Prata",
+  "padroeiro": "Sagrado Coração de Jesus",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Sagrado Coração de Jesus",
+    "tipo": "matriz",
+    "cidade": "Cachoeira da Prata",
+    "localidade": "Centro",
+    "endereco": "Rua do Comércio, 640",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedesetelagoas.com.br/paroquias/paroquia-sagrado-coracao-de-jesus?city=Cachoeira%20do%20Prata",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania Santo Antônio. Horários da página da paróquia no site da diocese (sem data)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Caetanópolis",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "31996880300",
+   "whatsapp": "31996880300",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiacaetanopolis@diocesedesetelagoas.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Caetanópolis",
+    "localidade": "Centro",
+    "endereco": "Praça Antônio Pinto Mascarenhas, 20",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "06:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedesetelagoas.com.br/paroquias/paroquia-santo-antonio?city=Caetan%C3%B3polis",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocese-sete-lagoas.unitas.app.br/api/churchs/paroquia-santo-antonio",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania Nossa Senhora da Abadia. Horários da página da paróquia no site da diocese (sem data)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Conceição",
+  "categoria": "paroquia",
+  "cidade": "Capim Branco",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "3137131071",
+   "whatsapp": "31972463258",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiacapimbranco@diocesedesetelagoas.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "Capim Branco",
+    "localidade": "Centro",
+    "endereco": "Praça Nossa Senhora da Conceição, 02",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedesetelagoas.com.br/paroquias/paroquia-nossa-senhora-da-conceicao-3?city=Capim%20Branco",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocese-sete-lagoas.unitas.app.br/api/churchs/paroquia-nossa-senhora-da-conceicao-3",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania Senhor Bom Jesus. Horários da página da paróquia no site da diocese (sem data)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sagrado Coração de Jesus",
+  "categoria": "paroquia",
+  "cidade": "Cordisburgo",
+  "padroeiro": "Sagrado Coração de Jesus",
+  "contatos": {
+   "telefone": "31998386659",
+   "whatsapp": "31998386659",
+   "instagram": "paroquiacordisburgo",
+   "site": "",
+   "email": "paroquiacordisburgo@diocesedesetelagoas.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Sagrado Coração de Jesus",
+    "tipo": "matriz",
+    "cidade": "Cordisburgo",
+    "localidade": "Centro",
+    "endereco": "Tv João Limoeiro 475",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "06:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedesetelagoas.com.br/paroquias/paroquia-sagrado-coracao-de-jesus?city=Cordisburgo",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocese-sete-lagoas.unitas.app.br/api/churchs/paroquia-sagrado-coracao-de-jesus",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania Nossa Senhora da Abadia. Horários da página da paróquia no site da diocese (sem data)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Fortuna de Minas",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Fortuna de Minas",
+    "localidade": "Centro",
+    "endereco": "Praça da Matriz",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedesetelagoas.com.br/paroquias/paroquia-santo-antonio?city=Fortuna%20de%20Minas",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania Santo Antônio. Horários da página da paróquia no site da diocese (sem data). A página lista \"Quinta: 17h00 e 17h00\" (repetido)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Rosário",
+  "categoria": "paroquia",
+  "cidade": "Funilândia",
+  "padroeiro": "Nossa Senhora do Rosário",
+  "contatos": {
+   "telefone": "3137136292",
+   "whatsapp": "3137136292",
+   "instagram": "pnsrfunilandia",
+   "site": "",
+   "email": "paroquiafunilandia@diocesedesetelagoas.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Rosário",
+    "tipo": "matriz",
+    "cidade": "Funilândia",
+    "localidade": "Centro",
+    "endereco": "Praça Nossa Senhora do Rosário, 358",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Missa todo dia 7 às 19h30"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedesetelagoas.com.br/paroquias/paroquia-nossa-senhora-do-rosario?city=Funil%C3%A2ndia",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocese-sete-lagoas.unitas.app.br/api/churchs/paroquia-nossa-senhora-do-rosario",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania Senhor Bom Jesus. Horários da página da paróquia no site da diocese (sem data)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "Inhaúma",
+  "padroeiro": "São Sebastião",
+  "contatos": {
+   "telefone": "3137164275",
+   "whatsapp": "31990634610",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiainhauma@diocesedesetelagoas.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Sebastião",
+    "tipo": "matriz",
+    "cidade": "Inhaúma",
+    "localidade": "Centro",
+    "endereco": "Praça Dr. Flávio Gutierrez, 114",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Missa todo dia 4 às 19h; Missa todo dia 20 às 19h30"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedesetelagoas.com.br/paroquias/paroquia-sao-sebastiao?city=Inha%C3%BAma",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocese-sete-lagoas.unitas.app.br/api/churchs/paroquia-sao-sebastiao",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania Santo Antônio. Horários da página da paróquia no site da diocese (sem data)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Conceição",
+  "categoria": "paroquia",
+  "cidade": "Jaboticatubas",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "31986832446",
+   "whatsapp": "31986832446",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiajaboticatubas@diocesedesetelagoas.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "Jaboticatubas",
+    "localidade": "Centro",
+    "endereco": "Av. Benedito Valadares, 456",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": [
+       1,
+       3
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedesetelagoas.com.br/paroquias/paroquia-nossa-senhora-da-conceicao-2?city=Jaboticatubas",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocese-sete-lagoas.unitas.app.br/api/churchs/paroquia-nossa-senhora-da-conceicao-2",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania Santíssimo Sacramento. Horários da página da paróquia no site da diocese (sem data)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia do Santíssimo Sacramento",
+  "categoria": "paroquia",
+  "cidade": "Jequitibá",
+  "padroeiro": "Santíssimo Sacramento",
+  "contatos": {
+   "telefone": "31997905281",
+   "whatsapp": "31997905281",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiajequitiba@diocesedesetelagoas.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Santíssimo Sacramento",
+    "tipo": "matriz",
+    "cidade": "Jequitibá",
+    "localidade": "Centro",
+    "endereco": "Praça JK, 91",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedesetelagoas.com.br/paroquias/paroquia-do-santissimo-sacramento?city=Jequitib%C3%A1",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocese-sete-lagoas.unitas.app.br/api/churchs/paroquia-do-santissimo-sacramento",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania Santíssimo Sacramento. Horários da página da paróquia no site da diocese (sem data)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Maravilhas",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Maravilhas",
+    "localidade": "Centro",
+    "endereco": "Av. Brasil, 165",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedesetelagoas.com.br/paroquias/paroquia-santo-antonio?city=Maravilhas",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania Santo Antônio. Sem horário confirmado: a página da paróquia no site da diocese diz \"Horários não disponíveis\"; nenhum perfil próprio citado."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Abadia",
+  "categoria": "paroquia",
+  "cidade": "Martinho Campos",
+  "padroeiro": "Nossa Senhora da Abadia",
+  "contatos": {
+   "telefone": "37998577601",
+   "whatsapp": "37998577601",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiamartinhocampos@diocesedesetelagoas.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Abadia",
+    "tipo": "matriz",
+    "cidade": "Martinho Campos",
+    "localidade": "Centro",
+    "endereco": "Praça Governador Valadares, 558",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedesetelagoas.com.br/paroquias/paroquia-nossa-senhora-da-abadia?city=Martinhos%20Campos",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocese-sete-lagoas.unitas.app.br/api/churchs/paroquia-nossa-senhora-da-abadia",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania Nossa Senhora da Abadia. Horários da página da paróquia no site da diocese (sem data). Cidade escrita \"Martinhos Campos\" na página da diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Senhor Bom Jesus",
+  "categoria": "paroquia",
+  "cidade": "Matozinhos",
+  "padroeiro": "Senhor Bom Jesus",
+  "contatos": {
+   "telefone": "31989537957",
+   "whatsapp": "31989537957",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiamatozinhos@diocesedesetelagoas.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Senhor Bom Jesus",
+    "tipo": "matriz",
+    "cidade": "Matozinhos",
+    "localidade": "Centro",
+    "endereco": "Praça Bom Jesus",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedesetelagoas.com.br/paroquias/paroquia-senhor-bom-jesus?city=Matozinhos",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocese-sete-lagoas.unitas.app.br/api/churchs/paroquia-senhor-bom-jesus",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania Senhor Bom Jesus. Horários da página da paróquia no site da diocese (sem data)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "Papagaios",
+  "padroeiro": "São Sebastião",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Sebastião",
+    "tipo": "matriz",
+    "cidade": "Papagaios",
+    "localidade": "Centro",
+    "endereco": "Rua Pe. Waldemar, 208",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedesetelagoas.com.br/paroquias/paroquia-sao-sebastiao?city=Papagaios",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania Santo Antônio. Horários da página da paróquia no site da diocese (sem data)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Carmo",
+  "categoria": "paroquia",
+  "cidade": "Paraopeba",
+  "padroeiro": "Nossa Senhora do Carmo",
+  "contatos": {
+   "telefone": "3137141018",
+   "whatsapp": "3137141018",
+   "instagram": "paroquiansra.docarmo",
+   "site": "",
+   "email": "paroquiaparaopeba@diocesedesetelagoas.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Carmo",
+    "tipo": "matriz",
+    "cidade": "Paraopeba",
+    "localidade": "Centro",
+    "endereco": "Praça Caetano Mascarenhas, 480",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedesetelagoas.com.br/paroquias/paroquia-nossa-senhora-do-carmo?city=Paraopeba",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocese-sete-lagoas.unitas.app.br/api/churchs/paroquia-nossa-senhora-do-carmo",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania Nossa Senhora da Abadia. Horários da página da paróquia no site da diocese (sem data)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Pequi",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Pequi",
+    "localidade": "Centro",
+    "endereco": "Praça Santo Antônio, 149",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedesetelagoas.com.br/paroquias/paroquia-santo-antonio?city=Pequi",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania Santo Antônio. Horários da página da paróquia no site da diocese (sem data)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Conceição",
+  "categoria": "paroquia",
+  "cidade": "Pompéu",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "3735233969",
+   "whatsapp": "3735233969",
+   "instagram": "",
+   "site": "",
+   "email": "nsconceicaopompeu@diocesedesetelagoas.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "Pompéu",
+    "localidade": "Centro",
+    "endereco": "Rua Felix Dias, 109",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedesetelagoas.com.br/paroquias/paroquia-nossa-senhora-da-conceicao?city=Pomp%C3%A9u",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocese-sete-lagoas.unitas.app.br/api/churchs/paroquia-nossa-senhora-da-conceicao",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania Nossa Senhora da Abadia. Horários da página da paróquia no site da diocese (sem data)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José Operário",
+  "categoria": "paroquia",
+  "cidade": "Pompéu",
+  "padroeiro": "São José Operário",
+  "contatos": {
+   "telefone": "3735231814",
+   "whatsapp": "3735231814",
+   "instagram": "",
+   "site": "",
+   "email": "sjoperariopompeu@diocesedesetelagoas.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José Operário",
+    "tipo": "matriz",
+    "cidade": "Pompéu",
+    "localidade": "Volta do Brejo",
+    "endereco": "Rua Chiquinho da Quita, 813",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedesetelagoas.com.br/paroquias/paroquia-sao-jose-operario?city=Pomp%C3%A9u",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocese-sete-lagoas.unitas.app.br/api/churchs/paroquia-sao-jose-operario",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania Nossa Senhora da Abadia. Horários da página da paróquia no site da diocese (sem data)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Prudente de Morais",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Prudente de Morais",
+    "localidade": "Centro",
+    "endereco": "Praça Santo Antônio, 87",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "08:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Missa todo dia 13 às 19h"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedesetelagoas.com.br/paroquias/paroquia-santo-antonio?city=Prudente%20de%20Morais",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania Senhor Bom Jesus. Horários da página da paróquia no site da diocese (sem data)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sant'Ana e São Joaquim",
+  "categoria": "paroquia",
+  "cidade": "Santana de Pirapama",
+  "padroeiro": "Sant'Ana e São Joaquim",
+  "contatos": {
+   "telefone": "3137171211",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasantanadepirapama@diocesedesetelagoas.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Sant'Ana e São Joaquim",
+    "tipo": "matriz",
+    "cidade": "Santana de Pirapama",
+    "localidade": "Centro",
+    "endereco": "Rua Mons. Roque Venâncio da Silveira, 216",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedesetelagoas.com.br/paroquias/paroquia-santana-e-sao-joaquim?city=Santana%20de%20Pirapama",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocese-sete-lagoas.unitas.app.br/api/churchs/paroquia-santana-e-sao-joaquim",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania Santíssimo Sacramento. Sem horário confirmado: a página da paróquia no site da diocese diz \"Horários não disponíveis\"; nenhum perfil próprio citado."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sant'Ana",
+  "categoria": "paroquia",
+  "cidade": "Santana do Riacho",
+  "padroeiro": "Sant'Ana",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Sant'Ana",
+    "tipo": "matriz",
+    "cidade": "Santana do Riacho",
+    "localidade": "Centro",
+    "endereco": "R. Alfredo Domingos de Melo, 286",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedesetelagoas.com.br/paroquias/paroquia-santana?city=Santana%20do%20Riacho",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania Santíssimo Sacramento. Horários da página da paróquia no site da diocese (sem data)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José",
+  "categoria": "paroquia",
+  "cidade": "São José de Almeida",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "3131288454",
+   "whatsapp": "3131288454",
+   "instagram": "paroquiasaojose_doalmeida",
+   "site": "",
+   "email": "paroquiasjdoalmeida@diocesedesetelagoas.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José",
+    "tipo": "matriz",
+    "cidade": "São José de Almeida",
+    "localidade": "Centro",
+    "endereco": "Praça São José, 87",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Missa todo dia 19 às 19h"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedesetelagoas.com.br/paroquias/paroquia-sao-jose?city=S%C3%A3o%20Jos%C3%A9%20de%20Almeida",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocese-sete-lagoas.unitas.app.br/api/churchs/paroquia-sao-jose",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania Santíssimo Sacramento. Horários da página da paróquia no site da diocese (sem data)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Vicente",
+  "categoria": "paroquia",
+  "cidade": "São Vicente",
+  "padroeiro": "São Vicente de Paulo",
+  "contatos": {
+   "telefone": "3137185201",
+   "whatsapp": "3137185201",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasaovicente@diocesedesetelagoas.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Vicente de Paulo",
+    "tipo": "matriz",
+    "cidade": "São Vicente",
+    "localidade": "Centro",
+    "endereco": "Rua Martins da Costa, S/N",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "06:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesedesetelagoas.com.br/paroquias/paroquia-sao-vicente?city=S%C3%A3o%20Vicente",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocese-sete-lagoas.unitas.app.br/api/churchs/paroquia-sao-vicente",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania Santíssimo Sacramento. Horários da página da paróquia no site da diocese (sem data)."
+ }
+]

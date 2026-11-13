@@ -1,0 +1,1809 @@
+[
+ {
+  "id_banco": null,
+  "nome": "Catedral São João Batista",
+  "categoria": "catedral",
+  "cidade": "Montenegro",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "5136321196",
+   "whatsapp": "51984370817",
+   "instagram": "catedralmontenegro",
+   "site": "https://www.psjb.org.br/",
+   "email": "secretaria@psjb.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Catedral São João Batista",
+    "tipo": "matriz",
+    "cidade": "Montenegro",
+    "localidade": "Centro",
+    "endereco": "Rua Olavo Bilac, 1212",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Montenegro",
+    "localidade": "Santo Antônio",
+    "endereco": "Estrada Getúlio Vargas, 1135",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": [
+       1,
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Espírito Santo",
+    "tipo": "comunidade",
+    "cidade": "Montenegro",
+    "localidade": "Olaria",
+    "endereco": "Rua do Espírito Santo, 177",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "15:30",
+      "semanas": [
+       2,
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "São José do Sul",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Perpétuo Socorro",
+    "tipo": "comunidade",
+    "cidade": "Montenegro",
+    "localidade": "Centenário",
+    "endereco": "Rua Simões Lopes Neto, 722",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": [
+       2,
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora das Graças",
+    "tipo": "comunidade",
+    "cidade": "Montenegro",
+    "localidade": "São João",
+    "endereco": "Rua Intendente Felisberto P. de Souza, 1-103",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": [
+       1,
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Rosário",
+    "tipo": "comunidade",
+    "cidade": "Montenegro",
+    "localidade": "Rui Barbosa",
+    "endereco": "Rua Florindo Machado, 263",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "15:30",
+      "semanas": [
+       1,
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Montenegro",
+    "localidade": "Integração",
+    "endereco": "Rodovia RS 470, 463",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:30",
+      "semanas": [
+       2,
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora dos Navegantes",
+    "tipo": "comunidade",
+    "cidade": "Montenegro",
+    "localidade": "Porto dos Pereiras",
+    "endereco": "Estrada Pareci, 877",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:30",
+      "semanas": [
+       1,
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santos Reis",
+    "tipo": "comunidade",
+    "cidade": "São José do Sul",
+    "localidade": "",
+    "endereco": "Estrada Santos Reis, 1561",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Alberto Magno",
+    "tipo": "comunidade",
+    "cidade": "Montenegro",
+    "localidade": "",
+    "endereco": "Estrada Getúlio Vargas, 2396",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Bom Pastor",
+    "tipo": "comunidade",
+    "cidade": "Montenegro",
+    "localidade": "Panorama",
+    "endereco": "Rua Heitor Muller, 199",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": [
+       1,
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Imaculado Coração de Maria",
+    "tipo": "comunidade",
+    "cidade": "São José do Sul",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": [
+       1,
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://montenegro.unitas.app.br/api/churchs/comunidade-catedral-sao-joao-batista",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://montenegro.unitas.app.br/api/churchs/paroquia-catedral-sao-joao-batista",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://storage.unitas.app.br/1/magazines/file/dioc-montenegro-guia-pastoral-2026-digital-Cmt9.pdf",
+    "data": "2026",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.psjb.org.br/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://montenegro.unitas.app.br/api/churchs/paroquia-catedral-sao-joao-batista/subchurches",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Área Pastoral Montenegro. Sé da diocese. Site da paróquia: psjb.org.br. Fundada em 28/04/1871. A agenda do site da paróquia confere com os horários do cadastro da diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Senhor Bom Jesus",
+  "categoria": "paroquia",
+  "cidade": "Triunfo",
+  "padroeiro": "Senhor Bom Jesus",
+  "contatos": {
+   "telefone": "5136541365",
+   "whatsapp": "51998446019",
+   "instagram": "paroquiabjt",
+   "site": "",
+   "email": "psbj@diocesemontenegro.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Senhor Bom Jesus",
+    "tipo": "matriz",
+    "cidade": "Triunfo",
+    "localidade": "Centro",
+    "endereco": "Rua Marechal Deodoro, 89",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://montenegro.unitas.app.br/api/churchs/paroquia-senhor-bom-jesus",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://storage.unitas.app.br/1/magazines/file/dioc-montenegro-guia-pastoral-2026-digital-Cmt9.pdf",
+    "data": "2026",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Área Pastoral Montenegro. O guia pastoral 2026 a chama Paróquia Bom Jesus. Fundada em 11/03/1754; 12 comunidades."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "Brochier",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "51996430077",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "psjb_brochier@diocesemontenegro.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São João Batista",
+    "tipo": "matriz",
+    "cidade": "Brochier",
+    "localidade": "Centro",
+    "endereco": "Rua Adolfo Edvino Willers, 101",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://montenegro.unitas.app.br/api/churchs/paroquia-sao-joao-batista",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://storage.unitas.app.br/1/magazines/file/dioc-montenegro-guia-pastoral-2026-digital-Cmt9.pdf",
+    "data": "2026",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Área Pastoral Montenegro. Fundada em 25/12/1962; 12 comunidades. Sem horário de missa no site da diocese nem no guia pastoral 2026. Facebook citado pela diocese: https://www.facebook.com/saojoaobatistabrochier"
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sagrado Coração de Jesus",
+  "categoria": "paroquia",
+  "cidade": "Montenegro",
+  "padroeiro": "Sagrado Coração de Jesus",
+  "contatos": {
+   "telefone": "51997109950",
+   "whatsapp": "",
+   "instagram": "pscjmontenegro",
+   "site": "",
+   "email": "pscj@diocesemontenegro.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Sagrado Coração de Jesus",
+    "tipo": "matriz",
+    "cidade": "Montenegro",
+    "localidade": "Timbaúva",
+    "endereco": "Rua José Carlos de Oliveira, 120",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Rita de Cássia",
+    "tipo": "comunidade",
+    "cidade": "Montenegro",
+    "localidade": "São Paulo",
+    "endereco": "Rua Bahia",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://montenegro.unitas.app.br/api/churchs/paroquia-sagrado-coracao-de-jesus",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://storage.unitas.app.br/1/magazines/file/dioc-montenegro-guia-pastoral-2026-digital-Cmt9.pdf",
+    "data": "2026",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Área Pastoral Montenegro. Fundada em 30/12/1959; 7 comunidades. Sem horário de missa no site da diocese nem no guia pastoral 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Montenegro",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "51993142291",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "psa_montenegro@diocesemontenegro.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Montenegro",
+    "localidade": "Vendinha",
+    "endereco": "BR 386, Km 410",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://montenegro.unitas.app.br/api/churchs/paroquia-santo-antonio-1",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://storage.unitas.app.br/1/magazines/file/dioc-montenegro-guia-pastoral-2026-digital-Cmt9.pdf",
+    "data": "2026",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Área Pastoral Montenegro. Fundada em 09/11/2006; 22 comunidades. Sem horário de missa no site da diocese nem no guia pastoral 2026. Facebook citado pela diocese: https://www.facebook.com/profile.php?id=100077492745810"
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José",
+  "categoria": "paroquia",
+  "cidade": "Taquari",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "5136531643",
+   "whatsapp": "",
+   "instagram": "paroquiasaojosetaquari",
+   "site": "",
+   "email": "psj_taquari@diocesemontenegro.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São José",
+    "tipo": "matriz",
+    "cidade": "Taquari",
+    "localidade": "Centro",
+    "endereco": "Rua Sete de Setembro, 1973",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://montenegro.unitas.app.br/api/churchs/paroquia-sao-jose-de-taquari",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://storage.unitas.app.br/1/magazines/file/dioc-montenegro-guia-pastoral-2026-digital-Cmt9.pdf",
+    "data": "2026",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Área Pastoral Montenegro. Atende Taquari e Tabaí; padres franciscanos (OFM). Fundada em 01/05/1764; 23 comunidades. Sem horário de missa no site da diocese nem no guia pastoral 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Miguel Arcanjo",
+  "categoria": "paroquia",
+  "cidade": "Maratá",
+  "padroeiro": "São Miguel Arcanjo",
+  "contatos": {
+   "telefone": "51996948018",
+   "whatsapp": "",
+   "instagram": "paroquiasaom",
+   "site": "",
+   "email": "psma@diocesemontenegro.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Miguel Arcanjo",
+    "tipo": "matriz",
+    "cidade": "Maratá",
+    "localidade": "Centro",
+    "endereco": "Rua Padre Bernardo Rech, 203",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://montenegro.unitas.app.br/api/churchs/paroquia-sao-miguel-arcanjo",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://storage.unitas.app.br/1/magazines/file/dioc-montenegro-guia-pastoral-2026-digital-Cmt9.pdf",
+    "data": "2026",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Área Pastoral Montenegro. O guia pastoral 2026 a chama Paróquia São Miguel. Fundada em 08/03/1923; 7 comunidades. Sem horário de missa no site da diocese nem no guia pastoral 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Cristo Redentor",
+  "categoria": "paroquia",
+  "cidade": "Tupandi",
+  "padroeiro": "Cristo Redentor",
+  "contatos": {
+   "telefone": "5136358317",
+   "whatsapp": "",
+   "instagram": "paroquiatupandi",
+   "site": "",
+   "email": "pcr_tupandi@diocesemontenegro.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Cristo Redentor",
+    "tipo": "matriz",
+    "cidade": "Tupandi",
+    "localidade": "Centro",
+    "endereco": "Rua Carlos Weber, 198",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://montenegro.unitas.app.br/api/churchs/paroquia-cristo-redentor",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://storage.unitas.app.br/1/magazines/file/dioc-montenegro-guia-pastoral-2026-digital-Cmt9.pdf",
+    "data": "2026",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Área Pastoral Bom Princípio. Fundada em 11/01/1876; 6 comunidades. Sem horário de missa no site da diocese nem no guia pastoral 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Purificação",
+  "categoria": "paroquia",
+  "cidade": "Bom Princípio",
+  "padroeiro": "Nossa Senhora da Purificação",
+  "contatos": {
+   "telefone": "51996346365",
+   "whatsapp": "",
+   "instagram": "paroquianossasradapurificacao",
+   "site": "",
+   "email": "pnsp@diocesemontenegro.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora da Purificação",
+    "tipo": "matriz",
+    "cidade": "Bom Princípio",
+    "localidade": "Centro",
+    "endereco": "Rua Irmão Weibert, 885",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://montenegro.unitas.app.br/api/churchs/paroquia-nossa-senhora-da-purificacao",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://storage.unitas.app.br/1/magazines/file/dioc-montenegro-guia-pastoral-2026-digital-Cmt9.pdf",
+    "data": "2026",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Área Pastoral Bom Princípio. Paróquia desde 05/02/1880; 12 comunidades. Sem horário de missa no site da diocese nem no guia pastoral 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Conceição",
+  "categoria": "paroquia",
+  "cidade": "São Vendelino",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "51998079265",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "pnsc_sv@diocesemontenegro.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "São Vendelino",
+    "localidade": "Centro",
+    "endereco": "Rua Cônego Pedro Alfredo Caspary, 351",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://montenegro.unitas.app.br/api/churchs/paroquia-nossa-senhora-da-conceicao-1",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://storage.unitas.app.br/1/magazines/file/dioc-montenegro-guia-pastoral-2026-digital-Cmt9.pdf",
+    "data": "2026",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Área Pastoral Bom Princípio. Fundada em 13/09/1933; 8 comunidades. Sem horário de missa no site da diocese nem no guia pastoral 2026. Facebook citado pela diocese: https://www.facebook.com/conceicaosv1"
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Natividade",
+  "categoria": "paroquia",
+  "cidade": "Barão",
+  "padroeiro": "Nossa Senhora da Natividade",
+  "contatos": {
+   "telefone": "51996028381",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "pnsn@diocesemontenegro.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora da Natividade",
+    "tipo": "matriz",
+    "cidade": "Barão",
+    "localidade": "Linha Francesa Alta",
+    "endereco": "Avenida Central, 4668",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://montenegro.unitas.app.br/api/churchs/paroquia-nossa-senhora-da-natividade",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://storage.unitas.app.br/1/magazines/file/dioc-montenegro-guia-pastoral-2026-digital-Cmt9.pdf",
+    "data": "2026",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Área Pastoral Bom Princípio. Fundada em 01/01/1964; 7 comunidades. Sem horário de missa no site da diocese nem no guia pastoral 2026. Facebook citado pela diocese: https://www.facebook.com/nossasenhoradanatividade"
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Inácio de Loyola",
+  "categoria": "paroquia",
+  "cidade": "Alto Feliz",
+  "padroeiro": "Santo Inácio de Loyola",
+  "contatos": {
+   "telefone": "51996214060",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "psil@diocesemontenegro.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santo Inácio de Loyola",
+    "tipo": "matriz",
+    "cidade": "Alto Feliz",
+    "localidade": "Centro",
+    "endereco": "Rua Júlio de Castilhos, 844",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://montenegro.unitas.app.br/api/churchs/paroquia-santo-inacio-de-loyola",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://storage.unitas.app.br/1/magazines/file/dioc-montenegro-guia-pastoral-2026-digital-Cmt9.pdf",
+    "data": "2026",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Área Pastoral Bom Princípio. O guia pastoral 2026 a chama Paróquia Santo Inácio. Fundada em 25/06/1877; 6 comunidades."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Catarina de Alexandria",
+  "categoria": "paroquia",
+  "cidade": "Feliz",
+  "padroeiro": "Santa Catarina de Alexandria",
+  "contatos": {
+   "telefone": "5136371472",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "psca_feliz@diocesemontenegro.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santa Catarina de Alexandria",
+    "tipo": "matriz",
+    "cidade": "Feliz",
+    "localidade": "Centro",
+    "endereco": "Rua Santa Catarina, 180",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://montenegro.unitas.app.br/api/churchs/paroquia-santa-catarina-de-alexandria",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://storage.unitas.app.br/1/magazines/file/dioc-montenegro-guia-pastoral-2026-digital-Cmt9.pdf",
+    "data": "2026",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Área Pastoral Bom Princípio. Atende Feliz e Linha Nova. Fundada em 31/12/1945; 11 comunidades. Sem horário de missa no site da diocese nem no guia pastoral 2026. Facebook citado pela diocese: https://www.facebook.com/ParoquiaStaCatarina"
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santos Reis",
+  "categoria": "paroquia",
+  "cidade": "Vale Real",
+  "padroeiro": "Santos Reis",
+  "contatos": {
+   "telefone": "51998617988",
+   "whatsapp": "",
+   "instagram": "paroquiavalereal",
+   "site": "",
+   "email": "psr@diocesemontenegro.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santos Reis",
+    "tipo": "matriz",
+    "cidade": "Vale Real",
+    "localidade": "Centro",
+    "endereco": "RST 452, Km 14",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://montenegro.unitas.app.br/api/churchs/paroquia-santos-reis",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://storage.unitas.app.br/1/magazines/file/dioc-montenegro-guia-pastoral-2026-digital-Cmt9.pdf",
+    "data": "2026",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Área Pastoral Bom Princípio. Fundada em 01/01/1955; 5 comunidades. Sem horário de missa no site da diocese nem no guia pastoral 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Três Santos Mártires das Missões",
+  "categoria": "paroquia",
+  "cidade": "Salvador do Sul",
+  "padroeiro": "Três Santos Mártires das Missões",
+  "contatos": {
+   "telefone": "5136381392",
+   "whatsapp": "",
+   "instagram": "paroquiasalvadordosul",
+   "site": "",
+   "email": "ptsmm@diocesemontenegro.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Três Santos Mártires das Missões",
+    "tipo": "matriz",
+    "cidade": "Salvador do Sul",
+    "localidade": "Centro",
+    "endereco": "Rua Hugo Specht, 189",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://montenegro.unitas.app.br/api/churchs/paroquia-tres-santos-martires-das-missoes",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://storage.unitas.app.br/1/magazines/file/dioc-montenegro-guia-pastoral-2026-digital-Cmt9.pdf",
+    "data": "2026",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Área Pastoral Bom Princípio. Fundada em 22/05/1996; 7 comunidades. Sem horário de missa no site da diocese nem no guia pastoral 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Pedro",
+  "categoria": "paroquia",
+  "cidade": "São Pedro da Serra",
+  "padroeiro": "São Pedro",
+  "contatos": {
+   "telefone": "5136451222",
+   "whatsapp": "",
+   "instagram": "paroquiasaopedroebarao",
+   "site": "",
+   "email": "psp@diocesemontenegro.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Pedro",
+    "tipo": "matriz",
+    "cidade": "São Pedro da Serra",
+    "localidade": "Centro",
+    "endereco": "Rua da Matriz, 87",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://montenegro.unitas.app.br/api/churchs/paroquia-sao-pedro",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://storage.unitas.app.br/1/magazines/file/dioc-montenegro-guia-pastoral-2026-digital-Cmt9.pdf",
+    "data": "2026",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Área Pastoral Bom Princípio. Atende São Pedro da Serra e Barão; celular de Barão no guia: (51) 98932-4364. Fundada em 13/09/1933; 7 comunidades. Sem horário de missa no site da diocese nem no guia pastoral 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Rosário",
+  "categoria": "paroquia",
+  "cidade": "Paverama",
+  "padroeiro": "Nossa Senhora do Rosário",
+  "contatos": {
+   "telefone": "5137611014",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "pnsr_paverama@diocesemontenegro.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora do Rosário",
+    "tipo": "matriz",
+    "cidade": "Paverama",
+    "localidade": "Centro",
+    "endereco": "Rua Emiliano Dias Siqueira, 50",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Imaculado Coração de Maria",
+    "tipo": "comunidade",
+    "cidade": "Paverama",
+    "localidade": "",
+    "endereco": "Rua Francisco Alfredo Griebeler, 1118",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Paverama",
+    "localidade": "Morro Bonito",
+    "endereco": "VRS 035",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Paverama",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": [
+       1,
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://montenegro.unitas.app.br/api/churchs/paroquia-nossa-senhora-do-rosario",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://storage.unitas.app.br/1/magazines/file/dioc-montenegro-guia-pastoral-2026-digital-Cmt9.pdf",
+    "data": "2026",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://montenegro.unitas.app.br/api/churchs/paroquia-nossa-senhora-do-rosario/subchurches",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Área Pastoral Estrela. Fundada em 14/04/1921; 19 comunidades."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sagrada Família",
+  "categoria": "paroquia",
+  "cidade": "Bom Retiro do Sul",
+  "padroeiro": "Sagrada Família",
+  "contatos": {
+   "telefone": "51996367198",
+   "whatsapp": "",
+   "instagram": "sagradafamiliabrs",
+   "site": "",
+   "email": "psf@diocesemontenegro.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Sagrada Família",
+    "tipo": "matriz",
+    "cidade": "Bom Retiro do Sul",
+    "localidade": "Centro",
+    "endereco": "Rua Senador Pinheiro Machado, 640",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://montenegro.unitas.app.br/api/churchs/paroquia-sagrada-familia",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://storage.unitas.app.br/1/magazines/file/dioc-montenegro-guia-pastoral-2026-digital-Cmt9.pdf",
+    "data": "2026",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Área Pastoral Estrela. Atende Bom Retiro do Sul e Fazenda Vilanova. Fundada em 22/01/1929; 19 comunidades. Sem horário de missa no site da diocese nem no guia pastoral 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Cristóvão",
+  "categoria": "paroquia",
+  "cidade": "Estrela",
+  "padroeiro": "São Cristóvão",
+  "contatos": {
+   "telefone": "5137121464",
+   "whatsapp": "",
+   "instagram": "paroquia_sao_cristovao",
+   "site": "",
+   "email": "psc@diocesemontenegro.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Cristóvão",
+    "tipo": "matriz",
+    "cidade": "Estrela",
+    "localidade": "Boa União",
+    "endereco": "Rua 1º de Maio, 15",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://montenegro.unitas.app.br/api/churchs/paroquia-sao-cristovao",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://storage.unitas.app.br/1/magazines/file/dioc-montenegro-guia-pastoral-2026-digital-Cmt9.pdf",
+    "data": "2026",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Área Pastoral Estrela. Atende parte de Estrela e Colinas. Fundada em 23/10/1988; 12 comunidades. Sem horário de missa no site da diocese nem no guia pastoral 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Pedro Apóstolo",
+  "categoria": "paroquia",
+  "cidade": "Poço das Antas",
+  "padroeiro": "São Pedro Apóstolo",
+  "contatos": {
+   "telefone": "51999174882",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "pspa@diocesemontenegro.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Pedro Apóstolo",
+    "tipo": "matriz",
+    "cidade": "Poço das Antas",
+    "localidade": "Centro",
+    "endereco": "Avenida São Pedro, 1123",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://montenegro.unitas.app.br/api/churchs/paroquia-sao-pedro-apostolo",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://storage.unitas.app.br/1/magazines/file/dioc-montenegro-guia-pastoral-2026-digital-Cmt9.pdf",
+    "data": "2026",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Área Pastoral Estrela. Paróquia desde 28/07/1922; 13 comunidades. Sem horário de missa no site da diocese nem no guia pastoral 2026. Facebook citado pela diocese: https://www.facebook.com/PSPA.PocodasAntas"
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Rosário",
+  "categoria": "paroquia",
+  "cidade": "Teutônia",
+  "padroeiro": "Nossa Senhora do Rosário",
+  "contatos": {
+   "telefone": "51980118402",
+   "whatsapp": "",
+   "instagram": "parteutonia",
+   "site": "",
+   "email": "pnsr_teutonia@diocesemontenegro.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora do Rosário",
+    "tipo": "matriz",
+    "cidade": "Teutônia",
+    "localidade": "Canabarro",
+    "endereco": "Rua Sete de Setembro, 453",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://montenegro.unitas.app.br/api/churchs/paroquia-nossa-senhora-do-rosario-1",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://storage.unitas.app.br/1/magazines/file/dioc-montenegro-guia-pastoral-2026-digital-Cmt9.pdf",
+    "data": "2026",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Área Pastoral Estrela. Atende Teutônia e Westfália. Fundada em 25/12/1984; 12 comunidades. Sem horário de missa no site da diocese nem no guia pastoral 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Estrela",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "5137121071",
+   "whatsapp": "51996437284",
+   "instagram": "santuario.santoantonio",
+   "site": "https://santuarioestrela.com.br/",
+   "email": "paroquia@santuarioestrela.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário Santo Antônio",
+    "tipo": "santuario",
+    "cidade": "Estrela",
+    "localidade": "Centro",
+    "endereco": "Rua Júlio de Castilhos, 340",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "15:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": "Durante a missa das 19h"
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Batista",
+    "tipo": "comunidade",
+    "cidade": "Estrela",
+    "localidade": "Delfina",
+    "endereco": "Rua Sidnei Andreolli, 45",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Auxiliadora",
+    "tipo": "comunidade",
+    "cidade": "Estrela",
+    "localidade": "Alto da Bronze",
+    "endereco": "Rua Luís Horn, 253-407",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José Operário",
+    "tipo": "comunidade",
+    "cidade": "Estrela",
+    "localidade": "Imigrantes",
+    "endereco": "Rua Valter Pedro Caye, 95",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Pedro Apóstolo",
+    "tipo": "comunidade",
+    "cidade": "Estrela",
+    "localidade": "Delfina",
+    "endereco": "Rua João Pedro Mallmann, 2111",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Luís Gonzaga",
+    "tipo": "comunidade",
+    "cidade": "Estrela",
+    "localidade": "Delfina",
+    "endereco": "Estrada Luiz A. Delfina, 505",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Estrela",
+    "localidade": "Alto da Bronze",
+    "endereco": "Rua Geraldo Pereira, 455",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://santuarioestrela.com.br/pagina/1008/?secretaria.html",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://montenegro.unitas.app.br/api/churchs/paroquia-santo-antonio",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://storage.unitas.app.br/1/magazines/file/dioc-montenegro-guia-pastoral-2026-digital-Cmt9.pdf",
+    "data": "2026",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Área Pastoral Estrela. Matriz é santuário (Santuário Santo Antônio). Fundada em 02/04/1873; 15 comunidades. Horários do site da paróquia; o cadastro da diocese diz missa de sábado a quinta às 18h30 e domingo às 8h30 e 19h."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José",
+  "categoria": "paroquia",
+  "cidade": "Roca Sales",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "51997846796",
+   "whatsapp": "",
+   "instagram": "saojose.rocasales",
+   "site": "",
+   "email": "psj_rs@diocesemontenegro.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São José",
+    "tipo": "matriz",
+    "cidade": "Roca Sales",
+    "localidade": "Centro",
+    "endereco": "Rua Padre Fernando Steffen, 385",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://montenegro.unitas.app.br/api/churchs/paroquia-sao-jose-de-roca-sales",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://storage.unitas.app.br/1/magazines/file/dioc-montenegro-guia-pastoral-2026-digital-Cmt9.pdf",
+    "data": "2026",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Área Pastoral Estrela. Paróquia desde 13/09/1924; 18 comunidades. Sem horário de missa no site da diocese nem no guia pastoral 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora das Graças",
+  "categoria": "paroquia",
+  "cidade": "Portão",
+  "padroeiro": "Nossa Senhora das Graças",
+  "contatos": {
+   "telefone": "51997836869",
+   "whatsapp": "",
+   "instagram": "gracasportao",
+   "site": "",
+   "email": "pnsg@diocesemontenegro.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora das Graças",
+    "tipo": "matriz",
+    "cidade": "Portão",
+    "localidade": "Rincão do Cascalho",
+    "endereco": "Travessa Nossa Senhora das Graças, 49",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://montenegro.unitas.app.br/api/churchs/paroquia-nossa-senhora-das-gracas",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://storage.unitas.app.br/1/magazines/file/dioc-montenegro-guia-pastoral-2026-digital-Cmt9.pdf",
+    "data": "2026",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Área Pastoral São Sebastião do Caí. Fundada em 31/12/1957; 14 comunidades. Sem horário de missa no site da diocese nem no guia pastoral 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Nepomuceno",
+  "categoria": "paroquia",
+  "cidade": "Harmonia",
+  "padroeiro": "São João Nepomuceno",
+  "contatos": {
+   "telefone": "51996756155",
+   "whatsapp": "",
+   "instagram": "paroquia.harmonia",
+   "site": "",
+   "email": "psjn@diocesemontenegro.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São João Nepomuceno",
+    "tipo": "matriz",
+    "cidade": "Harmonia",
+    "localidade": "Centro",
+    "endereco": "Rua João Henrique Marx, 159",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://montenegro.unitas.app.br/api/churchs/paroquia-sao-joao-nepomuceno",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://storage.unitas.app.br/1/magazines/file/dioc-montenegro-guia-pastoral-2026-digital-Cmt9.pdf",
+    "data": "2026",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Área Pastoral São Sebastião do Caí. Atende Harmonia e São José do Sul. Fundada em 28/10/1887; 5 comunidades. Sem horário de missa no site da diocese nem no guia pastoral 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José",
+  "categoria": "paroquia",
+  "cidade": "São José do Hortêncio",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "51997912599",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "psj_sjh@diocesemontenegro.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São José",
+    "tipo": "matriz",
+    "cidade": "São José do Hortêncio",
+    "localidade": "Centro",
+    "endereco": "Avenida Mathias Steffens, 4358",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://montenegro.unitas.app.br/api/churchs/paroquia-sao-jose-2",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://storage.unitas.app.br/1/magazines/file/dioc-montenegro-guia-pastoral-2026-digital-Cmt9.pdf",
+    "data": "2026",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Área Pastoral São Sebastião do Caí. Fundada em 18/07/1848; 5 comunidades. Sem horário de missa no site da diocese nem no guia pastoral 2026. Facebook citado pela diocese: https://www.facebook.com/profile.php?id=100068442498800"
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Conceição",
+  "categoria": "paroquia",
+  "cidade": "São Sebastião do Caí",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "5135361432",
+   "whatsapp": "51997958766",
+   "instagram": "",
+   "site": "",
+   "email": "pnsc_sscai@diocesemontenegro.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "São Sebastião do Caí",
+    "localidade": "Vila Conceição",
+    "endereco": "Avenida Nelson Hoff, 1185",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://montenegro.unitas.app.br/api/churchs/paroquia-nossa-senhora-da-conceicao",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://storage.unitas.app.br/1/magazines/file/dioc-montenegro-guia-pastoral-2026-digital-Cmt9.pdf",
+    "data": "2026",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Área Pastoral São Sebastião do Caí. Fundada em 31/12/1996; 11 comunidades. Sem horário de missa no site da diocese nem no guia pastoral 2026. Facebook citado pela diocese: https://www.facebook.com/ParoquiaConceicaoCai"
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Ana",
+  "categoria": "paroquia",
+  "cidade": "Capela de Santana",
+  "padroeiro": "Santa Ana",
+  "contatos": {
+   "telefone": "5136981194",
+   "whatsapp": "51980375841",
+   "instagram": "",
+   "site": "",
+   "email": "psa_cs@diocesemontenegro.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santa Ana",
+    "tipo": "matriz",
+    "cidade": "Capela de Santana",
+    "localidade": "Centro",
+    "endereco": "Praça Franklin Rodrigues da Silva, 45",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://montenegro.unitas.app.br/api/churchs/paroquia-santa-ana",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://storage.unitas.app.br/1/magazines/file/dioc-montenegro-guia-pastoral-2026-digital-Cmt9.pdf",
+    "data": "2026",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Área Pastoral São Sebastião do Caí. Fundada em 15/06/1814; 8 comunidades. Sem horário de missa no site da diocese nem no guia pastoral 2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José",
+  "categoria": "paroquia",
+  "cidade": "Pareci Novo",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "5136339387",
+   "whatsapp": "51997407571",
+   "instagram": "",
+   "site": "",
+   "email": "psj_pn@diocesemontenegro.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São José",
+    "tipo": "matriz",
+    "cidade": "Pareci Novo",
+    "localidade": "Centro",
+    "endereco": "Rua João Inácio Teixeira, 30",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://montenegro.unitas.app.br/api/churchs/paroquia-sao-jose",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://storage.unitas.app.br/1/magazines/file/dioc-montenegro-guia-pastoral-2026-digital-Cmt9.pdf",
+    "data": "2026",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Área Pastoral São Sebastião do Caí. Fundada em 31/12/1945; 8 comunidades. Sem horário de missa no site da diocese nem no guia pastoral 2026. Facebook citado pela diocese: https://www.facebook.com/profile.php?id=100067664724168"
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Sebastião Mártir",
+  "categoria": "paroquia",
+  "cidade": "São Sebastião do Caí",
+  "padroeiro": "São Sebastião",
+  "contatos": {
+   "telefone": "51998009418",
+   "whatsapp": "",
+   "instagram": "paroquiacai",
+   "site": "",
+   "email": "pssm@diocesemontenegro.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Sebastião Mártir",
+    "tipo": "matriz",
+    "cidade": "São Sebastião do Caí",
+    "localidade": "Centro",
+    "endereco": "Rua Henrique D'Ávila, 712",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://montenegro.unitas.app.br/api/churchs/paroquia-sao-sebastiao-martir",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://storage.unitas.app.br/1/magazines/file/dioc-montenegro-guia-pastoral-2026-digital-Cmt9.pdf",
+    "data": "2026",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Área Pastoral São Sebastião do Caí. O guia pastoral 2026 a chama Paróquia São Sebastião. Fundada em 01/07/1879; 10 comunidades."
+ }
+]

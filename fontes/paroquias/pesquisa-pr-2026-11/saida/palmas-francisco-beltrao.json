@@ -1,0 +1,3378 @@
+[
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Isabel da Hungria",
+  "categoria": "paroquia",
+  "cidade": "Santa Izabel do Oeste",
+  "padroeiro": "Santa Isabel da Hungria",
+  "contatos": {
+   "telefone": "4635421293",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "http://paroquiastaizabel.com.br/",
+   "email": "paroquiastaizabel@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Isabel da Hungria",
+    "tipo": "matriz",
+    "cidade": "Santa Izabel do Oeste",
+    "localidade": "Centro",
+    "endereco": "Avenida dos Pinheiros, 1970",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Domingo 19h no Bairro São José Operário."
+   },
+   {
+    "id_banco": null,
+    "nome": "Santuário Diocesano de Nossa Senhora Aparecida",
+    "tipo": "santuario",
+    "cidade": "Santa Izabel do Oeste",
+    "localidade": "Linha Santa Catarina",
+    "endereco": "Núcleo Rural Linha Santa Catarina",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesepalmasbeltrao.com.br/modulos/handlers/paroquias.ashx?type=detail&id=3",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesepalmasbeltrao.com.br/modulos/handlers/santuarios.ashx?type=detail&id=6",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Diocese de Palmas-Francisco Beltrão, Decanato de Realeza. O Santuário Diocesano N. S. Aparecida aparece no quadro de missas da paróquia."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Lourdes",
+  "categoria": "paroquia",
+  "cidade": "Planalto",
+  "padroeiro": "Nossa Senhora de Lourdes",
+  "contatos": {
+   "telefone": "4635551187",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "pnlourdesplto@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora de Lourdes",
+    "tipo": "matriz",
+    "cidade": "Planalto",
+    "localidade": "Centro",
+    "endereco": "Rua Padre Marcelo, 624",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa do Sagrado Coração"
+     }
+    ],
+    "nao_cabe": "Dia 11 de cada mês, 17h: adoração e novena de N. S. de Lourdes."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesepalmasbeltrao.com.br/modulos/handlers/paroquias.ashx?type=detail&id=4",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Diocese de Palmas-Francisco Beltrão, Decanato de Realeza."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Salto do Lontra",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "4635381233",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquia.salto@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Salto do Lontra",
+    "localidade": "Centro",
+    "endereco": "Avenida Nicolau Inácio, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa do Sagrado Coração"
+     }
+    ],
+    "nao_cabe": "No horário de verão as missas passam para as 20h."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesepalmasbeltrao.com.br/modulos/handlers/paroquias.ashx?type=detail&id=5",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Diocese de Palmas-Francisco Beltrão, Decanato de Dois Vizinhos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio de Pádua",
+  "categoria": "paroquia",
+  "cidade": "Dois Vizinhos",
+  "padroeiro": "Santo Antônio de Pádua",
+  "contatos": {
+   "telefone": "4635361108",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "http://www.paroquiasantoantoniodv.com.br/",
+   "email": "santoantoniodoisvizinhos@outlook.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio de Pádua",
+    "tipo": "matriz",
+    "cidade": "Dois Vizinhos",
+    "localidade": "Centro",
+    "endereco": "Rua Prudente de Morais, 628",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": "Missa da saúde"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesepalmasbeltrao.com.br/modulos/handlers/paroquias.ashx?type=detail&id=6",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Diocese de Palmas-Francisco Beltrão, Decanato de Dois Vizinhos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Imaculada Conceição",
+  "categoria": "paroquia",
+  "cidade": "Dois Vizinhos",
+  "padroeiro": "Imaculada Conceição",
+  "contatos": {
+   "telefone": "4635361252",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "http://www.imaculadadv.com.br/",
+   "email": "paroquiaimaculadadv@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz da Imaculada Conceição",
+    "tipo": "matriz",
+    "cidade": "Dois Vizinhos",
+    "localidade": "Centro Sul",
+    "endereco": "Rua Paraná, 740",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": "Missa da saúde"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa do Apostolado"
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesepalmasbeltrao.com.br/modulos/handlers/paroquias.ashx?type=detail&id=7",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Diocese de Palmas-Francisco Beltrão, Decanato de Dois Vizinhos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Bom Parto",
+  "categoria": "paroquia",
+  "cidade": "Nova Prata do Iguaçu",
+  "padroeiro": "Nossa Senhora do Bom Parto",
+  "contatos": {
+   "telefone": "46991348226",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiansdbomparto@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Bom Parto",
+    "tipo": "matriz",
+    "cidade": "Nova Prata do Iguaçu",
+    "localidade": "",
+    "endereco": "Rua Costa e Silva, 500",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Horário de verão: sábado e quarta às 19h30."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesepalmasbeltrao.com.br/modulos/handlers/paroquias.ashx?type=detail&id=8",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Diocese de Palmas-Francisco Beltrão, Decanato de Dois Vizinhos. Horário de inverno no JSON."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Fátima",
+  "categoria": "paroquia",
+  "cidade": "Cruzeiro do Iguaçu",
+  "padroeiro": "Nossa Senhora de Fátima",
+  "contatos": {
+   "telefone": "4631230508",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquianossasenhoradefatima1@outlook.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora de Fátima",
+    "tipo": "matriz",
+    "cidade": "Cruzeiro do Iguaçu",
+    "localidade": "Centro",
+    "endereco": "Rua Treze de Maio, 867",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": [
+       2,
+       4
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": [
+       1,
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "1º e 3º (dia não dito) do mês: 19h."
+   },
+   {
+    "id_banco": null,
+    "nome": "Santuário Nossa Senhora da Saúde",
+    "tipo": "santuario",
+    "cidade": "Cruzeiro do Iguaçu",
+    "localidade": "Monte do Calvário",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesepalmasbeltrao.com.br/modulos/handlers/paroquias.ashx?type=detail&id=9",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesepalmasbeltrao.com.br/modulos/handlers/santuarios.ashx?type=detail&id=8",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Diocese de Palmas-Francisco Beltrão, Decanato de Dois Vizinhos. O Santuário N. S. da Saúde tem a mesma caixa postal da paróquia; a página dele não traz horário."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Boa Esperança do Iguaçu",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "4635371219",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiansa1@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Boa Esperança do Iguaçu",
+    "localidade": "",
+    "endereco": "Rua Vereador Valmir Alexandre, 241",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesepalmasbeltrao.com.br/modulos/handlers/paroquias.ashx?type=detail&id=10",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Diocese de Palmas-Francisco Beltrão, Decanato de Dois Vizinhos. A página da diocese não traz horário de missa."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Rita de Cássia",
+  "categoria": "paroquia",
+  "cidade": "Marmeleiro",
+  "padroeiro": "Santa Rita de Cássia",
+  "contatos": {
+   "telefone": "4635251215",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Rita de Cássia",
+    "tipo": "matriz",
+    "cidade": "Marmeleiro",
+    "localidade": "Centro",
+    "endereco": "Rua Rigoleto Andreolli, 285",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": [
+       2
+      ],
+      "observacao": "Missa de Cura e Libertação"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa do Sagrado Coração de Jesus"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Horário de verão: sábado às 19h30."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesepalmasbeltrao.com.br/modulos/handlers/paroquias.ashx?type=detail&id=13",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Diocese de Palmas-Francisco Beltrão, Decanato de Francisco Beltrão. E-mail publicado incompleto (paroquiasantarita)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Francisco Beltrão",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "4635244246",
+   "whatsapp": "46999011314",
+   "instagram": "",
+   "site": "",
+   "email": "pnsaparecida2009@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Francisco Beltrão",
+    "localidade": "Alvorada",
+    "endereco": "Rua Alagoas, 524",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesepalmasbeltrao.com.br/modulos/handlers/paroquias.ashx?type=detail&id=14",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Diocese de Palmas-Francisco Beltrão, Decanato de Francisco Beltrão."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Salete",
+  "categoria": "paroquia",
+  "cidade": "Francisco Beltrão",
+  "padroeiro": "Nossa Senhora da Salete",
+  "contatos": {
+   "telefone": "46999260066",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "pns.salete@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Salete",
+    "tipo": "matriz",
+    "cidade": "Francisco Beltrão",
+    "localidade": "Pinheirinho",
+    "endereco": "Rua Nereu Schillickmann, 300",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesepalmasbeltrao.com.br/modulos/handlers/paroquias.ashx?type=detail&id=15",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Diocese de Palmas-Francisco Beltrão, Decanato de Francisco Beltrão."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José",
+  "categoria": "paroquia",
+  "cidade": "Francisco Beltrão",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "4635244949",
+   "whatsapp": "46984138834",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasaojosefb@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José",
+    "tipo": "matriz",
+    "cidade": "Francisco Beltrão",
+    "localidade": "Vila Nova",
+    "endereco": "Avenida União da Vitória, 272",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesepalmasbeltrao.com.br/modulos/handlers/paroquias.ashx?type=detail&id=16",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Diocese de Palmas-Francisco Beltrão, Decanato de Francisco Beltrão."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Cristo Rei",
+  "categoria": "paroquia",
+  "cidade": "Francisco Beltrão",
+  "padroeiro": "Cristo Rei",
+  "contatos": {
+   "telefone": "4635233162",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "http://paroquiacristoreifb.com.br",
+   "email": "atendimento@paroquiacristoreifb.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Cristo Rei",
+    "tipo": "matriz",
+    "cidade": "Francisco Beltrão",
+    "localidade": "Cango",
+    "endereco": "Rua Gov. Parigot de Souza, 600",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesepalmasbeltrao.com.br/modulos/handlers/paroquias.ashx?type=detail&id=17",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Diocese de Palmas-Francisco Beltrão, Decanato de Francisco Beltrão."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Francisco de Sales",
+  "categoria": "paroquia",
+  "cidade": "Mariópolis",
+  "padroeiro": "São Francisco de Sales",
+  "contatos": {
+   "telefone": "4632261281",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "sales.paroquia@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Francisco de Sales",
+    "tipo": "matriz",
+    "cidade": "Mariópolis",
+    "localidade": "Centro",
+    "endereco": "Rua Alameda Nove, 645",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa do Sagrado Coração de Jesus"
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesepalmasbeltrao.com.br/modulos/handlers/paroquias.ashx?type=detail&id=19",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Diocese de Palmas-Francisco Beltrão, Decanato de Pato Branco."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Palmas",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "4332631334",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "aparecidapalmas@live.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Palmas",
+    "localidade": "Lagoão",
+    "endereco": "Rua Presidente Getúlio Vargas, 20",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": "Missa da Saúde"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": "perpétua até 19h"
+     }
+    ],
+    "nao_cabe": "Todo dia 12 do mês: missa votiva e terço."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesepalmasbeltrao.com.br/modulos/handlers/paroquias.ashx?type=detail&id=20",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Diocese de Palmas-Francisco Beltrão, Decanato de Palmas. Telefone publicado com DDD 43, como está no site."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Luz",
+  "categoria": "paroquia",
+  "cidade": "Clevelândia",
+  "padroeiro": "Nossa Senhora da Luz",
+  "contatos": {
+   "telefone": "4632521263",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiansl@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Luz",
+    "tipo": "matriz",
+    "cidade": "Clevelândia",
+    "localidade": "Centro",
+    "endereco": "Avenida Nossa Senhora da Luz, 190",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Quinta 15h na Capela São Sebastião."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesepalmasbeltrao.com.br/modulos/handlers/paroquias.ashx?type=detail&id=21",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Diocese de Palmas-Francisco Beltrão, Decanato de Palmas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Imaculada Conceição",
+  "categoria": "paroquia",
+  "cidade": "Mangueirinha",
+  "padroeiro": "Imaculada Conceição",
+  "contatos": {
+   "telefone": "4632431226",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiamang@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz da Imaculada Conceição",
+    "tipo": "matriz",
+    "cidade": "Mangueirinha",
+    "localidade": "Centro",
+    "endereco": "Rua Governador Trotta, 123",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "15:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa da Saúde"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa do Sagrado Coração de Jesus"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": [
+       3
+      ],
+      "observacao": "Missa da RCC"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "3ª sexta-feira do mês, 15h: missa no Hospital São Judas Tadeu. Adoração ao Santíssimo na 1ª quinta e sexta do mês (36 horas para Jesus)."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesepalmasbeltrao.com.br/modulos/handlers/paroquias.ashx?type=detail&id=22",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Diocese de Palmas-Francisco Beltrão, Decanato de Palmas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Sebastião e Nossa Senhora dos Pobres",
+  "categoria": "paroquia",
+  "cidade": "Honório Serpa",
+  "padroeiro": "São Sebastião e Nossa Senhora dos Pobres",
+  "contatos": {
+   "telefone": "4632451144",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiahonorio@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Sebastião e Nossa Senhora dos Pobres",
+    "tipo": "matriz",
+    "cidade": "Honório Serpa",
+    "localidade": "Centro",
+    "endereco": "Rua São Francisco, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesepalmasbeltrao.com.br/modulos/handlers/paroquias.ashx?type=detail&id=23",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Diocese de Palmas-Francisco Beltrão, Decanato de Palmas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Catedral Senhor Bom Jesus da Coluna",
+  "categoria": "catedral",
+  "cidade": "Palmas",
+  "padroeiro": "Senhor Bom Jesus da Coluna",
+  "contatos": {
+   "telefone": "4632631388",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "catedralbomjesus@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Catedral Senhor Bom Jesus da Coluna",
+    "tipo": "matriz",
+    "cidade": "Palmas",
+    "localidade": "Centro",
+    "endereco": "Rua Bispo Dom Carlos, 914",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "16:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Santuário Nossa Senhora de Fátima",
+    "tipo": "santuario",
+    "cidade": "Palmas",
+    "localidade": "Santuário",
+    "endereco": "Rua Frei Jacó",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Todo dia 13 do mês, 15h."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesepalmasbeltrao.com.br/modulos/handlers/paroquias.ashx?type=detail&id=24",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.diocesepalmasbeltrao.com.br/modulos/handlers/santuarios.ashx?type=detail&id=9",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Diocese de Palmas-Francisco Beltrão, Decanato de Palmas. Secretaria na Rua Cap. Frederico Teixeira Guimarães, 541. O Santuário de Fátima usa o telefone da Catedral."
+ },
+ {
+  "id_banco": null,
+  "nome": "Reitoria Nossa Senhora da Conceição",
+  "categoria": "area_pastoral",
+  "cidade": "São Jorge d'Oeste",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "4635391248",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "http://www.imaculadaconceicaoparanhos.com.br/",
+   "email": "reitoriaimcom@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja de Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "São Jorge d'Oeste",
+    "localidade": "Doutor Antônio Paranhos",
+    "endereco": "Rua Quatro, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa do Sagrado Coração"
+     }
+    ],
+    "nao_cabe": "No horário de verão as missas passam para as 19h30."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesepalmasbeltrao.com.br/modulos/handlers/paroquias.ashx?type=detail&id=25",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Diocese de Palmas-Francisco Beltrão, Decanato de São João. Reitoria (a diocese a lista entre as paróquias com o tipo Reitoria); entrou como area_pastoral. A diocese grava o lugar como Dr. Antônio Paranhos, CEP 85579-000; não é município: a cidade foi deduzida pela faixa de CEP de São Jorge d'Oeste (85575-000), conferir."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Jorge",
+  "categoria": "paroquia",
+  "cidade": "São Jorge d'Oeste",
+  "padroeiro": "São Jorge",
+  "contatos": {
+   "telefone": "4699707830",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "http://paroquiasaojorgedoeste.com.br/",
+   "email": "paroquiasj@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Jorge",
+    "tipo": "matriz",
+    "cidade": "São Jorge d'Oeste",
+    "localidade": "Centro",
+    "endereco": "Rua Luiz Poyer, 557",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "14:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa do Apostolado"
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesepalmasbeltrao.com.br/modulos/handlers/paroquias.ashx?type=detail&id=26",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Diocese de Palmas-Francisco Beltrão, Decanato de São João."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Francisco de Assis",
+  "categoria": "paroquia",
+  "cidade": "Chopinzinho",
+  "padroeiro": "São Francisco de Assis",
+  "contatos": {
+   "telefone": "4699979648",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiachopim@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Francisco de Assis",
+    "tipo": "matriz",
+    "cidade": "Chopinzinho",
+    "localidade": "Centro",
+    "endereco": "Rua XV de Novembro, 3593",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesepalmasbeltrao.com.br/modulos/handlers/paroquias.ashx?type=detail&id=27",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Diocese de Palmas-Francisco Beltrão, Decanato de São João."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Roque",
+  "categoria": "paroquia",
+  "cidade": "Coronel Vivida",
+  "padroeiro": "São Roque",
+  "contatos": {
+   "telefone": "4632321406",
+   "whatsapp": "46991055210",
+   "instagram": "",
+   "site": "http://www.paroquiasaoroquecvv.com.br/",
+   "email": "paroquiasaoroque.cvv@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Roque",
+    "tipo": "matriz",
+    "cidade": "Coronel Vivida",
+    "localidade": "Centro",
+    "endereco": "Rua Iguaçu, 480",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": "Missa da Esperança"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": "Missa da Saúde"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa do Sagrado Coração"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": [
+       2
+      ],
+      "observacao": "Missa Jovem"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": [
+       3
+      ],
+      "observacao": "Missa da RCC"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": [
+       4
+      ],
+      "observacao": "Missa da Catequese"
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesepalmasbeltrao.com.br/modulos/handlers/paroquias.ashx?type=detail&id=28",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Diocese de Palmas-Francisco Beltrão, Decanato de São João."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Joaquim",
+  "categoria": "paroquia",
+  "cidade": "Verê",
+  "padroeiro": "São Joaquim",
+  "contatos": {
+   "telefone": "46999370033",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasaojoaquim1@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Joaquim",
+    "tipo": "matriz",
+    "cidade": "Verê",
+    "localidade": "",
+    "endereco": "Avenida Luiz Francisco Paggi, 306",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": "Missa da Saúde"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesepalmasbeltrao.com.br/modulos/handlers/paroquias.ashx?type=detail&id=29",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Diocese de Palmas-Francisco Beltrão, Decanato de São João."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Senhor Bom Jesus da Redenção",
+  "categoria": "paroquia",
+  "cidade": "Itapejara d'Oeste",
+  "padroeiro": "Senhor Bom Jesus da Redenção",
+  "contatos": {
+   "telefone": "4635261278",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "bomjesusdaredencao@outlook.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Senhor Bom Jesus da Redenção",
+    "tipo": "matriz",
+    "cidade": "Itapejara d'Oeste",
+    "localidade": "Centro",
+    "endereco": "Avenida Manoel Ribas, 389",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": "Missa da Saúde"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Apostolado da Oração"
+     }
+    ],
+    "nao_cabe": "Última quinta-feira do mês, 19h30: missa da RCC."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesepalmasbeltrao.com.br/modulos/handlers/paroquias.ashx?type=detail&id=30",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Diocese de Palmas-Francisco Beltrão, Decanato de São João."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Mãe da Igreja",
+  "categoria": "paroquia",
+  "cidade": "Saudade do Iguaçu",
+  "padroeiro": "Nossa Senhora Mãe da Igreja",
+  "contatos": {
+   "telefone": "46920015130",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "parsaudade@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Mãe da Igreja",
+    "tipo": "matriz",
+    "cidade": "Saudade do Iguaçu",
+    "localidade": "",
+    "endereco": "Rua Padre Felipe Sierra, 965",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa do Sagrado Coração de Jesus"
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesepalmasbeltrao.com.br/modulos/handlers/paroquias.ashx?type=detail&id=31",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Diocese de Palmas-Francisco Beltrão, Decanato de São João."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sagrada Família",
+  "categoria": "paroquia",
+  "cidade": "Sulina",
+  "padroeiro": "Sagrada Família",
+  "contatos": {
+   "telefone": "46999819835",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "par.sulina@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz da Sagrada Família",
+    "tipo": "matriz",
+    "cidade": "Sulina",
+    "localidade": "",
+    "endereco": "Avenida Tapajós, 103",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "15:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesepalmasbeltrao.com.br/modulos/handlers/paroquias.ashx?type=detail&id=32",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Diocese de Palmas-Francisco Beltrão, Decanato de São João."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "São João",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "4635331262",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasaojoao@sudonet.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Batista",
+    "tipo": "matriz",
+    "cidade": "São João",
+    "localidade": "Centro",
+    "endereco": "Rua São Miguel, 765",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa do Sagrado Coração"
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 5,
+      "hora": "18:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Horário de verão: quarta e sábado às 19h30; domingo 9h."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesepalmasbeltrao.com.br/modulos/handlers/paroquias.ashx?type=detail&id=33",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Diocese de Palmas-Francisco Beltrão, Decanato de São João. Horário de inverno no JSON."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Cristo Rei",
+  "categoria": "paroquia",
+  "cidade": "Renascença",
+  "padroeiro": "Cristo Rei",
+  "contatos": {
+   "telefone": "4635501104",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "pcristorei@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Cristo Rei",
+    "tipo": "matriz",
+    "cidade": "Renascença",
+    "localidade": "Centro",
+    "endereco": "Rua Nereu Ramos, 553",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesepalmasbeltrao.com.br/modulos/handlers/paroquias.ashx?type=detail&id=34",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Diocese de Palmas-Francisco Beltrão, Decanato de Pato Branco."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Senhor Bom Jesus",
+  "categoria": "paroquia",
+  "cidade": "Vitorino",
+  "padroeiro": "Senhor Bom Jesus",
+  "contatos": {
+   "telefone": "46920003109",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiavitorino@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Senhor Bom Jesus",
+    "tipo": "matriz",
+    "cidade": "Vitorino",
+    "localidade": "Centro",
+    "endereco": "Avenida Brasil-Argentina, 995",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesepalmasbeltrao.com.br/modulos/handlers/paroquias.ashx?type=detail&id=35",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Diocese de Palmas-Francisco Beltrão, Decanato de Pato Branco."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Bom Sucesso",
+  "categoria": "paroquia",
+  "cidade": "Bom Sucesso do Sul",
+  "padroeiro": "Nossa Senhora do Bom Sucesso",
+  "contatos": {
+   "telefone": "4632341101",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquia.bss@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Bom Sucesso",
+    "tipo": "matriz",
+    "cidade": "Bom Sucesso do Sul",
+    "localidade": "Centro",
+    "endereco": "Rua Romano Gemi,255",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": "Missa da Saúde"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesepalmasbeltrao.com.br/modulos/handlers/paroquias.ashx?type=detail&id=36",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Diocese de Palmas-Francisco Beltrão, Decanato de Pato Branco."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Fátima",
+  "categoria": "paroquia",
+  "cidade": "Pato Branco",
+  "padroeiro": "Nossa Senhora de Fátima",
+  "contatos": {
+   "telefone": "46999876042",
+   "whatsapp": "46999876042",
+   "instagram": "",
+   "site": "https://www.paroquiafatimapb.com.br",
+   "email": "secretaria.nsradefatima@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora de Fátima",
+    "tipo": "matriz",
+    "cidade": "Pato Branco",
+    "localidade": "Jardim Primavera",
+    "endereco": "Rua Caetano Munhoz da Rocha, 1162",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesepalmasbeltrao.com.br/modulos/handlers/paroquias.ashx?type=detail&id=37",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Diocese de Palmas-Francisco Beltrão, Decanato de Pato Branco. Telefone publicado com número fora do padrão ((46) 32243-6344), deixado de fora. WhatsApp publicado no endereço."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Pedro Apóstolo",
+  "categoria": "paroquia",
+  "cidade": "Pato Branco",
+  "padroeiro": "São Pedro Apóstolo",
+  "contatos": {
+   "telefone": "4632256000",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "http://paroquiasaopedropb.com.br/",
+   "email": "secretaria@paroquiasaopedropb.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Pedro Apóstolo",
+    "tipo": "matriz",
+    "cidade": "Pato Branco",
+    "localidade": "Centro",
+    "endereco": "Rua Tocantins, 2265",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": "Com pão de Santo Antônio"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Segunda a sábado, 7h, na capela. Última sexta-feira do mês, 15h, na matriz. Missa de batizados no 1º e 3º domingo, 9h30."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesepalmasbeltrao.com.br/modulos/handlers/paroquias.ashx?type=detail&id=38",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Diocese de Palmas-Francisco Beltrão, Decanato de Pato Branco."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Cristo Rei",
+  "categoria": "paroquia",
+  "cidade": "Pato Branco",
+  "padroeiro": "Cristo Rei",
+  "contatos": {
+   "telefone": "4632233534",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "financeiro.cristoreipb@outlook.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Cristo Rei",
+    "tipo": "matriz",
+    "cidade": "Pato Branco",
+    "localidade": "Cristo Rei",
+    "endereco": "Avenida Tupy, 4227",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa do Sagrado Coração"
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesepalmasbeltrao.com.br/modulos/handlers/paroquias.ashx?type=detail&id=39",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Diocese de Palmas-Francisco Beltrão, Decanato de Pato Branco."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio de Pádua",
+  "categoria": "paroquia",
+  "cidade": "Santo Antônio do Sudoeste",
+  "padroeiro": "Santo Antônio de Pádua",
+  "contatos": {
+   "telefone": "4635631435",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasantoantoniopaduasas@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio de Pádua",
+    "tipo": "matriz",
+    "cidade": "Santo Antônio do Sudoeste",
+    "localidade": "Centro",
+    "endereco": "Avenida Brasil, 415",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa do Sagrado Coração"
+     }
+    ],
+    "nao_cabe": "Dia 13, 15h: missa de Santo Antônio."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesepalmasbeltrao.com.br/modulos/handlers/paroquias.ashx?type=detail&id=40",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Diocese de Palmas-Francisco Beltrão, Decanato de Barracão."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Terezinha e Santo Agostinho",
+  "categoria": "paroquia",
+  "cidade": "Ampére",
+  "padroeiro": "Santa Terezinha e Santo Agostinho",
+  "contatos": {
+   "telefone": "4635471445",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "pterezinha@ampernet.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Terezinha e Santo Agostinho",
+    "tipo": "matriz",
+    "cidade": "Ampére",
+    "localidade": "Centro",
+    "endereco": "Rua Guairá, 990",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesepalmasbeltrao.com.br/modulos/handlers/paroquias.ashx?type=detail&id=41",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Diocese de Palmas-Francisco Beltrão, Decanato de Realeza."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sagrado Coração de Jesus",
+  "categoria": "paroquia",
+  "cidade": "Pérola d'Oeste",
+  "padroeiro": "Sagrado Coração de Jesus",
+  "contatos": {
+   "telefone": "4635561213",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "mitrapdo@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Sagrado Coração de Jesus",
+    "tipo": "matriz",
+    "cidade": "Pérola d'Oeste",
+    "localidade": "Centro",
+    "endereco": "Rua Pio XII, 396",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa do Sagrado Coração"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 3,
+      "hora": "17:30",
+      "semanas": null,
+      "observacao": "Até 18h30"
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesepalmasbeltrao.com.br/modulos/handlers/paroquias.ashx?type=detail&id=42",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Diocese de Palmas-Francisco Beltrão, Decanato de Realeza."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Sagrado Coração",
+  "categoria": "paroquia",
+  "cidade": "Capanema",
+  "padroeiro": "Nossa Senhora do Sagrado Coração",
+  "contatos": {
+   "telefone": "4635521348",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiacapanema@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Sagrado Coração",
+    "tipo": "matriz",
+    "cidade": "Capanema",
+    "localidade": "Centro",
+    "endereco": "Rua Padre Cirilo, 2255",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 5,
+      "hora": "18:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesepalmasbeltrao.com.br/modulos/handlers/paroquias.ashx?type=detail&id=43",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Diocese de Palmas-Francisco Beltrão, Decanato de Realeza. Secretaria na Av. Espírito Santo, 1029."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Cristo Rei",
+  "categoria": "paroquia",
+  "cidade": "Realeza",
+  "padroeiro": "Cristo Rei",
+  "contatos": {
+   "telefone": "4699328128",
+   "whatsapp": "4699328128",
+   "instagram": "",
+   "site": "",
+   "email": "cristorei.realeza@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Cristo Rei",
+    "tipo": "matriz",
+    "cidade": "Realeza",
+    "localidade": "Centro",
+    "endereco": "Rua Pe. Fernando Zanchet, 2957",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "1ª sexta-feira do mês, 19h: missa na capela."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesepalmasbeltrao.com.br/modulos/handlers/paroquias.ashx?type=detail&id=44",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Diocese de Palmas-Francisco Beltrão, Decanato de Realeza. Telefone publicado com número fora do padrão ((46) 35431-4904), deixado de fora."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Fátima",
+  "categoria": "paroquia",
+  "cidade": "Flor da Serra do Sul",
+  "padroeiro": "Nossa Senhora de Fátima",
+  "contatos": {
+   "telefone": "46984143558",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiafss@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora de Fátima",
+    "tipo": "matriz",
+    "cidade": "Flor da Serra do Sul",
+    "localidade": "",
+    "endereco": "Rua Ademir Barbieri, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": "Missa e Novena do Perpétuo Socorro"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "16:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa do Sagrado Coração de Jesus"
+     }
+    ],
+    "nao_cabe": "Dia 13 de cada mês, 19h: adoração ao Santíssimo."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesepalmasbeltrao.com.br/modulos/handlers/paroquias.ashx?type=detail&id=45",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Diocese de Palmas-Francisco Beltrão, Decanato de Barracão."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Bom Jesus",
+  "categoria": "paroquia",
+  "cidade": "Bom Jesus do Sul",
+  "padroeiro": "Bom Jesus",
+  "contatos": {
+   "telefone": "4699984402",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiabomjesusigrejamatriz@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Bom Jesus",
+    "tipo": "matriz",
+    "cidade": "Bom Jesus do Sul",
+    "localidade": "Centro",
+    "endereco": "Rua Firmino, 319",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesepalmasbeltrao.com.br/modulos/handlers/paroquias.ashx?type=detail&id=46",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Diocese de Palmas-Francisco Beltrão, Decanato de Barracão."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Francisco de Assis",
+  "categoria": "paroquia",
+  "cidade": "Salgado Filho",
+  "padroeiro": "São Francisco de Assis",
+  "contatos": {
+   "telefone": "4635641258",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiadesalgadofilho@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Francisco de Assis",
+    "tipo": "matriz",
+    "cidade": "Salgado Filho",
+    "localidade": "Centro",
+    "endereco": "Praça da Matriz, 183",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesepalmasbeltrao.com.br/modulos/handlers/paroquias.ashx?type=detail&id=47",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Diocese de Palmas-Francisco Beltrão, Decanato de Barracão."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Carmo",
+  "categoria": "paroquia",
+  "cidade": "Pranchita",
+  "padroeiro": "Nossa Senhora do Carmo",
+  "contatos": {
+   "telefone": "46999311791",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquianossasenhoradocarmopranchita@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Carmo",
+    "tipo": "matriz",
+    "cidade": "Pranchita",
+    "localidade": "Centro",
+    "endereco": "Avenida Iguaçu, 282",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "17:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa do Apostolado"
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesepalmasbeltrao.com.br/modulos/handlers/paroquias.ashx?type=detail&id=48",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Diocese de Palmas-Francisco Beltrão, Decanato de Barracão."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Barracão",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "4936441454",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiabcao@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Barracão",
+    "localidade": "",
+    "endereco": "Rua Tancredo Neves, 235",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa do Sagrado Coração"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": [
+       3
+      ],
+      "observacao": "Missa da Renovação"
+     }
+    ],
+    "nao_cabe": "Dia 12 de cada mês, 19h."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesepalmasbeltrao.com.br/modulos/handlers/paroquias.ashx?type=detail&id=49",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Diocese de Palmas-Francisco Beltrão, Decanato de Barracão."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José",
+  "categoria": "paroquia",
+  "cidade": "Enéas Marques",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "4635441263",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquia-saojose@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José",
+    "tipo": "matriz",
+    "cidade": "Enéas Marques",
+    "localidade": "Centro",
+    "endereco": "Avenida Joaquim Bonetti, 435",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Dia 19 de cada mês, 19h30: missa de cura e libertação (RCC). 1ª sexta-feira do mês, 17h30: missa do Sagrado Coração na capela da casa das irmãs. Horário de verão: quarta e sábado 19h30, dia 19 às 20h."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesepalmasbeltrao.com.br/modulos/handlers/paroquias.ashx?type=detail&id=50",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Diocese de Palmas-Francisco Beltrão, Decanato de Dois Vizinhos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Sagrado Coração",
+  "categoria": "paroquia",
+  "cidade": "Nova Esperança do Sudoeste",
+  "padroeiro": "Nossa Senhora do Sagrado Coração",
+  "contatos": {
+   "telefone": "4635461321",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquianovaesperanca@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Sagrado Coração",
+    "tipo": "matriz",
+    "cidade": "Nova Esperança do Sudoeste",
+    "localidade": "",
+    "endereco": "Av. Iguaçu, 757",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa do Apostolado da Oração"
+     }
+    ],
+    "nao_cabe": "Horário de verão: quarta às 19h30."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesepalmasbeltrao.com.br/modulos/handlers/paroquias.ashx?type=detail&id=51",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Diocese de Palmas-Francisco Beltrão, Decanato de Dois Vizinhos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Concatedral Nossa Senhora da Glória",
+  "categoria": "catedral",
+  "cidade": "Francisco Beltrão",
+  "padroeiro": "Nossa Senhora da Glória",
+  "contatos": {
+   "telefone": "4635233532",
+   "whatsapp": "4699741181",
+   "instagram": "",
+   "site": "http://www.concatedralbeltrao.com.br/",
+   "email": "concatedral@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Concatedral Nossa Senhora da Glória",
+    "tipo": "matriz",
+    "cidade": "Francisco Beltrão",
+    "localidade": "Centro",
+    "endereco": "Trav. Frei Deodato, 289",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Na Quaresma não há missa às 19h das sextas: caminhada penitencial às 6h, com missa e confissões."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesepalmasbeltrao.com.br/modulos/handlers/paroquias.ashx?type=detail&id=53",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Diocese de Palmas-Francisco Beltrão, Decanato de Francisco Beltrão. Concatedral da diocese; entrou como catedral."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sagrado Coração de Jesus",
+  "categoria": "paroquia",
+  "cidade": "Pato Branco",
+  "padroeiro": "Sagrado Coração de Jesus",
+  "contatos": {
+   "telefone": "4626040955",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiascjpb@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Sagrado Coração de Jesus",
+    "tipo": "matriz",
+    "cidade": "Pato Branco",
+    "localidade": "Planalto",
+    "endereco": "Rua Gralha Azul, 430",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.diocesepalmasbeltrao.com.br/modulos/handlers/paroquias.ashx?type=detail&id=55",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Diocese de Palmas-Francisco Beltrão, Decanato de Pato Branco. A página da diocese não traz horário de missa. Paróquia nova, ainda fora do GCatholic."
+ }
+]

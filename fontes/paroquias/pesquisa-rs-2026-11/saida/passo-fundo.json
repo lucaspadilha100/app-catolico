@@ -1,0 +1,3379 @@
+[
+ {
+  "id_banco": null,
+  "nome": "Catedral Metropolitana Nossa Senhora Aparecida",
+  "categoria": "catedral",
+  "cidade": "Passo Fundo",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "5430459210",
+   "whatsapp": "54996718616",
+   "instagram": "",
+   "site": "",
+   "email": "catedral@arquidiocesedepassofundo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Catedral Metropolitana Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Passo Fundo",
+    "localidade": "Centro",
+    "endereco": "Av. General Neto, 449",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "20:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Atendimento e confissão a partir das 9h"
+     }
+    ],
+    "nao_cabe": "Missa da Saúde às 16h (o dia da semana não aparece na página)."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/catedral-nossa-senhora-aparecida-passo-fundo",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/catedral-nossa-senhora-aparecida-passo-fundo",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Área Passo Fundo. 2 comunidades."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Conceição",
+  "categoria": "paroquia",
+  "cidade": "Passo Fundo",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "5433313824",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "matrizconceicao@arquidiocesedepassofundo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "Passo Fundo",
+    "localidade": "Centro",
+    "endereco": "Rua Uruguai, 1717",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": "Missa da Saúde"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/nossa-senhora-da-conceicao-passo-fundo",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/nossa-senhora-da-conceicao-passo-fundo",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Área Passo Fundo. 2 comunidades. A matriz antiga da cidade, em frente à Praça Tamandaré."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Fátima",
+  "categoria": "paroquia",
+  "cidade": "Passo Fundo",
+  "padroeiro": "Nossa Senhora de Fátima",
+  "contatos": {
+   "telefone": "5433116559",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "nsfatimapf@arquidiocesedepassofundo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora de Fátima",
+    "tipo": "matriz",
+    "cidade": "Passo Fundo",
+    "localidade": "",
+    "endereco": "Rua Tupinambá, 507",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": "Missa da Saúde"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": "Missa em honra ao Sagrado Coração de Jesus"
+     }
+    ],
+    "nao_cabe": "Todo dia 13, missa às 19h30 em honra a Nossa Senhora de Fátima. Bênção do Santíssimo na última sexta-feira do mês, às 17h."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/nossa-senhora-de-fatima-passo-fundo",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/nossa-senhora-de-fatima-passo-fundo",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Área Passo Fundo. 3 comunidades."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sagrado Coração de Jesus",
+  "categoria": "paroquia",
+  "cidade": "Passo Fundo",
+  "padroeiro": "Sagrado Coração de Jesus",
+  "contatos": {
+   "telefone": "5430452003",
+   "whatsapp": "54991094109",
+   "instagram": "",
+   "site": "",
+   "email": "pscjpf@arquidiocesedepassofundo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Sagrado Coração de Jesus",
+    "tipo": "matriz",
+    "cidade": "Passo Fundo",
+    "localidade": "Centro",
+    "endereco": "Paissandú, 528",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": "Missa da Saúde"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": "Missa dos Pães de Santo Antônio"
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 5,
+      "hora": "17:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Adoração e bênção do Santíssimo"
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/sagrado-coracao-de-jesus",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/sagrado-coracao-de-jesus",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Área Passo Fundo. 1 comunidades."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Teresinha",
+  "categoria": "paroquia",
+  "cidade": "Passo Fundo",
+  "padroeiro": "Santa Teresinha",
+  "contatos": {
+   "telefone": "5433131128",
+   "whatsapp": "54996657455",
+   "instagram": "",
+   "site": "",
+   "email": "parostpf@arquidiocesedepassofundo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santa Teresinha",
+    "tipo": "matriz",
+    "cidade": "Passo Fundo",
+    "localidade": "Rodrigues",
+    "endereco": "General Prestes Guimarães, 480",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/santa-teresinha-passo-fundo",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/santa-teresinha-passo-fundo",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Área Passo Fundo. 4 comunidades."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Passo Fundo",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "5433115899",
+   "whatsapp": "54991217236",
+   "instagram": "",
+   "site": "",
+   "email": "psapf@arquidiocesedepassofundo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Passo Fundo",
+    "localidade": "Petrópolis",
+    "endereco": "Moron, 400",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/santo-antonio",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/santo-antonio",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Área Passo Fundo. 9 comunidades."
+ },
+ {
+  "id_banco": null,
+  "nome": "Santuário Nossa Senhora Aparecida",
+  "categoria": "santuario",
+  "cidade": "Passo Fundo",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "54999331758",
+   "instagram": "",
+   "site": "",
+   "email": "santuarionsa@arquidiocesedepassofundo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário Nossa Senhora Aparecida",
+    "tipo": "santuario",
+    "cidade": "Passo Fundo",
+    "localidade": "",
+    "endereco": "RST 153 Km 3",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Dia 12 de cada mês, às 16h, novena permanente. Visitação diária das 7h às 22h."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/santuario-nossa-senhora-aparecida",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/santuario-nossa-senhora-aparecida",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Área Passo Fundo. Santuário arquidiocesano, junto ao Seminário Nossa Senhora Aparecida; a página traz vigário e reitor do seminário, sem pároco."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Cristóvão",
+  "categoria": "paroquia",
+  "cidade": "Passo Fundo",
+  "padroeiro": "São Cristóvão",
+  "contatos": {
+   "telefone": "5430452685",
+   "whatsapp": "54999027707",
+   "instagram": "saocristovaopf",
+   "site": "",
+   "email": "saocristovaopf@arquidiocesedepassofundo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Cristóvão",
+    "tipo": "matriz",
+    "cidade": "Passo Fundo",
+    "localidade": "São Cristóvão",
+    "endereco": "Av. Presidente Vargas, 2122",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": "Missa da Saúde"
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/sao-cristovao",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/sao-cristovao",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Área Passo Fundo. 21 comunidades. O e-mail na página está como \"arquidiocesedepasspfundo\"; corrigido para o domínio da arquidiocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Francisco de Assis",
+  "categoria": "paroquia",
+  "cidade": "Passo Fundo",
+  "padroeiro": "São Francisco de Assis",
+  "contatos": {
+   "telefone": "5433155026",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasfa@arquidiocesedepassofundo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Francisco de Assis",
+    "tipo": "matriz",
+    "cidade": "Passo Fundo",
+    "localidade": "Santa Maria",
+    "endereco": "Aspirante Jenner, 579",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/sao-francisco-de-assis",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/sao-francisco-de-assis",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Área Passo Fundo. 3 comunidades."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José",
+  "categoria": "paroquia",
+  "cidade": "Passo Fundo",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "5433135519",
+   "whatsapp": "54984327226",
+   "instagram": "",
+   "site": "",
+   "email": "psjbairro@arquidiocesedepassofundo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São José",
+    "tipo": "matriz",
+    "cidade": "Passo Fundo",
+    "localidade": "São José",
+    "endereco": "Padre Antônio Vieira, 537",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/sao-jose-1",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/sao-jose-1",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Área Passo Fundo. 22 comunidades."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José Operário",
+  "categoria": "paroquia",
+  "cidade": "Passo Fundo",
+  "padroeiro": "São José Operário",
+  "contatos": {
+   "telefone": "5433117750",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "sjoperariopf@arquidiocesedepassofundo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São José Operário",
+    "tipo": "matriz",
+    "cidade": "Passo Fundo",
+    "localidade": "Vera Cruz",
+    "endereco": "São Leopoldo, 01",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/sao-jose-operario",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/sao-jose-operario",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Área Passo Fundo. 13 comunidades."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Judas Tadeu",
+  "categoria": "paroquia",
+  "cidade": "Passo Fundo",
+  "padroeiro": "São Judas Tadeu",
+  "contatos": {
+   "telefone": "5433122595",
+   "whatsapp": "54996191234",
+   "instagram": "",
+   "site": "",
+   "email": "secsjt@arquidiocesedepassofundo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Judas Tadeu",
+    "tipo": "matriz",
+    "cidade": "Passo Fundo",
+    "localidade": "Vila Luiza",
+    "endereco": "10 de abril, 879",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/sao-judas-tadeu",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/sao-judas-tadeu",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Área Passo Fundo. 12 comunidades. Atendida pelos Oblatos de São Francisco de Sales."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Vicente de Paulo",
+  "categoria": "paroquia",
+  "cidade": "Passo Fundo",
+  "padroeiro": "São Vicente de Paulo",
+  "contatos": {
+   "telefone": "5430451654",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "psvp@arquidiocesedepassofundo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Vicente de Paulo",
+    "tipo": "matriz",
+    "cidade": "Passo Fundo",
+    "localidade": "Boqueirão",
+    "endereco": "Av. Brasil, 1889",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/sao-vicente-de-paulo",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/sao-vicente-de-paulo",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Área Passo Fundo. 23 comunidades."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Glória",
+  "categoria": "paroquia",
+  "cidade": "Carazinho",
+  "padroeiro": "Nossa Senhora da Glória",
+  "contatos": {
+   "telefone": "5433311654",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "gloria@arquidiocesedepassofundo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora da Glória",
+    "tipo": "matriz",
+    "cidade": "Carazinho",
+    "localidade": "Centro",
+    "endereco": "Rua Benjamim Constant, 92",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Primeira sexta-feira do mês"
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/nossa-senhora-da-gloria-carazinho",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/nossa-senhora-da-gloria-carazinho",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Área de Carazinho. 14 comunidades."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Fátima",
+  "categoria": "paroquia",
+  "cidade": "Carazinho",
+  "padroeiro": "Nossa Senhora de Fátima",
+  "contatos": {
+   "telefone": "5433312428",
+   "whatsapp": "54984321619",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiadefatimaczo@arquidiocesedepassofundo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora de Fátima",
+    "tipo": "matriz",
+    "cidade": "Carazinho",
+    "localidade": "",
+    "endereco": "Av. Flores da Cunha, 4825",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": "Missa da Saúde"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa em honra ao Sagrado Coração de Jesus"
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 5,
+      "hora": "14:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Adoração e bênção do Santíssimo"
+     }
+    ],
+    "nao_cabe": "Todo dia 13, às 19h, missa da Novena Perpétua de Nossa Senhora de Fátima com bênção da saúde."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/nossa-senhora-de-fatima-carazinho",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/nossa-senhora-de-fatima-carazinho",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Área de Carazinho. 12 comunidades."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nosso Senhor Bom Jesus",
+  "categoria": "paroquia",
+  "cidade": "Carazinho",
+  "padroeiro": "Nosso Senhor Bom Jesus",
+  "contatos": {
+   "telefone": "5433311032",
+   "whatsapp": "54999391530",
+   "instagram": "",
+   "site": "",
+   "email": "bomjesus@arquidiocesedepassofundo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nosso Senhor Bom Jesus",
+    "tipo": "matriz",
+    "cidade": "Carazinho",
+    "localidade": "",
+    "endereco": "Rua Padre Ramos, 30",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/nosso-senhor-bom-jesus",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/nosso-senhor-bom-jesus",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Área de Carazinho. 6 comunidades."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José",
+  "categoria": "paroquia",
+  "cidade": "Carazinho",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "5433313128",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "psjcarazinho@arquidiocesedepassofundo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São José",
+    "tipo": "matriz",
+    "cidade": "Carazinho",
+    "localidade": "Oriental",
+    "endereco": "Rua Osvaldo Cruz, 188 Bairro",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": "Missa da Saúde"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa do Sagrado Coração de Jesus"
+     }
+    ],
+    "nao_cabe": "Todo dia 19, às 19h, missa da Novena Perpétua em honra a São José. 4º domingo de maio, 9h, Romaria de Santa Rita."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/sao-jose-carazinho",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/sao-jose-carazinho",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Área de Carazinho. 10 comunidades."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio de Evangelista",
+  "categoria": "paroquia",
+  "cidade": "Casca",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "5433473556",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "psaevangelista@arquidiocesedepassofundo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santo Antônio de Evangelista",
+    "tipo": "matriz",
+    "cidade": "Casca",
+    "localidade": "Evangelista",
+    "endereco": "Rua José de Alencar, 300",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Missa no sábado do quarto fim de semana do mês (hora não informada)."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/santo-antonio-de-evangelista",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/santo-antonio-de-evangelista",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Área Casca. 14 comunidades. A página traz só um diácono permanente no clero."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Gentil",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "sagentil@arquidiocesedepassofundo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Gentil",
+    "localidade": "",
+    "endereco": "Rua da Fonte, 94",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": [
+       1,
+       3
+      ],
+      "observacao": "1º e 3º sábados do mês"
+     }
+    ],
+    "nao_cabe": "Missa de domingo às 9h marcada como mensal, sem dizer qual domingo."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/santo-antonio-de-gentil",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/santo-antonio-de-gentil",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Área Casca. A página não traz clero nem secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Santo Antônio do Palma",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "54996484602",
+   "instagram": "",
+   "site": "",
+   "email": "sapalma@arquidiocesedepassofundo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Santo Antônio do Palma",
+    "localidade": "",
+    "endereco": "Pe. Valentim Novacki, 80",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/santo-antonio-de-santo-antonio-do-palma",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Área Casca. 17 comunidades. A página da paróquia no site da arquidiocese não traz horário de missa."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José",
+  "categoria": "paroquia",
+  "cidade": "Montauri",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "54993922628",
+   "instagram": "",
+   "site": "",
+   "email": "saojosemontauri@arquidiocesedepassofundo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São José",
+    "tipo": "matriz",
+    "cidade": "Montauri",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/sao-jose-de-montauri",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/sao-jose-de-montauri",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Área Casca. 13 comunidades. Um bloco de horário chamado \"Teste\" (segunda e quarta, 19h30) foi deixado de fora."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Luiz Gonzaga",
+  "categoria": "paroquia",
+  "cidade": "Casca",
+  "padroeiro": "São Luiz Gonzaga",
+  "contatos": {
+   "telefone": "5433471259",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "pslgonzaga@arquidiocesedepassofundo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Luiz Gonzaga",
+    "tipo": "matriz",
+    "cidade": "Casca",
+    "localidade": "",
+    "endereco": "Pe. Anetto Bogni, 175",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "16:20",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/sao-luiz-gonzaga-de-casca",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/sao-luiz-gonzaga-de-casca",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Área Casca. 20 comunidades."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sagrada Família",
+  "categoria": "paroquia",
+  "cidade": "David Canabarro",
+  "padroeiro": "Sagrada Família",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "54984021319",
+   "instagram": "",
+   "site": "",
+   "email": "sagradafamilia@arquidiocesedepassofundo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Sagrada Família",
+    "tipo": "matriz",
+    "cidade": "David Canabarro",
+    "localidade": "",
+    "endereco": "Rua Germano Classen, 269",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/sagrada-familia-david-canabarro",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Área David Canabarro. 19 comunidades. A página da paróquia no site da arquidiocese não traz horário de missa."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Terezinha",
+  "categoria": "paroquia",
+  "cidade": "Ciríaco",
+  "padroeiro": "Santa Terezinha",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "54996738447",
+   "instagram": "",
+   "site": "",
+   "email": "psterezinhaciriaco@arquidiocesedepassofundo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santa Terezinha",
+    "tipo": "matriz",
+    "cidade": "Ciríaco",
+    "localidade": "",
+    "endereco": "Rua Menino Deus, 443",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/santa-terezinha-de-ciriaco",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/santa-terezinha-de-ciriaco",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Área David Canabarro. 19 comunidades."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Brás",
+  "categoria": "paroquia",
+  "cidade": "Vanini",
+  "padroeiro": "São Brás",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "54981366716",
+   "instagram": "",
+   "site": "",
+   "email": "saobras@arquidiocesedepassofundo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Brás",
+    "tipo": "matriz",
+    "cidade": "Vanini",
+    "localidade": "",
+    "endereco": "Rua Duque de Caxias, 13",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/sao-bras-vanini",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/sao-bras-vanini",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Área David Canabarro. 11 comunidades."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Domingos",
+  "categoria": "paroquia",
+  "cidade": "São Domingos do Sul",
+  "padroeiro": "São Domingos",
+  "contatos": {
+   "telefone": "5433491266",
+   "whatsapp": "54996066361",
+   "instagram": "",
+   "site": "",
+   "email": "saodomingos@arquidiocesedepassofundo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Domingos",
+    "tipo": "matriz",
+    "cidade": "São Domingos do Sul",
+    "localidade": "",
+    "endereco": "Rua Mons. João Benvegnú, 372",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "18:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Primeira sexta-feira do mês"
+     }
+    ],
+    "nao_cabe": "Todo dia 3, às 19h30, missa em memória do Mons. João Benvegnú."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/sao-domingos",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/sao-domingos",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Área David Canabarro. 9 comunidades."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Rosário de Pulador",
+  "categoria": "paroquia",
+  "cidade": "União da Serra",
+  "padroeiro": "Nossa Senhora do Rosário",
+  "contatos": {
+   "telefone": "5434761220",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "psaoeste@arquidiocesedepassofundo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora do Rosário de Pulador",
+    "tipo": "matriz",
+    "cidade": "União da Serra",
+    "localidade": "Pulador",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/nossa-senhora-do-rosario-pulador-uniao-da-serra",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/nossa-senhora-do-rosario-pulador-uniao-da-serra",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Área de Guaporé. 7 comunidades. A página dá como endereço só \"Pulador, União da Serra\", com o CEP de Guaporé; mesmo e-mail da paróquia de Vila Oeste."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Rosário",
+  "categoria": "paroquia",
+  "cidade": "Serafina Corrêa",
+  "padroeiro": "Nossa Senhora do Rosário",
+  "contatos": {
+   "telefone": "5434441057",
+   "whatsapp": "54999846559",
+   "instagram": "",
+   "site": "",
+   "email": "nsrosariosc@arquidiocesedepassofundo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora do Rosário",
+    "tipo": "matriz",
+    "cidade": "Serafina Corrêa",
+    "localidade": "Centro",
+    "endereco": "Rua. Monsenhor João batista Scalabrini, 263",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Primeira sexta-feira do mês"
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/nossa-senhora-do-rosario-serafina-correa",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/nossa-senhora-do-rosario-serafina-correa",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Área de Guaporé. 17 comunidades. Atendida pelos Scalabrinianos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Guaporé",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "5434431510",
+   "whatsapp": "54984336301",
+   "instagram": "",
+   "site": "",
+   "email": "psag@arquidiocesedepassofundo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Guaporé",
+    "localidade": "Centro",
+    "endereco": "Av. Alberto Pasqualini, 730",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/santo-antonio-de-guapore",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/santo-antonio-de-guapore",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Área de Guaporé. Atendida pelos Scalabrinianos. 37 comunidades (25 no interior, 12 nos bairros)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio de Vila Oeste",
+  "categoria": "paroquia",
+  "cidade": "União da Serra",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "psaoeste@arquidiocesedepassofundo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santo Antônio de Vila Oeste",
+    "tipo": "matriz",
+    "cidade": "União da Serra",
+    "localidade": "Vila Oeste",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/santo-antonio-vila-oeste",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/santo-antonio-vila-oeste",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Área de Guaporé. A página dá como endereço só \"União da Serra\"; o GCatholic põe a igreja em União da Serra. Mesmo e-mail da paróquia de Pulador."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Roque",
+  "categoria": "paroquia",
+  "cidade": "Dois Lajeados",
+  "padroeiro": "São Roque",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "54999671979",
+   "instagram": "",
+   "site": "",
+   "email": "psaoroque@arquidiocesedepassofundo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Roque",
+    "tipo": "matriz",
+    "cidade": "Dois Lajeados",
+    "localidade": "Centro",
+    "endereco": "Rua Dr. Afrânio Hidalgo Lemos, 363",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/sao-roque-dois-lajeados",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/sao-roque-dois-lajeados",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Área de Guaporé. 17 comunidades."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Valentim",
+  "categoria": "paroquia",
+  "cidade": "São Valentim do Sul",
+  "padroeiro": "São Valentim",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "54996979290",
+   "instagram": "",
+   "site": "",
+   "email": "svdosul@arquidiocesedepassofundo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Valentim",
+    "tipo": "matriz",
+    "cidade": "São Valentim do Sul",
+    "localidade": "",
+    "endereco": "Bento Gonçalves",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/sao-valentim",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Área de Guaporé. 13 comunidades. A página da paróquia no site da arquidiocese não traz horário de missa."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Cristo Rei",
+  "categoria": "paroquia",
+  "cidade": "Marau",
+  "padroeiro": "Cristo Rei",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "54999426111",
+   "instagram": "",
+   "site": "",
+   "email": "pcrmarau@arquidiocesedepassofundo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Cristo Rei",
+    "tipo": "matriz",
+    "cidade": "Marau",
+    "localidade": "Centro",
+    "endereco": "Irineu Ferlin, 530",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/cristo-rei-marau",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/cristo-rei-marau",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Área Marau. Atendida pelos Capuchinhos. 55 comunidades. O telefone fixo do cabeçalho é o mesmo de Não-Me-Toque e o da secretaria é o da Catedral; ficou só o celular da secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Saúde",
+  "categoria": "paroquia",
+  "cidade": "Vila Maria",
+  "padroeiro": "Nossa Senhora da Saúde",
+  "contatos": {
+   "telefone": "5436187638",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "ns.saudevm@arquidiocesedepassofundo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora da Saúde",
+    "tipo": "matriz",
+    "cidade": "Vila Maria",
+    "localidade": "",
+    "endereco": "Rua Pe Marcos Rampi, 132",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/nossa-senhora-da-saude-vila-maria",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/nossa-senhora-da-saude-vila-maria",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Área Marau. 23 comunidades."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Lourdes",
+  "categoria": "paroquia",
+  "cidade": "Nova Alvorada",
+  "padroeiro": "Nossa Senhora de Lourdes",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "54984328550",
+   "instagram": "",
+   "site": "",
+   "email": "nslourdesnalvorada@arquidiocesedepassofundo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora de Lourdes",
+    "tipo": "matriz",
+    "cidade": "Nova Alvorada",
+    "localidade": "",
+    "endereco": "Av. Vicente Guerra, 1456",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/nossa-senhora-de-lourdes-nova-alvorada",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/nossa-senhora-de-lourdes-nova-alvorada",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Área Marau. 13 comunidades."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Teresinha",
+  "categoria": "paroquia",
+  "cidade": "Nicolau Vergueiro",
+  "padroeiro": "Santa Teresinha",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "54991439010",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasantateresinhanv@arquidiocesedepassofundo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santa Teresinha",
+    "tipo": "matriz",
+    "cidade": "Nicolau Vergueiro",
+    "localidade": "",
+    "endereco": "Rua da Matriz, 724",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/santa-teresinha-nicolau-vergueiro",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/santa-teresinha-nicolau-vergueiro",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Área Marau."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Camargo",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "5434761108",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "sacamargo@arquidiocesedepassofundo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Camargo",
+    "localidade": "",
+    "endereco": "Rua Padre Stripulli, 640",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/santo-antonio-camargo",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/santo-antonio-camargo",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Área Marau. 11 comunidades. Atendida pelos Capuchinhos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Miguel Arcanjo",
+  "categoria": "paroquia",
+  "cidade": "Itapuca",
+  "padroeiro": "São Miguel Arcanjo",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "54999629906",
+   "instagram": "",
+   "site": "",
+   "email": "smarcanjo@arquidiocesedepassofundo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Miguel Arcanjo",
+    "tipo": "matriz",
+    "cidade": "Itapuca",
+    "localidade": "",
+    "endereco": "Rua Arvorezinha, 1063",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/sao-miguel-arcanjo-itapuca",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/sao-miguel-arcanjo-itapuca",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Área Marau. 12 comunidades."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Lourdes",
+  "categoria": "paroquia",
+  "cidade": "Sarandi",
+  "padroeiro": "Nossa Senhora de Lourdes",
+  "contatos": {
+   "telefone": "5433611088",
+   "whatsapp": "54992444056",
+   "instagram": "",
+   "site": "",
+   "email": "nslsarandi@arquidiocesedepassofundo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora de Lourdes",
+    "tipo": "matriz",
+    "cidade": "Sarandi",
+    "localidade": "Centro",
+    "endereco": "Rua Duque de Caxias, 1308",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": "Missa Novena Perpétua do Divino Pai Eterno"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": "Missa da Saúde"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/nossa-senhora-de-lourdes-sarandi",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/nossa-senhora-de-lourdes-sarandi",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Área Sarandi. 36 comunidades. Atendida pelos Scalabrinianos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Rosário",
+  "categoria": "paroquia",
+  "cidade": "Rondinha",
+  "padroeiro": "Nossa Senhora do Rosário",
+  "contatos": {
+   "telefone": "5433651117",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "pnsrosariorondinha@arquidiocesedepassofundo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora do Rosário",
+    "tipo": "matriz",
+    "cidade": "Rondinha",
+    "localidade": "",
+    "endereco": "Nossa Senhora do Rosário, 125",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "14:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Primeira sexta-feira do mês"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "08:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "No Cemitério Municipal"
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/nossa-senhora-do-rosario-rondinha",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/nossa-senhora-do-rosario-rondinha",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Área Sarandi. 19 comunidades."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora dos Navegantes",
+  "categoria": "paroquia",
+  "cidade": "Barra Funda",
+  "padroeiro": "Nossa Senhora dos Navegantes",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "pnsnavegantesbf@arquidiocesedepassofundo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora dos Navegantes",
+    "tipo": "matriz",
+    "cidade": "Barra Funda",
+    "localidade": "",
+    "endereco": "Navegantes, 375",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/nossa-senhora-dos-navegantes-barra-funda",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/nossa-senhora-dos-navegantes-barra-funda",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Área Sarandi. A página não traz clero nem secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora dos Navegantes",
+  "categoria": "paroquia",
+  "cidade": "Nova Boa Vista",
+  "padroeiro": "Nossa Senhora dos Navegantes",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "54996999828",
+   "instagram": "",
+   "site": "",
+   "email": "ns.navegantesnbv@arquidiocesedepassofundo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora dos Navegantes",
+    "tipo": "matriz",
+    "cidade": "Nova Boa Vista",
+    "localidade": "",
+    "endereco": "Av. Jacob Wagner Sobrinho, 1297",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": [
+       4
+      ],
+      "observacao": "Quarto fim de semana do mês"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Apostolado da Oração, com bênção da saúde"
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/nossa-senhora-dos-navegantes-nova-boa-vista",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/nossa-senhora-dos-navegantes-nova-boa-vista",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Área Sarandi. 9 comunidades."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora dos Navegantes",
+  "categoria": "paroquia",
+  "cidade": "Ronda Alta",
+  "padroeiro": "Nossa Senhora dos Navegantes",
+  "contatos": {
+   "telefone": "5433641212",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "nsnavegantesra@arquidiocesedepassofundo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora dos Navegantes",
+    "tipo": "matriz",
+    "cidade": "Ronda Alta",
+    "localidade": "",
+    "endereco": "Sete de Setembro, 86",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/nossa-senhora-dos-navegantes-ronda-alta",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/nossa-senhora-dos-navegantes-ronda-alta",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Área Sarandi. 9 comunidades. A secretaria da página repete o celular e o e-mail de Nova Boa Vista; ficaram o telefone e o e-mail do cabeçalho."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antão",
+  "categoria": "paroquia",
+  "cidade": "Pontão",
+  "padroeiro": "Santo Antão",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "54984191184",
+   "instagram": "",
+   "site": "",
+   "email": "santoantao@arquidiocesedepassofundo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santo Antão",
+    "tipo": "matriz",
+    "cidade": "Pontão",
+    "localidade": "",
+    "endereco": "Júlio Mailhos, 1477",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/santo-antao-pontao",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Área Sarandi. 18 comunidades. A página da paróquia no site da arquidiocese não traz horário de missa."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Saúde",
+  "categoria": "paroquia",
+  "cidade": "Tapejara",
+  "padroeiro": "Nossa Senhora da Saúde",
+  "contatos": {
+   "telefone": "5433441197",
+   "whatsapp": "54996033079",
+   "instagram": "",
+   "site": "",
+   "email": "pnssaudetapejara@arquidiocesedepassofundo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora da Saúde",
+    "tipo": "matriz",
+    "cidade": "Tapejara",
+    "localidade": "Centro",
+    "endereco": "Angelo Dalzotto, 734",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "09:30",
+      "semanas": [
+       1
+      ],
+      "observacao": "Primeira sexta-feira do mês"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "16:00",
+      "semanas": [
+       2
+      ],
+      "observacao": "Missa da Saúde"
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/nossa-senhora-da-saude-tapejara",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/nossa-senhora-da-saude-tapejara",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Área Tapejara. 38 comunidades."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Rosário",
+  "categoria": "paroquia",
+  "cidade": "Charrua",
+  "padroeiro": "Nossa Senhora do Rosário",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "rosariocharrua@arquidiocesedepassofundo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora do Rosário",
+    "tipo": "matriz",
+    "cidade": "Charrua",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/nossa-senhora-do-rosario-charrua",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Área Tapejara. A página não traz secretaria; o telefone do cabeçalho está incompleto e ficou de fora. A página da paróquia no site da arquidiocese não traz horário de missa."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Água Santa",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "54992655502",
+   "instagram": "",
+   "site": "",
+   "email": "psa.aguasanta@arquidiocesedepassofundo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Água Santa",
+    "localidade": "",
+    "endereco": "Pe. Júlio Marin, 794",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Em dia de festa, missa às 10h30."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/santo-antonio-santa-cecilia-do-sul-e-agua-santa",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/santo-antonio-santa-cecilia-do-sul-e-agua-santa",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Área Tapejara. 22 comunidades. Atende Água Santa e Santa Cecília do Sul."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José",
+  "categoria": "paroquia",
+  "cidade": "Sertão",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "54993057893",
+   "instagram": "",
+   "site": "",
+   "email": "saojosesertao@arquidiocesedepassofundo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São José",
+    "tipo": "matriz",
+    "cidade": "Sertão",
+    "localidade": "",
+    "endereco": "Av. Brasil, 1102",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/sao-jose-sertao",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/sao-jose-sertao",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Área Tapejara. 28 comunidades."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Cristo Rei",
+  "categoria": "paroquia",
+  "cidade": "Não-Me-Toque",
+  "padroeiro": "Cristo Rei",
+  "contatos": {
+   "telefone": "5433321361",
+   "whatsapp": "54999177627",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiacristoreinmt@arquidiocesedepassofundo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Cristo Rei",
+    "tipo": "matriz",
+    "cidade": "Não-Me-Toque",
+    "localidade": "Centro",
+    "endereco": "Augusto Scherer, 336",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/cristo-rei-nao-me-toque",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/cristo-rei-nao-me-toque",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Área Tapera. 22 comunidades."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Imaculado Coração de Maria",
+  "categoria": "paroquia",
+  "cidade": "Victor Graeff",
+  "padroeiro": "Imaculado Coração de Maria",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "54996861729",
+   "instagram": "",
+   "site": "",
+   "email": "icmaria@arquidiocesedepassofundo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Imaculado Coração de Maria",
+    "tipo": "matriz",
+    "cidade": "Victor Graeff",
+    "localidade": "Centro",
+    "endereco": "25 de Julho, 668",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/imaculado-coracao-de-maria-victor-greff",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/imaculado-coracao-de-maria-victor-greff",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Área Tapera. 9 comunidades."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Rosário de Pompeia",
+  "categoria": "paroquia",
+  "cidade": "Tapera",
+  "padroeiro": "Nossa Senhora do Rosário de Pompeia",
+  "contatos": {
+   "telefone": "5433851270",
+   "whatsapp": "54996971757",
+   "instagram": "",
+   "site": "",
+   "email": "nsrosariotapera@arquidiocesedepassofundo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz Nossa Senhora do Rosário de Pompeia",
+    "tipo": "matriz",
+    "cidade": "Tapera",
+    "localidade": "Centro",
+    "endereco": "Rui Barbosa, 333",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": "Transmitida pela Rádio Cultura"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "16:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Apostolado da Oração"
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/nossa-senhora-do-rosario-da-pompeia-tapera",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/nossa-senhora-do-rosario-da-pompeia-tapera",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Área Tapera. 17 comunidades."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista de Boa Esperança",
+  "categoria": "paroquia",
+  "cidade": "Colorado",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "54999220768",
+   "instagram": "",
+   "site": "",
+   "email": "saojoaobatista@arquidiocesedepassofundo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São João Batista de Boa Esperança",
+    "tipo": "matriz",
+    "cidade": "Colorado",
+    "localidade": "",
+    "endereco": "Pio XII, 512",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/sao-joao-batista-de-boa-esperanca-colorado",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/sao-joao-batista-de-boa-esperanca-colorado",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Área Tapera. 17 comunidades."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José",
+  "categoria": "paroquia",
+  "cidade": "Ernestina",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "5433781188",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "psjernestina@arquidiocesedepassofundo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São José",
+    "tipo": "matriz",
+    "cidade": "Ernestina",
+    "localidade": "",
+    "endereco": "Alfredo Eitelwein, 628",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/sao-jose-ernestina-e-tio-hugo",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/sao-jose-ernestina-e-tio-hugo",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Área Tapera. 12 comunidades. Atende Ernestina e Tio Hugo. A página só traz a missa de sábado."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Tiago",
+  "categoria": "paroquia",
+  "cidade": "Selbach",
+  "padroeiro": "São Tiago",
+  "contatos": {
+   "telefone": "5433871137",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "saotiago@arquidiocesedepassofundo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz São Tiago",
+    "tipo": "matriz",
+    "cidade": "Selbach",
+    "localidade": "",
+    "endereco": "João XXIII, 165",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/sao-tiago-selbach",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepassofundo.com.br/paroquia/sao-tiago-selbach",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Área Tapera. 6 comunidades."
+ }
+]

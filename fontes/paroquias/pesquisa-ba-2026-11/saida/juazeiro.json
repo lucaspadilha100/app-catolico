@@ -1,0 +1,866 @@
+[
+ {
+  "id_banco": null,
+  "nome": "Catedral Santuário Nossa Senhora das Grotas",
+  "categoria": "catedral",
+  "cidade": "Juazeiro",
+  "padroeiro": "Nossa Senhora das Grotas",
+  "contatos": {
+   "telefone": "7436112379",
+   "whatsapp": "7436112379",
+   "instagram": "",
+   "site": "santuariomaedasgrotas.blogspot.com",
+   "email": "catedralsantuario@diocesedejuazeiro.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Catedral Santuário Nossa Senhora das Grotas",
+    "tipo": "santuario",
+    "cidade": "Juazeiro",
+    "localidade": "Centro",
+    "endereco": "Praça da Bandeira, s/n, CEP 48903-490",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": "Com Novena Perpétua"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Exposição do Santíssimo até 17h30"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Quinta: 11h30 Ofício da Imaculada Conceição; 12h Bênção do Santíssimo e Hora da Graça; segunda 19h Terço dos Homens."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade do Santíssimo Redentor",
+    "tipo": "comunidade",
+    "cidade": "Juazeiro",
+    "localidade": "Centro",
+    "endereco": "Av. Paulo VI, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Joana Francisca",
+    "tipo": "comunidade",
+    "cidade": "Juazeiro",
+    "localidade": "Centro",
+    "endereco": "Av. Flaviano Guimarães, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejuazeiro.org.br/local/catedral-santuario-nossa-senhora-das-grotas/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://santuariomaedasgrotas.blogspot.com/p/horarios-das-celebracoes.html",
+    "data": "",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://santuariomaedasgrotas.blogspot.com/p/comunidades.html",
+    "data": "",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Forania Nossa Senhora das Grotas. Horários da página \"Horários das Celebrações\" do blog da paróquia (site citado pela diocese), sem data; a última postagem do blog é de dez. 2023. Catedral elevada a santuário em 2014."
+ },
+ {
+  "id_banco": null,
+  "nome": "Área Pastoral São Geraldo",
+  "categoria": "area_pastoral",
+  "cidade": "Juazeiro",
+  "padroeiro": "São Geraldo",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja de São Geraldo",
+    "tipo": "matriz",
+    "cidade": "Juazeiro",
+    "localidade": "São Geraldo",
+    "endereco": "Av. Paulo Rios Campelo, s/n, CEP 48905-680",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejuazeiro.org.br/local/catedral-santuario-nossa-senhora-das-grotas/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedejuazeiro.org.br/clima-de-alegria-e-festa-marcam-a-criacao-da-area-pastoral-sao-geraldo-e-acolhida-do-pe-gilvan-regio-e-irmas-da-fraternidade-esperanca/",
+    "data": "2022-03-30",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania Nossa Senhora das Grotas. Criada em 26/03/2022 com comunidades antes atendidas pela Catedral e por Maniçoba; matriz na Igreja da Comunidade São Geraldo. A diocese não publica telefone nem horário."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Juazeiro",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "74988124817",
+   "instagram": "",
+   "site": "",
+   "email": "aparecida@diocesedejuazeiro.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Juazeiro",
+    "localidade": "João Paulo II",
+    "endereco": "Praça 43, s/n, Av. Principal, CEP 48908-190",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejuazeiro.org.br/local/nossa-senhora-aparecida/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania Nossa Senhora das Grotas. Sem horário publicado: a página da paróquia no site da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Fátima",
+  "categoria": "paroquia",
+  "cidade": "Juazeiro",
+  "padroeiro": "Nossa Senhora de Fátima",
+  "contatos": {
+   "telefone": "74991255984",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiafatima@diocesedejuazeiro.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora de Fátima",
+    "tipo": "matriz",
+    "cidade": "Juazeiro",
+    "localidade": "Alto da Aliança",
+    "endereco": "Av. Irmã Dulce, s/n, CEP 48907-620",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejuazeiro.org.br/local/nossa-senhora-de-fatima/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania Nossa Senhora das Grotas. Sem horário publicado: a página da paróquia no site da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Teresinha do Menino Jesus",
+  "categoria": "paroquia",
+  "cidade": "Juazeiro",
+  "padroeiro": "Santa Teresinha do Menino Jesus",
+  "contatos": {
+   "telefone": "7436118427",
+   "whatsapp": "74999385482",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Teresinha do Menino Jesus",
+    "tipo": "matriz",
+    "cidade": "Juazeiro",
+    "localidade": "Piranga",
+    "endereco": "Rua Santa Teresinha, 420, CEP 48900-130",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Clemente Maria",
+    "tipo": "comunidade",
+    "cidade": "Juazeiro",
+    "localidade": "Piranga II",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Expedito",
+    "tipo": "comunidade",
+    "cidade": "Juazeiro",
+    "localidade": "Jardim Flórida",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Batista",
+    "tipo": "comunidade",
+    "cidade": "Juazeiro",
+    "localidade": "João XXIII",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Perpétuo Socorro",
+    "tipo": "comunidade",
+    "cidade": "Juazeiro",
+    "localidade": "Codevasf",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora das Dores",
+    "tipo": "comunidade",
+    "cidade": "Juazeiro",
+    "localidade": "Piranga I",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Imaculada Conceição",
+    "tipo": "comunidade",
+    "cidade": "Juazeiro",
+    "localidade": "Argemiro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejuazeiro.org.br/local/santa-teresinha/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://paroquiasantateresinha.blogspot.com/p/comunidades.html",
+    "data": "2014",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania Nossa Senhora das Grotas. Sem horário publicado: a página da paróquia no site da diocese só traz endereço e contatos. Comunidades conforme o blog da paróquia (página antiga, por volta de 2014): paroquiasantateresinha.blogspot.com/p/comunidades.html."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Teresinha de Lisieux",
+  "categoria": "paroquia",
+  "cidade": "Juazeiro",
+  "padroeiro": "Santa Teresinha de Lisieux",
+  "contatos": {
+   "telefone": "74988030149",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "setorpastoralcarnaiba@diocesedejuazeiro.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Teresinha de Lisieux",
+    "tipo": "matriz",
+    "cidade": "Juazeiro",
+    "localidade": "Carnaíba do Sertão",
+    "endereco": "Rua da Igreja, s/n, Praça Dr. Carlos Bruni, CEP 48924-999",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejuazeiro.org.br/local/paroquia-santa-teresinha-de-lisieux/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania Nossa Senhora das Grotas. Sem horário publicado: a página da paróquia no site da diocese só traz endereço e contatos. Sede no distrito de Carnaíba do Sertão; o e-mail ainda é do antigo Setor Pastoral. O GCatholic lista a igreja sem marca de paróquia."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Afonso",
+  "categoria": "paroquia",
+  "cidade": "Juazeiro",
+  "padroeiro": "Santo Afonso Maria de Ligório",
+  "contatos": {
+   "telefone": "74988122360",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "santoafonso@diocesedejuazeiro.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Afonso",
+    "tipo": "matriz",
+    "cidade": "Juazeiro",
+    "localidade": "Castelo Branco",
+    "endereco": "Rua Alvarenga Peixoto, s/n, CEP 48903-130",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejuazeiro.org.br/local/santo-afonso/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania Nossa Senhora das Grotas. Sem horário publicado: a página da paróquia no site da diocese só traz endereço e contatos. Confiada aos Redentoristas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Juazeiro",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "7436112317",
+   "whatsapp": "7436112317",
+   "instagram": "",
+   "site": "",
+   "email": "santoantonio@diocesedejuazeiro.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Juazeiro",
+    "localidade": "Santo Antônio",
+    "endereco": "Rua Santa Luzia, 100, CEP 48903-180",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejuazeiro.org.br/local/santo-antonio/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania Nossa Senhora das Grotas. Sem horário publicado: a página da paróquia no site da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Cosme e São Damião",
+  "categoria": "paroquia",
+  "cidade": "Juazeiro",
+  "padroeiro": "São Cosme e São Damião",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "74998067376",
+   "instagram": "",
+   "site": "",
+   "email": "cosminho@diocesedejuazeiro.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Cosme e São Damião",
+    "tipo": "matriz",
+    "cidade": "Juazeiro",
+    "localidade": "Alagadiço",
+    "endereco": "Rua Cícero Feitosa, 26, CEP 48903-271",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejuazeiro.org.br/local/sao-cosme-e-sao-damiao/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania Nossa Senhora das Grotas. Sem horário publicado: a página da paróquia no site da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Francisco de Assis",
+  "categoria": "paroquia",
+  "cidade": "Juazeiro",
+  "padroeiro": "São Francisco de Assis",
+  "contatos": {
+   "telefone": "74988450142",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiamanicoba@diocesedejuazeiro.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Francisco de Assis",
+    "tipo": "matriz",
+    "cidade": "Juazeiro",
+    "localidade": "Maniçoba",
+    "endereco": "Avenida dos Colonos, s/n, CEP 48921-000",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejuazeiro.org.br/local/sao-francisco-de-assis/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania Bom Jesus. Sem horário publicado: a página da paróquia no site da diocese só traz endereço e contatos. Sede no distrito de Maniçoba (decreto das foranias de 30/12/2022 a põe na Forania Bom Jesus). Não aparece na lista do GCatholic."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Bom Jesus da Boa Morte e São Benedito",
+  "categoria": "paroquia",
+  "cidade": "Curaçá",
+  "padroeiro": "Bom Jesus da Boa Morte e São Benedito",
+  "contatos": {
+   "telefone": "74981432254",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiacuraca@diocesedejuazeiro.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Bom Jesus da Boa Morte",
+    "tipo": "matriz",
+    "cidade": "Curaçá",
+    "localidade": "Centro",
+    "endereco": "Rua Major Torres, 01, CEP 48930-000",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejuazeiro.org.br/local/bom-jesus-da-boa-morte-e-sao-benedito/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania Bom Jesus. Sem horário publicado: a página da paróquia no site da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "Uauá",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "7436731069",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiauaua@diocesedejuazeiro.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Batista",
+    "tipo": "matriz",
+    "cidade": "Uauá",
+    "localidade": "Centro",
+    "endereco": "Rua São João Batista, 513, CEP 48950-000",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejuazeiro.org.br/local/sao-joao-batista/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania Bom Jesus. Sem horário publicado: a página da paróquia no site da diocese só traz endereço e contatos. Telefones publicados: (74) 3673-1069 e (74) 99956-6228."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Lourdes",
+  "categoria": "paroquia",
+  "cidade": "Campo Alegre de Lourdes",
+  "padroeiro": "Nossa Senhora de Lourdes",
+  "contatos": {
+   "telefone": "7435332104",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiacal@diocesedejuazeiro.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora de Lourdes",
+    "tipo": "matriz",
+    "cidade": "Campo Alegre de Lourdes",
+    "localidade": "Centro",
+    "endereco": "Praça Dr. Marcelino Ribeiro, s/n, CEP 47220-000",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejuazeiro.org.br/local/nossa-senhora-de-lourdes/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania Nossa Senhora do Rosário. Sem horário publicado: a página da paróquia no site da diocese só traz endereço e contatos. Outro telefone publicado: (74) 99963-1482."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Rosário",
+  "categoria": "paroquia",
+  "cidade": "Remanso",
+  "padroeiro": "Nossa Senhora do Rosário",
+  "contatos": {
+   "telefone": "7435351045",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiaremanso@diocesedejuazeiro.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Rosário",
+    "tipo": "matriz",
+    "cidade": "Remanso",
+    "localidade": "Centro",
+    "endereco": "Av. Décio Castelo Branco, 56, Quadra 6, CEP 47200-000",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejuazeiro.org.br/local/nossa-senhora-do-rosario/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania Nossa Senhora do Rosário. Sem horário publicado: a página da paróquia no site da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Pilão Arcado",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "7435342113",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiapilao@diocesedejuazeiro.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Pilão Arcado",
+    "localidade": "Centro",
+    "endereco": "Praça Cel. Frank Lins, s/n, CEP 47240-000",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejuazeiro.org.br/local/santo-antonio-2/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania Nossa Senhora do Rosário. Sem horário publicado: a página da paróquia no site da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José",
+  "categoria": "paroquia",
+  "cidade": "Sento Sé",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "7435372886",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasentose@diocesedejuazeiro.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José",
+    "tipo": "matriz",
+    "cidade": "Sento Sé",
+    "localidade": "Centro",
+    "endereco": "Praça Dr. Juvêncio Alves, s/n, CEP 47350-000",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejuazeiro.org.br/local/sao-jose/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania São José. Sem horário publicado: a página da paróquia no site da diocese só traz endereço e contatos. Outro telefone publicado: (74) 98104-7224."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Francisco de Assis",
+  "categoria": "paroquia",
+  "cidade": "Sobradinho",
+  "padroeiro": "São Francisco de Assis",
+  "contatos": {
+   "telefone": "7435382255",
+   "whatsapp": "7435382255",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasobradinho@diocesedejuazeiro.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Francisco de Assis",
+    "tipo": "matriz",
+    "cidade": "Sobradinho",
+    "localidade": "Vila São Joaquim",
+    "endereco": "Quadra N 18, Rua 03, nº 28, CEP 48925-000",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejuazeiro.org.br/local/sao-francisco-de-assis-sobradinho/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania São José. Sem horário publicado: a página da paróquia no site da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Sant'Ana",
+  "categoria": "paroquia",
+  "cidade": "Casa Nova",
+  "padroeiro": "Sant'Ana",
+  "contatos": {
+   "telefone": "74988438493",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasantana@diocesedejuazeiro.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Sant'Ana",
+    "tipo": "matriz",
+    "cidade": "Casa Nova",
+    "localidade": "Santana do Sobrado",
+    "endereco": "Rua Paraíso, 12, CEP 48903-970",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejuazeiro.org.br/local/nossa-senhora-santana/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania São José. Sem horário publicado: a página da paróquia no site da diocese só traz endereço e contatos. Sede no distrito de Santana do Sobrado."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José Operário",
+  "categoria": "paroquia",
+  "cidade": "Casa Nova",
+  "padroeiro": "São José Operário",
+  "contatos": {
+   "telefone": "7435362227",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiacasanova@diocesedejuazeiro.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José Operário",
+    "tipo": "matriz",
+    "cidade": "Casa Nova",
+    "localidade": "Centro",
+    "endereco": "Praça Dr. Gilson Viana de Castro, s/n, CEP 47300-000",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejuazeiro.org.br/local/sao-jose-operario/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania São José. Sem horário publicado: a página da paróquia no site da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "Casa Nova",
+  "padroeiro": "São Sebastião",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "setorpastoralpauapique@diocesedejuazeiro.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Sebastião",
+    "tipo": "matriz",
+    "cidade": "Casa Nova",
+    "localidade": "Pau a Pique",
+    "endereco": "Praça Hipólito Rodrigues, s/n, CEP 47320-000",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejuazeiro.org.br/local/paroquia-sao-sebastiao/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania São José. Sem horário publicado: a página da paróquia no site da diocese só traz endereço e contatos. Sede no distrito de Pau a Pique. A página só dá o celular e o e-mail pessoal do padre, que ficaram de fora."
+ }
+]

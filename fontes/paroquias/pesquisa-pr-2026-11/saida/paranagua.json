@@ -1,0 +1,2846 @@
+[
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Perpétuo Socorro",
+  "categoria": "paroquia",
+  "cidade": "Adrianópolis",
+  "padroeiro": "Nossa Senhora do Perpétuo Socorro",
+  "contatos": {
+   "telefone": "4136781212",
+   "whatsapp": "",
+   "instagram": "perpetuo_socorro_adp",
+   "site": "",
+   "email": "paroquiadrianopolis@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Perpétuo Socorro",
+    "tipo": "matriz",
+    "cidade": "Adrianópolis",
+    "localidade": "Centro",
+    "endereco": "Rua Hilmo Antonio Mottin, 24",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeparanagua.org.br/paranagua/",
+    "data": "2026-04-18",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Pastoral Serra. A página da diocese diz 'Sem informação' nos horários de missa. Facebook citado: perpetuosocorroadp."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Bocaiúva do Sul",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "4136581248",
+   "whatsapp": "",
+   "instagram": "paroquia.bocaiuva",
+   "site": "",
+   "email": "paroquiabocaiuva@ig.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Bocaiúva do Sul",
+    "localidade": "Centro",
+    "endereco": "Praça Santo Antônio, 45",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": "No Centro Pastoral"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": "No Centro Pastoral"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": "No Centro Pastoral"
+     }
+    ],
+    "nao_cabe": "Todo dia 13: missa e novena perpétua a Santo Antônio. A página lista 'terça a sexta 06h30 e 18h' e 'quarta 09h e 19h' em linhas separadas; conferir se a quarta tem também as 18h."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeparanagua.org.br/paroquia-santo-antonio/",
+    "data": "2026-04-18",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeparanagua.org.br/paroquia-santo-antonio/",
+    "data": "2026-04-18",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Região Pastoral Serra. Horários lidos como publicados; a lista da quarta-feira é ambígua."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Francisco de Assis",
+  "categoria": "paroquia",
+  "cidade": "Tunas do Paraná",
+  "padroeiro": "São Francisco de Assis",
+  "contatos": {
+   "telefone": "4136591867",
+   "whatsapp": "",
+   "instagram": "paroquia_s.f.a",
+   "site": "",
+   "email": "paroquiasaofranciscotunas@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Francisco de Assis",
+    "tipo": "matriz",
+    "cidade": "Tunas do Paraná",
+    "localidade": "Centro",
+    "endereco": "Av. Lucídio Florêncio Ribeiro, 907",
+    "horarios": [],
+    "nao_cabe": "A página da diocese só traz os horários das comunidades, não os da matriz."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Sebastião",
+    "tipo": "comunidade",
+    "cidade": "Tunas do Paraná",
+    "localidade": "Ouro Fino",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": [
+       2,
+       3,
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Domingos",
+    "tipo": "comunidade",
+    "cidade": "Tunas do Paraná",
+    "localidade": "Km 40",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Senhor Bom Jesus",
+    "tipo": "comunidade",
+    "cidade": "Tunas do Paraná",
+    "localidade": "Morro Grande",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "15:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Senhor Bom Jesus",
+    "tipo": "comunidade",
+    "cidade": "Tunas do Paraná",
+    "localidade": "Pocinhas",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Miguel Arcanjo",
+    "tipo": "comunidade",
+    "cidade": "Tunas do Paraná",
+    "localidade": "Pacas",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "15:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Batista",
+    "tipo": "comunidade",
+    "cidade": "Tunas do Paraná",
+    "localidade": "Colônia Marquês",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Miguel Arcanjo",
+    "tipo": "comunidade",
+    "cidade": "Tunas do Paraná",
+    "localidade": "Tigre",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Tunas do Paraná",
+    "localidade": "Campinhos",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:00",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João XXIII",
+    "tipo": "comunidade",
+    "cidade": "Tunas do Paraná",
+    "localidade": "João XXIII",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "15:00",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Expedito",
+    "tipo": "comunidade",
+    "cidade": "Tunas do Paraná",
+    "localidade": "Barra Bonita",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Tunas do Paraná",
+    "localidade": "Ribeirão das Pedras",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "15:00",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeparanagua.org.br/3-paroquia-sao-francisco-de-assis/",
+    "data": "2026-04-18",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeparanagua.org.br/3-paroquia-sao-francisco-de-assis/",
+    "data": "2026-04-18",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Região Pastoral Serra. Só as comunidades têm horário publicado; a matriz ficou sem. Cidade das comunidades suposta pelo território da paróquia."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "Campina Grande do Sul",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "4136761074",
+   "whatsapp": "",
+   "instagram": "psjbcampina",
+   "site": "",
+   "email": "campinaparoquiasjb@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Batista",
+    "tipo": "matriz",
+    "cidade": "Campina Grande do Sul",
+    "localidade": "Jardim da Colina",
+    "endereco": "Avenida São João, 582",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "06:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeparanagua.org.br/4-paroquia-sao-joao-batista/",
+    "data": "2026-04-18",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeparanagua.org.br/4-paroquia-sao-joao-batista/",
+    "data": "2026-04-18",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Região Pastoral Serra."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santuário Nossa Senhora de Fátima",
+  "categoria": "paroquia",
+  "cidade": "Campina Grande do Sul",
+  "padroeiro": "Nossa Senhora de Fátima",
+  "contatos": {
+   "telefone": "4136792815",
+   "whatsapp": "",
+   "instagram": "santuariodefatimapr",
+   "site": "",
+   "email": "santuariodefatimapr@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário de Nossa Senhora de Fátima",
+    "tipo": "santuario",
+    "cidade": "Campina Grande do Sul",
+    "localidade": "Jardim Paulista",
+    "endereco": "Avenida Alderico Bandeira de Lima, 1218",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Campina Grande do Sul",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Luz",
+    "tipo": "comunidade",
+    "cidade": "Campina Grande do Sul",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeparanagua.org.br/5-paroquia-santuario-nossa-senhora-de-fatima/",
+    "data": "2026-04-18",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeparanagua.org.br/5-paroquia-santuario-nossa-senhora-de-fatima/",
+    "data": "2026-04-18",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Região Pastoral Serra. A matriz é santuário. Segundo telefone da secretaria: (41) 99767-1407. A página não dá o bairro das comunidades."
+ },
+ {
+  "id_banco": null,
+  "nome": "Área Pastoral Nossa Senhora da Saúde",
+  "categoria": "area_pastoral",
+  "cidade": "Campina Grande do Sul",
+  "padroeiro": "Nossa Senhora da Saúde",
+  "contatos": {
+   "telefone": "41985409521",
+   "whatsapp": "",
+   "instagram": "areapastoralnossasradasaude",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Saúde",
+    "tipo": "matriz",
+    "cidade": "Campina Grande do Sul",
+    "localidade": "Araçatuba",
+    "endereco": "Rodovia do Caqui (PR-506), km 04",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Campina Grande do Sul",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Guia",
+    "tipo": "comunidade",
+    "cidade": "Campina Grande do Sul",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": [
+       2,
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Divina Misericórdia",
+    "tipo": "comunidade",
+    "cidade": "Campina Grande do Sul",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrado Coração de Jesus",
+    "tipo": "comunidade",
+    "cidade": "Campina Grande do Sul",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Rita de Cássia",
+    "tipo": "comunidade",
+    "cidade": "Campina Grande do Sul",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeparanagua.org.br/6-seminario-diocesano-senhora-do-rocio-e-reitoria-nossa-senhora-da-saude/",
+    "data": "2026-04-18",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeparanagua.org.br/6-seminario-diocesano-senhora-do-rocio-e-reitoria-nossa-senhora-da-saude/",
+    "data": "2026-04-18",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Região Pastoral Serra. Antiga reitoria, junto do Seminário Diocesano Senhora do Rocio. O telefone é o publicado para a área pastoral. Facebook: reitorianossasenhoradasaude."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Guia",
+  "categoria": "paroquia",
+  "cidade": "Cerro Azul",
+  "padroeiro": "Nossa Senhora da Guia",
+  "contatos": {
+   "telefone": "4136621296",
+   "whatsapp": "",
+   "instagram": "paroquianossasenhoraguia",
+   "site": "",
+   "email": "paroquiacerroazul@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Guia",
+    "tipo": "matriz",
+    "cidade": "Cerro Azul",
+    "localidade": "Centro",
+    "endereco": "Praça Monsenhor Celso",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeparanagua.org.br/7-paroquia-nossa-senhora-da-guia/",
+    "data": "2026-04-18",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeparanagua.org.br/7-paroquia-nossa-senhora-da-guia/",
+    "data": "2026-04-18",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Região Pastoral Serra."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida e São João Batista",
+  "categoria": "paroquia",
+  "cidade": "Doutor Ulysses",
+  "padroeiro": "Nossa Senhora Aparecida e São João Batista",
+  "contatos": {
+   "telefone": "4131689969",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "nsaparecidaesjoaobatista@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Aparecida e São João Batista",
+    "tipo": "matriz",
+    "cidade": "Doutor Ulysses",
+    "localidade": "Vila Nova",
+    "endereco": "Avenida São João",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeparanagua.org.br/8-paroquia-nossa-senhora-aparecida-e-sao-joao-batista/",
+    "data": "2026-04-18",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeparanagua.org.br/8-paroquia-nossa-senhora-aparecida-e-sao-joao-batista/",
+    "data": "2026-04-18",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Região Pastoral Serra."
+ },
+ {
+  "id_banco": null,
+  "nome": "Quase-Paróquia São Sebastião e Nossa Senhora Desatadora dos Nós",
+  "categoria": "quase_paroquia",
+  "cidade": "Cerro Azul",
+  "padroeiro": "São Sebastião e Nossa Senhora Desatadora dos Nós",
+  "contatos": {
+   "telefone": "41997575643",
+   "whatsapp": "",
+   "instagram": "paroquiassebastiaonsradesnos_",
+   "site": "",
+   "email": "paroquiassdn@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Sebastião e Nossa Senhora Desatadora dos Nós",
+    "tipo": "matriz",
+    "cidade": "Cerro Azul",
+    "localidade": "São Sebastião",
+    "endereco": "Estrada Principal",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeparanagua.org.br/quase-paroquia-sao-sebastiao-e-nossa-senhora-desatadora-dos-nos/",
+    "data": "2026-11-05",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeparanagua.org.br/quase-paroquia-sao-sebastiao-e-nossa-senhora-desatadora-dos-nos/",
+    "data": "2026-11-05",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Região Pastoral Serra. Página da diocese publicada em 28/09/2026; o GCatholic ainda não a lista. O telefone é o publicado para a quase-paróquia."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Pedro e São Paulo",
+  "categoria": "paroquia",
+  "cidade": "Pontal do Paraná",
+  "padroeiro": "São Pedro e São Paulo",
+  "contatos": {
+   "telefone": "41997300350",
+   "whatsapp": "",
+   "instagram": "paroquiasaopedrosaopaulo1",
+   "site": "",
+   "email": "paroquiasaopedrosaopaulo2@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Pedro e São Paulo",
+    "tipo": "matriz",
+    "cidade": "Pontal do Paraná",
+    "localidade": "Pontal do Sul",
+    "endereco": "Rua do Guapé",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrado Coração de Jesus",
+    "tipo": "comunidade",
+    "cidade": "Pontal do Paraná",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Pontal do Paraná",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Fátima",
+    "tipo": "comunidade",
+    "cidade": "Pontal do Paraná",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José Operário",
+    "tipo": "comunidade",
+    "cidade": "Pontal do Paraná",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade da Gruta",
+    "tipo": "comunidade",
+    "cidade": "Pontal do Paraná",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Encantadas",
+    "tipo": "comunidade",
+    "cidade": "Paranaguá",
+    "localidade": "Ilha do Mel, Encantadas",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Nova Brasília",
+    "tipo": "comunidade",
+    "cidade": "Paranaguá",
+    "localidade": "Ilha do Mel, Nova Brasília",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeparanagua.org.br/12-paroquia-sao-pedro-e-sao-paulo/",
+    "data": "2026-04-18",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeparanagua.org.br/12-paroquia-sao-pedro-e-sao-paulo/",
+    "data": "2026-04-18",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Região Pastoral Litoral. Atende também a Ilha do Mel (município de Paranaguá). O telefone é o publicado para a paróquia."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Bom Sucesso",
+  "categoria": "paroquia",
+  "cidade": "Guaratuba",
+  "padroeiro": "Nossa Senhora do Bom Sucesso",
+  "contatos": {
+   "telefone": "4131350246",
+   "whatsapp": "",
+   "instagram": "paroquiabomsucesso",
+   "site": "",
+   "email": "secretaria@paroquiaguaratuba.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Bom Sucesso",
+    "tipo": "matriz",
+    "cidade": "Guaratuba",
+    "localidade": "Centro",
+    "endereco": "Av. 29 de Abril, 51",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeparanagua.org.br/13-paroquia-nossa-senhora-do-bom-sucesso/",
+    "data": "2026-04-18",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeparanagua.org.br/13-paroquia-nossa-senhora-do-bom-sucesso/",
+    "data": "2026-04-18",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Região Pastoral Litoral. Redentoristas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Francisco de Assis",
+  "categoria": "paroquia",
+  "cidade": "Guaratuba",
+  "padroeiro": "São Francisco de Assis",
+  "contatos": {
+   "telefone": "4134723510",
+   "whatsapp": "",
+   "instagram": "psaochicodeassis",
+   "site": "",
+   "email": "paroquiasaofranciscogtba@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Francisco de Assis",
+    "tipo": "matriz",
+    "cidade": "Guaratuba",
+    "localidade": "Cohapar",
+    "endereco": "Rua Engenheiro Beltrão, 186",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Segunda-feira 06h30: celebração da Palavra."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeparanagua.org.br/14-paroquia-sao-francisco-de-assis/",
+    "data": "2026-04-18",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeparanagua.org.br/14-paroquia-sao-francisco-de-assis/",
+    "data": "2026-04-18",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Região Pastoral Litoral."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Pedro Apóstolo",
+  "categoria": "paroquia",
+  "cidade": "Matinhos",
+  "padroeiro": "São Pedro Apóstolo",
+  "contatos": {
+   "telefone": "4134531241",
+   "whatsapp": "",
+   "instagram": "pspedromatinhos",
+   "site": "",
+   "email": "secretariasaopedromts@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Pedro Apóstolo",
+    "tipo": "matriz",
+    "cidade": "Matinhos",
+    "localidade": "Centro",
+    "endereco": "Rua Ernesto Postarek, 131",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Comunidades Albatroz, Perequê, Riviera e Cohapar II: missas conforme calendário mensal."
+   },
+   {
+    "id_banco": null,
+    "nome": "Igrejinha de São Pedro",
+    "tipo": "capela",
+    "cidade": "Matinhos",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeparanagua.org.br/15-paroquia-sao-pedro-apostolo/",
+    "data": "2026-04-18",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeparanagua.org.br/15-paroquia-sao-pedro-apostolo/",
+    "data": "2026-04-18",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Região Pastoral Litoral. Segundo telefone publicado: (41) 99646-4761."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sant'Ana",
+  "categoria": "paroquia",
+  "cidade": "Matinhos",
+  "padroeiro": "Sant'Ana",
+  "contatos": {
+   "telefone": "4134527579",
+   "whatsapp": "",
+   "instagram": "paroquiasantanacaioba",
+   "site": "",
+   "email": "santaanacaioba@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Sant'Ana",
+    "tipo": "matriz",
+    "cidade": "Matinhos",
+    "localidade": "Caiobá",
+    "endereco": "Rua Alvorada, 405",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeparanagua.org.br/16-paroquia-santana/",
+    "data": "2026-04-18",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeparanagua.org.br/16-paroquia-santana/",
+    "data": "2026-04-18",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Região Pastoral Litoral. Fica no balneário de Caiobá."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santuário São José",
+  "categoria": "paroquia",
+  "cidade": "Pontal do Paraná",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "41995219916",
+   "whatsapp": "",
+   "instagram": "ssjosepontal",
+   "site": "",
+   "email": "paroquiasaojoseesaosebastiao@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário de São José",
+    "tipo": "santuario",
+    "cidade": "Pontal do Paraná",
+    "localidade": "Praia de Leste",
+    "endereco": "Rua Dom Alfredo Ernesto Novak, 167",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "16:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "20:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela São Pedro e São Paulo",
+    "tipo": "capela",
+    "cidade": "Pontal do Paraná",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Teresinha",
+    "tipo": "capela",
+    "cidade": "Pontal do Paraná",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santa Cruz",
+    "tipo": "capela",
+    "cidade": "Pontal do Paraná",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Pontal do Paraná",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeparanagua.org.br/17-paroquia-sao-jose-e-sao-sebastiao/",
+    "data": "2026-09-08",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeparanagua.org.br/17-paroquia-sao-jose-e-sao-sebastiao/",
+    "data": "2026-09-08",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Região Pastoral Litoral. O GCatholic e o e-mail ainda usam o nome antigo, Paróquia São José e São Sebastião. O telefone é o publicado para a paróquia."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Porto",
+  "categoria": "paroquia",
+  "cidade": "Morretes",
+  "padroeiro": "Nossa Senhora do Porto",
+  "contatos": {
+   "telefone": "41987506306",
+   "whatsapp": "",
+   "instagram": "senhoradoporto",
+   "site": "",
+   "email": "igrejamatrizmorretes@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Porto",
+    "tipo": "matriz",
+    "cidade": "Morretes",
+    "localidade": "Centro",
+    "endereco": "Rua Cel. Modesto, 10",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Igreja de São Benedito",
+    "tipo": "capela",
+    "cidade": "Morretes",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeparanagua.org.br/9-paroquia-nossa-senhora-do-porto/",
+    "data": "2026-04-18",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeparanagua.org.br/9-paroquia-nossa-senhora-do-porto/",
+    "data": "2026-04-18",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Região Pastoral Marumbi. O telefone é o publicado para a paróquia."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santuário Nossa Senhora do Pilar",
+  "categoria": "paroquia",
+  "cidade": "Antonina",
+  "padroeiro": "Nossa Senhora do Pilar",
+  "contatos": {
+   "telefone": "41987301121",
+   "whatsapp": "",
+   "instagram": "santuarionossasenhoradopilar",
+   "site": "",
+   "email": "matrizpilarantonina@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário de Nossa Senhora do Pilar",
+    "tipo": "santuario",
+    "cidade": "Antonina",
+    "localidade": "Centro",
+    "endereco": "Praça Coronel Macedo",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Última sexta-feira do mês: missa às 15h."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeparanagua.org.br/10-paroquia-santuario-nossa-senhora-do-pilar/",
+    "data": "2026-11-05",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeparanagua.org.br/10-paroquia-santuario-nossa-senhora-do-pilar/",
+    "data": "2026-11-05",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Região Pastoral Marumbi. A matriz é santuário."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Senhor Bom Jesus dos Perdões",
+  "categoria": "paroquia",
+  "cidade": "Guaraqueçaba",
+  "padroeiro": "Senhor Bom Jesus dos Perdões",
+  "contatos": {
+   "telefone": "41998834715",
+   "whatsapp": "",
+   "instagram": "bomjesusguaraquecaba",
+   "site": "",
+   "email": "bomjesusperdoes@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Senhor Bom Jesus dos Perdões",
+    "tipo": "matriz",
+    "cidade": "Guaraqueçaba",
+    "localidade": "",
+    "endereco": "Rod. Dep. Miguel Bufara",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeparanagua.org.br/11-paroquia-senhor-bom-jesus-dos-perdoes/",
+    "data": "2026-06-09",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeparanagua.org.br/11-paroquia-senhor-bom-jesus-dos-perdoes/",
+    "data": "2026-06-09",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Região Pastoral Marumbi. Vicentinos. O telefone é o publicado para a paróquia."
+ },
+ {
+  "id_banco": null,
+  "nome": "Catedral de Nossa Senhora do Rosário",
+  "categoria": "catedral",
+  "cidade": "Paranaguá",
+  "padroeiro": "Nossa Senhora do Rosário",
+  "contatos": {
+   "telefone": "4134232293",
+   "whatsapp": "",
+   "instagram": "catedral_paranagua",
+   "site": "",
+   "email": "catedral.nsrosario@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Catedral de Nossa Senhora do Rosário",
+    "tipo": "matriz",
+    "cidade": "Paranaguá",
+    "localidade": "Centro Histórico",
+    "endereco": "Rua Profº Cleto, 26",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeparanagua.org.br/18-paroquia-nossa-senhora-do-rosario/",
+    "data": "2026-04-18",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeparanagua.org.br/18-paroquia-nossa-senhora-do-rosario/",
+    "data": "2026-04-18",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Região Pastoral Paranaguá. Paróquia Catedral; a página não traz missa aos sábados."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora dos Navegantes",
+  "categoria": "paroquia",
+  "cidade": "Paranaguá",
+  "padroeiro": "Nossa Senhora dos Navegantes",
+  "contatos": {
+   "telefone": "4134225165",
+   "whatsapp": "",
+   "instagram": "paroquiadosnavegantes",
+   "site": "",
+   "email": "pnavegantes2005@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora dos Navegantes",
+    "tipo": "matriz",
+    "cidade": "Paranaguá",
+    "localidade": "Ilha dos Valadares",
+    "endereco": "Praça da Matriz",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeparanagua.org.br/19-paroquia-nossa-sra-dos-navegantes/",
+    "data": "2026-04-18",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeparanagua.org.br/19-paroquia-nossa-sra-dos-navegantes/",
+    "data": "2026-04-18",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Região Pastoral Paranaguá."
+ },
+ {
+  "id_banco": null,
+  "nome": "Santuário Estadual Nossa Senhora do Rocio",
+  "categoria": "santuario",
+  "cidade": "Paranaguá",
+  "padroeiro": "Nossa Senhora do Rocio",
+  "contatos": {
+   "telefone": "4134232020",
+   "whatsapp": "",
+   "instagram": "santuariodorocio",
+   "site": "",
+   "email": "secretaria@santuariodorocio.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário Estadual de Nossa Senhora do Rocio",
+    "tipo": "santuario",
+    "cidade": "Paranaguá",
+    "localidade": "Rocio",
+    "endereco": "Praça Padre Thomaz Sheehan, 211",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "20:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "11:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeparanagua.org.br/20-santuario-estadual-nossa-sra-do-rocio/",
+    "data": "2026-04-18",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeparanagua.org.br/20-santuario-estadual-nossa-sra-do-rocio/",
+    "data": "2026-04-18",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Região Pastoral Paranaguá. Santuário não territorial da padroeira do Paraná (o GCatholic o marca também como paróquia). Redentoristas. Segundo telefone: (41) 98721-1509."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Josefina Bakhita",
+  "categoria": "paroquia",
+  "cidade": "Paranaguá",
+  "padroeiro": "Santa Josefina Bakhita",
+  "contatos": {
+   "telefone": "4134242358",
+   "whatsapp": "",
+   "instagram": "paroquiabakhita",
+   "site": "",
+   "email": "secretariadabakhita@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Josefina Bakhita",
+    "tipo": "matriz",
+    "cidade": "Paranaguá",
+    "localidade": "Jardim Vale do Sol",
+    "endereco": "Rua Aurélio Romoaldo Moro, 69",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "20:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Auxiliadora",
+    "tipo": "comunidade",
+    "cidade": "Paranaguá",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José Operário",
+    "tipo": "comunidade",
+    "cidade": "Paranaguá",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeparanagua.org.br/21-paroquia-santa-josefina-bakhita/",
+    "data": "2026-04-18",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeparanagua.org.br/21-paroquia-santa-josefina-bakhita/",
+    "data": "2026-04-18",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Região Pastoral Paranaguá."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "Paranaguá",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "4134237253",
+   "whatsapp": "",
+   "instagram": "psj_batista",
+   "site": "",
+   "email": "secretaria@saojoaobatista.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Batista",
+    "tipo": "matriz",
+    "cidade": "Paranaguá",
+    "localidade": "Parque São João",
+    "endereco": "Rua Pe. José Roberto Souza Alvim, 284",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "20:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "20:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Maria Vianney",
+    "tipo": "comunidade",
+    "cidade": "Paranaguá",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrado Coração de Jesus",
+    "tipo": "comunidade",
+    "cidade": "Paranaguá",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Judas Tadeu",
+    "tipo": "comunidade",
+    "cidade": "Paranaguá",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeparanagua.org.br/22-paroquia-sao-joao-batista/",
+    "data": "2026-07-28",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeparanagua.org.br/22-paroquia-sao-joao-batista/",
+    "data": "2026-07-28",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Região Pastoral Paranaguá."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Cristóvão",
+  "categoria": "paroquia",
+  "cidade": "Paranaguá",
+  "padroeiro": "São Cristóvão",
+  "contatos": {
+   "telefone": "4134255555",
+   "whatsapp": "",
+   "instagram": "pscristovaopgua",
+   "site": "",
+   "email": "pscristovaopgua@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Cristóvão",
+    "tipo": "matriz",
+    "cidade": "Paranaguá",
+    "localidade": "Jardim Iguaçu",
+    "endereco": "Rua Pe. Adelir Antônio de Carli, 180",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Rita",
+    "tipo": "comunidade",
+    "cidade": "Paranaguá",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Carmo",
+    "tipo": "comunidade",
+    "cidade": "Paranaguá",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora das Graças",
+    "tipo": "comunidade",
+    "cidade": "Paranaguá",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Divino Espírito Santo",
+    "tipo": "comunidade",
+    "cidade": "Paranaguá",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santíssimo Redentor",
+    "tipo": "comunidade",
+    "cidade": "Paranaguá",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeparanagua.org.br/23-paroquia-sao-cristovao/",
+    "data": "2026-04-18",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeparanagua.org.br/23-paroquia-sao-cristovao/",
+    "data": "2026-04-18",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Região Pastoral Paranaguá."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Paz",
+  "categoria": "paroquia",
+  "cidade": "Paranaguá",
+  "padroeiro": "Nossa Senhora da Paz",
+  "contatos": {
+   "telefone": "4134233373",
+   "whatsapp": "",
+   "instagram": "paroquia.sra.paz",
+   "site": "",
+   "email": "pazpns@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Paz",
+    "tipo": "matriz",
+    "cidade": "Paranaguá",
+    "localidade": "Jardim Alvorada",
+    "endereco": "Rua Maneco Viana, 1042",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "20:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Fátima",
+    "tipo": "comunidade",
+    "cidade": "Paranaguá",
+    "localidade": "Jardim Alvorada",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Paranaguá",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Senhor Bom Jesus",
+    "tipo": "comunidade",
+    "cidade": "Paranaguá",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeparanagua.org.br/24-paroquia-nossa-senhora-da-paz/",
+    "data": "2026-04-18",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeparanagua.org.br/24-paroquia-nossa-senhora-da-paz/",
+    "data": "2026-04-18",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Região Pastoral Paranaguá. Bairro da comunidade de Fátima tirado do GCatholic."
+ },
+ {
+  "id_banco": null,
+  "nome": "Santuário São Francisco das Chagas",
+  "categoria": "santuario",
+  "cidade": "Paranaguá",
+  "padroeiro": "São Francisco das Chagas",
+  "contatos": {
+   "telefone": "4134234234",
+   "whatsapp": "",
+   "instagram": "sao_francisco_pgua",
+   "site": "",
+   "email": "santuariosaofranciscodaschagas@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja da Ordem Terceira de São Francisco das Chagas",
+    "tipo": "santuario",
+    "cidade": "Paranaguá",
+    "localidade": "Centro Histórico",
+    "endereco": "Rua XV de Novembro",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "11:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedeparanagua.org.br/25-santuario-sao-francisco-das-chagas/",
+    "data": "2026-11-10",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedeparanagua.org.br/25-santuario-sao-francisco-das-chagas/",
+    "data": "2026-11-10",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Região Pastoral Paranaguá. Santuário não territorial, na igreja da Ordem Terceira."
+ }
+]

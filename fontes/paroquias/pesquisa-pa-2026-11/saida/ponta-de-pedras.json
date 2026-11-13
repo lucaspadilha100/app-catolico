@@ -1,0 +1,922 @@
+[
+  {
+    "id_banco": null,
+    "nome": "Paróquia Catedral Nossa Senhora da Conceição",
+    "categoria": "catedral",
+    "cidade": "Ponta de Pedras",
+    "padroeiro": "Nossa Senhora da Conceição",
+    "contatos": {
+      "telefone": "",
+      "whatsapp": "",
+      "instagram": "",
+      "site": "",
+      "email": ""
+    },
+    "igrejas": [
+      {
+        "id_banco": null,
+        "nome": "Catedral Nossa Senhora da Conceição",
+        "tipo": "matriz",
+        "cidade": "Ponta de Pedras",
+        "localidade": "Centro",
+        "endereco": "Praça Paulo VI, s/n",
+        "horarios": [],
+        "nao_cabe": ""
+      }
+    ],
+    "fontes": [
+      {
+        "url": "https://diocesepontadepedras.blogspot.com/p/paroquias.html",
+        "data": "2025-08-18",
+        "o_que": "contatos"
+      },
+      {
+        "url": "https://diocesepontadepedras.blogspot.com/p/o-clero-de-nossa-diocese.html",
+        "data": "2026-08-17",
+        "o_que": "contatos"
+      }
+    ],
+    "confianca": "baixa",
+    "observacao": "Sem horário: o blog oficial da diocese (318 publicações lidas) e a página \"Paróquias\" não publicam horário de missa, e a paróquia não tem site ou perfil citado pela diocese. 37 comunidades, sem lista publicada. A diocese não publica foranias."
+  },
+  {
+    "id_banco": null,
+    "nome": "Paróquia Nossa Senhora da Imaculada Conceição",
+    "categoria": "paroquia",
+    "cidade": "Cachoeira do Arari",
+    "padroeiro": "Nossa Senhora da Imaculada Conceição",
+    "contatos": {
+      "telefone": "",
+      "whatsapp": "",
+      "instagram": "",
+      "site": "",
+      "email": ""
+    },
+    "igrejas": [
+      {
+        "id_banco": null,
+        "nome": "Igreja Matriz Nossa Senhora da Imaculada Conceição",
+        "tipo": "matriz",
+        "cidade": "Cachoeira do Arari",
+        "localidade": "Centro",
+        "endereco": "Praça da Matriz",
+        "horarios": [],
+        "nao_cabe": ""
+      }
+    ],
+    "fontes": [
+      {
+        "url": "https://diocesepontadepedras.blogspot.com/p/paroquias.html",
+        "data": "2025-08-18",
+        "o_que": "contatos"
+      },
+      {
+        "url": "https://diocesepontadepedras.blogspot.com/p/o-clero-de-nossa-diocese.html",
+        "data": "2026-08-17",
+        "o_que": "contatos"
+      },
+      {
+        "url": "https://diocesepontadepedras.blogspot.com/2024/12/igreja-matriz-e-elevada-dignidade-de.html",
+        "data": "2024-12-16",
+        "o_que": "contatos"
+      }
+    ],
+    "confianca": "baixa",
+    "observacao": "Sem horário: o blog oficial da diocese (318 publicações lidas) e a página \"Paróquias\" não publicam horário de missa, e a paróquia não tem site ou perfil citado pela diocese. A matriz foi elevada a Pró-Santuário em 15/12/2024; São Sebastião é copadroeiro. 17 comunidades, sem lista publicada."
+  },
+  {
+    "id_banco": null,
+    "nome": "Paróquia Nossa Senhora de Nazaré",
+    "categoria": "paroquia",
+    "cidade": "Cachoeira do Arari",
+    "padroeiro": "Nossa Senhora de Nazaré",
+    "contatos": {
+      "telefone": "",
+      "whatsapp": "",
+      "instagram": "",
+      "site": "",
+      "email": ""
+    },
+    "igrejas": [
+      {
+        "id_banco": null,
+        "nome": "Igreja Matriz Nossa Senhora de Nazaré",
+        "tipo": "matriz",
+        "cidade": "Cachoeira do Arari",
+        "localidade": "Vila de Retiro Grande",
+        "endereco": "Rodovia PA-154",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade Divino Espírito Santo",
+        "tipo": "comunidade",
+        "cidade": "Cachoeira do Arari",
+        "localidade": "Camará",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade São Sebastião",
+        "tipo": "comunidade",
+        "cidade": "Cachoeira do Arari",
+        "localidade": "Vila Umarizal",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade São Benedito",
+        "tipo": "comunidade",
+        "cidade": "Cachoeira do Arari",
+        "localidade": "Santa Rosa",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade São Raimundo Nonato",
+        "tipo": "comunidade",
+        "cidade": "Cachoeira do Arari",
+        "localidade": "Camaraú",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade Nossa Senhora da Conceição",
+        "tipo": "comunidade",
+        "cidade": "Cachoeira do Arari",
+        "localidade": "Jabuti",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade São Miguel Arcanjo",
+        "tipo": "comunidade",
+        "cidade": "Cachoeira do Arari",
+        "localidade": "Retiro Grande, PA-154",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade Nossa Senhora Rainha da Paz",
+        "tipo": "comunidade",
+        "cidade": "Cachoeira do Arari",
+        "localidade": "Bela Vista",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade São José de Anchieta",
+        "tipo": "comunidade",
+        "cidade": "Cachoeira do Arari",
+        "localidade": "Jauacá",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade Imaculado Coração de Maria",
+        "tipo": "comunidade",
+        "cidade": "Cachoeira do Arari",
+        "localidade": "Sé",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade Nossa Senhora Rainha da Paz",
+        "tipo": "comunidade",
+        "cidade": "Cachoeira do Arari",
+        "localidade": "Bacuri",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade Nossa Senhora de Nazaré",
+        "tipo": "comunidade",
+        "cidade": "Cachoeira do Arari",
+        "localidade": "Bom Jesus",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade São Raimundo Nonato",
+        "tipo": "comunidade",
+        "cidade": "Cachoeira do Arari",
+        "localidade": "Boca Pequena",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade Nossa Senhora dos Navegantes",
+        "tipo": "comunidade",
+        "cidade": "Cachoeira do Arari",
+        "localidade": "Mata Fome",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade Nossa Senhora de Fátima",
+        "tipo": "comunidade",
+        "cidade": "Cachoeira do Arari",
+        "localidade": "Japuíra",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade Sagrado Coração de Jesus",
+        "tipo": "comunidade",
+        "cidade": "Cachoeira do Arari",
+        "localidade": "Aranaí",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade Nossa Senhora Rainha da Paz",
+        "tipo": "comunidade",
+        "cidade": "Cachoeira do Arari",
+        "localidade": "Chipaiá",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      }
+    ],
+    "fontes": [
+      {
+        "url": "https://diocesepontadepedras.blogspot.com/p/paroquias.html",
+        "data": "2025-08-18",
+        "o_que": "contatos"
+      },
+      {
+        "url": "https://diocesepontadepedras.blogspot.com/p/o-clero-de-nossa-diocese.html",
+        "data": "2026-08-17",
+        "o_que": "contatos"
+      },
+      {
+        "url": "https://diocesepontadepedras.blogspot.com/2023/09/e-criada-paroquia-nossa-senhora-de.html",
+        "data": "2023-09-09",
+        "o_que": "contatos"
+      }
+    ],
+    "confianca": "baixa",
+    "observacao": "Sem horário: o blog oficial da diocese (318 publicações lidas) e a página \"Paróquias\" não publicam horário de missa, e a paróquia não tem site ou perfil citado pela diocese. Área pastoral em 11/02/2023, paróquia em 08/09/2023, desmembrada da Imaculada Conceição. Comunidades do decreto de criação."
+  },
+  {
+    "id_banco": null,
+    "nome": "Paróquia São João Batista",
+    "categoria": "paroquia",
+    "cidade": "Curralinho",
+    "padroeiro": "São João Batista",
+    "contatos": {
+      "telefone": "",
+      "whatsapp": "",
+      "instagram": "",
+      "site": "",
+      "email": ""
+    },
+    "igrejas": [
+      {
+        "id_banco": null,
+        "nome": "Igreja Matriz São João Batista",
+        "tipo": "matriz",
+        "cidade": "Curralinho",
+        "localidade": "Beira Rio",
+        "endereco": "Rua Floriano Peixoto",
+        "horarios": [],
+        "nao_cabe": ""
+      }
+    ],
+    "fontes": [
+      {
+        "url": "https://diocesepontadepedras.blogspot.com/p/paroquias.html",
+        "data": "2025-08-18",
+        "o_que": "contatos"
+      },
+      {
+        "url": "https://diocesepontadepedras.blogspot.com/p/o-clero-de-nossa-diocese.html",
+        "data": "2026-08-17",
+        "o_que": "contatos"
+      }
+    ],
+    "confianca": "baixa",
+    "observacao": "Sem horário: o blog oficial da diocese (318 publicações lidas) e a página \"Paróquias\" não publicam horário de missa, e a paróquia não tem site ou perfil citado pela diocese. 33 comunidades, sem lista publicada."
+  },
+  {
+    "id_banco": null,
+    "nome": "Paróquia Nossa Senhora do Rosário do Perpétuo Socorro",
+    "categoria": "paroquia",
+    "cidade": "Curralinho",
+    "padroeiro": "Nossa Senhora do Rosário e Nossa Senhora do Perpétuo Socorro",
+    "contatos": {
+      "telefone": "",
+      "whatsapp": "",
+      "instagram": "",
+      "site": "",
+      "email": ""
+    },
+    "igrejas": [
+      {
+        "id_banco": null,
+        "nome": "Igreja Matriz Nossa Senhora do Perpétuo Socorro",
+        "tipo": "matriz",
+        "cidade": "Curralinho",
+        "localidade": "",
+        "endereco": "Rua Miraci Gama",
+        "horarios": [],
+        "nao_cabe": "Comunidades na cidade: Santa Izabel e São Luís Orione (endereço não publicado)."
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade Menino Jesus",
+        "tipo": "comunidade",
+        "cidade": "Curralinho",
+        "localidade": "Trapichinho, Rio Pará",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade Santa Maria",
+        "tipo": "comunidade",
+        "cidade": "Curralinho",
+        "localidade": "Furo Santa Maria",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade Santo Antônio",
+        "tipo": "comunidade",
+        "cidade": "Curralinho",
+        "localidade": "Rio Curupuú",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade São Miguel Arcanjo",
+        "tipo": "comunidade",
+        "cidade": "Curralinho",
+        "localidade": "Vila Calheira",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade Nossa Senhora do Livramento",
+        "tipo": "comunidade",
+        "cidade": "Curralinho",
+        "localidade": "Rio Oleiro",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade Nossa Senhora da Boa Esperança",
+        "tipo": "comunidade",
+        "cidade": "Curralinho",
+        "localidade": "Rio Boa Esperança",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade Santa Rosa de Lima II",
+        "tipo": "comunidade",
+        "cidade": "Curralinho",
+        "localidade": "Rio Ipanema",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade São João Apóstolo",
+        "tipo": "comunidade",
+        "cidade": "Curralinho",
+        "localidade": "Rio Pariacá",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade São João Paulo II",
+        "tipo": "comunidade",
+        "cidade": "Curralinho",
+        "localidade": "Rio Sova",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade São João Evangelista",
+        "tipo": "comunidade",
+        "cidade": "Curralinho",
+        "localidade": "Rio Araçacá",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade Sagrado Coração de Jesus",
+        "tipo": "comunidade",
+        "cidade": "Curralinho",
+        "localidade": "Rio Tartaruga",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade São Jorge",
+        "tipo": "comunidade",
+        "cidade": "Curralinho",
+        "localidade": "Rio Cupijó",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade Nossa Senhora Rainha da Paz",
+        "tipo": "comunidade",
+        "cidade": "Curralinho",
+        "localidade": "Rio Cupijó",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade Santa Luzia",
+        "tipo": "comunidade",
+        "cidade": "Curralinho",
+        "localidade": "Rio Croari",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade Nossa Senhora de Nazaré",
+        "tipo": "comunidade",
+        "cidade": "Curralinho",
+        "localidade": "Rio Croari",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade São Francisco de Assis",
+        "tipo": "comunidade",
+        "cidade": "Curralinho",
+        "localidade": "Rio Jatiboca",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade Nossa Senhora de Nazaré",
+        "tipo": "comunidade",
+        "cidade": "Curralinho",
+        "localidade": "Rio Jatiboca",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade Santa Teresinha do Menino Jesus",
+        "tipo": "comunidade",
+        "cidade": "Curralinho",
+        "localidade": "Rio Aramaquiri",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade Nossa Senhora da Conceição",
+        "tipo": "comunidade",
+        "cidade": "Curralinho",
+        "localidade": "Rio Aramaquiri",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade Bom Jesus",
+        "tipo": "comunidade",
+        "cidade": "Curralinho",
+        "localidade": "Rio Aramaquiri",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade Nossa Senhora das Graças",
+        "tipo": "comunidade",
+        "cidade": "Curralinho",
+        "localidade": "Rio Aramaquiri",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade São Pedro",
+        "tipo": "comunidade",
+        "cidade": "Curralinho",
+        "localidade": "Rio Timbutuba",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade São Francisco de Assis",
+        "tipo": "comunidade",
+        "cidade": "Curralinho",
+        "localidade": "Pacas",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade Santa Helena",
+        "tipo": "comunidade",
+        "cidade": "Curralinho",
+        "localidade": "Sarafina",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      }
+    ],
+    "fontes": [
+      {
+        "url": "https://diocesepontadepedras.blogspot.com/p/paroquias.html",
+        "data": "2025-08-18",
+        "o_que": "contatos"
+      },
+      {
+        "url": "https://diocesepontadepedras.blogspot.com/p/o-clero-de-nossa-diocese.html",
+        "data": "2026-08-17",
+        "o_que": "contatos"
+      },
+      {
+        "url": "https://diocesepontadepedras.blogspot.com/2023/08/e-criada-uma-nova-paroquia-em-curralinho.html",
+        "data": "2023-08-21",
+        "o_que": "contatos"
+      }
+    ],
+    "confianca": "baixa",
+    "observacao": "Sem horário: o blog oficial da diocese (318 publicações lidas) e a página \"Paróquias\" não publicam horário de missa, e a paróquia não tem site ou perfil citado pela diocese. Criada em 19/08/2023 a partir da Área Pastoral N. Sra. do Rosário (rio Canaticu); a antiga capela do Perpétuo Socorro virou matriz. Comunidades do decreto de criação."
+  },
+  {
+    "id_banco": null,
+    "nome": "Paróquia São Francisco de Paula",
+    "categoria": "paroquia",
+    "cidade": "Muaná",
+    "padroeiro": "São Francisco de Paula",
+    "contatos": {
+      "telefone": "",
+      "whatsapp": "",
+      "instagram": "",
+      "site": "",
+      "email": ""
+    },
+    "igrejas": [
+      {
+        "id_banco": null,
+        "nome": "Igreja Matriz São Francisco de Paula",
+        "tipo": "matriz",
+        "cidade": "Muaná",
+        "localidade": "Centro",
+        "endereco": "Praça Cipriano Santos",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Santuário Diocesano Nossa Senhora de Nazaré",
+        "tipo": "santuario",
+        "cidade": "Muaná",
+        "localidade": "Estrada",
+        "endereco": "Rua Capitão Antônio da Costa Azevedo",
+        "horarios": [],
+        "nao_cabe": ""
+      }
+    ],
+    "fontes": [
+      {
+        "url": "https://diocesepontadepedras.blogspot.com/p/paroquias.html",
+        "data": "2025-08-18",
+        "o_que": "contatos"
+      },
+      {
+        "url": "https://diocesepontadepedras.blogspot.com/p/o-clero-de-nossa-diocese.html",
+        "data": "2026-08-17",
+        "o_que": "contatos"
+      }
+    ],
+    "confianca": "baixa",
+    "observacao": "Sem horário: o blog oficial da diocese (318 publicações lidas) e a página \"Paróquias\" não publicam horário de missa, e a paróquia não tem site ou perfil citado pela diocese. O Santuário Diocesano de N. Sra. de Nazaré (dedicado em 08/09/2007) tem como reitor um dos párocos; não é paróquia. 40 comunidades, sem lista publicada."
+  },
+  {
+    "id_banco": null,
+    "nome": "Paróquia São Miguel Arcanjo",
+    "categoria": "paroquia",
+    "cidade": "Muaná",
+    "padroeiro": "São Miguel Arcanjo",
+    "contatos": {
+      "telefone": "",
+      "whatsapp": "",
+      "instagram": "",
+      "site": "",
+      "email": ""
+    },
+    "igrejas": [
+      {
+        "id_banco": null,
+        "nome": "Igreja Matriz São Miguel Arcanjo",
+        "tipo": "matriz",
+        "cidade": "Muaná",
+        "localidade": "São Miguel do Pracuúba",
+        "endereco": "Praça da Matriz",
+        "horarios": [],
+        "nao_cabe": ""
+      }
+    ],
+    "fontes": [
+      {
+        "url": "https://diocesepontadepedras.blogspot.com/p/paroquias.html",
+        "data": "2025-08-18",
+        "o_que": "contatos"
+      },
+      {
+        "url": "https://diocesepontadepedras.blogspot.com/p/o-clero-de-nossa-diocese.html",
+        "data": "2026-08-17",
+        "o_que": "contatos"
+      }
+    ],
+    "confianca": "baixa",
+    "observacao": "Sem horário: o blog oficial da diocese (318 publicações lidas) e a página \"Paróquias\" não publicam horário de missa, e a paróquia não tem site ou perfil citado pela diocese. Matriz no distrito de São Miguel do Pracuúba (criada em 21/02/2016; matriz dedicada em 2021). Atendida pela Comunidade Católica Obra de Maria. 28 comunidades, sem lista publicada."
+  },
+  {
+    "id_banco": null,
+    "nome": "Paróquia Nossa Senhora dos Navegantes",
+    "categoria": "paroquia",
+    "cidade": "Muaná",
+    "padroeiro": "Nossa Senhora dos Navegantes",
+    "contatos": {
+      "telefone": "",
+      "whatsapp": "",
+      "instagram": "",
+      "site": "",
+      "email": ""
+    },
+    "igrejas": [
+      {
+        "id_banco": null,
+        "nome": "Igreja Matriz Nossa Senhora dos Navegantes",
+        "tipo": "matriz",
+        "cidade": "Muaná",
+        "localidade": "Vila de Ponta Negra",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade São Miguel",
+        "tipo": "comunidade",
+        "cidade": "Muaná",
+        "localidade": "Ilha Jupatituba",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade Frei Fabiano",
+        "tipo": "comunidade",
+        "cidade": "Muaná",
+        "localidade": "Ilha Frei Fabiano",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade São Raimundo Nonato",
+        "tipo": "comunidade",
+        "cidade": "Muaná",
+        "localidade": "Rio Inamaru",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade São Benedito",
+        "tipo": "comunidade",
+        "cidade": "Muaná",
+        "localidade": "Rio Inamaru",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade São José",
+        "tipo": "comunidade",
+        "cidade": "Muaná",
+        "localidade": "Rio Buiuçu",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade Imaculado Coração de Maria",
+        "tipo": "comunidade",
+        "cidade": "Muaná",
+        "localidade": "Rio Cajuúba",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade São Francisco de Assis",
+        "tipo": "comunidade",
+        "cidade": "Muaná",
+        "localidade": "Vila Jararaca",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade Nossa Senhora do Perpétuo Socorro",
+        "tipo": "comunidade",
+        "cidade": "Muaná",
+        "localidade": "Furo Jararaca",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      }
+    ],
+    "fontes": [
+      {
+        "url": "https://diocesepontadepedras.blogspot.com/p/paroquias.html",
+        "data": "2025-08-18",
+        "o_que": "contatos"
+      },
+      {
+        "url": "https://diocesepontadepedras.blogspot.com/p/o-clero-de-nossa-diocese.html",
+        "data": "2026-08-17",
+        "o_que": "contatos"
+      },
+      {
+        "url": "https://diocesepontadepedras.blogspot.com/2022/02/e-criada-quase-paroquia-nossa-senhora.html",
+        "data": "2022-02-06",
+        "o_que": "contatos"
+      },
+      {
+        "url": "https://diocesepontadepedras.blogspot.com/2023/12/quase-paroquia-nossa-senhora-dos.html",
+        "data": "2023-12-04",
+        "o_que": "contatos"
+      }
+    ],
+    "confianca": "baixa",
+    "observacao": "Sem horário: o blog oficial da diocese (318 publicações lidas) e a página \"Paróquias\" não publicam horário de missa, e a paróquia não tem site ou perfil citado pela diocese. Quase-paróquia em 06/02/2022, paróquia em 03/12/2023, na Vila de Ponta Negra (Muaná). Comunidades do decreto de 2022; hoje são 13, sem nova lista."
+  },
+  {
+    "id_banco": null,
+    "nome": "Paróquia Nossa Senhora de Nazaré",
+    "categoria": "paroquia",
+    "cidade": "Santa Cruz do Arari",
+    "padroeiro": "Nossa Senhora de Nazaré",
+    "contatos": {
+      "telefone": "",
+      "whatsapp": "",
+      "instagram": "",
+      "site": "",
+      "email": ""
+    },
+    "igrejas": [
+      {
+        "id_banco": null,
+        "nome": "Igreja Matriz Nossa Senhora de Nazaré",
+        "tipo": "matriz",
+        "cidade": "Santa Cruz do Arari",
+        "localidade": "Centro",
+        "endereco": "Rua Vicente Cruz",
+        "horarios": [],
+        "nao_cabe": ""
+      }
+    ],
+    "fontes": [
+      {
+        "url": "https://diocesepontadepedras.blogspot.com/p/paroquias.html",
+        "data": "2025-08-18",
+        "o_que": "contatos"
+      },
+      {
+        "url": "https://diocesepontadepedras.blogspot.com/p/o-clero-de-nossa-diocese.html",
+        "data": "2026-08-17",
+        "o_que": "contatos"
+      }
+    ],
+    "confianca": "baixa",
+    "observacao": "Sem horário: o blog oficial da diocese (318 publicações lidas) e a página \"Paróquias\" não publicam horário de missa, e a paróquia não tem site ou perfil citado pela diocese. 5 comunidades, sem lista publicada."
+  },
+  {
+    "id_banco": null,
+    "nome": "Paróquia São Sebastião",
+    "categoria": "paroquia",
+    "cidade": "São Sebastião da Boa Vista",
+    "padroeiro": "São Sebastião",
+    "contatos": {
+      "telefone": "",
+      "whatsapp": "",
+      "instagram": "",
+      "site": "",
+      "email": ""
+    },
+    "igrejas": [
+      {
+        "id_banco": null,
+        "nome": "Santuário Glorioso São Sebastião",
+        "tipo": "santuario",
+        "cidade": "São Sebastião da Boa Vista",
+        "localidade": "Centro",
+        "endereco": "Rua Coronel Monfredo",
+        "horarios": [],
+        "nao_cabe": ""
+      }
+    ],
+    "fontes": [
+      {
+        "url": "https://diocesepontadepedras.blogspot.com/p/paroquias.html",
+        "data": "2025-08-18",
+        "o_que": "contatos"
+      },
+      {
+        "url": "https://diocesepontadepedras.blogspot.com/p/o-clero-de-nossa-diocese.html",
+        "data": "2026-08-17",
+        "o_que": "contatos"
+      },
+      {
+        "url": "https://diocesepontadepedras.blogspot.com/2024/10/no-dia-9-de-novembro-paroquia-sao.html",
+        "data": "2024-10-09",
+        "o_que": "contatos"
+      }
+    ],
+    "confianca": "baixa",
+    "observacao": "Sem horário: o blog oficial da diocese (318 publicações lidas) e a página \"Paróquias\" não publicam horário de missa, e a paróquia não tem site ou perfil citado pela diocese. A matriz foi dedicada e elevada a Santuário Glorioso São Sebastião em 09/11/2024. 37 comunidades, sem lista publicada."
+  }
+]

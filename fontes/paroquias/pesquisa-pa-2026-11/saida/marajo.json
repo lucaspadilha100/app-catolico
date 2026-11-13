@@ -1,0 +1,1468 @@
+[
+  {
+    "id_banco": null,
+    "nome": "Paróquia Menino Deus",
+    "categoria": "catedral",
+    "cidade": "Soure",
+    "padroeiro": "Menino Deus",
+    "contatos": {
+      "telefone": "91981210851",
+      "whatsapp": "91981210851",
+      "instagram": "paroquiameninodeussoure",
+      "site": "",
+      "email": "paroquiadesoure@gmail.com"
+    },
+    "igrejas": [
+      {
+        "id_banco": null,
+        "nome": "Catedral Nossa Senhora da Consolação",
+        "tipo": "matriz",
+        "cidade": "Soure",
+        "localidade": "Centro",
+        "endereco": "Terceira Rua, entre as Travessas 16 e 17",
+        "horarios": [
+          {
+            "tipo": "missa",
+            "dia_semana": 1,
+            "hora": "06:30",
+            "semanas": null,
+            "observacao": ""
+          },
+          {
+            "tipo": "missa",
+            "dia_semana": 2,
+            "hora": "06:30",
+            "semanas": null,
+            "observacao": ""
+          },
+          {
+            "tipo": "missa",
+            "dia_semana": 3,
+            "hora": "06:30",
+            "semanas": null,
+            "observacao": ""
+          },
+          {
+            "tipo": "missa",
+            "dia_semana": 4,
+            "hora": "06:30",
+            "semanas": null,
+            "observacao": ""
+          },
+          {
+            "tipo": "missa",
+            "dia_semana": 5,
+            "hora": "06:30",
+            "semanas": null,
+            "observacao": ""
+          },
+          {
+            "tipo": "missa",
+            "dia_semana": 6,
+            "hora": "06:30",
+            "semanas": null,
+            "observacao": ""
+          },
+          {
+            "tipo": "missa",
+            "dia_semana": 0,
+            "hora": "06:30",
+            "semanas": null,
+            "observacao": ""
+          },
+          {
+            "tipo": "missa",
+            "dia_semana": 2,
+            "hora": "19:30",
+            "semanas": null,
+            "observacao": "Com novena do Perpétuo Socorro"
+          },
+          {
+            "tipo": "missa",
+            "dia_semana": 0,
+            "hora": "09:00",
+            "semanas": null,
+            "observacao": ""
+          },
+          {
+            "tipo": "missa",
+            "dia_semana": 0,
+            "hora": "19:30",
+            "semanas": null,
+            "observacao": ""
+          },
+          {
+            "tipo": "confissao",
+            "dia_semana": 5,
+            "hora": "08:30",
+            "semanas": null,
+            "observacao": "Até 11h"
+          },
+          {
+            "tipo": "confissao",
+            "dia_semana": 5,
+            "hora": "15:30",
+            "semanas": null,
+            "observacao": "Até 17h"
+          }
+        ],
+        "nao_cabe": "Domingo: o site avisa que pode ser missa ou celebração da Palavra."
+      },
+      {
+        "id_banco": null,
+        "nome": "Igreja Santa Rita",
+        "tipo": "capela",
+        "cidade": "Soure",
+        "localidade": "Macaxeira",
+        "endereco": "Terceira Rua, Travessa 23",
+        "horarios": [
+          {
+            "tipo": "missa",
+            "dia_semana": 4,
+            "hora": "18:00",
+            "semanas": [
+              1,
+              3,
+              5
+            ],
+            "observacao": ""
+          },
+          {
+            "tipo": "missa",
+            "dia_semana": 0,
+            "hora": "17:00",
+            "semanas": null,
+            "observacao": "Missa ou celebração da Palavra"
+          }
+        ],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Igreja São Sebastião",
+        "tipo": "capela",
+        "cidade": "Soure",
+        "localidade": "Pacoval",
+        "endereco": "Travessa 20, entre a 7ª e a 8ª Rua",
+        "horarios": [
+          {
+            "tipo": "missa",
+            "dia_semana": 6,
+            "hora": "19:30",
+            "semanas": null,
+            "observacao": "Com liturgia dominical"
+          }
+        ],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Igreja São Pedro",
+        "tipo": "capela",
+        "cidade": "Soure",
+        "localidade": "Umirizal",
+        "endereco": "Décima Terceira Rua, entre as Travessas 19 e 20",
+        "horarios": [
+          {
+            "tipo": "missa",
+            "dia_semana": 5,
+            "hora": "18:00",
+            "semanas": [
+              3
+            ],
+            "observacao": ""
+          },
+          {
+            "tipo": "missa",
+            "dia_semana": 0,
+            "hora": "09:00",
+            "semanas": null,
+            "observacao": "Missa ou celebração da Palavra"
+          }
+        ],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Igreja São Miguel",
+        "tipo": "capela",
+        "cidade": "Soure",
+        "localidade": "Matinha",
+        "endereco": "Décima Rua, esquina com a Travessa 9",
+        "horarios": [
+          {
+            "tipo": "missa",
+            "dia_semana": 5,
+            "hora": "18:00",
+            "semanas": [
+              4
+            ],
+            "observacao": ""
+          },
+          {
+            "tipo": "missa",
+            "dia_semana": 0,
+            "hora": "07:30",
+            "semanas": null,
+            "observacao": "Missa ou celebração da Palavra"
+          }
+        ],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Igreja São José",
+        "tipo": "capela",
+        "cidade": "Soure",
+        "localidade": "São Pedro",
+        "endereco": "Quinta Rua, entre as Travessas 6 e 7",
+        "horarios": [
+          {
+            "tipo": "missa",
+            "dia_semana": 3,
+            "hora": "19:00",
+            "semanas": [
+              1
+            ],
+            "observacao": ""
+          },
+          {
+            "tipo": "missa",
+            "dia_semana": 0,
+            "hora": "07:30",
+            "semanas": null,
+            "observacao": "Missa ou celebração da Palavra"
+          }
+        ],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Igreja Nossa Senhora das Graças",
+        "tipo": "capela",
+        "cidade": "Soure",
+        "localidade": "Quinta Rua",
+        "endereco": "Quinta Rua, perto da Rodovia Soure-Pesqueiro",
+        "horarios": [
+          {
+            "tipo": "missa",
+            "dia_semana": 4,
+            "hora": "18:00",
+            "semanas": [
+              2,
+              4
+            ],
+            "observacao": ""
+          },
+          {
+            "tipo": "missa",
+            "dia_semana": 0,
+            "hora": "09:00",
+            "semanas": null,
+            "observacao": "Missa ou celebração da Palavra"
+          }
+        ],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Igreja Santa Ana",
+        "tipo": "capela",
+        "cidade": "Soure",
+        "localidade": "Tucumanduba",
+        "endereco": "Rodovia Soure-Pesqueiro",
+        "horarios": [
+          {
+            "tipo": "missa",
+            "dia_semana": 5,
+            "hora": "18:00",
+            "semanas": [
+              2
+            ],
+            "observacao": ""
+          },
+          {
+            "tipo": "missa",
+            "dia_semana": 0,
+            "hora": "09:00",
+            "semanas": null,
+            "observacao": "Missa ou celebração da Palavra"
+          }
+        ],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Igreja Nossa Senhora da Conceição",
+        "tipo": "capela",
+        "cidade": "Soure",
+        "localidade": "Vila da Alegria, Bairro Novo",
+        "endereco": "",
+        "horarios": [
+          {
+            "tipo": "missa",
+            "dia_semana": 5,
+            "hora": "18:00",
+            "semanas": [
+              1
+            ],
+            "observacao": ""
+          },
+          {
+            "tipo": "missa",
+            "dia_semana": 0,
+            "hora": "09:00",
+            "semanas": null,
+            "observacao": "Missa ou celebração da Palavra"
+          }
+        ],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Igreja Nossa Senhora Aparecida",
+        "tipo": "capela",
+        "cidade": "Soure",
+        "localidade": "Vila do Pedral",
+        "endereco": "",
+        "horarios": [
+          {
+            "tipo": "missa",
+            "dia_semana": 6,
+            "hora": "16:00",
+            "semanas": [
+              1
+            ],
+            "observacao": "Com liturgia dominical"
+          }
+        ],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Igreja Santa Luzia",
+        "tipo": "capela",
+        "cidade": "Soure",
+        "localidade": "Pesqueiro",
+        "endereco": "",
+        "horarios": [
+          {
+            "tipo": "missa",
+            "dia_semana": 6,
+            "hora": "18:00",
+            "semanas": [
+              2
+            ],
+            "observacao": "Com liturgia dominical"
+          }
+        ],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Igreja São Sebastião",
+        "tipo": "capela",
+        "cidade": "Soure",
+        "localidade": "Caju-Una",
+        "endereco": "",
+        "horarios": [
+          {
+            "tipo": "missa",
+            "dia_semana": 6,
+            "hora": "16:00",
+            "semanas": [
+              3
+            ],
+            "observacao": "Com liturgia dominical"
+          }
+        ],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Igreja Santa Maria",
+        "tipo": "capela",
+        "cidade": "Soure",
+        "localidade": "Céu",
+        "endereco": "",
+        "horarios": [
+          {
+            "tipo": "missa",
+            "dia_semana": 6,
+            "hora": "16:00",
+            "semanas": [
+              4
+            ],
+            "observacao": "Com liturgia dominical"
+          }
+        ],
+        "nao_cabe": ""
+      }
+    ],
+    "fontes": [
+      {
+        "url": "https://www.prelaziadomarajo.com/paroquia-menino-deus-soure",
+        "data": "",
+        "o_que": "horarios"
+      }
+    ],
+    "confianca": "alta",
+    "observacao": "Sede da prelazia; a matriz é a Catedral Nossa Senhora da Consolação. Secretaria na Terceira Rua, 1428. A prelazia não publica foranias. Página sem data, atualizada depois de maio de 2025 (vigário ordenado então)."
+  },
+  {
+    "id_banco": null,
+    "nome": "Paróquia Nossa Senhora da Conceição",
+    "categoria": "paroquia",
+    "cidade": "Salvaterra",
+    "padroeiro": "Nossa Senhora da Conceição",
+    "contatos": {
+      "telefone": "91993670258",
+      "whatsapp": "91993670258",
+      "instagram": "paroquiasalvaterra",
+      "site": "",
+      "email": "pascomsvt@gmail.com"
+    },
+    "igrejas": [
+      {
+        "id_banco": null,
+        "nome": "Igreja Matriz Nossa Senhora da Conceição",
+        "tipo": "matriz",
+        "cidade": "Salvaterra",
+        "localidade": "Centro",
+        "endereco": "5ª Rua Frei Romão, 148",
+        "horarios": [
+          {
+            "tipo": "missa",
+            "dia_semana": 2,
+            "hora": "07:00",
+            "semanas": null,
+            "observacao": ""
+          },
+          {
+            "tipo": "missa",
+            "dia_semana": 3,
+            "hora": "07:00",
+            "semanas": null,
+            "observacao": ""
+          },
+          {
+            "tipo": "missa",
+            "dia_semana": 5,
+            "hora": "07:00",
+            "semanas": null,
+            "observacao": ""
+          },
+          {
+            "tipo": "missa",
+            "dia_semana": 0,
+            "hora": "08:30",
+            "semanas": null,
+            "observacao": ""
+          },
+          {
+            "tipo": "missa",
+            "dia_semana": 0,
+            "hora": "19:00",
+            "semanas": null,
+            "observacao": ""
+          }
+        ],
+        "nao_cabe": "Segunda-feira, 19h: missa na \"Igreja da 1ª Rua\"."
+      }
+    ],
+    "fontes": [
+      {
+        "url": "https://www.prelaziadomarajo.com/paroquia-nossa-senhora-da-conceicao-salvaterra",
+        "data": "",
+        "o_que": "horarios"
+      }
+    ],
+    "confianca": "alta",
+    "observacao": "Paróquia dos agostinianos recoletos (criada em 06/11/1949). O GCatholic lista também as igrejas N. Sra. das Dores e Santa Rita em Salvaterra. A prelazia não publica foranias."
+  },
+  {
+    "id_banco": null,
+    "nome": "Paróquia Sant’Ana",
+    "categoria": "paroquia",
+    "cidade": "Breves",
+    "padroeiro": "Sant’Ana",
+    "contatos": {
+      "telefone": "",
+      "whatsapp": "",
+      "instagram": "",
+      "site": "",
+      "email": ""
+    },
+    "igrejas": [
+      {
+        "id_banco": null,
+        "nome": "Igreja Matriz Sant’Ana",
+        "tipo": "matriz",
+        "cidade": "Breves",
+        "localidade": "",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      }
+    ],
+    "fontes": [
+      {
+        "url": "https://www.prelaziadomarajo.com/paroquias",
+        "data": "",
+        "o_que": "contatos"
+      },
+      {
+        "url": "https://gcatholic.org/churches/local/mara4",
+        "data": "2026-11-09",
+        "o_que": "contatos"
+      }
+    ],
+    "confianca": "baixa",
+    "observacao": "Sem horário: o site da prelazia lista a paróquia, mas ainda não tem página dela, e não cita perfil nem telefone. A Igreja Matriz Sant’Ana foi a igreja jubilar de 2025 (notícia do Conselho de Pastoral). A prelazia não publica foranias."
+  },
+  {
+    "id_banco": null,
+    "nome": "Paróquia São José e Santa Teresinha do Menino Jesus",
+    "categoria": "paroquia",
+    "cidade": "Breves",
+    "padroeiro": "São José e Santa Teresinha do Menino Jesus",
+    "contatos": {
+      "telefone": "91985057338",
+      "whatsapp": "91985057338",
+      "instagram": "saojoseesantaterezinhabreves",
+      "site": "",
+      "email": "paroquiamarajoara.s.jose@gmail.com"
+    },
+    "igrejas": [
+      {
+        "id_banco": null,
+        "nome": "Igreja Matriz São José e Santa Teresinha",
+        "tipo": "matriz",
+        "cidade": "Breves",
+        "localidade": "Cidade Nova II",
+        "endereco": "Rua Coronel Lourenço Borges",
+        "horarios": [
+          {
+            "tipo": "missa",
+            "dia_semana": 3,
+            "hora": "18:00",
+            "semanas": null,
+            "observacao": ""
+          },
+          {
+            "tipo": "missa",
+            "dia_semana": 4,
+            "hora": "19:00",
+            "semanas": null,
+            "observacao": "Missa pelos benfeitores"
+          },
+          {
+            "tipo": "missa",
+            "dia_semana": 0,
+            "hora": "07:30",
+            "semanas": null,
+            "observacao": ""
+          },
+          {
+            "tipo": "missa",
+            "dia_semana": 0,
+            "hora": "18:00",
+            "semanas": null,
+            "observacao": ""
+          },
+          {
+            "tipo": "adoracao",
+            "dia_semana": 4,
+            "hora": "15:00",
+            "semanas": null,
+            "observacao": "Hora da Graça, até 18h30"
+          },
+          {
+            "tipo": "adoracao",
+            "dia_semana": 4,
+            "hora": "19:00",
+            "semanas": null,
+            "observacao": ""
+          }
+        ],
+        "nao_cabe": "Missas no salão paroquial enquanto a nova matriz é construída. Outras missas, em igrejas sem endereço no site: Igreja Santa Rita (quarta 19h; domingo 9h e 18h; 1ª sexta 7h), Igreja São Benedito (sexta 18h; sábado 7h; domingo 6h30 e 19h30), Igreja São Francisco (sábado 19h), Igreja São João Batista (domingo 8h30), Escola Maria Rafols (terça 17h30), Hospital Regional (quinta 9h). Confissões de quarta a sexta, sem hora."
+      }
+    ],
+    "fontes": [
+      {
+        "url": "https://www.prelaziadomarajo.com/paroquia-sao-jose-e-santa-terezinha-breves",
+        "data": "2025",
+        "o_que": "horarios"
+      }
+    ],
+    "confianca": "alta",
+    "observacao": "Paróquia criada em 04/02/2012, confiada à Comunidade Missionária Providência Santíssima. A prelazia não publica foranias."
+  },
+  {
+    "id_banco": null,
+    "nome": "Paróquia Menino Deus",
+    "categoria": "paroquia",
+    "cidade": "Anajás",
+    "padroeiro": "Menino Deus",
+    "contatos": {
+      "telefone": "",
+      "whatsapp": "",
+      "instagram": "anajaspascom",
+      "site": "",
+      "email": "paroquiamdanajas@gmail.com"
+    },
+    "igrejas": [
+      {
+        "id_banco": null,
+        "nome": "Igreja Matriz Menino Deus",
+        "tipo": "matriz",
+        "cidade": "Anajás",
+        "localidade": "Centro",
+        "endereco": "Rua Manoel Vieira",
+        "horarios": [
+          {
+            "tipo": "missa",
+            "dia_semana": 1,
+            "hora": "18:00",
+            "semanas": null,
+            "observacao": ""
+          },
+          {
+            "tipo": "missa",
+            "dia_semana": 3,
+            "hora": "19:30",
+            "semanas": null,
+            "observacao": ""
+          },
+          {
+            "tipo": "missa",
+            "dia_semana": 6,
+            "hora": "07:00",
+            "semanas": null,
+            "observacao": ""
+          },
+          {
+            "tipo": "missa",
+            "dia_semana": 0,
+            "hora": "07:00",
+            "semanas": null,
+            "observacao": ""
+          },
+          {
+            "tipo": "missa",
+            "dia_semana": 0,
+            "hora": "19:30",
+            "semanas": null,
+            "observacao": ""
+          }
+        ],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade São Benedito",
+        "tipo": "comunidade",
+        "cidade": "Anajás",
+        "localidade": "Fazendão",
+        "endereco": "Travessa Gramison Cavalcante",
+        "horarios": [
+          {
+            "tipo": "missa",
+            "dia_semana": 2,
+            "hora": "18:00",
+            "semanas": null,
+            "observacao": ""
+          },
+          {
+            "tipo": "missa",
+            "dia_semana": 0,
+            "hora": "09:00",
+            "semanas": null,
+            "observacao": ""
+          }
+        ],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade Nossa Senhora de Fátima",
+        "tipo": "comunidade",
+        "cidade": "Anajás",
+        "localidade": "Cidade Nova I",
+        "endereco": "Travessa Flamengo",
+        "horarios": [
+          {
+            "tipo": "missa",
+            "dia_semana": 3,
+            "hora": "18:00",
+            "semanas": null,
+            "observacao": ""
+          },
+          {
+            "tipo": "missa",
+            "dia_semana": 0,
+            "hora": "17:00",
+            "semanas": null,
+            "observacao": ""
+          }
+        ],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade São José",
+        "tipo": "comunidade",
+        "cidade": "Anajás",
+        "localidade": "Açaizal",
+        "endereco": "Sexta Travessa",
+        "horarios": [
+          {
+            "tipo": "missa",
+            "dia_semana": 5,
+            "hora": "18:00",
+            "semanas": null,
+            "observacao": ""
+          },
+          {
+            "tipo": "missa",
+            "dia_semana": 0,
+            "hora": "08:00",
+            "semanas": null,
+            "observacao": ""
+          }
+        ],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade Santa Ana",
+        "tipo": "comunidade",
+        "cidade": "Anajás",
+        "localidade": "Prainha",
+        "endereco": "Rua Álvaro Paiva",
+        "horarios": [
+          {
+            "tipo": "missa",
+            "dia_semana": 6,
+            "hora": "19:00",
+            "semanas": null,
+            "observacao": "Com liturgia dominical"
+          }
+        ],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade Santo Expedito",
+        "tipo": "comunidade",
+        "cidade": "Anajás",
+        "localidade": "Fazendão",
+        "endereco": "Travessa Manoel Gonçalves",
+        "horarios": [
+          {
+            "tipo": "missa",
+            "dia_semana": 4,
+            "hora": "18:00",
+            "semanas": null,
+            "observacao": ""
+          },
+          {
+            "tipo": "missa",
+            "dia_semana": 0,
+            "hora": "17:00",
+            "semanas": null,
+            "observacao": ""
+          }
+        ],
+        "nao_cabe": ""
+      }
+    ],
+    "fontes": [
+      {
+        "url": "https://www.prelaziadomarajo.com/paroquia-menino-deus-anajas",
+        "data": "",
+        "o_que": "horarios"
+      }
+    ],
+    "confianca": "alta",
+    "observacao": "Telefone \"em breve\" no site da prelazia. Instagram e Facebook da Pascom Anajás citados pela página. A prelazia não publica foranias."
+  },
+  {
+    "id_banco": null,
+    "nome": "Paróquia São Miguel Arcanjo",
+    "categoria": "paroquia",
+    "cidade": "Melgaço",
+    "padroeiro": "São Miguel Arcanjo",
+    "contatos": {
+      "telefone": "91993692240",
+      "whatsapp": "91993692240",
+      "instagram": "arcanjomelgacense",
+      "site": "",
+      "email": "arcanjomelgacense@hotmail.com"
+    },
+    "igrejas": [
+      {
+        "id_banco": null,
+        "nome": "Igreja Matriz São Miguel Arcanjo",
+        "tipo": "matriz",
+        "cidade": "Melgaço",
+        "localidade": "Centro",
+        "endereco": "Avenida Senador Lemos",
+        "horarios": [
+          {
+            "tipo": "missa",
+            "dia_semana": 1,
+            "hora": "19:00",
+            "semanas": null,
+            "observacao": "Com novena a São Miguel Arcanjo"
+          },
+          {
+            "tipo": "missa",
+            "dia_semana": 4,
+            "hora": "19:00",
+            "semanas": null,
+            "observacao": ""
+          },
+          {
+            "tipo": "missa",
+            "dia_semana": 6,
+            "hora": "07:00",
+            "semanas": null,
+            "observacao": ""
+          },
+          {
+            "tipo": "missa",
+            "dia_semana": 0,
+            "hora": "10:00",
+            "semanas": null,
+            "observacao": "Missa com crianças"
+          },
+          {
+            "tipo": "missa",
+            "dia_semana": 0,
+            "hora": "19:30",
+            "semanas": null,
+            "observacao": "Missa com a juventude"
+          },
+          {
+            "tipo": "adoracao",
+            "dia_semana": 4,
+            "hora": "19:00",
+            "semanas": null,
+            "observacao": ""
+          }
+        ],
+        "nao_cabe": "Último sábado do mês, 8h: missa dos idosos."
+      },
+      {
+        "id_banco": null,
+        "nome": "Igreja Mãe da Divina Graça",
+        "tipo": "capela",
+        "cidade": "Melgaço",
+        "localidade": "Centro",
+        "endereco": "Rua 7 de Setembro",
+        "horarios": [
+          {
+            "tipo": "missa",
+            "dia_semana": 3,
+            "hora": "19:00",
+            "semanas": null,
+            "observacao": "Com novena do Perpétuo Socorro"
+          },
+          {
+            "tipo": "missa",
+            "dia_semana": 0,
+            "hora": "07:00",
+            "semanas": null,
+            "observacao": ""
+          }
+        ],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Igreja do Sagrado Coração de Jesus",
+        "tipo": "capela",
+        "cidade": "Melgaço",
+        "localidade": "Tucumã",
+        "endereco": "Rua Bena Venuto Nogueira",
+        "horarios": [
+          {
+            "tipo": "missa",
+            "dia_semana": 5,
+            "hora": "19:00",
+            "semanas": null,
+            "observacao": "Com novena ao Sagrado Coração"
+          },
+          {
+            "tipo": "missa",
+            "dia_semana": 0,
+            "hora": "08:30",
+            "semanas": null,
+            "observacao": ""
+          }
+        ],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Igreja São Pedro",
+        "tipo": "capela",
+        "cidade": "Melgaço",
+        "localidade": "Estrada do Moconha",
+        "endereco": "",
+        "horarios": [
+          {
+            "tipo": "missa",
+            "dia_semana": 2,
+            "hora": "19:00",
+            "semanas": null,
+            "observacao": "Com novena a São Pedro"
+          },
+          {
+            "tipo": "missa",
+            "dia_semana": 6,
+            "hora": "19:00",
+            "semanas": null,
+            "observacao": "Com liturgia dominical"
+          }
+        ],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade Nossa Senhora das Graças",
+        "tipo": "comunidade",
+        "cidade": "Melgaço",
+        "localidade": "Campinas",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade Nossa Senhora das Graças",
+        "tipo": "comunidade",
+        "cidade": "Melgaço",
+        "localidade": "Carutá",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade São Miguel Arcanjo",
+        "tipo": "comunidade",
+        "cidade": "Melgaço",
+        "localidade": "Tajapuru Grande",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade Santa Luzia",
+        "tipo": "comunidade",
+        "cidade": "Melgaço",
+        "localidade": "Campinas",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade Santo Expedito",
+        "tipo": "comunidade",
+        "cidade": "Melgaço",
+        "localidade": "Mugirum",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade São Sebastião",
+        "tipo": "comunidade",
+        "cidade": "Melgaço",
+        "localidade": "Cacoau",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade Nossa Senhora do Desterro",
+        "tipo": "comunidade",
+        "cidade": "Melgaço",
+        "localidade": "Tajapuru Grande",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade Nossa Senhora do Perpétuo Socorro",
+        "tipo": "comunidade",
+        "cidade": "Melgaço",
+        "localidade": "Conceição",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade Santo Antônio",
+        "tipo": "comunidade",
+        "cidade": "Melgaço",
+        "localidade": "Tajapuru Grande",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade São Francisco",
+        "tipo": "comunidade",
+        "cidade": "Melgaço",
+        "localidade": "Iraju",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade São Sebastião",
+        "tipo": "comunidade",
+        "cidade": "Melgaço",
+        "localidade": "Tajapuruzinho",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade Nossa Senhora do Perpétuo Socorro",
+        "tipo": "comunidade",
+        "cidade": "Melgaço",
+        "localidade": "Caquajó",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade Santa Rita de Cássia",
+        "tipo": "comunidade",
+        "cidade": "Melgaço",
+        "localidade": "Caquajó",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade São José",
+        "tipo": "comunidade",
+        "cidade": "Melgaço",
+        "localidade": "Maparí",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade São Raimundo",
+        "tipo": "comunidade",
+        "cidade": "Melgaço",
+        "localidade": "Caquajó",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade São Tomé",
+        "tipo": "comunidade",
+        "cidade": "Melgaço",
+        "localidade": "Maparí",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade São Miguel Arcanjo",
+        "tipo": "comunidade",
+        "cidade": "Melgaço",
+        "localidade": "Laguna",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade Santa Luzia",
+        "tipo": "comunidade",
+        "cidade": "Melgaço",
+        "localidade": "Boca do Tucunaré",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade São João Paulo II",
+        "tipo": "comunidade",
+        "cidade": "Melgaço",
+        "localidade": "Laguna",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade Santa Maria",
+        "tipo": "comunidade",
+        "cidade": "Melgaço",
+        "localidade": "Laguna",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade Divino Espírito Santo",
+        "tipo": "comunidade",
+        "cidade": "Melgaço",
+        "localidade": "Anapu, Paricatuba",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade Nossa Senhora de Nazaré",
+        "tipo": "comunidade",
+        "cidade": "Melgaço",
+        "localidade": "Anapu, Antim",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade Nossa Senhora do Livramento",
+        "tipo": "comunidade",
+        "cidade": "Melgaço",
+        "localidade": "Anapu",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade Nossa Senhora do Perpétuo Socorro",
+        "tipo": "comunidade",
+        "cidade": "Melgaço",
+        "localidade": "Anapu, Boa Vista",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade Santa Maria",
+        "tipo": "comunidade",
+        "cidade": "Melgaço",
+        "localidade": "Anapu",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade Nossa Senhora do Perpétuo Socorro",
+        "tipo": "comunidade",
+        "cidade": "Melgaço",
+        "localidade": "Estreito do Anapu",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade Santa Ana",
+        "tipo": "comunidade",
+        "cidade": "Melgaço",
+        "localidade": "Curupaú",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade Santa Luzia",
+        "tipo": "comunidade",
+        "cidade": "Melgaço",
+        "localidade": "Anapu",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade São Benedito",
+        "tipo": "comunidade",
+        "cidade": "Melgaço",
+        "localidade": "Anapu",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade São Francisco",
+        "tipo": "comunidade",
+        "cidade": "Melgaço",
+        "localidade": "Arienga",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade Menino Deus",
+        "tipo": "comunidade",
+        "cidade": "Melgaço",
+        "localidade": "Pracupijó",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade Nossa Senhora da Conceição",
+        "tipo": "comunidade",
+        "cidade": "Melgaço",
+        "localidade": "Curupaú",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade Nossa Senhora da Conceição",
+        "tipo": "comunidade",
+        "cidade": "Melgaço",
+        "localidade": "Pracupijó",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade Santo Antônio",
+        "tipo": "comunidade",
+        "cidade": "Melgaço",
+        "localidade": "Mamangal",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade São Sebastião",
+        "tipo": "comunidade",
+        "cidade": "Melgaço",
+        "localidade": "Caxiuanã",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      },
+      {
+        "id_banco": null,
+        "nome": "Comunidade São Sebastião",
+        "tipo": "comunidade",
+        "cidade": "Melgaço",
+        "localidade": "Tauarí",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      }
+    ],
+    "fontes": [
+      {
+        "url": "https://www.prelaziadomarajo.com/paroquia-sao-miguel-arcanjo-melgaco",
+        "data": "",
+        "o_que": "horarios"
+      },
+      {
+        "url": "https://www.prelaziadomarajo.com/prelazia-do-marajo-anuncia-novos-paroco-e-vigario-para-a-paroquia-sao-miguel-arcanjo-em-melgaco-pa",
+        "data": "2025-07-11",
+        "o_que": "contatos"
+      }
+    ],
+    "confianca": "alta",
+    "observacao": "Página atualizada depois de outubro de 2025 (pároco novo). Comunidades ribeirinhas em 7 setores (Campinas, Tajapuru Grande, Maparí Grande, Laguna e três do Anapu). A prelazia não publica foranias."
+  },
+  {
+    "id_banco": null,
+    "nome": "Paróquia Nossa Senhora da Luz",
+    "categoria": "paroquia",
+    "cidade": "Portel",
+    "padroeiro": "Nossa Senhora da Luz",
+    "contatos": {
+      "telefone": "",
+      "whatsapp": "",
+      "instagram": "",
+      "site": "",
+      "email": ""
+    },
+    "igrejas": [
+      {
+        "id_banco": null,
+        "nome": "Igreja Matriz Nossa Senhora da Luz",
+        "tipo": "matriz",
+        "cidade": "Portel",
+        "localidade": "",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      }
+    ],
+    "fontes": [
+      {
+        "url": "https://www.prelaziadomarajo.com/paroquias",
+        "data": "",
+        "o_que": "contatos"
+      },
+      {
+        "url": "https://gcatholic.org/churches/local/mara4",
+        "data": "2026-11-09",
+        "o_que": "contatos"
+      }
+    ],
+    "confianca": "baixa",
+    "observacao": "Sem horário: o site da prelazia lista a paróquia, mas ainda não tem página dela, e não cita perfil nem telefone. Pároco agostiniano recoleto empossado em 18/01/2026 (notícia da prelazia). A prelazia não publica foranias."
+  },
+  {
+    "id_banco": null,
+    "nome": "Paróquia Santa Maria",
+    "categoria": "paroquia",
+    "cidade": "Bagre",
+    "padroeiro": "Santa Maria",
+    "contatos": {
+      "telefone": "",
+      "whatsapp": "",
+      "instagram": "",
+      "site": "",
+      "email": ""
+    },
+    "igrejas": [
+      {
+        "id_banco": null,
+        "nome": "Igreja Matriz Santa Maria",
+        "tipo": "matriz",
+        "cidade": "Bagre",
+        "localidade": "",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      }
+    ],
+    "fontes": [
+      {
+        "url": "https://www.prelaziadomarajo.com/paroquias",
+        "data": "",
+        "o_que": "contatos"
+      },
+      {
+        "url": "https://gcatholic.org/churches/local/mara4",
+        "data": "2026-11-09",
+        "o_que": "contatos"
+      }
+    ],
+    "confianca": "baixa",
+    "observacao": "Sem horário: o site da prelazia lista a paróquia, mas ainda não tem página dela, e não cita perfil nem telefone. A prelazia não publica foranias."
+  },
+  {
+    "id_banco": null,
+    "nome": "Paróquia Nossa Senhora da Conceição",
+    "categoria": "paroquia",
+    "cidade": "Afuá",
+    "padroeiro": "Nossa Senhora da Conceição",
+    "contatos": {
+      "telefone": "",
+      "whatsapp": "",
+      "instagram": "",
+      "site": "",
+      "email": ""
+    },
+    "igrejas": [
+      {
+        "id_banco": null,
+        "nome": "Igreja Matriz Nossa Senhora da Conceição",
+        "tipo": "matriz",
+        "cidade": "Afuá",
+        "localidade": "",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      }
+    ],
+    "fontes": [
+      {
+        "url": "https://www.prelaziadomarajo.com/paroquias",
+        "data": "",
+        "o_que": "contatos"
+      },
+      {
+        "url": "https://gcatholic.org/churches/local/mara4",
+        "data": "2026-11-09",
+        "o_que": "contatos"
+      }
+    ],
+    "confianca": "baixa",
+    "observacao": "Sem horário: o site da prelazia lista a paróquia, mas ainda não tem página dela, e não cita perfil nem telefone. Vigário nomeado em outubro de 2025 (notícia da prelazia). A prelazia não publica foranias."
+  },
+  {
+    "id_banco": null,
+    "nome": "Paróquia Santo Antônio",
+    "categoria": "paroquia",
+    "cidade": "Chaves",
+    "padroeiro": "Santo Antônio",
+    "contatos": {
+      "telefone": "",
+      "whatsapp": "",
+      "instagram": "",
+      "site": "",
+      "email": ""
+    },
+    "igrejas": [
+      {
+        "id_banco": null,
+        "nome": "Igreja Matriz Santo Antônio",
+        "tipo": "matriz",
+        "cidade": "Chaves",
+        "localidade": "",
+        "endereco": "",
+        "horarios": [],
+        "nao_cabe": ""
+      }
+    ],
+    "fontes": [
+      {
+        "url": "https://www.prelaziadomarajo.com/paroquias",
+        "data": "",
+        "o_que": "contatos"
+      },
+      {
+        "url": "https://gcatholic.org/churches/local/mara4",
+        "data": "2026-11-09",
+        "o_que": "contatos"
+      }
+    ],
+    "confianca": "baixa",
+    "observacao": "Sem horário: o site da prelazia lista a paróquia, mas ainda não tem página dela, e não cita perfil nem telefone. A prelazia não publica foranias."
+  }
+]

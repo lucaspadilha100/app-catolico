@@ -1,0 +1,1795 @@
+[
+ {
+  "id_banco": null,
+  "nome": "Catedral Nossa Senhora de Fátima",
+  "categoria": "catedral",
+  "cidade": "Paulo Afonso",
+  "padroeiro": "Nossa Senhora de Fátima",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Catedral Nossa Senhora de Fátima",
+    "tipo": "matriz",
+    "cidade": "Paulo Afonso",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Comunidades urbanas (decreto de 25/05/2025, sem bairro): Mãe Rainha, N. Sra. Aparecida, N. Sra. da Conceição, N. Sra. da Saúde, N. Sra. das Graças, Santa Luzia, Santa Rita, Santa Terezinha, Santo Antônio, Santo Expedito, São Cristóvão, São João, São José, São Judas Tadeu, São Sebastião e N. Sra. das Dores."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepauloafonso.com/api/trpc/paroquias.list",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedepauloafonso.com/noticias/decreto-sob-protocolo-no-003-91-reestruturacao-da-paroquia-se-catedral-nossa-senhora-de-fatima",
+    "data": "2025-07-15",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania I, São Francisco de Assis. Sem horário publicado: a lista de paróquias do site da diocese não traz horário para esta unidade. Paróquia Sé Catedral erigida em 01/03/1991; território com as Vilas São Francisco e Nobre (decreto de reestruturação de 2025)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Francisco de Assis",
+  "categoria": "paroquia",
+  "cidade": "Paulo Afonso",
+  "padroeiro": "São Francisco de Assis",
+  "contatos": {
+   "telefone": "7532811903",
+   "whatsapp": "",
+   "instagram": "parsafranciscopaf",
+   "site": "",
+   "email": "paroquiasaofranciscopa@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Francisco de Assis",
+    "tipo": "matriz",
+    "cidade": "Paulo Afonso",
+    "localidade": "Alves de Souza",
+    "endereco": "Rua da Gangorra, s/n, CEP 48608-240",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Comunidade urbana São Lourenço e 14 comunidades rurais (decreto de 2025, sem o povoado de cada uma)."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepauloafonso.com/api/trpc/paroquias.list",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedepauloafonso.com/noticias/decreto-sob-protocolo-no-059-59-decreto-de-reestruturacao-da-paroquia-sao-francisco-de-assis",
+    "data": "2025-07-15",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedepauloafonso.com/noticias/paroquia-sao-francisco-em-paulo-afonso-festeja-seu-padroeiro-a-partir-de-25-de-setembro",
+    "data": "2021-09-24",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania I, São Francisco de Assis. Paróquia mais antiga de Paulo Afonso (1959). Instagram citado em notícia da diocese de 2021."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Perpétuo Socorro",
+  "categoria": "paroquia",
+  "cidade": "Paulo Afonso",
+  "padroeiro": "Nossa Senhora do Perpétuo Socorro",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Perpétuo Socorro",
+    "tipo": "matriz",
+    "cidade": "Paulo Afonso",
+    "localidade": "Perpétuo Socorro",
+    "endereco": "Rua Vereador José Moreira",
+    "horarios": [],
+    "nao_cabe": "Comunidades urbanas (decreto de 2025, sem bairro): São Vicente, São José de Anchieta, N. Sra. das Graças, São Frei Galvão, São José Operário e N. Sra. de Guadalupe."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepauloafonso.com/api/trpc/paroquias.list",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedepauloafonso.com/noticias/decreto-sob-protocolo-no-003-91-reestruturacao-da-paroquia-nossa-senhora-do-perpetuo-socorro",
+    "data": "2025-07-15",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania I, São Francisco de Assis. Sem horário publicado: a lista de paróquias do site da diocese não traz horário para esta unidade."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sagrada Família",
+  "categoria": "paroquia",
+  "cidade": "Paulo Afonso",
+  "padroeiro": "Sagrada Família",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Sagrada Família",
+    "tipo": "matriz",
+    "cidade": "Paulo Afonso",
+    "localidade": "Tancredo Neves II",
+    "endereco": "Rua Verdes Campos, 469",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Comunidades urbanas (decreto de 2025, sem bairro): N. Sra. das Graças, N. Sra. das Dores, N. Sra. da Saúde, N. Sra. Rosa Mística, N. Sra. Mãe de Misericórdia, Santo Antônio, Santa Inês, Santa Dulce dos Pobres, Mãe Rainha, Santo Expedito, São José e São Tarcísio."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepauloafonso.com/api/trpc/paroquias.list",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedepauloafonso.com/noticias/decreto-sob-protocolo-no-004-91-reestruturacao-da-paroquia-sagrada-familia",
+    "data": "2025-07-15",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Forania I, São Francisco de Assis. A diocese só publica os horários de domingo."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sagrado Coração de Jesus",
+  "categoria": "paroquia",
+  "cidade": "Paulo Afonso",
+  "padroeiro": "Sagrado Coração de Jesus",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Sagrado Coração de Jesus",
+    "tipo": "matriz",
+    "cidade": "Paulo Afonso",
+    "localidade": "Centenário",
+    "endereco": "Av. Boa Esperança",
+    "horarios": [],
+    "nao_cabe": "Comunidades urbanas (decreto de 2025, sem bairro): Santa Clara, Mãe Rainha, N. Sra. de Lourdes e a Capela do Cemitério Municipal Padre Lourenço Tori."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepauloafonso.com/api/trpc/paroquias.list",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedepauloafonso.com/noticias/decreto-sob-protocolo-no-012-22-reestruturacao-da-paroquia-sagrado-coracao-de-jesus",
+    "data": "2025-07-15",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedepauloafonso.com/noticias/elevacao-canonica-da-paroquia-sagrado-coracao-de-jesus-no-bairro-centenario-em-paulo-afonso-ba",
+    "data": "2022-03-14",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania I, São Francisco de Assis. Sem horário publicado: a lista de paróquias do site da diocese não traz horário para esta unidade. Erigida em 13/03/2022."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Conceição Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Paulo Afonso",
+  "padroeiro": "Nossa Senhora da Conceição Aparecida",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "pascom_aparecida_",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Conceição Aparecida",
+    "tipo": "matriz",
+    "cidade": "Paulo Afonso",
+    "localidade": "Rodoviários",
+    "endereco": "Rua São Paulo",
+    "horarios": [],
+    "nao_cabe": "Outras comunidades rurais do decreto de 2025, sem povoado: Imaculada Conceição, N. Sra. Aparecida, N. Sra. da Saúde, Santo Antônio, São José, Santa Rita de Cássia, São Lázaro, Santa Luzia, N. Sra. da Conceição."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Expedito",
+    "tipo": "comunidade",
+    "cidade": "Paulo Afonso",
+    "localidade": "Sítio do Lúcio",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora das Dores",
+    "tipo": "comunidade",
+    "cidade": "Paulo Afonso",
+    "localidade": "Baixa Verde",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Fátima",
+    "tipo": "comunidade",
+    "cidade": "Paulo Afonso",
+    "localidade": "Bogó",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Menino Jesus",
+    "tipo": "comunidade",
+    "cidade": "Paulo Afonso",
+    "localidade": "Xingozinho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco de Assis",
+    "tipo": "comunidade",
+    "cidade": "Paulo Afonso",
+    "localidade": "DNER",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Terezinha",
+    "tipo": "comunidade",
+    "cidade": "Paulo Afonso",
+    "localidade": "PA IV",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepauloafonso.com/api/trpc/paroquias.list",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedepauloafonso.com/noticias/decreto-sob-protocolo-no-021-22-reestruturacao-da-paroquia-nossa-senhora-da-conceicao-aparecida",
+    "data": "2025-07-15",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedepauloafonso.com/noticias/elevacao-canonica-da-paroquia-de-na-sra-aparecida-no-bairro-rodoviarios-em-paulo-afonso-ba",
+    "data": "2022-03-12",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedepauloafonso.com/noticias/quase-paroquia-de-nossa-senhora-aparecida-no-bairro-dos-rodoviarios-em-paulo-afonso-ba-celebra-novenario-neste-ano-de-2021",
+    "data": "2021-10-04",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania I, São Francisco de Assis. Sem horário publicado: a lista de paróquias do site da diocese não traz horário para esta unidade. Bairro dos Rodoviários; erigida em 11/03/2022. Instagram da Pascom citado em notícia da diocese de 2021."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia da Bem-Aventurada Virgem Maria da Conceição Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Paulo Afonso",
+  "padroeiro": "Nossa Senhora da Conceição Aparecida",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "pascom.aparecida",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz da Bem-Aventurada Virgem Maria da Conceição Aparecida",
+    "tipo": "matriz",
+    "cidade": "Paulo Afonso",
+    "localidade": "Moxotó",
+    "endereco": "Praça Nossa Senhora Aparecida, Vila Moxotó",
+    "horarios": [],
+    "nao_cabe": "Comunidades urbanas (decreto de 2025, sem bairro): Menino Jesus de Praga, São José, N. Sra. da Conceição, Santo Antônio e Santa Dulce, São Pedro e São Paulo, N. Sra. das Dores; rurais: São João Batista, Santo Antônio e São Pedro."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepauloafonso.com/api/trpc/paroquias.list",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedepauloafonso.com/noticias/decreto-sob-protocolo-no-026-23-reestruturacao-da-paroquia-da-bem-aventurada-virgem-maria-da-conceicao-aparecida",
+    "data": "2025-07-15",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedepauloafonso.com/noticias/elevacao-canonica-da-paroquia-da-bem-aventurada-virgem-maria-da-conceicao-aparecida-no-bairro-moxoto-em-paulo-afonso-ba",
+    "data": "2023-12-20",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedepauloafonso.com/noticias/a-quase-paroquia-na-sra-aparecida-situada-na-vila-moxoto-celebrara-a-novena-e-festa-da-padroeira-nos-dias-03-a-12-de-outubro",
+    "data": "2021-09-30",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania I, São Francisco de Assis. Sem horário publicado: a lista de paróquias do site da diocese não traz horário para esta unidade. Bairro Moxotó; erigida em 17/12/2023. Instagram da Pascom citado em notícia da diocese de 2021, quando ainda era quase-paróquia."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Glória",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Glória",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepauloafonso.com/api/trpc/paroquias.list",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania I, São Francisco de Assis. Sem horário publicado: a lista de paróquias do site da diocese não traz horário para esta unidade."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José",
+  "categoria": "paroquia",
+  "cidade": "Glória",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José",
+    "tipo": "matriz",
+    "cidade": "Glória",
+    "localidade": "Quixaba",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepauloafonso.com/api/trpc/paroquias.list",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedepauloafonso.com/noticias/elevacao-canonica-da-paroquia-de-sao-jose-no-povoado-quixaba-em-gloria-ba",
+    "data": "2022-02-01",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania I, São Francisco de Assis. Sem horário publicado: a lista de paróquias do site da diocese não traz horário para esta unidade. Matriz no povoado Quixaba; desmembrada de Santo Antônio de Glória, elevada a paróquia em 30/01/2022."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Canudos",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Canudos",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepauloafonso.com/api/trpc/paroquias.list",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania II, São João Batista. Sem horário publicado: a lista de paróquias do site da diocese não traz horário para esta unidade."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Coronel João Sá",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "paroquiasta",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Coronel João Sá",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepauloafonso.com/api/trpc/paroquias.list",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedepauloafonso.com/noticias/procissao-em-honra-a-nossa-senhora-aparecida-reune-romeiros-na-paroquia-santo-antonio-em-coronel-joao-sa-ba",
+    "data": "2021-10-14",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania II, São João Batista. Sem horário publicado: a lista de paróquias do site da diocese não traz horário para esta unidade. Instagram citado em notícia da diocese de 2021."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "Jeremoabo",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Batista",
+    "tipo": "matriz",
+    "cidade": "Jeremoabo",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepauloafonso.com/api/trpc/paroquias.list",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania II, São João Batista. Sem horário publicado: a lista de paróquias do site da diocese não traz horário para esta unidade. Cerca de cem comunidades e pontos de celebração, diz o histórico no site da diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Quase-Paróquia Nossa Senhora Rosa Mística",
+  "categoria": "quase_paroquia",
+  "cidade": "Jeremoabo",
+  "padroeiro": "Nossa Senhora Rosa Mística",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Rosa Mística",
+    "tipo": "matriz",
+    "cidade": "Jeremoabo",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepauloafonso.com/api/trpc/paroquias.list",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedepauloafonso.com/noticias/quase-paroquia-nossa-senhora-rosa-mistica-em-jeremoabo-ba-celebra-seu-novenario",
+    "data": "2025-08-19",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania II, São João Batista. Sem horário publicado: a lista de paróquias do site da diocese não traz horário para esta unidade."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Conceição",
+  "categoria": "paroquia",
+  "cidade": "Pedro Alexandre",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "Pedro Alexandre",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepauloafonso.com/api/trpc/paroquias.list",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania II, São João Batista. Sem horário publicado: a lista de paróquias do site da diocese não traz horário para esta unidade."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Brígida da Suécia",
+  "categoria": "paroquia",
+  "cidade": "Santa Brígida",
+  "padroeiro": "Santa Brígida da Suécia",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Brígida da Suécia",
+    "tipo": "matriz",
+    "cidade": "Santa Brígida",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Comunidades urbanas (decreto de 2025, sem bairro): N. Sra. das Dores, Santa Rita, São Miguel Arcanjo, São Pedro e São Jorge."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrado Coração de Jesus",
+    "tipo": "comunidade",
+    "cidade": "Santa Brígida",
+    "localidade": "Algodões II",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Expedito",
+    "tipo": "comunidade",
+    "cidade": "Santa Brígida",
+    "localidade": "Angico",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Santa Brígida",
+    "localidade": "Araújo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Santa Brígida",
+    "localidade": "Aroeira",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Conceição",
+    "tipo": "comunidade",
+    "cidade": "Santa Brígida",
+    "localidade": "Assentamento Aroeira",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrada Família",
+    "tipo": "comunidade",
+    "cidade": "Santa Brígida",
+    "localidade": "Assentamento Bom Jardim",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Santa Brígida",
+    "localidade": "Baixa do Mulungu",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Quitéria",
+    "tipo": "comunidade",
+    "cidade": "Santa Brígida",
+    "localidade": "Bandeira",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco",
+    "tipo": "comunidade",
+    "cidade": "Santa Brígida",
+    "localidade": "Barriga",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Santa Brígida",
+    "localidade": "Barriguda",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Sebastião",
+    "tipo": "comunidade",
+    "cidade": "Santa Brígida",
+    "localidade": "Batoque",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Clara",
+    "tipo": "comunidade",
+    "cidade": "Santa Brígida",
+    "localidade": "Bugi",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Saúde",
+    "tipo": "comunidade",
+    "cidade": "Santa Brígida",
+    "localidade": "Buri",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Catarina da Suécia",
+    "tipo": "comunidade",
+    "cidade": "Santa Brígida",
+    "localidade": "Cana Brava",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Jesus Misericordioso",
+    "tipo": "comunidade",
+    "cidade": "Santa Brígida",
+    "localidade": "Caraibeiras II",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Terezinha",
+    "tipo": "comunidade",
+    "cidade": "Santa Brígida",
+    "localidade": "Caraibeiras I",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Santa Brígida",
+    "localidade": "Circo Velho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Fátima",
+    "tipo": "comunidade",
+    "cidade": "Santa Brígida",
+    "localidade": "Colônia",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Terezinha",
+    "tipo": "comunidade",
+    "cidade": "Santa Brígida",
+    "localidade": "Fortaleza",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Menino Jesus",
+    "tipo": "comunidade",
+    "cidade": "Santa Brígida",
+    "localidade": "Ingazeira",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora das Dores",
+    "tipo": "comunidade",
+    "cidade": "Santa Brígida",
+    "localidade": "Km 40",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Gonçalo",
+    "tipo": "comunidade",
+    "cidade": "Santa Brígida",
+    "localidade": "Km 42",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora das Graças",
+    "tipo": "comunidade",
+    "cidade": "Santa Brígida",
+    "localidade": "Lagoa do Barro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Cruz",
+    "tipo": "comunidade",
+    "cidade": "Santa Brígida",
+    "localidade": "Licurituba",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Santa Brígida",
+    "localidade": "Macambira",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco",
+    "tipo": "comunidade",
+    "cidade": "Santa Brígida",
+    "localidade": "Marancó",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Conceição",
+    "tipo": "comunidade",
+    "cidade": "Santa Brígida",
+    "localidade": "Minuim",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Monte Serrat",
+    "tipo": "comunidade",
+    "cidade": "Santa Brígida",
+    "localidade": "Morada Velha",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Madalena",
+    "tipo": "comunidade",
+    "cidade": "Santa Brígida",
+    "localidade": "Poço da Carteira",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Dulce",
+    "tipo": "comunidade",
+    "cidade": "Santa Brígida",
+    "localidade": "Porteiras",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Luzia",
+    "tipo": "comunidade",
+    "cidade": "Santa Brígida",
+    "localidade": "Projeto Esperança",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco",
+    "tipo": "comunidade",
+    "cidade": "Santa Brígida",
+    "localidade": "Santa Cruz",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Vicente",
+    "tipo": "comunidade",
+    "cidade": "Santa Brígida",
+    "localidade": "Vicente",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Araticum",
+    "tipo": "comunidade",
+    "cidade": "Santa Brígida",
+    "localidade": "Araticum",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Briá",
+    "tipo": "comunidade",
+    "cidade": "Santa Brígida",
+    "localidade": "Briá",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Flores",
+    "tipo": "comunidade",
+    "cidade": "Santa Brígida",
+    "localidade": "Flores",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Oliveira",
+    "tipo": "comunidade",
+    "cidade": "Santa Brígida",
+    "localidade": "Oliveira",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Pacheco",
+    "tipo": "comunidade",
+    "cidade": "Santa Brígida",
+    "localidade": "Pacheco",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Riacho Fundo",
+    "tipo": "comunidade",
+    "cidade": "Santa Brígida",
+    "localidade": "Riacho Fundo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepauloafonso.com/api/trpc/paroquias.list",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedepauloafonso.com/noticias/decreto-sob-protocolo-no-003-91-reestruturacao-da-paroquia-santa-brigida-da-suecia",
+    "data": "2025-07-15",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania II, São João Batista. Sem horário publicado: a lista de paróquias do site da diocese não traz horário para esta unidade. Erigida em 27/03/2009. Comunidades rurais com povoado e padroeiro do decreto de reestruturação de 25/05/2025."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Conceição",
+  "categoria": "paroquia",
+  "cidade": "Antas",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "Antas",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepauloafonso.com/api/trpc/paroquias.list",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania III, Santa Teresa de Jesus. Sem horário publicado: a lista de paróquias do site da diocese não traz horário para esta unidade."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Imaculada Conceição",
+  "categoria": "paroquia",
+  "cidade": "Banzaê",
+  "padroeiro": "Imaculada Conceição",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Imaculada Conceição",
+    "tipo": "matriz",
+    "cidade": "Banzaê",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepauloafonso.com/api/trpc/paroquias.list",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania III, Santa Teresa de Jesus. Sem horário publicado: a lista de paróquias do site da diocese não traz horário para esta unidade."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Bom Conselho",
+  "categoria": "paroquia",
+  "cidade": "Cícero Dantas",
+  "padroeiro": "Nossa Senhora do Bom Conselho",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Bom Conselho",
+    "tipo": "matriz",
+    "cidade": "Cícero Dantas",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepauloafonso.com/api/trpc/paroquias.list",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania III, Santa Teresa de Jesus. Sem horário publicado: a lista de paróquias do site da diocese não traz horário para esta unidade."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Pedro",
+  "categoria": "paroquia",
+  "cidade": "Novo Triunfo",
+  "padroeiro": "São Pedro",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Pedro",
+    "tipo": "matriz",
+    "cidade": "Novo Triunfo",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepauloafonso.com/api/trpc/paroquias.list",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania III, Santa Teresa de Jesus. Sem horário publicado: a lista de paróquias do site da diocese não traz horário para esta unidade."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Ascensão do Senhor",
+  "categoria": "paroquia",
+  "cidade": "Ribeira do Pombal",
+  "padroeiro": "Ascensão do Senhor",
+  "contatos": {
+   "telefone": "75999570556",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "ascensaodosenhor18@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Ascensão do Senhor",
+    "tipo": "matriz",
+    "cidade": "Ribeira do Pombal",
+    "localidade": "Vila Operária",
+    "endereco": "Praça Vitorino de Souza",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepauloafonso.com/api/trpc/paroquias.list",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania III, Santa Teresa de Jesus. Quase-paróquia instalada em 21/02/2021; pároco nomeado em dez. 2022."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Teresa de Jesus",
+  "categoria": "paroquia",
+  "cidade": "Ribeira do Pombal",
+  "padroeiro": "Santa Teresa de Jesus",
+  "contatos": {
+   "telefone": "75999815993",
+   "whatsapp": "",
+   "instagram": "pascom_steresa",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Teresa de Jesus",
+    "tipo": "matriz",
+    "cidade": "Ribeira do Pombal",
+    "localidade": "",
+    "endereco": "Av. Santa Teresa",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": "Missa e adoração"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": "Missa e adoração"
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Igreja de Santa Teresa de Jesus, antiga matriz",
+    "tipo": "capela",
+    "cidade": "Ribeira do Pombal",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepauloafonso.com/api/trpc/paroquias.list",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://gcatholic.org/churches/brazil/44591",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedepauloafonso.com/noticias/a-paroquia-de-santa-teresa-em-ribeira-do-pombal-celebra-novenario-e-20-anos-de-sacerdocio-de-seu-paroco",
+    "data": "2021-10-11",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania III, Santa Teresa de Jesus. Instagram da Pascom citado em notícia da diocese de 2021. A antiga matriz vem do GCatholic, como missão desta paróquia."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Senhor do Bonfim",
+  "categoria": "paroquia",
+  "cidade": "Adustina",
+  "padroeiro": "Senhor do Bonfim",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Senhor do Bonfim",
+    "tipo": "matriz",
+    "cidade": "Adustina",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepauloafonso.com/api/trpc/paroquias.list",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania IV, Nossa Senhora do Patrocínio. Sem horário publicado: a lista de paróquias do site da diocese não traz horário para esta unidade."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Francisco de Assis",
+  "categoria": "paroquia",
+  "cidade": "Fátima",
+  "padroeiro": "São Francisco de Assis",
+  "contatos": {
+   "telefone": "75999983047",
+   "whatsapp": "",
+   "instagram": "paroquiasaofrancisco_fatima",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Francisco de Assis",
+    "tipo": "matriz",
+    "cidade": "Fátima",
+    "localidade": "",
+    "endereco": "Praça Ângelo Lagoa",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Missa dos feirantes"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": "Missa e adoração ao Santíssimo"
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Primeira sexta-feira"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepauloafonso.com/api/trpc/paroquias.list",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedepauloafonso.com/noticias/a-paroquia-de-sao-francisco-de-assis-em-fatima-ba-celebra-festa-do-padroeiro",
+    "data": "2021-10-08",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania IV, Nossa Senhora do Patrocínio. Instagram citado em notícia da diocese de 2021."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Patrocínio",
+  "categoria": "paroquia",
+  "cidade": "Paripiranga",
+  "padroeiro": "Nossa Senhora do Patrocínio",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "patrocinioparipiranga",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Patrocínio",
+    "tipo": "matriz",
+    "cidade": "Paripiranga",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepauloafonso.com/api/trpc/paroquias.list",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedepauloafonso.com/noticias/paroquia-de-na-sra-do-patrocinio-em-paripiranga-ba-celebra-festa-da-padroeira",
+    "data": "2021-12-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania IV, Nossa Senhora do Patrocínio. Sem horário publicado: a lista de paróquias do site da diocese não traz horário para esta unidade. Instagram da Pascom citado em notícia da diocese de 2021."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio de Pádua",
+  "categoria": "paroquia",
+  "cidade": "Sítio do Quinto",
+  "padroeiro": "Santo Antônio de Pádua",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio de Pádua",
+    "tipo": "matriz",
+    "cidade": "Sítio do Quinto",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepauloafonso.com/api/trpc/paroquias.list",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania IV, Nossa Senhora do Patrocínio. Sem horário publicado: a lista de paróquias do site da diocese não traz horário para esta unidade."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Abaré",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Abaré",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepauloafonso.com/api/trpc/paroquias.list",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania V, Senhor do Bonfim. Sem horário publicado: a lista de paróquias do site da diocese não traz horário para esta unidade."
+ },
+ {
+  "id_banco": null,
+  "nome": "Quase-Paróquia São José",
+  "categoria": "quase_paroquia",
+  "cidade": "Abaré",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José",
+    "tipo": "matriz",
+    "cidade": "Abaré",
+    "localidade": "Ibó",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepauloafonso.com/api/trpc/paroquias.list",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedepauloafonso.com/noticias/comunidade-sao-jose-no-distrito-de-ibo-sera-elevada-a-condicao-de-quase-paroquia",
+    "data": "2025-12-18",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedepauloafonso.com/noticias/padre-adelmo-evangelista-assume-a-quase-paroquia-sao-jose-no-distrito-de-ibo-em-abare",
+    "data": "2026-01-30",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania V, Senhor do Bonfim. Sem horário publicado: a lista de paróquias do site da diocese não traz horário para esta unidade. Sede no distrito de Ibó; quase-paróquia desde jan. 2026, desmembrada de Santo Antônio de Abaré."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Senhor do Bonfim",
+  "categoria": "paroquia",
+  "cidade": "Chorrochó",
+  "padroeiro": "Senhor do Bonfim",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Senhor do Bonfim",
+    "tipo": "matriz",
+    "cidade": "Chorrochó",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepauloafonso.com/api/trpc/paroquias.list",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania V, Senhor do Bonfim. Sem horário publicado: a lista de paróquias do site da diocese não traz horário para esta unidade."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Senhor do Bonfim",
+  "categoria": "paroquia",
+  "cidade": "Macururé",
+  "padroeiro": "Senhor do Bonfim",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Senhor do Bonfim",
+    "tipo": "matriz",
+    "cidade": "Macururé",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepauloafonso.com/api/trpc/paroquias.list",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania V, Senhor do Bonfim. Sem horário publicado: a lista de paróquias do site da diocese não traz horário para esta unidade."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "Rodelas",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Batista",
+    "tipo": "matriz",
+    "cidade": "Rodelas",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedepauloafonso.com/api/trpc/paroquias.list",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania V, Senhor do Bonfim. Sem horário publicado: a lista de paróquias do site da diocese não traz horário para esta unidade."
+ }
+]

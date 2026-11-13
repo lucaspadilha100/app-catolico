@@ -1,0 +1,631 @@
+[
+ {
+  "id_banco": null,
+  "nome": "Catedral de Sant'Ana",
+  "categoria": "catedral",
+  "cidade": "Óbidos",
+  "padroeiro": "Sant'Ana",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "93992156954",
+   "instagram": "",
+   "site": "https://catedraldeobidos.com.br",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Catedral de Sant'Ana",
+    "tipo": "matriz",
+    "cidade": "Óbidos",
+    "localidade": "Centro",
+    "endereco": "Rua Dr. Eloy Simões, 762",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 6,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": "Até 11h, na Capela do Santíssimo"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 6,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 6,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 6,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Às 12h do sábado, contemplação conduzida pelo padre ou diácono"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://catedraldeobidos.com.br/horarios/",
+    "data": "2025-10-18",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://catedraldeobidos.com.br/horarios/",
+    "data": "2025-10-18",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://gcatholic.org/churches/brazil/2575",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://gcatholic.org/churches/local/obid0",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://pt.wikipedia.org/wiki/Diocese_de_%C3%93bidos",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Sé da diocese. Forania não informada. Endereço do GCatholic; WhatsApp da Pascom da catedral, publicado no site dela."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Francisco e Santa Clara",
+  "categoria": "paroquia",
+  "cidade": "Óbidos",
+  "padroeiro": "São Francisco de Assis e Santa Clara",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Francisco e Santa Clara",
+    "tipo": "matriz",
+    "cidade": "Óbidos",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://gcatholic.org/churches/brazil/116903",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://gcatholic.org/churches/local/obid0",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://pt.wikipedia.org/wiki/Diocese_de_%C3%93bidos",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedeobidos.blogspot.com/",
+    "data": "2013-12",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Em 2013 era a Área Missionária São Francisco de Assis (blog da diocese). Sem horário: o site da diocese (diocesedeobidos.com.br) não respondeu em 13/11/2026 e a paróquia não tem página própria conhecida. Forania não informada."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Martinho de Lima",
+  "categoria": "paroquia",
+  "cidade": "Óbidos",
+  "padroeiro": "São Martinho de Lima",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Martinho de Lima",
+    "tipo": "matriz",
+    "cidade": "Óbidos",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://gcatholic.org/churches/brazil/116901",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://gcatholic.org/churches/local/obid0",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://pt.wikipedia.org/wiki/Diocese_de_%C3%93bidos",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário: o site da diocese (diocesedeobidos.com.br) não respondeu em 13/11/2026 e a paróquia não tem página própria conhecida. Forania não informada."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Alenquer",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Alenquer",
+    "localidade": "",
+    "endereco": "Travessa Santo Antônio",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://gcatholic.org/churches/brazil/72078",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://gcatholic.org/churches/local/obid0",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://pt.wikipedia.org/wiki/Diocese_de_%C3%93bidos",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário: o site da diocese (diocesedeobidos.com.br) não respondeu em 13/11/2026 e a paróquia não tem página própria conhecida. Forania não informada."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Raimundo Nonato",
+  "categoria": "paroquia",
+  "cidade": "Curuá",
+  "padroeiro": "São Raimundo Nonato",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Raimundo Nonato",
+    "tipo": "matriz",
+    "cidade": "Curuá",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://gcatholic.org/churches/brazil/72080",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://gcatholic.org/churches/local/obid0",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://pt.wikipedia.org/wiki/Diocese_de_%C3%93bidos",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário: o site da diocese (diocesedeobidos.com.br) não respondeu em 13/11/2026 e a paróquia não tem página própria conhecida. Forania não informada."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "Faro",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Batista",
+    "tipo": "matriz",
+    "cidade": "Faro",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://gcatholic.org/churches/brazil/72083",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://gcatholic.org/churches/local/obid0",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://pt.wikipedia.org/wiki/Diocese_de_%C3%93bidos",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "A Wikipédia põe esta paróquia em Curuá; o GCatholic a localiza em Faro, que seguimos. Sem horário: o site da diocese (diocesedeobidos.com.br) não respondeu em 13/11/2026 e a paróquia não tem página própria conhecida. Forania não informada."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Saúde",
+  "categoria": "paroquia",
+  "cidade": "Juruti",
+  "padroeiro": "Nossa Senhora da Saúde",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Saúde",
+    "tipo": "matriz",
+    "cidade": "Juruti",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://gcatholic.org/churches/brazil/72079",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://gcatholic.org/churches/local/obid0",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://pt.wikipedia.org/wiki/Diocese_de_%C3%93bidos",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário: o site da diocese (diocesedeobidos.com.br) não respondeu em 13/11/2026 e a paróquia não tem página própria conhecida. Forania não informada."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sagrado Coração de Jesus",
+  "categoria": "paroquia",
+  "cidade": "Juruti",
+  "padroeiro": "Sagrado Coração de Jesus",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Sagrado Coração de Jesus",
+    "tipo": "matriz",
+    "cidade": "Juruti",
+    "localidade": "Juruti Velho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://gcatholic.org/churches/brazil/72084",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://gcatholic.org/churches/local/obid0",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://pt.wikipedia.org/wiki/Diocese_de_%C3%93bidos",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Na vila de Juruti Velho. Sem horário: o site da diocese (diocesedeobidos.com.br) não respondeu em 13/11/2026 e a paróquia não tem página própria conhecida. Forania não informada."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "Juruti",
+  "padroeiro": "São Sebastião",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Sebastião",
+    "tipo": "matriz",
+    "cidade": "Juruti",
+    "localidade": "Tabatinga",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://gcatholic.org/churches/brazil/116902",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://gcatholic.org/churches/local/obid0",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://pt.wikipedia.org/wiki/Diocese_de_%C3%93bidos",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedeobidos.blogspot.com/",
+    "data": "2014-01",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Na vila de Tabatinga, a leste da sede de Juruti. Em 2013 o blog da diocese citava ali a Área Missionária Santa Terezinha do Menino Jesus. Sem horário: o site da diocese (diocesedeobidos.com.br) não respondeu em 13/11/2026 e a paróquia não tem página própria conhecida. Forania não informada."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio de Pádua",
+  "categoria": "paroquia",
+  "cidade": "Oriximiná",
+  "padroeiro": "Santo Antônio de Pádua",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio de Pádua",
+    "tipo": "matriz",
+    "cidade": "Oriximiná",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://gcatholic.org/churches/brazil/116904",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://gcatholic.org/churches/local/obid0",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://pt.wikipedia.org/wiki/Diocese_de_%C3%93bidos",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário: o site da diocese (diocesedeobidos.com.br) não respondeu em 13/11/2026 e a paróquia não tem página própria conhecida. Forania não informada."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Isabel",
+  "categoria": "paroquia",
+  "cidade": "Terra Santa",
+  "padroeiro": "Santa Isabel da Hungria",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Isabel",
+    "tipo": "matriz",
+    "cidade": "Terra Santa",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://gcatholic.org/churches/brazil/72085",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://gcatholic.org/churches/brazil/116912",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://gcatholic.org/churches/local/obid0",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://pt.wikipedia.org/wiki/Diocese_de_%C3%93bidos",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "O GCatholic traz duas igrejas Santa Isabel marcadas como paróquia em Terra Santa (ids 72085 e 116912, a 660 m uma da outra); tratamos como uma paróquia. Sem horário: o site da diocese (diocesedeobidos.com.br) não respondeu em 13/11/2026 e a paróquia não tem página própria conhecida. Forania não informada."
+ },
+ {
+  "id_banco": null,
+  "nome": "Área Missionária Maria Imaculada",
+  "categoria": "area_missionaria",
+  "cidade": "Oriximiná",
+  "padroeiro": "Imaculada Conceição",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Santa Bárbara",
+    "tipo": "matriz",
+    "cidade": "Oriximiná",
+    "localidade": "Porto Trombetas",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://gcatholic.org/churches/brazil/116913",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://gcatholic.org/churches/local/obid0",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://pt.wikipedia.org/wiki/Diocese_de_%C3%93bidos",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Em Porto Trombetas (o GCatholic grafa \"Proto Trombetas\"); a igreja da área é Santa Bárbara. Sem horário: o site da diocese (diocesedeobidos.com.br) não respondeu em 13/11/2026 e a paróquia não tem página própria conhecida. Forania não informada."
+ }
+]

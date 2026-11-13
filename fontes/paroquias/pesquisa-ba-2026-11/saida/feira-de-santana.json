@@ -1,0 +1,1800 @@
+[
+ {
+  "id_banco": null,
+  "nome": "Catedral Metropolitana de Senhora Sant'Ana",
+  "categoria": "catedral",
+  "cidade": "Feira de Santana",
+  "padroeiro": "Senhora Sant'Ana",
+  "contatos": {
+   "telefone": "7536230055",
+   "whatsapp": "75992440055",
+   "instagram": "",
+   "site": "https://catedraldesantana.com.br",
+   "email": "paroquia@catedraldesantana.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Catedral Metropolitana de Senhora Sant'Ana",
+    "tipo": "matriz",
+    "cidade": "Feira de Santana",
+    "localidade": "Centro",
+    "endereco": "Praça Monsenhor Renato de Andrade Galvão, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocese-fsa.org.br/paroquias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://catedraldesantana.com.br/a-secretaria-paroquial/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania I, Senhora Sant'Ana. Secretaria (75) 3223-7366, na Praça da República, 87. Co-padroeiro: São Domingos. O site da catedral só tem a programação de pandemia (fev/2021), que não entrou. Sem horário de missa publicado: a lista de paróquias da arquidiocese traz só endereço e contato."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santuário Senhor dos Passos",
+  "categoria": "paroquia",
+  "cidade": "Feira de Santana",
+  "padroeiro": "Senhor dos Passos",
+  "contatos": {
+   "telefone": "7536231347",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "https://www.santuariosenhordospassos.com.br",
+   "email": "secretaria@paroquiasenhordospassos.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário Senhor dos Passos",
+    "tipo": "santuario",
+    "cidade": "Feira de Santana",
+    "localidade": "Centro",
+    "endereco": "Avenida Senhor dos Passos, 1042",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "07:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Sábado sem missa no santuário."
+   },
+   {
+    "id_banco": null,
+    "nome": "Igreja de Nossa Senhora dos Remédios",
+    "tipo": "capela",
+    "cidade": "Feira de Santana",
+    "localidade": "Centro",
+    "endereco": "Rua Conselheiro Franco, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "07:15",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Igreja de Nossa Senhora da Piedade",
+    "tipo": "capela",
+    "cidade": "Feira de Santana",
+    "localidade": "Centro",
+    "endereco": "Rua Professora Edelvira de Oliveira, 51",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Terça sem missa."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Dulce dos Pobres",
+    "tipo": "comunidade",
+    "cidade": "Feira de Santana",
+    "localidade": "Queimadinha",
+    "endereco": "Rua Joseane, 27",
+    "horarios": [],
+    "nao_cabe": "Missa aos domingos, sem hora publicada."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.santuariosenhordospassos.com.br/missas",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.santuariosenhordospassos.com.br/comunidades",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://arquidiocese-fsa.org.br/paroquias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Forania I, Senhora Sant'Ana. Horários da página Missas do site do santuário, lida em 13/11/2026 (site com publicações de nov/2026). Outro número publicado: (75) 99874-3626. Facebook facebook.com/paroquiasenhordospassos.feira."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santuário Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Feira de Santana",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "75997036702",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "psantoantonio@ig.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário de Santo Antônio",
+    "tipo": "santuario",
+    "cidade": "Feira de Santana",
+    "localidade": "Capuchinhos",
+    "endereco": "Avenida Presidente Dutra, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocese-fsa.org.br/paroquias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania I, Senhora Sant'Ana. Confiada aos Frades Capuchinhos. Sem horário de missa publicado: a lista de paróquias da arquidiocese traz só endereço e contato."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Cristo Redentor",
+  "categoria": "paroquia",
+  "cidade": "Feira de Santana",
+  "padroeiro": "Cristo Redentor",
+  "contatos": {
+   "telefone": "7532234423",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "pcredentor@oi.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Cristo Redentor",
+    "tipo": "matriz",
+    "cidade": "Feira de Santana",
+    "localidade": "Brasília",
+    "endereco": "Rua Lopes Rodrigues, 10",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocese-fsa.org.br/paroquias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania I, Senhora Sant'Ana. Sem horário de missa publicado: a lista de paróquias da arquidiocese traz só endereço e contato."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Fátima",
+  "categoria": "paroquia",
+  "cidade": "Feira de Santana",
+  "padroeiro": "Nossa Senhora de Fátima",
+  "contatos": {
+   "telefone": "7536231107",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiacaseb@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora de Fátima",
+    "tipo": "matriz",
+    "cidade": "Feira de Santana",
+    "localidade": "Caseb",
+    "endereco": "Avenida João Durval Carneiro, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocese-fsa.org.br/paroquias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania I, Senhora Sant'Ana. Sem horário de missa publicado: a lista de paróquias da arquidiocese traz só endereço e contato."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Carmo",
+  "categoria": "paroquia",
+  "cidade": "Feira de Santana",
+  "padroeiro": "Nossa Senhora do Carmo",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "sec.paroquiadocarmo@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Carmo",
+    "tipo": "matriz",
+    "cidade": "Feira de Santana",
+    "localidade": "Serraria Brasil",
+    "endereco": "Rua Vasco Filho, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocese-fsa.org.br/paroquias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania I, Senhora Sant'Ana. Não aparece no GCatholic (paróquia recente). Sem horário de missa publicado: a lista de paróquias da arquidiocese traz só endereço e contato."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João XXIII",
+  "categoria": "paroquia",
+  "cidade": "Feira de Santana",
+  "padroeiro": "São João XXIII",
+  "contatos": {
+   "telefone": "75999061788",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João XXIII",
+    "tipo": "matriz",
+    "cidade": "Feira de Santana",
+    "localidade": "SIM",
+    "endereco": "Rua Artêmia Pires Freitas, 10.570",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocese-fsa.org.br/paroquias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania I, Senhora Sant'Ana. Não aparece no GCatholic (paróquia recente). Sem horário de missa publicado: a lista de paróquias da arquidiocese traz só endereço e contato."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Senhor do Bonfim",
+  "categoria": "paroquia",
+  "cidade": "Feira de Santana",
+  "padroeiro": "Senhor do Bonfim",
+  "contatos": {
+   "telefone": "7532214255",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "psbonfimfsa@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Senhor do Bonfim",
+    "tipo": "matriz",
+    "cidade": "Feira de Santana",
+    "localidade": "Jardim Cruzeiro",
+    "endereco": "Rua Perolina Angélica, 294",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocese-fsa.org.br/paroquias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania II, Nossa Senhora Aparecida. Sem horário de missa publicado: a lista de paróquias da arquidiocese traz só endereço e contato."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Perpétuo Socorro",
+  "categoria": "paroquia",
+  "cidade": "Feira de Santana",
+  "padroeiro": "Nossa Senhora do Perpétuo Socorro",
+  "contatos": {
+   "telefone": "7536222184",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiadotomba@ig.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Perpétuo Socorro",
+    "tipo": "matriz",
+    "cidade": "Feira de Santana",
+    "localidade": "Tomba",
+    "endereco": "Praça Macário Barreto, 35",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocese-fsa.org.br/paroquias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania II, Nossa Senhora Aparecida. Sem horário de missa publicado: a lista de paróquias da arquidiocese traz só endereço e contato."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Clara de Assis",
+  "categoria": "paroquia",
+  "cidade": "Feira de Santana",
+  "padroeiro": "Santa Clara de Assis",
+  "contatos": {
+   "telefone": "7536164126",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "psca.fsa@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Clara de Assis",
+    "tipo": "matriz",
+    "cidade": "Feira de Santana",
+    "localidade": "Panorama",
+    "endereco": "Avenida Amado Bahia, 2015",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocese-fsa.org.br/paroquias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania II, Nossa Senhora Aparecida. Sem horário de missa publicado: a lista de paróquias da arquidiocese traz só endereço e contato."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Feira de Santana",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "7536235233",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "senhoraaparecida84@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Feira de Santana",
+    "localidade": "Conjunto Feira IX",
+    "endereco": "Rua A, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocese-fsa.org.br/paroquias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania II, Nossa Senhora Aparecida. Outro número publicado: (75) 97400-2727. Sem horário de missa publicado: a lista de paróquias da arquidiocese traz só endereço e contato."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santíssima Trindade",
+  "categoria": "paroquia",
+  "cidade": "Feira de Santana",
+  "padroeiro": "Santíssima Trindade",
+  "contatos": {
+   "telefone": "7536236638",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasstrindade10@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santíssima Trindade",
+    "tipo": "matriz",
+    "cidade": "Feira de Santana",
+    "localidade": "Conjunto Feira X",
+    "endereco": "Rua A, 76 D",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocese-fsa.org.br/paroquias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania II, Nossa Senhora Aparecida. Sem horário de missa publicado: a lista de paróquias da arquidiocese traz só endereço e contato."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Imaculada Conceição",
+  "categoria": "paroquia",
+  "cidade": "Feira de Santana",
+  "padroeiro": "Imaculada Conceição",
+  "contatos": {
+   "telefone": "7534877105",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "imaculadaconceicaofsa@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Imaculada Conceição",
+    "tipo": "matriz",
+    "cidade": "Feira de Santana",
+    "localidade": "Conceição I",
+    "endereco": "Rua Calamar, 531",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocese-fsa.org.br/paroquias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania III, São Pedro e São Paulo. Sem horário de missa publicado: a lista de paróquias da arquidiocese traz só endereço e contato."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José Operário",
+  "categoria": "paroquia",
+  "cidade": "Feira de Santana",
+  "padroeiro": "São José Operário",
+  "contatos": {
+   "telefone": "7588445456",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "psjoperario@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José Operário",
+    "tipo": "matriz",
+    "cidade": "Feira de Santana",
+    "localidade": "Campo Limpo",
+    "endereco": "Praça Duque de Caxias, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocese-fsa.org.br/paroquias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania III, São Pedro e São Paulo. Telefone com 8 dígitos, como publicado. Sem horário de missa publicado: a lista de paróquias da arquidiocese traz só endereço e contato."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora das Graças",
+  "categoria": "paroquia",
+  "cidade": "Feira de Santana",
+  "padroeiro": "Nossa Senhora das Graças",
+  "contatos": {
+   "telefone": "7532241436",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "www.senhoradasgracas.com.br",
+   "email": "p.nsg@ig.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora das Graças",
+    "tipo": "matriz",
+    "cidade": "Feira de Santana",
+    "localidade": "Cidade Nova",
+    "endereco": "Rua Pelé, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocese-fsa.org.br/paroquias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania III, São Pedro e São Paulo. O site citado não respondeu em 13/11/2026. Sem horário de missa publicado: a lista de paróquias da arquidiocese traz só endereço e contato."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Dulce dos Pobres",
+  "categoria": "paroquia",
+  "cidade": "Feira de Santana",
+  "padroeiro": "Santa Dulce dos Pobres",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Dulce dos Pobres",
+    "tipo": "matriz",
+    "cidade": "Feira de Santana",
+    "localidade": "Pampalona",
+    "endereco": "Rua Joana Pereira, 60",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocese-fsa.org.br/paroquias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania III, São Pedro e São Paulo. Não aparece no GCatholic (paróquia recente); a lista não traz telefone nem e-mail. Sem horário de missa publicado: a lista de paróquias da arquidiocese traz só endereço e contato."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Guadalupe",
+  "categoria": "paroquia",
+  "cidade": "Feira de Santana",
+  "padroeiro": "Nossa Senhora de Guadalupe",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiansguadalupefsa@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora de Guadalupe",
+    "tipo": "matriz",
+    "cidade": "Feira de Santana",
+    "localidade": "Jaíba",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocese-fsa.org.br/paroquias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania III, São Pedro e São Paulo. No distrito de Jaíba. Não aparece no GCatholic (paróquia recente). Sem horário de missa publicado: a lista de paróquias da arquidiocese traz só endereço e contato."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Francisco de Assis",
+  "categoria": "paroquia",
+  "cidade": "Feira de Santana",
+  "padroeiro": "São Francisco de Assis",
+  "contatos": {
+   "telefone": "75983416050",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "psfassis@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Francisco de Assis",
+    "tipo": "matriz",
+    "cidade": "Feira de Santana",
+    "localidade": "Gabriela",
+    "endereco": "Rua Cavalo de Aço, 30",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocese-fsa.org.br/paroquias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania III, São Pedro e São Paulo. Sem horário de missa publicado: a lista de paróquias da arquidiocese traz só endereço e contato."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Paulo II",
+  "categoria": "paroquia",
+  "cidade": "Feira de Santana",
+  "padroeiro": "São João Paulo II",
+  "contatos": {
+   "telefone": "7530213955",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "saojoaopauloiiparoquia@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Paulo II",
+    "tipo": "matriz",
+    "cidade": "Feira de Santana",
+    "localidade": "Mangabeira",
+    "endereco": "Rua O, s/n, Conjunto João Paulo II",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocese-fsa.org.br/paroquias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania III, São Pedro e São Paulo. Sem horário de missa publicado: a lista de paróquias da arquidiocese traz só endereço e contato."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Todos os Santos",
+  "categoria": "paroquia",
+  "cidade": "Feira de Santana",
+  "padroeiro": "Todos os Santos",
+  "contatos": {
+   "telefone": "7530213383",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiatos@bol.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Todos os Santos",
+    "tipo": "matriz",
+    "cidade": "Feira de Santana",
+    "localidade": "Queimadinha",
+    "endereco": "Avenida Bahia, 185",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocese-fsa.org.br/paroquias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania III, São Pedro e São Paulo. Sem horário de missa publicado: a lista de paróquias da arquidiocese traz só endereço e contato."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Resgate das Umburanas",
+  "categoria": "paroquia",
+  "cidade": "Antônio Cardoso",
+  "padroeiro": "Nossa Senhora do Resgate",
+  "contatos": {
+   "telefone": "7587120500",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquia.nsu.ac22@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Resgate",
+    "tipo": "matriz",
+    "cidade": "Antônio Cardoso",
+    "localidade": "",
+    "endereco": "Praça da Matriz, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocese-fsa.org.br/paroquias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania IV, São Mateus. Telefone com 8 dígitos, como publicado. Sem horário de missa publicado: a lista de paróquias da arquidiocese traz só endereço e contato."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Conceição",
+  "categoria": "paroquia",
+  "cidade": "Anguera",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "7532392123",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paanguera@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "Anguera",
+    "localidade": "",
+    "endereco": "Praça Artur Vieira, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocese-fsa.org.br/paroquias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania IV, São Mateus. Sem horário de missa publicado: a lista de paróquias da arquidiocese traz só endereço e contato."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Lourdes",
+  "categoria": "paroquia",
+  "cidade": "Ipecaetá",
+  "padroeiro": "Nossa Senhora de Lourdes",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora de Lourdes",
+    "tipo": "matriz",
+    "cidade": "Ipecaetá",
+    "localidade": "Centro",
+    "endereco": "Praça 19 de Julho, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocese-fsa.org.br/paroquias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania IV, São Mateus. A lista não traz telefone nem e-mail. Sem horário de missa publicado: a lista de paróquias da arquidiocese traz só endereço e contato."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Estêvão",
+  "categoria": "paroquia",
+  "cidade": "Santo Estêvão",
+  "padroeiro": "Santo Estêvão",
+  "contatos": {
+   "telefone": "7532452880",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquia_sto_estevao@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Estêvão",
+    "tipo": "matriz",
+    "cidade": "Santo Estêvão",
+    "localidade": "Centro",
+    "endereco": "Praça da Matriz, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocese-fsa.org.br/paroquias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania IV, São Mateus. Sem horário de missa publicado: a lista de paróquias da arquidiocese traz só endereço e contato."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Bom Conselho",
+  "categoria": "paroquia",
+  "cidade": "Serra Preta",
+  "padroeiro": "Nossa Senhora do Bom Conselho",
+  "contatos": {
+   "telefone": "7536091470",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiaserrapreta@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Bom Conselho",
+    "tipo": "matriz",
+    "cidade": "Serra Preta",
+    "localidade": "",
+    "endereco": "Praça da Matriz, 12",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocese-fsa.org.br/paroquias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania IV, São Mateus. Sem horário de missa publicado: a lista de paróquias da arquidiocese traz só endereço e contato."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Senhor do Bonfim",
+  "categoria": "paroquia",
+  "cidade": "Feira de Santana",
+  "padroeiro": "Senhor do Bonfim",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Senhor do Bonfim",
+    "tipo": "matriz",
+    "cidade": "Feira de Santana",
+    "localidade": "Bonfim de Feira",
+    "endereco": "Praça Cupertino Lacerda, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocese-fsa.org.br/paroquias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania IV, São Mateus. No distrito de Bonfim de Feira. A lista repete o telefone da Paróquia São João Paulo II e dá um e-mail do domínio de uma paróquia de Ipatinga (MG); os dois ficaram fora. Sem horário de missa publicado: a lista de paróquias da arquidiocese traz só endereço e contato."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora dos Remédios",
+  "categoria": "paroquia",
+  "cidade": "Feira de Santana",
+  "padroeiro": "Nossa Senhora dos Remédios",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiansr1610@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora dos Remédios",
+    "tipo": "matriz",
+    "cidade": "Feira de Santana",
+    "localidade": "Ipuaçu",
+    "endereco": "Praça da Matriz, s/n, Gameleira",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocese-fsa.org.br/paroquias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania IV, São Mateus. No distrito de Ipuaçu. A lista repete o telefone da Paróquia Todos os Santos, que ficou fora. Sem horário de missa publicado: a lista de paróquias da arquidiocese traz só endereço e contato."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Gonçalo do Amarante",
+  "categoria": "paroquia",
+  "cidade": "São Gonçalo dos Campos",
+  "padroeiro": "São Gonçalo do Amarante",
+  "contatos": {
+   "telefone": "7532461440",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "saogoncalo1696@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Gonçalo do Amarante",
+    "tipo": "matriz",
+    "cidade": "São Gonçalo dos Campos",
+    "localidade": "Centro",
+    "endereco": "Praça Padre Bráulio Seixas, 09",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocese-fsa.org.br/paroquias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania V, São Marcos. Sem horário de missa publicado: a lista de paróquias da arquidiocese traz só endereço e contato."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Conceição",
+  "categoria": "paroquia",
+  "cidade": "Conceição da Feira",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "7532442155",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "pnsconceicaodafeira@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "Conceição da Feira",
+    "localidade": "",
+    "endereco": "Praça da Bandeira, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocese-fsa.org.br/paroquias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania V, São Marcos. Sem horário de missa publicado: a lista de paróquias da arquidiocese traz só endereço e contato."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Lapa",
+  "categoria": "paroquia",
+  "cidade": "Amélia Rodrigues",
+  "padroeiro": "Nossa Senhora da Lapa",
+  "contatos": {
+   "telefone": "7532422103",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquianossasenhoradalapa@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Lapa",
+    "tipo": "matriz",
+    "cidade": "Amélia Rodrigues",
+    "localidade": "",
+    "endereco": "Praça da Matriz, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocese-fsa.org.br/paroquias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania V, São Marcos. Sem horário de missa publicado: a lista de paróquias da arquidiocese traz só endereço e contato."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Conceição",
+  "categoria": "paroquia",
+  "cidade": "Conceição do Jacuípe",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "7532432002",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "conceicaodojacuipe@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "Conceição do Jacuípe",
+    "localidade": "",
+    "endereco": "Praça Manuel Teixeira de Freitas, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocese-fsa.org.br/paroquias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania V, São Marcos. Sem horário de missa publicado: a lista de paróquias da arquidiocese traz só endereço e contato."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora dos Humildes",
+  "categoria": "paroquia",
+  "cidade": "Feira de Santana",
+  "padroeiro": "Nossa Senhora dos Humildes",
+  "contatos": {
+   "telefone": "7536831501",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "phumildes@yahoo.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora dos Humildes",
+    "tipo": "matriz",
+    "cidade": "Feira de Santana",
+    "localidade": "Humildes",
+    "endereco": "Praça da Matriz, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocese-fsa.org.br/paroquias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania V, São Marcos. No distrito de Humildes. Sem horário de missa publicado: a lista de paróquias da arquidiocese traz só endereço e contato."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Purificação dos Campos",
+  "categoria": "paroquia",
+  "cidade": "Irará",
+  "padroeiro": "Nossa Senhora da Purificação",
+  "contatos": {
+   "telefone": "75982165542",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "pnsdpi@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Purificação",
+    "tipo": "matriz",
+    "cidade": "Irará",
+    "localidade": "Centro",
+    "endereco": "Praça Pedro Nogueira, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocese-fsa.org.br/paroquias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania VI, São Lucas. Sem horário de missa publicado: a lista de paróquias da arquidiocese traz só endereço e contato."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Imaculada Conceição",
+  "categoria": "paroquia",
+  "cidade": "Ouriçangas",
+  "padroeiro": "Nossa Senhora da Imaculada Conceição",
+  "contatos": {
+   "telefone": "7534472134",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "nossaigreja2011@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Imaculada Conceição",
+    "tipo": "matriz",
+    "cidade": "Ouriçangas",
+    "localidade": "",
+    "endereco": "Praça Cônego Estrela, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocese-fsa.org.br/paroquias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania VI, São Lucas. Sem horário de missa publicado: a lista de paróquias da arquidiocese traz só endereço e contato."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "Água Fria",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "75983714057",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasaojoaobatista17@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Batista",
+    "tipo": "matriz",
+    "cidade": "Água Fria",
+    "localidade": "Centro",
+    "endereco": "Praça da Matriz, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocese-fsa.org.br/paroquias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania VI, São Lucas. Sem horário de missa publicado: a lista de paróquias da arquidiocese traz só endereço e contato."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santíssimo Coração de Maria",
+  "categoria": "paroquia",
+  "cidade": "Coração de Maria",
+  "padroeiro": "Santíssimo Coração de Maria",
+  "contatos": {
+   "telefone": "7532482121",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasagradocoracaodemaria@outlook.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santíssimo Coração de Maria",
+    "tipo": "matriz",
+    "cidade": "Coração de Maria",
+    "localidade": "",
+    "endereco": "Praça Dr. Araújo Pinho, 406",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocese-fsa.org.br/paroquias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania VI, São Lucas. A notícia de posse de 2026 a chama de Paróquia Sagrado Coração de Maria. Sem horário de missa publicado: a lista de paróquias da arquidiocese traz só endereço e contato."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora das Dores",
+  "categoria": "paroquia",
+  "cidade": "Coração de Maria",
+  "padroeiro": "Nossa Senhora das Dores",
+  "contatos": {
+   "telefone": "75997041480",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiansdretiro@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora das Dores",
+    "tipo": "matriz",
+    "cidade": "Coração de Maria",
+    "localidade": "Retiro",
+    "endereco": "Praça Padre Caetano Aragão, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocese-fsa.org.br/paroquias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania VI, São Lucas. No distrito de Retiro. Não aparece no GCatholic (paróquia recente). Sem horário de missa publicado: a lista de paróquias da arquidiocese traz só endereço e contato."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sagrado Coração de Jesus",
+  "categoria": "paroquia",
+  "cidade": "Pedrão",
+  "padroeiro": "Sagrado Coração de Jesus",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "sec.daparoquia2014@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Sagrado Coração de Jesus",
+    "tipo": "matriz",
+    "cidade": "Pedrão",
+    "localidade": "Centro",
+    "endereco": "Rua Álvaro Ribeiro Lima, 110",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocese-fsa.org.br/paroquias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania VI, São Lucas. Sem horário de missa publicado: a lista de paróquias da arquidiocese traz só endereço e contato."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Senhor do Bonfim",
+  "categoria": "paroquia",
+  "cidade": "Candeal",
+  "padroeiro": "Senhor do Bonfim",
+  "contatos": {
+   "telefone": "75983633440",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiabonfim.candeal@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Senhor do Bonfim",
+    "tipo": "matriz",
+    "cidade": "Candeal",
+    "localidade": "",
+    "endereco": "Praça Senhor do Bonfim, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocese-fsa.org.br/paroquias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania VII, São João. Sem horário de missa publicado: a lista de paróquias da arquidiocese traz só endereço e contato."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Bárbara",
+  "categoria": "paroquia",
+  "cidade": "Santa Bárbara",
+  "padroeiro": "Santa Bárbara",
+  "contatos": {
+   "telefone": "7532361207",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasantabarbara2017@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Bárbara",
+    "tipo": "matriz",
+    "cidade": "Santa Bárbara",
+    "localidade": "Centro",
+    "endereco": "Praça da Matriz, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocese-fsa.org.br/paroquias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania VII, São João. Sem horário de missa publicado: a lista de paróquias da arquidiocese traz só endereço e contato."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Senhor do Bonfim",
+  "categoria": "paroquia",
+  "cidade": "Santanópolis",
+  "padroeiro": "Senhor do Bonfim",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasrdobonfimsantanopolis@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Senhor do Bonfim",
+    "tipo": "matriz",
+    "cidade": "Santanópolis",
+    "localidade": "Centro",
+    "endereco": "Praça João Nery, 14",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocese-fsa.org.br/paroquias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania VII, São João. Sem horário de missa publicado: a lista de paróquias da arquidiocese traz só endereço e contato."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Tanquinho",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "7532492198",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasantoantonio.tanquinho@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Tanquinho",
+    "localidade": "",
+    "endereco": "Rua Quatorze de Agosto, 08",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocese-fsa.org.br/paroquias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania VII, São João. Sem horário de missa publicado: a lista de paróquias da arquidiocese traz só endereço e contato."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José das Itapororocas",
+  "categoria": "paroquia",
+  "cidade": "Feira de Santana",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "7532047084",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "itapororocas@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José",
+    "tipo": "matriz",
+    "cidade": "Feira de Santana",
+    "localidade": "Maria Quitéria",
+    "endereco": "Praça São José, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocese-fsa.org.br/paroquias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania VII, São João. No distrito de Maria Quitéria (antigo São José das Itapororocas). Sem horário de missa publicado: a lista de paróquias da arquidiocese traz só endereço e contato."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Carmo",
+  "categoria": "paroquia",
+  "cidade": "Feira de Santana",
+  "padroeiro": "Nossa Senhora do Carmo",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "pnscjaguara@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Carmo",
+    "tipo": "matriz",
+    "cidade": "Feira de Santana",
+    "localidade": "Jaguara",
+    "endereco": "Largo da Matriz, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocese-fsa.org.br/paroquias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania VII, São João. No distrito de Jaguara. Sem horário de missa publicado: a lista de paróquias da arquidiocese traz só endereço e contato."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Vicente Ferrer",
+  "categoria": "paroquia",
+  "cidade": "Feira de Santana",
+  "padroeiro": "São Vicente Ferrer",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasvferrer2019@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Vicente Ferrer",
+    "tipo": "matriz",
+    "cidade": "Feira de Santana",
+    "localidade": "Tiquaruçu",
+    "endereco": "Praça da Matriz São Vicente, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocese-fsa.org.br/paroquias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania VII, São João. No distrito de Tiquaruçu. Não aparece no GCatholic (paróquia recente). Sem horário de missa publicado: a lista de paróquias da arquidiocese traz só endereço e contato."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Roque",
+  "categoria": "paroquia",
+  "cidade": "Feira de Santana",
+  "padroeiro": "São Roque",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Roque",
+    "tipo": "matriz",
+    "cidade": "Feira de Santana",
+    "localidade": "Matinha",
+    "endereco": "Praça da Matinha, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocese-fsa.org.br/paroquias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Forania VII, São João. No distrito de Matinha. Não aparece no GCatholic (paróquia recente); a lista não traz telefone nem e-mail. Sem horário de missa publicado: a lista de paróquias da arquidiocese traz só endereço e contato."
+ }
+]
