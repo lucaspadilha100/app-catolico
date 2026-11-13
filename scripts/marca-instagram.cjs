@@ -227,6 +227,48 @@ const desenhar = async () => {
   saida.recurso_missas = cartaoDeRecurso(igreja, "Missas perto de você", ["Igrejas, horários de missa", "e confissão, com o caminho."]);
   saida.recurso_oracoes = cartaoDeRecurso(vela, "603 orações", ["Novenas, ladainhas e orações", "aos santos, num devocionário."]);
 
+  {
+    const [c, ctx] = novo(1080, 1920);
+    ctx.strokeStyle = MARROM;
+    ctx.lineWidth = 10;
+    retangulo(ctx, 50, 50, 980, 1820, 40);
+    ctx.stroke();
+    ctx.strokeStyle = DOURADO;
+    ctx.lineWidth = 3;
+    retangulo(ctx, 78, 78, 924, 1764, 28);
+    ctx.stroke();
+    const lado = 320;
+    const prop = simbolo.naturalHeight / simbolo.naturalWidth;
+    ctx.drawImage(simbolo, (1080 - lado) / 2, 240, lado, lado * prop);
+    ctx.fillStyle = MARROM;
+    ctx.font = '500 84px "Literata Variable", Georgia, serif';
+    ctx.fillText("Fiz um app católico.", 540, 700);
+    ctx.font = '500 72px "Literata Variable", Georgia, serif';
+    ctx.fillText("Minha Igrejinha", 540, 800);
+    ctx.fillStyle = DOURADO;
+    ctx.fillRect(540 - 3, 865, 6, 56);
+    ctx.fillRect(540 - 22, 883, 44, 6);
+    ctx.fillStyle = MARROM;
+    ctx.font = '500 42px "Inter Variable", Arial, sans-serif';
+    let y = 1000;
+    for (const l of ["Liturgia do dia, terço, Bíblia completa,", "orações, novenas, santos", "e missas perto de você."]) {
+      ctx.fillText(l, 540, y);
+      y += 64;
+    }
+    ctx.fillStyle = DOURADO;
+    ctx.font = '600 42px "Inter Variable", Arial, sans-serif';
+    ctx.fillText("Gratuito e sem anúncios.", 540, 1250);
+    ctx.fillStyle = MARROM;
+    ctx.font = '600 46px "Inter Variable", Arial, sans-serif';
+    ctx.fillText("Sigam @minhaigrejinhaapp", 540, 1390);
+    ctx.font = '500 38px "Inter Variable", Arial, sans-serif';
+    ctx.fillText("Testem e me mandem ideias:", 540, 1500);
+    ctx.fillStyle = DOURADO;
+    ctx.font = '600 40px "Inter Variable", Arial, sans-serif';
+    ctx.fillText("app-catolico-five.vercel.app", 540, 1570);
+    saida.story_pessoal = c.toDataURL("image/png");
+  }
+
   return saida;
 };
 
