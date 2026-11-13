@@ -1,7 +1,7 @@
 [
  {
   "id_banco": null,
-  "nome": "Catedral Nossa Senhora do Perpétuo Socorro",
+  "nome": "Catedral Santos Anjos da Guarda",
   "categoria": "catedral",
   "cidade": "Tabatinga",
   "padroeiro": "Santos Anjos da Guarda",
@@ -15,10 +15,10 @@
   "igrejas": [
    {
     "id_banco": null,
-    "nome": "Catedral Nossa Senhora do Perpétuo Socorro",
+    "nome": "Catedral Santos Anjos da Guarda",
     "tipo": "matriz",
     "cidade": "Tabatinga",
-    "localidade": "Centro",
+    "localidade": "",
     "endereco": "",
     "horarios": [],
     "nao_cabe": ""
@@ -47,7 +47,7 @@
    }
   ],
   "confianca": "baixa",
-  "observacao": "Paróquia Santos Anjos da Guarda, sede da diocese; o GCatholic dá à catedral o título do Perpétuo Socorro. Sem horário publicado pela paróquia ou diocese."
+  "observacao": "Região da Tríplice Fronteira (sem forania publicada). Sede da diocese; o GCatholic dá o título Perpétuo Socorro. Sem horário publicado pela paróquia ou diocese."
  },
  {
   "id_banco": null,
@@ -127,7 +127,7 @@
    }
   ],
   "confianca": "baixa",
-  "observacao": "Paróquia indígena (Ticuna, Kokama) com sede na aldeia Belém do Solimões, 72 comunidades; capuchinhos. Sem horário publicado pela paróquia ou diocese."
+  "observacao": "Região das TIs Eware I, Eware II e Feijoal. Paróquia indígena, sede na aldeia Belém do Solimões; capuchinhos. Sem horário publicado pela paróquia ou diocese."
  },
  {
   "id_banco": null,
@@ -148,7 +148,7 @@
     "nome": "Igreja Matriz da Imaculada Conceição",
     "tipo": "matriz",
     "cidade": "Benjamin Constant",
-    "localidade": "Centro",
+    "localidade": "",
     "endereco": "",
     "horarios": [],
     "nao_cabe": ""
@@ -172,7 +172,7 @@
    }
   ],
   "confianca": "baixa",
-  "observacao": "Sede do município; fraternidade capuchinha na Rua Monsenhor Tomás. Sem horário publicado pela paróquia ou diocese."
+  "observacao": "Região da Tríplice Fronteira, sede do município; capuchinhos. Sem horário publicado pela paróquia ou diocese."
  },
  {
   "id_banco": null,
@@ -217,7 +217,7 @@
    }
   ],
   "confianca": "baixa",
-  "observacao": "Vale do Javari, instalada em 1971; xaverianos. Matriz e 12 comunidades ribeirinhas, 52 aldeias. Sem horário publicado pela paróquia ou diocese."
+  "observacao": "Região do Vale do Javari; instalada em 1971, xaverianos. Sem horário publicado pela paróquia ou diocese."
  },
  {
   "id_banco": null,
@@ -262,7 +262,7 @@
    }
   ],
   "confianca": "baixa",
-  "observacao": "Paróquia São Paulo Apóstolo, co-catedral da diocese (igreja de 1758, antiga sede da prelazia). Sem horário publicado pela paróquia ou diocese."
+  "observacao": "Região do rio Solimões. Paróquia São Paulo Apóstolo, co-catedral da diocese. Sem horário publicado pela paróquia ou diocese."
  },
  {
   "id_banco": null,
@@ -283,7 +283,7 @@
     "nome": "Igreja Matriz de São Cristóvão",
     "tipo": "matriz",
     "cidade": "Amaturá",
-    "localidade": "Centro",
+    "localidade": "",
     "endereco": "",
     "horarios": [],
     "nao_cabe": ""
@@ -307,7 +307,7 @@
    }
   ],
   "confianca": "baixa",
-  "observacao": "Sede do município de Amaturá. Sem horário publicado pela paróquia ou diocese."
+  "observacao": "Região do rio Solimões, sede do município. Sem horário publicado pela paróquia ou diocese."
  },
  {
   "id_banco": null,
@@ -347,7 +347,7 @@
    }
   ],
   "confianca": "baixa",
-  "observacao": "Sede do município, foz do rio Içá. Sem horário publicado pela paróquia ou diocese."
+  "observacao": "Região do rio Içá, sede do município. Sem horário publicado pela paróquia ou diocese."
  },
  {
   "id_banco": null,
@@ -387,6 +387,6 @@
    }
   ],
   "confianca": "baixa",
-  "observacao": "Sede do município; a parte mais distante da diocese, quase 500 km de Tabatinga. Sem horário publicado pela paróquia ou diocese."
+  "observacao": "Região do rio Solimões, sede do município; primeira sede da prefeitura apostólica. Sem horário publicado pela paróquia ou diocese."
  }
 ]
