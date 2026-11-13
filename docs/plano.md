@@ -457,7 +457,12 @@ participa acompanha no celular, ao vivo, pelo link ou pelo QR code.
 - ✅ Diocese de Caicó: 36 de 37 (página "Horário das Missas" da diocese, editada em 2022)
 - ✅ Capelas ligadas à matriz, área missionária/pastoral e quase-paróquia como tipos próprios, nomes limpos
 - ⬜ 👤 Diocese de Mossoró: 6 de 57; pedir a lista à cúria, (84) 3314-7255, ou nova rodada de busca
-- ⬜ Próximos estados, no mesmo molde (`fontes/paroquias/pesquisa-rn-2026-11/FORMATO.md`)
+- 🔄 Próximos estados, no mesmo molde (`FORMATO.md`), com a regra nova do dono
+  (13/11/2026): paróquia sem horário confirmado ENTRA sem horário, e os fiéis
+  completam. Ordem: 1) estados pequenos para validar o fluxo (RR em pesquisa,
+  depois AP, AC); 2) vizinhos do lançamento (PB, CE, PE); 3) resto do NE, Norte e
+  Centro-Oeste; 4) Sul e Sudeste. SP não espera o fim: as 44 dioceses paulistas
+  entram por diocese, em paralelo, começando pela Arquidiocese de São Paulo
 
 ### Leva 38. Minhas paróquias e saneamento do RN ✅ (pedido do dono, 13/11/2026)
 - ✅ Até 5 paróquias favoritas ("Minha paróquia" na página da igreja vira alternância): o Hoje mostra a próxima missa de cada uma, e Missas lista todas com os horários; quem já tinha uma escolhida continua com ela
