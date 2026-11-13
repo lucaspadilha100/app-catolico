@@ -17,19 +17,6 @@ export async function meuApoio(): Promise<string> {
   return r?.ate ?? "";
 }
 
-export async function temAvisoPendente(): Promise<boolean> {
-  const c = await cliente();
-  const { data } = await c.auth.getSession();
-  if (!data.session) return false;
-  const r = ou(await c.from("apoios_avisados").select("id").eq("usuario_id", data.session.user.id).eq("situacao", "pendente").limit(1)) as { id: string }[];
-  return r.length > 0;
-}
-
-export async function avisarApoio(a: { nome_no_pix: string; valor: number | null; pago_em: string }) {
-  const c = await cliente();
-  ou(await c.from("apoios_avisados").insert(a));
-}
-
 export interface ApoioParaConferir {
   id: string;
   nome_no_pix: string;
@@ -50,6 +37,25 @@ export async function revisarApoio(id: string, confirmar: boolean) {
   ou(await c.rpc("revisar_apoio", { p_aviso: id, p_confirmar: confirmar }));
 }
 
+export const maisRecente = (a: string, b: string) => (a > b ? a : b);
+
+export function umAnoDepoisDeHoje(agora = new Date()): string {
+  const d = new Date(agora.getFullYear() + 1, agora.getMonth(), agora.getDate());
+  return d.toLocaleDateString("sv-SE");
+}
+
+export async function declararApoio(comConta: boolean): Promise<string> {
+  const local = umAnoDepoisDeHoje();
+  if (!comConta) return local;
+  try {
+    const c = await cliente();
+    const ate = ou(await c.rpc("declarar_apoio")) as string | null;
+    return maisRecente(local, ate ?? "");
+  } catch {
+    return local;
+  }
+}
+
 export function useApoiador(): string {
   const { email, pronto } = useConta();
   const { preferencias, mudar } = usePreferencias();
@@ -57,13 +63,13 @@ export function useApoiador(): string {
     if (!pronto || !email) return;
     let ativo = true;
     meuApoio()
-      .then((ate) => ativo && ate !== preferencias.apoiadorAte && mudar({ apoiadorAte: ate }))
+      .then((ate) => ativo && ate > preferencias.apoiadorAte && mudar({ apoiadorAte: ate }))
       .catch(() => {});
     return () => {
       ativo = false;
     };
   }, [email, pronto, preferencias.apoiadorAte, mudar]);
-  return email ? preferencias.apoiadorAte : "";
+  return preferencias.apoiadorAte;
 }
 
 export interface OpcaoDeVoto {

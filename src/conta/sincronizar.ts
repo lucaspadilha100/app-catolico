@@ -102,6 +102,12 @@ export function mesclar(chave: string, local: string, remoto: string, localMaisN
         lidos[livro] = [...new Set([...(a.lidos?.[livro] ?? []), ...(b.lidos?.[livro] ?? [])])].sort((x, y) => x - y);
       return JSON.stringify({ lidos, ultimo: (localMaisNovo ? a : b).ultimo ?? null });
     }
+    case "santinho-preferencias": {
+      const a = json<{ apoiadorAte?: string }>(local, {});
+      const b = json<{ apoiadorAte?: string }>(remoto, {});
+      const apoiadorAte = [a.apoiadorAte ?? "", b.apoiadorAte ?? ""].sort().pop()!;
+      return JSON.stringify({ ...(localMaisNovo ? a : b), apoiadorAte });
+    }
     default:
       return novo;
   }

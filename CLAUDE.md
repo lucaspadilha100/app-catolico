@@ -113,9 +113,14 @@ configurado desde o início) · **Supabase** plano gratuito (projeto
   PIX (BR Code) sai de `src/paroquias/pix.ts`, testado com o exemplo do Banco
   Central. `numeros_da_paroquia` só para a equipe; `publicacoes_paroquia.alcance`
   quem grava é a função `lembretes`.
-- **Apoiadores** (migração 20261125000000): `apoios_avisados` (a pessoa com
-  conta avisa que contribuiu; no máximo 3 esperando) e `apoiadores` (ninguém
-  escreve direto: só `revisar_apoio`, do admin, que soma um ano). O selo vai
+- **Apoiadores** (migrações 20261125000000 e 20261212002050): SEM conferência
+  (decisão do dono, 13/11/2026: "prefiro confiar que a pessoa apoiou"). "Já
+  apoiei" dá o selo na hora por um ano: sem conta, só no aparelho; com conta,
+  também `declarar_apoio()` em `apoiadores` (vale sempre a data MAIOR, também
+  na sincronização). `apoios_avisados`/`revisar_apoio` ficaram só para o painel
+  antigo. `apoio/PedirApoio.tsx` (linha discreta no fim das telas principais,
+  só web e só para quem não apoiou) e `AvisoDaVoz` (em `Ouvir.tsx`: a voz é a do
+  aparelho; "com o seu apoio, vamos melhorar"). O selo vai
   para `preferencias.apoiadorAte` (`useApoiador`), e a cor escolhida
   (`corDoApp`) só vale com ele em dia: `data-destaque` no `<html>`, que troca o
   `--destaque` mas não o `--dia` (a cor litúrgica). "Apoie" não aparece no

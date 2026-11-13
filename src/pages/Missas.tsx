@@ -33,6 +33,7 @@ import { IntencoesDeMissa } from "@/components/IntencoesDeMissa";
 import { FolhetosDaParoquia } from "@/components/FolhetosDaParoquia";
 import { useIgrejasSeguidas } from "@/paroquias/seguidas";
 import { avisarMudancaDeIgrejas } from "@/lembretes/lembretes";
+import { PedirApoio } from "@/apoio/PedirApoio";
 
 const TIPOS: TipoDeHorario[] = ["missa", "confissao", "adoracao"];
 const PERIODOS = [
@@ -699,6 +700,7 @@ export function Missas() {
           <Plus className="size-4" aria-hidden /> Sugerir paróquia
         </Link>
       )}
+      <PedirApoio />
     </div>
   );
 }

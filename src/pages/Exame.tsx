@@ -144,7 +144,7 @@ function ExameAberto({ exame }: { exame: TipoExame }) {
                               <span className="text-xs text-tinta-suave">CIC {i.cic}</span>
                               {i.id === "m5-propria-vida" && (
                                 <span className="mt-1 block text-sm font-medium text-tinta">
-                                  Se você pensa em tirar a própria vida, ligue 188 (CVV), de graça, a qualquer hora.
+                                  Se você pensa em tirar a própria vida, procure ajuda hoje: alguém de confiança, um padre ou um serviço de saúde.
                                 </span>
                               )}
                             </span>

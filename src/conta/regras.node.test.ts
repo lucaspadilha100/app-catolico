@@ -97,6 +97,20 @@ describe("avisos de erro da Bíblia", () => {
   });
 });
 
+describe("apoio declarado", () => {
+  it("visitante não executa; quem tem conta vira apoiador na hora, por um ano a mais a cada vez", async () => {
+    await expect(como("anon", null, "select public.declarar_apoio()")).rejects.toThrow();
+    const dias = "select ate - (now() at time zone 'America/Sao_Paulo')::date as dias from public.apoiadores";
+    await como("authenticated", A, "select public.declarar_apoio()");
+    const um = Number(((await como("authenticated", A, dias)).rows[0] as { dias: number }).dias);
+    expect(um).toBeGreaterThanOrEqual(365);
+    await como("authenticated", A, "select public.declarar_apoio()");
+    const dois = Number(((await como("authenticated", A, dias)).rows[0] as { dias: number }).dias);
+    expect(dois).toBeGreaterThanOrEqual(730);
+    await expect(como("authenticated", A, "update public.apoiadores set ate = '2099-01-01'")).rejects.toThrow();
+  });
+});
+
 describe("funções", () => {
   it("visitante só executa as funções públicas da lista", async () => {
     const r = await db.query<{ nome: string }>(`

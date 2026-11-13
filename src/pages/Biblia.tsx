@@ -21,6 +21,7 @@ import {
 } from "@/biblia/progresso";
 import { NaoEncontrada } from "@/pages/Simples";
 import { BarraDoVersiculo } from "@/components/AvisarErro";
+import { PedirApoio } from "@/apoio/PedirApoio";
 
 function Barra({ valor, fina = false }: { valor: number; fina?: boolean }) {
   return (
@@ -454,6 +455,7 @@ function Leitor({
                   {lido ? "Capítulo lido" : "Marcar como lido"}
                 </button>
                 <NotaDaTraducao className="mt-1 text-center" />
+                <PedirApoio className="mt-2" />
               </div>
             )}
           </section>

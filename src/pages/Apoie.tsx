@@ -1,80 +1,39 @@
-import { useEffect, useState, type FormEvent } from "react";
-import { Link } from "react-router-dom";
+import { useEffect, useState } from "react";
 import { BadgeCheck, Check, HandHeart, Palette, Share2, Vote } from "lucide-react";
 import { NOME_DO_APP, PIX_DO_APP } from "@/marca";
 import { compartilhar, ehNativo, enderecoPublico } from "@/lib/nativo";
-import { ehApoiador } from "@/lib/preferencias";
+import { ehApoiador, usePreferencias } from "@/lib/preferencias";
 import { useConta } from "@/conta/useConta";
-import { avisarApoio, temAvisoPendente, useApoiador, votacao, votar, type OpcaoDeVoto } from "@/apoio/api";
+import { declararApoio, maisRecente, useApoiador, votacao, votar, type OpcaoDeVoto } from "@/apoio/api";
 import { Cartao } from "@/components/Cartao";
 import { Cabecalho, Voltar } from "@/components/Devocao";
 import { Pix } from "@/components/Pix";
 import { dataCurta } from "@/paroquias/plano";
 
-const CAMPO = "min-h-12 w-full rounded-xl border border-borda bg-papel px-3 text-base text-tinta outline-none focus:border-destaque-texto";
-const BOTAO = "flex min-h-12 items-center justify-center gap-2 rounded-xl bg-primario px-4 font-semibold text-sobre-primario disabled:opacity-50";
 const BOTAO_CLARO = "flex min-h-12 items-center justify-center gap-2 rounded-xl border border-borda bg-cartao px-4 font-semibold text-tinta";
 const TITULO = "px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto";
 
-function JaContribui() {
+function JaApoiei() {
   const { email, pronto } = useConta();
-  const [pendente, setPendente] = useState(false);
-  const [aberto, setAberto] = useState(false);
-  const [nome, setNome] = useState("");
-  const [valor, setValor] = useState("");
-  const [data, setData] = useState(() => new Date().toLocaleDateString("sv-SE"));
-  const [estado, setEstado] = useState<"" | "enviando" | "erro" | "limite">("");
+  const { preferencias, mudar } = usePreferencias();
+  const [estado, setEstado] = useState<"" | "enviando" | "feito">("");
 
-  useEffect(() => {
-    if (email)
-      temAvisoPendente()
-        .then(setPendente)
-        .catch(() => {});
-  }, [email]);
+  if (estado === "feito")
+    return <p className="text-center font-medium text-destaque-texto">Obrigado. Selo de apoiador até {dataCurta(preferencias.apoiadorAte)}.</p>;
+  if (ehApoiador(preferencias)) return null;
 
-  if (!pronto) return null;
-  if (!email)
-    return (
-      <Link to="/conta" className={BOTAO_CLARO}>
-        Entrar para receber o selo
-      </Link>
-    );
-  if (pendente) return <p className="text-center font-medium text-destaque-texto">Contribuição em conferência. Obrigado.</p>;
-  if (!aberto)
-    return (
-      <button type="button" onClick={() => setAberto(true)} className={BOTAO_CLARO}>
-        Já contribuí
-      </button>
-    );
-
-  const numero = Number(valor.replace(/\./g, "").replace(",", "."));
-
-  async function enviar(e: FormEvent) {
-    e.preventDefault();
+  async function apoiar() {
     setEstado("enviando");
-    try {
-      await avisarApoio({ nome_no_pix: nome.trim(), valor: Number.isFinite(numero) && numero > 0 ? numero : null, pago_em: data });
-      setPendente(true);
-    } catch (err) {
-      setEstado(String(err).includes("limite") ? "limite" : "erro");
-    }
+    const ate = await declararApoio(!!email);
+    mudar({ apoiadorAte: maisRecente(preferencias.apoiadorAte, ate) });
+    setEstado("feito");
   }
 
   return (
-    <Cartao className="p-4">
-      <form onSubmit={enviar} className="flex flex-col gap-3">
-        <input value={nome} onChange={(e) => setNome(e.target.value)} placeholder="Nome de quem fez o PIX" aria-label="Nome de quem fez o PIX" maxLength={80} className={CAMPO} />
-        <div className="grid grid-cols-2 gap-2">
-          <input value={valor} onChange={(e) => setValor(e.target.value.replace(/[^\d.,]/g, ""))} inputMode="decimal" placeholder="Valor" aria-label="Valor" className={CAMPO} />
-          <input type="date" value={data} onChange={(e) => setData(e.target.value)} aria-label="Data" className={CAMPO} />
-        </div>
-        {estado === "limite" && <p className="text-sm text-[#a9271f]">Já há contribuições em conferência.</p>}
-        {estado === "erro" && <p className="text-sm text-[#a9271f]">Não foi possível enviar agora. Tente de novo.</p>}
-        <button type="submit" disabled={nome.trim().length < 2 || !data || estado === "enviando"} className={BOTAO}>
-          {estado === "enviando" ? "Enviando" : "Enviar"}
-        </button>
-      </form>
-    </Cartao>
+    <button type="button" disabled={!pronto || estado === "enviando"} onClick={() => void apoiar()} className={BOTAO_CLARO}>
+      <BadgeCheck className="size-5" aria-hidden />
+      Já apoiei
+    </button>
   );
 }
 
@@ -170,12 +129,12 @@ export default function Apoie() {
             <Pix chave={PIX_DO_APP.chave} nome={PIX_DO_APP.nome} cidade={PIX_DO_APP.cidade} valores={[10, 20, 50, 100]} />
           </Cartao>
         )}
-        {web && <JaContribui />}
+        {web && <JaApoiei />}
       </section>
 
       {web && (
         <section className="flex flex-col gap-3">
-          <h2 className={TITULO}>Quem contribui recebe, por um ano</h2>
+          <h2 className={TITULO}>Quem apoia recebe, por um ano</h2>
           <ul className="flex flex-col gap-2">
             <li className="flex items-center gap-3 rounded-xl border border-borda bg-cartao px-4 py-3 text-tinta">
               <BadgeCheck className="size-5 shrink-0 text-destaque-texto" aria-hidden /> Selo de apoiador

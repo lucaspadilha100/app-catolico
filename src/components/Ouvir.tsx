@@ -1,7 +1,10 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
+import { Link } from "react-router-dom";
 import { Pause, Play, Square, Volume2 } from "lucide-react";
 import { calar, falar, vozDisponivel } from "@/voz/voz";
+import { ehNativo } from "@/lib/nativo";
+import { ehApoiador, usePreferencias } from "@/lib/preferencias";
 
 const CHAVE = "santinho-voz-velocidade";
 const VELOCIDADES = [0.8, 1, 1.2];
@@ -13,6 +16,24 @@ function lerVelocidade(): number {
   } catch {
     return 1;
   }
+}
+
+export function AvisoDaVoz({ className = "" }: { className?: string }) {
+  const { preferencias } = usePreferencias();
+  const comLink = !ehNativo() && !ehApoiador(preferencias);
+  return (
+    <p className={`px-2 pb-1 text-center text-xs leading-relaxed text-tinta-suave ${className}`}>
+      Voz do próprio aparelho. Com o seu apoio, vamos melhorar.
+      {comLink && (
+        <>
+          {" "}
+          <Link to="/apoie" className="py-1 font-semibold text-destaque-texto underline underline-offset-2">
+            Apoiar
+          </Link>
+        </>
+      )}
+    </p>
+  );
 }
 
 export function TocadorDeVoz({ titulo, partes, aoFechar }: { titulo: string; partes: () => Promise<string[]>; aoFechar: () => void }) {
@@ -73,7 +94,7 @@ export function TocadorDeVoz({ titulo, partes, aoFechar }: { titulo: string; par
 
   return (
     <div className="fixed inset-x-0 bottom-[calc(4rem+env(safe-area-inset-bottom))] z-20 px-3 pb-3 md:bottom-0 md:left-60 md:pb-6">
-      <div className="mx-auto flex max-w-xl items-center gap-2 rounded-3xl bg-cartao p-2 shadow-lg">
+      <div className="mx-auto flex max-w-xl flex-wrap items-center gap-2 rounded-3xl bg-cartao p-2 shadow-lg">
         <button
           type="button"
           disabled={!lista?.length}
@@ -101,6 +122,7 @@ export function TocadorDeVoz({ titulo, partes, aoFechar }: { titulo: string; par
         >
           <Square className="size-4" aria-hidden />
         </button>
+        <AvisoDaVoz className="w-full" />
       </div>
     </div>
   );

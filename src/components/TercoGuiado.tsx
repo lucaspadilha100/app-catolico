@@ -22,6 +22,7 @@ import { TextoDaLeitura } from "@/components/TextoBiblico";
 import { vibrar } from "@/lib/nativo";
 import { contarReza } from "@/conta/uso";
 import { RezandoJuntos, rezaDoTipo } from "@/components/RezandoJuntos";
+import { PedirApoio } from "@/apoio/PedirApoio";
 
 const plural = (n: number) => `${n} ${n === 1 ? "terço rezado" : "terços rezados"}`;
 
@@ -272,6 +273,7 @@ export function TercoGuiado({
             Voltar para Rezar
           </Link>
         </div>
+        <PedirApoio />
       </div>
     );
   }

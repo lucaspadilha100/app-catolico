@@ -22,7 +22,12 @@ describe("mesclar quando os dois lados mudaram", () => {
     expect(r.ultimo).toEqual({ livro: "MAT", capitulo: 2 });
   });
 
-  it("cofre e preferências: o mais recente", () => {
+  it("preferências: o mais recente, mas o selo de apoiador fica com a data maior", () => {
+    const r = JSON.parse(mesclar("santinho-preferencias", '{"tema":"claro","apoiadorAte":""}', '{"tema":"escuro","apoiadorAte":"2027-11-13"}', true));
+    expect(r).toEqual({ tema: "claro", apoiadorAte: "2027-11-13" });
+  });
+
+  it("cofre: o mais recente", () => {
     expect(mesclar("santinho-cofre", "LOCAL", "REMOTO", true)).toBe("LOCAL");
     expect(mesclar("santinho-cofre", "LOCAL", "REMOTO", false)).toBe("REMOTO");
   });

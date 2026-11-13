@@ -11,6 +11,7 @@ import { pascoa } from "@/liturgia/calendario";
 import { diferencaEmDias } from "@/liturgia/datas";
 import { NovenasDoMes } from "@/components/NovenasDoMes";
 import { caminhoDeDevocao, useImagensDeDevocao } from "@/lib/imagens";
+import { PedirApoio } from "@/apoio/PedirApoio";
 
 const CHAVE_DO_CAMINHO: Record<string, string> = {
   "/rezar/agora": "rezar:evangelho",
@@ -127,6 +128,7 @@ export default function Rezar() {
           <ItemLista icone={BookHeart} titulo="Pelos falecidos" para="/rezar/falecidos" {...foto("/rezar/falecidos")} />
         </Grupo>
       </div>
+      <PedirApoio className="mt-6" />
     </div>
   );
 }

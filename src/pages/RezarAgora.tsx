@@ -11,8 +11,10 @@ import { NOME_DO_MOMENTO, esperaDaResposta, falasDaOracao, falasDosPassos, momen
 import { calar, falar, vozDisponivel } from "@/voz/voz";
 import { contarReza } from "@/conta/uso";
 import { RezandoJuntos } from "@/components/RezandoJuntos";
+import { AvisoDaVoz } from "@/components/Ouvir";
 import { Cabecalho, Carregando, Voltar } from "@/components/Devocao";
 import type { DiaLiturgico } from "@/liturgia/calendario";
+import { PedirApoio } from "@/apoio/PedirApoio";
 
 const MOMENTOS: Momento[] = ["evangelho", "angelus", "misericordia", "terco", "noite"];
 
@@ -116,7 +118,7 @@ export default function RezarAgora() {
   const terminou = !!falas && indice >= falas.length;
 
   return (
-    <div className="flex flex-col gap-5 pb-40">
+    <div className="flex flex-col gap-5 pb-48">
       <Voltar para="/rezar">Rezar</Voltar>
       <Cabecalho titulo={NOME_DO_MOMENTO[momento]} />
       <div className="-mx-4 flex gap-2 overflow-x-auto px-4 pb-1" role="group" aria-label="Oração">
@@ -145,6 +147,7 @@ export default function RezarAgora() {
           <button type="button" onClick={() => void tocar(0)} className="min-h-12 rounded-xl border border-borda px-6 font-semibold text-tinta">
             Rezar de novo
           </button>
+          <PedirApoio className="w-full" />
         </div>
       ) : (
         atual && (
@@ -187,6 +190,7 @@ export default function RezarAgora() {
           >
             <Square className="size-5" aria-hidden />
           </button>
+          {tocando && <AvisoDaVoz className="col-span-4" />}
         </div>
       </div>
     </div>
