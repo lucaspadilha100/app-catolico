@@ -1,0 +1,3525 @@
+[
+ {
+  "id_banco": null,
+  "nome": "Catedral São João Batista",
+  "categoria": "catedral",
+  "cidade": "São João da Boa Vista",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "1936222105",
+   "whatsapp": "1936222105",
+   "instagram": "",
+   "site": "",
+   "email": "igrejacatedralsjbv@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Catedral São João Batista",
+    "tipo": "matriz",
+    "cidade": "São João da Boa Vista",
+    "localidade": "Centro",
+    "endereco": "Praça da Catedral, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/sao-joao-da-boa-vista-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Paróquia São João Batista, criada em 1832; sede da diocese. Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Rosário",
+  "categoria": "paroquia",
+  "cidade": "São João da Boa Vista",
+  "padroeiro": "Nossa Senhora do Rosário",
+  "contatos": {
+   "telefone": "1936233091",
+   "whatsapp": "1936233091",
+   "instagram": "paroquia_nossasradorosario",
+   "site": "",
+   "email": "nsrosariosjbvsp@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Rosário",
+    "tipo": "matriz",
+    "cidade": "São João da Boa Vista",
+    "localidade": "Rosário",
+    "endereco": "Largo do Rosário, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/sao-joao-da-boa-vista-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Secretaria na Rua Américo de Campos, 69, Rosário. Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sagrado Coração de Jesus",
+  "categoria": "paroquia",
+  "cidade": "São João da Boa Vista",
+  "padroeiro": "Sagrado Coração de Jesus",
+  "contatos": {
+   "telefone": "1936231561",
+   "whatsapp": "",
+   "instagram": "paroquiascj.saojoao",
+   "site": "",
+   "email": "paroquiasagradocjesus@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Sagrado Coração de Jesus",
+    "tipo": "matriz",
+    "cidade": "São João da Boa Vista",
+    "localidade": "Jardim São Paulo",
+    "endereco": "Rua Papa João XXIII, 110",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/sao-joao-da-boa-vista-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Coração de Maria",
+  "categoria": "paroquia",
+  "cidade": "São João da Boa Vista",
+  "padroeiro": "Coração de Maria",
+  "contatos": {
+   "telefone": "1936331041",
+   "whatsapp": "1936331041",
+   "instagram": "",
+   "site": "",
+   "email": "paroquia.coracaodemaria.sj@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Coração de Maria",
+    "tipo": "matriz",
+    "cidade": "São João da Boa Vista",
+    "localidade": "Jardim Santo André",
+    "endereco": "Avenida Dr. Oscar Pirajá Martins, 250",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa do Sagrado Coração de Jesus"
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Instituto da Família",
+    "tipo": "comunidade",
+    "cidade": "São João da Boa Vista",
+    "localidade": "Mantiqueira",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Igreja de São Lázaro",
+    "tipo": "capela",
+    "cidade": "São João da Boa Vista",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santa Cruz",
+    "tipo": "capela",
+    "cidade": "São João da Boa Vista",
+    "localidade": "Bairro Alegre",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo André",
+    "tipo": "capela",
+    "cidade": "São João da Boa Vista",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/sao-joao-da-boa-vista-sp/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Horários publicados na página da diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Senhor Bom Jesus",
+  "categoria": "paroquia",
+  "cidade": "São João da Boa Vista",
+  "padroeiro": "Senhor Bom Jesus",
+  "contatos": {
+   "telefone": "1936334467",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "psbjesus@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Senhor Bom Jesus",
+    "tipo": "matriz",
+    "cidade": "São João da Boa Vista",
+    "localidade": "Jardim São Nicolau",
+    "endereco": "Rua Henrique Cabral de Vasconcelos, 1530",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/sao-joao-da-boa-vista-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Fátima",
+  "categoria": "paroquia",
+  "cidade": "São João da Boa Vista",
+  "padroeiro": "Nossa Senhora de Fátima",
+  "contatos": {
+   "telefone": "19995508563",
+   "whatsapp": "19995508563",
+   "instagram": "",
+   "site": "",
+   "email": "nsfatimasjbv@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora de Fátima",
+    "tipo": "matriz",
+    "cidade": "São João da Boa Vista",
+    "localidade": "Vila Nossa Senhora de Fátima",
+    "endereco": "Rua Júlio Michelazzo, 141",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/sao-joao-da-boa-vista-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "São João da Boa Vista",
+  "padroeiro": "São Sebastião",
+  "contatos": {
+   "telefone": "1936310547",
+   "whatsapp": "1936310547",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasaosebastiaosjbv@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Sebastião",
+    "tipo": "matriz",
+    "cidade": "São João da Boa Vista",
+    "localidade": "Vila Valentin",
+    "endereco": "Rua Maria Ignês da Silva Oliveira, 70",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/sao-joao-da-boa-vista-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santuário Nossa Senhora do Perpétuo Socorro",
+  "categoria": "paroquia",
+  "cidade": "São João da Boa Vista",
+  "padroeiro": "Nossa Senhora do Perpétuo Socorro",
+  "contatos": {
+   "telefone": "1936222644",
+   "whatsapp": "1936222644",
+   "instagram": "",
+   "site": "",
+   "email": "perpetuosjbvsp@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário de Nossa Senhora do Perpétuo Socorro",
+    "tipo": "santuario",
+    "cidade": "São João da Boa Vista",
+    "localidade": "",
+    "endereco": "Praça do Santuário, 11",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/sao-joao-da-boa-vista-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Matriz é santuário; atendida pelos missionários redentoristas. Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "São João da Boa Vista",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "1936223183",
+   "whatsapp": "19995593006",
+   "instagram": "",
+   "site": "",
+   "email": "santoantoniosjbv@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "São João da Boa Vista",
+    "localidade": "Santo Antônio",
+    "endereco": "Avenida Dr. Luiz Gambeta Sarmento, 305",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": "No oratório"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Todo dia 13 do mês: missas às 6h30 e às 19h30."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/sao-joao-da-boa-vista-sp/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Atendida pela comunidade missionária Providência Santíssima (mps). O endereço é o da secretaria; a página não dá o da igreja."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Expedito e Nossa Senhora da Consolação",
+  "categoria": "paroquia",
+  "cidade": "São João da Boa Vista",
+  "padroeiro": "Santo Expedito e Nossa Senhora da Consolação",
+  "contatos": {
+   "telefone": "1936222077",
+   "whatsapp": "19999783256",
+   "instagram": "",
+   "site": "",
+   "email": "p.expedito.consolacao@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Expedito e Nossa Senhora da Consolação",
+    "tipo": "matriz",
+    "cidade": "São João da Boa Vista",
+    "localidade": "Jardim Lucas Teixeira",
+    "endereco": "Rua José Jorge da Rosa, 1439",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/sao-joao-da-boa-vista-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Imaculada Conceição",
+  "categoria": "paroquia",
+  "cidade": "São João da Boa Vista",
+  "padroeiro": "Imaculada Conceição",
+  "contatos": {
+   "telefone": "1936223700",
+   "whatsapp": "1936223700",
+   "instagram": "",
+   "site": "",
+   "email": "pimaculadaconceicaosjbv@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz da Imaculada Conceição",
+    "tipo": "matriz",
+    "cidade": "São João da Boa Vista",
+    "localidade": "Jardim dos Comerciários",
+    "endereco": "Rua João Albano Bueno, 675",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Última terça-feira do mês, 19h30: missa de oração por cura e libertação."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Mãe Rainha",
+    "tipo": "comunidade",
+    "cidade": "São João da Boa Vista",
+    "localidade": "Jardim Europa",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Senhor Bom Jesus",
+    "tipo": "comunidade",
+    "cidade": "São João da Boa Vista",
+    "localidade": "Pedregulho",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrado Coração de Jesus",
+    "tipo": "comunidade",
+    "cidade": "São João da Boa Vista",
+    "localidade": "Braidos",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Benedito",
+    "tipo": "comunidade",
+    "cidade": "São João da Boa Vista",
+    "localidade": "Fazenda São Benedito",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/sao-joao-da-boa-vista-sp/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Horários publicados na página da diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Lourdes",
+  "categoria": "paroquia",
+  "cidade": "Águas da Prata",
+  "padroeiro": "Nossa Senhora de Lourdes",
+  "contatos": {
+   "telefone": "1936421149",
+   "whatsapp": "1936421149",
+   "instagram": "",
+   "site": "",
+   "email": "p.nossasenhoradelourdes05@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora de Lourdes",
+    "tipo": "matriz",
+    "cidade": "Águas da Prata",
+    "localidade": "Centro",
+    "endereco": "Praça Chiquita Junqueira Ferreira, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/aguas-da-prata-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida e São Roque",
+  "categoria": "paroquia",
+  "cidade": "Águas da Prata",
+  "padroeiro": "Nossa Senhora Aparecida e São Roque",
+  "contatos": {
+   "telefone": "1936496500",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "p.aparecidasaoroque@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Aparecida e São Roque",
+    "tipo": "matriz",
+    "cidade": "Águas da Prata",
+    "localidade": "Marco Divisório",
+    "endereco": "Rua Luís Carioca, 101, Jardim Nossa Senhora Aparecida",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/aguas-da-prata-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "O GCatholic situa a igreja em Ponto da Cacata. Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Divino Espírito Santo e Nossa Senhora das Dores",
+  "categoria": "paroquia",
+  "cidade": "Espírito Santo do Pinhal",
+  "padroeiro": "Divino Espírito Santo e Nossa Senhora das Dores",
+  "contatos": {
+   "telefone": "1936513046",
+   "whatsapp": "1936513046",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiadivinoe@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Divino Espírito Santo e Nossa Senhora das Dores",
+    "tipo": "matriz",
+    "cidade": "Espírito Santo do Pinhal",
+    "localidade": "Centro",
+    "endereco": "Praça da Independência, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/espirito-santo-do-pinhal-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Francisco de Assis",
+  "categoria": "paroquia",
+  "cidade": "Espírito Santo do Pinhal",
+  "padroeiro": "São Francisco de Assis",
+  "contatos": {
+   "telefone": "1936513063",
+   "whatsapp": "1936513063",
+   "instagram": "",
+   "site": "",
+   "email": "psfrancisco_assis@outlook.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Francisco de Assis",
+    "tipo": "matriz",
+    "cidade": "Espírito Santo do Pinhal",
+    "localidade": "Jardim das Rosas",
+    "endereco": "Praça Engenheiro José Fábio Raimundo, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/espirito-santo-do-pinhal-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "Espírito Santo do Pinhal",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "1936513312",
+   "whatsapp": "1936513312",
+   "instagram": "",
+   "site": "",
+   "email": "p-saojoaobatista@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Batista",
+    "tipo": "matriz",
+    "cidade": "Espírito Santo do Pinhal",
+    "localidade": "Largo São João",
+    "endereco": "Praça Amador Bueno Florence, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": "Missa pela beatificação do Padre Matheus"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa do Sagrado Coração"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Dia 18 do mês, 15h: missa de Mãe, Rainha e Vencedora Três Vezes Admirável de Schoenstatt (no fim de semana, passa à missa de domingo às 9h30)."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Espírito Santo do Pinhal",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Pedro",
+    "tipo": "comunidade",
+    "cidade": "Espírito Santo do Pinhal",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Cruz e Nossa Senhora da Piedade",
+    "tipo": "comunidade",
+    "cidade": "Espírito Santo do Pinhal",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/espirito-santo-do-pinhal-sp/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Atendida pelos assuncionistas (A.A.). Horários na página da diocese; as comunidades não têm bairro na fonte."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia dos Santos Mártires, São Pantaleão, Santa Luzia e São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "Espírito Santo do Pinhal",
+  "padroeiro": "Santos Mártires, São Pantaleão, Santa Luzia e São Sebastião",
+  "contatos": {
+   "telefone": "1936612770",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja de São Sebastião",
+    "tipo": "matriz",
+    "cidade": "Espírito Santo do Pinhal",
+    "localidade": "Monte Alegre",
+    "endereco": "Rua Jovina Ferreira Martins, 75",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/espirito-santo-do-pinhal-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Matriz é a Igreja de São Sebastião. O e-mail da página é pessoal do pároco e ficou fora. Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Cruz e Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Espírito Santo do Pinhal",
+  "padroeiro": "Santa Cruz e Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "1936516167",
+   "whatsapp": "1936516167",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasantacruzpinhal@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Cruz e Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Espírito Santo do Pinhal",
+    "localidade": "Jardim Santa Lúcia",
+    "endereco": "Rua São José, 1",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/espirito-santo-do-pinhal-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Secretaria na Rua Waldomiro Azevedo Lomônaco, 85, fundos, Jardim Santa Terezinha. Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Santo Antônio do Jardim",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "1936541258",
+   "whatsapp": "19996703725",
+   "instagram": "",
+   "site": "",
+   "email": "paroquia.sto.antonio@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Santo Antônio do Jardim",
+    "localidade": "Centro",
+    "endereco": "Praça João Pessoa, 20",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/santo-antonio-do-jardim-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santuário Nossa Senhora da Conceição",
+  "categoria": "basilica",
+  "cidade": "Caconde",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "1936621233",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiaimaculadacaconde@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Basílica Santuário de Nossa Senhora da Conceição",
+    "tipo": "santuario",
+    "cidade": "Caconde",
+    "localidade": "Centro",
+    "endereco": "Praça Ranieri Mazzilli, 12",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/caconde-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Basílica menor e santuário (GCatholic: Nossa Senhora da Conceição do Bom Sucesso); paróquia de 1775. Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Divino Espírito Santo",
+  "categoria": "paroquia",
+  "cidade": "Divinolândia",
+  "padroeiro": "Divino Espírito Santo",
+  "contatos": {
+   "telefone": "1936631321",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "espiritosantodivinolandia@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Divino Espírito Santo",
+    "tipo": "matriz",
+    "cidade": "Divinolândia",
+    "localidade": "Centro",
+    "endereco": "Praça Prefeito Dr. Alcindo Cardoso de Paiva, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/divinolandia-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Divinolândia",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "1936691100",
+   "whatsapp": "19999573944",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiansaparecidaa@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Divinolândia",
+    "localidade": "Campestrinho",
+    "endereco": "Rua Espírito Santo, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/divinolandia-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José",
+  "categoria": "paroquia",
+  "cidade": "São José do Rio Pardo",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "1936084468",
+   "whatsapp": "1936084468",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiamatrizsjrp@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José",
+    "tipo": "matriz",
+    "cidade": "São José do Rio Pardo",
+    "localidade": "Centro",
+    "endereco": "Praça Capitão Vicente Dias, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/sao-jose-do-rio-pardo-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santuário São Roque",
+  "categoria": "paroquia",
+  "cidade": "São José do Rio Pardo",
+  "padroeiro": "São Roque",
+  "contatos": {
+   "telefone": "1936084700",
+   "whatsapp": "19971388508",
+   "instagram": "",
+   "site": "",
+   "email": "saoroquesjrp@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário de São Roque",
+    "tipo": "santuario",
+    "cidade": "São José do Rio Pardo",
+    "localidade": "",
+    "endereco": "Praça Monsenhor Guilherme Arnould, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/sao-jose-do-rio-pardo-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Matriz é santuário; atendida pelos monges cistercienses da Abadia de Nossa Senhora de São Bernardo. Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Cristo Redentor",
+  "categoria": "paroquia",
+  "cidade": "São José do Rio Pardo",
+  "padroeiro": "Cristo Redentor",
+  "contatos": {
+   "telefone": "1936081911",
+   "whatsapp": "1936081911",
+   "instagram": "",
+   "site": "",
+   "email": "cristoredentorsjrp@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja de São Judas Tadeu",
+    "tipo": "matriz",
+    "cidade": "São José do Rio Pardo",
+    "localidade": "Vale Redentor 2",
+    "endereco": "Rua Alexandre Machitti, 104",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/sao-jose-do-rio-pardo-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "O GCatholic dá como matriz a Igreja de São Judas Tadeu. Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Edwiges",
+  "categoria": "paroquia",
+  "cidade": "São José do Rio Pardo",
+  "padroeiro": "Santa Edwiges",
+  "contatos": {
+   "telefone": "19996479599",
+   "whatsapp": "19996479599",
+   "instagram": "",
+   "site": "",
+   "email": "secretaria@santaedwiges.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Edwiges",
+    "tipo": "matriz",
+    "cidade": "São José do Rio Pardo",
+    "localidade": "Carlos Cassucci",
+    "endereco": "Rua Fernando Fernandes, 501",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Igreja de Santo Expedito",
+    "tipo": "capela",
+    "cidade": "São José do Rio Pardo",
+    "localidade": "Vila Verde",
+    "endereco": "Rua Etelvina Galleazzo Cassucci, 482",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/sao-jose-do-rio-pardo-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Duas secretarias: Santa Edwiges (manhã) e Santo Expedito (tarde). O site santaedwiges.org.br não respondeu em 13/11/2026. Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Cristóvão",
+  "categoria": "paroquia",
+  "cidade": "São José do Rio Pardo",
+  "padroeiro": "São Cristóvão",
+  "contatos": {
+   "telefone": "1936083901",
+   "whatsapp": "19997293901",
+   "instagram": "",
+   "site": "",
+   "email": "parcristovao@ig.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Cristóvão",
+    "tipo": "matriz",
+    "cidade": "São José do Rio Pardo",
+    "localidade": "Vila Brasil",
+    "endereco": "Praça São Cristóvão, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/sao-jose-do-rio-pardo-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Rosário de Pompéia",
+  "categoria": "paroquia",
+  "cidade": "São José do Rio Pardo",
+  "padroeiro": "Nossa Senhora do Rosário de Pompéia",
+  "contatos": {
+   "telefone": "1936814718",
+   "whatsapp": "19998651914",
+   "instagram": "",
+   "site": "",
+   "email": "contato.pompeia@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Rosário de Pompéia",
+    "tipo": "matriz",
+    "cidade": "São José do Rio Pardo",
+    "localidade": "Vila Formosa",
+    "endereco": "Praça Agripino Ribeiro da Silva, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/sao-jose-do-rio-pardo-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santuário Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "São José do Rio Pardo",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "1936081912",
+   "whatsapp": "1936081912",
+   "instagram": "",
+   "site": "",
+   "email": "paroquia.santuario.santoantonio@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário de Santo Antônio",
+    "tipo": "santuario",
+    "cidade": "São José do Rio Pardo",
+    "localidade": "Santo Antônio",
+    "endereco": "Praça Presidente Médici, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/sao-jose-do-rio-pardo-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Matriz é santuário. Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "São Sebastião da Grama",
+  "padroeiro": "São Sebastião",
+  "contatos": {
+   "telefone": "1936461253",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "saosebastiaodiocesesjbv@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Sebastião",
+    "tipo": "matriz",
+    "cidade": "São Sebastião da Grama",
+    "localidade": "Centro",
+    "endereco": "Praça São Sebastião, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/sao-sebastiao-da-grama-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Tapiratiba",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "1936571464",
+   "whatsapp": "19971024858",
+   "instagram": "",
+   "site": "",
+   "email": "nsaparecidatp@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Tapiratiba",
+    "localidade": "",
+    "endereco": "Praça Dona Esméria Ribeiro do Valle Figueiredo, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/tapiratiba-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sant'Ana",
+  "categoria": "paroquia",
+  "cidade": "Vargem Grande do Sul",
+  "padroeiro": "Sant'Ana",
+  "contatos": {
+   "telefone": "1936411146",
+   "whatsapp": "19994003368",
+   "instagram": "",
+   "site": "",
+   "email": "santanavgs@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Sant'Ana",
+    "tipo": "matriz",
+    "cidade": "Vargem Grande do Sul",
+    "localidade": "Centro",
+    "endereco": "Praça Capitão João Pinto Fontão, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/vargem-grande-do-sul-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Joaquim",
+  "categoria": "paroquia",
+  "cidade": "Vargem Grande do Sul",
+  "padroeiro": "São Joaquim",
+  "contatos": {
+   "telefone": "1936411498",
+   "whatsapp": "1936411498",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasaojoaquimvgs@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Joaquim",
+    "tipo": "matriz",
+    "cidade": "Vargem Grande do Sul",
+    "localidade": "Jardim Dolores",
+    "endereco": "Rua César Cossi, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/vargem-grande-do-sul-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Vargem Grande do Sul",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "1936411764",
+   "whatsapp": "1936411764",
+   "instagram": "",
+   "site": "",
+   "email": "misticarosa@terra.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Vargem Grande do Sul",
+    "localidade": "Jardim Bela Vista",
+    "endereco": "Rua Hermenegildo Cossi, 200",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/vargem-grande-do-sul-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Vargem Grande do Sul",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "1936417256",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "pnsaparecidavgs@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Vargem Grande do Sul",
+    "localidade": "Nossa Senhora Aparecida",
+    "endereco": "Praça Nossa Senhora Aparecida, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/vargem-grande-do-sul-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Luzia e São João Paulo II",
+  "categoria": "paroquia",
+  "cidade": "Vargem Grande do Sul",
+  "padroeiro": "Santa Luzia e São João Paulo II",
+  "contatos": {
+   "telefone": "1936416070",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquia.comosolhosdafe@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Luzia e São João Paulo II",
+    "tipo": "matriz",
+    "cidade": "Vargem Grande do Sul",
+    "localidade": "Jardim Paulista",
+    "endereco": "Avenida Monsenhor Celestino Garcia, 441",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/vargem-grande-do-sul-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Senhor Bom Jesus",
+  "categoria": "paroquia",
+  "cidade": "Aguaí",
+  "padroeiro": "Senhor Bom Jesus",
+  "contatos": {
+   "telefone": "1936521469",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "psbjesusaguai@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Senhor Bom Jesus",
+    "tipo": "matriz",
+    "cidade": "Aguaí",
+    "localidade": "Centro",
+    "endereco": "Rua Joaquim José, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/aguai-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Benedito",
+  "categoria": "paroquia",
+  "cidade": "Aguaí",
+  "padroeiro": "São Benedito",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Benedito",
+    "tipo": "matriz",
+    "cidade": "Aguaí",
+    "localidade": "Centro",
+    "endereco": "Rua Capitão Silva Borges, 975",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://darkgrey-bison-133942.hostingersite.com/fic_aguai.php",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://gcatholic.org/churches/local/zjoa1",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesesaojoao.org.br/aguai-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Só na versão anterior do site da diocese (1996) e no GCatholic; a página atual de Aguaí não a lista. Contatos da fonte eram do padre. Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Cruz",
+  "categoria": "paroquia",
+  "cidade": "Aguaí",
+  "padroeiro": "Santa Cruz",
+  "contatos": {
+   "telefone": "19997526045",
+   "whatsapp": "19997526045",
+   "instagram": "",
+   "site": "",
+   "email": "parsantacruz.aguai@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Cruz",
+    "tipo": "matriz",
+    "cidade": "Aguaí",
+    "localidade": "Teotônio Vilela",
+    "endereco": "Rua Rafael Martins Rocca, 187",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://darkgrey-bison-133942.hostingersite.com/fic_aguai.php",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://gcatholic.org/churches/local/zjoa1",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesesaojoao.org.br/aguai-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Só na versão anterior do site da diocese (2009) e no GCatholic; a página atual de Aguaí não a lista. Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José",
+  "categoria": "paroquia",
+  "cidade": "Estiva Gerbi",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "1938689502",
+   "whatsapp": "19994292954",
+   "instagram": "",
+   "site": "",
+   "email": "pqsaojosemg@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José",
+    "tipo": "matriz",
+    "cidade": "Estiva Gerbi",
+    "localidade": "Centro",
+    "endereco": "Rua Ângelo Zanco, 630",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Santuário Rosa Mística",
+    "tipo": "santuario",
+    "cidade": "Estiva Gerbi",
+    "localidade": "",
+    "endereco": "Rodovia Dr. José Lanzi, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/santuarios/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesesaojoao.org.br/estiva-gerbi-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "O Santuário diocesano Rosa Mística tem o mesmo pároco, reitor e telefone da paróquia. Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Imaculada Conceição",
+  "categoria": "paroquia",
+  "cidade": "Mogi Guaçu",
+  "padroeiro": "Imaculada Conceição",
+  "contatos": {
+   "telefone": "1938610173",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "matrizimaculada@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz da Imaculada Conceição",
+    "tipo": "matriz",
+    "cidade": "Mogi Guaçu",
+    "localidade": "Centro",
+    "endereco": "Praça Rui Barbosa, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/mogi-guacu-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Paróquia de 1740. Secretaria na Rua Tenente Rocha, 14, Centro. Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Rosário",
+  "categoria": "paroquia",
+  "cidade": "Mogi Guaçu",
+  "padroeiro": "Nossa Senhora do Rosário",
+  "contatos": {
+   "telefone": "1938613655",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "nsrosariomg2@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Rosário",
+    "tipo": "matriz",
+    "cidade": "Mogi Guaçu",
+    "localidade": "Capela",
+    "endereco": "Praça Antônio Giovani Lanzi, 199",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/mogi-guacu-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Mogi Guaçu",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "1938611821",
+   "whatsapp": "19993622905",
+   "instagram": "",
+   "site": "",
+   "email": "stantoniomg@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Mogi Guaçu",
+    "localidade": "Vila Paraíso",
+    "endereco": "Praça Padre Longino Wastbinder, 48",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/mogi-guacu-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Conceição Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Mogi Guaçu",
+  "padroeiro": "Nossa Senhora da Conceição Aparecida",
+  "contatos": {
+   "telefone": "1938417226",
+   "whatsapp": "1938417226",
+   "instagram": "",
+   "site": "",
+   "email": "paroquia.nsaparecida1987@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Conceição Aparecida",
+    "tipo": "matriz",
+    "cidade": "Mogi Guaçu",
+    "localidade": "Jardim Novo I",
+    "endereco": "Rua José Ferreira de Campos, 10",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/mogi-guacu-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo André",
+  "categoria": "paroquia",
+  "cidade": "Mogi Guaçu",
+  "padroeiro": "Santo André",
+  "contatos": {
+   "telefone": "19998658697",
+   "whatsapp": "19998658697",
+   "instagram": "",
+   "site": "",
+   "email": "paroquia_santoandre@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo André",
+    "tipo": "matriz",
+    "cidade": "Mogi Guaçu",
+    "localidade": "Martinho Prado Júnior",
+    "endereco": "Rua Hermínio Costa, 149",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/mogi-guacu-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "No distrito de Martinho Prado Júnior. O GCatholic lista ali também o Santuário Jesus Misericordioso, que a página da diocese não cita. Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Judas Tadeu",
+  "categoria": "paroquia",
+  "cidade": "Mogi Guaçu",
+  "padroeiro": "São Judas Tadeu",
+  "contatos": {
+   "telefone": "1938917218",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "pasj03@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Judas Tadeu",
+    "tipo": "matriz",
+    "cidade": "Mogi Guaçu",
+    "localidade": "Ipê II",
+    "endereco": "Rua Antonina, 32",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/mogi-guacu-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Luz",
+  "categoria": "paroquia",
+  "cidade": "Mogi Guaçu",
+  "padroeiro": "Nossa Senhora da Luz",
+  "contatos": {
+   "telefone": "1938918229",
+   "whatsapp": "19991704982",
+   "instagram": "",
+   "site": "",
+   "email": "nsluzmg@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Luz",
+    "tipo": "matriz",
+    "cidade": "Mogi Guaçu",
+    "localidade": "Jardim Itamaraty",
+    "endereco": "Rua Orlando Donegá, 225",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/mogi-guacu-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Pedro Pescador",
+  "categoria": "paroquia",
+  "cidade": "Mogi Guaçu",
+  "padroeiro": "São Pedro Pescador",
+  "contatos": {
+   "telefone": "1938913253",
+   "whatsapp": "1938913253",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasaopedropescador@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Pedro Pescador",
+    "tipo": "matriz",
+    "cidade": "Mogi Guaçu",
+    "localidade": "Parque Cidade Nova",
+    "endereco": "Avenida Júlio Xavier da Silva, 660",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/mogi-guacu-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Terezinha do Menino Jesus",
+  "categoria": "paroquia",
+  "cidade": "Mogi Guaçu",
+  "padroeiro": "Santa Terezinha do Menino Jesus",
+  "contatos": {
+   "telefone": "1938616237",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "santateresinhaguacu@bol.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Terezinha do Menino Jesus",
+    "tipo": "matriz",
+    "cidade": "Mogi Guaçu",
+    "localidade": "Jardim Santa Terezinha I",
+    "endereco": "Rua Luíza Leitão Gonçalves, 166",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/mogi-guacu-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José Operário",
+  "categoria": "paroquia",
+  "cidade": "Mogi Guaçu",
+  "padroeiro": "São José Operário",
+  "contatos": {
+   "telefone": "1938911876",
+   "whatsapp": "19991980292",
+   "instagram": "",
+   "site": "",
+   "email": "secretariaparoquiasaojoseoperario@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José Operário",
+    "tipo": "matriz",
+    "cidade": "Mogi Guaçu",
+    "localidade": "Jardim Progresso",
+    "endereco": "Rua Juvenal Pinheiro Cardoso, 188",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/mogi-guacu-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Expedito",
+  "categoria": "paroquia",
+  "cidade": "Mogi Guaçu",
+  "padroeiro": "Santo Expedito",
+  "contatos": {
+   "telefone": "1938614560",
+   "whatsapp": "1938614560",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasantoexpeditomogiguacu@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Expedito",
+    "tipo": "matriz",
+    "cidade": "Mogi Guaçu",
+    "localidade": "Alto dos Ypês",
+    "endereco": "Rua João Teixeira Diniz, 122",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/mogi-guacu-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Fátima",
+  "categoria": "paroquia",
+  "cidade": "Mogi Guaçu",
+  "padroeiro": "Nossa Senhora de Fátima",
+  "contatos": {
+   "telefone": "1938911371",
+   "whatsapp": "1938911371",
+   "instagram": "",
+   "site": "",
+   "email": "paroquia.fatima@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora de Fátima",
+    "tipo": "matriz",
+    "cidade": "Mogi Guaçu",
+    "localidade": "Jardim Hedy",
+    "endereco": "Rua Benedito Rodrigues, 260",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/mogi-guacu-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Teresa D'Ávila",
+  "categoria": "paroquia",
+  "cidade": "Mogi Guaçu",
+  "padroeiro": "Santa Teresa d'Ávila",
+  "contatos": {
+   "telefone": "1938184727",
+   "whatsapp": "19974029530",
+   "instagram": "",
+   "site": "",
+   "email": "stdavilamg@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja de São Sebastião",
+    "tipo": "matriz",
+    "cidade": "Mogi Guaçu",
+    "localidade": "Itacolomy",
+    "endereco": "Rua Valinhos, 495",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/mogi-guacu-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "O GCatholic dá como matriz a Igreja de São Sebastião. Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora das Graças",
+  "categoria": "paroquia",
+  "cidade": "Mogi Guaçu",
+  "padroeiro": "Nossa Senhora das Graças",
+  "contatos": {
+   "telefone": "1938183272",
+   "whatsapp": "19978257383",
+   "instagram": "",
+   "site": "",
+   "email": "paroquia_gracas@outlook.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora das Graças",
+    "tipo": "matriz",
+    "cidade": "Mogi Guaçu",
+    "localidade": "Jardim Novo II",
+    "endereco": "Rua Fernando Casagrande, 205",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/mogi-guacu-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Edwiges",
+  "categoria": "paroquia",
+  "cidade": "Mogi Guaçu",
+  "padroeiro": "Santa Edwiges",
+  "contatos": {
+   "telefone": "1938188841",
+   "whatsapp": "1938188841",
+   "instagram": "",
+   "site": "",
+   "email": "secretariasantaedwiges@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Edwiges",
+    "tipo": "matriz",
+    "cidade": "Mogi Guaçu",
+    "localidade": "Jardim Almira",
+    "endereco": "Avenida dos Trabalhadores, 3875",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/mogi-guacu-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Benedito",
+  "categoria": "paroquia",
+  "cidade": "Mogi Guaçu",
+  "padroeiro": "São Benedito",
+  "contatos": {
+   "telefone": "1938415952",
+   "whatsapp": "19996559723",
+   "instagram": "",
+   "site": "",
+   "email": "pq.saobenedito@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Benedito",
+    "tipo": "matriz",
+    "cidade": "Mogi Guaçu",
+    "localidade": "Jardim Eldorado",
+    "endereco": "Rua Sebastião Alves, 505",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/mogi-guacu-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "Mogi Guaçu",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "19987428378",
+   "whatsapp": "19987428378",
+   "instagram": "",
+   "site": "",
+   "email": "saojoaobatista.itaqui@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Batista",
+    "tipo": "matriz",
+    "cidade": "Mogi Guaçu",
+    "localidade": "Itaqui",
+    "endereco": "Avenida Prefeito João Custódio dos Santos, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/mogi-guacu-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Perpétuo Socorro",
+  "categoria": "paroquia",
+  "cidade": "Mogi Guaçu",
+  "padroeiro": "Nossa Senhora do Perpétuo Socorro",
+  "contatos": {
+   "telefone": "19998939793",
+   "whatsapp": "19998939793",
+   "instagram": "",
+   "site": "",
+   "email": "perpetuosocorromogiguacu@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Perpétuo Socorro",
+    "tipo": "matriz",
+    "cidade": "Mogi Guaçu",
+    "localidade": "Chácara Pantanal",
+    "endereco": "Rua Vicente Ortiz de Camargo Neto, 75",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/mogi-guacu-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Criada em 2016; tem administrador paroquial. Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora das Dores",
+  "categoria": "paroquia",
+  "cidade": "Casa Branca",
+  "padroeiro": "Nossa Senhora das Dores",
+  "contatos": {
+   "telefone": "1936712296",
+   "whatsapp": "1936712296",
+   "instagram": "",
+   "site": "",
+   "email": "matrizcb@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora das Dores",
+    "tipo": "matriz",
+    "cidade": "Casa Branca",
+    "localidade": "Centro",
+    "endereco": "Praça Barão de Mogi Guaçu, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/casa-branca-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Paróquia de 1814. Casa paroquial na Rua Alfredo Paulo de Azevedo, 51. Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Pedro Apóstolo",
+  "categoria": "paroquia",
+  "cidade": "Casa Branca",
+  "padroeiro": "São Pedro Apóstolo",
+  "contatos": {
+   "telefone": "1936791250",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "spalagoabranca@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Pedro Apóstolo",
+    "tipo": "matriz",
+    "cidade": "Casa Branca",
+    "localidade": "Lagoa Branca",
+    "endereco": "Praça da República, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/casa-branca-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "No distrito de Lagoa Branca. Tem também a Capela São Sebastião, com secretaria própria, sem endereço na fonte. Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santuário Nossa Senhora do Desterro",
+  "categoria": "paroquia",
+  "cidade": "Casa Branca",
+  "padroeiro": "Nossa Senhora do Desterro",
+  "contatos": {
+   "telefone": "1936711143",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "snsdesterrocb@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário de Nossa Senhora do Desterro",
+    "tipo": "santuario",
+    "cidade": "Casa Branca",
+    "localidade": "Desterro",
+    "endereco": "Rua dos Pelegrini, 11",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/santuarios/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesesaojoao.org.br/casa-branca-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Matriz é santuário diocesano. O site santuariodesterro.com.br estava em manutenção em 13/11/2026. Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "Casa Branca",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "1936715928",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "psjbatista@outlook.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Batista",
+    "tipo": "matriz",
+    "cidade": "Casa Branca",
+    "localidade": "São João",
+    "endereco": "Praça 25 de Outubro, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/casa-branca-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora das Dores",
+  "categoria": "paroquia",
+  "cidade": "Itobi",
+  "padroeiro": "Nossa Senhora das Dores",
+  "contatos": {
+   "telefone": "1936471618",
+   "whatsapp": "19996154051",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiadeitobi@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora das Dores",
+    "tipo": "matriz",
+    "cidade": "Itobi",
+    "localidade": "Centro",
+    "endereco": "Praça Nossa Senhora das Dores, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/itobi-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "Mococa",
+  "padroeiro": "São Sebastião",
+  "contatos": {
+   "telefone": "1936560566",
+   "whatsapp": "1936560566",
+   "instagram": "saosebastiaomococa",
+   "site": "https://saosebastiaomococa.com.br",
+   "email": "secretaria@saosebastiaomococa.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Sebastião",
+    "tipo": "matriz",
+    "cidade": "Mococa",
+    "localidade": "Centro",
+    "endereco": "Praça Ademar de Barros, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Igreja de Nossa Senhora do Rosário",
+    "tipo": "capela",
+    "cidade": "Mococa",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": "Missa pelos fiéis defuntos"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": "Missa em louvor aos anjos de Deus"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": "Missa em louvor ao glorioso São José"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": "Missa da Santíssima Eucaristia"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": "Missa da Paixão e Morte de Nosso Senhor"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Adoração Eucarística recorrente das 7h30 às 17h (agenda do site, 13/11/2026, sexta-feira)."
+   },
+   {
+    "id_banco": null,
+    "nome": "Igreja de Santa Cecília",
+    "tipo": "capela",
+    "cidade": "Mococa",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://saosebastiaomococa.com.br/horarios",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesesaojoao.org.br/mococa-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Horários do site da própria paróquia."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sagrada Família",
+  "categoria": "paroquia",
+  "cidade": "Mococa",
+  "padroeiro": "Sagrada Família",
+  "contatos": {
+   "telefone": "1936658471",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "sagradafamilia83@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz da Sagrada Família",
+    "tipo": "matriz",
+    "cidade": "Mococa",
+    "localidade": "Jardim Nova Mococa",
+    "endereco": "Praça Felício Costi, 10",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/mococa-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Luzia",
+  "categoria": "paroquia",
+  "cidade": "Mococa",
+  "padroeiro": "Santa Luzia",
+  "contatos": {
+   "telefone": "19995261585",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "santaluziamococa@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Luzia",
+    "tipo": "matriz",
+    "cidade": "Mococa",
+    "localidade": "Cohab II",
+    "endereco": "Rua Padre João Bueno Gonçalves, 539",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/mococa-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Mococa",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "1936565026",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasantoantoniomoc@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Mococa",
+    "localidade": "Vila Carvalho",
+    "endereco": "Praça Tarcísio Cândido da Cruz, 333",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/mococa-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Domingos",
+  "categoria": "paroquia",
+  "cidade": "Mococa",
+  "padroeiro": "São Domingos",
+  "contatos": {
+   "telefone": "1936655508",
+   "whatsapp": "19991314704",
+   "instagram": "",
+   "site": "",
+   "email": "secretaria@paroquiasaodomingos.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Domingos",
+    "tipo": "matriz",
+    "cidade": "Mococa",
+    "localidade": "Jardim São Domingos",
+    "endereco": "Praça Madre Clélia Merloni, 100",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/mococa-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Cruz",
+  "categoria": "paroquia",
+  "cidade": "Mococa",
+  "padroeiro": "Santa Cruz",
+  "contatos": {
+   "telefone": "1936653585",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "secsantacruzmococa@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Cruz",
+    "tipo": "matriz",
+    "cidade": "Mococa",
+    "localidade": "Mocoquinha",
+    "endereco": "Praça Santa Cruz, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/mococa-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Cristóvão",
+  "categoria": "paroquia",
+  "cidade": "Mococa",
+  "padroeiro": "São Cristóvão",
+  "contatos": {
+   "telefone": "1936651252",
+   "whatsapp": "1936651252",
+   "instagram": "",
+   "site": "",
+   "email": "pscristovaomococa@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Cristóvão",
+    "tipo": "matriz",
+    "cidade": "Mococa",
+    "localidade": "Vila Lambari",
+    "endereco": "Rua Espírito Santo, 239",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/mococa-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Luz",
+  "categoria": "paroquia",
+  "cidade": "Mococa",
+  "padroeiro": "Nossa Senhora da Luz",
+  "contatos": {
+   "telefone": "1936954415",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "nossasenhoraluzmocigarai@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Luz",
+    "tipo": "matriz",
+    "cidade": "Mococa",
+    "localidade": "Igaraí",
+    "endereco": "Praça Lavínia Ribeiro do Vale, 441",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/mococa-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "No distrito de Igaraí. Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Teresinha do Menino Jesus",
+  "categoria": "paroquia",
+  "cidade": "Mococa",
+  "padroeiro": "Santa Teresinha do Menino Jesus",
+  "contatos": {
+   "telefone": "19995946698",
+   "whatsapp": "19995946698",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasantateresinhamococa@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Teresinha do Menino Jesus",
+    "tipo": "matriz",
+    "cidade": "Mococa",
+    "localidade": "Jardim Francisco Garófalo",
+    "endereco": "Rua Oscar de Souza Dias, 125",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/mococa-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Benedito",
+  "categoria": "paroquia",
+  "cidade": "Mococa",
+  "padroeiro": "São Benedito",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "19989133990",
+   "instagram": "",
+   "site": "",
+   "email": "sba.paroquia@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Benedito",
+    "tipo": "matriz",
+    "cidade": "Mococa",
+    "localidade": "São Benedito das Areias",
+    "endereco": "Praça Coronel Custódio Pinheiro, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Quarta 19h30, quinta 15h e sexta 6h (a página não diz em qual igreja)."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Fátima",
+    "tipo": "comunidade",
+    "cidade": "Mococa",
+    "localidade": "São Benedito das Areias",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/mococa-sp/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "No distrito de São Benedito das Areias; com a Comunidade Missionária Providência Santíssima. Horários na página da diocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Cruz",
+  "categoria": "paroquia",
+  "cidade": "Santa Cruz das Palmeiras",
+  "padroeiro": "Santa Cruz",
+  "contatos": {
+   "telefone": "1936721584",
+   "whatsapp": "19981414846",
+   "instagram": "",
+   "site": "",
+   "email": "stcruzscp@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Cruz",
+    "tipo": "matriz",
+    "cidade": "Santa Cruz das Palmeiras",
+    "localidade": "Centro",
+    "endereco": "Praça Condessa Monteiro de Barros, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/santa-cruz-das-palmeiras-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Rita de Cássia",
+  "categoria": "paroquia",
+  "cidade": "Santa Cruz das Palmeiras",
+  "padroeiro": "Santa Rita de Cássia",
+  "contatos": {
+   "telefone": "19990015616",
+   "whatsapp": "19990015616",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasantaritadecassiascp@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Rita de Cássia",
+    "tipo": "matriz",
+    "cidade": "Santa Cruz das Palmeiras",
+    "localidade": "Ada Dedini Ometto",
+    "endereco": "Rua Gumercindo Guerreiro, 91",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/santa-cruz-das-palmeiras-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "O GCatholic dá como igreja a de Santo Antônio. Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Rosário",
+  "categoria": "paroquia",
+  "cidade": "Santa Cruz das Palmeiras",
+  "padroeiro": "Nossa Senhora do Rosário",
+  "contatos": {
+   "telefone": "1936723395",
+   "whatsapp": "19998612581",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiansdorosarioscp@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Rosário",
+    "tipo": "matriz",
+    "cidade": "Santa Cruz das Palmeiras",
+    "localidade": "Jardim Brasil",
+    "endereco": "Rua Rangel Pestana, 41",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/santa-cruz-das-palmeiras-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio e Beato Donizetti",
+  "categoria": "paroquia",
+  "cidade": "Tambaú",
+  "padroeiro": "Santo Antônio e Beato Donizetti",
+  "contatos": {
+   "telefone": "1936731723",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "santoantoniotbu@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Tambaú",
+    "localidade": "Centro",
+    "endereco": "Praça Santo Antônio, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesesaojoao.org.br/tambau-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Paróquia de 1902; o pároco é também reitor. Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Santuário Nossa Senhora Aparecida e Beato Donizetti",
+  "categoria": "santuario",
+  "cidade": "Tambaú",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "1936733201",
+   "whatsapp": "19993902473",
+   "instagram": "beato.donizetti",
+   "site": "https://padredonizetti.org.br",
+   "email": "santuarionsa@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário de Nossa Senhora Aparecida e Beato Donizetti",
+    "tipo": "santuario",
+    "cidade": "Tambaú",
+    "localidade": "Patrimônio",
+    "endereco": "Praça Padre Donizetti, 9",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Igreja de São José",
+    "tipo": "capela",
+    "cidade": "Tambaú",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": "Com o Terço dos Homens"
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://padredonizetti.org.br/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesesaojoao.org.br/santuarios/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesesaojoao.org.br/tambau-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "A diocese o lista entre as paróquias (2009); o GCatholic o marca como paróquia e santuário. Horários do site do santuário."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "Tambaú",
+  "padroeiro": "São Sebastião",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Sebastião",
+    "tipo": "matriz",
+    "cidade": "Tambaú",
+    "localidade": "Vila Padre Donizetti",
+    "endereco": "Rua Taio, s/n",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://gcatholic.org/churches/brazil/137020",
+    "data": "2026-11-09",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesesaojoao.org.br/tambau-sp/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "A página da diocese a lista como Comunidade São Sebastião (2014), sem contatos; o GCatholic a marca como paróquia criada em 2014. Sem horário publicado pela paróquia ou pela diocese; a página da diocese só traz endereço e contatos."
+ }
+]
