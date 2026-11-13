@@ -26,9 +26,10 @@ público), `web/www/horas/Latin/`:
   o "Libera me, Domine, de viis inferni"; a distribuição dos noturnos pelos
   dias (segunda e quinta o 1º, terça e sexta o 2º, quarta e sábado o 3º).
 - Oração pelo pai e pela mãe ("Deus, qui nos patrem et matrem honorare
-  praecepisti"): Missal Romano, orações diversas pelos defuntos. Não achada nos
-  arquivos do Divinum Officium consultados; latim citado de memória do Missal.
-  **Conferir num Missal impresso.**
+  praecepisti"): Missal Romano, orações diversas pelos defuntos. Não está nos
+  arquivos do Divinum Officium. Conferida em 13/11/2026 no Missale Romanum de
+  1962 digitalizado (archive.org, `missale_romanum-1962`), n. 5170, "Pro patre
+  et matre": a nossa tradução bate com o latim.
 
 Vale conferir tudo com um Breviário impresso (edições de 1911 a 1962), porque o
 Divinum Officium é transcrição digital.
@@ -105,12 +106,17 @@ Divinum Officium é transcrição digital.
 
 ## Pontos para o dono conferir
 
-1. Rubrica do invitatório ("no Dia de Finados, no dia da morte ou do
-   sepultamento e quando se rezam os três noturnos"): tirada da tradição do
-   Breviário, não está no `C9.txt`. Conferir no Breviário impresso.
-2. Rubrica dos Sl 145 e 129 nas preces (omitidos no Dia de Finados e, desde
-   1955, sempre): vem da condição do Divinum Officium. Conferir.
+1. Rubrica do invitatório: conferida em 13/11/2026 no "Officium defunctorum"
+   impresso de 1827 (archive.org, `bub_gb_Bj1NzjTWX_4C`): o Ofício inteiro,
+   com invitatório e três noturnos, no Dia de Finados, no dia do sepultamento
+   ("in die Depositionis") e no aniversário; nos outros dias, um só noturno.
+   O "dia da morte" saiu do texto (não está nessa edição). Edição entre 1911 e
+   1962 não conferida.
+2. Rubrica dos Sl 145 e 129 nas preces: o Divinum Officium (`C9.txt`) omite no
+   Dia de Finados e pelas rubricas de 1955 e 1960; a edição de 1827 omite
+   também no dia do sepultamento e no aniversário (os dias do Ofício inteiro).
+   A rubrica do app passou a dizer as duas coisas.
 3. "Descanso eterno" x "eterno descanso" (ver acima).
-4. Oração pelo pai e pela mãe: latim citado de memória do Missal.
+4. Oração pelo pai e pela mãe: conferida no Missal de 1962 (ver acima).
 5. Conclusão das Matinas quando as Laudes não se seguem (Senhor, ouvi; Fidelium;
    Requiem; Descansem em paz): pelo `11-02.txt` ("Oratio Matutinum").

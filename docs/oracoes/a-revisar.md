@@ -44,3 +44,39 @@ Cada oração traz `fonte`:
 
 Na página da oração, o rodapé mostra a origem ("Texto da equipe do app",
 "tradução da equipe do app"), com honestidade e sem alarde.
+
+## Conferência de 13/11/2026
+
+Verdades da fé (`verdades.ts`) conferidas no texto oficial do Catecismo
+(vatican.va, português), número a número:
+
+- Dez Mandamentos: a lista é a fórmula catequética usada no Brasil. O quadro do
+  Catecismo fica antes do n. 2052 (e não "2052 em diante"); a origem passou a
+  dizê-lo. No texto do vatican.va (português de Portugal) o 6º e o 9º estão como
+  "guardar castidade nas palavras e nas obras" e "nos pensamentos e nos
+  desejos": mesmo conteúdo, outra redação.
+- Mandamentos da Igreja: são cinco no n. 2041 a 2043 (a origem dizia só 2042 e
+  2043). O 4º dizia "abster-se de carne"; o Catecismo diz "guardar abstinência
+  e jejuar nos dias determinados pela Igreja" (a abstinência pode ser de outro
+  alimento, conforme a Conferência Episcopal). Corrigido.
+- Mistérios principais da fé: o n. 234 trata só da Santíssima Trindade; a
+  origem passou a dizer isso. A fórmula dos dois mistérios é catequética.
+- Sete sacramentos: a divisão em iniciação, cura e serviço da comunhão vem do
+  n. 1210 e 1211; acrescentados à origem.
+- Virtudes: "que têm Deus por origem e por fim" virou "por origem, motivo e
+  objeto", como no n. 1812 (acrescentado à origem).
+- Dons do Espírito Santo: batem com o n. 1831.
+- Frutos do Espírito Santo: a ordem não batia com nada. Passou à ordem da
+  Vulgata (Gl 5,22-23) e da nossa Bíblia: paciência, benignidade, bondade,
+  longanimidade. São os mesmos doze do n. 1832.
+- Obras de misericórdia: o n. 2447 cita só parte delas; a lista de catorze é
+  catequética, e a origem passou a dizê-lo.
+- Pecados capitais: os sete batem com o n. 1866; as virtudes contrárias não
+  estão no Catecismo, e a origem passou a dizer que são da fórmula catequética.
+- Bem-aventuranças: "mansos" vinha antes de "os que choram"; o n. 1716 e a nossa
+  Bíblia (Mt 5,4-5) têm "os que choram" antes. Corrigido.
+- Mandamento do amor (n. 2055) e novíssimos (n. 1020 em diante; purgatório no
+  n. 1030): batem.
+
+Consagração de Montfort e Ladainha do Espírito Santo: ver
+`docs/devocoes/a-revisar.md`, seção "Conferência de 13/11/2026".

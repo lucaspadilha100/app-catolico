@@ -62,7 +62,7 @@ const FIM: Bloco = { linhas: [{ v: DESCANSO, r: LUZ }, DESCANSEM] };
 const preces = (salmoDasPreces: Bloco[]): Bloco[] => [
   { rubrica: "Pai-nosso em silêncio." },
   { linhas: [{ v: "E não nos deixeis cair em tentação.", r: "Mas livrai-nos do mal." }] },
-  { rubrica: "O salmo seguinte se omite no Dia de Finados e, pelas rubricas de 1955 e de 1960, sempre." },
+  { rubrica: "O salmo seguinte se omite quando se reza o Ofício inteiro (no Dia de Finados, no dia do sepultamento e no aniversário de um defunto) e, pelas rubricas de 1955 e de 1960, sempre." },
   ...salmoDasPreces,
   { linhas: [DA_PORTA_DO_INFERNO, DESCANSEM, OUVI, FIDELIUM] },
   ...OUTRAS_ORACOES,
@@ -229,7 +229,7 @@ const VINDE = "Vinde, adoremos.";
 
 const matinas: Bloco[] = [
   {
-    rubrica: "O invitatório se diz no Dia de Finados, no dia da morte ou do sepultamento e quando se rezam os três noturnos.",
+    rubrica: "O invitatório se diz no Dia de Finados e sempre que se rezam os três noturnos: no dia do sepultamento e no aniversário de um defunto.",
   },
   { titulo: "Invitatório" },
   { antifona: AO_REI },

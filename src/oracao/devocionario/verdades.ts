@@ -16,7 +16,7 @@ const ORACOES: OracaoDoDevocionario[] = [
     id: "dez-mandamentos",
     nome: "Os Dez Mandamentos da Lei de Deus",
     fonte: "magisterio",
-    origem: "Ex 20; Dt 5; fórmula catequética tradicional; Catecismo da Igreja Católica, n. 2052 em diante",
+    origem: "Ex 20,2-17; Dt 5,6-21; fórmula catequética tradicional; Catecismo da Igreja Católica, quadro dos Dez Mandamentos antes do n. 2052",
     pt: [
       "1. Amar a Deus sobre todas as coisas.",
       "2. Não tomar seu santo nome em vão.",
@@ -34,12 +34,12 @@ const ORACOES: OracaoDoDevocionario[] = [
     id: "mandamentos-da-igreja",
     nome: "Os Mandamentos da Igreja",
     fonte: "magisterio",
-    origem: "Catecismo da Igreja Católica, n. 2042 e 2043",
+    origem: "Catecismo da Igreja Católica, n. 2041 a 2043",
     pt: [
       "1. Participar da Missa inteira nos domingos e festas de guarda, e abster-se de trabalhos que impeçam a santificação desses dias.",
       "2. Confessar-se ao menos uma vez por ano.",
       "3. Comungar ao menos pela Páscoa da Ressurreição.",
-      "4. Jejuar e abster-se de carne nos dias determinados pela Igreja.",
+      "4. Jejuar e guardar abstinência nos dias determinados pela Igreja.",
       "5. Ajudar a Igreja nas suas necessidades, segundo as próprias possibilidades.",
     ],
   },
@@ -47,7 +47,7 @@ const ORACOES: OracaoDoDevocionario[] = [
     id: "misterios-principais-da-fe",
     nome: "Os mistérios principais da fé",
     fonte: "magisterio",
-    origem: "Fórmula catequética tradicional; Catecismo da Igreja Católica, n. 234",
+    origem: "Fórmula catequética tradicional; sobre a Santíssima Trindade, mistério central da fé: Catecismo da Igreja Católica, n. 234",
     pt: [
       "Os dois mistérios principais da fé são:",
       "1. A unidade e trindade de Deus: um só Deus em três Pessoas distintas, Pai, Filho e Espírito Santo.",
@@ -58,7 +58,7 @@ const ORACOES: OracaoDoDevocionario[] = [
     id: "sete-sacramentos",
     nome: "Os sete sacramentos",
     fonte: "magisterio",
-    origem: "Catecismo da Igreja Católica, n. 1113 em diante",
+    origem: "Catecismo da Igreja Católica, n. 1113, 1210 e 1211",
     pt: [
       "Sacramentos da iniciação cristã: 1. Batismo. 2. Crisma. 3. Eucaristia.",
       "Sacramentos da cura: 4. Penitência (Confissão). 5. Unção dos enfermos.",
@@ -69,9 +69,9 @@ const ORACOES: OracaoDoDevocionario[] = [
     id: "virtudes-teologais-e-cardeais",
     nome: "As virtudes teologais e cardeais",
     fonte: "magisterio",
-    origem: "Catecismo da Igreja Católica, n. 1805 e 1813",
+    origem: "Catecismo da Igreja Católica, n. 1805, 1812 e 1813",
     pt: [
-      "Virtudes teologais, que têm Deus por origem e por fim: fé, esperança e caridade.",
+      "Virtudes teologais, que têm Deus por origem, motivo e objeto: fé, esperança e caridade.",
       "Virtudes cardeais, que sustentam a vida moral: prudência, justiça, fortaleza e temperança.",
     ],
   },
@@ -96,14 +96,14 @@ const ORACOES: OracaoDoDevocionario[] = [
     fonte: "magisterio",
     origem: "Gl 5,22-23 (Vulgata); Catecismo da Igreja Católica, n. 1832",
     pt: [
-      "Caridade, alegria, paz, paciência, longanimidade, bondade, benignidade, mansidão, fidelidade, modéstia, continência e castidade.",
+      "Caridade, alegria, paz, paciência, benignidade, bondade, longanimidade, mansidão, fidelidade, modéstia, continência e castidade.",
     ],
   },
   {
     id: "obras-de-misericordia",
     nome: "As obras de misericórdia",
     fonte: "magisterio",
-    origem: "Mt 25,31-46; Catecismo da Igreja Católica, n. 2447",
+    origem: "Mt 25,31-46; fórmula catequética tradicional; Catecismo da Igreja Católica, n. 2447",
     pt: [
       "Obras de misericórdia corporais: dar de comer a quem tem fome; dar de beber a quem tem sede; vestir os nus; acolher os peregrinos; assistir os enfermos; visitar os presos; enterrar os mortos.",
       "Obras de misericórdia espirituais: ensinar os ignorantes; dar bom conselho; corrigir os que erram; consolar os tristes; perdoar as injúrias; suportar com paciência as fraquezas do próximo; rezar a Deus pelos vivos e pelos defuntos.",
@@ -113,7 +113,7 @@ const ORACOES: OracaoDoDevocionario[] = [
     id: "pecados-capitais",
     nome: "Os sete pecados capitais e as virtudes contrárias",
     fonte: "magisterio",
-    origem: "Catecismo da Igreja Católica, n. 1866",
+    origem: "Catecismo da Igreja Católica, n. 1866; as virtudes contrárias, fórmula catequética tradicional",
     pt: [
       "1. Soberba, vencida pela humildade.",
       "2. Avareza, vencida pela generosidade.",
@@ -131,8 +131,8 @@ const ORACOES: OracaoDoDevocionario[] = [
     origem: "Mt 5,3-12; Catecismo da Igreja Católica, n. 1716",
     pt: [
       "Bem-aventurados os pobres em espírito, porque deles é o reino dos céus.",
-      "Bem-aventurados os mansos, porque possuirão a terra.",
       "Bem-aventurados os que choram, porque serão consolados.",
+      "Bem-aventurados os mansos, porque possuirão a terra.",
       "Bem-aventurados os que têm fome e sede de justiça, porque serão saciados.",
       "Bem-aventurados os misericordiosos, porque alcançarão misericórdia.",
       "Bem-aventurados os limpos de coração, porque verão a Deus.",

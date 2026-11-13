@@ -192,3 +192,58 @@ ponto de atenção.
   sem memória achada em Natal).
 - Falta o Diretório Litúrgico da arquidiocese para fechar as lacunas
   (o site arquidiocesedenatal.org.br não abre deste ambiente).
+
+## Conferência de 13/11/2026
+
+Conferido em fonte real (baixada por curl), não de memória.
+
+### Consagração a Nossa Senhora (Montfort)
+- Ato de consagração: conferido frase a frase com o francês do Tratado, edição
+  Gaume de 1859 (fr.wikisource, "Traité de la vraie dévotion à la Sainte
+  Vierge/5") e edição de 1896 (archive.org, `cihm_06362`). O app segue a de
+  1896 em "vrai Dieu et vrai homme" e em "et afin que je lui sois plus fidèle
+  ..., je vous choisis aujourd'hui, ô Marie" (a de 1859 põe ponto antes).
+  Mudou: "desde toda a eternidade" virou "na eternidade" ("pendant
+  l'éternité"); "o desejo" virou "os desejos" ("les désirs"); "pobre verme"
+  virou "pequenino verme" ("petit vermisseau"). Mantido "promessas do meu
+  batismo" onde o francês diz "les vœux de mon Baptême" (é o termo que a
+  Igreja usa em português para a renovação do batismo).
+- Imitação de Cristo: todos os capítulos citados batem com o latim
+  (thelatinlibrary.com): I,1 De imitatione Christi et contemptu mundi; I,2 De
+  humili scire sui ipsius; I,14 De temerario judicio vitando; I,16 De
+  sufferentia defectuum aliorum; I,21 De compunctione cordis; I,22 De
+  conditione humanae miseriae; I,25 De ferventi emendatione totius vitae; II,11
+  De paucitate amatorum crucis; II,12 De regia via sanctae crucis; III,8 De vili
+  aestimatione sui ipsius in oculis Dei. Nada mudou.
+- Oração "de Santo Agostinho": Montfort a dá como de Santo Agostinho (Tratado,
+  edição de 1859, com o mesmo latim do app). A primeira parte ("Tu es
+  Christus... salus mea sempiterna") está nas "Meditationes" impressas entre as
+  obras de Santo Agostinho (Migne, PL 40), que a própria edição marca como
+  "auctor incertus" (la.wikisource, "Meditationes (Augustinus)"); a parte do
+  "anathema" não foi achada ali. A atribuição não se sustenta: o nome passou a
+  "Oração atribuída a Santo Agostinho". O "seja anátema" ficou: é fiel ao latim
+  de Montfort e ecoa 1Cor 16,22 ("Si quis non amat Dominum nostrum Jesum
+  Christum, sit anathema", Vulgata).
+- Ladainha do Espírito Santo: o latim do app bate com o Coeleste Palmetum de
+  1756 (archive.org, `clestepalmetumv00nakagoog`) e de 1879
+  (`coelestepalmetum00naka`), inclusive "concilias Praesides" e "deducens nos in
+  terram rectam". A edição de 1879 acrescenta uma invocação da Imaculada
+  Conceição que não está na de 1756; o app segue a de 1756. "terram rectam"
+  passou de "por caminho reto" para "à terra da retidão", como o Sl 142,10 da
+  nossa Bíblia (de onde vem a frase). "concilias praesides" ficou "unis os que a
+  presidem".
+- Dias 13 a 33: as orações de cada semana batem com o Tratado nº 228 a 230
+  (edição de 1859): "Domine, ut videam", "Noverim me", "Veni, Sancte Spiritus";
+  na terceira semana, a oração de Santo Agostinho, "Noverim te" e a Ladainha do
+  Nome de Jesus.
+
+### Ofício dos Defuntos
+- Ver `docs/devocoes/oficio-dos-defuntos-a-revisar.md`: a oração pelo pai e
+  pela mãe bate com o Missale Romanum de 1962 (n. 5170); as rubricas do
+  invitatório e dos Sl 145 e 129 foram corrigidas pela edição de 1827 e pelo
+  Divinum Officium.
+- Não conferido: um Breviário impresso entre 1911 e 1962 (não achado em texto
+  aberto). No Dia de Finados, segundo o Divinum Officium (`Sancti/11-02.txt`),
+  o 2º e o 3º noturnos têm lições próprias (Santo Agostinho, "De cura pro
+  mortuis gerenda", cap. 2 a 4, e 1Cor 15,12-22); o app usa as lições de Jó em
+  todos os dias. Fica para o dono decidir se o Dia de Finados ganha as próprias.
