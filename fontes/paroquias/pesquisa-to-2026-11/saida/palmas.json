@@ -1,0 +1,2895 @@
+[
+ {
+  "id_banco": null,
+  "nome": "Catedral Metropolitana do Divino Espírito Santo",
+  "categoria": "catedral",
+  "cidade": "Palmas",
+  "padroeiro": "Divino Espírito Santo",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "63984676166",
+   "instagram": "",
+   "site": "catedraldepalmas.com.br",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Catedral Metropolitana do Divino Espírito Santo",
+    "tipo": "matriz",
+    "cidade": "Palmas",
+    "localidade": "Centro",
+    "endereco": "Praça dos Girassóis, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": "Missa das crianças"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "11:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Confissões aos domingos durante as missas, por ordem de chegada"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://catedraldepalmas.com.br/horarios-de-missa",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepalmas.org.br/paroquias/catedral-divino-espirito-santo/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://catedraldepalmas.com.br/secretaria",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Paróquia criada em 2004; o templo novo, iniciado em 2015, recebeu a primeira missa em 2022."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José",
+  "categoria": "paroquia",
+  "cidade": "Palmas",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "6332171192",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasaojose-palmas@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Pró-Catedral de São José",
+    "tipo": "matriz",
+    "cidade": "Palmas",
+    "localidade": "Plano Diretor Sul",
+    "endereco": "604 Sul (ARSE 61), Alameda 14, lotes 06 a 10",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 2,
+      "hora": "14:00",
+      "semanas": null,
+      "observacao": "Até 17h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "14:00",
+      "semanas": null,
+      "observacao": "Até 17h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "14:00",
+      "semanas": null,
+      "observacao": "Até 17h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "14:00",
+      "semanas": null,
+      "observacao": "Até 17h"
+     }
+    ],
+    "nao_cabe": "Sábado: 19h30 na comunidade São Miguel Arcanjo e 18h na comunidade Nossa Senhora do Rosário"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepalmas.org.br/paroquias/paroquia-sao-jose-matriz-de-palmas/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepalmas.org.br/paroquias/paroquia-sao-jose-matriz-de-palmas/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Pró-catedral, criada em 1991; São José é o padroeiro de Palmas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Coração de Maria",
+  "categoria": "paroquia",
+  "cidade": "Palmas",
+  "padroeiro": "Imaculado Coração de Maria",
+  "contatos": {
+   "telefone": "6332188421",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "cordemaria.com.br",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Coração de Maria",
+    "tipo": "matriz",
+    "cidade": "Palmas",
+    "localidade": "Plano Diretor Sul",
+    "endereco": "305 Sul, Alameda 3, APM 02",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": "Com adoração ao Santíssimo"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Comunidade Santa Luzia: domingo 8h e 18h, terça 19h30. Comunidade São Paulo Apóstolo: quarta 19h30, domingo 18h"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepalmas.org.br/paroquias/coracao-de-maria/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepalmas.org.br/paroquias/coracao-de-maria/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Cristo Rei",
+  "categoria": "paroquia",
+  "cidade": "Palmas",
+  "padroeiro": "Cristo Rei",
+  "contatos": {
+   "telefone": "6332143112",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "cristoreipalmas@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Cristo Rei",
+    "tipo": "matriz",
+    "cidade": "Palmas",
+    "localidade": "Plano Diretor Norte",
+    "endereco": "405 Norte, Alameda 07, HM 02, Lote 03",
+    "horarios": [],
+    "nao_cabe": "O site da arquidiocese lista missas nas comunidades: São João Batista, domingo 10h; Nossa Senhora Aparecida, domingo 8h"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepalmas.org.br/paroquias/paroquia-cristo-rei/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "O site da arquidiocese não traz a grade de missas da matriz, só a das comunidades."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Jesus Bom Pastor",
+  "categoria": "paroquia",
+  "cidade": "Palmas",
+  "padroeiro": "Jesus Bom Pastor",
+  "contatos": {
+   "telefone": "63999481041",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Jesus Bom Pastor",
+    "tipo": "matriz",
+    "cidade": "Palmas",
+    "localidade": "Plano Diretor Norte",
+    "endereco": "503 Norte, Alameda 05, QI 11, APM 17",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 2,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": "Até 17h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": "Até 17h"
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepalmas.org.br/paroquias/paroquia-jesus-bom-pastor/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepalmas.org.br/paroquias/paroquia-jesus-bom-pastor/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Jesus de Nazaré",
+  "categoria": "paroquia",
+  "cidade": "Palmas",
+  "padroeiro": "Jesus de Nazaré",
+  "contatos": {
+   "telefone": "6332188352",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Jesus de Nazaré",
+    "tipo": "matriz",
+    "cidade": "Palmas",
+    "localidade": "Plano Diretor Norte",
+    "endereco": "305 Norte, Alameda 13, Lote 06",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Confissões de terça a sexta, das 14h às 17h, com agendamento na secretaria"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepalmas.org.br/horarios-de-missas/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepalmas.org.br/paroquias/paroquia-jesus-de-nazare/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "O site da arquidiocese não deixou claros os horários de domingo."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santuário Mãe Rainha Três Vezes Admirável de Schoenstatt",
+  "categoria": "santuario",
+  "cidade": "Palmas",
+  "padroeiro": "Mãe Rainha Três Vezes Admirável",
+  "contatos": {
+   "telefone": "6332188530",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "santuariomaerainha.com.br",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário Mãe Rainha",
+    "tipo": "santuario",
+    "cidade": "Palmas",
+    "localidade": "Plano Diretor Sul",
+    "endereco": "1103 Sul, Alameda 19, QI-11, APM 23",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "12:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepalmas.org.br/paroquias/santuario-mae-rainha/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://santuariomaerainha.com.br/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Paróquia e santuário do Movimento de Schoenstatt."
+ },
+ {
+  "id_banco": null,
+  "nome": "Santuário Nossa Senhora de Fátima",
+  "categoria": "santuario",
+  "cidade": "Palmas",
+  "padroeiro": "Nossa Senhora de Fátima",
+  "contatos": {
+   "telefone": "63999442388",
+   "whatsapp": "",
+   "instagram": "santuariodefatimapalmas",
+   "site": "santuariodefatimapalmas.com.br",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário Nossa Senhora de Fátima",
+    "tipo": "santuario",
+    "cidade": "Palmas",
+    "localidade": "Plano Diretor Sul",
+    "endereco": "308 Sul (ARSE 33), Alameda 07, APM 03",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "11:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Confissões de terça a sábado, por ordem de chegada"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepalmas.org.br/paroquias/santuario-n-sra-de-fatima/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepalmas.org.br/paroquias/santuario-n-sra-de-fatima/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.instagram.com/santuariodefatimapalmas/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Paróquia e santuário."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Monte do Carmo",
+  "categoria": "paroquia",
+  "cidade": "Palmas",
+  "padroeiro": "Nossa Senhora do Carmo",
+  "contatos": {
+   "telefone": "6332188308",
+   "whatsapp": "",
+   "instagram": "paroquiamontedocarmo",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Monte do Carmo",
+    "tipo": "matriz",
+    "cidade": "Palmas",
+    "localidade": "Plano Diretor Norte",
+    "endereco": "108 Norte, Alameda 2, Lote 5",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": "Missa das crianças"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.instagram.com/paroquiamontedocarmo/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepalmas.org.br/paroquias/paroquia-n-sra-do-monte-do-carmo/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.facebook.com/ParoquiaNossaSenhoraDoMonteDoCarmo/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Área Missionária Santa Dulce dos Pobres",
+  "categoria": "area_missionaria",
+  "cidade": "Palmas",
+  "padroeiro": "Santa Dulce dos Pobres",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Santa Dulce dos Pobres",
+    "tipo": "matriz",
+    "cidade": "Palmas",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": "Comunidade Santo Amaro"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": "Comunidade São Vicente de Paulo"
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepalmas.org.br/horarios-de-missas/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "As missas são nas comunidades Santo Amaro e São Vicente de Paulo; não consta no anuário GCatholic."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Filomena",
+  "categoria": "paroquia",
+  "cidade": "Palmas",
+  "padroeiro": "Santa Filomena",
+  "contatos": {
+   "telefone": "6332188349",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasantafilomena@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Filomena",
+    "tipo": "matriz",
+    "cidade": "Palmas",
+    "localidade": "Plano Diretor Sul",
+    "endereco": "204 Sul, Alameda 01, Lote 14",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Confissões nas tardes de terça, quinta e sexta e na manhã de sábado"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepalmas.org.br/paroquias/paroquia-santa-filomena/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepalmas.org.br/paroquias/paroquia-santa-filomena/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.facebook.com/psfilomena/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "O Facebook da paróquia traz quinta e sexta às 7h; ficou a grade do site da arquidiocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Teresinha do Menino Jesus",
+  "categoria": "paroquia",
+  "cidade": "Palmas",
+  "padroeiro": "Santa Teresinha do Menino Jesus",
+  "contatos": {
+   "telefone": "6335719758",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Teresinha do Menino Jesus",
+    "tipo": "matriz",
+    "cidade": "Palmas",
+    "localidade": "Plano Diretor Norte",
+    "endereco": "508 Norte (ARNE 64), Alameda 02, APM 51, Lote 03",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": "Com a novena de Santa Teresinha"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepalmas.org.br/paroquias/paroquia-santa-teresinha-do-menino-jesus/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepalmas.org.br/paroquias/paroquia-santa-teresinha-do-menino-jesus/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio de Pádua",
+  "categoria": "paroquia",
+  "cidade": "Palmas",
+  "padroeiro": "Santo Antônio de Pádua",
+  "contatos": {
+   "telefone": "6332243451",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio de Pádua",
+    "tipo": "matriz",
+    "cidade": "Palmas",
+    "localidade": "Plano Diretor Sul",
+    "endereco": "110 Sul (ARSE 14), Alameda 23, Lote 06",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepalmas.org.br/paroquias/paroquia-santo-antonio-de-padua/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepalmas.org.br/paroquias/paroquia-santo-antonio-de-padua/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Cristóvão",
+  "categoria": "paroquia",
+  "cidade": "Palmas",
+  "padroeiro": "São Cristóvão",
+  "contatos": {
+   "telefone": "6332188361",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Cristóvão",
+    "tipo": "matriz",
+    "cidade": "Palmas",
+    "localidade": "Plano Diretor Sul",
+    "endereco": "403 Sul, QL 24, Lote 36",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Capela Santíssima Trindade com missas aos domingos"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepalmas.org.br/horarios-de-missas/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepalmas.org.br/paroquias/paroquia-sao-cristovao/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "Palmas",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "psjb.palmas.br",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Batista",
+    "tipo": "matriz",
+    "cidade": "Palmas",
+    "localidade": "Plano Diretor Sul",
+    "endereco": "1106 Sul (ARSE 112), Alameda 43, QI 42, Lote 17",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://psjb.palmas.br/horario-das-missas/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepalmas.org.br/horarios-de-missas/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Igreja dedicada na solenidade de São João Batista."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Judas Tadeu",
+  "categoria": "paroquia",
+  "cidade": "Palmas",
+  "padroeiro": "São Judas Tadeu",
+  "contatos": {
+   "telefone": "6330148423",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "saojudaspalmas@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Judas Tadeu",
+    "tipo": "matriz",
+    "cidade": "Palmas",
+    "localidade": "Plano Diretor Norte",
+    "endereco": "105 Norte (ARNO 12), Alameda dos Jatobás, NHM 2, Lote 01",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Confissões com agendamento na secretaria"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepalmas.org.br/paroquias/paroquia-sao-judas/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepalmas.org.br/paroquias/paroquia-sao-judas/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Luís Orione",
+  "categoria": "paroquia",
+  "cidade": "Palmas",
+  "padroeiro": "São Luís Orione",
+  "contatos": {
+   "telefone": "6332141033",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "secretaria.orione@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Luís Orione",
+    "tipo": "matriz",
+    "cidade": "Palmas",
+    "localidade": "Plano Diretor Sul",
+    "endereco": "904 Sul, Avenida LO-21, esquina com a NS-4",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Comunidade Sagrada Família: quinta. Comunidade Imaculado Coração de Maria: quarta"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepalmas.org.br/paroquias/paroquia-sao-luis-orione/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepalmas.org.br/paroquias/paroquia-sao-luis-orione/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Confiada à congregação orionita."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Imaculado Coração de Maria",
+  "categoria": "paroquia",
+  "cidade": "Palmas",
+  "padroeiro": "Imaculado Coração de Maria",
+  "contatos": {
+   "telefone": "63981288208",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Imaculado Coração de Maria",
+    "tipo": "matriz",
+    "cidade": "Palmas",
+    "localidade": "Jardim Taquari",
+    "endereco": "Quadra T20, Rua LO 13, Conjunto 25, Lote 03",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepalmas.org.br/paroquias/paroquia-imaculado-coracao-de-maria/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepalmas.org.br/paroquias/paroquia-imaculado-coracao-de-maria/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Palmas",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "6332148559",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "matrizaparecida.com.br",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Palmas",
+    "localidade": "Taquaralto",
+    "endereco": "Avenida Francisco Galvão da Cruz, s/n, Praça da Matriz",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.matrizaparecida.com.br/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://www.matrizaparecida.com.br/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora das Mercês",
+  "categoria": "paroquia",
+  "cidade": "Palmas",
+  "padroeiro": "Nossa Senhora das Mercês",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora das Mercês",
+    "tipo": "matriz",
+    "cidade": "Palmas",
+    "localidade": "Setor Bela Vista",
+    "endereco": "Rua NC 9",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Comunidade Santo Expedito: quinta 19h30 e domingo 9h. Comunidades São Felipe Neri, Nossa Senhora das Graças e São João (zona rural)"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepalmas.org.br/horarios-de-missas/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepalmas.org.br/festejos-de-nossa-senhora-das-merces-tem-inicio-neste-sabado16/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Perpétuo Socorro",
+  "categoria": "paroquia",
+  "cidade": "Palmas",
+  "padroeiro": "Nossa Senhora do Perpétuo Socorro",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Perpétuo Socorro",
+    "tipo": "matriz",
+    "cidade": "Palmas",
+    "localidade": "Jardim Aureny IV",
+    "endereco": "Rua 18, Quadra 30, APM 06",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela Maria de Nazaré",
+    "tipo": "capela",
+    "cidade": "Palmas",
+    "localidade": "Jardim Aureny IV",
+    "endereco": "Rua 07, Quadra 42-A, Lote 01",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepalmas.org.br/paroquias/paroquia-n-sra-do-perpetuo-socorro/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepalmas.org.br/paroquias/paroquia-n-sra-do-perpetuo-socorro/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Rosário",
+  "categoria": "paroquia",
+  "cidade": "Palmas",
+  "padroeiro": "Nossa Senhora do Rosário",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Rosário",
+    "tipo": "matriz",
+    "cidade": "Palmas",
+    "localidade": "Taquaruçu",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.facebook.com/taquarucuparoquia/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Paróquia do distrito de Taquaruçu; nem o site da arquidiocese nem as redes da paróquia publicam a grade de missas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sagrado Coração de Jesus",
+  "categoria": "paroquia",
+  "cidade": "Palmas",
+  "padroeiro": "Sagrado Coração de Jesus",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Sagrado Coração de Jesus",
+    "tipo": "matriz",
+    "cidade": "Palmas",
+    "localidade": "Setor Santa Fé",
+    "endereco": "Rua T 23, APM 8",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Atendimento do pároco: terça, quinta e sábado das 8h30 às 10h30; quarta e sexta a partir das 16h"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepalmas.org.br/horarios-de-missas/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepalmas.org.br/paroquias/paroquia-sagrado-coracao-de-jesus/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Não consta no anuário GCatholic, que ainda não registra as unidades mais novas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Rita de Cássia",
+  "categoria": "paroquia",
+  "cidade": "Palmas",
+  "padroeiro": "Santa Rita de Cássia",
+  "contatos": {
+   "telefone": "6332188360",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasantarita.palmas@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Rita de Cássia",
+    "tipo": "matriz",
+    "cidade": "Palmas",
+    "localidade": "Jardim Aureny I",
+    "endereco": "Rua Rio Branco, Quadra 11, Lote 26",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Confissões de terça a sexta, das 14h às 16h, com hora marcada"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepalmas.org.br/paroquias/paroquia-santa-rita-de-cassia/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepalmas.org.br/paroquias/paroquia-santa-rita-de-cassia/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio de Lisboa",
+  "categoria": "paroquia",
+  "cidade": "Palmas",
+  "padroeiro": "Santo Antônio de Lisboa",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio de Lisboa",
+    "tipo": "matriz",
+    "cidade": "Palmas",
+    "localidade": "Jardim Aureny III",
+    "endereco": "Rua 30, APM 10, Quadra 105, Lote 04",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Terça na capela Santa Júlia; sexta na capela Nossa Senhora de Guadalupe"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepalmas.org.br/paroquias/santo-antonio-de-lisboa-aureny-iii/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepalmas.org.br/paroquias/santo-antonio-de-lisboa-aureny-iii/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Criada em 2002."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Expedito",
+  "categoria": "paroquia",
+  "cidade": "Palmas",
+  "padroeiro": "Santo Expedito",
+  "contatos": {
+   "telefone": "63981240001",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Expedito",
+    "tipo": "matriz",
+    "cidade": "Palmas",
+    "localidade": "Setor Santa Bárbara",
+    "endereco": "Rua 05, Quadra 04, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Capela Nossa Senhora do Desterro: domingo 17h"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepalmas.org.br/paroquias/paroquia-santo-expedito/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepalmas.org.br/paroquias/paroquia-santo-expedito/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Francisco de Assis",
+  "categoria": "paroquia",
+  "cidade": "Palmas",
+  "padroeiro": "São Francisco de Assis",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Francisco de Assis",
+    "tipo": "matriz",
+    "cidade": "Palmas",
+    "localidade": "Jardim Aureny II",
+    "endereco": "Avenida 15 de Janeiro, Quadra 66, APM 04",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Missa votiva a São Francisco todo dia 4 do mês, às 19h30"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepalmas.org.br/horarios-de-missas/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepalmas.org.br/paroquias/paroquia-sao-francisco-de-assis/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Área Pastoral Missionária São José de Anchieta",
+  "categoria": "area_pastoral",
+  "cidade": "Palmas",
+  "padroeiro": "São José de Anchieta",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja São José de Anchieta",
+    "tipo": "matriz",
+    "cidade": "Palmas",
+    "localidade": "Jardim Santa Helena",
+    "endereco": "Quadra 4, Rua SH 3, Lote 26",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepalmas.org.br/paroquias/area-pastoral-missionaria-sao-jose-de-anchieta/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepalmas.org.br/paroquias/area-pastoral-missionaria-sao-jose-de-anchieta/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Não consta no anuário GCatholic, que ainda não registra as unidades mais novas."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Bom Jesus da Serra",
+  "categoria": "paroquia",
+  "cidade": "Palmas",
+  "padroeiro": "Bom Jesus",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Bom Jesus da Serra",
+    "tipo": "matriz",
+    "cidade": "Palmas",
+    "localidade": "Taquaruçu Grande",
+    "endereco": "Rodovia TO-020, km 11",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepalmas.org.br/paroquias/paroquia-bom-jesus-da-serra/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepalmas.org.br/paroquias/paroquia-bom-jesus-da-serra/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Paróquia rural, na serra do Lajeado."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Aparecida do Rio Negro",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "63992057041",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiansarionegro@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Aparecida do Rio Negro",
+    "localidade": "Centro",
+    "endereco": "Praça José Eurico Costa, s/n",
+    "horarios": [
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Missa votiva ao Sagrado Coração na 1ª sexta-feira do mês. Capela Santa Luzia: quarta 19h30 e domingo 8h"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepalmas.org.br/paroquias/paroquia-nossa-senhora-aparecida-aparecida-do-rio-negro/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepalmas.org.br/paroquias/paroquia-nossa-senhora-aparecida-aparecida-do-rio-negro/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "Lagoa do Tocantins",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Batista",
+    "tipo": "matriz",
+    "cidade": "Lagoa do Tocantins",
+    "localidade": "Centro",
+    "endereco": "Avenida Rio Preto, 214",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Capela Madre Rossello: terça e sexta 19h, domingo 7h30"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepalmas.org.br/paroquias/paroquia-sao-joao-batista-lagoa-do-to/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://gcatholic.org/churches/brazil/52804",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Mãe da Divina Providência",
+  "categoria": "paroquia",
+  "cidade": "Lajeado",
+  "padroeiro": "Nossa Senhora Mãe da Divina Providência",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Mãe da Divina Providência",
+    "tipo": "matriz",
+    "cidade": "Lajeado",
+    "localidade": "Centro",
+    "endereco": "Avenida Sebastião de Sales Monteiro, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Domingo: 8h na capela Nossa Senhora Aparecida, 9h na comunidade São José Operário, 11h na Fazenda da Esperança; quarta 19h na capela Nossa Senhora Aparecida"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Mutúm",
+    "tipo": "comunidade",
+    "cidade": "Lajeado",
+    "localidade": "Mutúm",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "11:00",
+      "semanas": [
+       1,
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de São Sebastião",
+    "tipo": "comunidade",
+    "cidade": "Lajeado",
+    "localidade": "Lajeadinho",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepalmas.org.br/paroquias/paroquia-n-sra-mae-da-divina-providencia-lajeado/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepalmas.org.br/paroquias/paroquia-n-sra-mae-da-divina-providencia-lajeado/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Imaculada Conceição",
+  "categoria": "paroquia",
+  "cidade": "Lizarda",
+  "padroeiro": "Imaculada Conceição",
+  "contatos": {
+   "telefone": "6392635137",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Imaculada Conceição",
+    "tipo": "matriz",
+    "cidade": "Lizarda",
+    "localidade": "Centro",
+    "endereco": "Avenida Primeiro de Janeiro, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Sexta 6h30 na igrejinha"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepalmas.org.br/horarios-de-missas/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepalmas.org.br/paroquias/paroquia-imaculada-conceicao-lizarda/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Divino Espírito Santo",
+  "categoria": "paroquia",
+  "cidade": "Mateiros",
+  "padroeiro": "Divino Espírito Santo",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Divino Espírito Santo",
+    "tipo": "matriz",
+    "cidade": "Mateiros",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepalmas.org.br/horarios-de-missas/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Paróquia do Jalapão."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora das Graças",
+  "categoria": "paroquia",
+  "cidade": "Novo Acordo",
+  "padroeiro": "Nossa Senhora das Graças",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora das Graças",
+    "tipo": "matriz",
+    "cidade": "Novo Acordo",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepalmas.org.br/horarios-de-missas/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Aparece na lista da arquidiocese, mas a grade de missas da matriz não foi encontrada em fonte da paróquia ou da arquidiocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Perpétuo Socorro",
+  "categoria": "paroquia",
+  "cidade": "Rio Sono",
+  "padroeiro": "Nossa Senhora do Perpétuo Socorro",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Perpétuo Socorro",
+    "tipo": "matriz",
+    "cidade": "Rio Sono",
+    "localidade": "Centro",
+    "endereco": "Praça da Matriz, 258",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de São Sebastião",
+    "tipo": "comunidade",
+    "cidade": "Rio Sono",
+    "localidade": "Terra Dura",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebração às 8h; o site da arquidiocese não diz o dia"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade do Divino Pai Eterno",
+    "tipo": "comunidade",
+    "cidade": "Rio Sono",
+    "localidade": "Três Pedras",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebração às 10h; o site da arquidiocese não diz o dia"
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade da Imaculada Conceição",
+    "tipo": "comunidade",
+    "cidade": "Rio Sono",
+    "localidade": "Mansinha",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Celebração às 19h30; o site da arquidiocese não diz o dia"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepalmas.org.br/horarios-de-missas/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepalmas.org.br/paroquias/paroquia-n-sra-do-perpetuo-socorro-rio-sono/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Teresa d'Ávila",
+  "categoria": "paroquia",
+  "cidade": "Santa Tereza do Tocantins",
+  "padroeiro": "Santa Teresa de Ávila",
+  "contatos": {
+   "telefone": "63992028659",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "stateresa.arquidiocesedepalmas@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Teresa d'Ávila",
+    "tipo": "matriz",
+    "cidade": "Santa Tereza do Tocantins",
+    "localidade": "Centro",
+    "endereco": "Rua Mato Grosso, 301",
+    "horarios": [
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Quarta 19h na capela Nossa Senhora Aparecida; comunidade São Domingos"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepalmas.org.br/paroquias/paroquia-santa-teresa-davila-santa-tereza-do-to/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquidiocesedepalmas.org.br/paroquias/paroquia-santa-teresa-davila-santa-tereza-do-to/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Imaculada Conceição de São Félix",
+  "categoria": "paroquia",
+  "cidade": "São Félix do Tocantins",
+  "padroeiro": "Imaculada Conceição",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz da Imaculada Conceição",
+    "tipo": "matriz",
+    "cidade": "São Félix do Tocantins",
+    "localidade": "Centro",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": "No centro de estudos musicais"
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepalmas.org.br/horarios-de-missas/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Paróquia do Jalapão."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "Tocantínia",
+  "padroeiro": "São Sebastião",
+  "contatos": {
+   "telefone": "6333671277",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Sebastião",
+    "tipo": "matriz",
+    "cidade": "Tocantínia",
+    "localidade": "Centro",
+    "endereco": "Praça Frei Antônio de Ganges, 895",
+    "horarios": [],
+    "nao_cabe": "No 3º sábado do mês: Assentamento Buritirana 9h, Água Fria I 15h, Água Fria II 17h. Comunidade Nossa Senhora das Mercês: domingo 8h e 19h, terça 9h; comunidade Perpétuo Socorro: quarta 19h"
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquidiocesedepalmas.org.br/paroquias/paroquia-sao-sebastiao-tocantinia/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://www.tocantinia.to.gov.br/blog/artigo/a-paroquia-sao-sebastiao-realiza-o-tradicional-festejo-de-sao-sebastiao-o-padroeiro-de-tocantinia",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Atende a missão indígena Xerente (aldeia Krite); a grade da matriz não ficou clara no site da arquidiocese."
+ }
+]
