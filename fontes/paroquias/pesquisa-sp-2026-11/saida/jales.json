@@ -1,0 +1,6109 @@
+[
+ {
+  "id_banco": null,
+  "nome": "Catedral Nossa Senhora da Assunção",
+  "categoria": "catedral",
+  "cidade": "Jales",
+  "padroeiro": "Nossa Senhora da Assunção",
+  "contatos": {
+   "telefone": "1736321383",
+   "whatsapp": "17997137983",
+   "instagram": "",
+   "site": "https://catedraldejales.org.br/",
+   "email": "catedral@diocesedejales.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Catedral Nossa Senhora da Assunção",
+    "tipo": "matriz",
+    "cidade": "Jales",
+    "localidade": "Centro",
+    "endereco": "Rua 12, s/nº, Praça da Catedral",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Paulo II",
+    "tipo": "comunidade",
+    "cidade": "Jales",
+    "localidade": "Jardim Aclimação e Jardim Estados Unidos",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Jales",
+    "localidade": "Subida Preta",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejales.org.br/paroquias/paroquia-nossa-senhora-da-assuncao-catedral-jales/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejales.org.br/paroquias/paroquia-nossa-senhora-da-assuncao-catedral-jales/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Tem capelania na Santa Casa e no Hospital de Amor. A missa de sábado às 18h15 no Santuário da Santíssima Trindade está no item do santuário."
+ },
+ {
+  "id_banco": null,
+  "nome": "Santuário Diocesano da Santíssima Trindade",
+  "categoria": "santuario",
+  "cidade": "Jales",
+  "padroeiro": "Santíssima Trindade",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário Diocesano da Santíssima Trindade",
+    "tipo": "santuario",
+    "cidade": "Jales",
+    "localidade": "",
+    "endereco": "Rua Roma, 3371",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:15",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejales.org.br/paroquias/paroquia-nossa-senhora-da-assuncao-catedral-jales/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejales.org.br/santuario-diocesano/",
+    "data": "2023-09-16",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Santuário diocesano na Escola Vocacional, construído em 2000-2003. A missa vem da página da Catedral, em cujo território fica; o santuário não tem telefone próprio publicado."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "Jales",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "1736328662",
+   "whatsapp": "17996328662",
+   "instagram": "santo.antonio_jales",
+   "site": "",
+   "email": "santoantonio.jales@diocesedejales.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Jales",
+    "localidade": "Jardim Maria Paula",
+    "endereco": "Rua 6, 1784",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Judas Tadeu",
+    "tipo": "comunidade",
+    "cidade": "Jales",
+    "localidade": "Jardim Oiti",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": "Missa e celebração da Palavra alternadas"
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Fátima",
+    "tipo": "comunidade",
+    "cidade": "Jales",
+    "localidade": "Vila Talma",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "20:00",
+      "semanas": null,
+      "observacao": "Missa e celebração da Palavra alternadas"
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco",
+    "tipo": "comunidade",
+    "cidade": "Jales",
+    "localidade": "Jardim São Francisco",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": [
+       2,
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Clara",
+    "tipo": "comunidade",
+    "cidade": "Jales",
+    "localidade": "Jardim Municipal",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "20:00",
+      "semanas": [
+       2,
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Rita de Cássia",
+    "tipo": "comunidade",
+    "cidade": "Jales",
+    "localidade": "Parque das Flores",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": [
+       1,
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Benedito",
+    "tipo": "comunidade",
+    "cidade": "Jales",
+    "localidade": "Córrego do Quebra Cabaça",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Senhor Bom Jesus",
+    "tipo": "comunidade",
+    "cidade": "Jales",
+    "localidade": "Rosalina",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Jales",
+    "localidade": "Veadinho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejales.org.br/paroquias/paroquia-santo-antonio-jales/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejales.org.br/paroquias/paroquia-santo-antonio-jales/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Expedito",
+  "categoria": "paroquia",
+  "cidade": "Jales",
+  "padroeiro": "Santo Expedito",
+  "contatos": {
+   "telefone": "17997116080",
+   "whatsapp": "",
+   "instagram": "paroquiasantoexpeditojales",
+   "site": "",
+   "email": "santoexpedito.jales@diocesedejales.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Expedito",
+    "tipo": "matriz",
+    "cidade": "Jales",
+    "localidade": "Jardim Santo Expedito",
+    "endereco": "Avenida Nações Unidas",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Todo dia 19 às 20h."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Ressurreição",
+    "tipo": "comunidade",
+    "cidade": "Jales",
+    "localidade": "JACB",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "20:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Sagrado Coração de Jesus, Apostolado da Oração"
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Jales",
+    "localidade": "Arapuã",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejales.org.br/paroquias/paroquia-santo-expedito-jales/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejales.org.br/paroquias/paroquia-santo-expedito-jales/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Instalada em 04/12/2020. Não aparece na lista do GCatholic."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José Operário",
+  "categoria": "paroquia",
+  "cidade": "Jales",
+  "padroeiro": "São José Operário",
+  "contatos": {
+   "telefone": "1736326277",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "saojoseoperario.jales@diocesedejales.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José Operário",
+    "tipo": "matriz",
+    "cidade": "Jales",
+    "localidade": "Jardim São Judas Tadeu",
+    "endereco": "Rua José Bernini, 3313",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "20:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrada Família de Nazaré",
+    "tipo": "comunidade",
+    "cidade": "Jales",
+    "localidade": "Jardim Paulista",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco de Assis",
+    "tipo": "comunidade",
+    "cidade": "Jales",
+    "localidade": "Big Plaza",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "20:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Quarta quinta-feira do mês às 20h: noite \"Renova minhas forças\"."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Batista",
+    "tipo": "comunidade",
+    "cidade": "Jales",
+    "localidade": "Vila União",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Luzia",
+    "tipo": "comunidade",
+    "cidade": "Jales",
+    "localidade": "São Gabriel",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "20:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Terezinha",
+    "tipo": "comunidade",
+    "cidade": "Jales",
+    "localidade": "Jardim Estados Unidos",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "20:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Jales",
+    "localidade": "Vila Aparecida",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "20:00",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Fátima",
+    "tipo": "comunidade",
+    "cidade": "Jales",
+    "localidade": "Córrego da Roça",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "20:00",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Rita de Cássia",
+    "tipo": "comunidade",
+    "cidade": "Jales",
+    "localidade": "Comunidade Restaurar",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "20:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejales.org.br/paroquias/paroquia-sao-jose-operario-jales/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejales.org.br/paroquias/paroquia-sao-jose-operario-jales/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Pontalinda",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "17991917117",
+   "instagram": "paroquiansaparecidapontalinda",
+   "site": "",
+   "email": "nsaparecida.pontalinda@diocesedejales.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Pontalinda",
+    "localidade": "Centro",
+    "endereco": "Rua Adalberto Brandão, 1241",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Pontalinda",
+    "localidade": "Bairro das Perobas",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Batista",
+    "tipo": "comunidade",
+    "cidade": "Pontalinda",
+    "localidade": "Córrego da Rapadura",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejales.org.br/paroquias/paroquia-nossa-senhora-aparecida-pontalinda/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejales.org.br/paroquias/paroquia-nossa-senhora-aparecida-pontalinda/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "A página também cita a Comunidade São Benedito, de Prudêncio e Moraes, que a página de São João de Iracema dá com endereço e horário; ficou lá."
+ },
+ {
+  "id_banco": null,
+  "nome": "Quase-Paróquia Nossa Senhora das Graças",
+  "categoria": "quase_paroquia",
+  "cidade": "Dirce Reis",
+  "padroeiro": "Nossa Senhora das Graças",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "17991917117",
+   "instagram": "quase_paroquia_dircereis",
+   "site": "",
+   "email": "nsaparecida.pontalinda@diocesedejales.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora das Graças",
+    "tipo": "matriz",
+    "cidade": "Dirce Reis",
+    "localidade": "",
+    "endereco": "Praça da Matriz, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejales.org.br/paroquias/quase-paroquia-nossa-senhora-das-gracas-dirce-reis/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejales.org.br/paroquias/quase-paroquia-nossa-senhora-das-gracas-dirce-reis/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Mesmo padre, WhatsApp e e-mail da paróquia de Pontalinda."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Penha",
+  "categoria": "paroquia",
+  "cidade": "Estrela d'Oeste",
+  "padroeiro": "Nossa Senhora da Penha",
+  "contatos": {
+   "telefone": "1738331322",
+   "whatsapp": "17988123642",
+   "instagram": "paroquiansradapenha",
+   "site": "",
+   "email": "nspenha.estrela@diocesedejales.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Penha",
+    "tipo": "matriz",
+    "cidade": "Estrela d'Oeste",
+    "localidade": "Centro",
+    "endereco": "Rua Paraná, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Santuário Nossa Senhora da Estrela d'Alva",
+    "tipo": "santuario",
+    "cidade": "Estrela d'Oeste",
+    "localidade": "Bairro São Silvestre",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Casa de Maria",
+    "tipo": "comunidade",
+    "cidade": "Estrela d'Oeste",
+    "localidade": "Cohab Dr. Gilmar",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santos Reis e Santa Clara",
+    "tipo": "capela",
+    "cidade": "Estrela d'Oeste",
+    "localidade": "Bairro Santos Reis e Santa Clara",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Sebastião",
+    "tipo": "comunidade",
+    "cidade": "Estrela d'Oeste",
+    "localidade": "Açoita Cavalo I",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Estrela d'Oeste",
+    "localidade": "Pietrobon",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Estrela d'Oeste",
+    "localidade": "Ranchão",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Estrela d'Oeste",
+    "localidade": "Boa Esperança",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Estrela d'Oeste",
+    "localidade": "Pupim",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Rosa",
+    "tipo": "comunidade",
+    "cidade": "Estrela d'Oeste",
+    "localidade": "Açoita Cavalo II",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Luzia",
+    "tipo": "comunidade",
+    "cidade": "Estrela d'Oeste",
+    "localidade": "Scapin",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Benedito",
+    "tipo": "comunidade",
+    "cidade": "Estrela d'Oeste",
+    "localidade": "Barreirinho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejales.org.br/paroquias/paroquia-nossa-senhora-da-penha-estrela-d-oeste/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejales.org.br/paroquias/paroquia-nossa-senhora-da-penha-estrela-d-oeste/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Criada em 25/09/1942. Não aparece na lista do GCatholic."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Francisco de Assis",
+  "categoria": "paroquia",
+  "cidade": "Santa Albertina",
+  "padroeiro": "São Francisco de Assis",
+  "contatos": {
+   "telefone": "1736331554",
+   "whatsapp": "17982306323",
+   "instagram": "saofranciscosantaalbertina",
+   "site": "",
+   "email": "saofrancisco.santaalbertina@diocesedejales.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Francisco de Assis",
+    "tipo": "matriz",
+    "cidade": "Santa Albertina",
+    "localidade": "",
+    "endereco": "Avenida Silvio Ralio, 843, Praça da Matriz",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Santa Albertina",
+    "localidade": "Jardim Paulista",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Josefina Bakhita",
+    "tipo": "comunidade",
+    "cidade": "Santa Albertina",
+    "localidade": "Jardim Aprazível",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Sebastião",
+    "tipo": "comunidade",
+    "cidade": "Santa Albertina",
+    "localidade": "Córrego Comprido",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Santa Albertina",
+    "localidade": "Colônia Nova",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejales.org.br/paroquias/paroquia-sao-francisco-de-assis-santa-albertina/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejales.org.br/paroquias/paroquia-sao-francisco-de-assis-santa-albertina/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Benedito",
+  "categoria": "paroquia",
+  "cidade": "Urânia",
+  "padroeiro": "São Benedito",
+  "contatos": {
+   "telefone": "1736341256",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "saobenedito.urania@diocesedejales.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Benedito",
+    "tipo": "matriz",
+    "cidade": "Urânia",
+    "localidade": "",
+    "endereco": "Praça da Matriz",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Fátima",
+    "tipo": "comunidade",
+    "cidade": "Urânia",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Urânia",
+    "localidade": "Córrego Jataí",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Terezinha",
+    "tipo": "comunidade",
+    "cidade": "Urânia",
+    "localidade": "Córrego Comprido",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Batista",
+    "tipo": "comunidade",
+    "cidade": "Urânia",
+    "localidade": "Córrego da Porteira",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Pedro",
+    "tipo": "comunidade",
+    "cidade": "Urânia",
+    "localidade": "Maracanã e Araci",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Urânia",
+    "localidade": "Manoel Baiano",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Rita",
+    "tipo": "comunidade",
+    "cidade": "Aspásia",
+    "localidade": "Córrego da Anta",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Aspásia",
+    "localidade": "Anta 37",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Senhor Bom Jesus",
+    "tipo": "comunidade",
+    "cidade": "Santa Salete",
+    "localidade": "Córrego da Antinha",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Sebastião",
+    "tipo": "comunidade",
+    "cidade": "Santa Salete",
+    "localidade": "Córrego do Poção",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Isabel",
+    "tipo": "comunidade",
+    "cidade": "Santa Salete",
+    "localidade": "Córrego Santa Isabel",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejales.org.br/paroquias/paroquia-sao-benedito-urania/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejales.org.br/paroquias/paroquia-sao-benedito-urania/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "A página lista comunidades rurais em Aspásia e Santa Salete, quase-paróquias com o mesmo padre."
+ },
+ {
+  "id_banco": null,
+  "nome": "Quase-Paróquia São José",
+  "categoria": "quase_paroquia",
+  "cidade": "Aspásia",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "1736341256",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "saobenedito.urania@diocesedejales.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José",
+    "tipo": "matriz",
+    "cidade": "Aspásia",
+    "localidade": "",
+    "endereco": "Praça da Matriz",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejales.org.br/paroquias/quase-paroquia-sao-jose-aspasia/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejales.org.br/paroquias/quase-paroquia-sao-jose-aspasia/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Telefone e e-mail da paróquia de Urânia. O GCatholic a lista como paróquia."
+ },
+ {
+  "id_banco": null,
+  "nome": "Quase-Paróquia Santa Salete",
+  "categoria": "quase_paroquia",
+  "cidade": "Santa Salete",
+  "padroeiro": "Nossa Senhora da Salete",
+  "contatos": {
+   "telefone": "1736341256",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "saobenedito.urania@diocesedejales.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Salete",
+    "tipo": "matriz",
+    "cidade": "Santa Salete",
+    "localidade": "",
+    "endereco": "Praça da Matriz",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejales.org.br/paroquias/quase-paroquia-santa-salete-santa-salete/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejales.org.br/paroquias/quase-paroquia-santa-salete-santa-salete/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Telefone e e-mail da paróquia de Urânia. Padroeira pelo GCatholic."
+ },
+ {
+  "id_banco": null,
+  "nome": "Quase-Paróquia São João Batista",
+  "categoria": "quase_paroquia",
+  "cidade": "São João das Duas Pontes",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "17996335400",
+   "whatsapp": "17996335400",
+   "instagram": "",
+   "site": "",
+   "email": "saojoaobatista.saojoaodasduaspontes@diocesedejales.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Batista",
+    "tipo": "matriz",
+    "cidade": "São João das Duas Pontes",
+    "localidade": "",
+    "endereco": "Praça da Matriz, s/nº",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": "Missa dominical"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": [
+       3
+      ],
+      "observacao": "Com adoração e bênção do Santíssimo"
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santos Reis",
+    "tipo": "comunidade",
+    "cidade": "São João das Duas Pontes",
+    "localidade": "Centro",
+    "endereco": "Travessa Hermelinda G. Carta, 26",
+    "horarios": [],
+    "nao_cabe": "Terço às quartas-feiras, a partir das 19h30."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "São João das Duas Pontes",
+    "localidade": "Vila Aparecida",
+    "endereco": "Rua Duque de Caxias",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Paulo",
+    "tipo": "comunidade",
+    "cidade": "São João das Duas Pontes",
+    "localidade": "Estrada Ranchão",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejales.org.br/paroquias/quase-paroquia-sao-joao-batista-sao-joao-das-duas-pontes/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejales.org.br/paroquias/quase-paroquia-sao-joao-batista-sao-joao-das-duas-pontes/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Secretaria na Rua São Paulo, 239, ao lado da rodoviária. O GCatholic a lista como paróquia."
+ },
+ {
+  "id_banco": null,
+  "nome": "Quase-Paróquia São Judas Tadeu",
+  "categoria": "quase_paroquia",
+  "cidade": "Paranapuã",
+  "padroeiro": "São Judas Tadeu",
+  "contatos": {
+   "telefone": "1736481175",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "saojudas.paranapua@diocesedejales.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Judas Tadeu",
+    "tipo": "matriz",
+    "cidade": "Paranapuã",
+    "localidade": "",
+    "endereco": "Praça Ulisses Costa, 2545",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "20:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Paranapuã",
+    "localidade": "Córrego do Tanquinho",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejales.org.br/paroquias/quase-paroquia-sao-judas-tadeu-paranapua/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejales.org.br/paroquias/quase-paroquia-sao-judas-tadeu-paranapua/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Rita de Cássia",
+  "categoria": "paroquia",
+  "cidade": "Fernandópolis",
+  "padroeiro": "Santa Rita de Cássia",
+  "contatos": {
+   "telefone": "1734627868",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "santarita.fernandopolis@diocesedejales.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Rita de Cássia",
+    "tipo": "matriz",
+    "cidade": "Fernandópolis",
+    "localidade": "Centro",
+    "endereco": "Rua Milton Terra Verde, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "20:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Quinta-feira às 8h: missa no Hospital de Amor. Sábado às 8h: missa na Santa Casa."
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Fernandópolis",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Bárbara",
+    "tipo": "comunidade",
+    "cidade": "Fernandópolis",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Primeira sexta-feira do mês às 20h, nas casas."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejales.org.br/paroquias/paroquia-santa-rita-de-cassia-fernandopolis/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejales.org.br/paroquias/paroquia-santa-rita-de-cassia-fernandopolis/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "A página dá também o telefone 3442-2916."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Expedito",
+  "categoria": "paroquia",
+  "cidade": "Fernandópolis",
+  "padroeiro": "Santo Expedito",
+  "contatos": {
+   "telefone": "1734631404",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "santoexpedito.fernandopolis@diocesedejales.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Expedito",
+    "tipo": "matriz",
+    "cidade": "Fernandópolis",
+    "localidade": "Jardim Morada do Sol",
+    "endereco": "Rua Rafael Chiarello, 406",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "20:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Senhor Bom Jesus",
+    "tipo": "comunidade",
+    "cidade": "Fernandópolis",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "14:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "20:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "20:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Terezinha",
+    "tipo": "comunidade",
+    "cidade": "Fernandópolis",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco de Assis",
+    "tipo": "comunidade",
+    "cidade": "Fernandópolis",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Rosário",
+    "tipo": "comunidade",
+    "cidade": "Fernandópolis",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "20:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Guadalupe",
+    "tipo": "comunidade",
+    "cidade": "Fernandópolis",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "20:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Carmo",
+    "tipo": "comunidade",
+    "cidade": "Fernandópolis",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "20:00",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora das Graças",
+    "tipo": "comunidade",
+    "cidade": "Fernandópolis",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "20:00",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejales.org.br/paroquias/paroquia-santo-expedito-fernandopolis/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejales.org.br/paroquias/paroquia-santo-expedito-fernandopolis/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Criada em 22/05/2017. A página dá também o celular (17) 99794-7041."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Bernardo",
+  "categoria": "paroquia",
+  "cidade": "Fernandópolis",
+  "padroeiro": "São Bernardo",
+  "contatos": {
+   "telefone": "1734632529",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "saobernardo.fernandopolis@diocesedejales.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Bernardo",
+    "tipo": "matriz",
+    "cidade": "Fernandópolis",
+    "localidade": "",
+    "endereco": "Avenida Presidente Castelo Branco, s/n, Praça São Bernardo",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": [
+       1,
+       3
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "20:00",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "20:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Com adoração"
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Luzia e São Judas Tadeu",
+    "tipo": "comunidade",
+    "cidade": "Fernandópolis",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "20:00",
+      "semanas": [
+       1,
+       3,
+       4
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "20:00",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Fernandópolis",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": [
+       1,
+       3,
+       4
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "20:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "18:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Fernandópolis",
+    "localidade": "Lajeado",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Perpétuo Socorro",
+    "tipo": "comunidade",
+    "cidade": "Fernandópolis",
+    "localidade": "Coqueiro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejales.org.br/paroquias/paroquia-sao-bernardo-fernandopolis/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejales.org.br/paroquias/paroquia-sao-bernardo-fernandopolis/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Luiz Gonzaga",
+  "categoria": "paroquia",
+  "cidade": "Fernandópolis",
+  "padroeiro": "São Luiz Gonzaga",
+  "contatos": {
+   "telefone": "1734426173",
+   "whatsapp": "17997212137",
+   "instagram": "paroquia.saoluizgonzaga",
+   "site": "",
+   "email": "saoluiz.fernandopolis@diocesedejales.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Luiz Gonzaga",
+    "tipo": "matriz",
+    "cidade": "Fernandópolis",
+    "localidade": "Brasilândia",
+    "endereco": "Avenida Antonio Marin, 567, Praça da Brasilândia",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Paulo Apóstolo",
+    "tipo": "comunidade",
+    "cidade": "Fernandópolis",
+    "localidade": "Jardim Paulista",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejales.org.br/paroquias/paroquia-sao-luiz-gonzaga-fernandopolis/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejales.org.br/paroquias/paroquia-sao-luiz-gonzaga-fernandopolis/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Pedro",
+  "categoria": "paroquia",
+  "cidade": "Fernandópolis",
+  "padroeiro": "São Pedro",
+  "contatos": {
+   "telefone": "1734422988",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "saopedro.fernandopolis@diocesedejales.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Pedro",
+    "tipo": "matriz",
+    "cidade": "Fernandópolis",
+    "localidade": "Jardim do Trevo",
+    "endereco": "Rua Tiradentes, 418",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "20:00",
+      "semanas": null,
+      "observacao": "Missa pelas almas"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Apostolado da Oração"
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Sebastião",
+    "tipo": "comunidade",
+    "cidade": "Fernandópolis",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Fátima",
+    "tipo": "comunidade",
+    "cidade": "Fernandópolis",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Batista",
+    "tipo": "comunidade",
+    "cidade": "Fernandópolis",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "20:00",
+      "semanas": [
+       1,
+       3,
+       5
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Fernandópolis",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": [
+       1,
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Clara",
+    "tipo": "comunidade",
+    "cidade": "Fernandópolis",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "20:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Mônica",
+    "tipo": "comunidade",
+    "cidade": "Fernandópolis",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "20:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade do Caxi",
+    "tipo": "comunidade",
+    "cidade": "Fernandópolis",
+    "localidade": "Caxi",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejales.org.br/paroquias/paroquia-sao-pedro-fernandopolis/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejales.org.br/paroquias/paroquia-sao-pedro-fernandopolis/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Criada em 22/05/2017. O mesmo padre atende a Paróquia Senhor Bom Jesus, de Brasitânia."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Senhor Bom Jesus",
+  "categoria": "paroquia",
+  "cidade": "Fernandópolis",
+  "padroeiro": "Senhor Bom Jesus",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Senhor Bom Jesus",
+    "tipo": "matriz",
+    "cidade": "Fernandópolis",
+    "localidade": "Brasitânia",
+    "endereco": "Rua das Américas, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "20:00",
+      "semanas": [
+       2,
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejales.org.br/paroquias/paroquia-senhor-bom-jesus-brasitania-fernandopolis/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejales.org.br/paroquias/paroquia-senhor-bom-jesus-brasitania-fernandopolis/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedejales.org.br/paroquias/paroquia-sao-pedro-fernandopolis/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Matriz no distrito de Brasitânia. A página não publica telefone nem e-mail; é atendida pelo padre da Paróquia São Pedro."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio de Pádua",
+  "categoria": "paroquia",
+  "cidade": "Macedônia",
+  "padroeiro": "Santo Antônio de Pádua",
+  "contatos": {
+   "telefone": "1738491204",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "santoantonio.macedonia@diocesedejales.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio de Pádua",
+    "tipo": "matriz",
+    "cidade": "Macedônia",
+    "localidade": "",
+    "endereco": "Rua Nossa Senhora das Graças, 525",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "15:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Divino Espírito Santo",
+    "tipo": "comunidade",
+    "cidade": "Macedônia",
+    "localidade": "Dulcelina",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "20:00",
+      "semanas": [
+       2,
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Fátima",
+    "tipo": "comunidade",
+    "cidade": "Macedônia",
+    "localidade": "Paca",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "20:00",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejales.org.br/paroquias/paroquia-santo-antonio-de-padua-macedonia/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejales.org.br/paroquias/paroquia-santo-antonio-de-padua-macedonia/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José",
+  "categoria": "paroquia",
+  "cidade": "Meridiano",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "1734751315",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "saojose.meridiano@diocesedejales.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José",
+    "tipo": "matriz",
+    "cidade": "Meridiano",
+    "localidade": "Centro",
+    "endereco": "Praça da Matriz, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa da catequese"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": [
+       2
+      ],
+      "observacao": "Missa da Graça"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": [
+       3,
+       4,
+       5
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São José",
+    "tipo": "capela",
+    "cidade": "Meridiano",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": [
+       1,
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio do Viradouro",
+    "tipo": "comunidade",
+    "cidade": "Meridiano",
+    "localidade": "Viradouro",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Meridiano",
+    "localidade": "Córrego da Pedra",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Luiz Gonzaga",
+    "tipo": "capela",
+    "cidade": "Meridiano",
+    "localidade": "Quadrelli",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São Pedro",
+    "tipo": "capela",
+    "cidade": "Meridiano",
+    "localidade": "Jacilândia",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejales.org.br/paroquias/paroquia-sao-jose-meridiano/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejales.org.br/paroquias/paroquia-sao-jose-meridiano/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Quase-Paróquia Senhor Bom Jesus",
+  "categoria": "quase_paroquia",
+  "cidade": "Mira Estrela",
+  "padroeiro": "Senhor Bom Jesus",
+  "contatos": {
+   "telefone": "1738461123",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "senhorbomjesus.miraestrela@diocesedejales.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Senhor Bom Jesus",
+    "tipo": "matriz",
+    "cidade": "Mira Estrela",
+    "localidade": "",
+    "endereco": "Praça Benedito Castrequine",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejales.org.br/paroquias/quase-paroquia-senhor-bom-jesus-mira-estrela/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejales.org.br/paroquias/quase-paroquia-senhor-bom-jesus-mira-estrela/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Página do site sem atualização desde 18/09/2023."
+ },
+ {
+  "id_banco": null,
+  "nome": "Quase-Paróquia Senhor Bom Jesus",
+  "categoria": "quase_paroquia",
+  "cidade": "Pedranópolis",
+  "padroeiro": "Senhor Bom Jesus",
+  "contatos": {
+   "telefone": "1734751315",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "saojose.meridiano@diocesedejales.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Senhor Bom Jesus",
+    "tipo": "matriz",
+    "cidade": "Pedranópolis",
+    "localidade": "",
+    "endereco": "Praça da Matriz, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": [
+       1,
+       2
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Izabel do Marinheiro",
+    "tipo": "comunidade",
+    "cidade": "Pedranópolis",
+    "localidade": "Santa Izabel do Marinheiro",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejales.org.br/paroquias/quase-paroquia-senhor-bom-jesus-pedranopolis/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejales.org.br/paroquias/quase-paroquia-senhor-bom-jesus-pedranopolis/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Telefone e e-mail da paróquia de Meridiano, mesmo padre."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "Ouroeste",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "1738431260",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "saojoaobatista.ouroeste@diocesedejales.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Batista",
+    "tipo": "matriz",
+    "cidade": "Ouroeste",
+    "localidade": "",
+    "endereco": "Avenida dos Bandeirantes",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": "Com bênção do Santíssimo"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": "Apostolado da Oração"
+     }
+    ],
+    "nao_cabe": "Terceira sexta-feira do mês às 8h: missa no CCI. Terça e quinta às 19h30: missa nos bairros."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Carmo",
+    "tipo": "comunidade",
+    "cidade": "Ouroeste",
+    "localidade": "Arabá",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santos Reis",
+    "tipo": "comunidade",
+    "cidade": "Ouroeste",
+    "localidade": "Formoso",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Salete",
+    "tipo": "comunidade",
+    "cidade": "Ouroeste",
+    "localidade": "Córrego Cumbuca",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejales.org.br/paroquias/paroquia-sao-joao-batista-ouroeste/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejales.org.br/paroquias/paroquia-sao-joao-batista-ouroeste/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "A página dá também o celular (17) 99614-0310."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "Indiaporã",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "17997661188",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "saojoaobatista.indiapora@diocesedejales.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Batista",
+    "tipo": "matriz",
+    "cidade": "Indiaporã",
+    "localidade": "",
+    "endereco": "Rua Teodoro José de Souza, 1174",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Fátima",
+    "tipo": "comunidade",
+    "cidade": "Indiaporã",
+    "localidade": "Vila Mariana",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Indiaporã",
+    "localidade": "Tupinambá",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade da Divisa",
+    "tipo": "comunidade",
+    "cidade": "Indiaporã",
+    "localidade": "Divisa",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade do Assentamento União",
+    "tipo": "comunidade",
+    "cidade": "Indiaporã",
+    "localidade": "Assentamento União",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejales.org.br/paroquias/paroquia-sao-joao-batista-indiapora/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejales.org.br/paroquias/paroquia-sao-joao-batista-indiapora/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "Populina",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "1736391184",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "saojoaobatista.populina@diocesedejales.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Batista",
+    "tipo": "matriz",
+    "cidade": "Populina",
+    "localidade": "",
+    "endereco": "Praça da Matriz",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Nossa Senhora Aparecida",
+    "tipo": "capela",
+    "cidade": "Populina",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Populina",
+    "localidade": "Povoado do Sol",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       2,
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Inês",
+    "tipo": "comunidade",
+    "cidade": "Populina",
+    "localidade": "Zona rural",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "20:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Carmo",
+    "tipo": "comunidade",
+    "cidade": "Populina",
+    "localidade": "Olho d'Água",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "20:00",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Fátima",
+    "tipo": "comunidade",
+    "cidade": "Populina",
+    "localidade": "Cohab",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "20:00",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejales.org.br/paroquias/paroquia-sao-joao-batista-populina/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejales.org.br/paroquias/paroquia-sao-joao-batista-populina/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "A página também lista a missa de sábado às 20h em Mesópolis, que entrou na quase-paróquia de lá."
+ },
+ {
+  "id_banco": null,
+  "nome": "Quase-Paróquia Senhor Bom Jesus",
+  "categoria": "quase_paroquia",
+  "cidade": "Mesópolis",
+  "padroeiro": "Senhor Bom Jesus",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Senhor Bom Jesus",
+    "tipo": "matriz",
+    "cidade": "Mesópolis",
+    "localidade": "Centro",
+    "endereco": "Praça da Matriz, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "20:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Mesópolis",
+    "localidade": "Bairro da Aldeia",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejales.org.br/paroquias/quase-paroquia-senhor-bom-jesus-mesopolis/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejales.org.br/paroquias/quase-paroquia-senhor-bom-jesus-mesopolis/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedejales.org.br/paroquias/paroquia-sao-joao-batista-populina/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Página sem atualização desde 18/09/2023, sem telefone nem e-mail; a missa de sábado às 20h também está na página de Populina, mesmo padre."
+ },
+ {
+  "id_banco": null,
+  "nome": "Quase-Paróquia Senhor Bom Jesus",
+  "categoria": "quase_paroquia",
+  "cidade": "Turmalina",
+  "padroeiro": "Senhor Bom Jesus",
+  "contatos": {
+   "telefone": "17996843776",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "senhorbomjesus.turmalina@diocesedejales.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Senhor Bom Jesus",
+    "tipo": "matriz",
+    "cidade": "Turmalina",
+    "localidade": "",
+    "endereco": "Avenida Santa Helena, 380",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": [
+       3,
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Fátima",
+    "tipo": "comunidade",
+    "cidade": "Turmalina",
+    "localidade": "Fátima Paulista",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Rita de Cássia",
+    "tipo": "comunidade",
+    "cidade": "Turmalina",
+    "localidade": "Zona rural",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejales.org.br/paroquias/quase-paroquia-senhor-bom-jesus-turmalina/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejales.org.br/paroquias/quase-paroquia-senhor-bom-jesus-turmalina/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Não aparece na lista do GCatholic."
+ },
+ {
+  "id_banco": null,
+  "nome": "Quase-Paróquia Nossa Senhora Aparecida e São José",
+  "categoria": "quase_paroquia",
+  "cidade": "Vitória Brasil",
+  "padroeiro": "Nossa Senhora Aparecida e São José",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Aparecida e São José",
+    "tipo": "matriz",
+    "cidade": "Vitória Brasil",
+    "localidade": "",
+    "endereco": "Praça da Matriz",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": [
+       2,
+       3,
+       4,
+       5
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Luiz Gonzaga",
+    "tipo": "comunidade",
+    "cidade": "Vitória Brasil",
+    "localidade": "Veadão A",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejales.org.br/paroquias/quase-paroquia-nossa-senhora-aparecida-e-sao-jose-vitoria-brasil/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejales.org.br/paroquias/quase-paroquia-nossa-senhora-aparecida-e-sao-jose-vitoria-brasil/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "A página não publica telefone nem e-mail."
+ },
+ {
+  "id_banco": null,
+  "nome": "Quase-Paróquia Santo Antônio",
+  "categoria": "quase_paroquia",
+  "cidade": "Dolcinópolis",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "1736361132",
+   "whatsapp": "17997171051",
+   "instagram": "",
+   "site": "",
+   "email": "santoantonio.dolcinopolis@diocesedejales.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Dolcinópolis",
+    "localidade": "",
+    "endereco": "Praça da Matriz",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": [
+       1,
+       2,
+       3
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejales.org.br/paroquias/quase-paroquia-santo-antonio-dolcinopolis/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejales.org.br/paroquias/quase-paroquia-santo-antonio-dolcinopolis/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Quase-Paróquia Santo Antônio",
+  "categoria": "quase_paroquia",
+  "cidade": "Guarani d'Oeste",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "1738341254",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "santoantonio.guarani@diocesedejales.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Guarani d'Oeste",
+    "localidade": "Centro",
+    "endereco": "Praça da Matriz, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "20:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejales.org.br/paroquias/quase-paroquia-santo-antonio-guarani-doeste/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejales.org.br/paroquias/quase-paroquia-santo-antonio-guarani-doeste/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Fátima",
+  "categoria": "paroquia",
+  "cidade": "Santa Fé do Sul",
+  "padroeiro": "Nossa Senhora de Fátima",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "paroquianossasradefatima.sfs",
+   "site": "",
+   "email": "nsfatima.santafe@diocesedejales.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora de Fátima",
+    "tipo": "matriz",
+    "cidade": "Santa Fé do Sul",
+    "localidade": "Praça Bela Vista",
+    "endereco": "Rua 4, 1516",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José Operário",
+    "tipo": "comunidade",
+    "cidade": "Santa Fé do Sul",
+    "localidade": "Beira Rio",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Benedito",
+    "tipo": "comunidade",
+    "cidade": "Santa Fé do Sul",
+    "localidade": "Mangará",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": [
+       1,
+       3,
+       5
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Sagrado Coração de Jesus",
+    "tipo": "comunidade",
+    "cidade": "Santa Fé do Sul",
+    "localidade": "Morumbi",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1,
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Perpétuo Socorro",
+    "tipo": "comunidade",
+    "cidade": "Santa Fé do Sul",
+    "localidade": "Vila Pacheco",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       2,
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Benedito",
+    "tipo": "comunidade",
+    "cidade": "Santa Fé do Sul",
+    "localidade": "Estrada 15",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejales.org.br/paroquias/paroquia-nossa-senhora-de-fatima-santa-fe-do-sul/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejales.org.br/paroquias/paroquia-nossa-senhora-de-fatima-santa-fe-do-sul/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Paróquia nova, desmembrada da São João Batista (a página da São João ainda traz parte destas comunidades com outros horários). Sem telefone publicado. Não aparece na lista do GCatholic."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "Santa Fé do Sul",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "1736311203",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "saojoaobatista.santafe@diocesedejales.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Batista",
+    "tipo": "matriz",
+    "cidade": "Santa Fé do Sul",
+    "localidade": "",
+    "endereco": "Praça da Matriz, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "20:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:15",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade de Esmeralda",
+    "tipo": "comunidade",
+    "cidade": "Santa Fé do Sul",
+    "localidade": "Esmeralda",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Expedito",
+    "tipo": "comunidade",
+    "cidade": "Santa Fé do Sul",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Santa Fé do Sul",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       2,
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Imaculada Conceição",
+    "tipo": "comunidade",
+    "cidade": "Santa Fé do Sul",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       2,
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco",
+    "tipo": "comunidade",
+    "cidade": "Santa Fé do Sul",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": [
+       2,
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela da Assunção",
+    "tipo": "capela",
+    "cidade": "Santa Fé do Sul",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "07:15",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejales.org.br/paroquias/paroquia-sao-joao-batista-santa-fe-do-sul/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejales.org.br/paroquias/paroquia-sao-joao-batista-santa-fe-do-sul/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "A página ainda lista a Comunidade Bela Vista e as comunidades que hoje aparecem na Paróquia Nossa Senhora de Fátima, com horários diferentes; ficaram só lá. Rurais: Estrada 15, Estiva, Córrego Marruco, Fazenda Bela Vista, Paulistão."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Luzia",
+  "categoria": "paroquia",
+  "cidade": "Palmeira d'Oeste",
+  "padroeiro": "Santa Luzia",
+  "contatos": {
+   "telefone": "1736511365",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "santaluzia.palmeira@diocesedejales.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Luzia",
+    "tipo": "matriz",
+    "cidade": "Palmeira d'Oeste",
+    "localidade": "",
+    "endereco": "Praça da Matriz, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São João Batista",
+    "tipo": "comunidade",
+    "cidade": "Palmeira d'Oeste",
+    "localidade": "Dalas",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": [
+       1,
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Expedito",
+    "tipo": "comunidade",
+    "cidade": "Palmeira d'Oeste",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Palmeira d'Oeste",
+    "localidade": "Macumã",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Palmeira d'Oeste",
+    "localidade": "Sucuri",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejales.org.br/paroquias/paroquia-santa-luzia-palmeira-doeste/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejales.org.br/paroquias/paroquia-santa-luzia-palmeira-doeste/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "A página dá também o celular (17) 99768-6403."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Três Fronteiras",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "1736911133",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "nsaparecida.tresfronteiras@diocesedejales.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Três Fronteiras",
+    "localidade": "",
+    "endereco": "Praça da Matriz, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São José",
+    "tipo": "capela",
+    "cidade": "Três Fronteiras",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Três Fronteiras",
+    "localidade": "Socimbra",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Três Fronteiras",
+    "localidade": "Córrego Vai Quem Quer",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Três Fronteiras",
+    "localidade": "Córrego do Marruco",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco de Assis",
+    "tipo": "comunidade",
+    "cidade": "Três Fronteiras",
+    "localidade": "Córrego São Francisco",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Conceição",
+    "tipo": "comunidade",
+    "cidade": "Três Fronteiras",
+    "localidade": "Condomínio Guanabara",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Fátima",
+    "tipo": "comunidade",
+    "cidade": "Três Fronteiras",
+    "localidade": "Córrego do Campo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Senhor Bom Jesus",
+    "tipo": "comunidade",
+    "cidade": "Três Fronteiras",
+    "localidade": "Córrego do Cervo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Três Fronteiras",
+    "localidade": "Córrego do Cervo",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejales.org.br/paroquias/paroquia-nossa-senhora-aparecida-tres-fronteiras/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejales.org.br/paroquias/paroquia-nossa-senhora-aparecida-tres-fronteiras/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Santa Clara d'Oeste",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "1736631107",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "nsaparecida.santaclara@diocesedejales.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Santa Clara d'Oeste",
+    "localidade": "",
+    "endereco": "Praça da Matriz",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": [
+       1,
+       3
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": [
+       2,
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Luzia",
+    "tipo": "comunidade",
+    "cidade": "Santa Clara d'Oeste",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejales.org.br/paroquias/paroquia-nossa-senhora-aparecida-santa-clara-doeste/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejales.org.br/paroquias/paroquia-nossa-senhora-aparecida-santa-clara-doeste/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Página sem atualização desde 11/06/2024."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Aparecida d'Oeste",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "1736351109",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "nsaparecida.aparecida@diocesedejales.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Aparecida d'Oeste",
+    "localidade": "",
+    "endereco": "Praça Ademir de Oliveira",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Aparecida d'Oeste",
+    "localidade": "Bairro do Louro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Perpétuo Socorro",
+    "tipo": "comunidade",
+    "cidade": "Aparecida d'Oeste",
+    "localidade": "Córrego do Boi",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Aparecida d'Oeste",
+    "localidade": "Córrego do Pio Nogueira",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Aparecida d'Oeste",
+    "localidade": "Córrego das Laranjeiras",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejales.org.br/paroquias/paroquia-nossa-senhora-aparecida-aparecida-d-oeste/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejales.org.br/paroquias/paroquia-nossa-senhora-aparecida-aparecida-d-oeste/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Quase-Paróquia São Pedro",
+  "categoria": "quase_paroquia",
+  "cidade": "Nova Canaã Paulista",
+  "padroeiro": "São Pedro",
+  "contatos": {
+   "telefone": "17996836308",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "saopedro.canaa@diocesedejales.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Pedro",
+    "tipo": "matriz",
+    "cidade": "Nova Canaã Paulista",
+    "localidade": "",
+    "endereco": "Avenida Central, Praça da Matriz, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejales.org.br/paroquias/quase-paroquia-sao-pedro-nova-canaa-paulista/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejales.org.br/paroquias/quase-paroquia-sao-pedro-nova-canaa-paulista/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Página sem atualização desde 11/06/2024."
+ },
+ {
+  "id_banco": null,
+  "nome": "Quase-Paróquia São Francisco de Assis",
+  "categoria": "quase_paroquia",
+  "cidade": "São Francisco",
+  "padroeiro": "São Francisco de Assis",
+  "contatos": {
+   "telefone": "1736931288",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "saofrancisco.saofrancisco@diocesedejales.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Francisco de Assis",
+    "tipo": "matriz",
+    "cidade": "São Francisco",
+    "localidade": "",
+    "endereco": "Praça da Matriz, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": [
+       2,
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Celebração da Palavra no 1º e 3º domingo às 19h30. O quadro de horários da mesma página diz outra coisa: 1ª sexta 19h30, domingo 19h, 2º e 4º sábado 19h."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejales.org.br/paroquias/quase-paroquia-sao-francisco-de-assis-sao-francisco/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejales.org.br/paroquias/quase-paroquia-sao-francisco-de-assis-sao-francisco/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "A página se contradiz (sábado 19h30 no texto, 19h no quadro). O quadro cita ainda as comunidades Nossa Senhora Aparecida do Fandango e Senhor Bom Jesus de Nova Itapirema, que ficaram de fora até confirmar."
+ },
+ {
+  "id_banco": null,
+  "nome": "Quase-Paróquia Santa Rita",
+  "categoria": "quase_paroquia",
+  "cidade": "Santa Rita d'Oeste",
+  "padroeiro": "Santa Rita",
+  "contatos": {
+   "telefone": "1736431152",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "santarita.santarita@diocesedejales.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Rita",
+    "tipo": "matriz",
+    "cidade": "Santa Rita d'Oeste",
+    "localidade": "",
+    "endereco": "Praça da Matriz, s/nº",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "20:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Santa Rita d'Oeste",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "20:15",
+      "semanas": [
+       1,
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São José",
+    "tipo": "comunidade",
+    "cidade": "Santa Rita d'Oeste",
+    "localidade": "Estrada 51",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Santa Rita d'Oeste",
+    "localidade": "Bacuri",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejales.org.br/paroquias/quase-paroquia-santa-rita-santa-rita-doeste/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejales.org.br/paroquias/quase-paroquia-santa-rita-santa-rita-doeste/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Quase-Paróquia Santa Terezinha",
+  "categoria": "quase_paroquia",
+  "cidade": "Rubinéia",
+  "padroeiro": "Santa Terezinha",
+  "contatos": {
+   "telefone": "1736611330",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "santaterezinha.rubineia@diocesedejales.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Terezinha",
+    "tipo": "matriz",
+    "cidade": "Rubinéia",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Assunção",
+    "tipo": "comunidade",
+    "cidade": "Rubinéia",
+    "localidade": "Bairro Clone",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Rubinéia",
+    "localidade": "Vila União",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Menino Jesus",
+    "tipo": "comunidade",
+    "cidade": "Rubinéia",
+    "localidade": "Ilha do Sol",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Divino Pai Eterno",
+    "tipo": "comunidade",
+    "cidade": "Rubinéia",
+    "localidade": "Ipanema",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Sebastião",
+    "tipo": "comunidade",
+    "cidade": "Rubinéia",
+    "localidade": "Bacuri",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade do Alto do Bacuri",
+    "tipo": "comunidade",
+    "cidade": "Rubinéia",
+    "localidade": "Alto do Bacuri",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejales.org.br/paroquias/quase-paroquia-santa-terezinha-rubineia/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejales.org.br/paroquias/quase-paroquia-santa-terezinha-rubineia/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "A página não traz o endereço da matriz."
+ },
+ {
+  "id_banco": null,
+  "nome": "Quase-Paróquia Sant'Ana",
+  "categoria": "quase_paroquia",
+  "cidade": "Santana da Ponte Pensa",
+  "padroeiro": "Sant'Ana",
+  "contatos": {
+   "telefone": "1736921200",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "santaana.santana@diocesedejales.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Sant'Ana",
+    "tipo": "matriz",
+    "cidade": "Santana da Ponte Pensa",
+    "localidade": "Centro",
+    "endereco": "Avenida Santana, 565",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": "Sagrado Coração de Jesus"
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Santana da Ponte Pensa",
+    "localidade": "Estrada 54",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": "Quinta-feira às 19h30: celebração da Palavra."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejales.org.br/paroquias/quase-paroquia-santana-santana-da-ponte-pensa/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejales.org.br/paroquias/quase-paroquia-santana-santana-da-ponte-pensa/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": ""
+ },
+ {
+  "id_banco": null,
+  "nome": "Quase-Paróquia Santo Antônio",
+  "categoria": "quase_paroquia",
+  "cidade": "Marinópolis",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "1736951433",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "santoantonio.marinopolis@diocesedejales.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Marinópolis",
+    "localidade": "",
+    "endereco": "Praça da Bandeira",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": "Apostolado da Oração"
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejales.org.br/paroquias/quase-paroquia-santo-antonio-marinopolis/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejales.org.br/paroquias/quase-paroquia-santo-antonio-marinopolis/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Página sem atualização desde 11/06/2024."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Francisco Xavier",
+  "categoria": "paroquia",
+  "cidade": "Pereira Barreto",
+  "padroeiro": "São Francisco Xavier",
+  "contatos": {
+   "telefone": "1837041477",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "saofranciscoxavier.pereirabarreto@diocesedejales.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Francisco Xavier",
+    "tipo": "matriz",
+    "cidade": "Pereira Barreto",
+    "localidade": "",
+    "endereco": "Rua Cyro Maia, 1762",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Pereira Barreto",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Bom Jesus da Lapa",
+    "tipo": "comunidade",
+    "cidade": "Pereira Barreto",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco de Assis",
+    "tipo": "comunidade",
+    "cidade": "Pereira Barreto",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": [
+       2,
+       3,
+       5
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "Pereira Barreto",
+    "localidade": "Colina",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Centro Comunitário Vila Marão",
+    "tipo": "comunidade",
+    "cidade": "Pereira Barreto",
+    "localidade": "Vila Marão",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Fátima",
+    "tipo": "comunidade",
+    "cidade": "Pereira Barreto",
+    "localidade": "Zona rural",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejales.org.br/paroquias/paroquia-sao-francisco-xavier-pereira-barreto/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejales.org.br/paroquias/paroquia-sao-francisco-xavier-pereira-barreto/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Criada em 27/12/1940. Rurais também: Fazenda Esmeralda, Assentamento Terra e Vida, Fazenda Bonança. A página escreve \"São Bom Jesus da Lapa\"."
+ },
+ {
+  "id_banco": null,
+  "nome": "Quase-Paróquia Santo Antônio",
+  "categoria": "quase_paroquia",
+  "cidade": "Suzanápolis",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "1837041477",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "saofranciscoxavier.pereirabarreto@diocesedejales.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "Suzanápolis",
+    "localidade": "Centro",
+    "endereco": "Praça Salvador Ferreira de Souza, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": [
+       1,
+       3,
+       5
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Jorge",
+    "tipo": "comunidade",
+    "cidade": "Suzanápolis",
+    "localidade": "São Jorge",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade do Assentamento União",
+    "tipo": "comunidade",
+    "cidade": "Suzanápolis",
+    "localidade": "Assentamento União",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejales.org.br/paroquias/quase-paroquia-santo-antonio-suzanapolis/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejales.org.br/paroquias/quase-paroquia-santo-antonio-suzanapolis/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesedejales.org.br/paroquias/paroquia-sao-francisco-xavier-pereira-barreto/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Telefone e e-mail da paróquia de Pereira Barreto, mesmo padre; os horários batem com os da página de lá."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Cristo Luz do Mundo",
+  "categoria": "paroquia",
+  "cidade": "Ilha Solteira",
+  "padroeiro": "Cristo Luz do Mundo",
+  "contatos": {
+   "telefone": "18997063589",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "cristoluzdomundo.ilhasolteira@diocesedejales.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Cristo Luz do Mundo",
+    "tipo": "matriz",
+    "cidade": "Ilha Solteira",
+    "localidade": "",
+    "endereco": "Alameda Goiás, 155",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Expedito",
+    "tipo": "comunidade",
+    "cidade": "Ilha Solteira",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Judas Tadeu",
+    "tipo": "comunidade",
+    "cidade": "Ilha Solteira",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Ilha Solteira",
+    "localidade": "Entre Rios",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejales.org.br/paroquias/paroquia-cristo-luz-do-mundo-ilha-solteira/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejales.org.br/paroquias/paroquia-cristo-luz-do-mundo-ilha-solteira/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Criada em 1971. A página lista ainda o hospital, o Bairro Ipê e vários assentamentos e bairros rurais sem nome de comunidade."
+ },
+ {
+  "id_banco": null,
+  "nome": "Quase-Paróquia Nossa Senhora Imaculada Conceição",
+  "categoria": "quase_paroquia",
+  "cidade": "Itapura",
+  "padroeiro": "Imaculada Conceição",
+  "contatos": {
+   "telefone": "18997063589",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "cristoluzdomundo.ilhasolteira@diocesedejales.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Imaculada Conceição",
+    "tipo": "matriz",
+    "cidade": "Itapura",
+    "localidade": "",
+    "endereco": "Avenida Princesa Izabel, 100",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejales.org.br/paroquias/quase-paroquia-nossa-senhora-imaculada-conceicao-itapura/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejales.org.br/paroquias/quase-paroquia-nossa-senhora-imaculada-conceicao-itapura/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Telefone e e-mail da paróquia de Ilha Solteira, mesmo padre."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Sud Mennucci",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "1837861398",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "nsaparecida.sudmennucci@diocesedejales.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Sud Mennucci",
+    "localidade": "Centro",
+    "endereco": "Avenida Pioneiros, 548, Praça da Matriz",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Confissões às terças e quintas à tarde e aos sábados, sem hora na página."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Sebastião",
+    "tipo": "comunidade",
+    "cidade": "Sud Mennucci",
+    "localidade": "Bandeirantes d'Oeste",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejales.org.br/paroquias/paroquia-nossa-senhora-aparecida-sud-mennucci/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejales.org.br/paroquias/paroquia-nossa-senhora-aparecida-sud-mennucci/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Criada em 15/10/2000."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "Auriflama",
+  "padroeiro": "Nossa Senhora da Conceição Aparecida",
+  "contatos": {
+   "telefone": "1734821048",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "nsaparecida.auriflama@diocesedejales.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Auriflama",
+    "localidade": "",
+    "endereco": "Praça da Matriz, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "20:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São José",
+    "tipo": "capela",
+    "cidade": "Auriflama",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": [
+       1,
+       3,
+       5
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de Santo Antônio",
+    "tipo": "capela",
+    "cidade": "Auriflama",
+    "localidade": "",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": [
+       2,
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Ana",
+    "tipo": "comunidade",
+    "cidade": "Auriflama",
+    "localidade": "Ana Carolina",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Anjo da Guarda",
+    "tipo": "comunidade",
+    "cidade": "Auriflama",
+    "localidade": "Boa Vista",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Edwiges",
+    "tipo": "comunidade",
+    "cidade": "Auriflama",
+    "localidade": "Cachopa",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora de Fátima",
+    "tipo": "comunidade",
+    "cidade": "Auriflama",
+    "localidade": "Cidade Alta",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Miguel Arcanjo",
+    "tipo": "comunidade",
+    "cidade": "Auriflama",
+    "localidade": "Colinas Park",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Imaculada Conceição",
+    "tipo": "comunidade",
+    "cidade": "Auriflama",
+    "localidade": "Jardim Conceição",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora da Assunção",
+    "tipo": "comunidade",
+    "cidade": "Auriflama",
+    "localidade": "Portal das Paineiras",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Pedro",
+    "tipo": "comunidade",
+    "cidade": "Auriflama",
+    "localidade": "Bairro da Barraca",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco",
+    "tipo": "comunidade",
+    "cidade": "Auriflama",
+    "localidade": "Bairro São Francisco",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Auriflama",
+    "localidade": "Narcísio Rubia",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejales.org.br/paroquias/paroquia-nossa-senhora-aparecida-auriflama/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejales.org.br/paroquias/paroquia-nossa-senhora-aparecida-auriflama/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Criada em 01/05/1952 como Nossa Senhora da Conceição Aparecida. A página cita também a comunidade rural Santa Maria Médici."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora das Dores",
+  "categoria": "paroquia",
+  "cidade": "General Salgado",
+  "padroeiro": "Nossa Senhora das Dores",
+  "contatos": {
+   "telefone": "1738321107",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "nsdasdores.generalsalgado@diocesedejales.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora das Dores",
+    "tipo": "matriz",
+    "cidade": "General Salgado",
+    "localidade": "Centro",
+    "endereco": "Rua Nadir Garcia, 871",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": [
+       2
+      ],
+      "observacao": "Com a RCC"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": "Apostolado da Oração e Legião de Maria"
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora do Rosário",
+    "tipo": "comunidade",
+    "cidade": "General Salgado",
+    "localidade": "Residencial Padre Victorino",
+    "endereco": "Salão comunitário",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": [
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Pedro",
+    "tipo": "comunidade",
+    "cidade": "General Salgado",
+    "localidade": "Cohab Orlando Gabriel",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": [
+       1,
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santos Reis",
+    "tipo": "comunidade",
+    "cidade": "General Salgado",
+    "localidade": "Cohab III",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": [
+       2,
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Sebastião",
+    "tipo": "comunidade",
+    "cidade": "General Salgado",
+    "localidade": "Nova Palmira",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": [
+       2
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Luiz Gonzaga",
+    "tipo": "comunidade",
+    "cidade": "General Salgado",
+    "localidade": "São Luiz de Japiúba",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": [
+       1,
+       3
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade da Fazenda Tamborlin",
+    "tipo": "comunidade",
+    "cidade": "General Salgado",
+    "localidade": "Fazenda Tamborlin",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejales.org.br/paroquias/paroquia-nossa-senhora-das-dores-general-salgado/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejales.org.br/paroquias/paroquia-nossa-senhora-das-dores-general-salgado/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Criada em 1940. Atende também as quase-paróquias de São João de Iracema e Nova Castilho."
+ },
+ {
+  "id_banco": null,
+  "nome": "Quase-Paróquia Nossa Senhora Aparecida",
+  "categoria": "quase_paroquia",
+  "cidade": "Guzolândia",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "1736371150",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "nsaparecida.guzolandia@diocesedejales.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "Guzolândia",
+    "localidade": "Centro",
+    "endereco": "Praça da Matriz",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1,
+       3
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": [
+       2,
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Capela de São José",
+    "tipo": "capela",
+    "cidade": "Guzolândia",
+    "localidade": "São José do Limoeiro",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade do Jardim Três Marias",
+    "tipo": "comunidade",
+    "cidade": "Guzolândia",
+    "localidade": "Jardim Três Marias",
+    "endereco": "",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejales.org.br/paroquias/quase-paroquia-nossa-senhora-aparecida-guzolandia/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejales.org.br/paroquias/quase-paroquia-nossa-senhora-aparecida-guzolandia/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Escritório na Rua Cabo Miranda, 1150, Centro. Rurais: Antunes, Boa Vista, Cobras, Coqueiro, Fazenda São José."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio e Nossa Senhora do Carmo",
+  "categoria": "paroquia",
+  "cidade": "Santo Antônio do Aracanguá",
+  "padroeiro": "Santo Antônio e Nossa Senhora do Carmo",
+  "contatos": {
+   "telefone": "1836391242",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "santoantonio.aracangua@diocesedejales.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio e Nossa Senhora do Carmo",
+    "tipo": "matriz",
+    "cidade": "Santo Antônio do Aracanguá",
+    "localidade": "",
+    "endereco": "Praça da Matriz",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "2ª, 3ª e 4ª quarta-feira às 19h30: missa nos bairros. Condomínios rurais: Riviera da Barra (1º domingo), Boulevard das Acácias (2º), São José do Macaúbas (3º), Itapoã (4º), sem hora."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Nossa Senhora Aparecida",
+    "tipo": "comunidade",
+    "cidade": "Santo Antônio do Aracanguá",
+    "localidade": "Major Prado",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Senhor Bom Jesus",
+    "tipo": "comunidade",
+    "cidade": "Santo Antônio do Aracanguá",
+    "localidade": "Vicentinópolis",
+    "endereco": "",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejales.org.br/paroquias/paroquia-santo-antonio-e-nossa-senhora-do-carmo-santo-antonio-do-aracangua/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejales.org.br/paroquias/paroquia-santo-antonio-e-nossa-senhora-do-carmo-santo-antonio-do-aracangua/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Município vizinho de Araçatuba, mas da Diocese de Jales (site da diocese e GCatholic)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Quase-Paróquia São João Batista",
+  "categoria": "quase_paroquia",
+  "cidade": "São João de Iracema",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "nsdasdores.generalsalgado@diocesedejales.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Batista",
+    "tipo": "matriz",
+    "cidade": "São João de Iracema",
+    "localidade": "Centro",
+    "endereco": "Rua Ezequiel Pinto Cabral",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Benedito",
+    "tipo": "comunidade",
+    "cidade": "General Salgado",
+    "localidade": "Prudêncio e Moraes",
+    "endereco": "Rua Benedito da Cunha Lacerda, 45",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       2,
+       3,
+       4
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejales.org.br/paroquias/quase-paroquia-sao-joao-batista-sao-joao-de-iracema/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejales.org.br/paroquias/quase-paroquia-sao-joao-batista-sao-joao-de-iracema/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "E-mail da paróquia de General Salgado, mesmo padre; sem telefone publicado. A comunidade de Prudêncio e Moraes, distrito de General Salgado, também é citada na página de Pontalinda."
+ },
+ {
+  "id_banco": null,
+  "nome": "Quase-Paróquia São José",
+  "categoria": "quase_paroquia",
+  "cidade": "Nova Castilho",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "nsdasdores.generalsalgado@diocesedejales.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José",
+    "tipo": "matriz",
+    "cidade": "Nova Castilho",
+    "localidade": "Centro",
+    "endereco": "Praça da Matriz, s/n",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://diocesedejales.org.br/paroquias/quase-paroquia-sao-jose-nova-castilho/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://diocesedejales.org.br/paroquias/quase-paroquia-sao-jose-nova-castilho/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "E-mail da paróquia de General Salgado, mesmo padre; sem telefone publicado."
+ }
+]
