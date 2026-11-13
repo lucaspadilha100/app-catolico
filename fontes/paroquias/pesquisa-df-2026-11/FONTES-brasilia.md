@@ -137,8 +137,9 @@ Não foi usado: o buscador "Horários de Missas" do site
 
 https://gcatholic.org/dioceses/diocese/bras0.htm e
 https://gcatholic.org/churches/local/bras0 (atualizado em 09/11/2026): 152
-igrejas na arquidiocese, estatística de 2022 com 156 paróquias. Todas as
-paróquias do GCatholic estão na nossa lista, com estas diferenças:
+igrejas na arquidiocese, estatística de 2022 com 156 paróquias. Batendo nome
+e cidade, as paróquias do GCatholic estão na nossa lista, com estas
+diferenças:
 
 - **São Jorge e Santo Expedito (Taguatinga)**, listada como paróquia, não
   aparece em nenhuma página da arquidiocese. A localização do GCatholic fica
@@ -156,7 +157,7 @@ paróquias do GCatholic estão na nossa lista, com estas diferenças:
   N. S. Auxiliadora e N. S. da Esperança de Vicente Pires em Taguatinga;
   Imaculado Coração de Maria em Águas Claras). Seguimos o endereço da
   arquidiocese.
-- Faltam no GCatholic 15 unidades criadas ou listadas depois (por exemplo
+- Faltam no GCatholic unidades criadas ou listadas depois (por exemplo
   Bem-Aventurada Virgem Maria de Guadalupe, Santo Antônio de Sant'Anna
   Galvão no Taquari, São João Paulo II do Park Sul e do Mangueiral, N. S. de
   Fátima de Planaltina, Jesus Bom Pastor, Santa Bernadete).
