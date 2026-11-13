@@ -1,0 +1,7289 @@
+[
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José do Belém",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "1126931548",
+   "whatsapp": "",
+   "instagram": "paroquiasaojosedobelem",
+   "site": "",
+   "email": "secretariabelem@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José do Belém",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Belenzinho",
+    "endereco": "Largo São José do Belém, s/nº",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "11:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 2,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Até 12h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "14:00",
+      "semanas": null,
+      "observacao": "Até 17h"
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-sao-jose-belem/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-sao-jose-belem/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Região Episcopal Belém, Decanato Santa Maria e São José (setor Belém no GCatholic). Horários da página da paróquia no site da arquidiocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "1126938433",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "psjbatistadobras@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Batista",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Brás",
+    "endereco": "Largo Senador Morais Barros, s/nº",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-sao-joao-batista-bras/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-sao-joao-batista-bras/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Região Episcopal Belém, Decanato Santa Maria e São José (setor Belém no GCatholic). Horários da página da paróquia no site da arquidiocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Rafael",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "São Rafael",
+  "contatos": {
+   "telefone": "1122924528",
+   "whatsapp": "",
+   "instagram": "paroquiasaorafaelmoocasp",
+   "site": "",
+   "email": "paroquiasaorafael@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Rafael",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Mooca",
+    "endereco": "Largo São Rafael, s/nº",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "11:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": "Até 18h"
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-sao-rafael/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-sao-rafael/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Região Episcopal Belém, Decanato Santa Maria e São José (setor Belém no GCatholic). Horários da página da paróquia no site da arquidiocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Rita de Cássia",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Santa Rita de Cássia",
+  "contatos": {
+   "telefone": "1126937985",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paritacassia@terra.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Rita de Cássia",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Pari",
+    "endereco": "Rua Santa Rita, 799",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-santa-rita-de-cassia-pari/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Belém, Decanato Santa Maria e São José (setor Belém no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria, e o blog da paróquia ligado lá é de 2009, sem horário oficial."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Paulo Apóstolo",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "São Paulo Apóstolo",
+  "contatos": {
+   "telefone": "1126054100",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "https://www.paroquiasaopaulo.org/",
+   "email": "paroapostolo4@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Paulo Apóstolo",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Mooca",
+    "endereco": "Rua Tobias Barreto, 1320",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": "Missa das crianças"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa do Sagrado Coração de Jesus"
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": [
+       3
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:30",
+      "semanas": [
+       3
+      ],
+      "observacao": "Missa dos dizimistas"
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.paroquiasaopaulo.org/missas",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-sao-paulo-apostolo-belem/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Região Episcopal Belém, Decanato Santa Maria e São José (setor Belém no GCatholic). Horários do site da paróquia, que publica em texto só as missas especiais; as missas regulares não aparecem. A página da arquidiocese só traz o expediente da secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Lourdes",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Nossa Senhora de Lourdes",
+  "contatos": {
+   "telefone": "1126068309",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "https://senhoradelourdes.org.br/",
+   "email": "secretaria@senhoradelourdes.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora de Lourdes",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Quarta Parada",
+    "endereco": "Rua João Soares, 13",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-nossa-senhora-de-lourdes/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Belém, Decanato Santa Maria e São José (setor Belém no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria, e o site da paróquia pede verificação de robô."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Carlos Borromeu",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "São Carlos Borromeu",
+  "contatos": {
+   "telefone": "1120817096",
+   "whatsapp": "11949935173",
+   "instagram": "igrejasaocarlosborromeu",
+   "site": "https://igrejasaocarlos.com.br/",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Carlos Borromeu",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Belenzinho",
+    "endereco": "Rua Conselheiro Cotegipe, 933",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-sao-carlos-borromeu-belem/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-sao-carlos-borromeu-belem/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Região Episcopal Belém, Decanato Santa Maria e São José (setor Belém no GCatholic). Horários da página da paróquia no site da arquidiocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Miguel Arcanjo",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "São Miguel Arcanjo",
+  "contatos": {
+   "telefone": "1126926798",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "https://www.oarcanjo.net/site",
+   "email": "secretaria@oarcanjo.net"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Miguel Arcanjo",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Mooca",
+    "endereco": "Rua Taquari, 1100",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-sao-miguel-arcanjo-belem/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-sao-miguel-arcanjo-belem/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Região Episcopal Belém, Decanato Santa Maria e São José (setor Belém no GCatholic). Horários da página da paróquia no site da arquidiocese. O Instagram ligado na página é o pessoal do pároco e ficou de fora."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Bom Conselho",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Nossa Senhora do Bom Conselho",
+  "contatos": {
+   "telefone": "1126018837",
+   "whatsapp": "",
+   "instagram": "nsbc_paroquia",
+   "site": "https://www.paroquiabomconselho.com/paroquiabomconselho/",
+   "email": "secretaria@paroquiabomconselho.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Bom Conselho",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Mooca",
+    "endereco": "Rua da Mooca, 3911",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": "Até 17h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Até 11h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 6,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Até 11h"
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-nossa-senhora-do-bom-conselho/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-nossa-senhora-do-bom-conselho/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Região Episcopal Belém, Decanato Santa Maria e São José (setor Belém no GCatholic). Horários da página da paróquia no site da arquidiocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Pedro Apóstolo",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "São Pedro Apóstolo",
+  "contatos": {
+   "telefone": "1129654127",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "igrejasaopedro@ig.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Pedro Apóstolo",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Vila Oratório",
+    "endereco": "Rua Ibitinga, 838",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-sao-pedro-apostolo-mooca/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Belém, Decanato Santa Maria e São José (setor Vila Prudente no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Carlos Borromeu",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "São Carlos Borromeu",
+  "contatos": {
+   "telefone": "1129656084",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "sborromeusaocarlos@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Carlos Borromeu",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Vila Prudente",
+    "endereco": "Rua do Oratório, 3712",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-sao-carlos-borromeu-vila-prudente/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Belém, Decanato Santa Maria e São José (setor Vila Prudente no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida dos Ferroviários",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "1127966016",
+   "whatsapp": "11910564097",
+   "instagram": "",
+   "site": "https://nsaparecidadosferroviarios.blogspot.com/",
+   "email": "nosa_fe@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Aparecida dos Ferroviários",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Mooca",
+    "endereco": "Rua Almirante Brasil, 125",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://nsaparecidadosferroviarios.blogspot.com/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-nossa-senhora-aparecida-ferroviarios/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Região Episcopal Belém, Decanato Santa Maria e São José (setor Brás no GCatholic). Horário do blog da paróquia, que em abril de 2025 cita a missa de domingo às 17h como horário habitual; a página da arquidiocese diz \"não informado\" e os demais dias ficam sem fonte."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Cristo Rei",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Cristo Rei",
+  "contatos": {
+   "telefone": "1122951685",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "cristoreisp@uol.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Cristo Rei",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Tatuapé",
+    "endereco": "Rua Maria Eugênia, 104",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-cristo-rei/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Belém, Decanato São Lucas (setor Tatuapé no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Bom Parto",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Nossa Senhora do Bom Parto",
+  "contatos": {
+   "telefone": "1126759402",
+   "whatsapp": "",
+   "instagram": "nossasenhoradobomparto_tatuape",
+   "site": "",
+   "email": "paroquiabomparto@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Bom Parto",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Vila Gomes Cardim",
+    "endereco": "Rua Serra do Japi, 1172",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": "Até 18h"
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-nossa-senhora-do-bom-parto/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-nossa-senhora-do-bom-parto/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Região Episcopal Belém, Decanato São Lucas (setor Tatuapé no GCatholic). Horários da página da paróquia no site da arquidiocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José do Maranhão",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "1122940288",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "psjosedomaranhao@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José do Maranhão",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Maranhão",
+    "endereco": "Largo São José do Maranhão, 180",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-sao-jose-do-maranhao/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Belém, Decanato São Lucas (setor Tatuapé no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Conceição",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Nossa Senhora da Conceição",
+  "contatos": {
+   "telefone": "1120931920",
+   "whatsapp": "1120931920",
+   "instagram": "",
+   "site": "https://nossasenhoradaconceicao.com.br/",
+   "email": "pns.conceicao@outlook.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Conceição",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Cidade Mãe do Céu",
+    "endereco": "Praça Sílvio Romero, s/nº",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": "Missa com as crianças"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 1,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Até 11h"
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": "Até 12h"
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-nossa-senhora-da-conceicao/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-nossa-senhora-da-conceicao/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Região Episcopal Belém, Decanato São Lucas (setor Tatuapé no GCatholic). Horários da página da paróquia no site da arquidiocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio de Lisboa",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Santo Antônio de Lisboa",
+  "contatos": {
+   "telefone": "1120975493",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasantoantoniodelisboa@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio de Lisboa",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Vila Gomes Cardim",
+    "endereco": "Rua Euclides Pacheco, 1980",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-santo-antonio-de-lisboa/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Belém, Decanato São Lucas (setor Tatuapé no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Judas Tadeu",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "São Judas Tadeu",
+  "contatos": {
+   "telefone": "1122965635",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "psjttatuape@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Judas Tadeu",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Vila Gomes Cardim",
+    "endereco": "Rua Padre Estevão Pernet, 1484",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-sao-judas-tadeu/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Belém, Decanato São Lucas (setor Tatuapé no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "1122964457",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Batista",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Chácara Califórnia",
+    "endereco": "Rua Coronel Marques, 174",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-sao-joao-batista-chacara-california/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Belém, Decanato São Lucas (setor Carrão/Vila Formosa no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria, e o site da paróquia leva a uma agenda do Google, não lida. A página da arquidiocese repete o e-mail secretariabelem@hotmail.com, de outra paróquia; ficou de fora."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Sagrado Coração",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Nossa Senhora do Sagrado Coração",
+  "contatos": {
+   "telefone": "1122110448",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "https://www.santuariodemaria.com.br/",
+   "email": "secretaria@santuariodemaria.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário de Nossa Senhora do Sagrado Coração",
+    "tipo": "santuario",
+    "cidade": "São Paulo",
+    "localidade": "Vila Formosa",
+    "endereco": "Avenida Renata, 1",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 2,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Até 11h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Até 11h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Até 11h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Até 11h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 2,
+      "hora": "14:30",
+      "semanas": null,
+      "observacao": "Até 16h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "14:30",
+      "semanas": null,
+      "observacao": "Até 16h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "14:30",
+      "semanas": null,
+      "observacao": "Até 16h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "14:30",
+      "semanas": null,
+      "observacao": "Até 16h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 6,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Até 11h30"
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://www.santuariodemaria.com.br/missas",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-nossa-senhora-do-sagrado-coracao/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Região Episcopal Belém, Decanato São Lucas (setor Carrão/Vila Formosa no GCatholic). Santuário. Horários do site do santuário, que dá o endereço Rua Angá, 994; a arquidiocese dá Avenida Renata, 1."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Coração Eucarístico de Jesus e Santa Marina",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Coração Eucarístico de Jesus e Santa Marina",
+  "contatos": {
+   "telefone": "1122964246",
+   "whatsapp": "",
+   "instagram": "santamarinacej",
+   "site": "",
+   "email": "cejsantamarina@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Coração Eucarístico de Jesus e Santa Marina",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Vila Carrão",
+    "endereco": "Rua Engenheiro Pegado, 374",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "07:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Até 11h30"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Até 11h30"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Até 11h30"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 6,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Até 11h"
+     }
+    ],
+    "nao_cabe": "Confissões também antes e após as missas."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-coracao-eucaristico-de-jesus-e-santa-marina/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-coracao-eucaristico-de-jesus-e-santa-marina/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Região Episcopal Belém, Decanato São Lucas (setor Carrão/Vila Formosa no GCatholic). Horários da página da paróquia no site da arquidiocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Isabel Rainha",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Santa Isabel Rainha",
+  "contatos": {
+   "telefone": "1127811048",
+   "whatsapp": "1127811048",
+   "instagram": "isabelrainhasp",
+   "site": "https://isabelrainha.com.br/",
+   "email": "santaisabelrainha1950@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Isabel Rainha",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Vila Santa Isabel",
+    "endereco": "Alameda Rainha Santa, 322",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "20:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Até 11h30"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "14:30",
+      "semanas": null,
+      "observacao": "Até 17h30"
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://isabelrainha.com.br/missas/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-santa-isabel-rainha/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Região Episcopal Belém, Decanato São Lucas (setor Carrão/Vila Formosa no GCatholic). Horários do site da paróquia; a página da arquidiocese só traz o expediente da secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sagrada Família",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Sagrada Família",
+  "contatos": {
+   "telefone": "1127813178",
+   "whatsapp": "",
+   "instagram": "sagradafamiliavc",
+   "site": "",
+   "email": "sagradafamiliavc@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz da Sagrada Família",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Vila Carrão",
+    "endereco": "Rua João Cordeiro, 772",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Confissões segunda, quarta e quinta-feira o dia todo."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-sagrada-familia-vila-carrao/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-sagrada-familia-vila-carrao/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Região Episcopal Belém, Decanato São Lucas (setor Carrão/Vila Formosa no GCatholic). Horários da página da paróquia no site da arquidiocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "1120368472",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "nsa2011@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Vila Carrão",
+    "endereco": "Rua Amarais, 470",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-nossa-senhora-aparecida-vila-formosa/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Belém, Decanato São Lucas (setor Carrão/Vila Formosa no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Vicente Pallotti e São Pedro Apóstolo",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "São Vicente Pallotti e São Pedro Apóstolo",
+  "contatos": {
+   "telefone": "1126731060",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "svpallotti@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Vicente Pallotti e São Pedro Apóstolo",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Vila Antonina",
+    "endereco": "Rua dos Povoadores, 123",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-sao-vicente-pallotti-e-sao-pedro-apostolo/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Belém, Decanato São Lucas (setor Carrão/Vila Formosa no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Benedito das Vitórias",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "São Benedito das Vitórias",
+  "contatos": {
+   "telefone": "1126743559",
+   "whatsapp": "",
+   "instagram": "saobeneditodasvitorias",
+   "site": "",
+   "email": "p.saobeneditodasvitorias@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Benedito das Vitórias",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Vila Formosa",
+    "endereco": "Praça Nossa Senhora das Vitórias, 137",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "11:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 6,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Até 11h"
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-sao-benedito-das-vitorias/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-sao-benedito-das-vitorias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Região Episcopal Belém, Decanato São Lucas (setor Carrão/Vila Formosa no GCatholic). Horários da página da paróquia no site da arquidiocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Pio X e Santa Luzia",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "São Pio X e Santa Luzia",
+  "contatos": {
+   "telefone": "1129655333",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "pstaluziaspiox@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Pio X e Santa Luzia",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Vila Regente Feijó",
+    "endereco": "Avenida Sapopemba, 1500",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-sao-pio-x-e-santa-luzia/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Belém, Decanato Santa Maria Madalena (setor Guarani no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida e São Luciano",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Nossa Senhora Aparecida e São Luciano",
+  "contatos": {
+   "telefone": "1122117155",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "ecclesiaemater@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Aparecida e São Luciano",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Vila Ema",
+    "endereco": "Avenida Vila Ema, 3351",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-nossa-senhora-aparecida-e-sao-luciano/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Belém, Decanato Santa Maria Madalena (setor Guarani no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Perpétuo Socorro",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Nossa Senhora do Perpétuo Socorro",
+  "contatos": {
+   "telefone": "1122116508",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "socorroperpetuo@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Perpétuo Socorro",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Chácara Mafalda",
+    "endereco": "Rua Grecco, 599/613",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-nossa-senhora-do-perpetuo-socorro-vila-diva/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Belém, Decanato Santa Maria Madalena (setor Guarani no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio de Pádua",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Santo Antônio de Pádua",
+  "contatos": {
+   "telefone": "1126744063",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasantoantoniodepadua@hotmail.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio de Pádua",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Chácara Belenzinho",
+    "endereco": "Travessa Montemagno, 842",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-santo-antonio-de-padua-chacara-mafalda/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Belém, Decanato Santa Maria Madalena (setor Guarani no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria. O site indicado não respondeu em 13/11/2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Clara",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Santa Clara",
+  "contatos": {
+   "telefone": "1122161867",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "santaclarasetorguarani@ig.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Clara",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Vila Santa Clara",
+    "endereco": "Rua Sílvio de Sousa, 223",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-santa-clara/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Belém, Decanato Santa Maria Madalena (setor Guarani no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Natividade do Senhor",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Natividade do Senhor",
+  "contatos": {
+   "telefone": "1122162563",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquianatividadedosenhor@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz da Natividade do Senhor",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Vila Guarani",
+    "endereco": "Avenida Antônio Buono, 62",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-natividade-do-senhor-vila-guarani/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Belém, Decanato Santa Maria Madalena (setor Guarani no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Carmo",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Nossa Senhora do Carmo",
+  "contatos": {
+   "telefone": "1129171755",
+   "whatsapp": "",
+   "instagram": "parnsracarmo",
+   "site": "",
+   "email": "paroquianscarmo@uol.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Carmo",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Vila Alpina",
+    "endereco": "Praça Coronel Melo Gaia, s/nº",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "11:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "14:30",
+      "semanas": null,
+      "observacao": "Até 17h"
+     }
+    ],
+    "nao_cabe": "Confissão no sábado mediante agendamento pelo (11) 2917-1755."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-nossa-senhora-do-carmo-vila-alpina/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-nossa-senhora-do-carmo-vila-alpina/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Região Episcopal Belém, Decanato Santa Maria Madalena (setor Vila Alpina no GCatholic). Horários da página da paróquia no site da arquidiocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora das Graças",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Nossa Senhora das Graças",
+  "contatos": {
+   "telefone": "1129171167",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquia.nsgracas@terra.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora das Graças",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Vila Califórnia",
+    "endereco": "Rua Antenas, 582",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-nossa-senhora-das-gracas-vila-california/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Belém, Decanato Santa Maria Madalena (setor Vila Alpina no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Bernadette",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Santa Bernadette",
+  "contatos": {
+   "telefone": "1127021194",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "p.s.bernadette@uol.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Bernadette",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Vila IVG",
+    "endereco": "Avenida do Oratório, 4246",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-santa-bernadette/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Belém, Decanato Santa Maria Madalena (setor Vila Alpina no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria. O site indicado não respondeu em 13/11/2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Pedro Apóstolo",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "São Pedro Apóstolo",
+  "contatos": {
+   "telefone": "1122114241",
+   "whatsapp": "11971566645",
+   "instagram": "",
+   "site": "",
+   "email": "secretaria@saopedro.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Pedro Apóstolo",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Jardim Independência",
+    "endereco": "Avenida Alberto Ramos, 614",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-sao-pedro-apostolo-jd-independencia/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Belém, Decanato Santa Maria Madalena (setor Vila Alpina no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Filipe Neri",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "São Filipe Neri",
+  "contatos": {
+   "telefone": "1122116817",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasaofilipeneri@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Filipe Neri",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Parque São Lucas",
+    "endereco": "Avenida São Lucas, 279",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-sao-filipe-neri/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Belém, Decanato Santa Maria Madalena (setor Vila Alpina no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Pedro Apóstolo",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "São Pedro Apóstolo",
+  "contatos": {
+   "telefone": "1121431546",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "spedro29@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Pedro Apóstolo",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Vila Industrial",
+    "endereco": "Avenida do Oratório, 6276",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-sao-pedro-apostolo-vila-industrial/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Belém, Decanato Santa Maria Madalena (setor Vila Alpina no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Rosa de Lima",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Santa Rosa de Lima",
+  "contatos": {
+   "telefone": "1127032233",
+   "whatsapp": "",
+   "instagram": "limaparoquiasantarosade",
+   "site": "",
+   "email": "contato@paroquiasantarosalima.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Rosa de Lima",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Vila Industrial",
+    "endereco": "Rua Salvador Mota, 296",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 2,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Até 11h30"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Até 11h30"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Até 11h30"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 2,
+      "hora": "14:00",
+      "semanas": null,
+      "observacao": "Até 16h30"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "14:00",
+      "semanas": null,
+      "observacao": "Até 16h30"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "14:00",
+      "semanas": null,
+      "observacao": "Até 16h30"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 6,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Até 11h30"
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-santa-rosa-de-lima-vila-alpina/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-santa-rosa-de-lima-vila-alpina/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Região Episcopal Belém, Decanato Santa Maria Madalena (setor Vila Alpina no GCatholic). Horários da página da paróquia no site da arquidiocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Fátima e São Roque",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Nossa Senhora de Fátima e São Roque",
+  "contatos": {
+   "telefone": "1127021646",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "https://santuarionsf.com.br/",
+   "email": "secretaria@santuarionsf.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora de Fátima e São Roque",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Vila Tolstói",
+    "endereco": "Rua José Antônio Fontes, 36",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "11:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Segunda-feira às 15h: missa na Capela da Ressurreição (sem endereço na fonte)."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade São Francisco de Assis",
+    "tipo": "comunidade",
+    "cidade": "São Paulo",
+    "localidade": "Jardim Grimaldi",
+    "endereco": "Rua Nasciosseno Gomes Barbosa, 355",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Missa ou celebração da Palavra"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "08:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santo Antônio",
+    "tipo": "comunidade",
+    "cidade": "São Paulo",
+    "localidade": "Parque Bancário",
+    "endereco": "Avenida General Porfírio da Paz, 878",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": [
+       1,
+       4
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "A página dá missa aos domingos às 9h, mas a lista de atividades diz missa no 1º e 4º domingo e celebração da Palavra nos demais."
+   },
+   {
+    "id_banco": null,
+    "nome": "Comunidade Santa Clara",
+    "tipo": "comunidade",
+    "cidade": "São Paulo",
+    "localidade": "Vila Tolstói",
+    "endereco": "Rua Mahunf, 32",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://santuarionsf.com.br/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-nossa-senhora-de-fatima-e-sao-roque/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Região Episcopal Belém, Decanato São Timóteo (setor Sapopemba no GCatholic). Horários do site da paróquia (frades capuchinhos), com três comunidades com endereço; a página da arquidiocese só traz o expediente da secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Maria Madalena",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Santa Maria Madalena",
+  "contatos": {
+   "telefone": "1127034831",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Maria Madalena",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Parque Santa Madalena",
+    "endereco": "Avenida Primavera de Caiena, 43",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-santa-maria-madalena/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Belém, Decanato São Timóteo (setor Sapopemba no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria. E-mail publicado parece pessoal e ficou de fora."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Esperança",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Nossa Senhora da Esperança",
+  "contatos": {
+   "telefone": "1127262536",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "credesp@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Esperança",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Parque dos Bancários",
+    "endereco": "Rua Henry Fuseti, 49 B",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-nossa-senhora-da-esperanca-parque-dos-bancarios/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Belém, Decanato São Timóteo (setor Sapopemba no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria. O site indicado não respondeu em 13/11/2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora das Graças",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Nossa Senhora das Graças",
+  "contatos": {
+   "telefone": "1127032175",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "sparnsgelba@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora das Graças",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Vila Renato",
+    "endereco": "Rua Serra de Capivaruçu, 274",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-nossa-senhora-das-gracas-jardim-elba/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Belém, Decanato São Timóteo (setor Sapopemba no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "São Sebastião",
+  "contatos": {
+   "telefone": "1129626560",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "saosebastiaocomunidade1@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Sebastião",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Fazenda da Juta",
+    "endereco": "Rua Tenente Godofredo Cerqueira Leite, 300",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-sao-sebastiao-mascarenhas-de-moraes/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Belém, Decanato São Timóteo (setor Sapopemba no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Divino Espírito Santo",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Divino Espírito Santo",
+  "contatos": {
+   "telefone": "1127057612",
+   "whatsapp": "",
+   "instagram": "pardivino2005",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Divino Espírito Santo",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Conjunto Habitacional Teotônio Vilela",
+    "endereco": "Avenida Arquiteto Vilanova Artigas, 596",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "20:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "20:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Missa todo dia 19 do mês às 20h."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-divino-espirito-santo-cohab-teotonio-vilela/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-divino-espirito-santo-cohab-teotonio-vilela/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Região Episcopal Belém, Decanato São Timóteo (setor Sapopemba no GCatholic). Horários da página da paróquia no site da arquidiocese. A página da arquidiocese repete o e-mail secretariabelem@hotmail.com, de outra paróquia; ficou de fora."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Imaculada Conceição",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Imaculada Conceição",
+  "contatos": {
+   "telefone": "1120118131",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "imaculadaconceicao.paroqui@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz da Imaculada Conceição",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Jardim Sapopemba",
+    "endereco": "Rua José Barbosa da Silva, 31",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-imaculada-conceicao-jardim-sapopemba/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Belém, Decanato São Timóteo (setor Sapopemba no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora das Graças",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Nossa Senhora das Graças",
+  "contatos": {
+   "telefone": "1127268500",
+   "whatsapp": "",
+   "instagram": "nsdasgracasva",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora das Graças",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Vila Antonieta",
+    "endereco": "Rua Coronel João de Oliveira Melo, 556/590",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-nossa-senhora-das-gracas-vila-antonieta/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-nossa-senhora-das-gracas-vila-antonieta/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Região Episcopal Belém, Decanato São Timóteo (setor Vila Antonieta no GCatholic). Horários da página da paróquia no site da arquidiocese. E-mail publicado parece pessoal e ficou de fora."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Cruz",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Santa Cruz",
+  "contatos": {
+   "telefone": "1127249357",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "santacruz.paroquia@terra.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Cruz",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Jardim Nice",
+    "endereco": "Rua Alfredo Marcondes, 191",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-santa-cruz-vila-rica/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Belém, Decanato São Timóteo (setor Vila Antonieta no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Adélia",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Santa Adélia",
+  "contatos": {
+   "telefone": "1120158163",
+   "whatsapp": "",
+   "instagram": "prstaadelia",
+   "site": "",
+   "email": "santa_adelia@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Adélia",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Jardim Santa Adélia",
+    "endereco": "Rua Cachoeira de Minas, 468",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "20:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": "Até 16h30"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": "Até 16h30"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 6,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": "Até 11h"
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-santa-adelia/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-santa-adelia/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Região Episcopal Belém, Decanato São Timóteo (setor Conquista no GCatholic). Horários da página da paróquia no site da arquidiocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Menino Deus",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Menino Deus",
+  "contatos": {
+   "telefone": "1122160937",
+   "whatsapp": "",
+   "instagram": "paroquiameninodeussp",
+   "site": "",
+   "email": "paroquiameninodeus@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Menino Deus",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Jardim Vila Formosa",
+    "endereco": "Avenida dos Pequis, 325",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-menino-deus-jardim-vila-formosa/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-menino-deus-jardim-vila-formosa/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Região Episcopal Belém, Decanato São Timóteo (setor Vila Antonieta no GCatholic). Horários da página da paróquia no site da arquidiocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Paulo II",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "São João Paulo II",
+  "contatos": {
+   "telefone": "",
+   "whatsapp": "11971616785",
+   "instagram": "par.saojoaopauloii",
+   "site": "",
+   "email": "par.sjp2@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Paulo II",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Jardim Planalto",
+    "endereco": "Rua dos Espigueiros, 153",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-sao-joao-paulo-ii/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-sao-joao-paulo-ii/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Região Episcopal Belém, Decanato São Timóteo. Paróquia criada em 26/07/2026. Horários da página da arquidiocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Mateus Apóstolo",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "São Mateus Apóstolo",
+  "contatos": {
+   "telefone": "1133844597",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Mateus Apóstolo",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Cidade São Mateus",
+    "endereco": "Rua Antônio Previato, 1343",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-sao-mateus-apostolo/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Belém, Decanato Sant’Ana e São Joaquim (setor São Mateus no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Batista",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "São João Batista",
+  "contatos": {
+   "telefone": "1129190385",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "prqsaojoaobatista@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Batista",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Parque Colonial",
+    "endereco": "Avenida José Velho Barreto, 281",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-sao-joao-batista-jardim-colonial/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Belém, Decanato Sant’Ana e São Joaquim (setor São Mateus no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria. O site indicado não respondeu em 13/11/2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santíssima Trindade",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Santíssima Trindade",
+  "contatos": {
+   "telefone": "1127319384",
+   "whatsapp": "11958025453",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasstrindade@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz da Santíssima Trindade",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Jardim Alto Alegre",
+    "endereco": "Rua Padre Jósimo Morais Tavares, 56",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-santissima-trindade-jardim-alto-alegre/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Belém, Decanato Sant’Ana e São Joaquim (setor São Mateus no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria. O site indicado não respondeu em 13/11/2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Teresa de Calcutá",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Santa Teresa de Calcutá",
+  "contatos": {
+   "telefone": "1145050516",
+   "whatsapp": "",
+   "instagram": "stcalcuta",
+   "site": "",
+   "email": "paroquiasantateresacalcuta@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Teresa de Calcutá",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Jardim Arantes",
+    "endereco": "Estrada dos Fidélis, 42",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "20:00",
+      "semanas": null,
+      "observacao": "Missa e Adoração Eucarística"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "20:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Até 12h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Até 12h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "14:00",
+      "semanas": null,
+      "observacao": "Até 18h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "14:00",
+      "semanas": null,
+      "observacao": "Até 18h"
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-santa-teresa-de-calcuta/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-santa-teresa-de-calcuta/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Região Episcopal Belém, Decanato Sant’Ana e São Joaquim (setor São Mateus no GCatholic). Horários da página da paróquia no site da arquidiocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Paulo Apóstolo",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "São Paulo Apóstolo",
+  "contatos": {
+   "telefone": "1127251398",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "apostolo4@uol.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Paulo Apóstolo",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Jardim IV Centenário",
+    "endereco": "Praça Miguel Ramos de Moura, 86",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-sao-paulo-apostolo-iv-centenario/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Belém, Decanato Sant’Ana e São Joaquim (setor São Mateus no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Marcos Evangelista",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "São Marcos Evangelista",
+  "contatos": {
+   "telefone": "1120128984",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "parsamar7@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Marcos Evangelista",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Parque São Rafael",
+    "endereco": "Rua Professor Ciro Formicola, 17",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-sao-marcos-evangelista-parque-sao-rafael/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Belém, Decanato Sant’Ana e São Joaquim (setor Conquista no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Jesus Ressuscitado",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Jesus Ressuscitado",
+  "contatos": {
+   "telefone": "1120174516",
+   "whatsapp": "",
+   "instagram": "paroquiajrsp",
+   "site": "https://www.paroquiajr.com.br/",
+   "email": "ParoquiaJR.Secretaria@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Jesus Ressuscitado",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Jardim Satélite Santa Bárbara",
+    "endereco": "Rua Plutão, 61",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-jesus-ressuscitado/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-jesus-ressuscitado/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Região Episcopal Belém, Decanato Sant’Ana e São Joaquim (setor Conquista no GCatholic). Horários da página da arquidiocese; o site da paróquia publica os horários das comunidades só em imagem, não lida."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Imaculado Coração de Maria",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Imaculado Coração de Maria",
+  "contatos": {
+   "telefone": "1127531273",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiaicmaria@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Imaculado Coração de Maria",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Jardim Rodolfo Pirani",
+    "endereco": "Avenida Rodolfo Pirani, 445",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-imaculado-coracao-de-maria-jardim-rodolfo-pirani/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Belém, Decanato Sant’Ana e São Joaquim (setor Conquista no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo André Apóstolo",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Santo André Apóstolo",
+  "contatos": {
+   "telefone": "1127530961",
+   "whatsapp": "",
+   "instagram": "paroquiasantoandreapostolo",
+   "site": "",
+   "email": "santoandreapostolo92@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo André Apóstolo",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Jardim Santo André",
+    "endereco": "Rua Dias Moreia, 18",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": "A partir das 15h"
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-santo-andre-apostolo/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-santo-andre-apostolo/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Região Episcopal Belém, Decanato Sant’Ana e São Joaquim (setor Conquista no GCatholic). Horários da página da paróquia no site da arquidiocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Miguel Arcanjo",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "São Miguel Arcanjo",
+  "contatos": {
+   "telefone": "1127362248",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "psma7@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Miguel Arcanjo",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Jardim da Conquista",
+    "endereco": "Travessa Pé de Manacá, 57",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-sao-miguel-arcanjo-jardim-da-conquista/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Belém, Decanato Sant’Ana e São Joaquim (setor Conquista no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José de Anchieta",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "São José de Anchieta",
+  "contatos": {
+   "telefone": "1120124743",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasjdeanchieta@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José de Anchieta",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Jardim Vera Cruz",
+    "endereco": "Rua Fernandes Tourinho, 182",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Até 11h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Até 11h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Até 11h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 6,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Até 11h"
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-sao-jose-de-anchieta/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-sao-jose-de-anchieta/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Região Episcopal Belém, Decanato Sant’Ana e São Joaquim (setor Conquista no GCatholic). Horários da página da paróquia no site da arquidiocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sagrada Face",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Sagrada Face",
+  "contatos": {
+   "telefone": "1127073733",
+   "whatsapp": "1127263310",
+   "instagram": "",
+   "site": "",
+   "email": "psface@uol.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz da Sagrada Face",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Jardim Aricanduva",
+    "endereco": "Rua Mariazinha Vicenzzoto, 41",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-sagrada-face/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Belém, Decanato Sant’Ana e São Joaquim (setor Vila Antonieta no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "1127219515",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "panosa.novayork@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Vila Nova York",
+    "endereco": "Praça Antônio Alves Vilares da Silva, 13",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-nossa-senhora-aparecida-vila-nova-york/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Belém, Decanato Sant’Ana e São Joaquim (setor Vila Antonieta no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora das Flores",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Nossa Senhora das Flores",
+  "contatos": {
+   "telefone": "1127519325",
+   "whatsapp": "",
+   "instagram": "paroquianossasenhoradasflores",
+   "site": "",
+   "email": "nsdasflores2021@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora das Flores",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Parque das Flores",
+    "endereco": "Rua dos Cravos, 105",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-nossa-senhora-das-flores/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-nossa-senhora-das-flores/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Região Episcopal Belém, Decanato Sant’Ana e São Joaquim. Horários da página da paróquia no site da arquidiocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Gaspar Bertoni",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "São Gaspar Bertoni",
+  "contatos": {
+   "telefone": "1127530543",
+   "whatsapp": "1127530543",
+   "instagram": "paroquiasaogasparbertoni.css",
+   "site": "",
+   "email": "saogasparbertoni77@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Gaspar Bertoni",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Parque São Rafael",
+    "endereco": "Rua Lourenço Leite Penteado, 111",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 2,
+      "hora": "13:00",
+      "semanas": null,
+      "observacao": "Até 17h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "13:00",
+      "semanas": null,
+      "observacao": "Até 17h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "13:00",
+      "semanas": null,
+      "observacao": "Até 17h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "13:00",
+      "semanas": null,
+      "observacao": "Até 17h"
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "13:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-sao-gaspar-bertoni/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-sao-gaspar-bertoni/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Região Episcopal Belém, Decanato Sant’Ana e São Joaquim. Horários da página da paróquia no site da arquidiocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Carmo",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Nossa Senhora do Carmo",
+  "contatos": {
+   "telefone": "1127078495",
+   "whatsapp": "11933822568",
+   "instagram": "nsciguatemi",
+   "site": "",
+   "email": "secretaria.pns@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Carmo",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Jardim Roseli",
+    "endereco": "Rua Abner Ribeiro Borges, 36",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "20:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Missas nas comunidades (sem endereço na fonte): São José Operário, domingo 9h; São João Evangelista, domingo 10h30 quinzenal; Nossa Senhora Aparecida, sábado 18h quinzenal; São Francisco de Assis, sábado 19h30; Nossa Senhora de Guadalupe, domingo 10h30 quinzenal; Comunidade de Aliança Nova Siloé, sábado 18h quinzenal."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-nossa-senhora-do-carmo-jardim-roseli/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquisp.org.br/regiao-belem/paroquia-nossa-senhora-do-carmo-jardim-roseli/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Região Episcopal Belém, Decanato Sant’Ana e São Joaquim (setor São Mateus no GCatholic). Paróquia criada em 16/08/2026. Horários da página da arquidiocese, com as missas das comunidades em texto."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora das Dores",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Nossa Senhora das Dores",
+  "contatos": {
+   "telefone": "1139663427",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "nsradores@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora das Dores",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Vila Baruel",
+    "endereco": "Rua Lucila, 160",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-santana/paroquia-nossa-senhora-das-dores-casa-verde/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Santana, Decanato São Judas Tadeu (setor Casa Verde no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Rainha Santa Isabel",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Rainha Santa Isabel",
+  "contatos": {
+   "telefone": "1138575051",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "rainha_santaisabel@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Rainha Santa Isabel",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Vila Bandeirantes",
+    "endereco": "Rua Elias Gannam, 331",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-santana/paroquia-rainha-santa-isabel-casa-verde/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Santana, Decanato São Judas Tadeu (setor Casa Verde no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São João Evangelista",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "São João Evangelista",
+  "contatos": {
+   "telefone": "1139656586",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "psjevangelistacv@itelefonica.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São João Evangelista",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Casa Verde",
+    "endereco": "Rua João Rudge, 611",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-santana/paroquia-sao-joao-evangelista/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Santana, Decanato São Judas Tadeu (setor Casa Verde no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Francisco de Paula e São Benedito",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "São Francisco de Paula e São Benedito",
+  "contatos": {
+   "telefone": "1138585173",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "pascompsfpsb@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Francisco de Paula e São Benedito",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Parque Peruche",
+    "endereco": "Rua Waldemar Martins, 879",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-santana/paroquia-sao-francisco-de-paula-e-sao-benedito/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Santana, Decanato São Judas Tadeu (setor Imirim no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José Operário",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "São José Operário",
+  "contatos": {
+   "telefone": "1129731726",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "saojoseoperario19@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José Operário",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Santa Teresinha",
+    "endereco": "Alameda Afonso Schmidt, 96",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-santana/paroquia-sao-jose-operario-imirim/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Santana, Decanato São Judas Tadeu (setor Imirim no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Consolata",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Nossa Senhora da Consolata",
+  "contatos": {
+   "telefone": "1122565600",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "parconsolatasp@ig.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Consolata",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Jardim São Bento",
+    "endereco": "Rua Leão XIII, 303",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-santana/paroquia-nossa-senhora-da-consolata/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Santana, Decanato São Judas Tadeu (setor Imirim no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria. O site indicado não respondeu em 13/11/2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sant’Ana",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Sant’Ana",
+  "contatos": {
+   "telefone": "1122819085",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "secretaria@paroquiasantana.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Sant’Ana",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Santana",
+    "endereco": "Rua Voluntários da Pátria, 2060",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-santana/paroquia-santana/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Santana, Decanato São Judas Tadeu (setor Santana no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria, e o site da paróquia recusou o acesso (403). O GCatholic a chama de basílica menor; a arquidiocese, de paróquia."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Salette",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Nossa Senhora da Salette",
+  "contatos": {
+   "telefone": "1122819499",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "https://nsrasalette.org.br/",
+   "email": "secretaria@nsrasalette.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Santuário de Nossa Senhora da Salette",
+    "tipo": "santuario",
+    "cidade": "São Paulo",
+    "localidade": "Santana",
+    "endereco": "Rua Doutor Zuquim, 1746",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "11:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "15:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa dos enfermos"
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": "Até 8h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 2,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Até 11h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Até 11h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Até 11h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Até 11h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 2,
+      "hora": "14:00",
+      "semanas": null,
+      "observacao": "Até 16h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "14:00",
+      "semanas": null,
+      "observacao": "Até 16h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "14:00",
+      "semanas": null,
+      "observacao": "Até 16h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "14:00",
+      "semanas": null,
+      "observacao": "Até 16h"
+     }
+    ],
+    "nao_cabe": "Dia 19 de cada mês: missas às 7h, 15h e 19h30 se cair de segunda a sexta. Adoração no último domingo do mês após a missa das 18h30."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://nsrasalette.org.br/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquisp.org.br/regiao-santana/paroquia-nossa-senhora-da-salette/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Região Episcopal Santana, Decanato São Judas Tadeu (setor Santana no GCatholic). Santuário diocesano. Horários do site do santuário; a página da arquidiocese só traz o expediente da secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Teresinha do Menino Jesus",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Santa Teresinha do Menino Jesus",
+  "contatos": {
+   "telefone": "1129798161",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "https://paroquiasantateresinha.com.br/",
+   "email": "contato@paroquiasantateresinha.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Teresinha do Menino Jesus",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Santana",
+    "endereco": "Praça Domingos Correia da Cruz, 140",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "11:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://paroquiasantateresinha.com.br/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquisp.org.br/regiao-santana/paroquia-santa-teresinha-do-menino-jesus/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "media",
+  "observacao": "Região Episcopal Santana, Decanato São Judas Tadeu (setor Santana no GCatholic). Horários do site da paróquia, que dá \"missas na semana 7h30 e 19h30\" sem dizer os dias; lido como segunda a sexta."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santíssima Trindade",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Santíssima Trindade",
+  "contatos": {
+   "telefone": "1122393155",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "trindade@acessabrasil.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz da Santíssima Trindade",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Vila Celeste",
+    "endereco": "Praça Santíssima Trindade, 02",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-santana/paroquia-santissima-trindade-casa-verde/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Santana, Decanato São Judas Tadeu (setor Casa Verde no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "1129799270",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "https://nsaparecidajsp.com.br/",
+   "email": "paroquia@nsaparecidajsp.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Jardim São Paulo",
+    "endereco": "Parque Domingos Luís, 273",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-santana/paroquia-nossa-senhora-aparecida-jardim-sao-paulo/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Santana, Decanato São Judas Tadeu (setor Santana no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria, e o site da paróquia publica os horários só em imagem."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Fátima",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Nossa Senhora de Fátima",
+  "contatos": {
+   "telefone": "1122565427",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "inossasenhoradefatimaimirim@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora de Fátima",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Imirim",
+    "endereco": "Avenida Imirim, 1382",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-santana/paroquia-nossa-senhora-de-fatima-imirim/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Santana, Decanato São Judas Tadeu (setor Imirim no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Paulo Apóstolo",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "São Paulo Apóstolo",
+  "contatos": {
+   "telefone": "1122831619",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "psaopauloapostolo.resa@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Paulo Apóstolo",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Vila Isolina Mazzei",
+    "endereco": "Rua Quedas, 564",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-santana/paroquia-sao-paulo-apostolo-parada-inglesa/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Santana, Decanato São Tiago Zebedeu (setor Tucuruvi no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria. O site indicado não respondeu em 13/11/2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Jesus no Horto das Oliveiras",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Jesus no Horto das Oliveiras",
+  "contatos": {
+   "telefone": "1129016772",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquia.jesusnohorto@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Jesus no Horto das Oliveiras",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Vila Guilherme",
+    "endereco": "Rua Gabriel Orefice, 256",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-santana/paroquia-jesus-no-horto-das-oliveiras/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Santana, Decanato São Tiago Zebedeu (setor Vila Maria no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Sebastião",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "São Sebastião",
+  "contatos": {
+   "telefone": "1129017346",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasaosebastiao.saosebast@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Sebastião",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Vila Guilherme",
+    "endereco": "Praça Stélio Machado Loureiro, 01",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-santana/paroquia-sao-sebastiao-vila-guilherme/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Santana, Decanato São Tiago Zebedeu (setor Vila Maria no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio de Lisboa",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Santo Antônio de Lisboa",
+  "contatos": {
+   "telefone": "1122016532",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiastoantoniolisboa@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio de Lisboa",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Vila Ede",
+    "endereco": "Rua Santo Antônio de Lisboa, 200",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-santana/paroquia-santo-antonio-de-lisboa-vila-ede/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Santana, Decanato São Tiago Zebedeu (setor Medeiros no GCatholic). Sem horário confirmado: a página da arquidiocese não traz horário nenhum."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Zita e Nossa Senhora do Caminho",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Santa Zita e Nossa Senhora do Caminho",
+  "contatos": {
+   "telefone": "1129492311",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "https://paroquiasantazita.org.br/",
+   "email": "secretaria@paroquiasantazita.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Zita e Nossa Senhora do Caminho",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Vila Maria Alta",
+    "endereco": "Rua Padre Sabóia de Medeiros, 827",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Sábado às 17h: missa na Capela Santa Maria Goretti (sem endereço na fonte)."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://paroquiasantazita.org.br/novo/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquisp.org.br/regiao-santana/paroquia-santa-zita-e-nossa-senhora-do-caminho/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Região Episcopal Santana, Decanato São Tiago Zebedeu (setor Medeiros no GCatholic). Horários do site da paróquia; a página da arquidiocese só traz o expediente da secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Candelária",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Nossa Senhora da Candelária",
+  "contatos": {
+   "telefone": "1129543566",
+   "whatsapp": "11942929549",
+   "instagram": "",
+   "site": "https://candelaria.org.br/",
+   "email": "secretaria@candelaria.org.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Candelária",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Vila Maria",
+    "endereco": "Praça Nossa Senhora da Candelária, 01",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": "Missa com bênção de objetos"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": "Missa da Saúde com bênção de objetos"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Missa Mariana"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": "Missa dominical"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "11:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "14:30",
+      "semanas": null,
+      "observacao": "Até 17h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "14:30",
+      "semanas": null,
+      "observacao": "Até 17h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Até 11h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 6,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Até 11h"
+     }
+    ],
+    "nao_cabe": "Missa votiva de Nossa Senhora da Candelária todo dia 2 às 7h, 15h e 19h30 (exceto domingo). Missa na Gruta de Lourdes no 1º sábado às 9h."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://candelaria.org.br/horarios/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquisp.org.br/regiao-santana/paroquia-nossa-senhora-da-candelaria/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Região Episcopal Santana, Decanato São Tiago Zebedeu (setor Vila Maria no GCatholic). Horários do site da paróquia; a página da arquidiocese só traz o expediente da secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida da Boa Viagem",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Nossa Senhora Aparecida da Boa Viagem",
+  "contatos": {
+   "telefone": "1129675497",
+   "whatsapp": "11973237272",
+   "instagram": "",
+   "site": "",
+   "email": "nossaboaviagem@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Aparecida da Boa Viagem",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Parque Novo Mundo",
+    "endereco": "Rua Pistóia, 165",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-santana/paroquia-nossa-senhora-aparecida-da-boa-viagem/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Santana, Decanato São Tiago Zebedeu (setor Vila Maria no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Rita de Cássia",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Santa Rita de Cássia",
+  "contatos": {
+   "telefone": "1129540652",
+   "whatsapp": "1123626229",
+   "instagram": "",
+   "site": "",
+   "email": "santarita.pnm@outlook.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Rita de Cássia",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Parque Novo Mundo",
+    "endereco": "Rua Fritz Jank, 40",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-santana/paroquia-santa-rita-de-cassia-parque-novo-mundo/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Santana, Decanato São Tiago Zebedeu (setor Vila Maria no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria. O site indicado não respondeu em 13/11/2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Anunciação",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Nossa Senhora da Anunciação",
+  "contatos": {
+   "telefone": "1129098988",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "https://paroquiaanunciacao.net/",
+   "email": "pnsanunciacao@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Anunciação",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Vila Guilherme",
+    "endereco": "Rua Maria Cândida, 507",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "11:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "08:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "06:00",
+      "semanas": [
+       2,
+       3,
+       4,
+       5
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Até 11h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "14:30",
+      "semanas": null,
+      "observacao": "Até 17h"
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://paroquiaanunciacao.net/index.html",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquisp.org.br/regiao-santana/paroquia-nossa-senhora-da-anunciacao/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Região Episcopal Santana, Decanato São Tiago Zebedeu (setor Vila Maria no GCatholic). Horários do site da paróquia; a página da arquidiocese só traz o expediente da secretaria. E-mail tirado do site da paróquia (a página da arquidiocese dá um de outra paróquia)."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Francisco Xavier",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "São Francisco Xavier",
+  "contatos": {
+   "telefone": "1129497086",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiafranciscoxavier@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Francisco Xavier",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Jardim Japão",
+    "endereco": "Rua Yokoama, 33",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-santana/paroquia-sao-francisco-xavier-jardim-japao/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Santana, Decanato São Tiago Zebedeu (setor Medeiros no GCatholic). Sem horário confirmado: a página da arquidiocese não traz horário nenhum."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Fátima",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Nossa Senhora de Fátima",
+  "contatos": {
+   "telefone": "1122013884",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "pfatimavs@ig.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora de Fátima",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Vila Sabrina",
+    "endereco": "Avenida João Simão de Castro, 260",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-santana/paroquia-nossa-senhora-de-fatima-vila-sabrina/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Santana, Decanato São Tiago Zebedeu (setor Medeiros no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria, e o site da paróquia está parado desde 2011."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José Esposo da Virgem Maria",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "São José Esposo da Virgem Maria",
+  "contatos": {
+   "telefone": "1129495906",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasaojose-missionarios@uol.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José Esposo da Virgem Maria",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Jardim Guanca",
+    "endereco": "Rua dos Gauleses, 266",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-santana/paroquia-sao-jose-esposo-da-virgem-maria/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Santana, Decanato São Tiago Zebedeu (setor Medeiros no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria. O site indicado não respondeu em 13/11/2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Luiz Gonzaga",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "São Luiz Gonzaga",
+  "contatos": {
+   "telefone": "1122418986",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "saoluizgonzagaparoquia@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Luiz Gonzaga",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Jaçanã",
+    "endereco": "Rua Michel Ouchana, 50",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-santana/paroquia-sao-luiz-gonzaga-jacana/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Santana, Decanato São Matias (setor Jaçanã no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "1122492432",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "https://pnsaparecida.com.br/",
+   "email": "pnsaparecida.secretaria@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Parque Edu Chaves",
+    "endereco": "Praça Comandante Eduardo de Oliveira, 88",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-santana/paroquia-nossa-senhora-aparecida-edu-chaves/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Santana, Decanato São Matias (setor Medeiros no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria, e o site da paróquia carrega os horários por programa, não lidos."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "1122036205",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "santoantoniojacana@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Vila Nova Mazzei",
+    "endereco": "Rua das Imbiras, 220",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-santana/paroquia-santo-antonio-vila-mazzei/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Santana, Decanato São Matias (setor Jaçanã no GCatholic). Sem horário confirmado: a página da arquidiocese não traz horário nenhum. O site indicado não respondeu em 13/11/2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora do Carmo",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Nossa Senhora do Carmo",
+  "contatos": {
+   "telefone": "1122431333",
+   "whatsapp": "1122431333",
+   "instagram": "paroqsradocarmo",
+   "site": "",
+   "email": "paroquia.carmopaulistana@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora do Carmo",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Vila Paulistana",
+    "endereco": "Avenida Antonelo da Messina, 772",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "20:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "20:00",
+      "semanas": null,
+      "observacao": "Missa e Adoração Eucarística"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Até 11h30"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "14:30",
+      "semanas": null,
+      "observacao": "Até 17h"
+     }
+    ],
+    "nao_cabe": "Confissões também após a missa das 20h."
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-santana/paroquia-nossa-senhora-do-carmo-vila-paulistana/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquisp.org.br/regiao-santana/paroquia-nossa-senhora-do-carmo-vila-paulistana/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Região Episcopal Santana, Decanato São Matias (setor Jaçanã no GCatholic). Horários da página da paróquia no site da arquidiocese."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Benedito",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "São Benedito",
+  "contatos": {
+   "telefone": "1122411376",
+   "whatsapp": "1122419302",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasb@outlook.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Benedito",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Vila Nova Carolina",
+    "endereco": "Rua Igarité, 338",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-santana/paroquia-sao-benedito-vila-nilo/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Santana, Decanato São Matias (setor Jaçanã no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria. O site indicado não respondeu em 13/11/2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Gabriel da Virgem Dolorosa",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "São Gabriel da Virgem Dolorosa",
+  "contatos": {
+   "telefone": "1122036836",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiagabriel@uol.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Gabriel da Virgem Dolorosa",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Parque Casa de Pedra",
+    "endereco": "Rua Professora Maria Hosni Cury, 134",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-santana/paroquia-sao-gabriel-da-virgem-dolorosa/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Santana, Decanato São Matias (setor Jaçanã no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria. O site indicado não respondeu em 13/11/2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Piedade",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Nossa Senhora da Piedade",
+  "contatos": {
+   "telefone": "1129952793",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "senhorapiedade@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Piedade",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Jardim Francisco Mendes",
+    "endereco": "Travessa Elisa Storti, 222",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-santana/paroquia-nossa-senhora-da-piedade/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Santana, Decanato São Matias (setor Jaçanã no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José Operário",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "São José Operário",
+  "contatos": {
+   "telefone": "1122411598",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "psjoseoperario@uol.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José Operário",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Vila Nova Galvão",
+    "endereco": "Rua José Gomes de Gouveia, 201",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-santana/paroquia-sao-jose-operario-vila-nova-galvao/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Santana, Decanato São Matias (setor Jaçanã no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Natividade do Senhor",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Natividade do Senhor",
+  "contatos": {
+   "telefone": "1129957422",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquianatividadedosenhor@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz da Natividade do Senhor",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Jardim Fontalis",
+    "endereco": "Rua Augusto Rodrigues, 683",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-santana/paroquia-natividade-do-senhor-jardim-fontalis/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Santana, Decanato São Matias (setor Jaçanã no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria. O site indicado não respondeu em 13/11/2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Dulce dos Pobres",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Santa Dulce dos Pobres",
+  "contatos": {
+   "telefone": "1129959161",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Dulce dos Pobres",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Jardim Portal",
+    "endereco": "Praça da Felicidade",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-santana/paroquia-santa-dulce-dos-pobres/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Santana, Decanato São Matias. Sem horário confirmado: a página da arquidiocese não traz horário nenhum. Não está no GCatholic. A página da arquidiocese repete o e-mail paroquiasaopatricio_sp@ig.com.br, de outra paróquia; ficou de fora."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Livração",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Nossa Senhora da Livração",
+  "contatos": {
+   "telefone": "1129899035",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "nossasenhoradalivracao.paroquia@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Livração",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Jardim Brasil",
+    "endereco": "Avenida Ramiz Galvão, 638",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-santana/paroquia-nossa-senhora-da-livracao/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Santana, Decanato São Matias (setor Medeiros no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Fátima",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Nossa Senhora de Fátima",
+  "contatos": {
+   "telefone": "1122034157",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "fatimatremembe@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora de Fátima",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Vila Albertina",
+    "endereco": "Rua Maria Amália Lopes Azevedo, 2249",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-santana/paroquia-nossa-senhora-de-fatima-tremembe/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Santana, Decanato São Matias (setor Tremembé no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Marcos Evangelista",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "São Marcos Evangelista",
+  "contatos": {
+   "telefone": "1122312328",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "saomarcos@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Marcos Evangelista",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Vila Santos",
+    "endereco": "Rua Ita, 313",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-santana/paroquia-sao-marcos-evangelista-pedra-branca/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Santana, Decanato Santa Marta, Santa Maria e São Lázaro (setor Mandaqui no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Penha",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Nossa Senhora da Penha",
+  "contatos": {
+   "telefone": "1122318540",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquianspenhaperi@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Penha",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Jardim Peri",
+    "endereco": "Praça Dom Helvécio Gomes de Oliveira, 2",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-santana/paroquia-nossa-senhora-da-penha/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Santana, Decanato Santa Marta, Santa Maria e São Lázaro (setor Mandaqui no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria. O site indicado não respondeu em 13/11/2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Cruz",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Santa Cruz",
+  "contatos": {
+   "telefone": "1122314193",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "is.cruz@ig.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Cruz",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Jardim Peri",
+    "endereco": "Avenida Santa Inês, 2229",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-santana/paroquia-santa-cruz-parque-modelo/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Santana, Decanato Santa Marta, Santa Maria e São Lázaro (setor Mandaqui no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria. O site indicado não respondeu em 13/11/2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "1122310675",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "psabancarios@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Parque Mandaqui",
+    "endereco": "Rua Salvador Tolezano, 164",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-santana/paroquia-santo-antonio-bancarios/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Santana, Decanato Santa Marta, Santa Maria e São Lázaro (setor Mandaqui no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Roque",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "São Roque",
+  "contatos": {
+   "telefone": "1139811983",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": ""
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Roque",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Imirim",
+    "endereco": "Rua João Roque, 114/130",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-santana/paroquia-sao-roque/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Santana, Decanato Santa Marta, Santa Maria e São Lázaro (setor Imirim no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria. E-mail publicado parece pessoal e ficou de fora."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Inês",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Santa Inês",
+  "contatos": {
+   "telefone": "1122314759",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasantaineslauzane@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Inês",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Lauzane Paulista",
+    "endereco": "Rua Paulo Carneiro, 30",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-santana/paroquia-santa-ines/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Santana, Decanato Santa Marta, Santa Maria e São Lázaro (setor Mandaqui no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria. O site indicado não respondeu em 13/11/2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida e São Matias",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Nossa Senhora Aparecida e São Matias",
+  "contatos": {
+   "telefone": "1122311793",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "secretaria@paroquiansaparecidasmatias.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Aparecida e São Matias",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Lauzane Paulista",
+    "endereco": "Rua Saint Gall, 412",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-santana/paroquia-nossa-senhora-aparecida-e-sao-matias/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Santana, Decanato Santa Marta, Santa Maria e São Lázaro (setor Mandaqui no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria. O site indicado não respondeu em 13/11/2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Pedro Apóstolo",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "São Pedro Apóstolo",
+  "contatos": {
+   "telefone": "1122032159",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "secretariasaopedro1@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Pedro Apóstolo",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Vila Albertina",
+    "endereco": "Rua Maria Amália Lopes Azevedo, 222 A",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-santana/paroquia-sao-pedro-apostolo-tremembe/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Santana, Decanato Santa Marta, Santa Maria e São Lázaro (setor Tremembé no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria. O site indicado não respondeu em 13/11/2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora Aparecida",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Nossa Senhora Aparecida",
+  "contatos": {
+   "telefone": "1129528180",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "aparecida.vilaalbertina@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora Aparecida",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Tremembé",
+    "endereco": "Rua Maestro Bortolucci, 303",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-santana/paroquia-nossa-senhora-aparecida-vila-albertina/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Santana, Decanato Santa Marta, Santa Maria e São Lázaro (setor Tremembé no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria. O site indicado não respondeu em 13/11/2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São José do Mandaqui",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "São José",
+  "contatos": {
+   "telefone": "1129776558",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "saojosemandaqui@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São José do Mandaqui",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Mandaqui",
+    "endereco": "Rua Voluntários da Pátria, 4840",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-santana/paroquia-sao-jose-mandaqui/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Santana, Decanato Santa Marta, Santa Maria e São Lázaro (setor Mandaqui no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio do Lausanne",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "1122567334",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "santoantoniodolausanne@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio do Lausanne",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Lauzane Paulista",
+    "endereco": "Rua Conselheiro Moreira de Barros, 2221",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-santana/paroquia-santo-antonio-lausanne/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Santana, Decanato Santa Marta, Santa Maria e São Lázaro (setor Imirim no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Rosa de Lima",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Santa Rosa de Lima",
+  "contatos": {
+   "telefone": "1122044048",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "pstarosadelima@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Rosa de Lima",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Jardim Leonor Mendes de Barros",
+    "endereco": "Avenida Professora Virgília Rodrigues Alves de Carvalho Pinto, 176",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-santana/paroquia-santa-rosa-de-lima-jardim-tremembe/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Santana, Decanato Santa Marta, Santa Maria e São Lázaro (setor Tremembé no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Joana d’Arc",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Santa Joana d’Arc",
+  "contatos": {
+   "telefone": "1122038533",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "secretaria@paroquiajoanadarc.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Joana d’Arc",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Jardim Franca",
+    "endereco": "Rua Gaurama, 192",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-santana/paroquia-santa-joana-darc/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Santana, Decanato Santo Estêvão (setor Tremembé no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Sagrado Coração de Jesus",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Sagrado Coração de Jesus",
+  "contatos": {
+   "telefone": "1129342420",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "capelasantoexpedito@terra.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Sagrado Coração de Jesus",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Parque Vitória",
+    "endereco": "Rua Murilo Furtado, 686",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-santana/paroquia-sagrado-coracao-de-jesus-parque-vitoria/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Santana, Decanato Santo Estêvão (setor Tucuruvi no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria. O site indicado não respondeu em 13/11/2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santo Antônio",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Santo Antônio",
+  "contatos": {
+   "telefone": "1122032022",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "santoantoniotucuruvi@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santo Antônio",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Tucuruvi",
+    "endereco": "Rua Doutor Natalino Righeto, 390",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-santana/paroquia-santo-antonio-tucuruvi/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Santana, Decanato Santo Estêvão (setor Tucuruvi no GCatholic). Sem horário confirmado: a página da arquidiocese não traz horário nenhum."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Menino Jesus",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Menino Jesus",
+  "contatos": {
+   "telefone": "1122036185",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquia.meninojesus@terra.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz do Menino Jesus",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Tucuruvi",
+    "endereco": "Avenida Mazzei, 491",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-santana/paroquia-menino-jesus-vila-mazzei/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Santana, Decanato Santo Estêvão (setor Tucuruvi no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora da Luz",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Nossa Senhora da Luz",
+  "contatos": {
+   "telefone": "1129495997",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "secretaria@nossaluz.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora da Luz",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Vila Gustavo",
+    "endereco": "Rua Heloísa Moya, 59",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-santana/paroquia-nossa-senhora-da-luz/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Santana, Decanato Santo Estêvão (setor Tucuruvi no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria. O site indicado não respondeu em 13/11/2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora das Neves",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Nossa Senhora das Neves",
+  "contatos": {
+   "telefone": "1129316720",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "nsdneves@uol.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora das Neves",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Parque Vitória",
+    "endereco": "Avenida Maestro Villa Lobos, 681",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-santana/paroquia-nossa-senhora-das-neves/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Santana, Decanato Santo Estêvão (setor Tucuruvi no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Camilo de Léllis",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "São Camilo de Léllis",
+  "contatos": {
+   "telefone": "1129817082",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasaocamilo@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Camilo de Léllis",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Vila Nivi",
+    "endereco": "Rua Tanque Velho, 941",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-santana/paroquia-sao-camilo-de-lellis/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Santana, Decanato Santo Estêvão (setor Tucuruvi no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Luzia",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Santa Luzia",
+  "contatos": {
+   "telefone": "1129761267",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasantaluzia10@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Luzia",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Água Fria",
+    "endereco": "Rua Padre Agostinho Poncet, 134",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-santana/paroquia-santa-luzia-vila-santa-luzia/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Santana, Decanato Santo Estêvão (setor Santana no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora de Loreto",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Nossa Senhora de Loreto",
+  "contatos": {
+   "telefone": "1122010392",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "https://nsloreto.org.br/",
+   "email": "paroquiansloreto@uol.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora de Loreto",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Vila Medeiros",
+    "endereco": "Avenida Nossa Senhora do Loreto, 914",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "11:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://nsloreto.org.br/",
+    "data": "2026-11-13",
+    "o_que": "horarios"
+   },
+   {
+    "url": "https://arquisp.org.br/regiao-santana/paroquia-nossa-senhora-de-loreto/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "alta",
+  "observacao": "Região Episcopal Santana, Decanato Santo Estêvão (setor Medeiros no GCatholic). Horários do site da paróquia; a página da arquidiocese só traz o expediente da secretaria."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Santa Terezinha do Menino Jesus",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Santa Teresinha do Menino Jesus",
+  "contatos": {
+   "telefone": "1138922078",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "psterezinhajac@gmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Santa Terezinha do Menino Jesus",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Jaçanã",
+    "endereco": "Avenida Guapira, 2055",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-santana/paroquia-santa-terezinha-do-menino-jesus-jacana/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Santana, Decanato Santo Estêvão (setor Tucuruvi no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria. O site indicado não respondeu em 13/11/2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia Nossa Senhora dos Prazeres",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "Nossa Senhora dos Prazeres",
+  "contatos": {
+   "telefone": "1129785845",
+   "whatsapp": "11941509529",
+   "instagram": "",
+   "site": "",
+   "email": "paroquia.nsprazeres@yahoo.com.br"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de Nossa Senhora dos Prazeres",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Parada Inglesa",
+    "endereco": "Avenida General Ataliba Leonel, 3013",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-santana/paroquia-nossa-senhora-dos-prazeres/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Santana, Decanato Santo Estêvão (setor Tucuruvi no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria. O site indicado não respondeu em 13/11/2026."
+ },
+ {
+  "id_banco": null,
+  "nome": "Paróquia São Domingos Sávio",
+  "categoria": "paroquia",
+  "cidade": "São Paulo",
+  "padroeiro": "São Domingos Sávio",
+  "contatos": {
+   "telefone": "1122037998",
+   "whatsapp": "",
+   "instagram": "",
+   "site": "",
+   "email": "paroquiasaodomingossavio@hotmail.com"
+  },
+  "igrejas": [
+   {
+    "id_banco": null,
+    "nome": "Igreja Matriz de São Domingos Sávio",
+    "tipo": "matriz",
+    "cidade": "São Paulo",
+    "localidade": "Vila Vitório Mazzei",
+    "endereco": "Rua Donato Luongo, 196",
+    "horarios": [],
+    "nao_cabe": ""
+   }
+  ],
+  "fontes": [
+   {
+    "url": "https://arquisp.org.br/regiao-santana/paroquia-sao-domingos-savio-vila-aurora/",
+    "data": "2026-11-13",
+    "o_que": "contatos"
+   }
+  ],
+  "confianca": "baixa",
+  "observacao": "Região Episcopal Santana, Decanato Santo Estêvão (setor Tremembé no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria."
+ }
+]
