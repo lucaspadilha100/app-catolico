@@ -79,6 +79,10 @@ configurado desde o início) · **Supabase** plano gratuito (projeto
   comunidade apontam a matriz por `matriz_id`. Nome sem parênteses e sem a
   cidade ("Capela de São Bento", lugar no `bairro`). A página da igreja mostra
   "Pertence à ..." e a lista de capelas; no painel, "Pertence à paróquia".
+- **Fila "Para conferir" do painel** (pedido do dono, 13/11/2026: "impossível
+  humanamente" conferir as cargas): só o que não tem fonte (`fonte = ''`) nem
+  foi conferido. O que veio de pesquisa com fonte anotada entra no app sem
+  passar pela fila; o dono confere quando quiser, em "Todas".
 - **Pesquisa de horários do RN** (11/11/2026, decisão do dono: horários
   publicados pelas próprias paróquias e dioceses, com a fonte anotada em
   `fonte`): `fontes/paroquias/pesquisa-rn-2026-11/` (páginas baixadas, a
