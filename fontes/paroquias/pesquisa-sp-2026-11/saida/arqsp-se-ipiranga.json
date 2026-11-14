@@ -1298,7 +1298,71 @@
     "cidade": "São Paulo",
     "localidade": "Perdizes",
     "endereco": "Rua Apiacás, 250",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
     "nao_cabe": ""
    }
   ],
@@ -1307,10 +1371,15 @@
     "url": "https://arquisp.org.br/regiao-se/paroquia-santa-rosa-de-lima-perdizes/",
     "data": "2026-11-13",
     "o_que": "contatos"
+   },
+   {
+    "url": "https://santarosaperdizes.com.br/missas",
+    "data": "2026-11-14",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Região Episcopal Sé, Decanato São João Evangelista. Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria e o site da paróquia barra leitura automática (verificação anti-robô)."
+  "confianca": "alta",
+  "observacao": "Região Episcopal Sé, Decanato São João Evangelista. Horários do site da paróquia."
  },
  {
   "id_banco": null,
@@ -2470,8 +2539,16 @@
     "cidade": "São Paulo",
     "localidade": "Luz",
     "endereco": "Avenida Tiradentes, 84",
-    "horarios": [],
-    "nao_cabe": ""
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Missas durante a semana: consultar a secretaria paroquial."
    }
   ],
   "fontes": [
@@ -2479,10 +2556,15 @@
     "url": "https://arquisp.org.br/regiao-se/paroquia-sao-cristovao/",
     "data": "2026-11-13",
     "o_que": "contatos"
+   },
+   {
+    "url": "https://www.saocristovaoluzsp.com.br/horario-das-missas/",
+    "data": "",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Região Episcopal Sé, Decanato São Paulo. Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria e o site da paróquia barra leitura automática (verificação anti-robô)."
+  "confianca": "media",
+  "observacao": "Região Episcopal Sé, Decanato São Paulo. Horário do site da paróquia (só o domingo)."
  },
  {
   "id_banco": null,

@@ -376,8 +376,100 @@
     "cidade": "São João del-Rei",
     "localidade": "Matosinhos",
     "endereco": "Praça Sr. Bom Jesus de Matosinhos, 386",
-    "horarios": [],
-    "nao_cabe": ""
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "18:50",
+      "semanas": null,
+      "observacao": "Com novena de São Peregrino"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 1,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": "Se o pároco estiver na paróquia"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "14:00",
+      "semanas": null,
+      "observacao": "Até 16h"
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": "Bênção do Santíssimo"
+     }
+    ],
+    "nao_cabe": "Domingo às 10h há missa das crianças e dos jovens (o site lista as duas). Igreja de Santa Teresinha: missa aos sábados às 17h. Adoração na última quinta do mês, 8h30 às 19h."
    }
   ],
   "fontes": [
@@ -385,10 +477,15 @@
     "url": "https://diocesedesaojoaodelrei.com.br/paroquia-do-senhor-bom-jesus-de-matosinhos-sjdr/",
     "data": "2022-05-24",
     "o_que": "contatos"
+   },
+   {
+    "url": "https://www.santuariodematosinhos.com.br/missas/",
+    "data": "2026",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Forania Senhor Bom Jesus de Matosinhos. A ficha da diocese (maio/2022) traz horários de antes da criação da Paróquia Menino Jesus de Praga (set/2022), que levou parte das comunidades; não usados. Sem horário publicado pela diocese em página atual; confirmar com a secretaria."
+  "confianca": "alta",
+  "observacao": "Forania Senhor Bom Jesus de Matosinhos. A ficha da diocese (maio/2022) traz horários de antes da criação da Paróquia Menino Jesus de Praga (set/2022), que levou parte das comunidades; não usados. Horários do site oficial do santuário (cronograma 2026)."
  },
  {
   "id_banco": null,

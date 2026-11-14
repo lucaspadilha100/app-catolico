@@ -3122,8 +3122,64 @@
     "cidade": "Cotia",
     "localidade": "Jardim Nova Coimbra",
     "endereco": "Rua dos Canários, 369",
-    "horarios": [],
-    "nao_cabe": ""
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "20:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "20:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa pelas almas"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "20:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa do Sagrado Coração de Jesus"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "08:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "4ª sexta-feira do mês: missa com oração por cura e libertação. Dia 13: missa votiva de N. S. de Fátima; dia 18: missa da Aliança (20h em dia de semana, 19h30 no fim de semana)."
    },
    {
     "id_banco": null,
@@ -3142,7 +3198,15 @@
     "cidade": "Cotia",
     "localidade": "Lajeado - Chácara Vista Alegre",
     "endereco": "Rua Duque de Caxias, 11",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
     "nao_cabe": ""
    },
    {
@@ -3152,7 +3216,15 @@
     "cidade": "Cotia",
     "localidade": "Vila Jovina",
     "endereco": "Rua Martiniano Lemos Leite, 825",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
     "nao_cabe": ""
    },
    {
@@ -3162,7 +3234,15 @@
     "cidade": "Cotia",
     "localidade": "Parque Monjolo",
     "endereco": "Rua do Engenho, 476",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
     "nao_cabe": ""
    },
    {
@@ -3172,7 +3252,22 @@
     "cidade": "Cotia",
     "localidade": "Jardim Nova Vida",
     "endereco": "Rua dos Poemas, 87",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "20:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
     "nao_cabe": ""
    },
    {
@@ -3182,7 +3277,15 @@
     "cidade": "Cotia",
     "localidade": "Jardim Rosemary",
     "endereco": "Rua Coleirinha, 755",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
     "nao_cabe": ""
    },
    {
@@ -3192,7 +3295,15 @@
     "cidade": "Cotia",
     "localidade": "Jardim Adelina",
     "endereco": "Rua Hera, 309",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
     "nao_cabe": ""
    },
    {
@@ -3202,7 +3313,22 @@
     "cidade": "Cotia",
     "localidade": "Parque Miguel Mirizola",
     "endereco": "Rua Soria, 84",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "20:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
     "nao_cabe": ""
    },
    {
@@ -3212,7 +3338,22 @@
     "cidade": "Cotia",
     "localidade": "Jardim Cotia",
     "endereco": "Rua da Paz, 309",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "20:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
     "nao_cabe": ""
    }
   ],
@@ -3221,10 +3362,15 @@
     "url": "https://diocesedeosasco.com.br/paroquia/paroquia-nossa-senhora-de-fatima/",
     "data": "2026-11-13",
     "o_que": "contatos"
+   },
+   {
+    "url": "https://pnsfcotia.com.br/igrejas/",
+    "data": "2026-11-14",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Sem horário publicado: a página da paróquia no site da diocese está sem a seção de horários."
+  "confianca": "alta",
+  "observacao": "Horários da matriz e das comunidades lidos no site da paróquia (página inicial e Igrejas) em 14/11/2026. As duas páginas dão dias diferentes para as confissões; ficaram fora. A Igreja N. S. de Guadalupe (Estrada Velha do Lageado, 2251), com missa uma vez por mês no domingo às 16h, não está na lista de igrejas."
  },
  {
   "id_banco": null,

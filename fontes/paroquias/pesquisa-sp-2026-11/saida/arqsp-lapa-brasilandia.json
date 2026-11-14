@@ -460,7 +460,71 @@
     "cidade": "São Paulo",
     "localidade": "",
     "endereco": "",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
     "nao_cabe": ""
    },
    {
@@ -489,10 +553,15 @@
     "url": "https://arquisp.org.br/regiao-lapa/paroquia-sao-joao-bosco/",
     "data": "2026-01-16",
     "o_que": "contatos"
+   },
+   {
+    "url": "https://salesianossp.org.br/parsjbsp/horarios/",
+    "data": "2026-11-14",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Região Episcopal Lapa, decanato São Simão. Paróquia Dom Bosco, dos salesianos. Endereço da matriz pendente: a página da arquidiocese repete o da N. S. de Fátima da Vila Leopoldina (Rua Barão da Passagem, 971). Comunidades citadas no histórico da mesma página. O site não respondeu. Sem horário publicado em fonte alcançável; a página da arquidiocese só dá o expediente da secretaria."
+  "confianca": "media",
+  "observacao": "Região Episcopal Lapa, decanato São Simão. Paróquia Dom Bosco, dos salesianos. Endereço da matriz pendente: a página da arquidiocese repete o da N. S. de Fátima da Vila Leopoldina (Rua Barão da Passagem, 971). Comunidades citadas no histórico da mesma página. Site da paróquia (salesianossp.org.br/parsjbsp), lido em 14/11/2026, sem data de atualização: matriz na Rua Cerro Corá, 2.101, Alto da Lapa. As comunidades N. S. da Esperança e Mãe Rainha aparecem com horários diferentes na página inicial (sábado 18h) e na de horários (domingo 9h e 10h30); ficaram fora."
  },
  {
   "id_banco": null,
@@ -2093,7 +2162,75 @@
     "cidade": "São Paulo",
     "localidade": "Perus",
     "endereco": "Rua Oscar Cunha Correia, 141",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": "Primeira sexta-feira do mês"
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 5,
+      "hora": "18:30",
+      "semanas": [
+       1
+      ],
+      "observacao": "Primeira sexta-feira do mês"
+     }
+    ],
     "nao_cabe": ""
    }
   ],
@@ -2102,10 +2239,15 @@
     "url": "https://arquisp.org.br/regiao-brasilandia/paroquia-santa-rosa-de-lima/",
     "data": "2026-01-15",
     "o_que": "contatos"
+   },
+   {
+    "url": "https://santarosadelimaperus.com.br/",
+    "data": "2026-11-14",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Região Episcopal Brasilândia, decanato São Barnabé. O site não respondeu em 13/11/2026. Sem horário publicado em fonte alcançável; a página da arquidiocese só dá o expediente da secretaria."
+  "confianca": "alta",
+  "observacao": "Região Episcopal Brasilândia, decanato São Barnabé. Horários da matriz lidos no site da paróquia em 14/11/2026."
  },
  {
   "id_banco": null,
@@ -2597,7 +2739,50 @@
     "cidade": "São Paulo",
     "localidade": "Vila Pereira Barreto",
     "endereco": "Praça Dom Pedro Fulco Morvidi, 1",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "11:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
     "nao_cabe": ""
    }
   ],
@@ -2606,10 +2791,15 @@
     "url": "https://arquisp.org.br/regiao-brasilandia/paroquia-sao-luis-gonzaga-pereira-barreto/",
     "data": "2026-01-16",
     "o_que": "contatos"
+   },
+   {
+    "url": "https://slg21.com.br/",
+    "data": "2026-11-14",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Região Episcopal Brasilândia, decanato Santa Isabel e São Zacarias. Criada em 1949. O site não respondeu. Sem horário publicado em fonte alcançável; a página da arquidiocese só dá o expediente da secretaria."
+  "confianca": "alta",
+  "observacao": "Região Episcopal Brasilândia, decanato Santa Isabel e São Zacarias. Criada em 1949. Horários lidos no site da paróquia em 14/11/2026. O site dá também a Comunidade Sagrada Família (Rua André Maia, 172, Vila Bonilha), domingo às 9h30; confissões às sextas, das 14h30 às 17h30, com agendamento na secretaria."
  },
  {
   "id_banco": null,

@@ -292,7 +292,66 @@
     "cidade": "Belo Horizonte",
     "localidade": "Flávio Marques Lisboa",
     "endereco": "Av. Menelick de Carvalho, 180",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": "Com a Novena Perpétua de Santa Rita"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "10:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa votiva de Nossa Senhora"
+     }
+    ],
     "nao_cabe": ""
    }
   ],
@@ -301,9 +360,14 @@
     "url": "https://arquidiocesebh.org.br/wp-content/uploads/2026/01/catalogo-01.07.26.pdf",
     "data": "2026-01",
     "o_que": "contatos"
+   },
+   {
+    "url": "https://www.cristoredentor.org.br/",
+    "data": "2026-11-14",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
+  "confianca": "alta",
   "observacao": "Região Episcopal Nossa Senhora Aparecida (RENSA). Forania São Paulo da Cruz. Criada em 20/04/1969. Sem horário publicado pela arquidiocese (o catálogo 2026 traz só endereço e contatos)."
  },
  {
@@ -1212,7 +1276,124 @@
     "cidade": "Belo Horizonte",
     "localidade": "Santo Agostinho",
     "endereco": "Rua Bernardo Guimarães, 2700",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "12:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "20:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa com o Grupo de Oração RCC"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "12:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "12:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "12:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "12:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "07:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa votiva a Nossa Senhora"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": "Com canto coral e canto gregoriano"
+     }
+    ],
     "nao_cabe": ""
    }
   ],
@@ -1221,9 +1402,14 @@
     "url": "https://arquidiocesebh.org.br/wp-content/uploads/2026/01/catalogo-01.07.26.pdf",
     "data": "2026-01",
     "o_que": "contatos"
+   },
+   {
+    "url": "https://igrejaconsolacaocorreia.com.br/acao-pastoral/missas/",
+    "data": "",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
+  "confianca": "media",
   "observacao": "Região Episcopal Nossa Senhora da Boa Viagem (RENSB). Forania São José. Criada em 31/12/1960. Sem horário publicado pela arquidiocese (o catálogo 2026 traz só endereço e contatos)."
  },
  {
@@ -2784,7 +2970,71 @@
     "cidade": "Belo Horizonte",
     "localidade": "Buritis",
     "endereco": "Rua Alessandra Salum Cadar, 650",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "20:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 6,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
     "nao_cabe": ""
    }
   ],
@@ -2793,9 +3043,14 @@
     "url": "https://arquidiocesebh.org.br/wp-content/uploads/2026/01/catalogo-01.07.26.pdf",
     "data": "2026-01",
     "o_que": "contatos"
+   },
+   {
+    "url": "https://portalsantaclara.org.br/",
+    "data": "2026-11-14",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
+  "confianca": "alta",
   "observacao": "Região Episcopal Nossa Senhora da Esperança (RENSE). Forania São João Batista Endereço para correspondência:. Criada em 01/01/1997. Sem horário publicado pela arquidiocese (o catálogo 2026 traz só endereço e contatos)."
  },
  {
@@ -3099,8 +3354,81 @@
     "cidade": "Belo Horizonte",
     "localidade": "Cidade Nova",
     "endereco": "Av. Dr. Júlio Otaviano Ferreira, 913",
-    "horarios": [],
-    "nao_cabe": ""
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "09:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Dia 13, Missa em honra a Santa Luzia às 15h (exceto sábado e domingo)"
    }
   ],
   "fontes": [
@@ -3108,9 +3436,14 @@
     "url": "https://arquidiocesebh.org.br/wp-content/uploads/2026/01/catalogo-01.07.26.pdf",
     "data": "2026-01",
     "o_que": "contatos"
+   },
+   {
+    "url": "https://santaluziacidadenova.org.br/",
+    "data": "2026-11-14",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
+  "confianca": "alta",
   "observacao": "Região Episcopal Nossa Senhora da Boa Viagem (RENSB). Forania Nossa Senhora das Dores. Criada em 24/05/1985. Sem horário publicado pela arquidiocese (o catálogo 2026 traz só endereço e contatos)."
  },
  {
@@ -3764,8 +4097,100 @@
     "cidade": "Belo Horizonte",
     "localidade": "Cidade Jardim",
     "endereco": "Rua Bernardo Mascarenhas, 187",
-    "horarios": [],
-    "nao_cabe": ""
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "12:10",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Capela São José: domingo às 8h"
    }
   ],
   "fontes": [
@@ -3773,9 +4198,14 @@
     "url": "https://arquidiocesebh.org.br/wp-content/uploads/2026/01/catalogo-01.07.26.pdf",
     "data": "2026-01",
     "o_que": "contatos"
+   },
+   {
+    "url": "https://paroquiasantoinacio.com.br/",
+    "data": "2026-11-14",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
+  "confianca": "alta",
   "observacao": "Região Episcopal Nossa Senhora da Boa Viagem (RENSB). Forania Santo Antônio (Contorno). Criada em 31/12/1960. Sem horário publicado pela arquidiocese (o catálogo 2026 traz só endereço e contatos)."
  },
  {
@@ -4946,8 +5376,135 @@
     "cidade": "Belo Horizonte",
     "localidade": "Graça",
     "endereco": "Rua Macaé, 629",
-    "horarios": [],
-    "nao_cabe": "Dia 28 de cada mês: nove Missas ao longo do dia (horários não publicados)"
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "11:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "20:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Todo dia 28, Missas às 6h, 8h, 10h, 12h, 14h, 16h, 18h, 20h e 22h; Santa Rosa de Lima: quarta 19h e domingo 9h"
    }
   ],
   "fontes": [
@@ -4960,9 +5517,14 @@
     "url": "https://arquidiocesebh.org.br/arquidiocese/santuarios/santuario-sao-judas-tadeu3/",
     "data": "",
     "o_que": "horarios"
+   },
+   {
+    "url": "https://www.saojudasbh.com.br/",
+    "data": "2026-11-14",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
+  "confianca": "alta",
   "observacao": "Região Episcopal Nossa Senhora da Boa Viagem (RENSB). Forania Nossa Senhora das Dores. Matriz é santuário arquidiocesano. Sem horário publicado pela arquidiocese (o catálogo 2026 traz só endereço e contatos)."
  },
  {
@@ -5301,7 +5863,155 @@
     "cidade": "Belo Horizonte",
     "localidade": "Barro Preto",
     "endereco": "Rua Paracatu, 460",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "12:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "12:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "12:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "12:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "12:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "11:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
     "nao_cabe": ""
    }
   ],
@@ -5310,9 +6020,14 @@
     "url": "https://arquidiocesebh.org.br/wp-content/uploads/2026/01/catalogo-01.07.26.pdf",
     "data": "2026-01",
     "o_que": "contatos"
+   },
+   {
+    "url": "https://igrejasaosebastiao.com.br/",
+    "data": "2026-11-14",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
+  "confianca": "alta",
   "observacao": "Região Episcopal Nossa Senhora da Boa Viagem (RENSB). Forania São José. Criada em 19/03/1923. Sem horário publicado pela arquidiocese (o catálogo 2026 traz só endereço e contatos)."
  },
  {
@@ -5336,7 +6051,94 @@
     "cidade": "Belo Horizonte",
     "localidade": "Estrela do Oriente",
     "endereco": "Rua Úrsula Paulino, 1555",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "08:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 2,
+      "hora": "14:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "20:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 6,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
     "nao_cabe": ""
    }
   ],
@@ -5345,9 +6147,14 @@
     "url": "https://arquidiocesebh.org.br/wp-content/uploads/2026/01/catalogo-01.07.26.pdf",
     "data": "2026-01",
     "o_que": "contatos"
+   },
+   {
+    "url": "https://www.saosebastiaobetania.com.br/",
+    "data": "2026-11-14",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
+  "confianca": "alta",
   "observacao": "Região Episcopal Nossa Senhora da Esperança (RENSE). Forania São João Batista. Criada em 05/05/1973. Sem horário publicado pela arquidiocese (o catálogo 2026 traz só endereço e contatos)."
  },
  {

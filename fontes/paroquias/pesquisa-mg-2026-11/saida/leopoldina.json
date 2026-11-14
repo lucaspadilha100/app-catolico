@@ -2395,7 +2395,36 @@
     "cidade": "Muriaé",
     "localidade": "Porto",
     "endereco": "Rua Nossa Senhora Aparecida, s/n",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 3,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
     "nao_cabe": ""
    }
   ],
@@ -2409,9 +2438,14 @@
     "url": "https://dioceseleopoldina.com.br/categoria/paroquias/",
     "data": "2018-11",
     "o_que": "contatos"
+   },
+   {
+    "url": "https://www.facebook.com/paroquiasenhoraaparecida12/",
+    "data": "",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Forania Nossa Senhora Aparecida (Muriaé). Sem horário publicado pela paróquia ou pela diocese em 2026; confirmar com a secretaria ou pelo Instagram. A diocese a lista como santuário."
+  "confianca": "media",
+  "observacao": "Forania Nossa Senhora Aparecida (Muriaé). A diocese a lista como santuário. Horários do domingo e adoração da quarta pela página oficial no Facebook (trecho da busca, sem data)."
  }
 ]

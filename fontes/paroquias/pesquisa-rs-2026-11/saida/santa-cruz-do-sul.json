@@ -20,7 +20,71 @@
     "cidade": "Santa Cruz do Sul",
     "localidade": "Centro",
     "endereco": "Rua Marechal Deodoro, 670",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "18:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "18:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "18:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "12:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "18:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "18:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
     "nao_cabe": ""
    },
    {
@@ -49,10 +113,15 @@
     "url": "https://gcatholic.org/churches/local/zcru1",
     "data": "2026-11-09",
     "o_que": "contatos"
+   },
+   {
+    "url": "https://www.instagram.com/catedral_sjbatistascs/",
+    "data": "",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Comarca Eclesiástica de Santa Cruz do Sul. Sem horário: o site da diocese não publica horários de missa. Instagram citado pelo site: @catedral_sjbatistascs. A Comunidade Sagrado Coração de Jesus do Belvedere integra a paróquia, diz o site."
+  "confianca": "media",
+  "observacao": "Comarca Eclesiástica de Santa Cruz do Sul. Sem horário: o site da diocese não publica horários de missa. Instagram citado pelo site: @catedral_sjbatistascs. A Comunidade Sagrado Coração de Jesus do Belvedere integra a paróquia, diz o site. Horários do Instagram oficial da catedral (trecho da busca, sem data)."
  },
  {
   "id_banco": null,

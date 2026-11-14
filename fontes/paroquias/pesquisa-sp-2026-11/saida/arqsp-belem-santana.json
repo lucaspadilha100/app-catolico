@@ -470,8 +470,44 @@
     "cidade": "São Paulo",
     "localidade": "Quarta Parada",
     "endereco": "Rua João Soares, 13",
-    "horarios": [],
-    "nao_cabe": ""
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Sábado às 16h, missa na Capela do Colégio Nossa Senhora de Lourdes, Av. Regente Feijó, 390. Todo dia 11, louvor perpétuo: missas às 15h e 20h (18h se cair em sábado ou domingo)."
    }
   ],
   "fontes": [
@@ -479,10 +515,15 @@
     "url": "https://arquisp.org.br/regiao-belem/paroquia-nossa-senhora-de-lourdes/",
     "data": "2026-11-13",
     "o_que": "contatos"
+   },
+   {
+    "url": "https://senhoradelourdes.org.br/horarios-de-missas/",
+    "data": "2026-11-14",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Região Episcopal Belém, Decanato Santa Maria e São José (setor Belém no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria, e o site da paróquia pede verificação de robô."
+  "confianca": "alta",
+  "observacao": "Região Episcopal Belém, Decanato Santa Maria e São José (setor Belém no GCatholic). Horários do site da paróquia."
  },
  {
   "id_banco": null,
@@ -6902,8 +6943,23 @@
     "cidade": "São Paulo",
     "localidade": "Vila Gustavo",
     "endereco": "Rua Heloísa Moya, 59",
-    "horarios": [],
-    "nao_cabe": ""
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Sábado às 17h, missa no Cinerário Nossa Senhora da Luz. Domingo às 9h, missa na Comunidade Santa Edwiges. Todo dia 2, missa em louvor a Nossa Senhora com bênção das velas."
    }
   ],
   "fontes": [
@@ -6911,10 +6967,15 @@
     "url": "https://arquisp.org.br/regiao-santana/paroquia-nossa-senhora-da-luz/",
     "data": "2026-11-13",
     "o_que": "contatos"
+   },
+   {
+    "url": "https://paroquianossaluz.com.br/",
+    "data": "2026-11-14",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Região Episcopal Santana, Decanato Santo Estêvão (setor Tucuruvi no GCatholic). Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria. O site indicado não respondeu em 13/11/2026."
+  "confianca": "alta",
+  "observacao": "Região Episcopal Santana, Decanato Santo Estêvão (setor Tucuruvi no GCatholic). Horários do site da paróquia (nossaluz.com.br, mesmo domínio do e-mail da secretaria)."
  },
  {
   "id_banco": null,
