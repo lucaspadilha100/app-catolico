@@ -8,6 +8,7 @@ Posts 1 a 5 são sobre o app (pedido do dono, 14/11/2026). Post 1 (apresentaçã
 3. `post-biblia/`
 4. `post-terco/`
 5. `post-oracoes/`
+6. `post-titulos-dos-santos/` (servo de Deus, venerável, beato, santo; pedido do dono em 14/11)
 
 Fora da fila: `post2-novena-apresentacao/` (o dono achou fora de hora).
 
