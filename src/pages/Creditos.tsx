@@ -42,7 +42,7 @@ function Secao({ titulo, linhas }: { titulo: string; linhas: Linha[] }) {
   );
 }
 
-const linhaDe = (chave: string, c: Credito): Linha => ({ chave, titulo: c.obra, credito: [textoDoCredito(c), "Wikimedia Commons"].filter(Boolean).join(". "), url: c.url });
+const linhaDe = (chave: string, c: Credito): Linha => ({ chave, titulo: c.obra, credito: [textoDoCredito(c), c.fonte ?? "Wikimedia Commons"].filter(Boolean).join(". "), url: c.url });
 
 export default function Creditos() {
   const devocao = useImagensDeDevocao();

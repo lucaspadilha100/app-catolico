@@ -7,6 +7,7 @@ export interface Credito {
   licenca: string;
   url: string;
   foco?: string;
+  fonte?: string;
 }
 
 let devocao: Promise<Record<string, Credito>> | null = null;

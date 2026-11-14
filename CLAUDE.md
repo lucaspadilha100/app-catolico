@@ -248,7 +248,7 @@ Nada de licença paga por ora. Então:
 | Orações tradicionais (PT e latim) | Liturgia das Horas oficial (Vozes/Paulus) |
 | Número do parágrafo do Catecismo (CIC 1854) | Texto do Catecismo copiado |
 | Texto próprio (reflexões, santos, novenas, guias) | Texto copiado de sites, livros, Wikipedia |
-| Pinturas antigas em domínio público (conferir cada uma); imagens do Wikimedia Commons em CC0, CC BY ou CC BY-SA com o crédito na tela Créditos (decisão do dono, 11/11/2026) | Imagem de banco de imagens, foto da internet sem licença livre, licença NC ou ND |
+| Pinturas antigas em domínio público (conferir cada uma); imagens do Wikimedia Commons em CC0, CC BY ou CC BY-SA com o crédito na tela Créditos (decisão do dono, 11/11/2026); foto de SANTO de outra fonte (congregação, causa, diocese, Vatican News) quando o Commons não tem retrato, com crédito e `fonte` no JSON, retirada se o dono pedir (decisão do dono, 14/11/2026: "todo mundo precisa ter foto") | Imagem de banco de imagens (Getty, Alamy, Shutterstock, agências de notícia); foto sem licença livre fora do caso dos santos |
 | Embed/link de playlist do Spotify | Letra de música |
 | Horários informados por paróquias e fiéis; a planilha do Missas.com.br (decisão do dono, 11/11/2026, com crédito na página) | Dados copiados de outros sites sem decisão do dono |
 | Fontes e ícones de licença livre | Marca/logo da CNBB ou que sugira app "oficial" da Igreja |
