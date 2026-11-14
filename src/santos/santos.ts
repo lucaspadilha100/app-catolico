@@ -111,6 +111,7 @@ export const NOME_DO_GRUPO: Record<string, string> = {
   populares: "Devoção popular",
   veneraveis: "Veneráveis",
   calendario: "Do calendário",
+  mundo: "De todo o mundo",
 };
 
 export const SELO: Record<string, string> = { beato: "Beato", veneravel: "Venerável", servo: "Servo de Deus" };
