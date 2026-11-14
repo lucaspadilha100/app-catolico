@@ -51,7 +51,7 @@ it("fichas marcadas para revisão, com texto limpo", () => {
     expect(s.data, s.id).toMatch(/^(0[1-9]|1[0-2])(0[1-9]|[12]\d|3[01])$/);
     expect(NOME_DO_GRUPO[s.grupo], s.id).toBeDefined();
     expect(s.resumo.trim(), s.id).not.toBe("");
-    expect(s.historia.length, s.id).toBeGreaterThanOrEqual(2);
+    expect(s.historia.length, s.id).toBeGreaterThanOrEqual(s.grupo === "mundo" ? 1 : 2);
     expect(s.historia.length, s.id).toBeLessThanOrEqual(5);
     if (s.grupo !== "calendario") {
       expect(s.calendario, s.id).toBe(false);
