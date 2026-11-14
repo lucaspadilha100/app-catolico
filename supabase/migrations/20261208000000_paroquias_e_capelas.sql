@@ -9,6 +9,8 @@ alter table public.paroquias add constraint paroquias_tipo_check
 alter table public.paroquias drop constraint if exists paroquias_matriz_nao_ela_mesma;
 alter table public.paroquias add constraint paroquias_matriz_nao_ela_mesma check (matriz_id is null or matriz_id <> id);
 
+drop function if exists public.procurar_paroquias(text, double precision, double precision, double precision, integer, integer, text, text);
+
 create or replace function public.procurar_paroquias(
   p_termo text default '',
   p_lat double precision default null,

@@ -49,6 +49,23 @@ const RAIO_PADRAO = 10;
 const TOLERANCIA = 15 * 60_000;
 
 const km = (d: number | null) => (d === null ? "" : d < 1 ? `${Math.round(d * 1000)} m` : `${d.toFixed(1).replace(".", ",")} km`);
+
+type Parte = string | false | null | undefined;
+
+function Detalhes({ antes, distancia, aproximado, depois = [] }: { antes: Parte[]; distancia: number | null; aproximado?: boolean; depois?: Parte[] }) {
+  const longe = km(distancia);
+  const partes: ReactNode[] = [
+    ...antes.filter(Boolean),
+    longe && (
+      <span key="km" className="whitespace-nowrap">
+        {longe}
+        {aproximado && <span className="ml-1.5 inline-block rounded-full bg-marca-fundo px-2 text-xs font-medium leading-5 text-destaque-texto">local aproximado</span>}
+      </span>
+    ),
+    ...depois.filter(Boolean),
+  ].filter(Boolean);
+  return <span className="block text-sm text-tinta-suave">{partes.flatMap((p, n) => (n ? [" · ", p] : [p]))}</span>;
+}
 const dataDoItem = (i: ItemDaAgenda) => new Date(i.quando.replace(" ", "T"));
 const diaDe = (d: Date) => new Date(d.getFullYear(), d.getMonth(), d.getDate()).getTime();
 
@@ -132,7 +149,7 @@ function ItemDeParoquia({ p }: { p: ParoquiaResumo }) {
           {p.nome}
           {p.verificada && <BadgeCheck className="size-4 shrink-0 text-destaque-texto" aria-label="Verificada" />}
         </span>
-        <span className="block text-sm text-tinta-suave">{[!ehMatriz(p.tipo) && NOME_DO_TIPO_DE_IGREJA[p.tipo], p.bairro, p.cidade, km(p.distancia_km)].filter(Boolean).join(" · ")}</span>
+        <Detalhes antes={[!ehMatriz(p.tipo) && NOME_DO_TIPO_DE_IGREJA[p.tipo], p.bairro, p.cidade]} distancia={p.distancia_km} aproximado={p.aproximado} />
       </span>
       <ChevronRight className="size-5 shrink-0 text-tinta-suave" aria-hidden />
     </Link>
@@ -214,7 +231,7 @@ function PorHorario({ itens, agora, base = "/missas/paroquia/" }: { itens: ItemD
                     </span>
                     <span className="min-w-0 flex-1">
                       <span className="block font-bold leading-snug text-tinta">{i.nome}</span>
-                      <span className="block text-sm text-tinta-suave">{[i.bairro, km(i.distancia_km), i.observacao].filter(Boolean).join(" · ")}</span>
+                      <Detalhes antes={[i.bairro]} distancia={i.distancia_km} aproximado={i.aproximado} depois={[i.observacao]} />
                     </span>
                     <ChevronRight className="size-5 shrink-0 text-tinta-suave" aria-hidden />
                   </Link>
@@ -236,7 +253,7 @@ function PorIgreja({ igrejas, agora, comDia }: { igrejas: IgrejaComHorarios[]; a
           <Link to={`/missas/paroquia/${p.paroquia_id}`} className="flex min-h-16 items-center gap-3 px-1 py-4">
             <span className="min-w-0 flex-1">
               <span className="block text-[1.0625rem] font-bold leading-snug text-tinta">{p.nome}</span>
-              <span className="block text-sm text-tinta-suave">{[p.bairro, km(p.distancia_km)].filter(Boolean).join(" · ")}</span>
+              <Detalhes antes={[p.bairro]} distancia={p.distancia_km} aproximado={p.aproximado} />
               <span className="mt-2.5 flex flex-wrap gap-1.5">
                 {p.horarios.map((h, n) => {
                   const q = new Date(h.quando.replace(" ", "T"));
@@ -858,6 +875,8 @@ export function ParoquiaPagina() {
   const minha = favoritas.some((x) => x.id === p.id);
   const sigo = seguidas.includes(p.id);
   const destino = p.lat !== null && p.lng !== null ? `${p.lat},${p.lng}` : encodeURIComponent(`${p.endereco}, ${p.bairro}, ${p.cidade} - ${p.uf}`);
+  const semPonto = p.lat === null && !!p.matriz_id;
+  const comoChegar = !semPonto || !!p.endereco;
   const endereco = [p.endereco, p.bairro, `${p.cidade} - ${p.uf}`].filter(Boolean).join(", ");
 
   async function confirmar() {
@@ -913,6 +932,18 @@ export function ParoquiaPagina() {
         </p>
       )}
 
+      {semPonto && (
+        <div className="flex flex-col gap-3 rounded-2xl border border-borda bg-cartao px-4 py-3">
+          <p className="text-tinta">
+            {matriz?.lat != null && <span className="block font-semibold">Local aproximado</span>}
+            Esta igreja ainda não está no mapa.{matriz?.lat != null && " Na busca por perto, a distância mostrada é a da igreja matriz."}
+          </p>
+          <Link to={`/missas/sugerir?paroquia=${p.id}&assunto=local`} className="flex min-h-12 items-center justify-center gap-2 rounded-xl border border-borda bg-papel font-semibold text-tinta">
+            <MapPin className="size-5 text-destaque-texto" aria-hidden /> Informar onde fica
+          </Link>
+        </div>
+      )}
+
       {avisos.map((a) => (
         <p key={a.id} className="rounded-2xl border border-destaque-texto/30 bg-marca-fundo px-4 py-3 text-tinta">
           {a.texto}
@@ -922,14 +953,16 @@ export function ParoquiaPagina() {
       <ProximoHorario horarios={horarios} agora={agora} />
 
       <div className="flex flex-col gap-2">
-        <a
-          href={linkComoChegar(destino)}
-          target="_blank"
-          rel="noreferrer"
-          className="flex min-h-12 items-center justify-center gap-2 rounded-xl bg-primario font-semibold text-sobre-primario"
-        >
-          <Navigation className="size-5" aria-hidden /> Como chegar
-        </a>
+        {comoChegar && (
+          <a
+            href={linkComoChegar(destino)}
+            target="_blank"
+            rel="noreferrer"
+            className="flex min-h-12 items-center justify-center gap-2 rounded-xl bg-primario font-semibold text-sobre-primario"
+          >
+            <Navigation className="size-5" aria-hidden /> Como chegar
+          </a>
+        )}
         <div className="grid grid-cols-3 gap-2">
           <button
             type="button"
@@ -1070,29 +1103,45 @@ export function Sugerir() {
   const [params] = useSearchParams();
   const paroquia = params.get("paroquia");
   const { email, pronto } = useConta();
-  const [tipo, setTipo] = useState<"horario_errado" | "novo_horario" | "outro" | "nova_paroquia">(paroquia ? "horario_errado" : "nova_paroquia");
+  const [tipo, setTipo] = useState<"horario_errado" | "novo_horario" | "outro" | "local" | "nova_paroquia">(!paroquia ? "nova_paroquia" : params.get("assunto") === "local" ? "local" : "horario_errado");
   const [texto, setTexto] = useState("");
   const [nome, setNome] = useState("");
   const [cidade, setCidade] = useState("");
+  const [ponto, setPonto] = useState<Local | null>(null);
+  const [buscandoPonto, setBuscandoPonto] = useState<"" | "buscando" | "falhou">("");
   const [estado, setEstado] = useState<"" | "enviando" | "enviado" | "erro">("");
+
+  function marcarOndeEstou() {
+    if (!("geolocation" in navigator)) return setBuscandoPonto("falhou");
+    setBuscandoPonto("buscando");
+    navigator.geolocation.getCurrentPosition(
+      (g) => {
+        setPonto({ lat: Number(g.coords.latitude.toFixed(6)), lng: Number(g.coords.longitude.toFixed(6)) });
+        setBuscandoPonto("");
+      },
+      () => setBuscandoPonto("falhou"),
+      { enableHighAccuracy: true, timeout: 20_000, maximumAge: 0 },
+    );
+  }
 
   async function enviar(e: FormEvent) {
     e.preventDefault();
     setEstado("enviando");
     try {
-      await enviarSugestao({ paroquia_id: tipo === "nova_paroquia" ? null : paroquia, tipo, texto: texto.trim(), dados: tipo === "nova_paroquia" ? { nome: nome.trim(), cidade: cidade.trim() } : {} });
+      const dados = tipo === "nova_paroquia" ? { nome: nome.trim(), cidade: cidade.trim() } : tipo === "local" && ponto ? { ...ponto } : {};
+      await enviarSugestao({ paroquia_id: tipo === "nova_paroquia" ? null : paroquia, tipo, texto: texto.trim(), dados });
       setEstado("enviado");
     } catch {
       setEstado("erro");
     }
   }
 
-  const pode = tipo === "nova_paroquia" ? nome.trim().length > 2 && cidade.trim().length > 1 : texto.trim().length > 3;
+  const pode = tipo === "nova_paroquia" ? nome.trim().length > 2 && cidade.trim().length > 1 : texto.trim().length > 3 || (tipo === "local" && !!ponto);
 
   return (
     <div className="flex flex-col gap-5">
       <Voltar para="/missas">Missas</Voltar>
-      <Cabecalho titulo={paroquia ? "Informar horário" : "Sugerir paróquia"} />
+      <Cabecalho titulo={!paroquia ? "Sugerir paróquia" : tipo === "local" ? "Informar onde fica" : "Informar horário"} />
       {!pronto ? (
         <Carregando />
       ) : !email ? (
@@ -1114,9 +1163,10 @@ export function Sugerir() {
                 opcoes={[
                   ["horario_errado", "Horário errado"],
                   ["novo_horario", "Horário novo"],
+                  ["local", "Onde fica"],
                   ["outro", "Outro"],
                 ] as const}
-                valor={tipo as "horario_errado" | "novo_horario" | "outro"}
+                valor={tipo as "horario_errado" | "novo_horario" | "local" | "outro"}
                 onChange={setTipo}
               />
             )}
@@ -1132,8 +1182,24 @@ export function Sugerir() {
                 </label>
               </>
             )}
+            {tipo === "local" && (
+              <div className="flex flex-col gap-1">
+                <button
+                  type="button"
+                  onClick={marcarOndeEstou}
+                  disabled={buscandoPonto === "buscando"}
+                  aria-pressed={!!ponto}
+                  className={`flex min-h-12 items-center justify-center gap-2 rounded-xl border font-semibold disabled:opacity-60 ${ponto ? "border-destaque-texto/50 bg-marca-fundo text-destaque-texto" : "border-borda bg-cartao text-tinta"}`}
+                >
+                  {ponto ? <Check className="size-5" aria-hidden /> : <LocateFixed className="size-5" aria-hidden />}
+                  {buscandoPonto === "buscando" ? "Procurando" : ponto ? "Local marcado" : "Estou na igreja: usar meu local"}
+                </button>
+                {ponto && <span className="text-center text-sm text-tinta-suave">{`${ponto.lat.toFixed(5)}, ${ponto.lng.toFixed(5)}`}</span>}
+                {buscandoPonto === "falhou" && <span className="text-center text-sm text-tinta-suave">Não foi possível pegar o local. Escreva o endereço abaixo.</span>}
+              </div>
+            )}
             <label className="flex flex-col gap-1">
-              <span className="text-sm font-medium text-tinta-suave">{tipo === "nova_paroquia" ? "Endereço e horários que você conhece" : "O que está diferente"}</span>
+              <span className="text-sm font-medium text-tinta-suave">{tipo === "nova_paroquia" ? "Endereço e horários que você conhece" : tipo === "local" ? "Endereço ou como chegar" : "O que está diferente"}</span>
               <textarea value={texto} onChange={(e) => setTexto(e.target.value)} rows={4} maxLength={1000} className="w-full resize-y rounded-xl border border-borda bg-papel px-3 py-2 text-base" />
             </label>
             {estado === "erro" && <p className="text-sm font-medium text-[#a9271f]">Não foi possível enviar agora. Tente de novo.</p>}

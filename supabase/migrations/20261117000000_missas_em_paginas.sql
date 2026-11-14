@@ -38,6 +38,8 @@ $fn$;
 revoke execute on function public.cidades_com_paroquias(text, double precision, double precision, integer) from public, anon, authenticated;
 grant execute on function public.cidades_com_paroquias(text, double precision, double precision, integer) to anon, authenticated;
 
+drop function if exists public.horarios_do_periodo(double precision, double precision, timestamp, integer, text, double precision, text, text, timestamp);
+
 create or replace function public.horarios_do_periodo(
   p_lat double precision,
   p_lng double precision,
@@ -105,6 +107,8 @@ grant execute on function public.horarios_do_periodo(double precision, double pr
 
 drop function if exists public.agenda_de_horarios(double precision, double precision, timestamp, integer, text, double precision, integer, text, text);
 
+drop function if exists public.agenda_de_horarios(double precision, double precision, timestamp, integer, text, double precision, integer, text, text, integer, timestamp);
+
 create or replace function public.agenda_de_horarios(
   p_lat double precision,
   p_lng double precision,
@@ -135,6 +139,8 @@ $fn$;
 
 revoke execute on function public.agenda_de_horarios(double precision, double precision, timestamp, integer, text, double precision, integer, text, text, integer, timestamp) from public, anon, authenticated;
 grant execute on function public.agenda_de_horarios(double precision, double precision, timestamp, integer, text, double precision, integer, text, text, integer, timestamp) to anon, authenticated;
+
+drop function if exists public.igrejas_com_horarios(double precision, double precision, timestamp, integer, text, double precision, integer, text, text, integer, timestamp);
 
 create or replace function public.igrejas_com_horarios(
   p_lat double precision,

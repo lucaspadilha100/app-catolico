@@ -76,8 +76,8 @@ export async function agendaDeEventos(p: Onde & Periodo, pular = 0, limite = 30)
       p_uf: p.cidade?.uf ?? "",
       p_pular: pular,
     }),
-  ) as { paroquia_id: string; titulo: string; paroquia: string; cidade: string; distancia_km: number | null; quando: string; local: string; total: number }[];
-  return r.map((e) => ({ paroquia_id: e.paroquia_id, nome: e.titulo, bairro: e.paroquia, cidade: e.cidade, distancia_km: e.distancia_km, quando: e.quando, ate: null, observacao: e.local, total: e.total }));
+  ) as { paroquia_id: string; titulo: string; paroquia: string; cidade: string; distancia_km: number | null; quando: string; local: string; total: number; aproximado: boolean }[];
+  return r.map((e) => ({ paroquia_id: e.paroquia_id, nome: e.titulo, bairro: e.paroquia, cidade: e.cidade, distancia_km: e.distancia_km, quando: e.quando, ate: null, observacao: e.local, total: e.total, aproximado: e.aproximado }));
 }
 
 export async function agendaDeHorarios(p: Onde & Periodo, pular = 0, limite = 30): Promise<ItemDaAgenda[]> {
@@ -103,6 +103,7 @@ export interface IgrejaLigada {
   tipo: string;
   bairro: string;
   cidade: string;
+  lat?: number | null;
 }
 
 export interface ParoquiaCompleta {
@@ -134,7 +135,7 @@ export async function carregarParoquia(id: string): Promise<ParoquiaCompleta | n
   if (!paroquia) return null;
   const [podeEditar, matriz] = await Promise.all([
     sessao.data.session ? c.rpc("pode_editar", { p_paroquia: id }).then((r) => !!ou(r)) : false,
-    paroquia.matriz_id ? c.from("paroquias").select(ligada).eq("id", paroquia.matriz_id).eq("ativa", true).maybeSingle().then((r) => (r.error ? null : (r.data as IgrejaLigada | null))) : null,
+    paroquia.matriz_id ? c.from("paroquias").select(`${ligada},lat`).eq("id", paroquia.matriz_id).eq("ativa", true).maybeSingle().then((r) => (r.error ? null : (r.data as IgrejaLigada | null))) : null,
   ]);
   return { paroquia, horarios: ou(h) as Horario[], avisos: ou(a) as AvisoDaParoquia[], podeEditar, matriz, capelas: filhas.error ? [] : ((filhas.data as IgrejaLigada[] | null) ?? []) };
 }

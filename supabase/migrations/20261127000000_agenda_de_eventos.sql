@@ -1,3 +1,5 @@
+drop function if exists public.agenda_de_eventos(double precision, double precision, timestamp, integer, double precision, integer, text, text, integer);
+
 create or replace function public.agenda_de_eventos(
   p_lat double precision,
   p_lng double precision,

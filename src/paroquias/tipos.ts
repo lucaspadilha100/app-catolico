@@ -26,9 +26,10 @@ export interface ParoquiaResumo {
   verificada: boolean;
   confirmado_em: string | null;
   distancia_km: number | null;
+  aproximado?: boolean;
 }
 
-export interface Paroquia extends Omit<ParoquiaResumo, "distancia_km"> {
+export interface Paroquia extends Omit<ParoquiaResumo, "distancia_km" | "aproximado"> {
   diocese: string;
   endereco: string;
   cep: string;
@@ -69,6 +70,7 @@ export interface ItemDaAgenda {
   ate: string | null;
   observacao: string;
   total?: number;
+  aproximado?: boolean;
 }
 
 export interface IgrejaComHorarios {
@@ -79,12 +81,13 @@ export interface IgrejaComHorarios {
   distancia_km: number | null;
   horarios: { quando: string; ate: string | null; observacao: string }[];
   total: number;
+  aproximado?: boolean;
 }
 
 export interface Sugestao {
   id: string;
   paroquia_id: string | null;
-  tipo: "confirmar" | "horario_errado" | "novo_horario" | "nova_paroquia" | "outro";
+  tipo: "confirmar" | "horario_errado" | "novo_horario" | "nova_paroquia" | "outro" | "local";
   texto: string;
   dados: Record<string, unknown>;
   situacao: "pendente" | "aceita" | "recusada";

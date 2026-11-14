@@ -1,3 +1,5 @@
+drop function if exists public.procurar_paroquias(text, double precision, double precision, double precision, integer, integer, text, text);
+
 create or replace function public.procurar_paroquias(
   p_termo text default '',
   p_lat double precision default null,

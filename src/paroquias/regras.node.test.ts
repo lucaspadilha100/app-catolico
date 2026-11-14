@@ -200,6 +200,54 @@ describe("busca", () => {
   });
 });
 
+describe("capela sem ponto no mapa", () => {
+  it("aparece no ponto da matriz, marcada como aproximada, até ganhar o ponto dela", async () => {
+    const r = await como("authenticated", ADMIN, "insert into public.paroquias (nome, tipo, bairro, cidade, uf, matriz_id) values ('Comunidade Santa Rita', 'comunidade', 'Rocas', 'Natal', 'RN', $1) returning id", [matriz]);
+    const comunidade = r.rows[0]!.id as string;
+    await como("authenticated", ADMIN, "insert into public.horarios (paroquia_id, tipo, dia_semana, hora) values ($1, 'missa', 0, '10:30')", [comunidade]);
+
+    const perto = await como("anon", null, "select nome, round(distancia_km::numeric, 3)::text as km, aproximado, lat from public.procurar_paroquias('', -5.80, -35.20, 3)");
+    expect(perto.rows).toEqual([
+      { nome: "Catedral Metropolitana", km: perto.rows[0]!.km, aproximado: false, lat: -5.7945 },
+      { nome: "Comunidade Santa Rita", km: perto.rows[0]!.km, aproximado: true, lat: -5.7945 },
+    ]);
+    const antiga = await como("anon", null, "select nome, aproximado from public.buscar_paroquias('santa rita', -5.80, -35.20, 3)");
+    expect(antiga.rows).toEqual([{ nome: "Comunidade Santa Rita", aproximado: true }]);
+    const naCidade = await como("anon", null, "select nome, aproximado from public.procurar_paroquias('', null, null, 15, 30, 0, 'Natal', 'RN') where nome <> 'Capela sem mapa'");
+    expect(naCidade.rows.map((x) => `${x.nome} ${x.aproximado}`)).toEqual(["Capela de São Pedro false", "Catedral Metropolitana false", "Comunidade Santa Rita true"]);
+
+    const args = "-5.80, -35.20, '2026-11-22 07:00', 14, 'missa', 3";
+    const agenda = await como("anon", null, `select nome, quando::text, round(distancia_km::numeric, 3)::text as km, aproximado from public.agenda_de_horarios(${args})`);
+    expect(agenda.rows).toEqual([
+      { nome: "Catedral Metropolitana", quando: "2026-11-22 08:00:00", km: perto.rows[0]!.km, aproximado: false },
+      { nome: "Comunidade Santa Rita", quando: "2026-11-22 10:30:00", km: perto.rows[0]!.km, aproximado: true },
+      { nome: "Catedral Metropolitana", quando: "2026-11-22 19:00:00", km: perto.rows[0]!.km, aproximado: false },
+    ]);
+    const igrejas = await como("anon", null, `select nome, aproximado from public.igrejas_com_horarios(${args})`);
+    expect(igrejas.rows).toEqual([
+      { nome: "Catedral Metropolitana", aproximado: false },
+      { nome: "Comunidade Santa Rita", aproximado: true },
+    ]);
+    const eventos = await como("anon", null, "select aproximado from public.agenda_de_eventos(-5.80, -35.20, '2026-11-22 07:00', 14, 3)");
+    expect(eventos.rows).toEqual([]);
+
+    const longe = await como("anon", null, "select nome, aproximado from public.procurar_paroquias('', -5.88, -35.17, 2)");
+    expect(longe.rows).toEqual([{ nome: "Capela de São Pedro", aproximado: false }]);
+
+    await como("authenticated", ADMIN, "update public.paroquias set lat = -5.8100, lng = -35.2300 where id = $1", [comunidade]);
+    const comPonto = await como("anon", null, "select nome, aproximado, lat from public.procurar_paroquias('santa rita', -5.80, -35.20, 5)");
+    expect(comPonto.rows).toEqual([{ nome: "Comunidade Santa Rita", aproximado: false, lat: -5.81 }]);
+    const naAgenda = await como("anon", null, "select distinct aproximado from public.agenda_de_horarios(-5.80, -35.20, '2026-11-22 07:00', 14, 'missa', 5) where nome = 'Comunidade Santa Rita'");
+    expect(naAgenda.rows).toEqual([{ aproximado: false }]);
+    await db.query("update public.paroquias set ativa = false where id = $1", [comunidade]);
+  });
+
+  it("quem tem conta informa onde fica a capela", async () => {
+    await como("authenticated", GESTOR_ID, "insert into public.sugestoes_paroquia (paroquia_id, tipo, texto, dados) values ($1, 'local', 'Ao lado da escola', '{\"lat\": -5.81, \"lng\": -35.23}')", [capela]);
+    await expect(como("authenticated", GESTOR_ID, "insert into public.sugestoes_paroquia (paroquia_id, tipo) values ($1, 'mapa')", [capela])).rejects.toThrow();
+  });
+});
+
 describe("dados de Natal (planilha do Missas.com.br)", { timeout: 60_000 }, () => {
   it("entram inteiros, podem rodar de novo e têm cara de verdade", async () => {
     const banco = await criarBanco({ comDados: true });

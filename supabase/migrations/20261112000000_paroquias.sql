@@ -291,6 +291,8 @@ $fn$;
 revoke execute on function public.adicionar_gestor(uuid, text) from public, anon;
 grant execute on function public.adicionar_gestor(uuid, text) to authenticated;
 
+drop function if exists public.buscar_paroquias(text, double precision, double precision, double precision, integer, integer);
+
 create or replace function public.buscar_paroquias(
   p_termo text default '',
   p_lat double precision default null,

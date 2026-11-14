@@ -51,6 +51,7 @@ const NOME_DA_SUGESTAO: Record<Sugestao["tipo"], string> = {
   novo_horario: "Horário novo",
   nova_paroquia: "Paróquia nova",
   outro: "Outro",
+  local: "Onde fica",
 };
 
 function Campo({ rotulo, children }: { rotulo: string; children: ReactNode }) {
@@ -261,6 +262,14 @@ function Sugestoes() {
           </p>
           <p className="font-semibold text-marca">{s.paroquias?.nome ?? `${String(s.dados.nome ?? "")} (${String(s.dados.cidade ?? "")})`}</p>
           {s.texto && <p className="whitespace-pre-line text-tinta">{s.texto}</p>}
+          {typeof s.dados.lat === "number" && typeof s.dados.lng === "number" && (
+            <p className="flex flex-wrap items-center gap-x-3 text-tinta">
+              <span className="select-all">{`${s.dados.lat}, ${s.dados.lng}`}</span>
+              <a href={`https://www.openstreetmap.org/?mlat=${s.dados.lat}&mlon=${s.dados.lng}#map=18/${s.dados.lat}/${s.dados.lng}`} target="_blank" rel="noreferrer" className="font-semibold text-destaque-texto underline underline-offset-2">
+                Ver no mapa
+              </a>
+            </p>
+          )}
           <div className="flex flex-wrap gap-2">
             {s.paroquia_id && (
               <Link to={`/painel/paroquia/${s.paroquia_id}`} className={`${BOTAO_CLARO} flex items-center`}>
