@@ -51,6 +51,7 @@ const mes: MesDeSantos = {
       nome: "Beata Lindalva Justo de Oliveira, virgem e mártir",
       data: "0107",
       calendario: false,
+      situacao: "beato",
       nomes: ["Lindalva"],
       resumo: "Filha da Caridade nascida no Rio Grande do Norte, morta em Salvador por defender a sua castidade.",
       historia: [

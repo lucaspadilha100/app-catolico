@@ -170,6 +170,7 @@ const mes: MesDeSantos = {
       nome: "Bem-aventurados Inácio de Azevedo, presbítero, e companheiros, mártires",
       data: "0717",
       calendario: true,
+      situacao: "beato",
       nomes: ["Inácio"],
       resumo: "Quarenta jesuítas mortos no mar em 1570 a caminho do Brasil, onde iam como missionários.",
       historia: [

@@ -140,6 +140,7 @@ const mes: MesDeSantos = {
       nome: "Beata Francisca de Paula de Jesus, Nhá Chica",
       data: "0614",
       calendario: false,
+      situacao: "beato",
       nomes: ["Francisca", "Chica"],
       resumo: "Mulher pobre e analfabeta de Baependi, em Minas Gerais, que viveu para a oração e para os necessitados.",
       historia: [
