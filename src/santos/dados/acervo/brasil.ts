@@ -681,7 +681,7 @@ const acervo: AcervoDeSantos = {
       nomes: ["Helder"],
       resumo: "Arcebispo de Olinda e Recife, nascido em Fortaleza, lembrado pela vida simples e pela oração.",
       historia: [
-        "Helder Pessoa Câmara nasceu em Fortaleza, Ceará, em 7 de fevereiro de 1909, e foi ordenado padre em 1931. Foi bispo auxiliar do Rio de Janeiro e participou do Concílio Vaticano II.",
+        "Helder Pessoa Câmara nasceu em Fortaleza, Ceará, em 7 de fevereiro de 1909, e foi ordenado padre em 1931. Foi bispo auxiliar do Rio de Janeiro, um dos fundadores da Conferência Nacional dos Bispos do Brasil, a CNBB, em 1952, e participou do Concílio Vaticano II.",
         "De 1964 a 1985 foi arcebispo de Olinda e Recife. Vivia de forma simples, numa pequena casa ao lado de uma igreja.",
         "Levantava-se de madrugada para rezar sozinho, num tempo que chamava de vigília.",
         "Morreu em Recife em 27 de agosto de 1999. A arquidiocese de Olinda e Recife abriu a sua causa de beatificação com autorização da Santa Sé, e desde então ele é chamado servo de Deus.",
