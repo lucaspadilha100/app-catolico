@@ -1,7 +1,8 @@
 import { useEffect, useMemo, useState } from "react";
 import { Search, X } from "lucide-react";
-import { buscarSantos, caminhoDaImagem, nomeParaOrdenar, todosOsSantos } from "@/santos/santos";
-import type { Santo } from "@/santos/tipos";
+import { buscarSantos, fotoDoSanto, fotoGuardada, indiceDosSantos, nomeParaOrdenar, santoPorId } from "@/santos/santos";
+import { FotoDoSanto } from "@/santos/FotoDoSanto";
+import type { Santo, SantoDoIndice } from "@/santos/tipos";
 import { Cartao } from "@/components/Cartao";
 
 export function CruzLatina({ className }: { className: string }) {
@@ -14,7 +15,7 @@ export function CruzLatina({ className }: { className: string }) {
 }
 
 export function creditoDe(s: Santo): string {
-  const a = s.imagem?.artista ?? "";
+  const a = s.imagem?.artic ? s.imagem.autor : "";
   return a && a !== "Desconhecido" ? `Pintura: ${a.replace(/, called /, ", chamado ")}` : "";
 }
 
@@ -24,33 +25,50 @@ export interface PinturaEscolhida {
   imagem: string;
 }
 
-export const pinturaDe = (s: Santo | null): PinturaEscolhida | null => (s ? { id: s.id, nome: s.nome, imagem: caminhoDaImagem(s) ?? "" } : null);
+export const pinturaDe = (s: Santo | null): PinturaEscolhida | null => (s ? { id: s.id, nome: s.nome, imagem: fotoDoSanto(s) ?? "" } : null);
+
+const POR_VEZ = 60;
 
 export function EscolherPintura({ atual, aoEscolher, semCruz }: { atual: PinturaEscolhida | null; aoEscolher: (s: Santo | null) => void; semCruz?: boolean }) {
   const [aberto, setAberto] = useState(false);
-  const [lista, setLista] = useState<Santo[]>([]);
+  const [lista, setLista] = useState<SantoDoIndice[]>([]);
   const [termo, setTermo] = useState("");
+  const [limite, setLimite] = useState(POR_VEZ);
 
   useEffect(() => {
     if (!aberto || lista.length) return;
-    void todosOsSantos().then((todos) => {
-      const vistas = new Set<string>();
-      const com = todos.filter((s) => {
-        const c = caminhoDaImagem(s);
-        if (!c || vistas.has(c)) return false;
-        vistas.add(c);
-        return true;
-      });
-      setLista(com.sort((a, b) => nomeParaOrdenar(a.nome).localeCompare(nomeParaOrdenar(b.nome))));
-    });
+    indiceDosSantos()
+      .then((todos) => {
+        const vistas = new Set<string>();
+        const com = todos.filter((s) => {
+          const c = s.imagem?.arquivo;
+          if (!c || vistas.has(c)) return false;
+          vistas.add(c);
+          return true;
+        });
+        setLista(com.sort((a, b) => nomeParaOrdenar(a.nome).localeCompare(nomeParaOrdenar(b.nome))));
+      })
+      .catch(() => {});
   }, [aberto, lista.length]);
 
+  useEffect(() => setLimite(POR_VEZ), [termo]);
+
   const mostradas = useMemo(() => (termo.trim() ? buscarSantos(lista, termo) : lista), [lista, termo]);
+
+  function escolher(s: SantoDoIndice) {
+    void santoPorId(s.id)
+      .then((f) => {
+        if (!f) return;
+        aoEscolher(f);
+        setAberto(false);
+      })
+      .catch(() => {});
+  }
 
   if (!aberto)
     return (
       <button type="button" onClick={() => setAberto(true)} className="flex min-h-14 w-full items-center gap-3 rounded-xl border border-borda bg-papel px-3 py-2 text-left">
-        {atual ? <img src={atual.imagem} alt="" className="size-10 shrink-0 rounded-lg object-cover" /> : <span className="grid size-10 shrink-0 place-items-center rounded-lg bg-marca-fundo text-destaque-texto"><CruzLatina className="h-6" /></span>}
+        {atual ? <img src={fotoGuardada(atual.imagem)} alt="" crossOrigin="anonymous" className="size-10 shrink-0 rounded-lg object-cover" /> : <span className="grid size-10 shrink-0 place-items-center rounded-lg bg-marca-fundo text-destaque-texto"><CruzLatina className="h-6" /></span>}
         <span className="min-w-0 flex-1 text-tinta">{atual ? atual.nome : semCruz ? "Escolher" : "Só a cruz"}</span>
         <span className="text-sm font-medium text-destaque-texto">Trocar</span>
       </button>
@@ -81,20 +99,22 @@ export function EscolherPintura({ atual, aoEscolher, semCruz }: { atual: Pintura
             <span className="text-tinta">Só a cruz</span>
           </button>
         )}
-        {mostradas.map((s) => (
+        {mostradas.slice(0, limite).map((s) => (
           <button
             key={s.id}
             type="button"
-            onClick={() => {
-              aoEscolher(s);
-              setAberto(false);
-            }}
+            onClick={() => escolher(s)}
             className={`flex flex-col items-center gap-1 rounded-xl border p-1.5 text-xs ${atual?.id === s.id ? "border-destaque-texto" : "border-borda"}`}
           >
-            <img src={caminhoDaImagem(s)!} alt="" loading="lazy" className="aspect-[3/4] w-full rounded-lg object-cover" />
+            <FotoDoSanto santo={s} largura={150} altura={200} className="aspect-[3/4] w-full rounded-lg" />
             <span className="line-clamp-2 text-center text-tinta">{s.nome}</span>
           </button>
         ))}
+        {mostradas.length > limite && (
+          <button type="button" onClick={() => setLimite((l) => l + POR_VEZ)} className="col-span-3 min-h-12 rounded-xl border border-borda bg-cartao px-4 font-semibold text-destaque-texto">
+            Mostrar mais
+          </button>
+        )}
       </div>
     </Cartao>
   );

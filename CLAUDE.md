@@ -155,6 +155,45 @@ configurado desde o início) · **Supabase** plano gratuito (projeto
 
 - **Cursos de formação** (`src/devocao/cursos/`, catálogo `CURSOS` em `devocao/catalogo.ts`, 30 em 13/11/2026, pedido do dono: "pelo menos 30"): texto próprio, uma leitura da nossa Bíblia por lição, `revisao: "a revisar pelo dono"`, lista de revisão em `docs/cursos/`. ⚠️ Todo número do Catecismo (CIC) e do Código (cân.) é conferido no texto OFICIAL do vatican.va antes de entrar (pedido do dono); o texto oficial serve só para conferir, nunca para copiar. ⚠️ O PDF do Código no vatican.va é anterior a 2021: Livro VI (penas, cân. 1311-1399) e o cân. 230 §1 mudaram; não citar esses números por ele. Link de curso para a Bíblia usa o CÓDIGO do livro (`/biblia/MRK/1`); o `Blocos` troca pelo nome do livro.
 
+## Santos em escala (decisão do dono, 14/11/2026)
+De ~490 para ~10 mil (todo santo, beato e venerável do mundo, mais os servos
+de Deus do Brasil), cada um com foto, e as fotos FORA do app.
+- **Fonte:** uma ficha por santo em `fontes/santos/fichas/<id>.json` (os
+  campos de `Santo` em `src/santos/tipos.ts`, `grupo` = `calendario` ou o
+  acervo, `imagem` = `{arquivo, obra, autor, licenca, url, foco?, fonte?,
+  data?, artic?}`, `fontes`, `revisao`). Santo novo = ficha nova (o nome do
+  arquivo é o id) + `npm run gerar:santos`. Grupo novo entra em
+  `NOME_DO_GRUPO` (`santos.ts`).
+- **`npm run gerar:santos`** (`scripts/santos/gerar.mjs`, núcleo testado em
+  `gerador.mjs`) escreve `public/santos/v1/` e o manifesto
+  `src/santos/dados/manifesto.json` (o único pedaço no bundle, ~14 KB): um
+  arquivo por DIA (`MMDD.<hash>.json`, fichas inteiras), o ÍNDICE leve (sem
+  texto nem crédito: busca, grupos, "Seu santo", escolher pintura), 64
+  PARTES por id (`parteDoId` em `comum.ts`: abrir `/santos/<id>` baixa uma
+  parte e o dia) e os CRÉDITOS por letra (`/creditos`). Nome com hash: mudou
+  uma ficha, só os arquivos dela mudam; cache eterno no CDN e no aparelho
+  (service worker em tempo de uso, fora do pré-cache). Nada no app carrega
+  todas as fichas; o teste confere que o publicado bate com as fichas.
+- **Fotos:** uma função, `fotoDoSanto` = `${VITE_IMAGENS_URL}/<arquivo>`.
+  Toda foto, venha de onde vier (Commons, congregação, diocese), é baixada e
+  guardada por nós; a origem fica no crédito. Hoje `VITE_IMAGENS_URL=/imagens/santos`
+  (pasta `public/imagens/santos`, `commons/` para as do Commons). Na tela,
+  sempre `<FotoDoSanto>` (lazy, tamanho reservado, `crossOrigin`, e a
+  MOLDURA com o símbolo se faltar ou falhar). O service worker guarda cada
+  foto aberta (`fotos-dos-santos`, 1.500, um ano).
+- ⚠️ **Mudar as fotos para o site de imagens** (Cloudflare Pages, a criar):
+  subir a pasta `public/imagens/santos` inteira para lá, com um `_headers`
+  dando `Access-Control-Allow-Origin: *` (sem ele a foto não carrega:
+  `<img crossOrigin>` e o cartaz de Divulgação/santinho precisam de CORS),
+  trocar `VITE_IMAGENS_URL` no `.env` pelo endereço e apagar a pasta do
+  repositório. O teste "toda foto citada está na pasta" só vale enquanto o
+  endereço começa com `/`. Roteiro guarda o caminho `/imagens/santos/...`
+  (`caminhoParaGuardar`), e `fotoGuardada` o leva ao endereço atual.
+- Cartaz e santinho carregam a foto com `crossOrigin = "anonymous"`; sem
+  foto (offline, sem CORS) saem com a moldura, sem crédito, nunca quebram.
+- Lista grande mostra 60 e "Mostrar mais". Busca olha nome, nomes e padroado
+  (o resumo não está no índice).
+
 ## Acabamento profissional (pedido do dono, 10/11/2026)
 - **Sem cara de IA.** Código sem comentários explicativos (só o raro que evita
   um erro real); nomes claros falam por si.
@@ -187,7 +226,7 @@ android/ ios/     projetos nativos do Capacitor (iOS por SPM, sem CocoaPods)
   barra de status, tela de abertura). Lembretes: no app de loja são agendados
   no aparelho (`@capacitor/local-notifications`, até 60 pendentes, renovados a
   cada abertura); no site instalado, Web Push pelo Supabase.
-- Imagens: arte sacra em `public/imagens/arte/`, Evangelho do dia em `public/imagens/evangelho/` (`src/liturgia/dados/arte-evangelho.json`, escolhida pelo trecho em `src/liturgia/arte.ts`), santos em `public/imagens/santos/` (Art Institute of Chicago) e `santos/commons/` (`src/santos/dados/imagens-commons.json`), orações, novenas e devoções em `public/imagens/devocao/` (`src/devocao/dados/imagens.json`, chave `oracao:<id>`, `novena:<id>`, `rezar:<item>`). Toda imagem nova entra com obra, autor, licença e url, e aparece em `/creditos`.
+- Imagens: arte sacra em `public/imagens/arte/`, Evangelho do dia em `public/imagens/evangelho/` (`src/liturgia/dados/arte-evangelho.json`, escolhida pelo trecho em `src/liturgia/arte.ts`), fotos dos santos em `VITE_IMAGENS_URL` (ver "Santos em escala"), orações, novenas e devoções em `public/imagens/devocao/` (`src/devocao/dados/imagens.json`, chave `oracao:<id>`, `novena:<id>`, `rezar:<item>`). Toda imagem nova entra com obra, autor, licença e url, e aparece em `/creditos`.
 - Ícones e telas de abertura saem de `assets/` com `npx capacitor-assets
   generate`; o ícone de notificação do Android é `ic_stat_santinho`.
 - ⚠️ `appId` = `br.com.minhaigrejinha` é PERMANENTE nas lojas (trocado de
@@ -236,6 +275,7 @@ com o que acontece quando bate e o plano para passar dele.
 | Supabase | Projeto grátis PAUSA após 7 dias sem uso | Só antes do lançamento | Uso real impede a pausa |
 | Vercel Hobby | 100 GB de banda/mês; uso NÃO comercial | Pedir doação pode contar como comercial | Cloudflare Pages (grátis, permite) ou Vercel Pro |
 | Mapas | Só OpenStreetMap/links "como chegar" | Nunca (sem chave paga) | Ver antes de trocar |
+| Santos (índice) | Com 490 santos o índice tem 129 KB (22 KB gzip); com 10 mil, ~2,7 MB (~450 KB gzip), baixado só ao buscar, abrir um grupo, "Seu santo" ou escolher pintura | Celular simples demorando na primeira busca | Dividir o índice por grupo e a busca por letra inicial (o manifesto já lista os arquivos; a tela pede só o pedaço) |
 | Vercel Hobby | 100 deploys por dia, e build pulado pelo `ignoreCommand` CONTA igual (documentação da Vercel) | Aconteceu em 13/11/2026: 180 commits de cache num dia ("Deployment rate limited") | Trabalho de dados (pesquisas, cache `GEOCACHE`, migrações `SAIDA_MIGRACOES`) fica no scratchpad e entra no repositório num LOTE só, com um push; nada de push a cada passo |
 
 ## Direito autoral — o app NÃO pode cair

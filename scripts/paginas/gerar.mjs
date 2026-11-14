@@ -28,7 +28,7 @@ const curto = (t, n = 155) => {
 
 function escrever(caminho, titulo, descricao, corpo, imagem) {
   const url = `${SITE}${caminho}`;
-  const og = imagem ? `\n<meta property="og:image" content="${esc(SITE + imagem)}" />` : "";
+  const og = imagem ? `\n<meta property="og:image" content="${esc(/^https?:/.test(imagem) ? imagem : SITE + imagem)}" />` : "";
   const html = modelo
     .replace(/<title>[^<]*<\/title>/, `<title>${esc(titulo)}</title>`)
     .replace(/<meta name="description" content="[^"]*" \/>/, `<meta name="description" content="${esc(descricao)}" />`)
@@ -101,11 +101,12 @@ async function biblia() {
 }
 
 async function santos() {
-  const lista = await m.todosOsSantos();
+  const dias = [...new Set((await m.indiceDosSantos()).map((s) => s.data))].sort();
+  const lista = (await Promise.all(dias.map((d) => m.santosDoDia(d)))).flat();
   for (const s of lista) {
     const corpo = [h1(s.nome), p(s.resumo), ...s.historia.map(p)];
     if (s.padroeiro?.length) corpo.push(p(`Padroeiro ${s.padroeiro.join(", ")}.`));
-    escrever(`/santos/${s.id}`, `${s.nome} | Santos | ${m.NOME_DO_APP}`, curto(s.resumo), corpo.join("\n"), m.caminhoDaImagem(s));
+    escrever(`/santos/${s.id}`, `${s.nome} | Santos | ${m.NOME_DO_APP}`, curto(s.resumo), corpo.join("\n"), m.fotoDoSanto(s));
   }
   return lista.length;
 }

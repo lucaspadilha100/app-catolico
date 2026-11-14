@@ -1,5 +1,5 @@
 import { execFileSync } from "node:child_process";
-import { existsSync, mkdtempSync, readdirSync, rmSync, writeFileSync } from "node:fs";
+import { existsSync, mkdtempSync, readFileSync, readdirSync, rmSync, statSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 
@@ -9,19 +9,16 @@ const AGENTE = "SantinhoApp/0.1 (app catolico gratuito)";
 const esperar = (ms) => new Promise((r) => setTimeout(r, ms));
 const baixar = (url) => execFileSync("curl", ["-sSf", "-A", AGENTE, "-H", `AIC-User-Agent: ${AGENTE}`, url], { maxBuffer: 50_000_000 });
 
-const santos = [];
-for (const pasta of ["src/santos/dados", "src/santos/dados/acervo"]) {
-  for (const arquivo of readdirSync(join(raiz, pasta)).filter((a) => a.endsWith(".ts")).sort()) {
-    const m = await import(join(raiz, pasta, arquivo));
-    santos.push(...m.default.santos);
-  }
-}
+const pastaDasFichas = join(raiz, "fontes/santos/fichas");
+const santos = readdirSync(pastaDasFichas)
+  .filter((a) => a.endsWith(".json"))
+  .map((a) => JSON.parse(readFileSync(join(pastaDasFichas, a), "utf8")));
 
 const usados = new Set();
 const temp = mkdtempSync(join(tmpdir(), "santos-"));
-for (const s of santos.filter((x) => x.imagem)) {
-  const nome = `${s.id}-${s.imagem.artic}.webp`;
-  usados.add(nome);
+for (const s of santos) if (s.imagem) usados.add(s.imagem.arquivo);
+for (const s of santos.filter((x) => x.imagem?.artic)) {
+  const nome = s.imagem.arquivo;
   if (existsSync(join(destino, nome))) continue;
   const info = JSON.parse(baixar(`https://api.artic.edu/api/v1/artworks/${s.imagem.artic}?fields=id,image_id,is_public_domain,title`).toString());
   if (!info.data?.is_public_domain || !info.data.image_id) {
@@ -41,8 +38,8 @@ for (const s of santos.filter((x) => x.imagem)) {
 }
 rmSync(temp, { recursive: true });
 
-for (const arquivo of readdirSync(destino)) {
-  if (!usados.has(arquivo)) {
+for (const arquivo of readdirSync(destino, { recursive: true })) {
+  if (statSync(join(destino, arquivo)).isFile() && !usados.has(arquivo)) {
     rmSync(join(destino, arquivo));
     console.log(`removida ${arquivo}`);
   }

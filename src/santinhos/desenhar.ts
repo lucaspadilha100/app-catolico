@@ -104,6 +104,7 @@ function moldura(ctx: CanvasRenderingContext2D, tipo: DadosDoSantinho["moldura"]
 function carregarImagem(src: string): Promise<HTMLImageElement> {
   return new Promise((ok, erro) => {
     const img = new Image();
+    img.crossOrigin = "anonymous";
     img.onload = () => ok(img);
     img.onerror = () => erro(new Error("pintura"));
     img.src = src;

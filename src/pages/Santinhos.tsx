@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Check, Lock, Share2 } from "lucide-react";
 import { OCASIOES, type DadosDoSantinho, type Formato, type Moldura, type Ocasiao } from "@/santinhos/modelos";
 import { desenharSantinho } from "@/santinhos/desenhar";
-import { caminhoDaImagem } from "@/santos/santos";
+import { fotoDoSanto } from "@/santos/santos";
 import { EscolherPintura, creditoDe, pinturaDe } from "@/components/EscolherPintura";
 import type { Santo } from "@/santos/tipos";
 import { compartilhar, ehNativo } from "@/lib/nativo";
@@ -82,7 +82,7 @@ export default function Santinhos() {
       local,
       frase,
       referencia,
-      pintura: santo ? caminhoDaImagem(santo) : null,
+      pintura: santo ? fotoDoSanto(santo) : null,
       creditoDaPintura: santo ? creditoDe(santo) : "",
     }),
     [ocasiao, convite, moldura, apoiador, web, nome, data, hora, local, frase, referencia, santo],

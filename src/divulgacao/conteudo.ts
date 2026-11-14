@@ -1,6 +1,6 @@
 import { NOME_DO_APP } from "@/marca";
 import { imagensDeDevocao, textoDoCredito, caminhoDeDevocao } from "@/lib/imagens";
-import { caminhoDaImagem, creditoDoCommons, focoDaImagem } from "@/santos/santos";
+import { creditoDaFoto, focoDaImagem, fotoDoSanto } from "@/santos/santos";
 import type { Santo } from "@/santos/tipos";
 import { NOVENAS, type Novena } from "@/devocao/catalogo";
 import { dataDaFesta, inicioDaNovena } from "@/devocao/calendario";
@@ -12,12 +12,7 @@ import type { DataGrande } from "./datas";
 const ARROBA = "@minhaigrejinhaapp";
 const ASSINATURA = `${NOME_DO_APP}, o app católico: liturgia do dia, terço, Bíblia e orações. O link está no perfil.`;
 
-export function creditoDaImagemDoSanto(s: Santo): string {
-  if (s.imagem) return `${s.imagem.artista}. Art Institute of Chicago, domínio público.`;
-  const c = creditoDoCommons(s);
-  if (!c) return "";
-  return [c.obra, textoDoCredito(c), "Wikimedia Commons"].filter(Boolean).join(". ");
-}
+export const creditoDaImagemDoSanto = (s: Santo): string => (s.imagem ? creditoDaFoto(s.imagem) : "");
 
 const EXPLICACAO: Record<string, string> = {
   servo: "Servo de Deus é o título de quem teve a causa de beatificação aberta: a Igreja começou a estudar a sua vida e as suas virtudes. Ainda não tem culto público (Código de Direito Canônico, cân. 1187). Podemos rezar pedindo a Deus a sua beatificação.",
@@ -46,7 +41,7 @@ export const rotuloDoSanto = (s: Santo): string => {
 };
 
 export async function imagemDoSanto(s: Santo, data: string, formato: FormatoDeCartaz): Promise<Blob> {
-  const caminho = caminhoDaImagem(s);
+  const caminho = fotoDoSanto(s);
   const img = caminho ? await carregarImagem(caminho) : null;
   const [nome, complemento] = s.nome.split(/,\s*/, 2);
   return cartaz({
@@ -56,7 +51,7 @@ export async function imagemDoSanto(s: Santo, data: string, formato: FormatoDeCa
     data,
     texto: nome!,
     destaque: s.calendario && complemento ? complemento[0]!.toUpperCase() + complemento.slice(1) : "",
-    credito: creditoDaImagemDoSanto(s),
+    credito: img ? creditoDaImagemDoSanto(s) : "",
     corpo: [s.resumo, !s.calendario && s.situacao ? CURTA[s.situacao] : ""].filter(Boolean).join("\n"),
     formato,
   });

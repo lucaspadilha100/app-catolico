@@ -49,6 +49,6 @@
 
 ## Imagens dos santos
 Obras do Art Institute of Chicago marcadas como domínio público (licença
-CC0), baixadas pela API do museu (`npm run gerar:santos`). Cada tela de santo
+CC0), baixadas pela API do museu (`npm run imagens:santos`). Cada tela de santo
 mostra o título da obra, o artista e a data. Lista das obras: campo `imagem`
-de `src/santos/dados/*.ts`.
+de `fontes/santos/fichas/<id>.json`.

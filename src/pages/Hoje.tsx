@@ -6,8 +6,9 @@ import { useDevocoesGuardadas } from "@/devocao/progresso";
 import { diaLiturgico } from "@/liturgia/calendario";
 import { somaDias, diaDaSemana, paraIso } from "@/liturgia/datas";
 import { useEffect, useState } from "react";
-import { caminhoDaImagem, focoDaImagem, santosDaDataMMDD, santosParaConhecer, seloDoSanto } from "@/santos/santos";
-import type { Santo } from "@/santos/tipos";
+import { santosDaDataMMDD, santosParaConhecer, seloDoSanto } from "@/santos/santos";
+import { FotoDoSanto } from "@/santos/FotoDoSanto";
+import type { Santo, SantoDoIndice } from "@/santos/tipos";
 import { ehDiaDePreceito, NOME_DA_PENITENCIA, penitenciaDoDia } from "@/liturgia/preceitos";
 import { paroquiasFavoritas, usePreferencias } from "@/lib/preferencias";
 import { NOME_DA_LEMBRANCA, aniversarioDeBatismo, lembrancasDeHoje, useFalecidos } from "@/vida/lembrancas";
@@ -66,7 +67,7 @@ export default function Hoje() {
   const anosDeBatismo = aniversarioDeBatismo(batismo, l.data);
   const mmdd = paraIso(l.data).slice(5).replace("-", "");
   const [santosDoDia, setSantosDoDia] = useState<Santo[]>([]);
-  const [conhecer, setConhecer] = useState<Santo[]>([]);
+  const [conhecer, setConhecer] = useState<SantoDoIndice[]>([]);
   useEffect(() => {
     let ativo = true;
     santosParaConhecer(paraIso(l.data), 8)
@@ -85,10 +86,7 @@ export default function Hoje() {
       ativo = false;
     };
   }, [mmdd]);
-  const imagemDoSanto = (nome: string) => {
-    const s = santosDoDia.find((x) => x.nome === nome);
-    return s ? caminhoDaImagem(s) : null;
-  };
+  const fichaDoSanto = (nome: string) => santosDoDia.find((x) => x.nome === nome && x.imagem);
   const linkDoSanto = (nome: string) => {
     const s = santosDoDia.find((x) => x.nome === nome);
     return s ? `/santos/${s.id}` : `/santos?dia=${mmdd}`;
@@ -305,8 +303,8 @@ export default function Hoje() {
           <h2 className="titulo-secao mb-2 px-1">{l.santos.length > 1 ? "Santos do dia" : "Santo do dia"}</h2>
           {l.santos.map((s) => (
             <Link key={s.nome} to={linkDoSanto(s.nome)} className={linha}>
-              {imagemDoSanto(s.nome) ? (
-                <img src={imagemDoSanto(s.nome)!} alt="" loading="lazy" className="size-[4.25rem] shrink-0 rounded-[1.1rem] bg-cartao object-cover" />
+              {fichaDoSanto(s.nome) ? (
+                <FotoDoSanto santo={fichaDoSanto(s.nome)} largura={136} altura={136} className="size-[4.25rem] shrink-0 rounded-[1.1rem] bg-cartao" />
               ) : (
                 <span className={icone}>
                   <span className={`size-3 rounded-full ${COR_PONTO[s.cor]}`} aria-label={`Cor ${NOME_DA_COR[s.cor].toLowerCase()}`} />
@@ -333,7 +331,7 @@ export default function Hoje() {
           <div className="-mx-4 flex snap-x scroll-px-4 gap-2.5 overflow-x-auto px-4 [scrollbar-width:none]">
             {conhecer.map((s) => (
               <Link key={s.id} to={`/santos/${s.id}`} className="w-36 shrink-0 snap-start">
-                <img src={caminhoDaImagem(s)!} alt="" loading="lazy" className="h-44 w-full rounded-3xl bg-cartao object-cover" style={{ objectPosition: focoDaImagem(s) }} />
+                <FotoDoSanto santo={s} largura={288} altura={352} className="h-44 w-full rounded-3xl bg-cartao" />
                 <span className="mt-2 block px-0.5 text-[0.9375rem] font-bold leading-snug text-tinta">{s.nome.split(",")[0]}</span>
                 {seloDoSanto(s) && <span className="block px-0.5 text-[0.8125rem] text-tinta-suave">{seloDoSanto(s)}</span>}
               </Link>

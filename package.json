@@ -14,7 +14,8 @@
     "cap:sync": "vite build && cap sync",
     "gerar": "node scripts/gerar-lecionario.mjs",
     "gerar:biblia": "node scripts/gerar-biblia.mjs",
-    "gerar:santos": "node --experimental-strip-types scripts/santos/imagens.mjs"
+    "gerar:santos": "node --experimental-strip-types scripts/santos/gerar.mjs",
+    "imagens:santos": "node scripts/santos/imagens.mjs"
   },
   "dependencies": {
     "@capacitor-community/text-to-speech": "6.1.0",

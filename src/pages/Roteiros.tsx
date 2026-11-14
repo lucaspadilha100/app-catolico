@@ -13,7 +13,7 @@ import { deIso } from "@/liturgia/datas";
 import { usePreferencias } from "@/lib/preferencias";
 import { TextoDaOracao } from "@/components/TextoDaOracao";
 import { EscolherPintura } from "@/components/EscolherPintura";
-import { caminhoDaImagem } from "@/santos/santos";
+import { caminhoParaGuardar, fotoGuardada } from "@/santos/santos";
 import { Cartao } from "@/components/Cartao";
 import { Cabecalho, Carregando, Voltar } from "@/components/Devocao";
 import { NaoEncontrada } from "@/pages/Simples";
@@ -168,7 +168,7 @@ function BlocoNaTela({ b, atual, conta, dataDoRoteiro }: { b: Bloco; atual: bool
   else if (b.tipo === "imagem")
     corpo = (
       <figure className="flex flex-col items-center gap-2">
-        <img src={b.imagem} alt={b.nome} className="max-h-80 w-full rounded-xl object-contain" />
+        <img src={fotoGuardada(b.imagem)} alt={b.nome} crossOrigin="anonymous" className="max-h-80 w-full rounded-xl object-contain" />
         <figcaption className="text-lg font-bold text-marca tracking-[-0.02em]">{b.nome}</figcaption>
       </figure>
     );
@@ -473,8 +473,8 @@ function EditorDoBloco({ b, mudar }: { b: Bloco; mudar: (b: Bloco) => void }) {
     case "imagem":
       return (
         <div className="flex flex-col gap-2">
-          {b.imagem && <img src={b.imagem} alt="" className="max-h-48 w-full rounded-xl object-contain" />}
-          <EscolherPintura semCruz atual={b.imagem ? { id: b.santo, nome: b.nome, imagem: b.imagem } : null} aoEscolher={(s) => s && mudar({ ...b, santo: s.id, nome: s.nome, imagem: caminhoDaImagem(s) ?? "" })} />
+          {b.imagem && <img src={fotoGuardada(b.imagem)} alt="" crossOrigin="anonymous" className="max-h-48 w-full rounded-xl object-contain" />}
+          <EscolherPintura semCruz atual={b.imagem ? { id: b.santo, nome: b.nome, imagem: b.imagem } : null} aoEscolher={(s) => s && mudar({ ...b, santo: s.id, nome: s.nome, imagem: caminhoParaGuardar(s) ?? "" })} />
         </div>
       );
     case "texto":

@@ -1,5 +1,5 @@
 /// <reference types="vitest/config" />
-import { defineConfig } from "vite";
+import { defineConfig, loadEnv } from "vite";
 import react from "@vitejs/plugin-react";
 import tailwindcss from "@tailwindcss/vite";
 import { VitePWA } from "vite-plugin-pwa";
@@ -8,7 +8,14 @@ import { NOME_DO_APP } from "./src/marca";
 
 process.env.VITE_NOME_DO_APP = NOME_DO_APP;
 
-export default defineConfig({
+const escapar = (t: string) => t.replace(/[.*+?^${}()|[\]\\/]/g, "\\$&");
+
+function rotaDasFotos(base: string): RegExp {
+  const limpa = (base.trim() || "/imagens/santos").replace(/\/+$/, "");
+  return /^https?:\/\//.test(limpa) ? new RegExp(`^${escapar(limpa)}/`) : new RegExp(`^[^?#]*?//[^/]+${escapar(limpa)}/`);
+}
+
+export default defineConfig(({ mode }) => ({
   plugins: [
     react(),
     tailwindcss(),
@@ -35,7 +42,7 @@ export default defineConfig({
       },
       workbox: {
         globPatterns: ["**/*.{js,css,html,png,svg,woff2,json}"],
-        globIgnores: ["biblia/**", "imagens/santos/**"],
+        globIgnores: ["biblia/**", "imagens/santos/**", "santos/**"],
         navigateFallback: "/index.html",
         importScripts: ["sw-lembretes.js"],
         runtimeCaching: [
@@ -43,6 +50,20 @@ export default defineConfig({
             urlPattern: ({ url }) => url.pathname.startsWith("/biblia/") && url.pathname.endsWith(".json"),
             handler: "CacheFirst",
             options: { cacheName: "biblia", expiration: { maxEntries: 200 } },
+          },
+          {
+            urlPattern: ({ url }) => url.pathname.startsWith("/santos/") && url.pathname.endsWith(".json"),
+            handler: "CacheFirst",
+            options: { cacheName: "santos-dados", expiration: { maxEntries: 800 } },
+          },
+          {
+            urlPattern: rotaDasFotos(loadEnv(mode, process.cwd(), "VITE_").VITE_IMAGENS_URL ?? ""),
+            handler: "CacheFirst",
+            options: {
+              cacheName: "fotos-dos-santos",
+              expiration: { maxEntries: 1500, maxAgeSeconds: 60 * 60 * 24 * 365, purgeOnQuotaError: true },
+              cacheableResponse: { statuses: [200] },
+            },
           },
           {
             urlPattern: ({ url }) => url.pathname.startsWith("/imagens/"),
@@ -59,4 +80,4 @@ export default defineConfig({
   test: {
     environment: "node",
   },
-});
+}));

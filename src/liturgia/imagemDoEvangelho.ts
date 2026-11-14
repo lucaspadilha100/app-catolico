@@ -44,6 +44,7 @@ export function fraseDoEvangelho(versiculos: string[], maximo = 220): string {
 export function carregarImagem(caminho: string): Promise<HTMLImageElement | null> {
   return new Promise((ok) => {
     const img = document.createElement("img");
+    img.crossOrigin = "anonymous";
     img.onload = () => ok(img);
     img.onerror = () => ok(null);
     img.src = caminho;

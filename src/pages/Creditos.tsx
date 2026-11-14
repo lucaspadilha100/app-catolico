@@ -1,8 +1,8 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, type ReactNode } from "react";
 import { TituloPagina } from "@/components/Cartao";
 import { Voltar } from "@/components/Voltar";
 import { textoDoCredito, useImagensDeDevocao, type Credito } from "@/lib/imagens";
-import { creditoDoCommons, todosOsSantos } from "@/santos/santos";
+import { LETRAS_DOS_CREDITOS, creditosDaLetra, totalDeCreditos } from "@/santos/santos";
 import type { ArteDoEvangelho } from "@/liturgia/arte";
 
 const ARTE: Credito[] = [
@@ -19,11 +19,12 @@ interface Linha {
   url?: string;
 }
 
-function Secao({ titulo, linhas }: { titulo: string; linhas: Linha[] }) {
-  if (!linhas.length) return null;
+function Secao({ titulo, linhas, total, children }: { titulo: string; linhas: Linha[]; total?: number; children?: ReactNode }) {
+  if (!linhas.length && !total) return null;
   return (
     <section>
-      <h2 className="titulo-secao mb-3 px-1">{`${titulo} (${linhas.length})`}</h2>
+      <h2 className="titulo-secao mb-3 px-1">{`${titulo} (${total ?? linhas.length})`}</h2>
+      {children}
       <ul className="flex flex-col divide-y divide-borda rounded-3xl bg-cartao">
         {linhas.map((l) => (
           <li key={l.chave} className="px-4 py-3 text-[0.9375rem]">
@@ -46,20 +47,30 @@ const linhaDe = (chave: string, c: Credito): Linha => ({ chave, titulo: c.obra, 
 
 export default function Creditos() {
   const devocao = useImagensDeDevocao();
+  const [letra, setLetra] = useState(LETRAS_DOS_CREDITOS[0] ?? "");
   const [santos, setSantos] = useState<Linha[]>([]);
   const [evangelho, setEvangelho] = useState<Linha[]>([]);
   useEffect(() => {
-    void todosOsSantos()
+    let ativo = true;
+    setSantos([]);
+    creditosDaLetra(letra)
       .then((lista) =>
+        ativo &&
         setSantos(
-          lista.flatMap((s) => {
-            if (s.imagem) return [{ chave: s.id, titulo: `${s.nome}: ${s.imagem.titulo}`, credito: `${s.imagem.artista}. Art Institute of Chicago, domínio público` }];
-            const c = creditoDoCommons(s);
-            return c ? [{ ...linhaDe(s.id, c), titulo: `${s.nome}: ${c.obra}` }] : [];
-          }),
+          lista.map((c) => ({
+            chave: c.id,
+            titulo: `${c.nome}: ${c.obra}`,
+            credito: [textoDoCredito({ autor: c.data ? `${c.autor}, ${c.data}` : c.autor, licenca: c.licenca }), c.fonte ?? "Wikimedia Commons"].filter(Boolean).join(". "),
+            url: c.url,
+          })),
         ),
       )
       .catch(() => {});
+    return () => {
+      ativo = false;
+    };
+  }, [letra]);
+  useEffect(() => {
     void import("@/liturgia/dados/arte-evangelho.json").then((m) => {
       const vistos = new Set<string>();
       setEvangelho(
@@ -77,7 +88,21 @@ export default function Creditos() {
       <Secao titulo="Arte sacra" linhas={ARTE.map((c) => linhaDe(c.arquivo, c))} />
       <Secao titulo="Evangelho do dia" linhas={evangelho} />
       <Secao titulo="Orações, novenas e devoções" linhas={Object.entries(devocao).map(([k, c]) => linhaDe(k, c))} />
-      <Secao titulo="Santos" linhas={santos} />
+      <Secao titulo="Santos" linhas={santos} total={totalDeCreditos()}>
+        <div className="mb-3 grid grid-cols-7 gap-1.5 sm:grid-cols-9" role="group" aria-label="Letra">
+          {LETRAS_DOS_CREDITOS.map((l) => (
+            <button
+              key={l}
+              type="button"
+              aria-pressed={l === letra}
+              onClick={() => setLetra(l)}
+              className={`min-h-10 rounded-lg border text-sm font-medium ${l === letra ? "border-transparent bg-primario text-sobre-primario" : "border-borda bg-cartao text-tinta"}`}
+            >
+              {l}
+            </button>
+          ))}
+        </div>
+      </Secao>
     </div>
   );
 }

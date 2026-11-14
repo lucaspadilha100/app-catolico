@@ -1,8 +1,10 @@
 # Santos: pontos para o dono conferir
 
 Histórias escritas do zero, marcadas `revisao: "a revisar pelo dono"` em cada
-`src/santos/dados/<MM>.ts`. Imagens só do Art Institute of Chicago (domínio
-público, CC0), baixadas por `npm run gerar:santos`.
+ficha de `fontes/santos/fichas/<id>.json` (o campo `grupo` diz de qual lista
+abaixo ela é: `calendario` ou o nome do acervo). Imagens do Art Institute of
+Chicago (domínio público, CC0) baixadas por `npm run imagens:santos`, e as
+outras com o crédito no campo `imagem` da ficha.
 
 ## Outubro
 - Dia 3, Cunhaú e Uruaçu: 16/7/1645 em Cunhaú (Pe. André de Soveral) e
@@ -94,7 +96,7 @@ público, CC0), baixadas por `npm run gerar:santos`.
 São Filipe Néri, São Caetano, Santo Agostinho, Santa Catarina de Alexandria,
 Santa Bárbara.
 
-## Acervo: veneráveis (`src/santos/dados/acervo/veneraveis.ts`)
+## Acervo: veneráveis (fichas com `grupo: "veneraveis"`)
 - 34 veneráveis (data = dia da morte) e o Beato Fulton Sheen: beatificado em
   24/9/2026 em Saint Louis (Vatican News, OSV News; conferir).
 - Kapaun e D'Acquisto são veneráveis pelo decreto de oferta da vida
@@ -107,7 +109,7 @@ Santa Bárbara.
   conheceram; a Igreja não se pronunciou), operários que doaram sangue a Shaw,
   Kino com a sela por travesseiro.
 
-## Acervo: Nossa Senhora (`src/santos/dados/acervo/nossa-senhora.ts`)
+## Acervo: Nossa Senhora (fichas com `grupo: "nossa-senhora"`)
 - 33 títulos: aparições reconhecidas (Banneux, Pontmain, Caravaggio, Knock,
   Salete, Bom Socorro, Graças, Kibeho, Beauraing), títulos e imagens
   (Perpétuo Socorro, Desatadora dos Nós, Auxiliadora, Medianeira, Luján,
@@ -122,7 +124,7 @@ Santa Bárbara.
   Rocio padroeira do Paraná (1939/1977), "das gestantes" para N. Sra. do Ó.
 - Imagem tirada: Nossa Senhora do Pilar (figura seminua no canto).
 
-## Acervo: jovens (`src/santos/dados/acervo/jovens.ts`)
+## Acervo: jovens (fichas com `grupo: "jovens"`)
 - 40 (18 santos, 22 beatos). Carlo Acutis (12/10) e Pier Giorgio Frassati
   (4/7), canonizados em 7/9/2025 por Leão XIV.
 - Datas a conferir: Domingos Sávio 6/5 (salesianos; morreu em 9/3), Teresa
@@ -132,7 +134,7 @@ Santa Bárbara.
   fonte), Sagheddu 22/4, Rafael Arnáiz 26/4, Bakanja 15/8.
 - Tarcísio menino e acólito, a pomba de Eulália: como tradição.
 
-## Acervo: dos nossos tempos (`src/santos/dados/acervo/modernos.ts`)
+## Acervo: dos nossos tempos (fichas com `grupo: "modernos"`)
 - 55 santos e beatos dos séculos XIX a XXI (fundadores com obras no Brasil,
   missionários, mártires do século XX, Pio IX e João Paulo I, místicos,
   leigos) e o Beato Fulton Sheen (movido para cá).
@@ -145,7 +147,7 @@ Santa Bárbara.
 - A conferir: o milagre da canonização de Gianna em Franca-SP; viagens de
   Orione e Scalabrini ao Brasil; o jejum de Alexandrina "segundo os relatos".
 
-## Acervo: Brasil (`src/santos/dados/acervo/brasil.ts`)
+## Acervo: Brasil (fichas com `grupo: "brasil"`)
 - 47: 12 beatos (Eustáquio, Albertina Berkenbrock, Padre Victor, Benigna,
   Isabel Cristina, Nazareno Lanciotti beatificado em 13/6/2026…), 28
   veneráveis (Guido Schäffer, Frei Damião, Padre Ibiapina, Pozzobon, Odetinha,
@@ -163,7 +165,7 @@ Santa Bárbara.
   Anjos Amorim, Vicenta Guilarte, Mons. Ângelo Angioni, Maria de Lourdes
   Guarda e outros.
 
-## Acervo: devoção popular (`src/santos/dados/acervo/populares.ts`)
+## Acervo: devoção popular (fichas com `grupo: "populares"`)
 - 46 santos antigos fora do calendário geral, com a data do Martirológio
   Romano (2004): São Longuinho, São Roque, Santa Apolônia, Santo Amaro,
   São Dimas, Joana d'Arc, Geraldo Majela, Raimundo Nonato, Elesbão…

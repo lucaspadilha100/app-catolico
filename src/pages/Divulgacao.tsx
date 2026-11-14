@@ -112,7 +112,8 @@ function Conteudo({ quando }: { quando: 0 | 1 }) {
     const mmdd = paraIso(d).slice(5).replace("-", "");
     void santosDaDataMMDD(mmdd)
       .then(async (s) => (s.length ? s : lembradosDaDataMMDD(mmdd)))
-      .then((s) => ativo && setSantos(s));
+      .then((s) => ativo && setSantos(s))
+      .catch(() => ativo && setSantos([]));
     return () => {
       ativo = false;
     };

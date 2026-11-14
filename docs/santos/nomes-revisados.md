@@ -25,7 +25,7 @@ Junto com o nome mudaram, para não haver duas formas no app: o santoral
 (`src/liturgia/santoral.ts`, Juan Diego e Newman), a festa de Nossa Senhora
 de Guadalupe, a reflexão de Lc 1 (`src/reflexoes/dados/LUK-1.ts`), as
 orações do devocionário (`src/oracao/devocionario/santos-4.ts`) e os títulos
-das imagens (`imagens-commons.json`).
+das imagens (campo `imagem` das fichas, hoje em `fontes/santos/fichas/`).
 
 Só busca (o nome que aparece não mudou): "Madre Teresa" em Santa Teresa de
 Calcutá, "Irmã Dulce" em Santa Dulce dos Pobres, "Martinho de Porres" em São
