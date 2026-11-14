@@ -55,6 +55,9 @@ def geocodificar(paroquias, avisos):
         if not p["cidade"]:
             continue
         chave_geo = "|".join([p["nome"], p["endereco"], p["bairro"], p["cidade"], p["uf"]])
+        if chave_geo not in cache and os.environ.get("GEO_SO_MATRIZES") and p["matriz_id"] is not None:
+            p["lat"], p["lng"], p["precisao"] = None, None, ""
+            continue
         if chave_geo not in cache:
             achado = None
             estado = UF_NOME.get(p["uf"], p["uf"])
