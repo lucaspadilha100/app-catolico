@@ -183,8 +183,7 @@ def main():
                 if n == 0:
                     matriz_id = pid
                 nome = (u.get("nome", "") if n == 0 else ig.get("nome") or "").strip()
-                if n == 0:
-                    nome = re.sub(r"^(Área Pastoral|Área Missionária|Quase[- ][Pp]aróquia)(( d[aeo])?)\s+", r"Igreja\2 ", nome)
+                nome = re.sub(r"^(Área Pastoral|Área Missionária|Quase[- ][Pp]aróquia)(( d[aeo])?)\s+", r"Igreja\2 ", nome)
                 paroquias.append({
                     "repetida": bool(repeticao),
                     "id": pid,
