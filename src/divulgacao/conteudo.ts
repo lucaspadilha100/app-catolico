@@ -26,6 +26,12 @@ const EXPLICACAO: Record<string, string> = {
   santo: "Santo é quem a Igreja canonizou, propondo-o a todos os fiéis como modelo e intercessor (Catecismo, n. 828).",
 };
 
+const CURTA: Record<string, string> = {
+  servo: "Servo de Deus: a Igreja abriu a causa de beatificação e estuda a sua vida. Ainda não tem culto público.",
+  veneravel: "Venerável: o Papa reconheceu que viveu as virtudes cristãs em grau heroico. Ainda não tem culto público.",
+  beato: "Beato: a Igreja o beatificou e permite o culto público, em geral na sua diocese ou família religiosa.",
+};
+
 const HASHTAG: Record<string, string> = { servo: "#servodedeus", veneravel: "#veneravel", beato: "#beato", santo: "#santos" };
 
 const situacaoDe = (s: Santo) => (s.situacao && EXPLICACAO[s.situacao] ? s.situacao : "santo");
@@ -46,11 +52,12 @@ export async function imagemDoSanto(s: Santo, data: string, formato: FormatoDeCa
   return cartaz({
     imagem: img,
     foco: focoDaImagem(s),
-    rotulo: rotuloDoSanto(s),
+    rotulo: s.calendario ? "Santo do dia" : "Hoje lembramos",
     data,
     texto: nome!,
     destaque: complemento ? complemento[0]!.toUpperCase() + complemento.slice(1) : "",
     credito: creditoDaImagemDoSanto(s),
+    corpo: [s.resumo, !s.calendario && s.situacao ? CURTA[s.situacao] : ""].filter(Boolean).join("\n"),
     formato,
   });
 }

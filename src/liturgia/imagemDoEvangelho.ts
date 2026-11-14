@@ -58,12 +58,13 @@ export interface Cartaz {
   texto: string;
   destaque: string;
   credito?: string;
+  corpo?: string;
   formato: FormatoDeCartaz;
 }
 
 export async function cartaz(p: Cartaz): Promise<Blob> {
   await document.fonts?.ready;
-  const m = MEDIDAS[p.formato];
+  const m = p.corpo && p.formato === "story" ? { ...MEDIDAS.story, arte: 860, topoDoBloco: 900, comArte: 260 } : MEDIDAS[p.formato];
   const LARGURA = 1080;
   const canvas = document.createElement("canvas");
   canvas.width = LARGURA;
@@ -104,7 +105,11 @@ export async function cartaz(p: Cartaz): Promise<Blob> {
     linhas = quebrar(ctx, p.texto, larguraDoTexto);
     if (linhas.length * tamanho * 1.4 <= (img ? m.comArte : m.semArte)) break;
   }
-  const alturaDoBloco = 34 + 72 + 36 + 100 + linhas.length * tamanho * 1.4 + 48 + 40;
+  const CORPO = 34;
+  ctx.font = `400 ${CORPO}px "Inter Variable", Arial, sans-serif`;
+  const linhasDoCorpo = p.corpo && p.formato === "story" ? p.corpo.split("\n").flatMap((par, i) => [...(i ? [""] : []), ...quebrar(ctx, par, larguraDoTexto)]) : [];
+  const alturaDoCorpo = linhasDoCorpo.length ? 56 + linhasDoCorpo.length * CORPO * 1.45 : 0;
+  const alturaDoBloco = 34 + 72 + 36 + 100 + linhas.length * tamanho * 1.4 + 48 + 40 + alturaDoCorpo;
   let y = img ? Math.min(m.topoDoBloco, m.altura - m.peDaObra - 80 - alturaDoBloco) : (m.altura - 120 - alturaDoBloco) / 2 + 17;
 
   ctx.fillStyle = DOURADO;
@@ -126,6 +131,15 @@ export async function cartaz(p: Cartaz): Promise<Blob> {
   ctx.fillStyle = DOURADO;
   ctx.font = `600 40px "Inter Variable", Arial, sans-serif`;
   ctx.fillText(p.destaque, LARGURA / 2, y);
+  if (linhasDoCorpo.length) {
+    y += p.destaque ? 76 : 20;
+    ctx.fillStyle = suave;
+    ctx.font = `400 ${CORPO}px "Inter Variable", Arial, sans-serif`;
+    for (const linha of linhasDoCorpo) {
+      if (linha) ctx.fillText(linha, LARGURA / 2, y);
+      y += CORPO * 1.45;
+    }
+  }
 
   if (p.credito) {
     ctx.fillStyle = fraca;
