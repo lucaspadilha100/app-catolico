@@ -110,8 +110,11 @@ function Conteudo({ quando }: { quando: 0 | 1 }) {
     let ativo = true;
     setSantos(null);
     const mmdd = paraIso(d).slice(5).replace("-", "");
-    void santosDaDataMMDD(mmdd)
-      .then(async (s) => (s.length ? s : lembradosDaDataMMDD(mmdd)))
+    void Promise.all([santosDaDataMMDD(mmdd), lembradosDaDataMMDD(mmdd)])
+      .then(([doDia, lembrados]) => {
+        const comFoto = [...doDia, ...lembrados].filter((s) => s.imagem);
+        return comFoto.length ? comFoto : doDia.length ? doDia : lembrados;
+      })
       .then((s) => ativo && setSantos(s))
       .catch(() => ativo && setSantos([]));
     return () => {
