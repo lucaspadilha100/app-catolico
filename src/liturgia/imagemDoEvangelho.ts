@@ -132,7 +132,7 @@ export async function cartaz(p: Cartaz): Promise<Blob> {
   ctx.font = `600 40px "Inter Variable", Arial, sans-serif`;
   ctx.fillText(p.destaque, LARGURA / 2, y);
   if (linhasDoCorpo.length) {
-    y += p.destaque ? 76 : 20;
+    y += p.destaque ? 76 : -24;
     ctx.fillStyle = suave;
     ctx.font = `400 ${CORPO}px "Inter Variable", Arial, sans-serif`;
     for (const linha of linhasDoCorpo) {
