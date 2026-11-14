@@ -132,7 +132,8 @@ export function Santos() {
         })()
       ) : (
         <>
-          <Lista titulo={pedido ? `Santos de ${dataDoSanto(mmdd)}` : "Santos de hoje"} santos={todos.filter((s) => s.data === mmdd).sort((a, b) => Number(b.calendario) - Number(a.calendario))} />
+          <Lista titulo={pedido ? `Santos de ${dataDoSanto(mmdd)}` : "Santos de hoje"} santos={todos.filter((s) => s.data === mmdd && s.calendario)} />
+          <Lista titulo={pedido ? `Também lembrados em ${dataDoSanto(mmdd)}` : "Também lembrados hoje"} santos={todos.filter((s) => s.data === mmdd && !s.calendario)} />
           <div className={LISTA}>
             <ItemDeAtalho para="/santos/seu-santo" titulo="Seu santo" icone="pessoa" />
           </div>

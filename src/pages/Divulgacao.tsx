@@ -197,7 +197,7 @@ function Conteudo({ quando }: { quando: 0 | 1 }) {
           <Botoes nome={s.nome} gerar={(formato) => imagemDoSanto(s, diaEMes(d), formato)} legenda={legendaDoSanto(s, diaEMes(d))} />
         </Cartao>
       ))}
-      {santos.length === 0 && <p className="px-1 text-sm text-tinta-suave">Nenhum santo nesta data.</p>}
+      {santos.length === 0 && <p className="px-1 text-sm text-tinta-suave">Nenhum santo no calendário litúrgico desta data.</p>}
       <VersiculoDaSemana />
     </div>
   );
