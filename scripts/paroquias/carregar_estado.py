@@ -36,8 +36,8 @@ UF_NOME = {
 def consulta_nominatim(params):
     url = "https://nominatim.openstreetmap.org/search?" + urllib.parse.urlencode({"format": "json", "limit": 1, "countrycodes": "br", **params})
     req = urllib.request.Request(url, headers={"User-Agent": "MinhaIgrejinha-geocode/0.1"})
-    for tentativa in range(4):
-        time.sleep(1.2 + 8 * tentativa)
+    for tentativa in range(5):
+        time.sleep(1.5 + 20 * tentativa)
         try:
             with urllib.request.urlopen(req, timeout=30) as r:
                 d = json.load(r)
@@ -45,7 +45,7 @@ def consulta_nominatim(params):
         except urllib.error.HTTPError as e:
             if e.code != 429:
                 raise
-    raise RuntimeError("Nominatim 429 após 4 tentativas")
+    raise RuntimeError("Nominatim 429")
 
 
 def geocodificar(paroquias, avisos):
@@ -75,6 +75,10 @@ def geocodificar(paroquias, avisos):
                     if ponto:
                         achado = {"lat": ponto[0], "lng": ponto[1], "precisao": "cidade"}
             except Exception as e:
+                if "429" in str(e):
+                    CACHE_GEO.write_text(json.dumps(cache, ensure_ascii=False))
+                    print("  Nominatim recusou (429): parado, o cache foi salvo", flush=True)
+                    raise SystemExit(3)
                 avisos.append(f"geocodificação falhou em {p['nome']} ({p['cidade']}): {e}")
                 p["lat"], p["lng"], p["precisao"] = None, None, ""
                 continue
