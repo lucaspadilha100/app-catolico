@@ -679,12 +679,12 @@ const acervo: AcervoDeSantos = {
       situacao: "servo",
       pais: "Brasil, Pernambuco",
       nomes: ["Helder"],
-      resumo: "Arcebispo de Olinda e Recife, cearense, conhecido pela defesa dos pobres e pela oração noturna.",
+      resumo: "Arcebispo de Olinda e Recife, nascido em Fortaleza, lembrado pela vida simples e pela oração.",
       historia: [
-        "Helder Pessoa Câmara nasceu em Fortaleza, Ceará, em 7 de fevereiro de 1909. Foi ordenado padre em 1931. Trabalhou no Rio de Janeiro, onde foi bispo auxiliar e criou obras para os moradores das favelas. Foi um dos fundadores da Conferência Nacional dos Bispos do Brasil, a CNBB, em 1952, e participou do Concílio Vaticano II.",
-        "Em 1964 foi nomeado arcebispo de Olinda e Recife, onde ficou até 1985. Vivia de forma muito simples, numa pequena casa ao lado de uma igreja, e recebia todos. Defendeu os pobres e os direitos humanos e, nos anos do regime militar, teve o nome censurado na imprensa.",
-        "Levantava-se de madrugada para rezar sozinho, num tempo que chamava de vigília, e escreveu muitas meditações curtas nascidas dessa oração.",
-        "Morreu em Recife em 27 de agosto de 1999. Sua causa de beatificação foi aberta pela arquidiocese de Olinda e Recife com autorização da Santa Sé, e ele recebeu o título de servo de Deus.",
+        "Helder Pessoa Câmara nasceu em Fortaleza, Ceará, em 7 de fevereiro de 1909, e foi ordenado padre em 1931. Foi bispo auxiliar do Rio de Janeiro e participou do Concílio Vaticano II.",
+        "De 1964 a 1985 foi arcebispo de Olinda e Recife. Vivia de forma simples, numa pequena casa ao lado de uma igreja.",
+        "Levantava-se de madrugada para rezar sozinho, num tempo que chamava de vigília.",
+        "Morreu em Recife em 27 de agosto de 1999. A arquidiocese de Olinda e Recife abriu a sua causa de beatificação com autorização da Santa Sé, e desde então ele é chamado servo de Deus.",
       ],
     },
     {

@@ -464,7 +464,7 @@ const ORACOES: OracaoDoDevocionario[] = [
     fonte: "propria",
     origem: "Texto da equipe do app",
     pt: [
-      "Senhor Deus, que chamastes Dom Helder Câmara, nascido no Ceará, a ser arcebispo de Olinda e Recife e a defender os pobres com a força que buscava na oração da noite, nós vos agradecemos o seu amor aos pequenos. Ensinai-me a rezar com perseverança e a ver o vosso Filho no rosto de quem tem fome. Se for da vossa vontade, dignai-vos glorificar o vosso servo Dom Helder, e concedei-me, por sua intercessão, a graça que neste momento vos peço. Por Cristo, nosso Senhor. Amém.",
+      "Senhor Deus, que chamastes Dom Helder Câmara a ser pastor da Igreja de Olinda e Recife e a buscar na oração da noite a força para o seu ministério, ensinai-me a rezar com perseverança e a servir os irmãos com caridade. Se for da vossa vontade, dignai-vos glorificar o vosso servo Dom Helder, e concedei-me, por sua intercessão, a graça que neste momento vos peço. Por Cristo, nosso Senhor. Amém.",
     ],
   },
   {
