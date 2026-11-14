@@ -33,11 +33,16 @@ que faltam.
    `*_dados_<uf>_paroquias.sql` mostra quais). O SQL só insere em paróquia
    que ainda não tem nenhum horário e que nenhuma secretaria conferiu, e pode
    rodar duas vezes.
+⚠️ O timestamp se escolhe NA HORA do push: `git pull --rebase` primeiro, depois
+   o maior timestamp de `supabase/migrations/` + 100. Outra sessão está mandando
+   as capelas para o mapa (`*_dados_<uf>_capelas_mapa.sql`) ao mesmo tempo, com
+   a mesma regra; se o push for recusado por conflito, renomeie o arquivo para
+   o novo maior + 100 e tente de novo.
 5. `npm run verificar` e UM push só no fim (ou a cada vários estados), com
    `git pull --rebase` antes: a outra sessão também empurra para a main.
    Cada push gasta 1 dos 100 deploys/dia da Vercel.
 
 ## Limite de buscas
 O Claude Code limita as buscas na web por sessão
-(`CLAUDE_CODE_MAX_WEB_SEARCHES_PER_SESSION`, padrão 200). São cerca de 3.700
-paróquias: aumentar o limite nas variáveis do ambiente antes de abrir a sessão.
+(`CLAUDE_CODE_MAX_WEB_SEARCHES_PER_SESSION`, padrão 200). São 5.887
+paróquias (14/11/2026, os 27 estados no banco): aumentar o limite nas variáveis do ambiente antes de abrir a sessão.
