@@ -17,6 +17,7 @@ import {
   legendaDaReflexao,
   legendaDoEvangelho,
   legendaDoSanto,
+  rotuloDoSanto,
   legendaDoVersiculo,
   novenasQueComecam,
 } from "@/divulgacao/conteudo";
@@ -25,7 +26,7 @@ import { lerReferencia } from "@/divulgacao/referencia";
 import { imagemDoVersiculo } from "@/lib/imagemDoVersiculo";
 import { reflexaoDoEvangelho } from "@/reflexoes/reflexoes";
 import type { Reflexao } from "@/reflexoes/tipos";
-import { santosDaDataMMDD } from "@/santos/santos";
+import { lembradosDaDataMMDD, santosDaDataMMDD } from "@/santos/santos";
 import type { Santo } from "@/santos/tipos";
 import { compartilhar } from "@/lib/nativo";
 import { souAdmin } from "@/paroquias/api";
@@ -108,7 +109,10 @@ function Conteudo({ quando }: { quando: 0 | 1 }) {
   useEffect(() => {
     let ativo = true;
     setSantos(null);
-    void santosDaDataMMDD(paraIso(d).slice(5).replace("-", "")).then((s) => ativo && setSantos(s));
+    const mmdd = paraIso(d).slice(5).replace("-", "");
+    void santosDaDataMMDD(mmdd)
+      .then(async (s) => (s.length ? s : lembradosDaDataMMDD(mmdd)))
+      .then((s) => ativo && setSantos(s));
     return () => {
       ativo = false;
     };
@@ -192,12 +196,12 @@ function Conteudo({ quando }: { quando: 0 | 1 }) {
         <Cartao key={s.id} className="flex flex-col gap-3">
           <div>
             <h2 className="font-semibold text-tinta">{s.nome}</h2>
-            <p className="text-sm text-tinta-suave">Santo do dia</p>
+            <p className="text-sm text-tinta-suave">{rotuloDoSanto(s)}</p>
           </div>
           <Botoes nome={s.nome} gerar={(formato) => imagemDoSanto(s, diaEMes(d), formato)} legenda={legendaDoSanto(s, diaEMes(d))} />
         </Cartao>
       ))}
-      {santos.length === 0 && <p className="px-1 text-sm text-tinta-suave">Nenhum santo no calendário litúrgico desta data.</p>}
+      {santos.length === 0 && <p className="px-1 text-sm text-tinta-suave">Nenhum santo lembrado nesta data.</p>}
       <VersiculoDaSemana />
     </div>
   );

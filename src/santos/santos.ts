@@ -34,6 +34,8 @@ export async function todosOsSantos(): Promise<Santo[]> {
 
 export const santosDaDataMMDD = async (mmdd: string) => (await santosDoMes(mmdd.slice(0, 2))).filter((s) => s.data === mmdd);
 
+export const lembradosDaDataMMDD = async (mmdd: string) => (await todosOsSantos()).filter((s) => s.data === mmdd && !s.calendario);
+
 export async function santosParaConhecer(iso: string, n: number): Promise<Santo[]> {
   const mmdd = iso.slice(5).replace("-", "");
   const todos = (await todosOsSantos()).filter((s) => s.data !== mmdd && caminhoDaImagem(s));

@@ -19,6 +19,26 @@ export function creditoDaImagemDoSanto(s: Santo): string {
   return [c.obra, textoDoCredito(c), "Wikimedia Commons"].filter(Boolean).join(". ");
 }
 
+const EXPLICACAO: Record<string, string> = {
+  servo: "Servo de Deus é o título de quem teve a causa de beatificação aberta: a Igreja começou a estudar a sua vida e as suas virtudes. Ainda não tem culto público (Código de Direito Canônico, cân. 1187). Podemos rezar pedindo a Deus a sua beatificação.",
+  veneravel: "Venerável é o título dado quando o Papa reconhece, por decreto, que a pessoa viveu as virtudes cristãs em grau heroico. Ainda não tem culto público (Código de Direito Canônico, cân. 1187). Podemos rezar pedindo a Deus a sua beatificação.",
+  beato: "Beato é quem a Igreja beatificou: pode ser venerado com culto público, em geral na sua diocese ou na sua família religiosa (Código de Direito Canônico, cân. 1187). É o passo antes da canonização.",
+  santo: "Santo é quem a Igreja canonizou, propondo-o a todos os fiéis como modelo e intercessor (Catecismo, n. 828).",
+};
+
+const HASHTAG: Record<string, string> = { servo: "#servodedeus", veneravel: "#veneravel", beato: "#beato", santo: "#santos" };
+
+const situacaoDe = (s: Santo) => (s.situacao && EXPLICACAO[s.situacao] ? s.situacao : "santo");
+
+export const rotuloDoSanto = (s: Santo): string => {
+  if (s.calendario) return "Santo do dia";
+  const feminino = /^(Beata|Santa|Serva|Venerável Madre|Venerável Irmã|Venerável Serva)\b/.test(s.nome);
+  if (s.situacao === "veneravel") return "Venerável";
+  if (s.situacao === "servo") return feminino ? "Serva de Deus" : "Servo de Deus";
+  if (s.situacao === "beato") return feminino ? "Beata" : "Beato";
+  return "Lembrado hoje";
+};
+
 export async function imagemDoSanto(s: Santo, data: string, formato: FormatoDeCartaz): Promise<Blob> {
   const caminho = caminhoDaImagem(s);
   const img = caminho ? await carregarImagem(caminho) : null;
@@ -26,7 +46,7 @@ export async function imagemDoSanto(s: Santo, data: string, formato: FormatoDeCa
   return cartaz({
     imagem: img,
     foco: focoDaImagem(s),
-    rotulo: "Santo do dia",
+    rotulo: rotuloDoSanto(s),
     data,
     texto: nome!,
     destaque: complemento ? complemento[0]!.toUpperCase() + complemento.slice(1) : "",
@@ -50,15 +70,20 @@ export function legendaDoEvangelho(p: { data: string; titulo: string; referencia
 }
 
 export function legendaDoSanto(s: Santo, data: string): string {
+  if (s.calendario)
+    return [s.nome, data, "", s.historia.join("\n\n"), "", ASSINATURA, "", "#santododia #santosdaigreja #igrejacatolica"].join("\n");
+  const situacao = situacaoDe(s);
   return [
     s.nome,
-    data,
+    s.dataDe === "falecimento" ? `Faleceu em ${data.toLowerCase()}.` : data,
     "",
     s.historia.join("\n\n"),
     "",
+    EXPLICACAO[situacao],
+    "",
     ASSINATURA,
     "",
-    "#santododia #santosdaigreja #igrejacatolica",
+    `${HASHTAG[situacao]} #igrejacatolica`,
   ].join("\n");
 }
 

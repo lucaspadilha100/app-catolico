@@ -44,3 +44,22 @@ describe("datas grandes", () => {
     expect(em(2026, 11, 30)).toBeNull();
   });
 });
+
+describe("post de quem é lembrado sem estar no calendário", async () => {
+  const { legendaDoSanto, rotuloDoSanto } = await import("./conteudo");
+  const base = { id: "x", resumo: "", historia: ["Viveu e morreu em Natal."], calendario: false, data: "1114" };
+  it("venerável e servo de Deus levam o título certo e a explicação, sem #santododia", () => {
+    const v = { ...base, nome: "Venerável Maria", situacao: "veneravel", dataDe: "falecimento" } as never;
+    expect(rotuloDoSanto(v)).toBe("Venerável");
+    const l = legendaDoSanto(v, "14 de novembro");
+    expect(l).toContain("Faleceu em 14 de novembro.");
+    expect(l).toContain("virtudes cristãs em grau heroico");
+    expect(l).not.toContain("#santododia");
+    const s = { ...base, nome: "Servo de Deus João", situacao: "servo" } as never;
+    expect(rotuloDoSanto(s)).toBe("Servo de Deus");
+    expect(legendaDoSanto(s, "14 de novembro")).toContain("causa de beatificação aberta");
+  });
+  it("santo do calendário continua como santo do dia", () => {
+    expect(rotuloDoSanto({ ...base, nome: "São Martinho", calendario: true } as never)).toBe("Santo do dia");
+  });
+});
