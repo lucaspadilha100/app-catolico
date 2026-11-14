@@ -55,7 +55,7 @@ export async function imagemDoSanto(s: Santo, data: string, formato: FormatoDeCa
     rotulo: s.calendario ? "Santo do dia" : "Hoje lembramos",
     data,
     texto: nome!,
-    destaque: complemento ? complemento[0]!.toUpperCase() + complemento.slice(1) : "",
+    destaque: s.calendario && complemento ? complemento[0]!.toUpperCase() + complemento.slice(1) : "",
     credito: creditoDaImagemDoSanto(s),
     corpo: [s.resumo, !s.calendario && s.situacao ? CURTA[s.situacao] : ""].filter(Boolean).join("\n"),
     formato,
