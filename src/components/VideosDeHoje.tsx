@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { Tv } from "lucide-react";
-import { capaDoVideo, enderecoNoYoutube, tituloDaTransmissao, tituloLimpo, useTransmissoes, videosDoDia, type Transmissao, type Video } from "@/videos/api";
+import { ChevronRight, Tv } from "lucide-react";
+import { capaDoVideo, tituloDaTransmissao, useTransmissoes, videosDoDia, type Transmissao, type Video } from "@/videos/api";
 
 const CARROSSEL = "-mx-4 flex snap-x scroll-px-4 gap-2.5 overflow-x-auto px-4 [scrollbar-width:none]";
 const CARTAO = "w-60 shrink-0 snap-start";
@@ -43,61 +43,35 @@ export function CarrosselAoVivo({ lista, destino, atual }: { lista: Transmissao[
   );
 }
 
-function Titulo({ texto }: { texto: string }) {
-  return (
-    <div className="mb-2 flex items-baseline justify-between">
-      <h2 className="titulo-secao px-1">{texto}</h2>
-      <Link to="/assistir" className="px-1 text-[0.9375rem] font-semibold text-destaque-texto">
-        Ver todos
-      </Link>
-    </div>
-  );
-}
-
 export function VideosDeHoje({ dia }: { dia: string }) {
-  const [videos, setVideos] = useState<Video[]>([]);
+  const [homilias, setHomilias] = useState<Video[]>([]);
   const aoVivo = useTransmissoes().filter((t) => t.video_id);
   useEffect(() => {
     if (!navigator.onLine) return;
     let ativo = true;
     videosDoDia(dia)
-      .then((v) => ativo && setVideos(v.filter((x) => x.tipo === "homilia")))
+      .then((v) => ativo && setHomilias(v.filter((x) => x.tipo === "homilia")))
       .catch(() => {});
     return () => {
       ativo = false;
     };
   }, [dia]);
-  if (videos.length === 0 && aoVivo.length === 0) return null;
+  if (homilias.length === 0 && aoVivo.length === 0) return null;
+  const capa = aoVivo[0]?.video_id ?? homilias[0]?.id;
+  const detalhe = [aoVivo.length ? `${aoVivo.length} ao vivo agora` : "", homilias.length ? (homilias.length === 1 ? "Homilia de hoje" : `${homilias.length} homilias de hoje`) : ""]
+    .filter(Boolean)
+    .join(" · ");
   return (
-    <>
-      {aoVivo.length > 0 && (
-        <section>
-          <Titulo texto="Ao vivo agora" />
-          <CarrosselAoVivo lista={aoVivo} destino={(id) => `/assistir?v=${id}`} />
-        </section>
-      )}
-      {videos.length > 0 && (
-        <section>
-          <Titulo texto="Homilia de hoje" />
-          <div className={CARROSSEL}>
-            {videos.map((v) => (
-              <Link
-                key={v.id}
-                to={v.embutivel ? `/assistir?v=${v.id}` : enderecoNoYoutube(v.id)}
-                target={v.embutivel ? undefined : "_blank"}
-                rel={v.embutivel ? undefined : "noreferrer"}
-                className={CARTAO}
-              >
-                <span className={CAPA}>
-                  <img src={capaDoVideo(v.id)} alt="" loading="lazy" className="size-full object-cover" />
-                </span>
-                <span className="mt-2 line-clamp-2 block px-0.5 text-[0.9375rem] font-bold leading-snug text-tinta">{tituloLimpo(v.titulo, v.canal)}</span>
-                <span className="block px-0.5 text-[0.8125rem] text-tinta-suave">{v.canal}</span>
-              </Link>
-            ))}
-          </div>
-        </section>
-      )}
-    </>
+    <Link to="/assistir" className="flex min-h-16 items-center gap-3.5 rounded-2xl py-1.5 transition-colors hover:bg-cartao/70">
+      <span className="relative block h-[3.75rem] w-24 shrink-0 overflow-hidden rounded-2xl bg-cartao">
+        {capa ? <img src={capaDoVideo(capa)} alt="" loading="lazy" className="size-full object-cover" /> : <Tv className="m-auto size-6 text-tinta-suave" aria-hidden />}
+        {aoVivo.length > 0 && <span className="absolute left-1.5 top-1.5 size-2.5 rounded-full bg-[#d4202c] ring-2 ring-white" aria-hidden />}
+      </span>
+      <span className="min-w-0 flex-1">
+        <span className="block font-bold leading-snug text-tinta">Assistir</span>
+        <span className="block text-[0.9375rem] text-tinta-suave">{detalhe}</span>
+      </span>
+      <ChevronRight className="size-5 shrink-0 text-tinta-suave" aria-hidden />
+    </Link>
   );
 }
