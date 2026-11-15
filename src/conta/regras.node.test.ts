@@ -132,6 +132,32 @@ describe("apoio declarado", () => {
   });
 });
 
+describe("vídeos", () => {
+  it("todos leem os vídeos, ninguém grava pela API, só o administrador esconde", async () => {
+    await db.query("insert into public.videos (id, canal_id, tipo, titulo, dia, publicado_em) values ('aaaaaaaaaaa', 'frei-gilson', 'homilia', 'Meditação', '2026-11-15', now()), ('bbbbbbbbbbb', 'frei-gilson', 'terco', 'Rosário', '2026-11-15', now()) on conflict do nothing");
+    const canais = await como("anon", null, "select id from public.canais_video order by ordem");
+    expect(canais.rows.map((r) => (r as { id: string }).id)).toEqual(["frei-gilson", "padre-paulo-ricardo", "padre-chrystian-shankar"]);
+    expect((await como("anon", null, "select id from public.videos")).rows).toHaveLength(2);
+    await expect(como("anon", null, "insert into public.videos (id, canal_id, tipo, titulo, dia, publicado_em) values ('ccccccccccc', 'frei-gilson', 'missa', 'x', '2026-11-15', now())")).rejects.toThrow();
+    await expect(como("authenticated", A, "update public.videos set titulo = 'mexido'")).rejects.toThrow();
+    await expect(como("authenticated", A, "update public.canais_video set ativo = false")).rejects.toThrow();
+    await expect(como("anon", null, "select public.esconder_video('aaaaaaaaaaa', true)")).rejects.toThrow();
+    await expect(como("authenticated", A, "select public.esconder_video('aaaaaaaaaaa', true)")).rejects.toThrow();
+    await db.query("insert into auth.users (id) values ($1) on conflict do nothing", [B]);
+    await db.query("insert into public.administradores (usuario_id) values ($1) on conflict do nothing", [B]);
+    await como("authenticated", B, "select public.esconder_video('aaaaaaaaaaa', true)");
+    expect((await como("anon", null, "select id from public.videos")).rows).toEqual([{ id: "bbbbbbbbbbb" }]);
+    expect((await como("authenticated", B, "select id from public.videos order by id")).rows).toHaveLength(2);
+    await como("authenticated", B, "select public.esconder_video('aaaaaaaaaaa', false)");
+    expect((await como("anon", null, "select id from public.videos")).rows).toHaveLength(2);
+  });
+
+  it("só vídeo do YouTube de id válido e tipo conhecido", async () => {
+    await expect(db.query("insert into public.videos (id, canal_id, tipo, titulo, dia, publicado_em) values ('curto', 'frei-gilson', 'homilia', 'x', '2026-11-15', now())")).rejects.toThrow();
+    await expect(db.query("insert into public.videos (id, canal_id, tipo, titulo, dia, publicado_em) values ('ddddddddddd', 'frei-gilson', 'show', 'x', '2026-11-15', now())")).rejects.toThrow();
+  });
+});
+
 describe("funções", () => {
   it("visitante só executa as funções públicas da lista", async () => {
     const r = await db.query<{ nome: string }>(`

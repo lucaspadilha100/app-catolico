@@ -1,5 +1,5 @@
 import { useState, type ReactNode } from "react";
-import { Bell, CalendarClock, CalendarDays, Clock, GraduationCap, Image, ListMusic, Church, FileText, HandHeart, Heart, LayoutDashboard, NotebookPen, Share2, ShieldCheck, Sparkles, UserRound } from "lucide-react";
+import { Bell, CalendarClock, CalendarDays, Clock, GraduationCap, Image, ListMusic, Church, FileText, HandHeart, Heart, LayoutDashboard, MonitorPlay, NotebookPen, Share2, ShieldCheck, Sparkles, UserRound } from "lucide-react";
 import { ehApoiador, usePreferencias, type CorDoApp, type Letra, type Tema } from "@/lib/preferencias";
 import { Cartao, Grupo, ItemLista, LINHA, TituloPagina } from "@/components/Cartao";
 import { DIOCESES } from "@/liturgia/dioceses";
@@ -100,6 +100,7 @@ export default function Mais() {
         </Grupo>
 
         <Grupo titulo="Conhecer">
+          <ItemLista icone={MonitorPlay} titulo="Assistir" detalhe="Homilia, missa e terço de hoje" para="/assistir" />
           <ItemLista icone={Sparkles} titulo="Santos" para="/santos" />
           <ItemLista icone={CalendarDays} titulo="Calendário litúrgico" para="/calendario" />
           <ItemLista icone={GraduationCap} titulo="Cursos de formação" para="/cursos" />

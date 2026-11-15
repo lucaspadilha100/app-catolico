@@ -18,6 +18,7 @@ import { NOME_DA_COR, NOME_DO_GRAU, NOME_DO_TEMPO, type CorLiturgica } from "@/l
 import { misteriosDoDia } from "@/liturgia/terco";
 import { ProximaMissa } from "@/components/ProximaMissa";
 import { NovidadesDasIgrejas } from "@/components/NovidadesDasIgrejas";
+import { VideosDeHoje } from "@/components/VideosDeHoje";
 import { compartilhar, enderecoPublico } from "@/lib/nativo";
 import { CartaoDaCampanha } from "@/components/Campanha";
 import type { TipoLeitura } from "@/liturgia/lecionario";
@@ -244,6 +245,8 @@ export default function Hoje() {
       )}
 
       {missas && <ReflexaoResumo canonica={evangelhoDaMissa(missas[0])} para="/liturgia#reflexao" />}
+
+      <VideosDeHoje dia={paraIso(l.data)} />
 
       {temParoquia ? (
         <ProximaMissa />

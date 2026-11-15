@@ -48,6 +48,7 @@ const CorrenteAberta = lazy(() => import("@/pages/Correntes").then((m) => ({ def
 const Turma = lazy(() => import("@/pages/Turma"));
 const RezarAgora = lazy(() => import("@/pages/RezarAgora"));
 const Santinhos = lazy(() => import("@/pages/Santinhos"));
+const Assistir = lazy(() => import("@/pages/Assistir"));
 const Apoie = lazy(() => import("@/pages/Apoie"));
 const Mais = lazy(() => import("@/pages/Mais"));
 const Lembretes = lazy(() => import("@/pages/Lembretes"));
@@ -145,6 +146,7 @@ export default function App() {
         <Route path="lembretes" element={<Lembretes />} />
         <Route path="apoie" element={<Apoie />} />
         <Route path="santinhos" element={<Santinhos />} />
+        <Route path="assistir" element={<Assistir />} />
         <Route path="roteiros" element={<Roteiros />} />
         <Route path="escalas" element={<Escalas />} />
         <Route path="turmas/:id" element={<Turma />} />

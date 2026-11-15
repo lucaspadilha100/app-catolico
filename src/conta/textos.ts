@@ -44,6 +44,12 @@ export const PRIVACIDADE: Secao[] = [
     ],
   },
   {
+    titulo: "Vídeos do YouTube",
+    paragrafos: [
+      "Em Assistir, os vídeos de homilia, missa e terço são dos próprios canais e tocam no player do YouTube, no modo de privacidade reforçada. Ao dar o play, o YouTube recebe a visita como em qualquer site e pode mostrar os anúncios do canal; o Minha Igrejinha não tem anúncios nem recebe nada por eles.",
+    ],
+  },
+  {
     titulo: "Os seus direitos",
     paragrafos: [
       "Você pode, a qualquer momento, ver o que está guardado, corrigir, levar para outro aparelho e apagar. Em Mais, Conta, o botão \"Apagar minha conta\" apaga a conta e tudo o que estava guardado na nuvem, de uma vez.",
