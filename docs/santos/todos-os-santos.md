@@ -60,14 +60,16 @@ milagre não reconhecido; venerável e servo não levam "rogai por nós".
   conferido dia a dia; veneráveis dos decretos de 1909 a 2026; beatos e santos dos
   decretos de 2000 a 2026; Brasil completo pela lista da Academia Brasileira de
   Hagiologia.
-- Fotos (15/11/2026): 2.337 fichas com foto, no site de imagens (Cloudflare Pages,
-  repositório `minha-igrejinha-imagens`). 1.782 vieram do Wikimedia Commons pela
-  tarefa do GitHub `fotos-commons.yml` (o Wikimedia recusa este servidor), todas
-  conferidas uma a uma em pranchas; 337 recusadas (relicário, cena com muita gente,
-  manuscrito, monumento de longe) continuam com `foto_commons` e precisam de outra
-  foto; 17 ficaram de fora pela licença (FAL, "Attribution": livres, falta aceitar).
-  As demais (~3.800) não têm foto apontada: buscar com crédito (Commons, causa,
-  congregação, diocese).
+- Fotos (15/11/2026, fim do dia): 5.175 das 6.127 fichas com foto, todas conferidas uma a
+  uma em pranchas (rejeitado: relicário, túmulo, cena com muita gente, manuscrito, pessoa
+  errada). Origem: Wikimedia Commons (2.705, por tarefas do GitHub: `fotos-commons.yml` e, no
+  repositório de imagens, `categorias.yml`, `por-nome.yml`, `candidatos.yml`), Santi e Beati
+  (2.155), Dicastério das Causas dos Santos (89), congregações e dioceses, Nominis (16),
+  ícones da Igreja Ortodoxa na América para santos anteriores a 1054 (9) e fotos de servos
+  de Deus do Brasil achadas pelo dono (crédito só com o nome do site quando a página não é
+  conhecida). Sem foto: 739 santos (quase todos antigos, da França, Itália e Oriente, sem
+  retrato conhecido), 172 beatos (mártires ingleses, franceses e espanhóis), 36 veneráveis e
+  5 servos de Deus; ficam com a moldura e o símbolo, sem rosto inventado.
 - Fora por falta de confirmação (servos de Deus ligados ao Brasil): Pero Dias e
   onze companheiros (causa não achada na Santa Sé), Dom Pedro Luís Galibert (só
   um dossiê na diocese de Albi), Lucia Schiavinato (causa aberta em Treviso, na
