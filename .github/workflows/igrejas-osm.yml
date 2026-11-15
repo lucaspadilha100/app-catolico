@@ -2,6 +2,9 @@ name: Igrejas do OpenStreetMap
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/igrejas-osm.yml']
 
 jobs:
   extrair:
