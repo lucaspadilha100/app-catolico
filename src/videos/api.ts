@@ -1,3 +1,5 @@
+import { useEffect, useState } from "react";
+
 export type TipoDeVideo = "homilia" | "missa" | "terco";
 
 export interface Video {
@@ -10,6 +12,7 @@ export interface Video {
   referencia: string;
   escondido: boolean;
   embutivel: boolean;
+  aoVivo?: boolean;
 }
 
 export const NOME_DO_TIPO: Record<TipoDeVideo, string> = {
@@ -86,4 +89,67 @@ export function tituloLimpo(titulo: string, canal: string): string {
     .filter((p) => p && !/^#\d+$/.test(p) && !/^(medita[cç][aã]o da palavra|homilia (di[aá]ria|dominical)|live ao vivo|santa missa)$/i.test(p));
   const t = (partes[0] ?? titulo).replace(/\s*#\d+\s*/g, " ").replace(new RegExp(`\\s*-?\\s*${canal}\\s*$`, "i"), "").trim();
   return t || titulo;
+}
+
+export interface Transmissao {
+  canal_id: string;
+  canal: string;
+  tv: boolean;
+  ordem: number;
+  video_id: string | null;
+  titulo: string;
+  desde: string | null;
+}
+
+interface LinhaDeTransmissao {
+  canal_id: string;
+  video_id: string | null;
+  titulo: string | null;
+  desde: string | null;
+  canais_video: { nome: string; ordem: number; tv: boolean } | null;
+}
+
+export async function transmissoes(): Promise<Transmissao[]> {
+  const url = import.meta.env.VITE_SUPABASE_URL as string;
+  const chave = import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY as string;
+  try {
+    const r = await fetch(`${url}/rest/v1/transmissoes?select=canal_id,video_id,titulo,desde,canais_video(nome,ordem,tv)&order=canal_id`, { headers: { apikey: chave } });
+    if (!r.ok) return [];
+    return ((await r.json()) as LinhaDeTransmissao[])
+      .map((l) => ({ canal_id: l.canal_id, canal: l.canais_video?.nome ?? "", tv: !!l.canais_video?.tv, ordem: l.canais_video?.ordem ?? 99, video_id: l.video_id || null, titulo: l.titulo ?? "", desde: l.desde }))
+      .filter((t) => t.video_id || t.tv)
+      .sort((a, b) => Number(!a.video_id) - Number(!b.video_id) || a.ordem - b.ordem);
+  } catch {
+    return [];
+  }
+}
+
+export function useTransmissoes(): Transmissao[] {
+  const [lista, setLista] = useState<Transmissao[]>([]);
+  useEffect(() => {
+    let ativo = true;
+    const ler = () => {
+      if (!navigator.onLine) return;
+      void transmissoes().then((t) => ativo && setLista(t));
+    };
+    ler();
+    const relogio = setInterval(ler, 120000);
+    const aoVoltar = () => document.visibilityState === "visible" && ler();
+    document.addEventListener("visibilitychange", aoVoltar);
+    return () => {
+      ativo = false;
+      clearInterval(relogio);
+      document.removeEventListener("visibilitychange", aoVoltar);
+    };
+  }, []);
+  return lista;
+}
+
+export function tituloDaTransmissao(t: Transmissao): string {
+  const limpo = tituloLimpo(t.titulo, t.canal).replace(/\s*[-|:]?\s*ao vivo\s*$/i, "").replace(/^ao vivo\s*[-|:]?\s*/i, "").trim();
+  return limpo.toLowerCase() === t.canal.toLowerCase() ? "" : limpo;
+}
+
+export function videoDaTransmissao(t: Transmissao, dia: string): Video {
+  return { id: t.video_id ?? "", canal_id: t.canal_id, canal: t.canal, tipo: "missa", titulo: tituloDaTransmissao(t), dia, referencia: "", escondido: false, embutivel: true, aoVivo: true };
 }

@@ -9,7 +9,8 @@ import { dataPorExtenso, paraIso } from "@/liturgia/datas";
 import { useDiaLiturgico } from "@/lib/useDiaLiturgico";
 import { useLeituras } from "@/lib/useLeituras";
 import { LIVROS } from "@/biblia/livros";
-import { NOME_DO_TIPO, capaDoVideo, enderecoDoPlayer, enderecoNoYoutube, esconderVideo, tituloLimpo, videosDoDia, videosDoDiaParaOAdmin, type TipoDeVideo, type Video } from "@/videos/api";
+import { NOME_DO_TIPO, capaDoVideo, enderecoDoPlayer, enderecoNoYoutube, esconderVideo, tituloLimpo, useTransmissoes, videoDaTransmissao, videosDoDia, videosDoDiaParaOAdmin, type TipoDeVideo, type Video } from "@/videos/api";
+import { CarrosselAoVivo } from "@/components/VideosDeHoje";
 
 const ORDEM: TipoDeVideo[] = ["homilia", "missa", "terco"];
 const NOME_DO_FILTRO: Record<TipoDeVideo, string> = { homilia: "Homilia", missa: "Missa", terco: "Terço" };
@@ -103,7 +104,7 @@ function Player({ video, tocar, evangelho, admin, onMudou }: { video: Video; toc
         <iframe
           key={video.id}
           src={enderecoDoPlayer(video.id, tocar)}
-          title={tituloLimpo(video.titulo, video.canal)}
+          title={video.aoVivo ? video.titulo || video.canal : tituloLimpo(video.titulo, video.canal)}
           className="size-full"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowFullScreen
@@ -112,12 +113,13 @@ function Player({ video, tocar, evangelho, admin, onMudou }: { video: Video; toc
       </div>
       <div className="flex items-start gap-1 pl-1">
         <div className="min-w-0 flex-1 pt-0.5">
-          <p className="text-sm font-semibold text-destaque-texto">
-            {video.canal} · {NOME_DO_TIPO[video.tipo]}
+          <p className="flex items-center gap-1.5 text-sm font-semibold text-destaque-texto">
+            {video.aoVivo && <span className="size-2 shrink-0 rounded-full bg-[#d4202c]" aria-hidden />}
+            {video.aoVivo && !video.titulo ? "Ao vivo" : `${video.canal} · ${video.aoVivo ? "Ao vivo" : NOME_DO_TIPO[video.tipo]}`}
           </p>
-          <h2 className="mt-0.5 text-lg font-bold leading-snug text-tinta">{tituloLimpo(video.titulo, video.canal)}</h2>
+          <h2 className="mt-0.5 text-lg font-bold leading-snug text-tinta">{video.aoVivo ? video.titulo || video.canal : tituloLimpo(video.titulo, video.canal)}</h2>
         </div>
-        {admin && <BotaoEsconder video={video} onMudou={onMudou} />}
+        {admin && !video.aoVivo && <BotaoEsconder video={video} onMudou={onMudou} />}
         <a href={enderecoNoYoutube(video.id)} target="_blank" rel="noreferrer" aria-label="Abrir no YouTube" className={SO_ICONE}>
           <ExternalLink className="size-5" aria-hidden />
         </a>
@@ -193,6 +195,7 @@ export default function Assistir() {
   const leitura = missas?.[0]?.leituras.find((x) => x.tipo === "evangelho" && !x.ou && x.forma !== "breve");
   const evangelho = leitura?.canonica ? { referencia: leitura.referencia, canonica: leitura.canonica } : null;
   const admin = useAdmin();
+  const aoVivo = useTransmissoes();
   const [videos, setVideos] = useState<Video[] | null | "erro">(null);
   const [versao, setVersao] = useState(0);
   const topo = useRef<HTMLDivElement>(null);
@@ -215,7 +218,8 @@ export default function Assistir() {
   const tipos = ORDEM.filter((t) => lista.some((v) => v.tipo === t));
   const filtro = tipos.includes(pedido as TipoDeVideo) ? pedido : "";
   const doFiltro = filtro ? lista.filter((v) => v.tipo === filtro) : lista;
-  const atual = lista.find((v) => v.id === escolhido && v.embutivel) ?? doFiltro.find((v) => v.embutivel && !v.escondido) ?? null;
+  const transmissao = escolhido ? aoVivo.find((t) => t.video_id === escolhido) : undefined;
+  const atual = (transmissao ? videoDaTransmissao(transmissao, dia) : null) ?? lista.find((v) => v.id === escolhido && v.embutivel) ?? doFiltro.find((v) => v.embutivel && !v.escondido) ?? null;
   const outros = doFiltro.filter((v) => v.id !== atual?.id);
   const recarregar = () => setVersao((x) => x + 1);
 
@@ -223,6 +227,12 @@ export default function Assistir() {
     <div ref={topo} className="flex scroll-mt-4 flex-col gap-5">
       <Voltar para="/mais">Mais</Voltar>
       <Cabecalho titulo="Assistir" subtitulo={dataPorExtenso(l.data)} />
+      {aoVivo.length > 0 && (
+        <section>
+          <h2 className="titulo-secao mb-2 px-1">Ao vivo agora</h2>
+          <CarrosselAoVivo lista={aoVivo} destino={(id) => `?v=${id}`} atual={transmissao?.video_id} />
+        </section>
+      )}
       {tipos.length > 1 && (
         <Chips
           opcoes={[["", "Tudo"], ...tipos.map((t): [string, string] => [t, NOME_DO_FILTRO[t]])]}
@@ -238,7 +248,7 @@ export default function Assistir() {
         </div>
       )}
       {videos === "erro" && <Indisponivel />}
-      {Array.isArray(videos) && lista.length === 0 && <p className="py-10 text-center text-tinta-suave">Nenhum vídeo de hoje ainda.</p>}
+      {Array.isArray(videos) && lista.length === 0 && !atual && <p className="py-10 text-center text-tinta-suave">Nenhum vídeo de hoje ainda.</p>}
       {atual && <Player video={atual} tocar={escolhido === atual.id} evangelho={evangelho} admin={admin} onMudou={recarregar} />}
       {outros.length > 0 && (
         <section>
