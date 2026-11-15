@@ -36,8 +36,16 @@ interface Linha {
 const CAMPOS = "id,canal_id,tipo,titulo,dia,referencia,escondido,embutivel,publicado_em,canais_video(nome,ordem)";
 
 function organizar(linhas: Linha[]): Video[] {
+  const vistos = new Set<string>();
   return linhas
     .sort((a, b) => (a.canais_video?.ordem ?? 99) - (b.canais_video?.ordem ?? 99) || b.publicado_em.localeCompare(a.publicado_em))
+    .filter((l) => {
+      if (l.escondido) return true;
+      const chave = `${l.canal_id}:${l.tipo}`;
+      if (vistos.has(chave)) return false;
+      vistos.add(chave);
+      return true;
+    })
     .map((l) => ({ id: l.id, canal_id: l.canal_id, canal: l.canais_video?.nome ?? "", tipo: l.tipo, titulo: l.titulo, dia: l.dia, referencia: l.referencia, escondido: l.escondido, embutivel: l.embutivel !== false }));
 }
 
