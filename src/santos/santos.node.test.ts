@@ -141,3 +141,23 @@ describe("busca no índice", () => {
     expect(santosDoNome(indice, "Cecília Souza").map((s) => s.id)).toContain("santa-cecilia");
   });
 });
+
+it("Conheça os santos termina em todos os dias e não repete santo", async () => {
+  const original = globalThis.fetch;
+  globalThis.fetch = (async (url: string) => {
+    const arquivo = join(RAIZ, "public", String(url).replace(/^\//, ""));
+    return new Response(readFileSync(arquivo, "utf8"));
+  }) as typeof fetch;
+  try {
+    const { santosParaConhecer } = await import("./santos");
+    for (let d = dia(2026, 1, 1); d.getUTCFullYear() < 2028; d = somaDias(d, 1)) {
+      const iso = paraIso(d);
+      const r = await santosParaConhecer(iso, 8);
+      expect(r.length, iso).toBe(8);
+      expect(new Set(r.map((s) => s.id)).size, iso).toBe(r.length);
+      expect(r.every((s) => s.imagem && s.data !== iso.slice(5).replace("-", "")), iso).toBe(true);
+    }
+  } finally {
+    globalThis.fetch = original;
+  }
+}, 60000);

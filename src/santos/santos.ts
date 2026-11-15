@@ -73,10 +73,14 @@ export const creditosDaLetra = (letra: string): Promise<CreditoDoSanto[]> => (M.
 
 function sorteador(iso: string) {
   let semente = 0;
-  for (const c of iso) semente = (semente * 31 + c.charCodeAt(0)) >>> 0;
+  for (const c of iso) semente = (Math.imul(semente, 31) + c.charCodeAt(0)) >>> 0;
   return (limite: number) => {
-    semente = (semente * 1103515245 + 12345) >>> 0;
-    return semente % limite;
+    semente = (semente + 0x6d2b79f5) >>> 0;
+    let x = semente;
+    x = Math.imul(x ^ (x >>> 15), x | 1);
+    x ^= x + Math.imul(x ^ (x >>> 7), x | 61);
+    x = (x ^ (x >>> 14)) >>> 0;
+    return x % limite;
   };
 }
 
@@ -91,16 +95,11 @@ export async function santosParaConhecer(iso: string, n: number): Promise<SantoD
   }
   const partes = await Promise.all(ordem.slice(0, quantas).map(parte));
   const todos = partes.flat().filter((s) => s.data !== mmdd && s.imagem);
-  const escolhidos: SantoDoIndice[] = [];
-  const usados = new Set<number>();
-  while (escolhidos.length < n && usados.size < todos.length) {
-    const i = sortear(todos.length);
-    if (!usados.has(i)) {
-      usados.add(i);
-      escolhidos.push(todos[i]!);
-    }
+  for (let i = todos.length - 1; i > 0; i--) {
+    const j = sortear(i + 1);
+    [todos[i], todos[j]] = [todos[j]!, todos[i]!];
   }
-  return escolhidos;
+  return todos.slice(0, n);
 }
 
 export const NOME_DO_GRUPO: Record<string, string> = {
