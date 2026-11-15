@@ -4,11 +4,11 @@ A tabela e o agendamento entram sozinhos com a migração `20261212004700_videos
 Falta só a função, que se cola no painel do Supabase:
 
 1. supabase.com → projeto → **Edge Functions** → **Deploy a new function** → **Via Editor**.
-2. Nome: `videos` (exatamente assim).
+2. Nome: `video` (é o endereço publicado em 15/11/2026; o agendamento chama `/functions/v1/video`).
 3. Apague o conteúdo do `index.ts` do editor e cole o arquivo `docs/videos/index.ts` inteiro.
 4. **Deploy**.
 5. Abra a função → **Details** → desligue **Verify JWT** (ou "Enforce JWT Verification") e salve.
-6. Teste: abra no navegador `https://dknrrvspimmldxmutzdt.supabase.co/functions/v1/videos`.
+6. Teste: abra no navegador `https://dknrrvspimmldxmutzdt.supabase.co/functions/v1/video`.
    Deve aparecer algo como `{"encontrados":5,"falhas":[]}`. Daí em diante ela roda sozinha a cada 30 minutos.
 
 ## Canal novo
