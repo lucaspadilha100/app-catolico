@@ -1,0 +1,70 @@
+name: Igrejas do OpenStreetMap
+
+on:
+  workflow_dispatch:
+
+jobs:
+  extrair:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Instalar osmium
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq osmium-tool
+      - name: Baixar o Brasil (Geofabrik)
+        run: curl -sSfL -o brasil.osm.pbf https://download.geofabrik.de/south-america/brazil-latest.osm.pbf
+      - name: Separar locais de culto cristãos
+        run: |
+          osmium tags-filter brasil.osm.pbf nwr/amenity=place_of_worship -o culto.osm.pbf
+          osmium export culto.osm.pbf -f geojsonseq -o culto.geojsonseq --add-unique-id=type_id
+      - name: Reduzir
+        run: |
+          python3 - <<'PY'
+          import json, gzip
+          saida = []
+          with open("culto.geojsonseq") as f:
+              for linha in f:
+                  linha = linha.strip().lstrip("\x1e")
+                  if not linha:
+                      continue
+                  g = json.loads(linha)
+                  t = g.get("properties") or {}
+                  if t.get("religion") != "christian":
+                      continue
+                  den = t.get("denomination", "")
+                  if den and den not in ("catholic", "roman_catholic"):
+                      continue
+                  geo = g["geometry"]
+                  if geo["type"] == "Point":
+                      lng, lat = geo["coordinates"]
+                  else:
+                      pts = []
+                      def junta(c):
+                          if isinstance(c[0], (int, float)):
+                              pts.append(c)
+                          else:
+                              for x in c:
+                                  junta(x)
+                      junta(geo["coordinates"])
+                      lng = sum(p[0] for p in pts) / len(pts)
+                      lat = sum(p[1] for p in pts) / len(pts)
+                  saida.append({
+                      "id": g.get("id") or t.get("@id", ""),
+                      "nome": t.get("name", ""),
+                      "outros": t.get("alt_name", "") or t.get("official_name", ""),
+                      "den": den,
+                      "lat": round(lat, 6),
+                      "lng": round(lng, 6),
+                      "cidade": t.get("addr:city", ""),
+                      "rua": t.get("addr:street", ""),
+                      "numero": t.get("addr:housenumber", ""),
+                      "bairro": t.get("addr:suburb", ""),
+                  })
+          with gzip.open("igrejas-osm.json.gz", "wt") as f:
+              json.dump(saida, f, ensure_ascii=False)
+          print(len(saida), "igrejas")
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: igrejas-osm
+          path: igrejas-osm.json.gz
+          retention-days: 7
