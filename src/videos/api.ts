@@ -74,8 +74,8 @@ export const capaDoVideo = (id: string) => `https://i.ytimg.com/vi/${id}/hqdefau
 
 export const enderecoNoYoutube = (id: string) => `https://www.youtube.com/watch?v=${id}`;
 
-export function enderecoDoPlayer(id: string): string {
-  const p = new URLSearchParams({ playsinline: "1", rel: "0", modestbranding: "1", autoplay: "1" });
+export function enderecoDoPlayer(id: string, tocar: boolean): string {
+  const p = new URLSearchParams({ playsinline: "1", rel: "0", modestbranding: "1", autoplay: tocar ? "1" : "0" });
   return `https://www.youtube-nocookie.com/embed/${id}?${p}`;
 }
 

@@ -20,17 +20,23 @@ export function VideosDeHoje({ dia }: { dia: string }) {
       <div className="mb-2 flex items-baseline justify-between">
         <h2 className="titulo-secao px-1">Homilia de hoje</h2>
         <Link to="/assistir" className="px-1 text-[0.9375rem] font-semibold text-destaque-texto">
-          Ver tudo
+          Ver todos
         </Link>
       </div>
-      <div className="-mx-4 flex snap-x scroll-px-4 gap-3 overflow-x-auto px-4 [scrollbar-width:none]">
+      <div className="-mx-4 flex snap-x scroll-px-4 gap-2.5 overflow-x-auto px-4 [scrollbar-width:none]">
         {videos.map((v) => (
-          <Link key={v.id} to={v.embutivel ? `/assistir?v=${v.id}` : enderecoNoYoutube(v.id)} target={v.embutivel ? undefined : "_blank"} rel={v.embutivel ? undefined : "noreferrer"} className="flex w-60 shrink-0 snap-start flex-col gap-1.5">
-            <span className="block aspect-video overflow-hidden rounded-2xl bg-cartao">
+          <Link
+            key={v.id}
+            to={v.embutivel ? `/assistir?v=${v.id}` : enderecoNoYoutube(v.id)}
+            target={v.embutivel ? undefined : "_blank"}
+            rel={v.embutivel ? undefined : "noreferrer"}
+            className="w-60 shrink-0 snap-start"
+          >
+            <span className="block aspect-video overflow-hidden rounded-3xl bg-cartao">
               <img src={capaDoVideo(v.id)} alt="" loading="lazy" className="size-full object-cover" />
             </span>
-            <span className="px-1 text-sm font-semibold text-destaque-texto">{v.canal}</span>
-            <span className="line-clamp-2 px-1 text-[0.9375rem] font-semibold leading-snug text-tinta">{tituloLimpo(v.titulo, v.canal)}</span>
+            <span className="mt-2 line-clamp-2 block px-0.5 text-[0.9375rem] font-bold leading-snug text-tinta">{tituloLimpo(v.titulo, v.canal)}</span>
+            <span className="block px-0.5 text-[0.8125rem] text-tinta-suave">{v.canal}</span>
           </Link>
         ))}
       </div>
