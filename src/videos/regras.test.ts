@@ -51,6 +51,17 @@ describe("classificar", () => {
     expect(classificar(entrada("Reze o terço hoje com o Padre Paulo Ricardo! (15 de novembro)", "2026-11-15T09:00:08+00:00"), PAULO_RICARDO)).toMatchObject({ tipo: "terco", dia: "2026-11-15" });
   });
 
+  it("Padre Reginaldo Manzotti: o Evangelho do dia com a passagem abreviada, e a missa", () => {
+    const regras: Regra[] = [
+      { tipo: "homilia", contem: ["EVANGELHO DO DIA"], exigeData: true },
+      { tipo: "missa", contem: ["SANTA MISSA"], exigeData: true },
+    ];
+    expect(classificar(entrada("EVANGELHO DO DIA 15/11/2026 | MT 25, 14-30", "2026-11-15T09:00:00+00:00"), regras)).toEqual({ tipo: "homilia", dia: "2026-11-15", referencia: { sigla: "Mt", capitulo: 25, texto: "Mt 25,14-30" } });
+    expect(classificar(entrada("EVANGELHO DO DIA 14/11/2026 | LC 18, 1-8", "2026-11-14T09:00:00+00:00"), regras)?.referencia?.sigla).toBe("Lc");
+    expect(classificar(entrada("SANTA MISSA DOMINICAL | 08H | 15/11/2026", "2026-11-15T12:00:00+00:00"), regras)).toMatchObject({ tipo: "missa", dia: "2026-11-15" });
+    expect(classificar(entrada("ORAÇÃO DA MANHÃ | 15/11/2026", "2026-11-15T08:00:00+00:00"), regras)).toBeNull();
+  });
+
   it("Padre Chrystian Shankar: a missa em maiúsculas", () => {
     expect(classificar(entrada("SANTA MISSA |TODOS OS SANTOS E SANTAS [01/11/2026] -PADRE CHRYSTIAN SHANKAR", "2026-11-01T23:59:03+00:00"), SHANKAR)).toMatchObject({ tipo: "missa", dia: "2026-11-01" });
   });

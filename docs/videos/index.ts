@@ -121,6 +121,11 @@ export function dataDoTitulo(titulo: string, publicado: string): string | null {
 }
 
 export function referenciaDoTitulo(titulo: string): Referencia | null {
+  const abreviada = /\|\s*([1-3]?\s?[A-Za-zÀ-ÿ]{1,4})\s+(\d{1,3})\s*,\s*(\d[\d.\-a-z]*)\s*$/i.exec(titulo.trim());
+  if (abreviada) {
+    const sigla = siglaDoLivro(abreviada[1]!);
+    if (sigla) return { sigla, capitulo: Number(abreviada[2]), texto: `${sigla} ${abreviada[2]},${abreviada[3]}` };
+  }
   for (const m of titulo.matchAll(/\(\s*([1-3]?\s?[A-Za-zÀ-ÿ]+(?:\s+(?:dos|das|de)\s+[A-Za-zÀ-ÿ]+)?)\s+(\d{1,3})\s*,\s*([^)]{1,30})\)/g)) {
     const sigla = siglaDoLivro(m[1]!);
     if (sigla) return { sigla, capitulo: Number(m[2]), texto: `${sigla} ${m[2]},${m[3]!.replace(/\s+/g, "")}` };
