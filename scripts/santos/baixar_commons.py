@@ -1,24 +1,30 @@
 import json, glob, os, re, sys, time, html, io, urllib.parse, urllib.request
 from PIL import Image
 
-UA = "ImagensSantos/1.0 (download unico de imagens livres, 1 pedido por segundo)"
+UA = "MinhaIgrejinhaImagens/1.1 (minhaigrejinha@gmail.com) python-urllib"
 API = "https://commons.wikimedia.org/w/api.php"
 SAIDA = sys.argv[1]
 os.makedirs(SAIDA + "/fotos", exist_ok=True)
 
-def pedir(url, tentativas=6):
+RECUSAS = 0
+
+def pedir(url, tentativas=4):
+    global RECUSAS
     for n in range(tentativas):
         try:
             with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": UA}), timeout=60) as r:
+                RECUSAS = 0
                 return r.read()
         except urllib.error.HTTPError as e:
             if e.code in (429, 503):
-                espera = int(e.headers.get("Retry-After") or 0) or 30 * (n + 1)
-                time.sleep(min(espera, 300))
+                RECUSAS += 1
+                espera = int(e.headers.get("Retry-After") or 0) or 20 * (n + 1)
+                print(f"  {e.code}: espera {min(espera, 120)} s", flush=True)
+                time.sleep(min(espera, 120))
                 continue
             raise
         except Exception:
-            time.sleep(10 * (n + 1))
+            time.sleep(5 * (n + 1))
     raise RuntimeError("falhou: " + url)
 
 def limpo(t):
@@ -33,8 +39,19 @@ for f in sorted(glob.glob("fontes/santos/fichas/*.json")):
         alvos["File:" + arq.split(":", 1)[-1]] = d["id"]
 
 creditos, falhas = {}, []
-titulos = list(alvos)
+INICIO = int(os.environ.get("INICIO", "0"))
+FIM = int(os.environ.get("FIM", "100000"))
+titulos = list(alvos)[INICIO:FIM]
+LIMITE = time.time() + int(os.environ.get("MINUTOS", "270")) * 60
+
+def gravar():
+    json.dump(creditos, open(SAIDA + "/creditos.json", "w"), ensure_ascii=False, indent=1)
+    json.dump(falhas, open(SAIDA + "/falhas.json", "w"), ensure_ascii=False, indent=1)
+
 for i in range(0, len(titulos), 40):
+    if time.time() > LIMITE:
+        print(f"tempo esgotado: parou em {INICIO + i}", flush=True)
+        break
     lote = titulos[i:i + 40]
     q = urllib.parse.urlencode({"action": "query", "format": "json", "prop": "imageinfo", "iiprop": "url|extmetadata", "iiurlwidth": "960", "titles": "|".join(lote), "redirects": "1"})
     dados = json.loads(pedir(API + "?" + q))
@@ -75,7 +92,7 @@ for i in range(0, len(titulos), 40):
             "licenca": licenca,
             "url": ii.get("descriptionurl", ""),
         }
-    print(f"{min(i + 40, len(titulos))}/{len(titulos)}: {len(creditos)} fotos, {len(falhas)} falhas", flush=True)
+    gravar()
+    print(f"{INICIO + min(i + 40, len(titulos))}: {len(creditos)} fotos, {len(falhas)} falhas", flush=True)
 
-json.dump(creditos, open(SAIDA + "/creditos.json", "w"), ensure_ascii=False, indent=1)
-json.dump(falhas, open(SAIDA + "/falhas.json", "w"), ensure_ascii=False, indent=1)
+gravar()
