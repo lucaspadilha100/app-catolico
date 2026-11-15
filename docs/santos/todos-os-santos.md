@@ -60,10 +60,14 @@ milagre não reconhecido; venerável e servo não levam "rogai por nós".
   conferido dia a dia; veneráveis dos decretos de 1909 a 2026; beatos e santos dos
   decretos de 2000 a 2026; Brasil completo pela lista da Academia Brasileira de
   Hagiologia.
-- Fotos: 555 fichas com foto; 2.142 com foto livre apontada no Wikimedia
-  (`foto_commons`) a baixar (o Wikimedia recusa este servidor com 429; baixar de
-  outro lugar); as demais a buscar com crédito. Depende do site de imagens no
-  Cloudflare (repositório `minha-igrejinha-imagens`).
+- Fotos (15/11/2026): 2.337 fichas com foto, no site de imagens (Cloudflare Pages,
+  repositório `minha-igrejinha-imagens`). 1.782 vieram do Wikimedia Commons pela
+  tarefa do GitHub `fotos-commons.yml` (o Wikimedia recusa este servidor), todas
+  conferidas uma a uma em pranchas; 337 recusadas (relicário, cena com muita gente,
+  manuscrito, monumento de longe) continuam com `foto_commons` e precisam de outra
+  foto; 17 ficaram de fora pela licença (FAL, "Attribution": livres, falta aceitar).
+  As demais (~3.800) não têm foto apontada: buscar com crédito (Commons, causa,
+  congregação, diocese).
 - Fora por falta de confirmação (servos de Deus ligados ao Brasil): Pero Dias e
   onze companheiros (causa não achada na Santa Sé), Dom Pedro Luís Galibert (só
   um dossiê na diocese de Albi), Lucia Schiavinato (causa aberta em Treviso, na
