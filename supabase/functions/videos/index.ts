@@ -41,7 +41,7 @@ Deno.serve(async () => {
   const novos: Record<string, unknown>[] = [];
   const falhas: string[] = [];
   for (const canal of (canais ?? []) as Canal[]) {
-    if (canal.tv) continue;
+    if (canal.regras.length === 0) continue;
     const xml = await fetch(`https://www.youtube.com/feeds/videos.xml?channel_id=${canal.youtube_id}`)
       .then((r) => (r.ok ? r.text() : ""))
       .catch(() => "");

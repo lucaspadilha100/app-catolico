@@ -106,6 +106,21 @@ describe("passagem", () => {
   });
 });
 
+describe("TV Evangelizar", () => {
+  const regras: Regra[] = [
+    { tipo: "homilia", contem: ["Homilia |"], exigeData: true },
+    { tipo: "missa", contem: ["Santa Missa"], exigeData: true },
+    { tipo: "terco", contem: ["Terço Mariano"], exigeData: true },
+  ];
+  it("homilia, missa e terço do dia; o resto fica de fora", () => {
+    expect(classificar(entrada("Homilia | 15/11/26 | Santa Missa Dominical com Pe. Reginaldo Manzotti", "2026-11-15T15:00:00+00:00"), regras)).toMatchObject({ tipo: "homilia", dia: "2026-11-15" });
+    expect(classificar(entrada("33º Domingo do Tempo Comum | 15/11/26 | Santa Missa Dominical com Pe. Reginaldo Manzotti", "2026-11-15T15:00:00+00:00"), regras)).toMatchObject({ tipo: "missa", dia: "2026-11-15" });
+    expect(classificar(entrada("Domingo: Mistérios Gloriosos | 15/11/26 | Terço Mariano com @PadreManzottiOficial", "2026-11-15T09:00:00+00:00"), regras)).toMatchObject({ tipo: "terco", dia: "2026-11-15" });
+    expect(classificar(entrada("Oração da Manhã | 15/11/2026 | com @PadreManzottiOficial", "2026-11-15T09:00:00+00:00"), regras)).toBeNull();
+    expect(classificar(entrada("A fé nos convida a crescer, renovar e acolher novos caminhos!", "2026-11-15T09:00:00+00:00"), regras)).toBeNull();
+  });
+});
+
 describe("ao vivo", () => {
   const pagina = (vivo: boolean) =>
     `<html>{"contents":{"twoColumnWatchNextResults":{"results":{"results":{"contents":[{"videoPrimaryInfoRenderer":{"title":{"runs":[{"text":"Ter\\u00e7o com a Canção Nova \\"ao vivo\\""}]},"viewCount":{"videoViewCountRenderer":{"isLive":${vivo}}}}}]}}}},"updatedMetadataEndpoint":{"clickTrackingParams":"x","commandMetadata":{"webCommandMetadata":{"apiUrl":"/youtubei/v1/updated_metadata"}},"updatedMetadataEndpoint":{"videoId":"lDXM4g7ewAA"}}</html>`;
