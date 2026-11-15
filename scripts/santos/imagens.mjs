@@ -4,7 +4,7 @@ import { tmpdir } from "node:os";
 import { join } from "node:path";
 
 const raiz = join(import.meta.dirname, "../..");
-const destino = join(raiz, "public/imagens/santos");
+const destino = process.env.PASTA_DAS_FOTOS ?? join(raiz, "../minha-igrejinha-imagens");
 const AGENTE = "SantinhoApp/0.1 (app catolico gratuito)";
 const esperar = (ms) => new Promise((r) => setTimeout(r, ms));
 const baixar = (url) => execFileSync("curl", ["-sSf", "-A", AGENTE, "-H", `AIC-User-Agent: ${AGENTE}`, url], { maxBuffer: 50_000_000 });

@@ -5,7 +5,7 @@ import { VERSAO, montar } from "./gerador.mjs";
 const raiz = join(import.meta.dirname, "../..");
 const pastaDasFichas = join(raiz, "fontes/santos/fichas");
 const destino = join(raiz, "public/santos", VERSAO);
-const fotosLocais = join(raiz, "public/imagens/santos");
+const fotosLocais = process.env.PASTA_DAS_FOTOS ?? join(raiz, "../minha-igrejinha-imagens");
 
 const fichas = readdirSync(pastaDasFichas)
   .filter((a) => a.endsWith(".json"))

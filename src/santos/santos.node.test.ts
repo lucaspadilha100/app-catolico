@@ -111,7 +111,7 @@ describe("fotos", () => {
     expect(urlDaFoto("/imagens/santos", "commons/beata-nha-chica.webp")).toBe("/imagens/santos/commons/beata-nha-chica.webp");
     expect(urlDaFoto("https://fotos.exemplo.org/santos", "sao-jose-1.webp")).toBe("https://fotos.exemplo.org/santos/sao-jose-1.webp");
     expect(urlDaFoto("/f", "commons/são josé.webp")).toBe("/f/commons/s%C3%A3o%20jos%C3%A9.webp");
-    expect(fotoDoSanto(santo)).toBe("/imagens/santos/commons/beata-nha-chica.webp");
+    expect(fotoDoSanto(santo)).toBe(`${baseDasFotos(import.meta.env.VITE_IMAGENS_URL as string)}/commons/beata-nha-chica.webp`);
   });
 
   it("sem foto, nada de endereço (a tela mostra a moldura)", () => {

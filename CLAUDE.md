@@ -178,19 +178,11 @@ de Deus do Brasil), cada um com foto, e as fotos FORA do app.
   todas as fichas; o teste confere que o publicado bate com as fichas.
 - **Fotos:** uma função, `fotoDoSanto` = `${VITE_IMAGENS_URL}/<arquivo>`.
   Toda foto, venha de onde vier (Commons, congregação, diocese), é baixada e
-  guardada por nós; a origem fica no crédito. Hoje `VITE_IMAGENS_URL=/imagens/santos`
-  (pasta `public/imagens/santos`, `commons/` para as do Commons). Na tela,
+  guardada por nós; a origem fica no crédito. Hoje `VITE_IMAGENS_URL` é o site de imagens (ver abaixo), `commons/` para as do Commons. Na tela,
   sempre `<FotoDoSanto>` (lazy, tamanho reservado, `crossOrigin`, e a
   MOLDURA com o símbolo se faltar ou falhar). O service worker guarda cada
   foto aberta (`fotos-dos-santos`, 1.500, um ano).
-- ⚠️ **Mudar as fotos para o site de imagens** (Cloudflare Pages, a criar):
-  subir a pasta `public/imagens/santos` inteira para lá, com um `_headers`
-  dando `Access-Control-Allow-Origin: *` (sem ele a foto não carrega:
-  `<img crossOrigin>` e o cartaz de Divulgação/santinho precisam de CORS),
-  trocar `VITE_IMAGENS_URL` no `.env` pelo endereço e apagar a pasta do
-  repositório. O teste "toda foto citada está na pasta" só vale enquanto o
-  endereço começa com `/`. Roteiro guarda o caminho `/imagens/santos/...`
-  (`caminhoParaGuardar`), e `fotoGuardada` o leva ao endereço atual.
+- **Site de imagens** (15/11/2026): repositório `minha-igrejinha-imagens` (clone ao lado deste, em `../minha-igrejinha-imagens`), publicado pelo Cloudflare Pages da conta minhaigrejinha@gmail.com em `https://minha-igrejinha-imagens.pages.dev` = `VITE_IMAGENS_URL`. Push na `main` de lá publica sozinho. O `_headers` de lá dá `Access-Control-Allow-Origin: *` (sem ele o santinho e o cartaz não desenham a foto) e cache de um ano: foto nova = arquivo com nome novo. Foto nova vai para LÁ (`scripts/santos/imagens.mjs` e o aviso de "foto que falta" do `gerar.mjs` usam essa pasta; `PASTA_DAS_FOTOS` troca), nunca para `public/` deste repositório. Roteiro guarda o caminho `/imagens/santos/...` (`caminhoParaGuardar`), e `fotoGuardada` o leva ao endereço atual.
 - Cartaz e santinho carregam a foto com `crossOrigin = "anonymous"`; sem
   foto (offline, sem CORS) saem com a moldura, sem crédito, nunca quebram.
 - Lista grande mostra 60 e "Mostrar mais". Busca olha nome, nomes e padroado
