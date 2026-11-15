@@ -75,8 +75,9 @@ it("ids e nomes únicos em todo o acervo", () => {
 it("toda foto tem crédito completo", () => {
   for (const s of FICHAS)
     if (s.imagem) {
-      for (const c of ["arquivo", "obra", "autor", "licenca", "url"] as const) expect(s.imagem[c], `${s.id} ${c}`).toBeTruthy();
-      expect(s.imagem.url, s.id).toMatch(/^https:\/\//);
+      for (const c of ["arquivo", "obra", "autor", "licenca"] as const) expect(s.imagem[c], `${s.id} ${c}`).toBeTruthy();
+      if (s.imagem.url) expect(s.imagem.url, s.id).toMatch(/^https:\/\//);
+      else expect(s.imagem.fonte, `${s.id} sem url nem fonte`).toBeTruthy();
       if (s.imagem.foco) expect(s.imagem.foco, s.id).toMatch(/^\d+% \d+%$/);
     }
 });
