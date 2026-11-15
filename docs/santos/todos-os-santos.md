@@ -40,8 +40,8 @@ milagre não reconhecido; venerável e servo não levam "rogai por nós".
 - Ficaram de fora por regra (nada polêmico): inquisidores, cruzados, cisma,
   antipapa, acusação contra judeus, figuras políticas (ex.: Stepinac, Sheptytsky,
   Hlond, Dehon, Plumtree, Felton, Pedro Arbués, Bernardino de Feltre, Werner de
-  Oberwesel, Dominguito del Val, Angelelli). Santa Filomena: fora do Martirológio
-  (decisão do dono pendente).
+  Oberwesel, Dominguito del Val, Angelelli). Santa Filomena: fora do Martirológio,
+  entra como exceção (ver abaixo).
 - Fora do Martirológio 2004 e sem culto confirmado: saem (decisão do dono,
   15/11/2026: Gwladys, Ruadhan de Lorrha e Arcângelo Canetoli, em `excluidos.json`).
 - Perseguidor dos mártires do século XX: nomeado como a Igreja nomeia (nazistas,
@@ -69,6 +69,6 @@ milagre não reconhecido; venerável e servo não levam "rogai por nós".
   um dossiê na diocese de Albi), Lucia Schiavinato (causa aberta em Treviso, na
   Itália: de outro país, só de venerável para cima). Entram se a causa for
   confirmada ou chegar a venerável.
-- Santa Filomena: decisão do dono pendente.
+- Santa Filomena: entra como exceção (decisão do dono, 15/11/2026), com o texto dizendo que não há dados históricos seguros e que a festa saiu do Missal em 1961.
 - 805 santos antigos do Oriente de confiança baixa: só entram se estiverem no
   Martirológio (a 4ª passada já pegou os que estão).
