@@ -1,5 +1,5 @@
 import { NOME_DO_APP } from "@/marca";
-export const CONTATO = "";
+export const CONTATO = "appminhaigrejinha@gmail.com";
 
 export const ATUALIZADO_EM = "11 de novembro de 2026";
 
