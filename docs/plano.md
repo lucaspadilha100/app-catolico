@@ -150,7 +150,7 @@ Legenda: ✅ pronto · 🔨 em andamento · ⬜ a fazer · 👤 precisa do dono
 - ✅ Supabase e Google configurados: conta com e-mail e senha sem depender de e-mail; Google ligado e publicado (sem logotipo, para não exigir verificação)
 - ⬜ "Esqueci a senha" e confirmação de e-mail: quando houver domínio e envio de e-mail próprio (SMTP)
 - ⬜ Entrar com Apple: obrigatório na App Store quando há login do Google (Leva 16)
-- ⬜ 👤 Contato do responsável na política de privacidade (`src/conta/textos.ts`, `CONTATO`)
+- ✅ Contato do responsável na política de privacidade (`CONTATO` = e-mail do app, 15/11/2026)
 
 ### Leva 11. Missas e paróquias 🔨
 - ✅ Perfil da paróquia: endereço, como chegar, secretaria, WhatsApp, Instagram, site, avisos
