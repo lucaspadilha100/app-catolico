@@ -388,7 +388,59 @@
     "cidade": "Curitiba",
     "localidade": "Vista Alegre",
     "endereco": "Rua Victório Viezzer, 810",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": "Missa com Novena a N. Sra. do Perpétuo Socorro"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": "Missa em louvor a São Guido Maria Conforti"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa em devoção ao Sagrado Coração de Jesus"
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 2,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": "Na Capela, ao lado do Centro Catequético"
+     }
+    ],
     "nao_cabe": ""
    }
   ],
@@ -397,10 +449,15 @@
     "url": "https://arquidiocesedecuritiba.org.br/paroquia/paroquia-bom-pastor",
     "data": "2026-11-13",
     "o_que": "contatos"
+   },
+   {
+    "url": "bio + https://www.instagram.com/stories/highlights/18050000801463321/ (destaque MISSAS)",
+    "data": "",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Setor Santa Felicidade, Região Episcopal Centro-Oeste. Sem horário: a página da paróquia no site da Arquidiocese não traz horários de missa."
+  "confianca": "media",
+  "observacao": "Setor Santa Felicidade, Região Episcopal Centro-Oeste. Sem horário: a página da paróquia no site da Arquidiocese não traz horários de missa. Horários do Instagram oficial da paróquia (conferido em 15/11/2026)."
  },
  {
   "id_banco": null,
@@ -1730,7 +1787,43 @@
     "cidade": "Curitiba",
     "localidade": "Capão Raso",
     "endereco": "Rua Capitão Argemiro Monteiro Wanderley, 377, CEP 81130-160",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
     "nao_cabe": "A página desta paróquia traz horários de missa na matriz e nas capelas Nossa Senhora da Esperança e Nossa Senhora da Consolação iguais aos da página da Paróquia Nossa Senhora da Anunciação de Campo Largo; não entraram até a paróquia confirmar de qual das duas são."
    }
   ],
@@ -1739,10 +1832,15 @@
     "url": "https://arquidiocesedecuritiba.org.br/paroquia/paroquia-nossa-senhora-da-anunciacao-capao-raso",
     "data": "2026-11-13",
     "o_que": "contatos"
+   },
+   {
+    "url": "https://www.instagram.com/anunciacaocapaoraso/",
+    "data": "",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Setor Capão Raso, Região Episcopal Sul. Sem horário confirmado: a página da Arquidiocese tem dados repetidos de outra paróquia (ver nao_cabe)."
+  "confianca": "media",
+  "observacao": "Setor Capão Raso, Região Episcopal Sul. Sem horário confirmado: a página da Arquidiocese tem dados repetidos de outra paróquia (ver nao_cabe). Horários do Instagram oficial da paróquia (conferido em 15/11/2026)."
  },
  {
   "id_banco": null,
@@ -3302,7 +3400,36 @@
     "cidade": "Curitiba",
     "localidade": "Barreirinha",
     "endereco": "Rua Carmelina Cavassin; escritório paroquial na Rua Santa Gema, 90",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": "Missa e Novena a Nossa Senhora das Graças"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
     "nao_cabe": ""
    }
   ],
@@ -3311,10 +3438,15 @@
     "url": "https://arquidiocesedecuritiba.org.br/paroquia/paroquia-nossa-senhora-das-gracas-e-santa-gemma-galgani",
     "data": "2026-11-13",
     "o_que": "contatos"
+   },
+   {
+    "url": "https://www.instagram.com/p/DcEaO6tuug1/ (fixado) | https://www.instagram.com/p/DY0DJ0EjmQO/ (fixado, quarta)",
+    "data": "",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Setor Almirante Tamandaré, Região Episcopal Norte. Sem horário: a página da paróquia no site da Arquidiocese não traz horários de missa."
+  "confianca": "media",
+  "observacao": "Setor Almirante Tamandaré, Região Episcopal Norte. Sem horário: a página da paróquia no site da Arquidiocese não traz horários de missa. Horários do Instagram oficial da paróquia (conferido em 15/11/2026)."
  },
  {
   "id_banco": null,

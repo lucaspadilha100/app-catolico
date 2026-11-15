@@ -6918,7 +6918,29 @@
     "cidade": "Recife",
     "localidade": "Jordão Alto",
     "endereco": "Rua Limoeiro, s/n",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
     "nao_cabe": ""
    }
   ],
@@ -6932,10 +6954,15 @@
     "url": "https://www.arquidioceseolindarecife.org/paroquias/recife/",
     "data": "2025-11",
     "o_que": "contatos"
+   },
+   {
+    "url": "https://www.instagram.com/matrizcristoredentorjordao",
+    "data": "",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Vicariato Ibura (Região Sul). Sem horário: a arquidiocese não publica os horários desta paróquia e o site ou perfil próprio não foi encontrado."
+  "confianca": "media",
+  "observacao": "Vicariato Ibura (Região Sul). Sem horário: a arquidiocese não publica os horários desta paróquia e o site ou perfil próprio não foi encontrado. Horários do Instagram oficial da paróquia (conferido em 15/11/2026)."
  },
  {
   "id_banco": null,

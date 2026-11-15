@@ -908,7 +908,64 @@
     "cidade": "Macapá",
     "localidade": "Perpétuo Socorro",
     "endereco": "Rua Acézio Guedes, 549",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
     "nao_cabe": ""
    }
   ],
@@ -927,10 +984,15 @@
     "url": "https://www.diocesedemacapa.com.br/wp-content/uploads/2024/02/EDITAL-No-01-ESCOLHA-DO-CARTAZ-FESTIVIDADE-2024.pdf",
     "data": "2024-02",
     "o_que": "contatos"
+   },
+   {
+    "url": "https://www.instagram.com/perpetuosocorro.macapa/",
+    "data": "",
+    "o_que": "horarios"
    }
   ],
   "confianca": "alta",
-  "observacao": "Vicariato 4. Atende também as ilhas do Bailique e comunidades na beira do rio Amazonas. Instagram citado em edital da própria paróquia. Horários de missa não publicados nas fontes consultadas."
+  "observacao": "Vicariato 4. Atende também as ilhas do Bailique e comunidades na beira do rio Amazonas. Instagram citado em edital da própria paróquia. Horários de missa não publicados nas fontes consultadas. Horários do Instagram oficial da paróquia (conferido em 15/11/2026)."
  },
  {
   "id_banco": null,

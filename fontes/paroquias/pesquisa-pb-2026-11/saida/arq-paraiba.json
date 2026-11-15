@@ -93,8 +93,114 @@
     "tipo": "matriz",
     "cidade": "João Pessoa",
     "localidade": "Centro",
-    "endereco": "",
-    "horarios": [],
+    "endereco": "R. Trincheiras - Centro, João Pessoa - PB, CEP 58013-520",
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "18:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "18:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "18:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "18:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "11:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 2,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": "Até 17h30, confissões e Atendimentos"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": "Até 17h30, confissões e Atendimentos"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": "Até 17h30, confissões e Atendimentos"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": "Até 17h30, confissões e Atendimentos"
+     }
+    ],
     "nao_cabe": ""
    }
   ],
@@ -108,10 +214,15 @@
     "url": "https://arquidiocesepb.org.br/missas-online-arcebispo-e-padres-mantem-celebracoes-em-tempo-de-quarentena/",
     "data": "2020-03-23",
     "o_que": "contatos"
+   },
+   {
+    "url": "https://www.instagram.com/p/DbtnZx4BFAB/",
+    "data": "",
+    "o_que": "horarios"
    }
   ],
   "confianca": "alta",
-  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+  "observacao": "Sem horário de missa publicado nas fontes consultadas em novembro de 2026. Horários do Instagram oficial da paróquia (conferido em 15/11/2026)."
  },
  {
   "id_banco": null,
@@ -505,8 +616,72 @@
     "tipo": "matriz",
     "cidade": "João Pessoa",
     "localidade": "Torre",
-    "endereco": "",
-    "horarios": [],
+    "endereco": "Pça Tiradentes s/n - Torre - João Pessoa - PB",
+    "horarios": [
+     {
+      "tipo": "confissao",
+      "dia_semana": 2,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": "Até 17h, no Seminário"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": "Até 17h, no Seminário"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "14:30",
+      "semanas": null,
+      "observacao": "Até 17h, na igreja"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "14:30",
+      "semanas": null,
+      "observacao": "Até 17h, na igreja"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 1,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 2,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
     "nao_cabe": ""
    }
   ],
@@ -520,10 +695,15 @@
     "url": "https://arquidiocesepb.org.br/missas-online-arcebispo-e-padres-mantem-celebracoes-em-tempo-de-quarentena/",
     "data": "2020-03-23",
     "o_que": "contatos"
+   },
+   {
+    "url": "https://www.instagram.com/p/DbJ025LJFY9/ (post fixado)",
+    "data": "",
+    "o_que": "horarios"
    }
   ],
   "confianca": "media",
-  "observacao": "Citada como área pastoral até 2022; situação atual não confirmada. Sem horário de missa publicado nas fontes consultadas em novembro de 2026."
+  "observacao": "Citada como área pastoral até 2022; situação atual não confirmada. Sem horário de missa publicado nas fontes consultadas em novembro de 2026. Horários do Instagram oficial da paróquia (conferido em 15/11/2026)."
  },
  {
   "id_banco": null,

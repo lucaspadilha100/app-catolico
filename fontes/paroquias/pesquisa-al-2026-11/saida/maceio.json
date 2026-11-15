@@ -20,7 +20,71 @@
     "cidade": "Maceió",
     "localidade": "Centro",
     "endereco": "Praça Dom Pedro II, s/n",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
     "nao_cabe": ""
    },
    {
@@ -30,7 +94,22 @@
     "cidade": "Maceió",
     "localidade": "Farol",
     "endereco": "",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
     "nao_cabe": ""
    }
   ],
@@ -54,10 +133,15 @@
     "url": "https://www.tribunadosertao.com.br/variedades/2022/04/07/430844-arquidiocese-de-maceio-divulga-programacao-para-celebracoes-da-semana-santa-e-triduo-pascal",
     "data": "2026-11-13",
     "o_que": "contatos"
+   },
+   {
+    "url": "https://www.instagram.com/p/Dbk47KKkUMK/",
+    "data": "",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Paróquia de 1819, padroeira da arquidiocese e da cidade (festa em 27 de agosto). Perfil no Instagram visto em notícia de 2022: catedraldemaceionsp. Sem horário publicado achado: a arquidiocese não mantém páginas de paróquia com grade de missas. O site da arquidiocese só publica a programação de festas."
+  "confianca": "media",
+  "observacao": "Paróquia de 1819, padroeira da arquidiocese e da cidade (festa em 27 de agosto). Perfil no Instagram visto em notícia de 2022: catedraldemaceionsp. Sem horário publicado achado: a arquidiocese não mantém páginas de paróquia com grade de missas. O site da arquidiocese só publica a programação de festas. Horários do Instagram oficial da paróquia (conferido em 15/11/2026)."
  },
  {
   "id_banco": null,
