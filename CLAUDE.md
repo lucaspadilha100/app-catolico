@@ -79,6 +79,7 @@ configurado desde o início) · **Supabase** plano gratuito (projeto
   comunidade apontam a matriz por `matriz_id`. Nome sem parênteses e sem a
   cidade ("Capela de São Bento", lugar no `bairro`). A página da igreja mostra
   "Pertence à ..." e a lista de capelas; no painel, "Pertence à paróquia".
+- **Pontos do OpenStreetMap** (15/11/2026): o ambiente do Claude não baixa o mapa (Overpass e Geofabrik recusam); a tarefa `.github/workflows/igrejas-osm.yml` roda no GitHub quando o próprio arquivo muda e deixa as igrejas católicas do Brasil num artefato (7 dias, lido pela ferramenta do GitHub). O cruzamento (`scripts/paroquias/osm_nossas.py` e `osm_cruzar.py`: nome igual, perto da cidade ou da matriz, candidato único) virou `20261212004500_dados_pontos_openstreetmap.sql`: 1.107 igrejas saíram do centro da cidade ou do ponto da matriz. Refazer quando o mapa crescer.
 - **Rodada de horários** (paróquias da pesquisa sem horário): `docs/paroquias/rodada-de-horarios.md`, lista em `fontes/paroquias/sem-horario.json`, migração com `carregar_estado.py --so-horarios`.
 - **Fila "Para conferir" do painel** (pedido do dono, 13/11/2026: "impossível
   humanamente" conferir as cargas): só o que não tem fonte (`fonte = ''`) nem
