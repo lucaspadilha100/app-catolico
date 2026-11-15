@@ -32,7 +32,9 @@ def limpo(t):
     return re.sub(r"\s+", " ", t).strip()[:200]
 
 alvos = {}
-for f in sorted(glob.glob("fontes/santos/fichas/*.json")):
+if os.environ.get("ALVOS"):
+    alvos = json.load(open(os.environ["ALVOS"]))
+for f in ([] if alvos else sorted(glob.glob("fontes/santos/fichas/*.json"))):
     d = json.load(open(f))
     arq = d.get("foto_commons")
     if arq and not d.get("imagem"):

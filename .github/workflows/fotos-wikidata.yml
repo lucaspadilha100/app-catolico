@@ -1,0 +1,26 @@
+name: Fotos dos santos (Wikidata)
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/fotos-wikidata.yml']
+
+jobs:
+  baixar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install --quiet pillow
+      - run: mkdir -p saida && python3 scripts/santos/alvos_wikidata.py saida/alvos.json scripts/santos/recusadas-commons.txt
+      - run: python3 scripts/santos/baixar_commons.py saida
+        env:
+          ALVOS: saida/alvos.json
+          MINUTOS: "240"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: fotos-wikidata
+          path: saida
+          retention-days: 90
