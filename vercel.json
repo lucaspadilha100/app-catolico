@@ -9,5 +9,5 @@
       "destination": "/index.html"
     }
   ],
-  "ignoreCommand": "git diff --quiet ${VERCEL_GIT_PREVIOUS_SHA:-HEAD^} HEAD -- . ':(exclude)fontes' ':(exclude)docs' ':(exclude)supabase' ':(exclude)scripts'"
+  "ignoreCommand": "sh vercel-ignorar.sh"
 }
