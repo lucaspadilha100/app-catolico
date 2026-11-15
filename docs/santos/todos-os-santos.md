@@ -42,6 +42,13 @@ milagre não reconhecido; venerável e servo não levam "rogai por nós".
   Hlond, Dehon, Plumtree, Felton, Pedro Arbués, Bernardino de Feltre, Werner de
   Oberwesel, Dominguito del Val, Angelelli). Santa Filomena: fora do Martirológio
   (decisão do dono pendente).
+- Fora do Martirológio 2004 e sem culto confirmado: saem (decisão do dono,
+  15/11/2026: Gwladys, Ruadhan de Lorrha e Arcângelo Canetoli, em `excluidos.json`).
+- Perseguidor dos mártires do século XX: nomeado como a Igreja nomeia (nazistas,
+  Gestapo, comunistas, Boxers), porque é o que dizem o Martirológio e a Santa Sé
+  (decisão do dono, 15/11/2026). Na Espanha de 1936, sem nomear partidos nem
+  grupos armados ("na perseguição religiosa de 1936"). Sempre como fato, sem
+  adjetivo nem juízo político.
 - Membro de grupo com dia próprio no Martirológio tem ficha individual; o grupo
   continua.
 - Data: a do Martirológio; beato posterior a 2004, a memória dada pela fonte;
