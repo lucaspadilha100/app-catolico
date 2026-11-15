@@ -70,6 +70,8 @@ milagre não reconhecido; venerável e servo não levam "rogai por nós".
   conhecida). Sem foto: 739 santos (quase todos antigos, da França, Itália e Oriente, sem
   retrato conhecido), 172 beatos (mártires ingleses, franceses e espanhóis), 36 veneráveis e
   5 servos de Deus; ficam com a moldura e o símbolo, sem rosto inventado.
+- Próximo passo das fotos: o Claude do navegador do dono (Google Imagens funciona lá; aqui é bloqueado) preenche a planilha dos que faltam (id, link da imagem, página, site), primeiro os servos de Deus do Brasil, veneráveis e beatos; aqui se baixa, confere em prancha e liga com o crédito. Fotos mandadas pelo dono entram em `oficial/` com `fonte` (o site) e `url` vazia quando a página não é conhecida (o teste aceita: url ou fonte). Pendentes do dono (15/11/2026): Mons. Edmundo Igreja, Frei Egídio Maria Moscini, Mons. João Benvegnú e Frei Miguel Ângelo Serafim (os prints não chegaram como arquivo) e a fonte da foto do Pe. Ramiro Leite Felício dos Santos.
+- Servos de Deus: só do Brasil (regra do dono); de fora do Brasil, só de venerável para cima.
 - Fora por falta de confirmação (servos de Deus ligados ao Brasil): Pero Dias e
   onze companheiros (causa não achada na Santa Sé), Dom Pedro Luís Galibert (só
   um dossiê na diocese de Albi), Lucia Schiavinato (causa aberta em Treviso, na
