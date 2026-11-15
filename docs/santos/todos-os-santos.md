@@ -54,11 +54,21 @@ milagre não reconhecido; venerável e servo não levam "rogai por nós".
 - Data: a do Martirológio; beato posterior a 2004, a memória dada pela fonte;
   venerável, o dia da morte (`dataDe: "falecimento"`).
 
-## O que falta
-- Veneráveis declarados de 1978 até hoje (boletins do Vaticano): a lista oficial
-  está sendo montada; o app tem 425.
-- Fotos: 555 fichas com foto; 2.145 com foto livre apontada no Wikimedia
-  (`foto_commons`) a baixar; as demais a buscar com crédito. Depende do site de
-  imagens no Cloudflare (repositório `minha-igrejinha-imagens`).
+## O que falta (15/11/2026)
+- No app: 6.126 fichas (3.188 santos, 1.728 beatos, 859 veneráveis, 87 servos de
+  Deus, 33 títulos de Nossa Senhora, 231 festas e comemorações). Martirológio 2004
+  conferido dia a dia; veneráveis dos decretos de 1909 a 2026; beatos e santos dos
+  decretos de 2000 a 2026; Brasil completo pela lista da Academia Brasileira de
+  Hagiologia.
+- Fotos: 555 fichas com foto; 2.142 com foto livre apontada no Wikimedia
+  (`foto_commons`) a baixar (o Wikimedia recusa este servidor com 429; baixar de
+  outro lugar); as demais a buscar com crédito. Depende do site de imagens no
+  Cloudflare (repositório `minha-igrejinha-imagens`).
+- Fora por falta de confirmação (servos de Deus ligados ao Brasil): Pero Dias e
+  onze companheiros (causa não achada na Santa Sé), Dom Pedro Luís Galibert (só
+  um dossiê na diocese de Albi), Lucia Schiavinato (causa aberta em Treviso, na
+  Itália: de outro país, só de venerável para cima). Entram se a causa for
+  confirmada ou chegar a venerável.
+- Santa Filomena: decisão do dono pendente.
 - 805 santos antigos do Oriente de confiança baixa: só entram se estiverem no
   Martirológio (a 4ª passada já pegou os que estão).
