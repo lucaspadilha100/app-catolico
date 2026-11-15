@@ -56,6 +56,6 @@ paróquias (14/11/2026, os 27 estados no banco): aumentar o limite nas variávei
   a busca não mostra. Londrina, Cascavel, São José dos Pinhais (PR) e Grajaú (MA)
   têm páginas por paróquia, mas o site recusa robôs. O dono abriu no navegador em
   15/11/2026: Londrina, Cascavel e Grajaú só têm endereço e contato (nenhum horário);
-  o site de São José dos Pinhais estava em manutenção. Não adianta voltar a eles.
+  o site de São José dos Pinhais estava em manutenção. Londrina: o dono achou a página "Horários de Missas" do site ANTIGO (siteantigo.arquidioceselondrina.com.br/horarios-de-missas) e mandou a planilha; 59 paróquias, 379 horários (`20261212005300_dados_pr_horarios.sql`). Ficaram de fora as homônimas que a planilha não separa (Imaculada Conceição, N. Sra. Aparecida e N. Sra. do Carmo em Londrina) e os decanatos Rolândia e Porecatu, que não publicam.
   O caminho para o resto é a própria paróquia (gestor da secretaria, "Sugerir
   horário") e não mais busca.
