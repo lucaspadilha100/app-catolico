@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { classificar, confere, diaDoTitulo, lerFeed, leiturasDaPagina, referenciaDoTitulo, siglaDoLivro, type Regra } from "../../supabase/functions/videos/regras";
+import { classificar, confere, diaDoTitulo, lerAoVivo, lerFeed, leiturasDaPagina, referenciaDoTitulo, siglaDoLivro, type Regra } from "../../supabase/functions/videos/regras";
 
 const GILSON: Regra[] = [
   { tipo: "homilia", contem: ["Meditação da Palavra"] },
@@ -103,5 +103,19 @@ describe("passagem", () => {
     expect(confere({ sigla: "1Ts", capitulo: 4, texto: "" }, l)).toBe(true);
     expect(confere({ sigla: "Lc", capitulo: 18, texto: "" }, l)).toBe(false);
     expect(confere({ sigla: "Cl", capitulo: 4, texto: "" }, l)).toBe(false);
+  });
+});
+
+describe("ao vivo", () => {
+  const pagina = (vivo: boolean) =>
+    `<html>{"contents":{"twoColumnWatchNextResults":{"results":{"results":{"contents":[{"videoPrimaryInfoRenderer":{"title":{"runs":[{"text":"Ter\\u00e7o com a Canção Nova \\"ao vivo\\""}]},"viewCount":{"videoViewCountRenderer":{"isLive":${vivo}}}}}]}}}},"updatedMetadataEndpoint":{"clickTrackingParams":"x","commandMetadata":{"webCommandMetadata":{"apiUrl":"/youtubei/v1/updated_metadata"}},"updatedMetadataEndpoint":{"videoId":"lDXM4g7ewAA"}}</html>`;
+
+  it("lê o vídeo e o título da transmissão no ar", () => {
+    expect(lerAoVivo(pagina(true))).toEqual({ id: "lDXM4g7ewAA", titulo: 'Terço com a Canção Nova "ao vivo"' });
+  });
+
+  it("canal fora do ar não tem transmissão", () => {
+    expect(lerAoVivo(pagina(false))).toBeNull();
+    expect(lerAoVivo('<link rel="canonical" href="https://www.youtube.com/channel/UC6V9mqiVuzd-v3ozUfCtZFA">')).toBeNull();
   });
 });

@@ -136,7 +136,7 @@ describe("vídeos", () => {
   it("todos leem os vídeos, ninguém grava pela API, só o administrador esconde", async () => {
     await db.query("insert into public.videos (id, canal_id, tipo, titulo, dia, publicado_em) values ('aaaaaaaaaaa', 'frei-gilson', 'homilia', 'Meditação', '2026-11-15', now()), ('bbbbbbbbbbb', 'frei-gilson', 'terco', 'Rosário', '2026-11-15', now()) on conflict do nothing");
     const canais = await como("anon", null, "select id from public.canais_video order by ordem");
-    expect(canais.rows.map((r) => (r as { id: string }).id)).toEqual(["frei-gilson", "padre-paulo-ricardo", "padre-chrystian-shankar", "padre-reginaldo-manzotti"]);
+    expect(canais.rows.map((r) => (r as { id: string }).id)).toEqual(["frei-gilson", "padre-paulo-ricardo", "padre-chrystian-shankar", "padre-reginaldo-manzotti", "tv-aparecida", "cancao-nova", "tv-pai-eterno", "rede-seculo-21", "vatican-news"]);
     expect((await como("anon", null, "select id from public.videos")).rows).toHaveLength(2);
     await expect(como("anon", null, "insert into public.videos (id, canal_id, tipo, titulo, dia, publicado_em) values ('ccccccccccc', 'frei-gilson', 'missa', 'x', '2026-11-15', now())")).rejects.toThrow();
     await expect(como("authenticated", A, "update public.videos set titulo = 'mexido'")).rejects.toThrow();
@@ -150,6 +150,14 @@ describe("vídeos", () => {
     expect((await como("authenticated", B, "select id from public.videos order by id")).rows).toHaveLength(2);
     await como("authenticated", B, "select public.esconder_video('aaaaaaaaaaa', false)");
     expect((await como("anon", null, "select id from public.videos")).rows).toHaveLength(2);
+  });
+
+  it("todos leem as transmissões, ninguém grava pela API", async () => {
+    await db.query("insert into public.transmissoes (canal_id, video_id, titulo, desde) values ('cancao-nova', 'lDXM4g7ewAA', 'Terço', now()) on conflict (canal_id) do update set video_id = excluded.video_id");
+    expect((await como("anon", null, "select canal_id, video_id from public.transmissoes")).rows).toEqual([{ canal_id: "cancao-nova", video_id: "lDXM4g7ewAA" }]);
+    await expect(como("anon", null, "update public.transmissoes set video_id = null")).rejects.toThrow();
+    await expect(como("authenticated", A, "insert into public.transmissoes (canal_id) values ('tv-aparecida')")).rejects.toThrow();
+    await expect(db.query("insert into public.transmissoes (canal_id, video_id) values ('tv-aparecida', 'curto')")).rejects.toThrow();
   });
 
   it("só vídeo do YouTube de id válido e tipo conhecido", async () => {

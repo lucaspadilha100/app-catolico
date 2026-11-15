@@ -159,3 +159,22 @@ export function leiturasDaPagina(html: string): Leitura[] {
 export function confere(ref: Referencia, leituras: Leitura[]): boolean {
   return leituras.some((l) => l.sigla === ref.sigla && Math.abs(l.capitulo - ref.capitulo) <= 1);
 }
+
+export interface AoVivo {
+  id: string;
+  titulo: string;
+}
+
+export function lerAoVivo(html: string): AoVivo | null {
+  if (!html.includes('"isLive":true')) return null;
+  const id = /"updatedMetadataEndpoint":\{[\s\S]{0,1200}?"videoId":"([A-Za-z0-9_-]{11})"/.exec(html)?.[1];
+  const bruto = /"videoPrimaryInfoRenderer":\{"title":\{"runs":\[\{"text":"((?:[^"\\]|\\.)*)"/.exec(html)?.[1];
+  if (!id || bruto === undefined) return null;
+  let titulo = bruto;
+  try {
+    titulo = JSON.parse(`"${bruto}"`) as string;
+  } catch {
+    titulo = bruto;
+  }
+  return { id, titulo: titulo.normalize("NFC").trim() };
+}
