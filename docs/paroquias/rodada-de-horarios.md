@@ -46,3 +46,14 @@ que faltam.
 O Claude Code limita as buscas na web por sessão
 (`CLAUDE_CODE_MAX_WEB_SEARCHES_PER_SESSION`, padrão 200). São 5.887
 paróquias (14/11/2026, os 27 estados no banco): aumentar o limite nas variáveis do ambiente antes de abrir a sessão.
+
+## Resultado das rodadas
+- 14/11/2026: SP, RJ, RS e MG (migrações `*_dados_<uf>_horarios.sql`).
+- 15/11/2026: PB, GO, PR, CE, PE, MA e AL. Só 2 paróquias novas (PR: Santuário da
+  Divina Misericórdia, Curitiba; Santa Rita de Cássia, Lunardelli). O que falta
+  nesses estados NÃO está na web aberta: as dioceses não publicam (ou publicam
+  só as que já entraram), e as paróquias do interior divulgam no Instagram, que
+  a busca não mostra. Londrina, Cascavel, São José dos Pinhais (PR) e Grajaú (MA)
+  têm páginas por paróquia, mas o site recusa robôs: abrir num navegador comum.
+  O caminho para o resto é a própria paróquia (gestor da secretaria, "Sugerir
+  horário") e não mais busca.

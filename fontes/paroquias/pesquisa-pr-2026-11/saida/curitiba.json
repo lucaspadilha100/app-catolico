@@ -9219,8 +9219,172 @@
     "cidade": "Curitiba",
     "localidade": "Umbará",
     "endereco": "Estrada do Ganchinho, 570, CEP 81930-165",
-    "horarios": [],
-    "nao_cabe": ""
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": "Após a missa, até 19h"
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 6,
+      "hora": "07:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Das 7h às 19h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 2,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": "Até 11h30"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": "Até 11h30"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": "Até 11h30"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": "Até 11h30"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 2,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": "Até 17h30"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": "Até 17h30"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": "Até 17h30"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": "Até 17h30"
+     }
+    ],
+    "nao_cabe": "Hora da Misericórdia: segunda, terça, quinta e sábado às 15h."
    }
   ],
   "fontes": [
@@ -9228,9 +9392,14 @@
     "url": "https://arquidiocesedecuritiba.org.br/paroquia/santuario-da-divina-misericordia",
     "data": "2026-11-13",
     "o_que": "contatos"
+   },
+   {
+    "url": "https://misericordia.org.br/horario/",
+    "data": "2026-11-15",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
+  "confianca": "alta",
   "observacao": "Setor Pinheirinho, Região Episcopal Sul. Santuário com paróquia. Sem horário: a página da paróquia no site da Arquidiocese não traz horários de missa."
  },
  {
