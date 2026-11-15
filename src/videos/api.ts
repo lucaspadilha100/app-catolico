@@ -82,13 +82,38 @@ export function enderecoDoPlayer(id: string, tocar: boolean): string {
   return `https://www.youtube-nocookie.com/embed/${id}?${p}`;
 }
 
+const GENERICO = /^(medita[cç][aã]o da palavra|homilia( di[aá]ria| dominical)?|live ao vivo|ao vivo|live|santa missa( dominical)?|evangelho do dia)$/i;
+
+function semCaixaAlta(t: string): string {
+  const letras = t.replace(/[^A-Za-zÀ-ÿ]/g, "");
+  if (letras.length < 4 || letras !== letras.toUpperCase()) return t;
+  const baixo = t.toLocaleLowerCase("pt-BR");
+  return (baixo.charAt(0).toLocaleUpperCase("pt-BR") + baixo.slice(1)).replace(/\bsanta missa\b/gi, "Santa Missa").replace(/\bnossa senhora\b/gi, "Nossa Senhora");
+}
+
+function limparParte(p: string, canal: string): string {
+  const nome = canal.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  return p
+    .replace(/\s*\([^()]*\d{1,2}\/\d{1,2}\/\d{2,4}[^()]*\)/g, "")
+    .replace(/\s*\(\s*\d{1,2}º? de [a-zçA-ZÇ]+\s*\)/g, "")
+    .replace(/\s*\[?\b\d{1,2}\/\d{1,2}\/\d{2,4}\b\]?/g, "")
+    .replace(/\s*#\d+/g, "")
+    .replace(/\s*(com\s+)?@\w+/gi, "")
+    .replace(new RegExp(`\\s*[-/]?\\s*(com\\s+(o\\s+)?)?${nome}\\s*!?$`, "i"), "")
+    .replace(/\s*com\s+(o\s+)?(Pe\.|Padre|Frei)\s+[A-ZÀ-Ý][\wÀ-ÿ]*(\s+[A-ZÀ-Ý][\wÀ-ÿ]*)*\s*$/u, "")
+    .replace(/[\s\-–:|,]+$/g, "")
+    .replace(/^[\s\-–:|,]+/g, "")
+    .trim();
+}
+
 export function tituloLimpo(titulo: string, canal: string): string {
   const partes = titulo
     .split("|")
-    .map((p) => p.trim())
-    .filter((p) => p && !/^#\d+$/.test(p) && !/^(medita[cç][aã]o da palavra|homilia (di[aá]ria|dominical)|live ao vivo|santa missa)$/i.test(p));
-  const t = (partes[0] ?? titulo).replace(/\s*#\d+\s*/g, " ").replace(new RegExp(`\\s*-?\\s*${canal}\\s*$`, "i"), "").trim();
-  return t || titulo;
+    .map((p) => limparParte(p, canal))
+    .filter((p) => p && !/^\d{1,2}h(\d{2})?$/i.test(p) && !/^[1-3]?\s?[A-Za-zÀ-ÿ]{1,4}\s+\d+\s*,\s*\d/.test(p));
+  const escolhida = partes.find((p) => !GENERICO.test(p)) ?? (partes.length > 1 && /^homilia$/i.test(partes[0]!) ? partes[1] : partes[0]) ?? titulo;
+  const final = partes[0] && /^homilia$/i.test(partes[0]) && escolhida !== partes[0] ? `Homilia: ${escolhida}` : escolhida;
+  return semCaixaAlta(final);
 }
 
 export interface Transmissao {
