@@ -122,6 +122,9 @@ Legenda: ✅ pronto · 🔨 em andamento · ⬜ a fazer · 👤 precisa do dono
 - ✅ Calendário da Arquidiocese de Natal (Mártires de Cunhaú e Uruaçu, Dedicação da Catedral, Nossa Senhora da Apresentação), escolhido em Mais
 - ⬜ 👤 Revisar as histórias (`docs/santos/a-revisar.md`) e o calendário de Natal com o Diretório Litúrgico da arquidiocese
 - ⬜ Outras dioceses, aos poucos
+- ✅ Fotos: 5.175 das 6.127 fichas (15/11/2026), conferidas uma a uma, no site de imagens
+- ⬜ 👤 Fotos que faltam (952) pelo Google Imagens via API: o dono cria a conta grátis no serper.dev (e-mail do app, 2.500 buscas, sem cartão) e salva a chave pelo formulário seguro da sessão (nunca no chat, nunca no repositório); o Claude busca, baixa até 3 opções por santo, confere em prancha e liga com o crédito, num push só
+- ⬜ 👤 Servos de Deus do Brasil sem foto: o dono reenvia os prints de Mons. Edmundo Igreja, Frei Egídio Maria Moscini, Mons. João Benvegnú e Frei Miguel Ângelo Serafim, e diz a fonte da foto do Pe. Ramiro Leite Felício dos Santos
 
 ### Leva 8. Reflexões 🔨
 - ✅ Reflexão de cada Evangelho que o app mostra de 2025 a 2036 (454 passagens: domingos A, B e C, dias de semana, festas e santos), com uma pergunta para a oração
@@ -182,6 +185,10 @@ Legenda: ✅ pronto · 🔨 em andamento · ⬜ a fazer · 👤 precisa do dono
 - ⬜ 👤 Decidir sobre o OpenStreetMap: as igrejas que vieram só do mapa
   mostram "© colaboradores do OpenStreetMap" (licença aberta ODbL, pede o
   crédito; quem copiar a lista inteira do app tem de manter a mesma licença)
+- ✅ Horários do Instagram (15/11/2026): Londrina pela planilha do site antigo da arquidiocese (59 paróquias) e as primeiras levas do Claude do navegador do dono (33 paróquias); `scripts/paroquias/importar_instagram.py`
+- ⬜ 👤 Horários pelo Instagram: terminar as 780 que já têm Instagram, depois as capitais (957 sem horário; São Paulo, Rio, BH e Salvador são 70%), depois as maiores cidades de cada estado
+- ⬜ 👤 Pente fino do RN (o case do dono): cruzar com a planilha conferida à mão pelo amigo do dono (contatos na Arquidiocese de Natal), relatório de diferenças, o dono decide as dúvidas, migração de correção só do RN, depois o ponto de cada igreja no mapa
+- ⬜ Capelas que o Instagram mostrou e não estão no app (`fontes/paroquias/instagram-relatorio.txt`): cadastrar numa rodada própria
 - ✅ Sem mapa dentro do app (decisão do dono): "Como chegar" abre o app de mapas do celular (Mapas da Apple no iPhone, Google Maps no Android e no computador)
 
 ### Leva 12. Terço da Juventude 🔨
