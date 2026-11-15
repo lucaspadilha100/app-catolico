@@ -53,6 +53,7 @@ export interface ManifestoDosSantos {
   grupos: Record<string, number>;
   indice: string;
   partes: string[];
+  destaques: string;
   dias: Record<string, string>;
   creditos: Record<string, { arquivo: string; total: number }>;
 }

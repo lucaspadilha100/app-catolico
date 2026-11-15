@@ -25,6 +25,9 @@ let carregando: Promise<Lecionario> | null = null;
 
 export function carregarLecionario(): Promise<Lecionario> {
   carregando ??= import("./dados/lecionario.json").then((m) => m.default as unknown as Lecionario);
+  carregando.catch(() => {
+    carregando = null;
+  });
   return carregando;
 }
 

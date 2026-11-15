@@ -77,8 +77,6 @@ export const LIVROS: Livro[] = GRUPOS.flatMap(([testamento, grupo, linhas]) =>
   })),
 );
 
-export const GRUPOS_DA_BIBLIA = GRUPOS.map(([testamento, grupo]) => ({ testamento, grupo }));
-
 const POR_CODIGO = new Map(LIVROS.map((l) => [l.codigo, l]));
 const POR_SLUG = new Map(LIVROS.map((l) => [l.slug, l]));
 

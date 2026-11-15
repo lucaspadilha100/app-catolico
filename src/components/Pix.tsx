@@ -8,10 +8,17 @@ const BOTAO = "flex min-h-12 items-center justify-center gap-2 rounded-xl bg-pri
 
 const real = (n: number) => n.toLocaleString("pt-BR", { style: "currency", currency: "BRL", maximumFractionDigits: 0 });
 
+export function valorDigitado(texto: string): number {
+  const limpo = texto.replace(/[^\d.,]/g, "");
+  const m = limpo.match(/^(.*)[.,](\d{1,2})$/);
+  const inteiro = (m?.[1] ?? limpo).replace(/[.,]/g, "");
+  return Number(m ? `${inteiro || "0"}.${m[2]}` : inteiro);
+}
+
 export function Pix({ chave, nome, cidade, recebedor, valores }: { chave: string; nome: string; cidade: string; recebedor?: string; valores?: number[] }) {
   const [valor, setValor] = useState("");
   const [copiado, setCopiado] = useState<"" | "codigo" | "chave">("");
-  const numero = Number(valor.replace(/\./g, "").replace(",", "."));
+  const numero = valorDigitado(valor);
   const codigo = useMemo(() => codigoPix({ chave, nome, cidade, valor: Number.isFinite(numero) && numero > 0 ? Math.min(numero, 99999) : null }), [chave, nome, cidade, numero]);
   const qr = useMemo(() => renderSVG(codigo, { border: 2 }), [codigo]);
 

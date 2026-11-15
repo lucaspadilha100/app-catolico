@@ -55,6 +55,7 @@ export default function Hoje() {
   const l = useDiaLiturgico();
   const andamento = emAndamento(l.data).slice(0, 4);
   const preferencias = usePreferencias().preferencias;
+  const simples = preferencias.simples;
   const { diocese, batismo } = preferencias;
   const temParoquia = paroquiasFavoritas(preferencias).length > 0;
   const [falecidos] = useFalecidos();
@@ -194,9 +195,9 @@ export default function Hoje() {
         )}
       </header>
 
-      <div className="-mx-4 flex snap-x scroll-px-4 gap-2.5 overflow-x-auto px-4 [scrollbar-width:none]">
+      <div className="grid grid-cols-2 gap-2.5">
         {atalhos.map(({ para, icone: Icone, titulo, detalhe }) => (
-          <Link key={para} to={para} className="flex size-[8.5rem] shrink-0 snap-start flex-col justify-between rounded-3xl bg-cartao p-4">
+          <Link key={para} to={para} className="flex min-h-[7.25rem] min-w-0 flex-col justify-between rounded-3xl bg-cartao p-4">
             <Icone className="size-7 text-tinta" aria-hidden />
             <span>
               <span className="block text-[1.0625rem] font-bold leading-tight tracking-[-0.01em] text-tinta">{titulo}</span>
@@ -246,7 +247,7 @@ export default function Hoje() {
 
       {missas && <ReflexaoResumo canonica={evangelhoDaMissa(missas[0])} para="/liturgia#reflexao" />}
 
-      <VideosDeHoje dia={paraIso(l.data)} />
+      {!simples && <VideosDeHoje dia={paraIso(l.data)} />}
 
       {temParoquia ? (
         <ProximaMissa />
@@ -262,7 +263,7 @@ export default function Hoje() {
 
       <OracoesDoDia pascal={ehTempoPascal(l.tempo)} />
 
-      <NovenasDoMes data={l.data} />
+      {!simples && <NovenasDoMes data={l.data} semAndamento />}
 
       {paraRezar > 0 && (
         <section className="flex flex-col gap-1">
@@ -301,6 +302,21 @@ export default function Hoje() {
         </section>
       )}
 
+      {l.santos.length === 0 && santosDoDia.some((s) => s.calendario) && (
+        <section className="flex flex-col gap-1">
+          <h2 className="titulo-secao mb-2 px-1">Hoje a Igreja lembra</h2>
+          {santosDoDia
+            .filter((s) => s.calendario)
+            .map((s) => (
+              <Link key={s.id} to={`/santos/${s.id}`} className={linha}>
+                <FotoDoSanto santo={s} largura={136} altura={136} className="size-[4.25rem] shrink-0 rounded-[1.1rem] bg-cartao" />
+                <span className="min-w-0 flex-1 font-bold leading-snug text-tinta">{s.nome}</span>
+                <ChevronRight className="size-5 shrink-0 text-tinta-suave" aria-hidden />
+              </Link>
+            ))}
+        </section>
+      )}
+
       {l.santos.length > 0 && (
         <section className="flex flex-col gap-1">
           <h2 className="titulo-secao mb-2 px-1">{l.santos.length > 1 ? "Santos do dia" : "Santo do dia"}</h2>
@@ -323,7 +339,7 @@ export default function Hoje() {
         </section>
       )}
 
-      {conhecer.length > 0 && (
+      {!simples && conhecer.length > 0 && (
         <section>
           <div className="mb-2 flex items-baseline justify-between">
             <h2 className="titulo-secao px-1">Conheça os santos</h2>
@@ -377,9 +393,9 @@ export default function Hoje() {
         </Link>
       </section>
 
-      <NovidadesDasIgrejas />
+      {!simples && <NovidadesDasIgrejas />}
 
-      <CartaoDaCampanha />
+      {!simples && <CartaoDaCampanha />}
 
       <PedirApoio />
 

@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { BadgeCheck, Check, HandHeart, Palette, Share2, Vote } from "lucide-react";
 import { NOME_DO_APP, PIX_DO_APP } from "@/marca";
 import { compartilhar, ehNativo, enderecoPublico } from "@/lib/nativo";
+import { executar } from "@/lib/acao";
 import { ehApoiador, usePreferencias } from "@/lib/preferencias";
 import { useConta } from "@/conta/useConta";
 import { declararApoio, maisRecente, useApoiador, votacao, votar, type OpcaoDeVoto } from "@/apoio/api";
@@ -55,7 +56,7 @@ function Votacao() {
               <button
                 type="button"
                 aria-pressed={meu}
-                onClick={() => void votar(o.id).then(recarregar)}
+                onClick={() => executar(votar(o.id), recarregar)}
                 className={`relative flex min-h-14 w-full flex-col overflow-hidden rounded-xl border px-4 py-2.5 text-left ${meu ? "border-destaque-texto" : "border-borda"} bg-cartao`}
               >
                 {dados.meu && <span className="absolute inset-y-0 left-0 bg-marca-fundo" style={{ width: `${parte}%` }} aria-hidden />}

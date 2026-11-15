@@ -97,8 +97,18 @@ function Abrir() {
 }
 
 export function PortaDoCofre({ children }: { children: ReactNode }) {
-  const { existe, aberto } = useCofre();
-  if (aberto) return <>{children}</>;
+  const { existe, aberto, naoSalvou } = useCofre();
+  if (aberto)
+    return (
+      <>
+        {naoSalvou && (
+          <p role="alert" className="mb-3 rounded-xl border border-borda bg-cartao p-3 text-sm text-tinta">
+            Não foi possível guardar a última mudança neste aparelho. Copie o texto antes de sair.
+          </p>
+        )}
+        {children}
+      </>
+    );
   return <Cartao>{existe ? <Abrir /> : <Criar />}</Cartao>;
 }
 

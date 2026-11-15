@@ -2,7 +2,7 @@ import { useCallback, useEffect, useState } from "react";
 import type { CreditoDoSanto, FotoDoIndice, ManifestoDosSantos, Santo, SantoDoIndice } from "./tipos";
 import MANIFESTO from "./dados/manifesto.json";
 import { textoDoCredito } from "@/lib/imagens";
-import { PARTES, normalizar, parteDoId } from "./comum";
+import { normalizar, parteDoId } from "./comum";
 
 export { normalizar, nomeParaOrdenar } from "./comum";
 
@@ -44,7 +44,6 @@ function carregar<T>(arquivo: string): Promise<T> {
   return promessa;
 }
 
-export const TOTAL_DE_SANTOS = M.total;
 export const CONTAGEM_DOS_GRUPOS: Readonly<Record<string, number>> = M.grupos;
 export const LETRAS_DOS_CREDITOS = Object.keys(M.creditos);
 export const totalDeCreditos = (letra?: string) => (letra ? (M.creditos[letra]?.total ?? 0) : M.comFoto);
@@ -87,19 +86,12 @@ function sorteador(iso: string) {
 export async function santosParaConhecer(iso: string, n: number): Promise<SantoDoIndice[]> {
   const mmdd = iso.slice(5).replace("-", "");
   const sortear = sorteador(iso);
-  const quantas = Math.min(PARTES, Math.max(1, Math.ceil((3 * n * PARTES) / Math.max(1, M.comFoto))));
-  const ordem = Array.from({ length: PARTES }, (_, i) => i);
-  for (let i = PARTES - 1; i > 0; i--) {
-    const j = sortear(i + 1);
-    [ordem[i], ordem[j]] = [ordem[j]!, ordem[i]!];
-  }
-  const partes = await Promise.all(ordem.slice(0, quantas).map(parte));
-  const todos = partes.flat().filter((s) => s.data !== mmdd && s.imagem);
-  for (let i = todos.length - 1; i > 0; i--) {
+  const todos = (await carregar<SantoDoIndice[]>(M.destaques)).filter((s) => s.data !== mmdd);
+  for (let i = todos.length - 1; i > 0 && i >= todos.length - n; i--) {
     const j = sortear(i + 1);
     [todos[i], todos[j]] = [todos[j]!, todos[i]!];
   }
-  return todos.slice(0, n);
+  return todos.slice(-n).reverse();
 }
 
 export const NOME_DO_GRUPO: Record<string, string> = {

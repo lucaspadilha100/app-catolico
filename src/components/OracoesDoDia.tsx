@@ -27,7 +27,6 @@ export function OracoesDoDia({ pascal }: { pascal: boolean }) {
             <Miniatura imagem={c ? caminhoDeDevocao(c) : null} foco={c?.foco} icone={HandHeart} tamanho="size-[3.75rem]" />
             <span className="min-w-0 flex-1">
               <span className="block font-bold leading-snug text-tinta">{o.nome}</span>
-              {o.latim && <span className="block text-[0.9375rem] italic text-tinta-suave">{o.latim}</span>}
             </span>
             <ChevronRight className="size-5 shrink-0 text-tinta-suave" aria-hidden />
           </Link>

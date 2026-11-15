@@ -15,7 +15,7 @@ import { TextoDaOracao } from "@/components/TextoDaOracao";
 import { EscolherPintura } from "@/components/EscolherPintura";
 import { caminhoParaGuardar, fotoGuardada } from "@/santos/santos";
 import { Cartao } from "@/components/Cartao";
-import { Cabecalho, Carregando, Voltar } from "@/components/Devocao";
+import { Cabecalho, Carregando, Indisponivel, Voltar } from "@/components/Devocao";
 import { NaoEncontrada } from "@/pages/Simples";
 import { compartilhar, enderecoPublico } from "@/lib/nativo";
 import { MOMENTOS_DA_MISSA, NOME_DO_ROTULO, NOME_DO_TIPO, type Bloco, type RotuloDeTexto, type Roteiro, type TipoDeBloco } from "@/roteiros/tipos";
@@ -47,6 +47,7 @@ const ORACOES_EM_ORDEM = Object.values(ORACOES).sort((a, b) => a.nome.localeComp
 const GRUPOS: GrupoDeMisterios[] = ["gozosos", "luminosos", "dolorosos", "gloriosos"];
 
 const linkDoRoteiro = (codigo: string) => `${enderecoPublico()}/r/${codigo}`;
+const linkSeguro = (link?: string | null) => (link && /^https?:\/\//i.test(link) ? link : "");
 
 function Campo({ rotulo, children }: { rotulo: string; children: ReactNode }) {
   return (
@@ -99,7 +100,9 @@ function LeiturasDoDia({ data }: { data: string }) {
     if (!d) return;
     let ativo = true;
     const l = diaLiturgico(d, diocese);
-    void carregarLecionario().then((lec) => ativo && setEstado({ titulo: l.titulo, missas: leiturasDoDia(l, lec) }));
+    void carregarLecionario()
+      .then((lec) => ativo && setEstado({ titulo: l.titulo, missas: leiturasDoDia(l, lec) }))
+      .catch(() => {});
     return () => {
       ativo = false;
     };
@@ -137,7 +140,7 @@ function Canto({ b }: { b: Extract<Bloco, { tipo: "canto" }> }) {
         {b.artista && <p className="text-tinta-suave">{b.artista}</p>}
       </div>
       <div className="flex flex-wrap gap-2">
-        <a href={b.link || buscaDaMusica(b)} target="_blank" rel="noreferrer" className="flex min-h-10 items-center gap-1.5 rounded-full border border-borda px-4 text-sm font-medium text-destaque-texto">
+        <a href={linkSeguro(b.link) || buscaDaMusica(b)} target="_blank" rel="noreferrer" className="flex min-h-10 items-center gap-1.5 rounded-full border border-borda px-4 text-sm font-medium text-destaque-texto">
           <ExternalLink className="size-4" aria-hidden /> Ouvir
         </a>
         <button
@@ -279,10 +282,10 @@ function useAoVivo(roteiro: Roteiro | null): Estado | null {
 export function RoteiroAberto() {
   const { codigo = "" } = useParams();
   const { email } = useConta();
-  const [roteiro, setRoteiro] = useState<Roteiro | null | "nada">(null);
+  const [roteiro, setRoteiro] = useState<Roteiro | null | "nada" | "erro">(null);
   const [conduz, setConduz] = useState(false);
   const [seguir, setSeguir] = useState(true);
-  const estado = useAoVivo(roteiro && roteiro !== "nada" ? roteiro : null);
+  const estado = useAoVivo(typeof roteiro === "object" ? roteiro : null);
 
   useEffect(() => {
     let ativo = true;
@@ -292,15 +295,15 @@ export function RoteiroAberto() {
         setRoteiro(r ?? "nada");
         if (r && email) void podeConduzir(r.id).then((p) => ativo && setConduz(p));
       })
-      .catch(() => ativo && setRoteiro("nada"));
+      .catch(() => ativo && setRoteiro("erro"));
     return () => {
       ativo = false;
     };
   }, [codigo, email]);
 
-  const blocos = roteiro && roteiro !== "nada" ? roteiro.blocos.filter(blocoTemConteudo) : [];
+  const blocos = roteiro && typeof roteiro === "object" ? roteiro.blocos.filter(blocoTemConteudo) : [];
   const aoVivo = !!estado?.ao_vivo;
-  const atual = aoVivo && roteiro && roteiro !== "nada" ? roteiro.blocos[estado!.passo] : undefined;
+  const atual = aoVivo && roteiro && typeof roteiro === "object" ? roteiro.blocos[estado!.passo] : undefined;
 
   useEffect(() => {
     if (!atual || !seguir) return;
@@ -316,6 +319,7 @@ export function RoteiroAberto() {
 
   if (roteiro === null) return <Carregando />;
   if (roteiro === "nada") return <NaoEncontrada />;
+  if (roteiro === "erro") return <Indisponivel />;
 
   return (
     <div className="flex flex-col gap-4 pb-8">
@@ -354,7 +358,7 @@ export function RoteiroAberto() {
 
 export function ConduzirRoteiro() {
   const { codigo = "" } = useParams();
-  const [roteiro, setRoteiro] = useState<Roteiro | null | "nada">(null);
+  const [roteiro, setRoteiro] = useState<Roteiro | null | "nada" | "erro">(null);
   const [pode, setPode] = useState<boolean | null>(null);
   const [pos, setPos] = useState<Posicao & { ao_vivo: boolean }>({ passo: 0, conta: 0, ao_vivo: false });
   const [qr, setQr] = useState(false);
@@ -370,7 +374,7 @@ export function ConduzirRoteiro() {
         setPos({ passo: r.passo, conta: r.conta, ao_vivo: r.ao_vivo });
         setPode(await podeConduzir(r.id));
       })
-      .catch(() => ativo && setRoteiro("nada"));
+      .catch(() => ativo && setRoteiro("erro"));
     void canalDoRoteiro(codigo).then((c) => (ativo ? (canal.current = c) : c.fechar()));
     return () => {
       ativo = false;
@@ -380,7 +384,7 @@ export function ConduzirRoteiro() {
 
   const mover = useCallback(
     (novo: Posicao & { ao_vivo: boolean }) => {
-      if (!roteiro || roteiro === "nada") return;
+      if (!roteiro || typeof roteiro !== "object") return;
       setPos(novo);
       canal.current?.enviar(novo);
       void gravarEstado(roteiro.id, novo).catch(() => {});
@@ -388,6 +392,7 @@ export function ConduzirRoteiro() {
     [roteiro],
   );
 
+  if (roteiro === "erro") return <Indisponivel />;
   if (roteiro === null || (roteiro !== "nada" && pode === null)) return <Carregando />;
   if (roteiro === "nada" || !pode) return <NaoEncontrada />;
   const blocos = roteiro.blocos;
@@ -589,7 +594,7 @@ function EscolherTipo({ aoEscolher, aoFechar }: { aoEscolher: (t: TipoDeBloco) =
 export function EditarRoteiro() {
   const { id = "" } = useParams();
   const navegar = useNavigate();
-  const [r, setR] = useState<Roteiro | null | "nada">(null);
+  const [r, setR] = useState<Roteiro | null | "nada" | "erro">(null);
   const [estado, setEstado] = useState<"" | "salvando" | "salvo" | "erro">("");
   const [aberto, setAberto] = useState<string | null>(null);
   const [inserir, setInserir] = useState<number | null>(null);
@@ -598,11 +603,11 @@ export function EditarRoteiro() {
   useEffect(() => {
     carregarRoteiro(id)
       .then((x) => setR(x ?? "nada"))
-      .catch(() => setR("nada"));
+      .catch(() => setR("erro"));
   }, [id]);
 
   const atualizar = (mudanca: Partial<Roteiro>) => {
-    if (!r || r === "nada") return;
+    if (!r || typeof r !== "object") return;
     const novo = { ...r, ...mudanca };
     setR(novo);
     setEstado("salvando");
@@ -618,6 +623,7 @@ export function EditarRoteiro() {
 
   if (r === null) return <Carregando />;
   if (r === "nada") return <NaoEncontrada />;
+  if (r === "erro") return <Indisponivel />;
 
   const mudarBloco = (i: number, b: Bloco) => atualizar({ blocos: r.blocos.map((x, j) => (j === i ? b : x)) });
   const mover = (i: number, d: -1 | 1) => {
@@ -799,7 +805,7 @@ function MinhasMusicas() {
       <ul className="flex flex-col divide-y divide-borda overflow-hidden rounded-3xl bg-cartao">
         {musicas.map((m) => (
           <li key={`${m.titulo}|${m.artista ?? ""}`} className="flex items-center gap-2 px-4 py-2">
-            <a href={m.link || buscaDaMusica(m)} target="_blank" rel="noreferrer" className="flex min-h-11 min-w-0 flex-1 flex-col justify-center">
+            <a href={linkSeguro(m.link) || buscaDaMusica(m)} target="_blank" rel="noreferrer" className="flex min-h-11 min-w-0 flex-1 flex-col justify-center">
               <span className="truncate text-tinta">{m.titulo}</span>
               {m.artista && <span className="truncate text-sm text-tinta-suave">{m.artista}</span>}
             </a>

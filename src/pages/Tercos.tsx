@@ -30,6 +30,7 @@ import { quandoDoRoteiro } from "@/roteiros/roteiro";
 import type { Dezena, Encontro, Terco } from "@/tercos/tipos";
 import { compartilhar, enderecoPublico } from "@/lib/nativo";
 import { linkComoChegar } from "@/lib/comoChegar";
+import { telefoneNacional } from "@/lib/telefone";
 import { Cartao, Grupo, LINHA, TituloCartao, TituloPagina } from "@/components/Cartao";
 import { Cabecalho, Carregando, Indisponivel, Voltar } from "@/components/Devocao";
 import { TercoGuiado, type Posicao } from "@/components/TercoGuiado";
@@ -385,8 +386,8 @@ export function TercoPagina() {
               </Contato>
             )}
             {t.whatsapp && (
-              <Contato href={`https://wa.me/55${t.whatsapp}`} icone={MessageCircle} rotulo="WhatsApp do grupo">
-                {telefoneLegivel(t.whatsapp)}
+              <Contato href={`https://wa.me/55${telefoneNacional(t.whatsapp)}`} icone={MessageCircle} rotulo="WhatsApp do grupo">
+                {telefoneLegivel(telefoneNacional(t.whatsapp))}
               </Contato>
             )}
           </div>
@@ -527,7 +528,7 @@ export function EditarTerco() {
     if (!dados) return;
     setEstado("salvando");
     try {
-      let d = { ...dados, nome: dados.nome.trim(), cidade: dados.cidade.trim(), uf: dados.uf.toUpperCase(), instagram: dados.instagram.replace(/^@/, "").trim(), whatsapp: dados.whatsapp.replace(/\D/g, "") };
+      let d = { ...dados, nome: dados.nome.trim(), cidade: dados.cidade.trim(), uf: dados.uf.toUpperCase(), instagram: dados.instagram.replace(/^@/, "").trim(), whatsapp: telefoneNacional(dados.whatsapp) };
       if (d.paroquia_id && !d.endereco && !d.bairro) {
         const p = await carregarParoquia(d.paroquia_id).catch(() => null);
         if (p) d = { ...d, endereco: p.paroquia.endereco, bairro: p.paroquia.bairro, cidade: d.cidade || p.paroquia.cidade, uf: p.paroquia.uf, lat: p.paroquia.lat, lng: p.paroquia.lng };
@@ -680,13 +681,13 @@ export function EditarEncontro() {
   const navegar = useNavigate();
   const [terco, setTerco] = useState<TercoCompleto | null>(null);
   const [form, setForm] = useState<{ misterios: GrupoDeMisterios; dezenas: Dezena[]; intencoes: string; avisos: string } | null>(null);
-  const [estado, setEstado] = useState<"" | "salvando" | "erro">("");
+  const [estado, setEstado] = useState<"" | "salvando" | "erro" | "nada">("");
   const datas = terco ? proximasDatas(terco.terco, 6) : [];
   const data = params.get("data") || datas[0] || "";
 
   useEffect(() => {
     carregarTerco(id)
-      .then(setTerco)
+      .then((t) => (t ? setTerco(t) : setEstado("nada")))
       .catch(() => setEstado("erro"));
   }, [id]);
 
@@ -703,8 +704,8 @@ export function EditarEncontro() {
       .catch(() => setEstado("erro"));
   }, [terco, data]);
 
+  if (estado === "nada" || (terco && (!terco.conduzo || !data))) return <NaoEncontrada />;
   if (!terco || !form) return estado === "erro" ? <Indisponivel /> : <Carregando />;
-  if (!terco.conduzo) return <NaoEncontrada />;
 
   const mudarDezena = (i: number, p: Partial<Dezena>) => setForm({ ...form, dezenas: form.dezenas.map((d, k) => (k === i ? { ...d, ...p } : d)) });
 
@@ -816,13 +817,19 @@ export function AoVivo() {
       if (ativo) parar = p;
       else p();
     });
-    const t = setInterval(() => {
-      void lerEncontro(encontroId).then((e) => ativo && e && setEncontro(e));
-    }, 8000);
+    const reler = () => {
+      if (document.visibilityState !== "visible") return;
+      void lerEncontro(encontroId)
+        .then((e) => ativo && e && setEncontro(e))
+        .catch(() => {});
+    };
+    const t = setInterval(reler, 8000);
+    document.addEventListener("visibilitychange", reler);
     return () => {
       ativo = false;
       parar?.();
       clearInterval(t);
+      document.removeEventListener("visibilitychange", reler);
     };
   }, [encontroId, conduzindo]);
 

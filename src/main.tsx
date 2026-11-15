@@ -25,6 +25,17 @@ if (!ehNativo() && "serviceWorker" in navigator) {
   });
 }
 
+window.addEventListener("vite:preloadError", (e) => {
+  try {
+    if (sessionStorage.getItem("santinho-recarregou") === location.pathname) return;
+    sessionStorage.setItem("santinho-recarregou", location.pathname);
+  } catch {
+    return;
+  }
+  e.preventDefault();
+  location.reload();
+});
+
 function fecharAbertura() {
   const abertura = document.getElementById("abertura");
   if (!abertura) return;

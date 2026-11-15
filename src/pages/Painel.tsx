@@ -32,13 +32,16 @@ import {
   procurarParoquias,
 } from "@/paroquias/api";
 import { descreverSemanas, hhmm, NOME_DO_DIA } from "@/paroquias/horarios";
+import { executar } from "@/lib/acao";
+import { telefoneNacional } from "@/lib/telefone";
 import { NOME_DO_TIPO_DE_HORARIO, NOME_DO_TIPO_DE_IGREJA, ehMatriz, type Horario, type Paroquia, type ParoquiaResumo, type Sugestao, type TipoDeHorario } from "@/paroquias/tipos";
 import { Cartao } from "@/components/Cartao";
 import { revisarTerco, tercosParaRevisar } from "@/tercos/api";
 import { NOME_DA_ORACAO_DA_CAMPANHA, apagarIntencao, fraseDaIntencao, intencoesEscondidas, moderar, salvarCampanha, type Campanha, type Intencao } from "@/comunidade/api";
 import type { Terco } from "@/tercos/tipos";
 import { quandoDoTerco } from "@/pages/Tercos";
-import { Cabecalho, Carregando, Voltar } from "@/components/Devocao";
+import { Cabecalho, Carregando, Indisponivel, Voltar } from "@/components/Devocao";
+import { NaoEncontrada } from "@/pages/Simples";
 import { ApoiosParaConferirLista, IntencoesNoPainel, MinisteriosNoPainel, PixParaConferirLista, PlanoNoPainel, VotacaoNoPainel } from "@/pages/PainelPlano";
 
 const CAMPO = "min-h-12 w-full rounded-xl border border-borda bg-papel px-3 text-base";
@@ -104,10 +107,10 @@ function Moderacao() {
         <Cartao key={i.id} className="flex flex-col gap-3 p-4">
           <span className="font-medium text-tinta">{fraseDaIntencao(i.tipo, i.nome)}</span>
           <div className="grid grid-cols-2 gap-2">
-            <button type="button" onClick={() => void moderar(i.id, false).then(recarregar)} className={BOTAO_CLARO}>
+            <button type="button" onClick={() => executar(moderar(i.id, false), recarregar)} className={BOTAO_CLARO}>
               Mostrar de novo
             </button>
-            <button type="button" onClick={() => void apagarIntencao(i.id).then(recarregar)} className="min-h-11 rounded-xl border border-borda bg-cartao font-semibold text-[#a9271f]">
+            <button type="button" onClick={() => executar(apagarIntencao(i.id), recarregar)} className="min-h-11 rounded-xl border border-borda bg-cartao font-semibold text-[#a9271f]">
               Apagar
             </button>
           </div>
@@ -192,10 +195,10 @@ function PedidosDeGestao() {
             Conta: {g.email}
           </p>
           <div className="grid grid-cols-2 gap-2">
-            <button type="button" onClick={() => void revisarPedidoDeGestao(g.id, true).then(recarregar)} className={BOTAO}>
+            <button type="button" onClick={() => executar(revisarPedidoDeGestao(g.id, true), recarregar)} className={BOTAO}>
               Aprovar
             </button>
-            <button type="button" onClick={() => void revisarPedidoDeGestao(g.id, false).then(recarregar)} className={BOTAO_CLARO}>
+            <button type="button" onClick={() => executar(revisarPedidoDeGestao(g.id, false), recarregar)} className={BOTAO_CLARO}>
               Recusar
             </button>
           </div>
@@ -224,10 +227,10 @@ function TercosParaRevisar() {
             <span className="text-sm text-tinta-suave">{[quandoDoTerco(t), t.comunidade, t.bairro, t.cidade].filter(Boolean).join(" · ")}</span>
           </Link>
           <div className="grid grid-cols-2 gap-2">
-            <button type="button" onClick={() => void revisarTerco(t.id, "aprovado").then(recarregar)} className={BOTAO}>
+            <button type="button" onClick={() => executar(revisarTerco(t.id, "aprovado"), recarregar)} className={BOTAO}>
               Aprovar
             </button>
-            <button type="button" onClick={() => void revisarTerco(t.id, "recusado").then(recarregar)} className="min-h-12 rounded-xl border border-borda bg-cartao font-semibold text-tinta">
+            <button type="button" onClick={() => executar(revisarTerco(t.id, "recusado"), recarregar)} className="min-h-12 rounded-xl border border-borda bg-cartao font-semibold text-tinta">
               Recusar
             </button>
           </div>
@@ -526,8 +529,8 @@ function FormularioDaParoquia({ inicial, admin, aoSalvar }: { inicial: Partial<P
         ...p,
         uf: (p.uf ?? "").toUpperCase(),
         cep: soDigitos(p.cep ?? ""),
-        telefone: soDigitos(p.telefone ?? ""),
-        whatsapp: soDigitos(p.whatsapp ?? ""),
+        telefone: telefoneNacional(p.telefone ?? ""),
+        whatsapp: telefoneNacional(p.whatsapp ?? ""),
         instagram: (p.instagram ?? "").replace(/^@/, "").trim(),
         lat: Number.isFinite(lat) && coords.trim() ? lat! : null,
         lng: Number.isFinite(lng) && coords.trim() ? lng! : null,
@@ -668,7 +671,7 @@ function EditorDeHorarios({ paroquia, horarios, aoMudar }: { paroquia: string; h
               {h.cancelado ? "não haverá" : `${hhmm(h.hora)}${h.hora_fim ? ` às ${hhmm(h.hora_fim)}` : ""}`}
               {(h.semanas?.length || h.observacao) && <span className="text-sm text-tinta-suave"> · {[descreverSemanas(h.semanas), h.observacao].filter(Boolean).join(" · ")}</span>}
             </span>
-            <button type="button" onClick={() => void apagarHorario(h.id).then(aoMudar)} aria-label="Apagar horário" className="grid size-10 place-items-center rounded-xl text-tinta-suave">
+            <button type="button" onClick={() => executar(apagarHorario(h.id), aoMudar)} aria-label="Apagar horário" className="grid size-10 place-items-center rounded-xl text-tinta-suave">
               <Trash2 className="size-4" aria-hidden />
             </button>
           </li>
@@ -799,7 +802,7 @@ function Avisos({ dados, aoMudar }: { dados: ParoquiaCompleta; aoMudar: () => vo
           <p className="min-w-0 flex-1 text-tinta">
             {a.texto} <span className="text-sm text-tinta-suave">· até {a.ate.split("-").reverse().join("/")}</span>
           </p>
-          <button type="button" onClick={() => void apagarAviso(a.id).then(aoMudar)} aria-label="Apagar aviso" className="grid size-10 place-items-center rounded-xl text-tinta-suave">
+          <button type="button" onClick={() => executar(apagarAviso(a.id), aoMudar)} aria-label="Apagar aviso" className="grid size-10 place-items-center rounded-xl text-tinta-suave">
             <Trash2 className="size-4" aria-hidden />
           </button>
         </div>
@@ -812,7 +815,7 @@ function Avisos({ dados, aoMudar }: { dados: ParoquiaCompleta; aoMudar: () => vo
         type="button"
         disabled={!texto.trim() || !ate}
         onClick={() =>
-          void salvarAviso({ paroquia_id: dados.paroquia.id, texto: texto.trim(), ate }).then(() => {
+          executar(salvarAviso({ paroquia_id: dados.paroquia.id, texto: texto.trim(), ate }), () => {
             setTexto("");
             setAte("");
             aoMudar();
@@ -831,16 +834,20 @@ export function EditarParoquia() {
   const navegar = useNavigate();
   const acesso = useAcesso();
   const nova = id === "nova";
-  const [dados, setDados] = useState<ParoquiaCompleta | null>(null);
+  const [dados, setDados] = useState<ParoquiaCompleta | "nada" | "erro" | null>(null);
   const [gestor, setGestor] = useState("");
   const [aviso, setAviso] = useState("");
 
   const recarregar = useCallback(() => {
     if (nova) return;
-    void carregarParoquia(id).then(setDados);
+    carregarParoquia(id)
+      .then((d) => setDados(d ?? "nada"))
+      .catch(() => setDados((atual) => (atual && typeof atual === "object" ? atual : "erro")));
   }, [id, nova]);
   useEffect(recarregar, [recarregar]);
 
+  if (dados === "nada") return <NaoEncontrada />;
+  if (dados === "erro") return <Indisponivel />;
   if (acesso === null || (!nova && !dados)) return <Carregando />;
   if (!acesso.admin && !acesso.minhas.includes(id)) return <p className="text-tinta-suave">Sem acesso.</p>;
 
@@ -853,7 +860,7 @@ export function EditarParoquia() {
       {!nova && dados && (
         <>
           <EditorDeHorarios paroquia={id} horarios={dados.horarios} aoMudar={recarregar} />
-          <button type="button" onClick={() => void confirmarParoquia(id).then(recarregar)} className={BOTAO_CLARO}>
+          <button type="button" onClick={() => executar(confirmarParoquia(id), recarregar)} className={BOTAO_CLARO}>
             Os horários foram conferidos hoje
           </button>
           {acesso.admin && (
@@ -861,7 +868,7 @@ export function EditarParoquia() {
               <p className="text-tinta">
                 {dados.paroquia.conferida_em ? `Dados conferidos em ${new Date(dados.paroquia.conferida_em).toLocaleDateString("pt-BR")}` : "Dados ainda não conferidos"}
               </p>
-              <button type="button" onClick={() => void marcarConferida(id, !dados.paroquia.conferida_em).then(recarregar)} className={dados.paroquia.conferida_em ? BOTAO_CLARO : BOTAO}>
+              <button type="button" onClick={() => executar(marcarConferida(id, !dados.paroquia.conferida_em), recarregar)} className={dados.paroquia.conferida_em ? BOTAO_CLARO : BOTAO}>
                 {dados.paroquia.conferida_em ? "Desfazer conferência" : "Marcar como conferida"}
               </button>
             </Cartao>

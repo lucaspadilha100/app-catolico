@@ -5,6 +5,7 @@ import { renderSVG } from "uqr";
 import { useConta } from "@/conta/useConta";
 import { Cartao } from "@/components/Cartao";
 import { Cabecalho, Carregando, Voltar } from "@/components/Devocao";
+import { executar } from "@/lib/acao";
 import { NaoEncontrada } from "@/pages/Simples";
 import { compartilhar, enderecoPublico } from "@/lib/nativo";
 import { NOME_DO_DIA, hhmm } from "@/paroquias/horarios";
@@ -151,7 +152,7 @@ function NovoItem({ ministerio, membros, aoSalvar }: { ministerio: string; membr
 function ItemNaEscala({ i, eu, coordeno, membros, aoMudar }: { i: ItemDaEscala; eu: string | null; coordeno: boolean; membros: Membro[]; aoMudar: () => void }) {
   const nome = membros.find((m) => m.usuario_id === i.membro_id)?.nome;
   const meu = !!eu && i.membro_id === eu;
-  const mudar = (patch: Parameters<typeof mudarItem>[1]) => void mudarItem(i.id, patch).then(aoMudar);
+  const mudar = (patch: Parameters<typeof mudarItem>[1]) => executar(mudarItem(i.id, patch), aoMudar);
   return (
     <li className="flex flex-col gap-2 px-4 py-3">
       <div className="flex items-start justify-between gap-2">
@@ -189,7 +190,7 @@ function ItemNaEscala({ i, eu, coordeno, membros, aoMudar }: { i: ItemDaEscala; 
           <button
             type="button"
             onClick={() => {
-              if (confirm("Tirar da escala?")) void apagarItem(i.id).then(aoMudar);
+              if (confirm("Tirar da escala?")) executar(apagarItem(i.id), aoMudar);
             }}
             aria-label="Tirar da escala"
             className="grid size-10 place-items-center rounded-full text-tinta-suave hover:bg-marca-fundo"
@@ -286,7 +287,7 @@ export function MinisterioPagina() {
             <Campo rotulo="Meu nome na equipe">
               <div className="flex gap-2">
                 <input value={meuNome} onChange={(e) => setMeuNome(e.target.value)} maxLength={60} className={CAMPO} />
-                <button type="button" disabled={meuNome.trim().length < 2 || !eu} onClick={() => eu && void mudarMembro(ministerio.id, eu, { nome: meuNome.trim() }).then(recarregar)} className={`${BOTAO} shrink-0`}>
+                <button type="button" disabled={meuNome.trim().length < 2 || !eu} onClick={() => eu && executar(mudarMembro(ministerio.id, eu, { nome: meuNome.trim() }), recarregar)} className={`${BOTAO} shrink-0`}>
                   Salvar
                 </button>
               </div>
@@ -301,13 +302,13 @@ export function MinisterioPagina() {
                 </span>
                 {coordeno && m.usuario_id !== ministerio.dono_id && (
                   <>
-                    <button type="button" onClick={() => void mudarMembro(ministerio.id, m.usuario_id, { coordena: !m.coordena }).then(recarregar)} className="min-h-10 rounded-full border border-borda px-3 text-xs font-medium text-tinta">
+                    <button type="button" onClick={() => executar(mudarMembro(ministerio.id, m.usuario_id, { coordena: !m.coordena }), recarregar)} className="min-h-10 rounded-full border border-borda px-3 text-xs font-medium text-tinta">
                       {m.coordena ? "Tirar coordenação" : "Coordena"}
                     </button>
                     <button
                       type="button"
                       onClick={() => {
-                        if (confirm(`Tirar ${m.nome} da equipe?`)) void tirarMembro(ministerio.id, m.usuario_id).then(recarregar);
+                        if (confirm(`Tirar ${m.nome} da equipe?`)) executar(tirarMembro(ministerio.id, m.usuario_id), recarregar);
                       }}
                       aria-label={`Tirar ${m.nome}`}
                       className="grid size-10 shrink-0 place-items-center rounded-full text-tinta-suave hover:bg-marca-fundo"
@@ -439,7 +440,7 @@ export function Escalas() {
                       <p className="text-sm text-tinta-suave">{detalhe(i)}</p>
                       {i.troca_pedida && <p className="text-sm font-medium text-destaque-texto">Pediu troca</p>}
                     </Link>
-                    <button type="button" onClick={() => void mudarItem(i.id, { troca_pedida: !i.troca_pedida }).then(recarregar)} className={`${PILULA} shrink-0`}>
+                    <button type="button" onClick={() => executar(mudarItem(i.id, { troca_pedida: !i.troca_pedida }), recarregar)} className={`${PILULA} shrink-0`}>
                       {i.troca_pedida ? "Cancelar troca" : "Pedir troca"}
                     </button>
                   </li>
@@ -459,7 +460,7 @@ export function Escalas() {
                       <p className="font-medium text-tinta">{`${i.funcao} · ${i.ministerios?.nome ?? ""}`}</p>
                       <p className="text-sm text-tinta-suave">{[detalhe(i), i.troca_pedida ? "Pediu troca" : "Vago"].filter(Boolean).join(" · ")}</p>
                     </div>
-                    <button type="button" onClick={() => eu && void mudarItem(i.id, { membro_id: eu }).then(recarregar)} className={`${PILULA_FORTE} shrink-0`}>
+                    <button type="button" onClick={() => eu && executar(mudarItem(i.id, { membro_id: eu }), recarregar)} className={`${PILULA_FORTE} shrink-0`}>
                       Assumir
                     </button>
                   </li>
@@ -490,7 +491,7 @@ export function Escalas() {
                 <form
                   onSubmit={(e) => {
                     e.preventDefault();
-                    void criarMinisterio(nome.trim()).then((id) => navegar(`/escalas/m/${id}?aba=equipe`));
+                    executar(criarMinisterio(nome.trim()), (id) => navegar(`/escalas/m/${id}?aba=equipe`));
                   }}
                   className="flex flex-col gap-3"
                 >

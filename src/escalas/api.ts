@@ -64,11 +64,6 @@ export async function carregarMinisterio(id: string): Promise<{ ministerio: Mini
   return { ministerio, membros: ou(mb) as Membro[], coordeno: !!ou(co) };
 }
 
-export async function renomearMinisterio(id: string, nome: string) {
-  const c = await cliente();
-  ou(await c.from("ministerios").update({ nome }).eq("id", id));
-}
-
 export async function escalaDoMinisterio(id: string, desde = hojeIso()): Promise<ItemDaEscala[]> {
   const c = await cliente();
   return ou(await c.from("escala").select("*").eq("ministerio_id", id).gte("data", desde).order("data").order("hora", { nullsFirst: true }).order("criado_em").limit(300)) as ItemDaEscala[];

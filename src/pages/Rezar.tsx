@@ -86,7 +86,7 @@ export default function Rezar() {
             ))}
           </div>
         </section>
-        <NovenasDoMes data={l.data} />
+        <NovenasDoMes data={l.data} semAndamento />
         {andamento.length > 0 && (
           <Grupo titulo="Em andamento">
             {andamento.slice(0, 4).map((i) => (

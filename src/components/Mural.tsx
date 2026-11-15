@@ -1,6 +1,7 @@
 import { useEffect, useState, type FormEvent } from "react";
 import { CalendarDays, ExternalLink, Megaphone, Plus, Trash2 } from "lucide-react";
 import { apagarPublicacao, meuPedidoDeGestao, muralDaParoquia, pedirGestao, publicar, type Publicacao } from "@/paroquias/api";
+import { executar } from "@/lib/acao";
 import { NOME_DO_DIA, hhmm } from "@/paroquias/horarios";
 import { Cartao, LISTA } from "@/components/Cartao";
 
@@ -152,7 +153,7 @@ export function Mural({ paroquia, podeEditar }: { paroquia: string; podeEditar: 
   const agora = Date.now();
   const eventos = lista.filter((p) => p.tipo === "evento" && p.evento_em && new Date(p.evento_em).getTime() > agora - 3 * 3_600_000).sort((a, b) => a.evento_em!.localeCompare(b.evento_em!));
   const resto = lista.filter((p) => !eventos.includes(p));
-  const apagar = (id: string) => void apagarPublicacao(id).then(() => setVersao((v) => v + 1));
+  const apagar = (id: string) => executar(apagarPublicacao(id), () => setVersao((v) => v + 1));
 
   return (
     <section className="flex flex-col gap-3">

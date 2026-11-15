@@ -1,4 +1,5 @@
 import { Suspense, useEffect } from "react";
+import { Falha } from "@/components/Falha";
 import { NavLink, Link, Outlet, useLocation } from "react-router-dom";
 import { BookOpen, Church, HandHeart, Menu, Sunrise, type LucideIcon } from "lucide-react";
 import { useDiaLiturgico } from "@/lib/useDiaLiturgico";
@@ -111,9 +112,11 @@ export default function Layout() {
         )}
 
         <main className={`mx-auto w-full max-w-2xl px-4 pb-28 md:px-8 md:pb-12 md:pt-10 ${naBiblia ? "pt-5" : "pt-4"}`}>
-          <Suspense fallback={<Carregando />}>
-            <Outlet />
-          </Suspense>
+          <Falha key={pathname}>
+            <Suspense fallback={<Carregando />}>
+              <Outlet />
+            </Suspense>
+          </Falha>
         </main>
       </div>
 

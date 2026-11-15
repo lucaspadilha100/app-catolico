@@ -72,6 +72,11 @@ export function montar(fichas) {
   const partes = [];
   for (let p = 0; p < PARTES; p++) partes.push(guardar(`parte-${String(p).padStart(2, "0")}`, indice.filter((s) => parteDoId(s.id) === p)));
 
+  const destaques = guardar(
+    "destaques",
+    indice.filter((s) => s.imagem && s.grupo !== "mundo").map(({ id, nome, data, situacao, imagem }) => ({ id, nome, data, situacao, imagem })),
+  );
+
   const porLetra = new Map();
   for (const f of [...fichas].sort(porNome)) if (f.imagem) porLetra.set(letraDoNome(f.nome), [...(porLetra.get(letraDoNome(f.nome)) ?? []), creditoDe(f)]);
   const creditos = {};
@@ -87,6 +92,7 @@ export function montar(fichas) {
     grupos: Object.fromEntries(Object.entries(grupos).sort(([a], [b]) => a.localeCompare(b))),
     indice: nomeDoIndice,
     partes,
+    destaques,
     dias,
     creditos,
   };

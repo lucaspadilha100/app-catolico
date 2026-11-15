@@ -120,8 +120,12 @@ async function paroquias() {
   if (!url || !chave) return 0;
   const lista = [];
   for (let de = 0; ; de += 1000) {
-    const r = await fetchOriginal(`${url}/rest/v1/paroquias?select=*,horarios(*)&order=id&limit=1000&offset=${de}`, { headers: { apikey: chave } }).catch(() => null);
-    if (!r?.ok) break;
+    let r = null;
+    for (let tentativa = 0; tentativa < 4 && !r?.ok; tentativa++) {
+      if (tentativa) await new Promise((ok) => setTimeout(ok, 3000 * tentativa));
+      r = await fetchOriginal(`${url}/rest/v1/paroquias?select=*,horarios(*)&order=id&limit=1000&offset=${de}`, { headers: { apikey: chave } }).catch(() => null);
+    }
+    if (!r?.ok) throw new Error(`paróquias: a leitura parou em ${de} (${r?.status ?? "sem resposta"}); o deploy anterior continua no ar`);
     const parte = await r.json();
     lista.push(...parte);
     if (parte.length < 1000) break;

@@ -37,6 +37,7 @@ import {
   type TipoDeIntencao,
 } from "@/comunidade/api";
 import { compartilhar, enderecoPublico } from "@/lib/nativo";
+import { executar } from "@/lib/acao";
 import { Cartao, Grupo as GrupoDeLinhas, LINHA, LISTA, TituloPagina } from "@/components/Cartao";
 import { NovenaDoGrupo } from "@/components/NovenaDoGrupo";
 import { Cabecalho, Carregando, Indisponivel, Voltar } from "@/components/Devocao";
@@ -114,7 +115,7 @@ function ItemDeIntencao({ i, eu, aoApagar }: { i: Intencao; eu: string | null; a
           <form
             onSubmit={(e) => {
               e.preventDefault();
-              void gracaAlcancada(i.id, texto).then(() => {
+              executar(gracaAlcancada(i.id, texto), () => {
                 setGraca({ texto: texto.trim() });
                 setContando(false);
               });
@@ -278,7 +279,7 @@ function ListaDeIntencoes({ grupo, versao }: { grupo?: string; versao: number })
             key={i.id}
             i={i}
             eu={eu}
-            aoApagar={() => void apagarIntencao(i.id).then(() => setLista((l) => (Array.isArray(l) ? l.filter((x) => x.id !== i.id) : l)))}
+            aoApagar={() => executar(apagarIntencao(i.id), () => setLista((l) => (Array.isArray(l) ? l.filter((x) => x.id !== i.id) : l)))}
           />
         ))}
       </ul>
@@ -333,7 +334,7 @@ export function Intencoes() {
           <h2 className="titulo-secao mb-3 px-1">Meus pedidos</h2>
           <ul className={LISTA}>
             {meus.map((i) => (
-              <ItemDeIntencao key={i.id} i={i} eu={i.autor_id} aoApagar={() => void apagarIntencao(i.id).then(() => setVersao((v) => v + 1))} />
+              <ItemDeIntencao key={i.id} i={i} eu={i.autor_id} aoApagar={() => executar(apagarIntencao(i.id), () => setVersao((v) => v + 1))} />
             ))}
           </ul>
         </section>
@@ -604,7 +605,7 @@ export function GrupoPagina() {
                 type="button"
                 aria-label={`Tirar ${m.nome} do grupo`}
                 onClick={() => {
-                  if (confirm(`Tirar ${m.nome} do grupo?`)) void sairDoGrupo(grupo.id, m.usuario_id).then(() => setVersao((v) => v + 1));
+                  if (confirm(`Tirar ${m.nome} do grupo?`)) executar(sairDoGrupo(grupo.id, m.usuario_id), () => setVersao((v) => v + 1));
                 }}
                 className="grid size-10 place-items-center rounded-full text-tinta-suave hover:bg-marca-fundo"
               >
@@ -620,7 +621,7 @@ export function GrupoPagina() {
           <button
             type="button"
             onClick={() => {
-              if (confirm("Trocar o link de convite? O link antigo para de funcionar.")) void trocarConvite(grupo.id).then(() => setVersao((v) => v + 1));
+              if (confirm("Trocar o link de convite? O link antigo para de funcionar.")) executar(trocarConvite(grupo.id), () => setVersao((v) => v + 1));
             }}
             className="min-h-11 text-sm font-medium text-tinta-suave"
           >
@@ -629,7 +630,7 @@ export function GrupoPagina() {
           <button
             type="button"
             onClick={() => {
-              if (confirm("Apagar o grupo e os pedidos dele?")) void apagarGrupo(grupo.id).then(() => navegar("/grupos", { replace: true }));
+              if (confirm("Apagar o grupo e os pedidos dele?")) executar(apagarGrupo(grupo.id), () => navegar("/grupos", { replace: true }));
             }}
             className="flex min-h-11 items-center justify-center gap-2 text-sm font-semibold text-[#a9271f]"
           >
@@ -641,7 +642,7 @@ export function GrupoPagina() {
           <button
             type="button"
             onClick={() => {
-              if (confirm("Sair do grupo?")) void sairDoGrupo(grupo.id, eu).then(() => navegar("/grupos", { replace: true }));
+              if (confirm("Sair do grupo?")) executar(sairDoGrupo(grupo.id, eu), () => navegar("/grupos", { replace: true }));
             }}
             className="min-h-11 text-sm font-semibold text-[#a9271f]"
           >
@@ -681,13 +682,19 @@ export function TercoDoGrupoPagina() {
       if (ativo) parar = p;
       else p();
     });
-    const t = setInterval(() => {
-      void lerTercoDoGrupo(id).then((x) => ativo && x && setTerco(x));
-    }, 8000);
+    const reler = () => {
+      if (document.visibilityState !== "visible") return;
+      void lerTercoDoGrupo(id)
+        .then((x) => ativo && x && setTerco(x))
+        .catch(() => {});
+    };
+    const t = setInterval(reler, 8000);
+    document.addEventListener("visibilitychange", reler);
     return () => {
       ativo = false;
       parar?.();
       clearInterval(t);
+      document.removeEventListener("visibilitychange", reler);
     };
   }, [id, conduzindo]);
 

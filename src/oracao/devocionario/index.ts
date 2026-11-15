@@ -48,7 +48,16 @@ const cache = new Map<string, Promise<OracaoCompleta[]>>();
 function doArquivo(nome: string): Promise<OracaoCompleta[]> {
   const carregar = ARQUIVOS[`./${nome}.ts`];
   if (!carregar) return Promise.resolve([]);
-  if (!cache.has(nome)) cache.set(nome, carregar().then((m) => m.default.map(paraOracao)).catch(() => []));
+  if (!cache.has(nome))
+    cache.set(
+      nome,
+      carregar()
+        .then((m) => m.default.map(paraOracao))
+        .catch(() => {
+          cache.delete(nome);
+          return [];
+        }),
+    );
   return cache.get(nome)!;
 }
 

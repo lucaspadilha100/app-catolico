@@ -3,7 +3,8 @@ import { Link, useNavigate, useParams } from "react-router-dom";
 import { CalendarPlus, ChevronRight, Clock, Plus, Share2 } from "lucide-react";
 import { useConta } from "@/conta/useConta";
 import { Cartao } from "@/components/Cartao";
-import { Cabecalho, Carregando, Voltar } from "@/components/Devocao";
+import { Cabecalho, Carregando, Indisponivel, Voltar } from "@/components/Devocao";
+import { executar } from "@/lib/acao";
 import { NaoEncontrada } from "@/pages/Simples";
 import { compartilhar, enderecoPublico } from "@/lib/nativo";
 import { NOME_DO_DIA } from "@/paroquias/horarios";
@@ -38,7 +39,7 @@ function lerNome(): string {
 
 export function CorrenteAberta() {
   const { codigo = "" } = useParams();
-  const [c, setC] = useState<Corrente | null | "nada">(null);
+  const [c, setC] = useState<Corrente | null | "nada" | "erro">(null);
   const [nome, setNome] = useState(lerNome);
   const [escolhido, setEscolhido] = useState<string | null>(null);
   const [passados, setPassados] = useState(false);
@@ -47,13 +48,14 @@ export function CorrenteAberta() {
   const recarregar = useCallback(() => {
     correntePorCodigo(codigo)
       .then((x) => setC(x ?? "nada"))
-      .catch(() => setC("nada"));
+      .catch(() => setC((atual) => (atual && typeof atual === "object" ? atual : "erro")));
   }, [codigo]);
   useEffect(recarregar, [recarregar]);
 
-  const horarios = useMemo(() => (c && c !== "nada" ? horariosDaCorrente(c) : []), [c]);
+  const horarios = useMemo(() => (c && typeof c === "object" ? horariosDaCorrente(c) : []), [c]);
   if (c === null) return <Carregando />;
   if (c === "nada") return <NaoEncontrada />;
+  if (c === "erro") return <Indisponivel />;
 
   const agora = Date.now();
   const porHorario = new Map<number, Corrente["turnos"]>();
@@ -129,7 +131,7 @@ export function CorrenteAberta() {
                         <button type="button" onClick={() => agenda(h)} aria-label="Pôr na agenda" className="grid size-10 place-items-center rounded-full border border-borda text-destaque-texto">
                           <CalendarPlus className="size-4" aria-hidden />
                         </button>
-                        <button type="button" onClick={() => void soltarTurno(codigo, h.toISOString()).then(recarregar)} className="min-h-10 rounded-full border border-borda px-3 text-sm font-medium text-tinta-suave">
+                        <button type="button" onClick={() => executar(soltarTurno(codigo, h.toISOString()), recarregar)} className="min-h-10 rounded-full border border-borda px-3 text-sm font-medium text-tinta-suave">
                           Sair
                         </button>
                       </div>
@@ -155,12 +157,18 @@ export function CorrenteAberta() {
         </button>
       )}
       {c.sou_dono && (
-        <button type="button" onClick={() => void encerrarCorrente(codigo, !c.ativa).then(recarregar)} className="min-h-11 text-sm font-medium text-tinta-suave underline underline-offset-4">
+        <button type="button" onClick={() => executar(encerrarCorrente(codigo, !c.ativa), recarregar)} className="min-h-11 text-sm font-medium text-tinta-suave underline underline-offset-4">
           {c.ativa ? "Encerrar a corrente" : "Reabrir a corrente"}
         </button>
       )}
     </div>
   );
+}
+
+function proximaHora() {
+  const d = new Date();
+  d.setHours(d.getHours() + 1, 0, 0, 0);
+  return d;
 }
 
 export function Correntes() {
@@ -170,8 +178,9 @@ export function Correntes() {
   const [novo, setNovo] = useState(false);
   const [titulo, setTitulo] = useState("");
   const [descricao, setDescricao] = useState("");
-  const [data, setData] = useState(() => new Date().toLocaleDateString("sv-SE"));
-  const [horaInicial, setHoraInicial] = useState(() => `${String(new Date().getHours() + 1).padStart(2, "0").replace("24", "00")}:00`);
+  const [proxima] = useState(proximaHora);
+  const [data, setData] = useState(() => proxima.toLocaleDateString("sv-SE"));
+  const [horaInicial, setHoraInicial] = useState(() => `${String(proxima.getHours()).padStart(2, "0")}:00`);
   const [horas, setHoras] = useState(24);
   const [intervalo, setIntervalo] = useState(60);
   const [estado, setEstado] = useState("");

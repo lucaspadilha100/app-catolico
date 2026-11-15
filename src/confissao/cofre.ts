@@ -43,7 +43,12 @@ interface CofreGuardado {
 export const CHAVE_DO_COFRE = "santinho-cofre";
 const ITERACOES = 310_000;
 
-const paraBase64 = (b: ArrayBuffer | Uint8Array) => btoa(String.fromCharCode(...new Uint8Array(b)));
+function paraBase64(b: ArrayBuffer | Uint8Array): string {
+  const u = new Uint8Array(b);
+  let s = "";
+  for (let i = 0; i < u.length; i += 0x8000) s += String.fromCharCode(...u.subarray(i, i + 0x8000));
+  return btoa(s);
+}
 const deBase64 = (s: string) => Uint8Array.from(atob(s), (c) => c.charCodeAt(0));
 
 async function derivar(pin: string, sal: Uint8Array, iteracoes: number): Promise<CryptoKey> {

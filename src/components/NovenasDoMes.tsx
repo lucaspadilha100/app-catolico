@@ -13,14 +13,14 @@ const periodo = (a: Date, b: Date) =>
     ? `${a.getUTCDate()} a ${b.getUTCDate()} de ${MES[b.getUTCMonth()]}`
     : `${a.getUTCDate()}/${a.getUTCMonth() + 1} a ${b.getUTCDate()}/${b.getUTCMonth() + 1}`;
 
-export function NovenasDoMes({ data }: { data: Date }) {
+export function NovenasDoMes({ data, semAndamento = false }: { data: Date; semAndamento?: boolean }) {
   const imagens = useImagensDeDevocao();
   const lista = NOVENAS.map((n) => {
     const sugerido = diaSugeridoDaNovena(n, data);
     const j = proximaNovena(n, data);
     return { n, faltam: sugerido ? -1 : diferencaEmDias(j.inicio, data), texto: sugerido ? `${ordinal(sugerido.dia)} dia de ${n.dias}` : periodo(j.inicio, j.fim) };
   })
-    .filter((x) => x.faltam <= 30)
+    .filter((x) => x.faltam <= 30 && !(semAndamento && x.faltam < 0))
     .sort((a, b) => a.faltam - b.faltam)
     .slice(0, 6);
   if (!lista.length) return null;

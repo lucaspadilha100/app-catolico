@@ -23,6 +23,7 @@ import { NOME_DO_TIPO_DE_HORARIO, NOME_DO_TIPO_DE_IGREJA, ehMatriz, type Horario
 import { useLocal } from "@/paroquias/useLocal";
 import { compartilhar, enderecoPublico } from "@/lib/nativo";
 import { linkComoChegar } from "@/lib/comoChegar";
+import { telefoneNacional } from "@/lib/telefone";
 import { Cartao, LINHA, LISTA, TituloCartao, TituloPagina } from "@/components/Cartao";
 import { Cabecalho, Carregando, Indisponivel, Voltar } from "@/components/Devocao";
 import { NaoEncontrada } from "@/pages/Simples";
@@ -505,6 +506,7 @@ export function Missas() {
   }, []);
 
   const onde = useMemo(() => (modo === "cidade" ? { cidade } : modo === "perto" ? { local, raioKm: raio } : null), [modo, cidade, local, raio]);
+  const marco = Math.floor(agora.getTime() / 300_000);
   const consulta = useMemo(() => {
     if (!onde) return null;
     const j = janela(quando, periodo, new Date());
@@ -517,7 +519,7 @@ export function Missas() {
       horas: Math.max(1, Math.ceil((j.fim.getTime() - j.inicio.getTime()) / 3_600_000)),
       passou: j.fim <= j.inicio,
     };
-  }, [onde, quando, periodo, tipo, ehEvento]);
+  }, [onde, quando, periodo, tipo, ehEvento, marco]);
   const chave = consulta ? JSON.stringify(consulta) : null;
   const vazioJa = async <T,>(): Promise<T[]> => [];
 
@@ -1027,13 +1029,13 @@ export function ParoquiaPagina() {
         <Cartao className="p-0">
           <ul className="flex flex-col divide-y divide-borda">
             {p.telefone && (
-              <Contato href={`tel:+55${p.telefone}`} icone={Phone} rotulo="Secretaria">
-                {telefoneLegivel(p.telefone)}
+              <Contato href={`tel:+55${telefoneNacional(p.telefone)}`} icone={Phone} rotulo="Secretaria">
+                {telefoneLegivel(telefoneNacional(p.telefone))}
               </Contato>
             )}
             {p.whatsapp && (
-              <Contato href={`https://wa.me/55${p.whatsapp}`} icone={MessageCircle} rotulo="WhatsApp da secretaria">
-                {telefoneLegivel(p.whatsapp)}
+              <Contato href={`https://wa.me/55${telefoneNacional(p.whatsapp)}`} icone={MessageCircle} rotulo="WhatsApp da secretaria">
+                {telefoneLegivel(telefoneNacional(p.whatsapp))}
               </Contato>
             )}
             {p.instagram && (

@@ -29,6 +29,8 @@ import {
   type Turma,
 } from "@/paroquias/plano";
 import { telefoneLegivel } from "@/paroquias/horarios";
+import { telefoneNacional } from "@/lib/telefone";
+import { executar } from "@/lib/acao";
 import { NOME_DA_SITUACAO, detalhesDaTurma } from "@/components/PlanoDaParoquia";
 import { Cartao } from "@/components/Cartao";
 import { Cabecalho, Carregando, Voltar } from "@/components/Devocao";
@@ -140,7 +142,7 @@ function Pix({ p, admin, aoMudar }: { p: Paroquia; admin: boolean; aoMudar: () =
           Salvar chave
         </button>
         {admin && p.pix_chave && (
-          <button type="button" onClick={() => void salvarPix(p.id, { pix_chave: p.pix_chave, pix_nome: p.pix_nome, pix_cidade: p.pix_cidade, pix_conferido: !p.pix_conferido }).then(aoMudar)} className={BOTAO_CLARO}>
+          <button type="button" onClick={() => executar(salvarPix(p.id, { pix_chave: p.pix_chave, pix_nome: p.pix_nome, pix_cidade: p.pix_cidade, pix_conferido: !p.pix_conferido }), aoMudar)} className={BOTAO_CLARO}>
             {p.pix_conferido ? "Desfazer conferência" : "Chave conferida"}
           </button>
         )}
@@ -279,7 +281,7 @@ export function PixParaConferirLista() {
             <br />
             Recebedor: {x.pix_nome} · {x.pix_cidade}
           </p>
-          <button type="button" onClick={() => void salvarPix(x.id, { pix_chave: x.pix_chave, pix_nome: x.pix_nome, pix_cidade: x.pix_cidade, pix_conferido: true }).then(recarregar)} className={BOTAO}>
+          <button type="button" onClick={() => executar(salvarPix(x.id, { pix_chave: x.pix_chave, pix_nome: x.pix_nome, pix_cidade: x.pix_cidade, pix_conferido: true }), recarregar)} className={BOTAO}>
             Chave conferida
           </button>
         </Cartao>
@@ -316,10 +318,10 @@ export function ApoiosParaConferirLista() {
             )}
           </p>
           <div className="grid grid-cols-2 gap-2">
-            <button type="button" onClick={() => void revisarApoio(a.id, true).then(recarregar)} className={BOTAO}>
+            <button type="button" onClick={() => executar(revisarApoio(a.id, true), recarregar)} className={BOTAO}>
               Confirmar
             </button>
-            <button type="button" onClick={() => void revisarApoio(a.id, false).then(recarregar)} className={BOTAO_CLARO}>
+            <button type="button" onClick={() => executar(revisarApoio(a.id, false), recarregar)} className={BOTAO_CLARO}>
               Não encontrei
             </button>
           </div>
@@ -347,7 +349,7 @@ export function VotacaoNoPainel() {
           <div key={o.id} className="flex items-center gap-2">
             <span className="min-w-0 flex-1 text-tinta">{o.titulo}</span>
             <span className="text-sm text-tinta-suave">{`${o.votos} ${o.votos === 1 ? "voto" : "votos"}`}</span>
-            <button type="button" onClick={() => void encerrarOpcaoDeVoto(o.id).then(recarregar)} className="min-h-10 rounded-full border border-borda px-3 text-sm font-medium text-tinta-suave">
+            <button type="button" onClick={() => executar(encerrarOpcaoDeVoto(o.id), recarregar)} className="min-h-10 rounded-full border border-borda px-3 text-sm font-medium text-tinta-suave">
               Encerrar
             </button>
           </div>
@@ -358,7 +360,7 @@ export function VotacaoNoPainel() {
           type="button"
           disabled={titulo.trim().length < 3}
           onClick={() =>
-            void criarOpcaoDeVoto(titulo.trim(), descricao.trim()).then(() => {
+            executar(criarOpcaoDeVoto(titulo.trim(), descricao.trim()), () => {
               setTitulo("");
               setDescricao("");
               recarregar();
@@ -390,7 +392,7 @@ function idade(nascimento: string): string {
 }
 
 function ItemDaInscricao({ i, aoMudar }: { i: Inscricao; aoMudar: () => void }) {
-  const mudar = (s: SituacaoDaInscricao) => void mudarSituacao(i.id, s).then(aoMudar);
+  const mudar = (s: SituacaoDaInscricao) => executar(mudarSituacao(i.id, s), aoMudar);
   return (
     <li className="flex flex-col gap-2 px-4 py-4">
       <div className="flex items-start justify-between gap-2">
@@ -402,8 +404,8 @@ function ItemDaInscricao({ i, aoMudar }: { i: Inscricao; aoMudar: () => void }) 
       </p>
       {i.observacao && <p className="whitespace-pre-line text-sm text-tinta">{i.observacao}</p>}
       <div className="flex flex-wrap gap-2">
-        <a href={`https://wa.me/55${i.telefone.replace(/^55(?=\d{10,11}$)/, "")}`} target="_blank" rel="noreferrer" className="flex min-h-10 items-center rounded-full border border-borda px-4 text-sm font-medium text-destaque-texto">
-          {telefoneLegivel(i.telefone)}
+        <a href={`https://wa.me/55${telefoneNacional(i.telefone)}`} target="_blank" rel="noreferrer" className="flex min-h-10 items-center rounded-full border border-borda px-4 text-sm font-medium text-destaque-texto">
+          {telefoneLegivel(telefoneNacional(i.telefone))}
         </a>
         {i.situacao !== "confirmada" && (
           <button type="button" onClick={() => mudar("confirmada")} className="min-h-10 rounded-full bg-primario px-4 text-sm font-semibold text-sobre-primario">
@@ -513,7 +515,7 @@ export function InscricoesDaTurma() {
       ) : (
         <>
       <div className="grid grid-cols-2 gap-2">
-        <button type="button" onClick={() => void salvarTurma({ id: t.id, paroquia_id: id, aberta: !t.aberta }).then(() => setVersao((v) => v + 1))} className={BOTAO_CLARO}>
+        <button type="button" onClick={() => executar(salvarTurma({ id: t.id, paroquia_id: id, aberta: !t.aberta }), () => setVersao((v) => v + 1))} className={BOTAO_CLARO}>
           {t.aberta ? "Encerrar inscrições" : "Reabrir inscrições"}
         </button>
         <button type="button" disabled={baixando || !t.inscritos} onClick={() => void baixar()} className={`${BOTAO_CLARO} flex items-center justify-center gap-2 disabled:opacity-50`}>
@@ -615,7 +617,7 @@ function EncontrosNoPainel({ turma }: { turma: string }) {
           type="button"
           disabled={!novo.data || novo.tema.trim().length < 2 || (!!novo.link && !novo.link.startsWith("https://"))}
           onClick={() =>
-            void salvarEncontroDaTurma({ turma_id: turma, data: novo.data, hora: novo.hora || null, tema: novo.tema.trim(), material: novo.material.trim(), link: novo.link }).then(() => {
+            executar(salvarEncontroDaTurma({ turma_id: turma, data: novo.data, hora: novo.hora || null, tema: novo.tema.trim(), material: novo.material.trim(), link: novo.link }), () => {
               setNovo({ data: "", hora: "", tema: "", material: "", link: "" });
               recarregar();
             })
@@ -641,14 +643,14 @@ function EncontrosNoPainel({ turma }: { turma: string }) {
                   <div className="flex flex-col gap-1 border-t border-borda px-4 py-3">
                     {inscritos.map((i) => (
                       <label key={i.id} className="flex min-h-11 items-center gap-3">
-                        <input type="checkbox" checked={!!presente(e.id, i.id)} onChange={(x) => void marcarPresenca(e.id, i.id, x.target.checked).then(recarregar)} className="size-5 accent-destaque" />
+                        <input type="checkbox" checked={!!presente(e.id, i.id)} onChange={(x) => executar(marcarPresenca(e.id, i.id, x.target.checked), recarregar)} className="size-5 accent-destaque" />
                         <span className="text-tinta">{i.nome}</span>
                       </label>
                     ))}
                     <button
                       type="button"
                       onClick={() => {
-                        if (confirm("Apagar este encontro?")) void apagarEncontroDaTurma(e.id).then(recarregar);
+                        if (confirm("Apagar este encontro?")) executar(apagarEncontroDaTurma(e.id), recarregar);
                       }}
                       className="mt-2 min-h-10 w-fit text-sm font-medium text-[#a9271f]"
                     >
@@ -670,7 +672,7 @@ export function IntencoesNoPainel({ p, aoMudar }: { p: Paroquia; aoMudar: () => 
     <Cartao className="flex flex-col gap-3">
       <h2 className={TITULO}>Intenções de missa</h2>
       <label className="flex min-h-11 items-center gap-3">
-        <input type="checkbox" checked={p.aceita_intencoes} onChange={(e) => void receberIntencoes(p.id, e.target.checked).then(aoMudar)} className="size-5" />
+        <input type="checkbox" checked={p.aceita_intencoes} onChange={(e) => executar(receberIntencoes(p.id, e.target.checked), aoMudar)} className="size-5" />
         <span>Receber pedidos pelo app</span>
       </label>
       {p.aceita_intencoes && (
@@ -755,10 +757,10 @@ export function IntencoesDaParoquia() {
                     </div>
                     {i.situacao === "recebida" && (
                       <div className="flex gap-2">
-                        <button type="button" onClick={() => void mudarSituacaoDaIntencao(i.id, "confirmada").then(recarregar)} className="min-h-10 rounded-full bg-primario px-4 text-sm font-semibold text-sobre-primario">
+                        <button type="button" onClick={() => executar(mudarSituacaoDaIntencao(i.id, "confirmada"), recarregar)} className="min-h-10 rounded-full bg-primario px-4 text-sm font-semibold text-sobre-primario">
                           Confirmar
                         </button>
-                        <button type="button" onClick={() => void mudarSituacaoDaIntencao(i.id, "recusada").then(recarregar)} className="min-h-10 rounded-full border border-borda px-4 text-sm font-medium text-tinta-suave">
+                        <button type="button" onClick={() => executar(mudarSituacaoDaIntencao(i.id, "recusada"), recarregar)} className="min-h-10 rounded-full border border-borda px-4 text-sm font-medium text-tinta-suave">
                           Recusar
                         </button>
                       </div>
@@ -782,7 +784,7 @@ export function MinisteriosNoPainel({ p }: { p: Paroquia }) {
       <h2 className={TITULO}>Ministérios e escalas</h2>
       <div className="flex gap-2">
         <input value={nome} onChange={(e) => setNome(e.target.value)} placeholder="Leitores, Música, Coroinhas" aria-label="Nome do ministério" maxLength={80} className={`${CAMPO} min-w-0`} />
-        <button type="button" disabled={nome.trim().length < 3} onClick={() => void criarMinisterio(nome.trim(), p.id).then((id) => navegar(`/escalas/m/${id}?aba=equipe`))} className={`${BOTAO} shrink-0`}>
+        <button type="button" disabled={nome.trim().length < 3} onClick={() => executar(criarMinisterio(nome.trim(), p.id), (id) => navegar(`/escalas/m/${id}?aba=equipe`))} className={`${BOTAO} shrink-0`}>
           Criar
         </button>
       </div>

@@ -24,11 +24,13 @@ export function Rolagem() {
     if (tipo === "POP") {
       const alvo = posicoes.current.get(key) ?? 0;
       let tentativas = 0;
+      let espera: ReturnType<typeof setTimeout> | undefined;
       const tentar = () => {
         window.scrollTo(0, alvo);
-        if (Math.abs(window.scrollY - alvo) > 2 && tentativas++ < 20) setTimeout(tentar, 50);
+        if (Math.abs(window.scrollY - alvo) > 2 && tentativas++ < 20) espera = setTimeout(tentar, 50);
       };
       tentar();
+      return () => clearTimeout(espera);
     } else if (tipo === "PUSH" && mudouDeTela && !window.location.hash) {
       window.scrollTo(0, 0);
     }

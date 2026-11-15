@@ -9,6 +9,7 @@ interface Contexto {
   mudar: (f: (c: ConteudoDoCofre) => ConteudoDoCofre) => void;
   trancar: () => void;
   apagar: () => void;
+  naoSalvou: boolean;
 }
 
 const Ctx = createContext<Contexto | null>(null);
@@ -16,6 +17,7 @@ const Ctx = createContext<Contexto | null>(null);
 export function CofreProvider({ children }: { children: ReactNode }) {
   const [existe, setExiste] = useState(existeCofre);
   const [aberto, setAberto] = useState<CofreAberto | null>(null);
+  const [naoSalvou, setNaoSalvou] = useState(false);
   const fila = useRef(Promise.resolve());
 
   useEffect(() => {
@@ -44,7 +46,10 @@ export function CofreProvider({ children }: { children: ReactNode }) {
     setAberto((atual) => {
       if (!atual) return atual;
       const conteudo = f(atual.conteudo);
-      fila.current = fila.current.then(() => selar(atual, conteudo)).catch(() => {});
+      fila.current = fila.current
+        .then(() => selar(atual, conteudo))
+        .then(() => setNaoSalvou(false))
+        .catch(() => setNaoSalvou(true));
       return { ...atual, conteudo };
     });
   }, []);
@@ -57,7 +62,7 @@ export function CofreProvider({ children }: { children: ReactNode }) {
     setExiste(false);
   }, []);
 
-  const valor = useMemo(() => ({ existe, aberto, criar, abrir, mudar, trancar, apagar }), [existe, aberto, criar, abrir, mudar, trancar, apagar]);
+  const valor = useMemo(() => ({ existe, aberto, criar, abrir, mudar, trancar, apagar, naoSalvou }), [existe, aberto, criar, abrir, mudar, trancar, apagar, naoSalvou]);
   return <Ctx.Provider value={valor}>{children}</Ctx.Provider>;
 }
 

@@ -43,6 +43,9 @@ export function carregarLivro(codigo: string): Promise<LivroDaBiblia> {
 let mapa: Promise<MapaHebraico> | null = null;
 export function carregarMapaHebraico(): Promise<MapaHebraico> {
   mapa ??= import("./dados/mapa-hebraico.json").then((m) => m.default as unknown as MapaHebraico);
+  mapa.catch(() => {
+    mapa = null;
+  });
   return mapa;
 }
 
@@ -121,6 +124,17 @@ export function equilibrarAspas(anteriores: string[], trecho: string[]): string[
   return resultado;
 }
 
+const TITULO_DO_SALMO =
+  /^(Ao regente do coro|Para o primeiro dia|Para Iditum|Para Salomão|Para instrução|Para o dia|Salmo|Cântico|Oração|Instrução|Louvor|Aleluia|De Davi|Do (próprio|mesmo) Davi|Do servo do Senhor|Dos filhos de (Coré|Jonadab)|Aos filhos de Coré|Sobre |Com acompanhamento|Com instrumentos|Com a cítara|Maskil|Miktham|Testemunho|Quando (estava|se edificava|mudou|fugia)|Na (conclusão|dedicação)|Em (lembrança|memória)|Yonath|Al'|Não destruas|Davi pôs|Para voz|De Ageu|Ele disse:$)/;
+
+export function semTituloDoSalmo(texto: string): string {
+  const frases = texto.split(/(?<=\.)\s+/);
+  let k = 0;
+  while (k < frases.length && TITULO_DO_SALMO.test(frases[k]!)) k++;
+  const resto = frases.slice(k).join(" ");
+  return resto === "Ele disse:" ? "" : resto;
+}
+
 export async function textoDaReferencia(canonica: string): Promise<Trecho[]> {
   const intervalos = intervalosDaReferencia(canonica);
   const mapaH = await carregarMapaHebraico();
@@ -138,7 +152,7 @@ export async function textoDaReferencia(canonica: string): Promise<Trecho[]> {
       const primeiro = c === c1 ? v1 : 1;
       const ultimo = c === c2 ? v2 : capitulo.length;
       for (let v = primeiro; v <= ultimo; v++) {
-        const texto = capitulo[v - 1];
+        const texto = livro === "PSA" && v === 1 ? semTituloDoSalmo(capitulo[0] ?? "") : capitulo[v - 1];
         if (texto) versiculos.push({ capitulo: c, versiculo: v, texto });
       }
     }
