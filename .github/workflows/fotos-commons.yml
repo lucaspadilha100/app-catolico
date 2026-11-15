@@ -1,0 +1,21 @@
+name: Fotos dos santos (Wikimedia Commons)
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/fotos-commons.yml']
+
+jobs:
+  baixar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install --quiet pillow
+      - run: python3 scripts/santos/baixar_commons.py saida
+      - uses: actions/upload-artifact@v4
+        with:
+          name: fotos-commons
+          path: saida
+          retention-days: 90
