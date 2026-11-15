@@ -8,6 +8,11 @@ export const hhmm = (h: string) => {
   return mm === "00" ? `${Number(hh)}h` : `${Number(hh)}h${mm}`;
 };
 
+export function dataDoEvento(iso: string): string {
+  const d = new Date(iso);
+  return `${NOME_DO_DIA[d.getDay()]}, ${d.getDate()}/${String(d.getMonth() + 1).padStart(2, "0")} às ${hhmm(`${d.getHours()}:${String(d.getMinutes()).padStart(2, "0")}`)}`;
+}
+
 const isoLocal = (d: Date) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
 const semanaDoMes = (d: Date) => Math.floor((d.getDate() - 1) / 7) + 1;
 const ultimaDoMes = (d: Date) => new Date(d.getFullYear(), d.getMonth(), d.getDate() + 7).getMonth() !== d.getMonth();

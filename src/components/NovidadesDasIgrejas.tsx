@@ -4,7 +4,7 @@ import { CalendarDays, ChevronRight, Megaphone } from "lucide-react";
 import { novidadesDasIgrejas, type Publicacao } from "@/paroquias/api";
 import { igrejasQueSigo, CHAVE_IGREJAS_SEGUIDAS } from "@/paroquias/seguidas";
 import { LISTA } from "@/components/Cartao";
-import { dataDoEvento } from "@/components/Mural";
+import { dataDoEvento } from "@/paroquias/horarios";
 
 export function NovidadesDasIgrejas() {
   const [lista, setLista] = useState<(Publicacao & { paroquias: { nome: string } | null })[]>([]);

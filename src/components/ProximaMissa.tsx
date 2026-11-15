@@ -3,11 +3,10 @@ import { Link } from "react-router-dom";
 import { CalendarDays, ChevronRight, Church, HandHeart, ListMusic, Radio, UsersRound } from "lucide-react";
 import { paroquiasFavoritas, usePreferencias } from "@/lib/preferencias";
 import { carregarParoquia, proximoEvento, type ParoquiaCompleta, type Publicacao } from "@/paroquias/api";
-import { emQuanto, hhmm, proximasOcorrencias } from "@/paroquias/horarios";
+import { dataDoEvento, emQuanto, hhmm, proximasOcorrencias } from "@/paroquias/horarios";
 import { roteirosDaParoquia, type RoteiroDoTerco } from "@/roteiros/api";
 import { quandoDoRoteiro } from "@/roteiros/roteiro";
 import { turmasDaParoquia, type Turma } from "@/paroquias/plano";
-import { dataDoEvento } from "@/components/Mural";
 
 const TOLERANCIA = 15 * 60_000;
 

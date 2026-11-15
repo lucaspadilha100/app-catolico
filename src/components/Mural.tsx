@@ -2,7 +2,7 @@ import { useEffect, useState, type FormEvent } from "react";
 import { CalendarDays, ExternalLink, Megaphone, Plus, Trash2 } from "lucide-react";
 import { apagarPublicacao, meuPedidoDeGestao, muralDaParoquia, pedirGestao, publicar, type Publicacao } from "@/paroquias/api";
 import { executar } from "@/lib/acao";
-import { NOME_DO_DIA, hhmm } from "@/paroquias/horarios";
+import { dataDoEvento } from "@/paroquias/horarios";
 import { Cartao, LISTA } from "@/components/Cartao";
 
 const CAMPO = "min-h-12 w-full rounded-xl border border-borda bg-papel px-3 text-base text-tinta outline-none focus:border-destaque-texto";
@@ -14,11 +14,6 @@ function quandoFoi(iso: string): string {
   if (dias <= 0) return "hoje";
   if (dias === 1) return "ontem";
   return `há ${dias} dias`;
-}
-
-export function dataDoEvento(iso: string): string {
-  const d = new Date(iso);
-  return `${NOME_DO_DIA[d.getDay()]}, ${d.getDate()}/${String(d.getMonth() + 1).padStart(2, "0")} às ${hhmm(`${d.getHours()}:${String(d.getMinutes()).padStart(2, "0")}`)}`;
 }
 
 function ItemDoMural({ p, podeEditar, aoApagar }: { p: Publicacao; podeEditar: boolean; aoApagar: () => void }) {

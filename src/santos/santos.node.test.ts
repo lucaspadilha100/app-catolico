@@ -92,7 +92,7 @@ it("enquanto as fotos moram no app, toda foto citada está na pasta", () => {
 it("o manifesto e os arquivos publicados estão em dia com as fichas", () => {
   expect(M.total, "rode npm run gerar:santos").toBe(FICHAS.length);
   const pasta = join(RAIZ, "public", M.pasta);
-  const nomes = [M.indice, ...M.partes, ...Object.values(M.dias), ...Object.values(M.creditos).map((c) => c.arquivo)];
+  const nomes = [M.indice, M.destaques, ...M.partes, ...Object.values(M.dias), ...Object.values(M.creditos).map((c) => c.arquivo)];
   for (const n of nomes) expect(existsSync(join(pasta, n)), n).toBe(true);
   expect(readdirSync(pasta).sort()).toEqual([...nomes].sort());
   const doDia = Object.values(M.dias).flatMap((n) => JSON.parse(readFileSync(join(pasta, n), "utf8")) as Santo[]);
