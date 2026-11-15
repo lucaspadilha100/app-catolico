@@ -27,8 +27,31 @@ As de `docs/conferencia-doutrinal.md` e do CLAUDE.md: fato só de fonte
 institucional (ou Martirológio, para os antigos), texto próprio, neutro, sem
 milagre não reconhecido; venerável e servo não levam "rogai por nós".
 
-## Dúvidas da lista mestra (a conferir)
-- 805 santos de confiança baixa (antigos do Oriente sem prova de estarem no
-  Martirológio Romano): só entram depois de conferidos.
-- 1.627 beatos sem data de beatificação.
-- causesanti.va e Hagiography Circle não foram lidos ainda.
+## Como as fichas foram feitas (14-15/11/2026)
+- Brasil: lista da Academia Brasileira de Hagiologia; fatos de dioceses, congregações e postulações.
+- 1ª passada: calendário do mundo com página na Wikipédia (só texto).
+- 2ª passada: os sem página, achados no santiebeati.it e conferidos no Martirológio.
+- 3ª passada: sem dia de festa na lista (veneráveis no dia da morte, decreto conferido).
+- 4ª passada: o Martirológio Romano 2004 conferido dia por dia nos 12 meses contra o
+  app; cada elogio que faltava virou ficha. Cobertura do Martirológio: completa.
+- Fonte principal: elogio do Martirológio + santiebeati.it; datas recentes em
+  causesanti.va e press.vatican.va. Biografias assinadas por Franco Dieghi no
+  santiebeati NÃO são usadas (inventam detalhes).
+- Ficaram de fora por regra (nada polêmico): inquisidores, cruzados, cisma,
+  antipapa, acusação contra judeus, figuras políticas (ex.: Stepinac, Sheptytsky,
+  Hlond, Dehon, Plumtree, Felton, Pedro Arbués, Bernardino de Feltre, Werner de
+  Oberwesel, Dominguito del Val, Angelelli). Santa Filomena: fora do Martirológio
+  (decisão do dono pendente).
+- Membro de grupo com dia próprio no Martirológio tem ficha individual; o grupo
+  continua.
+- Data: a do Martirológio; beato posterior a 2004, a memória dada pela fonte;
+  venerável, o dia da morte (`dataDe: "falecimento"`).
+
+## O que falta
+- Veneráveis declarados de 1978 até hoje (boletins do Vaticano): a lista oficial
+  está sendo montada; o app tem 425.
+- Fotos: 555 fichas com foto; 2.145 com foto livre apontada no Wikimedia
+  (`foto_commons`) a baixar; as demais a buscar com crédito. Depende do site de
+  imagens no Cloudflare (repositório `minha-igrejinha-imagens`).
+- 805 santos antigos do Oriente de confiança baixa: só entram se estiverem no
+  Martirológio (a 4ª passada já pegou os que estão).
