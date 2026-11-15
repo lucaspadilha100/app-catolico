@@ -576,7 +576,36 @@
     "cidade": "Araçás",
     "localidade": "",
     "endereco": "",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": "Santa Missa com adoração e bênção do Santíssimo Sacramento"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": "Com a missa"
+     }
+    ],
     "nao_cabe": ""
    }
   ],
@@ -585,10 +614,15 @@
     "url": "https://diocesedealagoinhas.com/paroquias/paroquia-deus-menino-aracas/",
     "data": "2024-10",
     "o_que": "contatos"
+   },
+   {
+    "url": "https://www.instagram.com/p/DXX51UMES6_/ (Agenda Paroquial, programação semanal sem data)",
+    "data": "",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Vicariato da Esperança. A página da paróquia no site da diocese não traz horário. Novo pároco, Pe. Gilmar José da Silva, desde 21/03/2026."
+  "confianca": "media",
+  "observacao": "Vicariato da Esperança. A página da paróquia no site da diocese não traz horário. Novo pároco, Pe. Gilmar José da Silva, desde 21/03/2026. Horários do Instagram oficial da paróquia (conferido em 15/11/2026)."
  },
  {
   "id_banco": null,
@@ -2288,7 +2322,22 @@
     "cidade": "",
     "localidade": "Raso",
     "endereco": "",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
     "nao_cabe": ""
    }
   ],
@@ -2297,10 +2346,15 @@
     "url": "https://diocesedealagoinhas.com/paroquias/paroquia-nossa-senhora-das-gracas-raso/",
     "data": "2024-10",
     "o_que": "contatos"
+   },
+   {
+    "url": "https://www.instagram.com/stories/highlights/17867704626357668/ (destaque Horários)",
+    "data": "",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Vicariato Sertão da Missão. A página da paróquia no site da diocese não traz horário. A página da diocese não diz o município de Raso (campo cidade vazio de propósito; conferir)."
+  "confianca": "media",
+  "observacao": "Vicariato Sertão da Missão. A página da paróquia no site da diocese não traz horário. A página da diocese não diz o município de Raso (campo cidade vazio de propósito; conferir). Horários do Instagram oficial da paróquia (conferido em 15/11/2026)."
  },
  {
   "id_banco": null,

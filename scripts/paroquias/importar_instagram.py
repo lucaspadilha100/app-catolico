@@ -180,7 +180,9 @@ def main():
             continue
         arquivo, u = achados[0]
         if any(ig.get("horarios") for ig in u.get("igrejas") or []):
-            avisos.append(f"já tinha horário, não mexi: {rotulo}")
+            for x in rows:
+                if igreja_da_linha(u, x[4]) is None and data_ok(x[11].strip(), x[10].strip()):
+                    capelas_novas.append(f"{uf} | {cidade} | {paroquia} | {x[4]} | {x[5]} | {x[6]}")
             continue
         usou = False
         for x in rows:
@@ -221,7 +223,10 @@ def main():
 
     texto_banco = "\n".join(p.read_text() for p in sorted((RAIZ / "supabase/migrations").glob("*_dados_*.sql")))
     ids_no_banco = set(re.findall(r"'([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})'", texto_banco))
-    for uf in sorted(feitos):
+    base = subprocess.run(["git", "ls-remote", "origin", "main"], cwd=RAIZ, capture_output=True, text=True).stdout.split()[:1]
+    mudados = subprocess.run(["git", "diff", "--name-only", *base, "--", "fontes/paroquias"], cwd=RAIZ, capture_output=True, text=True).stdout.split()
+    ufs = set(feitos) | {m.group(1).upper() for f in mudados if (m := re.search(r"pesquisa-([a-z]{2})-2026-11/saida/", f))}
+    for uf in sorted(ufs):
         pasta = RAIZ / f"fontes/paroquias/pesquisa-{uf.lower()}-2026-11"
         sqls = [p.read_text() for p in sorted((RAIZ / "supabase/migrations").glob(f"*_dados_{uf.lower()}_*.sql"))]
         nomes = sorted({d for s in sqls for d in re.findall(r"'((?:Arqui)?[Dd]iocese[^']*|Prelazia[^']*|Eparquia[^']*|Ordinariato[^']*|Exarcado[^']*)'", s)})
@@ -230,6 +235,18 @@ def main():
         print(r.stdout.strip().splitlines()[-1] if r.stdout.strip() else r.stderr)
         destino = RAIZ / f"supabase/migrations/{ts}_dados_{uf.lower()}_horarios.sql"
         if destino.exists():
+            linhas_sql = destino.read_text().split("\n")
+            valor = re.compile(r"^  \('([0-9a-f-]{36})'::uuid, ")
+            novas = [l for l in linhas_sql if not (valor.match(l) and valor.match(l).group(1) in ids_no_banco)]
+            vals = [i for i, l in enumerate(novas) if valor.match(l)]
+            if not vals:
+                destino.unlink()
+                print(f"  {uf}: nenhum horário novo, sem migração")
+                continue
+            for i in vals:
+                novas[i] = novas[i].rstrip(",") + ("" if i == vals[-1] else ",")
+            destino.write_text("\n".join(novas))
+            print(f"  {uf}: {len(vals)} horários novos")
             pids = set(re.findall(r"'[0-9a-f-]{36}'::uuid, '([0-9a-f-]{36})'::uuid", destino.read_text()))
             faltam = pids - ids_no_banco
             if faltam:

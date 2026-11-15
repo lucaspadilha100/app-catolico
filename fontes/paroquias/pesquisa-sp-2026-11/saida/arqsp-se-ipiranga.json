@@ -3354,7 +3354,85 @@
     "cidade": "São Paulo",
     "localidade": "Aclimação",
     "endereco": "Rua Tenente de Azevedo, 182",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": "Intenções pelos fiéis defuntos"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": "Devoção à São José"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": "Bênção dos enfermos e objetos devocionais"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": "Participação das crianças da catequese"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "14:00",
+      "semanas": null,
+      "observacao": "Até 16h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 6,
+      "hora": "14:30",
+      "semanas": null,
+      "observacao": "Até 16h30"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Até 10h"
+     }
+    ],
     "nao_cabe": ""
    }
   ],
@@ -3363,10 +3441,15 @@
     "url": "https://arquisp.org.br/regiao-se/paroquia-nossa-senhora-dos-remedios/",
     "data": "2026-11-13",
     "o_que": "contatos"
+   },
+   {
+    "url": "Missas: https://www.instagram.com/p/DUMW1mnEY9q/ (post fixado) | Confissão: https://www.instagram.com/p/Detmjkhsjkm/",
+    "data": "",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Região Episcopal Sé, Decanato São Tiago de Alfeu. Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria e a paróquia só tem página no Instagram, que não foi lida por dentro."
+  "confianca": "media",
+  "observacao": "Região Episcopal Sé, Decanato São Tiago de Alfeu. Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria e a paróquia só tem página no Instagram, que não foi lida por dentro. Horários do Instagram oficial da paróquia (conferido em 15/11/2026)."
  },
  {
   "id_banco": null,
@@ -7718,7 +7801,94 @@
     "cidade": "São Paulo",
     "localidade": "Vila Bela",
     "endereco": "Rua das Valerianas, 168",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "06:45",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "06:45",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "06:45",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "06:45",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": "Missa da família"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": "Rito Bizantino"
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 0,
+      "hora": "16:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
     "nao_cabe": ""
    }
   ],
@@ -7727,10 +7897,15 @@
     "url": "https://arquisp.org.br/regiao-ipiranga/paroquia-nossa-senhora-da-gloria/",
     "data": "2026-11-13",
     "o_que": "contatos"
+   },
+   {
+    "url": "Missas: https://www.instagram.com/stories/highlights/18074524795880317/ (destaque Missas) | Adoração: https://www.instagram.com/stories/highlights/18000228866855870/ (destaque Adoração)",
+    "data": "",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Região Episcopal Ipiranga, Decanato São Marcos. Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria e a paróquia só tem página no Instagram, que não foi lida por dentro."
+  "confianca": "media",
+  "observacao": "Região Episcopal Ipiranga, Decanato São Marcos. Sem horário confirmado: a página da arquidiocese só traz o expediente da secretaria e a paróquia só tem página no Instagram, que não foi lida por dentro. Horários do Instagram oficial da paróquia (conferido em 15/11/2026)."
  },
  {
   "id_banco": null,

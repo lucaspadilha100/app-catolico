@@ -365,7 +365,36 @@
     "cidade": "Florianópolis",
     "localidade": "Agronômica",
     "endereco": "Rua Padre Schrader, 01",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
     "nao_cabe": ""
    },
    {
@@ -434,10 +463,15 @@
     "url": "https://arquifln.org.br/igrejas/paroquia-nossa-senhora-de-lourdes-e-sao-luis-gonzaga",
     "data": "2026-07-29",
     "o_que": "contatos"
+   },
+   {
+    "url": "https://www.instagram.com/stories/highlights/17948111608555579/ (destaque Informações)",
+    "data": "",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Forania Florianópolis Centro-Sul. Sem horário de missa confirmado: o site da arquidiocese não publica horários e a paróquia não tem site próprio acessível; o limite de buscas na web acabou antes desta paróquia."
+  "confianca": "media",
+  "observacao": "Forania Florianópolis Centro-Sul. Sem horário de missa confirmado: o site da arquidiocese não publica horários e a paróquia não tem site próprio acessível; o limite de buscas na web acabou antes desta paróquia. Horários do Instagram oficial da paróquia (conferido em 15/11/2026)."
  },
  {
   "id_banco": null,
@@ -956,7 +990,43 @@
     "cidade": "Florianópolis",
     "localidade": "Capoeiras",
     "endereco": "Rua Isaura Comichole Pires, 102",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
     "nao_cabe": ""
    },
    {
@@ -995,10 +1065,15 @@
     "url": "https://arquifln.org.br/igrejas/paroquia-sao-joao-batista-e-santa-luzia",
     "data": "2026-07-29",
     "o_que": "contatos"
+   },
+   {
+    "url": "https://www.instagram.com/saojoaoeluziaparoquia",
+    "data": "",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Forania Florianópolis Continente. Sem horário de missa confirmado: o site da arquidiocese não publica horários e a paróquia não tem site próprio acessível; o limite de buscas na web acabou antes desta paróquia."
+  "confianca": "media",
+  "observacao": "Forania Florianópolis Continente. Sem horário de missa confirmado: o site da arquidiocese não publica horários e a paróquia não tem site próprio acessível; o limite de buscas na web acabou antes desta paróquia. Horários do Instagram oficial da paróquia (conferido em 15/11/2026)."
  },
  {
   "id_banco": null,
@@ -1222,7 +1297,99 @@
     "cidade": "Florianópolis",
     "localidade": "Coloninha",
     "endereco": "Rua Santa Rita de Cássia, 1050",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "15:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": "Até 19h"
+     }
+    ],
     "nao_cabe": ""
    },
    {
@@ -1241,10 +1408,15 @@
     "url": "https://arquifln.org.br/igrejas/paroquia-santo-antonio-e-santa-maria-goretti",
     "data": "2026-07-29",
     "o_que": "contatos"
+   },
+   {
+    "url": "Missas: https://www.instagram.com/p/DXc3lLkDali/ (post fixado) | Adoração: https://www.instagram.com/stories/highlights/18091072234290754/ (destaque Adoração)",
+    "data": "",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Forania Florianópolis Continente. Sem horário de missa confirmado: o site da arquidiocese não publica horários e a paróquia não tem site próprio acessível; o limite de buscas na web acabou antes desta paróquia."
+  "confianca": "media",
+  "observacao": "Forania Florianópolis Continente. Sem horário de missa confirmado: o site da arquidiocese não publica horários e a paróquia não tem site próprio acessível; o limite de buscas na web acabou antes desta paróquia. Horários do Instagram oficial da paróquia (conferido em 15/11/2026)."
  },
  {
   "id_banco": null,
@@ -1880,7 +2052,36 @@
     "cidade": "Florianópolis",
     "localidade": "Jardim Atlântico",
     "endereco": "Rua Luís D'Acampora, 207",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": "Santa Missa e Novena a Nossa Senhora Desatadora dos Nós"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
     "nao_cabe": ""
    },
    {
@@ -1899,10 +2100,15 @@
     "url": "https://arquifln.org.br/igrejas/paroquia-sao-jose-e-santa-rita-de-cassia",
     "data": "2026-01-22",
     "o_que": "contatos"
+   },
+   {
+    "url": "https://www.instagram.com/p/DeRnLbATMMq/ (post fixado)",
+    "data": "",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Forania Florianópolis Continente. Sem horário de missa confirmado: o site da arquidiocese não publica horários e a paróquia não tem site próprio acessível; o limite de buscas na web acabou antes desta paróquia."
+  "confianca": "media",
+  "observacao": "Forania Florianópolis Continente. Sem horário de missa confirmado: o site da arquidiocese não publica horários e a paróquia não tem site próprio acessível; o limite de buscas na web acabou antes desta paróquia. Horários do Instagram oficial da paróquia (conferido em 15/11/2026)."
  },
  {
   "id_banco": null,
@@ -2057,7 +2263,38 @@
     "cidade": "Florianópolis",
     "localidade": "Monte Verde",
     "endereco": "Rodovia Virgílio Várzea, 538",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
     "nao_cabe": ""
    },
    {
@@ -2116,10 +2353,15 @@
     "url": "https://arquifln.org.br/igrejas/paroquia-sao-francisco-xavier",
     "data": "2026-07-29",
     "o_que": "contatos"
+   },
+   {
+    "url": "https://www.instagram.com/stories/highlights/18105044576335748/ (destaque Missas)",
+    "data": "",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Forania Florianópolis Norte. Sem horário de missa confirmado: o site da arquidiocese não publica horários e a paróquia não tem site próprio acessível; o limite de buscas na web acabou antes desta paróquia."
+  "confianca": "media",
+  "observacao": "Forania Florianópolis Norte. Sem horário de missa confirmado: o site da arquidiocese não publica horários e a paróquia não tem site próprio acessível; o limite de buscas na web acabou antes desta paróquia. Horários do Instagram oficial da paróquia (conferido em 15/11/2026)."
  },
  {
   "id_banco": null,
@@ -2227,7 +2469,22 @@
     "cidade": "Florianópolis",
     "localidade": "Prainha",
     "endereco": "Rua Treze de Maio, 62",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "20:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
     "nao_cabe": ""
    },
    {
@@ -2266,10 +2523,15 @@
     "url": "https://arquifln.org.br/igrejas/paroquia-santa-teresinha-do-menino-jesus",
     "data": "2026-07-29",
     "o_que": "contatos"
+   },
+   {
+    "url": "bio + https://www.instagram.com/stories/highlights/17956725671137758/ (destaque Horários)",
+    "data": "",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Forania Florianópolis Centro-Sul. Sem horário de missa confirmado: o site da arquidiocese não publica horários e a paróquia não tem site próprio acessível; o limite de buscas na web acabou antes desta paróquia."
+  "confianca": "media",
+  "observacao": "Forania Florianópolis Centro-Sul. Sem horário de missa confirmado: o site da arquidiocese não publica horários e a paróquia não tem site próprio acessível; o limite de buscas na web acabou antes desta paróquia. Horários do Instagram oficial da paróquia (conferido em 15/11/2026)."
  },
  {
   "id_banco": null,
