@@ -54,6 +54,8 @@ paróquias (14/11/2026, os 27 estados no banco): aumentar o limite nas variávei
   nesses estados NÃO está na web aberta: as dioceses não publicam (ou publicam
   só as que já entraram), e as paróquias do interior divulgam no Instagram, que
   a busca não mostra. Londrina, Cascavel, São José dos Pinhais (PR) e Grajaú (MA)
-  têm páginas por paróquia, mas o site recusa robôs: abrir num navegador comum.
+  têm páginas por paróquia, mas o site recusa robôs. O dono abriu no navegador em
+  15/11/2026: Londrina, Cascavel e Grajaú só têm endereço e contato (nenhum horário);
+  o site de São José dos Pinhais estava em manutenção. Não adianta voltar a eles.
   O caminho para o resto é a própria paróquia (gestor da secretaria, "Sugerir
   horário") e não mais busca.
