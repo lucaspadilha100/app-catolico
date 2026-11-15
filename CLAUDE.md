@@ -313,6 +313,7 @@ Nada de licença paga por ora. Então:
 - Memória usa as leituras do dia de semana; usa as PRÓPRIAS só quando são
   obrigatórias (códigos `.001`/`.101` da fonte e memórias de Nossa Senhora).
 - O JSON é carregado sob demanda (arquivo próprio no build, cache offline).
+- ⚠️ Decisão do dono (15/11/2026): a leitura NÃO ganha introdução ("Naquele tempo, Jesus disse...") e o salmo NÃO ganha refrão; fica o texto da nossa Bíblia como está. O título do salmo ("Cântico gradual", "Ao regente do coro"...) sai na liturgia (`semTituloDoSalmo` em `biblia/texto.ts`), mas continua na leitura da Bíblia.
 
 ## Bíblia
 - Texto base: Figueiredo, **edição de 1950**, em `fontes/biblia/figueiredo-1950/`
