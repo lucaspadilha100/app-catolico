@@ -33,7 +33,7 @@ export function NovenasDoMes({ data, semAndamento = false }: { data: Date; semAn
           return (
             <Link key={n.id} to={`/rezar/novenas/${n.id}`} className="flex w-60 shrink-0 snap-start flex-col gap-2">
               {img ? (
-                <img src={caminhoDeDevocao(img)} alt="" loading="lazy" className="h-36 w-60 rounded-3xl bg-cartao object-cover" style={{ objectPosition: img.foco ?? "50% 30%" }} />
+                <img src={caminhoDeDevocao(img)} alt="" loading="lazy" onError={(e) => (e.currentTarget.style.visibility = "hidden")} className="h-36 w-60 rounded-3xl bg-cartao object-cover" style={{ objectPosition: img.foco ?? "50% 30%" }} />
               ) : (
                 <span className="grid h-36 w-60 place-items-center rounded-3xl bg-cartao text-tinta-suave">
                   <ListOrdered className="size-8" aria-hidden />

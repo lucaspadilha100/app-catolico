@@ -10,7 +10,7 @@ const CAMPO = "min-h-11 rounded-xl border border-borda bg-papel px-3 text-base t
 function Linha({ titulo, detalhe, ligado, onLigar, children }: { titulo: string; detalhe?: string; ligado: boolean; onLigar: (v: boolean) => void; children?: ReactNode }) {
   return (
     <div className="flex min-h-16 items-center gap-3 px-4 py-3">
-      <span className="min-w-0 flex-1">
+      <span className="min-w-0 flex-1 cursor-pointer" onClick={() => onLigar(!ligado)}>
         <span className="block font-medium text-tinta">{titulo}</span>
         {detalhe && <span className="block text-sm text-tinta-suave">{detalhe}</span>}
       </span>
@@ -21,9 +21,11 @@ function Linha({ titulo, detalhe, ligado, onLigar, children }: { titulo: string;
         aria-checked={ligado}
         aria-label={titulo}
         onClick={() => onLigar(!ligado)}
-        className={`relative h-7 w-12 shrink-0 rounded-full transition-colors ${ligado ? "bg-destaque" : "bg-borda"}`}
+        className="grid min-h-11 min-w-14 shrink-0 place-items-center"
       >
-        <span className={`absolute top-1 size-5 rounded-full bg-white shadow transition-all ${ligado ? "left-6" : "left-1"}`} />
+        <span className={`relative h-7 w-12 rounded-full transition-colors ${ligado ? "bg-destaque" : "bg-borda"}`}>
+          <span className={`absolute top-1 size-5 rounded-full bg-white shadow transition-all ${ligado ? "left-6" : "left-1"}`} />
+        </span>
       </button>
     </div>
   );
@@ -61,7 +63,7 @@ export default function Lembretes() {
   }
 
   const hora = (valor: string | undefined, campo: keyof TipoLembretes, padrao: string) => (
-    <input type="time" value={valor ?? padrao} onChange={(e) => void mudar({ ...l, [campo]: e.target.value })} aria-label="Hora" className={`${CAMPO} w-28`} />
+    <input type="time" value={valor ?? padrao} onChange={(e) => void mudar({ ...l, [campo]: e.target.value })} aria-label="Hora" className={`${CAMPO} w-auto min-w-28`} />
   );
 
   return (

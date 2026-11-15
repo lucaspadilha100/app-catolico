@@ -27,7 +27,7 @@ function Secao({ titulo, linhas, total, children }: { titulo: string; linhas: Li
       {children}
       <ul className="flex flex-col divide-y divide-borda rounded-3xl bg-cartao">
         {linhas.map((l) => (
-          <li key={l.chave} className="px-4 py-3 text-[0.9375rem]">
+          <li key={l.chave} className="px-4 py-3 text-[0.9375rem] [overflow-wrap:anywhere]">
             <span className="block font-semibold text-tinta">{l.titulo}</span>
             {l.url ? (
               <a href={l.url} target="_blank" rel="noreferrer" className="text-tinta-suave underline underline-offset-2">

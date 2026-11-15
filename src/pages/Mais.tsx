@@ -8,6 +8,7 @@ import { compartilhar, ehNativo, enderecoPublico } from "@/lib/nativo";
 import { useApoiador } from "@/apoio/api";
 import { useConta } from "@/conta/useConta";
 import { useTemPainel } from "@/pages/Painel";
+import { CHAVE_DA_BIBLIA_BAIXADA, EDICAO_DA_BIBLIA, baixarBiblia } from "@/biblia/texto";
 
 function Escolha<T extends string>({
   rotulo,
@@ -80,6 +81,43 @@ function Compartilhar() {
       </span>
       <span className="min-w-0 flex-1 font-medium">{copiado ? "Link copiado" : "Indicar o app"}</span>
     </button>
+  );
+}
+
+function BibliaSemInternet() {
+  const [estado, setEstado] = useState(() => {
+    try {
+      return localStorage.getItem(CHAVE_DA_BIBLIA_BAIXADA) === EDICAO_DA_BIBLIA ? "pronta" : "";
+    } catch {
+      return "";
+    }
+  });
+  const [feitos, setFeitos] = useState(0);
+  async function baixar() {
+    setEstado("baixando");
+    try {
+      await baixarBiblia((n) => setFeitos(n));
+      setEstado("pronta");
+    } catch {
+      setEstado("erro");
+    }
+  }
+  return (
+    <div className="flex min-h-11 items-center justify-between gap-4">
+      <span className="font-medium">Bíblia sem internet</span>
+      {estado === "pronta" ? (
+        <span className="text-sm text-tinta-suave">Guardada</span>
+      ) : (
+        <button
+          type="button"
+          disabled={estado === "baixando"}
+          onClick={() => void baixar()}
+          className="min-h-11 shrink-0 rounded-full bg-cartao px-4 text-sm font-semibold text-tinta disabled:opacity-60"
+        >
+          {estado === "baixando" ? `${feitos} de 73` : estado === "erro" ? "Tentar de novo" : "Guardar (1,5 MB)"}
+        </button>
+      )}
+    </div>
   );
 }
 
@@ -172,6 +210,7 @@ export default function Mais() {
               />
             </label>
             <Interruptor rotulo="Modo simples" ligado={p.simples} onChange={(simples) => mudar({ simples })} />
+            {!ehNativo() && <BibliaSemInternet />}
           </Cartao>
         </section>
 

@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { useFocoPreso } from "@/lib/useFocoPreso";
 import { Check, ChevronRight, LocateFixed, Search } from "lucide-react";
 import { usePreferencias, type Letra } from "@/lib/preferencias";
 import { cidadesComParoquias, procurarParoquias, type Cidade } from "@/paroquias/api";
@@ -174,11 +175,12 @@ export function BoasVindas() {
   const { preferencias, mudar } = usePreferencias();
   const [passo, setPasso] = useState(0);
   const [onde, setOnde] = useState<Cidade | "perto" | null>(null);
+  const caixa = useFocoPreso<HTMLDivElement>();
   if (preferencias.boasVindas) return null;
   const terminar = () => mudar({ boasVindas: true });
 
   return (
-    <div className="fixed inset-0 z-50 overflow-y-auto bg-papel md:left-60" role="dialog" aria-modal="true" aria-label={`Boas-vindas: ${NOME_DO_APP}`}>
+    <div ref={caixa} className="fixed inset-0 z-50 overflow-y-auto bg-papel md:left-60" role="dialog" aria-modal="true" aria-label={`Boas-vindas: ${NOME_DO_APP}`}>
       <div className="mx-auto flex min-h-full w-full max-w-md flex-col gap-5 px-5 pb-[max(2rem,env(safe-area-inset-bottom))] pt-[max(2.5rem,env(safe-area-inset-top))]">
         <div className="flex items-center justify-between">
           <span className="simbolo w-10 text-destaque-texto" aria-hidden />

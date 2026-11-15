@@ -30,7 +30,7 @@ export function CarrosselAoVivo({ lista, destino, atual }: { lista: Transmissao[
             {tituloDaTransmissao(t) && <span className="line-clamp-2 block px-0.5 text-[0.8125rem] leading-snug text-tinta-suave">{tituloDaTransmissao(t)}</span>}
           </Link>
         ) : (
-          <div key={t.canal_id} className={`${CARTAO} opacity-55`}>
+          <div key={t.canal_id} className={CARTAO}>
             <span className={`${CAPA} grid place-items-center text-tinta-suave`}>
               <Tv className="size-8" aria-hidden />
             </span>

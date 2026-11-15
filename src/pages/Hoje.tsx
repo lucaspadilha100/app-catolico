@@ -213,7 +213,7 @@ export default function Hoje() {
         <section className={`relative flex min-h-[26rem] flex-col justify-end overflow-hidden rounded-[1.75rem] ${arte ? "text-white" : "border border-borda-dia bg-dia text-sobre-dia"}`}>
           {arte && (
             <>
-              <img src={caminhoDaArte(arte)} alt={arte.obra} className="absolute inset-0 size-full object-cover" />
+              <img src={caminhoDaArte(arte)} alt={arte.obra} onError={() => setArte(null)} className="absolute inset-0 size-full object-cover" />
               <div className="absolute inset-0 bg-gradient-to-b from-black/0 from-30% to-black/85 to-80%" aria-hidden />
             </>
           )}

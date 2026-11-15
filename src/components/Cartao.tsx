@@ -37,7 +37,7 @@ export function EmPreparacao() {
 
 export function Miniatura({ imagem, foco, icone: Icone, tamanho = "size-11" }: { imagem?: string | null; foco?: string; icone: LucideIcon; tamanho?: string }) {
   return imagem ? (
-    <img src={imagem} alt="" loading="lazy" className={`${tamanho} shrink-0 rounded-2xl bg-marca-fundo object-cover`} style={{ objectPosition: foco ?? "50% 30%" }} />
+    <img src={imagem} alt="" loading="lazy" onError={(e) => (e.currentTarget.style.visibility = "hidden")} className={`${tamanho} shrink-0 rounded-2xl bg-marca-fundo object-cover`} style={{ objectPosition: foco ?? "50% 30%" }} />
   ) : (
     <span className={`grid ${tamanho} shrink-0 place-items-center rounded-2xl bg-papel text-tinta`}>
       <Icone className="size-5" aria-hidden />

@@ -192,7 +192,7 @@ export function SeuSanto() {
   const [nascimento, setNascimento] = useParametro("nascimento");
   const [d, m] = nascimento.split("/").map(Number);
   const todos = useIndice(nome.trim() !== "");
-  const doNome = useMemo(() => (todos && todos !== "erro" ? santosDoNome(todos, nome).sort(porNome) : []), [todos, nome]);
+  const doNome = useMemo(() => (todos && todos !== "erro" ? santosDoNome(todos, nome) : []), [todos, nome]);
   const mmdd = d && m ? `${String(m).padStart(2, "0")}${String(d).padStart(2, "0")}` : "";
   const doDiaCarregado = useConteudo(() => (mmdd ? santosDoDia(mmdd) : Promise.resolve([])), `dia-${mmdd}`);
   const doDia = doDiaCarregado && doDiaCarregado !== "erro" ? doDiaCarregado : [];
@@ -285,9 +285,14 @@ export function SantoPagina() {
   }, [id]);
 
   if (achado === null) return <Carregando />;
-  if (achado === "erro") return <Indisponivel />;
+  if (achado === "erro" || !achado.santo)
+    return (
+      <div className="flex flex-col gap-4">
+        <Voltar para="/santos">Santos</Voltar>
+        {achado === "erro" ? <Indisponivel /> : <NaoEncontrada />}
+      </div>
+    );
   const s = achado.santo;
-  if (!s) return <NaoEncontrada />;
   const meu = devocao.includes(s.id);
   const novena = NOVENAS.find((n) => "mes" in n.festa && `${String(n.festa.mes).padStart(2, "0")}${String(n.festa.dia).padStart(2, "0")}` === s.data);
 

@@ -65,8 +65,8 @@ export function Pix({ chave, nome, cidade, recebedor, valores }: { chave: string
         )}
         <dt className="text-tinta-suave">Chave</dt>
         <dd className="flex min-w-0 items-center gap-2 text-tinta">
-          <span className="min-w-0 break-all">{chave}</span>
-          <button type="button" onClick={() => void copiar(chave, "chave")} aria-label="Copiar chave" className="grid size-9 shrink-0 place-items-center rounded-full text-tinta-suave hover:bg-marca-fundo">
+          <span className="min-w-0 [overflow-wrap:anywhere]">{chave}</span>
+          <button type="button" onClick={() => void copiar(chave, "chave")} aria-label="Copiar chave" className="grid size-11 shrink-0 place-items-center rounded-full text-tinta-suave hover:bg-marca-fundo">
             {copiado === "chave" ? <Check className="size-4" aria-hidden /> : <Copy className="size-4" aria-hidden />}
           </button>
         </dd>

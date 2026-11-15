@@ -1,4 +1,5 @@
 import { NotaDaTraducao } from "@/components/TextoBiblico";
+import { useFocoPreso } from "@/lib/useFocoPreso";
 import { BotaoOuvir, emPartes } from "@/components/Ouvir";
 import { useEffect, useLayoutEffect, useRef, useState, type FormEvent } from "react";
 import { Link, Navigate, useLocation, useNavigate, useParams, useSearchParams } from "react-router-dom";
@@ -161,8 +162,9 @@ function Seletor({ livro, cap, buscar, aoFechar }: { livro: Livro; cap: number; 
     );
   };
 
+  const caixa = useFocoPreso<HTMLDivElement>();
   return (
-    <div className="fixed inset-0 z-50 flex flex-col bg-papel md:left-60 md:border-l md:border-borda" role="dialog" aria-modal="true" aria-label="Livros da Bíblia">
+    <div ref={caixa} className="fixed inset-0 z-50 flex flex-col bg-papel md:left-60 md:border-l md:border-borda" role="dialog" aria-modal="true" aria-label="Livros da Bíblia">
       <div className="mx-auto flex w-full max-w-2xl flex-col gap-3 px-4 pb-2 pt-[max(0.75rem,env(safe-area-inset-top))] md:px-8">
         <div className="flex items-center gap-1">
           <h2 className="flex-1 font-leitura text-3xl font-semibold text-marca">Livros</h2>
@@ -215,7 +217,7 @@ export function Biblia() {
 
 export function BibliaLivro() {
   const { livro: slug } = useParams();
-  const livro = livroPorSlug(slug ?? "");
+  const livro = livroPorSlug(slug ?? "") ?? livroPorCodigo((slug ?? "").toUpperCase());
   const leitura = useLeituraDaBiblia();
   if (!livro) return <NaoEncontrada />;
   const cap = leitura.ultimo?.livro === livro.codigo ? leitura.ultimo.capitulo : 1;
@@ -488,6 +490,7 @@ export function BibliaCapitulo() {
   const local = useLocation();
   const navegar = useNavigate();
   const livro = livroPorSlug(slug ?? "");
+  const porCodigo = livro ? null : livroPorCodigo((slug ?? "").toUpperCase());
   const cap = Number(capitulo);
   const valido = Boolean(livro) && Number.isInteger(cap) && cap >= 1 && cap <= (livro?.capitulos ?? 0);
   const escolhendo = params.get("livros");
@@ -504,6 +507,7 @@ export function BibliaCapitulo() {
     setSemente((n) => n + 1);
   }, [caminhoAtual, local.hash, pedido]);
 
+  if (porCodigo) return <Navigate to={`${caminho(porCodigo, Number.isInteger(cap) && cap >= 1 ? Math.min(cap, porCodigo.capitulos) : 1)}${local.hash}`} replace />;
   if (!livro || !valido) return <NaoEncontrada />;
 
   const aoMudar = (p: Posicao) => {

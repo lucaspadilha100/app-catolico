@@ -79,7 +79,7 @@ export default function Rezar() {
           <div className="-mx-4 flex snap-x scroll-px-4 gap-3 overflow-x-auto px-4 pb-1 [scrollbar-width:none]">
             {agora.map((a) => (
               <Link key={a.para} to={a.para} className="w-40 shrink-0 snap-start">
-                <img src={foto(a.para).imagem ?? `/imagens/arte/${a.imagem}.webp`} alt={a.alt} loading="lazy" className="h-52 w-40 rounded-3xl bg-cartao object-cover" style={{ objectPosition: a.foco }} />
+                <img src={foto(a.para).imagem ?? `/imagens/arte/${a.imagem}.webp`} alt={a.alt} loading="lazy" onError={(e) => (e.currentTarget.style.visibility = "hidden")} className="h-52 w-40 rounded-3xl bg-cartao object-cover" style={{ objectPosition: a.foco }} />
                 <span className="mt-2 block font-bold leading-snug text-tinta">{a.titulo}</span>
                 <span className="block text-sm text-tinta-suave">{a.detalhe}</span>
               </Link>

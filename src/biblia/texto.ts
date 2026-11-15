@@ -40,6 +40,23 @@ export function carregarLivro(codigo: string): Promise<LivroDaBiblia> {
   return promessa;
 }
 
+export const CHAVE_DA_BIBLIA_BAIXADA = "santinho-biblia-baixada";
+export const EDICAO_DA_BIBLIA = Object.values(ARQUIVOS)
+  .map((a) => a.arquivo)
+  .join(",");
+
+export async function baixarBiblia(progresso: (feitos: number, total: number) => void): Promise<void> {
+  const codigos = Object.keys(ARQUIVOS);
+  let feitos = 0;
+  for (const codigo of codigos) {
+    await carregarLivro(codigo);
+    progresso(++feitos, codigos.length);
+  }
+  try {
+    localStorage.setItem(CHAVE_DA_BIBLIA_BAIXADA, EDICAO_DA_BIBLIA);
+  } catch {}
+}
+
 let mapa: Promise<MapaHebraico> | null = null;
 export function carregarMapaHebraico(): Promise<MapaHebraico> {
   mapa ??= import("./dados/mapa-hebraico.json").then((m) => m.default as unknown as MapaHebraico);

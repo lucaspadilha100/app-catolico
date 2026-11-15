@@ -727,6 +727,7 @@ export function Missas() {
 function diasDoConfirmado(iso: string | null): string {
   if (!iso) return "";
   const n = Math.floor((Date.now() - new Date(iso).getTime()) / 86_400_000);
+  if (n > 60) return `Horários confirmados em ${new Date(iso).toLocaleDateString("pt-BR", { month: "long", year: "numeric" })}`;
   return n <= 0 ? "Horários confirmados hoje" : n === 1 ? "Horários confirmados ontem" : `Horários confirmados há ${n} dias`;
 }
 
@@ -870,8 +871,22 @@ export function ParoquiaPagina() {
 
   const agora = useMemo(() => new Date(), []);
   if (dados === null) return <Carregando />;
-  if (dados === "nada") return <NaoEncontrada />;
-  if (dados === "erro") return <Indisponivel />;
+  if (dados === "nada" || dados === "erro")
+    return (
+      <div className="flex flex-col gap-4">
+        <Voltar para="/missas">Missas</Voltar>
+        {dados === "erro" ? (
+          <>
+            <Indisponivel />
+            <button type="button" onClick={() => location.reload()} className="mx-auto min-h-11 rounded-full bg-cartao px-5 text-sm font-semibold text-tinta">
+              Tentar de novo
+            </button>
+          </>
+        ) : (
+          <NaoEncontrada />
+        )}
+      </div>
+    );
   const { paroquia: p, horarios, avisos, podeEditar, matriz, capelas } = dados;
   const favoritas = paroquiasFavoritas(preferencias);
   const minha = favoritas.some((x) => x.id === p.id);

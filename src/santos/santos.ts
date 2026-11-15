@@ -126,10 +126,20 @@ export function buscarSantos<T extends SantoDoIndice & { resumo?: string }>(list
   return [...noNome, ...noResto];
 }
 
+const ORDEM_DO_GRUPO: Record<string, number> = { calendario: 0, populares: 1, brasil: 2, "nossa-senhora": 2, jovens: 3, modernos: 3 };
+const ORDEM_DA_SITUACAO: Record<string, number> = { santo: 0, beato: 1, veneravel: 2, servo: 3 };
+
 export function santosDoNome<T extends SantoDoIndice>(lista: T[], nome: string): T[] {
   const alvo = normalizar(nome.split(/\s+/)[0] ?? "");
   if (!alvo) return [];
-  return lista.filter((s) => s.nomes.some((n) => normalizar(n).split(/\s+/).includes(alvo) || normalizar(n) === alvo));
+  const principal = (s: T) => normalizar(s.nome.replace(/^(São|Santo|Santa|Beato|Beata|Venerável|Servo de Deus|Serva de Deus|Bem-aventurad[oa])\s+/, "")).split(/[\s,]+/)[0] === alvo;
+  const grupo = (s: T) => (/^(Santos|Santas|Beatos|Beatas)\b/.test(s.nome) ? 9 : 0);
+  const peso = (s: T) => [principal(s) ? 0 : 1, grupo(s), ORDEM_DO_GRUPO[s.grupo] ?? 5, ORDEM_DA_SITUACAO[s.situacao ?? ""] ?? 4];
+  return lista
+    .filter((s) => s.nomes.some((n) => normalizar(n).split(/\s+/).includes(alvo) || normalizar(n) === alvo))
+    .map((s) => ({ s, p: peso(s) }))
+    .sort((a, b) => a.p.reduce((r, x, i) => r || x - b.p[i]!, 0) || a.s.nome.localeCompare(b.s.nome, "pt-BR"))
+    .map((x) => x.s);
 }
 
 const CHAVE = "santinho-santos-de-devocao";

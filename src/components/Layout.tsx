@@ -1,4 +1,4 @@
-import { Suspense, useEffect } from "react";
+import { Suspense, useEffect, useRef } from "react";
 import { Falha } from "@/components/Falha";
 import { NavLink, Link, Outlet, useLocation } from "react-router-dom";
 import { BookOpen, Church, HandHeart, Menu, Sunrise, type LucideIcon } from "lucide-react";
@@ -39,6 +39,14 @@ function Marca({ className = "" }: { className?: string }) {
 export default function Layout() {
   const { pathname } = useLocation();
   const naBiblia = pathname.startsWith("/biblia");
+  const primeira = useRef(true);
+  useEffect(() => {
+    if (primeira.current) {
+      primeira.current = false;
+      return;
+    }
+    document.title = NOME_DO_APP;
+  }, [pathname]);
   const liturgia = useDiaLiturgico();
   const { diocese } = usePreferencias().preferencias;
 

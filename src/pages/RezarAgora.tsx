@@ -163,20 +163,20 @@ export default function RezarAgora() {
         <input type="checkbox" checked={responder} onChange={(e) => setResponder(e.target.checked)} className="size-6 accent-destaque" />
       </label>
       <div className="fixed inset-x-0 bottom-[calc(4rem+env(safe-area-inset-bottom))] z-20 px-3 pb-3 md:bottom-0 md:left-60 md:pb-6">
-        <div className="mx-auto grid max-w-xl grid-cols-[auto_1fr_auto_auto] gap-2 rounded-3xl bg-cartao p-2 shadow-lg">
-          <button type="button" onClick={() => ir(indice - 1)} aria-label="Voltar" className="grid size-14 place-items-center rounded-xl border border-borda text-tinta">
+        <div className="mx-auto grid max-w-xl grid-cols-[auto_minmax(0,1fr)_auto_auto] gap-2 rounded-3xl bg-cartao p-2 shadow-lg">
+          <button type="button" onClick={() => ir(indice - 1)} aria-label="Voltar" className="grid size-[52px] place-items-center rounded-xl border border-borda text-tinta">
             <SkipBack className="size-6" aria-hidden />
           </button>
           <button
             type="button"
             disabled={!falas?.length || !vozDisponivel()}
             onClick={() => (tocando ? parar() : void tocar(terminou ? 0 : indice))}
-            className="flex min-h-14 items-center justify-center gap-2 rounded-xl bg-primario text-lg font-semibold text-sobre-primario disabled:opacity-50"
+            className="flex min-h-[52px] min-w-0 items-center justify-center gap-2 rounded-xl bg-primario px-2 text-lg font-semibold text-sobre-primario disabled:opacity-50"
           >
             {tocando ? <Pause className="size-6" aria-hidden /> : <Play className="size-6" aria-hidden />}
-            {tocando ? "Pausar" : indice > 0 && !terminou ? "Continuar" : "Começar"}
+            <span className="truncate">{tocando ? "Pausar" : indice > 0 && !terminou ? "Continuar" : "Começar"}</span>
           </button>
-          <button type="button" onClick={() => ir(indice + 1)} aria-label="Avançar" className="grid size-14 place-items-center rounded-xl border border-borda text-tinta">
+          <button type="button" onClick={() => ir(indice + 1)} aria-label="Avançar" className="grid size-[52px] place-items-center rounded-xl border border-borda text-tinta">
             <SkipForward className="size-6" aria-hidden />
           </button>
           <button
@@ -186,7 +186,7 @@ export default function RezarAgora() {
               setIndice(0);
             }}
             aria-label="Parar"
-            className="grid size-14 place-items-center rounded-xl border border-borda text-tinta"
+            className="grid size-[52px] place-items-center rounded-xl border border-borda text-tinta"
           >
             <Square className="size-5" aria-hidden />
           </button>
