@@ -160,11 +160,54 @@ async function rpc(nome: string, corpo: Record<string, unknown>) {
   if (!r.ok) throw new Error(await r.text());
 }
 
+const CHAVE_DA_FALHA = "santinho-lembretes-falha";
+
+function marcarFalha(texto: string) {
+  try {
+    if (texto) localStorage.setItem(CHAVE_DA_FALHA, texto);
+    else localStorage.removeItem(CHAVE_DA_FALHA);
+  } catch {}
+}
+
+export function ultimaFalha(): string {
+  try {
+    return localStorage.getItem(CHAVE_DA_FALHA) ?? "";
+  } catch {
+    return "";
+  }
+}
+
+function comPrazo<T>(promessa: Promise<T>, ms: number): Promise<T> {
+  return new Promise((ok, falha) => {
+    const t = setTimeout(() => falha(new Error("prazo")), ms);
+    promessa.then(
+      (v) => {
+        clearTimeout(t);
+        ok(v);
+      },
+      (e) => {
+        clearTimeout(t);
+        falha(e);
+      },
+    );
+  });
+}
+
+async function registro(): Promise<ServiceWorkerRegistration> {
+  try {
+    return await comPrazo(navigator.serviceWorker.ready, 8000);
+  } catch {
+    const reg = (await navigator.serviceWorker.getRegistration()) ?? (await navigator.serviceWorker.register("/sw.js"));
+    if (reg.active) return reg;
+    return comPrazo(navigator.serviceWorker.ready, 20000);
+  }
+}
+
 async function inscricao(criar: boolean): Promise<PushSubscription | null> {
-  const reg = await navigator.serviceWorker.ready;
+  const reg = await registro();
   const atual = await reg.pushManager.getSubscription();
   if (atual || !criar) return atual;
-  return reg.pushManager.subscribe({ userVisibleOnly: true, applicationServerKey: chaveEmBytes(VAPID_PUBLICA) });
+  return comPrazo(reg.pushManager.subscribe({ userVisibleOnly: true, applicationServerKey: chaveEmBytes(VAPID_PUBLICA) }), 20000);
 }
 
 async function enviar(sub: PushSubscription, lembretes: Lembretes) {
@@ -193,13 +236,17 @@ export async function ativar(lembretes: Lembretes): Promise<"ativo" | "negado" |
   if (!suportado()) return "erro";
   const permissao = await Notification.requestPermission();
   if (permissao !== "granted") return "negado";
+  let passo = "aparelho";
   try {
     const sub = await inscricao(true);
     if (!sub) return "erro";
-    await enviar(sub, lembretes);
+    passo = "servidor";
+    await comPrazo(enviar(sub, lembretes), 20000);
     guardar({ ativo: true, lembretes, enviadoEm: paraIso(hoje()) });
+    marcarFalha("");
     return "ativo";
-  } catch {
+  } catch (e) {
+    marcarFalha(`${passo}${e instanceof Error && e.message === "prazo" ? " sem resposta" : e instanceof Error && e.name ? ` ${e.name}` : ""}`);
     return "erro";
   }
 }

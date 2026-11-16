@@ -8,7 +8,7 @@ import { useLocal } from "@/paroquias/useLocal";
 import { LISTA } from "@/components/Cartao";
 import { NOME_DO_APP } from "@/marca";
 import { ehNativo } from "@/lib/nativo";
-import { ativar, ehIphone, instalado, lerGuardado, permitido, suportado } from "@/lembretes/lembretes";
+import { ultimaFalha, ativar, ehIphone, instalado, lerGuardado, permitido, suportado } from "@/lembretes/lembretes";
 
 const BOTAO = "flex min-h-14 w-full items-center justify-center gap-2 rounded-2xl bg-primario px-5 text-lg font-semibold text-sobre-primario disabled:opacity-50";
 const CAMPO = "flex min-h-12 items-center gap-2 rounded-xl border border-borda bg-cartao px-3 focus-within:border-destaque-texto";
@@ -94,7 +94,7 @@ function PassoLembrete({ terminar }: { terminar: () => void }) {
       ) : (
         <>
           {estado === "negado" && <p className="text-center text-sm text-tinta-suave">As notificações estão bloqueadas para este app nos ajustes do aparelho.</p>}
-          {estado === "erro" && <p className="text-center text-sm font-medium text-[#a9271f]">Não foi possível ligar agora. Tente de novo.</p>}
+          {estado === "erro" && <p className="text-center text-sm font-medium text-[#a9271f]">Não foi possível ligar agora. Tente de novo.{ultimaFalha() ? ` (${ultimaFalha()})` : ""}</p>}
           <button type="button" onClick={() => void ligar()} disabled={estado === "ativando"} className={BOTAO}>
             <Bell className="size-5" aria-hidden /> {estado === "ativando" ? "Ligando" : "Ligar o lembrete"}
           </button>

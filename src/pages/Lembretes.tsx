@@ -1,6 +1,6 @@
 import { useState, type ReactNode } from "react";
 import { Bell, BellOff, Check } from "lucide-react";
-import { ativar, atualizar, desativar, ehIphone, instalado, lerGuardado, permitido, suportado, type Lembretes as TipoLembretes } from "@/lembretes/lembretes";
+import { ativar, ultimaFalha, atualizar, desativar, ehIphone, instalado, lerGuardado, permitido, suportado, type Lembretes as TipoLembretes } from "@/lembretes/lembretes";
 import { ehNativo } from "@/lib/nativo";
 import { Cartao } from "@/components/Cartao";
 import { Cabecalho, Voltar } from "@/components/Devocao";
@@ -83,7 +83,7 @@ export default function Lembretes() {
               {(estado === "negado" || permissao === "denied") && (
                 <p className="text-center text-sm text-tinta-suave">As notificações estão bloqueadas para este app nos ajustes do aparelho.</p>
               )}
-              {estado === "erro" && <p className="text-center text-sm font-medium text-[#a9271f]">Não foi possível ligar agora. Tente de novo.</p>}
+              {estado === "erro" && <p className="text-center text-sm font-medium text-[#a9271f]">Não foi possível ligar agora. Tente de novo.{ultimaFalha() ? ` (${ultimaFalha()})` : ""}</p>}
               <button type="button" onClick={() => void ligarTudo()} disabled={estado === "ativando"} className="flex min-h-14 items-center justify-center gap-2 rounded-2xl bg-primario text-lg font-semibold text-sobre-primario disabled:opacity-60">
                 <Bell className="size-5" aria-hidden /> {estado === "ativando" ? "Ligando" : "Ligar os lembretes"}
               </button>
