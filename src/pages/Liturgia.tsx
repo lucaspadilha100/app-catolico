@@ -138,7 +138,7 @@ export default function Liturgia() {
       <div className="flex items-center justify-between gap-2">
         <h1 className="titulo-pagina">Liturgia</h1>
         <div className="flex items-center gap-1">
-          {missa && <BotaoOuvir compacto titulo={l.titulo} partes={() => partesDaMissa(missa)} className="grid size-11 place-items-center rounded-full text-tinta hover:bg-cartao" />}
+          {missa && <BotaoOuvir key={iso} compacto titulo={l.titulo} partes={() => partesDaMissa(missa)} className="grid size-11 place-items-center rounded-full text-tinta hover:bg-cartao" />}
           <Link to="/calendario" aria-label="Calendário" className="grid size-11 place-items-center rounded-full text-tinta hover:bg-cartao">
             <CalendarDays className="size-[1.375rem]" aria-hidden />
           </Link>

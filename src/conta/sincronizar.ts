@@ -116,10 +116,18 @@ export function mesclar(chave: string, local: string, remoto: string, localMaisN
 }
 
 export function notarMudancasLocais(agora = Date.now()) {
+  try {
+    notar(agora);
+  } catch {
+    return;
+  }
+}
+
+function notar(agora: number) {
   const metas = lerMetas();
   let mudou = false;
   for (const chave of CHAVES_SINCRONIZADAS) {
-    const local = localStorage.getItem(chave);
+    const local = localStorage.getItem(chave) ?? (metas[chave]?.enviado ? "" : null);
     const m = metas[chave];
     if (local !== null && local !== (m?.enviado ?? null) && !m?.mudouEm) {
       metas[chave] = { enviado: m?.enviado ?? null, em: m?.em ?? null, mudouEm: agora };
@@ -139,23 +147,24 @@ export async function sincronizar(cliente: SupabaseClient): Promise<{ recebidas:
   const recebidas: string[] = [];
 
   for (const chave of CHAVES_SINCRONIZADAS) {
-    const local = localStorage.getItem(chave);
-    const remoto = remotos.get(chave);
     const m = metas[chave] ?? { enviado: null, em: null };
+    const local = localStorage.getItem(chave) ?? (m.enviado ? "" : null);
+    const remoto = remotos.get(chave);
+    const gravarLocal = (valor: string) => (valor === "" ? localStorage.removeItem(chave) : localStorage.setItem(chave, valor));
     const localMudou = local !== null && local !== m.enviado;
     const remotoMudou = !!remoto && remoto.atualizado_em !== m.em;
 
     if (remotoMudou && !localMudou) {
-      localStorage.setItem(chave, remoto.valor);
+      gravarLocal(remoto.valor);
       metas[chave] = { enviado: remoto.valor, em: remoto.atualizado_em };
       recebidas.push(chave);
     } else if (localMudou && !remotoMudou) {
       enviar.push({ chave, valor: local });
     } else if (localMudou && remotoMudou) {
       const localMaisNovo = (m.mudouEm ?? 0) > Date.parse(remoto.atualizado_em);
-      const valor = mesclar(chave, local, remoto.valor, localMaisNovo);
+      const valor = local === "" || remoto.valor === "" ? (localMaisNovo ? local : remoto.valor) : mesclar(chave, local, remoto.valor, localMaisNovo);
       if (valor !== local) {
-        localStorage.setItem(chave, valor);
+        gravarLocal(valor);
         recebidas.push(chave);
       }
       if (valor !== remoto.valor) enviar.push({ chave, valor });

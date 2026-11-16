@@ -65,7 +65,12 @@ export function TocadorDeVoz({ titulo, partes, aoFechar }: { titulo: string; par
     for (let i = de; i < p.length; i++) {
       if (minha !== rodada.current) return;
       setIndice(i);
-      await falar(p[i]!, vel);
+      try {
+        await falar(p[i]!, vel);
+      } catch {
+        if (minha === rodada.current) setTocando(false);
+        return;
+      }
     }
     if (minha === rodada.current) {
       setTocando(false);

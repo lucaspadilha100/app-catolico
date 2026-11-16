@@ -122,6 +122,8 @@ async function agendarNoAparelho(l: Lembretes): Promise<"ativo" | "negado" | "er
               : `${NOME_DA_LEMBRANCA[lembranca.tipo]} de ${f.nome}`;
           lista.push({ id: 6000 + i, title: titulo, body: "Reze pelo descanso eterno.", schedule: { at, allowWhileIdle: true }, extra: { url: "/rezar/falecidos" } });
         });
+    const momento = (n: (typeof lista)[number]) => (n.schedule.at instanceof Date ? n.schedule.at.getTime() : 0);
+    lista.sort((a, b) => momento(a) - momento(b));
     if (lista.length) await LocalNotifications.schedule({ notifications: lista.slice(0, 60) });
     return "ativo";
   } catch {

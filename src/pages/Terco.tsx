@@ -30,7 +30,7 @@ export default function Terco() {
   const passos = useMemo(() => passosDe(grupo), [grupo]);
 
   const parametros = (g: Escolha, rezar = false) => ({
-    ...(g === doDia ? {} : { m: g }),
+    ...(g === doDia && !rezar ? {} : { m: g }),
     ...(rezar ? { rezar: "1" } : {}),
   });
 

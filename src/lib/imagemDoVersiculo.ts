@@ -88,7 +88,7 @@ export async function compartilharVersiculo(texto: string, referencia: string): 
     const blob = await imagemDoVersiculo(texto, referencia);
     const nome = `${referencia.replace(/[^\p{L}\p{N}]+/gu, "-")}.png`;
     const r = await compartilhar({ titulo: referencia, imagem: { blob, nome } });
-    return r === "copiado" ? "compartilhado" : r;
+    return r === "copiado" || r === "cancelado" ? "compartilhado" : r;
   } catch {
     return "erro";
   }

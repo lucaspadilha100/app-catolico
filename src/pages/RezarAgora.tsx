@@ -81,19 +81,26 @@ export default function RezarAgora() {
   const dia = useDiaLiturgico();
   const [params, setParams] = useSearchParams();
   const pedido = params.get("m") as Momento | null;
-  const momento: Momento = pedido && MOMENTOS.includes(pedido) ? pedido : momentoDaHora(new Date().getHours());
+  const [daHora] = useState(() => momentoDaHora(new Date().getHours()));
+  const momento: Momento = pedido && MOMENTOS.includes(pedido) ? pedido : daHora;
   const [falas, setFalas] = useState<Fala[] | null>(null);
   const [indice, setIndice] = useState(0);
   const [tocando, setTocando] = useState(false);
   const [responder, setResponder] = useState(true);
   const [comVoz, setComVoz] = useState(false);
   const rodada = useRef(0);
+  const responderRef = useRef(responder);
+  responderRef.current = responder;
   const contou = useRef(false);
   const fimDaLeitura = useRef<HTMLDivElement>(null);
   const blocoAtual = useRef<HTMLElement>(null);
 
   useEffect(() => {
     let ativo = true;
+    rodada.current++;
+    void calar();
+    setTocando(false);
+    setComVoz(false);
     setFalas(null);
     setIndice(0);
     contou.current = false;
@@ -142,8 +149,13 @@ export default function RezarAgora() {
         if (cancelado()) return;
         setIndice(i);
         const f = falas[i]!;
-        if (f.vez === "voce" && responder) await esperar(esperaDaResposta(f.texto), cancelado);
-        else await falar(f.texto);
+        try {
+          if (f.vez === "voce" && responderRef.current) await esperar(esperaDaResposta(f.texto), cancelado);
+          else await falar(f.texto);
+        } catch {
+          if (!cancelado()) setTocando(false);
+          return;
+        }
       }
       if (!cancelado()) {
         setTocando(false);
@@ -152,7 +164,7 @@ export default function RezarAgora() {
         contar();
       }
     },
-    [falas, responder, contar],
+    [falas, contar],
   );
 
   const ir = (i: number) => {

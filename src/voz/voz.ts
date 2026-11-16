@@ -13,7 +13,12 @@ export async function falar(texto: string, velocidade = 0.95): Promise<void> {
   const minha = ++falando;
   if (Capacitor.isNativePlatform()) {
     const { TextToSpeech } = await import("@capacitor-community/text-to-speech");
-    await TextToSpeech.speak({ text: texto, lang: "pt-BR", rate: velocidade, pitch: 1, volume: 1, category: "playback" });
+    try {
+      await TextToSpeech.speak({ text: texto, lang: "pt-BR", rate: velocidade, pitch: 1, volume: 1, category: "playback" });
+    } catch {
+      await new Promise((ok) => setTimeout(ok, 300));
+      await TextToSpeech.speak({ text: texto, lang: "pt-BR", rate: velocidade, pitch: 1, volume: 1, category: "playback" });
+    }
     return;
   }
   await new Promise<void>((ok) => {

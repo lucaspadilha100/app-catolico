@@ -35,3 +35,38 @@ describe("mesclar quando os dois lados mudaram", () => {
     expect(mesclar("santinho-cofre", "LOCAL", "REMOTO", false)).toBe("REMOTO");
   });
 });
+
+describe("apagar também sincroniza", () => {
+  it("o cofre apagado vai vazio ao servidor e não volta", async () => {
+    const dados = new Map<string, string>();
+    Object.assign(globalThis, {
+      localStorage: {
+        getItem: (k: string) => dados.get(k) ?? null,
+        setItem: (k: string, v: string) => void dados.set(k, v),
+        removeItem: (k: string) => void dados.delete(k),
+      },
+      window: { dispatchEvent: () => true },
+      StorageEvent: class {},
+    });
+    const { sincronizar } = await import("./sincronizar");
+    let servidor = [{ chave: "santinho-cofre", valor: "SEGREDO", atualizado_em: "2026-11-01T00:00:00Z" }];
+    const cliente = {
+      from: () => ({
+        select: async () => ({ data: servidor, error: null }),
+        upsert: (linhas: { chave: string; valor: string; atualizado_em: string }[]) => ({
+          select: async () => {
+            servidor = linhas;
+            return { data: linhas, error: null };
+          },
+        }),
+      }),
+    };
+    await sincronizar(cliente as never);
+    expect(dados.get("santinho-cofre")).toBe("SEGREDO");
+    dados.delete("santinho-cofre");
+    await sincronizar(cliente as never);
+    expect(servidor.find((l) => l.chave === "santinho-cofre")?.valor).toBe("");
+    await sincronizar(cliente as never);
+    expect(dados.has("santinho-cofre")).toBe(false);
+  });
+});

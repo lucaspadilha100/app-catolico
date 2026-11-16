@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useRef, useState, type FormEvent, type ReactNode } from "react";
+import { avisar } from "@/lib/acao";
 import { Link, useLocation, useParams, useSearchParams } from "react-router-dom";
 import { AtSign, BadgeCheck, Bell, Check, ChevronDown, ChevronRight, Church, Clock, Globe, Heart, LocateFixed, Mail, MapPin, MessageCircle, Navigation, Pencil, Phone, Plus, Search, Share2 } from "lucide-react";
 import { paroquiasFavoritas, usePreferencias } from "@/lib/preferencias";
@@ -859,6 +860,8 @@ export function ParoquiaPagina() {
   useEffect(() => {
     let ativo = true;
     setDados(null);
+    setConfirmado(false);
+    setCopiado(false);
     carregarParoquia(id)
       .then((d) => ativo && setDados(d ?? "nada"))
       .catch(() => ativo && setDados("erro"));
@@ -896,8 +899,12 @@ export function ParoquiaPagina() {
 
   async function confirmar() {
     if (!email) return;
-    await enviarSugestao({ paroquia_id: p.id, tipo: "confirmar", texto: "" }).catch(() => {});
-    setConfirmado(true);
+    try {
+      await enviarSugestao({ paroquia_id: p.id, tipo: "confirmar", texto: "" });
+      setConfirmado(true);
+    } catch {
+      avisar();
+    }
   }
 
   async function enviar() {

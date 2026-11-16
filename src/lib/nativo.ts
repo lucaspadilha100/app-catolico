@@ -27,7 +27,7 @@ const paraBase64 = (blob: Blob) =>
     r.readAsDataURL(blob);
   });
 
-export async function compartilhar(p: { titulo: string; texto?: string; url?: string; imagem?: { blob: Blob; nome: string } }): Promise<"compartilhado" | "copiado" | "baixado" | "erro"> {
+export async function compartilhar(p: { titulo: string; texto?: string; url?: string; imagem?: { blob: Blob; nome: string } }): Promise<"compartilhado" | "copiado" | "baixado" | "cancelado" | "erro"> {
   if (ehNativo()) {
     try {
       const { Share } = await import("@capacitor/share");
@@ -39,8 +39,8 @@ export async function compartilhar(p: { titulo: string; texto?: string; url?: st
         await Share.share({ title: p.titulo, text: p.texto, url: p.url });
       }
       return "compartilhado";
-    } catch {
-      return "erro";
+    } catch (e) {
+      return /cancel/i.test(String((e as Error)?.message ?? e)) ? "cancelado" : "erro";
     }
   }
   if (p.imagem) {
@@ -62,8 +62,10 @@ export async function compartilhar(p: { titulo: string; texto?: string; url?: st
   if (navigator.share) {
     try {
       await navigator.share({ title: p.titulo, text: p.texto, url: p.url });
-    } catch {}
-    return "compartilhado";
+      return "compartilhado";
+    } catch (e) {
+      if ((e as Error)?.name === "AbortError") return "cancelado";
+    }
   }
   try {
     await navigator.clipboard.writeText([p.texto, p.url].filter(Boolean).join("\n\n"));
