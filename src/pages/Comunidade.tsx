@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useRef, useState, type FormEvent } from "react";
+import { sair } from "@/components/Voltar";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import { CartaoDaCampanha } from "@/components/Campanha";
 import { Check, ChevronRight, Flag, HandHeart, Link2, Plus, Radio, Sparkles, Trash2, UserMinus, Users } from "lucide-react";
@@ -750,7 +751,7 @@ export function TercoDoGrupoPagina() {
       passos={passos}
       aoSair={() => {
         if (conduzindo) terminar();
-        navegar(`/grupos/${id}`);
+        sair(navegar, `/grupos/${id}`);
       }}
       controle={{ posicao: { passo: t.passo, conta: t.conta }, aoMudar: conduzindo ? mudar : undefined, aoTerminar: conduzindo ? terminar : undefined }}
     />

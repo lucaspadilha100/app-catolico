@@ -277,6 +277,7 @@ export function TercoGuiado({
           </button>
           <Link
             to="/rezar"
+            replace
             className="flex min-h-14 items-center justify-center rounded-2xl bg-primario px-5 font-semibold text-sobre-primario"
           >
             Voltar para Rezar

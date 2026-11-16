@@ -86,6 +86,7 @@ export default function Oficio() {
       {proxima && (
         <Link
           to={`/rezar/oficio?hora=${proxima.id}`}
+          replace
           className="flex min-h-14 items-center justify-between gap-3 rounded-3xl bg-cartao px-4 font-semibold text-destaque-texto"
           onClick={() => window.scrollTo({ top: 0 })}
         >

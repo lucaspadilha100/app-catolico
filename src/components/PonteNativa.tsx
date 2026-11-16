@@ -32,8 +32,8 @@ export function PonteNativa() {
       });
       const rota = (url: string) => {
         try {
-          const caminho = new URL(url).pathname;
-          if (caminho.startsWith("/")) navegar(caminho);
+          const u = new URL(url);
+          if (u.pathname.startsWith("/")) navegar(u.pathname + u.search + u.hash);
         } catch {}
       };
       const link = await App.addListener("appUrlOpen", (e) => rota(e.url));

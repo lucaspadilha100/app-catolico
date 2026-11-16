@@ -19,6 +19,15 @@ interface ItemMenu {
   icone: LucideIcon;
 }
 
+const TAMBEM: Record<string, string[]> = {
+  "/": ["/liturgia"],
+  "/rezar": ["/tercos", "/intencoes", "/grupos"],
+  "/mais": ["/santos", "/calendario", "/conta", "/cursos", "/lembretes", "/assistir", "/roteiros", "/escalas", "/correntes", "/apoie", "/santinhos", "/creditos", "/privacidade", "/termos", "/painel", "/diario"],
+};
+
+const naSecao = (para: string, caminho: string) =>
+  para === "/" ? caminho === "/" || TAMBEM["/"]!.some((p) => caminho.startsWith(p)) : caminho.startsWith(para) || (TAMBEM[para] ?? []).some((p) => caminho === p || caminho.startsWith(`${p}/`));
+
 export const MENU: ItemMenu[] = [
   { para: "/", nome: "Hoje", icone: Sunrise },
   { para: "/rezar", nome: "Rezar", icone: HandHeart },
@@ -97,9 +106,10 @@ export default function Layout() {
               key={para}
               to={para}
               end={para === "/"}
-              className={({ isActive }) =>
+              replace={para !== "/" && pathname.startsWith(para)}
+              className={() =>
                 `flex min-h-11 items-center gap-3 rounded-xl px-3 text-[0.95rem] font-medium transition-colors ${
-                  isActive ? "bg-marca-fundo text-destaque-texto" : "text-tinta-suave hover:bg-marca-fundo/60 hover:text-tinta"
+                  naSecao(para, pathname) ? "bg-marca-fundo text-destaque-texto" : "text-tinta-suave hover:bg-marca-fundo/60 hover:text-tinta"
                 }`
               }
             >
@@ -134,9 +144,10 @@ export default function Layout() {
             key={para}
             to={para}
             end={para === "/"}
-            className={({ isActive }) =>
+            replace={para !== "/" && pathname.startsWith(para)}
+            className={() =>
               `flex min-h-16 flex-col items-center justify-center gap-1 text-xs font-medium ${
-                isActive ? "text-destaque-texto" : "text-tinta-suave"
+                naSecao(para, pathname) ? "text-destaque-texto" : "text-tinta-suave"
               }`
             }
           >

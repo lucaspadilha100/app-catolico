@@ -15,7 +15,7 @@ export default function ViaSacra() {
   const passo = Number.isInteger(bruto) && bruto >= 0 && bruto <= total + 1 ? bruto : 0;
 
   const ir = (p: number) => {
-    setParams(p === 0 ? {} : { estacao: String(p) });
+    setParams(p === 0 ? {} : { estacao: String(p) }, { replace: true });
     window.scrollTo({ top: 0 });
   };
 

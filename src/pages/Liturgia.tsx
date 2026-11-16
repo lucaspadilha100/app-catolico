@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef } from "react";
-import { Link, useLocation, useParams, useSearchParams } from "react-router-dom";
+import { Link, useLocation, useParams, useSearchParams, Navigate } from "react-router-dom";
 import { CalendarDays } from "lucide-react";
 import { deIso, hoje, paraIso, somaDias, diaDaSemana } from "@/liturgia/datas";
 import { diaLiturgico, NOME_DA_COR, NOME_DO_GRAU, type CorLiturgica } from "@/liturgia/calendario";
@@ -101,6 +101,12 @@ function Leituras({ leituras, iso }: { leituras: Leitura[]; iso: string }) {
 }
 
 export default function Liturgia() {
+  const { data } = useParams();
+  if (data && !deIso(data)) return <Navigate to="/liturgia" replace />;
+  return <LiturgiaDoDia />;
+}
+
+function LiturgiaDoDia() {
   const [params, setParams] = useSearchParams();
   const { hash } = useLocation();
   const { data: dataDoCaminho } = useParams();

@@ -1,12 +1,12 @@
 import { useMemo } from "react";
-import { useSearchParams } from "react-router-dom";
+import { useLocation, useNavigate, useSearchParams } from "react-router-dom";
 import { useDiaLiturgico } from "@/lib/useDiaLiturgico";
 import { MISTERIOS, misteriosDoDia, type GrupoDeMisterios } from "@/liturgia/terco";
 import { formatarReferencia } from "@/liturgia/lecionario";
 import { MEDITACOES, ORDEM_DO_ROSARIO, passosDaMisericordia, passosDeSaoMiguel, passosDoRosario, passosDoRosarioCompleto, type Passo } from "@/oracao/terco";
 import { andamentoMaisRecente, guardarAndamento, lerAndamento } from "@/oracao/guardado";
 import { Cartao, TituloPagina } from "@/components/Cartao";
-import { Voltar } from "@/components/Voltar";
+import { Voltar, sair } from "@/components/Voltar";
 import { InicioDoTerco, TercoGuiado } from "@/components/TercoGuiado";
 
 const ORDEM = ORDEM_DO_ROSARIO;
@@ -25,6 +25,7 @@ export default function Terco() {
   const l = useDiaLiturgico();
   const doDia = misteriosDoDia(l.data).grupo;
   const [params, setParams] = useSearchParams();
+  const navegar = useNavigate();
   const pedido = params.get("m");
   const grupo = ehGrupo(pedido) ? pedido : doDia;
   const passos = useMemo(() => passosDe(grupo), [grupo]);
@@ -42,7 +43,7 @@ export default function Terco() {
         tipo="rosario"
         titulo={nomeDe(grupo)}
         passos={passos}
-        aoSair={() => setParams(parametros(grupo))}
+        aoSair={() => sair(navegar, `/rezar/terco${grupo === doDia ? "" : `?m=${grupo}`}`)}
       />
     );
   }
@@ -129,9 +130,11 @@ export default function Terco() {
 
 function TercoSimples({ tipo, titulo, passos }: { tipo: string; titulo: string; passos: Passo[] }) {
   const [params, setParams] = useSearchParams();
+  const navegar = useNavigate();
+  const location = useLocation();
 
   if (params.get("rezar") === "1") {
-    return <TercoGuiado chave={tipo} tipo={tipo} titulo={titulo} passos={passos} aoSair={() => setParams({})} />;
+    return <TercoGuiado chave={tipo} tipo={tipo} titulo={titulo} passos={passos} aoSair={() => sair(navegar, location.pathname)} />;
   }
 
   const andamento = lerAndamento(tipo);

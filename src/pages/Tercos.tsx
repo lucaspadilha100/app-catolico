@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useRef, useState, type FormEvent, type ReactNode } from "react";
+import { sair } from "@/components/Voltar";
 import { Link, useNavigate, useParams, useSearchParams } from "react-router-dom";
 import { AtSign, BellRing, CalendarDays, ChevronRight, Clock, Heart, ListMusic, MapPin, MessageCircle, Navigation, Pencil, Plus, Radio, Search, Share2, Trash2, X } from "lucide-react";
 import { useConta } from "@/conta/useConta";
@@ -542,7 +543,8 @@ export function EditarTerco() {
         if (ponto) d = { ...d, lat: ponto.lat, lng: ponto.lng };
       }
       const novo = await salvarTerco(d, id);
-      navegar(`/tercos/${novo}`, { replace: true });
+      if (id) sair(navegar, `/tercos/${novo}`);
+      else navegar(`/tercos/${novo}`, { replace: true });
     } catch {
       setEstado("erro");
     }
@@ -922,7 +924,7 @@ export function AoVivo() {
       passos={passos}
       aoSair={() => {
         if (conduzindo) terminar();
-        navegar(`/tercos/${id}`);
+        sair(navegar, `/tercos/${id}`);
       }}
       controle={{ posicao: { passo: e.passo, conta: e.conta }, aoMudar: conduzindo ? mudar : undefined, aoTerminar: conduzindo ? terminar : undefined, extra }}
     />
