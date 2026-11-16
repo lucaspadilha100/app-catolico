@@ -39,7 +39,7 @@ def sem_acento(s):
 
 def dias(texto):
     t = sem_acento(texto).replace("-feira", "").replace("feira", "").strip()
-    m = re.fullmatch(r"(\d)\s*[ºoª]?\s*(?:e\s*(\d)\s*[ºoª]?\s*)?(seg|ter|qua|qui|sex|sab|dom)\w*\s+do\s+mes", t)
+    m = re.fullmatch(r"(\d)\s*[ºoª]?\s*(?:e\s*(\d)\s*[ºoª]?\s*)?(seg|ter|qua|qui|sex|sab|dom)\w*(?:\s+do\s+mes)?", t)
     if m:
         semanas = sorted({ORDEM[m.group(1)], *([ORDEM[m.group(2)]] if m.group(2) else [])})
         return [(DIA[m.group(3)], semanas)]

@@ -330,7 +330,36 @@
     "cidade": "Sobral",
     "localidade": "Renato Parente",
     "endereco": "Fazenda Pé da Serra, CE-440",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
     "nao_cabe": ""
    }
   ],
@@ -339,10 +368,15 @@
     "url": "https://diocesedesobral.com.br/regioes-episcopais/sede/",
     "data": "2026-11-13",
     "o_que": "contatos"
+   },
+   {
+    "url": "destaque \"Missas\" (story de ~4 semanas)",
+    "data": "",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Criada em 11/04/2021. Sem horário publicado pela paróquia ou pela diocese até 13/11/2026; o site da diocese traz só endereço e redes."
+  "confianca": "media",
+  "observacao": "Criada em 11/04/2021. Sem horário publicado pela paróquia ou pela diocese até 13/11/2026; o site da diocese traz só endereço e redes. Horários do Instagram oficial da paróquia (conferido em 16/11/2026)."
  },
  {
   "id_banco": null,
@@ -505,7 +539,38 @@
     "cidade": "Sobral",
     "localidade": "Boa Vizinhança",
     "endereco": "Av. Isabela Moreira Gomes, 901, quadra 13",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa ao Sagrado Coração de Jesus"
+     }
+    ],
     "nao_cabe": ""
    }
   ],
@@ -514,10 +579,15 @@
     "url": "https://diocesedesobral.com.br/regioes-episcopais/sede/",
     "data": "2026-11-13",
     "o_que": "contatos"
+   },
+   {
+    "url": "bio; 1ª sexta: https://www.instagram.com/p/Dc3OuZ6Darp/",
+    "data": "",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "A página Dados Gerais da diocese a chama quase-paróquia; a página da Região Sede diz Área Pastoral. Sem horário publicado pela paróquia ou pela diocese até 13/11/2026; o site da diocese traz só endereço e redes."
+  "confianca": "media",
+  "observacao": "A página Dados Gerais da diocese a chama quase-paróquia; a página da Região Sede diz Área Pastoral. Sem horário publicado pela paróquia ou pela diocese até 13/11/2026; o site da diocese traz só endereço e redes. Horários do Instagram oficial da paróquia (conferido em 16/11/2026)."
  },
  {
   "id_banco": null,
@@ -540,7 +610,57 @@
     "cidade": "Acaraú",
     "localidade": "Centro",
     "endereco": "Rua José Domingues Regadas, 66",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
     "nao_cabe": ""
    }
   ],
@@ -549,10 +669,15 @@
     "url": "https://diocesedesobral.com.br/regioes-episcopais/acarau/",
     "data": "2026-11-13",
     "o_que": "contatos"
+   },
+   {
+    "url": "https://www.instagram.com/paroquiadeacarau/",
+    "data": "",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Sem horário publicado pela paróquia ou pela diocese até 13/11/2026; o site da diocese traz só endereço e redes."
+  "confianca": "media",
+  "observacao": "Sem horário publicado pela paróquia ou pela diocese até 13/11/2026; o site da diocese traz só endereço e redes. Horários do Instagram oficial da paróquia (conferido em 16/11/2026)."
  },
  {
   "id_banco": null,
@@ -855,7 +980,43 @@
     "cidade": "Marco",
     "localidade": "Centro",
     "endereco": "Rua Padre Apoliano, 169",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "confissao",
+      "dia_semana": 2,
+      "hora": "16:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "16:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "16:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 6,
+      "hora": "16:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
     "nao_cabe": ""
    },
    {
@@ -879,10 +1040,15 @@
     "url": "https://diocesedesobral.com.br/regioes-episcopais/santuarios/",
     "data": "2026-11-13",
     "o_que": "contatos"
+   },
+   {
+    "url": "destaque \"Confissão\" (story de ~29 semanas)",
+    "data": "",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Sem horário publicado pela paróquia ou pela diocese até 13/11/2026; o site da diocese traz só endereço e redes."
+  "confianca": "media",
+  "observacao": "Sem horário publicado pela paróquia ou pela diocese até 13/11/2026; o site da diocese traz só endereço e redes. Horários do Instagram oficial da paróquia (conferido em 16/11/2026)."
  },
  {
   "id_banco": null,
@@ -1325,7 +1491,43 @@
     "cidade": "Frecheirinha",
     "localidade": "Centro",
     "endereco": "Rua Tenente Eufrásio, 619",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
     "nao_cabe": ""
    }
   ],
@@ -1334,10 +1536,15 @@
     "url": "https://diocesedesobral.com.br/regioes-episcopais/coreau/",
     "data": "2026-11-13",
     "o_que": "contatos"
+   },
+   {
+    "url": "https://www.instagram.com/pascom_frecheirinha/",
+    "data": "",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Sem horário publicado pela paróquia ou pela diocese até 13/11/2026; o site da diocese traz só endereço e redes."
+  "confianca": "media",
+  "observacao": "Sem horário publicado pela paróquia ou pela diocese até 13/11/2026; o site da diocese traz só endereço e redes. Horários do Instagram oficial da paróquia (conferido em 16/11/2026)."
  },
  {
   "id_banco": null,
@@ -1360,7 +1567,22 @@
     "cidade": "Mucambo",
     "localidade": "Centro",
     "endereco": "Praça Santana, 45",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
     "nao_cabe": ""
    }
   ],
@@ -1369,10 +1591,15 @@
     "url": "https://diocesedesobral.com.br/regioes-episcopais/coreau/",
     "data": "2026-11-13",
     "o_que": "contatos"
+   },
+   {
+    "url": "https://www.instagram.com/p/DHhUslZuwqc/",
+    "data": "",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Sem horário publicado pela paróquia ou pela diocese até 13/11/2026; o site da diocese traz só endereço e redes."
+  "confianca": "media",
+  "observacao": "Sem horário publicado pela paróquia ou pela diocese até 13/11/2026; o site da diocese traz só endereço e redes. Horários do Instagram oficial da paróquia (conferido em 16/11/2026)."
  },
  {
   "id_banco": null,

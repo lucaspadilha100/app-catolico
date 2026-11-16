@@ -175,7 +175,78 @@
     "cidade": "Iguatu",
     "localidade": "Centro",
     "endereco": "Rua Senador Pompeu, 33",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "17:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "17:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "17:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Com as crianças e suas famílias"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "16:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
     "nao_cabe": ""
    },
    {
@@ -339,10 +410,15 @@
     "url": "https://www.instagram.com/paroquiasenhorasantanamatriz/",
     "data": "2026-11-13",
     "o_que": "contatos"
+   },
+   {
+    "url": "https://www.instagram.com/p/DcgEbf3lif2/ (post Horários das Missas, carrossel)",
+    "data": "",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Sem horário publicado achado. Paróquia de 11/12/1831; a matriz foi a primeira catedral da diocese, como diz a bio do Instagram vista pela busca."
+  "confianca": "media",
+  "observacao": "Sem horário publicado achado. Paróquia de 11/12/1831; a matriz foi a primeira catedral da diocese, como diz a bio do Instagram vista pela busca. Horários do Instagram oficial da paróquia (conferido em 16/11/2026)."
  },
  {
   "id_banco": null,
@@ -610,7 +686,43 @@
     "cidade": "Iguatu",
     "localidade": "Prado",
     "endereco": "Rua Padre José Marques, 127",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": "Missa com Novena Perpétua e Bênção do Santíssimo"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
     "nao_cabe": ""
    },
    {
@@ -804,10 +916,15 @@
     "url": "https://www.instagram.com/pascomprado/",
     "data": "2026-11-13",
     "o_que": "contatos"
+   },
+   {
+    "url": "destaque \"Horários\" (story de ~4 semanas)",
+    "data": "",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Sem horário publicado achado. Paróquia de 1964, no bairro Prado."
+  "confianca": "media",
+  "observacao": "Sem horário publicado achado. Paróquia de 1964, no bairro Prado. Horários do Instagram oficial da paróquia (conferido em 16/11/2026)."
  },
  {
   "id_banco": null,
@@ -3835,7 +3952,70 @@
     "cidade": "Mombaça",
     "localidade": "Centro",
     "endereco": "Rua Padre Pedro Leão, 30",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": "Missa e Adoração"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "06:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 5,
+      "hora": "06:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": "Junto com a missa"
+     }
+    ],
     "nao_cabe": ""
    },
    {
@@ -4299,10 +4479,15 @@
     "url": "https://www.instagram.com/paroquiansgloriambc/",
     "data": "2026-11-13",
     "o_que": "contatos"
+   },
+   {
+    "url": "destaque \"HORÁRIO MISSAS\" (story de ~42 semanas)",
+    "data": "",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Sem horário publicado achado. Paróquia de 1832. O e-mail na página da diocese saiu quebrado e ficou fora."
+  "confianca": "media",
+  "observacao": "Sem horário publicado achado. Paróquia de 1832. O e-mail na página da diocese saiu quebrado e ficou fora. Horários do Instagram oficial da paróquia (conferido em 16/11/2026)."
  },
  {
   "id_banco": null,

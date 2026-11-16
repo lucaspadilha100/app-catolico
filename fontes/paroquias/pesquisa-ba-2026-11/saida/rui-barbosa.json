@@ -256,7 +256,43 @@
     "cidade": "Ipirá",
     "localidade": "",
     "endereco": "Praça Roberto Cintra, 206",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
     "nao_cabe": ""
    }
   ],
@@ -265,10 +301,15 @@
     "url": "https://diocesederuybarbosa.com.br/paroquia/ipira-paroquia-senhora-santana-1775/",
     "data": "2026-11-13",
     "o_que": "contatos"
+   },
+   {
+    "url": "https://www.instagram.com/stories/highlights/17929164845520108/ (destaque Agenda/Horários)",
+    "data": "",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Forania Senhora Sant'Ana. Paróquia criada em 1775. Sem horário de missa publicado: a página da paróquia no site da diocese traz só contatos e clero. Facebook facebook.com/paroquia.senhorasantana.1."
+  "confianca": "media",
+  "observacao": "Forania Senhora Sant'Ana. Paróquia criada em 1775. Sem horário de missa publicado: a página da paróquia no site da diocese traz só contatos e clero. Facebook facebook.com/paroquia.senhorasantana.1. Horários do Instagram oficial da paróquia (conferido em 16/11/2026)."
  },
  {
   "id_banco": null,
@@ -326,7 +367,54 @@
     "cidade": "Itaberaba",
     "localidade": "",
     "endereco": "Avenida Luís Viana Filho, 941",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa e bênção do Santíssimo Sacramento"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa do Sagrado Coração de Jesus"
+     }
+    ],
     "nao_cabe": ""
    }
   ],
@@ -335,10 +423,15 @@
     "url": "https://diocesederuybarbosa.com.br/paroquia/itaberaba-paroquia-nossa-senhora-do-rosario-1843/",
     "data": "2026-11-13",
     "o_que": "contatos"
+   },
+   {
+    "url": "bio + https://www.instagram.com/stories/highlights/18092168764399194/ (destaque HR. MISSAS)",
+    "data": "",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Forania São Francisco. Paróquia criada em 1843. Sem horário de missa publicado: a página da paróquia no site da diocese traz só contatos e clero. Facebook facebook.com/people/Paróquia-Nossa-Senhora-do-Rosário/100065034840338."
+  "confianca": "media",
+  "observacao": "Forania São Francisco. Paróquia criada em 1843. Sem horário de missa publicado: a página da paróquia no site da diocese traz só contatos e clero. Facebook facebook.com/people/Paróquia-Nossa-Senhora-do-Rosário/100065034840338. Horários do Instagram oficial da paróquia (conferido em 16/11/2026)."
  },
  {
   "id_banco": null,
@@ -786,7 +879,22 @@
     "cidade": "Utinga",
     "localidade": "",
     "endereco": "Praça Padre João Ramos Marinho, 2-12",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
     "nao_cabe": ""
    }
   ],
@@ -795,10 +903,15 @@
     "url": "https://diocesederuybarbosa.com.br/paroquia/utinga-paroquia-senhor-bom-jesus-1889/",
     "data": "2026-11-13",
     "o_que": "contatos"
+   },
+   {
+    "url": "https://www.instagram.com/p/DfVLYl0OO4x/ (post fixado, Horários Dominical)",
+    "data": "",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Forania Santa Luzia. Paróquia criada em 1889. Sem horário de missa publicado: a página da paróquia no site da diocese traz só contatos e clero. Facebook facebook.com/paroquiasrbomjesusutingaoficial."
+  "confianca": "media",
+  "observacao": "Forania Santa Luzia. Paróquia criada em 1889. Sem horário de missa publicado: a página da paróquia no site da diocese traz só contatos e clero. Facebook facebook.com/paroquiasrbomjesusutingaoficial. Horários do Instagram oficial da paróquia (conferido em 16/11/2026)."
  },
  {
   "id_banco": null,
@@ -856,7 +969,29 @@
     "cidade": "Várzea do Poço",
     "localidade": "Centro",
     "endereco": "Praça José Gonçalves, s/n",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Até 17h, na Secretaria Paroquial"
+     }
+    ],
     "nao_cabe": ""
    }
   ],
@@ -865,10 +1000,15 @@
     "url": "https://diocesederuybarbosa.com.br/paroquia/varzea-do-poco-paroquia-sao-francisco-de-assis-1981/",
     "data": "2026-11-13",
     "o_que": "contatos"
+   },
+   {
+    "url": "Missas: bio | Confissão: https://www.instagram.com/stories/highlights/17895746844559184/ (destaque Confissões)",
+    "data": "",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Forania Senhora Sant'Ana. Paróquia criada em 1981. Sem horário de missa publicado: a página da paróquia no site da diocese traz só contatos e clero. Facebook facebook.com/paroquiasaofranciscovprb."
+  "confianca": "media",
+  "observacao": "Forania Senhora Sant'Ana. Paróquia criada em 1981. Sem horário de missa publicado: a página da paróquia no site da diocese traz só contatos e clero. Facebook facebook.com/paroquiasaofranciscovprb. Horários do Instagram oficial da paróquia (conferido em 16/11/2026)."
  },
  {
   "id_banco": null,
@@ -891,7 +1031,15 @@
     "cidade": "Wagner",
     "localidade": "",
     "endereco": "Rua 26 de Janeiro, s/n",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
     "nao_cabe": ""
    }
   ],
@@ -900,9 +1048,14 @@
     "url": "https://diocesederuybarbosa.com.br/paroquia/wagner-paroquia-nossa-senhora-do-carmo-2008/",
     "data": "2026-11-13",
     "o_que": "contatos"
+   },
+   {
+    "url": "https://www.instagram.com/paroquiadewagner",
+    "data": "",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Forania Santa Luzia. Paróquia criada em 2008. Secretaria: qui. e sex. 13h30 às 17h. Sem horário de missa publicado: a página da paróquia no site da diocese traz só contatos e clero. Facebook facebook.com/nsdocarmo.wagner."
+  "confianca": "media",
+  "observacao": "Forania Santa Luzia. Paróquia criada em 2008. Secretaria: qui. e sex. 13h30 às 17h. Sem horário de missa publicado: a página da paróquia no site da diocese traz só contatos e clero. Facebook facebook.com/nsdocarmo.wagner. Horários do Instagram oficial da paróquia (conferido em 16/11/2026)."
  }
 ]

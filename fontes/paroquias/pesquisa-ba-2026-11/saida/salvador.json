@@ -8525,7 +8525,94 @@
     "cidade": "Lauro de Freitas",
     "localidade": "Itinga",
     "endereco": "Rua Paripiranga, 16",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": "Santa Missa em honra a São Miguel Arcanjo"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": "Santa Missa em honra a Santo Antônio"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa dedicada ao Sagrado Coração de Jesus"
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
     "nao_cabe": ""
    },
    {
@@ -8704,10 +8791,15 @@
     "url": "https://arquidiocesesalvador.org.br/pastoral-da-comunicacao-nas-paroquias-organiza-transmissoes-de-missas-via-redes-sociais/",
     "data": "2020-03-20",
     "o_que": "contatos"
+   },
+   {
+    "url": "https://www.instagram.com/stories/highlights/18004469186613061/ (destaque HORÁRIOS)",
+    "data": "",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Forania 9. Criada em 08 de dezembro de 1994. Sem horário: a página da paróquia no site da arquidiocese não publica horários."
+  "confianca": "media",
+  "observacao": "Forania 9. Criada em 08 de dezembro de 1994. Sem horário: a página da paróquia no site da arquidiocese não publica horários. Horários do Instagram oficial da paróquia (conferido em 16/11/2026)."
  },
  {
   "id_banco": null,

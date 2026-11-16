@@ -20,7 +20,29 @@
     "cidade": "São Mateus",
     "localidade": "Centro",
     "endereco": "Rua Barão dos Aymorés, 56",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
     "nao_cabe": ""
    }
   ],
@@ -29,10 +51,15 @@
     "url": "https://diocesedesaomateus.org.br/paroquias/catedral/",
     "data": "2026-11-13",
     "o_que": "contatos"
+   },
+   {
+    "url": "https://www.instagram.com/paroquiasaomateuses",
+    "data": "",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "A diocese a lista como Paróquia São Mateus (Forania Praiana); a matriz é a catedral. Sem horário publicado: a página da paróquia no site da diocese traz só contatos, e o Instagram não se lê por dentro."
+  "confianca": "media",
+  "observacao": "A diocese a lista como Paróquia São Mateus (Forania Praiana); a matriz é a catedral. Sem horário publicado: a página da paróquia no site da diocese traz só contatos, e o Instagram não se lê por dentro. Horários do Instagram oficial da paróquia (conferido em 16/11/2026)."
  },
  {
   "id_banco": null,
@@ -125,7 +152,57 @@
     "cidade": "São Mateus",
     "localidade": "Guriri",
     "endereco": "Rua São Daniel Comboni, s/n",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "adoracao",
+      "dia_semana": 1,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": "Até 17h"
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 2,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": "Até 17h"
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 3,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": "Até 17h"
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": "Até 17h"
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 5,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": "Até 17h"
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 6,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": "Até 12h"
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": "Até 19h, capela do Santíssimo aberta"
+     }
+    ],
     "nao_cabe": ""
    }
   ],
@@ -134,10 +211,15 @@
     "url": "https://diocesedesaomateus.org.br/paroquias/paroquia-sao-daniel-comboni/",
     "data": "2026-11-13",
     "o_que": "contatos"
+   },
+   {
+    "url": "destaque \"Horários Capela\" (story de ~46 semanas)",
+    "data": "",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Sem horário publicado: a página da paróquia no site da diocese traz só contatos, e o Instagram não se lê por dentro."
+  "confianca": "media",
+  "observacao": "Sem horário publicado: a página da paróquia no site da diocese traz só contatos, e o Instagram não se lê por dentro. Horários do Instagram oficial da paróquia (conferido em 16/11/2026)."
  },
  {
   "id_banco": null,
@@ -442,7 +524,22 @@
     "cidade": "Pinheiros",
     "localidade": "Centro",
     "endereco": "Av. Dom José Dalvit, 39",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
     "nao_cabe": ""
    }
   ],
@@ -451,10 +548,15 @@
     "url": "https://diocesedesaomateus.org.br/paroquias/paroquia-sao-joao-evangelista/",
     "data": "2026-11-13",
     "o_que": "contatos"
+   },
+   {
+    "url": "https://www.instagram.com/paroquiadepinheiros",
+    "data": "",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Sem horário publicado: a página da paróquia no site da diocese traz só contatos, e o Instagram não se lê por dentro."
+  "confianca": "media",
+  "observacao": "Sem horário publicado: a página da paróquia no site da diocese traz só contatos, e o Instagram não se lê por dentro. Horários do Instagram oficial da paróquia (conferido em 16/11/2026)."
  },
  {
   "id_banco": null,
@@ -802,7 +904,15 @@
     "cidade": "São Gabriel da Palha",
     "localidade": "Santa Helena",
     "endereco": "Rua Adolfo Buzete, s/n",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "19:15",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
     "nao_cabe": ""
    }
   ],
@@ -811,10 +921,15 @@
     "url": "https://diocesedesaomateus.org.br/paroquias/paroquia-nossa-senhora-do-perpetuo-socorro/",
     "data": "2026-11-13",
     "o_que": "contatos"
+   },
+   {
+    "url": "bio; adoração: https://www.instagram.com/p/DdqtZ-NxNJC/",
+    "data": "",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Paróquia recente; não consta no anuário GCatholic. Sem horário publicado: a página da paróquia no site da diocese traz só contatos, e o Instagram não se lê por dentro."
+  "confianca": "media",
+  "observacao": "Paróquia recente; não consta no anuário GCatholic. Sem horário publicado: a página da paróquia no site da diocese traz só contatos, e o Instagram não se lê por dentro. Horários do Instagram oficial da paróquia (conferido em 16/11/2026)."
  },
  {
   "id_banco": null,

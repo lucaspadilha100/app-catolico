@@ -970,7 +970,43 @@
     "cidade": "Colatina",
     "localidade": "Honório Fraga",
     "endereco": "Avenida Nossa Senhora da Penha, 527, Praça Cônego Geraldo Meyer",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": "Até 11h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "14:00",
+      "semanas": null,
+      "observacao": "Até 17h, confissão e aconselhamento"
+     }
+    ],
     "nao_cabe": ""
    },
    {
@@ -1089,10 +1125,15 @@
     "url": "https://diocesedecolatina.org.br/paroquia-nossa-senhora-da-penha/",
     "data": "2026-11-13",
     "o_que": "contatos"
+   },
+   {
+    "url": "bio; confissão: https://www.instagram.com/p/DVgNiGaEZhF/",
+    "data": "",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Paróquia desde 1995; 17 comunidades em 3 setores (as sem lugar na fonte ficaram fora). A página não traz horários de missa."
+  "confianca": "media",
+  "observacao": "Paróquia desde 1995; 17 comunidades em 3 setores (as sem lugar na fonte ficaram fora). A página não traz horários de missa. Horários do Instagram oficial da paróquia (conferido em 16/11/2026)."
  },
  {
   "id_banco": null,

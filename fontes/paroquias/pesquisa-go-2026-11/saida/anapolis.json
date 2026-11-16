@@ -328,7 +328,59 @@
     "cidade": "Anápolis",
     "localidade": "Bairro São João",
     "endereco": "Rua 03, Qd. 11, Lt. 34",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": [
+       4
+      ],
+      "observacao": "Santa Missa da Inclusão"
+     }
+    ],
     "nao_cabe": ""
    }
   ],
@@ -342,10 +394,15 @@
     "url": "https://www.diocesedeanapolis.org.br/paroquias-por-regiao/",
     "data": "",
     "o_que": "contatos"
+   },
+   {
+    "url": "destaque \"Missas\" (story de ~30 semanas)",
+    "data": "",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Região Pastoral 1, Anápolis Sul. Sem horário publicado: a página de cada paróquia no site da diocese está fora do ar e os dados embutidos no site só trazem horário de 3 paróquias."
+  "confianca": "media",
+  "observacao": "Região Pastoral 1, Anápolis Sul. Sem horário publicado: a página de cada paróquia no site da diocese está fora do ar e os dados embutidos no site só trazem horário de 3 paróquias. Horários do Instagram oficial da paróquia (conferido em 16/11/2026)."
  },
  {
   "id_banco": null,
@@ -368,7 +425,78 @@
     "cidade": "Anápolis",
     "localidade": "Setor Industrial Munir Calixto, DAIA",
     "endereco": "Rua 04, Qd. 12, s/n",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 2,
+      "hora": "14:30",
+      "semanas": null,
+      "observacao": "Até 17h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "14:30",
+      "semanas": null,
+      "observacao": "Até 17h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "14:30",
+      "semanas": null,
+      "observacao": "Até 17h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "14:30",
+      "semanas": null,
+      "observacao": "Até 16h30"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 6,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": "Até 11h"
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": "Até 17h30"
+     }
+    ],
     "nao_cabe": ""
    }
   ],
@@ -382,10 +510,15 @@
     "url": "https://www.diocesedeanapolis.org.br/paroquias-por-regiao/",
     "data": "",
     "o_que": "contatos"
+   },
+   {
+    "url": "destaques \"Missas\" (~10 sem), \"Confissões\" (~1 sem) e \"Adoração\" (~4 dias)",
+    "data": "",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Região Pastoral 1, Anápolis Sul. Sem horário publicado: a página de cada paróquia no site da diocese está fora do ar e os dados embutidos no site só trazem horário de 3 paróquias."
+  "confianca": "media",
+  "observacao": "Região Pastoral 1, Anápolis Sul. Sem horário publicado: a página de cada paróquia no site da diocese está fora do ar e os dados embutidos no site só trazem horário de 3 paróquias. Horários do Instagram oficial da paróquia (conferido em 16/11/2026)."
  },
  {
   "id_banco": null,
@@ -408,7 +541,50 @@
     "cidade": "Anápolis",
     "localidade": "Vivian Parque",
     "endereco": "Rua Gilson J. L. Teixeira, Qd. 59, Lt. 06",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 5,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
     "nao_cabe": ""
    }
   ],
@@ -422,10 +598,15 @@
     "url": "https://www.diocesedeanapolis.org.br/paroquias-por-regiao/",
     "data": "",
     "o_que": "contatos"
+   },
+   {
+    "url": "destaque \"Missas\" (\"Santas Missas e Celebrações 2025\", story de ~92 semanas)",
+    "data": "",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Região Pastoral 1, Anápolis Sul. Sem horário publicado: a página de cada paróquia no site da diocese está fora do ar e os dados embutidos no site só trazem horário de 3 paróquias."
+  "confianca": "media",
+  "observacao": "Região Pastoral 1, Anápolis Sul. Sem horário publicado: a página de cada paróquia no site da diocese está fora do ar e os dados embutidos no site só trazem horário de 3 paróquias. Horários do Instagram oficial da paróquia (conferido em 16/11/2026)."
  },
  {
   "id_banco": null,
@@ -448,7 +629,190 @@
     "cidade": "Anápolis",
     "localidade": "Bairro Jundiaí",
     "endereco": "Av. Dom Prudêncio, 360",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "12:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "11:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 2,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Até 11h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 2,
+      "hora": "14:30",
+      "semanas": null,
+      "observacao": "Até 17h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Até 11h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "14:30",
+      "semanas": null,
+      "observacao": "Até 17h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Até 11h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "14:30",
+      "semanas": null,
+      "observacao": "Até 17h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Até 11h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "14:30",
+      "semanas": null,
+      "observacao": "Até 17h"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": "Até 18h30"
+     }
+    ],
     "nao_cabe": ""
    }
   ],
@@ -462,10 +826,15 @@
     "url": "https://www.diocesedeanapolis.org.br/paroquias-por-regiao/",
     "data": "",
     "o_que": "contatos"
+   },
+   {
+    "url": "destaques \"Missas\" (~41 sem), \"Confissões\" (~5 dias), \"Adoração\" (~41 sem)",
+    "data": "",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Região Pastoral 1, Anápolis Sul. Sem horário publicado: a página de cada paróquia no site da diocese está fora do ar e os dados embutidos no site só trazem horário de 3 paróquias. Frades Menores (OFM). A diocese dá o Instagram psfaanapolis; a busca achou o perfil saofrancisco.anapolis com o mesmo bairro e a ordem."
+  "confianca": "media",
+  "observacao": "Região Pastoral 1, Anápolis Sul. Sem horário publicado: a página de cada paróquia no site da diocese está fora do ar e os dados embutidos no site só trazem horário de 3 paróquias. Frades Menores (OFM). A diocese dá o Instagram psfaanapolis; a busca achou o perfil saofrancisco.anapolis com o mesmo bairro e a ordem. Horários do Instagram oficial da paróquia (conferido em 16/11/2026)."
  },
  {
   "id_banco": null,
@@ -488,7 +857,239 @@
     "cidade": "Anápolis",
     "localidade": "Vila Formosa",
     "endereco": "Rua D, 110, 1ª etapa",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 2,
+      "hora": "16:30",
+      "semanas": null,
+      "observacao": "Até 17h30"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "16:30",
+      "semanas": null,
+      "observacao": "Até 17h30"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Até 11h30"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "16:30",
+      "semanas": null,
+      "observacao": "Até 17h30"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Até 11h30"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "16:30",
+      "semanas": null,
+      "observacao": "Até 17h30"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 6,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Até 11h30"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 1,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 1,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 2,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
     "nao_cabe": ""
    }
   ],
@@ -502,10 +1103,15 @@
     "url": "https://www.diocesedeanapolis.org.br/paroquias-por-regiao/",
     "data": "",
     "o_que": "contatos"
+   },
+   {
+    "url": "destaques \"Santa Missa\" e \"Confissão\" (stories de ~36 semanas)",
+    "data": "",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Região Pastoral 1, Anápolis Sul. Sem horário publicado: a página de cada paróquia no site da diocese está fora do ar e os dados embutidos no site só trazem horário de 3 paróquias."
+  "confianca": "media",
+  "observacao": "Região Pastoral 1, Anápolis Sul. Sem horário publicado: a página de cada paróquia no site da diocese está fora do ar e os dados embutidos no site só trazem horário de 3 paróquias. Horários do Instagram oficial da paróquia (conferido em 16/11/2026)."
  },
  {
   "id_banco": null,
@@ -528,7 +1134,99 @@
     "cidade": "Anápolis",
     "localidade": "Bairro Jundiaí Industrial",
     "endereco": "Av. Presidente Wilson, Qd. 18-B, Lt. 4/5",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": "Com Novena a Santo Antônio"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": "Quinta-feira Eucarística"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "11:00",
+      "semanas": null,
+      "observacao": "Missa com as crianças"
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": "Até 19h"
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": "Até 21h"
+     }
+    ],
     "nao_cabe": ""
    }
   ],
@@ -542,10 +1240,15 @@
     "url": "https://www.diocesedeanapolis.org.br/paroquias-por-regiao/",
     "data": "",
     "o_que": "contatos"
+   },
+   {
+    "url": "destaque \"Missas\" (Programação Paroquial, story de ~45 semanas)",
+    "data": "",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Região Pastoral 1, Anápolis Sul. Sem horário publicado: a página de cada paróquia no site da diocese está fora do ar e os dados embutidos no site só trazem horário de 3 paróquias."
+  "confianca": "media",
+  "observacao": "Região Pastoral 1, Anápolis Sul. Sem horário publicado: a página de cada paróquia no site da diocese está fora do ar e os dados embutidos no site só trazem horário de 3 paróquias. Horários do Instagram oficial da paróquia (conferido em 16/11/2026)."
  },
  {
   "id_banco": null,
@@ -678,7 +1381,87 @@
     "cidade": "Anápolis",
     "localidade": "Bairro Gran Ville",
     "endereco": "Av. Angélica, Q. 07, Lt. 15",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa ao Sagrado Coração de Jesus, com adoração"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": "Até 11h30"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "14:00",
+      "semanas": null,
+      "observacao": "Até 17h30"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "14:00",
+      "semanas": null,
+      "observacao": "Até 17h30"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 6,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": "Até 11h30"
+     }
+    ],
     "nao_cabe": ""
    }
   ],
@@ -692,10 +1475,15 @@
     "url": "https://www.diocesedeanapolis.org.br/paroquias-por-regiao/",
     "data": "",
     "o_que": "contatos"
+   },
+   {
+    "url": "destaques \"Missas\" (~27–30 sem) e \"Confissões\" (~30 sem)",
+    "data": "",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Região Pastoral 1, Anápolis Sul. Sem horário publicado: a página de cada paróquia no site da diocese está fora do ar e os dados embutidos no site só trazem horário de 3 paróquias. Celular publicado: (62) 99338-4645."
+  "confianca": "media",
+  "observacao": "Região Pastoral 1, Anápolis Sul. Sem horário publicado: a página de cada paróquia no site da diocese está fora do ar e os dados embutidos no site só trazem horário de 3 paróquias. Celular publicado: (62) 99338-4645. Horários do Instagram oficial da paróquia (conferido em 16/11/2026)."
  },
  {
   "id_banco": null,
@@ -1455,7 +2243,141 @@
     "cidade": "Anápolis",
     "localidade": "Centro",
     "endereco": "Av. Tiradentes, s/n",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "11:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "14:30",
+      "semanas": null,
+      "observacao": "Até 16h30, secretaria"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": "Até 19h, confessionário"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "14:30",
+      "semanas": null,
+      "observacao": "Até 16h30, secretaria"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": "Até 19h, confessionário"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "14:30",
+      "semanas": null,
+      "observacao": "Até 16h30, secretaria"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": "Até 19h, confessionário"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 6,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": "Até 11h, secretaria"
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "13:00",
+      "semanas": null,
+      "observacao": "Até 19h"
+     }
+    ],
     "nao_cabe": ""
    }
   ],
@@ -1469,10 +2391,15 @@
     "url": "https://www.diocesedeanapolis.org.br/paroquias-por-regiao/",
     "data": "",
     "o_que": "contatos"
+   },
+   {
+    "url": "destaques \"Missas\" (~53 sem), \"Confissão\" (~21 sem), \"Adoração\" (~62 sem)",
+    "data": "",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Região Pastoral 2, Anápolis Norte. Sem horário publicado: a página de cada paróquia no site da diocese está fora do ar e os dados embutidos no site só trazem horário de 3 paróquias."
+  "confianca": "media",
+  "observacao": "Região Pastoral 2, Anápolis Norte. Sem horário publicado: a página de cada paróquia no site da diocese está fora do ar e os dados embutidos no site só trazem horário de 3 paróquias. Horários do Instagram oficial da paróquia (conferido em 16/11/2026)."
  },
  {
   "id_banco": null,

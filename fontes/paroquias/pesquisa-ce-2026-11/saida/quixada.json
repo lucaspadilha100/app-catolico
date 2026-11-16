@@ -90,7 +90,29 @@
     "cidade": "Quixadá",
     "localidade": "Alto São Francisco",
     "endereco": "Rua Juscelino Kubitscheck, 194",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
     "nao_cabe": ""
    }
   ],
@@ -104,10 +126,15 @@
     "url": "https://www.instagram.com/paroquiadesaofrancisco/",
     "data": "2026-11-13",
     "o_que": "contatos"
+   },
+   {
+    "url": "destaque \"Hr. de Missas\" (story de ~78 semanas)",
+    "data": "",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Criada em 05/08/1979. Sem horário achado: o site da diocese dá endereço e contatos, mas não publica horários de missa. O perfil no Instagram não se lê por dentro."
+  "confianca": "media",
+  "observacao": "Criada em 05/08/1979. Sem horário achado: o site da diocese dá endereço e contatos, mas não publica horários de missa. O perfil no Instagram não se lê por dentro. Horários do Instagram oficial da paróquia (conferido em 16/11/2026)."
  },
  {
   "id_banco": null,
@@ -639,7 +666,61 @@
     "cidade": "Boa Viagem",
     "localidade": "",
     "endereco": "Rua Ana Gonçalves, 79",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa SCJ"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Até 19h"
+     }
+    ],
     "nao_cabe": ""
    }
   ],
@@ -653,10 +734,15 @@
     "url": "https://www.instagram.com/pnsfatimaboaviagemce/",
     "data": "2026-11-13",
     "o_que": "contatos"
+   },
+   {
+    "url": "https://www.instagram.com/p/DURDFyQkalO/ (post fixado, Agenda Semanal e Mensal Sede 2026)",
+    "data": "",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Criada em 10/05/2009, na sede do município. Sem horário achado: o site da diocese dá endereço e contatos, mas não publica horários de missa. O perfil no Instagram não se lê por dentro."
+  "confianca": "media",
+  "observacao": "Criada em 10/05/2009, na sede do município. Sem horário achado: o site da diocese dá endereço e contatos, mas não publica horários de missa. O perfil no Instagram não se lê por dentro. Horários do Instagram oficial da paróquia (conferido em 16/11/2026)."
  },
  {
   "id_banco": null,
@@ -749,7 +835,52 @@
     "cidade": "Ibaretama",
     "localidade": "",
     "endereco": "Rua Pe. João Scopel, 73",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": [
+       1
+      ],
+      "observacao": ""
+     }
+    ],
     "nao_cabe": ""
    }
   ],
@@ -763,10 +894,15 @@
     "url": "https://www.instagram.com/pnsaibaretama/",
     "data": "2026-11-13",
     "o_que": "contatos"
+   },
+   {
+    "url": "https://www.instagram.com/stories/highlights/17965047882194435/ (destaque Missas - Sede)",
+    "data": "",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Criada em 25/12/1988. Sem horário achado: o site da diocese dá endereço e contatos, mas não publica horários de missa. O perfil no Instagram não se lê por dentro."
+  "confianca": "media",
+  "observacao": "Criada em 25/12/1988. Sem horário achado: o site da diocese dá endereço e contatos, mas não publica horários de missa. O perfil no Instagram não se lê por dentro. Horários do Instagram oficial da paróquia (conferido em 16/11/2026)."
  },
  {
   "id_banco": null,
