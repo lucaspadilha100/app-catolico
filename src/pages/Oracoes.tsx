@@ -225,7 +225,7 @@ export function CategoriaDeOracoes() {
       ) : (
         [...letras.entries()].map(([l, os]) => (
           <section key={l}>
-            <h2 className="mb-2 px-1 text-sm font-bold text-tinta-suave">{l}</h2>
+            {letras.size > 1 && <h2 className="mb-2 px-1 text-sm font-bold text-tinta-suave">{l}</h2>}
             <div className={LISTA}>
               {os.map((o) => (
                 <ItemDeOracao key={o.id} o={o} />

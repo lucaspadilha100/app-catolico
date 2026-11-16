@@ -15,16 +15,35 @@ export function palavrasDaBusca(q: string): string[] {
     .slice(0, 6);
 }
 
+const LIGACAO = new Set([
+  "as", "os", "um", "uma", "uns", "umas", "de", "da", "do", "das", "dos", "em", "na", "no", "nas", "nos", "ao", "aos",
+  "por", "pelo", "pela", "pelos", "pelas", "com", "para", "pra", "que", "se", "ou", "nem", "mas", "me", "te", "lhe", "vos",
+]);
+
+const LETRA = /[\p{L}\p{N}]/u;
+
+function ocorrencias(base: string, palavra: string): [number, number][] {
+  const inteira = LIGACAO.has(palavra);
+  const achados: [number, number][] = [];
+  let i = base.indexOf(palavra);
+  while (i >= 0) {
+    const fim = i + palavra.length;
+    const comeca = i === 0 || !LETRA.test(base[i - 1]!);
+    const termina = fim >= base.length || !LETRA.test(base[fim]!);
+    if (comeca && (termina || !inteira)) {
+      let ate = fim;
+      while (ate < base.length && LETRA.test(base[ate]!)) ate++;
+      achados.push([i, ate]);
+    }
+    i = base.indexOf(palavra, fim);
+  }
+  return achados;
+}
+
 export function trechosEncontrados(texto: string, palavras: string[]): [number, number][] {
   const base = semAcento(texto);
-  const achados: [number, number][] = [];
-  for (const p of palavras) {
-    let i = base.indexOf(p);
-    while (i >= 0) {
-      achados.push([i, i + p.length]);
-      i = base.indexOf(p, i + p.length);
-    }
-  }
+  const fortes = palavras.filter((p) => !LIGACAO.has(p));
+  const achados = (fortes.length ? fortes : palavras).flatMap((p) => ocorrencias(base, p));
   achados.sort((a, b) => a[0] - b[0]);
   const juntos: [number, number][] = [];
   for (const a of achados) {
@@ -37,7 +56,7 @@ export function trechosEncontrados(texto: string, palavras: string[]): [number, 
 
 export const versiculoCombina = (texto: string, palavras: string[]) => {
   const base = semAcento(texto);
-  return palavras.every((p) => base.includes(p));
+  return palavras.every((p) => ocorrencias(base, p).length > 0);
 };
 
 export interface Achado {

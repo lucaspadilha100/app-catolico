@@ -136,7 +136,7 @@ function ExameAberto({ exame }: { exame: TipoExame }) {
                       return (
                         <li key={i.id}>
                           <button type="button" onClick={() => alternar(i.id)} aria-pressed={marcado} className="flex min-h-14 w-full items-start gap-3 px-4 py-3 text-left">
-                            <span className={`mt-0.5 grid size-6 shrink-0 place-items-center rounded-md border-2 ${marcado ? "border-primario bg-primario text-sobre-primario" : "border-borda"}`}>
+                            <span className={`mt-0.5 grid size-6 shrink-0 place-items-center rounded-md border-2 ${marcado ? "border-primario bg-primario text-sobre-primario" : "border-tinta-suave"}`}>
                               {marcado && <Check className="size-4" aria-hidden />}
                             </span>
                             <span className="min-w-0 flex-1">

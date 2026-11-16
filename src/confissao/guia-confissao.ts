@@ -19,7 +19,7 @@ const guia: Guia = {
       ],
     },
     {
-      titulo: "1. Preparar-se: o exame de consciência",
+      titulo: "Preparar-se: o exame de consciência",
       blocos: [
         {
           texto:
@@ -38,7 +38,7 @@ const guia: Guia = {
       ],
     },
     {
-      titulo: "2. Arrepender-se",
+      titulo: "Arrepender-se",
       blocos: [
         {
           texto:
@@ -60,7 +60,7 @@ const guia: Guia = {
       ],
     },
     {
-      titulo: "3. Chegar ao confessionário",
+      titulo: "Chegar ao confessionário",
       blocos: [
         {
           texto:
@@ -77,7 +77,7 @@ const guia: Guia = {
       ],
     },
     {
-      titulo: "4. Dizer os pecados",
+      titulo: "Dizer os pecados",
       blocos: [
         {
           texto:
@@ -98,7 +98,7 @@ const guia: Guia = {
       ],
     },
     {
-      titulo: "5. Ouvir o conselho e a penitência",
+      titulo: "Ouvir o conselho e a penitência",
       blocos: [
         {
           texto:
@@ -111,7 +111,7 @@ const guia: Guia = {
       ],
     },
     {
-      titulo: "6. O ato de contrição",
+      titulo: "O ato de contrição",
       blocos: [
         {
           texto:
@@ -121,7 +121,7 @@ const guia: Guia = {
       ],
     },
     {
-      titulo: "7. A absolvição",
+      titulo: "A absolvição",
       blocos: [
         {
           texto:
@@ -134,7 +134,7 @@ const guia: Guia = {
       ],
     },
     {
-      titulo: "8. Cumprir a penitência",
+      titulo: "Cumprir a penitência",
       blocos: [
         {
           texto:
@@ -147,7 +147,7 @@ const guia: Guia = {
       ],
     },
     {
-      titulo: "9. Voltar a ter paz",
+      titulo: "Voltar a ter paz",
       blocos: [
         {
           texto:

@@ -35,4 +35,15 @@ describe("busca no texto", () => {
     expect(versiculoCombina("Tende misericórdia de mim, ó Deus, pelo vosso coração", p)).toBe(true);
     expect(trechosEncontrados("O pão vivo; o pão do céu", ["pao"])).toEqual([[2, 5], [14, 17]]);
   });
+
+  it("casa no começo da palavra e marca a palavra inteira", () => {
+    const p = palavrasDaBusca("luz do mundo");
+    expect(versiculoCombina("Vós sois a luz do mundo", p)).toBe(true);
+    expect(versiculoCombina("Será lançado da luz às trevas, e levado para fora do mundo", p)).toBe(true);
+    expect(versiculoCombina("Será lançado da luz às trevas, e levado para fora deste mundo", p)).toBe(false);
+    expect(trechosEncontrados("Será lançado da luz e levado do mundo", p)).toEqual([[16, 19], [32, 37]]);
+    expect(trechosEncontrados("As luzes do céu", ["luz"])).toEqual([[3, 8]]);
+    expect(versiculoCombina("Nós o vimos", ["os"])).toBe(false);
+    expect(trechosEncontrados("Disse o que viu", ["que"])).toEqual([[8, 11]]);
+  });
 });

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { ChevronRight } from "lucide-react";
 import { formatarReferencia } from "@/liturgia/lecionario";
-import { paraIso, type Dia } from "@/liturgia/datas";
+import { diaEMes, diferencaEmDias, hoje, paraIso, type Dia } from "@/liturgia/datas";
 import { oracao } from "@/oracao/oracoes";
 import type { Bloco } from "@/devocao/tipos";
 import { TextoDaOracao } from "@/components/TextoDaOracao";
@@ -25,6 +25,8 @@ export function referenciaParaLer(canonica: string): string {
 }
 
 const ROTULO = "text-xs font-semibold uppercase tracking-wide text-destaque-texto";
+
+const outroDia = (data?: Dia) => (data && diferencaEmDias(data, hoje()) !== 0 ? data : null);
 
 function UmBloco({ b, data }: { b: Bloco; data?: Dia }) {
   if ("leitura" in b)
@@ -66,7 +68,7 @@ function UmBloco({ b, data }: { b: Bloco; data?: Dia }) {
   if ("pratica" in b)
     return (
       <div className="rounded-2xl bg-marca-fundo px-4 py-3">
-        <p className={ROTULO}>Para hoje</p>
+        <p className={ROTULO}>{outroDia(data) ? "Para este dia" : "Para hoje"}</p>
         <p className="mt-1 text-tinta">{b.pratica}</p>
       </div>
     );
@@ -74,12 +76,14 @@ function UmBloco({ b, data }: { b: Bloco; data?: Dia }) {
     const naBiblia = /^\/biblia\/([1-3]?[A-Z]{2,3})\/(\d+)$/.exec(b.ir);
     const livro = naBiblia ? livroPorCodigo(naBiblia[1]!) : undefined;
     const para = b.ir === "liturgia" ? (data ? `/liturgia/${paraIso(data)}` : "/liturgia") : livro ? `/biblia/${livro.slug}/${naBiblia![2]}` : b.ir;
+    const outra = b.ir === "liturgia" ? outroDia(data) : null;
+    const rotulo = outra ? b.rotulo.replace(/ de hoje$/, ` de ${diaEMes(outra, hoje())}`) : b.rotulo;
     return (
       <Link
         to={para}
         className="flex min-h-12 items-center justify-between gap-3 rounded-xl border border-borda bg-papel px-4 font-semibold text-destaque-texto"
       >
-        {b.rotulo}
+        {rotulo}
         <ChevronRight className="size-5 shrink-0" aria-hidden />
       </Link>
     );

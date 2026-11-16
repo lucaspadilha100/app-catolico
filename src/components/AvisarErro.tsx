@@ -46,11 +46,11 @@ export function BarraDoVersiculo({ referencia, aviso, aoFechar }: Props) {
   }
 
   return (
-    <div className="fixed inset-x-0 bottom-[calc(4rem+env(safe-area-inset-bottom))] z-20 px-3 pb-3 md:bottom-0 md:left-60 md:pb-6">
+    <div data-folha-do-versiculo className="fixed inset-x-0 bottom-[calc(4rem+env(safe-area-inset-bottom))] z-20 px-2 pb-3 min-[360px]:px-3 md:bottom-0 md:left-60 md:pb-6">
       <div
         role="dialog"
         aria-label={`Versículo ${referencia}`}
-        className="mx-auto max-w-xl rounded-2xl border border-borda bg-cartao p-4 shadow-lg"
+        className="@container mx-auto max-w-xl rounded-2xl border border-borda bg-cartao p-3 shadow-lg min-[360px]:p-4"
       >
         <div className="flex items-center justify-between gap-3">
           <p className="font-semibold text-tinta">{referencia}</p>
@@ -59,7 +59,7 @@ export function BarraDoVersiculo({ referencia, aviso, aoFechar }: Props) {
           </button>
         </div>
         {!aberto && !anotando && (
-          <div className="mt-1 flex items-center gap-2" role="group" aria-label="Grifar">
+          <div className="mt-1 flex flex-wrap items-center gap-x-1 gap-y-2 @min-[15.75rem]:gap-x-2" role="group" aria-label="Grifar">
             {(Object.keys(CORES) as Cor[]).map((c) => (
               <button
                 key={c}
@@ -67,21 +67,20 @@ export function BarraDoVersiculo({ referencia, aviso, aoFechar }: Props) {
                 aria-label={`Grifar de ${CORES[c].nome.toLowerCase()}`}
                 aria-pressed={marca?.cor === c}
                 onClick={() => marcar(chave, { cor: marca?.cor === c ? null : c, texto: aviso.texto_versiculo })}
-                className={`grid size-11 place-items-center rounded-full border-2 ${marca?.cor === c ? "border-tinta" : "border-transparent"}`}
+                className={`grid size-9 shrink-0 place-items-center rounded-full @min-[15.75rem]:size-11 border-2 ${marca?.cor === c ? "border-tinta" : "border-transparent"}`}
               >
-                <span className="size-8 rounded-full border border-borda" style={{ background: CORES[c].fundo }} />
+                <span className="size-7 rounded-full border border-borda @min-[15.75rem]:size-8" style={{ background: CORES[c].fundo }} />
               </button>
             ))}
-            <span className="flex-1" />
             <button
               type="button"
               onClick={() => {
                 setNota(marca?.nota ?? "");
                 setAnotando(true);
               }}
-              className={`flex min-h-11 items-center gap-1.5 rounded-xl border px-3 text-sm font-medium ${marca?.nota ? "border-destaque-texto/40 text-destaque-texto" : "border-borda text-tinta-suave"}`}
+              className={`ml-auto flex min-h-11 min-w-11 shrink-0 items-center justify-center gap-1.5 rounded-xl border px-3 text-sm font-medium @max-[18.75rem]:px-0 ${marca?.nota ? "border-destaque-texto/40 text-destaque-texto" : "border-borda text-tinta-suave"}`}
             >
-              <NotebookPen className="size-4" aria-hidden /> {marca?.nota ? "Nota" : "Anotar"}
+              <NotebookPen className="size-4 shrink-0" aria-hidden /> <span className="@max-[18.75rem]:sr-only">{marca?.nota ? "Nota" : "Anotar"}</span>
             </button>
           </div>
         )}
@@ -116,7 +115,7 @@ export function BarraDoVersiculo({ referencia, aviso, aoFechar }: Props) {
         )}
 
         {!aberto && !anotando && (
-          <div className="mt-2 grid grid-cols-2 gap-2">
+          <div className="mt-2 grid grid-cols-1 gap-2 @min-[16rem]:grid-cols-2">
             <button
               type="button"
               onClick={() => {
@@ -124,13 +123,13 @@ export function BarraDoVersiculo({ referencia, aviso, aoFechar }: Props) {
                 void compartilharVersiculo(aviso.texto_versiculo, referencia).then((r) => setImagem(r === "baixado" ? "baixado" : ""));
               }}
               disabled={imagem === "gerando"}
-              className="flex min-h-11 items-center justify-center gap-2 rounded-xl bg-destaque px-3 text-sm font-semibold text-sobre-destaque disabled:opacity-60"
+              className="flex min-h-11 min-w-0 items-center justify-center gap-1.5 rounded-xl bg-destaque px-2 text-center text-sm font-semibold leading-tight text-sobre-destaque disabled:opacity-60"
             >
-              {imagem === "baixado" ? <Check className="size-4" aria-hidden /> : <Share2 className="size-4" aria-hidden />}
+              {imagem === "baixado" ? <Check className="size-4 shrink-0" aria-hidden /> : <Share2 className="size-4 shrink-0" aria-hidden />}
               {imagem === "baixado" ? "Imagem salva" : "Compartilhar"}
             </button>
-            <button type="button" onClick={() => setAberto(true)} className="flex min-h-11 items-center justify-center gap-2 rounded-xl border border-borda px-3 text-sm font-medium text-tinta-suave">
-              <Flag className="size-4" aria-hidden /> Avisar erro
+            <button type="button" onClick={() => setAberto(true)} className="flex min-h-11 min-w-0 items-center justify-center gap-1.5 rounded-xl border border-borda px-2 text-center text-sm font-medium leading-tight text-tinta-suave">
+              <Flag className="size-4 shrink-0" aria-hidden /> Avisar erro
             </button>
           </div>
         )}

@@ -22,7 +22,6 @@ import {
 } from "@/biblia/progresso";
 import { NaoEncontrada } from "@/pages/Simples";
 import { BarraDoVersiculo } from "@/components/AvisarErro";
-import { PedirApoio } from "@/apoio/PedirApoio";
 
 function Barra({ valor, fina = false }: { valor: number; fina?: boolean }) {
   return (
@@ -99,10 +98,7 @@ function IrPara({ aoIr, focar }: { aoIr: (destino: string) => void; focar?: bool
 
 function Seletor({ livro, cap, buscar, aoFechar }: { livro: Livro; cap: number; buscar: boolean; aoFechar: () => void }) {
   const navegar = useNavigate();
-  const leitura = useLeituraDaBiblia();
-  const [aberto, setAberto] = useState<string | null>(livro.codigo);
   const [busca, setBusca] = useState(buscar);
-  const geral = percentualDaBiblia(leitura);
 
   useEffect(() => {
     const antes = document.body.style.overflow;
@@ -117,11 +113,56 @@ function Seletor({ livro, cap, buscar, aoFechar }: { livro: Livro; cap: number; 
   }, []);
 
   const ir = (destino: string) => navegar(destino, { replace: true, state: { ir: Date.now() } });
-  const icone = "grid size-11 place-items-center rounded-full text-tinta-suave hover:bg-marca-fundo";
+
+  const caixa = useFocoPreso<HTMLDivElement>();
+  return (
+    <div ref={caixa} className="fixed inset-0 z-50 flex flex-col bg-papel md:left-60 md:border-l md:border-borda" role="dialog" aria-modal="true" aria-label="Livros da Bíblia">
+      <div className="mx-auto flex w-full max-w-2xl flex-col gap-3 px-4 pb-2 pt-[max(0.75rem,env(safe-area-inset-top))] md:px-8">
+        <div className="flex items-center gap-1">
+          <h2 className="flex-1 font-leitura text-3xl font-semibold text-marca">Livros</h2>
+          <button type="button" onClick={() => setBusca(!busca)} aria-label="Buscar" aria-pressed={busca} className={ICONE_DO_SELETOR}>
+            <Search className="size-6" aria-hidden />
+          </button>
+          <button type="button" onClick={aoFechar} aria-label="Fechar" className={ICONE_DO_SELETOR}>
+            <X className="size-6" aria-hidden />
+          </button>
+        </div>
+        {busca && <IrPara aoIr={ir} focar />}
+        {!busca && <AtalhosDaBiblia substituir />}
+      </div>
+
+      <div className="flex-1 overflow-y-auto overscroll-contain">
+        <div className="mx-auto w-full max-w-2xl px-4 pb-[max(2rem,env(safe-area-inset-bottom))] md:px-8">
+          <ListaDeLivros livro={livro} cap={cap} aoIr={ir} />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+const ICONE_DO_SELETOR = "grid size-11 place-items-center rounded-full text-tinta-suave hover:bg-marca-fundo";
+
+function AtalhosDaBiblia({ substituir = false }: { substituir?: boolean }) {
+  return (
+    <div className="flex flex-wrap gap-2">
+      <Link to="/biblia/marcados" replace={substituir} className="flex min-h-10 items-center gap-1.5 rounded-full border border-borda bg-cartao px-3 text-sm font-medium text-tinta">
+        <Bookmark className="size-4" aria-hidden /> Grifos e notas
+      </Link>
+      <Link to="/biblia/planos" replace={substituir} className="flex min-h-10 items-center gap-1.5 rounded-full border border-borda bg-cartao px-3 text-sm font-medium text-tinta">
+        <CalendarCheck className="size-4" aria-hidden /> Planos de leitura
+      </Link>
+    </div>
+  );
+}
+
+function ListaDeLivros({ livro, cap, aoIr }: { livro?: Livro; cap?: number; aoIr: (destino: string) => void }) {
+  const leitura = useLeituraDaBiblia();
+  const [aberto, setAberto] = useState<string | null>(livro?.codigo ?? null);
+  const geral = percentualDaBiblia(leitura);
 
   const linha = (l: Livro) => {
     const expandido = aberto === l.codigo;
-    const atualLivro = l.codigo === livro.codigo;
+    const atualLivro = l.codigo === livro?.codigo;
     const lidos = new Set(leitura.lidos[l.codigo] ?? []);
     const p = percentualDoLivro(leitura, l.codigo);
     return (
@@ -145,7 +186,7 @@ function Seletor({ livro, cap, buscar, aoFechar }: { livro: Livro; cap: number; 
                 <button
                   key={c}
                   type="button"
-                  onClick={() => ir(caminho(l, c))}
+                  onClick={() => aoIr(caminho(l, c))}
                   aria-label={`${nomeDoCapitulo(l, c)}${lido ? ", lido" : ""}`}
                   aria-current={atual ? "page" : undefined}
                   className={`grid h-12 place-items-center rounded-xl text-lg font-semibold ${
@@ -162,57 +203,40 @@ function Seletor({ livro, cap, buscar, aoFechar }: { livro: Livro; cap: number; 
     );
   };
 
-  const caixa = useFocoPreso<HTMLDivElement>();
   return (
-    <div ref={caixa} className="fixed inset-0 z-50 flex flex-col bg-papel md:left-60 md:border-l md:border-borda" role="dialog" aria-modal="true" aria-label="Livros da Bíblia">
-      <div className="mx-auto flex w-full max-w-2xl flex-col gap-3 px-4 pb-2 pt-[max(0.75rem,env(safe-area-inset-top))] md:px-8">
-        <div className="flex items-center gap-1">
-          <h2 className="flex-1 font-leitura text-3xl font-semibold text-marca">Livros</h2>
-          <button type="button" onClick={() => setBusca(!busca)} aria-label="Buscar" aria-pressed={busca} className={icone}>
-            <Search className="size-6" aria-hidden />
-          </button>
-          <button type="button" onClick={aoFechar} aria-label="Fechar" className={icone}>
-            <X className="size-6" aria-hidden />
-          </button>
+    <>
+      {capitulosLidos(leitura) > 0 && (
+        <div className="flex items-center gap-3 pb-2 pt-1">
+          <Barra valor={geral} fina />
+          <span className="shrink-0 text-sm text-tinta-suave">{geral}% lida</span>
         </div>
-        {busca && <IrPara aoIr={ir} focar />}
-        {!busca && (
-          <div className="flex gap-2">
-            <Link to="/biblia/marcados" replace className="flex min-h-10 items-center gap-1.5 rounded-full border border-borda bg-cartao px-3 text-sm font-medium text-tinta">
-              <Bookmark className="size-4" aria-hidden /> Grifos e notas
-            </Link>
-            <Link to="/biblia/planos" replace className="flex min-h-10 items-center gap-1.5 rounded-full border border-borda bg-cartao px-3 text-sm font-medium text-tinta">
-              <CalendarCheck className="size-4" aria-hidden /> Planos de leitura
-            </Link>
-          </div>
-        )}
-      </div>
-
-      <div className="flex-1 overflow-y-auto overscroll-contain">
-        <div className="mx-auto w-full max-w-2xl px-4 pb-[max(2rem,env(safe-area-inset-bottom))] md:px-8">
-          {capitulosLidos(leitura) > 0 && (
-            <div className="flex items-center gap-3 pb-2 pt-1">
-              <Barra valor={geral} fina />
-              <span className="shrink-0 text-sm text-tinta-suave">{geral}% lida</span>
-            </div>
-          )}
-          {(["AT", "NT"] as const).map((t) => (
-            <section key={t} className="pt-3">
-              <h3 className="pb-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto">{t === "AT" ? "Antigo Testamento" : "Novo Testamento"}</h3>
-              {LIVROS.filter((l) => l.testamento === t).map(linha)}
-            </section>
-          ))}
-        </div>
-      </div>
-    </div>
+      )}
+      {(["AT", "NT"] as const).map((t) => (
+        <section key={t} className="pt-3">
+          <h3 className="pb-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto">{t === "AT" ? "Antigo Testamento" : "Novo Testamento"}</h3>
+          {LIVROS.filter((l) => l.testamento === t).map(linha)}
+        </section>
+      ))}
+    </>
   );
 }
 
 export function Biblia() {
   const leitura = useLeituraDaBiblia();
+  const navegar = useNavigate();
   const ultimo = leitura.ultimo ? livroPorCodigo(leitura.ultimo.livro) : null;
-  const destino = ultimo && leitura.ultimo ? caminho(ultimo, leitura.ultimo.capitulo) : "/biblia/genesis/1";
-  return <Navigate to={destino} replace />;
+  if (ultimo && leitura.ultimo) return <Navigate to={caminho(ultimo, leitura.ultimo.capitulo)} replace />;
+  const ir = (destino: string) => navegar(destino, { replace: /^\/biblia\/[^/]+\/\d/.test(destino) });
+  return (
+    <div className="flex flex-col gap-3">
+      <h1 className="font-leitura text-3xl font-semibold text-marca">Bíblia</h1>
+      <IrPara aoIr={ir} />
+      <AtalhosDaBiblia />
+      <div>
+        <ListaDeLivros aoIr={ir} />
+      </div>
+    </div>
+  );
 }
 
 export function BibliaLivro() {
@@ -232,6 +256,7 @@ interface Posicao {
 const chaveDe = (p: Posicao) => `${p.livro.codigo}-${p.cap}`;
 const MAXIMO_NA_TELA = 8;
 const LINHA_DO_TOPO = 140;
+const MEDIDA_DO_TITULO = "pointer-events-none invisible absolute left-0 top-0 flex items-center whitespace-pre px-1 text-2xl";
 
 function Leitor({
   inicial,
@@ -377,15 +402,61 @@ function Leitor({
   }, [janela, livros]);
 
   const titulo = nomeDoCapitulo(atual.livro, atual.cap);
+  const nomeLongo = atual.livro.codigo === "PSA" ? "Salmo" : atual.livro.nome;
+  const nomeCurto = atual.livro.codigo === "PSA" ? "Sl" : atual.livro.abreviatura;
+  const botaoDoTitulo = useRef<HTMLButtonElement>(null);
+  const medidaDoTitulo = useRef<HTMLSpanElement>(null);
+  const medidaDoCurto = useRef<HTMLSpanElement>(null);
+  const [aperto, setAperto] = useState<0 | 1 | 2>(0);
+
+  useLayoutEffect(() => {
+    const botao = botaoDoTitulo.current;
+    const longo = medidaDoTitulo.current;
+    const curto = medidaDoCurto.current;
+    if (!botao || !longo || !curto) return;
+    const medir = () => setAperto(longo.offsetWidth <= botao.clientWidth ? 0 : curto.offsetWidth <= botao.clientWidth ? 1 : 2);
+    medir();
+    const observador = new ResizeObserver(medir);
+    [botao, longo, curto].forEach((el) => observador.observe(el));
+    return () => observador.disconnect();
+  }, [titulo]);
+
+  useEffect(() => {
+    if (!selecionado) return;
+    const quadro = requestAnimationFrame(() => {
+      const verso = document.getElementById(`${chaveDe(selecionado.pos)}-v${selecionado.v}`);
+      const folha = document.querySelector<HTMLElement>("[data-folha-do-versiculo]");
+      if (!verso || !folha) return;
+      const v = verso.getBoundingClientRect();
+      const limite = folha.getBoundingClientRect().top - 12;
+      const desce = Math.min(v.bottom - limite, v.top - LINHA_DO_TOPO);
+      if (desce > 0) window.scrollBy(0, desce);
+    });
+    return () => cancelAnimationFrame(quadro);
+  }, [selecionado]);
 
   return (
     <div>
       <div className="sticky top-[calc(max(0.5rem,env(safe-area-inset-top))+2.3rem)] z-[5] -mx-4 -mt-5 mb-2 flex items-center gap-1 bg-papel/95 px-3 py-1.5 backdrop-blur md:top-0 md:-mx-8 md:-mt-10 md:px-7 md:py-3">
-        <button type="button" onClick={() => aoEscolher(atual, false)} className="flex min-h-11 min-w-0 items-center gap-1.5 rounded-full px-1 font-leitura text-2xl font-semibold text-marca">
-          <span className="truncate">{titulo}</span>
-          <ChevronDown className="size-5 shrink-0 text-tinta-suave" aria-hidden />
+        <button
+          ref={botaoDoTitulo}
+          type="button"
+          onClick={() => aoEscolher(atual, false)}
+          aria-label={titulo}
+          className={`relative flex min-h-11 min-w-0 flex-1 items-center rounded-full px-1 text-left font-leitura font-semibold text-marca ${aperto === 2 ? "text-xl" : "text-2xl"}`}
+        >
+          <span className="truncate">{aperto ? nomeCurto : nomeLongo}</span>
+          <span className="shrink-0 whitespace-pre">{` ${atual.cap}`}</span>
+          <ChevronDown className="ml-1.5 size-5 shrink-0 text-tinta-suave" aria-hidden />
+          <span ref={medidaDoTitulo} aria-hidden className={MEDIDA_DO_TITULO}>
+            {`${nomeLongo} ${atual.cap}`}
+            <span className="ml-1.5 inline-block size-5" />
+          </span>
+          <span ref={medidaDoCurto} aria-hidden className={MEDIDA_DO_TITULO}>
+            {`${nomeCurto} ${atual.cap}`}
+            <span className="ml-1.5 inline-block size-5" />
+          </span>
         </button>
-        <span className="flex-1" />
         <BotaoOuvir
           compacto
           titulo={titulo}
@@ -457,7 +528,6 @@ function Leitor({
                   {lido ? "Capítulo lido" : "Marcar como lido"}
                 </button>
                 <NotaDaTraducao className="mt-1 text-center" />
-                <PedirApoio className="mt-2" />
               </div>
             )}
           </section>
@@ -647,7 +717,7 @@ function Destacado({ texto, palavras }: { texto: string; palavras: string[] }) {
   trechos.forEach(([de, ate], k) => {
     if (de > i) partes.push(texto.slice(i, de));
     partes.push(
-      <mark key={k} className="rounded bg-marca-fundo px-0.5 font-semibold text-marca">
+      <mark key={k} className="rounded-sm bg-marca-fundo font-semibold text-marca">
         {texto.slice(de, ate)}
       </mark>,
     );

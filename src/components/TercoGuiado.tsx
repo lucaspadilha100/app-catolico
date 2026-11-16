@@ -23,7 +23,6 @@ import { TextoDaLeitura } from "@/components/TextoBiblico";
 import { vibrar } from "@/lib/nativo";
 import { contarReza } from "@/conta/uso";
 import { RezandoJuntos, rezaDoTipo } from "@/components/RezandoJuntos";
-import { PedirApoio } from "@/apoio/PedirApoio";
 import { CartaoDeApoio, useMomentoDeApoio } from "@/apoio/MomentoDeApoio";
 import { completouSemana, diasSeguidos } from "@/apoio/momento";
 
@@ -283,7 +282,7 @@ export function TercoGuiado({
             Voltar para Rezar
           </Link>
         </div>
-        {apoio.visivel ? <CartaoDeApoio titulo={`${seguidos} dias seguidos com o terço`} aoFechar={apoio.fechar} /> : <PedirApoio />}
+        {apoio.visivel && <CartaoDeApoio titulo={`${seguidos} dias seguidos com o terço`} aoFechar={apoio.fechar} />}
       </div>
     );
   }
@@ -369,13 +368,13 @@ export function TercoGuiado({
       )}
 
       {!acompanhando && (
-      <div className="sticky bottom-[calc(4.75rem+env(safe-area-inset-bottom))] z-[5] grid grid-cols-[auto_1fr] gap-3 md:bottom-6">
+      <div className="sticky bottom-[calc(4rem+env(safe-area-inset-bottom))] z-[5] -mx-4 grid grid-cols-[auto_1fr] gap-3 bg-papel px-4 pb-3 pt-2 before:pointer-events-none before:absolute before:inset-x-0 before:-top-6 before:h-6 before:bg-linear-to-t before:from-papel before:to-transparent md:bottom-0 md:-mx-8 md:px-8 md:pb-6">
         <button
           type="button"
           onClick={voltar}
           disabled={posicao.passo === 0 && posicao.conta === 0}
           aria-label="Voltar"
-          className="grid size-14 place-items-center rounded-3xl bg-cartao text-tinta disabled:opacity-40"
+          className="grid size-14 place-items-center rounded-3xl border border-borda bg-cartao text-tinta disabled:opacity-40"
         >
           <ChevronLeft className="size-6" aria-hidden />
         </button>

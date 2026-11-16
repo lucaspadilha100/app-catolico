@@ -125,7 +125,12 @@ async function paroquias() {
       if (tentativa) await new Promise((ok) => setTimeout(ok, 3000 * tentativa));
       r = await fetchOriginal(`${url}/rest/v1/paroquias?select=*,horarios(*)&order=id&limit=1000&offset=${de}`, { headers: { apikey: chave } }).catch(() => null);
     }
-    if (!r?.ok) throw new Error(`paróquias: a leitura parou em ${de} (${r?.status ?? "sem resposta"}); o deploy anterior continua no ar`);
+    if (!r?.ok) {
+      const motivo = `paróquias: a leitura parou em ${de} (${r?.status ?? "sem resposta"})`;
+      if (process.env.VERCEL) throw new Error(`${motivo}; o deploy anterior continua no ar`);
+      console.warn(`${motivo}; páginas das paróquias fora deste build local`);
+      return 0;
+    }
     const parte = await r.json();
     lista.push(...parte);
     if (parte.length < 1000) break;
