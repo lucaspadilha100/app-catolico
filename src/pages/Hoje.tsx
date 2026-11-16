@@ -34,6 +34,7 @@ import { ehTempoPascal } from "@/oracao/oracoes";
 import { textoDaReferencia } from "@/biblia/texto";
 import { fraseDoEvangelho, imagemDoEvangelho } from "@/liturgia/imagemDoEvangelho";
 import { PedirApoio } from "@/apoio/PedirApoio";
+import { Instalar } from "@/components/Instalar";
 
 const COR_PONTO: Record<CorLiturgica, string> = {
   verde: "bg-[#2e7a4d]",
@@ -246,6 +247,8 @@ export default function Hoje() {
       )}
 
       {missas && <ReflexaoResumo canonica={evangelhoDaMissa(missas[0])} para="/liturgia#reflexao" />}
+
+      <Instalar />
 
       {!simples && <VideosDeHoje dia={paraIso(l.data)} />}
 

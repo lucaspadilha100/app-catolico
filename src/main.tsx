@@ -8,6 +8,9 @@ import App from "./App";
 import "./index.css";
 import { registerSW } from "virtual:pwa-register";
 import { ehNativo } from "@/lib/nativo";
+import { escutarInstalacao } from "@/lib/instalar";
+
+escutarInstalacao();
 
 if (!ehNativo() && "serviceWorker" in navigator) {
   registerSW({

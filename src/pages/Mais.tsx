@@ -8,6 +8,7 @@ import { compartilhar, ehNativo, enderecoPublico } from "@/lib/nativo";
 import { useApoiador } from "@/apoio/api";
 import { useConta } from "@/conta/useConta";
 import { useTemPainel } from "@/pages/Painel";
+import { Instalar } from "@/components/Instalar";
 import { CHAVE_DA_BIBLIA_BAIXADA, EDICAO_DA_BIBLIA, baixarBiblia } from "@/biblia/texto";
 
 function Escolha<T extends string>({
@@ -132,6 +133,8 @@ export default function Mais() {
       <TituloPagina>Mais</TituloPagina>
 
       <div className="flex flex-col gap-6">
+        <Instalar fixo />
+
         <Grupo>
           <ItemLista icone={UserRound} titulo="Conta" detalhe={pronto ? (email ?? "Sem conta") : undefined} para="/conta" />
         </Grupo>

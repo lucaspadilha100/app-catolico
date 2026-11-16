@@ -1,4 +1,5 @@
 import { useEffect, useState, type ReactNode } from "react";
+import { PassosDoIphone } from "@/components/Instalar";
 import { Bell, BellOff, Check } from "lucide-react";
 import { ativar, prepararLembretes, ultimaFalha, atualizar, desativar, ehIphone, instalado, lerGuardado, permitido, suportado, type Lembretes as TipoLembretes } from "@/lembretes/lembretes";
 import { ehNativo } from "@/lib/nativo";
@@ -75,7 +76,7 @@ export default function Lembretes() {
       {!pode || precisaInstalar ? (
         <Cartao className="flex flex-col gap-2">
           <p className="font-medium text-tinta">{precisaInstalar ? "No iPhone, os lembretes chegam com o app na Tela de Início." : "Este navegador não recebe lembretes."}</p>
-          {precisaInstalar && <p className="text-sm text-tinta-suave">Toque em Compartilhar e depois em Adicionar à Tela de Início.</p>}
+          {precisaInstalar && <PassosDoIphone />}
         </Cartao>
       ) : (
         <>

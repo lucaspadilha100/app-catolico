@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useFocoPreso } from "@/lib/useFocoPreso";
-import { Bell, Check, ChevronRight, LocateFixed, Search, Share } from "lucide-react";
+import { PassosDoIphone } from "@/components/Instalar";
+import { Bell, Check, ChevronRight, LocateFixed, Search } from "lucide-react";
 import { usePreferencias, type Letra } from "@/lib/preferencias";
 import { cidadesComParoquias, procurarParoquias, type Cidade } from "@/paroquias/api";
 import type { ParoquiaResumo } from "@/paroquias/tipos";
@@ -84,9 +85,7 @@ function PassoLembrete({ terminar }: { terminar: () => void }) {
       {instalar ? (
         <div className="flex flex-col gap-2 rounded-2xl bg-marca-fundo px-5 py-4 text-tinta">
           <p className="font-medium">No iPhone, os lembretes chegam com o app na Tela de Início.</p>
-          <p>
-            Toque em Compartilhar <Share className="inline size-5 align-text-bottom" aria-hidden /> e depois em Adicionar à Tela de Início.
-          </p>
+          <PassosDoIphone />
         </div>
       ) : estado === "ativo" ? (
         <p className="flex min-h-12 items-center justify-center gap-2 font-semibold text-destaque-texto">

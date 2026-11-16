@@ -28,6 +28,7 @@ export default defineConfig(({ mode }) => ({
         short_name: NOME_DO_APP,
         description: "Liturgia diária, terço, Bíblia e orações. Gratuito e sem anúncios.",
         lang: "pt-BR",
+        id: "/",
         start_url: "/",
         scope: "/",
         display: "standalone",
