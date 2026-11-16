@@ -262,7 +262,7 @@ describe("dados de Natal (planilha do Missas.com.br)", { timeout: 60_000 }, () =
     const notas = await banco.query("select count(*)::int as n from public.notas_paroquia n join public.paroquias p on p.id = n.paroquia_id where p.uf = 'RN'");
     expect(notas.rows[0]).toEqual({ n: 794 });
     const rn = await c("anon", null, "select count(*)::int as igrejas, count(distinct cidade)::int as cidades from public.paroquias where uf = 'RN'");
-    expect(rn.rows[0]).toEqual({ igrejas: 805, cidades: 165 });
+    expect(rn.rows[0]).toEqual({ igrejas: 823, cidades: 165 });
     const caico = await c("anon", null, "select count(*)::int as n from public.buscar_paroquias('catedral sant ana caico')");
     expect(Number(caico.rows[0]!.n)).toBeGreaterThan(0);
     const corrigidas = await banco.query("select cidade from public.paroquias where id = any($1::uuid[]) and nome like 'Igreja de Nossa Senhora d%' order by cidade", [DA_PLANILHA]);
