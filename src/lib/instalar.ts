@@ -27,6 +27,11 @@ export function escutarInstalacao() {
 }
 
 export const navegadorDentroDeApp = () => /Instagram|FBAN|FBAV|FB_IAB|Line\/|TikTok|musical_ly|Twitter/i.test(navigator.userAgent);
+export const iphoneForaDoSafari = () => {
+  if (!ehIphone()) return false;
+  const ua = navigator.userAgent;
+  return !/Version\/[\d.]+.*Safari\//.test(ua) || /CriOS|FxiOS|EdgiOS|OPiOS|OPT\/|GSA\/|YaBrowser|DuckDuckGo|Brave|Instagram|FBAN|FBAV|FB_IAB/.test(ua);
+};
 const ehAndroid = () => /Android/i.test(navigator.userAgent);
 
 export type ModoDeInstalar = "botao" | "iphone" | "abrir-no-navegador" | "android-menu" | null;
@@ -34,8 +39,8 @@ export type ModoDeInstalar = "botao" | "iphone" | "abrir-no-navegador" | "androi
 export function modoDeInstalar(): ModoDeInstalar {
   if (typeof window === "undefined" || ehNativo() || instalado() || acabouDeInstalar) return null;
   if (pedido) return "botao";
-  if (navegadorDentroDeApp()) return "abrir-no-navegador";
   if (ehIphone()) return "iphone";
+  if (navegadorDentroDeApp()) return "abrir-no-navegador";
   if (ehAndroid()) return "android-menu";
   return null;
 }
