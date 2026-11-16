@@ -187,6 +187,7 @@ Legenda: ✅ pronto · 🔨 em andamento · ⬜ a fazer · 👤 precisa do dono
   crédito; quem copiar a lista inteira do app tem de manter a mesma licença)
 - ✅ Horários do Instagram (15/11/2026): Londrina pela planilha do site antigo da arquidiocese (59 paróquias) e as primeiras levas do Claude do navegador do dono (33 paróquias); `scripts/paroquias/importar_instagram.py`
 - ⬜ 👤 Horários pelo Instagram: terminar as 780 que já têm Instagram, depois as capitais (957 sem horário; São Paulo, Rio, BH e Salvador são 70%), depois as maiores cidades de cada estado
+- ✅ Planilha conferida à mão pelo amigo do dono (16/11/2026, `fontes/paroquias/planilha-conferida-2026-11-16/`): 173 igrejas do RN e de Boa Vista cruzadas com o app; a planilha vence nas missas semanais (menos onde a secretaria já conferiu), 30 igrejas novas, pontos de mapa só quando caem na cidade certa (`20261212006500_dados_rn_rr_planilha_conferida.sql`); anotações que não viraram horário em `relatorio.txt`
 - ⬜ 👤 Pente fino do RN (o case do dono): cruzar com a planilha conferida à mão pelo amigo do dono (contatos na Arquidiocese de Natal), relatório de diferenças, o dono decide as dúvidas, migração de correção só do RN, depois o ponto de cada igreja no mapa
 - ⬜ Capelas que o Instagram mostrou e não estão no app (`fontes/paroquias/instagram-relatorio.txt`): cadastrar numa rodada própria
 - ✅ Sem mapa dentro do app (decisão do dono): "Como chegar" abre o app de mapas do celular (Mapas da Apple no iPhone, Google Maps no Android e no computador)
