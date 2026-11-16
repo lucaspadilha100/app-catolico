@@ -5,6 +5,7 @@ import { Blocos } from "@/components/Blocos";
 import { Cabecalho, Carregando, Indisponivel, Voltar, useConteudo } from "@/components/Devocao";
 
 const CAMINHO = "/rezar/oficio-dos-defuntos";
+const DURACAO: Record<string, number> = { vesperas: 10, matinas: 30, laudes: 15 };
 
 export default function OficioDosDefuntos() {
   const conteudo = useConteudo(carregarOficioDosDefuntos, "oficio-dos-defuntos");
@@ -37,7 +38,10 @@ export default function OficioDosDefuntos() {
             >
               <span className="min-w-0 flex-1">
                 <span className="block text-[1.0625rem] font-semibold text-tinta">{h.nome}</span>
-                <span className="block text-sm italic text-tinta-suave">{h.latim}</span>
+                <span className="block text-sm text-tinta-suave">
+                  <span className="italic">{h.latim}</span>
+                  {DURACAO[h.id] ? <span className="whitespace-nowrap"> · {DURACAO[h.id]} min</span> : null}
+                </span>
               </span>
               <ChevronRight className="size-5 shrink-0 text-tinta-suave" aria-hidden />
             </Link>

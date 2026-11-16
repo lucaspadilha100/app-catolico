@@ -18,6 +18,8 @@ const LIMITES: [number, string][] = [
   [24, "completas"],
 ];
 
+const DURACAO: Record<string, number> = { matinas: 15, laudes: 15, prima: 5, terca: 5, sexta: 5, noa: 5, vesperas: 10, completas: 10 };
+
 const horaDeAgora = () => LIMITES.find(([h]) => new Date().getHours() < h)![1];
 
 const comTempo = (subtitulo: string, hora: string) => {
@@ -59,7 +61,10 @@ export default function Oficio() {
             >
               <span className="min-w-0 flex-1">
                 <span className="block text-[1.0625rem] font-semibold text-tinta">{h.nome}</span>
-                <span className="block text-sm italic text-tinta-suave">{h.latim}</span>
+                <span className="block text-sm text-tinta-suave">
+                  <span className="italic">{h.latim}</span>
+                  {DURACAO[h.id] ? <span className="whitespace-nowrap"> · {DURACAO[h.id]} min</span> : null}
+                </span>
               </span>
               {h.id === agora && <span className="text-xs font-semibold uppercase tracking-wide text-destaque-texto">Agora</span>}
               <ChevronRight className="size-5 shrink-0 text-tinta-suave" aria-hidden />

@@ -1,12 +1,14 @@
 import { useEffect, useState } from "react";
 import { useFocoPreso } from "@/lib/useFocoPreso";
-import { Check, ChevronRight, LocateFixed, Search } from "lucide-react";
+import { Bell, Check, ChevronRight, LocateFixed, Search, Share } from "lucide-react";
 import { usePreferencias, type Letra } from "@/lib/preferencias";
 import { cidadesComParoquias, procurarParoquias, type Cidade } from "@/paroquias/api";
 import type { ParoquiaResumo } from "@/paroquias/tipos";
 import { useLocal } from "@/paroquias/useLocal";
 import { LISTA } from "@/components/Cartao";
 import { NOME_DO_APP } from "@/marca";
+import { ehNativo } from "@/lib/nativo";
+import { ativar, ehIphone, instalado, lerGuardado, permitido, suportado } from "@/lembretes/lembretes";
 
 const BOTAO = "flex min-h-14 w-full items-center justify-center gap-2 rounded-2xl bg-primario px-5 text-lg font-semibold text-sobre-primario disabled:opacity-50";
 const CAMPO = "flex min-h-12 items-center gap-2 rounded-xl border border-borda bg-cartao px-3 focus-within:border-destaque-texto";
@@ -36,9 +38,77 @@ function PassoLetra({ seguir }: { seguir: () => void }) {
           </button>
         ))}
       </div>
+      <button
+        type="button"
+        role="switch"
+        aria-checked={preferencias.simples}
+        onClick={() => mudar({ simples: !preferencias.simples })}
+        className={`flex min-h-16 items-center gap-3 rounded-2xl border px-5 text-left ${preferencias.simples ? "border-destaque-texto bg-marca-fundo" : "border-borda bg-cartao"}`}
+      >
+        <span className="min-w-0 flex-1 text-lg font-semibold text-tinta">Modo simples</span>
+        <span className={`relative h-7 w-12 shrink-0 rounded-full transition-colors ${preferencias.simples ? "bg-destaque" : "bg-borda"}`}>
+          <span className={`absolute top-1 size-5 rounded-full bg-white shadow transition-all ${preferencias.simples ? "left-6" : "left-1"}`} />
+        </span>
+      </button>
       <button type="button" onClick={seguir} className={BOTAO}>
         Continuar <ChevronRight className="size-6" aria-hidden />
       </button>
+    </>
+  );
+}
+
+const precisaInstalar = () => !ehNativo() && ehIphone() && !instalado();
+
+const temPassoDoLembrete = () => !(lerGuardado().ativo && permitido()) && (ehNativo() || suportado() || precisaInstalar());
+
+function PassoLembrete({ terminar }: { terminar: () => void }) {
+  const [estado, setEstado] = useState<"" | "ativando" | "ativo" | "negado" | "erro">("");
+  const instalar = precisaInstalar();
+
+  async function ligar() {
+    setEstado("ativando");
+    setEstado(await ativar({ evangelho: "07:00" }));
+  }
+
+  return (
+    <>
+      <h2 className="text-3xl font-extrabold text-marca tracking-[-0.02em]">Lembrete</h2>
+      <div className="flex min-h-16 items-center gap-3 rounded-2xl border border-borda bg-cartao px-5 py-3">
+        <Bell className="size-6 shrink-0 text-destaque-texto" aria-hidden />
+        <span className="min-w-0 flex-1">
+          <span className="block text-lg font-semibold text-tinta">Evangelho do dia</span>
+          <span className="block text-tinta-suave">Todos os dias às 7h</span>
+        </span>
+      </div>
+      {instalar ? (
+        <div className="flex flex-col gap-2 rounded-2xl bg-marca-fundo px-5 py-4 text-tinta">
+          <p className="font-medium">No iPhone, os lembretes chegam com o app na Tela de Início.</p>
+          <p>
+            Toque em Compartilhar <Share className="inline size-5 align-text-bottom" aria-hidden /> e depois em Adicionar à Tela de Início.
+          </p>
+        </div>
+      ) : estado === "ativo" ? (
+        <p className="flex min-h-12 items-center justify-center gap-2 font-semibold text-destaque-texto">
+          <Check className="size-5" aria-hidden /> Lembrete ligado
+        </p>
+      ) : (
+        <>
+          {estado === "negado" && <p className="text-center text-sm text-tinta-suave">As notificações estão bloqueadas para este app nos ajustes do aparelho.</p>}
+          {estado === "erro" && <p className="text-center text-sm font-medium text-[#a9271f]">Não foi possível ligar agora. Tente de novo.</p>}
+          <button type="button" onClick={() => void ligar()} disabled={estado === "ativando"} className={BOTAO}>
+            <Bell className="size-5" aria-hidden /> {estado === "ativando" ? "Ligando" : "Ligar o lembrete"}
+          </button>
+        </>
+      )}
+      {instalar || estado === "ativo" ? (
+        <button type="button" onClick={terminar} className={BOTAO}>
+          Começar <ChevronRight className="size-6" aria-hidden />
+        </button>
+      ) : (
+        <button type="button" onClick={terminar} className="min-h-12 font-medium text-tinta-suave">
+          Pular
+        </button>
+      )}
     </>
   );
 }
@@ -175,6 +245,8 @@ export function BoasVindas() {
   const { preferencias, mudar } = usePreferencias();
   const [passo, setPasso] = useState(0);
   const [onde, setOnde] = useState<Cidade | "perto" | null>(null);
+  const [comLembrete] = useState(temPassoDoLembrete);
+  const passos = comLembrete ? 4 : 3;
   const caixa = useFocoPreso<HTMLDivElement>();
   if (preferencias.boasVindas) return null;
   const terminar = () => mudar({ boasVindas: true });
@@ -188,8 +260,8 @@ export function BoasVindas() {
             Pular tudo
           </button>
         </div>
-        <div className="flex gap-1.5" aria-label={`Passo ${passo + 1} de 3`}>
-          {[0, 1, 2].map((i) => (
+        <div className="flex gap-1.5" aria-label={`Passo ${passo + 1} de ${passos}`}>
+          {Array.from({ length: passos }, (_, i) => (
             <span key={i} className={`h-1.5 flex-1 rounded-full ${i <= passo ? "bg-destaque" : "bg-marca-fundo"}`} />
           ))}
         </div>
@@ -203,7 +275,8 @@ export function BoasVindas() {
             }}
           />
         )}
-        {passo === 2 && <PassoParoquia onde={onde} terminar={terminar} />}
+        {passo === 2 && <PassoParoquia onde={onde} terminar={comLembrete ? () => setPasso(3) : terminar} />}
+        {passo === 3 && <PassoLembrete terminar={terminar} />}
       </div>
     </div>
   );

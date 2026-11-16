@@ -134,7 +134,6 @@ export default function Mais() {
       <div className="flex flex-col gap-6">
         <Grupo>
           <ItemLista icone={UserRound} titulo="Conta" detalhe={pronto ? (email ?? "Sem conta") : undefined} para="/conta" />
-          {temPainel && <ItemLista icone={LayoutDashboard} titulo="Painel" para="/painel" />}
         </Grupo>
 
         <Grupo titulo="Conhecer">
@@ -147,10 +146,14 @@ export default function Mais() {
         <Grupo titulo="Para você">
           <ItemLista icone={Bell} titulo="Lembretes" detalhe="Evangelho, Ângelus, terço, novena" para="/lembretes" />
           <ItemLista icone={NotebookPen} titulo="Diário espiritual" detalhe="Diário e propósitos" para="/diario" />
-          <ItemLista icone={Clock} titulo="Relógio de oração" detalhe="Cada um reza num horário" para="/correntes" />
+          <ItemLista icone={Image} titulo="Santinhos e convites" detalhe="Batismo, comunhão, crisma, casamento" para="/santinhos" />
+        </Grupo>
+
+        <Grupo titulo="Para paróquias e grupos">
           <ItemLista icone={CalendarClock} titulo="Escalas" detalhe="Leitores, ministros, coroinhas, canto" para="/escalas" />
           <ItemLista icone={ListMusic} titulo="Roteiros de oração" detalhe="Terço com cantos, meditações e ao vivo" para="/roteiros" />
-          <ItemLista icone={Image} titulo="Santinhos e convites" detalhe="Batismo, comunhão, crisma, casamento" para="/santinhos" />
+          <ItemLista icone={Clock} titulo="Relógio de oração" detalhe="Cada um reza num horário" para="/correntes" />
+          {temPainel && <ItemLista icone={LayoutDashboard} titulo="Painel" para="/painel" />}
         </Grupo>
 
         <section>

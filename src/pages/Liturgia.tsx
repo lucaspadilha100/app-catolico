@@ -14,7 +14,6 @@ import { textoDaReferencia } from "@/biblia/texto";
 import { livroPorCodigo } from "@/biblia/livros";
 import { BotaoEnviar } from "@/components/BotaoEnviar";
 import { textoDaLeituraParaEnviar } from "@/liturgia/enviar";
-import { PedirApoio } from "@/apoio/PedirApoio";
 
 const ANUNCIO: Partial<Record<Leitura["tipo"], string>> = { primeira: "Primeira leitura", salmo: "Salmo responsorial", segunda: "Segunda leitura", evangelho: "Evangelho" };
 
@@ -226,7 +225,6 @@ export default function Liturgia() {
           )}
         </>
       )}
-      <PedirApoio />
     </div>
   );
 }

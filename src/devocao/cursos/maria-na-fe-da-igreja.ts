@@ -30,10 +30,10 @@ const conteudo: ConteudoDoDesafio = {
           texto:
             "Os textos sobre Maria são poucos, mas estão nos momentos decisivos: a encarnação, o nascimento, o primeiro milagre, a cruz e o nascimento da Igreja.",
         },
-        { ir: "/rezar/oracoes/angelus", rotulo: "Angelus" },
+        { ir: "/rezar/oracoes/angelus", rotulo: "Ângelus" },
         {
           pratica:
-            "Reze nesta semana o Angelus uma vez por dia, de preferência ao meio-dia. Em cada vez, lembre um dos momentos da vida de Maria que você leu nesta lição.",
+            "Reze nesta semana o Ângelus uma vez por dia, de preferência ao meio-dia. Em cada vez, lembre um dos momentos da vida de Maria que você leu nesta lição.",
         },
       ],
     },

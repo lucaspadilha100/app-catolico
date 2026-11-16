@@ -11,7 +11,6 @@ import { pascoa } from "@/liturgia/calendario";
 import { diferencaEmDias } from "@/liturgia/datas";
 import { NovenasDoMes } from "@/components/NovenasDoMes";
 import { caminhoDeDevocao, useImagensDeDevocao } from "@/lib/imagens";
-import { PedirApoio } from "@/apoio/PedirApoio";
 
 const CHAVE_DO_CAMINHO: Record<string, string> = {
   "/rezar/agora": "rezar:evangelho",
@@ -60,9 +59,9 @@ export default function Rezar() {
   const ano = diferencaEmDias(pascoa(l.data.getUTCFullYear()), l.data) >= 0 ? l.data.getUTCFullYear() : l.data.getUTCFullYear() + 1;
   const semana = diasDeOracaoNaSemana(l.data);
   const agora = [
-    { para: "/rezar/terco", titulo: "Terço", detalhe: misteriosDoDia(l.data).nome, imagem: "rosario", alt: "Virgem do Rosário, de Murillo", foco: "50% 22%" },
-    { para: "/rezar/agora?m=angelus", titulo: "Angelus", detalhe: "Às 6h, 12h e 18h", imagem: "anunciacao", alt: "Anunciação, de Fra Angelico", foco: "72% 50%" },
-    { para: "/rezar/agora?m=noite", titulo: "Oração da noite", detalhe: "Com voz", imagem: "pai-nosso", alt: "O Pai-Nosso, de James Tissot", foco: "50% 35%" },
+    { para: "/rezar/terco", titulo: "Terço", detalhe: `${misteriosDoDia(l.data).nome} · 20 min`, imagem: "rosario", alt: "Virgem do Rosário, de Murillo", foco: "50% 22%" },
+    { para: "/rezar/agora?m=angelus", titulo: "Ângelus", detalhe: "Às 6h, 12h e 18h · 2 min", imagem: "anunciacao", alt: "Anunciação, de Fra Angelico", foco: "72% 50%" },
+    { para: "/rezar/agora?m=noite", titulo: "Oração da noite", detalhe: "Com voz · 2 min", imagem: "pai-nosso", alt: "O Pai-Nosso, de James Tissot", foco: "50% 35%" },
   ];
 
   return (
@@ -96,7 +95,7 @@ export default function Rezar() {
         )}
         <Grupo titulo="Todos os dias">
           <ItemLista icone={AudioLines} titulo="Rezar agora, com voz" detalhe="O celular conduz em voz alta" para="/rezar/agora" {...foto("/rezar/agora")} />
-          <ItemLista icone={CircleDot} titulo="Terço" detalhe={`Hoje: ${misteriosDoDia(l.data).nome}`} para="/rezar/terco" {...foto("/rezar/terco")} />
+          <ItemLista icone={CircleDot} titulo="Terço" detalhe={`Hoje: ${misteriosDoDia(l.data).nome} · 20 min`} para="/rezar/terco" {...foto("/rezar/terco")} />
           <ItemLista icone={Users} titulo="Terço da Juventude" detalhe="Encontros perto de você" para="/tercos" {...foto("/tercos")} />
           <ItemLista icone={HandHeart} titulo="Orações" detalhe="Em português e latim" para="/rezar/oracoes" {...foto("/rezar/oracoes")} />
           <ItemLista icone={ScrollText} titulo="Ladainhas" para="/rezar/ladainhas" {...foto("/rezar/ladainhas")} />
@@ -106,10 +105,10 @@ export default function Rezar() {
         <Grupo titulo="Devoções">
           <ItemLista icone={ListOrdered} titulo="Novenas" detalhe={novena ? `${novena.titulo}: ${novena.detalhe.toLowerCase()}` : undefined} para="/rezar/novenas" {...foto("/rezar/novenas")} />
           <ItemLista icone={Sprout} titulo="Tempos e meses" detalhe={desafio ? `${desafio.titulo}: ${desafio.detalhe.toLowerCase()}` : undefined} para="/rezar/desafios" {...foto("/rezar/desafios")} />
-          <ItemLista icone={Flame} titulo="Terço da Misericórdia" para="/rezar/misericordia" {...foto("/rezar/misericordia")} />
-          <ItemLista icone={Shield} titulo="Terço de São Miguel" para="/rezar/sao-miguel" {...foto("/rezar/sao-miguel")} />
+          <ItemLista icone={Flame} titulo="Terço da Misericórdia" detalhe="10 min" para="/rezar/misericordia" {...foto("/rezar/misericordia")} />
+          <ItemLista icone={Shield} titulo="Terço de São Miguel" detalhe="15 min" para="/rezar/sao-miguel" {...foto("/rezar/sao-miguel")} />
           <ItemLista icone={Crown} titulo="Consagração a Nossa Senhora" detalhe={consagracao?.detalhe ?? "Em 33 dias"} para="/rezar/consagracao" {...foto("/rezar/consagracao")} />
-          <ItemLista icone={Footprints} titulo="Via-Sacra" para="/rezar/via-sacra" {...foto("/rezar/via-sacra")} />
+          <ItemLista icone={Footprints} titulo="Via-Sacra" detalhe="30 min" para="/rezar/via-sacra" {...foto("/rezar/via-sacra")} />
           <ItemLista
             icone={CalendarHeart}
             titulo="Semana Santa"
@@ -122,13 +121,12 @@ export default function Rezar() {
           <ItemLista icone={UsersRound} titulo="Grupos" detalhe="Família, grupo de oração, pastoral" para="/grupos" {...foto("/grupos")} />
         </Grupo>
         <Grupo titulo="Vida cristã">
-          <ItemLista icone={Cross} titulo="Exame de consciência" para="/rezar/exame" {...foto("/rezar/exame")} />
+          <ItemLista icone={Cross} titulo="Exame de consciência" detalhe="10 min" para="/rezar/exame" {...foto("/rezar/exame")} />
           <ItemLista icone={HeartHandshake} titulo="Como se confessar" para="/rezar/confissao" {...foto("/rezar/confissao")} />
           <ItemLista icone={Church} titulo="A Missa, parte por parte" para="/rezar/missa" {...foto("/rezar/missa")} />
           <ItemLista icone={BookHeart} titulo="Pelos falecidos" para="/rezar/falecidos" {...foto("/rezar/falecidos")} />
         </Grupo>
       </div>
-      <PedirApoio className="mt-6" />
     </div>
   );
 }

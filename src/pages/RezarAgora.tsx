@@ -14,7 +14,6 @@ import { RezandoJuntos } from "@/components/RezandoJuntos";
 import { AvisoDaVoz } from "@/components/Ouvir";
 import { Cabecalho, Carregando, Voltar } from "@/components/Devocao";
 import type { DiaLiturgico } from "@/liturgia/calendario";
-import { PedirApoio } from "@/apoio/PedirApoio";
 
 const MOMENTOS: Momento[] = ["evangelho", "angelus", "misericordia", "terco", "noite"];
 
@@ -147,7 +146,6 @@ export default function RezarAgora() {
           <button type="button" onClick={() => void tocar(0)} className="min-h-12 rounded-xl border border-borda px-6 font-semibold text-tinta">
             Rezar de novo
           </button>
-          <PedirApoio className="w-full" />
         </div>
       ) : (
         atual && (

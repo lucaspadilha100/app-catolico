@@ -13,7 +13,6 @@ import { BotaoRezei, Cabecalho, Carregando, EscolhaDeDia, Indisponivel, Voltar, 
 import { NaoEncontrada } from "@/pages/Simples";
 import { caminhoDeDevocao, useImagensDeDevocao } from "@/lib/imagens";
 import { ImagemComCredito } from "@/components/ImagemComCredito";
-import { PedirApoio } from "@/apoio/PedirApoio";
 import { CartaoDeApoio, useMomentoDeApoio } from "@/apoio/MomentoDeApoio";
 
 const GRUPOS: GrupoDeNovenas[] = ["nossa-senhora", "senhor", "santos"];
@@ -160,7 +159,6 @@ function Novena({ n }: { n: Novena }) {
               {concluida ? "Rezar de novo" : "Recomeçar"}
             </button>
           )}
-          {!apoio.visivel && <PedirApoio />}
         </>
       )}
     </div>
