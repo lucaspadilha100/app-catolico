@@ -1,10 +1,10 @@
 import { useMemo, useState } from "react";
+import { BOTAO } from "@/components/Botao";
 import { Check, Copy } from "lucide-react";
 import { renderSVG } from "uqr";
 import { codigoPix } from "@/paroquias/pix";
 
 const CAMPO = "min-h-12 w-full rounded-xl border border-borda bg-papel px-3 text-base text-tinta outline-none focus:border-destaque-texto";
-const BOTAO = "flex min-h-12 items-center justify-center gap-2 rounded-xl bg-primario px-4 font-semibold text-sobre-primario disabled:opacity-50";
 
 const real = (n: number) => n.toLocaleString("pt-BR", { style: "currency", currency: "BRL", maximumFractionDigits: 0 });
 

@@ -3,6 +3,7 @@ import { createPortal } from "react-dom";
 import { Link } from "react-router-dom";
 import { Pause, Play, Square, Volume2 } from "lucide-react";
 import { calar, falar, vozDisponivel } from "@/voz/voz";
+import { useFecharComVoltar } from "@/lib/useFecharComVoltar";
 import { ehNativo } from "@/lib/nativo";
 import { ehApoiador, usePreferencias } from "@/lib/preferencias";
 
@@ -140,6 +141,7 @@ export function TocadorDeVoz({ titulo, partes, aoFechar }: { titulo: string; par
 
 export function BotaoOuvir({ titulo, partes, className = "", compacto = false }: { titulo: string; partes: () => Promise<string[]>; className?: string; compacto?: boolean }) {
   const [aberto, setAberto] = useState(false);
+  useFecharComVoltar(aberto, () => setAberto(false), false);
   if (!vozDisponivel()) return null;
   return (
     <>

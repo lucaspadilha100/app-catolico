@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
+import { useLembrado } from "@/lib/useLembrado";
 import { Link, useParams, useSearchParams } from "react-router-dom";
 import { Check, ChevronRight, Heart, Search, Share2, UserRound } from "lucide-react";
 import { diaEMes, dia, hoje, paraIso } from "@/liturgia/datas";
@@ -72,7 +73,7 @@ export function ItemDeSanto({ s }: { s: SantoDoIndice }) {
 }
 
 function Lista({ titulo, santos }: { titulo?: string; santos: SantoDoIndice[] }) {
-  const [limite, setLimite] = useState(POR_VEZ);
+  const [limite, setLimite] = useLembrado(`santos-${titulo ?? ""}`, POR_VEZ);
   if (!santos.length) return null;
   return (
     <section className="flex flex-col gap-3">

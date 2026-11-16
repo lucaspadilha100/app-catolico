@@ -1,9 +1,10 @@
 import { useEffect, useMemo, useRef, useState, type FormEvent, type ReactNode } from "react";
+import { useLembrado } from "@/lib/useLembrado";
 import { avisar } from "@/lib/acao";
 import { Link, useLocation, useParams, useSearchParams } from "react-router-dom";
 import { AtSign, BadgeCheck, Bell, Check, ChevronDown, ChevronRight, Church, Clock, Globe, Heart, LocateFixed, Mail, MapPin, MessageCircle, Navigation, Pencil, Phone, Plus, Search, Share2 } from "lucide-react";
 import { paroquiasFavoritas, usePreferencias } from "@/lib/preferencias";
-import { useConta } from "@/conta/useConta";
+import { useConta, entrarDaqui } from "@/conta/useConta";
 import { agendaDeEventos, agendaDeHorarios, carregarParoquia, cidadesComParoquias, enviarSugestao, igrejasComHorarios, procurarParoquias, type Cidade, type Local, type ParoquiaCompleta } from "@/paroquias/api";
 import {
   agoraLocal,
@@ -165,12 +166,13 @@ interface Paginas<T> {
   estado: "carregando" | "pronto" | "erro" | "mais";
 }
 
-function usePaginas<T>(chave: string | null, tamanho: number, carregar: (pular: number) => Promise<T[]>) {
+function usePaginas<T>(nome: string, chave: string | null, tamanho: number, carregar: (pular: number) => Promise<T[]>) {
   const ref = useRef(carregar);
   ref.current = carregar;
-  const [p, setP] = useState<Paginas<T>>({ chave: null, itens: [], total: null, ultima: 0, estado: "carregando" });
+  const [p, setP] = useLembrado<Paginas<T>>(`paginas-${nome}`, { chave: null, itens: [], total: null, ultima: 0, estado: "carregando" });
   useEffect(() => {
     if (chave === null) return;
+    if (p.chave === chave && p.estado === "pronto") return;
     let ativo = true;
     setP({ chave, itens: [], total: null, ultima: 0, estado: "carregando" });
     ref
@@ -523,20 +525,20 @@ export function Missas() {
   const chave = consulta ? JSON.stringify(consulta) : null;
   const vazioJa = async <T,>(): Promise<T[]> => [];
 
-  const tercos = usePaginas<ItemDaAgenda>(ehTerco ? chave : null, 30, (pular) =>
+  const tercos = usePaginas<ItemDaAgenda>("tercos", ehTerco ? chave : null, 30, (pular) =>
     consulta && !consulta.passou
       ? agendaDeTercos(consulta, pular, 30).then((r) => r.map((x) => ({ paroquia_id: x.terco_id, nome: x.nome, bairro: x.bairro, cidade: x.cidade, distancia_km: x.distancia_km, quando: x.quando, ate: null, observacao: x.observacao, total: x.total })))
       : vazioJa(),
   );
-  const eventos = usePaginas<ItemDaAgenda>(ehEvento ? chave : null, 30, (pular) => (consulta && !consulta.passou ? agendaDeEventos(consulta, pular, 30) : vazioJa()));
-  const agenda = usePaginas<ItemDaAgenda>(!ehTerco && !ehEvento && ordem === "horario" ? chave : null, 30, (pular) =>
+  const eventos = usePaginas<ItemDaAgenda>("eventos", ehEvento ? chave : null, 30, (pular) => (consulta && !consulta.passou ? agendaDeEventos(consulta, pular, 30) : vazioJa()));
+  const agenda = usePaginas<ItemDaAgenda>("agenda", !ehTerco && !ehEvento && ordem === "horario" ? chave : null, 30, (pular) =>
     consulta && !consulta.passou ? agendaDeHorarios(consulta, pular, 30) : vazioJa(),
   );
-  const igrejas = usePaginas<IgrejaComHorarios>(!ehTerco && !ehEvento && ordem === "igreja" ? chave : null, 20, (pular) =>
+  const igrejas = usePaginas<IgrejaComHorarios>("igrejas", !ehTerco && !ehEvento && ordem === "igreja" ? chave : null, 20, (pular) =>
     consulta && !consulta.passou ? igrejasComHorarios(consulta, pular, 20) : vazioJa(),
   );
   const t = termo.trim();
-  const achadas = usePaginas<ParoquiaResumo>(t.length >= 2 ? `${t}|${local?.lat}|${local?.lng}` : null, 20, (pular) =>
+  const achadas = usePaginas<ParoquiaResumo>("achadas", t.length >= 2 ? `${t}|${local?.lat}|${local?.lng}` : null, 20, (pular) =>
     procurarParoquias({ termo: t, local, raioKm: 5000, limite: 20, pular }),
   );
 
@@ -1169,7 +1171,7 @@ export function Sugerir() {
       ) : !email ? (
         <Cartao>
           <p className="text-tinta">Para sugerir, entre na sua conta.</p>
-          <Link to="/conta" className="mt-4 flex min-h-12 items-center justify-center rounded-xl bg-primario font-semibold text-sobre-primario">
+          <Link to={entrarDaqui()} className="mt-4 flex min-h-12 items-center justify-center rounded-xl bg-primario font-semibold text-sobre-primario">
             Entrar
           </Link>
         </Cartao>

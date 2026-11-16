@@ -5,7 +5,9 @@ import { NOME_DO_MOMENTO, momentoDaHora } from "@/voz/falas";
 import { useDevocoesGuardadas } from "@/devocao/progresso";
 import { diaLiturgico } from "@/liturgia/calendario";
 import { somaDias, diaDaSemana, paraIso } from "@/liturgia/datas";
-import { useEffect, useState } from "react";
+import { useEffect, useState, type ReactNode } from "react";
+import { useFocoPreso } from "@/lib/useFocoPreso";
+import { useFecharComVoltar } from "@/lib/useFecharComVoltar";
 import { santosDaDataMMDD, santosParaConhecer, seloDoSanto } from "@/santos/santos";
 import { FotoDoSanto } from "@/santos/FotoDoSanto";
 import type { Santo, SantoDoIndice } from "@/santos/tipos";
@@ -403,14 +405,7 @@ export default function Hoje() {
       <PedirApoio />
 
       {compartilhando && (
-        <div className="fixed inset-0 z-30" onClick={() => !gerando && setCompartilhando(false)}>
-          <div className="absolute inset-0 bg-black/40" aria-hidden />
-          <div
-            role="dialog"
-            aria-label="Compartilhar o Evangelho"
-            onClick={(e) => e.stopPropagation()}
-            className="absolute inset-x-0 bottom-0 mx-auto flex max-w-xl flex-col gap-1 rounded-t-3xl bg-papel p-3 pb-[calc(0.75rem+env(safe-area-inset-bottom))]"
-          >
+        <Folha fechar={() => !gerando && setCompartilhando(false)}>
             <button
               type="button"
               onClick={() => {
@@ -445,9 +440,28 @@ export default function Hoje() {
               <Image className="size-5 shrink-0 text-destaque-texto" aria-hidden />
               {gerando ? "Gerando a imagem" : "Imagem para o Stories"}
             </button>
-          </div>
-        </div>
+        </Folha>
       )}
+    </div>
+  );
+}
+
+function Folha({ fechar, children }: { fechar: () => void; children: ReactNode }) {
+  const caixa = useFocoPreso<HTMLDivElement>();
+  useFecharComVoltar(true, fechar);
+  return (
+    <div className="fixed inset-0 z-30" onClick={fechar}>
+      <div className="absolute inset-0 bg-black/40" aria-hidden />
+      <div
+        ref={caixa}
+        role="dialog"
+        aria-modal="true"
+        aria-label="Compartilhar o Evangelho"
+        onClick={(e) => e.stopPropagation()}
+        className="absolute inset-x-0 bottom-0 mx-auto flex max-w-xl flex-col gap-1 rounded-t-3xl bg-papel p-3 pb-[calc(0.75rem+env(safe-area-inset-bottom))]"
+      >
+        {children}
+      </div>
     </div>
   );
 }

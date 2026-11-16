@@ -1,4 +1,6 @@
 import { useEffect, useState, type FormEvent } from "react";
+import { entrarDaqui } from "@/conta/useConta";
+import { BOTAO, BOTAO_CLARO } from "@/components/Botao";
 import { Link, useSearchParams } from "react-router-dom";
 import { ClipboardList, HandHeart } from "lucide-react";
 import type { Paroquia } from "@/paroquias/tipos";
@@ -10,8 +12,6 @@ import { ENDERECO_DO_SITE } from "@/marca";
 import { Cartao } from "@/components/Cartao";
 
 const CAMPO = "min-h-12 w-full rounded-xl border border-borda bg-papel px-3 text-base text-tinta outline-none focus:border-destaque-texto";
-const BOTAO = "flex min-h-12 items-center justify-center gap-2 rounded-xl bg-primario px-4 font-semibold text-sobre-primario disabled:opacity-50";
-const BOTAO_CLARO = "flex min-h-12 items-center justify-center gap-2 rounded-xl border border-borda bg-cartao px-4 font-semibold text-tinta";
 const TITULO = "px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto";
 
 export const NOME_DA_SITUACAO: Record<SituacaoDaInscricao, string> = { recebida: "Recebida", confirmada: "Confirmada", cancelada: "Cancelada" };
@@ -145,7 +145,7 @@ export function Inscricoes({ paroquia, email }: { paroquia: string; email: strin
             </div>
             {t.descricao && <p className="whitespace-pre-line text-tinta">{t.descricao}</p>}
             {lotada ? null : !email ? (
-              <Link to="/conta" className={BOTAO_CLARO}>
+              <Link to={entrarDaqui()} className={BOTAO_CLARO}>
                 Entrar para se inscrever
               </Link>
             ) : aberta === t.id ? (

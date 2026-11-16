@@ -42,11 +42,7 @@ Legenda: ✅ pronto · 🔨 em andamento · ⬜ a fazer · 👤 precisa do dono
 
 ### Varredura de 16/11/2026: o que falta para nota 9
 Corrigido nesta varredura: Rezar agora com texto para ler e voz só no botão; widget que prendia na Liturgia; voz nativa que travava em "Pausar"; cancelar o compartilhar abria o WhatsApp; apagar o cofre não chegava ao servidor; terço e Rezar agora trocavam na virada da hora; tocador cobrindo o fim da página; alvos de 40 px; contraste do verde e do dourado; Voltar do terço, Via-Sacra e Ofício; aba acesa nas telas internas; data inválida na Liturgia.
-1. Voltar do celular fecha o que está aberto por cima (folha de compartilhar, barra do versículo, Contas do terço, tocador) antes de sair da tela: pôr cada um no histórico, como o seletor da Bíblia.
-2. "Mostrar mais" lembrado ao voltar (Santos, Missas, busca da Bíblia, intenções) e rolagem ancorada no item, não no número de pixels.
-3. Uma tela de erro de conexão única, com "Tentar de novo" (terço, grupo, roteiro, corrente, turma, escala).
-4. Um componente de botão (primário e claro) no lugar das 12 cópias de BOTAO; chip selecionado sempre na mesma cor.
-5. Entrar com Google voltando ao convite de onde a pessoa veio (`?depois=`).
+Feito em 16/11/2026: Voltar do celular fecha o que está aberto por cima (`useFecharComVoltar`); "Mostrar mais" e rolagem lembrados (`useLembrado`, `Rolagem`); tela de erro com "Tentar de novo" (`Indisponivel`); botão padrão (`components/Botao.ts`); entrar volta ao convite (`?depois=`); Avançar do terço fixo.
 6. Um só tocador de voz (`useVoz`) para Ouvir e Rezar agora; no iPhone, a primeira fala no próprio toque.
 7. Um só leitor/gravador do localStorage (hoje são ~15 cópias).
 8. Título da guia por tela (leitor de tela e histórico do navegador).

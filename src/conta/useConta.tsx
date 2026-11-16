@@ -42,7 +42,17 @@ export function traduzir(mensagem: string): string {
   return "Não foi possível agora. Tente de novo em alguns minutos.";
 }
 
-const voltarPara = () => `${window.location.origin}/conta`;
+export const destinoDepois = (busca = window.location.search) => {
+  const d = new URLSearchParams(busca).get("depois");
+  return d && d.startsWith("/") && !d.startsWith("//") ? d : null;
+};
+
+export const entrarDaqui = () => `/conta?depois=${encodeURIComponent(window.location.pathname + window.location.search)}`;
+
+const voltarPara = () => {
+  const d = destinoDepois();
+  return `${window.location.origin}/conta${d ? `?depois=${encodeURIComponent(d)}` : ""}`;
+};
 
 export function ContaProvider({ children }: { children: ReactNode }) {
   const [cliente, setCliente] = useState<SupabaseClient | null>(null);

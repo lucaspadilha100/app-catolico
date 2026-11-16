@@ -1,10 +1,9 @@
 import { useEffect, useState } from "react";
+import { BOTAO, BOTAO_CLARO } from "@/components/Botao";
 import { Check, Plus } from "lucide-react";
 import { NOME_DA_ORACAO_DA_CAMPANHA, campanhaDoMomento, somarNaCampanha, type Campanha } from "@/comunidade/api";
 import { Cartao } from "@/components/Cartao";
 
-const BOTAO = "flex min-h-12 items-center justify-center gap-2 rounded-xl bg-primario px-4 font-semibold text-sobre-primario disabled:opacity-50";
-const SECUNDARIO = "flex min-h-12 items-center justify-center gap-2 rounded-xl border border-borda bg-cartao px-4 font-semibold text-tinta";
 
 export function CartaoDaCampanha() {
   const [c, setC] = useState<Campanha | null>(null);
@@ -42,7 +41,7 @@ export function CartaoDaCampanha() {
         {c.contagem.toLocaleString("pt-BR")} de {c.meta.toLocaleString("pt-BR")} {varios}
       </p>
       {hoje < 10 && (
-        <button type="button" onClick={() => void somar()} disabled={somado} className={somado ? SECUNDARIO : BOTAO}>
+        <button type="button" onClick={() => void somar()} disabled={somado} className={somado ? BOTAO_CLARO : BOTAO}>
           {somado ? <Check className="size-5" aria-hidden /> : <Plus className="size-5" aria-hidden />}
           {somado ? "Somado" : `Rezei um ${um}`}
         </button>

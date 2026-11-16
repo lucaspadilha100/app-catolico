@@ -1,7 +1,8 @@
 import { useCallback, useEffect, useMemo, useState, type FormEvent, type ReactNode } from "react";
+import { BOTAO, BOTAO_CLARO } from "@/components/Botao";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import { CalendarPlus, ChevronRight, Clock, Plus, Share2 } from "lucide-react";
-import { useConta } from "@/conta/useConta";
+import { useConta, entrarDaqui } from "@/conta/useConta";
 import { Cartao } from "@/components/Cartao";
 import { Cabecalho, Carregando, Indisponivel, Voltar } from "@/components/Devocao";
 import { executar } from "@/lib/acao";
@@ -11,8 +12,6 @@ import { NOME_DO_DIA } from "@/paroquias/horarios";
 import { correntePorCodigo, criarCorrente, encerrarCorrente, eventoDaAgenda, horariosDaCorrente, minhasCorrentes, pegarTurno, soltarTurno, turnoGuardado, type Corrente } from "@/correntes/api";
 
 const CAMPO = "min-h-12 w-full min-w-0 rounded-xl border border-borda bg-papel px-3 text-base text-tinta outline-none focus:border-destaque-texto";
-const BOTAO = "flex min-h-12 items-center justify-center gap-2 rounded-xl bg-primario px-4 font-semibold text-sobre-primario disabled:opacity-50";
-const BOTAO_CLARO = "flex min-h-12 items-center justify-center gap-2 rounded-xl border border-borda bg-cartao px-4 font-semibold text-tinta disabled:opacity-50";
 const TITULO = "px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto";
 const CHAVE_DO_NOME = "santinho-meu-nome";
 
@@ -210,7 +209,7 @@ export function Correntes() {
       {!pronto ? (
         <Carregando />
       ) : !email ? (
-        <Link to="/conta" className={BOTAO_CLARO}>
+        <Link to={entrarDaqui()} className={BOTAO_CLARO}>
           Entrar para criar uma corrente
         </Link>
       ) : (

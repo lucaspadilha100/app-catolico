@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { Check, ExternalLink, X } from "lucide-react";
 import { NOME_DA_TURMA, dataCurta, encontrosDaTurma, minhasInscricoesNaTurma, presencas, turmaPorId, type EncontroDaTurma, type Inscricao } from "@/paroquias/plano";
-import { Cabecalho, Carregando, Voltar } from "@/components/Devocao";
+import { Cabecalho, Carregando, Indisponivel, Voltar } from "@/components/Devocao";
 import { NaoEncontrada } from "@/pages/Simples";
 
 type Dados = {
@@ -14,19 +14,21 @@ type Dados = {
 
 export default function Turma() {
   const { id = "" } = useParams();
-  const [d, setD] = useState<Dados | null | "nada">(null);
+  const [d, setD] = useState<Dados | null | "nada" | "erro">(null);
 
   useEffect(() => {
     void (async () => {
-      const turma = await turmaPorId(id).catch(() => null);
+      const turma = await turmaPorId(id).catch(() => "erro" as const);
+      if (turma === "erro") return setD("erro");
       if (!turma) return setD("nada");
-      const [minhas, encontros] = await Promise.all([minhasInscricoesNaTurma(id), encontrosDaTurma(id).catch(() => [])]);
+      const [minhas, encontros] = await Promise.all([minhasInscricoesNaTurma(id).catch(() => []), encontrosDaTurma(id).catch(() => [])]);
       setD({ turma, minhas, encontros, marcas: await presencas(encontros.map((e) => e.id)).catch(() => []) });
     })();
   }, [id]);
 
   if (d === null) return <Carregando />;
   if (d === "nada") return <NaoEncontrada />;
+  if (d === "erro") return <Indisponivel />;
   const hoje = new Date().toLocaleDateString("sv-SE");
   const proximos = d.encontros.filter((e) => e.data >= hoje);
   const passados = d.encontros.filter((e) => e.data < hoje).reverse();

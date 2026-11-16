@@ -1,13 +1,14 @@
-import { useState, type FormEvent } from "react";
-import { Link } from "react-router-dom";
+import { useEffect, useState, type FormEvent } from "react";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { BadgeCheck, Cloud, CloudOff, LogOut, RefreshCw, Trash2 } from "lucide-react";
 import { useApoiador } from "@/apoio/api";
 import { ehApoiador } from "@/lib/preferencias";
 import { dataCurta } from "@/paroquias/plano";
-import { useConta } from "@/conta/useConta";
+import { destinoDepois, useConta } from "@/conta/useConta";
 import { ATUALIZADO_EM, CONTATO, PRIVACIDADE, TERMOS, type Secao } from "@/conta/textos";
 import { Cartao } from "@/components/Cartao";
 import { Cabecalho, Carregando, Voltar } from "@/components/Devocao";
+import { sair } from "@/components/Voltar";
 
 const horas = (d: Date) => d.toLocaleTimeString("pt-BR", { hour: "2-digit", minute: "2-digit" });
 
@@ -183,6 +184,12 @@ function Logado() {
 
 export default function Conta() {
   const { pronto, email } = useConta();
+  const navegar = useNavigate();
+  const { search } = useLocation();
+  const depois = destinoDepois(search);
+  useEffect(() => {
+    if (email && depois) sair(navegar, depois);
+  }, [email, depois, navegar]);
   return (
     <div className="flex flex-col gap-5">
       <Voltar para="/mais">Mais</Voltar>

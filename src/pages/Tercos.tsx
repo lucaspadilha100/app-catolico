@@ -1,8 +1,9 @@
 import { useEffect, useMemo, useRef, useState, type FormEvent, type ReactNode } from "react";
+import { BOTAO, BOTAO_CLARO } from "@/components/Botao";
 import { sair } from "@/components/Voltar";
 import { Link, useNavigate, useParams, useSearchParams } from "react-router-dom";
 import { AtSign, BellRing, CalendarDays, ChevronRight, Clock, Heart, ListMusic, MapPin, MessageCircle, Navigation, Pencil, Plus, Radio, Search, Share2, Trash2, X } from "lucide-react";
-import { useConta } from "@/conta/useConta";
+import { useConta, entrarDaqui } from "@/conta/useConta";
 import { MISTERIOS, grupoDoDiaDaSemana, type GrupoDeMisterios } from "@/liturgia/terco";
 import { nomeDoMisterio, passosDoRosario, type Passo } from "@/oracao/terco";
 import { carregarParoquia, coordenadasDoEndereco, procurarParoquias } from "@/paroquias/api";
@@ -38,8 +39,6 @@ import { TercoGuiado, type Posicao } from "@/components/TercoGuiado";
 import { NaoEncontrada } from "@/pages/Simples";
 
 const CAMPO = "min-h-12 w-full rounded-xl border border-borda bg-papel px-3 text-base text-tinta outline-none focus:border-destaque-texto";
-const BOTAO = "flex min-h-12 items-center justify-center gap-2 rounded-xl bg-primario px-4 font-semibold text-sobre-primario disabled:opacity-50";
-const SECUNDARIO = "flex min-h-12 items-center justify-center gap-2 rounded-xl border border-borda bg-cartao px-4 font-semibold text-tinta";
 const ORDEM_DOS_MISTERIOS: GrupoDeMisterios[] = ["gozosos", "luminosos", "dolorosos", "gloriosos"];
 
 const isoLocal = (d: Date) => d.toLocaleDateString("sv-SE");
@@ -129,7 +128,7 @@ export function Tercos() {
       )}
 
       {pronto && (
-        <Link to={email ? "/tercos/novo" : "/conta"} className={SECUNDARIO}>
+        <Link to={email ? "/tercos/novo" : "/conta"} className={BOTAO_CLARO}>
           <Plus className="size-5" aria-hidden /> Cadastrar o terço do seu grupo
         </Link>
       )}
@@ -337,7 +336,7 @@ export function TercoPagina() {
         </button>
       </div>
       {(t.endereco || t.lat !== null) && (
-        <a href={linkComoChegar(destino)} target="_blank" rel="noreferrer" className={SECUNDARIO}>
+        <a href={linkComoChegar(destino)} target="_blank" rel="noreferrer" className={BOTAO_CLARO}>
           <Navigation className="size-5" aria-hidden /> Como chegar
         </a>
       )}
@@ -396,7 +395,7 @@ export function TercoPagina() {
       )}
 
       {paroquia && (
-        <Link to={`/missas/paroquia/${paroquia.id}`} className={SECUNDARIO}>
+        <Link to={`/missas/paroquia/${paroquia.id}`} className={BOTAO_CLARO}>
           {paroquia.nome}
         </Link>
       )}
@@ -516,7 +515,7 @@ export function EditarTerco() {
       <div className="flex flex-col gap-5">
         <Voltar para="/tercos">Terço da Juventude</Voltar>
         <Cabecalho titulo="Cadastrar terço" />
-        <Link to="/conta" className={BOTAO}>
+        <Link to={entrarDaqui()} className={BOTAO}>
           Entrar
         </Link>
       </div>

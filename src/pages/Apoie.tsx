@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { BOTAO_CLARO } from "@/components/Botao";
 import { BadgeCheck, Check, HandHeart, Palette, Share2, Vote } from "lucide-react";
 import { NOME_DO_APP, PIX_DO_APP } from "@/marca";
 import { compartilhar, ehNativo, enderecoPublico } from "@/lib/nativo";
@@ -11,7 +12,6 @@ import { Cabecalho, Voltar } from "@/components/Devocao";
 import { Pix } from "@/components/Pix";
 import { dataCurta } from "@/paroquias/plano";
 
-const BOTAO_CLARO = "flex min-h-12 items-center justify-center gap-2 rounded-xl border border-borda bg-cartao px-4 font-semibold text-tinta";
 const TITULO = "px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto";
 
 function JaApoiei() {

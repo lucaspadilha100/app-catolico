@@ -46,7 +46,19 @@ export function Carregando() {
 }
 
 export function Indisponivel() {
-  return <p className="py-10 text-center text-tinta-suave">Não foi possível abrir agora. Tente de novo com internet.</p>;
+  useEffect(() => {
+    const voltou = () => window.location.reload();
+    window.addEventListener("online", voltou);
+    return () => window.removeEventListener("online", voltou);
+  }, []);
+  return (
+    <div className="flex flex-col items-center gap-4 py-10 text-center">
+      <p className="text-tinta-suave">Não foi possível abrir agora. Confira a internet.</p>
+      <button type="button" onClick={() => window.location.reload()} className="min-h-12 rounded-xl border border-borda bg-cartao px-6 font-semibold text-tinta">
+        Tentar de novo
+      </button>
+    </div>
+  );
 }
 
 export function EscolhaDeDia({

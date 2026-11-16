@@ -1,6 +1,8 @@
 import { NotaDaTraducao } from "@/components/TextoBiblico";
+import { useLembrado } from "@/lib/useLembrado";
 import { Voltar } from "@/components/Voltar";
 import { useFocoPreso } from "@/lib/useFocoPreso";
+import { useFecharComVoltar } from "@/lib/useFecharComVoltar";
 import { BotaoOuvir, emPartes } from "@/components/Ouvir";
 import { useEffect, useLayoutEffect, useRef, useState, type FormEvent } from "react";
 import { Link, Navigate, useLocation, useNavigate, useParams, useSearchParams } from "react-router-dom";
@@ -277,6 +279,7 @@ function Leitor({
   const [erro, setErro] = useState(false);
   const [atual, setAtual] = useState<Posicao>(inicial);
   const [selecionado, setSelecionado] = useState<{ pos: Posicao; v: number } | null>(null);
+  useFecharComVoltar(!!selecionado, () => setSelecionado(null), false);
   const janelaRef = useRef(janela);
   janelaRef.current = janela;
   const atualRef = useRef(atual);
@@ -641,7 +644,7 @@ export function BibliaMarcados() {
             type="button"
             aria-pressed={filtro === f}
             onClick={() => setParams(f === "todas" ? {} : { filtro: f }, { replace: true })}
-            className={`flex min-h-11 shrink-0 items-center gap-1.5 rounded-full border px-3 text-sm font-medium ${filtro === f ? "border-destaque bg-destaque text-sobre-destaque" : "border-borda bg-cartao text-tinta"}`}
+            className={`flex min-h-11 shrink-0 items-center gap-1.5 rounded-full border px-3 text-sm font-medium ${filtro === f ? "border-transparent bg-primario text-sobre-primario" : "border-borda bg-cartao text-tinta"}`}
           >
             {f !== "todas" && f !== "notas" && <span className="size-4 rounded-full border border-borda" style={{ background: CORES[f].fundo }} />}
             {f === "todas" ? "Todos" : f === "notas" ? "Notas" : CORES[f].nome}
@@ -738,15 +741,17 @@ export function BibliaBusca() {
   const [lendo, setLendo] = useState<string | null>(null);
   const [fim, setFim] = useState<{ cortado: boolean } | null>(null);
   const [erro, setErro] = useState(false);
-  const [mostrar, setMostrar] = useState(POR_PAGINA_DA_BUSCA);
+  const [mostrar, setMostrar] = useLembrado("busca-mostrar", POR_PAGINA_DA_BUSCA);
   const palavras = palavrasDaBusca(q);
+  const primeiraBusca = useRef(true);
 
   useEffect(() => {
     let cancelado = false;
     setAchados([]);
     setFim(null);
     setErro(false);
-    setMostrar(POR_PAGINA_DA_BUSCA);
+    if (!primeiraBusca.current) setMostrar(POR_PAGINA_DA_BUSCA);
+    primeiraBusca.current = false;
     if (!palavras.length) return;
     const livros = LIVROS.filter((l) => !testamento || l.testamento === testamento);
     buscarNaBiblia(
@@ -801,7 +806,7 @@ export function BibliaBusca() {
               else n.delete("t");
               setParams(n, { replace: true });
             }}
-            className={`min-h-11 rounded-full border px-3 text-sm font-medium ${testamento === v ? "border-destaque bg-destaque text-sobre-destaque" : "border-borda bg-cartao text-tinta"}`}
+            className={`min-h-11 rounded-full border px-3 text-sm font-medium ${testamento === v ? "border-transparent bg-primario text-sobre-primario" : "border-borda bg-cartao text-tinta"}`}
           >
             {nome}
           </button>

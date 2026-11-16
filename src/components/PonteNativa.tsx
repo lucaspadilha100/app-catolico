@@ -2,6 +2,7 @@ import { useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import { ehNativo } from "@/lib/nativo";
 import { usePreferencias } from "@/lib/preferencias";
+import { haSobreposicao } from "@/lib/useFecharComVoltar";
 
 let abriuPelaUrl = false;
 
@@ -23,7 +24,7 @@ export function PonteNativa() {
         import("@capacitor/splash-screen"),
       ]);
       const voltar = await App.addListener("backButton", ({ canGoBack }) => {
-        if (canGoBack && window.location.pathname !== "/") window.history.back();
+        if (haSobreposicao() || (canGoBack && window.location.pathname !== "/")) window.history.back();
         else void App.minimizeApp();
       });
       const tocou = await LocalNotifications.addListener("localNotificationActionPerformed", (e) => {

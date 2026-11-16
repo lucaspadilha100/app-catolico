@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useState, type FormEvent, type ReactNode } from "react";
+import { BOTAO, BOTAO_CLARO } from "@/components/Botao";
 import { Link, useNavigate, useParams, useSearchParams } from "react-router-dom";
 import { ChevronRight, Plus, Share2, Trash2 } from "lucide-react";
 import { useConta } from "@/conta/useConta";
@@ -45,8 +46,6 @@ import { NaoEncontrada } from "@/pages/Simples";
 import { ApoiosParaConferirLista, IntencoesNoPainel, MinisteriosNoPainel, PixParaConferirLista, PlanoNoPainel, VotacaoNoPainel } from "@/pages/PainelPlano";
 
 const CAMPO = "min-h-12 w-full rounded-xl border border-borda bg-papel px-3 text-base";
-const BOTAO = "min-h-12 rounded-xl bg-primario px-4 font-semibold text-sobre-primario disabled:opacity-50";
-const BOTAO_CLARO = "min-h-11 rounded-xl border border-borda bg-cartao px-4 font-semibold text-tinta";
 
 const NOME_DA_SUGESTAO: Record<Sugestao["tipo"], string> = {
   confirmar: "Horários certos",

@@ -1,10 +1,11 @@
 import { useCallback, useEffect, useMemo, useState, type FormEvent, type ReactNode } from "react";
+import { BOTAO, BOTAO_CLARO } from "@/components/Botao";
 import { Link, useNavigate, useParams, useSearchParams } from "react-router-dom";
 import { ChevronRight, Copy, Plus, Share2, Trash2, UserRoundCheck } from "lucide-react";
 import { renderSVG } from "uqr";
-import { useConta } from "@/conta/useConta";
+import { useConta, entrarDaqui } from "@/conta/useConta";
 import { Cartao } from "@/components/Cartao";
-import { Cabecalho, Carregando, Voltar } from "@/components/Devocao";
+import { Cabecalho, Carregando, Indisponivel, Voltar } from "@/components/Devocao";
 import { executar } from "@/lib/acao";
 import { NaoEncontrada } from "@/pages/Simples";
 import { compartilhar, enderecoPublico } from "@/lib/nativo";
@@ -30,8 +31,6 @@ import {
 } from "@/escalas/api";
 
 const CAMPO = "min-h-12 w-full min-w-0 rounded-xl border border-borda bg-papel px-3 text-base text-tinta outline-none focus:border-destaque-texto";
-const BOTAO = "flex min-h-12 items-center justify-center gap-2 rounded-xl bg-primario px-4 font-semibold text-sobre-primario disabled:opacity-50";
-const BOTAO_CLARO = "flex min-h-12 items-center justify-center gap-2 rounded-xl border border-borda bg-cartao px-4 font-semibold text-tinta disabled:opacity-50";
 const PILULA = "min-h-11 rounded-full border border-borda px-4 text-sm font-medium text-tinta";
 const PILULA_FORTE = "min-h-11 rounded-full bg-primario px-4 text-sm font-semibold text-sobre-primario";
 const TITULO = "px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto";
@@ -220,7 +219,7 @@ export function MinisterioPagina() {
   const { id = "" } = useParams();
   const [params, setParams] = useSearchParams();
   const aba = params.get("aba") === "equipe" ? "equipe" : "escala";
-  const [dados, setDados] = useState<Awaited<ReturnType<typeof carregarMinisterio>> | undefined>(undefined);
+  const [dados, setDados] = useState<Awaited<ReturnType<typeof carregarMinisterio>> | undefined | "erro">(undefined);
   const [itens, setItens] = useState<ItemDaEscala[] | null>(null);
   const [eu, setEu] = useState<string | null>(null);
   const [novo, setNovo] = useState(false);
@@ -235,7 +234,7 @@ export function MinisterioPagina() {
           setMeuNome(d?.membros.find((m) => m.usuario_id === u)?.nome ?? "");
         });
       })
-      .catch(() => setDados(null));
+      .catch(() => setDados("erro"));
     void escalaDoMinisterio(id)
       .then(setItens)
       .catch(() => setItens([]));
@@ -244,6 +243,7 @@ export function MinisterioPagina() {
 
   if (dados === undefined) return <Carregando />;
   if (dados === null) return <NaoEncontrada />;
+  if (dados === "erro") return <Indisponivel />;
   const { ministerio, membros, coordeno } = dados;
 
   return (
@@ -346,7 +346,7 @@ export function EntrarNoMinisterio() {
     return (
       <div className="flex flex-col gap-4">
         <Cabecalho titulo="Convite para a equipe" />
-        <Link to="/conta" className={BOTAO}>
+        <Link to={entrarDaqui()} className={BOTAO}>
           Entrar para aceitar
         </Link>
       </div>
@@ -419,7 +419,7 @@ export function Escalas() {
       {!pronto ? (
         <Carregando />
       ) : !email ? (
-        <Link to="/conta" className={BOTAO_CLARO}>
+        <Link to={entrarDaqui()} className={BOTAO_CLARO}>
           Entrar para ver as suas escalas
         </Link>
       ) : (

@@ -1,8 +1,9 @@
 import { useCallback, useEffect, useMemo, useRef, useState, type FormEvent, type ReactNode } from "react";
+import { BOTAO, BOTAO_CLARO } from "@/components/Botao";
 import { Link, useNavigate, useParams, useSearchParams } from "react-router-dom";
 import { ArrowDown, ArrowUp, Bookmark, BookmarkCheck, ChevronLeft, ChevronRight, Copy, ExternalLink, Pencil, Plus, QrCode, Radio, Share2, Trash2 } from "lucide-react";
 import { renderSVG } from "uqr";
-import { useConta } from "@/conta/useConta";
+import { useConta, entrarDaqui } from "@/conta/useConta";
 import { MISTERIOS, misteriosDoDia, type GrupoDeMisterios } from "@/liturgia/terco";
 import { hoje } from "@/liturgia/datas";
 import { MEDITACOES } from "@/oracao/terco";
@@ -38,8 +39,6 @@ import {
 import { alternarMusica, buscaDaMusica, estaGuardada, useMusicas } from "@/roteiros/musicas";
 
 const CAMPO = "min-h-12 w-full rounded-xl border border-borda bg-papel px-3 text-base text-tinta outline-none focus:border-destaque-texto";
-const BOTAO = "flex min-h-12 items-center justify-center gap-2 rounded-xl bg-primario px-4 font-semibold text-sobre-primario disabled:opacity-50";
-const BOTAO_CLARO = "flex min-h-12 items-center justify-center gap-2 rounded-xl border border-borda bg-cartao px-4 font-semibold text-tinta disabled:opacity-50";
 const TITULO = "px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto";
 const ICONE = "grid size-11 shrink-0 place-items-center rounded-full text-tinta-suave hover:bg-marca-fundo disabled:opacity-30";
 
@@ -856,7 +855,7 @@ export function Roteiros() {
       {!pronto ? (
         <Carregando />
       ) : !email ? (
-        <Link to="/conta" className={BOTAO_CLARO}>
+        <Link to={entrarDaqui()} className={BOTAO_CLARO}>
           Entrar para montar roteiros
         </Link>
       ) : (

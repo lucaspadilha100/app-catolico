@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
+import { BOTAO } from "@/components/Botao";
 import { Link } from "react-router-dom";
 import { Check, Lock, Share2 } from "lucide-react";
 import { OCASIOES, type DadosDoSantinho, type Formato, type Moldura, type Ocasiao } from "@/santinhos/modelos";
@@ -11,7 +12,6 @@ import { ehApoiador, usePreferencias } from "@/lib/preferencias";
 import { Cabecalho, Voltar } from "@/components/Devocao";
 
 const CAMPO = "min-h-12 w-full rounded-xl border border-borda bg-papel px-3 text-base text-tinta outline-none focus:border-destaque-texto";
-const BOTAO = "flex min-h-12 items-center justify-center gap-2 rounded-xl bg-primario px-4 font-semibold text-sobre-primario disabled:opacity-50";
 const TITULO = "px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto";
 
 function Opcoes<T extends string>({ valor, opcoes, onChange, colunas = 2 }: { valor: T; opcoes: { valor: T; nome: string; travada?: boolean }[]; onChange: (v: T) => void; colunas?: 2 | 3 }) {

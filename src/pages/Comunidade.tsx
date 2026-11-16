@@ -1,9 +1,11 @@
 import { useEffect, useMemo, useRef, useState, type FormEvent } from "react";
+import { BOTAO, BOTAO_CLARO } from "@/components/Botao";
+import { useLembrado } from "@/lib/useLembrado";
 import { sair } from "@/components/Voltar";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import { CartaoDaCampanha } from "@/components/Campanha";
 import { Check, ChevronRight, Flag, HandHeart, Link2, Plus, Radio, Sparkles, Trash2, UserMinus, Users } from "lucide-react";
-import { useConta } from "@/conta/useConta";
+import { useConta, entrarDaqui } from "@/conta/useConta";
 import { MISTERIOS, grupoDoDiaDaSemana, type GrupoDeMisterios } from "@/liturgia/terco";
 import { passosDoRosario } from "@/oracao/terco";
 import {
@@ -46,8 +48,6 @@ import { TercoGuiado, type Posicao } from "@/components/TercoGuiado";
 import { NaoEncontrada } from "@/pages/Simples";
 
 const CAMPO = "min-h-12 w-full rounded-xl border border-borda bg-papel px-3 text-base text-tinta outline-none focus:border-destaque-texto";
-const BOTAO = "flex min-h-12 items-center justify-center gap-2 rounded-xl bg-primario px-4 font-semibold text-sobre-primario disabled:opacity-50";
-const SECUNDARIO = "flex min-h-12 items-center justify-center gap-2 rounded-xl border border-borda bg-cartao px-4 font-semibold text-tinta";
 const CHAVE_REZEI = "santinho-rezei";
 const POR_PAGINA = 20;
 
@@ -239,14 +239,15 @@ function PedirOracao({ grupo, aoPedir }: { grupo?: string; aoPedir: () => void }
 }
 
 function ListaDeIntencoes({ grupo, versao }: { grupo?: string; versao: number }) {
-  const [lista, setLista] = useState<Intencao[] | null | "erro">(null);
-  const [fim, setFim] = useState(false);
+  const [lista, setLista] = useLembrado<Intencao[] | null | "erro">(`intencoes-${grupo ?? ""}-${versao}`, null);
+  const [fim, setFim] = useLembrado(`intencoes-fim-${grupo ?? ""}-${versao}`, false);
   const [eu, setEu] = useState<string | null>(null);
   const [buscando, setBuscando] = useState(false);
 
   useEffect(() => {
     let ativo = true;
     void meuId().then((id) => ativo && setEu(id));
+    if (Array.isArray(lista)) return;
     listarIntencoes({ grupo, pular: 0, limite: POR_PAGINA })
       .then((r) => {
         if (!ativo) return;
@@ -285,7 +286,7 @@ function ListaDeIntencoes({ grupo, versao }: { grupo?: string; versao: number })
         ))}
       </ul>
       {!fim && (
-        <button type="button" onClick={() => void mais()} disabled={buscando} className={SECUNDARIO}>
+        <button type="button" onClick={() => void mais()} disabled={buscando} className={BOTAO_CLARO}>
           {buscando ? "Carregando" : "Mostrar mais"}
         </button>
       )}
@@ -326,7 +327,7 @@ export function Intencoes() {
             </button>
           )
         ) : (
-          <Link to="/conta" className={SECUNDARIO}>
+          <Link to={entrarDaqui()} className={BOTAO_CLARO}>
             Entrar para pedir oração
           </Link>
         ))}
@@ -372,7 +373,7 @@ export function Grupos() {
       <div className="flex flex-col gap-5">
         <Voltar para="/rezar">Rezar</Voltar>
         <TituloPagina>Grupos</TituloPagina>
-        <Link to="/conta" className={BOTAO}>
+        <Link to={entrarDaqui()} className={BOTAO}>
           Entrar para ver os seus grupos
         </Link>
       </div>
@@ -452,7 +453,7 @@ export function Grupos() {
         <span className="text-sm font-medium text-tinta-suave">Código de convite</span>
         <div className="flex gap-2">
           <input value={codigo} onChange={(e) => setCodigo(e.target.value.trim().toLowerCase())} maxLength={8} autoCapitalize="none" autoComplete="off" className={CAMPO} />
-          <Link to={`/grupos/entrar/${codigo}`} aria-disabled={codigo.length !== 8} className={`${SECUNDARIO} shrink-0 ${codigo.length !== 8 ? "pointer-events-none opacity-50" : ""}`}>
+          <Link to={`/grupos/entrar/${codigo}`} aria-disabled={codigo.length !== 8} className={`${BOTAO_CLARO} shrink-0 ${codigo.length !== 8 ? "pointer-events-none opacity-50" : ""}`}>
             Entrar
           </Link>
         </div>
@@ -481,7 +482,7 @@ export function EntrarNoGrupo() {
     return (
       <div className="flex flex-col gap-5">
         <Cabecalho titulo="Convite para um grupo" />
-        <Link to="/conta" className={BOTAO}>
+        <Link to={entrarDaqui()} className={BOTAO}>
           Entrar para aceitar o convite
         </Link>
       </div>
@@ -570,10 +571,10 @@ export function GrupoPagina() {
         <Radio className="size-5" aria-hidden /> {aoVivo ? "Acompanhar o terço ao vivo" : "Terço do grupo"}
       </Link>
       <div className="grid grid-cols-2 gap-2">
-        <button type="button" onClick={() => void convidar()} className={SECUNDARIO}>
+        <button type="button" onClick={() => void convidar()} className={BOTAO_CLARO}>
           <Link2 className="size-5" aria-hidden /> {copiado ? "Link copiado" : "Convidar"}
         </button>
-        <button type="button" onClick={() => setPedindo(!pedindo)} className={SECUNDARIO}>
+        <button type="button" onClick={() => setPedindo(!pedindo)} className={BOTAO_CLARO}>
           <Plus className="size-5" aria-hidden /> Pedir oração
         </button>
       </div>

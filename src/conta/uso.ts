@@ -1,5 +1,9 @@
 const CHAVE = "santinho-uso-contado";
-const deTeste = () => import.meta.env.DEV || ["localhost", "127.0.0.1"].includes(location.hostname);
+const deTeste = () =>
+  import.meta.env.DEV ||
+  ["localhost", "127.0.0.1"].includes(location.hostname) ||
+  navigator.webdriver === true ||
+  /bot|crawl|spider|slurp|headless|lighthouse|inspectiontool|preview|facebookexternalhit|whatsapp/i.test(navigator.userAgent);
 
 export function contarAbertura() {
   if (deTeste()) return;

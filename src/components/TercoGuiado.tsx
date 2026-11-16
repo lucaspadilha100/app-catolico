@@ -1,4 +1,6 @@
 import { useCallback, useEffect, useMemo, useState, type ReactNode } from "react";
+import { useFocoPreso } from "@/lib/useFocoPreso";
+import { useFecharComVoltar } from "@/lib/useFecharComVoltar";
 import { Link } from "react-router-dom";
 import { ChevronLeft, ChevronRight, CircleDot, Hand, RotateCcw, X } from "lucide-react";
 import { MISTERIOS } from "@/liturgia/terco";
@@ -93,8 +95,14 @@ function ModoContas({
 }) {
   const total = contasDoPasso(passo);
   const parar = (e: { stopPropagation: () => void }) => e.stopPropagation();
+  const caixa = useFocoPreso<HTMLDivElement>();
+  useFecharComVoltar(true, sair);
   return (
     <div
+      ref={caixa}
+      role="dialog"
+      aria-modal="true"
+      aria-label="Contas"
       className="fixed inset-0 z-50 md:left-60 flex touch-manipulation select-none flex-col bg-papel px-4 pb-[max(1.5rem,env(safe-area-inset-bottom))] pt-[max(1rem,env(safe-area-inset-top))]"
       onClick={avancar}
     >
@@ -289,7 +297,7 @@ export function TercoGuiado({
   }
 
   return (
-    <div className="flex flex-col gap-5">
+    <div className={`flex flex-col gap-5 ${acompanhando ? "" : "pb-24"}`}>
       {modoContas && !acompanhando && (
         <ModoContas
           passo={passo}
@@ -369,7 +377,8 @@ export function TercoGuiado({
       )}
 
       {!acompanhando && (
-      <div className="sticky bottom-[calc(4rem+env(safe-area-inset-bottom))] z-[5] -mx-4 grid grid-cols-[auto_1fr] gap-3 bg-papel px-4 pb-3 pt-2 before:pointer-events-none before:absolute before:inset-x-0 before:-top-6 before:h-6 before:bg-linear-to-t before:from-papel before:to-transparent md:bottom-0 md:-mx-8 md:px-8 md:pb-6">
+      <div className="fixed inset-x-0 bottom-[calc(4rem+env(safe-area-inset-bottom))] z-[5] bg-papel px-4 pb-3 pt-2 before:pointer-events-none before:absolute before:inset-x-0 before:-top-6 before:h-6 before:bg-linear-to-t before:from-papel before:to-transparent md:bottom-0 md:left-60 md:px-8 md:pb-6">
+        <div className="mx-auto grid max-w-2xl grid-cols-[auto_1fr] gap-3">
         <button
           type="button"
           onClick={voltar}
@@ -387,6 +396,7 @@ export function TercoGuiado({
           {posicao.passo === passos.length - 1 && posicao.conta === total - 1 ? "Amém" : total > 1 ? "Próxima conta" : "Avançar"}
           <ChevronRight className="size-6" aria-hidden />
         </button>
+        </div>
       </div>
       )}
     </div>

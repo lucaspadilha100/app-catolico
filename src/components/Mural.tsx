@@ -1,4 +1,5 @@
 import { useEffect, useState, type FormEvent } from "react";
+import { BOTAO } from "@/components/Botao";
 import { CalendarDays, ExternalLink, Megaphone, Plus, Trash2 } from "lucide-react";
 import { apagarPublicacao, meuPedidoDeGestao, muralDaParoquia, pedirGestao, publicar, type Publicacao } from "@/paroquias/api";
 import { executar } from "@/lib/acao";
@@ -6,7 +7,6 @@ import { dataDoEvento } from "@/paroquias/horarios";
 import { Cartao, LISTA } from "@/components/Cartao";
 
 const CAMPO = "min-h-12 w-full rounded-xl border border-borda bg-papel px-3 text-base text-tinta outline-none focus:border-destaque-texto";
-const BOTAO = "flex min-h-12 items-center justify-center gap-2 rounded-xl bg-primario px-4 font-semibold text-sobre-primario disabled:opacity-50";
 const POR_PAGINA = 10;
 
 function quandoFoi(iso: string): string {

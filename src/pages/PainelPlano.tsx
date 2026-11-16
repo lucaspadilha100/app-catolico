@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useState, type FormEvent, type ReactNode } from "react";
+import { BOTAO, BOTAO_CLARO } from "@/components/Botao";
 import { Link, useNavigate, useParams, useSearchParams } from "react-router-dom";
 import { ChevronRight, Download, Search } from "lucide-react";
 import type { Paroquia } from "@/paroquias/tipos";
@@ -41,8 +42,6 @@ import { nomeDaMissa } from "@/components/IntencoesDeMissa";
 import { apoiosParaConferir, criarOpcaoDeVoto, encerrarOpcaoDeVoto, revisarApoio, votacao, type ApoioParaConferir, type OpcaoDeVoto } from "@/apoio/api";
 
 const CAMPO = "min-h-12 w-full rounded-xl border border-borda bg-papel px-3 text-base";
-const BOTAO = "min-h-12 rounded-xl bg-primario px-4 font-semibold text-sobre-primario disabled:opacity-50";
-const BOTAO_CLARO = "min-h-11 rounded-xl border border-borda bg-cartao px-4 font-semibold text-tinta";
 const TITULO = "font-leitura text-xl font-semibold text-marca";
 
 function Campo({ rotulo, children }: { rotulo: string; children: ReactNode }) {
