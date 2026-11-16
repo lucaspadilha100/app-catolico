@@ -270,9 +270,9 @@ describe("dados de Natal (planilha do Missas.com.br)", { timeout: 60_000 }, () =
     await expect(c("anon", null, "select * from public.notas_paroquia")).rejects.toThrow();
     const h = await c("anon", null, "select h.tipo, count(*)::int as n from public.horarios h join public.paroquias p on p.id = h.paroquia_id where p.uf = 'RN' group by h.tipo order by h.tipo");
     expect(h.rows).toEqual([
-      { tipo: "adoracao", n: 13 },
+      { tipo: "adoracao", n: 14 },
       { tipo: "confissao", n: 71 },
-      { tipo: "missa", n: 1217 },
+      { tipo: "missa", n: 1274 },
     ]);
     const santana = await c("anon", null, "select nome, bairro, (select count(*)::int from public.horarios h where h.paroquia_id = p.id and h.tipo = 'missa') as missas, conferida_em is not null as conferida from public.paroquias p where nome like 'Paróquia de Sant''Ana%' and cidade = 'Natal' order by nome");
     expect(santana.rows).toEqual([
