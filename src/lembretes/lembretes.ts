@@ -194,6 +194,8 @@ function comPrazo<T>(promessa: Promise<T>, ms: number): Promise<T> {
 }
 
 async function registro(): Promise<ServiceWorkerRegistration> {
+  const pronta = await navigator.serviceWorker.getRegistration().catch(() => undefined);
+  if (pronta?.active) return pronta;
   try {
     return await comPrazo(navigator.serviceWorker.ready, 5000);
   } catch {
@@ -201,6 +203,11 @@ async function registro(): Promise<ServiceWorkerRegistration> {
     if (reg.active) return reg;
     return comPrazo(navigator.serviceWorker.ready, 8000);
   }
+}
+
+export function prepararLembretes() {
+  if (ehNativo() || !suportado()) return;
+  void registro().catch(() => {});
 }
 
 async function inscricao(criar: boolean): Promise<PushSubscription | null> {

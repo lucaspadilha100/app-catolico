@@ -1,6 +1,6 @@
-import { useState, type ReactNode } from "react";
+import { useEffect, useState, type ReactNode } from "react";
 import { Bell, BellOff, Check } from "lucide-react";
-import { ativar, ultimaFalha, atualizar, desativar, ehIphone, instalado, lerGuardado, permitido, suportado, type Lembretes as TipoLembretes } from "@/lembretes/lembretes";
+import { ativar, prepararLembretes, ultimaFalha, atualizar, desativar, ehIphone, instalado, lerGuardado, permitido, suportado, type Lembretes as TipoLembretes } from "@/lembretes/lembretes";
 import { ehNativo } from "@/lib/nativo";
 import { Cartao } from "@/components/Cartao";
 import { Cabecalho, Voltar } from "@/components/Devocao";
@@ -33,6 +33,7 @@ function Linha({ titulo, detalhe, ligado, onLigar, children }: { titulo: string;
 
 export default function Lembretes() {
   const [g, setG] = useState(lerGuardado);
+  useEffect(prepararLembretes, []);
   const [estado, setEstado] = useState<"" | "ativando" | "negado" | "erro" | "salvo">("");
   const l = g.lembretes;
   const pode = suportado();

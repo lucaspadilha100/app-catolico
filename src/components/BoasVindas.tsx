@@ -8,7 +8,7 @@ import { useLocal } from "@/paroquias/useLocal";
 import { LISTA } from "@/components/Cartao";
 import { NOME_DO_APP } from "@/marca";
 import { ehNativo } from "@/lib/nativo";
-import { ultimaFalha, ativar, ehIphone, instalado, lerGuardado, permitido, suportado } from "@/lembretes/lembretes";
+import { ultimaFalha, prepararLembretes, ativar, ehIphone, instalado, lerGuardado, permitido, suportado } from "@/lembretes/lembretes";
 
 const BOTAO = "flex min-h-14 w-full items-center justify-center gap-2 rounded-2xl bg-primario px-5 text-lg font-semibold text-sobre-primario disabled:opacity-50";
 const CAMPO = "flex min-h-12 items-center gap-2 rounded-xl border border-borda bg-cartao px-3 focus-within:border-destaque-texto";
@@ -63,6 +63,7 @@ const temPassoDoLembrete = () => !(lerGuardado().ativo && permitido()) && (ehNat
 
 function PassoLembrete({ terminar }: { terminar: () => void }) {
   const [estado, setEstado] = useState<"" | "ativando" | "ativo" | "negado" | "erro">("");
+  useEffect(prepararLembretes, []);
   const instalar = precisaInstalar();
 
   async function ligar() {
