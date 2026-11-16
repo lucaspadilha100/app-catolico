@@ -195,11 +195,11 @@ function comPrazo<T>(promessa: Promise<T>, ms: number): Promise<T> {
 
 async function registro(): Promise<ServiceWorkerRegistration> {
   try {
-    return await comPrazo(navigator.serviceWorker.ready, 8000);
+    return await comPrazo(navigator.serviceWorker.ready, 5000);
   } catch {
     const reg = (await navigator.serviceWorker.getRegistration()) ?? (await navigator.serviceWorker.register("/sw.js"));
     if (reg.active) return reg;
-    return comPrazo(navigator.serviceWorker.ready, 20000);
+    return comPrazo(navigator.serviceWorker.ready, 8000);
   }
 }
 
@@ -207,7 +207,7 @@ async function inscricao(criar: boolean): Promise<PushSubscription | null> {
   const reg = await registro();
   const atual = await reg.pushManager.getSubscription();
   if (atual || !criar) return atual;
-  return comPrazo(reg.pushManager.subscribe({ userVisibleOnly: true, applicationServerKey: chaveEmBytes(VAPID_PUBLICA) }), 20000);
+  return comPrazo(reg.pushManager.subscribe({ userVisibleOnly: true, applicationServerKey: chaveEmBytes(VAPID_PUBLICA) }), 10000);
 }
 
 async function enviar(sub: PushSubscription, lembretes: Lembretes) {
@@ -234,14 +234,15 @@ export async function ativar(lembretes: Lembretes): Promise<"ativo" | "negado" |
     return r;
   }
   if (!suportado()) return "erro";
-  const permissao = await Notification.requestPermission();
-  if (permissao !== "granted") return "negado";
-  let passo = "aparelho";
+  let passo = "permissão";
   try {
-    const sub = await inscricao(true);
+    const permissao = Notification.permission === "granted" ? "granted" : await comPrazo(Notification.requestPermission(), 30000);
+    if (permissao !== "granted") return "negado";
+    passo = "aparelho";
+    const sub = await comPrazo(inscricao(true), 15000);
     if (!sub) return "erro";
     passo = "servidor";
-    await comPrazo(enviar(sub, lembretes), 20000);
+    await comPrazo(enviar(sub, lembretes), 12000);
     guardar({ ativo: true, lembretes, enviadoEm: paraIso(hoje()) });
     marcarFalha("");
     return "ativo";
