@@ -224,3 +224,10 @@ textarea {
   -webkit-mask: url("/simbolo.png") center / contain no-repeat;
   aspect-ratio: 392 / 312;
 }
+
+@utility sem-barra {
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}

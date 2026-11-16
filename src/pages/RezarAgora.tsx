@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { useSearchParams } from "react-router-dom";
-import { Pause, Play, SkipBack, SkipForward, Square } from "lucide-react";
+import { AudioLines, Pause, Play, SkipBack, SkipForward, X } from "lucide-react";
 import { useDiaLiturgico } from "@/lib/useDiaLiturgico";
 import { misteriosDoDia } from "@/liturgia/terco";
 import { carregarLecionario, leiturasDoDia } from "@/liturgia/lecionario";
@@ -40,6 +40,32 @@ async function falasDoMomento(m: Momento, dia: DiaLiturgico): Promise<Fala[]> {
   ];
 }
 
+type Bloco = { rotulo: string; vezes: number; inicio: number; fim: number; falas: Fala[] };
+
+const semContagem = (rotulo: string) => rotulo.replace(/\s+\d+ de \d+$/, "");
+const mesmasFalas = (a: Fala[], b: Fala[]) => a.length === b.length && a.every((f, i) => f.texto === b[i]!.texto && f.vez === b[i]!.vez);
+
+function emBlocos(falas: Fala[]): Bloco[] {
+  const crus: Bloco[] = [];
+  falas.forEach((f, i) => {
+    const ultimo = crus[crus.length - 1];
+    if (ultimo && ultimo.rotulo === f.rotulo) {
+      ultimo.falas.push(f);
+      ultimo.fim = i + 1;
+    } else crus.push({ rotulo: f.rotulo, vezes: 1, inicio: i, fim: i + 1, falas: [f] });
+  });
+  const blocos: Bloco[] = [];
+  for (const b of crus) {
+    const ultimo = blocos[blocos.length - 1];
+    const nome = semContagem(b.rotulo);
+    if (ultimo && ultimo.rotulo === nome && nome !== b.rotulo && mesmasFalas(ultimo.falas, b.falas)) {
+      ultimo.vezes++;
+      ultimo.fim = b.fim;
+    } else blocos.push({ ...b, rotulo: nome });
+  }
+  return blocos;
+}
+
 const esperar = (ms: number, cancelado: () => boolean) =>
   new Promise<void>((ok) => {
     const fim = Date.now() + ms;
@@ -60,12 +86,17 @@ export default function RezarAgora() {
   const [indice, setIndice] = useState(0);
   const [tocando, setTocando] = useState(false);
   const [responder, setResponder] = useState(true);
+  const [comVoz, setComVoz] = useState(false);
   const rodada = useRef(0);
+  const contou = useRef(false);
+  const fimDaLeitura = useRef<HTMLDivElement>(null);
+  const blocoAtual = useRef<HTMLElement>(null);
 
   useEffect(() => {
     let ativo = true;
     setFalas(null);
     setIndice(0);
+    contou.current = false;
     void falasDoMomento(momento, dia)
       .then((f) => ativo && setFalas(f))
       .catch(() => ativo && setFalas([]));
@@ -82,6 +113,25 @@ export default function RezarAgora() {
 
   useEffect(() => parar, [parar]);
 
+  const contar = useCallback(() => {
+    if (contou.current) return;
+    contou.current = true;
+    contarReza("agora");
+    if (momento === "terco" || momento === "misericordia") contarReza(momento);
+  }, [momento]);
+
+  useEffect(() => {
+    const alvo = fimDaLeitura.current;
+    if (!alvo || !falas?.length || typeof IntersectionObserver === "undefined") return;
+    const obs = new IntersectionObserver((e) => e.some((x) => x.isIntersecting) && contar());
+    obs.observe(alvo);
+    return () => obs.disconnect();
+  }, [falas, contar]);
+
+  useEffect(() => {
+    if (tocando) blocoAtual.current?.scrollIntoView({ block: "center", behavior: "smooth" });
+  }, [tocando, indice]);
+
   const tocar = useCallback(
     async (de: number) => {
       if (!falas) return;
@@ -97,12 +147,12 @@ export default function RezarAgora() {
       }
       if (!cancelado()) {
         setTocando(false);
-        setIndice(falas.length);
-        contarReza("agora");
-        if (momento === "terco" || momento === "misericordia") contarReza(momento);
+        setComVoz(false);
+        setIndice(0);
+        contar();
       }
     },
-    [falas, responder, momento],
+    [falas, responder, contar],
   );
 
   const ir = (i: number) => {
@@ -113,84 +163,102 @@ export default function RezarAgora() {
     } else setIndice(alvo);
   };
 
-  const atual = falas?.[Math.min(indice, (falas?.length ?? 1) - 1)];
-  const terminou = !!falas && indice >= falas.length;
+  const blocos = falas ? emBlocos(falas) : [];
+  const atual = comVoz ? indice : -1;
+
+  function fecharVoz() {
+    parar();
+    setComVoz(false);
+    setIndice(0);
+  }
 
   return (
-    <div className="flex flex-col gap-5 pb-48">
+    <div className={`flex flex-col gap-5 ${comVoz ? "pb-56" : "pb-8"}`}>
       <Voltar para="/rezar">Rezar</Voltar>
       <Cabecalho titulo={NOME_DO_MOMENTO[momento]} />
-      <div className="-mx-4 flex gap-2 overflow-x-auto px-4 pb-1" role="group" aria-label="Oração">
+      <div className="sem-barra -mx-4 flex gap-2 overflow-x-auto px-4 pb-1" role="group" aria-label="Oração">
         {MOMENTOS.map((m) => (
           <button
             key={m}
             type="button"
             aria-pressed={m === momento}
             onClick={() => {
-              parar();
+              fecharVoz();
               setParams({ m }, { replace: true });
             }}
-            className={`min-h-10 shrink-0 rounded-full border px-4 text-sm font-medium ${m === momento ? "border-transparent bg-primario text-sobre-primario" : "border-borda bg-cartao text-tinta"}`}
+            className={`min-h-11 shrink-0 rounded-full border px-4 text-sm font-medium ${m === momento ? "border-transparent bg-primario text-sobre-primario" : "border-borda bg-cartao text-tinta"}`}
           >
             {NOME_DO_MOMENTO[m]}
           </button>
         ))}
       </div>
-      {!vozDisponivel() && <p className="text-tinta-suave">Este aparelho não tem voz para leitura.</p>}
+      {!comVoz && vozDisponivel() && !!falas?.length && (
+        <button
+          type="button"
+          onClick={() => {
+            setComVoz(true);
+            void tocar(0);
+          }}
+          className="flex min-h-12 items-center justify-center gap-2 self-start rounded-full border border-borda bg-cartao px-5 font-semibold text-tinta"
+        >
+          <AudioLines className="size-5 text-destaque-texto" aria-hidden /> Rezar com voz
+        </button>
+      )}
       {falas === null ? (
         <Carregando />
-      ) : terminou ? (
-        <div className="flex flex-col items-center gap-4 py-8 text-center">
-          <p className="text-2xl font-extrabold text-marca tracking-[-0.02em]">Amém.</p>
-          <RezandoJuntos reza={momento === "terco" || momento === "misericordia" ? momento : "agora"} />
-          <button type="button" onClick={() => void tocar(0)} className="min-h-12 rounded-xl border border-borda px-6 font-semibold text-tinta">
-            Rezar de novo
-          </button>
-        </div>
       ) : (
-        atual && (
-          <section className={`flex min-h-64 flex-col justify-center gap-3 rounded-3xl border p-6 ${atual.vez === "voce" && responder ? "border-destaque-texto bg-marca-fundo" : "border-borda bg-cartao"}`}>
-            <p className="text-xs font-semibold uppercase tracking-wide text-destaque-texto">{atual.vez === "voce" && responder ? `${atual.rotulo} · sua vez` : atual.rotulo}</p>
-            <p className="font-leitura text-xl leading-relaxed text-tinta">{atual.texto}</p>
-            <p className="text-sm text-tinta-suave">{`${Math.min(indice + 1, falas.length)} de ${falas.length}`}</p>
-          </section>
-        )
-      )}
-      <label className="flex min-h-11 items-center justify-between gap-4">
-        <span className="font-medium text-tinta">Responder em voz alta</span>
-        <input type="checkbox" checked={responder} onChange={(e) => setResponder(e.target.checked)} className="size-6 accent-destaque" />
-      </label>
-      <div className="fixed inset-x-0 bottom-[calc(4rem+env(safe-area-inset-bottom))] z-20 px-3 pb-3 md:bottom-0 md:left-60 md:pb-6">
-        <div className="mx-auto grid max-w-xl grid-cols-[auto_minmax(0,1fr)_auto_auto] gap-2 rounded-3xl bg-cartao p-2 shadow-lg">
-          <button type="button" onClick={() => ir(indice - 1)} aria-label="Voltar" className="grid size-[52px] place-items-center rounded-xl border border-borda text-tinta">
-            <SkipBack className="size-6" aria-hidden />
-          </button>
-          <button
-            type="button"
-            disabled={!falas?.length || !vozDisponivel()}
-            onClick={() => (tocando ? parar() : void tocar(terminou ? 0 : indice))}
-            className="flex min-h-[52px] min-w-0 items-center justify-center gap-2 rounded-xl bg-primario px-2 text-lg font-semibold text-sobre-primario disabled:opacity-50"
-          >
-            {tocando ? <Pause className="size-6" aria-hidden /> : <Play className="size-6" aria-hidden />}
-            <span className="truncate">{tocando ? "Pausar" : indice > 0 && !terminou ? "Continuar" : "Começar"}</span>
-          </button>
-          <button type="button" onClick={() => ir(indice + 1)} aria-label="Avançar" className="grid size-[52px] place-items-center rounded-xl border border-borda text-tinta">
-            <SkipForward className="size-6" aria-hidden />
-          </button>
-          <button
-            type="button"
-            onClick={() => {
-              parar();
-              setIndice(0);
-            }}
-            aria-label="Parar"
-            className="grid size-[52px] place-items-center rounded-xl border border-borda text-tinta"
-          >
-            <Square className="size-5" aria-hidden />
-          </button>
-          {tocando && <AvisoDaVoz className="col-span-4" />}
+        <div className="flex flex-col gap-3">
+          {blocos.map((b) => {
+            const aqui = atual >= b.inicio && atual < b.fim;
+            return (
+              <section
+                key={b.inicio}
+                ref={aqui ? blocoAtual : undefined}
+                aria-current={aqui ? "step" : undefined}
+                className={`flex flex-col gap-2 rounded-3xl border p-5 transition-colors ${aqui ? "border-destaque-texto bg-marca-fundo" : "border-borda bg-cartao"}`}
+              >
+                <p className="text-xs font-semibold uppercase tracking-wide text-destaque-texto">{b.vezes > 1 ? `${b.rotulo} · ${b.vezes} vezes` : b.rotulo}</p>
+                {b.falas.map((f, i) => (
+                  <p key={i} className={`font-leitura text-lg leading-relaxed text-tinta ${f.vez === "voce" ? "font-semibold" : ""}`}>
+                    {f.texto}
+                  </p>
+                ))}
+              </section>
+            );
+          })}
+          <div ref={fimDaLeitura} className="flex flex-col items-center gap-3 py-4">
+            <RezandoJuntos reza={momento === "terco" || momento === "misericordia" ? momento : "agora"} />
+          </div>
         </div>
-      </div>
+      )}
+      {comVoz && (
+        <div className="fixed inset-x-0 bottom-[calc(4rem+env(safe-area-inset-bottom))] z-20 px-3 pb-3 md:bottom-0 md:left-60 md:pb-6">
+          <div className="mx-auto grid max-w-xl grid-cols-[auto_minmax(0,1fr)_auto_auto] gap-2 rounded-3xl border border-borda bg-cartao p-2 shadow-lg">
+            <button type="button" onClick={() => ir(indice - 1)} aria-label="Anterior" className="grid size-[52px] place-items-center rounded-xl border border-borda text-tinta">
+              <SkipBack className="size-6" aria-hidden />
+            </button>
+            <button
+              type="button"
+              onClick={() => (tocando ? parar() : void tocar(indice))}
+              className="flex min-h-[52px] min-w-0 items-center justify-center gap-2 rounded-xl bg-primario px-2 text-lg font-semibold text-sobre-primario"
+            >
+              {tocando ? <Pause className="size-6" aria-hidden /> : <Play className="size-6" aria-hidden />}
+              <span className="truncate">{tocando ? "Pausar" : "Continuar"}</span>
+            </button>
+            <button type="button" onClick={() => ir(indice + 1)} aria-label="Próxima" className="grid size-[52px] place-items-center rounded-xl border border-borda text-tinta">
+              <SkipForward className="size-6" aria-hidden />
+            </button>
+            <button type="button" onClick={fecharVoz} aria-label="Sair da voz" className="grid size-[52px] place-items-center rounded-xl border border-borda text-tinta">
+              <X className="size-6" aria-hidden />
+            </button>
+            <label className="col-span-4 flex min-h-11 items-center justify-between gap-4 px-2">
+              <span className="text-sm font-medium text-tinta">Responder em voz alta</span>
+              <input type="checkbox" checked={responder} onChange={(e) => setResponder(e.target.checked)} className="size-6 accent-destaque" />
+            </label>
+            <AvisoDaVoz className="col-span-4" />
+          </div>
+        </div>
+      )}
     </div>
   );
 }

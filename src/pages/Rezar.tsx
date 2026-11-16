@@ -61,7 +61,7 @@ export default function Rezar() {
   const agora = [
     { para: "/rezar/terco", titulo: "Terço", detalhe: `${misteriosDoDia(l.data).nome} · 20 min`, imagem: "rosario", alt: "Virgem do Rosário, de Murillo", foco: "50% 22%" },
     { para: "/rezar/agora?m=angelus", titulo: "Ângelus", detalhe: "Às 6h, 12h e 18h · 2 min", imagem: "anunciacao", alt: "Anunciação, de Fra Angelico", foco: "72% 50%" },
-    { para: "/rezar/agora?m=noite", titulo: "Oração da noite", detalhe: "Com voz · 2 min", imagem: "pai-nosso", alt: "O Pai-Nosso, de James Tissot", foco: "50% 35%" },
+    { para: "/rezar/agora?m=noite", titulo: "Oração da noite", detalhe: "2 min", imagem: "pai-nosso", alt: "O Pai-Nosso, de James Tissot", foco: "50% 35%" },
   ];
 
   return (
@@ -94,7 +94,7 @@ export default function Rezar() {
           </Grupo>
         )}
         <Grupo titulo="Todos os dias">
-          <ItemLista icone={AudioLines} titulo="Rezar agora, com voz" detalhe="O celular conduz em voz alta" para="/rezar/agora" {...foto("/rezar/agora")} />
+          <ItemLista icone={AudioLines} titulo="Rezar agora" detalhe="Evangelho, Ângelus, terço e noite" para="/rezar/agora" {...foto("/rezar/agora")} />
           <ItemLista icone={CircleDot} titulo="Terço" detalhe={`Hoje: ${misteriosDoDia(l.data).nome} · 20 min`} para="/rezar/terco" {...foto("/rezar/terco")} />
           <ItemLista icone={Users} titulo="Terço da Juventude" detalhe="Encontros perto de você" para="/tercos" {...foto("/tercos")} />
           <ItemLista icone={HandHeart} titulo="Orações" detalhe="Em português e latim" para="/rezar/oracoes" {...foto("/rezar/oracoes")} />
