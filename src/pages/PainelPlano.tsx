@@ -349,7 +349,7 @@ export function VotacaoNoPainel() {
           <div key={o.id} className="flex items-center gap-2">
             <span className="min-w-0 flex-1 text-tinta">{o.titulo}</span>
             <span className="text-sm text-tinta-suave">{`${o.votos} ${o.votos === 1 ? "voto" : "votos"}`}</span>
-            <button type="button" onClick={() => executar(encerrarOpcaoDeVoto(o.id), recarregar)} className="min-h-10 rounded-full border border-borda px-3 text-sm font-medium text-tinta-suave">
+            <button type="button" onClick={() => executar(encerrarOpcaoDeVoto(o.id), recarregar)} className="min-h-11 rounded-full border border-borda px-3 text-sm font-medium text-tinta-suave">
               Encerrar
             </button>
           </div>
@@ -404,11 +404,11 @@ function ItemDaInscricao({ i, aoMudar }: { i: Inscricao; aoMudar: () => void }) 
       </p>
       {i.observacao && <p className="whitespace-pre-line text-sm text-tinta">{i.observacao}</p>}
       <div className="flex flex-wrap gap-2">
-        <a href={`https://wa.me/55${telefoneNacional(i.telefone)}`} target="_blank" rel="noreferrer" className="flex min-h-10 items-center rounded-full border border-borda px-4 text-sm font-medium text-destaque-texto">
+        <a href={`https://wa.me/55${telefoneNacional(i.telefone)}`} target="_blank" rel="noreferrer" className="flex min-h-11 items-center rounded-full border border-borda px-4 text-sm font-medium text-destaque-texto">
           {telefoneLegivel(telefoneNacional(i.telefone))}
         </a>
         {i.situacao !== "confirmada" && (
-          <button type="button" onClick={() => mudar("confirmada")} className="min-h-10 rounded-full bg-primario px-4 text-sm font-semibold text-sobre-primario">
+          <button type="button" onClick={() => mudar("confirmada")} className="min-h-11 rounded-full bg-primario px-4 text-sm font-semibold text-sobre-primario">
             Confirmar
           </button>
         )}
@@ -418,7 +418,7 @@ function ItemDaInscricao({ i, aoMudar }: { i: Inscricao; aoMudar: () => void }) 
             onClick={() => {
               if (confirm(`Cancelar a inscrição de ${i.nome}?`)) mudar("cancelada");
             }}
-            className="min-h-10 rounded-full border border-borda px-4 text-sm font-medium text-tinta-suave"
+            className="min-h-11 rounded-full border border-borda px-4 text-sm font-medium text-tinta-suave"
           >
             Cancelar
           </button>
@@ -504,7 +504,7 @@ export function InscricoesDaTurma() {
             role="tab"
             aria-selected={(params.get("aba") ?? "") === v}
             onClick={() => setParams(v ? { aba: v } : {}, { replace: true })}
-            className={`min-h-10 rounded-lg font-medium ${(params.get("aba") ?? "") === v ? "bg-primario text-sobre-primario" : "text-tinta-suave"}`}
+            className={`min-h-11 rounded-lg font-medium ${(params.get("aba") ?? "") === v ? "bg-primario text-sobre-primario" : "text-tinta-suave"}`}
           >
             {nome}
           </button>
@@ -522,7 +522,7 @@ export function InscricoesDaTurma() {
           <Download className="size-4" aria-hidden /> {baixando ? "Preparando" : "Planilha"}
         </button>
       </div>
-      <div className="flex gap-2 overflow-x-auto pb-1" role="group">
+      <div className="sem-barra -mx-4 flex gap-2 overflow-x-auto px-4 pb-1" role="group">
         {FILTROS.map(([v, nome]) => (
           <button
             key={v}
@@ -533,7 +533,7 @@ export function InscricoesDaTurma() {
               p.set("situacao", v);
               setParams(p, { replace: true });
             }}
-            className={`min-h-10 shrink-0 rounded-full border px-4 text-sm font-medium ${situacao === v ? "border-primario bg-primario text-sobre-primario" : "border-borda bg-cartao text-tinta"}`}
+            className={`min-h-11 shrink-0 rounded-full border px-4 text-sm font-medium ${situacao === v ? "border-primario bg-primario text-sobre-primario" : "border-borda bg-cartao text-tinta"}`}
           >
             {nome}
           </button>
@@ -652,7 +652,7 @@ function EncontrosNoPainel({ turma }: { turma: string }) {
                       onClick={() => {
                         if (confirm("Apagar este encontro?")) executar(apagarEncontroDaTurma(e.id), recarregar);
                       }}
-                      className="mt-2 min-h-10 w-fit text-sm font-medium text-[#a9271f]"
+                      className="mt-2 min-h-11 w-fit text-sm font-medium text-[#a9271f]"
                     >
                       Apagar encontro
                     </button>
@@ -737,7 +737,7 @@ export function IntencoesDaParoquia() {
                       })
                       .catch(() => {})
                   }
-                  className="min-h-10 shrink-0 rounded-full border border-borda px-3 text-sm font-medium text-tinta"
+                  className="min-h-11 shrink-0 rounded-full border border-borda px-3 text-sm font-medium text-tinta"
                 >
                   {copiado === chave ? "Copiada" : "Copiar lista"}
                 </button>
@@ -757,10 +757,10 @@ export function IntencoesDaParoquia() {
                     </div>
                     {i.situacao === "recebida" && (
                       <div className="flex gap-2">
-                        <button type="button" onClick={() => executar(mudarSituacaoDaIntencao(i.id, "confirmada"), recarregar)} className="min-h-10 rounded-full bg-primario px-4 text-sm font-semibold text-sobre-primario">
+                        <button type="button" onClick={() => executar(mudarSituacaoDaIntencao(i.id, "confirmada"), recarregar)} className="min-h-11 rounded-full bg-primario px-4 text-sm font-semibold text-sobre-primario">
                           Confirmar
                         </button>
-                        <button type="button" onClick={() => executar(mudarSituacaoDaIntencao(i.id, "recusada"), recarregar)} className="min-h-10 rounded-full border border-borda px-4 text-sm font-medium text-tinta-suave">
+                        <button type="button" onClick={() => executar(mudarSituacaoDaIntencao(i.id, "recusada"), recarregar)} className="min-h-11 rounded-full border border-borda px-4 text-sm font-medium text-tinta-suave">
                           Recusar
                         </button>
                       </div>

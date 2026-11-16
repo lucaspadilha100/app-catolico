@@ -302,7 +302,7 @@ export default function Divulgacao() {
                 role="tab"
                 aria-selected={quando === valor}
                 onClick={() => setQuando(valor)}
-                className={`min-h-10 rounded-lg px-5 text-sm font-medium ${quando === valor ? "bg-primario text-sobre-primario" : "text-tinta-suave"}`}
+                className={`min-h-11 rounded-lg px-5 text-sm font-medium ${quando === valor ? "bg-primario text-sobre-primario" : "text-tinta-suave"}`}
               >
                 {nome}
               </button>

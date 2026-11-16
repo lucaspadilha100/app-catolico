@@ -119,7 +119,7 @@ export function Inscricoes({ paroquia, email }: { paroquia: string; email: strin
                     onClick={() => {
                       if (confirm(`Cancelar a inscrição de ${i.nome}?`)) void mudarSituacao(i.id, "cancelada").then(() => setVersao((v) => v + 1));
                     }}
-                    className="min-h-10 shrink-0 rounded-full border border-borda px-3 text-sm font-medium text-tinta-suave"
+                    className="min-h-11 shrink-0 rounded-full border border-borda px-3 text-sm font-medium text-tinta-suave"
                   >
                     Cancelar
                   </button>

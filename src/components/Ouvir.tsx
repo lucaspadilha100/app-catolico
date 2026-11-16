@@ -27,7 +27,7 @@ export function AvisoDaVoz({ className = "" }: { className?: string }) {
       {comLink && (
         <>
           {" "}
-          <Link to="/apoie" className="py-1 font-semibold text-destaque-texto underline underline-offset-2">
+          <Link to="/apoie" className="inline-flex min-h-11 items-center px-1 font-semibold text-destaque-texto underline underline-offset-2">
             Apoiar
           </Link>
         </>
@@ -42,6 +42,11 @@ export function TocadorDeVoz({ titulo, partes, aoFechar }: { titulo: string; par
   const [tocando, setTocando] = useState(false);
   const [velocidade, setVelocidade] = useState(lerVelocidade);
   const rodada = useRef(0);
+
+  useEffect(() => {
+    document.documentElement.classList.add("com-tocador");
+    return () => document.documentElement.classList.remove("com-tocador");
+  }, []);
 
   useEffect(() => {
     let ativo = true;

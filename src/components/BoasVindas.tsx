@@ -156,7 +156,7 @@ function PassoCidade({ seguir, aoEscolher }: { seguir: () => void; aoEscolher: (
       {estado === "negado" && <p className="text-center text-sm text-tinta-suave">A localização está bloqueada para este app.</p>}
       <label className={CAMPO}>
         <Search className="size-5 shrink-0 text-tinta-suave" aria-hidden />
-        <input value={termo} onChange={(e) => setTermo(e.target.value)} placeholder="Procurar cidade" aria-label="Procurar cidade" autoComplete="off" className="min-w-0 flex-1 bg-transparent py-2 text-base outline-none placeholder:text-tinta-suave/70" />
+        <input value={termo} onChange={(e) => setTermo(e.target.value)} placeholder="Procurar cidade" aria-label="Procurar cidade" autoComplete="off" className="min-w-0 flex-1 bg-transparent py-2 text-base outline-none placeholder:text-tinta-suave" />
       </label>
       {achadas.length > 0 && (
         <div className={LISTA}>
@@ -214,7 +214,7 @@ function PassoParoquia({ onde, terminar }: { onde: Cidade | "perto" | null; term
       <h2 className="text-3xl font-extrabold text-marca tracking-[-0.02em]">Sua paróquia</h2>
       <label className={CAMPO}>
         <Search className="size-5 shrink-0 text-tinta-suave" aria-hidden />
-        <input value={termo} onChange={(e) => setTermo(e.target.value)} placeholder="Igreja, padroeiro ou bairro" aria-label="Procurar paróquia" autoComplete="off" className="min-w-0 flex-1 bg-transparent py-2 text-base outline-none placeholder:text-tinta-suave/70" />
+        <input value={termo} onChange={(e) => setTermo(e.target.value)} placeholder="Igreja, padroeiro ou bairro" aria-label="Procurar paróquia" autoComplete="off" className="min-w-0 flex-1 bg-transparent py-2 text-base outline-none placeholder:text-tinta-suave" />
       </label>
       {lista && lista.length > 0 && (
         <div className={LISTA}>

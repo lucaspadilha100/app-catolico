@@ -31,7 +31,7 @@
 :root[data-cor="verde"] {
   --destaque: #2e7a4d;
   --sobre-destaque: #ffffff;
-  --destaque-texto: #2e7a4d;
+  --destaque-texto: #286b44;
 }
 :root[data-cor="roxo"] {
   --destaque: #64398f;
@@ -51,7 +51,7 @@
 :root[data-cor="branco"] {
   --destaque: #c9a13b;
   --sobre-destaque: #2b1a0c;
-  --destaque-texto: #8a6714;
+  --destaque-texto: #7a5a10;
 }
 :root[data-tema="escuro"][data-cor="verde"],
 :root[data-tema="escuro"]:not([data-cor]) {
@@ -109,7 +109,7 @@
 :root[data-destaque="dourado"] {
   --destaque: #c9a13b;
   --sobre-destaque: #2b1a0c;
-  --destaque-texto: #8a6714;
+  --destaque-texto: #7a5a10;
 }
 :root[data-tema="escuro"][data-destaque="mariano"] {
   --destaque-texto: #8fb5e0;
@@ -230,4 +230,8 @@ textarea {
   &::-webkit-scrollbar {
     display: none;
   }
+}
+
+html.com-tocador main {
+  padding-bottom: 15rem;
 }

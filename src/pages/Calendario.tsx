@@ -74,15 +74,15 @@ export default function Calendario() {
         <TituloPagina>Calendário</TituloPagina>
       </div>
 
-      <Cartao className="p-3 sm:p-5">
+      <Cartao className="p-1.5 sm:p-5">
         <div className="mb-3 flex items-center justify-between">
-          <button type="button" onClick={() => mesVizinho(-1)} aria-label="Mês anterior" className="grid size-11 place-items-center rounded-xl text-tinta-suave">
+          <button type="button" onClick={() => mesVizinho(-1)} aria-label="Mês anterior" className="grid size-11 shrink-0 place-items-center rounded-xl text-tinta-suave">
             <ChevronLeft className="size-6" aria-hidden />
           </button>
-          <h2 className="text-xl font-bold text-marca tracking-[-0.02em]">
+          <h2 className="min-w-0 text-center text-lg font-bold text-marca tracking-[-0.02em] sm:text-xl">
             {MESES[mes - 1]} de {ano}
           </h2>
-          <button type="button" onClick={() => mesVizinho(1)} aria-label="Próximo mês" className="grid size-11 place-items-center rounded-xl text-tinta-suave">
+          <button type="button" onClick={() => mesVizinho(1)} aria-label="Próximo mês" className="grid size-11 shrink-0 place-items-center rounded-xl text-tinta-suave">
             <ChevronRight className="size-6" aria-hidden />
           </button>
         </div>

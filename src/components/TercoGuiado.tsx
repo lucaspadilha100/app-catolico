@@ -432,7 +432,7 @@ export function InicioDoTerco({
           onChange={(e) => setIntencao(e.target.value)}
           placeholder="Rezo este terço por…"
           maxLength={140}
-          className="min-h-12 rounded-xl border border-borda bg-cartao px-4 outline-none placeholder:text-tinta-suave/70 focus:border-destaque-texto"
+          className="min-h-12 rounded-xl border border-borda bg-cartao px-4 outline-none placeholder:text-tinta-suave focus:border-destaque-texto"
           autoComplete="off"
         />
       </label>

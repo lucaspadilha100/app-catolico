@@ -128,7 +128,7 @@ function ItemDeIntencao({ i, eu, aoApagar }: { i: Intencao; eu: string | null; a
             </button>
           </form>
         ) : (
-          <button type="button" onClick={() => setContando(true)} className="flex min-h-10 w-fit items-center gap-1.5 rounded-full border border-borda px-4 text-sm font-medium text-destaque-texto">
+          <button type="button" onClick={() => setContando(true)} className="flex min-h-11 w-fit items-center gap-1.5 rounded-full border border-borda px-4 text-sm font-medium text-destaque-texto">
             <Sparkles className="size-4" aria-hidden /> Graça alcançada
           </button>
         )
@@ -141,14 +141,14 @@ function ItemDeIntencao({ i, eu, aoApagar }: { i: Intencao; eu: string | null; a
         </span>
         {meu ? (
           aoApagar && (
-            <button type="button" onClick={aoApagar} aria-label="Apagar pedido" className="grid size-10 place-items-center rounded-full text-tinta-suave hover:bg-marca-fundo">
+            <button type="button" onClick={aoApagar} aria-label="Apagar pedido" className="grid size-11 place-items-center rounded-full text-tinta-suave hover:bg-marca-fundo">
               <Trash2 className="size-4" aria-hidden />
             </button>
           )
         ) : (
           <>
             {!denunciada && (
-              <button type="button" onClick={() => setDenunciando(!denunciando)} aria-label="Denunciar" className="grid size-10 place-items-center rounded-full text-tinta-suave hover:bg-marca-fundo">
+              <button type="button" onClick={() => setDenunciando(!denunciando)} aria-label="Denunciar" className="grid size-11 place-items-center rounded-full text-tinta-suave hover:bg-marca-fundo">
                 <Flag className="size-4" aria-hidden />
               </button>
             )}
@@ -156,7 +156,7 @@ function ItemDeIntencao({ i, eu, aoApagar }: { i: Intencao; eu: string | null; a
               type="button"
               onClick={() => void rezar()}
               disabled={rezei}
-              className={`flex min-h-10 items-center gap-1.5 rounded-full px-4 text-sm font-semibold ${rezei ? "bg-marca-fundo text-destaque-texto" : "bg-primario text-sobre-primario"}`}
+              className={`flex min-h-11 items-center gap-1.5 rounded-full px-4 text-sm font-semibold ${rezei ? "bg-marca-fundo text-destaque-texto" : "bg-primario text-sobre-primario"}`}
             >
               {rezei ? <Check className="size-4" aria-hidden /> : <HandHeart className="size-4" aria-hidden />}
               {rezei ? "Rezei" : "Rezei por você"}
@@ -174,7 +174,7 @@ function ItemDeIntencao({ i, eu, aoApagar }: { i: Intencao; eu: string | null; a
               ["outro", "Outro motivo"],
             ] as const
           ).map(([m, rotulo]) => (
-            <button key={m} type="button" onClick={() => void enviarDenuncia(m)} className="min-h-10 rounded-full border border-borda bg-cartao px-4 text-sm font-medium text-tinta">
+            <button key={m} type="button" onClick={() => void enviarDenuncia(m)} className="min-h-11 rounded-full border border-borda bg-cartao px-4 text-sm font-medium text-tinta">
               {rotulo}
             </button>
           ))}
@@ -216,7 +216,7 @@ function PedirOracao({ grupo, aoPedir }: { grupo?: string; aoPedir: () => void }
               type="button"
               aria-pressed={tipo === t.id}
               onClick={() => setTipo(t.id)}
-              className={`min-h-10 rounded-full border px-4 text-sm font-medium ${tipo === t.id ? "border-transparent bg-primario text-sobre-primario" : "border-borda bg-cartao text-tinta"}`}
+              className={`min-h-11 rounded-full border px-4 text-sm font-medium ${tipo === t.id ? "border-transparent bg-primario text-sobre-primario" : "border-borda bg-cartao text-tinta"}`}
             >
               {t.rotulo}
             </button>
@@ -425,7 +425,7 @@ export function Grupos() {
                   type="button"
                   aria-pressed={tipo === t}
                   onClick={() => setTipo(t)}
-                  className={`min-h-10 rounded-full border px-4 text-sm font-medium ${tipo === t ? "border-transparent bg-primario text-sobre-primario" : "border-borda bg-cartao text-tinta"}`}
+                  className={`min-h-11 rounded-full border px-4 text-sm font-medium ${tipo === t ? "border-transparent bg-primario text-sobre-primario" : "border-borda bg-cartao text-tinta"}`}
                 >
                   {NOME_DO_TIPO_DE_GRUPO[t]}
                 </button>
@@ -607,7 +607,7 @@ export function GrupoPagina() {
                 onClick={() => {
                   if (confirm(`Tirar ${m.nome} do grupo?`)) executar(sairDoGrupo(grupo.id, m.usuario_id), () => setVersao((v) => v + 1));
                 }}
-                className="grid size-10 place-items-center rounded-full text-tinta-suave hover:bg-marca-fundo"
+                className="grid size-11 place-items-center rounded-full text-tinta-suave hover:bg-marca-fundo"
               >
                 <UserMinus className="size-4" aria-hidden />
               </button>

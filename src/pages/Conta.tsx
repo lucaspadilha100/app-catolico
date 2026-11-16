@@ -77,7 +77,7 @@ function Entrar() {
               role="tab"
               aria-selected={modo === v}
               onClick={() => trocar(v)}
-              className={`min-h-10 rounded-lg text-sm font-semibold ${modo === v ? "bg-primario text-sobre-primario" : "text-tinta-suave"}`}
+              className={`min-h-11 rounded-lg text-sm font-semibold ${modo === v ? "bg-primario text-sobre-primario" : "text-tinta-suave"}`}
             >
               {nome}
             </button>

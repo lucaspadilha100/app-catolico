@@ -32,8 +32,8 @@ import {
 const CAMPO = "min-h-12 w-full min-w-0 rounded-xl border border-borda bg-papel px-3 text-base text-tinta outline-none focus:border-destaque-texto";
 const BOTAO = "flex min-h-12 items-center justify-center gap-2 rounded-xl bg-primario px-4 font-semibold text-sobre-primario disabled:opacity-50";
 const BOTAO_CLARO = "flex min-h-12 items-center justify-center gap-2 rounded-xl border border-borda bg-cartao px-4 font-semibold text-tinta disabled:opacity-50";
-const PILULA = "min-h-10 rounded-full border border-borda px-4 text-sm font-medium text-tinta";
-const PILULA_FORTE = "min-h-10 rounded-full bg-primario px-4 text-sm font-semibold text-sobre-primario";
+const PILULA = "min-h-11 rounded-full border border-borda px-4 text-sm font-medium text-tinta";
+const PILULA_FORTE = "min-h-11 rounded-full bg-primario px-4 text-sm font-semibold text-sobre-primario";
 const TITULO = "px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto";
 
 function Campo({ rotulo, children }: { rotulo: string; children: ReactNode }) {
@@ -167,7 +167,7 @@ function ItemNaEscala({ i, eu, coordeno, membros, aoMudar }: { i: ItemDaEscala; 
       {i.troca_pedida && <p className="text-sm font-medium text-destaque-texto">Pediu troca</p>}
       <div className="flex flex-wrap gap-2">
         {coordeno && (
-          <select value={i.membro_id ?? ""} onChange={(e) => mudar({ membro_id: e.target.value || null })} aria-label="Quem serve" className="min-h-10 min-w-0 flex-1 rounded-full border border-borda bg-papel px-3 text-sm text-tinta">
+          <select value={i.membro_id ?? ""} onChange={(e) => mudar({ membro_id: e.target.value || null })} aria-label="Quem serve" className="min-h-11 min-w-0 flex-1 rounded-full border border-borda bg-papel px-3 text-sm text-tinta">
             <option value="">Vago</option>
             {membros.map((m) => (
               <option key={m.usuario_id} value={m.usuario_id}>
@@ -193,7 +193,7 @@ function ItemNaEscala({ i, eu, coordeno, membros, aoMudar }: { i: ItemDaEscala; 
               if (confirm("Tirar da escala?")) executar(apagarItem(i.id), aoMudar);
             }}
             aria-label="Tirar da escala"
-            className="grid size-10 place-items-center rounded-full text-tinta-suave hover:bg-marca-fundo"
+            className="grid size-11 place-items-center rounded-full text-tinta-suave hover:bg-marca-fundo"
           >
             <Trash2 className="size-4" aria-hidden />
           </button>
@@ -257,7 +257,7 @@ export function MinisterioPagina() {
             ["equipe", `Equipe (${membros.length})`],
           ] as const
         ).map(([v, nome]) => (
-          <button key={v} type="button" role="tab" aria-selected={aba === v} onClick={() => setParams(v === "escala" ? {} : { aba: v }, { replace: true })} className={`min-h-10 rounded-lg font-medium ${aba === v ? "bg-primario text-sobre-primario" : "text-tinta-suave"}`}>
+          <button key={v} type="button" role="tab" aria-selected={aba === v} onClick={() => setParams(v === "escala" ? {} : { aba: v }, { replace: true })} className={`min-h-11 rounded-lg font-medium ${aba === v ? "bg-primario text-sobre-primario" : "text-tinta-suave"}`}>
             {nome}
           </button>
         ))}
@@ -302,7 +302,7 @@ export function MinisterioPagina() {
                 </span>
                 {coordeno && m.usuario_id !== ministerio.dono_id && (
                   <>
-                    <button type="button" onClick={() => executar(mudarMembro(ministerio.id, m.usuario_id, { coordena: !m.coordena }), recarregar)} className="min-h-10 rounded-full border border-borda px-3 text-xs font-medium text-tinta">
+                    <button type="button" onClick={() => executar(mudarMembro(ministerio.id, m.usuario_id, { coordena: !m.coordena }), recarregar)} className="min-h-11 rounded-full border border-borda px-3 text-xs font-medium text-tinta">
                       {m.coordena ? "Tirar coordenação" : "Coordena"}
                     </button>
                     <button
@@ -311,7 +311,7 @@ export function MinisterioPagina() {
                         if (confirm(`Tirar ${m.nome} da equipe?`)) executar(tirarMembro(ministerio.id, m.usuario_id), recarregar);
                       }}
                       aria-label={`Tirar ${m.nome}`}
-                      className="grid size-10 shrink-0 place-items-center rounded-full text-tinta-suave hover:bg-marca-fundo"
+                      className="grid size-11 shrink-0 place-items-center rounded-full text-tinta-suave hover:bg-marca-fundo"
                     >
                       <Trash2 className="size-4" aria-hidden />
                     </button>

@@ -87,7 +87,7 @@ export function IntencoesDeMissa({ p, horarios, email }: { p: Paroquia; horarios
                   onClick={() => {
                     if (confirm("Cancelar este pedido?")) void mudarSituacaoDaIntencao(i.id, "cancelada").then(() => setMinhas(minhas.map((x) => (x.id === i.id ? { ...x, situacao: "cancelada" } : x))));
                   }}
-                  className="min-h-10 shrink-0 rounded-full border border-borda px-3 text-sm font-medium text-tinta-suave"
+                  className="min-h-11 shrink-0 rounded-full border border-borda px-3 text-sm font-medium text-tinta-suave"
                 >
                   Cancelar
                 </button>

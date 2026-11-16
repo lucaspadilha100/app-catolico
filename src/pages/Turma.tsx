@@ -39,7 +39,7 @@ export default function Turma() {
       </div>
       {e.material && <p className="whitespace-pre-line text-tinta">{e.material}</p>}
       {e.link && (
-        <a href={e.link} target="_blank" rel="noreferrer" className="flex min-h-10 w-fit items-center gap-1.5 rounded-full border border-borda px-4 text-sm font-medium text-destaque-texto">
+        <a href={e.link} target="_blank" rel="noreferrer" className="flex min-h-11 w-fit items-center gap-1.5 rounded-full border border-borda px-4 text-sm font-medium text-destaque-texto">
           <ExternalLink className="size-4" aria-hidden /> Material
         </a>
       )}

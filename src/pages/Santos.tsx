@@ -141,7 +141,7 @@ export function Santos() {
           type="search"
           enterKeyHint="search"
           autoComplete="off"
-          className="min-w-0 flex-1 bg-transparent py-2 text-base outline-none placeholder:text-tinta-suave/70"
+          className="min-w-0 flex-1 bg-transparent py-2 text-base outline-none placeholder:text-tinta-suave"
         />
       </label>
       {buscando ? (
@@ -254,7 +254,7 @@ export function GrupoDeSantos() {
                 type="button"
                 aria-pressed={v === mesAtual}
                 onClick={() => setMes(v)}
-                className={`min-h-10 rounded-lg border text-sm font-medium ${v === mesAtual ? "border-transparent bg-primario text-sobre-primario" : "border-borda bg-cartao text-tinta"}`}
+                className={`min-h-11 rounded-lg border text-sm font-medium ${v === mesAtual ? "border-transparent bg-primario text-sobre-primario" : "border-borda bg-cartao text-tinta"}`}
               >
                 {nome}
               </button>

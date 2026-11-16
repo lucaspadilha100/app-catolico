@@ -96,7 +96,7 @@ export default function Creditos() {
               type="button"
               aria-pressed={l === letra}
               onClick={() => setLetra(l)}
-              className={`min-h-10 rounded-lg border text-sm font-medium ${l === letra ? "border-transparent bg-primario text-sobre-primario" : "border-borda bg-cartao text-tinta"}`}
+              className={`min-h-11 rounded-lg border text-sm font-medium ${l === letra ? "border-transparent bg-primario text-sobre-primario" : "border-borda bg-cartao text-tinta"}`}
             >
               {l}
             </button>

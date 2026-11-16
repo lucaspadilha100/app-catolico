@@ -54,7 +54,7 @@ export function BarraDoVersiculo({ referencia, aviso, aoFechar }: Props) {
       >
         <div className="flex items-center justify-between gap-3">
           <p className="font-semibold text-tinta">{referencia}</p>
-          <button type="button" onClick={aoFechar} aria-label="Fechar" className="-mr-2 flex size-10 items-center justify-center rounded-xl text-tinta-suave">
+          <button type="button" onClick={aoFechar} aria-label="Fechar" className="-mr-2 flex size-11 items-center justify-center rounded-xl text-tinta-suave">
             <X className="size-5" aria-hidden />
           </button>
         </div>

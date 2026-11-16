@@ -64,7 +64,7 @@ function Chips({ opcoes, valor, onChange }: { opcoes: [string, string][]; valor:
           type="button"
           aria-pressed={v === valor}
           onClick={() => onChange(v)}
-          className={`min-h-10 shrink-0 rounded-full border px-4 text-sm font-medium whitespace-nowrap ${v === valor ? "border-transparent bg-primario text-sobre-primario" : "border-borda bg-cartao text-tinta"}`}
+          className={`min-h-11 shrink-0 rounded-full border px-4 text-sm font-medium whitespace-nowrap ${v === valor ? "border-transparent bg-primario text-sobre-primario" : "border-borda bg-cartao text-tinta"}`}
         >
           {nome}
         </button>

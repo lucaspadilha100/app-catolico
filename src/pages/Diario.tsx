@@ -44,7 +44,7 @@ function Diario() {
               type="button"
               onClick={() => window.confirm("Apagar este texto do diário?") && mudar((c) => ({ ...c, diario: c.diario.filter((x) => x.id !== e.id) }))}
               aria-label="Apagar"
-              className="grid size-10 place-items-center rounded-xl text-tinta-suave"
+              className="grid size-11 place-items-center rounded-xl text-tinta-suave"
             >
               <Trash2 className="size-4" aria-hidden />
             </button>
@@ -99,7 +99,7 @@ function Propositos() {
               type="button"
               onClick={() => mudar((c) => ({ ...c, propositos: c.propositos.filter((x) => x.id !== p.id) }))}
               aria-label="Apagar"
-              className="grid size-10 place-items-center rounded-xl text-tinta-suave"
+              className="grid size-11 place-items-center rounded-xl text-tinta-suave"
             >
               <Trash2 className="size-4" aria-hidden />
             </button>
@@ -134,7 +134,7 @@ export default function DiarioEspiritual() {
                 role="tab"
                 aria-selected={aba === valor}
                 onClick={() => setParams(valor === "diario" ? {} : { aba: valor }, { replace: true })}
-                className={`min-h-10 rounded-lg px-4 text-sm font-medium ${aba === valor ? "bg-primario text-sobre-primario" : "text-tinta-suave"}`}
+                className={`min-h-11 rounded-lg px-4 text-sm font-medium ${aba === valor ? "bg-primario text-sobre-primario" : "text-tinta-suave"}`}
               >
                 {nome}
               </button>

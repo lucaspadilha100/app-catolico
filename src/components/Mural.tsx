@@ -37,7 +37,7 @@ function ItemDoMural({ p, podeEditar, aoApagar }: { p: Publicacao; podeEditar: b
               if (confirm("Apagar esta publicação?")) aoApagar();
             }}
             aria-label="Apagar"
-            className="grid size-10 shrink-0 place-items-center rounded-full text-tinta-suave hover:bg-marca-fundo"
+            className="grid size-11 shrink-0 place-items-center rounded-full text-tinta-suave hover:bg-marca-fundo"
           >
             <Trash2 className="size-4" aria-hidden />
           </button>
@@ -45,7 +45,7 @@ function ItemDoMural({ p, podeEditar, aoApagar }: { p: Publicacao; podeEditar: b
       </div>
       {p.texto && <p className="whitespace-pre-line text-tinta">{p.texto}</p>}
       {p.link && (
-        <a href={p.link} target="_blank" rel="noreferrer" className="flex min-h-10 w-fit items-center gap-1.5 rounded-full border border-borda px-4 text-sm font-medium text-destaque-texto">
+        <a href={p.link} target="_blank" rel="noreferrer" className="flex min-h-11 w-fit items-center gap-1.5 rounded-full border border-borda px-4 text-sm font-medium text-destaque-texto">
           <ExternalLink className="size-4" aria-hidden /> {instagram ? "Ver no Instagram" : "Abrir link"}
         </a>
       )}
@@ -95,7 +95,7 @@ function Publicar({ paroquia, aoPublicar }: { paroquia: string; aoPublicar: () =
               ["evento", "Evento"],
             ] as const
           ).map(([v, nome]) => (
-            <button key={v} type="button" aria-pressed={tipo === v} onClick={() => setTipo(v)} className={`min-h-10 rounded-lg font-medium ${tipo === v ? "bg-primario text-sobre-primario" : "text-tinta-suave"}`}>
+            <button key={v} type="button" aria-pressed={tipo === v} onClick={() => setTipo(v)} className={`min-h-11 rounded-lg font-medium ${tipo === v ? "bg-primario text-sobre-primario" : "text-tinta-suave"}`}>
               {nome}
             </button>
           ))}
@@ -155,7 +155,7 @@ export function Mural({ paroquia, podeEditar }: { paroquia: string; podeEditar: 
       <div className="flex items-center justify-between gap-2 px-1">
         <h2 className="text-xs font-semibold uppercase tracking-wide text-destaque-texto">Mural</h2>
         {podeEditar && !escrevendo && (
-          <button type="button" onClick={() => setEscrevendo(true)} className="flex min-h-10 items-center gap-1.5 rounded-full bg-primario px-4 text-sm font-semibold text-sobre-primario">
+          <button type="button" onClick={() => setEscrevendo(true)} className="flex min-h-11 items-center gap-1.5 rounded-full bg-primario px-4 text-sm font-semibold text-sobre-primario">
             <Plus className="size-4" aria-hidden /> Publicar
           </button>
         )}

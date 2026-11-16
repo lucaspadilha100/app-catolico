@@ -115,7 +115,7 @@ function Chips<T extends string>({ opcoes, valor, onChange, rolar }: { opcoes: r
           type="button"
           aria-pressed={v === valor}
           onClick={() => onChange(v)}
-          className={`min-h-10 shrink-0 rounded-full border px-4 text-sm font-medium whitespace-nowrap ${v === valor ? "border-transparent bg-primario text-sobre-primario" : "border-borda bg-cartao text-tinta"}`}
+          className={`min-h-11 shrink-0 rounded-full border px-4 text-sm font-medium whitespace-nowrap ${v === valor ? "border-transparent bg-primario text-sobre-primario" : "border-borda bg-cartao text-tinta"}`}
         >
           {nome}
         </button>
@@ -388,7 +388,7 @@ function EscolherOnde({
             aria-label="Procurar cidade"
             type="search"
             autoComplete="off"
-            className="min-w-0 flex-1 bg-transparent py-2 text-base outline-none placeholder:text-tinta-suave/70"
+            className="min-w-0 flex-1 bg-transparent py-2 text-base outline-none placeholder:text-tinta-suave"
           />
         </label>
         {t.length >= 2 ? (
@@ -602,7 +602,7 @@ export function Missas() {
           type="search"
           enterKeyHint="search"
           autoComplete="off"
-          className="min-w-0 flex-1 bg-transparent py-2 text-base outline-none placeholder:text-tinta-suave/70"
+          className="min-w-0 flex-1 bg-transparent py-2 text-base outline-none placeholder:text-tinta-suave"
         />
       </label>
 

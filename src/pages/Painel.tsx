@@ -356,7 +356,7 @@ function ListaDoPainel() {
             type="button"
             aria-pressed={filtro === v}
             onClick={() => mudar("filtro", v, "conferir")}
-            className={`min-h-10 rounded-full border px-4 text-sm font-medium ${filtro === v ? "border-transparent bg-primario text-sobre-primario" : "border-borda bg-cartao text-tinta"}`}
+            className={`min-h-11 rounded-full border px-4 text-sm font-medium ${filtro === v ? "border-transparent bg-primario text-sobre-primario" : "border-borda bg-cartao text-tinta"}`}
           >
             {nome}
             {contagem && ` (${contagem[v]})`}
@@ -489,7 +489,7 @@ function EscolherMatriz({ valor, cidade, aoMudar }: { valor: string | null; cida
       {valor ? (
         <div className="flex min-h-12 items-center gap-2 rounded-xl border border-borda bg-papel px-3">
           <span className="min-w-0 flex-1 truncate">{atual ? `${atual.nome}, ${atual.cidade}` : "…"}</span>
-          <button type="button" onClick={() => aoMudar(null)} className="min-h-10 px-2 text-sm font-semibold text-destaque-texto">
+          <button type="button" onClick={() => aoMudar(null)} className="min-h-11 px-2 text-sm font-semibold text-destaque-texto">
             Trocar
           </button>
         </div>
@@ -671,7 +671,7 @@ function EditorDeHorarios({ paroquia, horarios, aoMudar }: { paroquia: string; h
               {h.cancelado ? "não haverá" : `${hhmm(h.hora)}${h.hora_fim ? ` às ${hhmm(h.hora_fim)}` : ""}`}
               {(h.semanas?.length || h.observacao) && <span className="text-sm text-tinta-suave"> · {[descreverSemanas(h.semanas), h.observacao].filter(Boolean).join(" · ")}</span>}
             </span>
-            <button type="button" onClick={() => executar(apagarHorario(h.id), aoMudar)} aria-label="Apagar horário" className="grid size-10 place-items-center rounded-xl text-tinta-suave">
+            <button type="button" onClick={() => executar(apagarHorario(h.id), aoMudar)} aria-label="Apagar horário" className="grid size-11 place-items-center rounded-xl text-tinta-suave">
               <Trash2 className="size-4" aria-hidden />
             </button>
           </li>
@@ -709,7 +709,7 @@ function EditorDeHorarios({ paroquia, horarios, aoMudar }: { paroquia: string; h
             <fieldset className="flex flex-wrap items-center gap-3">
               <legend className="mb-1 text-sm font-medium text-tinta-suave">Só em algumas semanas do mês</legend>
               {[1, 2, 3, 4, 5].map((s) => (
-                <label key={s} className="flex min-h-10 items-center gap-1.5">
+                <label key={s} className="flex min-h-11 items-center gap-1.5">
                   <input
                     type="checkbox"
                     checked={n.semanas.includes(s)}
@@ -726,7 +726,7 @@ function EditorDeHorarios({ paroquia, horarios, aoMudar }: { paroquia: string; h
             <Campo rotulo="Data">
               <input type="date" required value={n.data} onChange={(e) => setN({ ...n, data: e.target.value })} className={CAMPO} />
             </Campo>
-            <label className="flex min-h-10 items-center gap-2">
+            <label className="flex min-h-11 items-center gap-2">
               <input type="checkbox" checked={n.cancelado} onChange={(e) => setN({ ...n, cancelado: e.target.checked })} className="size-5" />
               Não haverá neste dia
             </label>
@@ -802,7 +802,7 @@ function Avisos({ dados, aoMudar }: { dados: ParoquiaCompleta; aoMudar: () => vo
           <p className="min-w-0 flex-1 text-tinta">
             {a.texto} <span className="text-sm text-tinta-suave">· até {a.ate.split("-").reverse().join("/")}</span>
           </p>
-          <button type="button" onClick={() => executar(apagarAviso(a.id), aoMudar)} aria-label="Apagar aviso" className="grid size-10 place-items-center rounded-xl text-tinta-suave">
+          <button type="button" onClick={() => executar(apagarAviso(a.id), aoMudar)} aria-label="Apagar aviso" className="grid size-11 place-items-center rounded-xl text-tinta-suave">
             <Trash2 className="size-4" aria-hidden />
           </button>
         </div>

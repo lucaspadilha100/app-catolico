@@ -69,7 +69,7 @@ export function UsoDoApp() {
               setPeriodo(p.valor);
               setEscolhida(null);
             }}
-            className={`min-h-10 shrink-0 rounded-full px-4 text-sm font-semibold ${p.valor === periodo ? "bg-primario text-sobre-primario" : "bg-cartao text-tinta-suave"}`}
+            className={`min-h-11 shrink-0 rounded-full px-4 text-sm font-semibold ${p.valor === periodo ? "bg-primario text-sobre-primario" : "bg-cartao text-tinta-suave"}`}
           >
             {p.nome}
           </button>

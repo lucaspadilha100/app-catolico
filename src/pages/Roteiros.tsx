@@ -41,7 +41,7 @@ const CAMPO = "min-h-12 w-full rounded-xl border border-borda bg-papel px-3 text
 const BOTAO = "flex min-h-12 items-center justify-center gap-2 rounded-xl bg-primario px-4 font-semibold text-sobre-primario disabled:opacity-50";
 const BOTAO_CLARO = "flex min-h-12 items-center justify-center gap-2 rounded-xl border border-borda bg-cartao px-4 font-semibold text-tinta disabled:opacity-50";
 const TITULO = "px-1 text-xs font-semibold uppercase tracking-wide text-destaque-texto";
-const ICONE = "grid size-10 shrink-0 place-items-center rounded-full text-tinta-suave hover:bg-marca-fundo disabled:opacity-30";
+const ICONE = "grid size-11 shrink-0 place-items-center rounded-full text-tinta-suave hover:bg-marca-fundo disabled:opacity-30";
 
 const ORACOES_EM_ORDEM = Object.values(ORACOES).sort((a, b) => a.nome.localeCompare(b.nome, "pt-BR"));
 const GRUPOS: GrupoDeMisterios[] = ["gozosos", "luminosos", "dolorosos", "gloriosos"];
@@ -140,14 +140,14 @@ function Canto({ b }: { b: Extract<Bloco, { tipo: "canto" }> }) {
         {b.artista && <p className="text-tinta-suave">{b.artista}</p>}
       </div>
       <div className="flex flex-wrap gap-2">
-        <a href={linkSeguro(b.link) || buscaDaMusica(b)} target="_blank" rel="noreferrer" className="flex min-h-10 items-center gap-1.5 rounded-full border border-borda px-4 text-sm font-medium text-destaque-texto">
+        <a href={linkSeguro(b.link) || buscaDaMusica(b)} target="_blank" rel="noreferrer" className="flex min-h-11 items-center gap-1.5 rounded-full border border-borda px-4 text-sm font-medium text-destaque-texto">
           <ExternalLink className="size-4" aria-hidden /> Ouvir
         </a>
         <button
           type="button"
           onClick={() => alternarMusica({ titulo: b.titulo, artista: b.artista, link: b.link })}
           aria-pressed={guardada}
-          className={`flex min-h-10 items-center gap-1.5 rounded-full border px-4 text-sm font-medium ${guardada ? "border-transparent bg-marca-fundo text-destaque-texto" : "border-borda text-tinta"}`}
+          className={`flex min-h-11 items-center gap-1.5 rounded-full border px-4 text-sm font-medium ${guardada ? "border-transparent bg-marca-fundo text-destaque-texto" : "border-borda text-tinta"}`}
         >
           {guardada ? <BookmarkCheck className="size-4" aria-hidden /> : <Bookmark className="size-4" aria-hidden />}
           {guardada ? "Guardada" : "Guardar"}
@@ -584,7 +584,7 @@ function EscolherTipo({ aoEscolher, aoFechar }: { aoEscolher: (t: TipoDeBloco) =
           </button>
         ))}
       </div>
-      <button type="button" onClick={aoFechar} className="min-h-10 text-sm font-medium text-tinta-suave">
+      <button type="button" onClick={aoFechar} className="min-h-11 text-sm font-medium text-tinta-suave">
         Cancelar
       </button>
     </div>
@@ -676,7 +676,7 @@ export function EditarRoteiro() {
         <EscolherTipo aoEscolher={(t) => adicionar(0, t)} aoFechar={() => setInserir(null)} />
       ) : (
         r.blocos.length > 0 && (
-          <button type="button" onClick={() => setInserir(0)} className="flex min-h-10 items-center justify-center gap-1.5 text-sm font-medium text-tinta-suave">
+          <button type="button" onClick={() => setInserir(0)} className="flex min-h-11 items-center justify-center gap-1.5 text-sm font-medium text-tinta-suave">
             <Plus className="size-4" aria-hidden /> Bloco no início
           </button>
         )

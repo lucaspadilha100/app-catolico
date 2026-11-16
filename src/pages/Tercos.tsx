@@ -244,7 +244,7 @@ function Ajudantes({ terco }: { terco: string }) {
       {lista.map((a) => (
         <div key={a.usuario_id} className="flex items-center gap-2">
           <span className="min-w-0 flex-1 break-all text-tinta">{a.email}</span>
-          <button type="button" onClick={() => void removerAjudante(terco, a.usuario_id).then(recarregar)} aria-label={`Tirar ${a.email}`} className="grid size-10 shrink-0 place-items-center rounded-full text-tinta-suave hover:bg-marca-fundo">
+          <button type="button" onClick={() => void removerAjudante(terco, a.usuario_id).then(recarregar)} aria-label={`Tirar ${a.email}`} className="grid size-11 shrink-0 place-items-center rounded-full text-tinta-suave hover:bg-marca-fundo">
             <X className="size-4" aria-hidden />
           </button>
         </div>
@@ -625,7 +625,7 @@ export function EditarTerco() {
                       const novo = atual.includes(v as number) ? atual.filter((x) => x !== v) : [...atual, v as number].sort();
                       mudar({ semanas: novo.length ? novo : null });
                     }}
-                    className={`min-h-10 rounded-full border px-4 text-sm font-medium ${ativo ? "border-transparent bg-primario text-sobre-primario" : "border-borda bg-cartao text-tinta"}`}
+                    className={`min-h-11 rounded-full border px-4 text-sm font-medium ${ativo ? "border-transparent bg-primario text-sobre-primario" : "border-borda bg-cartao text-tinta"}`}
                   >
                     {nome}
                   </button>
@@ -733,7 +733,7 @@ export function EditarEncontro() {
             type="button"
             aria-pressed={d === data}
             onClick={() => setParams({ data: d }, { replace: true })}
-            className={`min-h-10 rounded-full border px-4 text-sm font-medium ${d === data ? "border-transparent bg-primario text-sobre-primario" : "border-borda bg-cartao text-tinta"}`}
+            className={`min-h-11 rounded-full border px-4 text-sm font-medium ${d === data ? "border-transparent bg-primario text-sobre-primario" : "border-borda bg-cartao text-tinta"}`}
           >
             {dataLegivel(d)}
           </button>

@@ -104,7 +104,7 @@ export function Oracoes() {
           onChange={(e) => mudar(e.target.value, aberta)}
           placeholder="Buscar oração"
           aria-label="Buscar oração"
-          className="min-w-0 flex-1 bg-transparent py-2 outline-none placeholder:text-tinta-suave/70"
+          className="min-w-0 flex-1 bg-transparent py-2 outline-none placeholder:text-tinta-suave"
           type="search"
           enterKeyHint="search"
           autoComplete="off"
@@ -215,7 +215,7 @@ export function CategoriaDeOracoes() {
           onChange={(e) => setParams(e.target.value ? { q: e.target.value } : {}, { replace: true })}
           placeholder="Buscar"
           aria-label="Buscar"
-          className="min-w-0 flex-1 bg-transparent py-2 outline-none placeholder:text-tinta-suave/70"
+          className="min-w-0 flex-1 bg-transparent py-2 outline-none placeholder:text-tinta-suave"
           type="search"
           autoComplete="off"
         />

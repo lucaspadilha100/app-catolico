@@ -1,4 +1,5 @@
 import { NotaDaTraducao } from "@/components/TextoBiblico";
+import { Voltar } from "@/components/Voltar";
 import { useFocoPreso } from "@/lib/useFocoPreso";
 import { BotaoOuvir, emPartes } from "@/components/Ouvir";
 import { useEffect, useLayoutEffect, useRef, useState, type FormEvent } from "react";
@@ -67,7 +68,7 @@ function IrPara({ aoIr, focar }: { aoIr: (destino: string) => void; focar?: bool
           placeholder="Livro, passagem ou palavra"
           aria-label="Livro, passagem ou palavra"
           autoFocus={focar}
-          className="min-w-0 flex-1 bg-transparent py-2 text-base outline-none placeholder:text-tinta-suave/70"
+          className="min-w-0 flex-1 bg-transparent py-2 text-base outline-none placeholder:text-tinta-suave"
           enterKeyHint="go"
           autoComplete="off"
         />
@@ -145,10 +146,10 @@ const ICONE_DO_SELETOR = "grid size-11 place-items-center rounded-full text-tint
 function AtalhosDaBiblia({ substituir = false }: { substituir?: boolean }) {
   return (
     <div className="flex flex-wrap gap-2">
-      <Link to="/biblia/marcados" replace={substituir} className="flex min-h-10 items-center gap-1.5 rounded-full border border-borda bg-cartao px-3 text-sm font-medium text-tinta">
+      <Link to="/biblia/marcados" replace={substituir} className="flex min-h-11 items-center gap-1.5 rounded-full border border-borda bg-cartao px-3 text-sm font-medium text-tinta">
         <Bookmark className="size-4" aria-hidden /> Grifos e notas
       </Link>
-      <Link to="/biblia/planos" replace={substituir} className="flex min-h-10 items-center gap-1.5 rounded-full border border-borda bg-cartao px-3 text-sm font-medium text-tinta">
+      <Link to="/biblia/planos" replace={substituir} className="flex min-h-11 items-center gap-1.5 rounded-full border border-borda bg-cartao px-3 text-sm font-medium text-tinta">
         <CalendarCheck className="size-4" aria-hidden /> Planos de leitura
       </Link>
     </div>
@@ -520,7 +521,7 @@ function Leitor({
                 <button
                   type="button"
                   onClick={() => marcarLido(pos.livro.codigo, pos.cap, !lido)}
-                  className={`mt-3 flex min-h-10 w-fit items-center gap-1.5 self-center rounded-full px-4 font-sans text-sm font-medium ${
+                  className={`mt-3 flex min-h-11 w-fit items-center gap-1.5 self-center rounded-full px-4 font-sans text-sm font-medium ${
                     lido ? "bg-marca-fundo text-destaque-texto" : "border border-borda text-tinta-suave"
                   }`}
                 >
@@ -631,18 +632,16 @@ export function BibliaMarcados() {
 
   return (
     <div className="flex flex-col gap-4">
-      <Link to="/biblia" className="flex min-h-11 w-fit items-center gap-1 text-tinta-suave">
-        <ChevronDown className="size-5 rotate-90" aria-hidden /> Bíblia
-      </Link>
+      <Voltar para="/biblia">Bíblia</Voltar>
       <h1 className="font-leitura text-3xl font-semibold text-marca">Grifos e notas</h1>
-      <div className="flex gap-2 overflow-x-auto pb-1" role="group" aria-label="Filtro">
+      <div className="sem-barra -mx-4 flex gap-2 overflow-x-auto px-4 pb-1" role="group" aria-label="Filtro">
         {FILTROS_DE_MARCA.map((f) => (
           <button
             key={f}
             type="button"
             aria-pressed={filtro === f}
             onClick={() => setParams(f === "todas" ? {} : { filtro: f }, { replace: true })}
-            className={`flex min-h-10 shrink-0 items-center gap-1.5 rounded-full border px-3 text-sm font-medium ${filtro === f ? "border-destaque bg-destaque text-sobre-destaque" : "border-borda bg-cartao text-tinta"}`}
+            className={`flex min-h-11 shrink-0 items-center gap-1.5 rounded-full border px-3 text-sm font-medium ${filtro === f ? "border-destaque bg-destaque text-sobre-destaque" : "border-borda bg-cartao text-tinta"}`}
           >
             {f !== "todas" && f !== "notas" && <span className="size-4 rounded-full border border-borda" style={{ background: CORES[f].fundo }} />}
             {f === "todas" ? "Todos" : f === "notas" ? "Notas" : CORES[f].nome}
@@ -730,14 +729,6 @@ function Destacado({ texto, palavras }: { texto: string; palavras: string[] }) {
 const LIMITE_DA_BUSCA = 500;
 const POR_PAGINA_DA_BUSCA = 50;
 
-function Voltar({ para, children }: { para: string; children: string }) {
-  return (
-    <Link to={para} className="flex min-h-11 w-fit items-center gap-1 text-tinta-suave">
-      <ChevronDown className="size-5 rotate-90" aria-hidden /> {children}
-    </Link>
-  );
-}
-
 export function BibliaBusca() {
   const [params, setParams] = useSearchParams();
   const q = params.get("q") ?? "";
@@ -810,7 +801,7 @@ export function BibliaBusca() {
               else n.delete("t");
               setParams(n, { replace: true });
             }}
-            className={`min-h-10 rounded-full border px-3 text-sm font-medium ${testamento === v ? "border-destaque bg-destaque text-sobre-destaque" : "border-borda bg-cartao text-tinta"}`}
+            className={`min-h-11 rounded-full border px-3 text-sm font-medium ${testamento === v ? "border-destaque bg-destaque text-sobre-destaque" : "border-borda bg-cartao text-tinta"}`}
           >
             {nome}
           </button>
@@ -859,7 +850,7 @@ function LinksDoDia({ dia, lidos }: { dia: Capitulo[]; lidos: Record<string, num
           <Link
             key={`${c.livro.codigo}-${c.capitulo}`}
             to={caminho(c.livro, c.capitulo)}
-            className={`flex min-h-10 items-center gap-1 rounded-full border px-3 text-sm font-medium ${lido ? "border-transparent bg-marca-fundo text-destaque-texto" : "border-borda bg-papel text-tinta"}`}
+            className={`flex min-h-11 items-center gap-1 rounded-full border px-3 text-sm font-medium ${lido ? "border-transparent bg-marca-fundo text-destaque-texto" : "border-borda bg-papel text-tinta"}`}
           >
             {lido && <Check className="size-4" aria-hidden />}
             {`${c.livro.codigo === "PSA" ? "Sl" : c.livro.abreviatura} ${c.capitulo}`}

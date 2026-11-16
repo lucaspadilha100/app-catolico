@@ -246,21 +246,21 @@ export default function RezarAgora() {
       {comVoz && (
         <div className="fixed inset-x-0 bottom-[calc(4rem+env(safe-area-inset-bottom))] z-20 px-3 pb-3 md:bottom-0 md:left-60 md:pb-6">
           <div className="mx-auto grid max-w-xl grid-cols-[auto_minmax(0,1fr)_auto_auto] gap-2 rounded-3xl border border-borda bg-cartao p-2 shadow-lg">
-            <button type="button" onClick={() => ir(indice - 1)} aria-label="Anterior" className="grid size-[52px] place-items-center rounded-xl border border-borda text-tinta">
+            <button type="button" onClick={() => ir(indice - 1)} aria-label="Anterior" className="grid size-11 place-items-center rounded-xl border border-borda text-tinta sm:size-[52px]">
               <SkipBack className="size-6" aria-hidden />
             </button>
             <button
               type="button"
               onClick={() => (tocando ? parar() : void tocar(indice))}
-              className="flex min-h-[52px] min-w-0 items-center justify-center gap-2 rounded-xl bg-primario px-2 text-lg font-semibold text-sobre-primario"
+              className="flex min-h-11 min-w-0 items-center justify-center gap-2 rounded-xl bg-primario px-2 text-lg sm:min-h-[52px] font-semibold text-sobre-primario"
             >
               {tocando ? <Pause className="size-6" aria-hidden /> : <Play className="size-6" aria-hidden />}
               <span className="truncate">{tocando ? "Pausar" : "Continuar"}</span>
             </button>
-            <button type="button" onClick={() => ir(indice + 1)} aria-label="Próxima" className="grid size-[52px] place-items-center rounded-xl border border-borda text-tinta">
+            <button type="button" onClick={() => ir(indice + 1)} aria-label="Próxima" className="grid size-11 place-items-center rounded-xl border border-borda text-tinta sm:size-[52px]">
               <SkipForward className="size-6" aria-hidden />
             </button>
-            <button type="button" onClick={fecharVoz} aria-label="Sair da voz" className="grid size-[52px] place-items-center rounded-xl border border-borda text-tinta">
+            <button type="button" onClick={fecharVoz} aria-label="Sair da voz" className="grid size-11 place-items-center rounded-xl border border-borda text-tinta sm:size-[52px]">
               <X className="size-6" aria-hidden />
             </button>
             <label className="col-span-4 flex min-h-11 items-center justify-between gap-4 px-2">

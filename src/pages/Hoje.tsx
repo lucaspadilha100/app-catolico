@@ -346,7 +346,7 @@ export default function Hoje() {
         <section>
           <div className="mb-2 flex items-baseline justify-between">
             <h2 className="titulo-secao px-1">Conheça os santos</h2>
-            <Link to="/santos" className="inline-flex min-h-10 items-center px-1 text-[0.9375rem] font-semibold text-destaque-texto">
+            <Link to="/santos" className="inline-flex min-h-11 items-center px-1 text-[0.9375rem] font-semibold text-destaque-texto">
               Ver todos
             </Link>
           </div>

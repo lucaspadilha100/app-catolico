@@ -122,16 +122,16 @@ export function CorrenteAberta() {
                     <span className={`w-14 shrink-0 font-semibold ${turnos.length ? "text-destaque-texto" : "text-tinta-suave"}`}>{hora(h)}</span>
                     <span className="min-w-0 flex-1 text-sm text-tinta">{turnos.length ? turnos.map((t) => t.nome).join(", ") : <span className="text-tinta-suave">{agoraAqui ? "Agora, sem ninguém" : "Ninguém ainda"}</span>}</span>
                     {!passou && c.ativa && !meu && escolhido !== String(k) && (
-                      <button type="button" onClick={() => setEscolhido(String(k))} className="min-h-10 shrink-0 rounded-full bg-primario px-4 text-sm font-semibold text-sobre-primario">
+                      <button type="button" onClick={() => setEscolhido(String(k))} className="min-h-11 shrink-0 rounded-full bg-primario px-4 text-sm font-semibold text-sobre-primario">
                         Rezar
                       </button>
                     )}
                     {meu && !passou && (
                       <div className="flex shrink-0 gap-1">
-                        <button type="button" onClick={() => agenda(h)} aria-label="Pôr na agenda" className="grid size-10 place-items-center rounded-full border border-borda text-destaque-texto">
+                        <button type="button" onClick={() => agenda(h)} aria-label="Pôr na agenda" className="grid size-11 place-items-center rounded-full border border-borda text-destaque-texto">
                           <CalendarPlus className="size-4" aria-hidden />
                         </button>
-                        <button type="button" onClick={() => executar(soltarTurno(codigo, h.toISOString()), recarregar)} className="min-h-10 rounded-full border border-borda px-3 text-sm font-medium text-tinta-suave">
+                        <button type="button" onClick={() => executar(soltarTurno(codigo, h.toISOString()), recarregar)} className="min-h-11 rounded-full border border-borda px-3 text-sm font-medium text-tinta-suave">
                           Sair
                         </button>
                       </div>

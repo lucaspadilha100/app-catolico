@@ -147,7 +147,7 @@ export default function Liturgia() {
 
       <div>
         <p className="mb-2 px-1 text-[0.9375rem] font-semibold text-tinta-suave">{`${MESES[data.getUTCMonth()]![0]!.toUpperCase()}${MESES[data.getUTCMonth()]!.slice(1)} de ${data.getUTCFullYear()}`}</p>
-        <div className="grid grid-cols-7 gap-1.5">
+        <div className="-mx-2 grid grid-cols-7 gap-1 sm:mx-0 sm:gap-1.5">
           {semana.map((d) => {
             const atualDia = paraIso(d.data) === iso;
             return (
@@ -159,7 +159,7 @@ export default function Liturgia() {
                 aria-label={`${DIAS[diaDaSemana(d.data)]}, ${d.data.getUTCDate()}`}
                 className={`flex h-[4.5rem] flex-col items-center justify-center gap-0.5 rounded-2xl ${atualDia ? "bg-primario text-sobre-primario" : "bg-cartao text-tinta-suave"}`}
               >
-                <span className="text-[0.6875rem] font-semibold">{DIAS[diaDaSemana(d.data)]}</span>
+                <span className="text-xs font-semibold">{DIAS[diaDaSemana(d.data)]}</span>
                 <span className={`text-lg leading-none ${atualDia ? "font-extrabold" : "font-bold text-tinta"}`}>{d.data.getUTCDate()}</span>
                 <span className={`mt-1 size-1.5 rounded-full ${PONTO[d.cor]}`} aria-hidden />
               </Link>
@@ -186,7 +186,7 @@ export default function Liturgia() {
               type="button"
               aria-pressed={i === indiceDaMissa}
               onClick={() => escolher(grupos(m)[0]?.chave ?? "", { missa: String(i) })}
-              className={`min-h-10 shrink-0 rounded-full border px-4 text-sm font-semibold ${i === indiceDaMissa ? "border-transparent bg-marca-fundo text-tinta" : "border-borda text-tinta-suave"}`}
+              className={`min-h-11 shrink-0 rounded-full border px-4 text-sm font-semibold ${i === indiceDaMissa ? "border-transparent bg-marca-fundo text-tinta" : "border-borda text-tinta-suave"}`}
             >
               {m.nome || `Missa ${i + 1}`}
             </button>
@@ -198,7 +198,7 @@ export default function Liturgia() {
         <div className="h-60 animate-pulse rounded-3xl bg-cartao" />
       ) : (
         <>
-          <div ref={fileira} className="-mx-4 flex gap-2 overflow-x-auto px-4 pb-1 [scrollbar-width:none]" role="tablist" aria-label="Leituras">
+          <div ref={fileira} className="flex flex-wrap gap-2" role="tablist" aria-label="Leituras">
             {[...abas.map((a) => ({ chave: a.chave, nome: a.nome })), { chave: "reflexao", nome: "Reflexão" }].map((a) => (
               <button
                 key={a.chave}
