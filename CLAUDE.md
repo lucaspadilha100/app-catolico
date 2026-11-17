@@ -197,6 +197,7 @@ de Deus do Brasil), cada um com foto, e as fotos FORA do app.
   de "assistente". Escrita sóbria, como um app de editora católica: vírgula,
   ponto, dois-pontos.
 - Sem texto explicando a tela ou o botão; fica o que é conteúdo ou estado.
+- **"Rezar", não "orar"** (pedido do dono, 17/11/2026: o católico diz "vou rezar"). Vale para tela, post e legenda; "oração" continua. A Bíblia fica como foi revisada.
 
 ## Verificar de verdade
 `npm run verificar` = `typecheck` (`tsc -b --force`) + `test` (vitest) +
