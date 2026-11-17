@@ -59,6 +59,8 @@ export function falasDosPassos(passos: Passo[]): Fala[] {
       const nome = `${nomeDoMisterio(p.misterio.grupo, p.misterio.indice)}: ${MISTERIOS[p.misterio.grupo].misterios[p.misterio.indice]}`;
       return [{ texto: `${nome}.`, vez: "app", rotulo: p.secao }];
     }
+    if (p.trecho) return falasDasLinhas(p.trecho.pt, p.titulo);
+    if (p.leitura) return [{ texto: p.leitura.referencia, vez: "app", rotulo: p.titulo }];
     if (!p.oracao) return [];
     const vezes = p.contas ?? 1;
     return Array.from({ length: vezes }, (_, i) => {

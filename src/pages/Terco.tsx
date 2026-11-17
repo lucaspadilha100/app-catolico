@@ -1,4 +1,6 @@
 import { useMemo } from "react";
+import { Reza } from "@/components/Reza";
+import { rezaDoTipo } from "@/components/RezandoJuntos";
 import { useLocation, useNavigate, useSearchParams } from "react-router-dom";
 import { useDiaLiturgico } from "@/lib/useDiaLiturgico";
 import { MISTERIOS, misteriosDoDia, type GrupoDeMisterios } from "@/liturgia/terco";
@@ -7,7 +9,7 @@ import { MEDITACOES, ORDEM_DO_ROSARIO, passosDaMisericordia, passosDeSaoMiguel, 
 import { andamentoMaisRecente, guardarAndamento, lerAndamento } from "@/oracao/guardado";
 import { Cartao, TituloPagina } from "@/components/Cartao";
 import { Voltar, sair } from "@/components/Voltar";
-import { InicioDoTerco, TercoGuiado } from "@/components/TercoGuiado";
+import { InicioDoTerco } from "@/components/TercoGuiado";
 
 const ORDEM = ORDEM_DO_ROSARIO;
 type Escolha = GrupoDeMisterios | "completo";
@@ -37,7 +39,8 @@ export default function Terco() {
 
   if (params.get("rezar") === "1") {
     return (
-      <TercoGuiado
+      <Reza
+        reza="terco"
         key={grupo}
         chave={`rosario-${grupo}`}
         tipo="rosario"
@@ -134,7 +137,7 @@ function TercoSimples({ tipo, titulo, passos }: { tipo: string; titulo: string; 
   const location = useLocation();
 
   if (params.get("rezar") === "1") {
-    return <TercoGuiado chave={tipo} tipo={tipo} titulo={titulo} passos={passos} aoSair={() => sair(navegar, location.pathname)} />;
+    return <Reza reza={rezaDoTipo(tipo) ?? "agora"} chave={tipo} tipo={tipo} titulo={titulo} passos={passos} aoSair={() => sair(navegar, location.pathname)} />;
   }
 
   const andamento = lerAndamento(tipo);

@@ -1,4 +1,5 @@
 import { MISTERIOS, type GrupoDeMisterios } from "@/liturgia/terco";
+import { oracao, type Linha } from "@/oracao/oracoes";
 
 export type IdDoTerco = "rosario" | "misericordia" | "sao-miguel";
 
@@ -10,6 +11,8 @@ export interface Passo {
   contas?: number;
   rotulos?: string[];
   misterio?: { grupo: GrupoDeMisterios; indice: number };
+  trecho?: { pt: Linha[]; la?: Linha[] };
+  leitura?: { canonica: string; referencia: string };
 }
 
 export interface Meditacao {
@@ -248,3 +251,29 @@ export function contarOracoes(passos: Passo[]): Record<string, number> {
 }
 
 export const contasDoPasso = (p: Passo) => p.contas ?? 1;
+
+export function passosDaOracao(id: string, o: { nome: string; pt: Linha[]; la?: Linha[] }, secao = o.nome): Passo[] {
+  const passos: Passo[] = [];
+  const la = o.la ?? [];
+  let pt: Linha[] = [];
+  let lat: Linha[] = [];
+  const fechar = () => {
+    if (!pt.length) return;
+    passos.push({ chave: `${id}-${passos.length}`, secao, titulo: o.nome, trecho: { pt, la: lat.length ? lat : undefined } });
+    pt = [];
+    lat = [];
+  };
+  o.pt.forEach((l, i) => {
+    if (typeof l === "object" && "rezar" in l) {
+      fechar();
+      passos.push({ chave: `${id}-${passos.length}`, secao, titulo: oracao(l.rezar).nome, oracao: l.rezar });
+      return;
+    }
+    const l2 = la[i];
+    if (typeof l === "object" && "v" in l && pt.length) fechar();
+    pt.push(l);
+    if (l2 !== undefined) lat.push(l2);
+  });
+  fechar();
+  return passos;
+}

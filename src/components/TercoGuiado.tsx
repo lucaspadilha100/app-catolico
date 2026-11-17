@@ -2,7 +2,7 @@ import { useCallback, useEffect, useMemo, useState, type ReactNode } from "react
 import { useFocoPreso } from "@/lib/useFocoPreso";
 import { useFecharComVoltar } from "@/lib/useFecharComVoltar";
 import { Link } from "react-router-dom";
-import { ChevronLeft, ChevronRight, CircleDot, Hand, RotateCcw, X } from "lucide-react";
+import { ChevronLeft, ChevronRight, CircleDot, Hand, RotateCcw, ScrollText, X } from "lucide-react";
 import { MISTERIOS } from "@/liturgia/terco";
 import { formatarReferencia } from "@/liturgia/lecionario";
 import { MEDITACOES, contasDoPasso, type Passo } from "@/oracao/terco";
@@ -70,10 +70,20 @@ function ConteudoDoMisterio({ passo }: { passo: Passo }) {
 }
 
 function ConteudoDaOracao({ passo, lingua }: { passo: Passo; lingua: Lingua }) {
-  const o = oracao(passo.oracao!);
+  const linhas = passo.trecho ? (lingua === "la" && passo.trecho.la ? passo.trecho.la : passo.trecho.pt) : linhasNaLingua(oracao(passo.oracao!), lingua);
   return (
     <Cartao>
-      <TextoDaOracao linhas={linhasNaLingua(o, lingua)} lingua={lingua} />
+      <TextoDaOracao linhas={linhas} lingua={lingua} />
+    </Cartao>
+  );
+}
+
+function ConteudoDaLeitura({ passo }: { passo: Passo }) {
+  const { canonica, referencia } = passo.leitura!;
+  return (
+    <Cartao>
+      <p className="text-lg font-bold text-destaque-texto tracking-[-0.02em]">{referencia}</p>
+      <TextoDaLeitura canonica={canonica} poema={false} />
     </Cartao>
   );
 }
@@ -169,6 +179,8 @@ export function TercoGuiado({
   passos,
   aoSair,
   controle,
+  verTudo,
+  terco = true,
 }: {
   chave: string;
   tipo: string;
@@ -176,6 +188,8 @@ export function TercoGuiado({
   passos: Passo[];
   aoSair: () => void;
   controle?: ControleDoTerco;
+  verTudo?: () => void;
+  terco?: boolean;
 }) {
   const [posicaoLocal, setPosicaoLocal] = useState(() => {
     const a = lerAndamento(chave);
@@ -226,13 +240,18 @@ export function TercoGuiado({
     if (!controle) guardarAndamento(chave, null);
     controle?.aoTerminar?.();
     setModoContas(false);
+    if (!terco) {
+      contarReza("agora");
+      setConcluido(0);
+      return;
+    }
     const reza = rezaDoTipo(tipo);
     if (reza) contarReza(reza);
     setConcluido(contarTercoRezado(tipo));
     const dias = diasSeguidos(diasDoTerco());
     setSeguidos(dias);
     if (completouSemana(dias)) oferecerApoio();
-  }, [posicao, total, passos.length, modoContas, chave, tipo, setModoContas, setPosicao, controle, oferecerApoio]);
+  }, [posicao, total, passos.length, modoContas, chave, tipo, setModoContas, setPosicao, controle, oferecerApoio, terco]);
 
   const voltar = useCallback(() => {
     if (posicao.conta > 0) setPosicao({ passo: posicao.passo, conta: posicao.conta - 1 });
@@ -267,8 +286,8 @@ export function TercoGuiado({
           <h1 className="mt-2 text-3xl font-extrabold text-marca tracking-[-0.02em]">Graças a Deus</h1>
           <p className="text-tinta-suave">{titulo}</p>
           {intencao && <p className="font-leitura italic text-tinta">Por {intencao}</p>}
-          <p className="mt-2 text-sm text-tinta-suave">{plural(concluido)}</p>
-          {rezaDoTipo(tipo) && <RezandoJuntos reza={rezaDoTipo(tipo)!} />}
+          {terco && <p className="mt-2 text-sm text-tinta-suave">{plural(concluido)}</p>}
+          {(rezaDoTipo(tipo) || !terco) && <RezandoJuntos reza={rezaDoTipo(tipo) ?? "agora"} />}
         </Cartao>
         <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
           <button
@@ -334,6 +353,17 @@ export function TercoGuiado({
             Contas
           </button>
         )}
+        {verTudo && !acompanhando && (
+          <button
+            type="button"
+            onClick={verTudo}
+            aria-label="Ver tudo"
+            className="flex min-h-11 min-w-11 shrink-0 items-center justify-center gap-2 rounded-xl border border-borda bg-cartao px-3 text-sm font-medium text-tinta-suave"
+          >
+            <ScrollText className="size-5" aria-hidden />
+            <span className="hidden min-[400px]:inline">Ver tudo</span>
+          </button>
+        )}
       </div>
 
       <div
@@ -368,9 +398,9 @@ export function TercoGuiado({
 
       {controle?.extra?.(passo)}
 
-      {passo.misterio ? <ConteudoDoMisterio passo={passo} /> : <ConteudoDaOracao passo={passo} lingua={lingua} />}
+      {passo.misterio ? <ConteudoDoMisterio passo={passo} /> : passo.leitura ? <ConteudoDaLeitura passo={passo} /> : <ConteudoDaOracao passo={passo} lingua={lingua} />}
 
-      {passo.oracao && oracao(passo.oracao).la && (
+      {((passo.oracao && oracao(passo.oracao).la) || passo.trecho?.la) && (
         <div>
           <EscolhaDeLingua valor={lingua} onChange={setLingua} />
         </div>
