@@ -2,7 +2,7 @@
 
 O dono pede um por vez, na hora de postar. Cada pasta tem as lâminas (01.png...) e a `legenda.txt`.
 
-Posts 1 a 5 são sobre o app (pedido do dono, 14/11/2026). Post 1 (apresentação) publicado em 13/11; Bíblia publicado em 14/11; Missas (refeito, 9 lâminas) em 15/11; Terço em 16/11.
+Posts 1 a 5 são sobre o app (pedido do dono, 14/11/2026). Post 1 (apresentação) publicado em 13/11; Bíblia publicado em 14/11; Missas (refeito, 9 lâminas) em 15/11; Terço em 16/11; Orações em 17/11.
 
 Ordem combinada com o dono em 15/11/2026: primeiro a apresentação do app, em sequência no feed (quem chega ao perfil vê um recurso por post), depois as campanhas.
 
@@ -10,7 +10,7 @@ Ordem combinada com o dono em 15/11/2026: primeiro a apresentação do app, em s
 2. `post-biblia/` (14/11) · publicado
 3. `post-missas/` (15/11) · publicado
 4. `post-terco/` (16/11) · publicado
-5. `post-oracoes/` · pronto
+5. `post-oracoes/` (17/11, revisado: capa sem "da tradição", santos beatos e veneráveis, Ladainha de Nossa Senhora) · publicado
 6. `post-titulos-dos-santos/` · pronto
 7. Novembro: rezar por quem partiu (`plano-lancamento.md`, post 5) · a fazer
 8. Como pôr o app na tela do celular (`plano-lancamento.md`, post 8) · a fazer
