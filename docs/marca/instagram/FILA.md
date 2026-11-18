@@ -23,6 +23,7 @@ Ordem combinada com o dono em 15/11/2026: primeiro a apresentação do app, em s
 ## Curiosidades da fé (plano de 30, 18/11/2026): `curiosidades-plano.md`
 Fim da tarde, intercaladas com os itens 7, 8 e 9 acima (20/11, 23/11 e 28/11). Cada fato com fonte conferida; o que não se confirmou ficou de fora (lista no fim do plano). Cada post passa por revisão antes de ir ao ar.
 - `curiosidade-01-ano-liturgico/` (qui 19/11): A Igreja tem o seu próprio ano · pronto
+- `curiosidade-cunhau-uruacu/` (sex 27/11): Os primeiros mártires do Brasil · pronto (decisão do dono: dizer quem os perseguiu, como a fonte da Igreja registra)
 
 Fora da fila: `post2-novena-apresentacao/` (o dono achou fora de hora).
 

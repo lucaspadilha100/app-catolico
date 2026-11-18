@@ -28,7 +28,7 @@ Links das fontes (abreviados abaixo):
 | ter 24/11 | **04** Por que a Bíblia católica tem 73 livros |
 | qua 25/11 | **05** Por que a cor da missa muda |
 | qui 26/11 | **06** O que quer dizer "Amém" |
-| sex 27/11 | livre |
+| sex 27/11 | 31 · Os primeiros mártires do Brasil |
 | sáb 28/11 | fila 9: O Advento começa amanhã |
 | dom 29/11 | **07** Hoje começa o Ano B |
 | ter 01/12 | **08** A oração das três horas |
@@ -55,7 +55,7 @@ Links das fontes (abreviados abaixo):
 | ter 12/01 | **29** Por que "Tempo Comum" e por que verde |
 | qui 14/01 | **30** O que quer dizer "católica" |
 
-Dias livres no meio (27/11, 30/11, 02/12, 04/12...) ficam para campanhas, a fila ou descanso.
+Dias livres no meio (30/11, 02/12, 04/12...) ficam para campanhas, a fila ou descanso.
 
 ## Os 30
 
@@ -240,12 +240,17 @@ Dias livres no meio (27/11, 30/11, 02/12, 04/12...) ficam para campanhas, a fila
 - **No app:** Mais > Santos (Santo Inácio de Antioquia, 17/10).
 - **Arte:** mosaico de Santo Inácio de Antioquia, Hosios Loukas, domínio público (`/home/user/minha-igrejinha-imagens/commons/santo-inacio-de-antioquia.webp`).
 
+### 31 · sex 27/11 · Os primeiros mártires do Brasil
+- **Resposta:** em 1645, no Rio Grande do Norte, católicos foram mortos por causa da fé. Com a chegada dos holandeses, de religião calvinista, eles perderam a liberdade de culto e passaram a ser perseguidos. Em Cunhaú, em 16 de julho, soldados holandeses com indígenas que os seguiam mataram os fiéis durante a Missa do padre André de Soveral. Em Uruaçu, em 3 de outubro, os católicos de Natal e o padre Ambrósio Francisco Ferro foram torturados e mortos; Mateus Moreira morreu dizendo "Louvado seja o Santíssimo Sacramento". Trinta foram identificados: são os Protomártires do Brasil, beatificados em 2000 e canonizados em 2017. Festa: 3 de outubro.
+- **Fonte:** biografia oficial no livreto da canonização (https://www.vatican.va/news_services/liturgy/libretti/2017/20171015-libretto-canonizzazione.pdf, p. 9); São João Paulo II, homilia de 5/3/2000, n. 2 (https://www.vatican.va/content/john-paul-ii/pt/homilies/2000/documents/hf_jp-ii_hom_20000305_beatifications.html); Francisco, homilia de 15/10/2017 (https://www.vatican.va/content/francesco/pt/homilies/2017/documents/papa-francesco_20171015_omelia-ritodicanonizzazione.html); Vatican News, 3/10/2021. Decisão do dono (18/11/2026): dizer quem os perseguiu, como a fonte da Igreja registra, sem generalizar para os protestantes de hoje.
+- **No app:** Mais > Santos (id `santos-martires-de-cunhau-e-uruacu`).
+- **Post pronto:** `curiosidade-cunhau-uruacu/`.
+
 ## Ficou de fora (não confirmei em fonte da Igreja, ou é sensível)
 
 - **Por que o Natal é em 25 de dezembro.** Nenhum documento da Igreja que eu tenha conferido explica a data; as explicações que circulam são de historiadores e discordam entre si. Fora.
 - **Santa Cecília, padroeira dos músicos (22/11).** A origem do patronato não está em documento da Igreja que eu tenha achado; além disso o dia é de Cristo Rei. Fora.
 - **Aparecida: 1717, os nomes dos pescadores e o decreto de Pio XI (1930).** Só achei em imprensa e sites, que até discordam da data da proclamação (1930 ou 1931). O post 18 usa só o que o Papa Francisco disse em 2013.
-- **Mártires de Cunhaú e Uruaçu (RN).** A canonização de 15/10/2017 está no vatican.va (André de Soveral, Ambrósio Francisco Ferro, Mateus Moreira e 27 companheiros), mas contar a história obriga a dizer quem os matou, e isso vira atrito com protestantes. Fica para o dono decidir; se entrar, só como "os santos do RN", sem o massacre.
 - **Origem do nome "Rosário"**, **frases atribuídas aos mártires**, **quantos Papas**, **a oração mais antiga a Maria**: datas e versões incertas. Fora.
 - **Antífonas do Ó (17 a 23/12).** O DPPL n. 103 fala das "antífonas maiores", mas o texto em português é da Liturgia das Horas (com dono). Só como fato, se o dono quiser.
 - **Alcance do IGMR em português:** o vatican.va não tem a IGMR nem o DPPL em português. As notas citam o número, que é o mesmo em todas as línguas; o texto em português é o do Missal da CNBB.
