@@ -16,9 +16,16 @@ PARTE 3: segredos no GitHub
 9. "New repository secret": Name = IG_USER_ID ; Secret = o ID numérico da conta do Instagram do passo 6. Salve.
 10. Confirme que os dois segredos aparecem na lista (o GitHub não mostra o valor, só o nome).
 
+PARTE 4: renovação automática do token (o token do Instagram vence a cada 60 dias; o GitHub renova sozinho toda segunda-feira, mas precisa de uma chave para guardar o token novo)
+11. Abra https://github.com/settings/personal-access-tokens/new (Fine-grained token).
+12. Nome: "Minha Igrejinha - renovar token do Instagram". Expiração: 1 ano (a maior oferecida, se for menor). Resource owner: lucaspadilha100. Repository access: "Only select repositories" > app-catolico.
+13. Permissions > Repository permissions: "Secrets" = Read and write. (Metadata fica Read-only automaticamente.) Nada mais.
+14. Gere o token e copie, sem colar em nenhum outro lugar.
+15. Em https://github.com/lucaspadilha100/app-catolico/settings/secrets/actions, "New repository secret": Name = GH_PAT ; Secret = cole esse token. Salve.
+
 No final, me responda SÓ com:
 - "conta Empresa: ok" (ou o que ficou diferente);
 - "app criado: Minha Igrejinha Publicador";
-- "segredos IG_TOKEN e IG_USER_ID salvos no GitHub";
+- "segredos IG_TOKEN, IG_USER_ID e GH_PAT salvos no GitHub";
 - as permissões que apareceram na autorização (nomes);
 - NÃO escreva o token nem o ID na resposta.

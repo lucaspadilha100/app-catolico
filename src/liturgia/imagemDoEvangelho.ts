@@ -144,8 +144,15 @@ export async function cartaz(p: Cartaz): Promise<Blob> {
 
   if (p.credito) {
     ctx.fillStyle = fraca;
-    ctx.font = `500 26px "Inter Variable", Arial, sans-serif`;
-    ctx.fillText(p.credito, LARGURA / 2, m.altura - m.peDaObra);
+    let tamanho = 26;
+    ctx.font = `500 ${tamanho}px "Inter Variable", Arial, sans-serif`;
+    while (tamanho > 18 && ctx.measureText(p.credito).width > LARGURA - 120) {
+      tamanho -= 1;
+      ctx.font = `500 ${tamanho}px "Inter Variable", Arial, sans-serif`;
+    }
+    let credito = p.credito;
+    while (credito.length > 10 && ctx.measureText(credito).width > LARGURA - 120) credito = `${credito.slice(0, -2).trimEnd()}…`;
+    ctx.fillText(credito, LARGURA / 2, m.altura - m.peDaObra);
   }
   const simbolo = await carregarImagem("/simbolo.png");
   if (simbolo) {

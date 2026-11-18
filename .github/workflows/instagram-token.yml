@@ -1,0 +1,26 @@
+name: Instagram token
+
+on:
+  schedule:
+    - cron: "17 9 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  renovar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Renovar o token do Instagram
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          if [ -z "$IG_TOKEN" ]; then echo "IG_TOKEN ainda não configurado."; exit 0; fi
+          if [ -z "$GH_TOKEN" ]; then echo "::error::Falta o segredo GH_PAT para guardar o token renovado. O token do Instagram vence em 60 dias."; exit 1; fi
+          novo=$(node -e "import('./scripts/instagram/api.mjs').then(async m => { const r = await m.renovarToken(); console.error('Token renovado por ' + r.dias + ' dias.'); process.stdout.write(r.token); }).catch(e => { console.error(e.message); process.exit(1); })")
+          echo "::add-mask::$novo"
+          printf '%s' "$novo" | gh secret set IG_TOKEN --repo "$GITHUB_REPOSITORY"

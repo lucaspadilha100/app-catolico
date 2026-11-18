@@ -1,0 +1,91 @@
+name: Instagram
+
+on:
+  schedule:
+    - cron: "0 11 * * *"
+    - cron: "0 15 * * *"
+    - cron: "0 21 * * *"
+  workflow_dispatch:
+    inputs:
+      horario:
+        description: "manha (santos), meio-dia (Evangelho) ou tarde (post do chat)"
+        type: choice
+        options: [manha, meio-dia, tarde]
+        required: true
+      data:
+        description: "AAAA-MM-DD (vazio = hoje em Brasília)"
+        required: false
+      teste:
+        description: "Só conferir, sem publicar"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: instagram
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Horário e data
+        id: h
+        run: |
+          h="${{ inputs.horario }}"
+          if [ -z "$h" ]; then
+            case "$(date -u +%H)" in
+              09|10|11|12|13) h=manha ;;
+              14|15|16|17|18) h=meio-dia ;;
+              *) h=tarde ;;
+            esac
+          fi
+          d="${{ inputs.data }}"
+          [ -z "$d" ] && d=$(TZ=America/Sao_Paulo date +%F)
+          echo "horario=$h" >> "$GITHUB_OUTPUT"
+          echo "data=$d" >> "$GITHUB_OUTPUT"
+          echo "Horário: $h · Data: $d"
+
+      - uses: actions/setup-node@v4
+        if: steps.h.outputs.horario != 'tarde'
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Gerar imagens do dia
+        if: steps.h.outputs.horario != 'tarde' && hashFiles(format('docs/marca/instagram/automatico/{0}/dia.json', steps.h.outputs.data)) == ''
+        run: |
+          npm ci
+          npm i --no-save playwright@1
+          npx playwright install --with-deps chromium
+          node scripts/instagram/gerar-do-dia.mjs "${{ steps.h.outputs.data }}" "docs/marca/instagram/automatico/${{ steps.h.outputs.data }}"
+          git config user.name "Minha Igrejinha"
+          git config user.email "minhaigrejinha@users.noreply.github.com"
+          git add "docs/marca/instagram/automatico/${{ steps.h.outputs.data }}"
+          git commit -m "Instagram: imagens de ${{ steps.h.outputs.data }}"
+          git pull --rebase origin main
+          git push origin HEAD:main
+
+      - name: Publicar
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+        run: |
+          node scripts/instagram/publicar.mjs "${{ steps.h.outputs.horario }}" --data "${{ steps.h.outputs.data }}" ${{ (github.event_name == 'workflow_dispatch' && inputs.teste) && '--teste' || '' }}
+
+      - name: Registrar
+        if: success()
+        run: |
+          if [ -n "$(git status --porcelain docs/marca/instagram/automatico)" ]; then
+            git config user.name "Minha Igrejinha"
+            git config user.email "minhaigrejinha@users.noreply.github.com"
+            git add docs/marca/instagram/automatico
+            git commit -m "Instagram: publicado ${{ steps.h.outputs.data }} ${{ steps.h.outputs.horario }}"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
