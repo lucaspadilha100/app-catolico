@@ -140,8 +140,8 @@ export const INTRODUCOES_AT: Record<string, string[]> = {
     "Oseias apresenta a aliança como um casamento: Israel é a esposa infiel, e Deus é o esposo que não desiste de amar e perdoar. O profeta fala da ternura de Deus como a de um pai que ensina o filho a andar. Jesus cita Oseias ao dizer que Deus quer misericórdia e não sacrifício (Os 6,6). Os capítulos 2 e 11 são o coração do livro.",
   ],
   JOL: [
-    "Joel é um dos doze profetas menores. Sabe-se pouco sobre ele além do nome do pai, e a data do livro é incerta. A pregação nasce de uma praga de gafanhotos e de uma seca que arrasam o país, vistas pelo profeta como sinal do dia do Senhor. O livro é curto, com apenas três capítulos, e tem uma linguagem muito viva.",
-    "Joel chama o povo à penitência e pede que rasguem o coração, e não as vestes (Jl 2,13), texto lido na Quarta-feira de Cinzas. Anuncia também que Deus derramará o seu Espírito sobre todos, promessa que São Pedro proclama cumprida no dia de Pentecostes (At 2,16-21). O capítulo 2 reúne esses dois anúncios e é o melhor ponto de partida.",
+    "Joel é um dos doze profetas menores. Sabe-se pouco sobre ele além do nome do pai, e a data do livro é incerta. A pregação nasce de uma praga de gafanhotos e de uma seca que arrasam o país, vistas pelo profeta como sinal do dia do Senhor. O livro é curto, com apenas quatro capítulos, e tem uma linguagem muito viva.",
+    "Joel chama o povo à penitência e pede que rasguem o coração, e não as vestes (Jl 2,13), texto lido na Quarta-feira de Cinzas. Anuncia também que Deus derramará o seu Espírito sobre todos, promessa que São Pedro proclama cumprida no dia de Pentecostes (Jl 3,1-5; At 2,16-21). Os capítulos 2 e 3 trazem esses dois anúncios e são o melhor ponto de partida.",
   ],
   AMO: [
     "Amós é um dos doze profetas menores. Era pastor e cultivador de sicômoros em Técua, no reino de Judá, e foi enviado por Deus a pregar no reino do norte, no século VIII antes de Cristo. A tradição atribui o livro ao próprio Amós.",
@@ -157,7 +157,7 @@ export const INTRODUCOES_AT: Record<string, string[]> = {
   ],
   MIC: [
     "Miqueias é um dos doze profetas menores. Era de uma pequena cidade do interior de Judá e pregou no século VIII antes de Cristo, no mesmo tempo que Isaías. A tradição atribui o livro ao próprio Miqueias. O livro denuncia os pecados de Samaria e de Jerusalém (Mq 1,5).",
-    "Miqueias denuncia a injustiça e resume o que Deus pede: praticar a justiça, amar a misericórdia e caminhar humildemente com o seu Deus (Mq 6,8). Anuncia também que de Belém, pequena entre as cidades de Judá, sairá o chefe de Israel, profecia que o Evangelho aplica ao nascimento de Jesus (Mq 5,2). O capítulo 5 é lido no Advento.",
+    "Miqueias denuncia a injustiça e resume o que Deus pede: praticar a justiça, amar a misericórdia e caminhar humildemente com o seu Deus (Mq 6,8). Anuncia também que de Belém, pequena entre as cidades de Judá, sairá o chefe de Israel, profecia que o Evangelho aplica ao nascimento de Jesus (Mq 5,1). O capítulo 5 é lido no Advento.",
   ],
   NAM: [
     "Naum é um dos doze profetas menores. Do profeta quase nada se sabe, além de que era de Elcese (Na 1,1). O livro anuncia a queda de Nínive, capital da Assíria, que aconteceu no ano 612 antes de Cristo. A Assíria havia oprimido Israel e muitos outros povos durante muito tempo, com grande crueldade.",
