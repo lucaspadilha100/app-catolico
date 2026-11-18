@@ -10,3 +10,5 @@
 - NÃO entrou: em que dias essas leituras caem na missa (em 2026 o dia 20/12, que traz Is 7,10-14 nos dias de semana, é domingo).
 - Capa: Hans Memling, A Anunciação (1480-89), domínio público (The Metropolitan Museum of Art, Coleção Robert Lehman, 1975.1.113, Open Access CC0; https://www.metmuseum.org/art/collection/search/459055). Troca da revisão: a cópia do Tanner tinha 1024x807 (borrada em 1080x1350) e a mesma obra já é capa de 28/11.
 - Tela: Bíblia > Isaías 9, versículo 6.
+
+- Numeração da Bíblia do app atualizada em 18/11/2026 (Antigo Testamento na numeração das Bíblias de hoje): Is 9,2 > Is 9,1; Is 9,6-7 > Is 9,5-6; Ml 4,2 > Ml 3,20.

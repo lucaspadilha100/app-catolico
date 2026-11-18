@@ -10,3 +10,5 @@
 ## Revisão (18/11/2026)
 - Capa trocada pela versão em alta resolução do mesmo quadro (a cópia do app tem 640 px): lote-b/arte/friedrich.jpg (Commons).
 - O desafio Advento com Maria pede a vela no 1º, 2º e 3º domingo (src/devocao/desafios/advento.ts); o texto não diz mais "a cada domingo".
+
+- Numeração da Bíblia do app atualizada em 18/11/2026 (Antigo Testamento na numeração das Bíblias de hoje): Is 9,2 > Is 9,1; Is 9,6-7 > Is 9,5-6; Ml 4,2 > Ml 3,20.
