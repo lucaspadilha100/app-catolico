@@ -1,6 +1,7 @@
 import { useSyncExternalStore } from "react";
 import estado from "./dados/estado.json";
 import { LIVROS } from "./livros";
+import { NUMERACAO_DOS_DADOS, leituraNaNumeracaoAtual } from "./numeracao";
 
 interface EstadoDoLivro {
   revisao: "transcrito" | "em-revisao" | "revisado";
@@ -13,15 +14,19 @@ export const ESTADO_DOS_LIVROS = estado as Record<string, EstadoDoLivro>;
 export interface Leitura {
   lidos: Record<string, number[]>;
   ultimo: { livro: string; capitulo: number } | null;
+  numeracao?: number;
 }
 
 const CHAVE = "santinho-leitura";
-const VAZIA: Leitura = { lidos: {}, ultimo: null };
+const VAZIA: Leitura = { lidos: {}, ultimo: null, numeracao: NUMERACAO_DOS_DADOS };
 
 function ler(): Leitura {
   try {
     const salvo = JSON.parse(localStorage.getItem(CHAVE) ?? "null") as Leitura | null;
-    return salvo && typeof salvo === "object" ? { ...VAZIA, ...salvo } : VAZIA;
+    if (!salvo || typeof salvo !== "object") return VAZIA;
+    const leitura = leituraNaNumeracaoAtual({ ...salvo, lidos: salvo.lidos ?? {}, ultimo: salvo.ultimo ?? null });
+    if (leitura.numeracao !== salvo.numeracao) localStorage.setItem(CHAVE, JSON.stringify(leitura));
+    return leitura;
   } catch {
     return VAZIA;
   }

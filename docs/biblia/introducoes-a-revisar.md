@@ -31,10 +31,9 @@ Arquivo: `src/biblia/dados/introducoes-at.ts` (46 livros).
   (a posição delas muda entre a Vulgata e a Nova Vulgata).
 - Tobias: o pai não é chamado Tobit (na Vulgata e no Figueiredo pai e filho se
   chamam Tobias). O "capítulo 8 traz a oração dos noivos" segue a Vulgata.
-- Joel: "o capítulo 2 reúne os dois anúncios" vale para a numeração da Vulgata
-  (Jl 2,28-32), que é a do app; no hebraico o Espírito está em Jl 3.
-- Miqueias: a profecia de Belém foi citada só pelo capítulo 5, sem versículo
-  (Mq 5,1 no hebraico e na Nova Vulgata, 5,2 na Vulgata).
+- Joel: o app passou à numeração de hoje (quatro capítulos): a penitência em
+  Jl 2 e o Espírito em Jl 3,1-5 (era Jl 2,28-32 na Vulgata).
+- Miqueias: a profecia de Belém é Mq 5,1 (era 5,2 na Vulgata).
 - Liturgia citada: Nm 6,22-27 em 1º de janeiro; 2Cr 36 no 4º domingo da
   Quaresma do ano B; Ne 8 (3º domingo comum, ano C); Br 5 no 2º domingo do
   Advento, ano C; Jl 2 na Quarta-feira de Cinzas; oração de Ester na

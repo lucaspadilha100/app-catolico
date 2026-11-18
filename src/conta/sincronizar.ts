@@ -1,5 +1,6 @@
 import type { SupabaseClient } from "@supabase/supabase-js";
 import { mesclarMarcas } from "@/biblia/marcas";
+import { NUMERACAO_DOS_DADOS, leituraNaNumeracaoAtual, marcasNaNumeracaoAtual } from "@/biblia/numeracao";
 import { mesclarMusicas } from "@/roteiros/musicas";
 
 export const CHAVES_SINCRONIZADAS = [
@@ -60,6 +61,18 @@ function json<T>(s: string | null, padrao: T): T {
 
 const uniao = (a: unknown[], b: unknown[]) => [...new Set([...a, ...b].map((x) => JSON.stringify(x)))].map((x) => JSON.parse(x) as unknown);
 
+export function naNumeracaoAtual(chave: string, valor: string): string {
+  if (!valor || (chave !== "santinho-marcas" && chave !== "santinho-leitura")) return valor;
+  try {
+    const v = JSON.parse(valor) as unknown;
+    if (!v || typeof v !== "object" || Array.isArray(v)) return valor;
+    const atual = chave === "santinho-marcas" ? marcasNaNumeracaoAtual(v as Record<string, { em: number }>) : leituraNaNumeracaoAtual(v as object);
+    return atual === v ? valor : JSON.stringify(atual);
+  } catch {
+    return valor;
+  }
+}
+
 export function mesclar(chave: string, local: string, remoto: string, localMaisNovo: boolean): string {
   const novo = localMaisNovo ? local : remoto;
   switch (chave) {
@@ -72,7 +85,7 @@ export function mesclar(chave: string, local: string, remoto: string, localMaisN
     case "santinho-musicas":
       return JSON.stringify(mesclarMusicas(json(local, []), json(remoto, [])));
     case "santinho-marcas":
-      return JSON.stringify(mesclarMarcas(json(local, {}), json(remoto, {})));
+      return JSON.stringify(mesclarMarcas(marcasNaNumeracaoAtual(json(local, {})), marcasNaNumeracaoAtual(json(remoto, {}))));
     case "santinho-tercos-rezados": {
       const a = json<Record<string, number>>(local, {});
       const b = json<Record<string, number>>(remoto, {});
@@ -96,13 +109,13 @@ export function mesclar(chave: string, local: string, remoto: string, localMaisN
       return JSON.stringify(r);
     }
     case "santinho-leitura": {
-      type Leitura = { lidos: Record<string, number[]>; ultimo: unknown };
-      const a = json<Leitura>(local, { lidos: {}, ultimo: null });
-      const b = json<Leitura>(remoto, { lidos: {}, ultimo: null });
+      type Leitura = { lidos: Record<string, number[]>; ultimo: { livro: string; capitulo: number } | null };
+      const a = leituraNaNumeracaoAtual(json<Leitura>(local, { lidos: {}, ultimo: null }));
+      const b = leituraNaNumeracaoAtual(json<Leitura>(remoto, { lidos: {}, ultimo: null }));
       const lidos: Record<string, number[]> = {};
       for (const livro of new Set([...Object.keys(a.lidos ?? {}), ...Object.keys(b.lidos ?? {})]))
         lidos[livro] = [...new Set([...(a.lidos?.[livro] ?? []), ...(b.lidos?.[livro] ?? [])])].sort((x, y) => x - y);
-      return JSON.stringify({ lidos, ultimo: (localMaisNovo ? a : b).ultimo ?? null });
+      return JSON.stringify({ lidos, ultimo: (localMaisNovo ? a : b).ultimo ?? null, numeracao: NUMERACAO_DOS_DADOS });
     }
     case "santinho-preferencias": {
       const a = json<{ apoiadorAte?: string }>(local, {});
@@ -148,8 +161,11 @@ export async function sincronizar(cliente: SupabaseClient): Promise<{ recebidas:
 
   for (const chave of CHAVES_SINCRONIZADAS) {
     const m = metas[chave] ?? { enviado: null, em: null };
-    const local = localStorage.getItem(chave) ?? (m.enviado ? "" : null);
-    const remoto = remotos.get(chave);
+    const guardado = localStorage.getItem(chave);
+    const local = guardado === null ? (m.enviado ? "" : null) : naNumeracaoAtual(chave, guardado);
+    if (guardado !== null && local !== guardado) localStorage.setItem(chave, local!);
+    const bruto = remotos.get(chave);
+    const remoto = bruto && { ...bruto, valor: naNumeracaoAtual(chave, bruto.valor) };
     const gravarLocal = (valor: string) => (valor === "" ? localStorage.removeItem(chave) : localStorage.setItem(chave, valor));
     const localMudou = local !== null && local !== m.enviado;
     const remotoMudou = !!remoto && remoto.atualizado_em !== m.em;

@@ -33,10 +33,10 @@ const GRUPOS: [Testamento, string, Linha[]][] = [
   ["AT", "Profetas", [
     ["ISA", "Isaías", "Is", 66], ["JER", "Jeremias", "Jr", 52], ["LAM", "Lamentações", "Lm", 5],
     ["BAR", "Baruc", "Br", 6], ["EZK", "Ezequiel", "Ez", 48], ["DAN", "Daniel", "Dn", 14],
-    ["HOS", "Oseias", "Os", 14], ["JOL", "Joel", "Jl", 3], ["AMO", "Amós", "Am", 9],
+    ["HOS", "Oseias", "Os", 14], ["JOL", "Joel", "Jl", 4], ["AMO", "Amós", "Am", 9],
     ["OBA", "Abdias", "Ab", 1], ["JON", "Jonas", "Jn", 4], ["MIC", "Miqueias", "Mq", 7],
     ["NAM", "Naum", "Na", 3], ["HAB", "Habacuc", "Hab", 3], ["ZEP", "Sofonias", "Sf", 3],
-    ["HAG", "Ageu", "Ag", 2], ["ZEC", "Zacarias", "Zc", 14], ["MAL", "Malaquias", "Ml", 4],
+    ["HAG", "Ageu", "Ag", 2], ["ZEC", "Zacarias", "Zc", 14], ["MAL", "Malaquias", "Ml", 3],
   ]],
   ["NT", "Evangelhos", [
     ["MAT", "Mateus", "Mt", 28], ["MRK", "Marcos", "Mc", 16], ["LUK", "Lucas", "Lc", 24],

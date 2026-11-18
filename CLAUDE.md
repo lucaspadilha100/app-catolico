@@ -309,7 +309,9 @@ Nada de licença paga por ora. Então:
 - `npm run gerar` refaz `src/liturgia/dados/lecionario.json` a partir de
   `fontes/` (ver `fontes/LEIAME.md`). Não editar o JSON à mão: muda o gerador.
 - Referência canônica = código do livro + numeração HEBRAICA (a do lecionário
-  brasileiro): `PSA 80:2ac.3b`. A tela mostra `Sl 79(80),2ac.3b`.
+  brasileiro): `PSA 80:2ac.3b`. A tela mostra `Sl 79(80),2ac.3b`. Só os
+  Salmos passam pela tabela hebraico → Vulgata; o resto do AT e o NT já estão
+  na numeração do lecionário (Is 9,1-6 é o 9,1-6 do leitor).
 - Deuterocanônicos não têm tabela aberta de versificação: a numeração do
   Brasil está em `NUMERACAO_DO_BRASIL` no gerador (Eclo, Tb, Dn 3).
 - Memória usa as leituras do dia de semana; usa as PRÓPRIAS só quando são
@@ -350,6 +352,20 @@ Nada de licença paga por ora. Então:
   católicas de hoje (Nova Vulgata, `org.vrs`), não a da Vulgata antiga (pedido
   do dono, 10/11/2026: Mt 5,4-5). Salmos ficam na numeração grega. Lista em
   `scripts/biblia/numeracao.mjs`; o mapa hebraico deixa de converter esses livros.
+- **AT na numeração hebraica** (18/11/2026, pedido do dono: "Is 9,1, não 9,2"):
+  todo livro com texto hebraico, menos os Salmos, e Dn 5-6. Ficam na Vulgata:
+  Salmos, Ester, Dn 3, 13 e 14 e os deuterocanônicos (a Nova Vulgata numera
+  esses por outro texto; relatório em `conferencia/numeracao-AT.md`). Joel tem
+  4 capítulos e Malaquias 3. `src/biblia/dados/numeracao-antiga.json` diz para
+  onde foi cada versículo antigo: `fonteNaNumeracaoAtual` refaz o Figueiredo
+  na numeração nova (conferir, lado-a-lado, gerador). Gn 49,32, Ex 40,14 e
+  Ct 1,1 ficam vazios (a Vulgata não tem o texto; o leitor pula o número).
+- ⚠️ O que a pessoa guardou com o número antigo passa UMA vez
+  (`src/biblia/numeracao.ts`): grifos/notas (`santinho-marcas`, chave
+  `numeracao`), leitura (`santinho-leitura`, campo `numeracao`) e leitura de
+  roteiro (bloco sem `numeracao`). A marca mora DENTRO do valor, e a
+  sincronização converte o valor antigo que chega de outro aparelho. Mudou a
+  numeração de novo: tabela nova e `NUMERACAO_DOS_DADOS` + 1.
 - **Avisar erro** (pedido do dono, 10/11/2026): tocar no versículo abre a barra
   com "Avisar erro" (`components/AvisarErro.tsx`). Vai para a tabela
   `avisos_biblia` do Supabase (só INSERT, ninguém lê pela API; o dono lê no
@@ -369,8 +385,9 @@ Nada de licença paga por ora. Então:
 - ⚠️ Os Salmos seguem a edição de 1950: 113 (1-8) + "113 bis" guardado como
   113,9-26; o 115 começa no versículo 10 e o 147 no 12. A tabela
   hebraico → Vulgata (`src/biblia/dados/mapa-hebraico.json`) já é essa.
-- Daniel e os deuterocanônicos não passam pela tabela (o lecionário já usa a
-  numeração da Vulgata); a oração de Ester (Est 4,17k-z) vai para Est 14.
+- Daniel e os deuterocanônicos não passam pela tabela (o lecionário usa a
+  numeração da Vulgata em Dn 3, 13 e 14 e a hebraica em Dn 6, que o leitor já
+  tem); a oração de Ester (Est 4,17k-z) vai para Est 14.
 - Progresso de leitura (`src/biblia/progresso.ts`): capítulos lidos e "continuar
   lendo" no aparelho (`santinho-leitura`); percentual pesado por versículos.
   Sincroniza com a conta na Leva 10.

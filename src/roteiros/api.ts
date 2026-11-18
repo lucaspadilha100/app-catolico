@@ -1,4 +1,7 @@
+import { blocosNaNumeracaoAtual } from "./referencia";
 import type { Bloco, Roteiro } from "./tipos";
+
+const naNumeracaoAtual = <R extends { blocos: Bloco[] }>(r: R | null): R | null => (r?.blocos ? { ...r, blocos: blocosNaNumeracaoAtual(r.blocos) } : r);
 
 const cliente = async () => (await import("@/lib/supabase")).supabase;
 
@@ -11,12 +14,12 @@ export async function meusRoteiros(): Promise<Roteiro[]> {
   const c = await cliente();
   const { data } = await c.auth.getSession();
   if (!data.session) return [];
-  return ou(await c.from("roteiros").select("id, codigo, titulo, data, hora, local, passo, conta, ao_vivo, terco_id, dono_id, atualizado_em, blocos").order("data", { ascending: false, nullsFirst: true }).order("criado_em", { ascending: false }).limit(100)) as Roteiro[];
+  return (ou(await c.from("roteiros").select("id, codigo, titulo, data, hora, local, passo, conta, ao_vivo, terco_id, dono_id, atualizado_em, blocos").order("data", { ascending: false, nullsFirst: true }).order("criado_em", { ascending: false }).limit(100)) as Roteiro[]).map((r) => naNumeracaoAtual(r)!);
 }
 
 export async function carregarRoteiro(id: string): Promise<Roteiro | null> {
   const c = await cliente();
-  return ou(await c.from("roteiros").select("*").eq("id", id).maybeSingle()) as Roteiro | null;
+  return naNumeracaoAtual(ou(await c.from("roteiros").select("*").eq("id", id).maybeSingle()) as Roteiro | null);
 }
 
 export async function criarRoteiro(r: { titulo: string; terco_id: string | null; paroquia_id?: string | null; data: string | null; hora: string | null; local: string; blocos: Bloco[] }): Promise<string> {
@@ -37,7 +40,7 @@ export async function apagarRoteiro(id: string) {
 export async function roteiroPorCodigo(codigo: string): Promise<Roteiro | null> {
   const c = await cliente();
   const r = ou(await c.rpc("roteiro_por_codigo", { p_codigo: codigo })) as Roteiro[];
-  return r[0] ?? null;
+  return naNumeracaoAtual(r[0] ?? null);
 }
 
 export interface Estado {

@@ -1,15 +1,17 @@
 import { readFileSync, existsSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
+import { fonteNaNumeracaoAtual } from "./numeracao.mjs";
 
 const raiz = join(dirname(fileURLToPath(import.meta.url)), "../..");
 const [livro, capArg, origArg] = process.argv.slice(2);
 const cap = Number(capArg);
 const ler = (p) => (existsSync(p) ? JSON.parse(readFileSync(p, "utf8")) : null);
 const revisado = ler(join(raiz, "fontes/biblia/revisao", livro, `${cap}.json`)) ?? [];
-const fig = ler(join(raiz, "fontes/biblia/figueiredo-1950", `${livro}.json`))?.capitulos[cap - 1] ?? [];
-const vul = ler(join(raiz, "fontes/vulgata", `${livro}.json`))?.capitulos[cap - 1] ?? [];
-const dr = ler(join(raiz, "fontes/douay-rheims", `${livro}.json`))?.capitulos[cap - 1] ?? [];
+const naNumeracaoAtual = (fonte) => (fonte ? fonteNaNumeracaoAtual(livro, fonte)[cap - 1] ?? [] : []);
+const fig = naNumeracaoAtual(ler(join(raiz, "fontes/biblia/figueiredo-1950", `${livro}.json`)));
+const vul = naNumeracaoAtual(ler(join(raiz, "fontes/vulgata", `${livro}.json`)));
+const dr = naNumeracaoAtual(ler(join(raiz, "fontes/douay-rheims", `${livro}.json`)));
 const original = ler(join(raiz, "fontes/originais", `${origArg ?? livro}.json`));
 const capOriginal = Number(process.argv[5] ?? cap);
 const org = original?.capitulos[capOriginal - 1] ?? [];
