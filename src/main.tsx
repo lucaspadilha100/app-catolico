@@ -9,8 +9,10 @@ import "./index.css";
 import { registerSW } from "virtual:pwa-register";
 import { ehNativo } from "@/lib/nativo";
 import { escutarInstalacao } from "@/lib/instalar";
+import { iniciarAnalise } from "@/lib/analise";
 
 escutarInstalacao();
+iniciarAnalise();
 
 if (!ehNativo() && "serviceWorker" in navigator) {
   registerSW({

@@ -7,6 +7,8 @@ import { usePreferencias } from "@/lib/preferencias";
 import { ehNativo } from "@/lib/nativo";
 import { Rolagem } from "@/components/Rolagem";
 import { BoasVindas } from "@/components/BoasVindas";
+import { AvisoDeCookies } from "@/components/AvisoDeCookies";
+import { paginaVista } from "@/lib/analise";
 import { Carregando } from "@/components/Devocao";
 import { renovarSeFaltar } from "@/lembretes/lembretes";
 import { PonteNativa } from "@/components/PonteNativa";
@@ -69,6 +71,10 @@ export default function Layout() {
     }
     document.title = NOME_DO_APP;
   }, [pathname]);
+  useEffect(() => {
+    const t = setTimeout(() => paginaVista(pathname), 300);
+    return () => clearTimeout(t);
+  }, [pathname]);
   const animarTela = useEntradaDaTela();
   const liturgia = useDiaLiturgico();
   const { diocese } = usePreferencias().preferencias;
@@ -118,6 +124,7 @@ export default function Layout() {
       <Rolagem />
       <PonteNativa />
       {pathname === "/" && <BoasVindas />}
+      <AvisoDeCookies />
       <aside className="sticky top-0 hidden h-dvh w-60 shrink-0 flex-col gap-6 border-r border-borda bg-papel px-4 py-6 md:flex">
         <Marca className="px-2" />
         <nav className="flex flex-col gap-1">

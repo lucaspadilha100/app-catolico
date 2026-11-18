@@ -1,4 +1,6 @@
 import { useState, type ReactNode } from "react";
+import { analiseDisponivel, escolherCookies, useEscolhaDeCookies } from "@/lib/analise";
+import { ROTULO_DOS_COOKIES } from "@/components/AvisoDeCookies";
 import { Bell, CalendarClock, CalendarDays, Clock, GraduationCap, Image, ListMusic, Church, FileText, HandHeart, Heart, LayoutDashboard, MonitorPlay, NotebookPen, Share2, ShieldCheck, Sparkles, UserRound } from "lucide-react";
 import { ehApoiador, usePreferencias, type CorDoApp, type Letra, type Tema } from "@/lib/preferencias";
 import { Cartao, Grupo, ItemLista, LINHA, TituloPagina } from "@/components/Cartao";
@@ -122,6 +124,12 @@ function BibliaSemInternet() {
   );
 }
 
+function CookiesDeUso() {
+  const escolha = useEscolhaDeCookies();
+  if (!analiseDisponivel()) return null;
+  return <Interruptor rotulo={ROTULO_DOS_COOKIES} ligado={escolha === "sim"} onChange={(v) => escolherCookies(v ? "sim" : "nao")} />;
+}
+
 export default function Mais() {
   const { preferencias: p, mudar } = usePreferencias();
   const { pronto, email } = useConta();
@@ -216,6 +224,7 @@ export default function Mais() {
               />
             </label>
             <Interruptor rotulo="Modo simples" ligado={p.simples} onChange={(simples) => mudar({ simples })} />
+            <CookiesDeUso />
             {!ehNativo() && <BibliaSemInternet />}
           </Cartao>
         </section>
