@@ -28,10 +28,11 @@ export function paraNumeracaoAtual(livro, capitulo, versiculo) {
   return [capitulo, versiculo];
 }
 
-const cacheFonte = new Map();
+const cacheFonte = new WeakMap();
+const refeitosPorLivro = new Map();
 export function fonteNaNumeracaoAtual(livro, fonte) {
   if (!renumerado(livro)) return fonte.capitulos;
-  if (cacheFonte.has(livro)) return cacheFonte.get(livro).capitulos;
+  if (cacheFonte.has(fonte)) return cacheFonte.get(fonte);
   const tamanhos = moderna[livro] ? [...moderna[livro]] : fonte.capitulos.map(() => 0);
   const partes = tamanhos.map((n) => Array.from({ length: n }, () => []));
   const fim = new Map((NUMERACAO_ANTIGA[livro]?.partidos ?? []).map(([c, v, cf, vf]) => [`${c}:${v}`, [cf, vf]]));
@@ -50,7 +51,8 @@ export function fonteNaNumeracaoAtual(livro, fonte) {
   partes.forEach((cap, c) => {
     if (cap.some((p) => p.length !== 1 || !p[0].inteiro)) refeitos.add(c + 1);
   });
-  cacheFonte.set(livro, { capitulos, refeitos });
+  cacheFonte.set(fonte, capitulos);
+  refeitosPorLivro.set(livro, refeitos);
   return capitulos;
 }
 
@@ -66,7 +68,7 @@ const DIVISAO_REFEITA = { MAT: [5, 17], MRK: [4, 8, 9], LUK: [17], JHN: [5, 6, 7
 export function mesmaDivisaoDaFonte(livro, capitulo, fonte) {
   if (renumerado(livro) && fonte) {
     fonteNaNumeracaoAtual(livro, fonte);
-    return !cacheFonte.get(livro).refeitos.has(capitulo);
+    return !refeitosPorLivro.get(livro).has(capitulo);
   }
   return !DIVISAO_REFEITA[livro]?.includes(capitulo);
 }

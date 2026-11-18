@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { marcasNaNumeracaoAtual } from "./numeracao";
 
 export const CHAVE_MARCAS = "santinho-marcas";
 const EVENTO = "santinho-marcas";
@@ -32,10 +33,14 @@ export const marcaViva = (m: Marca | undefined): boolean => !!m && (!!m.cor || !
 
 export function lerMarcas(): Marcas {
   try {
-    const v = JSON.parse(localStorage.getItem(CHAVE_MARCAS) ?? "{}") as unknown;
-    return v && typeof v === "object" && !Array.isArray(v) ? (v as Marcas) : {};
+    const guardado = localStorage.getItem(CHAVE_MARCAS);
+    const v = JSON.parse(guardado ?? "{}") as unknown;
+    const marcas = v && typeof v === "object" && !Array.isArray(v) ? (v as Marcas) : {};
+    const atuais = marcasNaNumeracaoAtual(marcas);
+    if (guardado !== null && atuais !== marcas) localStorage.setItem(CHAVE_MARCAS, JSON.stringify(atuais));
+    return atuais;
   } catch {
-    return {};
+    return marcasNaNumeracaoAtual({});
   }
 }
 

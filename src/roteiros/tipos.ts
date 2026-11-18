@@ -21,7 +21,7 @@ export type Bloco = Base &
     | { tipo: "canto"; titulo: string; artista?: string; link?: string; momento?: string }
     | { tipo: "imagem"; santo: string; nome: string; imagem: string }
     | { tipo: "texto"; rotulo: RotuloDeTexto; texto: string }
-    | { tipo: "leitura"; referencia: string }
+    | { tipo: "leitura"; referencia: string; numeracao?: number }
     | { tipo: "misterio"; grupo: GrupoDeMisterios; indice: number }
     | { tipo: "oracao"; oracao: string; vezes: number }
     | { tipo: "liturgia"; data: string }

@@ -2,6 +2,7 @@ import { MISTERIOS, type GrupoDeMisterios } from "@/liturgia/terco";
 import { nomeDoMisterio } from "@/oracao/terco";
 import { ORACOES } from "@/oracao/oracoes";
 import { NOME_DO_DIA, hhmm } from "@/paroquias/horarios";
+import { NUMERACAO_DOS_DADOS } from "@/biblia/numeracao";
 import type { Bloco, Roteiro, RotuloDeTexto, TipoDeBloco } from "./tipos";
 
 export const novoId = () => Math.random().toString(36).slice(2, 10);
@@ -16,7 +17,7 @@ export function blocoVazio(tipo: TipoDeBloco): Bloco {
     case "texto":
       return { id, tipo, rotulo: "meditacao", texto: "" };
     case "leitura":
-      return { id, tipo, referencia: "" };
+      return { id, tipo, referencia: "", numeracao: NUMERACAO_DOS_DADOS };
     case "misterio":
       return { id, tipo, grupo: "gozosos", indice: 0 };
     case "oracao":
