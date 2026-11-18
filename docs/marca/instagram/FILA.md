@@ -15,22 +15,33 @@ Ordem combinada com o dono em 15/11/2026: primeiro a apresentação do app, em s
 7. Novembro: rezar por quem partiu (`plano-lancamento.md`, post 5) · a fazer
 8. Como pôr o app na tela do celular (`plano-lancamento.md`, post 8) · a fazer
 9. O Advento começa amanhã (`plano-lancamento.md`, post 9; sáb 28/11) · a fazer
-## Rotina diária a partir de 19/11/2026 (decisão do dono, 18/11): 3 posts no feed por dia
-- **Manhã: santos do dia.** Pela tela Divulgação do app (Mais > Painel > Divulgação), "Post" de cada santo do dia; se houver mais de um, vão juntos num carrossel. "Story" de cada um nos stories.
-- **Meio-dia: Evangelho do dia.** Divulgação, "Post" do Evangelho no feed e "Story" nos stories.
-- **Fim da tarde: o post do dia criado no chat**, um por vez, nesta fila (itens 7 em diante), sempre revisado por especialistas (doutrina e texto) antes de ir ao ar.
+## Rotina diária (decisão do dono, 18/11/2026): tudo automático
+O dono não publica à mão. A grade de cada dia está em "Publicação automática", abaixo.
 
 ## Posts do fim da tarde até 31/12/2026: `curiosidades/<AAAA-MM-DD>-<tema>/`
 Um post por noite, de 19/11 a 31/12 (43), cada um com as lâminas em JPG (01.jpg...), `legenda.txt` e `fontes.md`, escritos e revisados por especialistas (doutrina e texto) com fonte conferida. Plano e temas: `curiosidades-plano.md`. Na pasta `curiosidades/reserva/` ficam prontos "De onde vem a Ave-Maria" e "O que quer dizer Amém" (saíram de 21/11 e 26/11 para Nossa Senhora da Apresentação, padroeira de Natal, e a árvore de Natal).
 Gerador das lâminas (marca no topo de toda lâmina): `scratchpad/posts/script/compor.cjs` (fora do repositório); padrão: capa com pintura, lâminas de texto e uma tela real do app, fecho.
 
-## Publicação automática (desde 18/11/2026): `.github/workflows/instagram.yml`
-- 8h (11h UTC): santos do dia do calendário, carrossel no feed e um story por santo.
-- 12h (15h UTC): Evangelho do dia no feed e no story.
-- 18h (21h UTC): o post do fim da tarde desta pasta `curiosidades/` (pela data no nome da pasta).
-- As imagens dos santos e do Evangelho saem do mesmo código da tela Divulgação (`scripts/instagram/gerar-do-dia.mjs`), ficam em `automatico/<data>/` e vão ao Instagram pelo endereço público do GitHub. `automatico/publicados.json` evita publicar duas vezes.
-- Segredos no GitHub: `IG_TOKEN`, `IG_USER_ID` (sem eles, nada é publicado) e `GH_PAT` (renova o token toda segunda, `instagram-token.yml`). Configuração: `../prompt-instagram-api.md`.
-- Rodar à mão: Actions > Instagram > Run workflow (horário, data, "teste" marcado = só confere).
+## Publicação automática (desde 18/11/2026; grade de 18/11): `.github/workflows/instagram.yml`
+O dono não publica nada à mão. Horário de Brasília (o GitHub costuma atrasar de 5 a 20 minutos, por isso cada horário está um pouco antes):
+
+| Horário | Feed | Stories |
+|---|---|---|
+| 05:40 | Evangelho do dia | Evangelho |
+| 07:10 | Data grande (Advento, Imaculada, Natal...), só no dia | a mesma |
+| 08:40 | Santos do dia do calendário (carrossel; sem santo no calendário, até 3 lembrados com foto) | um por santo |
+| 10:10 | Novena que começa hoje, só no dia | a mesma |
+| 11:10 | Reflexão do Evangelho, só aos domingos com reflexão | a mesma |
+| 11:50 | | Ângelus |
+| 14:50 | | Hora da Misericórdia |
+| 17:40 | O post do dia desta pasta `curiosidades/` (pela data no nome) | |
+| 20:10 | Terço de hoje (mistérios do dia) | Terço, com os 5 mistérios |
+| 21:40 | | Oração da noite |
+
+- A grade mora em `scripts/instagram/horarios.mjs` (e os `cron` repetidos no workflow). Horário que não saiu (o GitHub às vezes pula) é recuperado pelo seguinte, até 4 horas depois, menos Ângelus, Misericórdia e noite, que só valem na hora.
+- As imagens saem do código do app (`scripts/instagram/gerar-do-dia.mjs`, peças em `src/divulgacao/conteudo.ts` e `instagram.ts`), geradas no primeiro horário do dia e guardadas no ramo `instagram` (só o dia de hoje e os seguintes; a Vercel não publica esse ramo, `vercel.json`), com o registro do que saiu em `<data>/publicados.json` lá. A `main` não recebe commit da automação.
+- Segredos no GitHub: `IG_TOKEN`, `IG_USER_ID` (token de usuário do sistema da Meta, não vence; `instagram-token.yml` só age com token do Instagram e `GH_PAT`). Configuração: `../prompt-instagram-api.md`.
+- Rodar à mão ou testar: mudar `automatico/pedido.json` (`slot`, `data`, `teste`) e enviar à `main`, ou Actions > Instagram > Run workflow.
 
 Fora da fila: `post2-novena-apresentacao/` (o dono achou fora de hora).
 

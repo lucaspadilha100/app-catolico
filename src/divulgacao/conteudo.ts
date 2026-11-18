@@ -10,21 +10,21 @@ import type { Reflexao } from "@/reflexoes/tipos";
 import type { DataGrande } from "./datas";
 
 const ARROBA = "@minhaigrejinhaapp";
-const ASSINATURA = `${NOME_DO_APP}, o app católico: liturgia do dia, terço, Bíblia e orações. O link está no perfil.`;
+export const ASSINATURA = `${NOME_DO_APP}, o app católico: liturgia do dia, terço, Bíblia e orações. O link está no perfil.`;
 
 export const creditoDaImagemDoSanto = (s: Santo): string => (s.imagem ? creditoDaFoto(s.imagem) : "");
 
 const EXPLICACAO: Record<string, string> = {
-  servo: "Servo de Deus é o título de quem teve a causa de beatificação aberta: a Igreja começou a estudar a sua vida e as suas virtudes. Ainda não tem culto público (Código de Direito Canônico, cân. 1187). Podemos rezar pedindo a Deus a sua beatificação.",
-  veneravel: "Venerável é o título dado quando o Papa reconhece, por decreto, que a pessoa viveu as virtudes cristãs em grau heroico. Ainda não tem culto público (Código de Direito Canônico, cân. 1187). Podemos rezar pedindo a Deus a sua beatificação.",
-  beato: "Beato é quem a Igreja beatificou: pode ser venerado com culto público, em geral na sua diocese ou na sua família religiosa (Código de Direito Canônico, cân. 1187). É o passo antes da canonização.",
+  servo: "Servo de Deus é o título de quem teve a causa de beatificação aberta: a Igreja começou a estudar a sua vida e as suas virtudes. Ainda não pode ser venerado publicamente (Código de Direito Canônico, cân. 1187). Podemos rezar pedindo a Deus a sua beatificação.",
+  veneravel: "Venerável é o título dado quando o Papa reconhece, por decreto, que a pessoa viveu as virtudes cristãs em grau heroico. Ainda não pode ser venerado publicamente (Código de Direito Canônico, cân. 1187). Podemos rezar pedindo a Deus a sua beatificação.",
+  beato: "Beato é quem a Igreja beatificou: pode ser venerado publicamente, em geral na sua diocese ou na sua família religiosa (Código de Direito Canônico, cân. 1187). É o passo antes da canonização.",
   santo: "Santo é quem a Igreja canonizou, propondo-o a todos os fiéis como modelo e intercessor (Catecismo, n. 828).",
 };
 
 const CURTA: Record<string, string> = {
-  servo: "Servo de Deus: a Igreja abriu a causa de beatificação e estuda a sua vida. Ainda não tem culto público.",
-  veneravel: "Venerável: o Papa reconheceu que viveu as virtudes cristãs em grau heroico. Ainda não tem culto público.",
-  beato: "Beato: a Igreja o beatificou e permite o culto público, em geral na sua diocese ou família religiosa.",
+  servo: "Servo de Deus: a Igreja abriu a causa de beatificação e estuda a sua vida. Ainda não pode ser venerado publicamente.",
+  veneravel: "Venerável: o Papa reconheceu que viveu as virtudes cristãs em grau heroico. Ainda não pode ser venerado publicamente.",
+  beato: "Beato: a Igreja o beatificou e permite a veneração pública, em geral na sua diocese ou família religiosa.",
 };
 
 const HASHTAG: Record<string, string> = { servo: "#servodedeus", veneravel: "#veneravel", beato: "#beato", santo: "#santos" };

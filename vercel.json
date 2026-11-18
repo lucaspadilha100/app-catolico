@@ -9,5 +9,10 @@
       "destination": "/index.html"
     }
   ],
-  "ignoreCommand": "sh vercel-ignorar.sh"
+  "ignoreCommand": "sh vercel-ignorar.sh",
+  "git": {
+    "deploymentEnabled": {
+      "instagram": false
+    }
+  }
 }

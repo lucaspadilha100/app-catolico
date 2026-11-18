@@ -1,31 +1,50 @@
 import { execSync } from "node:child_process";
 import { existsSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
-import { join } from "node:path";
+import { dirname, join, relative, resolve } from "node:path";
 import { contaConectada, publicarFeed, publicarStory } from "./api.mjs";
+import { HORARIOS, RECUPERAR_ATE_HORAS, minutosDe } from "./horarios.mjs";
 
 const REPO = "lucaspadilha100/app-catolico";
-const AUTOMATICO = "docs/marca/instagram/automatico";
 const CURIOSIDADES = "docs/marca/instagram/curiosidades";
-const REGISTRO = join(AUTOMATICO, "publicados.json");
-const ASSINATURA = "Minha Igrejinha, o app católico: liturgia do dia, terço, Bíblia e orações. O link está no perfil.";
 
 const args = process.argv.slice(2);
-const horario = args[0];
 const valor = (nome) => {
   const i = args.indexOf(nome);
   return i >= 0 ? args[i + 1] : undefined;
 };
 const teste = args.includes("--teste");
 const forcar = args.includes("--forcar");
-const data = valor("--data") ?? new Date().toLocaleDateString("sv-SE", { timeZone: "America/Sao_Paulo" });
+const agora = new Date();
+const hoje = agora.toLocaleDateString("sv-SE", { timeZone: "America/Sao_Paulo" });
+const data = valor("--data") || hoje;
+const pastaDoDia = valor("--dia");
+const cron = valor("--cron");
+const pedido = valor("--slot");
+const slot = pedido || HORARIOS.find((h) => h.cron === cron)?.slot;
 
-if (!["manha", "meio-dia", "tarde"].includes(horario ?? "") || !/^\d{4}-\d{2}-\d{2}$/.test(data)) {
-  console.error("Uso: node scripts/instagram/publicar.mjs <manha|meio-dia|tarde> [--data AAAA-MM-DD] [--teste] [--forcar]");
+if (!slot || !HORARIOS.some((h) => h.slot === slot) || !/^\d{4}-\d{2}-\d{2}$/.test(data) || !pastaDoDia) {
+  console.error(`Uso: node scripts/instagram/publicar.mjs --dia <pasta> (--slot <${HORARIOS.map((h) => h.slot).join("|")}> | --cron "<expressão>") [--data AAAA-MM-DD] [--teste] [--forcar]`);
   process.exit(1);
 }
 
-const sha = execSync("git rev-parse HEAD").toString().trim();
-const url = (caminho) => `https://raw.githubusercontent.com/${REPO}/${sha}/${caminho.split("/").map(encodeURIComponent).join("/")}`;
+const minutosAgora = (() => {
+  const [h, m] = agora.toLocaleTimeString("en-GB", { timeZone: "America/Sao_Paulo", hour12: false }).split(":").map(Number);
+  return h * 60 + m;
+})();
+
+const atrasados =
+  cron && data === hoje
+    ? HORARIOS.filter((h) => h.recuperar && h.slot !== slot && minutosDe(h.brasilia) < minutosAgora && minutosAgora - minutosDe(h.brasilia) <= RECUPERAR_ATE_HORAS * 60).map((h) => h.slot)
+    : [];
+
+const commitDe = new Map();
+function url(caminho) {
+  const absoluto = resolve(caminho);
+  const raiz = execSync("git rev-parse --show-toplevel", { cwd: dirname(absoluto) }).toString().trim();
+  if (!commitDe.has(raiz)) commitDe.set(raiz, execSync("git rev-parse HEAD", { cwd: raiz }).toString().trim());
+  const rel = relative(raiz, absoluto).split("/").map(encodeURIComponent).join("/");
+  return `https://raw.githubusercontent.com/${REPO}/${commitDe.get(raiz)}/${rel}`;
+}
 
 async function conferir(urls) {
   for (const u of urls) {
@@ -34,70 +53,69 @@ async function conferir(urls) {
   }
 }
 
-function lerRegistro() {
+const REGISTRO = join(pastaDoDia, "publicados.json");
+const lerRegistro = () => {
   try {
     return JSON.parse(readFileSync(REGISTRO, "utf8"));
   } catch {
     return {};
   }
+};
+const dia = JSON.parse(readFileSync(join(pastaDoDia, "dia.json"), "utf8"));
+
+function itensDo(s) {
+  if (s !== "curiosidade") return dia.itens.filter((i) => i.slot === s).map((i) => ({ ...i, feed: i.feed.map((f) => join(pastaDoDia, f)), stories: i.stories.map((f) => join(pastaDoDia, f)) }));
+  const pasta = existsSync(CURIOSIDADES) ? readdirSync(CURIOSIDADES).find((p) => p.startsWith(`${data}-`)) : undefined;
+  if (!pasta) return [];
+  const dir = join(CURIOSIDADES, pasta);
+  const laminas = readdirSync(dir).filter((f) => /^\d+\.jpg$/.test(f)).sort();
+  return [{ slot: s, nome: pasta, feed: laminas.map((f) => join(dir, f)), stories: [], legenda: readFileSync(join(dir, "legenda.txt"), "utf8").trim() }];
 }
 
-function plano() {
-  if (horario === "tarde") {
-    const pasta = existsSync(CURIOSIDADES) ? readdirSync(CURIOSIDADES).find((p) => p.startsWith(`${data}-`)) : undefined;
-    if (!pasta) return null;
-    const dir = join(CURIOSIDADES, pasta);
-    const laminas = readdirSync(dir).filter((f) => /^\d+\.jpg$/.test(f)).sort();
-    return { nome: pasta, feed: laminas.map((f) => join(dir, f)), legenda: readFileSync(join(dir, "legenda.txt"), "utf8").trim(), stories: [] };
+let falhas = 0;
+if (teste && process.env.IG_TOKEN?.trim() && process.env.IG_USER_ID?.trim()) console.log(`Conta conectada: @${await contaConectada()}`);
+if (!teste && (!process.env.IG_TOKEN?.trim() || !process.env.IG_USER_ID?.trim())) {
+  console.log("Os segredos IG_TOKEN e IG_USER_ID não estão no GitHub: nada foi publicado.");
+  process.exit(0);
+}
+
+for (const s of [...atrasados, slot]) {
+  const itens = itensDo(s);
+  if (!itens.length) {
+    if (s === slot) console.log(`${data}/${s}: nada para publicar.`);
+    continue;
   }
-  const dir = join(AUTOMATICO, data);
-  const dia = JSON.parse(readFileSync(join(dir, "dia.json"), "utf8"));
-  if (horario === "meio-dia")
-    return { nome: `Evangelho ${data}`, feed: [join(dir, "evangelho-post.jpg")], legenda: dia.evangelho.legenda, stories: [join(dir, "evangelho-story.jpg")] };
-  const doCalendario = dia.santos.filter((s) => s.calendario);
-  const santos = (doCalendario.length ? doCalendario : dia.santos.slice(0, 3)).slice(0, 10);
-  if (!santos.length) return null;
-  const legenda =
-    santos.length === 1
-      ? santos[0].legenda
-      : [`Santos do dia, ${dia.data.toLowerCase()}.`, "", ...santos.flatMap((s) => [s.nome, s.resumo, ""]), ASSINATURA, "", "#santododia #santosdaigreja #igrejacatolica"].join("\n");
-  return { nome: `Santos ${data}`, feed: santos.map((s) => join(dir, s.post)), legenda, stories: santos.map((s) => join(dir, s.story)) };
-}
-
-const chave = `${data}/${horario}`;
-const registro = lerRegistro();
-if (registro[chave] && !forcar) {
-  console.log(`Já publicado: ${chave}.`);
-  process.exit(0);
-}
-
-const p = plano();
-if (!p) {
-  console.log(`Nada para publicar em ${chave}.`);
-  process.exit(0);
-}
-
-const feed = p.feed.map(url);
-const stories = p.stories.map(url);
-console.log(`${chave}: ${p.nome}\nFeed (${feed.length}):\n${feed.join("\n")}\nStories (${stories.length}):\n${stories.join("\n")}\nLegenda:\n${p.legenda.slice(0, 400)}${p.legenda.length > 400 ? "…" : ""}`);
-await conferir([...feed, ...stories]);
-if (teste) {
-  if (process.env.IG_TOKEN?.trim() && process.env.IG_USER_ID?.trim()) console.log(`Conta conectada: @${await contaConectada()}`);
-  console.log("Teste: nada foi publicado.");
-  process.exit(0);
-}
-if (!process.env.IG_TOKEN?.trim() || !process.env.IG_USER_ID?.trim()) {
-  console.log("Os segredos IG_TOKEN e IG_USER_ID ainda não estão no GitHub: nada foi publicado.");
-  process.exit(0);
-}
-
-const feito = { feed: await publicarFeed(feed, p.legenda), stories: [] };
-for (const s of stories) {
-  try {
-    feito.stories.push(await publicarStory(s));
-  } catch (e) {
-    console.error(`Story falhou: ${e.message}`);
+  for (const [n, item] of itens.entries()) {
+    const chave = itens.length > 1 ? `${s}#${n + 1}` : s;
+    if (lerRegistro()[chave] && !forcar) {
+      if (s === slot) console.log(`${data}/${chave}: já publicado.`);
+      continue;
+    }
+    if (s !== slot) console.log(`Recuperando ${data}/${chave}, que não saiu no horário.`);
+    try {
+      const feed = item.feed.map(url);
+      const stories = item.stories.map(url);
+      console.log(`${data}/${chave}: ${item.nome}\nFeed (${feed.length}): ${feed.join(" ")}\nStories (${stories.length}): ${stories.join(" ")}`);
+      if (item.legenda) console.log(`Legenda:\n${item.legenda.slice(0, 300)}${item.legenda.length > 300 ? "…" : ""}`);
+      await conferir([...feed, ...stories]);
+      if (teste) {
+        console.log("Teste: nada foi publicado.");
+        continue;
+      }
+      const feito = { feed: feed.length ? await publicarFeed(feed, item.legenda) : null, stories: [], em: new Date().toISOString() };
+      for (const st of stories) {
+        try {
+          feito.stories.push(await publicarStory(st));
+        } catch (e) {
+          console.error(`Story falhou: ${e.message}`);
+        }
+      }
+      writeFileSync(REGISTRO, JSON.stringify({ ...lerRegistro(), [chave]: feito }, null, 1));
+      console.log(`Publicado ${data}/${chave}: feed ${feito.feed ?? "-"}, stories ${feito.stories.length}/${stories.length}.`);
+    } catch (e) {
+      falhas++;
+      console.error(`::error::${data}/${chave}: ${e.message}`);
+    }
   }
 }
-writeFileSync(REGISTRO, JSON.stringify({ ...lerRegistro(), [chave]: { ...feito, em: new Date().toISOString() } }, null, 1));
-console.log(`Publicado ${chave}: feed ${feito.feed}, stories ${feito.stories.length}/${stories.length}.`);
+process.exit(falhas ? 1 : 0);
