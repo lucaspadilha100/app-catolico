@@ -38,6 +38,7 @@ const atrasados =
     : [];
 
 const commitDe = new Map();
+const urlDoVideo = (caminho) => url(caminho).replace(/^https:\/\/raw\.githubusercontent\.com\/([^/]+\/[^/]+)\/([0-9a-f]+)\//, "https://cdn.jsdelivr.net/gh/$1@$2/");
 function url(caminho) {
   const absoluto = resolve(caminho);
   const raiz = execSync("git rev-parse --show-toplevel", { cwd: dirname(absoluto) }).toString().trim();
@@ -98,14 +99,14 @@ for (const s of [...atrasados, slot]) {
     try {
       const feed = item.feed.map(url);
       const stories = item.stories.map(url);
-      console.log(`${data}/${chave}: ${item.nome}\nFeed (${feed.length}): ${feed.join(" ")}\nStories (${stories.length}): ${stories.join(" ")}${item.video ? `\nReels: ${url(item.video)}` : ""}`);
+      console.log(`${data}/${chave}: ${item.nome}\nFeed (${feed.length}): ${feed.join(" ")}\nStories (${stories.length}): ${stories.join(" ")}${item.video ? `\nReels: ${urlDoVideo(item.video)}` : ""}`);
       if (item.legenda) console.log(`Legenda:\n${item.legenda.slice(0, 300)}${item.legenda.length > 300 ? "…" : ""}`);
       await conferir([...feed, ...stories]);
       if (teste) {
         console.log("Teste: nada foi publicado.");
         continue;
       }
-      const video = item.video ? url(item.video) : null;
+      const video = item.video ? urlDoVideo(item.video) : null;
       if (video) await conferir([video]);
       let reel = null;
       if (video && !teste) {
