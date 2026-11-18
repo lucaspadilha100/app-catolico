@@ -1,4 +1,4 @@
-import { Children, useCallback, useEffect, useId, useRef, useState, useSyncExternalStore, type ReactNode } from "react";
+import { Children, cloneElement, isValidElement, useCallback, useEffect, useId, useLayoutEffect, useRef, useState, useSyncExternalStore, type ReactElement, type ReactNode } from "react";
 import { Link } from "react-router-dom";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
@@ -23,37 +23,85 @@ function posicoes(fileira: HTMLElement): number[] {
   return Array.from(fileira.children).map((c) => (c as HTMLElement).offsetLeft - recuo);
 }
 
-const SETA = "grid size-11 shrink-0 place-items-center rounded-full text-tinta transition-colors hover:bg-cartao disabled:pointer-events-none disabled:opacity-30";
+function maisPerto(lista: number[], x: number) {
+  let perto = 0;
+  lista.forEach((p, i) => {
+    if (Math.abs(p - x) < Math.abs(lista[perto]! - x)) perto = i;
+  });
+  return perto;
+}
+
+const SETA =
+  "absolute z-10 grid size-11 -translate-y-1/2 place-items-center rounded-full bg-black/35 text-white shadow-md backdrop-blur-sm transition-colors duration-150 hover:bg-black/70 focus-visible:bg-black/70";
 
 export function Carrossel({ titulo, verTodos, defasagem = 0, children }: { titulo: string; verTodos: string; defasagem?: number; children: ReactNode }) {
   const id = useId();
   const fileira = useRef<HTMLDivElement>(null);
-  const itens = Children.toArray(children);
+  const itens = Children.toArray(children).filter(isValidElement) as ReactElement[];
   const total = itens.length;
   const computador = useMidia("(hover: hover) and (pointer: fine)");
   const calmo = useMidia("(prefers-reduced-motion: reduce)");
+  const [sobra, setSobra] = useState(false);
+  const infinito = sobra && total > 1;
   const [atual, setAtual] = useState(0);
-  const [borda, setBorda] = useState({ inicio: true, fim: false, sobra: false });
+  const [meioDaCapa, setMeioDaCapa] = useState(0);
   const [mouse, setMouse] = useState(false);
   const [foco, setFoco] = useState(false);
   const [visivel, setVisivel] = useState(false);
   const [abaAberta, setAbaAberta] = useState(() => typeof document === "undefined" || document.visibilityState === "visible");
   const [tocou, setTocou] = useState(false);
-  const voltas = useRef(0);
+  const passos = useRef(0);
+
+  const larguraDoJogo = useCallback(() => {
+    const el = fileira.current;
+    if (!el || !infinito) return 0;
+    const lista = posicoes(el);
+    return lista[total]! - lista[0]!;
+  }, [infinito, total]);
+
+  const pular = useCallback((dx: number) => {
+    const el = fileira.current;
+    if (!el || !dx) return;
+    const snap = el.style.scrollSnapType;
+    el.style.scrollSnapType = "none";
+    el.scrollLeft += dx;
+    requestAnimationFrame(() => {
+      el.style.scrollSnapType = snap;
+    });
+  }, []);
 
   const medir = useCallback(() => {
     const el = fileira.current;
     if (!el) return;
-    const maximo = el.scrollWidth - el.clientWidth;
-    const x = el.scrollLeft;
+    const capa = el.firstElementChild?.querySelector("span");
+    if (capa) setMeioDaCapa((capa as HTMLElement).offsetHeight / 2);
+    if (!infinito) {
+      const maximo = el.scrollWidth - el.clientWidth;
+      setSobra(maximo > FOLGA);
+      const lista = posicoes(el);
+      setAtual(maximo > FOLGA && el.scrollLeft >= maximo - FOLGA ? lista.length - 1 : maisPerto(lista, el.scrollLeft));
+      return;
+    }
     const lista = posicoes(el);
-    let perto = 0;
-    lista.forEach((p, i) => {
-      if (Math.abs(p - x) < Math.abs(lista[perto]! - x)) perto = i;
-    });
-    setAtual(maximo > FOLGA && x >= maximo - FOLGA ? lista.length - 1 : perto);
-    setBorda({ inicio: x <= FOLGA, fim: x >= maximo - FOLGA, sobra: maximo > FOLGA });
-  }, []);
+    const i = maisPerto(lista, el.scrollLeft);
+    setAtual(((i % total) + total) % total);
+  }, [infinito, total]);
+
+  const acomodar = useCallback(() => {
+    const el = fileira.current;
+    if (!el || !infinito) return;
+    const largura = larguraDoJogo();
+    const i = maisPerto(posicoes(el), el.scrollLeft);
+    if (i < total) pular(largura);
+    else if (i >= total * 2) pular(-largura);
+  }, [infinito, total, larguraDoJogo, pular]);
+
+  useLayoutEffect(() => {
+    const el = fileira.current;
+    if (!el || !infinito) return;
+    const lista = posicoes(el);
+    el.scrollLeft = lista[total]!;
+  }, [infinito, total]);
 
   const ir = useCallback(
     (destino: number) => {
@@ -61,37 +109,36 @@ export function Carrossel({ titulo, verTodos, defasagem = 0, children }: { titul
       if (!el) return;
       const lista = posicoes(el);
       const i = Math.max(0, Math.min(destino, lista.length - 1));
-      el.scrollTo({ left: Math.min(lista[i]!, el.scrollWidth - el.clientWidth), behavior: calmo ? "auto" : "smooth" });
+      el.scrollTo({ left: infinito ? lista[i]! : Math.min(lista[i]!, el.scrollWidth - el.clientWidth), behavior: calmo ? "auto" : "smooth" });
     },
-    [calmo],
+    [calmo, infinito],
   );
 
-  const voltar = useCallback(() => {
-    const el = fileira.current;
-    if (!el) return;
-    const lista = posicoes(el);
-    const anteriores = lista.filter((p) => p < el.scrollLeft - FOLGA);
-    ir(Math.max(0, anteriores.length - 1));
-  }, [ir]);
-
-  const avancar = useCallback(() => {
-    const el = fileira.current;
-    if (!el) return;
-    if (el.scrollLeft >= el.scrollWidth - el.clientWidth - FOLGA) {
-      voltas.current += 1;
-      ir(0);
-      return;
-    }
-    const lista = posicoes(el);
-    const proximo = lista.findIndex((p) => p > el.scrollLeft + FOLGA);
-    ir(proximo < 0 ? lista.length - 1 : proximo);
-  }, [ir]);
+  const andar = useCallback(
+    (passo: 1 | -1) => {
+      const el = fileira.current;
+      if (!el) return;
+      const lista = posicoes(el);
+      const i = maisPerto(lista, el.scrollLeft);
+      if (infinito) {
+        ir(i + passo);
+        return;
+      }
+      const maximo = el.scrollWidth - el.clientWidth;
+      if (passo === 1 && el.scrollLeft >= maximo - FOLGA) ir(0);
+      else ir(i + passo);
+    },
+    [infinito, ir],
+  );
 
   useEffect(() => {
     const el = fileira.current;
     if (!el) return;
     medir();
-    const tamanho = new ResizeObserver(medir);
+    const tamanho = new ResizeObserver(() => {
+      medir();
+      acomodar();
+    });
     tamanho.observe(el);
     const vista = new IntersectionObserver(([e]) => setVisivel(!!e && e.intersectionRatio >= 0.6), { threshold: [0, 0.6, 1] });
     vista.observe(el);
@@ -102,19 +149,20 @@ export function Carrossel({ titulo, verTodos, defasagem = 0, children }: { titul
       vista.disconnect();
       document.removeEventListener("visibilitychange", aba);
     };
-  }, [medir, total]);
+  }, [medir, acomodar, total]);
 
-  const passa = !calmo && borda.sobra && visivel && abaAberta && !mouse && !foco && (computador || !tocou);
+  const passa = !calmo && sobra && visivel && abaAberta && !mouse && !foco && (computador || !tocou);
 
   useEffect(() => {
     if (!passa) return;
     let relogio = 0;
     const passo = () => {
-      if (!computador && voltas.current >= 1) {
+      if (!computador && passos.current >= total) {
         setTocou(true);
         return;
       }
-      avancar();
+      passos.current += 1;
+      andar(1);
     };
     const inicio = window.setTimeout(() => {
       relogio = window.setInterval(passo, computador ? PASSO_NO_COMPUTADOR : PASSO_NO_CELULAR);
@@ -123,17 +171,31 @@ export function Carrossel({ titulo, verTodos, defasagem = 0, children }: { titul
       window.clearTimeout(inicio);
       window.clearInterval(relogio);
     };
-  }, [passa, computador, avancar, defasagem]);
+  }, [passa, computador, andar, defasagem, total]);
 
   const quadro = useRef(0);
+  const parada = useRef(0);
   const aoRolar = () => {
     cancelAnimationFrame(quadro.current);
     quadro.current = requestAnimationFrame(medir);
+    window.clearTimeout(parada.current);
+    parada.current = window.setTimeout(acomodar, 140);
   };
 
   const pararDeVez = () => {
     if (!computador) setTocou(true);
   };
+
+  const mostrados = infinito
+    ? [0, 1, 2].flatMap((jogo) =>
+        itens.map((item, i) =>
+          cloneElement(item, {
+            key: `${jogo}-${item.key ?? i}`,
+            ...(jogo === 1 ? {} : { "aria-hidden": true, tabIndex: -1 }),
+          }),
+        ),
+      )
+    : itens;
 
   return (
     <section
@@ -152,28 +214,30 @@ export function Carrossel({ titulo, verTodos, defasagem = 0, children }: { titul
         <Link to={verTodos} className="inline-flex min-h-11 shrink-0 items-center px-1 text-[0.9375rem] font-semibold text-destaque-texto">
           Ver todos
         </Link>
-        {computador && borda.sobra && (
-          <span className="ml-1 flex shrink-0">
-            <button type="button" aria-label="Anterior" disabled={borda.inicio} onClick={voltar} className={SETA}>
-              <ChevronLeft className="size-5" aria-hidden />
+      </div>
+      <div className="relative">
+        <div
+          ref={fileira}
+          onScroll={aoRolar}
+          onTouchStart={pararDeVez}
+          onPointerDown={pararDeVez}
+          onWheel={pararDeVez}
+          className="sem-barra relative -mx-4 flex snap-x snap-mandatory scroll-px-4 gap-3 overflow-x-auto overscroll-x-contain px-4 md:mx-0 md:scroll-px-0 md:px-0"
+        >
+          {mostrados}
+        </div>
+        {computador && sobra && meioDaCapa > 0 && (
+          <>
+            <button type="button" aria-label="Anterior" onClick={() => andar(-1)} className={`${SETA} left-2`} style={{ top: meioDaCapa }}>
+              <ChevronLeft className="size-6" aria-hidden />
             </button>
-            <button type="button" aria-label="Próximo" disabled={borda.fim} onClick={avancar} className={SETA}>
-              <ChevronRight className="size-5" aria-hidden />
+            <button type="button" aria-label="Próximo" onClick={() => andar(1)} className={`${SETA} right-2`} style={{ top: meioDaCapa }}>
+              <ChevronRight className="size-6" aria-hidden />
             </button>
-          </span>
+          </>
         )}
       </div>
-      <div
-        ref={fileira}
-        onScroll={aoRolar}
-        onTouchStart={pararDeVez}
-        onPointerDown={pararDeVez}
-        onWheel={pararDeVez}
-        className="sem-barra relative -mx-4 flex snap-x snap-mandatory scroll-px-4 gap-3 overflow-x-auto overscroll-x-contain px-4 md:mx-0 md:scroll-px-0 md:px-0"
-      >
-        {itens}
-      </div>
-      {borda.sobra && total > 1 && (
+      {sobra && total > 1 && (
         <div className="mt-3 flex justify-center gap-1.5" aria-hidden>
           {itens.map((_, i) => (
             <span key={i} className={`h-1.5 rounded-full transition-all duration-300 ${i === atual ? "w-5 bg-destaque-texto" : "w-1.5 bg-tinta-suave/35"}`} />
