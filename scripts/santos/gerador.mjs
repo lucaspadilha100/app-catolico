@@ -21,6 +21,7 @@ function conferir(fichas) {
     if (ids.has(f.id)) throw new Error(`${f.id}: id repetido`);
     if (nomes.has(f.nome)) throw new Error(`${f.id}: nome repetido`);
     if (f.imagem) for (const c of ["arquivo", "obra", "autor", "licenca", "url"]) if (typeof f.imagem[c] !== "string") throw new Error(`${f.id}: imagem sem ${c}`);
+    if (f.imagem && /label QS:/.test(`${f.imagem.obra} ${f.imagem.autor}`)) throw new Error(`${f.id}: crédito da imagem com resto de marcação do Commons`);
     ids.add(f.id);
     nomes.add(f.nome);
   }
