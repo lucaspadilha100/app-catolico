@@ -76,28 +76,6 @@ export async function cartaz(p: Cartaz): Promise<Blob> {
   ctx.fillStyle = img ? FUNDO : CREME;
   ctx.fillRect(0, 0, LARGURA, m.altura);
 
-  if (img) {
-    const escala = Math.max(LARGURA / img.naturalWidth, m.arte / img.naturalHeight);
-    const w = img.naturalWidth * escala;
-    const h = img.naturalHeight * escala;
-    const focoX = Number(/^(\d+)%/.exec(p.foco ?? "")?.[1] ?? 50) / 100;
-    const focoY = Number(/ (\d+)%/.exec(p.foco ?? "")?.[1] ?? 35) / 100;
-    const x = Math.min(0, Math.max(LARGURA - w, LARGURA / 2 - w * focoX));
-    const y = Math.min(0, Math.max(m.arte - h, m.arte / 2 - h * focoY));
-    ctx.drawImage(img, x, y, w, h);
-    const veu = ctx.createLinearGradient(0, m.arte - 420, 0, m.arte + 60);
-    veu.addColorStop(0, "rgba(19, 18, 16, 0)");
-    veu.addColorStop(1, FUNDO);
-    ctx.fillStyle = veu;
-    ctx.fillRect(0, m.arte - 420, LARGURA, 480 + (m.altura - m.arte));
-  }
-
-  const tinta = img ? "#FFFFFF" : MARROM;
-  const suave = img ? "rgba(255, 255, 255, 0.72)" : "rgba(52, 30, 13, 0.7)";
-  const fraca = img ? "rgba(255, 255, 255, 0.5)" : "rgba(52, 30, 13, 0.5)";
-  ctx.textAlign = "center";
-  ctx.textBaseline = "middle";
-
   const larguraDoTexto = LARGURA - 200;
   let tamanho = p.texto.length <= 40 ? 76 : 58;
   let linhas: string[] = [];
@@ -112,6 +90,31 @@ export async function cartaz(p: Cartaz): Promise<Blob> {
   const alturaDoCorpo = linhasDoCorpo.length ? 56 + linhasDoCorpo.length * CORPO * 1.45 : 0;
   const alturaDoBloco = 34 + 72 + 36 + 100 + linhas.length * tamanho * 1.4 + 48 + 40 + alturaDoCorpo;
   let y = img ? Math.min(m.topoDoBloco, m.altura - m.peDaObra - 80 - alturaDoBloco) : (m.altura - 120 - alturaDoBloco) / 2 + 17;
+
+  if (img) {
+    const escala = Math.max(LARGURA / img.naturalWidth, m.arte / img.naturalHeight);
+    const w = img.naturalWidth * escala;
+    const h = img.naturalHeight * escala;
+    const focoX = Number(/^(\d+)%/.exec(p.foco ?? "")?.[1] ?? 50) / 100;
+    const focoY = Number(/ (\d+)%/.exec(p.foco ?? "")?.[1] ?? 35) / 100;
+    const x = Math.min(0, Math.max(LARGURA - w, LARGURA / 2 - w * focoX));
+    const topo = Math.min(0, Math.max(m.arte - h, m.arte / 2 - h * focoY));
+    ctx.drawImage(img, x, topo, w, h);
+    const fim = Math.min(m.arte + 60, y + 60);
+    const inicio = Math.min(m.arte - 420, fim - 420);
+    const veu = ctx.createLinearGradient(0, inicio, 0, fim);
+    veu.addColorStop(0, "rgba(19, 18, 16, 0)");
+    veu.addColorStop(0.55, "rgba(19, 18, 16, 0.82)");
+    veu.addColorStop(1, FUNDO);
+    ctx.fillStyle = veu;
+    ctx.fillRect(0, inicio, LARGURA, m.altura - inicio);
+  }
+
+  const tinta = img ? "#FFFFFF" : MARROM;
+  const suave = img ? "rgba(255, 255, 255, 0.72)" : "rgba(52, 30, 13, 0.7)";
+  const fraca = img ? "rgba(255, 255, 255, 0.5)" : "rgba(52, 30, 13, 0.5)";
+  ctx.textAlign = "center";
+  ctx.textBaseline = "middle";
 
   ctx.fillStyle = DOURADO;
   ctx.font = `700 34px "Inter Variable", Arial, sans-serif`;
