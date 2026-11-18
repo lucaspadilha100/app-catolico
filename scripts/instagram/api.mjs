@@ -1,5 +1,6 @@
 const VERSAO = "v23.0";
-const BASE = `https://graph.instagram.com/${VERSAO}`;
+const loginDoInstagram = () => (process.env.IG_TOKEN ?? "").trim().startsWith("IG");
+const base = () => `https://graph.${loginDoInstagram() ? "instagram" : "facebook"}.com/${VERSAO}`;
 
 const esperar = (ms) => new Promise((ok) => setTimeout(ok, ms));
 
@@ -13,7 +14,7 @@ export function credenciais() {
 async function chamar(caminho, parametros, metodo = "POST") {
   const { token } = credenciais();
   const corpo = new URLSearchParams({ ...parametros, access_token: token });
-  const url = metodo === "GET" ? `${BASE}${caminho}?${corpo}` : `${BASE}${caminho}`;
+  const url = metodo === "GET" ? `${base()}${caminho}?${corpo}` : `${base()}${caminho}`;
   const r = await fetch(url, metodo === "GET" ? {} : { method: "POST", body: corpo });
   const json = await r.json().catch(() => ({}));
   if (!r.ok || json.error) throw new Error(`Instagram ${caminho}: ${json.error?.message ?? r.status}`);
@@ -59,6 +60,14 @@ export async function publicarStory(url) {
   const c = await chamar(`/${id}/media`, { media_type: "STORIES", image_url: url });
   return publicarContainer(c.id);
 }
+
+export async function contaConectada() {
+  const { id } = credenciais();
+  const r = await chamar(`/${id}`, { fields: "username" }, "GET");
+  return r.username;
+}
+
+export const tokenRenovavel = () => loginDoInstagram();
 
 export async function renovarToken() {
   const { token } = credenciais();

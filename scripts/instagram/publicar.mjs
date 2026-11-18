@@ -1,7 +1,7 @@
 import { execSync } from "node:child_process";
 import { existsSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
-import { publicarFeed, publicarStory } from "./api.mjs";
+import { contaConectada, publicarFeed, publicarStory } from "./api.mjs";
 
 const REPO = "lucaspadilha100/app-catolico";
 const AUTOMATICO = "docs/marca/instagram/automatico";
@@ -82,6 +82,7 @@ const stories = p.stories.map(url);
 console.log(`${chave}: ${p.nome}\nFeed (${feed.length}):\n${feed.join("\n")}\nStories (${stories.length}):\n${stories.join("\n")}\nLegenda:\n${p.legenda.slice(0, 400)}${p.legenda.length > 400 ? "…" : ""}`);
 await conferir([...feed, ...stories]);
 if (teste) {
+  if (process.env.IG_TOKEN?.trim() && process.env.IG_USER_ID?.trim()) console.log(`Conta conectada: @${await contaConectada()}`);
   console.log("Teste: nada foi publicado.");
   process.exit(0);
 }
