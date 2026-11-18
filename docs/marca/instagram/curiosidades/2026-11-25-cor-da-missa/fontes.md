@@ -6,5 +6,5 @@
 - Datas e cores: motor do app (Calendário de novembro de 2026): 22/11 Cristo Rei branco; 29/11 1º Domingo do Advento roxo; 30/11 Santo André, festa, vermelho (`src/liturgia/santoral.ts`). Conferido.
 - Fecho: Sl 117(118),24, Bíblia do app, `public/biblia/f1/PSA.bb3c953096.json`. Conferido.
 - No app: Mais > Calendário litúrgico (`/calendario`), captura de 25/11.
-- Arte: Robert Campin, A missa de São Gregório, domínio público. https://commons.wikimedia.org/wiki/File:Mass_of_Saint_Gregory_(1440)_by_Robert_Campin.jpg (1280 px).
+- Arte: Juan de Juanes, A Última Ceia (Museu do Prado), domínio público; arquivo public/imagens/devocao/ultima-ceia-juan-de-juanes.webp (créditos em src/devocao/dados/imagens.json). Trocada em 17/11/2026 (a obra de Campin saiu).
 - Revisão: branco "nos tempos do Natal e da Páscoa" (IGMR 346 a: "del tempo pasquale e del tempo natalizio"), não só nos dias. Conferido no texto italiano baixado do vatican.va em 18/11.
