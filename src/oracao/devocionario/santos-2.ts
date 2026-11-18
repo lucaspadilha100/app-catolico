@@ -660,7 +660,7 @@ const ORACOES: OracaoDoDevocionario[] = [
     fonte: "propria",
     origem: "Texto da equipe do app",
     pt: [
-      "Ó Deus, que destes aos padres André de Soveral e Ambrósio Francisco Ferro, a Mateus Moreira e a seus companheiros a graça de morrer pela fé católica no Rio Grande do Norte, em 1645, sendo os primeiros mártires do Brasil, guardai a fé do nosso povo.",
+      "Ó Deus, que destes aos padres André de Soveral e Ambrósio Francisco Ferro, a Mateus Moreira e a seus companheiros a graça de morrer pela fé católica no Rio Grande do Norte, em 1645, sendo os Protomártires do Brasil, guardai a fé do nosso povo.",
       "Dai-nos amor à Eucaristia e coragem de professar a fé sem medo. Por intercessão destes mártires, abençoai as nossas famílias e as nossas paróquias, e concedei-me a graça que neste momento vos peço.",
       "Santos Mártires de Cunhaú e Uruaçu, rogai por nós. Por Cristo, nosso Senhor. Amém.",
     ],
