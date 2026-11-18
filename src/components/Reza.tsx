@@ -8,6 +8,7 @@ import { AvisoDaVoz } from "@/components/Ouvir";
 import { Carregando } from "@/components/Devocao";
 import { TercoGuiado } from "@/components/TercoGuiado";
 import { useFecharComVoltar } from "@/lib/useFecharComVoltar";
+import { comTransicao, usaViewTransition, usePresenca } from "@/lib/transicao";
 
 type Bloco = { rotulo: string; vezes: number; inicio: number; fim: number; falas: Fala[] };
 
@@ -143,6 +144,7 @@ export function RezaCorrida({
 
   const blocos = falas ? emBlocos(falas) : [];
   const atual = comVoz ? indice : -1;
+  const barra = usePresenca(comVoz);
 
   return (
     <div className={`flex flex-col gap-5 ${comVoz ? "pb-56" : "pb-8"}`}>
@@ -205,8 +207,8 @@ export function RezaCorrida({
           </div>
         </div>
       )}
-      {comVoz && (
-        <div className="fixed inset-x-0 bottom-[calc(4rem+env(safe-area-inset-bottom))] z-20 px-3 pb-3 md:bottom-0 md:left-60 md:pb-6">
+      {barra.montado && (
+        <div className={`fixed inset-x-0 bottom-[calc(4rem+env(safe-area-inset-bottom))] z-20 px-3 pb-3 md:bottom-0 md:left-60 md:pb-6 ${barra.saindo ? "saindo animate-afundar" : "animate-surgir"}`}>
           <div className="mx-auto grid max-w-xl grid-cols-[auto_minmax(0,1fr)_auto_auto] gap-2 rounded-3xl border border-borda bg-cartao p-2 shadow-lg">
             <button type="button" onClick={() => ir(indice - 1)} aria-label="Anterior" className={BOTAO_BARRA}>
               <SkipBack className="size-6" aria-hidden />
@@ -241,12 +243,21 @@ type PropsDoGuiado = ComponentProps<typeof TercoGuiado>;
 
 export function Reza({ falas, reza, ...guiado }: Omit<PropsDoGuiado, "verTudo"> & { falas?: Fala[] | null; reza: TipoDeReza }) {
   const [tudo, setTudo] = useState(false);
-  useFecharComVoltar(tudo, () => setTudo(false), false);
-  const trocar = (v: boolean) => {
-    setTudo(v);
-    window.scrollTo({ top: 0 });
-  };
-  if (tudo)
-    return <RezaCorrida titulo={guiado.titulo} falas={falas === undefined ? falasDosPassos(guiado.passos) : falas} reza={reza} aoSair={guiado.aoSair} passoAPasso={() => trocar(false)} />;
-  return <TercoGuiado {...guiado} verTudo={() => trocar(true)} />;
+  const [trocou, setTrocou] = useState(false);
+  const trocar = (v: boolean) =>
+    comTransicao(() => {
+      setTudo(v);
+      setTrocou(true);
+      window.scrollTo({ top: 0 });
+    });
+  useFecharComVoltar(tudo, () => trocar(false), false);
+  return (
+    <div key={tudo ? "tudo" : "passo"} className={trocou && !usaViewTransition() ? "animate-aparecer" : undefined}>
+      {tudo ? (
+        <RezaCorrida titulo={guiado.titulo} falas={falas === undefined ? falasDosPassos(guiado.passos) : falas} reza={reza} aoSair={guiado.aoSair} passoAPasso={() => trocar(false)} />
+      ) : (
+        <TercoGuiado {...guiado} verTudo={() => trocar(true)} />
+      )}
+    </div>
+  );
 }

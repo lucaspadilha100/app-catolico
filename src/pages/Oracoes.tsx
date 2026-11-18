@@ -63,7 +63,7 @@ function CategoriaAberta({ c }: { c: CategoriaDoDevocionario }) {
   }, [c]);
   if (!lista) return <div className="mx-4 mb-3 h-20 animate-pulse rounded-2xl bg-marca-fundo" />;
   return (
-    <div className="flex flex-col divide-y divide-borda border-t border-borda">
+    <div className="flex animate-surgir flex-col divide-y divide-borda border-t border-borda">
       {lista.map((o) => (
         <ItemDeOracao key={o.id} o={o} recuo />
       ))}

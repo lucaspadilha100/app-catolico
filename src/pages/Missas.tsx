@@ -364,7 +364,7 @@ function EscolherOnde({
     );
 
   return (
-    <Cartao className="flex flex-col gap-4 p-4">
+    <Cartao className="flex animate-surgir flex-col gap-4 p-4">
       <div className="flex flex-col gap-2">
         <button
           type="button"

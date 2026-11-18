@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useMemo, useState, type ReactNode } from "react";
 import { useFocoPreso } from "@/lib/useFocoPreso";
 import { useFecharComVoltar } from "@/lib/useFecharComVoltar";
+import { usePresenca } from "@/lib/transicao";
 import { Link } from "react-router-dom";
 import { ChevronLeft, ChevronRight, CircleDot, Hand, RotateCcw, ScrollText, X } from "lucide-react";
 import { MISTERIOS } from "@/liturgia/terco";
@@ -41,7 +42,7 @@ export function Contas({ total, atual, grande = false }: { total: number; atual:
       {Array.from({ length: total }, (_, i) => (
         <li
           key={i}
-          className={`aspect-square rounded-full border-2 transition-colors ${
+          className={`aspect-square rounded-full border-2 transition-[background-color,border-color,box-shadow] duration-200 ease-entrada ${
             i < atual
               ? "border-destaque bg-destaque"
               : i === atual
@@ -95,25 +96,29 @@ function ModoContas({
   avancar,
   voltar,
   sair,
+  saindo,
+  numero,
 }: {
   passo: Passo;
+  numero: number;
   conta: number;
   intencao: string;
   avancar: () => void;
   voltar: () => void;
   sair: () => void;
+  saindo: boolean;
 }) {
   const total = contasDoPasso(passo);
   const parar = (e: { stopPropagation: () => void }) => e.stopPropagation();
   const caixa = useFocoPreso<HTMLDivElement>();
-  useFecharComVoltar(true, sair);
+  useFecharComVoltar(!saindo, sair);
   return (
     <div
       ref={caixa}
       role="dialog"
       aria-modal="true"
       aria-label="Contas"
-      className="fixed inset-0 z-50 md:left-60 flex touch-manipulation select-none flex-col bg-papel px-4 pb-[max(1.5rem,env(safe-area-inset-bottom))] pt-[max(1rem,env(safe-area-inset-top))]"
+      className={`fixed inset-0 z-50 md:left-60 flex touch-manipulation select-none flex-col bg-papel px-4 pb-[max(1.5rem,env(safe-area-inset-bottom))] pt-[max(1rem,env(safe-area-inset-top))] ${saindo ? "saindo animate-sumir" : "animate-aparecer"}`}
       onClick={avancar}
     >
       <div className="flex items-center justify-between gap-3">
@@ -142,10 +147,12 @@ function ModoContas({
       </div>
 
       <div className="flex flex-1 flex-col items-center justify-center gap-6 text-center">
+        <div key={numero} className="flex flex-col items-center gap-6 animate-surgir">
         <p className="text-sm font-semibold uppercase tracking-wide text-destaque-texto">{passo.secao}</p>
         <h1 className="text-3xl font-extrabold leading-snug text-marca tracking-[-0.02em]">
           {passo.misterio ? MISTERIOS[passo.misterio.grupo].misterios[passo.misterio.indice] : passo.titulo}
         </h1>
+        </div>
         {passo.rotulos?.[conta] && <p className="text-lg text-tinta-suave">{passo.rotulos[conta]}</p>}
         {total > 1 && <Contas total={total} atual={conta} grande />}
         {total > 1 && (
@@ -210,6 +217,10 @@ export function TercoGuiado({
 
   const passo = passos[Math.min(posicao.passo, passos.length - 1)]!;
   const total = contasDoPasso(passo);
+  const contas = usePresenca(modoContas && !acompanhando);
+  const [sentido, setSentido] = useState({ passo: posicao.passo, frente: true, mudou: false });
+  if (sentido.passo !== posicao.passo) setSentido({ passo: posicao.passo, frente: posicao.passo > sentido.passo, mudou: true });
+  const entrada = !sentido.mudou ? "" : sentido.frente ? "animate-avancar" : "animate-recuar";
 
   const unidades = useMemo(() => passos.reduce((s, p) => s + contasDoPasso(p), 0), [passos]);
   const feitas = useMemo(
@@ -280,7 +291,7 @@ export function TercoGuiado({
 
   if (concluido !== null) {
     return (
-      <div className="flex flex-col gap-4">
+      <div className="flex flex-col gap-4 animate-surgir">
         <Cartao className="flex flex-col items-center gap-3 py-10 text-center">
           <span className="simbolo w-20 text-destaque-texto" aria-hidden />
           <h1 className="mt-2 text-3xl font-extrabold text-marca tracking-[-0.02em]">Graças a Deus</h1>
@@ -317,8 +328,10 @@ export function TercoGuiado({
 
   return (
     <div className={`flex flex-col gap-5 ${acompanhando ? "" : "pb-24"}`}>
-      {modoContas && !acompanhando && (
+      {contas.montado && (
         <ModoContas
+          numero={posicao.passo}
+          saindo={contas.saindo}
           passo={passo}
           conta={posicao.conta}
           intencao={intencao}
@@ -373,9 +386,10 @@ export function TercoGuiado({
         aria-valuemax={unidades}
         aria-valuenow={feitas}
       >
-        <div className="h-full rounded-full bg-destaque transition-all" style={{ width: `${(feitas / unidades) * 100}%` }} />
+        <div className="h-full rounded-full bg-destaque transition-[width] duration-200 ease-entrada" style={{ width: `${(feitas / unidades) * 100}%` }} />
       </div>
 
+      <div key={posicao.passo} className={`flex flex-col gap-5 ${entrada}`}>
       <header className="flex flex-col gap-1">
         <p className="text-xs font-semibold uppercase tracking-wide text-destaque-texto">{passo.secao}</p>
         {!passo.misterio && (
@@ -405,6 +419,7 @@ export function TercoGuiado({
           <EscolhaDeLingua valor={lingua} onChange={setLingua} />
         </div>
       )}
+      </div>
 
       {!acompanhando && (
       <div className="fixed inset-x-0 bottom-[calc(4rem+env(safe-area-inset-bottom))] z-[5] bg-papel px-4 pb-3 pt-2 before:pointer-events-none before:absolute before:inset-x-0 before:-top-6 before:h-6 before:bg-linear-to-t before:from-papel before:to-transparent md:bottom-0 md:left-60 md:px-8 md:pb-6">

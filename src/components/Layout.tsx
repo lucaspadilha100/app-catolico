@@ -1,4 +1,4 @@
-import { Suspense, useEffect, useRef } from "react";
+import { Suspense, useEffect, useRef, useState } from "react";
 import { Falha } from "@/components/Falha";
 import { NavLink, Link, Outlet, useLocation } from "react-router-dom";
 import { BookOpen, Church, HandHeart, Menu, Sunrise, type LucideIcon } from "lucide-react";
@@ -36,6 +36,19 @@ export const MENU: ItemMenu[] = [
   { para: "/mais", nome: "Mais", icone: Menu },
 ];
 
+const telaDo = (caminho: string) => (/^\/biblia\/[^/]+\/[^/]+/.test(caminho) ? "/biblia/leitor" : caminho);
+
+function useEntradaDaTela() {
+  const { pathname, state } = useLocation();
+  const pedido = (state as { ir?: number } | null)?.ir ?? 0;
+  const [ultima, setUltima] = useState({ caminho: pathname, pedido, animar: false });
+  if (ultima.caminho !== pathname || ultima.pedido !== pedido) {
+    const animar = telaDo(ultima.caminho) !== telaDo(pathname) || (pedido !== 0 && pedido !== ultima.pedido);
+    setUltima({ caminho: pathname, pedido, animar });
+  }
+  return ultima.animar;
+}
+
 function Marca({ className = "" }: { className?: string }) {
   return (
     <Link to="/" className={`flex items-center gap-2.5 text-marca ${className}`}>
@@ -56,6 +69,7 @@ export default function Layout() {
     }
     document.title = NOME_DO_APP;
   }, [pathname]);
+  const animarTela = useEntradaDaTela();
   const liturgia = useDiaLiturgico();
   const { diocese } = usePreferencias().preferencias;
 
@@ -71,6 +85,12 @@ export default function Layout() {
     reenviar();
     window.addEventListener("online", reenviar);
     return () => window.removeEventListener("online", reenviar);
+  }, []);
+
+  useEffect(() => {
+    const tocar = () => {};
+    document.addEventListener("touchstart", tocar, { passive: true });
+    return () => document.removeEventListener("touchstart", tocar);
   }, []);
 
   useEffect(() => {
@@ -132,7 +152,9 @@ export default function Layout() {
         <main className={`mx-auto w-full max-w-2xl px-4 pb-28 md:px-8 md:pb-12 md:pt-10 ${naBiblia ? "pt-5" : "pt-4"}`}>
           <Falha key={pathname}>
             <Suspense fallback={<Carregando />}>
-              <Outlet />
+              <div className={animarTela ? "relative top-0 animate-tela" : undefined}>
+                <Outlet />
+              </div>
             </Suspense>
           </Falha>
         </main>

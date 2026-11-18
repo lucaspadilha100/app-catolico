@@ -130,7 +130,7 @@ function ExameAberto({ exame }: { exame: TipoExame }) {
                   <ChevronDown className={`size-5 shrink-0 text-tinta-suave transition-transform ${aberta ? "rotate-180" : ""}`} aria-hidden />
                 </button>
                 {aberta && (
-                  <ul className="flex flex-col border-t border-borda">
+                  <ul className="flex animate-surgir flex-col border-t border-borda">
                     {itens.map((i) => {
                       const marcado = c.marcados.includes(i.id);
                       return (

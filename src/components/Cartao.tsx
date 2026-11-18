@@ -16,7 +16,7 @@ export function TituloCartao({ icone: Icone, children }: { icone: LucideIcon; ch
 }
 
 export const LISTA = "flex flex-col divide-y divide-borda overflow-hidden rounded-3xl bg-cartao";
-export const LINHA = "flex min-h-14 items-center gap-3 px-4 py-3 transition-colors hover:bg-marca-fundo/70";
+export const LINHA = "flex min-h-14 items-center gap-3 px-4 py-3 transition-colors hover:bg-marca-fundo/70 active:scale-100 active:bg-marca-fundo";
 
 export function Grupo({ titulo, children }: { titulo?: string; children: ReactNode }) {
   return (
@@ -72,7 +72,7 @@ export function ItemLista({
   );
   const classe = "flex min-h-16 items-center gap-3 px-4 py-2.5";
   return para ? (
-    <Link to={para} className={`${classe} transition-colors hover:bg-marca-fundo/60`}>
+    <Link to={para} className={`${classe} transition-colors hover:bg-marca-fundo/60 active:scale-100 active:bg-marca-fundo`}>
       {conteudo}
     </Link>
   ) : (

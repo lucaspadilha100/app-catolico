@@ -3,6 +3,7 @@ import { useLembrado } from "@/lib/useLembrado";
 import { Voltar } from "@/components/Voltar";
 import { useFocoPreso } from "@/lib/useFocoPreso";
 import { useFecharComVoltar } from "@/lib/useFecharComVoltar";
+import { useSaida } from "@/lib/transicao";
 import { BotaoOuvir, emPartes } from "@/components/Ouvir";
 import { useEffect, useLayoutEffect, useRef, useState, type FormEvent } from "react";
 import { Link, Navigate, useLocation, useNavigate, useParams, useSearchParams } from "react-router-dom";
@@ -76,7 +77,7 @@ function IrPara({ aoIr, focar }: { aoIr: (destino: string) => void; focar?: bool
         />
       </label>
       {(sugestoes.length > 0 || palavrasDaBusca(texto).length > 0) && !/\d/.test(texto) && (
-        <ul className="absolute inset-x-0 top-full z-20 mt-1 overflow-hidden rounded-xl border border-borda bg-cartao shadow-lg">
+        <ul className="absolute inset-x-0 top-full z-20 mt-1 animate-aparecer overflow-hidden rounded-xl border border-borda bg-cartao shadow-lg">
           {palavrasDaBusca(texto).length > 0 && (
             <li>
               <button type="button" onClick={() => aoIr(`/biblia/busca?q=${encodeURIComponent(texto.trim())}`)} className="flex min-h-11 w-full items-center gap-2 px-4 text-left hover:bg-marca-fundo">
@@ -102,11 +103,12 @@ function IrPara({ aoIr, focar }: { aoIr: (destino: string) => void; focar?: bool
 function Seletor({ livro, cap, buscar, aoFechar }: { livro: Livro; cap: number; buscar: boolean; aoFechar: () => void }) {
   const navegar = useNavigate();
   const [busca, setBusca] = useState(buscar);
+  const { saindo, sair } = useSaida(aoFechar);
 
   useEffect(() => {
     const antes = document.body.style.overflow;
     document.body.style.overflow = "hidden";
-    const tecla = (e: KeyboardEvent) => e.key === "Escape" && aoFechar();
+    const tecla = (e: KeyboardEvent) => e.key === "Escape" && sair();
     window.addEventListener("keydown", tecla);
     if (!buscar) document.getElementById(`livro-${livro.codigo}`)?.scrollIntoView({ block: "start" });
     return () => {
@@ -119,14 +121,20 @@ function Seletor({ livro, cap, buscar, aoFechar }: { livro: Livro; cap: number; 
 
   const caixa = useFocoPreso<HTMLDivElement>();
   return (
-    <div ref={caixa} className="fixed inset-0 z-50 flex flex-col bg-papel md:left-60 md:border-l md:border-borda" role="dialog" aria-modal="true" aria-label="Livros da Bíblia">
+    <div
+      ref={caixa}
+      className={`fixed inset-0 z-50 flex flex-col bg-papel md:left-60 md:border-l md:border-borda ${saindo ? "saindo animate-afundar" : "animate-surgir"}`}
+      role="dialog"
+      aria-modal="true"
+      aria-label="Livros da Bíblia"
+    >
       <div className="mx-auto flex w-full max-w-2xl flex-col gap-3 px-4 pb-2 pt-[max(0.75rem,env(safe-area-inset-top))] md:px-8">
         <div className="flex items-center gap-1">
           <h2 className="flex-1 font-leitura text-3xl font-semibold text-marca">Livros</h2>
           <button type="button" onClick={() => setBusca(!busca)} aria-label="Buscar" aria-pressed={busca} className={ICONE_DO_SELETOR}>
             <Search className="size-6" aria-hidden />
           </button>
-          <button type="button" onClick={aoFechar} aria-label="Fechar" className={ICONE_DO_SELETOR}>
+          <button type="button" onClick={sair} aria-label="Fechar" className={ICONE_DO_SELETOR}>
             <X className="size-6" aria-hidden />
           </button>
         </div>
@@ -181,7 +189,7 @@ function ListaDeLivros({ livro, cap, aoIr }: { livro?: Livro; cap?: number; aoIr
           <ChevronDown className={`size-5 shrink-0 text-tinta-suave transition-transform ${expandido ? "rotate-180" : ""}`} aria-hidden />
         </button>
         {expandido && (
-          <div className="grid grid-cols-6 gap-1 pb-4 pt-1 sm:grid-cols-10">
+          <div className="grid animate-surgir grid-cols-6 gap-1 pb-4 pt-1 sm:grid-cols-10">
             {Array.from({ length: l.capitulos }, (_, i) => i + 1).map((c) => {
               const atual = atualLivro && c === cap;
               const lido = lidos.has(c);

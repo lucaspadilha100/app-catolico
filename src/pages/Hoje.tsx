@@ -448,17 +448,27 @@ export default function Hoje() {
 
 function Folha({ fechar, children }: { fechar: () => void; children: ReactNode }) {
   const caixa = useFocoPreso<HTMLDivElement>();
-  useFecharComVoltar(true, fechar);
+  const [saindo, setSaindo] = useState(false);
+  useEffect(() => {
+    if (!saindo) return;
+    const t = setTimeout(() => {
+      fechar();
+      setSaindo(false);
+    }, 160);
+    return () => clearTimeout(t);
+  }, [saindo]);
+  const sair = () => setSaindo(true);
+  useFecharComVoltar(true, sair);
   return (
-    <div className="fixed inset-0 z-30" onClick={fechar}>
-      <div className="absolute inset-0 bg-black/40" aria-hidden />
+    <div className={`fixed inset-0 z-30 ${saindo ? "saindo" : ""}`} onClick={sair}>
+      <div className={`absolute inset-0 bg-black/40 ${saindo ? "animate-sumir" : "animate-aparecer"}`} aria-hidden />
       <div
         ref={caixa}
         role="dialog"
         aria-modal="true"
         aria-label="Compartilhar o Evangelho"
         onClick={(e) => e.stopPropagation()}
-        className="absolute inset-x-0 bottom-0 mx-auto flex max-w-xl flex-col gap-1 rounded-t-3xl bg-papel p-3 pb-[calc(0.75rem+env(safe-area-inset-bottom))]"
+        className={`absolute inset-x-0 bottom-0 mx-auto flex max-w-xl flex-col gap-1 rounded-t-3xl bg-papel p-3 pb-[calc(0.75rem+env(safe-area-inset-bottom))] ${saindo ? "animate-descer" : "animate-subir"}`}
       >
         {children}
       </div>

@@ -6,6 +6,7 @@ import { calar, falar, vozDisponivel } from "@/voz/voz";
 import { useFecharComVoltar } from "@/lib/useFecharComVoltar";
 import { ehNativo } from "@/lib/nativo";
 import { ehApoiador, usePreferencias } from "@/lib/preferencias";
+import { usePresenca } from "@/lib/transicao";
 
 const CHAVE = "santinho-voz-velocidade";
 const VELOCIDADES = [0.8, 1, 1.2];
@@ -37,7 +38,7 @@ export function AvisoDaVoz({ className = "" }: { className?: string }) {
   );
 }
 
-export function TocadorDeVoz({ titulo, partes, aoFechar }: { titulo: string; partes: () => Promise<string[]>; aoFechar: () => void }) {
+export function TocadorDeVoz({ titulo, partes, aoFechar, saindo = false }: { titulo: string; partes: () => Promise<string[]>; aoFechar: () => void; saindo?: boolean }) {
   const [lista, setLista] = useState<string[] | null>(null);
   const [indice, setIndice] = useState(0);
   const [tocando, setTocando] = useState(false);
@@ -84,6 +85,12 @@ export function TocadorDeVoz({ titulo, partes, aoFechar }: { titulo: string; par
     }
   }, []);
 
+  useEffect(() => {
+    if (!saindo) return;
+    rodada.current++;
+    void calar();
+  }, [saindo]);
+
   const pausar = () => {
     rodada.current++;
     setTocando(false);
@@ -104,7 +111,7 @@ export function TocadorDeVoz({ titulo, partes, aoFechar }: { titulo: string; par
   const fim = !!lista && indice >= lista.length;
 
   return (
-    <div className="fixed inset-x-0 bottom-[calc(4rem+env(safe-area-inset-bottom))] z-20 px-3 pb-3 md:bottom-0 md:left-60 md:pb-6">
+    <div className={`fixed inset-x-0 bottom-[calc(4rem+env(safe-area-inset-bottom))] z-20 px-3 pb-3 md:bottom-0 md:left-60 md:pb-6 ${saindo ? "saindo animate-afundar" : "animate-surgir"}`}>
       <div className="mx-auto flex max-w-xl flex-wrap items-center gap-2 rounded-3xl bg-cartao p-2 shadow-lg">
         <button
           type="button"
@@ -142,6 +149,7 @@ export function TocadorDeVoz({ titulo, partes, aoFechar }: { titulo: string; par
 export function BotaoOuvir({ titulo, partes, className = "", compacto = false }: { titulo: string; partes: () => Promise<string[]>; className?: string; compacto?: boolean }) {
   const [aberto, setAberto] = useState(false);
   useFecharComVoltar(aberto, () => setAberto(false), false);
+  const tocador = usePresenca(aberto);
   if (!vozDisponivel()) return null;
   return (
     <>
@@ -155,7 +163,7 @@ export function BotaoOuvir({ titulo, partes, className = "", compacto = false }:
         <Volume2 className={compacto ? "size-5" : "size-4"} aria-hidden />
         {!compacto && "Ouvir"}
       </button>
-      {aberto && createPortal(<TocadorDeVoz titulo={titulo} partes={partes} aoFechar={() => setAberto(false)} />, document.body)}
+      {tocador.montado && createPortal(<TocadorDeVoz titulo={titulo} partes={partes} aoFechar={() => setAberto(false)} saindo={tocador.saindo} />, document.body)}
     </>
   );
 }

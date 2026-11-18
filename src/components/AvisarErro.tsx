@@ -3,6 +3,7 @@ import { Check, Flag, NotebookPen, Share2, X } from "lucide-react";
 import { CORES, chaveDoVersiculo, marcar, useMarcas, type Cor } from "@/biblia/marcas";
 import { compartilharVersiculo } from "@/lib/imagemDoVersiculo";
 import { enviarAviso, NOME_DO_AVISO, type Aviso, type TipoDeAviso } from "@/biblia/avisos";
+import { useSaida } from "@/lib/transicao";
 
 interface Props {
   referencia: string;
@@ -21,6 +22,7 @@ export function BarraDoVersiculo({ referencia, aviso, aoFechar }: Props) {
   const marca = marcas[chave];
   const [anotando, setAnotando] = useState(false);
   const [nota, setNota] = useState("");
+  const { saindo, sair } = useSaida(aoFechar);
 
   useEffect(() => {
     setAberto(false);
@@ -32,10 +34,10 @@ export function BarraDoVersiculo({ referencia, aviso, aoFechar }: Props) {
   }, [aviso.livro, aviso.capitulo, aviso.versiculo]);
 
   useEffect(() => {
-    const aoTeclar = (e: KeyboardEvent) => e.key === "Escape" && aoFechar();
+    const aoTeclar = (e: KeyboardEvent) => e.key === "Escape" && sair();
     window.addEventListener("keydown", aoTeclar);
     return () => window.removeEventListener("keydown", aoTeclar);
-  }, [aoFechar]);
+  }, [sair]);
 
   async function enviar(e: FormEvent) {
     e.preventDefault();
@@ -46,15 +48,15 @@ export function BarraDoVersiculo({ referencia, aviso, aoFechar }: Props) {
   }
 
   return (
-    <div data-folha-do-versiculo className="fixed inset-x-0 bottom-[calc(4rem+env(safe-area-inset-bottom))] z-20 px-2 pb-3 min-[360px]:px-3 md:bottom-0 md:left-60 md:pb-6">
+    <div data-folha-do-versiculo className={`fixed inset-x-0 bottom-[calc(4rem+env(safe-area-inset-bottom))] z-20 px-2 pb-3 min-[360px]:px-3 md:bottom-0 md:left-60 md:pb-6 ${saindo ? "saindo" : ""}`}>
       <div
         role="dialog"
         aria-label={`Versículo ${referencia}`}
-        className="@container mx-auto max-w-xl rounded-2xl border border-borda bg-cartao p-3 shadow-lg min-[360px]:p-4"
+        className={`@container mx-auto max-w-xl rounded-2xl border border-borda bg-cartao p-3 shadow-lg min-[360px]:p-4 ${saindo ? "animate-afundar" : "animate-surgir"}`}
       >
         <div className="flex items-center justify-between gap-3">
           <p className="font-semibold text-tinta">{referencia}</p>
-          <button type="button" onClick={aoFechar} aria-label="Fechar" className="-mr-2 flex size-11 items-center justify-center rounded-xl text-tinta-suave">
+          <button type="button" onClick={sair} aria-label="Fechar" className="-mr-2 flex size-11 items-center justify-center rounded-xl text-tinta-suave">
             <X className="size-5" aria-hidden />
           </button>
         </div>
@@ -86,7 +88,7 @@ export function BarraDoVersiculo({ referencia, aviso, aoFechar }: Props) {
         )}
 
         {anotando && (
-          <div className="mt-2 flex flex-col gap-2">
+          <div className="mt-2 flex animate-aparecer flex-col gap-2">
             <textarea
               value={nota}
               onChange={(e) => setNota(e.target.value)}
@@ -135,13 +137,13 @@ export function BarraDoVersiculo({ referencia, aviso, aoFechar }: Props) {
         )}
 
         {aberto && estado === "enviado" && (
-          <p className="mt-3 flex items-center gap-2 text-tinta">
+          <p className="mt-3 flex animate-aparecer items-center gap-2 text-tinta">
             <Check className="size-5 text-destaque-texto" aria-hidden /> Obrigado. Vamos conferir.
           </p>
         )}
 
         {aberto && estado !== "enviado" && (
-          <form onSubmit={enviar} className="mt-3 flex flex-col gap-3">
+          <form onSubmit={enviar} className="mt-3 flex animate-aparecer flex-col gap-3">
             <div className="grid grid-cols-2 gap-2">
               {(Object.keys(NOME_DO_AVISO) as TipoDeAviso[]).map((t) => (
                 <button

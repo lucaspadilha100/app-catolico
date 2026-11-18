@@ -252,7 +252,7 @@ export function BoasVindas() {
   const terminar = () => mudar({ boasVindas: true });
 
   return (
-    <div ref={caixa} className="fixed inset-0 z-50 overflow-y-auto bg-papel md:left-60" role="dialog" aria-modal="true" aria-label={`Boas-vindas: ${NOME_DO_APP}`}>
+    <div ref={caixa} className="fixed inset-0 z-50 animate-aparecer overflow-y-auto bg-papel md:left-60" role="dialog" aria-modal="true" aria-label={`Boas-vindas: ${NOME_DO_APP}`}>
       <div className="mx-auto flex min-h-full w-full max-w-md flex-col gap-5 px-5 pb-[max(2rem,env(safe-area-inset-bottom))] pt-[max(2.5rem,env(safe-area-inset-top))]">
         <div className="flex items-center justify-between">
           <span className="simbolo w-10 text-destaque-texto" aria-hidden />
@@ -262,9 +262,10 @@ export function BoasVindas() {
         </div>
         <div className="flex gap-1.5" aria-label={`Passo ${passo + 1} de ${passos}`}>
           {Array.from({ length: passos }, (_, i) => (
-            <span key={i} className={`h-1.5 flex-1 rounded-full ${i <= passo ? "bg-destaque" : "bg-marca-fundo"}`} />
+            <span key={i} className={`h-1.5 flex-1 rounded-full transition-colors duration-200 ${i <= passo ? "bg-destaque" : "bg-marca-fundo"}`} />
           ))}
         </div>
+        <div key={passo} className={`flex flex-col gap-5 ${passo > 0 ? "animate-avancar" : ""}`}>
         {passo === 0 && <PassoLetra seguir={() => setPasso(1)} />}
         {passo === 1 && (
           <PassoCidade
@@ -277,6 +278,7 @@ export function BoasVindas() {
         )}
         {passo === 2 && <PassoParoquia onde={onde} terminar={comLembrete ? () => setPasso(3) : terminar} />}
         {passo === 3 && <PassoLembrete terminar={terminar} />}
+        </div>
       </div>
     </div>
   );
