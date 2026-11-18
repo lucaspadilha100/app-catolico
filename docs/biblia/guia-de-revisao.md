@@ -84,6 +84,11 @@ tradição textual, vale a Vulgata (é a Bíblia que o Figueiredo traduziu).
   mudou, em `DIVISAO_REFEITA` (`scripts/biblia/numeracao.mjs`).
 - Os Salmos continuam na numeração grega (Sl 22 "O Senhor é meu pastor"), como
   nas Bíblias católicas do Brasil.
+- O Antigo Testamento com texto hebraico segue a numeração hebraica (Is 9,1
+  "Este povo, que andava em trevas", Ml 3,19-24, Jl 3,1-5). Ester, Dn 3, 13 e 14 e
+  os deuterocanônicos ficam na da Vulgata. Os relatórios de conferência e as
+  notas anteriores a 18/11/2026 citam a numeração antiga; a correspondência
+  está em `src/biblia/dados/numeracao-antiga.json`.
 
 ## O tom
 - **Falas entre aspas curvas** “ ”. Fala dentro de fala: ‘ ’.
