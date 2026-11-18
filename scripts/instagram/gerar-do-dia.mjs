@@ -44,8 +44,8 @@ try {
     const { carregarLecionario, leiturasDoDia } = await import("/src/liturgia/lecionario.ts");
     const { evangelhoDaMissa } = await import("/src/components/Reflexao.tsx");
     const { textoDaReferencia } = await import("/src/biblia/texto.ts");
-    const { arteDoEvangelho } = await import("/src/liturgia/arte.ts");
-    const { fraseDoEvangelho, imagemDoEvangelho } = await import("/src/liturgia/imagemDoEvangelho.ts");
+    const { arteDoEvangelho, caminhoDaArte } = await import("/src/liturgia/arte.ts");
+    const { carregarImagem, fraseDoEvangelho, imagemDoEvangelho } = await import("/src/liturgia/imagemDoEvangelho.ts");
     const conteudo = await import("/src/divulgacao/conteudo.ts");
     const extra = await import("/src/divulgacao/instagram.ts");
     const { dataGrande } = await import("/src/divulgacao/datas.ts");
@@ -80,12 +80,134 @@ try {
     const texto = canonica ? (await textoDaReferencia(canonica)).flatMap((t) => t.versiculos.map((v) => v.texto)).join(" ") : "";
     const ev = (formato) =>
       imagemDoEvangelho({ arte, data: dataLonga, referencia, frase: fraseDoEvangelho(texto ? [texto] : [], arte ? (formato === "post" ? 150 : 170) : 220), formato });
+    const LIVRO = { MAT: "Mateus", MRK: "Marcos", LUK: "Lucas", JHN: "João" };
+    const reelDoEvangelho = async () => {
+      const img = arte ? await carregarImagem(caminhoDaArte(arte)) : null;
+      const W = 1080, H = 1920;
+      const quebrar = (ctx, t, w) => {
+        const ls = [];
+        let a = "";
+        for (const p of t.split(/\s+/)) {
+          const n = a ? `${a} ${p}` : p;
+          if (ctx.measureText(n).width > w && a) {
+            ls.push(a);
+            a = p;
+          } else a = n;
+        }
+        if (a) ls.push(a);
+        return ls;
+      };
+      const tela = () => {
+        const c = document.createElement("canvas");
+        c.width = W;
+        c.height = H;
+        return [c, c.getContext("2d")];
+      };
+      const fundo = (x, escuro) => {
+        x.fillStyle = "#131210";
+        x.fillRect(0, 0, W, H);
+        if (img) {
+          const e = Math.max(W / img.naturalWidth, H / img.naturalHeight);
+          const w = img.naturalWidth * e, h = img.naturalHeight * e;
+          x.drawImage(img, (W - w) / 2, (H - h) / 2, w, h);
+        }
+        x.fillStyle = `rgba(19,18,16,${escuro})`;
+        x.fillRect(0, 0, W, H);
+      };
+      const marca = (x) => {
+        x.textAlign = "center";
+        x.fillStyle = "rgba(255,255,255,.75)";
+        x.font = '600 34px "Inter Variable"';
+        x.fillText("Minha Igrejinha", W / 2, H - 150);
+      };
+      const frases = texto.replace(/\s+/g, " ").match(/[^.!?]+[.!?]+["”]?\s*/g) ?? [texto];
+      const blocos = [];
+      let atual = "";
+      for (const f of frases) {
+        if ((atual + f).length > 170 && atual) {
+          blocos.push(atual.trim());
+          atual = f;
+        } else atual += f;
+        if (blocos.length >= 5) break;
+      }
+      if (atual && blocos.length < 5) blocos.push(atual.trim());
+      const completo = blocos.join(" ").length >= texto.replace(/\s+/g, " ").trim().length - 2;
+      const quadros = [];
+      {
+        const [c, x] = tela();
+        fundo(x, 0.35);
+        const g = x.createLinearGradient(0, H * 0.45, 0, H);
+        g.addColorStop(0, "rgba(19,18,16,0)");
+        g.addColorStop(1, "rgba(19,18,16,.92)");
+        x.fillStyle = g;
+        x.fillRect(0, 0, W, H);
+        x.textAlign = "center";
+        x.fillStyle = "#D9A94A";
+        x.font = '700 40px "Inter Variable"';
+        x.fillText("E V A N G E L H O   D O   D I A", W / 2, H - 560);
+        x.fillStyle = "rgba(255,255,255,.8)";
+        x.font = '500 42px "Inter Variable"';
+        x.fillText(dataLonga, W / 2, H - 480);
+        x.fillStyle = "#fff";
+        x.font = '500 96px "Literata Variable"';
+        x.fillText(referencia, W / 2, H - 340);
+        marca(x);
+        if (arte?.obra) {
+          x.fillStyle = "rgba(255,255,255,.5)";
+          x.font = '500 24px "Inter Variable"';
+          x.fillText(arte.obra.length > 70 ? `${arte.obra.slice(0, 68)}…` : arte.obra, W / 2, H - 90);
+        }
+        quadros.push(await jpg("reel-evangelho-0.jpg", await new Promise((ok) => c.toBlob(ok, "image/png"))));
+      }
+      for (const [i, t] of blocos.entries()) {
+        const [c, x] = tela();
+        fundo(x, 0.72);
+        x.textAlign = "center";
+        x.fillStyle = "#fff";
+        x.font = '500 66px "Literata Variable"';
+        const ls = quebrar(x, t, W - 180);
+        let y = H / 2 - (ls.length * 92) / 2 + 40;
+        for (const s of ls) {
+          x.fillText(s, W / 2, y);
+          y += 92;
+        }
+        x.fillStyle = "#D9A94A";
+        x.font = '600 40px "Inter Variable"';
+        x.fillText(referencia, W / 2, y + 60);
+        marca(x);
+        quadros.push(await jpg(`reel-evangelho-${i + 1}.jpg`, await new Promise((ok) => c.toBlob(ok, "image/png"))));
+      }
+      {
+        const [c, x] = tela();
+        x.fillStyle = "#FBF0DD";
+        x.fillRect(0, 0, W, H);
+        const s = await carregarImagem("/simbolo.png");
+        if (s) x.drawImage(s, W / 2 - 110, 560, 220, (220 * s.naturalHeight) / s.naturalWidth);
+        x.textAlign = "center";
+        x.fillStyle = "#341E0D";
+        x.font = '600 84px "Literata Variable"';
+        x.fillText("Minha Igrejinha", W / 2, 960);
+        x.font = '500 50px "Inter Variable"';
+        x.fillStyle = "rgba(52,30,13,.8)";
+        x.fillText(completo ? "A liturgia de cada dia" : "O Evangelho completo e a", W / 2, 1100);
+        x.fillText(completo ? "no app." : "liturgia de cada dia no app.", W / 2, 1170);
+        x.fillStyle = "#A9792A";
+        x.font = '600 46px "Inter Variable"';
+        x.fillText("Link no perfil: @minhaigrejinhaapp", W / 2, 1330);
+        quadros.push(await jpg(`reel-evangelho-${blocos.length + 1}.jpg`, await new Promise((ok) => c.toBlob(ok, "image/png"))));
+      }
+      const livro = LIVRO[canonica.split(" ")[0]];
+      const falas = [livro ? `Evangelho de Jesus Cristo segundo São ${livro}.` : "Evangelho de Jesus Cristo.", ...blocos, completo ? "Palavra da Salvação." : "Continue a leitura no app Minha Igrejinha."];
+      arquivos["reel-evangelho.json"] = btoa(unescape(encodeURIComponent(JSON.stringify({ quadros, falas }))));
+      return "reel-evangelho";
+    };
     if (texto)
       itens.push({
         slot: "evangelho",
         nome: `Evangelho ${referencia}`,
         feed: [await jpg("evangelho-post.jpg", await ev("post"))],
         stories: [await jpg("evangelho-story.jpg", await ev("story"))],
+        reel: await reelDoEvangelho(),
         legenda: conteudo.legendaDoEvangelho({ data: dataLonga, titulo: l.titulo, referencia, texto }),
       });
 

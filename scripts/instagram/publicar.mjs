@@ -1,7 +1,7 @@
 import { execSync } from "node:child_process";
 import { existsSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname, join, relative, resolve } from "node:path";
-import { contaConectada, publicarFeed, publicarStory } from "./api.mjs";
+import { contaConectada, publicarFeed, publicarReel, publicarStory } from "./api.mjs";
 import { HORARIOS, RECUPERAR_ATE_HORAS, minutosDe } from "./horarios.mjs";
 
 const REPO = "lucaspadilha100/app-catolico";
@@ -64,7 +64,10 @@ const lerRegistro = () => {
 const dia = JSON.parse(readFileSync(join(pastaDoDia, "dia.json"), "utf8"));
 
 function itensDo(s) {
-  if (s !== "curiosidade") return dia.itens.filter((i) => i.slot === s).map((i) => ({ ...i, feed: i.feed.map((f) => join(pastaDoDia, f)), stories: i.stories.map((f) => join(pastaDoDia, f)) }));
+  if (s !== "curiosidade")
+    return dia.itens
+      .filter((i) => i.slot === s)
+      .map((i) => ({ ...i, feed: i.feed.map((f) => join(pastaDoDia, f)), stories: i.stories.map((f) => join(pastaDoDia, f)), video: i.video && existsSync(join(pastaDoDia, i.video)) ? join(pastaDoDia, i.video) : null }));
   const pasta = existsSync(CURIOSIDADES) ? readdirSync(CURIOSIDADES).find((p) => p.startsWith(`${data}-`)) : undefined;
   if (!pasta) return [];
   const dir = join(CURIOSIDADES, pasta);
@@ -95,14 +98,24 @@ for (const s of [...atrasados, slot]) {
     try {
       const feed = item.feed.map(url);
       const stories = item.stories.map(url);
-      console.log(`${data}/${chave}: ${item.nome}\nFeed (${feed.length}): ${feed.join(" ")}\nStories (${stories.length}): ${stories.join(" ")}`);
+      console.log(`${data}/${chave}: ${item.nome}\nFeed (${feed.length}): ${feed.join(" ")}\nStories (${stories.length}): ${stories.join(" ")}${item.video ? `\nReels: ${url(item.video)}` : ""}`);
       if (item.legenda) console.log(`Legenda:\n${item.legenda.slice(0, 300)}${item.legenda.length > 300 ? "…" : ""}`);
       await conferir([...feed, ...stories]);
       if (teste) {
         console.log("Teste: nada foi publicado.");
         continue;
       }
-      const feito = { feed: feed.length ? await publicarFeed(feed, item.legenda) : null, stories: [], em: new Date().toISOString() };
+      const video = item.video ? url(item.video) : null;
+      if (video) await conferir([video]);
+      let reel = null;
+      if (video && !teste) {
+        try {
+          reel = await publicarReel(video, item.legenda);
+        } catch (e) {
+          console.error(`Reels falhou, vai a imagem: ${e.message}`);
+        }
+      }
+      const feito = { reel, feed: !reel && feed.length ? await publicarFeed(feed, item.legenda) : null, stories: [], em: new Date().toISOString() };
       for (const st of stories) {
         try {
           feito.stories.push(await publicarStory(st));
@@ -111,7 +124,7 @@ for (const s of [...atrasados, slot]) {
         }
       }
       writeFileSync(REGISTRO, JSON.stringify({ ...lerRegistro(), [chave]: feito }, null, 1));
-      console.log(`Publicado ${data}/${chave}: feed ${feito.feed ?? "-"}, stories ${feito.stories.length}/${stories.length}.`);
+      console.log(`Publicado ${data}/${chave}: ${feito.reel ? `reels ${feito.reel}` : `feed ${feito.feed ?? "-"}`}, stories ${feito.stories.length}/${stories.length}.`);
     } catch (e) {
       falhas++;
       console.error(`::error::${data}/${chave}: ${e.message}`);

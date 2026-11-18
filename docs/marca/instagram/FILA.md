@@ -27,7 +27,7 @@ O dono não publica nada à mão. Horário de Brasília (o GitHub costuma atrasa
 
 | Horário | Feed | Stories |
 |---|---|---|
-| 05:40 | Evangelho do dia | Evangelho |
+| 05:40 | Evangelho do dia em **Reels narrado** (imagem se o vídeo falhar) | Evangelho |
 | 07:10 | Data grande (Advento, Imaculada, Natal...), só no dia | a mesma |
 | 08:40 | Santos do dia do calendário (carrossel; sem santo no calendário, até 3 lembrados com foto) | um por santo |
 | 10:10 | Novena que começa hoje, só no dia | a mesma |
@@ -38,6 +38,7 @@ O dono não publica nada à mão. Horário de Brasília (o GitHub costuma atrasa
 | 20:10 | Terço de hoje (mistérios do dia) | Terço, com os 5 mistérios |
 | 21:40 | | Oração da noite |
 
+- **Reels do Evangelho** (pedido do dono, 18/11/2026: "pra conseguir seguidores tem que postar reels"): telas desenhadas por `gerar-do-dia.mjs` (abertura com a pintura, até 5 telas do texto, fecho), narração com a voz livre Piper `pt_BR-faber-medium` (dados CC0), lida frase por frase com pausas de 0,52 s e 0,3 s (o dono pediu 30% menos), e a trilha de órgão composta por nós (`scripts/instagram/reel/trilha.py` gera `trilha.m4a`; sem direito de terceiros). Montagem: `scripts/instagram/reel/montar.py` (ffmpeg, sem zoom: o zoom tremia). Abre com "Evangelho de Jesus Cristo segundo São ..." e fecha com "Palavra da Salvação" (ou "Continue a leitura no app" quando o texto não coube).
 - A grade mora em `scripts/instagram/horarios.mjs` (e os `cron` repetidos no workflow). Horário que não saiu (o GitHub às vezes pula) é recuperado pelo seguinte, até 4 horas depois, menos Ângelus, Misericórdia e noite, que só valem na hora.
 - As imagens saem do código do app (`scripts/instagram/gerar-do-dia.mjs`, peças em `src/divulgacao/conteudo.ts` e `instagram.ts`), geradas no primeiro horário do dia e guardadas no ramo `instagram` (os últimos 7 dias, para dar tempo de republicar o que falhou; o mais antigo sai quando o dia novo entra, e o ramo é refeito do zero, sem histórico; a Vercel não publica esse ramo, `vercel.json`), com o registro do que saiu em `<data>/publicados.json` lá. A `main` não recebe commit da automação.
 - Segredos no GitHub: `IG_TOKEN`, `IG_USER_ID` (token de usuário do sistema da Meta, não vence; `instagram-token.yml` só age com token do Instagram e `GH_PAT`). Configuração: `../prompt-instagram-api.md`.

@@ -21,8 +21,8 @@ async function chamar(caminho, parametros, metodo = "POST") {
   return json;
 }
 
-async function aguardarPronto(container) {
-  for (let i = 0; i < 40; i++) {
+async function aguardarPronto(container, tentativas = 40) {
+  for (let i = 0; i < tentativas; i++) {
     const { status_code } = await chamar(`/${container}`, { fields: "status_code" }, "GET");
     if (status_code === "FINISHED") return;
     if (status_code === "ERROR" || status_code === "EXPIRED") throw new Error(`Container ${container}: ${status_code}`);
@@ -31,8 +31,8 @@ async function aguardarPronto(container) {
   throw new Error(`Container ${container} não ficou pronto.`);
 }
 
-async function publicarContainer(container) {
-  await aguardarPronto(container);
+async function publicarContainer(container, tentativas) {
+  await aguardarPronto(container, tentativas);
   const { id } = credenciais();
   const r = await chamar(`/${id}/media_publish`, { creation_id: container });
   return r.id;
@@ -53,6 +53,12 @@ export async function publicarFeed(urls, legenda) {
   }
   const c = await chamar(`/${id}/media`, { media_type: "CAROUSEL", children: filhos.join(","), caption: texto });
   return publicarContainer(c.id);
+}
+
+export async function publicarReel(url, legenda) {
+  const { id } = credenciais();
+  const c = await chamar(`/${id}/media`, { media_type: "REELS", video_url: url, caption: legenda.slice(0, 2200), share_to_feed: "true" });
+  return publicarContainer(c.id, 120);
 }
 
 export async function publicarStory(url) {

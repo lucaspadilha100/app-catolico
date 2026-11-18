@@ -80,6 +80,15 @@ jobs:
           npm i --no-save playwright@1
           npx playwright install --with-deps chromium
           node scripts/instagram/gerar-do-dia.mjs "$D" ".ig-novo/$D"
+          (
+            set -e
+            command -v ffmpeg >/dev/null || { sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg; }
+            python3 -m venv /tmp/voz
+            /tmp/voz/bin/pip install --quiet piper-tts==1.8.0
+            mkdir -p ~/.cache/piper
+            for e in onnx onnx.json; do curl -sfL -o ~/.cache/piper/pt_BR-faber-medium.$e "https://huggingface.co/rhasspy/piper-voices/resolve/main/pt/pt_BR/faber/medium/pt_BR-faber-medium.$e"; done
+            /tmp/voz/bin/python scripts/instagram/reel/montar.py ".ig-novo/$D"
+          ) || echo "::warning::O Reels do dia não foi gerado; o Evangelho sai em imagem."
           limite=$(TZ=America/Sao_Paulo date -d "7 days ago" +%F)
           git worktree add --orphan -b instagram .ig
           if [ -n "$anterior" ]; then
