@@ -16,7 +16,7 @@ const guia: Guia = {
         },
         {
           texto:
-            "Chegue alguns minutos antes. Ao entrar, faça o sinal da cruz com água benta, lembrando o seu Batismo. Antes de ocupar o banco, faça a genuflexão, dobrando o joelho direito até o chão, voltado para o sacrário, onde Jesus está presente (IGMR 274). Quem não consegue pode fazer uma inclinação profunda. Desligue o celular e use o tempo em silêncio para rezar.",
+            "Chegue alguns minutos antes. Ao entrar, faça o sinal da cruz com água benta, lembrando o seu Batismo. Antes de ocupar o banco, faça a genuflexão, dobrando o joelho direito até o chão, voltado para o sacrário, onde Jesus está presente (IGMR 274). Desligue o celular e use o tempo em silêncio para rezar.",
         },
         {
           texto:

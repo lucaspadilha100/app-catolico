@@ -1,0 +1,8 @@
+# Fontes: Timóteo e Tito (26/01/2027)
+
+- Grau: 26/01 = Santos Timóteo e Tito, bispos, MEMÓRIA (obrigatória), branco. Conferido no motor (src/liturgia/santoral.ts, "0126", "M", "b") e na tela /liturgia/2027-01-26 ("Memória de Santos Timóteo e Tito, bispos", Cor: Branco).
+- Bíblia do app (public/biblia/f1/): At 16,1-3 (Listra; mãe judia que abraçara a fé, pai gentio; Paulo o leva); 2Tm 1,5 ("habitou primeiro em tua avó Loide e também em tua mãe Eunice"); Fl 2,20 ("não tenho ninguém tão unido a mim de coração"); 1Ts 3,1-2 e 1Cor 4,17 (enviado a Tessalônica e a Corinto); Gl 2,1-3 (Tito, gentio, levado a Jerusalém); 2Cor 7,6 (consolo com a chegada de Tito); Tt 1,4-5 (Creta, presbíteros); 1Tm 1,2, 2Tm 1,2, Tt 1,4 (as cartas dirigidas a eles); 2Tm 1,7 (fecho). Conferido.
+- Bento XVI, audiência geral de 13/12/2006, "Timóteo e Tito, os colaboradores mais estreitos de Paulo" (https://www.vatican.va/content/benedict-xvi/pt/audiences/2006/documents/hf_ben-xvi_aud_20061213.html; cópia em fontes/b16-20061213.txt): "Timóteo é um nome grego e significa 'que honra Deus'"; Paulo o enviou a Tessalônica e a Corinto; "Segundo a posterior História eclesiástica de Eusébio, Timóteo foi o primeiro Bispo de Éfeso"; Tito "grego de nascença, isto é, pagão"; "eles ensinam-nos a servir o Evangelho com generosidade". Conferido.
+- Cuidado tomado: Bento XVI diz que as três cartas são "tradicionalmente atribuídas a Paulo"; o post não entra na questão de autoria: diz só que são dirigidas a Timóteo e a Tito (o que o próprio texto diz).
+- Capa: Willem Drost, Timóteo e sua avó Loide (década de 1650, Museu Hermitage), domínio público. Wikimedia Commons, "Timothy-and-Lois.jpg" (1524x1920; miniatura de 1280 px).
+- Tela do app: /santos/santos-timoteo-e-tito, cor "branco" (a do dia).

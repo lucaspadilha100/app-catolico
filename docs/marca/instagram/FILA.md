@@ -18,8 +18,8 @@ Ordem combinada com o dono em 15/11/2026: primeiro a apresentação do app, em s
 ## Rotina diária (decisão do dono, 18/11/2026): tudo automático
 O dono não publica à mão. A grade de cada dia está em "Publicação automática", abaixo.
 
-## Posts do fim da tarde até 31/12/2026: `curiosidades/<AAAA-MM-DD>-<tema>/`
-Um post por noite, de 19/11 a 31/12 (43), cada um com as lâminas em JPG (01.jpg...), `legenda.txt` e `fontes.md`, escritos e revisados por especialistas (doutrina e texto) com fonte conferida. Plano e temas: `curiosidades-plano.md`. Na pasta `curiosidades/reserva/` fica pronto "O que quer dizer Amém" ("De onde vem a Ave-Maria" saiu em 18/11) (saíram de 21/11 e 26/11 para Nossa Senhora da Apresentação, padroeira de Natal, e a árvore de Natal).
+## Posts do fim da tarde até 31/01/2027: `curiosidades/<AAAA-MM-DD>-<tema>/`
+Um post por noite, de 19/11 a 31/12 (43), cada um com as lâminas em JPG (01.jpg...), `legenda.txt` e `fontes.md`, escritos e revisados por especialistas (doutrina e texto) com fonte conferida. Plano e temas: `curiosidades-plano.md` (até dezembro) e `curiosidades-plano-janeiro.md` (janeiro de 2027, aprovado pelo dono em 18/11/2026, com o especial de São Mateus Moreira em 29/1). Todos passaram por revisão doutrinal independente (quatro revisores, Catecismo e documentos conferidos no vatican.va) em 18/11/2026. Na pasta `curiosidades/reserva/` fica pronto "O que quer dizer Amém" ("De onde vem a Ave-Maria" saiu em 18/11) (saíram de 21/11 e 26/11 para Nossa Senhora da Apresentação, padroeira de Natal, e a árvore de Natal).
 Gerador das lâminas (marca no topo de toda lâmina): `scratchpad/posts/script/compor.cjs` (fora do repositório); padrão: capa com pintura, lâminas de texto e uma tela real do app, fecho.
 
 ## Publicação automática (desde 18/11/2026; grade de 18/11): `.github/workflows/instagram.yml`

@@ -1,0 +1,10 @@
+# Fontes: Hoje é Dia de Reis (06/01/2027)
+
+- Costume no Brasil de desmontar a árvore e o presépio no Dia de Reis: pedido do dono, dito como costume e não regra; coerente com o post de 26/11/2026 (docs/marca/instagram/curiosidades/2026-11-26-arvore-de-natal/legenda.txt), que já disse "nenhuma norma da Igreja marca o dia de montar ou desmontar a árvore".
+- "The Epiphany of the Lord is celebrated on 6 January, unless, where it is not observed as a Holyday of Obligation, it has been assigned to the Sunday occurring between 2 and 8 January": Normas universais sobre o ano litúrgico e o calendário, n. 37 (scratchpad/fontes-cur/gnly.txt). Conferido. Epifania em 03/01/2027 no Brasil: conferido no app (/liturgia/2027-01-03 e /calendario).
+- "Christmas Time runs from First Vespers [...] of the Nativity of the Lord up to and including the Sunday after Epiphany or after 6 January" (n. 33); "The Sunday falling after 6 January is the Feast of the Baptism of the Lord" (n. 38): Normas universais. Conferido. Batismo do Senhor em 10/01/2027 (festa) e Tempo Comum a partir de 11/01: conferido no app (/calendario?dia=2027-01-10).
+- "popular piety propose certain forms of prayers, differing from country to country", entre elas a inauguração do presépio e da árvore de Natal nas casas: Diretório sobre a piedade popular e a liturgia, n. 109 (vatican.va, versão inglesa; scratchpad/fontes-cur/dir_en.txt). Conferido.
+- "Quando se aproxima a festa da Epifania, colocam-se no Presépio as três figuras dos Reis Magos": Papa Francisco, Admirabile signum, 01/12/2019, n. 9 (vatican.va). Conferido.
+- "a Epifania celebra a adoração de Jesus pelos «magos» vindos do Oriente": Catecismo, n. 528 (vatican.va, scratchpad/cic/). Conferido.
+- Mt 2,10 (fecho) no texto da Bíblia do app. Conferido.
+- Capa: Fra Angelico e Filippo Lippi, Adoração dos Magos (tondo), domínio público (Wikimedia Commons, Google Art Project); recortado em retângulo dentro do círculo. Não é a capa de 03/01 (Mantegna) nem de 04/01 (Gentile da Fabriano).

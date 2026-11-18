@@ -26,7 +26,10 @@ export const fotoGuardada = (caminho: string, base = BASE): string =>
 export const focoDaImagem = (s: { imagem?: FotoDoIndice }) => s.imagem?.foco ?? "50% 25%";
 
 export function creditoDaFoto(c: Pick<CreditoDoSanto, "obra" | "autor" | "licenca" | "data" | "fonte">): string {
-  return [c.obra, textoDoCredito({ autor: c.data ? `${c.autor}, ${c.data}` : c.autor, licenca: c.licenca }), c.fonte ?? "Wikimedia Commons"].filter(Boolean).join(". ");
+  return [c.obra, textoDoCredito({ autor: c.data ? `${c.autor}, ${c.data}` : c.autor, licenca: c.licenca }), c.fonte ?? "Wikimedia Commons"]
+    .filter(Boolean)
+    .map((parte) => parte.charAt(0).toUpperCase() + parte.slice(1))
+    .join(". ");
 }
 
 const cache = new Map<string, Promise<unknown>>();
