@@ -20,10 +20,17 @@ Ordem combinada com o dono em 15/11/2026: primeiro a apresentação do app, em s
 - **Meio-dia: Evangelho do dia.** Divulgação, "Post" do Evangelho no feed e "Story" nos stories.
 - **Fim da tarde: o post do dia criado no chat**, um por vez, nesta fila (itens 7 em diante), sempre revisado por especialistas (doutrina e texto) antes de ir ao ar.
 
-## Curiosidades da fé (plano de 30, 18/11/2026): `curiosidades-plano.md`
-Fim da tarde, intercaladas com os itens 7, 8 e 9 acima (20/11, 23/11 e 28/11). Cada fato com fonte conferida; o que não se confirmou ficou de fora (lista no fim do plano). Cada post passa por revisão antes de ir ao ar.
-- `curiosidade-01-ano-liturgico/` (qui 19/11): A Igreja tem o seu próprio ano · pronto
-- `curiosidade-cunhau-uruacu/` (sex 27/11): Os primeiros mártires do Brasil · pronto (decisão do dono: dizer quem os perseguiu, como a fonte da Igreja registra)
+## Posts do fim da tarde até 31/12/2026: `curiosidades/<AAAA-MM-DD>-<tema>/`
+Um post por noite, de 19/11 a 31/12 (43), cada um com as lâminas em JPG (01.jpg...), `legenda.txt` e `fontes.md`, escritos e revisados por especialistas (doutrina e texto) com fonte conferida. Plano e temas: `curiosidades-plano.md`. Na pasta `curiosidades/reserva/` ficam prontos "De onde vem a Ave-Maria" e "O que quer dizer Amém" (saíram de 21/11 e 26/11 para Nossa Senhora da Apresentação, padroeira de Natal, e a árvore de Natal).
+Gerador das lâminas (marca no topo de toda lâmina): `scratchpad/posts/script/compor.cjs` (fora do repositório); padrão: capa com pintura, lâminas de texto e uma tela real do app, fecho.
+
+## Publicação automática (desde 18/11/2026): `.github/workflows/instagram.yml`
+- 8h (11h UTC): santos do dia do calendário, carrossel no feed e um story por santo.
+- 12h (15h UTC): Evangelho do dia no feed e no story.
+- 18h (21h UTC): o post do fim da tarde desta pasta `curiosidades/` (pela data no nome da pasta).
+- As imagens dos santos e do Evangelho saem do mesmo código da tela Divulgação (`scripts/instagram/gerar-do-dia.mjs`), ficam em `automatico/<data>/` e vão ao Instagram pelo endereço público do GitHub. `automatico/publicados.json` evita publicar duas vezes.
+- Segredos no GitHub: `IG_TOKEN`, `IG_USER_ID` (sem eles, nada é publicado) e `GH_PAT` (renova o token toda segunda, `instagram-token.yml`). Configuração: `../prompt-instagram-api.md`.
+- Rodar à mão: Actions > Instagram > Run workflow (horário, data, "teste" marcado = só confere).
 
 Fora da fila: `post2-novena-apresentacao/` (o dono achou fora de hora).
 

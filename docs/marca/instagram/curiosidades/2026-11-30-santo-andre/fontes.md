@@ -1,0 +1,8 @@
+# Fontes: Santo André, o primeiro chamado (seg 30/11)
+
+- Jo 1,35-42 (discípulo de João, "Vinde e vede", "Encontramos o Messias", Simão chamado Cefas/Pedro) e Mt 4,18-20 ("Vinde comigo, e eu farei de vós pescadores de homens", deixaram as redes): Bíblia do app, `public/biblia/f1/JHN.da552c528f.json` e `MAT.c26a56612b.json`. Conferido, texto do app.
+- Bento XVI, audiência geral de 14/06/2006, "André, o Protóklitos": https://www.vatican.va/content/benedict-xvi/pt/audiences/2006/documents/hf_ben-xvi_aud_20060614.html. Conferido: "André foi o primeiro dos Apóstolos a ser chamado para seguir Jesus"; "a liturgia da Igreja Bizantina o honra com o apelativo de Protóklitos, que significa exactamente 'primeiro chamado'"; "tradições muito antigas" o veem como apóstolo dos gregos; "uma tradição sucessiva" narra a morte em Patras numa cruz decussada, a "cruz de Santo André"; André "ensina-nos a seguir Jesus com prontidão... a falar com entusiasmo d'Ele a quantos encontramos".
+- 30/11: festa de Santo André, apóstolo, vermelho: `src/liturgia/santoral.ts` ("1130", F, v); IGMR n. 346 (vermelho nos apóstolos). Conferido. Evangelho do dia no app: Mt 4,18-22 (tela Hoje em 30/11).
+- No app: Mais > Santos > Santo André (`/santos/santo-andre`, ficha `fontes/santos/fichas/santo-andre.json`, "a revisar pelo dono").
+- Arte: Pompeo Batoni, Santo André (1740-43), domínio público, Art Institute of Chicago: https://www.artic.edu/artworks/11575 (IIIF, 1686 px). É a mesma da ficha do app.
+- Revisão: audiência de 14/06/2006 relida no vatican.va em 18/11 (Protóklitos, "tradições muito antigas", "uma tradição sucessiva", Patrasso, cruz decussada, "seguir Jesus com prontidão"). Conferido.
