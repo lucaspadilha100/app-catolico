@@ -20,6 +20,10 @@ Ordem combinada com o dono em 15/11/2026: primeiro a apresentação do app, em s
 - **Meio-dia: Evangelho do dia.** Divulgação, "Post" do Evangelho no feed e "Story" nos stories.
 - **Fim da tarde: o post do dia criado no chat**, um por vez, nesta fila (itens 7 em diante), sempre revisado por especialistas (doutrina e texto) antes de ir ao ar.
 
+## Curiosidades da fé (plano de 30, 18/11/2026): `curiosidades-plano.md`
+Fim da tarde, intercaladas com os itens 7, 8 e 9 acima (20/11, 23/11 e 28/11). Cada fato com fonte conferida; o que não se confirmou ficou de fora (lista no fim do plano). Cada post passa por revisão antes de ir ao ar.
+- `curiosidade-01-ano-liturgico/` (qui 19/11): A Igreja tem o seu próprio ano · pronto
+
 Fora da fila: `post2-novena-apresentacao/` (o dono achou fora de hora).
 
 Depois: os posts 5, 8 e 9 de `plano-lancamento.md` (falecidos, instalar o app, Advento) e o Reels, que espera o motivo do dono.
