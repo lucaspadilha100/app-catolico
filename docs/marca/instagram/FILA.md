@@ -39,7 +39,7 @@ O dono não publica nada à mão. Horário de Brasília (o GitHub costuma atrasa
 | 21:40 | | Oração da noite |
 
 - A grade mora em `scripts/instagram/horarios.mjs` (e os `cron` repetidos no workflow). Horário que não saiu (o GitHub às vezes pula) é recuperado pelo seguinte, até 4 horas depois, menos Ângelus, Misericórdia e noite, que só valem na hora.
-- As imagens saem do código do app (`scripts/instagram/gerar-do-dia.mjs`, peças em `src/divulgacao/conteudo.ts` e `instagram.ts`), geradas no primeiro horário do dia e guardadas no ramo `instagram` (só o dia de hoje e os seguintes; a Vercel não publica esse ramo, `vercel.json`), com o registro do que saiu em `<data>/publicados.json` lá. A `main` não recebe commit da automação.
+- As imagens saem do código do app (`scripts/instagram/gerar-do-dia.mjs`, peças em `src/divulgacao/conteudo.ts` e `instagram.ts`), geradas no primeiro horário do dia e guardadas no ramo `instagram` (os últimos 7 dias, para dar tempo de republicar o que falhou; o mais antigo sai quando o dia novo entra, e o ramo é refeito do zero, sem histórico; a Vercel não publica esse ramo, `vercel.json`), com o registro do que saiu em `<data>/publicados.json` lá. A `main` não recebe commit da automação.
 - Segredos no GitHub: `IG_TOKEN`, `IG_USER_ID` (token de usuário do sistema da Meta, não vence; `instagram-token.yml` só age com token do Instagram e `GH_PAT`). Configuração: `../prompt-instagram-api.md`.
 - Rodar à mão ou testar: mudar `automatico/pedido.json` (`slot`, `data`, `teste`) e enviar à `main`, ou Actions > Instagram > Run workflow.
 

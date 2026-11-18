@@ -80,11 +80,11 @@ jobs:
           npm i --no-save playwright@1
           npx playwright install --with-deps chromium
           node scripts/instagram/gerar-do-dia.mjs "$D" ".ig-novo/$D"
-          hoje=$(TZ=America/Sao_Paulo date +%F)
+          limite=$(TZ=America/Sao_Paulo date -d "7 days ago" +%F)
           git worktree add --orphan -b instagram .ig
           if [ -n "$anterior" ]; then
             for p in $(git ls-tree --name-only "$anterior"); do
-              if [[ "$p" > "$hoje" || "$p" == "$hoje" ]] && [ "$p" != "$D" ]; then git -C .ig checkout "$anterior" -- "$p"; fi
+              if [[ "$p" > "$limite" || "$p" == "$limite" ]] && [ "$p" != "$D" ]; then git -C .ig checkout "$anterior" -- "$p"; fi
             done
           fi
           cp -r ".ig-novo/$D" .ig/
