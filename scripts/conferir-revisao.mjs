@@ -1,7 +1,7 @@
 import { readFileSync, existsSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { mesmaDivisaoDaFonte, versiculosEsperados, versiculosRestaurados, versiculosSemNota } from "./biblia/numeracao.mjs";
+import { fonteNaNumeracaoAtual, mesmaDivisaoDaFonte, versiculosEsperados, versiculosRestaurados, versiculosSemNota } from "./biblia/numeracao.mjs";
 
 const raiz = join(dirname(fileURLToPath(import.meta.url)), "..");
 const livros = process.argv.slice(2);
@@ -15,8 +15,9 @@ for (const codigo of livros) {
     continue;
   }
   const fonte = JSON.parse(readFileSync(join(raiz, "fontes/biblia/figueiredo-1950", `${codigo}.json`), "utf8"));
+  const base = fonteNaNumeracaoAtual(codigo, fonte);
   const revisado = {
-    capitulos: fonte.capitulos.map((_, c) => {
+    capitulos: base.map((_, c) => {
       const caminho = join(pasta, `${c + 1}.json`);
       return existsSync(caminho) ? JSON.parse(readFileSync(caminho, "utf8")) : [];
     }),
@@ -24,11 +25,11 @@ for (const codigo of livros) {
   const problemas = [];
   const restaurados = versiculosRestaurados(codigo);
   const semNota = versiculosSemNota(codigo);
-  fonte.capitulos.forEach((cap, c) => {
+  base.forEach((cap, c) => {
     const rev = revisado.capitulos[c] ?? [];
     const esperado = versiculosEsperados(codigo, c + 1, fonte);
     if (rev.length !== esperado) problemas.push(`${c + 1}: ${rev.length} versículos, esperado ${esperado}`);
-    const mesmaDivisao = rev.length === cap.length && mesmaDivisaoDaFonte(codigo, c + 1);
+    const mesmaDivisao = rev.length === cap.length && mesmaDivisaoDaFonte(codigo, c + 1, fonte);
     rev.forEach((novo, v) => {
       const original = mesmaDivisao ? cap[v] : novo;
       const onde = `${c + 1},${v + 1}`;

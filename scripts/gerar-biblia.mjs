@@ -1,6 +1,6 @@
 import { readFileSync, writeFileSync, mkdirSync, readdirSync, existsSync, rmSync } from "node:fs";
 import { createHash } from "node:crypto";
-import { NUMERACAO_MODERNA, versiculosEsperados } from "./biblia/numeracao.mjs";
+import { NUMERACAO_MODERNA, fonteNaNumeracaoAtual, versiculosEsperados } from "./biblia/numeracao.mjs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -41,7 +41,7 @@ let revisados = 0;
 for (const arquivo of readdirSync(fonte).filter((f) => f.endsWith(".json"))) {
   const livro = JSON.parse(readFileSync(join(fonte, arquivo), "utf8"));
   let capitulosRevisados = 0;
-  const capitulos = livro.capitulos.map((cap, c) => {
+  const capitulos = fonteNaNumeracaoAtual(livro.codigo, livro).map((cap, c) => {
     const caminho = join(revisao, livro.codigo, `${c + 1}.json`);
     if (existsSync(caminho)) {
       const novo = JSON.parse(readFileSync(caminho, "utf8"));

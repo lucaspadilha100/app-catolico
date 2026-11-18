@@ -10,7 +10,12 @@ import { intervalosDaReferencia, textoDaReferencia } from "./texto";
 
 const raiz = join(__dirname, "../..");
 const ESTADO = estado as Record<string, { revisao: string; arquivo: string; versiculos: number[] }>;
-const NUMERACAO_MODERNA = ["MAT", "MRK", "LUK", "JHN", "ACT", "2CO", "1TH", "2TH", "3JN"];
+const NUMERACAO_MODERNA = [
+  ...["GEN", "EXO", "LEV", "NUM", "DEU", "JOS", "JDG", "RUT", "1SA", "2SA", "1KI", "2KI", "1CH", "2CH", "EZR", "NEH", "JOB", "PRO", "ECC", "SNG"],
+  ...["ISA", "JER", "LAM", "EZK", "HOS", "JOL", "AMO", "OBA", "JON", "MIC", "NAM", "HAB", "ZEP", "HAG", "ZEC", "MAL"],
+  ...["MAT", "MRK", "LUK", "JHN", "ACT", "2CO", "1TH", "2TH", "3JN"],
+];
+const SEM_TEXTO_NA_VULGATA = ["GEN 49,32", "EXO 40,14", "SNG 1,1"];
 
 const livro = (codigo: string): string[][] =>
   JSON.parse(readFileSync(join(raiz, "public/biblia/f1", ESTADO[codigo]!.arquivo), "utf8")).capitulos;
@@ -40,10 +45,16 @@ describe("integridade da Bíblia", () => {
   it.each(NUMERACAO_MODERNA)("%s tem os mesmos versículos das Bíblias católicas de hoje", (codigo) => {
     const capitulos = livro(codigo);
     expect(capitulos.map((c) => c.length)).toEqual(moderna[codigo]);
-    capitulos.forEach((cap, c) => cap.forEach((v, i) => expect(v.trim(), `${codigo} ${c + 1},${i + 1}`).not.toBe("")));
+    capitulos.forEach((cap, c) =>
+      cap.forEach((v, i) => {
+        const onde = `${codigo} ${c + 1},${i + 1}`;
+        if (SEM_TEXTO_NA_VULGATA.includes(onde)) expect(v, onde).toBe("");
+        else expect(v.trim(), onde).not.toBe("");
+      }),
+    );
   });
 
-  it("cada versículo de Evangelho citado no lecionário existe e tem texto", () => {
+  it("cada versículo citado no lecionário dos livros na numeração de hoje existe e tem texto", () => {
     const faltando: string[] = [];
     for (const ref of referencias) {
       for (const { livro: codigo, de, ate } of intervalosDaReferencia(ref)) {
@@ -52,7 +63,7 @@ describe("integridade da Bíblia", () => {
         for (let c = de[0]; c <= ate[0]; c++) {
           const fim = c === ate[0] ? ate[1] : capitulos[c - 1]!.length;
           for (let v = c === de[0] ? de[1] : 1; v <= fim; v++) {
-            if (!capitulos[c - 1]?.[v - 1]?.trim()) faltando.push(`${ref} → ${codigo} ${c},${v}`);
+            if (!capitulos[c - 1]?.[v - 1]?.trim() && !SEM_TEXTO_NA_VULGATA.includes(`${codigo} ${c},${v}`)) faltando.push(`${ref} → ${codigo} ${c},${v}`);
           }
         }
       }

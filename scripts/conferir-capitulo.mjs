@@ -1,7 +1,7 @@
 import { readFileSync, existsSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { mesmaDivisaoDaFonte, versiculosEsperados, versiculosRestaurados, versiculosSemNota } from "./biblia/numeracao.mjs";
+import { fonteNaNumeracaoAtual, mesmaDivisaoDaFonte, versiculosEsperados, versiculosRestaurados, versiculosSemNota } from "./biblia/numeracao.mjs";
 
 const raiz = join(dirname(fileURLToPath(import.meta.url)), "..");
 const [codigo, capArg] = process.argv.slice(2);
@@ -12,7 +12,7 @@ if (!existsSync(caminho)) {
   console.log(`falta ${caminho}`);
   process.exit(1);
 }
-const original = fonte.capitulos[cap - 1];
+const original = fonteNaNumeracaoAtual(codigo, fonte)[cap - 1] ?? [];
 const novo = JSON.parse(readFileSync(caminho, "utf8"));
 const problemas = [];
 if (!Array.isArray(novo)) problemas.push("o arquivo precisa ser uma lista de versículos");
@@ -21,7 +21,7 @@ else {
   if (novo.length !== esperado) problemas.push(`${novo.length} versículos, esperado ${esperado}`);
   const restaurados = versiculosRestaurados(codigo);
   const semNota = versiculosSemNota(codigo);
-  const mesmaDivisao = novo.length === original.length && mesmaDivisaoDaFonte(codigo, cap);
+  const mesmaDivisao = novo.length === original.length && mesmaDivisaoDaFonte(codigo, cap, fonte);
   const conta = (lista) => lista.filter((_, i) => !semNota.has(`${cap},${i + 1}`)).join(" ").length;
   const total = mesmaDivisao ? conta(novo) / Math.max(conta(original), 1) : novo.join(" ").length / original.join(" ").length;
   if (total < 0.7 || total > 1.4) problemas.push(`capítulo com tamanho muito diferente (${total.toFixed(2)})`);
