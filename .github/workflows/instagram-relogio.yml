@@ -1,0 +1,39 @@
+name: Instagram (relógio)
+
+on:
+  push:
+    branches: [main]
+    paths: [.github/workflows/instagram-relogio.yml]
+  workflow_dispatch:
+
+permissions:
+  actions: write
+  contents: read
+
+concurrency:
+  group: instagram-relogio
+  cancel-in-progress: false
+
+jobs:
+  esperar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 345
+    steps:
+      - uses: actions/checkout@v4
+      - name: Esperar o próximo horário
+        id: p
+        run: |
+          read espera slot < <(node scripts/instagram/proximo.mjs)
+          echo "Próximo: ${slot} daqui a ${espera} s"
+          sleep "$espera"
+          echo "slot=$slot" >> "$GITHUB_OUTPUT"
+      - name: Publicar
+        if: steps.p.outputs.slot != '-'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run instagram.yml -R "$GITHUB_REPOSITORY" -f slot="${{ steps.p.outputs.slot }}" -f data="$(TZ=America/Sao_Paulo date +%F)" -f teste=false
+      - name: Dar corda de novo
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run instagram-relogio.yml -R "$GITHUB_REPOSITORY"
