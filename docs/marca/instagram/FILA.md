@@ -2,7 +2,7 @@
 
 O dono pede um por vez, na hora de postar. Cada pasta tem as lâminas (01.png...) e a `legenda.txt`.
 
-Posts 1 a 5 são sobre o app (pedido do dono, 14/11/2026). Post 1 (apresentação) publicado em 13/11; Bíblia publicado em 14/11; Missas (refeito, 9 lâminas) em 15/11; Terço em 16/11; Orações em 17/11.
+Posts 1 a 5 são sobre o app (pedido do dono, 14/11/2026). Post 1 (apresentação) publicado em 13/11; Bíblia publicado em 14/11; Missas (refeito, 9 lâminas) em 15/11; Terço em 16/11; Orações em 17/11; Títulos dos santos em 18/11.
 
 Ordem combinada com o dono em 15/11/2026: primeiro a apresentação do app, em sequência no feed (quem chega ao perfil vê um recurso por post), depois as campanhas.
 
@@ -11,11 +11,14 @@ Ordem combinada com o dono em 15/11/2026: primeiro a apresentação do app, em s
 3. `post-missas/` (15/11) · publicado
 4. `post-terco/` (16/11) · publicado
 5. `post-oracoes/` (17/11, revisado: capa sem "da tradição", santos beatos e veneráveis, Ladainha de Nossa Senhora) · publicado
-6. `post-titulos-dos-santos/` · pronto
+6. `post-titulos-dos-santos/` (18/11, revisado: "nunca antes de cinco anos", "em regra" no segundo milagre, Lindalva mártir, títulos dos brasileiros conferidos) · publicado
 7. Novembro: rezar por quem partiu (`plano-lancamento.md`, post 5) · a fazer
 8. Como pôr o app na tela do celular (`plano-lancamento.md`, post 8) · a fazer
 9. O Advento começa amanhã (`plano-lancamento.md`, post 9; sáb 28/11) · a fazer
-Depois do Advento: Evangelho do dia e Santo do dia, pela tela Divulgação do app.
+## Rotina diária a partir de 19/11/2026 (decisão do dono, 18/11): 3 posts no feed por dia
+- **Manhã: santos do dia.** Pela tela Divulgação do app (Mais > Painel > Divulgação), "Post" de cada santo do dia; se houver mais de um, vão juntos num carrossel. "Story" de cada um nos stories.
+- **Meio-dia: Evangelho do dia.** Divulgação, "Post" do Evangelho no feed e "Story" nos stories.
+- **Fim da tarde: o post do dia criado no chat**, um por vez, nesta fila (itens 7 em diante), sempre revisado por especialistas (doutrina e texto) antes de ir ao ar.
 
 Fora da fila: `post2-novena-apresentacao/` (o dono achou fora de hora).
 
