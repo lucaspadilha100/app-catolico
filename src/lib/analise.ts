@@ -3,11 +3,12 @@ import { ehNativo } from "@/lib/nativo";
 
 const ID = (import.meta.env.VITE_GA_ID as string | undefined)?.trim() ?? "";
 const CHAVE = "santinho-cookies";
+const VERSAO = "2026-11-18";
 const EVENTO = "santinho-cookies";
 
 export type Escolha = "sim" | "nao" | "";
 
-const PRIVADAS = [/^\/rezar\/exame/, /^\/rezar\/confissao/, /^\/rezar\/falecidos/, /^\/diario/, /^\/conta/, /^\/intencoes/, /^\/grupos/, /^\/roteiros\/.+/, /^\/r\//, /^\/painel/, /^\/tercos\/.+\/editar/];
+const PRIVADAS = [/^\/rezar\/exame/, /^\/rezar\/confissao/, /^\/rezar\/falecidos/, /^\/diario/, /^\/conta/, /^\/intencoes/, /^\/grupos/, /^\/roteiros\/.+/, /^\/r\//, /^\/painel/, /^\/tercos/, /^\/escalas/, /^\/correntes/, /^\/c\//, /^\/turmas/];
 
 const privada = (caminho: string) => PRIVADAS.some((r) => r.test(caminho));
 
@@ -15,8 +16,9 @@ export const analiseDisponivel = () => !!ID && !ehNativo() && typeof window !== 
 
 export function escolhaDeCookies(): Escolha {
   try {
-    const v = localStorage.getItem(CHAVE);
-    return v === "sim" || v === "nao" ? v : "";
+    const v = JSON.parse(localStorage.getItem(CHAVE) ?? "null") as { escolha?: string; versao?: string } | null;
+    if (!v || v.versao !== VERSAO) return "";
+    return v.escolha === "sim" || v.escolha === "nao" ? v.escolha : "";
   } catch {
     return "";
   }
@@ -36,9 +38,11 @@ function carregar() {
   w.gtag = function gtag() {
     w.dataLayer!.push(arguments);
   };
+  w.gtag("consent", "default", { ad_storage: "denied", ad_user_data: "denied", ad_personalization: "denied", analytics_storage: "granted" });
   w.gtag("js", new Date());
   w.gtag("config", ID, {
     send_page_view: false,
+    cookie_expires: 34128000,
     allow_google_signals: false,
     allow_ad_personalization_signals: false,
   });
@@ -59,7 +63,7 @@ function apagarCookiesDoGoogle() {
 
 export function escolherCookies(v: "sim" | "nao") {
   try {
-    localStorage.setItem(CHAVE, v);
+    localStorage.setItem(CHAVE, JSON.stringify({ escolha: v, data: new Date().toISOString(), versao: VERSAO }));
   } catch {
     return;
   } finally {
@@ -68,10 +72,12 @@ export function escolherCookies(v: "sim" | "nao") {
   if (v === "sim") {
     carregar();
     paginaVista(location.pathname);
-  } else {
+  } else if (carregado) {
     janela()[`ga-disable-${ID}`] = true;
+    janela().gtag?.("consent", "update", { analytics_storage: "denied" });
     apagarCookiesDoGoogle();
-  }
+    location.reload();
+  } else apagarCookiesDoGoogle();
 }
 
 export function useEscolhaDeCookies(): Escolha {
@@ -95,7 +101,8 @@ export function iniciarAnalise() {
 export function paginaVista(caminho: string) {
   if (!ativo() || privada(caminho)) return;
   carregar();
-  janela().gtag?.("event", "page_view", { page_path: caminho, page_location: location.origin + caminho, page_title: document.title });
+  const campanha = new URLSearchParams([...new URLSearchParams(location.search)].filter(([k]) => k.startsWith("utm_"))).toString();
+  janela().gtag?.("event", "page_view", { page_path: caminho, page_location: location.origin + caminho + (campanha ? `?${campanha}` : ""), page_title: document.title });
 }
 
 const rotuloSeguro = (texto: string) => {
@@ -110,6 +117,6 @@ function aoClicar(e: MouseEvent) {
   if (!alvo || alvo.closest("[data-privado]")) return;
   const rotulo = rotuloSeguro(alvo.getAttribute("aria-label") || (alvo as HTMLElement).innerText || "");
   if (!rotulo) return;
-  const destino = alvo instanceof HTMLAnchorElement ? alvo.pathname : "";
+  const destino = alvo instanceof HTMLAnchorElement && alvo.origin === location.origin ? alvo.pathname : "";
   janela().gtag?.("event", "clique", { rotulo, tela: location.pathname, destino: destino && !privada(destino) ? destino : "" });
 }

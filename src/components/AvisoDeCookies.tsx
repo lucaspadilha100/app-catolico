@@ -6,10 +6,10 @@ import { BOTAO, BOTAO_CLARO } from "@/components/Botao";
 export const ROTULO_DOS_COOKIES = "Cookies de uso";
 
 export const TEXTO_DOS_COOKIES = {
-  aviso: "Usamos cookies para saber quais partes do app ajudam mais e melhorá-lo. Nada do que você reza ou escreve é coletado.",
+  aviso: "Com a sua permissão, usamos cookies do Google Analytics para saber quais telas e botões são mais usados e melhorar o app; o Google guarda esses dados fora do Brasil. Nada do que você escreve ou busca é coletado, nem o exame de consciência, o diário e as intenções.",
   aceitar: "Aceitar",
   recusar: "Recusar",
-  saibaMais: "Saiba mais",
+  saibaMais: "Política de privacidade",
 };
 
 export function AvisoDeCookies() {
@@ -19,7 +19,7 @@ export function AvisoDeCookies() {
   return (
     <div role="region" aria-label="Cookies" className="fixed inset-x-0 bottom-[calc(4rem+env(safe-area-inset-bottom))] z-30 animate-subir px-3 pb-3 md:bottom-0 md:left-60 md:pb-6">
       <div className="mx-auto flex max-w-xl flex-col gap-3 rounded-3xl border border-borda bg-cartao p-4 shadow-lg">
-        <p className="text-[0.9375rem] leading-relaxed text-tinta">
+        <p className="text-base leading-relaxed text-tinta">
           {TEXTO_DOS_COOKIES.aviso}{" "}
           <Link to="/privacidade" className="inline-flex min-h-11 items-center font-semibold text-destaque-texto underline underline-offset-4">
             {TEXTO_DOS_COOKIES.saibaMais}

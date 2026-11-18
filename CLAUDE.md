@@ -382,8 +382,7 @@ Nada de licença paga por ora. Então:
   pecados marcados e guarda só os propósitos e a data da última confissão.
 - Convicção religiosa é dado sensível: mínimo de dados, consentimento claro,
   botão de apagar conta (Apple e Google exigem).
-- Métricas só ANÔNIMAS (contagem de uso), sem cookie de rastreio, sem
-  Google Analytics.
+- Métricas: a contagem anônima diária (sem cookie) e, desde 18/11/2026 (decisão do dono), o **Google Analytics 4 só com aceite** (`lib/analise.ts`, `components/AvisoDeCookies.tsx`, interruptor "Cookies de uso" em Mais): só na web, nunca no app de loja; nada antes do "Aceitar"; sem sinais do Google nem anúncio; telas privadas em `PRIVADAS` não mandam nada (exame, diário, conta, intenções, grupos, terços em grupo, escalas, correntes, roteiros, falecidos, painel); endereço sem parâmetros (só `utm_*`); aceite guardado com data e versão (`VERSAO`: mudou a política no que toca ao GA, sobe a versão e o aviso volta). Tela nova com dado pessoal entra em `PRIVADAS`. ID em `VITE_GA_ID` (`.env`); vazio = sem aviso e sem análise. Política em `conta/textos.ts` ("Cookies de uso"). Teto do GA4 grátis: 500 nomes de evento, 25 parâmetros por evento.
 - Contato de paróquia é só o INSTITUCIONAL (secretaria, Instagram oficial),
   nunca o celular pessoal do padre.
 
