@@ -38,10 +38,10 @@ export function PassosDoIphone() {
   return (
     <ol className="flex list-decimal flex-col gap-2 pl-5 text-tinta marker:font-bold marker:text-destaque-texto">
       <li>
-        No Safari, toque em Compartilhar <Share className={ICONE} aria-hidden />. Se não aparecer, toque antes em <Ellipsis className={ICONE} aria-label="mais opções" />.
+        No Safari, toque em <span className="whitespace-nowrap">Compartilhar <Share className={ICONE} aria-hidden />.</span> Se não aparecer, toque antes em <span className="whitespace-nowrap"><Ellipsis className={ICONE} aria-label="mais opções" />.</span>
       </li>
       <li>
-        Toque em Adicionar à Tela de Início <SquarePlus className={ICONE} aria-hidden />. Se não aparecer, toque em Ver mais.
+        Toque em Adicionar à Tela de <span className="whitespace-nowrap">Início <SquarePlus className={ICONE} aria-hidden />.</span> Se não aparecer, toque em Ver mais.
       </li>
       <li>Toque em Adicionar.</li>
     </ol>
