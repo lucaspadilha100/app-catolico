@@ -97,6 +97,7 @@ jobs:
             done
           fi
           cp -r ".ig-novo/$D" .ig/
+          printf '{\n  "git": { "deploymentEnabled": false },\n  "ignoreCommand": "exit 0"\n}\n' > .ig/vercel.json
           git -C .ig add -A
           git -C .ig commit -qm "Instagram: $D"
           git -C .ig push -f origin HEAD:refs/heads/instagram
