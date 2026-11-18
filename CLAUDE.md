@@ -392,7 +392,7 @@ Nada de licença paga por ora. Então:
   "Santinho"). O nome conversa com a logo: o cruzeiro à frente da igrejinha.
   Mora em `src/marca.ts` (`NOME_DO_APP`); é feminino na frase: "o app Minha
   Igrejinha". Domínios pretendidos: `minhaigrejinha.com.br` e
-  `minhaigrejinha.org` (livres em 10/11/2026, ainda não registrados). Instagram:
+  `minhaigrejinha.org` (livres em 10/11/2026, ainda não registrados). Endereço em uso desde 18/11/2026: `https://minhaigrejinha.vercel.app` (`ENDERECO_DO_SITE` em `src/marca.ts`; no Supabase, Site URL e Redirect URLs `/**` dele e do antigo `app-catolico-five`). Trocar de endereço depois separa o que cada pessoa guardou sem conta (o localStorage é por endereço): não redirecionar o antigo. Instagram:
   @minhaigrejinhaapp (garantido em 12/11/2026). Falta o INPI (classes 9, 41, 45).
 - ⚠️ As chaves do aparelho continuam `santinho-*` (localStorage), de propósito:
   trocar apagaria o que cada pessoa guardou.
