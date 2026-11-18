@@ -5,6 +5,9 @@ on:
     - cron: "0 11 * * *"
     - cron: "0 15 * * *"
     - cron: "0 21 * * *"
+  push:
+    branches: [main]
+    paths: [docs/marca/instagram/automatico/pedido.json]
   workflow_dispatch:
     inputs:
       horario:
@@ -38,6 +41,13 @@ jobs:
         id: h
         run: |
           h="${{ inputs.horario }}"
+          d="${{ inputs.data }}"
+          t="${{ inputs.teste }}"
+          if [ "${{ github.event_name }}" = "push" ]; then
+            p=docs/marca/instagram/automatico/pedido.json
+            h=$(jq -r '.horario // ""' $p); d=$(jq -r '.data // ""' $p); t=$(jq -r 'if .teste == false then "false" else "true" end' $p)
+          fi
+          [ "${{ github.event_name }}" = "schedule" ] && t=false
           if [ -z "$h" ]; then
             case "$(date -u +%H)" in
               09|10|11|12|13) h=manha ;;
@@ -45,10 +55,10 @@ jobs:
               *) h=tarde ;;
             esac
           fi
-          d="${{ inputs.data }}"
           [ -z "$d" ] && d=$(TZ=America/Sao_Paulo date +%F)
           echo "horario=$h" >> "$GITHUB_OUTPUT"
           echo "data=$d" >> "$GITHUB_OUTPUT"
+          echo "teste=$t" >> "$GITHUB_OUTPUT"
           echo "Horário: $h · Data: $d"
 
       - uses: actions/setup-node@v4
@@ -76,7 +86,7 @@ jobs:
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
         run: |
-          node scripts/instagram/publicar.mjs "${{ steps.h.outputs.horario }}" --data "${{ steps.h.outputs.data }}" ${{ (github.event_name == 'workflow_dispatch' && inputs.teste) && '--teste' || '' }}
+          node scripts/instagram/publicar.mjs "${{ steps.h.outputs.horario }}" --data "${{ steps.h.outputs.data }}" ${{ steps.h.outputs.teste == 'true' && '--teste' || '' }}
 
       - name: Registrar
         if: success()
