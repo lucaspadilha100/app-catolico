@@ -86,7 +86,7 @@ jobs:
             set -e
             command -v ffmpeg >/dev/null || { sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg; }
             python3 -m venv /tmp/voz
-            /tmp/voz/bin/pip install --quiet piper-tts==1.8.0
+            /tmp/voz/bin/pip install --quiet piper-tts==1.8.0 edge-tts==7.3.1
             mkdir -p ~/.cache/piper
             for e in onnx onnx.json; do curl -sfL -o ~/.cache/piper/pt_BR-faber-medium.$e "https://huggingface.co/rhasspy/piper-voices/resolve/main/pt/pt_BR/faber/medium/pt_BR-faber-medium.$e"; done
             /tmp/voz/bin/python scripts/instagram/reel/montar.py ".ig-novo/$D"
