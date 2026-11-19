@@ -1,4 +1,4 @@
-import io, os, re, subprocess, sys, wave
+import os, re, subprocess, sys, tempfile, wave
 
 VOZ = os.environ.get("VOZ_PIPER", os.path.expanduser("~/.cache/piper/pt_BR-faber-medium.onnx"))
 LENTO = 1.32
@@ -29,13 +29,14 @@ def partes(texto):
 def sintetizar(texto, saida):
     sr, dados = None, b""
     for p in partes(texto):
-        bruto = subprocess.run(
-            [sys.executable, "-m", "piper", "-m", VOZ, "--length-scale", str(LENTO), "--sentence-silence", "0", "-f", "/dev/stdout"],
-            input=p.encode(), capture_output=True, check=True,
-        ).stdout
-        with wave.open(io.BytesIO(bruto)) as w:
-            sr = w.getframerate()
-            dados += w.readframes(w.getnframes())
+        with tempfile.NamedTemporaryFile(suffix=".wav") as tmp:
+            subprocess.run(
+                [sys.executable, "-m", "piper", "-m", VOZ, "--length-scale", str(LENTO), "--sentence-silence", "0", "-f", tmp.name],
+                input=p.encode(), capture_output=True, check=True,
+            )
+            with wave.open(tmp.name) as w:
+                sr = w.getframerate()
+                dados += w.readframes(w.getnframes())
         dados += b"\x00\x00" * int(sr * (PAUSA_FRASE if p[-1] in ".!?" else PAUSA_VIRGULA))
     with wave.open(saida, "wb") as w:
         w.setnchannels(1)
