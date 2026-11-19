@@ -3,6 +3,7 @@
 # PYTHON: o python com piper-tts==1.8.0; VOZ_PIPER: o pt_BR-faber-medium.onnx (padrão em ~/.cache/piper).
 set -e
 export LANG=pt_BR.UTF-8 LANGUAGE=pt_BR
+[ -f /root/.ccr/ca-bundle.crt ] && export SSL_CERT_FILE=/root/.ccr/ca-bundle.crt
 K=$(dirname "$(readlink -f "$0")"); P=$(readlink -f "$1")
 PY=${PYTHON:-python3}
 [ -f "$P/duracoes.json" ] && [ "$P/duracoes.json" -nt "$P/falas.json" ] || "$PY" "$K/falar_tudo.py" "$P"
