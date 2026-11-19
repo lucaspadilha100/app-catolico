@@ -5,6 +5,7 @@ export const HORARIOS = [
   { slot: "novena", brasilia: "10:10", cron: "10 13 * * *", recuperar: true },
   { slot: "reflexao", brasilia: "11:10", cron: "10 14 * * *", recuperar: true },
   { slot: "angelus", brasilia: "11:50", cron: "50 14 * * *", recuperar: false },
+  { slot: "conheca", brasilia: "12:40", cron: "40 15 * * *", recuperar: true },
   { slot: "misericordia", brasilia: "14:50", cron: "50 17 * * *", recuperar: false },
   { slot: "curiosidade", brasilia: "17:40", cron: "40 20 * * *", recuperar: true },
   { slot: "terco", brasilia: "20:10", cron: "10 23 * * *", recuperar: true },

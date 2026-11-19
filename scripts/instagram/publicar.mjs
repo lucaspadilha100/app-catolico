@@ -5,7 +5,7 @@ import { contaConectada, publicarFeed, publicarReel, publicarStory } from "./api
 import { ATRASO_MAXIMO, HORARIOS, RECUPERAR_ATE_HORAS, minutosDe } from "./horarios.mjs";
 
 const REPO = "lucaspadilha100/app-catolico";
-const CURIOSIDADES = "docs/marca/instagram/curiosidades";
+const PASTAS = { curiosidade: "docs/marca/instagram/curiosidades", conheca: "docs/marca/instagram/conheca" };
 
 const args = process.argv.slice(2);
 const valor = (nome) => {
@@ -74,15 +74,16 @@ const lerRegistro = () => {
 const dia = JSON.parse(readFileSync(join(pastaDoDia, "dia.json"), "utf8"));
 
 function itensDo(s) {
-  if (s !== "curiosidade")
+  if (!PASTAS[s])
     return dia.itens
       .filter((i) => i.slot === s)
       .map((i) => ({ ...i, feed: i.feed.map((f) => join(pastaDoDia, f)), stories: i.stories.map((f) => join(pastaDoDia, f)), video: i.video && existsSync(join(pastaDoDia, i.video)) ? join(pastaDoDia, i.video) : null }));
-  const pasta = existsSync(CURIOSIDADES) ? readdirSync(CURIOSIDADES).find((p) => p.startsWith(`${data}-`)) : undefined;
+  const pasta = existsSync(PASTAS[s]) ? readdirSync(PASTAS[s]).find((p) => p.startsWith(`${data}-`)) : undefined;
   if (!pasta) return [];
-  const dir = join(CURIOSIDADES, pasta);
+  const dir = join(PASTAS[s], pasta);
   const laminas = readdirSync(dir).filter((f) => /^\d+\.jpg$/.test(f)).sort();
-  return [{ slot: s, nome: pasta, feed: laminas.map((f) => join(dir, f)), stories: [], legenda: readFileSync(join(dir, "legenda.txt"), "utf8").trim() }];
+  const video = existsSync(join(dir, "reel.mp4")) ? join(dir, "reel.mp4") : null;
+  return [{ slot: s, nome: pasta, feed: laminas.map((f) => join(dir, f)), stories: [], video, legenda: readFileSync(join(dir, "legenda.txt"), "utf8").trim() }];
 }
 
 let falhas = 0;
@@ -125,6 +126,7 @@ for (const s of [...atrasados, slot]) {
           console.error(`Reels falhou, vai a imagem: ${e.message}`);
         }
       }
+      if (!reel && !feed.length) throw new Error("o Reels não saiu e não há imagem para publicar no lugar");
       const feito = { reel, feed: !reel && feed.length ? await publicarFeed(feed, item.legenda) : null, stories: [], em: new Date().toISOString() };
       for (const st of stories) {
         try {
