@@ -74,12 +74,11 @@ const lerRegistro = () => {
 const dia = JSON.parse(readFileSync(join(pastaDoDia, "dia.json"), "utf8"));
 
 function itensDo(s) {
-  if (!PASTAS[s])
+  const pasta = PASTAS[s] && existsSync(PASTAS[s]) ? readdirSync(PASTAS[s]).find((p) => p.startsWith(`${data}-`)) : undefined;
+  if (!pasta)
     return dia.itens
       .filter((i) => i.slot === s)
       .map((i) => ({ ...i, feed: i.feed.map((f) => join(pastaDoDia, f)), stories: i.stories.map((f) => join(pastaDoDia, f)), video: i.video && existsSync(join(pastaDoDia, i.video)) ? join(pastaDoDia, i.video) : null }));
-  const pasta = existsSync(PASTAS[s]) ? readdirSync(PASTAS[s]).find((p) => p.startsWith(`${data}-`)) : undefined;
-  if (!pasta) return [];
   const dir = join(PASTAS[s], pasta);
   const laminas = readdirSync(dir).filter((f) => /^\d+\.jpg$/.test(f)).sort();
   const video = existsSync(join(dir, "reel.mp4")) ? join(dir, "reel.mp4") : null;

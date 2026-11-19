@@ -1,5 +1,5 @@
 import { spawn } from "node:child_process";
-import { mkdirSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, readdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { createRequire } from "node:module";
 
@@ -38,7 +38,9 @@ try {
   const pagina = await navegador.newPage();
   await pagina.addInitScript(() => localStorage.setItem("santinho-preferencias", JSON.stringify({ boasVindas: true })));
   await pagina.goto(`http://localhost:${porta}/`, { waitUntil: "networkidle", timeout: 90000 });
-  const r = await pagina.evaluate(async (iso) => {
+  const pastaDoConheca = "docs/marca/instagram/conheca";
+  const temConheca = existsSync(pastaDoConheca) && readdirSync(pastaDoConheca).some((p) => p.startsWith(`${iso}-`));
+  const r = await pagina.evaluate(async ([iso, temConheca]) => {
     const datas = await import("/src/liturgia/datas.ts");
     const { diaLiturgico } = await import("/src/liturgia/calendario.ts");
     const { carregarLecionario, leiturasDoDia } = await import("/src/liturgia/lecionario.ts");
@@ -51,7 +53,7 @@ try {
     const { dataGrande } = await import("/src/divulgacao/datas.ts");
     const { reflexaoDoEvangelho } = await import("/src/reflexoes/reflexoes.ts");
     const { misteriosDoDia } = await import("/src/liturgia/terco.ts");
-    const { santosDaDataMMDD, lembradosDaDataMMDD } = await import("/src/santos/santos.ts");
+    const { santosDaDataMMDD, lembradosDaDataMMDD, fotoDoSanto } = await import("/src/santos/santos.ts");
     await document.fonts.ready;
 
     const arquivos = {};
@@ -249,6 +251,165 @@ try {
       itens.push({ slot: "santos", nome: santos.map((s) => s.nome).join("; "), feed, stories, legenda });
     }
 
+    const doReel = temConheca
+      ? null
+      : (doCalendario[0] ?? (solenidade ? null : [...doDia, ...lembrados].find((s) => s.imagem && s.historia.join(" ").length >= 300))) ?? null;
+    if (doReel) {
+      const s = doReel;
+      const W = 1080, H = 1920;
+      const foto = fotoDoSanto(s);
+      const img = foto ? await carregarImagem(foto).catch(() => null) : null;
+      const quebrar = (ctx, t, w) => {
+        const ls = [];
+        let a = "";
+        for (const p of t.split(/\s+/)) {
+          const n = a ? `${a} ${p}` : p;
+          if (ctx.measureText(n).width > w && a) {
+            ls.push(a);
+            a = p;
+          } else a = n;
+        }
+        if (a) ls.push(a);
+        return ls;
+      };
+      const tela = () => {
+        const c = document.createElement("canvas");
+        c.width = W;
+        c.height = H;
+        return [c, c.getContext("2d")];
+      };
+      const fundo = (x, escuro) => {
+        x.fillStyle = "#131210";
+        x.fillRect(0, 0, W, H);
+        if (img) {
+          const e = Math.max(W / img.naturalWidth, H / img.naturalHeight);
+          const w = img.naturalWidth * e, h = img.naturalHeight * e;
+          const [fx, fy] = (s.imagem?.foco ?? "50% 30%").split(" ").map((v) => parseFloat(v) / 100);
+          x.drawImage(img, Math.min(0, Math.max(W - w, W / 2 - w * fx)), Math.min(0, Math.max(H - h, H * 0.4 - h * fy)), w, h);
+        }
+        x.fillStyle = `rgba(19,18,16,${escuro})`;
+        x.fillRect(0, 0, W, H);
+      };
+      const marca = (x) => {
+        x.textAlign = "center";
+        x.fillStyle = "rgba(255,255,255,.75)";
+        x.font = '600 34px "Inter Variable"';
+        x.fillText("Minha Igrejinha", W / 2, H - 150);
+      };
+      const historia = s.historia.join(" ").replace(/\s+/g, " ").trim();
+      const frases = historia.match(/[^.!?]+[.!?]+["”)]?\s*/g) ?? [historia];
+      const blocos = [];
+      let atual = "";
+      for (const f of frases) {
+        if ((atual + f).length > 170 && atual) {
+          blocos.push(atual.trim());
+          atual = f;
+          if (blocos.length >= 4) break;
+        } else atual += f;
+      }
+      if (atual && blocos.length < 4) blocos.push(atual.trim());
+      const completo = blocos.join(" ").length >= historia.length - 2;
+      const rotulo = s.calendario ? "SANTO DO DIA" : "HOJE LEMBRAMOS";
+      const quadros = [];
+      {
+        const [c, x] = tela();
+        fundo(x, 0.2);
+        const g = x.createLinearGradient(0, H * 0.4, 0, H);
+        g.addColorStop(0, "rgba(19,18,16,0)");
+        g.addColorStop(1, "rgba(19,18,16,.94)");
+        x.fillStyle = g;
+        x.fillRect(0, 0, W, H);
+        x.textAlign = "center";
+        x.font = '500 84px "Literata Variable"';
+        const ls = quebrar(x, s.nome, W - 160);
+        let y = H - 330 - (ls.length - 1) * 100;
+        x.fillStyle = "#D9A94A";
+        x.font = '700 40px "Inter Variable"';
+        x.fillText(rotulo.split("").join(" "), W / 2, y - 190);
+        x.fillStyle = "rgba(255,255,255,.8)";
+        x.font = '500 42px "Inter Variable"';
+        x.fillText(dataLonga, W / 2, y - 115);
+        x.fillStyle = "#fff";
+        x.font = '500 84px "Literata Variable"';
+        for (const l of ls) {
+          x.fillText(l, W / 2, y);
+          y += 100;
+        }
+        marca(x);
+        const cred = img ? conteudo.creditoDaImagemDoSanto(s) : "";
+        if (cred) {
+          x.fillStyle = "rgba(255,255,255,.5)";
+          x.font = '500 24px "Inter Variable"';
+          x.fillText(cred.length > 80 ? `${cred.slice(0, 78)}…` : cred, W / 2, H - 90);
+        }
+        quadros.push(await jpg("reel-santo-0.jpg", await new Promise((ok) => c.toBlob(ok, "image/png"))));
+      }
+      for (const [i, t] of blocos.entries()) {
+        const [c, x] = tela();
+        fundo(x, 0.74);
+        x.textAlign = "center";
+        x.fillStyle = "#fff";
+        x.font = '500 62px "Literata Variable"';
+        const ls = quebrar(x, t, W - 170);
+        let y = H / 2 - (ls.length * 88) / 2 + 40;
+        for (const l of ls) {
+          x.fillText(l, W / 2, y);
+          y += 88;
+        }
+        x.fillStyle = "#D9A94A";
+        x.font = '600 38px "Inter Variable"';
+        const semComplemento = s.nome.replace(/(,\s+[a-zà-ú][^,]*)+$/, "");
+        const curto = semComplemento.length > 44 ? `${semComplemento.slice(0, 42)}…` : semComplemento;
+        x.fillText(curto, W / 2, y + 60);
+        marca(x);
+        quadros.push(await jpg(`reel-santo-${i + 1}.jpg`, await new Promise((ok) => c.toBlob(ok, "image/png"))));
+      }
+      {
+        const [c, x] = tela();
+        x.fillStyle = "#FBF0DD";
+        x.fillRect(0, 0, W, H);
+        const sb = await carregarImagem("/simbolo.png");
+        if (sb) x.drawImage(sb, W / 2 - 110, 560, 220, (220 * sb.naturalHeight) / sb.naturalWidth);
+        x.textAlign = "center";
+        x.fillStyle = "#341E0D";
+        x.font = '600 84px "Literata Variable"';
+        x.fillText("Minha Igrejinha", W / 2, 960);
+        x.font = '500 50px "Inter Variable"';
+        x.fillStyle = "rgba(52,30,13,.8)";
+        x.fillText("Um santo por dia,", W / 2, 1100);
+        x.fillText("com a história completa no app.", W / 2, 1170);
+        x.fillStyle = "#A9792A";
+        x.font = '600 46px "Inter Variable"';
+        x.fillText("Link no perfil: @minhaigrejinhaapp", W / 2, 1330);
+        quadros.push(await jpg(`reel-santo-${blocos.length + 1}.jpg`, await new Promise((ok) => c.toBlob(ok, "image/png"))));
+      }
+      const pede = s.calendario || ["santo", "beato", "nossa-senhora"].includes(s.situacao ?? "");
+      const falas = [
+        `${s.calendario ? "Santo do dia" : "Hoje lembramos"}, ${diaEMes}: ${s.nome}.`,
+        ...blocos,
+        [completo ? "" : "A história continua no app Minha Igrejinha.", pede ? "Rogai por nós." : ""].filter(Boolean).join(" ") || "Minha Igrejinha.",
+      ];
+      arquivos["reel-santo.json"] = btoa(unescape(encodeURIComponent(JSON.stringify({ quadros, falas }))));
+      itens.push({
+        slot: "conheca",
+        nome: `Reels: ${s.nome}`,
+        feed: [],
+        stories: [],
+        reel: "reel-santo",
+        legenda: [
+          `${s.calendario ? "Santo do dia" : "Hoje lembramos"}, ${diaEMes}: ${s.nome}.`,
+          "",
+          s.resumo || s.historia[0],
+          "",
+          "A história completa está no app, em Santos.",
+          "",
+          conteudo.ASSINATURA,
+          "",
+          "#santododia #santosdaigreja #igrejacatolica",
+        ].join("\n"),
+      });
+    }
+
     for (const [i, { novena, festa }] of conteudo.novenasQueComecam(d).entries())
       itens.push({
         slot: "novena",
@@ -285,7 +446,7 @@ try {
     itens.push({ slot: "noite", nome: "Oração da noite", feed: [], stories: [await jpg("noite-story.jpg", await extra.imagemDaNoite(dataLonga))], legenda: "" });
 
     return { dia: { data: dataLonga, titulo: l.titulo, itens }, arquivos };
-  }, iso);
+  }, [iso, temConheca]);
   await navegador.close();
 
   mkdirSync(saida, { recursive: true });
