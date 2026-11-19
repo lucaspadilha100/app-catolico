@@ -32,6 +32,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: instagram
@@ -119,4 +120,17 @@ jobs:
             git -C .ig add -A
             git -C .ig commit -qm "Instagram: publicado ${{ steps.h.outputs.data }} ${{ steps.h.outputs.slot }}${{ steps.h.outputs.cron }}"
             git -C .ig push origin HEAD:refs/heads/instagram
+          fi
+
+      - name: Conferir o relógio
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          n=$(gh run list -R "$GITHUB_REPOSITORY" -w instagram-relogio.yml -L 20 --json status --jq '[.[]|select(.status!="completed")]|length')
+          if [ "$n" = "0" ]; then
+            echo "O relógio estava parado: ligando de novo."
+            gh workflow run instagram-relogio.yml -R "$GITHUB_REPOSITORY"
+          else
+            echo "Relógio ligado."
           fi
