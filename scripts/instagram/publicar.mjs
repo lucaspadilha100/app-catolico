@@ -2,7 +2,7 @@ import { execSync } from "node:child_process";
 import { existsSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname, join, relative, resolve } from "node:path";
 import { contaConectada, publicarFeed, publicarReel, publicarStory } from "./api.mjs";
-import { HORARIOS, RECUPERAR_ATE_HORAS, minutosDe } from "./horarios.mjs";
+import { ATRASO_MAXIMO, HORARIOS, RECUPERAR_ATE_HORAS, minutosDe } from "./horarios.mjs";
 
 const REPO = "lucaspadilha100/app-catolico";
 const CURIOSIDADES = "docs/marca/instagram/curiosidades";
@@ -31,6 +31,15 @@ const minutosAgora = (() => {
   const [h, m] = agora.toLocaleTimeString("en-GB", { timeZone: "America/Sao_Paulo", hour12: false }).split(":").map(Number);
   return h * 60 + m;
 })();
+
+if (cron) {
+  const h = HORARIOS.find((x) => x.cron === cron);
+  const atraso = minutosAgora - minutosDe(h.brasilia);
+  if (data !== hoje || atraso < -15 || atraso > ATRASO_MAXIMO) {
+    console.log(`${slot}: o agendamento chegou ${atraso} min fora do horário (${h.brasilia}); fica para o relógio.`);
+    process.exit(0);
+  }
+}
 
 const atrasados =
   cron && data === hoje

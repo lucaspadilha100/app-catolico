@@ -13,6 +13,8 @@ export const HORARIOS = [
 
 export const RECUPERAR_ATE_HORAS = 4;
 
+export const ATRASO_MAXIMO = 60;
+
 export const minutosDe = (hhmm) => {
   const [h, m] = hhmm.split(":").map(Number);
   return h * 60 + m;
