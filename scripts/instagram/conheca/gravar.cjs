@@ -6,7 +6,7 @@ const dur = JSON.parse(fs.readFileSync(pasta + '/duracoes.json', 'utf8'));
 const PAUSA = 0.4;
 const espera = (ms) => new Promise((r) => setTimeout(r, ms));
 (async () => {
-  const b = await chromium.launch({ args: ['--force-device-scale-factor=2'] });
+  const b = await chromium.launch({ args: ['--force-device-scale-factor=2', '--lang=pt-BR'] });
   const c = await b.newContext({ viewport: { width: 390, height: 844 }, deviceScaleFactor: 2, colorScheme: 'light', locale: 'pt-BR', timezoneId: 'America/Sao_Paulo', geolocation: roteiro.geolocalizacao, permissions: roteiro.geolocalizacao ? ['geolocation'] : [] });
   await c.addInitScript((extra) => {
     localStorage.setItem('santinho-preferencias', JSON.stringify({ boasVindas: true }));
