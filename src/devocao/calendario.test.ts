@@ -2,6 +2,7 @@ import { beforeEach, describe, expect, it, vi } from "vitest";
 import { dia, paraIso, somaDias } from "@/liturgia/datas";
 import { DESAFIOS, NOVENAS } from "./catalogo";
 import {
+  dataDaFesta,
   diaDaNovena,
   diaDaSemanaSanta,
   diasDaJanela,
@@ -16,6 +17,37 @@ import { alternarFeito, diasDeOracaoNaSemana, lerAcompanhamento, registrarOracao
 const novena = (id: string) => NOVENAS.find((n) => n.id === id)!;
 const desafio = (id: string) => DESAFIOS.find((d) => d.id === id)!;
 const iso = (d: Date) => paraIso(d);
+
+describe("festas que mudam de data", () => {
+  const festa = (id: string, ano: number) => iso(dataDaFesta(novena(id).festa, ano));
+  it("Corpus Christi, Imaculado Coração, Cristo Rei, Divino Pai Eterno e Círio", () => {
+    expect(festa("corpus-christi", 2026)).toBe("2026-06-04");
+    expect(festa("corpus-christi", 2027)).toBe("2027-05-27");
+    expect(festa("imaculado-coracao", 2027)).toBe("2027-06-05");
+    expect(festa("cristo-rei", 2026)).toBe("2026-11-22");
+    expect(festa("cristo-rei", 2027)).toBe("2027-11-21");
+    expect(festa("divino-pai-eterno", 2027)).toBe("2027-07-04");
+    expect(festa("divino-pai-eterno", 2026)).toBe("2026-07-05");
+    expect(festa("cirio-de-nazare", 2026)).toBe("2026-10-11");
+    expect(festa("cirio-de-nazare", 2027)).toBe("2027-10-10");
+  });
+
+  it("solenidades que no Brasil passam para o domingo", () => {
+    expect(festa("todos-os-santos", 2027)).toBe("2027-11-07");
+    expect(festa("todos-os-santos", 2026)).toBe("2026-11-01");
+    expect(festa("assuncao", 2027)).toBe("2027-08-15");
+    expect(festa("assuncao", 2026)).toBe("2026-08-16");
+    expect(festa("sao-pedro-e-sao-paulo", 2027)).toBe("2027-07-04");
+    expect(festa("sao-joao-batista", 2027)).toBe("2027-06-24");
+  });
+
+  it("Novena da Graça: de 4 a 12 de março", () => {
+    const n = novena("novena-da-graca");
+    expect(diaDaNovena(n, dia(2027, 3, 4))).toBe(1);
+    expect(diaDaNovena(n, dia(2027, 3, 12))).toBe(9);
+    expect(diaDaNovena(n, dia(2027, 3, 13))).toBeNull();
+  });
+});
 
 describe("novenas que começam sozinhas", () => {
   it("Aparecida: de 3 a 11 de outubro", () => {

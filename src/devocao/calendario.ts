@@ -1,12 +1,22 @@
 import { dia, diferencaEmDias, somaDias, type Dia } from "@/liturgia/datas";
-import { pascoa, pentecostes, primeiroDomingoDoAdvento, quartaDeCinzas } from "@/liturgia/calendario";
+import { dataDaSolenidade, pascoa, pentecostes, primeiroDomingoDoAdvento, quartaDeCinzas } from "@/liturgia/calendario";
 import type { Desafio, Festa, Novena } from "./catalogo";
 
 export function dataDaFesta(f: Festa, ano: number): Dia {
-  if ("mes" in f) return dia(ano, f.mes, f.dia);
+  if ("mes" in f) return f.noBrasil ? dataDaSolenidade(f.noBrasil, ano) : dia(ano, f.mes, f.dia);
   if (f.movel === "pentecostes") return pentecostes(ano);
   if (f.movel === "sagrado-coracao") return somaDias(pentecostes(ano), 19);
+  if (f.movel === "imaculado-coracao") return somaDias(pentecostes(ano), 20);
+  if (f.movel === "corpus-christi") return somaDias(pentecostes(ano), 11);
+  if (f.movel === "cristo-rei") return somaDias(primeiroDomingoDoAdvento(ano), -7);
+  if (f.movel === "divino-pai-eterno") return domingoDoMes(ano, 7, 1);
+  if (f.movel === "cirio-de-nazare") return domingoDoMes(ano, 10, 2);
   return somaDias(pascoa(ano), 7);
+}
+
+function domingoDoMes(ano: number, mes: number, n: number): Dia {
+  const primeiro = dia(ano, mes, 1);
+  return somaDias(primeiro, ((7 - primeiro.getUTCDay()) % 7) + 7 * (n - 1));
 }
 
 export const inicioDaNovena = (n: Novena, ano: number): Dia =>

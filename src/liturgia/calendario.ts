@@ -183,9 +183,9 @@ function celebracaoDoTempo(d: Dia): Candidato | null {
   return null;
 }
 
-type Movida = "jose" | "anunciacao" | "pedroPaulo" | "assuncao" | "todosSantos" | "joaoBatista";
+export type Movida = "jose" | "anunciacao" | "pedroPaulo" | "assuncao" | "todosSantos" | "joaoBatista";
 
-function dataDaSolenidade(qual: Movida, ano: number): Dia {
+export function dataDaSolenidade(qual: Movida, ano: number): Dia {
   const p = pascoa(ano);
   const ramos = somaDias(p, -7);
   const naSemanaSantaOuOitava = (d: Dia) => diferencaEmDias(d, ramos) >= 0 && diferencaEmDias(d, p) <= 7;

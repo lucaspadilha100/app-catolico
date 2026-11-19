@@ -1,4 +1,8 @@
-export type Festa = { mes: number; dia: number } | { movel: "pentecostes" | "sagrado-coracao" | "divina-misericordia" };
+import type { Movida } from "@/liturgia/calendario";
+
+export type Festa =
+  | { mes: number; dia: number; noBrasil?: Movida }
+  | { movel: "pentecostes" | "sagrado-coracao" | "divina-misericordia" | "corpus-christi" | "imaculado-coracao" | "cristo-rei" | "divino-pai-eterno" | "cirio-de-nazare" };
 
 export type GrupoDeNovenas = "nossa-senhora" | "senhor" | "santos";
 
@@ -37,6 +41,51 @@ export const NOVENAS: Novena[] = [
   { id: "santa-teresinha", nome: "Novena de Santa Teresinha do Menino Jesus", festa: { mes: 10, dia: 1 }, nomeDaFesta: "Santa Teresinha do Menino Jesus", grupo: "santos", dias: 9 },
   { id: "sao-francisco", nome: "Novena de São Francisco de Assis", festa: { mes: 10, dia: 4 }, nomeDaFesta: "São Francisco de Assis", grupo: "santos", dias: 9 },
   { id: "santa-dulce", nome: "Novena de Santa Dulce dos Pobres", festa: { mes: 8, dia: 13 }, nomeDaFesta: "Santa Dulce dos Pobres", grupo: "santos", dias: 9 },
+  { id: "santa-maria-mae-de-deus", nome: "Novena de Santa Maria, Mãe de Deus", festa: { mes: 1, dia: 1 }, nomeDaFesta: "Santa Maria, Mãe de Deus", grupo: "nossa-senhora", dias: 9 },
+  { id: "nossa-senhora-das-candeias", nome: "Novena de Nossa Senhora das Candeias", festa: { mes: 2, dia: 2 }, nomeDaFesta: "Apresentação do Senhor", grupo: "nossa-senhora", dias: 9 },
+  { id: "nossa-senhora-de-lourdes", nome: "Novena de Nossa Senhora de Lourdes", festa: { mes: 2, dia: 11 }, nomeDaFesta: "Nossa Senhora de Lourdes", grupo: "nossa-senhora", dias: 9 },
+  { id: "nossa-senhora-auxiliadora", nome: "Novena de Nossa Senhora Auxiliadora", festa: { mes: 5, dia: 24 }, nomeDaFesta: "Nossa Senhora Auxiliadora", grupo: "nossa-senhora", dias: 9 },
+  { id: "visitacao", nome: "Novena da Visitação de Nossa Senhora", festa: { mes: 5, dia: 31 }, nomeDaFesta: "Visitação de Nossa Senhora", grupo: "nossa-senhora", dias: 9 },
+  { id: "imaculado-coracao", nome: "Novena ao Imaculado Coração de Maria", festa: { movel: "imaculado-coracao" }, nomeDaFesta: "Imaculado Coração de Maria", grupo: "nossa-senhora", dias: 9 },
+  { id: "nossa-senhora-do-perpetuo-socorro", nome: "Novena de Nossa Senhora do Perpétuo Socorro", festa: { mes: 6, dia: 27 }, nomeDaFesta: "Nossa Senhora do Perpétuo Socorro", grupo: "nossa-senhora", dias: 9 },
+  { id: "assuncao", nome: "Novena da Assunção de Nossa Senhora", festa: { mes: 8, dia: 15, noBrasil: "assuncao" }, nomeDaFesta: "Assunção de Nossa Senhora", grupo: "nossa-senhora", dias: 9 },
+  { id: "natividade-de-nossa-senhora", nome: "Novena da Natividade de Nossa Senhora", festa: { mes: 9, dia: 8 }, nomeDaFesta: "Natividade de Nossa Senhora", grupo: "nossa-senhora", dias: 9 },
+  { id: "nossa-senhora-das-dores", nome: "Novena de Nossa Senhora das Dores", festa: { mes: 9, dia: 15 }, nomeDaFesta: "Nossa Senhora das Dores", grupo: "nossa-senhora", dias: 9 },
+  { id: "nossa-senhora-do-rosario", nome: "Novena de Nossa Senhora do Rosário", festa: { mes: 10, dia: 7 }, nomeDaFesta: "Nossa Senhora do Rosário", grupo: "nossa-senhora", dias: 9 },
+  { id: "cirio-de-nazare", nome: "Novena de Nossa Senhora de Nazaré", festa: { movel: "cirio-de-nazare" }, nomeDaFesta: "Círio de Nazaré", grupo: "nossa-senhora", dias: 9 },
+  { id: "nossa-senhora-de-guadalupe", nome: "Novena de Nossa Senhora de Guadalupe", festa: { mes: 12, dia: 12 }, nomeDaFesta: "Nossa Senhora de Guadalupe", grupo: "nossa-senhora", dias: 9 },
+  { id: "anunciacao", nome: "Novena da Anunciação do Senhor", festa: { mes: 3, dia: 25, noBrasil: "anunciacao" }, nomeDaFesta: "Anunciação do Senhor", grupo: "senhor", dias: 9 },
+  { id: "corpus-christi", nome: "Novena de Corpus Christi", festa: { movel: "corpus-christi" }, nomeDaFesta: "Santíssimo Corpo e Sangue de Cristo", grupo: "senhor", dias: 9 },
+  { id: "divino-pai-eterno", nome: "Novena ao Divino Pai Eterno", festa: { movel: "divino-pai-eterno" }, nomeDaFesta: "Divino Pai Eterno", grupo: "senhor", dias: 9 },
+  { id: "exaltacao-da-santa-cruz", nome: "Novena da Exaltação da Santa Cruz", festa: { mes: 9, dia: 14 }, nomeDaFesta: "Exaltação da Santa Cruz", grupo: "senhor", dias: 9 },
+  { id: "cristo-rei", nome: "Novena a Cristo Rei", festa: { movel: "cristo-rei" }, nomeDaFesta: "Nosso Senhor Jesus Cristo, Rei do Universo", grupo: "senhor", dias: 9 },
+  { id: "fieis-defuntos", nome: "Novena pelos fiéis defuntos", festa: { mes: 11, dia: 2 }, nomeDaFesta: "Comemoração dos fiéis defuntos", grupo: "senhor", dias: 9 },
+  { id: "sao-sebastiao", nome: "Novena de São Sebastião", festa: { mes: 1, dia: 20 }, nomeDaFesta: "São Sebastião", grupo: "santos", dias: 9 },
+  { id: "novena-da-graca", nome: "Novena da Graça a São Francisco Xavier", festa: { mes: 3, dia: 12 }, nomeDaFesta: "Canonização de São Francisco Xavier", grupo: "santos", dias: 9, terminaNaFesta: true },
+  { id: "sao-jorge", nome: "Novena de São Jorge", festa: { mes: 4, dia: 23 }, nomeDaFesta: "São Jorge", grupo: "santos", dias: 9 },
+  { id: "sao-joao-batista", nome: "Novena de São João Batista", festa: { mes: 6, dia: 24, noBrasil: "joaoBatista" }, nomeDaFesta: "Nascimento de São João Batista", grupo: "santos", dias: 9 },
+  { id: "sao-pedro-e-sao-paulo", nome: "Novena de São Pedro e São Paulo", festa: { mes: 6, dia: 29, noBrasil: "pedroPaulo" }, nomeDaFesta: "São Pedro e São Paulo", grupo: "santos", dias: 9 },
+  { id: "santa-paulina", nome: "Novena de Santa Paulina", festa: { mes: 7, dia: 9 }, nomeDaFesta: "Santa Paulina", grupo: "santos", dias: 9 },
+  { id: "sao-bento", nome: "Novena de São Bento", festa: { mes: 7, dia: 11 }, nomeDaFesta: "São Bento", grupo: "santos", dias: 9 },
+  { id: "sao-cristovao", nome: "Novena de São Cristóvão", festa: { mes: 7, dia: 25 }, nomeDaFesta: "São Cristóvão", grupo: "santos", dias: 9 },
+  { id: "santana-e-sao-joaquim", nome: "Novena de Sant'Ana e São Joaquim", festa: { mes: 7, dia: 26 }, nomeDaFesta: "Sant'Ana e São Joaquim", grupo: "santos", dias: 9 },
+  { id: "santa-marta", nome: "Novena de Santa Marta, Maria e Lázaro", festa: { mes: 7, dia: 29 }, nomeDaFesta: "Santa Marta, Maria e Lázaro", grupo: "santos", dias: 9 },
+  { id: "sao-domingos", nome: "Novena de São Domingos", festa: { mes: 8, dia: 8 }, nomeDaFesta: "São Domingos", grupo: "santos", dias: 9 },
+  { id: "santa-clara", nome: "Novena de Santa Clara", festa: { mes: 8, dia: 11 }, nomeDaFesta: "Santa Clara", grupo: "santos", dias: 9 },
+  { id: "sao-roque", nome: "Novena de São Roque", festa: { mes: 8, dia: 16 }, nomeDaFesta: "São Roque", grupo: "santos", dias: 9 },
+  { id: "santa-monica", nome: "Novena de Santa Mônica", festa: { mes: 8, dia: 27 }, nomeDaFesta: "Santa Mônica", grupo: "santos", dias: 9 },
+  { id: "sao-pio", nome: "Novena de São Pio de Pietrelcina", festa: { mes: 9, dia: 23 }, nomeDaFesta: "São Pio de Pietrelcina", grupo: "santos", dias: 9 },
+  { id: "sao-cosme-e-sao-damiao", nome: "Novena de São Cosme e São Damião", festa: { mes: 9, dia: 26 }, nomeDaFesta: "São Cosme e São Damião", grupo: "santos", dias: 9 },
+  { id: "sao-vicente-de-paulo", nome: "Novena de São Vicente de Paulo", festa: { mes: 9, dia: 27 }, nomeDaFesta: "São Vicente de Paulo", grupo: "santos", dias: 9 },
+  { id: "santos-anjos-da-guarda", nome: "Novena aos Santos Anjos da Guarda", festa: { mes: 10, dia: 2 }, nomeDaFesta: "Santos Anjos da Guarda", grupo: "santos", dias: 9 },
+  { id: "martires-de-cunhau-e-uruacu", nome: "Novena aos Mártires de Cunhaú e Uruaçu", festa: { mes: 10, dia: 3 }, nomeDaFesta: "Santos Protomártires do Brasil", grupo: "santos", dias: 9 },
+  { id: "sao-benedito", nome: "Novena de São Benedito", festa: { mes: 10, dia: 5 }, nomeDaFesta: "São Benedito", grupo: "santos", dias: 9 },
+  { id: "santa-teresa-de-avila", nome: "Novena de Santa Teresa de Jesus", festa: { mes: 10, dia: 15 }, nomeDaFesta: "Santa Teresa de Jesus", grupo: "santos", dias: 9 },
+  { id: "santa-edwiges", nome: "Novena de Santa Edwiges", festa: { mes: 10, dia: 16 }, nomeDaFesta: "Santa Edwiges", grupo: "santos", dias: 9 },
+  { id: "frei-galvao", nome: "Novena de Santo Antônio de Sant'Ana Galvão", festa: { mes: 10, dia: 25 }, nomeDaFesta: "Frei Galvão", grupo: "santos", dias: 9 },
+  { id: "todos-os-santos", nome: "Novena de Todos os Santos", festa: { mes: 11, dia: 1, noBrasil: "todosSantos" }, nomeDaFesta: "Todos os Santos", grupo: "santos", dias: 9 },
+  { id: "santa-barbara", nome: "Novena de Santa Bárbara", festa: { mes: 12, dia: 4 }, nomeDaFesta: "Santa Bárbara", grupo: "santos", dias: 9 },
+  { id: "santa-luzia", nome: "Novena de Santa Luzia", festa: { mes: 12, dia: 13 }, nomeDaFesta: "Santa Luzia", grupo: "santos", dias: 9 },
 ];
 
 export type Periodo = "quaresma" | "advento" | { mes: number };
