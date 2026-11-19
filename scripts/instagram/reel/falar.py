@@ -1,9 +1,11 @@
-import os, re, subprocess, sys, tempfile, wave
+import asyncio, os, re, subprocess, sys, tempfile, time, wave
 
 VOZ = os.environ.get("VOZ_PIPER", os.path.expanduser("~/.cache/piper/pt_BR-faber-medium.onnx"))
 LENTO = 1.32
 PAUSA_FRASE = 0.52
 PAUSA_VIRGULA = 0.3
+VOZ_NEURAL = os.environ.get("VOZ_NEURAL", "pt-BR-AntonioNeural")
+RITMO_NEURAL = "-6%"
 
 
 def partes(texto):
@@ -26,7 +28,40 @@ def partes(texto):
     return out
 
 
+def neural(texto, saida):
+    import edge_tts
+
+    with tempfile.TemporaryDirectory() as pasta:
+        mp3 = os.path.join(pasta, "fala.mp3")
+        for tentativa in range(3):
+            try:
+                asyncio.run(edge_tts.Communicate(texto, VOZ_NEURAL, rate=RITMO_NEURAL, proxy=os.environ.get("HTTPS_PROXY") or None).save(mp3))
+                if os.path.getsize(mp3) > 0:
+                    break
+            except Exception:
+                if tentativa == 2:
+                    raise
+            time.sleep(3)
+        else:
+            raise RuntimeError("áudio vazio")
+        subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", mp3, "-ac", "1", "-ar", "24000", saida], check=True)
+
+
+neural_falhou = False
+
+
 def sintetizar(texto, saida):
+    global neural_falhou
+    if VOZ_NEURAL != "piper" and not neural_falhou:
+        try:
+            return neural(texto, saida)
+        except Exception as e:
+            neural_falhou = True
+            print(f"::warning::A voz neural falhou ({e}); a narração sai na voz livre.", file=sys.stderr)
+    return piper(texto, saida)
+
+
+def piper(texto, saida):
     sr, dados = None, b""
     for p in partes(texto):
         with tempfile.NamedTemporaryFile(suffix=".wav") as tmp:
