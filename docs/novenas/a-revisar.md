@@ -14,4 +14,4 @@ Escritas por cinco agentes e conferidas por quatro revisores independentes (Cate
 - **Mártires de Cunhaú:** data de 16/7/1645 (algumas fontes dizem 15/7); vale conferir com a Arquidiocese de Natal.
 - **Grafia:** "Santa Bernadete" na novena de Lourdes e "Bernadette Soubirous" na ficha do santo.
 - **Datas:** Todos os Santos, Assunção, São Pedro e São Paulo, Anunciação e São João Batista seguem o dia em que a solenidade cai no Brasil (`noBrasil` no catálogo, pela mesma conta do calendário litúrgico). Corpus Christi, Imaculado Coração, Cristo Rei, Divino Pai Eterno (1º domingo de julho) e Círio (2º domingo de outubro) mudam todo ano.
-- **Imagens:** as 45 ainda não têm pintura (a tela e o post do Instagram saem sem imagem, no fundo creme).
+- **Imagens** (20/11/2026): as 45 têm imagem, com crédito em `imagens.json`. Quatro ficaram fracas porque o Commons limitou as consultas e dá para trocar por pintura colorida: São João Batista (relevo), São Cristóvão (xilogravura de Dürer), Santa Clara (desenho sépia), São Roque (gravura). No Círio, a imagem é de Nossa Senhora da Nazaré de Portugal (mesma devoção), não a de Belém.
