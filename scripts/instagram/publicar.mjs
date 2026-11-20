@@ -125,7 +125,7 @@ for (const s of [...atrasados, slot]) {
           console.error(`Reels falhou, vai a imagem: ${e.message}`);
         }
       }
-      if (!reel && !feed.length) throw new Error("o Reels não saiu e não há imagem para publicar no lugar");
+      if (video && !reel && !feed.length) throw new Error("o Reels não saiu e não há imagem para publicar no lugar");
       const feito = { reel, feed: !reel && feed.length ? await publicarFeed(feed, item.legenda) : null, stories: [], em: new Date().toISOString() };
       for (const st of stories) {
         try {
