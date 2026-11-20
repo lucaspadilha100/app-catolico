@@ -5,6 +5,7 @@ import { contaConectada, publicarFeed, publicarReel, publicarStory } from "./api
 import { ATRASO_MAXIMO, HORARIOS, RECUPERAR_ATE_HORAS, minutosDe } from "./horarios.mjs";
 
 const REPO = "lucaspadilha100/app-catolico";
+const ESPECIAIS = "docs/marca/instagram/especiais";
 const PASTAS = { curiosidade: "docs/marca/instagram/curiosidades", conheca: "docs/marca/instagram/conheca" };
 
 const args = process.argv.slice(2);
@@ -73,7 +74,20 @@ const lerRegistro = () => {
 };
 const dia = JSON.parse(readFileSync(join(pastaDoDia, "dia.json"), "utf8"));
 
+function especiaisDo(s) {
+  const arquivo = join(ESPECIAIS, data, "especial.json");
+  if (!existsSync(arquivo)) return [];
+  const pasta = dirname(arquivo);
+  return JSON.parse(readFileSync(arquivo, "utf8"))
+    .filter((i) => i.slot === s)
+    .map((i) => ({ ...i, feed: (i.feed ?? []).map((f) => join(pasta, f)), stories: (i.stories ?? []).map((f) => join(pasta, f)), video: i.video ? join(pasta, i.video) : null, legenda: i.legenda ?? "" }));
+}
+
 function itensDo(s) {
+  return [...itensDoHorario(s), ...especiaisDo(s)];
+}
+
+function itensDoHorario(s) {
   const pasta = PASTAS[s] && existsSync(PASTAS[s]) ? readdirSync(PASTAS[s]).find((p) => p.startsWith(`${data}-`)) : undefined;
   if (!pasta)
     return dia.itens
@@ -107,7 +121,7 @@ for (const s of [...atrasados, slot]) {
     if (s !== slot) console.log(`Recuperando ${data}/${chave}, que não saiu no horário.`);
     try {
       const feed = item.feed.map(url);
-      const stories = item.stories.map(url);
+      const stories = item.stories.map((f) => (/\.mp4$/i.test(f) ? urlDoVideo(f) : url(f)));
       console.log(`${data}/${chave}: ${item.nome}\nFeed (${feed.length}): ${feed.join(" ")}\nStories (${stories.length}): ${stories.join(" ")}${item.video ? `\nReels: ${urlDoVideo(item.video)}` : ""}`);
       if (item.legenda) console.log(`Legenda:\n${item.legenda.slice(0, 300)}${item.legenda.length > 300 ? "…" : ""}`);
       await conferir([...feed, ...stories]);

@@ -63,8 +63,9 @@ export async function publicarReel(url, legenda) {
 
 export async function publicarStory(url) {
   const { id } = credenciais();
-  const c = await chamar(`/${id}/media`, { media_type: "STORIES", image_url: url });
-  return publicarContainer(c.id);
+  const video = /\.mp4$/i.test(url);
+  const c = await chamar(`/${id}/media`, { media_type: "STORIES", [video ? "video_url" : "image_url"]: url });
+  return publicarContainer(c.id, video ? 120 : 40);
 }
 
 export async function contaConectada() {
