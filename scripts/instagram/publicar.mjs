@@ -42,7 +42,7 @@ if (cron) {
 }
 
 const atrasados =
-  cron && data === hoje
+  data === hoje && !teste
     ? HORARIOS.filter((h) => h.recuperar && h.slot !== slot && minutosDe(h.brasilia) < minutosAgora && minutosAgora - minutosDe(h.brasilia) <= RECUPERAR_ATE_HORAS * 60).map((h) => h.slot)
     : [];
 
