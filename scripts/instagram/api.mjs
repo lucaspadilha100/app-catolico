@@ -11,7 +11,21 @@ export function credenciais() {
   return { token, id };
 }
 
+const PASSAGEIRO = /only photo or video|unexpected error|try again|temporar|timeout|media could not be fetched|please retry/i;
+
 async function chamar(caminho, parametros, metodo = "POST") {
+  for (let tentativa = 1; ; tentativa++) {
+    try {
+      return await chamarUmaVez(caminho, parametros, metodo);
+    } catch (e) {
+      if (metodo !== "POST" || tentativa >= 4 || !PASSAGEIRO.test(e.message)) throw e;
+      console.log(`${e.message}: tentando de novo (${tentativa + 1}/4).`);
+      await esperar(Number(process.env.IG_ESPERA_REPETIR ?? 20000));
+    }
+  }
+}
+
+async function chamarUmaVez(caminho, parametros, metodo) {
   const { token } = credenciais();
   const corpo = new URLSearchParams({ ...parametros, access_token: token });
   const url = metodo === "GET" ? `${base()}${caminho}?${corpo}` : `${base()}${caminho}`;
