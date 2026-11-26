@@ -59,8 +59,13 @@ function url(caminho) {
 
 async function conferir(urls) {
   for (const u of urls) {
-    const r = await fetch(u, { method: "HEAD" });
-    if (!r.ok) throw new Error(`Imagem fora do ar (${r.status}): ${u}`);
+    for (let tentativa = 1; ; tentativa++) {
+      const r = await fetch(u, { method: "HEAD" }).catch((e) => ({ ok: false, status: e.message }));
+      if (r.ok) break;
+      if (tentativa >= 5) throw new Error(`Arquivo fora do ar (${r.status}): ${u}`);
+      console.log(`Arquivo respondeu ${r.status}: tentando de novo (${tentativa + 1}/5).`);
+      await new Promise((ok) => setTimeout(ok, Number(process.env.IG_ESPERA_REPETIR ?? 20000)));
+    }
   }
 }
 
