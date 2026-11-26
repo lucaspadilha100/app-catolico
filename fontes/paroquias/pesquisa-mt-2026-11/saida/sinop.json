@@ -252,8 +252,104 @@
         "cidade": "Sinop",
         "localidade": "Centro",
         "endereco": "Av. das Sibipirunas, 3093",
-        "horarios": [],
-        "nao_cabe": ""
+        "horarios": [
+          {
+            "tipo": "missa",
+            "dia_semana": 1,
+            "hora": "19:30",
+            "semanas": null,
+            "observacao": ""
+          },
+          {
+            "tipo": "missa",
+            "dia_semana": 2,
+            "hora": "06:15",
+            "semanas": null,
+            "observacao": ""
+          },
+          {
+            "tipo": "missa",
+            "dia_semana": 3,
+            "hora": "06:15",
+            "semanas": null,
+            "observacao": ""
+          },
+          {
+            "tipo": "missa",
+            "dia_semana": 4,
+            "hora": "06:15",
+            "semanas": null,
+            "observacao": ""
+          },
+          {
+            "tipo": "missa",
+            "dia_semana": 5,
+            "hora": "06:15",
+            "semanas": null,
+            "observacao": ""
+          },
+          {
+            "tipo": "missa",
+            "dia_semana": 3,
+            "hora": "15:00",
+            "semanas": null,
+            "observacao": "Missa da Saúde"
+          },
+          {
+            "tipo": "missa",
+            "dia_semana": 6,
+            "hora": "19:30",
+            "semanas": null,
+            "observacao": ""
+          },
+          {
+            "tipo": "missa",
+            "dia_semana": 0,
+            "hora": "08:00",
+            "semanas": null,
+            "observacao": ""
+          },
+          {
+            "tipo": "missa",
+            "dia_semana": 0,
+            "hora": "17:00",
+            "semanas": null,
+            "observacao": ""
+          },
+          {
+            "tipo": "missa",
+            "dia_semana": 0,
+            "hora": "19:30",
+            "semanas": null,
+            "observacao": ""
+          },
+          {
+            "tipo": "missa",
+            "dia_semana": 5,
+            "hora": "19:30",
+            "semanas": [
+              1
+            ],
+            "observacao": ""
+          },
+          {
+            "tipo": "adoracao",
+            "dia_semana": 4,
+            "hora": "06:00",
+            "semanas": null,
+            "observacao": ""
+          },
+          {
+            "tipo": "adoracao",
+            "dia_semana": 5,
+            "hora": "19:00",
+            "semanas": [
+              1
+            ],
+            "observacao": ""
+          }
+        ],
+        "nao_cabe": "Missa com as crianças no último domingo do mês às 10h. Comunidade Todos os Santos: sábado 19h30, domingo 9h, 1ª sexta adoração 19h e missa 19h30. Comunidade Nossa Senhora de Lourdes: domingo 7h30, dia 11 de cada mês 19h30. Gleba Mercedes V, 2º e último domingo: N. Sra. da Salete 14h30, São José 16h30, São Marcos 18h30."
       }
     ],
     "fontes": [
@@ -266,10 +362,15 @@
         "url": "https://www.instagram.com/paroquiasantoantoniosinop/",
         "data": "",
         "o_que": "contatos"
+      },
+      {
+        "url": "https://www.santoantoniosinop.org.br/institucional/horarios-de-missa",
+        "data": "2026-11-26",
+        "o_que": "horarios"
       }
     ],
-    "confianca": "baixa",
-    "observacao": "Forania de Sinop. Sem horário publicado pela paróquia ou pela diocese (site da diocese parado desde 2022). Telefone e WhatsApp da secretaria do perfil da paróquia no Instagram; o site da diocese (2020) dava 3531-2692."
+    "confianca": "alta",
+    "observacao": "Forania de Sinop. Sem horário publicado pela paróquia ou pela diocese (site da diocese parado desde 2022). Telefone e WhatsApp da secretaria do perfil da paróquia no Instagram; o site da diocese (2020) dava 3531-2692. Horários do site da própria paróquia (lido em 26/11/2026)."
   },
   {
     "id_banco": null,
@@ -968,7 +1069,29 @@
         "cidade": "Alta Floresta",
         "localidade": "",
         "endereco": "Rua C, 1142",
-        "horarios": [],
+        "horarios": [
+          {
+            "tipo": "missa",
+            "dia_semana": 4,
+            "hora": "19:30",
+            "semanas": null,
+            "observacao": ""
+          },
+          {
+            "tipo": "missa",
+            "dia_semana": 0,
+            "hora": "07:30",
+            "semanas": null,
+            "observacao": ""
+          },
+          {
+            "tipo": "missa",
+            "dia_semana": 0,
+            "hora": "19:30",
+            "semanas": null,
+            "observacao": ""
+          }
+        ],
         "nao_cabe": "Comunidade Atenas (página própria no Facebook), sem bairro na fonte."
       }
     ],
@@ -977,10 +1100,15 @@
         "url": "https://diocesedesinop.com.br/foranias/forania-de-alta-floresta/paroquia-santa-cruz/",
         "data": "2020-06",
         "o_que": "contatos"
+      },
+      {
+        "url": "https://www.alodizimista.net/contato",
+        "data": "2026-11-26",
+        "o_que": "horarios"
       }
     ],
-    "confianca": "baixa",
-    "observacao": "Forania de Alta Floresta. Sem horário publicado pela paróquia ou pela diocese (site da diocese parado desde 2022)."
+    "confianca": "media",
+    "observacao": "Forania de Alta Floresta. Sem horário publicado pela paróquia ou pela diocese (site da diocese parado desde 2022). Horários de 26/11/2026: página de contato da paróquia no sistema de dízimo (mesmo telefone da secretaria), lida só pelo trecho da busca, sem data."
   },
   {
     "id_banco": null,

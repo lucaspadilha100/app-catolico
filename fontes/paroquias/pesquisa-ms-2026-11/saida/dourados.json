@@ -514,8 +514,144 @@
     "cidade": "Dourados",
     "localidade": "Jardim América",
     "endereco": "Av. Joaquim Teixeira Alves, 765",
-    "horarios": [],
-    "nao_cabe": ""
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": [
+       1
+      ],
+      "observacao": "Missa da saúde"
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 2,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 2,
+      "hora": "14:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "14:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "14:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "14:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Adoração na quinta das 7h às 18h40. Confissão terça a sexta das 8h30 às 10h30 e das 14h30 às 16h30. Comunidade Santa Cruz (Rua Belo Horizonte, 861, Jardim Itália): terça 19h, sábado 18h. Comunidade Cristo Redentor (Rua Eulália Pires, 345, COHAB II): quarta 19h, domingo 8h. 4º domingo: hora santa 16h e missa do dizimista 19h."
    }
   ],
   "fontes": [
@@ -523,10 +659,15 @@
     "url": "https://diocesededourados.org.br/paroquia/paroquia-sao-jose-operario",
     "data": "2026-11-13",
     "o_que": "contatos"
+   },
+   {
+    "url": "https://saojoseoperario.org/",
+    "data": "2026-11-26",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Sem horário na página da paróquia no site da diocese."
+  "confianca": "alta",
+  "observacao": "Sem horário na página da paróquia no site da diocese. Horários do site da própria paróquia (lido em 26/11/2026; o site dá a matriz na Av. Joaquim Teixeira Alves, 765, Centro)."
  },
  {
   "id_banco": null,
@@ -549,7 +690,36 @@
     "cidade": "Dourados",
     "localidade": "Vila Alba",
     "endereco": "Rua Coronel Ponciano, 3020",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
     "nao_cabe": ""
    }
   ],
@@ -558,10 +728,15 @@
     "url": "https://diocesededourados.org.br/paroquia/paroquia-nossa-senhora-de-fatima-1",
     "data": "2026-11-13",
     "o_que": "contatos"
+   },
+   {
+    "url": "https://www.facebook.com/paroquiansfatimadourados/",
+    "data": "2026-11-26",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Sem horário na página da paróquia no site da diocese."
+  "confianca": "media",
+  "observacao": "Sem horário na página da paróquia no site da diocese. Horários de 26/11/2026: trecho da página da paróquia no Facebook mostrado pela busca, sem data da publicação."
  },
  {
   "id_banco": null,
@@ -1301,8 +1476,58 @@
     "cidade": "Coronel Sapucaia",
     "localidade": "Centro",
     "endereco": "Rua Rachid S. Derzi, 413",
-    "horarios": [],
-    "nao_cabe": ""
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "18:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Domingo 9h30 no Bairro Vila Nova; sábado 19h na Vila Industrial."
    }
   ],
   "fontes": [
@@ -1310,10 +1535,15 @@
     "url": "https://diocesededourados.org.br/paroquia/paroquia-imaculada-conceicao",
     "data": "2026-11-13",
     "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesededourados.org.br/horarios-de-missa/",
+    "data": "2026-11-26",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Sem horário na página da paróquia no site da diocese."
+  "confianca": "alta",
+  "observacao": "Sem horário na página da paróquia no site da diocese. Horários da página Horários de Missa da diocese (lida em 26/11/2026)."
  },
  {
   "id_banco": null,
@@ -1398,8 +1628,37 @@
     "cidade": "Caarapó",
     "localidade": "Centro",
     "endereco": "Av. Barão do Rio Branco, 485",
-    "horarios": [],
-    "nao_cabe": ""
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Domingo 9h uma vez por mês (a fonte não diz qual). Quinta: terço às 7h e exposição do Santíssimo até 18h, depois da missa das 6h."
    }
   ],
   "fontes": [
@@ -1407,10 +1666,15 @@
     "url": "https://diocesededourados.org.br/paroquia/paroquia-senhor-bom-jesus",
     "data": "2026-11-13",
     "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesededourados.org.br/horarios-de-missa/",
+    "data": "2026-11-26",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Sem horário na página da paróquia no site da diocese."
+  "confianca": "alta",
+  "observacao": "Sem horário na página da paróquia no site da diocese. Horários da página Horários de Missa da diocese (lida em 26/11/2026)."
  },
  {
   "id_banco": null,
@@ -1433,7 +1697,29 @@
     "cidade": "Ponta Porã",
     "localidade": "Jardim Universitário",
     "endereco": "Rua Miguel Marcondes, 188",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
     "nao_cabe": ""
    }
   ],
@@ -1442,10 +1728,15 @@
     "url": "https://diocesededourados.org.br/paroquia/paroquia-divino-espirito-santo-1",
     "data": "2026-11-13",
     "o_que": "contatos"
+   },
+   {
+    "url": "https://diocesededourados.org.br/horarios-de-missa/",
+    "data": "2026-11-26",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Sem horário na página da paróquia no site da diocese."
+  "confianca": "alta",
+  "observacao": "Sem horário na página da paróquia no site da diocese. Horários da página Horários de Missa da diocese (lida em 26/11/2026)."
  },
  {
   "id_banco": null,
@@ -1927,8 +2218,107 @@
     "cidade": "Maracaju",
     "localidade": "",
     "endereco": "Av. Mário Correia, 341",
-    "horarios": [],
-    "nao_cabe": ""
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "11:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "11:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "11:15",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "15:00",
+      "semanas": null,
+      "observacao": "Missa da saúde"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 2,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": "Agendar pelo telefone"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": "Agendar pelo telefone"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": "Agendar pelo telefone"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 2,
+      "hora": "13:30",
+      "semanas": null,
+      "observacao": "Agendar pelo telefone"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 3,
+      "hora": "13:30",
+      "semanas": null,
+      "observacao": "Agendar pelo telefone"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "13:30",
+      "semanas": null,
+      "observacao": "Agendar pelo telefone"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 5,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": "Agendar pelo telefone"
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 6,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": "Agendar pelo telefone"
+     }
+    ],
+    "nao_cabe": "Quinta: adoração ao Santíssimo depois da missa das 11h15, até as 17h. Capelas: Nossa Senhora das Graças, terça 19h; São Francisco de Assis, quarta 19h; São Benedito, sábado 19h."
    }
   ],
   "fontes": [
@@ -1936,10 +2326,15 @@
     "url": "https://diocesededourados.org.br/paroquia/paroquia-nossa-senhora-aparecida",
     "data": "2026-11-13",
     "o_que": "contatos"
+   },
+   {
+    "url": "https://paroquiamaracaju.wixsite.com/paroquia-nossa-senho",
+    "data": "2026-11-26",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Sem horário na página da paróquia no site da diocese."
+  "confianca": "alta",
+  "observacao": "Sem horário na página da paróquia no site da diocese. Horários do site da própria paróquia (mesmo telefone da secretaria; site de 2023), lido em 26/11/2026."
  },
  {
   "id_banco": null,

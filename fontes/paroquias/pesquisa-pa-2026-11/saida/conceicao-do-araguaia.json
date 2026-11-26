@@ -360,8 +360,58 @@
     "cidade": "Redenção",
     "localidade": "Capuava, Entroncamento",
     "endereco": "Av. Juscelino Kubitschek, nº 46",
-    "horarios": [],
-    "nao_cabe": ""
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "06:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Há missa na sexta, mas o trecho da fonte corta antes do horário."
    }
   ],
   "fontes": [
@@ -369,10 +419,15 @@
     "url": "https://diocesedeconceicao.org.br/paroquias/",
     "data": "2026-11-13",
     "o_que": "contatos"
+   },
+   {
+    "url": "https://www.instagram.com/paroquiansg.redencao.pa/",
+    "data": "2026-11-26",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Região pastoral não publicada. Sem horário de missa publicado pela diocese ou pela paróquia. Instalada em 11/08/1987."
+  "confianca": "media",
+  "observacao": "Região pastoral não publicada. Sem horário de missa publicado pela diocese ou pela paróquia. Instalada em 11/08/1987. Horários de 26/11/2026: bio do Instagram da paróquia mostrada pela busca."
  },
  {
   "id_banco": null,

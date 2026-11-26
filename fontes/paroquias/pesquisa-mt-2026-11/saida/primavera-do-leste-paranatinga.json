@@ -278,8 +278,30 @@
     "cidade": "Primavera do Leste",
     "localidade": "São Cristóvão",
     "endereco": "Rua São Francisco de Assis",
-    "horarios": [],
-    "nao_cabe": ""
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "O site da paróquia lista também missas de semana e de sábado nas comunidades (não lidas)."
    }
   ],
   "fontes": [
@@ -287,10 +309,15 @@
     "url": "https://dioceseprimaveraptga.com.br/local/paroquia-nossa-senhora-da-salete/",
     "data": "2026-11-13",
     "o_que": "contatos"
+   },
+   {
+    "url": "http://paroquia.salesianosprimavera.org.br/",
+    "data": "2026-11-26",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Forania Pe. Onesto Costa. Salesianos. Sem horário publicado pela paróquia ou pela diocese (a página da diocese só traz contatos). O site saletepva.com.br não respondeu."
+  "confianca": "media",
+  "observacao": "Forania Pe. Onesto Costa. Salesianos. Sem horário publicado pela paróquia ou pela diocese (a página da diocese só traz contatos). O site saletepva.com.br não respondeu. Horários de 26/11/2026: trecho do site da paróquia (salesianos) mostrado pela busca; o site não abriu nesta sessão."
  },
  {
   "id_banco": null,

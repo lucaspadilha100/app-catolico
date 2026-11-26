@@ -1080,7 +1080,43 @@
     "cidade": "Parauapebas",
     "localidade": "Cidade Nova",
     "endereco": "Praça Mahatma Gandhi",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "10:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
     "nao_cabe": "No catálogo, a comunidade da matriz também aparece na Rua D, 88, Cidade Nova."
    },
    {
@@ -1234,10 +1270,15 @@
     "url": "https://diocesedemaraba.com.br/paroquia/sao-sebastiao/",
     "data": "2026-11-13",
     "o_que": "contatos"
+   },
+   {
+    "url": "https://www.facebook.com/paroquiassparauapebas/",
+    "data": "2026-11-26",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Área Pastoral Carajás. Sem horário de missa publicado pela diocese ou pela paróquia. Outro telefone da secretaria no catálogo: (94) 98196-0088."
+  "confianca": "media",
+  "observacao": "Área Pastoral Carajás. Sem horário de missa publicado pela diocese ou pela paróquia. Outro telefone da secretaria no catálogo: (94) 98196-0088. Horários de 26/11/2026: trecho da página da paróquia no Facebook mostrado pela busca (mesmo telefone da secretaria), sem data da publicação."
  },
  {
   "id_banco": null,
@@ -5715,8 +5756,65 @@
     "cidade": "Marabá",
     "localidade": "Nova Marabá",
     "endereco": "Folha 28 Quadra 01 Lote 01-A",
-    "horarios": [],
-    "nao_cabe": ""
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "adoracao",
+      "dia_semana": 4,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "09:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "confissao",
+      "dia_semana": 4,
+      "hora": "14:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Quinta: adoração das 7h às 17h; confissão das 9h às 11h e das 14h30 às 15h. 1ª segunda do mês: missa às 17h no Cemitério da Saudade (Folha 29). Quarta e quinta 19h30, missa ou celebração da Palavra alternando entre as comunidades."
    },
    {
     "id_banco": null,
@@ -5725,8 +5823,16 @@
     "cidade": "Marabá",
     "localidade": "Nova Marabá",
     "endereco": "Folha 29, Quadra 07, Lote 25",
-    "horarios": [],
-    "nao_cabe": ""
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Quinta 19h30, alternando com a Comunidade Santo Antônio (missa ou celebração)."
    },
    {
     "id_banco": null,
@@ -5735,8 +5841,16 @@
     "cidade": "Marabá",
     "localidade": "Nova Marabá",
     "endereco": "Folha 27 Quadra 07 Lote 13",
-    "horarios": [],
-    "nao_cabe": ""
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Quarta 19h30, alternando com a Comunidade Santa Terezinha (missa ou celebração)."
    },
    {
     "id_banco": null,
@@ -5745,8 +5859,16 @@
     "cidade": "Marabá",
     "localidade": "Nova Marabá",
     "endereco": "Folha 21 Quadra 09 Lote Especial",
-    "horarios": [],
-    "nao_cabe": ""
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "18:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Quarta 19h30, alternando com a Comunidade Nossa Senhora Aparecida (missa ou celebração)."
    },
    {
     "id_banco": null,
@@ -5755,8 +5877,16 @@
     "cidade": "Marabá",
     "localidade": "Nova Marabá",
     "endereco": "Folha 20 Quadra 09 Lote 33",
-    "horarios": [],
-    "nao_cabe": ""
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Quinta 19h30, alternando com a Comunidade Santo Eugênio (missa ou celebração)."
    }
   ],
   "fontes": [
@@ -5769,10 +5899,15 @@
     "url": "https://diocesedemaraba.com.br/paroquia/sagrado-coracao-de-jesus/",
     "data": "2026-11-13",
     "o_que": "contatos"
+   },
+   {
+    "url": "https://pscjmab.app.ofertorio.com/horarios/",
+    "data": "2026-11-26",
+    "o_que": "horarios"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Área Pastoral Nova Marabá. Sem horário de missa publicado pela diocese ou pela paróquia. Folha 28, Nova Marabá."
+  "confianca": "alta",
+  "observacao": "Área Pastoral Nova Marabá. Sem horário de missa publicado pela diocese ou pela paróquia. Folha 28, Nova Marabá. Horários do site da própria paróquia (lido em 26/11/2026)."
  },
  {
   "id_banco": null,
