@@ -1817,19 +1817,46 @@
     "cidade": "Palmas",
     "localidade": "Taquaruçu",
     "endereco": "",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
     "nao_cabe": ""
    }
   ],
   "fontes": [
+   {
+    "url": "https://arquidiocesedepalmas.org.br/paroquias/paroquia-n-sra-do-rosario/",
+    "data": "2026-11-23",
+    "o_que": "horarios"
+   },
    {
     "url": "https://www.facebook.com/taquarucuparoquia/",
     "data": "2026-11-13",
     "o_que": "contatos"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Paróquia do distrito de Taquaruçu; nem o site da arquidiocese nem as redes da paróquia publicam a grade de missas."
+  "confianca": "media",
+  "observacao": "Paróquia do distrito de Taquaruçu. A página da arquidiocese dá as celebrações sem nomear a igreja; entraram na matriz."
  },
  {
   "id_banco": null,
@@ -2627,19 +2654,46 @@
     "cidade": "Novo Acordo",
     "localidade": "Centro",
     "endereco": "",
-    "horarios": [],
-    "nao_cabe": ""
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "Todo dia 19 do mês, missa votiva de São José; 1ª sexta-feira, missa votiva do Sagrado Coração de Jesus (sem hora). Comunidades: Santo Antônio da Taboca, último sábado 12h; São João Batista (Assentamento), sábado de 15 em 15 dias 19h30; Imaculada Conceição (Balsa), 3ª sexta 19h30; N. Sra. Aparecida (Novo Horizonte), sábado de 15 em 15 dias 19h30."
    }
   ],
   "fontes": [
+   {
+    "url": "https://arquidiocesedepalmas.org.br/horarios-de-missas/",
+    "data": "2026-11-23",
+    "o_que": "horarios"
+   },
    {
     "url": "https://arquidiocesedepalmas.org.br/horarios-de-missas/",
     "data": "2026-11-13",
     "o_que": "contatos"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Aparece na lista da arquidiocese, mas a grade de missas da matriz não foi encontrada em fonte da paróquia ou da arquidiocese."
+  "confianca": "alta",
+  "observacao": "Grade da matriz na página Horários de Missas da arquidiocese."
  },
  {
   "id_banco": null,
@@ -2873,11 +2927,31 @@
     "cidade": "Tocantínia",
     "localidade": "Centro",
     "endereco": "Praça Frei Antônio de Ganges, 895",
-    "horarios": [],
-    "nao_cabe": "No 3º sábado do mês: Assentamento Buritirana 9h, Água Fria I 15h, Água Fria II 17h. Comunidade Nossa Senhora das Mercês: domingo 8h e 19h, terça 9h; comunidade Perpétuo Socorro: quarta 19h"
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
+    "nao_cabe": "No 3º sábado do mês: Assentamento Buritirana 9h, Água Fria I 15h, Água Fria II 17h. Capela Nossa Senhora das Mercês: terça 9h; comunidade Perpétuo Socorro: quarta 19h"
    }
   ],
   "fontes": [
+   {
+    "url": "https://arquidiocesedepalmas.org.br/paroquias/paroquia-sao-sebastiao-tocantinia/",
+    "data": "2026-11-23",
+    "o_que": "horarios"
+   },
    {
     "url": "https://arquidiocesedepalmas.org.br/paroquias/paroquia-sao-sebastiao-tocantinia/",
     "data": "2026-11-13",
@@ -2890,6 +2964,6 @@
    }
   ],
   "confianca": "media",
-  "observacao": "Atende a missão indígena Xerente (aldeia Krite); a grade da matriz não ficou clara no site da arquidiocese."
+  "observacao": "Atende a missão indígena Xerente (aldeia Krite). A página da arquidiocese dá domingo 8h e 19h sem nomear a igreja (as outras linhas nomeiam a comunidade); entraram na matriz."
  }
 ]

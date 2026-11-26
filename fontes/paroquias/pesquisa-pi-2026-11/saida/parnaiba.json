@@ -55,19 +55,74 @@
     "cidade": "Parnaíba",
     "localidade": "Nova Parnaíba",
     "endereco": "Av. Cel. Lucas, s/n",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "17:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "17:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "17:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "17:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "07:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "19:00",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
     "nao_cabe": ""
    }
   ],
   "fontes": [
+   {
+    "url": "https://www.instagram.com/paroquiadefatimaphb/",
+    "data": "",
+    "o_que": "horarios"
+   },
    {
     "url": "https://diocesedeparnaiba.app.ofertorio.com/paroquia-nossa-senhora-de-fatima/",
     "data": "2025-12-18",
     "o_que": "contatos"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Zonal Norte I. Sem horário confirmado: as páginas de paróquia do site da diocese (endereço da plataforma Ofertório) trazem só contatos, e o domínio diocesedeparnaiba.org.br bloqueia acesso automático."
+  "confianca": "media",
+  "observacao": "Zonal Norte I. Horários na bio do Instagram da paróquia (trecho visto pela busca em 23/11/2026, sem data)."
  },
  {
   "id_banco": null,
@@ -125,19 +180,123 @@
     "cidade": "Parnaíba",
     "localidade": "Campos",
     "endereco": "Av. São Sebastião, 818",
-    "horarios": [],
+    "horarios": [
+     {
+      "tipo": "missa",
+      "dia_semana": 1,
+      "hora": "17:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "06:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 2,
+      "hora": "17:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 3,
+      "hora": "17:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 4,
+      "hora": "17:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 5,
+      "hora": "17:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 6,
+      "hora": "17:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "08:00",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "15:30",
+      "semanas": null,
+      "observacao": ""
+     },
+     {
+      "tipo": "missa",
+      "dia_semana": 0,
+      "hora": "17:30",
+      "semanas": null,
+      "observacao": ""
+     }
+    ],
     "nao_cabe": ""
    }
   ],
   "fontes": [
+   {
+    "url": "https://www.facebook.com/saosebastiaophbofc/",
+    "data": "",
+    "o_que": "horarios"
+   },
    {
     "url": "https://diocesedeparnaiba.app.ofertorio.com/paroquia-sao-sebastiao/",
     "data": "2025-06-11",
     "o_que": "contatos"
    }
   ],
-  "confianca": "baixa",
-  "observacao": "Zonal Norte I. Sem horário confirmado: as páginas de paróquia do site da diocese (endereço da plataforma Ofertório) trazem só contatos, e o domínio diocesedeparnaiba.org.br bloqueia acesso automático. Paróquia com convento dos capuchinhos (GCatholic: Capuchin Franciscans)."
+  "confianca": "media",
+  "observacao": "Zonal Norte I. Paróquia com convento dos capuchinhos (GCatholic: Capuchin Franciscans). Horários da Igreja Matriz no Facebook da paróquia (trecho visto pela busca em 23/11/2026, sem data)."
  },
  {
   "id_banco": null,
